@@ -1623,7 +1623,7 @@
 			"",
 			"**Example:** Mark's character is constructing a house, and he wants to acquire 1 point of Labor, which he plans to spend on the house's construction requirements. He decides to use 1 day of downtime and pay 10 gp to earn the point of Labor, instead of paying 20 gp to purchase it outright. He immediately spends this 1 point of Labor on the construction requirements of the house. For roleplaying purposes, Mark states that he used the day to dig a foundation for his house, and spent the 10 gp on the tools and raw materials he needed to start the foundation.",
 			"",
-			"**Example:** Laura's character plans to build a blacksmith's shop, and needs 1 point of Labor. She decides to use 1 day of downtime and pay 10 gp to earn the 1 point of Labor, but saves it for later use. Since construction work is out of character for him, Laura explains that her character spent the day making deliveries for a local mason, who in turn promised to help her build her blacksmith's shop. The gold cost goes toward this future construction, but for ease of tracking, Laura pays for it now. She doesn't have to keep track of this 1 point of Labor as -1 point of Labor from a mason,- since the exact nature of Labor matters only for roleplaying purposes. None of the downtime activities require specific kinds of labor.",
+			"**Example:** Laura's character plans to build a blacksmith's shop, and needs 1 point of Labor. She decides to use 1 day of downtime and pay 10 gp to earn the 1 point of Labor, but saves it for later use. Since construction work is out of character for him, Laura explains that her character spent the day making deliveries for a local mason, who in turn promised to help her build her blacksmith's shop. The gold cost goes toward this future construction, but for ease of tracking, Laura pays for it now. She doesn't have to keep track of this 1 point of Labor as \"1 point of Labor from a mason,\" since the exact nature of Labor matters only for roleplaying purposes. None of the downtime activities require specific kinds of labor.",
 			"",
 			"***Skilled Work:*** If you have ranks in a useful skill, you can spend 1 day working in a settlement to earn more capital than you would doing unskilled work. Note that this method includes both legal and illegal means of earning capital-for example, a day spent using Sleight of Hand to earn money could be a day spent performing as a street magician or a day spent pickpocketing.",
 			"",
@@ -7841,7 +7841,6 @@
 			"| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |",
 			"| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
 			"| Lawful | Lawful | Lawful | Neutral | Neutral | Neutral | Chaotic | Chaotic | Chaotic |",
-			"| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |",
 			"| Good | Good | Good | Neutral | Neutral | Neutral | Evil | Evil | Evil |"
 		],
 		"parent_topics": [

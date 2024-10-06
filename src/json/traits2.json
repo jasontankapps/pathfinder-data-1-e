@@ -753,7 +753,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Intrigued by the travels of one of your long-time acquaintances, you've convinced her to teach you one of the exotic languages she picked up in her journeys. Choose one of the following characters. You may select one of that character's languages as a bonus language. Additionally, you gain a +2 trait bonus on Bluff checks made to pass secret messages to the chosen character (see the description of the Bluff skill).",
+			"Intrigued by the travels of one of your long-time acquaintances, you've convinced her to teach you one of the exotic languages she picked up in her journeys. Choose one of the following characters. You may select one of that character's languages as a bonus language. Additionally, you gain a +2 trait bonus on Bluff checks made to pass secret messages to the chosen character (see the description of the [Bluff](skill/bluff) skill).",
 			"",
 			"**NPC Choices:** Ameiko, Koya, Sandru, Shalelu.",
 			"",
@@ -2652,7 +2652,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"If you are an inquisitor, you can select any inquisition associated with your preferred Hellknight order (see below), as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
+			"If you are an inquisitor, you can select any inquisition associated with your preferred Hellknight order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},

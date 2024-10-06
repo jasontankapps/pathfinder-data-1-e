@@ -231,7 +231,7 @@
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 166](source/ultimate_intrigue)",
 			"",
-			"When you're running a game with episodic pacing, you inject minor incidents of social conflict into the normal course of exploration and adventure. This typically requires you to introduce a minor social conflict or two when the PCs enter a settlement or come into contact with some other social unit. This type of pacing works best when these small-scale social conflicts are interspersed within the framework of a larger social conflict, which itself may be part of an even larger story arc in a campaign utilizing serialized pacing (see below).",
+			"When you're running a game with episodic pacing, you inject minor incidents of social conflict into the normal course of exploration and adventure. This typically requires you to introduce a minor social conflict or two when the PCs enter a settlement or come into contact with some other social unit. This type of pacing works best when these small-scale social conflicts are interspersed within the framework of a larger social conflict, which itself may be part of an even larger story arc in a campaign utilizing [serialized pacing](rule/serialized_pacing).",
 			"",
 			"One of the benefits of episodic pacing is that you only have to create a few events and their consequences at a time, and you can often postpone unveiling these incidents' long-term consequences. This gives you time to consider future plot points that you might want to introduce later. The downside of episodic pacing is that when players encounter later consequences, they sometimes forget these minor incidents and need to be reminded about them. To illustrate episodic pacing, let's elaborate on the example in this section's introduction. After plundering some local ruins, the PCs return to town to sell their discoveries and celebrate their victories. With nearly every visit to the various shops and business, they hear the same story: a ruthless tough is coercing protection money from local businesses. The PCs can either ignore the plight of the local entrepreneurs or confront the extortionist.",
 			"",
@@ -840,7 +840,7 @@
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 176](source/ultimate_intrigue)",
 			"",
-			"A duelist and any of her allies who have at least 10 minutes to interact with the crowd before a verbal duel begins can attempt a check to determine an audience bias (see below). Succeeding at a DC 15 Sense Motive check allows a duelist or one of her allies to learn one of the crowd's biases. Sometimes assessing an audience can have a higher DC if the GM feels the crowd is particularly tight-lipped or their biases are otherwise obscured. Once a character attempts a Sense Motive check to assess an audience's biases, she can't retry that check, even if she has more time to study the audience."
+			"A duelist and any of her allies who have at least 10 minutes to interact with the crowd before a verbal duel begins can attempt a check to determine an [audience bias](rule/audience_biases). Succeeding at a DC 15 Sense Motive check allows a duelist or one of her allies to learn one of the crowd's biases. Sometimes assessing an audience can have a higher DC if the GM feels the crowd is particularly tight-lipped or their biases are otherwise obscured. Once a character attempts a Sense Motive check to assess an audience's biases, she can't retry that check, even if she has more time to study the audience."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2209,7 +2209,7 @@
 			"",
 			"You gain a manifestation of your curse when you first contract a corruption, and gain more at later levels. Each manifestation includes both a gift and a stain (though campaign variants can change how you acquire these gifts and stains as described in the Variants section below). Many manifestations have prerequisites that limit them to characters farther along in their corruptions. A prerequisite marked with an asterisk (&ast;) is another manifestation in the same section.",
 			"",
-			"Unless stated otherwise, the DC for gifts that allow a saving throw is equal to 10 + 1/2 your level + your manifestation level (see below). You can have a maximum of nine manifestations."
+			"Unless stated otherwise, the DC for gifts that allow a saving throw is equal to 10 + 1/2 your level + your [manifestation level](rule/manifestation_level). You can have a maximum of nine manifestations."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4130,7 +4130,7 @@
 		"description": [
 			"**Source** [Horror Adventures pg. 198](source/horror_adventures)",
 			"",
-			"Through the entire adventure design process, GMs should keep in mind that they're not writing a horror novel or screenplay-they're writing a horror RPG adventure. It's easy to get distracted by nuanced lore and charismatic villains, but all GMs should remember that the PCs are the stars of the story and ultimately the most important characters. Along with this, remember that Pathfinder characters have a variety of magic and other options that might allow them to make things that frighten everyday people meaningless or that instantly reveal any secrets. Therefore, it's important for GMs to know characters' strengths as much as their weaknesses and customize the adventure to play upon what they fear most (see below for more details). These powers might be daunting in their effects or variety, but each ability might provide a new way to reveal terrors."
+			"Through the entire adventure design process, GMs should keep in mind that they're not writing a horror novel or screenplay-they're writing a horror RPG adventure. It's easy to get distracted by nuanced lore and charismatic villains, but all GMs should remember that the PCs are the stars of the story and ultimately the most important characters. Along with this, remember that Pathfinder characters have a variety of magic and other options that might allow them to make things that frighten everyday people meaningless or that instantly reveal any secrets. Therefore, it's important for GMs to know characters' strengths as much as their weaknesses and customize the adventure to play upon what they fear most (see [Choose the Terror](rule/choose_the_terror) for more details). These powers might be daunting in their effects or variety, but each ability might provide a new way to reveal terrors."
 		],
 		"parent_topics": [
 			"gamemastering",

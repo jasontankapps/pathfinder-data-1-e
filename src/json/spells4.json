@@ -1081,7 +1081,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You point your finger and fire a black ray of negative energy that suppresses the life force of any living creature it strikes. You must make a ranged touch attack to hit. If you hit, the subject gains 1d4 temporary negative levels (see Special Abilities). Negative levels stack.",
+			"You point your finger and fire a black ray of negative energy that suppresses the life force of any living creature it strikes. You must make a ranged touch attack to hit. If you hit, the subject gains 1d4 temporary [negative levels](rule/energy_drain_and_negative_levels). Negative levels stack.",
 			"",
 			"Assuming the subject survives, it regains lost levels after a number of hours equal to your caster level (maximum 15 hours). Usually, negative levels have a chance of becoming permanent, but the negative levels from enervation don't last long enough to do so.",
 			"",
@@ -1179,7 +1179,7 @@
 			"",
 			"If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it-the spell cannot be used to crush a creature by increasing its size.",
 			"",
-			"All equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see Table: Tiny and Large Weapon Damage). Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.",
+			"All equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see [Table: Tiny and Large Weapon Damage](rule/weapon_qualities)). Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.",
 			"",
 			"Multiple magical effects that increase size do not stack.",
 			"",
@@ -2308,7 +2308,7 @@
 			"**Target** you  ",
 			"**Duration** 1 min./level (D)",
 			"",
-			"This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill).",
+			"This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the [Acrobatics](skill/acrobatics) skill).",
 			"",
 			"### Mythic Expeditious Retreat",
 			"",
@@ -4346,7 +4346,7 @@
 			"",
 			"This spell functions as fireball except you can cause the bead of fire to originate from anywhere you can see within range. You can choose a number of squares within the area up to your Intelligence bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers or sorcerers) to be struck by weaker flames; the controlled fireball deals minimum damage in those squares.",
 			"",
-			"Attempts to identify controlled fireball with a skill check incorrectly identify it as fireball (see the ruse descriptor)."
+			"Attempts to identify controlled fireball with a skill check incorrectly identify it as fireball (see the [ruse](spelldef/ruse) descriptor)."
 		]
 	},
 	"controlled_fireball": {
@@ -7695,7 +7695,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"You preserve the remains of a dead creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see raise dead). Days spent under the influence of this spell don't count against the time limit. Additionally, this spell makes transporting a slain (and thus decaying) comrade less unpleasant.",
+			"You preserve the remains of a dead creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see [raise dead](spell/raise_dead)). Days spent under the influence of this spell don't count against the time limit. Additionally, this spell makes transporting a slain (and thus decaying) comrade less unpleasant.",
 			"",
 			"The spell also works on severed body parts and the like."
 		]

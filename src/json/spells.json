@@ -2537,7 +2537,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You instill the target animal with a general purpose (see the Handle Animal skill), which can be any purpose except combat training-fighting, guarding, heavy labor, hunting, performance, or riding. This purpose supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, the animal reverts to its previous trained purpose and known tricks."
+			"You instill the target animal with a general purpose (see the [Handle Animal](skill/handle_animal) skill), which can be any purpose except combat training-fighting, guarding, heavy labor, hunting, performance, or riding. This purpose supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, the animal reverts to its previous trained purpose and known tricks."
 		]
 	},
 	"animal_shapes": {
@@ -3988,7 +3988,7 @@
 			"",
 			"If an arcane mark is placed on a living being, the effect gradually fades in about a month.",
 			"",
-			"Arcane mark must be cast on an object prior to casting instant summons on the same object (see that spell description for details)."
+			"[Arcane mark](spell/arcane_mark) must be cast on an object prior to casting instant summons on the same object (see that spell description for details)."
 		]
 	},
 	"arcane_pocket": {

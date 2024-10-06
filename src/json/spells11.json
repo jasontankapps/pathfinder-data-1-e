@@ -700,7 +700,7 @@
 			"",
 			"Finally, you may choose to fix a single spell effect to the unhallowed site. The spell effect lasts for 1 year and functions throughout the entire site, regardless of its normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures that share your faith or alignment, or creatures that adhere to another faith or alignment. At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting unhallow again.",
 			"",
-			"Spell effects that may be tied to an unhallowed site include aid, bane, bless, cause fear, darkness, daylight, death ward, deeper darkness, detect magic, detect good, dimensional anchor, discern lies, dispel magic, endure elements, freedom of movement, invisibility purge, protection from energy, remove fear, resist energy, silence, tongues, and zone of truth.",
+			"Spell effects that may be tied to an unhallowed site include [aid](spell/aid), [bane](spell/bane), [bless](spell/bless), [cause fear](spell/cause_fear), [darkness](spell/darkness), [daylight](spell/daylight), [death ward](spell/death_ward), [detect good](spell/detect_good), [deeper darkness](spell/deeper_darkness), [detect magic](spell/detect_magic), [dimensional anchor](spell/dimensional_anchor), [discern lies](spell/discern_lies), [dispel magic](spell/dispel_magic), [endure elements](spell/endure_elements), [freedom of movement](spell/freedom_of_movement), [invisibility purge](spell/invisibility_purge), [protection from energy](spell/protection_from_energy), [remove fear](spell/remove_fear), [resist energy](spell/resist_energy), [silence](spell/silence), [tongues](spell/tongues), and [zone of truth](spell/zone_of_truth).",
 			"",
 			"Saving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)",
 			"",
@@ -3770,7 +3770,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You instill the target animal with the combat training general purpose (see the Handle Animal skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks."
+			"You instill the target animal with the combat training general purpose (see the [Handle Animal](skill/handle_animal) skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks."
 		]
 	},
 	"watchful_animal": {
@@ -3980,7 +3980,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude partial; **Spell Resistance** no",
 			"",
-			"This spell generates what appears to be clear, pure water, but it is in fact a foul secretion known as the waters of Lamashtu. The liquid functions in all the same ways as unholy water (see curse water). In addition, any creature that is anointed with or drinks this fluid must attempt a Fortitude save (drinking the waters of Lamashtu is particularly effective-a creature that drinks the liquid takes a -4 penalty on its save to resist its effects). Success causes the creature to become violently ill, vomit up the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and wreaks havoc on the victim's mind (dealing 1d6 points of Intelligence damage) and twists and deforms its body (dealing 1d6 points of Dexterity damage). The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the waters of Lamashtu-enough for one dose or, if bottled, one use as a thrown weapon.",
+			"This spell generates what appears to be clear, pure water, but it is in fact a foul secretion known as the waters of Lamashtu. The liquid functions in all the same ways as unholy water (see [curse water](spell/curse_water)). In addition, any creature that is anointed with or drinks this fluid must attempt a Fortitude save (drinking the waters of Lamashtu is particularly effective-a creature that drinks the liquid takes a -4 penalty on its save to resist its effects). Success causes the creature to become violently ill, vomit up the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and wreaks havoc on the victim's mind (dealing 1d6 points of Intelligence damage) and twists and deforms its body (dealing 1d6 points of Dexterity damage). The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the waters of Lamashtu-enough for one dose or, if bottled, one use as a thrown weapon.",
 			"",
 			"The fluid can be created and stored indefinitely, though it cannot be created inside a creature. Extensive exposure to the waters of Lamashtu (such as drinking nothing else for months at a time) can have other long-term effects on the target, including the development of monstrous deformities or even total transformation into a beast, depending on the GM's discretion (these mutations are rarely, if ever, beneficial to the victim).",
 			"",
@@ -4333,7 +4333,7 @@
 			"",
 			"Because the webbing is heavier than air, it sinks to the lowest level of the land, even pouring down den or sinkhole openings. The cloud of webbing cannot penetrate liquids, nor can it be cast underwater.",
 			"",
-			"The cloud otherwise acts like a web spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (see the web spell), but has fire resistance 5."
+			"The cloud otherwise acts like a web spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (see the [web] spell), but has fire resistance 5."
 		]
 	},
 	"web_shelter": {

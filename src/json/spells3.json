@@ -1477,7 +1477,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"This spell imbues a flask (1 pint) of water with negative energy, turning it into unholy water (see Equipment). Unholy water damages good outsiders the way holy water damages undead and evil outsiders."
+			"This spell imbues a flask (1 pint) of water with negative energy, turning it into unholy water. Unholy water damages good outsiders the way [holy water](equipment-weapon/holy_water) damages undead and evil outsiders."
 		]
 	},
 	"cursed_earth": {
@@ -3578,7 +3578,7 @@
 			"**Duration** 1 round; see text  ",
 			"**Saving Throw** Will partial; **Spell Resistance** yes",
 			"",
-			"This spell functions like sending, but the message can also contain a suggestion (see the suggestion spell), which the subject does its best to carry out. A successful Will save negates the suggestion effect but not the contact itself. The demand, if received, is understood even if the subject's Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the demand is issued, the message is understood but the suggestion is ineffective.",
+			"This spell functions like sending, but the message can also contain a suggestion (see the [suggestion](spell/suggestion) spell), which the subject does its best to carry out. A successful Will save negates the suggestion effect but not the contact itself. The demand, if received, is understood even if the subject's Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the demand is issued, the message is understood but the suggestion is ineffective.",
 			"",
 			"The demand's message to the creature must be 25 words or less, including the suggestion. The creature can also give a short reply immediately."
 		]
@@ -4142,7 +4142,7 @@
 			"",
 			"*2nd Round:* Number of different magical auras and the power of the most potent aura.",
 			"",
-			"*3rd Round:* The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see Spellcraft).",
+			"*3rd Round:* The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect.) If the aura eminates from a magic item, you can attempt to identify its properties (see [Spellcraft](skill/spellcraft)).",
 			"",
 			"Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.",
 			"",
@@ -6471,7 +6471,7 @@
 			"",
 			"If you and the subject have a common language, you can generally force the subject to perform as you desire, within the limits of its abilities. If no common language exists, you can communicate only basic commands, such as \"Come here,\" \"Go there,\" \"Fight,\" and \"Stand still.\" You know what the subject is experiencing, but you do not receive direct sensory input from it, nor can it communicate with you telepathically.",
 			"",
-			"Once you have given a dominated creature a command, it continues to attempt to carry out that command to the exclusion of all other activities except those necessary for day-to-day survival (such as sleeping, eating, and so forth). Because of this limited range of activity, a Sense Motive check against DC 15 (rather than DC 25) can determine that the subject's behavior is being influenced by an enchantment effect (see the Sense Motive skill description).",
+			"Once you have given a dominated creature a command, it continues to attempt to carry out that command to the exclusion of all other activities except those necessary for day-to-day survival (such as sleeping, eating, and so forth). Because of this limited range of activity, a Sense Motive check against DC 15 (rather than DC 25) can determine that the subject's behavior is being influenced by an enchantment effect (see the [Sense Motive skill description](skill/sense_motive)).",
 			"",
 			"Changing your orders or giving a dominated creature a new command is a move action.",
 			"",
@@ -7797,7 +7797,7 @@
 			"",
 			"*Cliffs:* Earthquake causes a cliff to crumble, creating a landslide that travels horizontally as far as it falls vertically. Any creature in the path takes 8d6 points of bludgeoning damage (Reflex DC 15 half) and is pinned beneath the rubble (see below).",
 			"",
-			"*Open Ground:* Each creature standing in the area must make a DC 15 Reflex save or fall down. Fissures open in the earth, and every creature on the ground has a 25% chance to fall into one (Reflex DC 20 to avoid a fissure). The fissures are 40 feet deep. At the end of the spell, all fissures grind shut. Treat all trapped creatures as if they were in the bury zone of an avalanche, trapped without air (see Environment for more details).",
+			"*Open Ground:* Each creature standing in the area must make a DC 15 Reflex save or fall down. Fissures open in the earth, and every creature on the ground has a 25% chance to fall into one (Reflex DC 20 to avoid a fissure). The fissures are 40 feet deep. At the end of the spell, all fissures grind shut. Treat all trapped creatures as if they were in the [bury zone of an avalanche](rule/avalanches_cr_7), trapped without air.",
 			"",
 			"*Structure:* Any structure standing on open ground takes 100 points of damage, enough to collapse a typical wooden or masonry building, but not a structure built of stone or reinforced masonry. Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is. Any creature caught inside a collapsing structure takes 8d6 points of bludgeoning damage (Reflex DC 15 half) and is pinned beneath the rubble (see below).",
 			"",

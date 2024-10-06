@@ -21,7 +21,7 @@
 			"**Source** [Mythic Adventures pg. 178](source/mythic_adventures)  ",
 			"**XP** 6,400  ",
 			"LE Huge aberration (aquatic, mythic)  ",
-			"**Init** +8; **Senses** darkvision 60 ft.; Perception +15  ",
+			"**Init** +8[^I]; **Senses** darkvision 60 ft.; Perception +15  ",
 			"**Aura** mucus cloud (5 feet)",
 			"",
 			"#### Defense",
@@ -68,7 +68,9 @@
 			"",
 			"#### Description",
 			"",
-			"A mythic aboleth has exceptional magic, usually gained by staying alive long enough to see some of its dark experiments through to fruition. Brooding and brilliant, it seeks to conquer the dry lands."
+			"A mythic aboleth has exceptional magic, usually gained by staying alive long enough to see some of its dark experiments through to fruition. Brooding and brilliant, it seeks to conquer the dry lands.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"anunnaki_mythic": {
@@ -317,7 +319,7 @@
 			"**Source** [Bestiary 4 pg. 13](source/bestiary_4)  ",
 			"**XP** 25,600  ",
 			"LN Gargantuan aberration (mythic)  ",
-			"**Init** +12; **Senses** all-around vision, arcane sight, darkvision 60 ft., detect scrying, limitless vision, mistsight, see in darkness, true seeing; Perception +29  ",
+			"**Init** +12[^I]; **Senses** all-around vision, arcane sight, darkvision 60 ft., detect scrying, limitless vision, mistsight, see in darkness, true seeing; Perception +29  ",
 			"**Aura** frightful presence (40 ft., DC 16)",
 			"",
 			"#### Defense",
@@ -370,7 +372,9 @@
 			"",
 			"An argus is an ancient creature related to the [titans](family/titan), transformed by a deity into a vigilant and restless sentry, usually as a punishment for some affront or rebellion. Within its hideous and misshapen body lies a lonely heart that craves music and beauty to comfort it in its forlorn and unending vigil. It might talk peaceably with visitors if they promise to sing songs or tell stories (and it believes its guests don't intend to harm it or steal what it guards). If insulted or mocked, an argus is quick to anger, dispatching foes so it can go back to brooding in peace.",
 			"",
-			"An argus stands 25 feet tall and weighs 18,000 pounds."
+			"An argus stands 25 feet tall and weighs 18,000 pounds.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"champion_of_the_gilded_host_mythic": {
@@ -811,7 +815,7 @@
 			"**Source** [Bestiary 4 pg. 37](source/bestiary_4)  ",
 			"**XP** 204,800  ",
 			"N Colossal construct (colossus, mythic)  ",
-			"**Init** +11; **Senses** darkvision 60 ft., low-light vision; Perception +11  ",
+			"**Init** +11[^I]; **Senses** darkvision 60 ft., low-light vision; Perception +11  ",
 			"**Aura** selective antimagic aura (30 ft.)",
 			"",
 			"#### Defense",
@@ -871,7 +875,9 @@
 			"",
 			"**CL** 15th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp"
+			"**Requirements** Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"stone_colossus_mythic": { "copyof": "colossus_stone_colossus_mythic" },
@@ -888,7 +894,7 @@
 			"**Source** [Bestiary 5 pg. 59](source/bestiary_5)  ",
 			"**XP** 102,400  ",
 			"N Gargantuan construct (colossus, mythic)  ",
-			"**Init** +9; **Senses** darkvision 60 ft., low-light vision; Perception +11  ",
+			"**Init** +9[^I]; **Senses** darkvision 60 ft., low-light vision; Perception +11  ",
 			"**Aura** selective antimagic aura (30 ft., DC 24, 10 rounds)",
 			"",
 			"#### Defense",
@@ -939,7 +945,9 @@
 			"",
 			"**CL** 14th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; **Cost** 190,000 gp"
+			"**Requirements** Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; **Cost** 190,000 gp",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"wood_colossus_mythic": { "copyof": "colossus_wood_colossus_mythic" },
@@ -1082,7 +1090,7 @@
 			"**Source** [Mythic Adventures pg. 183](source/mythic_adventures)  ",
 			"**XP** 102,400  ",
 			"CE Huge outsider (chaotic, demon, evil, extraplanar, mythic)  ",
-			"**Init** +12; **Senses** darkvision 60 ft., true seeing; Perception +32  ",
+			"**Init** +12[^I]; **Senses** darkvision 60 ft., true seeing; Perception +32  ",
 			"**Aura** unholy aura (DC 25)",
 			"",
 			"#### Defense",
@@ -1128,7 +1136,9 @@
 			"",
 			"#### Description",
 			"",
-			"A mythic nalfeshnee gains its power by tricking or forcing other mythic beings to imbue it. It hoards its many valuable secrets as a dragon hoards gold."
+			"A mythic nalfeshnee gains its power by tricking or forcing other mythic beings to imbue it. It hoards its many valuable secrets as a dragon hoards gold.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"nalfeshnee_mythic": { "copyof": "demon_nalfeshnee_mythic" },
@@ -1267,7 +1277,7 @@
 			"**Source** [Mythic Adventures pg. 185](source/mythic_adventures)  ",
 			"**XP** 12,800  ",
 			"LE Large outsider (devil, evil, extraplanar, lawful, mythic)  ",
-			"**Init** +13; **Senses** darkvision 60 ft., see in darkness; Perception +19  ",
+			"**Init** +13[^I]; **Senses** darkvision 60 ft., see in darkness; Perception +19  ",
 			"**Aura** fear (5 ft., DC 19, 1d6 rounds)",
 			"",
 			"#### Defense",
@@ -1313,7 +1323,9 @@
 			"",
 			"#### Description",
 			"",
-			"Forged from the souls of the first heretics and blasphemers, mythic devils have an ancient legacy of torture and using secrets to lure mortal diabolists into temptation. A mythic bone devil leads Hell's inquisitors in the efforts to root out disobedience among other devils. The authority it wields is even more powerful than its formidable magic, and it commands respect and fear from even pit fiends and dukes of Hell."
+			"Forged from the souls of the first heretics and blasphemers, mythic devils have an ancient legacy of torture and using secrets to lure mortal diabolists into temptation. A mythic bone devil leads Hell's inquisitors in the efforts to root out disobedience among other devils. The authority it wields is even more powerful than its formidable magic, and it commands respect and fear from even pit fiends and dukes of Hell.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"bone_devil_mythic": { "copyof": "devil_bone_devil_mythic" },
@@ -1330,7 +1342,7 @@
 			"**Source** [Mythic Adventures pg. 186](source/mythic_adventures)  ",
 			"**XP** 76,800  ",
 			"LE Large outsider (devil, evil, extraplanar, lawful, mythic)  ",
-			"**Init** +15; **Senses** all-around vision, darkvision 60 ft., see in darkness; Perception +27  ",
+			"**Init** +15[^I]; **Senses** all-around vision, darkvision 60 ft., see in darkness; Perception +27  ",
 			"**Aura** fear (10 ft., DC 24)",
 			"",
 			"#### Defense",
@@ -1379,7 +1391,9 @@
 			"",
 			"#### Description",
 			"",
-			"A mythic ice devil is a master of strategy, able to adapt to the nature of its opponents and turn its enemy's attacks back at them. Its lean form and upright posture sets it apart from the stockier non-mythic ice devils."
+			"A mythic ice devil is a master of strategy, able to adapt to the nature of its opponents and turn its enemy's attacks back at them. Its lean form and upright posture sets it apart from the stockier non-mythic ice devils.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"ice_devil_mythic": { "copyof": "devil_ice_devil_mythic" },
@@ -1396,7 +1410,7 @@
 			"**Source** [Mythic Adventures pg. 187](source/mythic_adventures)  ",
 			"**XP** 51,200  ",
 			"CE Large dragon (mythic, water)  ",
-			"**Init** +11; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision, mistsight; Perception +26  ",
+			"**Init** +11[^I]; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision, mistsight; Perception +26  ",
 			"**Aura** frightful presence (210 ft., DC 21), stench (DC 24, 10 rounds)",
 			"",
 			"#### Defense",
@@ -1438,7 +1452,9 @@
 			"A mythic black dragon eyes can pierce fog to find prey. Its very flesh and blood is infused with deadly acid, and like a snake it can gulp down an entire meal without chewing. A mythic black dragon enjoys regurgitating a swallowed opponent to let it rot for a few days before eating it as an actual meal, or repeats this cycle on a living creature as cruel torture.",
 			"",
 			"**Family:** [True Dragon](family/true_dragon)  ",
-			"**Family:** [Black Dragon](family/black_dragon)"
+			"**Family:** [Black Dragon](family/black_dragon)",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
@@ -1455,7 +1471,7 @@
 			"**Source** [Mythic Adventures pg. 188](source/mythic_adventures)  ",
 			"**XP** 102,400  ",
 			"LE Huge dragon (earth, mythic)  ",
-			"**Init** +12; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision; Perception +24  ",
+			"**Init** +12[^I]; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision; Perception +24  ",
 			"**Aura** frightful presence (210 ft., DC 22)",
 			"",
 			"#### Defense",
@@ -1497,7 +1513,9 @@
 			"A mythic blue dragon has powers over weaker minds, allowing it to influence events far from its lair. Its magic also influences sand and dust, giving it mastery over the aspects of its desert home.",
 			"",
 			"**Family:** [True Dragon](family/true_dragon)  ",
-			"**Family:** [Blue Dragon](family/blue_dragon)"
+			"**Family:** [Blue Dragon](family/blue_dragon)",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
@@ -1576,7 +1594,7 @@
 			"**Source** [Mythic Adventures pg. 190](source/mythic_adventures)  ",
 			"**XP** 1,638,400  ",
 			"CE Gargantuan dragon (fire, mythic)  ",
-			"**Init** +12; **Senses** blindsight 60 ft., darkvision 120 ft., low-light vision, smoke vision, x-ray vision; Perception +35  ",
+			"**Init** +12[^I]; **Senses** blindsight 60 ft., darkvision 120 ft., low-light vision, smoke vision, x-ray vision; Perception +35  ",
 			"**Aura** fire (10 ft., 2d6 fire), frightful presence (330 ft., DC 30)",
 			"",
 			"#### Defense",
@@ -1633,7 +1651,8 @@
 			"**Family:** [True Dragon](family/true_dragon)  ",
 			"**Family:** [Red Dragon](family/red_dragon)",
 			"",
-			"[^M]: Mythic spell"
+			"[^M]: Mythic spell",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
@@ -1651,7 +1670,7 @@
 			"**Source** [Mythic Adventures pg. 190](source/mythic_adventures)  ",
 			"**XP** 19,200  ",
 			"CE Large dragon (fire, mythic)  ",
-			"**Init** +10; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision, smoke vision, x-ray vision; Perception +15",
+			"**Init** +10[^I]; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision, smoke vision, x-ray vision; Perception +15",
 			"",
 			"#### Defense",
 			"",
@@ -1697,7 +1716,9 @@
 			"A young mythic red dragon is the offspring of an older mythic dragon, inheriting its power and rage. It tends to gorge itself on livestock, then sleep for nearly a year, only to repeat this cycle when it awakens again.",
 			"",
 			"**Family:** [True Dragon](family/true_dragon)  ",
-			"**Family:** [Red Dragon](family/red_dragon)"
+			"**Family:** [Red Dragon](family/red_dragon)",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"young_red_dragon_mythic": { "copyof": "dragon_red_young_red_dragon_mythic" },
@@ -2420,7 +2441,7 @@
 			"**Source** [Bestiary 5 pg. 124](source/bestiary_5)  ",
 			"**XP** 409,600  ",
 			"CN Medium fey (earth, mythic)  ",
-			"**Init** +26; **Senses** low-light vision, tremorsense 120 ft.; Perception +37  ",
+			"**Init** +26[^I]; **Senses** low-light vision, tremorsense 120 ft.; Perception +37  ",
 			"**Aura** reveler's rapture (30 ft., Will DC 32)",
 			"",
 			"#### Defense",
@@ -2481,7 +2502,9 @@
 			"",
 			"In combat, a glaistig moves with ease and grace, typically targeting those under the effects of her aura with debilitating hexes before withdrawing to summon earth elementals to aid her, and bombarding her opponents with leaves and dirt. The living link of her body to the earth and its plants and trees makes a glaistig vulnerable in the air, and she does what she can to stay grounded. Even at the height of anger, however, a glaistig can still sometimes be reasoned with. A glaistig will typically pause to parley, and can be swayed to cease hostilities in exchange for some valuable, preferably magical, item of sufficient value, particularly a wooden or stone item. While glaistigs themselves have no compunction about bending the truth or flagrantly dissembling, they take extreme offense when others lie to them, and are quite adept at sniffing out falsehoods. When a glaistig deduces that someone has lied to her, even if the untruths were spoken in an attempt at flattery, her outrage is such that she is unwilling to even speak with that person again.",
 			"",
-			"Among some of the most prevalent cautionary tales involving glaistigs is that they sometimes lure young children deep into their wilderness homes, kidnapping them and even replacing them with some form of fey impostor. In truth, these fey enjoy the innocence, honesty, and playfulness of children, and usually keep them only to chat and dance with for a short while before sending them home unharmed."
+			"Among some of the most prevalent cautionary tales involving glaistigs is that they sometimes lure young children deep into their wilderness homes, kidnapping them and even replacing them with some form of fey impostor. In truth, these fey enjoy the innocence, honesty, and playfulness of children, and usually keep them only to chat and dance with for a short while before sending them home unharmed.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"golem_flesh_golem_mythic": {
@@ -2809,7 +2832,7 @@
 			"**Source** [Taldor, the First Empire pg. 59](source/taldor_the_first_empire)  ",
 			"**XP** 76,800  ",
 			"N Huge magical beast (mythic)  ",
-			"**Init** +12; **Senses** darkvision 120 ft., low-light vision, scent; Perception +21  ",
+			"**Init** +12[^I]; **Senses** darkvision 120 ft., low-light vision, scent; Perception +21  ",
 			"**Aura** blazing mane (60 ft., DC 20)",
 			"",
 			"#### Defense",
@@ -2860,7 +2883,9 @@
 			"",
 			"The grogrisant's pelt amplifies sunlight, creating a deadly blaze of light that burns out the eyes of those nearby and renders the beast nothing but a barely perceptible shimmer to distant creatures. Taldan folklore insists the beast's blood can cure any disease.",
 			"",
-			"The grogrisant stands 18 feet tall at the shoulder and weighs 12,000 pounds."
+			"The grogrisant stands 18 feet tall at the shoulder and weighs 12,000 pounds.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"grogrisant": { "copyof": "grogrisant_mythic" },
@@ -2877,7 +2902,7 @@
 			"**Source** [Bestiary 4 pg. 146](source/bestiary_4)  ",
 			"**XP** 1,228,800  ",
 			"N Gargantuan dragon (aquatic, mythic)  ",
-			"**Init** +15; **Senses** blindsight 120 ft., darkvision 120 ft., detect magic, detect scrying, low-light vision, mistsight; Perception +44  ",
+			"**Init** +15[^I]; **Senses** blindsight 120 ft., darkvision 120 ft., detect magic, detect scrying, low-light vision, mistsight; Perception +44  ",
 			"**Aura** frightful presence (300 ft., DC 30), security (1,000 ft.)",
 			"",
 			"#### Defense",
@@ -2940,7 +2965,9 @@
 			"",
 			"Because of its many victories over thieves and dragonslayers, a guardian dragon is usually in possession of a large collection of magic items, and it doesn't hesitate to make use of rings, scrolls, wands, and other items to protect itself or fortify its lair-or for instructing its lesser guardians on how to use these items. A guardian dragon might be willing to trade items it can't use for something more suitable, as long as the other party makes no attempt to take anything without permission (especially its charge, but it considers any theft reprehensible).",
 			"",
-			"A guardian dragon is 50 feet long when fully uncoiled and weighs 7 tons."
+			"A guardian dragon is 50 feet long when fully uncoiled and weighs 7 tons.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"hell_hound_mythic": {
@@ -3060,7 +3087,7 @@
 			"**Source** [Mythic Adventures pg. 197](source/mythic_adventures)  ",
 			"**XP** 400  ",
 			"NE Medium undead (mythic)  ",
-			"**Init** +7; **Senses** darkvision 60 ft.; Perception +0",
+			"**Init** +7[^I]; **Senses** darkvision 60 ft.; Perception +0",
 			"",
 			"#### Defense",
 			"",
@@ -3091,7 +3118,9 @@
 			"",
 			"A mythic skeleton is an animated corpse created with mythic magic such as mythic animate dead. It has an unnatural cunning that belies its mindless nature and a natural instinct for killing.",
 			"",
-			"[\"Mythic skeleton\"](template/mythic_skeleton) is an acquired template that can be added to any creature with the skeleton template."
+			"[\"Mythic skeleton\"](template/mythic_skeleton) is an acquired template that can be added to any creature with the skeleton template.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"hydra_mythic": {
@@ -3221,7 +3250,7 @@
 			"**Source** [Bestiary 4 pg. 164](source/bestiary_4)  ",
 			"**XP** 409,600  ",
 			"N Colossal magical beast (aquatic, extraplanar, mythic, shapechanger)  ",
-			"**Init** +21; **Senses** blindsense 60 ft., darkvision 60 ft., low-light vision, scent, see in darkness; Perception +30  ",
+			"**Init** +21[^I]; **Senses** blindsense 60 ft., darkvision 60 ft., low-light vision, scent, see in darkness; Perception +30  ",
 			"**Aura** fascination (DC 26, 100 feet)",
 			"",
 			"#### Defense",
@@ -3269,7 +3298,9 @@
 			"",
 			"A julunggali is a semi-divine entity. It watches over sacred and mystical places of the world, as well as the remote tribes that respect these locations. Young tribal warriors present themselves to the julunggali for its blessing, a vision quest, or other rite of passage necessary to become an adult in the community.",
 			"",
-			"A julunggali is wise and can be entreated to perform helpful tasks, such as carving new river channels or pulling water into dry wells. But it is also vengeful, and has been known to punish those who break social taboos or intrude upon sacred places without permission. Those who have undergone rites of passage chosen for them by the julunggali face the harshest repercussions if they act wrongly."
+			"A julunggali is wise and can be entreated to perform helpful tasks, such as carving new river channels or pulling water into dry wells. But it is also vengeful, and has been known to punish those who break social taboos or intrude upon sacred places without permission. Those who have undergone rites of passage chosen for them by the julunggali face the harshest repercussions if they act wrongly.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"lamia_mythic": {
@@ -3356,7 +3387,7 @@
 			"**Source** [Bestiary 4 pg. 180](source/bestiary_4)  ",
 			"**XP** 6,400  ",
 			"CN Medium fey (mythic)  ",
-			"**Init** +7; **Senses** low-light vision; Perception +19",
+			"**Init** +7[^I]; **Senses** low-light vision; Perception +19",
 			"",
 			"#### Defense",
 			"",
@@ -3401,7 +3432,9 @@
 			"",
 			"#### Description",
 			"",
-			"Leanan sidhe are regal fey who pride themselves as patrons of the arts. By establishing a magical link with a talented mortal performer or artist, the leanan sidhe enhances her target's skill, but slowly feeds on his life energy. Many tragic stories of talented artists who have a creative burst and then fall into obscurity or suddenly die can be attributed to the influence of these creatures. A leanan sidhe prefers to avoid direct combat and relies on her minions and devotees to protect her-all of whom hope to become her next special project, despite the cost of this arrangement."
+			"Leanan sidhe are regal fey who pride themselves as patrons of the arts. By establishing a magical link with a talented mortal performer or artist, the leanan sidhe enhances her target's skill, but slowly feeds on his life energy. Many tragic stories of talented artists who have a creative burst and then fall into obscurity or suddenly die can be attributed to the influence of these creatures. A leanan sidhe prefers to avoid direct combat and relies on her minions and devotees to protect her-all of whom hope to become her next special project, despite the cost of this arrangement.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"lich_mythic": {
@@ -3418,7 +3451,7 @@
 			"**XP** 102,400  ",
 			"Human lich cleric of Asmodeus 13  ",
 			"LE Medium undead (augmented humanoid, human, mythic)  ",
-			"**Init** +13; **Senses** darkvision 60 ft., spell perception; Perception +29  ",
+			"**Init** +13[^I]; **Senses** darkvision 60 ft., spell perception; Perception +29  ",
 			"**Aura** fear (60 ft., DC 28)",
 			"",
 			"#### Defense",
@@ -3489,7 +3522,7 @@
 			"",
 			"**Spell Perception (Su):** At 7th rank, a mythic lich automatically notices spellcasting within 60 feet. The lich automatically pinpoints the location of the caster, identifies the spell being cast, and knows the intended target or area of the spell.",
 			"",
-			"**Immediate Counterspell (Su):** At 8th rank, a mythic lich can expend one use of mythic power as an immediate action to attempt to counter a spell. The lich must use a spell, spell slot, or dispel magic to counterspell as normal. This ability allows the lich to counterspell without first readying an action.",
+			"**Immediate Counterspell (Su):** At 8th rank, a mythic lich can expend one use of mythic power as an immediate action to attempt to counter a spell. The lich must use a spell, spell slot, or [dispel magic](spell/dispel_magic) to counterspell as normal. This ability allows the lich to counterspell without first readying an action.",
 			"",
 			"**Enhanced Spellcasting (Su):** At 9th rank, a mythic lich gains the ability to treat its 1st-level spells like cantrips or orisons. If the mythic lich is a spontaneous caster, its 1st-level spells known don't consume spell slots and can be used again. If the mythic lich prepares spells, its 1st-level spell slots aren't expended when cast and can be used again. Using metamagic feats or other abilities that alter the spell slot of a spell aren't affected by this ability (for example, a quickened magic missile uses a 5th-level spell slot and is expended when cast).",
 			"",
@@ -3505,7 +3538,8 @@
 			"| 18-19 | 9th | Enhanced spellcasting, sustained by magic |",
 			"| 20+ 10th Channel resistance (immunity), formidable animation |",
 			"",
-			"[^M]: Mythic spell"
+			"[^M]: Mythic spell",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"manasaputra_solar_pitri_agnishvatta_mythic": {
@@ -3661,7 +3695,7 @@
 			"**Source** [Mythic Adventures pg. 209](source/mythic_adventures)  ",
 			"**XP** 6,400  ",
 			"LE Medium monstrous humanoid (mythic)  ",
-			"**Init** +10; **Senses** all-around vision, darkvision 60 ft.; Perception +18",
+			"**Init** +10[^I]; **Senses** all-around vision, darkvision 60 ft.; Perception +18",
 			"",
 			"#### Defense",
 			"",
@@ -3706,7 +3740,9 @@
 			"",
 			"#### Description",
 			"",
-			"A mythic medusa is one of the near-immortal progenitors of the medusa race, who mate with humanoids in order to produce weaker (but still deadly) offspring. With deadly poison, power over snakes, and the ability to animate and command those she has turned to stone, a mythic medusa is a dangerous foe who can't be easily overcome by mirrored shields and blindfolds; she waits, strikes, and retreats, allowing her minions and venom to weaken her foes before she is ready to take their lives."
+			"A mythic medusa is one of the near-immortal progenitors of the medusa race, who mate with humanoids in order to produce weaker (but still deadly) offspring. With deadly poison, power over snakes, and the ability to animate and command those she has turned to stone, a mythic medusa is a dangerous foe who can't be easily overcome by mirrored shields and blindfolds; she waits, strikes, and retreats, allowing her minions and venom to weaken her foes before she is ready to take their lives.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"minotaur_mythic": {
@@ -4022,7 +4058,7 @@
 			"**Source** [Mythic Adventures pg. 213](source/mythic_adventures)  ",
 			"**XP** 1,600  ",
 			"N Large magical beast (mythic)  ",
-			"**Init** +7; **Senses** darkvision 60 ft., low-light vision, scent; Perception +12",
+			"**Init** +7[^I]; **Senses** darkvision 60 ft., low-light vision, scent; Perception +12",
 			"",
 			"#### Defense",
 			"",
@@ -4057,7 +4093,9 @@
 			"",
 			"#### Description",
 			"",
-			"A mythic owlbear may have been created by a mythic mage, or adopted as the favored pet of a mythic druid. Though as short-tempered and bloodthirsty as other owlbears, a mythic owlbear has the sense to avoid or flee foes more powerful than itself."
+			"A mythic owlbear may have been created by a mythic mage, or adopted as the favored pet of a mythic druid. Though as short-tempered and bloodthirsty as other owlbears, a mythic owlbear has the sense to avoid or flee foes more powerful than itself.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"phoenix_mythic": {
@@ -4392,7 +4430,7 @@
 			"**Source** [Mythic Adventures pg. 215](source/mythic_adventures)  ",
 			"**XP** 19,200  ",
 			"LE Medium outsider (mythic, native, shapechanger)  ",
-			"**Init** +14; **Senses** darkvision 60 ft., scent; Perception +14",
+			"**Init** +14[^I]; **Senses** darkvision 60 ft., scent; Perception +14",
 			"",
 			"#### Defense",
 			"",
@@ -4440,7 +4478,8 @@
 			"",
 			"A mythic rakshasa is a natural mind reader and uses its abilities to tempt great heroes into failure and ruin-all toward to ultimate goal of seeding an entire civilization's destruction.",
 			"",
-			"[^M]: Mythic spell"
+			"[^M]: Mythic spell",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"shen_mythic": {
@@ -4890,7 +4929,7 @@
 			"**Source** [Bestiary 4 pg. 266](source/bestiary_4)  ",
 			"**XP** 6,400  ",
 			"N Large ooze (mythic)  ",
-			"**Init** +2; **Senses** blindsight 60 ft.; Perception +11",
+			"**Init** +2[^I]; **Senses** blindsight 60 ft.; Perception +11",
 			"",
 			"#### Defense",
 			"",
@@ -4936,7 +4975,9 @@
 			"",
 			"When an ochre jelly infiltrates a colony of giant bees or wasps and consumes a queen egg, a strange reaction sometimes occurs between the jelly's fluids and the egg, resulting in a tyrant jelly-an intelligent ooze using an immature insect as a primitive brain. The tyrant jelly has unusual powers over vermin, and quickly takes control of the colony, sending its drones to gather food to sate its unnatural hunger. Other vermin are attracted to the scent of these creatures, and then fall under the tyrant's sway-a colony often has giant bees, centipedes, spiders, and wasps working together.",
 			"",
-			"A tyrant jelly's primary interests are food and survival. Magic or telepathy might allow a creature to bargain with it, exchanging food for its cooperation. Some insect cults hunt tyrant jellies, believing their strange substance has properties similar to a giant bee's royal jelly or can increase the intelligence of other vermin."
+			"A tyrant jelly's primary interests are food and survival. Magic or telepathy might allow a creature to bargain with it, exchanging food for its cooperation. Some insect cults hunt tyrant jellies, believing their strange substance has properties similar to a giant bee's royal jelly or can increase the intelligence of other vermin.",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"udaeus_mythic": {
@@ -5016,7 +5057,7 @@
 			"**XP** 9,600  ",
 			"Human vampire fighter 7  ",
 			"NE Medium undead (augmented humanoid, human, mythic)  ",
-			"**Init** +12; **Senses** darkvision 60 ft.; Perception +17",
+			"**Init** +12[^I]; **Senses** darkvision 60 ft.; Perception +17",
 			"",
 			"#### Defense",
 			"",
@@ -5096,7 +5137,9 @@
 			"| 14-15 | 7th | Children of the eclipse (wraiths or mohrgs), flight |",
 			"| 16-17 | 8th | Create mythic spawn, overcome weakness (invitation) |",
 			"| 18-19 | 9th | Blood omen, channel resistance +16 |",
-			"| 20+ | 10th | Eclipse, overcome weakness (running water) |"
+			"| 20+ | 10th | Eclipse, overcome weakness (running water) |",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"winter_wolf_mythic": {
@@ -5212,7 +5255,7 @@
 			"**Source** [Mythic Adventures pg. 223](source/mythic_adventures)  ",
 			"**XP** 4,800  ",
 			"N Large dragon (mythic)  ",
-			"**Init** +8; **Senses** darkvision 60 ft., low-light vision, scent; Perception +18",
+			"**Init** +8[^I]; **Senses** darkvision 60 ft., low-light vision, scent; Perception +18",
 			"",
 			"#### Defense",
 			"",
@@ -5254,7 +5297,9 @@
 			"",
 			"### Variant Mythic Wyverns",
 			"",
-			"Some mythic wyverns are closely related to one specific type of chromatic dragon. These lose their energy resistances and the power lift ability, but gain the energy immunity and breath weapon of the appropriate chromatic dragon (80 foot line or 40 foot cone, DC 17, 8d6 energy damage, 1d4 rounds)."
+			"Some mythic wyverns are closely related to one specific type of chromatic dragon. These lose their energy resistances and the power lift ability, but gain the energy immunity and breath weapon of the appropriate chromatic dragon (80 foot line or 40 foot cone, DC 17, 8d6 energy damage, 1d4 rounds).",
+			"",
+			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
 	"xiomorn_vault_builder_mythic": {

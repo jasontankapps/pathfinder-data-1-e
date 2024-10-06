@@ -1113,7 +1113,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like reduce person, except that it affects a single willing animal. Reduce the damage dealt by the animal's natural attacks as appropriate for its new size (see Equipment how to adjust damage for size)."
+			"This spell functions like reduce person, except that it affects a single willing animal. Reduce the damage dealt by the animal's natural attacks [as appropriate for its new size](umr/natural_attacks)."
 		]
 	},
 	"reduce_person": {
@@ -3080,7 +3080,7 @@
 			"",
 			"This spell functions as resurrection except that instead of recalling the dead soul to life, the spell calls a shadow demon with the advanced simple template to possess the body. If you fail to overcome the subject's spell resistance, the subject's soul can negate the calling and gain the option to return to life (as resurrection) in the restored body. The possession otherwise functions (as possession) except that the subject's soul is not present to resist. When false resurrection ends or the demon is removed from the subject, the demon returns to the Abyss, leaving the body alive but soulless (like that created by clone). If the soul hasn't been returned to life already, it has the option to return in the now-empty body if it still lives (as resurrection). If the body was killed, the demon is sent back to the Abyss but the subject remains dead.",
 			"",
-			"Attempts to identify false resurrection with a skill check incorrectly identify it as resurrection (see the ruse descriptor). A fooled viewer mistakes false resurrection's aura as the lingering aura of an instantaneous conjuration effect.",
+			"Attempts to identify false resurrection with a skill check incorrectly identify it as resurrection (see the [ruse](spelldef/ruse) descriptor). A fooled viewer mistakes false resurrection's aura as the lingering aura of an instantaneous conjuration effect.",
 			"",
 			"### False Resurrection, Greater",
 			"",
@@ -3101,7 +3101,7 @@
 			"",
 			"This spell functions as false resurrection except that it calls a belier devil with the young simple template to possess the body and all parts of false resurrection that function like resurrection instead function like true resurrection.",
 			"",
-			"Attempts to identify greater false resurrection with a skill check incorrectly identify it as true resurrection (see the ruse descriptor). A fooled viewer mistakes greater false resurrection's aura as the lingering aura of an instantaneous conjuration effect."
+			"Attempts to identify greater false resurrection with a skill check incorrectly identify it as true resurrection (see the [ruse](spelldef/ruse) descriptor). A fooled viewer mistakes greater false resurrection's aura as the lingering aura of an instantaneous conjuration effect."
 		]
 	},
 	"false_resurrection": {
@@ -3715,7 +3715,7 @@
 			"",
 			"Your height immediately doubles, and your weight increases by a factor of eight. This increase changes your size category to the next larger one. You gain a +4 size bonus to Strength and Constitution and take a -2 penalty to your Dexterity. You gain a +2 enhancement bonus to your natural armor. You gain DR 5/evil (if you normally channel positive energy) or DR 5/good (if you normally channel negative energy). At 15th level, this DR becomes 10/evil or 10/good (the maximum). Your size modifier for AC and attacks changes as appropriate to your new size category. This spell doesn't change your speed. Determine space and reach as appropriate to your new size.",
 			"",
-			"If insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process (see Additional Rules for rules on breaking objects). If you fail, you are constrained without harm by the materials enclosing you-the spell cannot crush you by increasing your size.",
+			"If insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process (see [Breaking Items](rule/breaking_items)). If you fail, you are constrained without harm by the materials enclosing you-the spell cannot crush you by increasing your size.",
 			"",
 			"All equipment you wear or carry is similarly enlarged by the spell. Melee weapons deal more damage. Other magical properties are not affected by this spell. Any enlarged item that leaves your possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical effects that increase size do not stack."
 		]
@@ -5504,7 +5504,7 @@
 			"",
 			"This spell brings forth a windstorm of stinging sand that blocks all vision. You can move the storm up to 30 feet each round as a move action.",
 			"",
-			"Any creature in the area takes 3d6 points of piercing damage each round. The area is considered a windstorm (see the wind effects table).",
+			"Any creature in the area takes 3d6 points of piercing damage each round. The area is considered a windstorm (see the [wind effects](rule/weather) table).",
 			"",
 			"If a creature with spell resistance successfully resists this spell, it is unaffected by the winds and sand, but still unable to see within the area of the spell.",
 			"",
@@ -5670,11 +5670,15 @@
 			"",
 			"| Knowledge | Will Save Modifier |",
 			"| --- | --- |",
-			"| None[^N] | +10 |",
+			"| None&ast; | +10 |",
 			"| Secondhand (you have heard of the subject) | +5 |",
 			"| Firsthand (you have met the subject) | +0 |",
 			"| Familiar (you know the subject well) | -5 |",
+			"",
+			"&ast;You must have some sort of connection (see below) to a creature of which you have no knowledge.",
+			"",
 			"| Connection | Will Save Modifier |",
+			"| --- | --- |",
 			"| Likeness or picture | -2 |",
 			"| Possession or garment | -4 |",
 			"| Body part, lock of hair, bit of nail, etc. | -10 |",
@@ -5702,9 +5706,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), [message](spell/message), [read magic](spell/read_magic), and [tongues](spell/tongues).",
-			"",
-			"[^N]: You must have some sort of connection (see below) to a creature of which you have no knowledge."
+			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), [message](spell/message), [read magic](spell/read_magic), and [tongues](spell/tongues)."
 		]
 	},
 	"scrying_greater": {

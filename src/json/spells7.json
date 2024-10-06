@@ -2579,7 +2579,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"You enhance your natural ability to seem small and unimportant, causing those around you to overlook you. You gain a +20 bonus on Stealth checks, which doesn't stack with bonuses from effects that actually make you sneakier, such as invisibility or respectful quiet (see below); you do not need cover or concealment to hide; and you can hide while you are being observed. If a creature fails to notice you because of this spell, that creature can still remember seeing a halfling pass by, but attach no importance to the memory. You do not gain these benefits against creatures that are immune to compulsions or mind-affecting effects, and spell resistance applies. If you take an actively aggressive or extremely conspicuous action, creatures automatically notice you, and you gain no further benefits against those creatures for the remainder of the spell's duration."
+			"You enhance your natural ability to seem small and unimportant, causing those around you to overlook you. You gain a +20 bonus on Stealth checks, which doesn't stack with bonuses from effects that actually make you sneakier, such as [invisibility](spell/invisibility) or [respectful quiet](spell/respectful_quiet); you do not need cover or concealment to hide; and you can hide while you are being observed. If a creature fails to notice you because of this spell, that creature can still remember seeing a halfling pass by, but attach no importance to the memory. You do not gain these benefits against creatures that are immune to compulsions or mind-affecting effects, and spell resistance applies. If you take an actively aggressive or extremely conspicuous action, creatures automatically notice you, and you gain no further benefits against those creatures for the remainder of the spell's duration."
 		]
 	},
 	"overstimulate": {
@@ -3765,7 +3765,7 @@
 			"**Duration** 1 day/level or until discharged (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions like geas/quest, except the only allowed command is \"use pesh or refined pesh.\"",
+			"This spell functions like [geas/quest](spell/geas), except the only allowed command is \"use [pesh](drug/pesh) or refined pesh.\"",
 			"",
 			"### Pesh Addiction, Lesser",
 			"",
@@ -3784,7 +3784,7 @@
 			"**Duration** 1 day/level or until discharged (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like lesser geas, except the only allowed command is \"use pesh or refined pesh.\""
+			"This spell functions like [lesser geas](spell/lesser_geas), except the only allowed command is \"use [pesh](drug/pesh) or refined pesh.\""
 		]
 	},
 	"pesh_addiction_lesser": {
@@ -3810,7 +3810,7 @@
 			"### Casting",
 			"",
 			"**Casting Time** 1 standard action  ",
-			"**Components** V, S, M (a dose of pesh worth 15 gp)",
+			"**Components** V, S, M (a dose of [pesh](drug/pesh) worth 15 gp)",
 			"",
 			"### Effect",
 			"",
@@ -4993,7 +4993,7 @@
 			"",
 			"To create the trap, you must use a magic circle spell, focused inward. The kind of creature to be bound must be known and stated. If you wish to call a specific individual, you must use that individual's proper name in casting the spell.",
 			"",
-			"The target creature is allowed a Will saving throw. If the saving throw succeeds, the creature resists the spell. If the saving throw fails, the creature is immediately drawn to the trap (spell resistance does not keep it from being called). The creature can escape from the trap by successfully pitting its spell resistance against your caster level check, by dimensional travel, or with a successful Charisma check (DC 15 + 1/2 your caster level + your Charisma modifier). It can try each method once per day. If it breaks loose, it can flee or attack you. A dimensional anchor cast on the creature prevents its escape via dimensional travel. You can also employ a calling diagram (see magic circle against evil) to make the trap more secure.",
+			"The target creature is allowed a Will saving throw. If the saving throw succeeds, the creature resists the spell. If the saving throw fails, the creature is immediately drawn to the trap (spell resistance does not keep it from being called). The creature can escape from the trap by successfully pitting its spell resistance against your caster level check, by dimensional travel, or with a successful Charisma check (DC 15 + 1/2 your caster level + your Charisma modifier). It can try each method once per day. If it breaks loose, it can flee or attack you. A dimensional anchor cast on the creature prevents its escape via dimensional travel. You can also employ a calling diagram (see [magic circle against evil](spell/magic_circle_against_evil)) to make the trap more secure.",
 			"",
 			"If the creature does not break free of the trap, you can keep it bound for as long as you dare. You can attempt to compel the creature to perform a service by describing the service and perhaps offering some sort of reward. You make a Charisma check opposed by the creature's Charisma check. The check is assigned a bonus of +0 to +6 based on the nature of the service and the reward. If the creature wins the opposed check, it refuses service. New offers, bribes, and the like can be made or the old ones reoffered every 24 hours. This process can be repeated until the creature promises to serve, until it breaks free, or until you decide to get rid of it by means of some other spell. Impossible demands or unreasonable commands are never agreed to. If you ever roll a natural 1 on the Charisma check, the creature breaks free of the spell's effect and can escape or attack you.",
 			"",

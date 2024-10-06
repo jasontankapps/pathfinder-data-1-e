@@ -2673,7 +2673,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
 			"",
-			"You can attempt an Athletics check to catch yourself while falling along a wall or slope. The DC is equal to the wall's climb DC + 20 or the slope's climb DC + 10 (see Climb, below).",
+			"You can attempt an Athletics check to catch yourself while falling along a wall or slope. The DC is equal to the wall's climb DC + 20 or the slope's climb DC + 10 (see [Climb](rule/climb), below).",
 			"",
 			"To catch another character that falls while within your reach, you must succeed at a melee touch attack (the target can forgo her Dexterity bonus to AC). If you hit, you then attempt an Athletics check with a DC equal to the wall's climb DC + 10. If you succeed, you catch the falling character, but if her total weight (with equipment) exceeds your heavy load limit, you fall. If you fail by 4 or less, you don't stop the character's fall but don't lose your grip. If you fail by 5 or more, you fail to stop her fall and you begin falling as well.",
 			"",
@@ -3697,7 +3697,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
 			"",
-			"You can thoroughly comb an area, looking for hidden traps, doors, and the like. The same modifiers that apply to Perception DCs to notice (see above) also apply to Perception DCs to search.",
+			"You can thoroughly comb an area, looking for hidden traps, doors, and the like. The same modifiers that apply to Perception DCs to [notice](rule/notice_creatures_and_details) also apply to Perception DCs to search.",
 			"",
 			"| Hidden Object | Perception DC |",
 			"| --- | --- |",
@@ -8056,7 +8056,7 @@
 			"",
 			"Each bit of esoteric component goes a long way, so 500 gp worth of components weighs 1 pound regardless of its type. Esoteric material components aren't inherently magical, and can't be found using [detect magic](spell/detect_magic).",
 			"",
-			"Material components can be found either in the form of raw, unprocessed base components or refined units of various values. They can be found in nature, purchased from merchants, or discovered in treasure hoards. How often a PC finds esoteric components is determined by the variant you are using (see below). Especially among the treasure of a spellcaster, it would be reasonable to find various quantities of multiple types of esoteric components. The same could be said for an alchemist's lab or a stash hidden by bandits who recently raided a wizards' college.",
+			"Material components can be found either in the form of raw, unprocessed base components or refined units of various values. They can be found in nature, purchased from merchants, or discovered in treasure hoards. How often a PC finds esoteric components is determined by the [variant](rule/implementing_esoteric_components) you are using. Especially among the treasure of a spellcaster, it would be reasonable to find various quantities of multiple types of esoteric components. The same could be said for an alchemist's lab or a stash hidden by bandits who recently raided a wizards' college.",
 			"",
 			"The rare esoteric component yliaster is a special case. Yliaster appears only in major treasure hoards, especially those belonging to powerful spellcasters. A GM who would prefer not to allow the effects of yliaster can simply use only the common esoteric components and leave the rare one out of the game entirely."
 		],

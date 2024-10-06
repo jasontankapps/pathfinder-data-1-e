@@ -1591,7 +1591,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 144](source/pathfinder_unchained)",
 			"",
-			"To use simplified spellcasting, find the appropriate progression table for your class (or the table for a class that normally has the same spell progression as your class) and consult the row for your caster level. The 3 highest spell levels in the row each have a listed number indicating spells per day. Prepare these spells each day as you normally would; you still gain bonus spells per day for those levels if you have a high enough ability score. The letter -P- appears in the columns of all other available spell levels (except level 0) to indicate lower-level spells that are cast using your class's spell pool.",
+			"To use simplified spellcasting, find the appropriate progression table for your class (or the table for a class that normally has the same spell progression as your class) and consult the row for your caster level. The 3 highest spell levels in the row each have a listed number indicating spells per day. Prepare these spells each day as you normally would; you still gain bonus spells per day for those levels if you have a high enough ability score. The letter \"P\" appears in the columns of all other available spell levels (except level 0) to indicate lower-level spells that are cast using your class's spell pool.",
 			"",
 			"Each day, you can spontaneously cast a number of lower-level spells from your class's spell list equal to the number listed for your class level in the Pool column of the table. The level of spell doesn't matter (as long as it's one of the levels that uses your pool), so if you could cast five spells from your pool per day, it wouldn't matter if you cast five 1st-level spells, five 2nd-level spells, or a mix of the two. A spell cast using slots from your spell pool must still be on your spell list or in your spellbook, just as it would need to be if you were preparing the spell. It also must meet any other restrictions imposed by your class or other abilities, such as restrictions on casting spells of an opposing alignment. The slots in your spell pool refresh after 8 hours of rest, and any effect that prevents you from preparing spells also prevents you from refreshing your spell pool. Your pool increases if you have a high spellcasting ability modifier, similar to how you gain bonus spells in slots you prepare. Add a number of spells to your pool equal to 1/4 the ability score modifier of the ability score you would normally use to calculate your number of bonus spells per day.",
 			"",
@@ -1737,7 +1737,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 82](source/pathfinder_unchained)",
 			"",
-			"Skill unlocks give characters new abilities and ways to use their skills upon reaching 5, 10, 15, and 20 ranks in a skill. Any character with the Signature Skill feat (see below) can earn skill unlocks for a single skill, and they are a prime feature of the [revised version of the rogue](class/unchained_rogue), who uses her rogue's edge ability to gain skill unlocks for several of her most iconic skills. Alternatively, you might make skill unlocks a universal part of the game, but you should be aware they add significant power and flexibility to skills, so giving them for free to all classes would grant power boosts to other highly skilled classes such as the investigator and bard, particularly in comparison to the rogue. Another alternative is to eliminate access to the Signature Skill feat, limiting skill unlocks to rogues and rogues alone.",
+			"Skill unlocks give characters new abilities and ways to use their skills upon reaching 5, 10, 15, and 20 ranks in a skill. Any character with the [Signature Skill](feat/signature_skill) feat can earn skill unlocks for a single skill, and they are a prime feature of the [revised version of the rogue](class/unchained_rogue), who uses her rogue's edge ability to gain skill unlocks for several of her most iconic skills. Alternatively, you might make skill unlocks a universal part of the game, but you should be aware they add significant power and flexibility to skills, so giving them for free to all classes would grant power boosts to other highly skilled classes such as the investigator and bard, particularly in comparison to the rogue. Another alternative is to eliminate access to the Signature Skill feat, limiting skill unlocks to rogues and rogues alone.",
 			"",
 			"See [the individual skills](main/skills) for the skill unlocks."
 		],
@@ -1933,7 +1933,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 147](source/pathfinder_unchained)",
 			"",
-			"Though many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see Implementing Wild Magic below), roll on Table 4-4: Wild Magic Surge.",
+			"Though many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see [Implementing Wild Magic](rule/implementing_wild_magic)), roll on Table 4-4: Wild Magic Surge.",
 			"",
 			"Roll to determine the surge effect before the spell is cast, but apply the effect after the spell is cast unless it alters the spell itself in some way (such as changing the effective caster level). Any reference on the table to the spell or the spell's level applies to the spell being cast, supernatural ability being used, or magic item effect being activated. Similarly, any reference to the caster applies to the character who triggers the surge. If an effect requires a caster level, use the caster's full character level.",
 			"",
@@ -5786,7 +5786,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** cone",
 			"",
-			"A wordspell with this effect word detects magic auras. By concentrating each round, the caster can determine the number and location of each aura in the target area. He can make a Knowledge (arcana) skill check to determine the school of each aura (one check per aura, the DC of this check is 15 + the spell level or 15 + 1/2 the caster level for a non-spell effect). If the aura radiates from a magic item, the caster can attempt to identify the item's properties as if using [detect magic](spell/detect_magic) (see Spellcraft). If the aura emanates from a spell of 7th level or higher, or is a non-spell effect with a caster level of 12th or higher, the caster knows that the aura is strong, even if the Knowledge check to identify the school is unsuccessful.",
+			"A wordspell with this effect word detects magic auras. By concentrating each round, the caster can determine the number and location of each aura in the target area. He can make a Knowledge (arcana) skill check to determine the school of each aura (one check per aura, the DC of this check is 15 + the spell level or 15 + 1/2 the caster level for a non-spell effect). If the aura radiates from a magic item, the caster can attempt to identify the item's properties as if using [detect magic](spell/detect_magic) (see [Spellcraft](skill/spellcraft)). If the aura emanates from a spell of 7th level or higher, or is a non-spell effect with a caster level of 12th or higher, the caster knows that the aura is strong, even if the Knowledge check to identify the school is unsuccessful.",
 			"",
 			"### Sense Alignment (Detection)",
 			"",
@@ -8521,7 +8521,7 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
 			"",
-			"Vigor represents a creature's ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see Critical Hits).",
+			"Vigor represents a creature's ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see [Critical Hits](rule/attacks_that_deal_wound_point_damage)).",
 			"",
 			"Creatures with one or more full Hit Dice or levels gain vigor points. With each level gained or each Hit Die a creature has, it gains a number of vigor points based on its Hit Die type. Use the creature's Hit Dice to generate its vigor points, just like you would hit points, but without adding the creature's Constitution modifier. A creature gains maximum vigor points on its first Hit Die if it comes from a character class level. Creatures whose first full Hit Die comes from an NPC class or from their race roll their Hit Dice to determine their starting vigor points. A creature with less than one Hit Die has no vigor points; it only has wound points.",
 			"",
@@ -8790,7 +8790,7 @@
 			"",
 			"If an undead creature can sate its hunger by feeding on a living creature with an Intelligence score of 5 or higher, it gains the following benefits from the feeding. These benefits are in addition to any listed in the creature's feeding-related ability.",
 			"",
-			"The first benefit-deeply desirable even to barely sentient undead-is the euphoric rush of feeding, which fills the feeder with a sense of power, domination, and focus. The undead gains a +1 resistance bonus on Will saves for 1 hour.",
+			"The first benefit - deeply desirable even to barely sentient undead - is the euphoric rush of feeding, which fills the feeder with a sense of power, domination, and focus. The undead gains a +1 resistance bonus on Will saves for 1 hour.",
 			"",
 			"The undead gains a +2 resistance bonus on all saves against spells and effects from creatures that have the same alignment as the target of the feeding. It is because of this effect that vampires so often feed on the innocent and pure, since most of their would-be slayers are of a similarly noble and good disposition.",
 			"",

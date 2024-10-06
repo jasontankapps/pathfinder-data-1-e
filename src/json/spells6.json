@@ -3689,7 +3689,7 @@
 			"**Duration** 2 hours/level (D)  ",
 			"**Saving Throw** Will partial; **Spell Resistance** yes",
 			"",
-			"This spell functions as lost passage (see below), except that it affects a larger area. Lost locale can be made permanent with permanency at a cost of 90,000 gp."
+			"This spell functions as lost passage, except that it affects a larger area. Lost locale can be made permanent with permanency at a cost of 90,000 gp."
 		]
 	},
 	"lover's_vengeance": {
@@ -4063,7 +4063,7 @@
 			"",
 			"You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the area where it was conjured (it does not move). The hound immediately starts barking loudly if any Small or larger creature approaches within 30 feet of it. (Those within 30 feet of the hound when it is conjured may move about in the area, but if they leave and return, they activate the barking.) The hound sees invisible and ethereal creatures. It does not react to figments, but it does react to shadow illusions.",
 			"",
-			"If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10 attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an invisible creature (see invisibility).",
+			"If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10 attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an invisible creature (see [invisibility](rule/invisibility)).",
 			"",
 			"The dog is considered ready to bite intruders, so it delivers its first bite on the intruder's turn. Its bite is the equivalent of a magic weapon for the purpose of damage reduction. The hound cannot be attacked, but it can be dispelled.",
 			"",
@@ -4349,7 +4349,7 @@
 			"",
 			"You can add a special diagram (a two-dimensional bounded figure with no gaps along its circumference, augmented with various magical sigils) to make the magic circle more secure. Drawing the diagram by hand takes 10 minutes and requires a DC 20 Spellcraft check. You do not know the result of this check. If the check fails, the diagram is ineffective. You can take 10 when drawing the diagram if you are under no particular time pressure to complete the task. This task also takes 10 full minutes. If time is no factor at all, and you devote 3 hours and 20 minutes to the task, you can take 20.",
 			"",
-			"A successful diagram allows you to cast a dimensional anchor spell on the magic circle during the round before casting any summoning spell. The anchor holds any called creatures in the magic circle for 24 hours per caster level. A creature cannot use its spell resistance against a magic circle prepared with a diagram, and none of its abilities or attacks can cross the diagram. If the creature tries a Charisma check to break free of the trap (see the lesser planar binding spell), the DC increases by 5. The creature is immediately released if anything disturbs the diagram-even a straw laid across it. The creature itself cannot disturb the diagram either directly or indirectly, as noted above.",
+			"A successful diagram allows you to cast a dimensional anchor spell on the magic circle during the round before casting any summoning spell. The anchor holds any called creatures in the magic circle for 24 hours per caster level. A creature cannot use its spell resistance against a magic circle prepared with a diagram, and none of its abilities or attacks can cross the diagram. If the creature tries a Charisma check to break free of the trap (see the [lesser planar binding](spell/lesser_planar_binding) spell), the DC increases by 5. The creature is immediately released if anything disturbs the diagram-even a straw laid across it. The creature itself cannot disturb the diagram either directly or indirectly, as noted above.",
 			"",
 			"This spell is not cumulative with protection from evil and vice versa."
 		]

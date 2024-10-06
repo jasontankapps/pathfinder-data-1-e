@@ -665,7 +665,7 @@
 			"",
 			"\"Any other GM modifiers\" includes any modifiers the GM feels are appropriate for the situation, such as a high level of scrutiny at a noble's party or a temporary shortage of certain black-market goods.",
 			"",
-			"Failing this check by 5 or more results in a critical failure (see the Risk section for consequences of critical failures on tasks).",
+			"Failing this check by 5 or more results in a critical failure (see the [Risk](rule/risk) section for consequences of critical failures on tasks).",
 			"",
 			"Most tasks require 1 day of work, with the check to determine the contact's success or failure attempted at the end of the time period. When appropriate, the contact may decrease the DC of a task by increasing the time spent completing it, representing the time spent planning and preparing, gathering resources, and waiting for the right moment to attempt the task. Subtract 1 from the DC for each day spent beyond the first, to a maximum of 4 extra days.",
 			"",
@@ -853,7 +853,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
 			"",
-			"The simplest method of tracking the PCs' progress as they travel and survey the wilderness is to do so on hex paper. As the PCs explore a hex, the players should note their progress by placing a small -X- in the hex. Tracking which hexes are fully explored is important for determining exploration rewards."
+			"The simplest method of tracking the PCs' progress as they travel and survey the wilderness is to do so on hex paper. As the PCs explore a hex, the players should note their progress by placing a small **X** in the hex. Tracking which hexes are fully explored is important for determining exploration rewards."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3345,7 +3345,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 176](source/ultimate_campaign)",
 			"",
-			"Your Relationship Level with an NPC is based on your Relationship Score, which can increase in play (see Growing Relationships). You gain new benefits when an NPC's relationship with you progresses to a new level.",
+			"Your Relationship Level with an NPC is based on your Relationship Score, which can increase in play (see [Growing Relationships](rule/growing_relationships)). You gain new benefits when an NPC's relationship with you progresses to a new level.",
 			"",
 			"| Relationship Score | Relationship Level |",
 			"| --- | --- |",
@@ -5467,7 +5467,7 @@
 			"",
 			"Each combatant in a psychic duel attacks her opponent and defends herself with the power of her imagination and force of her personality. Such combatants appear in the binary mindscape much as they appear in reality (unless using a [mental mask](rule/mindscapes)), but their abilities and attacks are enhanced in some ways and limited in others by the strange laws of the binary mindscape.",
 			"",
-			"While the illusion of physical movement exists in the mindscape's reality, such things as speed and position have little bearing on a psychic duel. Combatants are limited to purely mental actions, speech, and the creation of psychic manifestations (see below). With very few exceptions, spells and spell-like abilities can't be used (see [Concluding a Psychic Duel](rule/concluding_a_psychic_duel)).",
+			"While the illusion of physical movement exists in the mindscape's reality, such things as speed and position have little bearing on a psychic duel. Combatants are limited to purely mental actions, speech, and the creation of [psychic manifestations](rule/psychic_manifestations). With very few exceptions, spells and spell-like abilities can't be used (see [Concluding a Psychic Duel](rule/concluding_a_psychic_duel)).",
 			"",
 			"When a character enters a binary mindscape, she uses the following statistics as they were prior to entering: her current hit points; ability scores; AC and touch AC; Reflex, Fortitude, and Will saving throws; highest melee attack bonus; and highest ranged attack bonus. These attack bonuses apply on melee and ranged offensive manifestations, respectively. Regeneration and fast healing are the only special abilities that apply in a psychic duel; uncanny dodge and damage reduction, for example, do not.",
 			"",
