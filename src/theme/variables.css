@@ -129,7 +129,7 @@ http://ionicframework.com/docs/theming/ */
   --ion-background-color: #fff;
   --ion-background-color-rgb: 255,255,255;
 
-  --background-faint: #0003;
+  --background-faint: rgba( var(--ion-color-secondary-rgb) , 0.05);
 
 }
 
@@ -203,7 +203,7 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
 
-    --background-faint: #fff3;
+    --background-faint: rgba( var(--ion-color-secondary-rgb) , 0.05);
 
   }
 

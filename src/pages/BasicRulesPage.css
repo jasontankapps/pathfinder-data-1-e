@@ -44,7 +44,7 @@ div.prevNext {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: flex-start;
 	margin-block-start: 1.5em;
 	margin-block-end: 1em;
 }
@@ -54,12 +54,16 @@ div.prevNext.nextOnly {
 div.prevNext div.prev,
 div.prevNext div.next {
 	background-color: var(--background-faint);
+	padding-inline: 0.5rem;
+	width: max-content;
 }
 div.prevNext div.prev {
-	margin-inline-end: 0.125rem;
+	border-radius: 0 1rem 1rem 0 / 0 1rem 1rem 0;
+	margin-inline-end: 0.5rem;
 }
 div.prevNext div.next {
-	margin-inline-start: 0.125rem;
+	border-radius: 1rem 0 0 1rem / 1rem 0 0 1rem;
+	margin-inline-start: 0.5rem;
 	text-align: end;
 }
 div.prevNext a:link,
@@ -70,4 +74,5 @@ div.prevNext a:hover  {
 }
 div.prevNext div div:first-child {
 	font-size: smaller;
+	white-space: nowrap;
 }
