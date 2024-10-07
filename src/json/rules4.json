@@ -55,7 +55,11 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
 			"",
-			"Before you run a game, you need to know what kind of game you'll be running. Whether you write out the plans for the coming session in a dozen notebooks, scribble down ideas and key NPC stat blocks on a bunch of sticky notes or your computer, or just have a vague idea of a plot and a few names in your head, you'll need to prepare parts of your adventure before the game begins. Some GMs enjoy the challenge of presenting a \"sandbox\" for the players to explore at their whim, but even then you need to know what kind of things are in that sandbox for the PCs to encounter. And as a general rule, everything you can prepare before the game begins will save you time making decisions during the game. Even more important, preparation beforehand allows you to maintain consistency-few things ruin the suspension of disbelief more for a group of discerning players than having the Game Master call the local innkeeper \"Radimus\" one session and \"Penelope\" the next. Preparing for your adventure beforehand can help you maintain innkeeper gender identities and so much more!",
+			"Before you run a game, you need to know what kind of game you'll be running. Whether you write out the plans for the coming session in a dozen notebooks, scribble down ideas and key NPC stat blocks on a bunch of sticky notes or your computer, or just have a vague idea of a plot and a few names in your head, you'll need to prepare parts of your adventure before the game begins.",
+			"",
+			"Some GMs enjoy the challenge of presenting a \"sandbox\" for the players to explore at their whim, but even then you need to know what kind of things are in that sandbox for the PCs to encounter. And as a general rule, everything you can prepare before the game begins will save you time making decisions during the game.",
+			"",
+			"Even more important, preparation beforehand allows you to maintain consistency-few things ruin the suspension of disbelief more for a group of discerning players than having the Game Master call the local innkeeper \"Radimus\" one session and \"Penelope\" the next. Preparing for your adventure beforehand can help you maintain innkeeper gender identities and so much more!",
 			"",
 			"Of course, the backbone of any campaign is the adventures that comprise it, be they an intricately connected series of plots and storylines or an open-ended sandbox of possibility. But where do these adventures come from? There are, essentially, two sources for adventures. You can build your own from scratch, or you can run a published adventure. Both options have different pros and cons, and you certainly don't have to limit yourself to only one choice for the duration of a campaign."
 		],
@@ -83,9 +87,7 @@
 			"",
 			"Published adventures are your friend. As a Game Master, you're going to be spending a lot of time as it is preparing for games-and when you don't have time to come up with an adventure, a published adventure can be a godsend. By studying how published adventures are put together, you can hone your own adventure-creating skills. And by running a published adventure for your group, you leave the details of invention and creation to the adventure writer, giving you time to focus on the game play itself.",
 			"",
-			"The most important thing to remember when using a published adventure, though, is that the writer of the adventure doesn't know your group the way you know your group. If you know your players are particularly paranoid and assume all helpful NPCs are out to get them, then a published adventure about a kindly cleric who's actually a shapechanged demon probably won't work well for your group. Feel free to change published adventures as you see fit, either while you're reading them or during play. If, for example, one of your players has written into his character's backstory that his father was killed by an orc warlord and he became an adventurer to someday get revenge on that orc, go ahead and change the hobgoblin warlord in the adventure into an orc. Adapting adventures to your group and your play style in this manner is an important part of running published adventures, since it customizes the experience to your group and makes it all the more enjoyable.",
-			"",
-			"Paizo Publishing offers a large variety of published adventures in its Pathfinder Modules line and complete campaigns in the form of its monthly Pathfinder Adventure Path installments. To learn more about these valuable GM resources, please visit [paizo.com](https://paizo.com)."
+			"The most important thing to remember when using a published adventure, though, is that the writer of the adventure doesn't know your group the way you know your group. If you know your players are particularly paranoid and assume all helpful NPCs are out to get them, then a published adventure about a kindly cleric who's actually a shapechanged demon probably won't work well for your group. Feel free to change published adventures as you see fit, either while you're reading them or during play. If, for example, one of your players has written into his character's backstory that his father was killed by an orc warlord and he became an adventurer to someday get revenge on that orc, go ahead and change the hobgoblin warlord in the adventure into an orc. Adapting adventures to your group and your play style in this manner is an important part of running published adventures, since it customizes the experience to your group and makes it all the more enjoyable."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -111,9 +113,9 @@
 			"",
 			"There are countless ways to build an adventure. The classic method is to simply write everything out beforehand. While this does get everything you need to know about the adventure down on paper, it's an awful lot of work. If you're the only person who'll ever be running the adventure, it's okay to simply outline the plot, draw a map of the adventure site, create encounters and stat blocks, and have at it. An adventure need not look like much more than a shopping list-you only really need to write down what you can't easily remember come game time.",
 			"",
-			"One important tip to remember about adventure writing-you're not writing a story. The main characters of the adventure should be the players, and they're missing from the tale when you prepare the adventure. Instead, think of the adventure as an outline for a script. You can have an idea in your head of how things will work out, but if you avoid making assumptions about what your characters will do in the adventure and instead just focus on creating the building blocks of the adventure (such as room descriptions, NPC motivations, stat blocks, and the like), you'll be much more capable of reacting to the unexpected when the PCs do their thing.",
+			"One important tip to remember about adventure writing: you're not writing a story. The main characters of the adventure should be the players, and they're missing from the tale when you prepare the adventure. Instead, think of the adventure as an outline for a script. You can have an idea in your head of how things will work out, but if you avoid making assumptions about what your characters will do in the adventure and instead just focus on creating the building blocks of the adventure (such as room descriptions, NPC motivations, stat blocks, and the like), you'll be much more capable of reacting to the unexpected when the PCs do their thing.",
 			"",
-			"Whatever you decide to do in your adventure, there are three elements that, if you prepare them beforehand, will save you a lot of time and anguish in the end-stat blocks, encounters, and treasure."
+			"Whatever you decide to do in your adventure, there are three elements that, if you prepare them beforehand, will save you a lot of time and anguish in the end: stat blocks, encounters, and treasure."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -122,9 +124,7 @@
 		"subtopics": [
 			"stat_blocks",
 			"designing_encounters",
-			"awarding_experience",
-			"placing_treasure",
-			"building_a_treasure_hoard"
+			"placing_treasure"
 		],
 		"siblings": [
 			"starting_a_campaign",
@@ -144,19 +144,19 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 397](source/prpg_core_rulebook)",
 			"",
-			"One of the most complex parts of the game is the stat block. Every NPC, every monster, and every timid little forest creature in the campaign world has its own stat block. This isn't to say, of course, that you need to generate a stat block for every creature that appears in your adventure, but you should certainly generate stat blocks for all of the important NPCs and monsters with whom you expect the PCs to interact. The *Pathfinder RPG Bestiary* provides more than 300 pre-made monster stat blocks for use in adventures, and that's just the beginning-you can use stat blocks from other monster bestiaries or adventures just as easily in your game. One good trick is to copy a stat block onto a 3x5 card or into a small document you can easily bring up on your computer during the game-you can keep these cards and documents forever to reuse them as needed."
+			"One of the most complex parts of the game is the stat block. Every NPC, every monster, and every timid little forest creature in the campaign world has its own stat block. This isn't to say, of course, that you need to generate a stat block for every creature that appears in your adventure, but you should certainly generate stat blocks for all of the important NPCs and monsters with whom you expect the PCs to interact.",
+			"",
+			"The *Pathfinder RPG Bestiary* provides [more than 300](main/monsters) pre-made monster stat blocks for use in adventures, and that's just the beginning: you can use stat blocks from other monster bestiaries or adventures just as easily in your game. One good trick is to copy a stat block onto a 3x5 card or into a small document you can easily bring up on your computer during the game-you can keep these cards and documents forever to reuse them as needed."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
-		"siblings": [
+		"siblings":  [
 			"stat_blocks",
 			"designing_encounters",
-			"awarding_experience",
-			"placing_treasure",
-			"building_a_treasure_hoard"
+			"placing_treasure"
 		]
 	},
 	"designing_encounters": {
@@ -184,7 +184,7 @@
 			"| Hard | APL +2 |",
 			"| Epic | APL +3 |",
 			"",
-			"***Step 3-Build the Encounter:*** Determine the total XP award for the encounter by looking it up by its CR on Table 12-2. This gives you an \"XP budget\" for the encounter. Every creature, trap, and hazard is worth an amount of XP determined by its CR, as noted on Table 12-2. To build your encounter, simply add creatures, traps, and hazards whose combined XP does not exceed the total XP budget for your encounter. It's easiest to add the highest CR challenges to the encounter first, filling out the remaining total with lesser challenges. For example, let's say you want your group of six 8th-level PCs to face a challenging encounter against a group of gargoyles (each CR 4) and their stone giant boss (CR 8). The PCs have an APL of 9, and table 12-1 tells you that a challenging encounter for your APL 9 group is a CR 10 encounter-worth 9,600 XP according to Table 12-2. At CR 8, the stone giant is worth 4,800 XP, leaving you with another 4,800 points in your XP budget for the gargoyles. Gargoyles are CR 4 each, and thus worth 1,200 XP apiece, meaning that the encounter can support four gargoyles in its XP budget. You could further refine the encounter by including only three gargoyles, leaving you with 1,200 XP to spend on a trio of Small earth elemental servants (at CR 1, each is worth 400 XP) to further aid the stone giant.",
+			"***Step 3-Build the Encounter:*** Determine the total XP award for the encounter by looking it up by its CR on Table 12-2. This gives you an \"XP budget\" for the encounter. Every creature, trap, and hazard is worth an amount of XP determined by its CR, as noted on Table 12-2.",
 			"",
 			"### Table 12-2: Experience Point Awards",
 			"",
@@ -221,7 +221,11 @@
 			"| 24 | 1,228,800 | 410,000 | 307,200 | 204,800 |",
 			"| 25 | 1,638,400 | 546,000 | 409,600 | 273,000 |",
 			"",
-			"The last three columns are for Individual XP",
+			">*The last three columns are for Individual XP.*",
+			"",
+			"To build your encounter, simply add creatures, traps, and hazards whose combined XP does not exceed the total XP budget for your encounter. It's easiest to add the highest CR challenges to the encounter first, filling out the remaining total with lesser challenges.",
+			"",
+			"For example, let's say you want your group of six 8th-level PCs to face a challenging encounter against a group of gargoyles (each CR 4) and their stone giant boss (CR 8). The PCs have an APL of 9, and table 12-1 tells you that a challenging encounter for your APL 9 group is a CR 10 encounter-worth 9,600 XP according to Table 12-2. At CR 8, the stone giant is worth 4,800 XP, leaving you with another 4,800 points in your XP budget for the gargoyles. Gargoyles are CR 4 each, and thus worth 1,200 XP apiece, meaning that the encounter can support four gargoyles in its XP budget. You could further refine the encounter by including only three gargoyles, leaving you with 1,200 XP to spend on a trio of Small earth elemental servants (at CR 1, each is worth 400 XP) to further aid the stone giant.",
 			"",
 			"***Adding NPCs:*** Creatures whose Hit Dice are solely a factor of their class levels and not a feature of their race are factored into combats a little differently than normal monsters or monsters with class levels. A creature that possesses class levels, but does not have any racial Hit Dice, is factored in as a creature with a CR equal to its class levels -1. A creature that only possesses non-player class levels ([Adept](npcclass/adept), [Aristocrat](npcclass/aristocrat), [Commoner](npcclass/commoner), [Expert](npcclass/expert), or [Warrior](npcclass/warrior)) is factored in as a creature with a CR equal to its class levels -2. If this reduction would reduce a creature's CR to below 1, its CR drops one step on the following progression for each step below 1 this reduction would make: 1/2, 1/3, 1/4, 1/6, 1/8.",
 			"",
@@ -240,7 +244,7 @@
 			"| 12 Creatures | CR +7 |",
 			"| 16 Creatures | CR +8 |",
 			"",
-			"***Ad Hoc CR Adjustments:*** While you can adjust a specific monster's CR by advancing it, applying templates, or giving it class levels, you can also adjust an encounter's difficulty by applying ad hoc adjustments to the encounter or creature itself. Listed here are three additional ways you can alter an encounter's difficulty.",
+			"***Ad Hoc CR Adjustments:*** While you can adjust a specific monster's CR by [advancing](template/advanced) it, applying [templates](main/monster_templates), or giving it class levels, you can also adjust an encounter's difficulty by applying ad hoc adjustments to the encounter or creature itself. Listed here are three additional ways you can alter an encounter's difficulty.",
 			"",
 			"***Favorable Terrain for the PCs:*** An encounter against a monster that's out of its favored element (like a yeti encountered in a sweltering cave with lava, or an enormous dragon encountered in a tiny room) gives the PCs an advantage. Build the encounter as normal, but when you award experience for the encounter, do so as if the encounter were one CR lower than its actual CR.",
 			"",
@@ -253,12 +257,13 @@
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
-		"siblings": [
+		"siblings":  [
 			"stat_blocks",
 			"designing_encounters",
-			"awarding_experience",
-			"placing_treasure",
-			"building_a_treasure_hoard"
+			"placing_treasure"
+		],
+		"subtopics": [
+			"awarding_experience"
 		]
 	},
 	"awarding_experience": {
@@ -281,15 +286,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"basics_from_the_core_rulebook",
-			"building_an_adventure"
+			"building_an_adventure",
+			"designing_encounters"
 		],
-		"siblings": [
-			"stat_blocks",
-			"designing_encounters",
-			"awarding_experience",
-			"placing_treasure",
-			"building_a_treasure_hoard"
-		]
+		"siblings": [ "awarding_experience" ]
 	},
 	"placing_treasure": {
 		"name": "Placing Treasure",
@@ -310,8 +310,9 @@
 			"",
 			"### Table 12-4: Character Wealth by Level",
 			"",
-			"| PC Level&ast; | Wealth |",
+			"| PC Level | Wealth |",
 			"| --- | --- |",
+			"| 1 | See [Table 6-1](rule/wealth_and_money) |",
 			"| 2 | 1,000 gp |",
 			"| 3 | 3,000 gp |",
 			"| 4 | 6,000 gp |",
@@ -332,11 +333,9 @@
 			"| 19 | 685,000 gp |",
 			"| 20 | 880,000 gp |",
 			"",
-			"&ast;For 1st-level PCs, see [Table 6-1](rule/wealth_and_money)).",
-			"",
 			"### Table 12-5: Treasure Values per Encounter",
 			"",
-			"| Average Party Level | Slow | Medium | Fast |",
+			"| APL&ast; | Slow | Medium | Fast |",
 			"| --- | --- | --- | --- |",
 			"| 1 | 170 gp | 260 gp | 400 gp |",
 			"| 2 | 350 gp | 550 gp | 800 gp |",
@@ -357,19 +356,22 @@
 			"| 17 | 22,000 gp | 32,000 gp | 48,000 gp |",
 			"| 18 | 28,000 gp | 41,000 gp | 72,000 gp |",
 			"| 19 | 35,000 gp | 53,000 gp | 79,000 gp |",
-			"| 20 | 44,000 gp | 67,000 gp | 100,000 gp |"
+			"| 20 | 44,000 gp | 67,000 gp | 100,000 gp |",
+			"",
+			"&ast; [Average Party Level](rule/designing_encounters)"
 		],
 		"parent_topics": [
 			"gamemastering",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
-		"siblings": [
+		"subtopics": [
+			"building_a_treasure_hoard"
+		],
+		"siblings":  [
 			"stat_blocks",
 			"designing_encounters",
-			"awarding_experience",
-			"placing_treasure",
-			"building_a_treasure_hoard"
+			"placing_treasure"
 		]
 	},
 	"building_a_treasure_hoard": {
@@ -426,15 +428,10 @@
 		"parent_topics": [
 			"gamemastering",
 			"basics_from_the_core_rulebook",
-			"building_an_adventure"
+			"building_an_adventure",
+			"placing_treasure"
 		],
-		"siblings": [
-			"stat_blocks",
-			"designing_encounters",
-			"awarding_experience",
-			"placing_treasure",
-			"building_a_treasure_hoard"
-		]
+		"siblings": [ "building_a_treasure_hoard" ]
 	},
 	"preparing_for_the_game": {
 		"name": "Preparing for the Game",
@@ -477,7 +474,7 @@
 			"",
 			"***Cheating and Fudging:*** We all know that cheating is bad. But sometimes, as a GM, you might find yourself in a situation where cheating might improve the game. We prefer to call this \"fudging\" rather than cheating, and while you should try to avoid it when you can, you are the law in your world, and you shouldn't feel bound by the dice. A GM should be impartial and fair, and in theory, that's what random dice results help support. Some players have trouble putting trust in their GM, but dice offer something that's irrefutable and truly non-partisan (as long as the dice aren't doctored or loaded, of course). Still, it's no good if a single roll of the dice would result in a premature end to your campaign, or a character's death when they did everything right.",
 			"",
-			"Likewise, don't feel bound to the predetermined plot of an encounter or the rules as written. Feel free to adjust the results or interpret things creatively-especially in cases where you as the GM made a poor assumption to begin with. For example, you might design an encounter against a band of werewolves, only to realize too late that none of the PCs have silver weapons and therefore can't hurt them. In this case, it's okay to cheat and say that these werewolves are hurt by normal weapons, or to have the town guard (armed with silver arrows) show up at the last minute to save the PCs. As long as you can keep such developments to a minimum, these on-thespot adjustments can even enhance the game-so the town guard saved the PCs, but now that they have, it can give you leverage over the PCs to send them on their next quest as repayment to the guards!",
+			"Likewise, don't feel bound to the predetermined plot of an encounter or the rules as written. Feel free to adjust the results or interpret things creatively-especially in cases where you as the GM made a poor assumption to begin with. For example, you might design an encounter against a band of werewolves, only to realize too late that none of the PCs have silver weapons and therefore can't hurt them. In this case, it's okay to cheat and say that these werewolves are hurt by normal weapons, or to have the town guard (armed with silver arrows) show up at the last minute to save the PCs. As long as you can keep such developments to a minimum, these on-the-spot adjustments can even enhance the game: since the town guard saved the PCs, it can give you leverage over the PCs to send them on their next quest as repayment to the guards!",
 			"",
 			"***Divine Intervention:*** The literary term for it is deus ex machina-\"god from the machine.\" This is what happens in a story when a plot device manifests in an unexpected (and usually unsatisfying) way to resolve a story element, typically in a way that renders the actions of the main characters meaningless. Even great authors use deus ex machina to resolve stories now and then, so don't be afraid to use it in your game if things are looking grim. The town guard rushing in to save the PCs from the werewolves in the previous paragraph is an excellent example of deus ex machina, but so is the old classic of \"divine intervention.\" In this case, the PCs are faced with an impossible situation and you, as the GM, change the situation so that they can now achieve their goals, perhaps after a PC begs for aid from his deity.",
 			"",
@@ -604,29 +601,7 @@
 			"",
 			"### Alternative Races",
 			"",
-			"Only more experienced GMs should consider allowing players to play anything other than the races presented, but if you want to start experimenting, the following races are good choices.",
-			"",
-			"- Aasimar",
-			"- Goblin",
-			"- Hobgoblin",
-			"- Kobold",
-			"- Merfolk",
-			"- Mite",
-			"- Orc",
-			"- Tengu",
-			"- Tiefling",
-			"",
-			"The following races are somewhat more powerful, due to the fact that they possess racial Hit Dice, exceptional ability score modifiers, natural attacks, or other unusual abilities. These races are intended as monstrous foes, not as PC races, and if you allow players to play one of these creatures, you should allow characters who pick from the list above or from the seven core races to start play at 2nd level.",
-			"",
-			"- Boggard",
-			"- Bugbear",
-			"- Dark Creeper",
-			"- Drow",
-			"- Duergar",
-			"- Gnoll",
-			"- Lizardfolk",
-			"- Morlock",
-			"- Svirfneblin"
+			"[A list of playable races can be found here.](main/races)"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -645,7 +620,13 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 406](source/prpg_core_rulebook)",
 			"",
-			"In the Pathfinder Roleplaying Game, 20th level represents the top end of power most mortals can hope to achieve, yet this certainly doesn't mean that your campaign needs to go all the way to 20th level. If you aren't running an open-ended campaign where the PCs set the pace and the goals, you should pick a level at which you wish the campaign's story arc to end. Talk this over with your players to make sure you're picking a level range that they're comfortable with as well. Note that you can also extend or shorten the length of a campaign by selecting a slow or fast XP progression. If you choose to run a campaign with a level cap of lower than 20th, consider placing your new level cap at a point where it feels like the last level achievable is something worthy. Oddnumbered levels are generally better than even-numbered ones, since most spellcasters achieve a new level of spell on odd-numbered levels. Multiples of 5 are good as well, since these multiples represent the last level before a new iterative attack. Stopping at 9th level is a good choice, since that allows the players to achieve capstone abilities like a bard's inspire greatness, a druid's venom immunity, a sorcerer's 3rd bloodline power, and teleport and raise dead as capstone spells. Likewise, 13th level works well, giving capstone abilities like a monk's spell resistance or spells like greater teleport, limited wish, and resurrection. Setting level caps of lower than 20th allows you to use them as soft limits-if your campaign's story arc goes beyond what you'd originally planned, your players can continue to gain levels and new abilities beyond what you estimated. Since the classes presented here don't have additional rules provided beyond 20th level, setting a campaign arc to end at 20th level requires great timing and, invariably, some manipulation on your part as GM to make sure the story winds up before the PCs reach enough XP to theoretically hit 21st level."
+			"In the Pathfinder Roleplaying Game, 20th level represents the top end of power most mortals can hope to achieve, yet this certainly doesn't mean that your campaign needs to go all the way to 20th level. If you aren't running an open-ended campaign where the PCs set the pace and the goals, you should pick a level at which you wish the campaign's story arc to end. Talk this over with your players to make sure you're picking a level range that they're comfortable with as well. Note that you can also extend or shorten the length of a campaign by selecting a slow or fast XP progression.",
+			"",
+			"If you choose to run a campaign with a level cap of lower than 20th, consider placing your new level cap at a point where it feels like the last level achievable is something worthy. Odd-numbered levels are generally better than even-numbered ones, since most spellcasters achieve a new level of spell on odd-numbered levels. Multiples of 5 are good as well, since these multiples represent the last level before a new iterative attack.",
+			"",
+			"Stopping at 9th level is a good choice, since that allows the players to achieve capstone abilities like a bard's inspire greatness, a druid's venom immunity, a sorcerer's 3rd bloodline power, and teleport and raise dead as capstone spells. Likewise, 13th level works well, giving capstone abilities like a monk's spell resistance or spells like greater teleport, limited wish, and resurrection.",
+			"",
+			"Setting level caps of lower than 20th allows you to use them as soft limits-if your campaign's story arc goes beyond what you'd originally planned, your players can continue to gain levels and new abilities beyond what you estimated. Since the classes presented here don't have additional rules provided beyond 20th level, setting a campaign arc to end at 20th level requires great timing and, invariably, some manipulation on your part as GM to make sure the story winds up before the PCs reach enough XP to theoretically hit 21st level."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -799,11 +780,15 @@
 			"",
 			"To assign skills precisely, total up the number of skill ranks possessed by the character and assign them normally.",
 			"",
-			"Remember that the number of ranks in an individual skill that a character can possess is limited by his total HD. For simpler skill generation, refer to Table 14-8 to determine the total number of skill selections the NPC possesses. After selecting that number of skills, mostly from the class skills lists of the NPC's class, the NPC receives a number of ranks in each skill equal to his level. If the NPC has two classes, start by selecting skills for the class with the fewest number of skill selections. The NPC receives a number of ranks in those skills equal to his total character level. Next, find the difference in the number of selections between the first class and the other class possessed by the NPC. Select that number of new skills and give the NPC a number of ranks in those skills equal to his level in the second class. For example, a human fighter 3/monk 4 with a +1 Intelligence modifier can select four skills for his fighter class (since it receives fewer selections). These four skills each have seven ranks (equal to his total level). Next, he selects a number of skills equal to the difference between the fighter and the monk classes, in this case two skills. These two skills each have four ranks (his monk level).",
+			"Remember that the number of ranks in an individual skill that a character can possess is limited by his total HD. For simpler skill generation, refer to Table 14-8 to determine the total number of skill selections the NPC possesses. After selecting that number of skills, mostly from the class skills lists of the NPC's class, the NPC receives a number of ranks in each skill equal to his level.",
+			"",
+			"If the NPC has two classes, start by selecting skills for the class with the fewest number of skill selections. The NPC receives a number of ranks in those skills equal to his total character level. Next, find the difference in the number of selections between the first class and the other class possessed by the NPC. Select that number of new skills and give the NPC a number of ranks in those skills equal to his level in the second class. For example, a human fighter 3/monk 4 with a +1 Intelligence modifier can select four skills for his fighter class (since it receives fewer selections). These four skills each have seven ranks (equal to his total level). Next, he selects a number of skills equal to the difference between the fighter and the monk classes, in this case two skills. These two skills each have four ranks (his monk level).",
 			"",
 			"If the NPC has three or more classes, you must use the precise method for determining his skills.",
 			"",
 			"Once all of the NPC's ranks have been determined, assign class skill bonuses and apply the bonus or penalty from the NPC's relevant ability score.",
+			"",
+			"### Table 14-8",
 			"",
 			"| PC Class | Skill Selections&ast; | NPC Class | Skill Selections&ast; |",
 			"| --- | --- | --- | --- |",
@@ -1006,7 +991,19 @@
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 454](source/prpg_core_rulebook)",
 			"",
-			"Looking over your notes for the evening's game, you discover that you need a mysterious forest character for the PCs to interact with on their way to town. If things go poorly, they might have to fight him. Since your party consists of 4th-level characters, you decide to make this forest guardian an elven ranger 4/rogue 2. You want him to be skilled at fighting with ranged weapons, but you also want him to be competent with a rapier. Taking this into account, you use the heroic ability scores for a ranged NPC found on Table 14-6. Since he is an elf, you apply the racial modifiers to Dexterity, Constitution, and Intelligence. Since he is 6th level, you put his bonus attribute point gained at 4th level into his Dexterity, raising it up to 18. Moving on to skills, you see that rangers receive fewer skill selections than rogues, so you start by selecting skills for the ranger. You add two for his Intelligence modifier for a total of eight skills at six ranks each. After selecting these eight skills, you move on to the rogue skills. The difference between the ranger and the rogue is two, meaning that you can select two more skills, with two ranks in each. After selecting his skills, you move on to his feats. Starting with his class feats, you select [Rapid Shot](feat/rapid_shot) as his ranger combat style feat. In addition, the forest guardian receives three additional feats for his class levels. Since you want him to be skilled at archery, most of these feats come from the ranged list, including [Deadly Aim](feat/deadly_aim) and [Point Blank Shot](feat/point_blank_shot). To ensure that he is good with a rapier, you spend his final feat selection on [Weapon Finesse](feat/weapon_finesse). Next you note all of his class and racial features, making whatever selections are necessary, such as favored enemy, favored terrain, hunter's bond, and rogue talents. Moving on to gear, you assign gear using the line for a 6th-level heroic NPC, giving him a +1 longbow, a masterwork rapier, +1 studded leather armor, a potion of invisibility, a potion of cure moderate wounds, and a pack full of nonmagic gear. Although he has a bit more gp in weapons than the chart allows, he has spent a bit less in armor, roughly balancing him out. With your task nearly completed, you add all of his statistics and details, naming him Kiramor. Your forest shadow is then ready to face off against the PCs.",
+			"Looking over your notes for the evening's game, you discover that you need a mysterious forest character for the PCs to interact with on their way to town. If things go poorly, they might have to fight him. Since your party consists of 4th-level characters, you decide to make this forest guardian an elven ranger 4/rogue 2.",
+			"",
+			"You want him to be skilled at fighting with ranged weapons, but you also want him to be competent with a rapier. Taking this into account, you use the heroic ability scores for a ranged NPC found on [Table 14-6](rule/step_1_the_basics_step_2_determine_ability_scores). Since he is an elf, you apply the racial modifiers to Dexterity, Constitution, and Intelligence. Since he is 6th level, you put his bonus attribute point gained at 4th level into his Dexterity, raising it up to 18.",
+			"",
+			"Moving on to skills, you see that rangers receive fewer skill selections than rogues, so you start by selecting skills for the ranger. You add two for his Intelligence modifier for a total of eight skills at six ranks each. After selecting these eight skills, you move on to the rogue skills. The difference between the ranger and the rogue is two, meaning that you can select two more skills, with two ranks in each.",
+			"",
+			"After selecting his skills, you move on to his feats. Starting with his class feats, you select [Rapid Shot](feat/rapid_shot) as his ranger combat style feat. In addition, the forest guardian receives three additional feats for his class levels. Since you want him to be skilled at archery, most of these feats come from the ranged list, including [Deadly Aim](feat/deadly_aim) and [Point Blank Shot](feat/point_blank_shot). To ensure that he is good with a rapier, you spend his final feat selection on [Weapon Finesse](feat/weapon_finesse).",
+			"",
+			"Next you note all of his class and racial features, making whatever selections are necessary, such as favored enemy, favored terrain, hunter's bond, and rogue talents.",
+			"",
+			"Moving on to gear, you assign gear using the line for a 6th-level heroic NPC, giving him a +1 longbow, a masterwork rapier, +1 studded leather armor, a potion of invisibility, a potion of cure moderate wounds, and a pack full of nonmagic gear. Although he has a bit more gp in weapons than the chart allows, he has spent a bit less in armor, roughly balancing him out.",
+			"",
+			"With your task nearly completed, you add all of his statistics and details, naming him Kiramor. Your forest shadow is then ready to face off against the PCs.",
 			"",
 			"### Kiramor, The Forest Shadow",
 			"",
@@ -5183,7 +5180,7 @@
 			"",
 			"Metagaming isn't always intentional. If a player isn't certain where the line between player knowledge and character knowledge falls, have him explain in-character why he's making a decision. If he resorts to using game terms or vague statements (or sophisticated concepts that clash with the voice of his Intelligence 7 barbarian), the information likely comes from player knowledge.",
 			"",
-			"This certainly doesn't mean that characters have to be as dumb as posts, never making decisions unless they are blatantly obvious, but rather that players should strive to process information in the same way their characters would. This is the essence of roleplaying. For example, suppose a wizard character says, \"The orc used sneak attack on us-therefore, he's got to be a rogue, so I won't cast [fireball](spell/fireball). I'll cast [charm person](spell/charm_person) instead; he probably has a weak Will save.\" This is clearly player knowledge: the player described his reasoning using game terms and rules knowledge. Contrast this with the player instead saying: \"The orc is wearing light armor and doing an awful lot of damage with just a short sword. This reminds me of the wererat murderer we fought in Korvosa. That wererat avoided my [fireballs](spell/fireball) like they weren't even there, so I'm going to try [charm person](spell/charm_person).\" Here the player performs exactly the same action, using the same information, but justifies it with character knowledge instead of directly metagaming. Of course, this isn't an excuse for players to fast-talk their way into metagaming, and if a character has too many justified epiphanies, you may still want to have a talk with the player.",
+			"This certainly doesn't mean that characters have to be as dumb as posts, never making decisions unless they are blatantly obvious, but rather that players should strive to process information in the same way their characters would. This is the essence of roleplaying. For example, suppose a wizard character says, \"The orc used sneak attack on us, therefore he's got to be a rogue, so I won't cast [fireball](spell/fireball). I'll cast [charm person](spell/charm_person) instead; he probably has a weak Will save.\" This is clearly player knowledge: the player described his reasoning using game terms and rules knowledge. Contrast this with the player instead saying: \"The orc is wearing light armor and doing an awful lot of damage with just a short sword. This reminds me of the wererat murderer we fought in Korvosa. That wererat avoided my [fireballs](spell/fireball) like they weren't even there, so I'm going to try [charm person](spell/charm_person).\" Here the player performs exactly the same action, using the same information, but justifies it with character knowledge instead of directly metagaming. Of course, this isn't an excuse for players to fast-talk their way into metagaming, and if a character has too many justified epiphanies, you may still want to have a talk with the player.",
 			"",
 			"One particularly sticky area of metagaming has nothing to do with game mechanics, but rather realworld knowledge and intelligence. Sometimes the player who's a genius at solving puzzles and riddles wants to play a dumb brute of a swordsman. This is great-so long as his character isn't still solving all the puzzles. In this situation (or the reverse, where the player who's terrible at puzzles has an Intelligence score of 22), let all the players work together to solve the puzzle, but use skill checks and Intelligence checks to offer hints or determine who actually comes up with the solution. Similarly, don't fall into the trap of letting a player's knowledge base inform the character's beyond what's reasonable. Just because your player knows how to make gunpowder out of bat guano doesn't mean his uneducated halfling cleric does."
 		],

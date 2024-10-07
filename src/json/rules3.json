@@ -5303,9 +5303,8 @@
 		"name": "Technology",
 		"sources": [ "Technology Guide" ],
 		"subtopics": [
-			"crafting_high_tech_items",
 			"technological_equipment",
-			"timeworn_technology",
+			"crafting_high_tech_items",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -5333,9 +5332,8 @@
 			"Technological items can be repaired using the appropriate crafting feats in the same way magical items can be repaired, but such methods cannot repair the more fundamental ravages of time that afflict timeworn technological items."
 		],
 		"siblings": [
-			"crafting_high_tech_items",
 			"technological_equipment",
-			"timeworn_technology",
+			"crafting_high_tech_items",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -5360,13 +5358,13 @@
 			"",
 			"The six types of laboratories are listed below. Each lab also lists the number of charges required for a day's work on a single project-these numbers are generally rather high, and laboratories that don't draw power from a generator can consume staggering amounts of battery power. A laboratory that uses power from a generator applies the listed charges to that generator's dedicated yield for as long as work on the item continues.",
 			"",
-			"***Cybernetics Lab (100 charges):*** A cybernetics lab is used to craft cybernetic equipment and devices that interface directly with a living creature's biology.",
+			"***Cybernetics Lab (100 charges):*** A cybernetics lab is used to craft [cybernetic equipment](main/tech_cybertech) and devices that interface directly with a living creature's biology.",
 			"",
 			"***Graviton Lab (250 charges):*** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech-weapon/gravity_rifle), [force fields](tech-misc/force_field_black), and [magboots](tech-misc/magboots).",
 			"",
 			"***Medical Lab (20 charges):*** This lab is used to craft medical items like [trauma packs](tech-misc/trauma_pack) and [medlances](tech-misc/medlance) and pharmaceuticals.",
 			"",
-			"***Military Lab (100 charges):*** A military lab is used to craft weapons that don't require more specialized laboratories.",
+			"***Military Lab (100 charges):*** A military lab is used to craft [weapons](main/tech_weapons) that don't require more specialized laboratories.",
 			"",
 			"***Nanotech Lab (150 charges):*** This lab is used to craft devices that utilize nanotechnology, such as [id rifles](tech-weapon/id_rifle).",
 			"",
@@ -5390,7 +5388,11 @@
 		"description": [
 			"Items with both magical and technological components, such as the [null blade](tech-weapon/null_blade), use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for [magic item creation](rule/magic_item_creation). The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
 			"",
-			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 [laser rifle](tech-weapon/laser_rifle), a +4 [dancing](magic-enhancement/dancing) humanoid [bane](magic-enhancement/bane) [chainsaw](tech-weapon/chainsaw), or a +1 [ghost touch](magic-enhancement/ghost_touch) [spacesuit](tech-armor/spacesuit). In theory, a magic item creator could even infuse a technological item with magical intelligence. To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items. When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements-a wizard with [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) can create a +1 arc pistol from a normal [arc pistol](tech-weapon/arc_pistol) without having [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor) and without having access to a [military laboratory](rule/crafting_laboritories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
+			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 [laser rifle](tech-weapon/laser_rifle), a +4 [dancing](magic-enhancement/dancing) humanoid [bane](magic-enhancement/bane) [chainsaw](tech-weapon/chainsaw), or a +1 [ghost touch](magic-enhancement/ghost_touch) [spacesuit](tech-armor/spacesuit). In theory, a magic item creator could even infuse a technological item with [magical intelligence](rule/intelligent_items).",
+			"",
+			"To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items.",
+			"",
+			"When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements-a wizard with [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) can create a +1 arc pistol from a normal [arc pistol](tech-weapon/arc_pistol) without having [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor) and without having access to a [military laboratory](rule/crafting_laboritories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -5407,7 +5409,7 @@
 			"crafting_high_tech_items"
 		],
 		"description": [
-			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jetpacks](tech-misc/jetpack) function like [winged boots](magic-wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or ring of the ram is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
+			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how [jetpacks](tech-misc/jetpack) function like [winged boots](magic-wondrous/winged_boots), but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or [ring of the ram](magic-ring/ring_of_the_ram) is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
 		],
 		"siblings": [
 			"crafting_laboritories",
@@ -5467,12 +5469,12 @@
 			"",
 			"### Timeworn Technology",
 			"",
-			"The equipment presented in this section is described in full working condition and priced as such. While a high-technology setting may have many fully functional technological devices in it, that isn't the case in the campaign setting. Equipment that has been damaged or degraded over time works less consistently and is worth less money than new technological items. Such equipment is called [\"timeworn.\"](rule/timeworn_technology)"
+			"The equipment presented in this section is described in full working condition and priced as such. While a high-technology setting may have many fully functional technological devices in it, that isn't the case in the campaign setting. Equipment that has been damaged or degraded over time works less consistently and is worth less money than new technological items. Such equipment is called \"timeworn.\""
 		],
+		"subtopics": [ "timeworn_technology" ],
 		"siblings": [
-			"crafting_high_tech_items",
 			"technological_equipment",
-			"timeworn_technology",
+			"crafting_high_tech_items",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -5482,9 +5484,12 @@
 		"name": "Timeworn Technology",
 		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
-		"parent_topics": [ "technology" ],
+		"parent_topics": [
+			"technology",
+			"technological_equipment"
+		],
 		"description": [
-			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\"-damaged and malfunctioning (when not completely non-functional). These malfunctions manifest in two ways: limited charges and glitches.",
+			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\" - damaged and malfunctioning (when not completely non-functional). These malfunctions manifest in two ways: limited charges and glitches.",
 			"",
 			"Only technological items that consume charges (including nanite canisters) or are pharmaceutical items can be affected by these timeworn rules, though any technological item can still become broken or non-functional just as any other item.",
 			"",
@@ -5500,14 +5505,7 @@
 			"",
 			"When a timeworn technological item is first used after a month or more of inactivity, there's a 50% chance that it will glitch. Additionally, when using an item in a way that would drain its last charge, there's a 50% chance it will glitch. If an item requires a d20 roll (such as a skill check or an attack roll) to activate or use, it has a 50% chance to glitch on a natural 1."
 		],
-		"siblings": [
-			"crafting_high_tech_items",
-			"technological_equipment",
-			"timeworn_technology",
-			"radiation",
-			"traps_and_technology",
-			"artificial_intelligence"
-		]
+		"siblings": [ "timeworn_technology" ]
 	},
 	"radiation": {
 		"name": "Radiation",
@@ -5533,9 +5531,8 @@
 			"| Severe | 30 | 4d6 Con drain | 2d6 Str damage/day |"
 		],
 		"siblings": [
-			"crafting_high_tech_items",
 			"technological_equipment",
-			"timeworn_technology",
+			"crafting_high_tech_items",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -5576,9 +5573,8 @@
 			"**Effect** 10d8 electricity damage (Reflex DC 25 half) to anyone touching the door; typically an electrified door triggers only if a creature attempts to bypass or force the door; electrified doors connected to a generator have no charge limit, otherwise the trap has only enough energy to function once with no reset"
 		],
 		"siblings": [
-			"crafting_high_tech_items",
 			"technological_equipment",
-			"timeworn_technology",
+			"crafting_high_tech_items",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
@@ -5598,9 +5594,8 @@
 			"An AI that is installed in a robot enhances that robot with the [aggregate template](template/aggregate)."
 		],
 		"siblings": [
-			"crafting_high_tech_items",
 			"technological_equipment",
-			"timeworn_technology",
+			"crafting_high_tech_items",
 			"radiation",
 			"traps_and_technology",
 			"artificial_intelligence"
