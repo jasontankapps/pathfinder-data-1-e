@@ -1,3 +1,4 @@
+import { IonRippleEffect } from '@ionic/react';
 import Link from '../components/Link';
 import { SourceProp } from '../components/SourcesModal';
 import DisplayItem from '../components/DisplayItem';
@@ -67,18 +68,20 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 			{prevNext ? (
 				<div className={prevNextClass}>
 					{previous ?
-						<div className="prev">
+						<div className="prev ion-activatable">
 							<Link to={"/rule/" + previous[1]}>
 								<div>Previous topic</div>
 								<div>{previous[0]}</div>
+								<IonRippleEffect />
 							</Link>
 						</div>
 					: <></>}
 					{next ?
-						<div className="next">
+						<div className="next ion-activatable">
 							<Link to={"/rule/" + next[1]}>
 								<div>Next topic</div>
 								<div>{next[0]}</div>
+								<IonRippleEffect />
 							</Link>
 						</div>
 					: <></>}

@@ -44,7 +44,7 @@
 					[ [ "monster/daitengu", "Daitengu" ], 10, "outsider", [ 4, "medium" ], [ 4, "N" ], "This winged, humanoid ascetic's face is bright red and boasts a prodigiously long nose." ],
 					[ [ "monster/dallo", "Dallo" ], 1, "animal", [ 3, "small" ], [ 4, "N" ], "This squat, grunting creature stinks of musk and earth. Leathery plates and black horns protect its woolly underside." ],
 					[ [ "monster/dancing_hut_of_baba_yaga", "Dancing Hut of Baba Yaga" ], 17, "construct", [ 6, "huge" ], [ 4, "N" ], "A rustic hut stands here, its timber walls hung with bundles of drying herbs and etched with eerie symbols. From beneath its splintering wooden porch extends a pair of legs, like those of a fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors." ],
-					[ [ "monster/danse_macabre", "Danse Macabre" ], 14, "undead", [ 5, "large" ], [ 5, "NE" ], "Dozens of ghostly figures swirl and cavort, floating through the air as they follow the steps of an ancient, rhythmic dance- seemingly keeping time with the ebb and flow of life itself. Amid this eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe." ],
+					[ [ "monster/danse_macabre", "Danse Macabre" ], 14, "undead", [ 5, "large" ], [ 5, "NE" ], "Dozens of ghostly figures swirl and cavort, floating through the air as they follow the steps of an ancient, rhythmic dance, seemingly keeping time with the ebb and flow of life itself. Amid this eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe." ],
 					[ [ "monster/danthienne", "Danthienne" ], 5, "fey", [ 2, "tiny" ], [ 7, "CN" ], "This bright-eyed, doll-sized woman wears jewels and silks. She has pointed ears, four-fingered hands, and a mischievous grin." ],
 					[ [ "monster/dark_folk_caligni", "Dark Folk, Caligni" ], [ -2, "1/2" ], "humanoid", [ 4, "medium" ], [ 7, "CN" ], "Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues at the extremities." ],
 					[ [ "monster/dark_folk_dark_caller", "Dark Folk, Dark Caller" ], 5, "humanoid", [ 4, "medium" ], [ 8, "CE" ], "Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent magic." ],
@@ -2079,7 +2079,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You have long since forgotten to care what people think about you- though your interactions are always memorable, at the very least. Choose Perform (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill."
+				"You have long since forgotten to care what people think about you, though your interactions are always memorable, at the very least. Choose Perform (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill."
 			],
 			[
 				"## [Official Ties](trait/official_ties)",

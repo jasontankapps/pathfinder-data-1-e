@@ -3399,7 +3399,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"You lived a previous life as someone-or something- else. For you, life and death are a cycle, and you have no fear of death. You gain a +2 trait bonus on saving throws against fear and death effects."
+				"You lived a previous life as someone - or something - else. For you, life and death are a cycle, and you have no fear of death. You gain a +2 trait bonus on saving throws against fear and death effects."
 			],
 			[
 				"## [Religious Reformer](trait/religious_reformer)",
@@ -3434,7 +3434,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"Your greatest interests as a child did not lie with current events or the mundane- you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on Knowledge (history) and Knowledge (planes) checks, and one of these skills (your choice) is always a class skill for you."
+				"Your greatest interests as a child did not lie with current events or the mundane: you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on Knowledge (history) and Knowledge (planes) checks, and one of these skills (your choice) is always a class skill for you."
 			],
 			[
 				"## [Schooled Inquisitor](trait/schooled_inquisitor)",
@@ -3998,7 +3998,7 @@
 					[ [ "monster/sphinx_hieracosphinx", "Sphinx, Hieracosphinx" ], 5, "magical beast", [ 5, "large" ], [ 8, "CE" ], "A cold-eyed falcon's head and great wings adorn the body of this otherwise leonine creature." ],
 					[ [ "monster/spider_eater", "Spider Eater" ], 5, "magical beast", [ 5, "large" ], [ 4, "N" ], "This strange beast resembles a wasp the size of a horse, but with the head of a spider and two long appendages ending in pincers." ],
 					[ [ "monster/spider_drain_spider", "Spider, Drain" ], [ -4, "1/4" ], "vermin", [ 2, "tiny" ], [ 4, "N" ], "This brown spider's body is fist-sized, yet its long, spindly legs and oversized fangs make it appear quite fearsome." ],
-					[ [ "monster/spider_dream_spider", "Spider, Dream" ], [ -2, "1/2" ], "vermin", [ 3, "small" ], [ 4, "N" ], "The size of a human child, this shimmering spider has a blue-and- purple-striped belly." ],
+					[ [ "monster/spider_dream_spider", "Spider, Dream" ], [ -2, "1/2" ], "vermin", [ 3, "small" ], [ 4, "N" ], "The size of a human child, this shimmering spider has a blue-and-purple-striped belly." ],
 					[ [ "monster/spider_giant_black_widow", "Spider, Giant Black Widow" ], 3, "vermin", [ 5, "large" ], [ 4, "N" ], "This long-legged spider has a huge, glossy black abdomen, marked on the underside with the shape of a crimson hourglass." ],
 					[ [ "monster/spider_giant_crab_spider", "Spider, Giant Crab" ], [ -2, "1/2" ], "vermin", [ 3, "small" ], [ 4, "N" ], "This pale yellow spider's legs protrude on either side, giving it a very distinctive stance. The thing is the size of a large dog." ],
 					[ [ "monster/spider_giant_spider", "Spider, Giant" ], 1, "vermin", [ 4, "medium" ], [ 4, "N" ], "A spider the size of a man crawls silently from the depths of its funnel-shaped web." ],
