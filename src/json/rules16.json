@@ -168,7 +168,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 242](source/pathfinder_unchained)",
 			"",
-			"To show the end result of the simple monster creation process described in this chapter, this section shows existing Pathfinder RPG monsters recreated using this system."
+			"To show the end result of the simple monster creation process described in this section, this section shows existing Pathfinder RPG monsters recreated using this system."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -280,7 +280,7 @@
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
 			"",
-			"The following sections re-create monsters found in the Bestiary. Many of them are variants on the initial creatures, meant to mimic creatures with class levels or alternate ability sets. Each entry includes a breakdown of the significant choices made for the monster, discounting simple procedures such as selecting the attacks and damage for a monster that don't deviate from its array numbers. After each breakdown, the monster's statistics appear in a new format unique to this book, as described in the sidebar above. The monsters are presented in order from simplest to most complex. Some of the monsters that appear early on-particularly combatants-have a high CR but simple abilities, so they're still easy to create.",
+			"The following sections re-create monsters found in the Bestiary. Many of them are variants on the initial creatures, meant to mimic creatures with class levels or alternate ability sets. Each entry includes a breakdown of the significant choices made for the monster, discounting simple procedures such as selecting the attacks and damage for a monster that don't deviate from its array numbers. After each breakdown, the monster's statistics appear in a new format unique to this section, as described below. The monsters are presented in order from simplest to most complex. Some of the monsters that appear early on-particularly combatants-have a high CR but simple abilities, so they're still easy to create.",
 			"",
 			"### Unchained Monster Statistics",
 			"",
@@ -1216,7 +1216,7 @@
 			"***Skills:*** A night hag encounter might be social and deceptive, so the monster has additional master and good skills, and her +10 bonus from change shape is reflected in her Disguise skill.",
 			"",
 			"***Damage:*** For damage with three primary attacks, the night hag doubles the damage for two primary attacks (18) to get a total of 36, then divides by three (her total number of attacks). Each attack deals roughly 12 points of damage  ",
-			"Lost Soul: This represents the twisted form of a lost soul that the night hag can call forth to defend her- effectively her eidolon, since she is using the summoner graft. The soul's twisted form has screaming mouths on long tendrils that bite as it moves, allowing it to pounce.",
+			"Lost Soul: This represents the twisted form of a lost soul that the night hag can call forth to defend her; effectively her eidolon, since she is using the summoner graft. The soul's twisted form has screaming mouths on long tendrils that bite as it moves, allowing it to pounce.",
 			"",
 			"***Array:*** As an eidolon, the lost soul uses the combatant array.",
 			"",
@@ -8443,7 +8443,7 @@
 			"",
 			"Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat-in other words, that the decreasing hit points are a marker for his overall endurance and condition. It's not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword's slash made the enemy a little less lucky.",
 			"",
-			"This variant system for tracking wounds and vigor should help to remedy that. As with the other systems in this chapter, this system is entirely optional."
+			"This variant system for tracking wounds and vigor should help to remedy that. As with the other systems in this section, this system is entirely optional."
 		],
 		"parent_topics": [ "optional_rules_systems" ],
 		"subtopics": [
@@ -8665,7 +8665,7 @@
 		]
 	},
 	"the_hunger": {
-		"name": "The Hunger",
+		"name": "The Hunger of the Undead",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"**Source** [Blood of the Night pg. 22](source/blood_of_the_night)  ",
@@ -8698,7 +8698,7 @@
 	},
 	"creatures_and_their_hunger": {
 		"name": "Creatures and Their Hunger",
-		"subtitle": "The Hunger",
+		"subtitle": "Hunger of the Undead",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the euphoria of a true feed.",
@@ -8722,7 +8722,7 @@
 	},
 	"hunger_rules": {
 		"name": "Hunger Rules",
-		"subtitle": "The Hunger",
+		"subtitle": "Hunger of the Undead",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"Where the living suffer physically from starvation, undead suffer mentally. After long enough without a \"meal,\" even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly when it's around sources of what it is denied or has denied itself.",
@@ -8747,10 +8747,10 @@
 	},
 	"withdrawal_effects": {
 		"name": "Withdrawl Effects",
-		"subtitle": "The Hunger",
+		"subtitle": "Hunger of the Undead",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table on the facing page, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases,",
+			"An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases,",
 			"but a hungry ghoul ignores that column because it doesn't have damage reduction. All penalties are removed when the creature completes a single feeding. This only ends the withdrawal penalties, and does not grant the creature any feeding bonuses beyond those granted by the creature's ability associated with feeding.",
 			"",
 			"If the undead's Strength or Charisma penalties equal its Strength or Charisma, it becomes inert, helpless, and wracked by nightmares of hunger; it only revives if fed by another. An undead creature's channel resistance, damage reduction, and fast healing cannot fall below 0.",
@@ -8783,7 +8783,7 @@
 	},
 	"feeding_bonuses": {
 		"name": "Feeding Bonuses",
-		"subtitle": "The Hunger",
+		"subtitle": "Hunger of the Undead",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"What constitutes a feeding differs for each undead creature according to its own addiction. For creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count consuming 1 pound of flesh as feeding (larger and smaller undead require proportionately more or less flesh). For these creatures, the flesh of a creature that has been dead for more than 1 hour staves off withdrawal but does not grant any other benefits, such as feeding bonuses (see below).",

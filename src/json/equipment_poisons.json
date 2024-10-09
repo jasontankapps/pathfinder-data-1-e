@@ -510,7 +510,7 @@
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d2 Str, see text  ",
+			"**Effect** 1d2 Str, target can attempt one save to cure a lycanthropy affliction contracted in the past hour  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -2307,7 +2307,7 @@
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d6 Dex, see text  ",
+			"**Effect** 1d6 Dex, creatures reduced to 0 Dexterity suffocate  ",
 			"**Cure** 2 saves"
 		]
 	},

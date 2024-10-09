@@ -37,11 +37,11 @@
 			"",
 			"***Very Rare Guns:*** Early firearms are rare; advanced firearms, the gunslinger class, the [Amateur Gunslinger](feat/amateur_gunslinger) feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items-things of wonder and mystery-rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the [Gunsmithing](feat/gunsmithing) feat.",
 			"",
-			"***Emerging Guns:*** Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two-the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition given in this chapter are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the [Gunsmithing](feat/gunsmithing) feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items-the stuff of high-level treasure troves.",
+			"***Emerging Guns:*** Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two-the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the [Gunsmithing](feat/gunsmithing) feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items-the stuff of high-level treasure troves.",
 			"",
-			"***Commonplace Guns:*** While still expensive and tricky to wield, early firearms are readily available. Instead of requiring the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat, all firearms are martial weapons. Early firearms and their ammunition cost 25% of the amounts listed in this book, but advanced firearms and their ammunition are still rare and cost the full price to purchase or craft.",
+			"***Commonplace Guns:*** While still expensive and tricky to wield, early firearms are readily available. Instead of requiring the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat, all firearms are martial weapons. Early firearms and their ammunition cost 25% of the amounts listed, but advanced firearms and their ammunition are still rare and cost the full price to purchase or craft.",
 			"",
-			"***Guns Everywhere:*** Guns are commonplace. Early firearms are seen as antiques, and advanced firearms are widespread. Firearms are simple weapons, and early firearms, advanced guns, and their ammunition are bought or crafted for 10% of the cost listed in this chapter. The gunslinger loses the gunsmith class feature and instead gains the gun training class feature at 1st level."
+			"***Guns Everywhere:*** Guns are commonplace. Early firearms are seen as antiques, and advanced firearms are widespread. Firearms are simple weapons, and early firearms, advanced guns, and their ammunition are bought or crafted for 10% of the cost listed. The gunslinger loses the gunsmith class feature and instead gains the gun training class feature at 1st level."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1182,7 +1182,7 @@
 			"walls_uc"
 		]
 	},
-	"magic_basics": {
+	"magic": {
 		"name": "Magic Basics",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1192,7 +1192,6 @@
 			"",
 			"Most spellcasters prepare spells in advance-whether from a spellbook or through prayers-while some cast spells spontaneously without preparation. Despite these different ways characters use to learn or prepare their spells, when it comes to casting them, the spells are very much alike."
 		],
-		"parent_topics": [ "magic" ],
 		"subtopics": [
 			"casting_spells",
 			"spell_descriptions",
@@ -1200,10 +1199,6 @@
 			"divine_spells",
 			"psychic_magic",
 			"special_abilities"
-		],
-		"siblings": [
-			"magic_basics",
-			"mastering_magic"
 		]
 	},
 	"casting_spells": {
@@ -1215,10 +1210,7 @@
 			"",
 			"Whether a spell is arcane or divine, and whether a character prepares spells in advance or chooses them on the spot, casting a spell works the same way."
 		],
-		"parent_topics": [
-			"magic",
-			"magic_basics"
-		],
+		"parent_topics": [ "magic" ],
 		"subtopics": [
 			"choosing_a_spell",
 			"concentration",
@@ -1255,7 +1247,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1316,7 +1307,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1351,7 +1341,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1378,7 +1367,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1403,7 +1391,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1442,7 +1429,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1481,7 +1467,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"casting_spells"
 		],
 		"siblings": [
@@ -1502,10 +1487,7 @@
 			"",
 			"The description of each spell is presented in a standard format. Each category of information is explained and defined below."
 		],
-		"parent_topics": [
-			"magic",
-			"magic_basics"
-		],
+		"parent_topics": [ "magic" ],
 		"subtopics": [
 			"school_subschool",
 			"level",
@@ -1554,7 +1536,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"subtopics": [
@@ -1593,7 +1574,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1636,7 +1616,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1669,7 +1648,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1698,7 +1676,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1723,7 +1700,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1768,7 +1744,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1793,7 +1768,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1844,7 +1818,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions",
 			"school_subschool"
 		],
@@ -1885,7 +1858,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -1922,7 +1894,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -1963,7 +1934,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -2051,7 +2021,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -2102,7 +2071,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -2168,7 +2136,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -2199,7 +2166,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -2225,7 +2191,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"spell_descriptions"
 		],
 		"siblings": [
@@ -2250,10 +2215,7 @@
 			"",
 			"***Spell Slots:*** The various character class tables show how many spells of each level a character can cast per day. These openings for daily spells are called spell slots. A spellcaster always has the option to fill a higher-level spell slot with a lower-level spell. A spellcaster who lacks a high enough ability score to cast spells that would otherwise be his due still gets the slots but must fill them with spells of lower levels."
 		],
-		"parent_topics": [
-			"magic",
-			"magic_basics"
-		],
+		"parent_topics": [ "magic" ],
 		"subtopics": [
 			"preparing_wizard_spells",
 			"arcane_magical_writing",
@@ -2295,7 +2257,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells"
 		],
 		"siblings": [
@@ -2319,7 +2280,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells"
 		],
 		"subtopics": [
@@ -2346,7 +2306,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells",
 			"arcane_magical_writing"
 		],
@@ -2378,7 +2337,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells",
 			"arcane_magical_writing"
 		],
@@ -2419,7 +2377,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells",
 			"arcane_magical_writing"
 		],
@@ -2443,7 +2400,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells",
 			"arcane_magical_writing"
 		],
@@ -2465,7 +2421,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells",
 			"arcane_magical_writing"
 		],
@@ -2493,7 +2448,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells"
 		],
 		"siblings": [
@@ -2515,7 +2469,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"arcane_spells"
 		],
 		"siblings": [
@@ -2533,10 +2486,7 @@
 			"",
 			"Clerics, druids, experienced paladins, and experienced rangers can cast divine spells. Unlike arcane spells, divine spells draw power from a divine source. Clerics gain spell power from deities or from divine forces. The divine force of nature powers druid and ranger spells, and the divine forces of law and good power paladin spells. Divine spells tend to focus on healing and protection and are less flashy, destructive, and disruptive than arcane spells."
 		],
-		"parent_topics": [
-			"magic",
-			"magic_basics"
-		],
+		"parent_topics": [ "magic" ],
 		"subtopics": [
 			"preparing_divine_spells",
 			"divine_magical_writing",
@@ -2575,7 +2525,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"divine_spells"
 		],
 		"siblings": [
@@ -2594,7 +2543,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"divine_spells"
 		],
 		"siblings": [
@@ -2618,7 +2566,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"divine_spells"
 		],
 		"siblings": [
@@ -2637,10 +2584,7 @@
 			"",
 			"A psychic spell largely functions like any other spell. It's another type of magic, similar to arcane or divine magic-in fact, those who use psychic magic are easily mistaken for practitioners of arcane and divine traditions. [Metamagic feats](main/feats_metamagic) and any other rules that alter or trigger from spells can usually be used with psychic spells (though see the Components section below for a few exceptions). Psychic spellcasters aren't affected by effects that target only arcane or divine spellcasters, nor can they use arcane or divine scrolls or other items or feats that state they can be utilized by only arcane or divine spellcasters."
 		],
-		"parent_topics": [
-			"magic",
-			"magic_basics"
-		],
+		"parent_topics": [ "magic" ],
 		"subtopics": [
 			"components_oa",
 			"undercasting_spells"
@@ -2675,7 +2619,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"psychic_magic"
 		],
 		"siblings": [
@@ -2696,7 +2639,6 @@
 		],
 		"parent_topics": [
 			"magic",
-			"magic_basics",
 			"psychic_magic"
 		],
 		"siblings": [
@@ -2726,10 +2668,7 @@
 			"",
 			"***Natural Abilities:*** This category includes abilities a creature has because of its physical nature. Natural abilities are those not otherwise designated as extraordinary, supernatural, or spell-like."
 		],
-		"parent_topics": [
-			"magic",
-			"magic_basics"
-		],
+		"parent_topics": [ "magic" ],
 		"siblings": [
 			"casting_spells",
 			"spell_descriptions",
@@ -2749,7 +2688,7 @@
 			"",
 			"But those are just ordinary people who have access to magic. Basic hedge wizards may make a fine living crafting glowing swords, and a priest with the ability to heal broken bones is a must for any church that wants to win itself a congregation, but such everyday spellcasters are hardly the stuff of legend. Instead, those magic users who get remembered as heroes and legends-rather than simply magical craftsmen and merchants-take these same techniques and build upon them, seeking out ever-more-elusive knowledge and crafting new spells of magnificent power. It is with these esoteric practices that the greatest make names for themselves; these potent arts set the masters apart from mundane practitioners."
 		],
-		"parent_topics": [ "magic" ],
+		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
 			"spellblights",
 			"spell_duels",
@@ -2758,8 +2697,21 @@
 			"designing_spells"
 		],
 		"siblings": [
-			"magic_basics",
-			"mastering_magic"
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"bestiary",
+			"race_builder",
+			"campaign_systems",
+			"aquatic_adventures_aa",
+			"occult_rules",
+			"mastering_combat",
+			"mastering_magic",
+			"mastering_intrigue",
+			"horror_rules",
+			"infernal_contracts",
+			"mastering_the_wild",
+			"planar_adventures",
+			"primal_magic"
 		]
 	},
 	"spellblights": {
@@ -2773,7 +2725,7 @@
 			"Unlike many magical effects, a spellblight usually persists in an antimagic field, though because they often affect spellcasting, their effect is typically lessened in such a field."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -2803,7 +2755,7 @@
 			"***Curses and Other Spells:*** All spellblights can be inflicted upon spellcasters with a bestow curse or [major curse](spell/major_curse) spell. Bestow curse can bestow any minor spellblight, while a major curse is required to afflict a spellcaster with a major spellblight. Other spells may inflict a specific spellblight or may allow the caster to select any spellblight as part of the spell. A successful saving throw against the spell prevents the spellblight from taking hold."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2835,7 +2787,7 @@
 			"***Use Magic Device:*** When a spellcaster rolls a natural 1 while attempting to use a magic device with the Use Magic Device skill, she can choose to risk gaining a minor spellblight instead of not being able to activate the item for 24 hours (Will negates DC 10 + item's caster level)."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2885,7 +2837,7 @@
 			"| 10 | Roll twice on the minor spellblight chart. The spellcaster is affected with both spellblights. |"
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2905,7 +2857,7 @@
 			"The following section details spellblights, split up based on their severity and featuring descriptions of effects and special methods to end those effects. Note that some of the effects of spellblights can be somewhat beneficial. Crafty spellcasters can make the best of even the worst situations, and the beneficial effects of any spellblights represent this. If a spellblight calls for a concentration check based on the level of the effect, and the caster is using a spell-like ability that doesn't have an effective level, use half the caster level of the spell-like ability instead."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2970,7 +2922,7 @@
 			"Spell addiction is cured by any effect that removes confusion, insanity, or disease. Creatures that are immune to mind-affecting effects are immune to spell addiction."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights",
 			"description_of_spellblights"
@@ -3030,7 +2982,7 @@
 			"A [restoration](spell/restoration) cast on the afflicted spellcaster suppresses this spellblight for 1 day."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights",
 			"description_of_spellblights"
@@ -3048,7 +3000,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 98](source/ultimate_magic)",
 			"",
-			"A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of the spellblight conditions above offer advantages under the right conditions, at the GM's discretion, the standard conditions described in Appendix 2 of the Core Rulebook can provide benefits as well. If the following material gives a spell failure chance, this is in addition to other rolls to succeed at casting (such as caster level checks and arcane spell failure from armor) and is resolved after those rolls.",
+			"A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of the spellblight conditions above offer advantages under the right conditions, at the GM's discretion, the [standard conditions](rule/conditions) can provide benefits as well. If the following material gives a spell failure chance, this is in addition to other rolls to succeed at casting (such as caster level checks and arcane spell failure from armor) and is resolved after those rolls.",
 			"",
 			"***Bleed:*** While a spellcaster is affected by this condition, her [inflict wounds](spell/inflict_light_wounds) spells inflict an extra point of damage per die. This only applies when using an *inflict wounds* spell, not when using those spells to heal undead.",
 			"",
@@ -3075,7 +3027,7 @@
 			"***Staggered:*** Once per day, while a spellcaster is staggered, she can take a 20% chance of spell failure when casting a single spell that takes a swift or standard action to cast. If the spell is successfully cast, she can take a move action directly after casting the spell."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spellblights",
 			"description_of_spellblights"
@@ -3095,7 +3047,7 @@
 			"Spellcasters are no strangers to battle, but there's a difference between the chaos of a huge melee, with dozens of feral monsters seeking to tear the caster limb from limb, and a more civilized duel between rivals seeking to settle a dispute. Make no mistake, these duels can be just as deadly, but the rules surrounding them make for a different style of combat-one in which both combatants can attack and defend with ease, allowing the true skill and power of each to determine the victor."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -3129,7 +3081,7 @@
 			"- The duel lasts until one of the casters has been knocked unconscious or otherwise prevented from continuing. Spells such as [hold person](spell/hold_person) do not end duels, but [flesh to stone](spell/flesh_to_stone) certainly does, assuming the target fails her saving throw. Some duels go to the death and are only ended when one duelist or team is a smoking pile of ash."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3158,7 +3110,7 @@
 			"In addition to the normal set of actions a dueling caster can perform each round, each participant in a duel may take a special counterspell action called a dueling counter, as noted below."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3194,7 +3146,7 @@
 			"| Spell is the same as the spell being countered | +10 |"
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3217,7 +3169,7 @@
 			"Regardless of the conditions, most duels are serious affairs, with each side putting pride, honor, treasure, and even their lives on the line to win the day. While villains might try to cheat the rules and exploit every advantage, the more noble duelist sees the competition as a chance to prove her superiority and skill on the field of battle, using only her magic and wits."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3237,7 +3189,7 @@
 			"One of the most potent tools a spellcasters can wield is the command of summoned creatures; the most powerful of these spells call forth allies mightier than mere flesh, reaching from the depths of Hell to the peaks of Heaven, and even stranger places beyond the pale. When reaching for knowledge and forces from other planes, a spellcaster must have control over the strengths and weaknesses of their targets, or face doom far worse than any that might be visited upon them in the Material Plane. A spellcaster wishing to bind such creatures who cannot play to the desires of his summoned captive will surely lose control, and may find himself torn from his reality as a plaything of the multiverse's cruelest tormentors."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -3264,7 +3216,7 @@
 			"The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is [planar ally](spell/planar_ally); wizard, sorcerers, and summoners rely primarily on [planar binding](spell/planar_binding) (or [summon monster](spell/summon_monster_1), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3291,7 +3243,7 @@
 			"The cleric must bargain with the deity's servant for a payment agreed upon before the outsider will perform the task: gold, magic items, gifts, sacrifices, or promises by the cleric to achieve certain goals particular to the conjured ally. The greater the task, the greater the payment required, with a minimum of 100 gp worth of goods or services, sometimes extending into the thousands-and sometimes the ally simply refuses the cleric's binding if the job is too dangerous or beneath its dignity."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"calling_outsiders"
@@ -3317,7 +3269,7 @@
 			"Smart arcane binders often make deals with the creatures they call. Like clerics using [planar ally](spell/planar_ally), they bargain and shower the outsider with gifts in exchange for their services. While it is always good for an arcane spellcaster to make these deals from a position of strength, it is much better to get the outsider to come to mutually agreed upon terms for the service, rather than forcing it to commit actions against its nature or desires."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"calling_outsiders"
@@ -3345,7 +3297,7 @@
 			"Not all outsiders have true names. The chaotic and primeval nature of proteans defies the strange logic of true names, as does the writhing chaotic nature of the qlippoth. It is unclear whether aeons have true names. There are those sages who believe each aeon has two true names, and only by finding out both names can a creature gain some control over the aeon, but such matters are purely conjecture."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3383,7 +3335,7 @@
 			"Offering appropriate gifts to the summoned creature can provide the caster a +2 bonus on the opposed Charisma check to keep it on the Material Plane. Indeed, if the gift is sweet enough, the outsider may choose not to break the strictures of the summoning, even if it has the opportunity to do so. All gifts, whether or not they are good enough to please the outsider, disappear at the spell's conclusion. Only the worst sorts of gifts are rejected; such a rejection indicates that the summoned creature feels gravely insulted."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3423,7 +3375,7 @@
 			"***Unholy:*** The opposite of the holy weapon, an [unholy](magic-enhancement/unholy) weapon inflicts its damage on good-aligned outsiders, but is in other respects the same."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"dealing_with_outsiders"
@@ -3439,7 +3391,7 @@
 			"The following sections give a general overview of the major outsider classifications, examples for each category (and their spell resistance, if any), their interests, their vulnerabilities, and what substances they dislike."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3487,7 +3439,7 @@
 			"***Theletos (SR 18):*** These guardians of freedom and fate often aid spellcasters in the pursuit of the former and the implementation of the latter, but like all aeons, their views on these subjects typically seem contradictory, and they are difficult to fully control or understand."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3534,7 +3486,7 @@
 			"***Vulpinal (SR 17):*** These foxlike agathions deal with those who bind them into service with an outspoken friendliness. They often bluntly state their dissatisfaction with their current fate in the most diplomatic terms, frequently accompanied by a smile and a wink. They prefer to be used as messengers and emissaries in the service of good, and if bound for any other purpose, they trick their way into the resolution of their bargains as quickly as possible."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3579,7 +3531,7 @@
 			"***Solar (SR 34):*** The greatest warriors of goodness, solars do not typically treat directly with mortals. To summon a solar and bargain with it, a wizard must destroy an item of great evil in the solar's name, crush a powerful evil in the world, or offer an evil relic as part of the summoning."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3622,7 +3574,7 @@
 			"***Trumpet (SR 25):*** Mighty warriors and messengers, trumpet archons are the leaders of Heaven's strike forces and the heralds of gods. To gain their favor, one must prove worthy of their presence; rather than making offerings of things, trumpet archons ask for sacrifices of service and time, and any binder who offers an exchange of services-and intends to keep her word-gains a +2 Charisma bonus. Those who renege on their bonds see their fortunes begin to vanish, and take a -2 Charisma penalty when dealings with good extraplanar creatures until they set matters right."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3667,7 +3619,7 @@
 			"***Lyrakien:*** Musicians among the azata, lyrakien can be persuaded to service with gifts of wondrous musical instruments and rare bits of music-especially fey music."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3722,7 +3674,7 @@
 			"***Thanadaemon (SR 24):*** As deacons of the Horseman of Death, thanadaemons are hardly ever summoned by mortal spellcasters, and when they are, the event portends a near-apocalyptic end of mortal life."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3787,7 +3739,7 @@
 			"***Vrolikai (SR 30):*** These transformed nabasus hate being summoned to the Material Plane, believing their time there is over and they are meant for greater things. When summoned, they typically ask for twice the normal amount in gifts. These demands are often accompanied by outrageous, sometimes impossible demands. They can eventually be reasoned with, but only when binders demonstrate power over them."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3850,7 +3802,7 @@
 			"***Pit Fiend (SR 31):*** Pit fiends, the greatest of all the non-noble devils in Hell, are rarely tempted to answer a summons; when called, most of them come to see the stupidity or the arrogance that brought them to the Material Plane before snatching the wizard away for an eternity of torment. Only the greatest of promises, such as a noble offering the enslavement of an entire empire, a priest offering the destruction of holy relics, or an antipaladin pledging the delivery of a helpless and noteworthy angel for the pit fiend's pleasure, might induce the pit fiend into service."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3923,7 +3875,7 @@
 			"***Water Elemental:*** When summoning a water elemental, remove sources of water from the room and prepare a bonfire. A ring of fire around the magic circle exposes the elemental to its hated enemy the instant it appears on the Material Plane, distracting it long enough for the binder to seize control. This is an opposed Will check, granting a +1 bonus to the caster for each large fire in the room; success grants a +4 bonus on the Charisma check."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3964,7 +3916,7 @@
 			"***Zelekhut (SR 20):*** Zelekhuts often answer the call of binders who wish to use them to search out and even execute those who seek to evade justice."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4005,7 +3957,7 @@
 			"***Voidworm:*** To most other proteans, these tiny creatures aren't true proteans at all, just pale reflections of protean powers manifesting in the twisting currents of Limbo. Mortal spellcasters sometimes call these creatures to serve as familiars."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4052,7 +4004,7 @@
 			"Thulgant (SR 25 vs. lawful spells and creatures): These powerful qlippoth are too arrogant and self-important to answer the call of a spellcaster wishing to bind them."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4085,7 +4037,7 @@
 			"There is one group of outsiders that it is more difficult to bind: the native outsider. A native outsider cannot be called and bound from the Material Plane. In order to call any outsider, it must be on a different plane from the binder. Native outsiders (or other outsiders currently manifesting on the Material Plane) can only be called and bound by spellcasters on a different plane."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4115,7 +4067,7 @@
 			"The [Craft Construct](feat/craft_construct) feat allows a spellcaster to create all manner of permanent constructs in a process much like magic item creation. Each construct has a purchase price and a crafting cost, along with a list of requirements and the skills used to create them. Some require special materials in addition to the cost for basic crafting supplies, generally for the construct's body. Special material costs increase both the purchase price and the crafting cost of the construct. The DC to craft a construct is 5 + the default caster level of the construct, just like for a magic item. Like when crafting magic items, a creator with a sufficiently high skill bonus may ignore these requirements. Each missing requirement increases the Craft DC by 5. Regardless, the creator must meet all item creation feats and minimum caster level requirements. Crafting a construct takes 1 day per 1,000 gp in the item's base price, excluding any special material costs. This process is identical to the process for crafting a magic item, including the rules for accelerating creation and handling interruptions."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -4144,7 +4096,7 @@
 			"A caster can use the [animate objects](spell/animate_objects) spell to instantly create a temporary construct. A [permanency](spell/permanency) spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. [Craft Construct](feat/craft_construct) creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object monster entry](monster/animated_object)."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4179,7 +4131,7 @@
 			"***Trip (Ex, 2 CP):*** The object gains the trip special ability with one of its slam attacks."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4202,7 +4154,7 @@
 			"The monster creation rules in the Bestiary serve as your best guide for designing a new construct. New constructs should stick fairly close to the [Monster Statistics by CR table](rule/step_2_target_statistics). As they are usually mindless combat brutes, most use the \"high attack\" column, with damage falling in between the High and Low average damage columns. Note that all the construct's saving throws are likely to be poor, and they have no favored saves. Lacking a Constitution score, a construct's hit points also tend to be low in comparison to creatures with similar CRs. Consider giving any construct that doesn't have either damage reduction or hardness a higher AC to compensate."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4225,7 +4177,7 @@
 			"",
 			"Constructs with multiple special abilities cost more to create. The first special ability is included in the construct's base cost. The next two special abilities increase the calculated price by +1/2 CR per ability. Thereafter, any additional special abilities add +1 CR per ability. Examples of special abilities include having a higher DR value than a typical construct of its CR (above DR 5 for CRs 1-8, above DR 10 for CR 9+), monster statistics that exceed those recommended for the [construct's CR](rule/step_2_target_statistics), the standard golem immunity to magic, DR or hardness that can't be overcome by all adamantine weapons, ability to be fully healed by a single spell, and most special attacks and special qualities.",
 			"",
-			"Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case- their base price is not increased by any abilities paid for with Construction Points (see the [Animated Object monster entry](monster/animated_object)), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described in the Bestiary, rather than by adjusting pricing for their new CR.",
+			"Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case - their base price is not increased by any abilities paid for with Construction Points (see the [Animated Object monster entry](monster/animated_object)), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described in the Bestiary, rather than by adjusting pricing for their new CR.",
 			"",
 			"Abilities that weaken or potentially place a construct at a disadvantage rarely reduce the construct's price. An exception is the berserk ability. Constructs that have a chance of going berserk receive -1 CR adjustment to their calculated price if control can be reestablished (like a flesh golem) or -2 CR adjustment for permanent loss of control (like a clay golem).",
 			"",
@@ -4234,7 +4186,7 @@
 			"When designing a new construct, keep in mind that the above pricing formula only serves as a guideline. As with magic items, construct pricing remains more art than science, and like magic items, compare new constructs to existing ones for guidance. If you're not sure, err on the side of a higher price."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs",
 			"building_new_constructs"
@@ -4254,7 +4206,7 @@
 			"A construct that has been completely destroyed cannot be repaired, though at the GM's option some of the materials may be usable in the construction of a new construct. Additionally, some constructs have special means of repair, usually involving spells related to the golem's nature (such as the use of acid damage to heal a clay golem.)"
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4279,7 +4231,7 @@
 			"A list of all construct modifications can be found in [Miscellaneous Magic](main/magic_misc) under the Construct Modifications heading."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4313,7 +4265,7 @@
 			"***Ability Score Modification:*** Using this modification, a crafter can permanently increase one of the construct's ability scores by +2 per modification. He cannot increase any abilities with a score of 0. The cost for permanently increasing an ability score is 5,000 gp."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs",
 			"construct_modifications"
@@ -4333,7 +4285,7 @@
 			"These modifications represent more complex changes to the structure and function of the construct. The cost is equivalent to the minimum level to cast the spell &times; the spell level &times; 250 gp."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"building_and_modifying_constructs",
 			"construct_modifications"
@@ -4372,7 +4324,7 @@
 			"Remember that it's acceptable to make a spell that isn't as powerful as an existing spell. Just because it's not the best spell of its level doesn't mean it won't get used by adventurers. In fact, that's why easily crafted scrolls are a significant part of the game-to allow parties access to spells they wouldn't normally prepare or learn, but may find useful in some circumstances."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -4399,7 +4351,7 @@
 		"description": [
 			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
 			"",
-			"It is essential for you to understand the terminology used in the game to describe spells and the effects they can create. Before designing a new spell, familiarize yourself with [\"Chapter Nine: Magic\" in the Core Rulebook](rule/magic). In particular, be sure you understand the various [schools and subschools](rule/school_subschool) and the [spell stat block categories](rule/spell_descriptions) (components, range, and so on).",
+			"It is essential for you to understand the terminology used in the game to describe spells and the effects they can create. Before designing a new spell, familiarize yourself with [the magic rules](rule/magic). In particular, be sure you understand the various [schools and subschools](rule/school_subschool) and the [spell stat block categories](rule/spell_descriptions) (components, range, and so on).",
 			"",
 			"The following sections address aspects of spell design in order of their importance and relevance to making a balanced spell. For example, the components of a spell have very little to do with its power level unless an expensive focus or material component is involved, so components are discussed well after damage, range, duration, and saving throws.",
 			"",
@@ -4425,7 +4377,7 @@
 			"A spell can do several of these things at once, or give the caster a choice between several options, but such spells should always be less powerful than a single-purpose spell of the same spell level, so keep that in mind when designing the spell. Note that \"condition or effect\" is the broadest category in the above list, which includes actual conditions like sickened and panicked, as well as effects like teleportation."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4499,7 +4451,7 @@
 			"| 9th | 25 dice | 20 dice |"
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4529,7 +4481,7 @@
 			"A spell that affects multiple creatures is more powerful than a spell that only affects one creature. Multiple-creature spells tend to either be area effects such as cones and spheres (like [fireball](spell/fireball)), or allow the caster to select multiple targets as long as no two targets are more than a set distance apart (like [slow](spell/slow)). A burst effect like [fireball](spell/fireball) can potentially affect many more enemies than a pick-your-targets spell like [slow](spell/slow), but you never risk hitting your friends when you use [slow](spell/slow). Select which type is most appropriate for the spell, but understand that selecting multiple targets is generally more powerful except at the lowest caster levels (where a low caster level means few targets compared to a burst which can affect many)."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4563,7 +4515,7 @@
 			"There are no hard-and-fast rules for determining how long a spell should last at a particular level; a weak spell may last hours, while a powerful one may only last a few rounds or be spent in one action. Your best bet is to compare your spell's effect and duration to those of similar spells of its intended level and spells one level below and above that. Make sure you are fully aware of the differences between \"instantaneous\" spells and \"permanent\" spells."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4605,7 +4557,7 @@
 			"Spells that only affect the caster never require a saving throw (you'd never try to resist a beneficial spell you're casting on yourself), so you don't list a saving throw for those spells at all (see [true strike](spell/true_strike))."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4639,7 +4591,7 @@
 			"If a spell's saving throw entry is marked as \"(harmless)\" or \"(object),\" the spell resistance entry should say that as well."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4669,7 +4621,7 @@
 			"Spells that call an outsider to serve for more than a few rounds (such as [planar ally](spell/planar_ally) and [planar binding](spell/planar_binding)) should have a casting time of 10 minutes; more powerful spells may have even longer casting times. Note that [gate](spell/gate) can be used to call creatures and only has a casting time of 1 standard action, but when used this way, it requires a 10,000 gp material component, so that faster casting time doesn't come cheaply."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4705,7 +4657,7 @@
 			"Focus components are governed by the same rules as material components-in most cases they're just there for flavor, and are only relevant if costly. A costly focus is like a costly material component, except it's a one-time expenditure rather than a repeat expenditure, a barrier to entry that you can ignore once they've crossed the threshold. A costly focus is a good way to delay when PCs gain access to the spell, but once they have the materials, it's essentially just like any other spell without a costly focus. As with material components, balance the spell for its level, and if it seems like the spell is too good and delaying access to it would help moderate it, consider adding a costly focus component."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4783,7 +4735,7 @@
 			"***Water:*** Spells that manipulate water or conjure creatures from water-dominant planes or with the water subtype should have the water descriptor."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4835,7 +4787,7 @@
 			"&ast; Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4869,7 +4821,7 @@
 			"When you finish writing a spell description, have others look it over. They'll notice things you missed, come up with questions your spell needs to address, and find ways your spell can be abused. Use that feedback to revise the spell."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4907,7 +4859,7 @@
 			"Spells with variable effects may be more than one type of spell in the hierarchy depending on the results-a [confusion](spell/confusion) spell that causes a monster to babble incoherently is an incapacitate spell, but if the spell causes it to attack one of its allies, it's a control spell. Likewise, a [summon monster](spell/summon_monster_1) spell that summons a fiendish constrictor snake is an incapacitate spell if the snake grapples an enemy, but it's just a damage spell if it summons a fiendish boar, which only deals damage and has no special attacks. Balancing these spells is tricky, as you have to consider their optimal usage."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4935,7 +4887,7 @@
 			"\"Depletable statistic\" isn't an official game term, but it is a helpful concept when comparing power levels of spells-attacking depletable statistics is a war of attrition that can eventually wear down the target, whereas adding penalties to non-depletable statistics may have no effect at all, as the target may have other attacks that allow them to ignore those penalties."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4969,7 +4921,7 @@
 			"Rather than create a multipurpose spell that gives a \"shopping list\" of effects the caster can choose from, keep the spell focused on one or perhaps two similar options. Note that there is a difference between a spell with multiple similar options and one with radically different options. Good examples of appropriate multipurpose spells are [alarm](spell/alarm) (audible and mental alarms are still alarms), [beast shape I](spell/beast_shape_1) (Small or Medium animals, specific benefits from a short list), [fire shield](spell/fire_shield) (two options with basically the same mechanical effect, on par for a spell of its level), the [summon monster](spell/summon_monster_1) spells (very versatile but of limited duration, with monsters of a lower power level than other spells of the same level)."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4993,7 +4945,7 @@
 			"Some spells in the Core Rulebook are clearly the best of their spell level. Other spells are perfect examples of what a spell of that level or purpose should be able to do. These are \"benchmark\" spells, and when designing a new spell you should always compare your spell to the benchmark spells. If your spell is better than the benchmark spell, you should reduce its power or increase its spell level. The following is a list of benchmark spells by sorcerer/wizard spell level, with explanations of why they are benchmarks. If you create a spell and it's better than a comparable benchmark spell, your spell is too powerful."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -5030,7 +4982,7 @@
 			"[Magic Missile](spell/magic_missile): Perhaps the best 1st-level spell in the game, [magic missile](spell/magic_missile) may not do a lot of damage, but it requires no attack roll, has a medium range, needs no saving throw, and harms incorporeal creatures. Even if [magic missile](spell/magic_missile) were 2nd-level, smart casters would still learn it."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5061,7 +5013,7 @@
 			"[Web](spell/web): This is a powerful, nonlethal spell that remains viable even at higher levels (even a lich who makes his save against a web has to deal with the difficult terrain and risks becoming stuck if he moves). It even provides cover, and can be set on fire to damage targets in the area."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5100,7 +5052,7 @@
 			"[Suggestion](spell/suggestion): This is the lowest-level spell in which the caster is able to compel the target to act, yet the spell's control is still limited to \"reasonable actions.\""
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5131,7 +5083,7 @@
 			"[Phantasmal Killer](spell/phantasmal_killer): This is the lowest-level spell that can directly kill a creature, but allows two saves to resist it."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5164,7 +5116,7 @@
 			"[Wall of Stone](spell/wall_of_stone): This is the lowest-level spell that creates a large-scale, permanent (instantaneous) object out of nothing (compare as well to [fabricate](spell/fabricate), which permanently reshapes raw materials into finished goods)."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5193,7 +5145,7 @@
 			"[Guards and Wards](spell/guards_and_wards): Although not often used by PCs because they usually don't have permanent residences, this spell is important because it establishes that a large-area defensive spell can use multiple effects to protect a home and befuddle invaders."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5220,7 +5172,7 @@
 			"[Limited Wish](spell/limited_wish): This powerful spell lets the caster pick effects from countless available lower-levels spells at the time of casting, even those from different class lists."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5251,7 +5203,7 @@
 			"[Mind Blank](spell/mind_blank): This spell is an example of a very narrowly focused defensive spell that is able to block even higher-level spells from affecting the target."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5282,7 +5234,7 @@
 			"[Time Stop](spell/time_stop): This is the only spell in the game that lets the caster take multiple rounds' worth of actions and simultaneously prevents anyone else from doing anything about it."
 		],
 		"parent_topics": [
-			"magic",
+			"gamemastering",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5495,7 +5447,7 @@
 			"",
 			"A piece of timeworn technology may have additional aesthetic and functional differences from a new piece of the same equipment. Many of these effects are purely cosmetic, such as cracks in the casing of an arc grenade or primitive etchings on a suit of technological armor placed there by a barbarian millennia ago. Pieces of timeworn technology may also have minor mechanical effects beyond glitches (at the GM's discretion). A timeworn laser pistol might constantly hum at a low but noticeable frequency, imparting a -1 penalty on Stealth checks. A timeworn plasma grenade could be caked in a strange viscous fluid that has a pungent odor, making its wielder more easily tracked via scent. Timeworn technological items should clearly evoke a sense of age and danger, and even the most standard piece of Androffan gear can be made unique based on individual deteriorations.",
 			"",
-			"Note that not every technological item in Numeria is timeworn, but most technology that PCs encounter outside of the deepest and most remote of Numerian ruins will be (though the Technic League jealously guards a significant number of pristine technological artifacts). These items function as presented in the previous chapter, can be recharged, and do not suffer glitches.",
+			"Note that not every technological item in Numeria is timeworn, but most technology that PCs encounter outside of the deepest and most remote of Numerian ruins will be (though the Technic League jealously guards a significant number of pristine technological artifacts). These items function as presented, can be recharged, and do not suffer glitches.",
 			"",
 			"A timeworn technological item that is still somewhat functioning is worth half of its normal listed price, though one drained of its charges is worth 1% of its normal value, as a curiosity to collectors. Timeworn technology also has the following properties.",
 			"",
@@ -5695,6 +5647,7 @@
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
+			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",
@@ -5707,7 +5660,7 @@
 		"name": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
-			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water-typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This chapter includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures."
+			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water-typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures."
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
@@ -5724,6 +5677,7 @@
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
+			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",

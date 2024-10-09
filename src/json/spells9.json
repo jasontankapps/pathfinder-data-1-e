@@ -3128,7 +3128,7 @@
 			"",
 			"**Source** [Inner Sea Gods pg. 242](source/inner_sea_gods)",
 			"",
-			"When casting this spell, you can specify a particular Spawn of Rovagug- including the Tarrasque, the Armageddon Engine; Chemnosit, the Monarch Worm; or Volnagur, the End-Singer-to call in place of the nameless behemoth spawned by the non-mythic version of this spell. In order to do so, you must expend one use of mythic power plus three additional uses of mythic power per point of Challenge Rating the specified spawn represents above CR 20. These must be expended on the final day of the weeklong ritual to cast the spell."
+			"When casting this spell, you can specify a particular Spawn of Rovagug - including the Tarrasque, the Armageddon Engine; Chemnosit, the Monarch Worm; or Volnagur, the End-Singer - to call in place of the nameless behemoth spawned by the non-mythic version of this spell. In order to do so, you must expend one use of mythic power plus three additional uses of mythic power per point of Challenge Rating the specified spawn represents above CR 20. These must be expended on the final day of the weeklong ritual to cast the spell."
 		]
 	},
 	"spawn_ward": {
@@ -3955,7 +3955,7 @@
 			"**Area** two 10-ft. cubes per level (S)  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago- albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a primal magic event-a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
+			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a primal magic event-a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
 			"",
 			"You gain a +4 insight bonus on concentration checks made to avoid triggering primal magic events while within a spellscar you have created, and if you do trigger a primal magic event, you may roll d% twice and pick which of the two results you wish to have occur."
 		]
@@ -5284,7 +5284,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"A rain of dirt, gravel, and small pebbles fills the area, dealing 2d6 points of bludgeoning damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, this debris covers the ground, making the entire area difficult terrain. At the end of the duration, the rocks disappear, leaving no aftereffects (other than the damage dealt)."
+			"A rain of dirt, gravel, and small pebbles fills the area, dealing 2d6 points of bludgeoning damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, this debris covers the ground, making the entire area difficult terrain. At the end of the duration, the rocks disappear, leaving no after-effects (other than the damage dealt)."
 		]
 	},
 	"stone_discus": {

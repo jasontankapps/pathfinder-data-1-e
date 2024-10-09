@@ -1011,7 +1011,7 @@
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 162](source/ultimate_wilderness)",
 			"",
-			"When a monster is defeated in combat, the process of identifying what portions of the creature can serve as a trophy and harvesting the trophy are somewhat abstracted- there's no need to track the values for each part of every monster in the game once they're gathered as trophies.",
+			"When a monster is defeated in combat, the process of identifying what portions of the creature can serve as a trophy and harvesting the trophy are somewhat abstracted; there's no need to track the values for each part of every monster in the game once they're gathered as trophies.",
 			"",
 			"In order to harvest and preserve a trophy from a kill, a character must attempt three checks: one to determine what parts of the creature are worth harvesting for a trophy, one to determine if she successfully harvests the trophy components without damaging or ruining them, and one to turn the components into a permanent trophy.",
 			"",
@@ -1371,7 +1371,7 @@
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 166](source/ultimate_wilderness)",
 			"",
-			"A year has four seasons-spring, summer, fall, and winter- each of which lasts about 3 months. Season plays an important part in dictating a region's baseline temperature (as noted in each climate and in Table 4-14). It also dictates the baseline precipitation frequency in a region before applying adjustments due to climate or elevation. In most regions with cold and temperate climates, precipitation frequency is intermittent during spring and fall, common during the summer, and rare during the winter. In most regions with tropical climates, precipitation frequency is common during spring and fall, intermittent during the summer, and rare during the winter.",
+			"A year has four seasons - spring, summer, fall, and winter - each of which lasts about 3 months. Season plays an important part in dictating a region's baseline temperature (as noted in each climate and in Table 4-14). It also dictates the baseline precipitation frequency in a region before applying adjustments due to climate or elevation. In most regions with cold and temperate climates, precipitation frequency is intermittent during spring and fall, common during the summer, and rare during the winter. In most regions with tropical climates, precipitation frequency is common during spring and fall, intermittent during the summer, and rare during the winter.",
 			"",
 			"On worlds with a tilt in their axis, the seasons are typically reversed between northern and southern hemispheres. While it is the height of summer in the north, the areas south of the equator are in the depths of winter.",
 			"",
@@ -1799,7 +1799,7 @@
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 176](source/ultimate_wilderness)",
 			"",
-			"Many classes involve more than just a single hero or villain. What is the druid without her trusty animal companion, the cavalier without his steadfast mount, or the witch without her devoted familiar? These classes split their powers between the hero's personal abilities and those of a companion of some sort-be it a relatively minor creature like a familiar associated with the class's magical traditions, or a significant battlefield presence such as an animal companion or a mount. This chapter explores all these variants and provides dozens of new options for players who are making decisions about the next staunch sidekick their character will adopt!",
+			"Many classes involve more than just a single hero or villain. What is the druid without her trusty animal companion, the cavalier without his steadfast mount, or the witch without her devoted familiar? These classes split their powers between the hero's personal abilities and those of a companion of some sort-be it a relatively minor creature like a familiar associated with the class's magical traditions, or a significant battlefield presence such as an animal companion or a mount. This section explores all these variants and provides dozens of new options for players who are making decisions about the next staunch sidekick their character will adopt!",
 			"",
 			"As with all expansions to the rules, make sure to secure your GM's approval before selecting your character's animal companion or familiar-not all of the options presented on the following pages are appropriate for every campaign or every game world."
 		],
@@ -1931,7 +1931,7 @@
 		"description": [
 			"**Source** [Planar Adventures pg. 8](source/planar_adventures)",
 			"",
-			"The Great Beyond is a place of unmatched beauty, boundless opportunity, and overwhelming magic, but those boons are more than matched by the dangers that await travelers and explorers of planes far from their own. Those who seek to adventure in such treacherous realms would do well to prepare in advance, and this chapter presents numerous options for characters to do so through archetypes, feats, spells, and magic items.",
+			"The Great Beyond is a place of unmatched beauty, boundless opportunity, and overwhelming magic, but those boons are more than matched by the dangers that await travelers and explorers of planes far from their own. Those who seek to adventure in such treacherous realms would do well to prepare in advance, and this section presents numerous options for characters to do so through archetypes, feats, spells, and magic items.",
 			"",
 			"The planes are vast, but their themes are also stronger than those on most Material Plane worlds. On a typical Material Plane world, one can expect to encounter a wide range of terrains, societies, civilizations, beliefs, and religions. This diversity is perhaps the Material Plane's greatest strength, and it is certainly why models of the planes tend to place the Material Plane at the metaphysical center of reality. Here, elements from all of the planes of the Great Beyond mix. In contrast, the other planes of the Great Beyond tend to each exemplify a single specific theme, condition, philosophical conceit, or incarnation of reality. There is little fear of dying of frostbite on the Plane of Fire. One can expect to find plenty of representation of chaotic good faiths in Elysium but relatively little (if any at all) of lawful faiths. Color itself is a rarity in the Shadow Plane, and solid ground likewise in places like the Astral and Ethereal Planes.",
 			"",
@@ -1958,6 +1958,7 @@
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
+			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",
@@ -2022,7 +2023,7 @@
 			"",
 			"**[Undine](race/undine):** Undines are the descendants of those who have mingled with creatures of elemental water. They can be found on the Plane of Water.",
 			"",
-			"**[Wayang](race/wayang):** Wayangs originally came from the Shadow Plane, but are rarely found there today- most dwell now on the Material Plane."
+			"**[Wayang](race/wayang):** Wayangs originally came from the Shadow Plane, but are rarely found there today; most dwell now on the Material Plane."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2321,7 +2322,7 @@
 			"",
 			"***Allies:*** This entry lists deities among the core pantheon who have allied with the god or goddess in question.",
 			"",
-			"***Relations:*** If the deity is related in some way to another deity of the core pantheon, that information is presented here. Although many deities are related to deities or demigods outside the core pantheon, those relationships are not listed in this book. A special relationship that deserves additional clarification is \"ascended sibling.\" Three of the core deities ([Cayden Cailean](faith/cayden_cailean), [Iomedae](faith/iomedae), and [Norgorber](faith/norgorber)) ascended from mortality via a harrowing quest known as the Test of the Starstone, and while these three deities are often at odds, they share an unshakable bond in that all three became deities in the same way.",
+			"***Relations:*** If the deity is related in some way to another deity of the core pantheon, that information is presented here. Although many deities are related to deities or demigods outside the core pantheon, those relationships may not be listed. A special relationship that deserves additional clarification is \"ascended sibling.\" Three of the core deities ([Cayden Cailean](faith/cayden_cailean), [Iomedae](faith/iomedae), and [Norgorber](faith/norgorber)) ascended from mortality via a harrowing quest known as the Test of the Starstone, and while these three deities are often at odds, they share an unshakable bond in that all three became deities in the same way.",
 			"",
 			"***Enemies:*** This entry lists deities among the core pantheon who are active enemies to the god or goddess in question.",
 			"",
@@ -2820,7 +2821,7 @@
 			"",
 			"Even the most geologically varied planet pales in comparison to the unparalleled diversity possible on just one of the nighinfinite planes. Most other planes consist of the distilled essence of an alignment or element, each of which provides an extraordinary substrate to nourish a dazzling array of organisms and propagate realities. Moreover, many planes host realms that are occupied continually by inventive creatures who spend untold eons creating countless tools, structures, and masterpieces that surpass anything a Material Plane world might produce. As the realms of the gods themselves, the planes can be home to utterly unique treasures that represent the very first or purest form of a given object.",
 			"",
-			"Of course, adventurers specialize in studying and acquiring baubles, so to some, a plane's treasures may simply be awaiting harvest by the right hands. The fabled artifact necessary to slay a demon lord might reside in Heaven- perhaps in the possession of an archon who's not inclined to share. The reagents needed to brew a powerful potion to end a mythic curse might grow only in Abaddon's tear-soaked soil or crystallize in the Plane of Earth's most secluded caverns. Some travelers might seek real estate instead of treasures, skirmishing with the Astral Plane's [shulsagas](monster/shulsaga) to claim a newly formed demiplane as their own."
+			"Of course, adventurers specialize in studying and acquiring baubles, so to some, a plane's treasures may simply be awaiting harvest by the right hands. The fabled artifact necessary to slay a demon lord might reside in Heaven, perhaps in the possession of an archon who's not inclined to share. The reagents needed to brew a powerful potion to end a mythic curse might grow only in Abaddon's tear-soaked soil or crystallize in the Plane of Earth's most secluded caverns. Some travelers might seek real estate instead of treasures, skirmishing with the Astral Plane's [shulsagas](monster/shulsaga) to claim a newly formed demiplane as their own."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2945,7 +2946,7 @@
 			"",
 			"Traveling the planes exposes the PCs to jaw-dropping creatures and traditions, and there's no reason their presence wouldn't have a similar effect on the destination's citizens. Depending on the location, native creatures might find the PCs' appearances, behaviors, and bodies to be unsettling or appalling. Such inhabitants might demonstrate intentions entirely through pheromones and color displays, have superstitions about blinking eyes, see the world in a wider range of colors, or be unable to experience certain emotions. By contrast, cosmologically cosmopolitan regions might be familiar with travelers from the PCs' home world, and some planar metropolises boast foreign districts where offworld creatures are more welcome. An introductory encounter set in such a space has the benefit of allowing the PCs to start in a less jarring place and work their way into more bizarre regions at their own pace.",
 			"",
-			"Making the abnormal normal comes with an important warning: be very careful about rewriting the laws of reality. It might seem like a grand idea to assume that physics, down to the atomic level, operates differently on another plane, but that would mean even a 20th-level wizard's body could discorporate in an instant. For most groups, aim for a middle ground of unsettlingly odd- an exciting destination that doesn't entirely upend the game's mechanics. Like running an intense investigation or a horror campaign, striking the right balance for a planar adventure might involve a conversation with your players to understand everyone's boundaries and expectations."
+			"Making the abnormal normal comes with an important warning: be very careful about rewriting the laws of reality. It might seem like a grand idea to assume that physics, down to the atomic level, operates differently on another plane, but that would mean even a 20th-level wizard's body could discorporate in an instant. For most groups, aim for a middle ground of unsettlingly odd: an exciting destination that doesn't entirely upend the game's mechanics. Like running an intense investigation or a horror campaign, striking the right balance for a planar adventure might involve a conversation with your players to understand everyone's boundaries and expectations."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2966,7 +2967,7 @@
 		"description": [
 			"**Source** [Planar Adventures pg. 84](source/planar_adventures)",
 			"",
-			"A manageable planar adventure thrives on direction- especially as the PCs and players start to travel the planes for the first time. The more familiar the players become with all forms of planar exploration and the wider their circle of planar contacts becomes, the more flexibility you can provide.",
+			"A manageable planar adventure thrives on direction - especially as the PCs and players start to travel the planes for the first time. The more familiar the players become with all forms of planar exploration and the wider their circle of planar contacts becomes, the more flexibility you can provide.",
 			"",
 			"Second to a compelling story, the best tool you have for steering the action is the difficulty of traveling from one plane to another. Most adventuring groups lack the means to move between planes independently until around 9th to 13th level, so they're otherwise reliant on extant portals that the you introduce and control, favors from outsiders, and rare magic items. PCs in a planar campaign might receive one or more such tools as treasure above and beyond their expected wealth by level, with the understanding that these are plot-critical rewards that enable future adventures. The following is an overview of well-known tools that the PCs might acquire.",
 			"",
@@ -2986,7 +2987,7 @@
 			"",
 			"**[Well of Many Worlds](magic-wondrous/well_of_many_worlds):** Particularly useful for sandbox-style campaigns, this portable gateway allows nearly limitless travel. However, it's important to keep in mind that a well of many worlds can be closed or moved only from the side of its origin, not from the realm into which it opens. That means that if the PCs rely on the well for their return trip, they will be forced to leave it open and hope that no dangerous denizens slip through the gate (or worse, close the well and take it away) before they can return. Alternately, the first stage of a quest might require the PCs to navigate a hostile region to reach a well's launching point.",
 			"",
-			"**Desperate Measures:** Several other items facilitate planar travel but in extraordinarily dangerous and unpredictable ways. Even so, circumstances might leave the PCs no choice but to place a [bag of holding](magic-wondrous/bag_of_holding_type_1) inside a [portable hole](magic-wondrous/portable_hole) or destroy a [staff of power](magic-staff/staff_of_power) in the hopes of going somewhere- anywhere-else."
+			"**Desperate Measures:** Several other items facilitate planar travel but in extraordinarily dangerous and unpredictable ways. Even so, circumstances might leave the PCs no choice but to place a [bag of holding](magic-wondrous/bag_of_holding_type_1) inside a [portable hole](magic-wondrous/portable_hole) or destroy a [staff of power](magic-staff/staff_of_power) in the hopes of going somewhere - anywhere - else."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3295,7 +3296,7 @@
 			"",
 			"Upon death, rather than migrating to the realms of gods or alignment-based planes to receive their final reward or punishment, souls would instead travel to the planet or solar system claimed by their god or roam elsewhere to join those beings who were most metaphysically associated with their actions and beliefs in life. A chaotic neutral woman with no religious beliefs might die only to reopen her eyes and find herself swimming through deep space, reborn as a protean amid a chorus of her kind. By contrast, a penitent man with deep belief in his goddess might die and awaken as a petitioner at her feet, staring up at a sky with alien stars-only to dwell physically there with her for eternity.",
 			"",
-			"In this cosmology, the gods might simply be ultrapowerful aliens who rule planets or entire solar systems reserved for the souls of their followers, who remain protected from the dangers and terrors between the stars for the rest of their eternal existence. Faith in these entities that dwell in a physical location rather than an unreachable plane might prove less fervent, or their proximity could make devotion stronger, even allowing for commonplace divine contact- unless the gods united in forbidding it."
+			"In this cosmology, the gods might simply be ultrapowerful aliens who rule planets or entire solar systems reserved for the souls of their followers, who remain protected from the dangers and terrors between the stars for the rest of their eternal existence. Faith in these entities that dwell in a physical location rather than an unreachable plane might prove less fervent, or their proximity could make devotion stronger, even allowing for commonplace divine contact - unless the gods united in forbidding it."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4353,7 +4354,7 @@
 			"",
 			"***Average Damage:*** If a trap (mechanical or magical) does hit point damage, calculate the average damage for a successful hit and round that value to the nearest multiple of 10. If the trap is designed to hit more than one target, multiply this value by 2. If the trap is designed to deal damage over a number of rounds, multiply this value by the number of rounds the trap will be active (or the average number of rounds, if the duration is variable). Use this value to adjust the Challenge Rating of the trap, as indicated on Table 13-3. Damage from poison does not count toward this value, but extra damage from pit spikes and multiple attacks does.",
 			"",
-			"For a magic trap, only one modifier applies to the CR- either the level of the highest-level spell used in the trap, or the average damage figure, whichever is larger.",
+			"For a magic trap, only one modifier applies to the CR: either the level of the highest-level spell used in the trap, or the average damage figure, whichever is larger.",
 			"",
 			"***Multiple Traps:*** If a trap is really two or more connected traps that affect approximately the same area, determine the CR of each one separately.",
 			"",
@@ -4604,7 +4605,7 @@
 			"",
 			"***Conflicting Directions:*** It's possible that several characters may attempt to determine the right direction to proceed after becoming lost. Make a Survival check for each character in secret, then tell the players whose characters succeeded the correct direction in which to travel, and tell the players whose characters failed a random direction they think is right, with no indication who is correct.",
 			"",
-			"***Regaining Your Bearings:*** There are several ways for characters to find their way after becoming lost. First, if the characters successfully set a new course and follow it to the destination they're trying to reach, they're not lost anymore. Second, the characters, through random movement, might run into an unmistakable landmark. Third, if conditions suddenly improve- the fog lifts or the sun comes up-lost characters may attempt to set a new course, as described above, with a +4 bonus on the Survival check."
+			"***Regaining Your Bearings:*** There are several ways for characters to find their way after becoming lost. First, if the characters successfully set a new course and follow it to the destination they're trying to reach, they're not lost anymore. Second, the characters, through random movement, might run into an unmistakable landmark. Third, if conditions suddenly improve - the fog lifts or the sun comes up - lost characters may attempt to set a new course, as described above, with a +4 bonus on the Survival check."
 		],
 		"parent_topics": [
 			"environment",

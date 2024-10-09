@@ -553,7 +553,7 @@
 		"description": [
 			"## Subtype: Extraplanar",
 			"",
-			"This subtype is applied to any creature when it is on a plane other than its native plane. A creature that travels the planes can gain or lose this subtype as it goes from plane to plane. Monster entries assume that encounters with creatures take place on the Material Plane, and every creature whose native plane is not the Material Plane has the extraplanar subtype (but would not have it when on its home plane). Every extraplanar creature in this book has a home plane mentioned in its description. Creatures not labeled as extraplanar are natives of the Material Plane, and they gain the extraplanar subtype if they leave the Material Plane. No creature has the extraplanar subtype when it is on a Transitive Plane (the Astral Plane, the Ethereal Plane, or the Plane of Shadow)."
+			"This subtype is applied to any creature when it is on a plane other than its native plane. A creature that travels the planes can gain or lose this subtype as it goes from plane to plane. Monster entries assume that encounters with creatures take place on the Material Plane, and every creature whose native plane is not the Material Plane has the extraplanar subtype (but would not have it when on its home plane). Creatures native to the Material Plane gain the extraplanar subtype if they leave the Material Plane. No creature has the extraplanar subtype when it is on a Transitive Plane (the Astral Plane, the Ethereal Plane, or the Plane of Shadow)."
 		]
 	},
 	"fire": {
@@ -923,7 +923,7 @@
 		"description": [
 			"## Subtype: Mythic",
 			"",
-			"A creature with this subtype is infused with mythic power and is capable of terrible and awe-inspiring feats. Some mythic creatures are powerful versions of existing monsters (such as minotaurs and medusas), others are completely new creatures that do not have a non-mythic equivalent (such as the devastator and plague swarms). For more information on mythic creatures, see the Mythic Rules. Creatures with the mythic subtype have the following traits (these are already included in the mythic monster stat blocks presented in this book).",
+			"A creature with this subtype is infused with mythic power and is capable of terrible and awe-inspiring feats. Some mythic creatures are powerful versions of existing monsters (such as minotaurs and medusas), others are completely new creatures that do not have a non-mythic equivalent (such as the devastator and plague swarms). For more information on mythic creatures, see the Mythic Rules. Creatures with the mythic subtype have the following traits.",
 			"",
 			"- Mythic rank, a number from 1 to 10, representing its overall mythic power.",
 			"- Natural armor increase equal to its mythic rank.",

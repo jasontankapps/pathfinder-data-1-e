@@ -1702,7 +1702,7 @@
 			"",
 			"In the Pathfinder Roleplaying Game, low-level characters do most of their traveling on their own two feet. At higher levels, magical travel becomes a common occurrence, as does travel by horseback, atop animal companions, or via more exotic mounts. Every so often, travel may involve a vehicle of some sort-the wagons of a caravan, a windtossed galley, some fantastic form of aerial transport, or even a planes-hopping device. If you like your games with a dose of weird, such vehicles may be as strange as a crashed space vessel. Whatever the case, vehicles in the Pathfinder RPG are often treated as either mobile terrain or adventure sites in their own right.",
 			"",
-			"Many of the iconic motifs that inspire roleplaying games touch on vehicular adventures, from the voyages of Jason and the Argonauts to pirate tales, from charioteers in blood-soaked arenas under a drone of cheers to those who would chase and tame dragons. History and fiction are full of interesting vehicles performing death-defying actions. The rules in this chapter allow you to run combats with vehicles in the Pathfinder RPG, rather than just treating them as objects or terrain.",
+			"Many of the iconic motifs that inspire roleplaying games touch on vehicular adventures, from the voyages of Jason and the Argonauts to pirate tales, from charioteers in blood-soaked arenas under a drone of cheers to those who would chase and tame dragons. History and fiction are full of interesting vehicles performing death-defying actions. The rules in this section allow you to run combats with vehicles in the Pathfinder RPG, rather than just treating them as objects or terrain.",
 			"",
 			"The following rules attempt to strike a balance between verisimilitude and ease and speed of play during combat. In areas where those two balancing points are conflicted, ease of use should always prevail."
 		],
@@ -1736,7 +1736,7 @@
 			"- ***Initiative:*** A vehicle moves at the start of its driver's turn. If a vehicle has no driver, it moves on the turn of the last creature that was its driver, or on a turn determined by the GM.",
 			"- ***Controlling a Vehicle:*** If a vehicle has a driver, before the driver does anything else on her turn, she must determine what drive action she is taking, and take that action. If the driver takes no action, takes some other action instead of driving the vehicle, or delays or readies an action-or if there is no driver-the vehicle takes the \"uncontrolled\" action. A driver can only take one action each turn to control a vehicle. Once the driver has selected the action, or takes some other action forcing the vehicle to become uncontrolled, the vehicle moves.",
 			"- ***Driving Check:*** When a driver takes a driving action, she must make a driving check to determine the maneuverability and speed of the vehicle that round. The vehicle's propulsion determines what skill is used for the driving check. A driver can always make a Wisdom check in place of a driving check. The base DCs for all driving checks are DC 5 and DC 20. Use the lower DC when the driver is not in combat and the higher DC when the driver is in combat.",
-			"- ***In Combat:*** Vehicles, creatures used as propulsion, and crew members do not threaten any area around them, but their drivers and their non-crew occupants do. Vehicles can enter the spaces of objects and creatures smaller than themselves. Vehicles do not have attacks, but they can-and may be required to- make vehicular bull rush, vehicular overrun, and ramming combat maneuvers."
+			"- ***In Combat:*** Vehicles, creatures used as propulsion, and crew members do not threaten any area around them, but their drivers and their non-crew occupants do. Vehicles can enter the spaces of objects and creatures smaller than themselves. Vehicles do not have attacks, but they can - and may be required to - make vehicular bull rush, vehicular overrun, and ramming combat maneuvers."
 		],
 		"parent_topics": [
 			"items",
@@ -1826,7 +1826,7 @@
 			"",
 			"When a driver makes a driving check to control an alchemically propelled vehicle with a Wisdom check or a skill she is not trained in and rolls a natural 1, the vehicle's alchemical engine gains the broken condition. When it gains the broken condition, the vehicle's maximum speed and acceleration are both halved, and if the vehicle is currently moving at a rate faster than its new maximum speed, it immediately slows to that speed.",
 			"",
-			"***Current:*** From canoes and large ships to winged gliders, vehicles propelled by currents typically manipulate an already existing power source within or outside of nature- an air current, a water current, or more exotic currents, like conduits of magical energy. Usually, manipulating a current-propelled vehicle requires a skill like Fly, Knowledge (nature), Profession (sailor), Survival, or even Acrobatics or Knowledge (arcana), depending on the nature or makeup of the vehicle and the current the vehicle is manipulating.",
+			"***Current:*** From canoes and large ships to winged gliders, vehicles propelled by currents typically manipulate an already existing power source within or outside of nature: an air current, a water current, or more exotic currents, like conduits of magical energy. Usually, manipulating a current-propelled vehicle requires a skill like Fly, Knowledge (nature), Profession (sailor), Survival, or even Acrobatics or Knowledge (arcana), depending on the nature or makeup of the vehicle and the current the vehicle is manipulating.",
 			"",
 			"***Water Current:*** Vehicles that only rely on currents of water for their propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a canoe, and wind in the case of a galley. A current-driven ship such as a river barge with a crew of two or more creatures requires either a Profession (sailor) or Knowledge (nature) check for the driving check, as ships require precision, discipline, and knowledge of the natural world. Smaller water-current vehicles, like canoes, use the Survival skill as the drive skill, as reading the terrain is a very important aspect of maintaining control over those types of vehicles.",
 			"",
@@ -1887,7 +1887,7 @@
 			"",
 			"***Size Conversion:*** Often it is important to know the size category of a vehicle. Use Table 4-1 to determine the size of a vehicle or its propulsion based on the number of squares it occupies.",
 			"",
-			"***Driving Space:*** At least one 5-foot-by-5-foot square on each vehicle must be designated as its driving space- often such an area encompasses multiple squares. In order to drive a vehicle, an intelligent creature must be within at least one square of the driving space and able to manipulate its driving device. The typical sizes and locations of driving spaces are detailed in the individual vehicle descriptions.",
+			"***Driving Space:*** At least one 5-foot by 5-foot square on each vehicle must be designated as its driving space: often such an area encompasses multiple squares. In order to drive a vehicle, an intelligent creature must be within at least one square of the driving space and able to manipulate its driving device. The typical sizes and locations of driving spaces are detailed in the individual vehicle descriptions.",
 			"",
 			"### Table 4-1: Vehicle Size by Squares",
 			"",
@@ -2208,7 +2208,7 @@
 			">",
 			">***Attacking an Occupant:*** This is a normal attack against an occupant creature. Occupants get partial cover or greater if the attack is coming from outside of the vehicle. Grappling the driver is one method for taking control of the vehicle.",
 			">",
-			">***Attacking Propulsion:*** Propulsion often has its own set of statistics, while creatures propelling a vehicle use their own statistics. Other types of propulsion have hit points and hardness determined by multiplying the values listed in the Propulsion Devices sidebar by the vehicle's total number of squares of that type. Individual vehicle stat blocks also detail their propulsion.",
+			">***Attacking Propulsion:*** Propulsion often has its own set of statistics, while creatures propelling a vehicle use their own statistics. Other types of propulsion have hit points and hardness determined by multiplying the values listed in [Propulsion Devices](rule/propulsion_devices) by the vehicle's total number of squares of that type. Individual vehicle stat blocks also detail their propulsion.",
 			">",
 			">If a vehicle is being pulled by creatures, and any of those creatures is killed, dazed, stunned, or becomes unconscious, the vehicle comes to a sudden stop (see [Sudden Stops](rule/vic_initiative_and_movement)). If a vehicle has a crew, and half or more of that crew is killed, dazed, stunned, or rendered unconscious, the vehicle can no longer be controlled.",
 			">",
@@ -5985,6 +5985,7 @@
 	},
 	"combat_maneuvers": {
 		"name": "Combat Maneuvers",
+		"tags": "CMB CMD combat maneuver bonus combat maneuver defense",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 198](source/prpg_core_rulebook)",
@@ -6186,7 +6187,7 @@
 			"",
 			"***Tie Up:*** If you have your target pinned, otherwise restrained, or unconscious, you can use rope to tie him up. This works like a pin effect, but the DC to escape the bonds is equal to 20 + your Combat Maneuver Bonus (instead of your CMD). The ropes do not need to make a check every round to maintain the pin. If you are grappling the target, you can attempt to tie him up in ropes, but doing so requires a combat maneuver check at a -10 penalty. If the DC to escape from these bindings is higher than 20 + the target's CMB, the target cannot escape from the bonds, even with a natural 20 on the check.",
 			"",
-			"***If You Are Grappled:*** If you are grappled, you can attempt to break the grapple as a standard action by making a combat maneuver check (DC equal to your opponent's CMD; this does not provoke an attack of opportunity) or Escape Artist check (with a DC equal to your opponent's CMD). If you succeed, you break the grapple and can act normally. Alternatively, if you succeed, you can become the grappler, grappling the other creature (meaning that the other creature cannot freely release the grapple without making a combat maneuver check, while you can). Instead of attempting to break or reverse the grapple, you can take any action that doesn't require two hands to perform, such as cast a spell or make an attack or full attack with a light or one-handed weapon against any creature within your reach, including the creature that is grappling you. See the grappled condition for additional details. If you are pinned, your actions are very limited. See the pinned condition in Appendix 2 for additional details.",
+			"***If You Are Grappled:*** If you are grappled, you can attempt to break the grapple as a standard action by making a combat maneuver check (DC equal to your opponent's CMD; this does not provoke an attack of opportunity) or Escape Artist check (with a DC equal to your opponent's CMD). If you succeed, you break the grapple and can act normally. Alternatively, if you succeed, you can become the grappler, grappling the other creature (meaning that the other creature cannot freely release the grapple without making a combat maneuver check, while you can). Instead of attempting to break or reverse the grapple, you can take any action that doesn't require two hands to perform, such as cast a spell or make an attack or full attack with a light or one-handed weapon against any creature within your reach, including the creature that is grappling you. See the grappled condition for additional details. If you are pinned, your actions are very limited. See the pinned condition for additional details.",
 			"",
 			"***Multiple Creatures:*** Multiple creatures can attempt to grapple one target. The creature that first initiates the grapple is the only one that makes a check, with a +2 bonus for each creature that assists in the grapple (using the [Aid Another](rule/aid_another_2) action). Multiple creatures can also assist another creature in breaking free from a grapple, with each creature that assists (using the Aid Another action) granting a +2 bonus on the grappled creature's combat maneuver check."
 		],
@@ -8291,6 +8292,7 @@
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
+			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
 			"infernal_contracts",
