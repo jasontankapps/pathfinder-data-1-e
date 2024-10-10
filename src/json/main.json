@@ -118,6 +118,10 @@
 	},
 	"skills": {
 		"title": "Skills",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Pathfinder Unchained"
+		],
 		"description": [
 			[
 				"Skills represent some of the most basic and yet most fundamental abilities your character possesses. As your character advances in level, he can gain new skills and improve his existing skills dramatically.",

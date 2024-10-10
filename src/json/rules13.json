@@ -1294,7 +1294,7 @@
 			"",
 			"***Don't Cross Me (Ex)*** ([Mythic Origins pg. 29](source/mythic_origins)): Even when you're away from your thralls, they fear and obey you. When you successfully use Intimidate to make someone helpful, you can expend one use of mythic power to cause the creature to remain helpful to you even in your absence for up to a number of days equal to your tier. At the beginning of each day, the creature may attempt a Will save; if it succeeds, this effect ends prematurely (DC equal to the result of your original Intimidate check minus 2 for each day since the creature last had direct contact with you). This is a mind-affecting fear effect.",
 			"",
-			"***Flexible Confidence (Ex)*** ([Mythic Adventures pg. 42](source/mythic_adventures)): Your resolve is more useful that others-. You can expend the uses of your confidence ability as uses of mythic power for the purposes of your marshal path abilities.",
+			"***Flexible Confidence (Ex)*** ([Mythic Adventures pg. 42](source/mythic_adventures)): Your resolve is more useful that others'. You can expend the uses of your confidence ability as uses of mythic power for the purposes of your marshal path abilities.",
 			"",
 			"***Glorious Charge (Ex)*** ([Mythic Adventures pg. 42](source/mythic_adventures)): You call your allies to make a coordinated charge at the same time. As an immediate action when you start a charge, you can expend one use of mythic power and allow an ally to charge immediately after your charge is complete. You can expend additional uses, allowing one more ally to charge per use spent. An ally's charge doesn't count toward the number of actions it can take on its next turn.",
 			"",
@@ -1859,7 +1859,7 @@
 	"upa_6": {
 		"name": "6th-Tier Universal Path Abilities",
 		"subtitle": "Mythic",
-		"tags": "Farwalker, Mythic Presence, Mythic Sight, Phantom Possession,Tongues",
+		"tags": "Farwalker, Mythic Presence, Mythic Sight, Phantom Possession, Tongues",
 		"sources": [
 			"Mythic Adventures",
 			"Mythic Origins",
