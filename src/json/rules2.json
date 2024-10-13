@@ -3966,7 +3966,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]
@@ -4074,7 +4073,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]
@@ -4409,7 +4407,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		],
@@ -5113,15 +5110,17 @@
 			"",
 			"| Action | Attack of Opportunity[^1] |",
 			"| --- | --- |",
-			"| [Delay](rule/delay) | No |",
+			"| Ready | No[^2] |",
+			"| Delay | No |",
 			"| 5-foot step | No |",
-			"| Perform a combat maneuver[^2] | Yes |",
-			"| Use feat[^3] or skill[^4] | Varies |",
+			"| Perform a combat maneuver[^3] | Yes |",
+			"| Use feat[^4] or skill[^5] | Varies |",
 			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^2]: Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.",
-			"[^3]: Certain feats let you take special actions in combat. Other feats do not require actions themselves, but they give you a bonus when attempting something you can already do. Some feats are not meant to be used within the framework of combat. The individual feat descriptions tell you what you need to know about them.",
-			"[^4]: Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely. The individual skill descriptions tell you what sorts of actions are required to perform skills."
+			"[^2]: Readying does not provoke an attack of opportunity, but the readied action may when it occurs.",
+			"[^3]: Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.",
+			"[^4]: Certain feats let you take special actions in combat. Other feats do not require actions themselves, but they give you a bonus when attempting something you can already do. Some feats are not meant to be used within the framework of combat. The individual feat descriptions tell you what you need to know about them.",
+			"[^5]: Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely. The individual skill descriptions tell you what sorts of actions are required to perform skills."
 		],
 		"parent_topics": [
 			"combat",
@@ -5136,6 +5135,8 @@
 			"miscellaneous_actions"
 		],
 		"subtopics": [
+			"ready",
+			"delay",
 			"take_5-foot_step"
 		]
 	},
@@ -5157,6 +5158,8 @@
 			"miscellaneous_actions"
 		],
 		"siblings": [
+			"ready",
+			"delay",
 			"take_5-foot_step"
 		]
 	},
@@ -5179,7 +5182,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		],
@@ -5494,7 +5496,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]
@@ -5679,7 +5680,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]
@@ -5745,7 +5745,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]
@@ -5914,7 +5913,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]
@@ -6490,34 +6488,6 @@
 			"two-weapon_fighting"
 		]
 	},
-	"special_initiative_actions": {
-		"name": "Special Initiative Actions",
-		"subtitle": "Combat",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
-			"",
-			"Here are ways to change when you act during combat by altering your place in the initiative order."
-		],
-		"parent_topics": [ "combat" ],
-		"subtopics": [
-			"delay",
-			"ready"
-		],
-		"siblings": [
-			"how_combat_works",
-			"combat_statistics",
-			"actions_in_combat",
-			"injury_and_death",
-			"movement_position_and_distance",
-			"big_and_little_creatures_in_combat",
-			"combat_modifiers",
-			"special_attacks",
-			"special_initiative_actions",
-			"conditions",
-			"special_abilities_2"
-		]
-	},
 	"delay": {
 		"name": "Delay",
 		"subtitle": "Combat",
@@ -6535,11 +6505,13 @@
 		],
 		"parent_topics": [
 			"combat",
-			"special_initiative_actions"
+			"actions_in_combat",
+			"miscellaneous_actions"
 		],
 		"siblings": [
+			"ready",
 			"delay",
-			"ready"
+			"take_5-foot_step"
 		]
 	},
 	"ready": {
@@ -6565,11 +6537,13 @@
 		],
 		"parent_topics": [
 			"combat",
-			"special_initiative_actions"
+			"actions_in_combat",
+			"miscellaneous_actions"
 		],
 		"siblings": [
+			"ready",
 			"delay",
-			"ready"
+			"take_5-foot_step"
 		]
 	},
 	"conditions": {
@@ -6593,7 +6567,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		],
@@ -7230,7 +7203,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		]

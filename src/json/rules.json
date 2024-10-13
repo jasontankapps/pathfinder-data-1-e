@@ -64,7 +64,6 @@
 			"big_and_little_creatures_in_combat",
 			"combat_modifiers",
 			"special_attacks",
-			"special_initiative_actions",
 			"conditions",
 			"special_abilities_2"
 		],
@@ -3021,7 +3020,7 @@
 	},
 	"generating_ability_scores": {
 		"name": "Generating Ability Scores",
-		"tags": "standard classic heroic dice pool purchase",
+		"tags": "standard classic heroic dice pool purchase point buy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 15](source/prpg_core_rulebook)",

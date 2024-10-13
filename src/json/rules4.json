@@ -3990,7 +3990,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 42](source/gamemastery_guide)",
 			"",
-			"Some monsters are best used in groups or with other creatures that complement or augment their abilities. A single [derro](monster/derro) probably has a hard time using its sneak attack, but a group of them can easily set up flanking situations. [Tieflings](monster/tiefling) have fire resistance 5, making them handy allies for a fire priest with [burning hands](spell/burning_hands) or a [fire mephit](monster/fire_mephit); alternatively, a tiefling cleric controlling a gang of [burning skeletons](template/skeleton) is all but immune to their area damage. Creatures with spell-like abilities can cast them on minions or on a leader. For example, a [dark naga](monster/dark_naga) or [spirit naga](monster/spirit_naga) can cast [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility), or [displacement](spell/displacement) on its allies; a spirit naga can even turn itself invisible and cast cure spells on its allies. Given time, a [succubus's](monster/succubus) profane gift ability can bolster every single guard, priest, and lieutenant in an evil fortress.",
+			"Some monsters are best used in groups or with other creatures that complement or augment their abilities. A single [derro](monster/derro) probably has a hard time using its sneak attack, but a group of them can easily set up flanking situations. [Tieflings](monster/tiefling) have fire resistance 5, making them handy allies for a fire priest with [burning hands](spell/burning_hands) or a [fire mephit](monster/mephit); alternatively, a tiefling cleric controlling a gang of [burning skeletons](template/skeleton) is all but immune to their area damage. Creatures with spell-like abilities can cast them on minions or on a leader. For example, a [dark naga](monster/dark_naga) or [spirit naga](monster/spirit_naga) can cast [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility), or [displacement](spell/displacement) on its allies; a spirit naga can even turn itself invisible and cast cure spells on its allies. Given time, a [succubus's](monster/succubus) profane gift ability can bolster every single guard, priest, and lieutenant in an evil fortress.",
 			"",
 			"Monster abilities can also complement hazards or traps; a flying monster ignores difficult terrain, floor pits, or patches of green slime. Monsters with damage reduction are immune to arrow traps and most spear traps; those immune to poison can ignore the danger of poisonous traps or even rooms with inherently toxic air, such as a sulfurous volcanic vent. Using monsters intelligently like this helps create fun and memorable encounters, as well as challenges PCs to try new tactics."
 		],
@@ -4938,7 +4938,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
 			"",
-			"This section details the part of a Pathfinder game the Game Master does not directly control, discussing the elements of an adventuring party, players' rights and responsibilities, ways to involve newcomers and reengage veterans, and suggestions for how to work with gamers of all types toward the creation of more exciting stories and more enjoyable games."
+			"This section details the part of a Pathfinder game the Game Master does not directly control, discussing the elements of an adventuring party, players' rights and responsibilities, ways to involve newcomers and re-engage veterans, and suggestions for how to work with gamers of all types toward the creation of more exciting stories and more enjoyable games."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4970,7 +4970,7 @@
 			"",
 			"The Pathfinder Roleplaying Game, at its simplest level, begins with an easy animosity: one player controls the \"bad guys\" while the others control the \"good guys.\" Add to this the fact that GMs control behind-the-scenes elements, actively concoct schemes to challenge the players, and hold the final say on rules arbitration, and there's ample opportunity for competition, frustration, and hurt feelings. In the best roleplaying groups, both the GM and players figure out ways to avoid these problems.",
 			"",
-			"All participants-especially new players-should be made aware that the GM-player relationship is not a competitive one, and that the players have roles just as important as the GM. While the GM serves in part as judge, his or her rulings should strive toward fairness, the continued flow of the game, and group enjoyment. At the same time, players share the responsibility for the group's entertainment-including the GM's-and should remain aware that time disproportionately spent on their characters, rules concerns, or out-of-game digressions potentially detracts from other players' opportunities to participate.",
+			"All participants - especially new players - should be made aware that the GM-player relationship is not a competitive one, and that the players have roles just as important as the GM. While the GM serves in part as judge, his or her rulings should strive toward fairness, the continued flow of the game, and group enjoyment. At the same time, players share the responsibility for the group's entertainment - including the GM's - and should remain aware that time disproportionately spent on their characters, rules concerns, or out-of-game digressions potentially detracts from other players' opportunities to participate.",
 			"",
 			"Should a player have a concern about the game, a GM's rules arbitration, or any other game-related quandary, he should be encouraged to bring such matters up at a time when it doesn't detract from the group's fun, perhaps immediately following the current game session. In the best campaigns, players should feel like they have a stake in the ongoing story, and a good Game Master keeps in touch with what game elements the players enjoy most, tailoring the campaign to take advantage of their preferences. In the end, though the GM always has the final say, it's important for everyone involved to remember that it's only a game, and a bit of flexibility here and there results in a more enjoyable experience for everyone in the end."
 		],
@@ -5022,11 +5022,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
 			"",
-			"The traditional fantasy adventuring party includes four characters: a fighter, a cleric, a rogue, and a wizard. Such a party allows for a balance of abilities, complimentary class features, and distinct roles wherein each character shines. Though the Pathfinder Roleplaying Game offers a much wider selection of classes, the respective roles these archetypal classes represent-combat, healing and divine casting, stealth and skill mastery, and arcane casting-are still a good checklist for making sure the party can handle a wide range of challenges.",
+			"The traditional fantasy adventuring party includes four characters: a fighter, a cleric, a rogue, and a wizard. Such a party allows for a balance of abilities, complimentary class features, and distinct roles wherein each character shines. Though the Pathfinder Roleplaying Game offers a much wider selection of classes, the respective roles these archetypal classes represent - combat, healing and divine casting, stealth and skill mastery, and arcane casting - are still a good checklist for making sure the party can handle a wide range of challenges.",
 			"",
 			"This group structure is not the only possibility, however, and player preference often leaves one or more of these roles unfilled. With a little foresight from the GM, a nontraditional group can flourish. While it might take some effort to adjust to the group's strengths and account for any weaknesses, unusual parties can result in unique and memorable campaigns. How much strategy players put into rounding out party composition is often best left to them, so long as no one is pressured into playing a character he isn't interested in solely for \"the good of the party.\"",
 			"",
-			"Occasionally, a GM might restrict available character types. In these campaigns, such as the example mentioned above where wizardry is outlawed, it's important to decide whether or not you're interested in allowing exceptions. A sorcerer on the run from government officials who think he's a wizard makes for a great PC, but ultimately players must abide by the tropes of your world."
+			"Occasionally, a GM might restrict available character types. In these campaigns, such as the example mentioned [previously](rule/before_the_game) where wizardry is outlawed, it's important to decide whether or not you're interested in allowing exceptions. A sorcerer on the run from government officials who think he's a wizard makes for a great PC, but ultimately players must abide by the tropes of your world."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5107,7 +5107,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
 			"",
-			"***It's been stated before, but it bears repeating:*** as long as everyone's enjoying themselves, the game is working. Some groups want nothing but combat after combat, while others crave in-depth roleplaying or elaborate plots. Each player around the game table brings his own unique skills and preferences, and it is the job of the Game Master to play to each player's interests while balancing the needs of the whole group-including himself as world-builder and chief storyteller-to make sure everyone is having fun."
+			"***It's been stated before, but it bears repeating:*** as long as everyone's enjoying themselves, the game is working. Some groups want nothing but combat after combat, while others crave in-depth roleplaying or elaborate plots. Each player around the game table brings his own unique skills and preferences, and it is the job of the Game Master to play to each player's interests while balancing the needs of the whole group - including himself as world-builder and chief storyteller - to make sure everyone is having fun."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5139,9 +5139,9 @@
 			"",
 			"In a game featuring as many rules and options as the Pathfinder Roleplaying Game, the concept of \"fairness\" has a number of different interpretations. For players, though, fairness largely relates to their interaction with the Pathfinder rules and the group at large.",
 			"",
-			"In terms of the rules of the game, the same aphorisms that held true in grade school remain true during gameplay: No one likes a cheater. In most games with experienced players, the GM doesn't need to check over every player's character sheet or double-check the math on every bonus. A game operating on dozens of different subsystems requires honesty and goodwill, as the fun of the game lies in the simulation, not the calculations behind it. Misreporting dice rolls, ignoring a vulnerability, or bending the rules in any of a thousand other ways puts the game's integrity in jeopardy, and is ultimately pointless-a character's story is made interesting by the failures as much as by the successes. The danger lies in losing the other players' trust, forcing the game to slow down when the GM inevitably does note discrepancies, and even potentially being asked to leave a game. Yet even though players may give lip service to these ideas, or the fact that there's no such thing as \"winning\" a roleplaying game, sometimes players succumb to temptation, and it's the GM's duty to deal with such players quietly, gracefully-and firmly.",
+			"In terms of the rules of the game, the same aphorisms that held true in grade school remain true during gameplay: No one likes a cheater. In most games with experienced players, the GM doesn't need to check over every player's character sheet or double-check the math on every bonus. A game operating on dozens of different subsystems requires honesty and goodwill, as the fun of the game lies in the simulation, not the calculations behind it. Misreporting dice rolls, ignoring a vulnerability, or bending the rules in any of a thousand other ways puts the game's integrity in jeopardy, and is ultimately pointless; a character's story is made interesting by the failures as much as by the successes. The danger lies in losing the other players' trust, forcing the game to slow down when the GM inevitably does note discrepancies, and even potentially being asked to leave a game. Yet even though players may give lip service to these ideas, or the fact that there's no such thing as \"winning\" a roleplaying game, sometimes players succumb to temptation, and it's the GM's duty to deal with such players quietly, gracefully - and firmly.",
 			"",
-			"Beyond simply obeying the rules, however, fairness can also mean sharing the spotlight equally, and ensuring that all players are getting the chance to perform. While not every player is going to be on the edge of his seat every minute, it's a GM's job to watch and see if anyone is hogging the spotlight or being left out. Compromise and sacrifice are needed to keep the game going smoothly, and you should avoid letting players monopolize your attention with their characters' individual needs or interests. Similarly, sometimes characters are knocked out of combat or killed. Although it's no fun to sit out for a portion of a session, players should remain positive and understand that sometimes the dice roll against them-and that you as GM will get them back into the action as soon as possible."
+			"Beyond simply obeying the rules, however, fairness can also mean sharing the spotlight equally, and ensuring that all players are getting the chance to perform. While not every player is going to be on the edge of his seat every minute, it's a GM's job to watch and see if anyone is hogging the spotlight or being left out. Compromise and sacrifice are needed to keep the game going smoothly, and you should avoid letting players monopolize your attention with their characters' individual needs or interests. Similarly, sometimes characters are knocked out of combat or killed. Although it's no fun to sit out for a portion of a session, players should remain positive and understand that sometimes the dice roll against them - and that you as GM will get them back into the action as soon as possible."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5169,9 +5169,9 @@
 			"",
 			"Metagaming isn't always intentional. If a player isn't certain where the line between player knowledge and character knowledge falls, have him explain in-character why he's making a decision. If he resorts to using game terms or vague statements (or sophisticated concepts that clash with the voice of his Intelligence 7 barbarian), the information likely comes from player knowledge.",
 			"",
-			"This certainly doesn't mean that characters have to be as dumb as posts, never making decisions unless they are blatantly obvious, but rather that players should strive to process information in the same way their characters would. This is the essence of roleplaying. For example, suppose a wizard character says, \"The orc used sneak attack on us, therefore he's got to be a rogue, so I won't cast [fireball](spell/fireball). I'll cast [charm person](spell/charm_person) instead; he probably has a weak Will save.\" This is clearly player knowledge: the player described his reasoning using game terms and rules knowledge. Contrast this with the player instead saying: \"The orc is wearing light armor and doing an awful lot of damage with just a short sword. This reminds me of the wererat murderer we fought in Korvosa. That wererat avoided my [fireballs](spell/fireball) like they weren't even there, so I'm going to try [charm person](spell/charm_person).\" Here the player performs exactly the same action, using the same information, but justifies it with character knowledge instead of directly metagaming. Of course, this isn't an excuse for players to fast-talk their way into metagaming, and if a character has too many justified epiphanies, you may still want to have a talk with the player.",
+			"This certainly doesn't mean that characters have to be as dumb as posts, never making decisions unless they are blatantly obvious, but rather that players should strive to process information in the same way their characters would. This is the essence of roleplaying. For example, suppose a wizard character says, \"The [orc](monster/orc) used sneak attack on us, therefore he's got to be a rogue, so I won't cast [fireball](spell/fireball). I'll cast [charm person](spell/charm_person) instead; he probably has a weak Will save.\" This is clearly player knowledge: the player described his reasoning using game terms and rules knowledge. Contrast this with the player instead saying: \"The orc is wearing light armor and doing an awful lot of damage with just a short sword. This reminds me of the [wererat](monster/wererat) murderer we fought in Korvosa. That wererat avoided my [fireballs](spell/fireball) like they weren't even there, so I'm going to try [charm person](spell/charm_person).\" Here the player performs exactly the same action, using the same information, but justifies it with character knowledge instead of directly metagaming. Of course, this isn't an excuse for players to fast-talk their way into metagaming, and if a character has too many justified epiphanies, you may still want to have a talk with the player.",
 			"",
-			"One particularly sticky area of metagaming has nothing to do with game mechanics, but rather realworld knowledge and intelligence. Sometimes the player who's a genius at solving puzzles and riddles wants to play a dumb brute of a swordsman. This is great-so long as his character isn't still solving all the puzzles. In this situation (or the reverse, where the player who's terrible at puzzles has an Intelligence score of 22), let all the players work together to solve the puzzle, but use skill checks and Intelligence checks to offer hints or determine who actually comes up with the solution. Similarly, don't fall into the trap of letting a player's knowledge base inform the character's beyond what's reasonable. Just because your player knows how to make gunpowder out of bat guano doesn't mean his uneducated halfling cleric does."
+			"One particularly sticky area of metagaming has nothing to do with game mechanics, but rather real-world knowledge and intelligence. Sometimes the player who's a genius at solving puzzles and riddles wants to play a dumb brute of a swordsman. This is great - so long as his character isn't still solving all the puzzles. In this situation (or the reverse, where the player who's terrible at puzzles has an Intelligence score of 22), let all the players work together to solve the puzzle, but use skill checks and Intelligence checks to offer hints or determine who actually comes up with the solution. Similarly, don't fall into the trap of letting a player's knowledge base inform the character's beyond what's reasonable. Just because your player knows how to make gunpowder out of bat guano doesn't mean his uneducated halfling cleric does."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5199,7 +5199,7 @@
 			"",
 			"Thankfully, no matter what the situation, there's never a time when a creative GM can't help his players find a believable way to undertake a given action. Though it can be frustrating to deal with a player who stubbornly proclaims, \"My character would never do that!\", take a moment to look at the character's backstory and see if there's a potential rationalization, or a previously \"unrevealed\" aspect of the situation that can get the character invested once more. A paladin might normally reject a sinister dark elf's offer, but perhaps in this case she pretends to accept in order to find out what the dark elf is up to. Conversely, maybe the drow forgot to mention that there's several innocent lives at stake, making accepting her offer the only righteous option.",
 			"",
-			"This doesn't mean that players should always bend over backward to accommodate the GM-if none of the players take to the adventure hook for some unforeseen reason, you've failed to adequately read your party, and it's up to you to repackage the adventure in a more appealing way. Alternatively, if a player genuinely can't think of a good reason for a character to work toward an adventure's ends, saying so might spark a lively in-character discussion and lead other characters to convince him.",
+			"This doesn't mean that players should always bend over backward to accommodate the GM - if none of the players take to the adventure hook for some unforeseen reason, you've failed to adequately read your party, and it's up to you to repackage the adventure in a more appealing way. Alternatively, if a player genuinely can't think of a good reason for a character to work toward an adventure's ends, saying so might spark a lively in-character discussion and lead other characters to convince him.",
 			"",
 			"Obstinacy, however, is one of the quickest ways for a player to kill a campaign. A player who refuses to play his character any way but his own, fails to accommodate other players' wishes and interests, or insists on heading off on his own is forgetting the cooperative nature of the game. In this case, it's the GM's responsibility to intervene and speak privately to the player. If working together to add additional plot elements, or coaching the player in more team-based play, doesn't succeed in bringing him back in line with the rest of the group, then it might be best for him to create a new character or resign from the gaming group altogether: perhaps taking his headstrong character on a solo adventure."
 		],
@@ -5279,7 +5279,7 @@
 			"",
 			"Gaming groups thrive on feedback. Enthusiastic players spur the GM to continue creating exciting adventures and make the daunting task of running a game worthwhile, while the GM complimenting a player on his roleplaying, strategy, or teamwork can help educate and make the party more cohesive. A GM or player who compliments others also inspires others to share positive feedback and are most likely to be taken seriously when offering criticism.",
 			"",
-			"Constructive criticism is just as important as positive reinforcement, but it should be handled more carefully. When possible, raise any individual issues with players in private. Phrasing such criticism as a request for assistance often makes the process easier. For example, if a player is getting caustic toward a teammate over the latter's limited rules knowledge, you might ask that he help educate the neophyte player. Similarly, if one player's character is constantly disrupting the game by heading off in different directions, you could ask that player to help you keep the group on track-many players understand the difficulties of GMing, and may play differently if they see themselves as sharing that responsibility."
+			"Constructive criticism is just as important as positive reinforcement, but it should be handled more carefully. When possible, raise any individual issues with players in private. Phrasing such criticism as a request for assistance often makes the process easier. For example, if a player is getting caustic toward a teammate over the latter's limited rules knowledge, you might ask that he help educate the neophyte player. Similarly, if one player's character is constantly disrupting the game by heading off in different directions, you could ask that player to help you keep the group on track; many players understand the difficulties of GMing, and may play differently if they see themselves as sharing that responsibility."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5337,7 +5337,7 @@
 			"",
 			"A [Basic Rules Cheat Sheet](main/cheatsheet) is included in the back of [the physical book]. Feel free to photocopy it and give it to your new players to assist them in learning the rules and terminology of the game.",
 			"",
-			"***Beginner's Game:*** If you're trying to find a number of new players, or if you know multiple people interested in roleplaying but don't want to interrupt the momentum of an ongoing campaign by bringing inexperienced players up to speed, you might consider running a game just for beginners. Such a game allows all the new players to start at the same point and with about the same base of knowledge. New players don't have to worry about learning both the Pathfinder RPG rules and the details of a long-running campaign at once, as optimally the game starts a new story. They also don't have to feel inexperienced or like a drag on the more adept members of the group-with a beginner's game, new players can take their time with the rules, ask questions, and learn from questions asked by others.",
+			"***Beginner's Game:*** If you're trying to find a number of new players, or if you know multiple people interested in roleplaying but don't want to interrupt the momentum of an ongoing campaign by bringing inexperienced players up to speed, you might consider running a game just for beginners. Such a game allows all the new players to start at the same point and with about the same base of knowledge. New players don't have to worry about learning both the Pathfinder RPG rules and the details of a long-running campaign at once, as optimally the game starts a new story. They also don't have to feel inexperienced or like a drag on the more adept members of the group - with a beginner's game, new players can take their time with the rules, ask questions, and learn from questions asked by others.",
 			"",
 			"GMs who choose to run a game for beginners should decide whether they want to make it open to the public or restricted to a select group of friends. While inviting a few interested potential players is usually the easiest course, many game stores and conventions welcome GMs willing to teach new roleplayers. As with any new game or topic, the GM should be patient with beginners, receptive to their questions, and interested in making sure everyone understands what's going on. Not every rule and option needs to be presented from the start; ensuring that everyone is comfortable with the basics before gradually introducing new elements helps to avoid overwhelming anyone. Remember that, first and foremost, the Pathfinder RPG is a game and is most fun when played, so demonstrations, simple combats, and keeping an open forum for questions can not only make for a fun adventure, but can also quickly expand a GM's pool of potential players."
 		],
@@ -5360,7 +5360,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
 			"",
-			"Once a group has its players, the elements of the game are decided upon, and characters are made, it's time for adventure! The importance of the players doesn't end when the GM's story begins. The ways players cooperate, characters play off of each other, and an adventuring party functions together can determine not just the success or failure of an adventure, but also the fortune of a gaming group as a whole. This section focuses on elements of the game GMs-and their players-should consider to improve the quality of their parties, make running the game easier, and generally spend more game time roleplaying and less time squabbling. Keeping in mind some of the issues and sticking points most commonly faced during roleplaying games can help you steer your party away from problems, frustrations, and wasted time."
+			"Once a group has its players, the elements of the game are decided upon, and characters are made, it's time for adventure! The importance of the players doesn't end when the GM's story begins. The ways players cooperate, characters play off of each other, and an adventuring party functions together can determine not just the success or failure of an adventure, but also the fortune of a gaming group as a whole. This section focuses on elements of the game GMs - and their players - should consider to improve the quality of their parties, make running the game easier, and generally spend more game time roleplaying and less time squabbling. Keeping in mind some of the issues and sticking points most commonly faced during roleplaying games can help you steer your party away from problems, frustrations, and wasted time."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5423,7 +5423,7 @@
 			"",
 			"If it seems too implausible for every character in a group to know every other member, or a shared background element seems illogical or can't be decided upon, having even two or three related characters goes a long way toward bringing the entire group together. Two or more groups of PCs coming together, or a larger group meeting an outsider, decreases the number of factors the GM needs to wrangle to bring the party together.",
 			"",
-			"The shared past method can also work well beyond first level-just because a PC never mentioned an old acquaintance, for example, doesn't mean she doesn't exist, and more than one replacement character has come searching for her recently deceased sibling, only to pick up her sister's quest where the late adventurer left off. Shared pasts also provide an excellent means of introducing villains with a connection to the PCs, making the adventure a personal vendetta from the very first encounter."
+			"The shared past method can also work well beyond first level; just because a PC never mentioned an old acquaintance, for example, doesn't mean she doesn't exist, and more than one replacement character has come searching for her recently deceased sibling, only to pick up her sister's quest where the late adventurer left off. Shared pasts also provide an excellent means of introducing villains with a connection to the PCs, making the adventure a personal vendetta from the very first encounter."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5564,7 +5564,7 @@
 			"",
 			"***One Man Show:*** In cases where a lone character decides to run off on his own, the GM should do what she can to keep the game fun for the player, but by the same token shouldn't feel that she needs to split game time evenly between the majority of the group and the party of one. If a player chooses to take his character away from the central narrative, receiving less of the GM's attention might just be part of the price. Alternatively, a separate solo session or email narrative might be exactly what the player needs to satisfy his character goals without sacrificing any fun for the rest of the group.",
 			"",
-			"***Go With the Flow:*** When the two parties reunite, let it happen. Don't worry that 10 minutes passed for one group and only 5 minutes passed for the other. It's probably not worth it to award experience points differently-few people really care that they get 150 more XP than someone else, and making such distinctions is more likely to foment discord than prevent it."
+			"***Go With the Flow:*** When the two parties reunite, let it happen. Don't worry that 10 minutes passed for one group and only 5 minutes passed for the other. It's probably not worth it to award experience points differently - few people really care that they get 150 more XP than someone else, and making such distinctions is more likely to foment discord than prevent it."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5640,11 +5640,11 @@
 			"",
 			"Over the course of any adventure, there are treasures to find and rewards to win. While the shape of these [rewards](rule/rewards) can vary wildly, the way PCs handle such rewards can create a host of issues, the most common being how to divide treasure fairly. Groups should work out how their party divides treasure early on to avoid tensions mid-adventure, and GMs should watch for signs of growing resentment and offer advice as needed, keeping in mind the following factors.",
 			"",
-			"***By Need:*** While it's easy enough to give every PC an equal share of the coins found or gained by selling art, jewelry, and easily liquidated items, desirable magic items and other unique treasures pose their own problems. If the group finds an item that would be beneficial to a certain character, most groups will allow that character to use it, for the good of all. If two characters want the same item, they can resolve who gets it by determining who would receive the greater benefit. Should this prove unclear or even, the players can determine who gets it by whatever method pleases them-high die roll, sharing the item, or even paying the other person for the privilege of using it-as long as the game keeps moving along. This is a simple system for the players, but relies on you providing equally useful items for every member of the party, which may stretch credulity.",
+			"***By Need:*** While it's easy enough to give every PC an equal share of the coins found or gained by selling art, jewelry, and easily liquidated items, desirable magic items and other unique treasures pose their own problems. If the group finds an item that would be beneficial to a certain character, most groups will allow that character to use it, for the good of all. If two characters want the same item, they can resolve who gets it by determining who would receive the greater benefit. Should this prove unclear or even, the players can determine who gets it by whatever method pleases them - high die roll, sharing the item, or even paying the other person for the privilege of using it - as long as the game keeps moving along. This is a simple system for the players, but relies on you providing equally useful items for every member of the party, which may stretch credulity.",
 			"",
 			"***By Value:*** In a more complex method of handling treasure, the characters collect their loot and wait to divide it until they're safely out of harm's way. Then the gp value of all the items is totaled, and every character takes a turn choosing an item. The value of that item is then subtracted from the character's share of the overall treasure. This system ensures that characters who don't find items they want among the treasure have money to buy other items, while characters who do want treasure items have proportionately less money.",
 			"",
-			"***NPC Shares:*** Seldom discussed, NPCs have their own motives. Does a cohort get a share of the treasure? A hireling or follower? An NPC who's tagging along? An animal companion? Before splitting up treasure, the entire group-and any avaricious NPCs-should be on the same page about where the loot goes in the end (and such issues can conveniently resolve the problem of the character with too many hirelings or cohorts)."
+			"***NPC Shares:*** Seldom discussed, NPCs have their own motives. Does a cohort get a share of the treasure? A hireling or follower? An NPC who's tagging along? An animal companion? Before splitting up treasure, the entire group - and any avaricious NPCs - should be on the same page about where the loot goes in the end (and such issues can conveniently resolve the problem of the character with too many hirelings or cohorts)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5668,7 +5668,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
 			"",
-			"Inevitably, whether in a dramatic sacrifice or merely through bad luck with the dice, player characters die. How the group reacts to the death-and what the now-characterless player does about the situation-can say a lot about your game. In most cases, the focus of all parties involved changes to making sure the recently deceased character can get back into the action as soon as possible. But should the circumstances of the character's death render him beyond the party's reach, it might be time to create a new character."
+			"Inevitably, whether in a dramatic sacrifice or merely through bad luck with the dice, player characters die. How the group reacts to the death - and what the now-characterless player does about the situation - can say a lot about your game. In most cases, the focus of all parties involved changes to making sure the recently deceased character can get back into the action as soon as possible. But should the circumstances of the character's death render him beyond the party's reach, it might be time to create a new character."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5698,7 +5698,7 @@
 			"",
 			"Just because a companion has fallen and the party can afford to restore him doesn't mean the player necessarily wants his character to come back. Death gives many players the perfect opportunity to abandon an old character for something new, or remedy a weakness in the party. The player of the deceased should always have a voice in determining whether or not his character is brought back to life, as no one benefits from bringing back a character who doesn't want it.",
 			"",
-			"By the same token, players with dead characters should understand that their companions are not obligated to restore them, especially if doing so would require hocking every item and using every gold piece the party possesses. The game should not be made less enjoyable- and the party crippled-just to reverse the unfortunate fate of a single character."
+			"By the same token, players with dead characters should understand that their companions are not obligated to restore them, especially if doing so would require hocking every item and using every gold piece the party possesses. The game should not be made less enjoyable - and the party crippled - just to reverse the unfortunate fate of a single character."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5902,7 +5902,9 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 70](source/gamemastery_guide)",
 			"",
-			"One of the great things about roleplaying games is that they tend to bring together a wide variety of players, each with his or her own unique passions, play style, and traits. This witch's brew of personalities can create some truly memorable game experiences, with each player adding her own flavor to the game. Like a world-class chef, it's the GM's job to manage these game elements-stirring one pot while another simmers-to create a game experience that leaves all players breathless in anticipation of the next session.",
+			">*\"The wisest of the wise will never make a crab walk straight.\" - Aristophenes*",
+			"",
+			"One of the great things about roleplaying games is that they tend to bring together a wide variety of players, each with his or her own unique passions, play style, and traits. This witch's brew of personalities can create some truly memorable game experiences, with each player adding her own flavor to the game. Like a world-class chef, it's the GM's job to manage these game elements - stirring one pot while another simmers - to create a game experience that leaves all players breathless in anticipation of the next session.",
 			"",
 			"It's important for GMs to accept that all of these different personalities make a campaign better. While some types of players are more difficult to handle than others, each has his own role to play on the grand stage that is the campaign, and working with each can help you improve as a GM.",
 			"",
@@ -5912,7 +5914,7 @@
 			"",
 			"The GM's role is to ensure fun for all, not to force everyone to march in lockstep toward the next page of the adventure. The quote by the Greek playwright Aristophanes that begins this section alludes to the challenges that await you as you lead your group toward its next great adventure. Just as the crab eventually finds its way back to sea, so too will players embark on fun-filled evenings of epic quests and daring-do. The GM should allow them to zigzag their way from one encounter to the next by playing the way they like to play, even if their course seems surprising or inefficient compared to the one you expected.",
 			"",
-			"Player motivations can be a tricky thing to manage. In order to keep things running smoothly, you may need to embrace some of your \"problem player's\" desires, which can mean extra work coming up with new rules systems for economics or extra sessions to make the needy player feel like he has a chance to shine. Whenever possible, work with your players and embrace their quirks as what they likely are-enthusiasm for the game you both enjoy. Your experience will be the better for it.",
+			"Player motivations can be a tricky thing to manage. In order to keep things running smoothly, you may need to embrace some of your \"problem player's\" desires, which can mean extra work coming up with new rules systems for economics or extra sessions to make the needy player feel like he has a chance to shine. Whenever possible, work with your players and embrace their quirks as what they likely are - enthusiasm for the game you both enjoy. Your experience will be the better for it.",
 			"",
 			"***Dangerous Combos:*** As you assess the composition of your gaming group, take special note of potentially explosive combinations. The GM serves as referee between players, especially when their motivations place them in diametrically opposed roles, so if you see trouble brewing, try discussing with your players how they would like to handle the situation ahead of time, before people have gotten heated. (Some of these potentially problematic combinations are mentioned in the following topics.) Also, if you have particular pet peeves or anticipate issues before a game begins, you may want to talk with your group ahead of time, so they can be mindful of their own tendencies and take care to sidestep potential issues.",
 			"",
@@ -5936,7 +5938,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -5982,7 +5984,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -5997,11 +5999,11 @@
 			"",
 			"The continuity expert keeps up-to-date with the latest published novels and game supplements. She can cite historical facts buried in small type hundreds of pages into a supplement, and note each diversion from established canon. The moment the new supplement hits the shelves at the local hobby shop, she has devoured its contents and wants to use it in the upcoming game session.",
 			"",
-			"Unless you are yourself a continuity expert, this can be frustrating. You may want to head off any problems at the pass and simply announce that your version of the setting is your own, and not beholden to any other continuity. If you're trying to play closer to canon, however, it's important that your group know what liberties, if any, your campaign plans to take with the source material. Perhaps your game makes significant changes to a setting or moves forward from a snapshot in a setting's history, meaning that certain existing or future supplements might not seamlessly apply to the campaign's version of a world. That doesn't mean you need to ignore all supplements you aren't already familiar with, merely that players should understand that you'll need time to review such information-and that whether or not you incorporate it is solely your decision.",
+			"Unless you are yourself a continuity expert, this can be frustrating. You may want to head off any problems at the pass and simply announce that your version of the setting is your own, and not beholden to any other continuity. If you're trying to play closer to canon, however, it's important that your group know what liberties, if any, your campaign plans to take with the source material. Perhaps your game makes significant changes to a setting or moves forward from a snapshot in a setting's history, meaning that certain existing or future supplements might not seamlessly apply to the campaign's version of a world. That doesn't mean you need to ignore all supplements you aren't already familiar with, merely that players should understand that you'll need time to review such information - and that whether or not you incorporate it is solely your decision.",
 			"",
 			"During the course of the game, the continuity expert might note deviations from canon or even continuity established during the course of a campaign. Whether this proves helpful, distracting, or completely irrelevant hinges largely on when such comments are presented. Few things can derail a GM's narrative faster than being constantly contradicted about matters of story. In these cases, it often helps to table the discussion and let the expert know that you'll discuss it after the game, or over e-mail. Above all, never forget that you control your game world, not the continuity expert or a game publisher, and what you say goes.",
 			"",
-			"Like a rules lawyer, a continuity expert can be a great help to a GM. Most prove eager to research elements of a campaign setting and enthusiastically help prepare for upcoming sessions. Canny GMs might find ways to have such a player research multiple useful topics without giving away the intended course of upcoming adventures. During a session, a continuity expert's knowledge can prove exceedingly useful if it has an in-character outlet - encouraging such a player to adopt a knowledgeable class, purchase tomes of relevant lore, or be the group researcher gives her opportunities to exploit and display her knowledge in character and without interrupting the game."
+			"Like a [rules lawyer](rule/rules_lawyer), a continuity expert can be a great help to a GM. Most prove eager to research elements of a campaign setting and enthusiastically help prepare for upcoming sessions. Canny GMs might find ways to have such a player research multiple useful topics without giving away the intended course of upcoming adventures. During a session, a continuity expert's knowledge can prove exceedingly useful if it has an in-character outlet - encouraging such a player to adopt a knowledgeable class, purchase tomes of relevant lore, or be the group researcher gives her opportunities to exploit and display her knowledge in character and without interrupting the game."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6020,7 +6022,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6035,13 +6037,13 @@
 			"",
 			"The diva is the center of attention, the focus of all roleplaying interactions that occur in the campaign world. Every conversation, introduction, and event is another opportunity for her to shine, while the rest of the group struggles to get a word in edgewise. No matter is too small or insignificant for her; she's ready for the spotlight! Unfortunately, the rest of the players are bored to tears.",
 			"",
-			"While having a player totally immersed in and excited about the game is every GM's goal, it should never happen at the cost of other players' enjoyment. The diva can truly shine during her turn and those encounters specifically aimed at engaging her character-but when it's someone else's turn, she needs to learn to hang back and give other players chances to take the stage as well.",
+			"While having a player totally immersed in and excited about the game is every GM's goal, it should never happen at the cost of other players' enjoyment. The diva can truly shine during her turn and those encounters specifically aimed at engaging her character - but when it's someone else's turn, she needs to learn to hang back and give other players chances to take the stage as well.",
 			"",
 			"In combat, initiative does a good job of keeping the focus moving, but if a character monopolizes NPC interactions, a good counter during heavy roleplaying sessions is to break each conversation up into minute-long spots. You as the GM can then move around the table much like you would during a combat encounter to allow everyone a chance to interact. If the diva interrupts, remind her that this is all occurring at the same time, and that she's busy talking to that other NPC right now. If there's a single NPC and the diva is doing all the talking for the group, have him fixate on someone else or ask for an introduction to her friends.",
 			"",
 			"In the end, if subtlety doesn't work, you might need to be blunt with the diva in order to get the message across that everyone needs a chance to play. A diva can be a strong party leader, but shouldn't be allowed to dominate group decisions. If the other players seem to be merely following along, ask them directly for their characters' thoughts.",
 			"",
-			"***The Diva-Loner:*** This is a particularly dangerous combination, as the diva wants to take the spotlight while doing something on her own. She might charm a young prince into a moonlit walk along the canals, or decide that she wants to go fight crime after the rest of the party goes to sleep. Whatever the rationale, the solution is the same as for the loner player type: it splits the party and creates a new story that needs to take place off-scene.",
+			"***The Diva-Loner:*** This is a particularly dangerous combination, as the diva wants to take the spotlight while doing something on her own. She might charm a young prince into a moonlit walk along the canals, or decide that she wants to go fight crime after the rest of the party goes to sleep. Whatever the rationale, the solution is the same as for the [loner](rule/loner) player type: it splits the party and creates a new story that needs to take place off-scene.",
 			"",
 			"Off-scene encounters can be discussed before or after a gaming session, over email during the week, or whenever other players aren't waiting. As long as the diva isn't doing something crazy or suicidal, there's no reason to punish her, but neither should you have these solo escapades reveal key plot points or allow yourself to be distracted from the rest of the party."
 		],
@@ -6062,7 +6064,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6077,9 +6079,9 @@
 			"",
 			"The economic heart of most pseudo-medieval campaigns is their businesses, each creating revenue for the local lord and providing specialty shops, guilds, taverns, and other structures needed by adventurers and the common folk. Players generally fall into one of two molds as entrepreneurs, each of which has an impact on local businesses. The first is the player who seeks to sell everything acquired from the bodies of fallen enemies. The second is the businessman who sees an opportunity and wants to stake his claim.",
 			"",
-			"For both types of entrepreneurs, the GM should follow simple rules to ensure that everyone at the gaming table is having fun. Don't let yourself get locked into rolling on charts for long periods while other players wait, or let the minutiae of the items collected slow down the game. Instead, presume the characters choose the most valuable items-and only the most valuable items-and quickly move the adventure along. While your players might be eager to loot all of the soldiers' short swords, collecting their old boots for sale later is a waste of adventuring time. If a character is big on appraising things, have him roll at the end of each session to ensure that he takes the most valuable possessions with him. Don't slow down the game determining the value of the gilt on a doorframe or the darts in a disabled trap.",
+			"For both types of entrepreneurs, the GM should follow simple rules to ensure that everyone at the gaming table is having fun. Don't let yourself get locked into rolling on charts for long periods while other players wait, or let the minutiae of the items collected slow down the game. Instead, presume the characters choose the most valuable items - and only the most valuable items - and quickly move the adventure along. While your players might be eager to loot all of the soldiers' short swords, collecting their old boots for sale later is a waste of adventuring time. If a character is big on appraising things, have him roll at the end of each session to ensure that he takes the most valuable possessions with him. Don't slow down the game determining the value of the gilt on a doorframe or the darts in a disabled trap.",
 			"",
-			"Next, determine how much the player can reasonably recover from the dungeon. Calculating the weight and mass of items can be tedious, but saying that everything in a dungeon is bolted down is unrealistic. The game already has rules for encumbrance, but an easier house rule might be that the character can carry one vaguely defined item (the pieces of a disabled trap, the limbs of a destroyed golem, the brasswork off a vampire's coffin) per point of Strength, with accommodations for any magic items like [bags of holding](magic-wondrous/bag_of_holding_type_1). This speeds the game along and helps prevent stopping every time the GM describes a shiny bit of room dressing. And don't forget that the character's weapons and armor count toward the total-if the entrepreneur wants that third tapestry, he's going to have to leave his sword behind.",
+			"Next, determine how much the player can reasonably recover from the dungeon. Calculating the weight and mass of items can be tedious, but saying that everything in a dungeon is bolted down is unrealistic. The game already has rules for encumbrance, but an easier house rule might be that the character can carry one vaguely defined item (the pieces of a disabled trap, the limbs of a destroyed golem, the brasswork off a vampire's coffin) per point of Strength, with accommodations for any magic items like [bags of holding](magic-wondrous/bag_of_holding_type_1). This speeds the game along and helps prevent stopping every time the GM describes a shiny bit of room dressing. And don't forget that the character's weapons and armor count toward the total - if the entrepreneur wants that third tapestry, he's going to have to leave his sword behind.",
 			"",
 			"The value of mundane loot is closely tied to the magic level of your campaign, the size of the city the players deliver the goods to, the need for those goods, and the quality and quantity of the goods. Delivering 20 suits of chainmail to a sleepy village likely floods the market and earns a pittance, while that same armor in a town scrambling to arm itself would earn significantly more. As a general rule, try assuming a 10-20% payout where there is a moderate need for the items and then adjust from there."
 		],
@@ -6100,7 +6102,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6144,7 +6146,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6159,13 +6161,13 @@
 			"",
 			"Some characters have a weakness that constantly reveals itself or is easily exploited in virtually every encounter. Examples include characters with ultra-low ability scores, those unable to defend themselves in combat, characters cursed with the lowest possible number of hit points, and the like.",
 			"",
-			"Many sorts of glass jaws appear during character creation, giving the GM the opportunity to drill down into the player's real motivations before play begins. While it can be fun to occasionally include glass jaw characters as an opportunity to add additional roleplaying elements to the campaign, serious design flaws can handicap the rest of the party's enjoyment, and are best caught early. This is not to say that every character must be optimized to the fullest extent of the rules, but characters with crippling deficiencies-like a wizard unable to cast 2nd-level spells, or a bard with no Perform skill-should be addressed. Find out why that particular player has created the character with such a glaring weakness. For example, if the wizard player wants to play a sickly character for added drama, you could always adjust his Constitution score back into the normal range and instead let him roleplay through a less crippling affliction like a disease or curse.",
+			"Many sorts of glass jaws appear during character creation, giving the GM the opportunity to drill down into the player's real motivations before play begins. While it can be fun to occasionally include glass jaw characters as an opportunity to add additional roleplaying elements to the campaign, serious design flaws can handicap the rest of the party's enjoyment, and are best caught early. This is not to say that every character must be optimized to the fullest extent of the rules, but characters with crippling deficiencies - like a wizard unable to cast 2nd-level spells, or a bard with no Perform skill - should be addressed. Find out why that particular player has created the character with such a glaring weakness. For example, if the wizard player wants to play a sickly character for added drama, you could always adjust his Constitution score back into the normal range and instead let him roleplay through a less crippling affliction like a disease or curse.",
 			"",
-			"It's possible that the player isn't looking for a roleplaying opportunity. Depending on the creation method and the player's level of experience, he might just have rolled poorly or not know the rules well enough to make his character viable. If that's the case, working with the player to build the character and re-rolling or using a point-buy system for ability score generation is likely to resolve the situation.",
+			"It's possible that the player isn't looking for a roleplaying opportunity. Depending on the [creation method](rule/generating_ability_scores) and the player's level of experience, he might just have rolled poorly or not know the rules well enough to make his character viable. If that's the case, working with the player to build the character and re-rolling or using a [point-buy system] for ability score generation is likely to resolve the situation.",
 			"",
 			"If none of the above suggestions fix the problem, it's best to talk to the player privately and determine what he intends to do with this character. Explain your concerns about what you perceive as the character's glass jaw and the impact it might have on the rest of the group. Together, you and the player should explore creative solutions to help improve everyone's time around the gaming table, modifying the character concept as necessary.",
 			"",
-			"***Power Gamers and Glass Jaws:*** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
+			"***[Power Gamers](rule/power_gamer) and Glass Jaws:*** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6184,7 +6186,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6201,11 +6203,11 @@
 			"",
 			"There are really two issues here. First, what goals does the player have for her character that she doesn't feel can be met as part of the group experience? It may be that she feels bound by the character concept she's created, and needs help figuring out how to make it work within the party structure. Second, is the character's role in the group dynamic essential for the heroes to overcome their obstacles? If she's leaving when other players need her, this presents a serious problem that needs to be addressed.",
 			"",
-			"As the GM, you may want to work with the loner between sessions to help achieve her character's goals. Avoid the temptation to split your attention during the game-giving one player fully half of your game time simply because she wandered off is no fair to the rest of the players. Handle any side adventures that happen away from the group off camera, not when it wastes the whole group's time. And if the loner gets tired of sitting out simply because her character wandered away from the group, perhaps she won't be as likely to wander off again.",
+			"As the GM, you may want to work with the loner between sessions to help achieve her character's goals. Avoid the temptation to split your attention during the game; giving one player fully half of your game time simply because she wandered off is no fair to the rest of the players. Handle any side adventures that happen away from the group off camera, not when it wastes the whole group's time. And if the loner gets tired of sitting out simply because her character wandered away from the group, perhaps she won't be as likely to wander off again.",
 			"",
 			"You might also use the loner's meanderings to introduce new plot elements. In taking her leave, does the loner stumble into a group of wandering monsters that attack the party? Set off a trap? These effects don't have to be immediate-if your player wants to sneak out of the tavern in the middle of the night, you might quickly gloss over her escapade, but use the opportunity to explain how the orcs were able to locate the group's campsite. The idea isn't to punish a player for her loner tendencies, but rather to create the greatest amount of fun for the greatest number of players.",
 			"",
-			"Of course, you're not the only one likely to be irritated by a loner's gallivanting, and regular abandonment of the group eventually causes intra-party strife. Other characters-and players-might become upset and seek to confront the loner's character. This can be a great opportunity for roleplaying, but it risks alienating the loner. Make sure that the loner knows that while running her character in such a manner isn't \"wrong,\" going off alone can have a negative impact of the other players' enjoyment, and that you want to make sure everyone-including her-is getting their needs met."
+			"Of course, you're not the only one likely to be irritated by a loner's gallivanting, and regular abandonment of the group eventually causes intra-party strife. Other characters (and players) might become upset and seek to confront the loner's character. This can be a great opportunity for roleplaying, but it risks alienating the loner. Make sure that the loner knows that while running her character in such a manner isn't \"wrong,\" going off alone can have a negative impact of the other players' enjoyment, and that you want to make sure everyone - including her - is getting their needs met."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6224,7 +6226,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6241,11 +6243,11 @@
 			"",
 			"One of the GM's primary goals is to ensure that everyone is having fun during the game. For most people, lumpish behavior is the definition of boredom, and it's your job to reach out and bring the lump into the campaign for real.",
 			"",
-			"For new players, lack of familiarity with the rules is a frequent source of confusion. Not knowing exactly what to do, they shut down and wait for more experienced players to instruct them. They might be confused about their class role or the ebb and flow of the encounters, worried about wasting their abilities at the wrong time, or simply intimidated by louder and more experienced players. Aside from considering the [previous advice](rule/party_composition) and reminding new players that they can do anything, let your experienced players know that they need to encourage the new player to spread his wings. If he doesn't know the rules or the campaign setting, let him borrow a book to read up between sessions. Remember that people tend to best learn the rules by playing, though-focus on letting neophytes do things on their own, and at their own speed.",
+			"For new players, lack of familiarity with the rules is a frequent source of confusion. Not knowing exactly what to do, they shut down and wait for more experienced players to instruct them. They might be confused about their class role or the ebb and flow of the encounters, worried about wasting their abilities at the wrong time, or simply intimidated by louder and more experienced players. Aside from considering the [previous advice](rule/party_composition) and reminding new players that they can do anything, let your experienced players know that they need to encourage the new player to spread his wings. If he doesn't know the rules or the campaign setting, let him borrow a book to read up between sessions. Remember that people tend to best learn the rules by playing, though - focus on letting neophytes do things on their own, and at their own speed.",
 			"",
 			"***In-Game Advice:*** If you want to take a more direct approach, the easiest way to get a lump roleplaying is to engage him directly via NPCs or situations that don't allow him to defer to other players. Mouthy NPC assistants and sentient items (especially those that can speak) can also work wonders at getting a lump out of his shell, as giving a PC an in-game source of advice (even faulty advice) can prompt roleplaying opportunities and manipulate the player into thinking about his acts and making his own decisions. Humor also helps many awkward players feel more at ease. Setting a lump up with an even less experienced NPC sidekick can help him feel more confident and capable.",
 			"",
-			"***Lump vs. Diva:*** In many ways, the diva loves the lump player-he allows the diva to take all the limelight for herself while the lump does what he always does. But as the lump slowly emerges from his shell, suddenly there's less time in the sun for the diva. Jumping back and forth between these two player types can be a challenge; focus on fanning the flames of the lump until he becomes comfortable enough with the game that the diva won't be able to shove him back into his shell."
+			"***Lump vs. Diva:*** In many ways, the [diva](rule/diva) loves the lump player - he allows the diva to take all the limelight for herself while the lump does what he always does. But as the lump slowly emerges from his shell, suddenly there's less time in the sun for the diva. Jumping back and forth between these two player types can be a challenge; focus on fanning the flames of the lump until he becomes comfortable enough with the game that the diva won't be able to shove him back into his shell."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6264,7 +6266,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6283,7 +6285,7 @@
 			"",
 			"Of course, there's nothing inherently wrong with indulging a one-trick pony as long as everyone is having fun and you're able to take your campaign to its final destination. But at the same time, you aren't required to maintain the status quo just because that's the way it's always been. When the time comes to shake things up, embrace the change and communicate it to everyone. One way to address this situation is by announcing the main campaign story before players roll up characters, and requiring everyone to come up with characters that fit into it. If you're running a thieves' guild campaign that requires stealth and trickery, it's fine to disallow certain classes or require select skills.",
 			"",
-			"A second type of one-trick pony is the player who uses a specific tactic against enemies again and again during the campaign. This player has found an effective combo or strategy and uses it whenever possible, to the exclusion of all others. Again, while not technically wrong, this play style can quickly get old, and there are a few ways to address it. Before you do so, however, stop and make sure there's actually a problem. Is the player's strategy boring the other party members? Or are you merely frustrated by its effectiveness? Don't punish players for being good at what they do-instead, try exploring counter strategies, and enlist other players and GMs outside of the game if you need tactical help. If you have recurring villains, it only makes sense that they'd quickly learn to defend against their enemies' greatest weapons, or turn the party's pet tactic around and begin using it against them. There's no strategy for which a defense cannot be devised, and if the one-trick pony complains that the enemy seems unduly prepared, let him know that's the danger of predictability."
+			"A second type of one-trick pony is the player who uses a specific tactic against enemies again and again during the campaign. This player has found an effective combo or strategy and uses it whenever possible, to the exclusion of all others. Again, while not technically wrong, this play style can quickly get old, and there are a few ways to address it. Before you do so, however, stop and make sure there's actually a problem. Is the player's strategy boring the other party members? Or are you merely frustrated by its effectiveness? Don't punish players for being good at what they do; instead, try exploring counter strategies, and enlist other players and GMs outside of the game if you need tactical help. If you have recurring villains, it only makes sense that they'd quickly learn to defend against their enemies' greatest weapons, or turn the party's pet tactic around and begin using it against them. There's no strategy for which a defense cannot be devised, and if the one-trick pony complains that the enemy seems unduly prepared, let him know that's the danger of predictability."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6302,7 +6304,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6315,7 +6317,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
 			"",
-			"Distractions come into the game room from a variety of sources: phone calls, family, the pizza guy-you name it. Once they start being generated by the gamers themselves, however, you may need to act quickly to keep your game under control and focused. The multitask master is the source of many such distractions around the table, as he e-mails friends from his laptop, sends text messages on his cell phones, and tells this week's joke to those next to him between initiative rounds.",
+			"Distractions come into the game room from a variety of sources: phone calls, family, the pizza guy - you name it. Once they start being generated by the gamers themselves, however, you may need to act quickly to keep your game under control and focused. The multitask master is the source of many such distractions around the table, as he e-mails friends from his laptop, sends text messages on his cell phones, and tells this week's joke to those next to him between initiative rounds.",
 			"",
 			"The first thing to do when confronted with multitaskers is to ask yourself why they're doing it. Are your players falling asleep because you're plotting out every possible location that a caltrop could land? Speed things up. Are you spending all your time on a diva's personal subplot, or waiting for a slow player to find the correct damage dice? Move on to the next player. Evenly distributing your attention and keeping the game moving is crucial.",
 			"",
@@ -6342,14 +6344,14 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
 		]
 	},
-	"power_game": {
-		"name": "Power Game",
+	"power_gamer": {
+		"name": "Power Gamer",
 		"subtitle": "Gamemastering, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -6359,9 +6361,9 @@
 			"",
 			"The power gamer tends to focus on combat, expertly manipulating the rules to create engines of destruction that few of her companions (or enemies) can match. The standard monsters from various rules supplements stand no chance against her unless they're many levels higher than the rest of the group. While the power gamer likely sees her actions as merely playing the game to the best of her ability, her proficiency makes creating challenging encounters for the entire party very difficult; monsters introduced to challenge the power gamer might well kill the other characters.",
 			"",
-			"In such situations, the first thing to do is to take a look at the rules in question. As a GM, you should reserve the right to vet new rules content from any source before it's allowed into your game, and if some of the power gamer's abilities are based on rules you don't approve of or house rules you hadn't thought through entirely, you can change them at the end of an adventure-provided players impacted by the change are allowed to go back and rebuild their characters.",
+			"In such situations, the first thing to do is to take a look at the rules in question. As a GM, you should reserve the right to vet new rules content from any source before it's allowed into your game, and if some of the power gamer's abilities are based on rules you don't approve of or house rules you hadn't thought through entirely, you can change them at the end of an adventure - provided players impacted by the change are allowed to go back and rebuild their characters.",
 			"",
-			"The most important thing when dealing with a power gamer is avoiding an adversarial relationship. Instead, try to learn from her, filing away her tactics for use by future villains. If a player is so effective in combat that it's ruining your game, take her aside and ask for her assistance. Congratulate her honestly on her prowess-she spent a lot of time devising those strategies-then explain the situation. Maybe she can help your other players maximize their characters-a group of all power gamers is easier to deal with than a mixed batch. If that doesn't work, perhaps she or another player can help you devise effective counter strategies, or maybe she'd enjoy the challenge of playing a character a few levels lower than everyone else. In the end, it's possible she may need to retire or redesign the character, but the more transparency you can have about this process, and the less it feels like punishment, the better. And if the character is only slightly too powerful, or the other players prefer to focus on roleplaying, there are always noncombat encounters to help give other players the chance to shine."
+			"The most important thing when dealing with a power gamer is avoiding an adversarial relationship. Instead, try to learn from her, filing away her tactics for use by future villains. If a player is so effective in combat that it's ruining your game, take her aside and ask for her assistance. Congratulate her honestly on her prowess - she spent a lot of time devising those strategies - then explain the situation. Maybe she can help your other players maximize their characters-a group of all power gamers is easier to deal with than a mixed batch. If that doesn't work, perhaps she or another player can help you devise effective counter strategies, or maybe she'd enjoy the challenge of playing a character a few levels lower than everyone else. In the end, it's possible she may need to retire or redesign the character, but the more transparency you can have about this process, and the less it feels like punishment, the better. And if the character is only slightly too powerful, or the other players prefer to focus on roleplaying, there are always noncombat encounters to help give other players the chance to shine."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6380,7 +6382,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6422,7 +6424,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6441,7 +6443,7 @@
 			"",
 			"If the tagalong has no interest in gaming, even after watching the proceedings for a bit, it's probably best to find some other activity to keep him entertained over the course of the game. If there is a separate room where he can watch TV or read a book, the chances of keeping everyone's attention on the game are much higher. Find out what the tagalong likes to do, and if possible provide him with the resources and equipment he needs to stay entertained. Ultimately, the responsibility for keeping the tagalong happy and distractions to a minimum lies with the player who brought him. Don't be afraid to privately enforce this responsibility.",
 			"",
-			"Children too young to join the game are the most challenging form of tagalongs, as they require both supervision and attention, not to mention a good degree of childproofing for the gaming area. Polite parents should ask the group whether their children are too distracting for gaming, and if it's clear that young children aren't welcome, quietly excuse themselves during the weeks when they can't find a babysitter. But if a group is willing to try-particularly if multiple players have tagalong children-you may be able to play through the distraction caused by children. The important thing is to make sure everyone's on board, as the presence of children can drive some gamers away from the game permanently. Approach this topic respectfully, but be sure to hear from all players before determining the best course of action."
+			"Children too young to join the game are the most challenging form of tagalongs, as they require both supervision and attention, not to mention a good degree of childproofing for the gaming area. Polite parents should ask the group whether their children are too distracting for gaming, and if it's clear that young children aren't welcome, quietly excuse themselves during the weeks when they can't find a babysitter. But if a group is willing to try - particularly if multiple players have tagalong children - you may be able to play through the distraction caused by children. The important thing is to make sure everyone's on board, as the presence of children can drive some gamers away from the game permanently. Approach this topic respectfully, but be sure to hear from all players before determining the best course of action."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6460,7 +6462,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
@@ -6475,11 +6477,11 @@
 			"",
 			"It's hardly surprising that actors would be drawn to roleplaying games. After all, while some roleplayers are interested solely in leveling up and getting cool new abilities, many take it to the next level, establishing dialects, mannerisms, catch phrases, and so on to bring their characters to life. They speak in character all the time, and relish the opportunity to add their drama skills to a social setting.",
 			"",
-			"Make no mistake about it-this is a good thing. As a GM, you're probably already doing many of these things to help set the stage, and having a few thespian player types to play off of can help you make the world that much more vivid.",
+			"Make no mistake about it: this is a good thing. As a GM, you're probably already doing many of these things to help set the stage, and having a few thespian player types to play off of can help you make the world that much more vivid.",
 			"",
 			"Yet like the diva, the thespian can easily come to dominate your sessions, especially if your other players are quieter or less interested in the roleplaying side of things. In such cases, the same techniques used to combat the diva apply here, namely switching back and forth between different NPCs and players to ensure that everyone gets equal time. Keep in mind that members of your gaming group likely embrace different depths of roleplaying, and even if they're not hamming it up themselves, some players might take great enjoyment out of watching the thespian roleplay her heart out. As long as everyone's having fun, go with it. (For advice on acting tricks to up your own performance as a GM, see [GM as Actor](rule/gm_as_actor).)",
 			"",
-			"If tangentially related roleplaying encounters begin to dominate a game, however, or certain players seem bored by the clever dialogue, it might be time to rein back on the roleplaying and throw in a few more combat encounters to accommodate everyone's play styles. Because they tend to involve less dice rolling than other types of encounters, social interactions between characters and NPCs can easily happen between games (though it should be noted that email tends to lose a lot of the flair and fun for thespians). Conversely, if some of your players are bored whenever they're not rolling dice, try incorporating more dice rolls into your social interactions. After all, your players put ranks into Bluff, Diplomacy, Sense Motive, and other social skills for a reason, and you shouldn't give away your biggest secrets to the thespian instead of the Diplomacyheavy bard just because the thespian player likes to do all the talking. As with other metagame questions of personal knowledge versus character knowledge, it's important to remember that a great performance by a player doesn't necessarily indicate the same from his character."
+			"If tangentially related roleplaying encounters begin to dominate a game, however, or certain players seem bored by the clever dialogue, it might be time to rein back on the roleplaying and throw in a few more combat encounters to accommodate everyone's play styles. Because they tend to involve less dice rolling than other types of encounters, social interactions between characters and NPCs can easily happen between games (though it should be noted that email tends to lose a lot of the flair and fun for thespians). Conversely, if some of your players are bored whenever they're not rolling dice, try incorporating more dice rolls into your social interactions. After all, your players put ranks into Bluff, Diplomacy, Sense Motive, and other social skills for a reason, and you shouldn't give away your biggest secrets to the thespian instead of the Diplomacy-heavy bard just because the thespian player likes to do all the talking. As with other metagame questions of personal knowledge versus character knowledge, it's important to remember that a great performance by a player doesn't necessarily indicate the same from his character."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6498,7 +6500,7 @@
 			"lump",
 			"one-trick_pony",
 			"multitask_master",
-			"power_game",
+			"power_gamer",
 			"rules_lawyer",
 			"tagalong",
 			"thespian"
