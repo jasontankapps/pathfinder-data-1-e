@@ -43,7 +43,7 @@ const PageFooter: React.FC<PageProps> = ({open, setOpen}) => {
 						<tbody>
 							<tr>
 								<td>plain text</td>
-								<td>Anything fuzzy-matching "plain" and "text"</td>
+								<td>Anything fuzzy-matching "plain text"</td>
 							</tr>
 							<tr>
 								<td>plain | text</td>
@@ -79,7 +79,7 @@ const PageFooter: React.FC<PageProps> = ({open, setOpen}) => {
 							</tr>
 						</tbody>
 					</table>
-					<p>You may use these search commands together, e.g. [^fey 'kill | fright] would match anything that either starts with "fey" and includes "kill", or anything that fuzzy-matches "fright".</p>
+					<p>You may use these search commands together, e.g. <code>^fey 'kill | fright</code> would match anything that either starts with "fey" and includes "kill", or anything that fuzzy-matches "fright".</p>
 				</div>
 			</IonContent>
 			<IonFooter>

@@ -1,4 +1,4 @@
-import { FC, SetStateAction, Dispatch, PropsWithChildren, useState, useTransition } from 'react';
+import { FC, SetStateAction, Dispatch, PropsWithChildren, useState, useTransition, useRef } from 'react';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
 import Fuse, { FuseResult } from 'fuse.js';
@@ -19,7 +19,8 @@ import {
 	IonSearchbar,
 	IonSpinner,
 	IonTitle,
-	IonToolbar
+	IonToolbar,
+	useIonViewDidEnter
 } from '@ionic/react';
 import { closeCircle, filterCircle, close as closePlain, filter as filterIcon, helpCircle } from 'ionicons/icons';
 import { RangeStartToEndMinusOne } from '../types';
@@ -238,11 +239,19 @@ const SearchPage: FC = () => {
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
 	const doFilterUpdate = (input: SearchIndex[]) => startTransition(() => setFilter(input));
+
+	const ref = useRef<HTMLIonSearchbarElement>(null);
+
+	useIonViewDidEnter(() => {
+		ref && ref.current && ref.current.setFocus();
+	});
+
 	return (
 		<IonPage>
 			<PageHeader title="Search" noSearch>
 				<IonToolbar>
 					<IonSearchbar
+						ref={ref}
 						inputmode="text"
 						type="text"
 						placeholder="Search for titles and topics"

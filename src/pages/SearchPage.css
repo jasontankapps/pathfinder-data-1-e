@@ -44,3 +44,9 @@ div.searchHelpModal p {
 div.searchHelpModal table {
 	margin: 1rem auto;
 }
+div.searchHelpModal p code {
+	display: inline-block;
+	background-color: var(--ion-color-light);
+	text-indent: 0;
+	padding-inline: 0.25rem;
+}
