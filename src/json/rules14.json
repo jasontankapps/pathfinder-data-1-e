@@ -373,11 +373,13 @@
 		]
 	},
 	"craft_int": {
-		"name": "Craft (Int)",
+		"name": "Craft",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 72](source/pathfinder_unchained)",
+			"",
+			"### Craft (Int)",
 			"",
 			"You are skilled in the creation of a specific group of items, such as armor or weapons. Like Knowledge, Perform, and Profession, Craft is actually a number of separate skills. You could have several Craft skills, each with its own ranks. The most common Craft skills are alchemy, armor, baskets, books, bows, calligraphy, carpentry, cloth, clothing, glass, jewelry, leather, locks, paintings, pottery, sculptures, ships, shoes, stonemasonry, traps, and weapons.",
 			"",
@@ -941,11 +943,13 @@
 		]
 	},
 	"profession_wisdom": {
-		"name": "Profession (Wisdom; Trained Only)",
+		"name": "Profession",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 77](source/pathfinder_unchained)",
+			"",
+			"### Profession (Wisdom; Trained Only)",
 			"",
 			"You are skilled at a specific job. Like Craft, Knowledge, and Perform, Profession is actually a number of separate skills. You could have several Profession skills, each with its own ranks. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. The most common Profession skills are architect, baker, barrister, brewer, butcher, clerk, cook, courtesan, driver, engineer, farmer, fisherman, gambler, gardener, herbalist, innkeeper, librarian, merchant, midwife, miller, miner, porter, sailor, scribe, shepherd, stable master, soldier, tanner, trapper, and woodcutter.",
 			"",
@@ -1747,11 +1751,13 @@
 		]
 	},
 	"artistry_int": {
-		"name": "Artistry (Int)",
+		"name": "Artistry",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 48](source/pathfinder_unchained)",
+			"",
+			"### Artistry (Int)",
 			"",
 			"You are skilled in the creative arts, following your aesthetic sensibilities to bring to life the wonders of your imagination. Like Craft, Perform, and Profession, Artistry is actually a number of separate skills. You could have several Artistry skills, each with its own ranks. The most common Artistry skills are choreography, criticism, literature (including poetry), musical composition, philosophy, and playwriting.",
 			"",
@@ -1805,11 +1811,13 @@
 		]
 	},
 	"lore_int": {
-		"name": "Lore (Int; Trained Only)",
+		"name": "Lore",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 50](source/pathfinder_unchained)",
+			"",
+			"### Lore (Int; Trained Only)",
 			"",
 			"You possess a specialized area of knowledge, generally narrower than that of a full-fledged scholar. Lore acts as a catchall skill for information, similar to how Craft handles artisanal skills and Profession handles professional skills. The category of a Lore skill can vary widely from that of another Lore skill. It could be regional (such as a city or country), about a discipline (such as cryptography), or related to a narrow set of people (such as famous musicians). The scope of region-based Lore skills can also refer to specific subcategories, such as taverns in a particular region.",
 			"",
@@ -2337,11 +2345,13 @@
 		]
 	},
 	"acrobatics_dex": {
-		"name": "Acrobatics (Dex; Armor Check Penalty)",
+		"name": "Acrobatics",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 54](source/pathfinder_unchained)",
+			"",
+			"### Acrobatics (Dex; Armor Check Penalty)",
 			"",
 			"You have a talent for balance and coordination, including aerial maneuvers, gymnastics, and tumbling.",
 			"",
@@ -2621,11 +2631,13 @@
 		]
 	},
 	"athletics_str": {
-		"name": "Athletics (Str; Armor Check Penalty)",
+		"name": "Athletics",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 56](source/pathfinder_unchained)",
+			"",
+			"### Athletics (Str; Armor Check Penalty)",
 			"",
 			"You are skilled at deeds of physical prowess such as leaping, scaling walls, and swimming. Raw lifting ability uses a Strength check rather than an Athletics check.",
 			"",
@@ -2821,11 +2833,13 @@
 		]
 	},
 	"finesse_dex": {
-		"name": "Finesse (Dex; Armor Check Penalty; Trained Only)",
+		"name": "Finesse",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
+			"",
+			"### Finesse (Dex; Armor Check Penalty; Trained Only)",
 			"",
 			"Your deft hands allow you to perform tasks that require fine manipulation.",
 			"",
@@ -3028,11 +3042,13 @@
 		]
 	},
 	"influence_cha": {
-		"name": "Influence (Cha)",
+		"name": "Influence",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 58](source/pathfinder_unchained)",
+			"",
+			"### Influence (Cha)",
 			"",
 			"You can manipulate other people through negotiation, deceit, or intimidation.",
 			"",
@@ -3404,11 +3420,13 @@
 		]
 	},
 	"nature_int": {
-		"name": "Nature (Int; Trained Only)",
+		"name": "Nature",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 60](source/pathfinder_unchained)",
+			"",
+			"### Nature (Int; Trained Only)",
 			"",
 			"You know a great deal about the natural world, and have the ability to command and train wild creatures.",
 			"",
@@ -3528,11 +3546,13 @@
 		]
 	},
 	"perception_wis": {
-		"name": "Perception (Wis)",
+		"name": "Perception",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 61](source/pathfinder_unchained)",
+			"",
+			"### Perception (Wis)",
 			"",
 			"The acuity of your senses allows you to notice fine details, see danger coming, and tell when people are lying or otherwise behaving suspiciously.",
 			"",
@@ -3779,11 +3799,13 @@
 		]
 	},
 	"performance_cha": {
-		"name": "Performance (Cha)",
+		"name": "Performance",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 62](source/pathfinder_unchained)",
+			"",
+			"### Performance (Cha)",
 			"",
 			"You can compel an emotional reaction through a musical, oratory, or physical performance. Your ability to act convincingly and use stagecraft also makes you better at disguising yourself. This skill applies to performances of any type (unlike in the Core Rulebook).",
 			"",
@@ -3881,11 +3903,13 @@
 		]
 	},
 	"religion_int": {
-		"name": "Religion (Int; Trained Only)",
+		"name": "Religion",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
+			"",
+			"### Religion (Int; Trained Only)",
 			"",
 			"The secrets of deities, holy lore, and the extraplanar realms are open to you.",
 			"",
@@ -3974,11 +3998,13 @@
 		]
 	},
 	"society_int": {
-		"name": "Society (Int; Trained Only)",
+		"name": "Society",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 63](source/pathfinder_unchained)",
+			"",
+			"### Society (Int; Trained Only)",
 			"",
 			"You understand the people and systems that make civilization run, and you know the historical events that made societies what they are today. Part of this expertise includes a greater understanding of languages.",
 			"",
@@ -4165,11 +4191,13 @@
 		]
 	},
 	"spellcraft_int": {
-		"name": "Spellcraft (Int; Trained Only)",
+		"name": "Spellcraft",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 64](source/pathfinder_unchained)",
+			"",
+			"### Spellcraft (Int; Trained Only)",
 			"",
 			"You know how spells and magic items work, and have picked up numerous bits of magical lore. Regardless of whether you're a spellcaster, you can use magic items even if you wouldn't normally be able to.",
 			"",
@@ -4394,11 +4422,13 @@
 		]
 	},
 	"stealth_dex": {
-		"name": "Stealth (Dex; Armor Check Penalty)",
+		"name": "Stealth",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
+			"",
+			"### Stealth (Dex; Armor Check Penalty)",
 			"",
 			"You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. This skill covers hiding and moving silently.",
 			"",
@@ -4454,11 +4484,13 @@
 		"siblings": [ "avoid_being_noticed" ]
 	},
 	"survival_wis": {
-		"name": "Survival (Wis)",
+		"name": "Survival",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"**Source** [Pathfinder Unchained pg. 65](source/pathfinder_unchained)",
+			"",
+			"### Survival (Wis)",
 			"",
 			"You know how to survive in the wild, navigate the wilderness, and tend wounds.",
 			"",

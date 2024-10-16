@@ -7,7 +7,7 @@
 		]
 	},
 	"curse": {
-		"name": "Curse (Su)",
+		"name": "Curse",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Curse (Su)",
@@ -20,7 +20,7 @@
 		]
 	},
 	"hold_breath": {
-		"name": "Hold Breath (Ex)",
+		"name": "Hold Breath",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Hold Breath (Ex)",
@@ -33,7 +33,7 @@
 		]
 	},
 	"telepathy": {
-		"name": "Telepathy (Su)",
+		"name": "Telepathy",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Telepathy (Su)",
@@ -46,7 +46,7 @@
 		]
 	},
 	"sound_mimicry": {
-		"name": "Sound Mimicry (Ex)",
+		"name": "Sound Mimicry",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Sound Mimicry (Ex)",
@@ -59,7 +59,7 @@
 		]
 	},
 	"amorphous": {
-		"name": "Amorphous (Ex)",
+		"name": "Amorphous",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Amorphous (Ex)",
@@ -72,7 +72,7 @@
 		]
 	},
 	"rock_catching": {
-		"name": "Rock Catching (Ex)",
+		"name": "Rock Catching",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Rock Catching (Ex)",
@@ -85,7 +85,8 @@
 		]
 	},
 	"simple_divine_spellcasting": {
-		"name": "Simple Divine Spellcasting [Mythic]",
+		"name": "Simple Divine Spellcasting",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Simple Divine Spellcasting [Mythic]",
@@ -98,7 +99,7 @@
 		]
 	},
 	"darkvision": {
-		"name": "Darkvision (Ex or Su)",
+		"name": "Darkvision",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Darkvision (Ex or Su)",
@@ -111,7 +112,7 @@
 		]
 	},
 	"pounce": {
-		"name": "Pounce (Ex)",
+		"name": "Pounce",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Pounce (Ex)",
@@ -124,8 +125,9 @@
 		]
 	},
 	"sand_glide": {
-		"name": "Sand Glide (Ex) [Mythic]",
+		"name": "Sand Glide",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Sand Glide (Ex) [Mythic]",
 			"",
@@ -137,7 +139,7 @@
 		]
 	},
 	"multiweapon_mastery": {
-		"name": "Multiweapon Mastery (Ex)",
+		"name": "Multiweapon Mastery",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Multiweapon Mastery (Ex)",
@@ -150,7 +152,8 @@
 		]
 	},
 	"powerful_blows": {
-		"name": "Powerful Blows (Ex) [Mythic]",
+		"name": "Powerful Blows",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Powerful Blows (Ex) [Mythic]",
@@ -163,7 +166,7 @@
 		]
 	},
 	"push": {
-		"name": "Push (Ex)",
+		"name": "Push",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Push (Ex)",
@@ -176,7 +179,7 @@
 		]
 	},
 	"energy_drain": {
-		"name": "Energy Drain (Su)",
+		"name": "Energy Drain",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Energy Drain (Su)",
@@ -189,7 +192,7 @@
 		]
 	},
 	"bleed": {
-		"name": "Bleed (Ex)",
+		"name": "Bleed",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Bleed (Ex)",
@@ -202,7 +205,7 @@
 		]
 	},
 	"undead_traits": {
-		"name": "Undead Traits (Ex)",
+		"name": "Undead Traits",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Undead Traits (Ex)",
@@ -215,7 +218,7 @@
 		]
 	},
 	"amphibious": {
-		"name": "Amphibious (Ex)",
+		"name": "Amphibious",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Amphibious (Ex)",
@@ -228,7 +231,7 @@
 		]
 	},
 	"sunlight_powerlessness": {
-		"name": "Sunlight Powerlessness (Ex)",
+		"name": "Sunlight Powerlessness",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Sunlight Powerlessness (Ex)",
@@ -241,7 +244,7 @@
 		]
 	},
 	"pull": {
-		"name": "Pull (Ex)",
+		"name": "Pull",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Pull (Ex)",
@@ -254,8 +257,9 @@
 		]
 	},
 	"x-ray_vision": {
-		"name": "X-Ray Vision (Su) [Mythic]",
+		"name": "X-Ray Vision",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## X-Ray Vision (Su) [Mythic]",
 			"",
@@ -267,7 +271,7 @@
 		]
 	},
 	"earth_glide": {
-		"name": "Earth Glide (Ex)",
+		"name": "Earth Glide",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Earth Glide (Ex)",
@@ -280,8 +284,9 @@
 		]
 	},
 	"feral_savagery": {
-		"name": "Feral Savagery (Su) [Mythic]",
+		"name": "Feral Savagery",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Feral Savagery (Su) [Mythic]",
 			"",
@@ -293,7 +298,7 @@
 		]
 	},
 	"light_sensitivity": {
-		"name": "Light Sensitivity (Ex)",
+		"name": "Light Sensitivity",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Light Sensitivity (Ex)",
@@ -306,7 +311,7 @@
 		]
 	},
 	"blindsense": {
-		"name": "Blindsense (Ex)",
+		"name": "Blindsense",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Blindsense (Ex)",
@@ -319,7 +324,7 @@
 		]
 	},
 	"formian_traits": {
-		"name": "Formian Traits (Ex or Su)",
+		"name": "Formian Traits",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Formian Traits (Ex or Su)",
@@ -335,7 +340,7 @@
 		]
 	},
 	"damage_reduction": {
-		"name": "Damage Reduction (Ex or Su)",
+		"name": "Damage Reduction",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Damage Reduction (Ex or Su)",
@@ -362,8 +367,9 @@
 		]
 	},
 	"mythic_magic": {
-		"name": "Mythic Magic (Su) [Mythic]",
+		"name": "Mythic Magic",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Mythic Magic (Su) [Mythic]",
 			"",
@@ -375,8 +381,9 @@
 		]
 	},
 	"dual_initiative": {
-		"name": "Dual Initiative (Ex) [Mythic]",
+		"name": "Dual Initiative",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Dual Initiative (Ex) [Mythic]",
 			"",
@@ -388,7 +395,7 @@
 		]
 	},
 	"web": {
-		"name": "Web (Ex)",
+		"name": "Web",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Web (Ex)",
@@ -405,8 +412,9 @@
 		]
 	},
 	"block_attacks": {
-		"name": "Block Attacks (Ex) [Mythic]",
+		"name": "Block Attacks",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Block Attacks (Ex) [Mythic]",
 			"",
@@ -418,7 +426,7 @@
 		]
 	},
 	"grab": {
-		"name": "Grab (Ex)",
+		"name": "Grab",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Grab (Ex)",
@@ -433,8 +441,9 @@
 		]
 	},
 	"plantbringer": {
-		"name": "Plantbringer (Su) [Mythic]",
+		"name": "Plantbringer",
 		"sources": [ "Bestiary 4" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Plantbringer (Su) [Mythic]",
 			"",
@@ -446,7 +455,7 @@
 		]
 	},
 	"entrap": {
-		"name": "Entrap (Ex or Su)",
+		"name": "Entrap",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Entrap (Ex or Su)",
@@ -459,7 +468,7 @@
 		]
 	},
 	"construct_traits": {
-		"name": "Construct Traits (Ex)",
+		"name": "Construct Traits",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Construct Traits (Ex)",
@@ -472,8 +481,9 @@
 		]
 	},
 	"amazing_initiative": {
-		"name": "Amazing Initiative (Ex) [Mythic]",
+		"name": "Amazing Initiative",
 		"sources": [ "Bestiary 4" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Amazing Initiative (Ex) [Mythic]",
 			"",
@@ -485,7 +495,7 @@
 		]
 	},
 	"psychic_magic": {
-		"name": "Psychic Magic (Sp)",
+		"name": "Psychic Magic",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Psychic Magic (Sp)",
@@ -498,7 +508,7 @@
 		]
 	},
 	"fast_swallow": {
-		"name": "Fast Swallow (Ex)",
+		"name": "Fast Swallow",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Fast Swallow (Ex)",
@@ -511,8 +521,9 @@
 		]
 	},
 	"dragon_blood": {
-		"name": "Dragon Blood (Su) [Mythic]",
+		"name": "Dragon Blood",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Dragon Blood (Su) [Mythic]",
 			"",
@@ -534,8 +545,9 @@
 		]
 	},
 	"simple_arcane_spellcasting": {
-		"name": "Simple Arcane Spellcasting [Mythic]",
+		"name": "Simple Arcane Spellcasting",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Simple Arcane Spellcasting [Mythic]",
 			"",
@@ -547,7 +559,7 @@
 		]
 	},
 	"archdevil_traits": {
-		"name": "Archdevil Traits (Ex, Sp, or Su)",
+		"name": "Archdevil Traits",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil Traits (Ex, Sp, or Su)",
@@ -568,7 +580,7 @@
 		]
 	},
 	"paralysis": {
-		"name": "Paralysis (Ex or Su)",
+		"name": "Paralysis",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Paralysis (Ex or Su)",
@@ -581,7 +593,7 @@
 		]
 	},
 	"frightful_presence": {
-		"name": "Frightful Presence (Ex)",
+		"name": "Frightful Presence",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Frightful Presence (Ex)",
@@ -594,7 +606,7 @@
 		]
 	},
 	"blood_rage": {
-		"name": "Blood Rage (Ex)",
+		"name": "Blood Rage",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Blood Rage (Ex)",
@@ -607,7 +619,7 @@
 		]
 	},
 	"light_blindness": {
-		"name": "Light Blindness (Ex)",
+		"name": "Light Blindness",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Light Blindness (Ex)",
@@ -620,7 +632,7 @@
 		]
 	},
 	"spell_resistance": {
-		"name": "Spell Resistance (Ex)",
+		"name": "Spell Resistance",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Spell Resistance (Ex)",
@@ -633,7 +645,7 @@
 		]
 	},
 	"fear": {
-		"name": "Fear (Su or Sp)",
+		"name": "Fear",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Fear (Su or Sp)",
@@ -650,7 +662,7 @@
 		]
 	},
 	"empyreal_lord_traits": {
-		"name": "Empyreal Lord Traits (Ex, Sp, or Su)",
+		"name": "Empyreal Lord Traits",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Empyreal Lord Traits (Ex, Sp, or Su)",
@@ -670,7 +682,7 @@
 		]
 	},
 	"engulf": {
-		"name": "Engulf (Ex)",
+		"name": "Engulf",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Engulf (Ex)",
@@ -683,7 +695,7 @@
 		]
 	},
 	"blindsight": {
-		"name": "Blindsight (Ex)",
+		"name": "Blindsight",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Blindsight (Ex)",
@@ -696,7 +708,7 @@
 		]
 	},
 	"vulnerabilities": {
-		"name": "Vulnerabilities (Ex or Su)",
+		"name": "Vulnerabilities",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Vulnerabilities (Ex or Su)",
@@ -709,7 +721,7 @@
 		]
 	},
 	"strangle": {
-		"name": "Strangle (Ex)",
+		"name": "Strangle",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Strangle (Ex)",
@@ -722,7 +734,7 @@
 		]
 	},
 	"low-light_vision": {
-		"name": "Low-Light Vision (Ex)",
+		"name": "Low-Light Vision",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Low-Light Vision (Ex)",
@@ -735,8 +747,9 @@
 		]
 	},
 	"lingering_breath": {
-		"name": "Lingering Breath (Su) [Mythic]",
+		"name": "Lingering Breath",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Lingering Breath (Su) [Mythic]",
 			"",
@@ -758,7 +771,7 @@
 		]
 	},
 	"rend": {
-		"name": "Rend (Ex)",
+		"name": "Rend",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Rend (Ex)",
@@ -771,7 +784,7 @@
 		]
 	},
 	"channel_resistance": {
-		"name": "Channel Resistance (Ex)",
+		"name": "Channel Resistance",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Channel Resistance (Ex)",
@@ -784,7 +797,7 @@
 		]
 	},
 	"scent": {
-		"name": "Scent (Ex)",
+		"name": "Scent",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Scent (Ex)",
@@ -803,7 +816,7 @@
 		]
 	},
 	"see_in_darkness": {
-		"name": "See in Darkness (Su)",
+		"name": "See in Darkness",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## See in Darkness (Su)",
@@ -816,7 +829,7 @@
 		]
 	},
 	"lycanthropic_empathy": {
-		"name": "Lycanthropic Empathy (Ex)",
+		"name": "Lycanthropic Empathy",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Lycanthropic Empathy (Ex)",
@@ -829,7 +842,7 @@
 		]
 	},
 	"hardness": {
-		"name": "Hardness (Ex)",
+		"name": "Hardness",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Hardness (Ex)",
@@ -842,7 +855,7 @@
 		]
 	},
 	"compression": {
-		"name": "Compression (Ex)",
+		"name": "Compression",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Compression (Ex)",
@@ -855,7 +868,7 @@
 		]
 	},
 	"emotion_aura": {
-		"name": "Emotion Aura (Su)",
+		"name": "Emotion Aura",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Emotion Aura (Su)",
@@ -868,8 +881,9 @@
 		]
 	},
 	"unstoppable": {
-		"name": "Unstoppable (Ex) [Mythic]",
+		"name": "Unstoppable",
 		"sources": [ "Bestiary 4" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Unstoppable (Ex) [Mythic]",
 			"",
@@ -881,8 +895,9 @@
 		]
 	},
 	"steal": {
-		"name": "Steal (Ex) [Mythic]",
+		"name": "Steal",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Steal (Ex) [Mythic]",
 			"",
@@ -894,7 +909,7 @@
 		]
 	},
 	"capsize": {
-		"name": "Capsize (Ex)",
+		"name": "Capsize",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Capsize (Ex)",
@@ -907,7 +922,7 @@
 		]
 	},
 	"plant_traits": {
-		"name": "Plant Traits (Ex)",
+		"name": "Plant Traits",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Plant Traits (Ex)",
@@ -920,7 +935,7 @@
 		]
 	},
 	"whirlwind": {
-		"name": "Whirlwind (Su)",
+		"name": "Whirlwind",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Whirlwind (Su)",
@@ -945,7 +960,7 @@
 		]
 	},
 	"incorporeal": {
-		"name": "Incorporeal (Ex)",
+		"name": "Incorporeal",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Incorporeal (Ex)",
@@ -966,7 +981,7 @@
 		]
 	},
 	"breath_weapon": {
-		"name": "Breath Weapon (Su)",
+		"name": "Breath Weapon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Breath Weapon (Su)",
@@ -979,7 +994,7 @@
 		]
 	},
 	"burn": {
-		"name": "Burn (Ex)",
+		"name": "Burn",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Burn (Ex)",
@@ -1033,7 +1048,7 @@
 		]
 	},
 	"spell-like_abilities": {
-		"name": "Spell-Like Abilities (Sp)",
+		"name": "Spell-Like Abilities",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Spell-Like Abilities (Sp)",
@@ -1052,7 +1067,7 @@
 		]
 	},
 	"jet": {
-		"name": "Jet (Ex)",
+		"name": "Jet",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Jet (Ex)",
@@ -1065,7 +1080,7 @@
 		]
 	},
 	"thoughtsense": {
-		"name": "Thoughtsense (Su)",
+		"name": "Thoughtsense",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Thoughtsense (Su)",
@@ -1078,7 +1093,7 @@
 		]
 	},
 	"rake": {
-		"name": "Rake (Ex)",
+		"name": "Rake",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Rake (Ex)",
@@ -1091,7 +1106,7 @@
 		]
 	},
 	"horseman_traits": {
-		"name": "Horseman Traits (Ex, Sp, or Su)",
+		"name": "Horseman Traits",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Horseman Traits (Ex, Sp, or Su)",
@@ -1111,7 +1126,8 @@
 		]
 	},
 	"dragon_fury": {
-		"name": "Dragon Fury (Su) [Mythic]",
+		"name": "Dragon Fury",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon Fury (Su) [Mythic]",
@@ -1124,7 +1140,7 @@
 		]
 	},
 	"water_dependency": {
-		"name": "Water Dependency (Ex)",
+		"name": "Water Dependency",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Water Dependency (Ex)",
@@ -1137,7 +1153,8 @@
 		]
 	},
 	"mythic_power": {
-		"name": "Mythic Power (Su) [Mythic]",
+		"name": "Mythic Power",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Power (Su) [Mythic]",
@@ -1150,7 +1167,7 @@
 		]
 	},
 	"ooze_traits": {
-		"name": "Ooze Traits (Ex)",
+		"name": "Ooze Traits",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Ooze Traits (Ex)",
@@ -1187,7 +1204,7 @@
 		]
 	},
 	"rock_throwing": {
-		"name": "Rock Throwing (Ex)",
+		"name": "Rock Throwing",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Rock Throwing (Ex)",
@@ -1210,7 +1227,7 @@
 		]
 	},
 	"freeze": {
-		"name": "Freeze (Ex)",
+		"name": "Freeze",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Freeze (Ex)",
@@ -1223,7 +1240,7 @@
 		]
 	},
 	"swallow_whole": {
-		"name": "Swallow Whole (Ex)",
+		"name": "Swallow Whole",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Swallow Whole (Ex)",
@@ -1236,7 +1253,8 @@
 		]
 	},
 	"dragon_cantrips": {
-		"name": "Dragon Cantrips (Su) [Mythic]",
+		"name": "Dragon Cantrips",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon Cantrips (Su) [Mythic]",
@@ -1249,7 +1267,7 @@
 		]
 	},
 	"split": {
-		"name": "Split (Ex)",
+		"name": "Split",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Split (Ex)",
@@ -1262,7 +1280,7 @@
 		]
 	},
 	"natural_invisibility": {
-		"name": "Natural Invisibility (Ex or Su)",
+		"name": "Natural Invisibility",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Natural Invisibility (Ex or Su)",
@@ -1275,7 +1293,7 @@
 		]
 	},
 	"greensight": {
-		"name": "Greensight (Su)",
+		"name": "Greensight",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Greensight (Su)",
@@ -1288,7 +1306,7 @@
 		]
 	},
 	"water_breathing": {
-		"name": "Water Breathing (Ex)",
+		"name": "Water Breathing",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Water Breathing (Ex)",
@@ -1301,7 +1319,8 @@
 		]
 	},
 	"second_save": {
-		"name": "Second Save (Ex) [Mythic]",
+		"name": "Second Save",
+		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Second Save (Ex) [Mythic]",
@@ -1314,7 +1333,7 @@
 		]
 	},
 	"tremorsense": {
-		"name": "Tremorsense (Ex)",
+		"name": "Tremorsense",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Tremorsense (Ex)",
@@ -1327,7 +1346,7 @@
 		]
 	},
 	"regeneration": {
-		"name": "Regeneration (Ex)",
+		"name": "Regeneration",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Regeneration (Ex)",
@@ -1344,7 +1363,7 @@
 		]
 	},
 	"curse_of_lycanthropy": {
-		"name": "Curse of Lycanthropy (Su)",
+		"name": "Curse of Lycanthropy",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Curse of Lycanthropy (Su)",
@@ -1357,7 +1376,7 @@
 		]
 	},
 	"keen_scent": {
-		"name": "Keen Scent (Ex)",
+		"name": "Keen Scent",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Keen Scent (Ex)",
@@ -1370,7 +1389,7 @@
 		]
 	},
 	"unnatural_aura": {
-		"name": "Unnatural Aura (Su)",
+		"name": "Unnatural Aura",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Unnatural Aura (Su)",
@@ -1383,7 +1402,7 @@
 		]
 	},
 	"lifesense": {
-		"name": "Lifesense (Su)",
+		"name": "Lifesense",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Lifesense (Su)",
@@ -1396,7 +1415,7 @@
 		]
 	},
 	"trample": {
-		"name": "Trample (Ex)",
+		"name": "Trample",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Trample (Ex)",
@@ -1409,7 +1428,8 @@
 		]
 	},
 	"recuperation": {
-		"name": "Recuperation (Ex) [Mythic]",
+		"name": "Recuperation",
+		"subtitle": "Mythic",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Recuperation (Ex) [Mythic]",
@@ -1422,7 +1442,7 @@
 		]
 	},
 	"fortification": {
-		"name": "Fortification (Ex)",
+		"name": "Fortification",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Fortification (Ex)",
@@ -1435,8 +1455,9 @@
 		]
 	},
 	"poisonous_blood": {
-		"name": "Poisonous Blood (Ex) [Mythic]",
+		"name": "Poisonous Blood",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Poisonous Blood (Ex) [Mythic]",
 			"",
@@ -1448,7 +1469,8 @@
 		]
 	},
 	"mythic_immortality": {
-		"name": "Mythic Immortality (Su) [Mythic]",
+		"name": "Mythic Immortality",
+		"subtitle": "Mythic",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Mythic Immortality (Su) [Mythic]",
@@ -1461,7 +1483,7 @@
 		]
 	},
 	"smother": {
-		"name": "Smother (Ex)",
+		"name": "Smother",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Smother (Ex)",
@@ -1478,8 +1500,9 @@
 		]
 	},
 	"surge": {
-		"name": "Surge (Su) [Mythic]",
+		"name": "Surge",
 		"sources": [ "Mythic Adventures" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Surge (Su) [Mythic]",
 			"",
@@ -1490,7 +1513,7 @@
 		]
 	},
 	"change_shape": {
-		"name": "Change Shape (Su)",
+		"name": "Change Shape",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Change Shape (Su)",
@@ -1503,7 +1526,7 @@
 		]
 	},
 	"fast_healing": {
-		"name": "Fast Healing (Ex)",
+		"name": "Fast Healing",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Fast Healing (Ex)",
@@ -1516,7 +1539,7 @@
 		]
 	},
 	"constrict": {
-		"name": "Constrict (Ex)",
+		"name": "Constrict",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Constrict (Ex)",
@@ -1529,8 +1552,9 @@
 		]
 	},
 	"display_of_strength": {
-		"name": "Display of Strength (Su) [Mythic]",
+		"name": "Display of Strength",
 		"sources": [ "Bestiary 4" ],
+		"subtitle": "Mythic",
 		"description": [
 			"## Display of Strength (Su) [Mythic]",
 			"",
@@ -1542,7 +1566,7 @@
 		]
 	},
 	"disease": {
-		"name": "Disease (Ex or Su)",
+		"name": "Disease",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Disease (Ex or Su)",
@@ -1555,7 +1579,7 @@
 		]
 	},
 	"blood_drain": {
-		"name": "Blood Drain (Ex)",
+		"name": "Blood Drain",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Blood Drain (Ex)",
@@ -1568,7 +1592,7 @@
 		]
 	},
 	"no_breath": {
-		"name": "No Breath (Ex)",
+		"name": "No Breath",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## No Breath (Ex)",
@@ -1581,7 +1605,7 @@
 		]
 	},
 	"mistsight": {
-		"name": "Mistsight (Ex)",
+		"name": "Mistsight",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mistsight (Ex)",
@@ -1594,7 +1618,7 @@
 		]
 	},
 	"ferocity": {
-		"name": "Ferocity (Ex)",
+		"name": "Ferocity",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Ferocity (Ex)",
@@ -1607,7 +1631,7 @@
 		]
 	},
 	"psychic_resilience": {
-		"name": "Psychic Resilience (Ex)",
+		"name": "Psychic Resilience",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Psychic Resilience (Ex)",
@@ -1620,7 +1644,7 @@
 		]
 	},
 	"mental_static_aura": {
-		"name": "Mental Static Aura (Su)",
+		"name": "Mental Static Aura",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Mental Static Aura (Su)",
@@ -1633,7 +1657,7 @@
 		]
 	},
 	"ability_damage_and_drain": {
-		"name": "Ability Damage and Drain (Ex or Su)",
+		"name": "Ability Damage and Drain",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Ability Damage and Drain (Ex or Su)",
@@ -1646,7 +1670,7 @@
 		]
 	},
 	"all-around_vision": {
-		"name": "All-Around Vision (Ex)",
+		"name": "All-Around Vision",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## All-Around Vision (Ex)",
@@ -1659,7 +1683,7 @@
 		]
 	},
 	"trip": {
-		"name": "Trip (Ex)",
+		"name": "Trip",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Trip (Ex)",
@@ -1672,7 +1696,7 @@
 		]
 	},
 	"daemonic_harbinger_traits": {
-		"name": "Daemonic Harbinger Traits (Su)",
+		"name": "Daemonic Harbinger Traits",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Daemonic Harbinger Traits (Su)",
@@ -1691,7 +1715,7 @@
 		]
 	},
 	"demon_lord_traits": {
-		"name": "Demon Lord Traits (Ex, Sp, or Su)",
+		"name": "Demon Lord Traits",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Demon Lord Traits (Ex, Sp, or Su)",
@@ -1711,7 +1735,7 @@
 		]
 	},
 	"qlippoth_lord_traits": {
-		"name": "Qlippoth Lord Traits (Ex, Sp, or Su)",
+		"name": "Qlippoth Lord Traits",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Qlippoth Lord Traits (Ex, Sp, or Su)",
@@ -1730,7 +1754,7 @@
 		]
 	},
 	"powerful_charge": {
-		"name": "Powerful Charge (Ex)",
+		"name": "Powerful Charge",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Powerful Charge (Ex)",
@@ -1743,7 +1767,7 @@
 		]
 	},
 	"stench": {
-		"name": "Stench (Ex)",
+		"name": "Stench",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Stench (Ex)",
@@ -1756,7 +1780,7 @@
 		]
 	},
 	"summon": {
-		"name": "Summon (Sp)",
+		"name": "Summon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Summon (Sp)",
@@ -1769,7 +1793,7 @@
 		]
 	},
 	"flight": {
-		"name": "Flight (Ex or Su)",
+		"name": "Flight",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Flight (Ex or Su)",
@@ -1782,7 +1806,7 @@
 		]
 	},
 	"resistance": {
-		"name": "Resistance (Ex)",
+		"name": "Resistance",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Resistance (Ex)",
@@ -1795,7 +1819,7 @@
 		]
 	},
 	"immunity": {
-		"name": "Immunity (Ex or Su)",
+		"name": "Immunity",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Immunity (Ex or Su)",
@@ -1808,7 +1832,7 @@
 		]
 	},
 	"poison": {
-		"name": "Poison (Ex or Su)",
+		"name": "Poison",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Poison (Ex or Su)",
@@ -1821,7 +1845,7 @@
 		]
 	},
 	"undersized_weapons": {
-		"name": "Undersized Weapons (Ex)",
+		"name": "Undersized Weapons",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Undersized Weapons (Ex)",
@@ -1834,7 +1858,7 @@
 		]
 	},
 	"gaze": {
-		"name": "Gaze (Su)",
+		"name": "Gaze",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Gaze (Su)",
@@ -1855,7 +1879,7 @@
 		]
 	},
 	"attach": {
-		"name": "Attach (Ex)",
+		"name": "Attach",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Attach (Ex)",
@@ -1868,7 +1892,7 @@
 		]
 	},
 	"distraction": {
-		"name": "Distraction (Ex)",
+		"name": "Distraction",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Distraction (Ex)",
@@ -1881,7 +1905,7 @@
 		]
 	},
 	"negative_energy_affinity": {
-		"name": "Negative Energy Affinity (Ex)",
+		"name": "Negative Energy Affinity",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Negative Energy Affinity (Ex)",
@@ -1894,7 +1918,7 @@
 		]
 	},
 	"heat": {
-		"name": "Heat (Ex)",
+		"name": "Heat",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Heat (Ex)",
@@ -1907,7 +1931,7 @@
 		]
 	},
 	"ink_cloud": {
-		"name": "Ink Cloud (Ex)",
+		"name": "Ink Cloud",
 		"sources": [],
 		"description": [
 			"## Ink Cloud (Ex)",

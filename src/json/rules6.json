@@ -5740,11 +5740,13 @@
 		]
 	},
 	"lava_bombs_cr_2_or_8": {
-		"name": "Lava Bombs (CR 2 or 8)",
+		"name": "Lava Bombs",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
+			"",
+			"**CR 2 or 8**",
 			"",
 			"Blobs of molten rock may be hurled several miles from an erupting volcano, cooling into solid rock before they land. A typical lava bomb strikes a point designated by the GM and explodes in a 30-foot radius. All creatures in the area must make a DC 15 Reflex save or take 4d6 points of damage. Creatures under cover or capable of covering themselves (like with a shield) gain a +2 bonus on this save. Particularly large lava bombs might sometimes occur, dealing 12d6 points of damage. Normal lava bombs have a CR of 2, large lava bombs have a CR of 5."
 		],
@@ -5763,11 +5765,13 @@
 		]
 	},
 	"poisonous_gase_cr_5": {
-		"name": "Poisonous Gase (CR 5)",
+		"name": "Poisonous Gases",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
+			"",
+			"**CR 5**",
 			"",
 			"One of the more insidious threats of a volcano is toxic gas, often escaping notice amid the fire and destruction. A wide variety of poisonous vapors can result from a volcanic eruption, some visible, some unseen. Poisonous gas causes 1d6 points of Constitution damage per round if inhaled (Fortitude DC 15 negates, the DC increases by 1 per previous save), and visible gases also function as heavy smoke. Poisonous gas clouds flow toward low ground, and are typically 50 feet high. Gale-force winds can divert gas clouds, as can high barriers-provided the gas has somewhere else to go."
 		],
@@ -5786,11 +5790,13 @@
 		]
 	},
 	"pyroclastic_flows_cr_10": {
-		"name": "Pyroclastic Flows (CR 10)",
+		"name": "Pyroclastic Flows",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
+			"",
+			"**CR 10**",
 			"",
 			"Some volcanic eruptions create a devastating wave of burning ash, hot gases, and volcanic debris called a pyroclastic flow that can travel for miles. Treat a pyroclastic flow as an avalanche traveling at 500 feet per round, combined with the effects of poisonous gas listed above. Contact with the searing-hot debris of the flow causes 2d6 points of fire damage per round, while any creature buried in the flow suffers 10d6 points of damage per round. Only reality-warping magic like miracle or wish can turn aside or impede a pyroclastic flow."
 		],
@@ -6875,11 +6881,13 @@
 		]
 	},
 	"elusive_haunt_cr_1_or_2": {
-		"name": "Elusive Haunt (CR +1 or +2)",
+		"name": "Elusive Haunt",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
+			"",
+			"**CR +1 or +2**",
 			"",
 			"A typical haunt can be harmed within the area of its manifestation, but an elusive haunt's source is in a separate location. An elusive haunt can be damaged only at its source, and can manifest far away from that source, up to 100 feet per point of CR. The elusive element typically increases a haunt's CR by 1. If the haunt is also persistent, the elusive property increases the haunt's CR by 2."
 		],
@@ -6899,11 +6907,13 @@
 		]
 	},
 	"latent_haunt_cr_0": {
-		"name": "Latent Haunt (CR +0)",
+		"name": "Latent Haunt",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
+			"",
+			"**CR +0**",
 			"",
 			"A latent haunt's effects are subtle and come into effect only if a creature who fails a save against the haunt fulfills a particular condition, such as visiting a certain location or performing a specific action. For example, a latent haunt may rest among the graves of victims of a serial killer, and only demonstrate its effects if the affected creature enters the killer's manor. Latent haunts affecting a creature treat that creature as their source, and can be detected and damaged by any means that would detect or damage the haunt. A latent haunt works best if the DC of the skill check to notice it is unusually high for its CR."
 		],
@@ -6923,11 +6933,13 @@
 		]
 	},
 	"tenacious_haunt_cr_1": {
-		"name": "Tenacious Haunt (CR +1)",
+		"name": "Tenacious Haunt",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
+			"",
+			"**CR +1**",
 			"",
 			"A tenacious haunt clings desperately to its existence. When the haunt is required to attempt a saving throw, instead of automatically failing, it can attempt a saving throw with a bonus equal to 2 + its CR."
 		],
@@ -6947,11 +6959,13 @@
 		]
 	},
 	"unyielding_haunt_cr_2": {
-		"name": "Unyielding Haunt (CR +2)",
+		"name": "Unyielding Haunt",
 		"subtitle": "Gamemastering",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
+			"",
+			"**CR +2**",
 			"",
 			"An unyielding haunt has all of the properties of a tenacious haunt, except when it succeeds at a saving throw against a spell or effect that would normally deal it damage, it instead takes no damage."
 		],
@@ -9054,13 +9068,13 @@
 		]
 	},
 	"aberration_3_rp": {
-		"name": "Aberration (3 RP)",
+		"name": "Aberration",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
 			"",
-			"Aberrations have bizarre anatomies, strange abilities, alien mindsets, or any combination of the three. An aberration has the following features.",
+			"Aberrations (3 RP) have bizarre anatomies, strange abilities, alien mindsets, or any combination of the three. An aberration has the following features.",
 			"",
 			"- Aberrations have the darkvision 60 feet racial trait.",
 			"- Aberrations breathe, eat, and sleep."
@@ -9086,13 +9100,13 @@
 		]
 	},
 	"construct_20_rp": {
-		"name": "Construct (20 RP)",
+		"name": "Construct",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
 			"",
-			"A construct race is a group of animated objects or artificially created creatures. A construct race has the following features.",
+			"A construct race (20 RP) is a group of animated objects or artificially created creatures. A construct race has the following features.",
 			"",
 			"- Constructs have no Constitution score. Any DCs or other statistics that rely on a Constitution score treat a construct as having a score of 10 (no bonus or penalty).",
 			"- Constructs have the low-light vision racial trait.",
@@ -9134,13 +9148,13 @@
 		]
 	},
 	"dragon_10_rp": {
-		"name": "Dragon (10 RP)",
+		"name": "Dragon",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
 			"",
-			"A dragon is a reptilian creature with magical or unusual abilities. A dragon race has the following features.",
+			"A dragon (10 RP) is a reptilian creature with magical or unusual abilities. A dragon race has the following features.",
 			"",
 			"- Dragons have the darkvision 60 feet racial trait.",
 			"- Dragons have the low-light vision racial trait.",
@@ -9168,13 +9182,13 @@
 		]
 	},
 	"fey_2_rp": {
-		"name": "Fey (2 RP)",
+		"name": "Fey",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
 			"",
-			"A fey is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features.",
+			"A fey (2 RP) is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features.",
 			"",
 			"- Fey have the low-light vision racial trait.",
 			"- Fey breathe, eat, and sleep."
@@ -9200,13 +9214,13 @@
 		]
 	},
 	"humanoid_0_rp": {
-		"name": "Humanoid (0 RP)",
+		"name": "Humanoid",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
 			"",
-			"Humanoid races have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a halfbreed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features.",
+			"Humanoid races (0 RP) have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a halfbreed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features.",
 			"",
 			"- Humanoids breathe, eat, and sleep."
 		],
@@ -9231,13 +9245,13 @@
 		]
 	},
 	"monstrous_humanoid_3_rp": {
-		"name": "Monstrous Humanoid (3 RP)",
+		"name": "Monstrous Humanoid",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
 			"",
-			"Monstrous humanoids are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features.",
+			"Monstrous humanoids (3 RP) are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features.",
 			"",
 			"- Monstrous humanoids have the darkvision 60 feet racial trait.",
 			"- Monstrous humanoids breathe, eat, and sleep."
@@ -9263,13 +9277,13 @@
 		]
 	},
 	"outsider_native_3_rp": {
-		"name": "Outsider (native) (3 RP)",
+		"name": "Outsider",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
 			"",
-			"A native outsider is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.",
+			"A native outsider (3 RP) is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.",
 			"",
 			"- Native outsiders have the darkvision 60 feet racial trait.",
 			"- Native outsiders breathe, eat, and sleep."
@@ -9295,13 +9309,13 @@
 		]
 	},
 	"plant_10_rp": {
-		"name": "Plant (10 RP)",
+		"name": "Plant",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
 			"",
-			"This type encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features.",
+			"This type (10 RP) encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features.",
 			"",
 			"- Plants have the low-light vision racial trait.",
 			"- Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
@@ -9329,13 +9343,13 @@
 		]
 	},
 	"undead_16_rp": {
-		"name": "Undead (16 RP)",
+		"name": "Undead",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
 			"",
-			"Undead races are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features.",
+			"Undead races (16 RP) are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features.",
 			"",
 			"- Undead have no Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC).",
 			"- Undead have the darkvision 60 feet racial trait.",

@@ -225,11 +225,13 @@
 		]
 	},
 	"brambles_cr_1": {
-		"name": "Brambles (CR 1)",
+		"name": "Brambles",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 146](source/ultimate_wilderness)",
+			"",
+			"**CR 1**",
 			"",
 			"While many forms of undergrowth can slow explorers, thorny brambles can prove a serious impediment. In addition to functioning as [light or heavy undergrowth](rule/forest_terrain), brambles damage creatures that move through a space filled with them. The amount of damage taken depends on whether the brambles are light or heavy and what type of armor the creature wears. Light brambles deal 1 point of damage to a creature wearing light armor that moves into their square, while heavy brambles deal 1d4 points of damage to a creature in light armor or 1 point of damage to a creature in medium armor. Creatures in heavy armor don't take damage from brambles. A creature unwillingly forced into brambles can attempt a DC 15 Reflex save to avoid taking this damage.",
 			"",
@@ -256,11 +258,13 @@
 		]
 	},
 	"earthquake_cr_9": {
-		"name": "Earthquake (CR 9)",
+		"name": "Earthquake",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 146](source/ultimate_wilderness)",
+			"",
+			"**CR 9**",
 			"",
 			"Naturally occurring earthquakes result from seismic energy released along fault lines in a planet's crust. [Powerful magic](spell/earthquake), the release of a legendary monster, or the destruction of a powerful artifact might also result in an earthquake. Earthquakes range from those that are harmless and nearly undetectable to those that are catastrophic and cause widespread destruction and loss of life.",
 			"",
@@ -297,11 +301,13 @@
 		]
 	},
 	"elemental_influx_cr_varies": {
-		"name": "Elemental Influx (CR Varies)",
+		"name": "Elemental Influx",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 147](source/ultimate_wilderness)",
+			"",
+			"**CR Varies**",
 			"",
 			"Powerful magic, supernatural disasters, the influence of potent monsters, or the whim of a demigod can cause the boundaries between the Material Plane and an Elemental Plane to wear thin, resulting in an elemental influx that transforms normal wildlands into a dangerous region. Often, creatures such as dragons or other monsters with energy resistances or immunities seek out regions of elemental influx as their domains, and such a creature's presence can enhance or expand an existing influx.",
 			"",
@@ -336,11 +342,13 @@
 		]
 	},
 	"fording_a_river_cr_2": {
-		"name": "Fording a River (CR 2)",
+		"name": "Fording a River",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 148](source/ultimate_wilderness)",
+			"",
+			"**CR 2**",
 			"",
 			"In the wild, one cannot count on a handy bridge or access to boats when the need to cross a river arises. While magic such as fly or water walk can aid in the crossing of a river, at other times the traveler has no choice but to attempt to swim, unless the river is shallow enough to cross by wading. Fording a river in this way can be dangerous, especially when mounts or vehicles are involved.",
 			"",
@@ -381,11 +389,13 @@
 		]
 	},
 	"geothermal_spring_cr_varies": {
-		"name": "Geothermal Spring (CR Varies)",
+		"name": "Geothermal Spring",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 149](source/ultimate_wilderness)",
+			"",
+			"**CR Varies**",
 			"",
 			"Geothermal springs form where magma heats underground water to extreme temperatures. This hot water periodically erupts at the surface, collecting into pools of heated water of varying temperatures. In some cases, the resulting hot springs are relatively harmless, and communities often pop up nearby, as the therapeutic nature of the spring attracts visitors. But in some cases, geothermal springs are heated to the boiling point or hotter, or they might pose other dangers to the unwary.",
 			"",
@@ -422,11 +432,13 @@
 		]
 	},
 	"reflective_snow_cr_2": {
-		"name": "Reflective Snow (CR 2)",
+		"name": "Reflective Snow",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 149](source/ultimate_wilderness)",
+			"",
+			"**CR 2**",
 			"",
 			"Glittering fields of fresh snow can pose a danger to unprepared travelers during the daylight hours, as the sun reflecting from the fields of white can be dazzling or even blinding. Travelers through such areas risk having their eyes become sunburned-a condition known as snow blindness. A creature in an area of reflective snow is automatically dazzled, and for each hour it spends in such an area, it must succeed at a DC 15 Fortitude save or succumb to snow blindness, becoming blind for 24 hours. Wearing protective eye gear that reduces the amount of sunlight hitting the eyes negates the dazzled condition and the chance of developing snow blindness. A character can reduce the duration of snow blindness to 1d6 hours with a successful DC 20 Heal check as long as she keeps her eyes covered or wears protective eye gear. Spells such as [remove blindness/deafness](spell/remove_blindness_deafness) heal snow blindness immediately. Creatures that are particularly susceptible to bright light take a -4 penalty on saves to resist snow blindness. To a lesser extent, staring out over vast stretches of sunlit water or desert can have the same effects as staring at reflective snow, but the save to avoid blindness in this case is only DC 10."
 		],
@@ -449,11 +461,13 @@
 		]
 	},
 	"spellgorging_plants_cr_1": {
-		"name": "Spellgorging Plants (CR 1+)",
+		"name": "Spellgorging Plants",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
+			"",
+			"**CR 1+**",
 			"",
 			"Areas of wilderness devastated by magical battles sometimes regrow vegetation bearing supernatural scars of those conflicts. When the flora in such an area develops a taste for magical energy, the plants and trees display vivid and unusual colors for their type and can even subtly change color. Spellgorging plants thrive on magical energy, making the casting of spells difficult when such plants are nearby. When a creature adjacent to a spellgorging plant attempts to cast a spell or use a spell-like ability, the creature must make a successful concentration check (DC = 20 + the level of the spell) or the spell is lost as the flora absorbs the energy as it is cast. Most magic items are not affected by spellgorging plants, with the exception of spell-completion and spell-trigger items. When such an item is used, the user must attempt a caster level check against the same DC as above but using the item's caster level instead of his own, in order to successfully use the item.",
 			"",
@@ -478,11 +492,13 @@
 		]
 	},
 	"thin_ice_cr_1": {
-		"name": "Thin Ice (CR 1+)",
+		"name": "Thin Ice",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
+			"",
+			"**CR 1+**",
 			"",
 			"A frozen lake or river can prove a serious danger if characters misjudge the thickness of the ice. With a successful DC 20 Survival check, a character can accurately gauge the amount of weight a given sheet of ice can support. Table 4-7: Thin Ice lists the maximum size creature or object that can be supported by ice. (A Fine creature or object can be supported by any thickness of ice.)",
 			"",
@@ -522,11 +538,13 @@
 		]
 	},
 	"vampire_orchids_cr_3": {
-		"name": "Vampire Orchids (CR 3)",
+		"name": "Vampire Orchids",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
+			"",
+			"**CR 3**",
 			"",
 			"Uniquely beautiful in appearance, vampire orchids grow in large clusters in meadows or on hilltops where they can get plenty of sunlight. Their vivid petals range in a hue of wild and clashing colors with frequent splotches of crimson on the petals. Vampire orchids can be exceedingly dangerous to the unwary due to their unusual pollination methods. A creature traveling through a cluster of vampire orchids must attempt a DC 15 Reflex save or a DC 20 Acrobatics check. Failure causes the tremors from the creature's footsteps to release soporific pollen from the orchids' blossoms, forcing the creature to attempt a DC 15 Fortitude save to avoid falling asleep for 1 minute. A helpless or sleeping creature takes 1d4 points of damage at the end of each round it remains in contact with vampire orchids' this damage does not cause physical pain and is not in and of itself enough to wake a sleeping creature."
 		],
@@ -549,11 +567,13 @@
 		]
 	},
 	"volcano_cr_varies": {
-		"name": "Volcano (CR Varies)",
+		"name": "Volcano",
 		"subtitle": "Wilderness Hazard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 150](source/ultimate_wilderness)",
+			"",
+			"**CR Varies**",
 			"",
 			"Magma churns beneath the earth's surface throughout the world, and in places where there are weaknesses in the crust, it can erupt outward in violent conflagrations. [Volcanic dangers](rule/volcanoes) such as lava, lava bombs, poisonous gas, and pyroclastic flows are covered already, but there are additional dangers that a volcano can present.",
 			"",
@@ -3705,11 +3725,13 @@
 		]
 	},
 	"cave-ins_and_collapses_cr_8": {
-		"name": "Cave-Ins and Collapses (CR 8)",
+		"name": "Cave-Ins and Collapses",
 		"subtitle": "Dungeons, Gamemastering",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
+			"",
+			"**CR 8**",
 			"",
 			"Cave-ins and collapsing tunnels are extremely dangerous. Not only do dungeon explorers face the danger of being crushed by tons of falling rock, but even if they survive they might be buried beneath a pile of rubble or cut off from the only known exit. A cave-in buries anyone in the middle of the collapsing area, and then sliding debris damages anyone in the periphery of the collapse. A typical corridor subject to a cave-in might have a bury zone with a 15-foot radius and a 10-foot-wide slide zone extending beyond the bury zone. A weakened ceiling can be spotted with a DC 20 Knowledge (engineering) or DC 20 Craft (stonemasonry) check. Remember that Craft checks can be made untrained as Intelligence checks. A dwarf can make such a check if he simply passes within 10 feet of a weakened ceiling.",
 			"",
@@ -4669,11 +4691,13 @@
 		]
 	},
 	"forest_fires_cr_6": {
-		"name": "Forest Fires (CR 6)",
+		"name": "Forest Fires",
 		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 426](source/prpg_core_rulebook)",
+			"",
+			"**CR 6**",
 			"",
 			"Most campfire sparks ignite nothing, but if conditions are dry, winds are strong, or the forest floor is dried out and flammable, a forest fire can result. Lightning strikes often set trees ablaze and start forest fires in this way. Whatever the cause of the fire, travelers can get caught in the conflagration.",
 			"",
@@ -4859,11 +4883,13 @@
 		]
 	},
 	"avalanches_cr_7": {
-		"name": "Avalanches (CR 7)",
+		"name": "Avalanches",
 		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 429](source/prpg_core_rulebook)",
+			"",
+			"**CR 7**",
 			"",
 			"The combination of high peaks and heavy snowfalls means that avalanches are a deadly peril in many mountainous areas. While avalanches of snow and ice are common, it's also possible to have an avalanche of rock and soil.",
 			"",

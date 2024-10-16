@@ -9,7 +9,7 @@
 		]
 	},
 	"air_blast": {
-		"name": "Air Blast (Sp)",
+		"name": "Air Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -23,7 +23,7 @@
 		]
 	},
 	"cold_blast": {
-		"name": "Cold Blast (Sp)",
+		"name": "Cold Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -37,7 +37,7 @@
 		]
 	},
 	"earth_blast": {
-		"name": "Earth Blast (Sp)",
+		"name": "Earth Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -51,7 +51,7 @@
 		]
 	},
 	"electric_blast": {
-		"name": "Electric Blast (Sp)",
+		"name": "Electric Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -65,7 +65,7 @@
 		]
 	},
 	"fire_blast": {
-		"name": "Fire Blast (Sp)",
+		"name": "Fire Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -79,7 +79,7 @@
 		]
 	},
 	"gravity_blast": {
-		"name": "Gravity Blast (Sp)",
+		"name": "Gravity Blast",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -93,7 +93,7 @@
 		]
 	},
 	"negative_blast": {
-		"name": "Negative Blast (Sp)",
+		"name": "Negative Blast",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -107,7 +107,7 @@
 		]
 	},
 	"positive_blast": {
-		"name": "Positive Blast (Sp)",
+		"name": "Positive Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -124,7 +124,7 @@
 		]
 	},
 	"telekinetic_blast": {
-		"name": "Telekinetic Blast (Sp)",
+		"name": "Telekinetic Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -138,7 +138,7 @@
 		]
 	},
 	"water_blast": {
-		"name": "Water Blast (Sp)",
+		"name": "Water Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Simple Blasts", "ability/simple_kinetic_blasts"]],
 		"description": [
@@ -152,7 +152,7 @@
 		]
 	},
 	"wood_blast": {
-		"name": "Wood Blast (Sp)",
+		"name": "Wood Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -169,7 +169,7 @@
 		]
 	},
 	"aetheric_boost": {
-		"name": "Aetheric Boost (Sp)",
+		"name": "Aetheric Boost",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -184,7 +184,7 @@
 		]
 	},
 	"autumn_blast": {
-		"name": "Autumn Blast (Sp)",
+		"name": "Autumn Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -202,7 +202,7 @@
 		]
 	},
 	"blizzard_blast": {
-		"name": "Blizzard Blast (Sp)",
+		"name": "Blizzard Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -217,7 +217,7 @@
 		]
 	},
 	"blue_flame_blast": {
-		"name": "Blue Flame Blast (Sp)",
+		"name": "Blue Flame Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -232,7 +232,7 @@
 		]
 	},
 	"charged_water_blast": {
-		"name": "Charged Water Blast (Sp)",
+		"name": "Charged Water Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -247,7 +247,7 @@
 		]
 	},
 	"force_blast": {
-		"name": "Force Blast (Sp)",
+		"name": "Force Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -262,7 +262,7 @@
 		]
 	},
 	"gravitic_boost": {
-		"name": "Gravitic Boost (Sp)",
+		"name": "Gravitic Boost",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -277,7 +277,7 @@
 		]
 	},
 	"ice_blast": {
-		"name": "Ice Blast (Sp)",
+		"name": "Ice Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -292,7 +292,7 @@
 		]
 	},
 	"magma_blast": {
-		"name": "Magma Blast (Sp)",
+		"name": "Magma Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -307,7 +307,7 @@
 		]
 	},
 	"metal_blast": {
-		"name": "Metal Blast (Sp)",
+		"name": "Metal Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -322,7 +322,7 @@
 		]
 	},
 	"mud_blast": {
-		"name": "Mud Blast (Sp)",
+		"name": "Mud Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -337,7 +337,7 @@
 		]
 	},
 	"negative_admixture": {
-		"name": "Negative Admixture (Sp)",
+		"name": "Negative Admixture",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -352,7 +352,7 @@
 		]
 	},
 	"plasma_blast": {
-		"name": "Plasma Blast (Sp)",
+		"name": "Plasma Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -367,7 +367,7 @@
 		]
 	},
 	"positive_admixture": {
-		"name": "Positive Admixture (Sp)",
+		"name": "Positive Admixture",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -385,7 +385,7 @@
 		]
 	},
 	"sandstorm_blast": {
-		"name": "Sandstorm Blast (Sp)",
+		"name": "Sandstorm Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -400,7 +400,7 @@
 		]
 	},
 	"spring_blast": {
-		"name": "Spring Blast (Sp)",
+		"name": "Spring Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -418,7 +418,7 @@
 		]
 	},
 	"steam_blast": {
-		"name": "Steam Blast (Sp)",
+		"name": "Steam Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -433,7 +433,7 @@
 		]
 	},
 	"summer_blast": {
-		"name": "Summer Blast (Sp)",
+		"name": "Summer Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -451,7 +451,7 @@
 		]
 	},
 	"thunderstorm_blast": {
-		"name": "Thunderstorm Blast (Sp)",
+		"name": "Thunderstorm Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -466,7 +466,7 @@
 		]
 	},
 	"verdant_blast": {
-		"name": "Verdant Blast (Sp)",
+		"name": "Verdant Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -484,7 +484,7 @@
 		]
 	},
 	"void_blast": {
-		"name": "Void Blast (Sp)",
+		"name": "Void Blast",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Composite Blasts", "ability/composite_kinetic_blasts"]],
 		"description": [
@@ -499,7 +499,7 @@
 		]
 	},
 	"winter_blast": {
-		"name": "Winter Blast (Sp)",
+		"name": "Winter Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -517,7 +517,7 @@
 		]
 	},
 	"emptiness": {
-		"name": "Emptiness (Su)",
+		"name": "Emptiness",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Defense Wild Talents", "ability/defense_wild_talents"]],
 		"description": [
@@ -530,7 +530,7 @@
 		]
 	},
 	"enveloping_winds": {
-		"name": "Enveloping Winds (Su)",
+		"name": "Enveloping Winds",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Defense Wild Talents", "ability/defense_wild_talents"]],
 		"description": [
@@ -543,7 +543,7 @@
 		]
 	},
 	"flesh_of_stone": {
-		"name": "Flesh of Stone (Su)",
+		"name": "Flesh of Stone",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Defense Wild Talents", "ability/defense_wild_talents"]],
 		"description": [
@@ -556,7 +556,7 @@
 		]
 	},
 	"flesh_of_wood": {
-		"name": "Flesh of Wood (Su)",
+		"name": "Flesh of Wood",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -572,7 +572,7 @@
 		]
 	},
 	"force_ward": {
-		"name": "Force Ward (Su)",
+		"name": "Force Ward",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Defense Wild Talents", "ability/defense_wild_talents"]],
 		"description": [
@@ -585,7 +585,7 @@
 		]
 	},
 	"searing_flesh": {
-		"name": "Searing Flesh (Su)",
+		"name": "Searing Flesh",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Defense Wild Talents", "ability/defense_wild_talents"]],
 		"description": [
@@ -600,7 +600,7 @@
 		]
 	},
 	"shroud_of_water": {
-		"name": "Shroud of Water (Su)",
+		"name": "Shroud of Water",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Defense Wild Talents", "ability/defense_wild_talents"]],
 		"description": [
@@ -1105,7 +1105,7 @@
 		]
 	},
 	"foxfire_infusion": {
-		"name": "Foxfire Infusion (Sp)",
+		"name": "Foxfire Infusion",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -1880,7 +1880,7 @@
 		]
 	},
 	"absentia": {
-		"name": "Absentia (Sp)",
+		"name": "Absentia",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1894,7 +1894,7 @@
 		]
 	},
 	"aerial_adaptation": {
-		"name": "Aerial Adaptation (Sp)",
+		"name": "Aerial Adaptation",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1907,7 +1907,7 @@
 		]
 	},
 	"aerial_evasion": {
-		"name": "Aerial Evasion (Su)",
+		"name": "Aerial Evasion",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1921,7 +1921,7 @@
 		]
 	},
 	"aether_architect": {
-		"name": "Aether Architect (Su)",
+		"name": "Aether Architect",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1934,7 +1934,7 @@
 		]
 	},
 	"aether_puppet": {
-		"name": "Aether Puppet (Sp)",
+		"name": "Aether Puppet",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1947,7 +1947,7 @@
 		]
 	},
 	"air_cushion": {
-		"name": "Air Cushion (Sp)",
+		"name": "Air Cushion",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1960,7 +1960,7 @@
 		]
 	},
 	"air_shroud": {
-		"name": "Air Shroud (Sp)",
+		"name": "Air Shroud",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1973,7 +1973,7 @@
 		]
 	},
 	"greater_air_shroud": {
-		"name": "Air Shroud, Greater (Sp)",
+		"name": "Air Shroud, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -1987,7 +1987,7 @@
 		]
 	},
 	"air's_leap": {
-		"name": "Air's Leap (Su)",
+		"name": "Air's Leap",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2000,7 +2000,7 @@
 		]
 	},
 	"air's_reach": {
-		"name": "Air's Reach (Su)",
+		"name": "Air's Reach",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2013,7 +2013,7 @@
 		]
 	},
 	"angelic_protection": {
-		"name": "Angelic Protection (Sp)",
+		"name": "Angelic Protection",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2028,7 +2028,7 @@
 		]
 	},
 	"basic_aerokinesis": {
-		"name": "Basic Aerokinesis (Sp)",
+		"name": "Basic Aerokinesis",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2043,7 +2043,7 @@
 		]
 	},
 	"basic_chaokinesis": {
-		"name": "Basic Chaokinesis (Sp)",
+		"name": "Basic Chaokinesis",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2056,7 +2056,7 @@
 		]
 	},
 	"basic_geokinesis": {
-		"name": "Basic Geokinesis (Sp)",
+		"name": "Basic Geokinesis",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2069,7 +2069,7 @@
 		]
 	},
 	"basic_hydrokinesis": {
-		"name": "Basic Hydrokinesis (Sp)",
+		"name": "Basic Hydrokinesis",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2082,7 +2082,7 @@
 		]
 	},
 	"basic_phytokinesis": {
-		"name": "Basic Phytokinesis (Sp)",
+		"name": "Basic Phytokinesis",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2098,7 +2098,7 @@
 		]
 	},
 	"basic_pyrokinesis": {
-		"name": "Basic Pyrokinesis (Sp)",
+		"name": "Basic Pyrokinesis",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2111,7 +2111,7 @@
 		]
 	},
 	"basic_telekinesis": {
-		"name": "Basic Telekinesis (Sp)",
+		"name": "Basic Telekinesis",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2124,7 +2124,7 @@
 		]
 	},
 	"body_of_air": {
-		"name": "Body of Air (Sp)",
+		"name": "Body of Air",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2137,7 +2137,7 @@
 		]
 	},
 	"brachiation": {
-		"name": "Brachiation (Su)",
+		"name": "Brachiation",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2153,7 +2153,7 @@
 		]
 	},
 	"celerity": {
-		"name": "Celerity (Sp)",
+		"name": "Celerity",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2166,7 +2166,7 @@
 		]
 	},
 	"clockwork_heart": {
-		"name": "Clockwork Heart (Su)",
+		"name": "Clockwork Heart",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2180,7 +2180,7 @@
 		]
 	},
 	"clockwork_puppet": {
-		"name": "Clockwork Puppet (Su)",
+		"name": "Clockwork Puppet",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2194,7 +2194,7 @@
 		]
 	},
 	"cold_adaptation": {
-		"name": "Cold Adaptation (Sp)",
+		"name": "Cold Adaptation",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2207,7 +2207,7 @@
 		]
 	},
 	"cold_snap": {
-		"name": "Cold Snap (Sp)",
+		"name": "Cold Snap",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2221,7 +2221,7 @@
 		]
 	},
 	"corpse_puppet": {
-		"name": "Corpse Puppet (Sp)",
+		"name": "Corpse Puppet",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2234,7 +2234,7 @@
 		]
 	},
 	"cryokinetic_stasis": {
-		"name": "Cryokinetic Stasis (Sp)",
+		"name": "Cryokinetic Stasis",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2247,7 +2247,7 @@
 		]
 	},
 	"curse_breaker": {
-		"name": "Curse Breaker (Sp)",
+		"name": "Curse Breaker",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2261,7 +2261,7 @@
 		]
 	},
 	"earth_child": {
-		"name": "Earth Child (Su)",
+		"name": "Earth Child",
 		"sources": [ "Occult Realms" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2278,7 +2278,7 @@
 		]
 	},
 	"earth_climb": {
-		"name": "Earth Climb (Su)",
+		"name": "Earth Climb",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2291,7 +2291,7 @@
 		]
 	},
 	"earth_glide": {
-		"name": "Earth Glide (Su)",
+		"name": "Earth Glide",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2305,7 +2305,7 @@
 		]
 	},
 	"earth_tongue": {
-		"name": "Earth Tongue (Sp)",
+		"name": "Earth Tongue",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2319,7 +2319,7 @@
 		]
 	},
 	"earth_walk": {
-		"name": "Earth Walk (Su)",
+		"name": "Earth Walk",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2332,7 +2332,7 @@
 		]
 	},
 	"earthmeld": {
-		"name": "Earthmeld (Sp)",
+		"name": "Earthmeld",
 		"sources": [ "Ultimate Intrigue" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2346,7 +2346,7 @@
 		]
 	},
 	"elemental_exile": {
-		"name": "Elemental Exile (Sp)",
+		"name": "Elemental Exile",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2360,7 +2360,7 @@
 		]
 	},
 	"elemental_grip": {
-		"name": "Elemental Grip (Sp)",
+		"name": "Elemental Grip",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2374,7 +2374,7 @@
 		]
 	},
 	"elemental_transmission": {
-		"name": "Elemental Transmission (Sp)",
+		"name": "Elemental Transmission",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2388,7 +2388,7 @@
 		]
 	},
 	"elemental_whispers": {
-		"name": "Elemental Whispers (Su)",
+		"name": "Elemental Whispers",
 		"sources": [ "Horror Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2401,7 +2401,7 @@
 		]
 	},
 	"greater_elemental_whispers": {
-		"name": "Elemental Whispers, Greater (Su)",
+		"name": "Elemental Whispers, Greater",
 		"sources": [ "Horror Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2415,7 +2415,7 @@
 		]
 	},
 	"enduring_earth": {
-		"name": "Enduring Earth (Su)",
+		"name": "Enduring Earth",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2428,7 +2428,7 @@
 		]
 	},
 	"engulfing_winds": {
-		"name": "Engulfing Winds (Sp)",
+		"name": "Engulfing Winds",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2441,7 +2441,7 @@
 		]
 	},
 	"expanded_defense": {
-		"name": "Expanded Defense (Su)",
+		"name": "Expanded Defense",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2454,7 +2454,7 @@
 		]
 	},
 	"eyes_of_the_void": {
-		"name": "Eyes of the Void (Su)",
+		"name": "Eyes of the Void",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2467,7 +2467,7 @@
 		]
 	},
 	"greater_eyes_of_the_void": {
-		"name": "Eyes of the Void, Greater (Su)",
+		"name": "Eyes of the Void, Greater",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2481,7 +2481,7 @@
 		]
 	},
 	"fire_corridor": {
-		"name": "Fire Corridor (Sp)",
+		"name": "Fire Corridor",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2494,7 +2494,7 @@
 		]
 	},
 	"fire_sculptor": {
-		"name": "Fire Sculptor (Sp)",
+		"name": "Fire Sculptor",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2507,7 +2507,7 @@
 		]
 	},
 	"fire_steed": {
-		"name": "Fire Steed (Sp)",
+		"name": "Fire Steed",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2520,7 +2520,7 @@
 		]
 	},
 	"fire's_fury": {
-		"name": "Fire's Fury (Su)",
+		"name": "Fire's Fury",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2533,7 +2533,7 @@
 		]
 	},
 	"firesight": {
-		"name": "Firesight (Su)",
+		"name": "Firesight",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2546,7 +2546,7 @@
 		]
 	},
 	"flame_jet": {
-		"name": "Flame Jet (Sp)",
+		"name": "Flame Jet",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2559,7 +2559,7 @@
 		]
 	},
 	"greater_flame_jet": {
-		"name": "Flame Jet, Greater (Sp)",
+		"name": "Flame Jet, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2573,7 +2573,7 @@
 		]
 	},
 	"flame_shield": {
-		"name": "Flame Shield (Sp)",
+		"name": "Flame Shield",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2587,7 +2587,7 @@
 		]
 	},
 	"flame_trap": {
-		"name": "Flame Trap (Sp)",
+		"name": "Flame Trap",
 		"sources": [ "Ultimate Intrigue" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2600,7 +2600,7 @@
 		]
 	},
 	"force_barrier": {
-		"name": "Force Barrier (Sp)",
+		"name": "Force Barrier",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2614,7 +2614,7 @@
 		]
 	},
 	"forest_siege": {
-		"name": "Forest Siege (Sp)",
+		"name": "Forest Siege",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2630,7 +2630,7 @@
 		]
 	},
 	"foxfire": {
-		"name": "Foxfire (Sp)",
+		"name": "Foxfire",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -2648,7 +2648,7 @@
 		]
 	},
 	"from_the_ashes": {
-		"name": "From the Ashes (Sp)",
+		"name": "From the Ashes",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2661,7 +2661,7 @@
 		]
 	},
 	"gravity_control": {
-		"name": "Gravity Control (Sp)",
+		"name": "Gravity Control",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2674,7 +2674,7 @@
 		]
 	},
 	"greater_gravity_control": {
-		"name": "Gravity Control, Greater (Sp)",
+		"name": "Gravity Control, Greater",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2688,7 +2688,7 @@
 		]
 	},
 	"gravity_master": {
-		"name": "Gravity Master (Sp)",
+		"name": "Gravity Master",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2702,7 +2702,7 @@
 		]
 	},
 	"greater_fire_steed": {
-		"name": "Greater Fire Steed (Sp)",
+		"name": "Greater Fire Steed",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2716,7 +2716,7 @@
 		]
 	},
 	"green_tongue": {
-		"name": "Green Tongue (Su)",
+		"name": "Green Tongue",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2732,7 +2732,7 @@
 		]
 	},
 	"greater_green_tongue": {
-		"name": "Green Tongue, Greater (Su)",
+		"name": "Green Tongue, Greater",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -2749,7 +2749,7 @@
 		]
 	},
 	"greensight": {
-		"name": "Greensight (Su)",
+		"name": "Greensight",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2765,7 +2765,7 @@
 		]
 	},
 	"healing_burst": {
-		"name": "Healing Burst (Sp)",
+		"name": "Healing Burst",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -2783,7 +2783,7 @@
 		]
 	},
 	"heat_adaptation": {
-		"name": "Heat Adaptation (Sp)",
+		"name": "Heat Adaptation",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2796,7 +2796,7 @@
 		]
 	},
 	"heat_wave": {
-		"name": "Heat Wave (Sp)",
+		"name": "Heat Wave",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2810,7 +2810,7 @@
 		]
 	},
 	"herbal_antivenom": {
-		"name": "Herbal Antivenom (Sp)",
+		"name": "Herbal Antivenom",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -2826,7 +2826,7 @@
 		]
 	},
 	"hurricane_queen": {
-		"name": "Hurricane Queen (Su)",
+		"name": "Hurricane Queen",
 		"sources": [ "Occult Realms" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2843,7 +2843,7 @@
 		]
 	},
 	"ice_path": {
-		"name": "Ice Path (Su)",
+		"name": "Ice Path",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2857,7 +2857,7 @@
 		]
 	},
 	"ice_sculptor": {
-		"name": "Ice Sculptor (Sp)",
+		"name": "Ice Sculptor",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2870,7 +2870,7 @@
 		]
 	},
 	"icewalker": {
-		"name": "Icewalker (Su)",
+		"name": "Icewalker",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2883,7 +2883,7 @@
 		]
 	},
 	"improved_fire_steed": {
-		"name": "Improved Fire Steed (Sp)",
+		"name": "Improved Fire Steed",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2897,7 +2897,7 @@
 		]
 	},
 	"infernal_bargain": {
-		"name": "Infernal Bargain (Sp)",
+		"name": "Infernal Bargain",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2912,7 +2912,7 @@
 		]
 	},
 	"jagged_flesh": {
-		"name": "Jagged Flesh (Sp)",
+		"name": "Jagged Flesh",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2926,7 +2926,7 @@
 		]
 	},
 	"kinetic_awe": {
-		"name": "Kinetic Awe (Su)",
+		"name": "Kinetic Awe",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2939,7 +2939,7 @@
 		]
 	},
 	"kinetic_cover": {
-		"name": "Kinetic Cover (Sp)",
+		"name": "Kinetic Cover",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2952,7 +2952,7 @@
 		]
 	},
 	"kinetic_dissolution": {
-		"name": "Kinetic Dissolution (Su)",
+		"name": "Kinetic Dissolution",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2966,7 +2966,7 @@
 		]
 	},
 	"kinetic_form": {
-		"name": "Kinetic Form (Sp)",
+		"name": "Kinetic Form",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2979,7 +2979,7 @@
 		]
 	},
 	"kinetic_healer": {
-		"name": "Kinetic Healer (Sp)",
+		"name": "Kinetic Healer",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -2993,7 +2993,7 @@
 		]
 	},
 	"kinetic_restoration": {
-		"name": "Kinetic Restoration (Su)",
+		"name": "Kinetic Restoration",
 		"sources": [ "Healer's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3008,7 +3008,7 @@
 		]
 	},
 	"kinetic_revivification": {
-		"name": "Kinetic Revivification (Su)",
+		"name": "Kinetic Revivification",
 		"sources": [ "Healer's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3024,7 +3024,7 @@
 		]
 	},
 	"living_capacitor": {
-		"name": "Living Capacitor (Sp)",
+		"name": "Living Capacitor",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3037,7 +3037,7 @@
 		]
 	},
 	"magnetism": {
-		"name": "Magnetism (Sp)",
+		"name": "Magnetism",
 		"sources": [ "Elemental Master's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3052,7 +3052,7 @@
 		]
 	},
 	"greater_magnetism": {
-		"name": "Magnetism, Greater (Sp)",
+		"name": "Magnetism, Greater",
 		"sources": [ "Elemental Master's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3067,7 +3067,7 @@
 		]
 	},
 	"merciful_foliage": {
-		"name": "Merciful Foliage (Su)",
+		"name": "Merciful Foliage",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3083,7 +3083,7 @@
 		]
 	},
 	"mesmerizing_elementalist": {
-		"name": "Mesmerizing Elementalist (Su)",
+		"name": "Mesmerizing Elementalist",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3097,7 +3097,7 @@
 		]
 	},
 	"nine-tailed_kineticist": {
-		"name": "Nine-Tailed Kineticist (Su)",
+		"name": "Nine-Tailed Kineticist",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3111,7 +3111,7 @@
 		]
 	},
 	"no_breath": {
-		"name": "No Breath (Su)",
+		"name": "No Breath",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3125,7 +3125,7 @@
 		]
 	},
 	"past_life_evoker": {
-		"name": "Past Life Evoker (Su)",
+		"name": "Past Life Evoker",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3139,7 +3139,7 @@
 		]
 	},
 	"pillar": {
-		"name": "Pillar (Sp)",
+		"name": "Pillar",
 		"sources": [ "Elemental Master's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3157,7 +3157,7 @@
 		]
 	},
 	"plant_disguise": {
-		"name": "Plant Disguise (Sp)",
+		"name": "Plant Disguise",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3173,7 +3173,7 @@
 		]
 	},
 	"plant_puppet": {
-		"name": "Plant Puppet (Sp)",
+		"name": "Plant Puppet",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3189,7 +3189,7 @@
 		]
 	},
 	"primal_aether": {
-		"name": "Primal Aether (Su)",
+		"name": "Primal Aether",
 		"sources": [ "Occult Realms" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3206,7 +3206,7 @@
 		]
 	},
 	"purging_flame": {
-		"name": "Purging Flame (Sp)",
+		"name": "Purging Flame",
 		"sources": [ "Occult Realms" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3223,7 +3223,7 @@
 		]
 	},
 	"purifying_flames": {
-		"name": "Purifying Flames (Sp)",
+		"name": "Purifying Flames",
 		"sources": [ "Wilderness Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3236,7 +3236,7 @@
 		]
 	},
 	"reverse_shift": {
-		"name": "Reverse Shift (Sp)",
+		"name": "Reverse Shift",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3249,7 +3249,7 @@
 		]
 	},
 	"ride_the_blast": {
-		"name": "Ride the Blast (Sp)",
+		"name": "Ride the Blast",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3262,7 +3262,7 @@
 		]
 	},
 	"roots": {
-		"name": "Roots (Su)",
+		"name": "Roots",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3278,7 +3278,7 @@
 		]
 	},
 	"searing_flame": {
-		"name": "Searing Flame (Su)",
+		"name": "Searing Flame",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3292,7 +3292,7 @@
 		]
 	},
 	"seismic_master": {
-		"name": "Seismic Master (Sp)",
+		"name": "Seismic Master",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3305,7 +3305,7 @@
 		]
 	},
 	"self_telekinesis": {
-		"name": "Self Telekinesis (Sp)",
+		"name": "Self Telekinesis",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3318,7 +3318,7 @@
 		]
 	},
 	"greater_self_telekinesis": {
-		"name": "Self Telekinesis, Greater (Sp)",
+		"name": "Self Telekinesis, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3332,7 +3332,7 @@
 		]
 	},
 	"shape_wood": {
-		"name": "Shape Wood (Sp)",
+		"name": "Shape Wood",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3348,7 +3348,7 @@
 		]
 	},
 	"shift_earth": {
-		"name": "Shift Earth (Sp)",
+		"name": "Shift Earth",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3363,7 +3363,7 @@
 		]
 	},
 	"greater_shift_earth": {
-		"name": "Shift Earth, Greater (Sp)",
+		"name": "Shift Earth, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3377,7 +3377,7 @@
 		]
 	},
 	"shimmering_mirage": {
-		"name": "Shimmering Mirage (Sp)",
+		"name": "Shimmering Mirage",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3391,7 +3391,7 @@
 		]
 	},
 	"skilled_kineticist": {
-		"name": "Skilled Kineticist (Su)",
+		"name": "Skilled Kineticist",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3404,7 +3404,7 @@
 		]
 	},
 	"greater_skilled_kineticist": {
-		"name": "Skilled Kineticist, Greater (Su)",
+		"name": "Skilled Kineticist, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3418,7 +3418,7 @@
 		]
 	},
 	"sky_walk": {
-		"name": "Sky Walk (Su)",
+		"name": "Sky Walk",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3432,7 +3432,7 @@
 		]
 	},
 	"slick": {
-		"name": "Slick (Sp)",
+		"name": "Slick",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3446,7 +3446,7 @@
 		]
 	},
 	"smoke_storm": {
-		"name": "Smoke Storm (Sp)",
+		"name": "Smoke Storm",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3460,7 +3460,7 @@
 		]
 	},
 	"spark_of_innovation": {
-		"name": "Spark of Innovation (Sp)",
+		"name": "Spark of Innovation",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3474,7 +3474,7 @@
 		]
 	},
 	"spark_of_life": {
-		"name": "Spark of Life (Sp)",
+		"name": "Spark of Life",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3487,7 +3487,7 @@
 		]
 	},
 	"spell_deflection": {
-		"name": "Spell Deflection (Sp)",
+		"name": "Spell Deflection",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3500,7 +3500,7 @@
 		]
 	},
 	"splash_of_the_styx": {
-		"name": "Splash of the Styx (Sp)",
+		"name": "Splash of the Styx",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3515,7 +3515,7 @@
 		]
 	},
 	"spying_touchsight": {
-		"name": "Spying Touchsight (Sp)",
+		"name": "Spying Touchsight",
 		"sources": [ "Ultimate Intrigue" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3529,7 +3529,7 @@
 		]
 	},
 	"stone_sculptor": {
-		"name": "Stone Sculptor (Sp)",
+		"name": "Stone Sculptor",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3542,7 +3542,7 @@
 		]
 	},
 	"suffocate": {
-		"name": "Suffocate (Sp)",
+		"name": "Suffocate",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3556,7 +3556,7 @@
 		]
 	},
 	"telekinetic_deflection": {
-		"name": "Telekinetic Deflection (Sp)",
+		"name": "Telekinetic Deflection",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3569,7 +3569,7 @@
 		]
 	},
 	"telekinetic_finesse": {
-		"name": "Telekinetic Finesse (Sp)",
+		"name": "Telekinetic Finesse",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3582,7 +3582,7 @@
 		]
 	},
 	"telekinetic_globe": {
-		"name": "Telekinetic Globe (Sp)",
+		"name": "Telekinetic Globe",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3596,7 +3596,7 @@
 		]
 	},
 	"telekinetic_haul": {
-		"name": "Telekinetic Haul (Sp)",
+		"name": "Telekinetic Haul",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3610,7 +3610,7 @@
 		]
 	},
 	"telekinetic_invisibility": {
-		"name": "Telekinetic Invisibility (Sp)",
+		"name": "Telekinetic Invisibility",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3623,7 +3623,7 @@
 		]
 	},
 	"telekinetic_maneuvers": {
-		"name": "Telekinetic Maneuvers (Sp)",
+		"name": "Telekinetic Maneuvers",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3637,7 +3637,7 @@
 		]
 	},
 	"tengu_blade_lore": {
-		"name": "Tengu Blade Lore (Su)",
+		"name": "Tengu Blade Lore",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3651,7 +3651,7 @@
 		]
 	},
 	"thorn_flesh": {
-		"name": "Thorn Flesh (Sp)",
+		"name": "Thorn Flesh",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3668,7 +3668,7 @@
 		]
 	},
 	"tidal_wave": {
-		"name": "Tidal Wave (Sp)",
+		"name": "Tidal Wave",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3681,7 +3681,7 @@
 		]
 	},
 	"touchsight": {
-		"name": "Touchsight (Su)",
+		"name": "Touchsight",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3694,7 +3694,7 @@
 		]
 	},
 	"reactive_touchsight": {
-		"name": "Touchsight, Reactive (Su)",
+		"name": "Touchsight, Reactive",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3708,7 +3708,7 @@
 		]
 	},
 	"trail_of_flames": {
-		"name": "Trail of Flames (Sp)",
+		"name": "Trail of Flames",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3722,7 +3722,7 @@
 		]
 	},
 	"tree_step": {
-		"name": "Tree Step (Sp)",
+		"name": "Tree Step",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -3739,7 +3739,7 @@
 		]
 	},
 	"tremorsense": {
-		"name": "Tremorsense (Su)",
+		"name": "Tremorsense",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3752,7 +3752,7 @@
 		]
 	},
 	"greater_tremorsense": {
-		"name": "Tremorsense, Greater (Su)",
+		"name": "Tremorsense, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3766,7 +3766,7 @@
 		]
 	},
 	"undead_grip": {
-		"name": "Undead Grip (Sp)",
+		"name": "Undead Grip",
 		"sources": [ "Psychic Anthology" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3780,7 +3780,7 @@
 		]
 	},
 	"veil_of_mists": {
-		"name": "Veil of Mists (Su)",
+		"name": "Veil of Mists",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3793,7 +3793,7 @@
 		]
 	},
 	"venom_speaker": {
-		"name": "Venom Speaker (Su)",
+		"name": "Venom Speaker",
 		"sources": [ "Heroes of Golarion" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3806,7 +3806,7 @@
 		]
 	},
 	"voice_of_the_wind": {
-		"name": "Voice of the Wind (Sp)",
+		"name": "Voice of the Wind",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3820,7 +3820,7 @@
 		]
 	},
 	"greater_voice_of_the_wind": {
-		"name": "Voice of the Wind, Greater (Sp)",
+		"name": "Voice of the Wind, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3834,7 +3834,7 @@
 		]
 	},
 	"void_healer": {
-		"name": "Void Healer (Sp)",
+		"name": "Void Healer",
 		"sources": [ "Occult Origins" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3847,7 +3847,7 @@
 		]
 	},
 	"warp_wood": {
-		"name": "Warp Wood (Sp)",
+		"name": "Warp Wood",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3863,7 +3863,7 @@
 		]
 	},
 	"water_alteration": {
-		"name": "Water Alteration (Sp)",
+		"name": "Water Alteration",
 		"sources": [ "Occult Realms" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3880,7 +3880,7 @@
 		]
 	},
 	"water_manipulator": {
-		"name": "Water Manipulator (Sp)",
+		"name": "Water Manipulator",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3895,7 +3895,7 @@
 		]
 	},
 	"waterdancer": {
-		"name": "Waterdancer (Sp)",
+		"name": "Waterdancer",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3908,7 +3908,7 @@
 		]
 	},
 	"greater_waterdancer": {
-		"name": "Waterdancer, Greater (Su)",
+		"name": "Waterdancer, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3922,7 +3922,7 @@
 		]
 	},
 	"watersense": {
-		"name": "Watersense (Su)",
+		"name": "Watersense",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3935,7 +3935,7 @@
 		]
 	},
 	"greater_watersense": {
-		"name": "Watersense, Greater (Su)",
+		"name": "Watersense, Greater",
 		"sources": [ "Ultimate Intrigue" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3949,7 +3949,7 @@
 		]
 	},
 	"weather_master": {
-		"name": "Weather Master (Sp)",
+		"name": "Weather Master",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3962,7 +3962,7 @@
 		]
 	},
 	"wild_growth": {
-		"name": "Wild Growth (Sp)",
+		"name": "Wild Growth",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3978,7 +3978,7 @@
 		]
 	},
 	"wind_manipulator": {
-		"name": "Wind Manipulator (Sp)",
+		"name": "Wind Manipulator",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -3992,7 +3992,7 @@
 		]
 	},
 	"windsight": {
-		"name": "Windsight (Su)",
+		"name": "Windsight",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -4005,7 +4005,7 @@
 		]
 	},
 	"greater_windsight": {
-		"name": "Windsight, Greater (Su)",
+		"name": "Windsight, Greater",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -4019,7 +4019,7 @@
 		]
 	},
 	"wings_of_air": {
-		"name": "Wings of Air (Sp)",
+		"name": "Wings of Air",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
 		"description": [
@@ -4033,7 +4033,7 @@
 		]
 	},
 	"wood_healer": {
-		"name": "Wood Healer (Sp)",
+		"name": "Wood Healer",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -4051,7 +4051,7 @@
 		]
 	},
 	"wood_soldiers": {
-		"name": "Wood Soldiers (Su)",
+		"name": "Wood Soldiers",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4067,7 +4067,7 @@
 		]
 	},
 	"woodland_step": {
-		"name": "Woodland Step (Su)",
+		"name": "Woodland Step",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4083,7 +4083,7 @@
 		]
 	},
 	"greater_woodland_step": {
-		"name": "Woodland Step, Greater (Sp)",
+		"name": "Woodland Step, Greater",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"

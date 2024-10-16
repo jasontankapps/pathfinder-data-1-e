@@ -5380,9 +5380,9 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
 			"",
-			"When beginning work on a setting, it's useful to start with a concise description of your idea-a mission statement of sorts. Try to keep to the essentials. If the setting is derivative of something else, don't be afraid to note that. Every artist pulls inspiration from existing work, and this is just a starting point-by the time you're done, your setting will likely have evolved into something completely different. Moreover, if you try too hard to make a setting unlike anything your players have ever seen before, it might leave them confused and disconnected-having to confront a 60-page synopsis just to be able to create a character gives players a major incentive to go play something else. Drawing from the real world or fictional universes familiar to your players gives them an easy entry point, and when a player can visualize the world you're presenting, it's easier for him to get caught up in it. This initial premise is also a good place to note any fundamental rules you intend to follow, such as a lack of intelligent non-humanoids or a quirk in the way magic works. Your entire concept might be something as simple as \"an alternate history Europe, but with a Viking empire bigger than Rome's.\"",
+			"When beginning work on a setting, it's useful to start with a concise description of your idea - a mission statement of sorts. Try to keep to the essentials. If the setting is derivative of something else, don't be afraid to note that. Every artist pulls inspiration from existing work, and this is just a starting point - by the time you're done, your setting will likely have evolved into something completely different. Moreover, if you try too hard to make a setting unlike anything your players have ever seen before, it might leave them confused and disconnected; having to confront a 60-page synopsis just to be able to create a character gives players a major incentive to go play something else. Drawing from the real world or fictional universes familiar to your players gives them an easy entry point, and when a player can visualize the world you're presenting, it's easier for him to get caught up in it. This initial premise is also a good place to note any fundamental rules you intend to follow, such as a lack of intelligent non-humanoids or a quirk in the way magic works. Your entire concept might be something as simple as \"an alternate history Europe, but with a Viking empire bigger than Rome's.\"",
 			"",
-			"When working on this setting definition, remember that a setting is not a world. Focus your attention on where you expect to spend most of your time in the campaign. Later on, you can always expand outward-this is often known as the \"bullseye\" method-and leaving blank space around the edges of the map creates a sense of mystery key to exploration.",
+			"When working on this setting definition, remember that a setting is not a world. Focus your attention on where you expect to spend most of your time in the campaign. Later on, you can always expand outward - this is often known as the \"bullseye\" method - and leaving blank space around the edges of the map creates a sense of mystery key to exploration.",
 			"",
 			"More than establishing any concrete facts, your fundamental concept for your setting needs to capture what makes it special and different from other settings. Try to answer questions like the following: What is the single most defining aspect of this setting? What is the one-sentence hook that would make players want to play in it, and what aspect are you most excited to work on? It also helps to write down what type of game you're hoping to run. Is it a swashbuckling sword and sorcery adventure? Complex political intrigue? Wild magic in the wilderness? A good setting should encompass and facilitate multiple types of play, but defining the game you want to run can steer you toward setting choices that compliment it."
 		],
@@ -5405,7 +5405,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
 			"",
-			"Every GM has his own preferred method of world creation. For some, this process starts and ends with pen and paper, in which case it's often useful to have graph paper to help judge scale and create miniatures-ready maps, or a small notebook to carry around and record ideas as inspiration strikes. Yet not even those are necessary-part of the beauty of pen-and-paper RPGs lies in the freedom from material components.",
+			"Every GM has his own preferred method of world creation. For some, this process starts and ends with pen and paper, in which case it's often useful to have graph paper to help judge scale and create miniatures-ready maps, or a small notebook to carry around and record ideas as inspiration strikes. Yet not even those are necessary - part of the beauty of pen-and-paper RPGs lies in the freedom from material components.",
 			"",
 			"For some GMs, technology can be a huge asset in world design. Programs such as dungeon-building and mapping software, name generators, and the like can be found for sale or for free on the Internet, and spreadsheets and wikis can be invaluable when keeping track of important names, dates, and other world details. More importantly, the Internet offers convenient access to a wealth of information and inspiration, such as online encyclopedias, atlases, and more. It's the rare fantastical concept that hasn't already been dreamed up or carried out by some real-world historical culture, and cribbing off real-world maps can be a godsend when you're new to mapping or strapped for time. If you don't have computer access, a local library can fulfill most of the same functions.",
 			"",
@@ -5430,13 +5430,15 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
 			"",
-			"Even if you decide to take a broad-strokes approach to campaign design, eventually you'll need to get down and gritty and start creating an environment on the level at which your PCs will interact with it. Likely the best place to start is the major city or town closest to your campaign's focus-as with every aspect of building a setting, how much work you spend on a location should be commensurate with how likely players are to spend time there, and it's nice for both the GM and PCs to have a base of operations. Along with the natural lures of healing, buying gear, and selling loot, you can use memorable characters like mentors or patrons and favored restaurants and taverns to help make the city feel like home. (These details also raise the stakes significantly if you later threaten the city's existence - it always helps if the PCs have some sentimental attachments to give them a personal stake in a region's defense.) Bear in mind that players are fickle and may become attached to unexpected people or entirely ignore characters you expected to become linchpins. Don't be afraid to roll with the punches if they prefer the halfling pickpocket to your paladin laden with adventure hooks. In fact, it's often best to wait until you see where player characters focus before fully exploring any particular NPC.",
+			"Even if you decide to take a broad-strokes approach to campaign design, eventually you'll need to get down and gritty and start creating an environment on the level at which your PCs will interact with it. Likely the best place to start is the major city or town closest to your campaign's focus; as with every aspect of building a setting, how much work you spend on a location should be commensurate with how likely players are to spend time there, and it's nice for both the GM and PCs to have a base of operations.",
+			"",
+			"Along with the natural lures of healing, buying gear, and selling loot, you can use memorable characters like mentors or patrons and favored restaurants and taverns to help make the city feel like home. (These details also raise the stakes significantly if you later threaten the city's existence - it always helps if the PCs have some sentimental attachments to give them a personal stake in a region's defense.) Bear in mind that players are fickle and may become attached to unexpected people or entirely ignore characters you expected to become linchpins. Don't be afraid to roll with the punches if they prefer the halfling pickpocket to your paladin laden with adventure hooks. In fact, it's often best to wait until you see where player characters focus before fully exploring any particular NPC.",
 			"",
 			"Creating a city can follow a pattern similar to that used when creating nations. Start with the natural geography and the locations of the borders and the most important elements, which are likely inherently tied together (see [Geography](rule/geography) for further information on how geography informs a city or nation's layout). From there, work out the government, cultural institutions, economy, and so on. Try working on your city both from the top and bottom, letting the middle shape itself out as you go. For example, while you should know who the highest potentates in the city are, unless your players will be interacting with them immediately, it's probably best to put this aside and spend more time on the level of the common people, the streets where most people live and work.",
 			"",
-			"If you're just starting a campaign, this city may be the best place for you to introduce the underlying themes of your setting. Figure out how to immerse your players in it-how can these themes play out in the first session? How can their early interactions foreshadow and set them up for their coming adventures?",
+			"If you're just starting a campaign, this city may be the best place for you to introduce the underlying themes of your setting. Figure out how to immerse your players in it: how can these themes play out in the first session? How can their early interactions foreshadow and set them up for their coming adventures?",
 			"",
-			"Once you've got the big picture for your city, it's time to start filling in details. Don't panic! A city has a lot of space to fill, but you don't need to know what every dot on your map is. Create a number of colorful locations, characters, and connected plot threads-but don't pin them down. Remember, you only have to detail as much of the city as your characters can interact with. If your characters head east from the town square looking for an inn, give them a few choices. If they instead head west-give them the same choices, but turn that waterfront bar into the best inn on the hilltop. If you want them to run into a certain character, they can do so whether they head to the market or the boatyard. While such tactics might feel like \"cheating\" to some GMs, roleplaying has an element of solipsism to it, and if your players never experience a given location, it effectively doesn't exist. Change names and ad-lib where you need to-in this manner, you can populate an entire city with just a handful of businesses and characters, and ensure that your favorite creations (whether NPCs or adventure hooks) get the airtime they deserve.",
+			"Once you've got the big picture for your city, it's time to start filling in details. Don't panic! A city has a lot of space to fill, but you don't need to know what every dot on your map is. Create a number of colorful locations, characters, and connected plot threads - but don't pin them down. Remember, you only have to detail as much of the city as your characters can interact with. If your characters head east from the town square looking for an inn, give them a few choices. If they instead head west, give them the same choices, but turn that waterfront bar into the best inn on the hilltop. If you want them to run into a certain character, they can do so whether they head to the market or the boatyard. While such tactics might feel like \"cheating\" to some GMs, roleplaying has an element of solipsism to it, and if your players never experience a given location, it effectively doesn't exist. Change names and ad-lib where you need to; in this manner, you can populate an entire city with just a handful of businesses and characters, and ensure that your favorite creations (whether NPCs or adventure hooks) get the airtime they deserve.",
 			"",
 			"For more information on building cities, as well as important questions to consider, see [The Cosmopolitcan Society](rule/the_cosmopolitan_society)."
 		],
@@ -5494,7 +5496,7 @@
 			"",
 			"First things first: What do the heroes do in this new world of yours? The first thing players do when you start a new campaign is create characters, so it's a good idea to think first about what the heroes of your world need to know.",
 			"",
-			"Look over the character generation rules of the Pathfinder Roleplaying Game Core Rulebook and see what jumps out at you. What do fighters fight? What principles do paladins champion? Who do clerics pray to? Where do rogues do their sneaking around? It may seem strange to think of these things first, but consider this-your players are probably going to start thinking about what characters they want to play long before they ask you about the coins in the Empire of Fulbar, or even if there is an Empire of Fulbar.",
+			"Look over the character generation rules and see what jumps out at you. What do fighters fight? What principles do paladins champion? Who do clerics pray to? Where do rogues do their sneaking around? It may seem strange to think of these things first, but consider this: your players are probably going to start thinking about what characters they want to play long before they ask you about the coins in the Empire of Fulbar, or even if there is an Empire of Fulbar.",
 			"",
 			"The questions don't stop at character generation, either. What sorts of adventures are the new heroes going to go on? What are they going to run into? What can they do with all that loot? Even in an established campaign setting, looking ahead to the middle and higher levels of play can help iron out potential wrinkles before they start.",
 			"",
@@ -5569,7 +5571,7 @@
 			"",
 			"### Who has the biggest army?",
 			"",
-			"As a follow-up to the last question, who controls the military? Is there a standing army, or does the government send out calls to militias (or bands of brave adventurers)? Is there a legendary troupe of knights that leads the army into battle, or is the army made up entirely of clockwork soldiers? Deciding what the military looks like and who controls it not only gives your players somebody to fear, hate, or respect, but also seeds your campaign with hooks for higher-level play-as the heroes get sufficiently experienced, they might acquire armies of their own.",
+			"As a follow-up to the last question, who controls the military? Is there a standing army, or does the government send out calls to militias (or bands of brave adventurers)? Is there a legendary troupe of knights that leads the army into battle, or is the army made up entirely of clockwork soldiers? Deciding what the military looks like and who controls it not only gives your players somebody to fear, hate, or respect, but also seeds your campaign with hooks for higher-level play; as the heroes get sufficiently experienced, they might acquire armies of their own.",
 			"",
 			"### Who has the most money and power?",
 			"",
@@ -5581,7 +5583,7 @@
 			"",
 			"### How hard do poor people have it?",
 			"",
-			"Nothing produces a cunning and ruthless population of scum and villainy-or heroic rogues and swashbucklers-like an impoverished background. How do the lower classes live? Is there any oppressed or subjugated minority or group that the average townsfolk look down on? The presence of multiple races, for instance, or a division of magical haves and have-nots, often suggests tiers of wealth or poverty. What if the elves were poor and orcs were their cruel masters? What about the other way around?",
+			"Nothing produces a cunning and ruthless population of scum and villainy - or heroic rogues and swashbucklers - like an impoverished background. How do the lower classes live? Is there any oppressed or subjugated minority or group that the average townsfolk look down on? The presence of multiple races, for instance, or a division of magical haves and have-nots, often suggests tiers of wealth or poverty. What if the elves were poor and orcs were their cruel masters? What about the other way around?",
 			"",
 			"As in our own world, wealth is the chief producer of societal friction, and the way it moves through your society can inform everything from social norms and values to crime and military engagements, as well as provide unlimited seeds for adventure.",
 			"",
@@ -5624,7 +5626,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 144](source/gamemastery_guide)",
 			"",
-			"Now we come to the information that perhaps only a sage would need to know, but which forms the underpinning of your world's physics-and metaphysics. Such details include how the world was formed, how magic works, and where dead heroes go when they fall in battle; many are fleshed out further starting [here](rule/technology_2).",
+			"Now we come to the information that perhaps only a sage would need to know, but which forms the underpinning of your world's physics - and metaphysics. Such details include how the world was formed, how magic works, and where dead heroes go when they fall in battle; many are fleshed out further starting [here](rule/technology_2).",
 			"",
 			"Like the other considerations, these aren't necessarily outside the comprehension of the player characters. Most people have a basic understanding of them, albeit colored by their backgrounds. It's been said that sometimes the most exciting and rich worlds are those that don't answer all the questions, but you're the final arbiter on that score.",
 			"",
@@ -5666,7 +5668,7 @@
 			"",
 			"### If I drop this off the balcony, what happens?",
 			"",
-			"This question is actually about verisimilitude, and the answer is usually, \"It falls and hits the person standing beneath it on the head.\" So the real question is, other than \"accepted\" weirdness like magic and demons, is there anything you want to change or alter about the physical world? If so, how can you do it without losing the players' suspension of disbelief? Your world needs to make its own kind of sense to bind the strange and fantastic in a way that feels natural-at least to the world's residents-thus creating a stage for the PCs' wondrous adventures."
+			"This question is actually about verisimilitude, and the answer is usually, \"It falls and hits the person standing beneath it on the head.\" So the real question is, other than \"accepted\" weirdness like magic and demons, is there anything you want to change or alter about the physical world? If so, how can you do it without losing the players' suspension of disbelief? Your world needs to make its own kind of sense to bind the strange and fantastic in a way that feels natural - at least to the world's residents - thus creating a stage for the PCs' wondrous adventures."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5687,13 +5689,13 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
 			"",
-			"One of the greatest joys of creating your own campaign setting is the thrill and challenge of crafting an entire world, shaping it out of the primordial clay and setting it spinning in the void. Yet as much fun as this can be, it can also be a complicated and frustrating endeavor if you aren't already an expert in the things that make our own planet what it is. When you run up against something outside of your knowledge base, it's often tempting to simply say, \"This is a magical world\" rivers and mountains and deserts can go wherever they want.-",
+			"One of the greatest joys of creating your own campaign setting is the thrill and challenge of crafting an entire world, shaping it out of the primordial clay and setting it spinning in the void. Yet as much fun as this can be, it can also be a complicated and frustrating endeavor if you aren't already an expert in the things that make our own planet what it is. When you run up against something outside of your knowledge base, it's often tempting to simply say, \"This is a magical world - rivers and mountains and deserts can go wherever they want.\"",
 			"",
-			"Tempting-but lazy. Your players deserve better. Take the steps to make your world realistic, and when you do want to break fundamental laws of reality and put a desert in a swamp, make sure you come up with a reason. After all, if you take pains to ensure that the rest of your world is realistic, those magical regions that break the rules will feel all the more fantastic and unique.",
+			"Tempting... but lazy. Your players deserve better. Take the steps to make your world realistic, and when you do want to break fundamental laws of reality and put a desert in a swamp, make sure you come up with a reason. After all, if you take pains to ensure that the rest of your world is realistic, those magical regions that break the rules will feel all the more fantastic and unique.",
 			"",
 			"If you're familiar with the real world's geology, you've already got a leg up in designing a realistic world. It's no fun to spend weeks or months creating the perfect setting map, only to have a geologist or cartographer friend point out something you did wrong. Yet if your game group includes specialists like this, you're lucky! Don't be afraid to ask your geology enthusiast friend to help you decide where to put mountain ranges, or to ask your meteorologist pal to help you define your world's trade winds. At the very least, using your gaming group in this way keeps them from ambushing you with errors later on.",
 			"",
-			"But let's face it-most GMs don't have access to these resources. In this case, a little research can go a long way. Read up on geology, meteorology, astronomy, and other earth sciences. Watch documentaries and educational shows on these subjects. Most of all, study maps of the real world, not just game products-as any student of geology can tell you, it's shocking just how many scientific errors appear in maps from the most beloved fantasy games and novels."
+			"But let's face it: most GMs don't have access to these resources. In this case, a little research can go a long way. Read up on geology, meteorology, astronomy, and other earth sciences. Watch documentaries and educational shows on these subjects. Most of all, study maps of the real world, not just game products; as any student of geology can tell you, it's shocking just how many scientific errors appear in maps from the most beloved fantasy games and novels."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5703,14 +5705,7 @@
 		"subtopics": [
 			"creating_a_world_map",
 			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
-			"coastlines",
-			"elevations",
-			"rivers",
-			"vegetation",
-			"tags",
-			"breaking_the_rules"
+			"terrain_hierarchy"
 		],
 		"siblings": [
 			"world_building",
@@ -5733,7 +5728,7 @@
 			"",
 			"The first thing to accept when you sit down to draw a map of your campaign world is that it doesn't need to be beautiful. As long as you can understand your own scribblings, you'll be able to maintain consistency and verisimilitude when running your game. If you don't think of yourself as particularly artistic, buy some tracing paper and crib shapes and designs from maps you like. Try reproducing a favorite map by hand, or extending an existing map beyond its edge in the same artistic style.",
 			"",
-			"When creating your world, you can use color as a handy way to keep track of forests, deserts, or oceans, or develop your own system of simple cartography symbols. These symbols can be extremely simple: inverted \"V\" shapes for mountains, crosshatching for forests, scattered dots for deserts, etc.-whatever makes the most sense to you. Some GMs prefer to draw their world maps on blank paper, sharing them with players as -in-world\" handouts. Others prefer to use graph or hex paper, the better to precisely track distances and travel times. Still others use professional cartography software. The \"right\" method is the one that feels most natural to you, and the following advice applies no matter what media you use."
+			"When creating your world, you can use color as a handy way to keep track of forests, deserts, or oceans, or develop your own system of simple cartography symbols. These symbols can be extremely simple: inverted \"V\" shapes for mountains, crosshatching for forests, scattered dots for deserts, etc.-whatever makes the most sense to you. Some GMs prefer to draw their world maps on blank paper, sharing them with players as \"in-world\" handouts. Others prefer to use graph or hex paper, the better to precisely track distances and travel times. Still others use professional cartography software. The \"right\" method is the one that feels most natural to you, and the following advice applies no matter what media you use."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5744,14 +5739,7 @@
 		"siblings": [
 			"creating_a_world_map",
 			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
-			"coastlines",
-			"elevations",
-			"rivers",
-			"vegetation",
-			"tags",
-			"breaking_the_rules"
+			"terrain_hierarchy"
 		]
 	},
 	"starting_size": {
@@ -5772,14 +5760,7 @@
 		"siblings": [
 			"creating_a_world_map",
 			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
-			"coastlines",
-			"elevations",
-			"rivers",
-			"vegetation",
-			"tags",
-			"breaking_the_rules"
+			"terrain_hierarchy"
 		]
 	},
 	"terrain_hierarchy": {
@@ -5789,35 +5770,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
 			"",
-			"When it comes to drawing your map, keep in mind that the world's shape follows a specific hierarchy. As you draw your map, it's best to follow the steps below and make your decisions in this order-after all, it's tough drawing rivers without knowing where the mountains and coastlines are."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"creating_a_world",
-			"geography"
-		],
-		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
-			"coastlines",
-			"elevations",
-			"rivers",
-			"vegetation",
-			"tags",
-			"breaking_the_rules"
-		]
-	},
-	"geologic_touchstones": {
-		"name": "Geologic Touchstones",
-		"subtitle": "World Building, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
+			"When it comes to drawing your map, keep in mind that the world's shape follows a specific hierarchy. As you draw your map, it's best to follow the steps below and make your decisions in this order; after all, it's tough drawing rivers without knowing where the mountains and coastlines are.",
 			"",
-			"Below are several handy bits of trivia about the real world that can help with fantasy map design.",
+			"### Geologic Touchstones",
+			"",
+			"Here are several handy bits of trivia about the real world that can help with fantasy map design.",
 			"",
 			"- Deserts and forests each cover approximately a third of the Earth's land surface.",
 			"- Oceans cover approximately 70% of the Earth's total surface.",
@@ -5833,8 +5790,9 @@
 		"siblings": [
 			"creating_a_world_map",
 			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
+			"terrain_hierarchy"
+		],
+		"subtopics": [
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -5850,19 +5808,16 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
 			"",
-			"The first step is to divide land from water-draw in the region's coastlines, remembering to add bays and harbors here and there (these make great locations for major cities). Scatter islands, inland seas, and lakes here and there, bearing in mind that a chain of islands extending off a coast might indicate an extension of a mountainous region into an ocean or sea. Unless you're an expert on geology or cartography, don't worry about things like plate tectonics or trying to map the curve of the planet, especially if the region you're mapping is only a single continent or smaller. (Of course, it can't hurt to freshen up on these topics.) One way to make this easier is to vaguely base the shapes of your continents on the shapes of Earth's continents, a tactic used by many game designers and fantasy novelists."
+			"The first step is to divide land from water; draw in the region's coastlines, remembering to add bays and harbors here and there (these make great locations for major cities). Scatter islands, inland seas, and lakes here and there, bearing in mind that a chain of islands extending off a coast might indicate an extension of a mountainous region into an ocean or sea. Unless you're an expert on geology or cartography, don't worry about things like plate tectonics or trying to map the curve of the planet, especially if the region you're mapping is only a single continent or smaller. (Of course, it can't hurt to freshen up on these topics.) One way to make this easier is to vaguely base the shapes of your continents on the shapes of Earth's continents, a tactic used by many game designers and fantasy novelists."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"geography"
+			"geography",
+			"terrain_hierarchy"
 		],
 		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -5878,19 +5833,18 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
 			"",
-			"Once your coastlines are set, draw in the outlines of where you want your region's major mountain ranges to run. A mountain range outline should generally be long and narrow, perhaps with multiple \"fingers\" extending from its length, since mountains often form as continental plates push together to \"wrinkle\" the surface of a world. Mountain ranges that roughly follow a region's coastline are common, as seen along the west coasts of North and South America. Volcanic activity can also cause mountains to rise-now's a good time to place some volcanoes (preferably in a line along a mountainous coastline or a range of mountains). Once you have your mountainous regions placed, you can draw an increasing number of outlines around those mountains to show gradual changes in elevation as you work your way down to the coastline. Don't be afraid to make these lower regions wide and large-you'll need somewhere to put your deserts and large forests. Also remember that mountain ranges extending into oceans are an excellent source of realistic island chains."
+			"Once your coastlines are set, draw in the outlines of where you want your region's major mountain ranges to run. A mountain range outline should generally be long and narrow, perhaps with multiple \"fingers\" extending from its length, since mountains often form as continental plates push together to \"wrinkle\" the surface of a world. Mountain ranges that roughly follow a region's coastline are common, as seen along the west coasts of North and South America. Volcanic activity can also cause mountains to rise - now's a good time to place some volcanoes (preferably in a line along a mountainous coastline or a range of mountains).",
+			"",
+			"Once you have your mountainous regions placed, you can draw an increasing number of outlines around those mountains to show gradual changes in elevation as you work your way down to the coastline. Don't be afraid to make these lower regions wide and large; you'll need somewhere to put your deserts and large forests. Also remember that mountain ranges extending into oceans are an excellent source of realistic island chains."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"geography"
+			"geography",
+			"terrain_hierarchy"
 		],
 		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -5912,13 +5866,10 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"geography"
+			"geography",
+			"terrain_hierarchy"
 		],
 		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -5934,19 +5885,16 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
 			"",
-			"Sketch in major woodlands or jungles, placing them along coastlines and in lowlands, perhaps up to the edges of your highest elevations in places. Vegetation near a large water source like a delta often forms a marshland or swamp. Don't go too overboard with these regions, though! Remember that areas you don't turn into woodlands or swamps can be hilly regions, plains, steppes, badlands, or other relatively clear terrains. Deserts are a special case-place them in areas where there are few rivers (it's okay to have one or two) and where there's a mountain range to block the path of precipitation-this area is known as a \"rain shadow.\""
+			"Sketch in major woodlands or jungles, placing them along coastlines and in lowlands, perhaps up to the edges of your highest elevations in places. Vegetation near a large water source like a delta often forms a marshland or swamp. Don't go too overboard with these regions, though! Remember that areas you don't turn into woodlands or swamps can be hilly regions, plains, steppes, badlands, or other relatively clear terrains. Deserts are a special case - place them in areas where there are few rivers (it's okay to have one or two) and where there's a mountain range to block the path of precipitation; this area is known as a \"rain shadow.\""
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"geography"
+			"geography",
+			"terrain_hierarchy"
 		],
 		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -5962,19 +5910,16 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
 			"",
-			"Now you're ready to start naming your regions and placing spots of interest like cities, dungeons, and other notable features. Keep in mind some simple rules here-cities are almost always found on rivers or shorelines, and you'd expect to see cave entrances in hilly or mountainous areas. If you're drawing in national borders, remember that such divisions commonly fall along convenient geographical features, such as rivers or mountain ranges. Make sure to place plenty of intriguing adventure sites, too-it's a good rule to place three adventure sites within a few day's travel of each of your cities."
+			"Now you're ready to start naming your regions and placing spots of interest like cities, dungeons, and other notable features. Keep in mind some simple rules here: cities are almost always found on rivers or shorelines, and you'd expect to see cave entrances in hilly or mountainous areas. If you're drawing in national borders, remember that such divisions commonly fall along convenient geographical features, such as rivers or mountain ranges. Make sure to place plenty of intriguing adventure sites, too - it's a good rule to place three adventure sites within a few day's travel of each of your cities."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"geography"
+			"geography",
+			"terrain_hierarchy"
 		],
 		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -5990,19 +5935,16 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
 			"",
-			"While these guidelines stress the importance of realism, don't forget that you're designing a fantasy world! Anything goes-feel free to have rivers flowing uphill, mountains that float on the ocean, deserts or forests that move, or swaths of ocean where the water drops away to expose portions of the sea bed. As long as you realize that these locations are unrealistic, you can design for them and explain them however you wish."
+			"While these guidelines stress the importance of realism, don't forget that you're designing a fantasy world! Anything goes - feel free to have rivers flowing uphill, mountains that float on the ocean, deserts or forests that move, or swaths of ocean where the water drops away to expose portions of the sea bed. As long as you realize that these locations are unrealistic, you can design for them and explain them however you wish."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"geography"
+			"geography",
+			"terrain_hierarchy"
 		],
 		"siblings": [
-			"creating_a_world_map",
-			"starting_size",
-			"terrain_hierarchy",
-			"geologic_touchstones",
 			"coastlines",
 			"elevations",
 			"rivers",
@@ -6020,7 +5962,7 @@
 			"",
 			"While such things are undeniably important, creating a world is more than merely drawing realistic geography and political lines and then slapping down analogues of real-world societies. World building is, at its core, about creating cultures and showing how those cultures have shaped the world, from simple farmers laboring for a lordly knight to fantastic sky aeries of winged elves or plane-shifting cities of ethereal horrors. But what is culture? Culture is not merely the social environment of a village or the quaint customs of the locals.",
 			"",
-			"Culture is, in essence, the evolution of thought, and can span regions or even nations. It's about the way that people have described their history and experiences and their continued growth as a people. It's about creating a cultural \"personality,\" a quick sketch for understanding-but keep in mind that not everyone from a culture will have exactly the same personality.",
+			"Culture is, in essence, the evolution of thought, and can span regions or even nations. It's about the way that people have described their history and experiences and their continued growth as a people. It's about creating a cultural \"personality,\" a quick sketch for understanding - but keep in mind that not everyone from a culture will have exactly the same personality.",
 			"",
 			"One can approach culture building in multiple ways:",
 			"",
@@ -6040,11 +5982,7 @@
 			"core_elements_of_the_people",
 			"government_and_law",
 			"economics",
-			"the_primitive_society",
-			"the_feudal_society",
-			"the_rural_agrarian_society",
-			"the_cosmopolitan_society",
-			"other_societies"
+			"societies"
 		],
 		"siblings": [
 			"world_building",
@@ -6067,9 +6005,11 @@
 			"",
 			"The GM can place each of the following elements on a spectrum; religion, for instance, can produce both fanatics and agnostics, and trade can consist of simple barter or complex financial instruments used to move vast sums of hypothetical money. Where a culture falls on each question is up to the world builder, but keep in mind that none of these elements exists alone, and the position of one may influence that of another.",
 			"",
-			"***Survival:*** The first things a GM should consider are the world's people and their basic assumptions about life and survival. At the most fundamental level, their physiology defines their core needs: shelter, food and drink, mates, and a relatively tenable environment. Combine their physiology with their environment (both past and present), and one can begin to draw a picture of how the people have adapted to the world around them. How do they acquire food? What threatens them? What advantages do they secure by living here? What food do they eat? What do they drink? All of these also help to inform what character traits a society values-one culture might call itself clever, quick-witted, and fast to seize an advantage; its enemies might call members of that culture duplicitous backstabbers who would sell their children for a momentary gain.",
+			"***Survival:*** The first things a GM should consider are the world's people and their basic assumptions about life and survival. At the most fundamental level, their physiology defines their core needs: shelter, food and drink, mates, and a relatively tenable environment. Combine their physiology with their environment (both past and present), and one can begin to draw a picture of how the people have adapted to the world around them. How do they acquire food? What threatens them? What advantages do they secure by living here? What food do they eat? What do they drink? All of these also help to inform what character traits a society values - one culture might call itself clever, quick-witted, and fast to seize an advantage; its enemies might call members of that culture duplicitous backstabbers who would sell their children for a momentary gain.",
 			"",
-			"***Language:*** Once one can define a culture's character, one can define the culture's language. What sparks the language? It isn't necessary to spell out the language, but rather to imagine its core. Language and culture are inextricable; concepts core to a people's identity may be expressible only in their language, with translations grasping the idea only loosely. Is the language pure, with few words borrowed from outsiders, or is it a trader's language, a complex tongue with origins in a variety of cultures? Is the language primarily oral or written, and if it is written, what is it written on and how? Does it share an alphabet with another language? Keep in mind that high literacy rates tend to combine with rapid invention, as knowledge becomes easy to transmit. How do the people tell each other stories about their past? Do they have methods for communicating with far-off friends? Are they telepaths, or do they use sound beyond the threshold of ordinary human hearing? Do they travel, and if so, by what method? Each answer has its own implications, and can help tease out a sense of a particular people.",
+			"***Language:*** Once one can define a culture's character, one can define the culture's language. What sparks the language? It isn't necessary to spell out the language, but rather to imagine its core. Language and culture are inextricable; concepts core to a people's identity may be expressible only in their language, with translations grasping the idea only loosely. Is the language pure, with few words borrowed from outsiders, or is it a trader's language, a complex tongue with origins in a variety of cultures? Is the language primarily oral or written, and if it is written, what is it written on and how? Does it share an alphabet with another language?",
+			"",
+			"Keep in mind that high literacy rates tend to combine with rapid invention, as knowledge becomes easy to transmit. How do the people tell each other stories about their past? Do they have methods for communicating with far-off friends? Are they telepaths, or do they use sound beyond the threshold of ordinary human hearing? Do they travel, and if so, by what method? Each answer has its own implications, and can help tease out a sense of a particular people.",
 			"",
 			"***Religion:*** What sort of relationship do people have with their god or gods, and why do they have it? Are the people devoted to their gods as worshipers, familiar with them as acquaintances and comrades, or contemptuous of them? Do the people require priestly intermediaries to hear the words of the gods, or do they have a direct relationship with their gods? How much influence do the religious exert in this society? How well do they tolerate the beliefs of others?",
 			"",
@@ -6085,11 +6025,7 @@
 			"core_elements_of_the_people",
 			"government_and_law",
 			"economics",
-			"the_primitive_society",
-			"the_feudal_society",
-			"the_rural_agrarian_society",
-			"the_cosmopolitan_society",
-			"other_societies"
+			"societies"
 		]
 	},
 	"government_and_law": {
@@ -6110,13 +6046,13 @@
 			"- Plutocracy: Rule by the wealthy.",
 			"- Theocracy: Rule by priests or by the church.",
 			"",
-			"Anarchic governments are, by their very nature, limited in size. When people need to work together, they must do so by choice, rather than being forced through the threat of a greater government's might. Some of these societies involve smaller tribal units, answering to a chief or matron, who sits on a (mostly) allied council of similar representatives. Members cannot (or do not) force each other into anything, except perhaps by threats of force or economic embargo. This form of government tends to give way to charismatic and ambitious leaders who establish an authoritarian government of one sort or another, and thus it usually exists for a relatively short time. But it can also arise in cultures with strong notions of individual liberty-both in expecting freedom and demanding it from others-which may make it more stable.",
+			"Anarchic governments are, by their very nature, limited in size. When people need to work together, they must do so by choice, rather than being forced through the threat of a greater government's might. Some of these societies involve smaller tribal units, answering to a chief or matron, who sits on a (mostly) allied council of similar representatives. Members cannot (or do not) force each other into anything, except perhaps by threats of force or economic embargo. This form of government tends to give way to charismatic and ambitious leaders who establish an authoritarian government of one sort or another, and thus it usually exists for a relatively short time. But it can also arise in cultures with strong notions of individual liberty - both in expecting freedom and demanding it from others - which may make it more stable.",
 			"",
 			"Democratic governments are a matter of definition. How free is the society, and who is free to vote? In ancient Greece, the birthplace of democracy, the councils were open only to male citizens; no slaves or women had a voice in the assembly. It is up to the world builder to determine who receives a vote in these democratic societies. Does the democracy extend across more than a single grouping of people, as in a small nation, or is it confined to a people in one area? Do the people gather in citywide assemblies? How often do these assemblies meet? Do the people send representatives (as in a representative democracy), or do they vote by mass acclamation?",
 			"",
 			"The laws of a culture grow out of its values, and the government grows from its laws. For the most part, law springs from one of the bedrock concepts of the culture: honor, religion, kinship, loyalty, money, power, tradition, and others. Using the cultural character developed earlier, the world builder should examine what this culture values and what behaviors it uses to reinforce these values. Who sets the laws? Who interprets them?",
 			"",
-			"Another consideration: Do the laws permit precedent, meaning they build on previous judicial interpretations, or is every case decided afresh based on the statutes in ancient tomes? If it's the latter, then the outcomes of similar cases may bear no resemblance to each other. If the former, then every case heard in court adds another wrinkle to the law that must be considered, and a new breed arises to deal with these interpretations: lawyers, advocates, or solicitors. Keep in mind also that a broad, national law with established precedent makes trade easier, since merchants no longer have to learn the vagaries of law in far-flung towns and counties-and this in turn strengthens the nation."
+			"Another consideration: Do the laws permit precedent, meaning they build on previous judicial interpretations, or is every case decided afresh based on the statutes in ancient tomes? If it's the latter, then the outcomes of similar cases may bear no resemblance to each other. If the former, then every case heard in court adds another wrinkle to the law that must be considered, and a new breed arises to deal with these interpretations: lawyers, advocates, or solicitors. Keep in mind also that a broad, national law with established precedent makes trade easier, since merchants no longer have to learn the vagaries of law in far-flung towns and counties - and this in turn strengthens the nation."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6128,11 +6064,7 @@
 			"core_elements_of_the_people",
 			"government_and_law",
 			"economics",
-			"the_primitive_society",
-			"the_feudal_society",
-			"the_rural_agrarian_society",
-			"the_cosmopolitan_society",
-			"other_societies"
+			"societies"
 		]
 	},
 	"economics": {
@@ -6144,9 +6076,9 @@
 			"",
 			"Every civilization that rises does so via the use of resources: goods that have both utility and scarcity. As noted above, people require shelter, food, clothing, and other goods simply to survive. Basic innovations help store food and create clothing faster, and these innovations free members of society to help produce still more inventions. At some point, communal wealth tends to move toward private ownership, which then requires trade. The earliest form of trade is barter, or the exchange of one good or service for another (or for social status). But what happens when one party needs something and the other doesn't require his resources?",
 			"",
-			"This leads to the introduction of commodity money, or trading for an agreed-upon middle resource such as obsidian, cocoa beans, bushels of wheat, or other useful goods. In time, intermediate forms of broadly accepted currency develop, based on stored value-in our world, a shekel indicated 1 bushel of barley, and basic coins were used as storage chits. With the invention of mining, metals could be extracted and used, and in time, the metal coins created came to represent stored value themselves. Thus the English pound came to represent 1 pound of silver. The appropriate coin could then be used to claim the value indicated from governments or banks.",
+			"This leads to the introduction of commodity money, or trading for an agreed-upon middle resource such as obsidian, cocoa beans, bushels of wheat, or other useful goods. In time, intermediate forms of broadly accepted currency develop, based on stored value - in our world, a shekel indicated 1 bushel of barley, and basic coins were used as storage chits. With the invention of mining, metals could be extracted and used, and in time, the metal coins created came to represent stored value themselves. Thus the English pound came to represent 1 pound of silver. The appropriate coin could then be used to claim the value indicated from governments or banks.",
 			"",
-			"An economy is a dynamic system, and what goes into it must affect another part. Using metal coins as money functions only as long as the supply remains relatively constant. If a major new silver mine introduces too much silver into the economy, the value of a silver coin decreases correspondingly. If a dragon hoards thousands of coins, they have essentially disappeared from the economy, causing the value of the remaining coins to increase; their reintroduction upon the dragon's death causes the devaluation of the rest of the coins in circulation. That is to say: Too great a supply of anything decreases demand and therefore decreases value; too little increases the demand and thus increases value. It is the world builder's job to determine what goods and services are valuable in the culture-be they hard coins, precious gems, or ephemera such as honor.",
+			"An economy is a dynamic system, and what goes into it must affect another part. Using metal coins as money functions only as long as the supply remains relatively constant. If a major new silver mine introduces too much silver into the economy, the value of a silver coin decreases correspondingly. If a dragon hoards thousands of coins, they have essentially disappeared from the economy, causing the value of the remaining coins to increase; their reintroduction upon the dragon's death causes the devaluation of the rest of the coins in circulation. That is to say: Too great a supply of anything decreases demand and therefore decreases value; too little increases the demand and thus increases value. It is the world builder's job to determine what goods and services are valuable in the culture, be they hard coins, precious gems, or ephemera such as honor.",
 			"",
 			"The following sections outline several types of societies."
 		],
@@ -6160,6 +6092,31 @@
 			"core_elements_of_the_people",
 			"government_and_law",
 			"economics",
+			"societies"
+		]
+	},
+	"societies": {
+		"name": "Societies",
+		"subtitle": "World Building, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 149](source/gamemastery_guide)",
+			"",
+			"The following sections outline several types of societies."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"creating_a_world",
+			"cultural_considerations"
+		],
+		"siblings": [
+			"core_elements_of_the_people",
+			"government_and_law",
+			"economics",
+			"societies"
+		],
+		"subtopics": [
 			"the_primitive_society",
 			"the_feudal_society",
 			"the_rural_agrarian_society",
@@ -6174,13 +6131,13 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
 			"",
-			"All historical cultures-and nearly all fantastical ones' spring from primal forebears. Though creation myths sometimes tell of people springing full-formed from the earth (or the sky, the clouds, the seas, the blood of a god, and so on), culture in general proceeds from a primitive state to a more advanced one. In this case, \"advanced\" means a fixed agrarian base, a shift away from the hunter-gatherer model, the development of technological innovations, and a step toward an integrated economy, where the method of trade moves beyond simple barter or communal requirements. It's certainly possible to see an advanced culture devolve into primitivism, though it's much less common. In these cases the memories of lost glories likely end the primitive era more quickly.",
+			"All historical cultures, and nearly all fantastical ones, spring from primal forebears. Though creation myths sometimes tell of people springing full-formed from the earth (or the sky, the clouds, the seas, the blood of a god, and so on), culture in general proceeds from a primitive state to a more advanced one. In this case, \"advanced\" means a fixed agrarian base, a shift away from the hunter-gatherer model, the development of technological innovations, and a step toward an integrated economy, where the method of trade moves beyond simple barter or communal requirements. It's certainly possible to see an advanced culture devolve into primitivism, though it's much less common. In these cases the memories of lost glories likely end the primitive era more quickly.",
 			"",
 			"What makes a culture primitive? Is it because the environment in which the people eke out a living is so harsh that they must focus all their energies on survival? Or are the people so isolated, by choice or otherwise, that the exchange of ideas is small, and progress slows to a snail's pace?",
 			"",
 			"The term \"primitive culture\" is one determined by outsiders, existing only in contrast to more \"advanced\" societies, and as such comes laden with the potential for bias and prejudice. It can encompass a huge range of potential behaviors, from cave-dwelling, pre-language savages in familial tribes to peaceful nomads with rich and vibrant oral traditions who have chosen to reject the trappings of the modern world. Remember that simply because the culture is primitive does not mean its people are stupid. They may be cowed initially by displays of might and power, but they have not survived in their land by being oblivious, and many a \"civilized\" visitor has been taken aback (or apart) by the quick thinking and natural cunning of his supposed inferiors.",
 			"",
-			"Since many primitive cultures are nomadic or migratory, without permanent homes, they tend to be masters of adaptation, a trait that comes in handy if one of these so-called \"savages\" is thrust into the midst of civilization. Whether this means becoming a fearsome warrior, an incomparable tracker, or a natural magician or shaman-or simply fleeing deeper into the wilderness-is a matter for the GM to decide.",
+			"Since many primitive cultures are nomadic or migratory, without permanent homes, they tend to be masters of adaptation, a trait that comes in handy if one of these so-called \"savages\" is thrust into the midst of civilization. Whether this means becoming a fearsome warrior, an incomparable tracker, or a natural magician or shaman - or simply fleeing deeper into the wilderness - is a matter for the GM to decide.",
 			"",
 			"Some examples of \"primitive\" culture include:",
 			"",
@@ -6196,7 +6153,8 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"cultural_considerations"
+			"cultural_considerations",
+			"societies"
 		],
 		"subtopics": [
 			"defining_primitive_culture",
@@ -6205,9 +6163,6 @@
 			"questions_about_your_primitive_society"
 		],
 		"siblings": [
-			"core_elements_of_the_people",
-			"government_and_law",
-			"economics",
 			"the_primitive_society",
 			"the_feudal_society",
 			"the_rural_agrarian_society",
@@ -6235,6 +6190,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_primitive_society"
 		],
 		"siblings": [
@@ -6258,6 +6214,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_primitive_society"
 		],
 		"siblings": [
@@ -6280,13 +6237,14 @@
 			"",
 			"The stories the tribe tells may also be instructional for younger members, warning the children of dangers in the area and behaviors to avoid. Tying these lessons to stories can give rise to superstitions that become ingrained over the years: telling a child not to eat the red berries of a certain bush may lead to a belief that red is an unlucky color, thus spawning the notion that spilling blood unnecessarily brings ill fortune.",
 			"",
-			"Primitive magic is frequently sympathetic; that is, by drawing pictures of their enemies, people hope to gain control over them. By eating the flesh of strong beasts, they hope to absorb that strength-and some even eat the flesh of worthy opponents to commemorate their bravery."
+			"Primitive magic is frequently sympathetic; that is, by drawing pictures of their enemies, people hope to gain control over them. By eating the flesh of strong beasts, they hope to absorb that strength - and some even eat the flesh of worthy opponents to commemorate their bravery."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_primitive_society"
 		],
 		"siblings": [
@@ -6322,8 +6280,7 @@
 			"- Does the shaman hold power outright in the tribe?",
 			"- What rites do they observe?",
 			"- Does the culture hold any interesting beliefs?",
-			"- What are the superstitions and taboos of the society?",
-			"- What happens if someone violates them?",
+			"- What are the superstitions and taboos of the society? What happens if someone violates them?",
 			"- What are the tutelary deities of the tribe?",
 			"- Who rules, and how is the ruler determined?",
 			"- How powerful is the average tribe member? What about the weakest and the strongest?",
@@ -6334,6 +6291,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_primitive_society"
 		],
 		"siblings": [
@@ -6350,7 +6308,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 152](source/gamemastery_guide)",
 			"",
-			"As cultures emerge from ignorance into knowledge, as the people band together for mutual protection, certain leaders-whether strong, smart, or charismatic-rise to guide, lead, and protect. In a fantastic feudal society, such protection is paramount. With hordes of orcs nearby or a dragon's lair within flying distance, those without skill in arms or magic must depend on those who do have it-and those who have it must expend their energy on maintaining their abilities, rather than scratching the earth or chopping wood. Thus, leaders arise.",
+			"As cultures emerge from ignorance into knowledge, as the people band together for mutual protection, certain leaders - whether strong, smart, or charismatic - rise to guide, lead, and protect. In a fantastic feudal society, such protection is paramount. With hordes of orcs nearby or a dragon's lair within flying distance, those without skill in arms or magic must depend on those who do have it - and those who have it must expend their energy on maintaining their abilities, rather than scratching the earth or chopping wood. Thus, leaders arise.",
 			"",
 			"These leaders gather strength by bringing together other powerful people. Advisors and warriors earn power and prestige, and as the society expands, so too does the land (or the ambition) required to support it. The trusted advisors become vassals, sworn to commit their warriors in defense of the commonweal, and in turn, the leader becomes the liege, who likewise swears a solemn oath to uphold the sanctity of the realm. This structure is feudalism.",
 			"",
@@ -6370,7 +6328,8 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"cultural_considerations"
+			"cultural_considerations",
+			"societies"
 		],
 		"subtopics": [
 			"ruling_a_feudal_society",
@@ -6379,9 +6338,6 @@
 			"questions_about_your_feudal_society"
 		],
 		"siblings": [
-			"core_elements_of_the_people",
-			"government_and_law",
-			"economics",
 			"the_primitive_society",
 			"the_feudal_society",
 			"the_rural_agrarian_society",
@@ -6405,6 +6361,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_feudal_society"
 		],
 		"siblings": [
@@ -6424,8 +6381,8 @@
 			"A sample feudal hierarchy, from top to bottom, is as follows. Note that the nobility holds the land in trust for the crown and does not own it outright. Certain exceptions, called allodial holdings, can be granted to anyone by the crown, but they usually quickly revert to the crown via trickery or conquest. As a feudal society doesn't leave a lot of leeway for travel, adventurers might be freemen out to improve their station through great deeds, or the youngest progeny of the nobility, eager to win their own titles through force of arms.",
 			"",
 			"| Title | Lands | Hereditary? |",
-			"| King/Queen | Kingdom | Y |",
 			"| --- | --- | --- |",
+			"| King/Queen | Kingdom | Y |",
 			"| Prince/Princess | Principality | Y |",
 			"| Duke/Duchess | Duchy | Y |",
 			"| Margrave/Margravine | Marquisate | Y |",
@@ -6442,6 +6399,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_feudal_society"
 		],
 		"siblings": [
@@ -6460,13 +6418,14 @@
 			"",
 			"Faith plays a huge role in many feudal societies, especially in monotheistic belief systems whose churches are structured in a similar fashion. In a fantasy setting, with multiple pantheons and the favor of the gods manifesting in physical phenomena, all bets are off. Will a monarch want to ally with a church? Early members of the royal family may find these alliances convenient, but when a priest can cast [detect evil](spell/detect_evil) or [see alignment](spell/see_alignment), rulers no longer have the option of hiding their true beliefs. Giving such power to a church might spell disaster for a royal house. When priests speak of a ruler having the divine right, the people can rest assured that this is so. One question, then, is what happens when a hereditary monarch doesn't have that favor. Does he corrupt the priesthood, or do the priests help to replace him? In a feudal society, these are not small tasks.",
 			"",
-			"Depending on the society you design, the churches may be more or less woven into the framework of society, with churches of a lawful bent naturally appealing to a monarch from whom all laws stem. In such situations, the monarchy generally works with its spiritual advisors in much the same way as it does with its vassals-though in theory the church answers to itself, in practice power begets power, and those churches deeply enmeshed in feudal politics tend to spend much of their effort enforcing the social order, maintaining orthodoxy, and rooting out heresies."
+			"Depending on the society you design, the churches may be more or less woven into the framework of society, with churches of a lawful bent naturally appealing to a monarch from whom all laws stem. In such situations, the monarchy generally works with its spiritual advisors in much the same way as it does with its vassals - though in theory the church answers to itself, in practice power begets power, and those churches deeply enmeshed in feudal politics tend to spend much of their effort enforcing the social order, maintaining orthodoxy, and rooting out heresies."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_feudal_society"
 		],
 		"siblings": [
@@ -6509,6 +6468,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_feudal_society"
 		],
 		"siblings": [
@@ -6525,11 +6485,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 154](source/gamemastery_guide)",
 			"",
-			"In general, civilization hinges on a people's ability to move beyond the hunter-gatherer model, to settle into a place, learn to understand, and it harness its resources. In most cases, this is the result of a primitive people first domesticating wild animals-either as hunting companions or as food, clothing, or milk sources-and learning to plant crops for survival. Many cultures eventually move on from that base, focusing instead on technological innovation, conquest, or higher magic.",
+			"In general, civilization hinges on a people's ability to move beyond the hunter-gatherer model, to settle into a place, learn to understand, and it harness its resources. In most cases, this is the result of a primitive people first domesticating wild animals - either as hunting companions or as food, clothing, or milk sources - and learning to plant crops for survival. Many cultures eventually move on from that base, focusing instead on technological innovation, conquest, or higher magic.",
 			"",
 			"Some, though, choose to live in harmony with the earth, to keep their heads down and their roots deep. These are the agrarian societies, and they can be found almost anywhere civilization spreads its cloak. Without the ability to grow large amounts of food, and without the aid of beasts of burden to speed agriculture and provide a richer, meat-based diet, most advanced societies could not exist: the citizens would be dependent on their own skills to raise food, and they would not have the energy or inclination to pursue other avenues of thought. After the invention of agriculture, however, more people can devote their lives to improving society as a whole: creating pots to store the food, refining processes to cure hides and create clothing, building more durable houses, and creating standardized currency to expedite trade.",
 			"",
-			"In a realistic world, pastoralists might raise cattle, horses, sheep, or goats and farm wheat, lentils, barley, or maize-staples that provide labor, fiber, and food for a large number of people. In a high-fantasy world, they might raise more fantastic creatures, such as griffons, hippogriffs, or dire wolves. In either case, farmers and ranchers typically choose locations near rivers or lakes, which they can use to irrigate fields or water animals. If necessary, they often clear trees and brush from the area to create open fields or pastures.",
+			"In a realistic world, pastoralists might raise cattle, horses, sheep, or goats and farm wheat, lentils, barley, or maize: staples that provide labor, fiber, and food for a large number of people. In a high-fantasy world, they might raise more fantastic creatures, such as griffons, hippogriffs, or dire wolves. In either case, farmers and ranchers typically choose locations near rivers or lakes, which they can use to irrigate fields or water animals. If necessary, they often clear trees and brush from the area to create open fields or pastures.",
 			"",
 			"Some broad agrarian settings include:",
 			"",
@@ -6543,7 +6503,8 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"cultural_considerations"
+			"cultural_considerations",
+			"societies"
 		],
 		"subtopics": [
 			"life_in_an_agrarian_society",
@@ -6553,9 +6514,6 @@
 			"questions_about_your_rural_agrarian_society"
 		],
 		"siblings": [
-			"core_elements_of_the_people",
-			"government_and_law",
-			"economics",
 			"the_primitive_society",
 			"the_feudal_society",
 			"the_rural_agrarian_society",
@@ -6583,6 +6541,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_rural_agrarian_society"
 		],
 		"siblings": [
@@ -6609,6 +6568,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_rural_agrarian_society"
 		],
 		"siblings": [
@@ -6635,6 +6595,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_rural_agrarian_society"
 		],
 		"siblings": [
@@ -6652,13 +6613,14 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
 			"",
-			"Far from the protecting arm of a liege lord (if they have one at all), most rural societies must rely on themselves. Along with the normal race against time and nature to produce enough food to survive, raiders and monsters are a constant threat, especially during the winter, when farmer's stores are full and foraging is difficult. As a result, farmers are as likely to be suspicious or hostile as they are to welcome the protection of adventurers. War is another great destroyer of rural communities-though rarely involved as fighters themselves, farmers see their fields trampled and animals infected by unburied corpses. Warlords of all alignments are notorious for commandeering and slaughtering farm animals for their sustenance, and billeting their troops in homes even if they are unwelcome."
+			"Far from the protecting arm of a liege lord (if they have one at all), most rural societies must rely on themselves. Along with the normal race against time and nature to produce enough food to survive, raiders and monsters are a constant threat, especially during the winter, when farmer's stores are full and foraging is difficult. As a result, farmers are as likely to be suspicious or hostile as they are to welcome the protection of adventurers. War is another great destroyer of rural communities; though rarely involved as fighters themselves, farmers see their fields trampled and animals infected by unburied corpses. Warlords of all alignments are notorious for commandeering and slaughtering farm animals for their sustenance, and billeting their troops in homes even if they are unwelcome."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_rural_agrarian_society"
 		],
 		"siblings": [
@@ -6684,7 +6646,7 @@
 			"- Did they bring seeds and animals from their homeland with them?",
 			"- What terrain do they inhabit?",
 			"- Who are their enemies and allies?",
-			"- How fertile is the land? What happens to any excess crops that are harvested-are they traded or stockpiled against future shortages?",
+			"- How fertile is the land? What happens to any excess crops that are harvested - are they traded or stockpiled against future shortages?",
 			"- How do the farmers fertilize their land, and with what materials? (Examples: manure, compost, blood, corpses of enemies, magic, prayers.)",
 			"- What is their primary food crop or animal?",
 			"- What is their primary beast of burden?",
@@ -6703,6 +6665,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_rural_agrarian_society"
 		],
 		"siblings": [
@@ -6722,13 +6685,16 @@
 			"",
 			"While countrysides, farmlands, mountaintops, forests, and tundras all have their place in a well-developed world, the city is where the heart of civilized culture beats. As trade hubs, military fortifications, artistic centers, intellectual havens, and seats of government, cities are repositories of history and cultural knowledge. But what makes a city? How does it form, and how does it attract its people?",
 			"",
-			"As a rule, cities form around water sources, whether that's a single oasis or a lake, river, or sea that provides the additional boon of fisheries and convenient transportation of people and goods. Once water is accounted for, cities frequently form near tracts of fertile land or rich veins of ore-or junctions of the roads along which such things are transported. They may form at key strategic locations, like mountain passes that control movement between fertile valleys (thus allowing easy taxation), or just before a difficult stretch of a major thoroughfare, giving weary travelers a place to rest (or give up their burdens and put down roots, enlarging the city). Whatever the reason, a city grows and thrives by becoming a hub, attracting trade, visitors, and new residents. As it grows, it changes, and residents can often see the shape of the old city underneath the gleaming streets, with the old buildings coexisting with or being slowly supplanted by the new. A city's architecture is typically reflective of the people who created it, and immigrants frequently bring the aesthetics (and cultural practices) of their homelands, making a city's buildings and structure a physical record of its history."
+			"As a rule, cities form around water sources, whether that's a single oasis or a lake, river, or sea that provides the additional boon of fisheries and convenient transportation of people and goods. Once water is accounted for, cities frequently form near tracts of fertile land or rich veins of ore - or junctions of the roads along which such things are transported. They may form at key strategic locations, like mountain passes that control movement between fertile valleys (thus allowing easy taxation), or just before a difficult stretch of a major thoroughfare, giving weary travelers a place to rest (or give up their burdens and put down roots, enlarging the city).",
+			"",
+			"Whatever the reason, a city grows and thrives by becoming a hub, attracting trade, visitors, and new residents. As it grows, it changes, and residents can often see the shape of the old city underneath the gleaming streets, with the old buildings coexisting with or being slowly supplanted by the new. A city's architecture is typically reflective of the people who created it, and immigrants frequently bring the aesthetics (and cultural practices) of their homelands, making a city's buildings and structure a physical record of its history."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"cultural_considerations"
+			"cultural_considerations",
+			"societies"
 		],
 		"subtopics": [
 			"city_requirements",
@@ -6736,9 +6702,6 @@
 			"questions_about_your_city"
 		],
 		"siblings": [
-			"core_elements_of_the_people",
-			"government_and_law",
-			"economics",
 			"the_primitive_society",
 			"the_feudal_society",
 			"the_rural_agrarian_society",
@@ -6766,6 +6729,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_cosmopolitan_society"
 		],
 		"siblings": [
@@ -6781,13 +6745,13 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
 			"",
-			"The first question the GM must ask about a city is what drew the original settlers to this specific spot, and why they stayed. Was it the protection offered by a mountainous bluff ? Proximity to a river? Or merely the closest they could reasonably get to an easily exploited natural resource?",
+			"The first question the GM must ask about a city is what drew the original settlers to this specific spot, and why they stayed. Was it the protection offered by a mountainous bluff? Proximity to a river? Or merely the closest they could reasonably get to an easily exploited natural resource?",
 			"",
 			"Early on, building infrastructure is a communal effort, requiring little management. But as a city grows, someone eventually needs to take charge. Who rules your city, and how are they appointed? Are the leaders mayors, elected by the people, or are they viceroys, ruling in place of a king? How do they make laws, and with what strength do they back those laws? How far are they willing to go to enforce them? Is this a free city, where citizens can speak their mind without fear, or is it a heavily guarded fort where any hint of insubordination is immediately crushed under the governor's iron heel? If it's the latter, why do traders run that risk in order to trade there?",
 			"",
-			"Every city requires trade in order to grow. Some grow from fur-trapping settlements, while others rise near especially productive mines. Some are merely waypoints along caravan routes, set alongside natural springs in the desert. What they all have in common is that they are centralized locations for people of varying backgrounds to come together and distribute their goods to others who might need them. Trade is a city's lifeblood; its tolls and taxes provide support for the infrastructure, its coins enter and help to stabilize the local economy, and its cultural mores quickly come to dominate local customs. But trade requires markets, and markets require marketplaces. What sort of trade defines your city? Is it all based around the same basic good, with businessmen attempting to undercut each other in an effort to sell to outsiders, or is it varied and catering primarily to its own populace? What are the marketplaces like? The larger the city, the more markets it needs, centrally located for business and residential districts, and these markets need distribution channels-which is to say: roads.",
+			"Every city requires trade in order to grow. Some grow from fur-trapping settlements, while others rise near especially productive mines. Some are merely waypoints along caravan routes, set alongside natural springs in the desert. What they all have in common is that they are centralized locations for people of varying backgrounds to come together and distribute their goods to others who might need them. Trade is a city's lifeblood; its tolls and taxes provide support for the infrastructure, its coins enter and help to stabilize the local economy, and its cultural mores quickly come to dominate local customs. But trade requires markets, and markets require marketplaces. What sort of trade defines your city? Is it all based around the same basic good, with businessmen attempting to undercut each other in an effort to sell to outsiders, or is it varied and catering primarily to its own populace? What are the marketplaces like? The larger the city, the more markets it needs, centrally located for business and residential districts, and these markets need distribution channels - which is to say: roads.",
 			"",
-			"Unless a city is planned in advance-a relatively rare occurrence, usually the result of government decree or religious mandate-city streets tend to grow up around existing structures and the paths of the original settlement; as a result, most cities have winding, narrow streets, suitable for foot traffic or small carts, with buildings pressing in above. As the city expands, the streets of the city often change and expand as well depending on their traffic and their usage patterns. If the streets see frequent use by heavy carts, the city leaders might pave them to prevent them from turning into trenches every time it rains. Smaller streets may remain unpaved, and the residents may even toss their chamber pots directly into the gutters, waiting for the rains to wash away the filth.",
+			"Unless a city is planned in advance - a relatively rare occurrence, usually the result of government decree or religious mandate - city streets tend to grow up around existing structures and the paths of the original settlement; as a result, most cities have winding, narrow streets, suitable for foot traffic or small carts, with buildings pressing in above. As the city expands, the streets of the city often change and expand as well depending on their traffic and their usage patterns. If the streets see frequent use by heavy carts, the city leaders might pave them to prevent them from turning into trenches every time it rains. Smaller streets may remain unpaved, and the residents may even toss their chamber pots directly into the gutters, waiting for the rains to wash away the filth.",
 			"",
 			"Cities frequently house a mix of social classes. Some people inevitably become wealthy and develop different living patterns, requiring people of lower station to help manage and maintain their estates. How much of your city do the wealthy command? Is there a middle class? How do the various races mix, and what do residents in general think of those who are different from them? What sorts of political groups or religions does the city have, and how do they interact?",
 			"",
@@ -6798,6 +6762,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_cosmopolitan_society"
 		],
 		"siblings": [
@@ -6837,7 +6802,7 @@
 			"- How corrupt is the city watch? The courts?",
 			"- How dangerous is the city at night?",
 			"- What are the three most beautiful things in the city?",
-			"- How does the city protect itself ?",
+			"- How does the city protect itself?",
 			"- What does the city smell like?",
 			"- What do the citizens do to have a good time?",
 			"- What do the citizens fear more than anything else?",
@@ -6851,6 +6816,7 @@
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
+			"societies",
 			"the_cosmopolitan_society"
 		],
 		"siblings": [
@@ -6861,6 +6827,7 @@
 	},
 	"other_societies": {
 		"name": "Other Societies",
+		"tags": "bureaucracy caste system decadent society magocracy matriarchy monstrous society theocracy",
 		"subtitle": "World Building, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -6873,7 +6840,7 @@
 			"- What attitudes do these cultures have toward outsiders?",
 			"- Are there customs that outsiders might easily break? These might range from simple etiquette to required ritual cleansings. If so, what is the usual reprimand for breaking them?",
 			"- How does the society communicate? How do members pass along their knowledge?",
-			"- Where does the culture fit on the chaotic/lawful spectrum-that is, from anarchist to authoritarian?",
+			"- Where does the culture fit on the chaotic/lawful spectrum - that is, from anarchist to authoritarian?",
 			"- What do members of this society trade, and on what do they subsist?",
 			"- How are the rulers determined, and on what basis do they pass on their authority?",
 			"",
@@ -6885,36 +6852,36 @@
 			"",
 			"***Caste System:*** This is similar to the feudal system. The most famous real-world example is that of historical India, in which society became stratified into broad classes: Brahmins, the teachers and priests; the Kshatriyas, warriors and kings; the Vaishyas, traders and farmers; and the Sudras, craftsmen and servants. Beneath these lay the Dalits, or untouchables, who performed menial and \"impure\" jobs, such as waste collection, street sweeping, or butchery.",
 			"",
-			"Each caste carries its own duties and responsibilities to itself and to other castes. Members cannot marry outside their caste, nor can they easily change the caste into which they are born, but they are equal within their caste, advancing in their professions by merit and ability. The castes work interdependently with each other, and without one, the others fail. The system of obligation and counter-obligation keeps the society functioning, and few who receive its benefits rail against it-but others often see it as a means to subjugate others without hope of change. The whole culture may resonate with this tension.",
+			"Each caste carries its own duties and responsibilities to itself and to other castes. Members cannot marry outside their caste, nor can they easily change the caste into which they are born, but they are equal within their caste, advancing in their professions by merit and ability. The castes work interdependently with each other, and without one, the others fail. The system of obligation and counter-obligation keeps the society functioning, and few who receive its benefits rail against it - but others often see it as a means to subjugate others without hope of change. The whole culture may resonate with this tension.",
 			"",
 			"***Decadent:*** Societies rise, and societies fall. Lesser societies simply fade away and vanish under the relentless tread of history or conquering armies. Greater societies, though, are more likely to slip, notch by notch, into the darkness. Is this effect due to the corrupting influence of money? The over-extension of the military into ill-advised ventures? The widening gap between the upper and lower social classes, or perhaps the exaggerated effects of various fads, drugs, or religions? Whatever the cause, the once-great society loses its power and watches its territories fall away. Its enemies seize their chances and strip away outlying lands. Strong provinces declare independence. Former allies take the opportunity to snatch weaker provinces or rich trade routes.",
 			"",
-			"In the cities and towns, malaise sets in. The citizens oscillate from one extreme to another, seeking ways to restore their power and former glory. They may divide into factions, seeking to gather as much power as possible for themselves so that they can enjoy the fruits of empire before they die, or to help shape what they see as the possible rebirth of their land. Either way, the ruling class and the classes beneath are fractured, suspicious, and frequently ready for violence. Though the infrastructure that holds the empire together still exists, it falls into greater disrepair, and the poor become more feral even as the wealthy become more indolent. The decadent culture, once reliant on law, is spiraling into chaos and anarchy-a fertile ground for adventurers.",
+			"In the cities and towns, malaise sets in. The citizens oscillate from one extreme to another, seeking ways to restore their power and former glory. They may divide into factions, seeking to gather as much power as possible for themselves so that they can enjoy the fruits of empire before they die, or to help shape what they see as the possible rebirth of their land. Either way, the ruling class and the classes beneath are fractured, suspicious, and frequently ready for violence. Though the infrastructure that holds the empire together still exists, it falls into greater disrepair, and the poor become more feral even as the wealthy become more indolent. The decadent culture, once reliant on law, is spiraling into chaos and anarchy: a fertile ground for adventurers.",
 			"",
-			"***Magocracy:*** Similar to an aristocracy, a magocracy is a society in which wizards, sorcerers, and other magically imbued beings control the government. Those who have magic at their fingertips are at an immediate advantage in this country, though they may have to prove themselves against others, depending on the local codes. Those who do not have magic tend to be the underclass, serving the whims of their masters. These cultures often orient themselves more toward research into powerful and esoteric magics than day-to-day politics, and thus they may slide more quickly into decadence. The leaders may enact brilliant policies and create a utopia for all, or the elite may dabble constantly in the lives of their citizens, experimenting and choosing wildly disparate means to test their theories. Some of these societies will be blasted wastelands; some will be paradises. The trade from these countries is likely rich in magic and power, but their trading partners may be concerned about fraud and justice. These lands tend to be open to adventurers, just as the rulers tend to be open to new experiments and new ideas, but there are always exceptions, and some will have their borders sealed by magical energies. Adventurers from a magocracy might below-magic outcasts who have fled to find themselves a greater place in history, wizardly apprentices or journeymen who travel as ambassadors and spies, or scholars in search of undiscovered knowledge.",
+			"***Magocracy:*** Similar to an aristocracy, a magocracy is a society in which wizards, sorcerers, and other magically imbued beings control the government. Those who have magic at their fingertips are at an immediate advantage in this country, though they may have to prove themselves against others, depending on the local codes. Those who do not have magic tend to be the underclass, serving the whims of their masters. These cultures often orient themselves more toward research into powerful and esoteric magics than day-to-day politics, and thus they may slide more quickly into decadence. The leaders may enact brilliant policies and create a utopia for all, or the elite may dabble constantly in the lives of their citizens, experimenting and choosing wildly disparate means to test their theories. Some of these societies will be blasted wastelands; some will be paradises.",
 			"",
-			"***Matriarchy:*** A matriarchy is a system in which women rule and men may be subjugated to a greater or lesser extent. The populace could be warlike, as with the Amazon civilization, in which women used men as slaves and fathers but not as husbands, and could not be mothers until they had killed a man in battle. Alternatively, the society could be gentle and nurturing, with women permitting men to help with defense, but otherwise dominating the political scene, industry, and the arts through a combination of communal rule, and utilitarian care for the good of all. Consider the society's origins-is the matriarchy a violent, revolutionary response to a history of male oppression, or a natural evolution over the course of generations, about which no one now thinks twice?",
+			"The trade from these countries is likely rich in magic and power, but their trading partners may be concerned about fraud and justice. These lands tend to be open to adventurers, just as the rulers tend to be open to new experiments and new ideas, but there are always exceptions, and some will have their borders sealed by magical energies. Adventurers from a magocracy might be low-magic outcasts who have fled to find themselves a greater place in history, wizardly apprentices or journeymen who travel as ambassadors and spies, or scholars in search of undiscovered knowledge.",
 			"",
-			"When creating a matriarchy, the world builder should address the roles of both women and men in the society, and whether the rulers welcome men as visitors and nearequals or enslave them on sight.",
+			"***Matriarchy:*** A matriarchy is a system in which women rule and men may be subjugated to a greater or lesser extent. The populace could be warlike, as with the Amazon civilization, in which women used men as slaves and fathers but not as husbands, and could not be mothers until they had killed a man in battle. Alternatively, the society could be gentle and nurturing, with women permitting men to help with defense, but otherwise dominating the political scene, industry, and the arts through a combination of communal rule, and utilitarian care for the good of all. Consider the society's origins: is the matriarchy a violent, revolutionary response to a history of male oppression, or a natural evolution over the course of generations, about which no one now thinks twice?",
+			"",
+			"When creating a matriarchy, the world builder should address the roles of both women and men in the society, and whether the rulers welcome men as visitors and near-equals or enslave them on sight.",
 			"",
 			"***Monstrous:*** Many monstrous societies are low on the technological spectrum, living in caves and subsisting primarily as raiders, rather than as creators or farmers, but some of them make the leap to more advanced civilizations, usually far from human lands. Sometimes these societies are splintered from the rest of their kindred and have been exiled from the lands they once thought to rule. They may prey upon more civilized societies, raiding for slaves to work their crude farms and to replace those who fall, or they may wish only to live and let live, pursuing the advancement of their species in peace but unafraid to defend their realms with fang and claw. Both because of their natures and due to the persecution they often find at the hands of \"normal\" races, monstrous cultures often take a dim view of outsiders. They may tolerate visitors but rarely welcome them.",
 			"",
 			"***Theocracy:*** In a world where the gods not only exist but manifest their existence through direct action, their spokespeople will naturally assume a greater degree of control in some societies. Some folk are more deeply religious than others, and in these societies, priests can easily take control of the levers of government, existing not just alongside but in place of the temporal authorities. They dictate the laws based on their holy teachings and expect the populace to fall in line. The priests of chaotic gods rarely take control of governments like this; they believe in individuality, not the rule of law.",
 			"",
-			"If a priesthood assumes power by entering an existing power structure, its members may simply place themselves at the top and control the ministries or courts of the nobles by edict and fiat. If they instead choose to replace the previous power structure, they might establish a government as a mirror (or branch) of church hierarchy. Priests assume the power of bureaucrats, scribes, courtiers, and judges, interpreting the words of their deities as law. Until their god-given powers disappear, it likely seems reasonable to both them and their constituents to assume that their actions have the blessing of their god-a divine mandate in the most literal sense.",
+			"If a priesthood assumes power by entering an existing power structure, its members may simply place themselves at the top and control the ministries or courts of the nobles by edict and fiat. If they instead choose to replace the previous power structure, they might establish a government as a mirror (or branch) of church hierarchy. Priests assume the power of bureaucrats, scribes, courtiers, and judges, interpreting the words of their deities as law. Until their god-given powers disappear, it likely seems reasonable to both them and their constituents to assume that their actions have the blessing of their god: a divine mandate in the most literal sense.",
 			"",
-			"By their nature, priests in a fantasy world must be faithful to reap the benefits of the power of prayer. Those who rise to power within the church hierarchy are therefore the most faithful of the faithful-their detractors might even call them extremists and zealots. Moderates might exist peacefully within a theocratic government, but they also might be hounded out and driven away from the ship of state. Outsiders may be welcome, or they may be required to convert or tithe to the church while within the borders. Priests from these lands might be more devout, seeing their rule as a privilege, or they might be sycophantic politicians cloaking themselves in the barest shreds of faith. Adventuring priests from such lands might act as missionaries and envoys, and how expansionist the government is likely depends on the teachings and interpretations of their holy texts. Such a society may choose to remain within its borders and attract followers by virtue of its shining goodness, or it might choose to launch crusades to bring nonbelievers to the truth."
+			"By their nature, priests in a fantasy world must be faithful to reap the benefits of the power of prayer. Those who rise to power within the church hierarchy are therefore the most faithful of the faithful; their detractors might even call them extremists and zealots. Moderates might exist peacefully within a theocratic government, but they also might be hounded out and driven away from the ship of state. Outsiders may be welcome, or they may be required to convert or tithe to the church while within the borders. Priests from these lands might be more devout, seeing their rule as a privilege, or they might be sycophantic politicians cloaking themselves in the barest shreds of faith. Adventuring priests from such lands might act as missionaries and envoys, and how expansionist the government is likely depends on the teachings and interpretations of their holy texts. Such a society may choose to remain within its borders and attract followers by virtue of its shining goodness, or it might choose to launch crusades to bring nonbelievers to the truth."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"creating_a_world",
-			"cultural_considerations"
+			"cultural_considerations",
+			"societies"
 		],
 		"siblings": [
-			"core_elements_of_the_people",
-			"government_and_law",
-			"economics",
 			"the_primitive_society",
 			"the_feudal_society",
 			"the_rural_agrarian_society",
@@ -6929,7 +6896,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 160](source/gamemastery_guide)",
 			"",
-			"One of the most important factors in building a world is its level of technological advancement. Technology affects every aspect of the game, from what gear PCs carry to what kinds of adventures a GM can run. Though many fantasy games presume a level of technology based on medieval Europe, this is far from the only option-even leaving aside those subgenres that might qualify as science fiction, fantasy can still run the gamut from steampunk and magic-infused technocracy to the hardscrabble world of primitive barbarian tribes. So how do you decide what's right for your world?"
+			"One of the most important factors in building a world is its level of technological advancement. Technology affects every aspect of the game, from what gear PCs carry to what kinds of adventures a GM can run. Though many fantasy games presume a level of technology based on medieval Europe, this is far from the only option - even leaving aside those subgenres that might qualify as science fiction, fantasy can still run the gamut from steampunk and magic-infused technocracy to the hardscrabble world of primitive barbarian tribes. So how do you decide what's right for your world?"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -7133,7 +7100,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
 			"",
-			"In most fantasy settings, time is a linear construct, a series of dates on a line. This is the standard construct, but it can also be tweaked. Do the people of your world think of time as a series of never-ending cycles or in terms of ages defined by a common theme, such as the Dark Ages or the Age of Reason? Does history repeat itself ? If so, is this repetition what leads to prophecy, and how does it affect the role of sages, historians, and storytellers? Alternatively, you might decide that time happens all at once, a singular, shared hallucination-this obviously becomes complicated and makes great demands on your world's cosmology, but it can be a fun conceit nonetheless.",
+			"In most fantasy settings, time is a linear construct, a series of dates on a line. This is the standard construct, but it can also be tweaked. Do the people of your world think of time as a series of never-ending cycles or in terms of ages defined by a common theme, such as the Dark Ages or the Age of Reason? Does history repeat itself? If so, is this repetition what leads to prophecy, and how does it affect the role of sages, historians, and storytellers? Alternatively, you might decide that time happens all at once, a singular, shared hallucination-this obviously becomes complicated and makes great demands on your world's cosmology, but it can be a fun conceit nonetheless.",
 			"",
 			"Assuming time is linear and cause leads to effect, how long are your world's years, seasons, months, or weeks? In most cultures, these are labels for meteorological or cosmic events that can be reliably tracked. The sun goes down every day, the moon goes through its phases every month, the seasons come in cycles of four, and so forth. Any and all of these could be altered or eliminated, so long as you think of some reasonably sensible explanation for it.",
 			"",

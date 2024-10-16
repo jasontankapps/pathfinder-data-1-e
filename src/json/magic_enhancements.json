@@ -509,7 +509,7 @@
 		]
 	},
 	"buoyant_light_armor": {
-		"name": "Buoyant (light Armor)",
+		"name": "Buoyant (light armor)",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Buoyant",
@@ -543,7 +543,7 @@
 		]
 	},
 	"buoyant_medium_heavy_armor": {
-		"name": "Buoyant (medium/heavy Armor)",
+		"name": "Buoyant (medium/heavy armor)",
 		"sources": [ "Magical Marketplace" ],
 		"copyof": "buoyant_light_armor"
 	},
