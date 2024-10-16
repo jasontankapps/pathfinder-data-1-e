@@ -3,8 +3,8 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 
 interface HistoryState {
 	current: string
-	previous: string[]
-	next: string[]
+	previous: string[] // "most recent", "next recent", ... "first page shown"
+	next: string[] // "next page", "the page after next", ... "last page shown"
 }
 
 type NewLocation = string;
@@ -40,7 +40,7 @@ export const historySlice = createSlice({
 				current: previous.shift()!,
 				previous,
 				next: [state.current, ...state.next]
-			}
+			};
 			return newState;
 		},
 		goForward: (state) => {
@@ -52,14 +52,64 @@ export const historySlice = createSlice({
 				current: next.shift()!,
 				previous: [state.current, ...state.previous],
 				next
+			};
+			return newState;
+		},
+		goBackNum: (state, action: PayloadAction<number>) => {
+			let { payload } = action;
+			const previous = [...state.previous];
+			const next = [...state.next];
+			if(previous.length === 0 || payload <= 0) {
+				return state;
+			} else if(previous.length <= payload) {
+				return {
+					current: previous.pop()!,
+					previous: [],
+					next: [...(previous.reverse()), state.current, ...next]
+				};
 			}
+			next.unshift(state.current);
+			while(payload > 1) {
+				next.unshift(previous.shift()!);
+				--payload;
+			}
+			const newState: HistoryState = {
+				current: previous.shift()!,
+				previous,
+				next
+			};
+			return newState;
+		},
+		goForwardNum: (state, action: PayloadAction<number>) => {
+			let { payload } = action;
+			const previous = [...state.previous];
+			const next = [...state.next];
+			if(next.length === 0 || payload <= 0) {
+				return state;
+			} else if(next.length <= payload) {
+				return {
+					current: next.pop()!,
+					previous: [...(next.reverse()), state.current, ...previous],
+					next: []
+				};
+			}
+			previous.unshift(state.current);
+			while(payload > 1) {
+				previous.unshift(next.shift()!);
+				--payload;
+			}
+			const newState: HistoryState = {
+				current: next.shift()!,
+				previous,
+				next
+			};
 			return newState;
 		}
 	}
 });
 
 // Export the generated action creators for use in components
-export const { goTo, goBack, goForward } = historySlice.actions;
+export const { goTo, goBack, goForward, goBackNum, goForwardNum } = historySlice.actions;
 
 // Export the slice reducer for use in the store configuration
 export default historySlice.reducer;

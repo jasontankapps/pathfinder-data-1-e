@@ -1551,6 +1551,8 @@ const checkForPrefix = {};
 const prefixes = [];
 // The bare index of names/titles
 const fuseIndex = [];
+// The corresponding index of links
+const linkIndex = [];
 // The raw info to be used by SearchPage
 const dataIndex = [];
 
@@ -1605,6 +1607,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		const indexable = { name: named };
 		tags && (indexable.tags = tags);
 		fuseIndex.push(indexable);
+		linkIndex.push(`${link}/${prop}`);
 		// Save for extra data to be used by the search page
 		const searchgroup = sg || (sg2 && (searchgroups.indexOf(sg2) + 1));
 		dataIndex.push({
@@ -1631,3 +1634,5 @@ console.log("Saved _data__fuse-translated-data.json");
 
 fs.writeFileSync('./src/json/_data__fuse-index.json', JSON.stringify(fuseIndex));
 console.log("Saved _data__fuse-index.json");
+fs.writeFileSync('./src/json/_data__linked-index.json', JSON.stringify(linkIndex));
+console.log("Saved _data__linked-index.json");
