@@ -15,7 +15,9 @@ const plugins = [remarkGfm];
 
 const doLink = (props: MDaProps, prefix: string) => {
 	const { href = "", children, id, "aria-label": ariaLabel } = props;
-	if(href.match(/^\//)) {
+	if (href.match(/^http/)) {
+		return <a href={href} id={id} aria-label={ariaLabel}>{children}</a>
+	} else if(href.match(/^\//)) {
 		// Initial slash indicates this needs a ripple.
 		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
 	} else if (href.match(/^#/)) {

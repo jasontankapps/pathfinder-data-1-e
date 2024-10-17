@@ -40,36 +40,26 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 		<IonFooter>
 			<IonActionSheet
 				ref={prevSheet}
-				className="bottomEmph"
+				className="historySheet pagesPrev"
 				isOpen={prevOpen}
 				onDidDismiss={() => setPrevOpen(false)}
-				onDidPresent={() => {
-					if(prevSheet && prevSheet.current) {
-						prevSheet.current.querySelector("div.action-sheet-group:not(.action-sheet-group-cancel) button:last-child")!.scrollIntoView();
-					}
-				}}
 				buttons={
 					previous.map((page, i) => ({
 						text: getPageName(page),
 						handler: () => { dispatch(goBackNum(i + 1)); history.push(page); }
-					} as ActionSheetButton)).reverse().concat([{ text: "Cancel", role: "cancel" }])
+					} as ActionSheetButton)).concat([{ text: "Cancel", role: "cancel" }])
 				}
 			/>
 			<IonActionSheet
 				ref={nextSheet}
-				className="bottomEmph"
+				className="historySheet pagesNext"
 				isOpen={nextOpen}
 				onDidDismiss={() => setNextOpen(false)}
-				onDidPresent={() => {
-					if(nextSheet && nextSheet.current) {
-						nextSheet.current.querySelector("div.action-sheet-group:not(.action-sheet-group-cancel) button:last-child")!.scrollIntoView();
-					}
-				}}
 				buttons={
 					next.map((page, i) => ({
 						text: getPageName(page),
 						handler: () => { dispatch(goForwardNum(i + 1)); history.push(page); }
-					} as ActionSheetButton)).reverse().concat([{ text: "Cancel", role: "cancel" }])
+					} as ActionSheetButton)).concat([{ text: "Cancel", role: "cancel" }])
 				}
 			/>
 			<IonToolbar>
