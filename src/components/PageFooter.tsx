@@ -7,6 +7,7 @@ import {
 } from '@ionic/react';
 import { chevronBack, chevronForward, book } from 'ionicons/icons';
 import { useLongPress } from '@uidotdev/usehooks';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goBack, goForward, goBackNum, goForwardNum } from '../store/historySlice';
 import getPageName from './getPageName';
@@ -34,8 +35,14 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 	const [nextOpen, setNextOpen] = useState<boolean>(false);
 	const prevSheet = useRef<any>(null);
 	const nextSheet = useRef<any>(null);
-	const longPressPrev = useLongPress(() => setPrevOpen(true), {});
-	const longPressNext = useLongPress(() => setNextOpen(true), {});
+	const longPressPrev = useLongPress(() => {
+		setPrevOpen(true);
+		Haptics.impact({ style: ImpactStyle.Medium });
+	}, {});
+	const longPressNext = useLongPress(() => {
+		setNextOpen(true);
+		Haptics.impact({ style: ImpactStyle.Medium });
+	}, {});
 	return (
 		<IonFooter>
 			<IonActionSheet
@@ -46,7 +53,7 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 				buttons={
 					previous.map((page, i) => ({
 						text: getPageName(page),
-						handler: () => { dispatch(goBackNum(i + 1)); history.push(page); }
+						handler: () => { dispatch(goBackNum(i + 1)); history.push(page); Haptics.impact({ style: ImpactStyle.Light }); }
 					} as ActionSheetButton)).concat([{ text: "Cancel", role: "cancel" }])
 				}
 			/>
@@ -58,19 +65,19 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 				buttons={
 					next.map((page, i) => ({
 						text: getPageName(page),
-						handler: () => { dispatch(goForwardNum(i + 1)); history.push(page); }
+						handler: () => { dispatch(goForwardNum(i + 1)); history.push(page); Haptics.impact({ style: ImpactStyle.Light }); }
 					} as ActionSheetButton)).concat([{ text: "Cancel", role: "cancel" }])
 				}
 			/>
 			<IonToolbar>
 				<IonButtons slot="start">
-					<IonButton {...longPressPrev} id="prevButton" onClick={() => { dispatch(goBack()); history.push(previous[0]); }} disabled={previous.length === 0}>
+					<IonButton {...longPressPrev} id="prevButton" onClick={() => { dispatch(goBack()); history.push(previous[0]); Haptics.impact({ style: ImpactStyle.Light }); }} disabled={previous.length === 0}>
 						<IonIcon slot="icon-only" icon={chevronBack} />
 					</IonButton>
 				</IonButtons>
 				{setIsSourcesModalOpen ? <Slotless func={setIsSourcesModalOpen} /> : <></>}
 				<IonButtons slot="end">
-					<IonButton {...longPressNext} id="nextButton" onClick={() => { dispatch(goForward()); history.push(next[0]); }} disabled={next.length === 0}>
+					<IonButton {...longPressNext} id="nextButton" onClick={() => { dispatch(goForward()); history.push(next[0]); Haptics.impact({ style: ImpactStyle.Light }); }} disabled={next.length === 0}>
 						<IonIcon slot="icon-only" icon={chevronForward} />
 					</IonButton>
 				</IonButtons>
