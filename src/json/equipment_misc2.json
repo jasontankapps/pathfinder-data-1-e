@@ -5692,6 +5692,18 @@
 			"These four thin horseshoes shield a horse's feet as well as steel, allowing it to gallop with confidence, but mithral horseshoes are far lighter than steel. Horses shod with mithral horseshoes treat their hoof attacks as if they were silver for the purposes of overcoming damage reduction."
 		]
 	},
+	"horseshoes": {
+		"name": "Horseshoes",
+		"sources": [],
+		"description": [
+			"## Horseshoes",
+			"**Source** (none)  ",
+			"**Price** 50 gp; **Weight** 8 lbs.  ",
+			"**Category** Animal Gear",
+			"",
+			"This item is based on [mithral horseshoes](equipment-misc/mithral_horseshoes), back-ported per the rules for [mithral](equipment-material/mithral)."
+		]
+	},
 	"mithral_manacles": {
 		"name": "Mithral manacles",
 		"sources": [ "Adventurer's Armory" ],
