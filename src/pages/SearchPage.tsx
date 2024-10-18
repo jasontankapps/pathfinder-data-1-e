@@ -35,6 +35,7 @@ import './SearchPage.css';
 
 interface Item {
 	name: string
+	subtitle?: string
 	tags?: string
 }
 
@@ -83,6 +84,11 @@ const options = {
 			name: 'tags',
 			getFn: (item: Item) => item.tags || "",
 			weight: 0.9
+		},
+		{
+			name: 'subtitle',
+			getFn: (item: Item) => item.subtitle || "",
+			weight: 0.9
 		}
 	],
 	threshold: 0.8,
@@ -119,10 +125,12 @@ const SearchItem = ({index, style, data}: SearchResultItem) => {
 	const {results, data: d} = data;
 	const { refIndex } = results[index];
 	const {t, p, l} = d[refIndex]; // t = type, p = prefix, l = link
+	const { name: title, subtitle } = fuseIndex[refIndex];
+	const displayName = subtitle ? `${title} (${subtitle})` : title;
 	return (
 		<div style={style} className="searchResult ion-activatable">
 			<Link to={`/${prefixes[p]}/${l}`}>
-				<h3>{fuseIndex[refIndex].name}</h3>
+				<h3>{displayName}</h3>
 				<h4>{types[t]}</h4>
 			</Link>
 			<IonRippleEffect />

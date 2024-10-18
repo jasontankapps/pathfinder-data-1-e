@@ -80,6 +80,7 @@ const PageFooter: React.FC<PageProps> = ({open, setOpen}) => {
 						</tbody>
 					</table>
 					<p>You may use these search commands together, e.g. <code>^fey 'kill | fright</code> would match anything that either starts with "fey" and includes "kill", or anything that fuzzy-matches "fright".</p>
+					<p>If you need to include more than one word with one of the special cases above, enclose them in quotes, e.g. <code>^"Summon Monster"</code> would match anything that begins with the phrase "Summon Monster".</p>
 				</div>
 			</IonContent>
 			<IonFooter>

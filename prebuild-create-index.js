@@ -31,7 +31,13 @@ const searchindex = [
 	"Monsters", // 11
 	"Rules" // 12
 ];
-// The below will need to be updated if any files are modified/created/deleted.
+//
+//
+// ************** WARNING!!!
+//
+// The below will need to be updated if any base JSON files are renamed/created/deleted.
+//
+//
 const basic_data_groups = {
 	"archetypes_alchemist.json": {
 		searchgroup: 2, // archetype
@@ -1593,18 +1599,15 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 				grouping_data[link][prop] = num;
 			}
 		}
-		let named = n || title;
-		let c = copyof;
-		if(c && !named) {
+		const named = n || title;
+		if(copyof && !named) {
 			// This is a plain copy, no name change or anything.
 			// No need to put this in the searchable index.
 			return;
 		}
-		// Deal with a blank name
-		named = named || "BLANK";
-		subtitle && (named = named + ` (${subtitle})`);
 		// Save for search index, used directly by Fuse.js
-		const indexable = { name: named };
+		const indexable = { name: named || "BLANK" };
+		subtitle && (indexable.subtitle = subtitle);
 		tags && (indexable.tags = tags);
 		fuseIndex.push(indexable);
 		linkIndex.push(`${link}/${prop}`);
@@ -1613,7 +1616,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		dataIndex.push({
 			t: checkForType[type],
 			p: checkForPrefix[link],
-			l: copyof ? copyof : prop,
+			l: copyof || prop,
 			s: searchgroup
 		});
 	});
