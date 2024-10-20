@@ -3818,6 +3818,7 @@
 		]
 	},
 	"nessian_warhound": { "copyof": "hell_hound_nessian_warhound" },
+	"nessian_hell_hound": { "copyof": "hell_hound_nessian_warhound" },
 	"hellcat": {
 		"name": "Hellcat",
 		"sources": [ "Bestiary 2" ],

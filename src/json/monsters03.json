@@ -2124,6 +2124,7 @@
 			"To generate stats for a smaller bear (like a black bear), you can apply the young simple template to the grizzly bear's stat block. To generate stats for a larger grizzly or a polar bear, apply the advanced simple template to the grizzly's stats."
 		]
 	},
+	"bear": { "copyof": "bear_grizzly_bear" },
 	"grizzly_bear": { "copyof": "bear_grizzly_bear" },
 	"bear_polar_bear": {
 		"name": "Bear, Polar Bear",
