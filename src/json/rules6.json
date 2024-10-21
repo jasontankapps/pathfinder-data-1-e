@@ -1,4 +1,122 @@
 {
+	"adventures": {
+		"name": "Adventures",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
+			"",
+			"Past the elaborate details and fantastical beasts, beyond the schemes of villains and works of strange magic, lies the culmination of the Game Master's craft: the development and harmonizing of numerous characters, plots, creatures, and settings into a single vibrant, dangerous, and enthralling experience: a Pathfinder Roleplaying Game adventure."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide"
+		],
+		"subtopics": [
+			"elements_of_adventure",
+			"dungeons_gg",
+			"planar",
+			"taverns",
+			"urban",
+			"water",
+			"wilderness_gg"
+		],
+		"siblings": [
+			"getting_started",
+			"running_a_game",
+			"player_characters",
+			"non-player_characters",
+			"rewards",
+			"creating_a_world",
+			"adventures",
+			"advanced_topics",
+			"npc_gallery"
+		]
+	},
+	"elements_of_adventure": {
+		"name": "Elements of Adventure",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
+			"",
+			"More than simply the sum of its parts, a great adventure transcends any host of villains, arsenal of cunning traps, legion of monsters, or stack of stat blocks. Brought to life by the interplay of a creative GM with dynamic players, a great adventure is something akin to a living fantasy story, thrilling and captivating in a way that - like an epic work of fiction - draws participants into the tale, makes them integral parts of the excitement, and leaves them yearning to see how the story unfolds. Such an adventure is both the pinnacle and the goal of the Game Master's art.",
+			"",
+			"Yet building such an adventure proves no mean feat, and it relies on a variety of factors. While the previous parts of this guide have laid the groundwork to help GMs choose and create many of the elements that go into crafting a great gaming experience, these elements all come together in the adventure and the act of storytelling itself. To help GMs in the sometimes daunting task of pulling together a great fantasy adventure, this section presents a storehouse of advice, inspiration, and tools for GMs to plan and create adventures in a wide variety of settings. From advice on managing staple elements of nearly any plot, to helpful new rules elements to enhance campaigns venturing into classic RPG locales, to random encounter tables easily customized for use in nearly any setting, this section is designed to be a constant aid to GMs, no matter what types of campaigns they decide to run."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures"
+		],
+		"subtopics": [
+			"what_makes_a_great_adventure",
+			"choosing_your_adventure"
+		],
+		"siblings": [
+			"elements_of_adventure",
+			"dungeons_gg",
+			"planar",
+			"taverns",
+			"urban",
+			"water",
+			"wilderness_gg"
+		]
+	},
+	"what_makes_a_great_adventure": {
+		"name": "What Makes a Great Adventure",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
+			"",
+			"The question of what defines a great Pathfinder Roleplaying Game adventure conjures to mind a wide variety of potential answers, from artistic ideas regarding the combination of great storytelling and enthusiastic players to more literal mixtures of planning, plot, and rules. In the end, though, the answer tends to be subjective: a great adventure is any blend of preparation, storytelling, roleplaying, and strategy that keeps both the GM and players involved, entertained, and coming back for more. Whether the adventure is custom-designed or drawn directly from printed products, there is no right or wrong way to play, as long as the entire group is having fun.",
+			"",
+			"Yet as simple as this golden rule of gaming might seem, creating and running a fantastic adventure can involve lots of work and a significant investment of time. Even running a published adventure module can mean hours of reading to familiarize yourself with the content, as heading into a game session only half prepared and trusting in improvisation can lead a game into unforeseen and possibly undesired territory. The better prepared a GM is, or at least appears to be, the more time PCs can spend playing.",
+			"",
+			"The best GMs prepare for an adventure by doing what they must to present a seamless roleplaying experience. For those knowledgeable of a campaign's setting and comfortable with creating content on fly, this might mean very little. For others, this could mean hours of reading and crafting ancillary plots and characters in case an adventure takes an unanticipated course. Neither course nor any other method of preparation is necessarily favorable over others, as each GM should find a method that keeps him entertained and lets him comfortably tell the stories he chooses.",
+			"",
+			"The major goal, though, is seamlessness, the appearance that the GM has accounted for every eventuality the PCs might arrive at or, even better, that the GM is simply the mouthpiece of a world where all things are possible. Such is always an illusion, though, a mask for the GM's preparation and imagination. Yet, the less time a GM needs to spend digging through rulebooks, pausing to think up character names and traits, or not appearing to know what's going on in his own game, the more believable and ultimately the more successful the adventure.",
+			"",
+			"To aid in all this, the current section highlights several general locations common to Pathfinder RPG adventures. Each section features considerations a GM preparing for his adventure might take into account, as well as a wide variety of tables to aid in making interesting and evocative choices spontaneously should the PCs take some unexpected route or to merely help add a bit more detail."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"elements_of_adventure"
+		],
+		"siblings": [
+			"what_makes_a_great_adventure",
+			"choosing_your_adventure"
+		]
+	},
+	"choosing_your_adventure": {
+		"name": "Choosing Your Adventure",
+		"subtitle": "Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
+			"",
+			"Specifics of storytelling style and ongoing plots aside, all adventures find common elements in the settings where their action unfolds. In the Pathfinder RPG, certain settings come up again and again: taverns where heroes meet for the first time and rest between adventures, dungeons rife with traps and monsters, untamed wilds full of mystery and danger, cities teeming with cutpurses and political subtlety, vast seas where swashbucklers and cutthroats sail into the unknown, and otherworldly planes where the impossible takes shape. While adventures certainly might occur in other venues, most conform in one way or another to the general settings described here - including the microcosm of the tavern, due to its traditional importance in the game.",
+			"",
+			"When planning or playing an adventure, it often helps to have an understanding of what type of locale forms the setting for your adventure. Most of the time this proves obvious; when the PCs are shopping and carousing, they're likely in an urban setting, but when they're exploring the back country, they're probably in the wilderness. Such settings bring with them a variety of concerns and rules elements that the GM should be familiar with (or at least have on hand) as the adventure unfolds. If an adventure calls for the PCs to fight against privateers, for example, the GM should have the rules for swimming and drowning handy; it can also be helpful to know the parts of a ship and what creatures might randomly appear from the water. A major goal of this section is to collect these details and point the GM toward other useful pieces of information, providing much of the relevant details he needs to run a convincing adventure.",
+			"",
+			"Just because an adventure takes place in a standard setting doesn't mean that location always acts like a typical example of its kind. If the PCs find themselves slinking through the alleys of a drow city, the location likely functions much more like a dungeon than a city. By the same token, a forest under the effects of powerful fey magic might behave less like part of the wilderness and more akin to a plane unto itself. In such cases, rules not commonly associated with that type of setting might apply, driving home a sense of strangeness or menace that can help a setting feel all the more distinct. Thus, some of the most interesting and memorable uses of such elements might occur when they arise outside their typical settings.",
+			"",
+			"Once the GM knows what type of adventure he wants to run, consulting the details and special rules in this section and the Pathfinder RPG Core Rulebook can help highlight those aspects that make the chosen location unique. Players should be able to feel that adventuring in a dungeon, underwater, and on the planes are all distinctly different experiences, presenting unique challenges and choices. Melding the descriptions of such settings with game components that help drive home the feel and personality of an adventure site can add variation and detail to any story. If the GM can meld both the descriptive and rules elements of the game - whether through creativity, rules knowledge, well-reasoned improvisation, quick reference, or a combination of these traits - the players' roleplaying experiences will be all the richer."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"elements_of_adventure"
+		],
+		"siblings": [
+			"what_makes_a_great_adventure",
+			"choosing_your_adventure"
+		]
+	},
 	"planar": {
 		"name": "Planar",
 		"subtitle": "Gamemastering",
@@ -2322,14 +2440,7 @@
 		"subtopics": [
 			"the_shape_of_civilization",
 			"streets_and_traffic",
-			"settlement_population_ranges",
 			"settlements_in_play",
-			"the_settlement_stat_block",
-			"settlement_modifiers",
-			"settlement_alignment",
-			"settlement_government",
-			"settlement_qualities",
-			"settlement_disadvantages",
 			"sample_settlements",
 			"urban_toolbox"
 		],
@@ -2345,6 +2456,7 @@
 	},
 	"the_shape_of_civilization": {
 		"name": "The Shape of Civilization",
+		"tags": "settlement population",
 		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -2364,7 +2476,22 @@
 			"",
 			"Another way to help conceptualize such huge numbers of people is to look at sports arenas, some of which can hold the population of a small or medium-sized town within a single vast structure. The famous Coliseum in Rome could hold 50,000 people at a time. Modern Yankee Stadium can hold nearly 60,000 people.",
 			"",
-			"You should also consider the settlement's level of sanitation and the presence of sewers. A city with decent sanitation copes with disease considerably better than those where people simply dump sewage in the streets. Settlements with sewers and other sanitation infrastructure also provide ready-made locations for your players to explore, hunting down criminals and cultists or searching for lost treasure, all beneath the feet of the unaware citizens walking the streets above."
+			"You should also consider the settlement's level of sanitation and the presence of sewers. A city with decent sanitation copes with disease considerably better than those where people simply dump sewage in the streets. Settlements with sewers and other sanitation infrastructure also provide ready-made locations for your players to explore, hunting down criminals and cultists or searching for lost treasure, all beneath the feet of the unaware citizens walking the streets above.",
+			"",
+			"### Settlement Population Ranges",
+			"",
+			"A settlement's population is left to the GM to assign, but you can use a settlement's type to help you determine just how many folks live in the city. Since the actual number of people who dwell in a settlement has no impact on game play, the number you choose is largely cosmetic - feel free to adjust the suggested values below to fit your campaign.",
+			"",
+			"| Settlement Type | Population Range |",
+			"| --- | --- |",
+			"| Thorp | Fewer than 20 |",
+			"| Hamlet | 21-60 |",
+			"| Village | 61-200 |",
+			"| Small town | 201-2,000 |",
+			"| Large town | 2,001-5,000 |",
+			"| Small city | 5,001-10,000 |",
+			"| Large city | 10,001-25,000 |",
+			"| Metropolis | More than 25,000 |"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -2375,14 +2502,7 @@
 		"siblings": [
 			"the_shape_of_civilization",
 			"streets_and_traffic",
-			"settlement_population_ranges",
 			"settlements_in_play",
-			"the_settlement_stat_block",
-			"settlement_modifiers",
-			"settlement_alignment",
-			"settlement_government",
-			"settlement_qualities",
-			"settlement_disadvantages",
 			"sample_settlements",
 			"urban_toolbox"
 		]
@@ -2396,7 +2516,7 @@
 			"",
 			"How do people get around in the town where they live? What are the streets and avenues of your settlement like? Is the town open, with wide avenues, or is it cramped, with houses crammed together, casting the streets and alleyways below into perpetual shadow?",
 			"",
-			"Assuming that the settlement doesn't contain some sort of wide-ranging magical transport network, most people get around the old-fashioned ways-by foot, mount, or carriage. In most cities, these are the only options available. However, depending on the city and the level of technology and/or magic available, how the populace gets from Point A to Point B could be far more interesting.",
+			"Assuming that the settlement doesn't contain some sort of wide-ranging magical transport network, most people get around the old-fashioned ways: by foot, mount, or carriage. In most cities, these are the only options available. However, depending on the city and the level of technology and/or magic available, how the populace gets from Point A to Point B could be far more interesting.",
 			"",
 			"Adult humans have a walking speed of around 3-1/2 miles per hour. Thus, walking across a small, open town may take only a matter of minutes. Yet as cities grow in size, they become more difficult to swiftly navigate because of the density of people, animals, and vehicles on their winding streets. In large cities or metropolises with moderate-to-high population density, people on foot move at the rate of a single mile per hour.",
 			"",
@@ -2419,55 +2539,7 @@
 		"siblings": [
 			"the_shape_of_civilization",
 			"streets_and_traffic",
-			"settlement_population_ranges",
 			"settlements_in_play",
-			"the_settlement_stat_block",
-			"settlement_modifiers",
-			"settlement_alignment",
-			"settlement_government",
-			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
-		]
-	},
-	"settlement_population_ranges": {
-		"name": "Settlement Population Ranges",
-		"subtitle": "Urban, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 203](source/gamemastery_guide)",
-			"",
-			"A settlement's population is left to the GM to assign, but you can use a settlement's type to help you determine just how many folks live in the city. Since the actual number of people who dwell in a settlement has no impact on game play, the number you choose is largely cosmetic-feel free to adjust the suggested values below to fit your campaign.",
-			"",
-			"| Settlement Type | Population Range |",
-			"| --- | --- |",
-			"| Thorp | Fewer than 20 |",
-			"| Hamlet | 21-60 |",
-			"| Village | 61-200 |",
-			"| Small town | 201-2,000 |",
-			"| Large town | 2,001-5,000 |",
-			"| Small city | 5,001-10,000 |",
-			"| Large city | 10,001-25,000 |",
-			"| Metropolis | More than 25,000 |"
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"urban"
-		],
-		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
-			"the_settlement_stat_block",
-			"settlement_modifiers",
-			"settlement_alignment",
-			"settlement_government",
-			"settlement_qualities",
-			"settlement_disadvantages",
 			"sample_settlements",
 			"urban_toolbox"
 		]
@@ -2481,7 +2553,7 @@
 			"",
 			"The best way to handle a settlement in your game, of course, is to plan it out, placing every shop and every home, naming every NPC, and mapping every building. Yet settlements are the most complicated locations you're likely to ever feature in your game, and the prospect of fully detailing one is daunting, especially if your PCs are likely to visit multiple settlements.",
 			"",
-			"Presented on the following pages are basic rules for a more streamlined method of handling settlements in your game. Essentially, these rules treat settlements almost as characters of their own, complete with stat blocks. Using these rules, you can generate the vital data for a settlement quickly and efficiently, and with this data you can handle the majority of your players' interactions with the settlement.",
+			"Presented below are basic rules for a more streamlined method of handling settlements in your game. Essentially, these rules treat settlements almost as characters of their own, complete with stat blocks. Using these rules, you can generate the vital data for a settlement quickly and efficiently, and with this data you can handle the majority of your players' interactions with the settlement.",
 			"",
 			"Note that for particularly large cities, you can use multiple settlement stat blocks to represent different districts within a city. This allows you to have neighborhoods with distinct characteristics inside one city's walls. GMs should feel free to add other new elements to create the cities they desire."
 		],
@@ -2494,16 +2566,17 @@
 		"siblings": [
 			"the_shape_of_civilization",
 			"streets_and_traffic",
-			"settlement_population_ranges",
 			"settlements_in_play",
+			"sample_settlements",
+			"urban_toolbox"
+		],
+		"subtopics": [
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"the_settlement_stat_block": {
@@ -2521,7 +2594,7 @@
 			"",
 			"***Modifiers:*** Settlements possess six modifiers that apply to specific skill checks made in the settlement. A settlement's starting modifier values are determined by its type. This value is further adjusted by the settlement's alignment, government, qualities, and disadvantages. Note that introducing settlement modifiers to your game will somewhat increase the complexity of skill checks by adding a variable modifier each time the PCs visit a new town or city-consider the use of these modifiers an optional rule.",
 			"",
-			"***Qualities:*** All settlements have a certain number of qualities that further adjust their statistics-think of qualities as feats for settlements. A settlement's type determines how many qualities it can have.",
+			"***Qualities:*** All settlements have a certain number of qualities that further adjust their statistics - think of qualities as feats for settlements. A settlement's type determines how many qualities it can have.",
 			"",
 			"***Danger:*** A settlement's danger value is a number that gives a general idea of how dangerous it is to live in the settlement. If you use the urban [encounters charts](rule/urban_toolbox) for random encounters in your city (or any similar wandering monster chart that uses percentile dice and ranks its encounters from lowest CR to highest CR), use the modifier associated with the settlement's danger value to adjust rolls on the encounter chart. A settlement's base danger value depends on its type.",
 			"",
@@ -2529,7 +2602,7 @@
 			"",
 			"***Government:*** This entry lists how the settlement is governed and ruled. The type of government a settlement follows affects its statistics.",
 			"",
-			"***Population:*** This number represents the settlement's population. Note that the exact number is flexible; a settlement's actual population can swell on market days or dwindle during winter-this number lists the average population of the settlement. Note that this number is generally used for little more than flavor-since actual population totals fluctuate, it's pointless to tether rules to this number. After the settlement's total population, a breakdown of its racial mix is listed in parentheses.",
+			"***Population:*** This number represents the settlement's population. Note that the exact number is flexible; a settlement's actual population can swell on market days or dwindle during winter; this number lists the average population of the settlement. Note that this number is generally used for little more than flavor; since actual population totals fluctuate, it's pointless to tether rules to this number. After the settlement's total population, a breakdown of its racial mix is listed in parentheses.",
 			"",
 			"***Notable NPCs:*** This section lists any notable NPCs who live in the city, sorted by their role in the community, followed by their name and then their alignment, gender, race, class, and level in parentheses.",
 			"",
@@ -2537,7 +2610,7 @@
 			"",
 			"***Spellcasting:*** Unlike magic items, spellcasting for hire is listed separately from the town's base value, since spellcasting is limited by the level of the available spellcasters in town. This line lists the highest-level spell available for purchase from spellcasters in town. Prices for spellcasting [can be found here](equipment-misc/spellcasting). A town's base spellcasting level depends on its type.",
 			"",
-			"***Minor Items/Medium Items/Major Items:*** This line lists the number of magic items above a settlement's base value that are available for purchase. In some city stat blocks, the actual items are listed in parentheses after the die range of items available-in this case, you can use these pre-rolled resources when the PCs first visit the city as the magic items available for sale on that visit. If the PCs return to that city at a later date, you can roll up new items as you see fit. See below for the number ranges determining how many items can be found in a community.",
+			"***Minor Items/Medium Items/Major Items:*** This line lists the number of magic items above a settlement's base value that are available for purchase. In some city stat blocks, the actual items are listed in parentheses after the die range of items available - in this case, you can use these pre-rolled resources when the PCs first visit the city as the magic items available for sale on that visit. If the PCs return to that city at a later date, you can roll up new items as you see fit. See below for the number ranges determining how many items can be found in a community.",
 			"",
 			"### Table 7-36: Settlement Statistics",
 			"",
@@ -2571,21 +2644,16 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"urban"
+			"urban",
+			"settlements_in_play"
 		],
 		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"settlement_modifiers": {
@@ -2601,9 +2669,9 @@
 			"",
 			"***Crime:*** Crime is a measure of a settlement's lawlessness. A settlement with a low crime modifier is relatively safe, with violent crimes being rare or even unknown, while a settlement with a high crime modifier is likely to have a powerful thieves' guild and a significant problem with violence. The atmosphere generated by a settlement's crime level applies as a modifier on Sense Motive checks to avoid being bluffed and to Sleight of Hand checks made to pick pockets.",
 			"",
-			"***Economy:*** A settlement's economy modifier indicates the health of its trade and the wealth of its successful citizens. A low economy modifier doesn't automatically mean the town is beset with poverty-it could merely indicate a town with little trade or one that is relatively self-sufficient. Towns with high economy modifiers always have large markets and many shops. A settlement's economy helps its citizens make money, and thus it applies as a modifier on all Craft, Perform, and Profession checks made to generate income.",
+			"***Economy:*** A settlement's economy modifier indicates the health of its trade and the wealth of its successful citizens. A low economy modifier doesn't automatically mean the town is beset with poverty - it could merely indicate a town with little trade or one that is relatively self-sufficient. Towns with high economy modifiers always have large markets and many shops. A settlement's economy helps its citizens make money, and thus it applies as a modifier on all Craft, Perform, and Profession checks made to generate income.",
 			"",
-			"***Law:*** Law measures how strict a settlement's laws and edicts are. A settlement with a low law modifier isn't necessarily crime-ridden-in fact, a low law modifier usually indicates that the town simply has little need for protection since crime is so rare. A high law modifier means the settlement's guards are particularly alert, vigilant, and well-organized. The more lawful a town is, the more timidly its citizens tend to respond to shows of force. A settlement's law modifier applies on Intimidate checks made to force an opponent to act friendly, Diplomacy checks against government officials, or Diplomacy checks made to call on the city guard.",
+			"***Law:*** Law measures how strict a settlement's laws and edicts are. A settlement with a low law modifier isn't necessarily crime-ridden; in fact, a low law modifier usually indicates that the town simply has little need for protection since crime is so rare. A high law modifier means the settlement's guards are particularly alert, vigilant, and well-organized. The more lawful a town is, the more timidly its citizens tend to respond to shows of force. A settlement's law modifier applies on Intimidate checks made to force an opponent to act friendly, Diplomacy checks against government officials, or Diplomacy checks made to call on the city guard.",
 			"",
 			"***Lore:*** A settlement's lore modifier measures not only how willing the citizens are to chat and talk with visitors, but also how available and accessible its libraries and sages are. A low lore modifier doesn't mean the settlement's citizens are idiots, just that they're close-mouthed or simply lack knowledge resources. A settlement's lore modifier applies on Diplomacy checks made to gather information and Knowledge checks made using the city's resources to do research when using a library.",
 			"",
@@ -2613,21 +2681,16 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"urban"
+			"urban",
+			"settlements_in_play"
 		],
 		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"settlement_alignment": {
@@ -2643,21 +2706,16 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"urban"
+			"urban",
+			"settlements_in_play"
 		],
 		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"settlement_government": {
@@ -2677,27 +2735,22 @@
 			"",
 			"***Overlord:*** The community's ruler is a single individual who either seized control or inherited command of the settlement. (Corruption and Law +2; Crime and Society -2)",
 			"",
-			"***Secret Syndicate:*** An unofficial or illegal group like a thieves' guild rules the settlement-they may use a puppet leader to maintain secrecy, but the group members pull the strings in town. (Corruption, Economy, and Crime +2; Law -6)"
+			"***Secret Syndicate:*** An unofficial or illegal group like a thieves' guild rules the settlement; they may use a puppet leader to maintain secrecy, but the group members pull the strings in town. (Corruption, Economy, and Crime +2; Law -6)"
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"urban"
+			"urban",
+			"settlements_in_play"
 		],
 		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"settlement_qualities": {
@@ -2707,9 +2760,9 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 207](source/gamemastery_guide)",
 			"",
-			"Settlements often have unusual qualities that make them unique. Listed below are several different qualities that can further modify a community's statistics. A settlement's type determines how many qualities it can have-once a quality is chosen, it cannot be changed.",
+			"Settlements often have unusual qualities that make them unique. Listed below are several different qualities that can further modify a community's statistics. A settlement's type determines how many qualities it can have - once a quality is chosen, it cannot be changed.",
 			"",
-			"Note that many of the following qualities adjust a town's base value or purchase limit by a percentage of the town's standard values. If a town has multiple qualities of this sort, add together the percentages from modifiers and then increase the base value by that aggregated total-do not apply the increases one at a time.",
+			"Note that many of the following qualities adjust a town's base value or purchase limit by a percentage of the town's standard values. If a town has multiple qualities of this sort, add together the percentages from modifiers and then increase the base value by that aggregated total - do not apply the increases one at a time.",
 			"",
 			"***Academic:*** The settlement possesses a school, training facility, or university of great renown. (Lore +1, increase spellcasting by 1 level)",
 			"",
@@ -2721,13 +2774,13 @@
 			"",
 			"***Notorious:*** The settlement has a reputation (deserved or not) for being a den of iniquity. Thieves, rogues, and cutthroats are much more common here. (Crime +1; Law -1; Danger +10; increase base value by 30%; increase purchase limit by 50%)",
 			"",
-			"***Pious:*** The settlement is known for its inhabitants' good manners, friendly spirit, and deep devotion to a deity (this deity must be of the same alignment as the community). (Increase spellcasting by 1 level; any faith more than one alignment step different than the community's official religion is at best unwelcome and at worst outlawed-obvious worshipers of an outlawed deity must pay 150% of the normal price for goods and services and may face mockery, insult, or even violence)",
+			"***Pious:*** The settlement is known for its inhabitants' good manners, friendly spirit, and deep devotion to a deity (this deity must be of the same alignment as the community). (Increase spellcasting by 1 level; any faith more than one alignment step different than the community's official religion is at best unwelcome and at worst outlawed; obvious worshipers of an outlawed deity must pay 150% of the normal price for goods and services and may face mockery, insult, or even violence)",
 			"",
 			"***Prosperous:*** The settlement is a popular hub for trade. Merchants are wealthy and the citizens live well. (Economy +1; increase base value by 30%; increase purchase limit by 50%)",
 			"",
 			"***Racially Intolerant:*** The community is prejudiced against one or more races, which are listed in parentheses. (Members of the unwelcome race or races must pay 150% of the normal price for goods and services and may face mockery, insult, or even violence)",
 			"",
-			"***Rumormongering Citizens:*** The settlement's citizens are nosy and gossipy to a fault-very little happens in the settlement that no one knows about. (Lore +1; Society -1)",
+			"***Rumormongering Citizens:*** The settlement's citizens are nosy and gossipy to a fault - very little happens in the settlement that no one knows about. (Lore +1; Society -1)",
 			"",
 			"***Strategic Location:*** The settlement sits at an important crossroads or alongside a deepwater port, or it serves as a barrier to a pass or bridge. (Economy +1; increase base value by 10%)",
 			"",
@@ -2739,21 +2792,16 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"urban"
+			"urban",
+			"settlements_in_play"
 		],
 		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"settlement_disadvantages": {
@@ -2765,7 +2813,7 @@
 			"",
 			"Just as a settlement can have unusual qualities to enhance its statistics, it can also suffer from disadvantages. There's no limit to the number of disadvantages a community can suffer, but most do not have disadvantages, since a settlement plagued by disadvantages for too long eventually collapses. A disadvantage can arise as the result of an event or action taken by a powerful or influential NPC or PC. Likewise, by going on a quest or accomplishing a noteworthy deed, a group of heroes can remove a settlement's disadvantage. Several disadvantages are listed below.",
 			"",
-			"***Anarchy:*** The settlement has no leaders-this type of community is often short-lived and dangerous. (Replaces settlement's Government and removes Government adjustments to modifiers; Corruption and Crime +4; Economy and Society -4; Law -6; Danger +20)",
+			"***Anarchy:*** The settlement has no leaders - this type of community is often short-lived and dangerous. (Replaces settlement's Government and removes Government adjustments to modifiers; Corruption and Crime +4; Economy and Society -4; Law -6; Danger +20)",
 			"",
 			"***Cursed:*** Some form of curse afflicts the city. Its citizens might be prone to violence or suffer ill luck, or they could be plagued by an infestation of pests. (Choose one modifier and reduce its value by 4)",
 			"",
@@ -2773,27 +2821,22 @@
 			"",
 			"***Impoverished:*** Because of any number of factors, the settlement is destitute. Poverty, famine, and disease run rampant. (Corruption and Crime +1; decrease base value and purchase limit by 50%; halve magic item availability)",
 			"",
-			"***Plagued:*** The community is suffering from a protracted contagion or malady. (-2 to all modifiers; reduce base value by 20%; select a communicable disease-there's a 5% chance each day that a PC is exposed to the disease and must make a Fortitude save to avoid contracting the illness)"
+			"***Plagued:*** The community is suffering from a protracted contagion or malady. (-2 to all modifiers; reduce base value by 20%; select a communicable disease: there's a 5% chance each day that a PC is exposed to the disease and must make a Fortitude save to avoid contracting the illness)"
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"adventures",
-			"urban"
+			"urban",
+			"settlements_in_play"
 		],
 		"siblings": [
-			"the_shape_of_civilization",
-			"streets_and_traffic",
-			"settlement_population_ranges",
-			"settlements_in_play",
 			"the_settlement_stat_block",
 			"settlement_modifiers",
 			"settlement_alignment",
 			"settlement_government",
 			"settlement_qualities",
-			"settlement_disadvantages",
-			"sample_settlements",
-			"urban_toolbox"
+			"settlement_disadvantages"
 		]
 	},
 	"sample_settlements": {
@@ -2814,14 +2857,7 @@
 		"siblings": [
 			"the_shape_of_civilization",
 			"streets_and_traffic",
-			"settlement_population_ranges",
 			"settlements_in_play",
-			"the_settlement_stat_block",
-			"settlement_modifiers",
-			"settlement_alignment",
-			"settlement_government",
-			"settlement_qualities",
-			"settlement_disadvantages",
 			"sample_settlements",
 			"urban_toolbox"
 		],
@@ -3237,14 +3273,7 @@
 		"siblings": [
 			"the_shape_of_civilization",
 			"streets_and_traffic",
-			"settlement_population_ranges",
 			"settlements_in_play",
-			"the_settlement_stat_block",
-			"settlement_modifiers",
-			"settlement_alignment",
-			"settlement_government",
-			"settlement_qualities",
-			"settlement_disadvantages",
 			"sample_settlements",
 			"urban_toolbox"
 		],
@@ -3755,18 +3784,18 @@
 			"| 22-25 | 1d4 [prostitutes](npc/street_prostitute) | 3 |",
 			"| 26-28 | 1 [dealer](npc/street_dealer) | 3 |",
 			"| 29-32 | 1 [slaver](npc/criminal_slaver) | 3 |",
-			"| 33-37 | Acid arrow trap | 3 |",
+			"| 33-37 | [Acid arrow trap](trap/acid_arrow_trap) | 3 |",
 			"| 38-43 | 1d8 [tengus](monster/tengu) | 3 |",
-			"| 44-48 | Wall scythe trap | 4 |",
+			"| 44-48 | [Wall scythe trap](trip/wall_scythe_trap) | 4 |",
 			"| 49-52 | 1 [mimic](monster/mimic) | 4 |",
-			"| 53-56 | Electricity arc trap | 4 |",
+			"| 53-56 | [Electricity arc trap](trap/electricity_arc_trap) | 4 |",
 			"| 57-60 | 1 [tomb raider](npc/adventurer_tomb_raider) | 5 |",
 			"| 61-68 | 1d8 [burglars](npc/criminal_burglar) | 6 |",
-			"| 69-73 | Flame strike trap | 6 |",
+			"| 69-73 | [Flame strike trap](trap/flame_strike_trap) | 6 |",
 			"| 74-76 | 1d4 [dark stalkers](monster/dark_stalker) | 6 |",
 			"| 77-80 | 1 [medusa](monster/medusa) | 7 |",
 			"| 81-85 | 1d4 [highwaymen](npc/brigand_highwayman) | 8 |",
-			"| 86-90 | Shocking floor trap | 9 |",
+			"| 86-90 | [Shocking floor trap](trap/shocking_floor_trap) | 9 |",
 			"| 91-94 | 1 [rakshasa](monster/rakshasa) | 10 |",
 			"| 95-97 | 1 [guild master](npc/criminal_guild_master) | 11 |",
 			"| 98-99 | 1 [bandit lord](npc/brigand_bandit) | 11 |",
@@ -3796,7 +3825,7 @@
 			"",
 			"Water is both a great enabler and great destroyer of civilization. Life can't exist without it. Trade and travel are made much easier by its presence. Yet water can also kill, from drowning on a personal level to floods and tsunamis on a mass scale. Terrestrial life is dependent on water but at the same time fears it, as evidenced by tales as old as the sea itself, of monsters and the hideous fates that await travelers who dare to sail out of sight of land. What better place to set an adventure than on a twisting river, upon the high seas, or deep in the briny world below?",
 			"",
-			"See: [Ultimate Campaign - Water](rule/water_ucp)"
+			"Also See: [Aquatic Adventures](rule/aquatic_adventures_aa) (a separate publication from Paizo)"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -3811,6 +3840,564 @@
 			"urban",
 			"water",
 			"wilderness_gg"
+		],
+		"subtopics": [
+			"aquatic_adventures",
+			"nautical_adventures",
+			"fast-play_ship_combat",
+			"water_toolbox"
+		]
+	},
+	"aquatic_adventures": {
+		"name": "Aquatic Adventures",
+		"tags": "Adapting to Aquatic Adventures",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
+			"",
+			"An aquatic adventure can take place anywhere that water is the primary terrain feature. This includes marshlands, rivers, lakes, pools, oceans, the Plane of Water, and the like. Aquatic adventures don't require the PCs to have the ability to breathe water, of course - the inclusion of water hazards for lower-level adventurers to navigate can add a nice bit of suspense and peril to an adventure.",
+			"",
+			"### Adapting to Aquatic Adventures",
+			"",
+			"The rules presented in the Pathfinder RPG Core Rulebook for [underwater combat](rule/fighting_underwater) apply to creatures not native to this dangerous environment, such as most PCs. For extended aquatic adventures or for particularly deep explorations, PCs will doubtless need to use magic to continue their adventures. [Water breathing](spell/water_breathing) is of obvious use, while [endure elements](spell/endure_elements) can help with temperature. Pressure damage can be avoided entirely with effects such as [freedom of movement](spell/freedom_of_movement). Polymorph spells are perhaps the most useful in water, though, if the form assumed is aquatic in nature.",
+			"",
+			"***Natural Adaptation:*** Any creature that has the aquatic subtype can breathe water easily and is unaffected by water temperature extremes that are found in that creature's typical environment. Aquatic creatures and creatures with the [hold breath](umr/hold_breath) ability are much more resistant to [pressure damage](rule/water_dangers); they do not suffer damage from pressure unless they are moved instantaneously from one depth to another in the blink of an eye (in which case they adapt to the pressure change after successfully making five successive Fortitude saves against the pressure effects)."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water"
+		],
+		"siblings": [
+			"aquatic_adventures",
+			"nautical_adventures",
+			"fast-play_ship_combat",
+			"water_toolbox"
+		]
+	},
+	"nautical_adventures": {
+		"name": "Nautical Adventures",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
+			"",
+			"Water can also provide the setting for a different and unique game experience: the nautical adventure. In such a scenario, the effects and dangers of underwater adventuring are replaced by surface hazards as the PCs and their opponents use vehicles like ships and boats to navigate the terrain. For the most part, shipboard adventures can be resolved normally, with a combat taking place aboard a ship functioning almost identically to one that occurs on land. If the combat happens during a storm or in heavy seas, treat the ship's deck as difficult terrain. Remember to take into account the effects on spellcasters' concentration checks due to weather or the motion of the ship's deck."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water"
+		],
+		"siblings": [
+			"aquatic_adventures",
+			"nautical_adventures",
+			"fast-play_ship_combat",
+			"water_toolbox"
+		]
+	},
+	"fast-play_ship_combat": {
+		"name": "Fast-Play Ship Combat",
+		"tags": "sinking",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
+			"",
+			"When ships themselves become a part of a combat, things get more unusual. The following rules are not meant to accurately simulate all of the complexities of ship-to-ship combat, only to provide you with a quick and easy set of rules to resolve such situations when they inevitably arise in a nautical adventure, whether it be a battle between two ships or between a ship and a sea monster.",
+			"",
+			"***Preparation:*** Decide what type of ships are involved in the combat. Use a large, blank battle mat to represent the waters on which the battle occurs. A single square corresponds to 30 feet of distance. Represent each ship by placing markers that take up the appropriate number of squares (miniature toy ships make great markers and should be available at most hobby stores).",
+			"",
+			"***Starting Combat:*** When combat begins, allow the PCs (and important NPC allies) to roll initiative as normal; the ship itself moves and attacks on the captain's initiative result. If any of the ships in the battle rely on sails to move, randomly determine what direction the wind is blowing by rolling 1d8 and following the guidelines for missed splash weapons .",
+			"",
+			"***Movement:*** On the captain's initiative count, the ship can move its current speed in a single round as a move-equivalent action for the captain (or double its speed as a full-round action), as long as it has its minimum crew complement. The ship can increase or decrease its speed by 30 feet each round, up to its maximum speed. Alternatively, the captain can change direction (up to one side of a square at a time) as a standard action. A ship can only change direction at the start of a turn.",
+			"",
+			"***Attacks:*** Crew members in excess of the ship's minimum crew requirement can be allocated to man siege engines. [Rules for siege engines can be found here](rule/siege_engines_uc). Siege engines attack on the captain's initiative count.",
+			"",
+			"A ship can also attempt to ram a target if it has its minimum crew. To ram a target, the ship must move at least 30 feet and end with its bow in a square adjacent to the target. The ship's captain then makes a Profession (sailor) check; if this check equals or exceeds the target's AC, the ship hits its target, inflicting damage as indicated on the ship statistics table to the target, as well as minimum damage to the ramming ship. A ship outfitted with an actual ram siege engine inflicts an additional 3d6 points of damage to the target (the ramming vessel suffers no additional damage).",
+			"",
+			"### Sinking",
+			"",
+			"A ship gains the sinking condition if its hit points are reduced to 0 or fewer. A sinking ship cannot move or attack, and it sinks completely 10 rounds after it gains the sinking condition. Each hit on a sinking ship that inflicts damage reduces the remaining time for it to sink by 1 round per 25 points of damage inflicted. Magic (such as [make whole](spell/make_whole)) can repair a sinking ship if the ship's hit points are raised above 0, at which point the ship loses the sinking condition. Generally, nonmagical repairs take too long to save a ship from sinking once it begins to go down."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water"
+		],
+		"subtopics": [ "ship_statistics" ],
+		"siblings": [
+			"aquatic_adventures",
+			"nautical_adventures",
+			"fast-play_ship_combat",
+			"water_toolbox"
+		]
+	},
+	"ship_statistics": {
+		"name": "Ship Statistics",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 215](source/gamemastery_guide)",
+			"",
+			"A vast variety of boats and ships exist in the real world, from small rafts and longboats to intimidating galleons and swift galleys. To represent the numerous distinctions of shape and size that exist between water-going vessels, Table 7-49 categorizes seven standard ship sizes and their respective statistics. Just as the cultures of the real world have created and adapted hundreds of different types of seafaring vessels, races in fantasy worlds might create their own strange ships. GMs might use or alter the statistic above to suit the needs of their creations, and describe such conveyances however they please. All ships have the following traits.",
+			"",
+			"***Ship Type:*** This is a general category that lists the ship's basic type.",
+			"",
+			"***AC:*** The ship's base Armor Class. To calculate a ship's actual AC, add the captain's Profession (sailor) modifier to the ship's base AC. Touch attacks against a ship ignore the captain's modifier. A ship is never considered flat-footed.",
+			"",
+			"***hp:*** The ship's total hit points. In addition, all ships have a hardness rating based on their construction material (hardness 5 for most wooden ships). At 0 or fewer hit points, a ship gains the sinking condition as described before.",
+			"",
+			"***Base Save:*** The ship's base save modifier. All of a ship's saving throws (Fortitude, Reflex, and Will) have the same value. To determine a ship's actual saving throw modifiers, add the captain's Profession (sailor) modifier to this base value.",
+			"",
+			"***Maximum Speed:*** The ship's maximum tactical speed in combat. An asterisk indicates the ship has sails, and can move at double speed when it moves in the same direction as the wind. A ship with only sails can only move if there is some wind.",
+			"",
+			"***Arms:*** The number of siege engines that can be fitted on the ship. A ram uses one of these slots, and only one ram may be fitted to a ship.",
+			"",
+			"***Ram:*** The amount of damage the ship inflicts on a successful ramming attack (without a ram siege engine).",
+			"",
+			"***Squares:*** The number of squares the ship takes up on the battle mat. A ship's width is always considered to be one square.",
+			"",
+			"***Crew:*** The first number lists the minimum crew complement the ship needs to function normally, excluding those needed to make use of the vessel's weapons. The second value lists the ship's maximum crew plus additional soldiers or passengers. A ship without its minimum crew complement can only move, change speed, change direction, or ram if its captain makes a DC 20 Profession (sailor) check. Crew in excess of the minimum have no effect on movement, but they can replace fallen crew members or man additional weapons.",
+			"",
+			"### Table 7-49: Ship Statistics",
+			"",
+			"| Ship | AC | hp | Base Save | Max Speed | Arms | Ram | Squares | Crew |",
+			"| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+			"| [Raft](/equipment-misc/raft) | 9 | 10 | +0 | 15 feet | 0 | 1d6 | 1 | 1/4 |",
+			"| [Rowboat](/equipment-misc/rowboat) | 9 | 20 | +2 | 30 feet | 0 | 2d6+6 | 1 | 1/3 |",
+			"| [Keelboat](/equipment-misc/keelboat) | 8 | 60 | +4 | 30 feet&ast; | 1 | 2d6+6 | 2 | 4/15+100 |",
+			"| [Longship](/equipment-misc/longship) | 6 | 75 | +5 | 60 feet&ast; | 1 | 4d6+18 | 3 | 50/75+100 |",
+			"| [Sailing ship](/equipment-misc/sailing_ship) | 6 | 125 | +6 | 60 feet&ast; (sails only) | 2 | 3d6+12 | 3 | 20/50+100 |",
+			"| [Warship](/equipment-misc/warship) | 2 | 175 | +7 | 60 feet&ast; | 3 | 3d6+12 | 4 | 60/80+100 |",
+			"| [Galley](/equipment-misc/galley) | 2 | 200 | +8 | 90 feet&ast; | 4 | 6d6+24 | 4 | 200/250+100 |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water",
+			"fast-play_ship_combat"
+		],
+		"siblings": [ "ship_statistics" ]
+	},
+	"water_toolbox": {
+		"name": "Water Toolbox",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 216](source/gamemastery_guide)",
+			"",
+			"From adventures on the open ocean or under the sea, upon uncharted coasts or in maze-like river country, the potential for peril and discovery upon the waves is endless. The tables here present not just ideas and suggestions for elements GMs might include in their aquatic encounters, but details, personalities, and destinations ready for ocean-going adventures."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water"
+		],
+		"siblings": [
+			"aquatic_adventures",
+			"nautical_adventures",
+			"fast-play_ship_combat",
+			"water_toolbox"
+		],
+		"subtopics": [
+			"aqt_1",
+			"aqt_2",
+			"aqt_3",
+			"aqt_4"
+		]
+	},
+	"aqt_1": {
+		"name": "Islands and Flotsam",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 216](source/gamemastery_guide)",
+			"",
+			"### Table 7-50: Undiscovered Islands",
+			"",
+			"| d% | Island |",
+			"| --- | --- |",
+			"| 1-4 | Island with beaches full of smooth, multi-colored glass pebbles instead of sand |",
+			"| 5-8 | Coral atoll that absorbs sunlight during the day and then glows at night |",
+			"| 9-12 | Reef ruled by warring kingdoms of sentient crabs |",
+			"| 13-16 | The rocs' graveyard |",
+			"| 17-20 | Island filled with ruined temples dedicated to forgotten gods from every corner of the world |",
+			"| 21-24 | Island almost entirely made up of old shipwrecks |",
+			"| 25-28 | Frigid island in the far north filled with countless misshapen monsters trapped within its ice |",
+			"| 29-32 | Island with many spouts and jets of colored flame |",
+			"| 33-36 | Floating island that travels wherever the wind blows |",
+			"| 37-40 | Island where sentient beings and their possessions get shrunk down to 1/60 their normal size  |",
+			"| 41-44 | Iceberg topped with an ice castle |",
+			"| 45-48 | Island whose inhabitants languish in a dreamy haze from a powerful narcotic plant grown there |",
+			"| 49-52 | Island filled with huge stone idols of unknown origin and purpose |",
+			"| 53-56 | Sandy islet filled with buried skeletons that rise up and attack anyone landing on the beaches |",
+			"| 57-60 | Island of cannibal apes |",
+			"| 61-64 | Island formed from the rotting corpses of two giant dragons who crashed while locked in combat |",
+			"| 65-68 | Northern island where ice and snow have all the colors of the rainbow |",
+			"| 69-72 | Island with trees that behave like natural siege artillery, firing enormous nuts and fruit at ships passing too close to shore |",
+			"| 73-76 | Caldera with bubbling sea-geysers inside its rim |",
+			"| 77-80 | Island that is one giant cathedral |",
+			"| 81-84 | Isle of the Dead, necropolis island occasionally glimpsed by travelers |",
+			"| 85-88 | Fey island that occasionally rises from the depths of an isolated loch |",
+			"| 89-92 | Island where the ghosts of fallen stars wait until the end of the world |",
+			"| 93-96 | Island of impossibly high cliffs whose interior has never been explored |",
+			"| 97-100 | Iceberg with a ship trapped within it |",
+			"",
+			"### Table 7-51: Pieces of Interesting Flotsam",
+			"",
+			"| d% | Flotsam |",
+			"| --- | --- |",
+			"| 1-2 | An empty raft |",
+			"| 3-4 | A message in a bottle |",
+			"| 5-6 | A ship in a bottle |",
+			"| 7-8 | A bloated, decaying kraken carcass |",
+			"| 9-10 | A dragon turtle shell |",
+			"| 11-12 | A ship's figurehead depicting a bloated green frog |",
+			"| 13-14 | A mermaid caught in a fisherman's net |",
+			"| 15-16 | An island of shipwrecks occupied by gargoyles |",
+			"| 17-18 | A raft with two mummies aboard |",
+			"| 19-20 | A charred oar |",
+			"| 21-22 | A coracle containing three skeletons |",
+			"| 23-24 | A rowing boat with two gibbeted corpses |",
+			"| 25-26 | The remains of a keelhauled ogre |",
+			"| 27-28 | Three dead trolls choked with seaweed |",
+			"| 29-30 | A corked, empty potion of water breathing vial |",
+			"| 31-32 | The remains of a howdah |",
+			"| 33-34 | A complete caravel, seemingly abandoned hastily |",
+			"| 35-36 | A corroded copper teakettle |",
+			"| 37-38 | A model clipper ship filled with lead miniatures |",
+			"| 39-40 | A wicker sofa frame with a single cushion still attached |",
+			"| 41-42 | A fire-seared totem pole |",
+			"| 43-44 | A buoy with the word \"Help!\" scratched on it |",
+			"| 45-46 | A clothesline, linens, and two cracked poles |",
+			"| 47-48 | A maiden's ransacked hope chest |",
+			"| 49-50 | A wooden cage filled with drowned homing pigeons |",
+			"| 51-52 | A wooden scabbard wrapped in white silk |",
+			"| 53-54 | A floating ship's nameplate: The Lucky |",
+			"| 55-56 | A basket bearing a single mewling kitten |",
+			"| 57-58 | A lifeboat containing hundreds of waterlogged wigs |",
+			"| 59-60 | A severed arm chained to a broken oar. |",
+			"| 61-62 | A lute with the inscription, \"Let the Heavens weep\" |",
+			"| 63-64 | A scroll case inscribed with the letters \"SofV\" |",
+			"| 65-66 | A chest filled with shards of cuneiform tablets |",
+			"| 67-68 | A wooden ship's altar defaced with a shamrock brand |",
+			"| 69-70 | An upturned leather hat occupied by a spider |",
+			"| 71-72 | A hollowed bottom of a pumpkin the size of carriage |",
+			"| 73-74 | Gulls feeding on a drying rack filled with rotten fish |",
+			"| 75-76 | A small wharf, complete with a deckchair |",
+			"| 77-78 | A wooden steeple, its bell still chiming |",
+			"| 79-80 | A washed-away bridge |",
+			"| 81-82 | A floating isle of lashed flotsam |",
+			"| 83-84 | A lobster trap, with 1d4 lobsters inside |",
+			"| 85-86 | A set of false teeth sized for a giant |",
+			"| 87-88 | A thick board hung with common carpentry tools |",
+			"| 89-90 | A copper bathtub |",
+			"| 91-92 | A healer's kit labeled \"Seasickness Pills\" |",
+			"| 93-94 | A pair of leathery wings |",
+			"| 95-96 | A set of man-made wings, with roc feathers attached |",
+			"| 97-98 | An inflated pig's-bladder ball |",
+			"| 99-100 | A sail with a large, perfectly round hole in its center |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water",
+			"water_toolbox"
+		],
+		"siblings": [
+			"aqt_1",
+			"aqt_2",
+			"aqt_3",
+			"aqt_4"
+		]
+	},
+	"aqt_2": {
+		"name": "Ghost Ships and Shipwrecks",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 217](source/gamemastery_guide)",
+			"",
+			"### Table 7-52: Ghost Ships and Shipwrecks",
+			"",
+			"| d% | Ship Name and Description |",
+			"| --- | --- |",
+			"| 1-2  | **The Angry Drake:** a half-sized kobold warship |",
+			"| 3-4  | **The Sparrow:** a colossal axe lies buried in the hull of this ship |",
+			"| 5-6  | **The Luckless:** rotten carcasses litter the beach while broken remnants of this ship wash ashore |",
+			"| 7-8  | **The Endless:** the zombie crew of a shipwrecked ghost ship stagger in a storm |",
+			"| 9-10  | **The Vile Axe:** an orc warship lies broken on the cliffs, her vampire captain nowhere to be seen |",
+			"| 11-12  | **The Funerary Barge:** why has no one tried to retrieve the obvious gold and jewels littering this ship's deck? |",
+			"| 13-14  | **The Visitor:** some say this fey boat emerges from the tide some days, while others claim it sails on dark seas |",
+			"| 15-16  | **The Storm:** this dhow has completely broken in two, as if it was bitten in half |",
+			"| 17-18  | **The Blue Ferret:** seemingly crushed, this ship has a kraken's tentacle mummifying on its mast |",
+			"| 19-20  | **The Green Misery:** this broken ship lies strangled by ivy in a lagoon |",
+			"| 21-22  | **The Dragon's Spine:** how did the broken remnants of this caravel wash up 20 miles inland? |",
+			"| 23-24  | **The Peacock and Leopard:** this hag's ship looks like a torture chamber &mdash; is it as empty as it seems? |",
+			"| 25-26  | **The Javelin:** the charred mast suggests a lightning storm, but the log claims it happened on a clear night |",
+			"| 27-28  | **The Hogshead:** this eerily silent plague ship drifts ever closer to shore |",
+			"| 29-30  | **The Splenterwill:** this goblin frigate lies upside down on the beach |",
+			"| 31-32  | **The Night Belle:** gnawed remains indicate that the crew ate one another, but still had plenty of supplies |",
+			"| 33-34  | **The Broadsword:** mutiny tore this warship apart before her wizard captain blew it to pieces |",
+			"| 35-36  | **The Libertine:** the wreck of a harem boat occupied by hags and zombie harlots |",
+			"| 37-38  | **Urloo's Fate:** every living creature on this vessel was changed into a glass statue too fragile to move |",
+			"| 39-40  | **The Robust:** the hands and feet of every member of the crew have been nailed to the prow |",
+			"| 41-42  | **The Dalmatian:** the ghost of a wrongfully hanged sailor killed the rest of the crew and now waits for fresh victims |",
+			"| 43-44  | **The White Herald:** royals fled from the revolution but could not elude the fiend sent to slaughter them |",
+			"| 45-46  | **The Sprat:** a wide barge cursed by underwater harpies lies ruined beneath the waves |",
+			"| 47-48  | **The Crystal Ball:** fire killed the crew, but most of the ship's structure remains relatively intact, if charred |",
+			"| 49-50  | **The Graycloak:** convicts managed to take control of this prison ship, but not before the guards triggered the failsafe that trapped and sunk the ship |",
+			"| 51-52  | **The Constellation:** a collision with an iceberg left the crew of this frozen barque trapped and starving |",
+			"| 53-54  | **The Saucy Strumpet:** pirates lost a fight and the victors set them adrift after hanging the survivors |",
+			"| 55-56  | **The Broken Bough:** the ghost of the dryad whose tree became the mast haunts this flowering wreck |",
+			"| 57-58  | **The Cutlass:** nothing but clothes remain of the passengers and crew of this abandoned hooker |",
+			"| 59-60  | **The Titan:** the anchor and anchor chain refuse to move; eventually the crew abandoned ship in disgust |",
+			"| 61-62  | **The Miracle:** an enormous mimic-like creature that drifts into port and eats any crew that claims it |",
+			"| 63-64  | **My Heart's Desire:** thieves took over the local lighthouse and lured this ship into a reef |",
+			"| 65-66  | **The Foamfriend:** the crew managed to beach this ship before it sank |",
+			"| 67-68  | **Gordor's Hammer:** this warship took out two of the enemy before crashing into a third; debris from all four now mingles in an island lagoon |",
+			"| 69-70  | **The Percival:** a strange artifact might offer a clue as to how this vessel managed to crash miles from any water |",
+			"| 71-72  | **The Lightbringer:** the holy symbols on the sail didn't preserve this ship from sacrilegious pirates |",
+			"| 73-74  | **The Tider:** glimpsed through murky water, the crew are still at their posts and moving on this sunken cog |",
+			"| 75-76  | **The Wildcard:** creeping vines hint at how long this floating casino has lain abandoned on the river bank |",
+			"| 77-78  | **The Independence:** this scourge of slavers met its end through treachery in a supposedly safe harbor |",
+			"| 79-80  | **The Sandspider:** the lich who rules the island where this ship lies actually creates the treasure maps that lure so many adventuring bands to their doom |",
+			"| 81-82  | **The Cornucopia:** pleasure ship whose hull is intact, but everything inside has been eaten |",
+			"| 83-84  | **The Docent:** this menagerie transport vessel crashed onto an island now legendary for deadly beasts |",
+			"| 85-86  | **Nefas Pedimin:** this schooner, made from bones, terrorized the seas until a sorcerer broke its magic |",
+			"| 87-88  | **The Festering Vaid:** this ship is completely covered in cankerous black lichens |",
+			"| 89-90  | **The Last Laugh:** tainted food drove the crew of this pleasure yacht mad, causing most to jump overboard |",
+			"| 91-92  | **The Open Book:** the university that sponsored this vessel lost its investment when cannibals attacked |",
+			"| 93-94  | **The Glimmer:** this fishing vessel caught something with a blade, which cut the net and slaughtered the crew |",
+			"| 95-96  | **The Poniard:** the warriors laid to rest on this ship never got their proper funeral since it failed to burn |",
+			"| 97-98  | **The Twilight Eternal:** this plane-shifting galleon returned from its dimensional shortcut without its crew |",
+			"| 99-100  | **The Maltmainge Tomorrow:** still, silent crows perch upon every part of this well-preserved ship |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water",
+			"water_toolbox"
+		],
+		"siblings": [
+			"aqt_1",
+			"aqt_2",
+			"aqt_3",
+			"aqt_4"
+		]
+	},
+	"aqt_3": {
+		"name": "Sailors and Boatmen",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 218](source/gamemastery_guide)",
+			"",
+			"| d% | Name and Description |",
+			"| --- | --- |",
+			"| 1-2  | **Sing-Song Sane:** the singing ferryman who knows 100 songs; sings a different one for every passenger |",
+			"| 3-4  | **Cruel Kate:** harlot with a heart of steel; foul-mouthed whore who operates the riverboats |",
+			"| 5-6  | **Zanus the Troubadour:** poetry-quoting gnome who punts customers up and down the river |",
+			"| 7-8  | **Pike Pilkly:** the human fish, a champion swimmer rumored to have gills |",
+			"| 9-10  | **Big Dill:** strongest dockhand in the world, said to have hill giant blood in his veins |",
+			"| 11-12  | **Ancient Hubert:** the 200-year-old man, as full of stories as his mouth is empty of teeth |",
+			"| 13-14  | **Captain Rhun:** mad pirate captain (retired); only his mangy ship's dog will sit with him |",
+			"| 15-16  | **Bletko Brothers:** former acrobats, their work in the rigging is something to see |",
+			"| 17-18  | **Blind Jake:** blind old sailor who knows the rigging like the back of his hand |",
+			"| 19-20  | **Bilgewater Bully:** sailor who searches slops and bilges for lost treasure |",
+			"| 21-22  | **Hobble:** lost his legs to a shark, but says he can do anything a whole man can |",
+			"| 23-24  | **\"Coffin\" Janu:** morbid crewman who brings his casket with him whenever he goes to sea |",
+			"| 25-26  | **Old Bonesy:** skeleton of former shipmate no one has the heart to throw overboard |",
+			"| 27-28  | **Nassain Lastleaf:** grim elf wanderer who claims his homeland disappeared beneath the waves |",
+			"| 29-30  | **\"Mister\" Smarts:** 10-year-old midshipman who never hesitates to order floggings for sailors who displease him |",
+			"| 31-32  | **Brionny Fortin:** would-be mermaid who spends her off hours gazing dreamily into the depths |",
+			"| 33-34  | **Argus No-Beard:** disgraced dwarf harpooner who shaves daily but never misses his target |",
+			"| 35-36  | **Xericuse:** gloomy stargazer who spends his nights studying the skies |",
+			"| 37-38  | **Wavrin:** murderous cook who poisons selected crewmates as secret sacrifices to an evil sea god |",
+			"| 39-40  | **Lasselle:** peg-legged mutineer who blames the captain for his injury and plots a mutiny as revenge |",
+			"| 41-42  | **Kristot:** merchant logger who pilots a raft of fresh timber and trade goods downstream |",
+			"| 43-44  | **Jinit Beiderdan:** runaway bride who fled an arranged marriage to sail around the world |",
+			"| 45-46  | **Skerrit Scalesinger:** fish charmer; fish actually leap up onto the deck when he sings |",
+			"| 47-48  | **Eldrea Porto:** misguided missionary who lectures the crew and people in port about the \"truth\" |",
+			"| 49-50  | **Bintrin Whist:** harmonica virtuoso who earns his keep with music rather than sailing skills |",
+			"| 51-52  | **Flora Kain:** amateur naturalist who collects and preserves insects from every port of call |",
+			"| 53-54  | **\"Blessed\" Prig:** lucky halfling; no one ever dies so long as he remains on board |",
+			"| 55-56  | **Moira DeLang:** ship-wife who offers comfort to lonely sailors for a fee |",
+			"| 57-58  | **Dask:** half-orc brawler who takes on all comers but demands one copper from each spectator |",
+			"| 59-60  | **Ophaira Yimmer:** sarcastic puppeteer who entertains crew but negatively portrays officers |",
+			"| 61-62  | **Saladin Greel:** fearless marine who boards enemy ships with a bloody cutlass in each hand |",
+			"| 63-64  | **Samdin Garah:** half-elf spy sent by the government to investigate reports of officers abusing sailors |",
+			"| 65-66  | **Twilla Gorn:** peerless navigator who never gets lost but refuses to explain her secret |",
+			"| 67-68  | **Dravin Corst:** murderous riverman who strangles passengers with the silk cord he keeps wrapped around his pole |",
+			"| 69-70  | **\"Doc\" Ferrin:** amateur medic; a bankrupt tailor who learned how to stitch up his fellow sailors when he put to sea |",
+			"| 71-72  | **Great Gabwell:** huge man who looks like a pig, and eats like one too |",
+			"| 73-74  | **Starg the Survivor:** sailor who has survived no less than three keelhaulings |",
+			"| 75-76  | **Gorus Bain:** connected gondolier who knows which boats and wharves cater to which vices |",
+			"| 77-78  | **\"Heartbreak\" Hinsin:** sailing lothario who has a love interest in every port of call |",
+			"| 79-80  | **Argin Willster:** story-telling boatman who has an endless supply of stories about his vast family |",
+			"| 81-82  | **Voris Uld:** master carver who makes beautiful pieces of scrimshaw and wood but only while at sea |",
+			"| 83-84  | **Mesner Taim:** entrepreneurial boatman who offers a wide range of additional services to passengers |",
+			"| 85-86  | **Brenn:** exploration addict who always wants to get to a new destination |",
+			"| 87-88  | **Burlon Afarn:** joke wizard; crewmates enjoy teasing him about his imaginary magical powers and bilge rat familiar |",
+			"| 89-90  | **Labella Loor:** sneak thief who steals small valuables with her trained raven |",
+			"| 91-92  | **Shandir Zim:** plague carrier, chosen by the god of disease to spread contagion wherever he goes |",
+			"| 93-94  | **Captain Simms:** once wrestled a kraken |",
+			"| 95-96  | **Captain Flashwell:** the biggest boaster on the Seventeen Seas |",
+			"| 97-98  | **Captain Thonn:** dwarf captain with gold teeth and two hooks for hands |",
+			"| 99-100  | **Captain Z'gark:** legendary hobgoblin sea captain; not an inch of his flesh is unscarred |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water",
+			"water_toolbox"
+		],
+		"siblings": [
+			"aqt_1",
+			"aqt_2",
+			"aqt_3",
+			"aqt_4"
+		]
+	},
+	"aqt_4": {
+		"name": "Boats and Captains",
+		"subtitle": "Exploration, Gamemastering",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"**Source** [GameMastery Guide pg. 219](source/gamemastery_guide)",
+			"",
+			"### Table 7-54: Types of Boats and Ships",
+			"",
+			"| d% | Boat Type and Description |",
+			"| --- | --- |",
+			"| 1-2  | **Barge:** flat-bottomed freight boat |",
+			"| 3-4  | **Barque:** large ship with multiple masts |",
+			"| 5-6  | **Bireme:** ship with two tiers of oars |",
+			"| 7-8  | **Brig:** ship with two masts with square sails |",
+			"| 9-10  | **Canoe:** small, light boat propelled by paddles |",
+			"| 11-12  | **Caravel:** maneuverable sailing ship with multiple masts |",
+			"| 13-14  | **Carrack:** seagoing ship with three or four masts |",
+			"| 15-16  | **Clipper:** fast ship with multiple masts |",
+			"| 17-18  | **Coracle:** small wickerwork boat |",
+			"| 19-20  | **Curragh:** hide-covered version of coracle |",
+			"| 21-22  | **Cutter:** small ship with single mast |",
+			"| 23-24  | **Dhow:** coastal vessel with lateen sails |",
+			"| 25-26  | **Dinghy:** small sailing vessel |",
+			"| 27-28  | **Dory:** small, flat-bottomed fishing vessel |",
+			"| 29-30  | **Dragon boat:** long, narrow canoe |",
+			"| 31-32  | **Dugout:** canoe made from hollowed out tree trunk |",
+			"| 33-34  | **Fireboat:** firefighting boat |",
+			"| 35-36  | **Galleon:** large multi-decked sailing ship |",
+			"| 37-38  | **Galley:** large ship propelled by oars |",
+			"| 39-40  | **Gondola:** flat-bottomed boat worked by single oar |",
+			"| 41-42  | **Hooker:** sailing and fishing boat designed for high seas |",
+			"| 43-44  | **Houseboat:** boat outfitted as a floating house |",
+			"| 45-46  | **Jolly boat:** small clinker-built boat |",
+			"| 47-48  | **Junk:** flat-bottomed seagoing vessel |",
+			"| 49-50  | **Kayak:** one-man canoe with light frame |",
+			"| 51-52  | **Keelboat:** flat-bottomed river vessel |",
+			"| 53-54  | **Koch:** sailing ship designed for icy conditions |",
+			"| 55-56  | **Knaar:** seagoing merchant vessel with single mast |",
+			"| 57-58  | **Lifeboat:** boat designed to aid vessels in distress |",
+			"| 59-60  | **Longboat:** boat used to reach shore from larger vessels |",
+			"| 61-62  | **Longship:** long, narrow ship with single mast |",
+			"| 63-64  | **Lugger:** small ship with four sails |",
+			"| 65-66  | **Narrow-boat:** canal boat with narrow beam |",
+			"| 67-68  | **Pinnace:** small vessel with two masts |",
+			"| 69-70  | **Pontoon:** flat-bottomed boat used to support structures |",
+			"| 71-72  | **Punt:** flat-bottomed boat for shallow rivers |",
+			"| 73-74  | **Raft:** collection of logs fastened together |",
+			"| 75-76  | **Sampan:** small river and coastal boat |",
+			"| 77-78  | **Schooner:** small, seagoing fore-and-aft rigged vessel |",
+			"| 79-80  | **Scow:** large, flat-bottomed, square-ended boat |",
+			"| 81-82  | **Skiff:** small, light boat for rowing and sculling |",
+			"| 83-84  | **Sloop:** small, fore-and-aft rigged vessel with one mast |",
+			"| 85-86  | **Tall ship:** large, traditionally rigged sailing vessel |",
+			"| 87-88  | **Trireme:** warship with three tiers of oars |",
+			"| 89-90  | **Trawler:** vessel used for fishing with trawling net |",
+			"| 91-92  | **Warship:** ship built for combat |",
+			"| 93-94  | **Whaleboat:** ship used for hunting whales |",
+			"| 95-96  | **Windjammer:** large sailing ship with iron hull |",
+			"| 97-98  | **Yacht:** recreational boat |",
+			"| 99-100  | **Yawl:** sailing vessel with one mast |",
+			"",
+			"### Table 7-55: Captains and Ships",
+			"",
+			"| d% | Captain | Ship |",
+			"| --- | --- | --- |",
+			"| 1-2 | \"Coral Mouth\" Kate | *Adventurous* |",
+			"| 3-4 | \"Gullmouth\" Garault | *Arcadia* |",
+			"| 5-6 | \"Piebald\" Paultz Patches | *Avalanche* |",
+			"| 7-8 | \"Ruddernack\" McGee | *Bilgerat* |",
+			"| 9-10 | Ace \"Birdbelly\" Stogen | *Bluewater* |",
+			"| 11-12 | Aggie Gams | *Bunyip* |",
+			"| 13-14 | Amalia \"Huntress\" Steerwright | *Dagon's Bastard* |",
+			"| 15-16 | Anthropius \"Fox\" Maciason | *Emperor* |",
+			"| 17-18 | Antoine Seabourne | *Faith Wife* |",
+			"| 19-20 | Arvey Blacktongue | *Flotsam* |",
+			"| 21-22 | Bartz Boilston | *Fogbringer* |",
+			"| 23-24 | Benson the Hulled | *Gallant* |",
+			"| 25-26 | Bilge-Splash Becks | *Garland* |",
+			"| 27-28 | Bilgewater Pete | *Gestalt* |",
+			"| 29-30 | Chesk Wilverton | *Gold Fever* |",
+			"| 31-32 | Cidian Whitch | *Gorum's Hammer* |",
+			"| 33-34 | Eldam Alamansor | *Hale &amp; Hearty* |",
+			"| 35-36 | Givvi Meanteeth | *Hangman* |",
+			"| 37-38 | Groman Flanck | *Heron* |",
+			"| 39-40 | Harval Spue | *Hook* |",
+			"| 41-42 | Higg Ribbelby | *Koriander's Wrath* |",
+			"| 43-44 | Hosk \"Sevenfingers\" Legrau | *Largeness* |",
+			"| 45-46 | Ijora \"The Storm Seer\" Ettzi | *Madeleine* |",
+			"| 47-48 | Ilana Whistler | *No News* |",
+			"| 49-50 | J. E. Ritter | *Penora's Pride* |",
+			"| 51-52 | Jivvis \"Codhead\" La Rupe | *Pharasma's Messenger* |",
+			"| 53-54 | Keelboat Bill | *Pinkbelly* |",
+			"| 55-56 | Kelps Muggin | *Rabid Kraken* |",
+			"| 57-58 | Lady Amyretha Quintalian | *Ravenscar* |",
+			"| 59-60 | Larz Rivengob | *Riptide* |",
+			"| 61-62 | Luthron \"The Pelican\" Abele | *Ruby Porpoise* |",
+			"| 63-64 | Mucks Fallahan | *Ruddy Wreck* |",
+			"| 65-66 | Myra \"The Carver\" Sinsashi | *Rum Runner* |",
+			"| 67-68 | Orem \"Fishlips\" Yenessi | *Scurvy Crab* |",
+			"| 69-70 | Papa Barnacle | *Sea Weasel* |",
+			"| 71-72 | Peg-leg Peggy Potts | *Silver Bird* |",
+			"| 73-74 | Rip Carrington | *Skora's Ire* |",
+			"| 75-76 | Rufus Longwater | *Splinter* |",
+			"| 77-78 | Sags Sureslung | *Squaller* |",
+			"| 79-80 | Shanks Guffy | *Starsail* |",
+			"| 81-82 | Sherven Twobeards | *Starsinger* |",
+			"| 83-84 | Sir Apeldine Gantry | *Sunfish* |",
+			"| 85-86 | Skriv Tentooth | *Three Sheets* |",
+			"| 87-88 | Spits Bascap | *Typhoon Lotus* |",
+			"| 89-90 | Taggart Brockson | *Undaunted* |",
+			"| 91-92 | Thalina \"Sea-Bitch\" Andyll | *Walrus* |",
+			"| 93-94 | Theodore the Stained | *Waterstrider* |",
+			"| 95-96 | Westin Gale | *Waveraker* |",
+			"| 97-98 | Xobost Ietzam | *Western Promise* |",
+			"| 99-100 | Zhar Slitshanks | *Winter's Bite* |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"gamemastery_guide",
+			"adventures",
+			"water",
+			"water_toolbox"
+		],
+		"siblings": [
+			"aqt_1",
+			"aqt_2",
+			"aqt_3",
+			"aqt_4"
 		]
 	},
 	"wilderness_gg": {
@@ -8240,511 +8827,6 @@
 			"monster_creation",
 			"monster_advancement",
 			"monsters_as_pcs"
-		]
-	},
-	"race_builder": {
-		"name": "Race Builder",
-		"subtitle": "Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
-			"",
-			"There comes a point in nearly every campaign when someone-either one of the players or the GM-wants to create a new race. Sometimes the GM needs a new race to fill a story or ecological niche in her campaign world. Such races may be as simple as elves who dwell in an arctic climate or as complex as clockwork giants from another plane of existence. Perhaps a player wants to play a monstrous race, or has been inspired by some piece of fiction or flight of creative fancy and wants to create a race for a new character concept not yet seen in Pathfinder. The following rules allow GMs, or even players with GM oversight, to create new races that are balanced and mesh with the core races.",
-			"",
-			"In addition, these rules allow you to create powerful races meant to take on more challenging encounters than those typically faced by the core races. You can create new races, model a race after an existing monster, or even \"power up\" core races in order to play those races side-byside with more powerful new races."
-		],
-		"parent_topics": [ "gamemastering" ],
-		"subtopics": [
-			"creating_a_new_race",
-			"step_1_concept_arg",
-			"step_2_racial_qualities",
-			"step_3_racial_traits"
-		],
-		"siblings": [
-			"basics_from_the_core_rulebook",
-			"gamemastery_guide",
-			"bestiary",
-			"race_builder",
-			"campaign_systems",
-			"aquatic_adventures_aa",
-			"occult_rules",
-			"mastering_combat",
-			"mastering_magic",
-			"mastering_intrigue",
-			"horror_rules",
-			"infernal_contracts",
-			"mastering_the_wild",
-			"planar_adventures",
-			"primal_magic"
-		]
-	},
-	"creating_a_new_race": {
-		"name": "Creating a New Race",
-		"subtitle": "Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
-			"",
-			"This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and languages. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.",
-			"",
-			"Before you buy racial qualities and traits, you must determine the power level of your race. The GM decides this based on the needs of her campaign. The power level of the race determines the number of RP you get to build the race, as well as the maximum number of racial traits you can choose from each racial trait category and what kinds of traits you can take from those categories.",
-			"",
-			"Sometimes racial qualities and traits cost 0 RP or a negative number of RP, which means they can be taken for free or gain back RP, respectively. In the case of racial qualities, choosing a 0-point option still counts toward your choice for that racial quality category, and in the case of racial traits, such choices still count toward the maximum number of traits per racial trait category.",
-			"",
-			"There are three power levels: standard, advanced, and monstrous. Standard races can only take standard racial traits, while advanced races can take both standard and advanced racial traits, and monstrous races can take standard, advanced, and monstrous racial traits. Table 4-1 summarizes the number of RP you can spend as well as the maximum number of traits per racial trait category you can take based on your power level.",
-			"",
-			"### Table 4-1: Racial Points and Trait",
-			"",
-			"| Power Level | RP Range | Traits per Category |",
-			"| --- | --- | --- |",
-			"| Standard | 1-10 | 3 |",
-			"| Advanced | 11-20 | 4 |",
-			"| Monstrous | 20+ | 5 |",
-			"",
-			"Once you have determined the race's power level, follow each of the steps below to create your race."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder"
-		],
-		"subtopics": [ "challenging_advanced_and_monstrous_races" ],
-		"siblings": [
-			"creating_a_new_race",
-			"step_1_concept_arg",
-			"step_2_racial_qualities",
-			"step_3_racial_traits"
-		]
-	},
-	"challenging_advanced_and_monstrous_races": {
-		"name": "Challenging Advanced and Monstrous Races",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
-			"",
-			"Because they have powerful racial traits and abilities, advanced and monstrous races require greater challenges, especially at lower levels. The basic guideline for accomplishing this is to treat a group of characters with advanced and monstrous races as a level or more higher for a number of levels based on their total RP spent, using the following chart. Calculate the party's adjusted average party level, and use that number, rather than the actual APL, when creating encounters and adventures for the group. For groups with mixed power levels, average the RP and round the result to the nearest multiple of 10.",
-			"",
-			"| Avg RP | Lvls 1-5 | Lvls 6-10 | Lvls 11-15 | Lvls 16-20 |",
-			"| --- | --- | --- | --- | --- |",
-			"| 20 | +1 level | +0 level | +0 level | +0 level |",
-			"| 30 | +2 level | +1 level | +0 level | +0 level |",
-			"| 40 | +3 level | +2 level | +1 level | +0 level |"
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"creating_a_new_race"
-		],
-		"siblings": [ "challenging_advanced_and_monstrous_races" ]
-	},
-	"step_1_concept_arg": {
-		"name": "Step 1: Concept",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
-			"",
-			"A race is more than just a group of individuals with similar qualities and traits. A race is a collection of people with a shared history and cultural identity. While the race builder presents many options for creating new races, and it may be tempting to treat each section as a buffet of options to help you ferret out the most optimal choices for your character, it is generally more beneficial for your campaign world to conceptualize your race first. Before choosing options, consider answering some questions about your race and its culture. Answering these questions can aid you in making reasonable choices about the qualities and traits of your race so that it can better fit in the game world-rather than just being a collection of seemingly random options. Such questions might include the following.",
-			"",
-			"- Where does your race tend to live and why?",
-			"- What does your race look like? How does the members' appearance help them adapt to their typical environment? What is your race's history? Does it have a creation myth? Were there pivotal events in the race's history?",
-			"- What kinds of relationships does your race have with other races? Does it have allies? Competitors? Enemies? Hated foes?",
-			"- What classes does your race tend to favor?",
-			"",
-			"If you are using these rules and you are not the GM, make sure you work closely with your GM to create a race that fills a definite niche and need in her campaign world."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder"
-		],
-		"siblings": [
-			"creating_a_new_race",
-			"step_1_concept_arg",
-			"step_2_racial_qualities",
-			"step_3_racial_traits"
-		]
-	},
-	"step_2_racial_qualities": {
-		"name": "Step 2: Racial Qualities",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
-			"",
-			"The next step is to choose your race's qualities. You must select an option from each of the following quality categories. Qualities or aspects of qualities often serve as prerequisites for racial traits."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder"
-		],
-		"subtopics": [
-			"type_quality",
-			"size_quality",
-			"base_speed_quality",
-			"ability_score_quality",
-			"language_quality"
-		],
-		"siblings": [
-			"creating_a_new_race",
-			"step_1_concept_arg",
-			"step_2_racial_qualities",
-			"step_3_racial_traits"
-		]
-	},
-	"type_quality": {
-		"name": "Type Quality",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
-			"",
-			"This is the race's creature type. A race's creature type is similar to the corresponding creature type found in a monster's entry, with a few important differences. The first difference is that each race type assumes members of the race are roughly humanoid in shape and have two arms, two legs, a torso, and a head. This is important so that a race can take advantage of all the various magic item slots available to characters and can utilize the standard weapon and armor options. The second difference is that all of these race types are 0-Hit Dice creatures, which means that their Hit Dice, base attack bonus, saving throw progression, skill points, class skills, and weapon and armor proficiencies are based on the class levels each member of a race takes.",
-			"",
-			"Like other racial qualities, each type has a point cost. The baseline creature type-humanoid-costs 0 RP, and offers the most flexibility when choosing other racial traits and racial abilities, while a more expensive type typically grants less flexibility. The cost of the race's type also determines which of these types you can choose from based on the power level of the race you are creating. You cannot pick a type with an RP cost equal to or higher than the maximum RP cost of the power level of the race you are building. This means you must build an advanced race if you want to make a race with the undead type, or a monstrous race if you are building a race with the construct type. If you want to make a construct- or undead-themed creature at lower power levels, see Special Subtypes for some lower-cost options.",
-			"",
-			"Sometimes a race type may grant racial traits as features. For instance, the construct type grants members of that race darkvision 60 feet. If this is the case, the cost of that racial trait is already paid for when you buy the type quality, and this trait does not count toward the maximum when you buy racial traits from the corresponding racial trait category. For instance, when buying other vision traits for a construct race, the darkvision 60 feet feature that race already has does not count toward the limit of five traits from the senses racial trait category for the race. Traits granted by the race type still count for meeting any other trait prerequisites.",
-			"",
-			"The humanoid type requires that you pick at least one subtype for your race, and the outsider (native) type allows you to make a decision about what other plane your race may have ties to. Keep track of your race's creature type, any subtypes it has, and any planes it has ties to. Sometimes a race's type, subtypes, or planar ties serve as prerequisites for some racial traits. For instance, you must have the ratfolk subtype to take the rodent empathy racial trait, and you must have ties to Abaddon, the Abyss, or Hell in order to take the fiendish sorcery racial trait."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities"
-		],
-		"subtopics": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		],
-		"siblings": [
-			"type_quality",
-			"size_quality",
-			"base_speed_quality",
-			"ability_score_quality",
-			"language_quality"
-		]
-	},
-	"aberration_3_rp": {
-		"name": "Aberration",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
-			"",
-			"Aberrations (3 RP) have bizarre anatomies, strange abilities, alien mindsets, or any combination of the three. An aberration has the following features.",
-			"",
-			"- Aberrations have the darkvision 60 feet racial trait.",
-			"- Aberrations breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"construct_20_rp": {
-		"name": "Construct",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
-			"",
-			"A construct race (20 RP) is a group of animated objects or artificially created creatures. A construct race has the following features.",
-			"",
-			"- Constructs have no Constitution score. Any DCs or other statistics that rely on a Constitution score treat a construct as having a score of 10 (no bonus or penalty).",
-			"- Constructs have the low-light vision racial trait.",
-			"- Constructs have the darkvision 60 feet racial trait.",
-			"- Constructs are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
-			"- Constructs cannot heal damage on their own, but can often be repaired via exposure to a certain kind of effect (depending on the construct's racial abilities) or through the use of the [Craft Construct](feat/craft_construct) feat. Constructs can also be healed through spells such as [make whole](spell/make_whole). A construct with the fast healing special quality still benefits from that quality.",
-			"- Constructs are not subject to ability damage, ability drain, fatigue, exhaustion, energy drain, or nonlethal damage.",
-			"- Constructs are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
-			"- Constructs do not risk death due to massive damage, but they are immediately destroyed when reduced to 0 hit points or fewer.",
-			"- Constructs cannot be raised or resurrected.",
-			"- Constructs are hard to destroy, and gain bonus hit points based on their size, as shown on the table below.",
-			"- Constructs do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that a construct can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health.",
-			"",
-			"| Construct Size | Bonus Hit Points |",
-			"| --- | --- |",
-			"| Tiny | - |",
-			"| Small | 10 |",
-			"| Medium | 20 |",
-			"| Large | 30 |"
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"dragon_10_rp": {
-		"name": "Dragon",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
-			"",
-			"A dragon (10 RP) is a reptilian creature with magical or unusual abilities. A dragon race has the following features.",
-			"",
-			"- Dragons have the darkvision 60 feet racial trait.",
-			"- Dragons have the low-light vision racial trait.",
-			"- Dragons are immune to magical sleep effects and paralysis effects.",
-			"- Dragons breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"fey_2_rp": {
-		"name": "Fey",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"A fey (2 RP) is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features.",
-			"",
-			"- Fey have the low-light vision racial trait.",
-			"- Fey breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"humanoid_0_rp": {
-		"name": "Humanoid",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"Humanoid races (0 RP) have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a halfbreed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features.",
-			"",
-			"- Humanoids breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"monstrous_humanoid_3_rp": {
-		"name": "Monstrous Humanoid",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"Monstrous humanoids (3 RP) are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features.",
-			"",
-			"- Monstrous humanoids have the darkvision 60 feet racial trait.",
-			"- Monstrous humanoids breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"outsider_native_3_rp": {
-		"name": "Outsider",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"A native outsider (3 RP) is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.",
-			"",
-			"- Native outsiders have the darkvision 60 feet racial trait.",
-			"- Native outsiders breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"plant_10_rp": {
-		"name": "Plant",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"This type (10 RP) encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features.",
-			"",
-			"- Plants have the low-light vision racial trait.",
-			"- Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
-			"- Plants are immune to paralysis, poison, polymorph, sleep effects, and stunning.",
-			"- Plants breathe and eat, but do not sleep, unless they want to gain some beneficial effect from this activity. This means that a plant creature can sleep in order to regain spells, but sleep is not required to survive or stay in good health."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"undead_16_rp": {
-		"name": "Undead",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"Undead races (16 RP) are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features.",
-			"",
-			"- Undead have no Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC).",
-			"- Undead have the darkvision 60 feet racial trait.",
-			"- Undead are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
-			"- Undead are immune to bleed damage, death effects, disease, paralysis, poison, sleep effects, and stunning.",
-			"- Undead are not subject to nonlethal damage, ability drain, or energy drain, and are immune to damage to physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.",
-			"- Undead are harmed by positive energy and healed by negative energy. An undead creature with the fast healing special quality still benefits from that quality.",
-			"- Undead are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
-			"- Undead do not risk death from massive damage, but are immediately destroyed when reduced to 0 hit points or fewer.",
-			"- Undead are not affected by raise dead and reincarnate spells or abilities. Resurrection and true resurrection can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.",
-			"- Undead do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that an undead creature can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
 		]
 	}
 }

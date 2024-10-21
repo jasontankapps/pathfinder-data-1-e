@@ -1028,10 +1028,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		],
 		"siblings": [
 			"tracking_travel",
@@ -1074,10 +1071,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"desert": {
@@ -1120,10 +1114,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"forest": {
@@ -1160,10 +1151,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"hill": {
@@ -1200,10 +1188,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"marsh": {
@@ -1240,10 +1225,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"mountain": {
@@ -1280,10 +1262,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"plain": {
@@ -1320,10 +1299,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"settlement": {
@@ -1360,10 +1336,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
+			"water_ucp"
 		]
 	},
 	"water_ucp": {
@@ -1400,207 +1373,7 @@
 			"mountain",
 			"plain",
 			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
-		]
-	},
-	"aquatic_adventures": {
-		"name": "Aquatic Adventures",
-		"subtitle": "Exploration, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
-			"",
-			"An aquatic adventure can take place anywhere that water is the primary terrain feature. This includes marshlands, rivers, lakes, pools, oceans, the Plane of Water, and the like. Aquatic adventures don't require the PCs to have the ability to breathe water, of course-the inclusion of water hazards for lower-level adventurers to navigate can add a nice bit of suspense and peril to an adventure."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems",
-			"exploration_ucp",
-			"hex_terrain_types"
-		],
-		"subtopics": [ "adapting_to_aquatic_adventures" ],
-		"siblings": [
-			"keep_things_interesting",
-			"desert",
-			"forest",
-			"hill",
-			"marsh",
-			"mountain",
-			"plain",
-			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
-		]
-	},
-	"adapting_to_aquatic_adventures": {
-		"name": "Adapting to Aquatic Adventures",
-		"subtitle": "Exploration, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
-			"",
-			"The rules presented in the Pathfinder RPG Core Rulebook for underwater combat apply to creatures not native to this dangerous environment, such as most PCs. For extended aquatic adventures or for particularly deep explorations, PCs will doubtless need to use magic to continue their adventures. [Water breathing](spell/water_breathing) is of obvious use, while [endure elements](spell/endure_elements) can help with temperature. Pressure damage can be avoided entirely with effects such as [freedom of movement](spell/freedom_of_movement). Polymorph spells are perhaps the most useful in water, though, if the form assumed is aquatic in nature.",
-			"",
-			"***Natural Adaptation:*** Any creature that has the aquatic subtype can breathe water easily and is unaffected by water temperature extremes that are found in that creature's typical environment. Aquatic creatures and creatures with the hold breath ability are much more resistant to pressure damage; they do not suffer damage from pressure unless they are moved instantaneously from one depth to another in the blink of an eye (in which case they adapt to the pressure change after successfully making five successive Fortitude saves against the pressure effects)."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems",
-			"exploration_ucp",
-			"hex_terrain_types",
-			"aquatic_adventures"
-		],
-		"siblings": [ "adapting_to_aquatic_adventures" ]
-	},
-	"nautical_adventures": {
-		"name": "Nautical Adventures",
-		"subtitle": "Exploration, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
-			"",
-			"Water can also provide the setting for a different and unique game experience-the nautical adventure. In such a scenario, the effects and dangers of underwater adventuring are replaced by surface hazards as the PCs and their opponents use vehicles like ships and boats to navigate the terrain. For the most part, shipboard adventures can be resolved normally, with a combat taking place aboard a ship functioning almost identically to one that occurs on land. If the combat happens during a storm or in heavy seas, treat the ship's deck as difficult terrain. Remember to take into account the effects on spellcasters' concentration checks due to weather or the motion of the ship's deck."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems",
-			"exploration_ucp",
-			"hex_terrain_types"
-		],
-		"siblings": [
-			"keep_things_interesting",
-			"desert",
-			"forest",
-			"hill",
-			"marsh",
-			"mountain",
-			"plain",
-			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
-		]
-	},
-	"fast-play_ship_combat": {
-		"name": "Fast-Play Ship Combat",
-		"subtitle": "Exploration, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
-			"",
-			"When ships themselves become a part of a combat, things get more unusual. The following rules are not meant to accurately simulate all of the complexities of ship-to-ship combat, only to provide you with a quick and easy set of rules to resolve such situations when they inevitably arise in a nautical adventure, whether it be a battle between two ships or between a ship and a sea monster.",
-			"",
-			"***Preparation:*** Decide what type of ships are involved in the combat. Use a large, blank battle mat to represent the waters on which the battle occurs. A single square corresponds to 30 feet of distance. Represent each ship by placing markers that take up the appropriate number of squares (miniature toy ships make great markers and should be available at most hobby stores).",
-			"",
-			"***Starting Combat:*** When combat begins, allow the PCs (and important NPC allies) to roll initiative as normal; the ship itself moves and attacks on the captain's initiative result. If any of the ships in the battle rely on sails to move, randomly determine what direction the wind is blowing by rolling 1d8 and following the guidelines for missed splash weapons .",
-			"",
-			"***Movement:*** On the captain's initiative count, the ship can move its current speed in a single round as a move-equivalent action for the captain (or double its speed as a full-round action), as long as it has its minimum crew complement. The ship can increase or decrease its speed by 30 feet each round, up to its maximum speed. Alternatively, the captain can change direction (up to one side of a square at a time) as a standard action. A ship can only change direction at the start of a turn.",
-			"",
-			"***Attacks:*** Crew members in excess of the ship's minimum crew requirement can be allocated to man siege engines. [Rules for siege engines can be found here](rule/siege_engines_uc). Siege engines attack on the captain's initiative count.",
-			"",
-			"A ship can also attempt to ram a target if it has its minimum crew. To ram a target, the ship must move at least 30 feet and end with its bow in a square adjacent to the target. The ship's captain then makes a Profession (sailor) check; if this check equals or exceeds the target's AC, the ship hits its target, inflicting damage as indicated on the ship statistics table to the target, as well as minimum damage to the ramming ship. A ship outfitted with an actual ram siege engine inflicts an additional 3d6 points of damage to the target (the ramming vessel suffers no additional damage).",
-			"",
-			"### Table 7-49: Ship Statistics",
-			"",
-			"| Ship | AC | hp | Base Save | Max Speed | Arms | Ram | Squares | Crew |",
-			"| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-			"| [Raft](/equipment-misc/raft) | 9 | 10 | +0 | 15 feet | 0 | 1d6 | 1 | 1/4 |",
-			"| [Rowboat](/equipment-misc/rowboat) | 9 | 20 | +2 | 30 feet | 0 | 2d6+6 | 1 | 1/3 |",
-			"| [Keelboat](/equipment-misc/keelboat) | 8 | 60 | +4 | 30 feet&ast; | 1 | 2d6+6 | 2 | 4/15+100 |",
-			"| [Longship](/equipment-misc/longship) | 6 | 75 | +5 | 60 feet&ast; | 1 | 4d6+18 | 3 | 50/75+100 |",
-			"| [Sailing ship](/equipment-misc/sailing_ship) | 6 | 125 | +6 | 60 feet&ast; (sails only) | 2 | 3d6+12 | 3 | 20/50+100 |",
-			"| [Warship](/equipment-misc/warship) | 2 | 175 | +7 | 60 feet&ast; | 3 | 3d6+12 | 4 | 60/80+100 |",
-			"| [Galley](/equipment-misc/galley) | 2 | 200 | +8 | 90 feet&ast; | 4 | 6d6+24 | 4 | 200/250+100 |"
-		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems",
-			"exploration_ucp",
-			"hex_terrain_types"
-		],
-		"subtopics": [
-			"sinking",
-			"ship_statistics"
-		],
-		"siblings": [
-			"keep_things_interesting",
-			"desert",
-			"forest",
-			"hill",
-			"marsh",
-			"mountain",
-			"plain",
-			"settlement",
-			"water_ucp",
-			"aquatic_adventures",
-			"nautical_adventures",
-			"fast-play_ship_combat"
-		]
-	},
-	"sinking": {
-		"name": "Sinking",
-		"subtitle": "Exploration, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 215](source/gamemastery_guide)",
-			"",
-			"A ship gains the sinking condition if its hit points are reduced to 0 or fewer. A sinking ship cannot move or attack, and it sinks completely 10 rounds after it gains the sinking condition. Each hit on a sinking ship that inflicts damage reduces the remaining time for it to sink by 1 round per 25 points of damage inflicted. Magic (such as [make whole](spell/make_whole)) can repair a sinking ship if the ship's hit points are raised above 0, at which point the ship loses the sinking condition. Generally, nonmagical repairs take too long to save a ship from sinking once it begins to go down."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems",
-			"exploration_ucp",
-			"hex_terrain_types",
-			"fast-play_ship_combat"
-		],
-		"siblings": [
-			"sinking",
-			"ship_statistics"
-		]
-	},
-	"ship_statistics": {
-		"name": "Ship Statistics",
-		"subtitle": "Exploration, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 215](source/gamemastery_guide)",
-			"",
-			"A vast variety of boats and ships exist in the real world, from small rafts and longboats to intimidating galleons and swift galleys. To represent the numerous distinctions of shape and size that exist between water-going vessels, Table 7-49 categorizes seven standard ship sizes and their respective statistics. Just as the cultures of the real world have created and adapted hundreds of different types of seafaring vessels, races in fantasy worlds might create their own strange ships. GMs might use or alter the statistic above to suit the needs of their creations, and describe such conveyances however they please. All ships have the following traits.",
-			"",
-			"***Ship Type:*** This is a general category that lists the ship's basic type.",
-			"",
-			"***AC:*** The ship's base Armor Class. To calculate a ship's actual AC, add the captain's Profession (sailor) modifier to the ship's base AC. Touch attacks against a ship ignore the captain's modifier. A ship is never considered flat-footed.",
-			"",
-			"***hp:*** The ship's total hit points. In addition, all ships have a hardness rating based on their construction material (hardness 5 for most wooden ships). At 0 or fewer hit points, a ship gains the sinking condition as described above.",
-			"",
-			"***Base Save:*** The ship's base save modifier. All of a ship's saving throws (Fortitude, Reflex, and Will) have the same value. To determine a ship's actual saving throw modifiers, add the captain's Profession (sailor) modifier to this base value.",
-			"",
-			"***Maximum Speed:*** The ship's maximum tactical speed in combat. An asterisk indicates the ship has sails, and can move at double speed when it moves in the same direction as the wind. A ship with only sails can only move if there is some wind.",
-			"",
-			"***Arms:*** The number of siege engines that can be fitted on the ship. A ram uses one of these slots, and only one ram may be fitted to a ship.",
-			"",
-			"***Ram:*** The amount of damage the ship inflicts on a successful ramming attack (without a ram siege engine).",
-			"",
-			"***Squares:*** The number of squares the ship takes up on the battle mat. A ship's width is always considered to be one square.",
-			"",
-			"***Crew:*** The first number lists the minimum crew complement the ship needs to function normally, excluding those needed to make use of the vessel's weapons. The second value lists the ship's maximum crew plus additional soldiers or passengers. A ship without its minimum crew complement can only move, change speed, change direction, or ram if its captain makes a DC 20 Profession (sailor) check. Crew in excess of the minimum have no effect on movement, but they can replace fallen crew members or man additional weapons."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems",
-			"exploration_ucp",
-			"hex_terrain_types",
-			"fast-play_ship_combat"
-		],
-		"siblings": [
-			"sinking",
-			"ship_statistics"
+			"water_ucp"
 		]
 	},
 	"random_map_generation": {
@@ -6946,6 +6719,511 @@
 			"into_the_great_beyond",
 			"fear_and_reverence_of_the_unknown",
 			"ultimate_occult"
+		]
+	},
+	"race_builder": {
+		"name": "Race Builder",
+		"subtitle": "Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
+			"",
+			"There comes a point in nearly every campaign when someone-either one of the players or the GM-wants to create a new race. Sometimes the GM needs a new race to fill a story or ecological niche in her campaign world. Such races may be as simple as elves who dwell in an arctic climate or as complex as clockwork giants from another plane of existence. Perhaps a player wants to play a monstrous race, or has been inspired by some piece of fiction or flight of creative fancy and wants to create a race for a new character concept not yet seen in Pathfinder. The following rules allow GMs, or even players with GM oversight, to create new races that are balanced and mesh with the core races.",
+			"",
+			"In addition, these rules allow you to create powerful races meant to take on more challenging encounters than those typically faced by the core races. You can create new races, model a race after an existing monster, or even \"power up\" core races in order to play those races side-byside with more powerful new races."
+		],
+		"parent_topics": [ "gamemastering" ],
+		"subtopics": [
+			"creating_a_new_race",
+			"step_1_concept_arg",
+			"step_2_racial_qualities",
+			"step_3_racial_traits"
+		],
+		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"bestiary",
+			"race_builder",
+			"campaign_systems",
+			"aquatic_adventures_aa",
+			"occult_rules",
+			"mastering_combat",
+			"mastering_magic",
+			"mastering_intrigue",
+			"horror_rules",
+			"infernal_contracts",
+			"mastering_the_wild",
+			"planar_adventures",
+			"primal_magic"
+		]
+	},
+	"creating_a_new_race": {
+		"name": "Creating a New Race",
+		"subtitle": "Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
+			"",
+			"This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and languages. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.",
+			"",
+			"Before you buy racial qualities and traits, you must determine the power level of your race. The GM decides this based on the needs of her campaign. The power level of the race determines the number of RP you get to build the race, as well as the maximum number of racial traits you can choose from each racial trait category and what kinds of traits you can take from those categories.",
+			"",
+			"Sometimes racial qualities and traits cost 0 RP or a negative number of RP, which means they can be taken for free or gain back RP, respectively. In the case of racial qualities, choosing a 0-point option still counts toward your choice for that racial quality category, and in the case of racial traits, such choices still count toward the maximum number of traits per racial trait category.",
+			"",
+			"There are three power levels: standard, advanced, and monstrous. Standard races can only take standard racial traits, while advanced races can take both standard and advanced racial traits, and monstrous races can take standard, advanced, and monstrous racial traits. Table 4-1 summarizes the number of RP you can spend as well as the maximum number of traits per racial trait category you can take based on your power level.",
+			"",
+			"### Table 4-1: Racial Points and Trait",
+			"",
+			"| Power Level | RP Range | Traits per Category |",
+			"| --- | --- | --- |",
+			"| Standard | 1-10 | 3 |",
+			"| Advanced | 11-20 | 4 |",
+			"| Monstrous | 20+ | 5 |",
+			"",
+			"Once you have determined the race's power level, follow each of the steps below to create your race."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder"
+		],
+		"subtopics": [ "challenging_advanced_and_monstrous_races" ],
+		"siblings": [
+			"creating_a_new_race",
+			"step_1_concept_arg",
+			"step_2_racial_qualities",
+			"step_3_racial_traits"
+		]
+	},
+	"challenging_advanced_and_monstrous_races": {
+		"name": "Challenging Advanced and Monstrous Races",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
+			"",
+			"Because they have powerful racial traits and abilities, advanced and monstrous races require greater challenges, especially at lower levels. The basic guideline for accomplishing this is to treat a group of characters with advanced and monstrous races as a level or more higher for a number of levels based on their total RP spent, using the following chart. Calculate the party's adjusted average party level, and use that number, rather than the actual APL, when creating encounters and adventures for the group. For groups with mixed power levels, average the RP and round the result to the nearest multiple of 10.",
+			"",
+			"| Avg RP | Lvls 1-5 | Lvls 6-10 | Lvls 11-15 | Lvls 16-20 |",
+			"| --- | --- | --- | --- | --- |",
+			"| 20 | +1 level | +0 level | +0 level | +0 level |",
+			"| 30 | +2 level | +1 level | +0 level | +0 level |",
+			"| 40 | +3 level | +2 level | +1 level | +0 level |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"creating_a_new_race"
+		],
+		"siblings": [ "challenging_advanced_and_monstrous_races" ]
+	},
+	"step_1_concept_arg": {
+		"name": "Step 1: Concept",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
+			"",
+			"A race is more than just a group of individuals with similar qualities and traits. A race is a collection of people with a shared history and cultural identity. While the race builder presents many options for creating new races, and it may be tempting to treat each section as a buffet of options to help you ferret out the most optimal choices for your character, it is generally more beneficial for your campaign world to conceptualize your race first. Before choosing options, consider answering some questions about your race and its culture. Answering these questions can aid you in making reasonable choices about the qualities and traits of your race so that it can better fit in the game world-rather than just being a collection of seemingly random options. Such questions might include the following.",
+			"",
+			"- Where does your race tend to live and why?",
+			"- What does your race look like? How does the members' appearance help them adapt to their typical environment? What is your race's history? Does it have a creation myth? Were there pivotal events in the race's history?",
+			"- What kinds of relationships does your race have with other races? Does it have allies? Competitors? Enemies? Hated foes?",
+			"- What classes does your race tend to favor?",
+			"",
+			"If you are using these rules and you are not the GM, make sure you work closely with your GM to create a race that fills a definite niche and need in her campaign world."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder"
+		],
+		"siblings": [
+			"creating_a_new_race",
+			"step_1_concept_arg",
+			"step_2_racial_qualities",
+			"step_3_racial_traits"
+		]
+	},
+	"step_2_racial_qualities": {
+		"name": "Step 2: Racial Qualities",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
+			"",
+			"The next step is to choose your race's qualities. You must select an option from each of the following quality categories. Qualities or aspects of qualities often serve as prerequisites for racial traits."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder"
+		],
+		"subtopics": [
+			"type_quality",
+			"size_quality",
+			"base_speed_quality",
+			"ability_score_quality",
+			"language_quality"
+		],
+		"siblings": [
+			"creating_a_new_race",
+			"step_1_concept_arg",
+			"step_2_racial_qualities",
+			"step_3_racial_traits"
+		]
+	},
+	"type_quality": {
+		"name": "Type Quality",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
+			"",
+			"This is the race's creature type. A race's creature type is similar to the corresponding creature type found in a monster's entry, with a few important differences. The first difference is that each race type assumes members of the race are roughly humanoid in shape and have two arms, two legs, a torso, and a head. This is important so that a race can take advantage of all the various magic item slots available to characters and can utilize the standard weapon and armor options. The second difference is that all of these race types are 0-Hit Dice creatures, which means that their Hit Dice, base attack bonus, saving throw progression, skill points, class skills, and weapon and armor proficiencies are based on the class levels each member of a race takes.",
+			"",
+			"Like other racial qualities, each type has a point cost. The baseline creature type-humanoid-costs 0 RP, and offers the most flexibility when choosing other racial traits and racial abilities, while a more expensive type typically grants less flexibility. The cost of the race's type also determines which of these types you can choose from based on the power level of the race you are creating. You cannot pick a type with an RP cost equal to or higher than the maximum RP cost of the power level of the race you are building. This means you must build an advanced race if you want to make a race with the undead type, or a monstrous race if you are building a race with the construct type. If you want to make a construct- or undead-themed creature at lower power levels, see Special Subtypes for some lower-cost options.",
+			"",
+			"Sometimes a race type may grant racial traits as features. For instance, the construct type grants members of that race darkvision 60 feet. If this is the case, the cost of that racial trait is already paid for when you buy the type quality, and this trait does not count toward the maximum when you buy racial traits from the corresponding racial trait category. For instance, when buying other vision traits for a construct race, the darkvision 60 feet feature that race already has does not count toward the limit of five traits from the senses racial trait category for the race. Traits granted by the race type still count for meeting any other trait prerequisites.",
+			"",
+			"The humanoid type requires that you pick at least one subtype for your race, and the outsider (native) type allows you to make a decision about what other plane your race may have ties to. Keep track of your race's creature type, any subtypes it has, and any planes it has ties to. Sometimes a race's type, subtypes, or planar ties serve as prerequisites for some racial traits. For instance, you must have the ratfolk subtype to take the rodent empathy racial trait, and you must have ties to Abaddon, the Abyss, or Hell in order to take the fiendish sorcery racial trait."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities"
+		],
+		"subtopics": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		],
+		"siblings": [
+			"type_quality",
+			"size_quality",
+			"base_speed_quality",
+			"ability_score_quality",
+			"language_quality"
+		]
+	},
+	"aberration_3_rp": {
+		"name": "Aberration",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
+			"",
+			"Aberrations (3 RP) have bizarre anatomies, strange abilities, alien mindsets, or any combination of the three. An aberration has the following features.",
+			"",
+			"- Aberrations have the darkvision 60 feet racial trait.",
+			"- Aberrations breathe, eat, and sleep."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"construct_20_rp": {
+		"name": "Construct",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
+			"",
+			"A construct race (20 RP) is a group of animated objects or artificially created creatures. A construct race has the following features.",
+			"",
+			"- Constructs have no Constitution score. Any DCs or other statistics that rely on a Constitution score treat a construct as having a score of 10 (no bonus or penalty).",
+			"- Constructs have the low-light vision racial trait.",
+			"- Constructs have the darkvision 60 feet racial trait.",
+			"- Constructs are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
+			"- Constructs cannot heal damage on their own, but can often be repaired via exposure to a certain kind of effect (depending on the construct's racial abilities) or through the use of the [Craft Construct](feat/craft_construct) feat. Constructs can also be healed through spells such as [make whole](spell/make_whole). A construct with the fast healing special quality still benefits from that quality.",
+			"- Constructs are not subject to ability damage, ability drain, fatigue, exhaustion, energy drain, or nonlethal damage.",
+			"- Constructs are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
+			"- Constructs do not risk death due to massive damage, but they are immediately destroyed when reduced to 0 hit points or fewer.",
+			"- Constructs cannot be raised or resurrected.",
+			"- Constructs are hard to destroy, and gain bonus hit points based on their size, as shown on the table below.",
+			"- Constructs do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that a construct can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health.",
+			"",
+			"| Construct Size | Bonus Hit Points |",
+			"| --- | --- |",
+			"| Tiny | - |",
+			"| Small | 10 |",
+			"| Medium | 20 |",
+			"| Large | 30 |"
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"dragon_10_rp": {
+		"name": "Dragon",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
+			"",
+			"A dragon (10 RP) is a reptilian creature with magical or unusual abilities. A dragon race has the following features.",
+			"",
+			"- Dragons have the darkvision 60 feet racial trait.",
+			"- Dragons have the low-light vision racial trait.",
+			"- Dragons are immune to magical sleep effects and paralysis effects.",
+			"- Dragons breathe, eat, and sleep."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"fey_2_rp": {
+		"name": "Fey",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"A fey (2 RP) is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features.",
+			"",
+			"- Fey have the low-light vision racial trait.",
+			"- Fey breathe, eat, and sleep."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"humanoid_0_rp": {
+		"name": "Humanoid",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"Humanoid races (0 RP) have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a halfbreed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features.",
+			"",
+			"- Humanoids breathe, eat, and sleep."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"monstrous_humanoid_3_rp": {
+		"name": "Monstrous Humanoid",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"Monstrous humanoids (3 RP) are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features.",
+			"",
+			"- Monstrous humanoids have the darkvision 60 feet racial trait.",
+			"- Monstrous humanoids breathe, eat, and sleep."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"outsider_native_3_rp": {
+		"name": "Outsider",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"A native outsider (3 RP) is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.",
+			"",
+			"- Native outsiders have the darkvision 60 feet racial trait.",
+			"- Native outsiders breathe, eat, and sleep."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"plant_10_rp": {
+		"name": "Plant",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"This type (10 RP) encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features.",
+			"",
+			"- Plants have the low-light vision racial trait.",
+			"- Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
+			"- Plants are immune to paralysis, poison, polymorph, sleep effects, and stunning.",
+			"- Plants breathe and eat, but do not sleep, unless they want to gain some beneficial effect from this activity. This means that a plant creature can sleep in order to regain spells, but sleep is not required to survive or stay in good health."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
+		]
+	},
+	"undead_16_rp": {
+		"name": "Undead",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"Undead races (16 RP) are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features.",
+			"",
+			"- Undead have no Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC).",
+			"- Undead have the darkvision 60 feet racial trait.",
+			"- Undead are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
+			"- Undead are immune to bleed damage, death effects, disease, paralysis, poison, sleep effects, and stunning.",
+			"- Undead are not subject to nonlethal damage, ability drain, or energy drain, and are immune to damage to physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.",
+			"- Undead are harmed by positive energy and healed by negative energy. An undead creature with the fast healing special quality still benefits from that quality.",
+			"- Undead are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
+			"- Undead do not risk death from massive damage, but are immediately destroyed when reduced to 0 hit points or fewer.",
+			"- Undead are not affected by raise dead and reincarnate spells or abilities. Resurrection and true resurrection can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.",
+			"- Undead do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that an undead creature can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings": [
+			"aberration_3_rp",
+			"construct_20_rp",
+			"dragon_10_rp",
+			"fey_2_rp",
+			"humanoid_0_rp",
+			"monstrous_humanoid_3_rp",
+			"outsider_native_3_rp",
+			"plant_10_rp",
+			"undead_16_rp",
+			"races_without_constitution",
+			"special_subtypes"
 		]
 	}
 }

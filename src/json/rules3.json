@@ -5660,7 +5660,7 @@
 		"name": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
-			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water-typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures."
+			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water - typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures."
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
@@ -5760,6 +5760,7 @@
 	},
 	"fighting_underwater": {
 		"name": "Fighting Underwater",
+		"tags": "underwater combat",
 		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
