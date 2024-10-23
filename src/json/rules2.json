@@ -2914,7 +2914,7 @@
 			"",
 			"### Description",
 			"",
-			"This four-wheeled vehicle is ideal for transporting decent quantities of goods between communities. It can carry up to 1,00o p0unds of cargo.",
+			"This four-wheeled vehicle is ideal for transporting decent quantities of goods between communities. It can carry up to 1,00o pounds of cargo.",
 			"",
 			"**Propulsion** muscle (pulled; 4 Medium creatures or 1 Large creature)  ",
 			"**Driving Check** [Handle Animal](skill/handle_animal) or [Profession (driver)](skill/profession) (in the case of creatures with animal intelligence), [Diplomacy](skill/diplomacy) or [Intimidate](skill/intimidate) (in the case of intelligent creatures pulling the vehicle)  ",
@@ -7371,7 +7371,7 @@
 			"",
 			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as remove curse and break enchantment. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
 			"",
-			"{tabel0}"
+			"{table0}"
 		],
 		"parent_topics": [
 			"combat",

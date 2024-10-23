@@ -641,7 +641,7 @@
 			"",
 			"**Source** [Ultimate Magic](source/ultimate_magic)",
 			"",
-			"Mindless creatures (those with an Intelligence score of ---) and undead are immune to mind-affecting effects."
+			"A mind-affecting spell works only against creatures with an Intelligence score of 1 or higher. Mindless creatures (those with an Intelligence score of ---) and undead are immune to mind-affecting effects."
 		]
 	},
 	"mind-affecting": { "copyof": "mindaffecting" },

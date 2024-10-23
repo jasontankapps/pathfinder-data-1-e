@@ -2456,7 +2456,7 @@
 	},
 	"the_shape_of_civilization": {
 		"name": "The Shape of Civilization",
-		"tags": "settlement population",
+		"tags": "settlement population ranges",
 		"subtitle": "Urban, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -3786,7 +3786,7 @@
 			"| 29-32 | 1 [slaver](npc/criminal_slaver) | 3 |",
 			"| 33-37 | [Acid arrow trap](trap/acid_arrow_trap) | 3 |",
 			"| 38-43 | 1d8 [tengus](monster/tengu) | 3 |",
-			"| 44-48 | [Wall scythe trap](trip/wall_scythe_trap) | 4 |",
+			"| 44-48 | [Wall scythe trap](trap/wall_scythe_trap) | 4 |",
 			"| 49-52 | 1 [mimic](monster/mimic) | 4 |",
 			"| 53-56 | [Electricity arc trap](trap/electricity_arc_trap) | 4 |",
 			"| 57-60 | 1 [tomb raider](npc/adventurer_tomb_raider) | 5 |",
@@ -4467,11 +4467,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
 			"",
-			"Each of the standard terrain types varies by climate. Climate differs from weather, though it affects the weather significantly. Climate describes the generally prevailing atmospheric conditions of a particular region on a planet and usually defines the seasonal temperature extremes. Note that weather and temperature can change dramatically between terrains even within a particular climatic zone-a warm summer evening in a temperate grassland may be a bone-chillingly cold night on a temperate mountain. The following climatic zones are therefore presented as guidelines, from the poles to the equator.",
+			"Each of the standard terrain types varies by climate. Climate differs from weather, though it affects the weather significantly. Climate describes the generally prevailing atmospheric conditions of a particular region on a planet and usually defines the seasonal temperature extremes. Note that weather and temperature can change dramatically between terrains even within a particular climatic zone; a warm summer evening in a temperate grassland may be a bone-chillingly cold night on a temperate mountain. The following climatic zones are therefore presented as guidelines, from the poles to the equator.",
 			"",
 			"***Arctic:*** The coldest climates surround the poles. These arctic regions are frequently frozen and covered with snow; they have with bitterly cold, dark winters and cool summers. The types of terrain found in arctic climates range from the taiga (the northern or southernmost forests, which extend to the farthest limit trees can grow) to tundra to trackless snowy steppes. The terrain types can be mountainous and glacier-bound, thickly forested, or flat and snow-covered. Despite the harsh conditions, a variety of hardy creatures live in the arctic.",
 			"",
-			"***Temperate:*** The temperate zone consists of two major subgroups: oceanic and continental. The coastal oceanic zones enjoy a largely steady temperature, regulated by the weather patterns across the ocean, whereas the inland continental zones are warmer in the summer and colder in the winter. How much warmer and how much colder depends on the various landmasses and prevailing weather patterns. The temperate zone covers fertile farmland, high mountains, verdant forests, grasslands, swamps, and many more terrain types. Temperate lands are highly desirable and travelers must be on the lookout for more than just monsters-brigands prey on caravans, armies wage war, and the politics of kingdoms and duchies make their own troubles.",
+			"***Temperate:*** The temperate zone consists of two major subgroups: oceanic and continental. The coastal oceanic zones enjoy a largely steady temperature, regulated by the weather patterns across the ocean, whereas the inland continental zones are warmer in the summer and colder in the winter. How much warmer and how much colder depends on the various landmasses and prevailing weather patterns. The temperate zone covers fertile farmland, high mountains, verdant forests, grasslands, swamps, and many more terrain types. Temperate lands are highly desirable and travelers must be on the lookout for more than just monsters: brigands prey on caravans, armies wage war, and the politics of kingdoms and duchies make their own troubles.",
 			"",
 			"***Subtropical:*** Warmer than the temperate zone, the subtropics also vary widely in terrain type, from hot deserts to vast savannas to dense, broadleaf forests. Rainfall patterns vary widely in these regions, from dry to humid, and while the subtropics rarely see snow or frost, they can suffer intense cold snaps. As the climate tends toward moderation, the weather in the subtropics depends on the terrain to a greater extent.",
 			"",
@@ -4500,7 +4500,7 @@
 			"",
 			"A good GM considers the weather as an addition to regular adventures. How many days are routinely sunny, partly cloudy, or even merely overcast? How frequently does it rain? What are the major weather events that take place in a particular region, and how can travelers avoid them? These considerations include rain, thunder, lightning, floods, hurricanes, tornadoes, cyclones, and more. The weather can also combine with terrain to create truly deadly conditions, such as bogs, mudslides, and avalanches.",
 			"",
-			"Another question to consider is what the locals do to protect themselves. Note that in a fantasy world this doesn't necessarily entail just dressing more warmly or finding shelter-it may also mean appeasing the spirits of nature or the gods through propitiatory sacrifices. Safeguarding oneself from the weather-be it scorching sun or howling blizzard-is a crucial part of traveling or living in the wilderness, and the best protection against the weather may not be the best defense in combat.",
+			"Another question to consider is what the locals do to protect themselves. Note that in a fantasy world this doesn't necessarily entail just dressing more warmly or finding shelter; it may also mean appeasing the spirits of nature or the gods through propitiatory sacrifices. Safeguarding oneself from the weather - be it scorching sun or howling blizzard - is a crucial part of traveling or living in the wilderness, and the best protection against the weather may not be the best defense in combat.",
 			"",
 			"Types of weather that may factor into encounters include blizzards, severe cold or extreme heat, fog, hurricanes and typhoons, monsoons, dust storms, hailstorms, sandstorms, snowstorms, and thunderstorms (with or without lightning), tornadoes, and windstorms (see the other [Weather section](rule/weather))."
 		],
@@ -4523,7 +4523,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 221](source/gamemastery_guide)",
 			"",
-			"In addition to climate and weather, the environment itself can have an impact on adventures. The environment includes both landscapes and ecosystems. Landscape varies widely and is generally a function of both geology and geography-that is, the natural structure and substance of the land, and the physical features within a region. An ecosystem refers to the type of biological life in a region, rather than topology. The following terrain types can appear in virtually any climate, and each has its own unique hazards and considerations to take into account when used as the setting for an adventure. Remember that the possibility of becoming lost exists in any terrain!"
+			"In addition to climate and weather, the environment itself can have an impact on adventures. The environment includes both landscapes and ecosystems. Landscape varies widely and is generally a function of both geology and geography - that is, the natural structure and substance of the land, and the physical features within a region. An ecosystem refers to the type of biological life in a region, rather than topology. The following terrain types can appear in virtually any climate, and each has its own unique hazards and considerations to take into account when used as the setting for an adventure. Remember that the possibility of becoming lost exists in any terrain!"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4556,7 +4556,7 @@
 			"",
 			"Deserts are defined not by climate, but rather by the amount of rainfall a region receives; they can be cold, temperate, or hot. They exist in weather shadows, blocked from ordinary precipitation patterns. Desert vegetation is tough and sparse, able to store water for long periods, which means in turn that the soil in a desert is loose and barren, if not entirely rocky. Desert animals tend to be smaller insects, arachnids, mammals, and lizards, with some predatory birds. Venomous creatures are common. In hot deserts, the days are scorching; but at night the heat dissipates quickly, and those who don't have proper cover or clothing can suffer from exposure.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out desert terrain. [Desert terrain is described here](rule/desert_terrain), but encounters in the desert might also include exposure to either severe heat or cold; storms, whether blizzards, sandstorms, or thunderstorms, which can lead to flash floods in the higher deserts in particular; and thirst, when water stores eventually vanish."
+			"[Desert terrain is described here,](rule/desert_terrain) but encounters in the desert might also include exposure to either severe [heat](rule/heat_dangers) or [cold](rule/cold_dangers); [storms](rule/storms), whether blizzards, sandstorms, or thunderstorms, which can lead to flash [floods](rule/floods) in the higher deserts in particular; and [thirst](rule/starvation_and_thirst), when water stores eventually vanish."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4584,7 +4584,7 @@
 			"",
 			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined-if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out forest or jungle terrain. [Forest terrain is described here](rule/forest_terrain), but when adventuring in the forest or jungle, some possible encounters might also incorporate darkness, falling branches or trees, fog, forest fires and smoke, or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
+			"[Forest terrain is described here,](rule/forest_terrain) but when adventuring in the forest or jungle, some possible encounters might also incorporate [darkness](rule/vision_and_light), [falling branches or trees](rule/falling_objects), [fog](rule/fog), [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4612,7 +4612,7 @@
 			"",
 			"Hills can be of many different types. They might be rolling hills in a broad grassland, or they can be the transitional point between plains and more rugged mountains. They could be small, craggy bluffs or smooth, gentle slopes. Much depends on the terrain surrounding the hilly area. Streams or rivers may wind between the hills, cutting their banks. If the hills are the tallest features in an area, they are of immense strategic value: anyone who occupies them can see farther than would-be enemies.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out hills terrain. [Hills terrain is described here](rule/hills_terrain); hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include avalanches, the danger of falls, icy terrain, inclement weather, rivers and streams, and rubble. Hills used as defensive positions might also incorporate trenches and berms."
+			"[Hills terrain is described here;](rule/hills_terrain) hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include [avalanches](rule/avalanches_cr_7), the danger of [falls](rule/falling), [icy terrain](rule/cold_dangers), inclement [weather](rule/weather), rivers and streams, and [rubble](rule/floors). Hills used as defensive positions might also incorporate trenches and berms."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4640,7 +4640,7 @@
 			"",
 			"Swamps are forested lowland marshes that sit at the junctures of multiple sources of water, maintaining a constant seep and flow that filters water from higher elevations. Bogs differ from swamps in several important regards: they lie in declivities that do not drain easily, and they are fed by rainfall, snowmelt, or acidic springs rather than by active streams or rivers. Bogs form when dead vegetation is prevented from fully decaying by the surrounding acidic water, forming a layer of peat, which inhibits further drainage of the area. All swamps support a huge variety of plant, animal, and insect life, though trees tend to be less plentiful. Swamps are humid, dank, and full of treacherous footing: shallow pools give way quickly to deeper pools, and woe to the heavily laden traveler who steps into quicksand without companions nearby.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out [marshes, swamps, and bogs](rule/marsh_terrain). When traveling through swamps, one should always be wary of rotten vegetation, which can break suddenly under too much weight and cause falls, as well as quicksand and deep pools of water, which can be spotted in the same manner as quicksand. Falling into such a pool requires a DC 10 Swim check and carries the possibility of drowning. The deep water in swamps, while providing cover, can also hamper movement."
+			"[Marshes, swamps, and bogs are described here.](rule/marsh_terrain) When traveling through swamps, one should always be wary of rotten vegetation, which can break suddenly under too much weight and cause [falls](rule/falling), as well as quicksand and deep pools of water, which can be spotted in the same manner as quicksand. Falling into such a pool requires a DC 10 Swim check and carries the possibility of drowning. The deep water in swamps, while providing cover, can also hamper movement."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4668,7 +4668,7 @@
 			"",
 			"As with hills terrain, mountains come in a variety of shapes and sizes. In places where tectonic activity has for the most part stabilized and the rock is exposed to the upper air, the mountains are smoother and more eroded. In places where the earth is still relatively unstable, the mountains are harsher and more jagged and pose a greater (and more dangerous) challenge to climbers. Caves, chasms, cliff faces, and dense rubble are all common in mountains, to say nothing of the animals and monsters that make their homes in the peaks. Mountains flank strategic passes and overlook fertile valleys, which makes them common locales for fortresses and brigands.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out mountain terrain. [Mountain terrain is described here](rule/mountain_terrain). Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or avalanches of snow, mud, or rock, low clouds that function as fog, and ice sheets. Volcanic mountains add dangers of smoke and lava."
+			"[Mountain terrain is described here.](rule/mountain_terrain) Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or [avalanches](rule/avalanches_cr_7) of snow, mud, or rock, low clouds that function as [fog](rule/fog), and [ice sheets](rule/cold_dangers). [Volcanic mountains](rule/volcanoes) add dangers of smoke and lava."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4696,7 +4696,7 @@
 			"",
 			"Plains are large swaths of flat terrain with few trees. Several types of plains exist in different climates: prairie, savanna, steppe, and the like. The most common place for people to live, plains serve as farmlands, enabling the growth of culture on a huge number of levels. Because plains are so valuable, they are frequently contested, and those who rule the plains defend their turf ferociously. Because they are relatively flat and easy to traverse, plains also make convenient battlefields, as they afford the room needed for large-scale maneuvers. Lakes, ponds, rivers, streams, irrigation ditches, and other natural and man-made features divide plains and serve as impediments to travel.",
 			"",
-			"The following sections of the Pathfinder RPG Core Rulebook can help flesh out plains terrain. [Plains terrain is described here](rule/plains_terrain). With few terrain features to shield them, plains are often beset by high winds, causing dust storms and even tornadoes. Grassfires are also a danger (treat as forest fires), and they can cause normally placid herd animals to stampede, effectively granting them the stampede and trample special abilities."
+			"[Plains terrain is described here.](rule/plains_terrain) With few terrain features to shield them, plains are often beset by [high winds](rule/winds), causing [dust storms](rule/storms) and even tornadoes. Grassfires are also a danger (treat as [forest fires](rule/forest_fires_cr_6)), and they can cause normally placid herd animals to stampede, effectively granting them the [stampede and trample](umr/trample) special abilities."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4722,9 +4722,9 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
 			"",
-			"Caves form under a huge variety of circumstances: by the action of waves along the shore, internal erosion from underground streams, or acidic air and water, as well as by tectonic action. Unless frequently used as a passageway by cave dwellers, a cave has rough and erratic floors, and its passages expand and contract along their lengths. Drop-offs are frequent-travelers without safety lines are almost guaranteed to suffer falls. Even worse are cave-ins, which come with little warning and are occasionally the result of traps set by cave-dwelling creatures. Movement underground is difficult without a light source, and subterranean creatures will either be attracted to the light or squirm away from it as quickly as possible. Food is difficult to find in caves unless a creature has evolved specifically to eat subterranean lichens and molds-a prime reason for most creatures to live aboveground. Creatures that have adapted to the perpetual darkness learn to navigate by touch, smell, taste, and sound, and they are extraordinarily aware of intruders in their realm.",
+			"Caves form under a huge variety of circumstances: by the action of waves along the shore, internal erosion from underground streams, or acidic air and water, as well as by tectonic action. Unless frequently used as a passageway by cave dwellers, a cave has rough and erratic floors, and its passages expand and contract along their lengths. Drop-offs are frequent; travelers without safety lines are almost guaranteed to suffer falls. Even worse are cave-ins, which come with little warning and are occasionally the result of traps set by cave-dwelling creatures. Movement underground is difficult without a light source, and subterranean creatures will either be attracted to the light or squirm away from it as quickly as possible. Food is difficult to find in caves unless a creature has evolved specifically to eat subterranean lichens and molds - a prime reason for most creatures to live aboveground. Creatures that have adapted to the perpetual darkness learn to navigate by touch, smell, taste, and sound, and they are extraordinarily aware of intruders in their realm.",
 			"",
-			"Dungeons are described in greater detail [here in the Pathfinder RPG Core Rulebook](rule/dungeons) and [here in the GameMastery Guide](rule/dungeons_gg). Hazards in the Core Rulebook that can help liven up underground encounters include cave-ins, suffocation, falling rocks, darkness, and dangerous molds and fungi."
+			"Dungeons are described in greater detail [in the core rules](rule/dungeons) and [here in the GameMastery Guide](rule/dungeons_gg). Hazards in the Core Rulebook that can help liven up underground encounters include [cave-ins](rule/cave-ins_and_collapses_cr_8), [suffocation](rule/suffocation), [falling rocks](rule/falling_objects), [darkness](rule/vision_and_light), and dangerous [molds and fungi](rule/slimes_molds_and_fungi)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -4752,7 +4752,7 @@
 			"",
 			"Depending on how they're handled, cross-country journeys, voyages by sea, or treks between communities can be time consuming and difficult to run. Properly managed, though, they can be an integral part of an adventure, or even adventures unto themselves. In general, there is little reason to require the party to live through each moment of a long journey, leaving GMs to judge when to focus on day-to-day minutiae and when to fast forward to the next encounter. Adopting elements of the following techniques can help make a long journey more interesting and eventful.",
 			"",
-			"***Nothing Happens:*** Rarely should a day of travel pass where nothing happens. Some GMs and PCs in the midst of an intense story line might seek to rush past unrelated encounters on the road, glossing them over as an author might summarize a trek of days or weeks with a few words. While glossing over whole journeys should probably be avoided-what's the benefit of spells like [teleport](spell/teleport) after all if travel by foot is no different-?GMs shouldn't feel like they have to slog through weeks of extra encounters just because the PCs chose to visit another city.",
+			"***Nothing Happens:*** Rarely should a day of travel pass where nothing happens. Some GMs and PCs in the midst of an intense story line might seek to rush past unrelated encounters on the road, glossing them over as an author might summarize a trek of days or weeks with a few words. While glossing over whole journeys should probably be avoided - what's the benefit of spells like [teleport](spell/teleport) after all if travel by foot is no different? - GMs shouldn't feel like they have to slog through weeks of extra encounters just because the PCs chose to visit another city.",
 			"",
 			"***Daily Checks:*** If a GM chooses to have encounters occur during a journey, but doesn't want to run every step along the path, he might make a number of checks per day to keep the players on their toes. Occasional Perception checks as the party travels might allow them to notice specifics, from interesting landmarks and other travelers to dangerous beasts and ambushes. Each time they make a check, describe the area in a few quick words, and be ready to discuss the area further if they choose to investigate. Other challenges might call for the use of other skills, such as Climb, Handle Animal, Ride, Survival, or Swim, as appropriate. GMs should be mindful of when they call for checks to be made. Should a journey's narrative only pause for ambushes and dangers, the PCs will swiftly begin to dread every stop and description of the path ahead.",
 			"",
@@ -5445,11 +5445,15 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
 			"",
-			"Part of a GM's fun is not just coming up with exciting adventures, but devising new ways to present his adventures. While [Running a Game](rule/running_a_game) discusses many techniques a GM might use to make his campaign more captivating, good organization, tracking tools, handouts, and the like aren't always enough. Sometimes, a GM might find that there's no perfect fit within the existing rules for an encounter, creature, or other element he'd like to include. Yet rather than being deterred and having to reimagine his adventure, it's completely within the GM's purview to get creative with the rules to make what he wants or a campaign needs. Ultimately, while the Pathfinder RPG's rules are designed for ease of use and to promote fairness in a game, they exist to help a GM tell his story, and should never be a hindrance to play. If revising the rules or reworking them to better suit a situation improves an adventure, the GM is within his rights to make any adjustments he sees fit. At the simplest level, such changes might be purely cosmetic-using the stats of an existing monster while describing some new threat, or describing a magic item differently from its typical interpretation, for example. In other cases, actual rules might be altered as the GM chooses, though the balance and fairness of the game should always remain a consideration. There's nothing wrong with increasing the hit points of a major villain or monster if the PCs risk breezing through a campaign's climax, or increasing the DC of a disease meant to be especially virulent. In such cases, though, the GM should consider if not making a change is actually bad for a game. Sometimes real heroes slay a dragon in a single round or shrug off the world-ravaging plague, and such things make the players feel special and remain memorable long after the adventure ends.",
+			"Part of a GM's fun is not just coming up with exciting adventures, but devising new ways to present his adventures. While [Running a Game](rule/running_a_game) discusses many techniques a GM might use to make his campaign more captivating, good organization, tracking tools, handouts, and the like aren't always enough. Sometimes, a GM might find that there's no perfect fit within the existing rules for an encounter, creature, or other element he'd like to include. Yet rather than being deterred and having to reimagine his adventure, it's completely within the GM's purview to get creative with the rules to make what he wants or a campaign needs.",
+			"",
+			"Ultimately, while the Pathfinder RPG's rules are designed for ease of use and to promote fairness in a game, they exist to help a GM tell his story, and should never be a hindrance to play. If revising the rules or reworking them to better suit a situation improves an adventure, the GM is within his rights to make any adjustments he sees fit. At the simplest level, such changes might be purely cosmetic - using the stats of an existing monster while describing some new threat, or describing a magic item differently from its typical interpretation, for example. In other cases, actual rules might be altered as the GM chooses, though the balance and fairness of the game should always remain a consideration. There's nothing wrong with increasing the hit points of a major villain or monster if the PCs risk breezing through a campaign's climax, or increasing the DC of a disease meant to be especially virulent. In such cases, though, the GM should consider if not making a change is actually bad for a game. Sometimes real heroes slay a dragon in a single round or shrug off the world-ravaging plague, and such things make the players feel special and remain memorable long after the adventure ends.",
 			"",
 			"Occasionally, though, an adventure might call for a change that a cosmetic alteration or a random adjustment won't satisfy. In such cases, GMs have the option of creating their own simple subsystems to handle exactly the circumstance they desire. Aside from what a GM determines, there's no other authority that a rule or subsystem must appease for use in a game. While published rules typically have the benefit of professional design and extensive playtesting, there's nothing preventing any GM from designing his own components. This could be basic, like using existing rules to create magic items or monsters; more complex, like using existing spells as guidelines to create new ones; or wholly new, like many of the subsystems in this section. While GMs uncomfortable with the details of a game may want to keep things simple or mimic existing rules, those more experienced might attempt to design any element they feel could improve their game.",
 			"",
-			"Designing new elements for one's game doesn't need to be daunting, and taking cues from existing examples serves as a fantastic departure point. A GM might design wandering monster tables for his specific adventure, customize a new kind of staff for a villain, or create a new kind of flaming tornado hazard for a side trek onto the Plane of Fire. In each of these cases, templates or components exist for such elements, requiring just a bit of customizing on the part of the GM, yet feeling completely unique to the players-which is all the matters. On the other side of the spectrum, should the GM have need of complex rules for arguing in court, climbing on titanic beasts, or firing a laser canon, he might be forced to rely on his own ingenuity. In such cases, simple, flexible systems tend to work best, especially when they rely upon established rules. In the case of courtly arguments, one might devise a scale for a king's opinion, and have the actions and urgings of PCs and NPCs affect the scale in one way or another, creating a more nuanced system for argument than a mere Diplomacy check. GMs should try to test their rules systems before games begin, compare them to existing rules, and then let the players know that they're trying rules the GM has created himself. If things go poorly, the GM can adjust elements on the fly or even abandon the system in favor of more standard rules-and go back to the drawing board after the game. If things go well, though, the GM might solicit feedback and make additional adjustments, tinkering until he's devised a useful new tool."
+			"Designing new elements for one's game doesn't need to be daunting, and taking cues from existing examples serves as a fantastic departure point. A GM might design wandering monster tables for his specific adventure, customize a new kind of staff for a villain, or create a new kind of flaming tornado hazard for a side trek onto the Plane of Fire. In each of these cases, templates or components exist for such elements, requiring just a bit of customizing on the part of the GM, yet feeling completely unique to the players - which is all the matters. On the other side of the spectrum, should the GM have need of complex rules for arguing in court, climbing on titanic beasts, or firing a laser canon, he might be forced to rely on his own ingenuity. In such cases, simple, flexible systems tend to work best, especially when they rely upon established rules. In the case of courtly arguments, one might devise a scale for a king's opinion, and have the actions and urgings of PCs and NPCs affect the scale in one way or another, creating a more nuanced system for argument than a mere Diplomacy check.",
+			"",
+			"GMs should try to test their rules systems before games begin, compare them to existing rules, and then let the players know that they're trying rules the GM has created himself. If things go poorly, the GM can adjust elements on the fly or even abandon the system in favor of more standard rules - and go back to the drawing board after the game. If things go well, though, the GM might solicit feedback and make additional adjustments, tinkering until he's devised a useful new tool."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5469,7 +5473,9 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 231](source/gamemastery_guide)",
 			"",
-			"Often the appearance of a rule works just as well as a rule. For a GM faced with a situation for which there seems to be no obvious reference in the game's rules, yet who also lacks the time or interest needed to create a new subsystem, good storytelling, even-handed arbitration, and a bit of deception can typically solve the problem and keep a game moving along. When need for a new rules element unexpectedly comes up mid-game, that's rarely the time to stop and begin designing new rules. While you can easily make a few cosmetic changes to existing rules and stat blocks if you know of elements that might serve as good stand-ins, sometimes players come up with plans no rules system could account for. Say a PC wishes to run, leap off a cliff, and attack a dragon soaring past, digging in his axe to maintain a hold on the soaring beast. While rules exist for elements of the action, sticking and hanging onto a weapon embedded in another creature is not part of the game system. Yet rather than denying a character the opportunity to attempt a heroic feat, you could easily rely on the results of the rules you do know to arbitrate those you don't. For example, if the same character rolls high on his Acrobatics skill check and significantly exceeds his target's AC with his attack, you could declare that her plan works and she's now being dragged along by the dragon. Alternatively, if the PC botches either roll, she might be in for a long fall. Either way, interpreting existing rules in an unconventional way, or even just calling for an ability check to suggest either a good or poor result, can save you from paging through volumes of rules trying to find a non-existent perfect fit. And with some shuffling of notes and hidden dice roles, no player should be the wiser to such an improvised ruling."
+			"Often the appearance of a rule works just as well as a rule. For a GM faced with a situation for which there seems to be no obvious reference in the game's rules, yet who also lacks the time or interest needed to create a new subsystem, good storytelling, even-handed arbitration, and a bit of deception can typically solve the problem and keep a game moving along. When need for a new rules element unexpectedly comes up mid-game, that's rarely the time to stop and begin designing new rules. While you can easily make a few cosmetic changes to existing rules and stat blocks if you know of elements that might serve as good stand-ins, sometimes players come up with plans no rules system could account for.",
+			"",
+			"Say a PC wishes to run, leap off a cliff, and attack a dragon soaring past, digging in his axe to maintain a hold on the soaring beast. While rules exist for elements of the action, sticking and hanging onto a weapon embedded in another creature is not part of the game system. Yet rather than denying a character the opportunity to attempt a heroic feat, you could easily rely on the results of the rules you do know to arbitrate those you don't. For example, if the same character rolls high on his Acrobatics skill check and significantly exceeds his target's AC with his attack, you could declare that her plan works and she's now being dragged along by the dragon. Alternatively, if the PC botches either roll, she might be in for a long fall. Either way, interpreting existing rules in an unconventional way, or even just calling for an ability check to suggest either a good or poor result, can save you from paging through volumes of rules trying to find a non-existent perfect fit. And with some shuffling of notes and hidden dice roles, no player should be the wiser to such an improvised ruling."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5522,11 +5528,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
 			"",
-			"To simulate a chase, you'll need to do a little bit of prep work. Take about 10 small pieces of paper-pieces the size of playing cards or sticky notes work perfectly. These \"chase cards\" represent the chase's route, like the route a board game takes. Using 10 cards works well for a standard chase, but you can use more cards for a longer chase.",
+			"To simulate a chase, you'll need to do a little bit of prep work. Take about 10 small pieces of paper; pieces the size of playing cards or sticky notes work perfectly. These \"chase cards\" represent the chase's route, like the route a board game takes. Using 10 cards works well for a standard chase, but you can use more cards for a longer chase.",
 			"",
 			"When laying out your chase into a \"track\" you should decide if there's a preset ending (a \"finish line\"), be it a contested resource, an escape vehicle, a portal that whisks away the pursued foe to an unknown location before winking out, or some similar goal that the fleeing character is trying to reach before he gets caught by the pursuers. If the chase has a finish line, mark one of the cards as such. If the pursuers haven't caught the fleeing character by the time he reaches this card, the chase ends. If your chase doesn't have a finish line, and it's merely a race of attrition, you should lay your chase cards out in a square, circle, or similar shape so that there's no obvious beginning or ending. You can even lay out chase cards in a grid pattern, allowing the participants to move about a field of obstacles in any direction they wish.",
 			"",
-			"Pick two chase obstacles for each card. Not every card needs obstacles-there's no need to place obstacles on the finish line card, and if you want a faster chase, you can place obstacles on fewer cards-but if a card has obstacles, it should have two choices.",
+			"Pick two chase obstacles for each card. Not every card needs obstacles - there's no need to place obstacles on the finish line card, and if you want a faster chase, you can place obstacles on fewer cards - but if a card has obstacles, it should have two choices.",
 			"",
 			"When the chase begins, place miniatures or tokens representing the creatures involved in the chase on the cards as described by the following starting conditions.",
 			"",
@@ -5557,7 +5563,7 @@
 			"",
 			"You should tailor your chase's obstacles to match the location where the chase takes place. A rooftop chase might include things like crumbling rooftops, narrow gaps to leap across, tightropes to run along, or steep roofs to clamber up. A chase through a crumbling ruin in a swamp might involve crumbling walkways, narrow passageways, grasping vines, leaps over quicksand, or stinking clouds of nauseating miasma. Try to mix up the flavor of the obstacles as well as the types of checks and DCs needed to navigate them.",
 			"",
-			"Assign each obstacle a DC to successfully navigate or overcome. A trivial obstacle is DC 10, a simple obstacle is DC 15, a standard obstacle is DC 20, a difficult obstacle is DC 25, and a very difficult obstacle is DC 30. For high-level chases, feel free to assign correspondingly high-level DCs. When assigning obstacles, it's best to have the DCs of both obstacles on a card be within 5 points of each other, but never identical-this forces participants to make tactical choices.",
+			"Assign each obstacle a DC to successfully navigate or overcome. A trivial obstacle is DC 10, a simple obstacle is DC 15, a standard obstacle is DC 20, a difficult obstacle is DC 25, and a very difficult obstacle is DC 30. For high-level chases, feel free to assign correspondingly high-level DCs. When assigning obstacles, it's best to have the DCs of both obstacles on a card be within 5 points of each other, but never identical - this forces participants to make tactical choices.",
 			"",
 			"As a general rule, obstacles should be overcome by physical skill checks, such as Acrobatics, Climb, Escape Artist, Ride, or Swim. Perception can be used for obstacles like short cuts, Stealth can be rolled for obstacles requiring someone to move through a square quietly, or Bluff might be required to navigate a square by convincing a city guard you should be allowed to pass. You can even use saving throws to resolve obstacles (a Fortitude save to avoid being sickened by passing through a pool of filth, for example, or a Will save to evade the strange wailing spirits haunting that area). Be creative! It's okay to reuse obstacles, but try to vary them between cards and remember not to get bogged down with repetitive DCs or certain types of checks!"
 		],
@@ -5580,7 +5586,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
 			"",
-			"The first thing to do when a chase starts is to determine the baseline speed-the movement rate of the majority of the chase's participants. In most cases, this is a land speed of 30 feet, but in some cases you'll start out with different assumptions. This base speed sets the \"distance\" of each chase card, so in most cases, each card represents 30 feet of space.",
+			"The first thing to do when a chase starts is to determine the baseline speed: the movement rate of the majority of the chase's participants. In most cases, this is a land speed of 30 feet, but in some cases you'll start out with different assumptions. This base speed sets the \"distance\" of each chase card, so in most cases, each card represents 30 feet of space.",
 			"",
 			"In some instances, such as a chase between two sailing ships racing to reach a distant island, or a long overland journey through a desert that separates a bounty hunter from his quarry, you'll want to adjust the timing of a chase. Doing so alters the distance of each card, and also gives the participants multiple options each turn to do things like cast spells. You can still use these chase rules, though; simply decide on how long each round of the chase takes and adjust the distance of each card as appropriate.",
 			"",
@@ -5643,12 +5649,29 @@
 	},
 	"volcanoes": {
 		"name": "Volcanoes",
+		"tags": "lava poisonous gases lava bombs pyroclastic flows",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
 			"",
-			"When the world's crust ruptures and expels its molten heart, one of the most dramatic natural disasters results: a volcano. Volcanic eruptions offer a wide range of options for the GM, including lava, lava bombs, poisonous gases, and pyroclastic flows. GMs might also consider presaging a dramatic volcanic eruption with existing hazards, like avalanches and minor earthquakes."
+			"When the world's crust ruptures and expels its molten heart, one of the most dramatic natural disasters results: a volcano. Volcanic eruptions offer a wide range of options for the GM, including lava, lava bombs, poisonous gases, and pyroclastic flows. GMs might also consider presaging a dramatic volcanic eruption with existing hazards, like [avalanches](rule/avalanches_cr_7) and minor [earthquakes](rule/earthquake_cr_9).",
+			"",
+			"### Lava",
+			"",
+			"Lava flows are usually associated with non-explosive eruptions, and can be a permanent fixture of active volcanoes. Most lava flows are quite slow, moving at 15 feet per round. Hotter flows move faster, achieving speeds up to 60 feet per round. Lava in a channel such as a lava tube is especially dangerous, moving as fast as 120 feet per round (a CR 6 hazard). Creatures overrun by a lava flow must make a DC 20 Reflex save or be engulfed in the lava. Success indicates that they are in contact with the lava but not immersed.",
+			"",
+			"### Lava Bombs - CR 2 or 5",
+			"",
+			"Blobs of molten rock may be hurled several miles from an erupting volcano, cooling into solid rock before they land. A typical lava bomb strikes a point designated by the GM and explodes in a 30-foot radius. All creatures in the area must make a DC 15 Reflex save or take 4d6 points of damage. Creatures under cover or capable of covering themselves (like with a shield) gain a +2 bonus on this save. Particularly large lava bombs might sometimes occur, dealing 12d6 points of damage. Normal lava bombs have a CR of 2, large lava bombs have a CR of 5.",
+			"",
+			"### Poisonius Gases - CR 5",
+			"",
+			"One of the more insidious threats of a volcano is toxic gas, often escaping notice amid the fire and destruction. A wide variety of poisonous vapors can result from a volcanic eruption, some visible, some unseen. Poisonous gas causes 1d6 points of Constitution damage per round if inhaled (Fortitude DC 15 negates, the DC increases by 1 per previous save), and visible gases also function as heavy smoke. Poisonous gas clouds flow toward low ground, and are typically 50 feet high. Gale-force winds can divert gas clouds, as can high barriers - provided the gas has somewhere else to go.",
+			"",
+			"### Pyroclastic Flows - CR 10",
+			"",
+			"Some volcanic eruptions create a devastating wave of burning ash, hot gases, and volcanic debris called a pyroclastic flow that can travel for miles. Treat a pyroclastic flow as an avalanche traveling at 500 feet per round, combined with the effects of poisonous gas listed above. Contact with the searing-hot debris of the flow causes 2d6 points of fire damage per round, while any creature buried in the flow suffers 10d6 points of damage per round. Only reality-warping magic like [miracle](spell/miracle) or [wish](spell/wish) can turn aside or impede a pyroclastic flow."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5660,110 +5683,6 @@
 			"volcanoes",
 			"tsunamis",
 			"undead_uprising"
-		],
-		"subtopics": [
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10"
-		]
-	},
-	"lava": {
-		"name": "Lava",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
-			"",
-			"Lava flows are usually associated with non-explosive eruptions, and can be a permanent fixture of active volcanoes. Most lava flows are quite slow, moving at 15 feet per round. Hotter flows move faster, achieving speeds up to 60 feet per round. Lava in a channel such as a lava tube is especially dangerous, moving as fast as 120 feet per round (a CR 6 hazard). Creatures overrun by a lava flow must make a DC 20 Reflex save or be engulfed in the lava. Success indicates that they are in contact with the lava but not immersed."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"disasters",
-			"volcanoes"
-		],
-		"siblings": [
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10"
-		]
-	},
-	"lava_bombs_cr_2_or_8": {
-		"name": "Lava Bombs",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
-			"",
-			"**CR 2 or 8**",
-			"",
-			"Blobs of molten rock may be hurled several miles from an erupting volcano, cooling into solid rock before they land. A typical lava bomb strikes a point designated by the GM and explodes in a 30-foot radius. All creatures in the area must make a DC 15 Reflex save or take 4d6 points of damage. Creatures under cover or capable of covering themselves (like with a shield) gain a +2 bonus on this save. Particularly large lava bombs might sometimes occur, dealing 12d6 points of damage. Normal lava bombs have a CR of 2, large lava bombs have a CR of 5."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"disasters",
-			"volcanoes"
-		],
-		"siblings": [
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10"
-		]
-	},
-	"poisonous_gase_cr_5": {
-		"name": "Poisonous Gases",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
-			"",
-			"**CR 5**",
-			"",
-			"One of the more insidious threats of a volcano is toxic gas, often escaping notice amid the fire and destruction. A wide variety of poisonous vapors can result from a volcanic eruption, some visible, some unseen. Poisonous gas causes 1d6 points of Constitution damage per round if inhaled (Fortitude DC 15 negates, the DC increases by 1 per previous save), and visible gases also function as heavy smoke. Poisonous gas clouds flow toward low ground, and are typically 50 feet high. Gale-force winds can divert gas clouds, as can high barriers-provided the gas has somewhere else to go."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"disasters",
-			"volcanoes"
-		],
-		"siblings": [
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10"
-		]
-	},
-	"pyroclastic_flows_cr_10": {
-		"name": "Pyroclastic Flows",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
-			"",
-			"**CR 10**",
-			"",
-			"Some volcanic eruptions create a devastating wave of burning ash, hot gases, and volcanic debris called a pyroclastic flow that can travel for miles. Treat a pyroclastic flow as an avalanche traveling at 500 feet per round, combined with the effects of poisonous gas listed above. Contact with the searing-hot debris of the flow causes 2d6 points of fire damage per round, while any creature buried in the flow suffers 10d6 points of damage per round. Only reality-warping magic like miracle or wish can turn aside or impede a pyroclastic flow."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"disasters",
-			"volcanoes"
-		],
-		"siblings": [
-			"lava",
-			"lava_bombs_cr_2_or_8",
-			"poisonous_gase_cr_5",
-			"pyroclastic_flows_cr_10"
 		]
 	},
 	"tsunamis": {
@@ -5779,7 +5698,7 @@
 			"",
 			"The exact damage caused by a tsunami is subject to the GM's discretion, but a typical tsunami obliterates or displaces all temporary and poorly built structures in its path, destroys about 25% of well-built buildings (and causes significant damage to those that survive), and leaves serious fortifications only lightly damaged. As much as a quarter of the population living in the area (including animals and monsters) perishes in the disaster, either swept out to sea, drowned on shore, or buried under rubble.",
 			"",
-			"A creature can avoid being pulled out to sea with a DC 25 Swim check; otherwise it is pulled 6d6 &times; 10 feet away from shore. Waters after a tsunami are always treated as rough or stormy, barring magical influence. A creature caught in a collapsing building takes 6d6 points of damage (DC 15 Reflex save for half), or half that amount if the building is particularly small. There is a 50% chance that the creature is buried (as for a cave-in), or the tsunami may tear the building apart, freeing the creature from the rubble."
+			"A creature can avoid being pulled out to sea with a DC 25 Swim check; otherwise it is pulled 6d6 &times; 10 feet away from shore. Waters after a tsunami are always treated as rough or stormy, barring magical influence. A creature caught in a collapsing building takes 6d6 points of damage (DC 15 Reflex save for half), or half that amount if the building is particularly small. There is a 50% chance that the creature is buried (as for a [cave-in](rule/cave-ins_and_collapses_cr_8), or the tsunami may tear the building apart, freeing the creature from the rubble."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5829,7 +5748,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
 			"",
-			"On the first nights of an undead uprising, the bodies of the recently dead rise as zombies. Those interred in consecrated ground remain at rest, but bodies left unburied or in mass graves lurch out into the streets, wreaking havoc. At first, only a few corpses are able to free themselves from their coffins and tombs, but each night, more bodies return to walk the land of the living. When dawn breaks, the dead seek safety in their graves or other hidden places. Any caught in the daylight flail about confused, as per the condition until they are destroyed or manage to stagger into shelter. At the GM's discretion, non-humanoid corpses may rise as undead on subsequent nights."
+			"On the first nights of an undead uprising, the bodies of the recently dead rise as [zombies](template/zombie). Those interred in consecrated ground remain at rest, but bodies left unburied or in mass graves lurch out into the streets, wreaking havoc. At first, only a few corpses are able to free themselves from their coffins and tombs, but each night, more bodies return to walk the land of the living. When dawn breaks, the dead seek safety in their graves or other hidden places. Any caught in the daylight flail about [confused](rule/awareness_conditions), as per the condition until they are destroyed or manage to stagger into shelter. At the GM's discretion, non-humanoid corpses may rise as undead on subsequent nights."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5852,7 +5771,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
 			"",
-			"As the uprising progresses, older and older corpses join the shambling ranks of the undead. Skeletons wearing traces of long-rotted funeral garb claw their way out of graveyards and crypts, and act with a malevolence and organization rarely encountered among their ilk. The undead remain mindless, but the magical power behind the incursion gives them the efficiency and tactical acumen of a living army. The skeletons seek out weapons and armor to gird themselves for battle. Elite skeletal champions lead the troops, wielding magic items scavenged from abandoned graves. Eventually, ghouls and wights prowl the streets after dark as well, along with other lesser, free-willed undead."
+			"As the uprising progresses, older and older corpses join the shambling ranks of the undead. [Skeletons](template/skeleton) wearing traces of long-rotted funeral garb claw their way out of graveyards and crypts, and act with a malevolence and organization rarely encountered among their ilk. The undead remain mindless, but the magical power behind the incursion gives them the efficiency and tactical acumen of a living army. The skeletons seek out weapons and armor to gird themselves for battle. Elite [skeletal champions](template/skeletal_champion) lead the troops, wielding magic items scavenged from abandoned graves. Eventually, [ghouls](monster/ghoul) and [wights](monster/wight) prowl the streets after dark as well, along with other lesser, free-willed undead."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5875,11 +5794,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
 			"",
-			"As the uprising gathers strength, the unquiet souls of bodies long since turned to dust awaken as well. Ghosts, shadows, wraiths, and even spectres arise to prey upon the living. A handful of the ghosts might be free from the malevolent influence of the uprising, and enterprising PCs may be able to glean valuable intelligence from these troubled spirits.",
+			"As the uprising gathers strength, the unquiet souls of bodies long since turned to dust awaken as well. [Ghosts](template/ghost), [shadows](monster/shadow), [wraiths](monster/wraith), and even [spectres](monster/spectre) arise to prey upon the living. A handful of the ghosts might be free from the malevolent influence of the uprising, and enterprising PCs may be able to glean valuable intelligence from these troubled spirits.",
 			"",
-			"The infusion of negative energy strengthens the undead within the area of the incursion, providing the benefits of a desecrate spell. Areas that were once consecrated are now treated as normal ground, and may well provide new sources of corpses for the undead armies, but hallowed ground remains inviolate.",
+			"The infusion of negative energy strengthens the undead within the area of the incursion, providing the benefits of a [desecrate](spell/desecrate) spell. Areas that were once [consecrated](spell/consecrate) are now treated as normal ground, and may well provide new sources of corpses for the undead armies, but [hallowed](spell/hallow) ground remains inviolate.",
 			"",
-			"As the undead grow stronger, the growing flood of negative energy brings the Shadow Plane closer, leaving colors muted or gray except during the brightest hours of daylight. Even those undead most vulnerable to light can move about with impunity from late afternoon to mid-morning."
+			"As the undead grow stronger, the growing flood of negative energy brings the [Shadow Plane](rule/shadow_plane) closer, leaving colors muted or gray except during the brightest hours of daylight. Even those undead most vulnerable to light can move about with impunity from late afternoon to mid-morning."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -5902,7 +5821,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
 			"",
-			"If the flow of negative energy is not reversed, darkness finally claims the area, cloaking it in perpetual shadow. The entire area of the undead uprising functions as if under the effects of an [unhallow](spell/unhallow) spell (with no additional spell effect tied to it). Hallowed ground remains a rare sanctuary, but only until destroyed by the malevolent forces without.",
+			"If the flow of negative energy is not reversed, darkness finally claims the area, cloaking it in perpetual shadow. The entire area of the undead uprising functions as if under the effects of an [unhallow](spell/unhallow) spell (with no additional spell effect tied to it). [Hallowed](spell/hallow) ground remains a rare sanctuary, but only until destroyed by the malevolent forces without.",
 			"",
 			"Heroes who perished in the battle against the uprising return as fearsome undead generals. The few living survivors are enslaved as thralls. The area becomes a city of the dead, or construction begins if no such city existed or survived. Free-willed undead flock to this new sanctuary, and only the greatest of heroes can return this now-blighted area to the world of the living."
 		],
@@ -6035,7 +5954,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
 			"",
-			"As addictions are diseases, they can be cured as such, through the use of spells like remove disease or by succeeding at Fortitude saves over time. Unlike with other diseases, an addicted character can only make a Fortitude save to overcome his addiction after a day of not taking the drug he is addicted to. The DC of this Fortitude save is equal to the highest addiction DC his drug use has reached (not necessarily the DC that addicted him if he has continued to make use of the drug while addicted). This DC decreases by -2 for everyday the character does not make use of the drug, to a minimum of the drug's base addiction DC. Depending on the severity of the character's addiction, it might take two or three consecutive successful Fortitude saves to overcome the disease. Should a character take a dose of the drug he's addicted to, he immediately relapses, causing the addiction DC to instantly return to its highest DC and negating any successful past saves."
+			"As addictions are [diseases](rule/diseases), they can be cured as such, through the use of spells like [remove disease](spell/remove_disease) or by succeeding at Fortitude saves over time. Unlike with other diseases, an addicted character can only make a Fortitude save to overcome his addiction after a day of not taking the drug he is addicted to. The DC of this Fortitude save is equal to the highest addiction DC his drug use has reached (not necessarily the DC that addicted him if he has continued to make use of the drug while addicted). This DC decreases by -2 for everyday the character does not make use of the drug, to a minimum of the drug's base addiction DC. Depending on the severity of the character's addiction, it might take two or three consecutive successful Fortitude saves to overcome the disease. Should a character take a dose of the drug he's addicted to, he immediately relapses, causing the addiction DC to instantly return to its highest DC and negating any successful past saves."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6099,7 +6018,7 @@
 			"",
 			"So how do you, in your modern game room that is probably noticeably lacking in crystal balls and mysterious tents, use the illusion of fortune-telling to give your players the same excited trepidation, as well as both hope and fear for their characters' destinies?",
 			"",
-			"No matter how the fortune-telling enters your campaign, you as the Game Master have options. You can choose to roll some dice behind a screen and simply tell your players the result-or you can choose to use the moment to create dramatic tension and the feeling that the players' characters are integral to the fortune-telling. While the second option is likely a lot more fun for all involved, it does require some work on your part."
+			"No matter how the fortune-telling enters your campaign, you as the Game Master have options. You can choose to roll some dice behind a screen and simply tell your players the result - or you can choose to use the moment to create dramatic tension and the feeling that the players' characters are integral to the fortune-telling. While the second option is likely a lot more fun for all involved, it does require some work on your part."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6133,15 +6052,15 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
 			"",
-			"Many fortune-telling methods exist, and each has its pros and cons in terms of use in a roleplaying game. What follow are some of the more easily integrated fortunetelling methods and their strengths and weaknesses for a Game Master.",
+			"Many fortune-telling methods exist, and each has its pros and cons in terms of use in a roleplaying game. What follow are some of the more easily integrated fortune-telling methods and their strengths and weaknesses for a Game Master.",
 			"",
-			"***Cold Readings:*** A cold reading is when you decide to plunge into a fortune-telling situation without much-if any-preparation. This might occur because the players suddenly seek out a fortune-teller or because it suddenly seems right in your campaign.",
+			"***Cold Readings:*** A cold reading is when you decide to plunge into a fortune-telling situation without much - if any - preparation. This might occur because the players suddenly seek out a fortune-teller or because it suddenly seems right in your campaign.",
 			"",
 			"For a cold reading, you can either revert to reading the palms of your players' characters, throwing stones, using cards or dice, or other mystical-feeling methods. The critical thing with a cold reading is not to commit too anything too concrete or detailed in the fortuneteller's answers. You haven't prepared and committing to a possible game changer or other critical game element on the fly can come back to haunt you.",
 			"",
-			"With such readings, attempt to give vague answers or ones filled with symbolism that the players can interpret (\"I see a red hawk at your shoulder. Its left foot is crippled, a black ribbon tangled in its claws.\"). While such prophecies might have little meaning initially, you can work manifestations of such revelations into future adventures-or not, depending on the legitimacy of your fortune-telling NPC.",
+			"With such readings, attempt to give vague answers or ones filled with symbolism that the players can interpret (\"I see a red hawk at your shoulder. Its left foot is crippled, a black ribbon tangled in its claws.\"). While such prophecies might have little meaning initially, you can work manifestations of such revelations into future adventures - or not, depending on the legitimacy of your fortune-telling NPC.",
 			"",
-			"***True Randomness:*** With this method of fortunetelling you let the sticks, dice, cards, or stones fall as they may. Then it is up to you to interpret the results in a way that is useful and potentially meaningful for your players. This method works best if you write down a few possible results for each player. You can do this by listing several positive and negative results (say, having the upper numbers on dice tell something positive and the lower numbers mean a negative future). Doing so allows you to create a few vague and optional fates that work with your campaign and your characters' abilities, but still afford the excitement of leaving the results up to chance.",
+			"***True Randomness:*** With this method of fortune-telling you let the sticks, dice, cards, or stones fall as they may. Then it is up to you to interpret the results in a way that is useful and potentially meaningful for your players. This method works best if you write down a few possible results for each player. You can do this by listing several positive and negative results (say, having the upper numbers on dice tell something positive and the lower numbers mean a negative future). Doing so allows you to create a few vague and optional fates that work with your campaign and your characters' abilities, but still afford the excitement of leaving the results up to chance.",
 			"",
 			"***False Randomness:*** Many fortune-telling methods can be made to look random while allowing you to remain in total control of the outcome. This is easiest to do with a prop like a spirit board, but can also be done easily with cards. The advantage to false randomness is that it allows you to give players specific information you want to impart about their futures. By spelling out words on a spirit board or stacking a deck so certain cards are revealed, you can impart meanings specific to the needs of your game. The disadvantage of this technique is that, if you mess up, players know you rigged the results and don't feel as excited or as invested in the results as they might otherwise."
 		],
@@ -6169,7 +6088,7 @@
 			"",
 			"There are far more fortune-telling methods in the world than can be addressed here, but the following often prove easiest to integrate into a fantasy roleplaying campaign. If you're interested, the library and Internet have a wealth of information on other fortune-telling methods such as the I-Ching, pendulum reading, horacy, crystalmancy, chiromancy, and countless others.",
 			"",
-			"***Cards:*** These can be used either as single cards drawn from a deck or in more complicated fortune-telling spreads. You should have an idea of what each card means in fortune-telling or in your world before doing such a reading, as being able to interpret each card off the top of your head or with only a quick reference of your notes goes a long way to increasing the verisimilitude of the experience. The Harrow Deck offers cards designed specifically for use in the Pathfinder RPG, dealing with RPG-related themes, and can be useful in shortening your research time to convert real-world answers to your fantasy world.",
+			"***Cards:*** These can be used either as single cards drawn from a deck or in more complicated fortune-telling spreads. You should have an idea of what each card means in fortune-telling or in your world before doing such a reading, as being able to interpret each card off the top of your head or with only a quick reference of your notes goes a long way to increasing the verisimilitude of the experience. The Harrow Deck [published by Paizo] offers cards designed specifically for use in the Pathfinder RPG, dealing with RPG-related themes, and can be useful in shortening your research time to convert real-world answers to your fantasy world.",
 			"",
 			"***Dice, Sticks, or Stones:*** Dice are something every Game Master has readily available. Many also have shiny stones of different colors and types. The GM reveals fortunes using these props by interpreting either marks on their surfaces or how they fall in relation to one another. While such items typically prove vague enough that only the \"fortune-teller\" can decipher them, they offer little in the way of thematic suggestions, and thus prove difficult to ad-lib with unless the GM already has an idea of how he wants the prophecy to play out. They do, however, lend an air of action, mysticism, and randomness that simple palm reading or staring into a crystal ball does not.",
 			"",
@@ -6245,7 +6164,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
 			"",
-			"Gambling is a staple of fantasy roleplaying, from elaborate games of chance in a glittering high-end casino in the wealthy part of the city to a dangerous high-stakes card game in a tavern's back room. RPG rules aside, the players and the Game Master can play a gambling game between themselves, without the interference of wildly disparate levels and skill modifiers-just get some dice or cards, and play.",
+			"Gambling is a staple of fantasy roleplaying, from elaborate games of chance in a glittering high-end casino in the wealthy part of the city to a dangerous high-stakes card game in a tavern's back room. RPG rules aside, the players and the Game Master can play a gambling game between themselves, without the interference of wildly disparate levels and skill modifiers - just get some dice or cards, and play.",
 			"",
 			"However, no one coming to your house for an RPG session is going to be satisfied if you just play croupier all night long. You need to make your players' trip to the Gold Goblin Gaming House rich in fantasy if you're going to have a successful gaming experience, in both senses of the word \"gaming.\""
 		],
@@ -6258,9 +6177,9 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		],
 		"siblings": [
 			"customizing_your_game",
@@ -6301,9 +6220,9 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		]
 	},
 	"types_of_gambling_games": {
@@ -6325,7 +6244,7 @@
 			"",
 			"***Pick-a-number:*** In a game such as roulette or keno, each player picks one or more target numbers, and then a result number is determined. If the result is the same as a player's target number, the player wins; otherwise, the player loses.",
 			"",
-			"Proposition betting: Prop bets are bets on the outcomes of events for which one has imperfect knowledge. Sports bets are the best known of these types of bets. The house sets a line on which it believes half the bettors will pick one side and half will pick the other. The proposition then happens, and the people who picked correctly are paid off."
+			"***Proposition betting:*** Prop bets are bets on the outcomes of events for which one has imperfect knowledge. Sports bets are the best known of these types of bets. The house sets a line on which it believes half the bettors will pick one side and half will pick the other. The proposition then happens, and the people who picked correctly are paid off."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6337,9 +6256,9 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		]
 	},
 	"gambling_and_skill_checks": {
@@ -6365,19 +6284,19 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		]
 	},
-	"sample_game_twenty_bones": {
-		"name": "Sample Game: Twenty Bones",
+	"games_of_chance": {
+		"name": "Games of Chance",
 		"subtitle": "Gambling, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
 			"",
-			"In games of pure chance, luck should rule the day. Neither the player nor the house is in control-the dice are, and no ranks in Profession (gambler) will help a character win. But this is as it should be. Players don't want to win at craps because their characters have high Dexterity scores-they want to win because the dice are hot tonight.",
+			"In games of pure chance, luck should rule the day. Neither the player nor the house is in control - the dice are, and no ranks in Profession (gambler) will help a character win. But this is as it should be. Players don't want to win at craps because their characters have high Dexterity scores - they want to win because the dice are hot tonight.",
 			"",
 			"Of course, cheating is the only way to change your luck in a game of chance. If someone at the table wants to cheat, Sleight of Hand is the most useful skill, but Disable Device might also be allowed. In addition, magic can be quite useful for cheating. Spells like mage hand, silent image, and modify memory can turn bad results into good results. Getting caught, however, can turn these good results into much, much worse outcomes."
 		],
@@ -6391,13 +6310,13 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		]
 	},
-	"games_of_chance": {
-		"name": "Games of Chance",
+	"designing_a_gambling_game": {
+		"name": "Designing a Gambling Game",
 		"subtitle": "Gambling, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -6407,7 +6326,7 @@
 			"",
 			"***House:*** The house is the source of the game, and determines the game's style. A \"tight\" house runs games where the house edge is higher, and where player influence is minimized. A \"loose\" house wants much more gambling to occur, and is willing to maximize its risks so that players will bet more. The standard deviation of loss or gain is higher if the house is loose. As long as the house has an advantage in all games, the other important number the house must care about is its exposure, which is how much it can lose if everyone suddenly wins at once. A house that can't cover all its bets won't be successful for long.",
 			"",
-			"***Equipment:*** This is what you need to play the game. It's not just dice or cards-you often need markers, coins, and even miniatures. You should also determine how many people are necessary to run the game. Usually it's just one dealer, but a game like craps requires four people to run it: a boxman, two base dealers, and a stickman.",
+			"***Equipment:*** This is what you need to play the game. It's not just dice or cards - you often need markers, coins, and even miniatures. You should also determine how many people are necessary to run the game. Usually it's just one dealer, but a game like craps requires four people to run it: a boxman, two base dealers, and a stickman.",
 			"",
 			"***Mechanic:*** The mechanic is how the game is played. A mechanic should be simple and easy to grasp: place a chip on the board and roll a pair of dice, choose a number and spin a wheel, use some of your hole cards and some of the ones on the table. However, the variation of results can be much less simple; the sheer number of possible places to put your money on a craps table is dazzling.",
 			"",
@@ -6425,13 +6344,13 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		]
 	},
-	"designing_a_gambling_game": {
-		"name": "Designing a Gambling Game",
+	"sample_game_twenty_bones": {
+		"name": "Sample Game: Twenty Bones",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -6439,15 +6358,15 @@
 			"",
 			"Twentybone is a beat-the-bank game played with 20-sided dice, based on the familiar roll for attacks and skill checks.",
 			"",
-			"*The house:* Twentybone originated in a casino deep in the back alleys of a major city. The casino's owner favors exciting games with lots of randomness, and his oft-inebriated patrons appreciate that too. Bones are rattled all night long, and cheaters who sneak in loaded dice find that some of their bones get rattled as well.",
+			"***The house:*** Twentybone originated in a casino deep in the back alleys of a major city. The casino's owner favors exciting games with lots of randomness, and his oft-inebriated patrons appreciate that too. Bones are rattled all night long, and cheaters who sneak in loaded dice find that some of their bones get rattled as well.",
 			"",
-			"*The equipment:* To play, you need some d20s. A whole lot of them. A dealer and a \"dice girl\" run the game.",
+			"***The equipment:*** To play, you need some d20s. A whole lot of them. A dealer and a \"dice girl\" run the game.",
 			"",
-			"*The mechanic:* On each round, players can buy any number of d20s they want. The standard peasant's-wage cost for a d20 is a copper piece, though at some tables a player can spend a silver piece, a gold piece, a platinum piece, or even more for a die. When all dice have been purchased, the players all roll their dice. Then the house rolls a die. Every player die that beats the house die gets paid off with two coins for every one coin it was bought for. For the player, a 1 always loses, and a 20 always wins.",
+			"***The mechanic:*** On each round, players can buy any number of d20s they want. The standard peasant's-wage cost for a d20 is a copper piece, though at some tables a player can spend a silver piece, a gold piece, a platinum piece, or even more for a die. When all dice have been purchased, the players all roll their dice. Then the house rolls a die. Every player die that beats the house die gets paid off with two coins for every one coin it was bought for. For the player, a 1 always loses, and a 20 always wins.",
 			"",
-			"*The odds:* The player has a 47.75 percent chance of winning. 1's don't beat anything, 2's only beat house 1's, 3's beat house 1's and 2's, and so on. The exception is player 20's, which have a special advantage of beating house 20's.",
+			"***The odds:*** The player has a 47.75 percent chance of winning. 1's don't beat anything, 2's only beat house 1's, 3's beat house 1's and 2's, and so on. The exception is player 20's, which have a special advantage of beating house 20's.",
 			"",
-			"*The payout:* The player will win 9.55 coins for every 10 coins he bets. The fact that a player is paid two coins on every win obscures the fact that the player gave over a coin to buy the die. Accounting for this, every successful bet's payout is 1-to-1."
+			"***The payout:*** The player will win 9.55 coins for every 10 coins he bets. The fact that a player is paid two coins on every win obscures the fact that the player gave over a coin to buy the die. Accounting for this, every successful bet's payout is 1-to-1."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6459,9 +6378,9 @@
 			"creating_the_right_atmosphere",
 			"types_of_gambling_games",
 			"gambling_and_skill_checks",
-			"sample_game_twenty_bones",
 			"games_of_chance",
-			"designing_a_gambling_game"
+			"designing_a_gambling_game",
+			"sample_game_twenty_bones"
 		]
 	},
 	"haunts": {
@@ -6471,7 +6390,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 242](source/gamemastery_guide)",
 			"",
-			"The distinction between a trap and an undead creature blurs when you introduce a haunt-a hazardous region created by unquiet spirits that react violently to the presence of the living. The exact conditions that cause a haunt to manifest vary from case to case-but haunts always arise from a source of terrific mental or physical anguish endured by living, tormented creatures. A single, source of suffering can create multiple haunts, or multiple sources could consolidate into a single haunt. The relative power of the source has little bearing on the strength of the resulting haunt-it's the magnitude of the suffering or despair that created the haunt that decides its power. Often, undead inhabit regions infested with haunts-it's even possible for a person who dies to rise as a ghost (or other undead) and trigger the creation of numerous haunts. A haunt infuses a specific area, and often multiple haunted areas exist within a single structure. The classic haunted house isn't a single haunt, but usually a dozen or more haunted areas spread throughout the structure.",
+			"The distinction between a trap and an undead creature blurs when you introduce a haunt: a hazardous region created by unquiet spirits that react violently to the presence of the living. The exact conditions that cause a haunt to manifest vary from case to case, but haunts always arise from a source of terrific mental or physical anguish endured by living, tormented creatures. A single, source of suffering can create multiple haunts, or multiple sources could consolidate into a single haunt. The relative power of the source has little bearing on the strength of the resulting haunt - it's the magnitude of the suffering or despair that created the haunt that decides its power. Often, undead inhabit regions infested with haunts - it's even possible for a person who dies to rise as a [ghost](template/ghost) (or other undead) and trigger the creation of numerous haunts. A haunt infuses a specific area, and often multiple haunted areas exist within a single structure. The classic haunted house isn't a single haunt, but usually a dozen or more haunted areas spread throughout the structure.",
 			"",
 			"[Find a list of haunts here.](main/haunts)"
 		],
@@ -6483,8 +6402,9 @@
 		"subtopics": [
 			"haunt_rules",
 			"elements_of_a_haunt",
+			"haunt_templates",
 			"creating_a_haunt",
-			"horror_haunt_elements",
+			"seances_and_spirit_communication",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		],
@@ -6505,9 +6425,12 @@
 	"haunt_rules": {
 		"name": "Haunt Rules",
 		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+		"sources": [
+			"GameMastery Guide",
+			"Occult Adventures"
+		],
 		"description": [
-			"**Source** [GameMastery Guide pg. 242](source/gamemastery_guide)",
+			"**Sources** [GameMastery Guide pg. 242](source/gamemastery_guide), [Occult Adventures pg. 228](source/occult_adventures)",
 			"",
 			"Although haunts function like traps, they are difficult to detect since they cannot be easily observed until the round in which they manifest. [Detect undead](spell/detect_undead) or [detect alignment](spell/detect_evil) spells of the appropriate type allow an observer a chance to notice a haunt even before it manifests (allowing that character the appropriate check to notice the haunt, but at a -4 penalty).",
 			"",
@@ -6515,60 +6438,15 @@
 			"",
 			"When a haunt is triggered, its effects manifest at initiative rank 10 in a surprise round. All characters in the haunt's proximity can attempt to notice the haunt at the start of this surprise round by making a notice check). All haunts detect life sources and trigger as a result of the approach of or contact with living creatures, but some haunts can be tricked by effects like [hide from undead](spell/hide_from_undead) or [invisibility](spell/invisibility).",
 			"",
-			"On the surprise round in which a haunt manifests, positive energy applied to the haunt (via channeled energy, cure spells, and the like) can damage the haunt's hit points (a haunt never gains a Will save to lessen the damage done by such effects, and attacks that require a successful attack roll to work must strike AC 10 in order to affect the haunt and not merely the physical structure it inhabits). Unless the haunt has an unusual weakness, no other form of attack can reduce its hit points. If the haunt is reduced to 0 hit points by positive energy, it is neutralized; if this occurs before the haunt takes its action at initiative rank 10, its effect does not occur.",
+			"On the surprise round in which a haunt manifests, positive energy applied to the haunt (via channeled energy, cure spells, and the like) can damage the haunt's hit points (a haunt never gains a Will save to lessen the damage done by such effects, and attacks that require a successful attack roll to work must strike AC 10 in order to affect the haunt and not merely the physical structure it inhabits). A flask (1 pint) of [holy water](equipment-weapon/holy_water) that successfully hits a haunt as a splash weapon deals 2d4 points of damage to the haunt on a direct hit, and deals 1 point of damage to haunts within 5 feet of the splash radius. Unless the haunt has an unusual weakness, no other forms of attack can reduce its hit points. If the haunt is reduced to 0 hit points, it is **neutralized**; if this occurs before the haunt takes its action at initiative rank 10, its effect does not occur.",
 			"",
-			"A haunt can have virtually any effect identical to an existing spell effect, but often with different-and distinctly more frightening or unnerving-sensory or physical features than that spell effect normally has. (A haunt that has an effect not identical to an existing spell is certainly possible, but this requires designing a new spell effect.) A haunt might cause a room to explode into flames (duplicating [fireball](spell/fireball) or [fire storm](spell/fire_storm)), infuse a chamber with fear (duplicating [cause fear](spell/cause_fear), [scare](spell/scare), or [fear](spell/fear)), or try to frighten a target to death (duplicating [phantasmal killer](spell/phantasmal_killer) or [slay living](spell/slay_living)). How the haunt's effects manifest are left to you to determine.",
+			"A haunt can have virtually any effect identical to an existing spell effect, but often with different - and distinctly more frightening or unnerving - sensory or physical features than that spell effect normally has. (A haunt that has an effect not identical to an existing spell is certainly possible, but this requires designing a new spell effect.) A haunt might cause a room to explode into flames (duplicating [fireball](spell/fireball) or [fire storm](spell/fire_storm)), infuse a chamber with fear (duplicating [cause fear](spell/cause_fear), [scare](spell/scare), or [fear](spell/fear)), or try to frighten a target to death (duplicating [phantasmal killer](spell/phantasmal_killer) or [slay living](spell/slay_living)). How the haunt's effects manifest are left to you to determine.",
 			"",
-			"A neutralized haunt is not destroyed, and can manifest again after a period of time-to destroy a haunt, a specific action must be taken in the region to end the effect forever (such as burning a haunted house to the ground or burying the bones of the slaves who died on the site to create the haunt). This specific act is different for every haunt (although a number of nearby haunts often share the same destruction act).",
+			"A ***neutralized*** haunt is not destroyed, and can manifest again after a period of time; to destroy a haunt, a specific action must be taken in the region to end the effect forever (such as burning a haunted house to the ground or burying the bones of the slaves who died on the site to create the haunt). This specific act is different for every haunt (although a number of nearby haunts often share the same destruction act).",
 			"",
-			"Some haunts are persistent, and their immediate effects continue beyond the surprise round into actual full rounds. Persistent haunts continue to trigger their haunt effects once per round on their initiative rank until destroyed or they no longer have a target.",
+			"Some haunts are ***persistent***, and their immediate effects continue beyond the surprise round into actual full rounds. Persistent haunts continue to trigger their haunt effects once per round on their initiative rank until destroyed or they no longer have a target.",
 			"",
-			"All primary effects created by a haunt are mind-affecting fear effects, even those that actually produce physical effects. Immunity to fear grants immunity to a haunt's direct effects, but not to secondary effects that arise as a result of the haunt's attack."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts"
-		],
-		"siblings": [
-			"haunt_rules",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
-		],
-		"subtopics": [
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication"
-		]
-	},
-	"new_haunt_rules": {
-		"name": "New Haunt Rules",
-		"subtitle": "Gamemastering",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
-			"",
-			"The GameMastery Guide [introduced rules for creating haunts](rule/creating_a_haunt). While haunts can be complex antagonists, they are versatile tools that are well suited to portray the drama and atmosphere of occult games. This section presents new haunt rules and clarifications on previous rules.",
-			"",
-			"### Table 6-2: Additional Haunt Elements",
-			"",
-			"| Type | CR Modifier |",
-			"| --- | --- |",
-			"| Belligerent (hit points equal to CR &times; 6) | +3 |",
-			"| Item-bound ([bound to item](rule/item-bound_and_possessing_haunts)) | -1 |",
-			"| Chained ([bound to ghost](rule/chained_haunts)) | -1 |",
-			"| Fast (manifests on initiative rank 20) | +2 |",
-			"| Free-roaming (gains movement speed: fly 10 ft. [good]) | +1 |",
-			"| Increased area (double radius to 10 ft. per CR) | +1 |",
-			"| Possessing ([bound to creature](rule/item-bound_and_possessing_haunts)) | +1 |",
-			"| Spiteful (caster level and save DCs increase by 2) | +1 |",
-			"| Vaporous (AC = 10 + CR and gains incorporeal quality) | +1 |",
+			"All primary effects created by a haunt are mind-affecting fear effects, even those that actually produce physical effects. Immunity to fear grants immunity to a haunt's direct effects, but not to secondary effects that arise as a result of the haunt's attack.",
 			"",
 			"### Clarifying Haunts",
 			"",
@@ -6580,91 +6458,77 @@
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts",
-			"haunt_rules"
+			"haunts"
 		],
 		"siblings": [
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication"
+			"haunt_rules",
+			"elements_of_a_haunt",
+			"haunt_templates",
+			"creating_a_haunt",
+			"seances_and_spirit_communication",
+			"echoes_of_the_first_world",
+			"botanical_haunts"
 		]
 	},
-	"holy_water": {
-		"name": "Holy Water",
-		"subtitle": "Haunts, Gamemastering",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
-			"",
-			"While haunts are typically damaged only by applied positive energy, holy water is another potential weapon against them. A flask (1 pint) of holy water that successfully hits a haunt as a splash weapon deals 2d4 points of damage to the haunt on a direct hit, and deals 1 point of damage to haunts within 5 feet of the splash radius."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"haunt_rules"
-		],
-		"siblings": [
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication"
-		]
-	},
-	"item-bound_and_possessing_haunts": {
-		"name": "Item-Bound and Possessing Haunts",
+	"haunt_templates": {
+		"name": "Haunt Templates",
+		"tags": "item-bound haunt possessing haunt chained haunts elusive haunt tenacious haunt unyielding haunt variant haunts",
 		"subtitle": "Gamemastering",
-		"sources": [ "Occult Adventures" ],
+		"sources": [
+			"Horror Adventures",
+			"Occult Adventures"
+		],
 		"description": [
-			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
+			"**Sources** [Occult Adventures pg. 228](source/occult_adventures), [Horror Adventures pg. 172](source/horror_adventures)",
+			"",
+			"### Item-Bound Haunts",
 			"",
 			"Some haunts are tied to special objects or creatures. Such haunts take normal damage from positive energy, and follow the normal reset rules for haunts of their type. [Dispel evil](spell/dispel_evil) can eject a haunting presence if the spell is cast quickly; the caster must succeed at a caster level check with a DC equal to 10 + the haunt's CR + 1 for each month that the creature or object has been possessed.",
 			"",
 			"Bound haunts possess items when created, and gain mobility at the cost of having their tragic fates tied to physical objects that are more easily destroyed. These haunts spontaneously manifest at scenes of great terror, as the psychic residue of tragic events seeps into items tied to the events. Once bound to an item, an item-bound haunt uses all of the normal rules for haunts, with the radius of its effects centered on the haunted object. Some effects may have special triggers based on the item's nature, such as haunted instruments being played or weapons being used. The haunting presence adds 5 to the break DC for its possessed item, and doubles the item's hardness and hit points.",
 			"",
-			"Malevolent spirits may similarly haunt creatures rather than items, following the subjects wherever they go and causing strange occurrences and poltergeist-like activity around the subject in revenge for a perceived trespass or involvement in the tragic events that created the haunt. While they sometimes seem beneficial to their hosts at first, such haunts inevitably seek their hosts' destruction. Individuals possessed by such haunts must always take a standard action to retrieve stored items, unless it would normally take longer. In addition, any item the host drops lands 10 feet away in a random direction. A possessing haunt uses all normal rules for haunts, with the radius of its effects centered on the haunted subject, who takes a -2 penalty on all saving throws against the haunt's effects. Subject to the GM's discretion, haunted creatures may suffer tormenting dreams that cause 1 point of drain each day to an ability score appropriate for the haunt."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"haunt_rules"
-		],
-		"siblings": [
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication"
-		]
-	},
-	"chained_haunts": {
-		"name": "Chained Haunts",
-		"subtitle": "Gamemastering",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"**Source** [Occult Adventures pg. 229](source/occult_adventures)",
+			"### Possessing Haunts",
 			"",
-			"Some haunts are intrinsically connected with incorporeal undead entities (most commonly ghosts) and manifest as displays of the associated creatures' fractured psyches. Chained haunts can be destroyed only by bringing final rest to their connected entities. Chained haunts can be used to illustrate and emphasize a ghost's tragic story. For example, a series of chained haunts could be spread across the site of a ruined mansion: while the linked creature - a ghost - dwells in the attic where it was murdered, a downstairs bedroom might manifest a bleeding walls haunt to emphasize the scene of a tragic loss pertinent to the ghost's history; a [demanding dead](haunt/demanding_dead) haunt might cause a trespasser to dig up a shallow grave in the garden where the ghost's corpse is buried; and the murder weapon might roam the halls of the mansion, manifesting as a [malignant weapon haunt](haunt/malignant_weapon)."
+			"Malevolent spirits may similarly haunt creatures rather than items, following the subjects wherever they go and causing strange occurrences and poltergeist-like activity around the subject in revenge for a perceived trespass or involvement in the tragic events that created the haunt. While they sometimes seem beneficial to their hosts at first, such haunts inevitably seek their hosts' destruction. Individuals possessed by such haunts must always take a standard action to retrieve stored items, unless it would normally take longer. In addition, any item the host drops lands 10 feet away in a random direction. A possessing haunt uses all normal rules for haunts, with the radius of its effects centered on the haunted subject, who takes a -2 penalty on all saving throws against the haunt's effects. Subject to the GM's discretion, haunted creatures may suffer tormenting dreams that cause 1 point of drain each day to an ability score appropriate for the haunt.",
+			"",
+			"### Chained Haunts",
+			"",
+			"Some haunts are intrinsically connected with incorporeal undead entities (most commonly [ghosts](template/ghost)) and manifest as displays of the associated creatures' fractured psyches. Chained haunts can be destroyed only by bringing final rest to their connected entities. Chained haunts can be used to illustrate and emphasize a ghost's tragic story. For example, a series of chained haunts could be spread across the site of a ruined mansion: while the linked creature - a ghost - dwells in the attic where it was murdered, a downstairs bedroom might manifest a bleeding walls haunt to emphasize the scene of a tragic loss pertinent to the ghost's history; a [demanding dead](haunt/demanding_dead) haunt might cause a trespasser to dig up a shallow grave in the garden where the ghost's corpse is buried; and the murder weapon might roam the halls of the mansion, manifesting as a [malignant weapon haunt](haunt/malignant_weapon).",
+			"",
+			"### Elusive Haunt (CR +1 or +2)",
+			"",
+			"A typical haunt can be harmed within the area of its manifestation, but an elusive haunt's source is in a separate location. An elusive haunt can be damaged only at its source, and can manifest far away from that source, up to 100 feet per point of CR. The elusive element typically increases a haunt's CR by 1. If the haunt is also persistent, the elusive property increases the haunt's CR by 2.",
+			"",
+			"### Latent Haunt (CR +0)",
+			"",
+			"A latent haunt's effects are subtle and come into effect only if a creature who fails a save against the haunt fulfills a particular condition, such as visiting a certain location or performing a specific action. For example, a latent haunt may rest among the graves of victims of a serial killer, and only demonstrate its effects if the affected creature enters the killer's manor. Latent haunts affecting a creature treat that creature as their source, and can be detected and damaged by any means that would detect or damage the haunt. A latent haunt works best if the DC of the skill check to notice it is unusually high for its CR.",
+			"",
+			"### Tenacious Haunt (CR +1)",
+			"",
+			"A tenacious haunt clings desperately to its existence. When the haunt is required to attempt a saving throw, instead of automatically failing, it can attempt a saving throw with a bonus equal to 2 + its CR.",
+			"",
+			"### Unyielding Haunt (CR +2)",
+			"",
+			"An unyielding haunt has all of the properties of a tenacious haunt, except when it succeeds at a saving throw against a spell or effect that would normally deal it damage, it instead takes no damage.",
+			"",
+			"### Variant Haunts",
+			"",
+			"Haunts that are not tied to undeath are not vulnerable to positive energy, and cannot be detected with spells such as [detect undead](spell/detect_undead) or evaded with spells such as [hide from undead](spell/hide_from_undead). They have their own sets of vulnerabilities and defenses."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts",
-			"haunt_rules"
+			"haunts"
 		],
 		"siblings": [
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication"
+			"haunt_rules",
+			"elements_of_a_haunt",
+			"haunt_templates",
+			"creating_a_haunt",
+			"seances_and_spirit_communication",
+			"echoes_of_the_first_world",
+			"botanical_haunts"
 		]
 	},
 	"seances_and_spirit_communication": {
@@ -6674,23 +6538,24 @@
 		"description": [
 			"**Source** [Occult Adventures pg. 230](source/occult_adventures)",
 			"",
-			"Some PCs may wish to establish communication with haunts that have been neutralized (reduced to 0 hit points) but not yet destroyed. Regardless of the haunts' original powers or CRs, GMs may elect to have neutralized haunts revert to [rapping spirits](haunt/rapping_spirit) or possessing dead haunts during their reset periods. Likewise, GMs may elect for rejuvenating undead such as ghosts and poltergeists to assume one of these states during rejuvenation periods. While still potentially frightening or even malevolent, these haunts can potentially communicate by using a code (such as one rap for \"yes\" and two for \"no\") in response to called out words, numbers, and letters. Those in contact with a demanding dead haunt, on the other hand, typically whisper messages in darkened seance chambers, or scribble writing at the haunt's suggestion. In either case, such spirits are often unreliable, always cryptic, and never able to convey knowledge beyond what they knew in life.",
+			"Some PCs may wish to establish communication with haunts that have been neutralized (reduced to 0 hit points) but not yet destroyed. Regardless of the haunts' original powers or CRs, GMs may elect to have neutralized haunts revert to [rapping spirits](haunt/rapping_spirit) or possessing dead haunts during their reset periods. Likewise, GMs may elect for rejuvenating undead such as ghosts and poltergeists to assume one of these states during rejuvenation periods. While still potentially frightening or even malevolent, these haunts can potentially communicate by using a code (such as one rap for \"yes\" and two for \"no\") in response to called out words, numbers, and letters. Those in contact with a [demanding dead](haunt/demanding_dead) haunt, on the other hand, typically whisper messages in darkened seance chambers, or scribble writing at the haunt's suggestion. In either case, such spirits are often unreliable, always cryptic, and never able to convey knowledge beyond what they knew in life.",
 			"",
-			"Diplomacy, spells such as [calm spirit](spell/calm_spirit), and comforting environments such as darkened seance cabinets can all improve a spirit's attitude. Some characters attempting to communicate with haunts carry flat, lettered boards known as talking boards, cone-shaped spirit trumpets, or writing planchettes-small, wheeled boards that write with chalk or charcoal pencils. While these are mundane items with no inherent magic of their own, in the hands of those with properly established rapports, these tools increase the efficiency of messages received from haunts, doubling the rate of communication from two signals (raps, letters, etc.) per round to four signals per round."
+			"Diplomacy, spells such as [calm spirit](spell/calm_spirit), and comforting environments such as darkened seance cabinets can all improve a spirit's attitude. Some characters attempting to communicate with haunts carry flat, lettered boards known as talking boards, cone-shaped spirit trumpets, or writing planchettes: small, wheeled boards that write with chalk or charcoal pencils. While these are mundane items with no inherent magic of their own, in the hands of those with properly established rapports, these tools increase the efficiency of messages received from haunts, doubling the rate of communication from two signals (raps, letters, etc.) per round to four signals per round."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics",
-			"haunts",
-			"haunt_rules"
+			"haunts"
 		],
 		"siblings": [
-			"new_haunt_rules",
-			"holy_water",
-			"item-bound_and_possessing_haunts",
-			"chained_haunts",
-			"seances_and_spirit_communication"
+			"haunt_rules",
+			"elements_of_a_haunt",
+			"haunt_templates",
+			"creating_a_haunt",
+			"seances_and_spirit_communication",
+			"echoes_of_the_first_world",
+			"botanical_haunts"
 		]
 	},
 	"elements_of_a_haunt": {
@@ -6733,8 +6598,9 @@
 		"siblings": [
 			"haunt_rules",
 			"elements_of_a_haunt",
+			"haunt_templates",
 			"creating_a_haunt",
-			"horror_haunt_elements",
+			"seances_and_spirit_communication",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
@@ -6742,47 +6608,72 @@
 	"creating_a_haunt": {
 		"name": "Creating a Haunt",
 		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+		"sources": [
+			"GameMastery Guide",
+			"Horror Adventures",
+			"Occult Adventures"
+		],
 		"description": [
-			"**Source** [GameMastery Guide pg. 243](source/gamemastery_guide)",
+			"**Sources** [GameMastery Guide pg. 243](source/gamemastery_guide), [Occult Adventures pg. 228](source/occult_adventures), [Horror Adventures pg. 172](source/horror_adventures)",
 			"",
 			"To make a haunt like the example below, follow these steps.",
 			"",
-			"*Step 1-Determine Base CR:* A haunt's base CR is equal to 1 + the level of the spell it duplicates.",
+			"***Step 1-Determine Base CR:*** A haunt's base CR is equal to 1 + the level of the spell it duplicates.",
 			"",
-			"*Step 2-Determine Actual CR:* Select the elements you want the haunt to have and add up the adjustments to its CR to arrive at the haunt's final CR (see Table 8-1: CR Modifiers for Haunts).",
+			"***Step 2-Determine Actual CR:*** Select the elements you want the haunt to have and add up the adjustments to its CR to arrive at the haunt's final CR (see Table 8-1: CR Modifiers for Haunts).",
 			"",
-			"*Step 3-Determine Caster Level:* A haunt's caster level is equal to its actual CR score.",
+			"***Step 3-Determine Caster Level:*** A haunt's caster level is equal to its actual CR score.",
 			"",
-			"*Step 4-Determine Hit Points:* A haunt's hit points are equal to twice its CR (or equal to its CR &times; 4.5 if the haunt is persistent).",
+			"***Step 4-Determine Hit Points:*** A haunt's hit points are equal to twice its CR (or equal to its CR &times; 4.5 if the haunt is persistent).",
 			"",
-			"*Step 5-Calculate Attacks and Save DCs:* A haunt's attack modifier (if one is needed) is equal to its CR. If a haunt's spell effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell.",
+			"***Step 5-Calculate Attacks and Save DCs:*** A haunt's attack modifier (if one is needed) is equal to its CR. If a haunt's spell effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell.",
 			"",
 			"### Table 8-1: CR Modifiers of Haunts",
 			"",
 			"| Feature Type | CR Modifier |",
 			"| --- | --- |",
 			"| Persistent | +2 |",
-			"| Notice DC | CR Modifier |",
-			"| 15 or lower | -1 |",
-			"| 16-20 | - |",
-			"| 21-25 | +1 |",
-			"| 26-29 | +2 |",
-			"| 30 or higher | +3 |",
-			"| Reset Time | CR Modifier |",
-			"| 1 minute | +2 |",
-			"| 1 hour | +1 |",
-			"| 1 day | +0 |",
-			"| 1 week | -1 |",
-			"| Example Weaknesses | CR Modifier |",
-			"| Slow (manifests at Initiative rank 0) | -2 |",
-			"| Susceptible to an additional type of damage type | -1 per additional type |",
-			"| Tricked by [hide from undead](spell/hide_from_undead) | -2 |",
-			"| Tricked by [invisibility](spell/invisibility) | -1 |",
-			"| Tricked by Stealth&ast; | -3 |",
-			"| Triggered by touch | -2 |",
+			"| Notice DC 15 or lower | -1 |",
+			"| Notice DC 16-20 | - |",
+			"| Notice DC 21-25 | +1 |",
+			"| Notice DC 26-29 | +2 |",
+			"| Notice DC 30 or higher | +3 |",
+			"| Reset Time 1 minute | +2 |",
+			"| Reset Time 1 hour | +1 |",
+			"| Reset Time 1 day | +0 |",
+			"| Reset Time 1 week | -1 |",
+			"| Example Weakness: Slow (manifests at Initiative rank 0) | -2 |",
+			"| Example Weakness: Susceptible to an additional type of damage type | -1 per additional type |",
+			"| Example Weakness: Tricked by [hide from undead](spell/hide_from_undead) | -2 |",
+			"| Example Weakness: Tricked by [invisibility](spell/invisibility) | -1 |",
+			"| Example Weakness: Tricked by Stealth&ast; | -3 |",
+			"| Example Weakness: Triggered by touch | -2 |",
 			"",
-			"&ast; The haunt makes a caster level check instead of a Perception check to notice someone using Stealth."
+			"&ast; The haunt makes a caster level check instead of a Perception check to notice someone using Stealth.",
+			"",
+			"### Table 6-2: Additional Haunt Elements",
+			"",
+			"| Type | CR Modifier |",
+			"| --- | --- |",
+			"| Belligerent (hit points equal to CR &times; 6) | +3 |",
+			"| Item-bound Haunt | -1 |",
+			"| Chained Haunt | -1 |",
+			"| Fast (manifests on initiative rank 20) | +2 |",
+			"| Free-roaming (gains movement speed: fly 10 ft. [good]) | +1 |",
+			"| Increased area (double radius to 10 ft. per CR) | +1 |",
+			"| Possessing Haunt | +1 |",
+			"| Spiteful (caster level and save DCs increase by 2) | +1 |",
+			"| Vaporous (AC = 10 + CR and gains incorporeal quality) | +1 |",
+			"",
+			"### Templates Introduced in *Horror Adventures*",
+			"",
+			"| Type | CR Modifier |",
+			"| --- | --- |",
+			"| Elusive | +1 or +2 |",
+			"| Latent | +0 |",
+			"| Tenacious | +1 |",
+			"| Unyielding | +2 |",
+			"| Variant Haunts | Varies |"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -6793,171 +6684,11 @@
 		"siblings": [
 			"haunt_rules",
 			"elements_of_a_haunt",
+			"haunt_templates",
 			"creating_a_haunt",
-			"horror_haunt_elements",
+			"seances_and_spirit_communication",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
-		]
-	},
-	"horror_haunt_elements": {
-		"name": "Horror Haunt Elements",
-		"subtitle": "Gamemastering",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
-			"",
-			"Haunts are the echoes of tormented spirits that linger in locations keyed to their suffering-and they have proven to be a favorite challenge in many adventures. The Pathfinder RPG GameMastery Guide introduced [rules for haunts](rule/haunts) and those rules are expanded in Pathfinder RPG Occult Adventures. This section introduces new elements to add to haunts, as well as variants that expand the haunt rules to apply to corrupted or twisted regions that are not tied to undeath.",
-			"",
-			"The new haunt elements in this section are templates that can be applied to any haunt."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts"
-		],
-		"siblings": [
-			"haunt_rules",
-			"elements_of_a_haunt",
-			"creating_a_haunt",
-			"horror_haunt_elements",
-			"echoes_of_the_first_world",
-			"botanical_haunts"
-		],
-		"subtopics": [
-			"elusive_haunt_cr_1_or_2",
-			"latent_haunt_cr_0",
-			"tenacious_haunt_cr_1",
-			"unyielding_haunt_cr_2",
-			"variant_haunts"
-		]
-	},
-	"elusive_haunt_cr_1_or_2": {
-		"name": "Elusive Haunt",
-		"subtitle": "Gamemastering",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
-			"",
-			"**CR +1 or +2**",
-			"",
-			"A typical haunt can be harmed within the area of its manifestation, but an elusive haunt's source is in a separate location. An elusive haunt can be damaged only at its source, and can manifest far away from that source, up to 100 feet per point of CR. The elusive element typically increases a haunt's CR by 1. If the haunt is also persistent, the elusive property increases the haunt's CR by 2."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"horror_haunt_elements"
-		],
-		"siblings": [
-			"elusive_haunt_cr_1_or_2",
-			"latent_haunt_cr_0",
-			"tenacious_haunt_cr_1",
-			"unyielding_haunt_cr_2",
-			"variant_haunts"
-		]
-	},
-	"latent_haunt_cr_0": {
-		"name": "Latent Haunt",
-		"subtitle": "Gamemastering",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
-			"",
-			"**CR +0**",
-			"",
-			"A latent haunt's effects are subtle and come into effect only if a creature who fails a save against the haunt fulfills a particular condition, such as visiting a certain location or performing a specific action. For example, a latent haunt may rest among the graves of victims of a serial killer, and only demonstrate its effects if the affected creature enters the killer's manor. Latent haunts affecting a creature treat that creature as their source, and can be detected and damaged by any means that would detect or damage the haunt. A latent haunt works best if the DC of the skill check to notice it is unusually high for its CR."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"horror_haunt_elements"
-		],
-		"siblings": [
-			"elusive_haunt_cr_1_or_2",
-			"latent_haunt_cr_0",
-			"tenacious_haunt_cr_1",
-			"unyielding_haunt_cr_2",
-			"variant_haunts"
-		]
-	},
-	"tenacious_haunt_cr_1": {
-		"name": "Tenacious Haunt",
-		"subtitle": "Gamemastering",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
-			"",
-			"**CR +1**",
-			"",
-			"A tenacious haunt clings desperately to its existence. When the haunt is required to attempt a saving throw, instead of automatically failing, it can attempt a saving throw with a bonus equal to 2 + its CR."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"horror_haunt_elements"
-		],
-		"siblings": [
-			"elusive_haunt_cr_1_or_2",
-			"latent_haunt_cr_0",
-			"tenacious_haunt_cr_1",
-			"unyielding_haunt_cr_2",
-			"variant_haunts"
-		]
-	},
-	"unyielding_haunt_cr_2": {
-		"name": "Unyielding Haunt",
-		"subtitle": "Gamemastering",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
-			"",
-			"**CR +2**",
-			"",
-			"An unyielding haunt has all of the properties of a tenacious haunt, except when it succeeds at a saving throw against a spell or effect that would normally deal it damage, it instead takes no damage."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"horror_haunt_elements"
-		],
-		"siblings": [
-			"elusive_haunt_cr_1_or_2",
-			"latent_haunt_cr_0",
-			"tenacious_haunt_cr_1",
-			"unyielding_haunt_cr_2",
-			"variant_haunts"
-		]
-	},
-	"variant_haunts": {
-		"name": "Variant Haunts",
-		"subtitle": "Gamemastering",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)",
-			"",
-			"Haunts that are not tied to undeath are not vulnerable to positive energy, and cannot be detected with spells such as [detect undead](spell/detect_undead) or evaded with spells such as [hide from undead](spell/hide_from_undead). They have their own sets of vulnerabilities and defenses."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"haunts",
-			"horror_haunt_elements"
-		],
-		"siblings": [
-			"elusive_haunt_cr_1_or_2",
-			"latent_haunt_cr_0",
-			"tenacious_haunt_cr_1",
-			"unyielding_haunt_cr_2",
-			"variant_haunts"
 		]
 	},
 	"echoes_of_the_first_world": {
@@ -6982,8 +6713,9 @@
 		"siblings": [
 			"haunt_rules",
 			"elements_of_a_haunt",
+			"haunt_templates",
 			"creating_a_haunt",
-			"horror_haunt_elements",
+			"seances_and_spirit_communication",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
@@ -6997,7 +6729,7 @@
 			"",
 			"Botanical haunts are masses of vegetation that work as a single entity to fight against invaders in their territory. Their animating force typically originates from vengeful nature spirits, such as a corrupted dryad or angry kami. Botanical haunts differ from standard haunts in several important ways.",
 			"",
-			"Botanical haunts are not fear effects. They take damage from negative energy, rather than positive energy. Spells that normally harm plants or plant creatures, such as [blight](spell/blight), [diminish plants](spell/diminish_plants), and [horrid wilting](spell/horrid_wilting), also affect botanical haunts. If an applicable spell would not normally deal damage to a haunt, it deals 2d6 points of damage per spell level to the botanical haunt. In addition, botanical haunts can be harmed with weapons that are particularly suited to chopping through foliage-they take half damage from nonmagical slashing weapons, or full damage from magical slashing weapons. These massive beings are hardier than standard haunts and thus have twice as many hit points.",
+			"Botanical haunts are not fear effects. They take damage from negative energy, rather than positive energy. Spells that normally harm plants or plant creatures, such as [blight](spell/blight), [diminish plants](spell/diminish_plants), and [horrid wilting](spell/horrid_wilting), also affect botanical haunts. If an applicable spell would not normally deal damage to a haunt, it deals 2d6 points of damage per spell level to the botanical haunt. In addition, botanical haunts can be harmed with weapons that are particularly suited to chopping through foliage: they take half damage from nonmagical slashing weapons, or full damage from magical slashing weapons. These massive beings are hardier than standard haunts and thus have twice as many hit points.",
 			"",
 			"The standard destruction condition for a botanical haunt is when the plant is entirely destroyed, which requires an hour of work and a successful Knowledge (nature) check (DC = 15 + twice the haunt's CR) to thoroughly remove the plant's roots. This destroys the haunt, but the animating nature spirit is likely to seek another vessel. The only way to permanently destroy a botanical haunt is by placating the spirit animating it; the exact method required depends upon the spirit's grievance."
 		],
@@ -7010,8 +6742,9 @@
 		"siblings": [
 			"haunt_rules",
 			"elements_of_a_haunt",
+			"haunt_templates",
 			"creating_a_haunt",
-			"horror_haunt_elements",
+			"seances_and_spirit_communication",
 			"echoes_of_the_first_world",
 			"botanical_haunts"
 		]
@@ -7023,7 +6756,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)",
 			"",
-			"The adventuring world is filled with dangers beyond dragons and ravening fiends. Hazards are location-based threats that have much in common with traps, but are usually intrinsic to their area rather than constructed.",
+			"The adventuring world is filled with dangers beyond dragons and ravening fiends. Hazards are location-based threats that have much in common with [traps](rule/traps), but are usually intrinsic to their area rather than constructed.",
 			"",
 			"Hazards fall into three main categories: environmental, living, and magical. Environmental hazards include subterranean threats like cave-ins and wilderness dangers like forest fires. Living hazards are creatures that are generally too passive to be considered monsters, but are still a threat to unwary adventurers, such as dangerous molds, slimes, and fungi. Magical hazards are the most unpredictable, and can be the legacy of arcane experimentation, strange underground radiations, or ancient enchantments gone awry.",
 			"",
@@ -7060,11 +6793,11 @@
 			"",
 			"### Accursed Pool (CR 3)",
 			"",
-			"The lingering effects of ancient curses or harmful energy leaching from a submerged cursed magical item can turn a simple pool of water into a dangerous magical hazard. An accursed pool lures passersby into its depths with a [silent image](spell/silent_image) (DC 16 Will save to disbelieve) of glittering treasure at the bottom of its 10-foot depth. Any creature that reaches the treasure triggers the curse. A creature within the pool must make a DC 16 Will save or be affected by the curse, which warps its perception of the pool. The water seems to thicken into viscous goo, while the pool appears to distort to a depth of 40 feet. Swim checks in the pool suffer a -10 penalty and are at half normal speed as a result of these effects, and spellcasting within the pool requires a concentration check with a DC of 15 + the level of the spell being cast. An accursed pool radiates strong magic, and is destroyed by dispel magic or [remove curse](spell/remove_curse) (caster level check DC 15).",
+			"The lingering effects of ancient curses or harmful energy leaching from a submerged cursed magical item can turn a simple pool of water into a dangerous magical hazard. An accursed pool lures passersby into its depths with a [silent image](spell/silent_image) (DC 16 Will save to disbelieve) of glittering treasure at the bottom of its 10-foot depth. Any creature that reaches the treasure triggers the curse. A creature within the pool must make a DC 16 Will save or be affected by the curse, which warps its perception of the pool. The water seems to thicken into viscous goo, while the pool appears to distort to a depth of 40 feet. Swim checks in the pool suffer a -10 penalty and are at half normal speed as a result of these effects, and spellcasting within the pool requires a concentration check with a DC of 15 + the level of the spell being cast. An accursed pool radiates strong magic, and is destroyed by [dispel magic](spell/dispel_magic) or [remove curse](spell/remove_curse) (caster level check DC 15).",
 			"",
 			"### Bad Air (CR 1 or 4)",
 			"",
-			"An invisible hazard, pockets of low-oxygen gas present a danger to miners and spelunkers as well as caverndelving adventurers. Non-flammable gases such as carbon dioxide or nitrogen are CR 1 and require a DC 25 Survival check to notice. Creatures breathing the air must make a Fortitude save (DC 15 + 1 per previous check) each hour or become fatigued. After a creature becomes fatigued, [slow suffocation](rule/suffocation) sets in. Creatures holding their breath can avoid these effects.",
+			"An invisible hazard, pockets of low-oxygen gas present a danger to miners and spelunkers as well as cavern-delving adventurers. Non-flammable gases such as carbon dioxide or nitrogen are CR 1 and require a DC 25 Survival check to notice. Creatures breathing the air must make a Fortitude save (DC 15 + 1 per previous check) each hour or become [fatigued](rule/exhaustion_conditions). After a creature becomes fatigued, [slow suffocation](rule/suffocation) sets in. Creatures holding their breath can avoid these effects.",
 			"",
 			"Flammable vapors such as coal gas are much more dangerous (CR 4). The gases displace breathable air in the lungs, causing fatigue as described above. In addition, any open flame or spark causes an explosion for 6d6 points of damage (Reflex save DC 15 for half) to all in the cavern or within 5 feet of an entrance. The fire burns away the oxygen in the air, leaving it unbreathable for 2d4 minutes. After an explosion, flammable gas usually takes several days to build up to dangerous levels again.",
 			"",
@@ -7076,15 +6809,15 @@
 			"",
 			"[Ear seekers](infestation/ear_seekers) are tiny, pale-colored worms that dwell in rotting wood or other organic detritus. They can be noticed with a DC 15 Perception check. Otherwise, a living creature poking about their lair inadvertently transfers one or more ear seekers to its body. The seekers then search out a warm location on the creature, especially favoring the ear canal. Once there, they lay 2d8 eggs before dying. The eggs hatch 4d6 hours later and the larvae devour the surrounding flesh. Upon the death of their host, the new ear seekers crawl out and seek a new host. [Remove disease](spell/remove_disease) kills any ear seekers or unhatched eggs in or on a host. Some ear seekers favor living in intact wood, often hiding in dungeon doors. The small pinholes left by this variety are particularly hard to spot (Perception DC 20).",
 			"",
-			"#### Ear Seekers",
-			"",
-			"**Type** infestation; **Save** Fortitude DC 15  ",
-			"**Onset** 4d6 hours; **Frequency** 1/hour  ",
-			"**Effect** 1d6 Con damage",
+			">#### Ear Seekers",
+			">",
+			">**Type** infestation; **Save** Fortitude DC 15  ",
+			">**Onset** 4d6 hours; **Frequency** 1/hour  ",
+			">**Effect** 1d6 Con damage",
 			"",
 			"### Magnetized Ore (CR 2)",
 			"",
-			"The strange energies of the subterranean world can charge rocks and veins of ore with powerful magnetic fields, creating a hazard for anyone carrying or wearing ferrous metals. Any steel or iron brought within 20 feet of the ore is drawn toward it. Medium-sized creatures carrying 30 or more pounds of ferrous metal are pulled toward the ore as if by the pull special ability. The ore has an effective CMB of +7 and CMD 17. Small creatures are pulled if they have 15 pounds of metal, Large if they have at least 60 pounds. For creatures of other sizes, modify the weight required as per the rules for carrying capacity. Creatures wearing metallic armor suffer a penalty to their CMD to resist the pull (-2 for medium armor, -4 for heavy armor). Affected creatures are pulled up to 20 feet and slammed against the rock for 2d6 points of damage and gain the grappled condition. Creatures not carrying large amounts of metal but holding metal items in their hands are affected by a disarm maneuver as the items are ripped free. Freeing a stuck item requires a successful grapple check against the ore's CMD.",
+			"The strange energies of the subterranean world can charge rocks and veins of ore with powerful magnetic fields, creating a hazard for anyone carrying or wearing ferrous metals. Any steel or iron brought within 20 feet of the ore is drawn toward it. Medium-sized creatures carrying 30 or more pounds of ferrous metal are pulled toward the ore as if by the [pull](umr/pull) special ability. The ore has an effective CMB of +7 and CMD 17. Small creatures are pulled if they have 15 pounds of metal, Large if they have at least 60 pounds. For creatures of other sizes, modify the weight required as per the rules for [carrying capacity](rule/carrying_capacity). Creatures wearing metallic armor suffer a penalty to their CMD to resist the pull (-2 for medium armor, -4 for heavy armor). Affected creatures are pulled up to 20 feet and slammed against the rock for 2d6 points of damage and gain the [grappled](rule/grapple_conditions) condition. Creatures not carrying large amounts of metal but holding metal items in their hands are affected by a [disarm](rule/disarm) maneuver as the items are ripped free. Freeing a stuck item requires a successful [grapple check](rule/grapple) against the ore's CMD.",
 			"",
 			"### Mnemonic Crystals (CR 3)",
 			"",
@@ -7094,19 +6827,19 @@
 			"",
 			"### Poison Oak (CR 1 or 3)",
 			"",
-			"Contact with poison oak (CR 1) causes a painful rash, and the resulting itch leaves the hapless victim sickened until the damage is healed. Full body contact or inhaling the smoke from burning poison oak is particularly dangerous, and can be fatal (CR 3). A DC 15 Knowledge (nature) check reveals this seemingly innocuous plant for what it is. This hazard can also be used for similar noxious plants such as poison ivy, poison sumac, and stinging nettles, the latter not being hazardous when burned.",
+			"Contact with poison oak (CR 1) causes a painful rash, and the resulting itch leaves the hapless victim [sickened](rule/sickened_conditions) until the damage is healed. Full body contact or inhaling the smoke from burning poison oak is particularly dangerous, and can be fatal (CR 3). A DC 15 Knowledge (nature) check reveals this seemingly innocuous plant for what it is. This hazard can also be used for similar noxious plants such as poison ivy, poison sumac, and stinging nettles, the latter not being hazardous when burned.",
 			"",
-			"#### Poison Oak",
-			"",
-			"**Type** poison, contact; **Save** Fortitude DC 13  ",
-			"**Onset** 1 hour  ",
-			"**Effect** 1d4 Dex damage, creature sickened until damage is healed; **Cure** 1 save",
-			"",
-			"#### Poison Oak",
-			"",
-			"**Type** poison, contact or inhaled; Save Fortitude DC 16  ",
-			"**Onset** 1 hour; Frequency 1/hour  ",
-			"**Initial Effect** 2d4 Dex damage and 1d4 Con damage, creature sickened until damage is healed; **Secondary Effect** 1 Con damage; **Cure** 1 save",
+			">#### Poison Oak (brief contact)",
+			">",
+			">**Type** poison, contact; **Save** Fortitude DC 13  ",
+			">**Onset** 1 hour  ",
+			">**Effect** 1d4 Dex damage, creature sickened until damage is healed; **Cure** 1 save",
+			">",
+			">#### Poison Oak (full-body contact, smoke inhallation)",
+			">",
+			">**Type** poison, contact or inhaled; Save Fortitude DC 16  ",
+			">**Onset** 1 hour; Frequency 1/hour  ",
+			">**Initial Effect** 2d4 Dex damage and 1d4 Con damage, creature sickened until damage is healed; **Secondary Effect** 1 Con damage; **Cure** 1 save",
 			"",
 			"### Rot Grubs (CR 4)",
 			"",
@@ -7114,11 +6847,11 @@
 			"",
 			"Once rot grubs have infested a living body, they burrow toward the host's heart, brain, and other key internal organs, eventually causing death. On the first round of infestation, applying flame to the point of entry can kill the grubs and save the host, but this inflicts 1d6 points of fire damage to the victim. Cutting the grubs out also works, but the longer the grubs remain in a host, the more damage this method does. Cutting them out requires a slashing weapon and a DC 20 Heal check, and inflicts 1d6 points of damage per round that the host has been infested. If the Heal check is successful, one grub is removed. [Remove disease](spell/remove_disease) kills any rot grubs in or on a host.",
 			"",
-			"#### Rot Grubs",
-			"",
-			"**Type** infestation; **Save** Fortitude DC 17  ",
-			"**Onset** immediate; **Frequency** 1/round  ",
-			"**Effect** 1d2 Con damage per grub"
+			">#### Rot Grubs",
+			">",
+			">**Type** infestation; **Save** Fortitude DC 17  ",
+			">**Onset** immediate; **Frequency** 1/round  ",
+			">**Effect** 1d2 Con damage per grub"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -7136,7 +6869,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 246](source/gamemastery_guide)",
 			"",
-			"A favorite weapon inexplicably stained in blood, a treasure purloined despite the best defenses, a locked room with a mangled corpse within-such elements might seem more at home in tales of crime and suspense than in the sword-swinging quests of most roleplaying games, but just as the literary genres of fantasy and mystery have a long and overlapping tradition, so too do aspects of crime and detective work hold the potential for memorable adventures. In fantasy, mysteries often take on puzzling new angles, as magic, the abilities of monsters, and other wondrous elements vastly enlarge the spectrum of possibilities. Yet fantasy opens up not just new avenues of crime, but also those of detection, and many classic capers might be solved in an instant merely by speaking a simple spell. Thus, the arena of crime, mystery, and investigation changes completely with the introduction of magic, forcing GMs interested in creating enigmatic adventures to think beyond the tropes of classic detective stories and consider the logic of impossible realms in their schemes.",
+			"A favorite weapon inexplicably stained in blood, a treasure purloined despite the best defenses, a locked room with a mangled corpse within - such elements might seem more at home in tales of crime and suspense than in the sword-swinging quests of most roleplaying games, but just as the literary genres of fantasy and mystery have a long and overlapping tradition, so too do aspects of crime and detective work hold the potential for memorable adventures. In fantasy, mysteries often take on puzzling new angles, as magic, the abilities of monsters, and other wondrous elements vastly enlarge the spectrum of possibilities. Yet fantasy opens up not just new avenues of crime, but also those of detection, and many classic capers might be solved in an instant merely by speaking a simple spell. Thus, the arena of crime, mystery, and investigation changes completely with the introduction of magic, forcing GMs interested in creating enigmatic adventures to think beyond the tropes of classic detective stories and consider the logic of impossible realms in their schemes.",
 			"",
 			"When planning an adventure based around a mystery, a GM needs to consider the plot from two angles, conceiving both the mystery's elements and the investigative techniques of the detectives (typically the PCs)."
 		],
@@ -7177,7 +6910,7 @@
 			"",
 			"***Consider Multiple Villains:*** When creating levels, consider having multiple villains playing roles in the crime. This can apply to non-criminal mysteries as well: if the local cleric is plagued with nightmares, it might have as much to do with the evil cult operating beneath the tavern as it does with the strange mushrooms his housekeeper has been putting in the soup. When a combination of factors contribute to a mystery, it's more difficult for the PCs to skip straight to the end.",
 			"",
-			"***Secrets upon Secrets:*** In a mystery, it's easy to consider everyone who isn't guilty as \"innocent\"-knowing nothing and holding nothing back. But anyone connected to a mystery might know secrets they don't wish to share for various reasons. Witnesses and suspects might hold clues they don't realize are clues: small incidents they can't imagine being connected to the mystery. They also have secrets of their own they wish to protect, which can act as red herrings.",
+			"***Secrets upon Secrets:*** In a mystery, it's easy to consider everyone who isn't guilty as \"innocent\", knowing nothing and holding nothing back. But anyone connected to a mystery might know secrets they don't wish to share for various reasons. Witnesses and suspects might hold clues they don't realize are clues: small incidents they can't imagine being connected to the mystery. They also have secrets of their own they wish to protect, which can act as red herrings.",
 			"",
 			"***The Truth:*** When creating an adventure based on a mysterious occurrence, it's vital to sketch out the timeline of events. Once the GM knows exactly what happened, it becomes easier to handle PCs who take unexpected tracks. What incidents led up to the mystery, who is involved, who knows details of the incident, how much time elapsed between events?"
 		],
@@ -7208,7 +6941,7 @@
 			"",
 			"At the same time, it's very possible that a group might miss a clue completely or the adventure lacks a detail the GM didn't realize. It's up to the GM to make sure the PCs' investigations always have a direction. If all the clues lead to brick walls or leave the party bogged down in argument and inaction, then it's time to introduce a new clue or NPC with a bit of extra insight. Sometimes even just having an NPC subtly remind the PCs of a forgotten facet of the mystery is enough to spark a new revelation, without having the players feel like they're being spoon-fed the plot.",
 			"",
-			"***Let the PCs Drive:*** It's tempting to negate all of the PCs' mystery-busting abilities to preserve a mystery's secrecy. In a mystery, more than other adventures, it's vital for the GM to be reactive. Let the PCs make use of their abilities. Let them find clues and decide where to go next-even if it means bumbling off course or into a red herring. The NPCs involved in the mystery should have their own agendas and take sensible precautions to protect themselves; the GM, however, shouldn't negate PC abilities across the board to make things harder.",
+			"***Let the PCs Drive:*** It's tempting to negate all of the PCs' mystery-busting abilities to preserve a mystery's secrecy. In a mystery, more than other adventures, it's vital for the GM to be reactive. Let the PCs make use of their abilities. Let them find clues and decide where to go next - even if it means bumbling off course or into a red herring. The NPCs involved in the mystery should have their own agendas and take sensible precautions to protect themselves; the GM, however, shouldn't negate PC abilities across the board to make things harder.",
 			"",
 			"***Sleuth-Proof:*** Despite the GM's best efforts, a gaffe early on or an unanticipated line of investigation might lead the PCs to a solution right away, bypassing some or all of the clues and encounters. In minor cases, the PCs should be rewarded for their cleverness and maybe get to skip a few dangers or side encounters. In more significant instances, the GM can be reactive with his plot. Perhaps the PCs arrive at the criminal's house and find him dead, letting the GM create a new master villain and reuse clues and incidents the PCs skipped over the first time. Or perhaps the GM sows the seeds of a new mystery; a cryptic letter, evidence of magical coercion, or an ominous map all might hint at a greater plot. The PCs might think the mystery was straightforward, but the sown clues indicate the adventure is merely a setup for a more complex incident.",
 			"",
@@ -7234,17 +6967,17 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 247](source/gamemastery_guide)",
 			"",
-			"When formulating a mystery adventure, a GM needs to account for the realities of a fantasy world-primarily magic. While some crimes and criminals might prove vulnerable to the right spells, true masterminds will know about such magics and expend resources to stymie investigations relying upon them. GMs should also be familiar with the effects of common divination spells, as well as what spells might confound them.",
+			"When formulating a mystery adventure, a GM needs to account for the realities of a fantasy world - primarily magic. While some crimes and criminals might prove vulnerable to the right spells, true masterminds will know about such magics and expend resources to stymie investigations relying upon them. GMs should also be familiar with the effects of common divination spells, as well as what spells might confound them.",
 			"",
-			"***Detect Thoughts:*** [Detect thoughts](spell/detect_thoughts) is a useful spell when questioning witnesses. The GM should not place the criminal among the witnesses if the PCs are likely to use [detect thoughts](spell/detect_thoughts). However, witnesses will likely have opinions and dark thoughts that may seem suspicious and send the investigators in the wrong direction-making most realize the imprecision of the spell in group settings.",
+			"***Detect Thoughts:*** [Detect thoughts](spell/detect_thoughts) is a useful spell when questioning witnesses. The GM should not place the criminal among the witnesses if the PCs are likely to use [detect thoughts](spell/detect_thoughts). However, witnesses will likely have opinions and dark thoughts that may seem suspicious and send the investigators in the wrong direction - making most realize the imprecision of the spell in group settings.",
 			"",
-			"***Discern Lies:*** By [uncovering lies](spell/discern_lies), the PCs can focus their investigations on what is being concealed-usually, the truth about the crime. There are other reasons that people lie, though. A suspect or witness might lie for a number of reasons, such as shame over what she was doing, fear of retribution, or to protect someone else. And a suspect can always deny lying and refuse to say anything more.",
+			"***Discern Lies:*** By [uncovering lies](spell/discern_lies), the PCs can focus their investigations on what is being concealed - usually, the truth about the crime. There are other reasons that people lie, though. A suspect or witness might lie for a number of reasons, such as shame over what she was doing, fear of retribution, or to protect someone else. And a suspect can always deny lying and refuse to say anything more.",
 			"",
-			"***Divination:*** PCs can use the [divination](spell/divination) spell to try to solve the mystery. The GM need not answer their question plainly, however. In addition, multiple [divinations](spell/divination) about the same topic reveal the same advice, so unless the PCs follow the advice and learn what they can from that course of action, they cannot learn more by asking different questions about the crime.",
+			"***Divination:*** PCs can use the [divination](spell/divination) spell to try to solve the mystery. The GM need not answer their question plainly, however. In addition, multiple *divinations* about the same topic reveal the same advice, so unless the PCs follow the advice and learn what they can from that course of action, they cannot learn more by asking different questions about the crime.",
 			"",
-			"***Detect Alignment:*** Just because an NPC has an evil alignment doesn't mean he's a mystery's architect or even a villain. In common society, there are untold numbers of petty evils, but the crimes of a petty cheat probably have nothing to do with a greater plot. Thus, [detect evil](spell/detect_evil) can't be relied upon as the perfect villain detector. However, one of the surest ways to convince a group of a character's guilt is to have a *detect alignment* spell fail when he's scrutinized. A clever villain with [undetectable alignment](spell/undetectable_alignment) could obscure the alignment of one or several innocents, throwing a hurtle in the way of magic-reliant investigators.",
+			"***Detect Alignment:*** Just because an NPC has an evil alignment doesn't mean he's a mystery's architect or even a villain. In common society, there are untold numbers of petty evils, but the crimes of a petty cheat probably have nothing to do with a greater plot. Thus, [detect evil](spell/detect_evil) can't be relied upon as the perfect villain detector. However, one of the surest ways to convince a group of a character's guilt is to have a *detect alignment* spell (such as [detect evil](spell/detect_evil)) fail when he's scrutinized. A clever villain with [undetectable alignment](spell/undetectable_alignment) could obscure the alignment of one or several innocents, throwing a hurtle in the way of magic-reliant investigators.",
 			"",
-			"***Modify Memory:*** Witnesses, suspects, and even criminals might not recall pertinent information if their minds have been [tampered with](spell/modify_memory). The GM should not use the spell too frequently, however. As with other clue-negating spells, the PCs should learn something from the fact that they learned nothing. At the very least, they might suspect compulsion magic-and thus the involvement of a spellcaster.",
+			"***Modify Memory:*** Witnesses, suspects, and even criminals might not recall pertinent information if their minds have been [tampered with](spell/modify_memory). The GM should not use the spell too frequently, however. As with other clue-negating spells, the PCs should learn something from the fact that they learned nothing. At the very least, they might suspect compulsion magic - and thus the involvement of a spellcaster.",
 			"",
 			"***Speak with Dead:*** [Speak with dead](spell/speak_with_dead) allows the characters to speak with a corpse, but the corpse knows only what it did in life. If the victim was attacked from behind, he may not have seen his murderer. [Speak with dead](spell/speak_with_dead) also fails if the corpse has been a target of the spell within the past week, or if the corpse doesn't have a mouth. Be sure to give the PCs some clue for their efforts, however."
 		],
@@ -7278,8 +7011,8 @@
 			"the_setup",
 			"the_mechanism",
 			"the_clues",
-			"sample_puzzles",
-			"the_answer"
+			"the_answer",
+			"sample_puzzles"
 		],
 		"siblings": [
 			"customizing_your_game",
@@ -7304,7 +7037,7 @@
 			"",
 			"Giving your puzzle a reason to exist is a crucial step to making sure the players are interested in your game. Any puzzle needs to feel like an important part of an adventure, not a barrier preventing the players from enjoying the experience. There should also be a reason players actually want to solve a puzzle, with at least an implied benefit and penalty if they do or don't.",
 			"",
-			"Characters who select a life of adventure are not necessarily puzzle solvers, but they are good at getting out of dangerous situations. So when you introduce a puzzle, play to the characters' strengths-that is, have it matter to the plot of the adventure, or even threaten their lives. Having a dragon promising to roast the PCs alive if they can't answer its riddles makes finding the proper solution imperative.",
+			"Characters who select a life of adventure are not necessarily puzzle solvers, but they are good at getting out of dangerous situations. So when you introduce a puzzle, play to the characters' strengths - that is, have it matter to the plot of the adventure, or even threaten their lives. Having a dragon promising to roast the PCs alive if they can't answer its riddles makes finding the proper solution imperative.",
 			"",
 			"Alternatively, not every puzzle needs to have a resolution immediately. A meaningful map or pictograph found in a strange ruin might hint at a campaign-spanning plot even though the PCs have no way of knowing that when they discover it. By feeding the PCs more information, through either their own research or later adventures, the GM gives the PCs the tools they need to make revelations without having a plot spoon-fed to them.",
 			"",
@@ -7320,8 +7053,8 @@
 			"the_setup",
 			"the_mechanism",
 			"the_clues",
-			"sample_puzzles",
-			"the_answer"
+			"the_answer",
+			"sample_puzzles"
 		]
 	},
 	"the_mechanism": {
@@ -7337,11 +7070,11 @@
 			"",
 			"***Mazes:*** Complex labyrinths are difficult to use, especially when employing a map and miniatures makes revealing a maze boring and obvious. At best, mazes should be simple, preferably nothing more than a single intersection or two, with the correct choices offering a safe path and the wrong ones leading to peril. Giving the PCs forewarning of the safe path earlier in an adventure or by means of another riddle rewards them for their cleverness, but only penalizes them with traps and additional challenges.",
 			"",
-			"***Physical Puzzles:*** The best types of puzzles are those you can hand out, giving your players something directly from the adventure to manipulate. If they face a door that must be opened, give them a sketch of a combination lock with letters on it and make them remember the name of the centuries-old lich's lost love. Or just give them a design with seven colored studs that need to be pressed in a hurry-are the buttons random, or does the rainbow shape in the background have some meaning? Physical puzzles can take any form you can imagine, and while they might be labor intensive to create, they can also prove the most memorable.",
+			"***Physical Puzzles:*** The best types of puzzles are those you can hand out, giving your players something directly from the adventure to manipulate. If they face a door that must be opened, give them a sketch of a combination lock with letters on it and make them remember the name of the centuries-old lich's lost love. Or just give them a design with seven colored studs that need to be pressed in a hurry - are the buttons random, or does the rainbow shape in the background have some meaning? Physical puzzles can take any form you can imagine, and while they might be labor intensive to create, they can also prove the most memorable.",
 			"",
 			"***Riddles:*** Elusive questions can be the basis for entire adventures. One of the most important parts is to make sure that the answers are comprehensible to the PCs, not just the players. While players know a lot about monsters, treasure, and locations in their universe, not every PC does. Questions with answers that both players and PCs might reasonably know and understand often prove best, as it allows the players to wrack their brains just as their characters world, and not trust in purely real-world knowledge. Thus, if the PCs need to figure out which temple in a massive city contains their foe, a riddle like \"I make wolves from men when I arrive, and men from wolves when I depart\" could lead to the temple of the moon god.",
 			"",
-			"***Wordplay:*** Assuming your players are comfortable speaking English, you can use puns, anagrams, hidden words, and the like to befuddle them. Often such puzzles come off as being cute or quirky, so make sure that dour wordplay doesn't undermine your adventure and villains-while a sprite might naturally spout rhyming riddles, the same approach instantly robs a vampire of his menace."
+			"***Wordplay:*** Assuming your players are comfortable speaking English, you can use puns, anagrams, hidden words, and the like to befuddle them. Often such puzzles come off as being cute or quirky, so make sure that dour wordplay doesn't undermine your adventure and villains; while a sprite might naturally spout rhyming riddles, the same approach instantly robs a vampire of his menace."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -7353,8 +7086,8 @@
 			"the_setup",
 			"the_mechanism",
 			"the_clues",
-			"sample_puzzles",
-			"the_answer"
+			"the_answer",
+			"sample_puzzles"
 		]
 	},
 	"the_clues": {
@@ -7364,7 +7097,11 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
 			"",
-			"There's a significant distinction between clues and hints. A clue is something that's necessary to solve the puzzle. A hint, on the other hand, is something that helps open up an entirely solvable puzzle. While a clue might be meted out by the GM, often in the form of additional details found along with the puzzle, later in a adventure, or from a loose-tongued henchman, hints should be the domain of the PCs and bridge the gap between characters and players. While optimally players should strive to answer a puzzle using only the knowledge their characters possess, this can be a challenge for even the most experienced players. While formulating puzzles with answers that both the players and PCs can solve fixes this problem to a degree, so does having the players work with their PCs to gain hints. It's wholly possible, even likely, that a character possesses knowledge and insights a player doesn't. Depending on the complexity of a puzzle, calling for a skill check (typically Perception or a Knowledge skill) or even an Intelligence ability check might provide a hint. While such information might hint at the solution, it shouldn't blatantly answer the puzzle. This allows a GM to interject some backstory, forgotten detail, or element of his own reasoning into the solving process without merely giving up the answer. Also bear in mind that many spells can read thoughts, reveal hints, or otherwise affect or circumvent puzzles. Never deny PCs use of their abilities when faced with puzzles. Should those abilities make a puzzle less challenging than anticipated, reward the party for their cleverness, and perhaps consider such factors in future puzzles."
+			"There's a significant distinction between clues and hints. A clue is something that's necessary to solve the puzzle. A hint, on the other hand, is something that helps open up an entirely solvable puzzle. While a clue might be meted out by the GM, often in the form of additional details found along with the puzzle, later in a adventure, or from a loose-tongued henchman, hints should be the domain of the PCs and bridge the gap between characters and players.",
+			"",
+			"While optimally players should strive to answer a puzzle using only the knowledge their characters possess, this can be a challenge for even the most experienced players. While formulating puzzles with answers that both the players and PCs can solve fixes this problem to a degree, so does having the players work with their PCs to gain hints. It's wholly possible, even likely, that a character possesses knowledge and insights a player doesn't. Depending on the complexity of a puzzle, calling for a skill check (typically Perception or a Knowledge skill) or even an Intelligence ability check might provide a hint. While such information might hint at the solution, it shouldn't blatantly answer the puzzle. This allows a GM to interject some backstory, forgotten detail, or element of his own reasoning into the solving process without merely giving up the answer.",
+			"",
+			"Also bear in mind that many spells can read thoughts, reveal hints, or otherwise affect or circumvent puzzles. Never deny PCs use of their abilities when faced with puzzles. Should those abilities make a puzzle less challenging than anticipated, reward the party for their cleverness, and perhaps consider such factors in future puzzles."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -7376,12 +7113,12 @@
 			"the_setup",
 			"the_mechanism",
 			"the_clues",
-			"sample_puzzles",
-			"the_answer"
+			"the_answer",
+			"sample_puzzles"
 		]
 	},
-	"sample_puzzles": {
-		"name": "Sample Puzzles",
+	"the_answer": {
+		"name": "The Answer",
 		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -7401,12 +7138,12 @@
 			"the_setup",
 			"the_mechanism",
 			"the_clues",
-			"sample_puzzles",
-			"the_answer"
+			"the_answer",
+			"sample_puzzles"
 		]
 	},
-	"the_answer": {
-		"name": "The Answer",
+	"sample_puzzles": {
+		"name": "Sample Puzzles",
 		"subtitle": "Puzzles and Riddles, Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -7414,7 +7151,7 @@
 			"",
 			"Noted here are three classic types of fantasy riddles. If you're looking for more riddles, a simple online search for fantasy puzzles and riddles can reveal hundreds more.",
 			"",
-			"***Brainteaser Riddles:*** Here are a few basic question-andanswer riddles.",
+			"***Brainteaser Riddles:*** Here are a few basic question-and-answer riddles.",
 			"",
 			">What question can you ask all day and get a different correct answer every time? Answer: \"What time is it?\"",
 			">",
@@ -7422,7 +7159,7 @@
 			">",
 			">What can you put in a wood box that will make it lighter? Answer: \"Holes.\"",
 			"",
-			"***I Never Lie Puzzle:*** This is a simple and famous logic puzzle, wherein two guards protect two pathways, one to danger and one to safety. They present the conundrum that one always lies and one always tells the truth. Now have the PCs decide which is which. While a spell like [discern lies](spell/discern_lies) might easily reveal this, so can posing questions with blatantly true answers (like simple equations), or a question like \"If I asked you if the door you're guarding leads to safety, would you say yes\"? wherein the guard is forced to answer truthfully.",
+			"***I Never Lie Puzzle:*** This is a simple and famous logic puzzle, wherein two guards protect two pathways, one to danger and one to safety. They present the conundrum that one always lies and one always tells the truth. Now have the PCs decide which is which. While a spell like [discern lies](spell/discern_lies) might easily reveal this, so can posing questions with blatantly true answers (like simple equations), or a question like \"If I asked you if the door you're guarding leads to safety, would you say yes?\" wherein the guard is forced to answer truthfully.",
 			"",
 			"***Sequence Riddles:*** Riddles like this require the solver to find the next in a sequence, though many might require a hint or visual cue.",
 			"",
@@ -7438,28 +7175,43 @@
 			"the_setup",
 			"the_mechanism",
 			"the_clues",
-			"sample_puzzles",
-			"the_answer"
+			"the_answer",
+			"sample_puzzles"
 		]
 	},
 	"sanity_and_madness": {
 		"name": "Sanity and Madness",
+		"tags": "curing insanity, types of insanity",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
 			"",
-			"Insanity is an affliction inflicted upon those who suffer from extraordinary physical, mental, or spiritual anguishes and trials. Insanity can also be caused by exposure to particularly potent sources of unhinging horror, madness, or alien natures, such that the mind simply cannot withstand them. Insanity is a mind-affecting effect."
+			"Insanity is an affliction inflicted upon those who suffer from extraordinary physical, mental, or spiritual anguishes and trials. Insanity can also be caused by exposure to particularly potent sources of unhinging horror, madness, or alien natures, such that the mind simply cannot withstand them. Insanity is a [mind-affecting](spelldef/mind-affecting) effect.",
+			"",
+			"### Curing Insanity",
+			"",
+			"All insanities have a DC that represents the insanity's strength. An insanity's DC indicates the Will save you need to roll in order to resist contracting the insanity when you are initially exposed to it, but also the DC you need to make to recover. Recovering from an insanity naturally is a lengthy process - once per week, you make a Will save against the insanity's current DC. If you succeed on this save, the insanity's DC is reduced by a number of points equal to your Charisma bonus (minimum of 1). You continue to suffer the full effects of the insanity until its DC is reduced to 0, at which point you are cured and the insanity vanishes completely.",
+			"",
+			"[Lesser restoration](spell/lesser_restoration) has no effect on insanity, but [restoration](spell/restoration) reduces the current DC of one insanity currently affecting a target by an amount equal to the caster's level. [Greater restoration](spell/greater_restoration), [heal](spell/heal), [limited wish](spell/limited_wish), [miracle](spell/miracle), or [wish](spell/wish) immediately cures a target of all insanity.",
+			"",
+			"### Types of Insanity",
+			"",
+			"When a creature goes insane, roll on the following table to determine what form of insanity strikes. Alternatively, you can assign the insanity to match the cause.",
+			"",
+			"| d% | Insanity |",
+			"| --- | --- |",
+			"| 1-11 | [Amnesia](madness/amnesia) |",
+			"| 12-48 | [Mania](madness/mania)/[Phobia](madness/phobia) |",
+			"| 49-68 | [Disassociated Identity](madness/dissociated_identity) |",
+			"| 69-78 | [Paranoid](madness/paranoid) |",
+			"| 79-84 | [Moral Insanity](madness/moral_insanity) |",
+			"| 85-100 | [Schizophrenia](madness/schizophrenia) |"
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide",
 			"advanced_topics"
-		],
-		"subtopics": [
-			"going_insane",
-			"curing_insanity",
-			"types_of_insanity"
 		],
 		"siblings": [
 			"customizing_your_game",
@@ -7473,86 +7225,6 @@
 			"mysteries_and_investigations",
 			"puzzles_and_riddles",
 			"sanity_and_madness"
-		]
-	},
-	"going_insane": {
-		"name": "Going Insane",
-		"subtitle": "Sanity, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
-			"",
-			"In-game, a person has a chance of going insane every time he suffers a tremendous shock to one of his mental ability scores-Intelligence, Wisdom, or Charisma. Every time a creature is reduced to a score of 0 in one of these scores, there's a chance he goes insane. (Note: Wisdom damage is particularly likely to cause insanity, since a 0 Wisdom score imparts a -5 penalty on all Will saves.) Either roll on the table on this page or select an insanity appropriate to the cause of what reduced the victim's score to 0. You should make the victim's saving throw in secret: he should not know the result, nor the type of insanity that might afflict him. These effects should play out naturally; some insanities (like phobias) take days or even months to trigger or have effects, while others (such as paranoia) are immediately obvious.",
-			"",
-			"At your option, a creature can run the risk of going insane under extremely unusual situations, even when his mental ability scores are unharmed. A character suffering from long imprisonment might have to make a save against developing agoraphobia or claustrophobia. Someone repeatedly betrayed by allies might have to make a save against developing paranoia. And a poor soul whose mind is possessed by a powerful demon might have to make a save upon being exorcized to keep from becoming psychotic. The causes of such insanities are left to you as the GM to determine.",
-			"",
-			"Insanity can also be inflicted via magic. Consider allowing the spell [insanity](spell/insanity) to merely inflict 1 randomly determined insanity per 5 caster levels on its victim rather than causing permanent confusion. [Bestow curse](spell/bestow_curse) can also inflict a single insanity on a foe, although in this case the insanity is also a curse.",
-			"",
-			"It's possible to suffer from multiple forms of insanity. If you become afflicted with a form of insanity you are already suffering from, the current DC of that insanity increases by +5."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"sanity_and_madness"
-		],
-		"siblings": [
-			"going_insane",
-			"curing_insanity",
-			"types_of_insanity"
-		]
-	},
-	"curing_insanity": {
-		"name": "Curing Insanity",
-		"subtitle": "Sanity, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
-			"",
-			"All insanities have a DC that represents the insanity's strength. An insanity's DC indicates the Will save you need to roll in order to resist contracting the insanity when you are initially exposed to it, but also the DC you need to make to recover. Recovering from an insanity naturally is a lengthy process-once per week, you make a Will save against the insanity's current DC. If you succeed on this save, the insanity's DC is reduced by a number of points equal to your Charisma bonus (minimum of 1). You continue to suffer the full effects of the insanity until its DC is reduced to 0, at which point you are cured and the insanity vanishes completely.",
-			"",
-			"[Lesser restoration](spell/lesser_restoration) has no effect on insanity, but [restoration](spell/restoration) reduces the current DC of one insanity currently affecting a target by an amount equal to the caster's level. [Greater restoration](spell/greater_restoration), [heal](spell/heal), [limited wish](spell/limited_wish), [miracle](spell/miracle), or [wish](spell/wish) immediately cures a target of all insanity."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"sanity_and_madness"
-		],
-		"siblings": [
-			"going_insane",
-			"curing_insanity",
-			"types_of_insanity"
-		]
-	},
-	"types_of_insanity": {
-		"name": "Types of Insanity",
-		"subtitle": "Sanity, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
-			"",
-			"When a creature goes insane, roll on the following table to determine what form of insanity strikes. Alternatively, you can assign the insanity to match the cause.",
-			"",
-			"| d% | Insanity |",
-			"| --- | --- |",
-			"| 1-11 | Amnesia |",
-			"| 12-48 | Mania/Phobia |",
-			"| 49-68 | Multiple Personality Disorder |",
-			"| 69-78 | Paranoia |",
-			"| 79-84 | Psychosis |",
-			"| 85-100 | Schizophrenia |"
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"advanced_topics",
-			"sanity_and_madness"
-		],
-		"siblings": [
-			"going_insane",
-			"curing_insanity",
-			"types_of_insanity"
 		]
 	},
 	"npc_gallery": {
