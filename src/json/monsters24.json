@@ -359,7 +359,7 @@
 			"",
 			"**Str** 11, **Dex** 15, **Con**: 16, **Int** 2, **Wis** 15, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 11 (15 vs. trip)  ",
-			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Overwhelm](feat/overwhelm)  ",
+			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Overwhelm](feat/overwhelm)[^B]  ",
 			"**Skills** Stealth +5, Survival +3 (+7 to find food or water); **Racial Modifiers** +4 Survival to find food or water  ",
 			"**SQ** problem solver",
 			"",
@@ -377,7 +377,9 @@
 			"",
 			"While the wolves and big cats of Nirmathas draw much of the common folk's fear and ire, the region's clever jackals inflict far more damage on farms and herds. Able to digest almost anything, these small predators scavenge and steal with unparalleled skill, bypassing gates, seals, traps, and even doors with ease to plunder chickens, goats, and produce. Utterly fearless, starving packs even prey on far larger and more dangerous creatures-including wolves and humanoids. In harsh winters, packs subsist on grubs and roots, and even eat their own. Switchback jackals grow up to 30 pounds and 2 to 3 feet long.",
 			"",
-			"Switchback jackals mostly make their homes in the plains that cover Nirmathas and Molthune, though they can survive easily in the rocky foothills of the Mindspin Mountains and on the marshy coastline of Lake Encarthan. They breed in late spring, after 3 weeks of howling hauntingly beautiful mating songs each evening. Pups lose their mottled black-and-white coats after 6 months, growing into their dusty adult coats. During this time, packs are especially aggressive and territorial."
+			"Switchback jackals mostly make their homes in the plains that cover Nirmathas and Molthune, though they can survive easily in the rocky foothills of the Mindspin Mountains and on the marshy coastline of Lake Encarthan. They breed in late spring, after 3 weeks of howling hauntingly beautiful mating songs each evening. Pups lose their mottled black-and-white coats after 6 months, growing into their dusty adult coats. During this time, packs are especially aggressive and territorial.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"sylph": {
@@ -3174,7 +3176,7 @@
 			"",
 			"Mark of Yunnarius: This agile sloop is captained by Emalynday (CE female elf banshee sorcerer 5), an astonishingly bitter and odious spirit who leads a crew composed entirely of undead elves. Three undead male elven archers known as the Unsung Three prowl the ship's decks, wielding magical bows rumored to be artifacts unearthed from a musty Ghol-Gan tomb. It is said the crew members of any vessel unlucky enough to cross paths with the Mark of Yunnarius feel the sting of the Unsung Three's arrows before even sighting the dread sloop.",
 			"",
-			"Nightclaw: This rat-infested frigate is the ship of the vampire Holaux the Gaunt (CE male human vampire antipaladin 10). Once a lieutenant of Raugsmauda, he escaped the lich's service and crewed his ship entirely with pirates made into his vampire spawn. Legend has it he was once a paladin of Iomedae, but turned to evil with the tragic death of his beloved wife, Sabina. Holaux wears a locket that bears her painted silhouette and contains a lock of her hair-some say that this keepsake enables him to withstand the light of the sun, while others claim that until the locket is taken from him he cannot be destroyed.",
+			"Nightclaw: This rat-infested frigate is the ship of the vampire Holaux the Gaunt (CE male human vampire antipaladin 10). Once a lieutenant of Raugsmauda, he escaped the lich's service and crewed his ship entirely with pirates made into his [vampire spawn](template/vampire_spawn). Legend has it he was once a paladin of Iomedae, but turned to evil with the tragic death of his beloved wife, Sabina. Holaux wears a locket that bears her painted silhouette and contains a lock of her hair-some say that this keepsake enables him to withstand the light of the sun, while others claim that until the locket is taken from him he cannot be destroyed.",
 			"",
 			"### Ghost Ship Haunts",
 			"",
@@ -4394,7 +4396,7 @@
 			"",
 			"**Str** 22, **Dex** 20, **Con**: -, **Int** 14, **Wis** 18, **Cha**, 16  ",
 			"**Base Atk** +8; **CMB** +17 (+21 grapple); **CMD** 39 (41 vs. grapple)  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Gorgon's Fist](feat/gorgon's_fist), [Greater Grapple](feat/greater_grapple), [Improved Critical (unarmed strike)](feat/improved_critical), [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Ki Stand](feat/ki_stand), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Punishing Kick](feat/punishing_kick), [Scorpion Style](feat/scorpion_style), [Step Up](feat/step_up), [Toughness](feat/toughness), [Weapon Focus (unarmed strike)](feat/weapon_focus)  ",
+			"**Feats** [Alertness](feat/alertness)[^B], [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge)[^B], [Gorgon's Fist](feat/gorgon's_fist), [Greater Grapple](feat/greater_grapple), [Improved Critical (unarmed strike)](feat/improved_critical), [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative)[^B], [Improved Unarmed Strike](feat/improved_unarmed_strike), [Ki Stand](feat/ki_stand), [Lightning Reflexes](feat/lightning_reflexes)[^B], [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Punishing Kick](feat/punishing_kick), [Scorpion Style](feat/scorpion_style), [Step Up](feat/step_up), [Toughness](feat/toughness)[^B], [Weapon Focus (unarmed strike)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +19 (+42 when jumping), Climb +20, Intimidate +17, Knowledge (history) +16, Perception +30, Sense Motive +30, Stealth +27; **Racial Modifiers** +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth  ",
 			"**Languages** Celestial, Common, Elven  ",
 			"**SQ** change shape (dire bat or wolf, beast shape II), fast movement, gaseous form, high jump, ki pool (9 points, cold iron/lawful/magic), life funnel, maneuver training, shadowless, slow fall 50 ft., spider climb  ",
@@ -4406,7 +4408,9 @@
 			"",
 			"#### Description",
 			"",
-			"An enlightened vampire spends his nights in meditation. He tries to live an ascetic's life, in search of purity and wholeness, even if his very nature requires him to harm others on a regular basis. Because of this, he lives in a state of suffering, seeking to atone for his nature while exploring the mysteries of enlightenment. This outlook on unlife doesn't stop him from killing his enemies. Whenever someone harms his spawn or one of his herd, an enlightened vampire responds with deliberate and decisive action."
+			"An enlightened vampire spends his nights in meditation. He tries to live an ascetic's life, in search of purity and wholeness, even if his very nature requires him to harm others on a regular basis. Because of this, he lives in a state of suffering, seeking to atone for his nature while exploring the mysteries of enlightenment. This outlook on unlife doesn't stop him from killing his enemies. Whenever someone harms his spawn or one of his herd, an enlightened vampire responds with deliberate and decisive action.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"enlightened_vampire": { "copyof": "vampire_enlightened_vampire" },
@@ -4508,7 +4512,7 @@
 			"",
 			"**Str** 30, **Dex** 18, **Con**: -, **Int** 10, **Wis** 14, **Cha**, 22  ",
 			"**Base Atk** +9; **CMB** +19 (+23 bull rush); **CMD** 33 (35 vs. bull rush)  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Dodge](feat/dodge), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Toughness](feat/toughness), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** [Alertness](feat/alertness)[^B], [Cleave](feat/cleave), [Dodge](feat/dodge)[^B], [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B], [Power Attack](feat/power_attack), [Toughness](feat/toughness)[^B], [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +16 (+20 when jumping), Intimidate +20, Knowledge (nature) +12, Perception +24, Sense Motive +12; **Racial Modifiers** +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth  ",
 			"**Languages** Common, Orc  ",
 			"**SQ** change shape (dire bat or wolf, beast shape II), fast movement, gaseous form, orc blood, shadowless, spider climb  ",
@@ -4526,7 +4530,9 @@
 			"",
 			"With razor-sharp fangs and the ability to drain the life out of his opponents, a vampire savage is a frightening sight to behold. This vampire tears his victims apart even as he bleeds them dry-savoring every scream he causes, enjoys the last heartbeat of each victim, and laughs at adventurers who dare to try stopping his murderous rampage. Because the vampire savage mangles the bodies of his victims so badly, many believe that his killings are the work of a wild animal. The carnage he leaves in his wake stands as an easy trail for a hunter to follow, but those would-be vampire slayers who get too close are not usually seen again.",
 			"",
-			"This sort of vampire often takes control of a violent tribe of orcs, gnolls, and similar creatures, driving them into a frenzy and demanding blood sacrifices from them to appease his appetite."
+			"This sort of vampire often takes control of a violent tribe of orcs, gnolls, and similar creatures, driving them into a frenzy and demanding blood sacrifices from them to appease his appetite.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"vampire_savage": { "copyof": "vampire_vampire_savage" },
@@ -4570,7 +4576,7 @@
 			"",
 			"**Str** 18, **Dex** 18, **Con**: -, **Int** 15, **Wis** 12, **Cha**, 22  ",
 			"**Base Atk** +3; **CMB** +7; **CMD** 22  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Extra Performance](feat/extra_performance), [Greater Spell Focus (enchantment)](feat/greater_spell_focus), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Spell Focus (enchantment)](feat/spell_focus), [Toughness](feat/toughness)  ",
+			"**Feats** [Alertness](feat/alertness)[^B], [Combat Casting](feat/combat_casting), [Dodge](feat/dodge)[^B], [Extra Performance](feat/extra_performance), [Greater Spell Focus (enchantment)](feat/greater_spell_focus), [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B], [Spell Focus (enchantment)](feat/spell_focus), [Toughness](feat/toughness)[^B]  ",
 			"**Skills** Bluff +22, Diplomacy +14, Intimidate +14, Knowledge (local) +12, Knowledge (nobility) +12, Perception +19, Perform (act) +14, Perform (dance) +14, Sense Motive +19, Stealth +19; **Racial Modifiers** +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth  ",
 			"**Languages** Common, Dwarven, Elven  ",
 			"**SQ** bardic knowledge +2, change shape (dire bat or wolf, beast shape II), gaseous form, lore master 1/day, shadowless, spider climb, versatile performance (dance)  ",
@@ -4586,7 +4592,9 @@
 			"",
 			"Through a blend of natural charm, physical beauty, and supernatural persuasion, the vampire seducer selects her prey from among her admirers and critics, takes her victim back to her home, and convinces them to let her bite them willingly-all part of her game. The vampire might dispose of her victims before they are too obviously afflicted by her unnatural appetites by forcing them to duel rivals for her affection or arranging for mysterious accidents and suicides (usually easily explained as the result of broken hearts).",
 			"",
-			"If the seducer's true nature is ever discovered, she has no qualms about abandoning the paramours she has acquired and relocating to a new city to begin her plots anew. Some seducers do this many times over the course of their long unlives, if only to stave off the eternal boredom that inevitably afflicts them all."
+			"If the seducer's true nature is ever discovered, she has no qualms about abandoning the paramours she has acquired and relocating to a new city to begin her plots anew. Some seducers do this many times over the course of their long unlives, if only to stave off the eternal boredom that inevitably afflicts them all.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"vampire_seducer": { "copyof": "vampire_vampire_seducer" },
@@ -4628,7 +4636,7 @@
 			"",
 			"**Str** 20, **Dex** 20, **Con**: -, **Int** 10, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +7; **CMB** +12; **CMD** 28  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Exotic Weapon Proficiency (katana)](feat/exotic_weapon_proficiency), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw), [Skill Focus (Acrobatics)](feat/skill_focus), [Spring Attack](feat/spring_attack), [Weapon Focus (katana)](feat/weapon_focus), [Weapon Specialization (katana)](feat/weapon_specialization)  ",
+			"**Feats** [Alertness](feat/alertness)[^B], [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge)[^B], [Exotic Weapon Proficiency (katana)](feat/exotic_weapon_proficiency), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility)[^B], [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw), [Skill Focus (Acrobatics)](feat/skill_focus)[^B], [Spring Attack](feat/spring_attack)[^B], [Weapon Focus (katana)](feat/weapon_focus), [Weapon Specialization (katana)](feat/weapon_specialization)  ",
 			"**Skills** Acrobatics +12, Craft (calligraphy) +4, Craft (paintings) +4, Escape Artist +3, Knowledge (local) +2, Knowledge (nobility) +2, Perception +21, Sense Motive +4, Stealth +12; **Racial Modifiers** +8 Acrobatics, +8 Perception, +10 Stealth  ",
 			"**Languages** Common, Vishkanya  ",
 			"**SQ** armor training 2, poison use, toxic (4/day)  ",
@@ -4650,7 +4658,9 @@
 			"",
 			"#### Description",
 			"",
-			"When this vishkanya was alive, she pursued the path of the samurai, but wasn't allowed to join their honorable ranks. Her restless spirit remained trapped in her flesh after death, and eventually she animated her own rotting body and sought out those who had wronged her."
+			"When this vishkanya was alive, she pursued the path of the samurai, but wasn't allowed to join their honorable ranks. Her restless spirit remained trapped in her flesh after death, and eventually she animated her own rotting body and sought out those who had wronged her.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"vampire_warrior": { "copyof": "vampire_vampire_warrior" },
@@ -5480,7 +5490,7 @@
 			"",
 			"**Str** 15, **Dex** 13, **Con**: 22, **Int** -, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +2; **CMB** +5; **CMD** 16 (24 vs. trip)  ",
-			"**Feats** [Diehard](feat/diehard), [Endurance](feat/endurance)  ",
+			"**Feats** [Diehard](feat/diehard)[^B], [Endurance](feat/endurance)[^B]  ",
 			"**Skills** Climb +10, Fly -5, Perception +5, Stealth +1; **Racial Modifiers** +4 Perception, +4 Stealth  ",
 			"**SQ** hold breath",
 			"",
@@ -5498,7 +5508,9 @@
 			"",
 			"Like their smaller and more mundane cousins, venomroaches lurk along the fringes of humanoid civilization, skittering through the dark corners of the world. Dangerous denizens of sewers and alleyways, venomroaches have a pair of traits that set them apart from most of their kin. As their name would suggest, these vermin generate a potent toxin that withers tissue and poisons the blood. Unlike their smaller cousins, venomroaches also have enlarged mouthparts that give them a potent bite attack.",
 			"",
-			"Venomroaches are 8 feet long and weigh 120 pounds."
+			"Venomroaches are 8 feet long and weigh 120 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"verdurous_ooze": {

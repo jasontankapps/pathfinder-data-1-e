@@ -7229,6 +7229,7 @@
 	},
 	"npc_gallery": {
 		"name": "NPC Gallery",
+		"tags": "npc boons non-player characters",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -7238,16 +7239,29 @@
 			"",
 			"Yet, for all the importance of the lords of the land, the business owners, and the ever-imperiled common folk, the meat of most adventures focuses on the monsters, villains, and dangers beyond familiar streets. Thus, when something inevitably goes awry at the local tavern, diplomacy breaks down at the royal court, or any of countless other unanticipated events arise, most GMs find themselves faking dice rolls or leafing through pages for statistics to adapt to the moment's needs. This section exists to serve GMs in those times, when they need statistics they didn't anticipate, one more encounter is required on the fly, or players zig when they were expected to zag.",
 			"",
-			"The following pages present more than 80 NPCs common to the Pathfinder Roleplaying Game. The majority are not meant to be challenges in direct combat against groups of seasoned adventurers, but rather represent generic statistics to serve in any of a party's myriad less adventurous interactions. Should the GM need to know what the Appraise skill is of an average shopkeep or just how capable a sailor actually is at the wheel of a ship, these statistics offer a baseline for a wide variety of everyday characters. That's not to say that a host of dangerous encounters can't arise from these characters. Just as a group of monster-fighting gladiators or military troops prove lethal, so too could a torch-bearing mob of farmers and craftsmen turn deadly. Many of these NPCs also hold the potential to take on far greater roles in a campaign, as there's nothing stopping a GM from making a lethal bounty hunter or a notorious pirate captain the main villain of an entire series of adventures. Alternatively, this section might also serve as a shopping list of NPCs characters might employ as hirelings, henchmen, even temporary PCs should they find themselves in a pinch. Ultimately, these characters provide GMs with increased tools and options, remove the need for ad hoc statistics generation and many other game interruptions, and free GMs to focus their time and creativity on the most exciting parts of their games: their own adventures."
+			"This section presents more than 80 NPCs common to the Pathfinder Roleplaying Game. The majority are not meant to be challenges in direct combat against groups of seasoned adventurers, but rather represent generic statistics to serve in any of a party's myriad less adventurous interactions. Should the GM need to know what the Appraise skill is of an average shopkeep or just how capable a sailor actually is at the wheel of a ship, these statistics offer a baseline for a wide variety of everyday characters. That's not to say that a host of dangerous encounters can't arise from these characters. Just as a group of monster-fighting gladiators or military troops prove lethal, so too could a torch-bearing mob of farmers and craftsmen turn deadly. Many of these NPCs also hold the potential to take on far greater roles in a campaign, as there's nothing stopping a GM from making a lethal bounty hunter or a notorious pirate captain the main villain of an entire series of adventures. Alternatively, this section might also serve as a shopping list of NPCs characters might employ as hirelings, henchmen, even temporary PCs should they find themselves in a pinch. Ultimately, these characters provide GMs with increased tools and options, remove the need for ad hoc statistics generation and many other game interruptions, and free GMs to focus their time and creativity on the most exciting parts of their games: their own adventures.",
+			"",
+			"### An NPC by Any Other Name",
+			"",
+			"This section provides statistics for all manner of travelers and shopkeeps, guardsmen and drunkards, princesses and high priests, and dozens of other fantasy world residents. Yet, absent are characters such as explorers, mountain climbers, armada admirals, dragon riders, and countless other NPCs a party might encounter in the course of their adventures. The reasons for this are twofold: First, no list of characters could hope to satisfy all the occupants of every GM's imagination, and thus only a sampling of those that appear most often in Pathfinder RPG adventures appear here. Second, even though a stat block might be titled \"guide,\" there's no reason a GM can't appropriate those statistics for an explorer, outrider, cowboy, or any other similar character he might require.",
+			"",
+			"Thus, along with each NPC comes a description of what the character is, how it might be used in its basic form or as a variety of alternative characters, and even what other NPCs it might be found with (along with increased CRs for such groupings). Equipment suites typical of these characters' professions and appropriate to the GP value of characters of their level are also provided. Often, the descriptions contain suggested ideas for alternate equipment or replacement feats to better customize the NPCs for varied roles and different campaigns. As with any other aspect of these characters, these elements can be adjusted however the GM sees fit.",
+			"",
+			"In addition, each NPC is grouped into a family of similar characters, both for ease of organization and so GMs seeking a specific type of character find a variety at their disposal (for example, while a CR 1/2 pickpocket might not fit the bill for an encounter, a CR 2 burglar might). Such also serves to make generating encounters using these characters easier, as NPCs with the same backgrounds or from the same walks of life are often found and faced together.",
+			"",
+			"GMs are also encouraged to change the NPCs presented here to better suit their individual campaigns. Most of these characters have abilities suiting archetypical views of their roles and bear neutral alignments. Alignments, of course, are easily altered and skills - especially Craft, Knowledge, and Profession - can be exchanged on the fly to create characters of varying expertise.",
+			"",
+			"Overall, just as these characters are presented without personalities or agendas, their presented statistics can be molded by GMs to suit whatever roles they require. Thus, from the dozens of NPCs presented, the true number of characters and encounters that can be based on them is limited only by a GM's imagination.",
+			"",
+			"### NPC Boons",
+			"",
+			"A previous section presents [an optional system for boons](rule/npc_boons): minor in-game bonuses and benefits specific NPCs can grant to PCs who befriend them. This system of favors and benefits encourages PCs to invest greater interest in working with NPCs and creates a way to reward characters with something other than experience and treasure. At the end of the statistics for each of the following NPCs is a suggestion for a minor benefit that is appropriate to the NPC and that works within this system. GMs who wish to employ these favors or create their own boons might use those presented here as guides for new benefits. At the same time, GMs should not feel that every one of the following NPCs has to offer exactly these boons, or any boon at all. Those interested in designing their own boons or customizing them to their game should feel free to modify these effects however they feel best suits their needs."
 		],
 		"parent_topics": [
 			"gamemastering",
 			"gamemastery_guide"
 		],
-		"subtopics": [
-			"an_npc_by_any_other_name",
-			"npc_boons_2"
-		],
+		"subtopics": [ "list_of_npcs" ],
 		"siblings": [
 			"getting_started",
 			"running_a_game",
@@ -7260,41 +7274,12 @@
 			"npc_gallery"
 		]
 	},
-	"an_npc_by_any_other_name": {
-		"name": "An NPC by Any Other Name",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"**Source** [GameMastery Guide pg. 254](source/gamemastery_guide)",
-			"",
-			"This section provides statistics for all manner of travelers and shopkeeps, guardsmen and drunkards, princesses and high priests, and dozens of other fantasy world residents. Yet, absent are characters such as explorers, mountain climbers, armada admirals, dragon riders, and countless other NPCs a party might encounter in the course of their adventures. The reasons for this are twofold: First, no list of characters could hope to satisfy all the occupants of every GM's imagination, and thus only a sampling of those that appear most often in Pathfinder RPG adventures appear here. Second, even though a stat block might be titled \"guide,\" there's no reason a GM can't appropriate those statistics for an explorer, outrider, cowboy, or any other similar character he might require.",
-			"",
-			"Thus, along with each NPC comes a description of what the character is, how it might be used in its basic form or as a variety of alternative characters, and even what other NPCs it might be found with (along with increased CRs for such groupings). Equipment suites typical of these characters' professions and appropriate to the GP value of characters of their level are also provided. Often, the descriptions contain suggested ideas for alternate equipment or replacement feats to better customize the NPCs for varied roles and different campaigns. As with any other aspect of these characters, these elements can be adjusted however the GM sees fit.",
-			"",
-			"In addition, each NPC is grouped into a family of similar characters, both for ease of organization and so GMs seeking a specific type of character find a variety at their disposal (for example, while a CR 1/2 pickpocket might not fit the bill for an encounter, a CR 2 burglar might). Such also serves to make generating encounters using these characters easier, as NPCs with the same backgrounds or from the same walks of life are often found and faced together.",
-			"",
-			"GMs are also encouraged to change the NPCs presented here to better suit their individual campaigns. Most of these characters have abilities suiting archetypical views of their roles and bear neutral alignments. Alignments, of course, are easily altered and skills-especially Craft, Knowledge, and Profession-can be exchanged on the fly to create characters of varying expertise.",
-			"",
-			"Overall, just as these characters are presented without personalities or agendas, their presented statistics can be molded by GMs to suit whatever roles they require. Thus, from the dozens of NPCs presented, the true number of characters and encounters that can be based on them is limited only by a GM's imagination."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"npc_gallery"
-		],
-		"siblings": [
-			"an_npc_by_any_other_name",
-			"npc_boons_2"
-		]
-	},
-	"npc_boons_2": {
-		"name": "NPC Boons",
+	"list_of_npcs": {
+		"name": "A List of NPCs",
 		"subtitle": "Gamemastering",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 255](source/gamemastery_guide)",
-			"",
-			"A previous section presents [an optional system for boons](rule/npc_boons): minor in-game bonuses and benefits specific NPCs can grant to PCs who befriend them. This system of favors and benefits encourages PCs to invest greater interest in working with NPCs and creates a way to reward characters with something other than experience and treasure. At the end of the statistics for each of the following NPCs is a suggestion for a minor benefit that is appropriate to the NPC and that works within this system. GMs who wish to employ these favors or create their own boons might use those presented here as guides for new benefits. At the same time, GMs should not feel that every one of the following NPCs has to offer exactly these boons, or any boon at all. Those interested in designing their own boons or customizing them to their game should feel free to modify these effects however they feel best suits their needs.",
 			"",
 			"- Adventurer:",
 			"    - [Battle Mage](npc/adventurer_battle_mage)",
@@ -7409,10 +7394,7 @@
 			"gamemastery_guide",
 			"npc_gallery"
 		],
-		"siblings": [
-			"an_npc_by_any_other_name",
-			"npc_boons_2"
-		]
+		"siblings": [ "list_of_npcs" ]
 	},
 	"bestiary": {
 		"name": "Bestiary",
@@ -7464,13 +7446,13 @@
 			"",
 			"This is where you'll find all of the information you need to run the monster in an encounter. A stat block is organized as follows. Note that in cases where a line in a stat block has no value, that line is omitted.",
 			"",
-			"***Name and CR:*** The monster's name is presented first, along with its challenge rating (CR) and three icons you can use to quickly identify the creature's role in the game. Challenge rating is a numerical indication of how dangerous a monster is-the higher the number, the deadlier the creature. Challenge rating is detailed in the [Designing Encounters](rule/designing_encounters) section.",
+			"***Name and CR:*** The monster's name is presented first, along with its challenge rating (CR) and three icons you can use to quickly identify the creature's role in the game. Challenge rating is a numerical indication of how dangerous a monster is: the higher the number, the deadlier the creature. Challenge rating is detailed in the [Designing Encounters](rule/designing_encounters) section.",
 			"",
 			"***XP:*** Listed here are the total experience points that PCs earn for defeating the monster.",
 			"",
 			"***Race, Class, and Level:*** Some monsters do not possess racial Hit Dice and are instead defined by their class levels. For these monsters, their race, class, and level appear here. Unless otherwise noted, the first class listed is the class chosen by the monster as its favored class.",
 			"",
-			"***Alignment, Size, and Type:*** While a monster's size and type remain constant (unless changed by the application of templates or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster represent the norm for those monsters-they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.",
+			"***Alignment, Size, and Type:*** While a monster's size and type remain constant (unless changed by the application of templates or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster represent the norm for those monsters - they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.",
 			"",
 			"***Init and Senses:*** The creature's initiative modifier followed by any special senses and its Perception check modifier.",
 			"",
@@ -7482,7 +7464,7 @@
 			"",
 			"***Saving Throws:*** The creature's Fortitude, Reflex, and Will saves, followed by situational modifiers to those rolls.",
 			"",
-			"***Defensive Abilities/DR/Immune/Resist/SR:*** All of the creature's unusual defensive abilities. Damage reduction, immunities, resistances, and spell resistance are called out separately as necessary.",
+			"***Defensive Abilities/&shy;DR/&shy;Immune/&shy;Resist/&shy;SR:*** All of the creature's unusual defensive abilities. Damage reduction, immunities, resistances, and spell resistance are called out separately as necessary.",
 			"",
 			"***Weaknesses:*** All of the creature's unusual weaknesses are listed here.",
 			"",
@@ -7498,13 +7480,13 @@
 			"",
 			"***Spell-Like Abilities:*** After listing the caster level of the creature's spell-like abilities, this section lists all of the creature's spell-like abilities, organized by how many times per day it can use the abilities. Constant spell-like abilities function at all times but can be dispelled. A creature can reactivate a constant spell-like ability as a swift action.",
 			"",
-			"***Spells Known/Prepared:*** If the creature can actually cast spells, its caster level is indicated here followed by the spells it knows or typically has prepared. Unless otherwise indicated, a spellcasting creature does not receive any of a spellcasting class's other abilities, such as a cleric's ability to spontaneously convert prepared spells to cure or inflict spells.",
+			"***Spells Known/&shy;Prepared:*** If the creature can actually cast spells, its caster level is indicated here followed by the spells it knows or typically has prepared. Unless otherwise indicated, a spellcasting creature does not receive any of a spellcasting class's other abilities, such as a cleric's ability to spontaneously convert prepared spells to cure or inflict spells.",
 			"",
 			"***Ability Scores:*** The creature's ability scores are listed here. Unless otherwise indicated, a creature's ability scores represent the baseline of its racial modifiers applied to scores of 10 or 11. Creatures with NPC class levels have stats in the standard array (13, 12, 11, 10, 9, 8), while creatures with character class levels have the elite array (15, 14, 13, 12, 10, 8); in both cases, the creature's ability score modifiers are listed at the end of its description.",
 			"",
 			"***Base Atk/CMB/CMD:*** These values give the creature's base attack, its Combat Maneuver Bonus, and its Combat Maneuver Defense score.",
 			"",
-			"***Feats:*** The creature's feats are listed here. A bonus feat is indicated with a superscript \"B.\"",
+			"***Feats:*** The creature's feats are listed here. A bonus feat is indicated with a footnote.[^B]",
 			"",
 			"***Skills:*** The creature's skills are listed here. Racial modifiers to skills are indicated at the end of this entry.",
 			"",
@@ -7520,7 +7502,9 @@
 			"",
 			"***Special Abilities:*** Finally, any of the creature's more unique special abilities are detailed in full here.",
 			"",
-			"***Description:*** Under the stat block you'll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it. Some monsters have additional sections that cover variant creatures, notes on using the monsters as PCs, methods of constructing the creature, and so on."
+			"***Description:*** Under the stat block you'll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it. Some monsters have additional sections that cover variant creatures, notes on using the monsters as PCs, methods of constructing the creature, and so on.",
+			"",
+			"[^B]: Example of a bonus feat's footnote."
 		],
 		"parent_topics": [
 			"gamemastering",

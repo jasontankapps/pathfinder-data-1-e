@@ -1687,7 +1687,7 @@
 			"",
 			"**Str** 33, **Dex** 25, **Con**: -, **Int** 21, **Wis** 20, **Cha**, 22  ",
 			"**Base Atk** +15; **CMB** +27 (+31 grapple); **CMD** 44 (can't be tripped)  ",
-			"**Feats** [Cleave](feat/cleave), [Command Undead](feat/command_undead), [Critical Focus](feat/critical_focus), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Stunning Critical](feat/stunning_critical), [Toughness](feat/toughness)  ",
+			"**Feats** [Cleave](feat/cleave), [Command Undead](feat/command_undead), [Critical Focus](feat/critical_focus), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Improved Iron Will](feat/improved_iron_will), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Stunning Critical](feat/stunning_critical)[^B], [Toughness](feat/toughness)  ",
 			"**Skills** Acrobatics +27 (+19 jump), Fly +28, Intimidate +29, Knowledge (planes) +25, Knowledge (religion) +28, Perception +28, Profession (cook) +25, Sense Motive +28, Stealth +26  ",
 			"**SQ** deathless, true herald",
 			"",
@@ -1719,7 +1719,9 @@
 			"",
 			"Although the Maw normally appears as a bare skull, it sometimes covers itself with its swarms. Whether this is out of a morbid sense of humor or an attempt to remember an old sensation from its life is unknown. It has confirmed that it was once a devourer, and before that a living creature, but it does not give further details.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** [Herald](family/herald)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"mother's_maw": { "copyof": "herald_mother's_maw" },
@@ -1764,7 +1766,7 @@
 			"",
 			"**Str** 28, **Dex** 35, **Con**: 22, **Int** 15, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +17; **CMB** +28 (+30 bull rush); **CMD** 51 (53 vs. bull rush)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +29, Escape Artist +32, Fly +27, Knowledge (nature, religion) +22, Knowledge (planes) +13, Perception +22, Sense Motive +14, Stealth +24, Survival +11, Swim +17  ",
 			"**Languages** Aquan, Auran, Common, Druidic, Ignan, Sylvan, Terran  ",
 			"**SQ** change shape (air or water elemental; elemental body IV)",
@@ -1793,7 +1795,9 @@
 			"",
 			"The Herald of Gozreh rises to nearly 25 feet in height, and its changeable form usually weighs approximately 1 ton.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** [Herald](family/herald)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"personification_of_fury": { "copyof": "herald_personification_of_fury" },
@@ -2390,7 +2394,7 @@
 			"",
 			"**Str** 20, **Dex** 31, **Con**: 20, **Int** 21, **Wis** 31, **Cha**, 22  ",
 			"**Base Atk** +17; **CMB** +27 (+29 disarm, +31 grapple, +29 trip); **CMD** 57 (59 vs. disarm, 59 vs. grapple, 59 vs. trip)  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Greater Grapple](feat/greater_grapple), [Improved Disarm](feat/improved_disarm), [Improved Grapple](feat/improved_grapple), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Mobility](feat/mobility), [Stunning Fist](feat/stunning_fist), [Weapon Finesse](feat/weapon_finesse), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Greater Grapple](feat/greater_grapple), [Improved Disarm](feat/improved_disarm), [Improved Grapple](feat/improved_grapple), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike)[^B], [Mobility](feat/mobility), [Stunning Fist](feat/stunning_fist)[^B], [Weapon Finesse](feat/weapon_finesse)[^B], [Wind Stance](feat/wind_stance)  ",
 			"**Skills** Acrobatics +30 (+66 when jumping), Climb +13, Diplomacy +23, Handle Animal +14, Heal +22, Knowledge (history) +22, Knowledge (religion) +13, Perception +30, Perform (string) +23, Ride +27, Sense Motive +30, Sleight of Hand +30, Stealth +30, Swim +25  ",
 			"**Languages** Common, Tien, Vudrani; telepathy 100 ft.  ",
 			"**SQ** monk abilities",
@@ -2413,7 +2417,9 @@
 			"",
 			"When not acting on Irori's behalf, the Herald of Irori keeps busy with tending to animals, planting gardens, meditating, practicing martial arts forms, swimming, and quipping with students. The Herald of Irori stands just over 5 feet tall and weighs about 120 pounds.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** [Herald](family/herald)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"the_old_man": { "copyof": "herald_the_old_man" },
@@ -2454,7 +2460,7 @@
 			"",
 			"**Str** 18, **Dex** 19, **Con**: 22, **Int** 19, **Wis** 22, **Cha**, 23  ",
 			"**Base Atk** +16; **CMB** +21 (+23 sunder); **CMD** 42 (44 vs. sunder)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Skill Focus (Perception)](feat/skill_focus), [Step Up](feat/step_up), [Weapon Focus (glaive)](feat/weapon_focus), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder)[^B], [Iron Will](feat/iron_will)[^B], [Mobility](feat/mobility), [Skill Focus (Perception)](feat/skill_focus), [Step Up](feat/step_up), [Weapon Focus (glaive)](feat/weapon_focus), [Wind Stance](feat/wind_stance)  ",
 			"**Skills** Acrobatics +12, Bluff +17, Diplomacy +17, Disguise +14, Fly +17, Handle Animal +14, Heal +14, Intimidate +17, Knowledge (religion) +12, Perception +31, Perform (dance) +22, Sense Motive +25, Spellcraft +20, Stealth +19, Use Magic Device +14  ",
 			"**Languages** Auran, Celestial, Common, Ignan, Shadowtongue  ",
 			"**SQ** inspiration, unearthly grace, change shape (Small or Medium humanoid; alter self)",
@@ -2479,7 +2485,9 @@
 			"",
 			"The Spirit of Adoration is a personification of resolute love, whose power lifts the heaviest heart and overcomes all obstacles. Her true form is that of a 10-foot-tall, angel-winged woman dressed in flowing clothes and bearing a shining steel glaive.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** [Herald](family/herald)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"the_spirit_of_adoration": { "copyof": "herald_the_spirit_of_adoration" },

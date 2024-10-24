@@ -163,7 +163,7 @@
 			"",
 			"**Str** 11, **Dex** 21, **Con**: 14, **Int** 18, **Wis** 10, **Cha**, 19  ",
 			"**Base Atk** +9; **CMB** +9 (+21 grapple); **CMD** 24 (32 vs. grapple, can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Skill Focus (Perception)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (tentacle)](feat/weapon_focus), [Wingover](feat/wingover)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Flyby Attack](feat/flyby_attack), [Hover](feat/hover)[^B], [Improved Initiative](feat/improved_initiative), [Skill Focus (Perception)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (tentacle)](feat/weapon_focus), [Wingover](feat/wingover)[^B]  ",
 			"**Skills** Acrobatics +21, Diplomacy +17, Fly +20, Knowledge (arcana) +14, Perception +28, Sense Motive +13, Spellcraft +15, Stealth +21, Use Magic Device +17; **Racial Modifiers** +6 Perception  ",
 			"**Languages** Aklo, Common, Draconic, Undercommon; telepathy 100 ft.  ",
 			"**SQ** compression, float, no breath",
@@ -188,7 +188,9 @@
 			"",
 			"Aatheriexas were once a race of conquerors and slavers, but since the destruction of their homeworld, the survivors have wandered the cosmos. Exceedingly cruel, they find perverse pleasure in tormenting those they capture, using them as disposable bodyguards or subjecting them to sadistic magic experiments.",
 			"",
-			"An aatheriexa's fleshy pink center is roughly 2 feet in diameter, and features a maw of gnashing teeth. Its grasping eye-tentacles hang down like the leaves of a weeping willow and extend its effective diameter to 5 feet. Aatheriexas weigh approximately 150 pounds."
+			"An aatheriexa's fleshy pink center is roughly 2 feet in diameter, and features a maw of gnashing teeth. Its grasping eye-tentacles hang down like the leaves of a weeping willow and extend its effective diameter to 5 feet. Aatheriexas weigh approximately 150 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"abaia": {
@@ -3073,7 +3075,7 @@
 			"",
 			"**Str** 20, **Dex** 17, **Con**: 17, **Int** 9, **Wis** 14, **Cha**, 16  ",
 			"**Base Atk** +8; **CMB** +14 (+18 grapple); **CMD** 27 (31 vs. trip)  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Combat Reflexes](feat/combat_reflexes), [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus), [Stand Still](feat/stand_still)  ",
+			"**Feats** [Blinding Critical](feat/blinding_critical)[^B], [Combat Reflexes](feat/combat_reflexes), [Improved Critical (claw)](feat/improved_critical)[^B], [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus), [Stand Still](feat/stand_still)  ",
 			"**Skills** Bluff +9, Stealth +9, Swim +20; **Racial Modifiers** +6 Bluff  ",
 			"**Languages** Common  ",
 			"**SQ** amphibious, tenacious grapple, voice mimicry",
@@ -3096,7 +3098,9 @@
 			"",
 			"Despite its preference for cruelty, an ahuizotl might come to mutually advantageous arrangements with other pernicious denizens of the swamps. Will-o--wisps and ahuizotls often find themselves in such cooperative relationships, with the will-o--wisp coaxing creatures near the ahuizotl's lair and then lingering to feed upon the victims' fear as the ahuizotl drags them into the depths. Some wily humanoids who fall into an ahuizotl's clutches-typically lizardfolk, boggards, or swamp-dwelling humans-have successfully managed to bargain away the lives of others in exchange for their own. Such arrangements always lead to a series of vicarious murders, as the aquatic predator's proxy coaxes new victims into the swamp for its fearsome partner to dine upon.",
 			"",
-			"Ahuizotls are exceptionally long-lived, and a single individual might live and feed in a particular area for several human generations. An ahuizotl is 9 feet long and weighs 1,200 pounds."
+			"Ahuizotls are exceptionally long-lived, and a single individual might live and feed in a particular area for several human generations. An ahuizotl is 9 feet long and weighs 1,200 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"akaname": {
@@ -4654,7 +4658,7 @@
 			"",
 			"**Str** 36, **Dex** 22, **Con**: 29, **Int** 11, **Wis** 24, **Cha**, 29  ",
 			"**Base Atk** +20; **CMB** +35 (+37 bull rush); **CMD** 51 (53 vs. bull rush, 55 vs. trip)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (ear-piercing scream)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (ear-piercing scream)](feat/quicken_spell-like_ability)[^B], [Staggering Critical](feat/staggering_critical)  ",
 			"**Skills** Climb +24, Intimidate +30, Knowledge (planes) +20, Knowledge (religion) +20, Perception +30, Sense Motive +30, Stealth +21  ",
 			"**Languages** Celestial, Infernal; telepathy 100 ft.",
 			"",
@@ -4696,7 +4700,9 @@
 			"",
 			"The origin of the ammuts is shrouded in mystery, though it's thought that they descended from a single creature of their kind that was more powerful than all existing ammuts combined. This mythical ammut is sometimes referred to in Ancient Osiriani scrolls where it has the position of judging the souls of the dead-a role already assumed by Pharasma. Because of this conflict, scholars argue about the creatures' true origin.",
 			"",
-			"Though it is generally agreed that ammuts migrated to Golarion from another plane long ago, many scholars disagree on the exact planar origin. Some scholars claim that ammuts are perhaps descended from a race of devils, while others claim the lineage stems from the divs. The most logical association of a fiendish origin is rooted in daemonkind. That ammuts are connected with souls and have the ability to utterly consume them certainly lends to this hypothesis."
+			"Though it is generally agreed that ammuts migrated to Golarion from another plane long ago, many scholars disagree on the exact planar origin. Some scholars claim that ammuts are perhaps descended from a race of devils, while others claim the lineage stems from the divs. The most logical association of a fiendish origin is rooted in daemonkind. That ammuts are connected with souls and have the ability to utterly consume them certainly lends to this hypothesis.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"amoeba_amoeba_swarm": {

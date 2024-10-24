@@ -123,7 +123,7 @@
 			"",
 			"**Str** 14, **Dex** 16, **Con**: 15, **Int** 8, **Wis** 9, **Cha**, 14  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 14  ",
-			"**Feats** [Power Attack](feat/power_attack), [Skill Focus (Stealth)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Power Attack](feat/power_attack), [Skill Focus (Stealth)](feat/skill_focus), [Toughness](feat/toughness)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +9, Bluff +8, Perception +5, Sleight of Hand +13, Stealth +20; **Racial Modifiers** +4 Sleight of Hand  ",
 			"**Languages** Aklo, Common, Undercommon",
 			"",
@@ -145,7 +145,9 @@
 			"",
 			"Erinat gremlins are obsessed with conflict and discord. They love nothing more than starting fights-the more inane and pointless the struggle, the better. Erinat gremlins typically use alter self to take the appearance of unfed, unwashed humanoid children as appropriate to their surroundings, allowing the gremlins to move freely through settlements (and accuse anyone who attempts to stop their malicious conduct of trying to kidnap them). Erinats don't care who wins the fights they start; they simply wish to be entertained by the largest brawls they can arrange. The mischievous gremlins delight in creating chaos, and are prone to making outrageous claims in the hope of sparking riots, aided by forcing bystanders to attack each other with random, often ridiculous objects.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"erinat": { "copyof": "gremlin_erinat" },
@@ -189,7 +191,7 @@
 			"",
 			"**Str** 7, **Dex** 13, **Con**: 12, **Int** 10, **Wis** 13, **Cha**, 8  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 7  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Toughness](feat/toughness)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Climb +9, Escape Artist +5, Handle Animal +4, Perception +5, Stealth +13, Swim +13, Use Magic Device +3; **Racial Modifiers** +4 Handle Animal  ",
 			"**Languages** Aquan  ",
 			"**SQ** amphibious",
@@ -214,7 +216,9 @@
 			"",
 			"Fuaths don't share a common language with other types of gremlins, though they can pantomime to each other fairly effectively. They have a surprising rapport with other sea creatures, even foul-tempered beasts like reefclaws. Small groups of fuaths lair in sea caves or rocky crevices. Larger groups frequently lay claim to whole sections of ruined ships. Their lairs usually include several trained guard animals. Fuaths prefer the taste of \"land-meat\" to anything from the sea, and often raid shore and ships to slake their hunger. They adore sea hags to the point of worship.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"fuath": { "copyof": "gremlin_fuath" },
@@ -259,7 +263,7 @@
 			"",
 			"**Str** 3, **Dex** 13, **Con**: 12, **Int** 10, **Wis** 11, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5  ",
-			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Climb +13, Fly +1, Perception +4, Sleight of Hand +5, Stealth +16, Swim +5  ",
 			"**Languages** Undercommon  ",
 			"**SQ** gremlin lice",
@@ -284,7 +288,9 @@
 			"",
 			"Voracious omnivores, grimples feast off garbage. They frequently target inns, restaurants, and other places where they can scavenge a steady supply of food.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"grimple": { "copyof": "gremlin_grimple" },
@@ -541,7 +547,7 @@
 			"",
 			"**Str** 6, **Dex** 15, **Con**: 14, **Int** 11, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +1; **CMB** -2; **CMD** 10  ",
-			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Toughness](feat/toughness)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Bluff +6, Disable Device +8, Escape Artist +7, Perception +6, Sense Motive +6, Stealth +18 (+14 when moving); **Racial Modifiers** +4 Disable Device, +4 Stealth (+0 when moving)  ",
 			"**Languages** Aklo  ",
 			"**SQ** compression, magic bag",
@@ -566,7 +572,9 @@
 			"",
 			"A monaciello stands 2-1/2 feet tall and weighs approximately 20 pounds.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"monaciello": { "copyof": "gremlin_monaciello" },
@@ -603,7 +611,7 @@
 			"",
 			"**Str** 13, **Dex** 18, **Con**: 15, **Int** 8, **Wis** 9, **Cha**, 12  ",
 			"**Base Atk** +1; **CMB** +1 (+5 grapple and trip); **CMD** 15  ",
-			"**Feats** [Step Up](feat/step_up), [Toughness](feat/toughness), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** [Step Up](feat/step_up), [Toughness](feat/toughness)[^B], [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +10, Climb +9, Craft (traps) +9, Intimidate +8, Perception +9, Stealth +14; **Racial Modifiers** +4 Craft (traps), +4 Intimidate, +4 Perception  ",
 			"**Languages** Undercommon  ",
 			"**SQ** kneecapper",
@@ -630,7 +638,9 @@
 			"",
 			"Nuglubs typically stand 2-1/2 feet tall and weigh approximately 25 pounds.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"nuglub": { "copyof": "gremlin_nuglub" },
@@ -743,7 +753,7 @@
 			"",
 			"**Str** 3, **Dex** 13, **Con**: 11, **Int** 10, **Wis** 14, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Toughness](feat/toughness)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Bluff +2, Craft (traps) +4, Disable Device +2, Perception +6 (+2 Listening), Ride +2, Stealth +17; **Racial Modifiers** +4 Stealth, -4 Perception when listening  ",
 			"**Languages** Gnoll, Undercommon",
 			"",
@@ -765,7 +775,9 @@
 			"",
 			"At some point in the distant past, pugwampis became enamored of gnolls, seeing in the beast-men a kindred form and thus aspiring to the height and deadly prowess of the savage warriors, whom they honor as gods. Gnolls, for their part, hate pugwampis even more than other creatures, mostly because of the gremlins' weakness and sickening fawning, though they sometimes keep the gremlins around just to torment them.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"pugwampi": { "copyof": "gremlin_pugwampi" },
@@ -807,7 +819,7 @@
 			"",
 			"**Str** 6, **Dex** 13, **Con**: 14, **Int** 12, **Wis** 13, **Cha**, 11  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 7  ",
-			"**Feats** [Skill Focus (Disable Device)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Disable Device)](feat/skill_focus), [Toughness](feat/toughness)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Appraise +2, Climb +13, Craft (traps) +5, Disable Device +9, Knowledge (engineering) +2, Perception +5, Stealth +13 (+17 in metal or stony areas, +9 when moving); **Racial Modifiers** +4 Disable Device, +4 Stealth in metal or stony areas, -4 Stealth when moving  ",
 			"**Languages** Undercommon",
 			"",
@@ -831,7 +843,9 @@
 			"",
 			"Vexgits stand 1-1/2 feet tall and weigh approximately 16 pounds.",
 			"",
-			"**Family:** [Gremlin](family/gremlin)"
+			"**Family:** [Gremlin](family/gremlin)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"vexgit": { "copyof": "gremlin_vexgit" },
@@ -4036,7 +4050,7 @@
 			"",
 			"**Str** 10, **Dex** 17, **Con**: 14, **Int** 2, **Wis** 13, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 12 (16 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)  ",
+			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)[^B]  ",
 			"**Skills** Perception +5",
 			"",
 			"#### Ecology",
@@ -4055,7 +4069,9 @@
 			"",
 			"Of course, not all antelopes are Small. You can generate statistics for larger antelope species, such as elands or kudus, by advancing the antelope presented above by 2 Hit Dice and increasing its size category to Medium. All antelopes of this size are CR 1 creatures.",
 			"",
-			"**Family:** [Herd Animal](family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"antelope": { "copyof": "herd_animal_antelope" },
@@ -4254,7 +4270,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: 16, **Int** 2, **Wis** 15, **Cha**, 7  ",
 			"**Base Atk** +1; **CMB** +3; **CMD** 16 (20 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)  ",
+			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)[^B]  ",
 			"**Skills** Perception +7",
 			"",
 			"#### Ecology",
@@ -4269,7 +4285,9 @@
 			"",
 			"Numerous species of elk exist. Some larger species can stand up to 6 feet tall at the shoulder and can be used as mounts by Medium humanoids; these elk have 3 Hit Dice and are Large. One particularly unusual species of elk, the river elk, is an excellent swimmer-these elk gain a swim speed of 30 feet. All elk of this size are CR 2 creatures.",
 			"",
-			"**Family:** [Herd Animal](family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"elk": { "copyof": "herd_animal_elk" },
@@ -4417,7 +4435,7 @@
 			"",
 			"**Str** 17, **Dex** 15, **Con**: 18, **Int** 2, **Wis** 15, **Cha**, 6  ",
 			"**Base Atk** +2; **CMB** +6; **CMD** 18 (22 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)  ",
+			"**Feats** [Endurance](feat/endurance), [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)[^B]  ",
 			"**Skills** Perception +8, Swim +11",
 			"",
 			"#### Ecology",
@@ -4438,7 +4456,9 @@
 			"",
 			"Similar in form to the elk but far superior in size is the megaloceros. The average male is a towering, dangerous creature with antlers that can alone weigh nearly 100 pounds. Unlike elk, megaloceros antlers are decidedly enormous and sometimes wider than their bodies are long. This leads to common misconceptions and exaggerations about the creature's monstrous size. Conveniently for those pursued, megaloceros males have difficultly navigating thickly forested areas, making them natives of plains and the woods' edge.",
 			"",
-			"**Family:** [Herd Animal](family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"river_elk": { "copyof": "herd_animal_river_elk" },
@@ -4475,7 +4495,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 16, **Int** 2, **Wis** 15, **Cha**, 8  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 15 (19 vs. trip)  ",
-			"**Feats** [Run](feat/run), [Skill Focus (Acrobatics)](feat/skill_focus)  ",
+			"**Feats** [Run](feat/run)[^B], [Skill Focus (Acrobatics)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +10, Perception +6",
 			"",
 			"#### Ecology",
@@ -4490,7 +4510,9 @@
 			"",
 			"The stat block shown above represents a male deer (a stag). Unlike caribou and other similar animals, female deer only rarely grow antlers, thus they lack gore attacks. Stags are approximately 6 feet long from nose to tail and weigh up to 350 pounds.",
 			"",
-			"**Family:** [Herd Animal](family/herd_animal)"
+			"**Family:** [Herd Animal](family/herd_animal)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"stag": { "copyof": "herd_animal_stag" },
@@ -6293,7 +6315,7 @@
 			"",
 			"**Str** 26, **Dex** 18, **Con**: 21, **Int** 16, **Wis** 13, **Cha**, 17  ",
 			"**Base Atk** +12; **CMB** +20; **CMD** 34  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Command Undead](feat/command_undead), [Critical Focus](feat/critical_focus), [Great Fortitude](feat/great_fortitude), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Command Undead](feat/command_undead)[^B], [Critical Focus](feat/critical_focus), [Great Fortitude](feat/great_fortitude), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes)  ",
 			"**Skills** Acrobatics +24, Climb +28, Escape Artist +24, Intimidate +31, Knowledge (religion) +27, Perception +21, Stealth +24; **Racial Modifiers** +4 Knowledge (religion), +8 Intimidate  ",
 			"**Languages** Aklo, Common; telepathy 100 ft., tongues  ",
 			"**SQ** terrible visage",
@@ -6324,7 +6346,9 @@
 			"",
 			"Serving as messengers for Hastur, hooded harbingers receive the communications they deliver directly from the Great Old One via mental transmission. Upon receiving the message, the hooded harbinger twitches and shakes as if it were having a seizure. During this time they are particularly dangerous, because if they are attacked or distracted in any way, they fly into a furious rage and the offender risks attracting the attention of the King in Yellow.",
 			"",
-			"No one has seen a hooded harbinger's face and lived to describe it. If its hood is pulled back, the creature's head is seen to be completely swathed in the same filthy rags that cover its body. If it is helpless, the rags can be unraveled, but each layer only gives way to dozens of layers of the tattered yellow cloth. Eventually, a face is revealed, but it appears to be the face of the unraveler. If she is lucky, her memories are immediately wiped clean. If she is less fortunate or less able to forget, she is driven insane."
+			"No one has seen a hooded harbinger's face and lived to describe it. If its hood is pulled back, the creature's head is seen to be completely swathed in the same filthy rags that cover its body. If it is helpless, the rags can be unraveled, but each layer only gives way to dozens of layers of the tattered yellow cloth. Eventually, a face is revealed, but it appears to be the face of the unraveler. If she is lucky, her memories are immediately wiped clean. If she is less fortunate or less able to forget, she is driven insane.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"hook_fly_giant_hook_fly": {
@@ -6609,7 +6633,7 @@
 			"",
 			"**Str** 16, **Dex** 14, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 7  ",
 			"**Base Atk** +1; **CMB** +5; **CMD** 17 (21 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Run](feat/run)  ",
+			"**Feats** [Endurance](feat/endurance), [Run](feat/run)[^B]  ",
 			"**Skills** Perception +6  ",
 			"**SQ** docile",
 			"",
@@ -6631,7 +6655,9 @@
 			"",
 			">**Heavy Horse:** A heavy horse gains the [advanced simple template](template/advanced). In addition, it also gains a bite attack that inflicts 1d4 damage, and its hoof damage increases to 1d6. As with a light horse, a heavy horse can be specifically trained for combat with the Handle Animal skill.",
 			"",
-			"[Ponies](monster/pony) are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds."
+			"[Ponies](monster/pony) are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"horse_pony": {
@@ -6664,7 +6690,7 @@
 			"",
 			"**Str** 13, **Dex** 13, **Con**: 14, **Int** 2, **Wis** 11, **Cha**, 4  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 13 (17 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Run](feat/run)  ",
+			"**Feats** [Endurance](feat/endurance), [Run](feat/run)[^B]  ",
 			"**Skills** Perception +5  ",
 			"**SQ** docile (see [horse](monster/horse))",
 			"",
@@ -6680,7 +6706,9 @@
 			"",
 			"A light load for a pony is up to 100 pounds, a medium load is 101-200 pounds, and a heavy load is 201-300 pounds. A pony can drag 1,500 pounds.",
 			"",
-			"The statistics presented above are for a typical pony. Tougher ponies with the [advanced](template/advanced) simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the [Handle Animal](skill/handle_animal) skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat."
+			"The statistics presented above are for a typical pony. Tougher ponies with the [advanced](template/advanced) simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the [Handle Animal](skill/handle_animal) skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"pony": { "copyof": "horse_pony" }

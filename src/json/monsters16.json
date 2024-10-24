@@ -2182,7 +2182,7 @@
 			"",
 			"**Str** 18, **Dex** 3, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +3; **CMB** +8 (+10 bull rush, +12 grapple); **CMD** 14 (16 vs. bull rush)  ",
-			"**Feats** [Improved Bull Rush](feat/improved_bull_rush)  ",
+			"**Feats** [Improved Bull Rush](feat/improved_bull_rush)[^B]  ",
 			"**SQ** fleshy link",
 			"",
 			"#### Ecology",
@@ -2209,7 +2209,9 @@
 			"",
 			"**CL** 12th; **Price** 18,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 9,500 gp"
+			"**Requirements** Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 9,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"lizard_giant_chameleon": {
@@ -6129,7 +6131,7 @@
 			"",
 			"**Str** 20, **Dex** 15, **Con**: 18, **Int** 2, **Wis** 15, **Cha**, 5  ",
 			"**Base Atk** +3; **CMB** +9; **CMD** 21 (25 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)  ",
+			"**Feats** [Endurance](feat/endurance), [Lightning Reflexes](feat/lightning_reflexes), [Run](feat/run)[^B]  ",
 			"**Skills** Perception +9",
 			"",
 			"#### Ecology",
@@ -6142,7 +6144,9 @@
 			"",
 			"The megaloceros is a powerful and enormous elk, also known as a \"great elk\" or \"king stag.\" It stands about 6 feet tall at the shoulder and has antlers spanning up to 12 feet. It weighs 1,400 pounds.",
 			"",
-			"**Family:** [Megafauna](family/megafauna)"
+			"**Family:** [Megafauna](family/megafauna)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"megaloceros": { "copyof": "megafauna_megaloceros" },

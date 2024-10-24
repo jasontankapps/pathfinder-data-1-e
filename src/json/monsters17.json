@@ -449,7 +449,7 @@
 			"",
 			"**Str** 25, **Dex** 12, **Con**: -, **Int** 14, **Wis** 18, **Cha**, 16  ",
 			"**Base Atk** +7; **CMB** +15; **CMD** 26  ",
-			"**Feats** [Exotic Weapon Proficiency (bastard sword)](feat/exotic_weapon_proficiency), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mounted Combat](feat/mounted_combat), [Power Attack](feat/power_attack), [Ride-By Attack](feat/ride-by_attack), [Toughness](feat/toughness), [Vital Strike](feat/vital_strike), [Weapon Focus (bastard sword)](feat/weapon_focus)  ",
+			"**Feats** [Exotic Weapon Proficiency (bastard sword)](feat/exotic_weapon_proficiency), [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes), [Mounted Combat](feat/mounted_combat)[^B], [Power Attack](feat/power_attack), [Ride-By Attack](feat/ride-by_attack)[^B], [Toughness](feat/toughness)[^B], [Vital Strike](feat/vital_strike), [Weapon Focus (bastard sword)](feat/weapon_focus)  ",
 			"**Skills** Climb +12, Intimidate +18, Knowledge (dungeoneering) +12, Knowledge (engineering) +10, Knowledge (religion) +12, Perception +20, Ride +14, Survival +13; **Racial Modifiers** +8 Intimidate, +12 Perception, +8 Ride, +4 Survival  ",
 			"**Languages** Common, Giant  ",
 			"**SQ** phantom mount, ruinous revivification  ",
@@ -463,7 +463,9 @@
 			"",
 			"A hopeless, claustrophobic maze alone is enough to induce fear and despair, but the presence of a labyrinth guardian turns the situation into a nightmare. Relentless, ruthless, and almost unstoppable, these undead monstrosities have an unquenchable thirst for destruction. Dedicated servants of Baphomet or Lamashtu, labyrinth guardians rule their tiny, maze-like kingdoms with fearless power. Depraved minotaurs flock to their banner, hoping for protection and to appease whatever material or divine power the guardian serves.",
 			"",
-			"In life, guardians stood vigil over catacombs, dungeons, or lost cities, and were unique not for their combat prowess, but rather for their endless devotion to their duty and foul gods. This loyalty, coupled with vile rituals whispered by their patrons, bound the guardians' souls to the iron of their armor and resurrected them as twisted, ageless defenders. The same sense of commitment that enabled the guardians' transformation also shackles them to their labyrinthine territories. This stunts the guardians' dreams of expansion, limiting them to steadily adding on to their sprawling, confusing complexes. Over time, the legend of an ancient labyrinth guardian often exceeds that of the maze's original treasure."
+			"In life, guardians stood vigil over catacombs, dungeons, or lost cities, and were unique not for their combat prowess, but rather for their endless devotion to their duty and foul gods. This loyalty, coupled with vile rituals whispered by their patrons, bound the guardians' souls to the iron of their armor and resurrected them as twisted, ageless defenders. The same sense of commitment that enabled the guardians' transformation also shackles them to their labyrinthine territories. This stunts the guardians' dreams of expansion, limiting them to steadily adding on to their sprawling, confusing complexes. Over time, the legend of an ancient labyrinth guardian often exceeds that of the maze's original treasure.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"labyrinth_guardian": { "copyof": "minotaur_labyrinth_guardian" },
@@ -3564,7 +3566,7 @@
 			"",
 			"**Str** 14, **Dex** 21, **Con**: 18, **Int** 16, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +7; **CMB** +10; **CMD** 26 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Eschew Materials](feat/eschew_materials), [Lightning Reflexes](feat/lightning_reflexes), [Stealthy](feat/stealthy)  ",
+			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Eschew Materials](feat/eschew_materials)[^B], [Lightning Reflexes](feat/lightning_reflexes), [Stealthy](feat/stealthy)  ",
 			"**Skills** Bluff +13, Diplomacy +9, Disguise +9, Escape Artist +13, Intimidate +12, Knowledge (arcana) +13, Perception +19, Sense Motive +10, Spellcraft +12, Stealth +18  ",
 			"**Languages** Common, Infernal",
 			"",
@@ -3592,7 +3594,9 @@
 			"",
 			"Dark nagas hate others of their kind, especially other dark nagas, seeing their brethren as deadly opponents to be dispatched swiftly and mercilessly-often rightly so.",
 			"",
-			"**Family:** [Naga](family/naga)"
+			"**Family:** [Naga](family/naga)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"dark_naga": { "copyof": "naga_dark_naga" },
@@ -3853,7 +3857,7 @@
 			"",
 			"**Str** 14, **Dex** 19, **Con**: 18, **Int** 13, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +6; **CMB** +9; **CMD** 24 (can't be tripped)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Eschew Materials](feat/eschew_materials), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Eschew Materials](feat/eschew_materials)[^B], [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Bluff +7, Diplomacy +7, Knowledge (arcana) +5, Knowledge (nature) +9, Perception +14, Spellcraft +8, Stealth +14  ",
 			"**Languages** Aklo, Common",
 			"",
@@ -3879,7 +3883,9 @@
 			"",
 			"Lunar nagas sometimes lead small cults of sky-watchers. These followers aid the nagas in recording tome upon tome of calculations of the stars and planets moving through the inky black of the night sky. In small doses tempered with water, fruit juices, and alcohol, lunar naga venom is mildly hallucinogenic. The nagas' cultist allies often take the substance as a ritualistic drug.",
 			"",
-			"**Family:** [Naga](family/naga)"
+			"**Family:** [Naga](family/naga)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"lunar_naga": { "copyof": "naga_lunar_naga" },
@@ -4062,7 +4068,7 @@
 			"",
 			"**Str** 18, **Dex** 20, **Con**: 21, **Int** 12, **Wis** 17, **Cha**, 17  ",
 			"**Base Atk** +7; **CMB** +12; **CMD** 27 (can't be tripped)  ",
-			"**Feats** [Ability Focus (charming gaze)](feat/ability_focus), [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception)](feat/skill_focus), [Stealthy](feat/stealthy)  ",
+			"**Feats** [Ability Focus (charming gaze)](feat/ability_focus), [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials)[^B], [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception)](feat/skill_focus), [Stealthy](feat/stealthy)  ",
 			"**Skills** Bluff +13, Escape Artist +13, Intimidate +9, Knowledge (arcana) +14, Perception +22, Spellcraft +11, Stealth +15, Swim +12  ",
 			"**Languages** Abyssal, Common",
 			"",
@@ -4090,7 +4096,9 @@
 			"",
 			"Spirit nagas occasionally band together in small groups-some seeming to mimic the covens of hags. While a particular plot or foe might bring these deadly serpents together for a short time, spirit nagas are loyal only to themselves, and such alliances always end in deadly betrayal.",
 			"",
-			"**Family:** [Naga](family/naga)"
+			"**Family:** [Naga](family/naga)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"spirit_naga": { "copyof": "naga_spirit_naga" },
@@ -4134,7 +4142,7 @@
 			"",
 			"**Str** 20, **Dex** 23, **Con**: 20, **Int** 11, **Wis** 17, **Cha**, 18  ",
 			"**Base Atk** +6; **CMB** +12; **CMD** 28 (can't be tripped)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials)[^B], [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Bluff +8, Knowledge (local) +4, Perception +17, Spellcraft +11, Stealth +16, Swim +13  ",
 			"**Languages** Aquan, Common  ",
 			"**SQ** amphibious",
@@ -4159,7 +4167,9 @@
 			"",
 			"As their yearly treks make many water nagas especially well traveled, those who live near the serpents' lairs' usually lizardfolk, fey, and human tribes-often court the snake creatures' good graces with offerings of rich local delicacies, hoping to learn of nearby lands and pass on their own stories to distant neighbors. Enjoying flattery, exciting tales, and the adoration of those they see as lesser creatures, most water nagas take pride in their roles as travelers. However, while rarely malicious, they quickly grow bored of repetitive, mundane anecdotes and often embellish the stories they've heard with their own fictions-caring little for the repercussions such misleading tales might cause for their listeners. The congeniality of some water nagas does not extend to the entire race, and many unwary souls, even those with only the best intentions, face these serpentine creatures' deadly bite.",
 			"",
-			"**Family:** [Naga](family/naga)"
+			"**Family:** [Naga](family/naga)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"water_naga": { "copyof": "naga_water_naga" },
@@ -4378,7 +4388,7 @@
 			"",
 			"**Str** 15, **Dex** 13, **Con**: -, **Int** -, **Wis** 10, **Cha**, 13  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 16  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** [Toughness](feat/toughness)[^B]  ",
 			"**SQ** Construction Points (additional movement [fly], extra attack [bite])",
 			"",
 			"#### Ecology",
@@ -4429,7 +4439,9 @@
 			"| Large | 7d8 | 3 | 5 | 10 |",
 			"| Huge | 10d8 | 4 | 7 | 25 |",
 			"| Gargantuan | 14d8 | 5 | 9 | 50 |",
-			"| Colossal | 18d8 | 6 | 11 | 100 |"
+			"| Colossal | 18d8 | 6 | 11 | 100 |",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"necrophidius": {
@@ -4535,7 +4547,7 @@
 			"",
 			"**Str** 24, **Dex** 16, **Con**: 23, **Int** 19, **Wis** 18, **Cha**, 17  ",
 			"**Base Atk** +7; **CMB** +15; **CMD** 35 (cannot be tripped)  ",
-			"**Feats** [Arcane Strike](feat/arcane_strike), [Extend Spell](feat/extend_spell), [Combat Reflexes](feat/combat_reflexes), [Eschew Materials](feat/eschew_materials), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Arcane Strike](feat/arcane_strike), [Extend Spell](feat/extend_spell), [Combat Reflexes](feat/combat_reflexes), [Eschew Materials](feat/eschew_materials)[^B], [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
 			"**Skills** Fly +15, Knowledge (arcana, dungeoneering, and planes) +23, Perception +17, Sense Motive +17, Spellcraft +17, Stealth +12, Use Magic Device +16  ",
 			"**Languages** Abyssal, Aklo, Common, Draconic, Protean, Undercommon; telepathy (100 feet)  ",
 			"**SQ** brain collection, strange knowledge",
@@ -4560,7 +4572,9 @@
 			"",
 			"Known also as brain collectors, the alien neh-thalggus hail from distant worlds, traveling the gulfs of space on immense living ships that swiftly decay when they land upon a new world, leaving behind a deadly cargo of hungry monsters. Neh-thalggus are carnivores, but they do not digest humanoid brains they eat-rather, these brains lodge in one of several bulbous blisters on the creature's back and help to increase its intellect.",
 			"",
-			"Some speculate that neh-thalggus encountered in this reality may merely be juveniles of their kind, perhaps exiled from their home worlds by greater kin until they can prove their worth on other worlds. Their brain collections may be a morbid form of currency in their home realm, or the thoughts in these brains may merely be fuel for a dark apotheosis into an even more sinister mature form."
+			"Some speculate that neh-thalggus encountered in this reality may merely be juveniles of their kind, perhaps exiled from their home worlds by greater kin until they can prove their worth on other worlds. Their brain collections may be a morbid form of currency in their home realm, or the thoughts in these brains may merely be fuel for a dark apotheosis into an even more sinister mature form.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"neh_thalggu": { "copyof": "neh-thalggu" },
@@ -5004,7 +5018,7 @@
 			"",
 			"**Str** 25, **Dex** 15, **Con**: 18, **Int** 14, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +11; **CMB** +19 (+23 sunder); **CMD** 31 (33 vs. sunder)  ",
-			"**Feats** [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Greater Sunder](feat/greater_sunder), [Improved Critical (longsword)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw)  ",
+			"**Feats** [Endurance](feat/endurance)[^B], [Great Fortitude](feat/great_fortitude)[^B], [Greater Sunder](feat/greater_sunder), [Improved Critical (longsword)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw)  ",
 			"**Skills** Bluff +12, Climb +13, Diplomacy +17, Intimidate +17, Knowledge (geography, planes) +11, Perception +17, Sense Motive +17, Stealth +9, Survival +12  ",
 			"**Languages** Celestial",
 			"",
@@ -5026,7 +5040,9 @@
 			"",
 			"The nephilim are the offspring of demigods who bred with humans. This joining resulted in a race of giant-sized beings possessed of a shard of divine power and the mortal consciousness of humans. A nephilim stands 11 feet tall and weighs 1,100 pounds. Its divine heritage grants it a lifespan of almost 600 years.",
 			"",
-			"Nephilim are a nomadic, secretive race. This isolationism has only heightened the wild tales surrounding them, making it even harder for other races to trust them. While the ancient animosity humans once had against them has been largely forgotten, zealots occasionally try to mount pogroms and crusades to wipe the nephilim out forever. The nephilim have proven strikingly resistant to these efforts."
+			"Nephilim are a nomadic, secretive race. This isolationism has only heightened the wild tales surrounding them, making it even harder for other races to trust them. While the ancient animosity humans once had against them has been largely forgotten, zealots occasionally try to mount pogroms and crusades to wipe the nephilim out forever. The nephilim have proven strikingly resistant to these efforts.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"nephlei": {
@@ -5128,7 +5144,7 @@
 			"",
 			"**Str** 11, **Dex** 29, **Con**: 24, **Int** 14, **Wis** 22, **Cha**, 21  ",
 			"**Base Atk** +6; **CMB** +15; **CMD** 37  ",
-			"**Feats** [Ability Focus (beguiling aura)](feat/ability_focus), [Agile Maneuvers](feat/agile_maneuvers), [Defensive Combat Training](feat/defensive_combat_training), [Dodge](feat/dodge), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Ability Focus (beguiling aura)](feat/ability_focus), [Agile Maneuvers](feat/agile_maneuvers), [Defensive Combat Training](feat/defensive_combat_training), [Dodge](feat/dodge), [Mobility](feat/mobility)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Bluff +20, Escape Artist +24, Knowledge (nature) +17, Perception +21, Perform (sing) +20, Sense Motive +21, Stealth +24, Swim +23  ",
 			"**Languages** Aquan, Common, Sylvan  ",
 			"**SQ** change shape (medium water elemental, elemental body II), unearthly grace",
@@ -5155,7 +5171,9 @@
 			"",
 			"#### Description",
 			"",
-			"Nereids are capricious and often dangerous aquatic fey that appear as strikingly beautiful women, often seen bathing unclothed in the water. Many sailors have met their doom following a nereid, for though a nereid's beauty is otherworldly, her watery kiss is death. Others seek out nereids, for if one can secure control over the creature's shawl, the cloth can be used to force the nereid's compliance. A nereid forced to obey in this manner immediately attempts to slay her master as soon as she can secure her shawl's safety."
+			"Nereids are capricious and often dangerous aquatic fey that appear as strikingly beautiful women, often seen bathing unclothed in the water. Many sailors have met their doom following a nereid, for though a nereid's beauty is otherworldly, her watery kiss is death. Others seek out nereids, for if one can secure control over the creature's shawl, the cloth can be used to force the nereid's compliance. A nereid forced to obey in this manner immediately attempts to slay her master as soon as she can secure her shawl's safety.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"neshmaal": {

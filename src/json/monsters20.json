@@ -3358,7 +3358,7 @@
 			"",
 			"**Str** 22, **Dex** 25, **Con**: -, **Int** 14, **Wis** 15, **Cha**, 1  ",
 			"**Base Atk** +16; **CMB** +23 (+31 grapple, +27 sunder); **CMD** 40 (48 vs. grapple, 42 vs. sunder, 44 vs. trip)  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Critical Focus](feat/critical_focus), [Great Fortitude](feat/great_fortitude), [Greater Sunder](feat/greater_sunder), [Improved Critical (claws)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Technologist](feat/technologist)  ",
+			"**Feats** [Blinding Critical](feat/blinding_critical), [Critical Focus](feat/critical_focus), [Great Fortitude](feat/great_fortitude), [Greater Sunder](feat/greater_sunder), [Improved Critical (claws)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Technologist](feat/technologist)[^B]  ",
 			"**Skills** Climb +34, Disable Device +23, Knowledge (engineering) +22, Perception +18; **Racial Modifiers** +4 Climb, +4 Knowledge (engineering)  ",
 			"**Languages** Androffan, Common  ",
 			"**SQ** item creation, salvage, scaling",
@@ -3413,7 +3413,9 @@
 			"",
 			"Though a reclamation robot is generally quite adept at repairing damage to itself as well, injury to certain processors and memory modules deep within the robot can cause significant problems. Some of the resulting malfunctions can be quite noticeable (see the table above), while others are subtler, such as a tendency to add baroque and unnecessary embellishments to constructions and repairs. Reclamation robots with this type of damage are largely unaware of their condition and actively resist efforts to repair them, requiring intervention with a robojack or the like. There are even recorded incidents of damaged reclamators going rogue and setting off on their own to build whatever outlandish structures their flawed processors dictate. Though they were originally designed to create things for humanoids, such rogue robots typically design structures and devices of no apparent use to organic beings... which isn't to say that these creations don't have a place in some unknowable automaton agenda.",
 			"",
-			"**Family:** [Robot](family/robot)"
+			"**Family:** [Robot](family/robot)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"reclamation_robot": { "copyof": "robot_reclamation_robot" },
@@ -5073,7 +5075,7 @@
 			"",
 			"**Str** 16, **Dex** 18, **Con**: 15, **Int** 9, **Wis** 13, **Cha**, 10  ",
 			"**Base Atk** +7; **CMB** +10; **CMD** 24  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack), [Hover](feat/hover)[^B], [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +11, Fly +8, Perception +14, Stealth +14  ",
 			"**Languages** Abyssal",
 			"",
@@ -5097,7 +5099,9 @@
 			"",
 			"Although they can see as well as any human in daylight, sabosan hunt at twilight or after dark when their echolocation-based blindsense ability gives them a great advantage. Sabosan can also use their voices offensively, funneling their screeches into blasts of high-pitched sound capable of deafening other creatures. When hunting en masse or attacking foes, a sabosan employs its fell shriek on adversaries while other sabosan use their massive wings to churn up great clouds of dust and debris, rendering foes deaf and blind.",
 			"",
-			"A sabosan's emaciated frame belies its strength and agility, which are not apparent from its gaunt appearance. Its giant, leathery wings can reach a span of almost 20 feet. Both males and females have red or dark brown fur on their heads, necks, chests, and backs. Sabosan stand just under 6 feet tall and weigh only 150 pounds."
+			"A sabosan's emaciated frame belies its strength and agility, which are not apparent from its gaunt appearance. Its giant, leathery wings can reach a span of almost 20 feet. Both males and females have red or dark brown fur on their heads, necks, chests, and backs. Sabosan stand just under 6 feet tall and weigh only 150 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"sagari": {

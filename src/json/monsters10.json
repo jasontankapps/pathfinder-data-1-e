@@ -317,7 +317,7 @@
 			"",
 			"**Str** 10, **Dex** 21, **Con**: 13, **Int** 2, **Wis** 17, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +5; **CMD** 15 (19 vs. trip)  ",
-			"**Feats** [Go Unnoticed](feat/go_unnoticed), [Mobility](feat/mobility), [Skill Focus (Perception)](feat/skill_focus), [Stealthy](feat/stealthy)  ",
+			"**Feats** [Go Unnoticed](feat/go_unnoticed), [Mobility](feat/mobility)[^B], [Skill Focus (Perception)](feat/skill_focus), [Stealthy](feat/stealthy)[^B]  ",
 			"**Skills** Acrobatics +5 (+17 when jumping), Climb +9, Escape Artist +7, Perception +10, Stealth +19, Survival +3 (+7 when tracking by scent); **Racial Modifiers** +4 Acrobatics when jumping, +4 Survival when tracking by scent  ",
 			"**SQ** fade away",
 			"",
@@ -333,7 +333,9 @@
 			"",
 			"#### Description",
 			"",
-			"\"Smarter than my own children,\" is the common refrain from those nobles who've pitted their hunting skills against the fading fox. Agile, alert, and clever, these handsome beasts find few traps or enclosures they can't escape-and few gardens or larders they can't enter. To aristocratic hunters, they represent the ultimate quarry to track, leaving no footprints, running confusing trails, and easily vanishing from sight, but to the common people of western Taldor, fading foxes have become a surprisingly common and persistent pests they have neither the ability nor the permission to trap."
+			"\"Smarter than my own children,\" is the common refrain from those nobles who've pitted their hunting skills against the fading fox. Agile, alert, and clever, these handsome beasts find few traps or enclosures they can't escape-and few gardens or larders they can't enter. To aristocratic hunters, they represent the ultimate quarry to track, leaving no footprints, running confusing trails, and easily vanishing from sight, but to the common people of western Taldor, fading foxes have become a surprisingly common and persistent pests they have neither the ability nor the permission to trap.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"faerie_mount": {
@@ -367,7 +369,7 @@
 			"",
 			"**Str** 13, **Dex** 10, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 12 (16 vs. bull rush, 20 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Nimble Moves](feat/nimble_moves)  ",
+			"**Feats** [Endurance](feat/endurance), [Nimble Moves](feat/nimble_moves)[^B]  ",
 			"**Skills** Perception +5, Survival +2 (+6 when tracking by scent); **Racial Modifiers** +4 Survival when tracking by scent  ",
 			"**SQ** sure-footed",
 			"",
@@ -389,7 +391,9 @@
 			"",
 			"Faerie mounts grow up to 5 feet long and 3 feet tall, and weigh around 120 pounds.",
 			"",
-			"Tales of the animals' legendary bravery and loyalty inspired Taldan dog breeders to create a breed of similar proportions. These canines make excellent herding dogs, and are found in the central highlands of Taldor, Isger, and Molthune. To reflect the Taldan corgi, use the statistics for a Small dog, remove its racial Acrobatics bonus to jump, and add the faerie mount's stability special ability."
+			"Tales of the animals' legendary bravery and loyalty inspired Taldan dog breeders to create a breed of similar proportions. These canines make excellent herding dogs, and are found in the central highlands of Taldor, Isger, and Molthune. To reflect the Taldan corgi, use the statistics for a Small dog, remove its racial Acrobatics bonus to jump, and add the faerie mount's stability special ability.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"fafnheir": {
@@ -835,7 +839,7 @@
 			"",
 			"**Str** 8, **Dex** 21, **Con**: 10, **Int** 2, **Wis** 13, **Cha**, 3  ",
 			"**Base Atk** +0; **CMB** +3 (+7 grapple); **CMD** 12 (can't be tripped)  ",
-			"**Feats** [Multiattack](feat/multiattack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Multiattack](feat/multiattack)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Escape Artist +15, Stealth +25, Swim +13; **Racial Modifiers** +10 Escape Artist, +8 Stealth",
 			"",
 			"#### Ecology",
@@ -856,7 +860,9 @@
 			"",
 			"Blue-ringed octopuses are aquatic animals capable of a surprising amount of cunning. They cannot survive out of water.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** [Familiar](family/familiar)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"blue-ringed_octopus": { "copyof": "familiar_blue-ringed_octopus" },
@@ -1537,7 +1543,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 8, **Int** 1, **Wis** 12, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Acrobatic](feat/acrobatic), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Acrobatic](feat/acrobatic)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Acrobatics +16 (+12 when jumping), Climb +10, Fly +4; **Racial Modifiers** +12 Acrobatics, +8 Climb  ",
 			"**SQ** glide",
 			"",
@@ -1555,7 +1561,9 @@
 			"",
 			"Although not capable of actual flight, a flying squirrel possesses a furry membrane stretching between its wrists and ankles, allowing it to glide for long distances.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** [Familiar](family/familiar)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"flying_squirrel": { "copyof": "familiar_flying_squirrel" },
@@ -4144,7 +4152,7 @@
 			"",
 			"**Str** 3, **Dex** 12, **Con**: 10, **Int** -, **Wis** 13, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Climb +4  ",
 			"**SQ** seal wound",
 			"",
@@ -4166,7 +4174,9 @@
 			"",
 			"Suture vines are thorny, symbiotic organisms that snag rides on wounded animals, seek out open wounds, and knit those injuries closed-all while absorbing fairly harmless amounts of blood. Local animals often recognize suture vines, both avoiding them as food and seeking them out when wounded. A suture vine that goes without feeding for a week or more sometimes resorts to ambushing small prey.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** [Familiar](family/familiar)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"suture_vine": { "copyof": "familiar_suture_vine" },
@@ -4355,7 +4365,7 @@
 			"",
 			"**Str** 7, **Dex** 15, **Con**: 12, **Int** -, **Wis** 11, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 8  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Perception +4, Swim +10; **Racial Modifiers** +4 Perception  ",
 			"**SQ** curl, water dependency",
 			"",
@@ -4373,7 +4383,9 @@
 			"",
 			"Ancient arthropods adapted to scavenging the ocean floor, trilobites have both resilient exteriors and keen senses honed for use in the lightless depths of the sea, and are known for curling into balls to protect themselves.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** [Familiar](family/familiar)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"trilobite": { "copyof": "familiar_trilobite" },
@@ -5698,7 +5710,7 @@
 			"",
 			"**Str** 17, **Dex** 14, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +6; **CMD** 18 (22 vs. trip)  ",
-			"**Feats** [Intimidating Prowess](feat/intimidating_prowess), [Run](feat/run), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** [Intimidating Prowess](feat/intimidating_prowess), [Run](feat/run)[^B], [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Intimidate +4, Perception +5, Stealth +5  ",
 			"**SQ** docile, smoke resistance",
 			"",
@@ -5724,7 +5736,9 @@
 			"",
 			"Stygian hot-blooded horses stand 5 feet tall at the shoulder and weigh approximately 1,000 pounds.",
 			"",
-			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
+			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"stygian_hot-blooded_horse": { "copyof": "fiend-bred_animal_stygian_hot-blooded_horse" },
@@ -6269,7 +6283,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 13, **Int** -, **Wis** 11, **Cha**, 6  ",
 			"**Base Atk** +3; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Dodge](feat/dodge)  ",
+			"**Feats** [Dodge](feat/dodge)[^B]  ",
 			"**Skills** Acrobatics +0 (+20 when jumping); **Racial Modifiers** +20 Acrobatics when jumping  ",
 			"**SQ** uncanny leap (see [giant flea](monster/giant_flea))",
 			"",
@@ -6285,7 +6299,9 @@
 			"",
 			"#### Description",
 			"",
-			"Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar."
+			"Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"mammoth_flea": { "copyof": "flea_mammoth_flea" },
@@ -7129,7 +7145,7 @@
 			"",
 			"**Str** 24, **Dex** 14, **Con**: 25, **Int** 15, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +11; **CMB** +19; **CMD** 31  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Greater Sunder](feat/greater_sunder), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Quicken Spell-Like Ability (produce flame)](feat/quicken_spell-like_ability) [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Greater Sunder](feat/greater_sunder)[^B], [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder)[^B], [Iron Will](feat/iron_will), [Quicken Spell-Like Ability (produce flame)](feat/quicken_spell-like_ability) [Vital Strike](feat/vital_strike)  ",
 			"**Skills** Acrobatics +16 (+12 when jumping), Climb +21, Craft (traps) +16, Disable Device +16, Knowledge (dungeoneering) +16, Perception +15, Sense Motive +15, Stealth +12  ",
 			"**Languages** Common, Dwarven, Infernal, Terran",
 			"",
@@ -7151,7 +7167,9 @@
 			"",
 			"Scanderigs, more commonly known as \"forgefiends,\" look like large, heavily armored, barrel-shaped giants, with enormous mouths in their bellies in addition to the normal-sized ones in their heads. They are native to the Plane of Earth, but sometimes make their way through subterranean portals onto the Material Plane, where they gorge themselves on rich and relatively uncontested mineral veins. A forgefiend might live quite happily inside a mountain's heart for centuries, only causing trouble when the ore runs out or interlopers attempt to mine its territory.",
 			"",
-			"Forgefiends are particularly feared in many dwarven societies. In addition to their penchant for destroying deep forges, they are often portrayed as boogeymanlike figures for frightening dwarven children and instilling good smithing habits-for it is said, \"For every scrap of slag you waste, a scanderig is making haste. Those who use excessive ore find forgefiends scratching at their door!\""
+			"Forgefiends are particularly feared in many dwarven societies. In addition to their penchant for destroying deep forges, they are often portrayed as boogeymanlike figures for frightening dwarven children and instilling good smithing habits-for it is said, \"For every scrap of slag you waste, a scanderig is making haste. Those who use excessive ore find forgefiends scratching at their door!\"",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"forgefiend": { "copyof": "forgefiend_scanderig" },
@@ -8374,75 +8392,6 @@
 			"An adult frost worm measures 35 feet long and weighs 8,000 pounds."
 		]
 	},
-	"frostfallen_creature_frostfallen_mammoth": {
-		"name": "Frostfallen Creature, Frostfallen Mammoth",
-		"sources": [ "Pathfinder #51: The Hungry Storm" ],
-		"description": [
-			"## Frostfallen Creature, Frostfallen Mammoth",
-			"",
-			"*This frozen mammoth erupts into movement, its bones armored with plates of ice and eyes burning with cold flames.*",
-			"",
-			"### Frostfallen Mammoth, CR 10",
-			"",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 84](source/pathfinder_#51_the_hungry_storm)  ",
-			"**XP** 9,600  ",
-			"NE Huge undead (cold)  ",
-			"**Init** +1; **Senses** darkvision 60 ft., lifesense; Perception +0",
-			"",
-			"#### Defense",
-			"",
-			"**AC** 25, touch 9, flat-footed 26 (+1 Dex, +16 natural, -2 size)  ",
-			"**hp** 91 (14d8+28)  ",
-			"**Fort** +5, **Ref** +5, **Will** +9  ",
-			"**DR** 10/bludgeoning; **Immune** cold, undead traits  ",
-			"**Weaknesses** vulnerable to fire",
-			"",
-			"#### Offense",
-			"",
-			"**Speed** 40 ft.  ",
-			"**Melee** gore +21 (2d8+13 plus 3d6 cold), slam +21 (2d6+13 plus 3d6 cold)  ",
-			"**Space** 15 ft., **Reach** 15 ft.  ",
-			"**Special Attacks** cold",
-			"",
-			"#### Statistics",
-			"",
-			"**Str** 36, **Dex** 12, **Con**: -, **Int** -, **Wis** 10, **Cha**, 12  ",
-			"**Base Atk** +10; **CMB** +25; **CMD** 36 (40 vs. trip)  ",
-			"**Feats** [Toughness](feat/toughness)  ",
-			"**SQ** lifesense",
-			"",
-			"#### Ecology",
-			"",
-			"**Environment** any cold land  ",
-			"**Organization** solitary, pair, or drove (3-12)  ",
-			"**Treasure** none",
-			"",
-			"#### Description",
-			"",
-			"Frostfallen creatures are mindless undead infused with icy cold and animated by a hatred for all living things. Their bodies radiate a devastating chill that cloaks them in patches of ice that act as armor. Frostfallen creatures appear otherwise as they did at the time of their reanimation, except for a cold gleam in the eyes.",
-			"",
-			"### Ecology",
-			"",
-			"In the harshest reaches of the world, cold is an everpresent enemy. When a creature dies from exposure to such harsh conditions, bitter anger and the searing cold sometimes combine to reanimate the dead as one of the frostfallen. Once reanimated, frostfallen creatures prowl the cold lands in which they fell, wreaking indiscriminate vengeance on living creatures out of spiteful rage.",
-			"",
-			"Although frostfallen creatures can be created through necromantic magic like other undead, arcane scholars are fascinated by the necromancy that brings frostfallen creatures to unlife, for the animating force is a synthesis of negative energy and a bone-numbing cold. This cold empowers the creature's attacks, wreathing its natural weapons in a deathly chill. Those who have fought these creatures describe great wounds instantly numbed by the lethal touch of frostbite. In addition, a frostfallen creature's body emanates an aura of cold that flashfreezes moisture in the air around it, coating the creature in a patchwork of ice capable of deflecting blows from even the heaviest weapons. The creature's affinity for cold also allows it to locate nearby warm-blooded creatures, even in driving blizzards and on moonless nights.",
-			"",
-			"Frostfallen creatures move with the same gaits they had in life, while gaining a savage surge in physical power. Additionally, unlike normal zombies, the frozen condition of the creature fortifies its unlife, making it extremely durable. Indeed, throughout the northern reaches of Avistan, legends persist of specific frostfallen mammoths, dire bears, and even giants that have hunted the Crown of the World for centuries.",
-			"",
-			"### Habitat",
-			"",
-			"The corrupt animus that powers frostfallen creatures imbues them with a hatred of all living things, and most spend their time wandering wintry terrains near where they died, looking for life to snuff out. Sometimes, vestiges of behavior from their original forms lead to groups banding together, like frostfallen wolves that hunt in packs. Even those frostfallen that have never encountered others of their kind seem to instinctively recognize their own, and band together if prey is nearby.",
-			"",
-			"In Irrisen, winter witches and other ice casters prefer creating frostfallen creatures, as such creatures' bodies more readily withstand the decay and brittleness often faced by skeletons and zombies in harsh northern climes. Casters who create frostfallen creatures often use minor magic to emblazon a creature's ice armor with carvings or specific colors, effectively branding the creature as a servant.",
-			"",
-			"On rare occasions, casters will create frostfallen creatures in warmer regions like the Mwangi Expanse or the deserts of Thuvia. Despite the scorching heat of such places, frostfallen creatures retain all of their powers. In such cases, the undead's creator normally employs her minions against creatures that are susceptible to the frostfallen creature's freezing attacks. Some frostfallen creatures have even survived independent of their creators. When such a rarity comes to pass, the frostfallen creature simply begins hunting the region for fresh life to end, though it will often lie in wait in cooler places like deep caves, or under the water of an oasis so as to better ambush creatures and travelers who would never expect to see a frostfallen creature so far south.",
-			"",
-			"### Animating a Frostfallen Creature",
-			"",
-			"A magic-user can create any form of frostfallen creature by casting animate dead upon the corpse to be animated and providing an amount of ice of equal weight, plus two blue topazes or turquoises worth at least 100 gp each. The creator can only create a number of Hit Dice of frostfallen creatures equal to the amount allowed by animate dead. Frostfallen creatures count against the number of Hit Dice of skeletons and zombies that can be created using animate dead."
-		]
-	},
-	"frostfallen_mammoth": { "copyof": "frostfallen_creature_frostfallen_mammoth" },
 	"fuldrex": {
 		"name": "Fuldrex",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],

@@ -712,12 +712,14 @@
 			"",
 			"**Str** 21, **Dex** 10, **Con**: -, **Int** -, **Wis** 10, **Cha**, 10  ",
 			"**Base Atk** +3; **CMB** +9; **CMD** 19  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**Gear** half-plate, greatclub",
 			"",
 			"#### Description",
 			"",
-			"Armored skeletons are normal skeletons given heavier varieties of armor and weapons to serve as elite troops in undead armies."
+			"Armored skeletons are normal skeletons given heavier varieties of armor and weapons to serve as elite troops in undead armies.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"armored_ogre_skeleton": { "copyof": "skeleton_armored_ogre_skeleton" },
@@ -755,12 +757,14 @@
 			"",
 			"**Str** 15, **Dex** 16, **Con**: -, **Int** -, **Wis** 10, **Cha**, 10  ",
 			"**Base Atk** +0; **CMB** +2; **CMD** 15  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Multiweapon Fighting](feat/multiweapon_fighting), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Multiweapon Fighting](feat/multiweapon_fighting)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Gear** 4 short swords",
 			"",
 			"#### Description",
 			"",
-			"Sometimes called \"whirlwind skeletons,\" a mudra skeleton's Dexterity increases by +4 (instead of +2), and it gains Multiweapon Fighting and Weapon Finesse as bonus feats."
+			"Sometimes called \"whirlwind skeletons,\" a mudra skeleton's Dexterity increases by +4 (instead of +2), and it gains Multiweapon Fighting and Weapon Finesse as bonus feats.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"four-armed_mudra_skeleton": { "copyof": "skeleton_four-armed_mudra_skeleton" },
@@ -798,7 +802,7 @@
 			"",
 			"**Str** 32, **Dex** 15, **Con**: -, **Int** -, **Wis** 10, **Cha**, 10  ",
 			"**Base Atk** +13; **CMB** +28; **CMD** 40  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**SQ** multiplication, powerful bite",
 			"",
 			"#### Special Abilities",
@@ -809,7 +813,9 @@
 			"",
 			"#### Description",
 			"",
-			"A multiplying skeleton reassembles itself into smaller skeletons when it is destroyed. As these smaller skeletons are themselves destroyed, they continue to multiply into even more skeletons. Once the skeleton's Hit Dice can no longer be halved or the resulting skeletons would be Tiny or smaller, the skeletons are finally destroyed. Multiplying skeletons can be created using animate dead, but they count as twice their normal number of Hit Dice per casting."
+			"A multiplying skeleton reassembles itself into smaller skeletons when it is destroyed. As these smaller skeletons are themselves destroyed, they continue to multiply into even more skeletons. Once the skeleton's Hit Dice can no longer be halved or the resulting skeletons would be Tiny or smaller, the skeletons are finally destroyed. Multiplying skeletons can be created using animate dead, but they count as twice their normal number of Hit Dice per casting.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"multiplying_t-rex_skeleton": { "copyof": "skeleton_multiplying_t-rex_skeleton" },
@@ -856,7 +862,7 @@
 			"",
 			"**Str** 12, **Dex** 15, **Con**: -, **Int** 16, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 15  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Command Undead](feat/command_undead), [Improved Initiative](feat/improved_initiative), [Scribe Scroll](feat/scribe_scroll), [Silent Spell](feat/silent_spell), [Spell Focus (necromancy)](feat/spell_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Command Undead](feat/command_undead), [Improved Initiative](feat/improved_initiative)[^B], [Scribe Scroll](feat/scribe_scroll), [Silent Spell](feat/silent_spell)[^B], [Spell Focus (necromancy)](feat/spell_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Intimidate +8, Knowledge (arcana) +11, Knowledge (religion) +11, Perception +8, Sense Motive +9, Spellcraft +11, Stealth +10  ",
 			"**Languages** Abyssal, Common, Draconic, Undercommon  ",
 			"**SQ** arcane bond (skull)",
@@ -869,7 +875,9 @@
 			"",
 			"#### Description",
 			"",
-			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant skeletal champions gain Silent Spell as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead-they only arise under rare conditions or through ancient, esoteric rituals."
+			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant skeletal champions gain Silent Spell as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead-they only arise under rare conditions or through ancient, esoteric rituals.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"skeletal_mage": { "copyof": "skeleton_skeletal_mage" },
@@ -907,12 +915,14 @@
 			"",
 			"**Str** 20, **Dex** 20, **Con**: -, **Int** -, **Wis** 10, **Cha**, 10  ",
 			"**Base Atk** +1; **CMB** +7; **CMD** 22 (26 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**Gear** broken chain shirt barding",
 			"",
 			"#### Description",
 			"",
-			"Skeletal mounts are normal skeletons made from combat-trained heavy horses. They often serve as mounts for necromancers or skeletal champions."
+			"Skeletal mounts are normal skeletons made from combat-trained heavy horses. They often serve as mounts for necromancers or skeletal champions.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"skeletal_mount": { "copyof": "skeleton_skeletal_mount" },
@@ -2350,7 +2360,7 @@
 			"",
 			"**Str** 10, **Dex** 15, **Con**: 14, **Int** 1, **Wis** 15, **Cha**, 2  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 14 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +10, Climb +10, Perception +10, Stealth +14, Swim +10; **Racial Modifiers** +8 Acrobatics, +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -2365,7 +2375,9 @@
 			"",
 			"#### Description",
 			"",
-			"An asp is a type of cobra native to Osirion and northern Garund. It ranges from 4 to 6 feet in length and has brownish scales with dark mottling."
+			"An asp is a type of cobra native to Osirion and northern Garund. It ranges from 4 to 6 feet in length and has brownish scales with dark mottling.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"asp": { "copyof": "snake_asp" },
@@ -2544,7 +2556,7 @@
 			"",
 			"**Str** 8, **Dex** 13, **Con**: 14, **Int** 1, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +1; **CMB** +0; **CMD** 11 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +9, Climb +9, Perception +9, Stealth +9, Swim +9; **Racial Modifiers** +4 Perception, +4 Stealth, +8 Acrobatics",
 			"",
 			"#### Ecology",
@@ -2561,7 +2573,9 @@
 			"",
 			"Countless species of poisonous snakes dwell in the wild, their bites capable of bringing down creatures much larger than themselves. Snakes of the size presented here are thankfully rarer than their smaller kin, but many species of rattlesnake, cobra, and similar reptiles can grow to this size.",
 			"",
-			"Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above."
+			"Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"venomous_snake": { "copyof": "snake_venomous_snake" },
@@ -4356,7 +4370,7 @@
 			"",
 			"**Str** 5, **Dex** 15, **Con**: 10, **Int** -, **Wis** 10, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 7  ",
-			"**Feats** [Lunge](feat/lunge), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Lunge](feat/lunge)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Climb +5  ",
 			"**SQ** compression, water skating",
 			"",
@@ -4376,7 +4390,9 @@
 			"",
 			"Already a tiny creature, the drain spider has the ability to compress its legs and body even further, allowing it to lurk in pipes, niches, and (its favorite hideout) sink or tub drains with ease. The sewers below Korvosa are infested with drain spiders in certain places. In the wild, drain spiders prefer to hunt in swamps or along river banks, but they have adapted readily to urban life in Korvosa and now infest numerous nooks and crannies in the city's lower-class quarters, particularly along the waterfronts.",
 			"",
-			"A variant of the drain spider, known as the shingle spider, exists in Korvosa as well. Shingle spiders dwell in the upper reaches of the city, particularly enjoying the chimneys and gutters of abandoned buildings as a place to make their nests. Shingle spiders retain the drain spider's water skating ability, although they rarely have the opportunity to use it."
+			"A variant of the drain spider, known as the shingle spider, exists in Korvosa as well. Shingle spiders dwell in the upper reaches of the city, particularly enjoying the chimneys and gutters of abandoned buildings as a place to make their nests. Shingle spiders retain the drain spider's water skating ability, although they rarely have the opportunity to use it.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"drain_spider": { "copyof": "spider_drain_spider" },
@@ -4856,7 +4872,7 @@
 			"",
 			"**Str** 3, **Dex** 21, **Con**: 10, **Int** -, **Wis** 10, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +3; **CMD** 9 (21 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +13, Climb +21, Perception +4, Stealth +17; **Racial Modifiers** +8 Acrobatics, +8 Climb, +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -4873,7 +4889,9 @@
 			"",
 			"Scarlet spiders are small arachnids with bright red bodies and black legs. Because they are hunting spiders, scarlet spiders don't have a web attack.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** [Familiar](family/familiar)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"scarlet_spider": { "copyof": "spider_scarlet_spider" },

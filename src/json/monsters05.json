@@ -36,7 +36,7 @@
 			"",
 			"**Str** 15, **Dex** 15, **Con**: 12, **Int** 12, **Wis** 14, **Cha**, 16  ",
 			"**Base Atk** +6; **CMB** +7; **CMD** 19  ",
-			"**Feats** [Extra Performance](feat/extra_performance), [Point-Blank Shot](feat/point-blank_shot), [Skill Focus](feat/skill_focus) (Perform [oratory]), [Skill Focus](feat/skill_focus) (Perform [act]), [Spellsong](feat/spellsong), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** [Extra Performance](feat/extra_performance), [Point-Blank Shot](feat/point-blank_shot), [Skill Focus](feat/skill_focus) (Perform [oratory]), [Skill Focus](feat/skill_focus) (Perform [act]), [Spellsong](feat/spellsong), [Throw Anything](feat/throw_anything)[^B]  ",
 			"**Skills** Acrobatics +11, Appraise +5, Climb +14, Intimidate +8, Knowledge (geography) +8, Knowledge (history) +8, Knowledge (local) +8, Linguistics +6, Perception +10, Perform (act) +17, Perform (dance) +10, Perform (oratory) +17, Sleight of Hand +7, Spellcraft +8, Stealth +13, Use Magic Device +7; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Abyssal, Common, Kelish, Polyglot, Vanaran  ",
 			"**SQ** bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)  ",
@@ -50,7 +50,9 @@
 			"",
 			"Devious and aggressive, charau-ka range farther across the Inner Sea than anyone truly expects. Their jungle tricksters-masters of stealth, deception, and disguise-roam freely, if sparsely, in the shadows of the world, or boldly stride through cities cloaked in makeup or glamers. Across Garund they often pose as common apes, but they sometimes travel abroad in the guise of exotic pets of obedient human slaves or use illusions to pose as halflings or human children. Between Jalmeray and Vudra, resourceful apes pose as playful vanaras as well.",
 			"",
-			"Some tricksters act as the eyes and ears of Usaro, but many serve as thieves-gathering magic and wealth to sate Ruthazek-or as saboteurs undermining enemies of the state or arranging bloody massacres for Angazhan's glory. They pose as guides or playful apes to lead adventurers and travelers into the jungles' many hazards."
+			"Some tricksters act as the eyes and ears of Usaro, but many serve as thieves-gathering magic and wealth to sate Ruthazek-or as saboteurs undermining enemies of the state or arranging bloody massacres for Angazhan's glory. They pose as guides or playful apes to lead adventurers and travelers into the jungles' many hazards.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"jungle_trickster": { "copyof": "charau-ka_jungle_trickster" },
@@ -89,7 +91,7 @@
 			"",
 			"**Str** 15, **Dex** 18, **Con**: 16, **Int** 10, **Wis** 16, **Cha**, 9  ",
 			"**Base Atk** +6; **CMB** +7; **CMD** 23  ",
-			"**Feats** [Dodge](feat/dodge), [Gunsmithing](feat/gunsmithing), [Mobility](feat/mobility), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Shot on the Run](feat/shot_on_the_run), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** [Dodge](feat/dodge), [Gunsmithing](feat/gunsmithing), [Mobility](feat/mobility), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Shot on the Run](feat/shot_on_the_run), [Throw Anything](feat/throw_anything)[^B]  ",
 			"**Skills** Acrobatics +10, Bluff +4, Climb +13, Intimidate +4, Perception +11, Sleight of Hand +8, Stealth +12, Survival +11; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Abyssal, Polyglot  ",
 			"**SQ** deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith  ",
@@ -103,7 +105,9 @@
 			"",
 			"A decade ago, intent on impressing the Gorilla King, a tribe of charau-ka crossed the Brazen Peaks and raided Alkenstar's Dongun Hold, a dwarven citadel loaded with the Grand Duchy's prized firearms. They suffered severe casualties but absconded with scores of guns. Ruthazek then handpicked several dozen promising ape-men to master the weapons, creating an elite caste of assassins, monster wranglers, and bounty hunters. Many warriors managed to survive this unorthodox training and now wander the jungle at Ruthazek's command, eliminating Usaro's enemies, retrieving fugitive slaves, and stocking the beast pits. The Gorilla King takes a special joy in sending his technological marvels to eliminate mages and healers.",
 			"",
-			"Rather than confronting foes directly, sharpshooters take aim from above, disappearing into the wilderness long before victims can muster a counterattack. They show no remorse and chase wounded targets through the jungle for miles with relentless determination. Priests of Angazhan instilled a strong sense of survival in these sharpshooters, who show surprising restraint for charau-ka. The telltale frenzy of their kin surfaces only when enemies draw close to these gunslingers, and several have broken their muskets bludgeoning foes to death, only to suffer horrible reprimands for their carelessness. Those who keep their rage tempered travel far beyond the borders of the Gorilla King's realm, searching Golarion for anything their sovereign requires. Loyal to the very core, these charau-ka never reveal what they seek until it lies within their sights."
+			"Rather than confronting foes directly, sharpshooters take aim from above, disappearing into the wilderness long before victims can muster a counterattack. They show no remorse and chase wounded targets through the jungle for miles with relentless determination. Priests of Angazhan instilled a strong sense of survival in these sharpshooters, who show surprising restraint for charau-ka. The telltale frenzy of their kin surfaces only when enemies draw close to these gunslingers, and several have broken their muskets bludgeoning foes to death, only to suffer horrible reprimands for their carelessness. Those who keep their rage tempered travel far beyond the borders of the Gorilla King's realm, searching Golarion for anything their sovereign requires. Loyal to the very core, these charau-ka never reveal what they seek until it lies within their sights.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"simian_sharpshooter": { "copyof": "charau-ka_simian_sharpshooter" },
@@ -1666,7 +1670,7 @@
 			"",
 			"**Str** 32, **Dex** 11, **Con**: 21, **Int** 16, **Wis** 21, **Cha**, 14  ",
 			"**Base Atk** +10; **CMB** +25 (+27 bull rush); **CMD** 35 (37 vs. bull rush, can't be tripped)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials), [Extend Spell](feat/extend_spell), [Improved Bull Rush](feat/improved_bull_rush), [Intimidating Prowess](feat/intimidating_prowess), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials)[^B], [Extend Spell](feat/extend_spell), [Improved Bull Rush](feat/improved_bull_rush), [Intimidating Prowess](feat/intimidating_prowess), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
 			"**Skills** Climb +16, Diplomacy +16, Intimidate +30, Knowledge (religion) +20, Perception +22, Sense Motive +19, Spellcraft +20, Survival +22  ",
 			"**Languages** Aklo, Common, Infernal; telepathy 100 ft.  ",
 			"**SQ** alien vestment",
@@ -1703,7 +1707,9 @@
 			"",
 			"Unlike most races of the Dominion, chyzaedu have a keen interest in Golarion and make occasional expeditions to the planet. Chyzaedu share a myth similar to the Casmar legend of the Star-Worm-it tells of an interstellar monster that crashed on Golarion eons ago and gave birth to the first purple worms. Chyzaedu track and study purple worms and their variants (in particular, the colossal crimson worms of the Storval Plateau). Some chyzaedu view purple worms as enlightened brutes, devoid of intellect but wholly overwhelmed by the religious fervor of consumption. Other chyzaedu see purple worms as little more than breeding stock, but hope to use them to enhance future generations of their race. The worm-priests find the diverse panoply of deities worshipped on Golarion to be confusing and unnecessary, and are particularly offended by the worship of Rovagug-the Rough Beast's theology of destruction wholly devoid of purpose smacks of apostasy.",
 			"",
-			"Chyzaedu measure of 60 feet in length on average and weigh approximately 5,000 pounds."
+			"Chyzaedu measure of 60 feet in length on average and weigh approximately 5,000 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"cicada_cicada_swarm": {
@@ -1989,7 +1995,7 @@
 			"",
 			"**Str** 7, **Dex** 17, **Con**: 10, **Int** 2, **Wis** 14, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** -1; **CMD** 12  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Fly +5, Stealth +12",
 			"",
 			"#### Ecology",
@@ -2008,7 +2014,9 @@
 			"",
 			"Clawbats, or einchadu, as they're known to the tribes of greater Iobaria, haunt the desolate expanses of northeastern Avistan and the rugged lands beyond. Swarming forth from their shadowy dens to hunt by night, these strange predators thirst for blood, scavenging from the victims of greater nocturnal hunters and stalking those foolish enough not to fear dangers in the dark. Drawn by the scent of spilled blood, clawbats fearlessly follow deadly beasts, and more than one traveler has narrowly escaped a predator's nearly lethal ambush only to find his luck change as a swarm of wings and eyes descend upon him.",
 			"",
-			"The span of an average clawbat's dual pairs of wings stretches 3 feet wide, lifting aloft rubbery bodies weighing 2 to 4 pounds. Tales of more monstrous clawbats, with wings that blot out the stars as they swoop away with children and small animals, also pass through the civilized lands of Iobaria. Such overgrown clawbats might be constructed by making use of the giant creature simple template."
+			"The span of an average clawbat's dual pairs of wings stretches 3 feet wide, lifting aloft rubbery bodies weighing 2 to 4 pounds. Tales of more monstrous clawbats, with wings that blot out the stars as they swoop away with children and small animals, also pass through the civilized lands of Iobaria. Such overgrown clawbats might be constructed by making use of the giant creature simple template.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"cloaker": {
@@ -2262,7 +2270,7 @@
 			"",
 			"**Str** 34, **Dex** 19, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +25; **CMB** +39; **CMD** 55 (59 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**Skills** Fly +8, Perception +8, Swim +20; **Racial Modifiers** +8 Fly, +8 Perception  ",
 			"**SQ** difficult to create, efficient winding, swift reactions",
 			"",
@@ -2312,7 +2320,9 @@
 			"",
 			"**CL** 18th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, geas/quest, and limited wish, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; **Cost** 162,500 gp"
+			"**Requirements** Craft Construct, animate objects, geas/quest, and limited wish, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; **Cost** 162,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_dragon": { "copyof": "clockwork_clockwork_dragon" },
@@ -2354,7 +2364,7 @@
 			"",
 			"**Str** 30, **Dex** 8, **Con**: -, **Int** -, **Wis** 11, **Cha**, 7  ",
 			"**Base Atk** +13; **CMB** +25; **CMD** 36  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, superior craftsmanship, swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -2403,7 +2413,9 @@
 			"",
 			"**CL** 10th; **Price** 140,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, fabricate, geas/quest, locate object, shatter, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 80,000 gp"
+			"**Requirements** Craft Construct, animate objects, fabricate, geas/quest, locate object, shatter, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 80,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_excavator": { "copyof": "clockwork_clockwork_excavator" },
@@ -2593,7 +2605,7 @@
 			"",
 			"**Str** 20, **Dex** 14, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +4; **CMB** +8; **CMD** 22  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, swift reactions, unstable creation, winding",
 			"",
 			"#### Ecology",
@@ -2622,7 +2634,9 @@
 			"",
 			"**CL** 12th; **Price** 9,250 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [burning hands](spell/burning_hands), [geas/quest](spell/geas_quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [burning hands](spell/burning_hands), [geas/quest](spell/geas_quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_goblin": { "copyof": "clockwork_clockwork_goblin" },
@@ -2664,7 +2678,7 @@
 			"",
 			"**Str** 45, **Dex** 20, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +28; **CMB** +49; **CMD** 66  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -2693,7 +2707,9 @@
 			"",
 			"**CL** 18th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, [Gunsmithing](feat/gunsmithing), animate objects, geas/quest, and limited wish, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 160,000 gp"
+			"**Requirements** Craft Construct, [Gunsmithing](feat/gunsmithing), animate objects, geas/quest, and limited wish, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 160,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_goliath": { "copyof": "clockwork_clockwork_goliath" },
@@ -2804,7 +2820,7 @@
 			"",
 			"**Str** 20, **Dex** 16, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +9; **CMB** +14; **CMD** 29  ",
-			"**Feats** [Deadly Aim](feat/deadly_aim), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** [Deadly Aim](feat/deadly_aim)[^B], [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B], [Point-Blank Shot](feat/point-blank_shot)[^B], [Precise Shot](feat/precise_shot)[^B]  ",
 			"**SQ** difficult to create, integrated clockwork pistol, swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -2835,7 +2851,9 @@
 			"",
 			"**CL** 12th; **Price** 40,250 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [Exotic Weapon Proficiency (pistol)](feat/exotic_weapon_proficiency), [haste](spell/haste), [geas/quest](spell/geas_quest), [slow](spell/slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [Exotic Weapon Proficiency (pistol)](feat/exotic_weapon_proficiency), [haste](spell/haste), [geas/quest](spell/geas_quest), [slow](spell/slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_gunslinger": { "copyof": "clockwork_clockwork_gunslinger" },
@@ -2951,7 +2969,7 @@
 			"",
 			"**Str** 33, **Dex** 18, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +16; **CMB** +29 (+33 grapple); **CMD** 45 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**Skills** Stealth +8 (+12 in water), Swim +19; **Racial Modifiers** +12 Stealth (+16 in water)  ",
 			"**SQ** swift reactions, winding",
 			"",
@@ -2985,7 +3003,9 @@
 			"",
 			"**CL** 12th; **Price** 130,000 gp",
 			"",
-			"**Requirements** Craft Construct, freedom of movement, geas/quest, heat metal, and limited wish, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 70,000 gp"
+			"**Requirements** Craft Construct, freedom of movement, geas/quest, heat metal, and limited wish, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 70,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_leviathan": { "copyof": "clockwork_clockwork_leviathan" },
@@ -3026,7 +3046,7 @@
 			"",
 			"**Str** 16, **Dex** 21, **Con**: -, **Int** -, **Wis** 14, **Cha**, 1  ",
 			"**Base Atk** +15; **CMB** +18; **CMD** 35  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -3061,7 +3081,9 @@
 			"",
 			"**CL** 12th; **Price** 84,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, and mnemonic enhancer, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 43,000 gp"
+			"**Requirements** Craft Construct, geas/quest, and mnemonic enhancer, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 43,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_mage": { "copyof": "clockwork_clockwork_mage" },
@@ -3103,7 +3125,7 @@
 			"",
 			"**Str** 31, **Dex** 20, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +22; **CMB** +34 (+38 grapple); **CMD** 49 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**Skills** Perception +8, Swim +18; **Racial Modifiers** +8 Perception  ",
 			"**SQ** enhanced senses, swift reactions, winding",
 			"",
@@ -3161,7 +3183,9 @@
 			"",
 			"**CL** 14th; **Price** 200,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [true seeing](spell/true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [true seeing](spell/true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_nautiloid": { "copyof": "clockwork_clockwork_nautiloid" },
@@ -3203,7 +3227,7 @@
 			"",
 			"**Str** 19, **Dex** 14, **Con**: -, **Int** -, **Wis** 13, **Cha**, 1  ",
 			"**Base Atk** +10; **CMB** +15; **CMD** 29  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**Skills** Climb +12  ",
 			"**SQ** swift reactions, tactical calculus, winding",
 			"",
@@ -3255,7 +3279,9 @@
 			"",
 			"**CL** 12th; **Price** 42,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest) and [haste](spell/haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest) and [haste](spell/haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_overseer": { "copyof": "clockwork_clockwork_overseer" },
@@ -3300,7 +3326,7 @@
 			"",
 			"**Str** 17, **Dex** 22, **Con**: -, **Int** -, **Wis** 18, **Cha**, 1  ",
 			"**Base Atk** +18; **CMB** +21; **CMD** 39  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -3327,7 +3353,9 @@
 			"",
 			"**CL** 12th; **Price** 95,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_priest": { "copyof": "clockwork_clockwork_priest" },
@@ -3367,7 +3395,7 @@
 			"",
 			"**Str** 19, **Dex** 14, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +2; **CMB** +6; **CMD** 20  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** repair clockwork, swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -3398,7 +3426,9 @@
 			"",
 			"**CL** 12th; **Price** 7,500 gp (13,500 for an intelligent servant)",
 			"",
-			"**Requirements** Craft Construct, geas/quest and make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)"
+			"**Requirements** Craft Construct, geas/quest and make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_servant": { "copyof": "clockwork_clockwork_servant" },
@@ -3439,7 +3469,7 @@
 			"",
 			"**Str** 24, **Dex** 17, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +13; **CMB** +21; **CMD** 36 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B], [Two-Weapon Fighting](feat/two-weapon_fighting)[^B]  ",
 			"**Skills** Climb +23  ",
 			"**SQ** swift reactions, undersized weapons, winding",
 			"",
@@ -3469,7 +3499,9 @@
 			"",
 			"**CL** 12th; **Price** 100,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, freedom of movement, geas/quest, and poison, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 50,000 gp"
+			"**Requirements** Craft Construct, animate objects, freedom of movement, geas/quest, and poison, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 50,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_snail": { "copyof": "clockwork_clockwork_snail" },
@@ -3509,7 +3541,7 @@
 			"",
 			"**Str** 28, **Dex** 15, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +8; **CMB** +17 (+19 disarm); **CMD** 31 (33 vs. disarm)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** efficient winding, proficient, standby, swift reactions",
 			"",
 			"#### Ecology",
@@ -3542,7 +3574,9 @@
 			"",
 			"**CL** 12th; **Price** 37,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest and heroism, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 19,000 gp"
+			"**Requirements** Craft Construct, geas/quest and heroism, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 19,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_soldier": { "copyof": "clockwork_clockwork_soldier" },
@@ -3727,7 +3761,7 @@
 			"",
 			"**Str** 24, **Dex** 13, **Con**: -, **Int** -, **Wis** 10, **Cha**, 1  ",
 			"**Base Atk** +8; **CMB** +16; **CMD** 29 (33 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, swift reactions, winding",
 			"",
 			"#### Ecology",
@@ -3758,7 +3792,9 @@
 			"",
 			"**CL** 12th; **Price** 29,000 gp (33,500 for a clockwork charger)",
 			"",
-			"**Requirements** Craft Construct, bull's strength, geas/quest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)"
+			"**Requirements** Craft Construct, bull's strength, geas/quest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_steed": { "copyof": "clockwork_clockwork_steed" },
@@ -3799,7 +3835,7 @@
 			"",
 			"**Str** 28, **Dex** 15, **Con**: -, **Int** -, **Wis** 9, **Cha**, 1  ",
 			"**Base Atk** +13; **CMB** +22 (+26 grapple); **CMD** 36  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, efficient winding, standby, swift reactions",
 			"",
 			"#### Ecology",
@@ -3846,7 +3882,9 @@
 			"",
 			"**CL** 10th; **Price** 80,000 gp",
 			"",
-			"**Requirements** Craft Construct, contact other plane, geas/quest, limited wish, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 44,250 gp"
+			"**Requirements** Craft Construct, contact other plane, geas/quest, limited wish, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 44,250 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"clockwork_vivisectionist": { "copyof": "clockwork_clockwork_vivisectionist" },
@@ -3888,7 +3926,7 @@
 			"",
 			"**Str** 6, **Dex** 14, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 11  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, swift reflexes, winding",
 			"",
 			"#### Description",
@@ -3917,7 +3955,9 @@
 			"",
 			"**Mechanical Marid:** A mechanical marid is quick but tends to be erratic. It loses the burn ability, but gains a swim speed of 30 feet and Swim skill of +6. Its base speed increases to 40 feet, and it gains a +2 bonus on attack and damage rolls against creatures in or touching water. Its construction requires haste in place of fireball.",
 			"",
-			"**Mechanical Shaitan:** A mechanical shaitan loses the burn ability, but gains an additional slam attack and a +4 bonus to Strength. Creation of a mechanical shaitan requires stone shape in place of fireball."
+			"**Mechanical Shaitan:** A mechanical shaitan loses the burn ability, but gains an additional slam attack and a +4 bonus to Strength. Creation of a mechanical shaitan requires stone shape in place of fireball.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"mechanical_efreeti": { "copyof": "clockwork_mechanical_efreeti" },
@@ -3959,7 +3999,7 @@
 			"",
 			"**Str** 18, **Dex** 9, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 21  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**SQ** difficult to create, discorporate, swift reactions, winding",
 			"",
 			"#### Special Abilities",
@@ -3980,7 +4020,9 @@
 			"",
 			"**CL** 7th; **Price** 16,000 gp",
 			"",
-			"**Requirements** Craft Construct, lesser geas, false life, minor creation, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; **Cost** 8,500 gp"
+			"**Requirements** Craft Construct, lesser geas, false life, minor creation, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; **Cost** 8,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"toy_golem": { "copyof": "clockwork_toy_golem" },
@@ -5227,7 +5269,7 @@
 			"",
 			"**Str** 20, **Dex** 16, **Con**: 20, **Int** 17, **Wis** 19, **Cha**, 17  ",
 			"**Base Atk** +12; **CMB** +18 (+22 grapple); **CMD** 32 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Empower Spell](feat/empower_spell), [Eschew Materials](feat/eschew_materials), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Empower Spell](feat/empower_spell), [Eschew Materials](feat/eschew_materials)[^B], [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes)  ",
 			"**Skills** Acrobatics +18, Bluff +9, Diplomacy +18, Fly +20, Knowledge (arcana) +9, Knowledge (religion) +12, Perception +23, Sense Motive +15, Spellcraft +15, Survival +16, Use Magic Device +18  ",
 			"**Languages** Celestial, Common, Draconic; telepathy 100 ft.",
 			"",
@@ -5251,7 +5293,9 @@
 			"",
 			"As they would rather spend their time promoting their agenda than hunting, couatls appreciate offers of food, particularly small boars and large game fowl.",
 			"",
-			"A couatl sometimes shows its favor to an adventurer or party that has done it a service by gifting the group with 1d4 of its brightly colored feathers. Such a freely given feather, if used as an additional material component, allows a spellcaster to cast planar ally to conjure that specific couatl without expending the typical payment of gold or other valuables-provided the the couatl approves of the service asked for by the spellcaster."
+			"A couatl sometimes shows its favor to an adventurer or party that has done it a service by gifting the group with 1d4 of its brightly colored feathers. Such a freely given feather, if used as an additional material component, allows a spellcaster to cast planar ally to conjure that specific couatl without expending the typical payment of gold or other valuables-provided the the couatl approves of the service asked for by the spellcaster.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"couatl_auwaz_couatl": {
@@ -5290,7 +5334,7 @@
 			"",
 			"**Str** 16, **Dex** 18, **Con**: 17, **Int** 15, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +8; **CMB** +11 (+15 grapple); **CMD** 25 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Eschew Materials](feat/eschew_materials), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Alertness](feat/alertness), [Eschew Materials](feat/eschew_materials)[^B], [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Bluff +14, Diplomacy +14, Fly +19, Knowledge (geography) +13, Knowledge (local) +13, Perception +15, Sense Motive +15, Survival +13  ",
 			"**Languages** Celestial, Common, Draconic; telepathy 100 ft.  ",
 			"**SQ** gift of the sea",
@@ -5327,7 +5371,9 @@
 			"",
 			"As they are generally good-natured and curious, many auwaz couatls take time to speak with any travelers they find, often flying above ships and conversing with those on board. These conversations usually involve current events, as auwaz couatls prefer to keep updated so as to not send travelers to dangerous locales, but they can also include artistic and philosophical discussions. Some auwaz couatls are quite fond of humorous stories and like to spend hours telling such tales, especially if there are children among the travelers. The sight of an auwaz couatl above a ship serves as a signal to others that the ship is protected, so many ships fly kites in the shape of auwaz couatls in hopes of giving marauders pause.",
 			"",
-			"Auwaz couatls are particularly fond of children, as they find kinship in their innocence. They are more than happy to comfort distressed children and guide them home. In particularly dire situations, or ones where a child may be too far from home to safely travel, an auwaz couatl will carry the child on its back and fly it to safety. An auwaz couatl typically has a different approach with children who have run away from home; the auwaz couatl takes time to speak with the child and learn her reasons for running away. In some cases, the child seeks to escape a troubled life and the auwaz couatl helps guide the child to a new home. In other cases, the auwaz couatl convinces the child to return home but encourages her to cultivate the wanderlust in her heart. Such children tend to grow into adventurers and travel the world years later."
+			"Auwaz couatls are particularly fond of children, as they find kinship in their innocence. They are more than happy to comfort distressed children and guide them home. In particularly dire situations, or ones where a child may be too far from home to safely travel, an auwaz couatl will carry the child on its back and fly it to safety. An auwaz couatl typically has a different approach with children who have run away from home; the auwaz couatl takes time to speak with the child and learn her reasons for running away. In some cases, the child seeks to escape a troubled life and the auwaz couatl helps guide the child to a new home. In other cases, the auwaz couatl convinces the child to return home but encourages her to cultivate the wanderlust in her heart. Such children tend to grow into adventurers and travel the world years later.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"auwaz_couatl": { "copyof": "couatl_auwaz_couatl" },
@@ -5380,7 +5426,7 @@
 			"",
 			"**Str** 30, **Dex** 20, **Con**: 25, **Int** 18, **Wis** 29, **Cha**, 27  ",
 			"**Base Atk** +20; **CMB** +32 (+36 grapple); **CMD** 48 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Empower Spell](feat/empower_spell), [Eschew Materials](feat/eschew_materials), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Natural Spell](feat/natural_spell), [Spell Penetration](feat/spell_penetration), [Widen Spell](feat/widen_spell), [Wingover](feat/wingover)  ",
+			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Empower Spell](feat/empower_spell), [Eschew Materials](feat/eschew_materials)[^B], [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Natural Spell](feat/natural_spell), [Spell Penetration](feat/spell_penetration), [Widen Spell](feat/widen_spell), [Wingover](feat/wingover)  ",
 			"**Skills** Bluff +31, Fly +20, Intimidate +31, Knowledge (geography) +27, Knowledge (nature) +27, Perception +36, Sense Motive +36, Spellcraft +24, Stealth +20, Survival +32  ",
 			"**Languages** Celestial, Common, Draconic, Druidic; telepathy 100 ft.  ",
 			"**SQ** natural form, wild empathy +32",
@@ -5417,7 +5463,9 @@
 			"",
 			"Chicomes are strictly solitary creatures who dwell in the lands that need their help. While they are purifying a particular region, chicomes periodically take flight to survey the area and determine whether their presence is still justified. The couatls also scout for worthy guardians in the vicinity to take over stewardship-typically a powerful awakened animal, but sometimes a nemophilist in a nearby settlement. These individuals typically become druids who learn their abilities from the chicome, though anyone the couatl deems worthy may serve as a steward of such lands, regardless of the individual's magical prowess. Those who have received a chicome's blessing are sometimes referred to as Children of the Chicome. If ever one such steward is slain while protecting her pocket of wilderness, her host chicome will return its child to life using its powers of reincarnation. The steward is typically reborn as the animal it most identified with in life.",
 			"",
-			"Though they may serve a range of lawful and good deities, chicomes are typically agents of those gods with an aspect of nature or life, such as [Erastil](faith/erastil) or Cihua Couatl, or empyreal lords like [Cernunnos](faith/cernunnos) or [Valani](faith/valani). Some chicomes may even serve neutral-aligned deities such as [Gozreh](faith/gozreh) or [Feronia](faith/feronia). Chicomes never serve deities, no matter how noble, whose portfolio includes the destruction of nature or the spread of civilization, such as [Torag](faith/torag). Many chicomes serve no deities at all and are dedicated only to the primordial forces of nature."
+			"Though they may serve a range of lawful and good deities, chicomes are typically agents of those gods with an aspect of nature or life, such as [Erastil](faith/erastil) or Cihua Couatl, or empyreal lords like [Cernunnos](faith/cernunnos) or [Valani](faith/valani). Some chicomes may even serve neutral-aligned deities such as [Gozreh](faith/gozreh) or [Feronia](faith/feronia). Chicomes never serve deities, no matter how noble, whose portfolio includes the destruction of nature or the spread of civilization, such as [Torag](faith/torag). Many chicomes serve no deities at all and are dedicated only to the primordial forces of nature.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"chicome": { "copyof": "couatl_chicome" },
@@ -5525,7 +5573,7 @@
 			"",
 			"**Str** 18, **Dex** 19, **Con**: 18, **Int** 15, **Wis** 17, **Cha**, 15  ",
 			"**Base Atk** +10; **CMB** +15 (+19 grapple); **CMD** 29 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Eschew Materials](feat/eschew_materials), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** [Alertness](feat/alertness), [Eschew Materials](feat/eschew_materials)[^B], [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Diplomacy +16, Fly +19, Knowledge (geography) +15, Knowledge (nature) +15, Perception +20, Sense Motive +20, Stealth +0 (+20 in the night sky)  ",
 			"**Languages** Celestial, Common, Draconic; telepathy 100 ft.  ",
 			"**SQ** gift of knowledge, star child",
@@ -5568,7 +5616,9 @@
 			"",
 			"Although they are altruistic as a whole, mix couatls are known for having fun with their duties, often sharing less relevant or risky knowledge to shake up the growth of a settlement. Many tales tell of mix couatls teaching small children about magic or places that then cause trouble for a settlement. In the end, most settlements find that these challenges teach great lessons and use this valuable knowledge to improve their settlements in unexpected ways.",
 			"",
-			"Mix couatls commonly return to the sites of settlements they have helped nurture over the span of multiple generations-each new generation hears tales of beautiful flying serpents made of stars and considers it a great blessing to see this creature once more. Only on rare occasions does a mix couatl abandon a settlement. This usually happens when the mix couatl recognizes that its attempts to improve the settlement may actually be harmful, whether due to a potential loss of important traditions or when the possibility of growth could expose the settlement to great dangers from the outside world."
+			"Mix couatls commonly return to the sites of settlements they have helped nurture over the span of multiple generations-each new generation hears tales of beautiful flying serpents made of stars and considers it a great blessing to see this creature once more. Only on rare occasions does a mix couatl abandon a settlement. This usually happens when the mix couatl recognizes that its attempts to improve the settlement may actually be harmful, whether due to a potential loss of important traditions or when the possibility of growth could expose the settlement to great dangers from the outside world.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"mix_couatl": { "copyof": "couatl_mix_couatl" },
@@ -6378,7 +6428,7 @@
 			"",
 			"**Str** 36, **Dex** 12, **Con**: 21, **Int** 1, **Wis** 15, **Cha**, 2  ",
 			"**Base Atk** +8; **CMB** +25 (+29 grapple); **CMD** 36 (40 vs. trip)  ",
-			"**Feats** [Awesome Blow (tail slap only)](feat/awesome_blow), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception, Stealth)](feat/skill_focus), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** [Awesome Blow (tail slap only)](feat/awesome_blow)[^B], [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception, Stealth)](feat/skill_focus), [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +14, Stealth +0 (+12 in water), Swim +21; **Racial Modifiers** +12 Stealth in water  ",
 			"**SQ** hold breath",
 			"",
@@ -6398,7 +6448,9 @@
 			"",
 			"The largest of all known crocodilians, the 35- to 50-foot-long, 6-ton deinosuchus is a massive beast. This crocodilian possesses a shorter, rounder snout than the typical crocodile, and thus resembles a giant alligator. A patient hunter, the deinosuchus is all but invisible beneath the surface of the water. Only its nostrils breach the water's surface, allowing the rest of its formidable mass to remain out of sight from even highly perceptive prey.",
 			"",
-			"In combat, the deinosuchus grinds its prey between its powerful jaws, knocking back other foes with its formidable tail while it snaps bones and tears the flesh of its captured meal."
+			"In combat, the deinosuchus grinds its prey between its powerful jaws, knocking back other foes with its formidable tail while it snaps bones and tears the flesh of its captured meal.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"deinosuchus": { "copyof": "crocodilians_deinosuchus" },

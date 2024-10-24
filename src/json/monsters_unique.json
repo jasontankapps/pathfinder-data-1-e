@@ -3183,7 +3183,7 @@
 			"",
 			"**Str** 26, **Dex** 30, **Con**: 33, **Int** 25, **Wis** 35, **Cha**, 38  ",
 			"**Base Atk** +32; **CMB** +41 (+43 disarm or grapple, +45 trip); **CMD** 84 (86 vs. disarm, grapple, or trip)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Greater Trip](feat/greater_trip), [Improved Disarm](feat/improved_disarm), [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Lunge](feat/lunge), [Mobility](feat/mobility), [Quicken Spell-Like Ability (mirror image)](feat/quicken_spell-like_ability), [Scorpion Style](feat/scorpion_style), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack), [Step Up](feat/step_up), [Stunning Fist](feat/stunning_fist), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Greater Trip](feat/greater_trip), [Improved Disarm](feat/improved_disarm), [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike)[^B], [Lunge](feat/lunge), [Mobility](feat/mobility), [Quicken Spell-Like Ability (mirror image)](feat/quicken_spell-like_ability), [Scorpion Style](feat/scorpion_style), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack), [Step Up](feat/step_up), [Stunning Fist](feat/stunning_fist)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Acrobatics +44 (+68 when jumping), Bluff +32, Climb +50, Diplomacy +45, Disguise +32, Escape Artist +26, Fly +8, Heal +27, Knowledge (arcana, geography, history, nature) +23, Knowledge (local) +22, Knowledge (planes, religion) +41, Perception +46, Sense Motive +46, Spellcraft +22, Stealth +40; **Racial Modifiers** +24 Acrobatics when jumping  ",
 			"**Languages** Celestial, Infernal; speak with animals, truespeech  ",
 			"**SQ** abundant step, change shape (avoral or any humanoid, shapechange), combat style master, empyreal lord traits, ki pool (22 points; adamantine, epic, good, lawful, magic, mythic, silver), lay on hands (15d6, 29/day), seed of life, tranquil master",
@@ -3230,7 +3230,8 @@
 			"",
 			"**Family:** [Empyreal Lord](family/empyreal_lord)",
 			"",
-			"[^M]: Korada can use the mythic version of this ability in his realm."
+			"[^M]: Korada can use the mythic version of this ability in his realm.",
+			"[^B]: Bonus feat."
 		]
 	},
 	"korada": { "copyof": "empyreal_lord_korada" },

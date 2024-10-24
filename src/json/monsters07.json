@@ -231,7 +231,7 @@
 			"",
 			"**Str** 16, **Dex** 19, **Con**: 14, **Int** 12, **Wis** 11, **Cha**, 15  ",
 			"**Base Atk** +5; **CMB** +8; **CMD** 22  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Weapon Finesse](feat/weapon_finesse), [Wingover](feat/wingover)  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Weapon Finesse](feat/weapon_finesse)[^B], [Wingover](feat/wingover)  ",
 			"**Skills** Acrobatics +12, Escape Artist +12, Fly +20, Intimidate +10, Knowledge (planes) +9, Perception +8, Stealth +12  ",
 			"**Languages** Abyssal, Celestial, Draconic, telepathy 100 ft.",
 			"",
@@ -271,7 +271,9 @@
 			"",
 			"Pazuzu values his hala minions not only for the intelligence they gather on the activities of his enemies in the Abyss, but also for the chaos and destruction they bring on the winds. He is especially fond of sending halas to the Material Plane to ravage the countryside with storms and hail. As in the Abyss, halas on the Material Plane prefer to reside in remote areas. The lair of a hala is often located in a hidden cave in an isolated mountain range, or in the hollow of a giant, ancient tree deep in a forest or swamp.",
 			"",
-			"While hala demons have a general dislike for or distrust of nearly all creatures, they have an especially strong fear and hatred of two creatures: eagles and dragons. Eagles have an innate response to attack and drive a hala from the skies, possibly due to the threat the hala represents to the eagle's territory and offspring. Dragons-of any breed-largely view the storm demons as a danger to their own hoards of treasure, for if a hala discovers the dragon's lair, it will stop at nothing to possess all that lies within it."
+			"While hala demons have a general dislike for or distrust of nearly all creatures, they have an especially strong fear and hatred of two creatures: eagles and dragons. Eagles have an innate response to attack and drive a hala from the skies, possibly due to the threat the hala represents to the eagle's territory and offspring. Dragons-of any breed-largely view the storm demons as a danger to their own hoards of treasure, for if a hala discovers the dragon's lair, it will stop at nothing to possess all that lies within it.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"hala": { "copyof": "demon_hala" },
@@ -4077,7 +4079,7 @@
 			"",
 			"**Str** 20, **Dex** 23, **Con**: 21, **Int** 14, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +9; **CMB** +14; **CMD** 31  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Mobility](feat/mobility), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Shot on the Run](feat/shot_on_the_run)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge)[^B], [Mobility](feat/mobility)[^B], [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Shot on the Run](feat/shot_on_the_run)  ",
 			"**Skills** Acrobatics +18, Bluff +17, Diplomacy +14, Escape Artist +12, Fly +19, Intimidate +17, Knowledge (planes) +8, Knowledge (religion) +8, Perception +16, Sense Motive +10, Stealth +15  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4099,7 +4101,9 @@
 			"",
 			"Most erinyes stand just under 6 feet tall and weigh approximately 140 pounds, even with their black-feathered wings that stretch over 10 feet wide.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** [Devil](family/devil)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"erinyes": { "copyof": "devil_erinyes" },

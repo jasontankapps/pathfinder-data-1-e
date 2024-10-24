@@ -2237,7 +2237,7 @@
 			"",
 			"**Str** 26, **Dex** 24, **Con**: 25, **Int** -, **Wis** 16, **Cha**, 1  ",
 			"**Base Atk** +9; **CMB** +17; **CMD** 34  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will)  ",
+			"**Feats** [Great Fortitude](feat/great_fortitude)[^B], [Iron Will](feat/iron_will)[^B]  ",
 			"**Skills** Climb +16, Swim +16  ",
 			"**SQ** compression, merge",
 			"",
@@ -2269,7 +2269,9 @@
 			"",
 			"Proto-shoggoths have no true society, and are driven by two overwhelming instincts: the urge to infect living flesh, and the urge to merge with other proto-shoggoths. Once a creature succumbs to such an infestation, a proto-shoggoth instinctually knows to linger in the area and attempts to merge with its freshly born offspring when it erupts from the victim's body. A proto-shoggoth tends not to remain in proximity with others of its kind that it has failed to merge with, but is not hostile toward such incompatible specimens.",
 			"",
-			"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other non-syncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests."
+			"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other non-syncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"proto_shoggoth": { "copyof": "proto-shoggoth" },
@@ -3595,7 +3597,7 @@
 			"",
 			"**Str** 22, **Dex** 19, **Con**: 18, **Int** 13, **Wis** 17, **Cha**, 16  ",
 			"**Base Atk** +18; **CMB** +24 (+28 grapple); **CMD** 38  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Eschew Materials](feat/eschew_materials), [Following Step](feat/following_step), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive), [Step Up](feat/step_up), [Step Up and Strike](feat/step_up_and_strike)  ",
+			"**Feats** [Alertness](feat/alertness), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows)[^B], [Eschew Materials](feat/eschew_materials), [Following Step](feat/following_step)[^B], [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive), [Step Up](feat/step_up), [Step Up and Strike](feat/step_up_and_strike)  ",
 			"**Skills** Bluff +15, Climb +11, Diplomacy +25, Disguise +15, Intimidate +17, Knowledge (planes) +13, Perception +28, Sense Motive +25, Sleight of Hand +10, Stealth +22, Survival +15, Swim +6  ",
 			"**Languages** Abyssal, Celestial, Infernal; speak with animals (including vermin), tongues  ",
 			"**SQ** change shape (any animal or humanoid), spirit touch",
@@ -3620,7 +3622,9 @@
 			"",
 			"Many morrignas prefer to assume the appearances of those who have died. They ensure the smooth operation of death's bureaucratic machine by eliminating complications, dedicating their existence to wiping out any forces that circumvent or corrupt the natural cycle of death and judgment.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** [Psychopomp](family/psychopomp)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"morrigna": { "copyof": "psychopomp_morrigna" },

@@ -1689,7 +1689,7 @@
 			"",
 			"**Str** 18, **Dex** 19, **Con**: 14, **Int** 14, **Wis** 15, **Cha**, 15  ",
 			"**Base Atk** +7; **CMB** +12; **CMD** 27  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Wind Stance](feat/wind_stance)  ",
 			"**Skills** Appraise +12, Craft (any one) +12, Fly +20, Knowledge (planes) +12, Perception +12, Sense Motive +12, Spellcraft +12, Stealth +10  ",
 			"**Languages** Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.",
 			"",
@@ -1713,7 +1713,9 @@
 			"",
 			"A small percentage of djinn are noble. Noble djinn, often called **viziers**, have 10 Hit Dice, Strength 23, and Charisma 17, and can grant three wishes to any being (non-genies only) who captures them. Djinn nobles are CR 8.",
 			"",
-			"**Family:** [Genie](family/genie)"
+			"**Family:** [Genie](family/genie)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"djinni": { "copyof": "genie_djinni" },
@@ -1754,7 +1756,7 @@
 			"",
 			"**Str** 23, **Dex** 17, **Con**: 18, **Int** 12, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +10; **CMB** +17; **CMD** 31  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Quicken Spell-Like Ability (scorching ray)](feat/quicken_spell-like_ability)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Quicken Spell-Like Ability (scorching ray)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Bluff +19, Craft (any one) +14, Disguise +10, Fly +13, Intimidate +15, Perception +15, Sense Motive +15, Spellcraft +14, Stealth +8  ",
 			"**Languages** Auran, Aquan, Common, Ignan, Terran; telepathy 100 ft.  ",
 			"**SQ** change shape (humanoid or giant, alter self or giant form I)",
@@ -1779,7 +1781,9 @@
 			"",
 			"A small percentage of efreet are noble. Noble efreet, often called maliks, have 13 Hit Dice and gain the following spell-like abilities: 3/day-fireball, heat metal; 1/day-greater invisibility, pyroclastic storm (as ice storm, with fire instead of cold damage). A noble efreeti's caster level for its spell-like abilities is 15th. Noble efreet are CR 10.",
 			"",
-			"**Family:** [Genie](family/genie)"
+			"**Family:** [Genie](family/genie)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"efreeti": { "copyof": "genie_efreeti" },
@@ -1819,7 +1823,7 @@
 			"",
 			"**Str** 16, **Dex** 15, **Con**: 12, **Int** 14, **Wis** 15, **Cha**, 13  ",
 			"**Base Atk** +6; **CMB** +9; **CMD** 22  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Mobility](feat/mobility)  ",
 			"**Skills** Appraise +11, Craft (any one-usually weaponsmith) +11, Fly +14, Perception +11, Ride +6, Sense Motive +11, Spellcraft +11, Stealth +6  ",
 			"**Languages** Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal); telepathy 100 ft.  ",
 			"**SQ** elemental endurance",
@@ -1848,7 +1852,9 @@
 			"",
 			"A small percentage of jann are noble. Noble jann, often called sheikhs or amirs, have 9 Hit Dice, Strength 19, and Intelligence 18, and gain the following spell-like abilities: 3/day-augury, detect magic, and divination. A noble janni's caster level for its spell-like abilities is 12th. Noble jann are CR 7.",
 			"",
-			"**Family:** [Genie](family/genie)"
+			"**Family:** [Genie](family/genie)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"janni": { "copyof": "genie_janni" },
@@ -1891,7 +1897,7 @@
 			"",
 			"**Str** 23, **Dex** 19, **Con**: 18, **Int** 14, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +12; **CMB** +19; **CMD** 34  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Improved Natural Attack](feat/improved_natural_attack), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative)[^B], [Improved Natural Attack](feat/improved_natural_attack), [Power Attack](feat/power_attack)  ",
 			"**Skills** Craft (any one) +17, Diplomacy +18, Knowledge (planes) +17, Perception +17, Sense Motive +17, Spellcraft +17, Stealth +15, Swim +29  ",
 			"**Languages** Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.  ",
 			"**SQ** change shape (water elemental, humanoid or giant, alter self, elemental body III, or giant form I)",
@@ -1918,7 +1924,9 @@
 			"",
 			"A small percentage of marids can lay claim to nobility. Noble marids, often called shahzadas, have 14 Hit Dice and gain the following spell-like abilities: 3/day-cone of cold, ice storm; 1/day-elemental swarm (water elementals only), permanent image. A noble marid's caster level for its spell-like abilities is 20th. Noble marids are CR 11.",
 			"",
-			"**Family:** [Genie](family/genie)"
+			"**Family:** [Genie](family/genie)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"marid": { "copyof": "genie_marid" },
@@ -1962,7 +1970,7 @@
 			"",
 			"**Str** 20, **Dex** 13, **Con**: 19, **Int** 14, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +9; **CMB** +15; **CMD** 26  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (glitterdust)](feat/quicken_spell-like_ability)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative)[^B], [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (glitterdust)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Appraise +14, Bluff +14, Climb +25, Craft (gemcutting) +14, Knowledge (engineering) +14, Perception +14, Sense Motive +14, Spellcraft +14  ",
 			"**Languages** Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.  ",
 			"**SQ** stone glide",
@@ -1989,7 +1997,9 @@
 			"",
 			"Some shaitans are noble. Often called pashas, they have 18 Hit Dice and gain the spell-like ability earthquake, usable once per day, as well as the ability to grant up to three wishes per day (non-genies only). A noble shaitan's caster level for its spell-like abilities is 18th. Noble shaitans are CR 13.",
 			"",
-			"**Family:** [Genie](family/genie)"
+			"**Family:** [Genie](family/genie)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"shaitan": { "copyof": "genie_shaitan" },
@@ -6157,7 +6167,7 @@
 			"",
 			"**Str** 40, **Dex** 11, **Con**: 25, **Int** 12, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +14; **CMB** +31 (+33 bull rush); **CMD** 41 (43 vs. bull rush)  ",
-			"**Feats** [Augment Summoning (with conch)](feat/augment_summoning), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Martial Weapon Proficiency (trident)](feat/martial_weapon_proficiency), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (trident)](feat/weapon_focus)  ",
+			"**Feats** [Augment Summoning (with conch)](feat/augment_summoning)[^B], [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Martial Weapon Proficiency (trident)](feat/martial_weapon_proficiency), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (trident)](feat/weapon_focus)  ",
 			"**Skills** Intimidate +17, Knowledge (nature) +11, Perception +24, Perform (wind) +13, Survival +14, Swim +24  ",
 			"**Languages** Aquan, Common, Giant  ",
 			"**SQ** amphibious",
@@ -6178,7 +6188,9 @@
 			"",
 			"Many ocean giants view themselves as guardians of the sea, its creatures, and those who travel the waves, safeguarding their charges from remarkable coral towers. Others, however, claim domains measuring thousands of leagues, enslaving the beasts and aquatic races within and shattering any ship that dares trespass near their citadels of urchins and bones.",
 			"",
-			"Adult ocean giants stand approximately 22 feet tall and weigh about 15,000 pounds. Most live to be about 500 years old."
+			"Adult ocean giants stand approximately 22 feet tall and weigh about 15,000 pounds. Most live to be about 500 years old.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"ocean_giant": { "copyof": "giant_ocean_giant" },
@@ -6722,7 +6734,7 @@
 			"",
 			"**Str** 31, **Dex** 14, **Con**: 22, **Int** 12, **Wis** 17, **Cha**, 15  ",
 			"**Base Atk** +11; **CMB** +23; **CMD** 39  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Endurance](feat/endurance), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Self-Sufficient](feat/self-sufficient), [Shot on the Run](feat/shot_on_the_run), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Endurance](feat/endurance), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Self-Sufficient](feat/self-sufficient), [Shot on the Run](feat/shot_on_the_run)[^B], [Vital Strike](feat/vital_strike)  ",
 			"**Skills** Climb +15, Knowledge (religion) +11, Perception +13, Stealth +6 (+12 in undergrowth), Survival +20; **Racial Modifiers** +6 Stealth in undergrowth  ",
 			"**Languages** Common, Giant  ",
 			"**SQ** spirit summoning",
@@ -6743,7 +6755,9 @@
 			"",
 			"Taiga giants are also deeply spiritual, worshiping their ancestors. Every tribe member learns to call forth ancestor spirits at a young age. Taiga giants are ashamed of being the ancestors of rune giants as, like most giants, they both hate and fear rune giants as slavers and monsters.",
 			"",
-			"A typical taiga giant stands 20 feet in height and weighs 10,000 pounds. Skin tones vary from dark to pale gray, with hair color ranging from dark brown to red."
+			"A typical taiga giant stands 20 feet in height and weighs 10,000 pounds. Skin tones vary from dark to pale gray, with hair color ranging from dark brown to red.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"taiga_giant": { "copyof": "giant_taiga_giant" },

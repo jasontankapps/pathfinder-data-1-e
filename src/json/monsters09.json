@@ -4021,7 +4021,7 @@
 			"",
 			"**Str** 19, **Dex** 16, **Con**: 19, **Int** 10, **Wis** 14, **Cha**, 11  ",
 			"**Base Atk** +13; **CMB** +17; **CMD** 30  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Stand Still](feat/stand_still), [Step Up](feat/step_up), [Strike Back](feat/strike_back)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will)[^B], [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Stand Still](feat/stand_still), [Step Up](feat/step_up), [Strike Back](feat/strike_back)  ",
 			"**Skills** Intimidate +16, Knowledge (engineering) +16, Knowledge (planes) +16, Perception +18, Ride +16, Survival +18  ",
 			"**Languages** Celestial, Common  ",
 			"**SQ** battle-trained, thirst for battle",
@@ -4046,7 +4046,9 @@
 			"",
 			"Like valkyries, einherjar can serve a variety of deities, not just gods of war, conflict, and valor, but also those of love, beauty, life, and others not thought of as combative. Einherjar pride themselves on prowess in battle, and forever seek to prove themselves by challenging worthy foes.",
 			"",
-			"Einherjar can be either male or female, and normally appear as muscled, battle-hardened humans, dwarves, or elves. A typical einherji stands 7 feet tall and weighs around 300 pounds."
+			"Einherjar can be either male or female, and normally appear as muscled, battle-hardened humans, dwarves, or elves. A typical einherji stands 7 feet tall and weighs around 300 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"ekekeh": {
@@ -4286,7 +4288,7 @@
 			"",
 			"**Str** 22, **Dex** 33, **Con**: 24, **Int** 10, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +16; **CMB** +24; **CMD** 51  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Deadly Aim](feat/deadly_aim), [Improved Critical (telekinetic throw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Precise Shot](feat/improved_precise_shot), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Deadly Aim](feat/deadly_aim), [Improved Critical (telekinetic throw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Improved Iron Will](feat/improved_iron_will), [Improved Precise Shot](feat/improved_precise_shot), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
 			"**Skills** Acrobatics +30, Escape Artist +30, Fly +30, Knowledge (planes) +19, Perception +19, Stealth +22  ",
 			"**SQ** telekinetic invisibility  ",
 			"**Languages** Aquan, Auran, Ignan, Terran",
@@ -4299,7 +4301,9 @@
 			"",
 			"#### Description",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"elder_aether_elemental": { "copyof": "elemental_aether_elder_aether_elemental" },
@@ -4335,7 +4339,7 @@
 			"",
 			"**Str** 20, **Dex** 31, **Con**: 22, **Int** 8, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +13; **CMB** +20; **CMD** 46  ",
-			"**Feats** [Deadly Aim](feat/deadly_aim), [Improved Critical (telekinetic throw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Precise Shot](feat/improved_precise_shot), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** [Deadly Aim](feat/deadly_aim), [Improved Critical (telekinetic throw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Improved Iron Will](feat/improved_iron_will), [Improved Precise Shot](feat/improved_precise_shot), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
 			"**Skills** Acrobatics +26, Fly +26, Knowledge (planes) +15, Perception +16, Stealth +18  ",
 			"**SQ** telekinetic invisibility  ",
 			"**Languages** Aquan, Auran, Ignan, Terran",
@@ -4348,7 +4352,9 @@
 			"",
 			"#### Description",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"greater_aether_elemental": { "copyof": "elemental_aether_greater_aether_elemental" },
@@ -4384,7 +4390,7 @@
 			"",
 			"**Str** 18, **Dex** 29, **Con**: 20, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +10; **CMB** +16; **CMD** 40  ",
-			"**Feats** [Improved Critical (telekinetic throw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** [Improved Critical (telekinetic throw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
 			"**Skills** Acrobatics +22, Fly +22, Perception +13, Stealth +14  ",
 			"**SQ** telekinetic invisibility  ",
 			"**Languages** Aquan, Auran, Ignan, Terran",
@@ -4397,7 +4403,9 @@
 			"",
 			"#### Description",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"huge_aether_elemental": { "copyof": "elemental_aether_huge_aether_elemental" },
@@ -4433,7 +4441,7 @@
 			"",
 			"**Str** 16, **Dex** 25, **Con**: 18, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +8; **CMB** +12; **CMD** 33  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
 			"**Skills** Acrobatics +18, Fly +20, Perception +11, Stealth +14  ",
 			"**SQ** telekinetic invisibility  ",
 			"**Languages** Aquan, Auran, Ignan, Terran",
@@ -4446,7 +4454,9 @@
 			"",
 			"#### Description",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"large_aether_elemental": { "copyof": "elemental_aether_large_aether_elemental" },
@@ -4481,7 +4491,7 @@
 			"",
 			"**Str** 14, **Dex** 19, **Con**: 16, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 23  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot)  ",
 			"**Skills** Acrobatics +9, Fly +13, Perception +7, Stealth +11  ",
 			"**SQ** telekinetic invisibility  ",
 			"**Languages** Aquan, Auran, Ignan, Terran",
@@ -4494,7 +4504,9 @@
 			"",
 			"#### Description",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"medium_aether_elemental": { "copyof": "elemental_aether_medium_aether_elemental" },
@@ -4531,7 +4543,7 @@
 			"",
 			"**Str** 12, **Dex** 15, **Con**: 12, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 15  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Point-Blank Shot](feat/point-blank_shot)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Point-Blank Shot](feat/point-blank_shot)  ",
 			"**Skills** Acrobatics +6, Fly +12, Perception +5, Stealth +11  ",
 			"**SQ** telekinetic invisibility  ",
 			"**Languages** Aquan, Auran, Ignan, Terran",
@@ -4544,7 +4556,9 @@
 			"",
 			"#### Description",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"small_aether_elemental": { "copyof": "elemental_aether_small_aether_elemental" },
@@ -4579,7 +4593,7 @@
 			"",
 			"**Str** 28, **Dex** 33, **Con**: 18, **Int** 10, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +16; **CMB** +27; **CMD** 49  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +30, Escape Artist +30, Fly +34, Knowledge (planes) +19, Perception +19, Stealth +22",
 			"",
 			"#### Ecology",
@@ -4592,7 +4606,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"elder_air_elemental": { "copyof": "elemental_air_elder_air_elemental" },
@@ -4627,7 +4643,7 @@
 			"",
 			"**Str** 24, **Dex** 31, **Con**: 18, **Int** 8, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +13; **CMB** +22; **CMD** 43  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +25, Escape Artist +23, Fly +27, Knowledge (planes) +12, Perception +16, Stealth +15",
 			"",
 			"#### Ecology",
@@ -4640,7 +4656,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"greater_air_elemental": { "copyof": "elemental_air_greater_air_elemental" },
@@ -4675,7 +4693,7 @@
 			"",
 			"**Str** 22, **Dex** 29, **Con**: 18, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +10; **CMB** +18; **CMD** 38  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +18, Escape Artist +18, Fly +23, Knowledge (planes) +7, Perception +13, Stealth +9",
 			"",
 			"#### Ecology",
@@ -4688,7 +4706,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"huge_air_elemental": { "copyof": "elemental_air_huge_air_elemental" },
@@ -4723,7 +4743,7 @@
 			"",
 			"**Str** 18, **Dex** 25, **Con**: 16, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +8; **CMB** +13; **CMD** 31  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative)[^B], [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +15, Escape Artist +15, Fly +21, Knowledge (planes) +5, Perception +11, Stealth +11",
 			"",
 			"#### Ecology",
@@ -4736,7 +4756,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"large_air_elemental": { "copyof": "elemental_air_large_air_elemental" },
@@ -4770,7 +4792,7 @@
 			"",
 			"**Str** 14, **Dex** 21, **Con**: 14, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 22  ",
-			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +11, Escape Artist +9, Fly +17, Knowledge (planes) +1, Perception +7, Stealth +10",
 			"",
 			"#### Ecology",
@@ -4783,7 +4805,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"medium_air_elemental": { "copyof": "elemental_air_medium_air_elemental" },
@@ -4819,7 +4843,7 @@
 			"",
 			"**Str** 12, **Dex** 17, **Con**: 12, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 15  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +7, Escape Artist +7, Fly +17, Knowledge (planes) +1, Perception +4, Stealth +11",
 			"",
 			"#### Ecology",
@@ -4832,7 +4856,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Air Elemental](family/air_elemental)"
+			"**Family:** [Air Elemental](family/air_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"small_air_elemental": { "copyof": "elemental_air_small_air_elemental" },
@@ -4867,7 +4893,7 @@
 			"",
 			"**Str** 34, **Dex** 8, **Con**: 21, **Int** 10, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +16; **CMB** +30; **CMD** 39  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Overrun](feat/improved_overrun), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush)[^B], [Improved Critical (slam)](feat/improved_critical), [Improved Overrun](feat/improved_overrun), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
 			"**Skills** Appraise +19, Climb +31, Knowledge (dungeoneering) +19, Knowledge (planes) +19, Perception +19, Stealth +10",
 			"",
 			"#### Ecology",
@@ -4880,7 +4906,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"elder_earth_elemental": { "copyof": "elemental_earth_elder_earth_elemental" },
@@ -4915,7 +4943,7 @@
 			"",
 			"**Str** 30, **Dex** 8, **Con**: 21, **Int** 8, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +13; **CMB** +25; **CMD** 34  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush), [Improved Overrun](feat/improved_overrun), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush)[^B], [Improved Overrun](feat/improved_overrun), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
 			"**Skills** Appraise +10, Climb +25, Knowledge (dungeoneering) +10, Knowledge (planes) +13, Perception +16, Stealth +7",
 			"",
 			"#### Ecology",
@@ -4928,7 +4956,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"greater_earth_elemental": { "copyof": "elemental_earth_greater_earth_elemental" },
@@ -4963,7 +4993,7 @@
 			"",
 			"**Str** 28, **Dex** 8, **Con**: 19, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +10; **CMB** +21; **CMD** 30  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush)[^B], [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack)  ",
 			"**Skills** Appraise +6, Climb +18, Knowledge (dungeoneering) +4, Knowledge (planes) +7, Perception +13, Stealth +4",
 			"",
 			"#### Ecology",
@@ -4976,7 +5006,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"huge_earth_elemental": { "copyof": "elemental_earth_huge_earth_elemental" },
@@ -5011,7 +5043,7 @@
 			"",
 			"**Str** 24, **Dex** 8, **Con**: 17, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +8; **CMB** +16; **CMD** 25  ",
-			"**Feats** [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush)[^B], [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack)  ",
 			"**Skills** Appraise +6, Climb +15, Knowledge (dungeoneering) +3, Knowledge (planes) +6, Perception +11, Stealth +5",
 			"",
 			"#### Ecology",
@@ -5024,7 +5056,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"large_earth_elemental": { "copyof": "elemental_earth_large_earth_elemental" },
@@ -5058,7 +5092,7 @@
 			"",
 			"**Str** 20, **Dex** 8, **Con**: 17, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +4; **CMB** +9; **CMD** 18  ",
-			"**Feats** [Cleave](feat/cleave), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Cleave](feat/cleave), [Improved Bull Rush](feat/improved_bull_rush)[^B], [Power Attack](feat/power_attack)  ",
 			"**Skills** Appraise +1, Climb +10, Knowledge (dungeoneering) +2, Knowledge (planes) +2, Perception +7, Stealth +3",
 			"",
 			"#### Ecology",
@@ -5071,7 +5105,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"medium_earth_elemental": { "copyof": "elemental_earth_medium_earth_elemental" },
@@ -5107,7 +5143,7 @@
 			"",
 			"**Str** 16, **Dex** 8, **Con**: 13, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +4; **CMD** 13  ",
-			"**Feats** [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Improved Bull Rush](feat/improved_bull_rush)[^B], [Power Attack](feat/power_attack)  ",
 			"**Skills** Appraise +1, Climb +7, Knowledge (dungeoneering) +1, Knowledge (planes) +1, Perception +4, Stealth +7",
 			"",
 			"#### Ecology",
@@ -5120,7 +5156,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Earth Elemental](family/earth_elemental)"
+			"**Family:** [Earth Elemental](family/earth_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"small_earth_elemental": { "copyof": "elemental_earth_small_earth_elemental" },
@@ -5156,7 +5194,7 @@
 			"",
 			"**Str** 26, **Dex** 29, **Con**: 18, **Int** 10, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +16; **CMB** +26; **CMD** 46  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)[^B], [Wind Stance](feat/wind_stance)  ",
 			"**Skills** Acrobatics +28, Climb +27, Escape Artist +28, Intimidate +19, Knowledge (planes) +19, Perception +19",
 			"",
 			"#### Ecology",
@@ -5169,7 +5207,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"elder_fire_elemental": { "copyof": "elemental_fire_elder_fire_elemental" },
@@ -5205,7 +5245,7 @@
 			"",
 			"**Str** 24, **Dex** 27, **Con**: 18, **Int** 8, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +13; **CMB** +22; **CMD** 41  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)[^B], [Wind Stance](feat/wind_stance)  ",
 			"**Skills** Acrobatics +23, Climb +20, Escape Artist +21, Intimidate +15, Knowledge (planes) +10, Perception +16",
 			"",
 			"#### Ecology",
@@ -5218,7 +5258,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"greater_fire_elemental": { "copyof": "elemental_fire_greater_fire_elemental" },
@@ -5254,7 +5296,7 @@
 			"",
 			"**Str** 18, **Dex** 25, **Con**: 16, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +10; **CMB** +16; **CMD** 34  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +16, Climb +13, Escape Artist +16, Intimidate +9, Knowledge (planes) +7, Perception +13",
 			"",
 			"#### Ecology",
@@ -5267,7 +5309,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"huge_fire_elemental": { "copyof": "elemental_fire_huge_fire_elemental" },
@@ -5303,7 +5347,7 @@
 			"",
 			"**Str** 14, **Dex** 21, **Con**: 14, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +8; **CMB** +11; **CMD** 27  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +14, Climb +9, Escape Artist +12, Intimidate +9, Knowledge (planes) +5, Perception +11",
 			"",
 			"#### Ecology",
@@ -5316,7 +5360,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"large_fire_elemental": { "copyof": "elemental_fire_large_fire_elemental" },
@@ -5351,7 +5397,7 @@
 			"",
 			"**Str** 12, **Dex** 17, **Con**: 14, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +4; **CMB** +5; **CMD** 19  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +8, Climb +5, Escape Artist +8, Intimidate +5, Knowledge (planes) +1, Perception +7",
 			"",
 			"#### Ecology",
@@ -5364,7 +5410,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"medium_fire_elemental": { "copyof": "elemental_fire_medium_fire_elemental" },
@@ -5401,7 +5449,7 @@
 			"",
 			"**Str** 10, **Dex** 13, **Con**: 10, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +1; **CMD** 13  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +5, Climb +4, Escape Artist +5, Intimidate +4, Knowledge (planes) +1, Perception +4",
 			"",
 			"#### Ecology",
@@ -5414,7 +5462,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Fire Elemental](family/fire_elemental)"
+			"**Family:** [Fire Elemental](family/fire_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"small_fire_elemental": { "copyof": "elemental_fire_small_fire_elemental" },
@@ -5749,7 +5799,7 @@
 			"",
 			"**Str** 26, **Dex** 31, **Con**: 16, **Int** 10, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +16; **CMB** +26; **CMD** 47  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +29, Escape Artist +29, Fly +14, Intimidate +19, Knowledge (planes) +19, Perception +19, Stealth +21",
 			"",
 			"#### Ecology",
@@ -5762,7 +5812,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"elder_lightning_elemental": { "copyof": "elemental_lightning_elder_lightning_elemental" },
@@ -5797,7 +5849,7 @@
 			"",
 			"**Str** 22, **Dex** 29, **Con**: 16, **Int** 8, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +13; **CMB** +21; **CMD** 41  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +25, Escape Artist +25, Fly +13, Intimidate +16, Knowledge (planes) +15, Perception +16",
 			"",
 			"#### Ecology",
@@ -5810,7 +5862,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"greater_lightning_elemental": { "copyof": "elemental_lightning_greater_lightning_elemental" },
@@ -5845,7 +5899,7 @@
 			"",
 			"**Str** 20, **Dex** 27, **Con**: 16, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +10; **CMB** +17; **CMD** 36  ",
-			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +21, Escape Artist +21, Fly +12, Knowledge (planes) +11, Perception +13",
 			"",
 			"#### Ecology",
@@ -5858,7 +5912,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"huge_lightning_elemental": { "copyof": "elemental_lightning_huge_lightning_elemental" },
@@ -5893,7 +5949,7 @@
 			"",
 			"**Str** 16, **Dex** 23, **Con**: 14, **Int** 6, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +8; **CMB** +12; **CMD** 29  ",
-			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +17, Escape Artist +17, Fly +12, Knowledge (planes) +9, Perception +11",
 			"",
 			"#### Ecology",
@@ -5906,7 +5962,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"large_lightning_elemental": { "copyof": "elemental_lightning_large_lightning_elemental" },
@@ -5940,7 +5998,7 @@
 			"",
 			"**Str** 14, **Dex** 19, **Con**: 12, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 21  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +11, Escape Artist +9, Fly +12, Knowledge (planes) +2, Perception +7",
 			"",
 			"#### Ecology",
@@ -5953,7 +6011,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"medium_lightning_elemental": { "copyof": "elemental_lightning_medium_lightning_elemental" },
@@ -5989,7 +6049,7 @@
 			"",
 			"**Str** 10, **Dex** 15, **Con**: 10, **Int** 4, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +1; **CMD** 13  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Acrobatics +7, Escape Artist +6, Fly +12, Knowledge (planes) +1, Perception +5",
 			"",
 			"#### Ecology",
@@ -6002,7 +6062,9 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** [Lightning Elemental](family/lightning_elemental)"
+			"**Family:** [Lightning Elemental](family/lightning_elemental)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"small_lightning_elemental": { "copyof": "elemental_lightning_small_lightning_elemental" },
@@ -7071,7 +7133,7 @@
 			"",
 			"**Str** 20, **Dex** 13, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +5; **CMB** +10 (+12 sunder); **CMD** 21 (23 vs. sunder)  ",
-			"**Feats** [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Improved Sunder](feat/improved_sunder)[^B], [Power Attack](feat/power_attack)[^B]  ",
 			"**SQ** proficient",
 			"",
 			"#### Ecology",
@@ -7100,7 +7162,9 @@
 			"",
 			"**CL** 6th; **Price** 12,000 gp",
 			"",
-			"**Requirements** Craft Construct, lesser geas, shocking grasp, creator must be caster level 6th; Skill Craft (armor) DC 20; **Cost** 6,500 gp"
+			"**Requirements** Craft Construct, lesser geas, shocking grasp, creator must be caster level 6th; Skill Craft (armor) DC 20; **Cost** 6,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"emotion_ooze": {
@@ -7834,7 +7898,7 @@
 			"",
 			"**Str** -, **Dex** 14, **Con**: 12, **Int** 5, **Wis** 11, **Cha**, 14  ",
 			"**Base Atk** +2; **CMB** +6; **CMD** 18  ",
-			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Disguise +7, Perception +5, Stealth +14; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Common (can't speak)  ",
 			"**SQ** assume visage, ephemeral existence",
@@ -7859,7 +7923,9 @@
 			"",
 			"An etiainen sometimes forges an involuntary connection with a creature that allows the spirit to perform actions in advance of the linked creature, leading to bizarre cases of deja vu for those nearby. For instance, a husband might hear the front door open and the sound of his wife's familiar footsteps walking toward him, only to discover that his wife has not yet returned home-But bafflingly, when she does come home, she carries out the same series of actions.",
 			"",
-			"Those who manage to successfully communicate with etiainens can sometimes compel the spirits to perform small tasks, though holding their attention requires great patience. For one who manages this difficult task, these spirits can sometimes act as intermediaries and messengers, or even spies. When acting in this fashion, an etiainen often appears as a strange, silent double of the creature it is serving. Etiainens can understand speech but cannot speak, and they rely on [mindlink](spell/mindlink)to communicate. Because of the chaotic nature of these spirits, such fellowships are short lived, as the etiainen might at any time flit away on some strange flight of fancy."
+			"Those who manage to successfully communicate with etiainens can sometimes compel the spirits to perform small tasks, though holding their attention requires great patience. For one who manages this difficult task, these spirits can sometimes act as intermediaries and messengers, or even spies. When acting in this fashion, an etiainen often appears as a strange, silent double of the creature it is serving. Etiainens can understand speech but cannot speak, and they rely on [mindlink](spell/mindlink)to communicate. Because of the chaotic nature of these spirits, such fellowships are short lived, as the etiainen might at any time flit away on some strange flight of fancy.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"ettercap": {
@@ -8112,7 +8178,7 @@
 			"",
 			"**Str** 18, **Dex** 17, **Con**: 16, **Int** -, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +5; **CMB** +10; **CMD** 23  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)[^B]  ",
 			"**Skills** Swim +12  ",
 			"**SQ** amphibious",
 			"",
@@ -8128,7 +8194,9 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"bluetip_eurypterid": { "copyof": "eurypterid_bluetip_eurypterid" },
@@ -8165,7 +8233,7 @@
 			"",
 			"**Str** 10, **Dex** 11, **Con**: 12, **Int** -, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 11  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**Skills** Swim +8  ",
 			"**SQ** amphibious",
 			"",
@@ -8181,7 +8249,9 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"common_eurypterid": { "copyof": "eurypterid_common_eurypterid" },
@@ -8218,7 +8288,7 @@
 			"",
 			"**Str** 8, **Dex** 13, **Con**: 10, **Int** -, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** -2; **CMD** 9  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**Skills** Swim +9 (uses Dexterity on Climb and Swim checks)  ",
 			"**SQ** amphibious",
 			"",
@@ -8234,7 +8304,9 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"ochre_eurypterid": { "copyof": "eurypterid_ochre_eurypterid" },
@@ -8272,7 +8344,7 @@
 			"",
 			"**Str** 26, **Dex** 9, **Con**: 20, **Int** -, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +9; **CMB** +19; **CMD** 28  ",
-			"**Feats** [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Critical (claw)](feat/improved_critical)[^B], [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**Skills** Swim +16  ",
 			"**SQ** amphibious",
 			"",
@@ -8290,7 +8362,9 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"spiny_eurypterid": { "copyof": "eurypterid_spiny_eurypterid" },
@@ -8325,7 +8399,7 @@
 			"",
 			"**Str** 34, **Dex** 10, **Con**: 24, **Int** -, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +12; **CMB** +28; **CMD** 38  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**Skills** Swim +20  ",
 			"**SQ** amphibious",
 			"",
@@ -8343,7 +8417,9 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers."
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"spitting_eurypterid": { "copyof": "eurypterid_spitting_eurypterid" },

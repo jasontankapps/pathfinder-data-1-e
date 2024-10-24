@@ -1142,7 +1142,7 @@
 			"",
 			"**Str** 14, **Dex** 10, **Con**: 17, **Int** -, **Wis** 13, **Cha**, 11  ",
 			"**Base Atk** +1; **CMB** +3 (+7 grapple); **CMD** 13 (21 vs. trip)  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** [Toughness](feat/toughness)[^B]  ",
 			"**Skills** Climb +10, Perception +5, Survival +5; **Racial Modifiers** +4 Perception, +4 Survival",
 			"",
 			"#### Ecology",
@@ -1165,7 +1165,9 @@
 			"",
 			"Drone (+1 CR) Drones have the advanced simple template and a fly speed of 30 feet (average).",
 			"",
-			"Queen (+2 CR) The queen of a nest is an immense, bloated creature. She gains the advanced and the giant simple templates, but drops her speed to 10 feet and loses her climb speed entirely."
+			"Queen (+2 CR) The queen of a nest is an immense, bloated creature. She gains the advanced and the giant simple templates, but drops her speed to 10 feet and loses her climb speed entirely.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"giant_ant": { "copyof": "ant_giant_ant" },
@@ -2560,7 +2562,7 @@
 			"",
 			"**Str** 16, **Dex** 12, **Con**: 19, **Int** 10, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +8; **CMB** +11; **CMD** 22  ",
-			"**Feats** [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (greatsword)](feat/improved_critical), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (greatsword)](feat/weapon_focus), [Whirlwind Attack](feat/whirlwind_attack)  ",
+			"**Feats** [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (greatsword)](feat/improved_critical)[^B], [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (greatsword)](feat/weapon_focus), [Whirlwind Attack](feat/whirlwind_attack)[^B]  ",
 			"**Skills** Diplomacy +14, Fly +12, Intimidate +14, Knowledge (religion) +11, Perception +13, Sense Motive +9, Survival +9  ",
 			"**Languages** Celestial, Draconic, Infernal; truespeech  ",
 			"**SQ** second skin",
@@ -2585,7 +2587,9 @@
 			"",
 			"Despite their warlike mien, legion archons prefer errands of peace and mercy. Their masters dispatch unarmed legion archons as celestial envoys, though still clad in their heavenly armor. In this fashion, they spread the word and love of Heaven to widely scattered realms.",
 			"",
-			"**Family:** [Archon](family/archon)"
+			"**Family:** [Archon](family/archon)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"legion_archon": { "copyof": "archon_legion_archon" },
@@ -3190,7 +3194,7 @@
 			"",
 			"**Str** 18, **Dex** 13, **Con**: 17, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +5; **CMB** +10; **CMD** 21 (can't be tripped)  ",
-			"**Feats** [Improved Overrun](feat/improved_overrun)",
+			"**Feats** [Improved Overrun](feat/improved_overrun)[^B]",
 			"",
 			"#### Ecology",
 			"",
@@ -3212,7 +3216,9 @@
 			"",
 			"Although they are typically solitary creatures, ascomoids dwelling in areas of ample moisture with generous sources of food-or frequent unwitting passersby-sometimes form deadly clusters. Such colonies of these giant fungi often lurk in large caverns among other pallid vegetation. Given ascomoids' ability to detect vibrations, the slightest quake or potential footfall sets them rolling, turning their cavernous lairs into churning meat grinders. Bounding about violently, groups of ascomoids sometimes take hours to settle back down, unable to distinguish between the movements of prey and the tumbling of their own kind. In some cases, ascomoids have been known to lair at the top of steep rises, crushing climbers as they roll in terrible fungal avalanches.",
 			"",
-			"Those crushed by an ascomoid or who fall victim to an ascomoid's spores face a revolting end, their bodies becoming hosts to quick-growing colonies of rampant fungi. Immature ascomoid mold sprouts quickly, typically appearing within 24 hours. After 48 hours, such victims become so overgrown with this furry, brown-green mold that they can no longer be restored to life by raise dead, as their bodies are too vitally pervaded and thoroughly consumed by the swiftly spreading mold. Within a month, a new ascomoid emerges from the foul mess."
+			"Those crushed by an ascomoid or who fall victim to an ascomoid's spores face a revolting end, their bodies becoming hosts to quick-growing colonies of rampant fungi. Immature ascomoid mold sprouts quickly, typically appearing within 24 hours. After 48 hours, such victims become so overgrown with this furry, brown-green mold that they can no longer be restored to life by raise dead, as their bodies are too vitally pervaded and thoroughly consumed by the swiftly spreading mold. Within a month, a new ascomoid emerges from the foul mess.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"ashen_forgemaster": {
@@ -3923,7 +3929,7 @@
 			"",
 			"**Str** 36, **Dex** 26, **Con**: 34, **Int** 25, **Wis** 25, **Cha**, 31  ",
 			"**Base Atk** +22; **CMB** +37 (+41 grapple); **CMD** 64  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (baleful polymorph, blade barrier, death knell)](feat/quicken_spell-like_ability), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack)  ",
+			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes)[^B], [Critical Focus](feat/critical_focus), [Deflect Arrows](feat/deflect_arrows)[^B], [Dodge](feat/dodge)[^B], [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility)[^B], [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (baleful polymorph, blade barrier, death knell)](feat/quicken_spell-like_ability), [Snatch Arrows](feat/snatch_arrows)[^B], [Spring Attack](feat/spring_attack)  ",
 			"**Skills** Acrobatics +31 (+39 when jumping), Bluff +33, Climb +21, Diplomacy +30, Escape Artist +14, Fly +35, Intimidate +33, Knowledge (arcana) +27, Knowledge (history) +13, Knowledge (planes) +30, Knowledge (religion) +27, Perception +34, Perform (dance) +33, Sense Motive +30, Spellcraft +27, Stealth +23, Swim +21, Use Magic Device +30; **Racial Modifiers** +6 Escape Artist, +4 Perception  ",
 			"**Languages** Common, Infernal; tongues, telepathy 100 ft.",
 			"",
@@ -3963,7 +3969,9 @@
 			"",
 			"**Create Asura (Su):** As a full-round action, an asurendra can turn a creature that it has eaten within the last 24 hours into a [tripurasura](monster/tripurasura) that it then excretes into existence. Such tripurasuras remain loyal to the asurendra that created them as long as they remain tripurasuras. If an asurendra has enough tripurasuras at hand, it can consume them as well and transform them into more powerful asuras using this ability. An asurendra can transform any tripurasuras it has eaten within the last 24 hours into a number of Hit Dice worth of other asuras equal to the number of tripurasuras it has consumed. An asurendra can create as many tripurasuras as it wishes with this ability, but can only create more powerful asuras by combining multiple tripurasuras once per day. An asurendra cannot create another asurendra with this ability. A newly formed asura considers the asurendra to be its master. Not all of a creature's soul is consumed when it is used to create a tripurasura-beings swallowed and used to create asuras in this manner are dead, but can be restored to life as normal.",
 			"",
-			"**Family:** [Asura](family/asura)"
+			"**Family:** [Asura](family/asura)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"asurendra": { "copyof": "asura_asurendra" },
@@ -4096,7 +4104,7 @@
 			"",
 			"**Str** 17, **Dex** 24, **Con**: 21, **Int** 14, **Wis** 19, **Cha**, 16  ",
 			"**Base Atk** +14; **CMB** +17; **CMD** 34  ",
-			"**Feats** [Deadly Aim](feat/deadly_aim), [Deflect Arrows](feat/deflect_arrows), [Improved Precise Shot](feat/improved_precise_shot), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Snatch Arrows](feat/snatch_arrows), [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
+			"**Feats** [Deadly Aim](feat/deadly_aim), [Deflect Arrows](feat/deflect_arrows)[^B], [Improved Precise Shot](feat/improved_precise_shot), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Snatch Arrows](feat/snatch_arrows)[^B], [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
 			"**Skills** Acrobatics +24 (+28 when jumping), Bluff +20, Climb +21, Escape Artist +23, Knowledge (planes) +12, Perception +25, Profession (soothsayer) +21, Sense Motive +21, Spellcraft +9, Stealth +24; **Racial Modifiers** +6 Escape Artist, +4 Perception  ",
 			"**Languages** Common, Infernal; telepathy 100 ft.  ",
 			"**SQ** hateful prophecy, infernal arrows, selective [nondetection](spell/nondetection)",
@@ -4131,7 +4139,9 @@
 			"",
 			"Japalisuras know that their fearsome miens tend to distress visitors, yet the asuras lack any supernatural means of disguising themselves. Instead, many japalisuras favor hiding out of sight and dealing with visitors from behind screens or within darkened alcoves. In these circumstances, the asura rarely emerges unless doing so would convince a reticent visitor to cooperate or if necessary to destroy someone who poses a threat to the asura's ongoing operations. Rarely, a japalisura operates openly, relying on either its reputation or its monstrous allure to attract disciples. Such is the case for Holkomion of Iblydos, who claims to have rediscovered the sacred art of mythspeaking. At least one warrior claims to have attained mythic power as a result of Holkomion's guidance, yet most find that the japalisura's prophecies in fact direct petitioners to assassinate hero-gods.",
 			"",
-			"More often, a japalisura maintains a small cult to communicate its oracular guidance. A japalisura accepts only the most devout followers into such coteries. With such humanoid puppets, the asura can dispense divinations telepathically without having to show itself. These cults take myriad forms but typically operate outside of large population centers to avoid too much scrutiny. The japalisura Zalmiac poses as the Varisian harrower Madame Vhelanosz, virtually never leaving the wagon from which she interprets her cards. Her pernicious prophecies have incited scores of murders-especially against Desnans and Pharasmins, whom she goads into killing each other-and her loyal cohort of ex-Sczarni assistants ensure nobody asks too many of the wrong questions."
+			"More often, a japalisura maintains a small cult to communicate its oracular guidance. A japalisura accepts only the most devout followers into such coteries. With such humanoid puppets, the asura can dispense divinations telepathically without having to show itself. These cults take myriad forms but typically operate outside of large population centers to avoid too much scrutiny. The japalisura Zalmiac poses as the Varisian harrower Madame Vhelanosz, virtually never leaving the wagon from which she interprets her cards. Her pernicious prophecies have incited scores of murders-especially against Desnans and Pharasmins, whom she goads into killing each other-and her loyal cohort of ex-Sczarni assistants ensure nobody asks too many of the wrong questions.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"japalisura": { "copyof": "asura_japalisura" },
@@ -4306,7 +4316,7 @@
 			"",
 			"**Str** 22, **Dex** 24, **Con**: 19, **Int** 15, **Wis** 24, **Cha**, 19  ",
 			"**Base Atk** +12; **CMB** +18 (+20 grapple); **CMD** 39 (41 vs. grapple)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Great Cleave](feat/great_cleave), [Improved Grapple](feat/improved_grapple), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Spring Attack](feat/spring_attack)  ",
+			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes)[^B], [Deflect Arrows](feat/deflect_arrows)[^B], [Dodge](feat/dodge), [Great Cleave](feat/great_cleave), [Improved Grapple](feat/improved_grapple)[^B], [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Spring Attack](feat/spring_attack)  ",
 			"**Skills** Acrobatics +19 (+27 when jumping), Bluff +16, Diplomacy +13, Escape Artist +25, Intimidate +16, Knowledge (arcana) +8, Knowledge (planes) +14, Perception +23, Perform (dance) +16, Sense Motive +19, Stealth +19; **Racial Modifiers** +8 Acrobatics when jumping, +6 Escape Artist, +4 Perception  ",
 			"**Languages** Common, Infernal; telepathy 100 ft.",
 			"",
@@ -4330,7 +4340,9 @@
 			"",
 			"An upasunda is 7 feet tall and weighs 240 pounds.",
 			"",
-			"**Family:** [Asura](family/asura)"
+			"**Family:** [Asura](family/asura)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"upasunda": { "copyof": "asura_upasunda" },
@@ -4567,7 +4579,7 @@
 			"",
 			"**Str** 6, **Dex** 17, **Con**: 13, **Int** 11, **Wis** 14, **Cha**, 18  ",
 			"**Base Atk** +1; **CMB** +0; **CMD** 8  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Acrobatics +8 (+4 when jumping), Bluff +9, Escape Artist +7, Fly +18, Perception +7, Sense Motive +6, Stealth +20  ",
 			"**Languages** Common, Sylvan; speak with animals",
 			"",
@@ -4585,7 +4597,9 @@
 			"",
 			"These nimble creatures adore swordplay and practice with their blades endlessly. Atomies often travel their lands seeking adventure tinged with mischief. Sensitive to bullying and oppression, atomies revel in turning the tables on a cruel mayor or tormenting dishonorable mercenary bands. Atomies, enamored with tales of epic duels and the defeat of great evils, sometimes follow adventuring parties and eavesdrop on their nightly tales by the campfire. If a warrior in the group tends to boast of his swordplay, an atomie rarely resists the urge to humble him by sabotaging his equipment or invisibly reducing him and challenging him to a duel.",
 			"",
-			"Atomies get along well with grigs, and it is not uncommon to see the two types of creatures banding together for defense or companionship. Some sages claim the two creatures share a past link, pointing out their similar insectile wings. Anyone questioning an atomie or grig about this theory is greeted with bouts of shrill tiny laughter. An atomie stands just under a foot tall and weighs 2 pounds."
+			"Atomies get along well with grigs, and it is not uncommon to see the two types of creatures banding together for defense or companionship. Some sages claim the two creatures share a past link, pointing out their similar insectile wings. Anyone questioning an atomie or grig about this theory is greeted with bouts of shrill tiny laughter. An atomie stands just under a foot tall and weighs 2 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"attic_whisperer": {

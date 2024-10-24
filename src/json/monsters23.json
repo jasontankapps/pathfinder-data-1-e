@@ -217,7 +217,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: -, **Int** -, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]  ",
 			"**SQ** bodyguard",
 			"",
 			"#### Ecology",
@@ -250,7 +250,9 @@
 			"",
 			"**CL** 9th; **Price** 14,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, fly, geas/quest, parchment swarm, shield other, creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp"
+			"**Requirements** Craft Construct, animate objects, fly, geas/quest, parchment swarm, shield other, creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"tatzlwyrm": {
@@ -4850,7 +4852,7 @@
 			"",
 			"**Str** 20, **Dex** 13, **Con**: 14, **Int** 5, **Wis** 10, **Cha**, 5  ",
 			"**Base Atk** +3; **CMB** +9; **CMD** 20 (24 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Iron Will](feat/iron_will), [Night Stalker](feat/night_stalker), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Iron Will](feat/iron_will), [Night Stalker](feat/night_stalker), [Skill Focus (Stealth)](feat/skill_focus)[^B]  ",
 			"**Skills** Climb +9, Perception +6, Stealth +1 (+5 in dim light or darkness); **Racial Modifiers** +4 Stealth in dim light or darkness  ",
 			"**Languages** Giant  ",
 			"**SQ** ogre blood",
@@ -4867,7 +4869,9 @@
 			"",
 			"#### Description",
 			"",
-			"These dim-witted creatures are a mongrel cross between a troll and an ogre, combining the worst features of each. They usually act like animals and move on all fours, but can rear up on their hind legs to attack with their sharp claws and vicious bites. Some ogres keep them as pets, treating them as exceptionally stupid but hilarious kinfolk. Trolls usually kill troggles on sight, and have been known to band together to wipe out entire ogre clans that possess troggles."
+			"These dim-witted creatures are a mongrel cross between a troll and an ogre, combining the worst features of each. They usually act like animals and move on all fours, but can rear up on their hind legs to attack with their sharp claws and vicious bites. Some ogres keep them as pets, treating them as exceptionally stupid but hilarious kinfolk. Trolls usually kill troggles on sight, and have been known to band together to wipe out entire ogre clans that possess troggles.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"troggle_troggle_raider": {
@@ -5616,7 +5620,7 @@
 			"",
 			"**Str** 12, **Dex** 18, **Con**: 17, **Int** 4, **Wis** 9, **Cha**, 7  ",
 			"**Base Atk** +3; **CMB** +3 (+6 grapple); **CMD** 17 (20 vs. grapple)  ",
-			"**Feats** [Improved Grapple](feat/improved_grapple), [Iron Will](feat/iron_will), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Grapple](feat/improved_grapple)[^B], [Iron Will](feat/iron_will), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Acrobatics +5 (+13 when jumping), Climb +10, Perception +4; **Racial Modifiers** +8 Acrobatics when jumping  ",
 			"**SQ** cradling",
 			"",
@@ -5656,7 +5660,9 @@
 			"",
 			"Despite their barest semblance of intellect, canopy trolls show unusual curiosity, and love to pull things apart-animals and humanoids included-to see what may be inside. They find mechanisms and musical instruments especially fascinating, and an entire troop may take to fighting with each other over a newly discovered harp or horn. They also like to adorn themselves with finery, though any treasures they gather rarely last long as the creatures swing through the branches and pile into their filthy nests. Generally, only magical treasures and small pieces of jewelry retain any value after more than a day in the hands of a canopy troll. This same curiosity makes the creatures especially vulnerable to so-called monkey traps, as once they take hold of a valuable, they rarely willingly let go; clever hunters can snare the monsters simply by dropping shiny coins into a hole just large enough to slide a troll hand into-and too small to pull a coin-filled fist back through. They speak a pidgin of Giant, composed largely of insults and vulgarities, as well as a number of words for food.",
 			"",
-			"Canopy trolls are simpleminded even compared to average trolls, living more like animals than humanoids in apelike troops. A troop selects the largest tree in its territory as a nest site, building rough nests of leaves and grasses and dangling ugly dolls tied from animal bones into the branches. Canopy trolls have little concern for one another, flocking together simply because their preferred hunting tactic - piling onto a single creature until the poor beast can barely move or breathe under the weight - requires large numbers. They hash out a rough pecking order through constant bullying, and after large meals the troop generally falls to infighting to more formally determine the leader for the next few days. Affection and compassion are alien concepts, with each member of the group constantly sniffing out weaknesses to exploit in its neighbors. Troops sometimes gather around an outsider-usually a larger troll but occasionally another large predator-deferring to that individual as temporary leader until they grow restless, hungry, or bored, whereupon they turn their provisional leader into a meal."
+			"Canopy trolls are simpleminded even compared to average trolls, living more like animals than humanoids in apelike troops. A troop selects the largest tree in its territory as a nest site, building rough nests of leaves and grasses and dangling ugly dolls tied from animal bones into the branches. Canopy trolls have little concern for one another, flocking together simply because their preferred hunting tactic - piling onto a single creature until the poor beast can barely move or breathe under the weight - requires large numbers. They hash out a rough pecking order through constant bullying, and after large meals the troop generally falls to infighting to more formally determine the leader for the next few days. Affection and compassion are alien concepts, with each member of the group constantly sniffing out weaknesses to exploit in its neighbors. Troops sometimes gather around an outsider-usually a larger troll but occasionally another large predator-deferring to that individual as temporary leader until they grow restless, hungry, or bored, whereupon they turn their provisional leader into a meal.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"canopy_troll": { "copyof": "troll_canopy_troll" },

@@ -36,7 +36,7 @@
 			"",
 			"**Str** 8, **Dex** 13, **Con**: 12, **Int** 11, **Wis** 17, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +2; **CMD** 11  ",
-			"**Feats** [Alertness](feat/alertness), [Catch Off-Guard](feat/catch_off-guard), [Iron Will](feat/iron_will), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** [Alertness](feat/alertness), [Catch Off-Guard](feat/catch_off-guard)[^B], [Iron Will](feat/iron_will), [Throw Anything](feat/throw_anything)[^B]  ",
 			"**Skills** Heal +9, Knowledge (nature) +6, Perception +11, Sense Motive +11, Stealth +15, Survival +9  ",
 			"**Languages** Common  ",
 			"**SQ** improvised weapon mastery, merge with ward, ward (minor works of civilization)",
@@ -61,7 +61,9 @@
 			"",
 			"Shikigami typically stand 2 feet tall and weigh 30 pounds, or 50 pounds when taking their statue forms. A spellcaster must have the Improved Familiar feat, an alignment of lawful neutral, and an arcane caster level of 7th or higher to gain a shikigami familiar. Whenever a shikigami becomes a familiar, it treats its master as its ward.",
 			"",
-			"**Family:** [Kami](family/kami)"
+			"**Family:** [Kami](family/kami)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"shikigami": { "copyof": "kami_shikigami" },
@@ -1865,7 +1867,7 @@
 			"",
 			"**Str** 20, **Dex** 23, **Con**: 18, **Int** 18, **Wis** 21, **Cha**, 23  ",
 			"**Base Atk** +9; **CMB** +15; **CMD** 31 (35 vs. trip)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials), [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Iron Will](feat/iron_will), [Weapon Focus (gore)](feat/weapon_focus)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials)[^B], [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Iron Will](feat/iron_will), [Weapon Focus (gore)](feat/weapon_focus)  ",
 			"**Skills** Diplomacy +15, Fly +20, Knowledge (history) +13, Perception +17, Perform (sing) +15, Sense Motive +14  ",
 			"**Languages** Abyssal, Auran, Celestial, Common, Draconic; telepathy 100 ft.",
 			"",
@@ -1893,7 +1895,9 @@
 			"- Breath Weapon: Damage increases by 1d6 for every 2 additional HD.",
 			"- Spellcasting: Increase sorcerer level (for the purpose of spells known and spells per day) by 1 per additional HD.",
 			"- Spell-Like Abilities: Increase caster level by +1 per additional HD.",
-			"- Spell Resistance: Increase by +1 per additional HD."
+			"- Spell Resistance: Increase by +1 per additional HD.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"kirrix": {
@@ -3365,7 +3369,7 @@
 			"",
 			"**Bombardment (Su)** A kudimmu can produce bloodfruit from its body, which are charged with negative energy and can be thrown as splash weapons. These bloodfruit deal 8d6 points of negative energy damage on a direct hit, and 8 points of damage to creatures adjacent to the targeted square. A successful DC 25 Will saving throw halves this damage. The save DC is Charisma-based.",
 			"",
-			"**Create Spawn (Su)** A creature killed by the kudimmu's blood drain ability or by Constitution damage accrued through consuming bloodfruit rises as a vampire spawn under the kudimmu's control 1d4 days later. A kudimmu can have a number of enslaved spawn totaling at most double its own Hit Dice; any spawn it creates that would exceed this limit become free-willed undead.",
+			"**Create Spawn (Su)** A creature killed by the kudimmu's blood drain ability or by Constitution damage accrued through consuming bloodfruit rises as a [vampire spawn](template/vampire_spawn) under the kudimmu's control 1d4 days later. A kudimmu can have a number of enslaved spawn totaling at most double its own Hit Dice; any spawn it creates that would exceed this limit become free-willed undead.",
 			"",
 			"**Fieldbound (Ex, Sp, Su)** A kudimmu can designate an area of natural vegetation up to 100 feet by 100 feet per side as its field, fusing the root systems of the area's plants into an interconnected mass. While in physical contact with the ground of its field, a kudimmu gains fast healing 15, tremorsense, and a 15-foot burrow speed. Additionally, the kudimmu can teleport to any location in its field as per dimension door. Spells and effects that attempt to alter the field's earth or vegetation must overcome the kudimmu's spell resistance to succeed. The kudimmu is physically dependent on its field, as the root system beneath it is in many ways an extension of the kudimmu's body. A kudimmu separated from its field for more than 24 hours instantly decays into a lump of inanimate matter. A kudimmu that is slain or destroyed reforms in the ground beneath its field in a process that takes 1d10 days to complete. To prevent a kudimmu from reviving, its field must be sown with salt or destroyed by magic (merely destroying the surface plants is not sufficient-the roots must also be entirely destroyed). A kudimmu must maintain its field with the blood of the living. The field must soak up the blood of a Medium or larger creature once per week. For each week the kudimmu fails to feed its field, it takes 2 points of Constitution damage. This damage cannot be healed until the kudimmu feeds its field. A kudimmu can designate a new field once per month in a process that takes 1 hour to complete. It can have only one active field at a time.",
 			"",
@@ -5057,7 +5061,7 @@
 			"",
 			"**Str** 23, **Dex** 12, **Con**: 21, **Int** 16, **Wis** 17, **Cha**, 14  ",
 			"**Base Atk** +9; **CMB** +16; **CMD** 27 (31 vs. trip)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Eschew Materials](feat/eschew_materials), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight), [Eschew Materials](feat/eschew_materials)[^B], [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack)  ",
 			"**Skills** Diplomacy +11, Fly +11, Knowledge (arcana) +12, Perception +15, Sense Motive +12  ",
 			"**Languages** Celestial, Common",
 			"",
@@ -5077,7 +5081,9 @@
 			"",
 			"Although most of these winged sentinels prove wise and knowledgeable about those who would seek to do evil in their lands, many races find lammasus arrogant, dismissive, and patronizing, taking umbrage at their superior attitudes and affectations. Such reactions confuse and sometimes insult these highly honorable creatures, who seek only to do good and aid those weaker than themselves. Lammasus who witness members of other races actively combating evil typically prove more sensitive and address such allies as equals. Should good-aligned creatures prove their skill and overcome any differences of attitude they might have with one of these majestic beings, they find a true and noble ally and an invaluable resource for those hoping to defeat evil.",
 			"",
-			"Lammasus are quite parental toward those who join their cause, bringing a lifetime of experience to any struggle. This often makes them stern, but those who know lammasus find them to be extremely caring about those they protect. A lammasu eagerly lays down its own life to protect those in peril if such a sacrifice might win the day. Most lammasus are 8 feet in length and weigh approximately 900 pounds."
+			"Lammasus are quite parental toward those who join their cause, bringing a lifetime of experience to any struggle. This often makes them stern, but those who know lammasus find them to be extremely caring about those they protect. A lammasu eagerly lays down its own life to protect those in peril if such a sacrifice might win the day. Most lammasus are 8 feet in length and weigh approximately 900 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"lamp_blighter": {

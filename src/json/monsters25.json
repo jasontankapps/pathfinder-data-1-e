@@ -1251,7 +1251,7 @@
 			"",
 			"**Str** 10, **Dex** 17, **Con**: 12, **Int** -, **Wis** 13, **Cha**, 5  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 15 (27 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**SQ** camouflage",
 			"",
 			"#### Ecology",
@@ -1278,7 +1278,9 @@
 			"",
 			"A mature plant consists of a torso-sized bulb with small, ambulatory roots and three large, lashing vines, each as long as a whip, with blade-like thorns that secrete an irritating toxin. When the weedwhip is blooming, the bulb is crowned with a large flower and its scent is especially strong, often attracting pollinating flies.",
 			"",
-			"In rocky areas lacking suitable soil, a weedwhip can root itself in a corpse, leading some adventurers to think it prefers feeding on dead bodies or plants seeds in its kills, but it does so only in extreme circumstances."
+			"In rocky areas lacking suitable soil, a weedwhip can root itself in a corpse, leading some adventurers to think it prefers feeding on dead bodies or plants seeds in its kills, but it does so only in extreme circumstances.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"wendigo": {
@@ -2493,7 +2495,7 @@
 			"",
 			"**Str** 8, **Dex** 15, **Con**: 8, **Int** 13, **Wis** 12, **Cha**, 11  ",
 			"**Base Atk** +3; **CMB** +3 (+5 steal); **CMD** 12 (14 vs. steal)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Flyby Attack](feat/flyby_attack), [Improved Steal](feat/improved_steal)  ",
+			"**Feats** [Combat Expertise](feat/combat_expertise), [Flyby Attack](feat/flyby_attack)[^B], [Improved Steal](feat/improved_steal)  ",
 			"**Skills** Fly +15, Knowledge (arcana) +2, Perception +6, Sleight of Hand +11, Spellcraft +3, Stealth +14; **Racial Modifiers** +8 Sleight of Hand  ",
 			"**Languages** Aklo, Common; speak with animals (birds only)",
 			"",
@@ -2519,7 +2521,9 @@
 			"",
 			"Witchcrows have an affinity for colder climes, and often masquerade as normal crows living in the fields and forests near the civilized settlements of other creatures. They particularly seek out magical societies where they can gain greater access to arcane items. On Golarion, this makes witchcrows most prevalent in Irrisen, where they've developed a terrible reputation-enough so that the witches of Irrisen (and the people they rule) both fear and revile the birds, marking them for destruction whenever they find them.",
 			"",
-			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings-or cast out of the flock entirely."
+			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings-or cast out of the flock entirely.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"witchcrow_greater_witchcrow": {
@@ -2556,7 +2560,7 @@
 			"",
 			"**Str** 12, **Dex** 17, **Con**: 12, **Int** 17, **Wis** 16, **Cha**, 13  ",
 			"**Base Atk** +5; **CMB** +5 (+7 steal); **CMD** 19 (21 vs. steal)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Steal](feat/improved_steal)  ",
+			"**Feats** [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack)[^B], [Improved Steal](feat/improved_steal)  ",
 			"**Skills** Bluff +5, Fly +15, Knowledge (arcana) +6, Perception +9, Sense Motive +6, Sleight of Hand +12, Spellcraft +6, Stealth +15; **Racial Modifiers** +8 Sleight of Hand  ",
 			"**Languages** Abyssal, Aklo, Auran, Common; speak with animals (birds only)  ",
 			"**SQ** apportation",
@@ -2591,7 +2595,9 @@
 			"",
 			"Witchcrows have an affinity for colder climes, and often masquerade as normal crows living in the fields and forests near the civilized settlements of other creatures. They particularly seek out magical societies where they can gain greater access to arcane items. On Golarion, this makes witchcrows most prevalent in Irrisen, where they've developed a terrible reputation-enough so that the witches of Irrisen (and the people they rule) both fear and revile the birds, marking them for destruction whenever they find them.",
 			"",
-			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings-or cast out of the flock entirely."
+			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings-or cast out of the flock entirely.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"greater_witchcrow": { "copyof": "witchcrow_greater_witchcrow" },
@@ -2699,7 +2705,7 @@
 			"",
 			"**Str** 16, **Dex** 15, **Con**: 17, **Int** 18, **Wis** 13, **Cha**, 20  ",
 			"**Base Atk** +8; **CMB** +11 (+15 grapple); **CMD** 23  ",
-			"**Feats** [Deflect Arrows](feat/deflect_arrows), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive)  ",
+			"**Feats** [Deflect Arrows](feat/deflect_arrows)[^B], [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive)  ",
 			"**Skills** Appraise +12, Bluff +13, Diplomacy +11, Intimidate +18, Knowledge (arcana) +12, Knowledge (geography) +12, Knowledge (planes) +12, Perception +8, Sense Motive +5, Use Magic Device +9  ",
 			"**Languages** Common, Draconic, one or more planar languages; tongues",
 			"",
@@ -2717,7 +2723,9 @@
 			"",
 			"#### Description",
 			"",
-			"Alien merchants that travel between planets and planes, witchwyrds stand 7 feet tall, weigh 300 pounds, and are covered in hairless blue-gray skin. Witchwyrds new to a market or eager to avoid identification during an important business deal fold their second sets of flexible arms behind their backs and dress in robes, the better to pass as a less-infamous humanoid race. Witchwyrds tend to prefer the driest, warmest regions of the areas they visit-perhaps an indicator of their mysterious home world."
+			"Alien merchants that travel between planets and planes, witchwyrds stand 7 feet tall, weigh 300 pounds, and are covered in hairless blue-gray skin. Witchwyrds new to a market or eager to avoid identification during an important business deal fold their second sets of flexible arms behind their backs and dress in robes, the better to pass as a less-infamous humanoid race. Witchwyrds tend to prefer the driest, warmest regions of the areas they visit-perhaps an indicator of their mysterious home world.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"wizard's_shackle": {
@@ -2965,7 +2973,7 @@
 			"",
 			"**Str** 17, **Dex** 10, **Con**: 17, **Int** 6, **Wis** 14, **Cha**, 7  ",
 			"**Base Atk** +9; **CMB** +12 (+18 grapple); **CMD** 22 (can't be tripped)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Greater Grapple](feat/greater_grapple), [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** [Great Fortitude](feat/great_fortitude), [Greater Grapple](feat/greater_grapple)[^B], [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Climb +15, Disguise -1 (+11 as tree stump), Knowledge (nature) +4, Perception +14, Sense Motive +8, Stealth +9; **Racial Modifiers** +12 Disguise as tree stump  ",
 			"**SQ** corpse lure",
 			"",
@@ -2989,7 +2997,9 @@
 			"",
 			"Though intelligent, these monsters see little need for the company of others. Their method of reproduction is as hideous as their tactic of using corpses as lures, for they implant their parasitic eggs in living hosts, giving their spawn a fresh meal to eat upon hatching.",
 			"",
-			"A wolf-in-sheep's-clothing is usually about 4 to 5 feet across and weighs 200 pounds."
+			"A wolf-in-sheep's-clothing is usually about 4 to 5 feet across and weighs 200 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"wolf_in_sheep's_clothing": { "copyof": "wolf-in-sheep's-clothing" },
@@ -3025,7 +3035,7 @@
 			"",
 			"**Str** 18, **Dex** 14, **Con**: 17, **Int** 2, **Wis** 11, **Cha**, 3  ",
 			"**Base Atk** +3; **CMB** +8; **CMD** 20 (32 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Run](feat/run), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** [Endurance](feat/endurance)[^B], [Run](feat/run), [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Climb +8, Perception +9",
 			"",
 			"#### Ecology",
@@ -3052,7 +3062,9 @@
 			"",
 			"Wolliped fleece is a versatile textile, as wolliped fibers wick water away, and still provide adequate warmth even when soaked. The variations in their coat colors and textures provide weavers with a wide array of design options.",
 			"",
-			"Wollipeds are known to use spitting as a form of communication, as well as a method of defense. Most wollipeds only spit at one another, typically in the course of their tusk-clashing shows of dominance, but when threatened, they can launch a nauseating wad of partially digested food at their attackers to sicken and distract them."
+			"Wollipeds are known to use spitting as a form of communication, as well as a method of defense. Most wollipeds only spit at one another, typically in the course of their tusk-clashing shows of dominance, but when threatened, they can launch a nauseating wad of partially digested food at their attackers to sicken and distract them.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"wolliped_wolliped_combat_trained": {
@@ -4617,7 +4629,7 @@
 			"",
 			"**Str** 20, **Dex** 17, **Con**: 19, **Int** -, **Wis** 12, **Cha**, 7  ",
 			"**Base Atk** +8; **CMB** +13 (+17 grapple); **CMD** 26 (34 vs. trip)  ",
-			"**Feats** [Improved Critical (claw)](feat/improved_critical)  ",
+			"**Feats** [Improved Critical (claw)](feat/improved_critical)[^B]  ",
 			"**Skills** Climb +13, Disguise +6 (+14 when disguised as a humanoid), Fly -5, Stealth +11; **Racial Modifiers** +8 Disguise (+16 when disguised as a humanoid), +8 Stealth  ",
 			"**SQ** entangling slime",
 			"",
@@ -4637,7 +4649,9 @@
 			"",
 			"Xenopterids are human-sized predatory insects with the insidious ability to mimic the form of their favorite prey-humanoids. Xenopterids can be encountered nearly anywhere they can find food, quickly adapting their mimicry to resemble whatever humanoids are most common in a particular region. They can bend their wings to form cowls and cloaks, and they can fold their limbs to imitate humanoids' weapons and armor. A xenopterid's eeriest feature is its mouth-a crude chitinous beak that, when closed, resembles a human face. Up close, the xenopterid's unsettling nature is obvious, but from a distance or in dim light, the creature easily passes for its prey. Because their mimicking abilities require concealment, xenopterids commonly hunt their prey at night. Once a xenopterid captures and kills a victim, it liquefies the creature's remains in order to bring the putrid slurry back to the hive where it stuffs this substance into small spherical capsules the creatures use as food. Some evil races prize these capsules, and make gruesome liquors by fermenting the contents.",
 			"",
-			"Xenopterids live in colonies in abandoned ruins, old castles, decrepit farmsteads, and similarly abandoned human structures. A colony typically consists of 19 to 28 sterile drones and a fertile hive king and hive queen (xenopterids with the advanced creature simple template). Each colony has only one fertile male, so xenopterids reproduce slowly. Still, the only way to destroy a xenopterid colony is to kill both the king and the queen, and neither one of them ever leaves the safety of the hive. Xenopterid drones become fiercely aggressive when defending the hive against invaders."
+			"Xenopterids live in colonies in abandoned ruins, old castles, decrepit farmsteads, and similarly abandoned human structures. A colony typically consists of 19 to 28 sterile drones and a fertile hive king and hive queen (xenopterids with the advanced creature simple template). Each colony has only one fertile male, so xenopterids reproduce slowly. Still, the only way to destroy a xenopterid colony is to kill both the king and the queen, and neither one of them ever leaves the safety of the hive. Xenopterid drones become fiercely aggressive when defending the hive against invaders.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"xiao": {
@@ -5214,7 +5228,7 @@
 			"",
 			"**Str** 32, **Dex** 18, **Con**: 26, **Int** 23, **Wis** 25, **Cha**, 21  ",
 			"**Base Atk** +12; **CMB** +24; **CMD** 50 (62 vs. trip)  ",
-			"**Feats** [Arcane Strike](feat/arcane_strike), [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Eschew Materials](feat/eschew_materials), [Greater Spell Focus (necromancy)](feat/greater_spell_focus), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Spell Focus (necromancy)](feat/spell_focus), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Arcane Strike](feat/arcane_strike), [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Eschew Materials](feat/eschew_materials)[^B], [Greater Spell Focus (necromancy)](feat/greater_spell_focus), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Spell Focus (necromancy)](feat/spell_focus), [Vital Strike](feat/vital_strike)  ",
 			"**Skills** Bluff +21, Diplomacy +13, Fly +21, Intimidate +24, Knowledge (arcana) +37, Knowledge (engineering) +37, Knowledge (geography) +37, Knowledge (planes) +37, Perception +26, Spellcraft +25, Use Magic Device +21  ",
 			"**Languages** Abyssal, Aklo, Common, Draconic, Infernal, Protean, Undercommon; telepathy 100 ft.  ",
 			"**SQ** brain collection, strange knowledge",
@@ -5253,7 +5267,9 @@
 			"",
 			"Yah-thelgaads are zealously devoted to the inscrutable causes of the Dominion of the Black, but they are also notoriously devout believers in that alliance's weird theology, worshiping a concept they refer to as the \"Ineffable Void,\" among other cryptic mysteries. It is not uncommon for yahthelgaads of high rank to also possess inquisitor or oracle levels, lording their authority and fanatical faith over those in their charge-the most powerful yah-thelgaads often take levels in mystic theurge to combine their class-based mastery of the divine with their stolen brains' arcane lore.",
 			"",
-			"Yah-thelgaads often supervise the Dominion of the Black's surgical and genetic engineers on major projects, pushing those agents to attempt greater and more horrific procedures. For all their legendary cruelty, however, yah-thelgaads don't appear to gain pleasure from such experiments. Indeed, they don't seem to feel any emotions at all on their own, but rather experience such sensations vicariously through the memories of the brains they've collected. In this way, the creatures know lust, fear, hatred, and pride without exposing their own minds to the disadvantages of being susceptible to mind-affecting effects."
+			"Yah-thelgaads often supervise the Dominion of the Black's surgical and genetic engineers on major projects, pushing those agents to attempt greater and more horrific procedures. For all their legendary cruelty, however, yah-thelgaads don't appear to gain pleasure from such experiments. Indeed, they don't seem to feel any emotions at all on their own, but rather experience such sensations vicariously through the memories of the brains they've collected. In this way, the creatures know lust, fear, hatred, and pride without exposing their own minds to the disadvantages of being susceptible to mind-affecting effects.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"yah_thelgaad": { "copyof": "yah-thelgaad" },
@@ -6423,7 +6439,7 @@
 			"",
 			"**Str** 17, **Dex** 12, **Con**: 13, **Int** 8, **Wis** 11, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +10 (+14 grapple, +12 sunder); **CMD** 21 (23 vs. sunder, 25 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Weapon Focus (claws)](feat/weapon_focus)  ",
+			"**Feats** [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder)[^B], [Power Attack](feat/power_attack), [Weapon Focus (claws)](feat/weapon_focus)  ",
 			"**Skills** Climb +12, Intimidate +9, Knowledge (planes) +5, Knowledge (religion) +5, Perception +9, Swim +16; **Racial Modifiers** +4 Swim  ",
 			"**Languages** Abyssal, Celestial; speak with animals (bears only)  ",
 			"**SQ** eat metal",
@@ -6448,7 +6464,9 @@
 			"",
 			"Zentragts revere metal, seeing all iron and steel as a portion of their divine master. To them, the act of eating metal is a form of communion in which they replenish their bodies with Gorum's enduring substance. As such, they go out of their way to collect rare metals and treat such ritual meals with uncharacteristic respect.",
 			"",
-			"On average, zentragts stand about 9 feet tall and weigh over 1,200 pounds."
+			"On average, zentragts stand about 9 feet tall and weigh over 1,200 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"zephyr": {
@@ -6576,7 +6594,7 @@
 			"",
 			"**Str** 12, **Dex** 9, **Con**: 13, **Int** -, **Wis** 10, **Cha**, 1  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 10  ",
-			"**Feats** [Blind-Fight](feat/blind-fight)  ",
+			"**Feats** [Blind-Fight](feat/blind-fight)[^B]  ",
 			"**Skills** Stealth -1 (+9 in swamps), Swim +9; **Racial Modifiers** +10 Stealth in swamps",
 			"",
 			"#### Ecology",
@@ -6603,7 +6621,9 @@
 			"",
 			"### Zhen Distillate",
 			"",
-			"Through alchemical processes, zhen worm mucus can be distilled into a preservative ointment. When spread liberally over a dead game animal, zhen distillate preserves the meat for 1 month. If left on for at least 3 days, the distillate dissolves away hair, nails, and skin, while leaving muscles and organs untouched. If not thoroughly washed away with wine or a similar alcoholic liquid, zhen distillate leaves behind a foul aftertaste. A flask of zhen distillate weighs 1 pound, costs 50 gp, and preserves the corpse of a Large creature. Each step up or down from Large doubles or halves, respectively, the amount of distillate needed. The mucus harvested from a single zhen worm can be processed into one flask of distillate with a successful DC 25 Craft (alchemy) check."
+			"Through alchemical processes, zhen worm mucus can be distilled into a preservative ointment. When spread liberally over a dead game animal, zhen distillate preserves the meat for 1 month. If left on for at least 3 days, the distillate dissolves away hair, nails, and skin, while leaving muscles and organs untouched. If not thoroughly washed away with wine or a similar alcoholic liquid, zhen distillate leaves behind a foul aftertaste. A flask of zhen distillate weighs 1 pound, costs 50 gp, and preserves the corpse of a Large creature. Each step up or down from Large doubles or halves, respectively, the amount of distillate needed. The mucus harvested from a single zhen worm can be processed into one flask of distillate with a successful DC 25 Craft (alchemy) check.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"zhyen": {

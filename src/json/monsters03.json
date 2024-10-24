@@ -597,7 +597,7 @@
 			"",
 			"**Str** 16, **Dex** 19, **Con**: -, **Int** 17, **Wis** 14, **Cha**, 18  ",
 			"**Base Atk** +9; **CMB** +12; **CMD** 26  ",
-			"**Feats** [Ability Focus (pain strike)](feat/ability_focus), [Dazzling Display](feat/dazzling_display), [Deceitful](feat/deceitful), [Improved Initiative](feat/improved_initiative), [Persuasive](feat/persuasive), [Shatter Defenses](feat/shatter_defenses), [Weapon Focus (dagger, slam)](feat/weapon_focus)  ",
+			"**Feats** [Ability Focus (pain strike)](feat/ability_focus), [Dazzling Display](feat/dazzling_display), [Deceitful](feat/deceitful)[^B], [Improved Initiative](feat/improved_initiative), [Persuasive](feat/persuasive)[^B], [Shatter Defenses](feat/shatter_defenses), [Weapon Focus (dagger, slam)](feat/weapon_focus)  ",
 			"**Skills** Bluff +18, Craft (alchemy) +13, Diplomacy +18, Disguise +14 (+24 when appearing to be alive), Intimidate +21, Knowledge (arcana, nobility) +11, Perception +15, Sense Motive +15, Stealth +13  ",
 			"**Languages** Common, Elven, Infernal, Jistkan  ",
 			"**SQ** blood well, bloody bath",
@@ -620,7 +620,9 @@
 			"",
 			"#### Description",
 			"",
-			"Baetriovs are unique occult vampires who use ancient vile rituals to store their life force in a pool of blood, which must be periodically refreshed by human sacrifice. So long as their blood wells remain fresh and intact, baetriovs can remain forever young and handsome, gathering cults of personality to provide new victims."
+			"Baetriovs are unique occult vampires who use ancient vile rituals to store their life force in a pool of blood, which must be periodically refreshed by human sacrifice. So long as their blood wells remain fresh and intact, baetriovs can remain forever young and handsome, gathering cults of personality to provide new victims.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"bagiennik": {
@@ -3004,7 +3006,7 @@
 			"",
 			"**Str** 14, **Dex** 12, **Con**: -, **Int** -, **Wis** 11, **Cha**, 15  ",
 			"**Base Atk** +3; **CMB** +4; **CMD** 15 (can't be tripped)  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack)  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack)[^B]  ",
 			"**Languages** Common",
 			"",
 			"#### Ecology",
@@ -3041,7 +3043,9 @@
 			"",
 			"Screaming (+0 CR): Once every 1d4 rounds, a screaming beheaded can open its jaw and emit a bone-chilling scream. All creatures within 30 feet must make a Will save or be shaken for 1d4 rounds. The save DC is equal to 10 + 1/2 the screaming skull's racial HD + the screaming skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same beheaded's scream for 24 hours.",
 			"",
-			"**Family:** [Beheaded](family/beheaded)"
+			"**Family:** [Beheaded](family/beheaded)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"medusa_head": { "copyof": "beheaded_medusa_head" },

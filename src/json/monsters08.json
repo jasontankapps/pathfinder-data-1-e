@@ -412,7 +412,7 @@
 			"",
 			"**Str** 22, **Dex** 13, **Con**: 17, **Int** 2, **Wis** 12, **Cha**, 7  ",
 			"**Base Atk** +5; **CMB** +12; **CMD** 23 (27 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (gore)](feat/weapon_focus)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes)[^B], [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (gore)](feat/weapon_focus)  ",
 			"**Skills** Perception +11",
 			"",
 			"#### Ecology",
@@ -431,7 +431,9 @@
 			"",
 			"A styracosaurus is 18 feet long and weighs nearly 3 tons.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** [Dinosaur](family/dinosaur)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"styracosaurus": { "copyof": "dinosaur_styracosaurus" },
@@ -1466,7 +1468,7 @@
 			"",
 			"**Str** 25, **Dex** 20, **Con**: 27, **Int** 19, **Wis** 19, **Cha**, 22  ",
 			"**Base Atk** +15; **CMB** +23; **CMD** 38  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Improved Critical (falchion)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Weapon Focus (falchion)](feat/weapon_focus)  ",
+			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows)[^B], [Improved Critical (falchion)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Weapon Focus (falchion)](feat/weapon_focus)  ",
 			"**Skills** Bluff +24, Fly +15, Intimidate +24, Knowledge (arcana) +19, Knowledge (planes) +22, Knowledge (religion) +15, Perception +22, Sense Motive +20, Spellcraft +22, Stealth +19, Use Magic Device +24  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** deflect rays",
@@ -1491,7 +1493,9 @@
 			"",
 			"Sepids stand 13 feet tall and weigh upward of 1,500 pounds.",
 			"",
-			"**Family:** [Div](family/div)"
+			"**Family:** [Div](family/div)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"sepid": { "copyof": "div_sepid" },
@@ -2003,7 +2007,7 @@
 			"",
 			"**Str** 12, **Dex** 11, **Con**: 14, **Int** 3, **Wis** 10, **Cha**, 5  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 11 (15 vs. trip)  ",
-			"**Feats** [Improved Critical (bite)](feat/improved_critical), [Weapon Focus (bite)](feat/weapon_focus), [Weapon Specialization (bite)](feat/weapon_specialization)  ",
+			"**Feats** [Improved Critical (bite)](feat/improved_critical)[^B], [Weapon Focus (bite)](feat/weapon_focus), [Weapon Specialization (bite)](feat/weapon_specialization)[^B]  ",
 			"**Skills** Climb +17, Perception +5; **Racial Modifiers** +8 Climb  ",
 			"**Languages** Aklo",
 			"",
@@ -2033,7 +2037,9 @@
 			"",
 			"Once one of these extremely tenacious creatures lays eyes on potential prey, it does not give up the chase until it or its target is dead, or enters or crosses a body of water. A dossenus cannot swim (it sinks to the bottom) and has an intense fear of deep water.",
 			"",
-			"Once every few generations, dossenuses gather in great numbers, sometimes in the thousands. After several weeks of worship, fasting, and frenzied mating, the creatures skitter forth as a massive swarm intent on devouring any living thing in their path."
+			"Once every few generations, dossenuses gather in great numbers, sometimes in the thousands. After several weeks of worship, fasting, and frenzied mating, the creatures skitter forth as a massive swarm intent on devouring any living thing in their path.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"dragon_black_adult_black_dragon": {
@@ -2772,7 +2778,7 @@
 			"**Speed** 40 ft., fly 200 ft. (poor); climb stone  ",
 			"**Melee** bite +21 (2d6+10/19-20), 2 claws +21 (1d8+7/19-20), 2 wings +16 (1d6+3), tail +16 (1d8+10)  ",
 			"**Space** 10 ft., **Reach** 5 ft. (10 ft. with bite)  ",
-			"**Special Attacks** b. weapon (80-ft. line, DC 22, 12d6 acid), slow breath  ",
+			"**Special Attacks** breath weapon (80-ft. line, DC 22, 12d6 acid), slow breath  ",
 			"**Spell-Like Abilities** (CL 15th)  ",
 			"*At will*-grease (DC 15), hideous laughter (DC 16), stone shape  ",
 			"**Spells Known ** (CL 7th)  ",

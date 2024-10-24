@@ -1035,7 +1035,7 @@
 			"",
 			"**Str** 6, **Dex** 15, **Con**: 9, **Int** 11, **Wis** 10, **Cha**, 14  ",
 			"**Base Atk** +1; **CMB** +1 (+3 grapple, +11 when maintaining grapple with ribbon); **CMD** 9 (11 vs. grapple, 17 vs. trip)  ",
-			"**Feats** [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** [Improved Grapple](feat/improved_grapple)[^B], [Improved Initiative](feat/improved_initiative)  ",
 			"**Skills** Climb +10, Knowledge (arcana) +4, Knowledge (history) +4, Knowledge (planes) +4, Perception +4, Sense Motive +4  ",
 			"**Languages** truespeech (can't speak)  ",
 			"**SQ** transcription",
@@ -1076,7 +1076,9 @@
 			"",
 			"Most inhabitants of Axis are powerful enough to pay gishvits little more heed than a creature from the Material Plane would associate with most common vermin. Despite the creatures' lowly status, several factions on the lawful plane employ gishvits as negotiation tools or unintentional spies. In these roles, the little gishvits excel, as they are able to extract knowledge from negotiators and put it to paper or collect valuable and accurate information from stationed guards. Still, many creatures on Axis have far more reliable means of extracting information, so they instead relegate gishvits to a pitiable status as planar vermin. It is not uncommon for an eager gishvit to pester a creature enjoying a meal inside one of Axis's many restaurants to spend time with it in hopes of adding lore to its pages, or for a patron of the plane's many archives to find herself accosted by a whipping bookmark tongue when she picks it up by accident while the creature was resting on a shelf.",
 			"",
-			"On both Axis and the Material Plane, a satiated gishvit quickly enters a state of gradual torpor, followed by a period of hibernation. Such gishvits often seek to rest in large archives or repositories, hiding among hundreds or thousands of similar-looking mundane books. They then wait for centuries at a time, content to rest with the knowledge they have digested. After several centuries, a gishvit willingly discards its digested knowledge. It is then instinctually compelled to repeat the process of acquiring and digesting new information. Sadly for the gishvit, it often finds itself trapped in a now-long forgotten archive, unable to escape. In these unfortunate circumstances, the next creatures to enter the gishvit's sealed-off home are immediately assaulted by the knowledge-ravenous creatures."
+			"On both Axis and the Material Plane, a satiated gishvit quickly enters a state of gradual torpor, followed by a period of hibernation. Such gishvits often seek to rest in large archives or repositories, hiding among hundreds or thousands of similar-looking mundane books. They then wait for centuries at a time, content to rest with the knowledge they have digested. After several centuries, a gishvit willingly discards its digested knowledge. It is then instinctually compelled to repeat the process of acquiring and digesting new information. Sadly for the gishvit, it often finds itself trapped in a now-long forgotten archive, unable to escape. In these unfortunate circumstances, the next creatures to enter the gishvit's sealed-off home are immediately assaulted by the knowledge-ravenous creatures.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"gliding_tutle": {
@@ -2331,7 +2333,7 @@
 			"",
 			"**Str** 14, **Dex** 15, **Con**: 14, **Int** 9, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 14 (can't be tripped)  ",
-			"**Feats** [Lunge](feat/lunge), [Skill Focus (Bluff)](feat/skill_focus)  ",
+			"**Feats** [Lunge](feat/lunge)[^B], [Skill Focus (Bluff)](feat/skill_focus)  ",
 			"**Skills** Bluff +6, Intimidate +5, Knowledge (local) +3, Perception +5, Stealth +10  ",
 			"**Languages** Common, Goblin  ",
 			"**SQ** snake empathy +7",
@@ -2358,7 +2360,9 @@
 			"",
 			"Although goblin snakes are not as smart as goblins, their terrifying shape allows them to take positions of inflated prominence within goblin society. Fearful goblins typically defer to the beasts, which well suits the goblin snakes' innate arrogance and sense of superiority. Goblin snakes affiliated with goblin tribes usually treat their goblin associates as servants at best and slaves at worst.",
 			"",
-			"Goblin snakes share goblins' fear of horses (who could easily step on and crush an unwary goblin snake) and love of fire (though their lack of arms gives them little opportunity to indulge in arson), but they are not as superstitious as goblins. Goblin snakes eagerly embrace magic if given the opportunity, and it is not uncommon for a goblin snake with adept, cleric, oracle, or sorcerer class levels to serve as a goblin tribe's shaman or high priest."
+			"Goblin snakes share goblins' fear of horses (who could easily step on and crush an unwary goblin snake) and love of fire (though their lack of arms gives them little opportunity to indulge in arson), but they are not as superstitious as goblins. Goblin snakes eagerly embrace magic if given the opportunity, and it is not uncommon for a goblin snake with adept, cleric, oracle, or sorcerer class levels to serve as a goblin tribe's shaman or high priest.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"goblin_goblin_chief": {
@@ -3453,7 +3457,7 @@
 			"",
 			"**Str** 18, **Dex** 15, **Con**: -, **Int** -, **Wis** 10, **Cha**, 1  ",
 			"**Base Atk** +11; **CMB** +16 (+20 disarm or grapple); **CMD** 28  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]",
 			"",
 			"#### Ecology",
 			"",
@@ -3483,7 +3487,9 @@
 			"",
 			"**CL** 9th; **Price** 41,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, limited wish, telekinesis, and either animate dead or animate objects, creator must be at least caster level 9th; Skill Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp"
+			"**Requirements** Craft Construct, geas/quest, limited wish, telekinesis, and either animate dead or animate objects, creator must be at least caster level 9th; Skill Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"bone_golem": { "copyof": "golem_bone_golem" },
@@ -3600,7 +3606,7 @@
 			"",
 			"**Str** 30, **Dex** 24, **Con**: -, **Int** -, **Wis** 15, **Cha**, 2  ",
 			"**Base Atk** +20; **CMB** +31; **CMD** 48  ",
-			"**Feats** [Improved Critical (cannon)](feat/improved_critical)  ",
+			"**Feats** [Improved Critical (cannon)](feat/improved_critical)[^B]  ",
 			"**SQ** alloyed, blasting critical, gun training",
 			"",
 			"#### Ecology",
@@ -3636,7 +3642,9 @@
 			"",
 			"**CL** 17th; **Price** 200,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, limited wish, plane shift or secret chest, creator must be caster level 17th; Skill Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp"
+			"**Requirements** Craft Construct, geas/quest, limited wish, plane shift or secret chest, creator must be caster level 17th; Skill Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"cannon_golem": { "copyof": "golem_cannon_golem" },
@@ -3893,7 +3901,7 @@
 			"",
 			"**Str** 24, **Dex** 11, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +12; **CMB** +20; **CMD** 30  ",
-			"**Feats** [Improved Critical (claw)](feat/improved_critical)  ",
+			"**Feats** [Improved Critical (claw)](feat/improved_critical)[^B]  ",
 			"**SQ** aquatic reconstruction, powerful blows (slam)",
 			"",
 			"#### Ecology",
@@ -3925,7 +3933,9 @@
 			"",
 			"**CL** 11th; **Price** 57,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, geas/quest, keen edge, limited wish, water breathing, creator must be caster level 11th; Skill Craft (sculpture) DC 15; **Cost** 30,500 gp"
+			"**Requirements** Craft Construct, animate object, geas/quest, keen edge, limited wish, water breathing, creator must be caster level 11th; Skill Craft (sculpture) DC 15; **Cost** 30,500 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"coral_golem": { "copyof": "golem_coral_golem" },
@@ -4136,7 +4146,7 @@
 			"",
 			"**Str** 22, **Dex** 15, **Con**: -, **Int** -, **Wis** 10, **Cha**, 1  ",
 			"**Base Atk** +16; **CMB** +23; **CMD** 35 (39 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)",
+			"**Feats** [Improved Initiative](feat/improved_initiative)[^B]",
 			"",
 			"#### Special Abilities",
 			"",
@@ -4158,7 +4168,9 @@
 			"",
 			"Destrier Bone Golem (CR +1): A destrier bone golem is fashioned with metal plates to resemble barding, although these plates primarily serve to bolster the golem's structural integrity rather than deflect blows. A destrier bone golem gains a +2 armor bonus to its AC, 20 additional hit points, and [Improved Natural Attack](feat/improved_natural_attack) as a bonus feat for each of its natural attacks.",
 			"",
-			"**Family:** [Golem](family/golem)"
+			"**Family:** [Golem](family/golem)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"equine_bone_golem": { "copyof": "golem_equine_bone_golem" },
@@ -4282,7 +4294,7 @@
 			"",
 			"**Str** 25, **Dex** 13, **Con**: -, **Int** -, **Wis** 10, **Cha**, 1  ",
 			"**Base Atk** +15; **CMB** +24; **CMD** 35  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes)",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes)[^B]",
 			"",
 			"#### Ecology",
 			"",
@@ -4313,7 +4325,9 @@
 			"",
 			"**CL** 15th; **Price** 125,000 gp",
 			"",
-			"**Requirements** Craft Construct, flesh to stone, geas/quest, limited wish, stone shape, creator must be at least caster level 15th; Skill Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp"
+			"**Requirements** Craft Construct, flesh to stone, geas/quest, limited wish, stone shape, creator must be at least caster level 15th; Skill Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"fossil_golem": { "copyof": "golem_fossil_golem" },
@@ -5218,7 +5232,7 @@
 			"",
 			"**Str** 33, **Dex** 24, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +24; **CMB** +37; **CMD** 55  ",
-			"**Feats** [Dodge](feat/dodge), [Mobility](feat/mobility), [Run](feat/run), [Spring Attack](feat/spring_attack)",
+			"**Feats** [Dodge](feat/dodge)[^B], [Mobility](feat/mobility)[^B], [Run](feat/run)[^B], [Spring Attack](feat/spring_attack)[^B]",
 			"",
 			"#### Ecology",
 			"",
@@ -5250,7 +5264,9 @@
 			"",
 			"**CL** 18th; **Price** 250,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, geas/quest, haste, polymorph any object, wish, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp"
+			"**Requirements** Craft Construct, animate objects, geas/quest, haste, polymorph any object, wish, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"mithral_golem": { "copyof": "golem_mithral_golem" },
@@ -5291,7 +5307,7 @@
 			"",
 			"**Str** 36, **Dex** 15, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +25; **CMB** +40; **CMD** 52  ",
-			"**Feats** [Toughness](feat/toughness)",
+			"**Feats** [Toughness](feat/toughness)[^B]",
 			"",
 			"#### Ecology",
 			"",
@@ -5328,7 +5344,9 @@
 			"",
 			"A noqual golem's body is sculpted from 30,000 pounds of iron alloyed with 1,000 pounds of noqual at the staggering cost of 53,000 gp.",
 			"",
-			"**CL** 18th; **Price** 253,000 gp; **Requirements** Craft Construct, geas/quest, greater dispel magic, polymorph any object, wish, creator must be caster level 18th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp"
+			"**CL** 18th; **Price** 253,000 gp; **Requirements** Craft Construct, geas/quest, greater dispel magic, polymorph any object, wish, creator must be caster level 18th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"noqual_golem": { "copyof": "golem_noqual_golem" },

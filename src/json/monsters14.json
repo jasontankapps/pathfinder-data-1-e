@@ -1153,7 +1153,7 @@
 			"",
 			"**Str** 19, **Dex** 14, **Con**: 20, **Int** 2, **Wis** 13, **Cha**, 11  ",
 			"**Base Atk** +12; **CMB** +18; **CMD** 30 (34 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Improved Natural Attack (bite)](feat/improved_natural_attack), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Toughness](feat/toughness), [Snatch](feat/snatch)  ",
+			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Improved Natural Attack (bite)](feat/improved_natural_attack), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Toughness](feat/toughness)[^B], [Snatch](feat/snatch)[^B]  ",
 			"**Skills** Perception +12, Swim +21; **Racial Modifiers** +2 Perception  ",
 			"**SQ** bloodspray, hydra traits, regenerate head",
 			"",
@@ -1171,7 +1171,9 @@
 			"",
 			"West of Kokutang in the Sodden Lands, there lies the remains of a once-proud and now-nameless village, destroyed when the massive Eye of Abendego consumed the gulf and buried the young nation of Yamasa and its secrets more than 100 years ago. Within the flooded ruins of this small settlement, the miasma hydra known to local Koboto tribespeople as Dhirgiska scavenges the wreckage and makes its lair in the vast caverns carved out of the marshy earth beneath the village. Attacking any who dare to near the destroyed village, the hydra has made it impossible for the people of Kokutang to fully explore the ruins and discover what importance the site once held for their people, if any. It is unknown what drives Dhirgiska to protect its lair so fervently, and some think that the beast was left by the deceased people of the village in order to protect their secrets and treasures. Whatever the case, it is well known that those who dare face the ruins and the beast that dwells within rarely come back alive.",
 			"",
-			"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes."
+			"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"dhirgiska": { "copyof": "hydra_dhirgiska" },
@@ -2144,7 +2146,7 @@
 			"",
 			"**Str** 16, **Dex** 11, **Con**: -, **Int** 5, **Wis** 13, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +6 (+8 drag); **CMD** 16 (18 vs. drag)  ",
-			"**Feats** [Improved Drag](feat/improved_drag), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
+			"**Feats** [Improved Drag](feat/improved_drag)[^B], [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
 			"**Skills** Perception +6, Stealth +5  ",
 			"**Languages** Common (can't speak)",
 			"",
@@ -2170,7 +2172,9 @@
 			"",
 			"While an accidental live burial can trigger the birth of an immured, most of these unfortunates are brought about by purposeful malevolence, such as being walled in as a form of torture or execution in life. In cultures obsessed with undeath or the afterlife, living servants are sometimes honored by being entombed with their masters, which can create immured.",
 			"",
-			"An immured is 6 feet tall and weighs 100 pounds."
+			"An immured is 6 feet tall and weighs 100 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"impaler_shrike": {
@@ -2704,7 +2708,7 @@
 			"",
 			"**Str** 11, **Dex** 16, **Con**: 14, **Int** 11, **Wis** 11, **Cha**, 14  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 13  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Flyby Attack](feat/flyby_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Diplomacy +7, Fly +12, Knowledge (planes) +5, Perception +5, Sense Motive +5, Stealth +16  ",
 			"**Languages** truespeech  ",
 			"**SQ** locate inevitable",
@@ -2733,7 +2737,9 @@
 			"",
 			"An arbiter inevitable can serve a spellcaster as a familiar. Such a spellcaster must be lawful neutral, must be at least caster level 7th, and must have the Improved Familiar feat. Arbiter inevitables measure 1 foot in diameter but are surprisingly heavy, weighing 60 pounds. Their ability to fly on metal wings is as much a supernatural ability as a physical one.",
 			"",
-			"**Family:** [Inevitable](family/inevitable)"
+			"**Family:** [Inevitable](family/inevitable)",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"arbiter": { "copyof": "inevitable_arbiter" },
@@ -4675,7 +4681,7 @@
 			"",
 			"**Str** 10, **Dex** 12, **Con**: 15, **Int** -, **Wis** 10, **Cha**, 1  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 9 (can't be tripped)  ",
-			"**Feats** [toughness](feat/toughness)  ",
+			"**Feats** [toughness](feat/toughness)[^B]  ",
 			"**Skills** Swim +9  ",
 			"**SQ** air bell, compression",
 			"",
@@ -4693,7 +4699,9 @@
 			"",
 			"#### Description",
 			"",
-			"Bathysphere jellyfish have the unique ability to create pockets of musty but breathable air in even the deepest ocean regions. These jellyfish can be dangerous to individuals who fall unconscious while using these creatures to breathe underwater. The jellyfish instinctively strive to protect their hosts, but horror stories of travelers trapped by the creatures can make an adventurer think twice before allowing the vermin on his head. A bathysphere jellyfish is 1 foot long and weighs 5 pounds."
+			"Bathysphere jellyfish have the unique ability to create pockets of musty but breathable air in even the deepest ocean regions. These jellyfish can be dangerous to individuals who fall unconscious while using these creatures to breathe underwater. The jellyfish instinctively strive to protect their hosts, but horror stories of travelers trapped by the creatures can make an adventurer think twice before allowing the vermin on his head. A bathysphere jellyfish is 1 foot long and weighs 5 pounds.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"bathysphere": { "copyof": "jellyfish_bathysphere" },

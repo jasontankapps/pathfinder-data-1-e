@@ -983,7 +983,7 @@
 			"",
 			"**Str** 2, **Dex** 14, **Con**: 10, **Int** -, **Wis** 11, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Fly +10, Stealth +12; **Racial Modifiers** +4 Stealth",
 			"",
 			"#### Ecology",
@@ -1000,7 +1000,9 @@
 			"",
 			"#### Description",
 			"",
-			"Botflies are perhaps the most disgusting vermin native to the Expanse. Explorers tell sickening tales of removing maggots from living hosts-or worse, comrades eaten alive by larvae. Once a botfly finds a warm-blooded host, it uses its proboscis to insert eggs into the host's flesh. When the eggs hatch, the larvae feed upon the host until they mature into adult flies and exit."
+			"Botflies are perhaps the most disgusting vermin native to the Expanse. Explorers tell sickening tales of removing maggots from living hosts-or worse, comrades eaten alive by larvae. Once a botfly finds a warm-blooded host, it uses its proboscis to insert eggs into the host's flesh. When the eggs hatch, the larvae feed upon the host until they mature into adult flies and exit.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"giant_botfly": { "copyof": "botfly_giant_botfly" },
@@ -2316,7 +2318,7 @@
 			"",
 			"**Str** 6, **Dex** 13, **Con**: 12, **Int** 15, **Wis** 10, **Cha**, 11  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 7  ",
-			"**Feats** [Ability Focus (disassemble)](feat/ability_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Ability Focus (disassemble)](feat/ability_focus), [Toughness](feat/toughness)[^B], [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Appraise +3, Climb +2, Craft (alchemy) +6, Disable Device +10, Knowledge (engineering) +7, Perception +4, Stealth +13, Use Magic Device +4; **Racial Modifiers** +8 Disable Device, +4 Knowledge (engineering)  ",
 			"**Languages** Common, First Speech, Gnome",
 			"",
@@ -2338,7 +2340,9 @@
 			"",
 			"Though they have an uncanny ability to target the weak points of their enemies' weapons and armor, bulabars hate seeing a useful mechanism broken, and are quick to repair any damaged items as soon as hostilities have ended. More often, bulabars prefer to attack from afar with ranged weapons or alchemical items they can throw-the more unusual, the better- and those bulabars with the opportunity to study alchemists, gunslingers, and other such adventurers often take levels in those classes themselves.",
 			"",
-			"The average bulabar is 2 feet tall and weighs 20 pounds. Most bulabars can't bear to be parted from their tools and instruments for even a short time, and can usually be found wearing bandoliers, backpacks, and utility belts crammed with useful devices and spare parts."
+			"The average bulabar is 2 feet tall and weighs 20 pounds. Most bulabars can't bear to be parted from their tools and instruments for even a short time, and can usually be found wearing bandoliers, backpacks, and utility belts crammed with useful devices and spare parts.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"bulette": {
@@ -5071,7 +5075,7 @@
 			"",
 			"**Str** 20, **Dex** 16, **Con**: 22, **Int** 9, **Wis** 16, **Cha**, 12  ",
 			"**Base Atk** +15; **CMB** +21; **CMD** 35 (39 vs. trip)  ",
-			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Cavalry Formation](feat/cavalry_formation), [Dazzling Display](feat/dazzling_display), [Lookout](feat/lookout), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw), [Ride-By Attack](feat/ride-by_attack), [Spirited Charge](feat/spirited_charge), [Weapon Focus (lance)](feat/weapon_focus), [Weapon Focus (hooves)](feat/weapon_focus)  ",
+			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Cavalry Formation](feat/cavalry_formation), [Dazzling Display](feat/dazzling_display)[^B], [Lookout](feat/lookout), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw), [Ride-By Attack](feat/ride-by_attack), [Spirited Charge](feat/spirited_charge), [Weapon Focus (lance)](feat/weapon_focus), [Weapon Focus (hooves)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +13 (+25 when jumping), Bluff +10, Intimidate +13, Knowledge (nature) +3, Perception +10, Sense Motive +11, Survival +11  ",
 			"**Languages** Common, Elven, Sylvan  ",
 			"**SQ** courser, greater tactician (3/day, 8 rounds, swift action), natural mount, order of the cockatrice (braggart, steal glory), undersized weapons  ",
@@ -5087,7 +5091,9 @@
 			"",
 			"The relative rarity of steel tools among centaurs-with most tribes reluctant to settle down long enough to mine, smelt, or forge metal goods-speaks to the prestige afforded to chargers. Theirs is a lifestyle almost entirely dependant on the settled races they so often clash against. Many chargers depend on elven communities to outfit them, in exchange for using their martial skills to protect a settlement, hunt a menacing beast, or serve short terms as escorts or-most humiliatingly-mounts. Rarer but more terrifying are chargers outfitted by dwarves, who hone their combat skills in dwarven surface wars against orcs and giants.",
 			"",
-			"These warriors also serve their tribes as advisors. While they lack the skills to effectively lead in peacetime, they may assume control temporarily and without question when outside threats press into centaur lands."
+			"These warriors also serve their tribes as advisors. While they lack the skills to effectively lead in peacetime, they may assume control temporarily and without question when outside threats press into centaur lands.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"centaur_charger": { "copyof": "centaur_centaur_charger" },
@@ -5389,7 +5395,7 @@
 			"",
 			"**Str** 1, **Dex** 19, **Con**: 8, **Int** -, **Wis** 10, **Cha**, 2  ",
 			"**Base Atk** +6; **CMB** -; **CMD** -  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
 			"**Skills** Climb +12, Perception +4; **Racial Modifiers** +4 Perception",
 			"",
 			"#### Ecology",
@@ -5415,7 +5421,9 @@
 			"| Hissing centipede | 1 | Large | 2d8 |",
 			"| Giant whiptail centipede | 2 | Huge | 4d8 |",
 			"| Great forest centipede | 6 | Gargantuan | 7d8 |",
-			"| Titan centipede | 9 | Colossal | 10d8 |"
+			"| Titan centipede | 9 | Colossal | 10d8 |",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"centipede_swarm": { "copyof": "centipede_centipede_swarm" },
@@ -6687,7 +6695,7 @@
 			"",
 			"**Str** 15, **Dex** 13, **Con**: 14, **Int** 8, **Wis** 12, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 14  ",
-			"**Feats** [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Throw Anything](feat/throw_anything)[^B]  ",
 			"**Skills** Climb +14, Fly +0, Perception +2, Stealth +10; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Abyssal, Polyglot",
 			"",
@@ -6709,7 +6717,9 @@
 			"",
 			"Today, the charau-ka are one of the most fecund and widespread races of creatures in the Mwangi Expanse. Not all of them serve the Gorilla King or worship Angazhan; some have become feral monsters little more organized than apes, while others may have turned to the worship of other demon lords or even the snake-god Ydersius.",
 			"",
-			"Charau-ka generally dwell in small tribes of a few dozen members. They often keep dangerous jungle creatures as pets or guardians, trusting to their druids or animal handlers to keep the deadly beasts under control. A typical charau-ka village extends from the jungle floor up into the canopy above, and usually includes several treehouse-style structures connected by vines or rope bridges."
+			"Charau-ka generally dwell in small tribes of a few dozen members. They often keep dangerous jungle creatures as pets or guardians, trusting to their druids or animal handlers to keep the deadly beasts under control. A typical charau-ka village extends from the jungle floor up into the canopy above, and usually includes several treehouse-style structures connected by vines or rope bridges.",
+			"",
+			"[^B]: Bonus feat."
 		]
 	},
 	"charau_ka": { "copyof": "charau-ka" },
@@ -6809,7 +6819,7 @@
 			"",
 			"**Str** 13, **Dex** 15, **Con**: 16, **Int** 8, **Wis** 16, **Cha**, 16  ",
 			"**Base Atk** +5; **CMB** +5; **CMD** 18  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Improved Natural Armor](feat/improved_natural_armor), [Point-Blank Shot](feat/point-blank_shot), [Selective Channeling](feat/selective_channeling), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** [Combat Casting](feat/combat_casting), [Improved Natural Armor](feat/improved_natural_armor), [Point-Blank Shot](feat/point-blank_shot), [Selective Channeling](feat/selective_channeling), [Throw Anything](feat/throw_anything)[^B]  ",
 			"**Skills** Climb +11, Knowledge (religion) +4, Perception +4, Spellcraft +6, Stealth +8; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Abyssal, Polyglot  ",
 			"**Combat Gear** scroll of cure moderate wounds, scrolls of invisibility (2); **Other Gear** +1 hide armor, +1 spear, ring of protection +1, ivory holy symbol worth 30 gp, mwk manacles",
@@ -6828,7 +6838,8 @@
 			"",
 			"Every devotee of the Ravener King journeys through the Mwangi Expanse at least once every few months in search of victims transformed into trees by tobongos. Using rituals revealed by the Gorilla King, devotees bathe these new plants with ape blood, transforming them into corrupted fetishes capable of draining the life force from others. Angazhan is said to occasionally look upon the realm and reward the most productive creators of these chaotic totems of decay with his fiendish blessing. The charau-ka's already fiercely territorial nature rises to unbridled levels when tribes compete to gain their god's favor.",
 			"",
-			"[^D]: Domain spell"
+			"[^D]: Domain spell",
+			"[^B]: Bonus feat."
 		]
 	},
 	"devotee_of_the_ravener_king": { "copyof": "charau-ka_devotee_of_the_ravener_king" },

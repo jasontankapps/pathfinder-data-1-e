@@ -2571,7 +2571,6 @@
 					[ [ "monster/forgefiend_scanderig", "Forgefiend (Scanderig)" ], "outsider", [ 5, "large" ], 10, 24, 14, 25, 15, 12, 15, 11, 19, 31 ],
 					[ [ "monster/formian_formian_myrmarch", "Formian, Formian Myrmarch" ], "monstrous humanoid", [ 5, "large" ], 10, 20, 19, 20, 17, 16, 17, 12, 18, 35 ],
 					[ [ "monster/formless_spawn", "Formless Spawn" ], "ooze", [ 6, "huge" ], 10, 23, 29, 22, 15, 12, 15, 9, 17, 36 ],
-					[ [ "monster/frostfallen_creature_frostfallen_mammoth", "Frostfallen Creature, Frostfallen Mammoth" ], "undead", [ 6, "huge" ], 10, 36, 12, [-1, "&mdash;"], [-1, "&mdash;"], 10, 12, 10, 25, 36 ],
 					[ [ "monster/gargiya", "Gargiya" ], "magical beast", [ 6, "huge" ], 10, 31, 13, 23, 2, 10, 10, 12, 24, 35 ],
 					[ [ "monster/gargoyle_gargoyle_abductor", "Gargoyle, Gargoyle Abductor" ], "monstrous humanoid", [ 4, "medium" ], 10, 20, 18, 18, 8, 9, 7, 10, 15, 30 ],
 					[ [ "monster/garipan", "Garipan" ], "outsider", [ 4, "medium" ], 10, 16, 15, 18, 13, 14, 13, 14, 17, 30 ],
