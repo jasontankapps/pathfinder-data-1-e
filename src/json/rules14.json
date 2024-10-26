@@ -9305,345 +9305,544 @@
 			"variant_mobile_melee"
 		]
 	},
-	"dungeons_gg": {
-		"name": "Dungeons",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"mythic_magic_items": {
+		"name": "Mythic Magic Items",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 140](source/mythic_adventures)",
 			"",
-			"One of the most beloved and common adventuring sites in the game is the dungeon. In the Pathfinder Roleplaying Game, the word \"dungeon\" has a much wider definition than merely an underground prison cell; instead, \"dungeon\" in this section refers to a connected series of rooms and hallways within which are scattered numerous encounters with monsters, traps, and other challenges. A dungeon, under this definition, could be the underground levels of a fortress, the fortress itself, a series of caverns, a basement under a house, the house itself, a lonely tower in the woods, a shipwreck, a treasure vault, an abandoned crypt, or any other location that has a series of hard boundaries to limit exploration. Generally, these boundaries are represented by solid walls, but in some cases they can be dense vegetation (such as in a hedge maze), treacherous cliffs (for a series of mountain ledges), or even a fence enclosing a large area (like a graveyard). The key defining feature of a dungeon is simply that the encounter areas are connected and self-contained.",
-			"",
-			"There's a reason that dungeons are so common in the game: they represent the simplest method of constructing an adventure, since a dungeon map really is nothing more than a flow chart. At their most basic, the chambers of a dungeon represent decision points and the hallways represent paths between those points. The layout of a dungeon removes many variables from the game, allowing the GM to focus on a limited number of areas that he knows the PCs are likely to visit. Since you know what rooms and what routes are available before the game even begins, you can prepare for encounters much more easily than you can for an adventure set in a city or the wilderness, where the flow chart concept is no longer literally represented by the solid stone walls and becomes more of an abstract guide for plotting purposes."
+			"Just as their non-mythic counterparts, mythic characters use magic to aid them in their daring quests, but they can utilize some magic items in more powerful ways. In addition, mythic characters encounter artifacts somewhat more often, as such legendary items are often intertwined in their sagas."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures"
+			"optional_rules_systems",
+			"mythic_rules"
 		],
 		"subtopics": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"magic_items_ma",
+			"legendary_items"
 		],
 		"siblings": [
-			"elements_of_adventure",
-			"dungeons_gg",
-			"planar",
-			"taverns",
-			"urban",
-			"water",
-			"wilderness_gg"
+			"what_is_mythic",
+			"mythic_heroes",
+			"mythic_feats",
+			"mythic_spells",
+			"running_a_mythic_game",
+			"mythic_magic_items",
+			"mythic_monsters"
 		]
 	},
-	"the_dungeon_concept": {
-		"name": "The Dungeon Concept",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"magic_items_ma": {
+		"name": "Magic Items",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 142](source/mythic_adventures)",
 			"",
-			"Just because dungeons are some of the simplest adventure sites to build and run doesn't mean that they need to be simplistic. A dungeon can be quite complex, filled with intrigue and dynamic elements. The first thing to do when creating a dungeon for your players to explore is to decide on the dungeon's basic concept: what kind of dungeon it is. Are you building an underground complex of chambers below a ruined castle occupied by a tribe of goblins? Is the dungeon a series of caves burrowing through a volcanic mountain ruled by fire giants? Is it an immense shipwreck at the bottom of the sea? A wizard's tower that has sunk into a swamp? A haunted mine? A partially collapsed manor? A dragon's lair? Choosing a basic concept for your dungeon at the beginning helps guide the creative process of mapping and populating it."
+			"Though most items associated with mythic characters and monsters are artifacts in their own right, lesser magic items still help mythic creatures with their powers or aid normal creatures in resisting the power of mythic foes."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_magic_items"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"magic_items_ma",
+			"legendary_items"
 		]
 	},
-	"drawing_a_dungeon_map": {
-		"name": "Drawing a Dungeon Map",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"legendary_items": {
+		"name": "Legendary Items",
+		"subtitle": "Mythic",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
 			"",
-			"For the same reasons it's good to outline a story before writing it, it's good to create the map of your dungeon before populating it with encounters. The map is the outline of the dungeon adventure, after all; in drawing the map, you set the boundaries of what your adventure will contain. You should certainly have a general idea of the types of encounters your dungeon will need when you start, but don't be afraid to let the dungeon drawing itself inspire you as well.",
+			"Mythic heroes are known for their trials and the incredible deeds they accomplish during those trials. These trials are often acts of great courage or defiance in the face of insurmountable adversity. Many legendary magic items become so intrinsically tied to a hero's trials that it's hard to separate the legend of the hero from the legend of the item.",
 			"",
-			"One important thing to realize at the outset is that your dungeon map doesn't have to be pretty - it merely has to be legible and understandable to you or whoever will be using the map. Nonetheless, cultivating some skill at cartography can really help you keep yourself organized; it's easier to come back to a legible map you drew years ago than it is to one that's barely more than chicken scratchings.",
-			"",
-			"A good way to build skill at mapping dungeons is to copy them from published products. Get yourself a big pad or notebook filled with graph paper. Whenever you see a nice map in one of those products, pick up a pen or pencil and try to duplicate that map. Before long, you'll be drawing your own maps - and it can't hurt to keep drawing maps even when you aren't preparing for a specific game."
+			"Legendary items often start out as simple magic items, but can grow in power to become artifacts in their own right. Even long after their creators pass away, they influence events, becoming instrumental in the creation of future legends."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_magic_items"
+		],
+		"subtopics": [
+			"becoming_legendary",
+			"legendary_artifacts",
+			"base_legendary_abilities",
+			"legendary_item_abilities"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"magic_items_ma",
+			"legendary_items"
 		]
 	},
-	"sketching_the_map": {
-		"name": "Sketching the Map",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"becoming_legendary": {
+		"name": "Becoming Legendary",
+		"subtitle": "Mythic",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
 			"",
-			"Using a pencil, sketch out the basic shape of your map. You can indicate the position and relative size of rooms by simply drawing rough shapes and circles and then labeling each \"kitchen,\" \"library,\" \"owlbear lair,\" and so on. If your dungeon is in an aboveground structure or other location with a definite border, draw this in to constrain your design. Once you're happy with the basic shape, go ahead and start drawing rooms and hallways, then drop in symbols for dungeon features. Make notes in the margins or in rooms to remind you of ideas for the rooms' contents as you create them.",
+			"Legendary items are magic items that transcend mere magic and become tied to mythic destiny. Though all are powerful, some become even greater magical objects-minor and major artifacts.",
 			"",
-			"Here are several things to keep in mind while you're creating your map:",
+			"Paralleling the trajectory of a mythic character, a legendary item begins as a normal magic item that ascends to something greater. Typically this ascension occurs when a character first takes the [legendary item universal path ability](rule/universal_path_abilities) (1st tier), but this isn't always the case. Deities, the servants of deities, peculiar chance, magical experimentation, and destiny can serve as catalysts for legendary item ascension. Such items can be bestowed upon the worthy or found by the lucky.",
 			"",
-			"***Map Symbols:*** Use symbols to represent common features found in most dungeons: doors, stairs, traps, pillars, and more. Using standardized map symbols keeps your maps from becoming too cluttered with written notes and tags.",
-			"",
-			"***Avoid Empty Rooms:*** Unless you're specifically designing a dungeon that is partially abandoned or you're trying to lull your PCs into a false sense of security, don't add too many empty rooms, as they can clutter your map.",
-			"",
-			"***Don't Overdraw:*** If you have an idea of how many encounters you want or how long you want a session of dungeon exploration to run, don't build a dungeon that's too small or too big. Take note of how long it generally takes your group to play through an average encounter (whether 10 minutes, a half-hour, an hour, or whatever) and design with that timeframe in mind. If your group generally clears one room an hour and you want the dungeon to take up two 5-hour sessions, make sure the dungeon contains only about 10 rooms.",
-			"",
-			"***Leave Room for Expansion:*** Unless you're certain you don't want to return to your dungeon later or want it to serve as a truly enclosed area, it's usually a good idea to include some sort of concession toward future expansion. A tunnel running off the edge of the map, a river or large underground pool, or a large pit can all lead the way to new areas just beyond the boundaries of your creation.",
-			"",
-			"***Avoid Symmetry:*** Refrain from creating symmetrical dungeons in which one half is an exact mirror image of the other - not only is this somewhat unrealistic, but it robs the players of the thrill of exploration once they realize that they only have to explore half of a dungeon to see it all.",
-			"",
-			"***Vary Room Shapes:*** Just as symmetry is bad, so is over-reliance on square or rectangular rooms. By including strangely shaped rooms, alcoves, multilevel rooms, irregular caverns, and other variations in room size and shape, you not only provide each room's combat encounters with different tactical elements, but your map becomes a more interesting location to draw, look at, and play in.",
-			"",
-			"***Wide Corridors:*** Remember that combat in the Pathfinder RPG is based on 5-foot squares. If you fill your dungeon with 5-foot-wide hallways, you're not only forcing many prospective battles to narrow down to one-on-one conflicts between one monster and one player, you're also making it more difficult for monsters of Large size or bigger to live in or move about in your dungeon. Also keep the size of the dungeon's inhabitants in mind; if your dungeon is a cloud giant's floating castle, for example, the rooms and corridors should be giant-sized, not human-sized."
+			"Legendary items are always non-consumable magic items, and are typically magic weapons, magic armor, or magic items that take up an item slot (though there are a few legendary items that don't take up slots). Even vehicles and siege weapons can become legendary items."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_magic_items",
+			"legendary_items"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"becoming_legendary",
+			"legendary_artifacts",
+			"base_legendary_abilities",
+			"legendary_item_abilities"
 		]
 	},
-	"inking_the_map": {
-		"name": "Inking the Map",
-		"subtitle": "Dungeons, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"legendary_artifacts": {
+		"name": "Legendary Artifacts",
+		"subtitle": "Mythic",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 175](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
 			"",
-			"Once you're happy with your map sketch, grab your pens and start inking it. You can use different pens to denote different features on your map; a wide felt-tip pen works well for thick walls, for example, while a fine-tipped pen works better for details like doors and map symbols. Once you've inked the map, erase extraneous pencil lines (keeping any notes you want to save, of course). Next, get your coloring supplies and add color as necessary: blue for water, green for vegetation, or whatever works best. If you color in nothing else, use black to fill in areas of solid stone to help define the actual parts of the map your players can explore.",
+			"When a magic item ascends to legendary status, it gains the suite of base legendary abilities and can have up to three additional legendary abilities. By selecting the legendary item universal path ability more than once, a mythic creature can transform a normal legendary item into either a minor artifact (if the character chooses it a second time) or a major artifact (if the character chooses it a third time). A minor artifact legendary item can have up to six additional legendary abilities, and gains the difficult to destroy ability (see below). A major artifact legendary item can have up to 10 additional legendary abilities and gains the difficult to destroy ability.",
 			"",
-			"You can scan your map at this stage as well and use a paint program to color larger areas. Scanning a map and using image manipulation software is also a great way to correct errors you made during the inking process."
+			"***Difficult to Destroy:*** An artifact can't be destroyed by normal means. Though a minor artifact has hit points and can be broken, it can't be destroyed by taking additional hit point damage. A major artifact is immune to hit point damage and can't gain the broken condition. Instead of being destroyed by taking hit point damage, both minor and major artifacts are instead destroyed when a creature successfully performs a very specific and often difficult task. The GM gets to determine what action is necessary to destroy the artifact, and should look to other artifacts' destruction entries for inspiration."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_magic_items",
+			"legendary_items"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"becoming_legendary",
+			"legendary_artifacts",
+			"base_legendary_abilities",
+			"legendary_item_abilities"
 		]
 	},
-	"tagging_the_map": {
-		"name": "Tagging the Map",
-		"subtitle": "Dungeons, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"base_legendary_abilities": {
+		"name": "Base Legendary Abilities",
+		"subtitle": "Mythic",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 169](source/mythic_adventures)",
 			"",
-			"Once your map is inked and colored, it's essentially ready for play. All that's left is to tag it with number locations that key the map to the encounter descriptions in your notes. Using a number key helps to keep your map's details from being obscured by descriptive words. If possible, use a pen of a different color than anything else on your map so the number tags stand out and are easy to see; alternatively, you can circle the number tags or mark them with a highlighter."
+			"Base legendary abilities affect the item's bearer, whether the item is wielded, worn, carried, or otherwise used. All legendary items have the following abilities, which don't count against the maximum number of legendary abilities an item can have or the maximum number of abilities the item's bearer can use.",
+			"",
+			"***Mythic Bond:*** A legendary item is typically bonded to a single mythic creature. Others can pick up and use a legendary item for its basic functions (like hitting a foe with a legendary mace), but only the creature bonded to the item can utilize it fully.",
+			"",
+			"A mythic creature can be bonded to only one legendary item at a time. If a mythic creature is already bonded to a legendary item, she can't become bonded to another item until the previous bond is broken. Likewise, a legendary item that is already bonded to a mythic creature can't be bonded to another until the former bond is broken.",
+			"",
+			"Creatures that aren't bonded to the legendary item can typically use all of its special abilities that aren't legendary item abilities. Such creatures can also use the item's legendary surge base legendary ability, but only by using the item's reservoir of legendary power. They can't use any other legendary item abilities requiring an expenditure of legendary power, though some legendary item abilities (such as intelligence) are persistent abilities, which means they continue to function whether the user is bonded to the item or not.",
+			"",
+			"A mythic creature bonded to a legendary item can use a number of that item's legendary abilities equal to or less than her tier. If the legendary item has more legendary abilities than the bonded creature has tiers, the creature can select which abilities it gains access to when it first wields, wears, or possesses the item, but must select all of the persistent abilities first, after which it can select non-persistent abilities. For example, if a legendary item has the intelligence ability along with other non-persistent abilities, a 1st-tier character can't manifest any of its powers other than intelligence until she gains another tier.",
+			"",
+			"If the bonded creature has taken the legendary item universal path ability a sufficient number of times, she can add legendary abilities to the item.",
+			"",
+			"Lastly, a bonded creature can expend uses of her mythic power to activate an item's legendary abilities that otherwise require uses of legendary power. One use of the creature's mythic power counts as one use of the item's legendary power.",
+			"",
+			"A mythic creature becomes bonded with an item either when she makes the item ascend using the legendary item universal path ability, or when she completes a trial while wielding, wearing, or carrying the item. The nature of the trial needed to bond with a legendary item and any other prerequisites for bonding are determined by the GM.",
+			"",
+			"The bond between a mythic creature and a legendary item can be broken in the following ways. If the bonded creature dies, the bond is broken. If that creature comes back to life, the bond is typically not reinstated unless the item has the eternal bond ability. The bonded creature can also relinquish the bond. Doing so requires a special ritual that takes 24 hours to perform, though the GM might add other requirements. If the bonded creature becomes non-mythic, the bond is broken. Lastly, the bond is broken if a legendary item gains the broken condition.",
+			"",
+			"***Legendary Power:*** All legendary items contain a pool of power-at least two uses that recharge each day. This power is called legendary power, and it works differently than mythic power. Any creature bearing the item can expend the items uses of legendary power, whether or not that creature is mythic. These uses of legendary power can be expended only to activate the legendary item's abilities. If the item's bearer isn't bonded to the item, she can expend the item's legendary power only to use its legendary surge ability",
+			"",
+			"***Legendary Surge:*** All legendary items have a legendary surge ability, similar to a mythic character's surge ability. It can be used only on specific rolls or checks based on the nature or purpose of the legendary item.",
+			"",
+			"The legendary surge ability allows the bearer to add the result of a d6 to the appropriate type of roll or check. A mythic bearer can use her surge die type in place of the d6. If she's bonded to the item, she can increase that die type by one step.",
+			"",
+			"A legendary item's nature or purpose determines the rolls its legendary surge ability modifies. The following are rolls that legendary surge ability typically modifies based on item type, but these are merely guidelines. A GM who creates a legendary item can alter this ability based on the item's history or nature.",
+			"",
+			"***Armor:*** Saving throws",
+			"",
+			"***Belt:*** Strength- and Dexterity-based skill checks, and Constitution checks",
+			"",
+			"***Body:*** Strength- and Dexterity-based skill checks, and Constitution checks",
+			"",
+			"***Chest:*** Strength- and Dexterity-based skill checks and Constitution checks",
+			"",
+			"***Eyes:*** Intelligence-, Wisdom-, and Charisma-based skill checks",
+			"",
+			"***Feet:*** Dexterity-based skill checks, initiative checks, and Reflex saving throws",
+			"",
+			"***Hands:*** Attack rolls and combat maneuvers checks",
+			"",
+			"***Head:*** Intelligence-, Wisdom-, and Charisma-based skill checks",
+			"",
+			"***Headband:*** Intelligence-, Wisdom-, and Charisma-based skill checks",
+			"",
+			"***Neck:*** Saving throws",
+			"",
+			"***Ring:*** Either saving throws or both concentration checks and caster level checks",
+			"",
+			"***Rod:*** Concentration checks and caster level checks",
+			"",
+			"***Shield:*** Saving throws",
+			"",
+			"***Shoulders:*** Saving throws",
+			"",
+			"***Staff:*** Concentration checks and caster level checks",
+			"",
+			"***Weapons:*** Attack rolls and combat maneuver checks made while using the weapon",
+			"",
+			"***Wrists:*** Saving throws or ranged attack rolls"
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_magic_items",
+			"legendary_items"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"becoming_legendary",
+			"legendary_artifacts",
+			"base_legendary_abilities",
+			"legendary_item_abilities"
 		]
 	},
-	"adding_details_to_the_map": {
-		"name": "Adding Details to the Map",
-		"subtitle": "Dungeons, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"legendary_item_abilities": {
+		"name": "Legendary Item Abilities",
+		"subtitle": "Mythic",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 171](source/mythic_adventures)",
 			"",
-			"While not strictly necessary, adding additional elements to your map can make it more attractive. Details such as furniture (tables, chairs, beds, and chests are all good examples), light sources (fireplaces or firepits, windows, skylights, and so on), and architectural features add a touch of realism to inhabited dungeons. Be careful not to add too many extra details to the map, however - not only can they clutter your map and obscure important information, but they can have a detrimental effect on combat as well. Remember that characters and monsters need room to fight and maneuver, and a room filled with superfluous furniture can make combat overly complex."
+			"When a mythic creature creates a legendary item (using the [legendary item universal path ability](rule/universal_path_abilities), 1st tier), the item can have up to three additional abilities, but no more than the number of tiers possessed by the creature bonded to it. This maximum increases to six if the bonded creature selects the legendary item universal path ability twice, and then to 10 if the bonded creature selects the ability three times (again, the maximum cannot exceed the bonded creature's number of tiers). These abilities are added at the rate of one per day. Once selected, these abilities cannot be changed.",
+			"",
+			"If a mythic creature bonds to an existing legendary item, it can use a number of the item's existing abilities equal to its tier, but cannot add abilities unless it possesses the legendary item universal path ability (subject to the limitations of that ability).",
+			"",
+			"The following legendary abilities can be added to a legendary item.",
+			"",
+			"***Adroit:*** Choose a single skill that can be augmented by the item's legendary surge. As a swift action, the item's bonded creature can expend one use of legendary power to gain a +20 insight bonus on the next check she attempts with that skill before the end of her turn. The item must have a legendary surge that augments skill checks to have this ability.",
+			"",
+			"***Dedicated Bond:*** An item with this ability can't be used by anyone not bonded with it. Such creatures can't use the item's non-mythic special abilities, its legendary power, or its legendary surge. Furthermore, using a special ritual that takes 10 minutes to perform, the bonded creature can sequester the item in a solid object at least twice as large as the item (such as putting a sword in a stone or an oak tree). The item becomes impossible to remove by any creature not bonded to it unless by means of a [wish](spell/wish) or [miracle](spell/miracle) cast by a mythic creature of higher tier than the bonded creature. If the bonded creature is at least 8th tier, she can instead perform this sequestering ritual and transfer the bond to another mythic creature she designates upon completing the ritual.",
+			"",
+			"An item must be a minor or major artifact to have this ability. This is a persistent ability.",
+			"",
+			"***Eternal Bond:*** When this ability is taken, the item becomes intimately tied to the creature that gave it this ability. This item can't be bonded to another creature as long as the creature that gave it this ability is alive and mythic. If the creature that gave it this ability dies or becomes non-mythic, this item can be bonded to another creature, but that creature doesn't gain the benefit of this ability. If the creature who placed the eternal bond comes back to life or becomes mythic again, and this item is bonded to another, the bond reverts back to the eternally bonded creature at any time the eternally bonded creature wishes. Reinstating a bond in this way is a free action. If this item is broken, the bond is temporarily severed, but is reinstated when the item is repaired. Lastly, the bonded creature can't use the special ritual to relinquish the bond (see [Mythic Bond](rule/base_legendary_abilities)).",
+			"",
+			"An item must be a minor or major artifact to have this ability. This is a persistent ability.",
+			"",
+			"***Everlasting:*** This ability grants its bearer limited immortality. While in contact with this item, the bonded creature doesn't age; doesn't need to eat, drink, or breathe; and doesn't suffer any ill effects from extreme heat or extreme cold.",
+			"",
+			"An item must be a major artifact to have this ability. This is a persistent ability.",
+			"",
+			"***Flexible Bond:*** The bonded creature can lend this item out with full utility to other creatures. As a standard action, the bonded creature can grant a temporary bond to a number of creatures equal to or less than her mythic tier. These creatures can be mythic or non-mythic. A creature with a temporary bond can fully utilize all of the item's legendary abilities, and if that creature has mythic power, he can expend it to use the item's legendary abilities that require legendary power use (including its legendary surge). This temporary bond ends either when the bonded creature wills it-a mental command requiring no action, which can be done at any time while she is conscious-or when the bond is broken between this item and its bonded creature.",
+			"",
+			"***Foe-Biting:*** When this item deals damage, its user can use mythic power to double the total amount of damage it deals. If the attack is a normal attack, the bearer can expend one use of legendary power to double the total amount of damage. If the attack is a confirmed critical hit, the bearer must instead expend two uses of legendary power to double the total damage. Damage from weapon special abilities (such as [flaming](magic-enhancement/flaming)) and precision-based damage are also doubled.",
+			"",
+			"This ability can be applied only to weapons. An item must be a minor or major artifact to have this ability.",
+			"",
+			"***Intelligent:*** A legendary item with this ability becomes an [intelligent magic item](rule/intelligent_items). When this ability is first selected, the legendary item starts with base Intelligence, Wisdom, and Charisma scores of 10. The item gains speech as a supernatural ability. It can speak Common plus a number of additional languages based on its Intelligence score. The additional languages can be any that the bonded creature wants, except for secret languages (such as Druidic). The item gains senses with a range of 30 feet. Furthermore, this item always has the alignment of the bonded creature who first selected this ability.",
+			"",
+			"An intelligent legendary item has an Ego score, just like a non-mythic intelligent item, but it can never become dominant in its relationship with its bonded creature as long as the bonded creature's alignment corresponds to the item's (using the normal rules for intelligent items).",
+			"",
+			"This is a persistent ability. An intelligent legendary item gains a +4 bonus to its Ego when interacting with non-mythic wielders.",
+			"",
+			"You can select this ability more than once. Each time you do, you can increase its ability scores (to a maximum of 20 each) and select one of the following special abilities. You can increase all three of its ability scores by 2 points, or one of these ability scores by 4 points and one other ability score by 2 points.",
+			"",
+			"The special abilities are listed below. Some have another ability as a prerequisite.",
+			"",
+			">***Animate:*** This item can sprout limbs and move with a speed of 10 feet.",
+			">",
+			">***Blindsense:*** This item gains blindsense with the same range as its other senses. The item must have the darkvision ability to have this ability.",
+			">",
+			">***Darkvision:*** This item gains darkvision with the same range as its other senses.",
+			">",
+			">***Expanded Senses (60 ft.):*** The range of this item's senses increases to 60 feet.",
+			">",
+			">***Expanded Senses (120 ft.):*** The range of this item's senses increases to 120 feet. The item must have expanded senses (60 ft.) to have this ability.",
+			">",
+			">***Fly:*** The item gains a fly speed of 30 feet with average maneuverability. The item must have the animate ability to have this ability.",
+			">",
+			">***Read Languages:*** This item can read script in any language regardless of its known languages.",
+			">",
+			">***Read Magic:*** This item can read magical writing and scrolls as if using [read magic](spell/read_magic). This ability doesn't allow the item to activate scrolls or other spell-completion items. The item can suppress and resume this ability as a free action.",
+			">",
+			">***Shape Change:*** The item can change its shape into one other form of the same size.",
+			">",
+			">***Skill Ranks:*** This item gains 10 ranks in one skill. This must be an Intelligence-, Wisdom-, or Charisma-based skill, unless the item has the animate ability (allowing it to choose Acrobatics) or the fly ability (allowing it to choose Fly).",
+			">",
+			">***Spellcasting:*** This item allows its bearer to cast a limited number of spells as spell-like abilities. This ability can be taken more than once. Each time it's taken, the bonded creature gains 5 points to spend on selecting what spells the item can cast. A spell costs a number of points equal to its level (minimum 1). The bearer can then activate the item to use each spell-like ability once per day. By spending double the cost, the bearer can use each spell-like ability three times per day. All spells must come from the same class's spell list. No spell can have a level higher than the bonded creature's tier. The caster level for these spells is equal to double the bonded creature's tier. The save DC for these spells is equal to 10 + the spell level + the bonded creature's tier.",
+			">",
+			">***Telepathy:*** This item can hold private mental conversations with its bearer, regardless of whether they share a known language. The item must be in physical contact with a creature to communicate this way.",
+			">",
+			">***Teleport:*** Once per day, the item can [teleport](spell/teleport) as the spell. It must have either the spellcasting ability or the fly ability to have this ability.",
+			"",
+			"***Legendary Fortification:*** When a critical hit or sneak attack is scored against a creature wearing an item with this ability, the wearer can expend one use of legendary power to negate the critical hit or sneak attack and instead take normal damage.",
+			"",
+			"Only armor, shields, and worn items can have this ability.",
+			"",
+			"***Metamagician:*** This ability allows a spellcaster to apply a [metamagic feat](main/feats_metamagic) she knows to a spell as she casts it. She must expend a number of uses of legendary power equal to the increase of spell level the metamagic feat usually applies (minimum 1). This metamagic feat is applied spontaneously and without changing the casting time. This ability can be placed only on a head, headband, staff, ring, or rod legendary item.",
+			"",
+			"***Perfect Surge:*** This item's legendary surge can apply to any d20 roll. The surge adds a further +2 bonus when applied to one of the types of rolls initially chosen for it. A legendary item must be a major artifact to have this ability.",
+			"",
+			"***Powerful:*** An item with this ability has two additional uses of legendary power per day. This ability can be taken up to three times. The item must be a minor or major artifact to take this a second time, and a major artifact to take this a third time. This is a persistent ability.",
+			"",
+			"***Rejuvenating:*** The bearer of this item can expend uses of legendary power to rejuvenate her body. As a standard action, she can expend one use of legendary power to heal herself of 10 points of damage per mythic tier she possesses. Alternatively, as a standard action she can expend two uses of legendary power to remove a single condition affecting her.",
+			"",
+			"A legendary item must be a minor or major artifact to have this ability.",
+			"",
+			"***Returning:*** The creature bonded to this item can expend one use of mythic power to teleport the item to her waiting hand, as if using [teleport object](spell/teleport_object). The item must be on the same plane as the bonded creature for this ability to function. This ability can be taken a second time, allowing the item to cross planes to return to the bonded creature. The item must be a major artifact to take this ability again.",
+			"",
+			"***Undetectable:*** This grants its bonded user the ability to become utterly undetectable while invisible. While invisible and in physical contact with this item, the bonded creature can't be detected or scryed by any method.",
+			"",
+			"***Unstoppable Strike:*** This weapon bypasses all armor. The wielder can expend one use of legendary power when attacking to make the attack against touch AC. If she instead expends two uses of legendary power, the weapon also bypasses any deflection bonus to AC the target has.",
+			"",
+			"An item must be a weapon and be a minor or major artifact to have this ability.",
+			"",
+			"***Unyielding:*** A legendary item with this ability has double the hardness of a typical item of its type and triple the hit points. Furthermore, it's immune to all attempts to sunder it made by non-mythic creatures. This is a persistent ability.",
+			"",
+			"***Upgradable:*** This ability grants the bonded creature the ability to more easily increase the non-mythic magical power of the legendary item. If the base magic item has a version with a higher bonus or greater version (such as a +1 longsword, a +2 light steel shield, a [cloak of resistance +3](magic-wondrous/cloak_of_resistance_3), an [amulet of mighty fists +4](magic-wondrous/amulet_of_mighty_fists_4), or a [minor ring of inner fortitude](magic-ring/minor_ring_of_inner_fortitude)), the bonded creature can improve it by performing a special ritual. She must spend a number of gold pieces equal to half the difference between the cost of the legendary item's current, non-mythic base item and the greater version she wishes to upgrade the item into. For example, she would pay 3,000 gp to upgrade a +1 longsword into a +2 longsword.",
+			"",
+			"This ritual takes 8 hours. When it's completed, the bonded creature transmutes the item's base version into the desired version. When upgraded in this fashion, the legendary item retains all legendary item abilities it had before the transmutation."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_magic_items",
+			"legendary_items"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"becoming_legendary",
+			"legendary_artifacts",
+			"base_legendary_abilities",
+			"legendary_item_abilities"
 		]
 	},
-	"dungeon_ecology": {
-		"name": "Dungeon Ecology",
-		"subtitle": "Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"mythic_monsters": {
+		"name": "Mythic Monsters",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 174](source/mythic_adventures)",
 			"",
-			"Once you've created your dungeon map, you're ready to populate it. If you're building a static dungeon, you can simply fill it with traps and guardians and other challenges as you wish, with little concern as to how each area interacts with the others.",
+			"Just as mythic heroes can call upon power beyond reckoning, mythic monsters are greater than others of their kind. Some are empowered by deities or great magic and sent into the world to sow ruin and reap destruction. Others are instead relics of a bygone age when the power of creation itself flowed through the veins of every living being. Though not necessarily malevolent, these ancient creatures are a force to be respected and feared.",
 			"",
-			"But if you're building a living dungeon, there are more considerations you'll want to address. In particular, if your dungeon is the lair for a number of living creatures, keep in mind that they don't just sit in their rooms in stasis waiting for a group of heroes to blunder into their clutches - at least, dungeon denizens don't always behave this way. Usually, you'll want to design your dungeon with its ecology in mind.",
+			"The rules assume monsters that wield mythic power are rare in the world. Such creatures fall into one of two categories: powerful versions of existing monsters and entirely new breeds of monsters. You can easily create the first type of monster by using one of the [mythic simple templates](rule/mythic_simple_templates) presented in this section. Creating the second type of monster is more complicated, and requires adding the [mythic subtype](rule/mythic_subtype) and custom abilities appropriate to the creature, with more powerful monsters gaining more abilities than weaker monsters.",
 			"",
-			"***Food and Water:*** If there's not a constant source of food in or nearby your dungeon, your monsters will need storerooms in which to stockpile their food. Even if there is a handy supply of food, monsters whose territories are blocked from access to these ready supplies will need some sort of concession toward food and water. A river running through a dungeon is a handy way to supply both of these necessities, as are magic items like [decanters of endless water](magic-wondrous/decanter_of_endless_water), [rings of sustenance](magic-ring/ring_of_sustenance), and [sustaining spoons](magic-wondrous/sustaining_spoon). Finally, including a cleric of at least 5th level in a group gives that group access to [create food and water](spell/create_food_and_water) spells.",
+			"This section includes over 40 example creatures' mythic versions of cyclopes, demons, dragons, elementals, giants, medusas, and other creatures of legend-each of which represents an ancient predecessor or powerful evolution of the non-mythic version. Following these example monsters, this section continues with information on the mythic simple templates and mythic subtype, advice on how to create and balance new mythic monsters, and several new universal monster rules used by the monsters in this section.",
 			"",
-			"***Shelter and Access:*** All of your dungeon denizens need somewhere to live. The main thing to keep in mind here is that a monster's lair should be sized appropriately for the monster. The larger the monster, the larger its lair needs to be. As a general rule, it's good to give a monster living space that's at least nine times its own space. And unless you want your monster to be trapped in its lair, make sure it can access other parts of the dungeon, including an exit (by squeezing, at minimum)."
+			"[You can find all of the mythic monsters here](main/monsters_mythic)."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules"
+		],
+		"subtopics": [
+			"mythic_monster_origins",
+			"mythic_rank",
+			"reading_a_mythic_monster_stat_block",
+			"mythic_monster_advancement"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"what_is_mythic",
+			"mythic_heroes",
+			"mythic_feats",
+			"mythic_spells",
+			"running_a_mythic_game",
+			"mythic_magic_items",
+			"mythic_monsters"
 		]
 	},
-	"encounter_archetypes": {
-		"name": "Encounter Archetypes",
-		"subtitle": "Dungeons, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"mythic_monster_origins": {
+		"name": "Mythic Monster Origins",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 176](source/mythic_adventures)",
 			"",
-			"Most dungeons feature a variety of encounter archetypes. By including encounters from as many of these archetypes as possible, you can keep your dungeon from feeling repetitive and give different characters the opportunity to shine. Even better, it's a lot easier to keep your players' attention if they're not sure how the next room around the corner will challenge them. Listed here are seven different encounter archetypes.",
+			"Depending on your campaign, a mythic monster might be unique-the only one of a kind in the entire world or on all the planes-rare, or even relatively common. The following are some examples of how frequently mythic monsters could appear in a particular campaign.",
 			"",
-			"***Combat:*** In a combat encounter, the PCs are faced with a foe or foes that bar progress: in order to complete the encounter, the PCs must defeat the foes in combat. A combat encounter can be with a single opponent or a group of foes. In most dungeons, combat encounters are the rule.",
+			"- Some say there is only one mythic red dragon-the oldest living ancestor of all red dragons-and it sleeps for centuries at a time.",
+			"- A deadly pack of mythic trolls might rule over a hidden realm under the earth. Non-mythic trolls are the least of their kind, cast out because of their inborn weakness.",
+			"- There may be only two mythic medusas, both mourning their third sister who was slain by a hero centuries ago. They now breed giant snakes (with a mythic simple template) to send after the hero's descendants.",
+			"- A demon lord might imbue some of its servants with mythic power, making them captains and generals over the armies it's amassing to invade the mortal world.",
 			"",
-			"***Hazard/Obstacle:*** This kind of encounter presents the characters with a dangerous condition they need to navigate in order to proceed. A room filled with [yellow mold](rule/slimes_molds_and_fungi), a chasm with a rotten rope bridge, a pool of lava, an unstable chamber with a crumbling ceiling, or even something as simple as a barricaded door can serve as a hazard or obstacle. Generally, a hazard or obstacle is an encounter that is solved not through combat but through a combination of skill checks, saving throws, attack rolls, and the application of magic spells.",
-			"",
-			"***Puzzle:*** A puzzle encounter presents the players, not the characters, with a challenge. These can be riddles, shifting tiles, mazes, word puzzles, or anything else that must be solved by brain power, logic, or experimentation. Often a puzzle encounter can be enhanced by giving the players a handout or prop that lets them directly manipulate or study the puzzle. A puzzle generally can't be solved with die rolls, but if your group gets stuck on a puzzle, you should consider letting them make appropriate skill checks to learn clues (or even the solution) from you.",
-			"",
-			"***Random Encounter:*** A random encounter is an unusual encounter that isn't tied to a specific location in your dungeon. The classic method of building random encounters is to create an encounter table of possible encounters (see [Dungeon Toolbox](rule/dungeon_toolbox) for several sample dungeon encounter tables). Then, when a random encounter is called for, you can simply roll the dice and let fate determine what the PCs run into.",
-			"",
-			"Traditionally, checks for wandering monsters from a random encounter table are made every so often (either once per hour, four times a day, every time the PCs rest, or whatever works best for you) by rolling d100. A heavily populated area with lots of potential encounters might have a 20% or higher chance of a random encounter occurring at each check, while a remote or relatively empty area might have only a 2% chance per check.",
-			"",
-			"It's important not to let random encounters become the adventure, though - an endless parade of wandering monsters can quickly turn into a dull slog through forgettable combats, and a poorly timed or unlucky roll can impose a powerful foe on a party when they're in no shape to cope with it. Random encounters should be used as sparingly as possible; they're a great tool to use when play bogs down (such as if the PCs insist on resting after every encounter or exhaustively searching a huge, empty room), but they shouldn't become the dungeon's defining theme.",
-			"",
-			"***Story Encounter:*** Since story encounters rarely involve any actual danger or impediment to physical progress through a dungeon, they are often forgotten during the design process. Yet in some ways, story encounters are the most important encounter type of them all, for they allow the players to learn about your dungeon and world. There's no point in creating a multi-page history for a dungeon if there's no way for your players to learn about it! A story encounter can come in the form of a roleplayed conversation with a friendly dungeon denizen or talkative ghost, a carving on a wall, an old journal, or even just an opportunity for a player to make a Knowledge check when faced with a particularly unusual scene in a dungeon to learn more about the dungeon's story.",
-			"",
-			"***Trap:*** These classic encounters are similar to hazards and obstacles in that they are generally dangerous and can be defeated with a combination of skill checks, saving throws, attack rolls, and the application of magic spells. Their primary difference from hazards is that traps are hidden from view and, unless the player characters are careful, can strike without warning. As a general rule, you should use traps sparingly, since randomly springing traps on a group only serves to slow down the course of play as increasingly paranoid players check every 5-foot square and every doorknob for hidden perils. Often, it's a simple matter of giving the players some kind of warning beforehand that they're heading into a trapped area; story encounters are great for this purpose.",
-			"",
-			"***Special Encounters:*** Finally, you can include special encounters. The easiest way to make a special encounter is to combine two or more of the archetypes listed above into a single encounter; a battle against fire elementals in a burning building is a combination combat and hazard encounter. A riddling sphinx that attacks any group that can't answer her riddle within 24 seconds is a combination puzzle and combat encounter. A [chase](rule/chases) can serve as a special encounter, as can purely roleplaying encounters. One particularly important special encounter that every dungeon should have is the \"climactic\" encounter, where the PCs confront one of the dungeon's rulers or reach the goal of their delve. A climactic encounter should usually be a deadly or epic encounter (typically with a CR of 3 or 4 above the average party level), and often combines three or more of the above archetypes (usually combat, hazard, and story)."
+			"How prevalent you want mythic creatures to be in your campaign is up to you, and their mythic abilities can be permanent or temporary."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_monsters"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"mythic_monster_origins",
+			"mythic_rank",
+			"reading_a_mythic_monster_stat_block",
+			"mythic_monster_advancement"
 		]
 	},
-	"resting_in_the_dungeon": {
-		"name": "Resting in the Dungeon",
-		"subtitle": "Dungeons, Gamemastering",
-		"sources": [ "GameMastery Guide" ],
+	"mythic_rank": {
+		"name": "Mythic Rank",
+		"subtitle": "Mythic Monsters",
+		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [GameMastery Guide pg. 177](source/gamemastery_guide)",
+			"**Source** [Mythic Adventures pg. 176](source/mythic_adventures)",
 			"",
-			"It happens to every adventuring party - you power through half dozen or so encounters and suddenly the prospect of facing the tougher encounters at the end of the dungeon with your depleted resources seems foolish. Often, the party has progressed far enough into the dungeon that merely leaving the dungeon and coming back isn't an option - especially if there are a lot of deadly hazards or traps along the way, or if the dungeon's denizens are likely to repopulate rooms with reinforcements.",
+			"A monster's mythic rank (MR) is a game statistic for monsters that's roughly equivalent to a mythic tier; monsters with only a little mythic power are 1st rank, and the greatest mythic monsters are 10th rank. Unlike PCs, monsters usually start with a specific mythic rank and that rank never changes. For example, a mythic troll is 2nd rank and is always going to be 2nd rank, unless the GM has a reason for its rank to increase-like if a tribe of trolls has an artifact that grants the trolls mythic power, and the longer it takes the PCs to deal with them, the more powerful the artifact makes these monsters.",
 			"",
-			"In such situations, a group of adventurers often chooses to rest inside of a dungeon. Don't let this rattle you! In fact, you should consider putting a few rooms in your dungeon (especially if it's a large complex) that can be easily defended or work well as campsites. When a group of PCs decides to rest in a dungeon, decide if the threats that remain will challenge the adventurers - if you know that they need to recover their strength, you should let them rest (but only after instilling a little bit of paranoia by getting a schedule of watches and details on how they fortify their campsite). But if you know that the group still has the resources to forge ahead, feel free to have wandering monsters come by to harass the characters while they relax.",
+			"In terms of power, mythic ranks and mythic tiers are similar, but not exactly the same. For any ability, spell, magic item, or other rule that requires a mythic tier or interfaces with the tier rules, a monster's mythic rank counts as its tier. For example, a sword that gains additional abilities when wielded by a character of 3rd tier or higher gains those bonuses when wielded by a monster of 3rd rank or higher. A few mythic monsters have mythic tier abilities identical to those available to PCs; a monster's mythic rank counts as its tier for any effects dependent on tier. For example, a monster with the parry spell [guardian path ability](rule/guardian) uses its mythic rank to determine the level of spells it can parry with that ability.",
 			"",
-			"If your PCs are habitual dungeon relaxers who rest after every encounter, the dungeon's inhabitants should catch on after a few naps and set up some ambushes or assaults on the characters' campsite. The goal is to keep the PCs challenged without making things hopelessly difficult, and to allow them time to recover when you feel they really need it; don't let them dictate when they'll have the luxury of a full night's sleep!"
+			"It is possible for a low-CR creature to have a high mythic rank, or for a high-CR creature to have a low mythic rank. For a typical monster that's acquired mythic power, its rank is equal to half its original CR. For example, a CR 4 owlbear that becomes a mythic creature should be 2nd rank. To determine a mythic monster's final CR, add half its mythic rank to its original CR. For example, a 2nd rank mythic owlbear's final CR is 5 (2 &times; 1/2 + 4). See [Designing Encounters](rule/designing_encounters_ma) for more details. All the monsters presented use this typical MR value.",
+			"",
+			"A creature shouldn't have both a mythic tier and a mythic rank. For example, a mythic creature that gains the [vampire template](template/vampire) has a mythic tier, and a non-mythic creature that gains the [mythic vampire template](template/mythic_vampire) has a mythic rank, but a mythic creature that becomes a mythic vampire loses its tier and gains ranks instead, as explained in the mythic vampire template. Mythic templates and other effects that grant a creature a mythic rank should include information about what happens when a mythic creature gains that template or effect."
 		],
 		"parent_topics": [
-			"gamemastering",
-			"gamemastery_guide",
-			"adventures",
-			"dungeons_gg"
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_monsters"
 		],
 		"siblings": [
-			"the_dungeon_concept",
-			"drawing_a_dungeon_map",
-			"sketching_the_map",
-			"inking_the_map",
-			"tagging_the_map",
-			"adding_details_to_the_map",
-			"dungeon_ecology",
-			"encounter_archetypes",
-			"resting_in_the_dungeon",
-			"dungeon_toolbox"
+			"mythic_monster_origins",
+			"mythic_rank",
+			"reading_a_mythic_monster_stat_block",
+			"mythic_monster_advancement"
+		]
+	},
+	"reading_a_mythic_monster_stat_block": {
+		"name": "Reading a Mythic Monster Stat Block",
+		"sources": [ "Mythic Adventures" ],
+		"description": [
+			"**Source** [Mythic Adventures pg. 176](source/mythic_adventures)",
+			"",
+			"Mythic monster stat blocks work just like non-mythic monster stat blocks, but have a few additional pieces of information. The differences are summarized in the following section.",
+			"",
+			"***Name, CR, and MR:*** The monster's name is presented first, along with its challenge rating (CR), its mythic rank (MR), and three icons you can use to quickly identify the creature's role in the game. The monster's CR already factors in the CR increase it gets for having mythic ranks.",
+			"",
+			"***Init and Senses:*** Several mythic monsters have the [Mythic Improved Initiative](feat/improved_initiative) feat, which allows the creature to expend one use of mythic power to treat its initiative roll as a 20. Because you rarely check the Feats entry for a monster when rolling initiative, it would be easy to forget that ability when using the monster. As a reminder of this ability, a monster with that feat will have a footnote after its initiative modifier, pointing to this ability. The listed initiative modifier already includes the additional bonus from the [Mythic Improved Initiative](feat/improved_initiative) feat.",
+			"",
+			"***Feats:*** The creature's feats are listed here. Most mythic feats improve non-mythic feats, and have the non-mythic feat as a prerequisite. In these cases, the non-mythic feat isn't listed along with the mythic feat.",
+			"",
+			"***Special Attacks:*** All of the monsters presented have the [mythic subtype](rule/mythic_subtype), which grants them the [mythic power universal monster ability](umr/mythic_power), allows them to expend uses of mythic power to add surge dice to d20 rolls, and may add other abilities as well. When running a monster with mythic power, always remember that it can use the surge ability-especially because some mythic creatures don't use mythic power for anything else, so that ability is necessary for the monster to keep up with and challenge mythic PCs. (Plus, part of the fun of using mythic rules is getting to use mythic surges, and the GM should get to do that, too.)",
+			"",
+			"***Environment:*** The mythic monsters presented here list the same environment as the non-mythic version of the creature-by default, mythic trolls prefer cold mountains like common trolls do, and mythic owlbears prefer temperate forests like common owlbears do. Of course, you can change the environment of a mythic monster to anything appropriate for your campaign, especially if the mythic monster is unique. For example, if you want the one mythic hydra in your world to live in the desert instead of in marshes like non-mythic hydras, that change serves to make the mythic hydra even more unusual and iconic.",
+			"",
+			"***Organization:*** The mythic monsters presented here list the same information on organization as the non-mythic versions of the creatures. These stat blocks make no assumptions about the uniqueness or rarity of these mythic monsters in your campaign. This allows you to adapt existing encounters in printed adventures to a mythic campaign by replacing one, some, or all non-mythic creatures in a specific encounter with their mythic equivalents. For example, to challenge a group of mythic PCs in an adventure featuring an encounter with six trolls, you could replace any number of those trolls with mythic trolls-perhaps just the leader is a mythic troll, creating a slightly more difficult encounter, or perhaps all of them are mythic, resulting in a much harder challenge.",
+			"",
+			"***Treasure:*** Most of the mythic monsters presented here use the same treasure notation as their non-mythic counterparts. For example, trolls have standard treasure, so mythic trolls also have standard treasure. However, a mythic monster's CR will be higher than its non-mythic equivalent, so when awarding treasure you should account for the CR increase and adjust the monster's treasure accordingly. A mythic troll encountered with non-mythic trolls should have slightly better treasure because of its higher CR (just as a fiendish troll encountered with a gang of normal trolls should have better treasure). If a monster normally has NPC-type treasure (like an ogre does), the mythic version of that monster usually has better treasure than its non-mythic counterparts, since its CR is higher.",
+			"",
+			"Mythic monsters-especially intelligent ones-may be more likely to use magical treasures found in their lairs, perhaps out of some instinctive cunning about the item or because the item was given to the monster by the entity that granted the monster its mythic power. For example, a mythic hydra with an amulet of mighty fists +1 in its treasure hoard could be a sacred guardian created by the god of snakes, and the amulet could have been granted to the hydra by the god, giving the creature the full benefit of the item.",
+			"",
+			"***Special Abilities:*** These monsters include descriptions of the non-mythic monster's special abilities, so you don't need to reference the non-mythic monster in another book to use the mythic monster. In some cases, these descriptions are simplified or shortened to make room for the mythic monster's new abilities. If you have questions about how a monster's special ability works, refer to the full text of the non-mythic monster's original description in the Bestiary.",
+			"",
+			"***Description:*** Rather than repeating information about the original, non-mythic monster, this section presents information on the mythic version of the monster, such as suggesting how its origin or its role in the game differs from that of a non-mythic creature of its type. Unless otherwise stated, a mythic monster lives and acts very much like its non-mythic counterpart."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_monsters"
+		],
+		"siblings": [
+			"mythic_monster_origins",
+			"mythic_rank",
+			"reading_a_mythic_monster_stat_block",
+			"mythic_monster_advancement"
+		]
+	},
+	"mythic_monster_advancement": {
+		"name": "Mythic Monster Advancement",
+		"sources": [ "Mythic Adventures" ],
+		"description": [
+			"**Source** [Mythic Adventures pg. 224](source/mythic_adventures)",
+			"",
+			"This section addresses how to turn a non-mythic monster into a mythic monster and how to create an entirely new mythic creature. Just as characters' abilities depend on their mythic tier, monsters' abilities depend on their mythic rank (MR), with a higher rank meaning a creature has additional mythic abilities."
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_monsters"
+		],
+		"subtopics": [
+			"mythic_simple_templates",
+			"building_a_mythic_creature",
+			"modify_an_existing_monster",
+			"create_a_new_monster",
+			"mythic_subtype",
+			"evaluating_monster_statistics"
+		],
+		"siblings": [
+			"mythic_monster_origins",
+			"mythic_rank",
+			"reading_a_mythic_monster_stat_block",
+			"mythic_monster_advancement"
+		]
+	},
+	"mythic_simple_templates": {
+		"name": "Mythic Simple Templates",
+		"sources": [ "Mythic Adventures" ],
+		"description": [
+			"**Source** [Mythic Adventures pg. 224](source/mythic_adventures)",
+			"",
+			"The following simple templates can be used to turn any monster into a mythic creature. A creature given one of these templates counts as a mythic creature for the purposes of spells, abilities, and magic items even though it doesn't have the [mythic subtype](rule/mythic_subtype). Note that because it doesn't have the mythic subtype, it doesn't gain the many benefits of having the mythic subtype-the creature only gains the benefits described in the simple template.",
+			"",
+			"### Mythic Bonus Hit Points",
+			"",
+			"A creature with one of the mythic templates listed below gains additional hit points according to its Hit Die type. A creature with d6 Hit Dice gains 6 hit points per mythic rank, a creature with d8 Hit Dice gains 8 hit points per rank, and a creature with d10 or d12 Hit Dice gains 10 hit points per rank.",
+			"",
+			"### Agile (MR 1, CR +1)",
+			"",
+			"Creatures with the agile template are quick and deadly, moving faster than their normal counterparts and striking with incredible speed and agility. An agile creature's quick and rebuild rules are the same.",
+			"",
+			"**Rebuild Rules:** Init +20 bonus; AC +2 dodge bonus; hp mythic bonus hit points; Defensive Abilities evasion (as the [rogue class feature](class/rogue)); Speed +30 feet for all movement types (up to double the creature's base movement speed); Special Attacks [dual initiative](umr/dual_initiative).",
+			"",
+			"### Arcane (MR 1 or 2 , CR +1)",
+			"",
+			"Creatures with the arcane template are infused with arcane power, capable of casting a limited number of arcane spells. If the creature has 11 or more Hit Dice, this simple template grants a mythic rank of 2 instead of 1. An arcane creature's quick and rebuild rules are the same.",
+			"",
+			"**Rebuild Rules:** AC +2 deflection bonus; hp mythic bonus hit points; SR gains SR equal to its new CR + 11; Special Attacks [mythic magic, simple arcane casting](umr/simple_arcane_spellcasting).",
+			"",
+			"### Divine (MR 1 or 2 , CR +1)",
+			"",
+			"Creatures with the divine template can call upon the power of the gods, allowing them to cast a limited number of divine spells. If the creature has 11 or more Hit Dice, this simple template grants a mythic rank of 2 instead of 1. A divine creature's quick and rebuild rules are the same.",
+			"",
+			"**Rebuild Rules:** Aura aura of grace (creature and all allies within 10 feet receive a +2 sacred bonus on saving throws-or a profane bonus if the templated creature is evil); AC +2 deflection bonus; hp mythic bonus hit points; Special Attacks [mythic magic, simple divine spellcasting](umr/simple_divine_spellcasting).",
+			"",
+			"### Invincible (MR 1 or 2, CR +1)",
+			"",
+			"Creatures with the invincible template are incredibly difficult to harm. They can withstand immense punishment and continue to fight. If the creature has 11 or more Hit Dice, this simple template grants a mythic rank of 2 instead of 1. An invincible creature's quick and rebuild rules are the same.",
+			"",
+			"**Rebuild Rules:** AC increase natural armor bonus by 2 (or 4 if the creature has 11 or more Hit Dice); hp mythic bonus hit points; Defensive Abilities gains DR and resistance to all types of energy as per Table 6-3, as well as [block attacks](umr/block_attacks) and [second save](umr/second_save).",
+			"",
+			"#### Table 6-3: Invincible Template Defenses",
+			"",
+			"| Hit Dice | Energy Resistance | DR |",
+			"| --- | --- | --- |",
+			"| 1-4 | 5 | - |",
+			"| 5-10 | 10 | 5/Epic |",
+			"| 11+ | 15 | 10/Epic |",
+			"",
+			"### Savage (MR 1 or 2, CR +1)",
+			"",
+			"Creatures with the savage template are untamed, primordial versions of their non-mythic cousins. Their claws are sharper, their fangs larger, and their hides thicker. If the creature has 11 or more Hit Dice, this simple template grants a mythic rank of 2 instead of 1. A savage creature's quick and rebuild rules are the same.",
+			"",
+			"**Rebuild Rules:** AC increase natural armor bonus by 2; hp mythic bonus hit points; Defensive Abilities gains DR and resistance to all types of energy as per Table 6-4; Special Attacks all attacks gain bleed 1 (this stacks with itself), [feral savagery (full attack)](umr/feral_savagery).",
+			"",
+			"#### Table 6-4: Savage Template Defenses",
+			"",
+			"| Hit Dice | Energy Resistance | DR |",
+			"| --- | --- | --- |",
+			"| 1-4 | 5 | - |",
+			"| 5-10 | 10 | 5/Epic |",
+			"| 11+ | 15 | 10/Epic |"
+		],
+		"parent_topics": [
+			"optional_rules_systems",
+			"mythic_rules",
+			"mythic_monsters",
+			"mythic_monster_advancement"
+		],
+		"siblings": [
+			"mythic_simple_templates",
+			"building_a_mythic_creature",
+			"modify_an_existing_monster",
+			"create_a_new_monster",
+			"mythic_subtype",
+			"evaluating_monster_statistics"
 		]
 	}
-
 }

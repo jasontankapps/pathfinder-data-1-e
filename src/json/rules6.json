@@ -7403,7 +7403,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 5](source/pathfinder_rpg_bestiary)",
 			"",
-			"Welcome to the Pathfinder Roleplaying Game Bestiary! Within the pages of this tome you will encounter a wide range of monsters and creatures to pit against your players as they explore your world. The creatures featured herein have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and [demons](rule/demons), our [basilisks](monster/basilisk) and [yetis](monster/yeti)), to the traditions of the RPG's rich history (such as the [shambling mound](monster/shambling_mound) and the [rust monster](monster/rust_monster)), to the inventions of writers both old (such as H. G. Wells's [morlocks](monster/morlock) or H. P. Lovecraft's [ghasts](monster/ghoul) and [shoggoths](monster/shoggoth)) and new. In order to fully use the creatures in the Pathfinder RPG Bestiary, you'll need a copy of the Pathfinder Roleplaying Game Core Rulebook. These two books comprise the core rules for the Pathfinder RPG.",
+			"The creatures featured herein have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and [demons](rule/demons), our [basilisks](monster/basilisk) and [yetis](monster/yeti)), to the traditions of the RPG's rich history (such as the [shambling mound](monster/shambling_mound) and the [rust monster](monster/rust_monster)), to the inventions of writers both old (such as H. G. Wells's [morlocks](monster/morlock) or H. P. Lovecraft's [ghasts](monster/ghoul) and [shoggoths](monster/shoggoth)) and new.",
 			"",
 			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [Universal Monster Rules](main/umr). If a monster's listed special ability does not appear in its description, you'll find it there.",
 			"",
@@ -7446,13 +7446,13 @@
 			"",
 			"This is where you'll find all of the information you need to run the monster in an encounter. A stat block is organized as follows. Note that in cases where a line in a stat block has no value, that line is omitted.",
 			"",
-			"***Name and CR:*** The monster's name is presented first, along with its challenge rating (CR) and three icons you can use to quickly identify the creature's role in the game. Challenge rating is a numerical indication of how dangerous a monster is: the higher the number, the deadlier the creature. Challenge rating is detailed in the [Designing Encounters](rule/designing_encounters) section.",
+			"***Name and CR:*** The monster's name is presented first, along with its challenge rating (CR). Challenge rating is a numerical indication of how dangerous a monster is: the higher the number, the deadlier the creature. Challenge rating is detailed in the [Designing Encounters](rule/designing_encounters) section.",
 			"",
 			"***XP:*** Listed here are the total experience points that PCs earn for defeating the monster.",
 			"",
 			"***Race, Class, and Level:*** Some monsters do not possess racial Hit Dice and are instead defined by their class levels. For these monsters, their race, class, and level appear here. Unless otherwise noted, the first class listed is the class chosen by the monster as its favored class.",
 			"",
-			"***Alignment, Size, and Type:*** While a monster's size and type remain constant (unless changed by the application of templates or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster represent the norm for those monsters - they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.",
+			"***Alignment, Size, and Type:*** While a monster's size and type remain constant (unless changed by the application of [templates](rule/templates) or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster represent the norm for those monsters - they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.",
 			"",
 			"***Init and Senses:*** The creature's initiative modifier followed by any special senses and its Perception check modifier.",
 			"",
@@ -7494,11 +7494,11 @@
 			"",
 			"***SQ:*** Any special qualities possessed by the creature.",
 			"",
-			"***Environment:*** The regions and climates in which the creature is typically encountered are listed here; these often present wider ranges than the icons at the top of the stat block indicate. In this case, the icon listed at the top of the stat block indicates the creature's preferred terrain.",
+			"***Environment:*** The regions and climates in which the creature is typically encountered are listed here.",
 			"",
 			"***Organization:*** This lists how the creature is organized, including number ranges as appropriate.",
 			"",
-			"***Treasure:*** The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table 12-5](rule/placing_treasure). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game-if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. \"Standard\" treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table 12-5. \"Double\" or \"triple\" treasure indicates the creature has double or triple this standard value. \"Incidental\" indicates the creature has half this standard value, and then only within the confines of its lair. \"None\" indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). \"NPC gear\" indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR (see [Table 14-9](rule/step_6_gear)).",
+			"***Treasure:*** The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table 12-5](rule/placing_treasure). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game; if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. \"Standard\" treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table 12-5. \"Double\" or \"triple\" treasure indicates the creature has double or triple this standard value. \"Incidental\" indicates the creature has half this standard value, and then only within the confines of its lair. \"None\" indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). \"NPC gear\" indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR (see [Table 14-9](rule/step_6_gear)).",
 			"",
 			"***Special Abilities:*** Finally, any of the creature's more unique special abilities are detailed in full here.",
 			"",
@@ -7675,7 +7675,7 @@
 			"",
 			"### Table 1-2: Creature Hit Dice",
 			"",
-			"| Creature Type | 1/2 CR | 1 CR | 2 CR | 3 CR | 4 CR | 5 CR | 6 CR | 7 CR | 8 CR | 9 CR | 10 CR | 11 CR | 12 CR | 13 CR | 14 CR | 15 CR | 16 CR | 17 CR | 18 CR | 19 CR | 20 |",
+			"| Creature Type | 1/2 CR | 1 CR | 2 CR | 3 CR | 4 CR | 5 CR | 6 CR | 7 CR | 8 CR | 9 CR | 10 CR | 11 CR | 12 CR | 13 CR | 14 CR | 15 CR | 16 CR | 17 CR | 18 CR | 19 CR | 20 CR |",
 			"| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
 			"| Aberration | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |",
 			"| Animal | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |",
@@ -7717,7 +7717,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 290](source/pathfinder_rpg_bestiary)",
 			"",
-			"Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the [Natural Attacks](umr/natural_attacks) description). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy-in most cases, such unusually sized monsters should be highly magical in nature. See Table 1-3 for more information on creature sizes and expected scores.",
+			"Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the [Natural Attacks](umr/natural_attacks) description). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy - in most cases, such unusually sized monsters should be highly magical in nature. See Table 1-3 for more information on creature sizes and expected scores.",
 			"",
 			"***Minimum/Maximum CR:*** These values list the minimum and the maximum challenge ratings a creature of the indicated size should fall between.",
 			"",
@@ -7868,6 +7868,8 @@
 			"| d12 | 6.5 |",
 			"| d12 | 10.5 |",
 			"",
+			"&ast; Always round down after multiplying. For example, treat the average of 1d4 as 2, and the average of 2d4 as 5.",
+			"",
 			"### Table 1-6: Statistics Summary",
 			"",
 			"| HD | Fast BAB | Medium BAB | Slow BAB | Good Save | Bad Save | Feats |",
@@ -7929,7 +7931,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 292](source/pathfinder_rpg_bestiary)",
 			"",
-			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at [existing monsters](main/monsters). Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities-when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
+			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at [existing monsters](main/monsters). Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities - when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
 			"",
 			"Most special abilities that cause damage, such as breath weapons, give a save (Fortitude, Reflex, or Will depending on the ability). The DC for almost all special abilities is equal to 10 + 1/2 the creature's Hit Dice + a relevant ability modifier (usually Constitution or Charisma depending on the ability). Special abilities that add to melee and ranged attacks generally do not allow a save, as they rely on the attacks hitting to be useful.",
 			"",
@@ -7961,7 +7963,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 293](source/pathfinder_rpg_bestiary)",
 			"",
-			"A creature should have an amount of treasure appropriate to its CR. See Table 1-7 for a list of treasure totals based on CR. For some creatures, their treasure consists of the loot from their recent meals strewn across their lairs, while for others it consists of a greed-fueled hoard or even gear it uses in combat. Make sure to account for any weapons or armor that the creature is using, as determined by step 7.",
+			"A creature should have an amount of treasure appropriate to its CR. See Table 1-7 for a list of treasure totals based on CR. For some creatures, their treasure consists of the loot from their recent meals strewn across their lairs, while for others it consists of a greed-fueled hoard or even gear it uses in combat. Make sure to account for any weapons or armor that the creature is using, as determined by [step 7](rule/step_7_other_statistics).",
 			"",
 			"### Table 1-7: XP and GP Values by CR",
 			"",
@@ -8024,7 +8026,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 293](source/pathfinder_rpg_bestiary)",
 			"",
-			"Now that you have all of the creature's statistics sorted out, it's time to fill in all the details-such as name, alignment, space, reach, environment, and ecology-as you see fit."
+			"Now that you have all of the creature's statistics sorted out, it's time to fill in all the details - such as name, alignment, space, reach, environment, and ecology - as you see fit."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -8046,6 +8048,7 @@
 	},
 	"monster_advancement": {
 		"name": "Monster Advancement",
+		"tags": "modifying monsters modifying creatures",
 		"subtitle": "Bestiary",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -8077,11 +8080,13 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 294](source/pathfinder_rpg_bestiary)",
 			"",
-			"A template is a set of rules that you apply to a monster to transform it into a different monster. [All templates](main/monster_templates) give precise directions on how to change a monster's statistics to transform it into the new monster.",
+			"A template is a set of rules that you apply to a monster to transform it into a different monster. All templates give precise directions on how to change a monster's statistics to transform it into the new monster.",
 			"",
 			"***Acquired Templates:*** Some templates, like the [lich](template/lich), are the results of a creature's choice and desire to transform. Others, like the [ghost](template/ghost) template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation-these types are called \"acquired templates,\" and can be added to a creature at any time during its existance.",
 			"",
-			"***Inherited Templates:*** Some templates, such as the [half-dragon](template/half-dragon) and [half-fiend templates](template/half-fiend), are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\""
+			"***Inherited Templates:*** Some templates, such as the [half-dragon](template/half-dragon) and [half-fiend templates](template/half-fiend), are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\"",
+			"",
+			"[Find a listing of all templates here.](main/monster_templates)"
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -8290,7 +8295,7 @@
 		"description": [
 			"**Source** [Pathfinder RPG Bestiary pg. 296](source/pathfinder_rpg_bestiary)",
 			"",
-			"Next, adjust the creature's derived statistics, such as its initiative, AC, saving throws, melee and ranged attack bonuses, BAB, CMB, and CMD. Adjust any special attacks or qualities that are based on the creature's size, Hit Dice, or ability scores. If the creature changed in size, be sure to adjust its AC, attack, CMB, and CMD accordingly (as noted on [Table 2-3](rule/step_2_add_hit_dice)). Table 2-1 also tracks the average change to the creature's AC, attack rolls, and damage rolls. Add up these values for each step of change between the creature's original and new CR. If the creature changed size, make sure to make changes to its natural armor bonus, as noted on [Table 2-2](rule/step_4_skills_and_feats). If the creature does not meet these averages, you should consider adjusting its ability scores or Hit Dice to get it closer to the target."
+			"Next, adjust the creature's derived statistics, such as its initiative, AC, saving throws, melee and ranged attack bonuses, BAB, CMB, and CMD. Adjust any special attacks or qualities that are based on the creature's size, Hit Dice, or ability scores. If the creature changed in size, be sure to adjust its AC, attack, CMB, and CMD accordingly (as noted on [Table 2-3](rule/step_2_add_hit_dice)). [Table 2-1](rule/step_2_add_hit_dice) also tracks the average change to the creature's AC, attack rolls, and damage rolls. Add up these values for each step of change between the creature's original and new CR. If the creature changed size, make sure to make changes to its natural armor bonus, as noted on [Table 2-2](rule/step_4_skills_and_feats). If the creature does not meet these averages, you should consider adjusting its ability scores or Hit Dice to get it closer to the target."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -8380,7 +8385,7 @@
 			"",
 			"Some aberrations, fey, magical beasts, monstrous humanoids, and outsiders fall into this role.",
 			"",
-			"***Special:*** Creatures that do not fall into any of the other categories usually rely on special abilities and powers to attack their foes. They might be tough or dangerous in physical combat, but the threat is greatly increased by their special abilities. A list of monster roles for determining key classes appears in each Beastiary."
+			"***Special:*** Creatures that do not fall into any of the other categories usually rely on special abilities and powers to attack their foes. They might be tough or dangerous in physical combat, but the threat is greatly increased by their special abilities."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -8406,7 +8411,7 @@
 			"",
 			"Next, add the class levels to the monster, making all of the necessary additions to its HD, hit points, BAB, CMB, CMD, feats, skills, spells, and class features. If the creature possesses class features (such as spellcasting or sneak attack) for the class that is being added, these abilities stack. This functions just like adding class levels to a character without racial Hit Dice.",
 			"",
-			"A monster with class levels always possesses treasure equal to an NPC of a level equal to the monster's final CR (as calculated in Step 3, below). To determine the value of this gear, use the [value listed](rule/step_6_gear) for a heroic NPC of that level. Once a total GP value is determined, follow the rules for outfitting an NPC as outlined in that section. Gear should help a monster with class levels remain challenging and retain statistics close to those presented on [Table 1-1: Monster Statistics by CR](rule/step_2_target_statistics)."
+			"A monster with class levels always possesses treasure equal to an NPC of a level equal to the monster's final CR (as calculated in Step 3). To determine the value of this gear, use the [value listed](rule/step_6_gear) for a heroic NPC of that level. Once a total GP value is determined, follow the rules for outfitting an NPC as outlined in that section. Gear should help a monster with class levels remain challenging and retain statistics close to those presented on [Table 1-1: Monster Statistics by CR](rule/step_2_target_statistics)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -8472,7 +8477,9 @@
 			"",
 			"Note that in a mixed group, the value of racial Hit Dice and abilities diminish as a character gains levels. It is recommended that for every 3 levels gained by the group, the monster character should gain an extra level, received halfway between the 2nd and 3rd levels. Repeat this process a number of times equal to half the monster's CR, rounded down. Using the minotaur example, when the group is at a point between 6th and 7th level, the minotaur gains a level, and then again at 7th, making him a minotaur barbarian 4. This process repeats at 10th level, making him a minotaur barbarian 8 when the group reaches 10th level. From that point onward, he gains levels normally.",
 			"",
-			"GMs should carefully consider any monster PCs in their groups. Some creatures are simply not suitable for play as PCs, due to their powers or role in the game. As monster characters progress, GMs should closely monitor whether such characters are disruptive or abusive to the rules and modify them as needed to improve play."
+			"GMs should carefully consider any monster PCs in their groups. Some creatures are simply not suitable for play as PCs, due to their powers or role in the game. As monster characters progress, GMs should closely monitor whether such characters are disruptive or abusive to the rules and modify them as needed to improve play.",
+			"",
+			"Also see: [Race Builder](rule/race_builder)."
 		],
 		"parent_topics": [
 			"gamemastering",
