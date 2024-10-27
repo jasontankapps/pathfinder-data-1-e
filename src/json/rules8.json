@@ -8,31 +8,35 @@
 			"",
 			"This section presents a variety of small tweaks for your campaign, each one focused on giving life to moments and depth to activities in your game. You can use these systems individually or mix and match them together to taste.",
 			"",
-			"Alignment dives into what each of the nine alignments means to different people, and provides new rules for incrementally changing your alignment. If your party loves playing out interactions with merchants and finds selling items at half price a little dull, spice things up with Bargaining.",
+			"**Alignment** dives into what each of the nine alignments means to different people, and provides new rules for incrementally changing your alignment.",
 			"",
-			"Classes and feats can grant you an animal companion, familiar, cohort, or other partner. Companions brings new options to your table for using them.",
+			"If your party loves playing out interactions with merchants and finds selling items at half price a little dull, spice things up with **Bargaining.**",
 			"",
-			"PCs meet interesting and useful allies all the time. Contacts lets you turn those chance meetings and dealings into long-term recurring characters in your campaign.",
+			"Classes and feats can grant you an animal companion, familiar, cohort, or other partner. **Companions** brings new options to your table for using them.",
 			"",
-			"Exploration takes the time your party spends exploring the unknown lands between dungeons and settlements and makes it a part of your party's story, giving campaigns more of a sandbox feel.",
+			"PCs meet interesting and useful allies all the time. **Contacts** lets you turn those chance meetings and dealings into long-term recurring characters in your campaign.",
 			"",
-			"Many characters follow some code-chivalric, criminal, samurai, and so on. Honor lets you track your personal code and use it to your advantage. With Investment, you can add \"entrepreneur\" to the list of roles you have in the world, staking your hard-fought gold and silver on an enterprise.",
+			"**Exploration** takes the time your party spends exploring the unknown lands between dungeons and settlements and makes it a part of your party's story, giving campaigns more of a sandbox feel.",
 			"",
-			"Family is important to many adventurers. Lineage provides many ideas for using your family in the campaign.",
+			"Many characters follow some code-chivalric, criminal, samurai, and so on. **Honor** lets you track your personal code and use it to your advantage.",
 			"",
-			"Magic Item Creation takes the rules from the Core Rulebook and adds greater depth and detail for casters who love magical research and development.",
+			"With **Investment,** you can add \"entrepreneur\" to the list of roles you have in the world, staking your hard-fought gold and silver on an enterprise.",
 			"",
-			"When you have recurring NPCs, you have the potential for interesting drama. Relationships models that drama between both friends and rivals.",
+			"**Family** is important to many adventurers. Lineage provides many ideas for using your family in the campaign.",
 			"",
-			"Successful adventurers are well known and respected for their grand deeds. Reputation and Fame marks the tangible progress of fame-good or ill-and shows the rewards of having a high reputation.",
+			"**Magic Item Creation** takes the rules from the Core Rulebook and adds greater depth and detail for casters who love magical research and development.",
 			"",
-			"If you're fortunate, maybe one day you'll put down the sword and wand and run a tavern for the rest of your peaceful days. That's where Retirement comes in.",
+			"When you have recurring NPCs, you have the potential for interesting drama. **Relationships** models that drama between both friends and rivals.",
 			"",
-			"As time goes on, your needs as a hero change. Retraining has you covered, letting you change your archetypes, class features, feats, skill ranks, spells known, and other abilities.",
+			"Successful adventurers are well known and respected for their grand deeds. **Reputation and Fame** marks the tangible progress of fame-good or ill-and shows the rewards of having a high reputation.",
 			"",
-			"When adventurers walk into town with satchels of treasure, everyone wants a cut. Taxation describes the situations where the party needs to part with their silver.",
+			"If you're fortunate, maybe one day you'll put down the sword and wand and run a tavern for the rest of your peaceful days. That's where **Retirement** comes in.",
 			"",
-			"Young Characters provides rules for creating and progressing adventurers who got a very early start in the dungeon-exploring and monster-slaying profession."
+			"As time goes on, your needs as a hero change. **Retraining** has you covered, letting you change your archetypes, class features, feats, skill ranks, spells known, and other abilities.",
+			"",
+			"When adventurers walk into town with satchels of treasure, everyone wants a cut. **Taxation** describes the situations where the party needs to part with their silver.",
+			"",
+			"**Young Characters** provides rules for creating and progressing adventurers who got a very early start in the dungeon-exploring and monster-slaying profession."
 		],
 		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
@@ -50,8 +54,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		],
 		"siblings": [
 			"basics_from_the_core_rulebook",
@@ -65,6 +68,7 @@
 			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
+			"affiliations",
 			"infernal_contracts",
 			"mastering_the_wild",
 			"planar_adventures",
@@ -116,8 +120,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"lawful_good": {
@@ -543,8 +546,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"valuation": {
@@ -899,8 +901,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"controlling_companions": {
@@ -1426,8 +1427,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"trust": {
@@ -1706,8 +1706,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"tracking_travel": {
@@ -2568,8 +2567,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"honor_points": {
@@ -3010,8 +3008,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"investment_mechanics": {
@@ -3155,8 +3152,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"developing_your_family": {
@@ -3469,8 +3465,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"pricing_new_items": {
@@ -3971,8 +3966,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"relationship_levels": {
@@ -4277,8 +4271,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"fame": {
@@ -4787,8 +4780,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"the_simple_life": {
@@ -4943,8 +4935,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"ability_score_increase": {
@@ -5378,8 +5369,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"types_of_taxes": {
@@ -5497,8 +5487,7 @@
 			"retirement",
 			"retraining",
 			"taxation",
-			"young_characters",
-			"affiliations"
+			"young_characters"
 		]
 	},
 	"creating_young_characters": {
@@ -5631,6 +5620,7 @@
 			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
+			"affiliations",
 			"infernal_contracts",
 			"mastering_the_wild",
 			"planar_adventures",

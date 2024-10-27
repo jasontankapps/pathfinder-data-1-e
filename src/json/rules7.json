@@ -29,6 +29,7 @@
 			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
+			"affiliations",
 			"infernal_contracts",
 			"mastering_the_wild",
 			"planar_adventures",
@@ -159,18 +160,10 @@
 			"race_builder",
 			"step_2_racial_qualities"
 		],
-		"subtopics": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
+		"subtopics":  [
+			"low_rp_types",
+			"mid_rp_types",
+			"high_rp_types"
 		],
 		"siblings": [
 			"type_quality",
@@ -180,12 +173,43 @@
 			"language_quality"
 		]
 	},
-	"aberration_3_rp": {
-		"name": "Aberration",
+	"low_rp_types": {
+		"name": "Low-RP Types",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"The types below range from 0 RP to 3 RP.",
+			"",
+			"### Humanoid: 0 RP",
+			"",
+			"Humanoid races (0 RP) have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a halfbreed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features.",
+			"",
+			"- Humanoids breathe, eat, and sleep.",
+			"",
+			"### Fey: 2 RP",
+			"",
+			"A fey (2 RP) is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features.",
+			"",
+			"- Fey have the low-light vision racial trait.",
+			"- Fey breathe, eat, and sleep.",
+			"",
+			"### Monstrous Humanoid: 3 RP",
+			"",
+			"Monstrous humanoids (3 RP) are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features.",
+			"",
+			"- Monstrous humanoids have the darkvision 60 feet racial trait.",
+			"- Monstrous humanoids breathe, eat, and sleep.",
+			"",
+			"### Outsider (native): 3 RP",
+			"",
+			"A native outsider (3 RP) is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.",
+			"",
+			"- Native outsiders have the darkvision 60 feet racial trait.",
+			"- Native outsiders breathe, eat, and sleep.",
+			"",
+			"### Aberration: 3 RP",
 			"",
 			"Aberrations (3 RP) have bizarre anatomies, strange abilities, alien mindsets, or any combination of the three. An aberration has the following features.",
 			"",
@@ -198,26 +222,97 @@
 			"step_2_racial_qualities",
 			"type_quality"
 		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
+		"siblings":  [
+			"low_rp_types",
+			"mid_rp_types",
+			"high_rp_types"
 		]
 	},
-	"construct_20_rp": {
-		"name": "Construct",
+	"mid_rp_types": {
+		"name": "Mid-RP Types",
 		"subtitle": "Race Creation, Gamemastering",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
+			"",
+			"These types range from 7 RP to 10 RP. The first two are \"full\" types, while the last two are modifications of the High-RP types.",
+			"",
+			"### Dragon: 10 RP",
+			"",
+			"A dragon (10 RP) is a reptilian creature with magical or unusual abilities. A dragon race has the following features.",
+			"",
+			"- Dragons have the darkvision 60 feet racial trait.",
+			"- Dragons have the low-light vision racial trait.",
+			"- Dragons are immune to magical sleep effects and paralysis effects.",
+			"- Dragons breathe, eat, and sleep.",
+			"",
+			"### Plant: 10 RP",
+			"",
+			"This type (10 RP) encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features.",
+			"",
+			"- Plants have the low-light vision racial trait.",
+			"- Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
+			"- Plants are immune to paralysis, poison, polymorph, sleep effects, and stunning.",
+			"- Plants breathe and eat, but do not sleep, unless they want to gain some beneficial effect from this activity. This means that a plant creature can sleep in order to regain spells, but sleep is not required to survive or stay in good health.",
+			"",
+			"### Half-Types",
+			"",
+			"Two of the creature types - construct and undead - create interesting player options, but are too expensive if you are trying to create a race within the strictures of the standard power level. If you are making a standard race and still want it to be a construct or undead race, consider the two special subtypes detailed below, the half-construct and half-undead. Each of these includes much of the flavor of the types they are related to, but grants fewer abilities and immunities. These subtypes can be added to any of the race types except for construct and undead. When you apply these subtypes to the humanoid type, choose another subtype as the creature's other half. For example, you could make a creature that is humanoid (half-construct, human).",
+			"",
+			"#### Half-Construct: 7 RP",
+			"",
+			"A half-construct race is a group of creatures that are artificially enhanced or have parts replaced by constructed mechanisms, be they magical or mechanical. A half-construct race has the following features.",
+			"",
+			"- Half-constructs gain a +2 racial bonus on saving throws against disease, mind-affecting effects, poison, and effects that cause either exhaustion or fatigue.",
+			"- Half-constructs cannot be raised or resurrected.",
+			"- Half-constructs do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that a half-construct can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required for the construct to survive or stay in good health.",
+			"",
+			"#### Half-Undead: 5 RP",
+			"",
+			"Half-undead races are strange or unholy fusions of the living and the undead. Players interested in playing a half-undead race might also consider the [dhampir](race/dhampir), the progeny of a vampire and a human. A half-undead race has the following features.",
+			"",
+			"- Half-undead have the darkvision 60 feet racial trait.",
+			"- Half-undead gain a +2 racial bonus on saving throws against disease and mind-affecting effects.",
+			"- Half-undead take no penalties from energy-draining effects, though they can still be killed if they accrue more negative levels than they have Hit Dice. After 24 hours, any negative levels they've gained are removed without any additional saving throws.",
+			"- Half-undead creatures are harmed by positive energy and healed by negative energy. A half-undead creature with the fast healing special quality still benefits from that quality."
+		],
+		"parent_topics": [
+			"gamemastering",
+			"race_builder",
+			"step_2_racial_qualities",
+			"type_quality"
+		],
+		"siblings":  [
+			"low_rp_types",
+			"mid_rp_types",
+			"high_rp_types"
+		]
+	},
+	"high_rp_types": {
+		"name": "High-RP Types",
+		"subtitle": "Race Creation, Gamemastering",
+		"sources": [ "Advanced Race Guide" ],
+		"description": [
+			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
+			"",
+			"These types cost more than 10 RP and do not have Constitution scores. See the note at the end for more information on what this means for character creation.",
+			"",
+			"### Undead: 16 RP",
+			"",
+			"Undead races (16 RP) are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features.",
+			"",
+			"- Undead have no Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC).",
+			"- Undead have the darkvision 60 feet racial trait.",
+			"- Undead are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
+			"- Undead are immune to bleed damage, death effects, disease, paralysis, poison, sleep effects, and stunning.",
+			"- Undead are not subject to nonlethal damage, ability drain, or energy drain, and are immune to damage to physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.",
+			"- Undead are harmed by positive energy and healed by negative energy. An undead creature with the fast healing special quality still benefits from that quality.",
+			"- Undead are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
+			"- Undead do not risk death from massive damage, but are immediately destroyed when reduced to 0 hit points or fewer.",
+			"- Undead are not affected by raise dead and reincarnate spells or abilities. Resurrection and true resurrection can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.",
+			"- Undead do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that an undead creature can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health.",
+			"",
+			"### Construct: 20 RP",
 			"",
 			"A construct race (20 RP) is a group of animated objects or artificially created creatures. A construct race has the following features.",
 			"",
@@ -238,269 +333,9 @@
 			"| Tiny | - |",
 			"| Small | 10 |",
 			"| Medium | 20 |",
-			"| Large | 30 |"
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"dragon_10_rp": {
-		"name": "Dragon",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
+			"| Large | 30 |",
 			"",
-			"A dragon (10 RP) is a reptilian creature with magical or unusual abilities. A dragon race has the following features.",
-			"",
-			"- Dragons have the darkvision 60 feet racial trait.",
-			"- Dragons have the low-light vision racial trait.",
-			"- Dragons are immune to magical sleep effects and paralysis effects.",
-			"- Dragons breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"fey_2_rp": {
-		"name": "Fey",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"A fey (2 RP) is a creature with supernatural abilities and connections to nature or to some other force or place. A fey race has the following features.",
-			"",
-			"- Fey have the low-light vision racial trait.",
-			"- Fey breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"humanoid_0_rp": {
-		"name": "Humanoid",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"Humanoid races (0 RP) have few or no supernatural or spell-like abilities, but most can speak and have well-developed societies. Humanoids are usually Small or Medium, unless they have the giant subtype, in which case they are Large. Every humanoid creature also has a subtype to match its race, such as human, giant, goblinoid, reptilian, or tengu. If you are making a new humanoid race, you should either find an existing subtype to match or make a new one by using the name of the race as the subtype. If you are making a halfbreed race, it should have the racial type of both parent races. For example, a half-elf has both the human and the elf subtypes. Subtypes are often important to qualify for other racial abilities and feats. If a humanoid has a racial subtype, it is considered a member of that race in the case of race prerequisites. A humanoid race has the following features.",
-			"",
-			"- Humanoids breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"monstrous_humanoid_3_rp": {
-		"name": "Monstrous Humanoid",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"Monstrous humanoids (3 RP) are similar to humanoids, but have monstrous or animalistic features. They often have magical abilities as well. A monstrous humanoid race has the following features.",
-			"",
-			"- Monstrous humanoids have the darkvision 60 feet racial trait.",
-			"- Monstrous humanoids breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"outsider_native_3_rp": {
-		"name": "Outsider",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"A native outsider (3 RP) is at least partially composed of the essence (but not necessarily the matter) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence. When making a native outsider race, it is sometimes important to pick a single Outer Plane that race is tied to. For example, tieflings are tied to Abaddon, the Abyss, or Hell. Such ties can be important for qualifying for other racial abilities, but it's not required that a native outsider be tied to another plane. A native outsider race has the followings features.",
-			"",
-			"- Native outsiders have the darkvision 60 feet racial trait.",
-			"- Native outsiders breathe, eat, and sleep."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"plant_10_rp": {
-		"name": "Plant",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"This type (10 RP) encompasses humanoid-shaped vegetable creatures. Note that regular plants, such as those found in ordinary gardens and fields, lack Wisdom and Charisma scores and are not creatures, but objects, even though they are alive. A plant race has the following features.",
-			"",
-			"- Plants have the low-light vision racial trait.",
-			"- Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
-			"- Plants are immune to paralysis, poison, polymorph, sleep effects, and stunning.",
-			"- Plants breathe and eat, but do not sleep, unless they want to gain some beneficial effect from this activity. This means that a plant creature can sleep in order to regain spells, but sleep is not required to survive or stay in good health."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"undead_16_rp": {
-		"name": "Undead",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
-			"",
-			"Undead races (16 RP) are once-living creatures animated by spiritual or supernatural forces. An undead race has the following features.",
-			"",
-			"- Undead have no Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a breath weapon's DC).",
-			"- Undead have the darkvision 60 feet racial trait.",
-			"- Undead are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
-			"- Undead are immune to bleed damage, death effects, disease, paralysis, poison, sleep effects, and stunning.",
-			"- Undead are not subject to nonlethal damage, ability drain, or energy drain, and are immune to damage to physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.",
-			"- Undead are harmed by positive energy and healed by negative energy. An undead creature with the fast healing special quality still benefits from that quality.",
-			"- Undead are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
-			"- Undead do not risk death from massive damage, but are immediately destroyed when reduced to 0 hit points or fewer.",
-			"- Undead are not affected by raise dead and reincarnate spells or abilities. Resurrection and true resurrection can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.",
-			"- Undead do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that an undead creature can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"races_without_constitution": {
-		"name": "Races without Constitution",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
+			"### Races Without Constitution",
 			"",
 			"Generating ability scores for most of the races you create with these rules - even advanced and monstrous races - uses [the standard methods](rule/generating_ability_scores). Races without Constitution scores are the exception, and require some slight changes to the ability score generation methods. The changes are as follows, corresponding to the five methods found in the Core Rulebook.",
 			"",
@@ -521,63 +356,9 @@
 			"type_quality"
 		],
 		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
-		]
-	},
-	"special_subtypes": {
-		"name": "Special Subtypes",
-		"subtitle": "Race Creation, Gamemastering",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
-			"",
-			"Two of the creature types - construct and undead - create interesting player options, but are too expensive if you are trying to create a race within the strictures of the standard power level. If you are making a standard race and still want it to be a construct or undead race, consider the two special subtypes detailed below, the half-construct and half-undead. Each of these includes much of the flavor of the types they are related to, but grants fewer abilities and immunities. These subtypes can be added to any of the race types except for construct and undead. When you apply these subtypes to the humanoid type, choose another subtype as the creature's other half. For example, you could make a creature that is humanoid (half-construct, human).",
-			"",
-			"### Half-Construct (7 RP)",
-			"",
-			"A half-construct race is a group of creatures that are artificially enhanced or have parts replaced by constructed mechanisms, be they magical or mechanical. A half-construct race has the following features.",
-			"",
-			"- Half-constructs gain a +2 racial bonus on saving throws against disease, mind-affecting effects, poison, and effects that cause either exhaustion or fatigue.",
-			"- Half-constructs cannot be raised or resurrected.",
-			"- Half-constructs do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that a half-construct can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required for the construct to survive or stay in good health.",
-			"",
-			"### Half-Undead (5 RP)",
-			"",
-			"Half-undead races are strange or unholy fusions of the living and the undead. Players interested in playing a half-undead race might also consider the [dhampir](race/dhampir), the progeny of a vampire and a human. A half-undead race has the following features.",
-			"",
-			"- Half-undead have the darkvision 60 feet racial trait.",
-			"- Half-undead gain a +2 racial bonus on saving throws against disease and mind-affecting effects.",
-			"- Half-undead take no penalties from energy-draining effects, though they can still be killed if they accrue more negative levels than they have Hit Dice. After 24 hours, any negative levels they've gained are removed without any additional saving throws.",
-			"- Half-undead creatures are harmed by positive energy and healed by negative energy. A half-undead creature with the fast healing special quality still benefits from that quality."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_2_racial_qualities",
-			"type_quality"
-		],
-		"siblings": [
-			"aberration_3_rp",
-			"construct_20_rp",
-			"dragon_10_rp",
-			"fey_2_rp",
-			"humanoid_0_rp",
-			"monstrous_humanoid_3_rp",
-			"outsider_native_3_rp",
-			"plant_10_rp",
-			"undead_16_rp",
-			"races_without_constitution",
-			"special_subtypes"
+			"low_rp_types",
+			"mid_rp_types",
+			"high_rp_types"
 		]
 	},
 	"size_quality": {
@@ -1505,7 +1286,7 @@
 			"",
 			"***Relentless (1 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain a +2 bonus on combat maneuver checks made to bull rush or overrun an opponent. This bonus only applies while both the member of this race and its opponent are standing on the ground.",
 			"",
-			"***Sky Sentinel (3 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain a +1 racial bonus on attack rolls, a +2 dodge bonus to AC, and a +2 bonus on Perception checks against flying creatures. In addition, enemies on higher ground gain no attack roll bonus against members of this race.",
+			"***Sky Sentinel (3 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain a +1 racial bonus on attack rolls, a +2 dodge bonus to AC, and a +2 bonus on Perception checks against flying creatures. In addition, enemies on [higher ground](rule/combat_modifiers) gain no attack roll bonus against members of this race.",
 			"",
 			"***Slapping Tail (3 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have a tail they can use to make attacks of opportunity with a reach of 5 feet. The tail is a natural attack that deals 1d6 points of damage plus the user's Strength modifier if Small, 1d8 points of damage plus the user's Strength modifier if Medium, or 1d10 points of damage plus 1-1/2 times the user's Strength modifier if Large.  ",
 			"**Special:** If a Large creature has the reach trait, its tail also gains reach.",
@@ -1552,13 +1333,13 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 235](source/advanced_race_guide)",
 			"",
-			"***Claws (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race receive two claw attacks. These are primary natural attacks. The damage is based on the creature's size.",
+			"***Claws (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race receive two claw attacks. These are primary natural attacks. The damage is [based on the creature's size](umr/natural_attacks).",
 			"",
 			"***Frenzy (2 RP):*** **Prerequisites:** None; **Benefit:** Once per day, whenever a member of this race takes damage, it flies into a frenzy for 1 minute, gaining a +2 racial bonus to Constitution and Strength, but a -2 penalty to AC.",
 			"",
-			"***Frightful Gaze (6 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Creatures within 30 feet of a member of this race that meet its gaze must succeed at a Will saving throw (DC 10 + the 1/2 user's character level + the user's Charisma modifier) or stand paralyzed in fear for 1 round. This is a mind-affecting fear effect. A target that successfully saves cannot be affected by the user's frightful gaze for 24 hours.",
+			"***Frightful Gaze (6 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Creatures within 30 feet of a member of this race that meet its gaze must succeed at a Will saving throw (DC 10 + the 1/2 user's character level + the user's Charisma modifier) or stand [paralyzed](rule/paralyzed) in fear for 1 round. This is a mind-affecting fear effect. A target that successfully saves cannot be affected by the user's frightful gaze for 24 hours.",
 			"",
-			"***Natural Attack (1 RP):*** **Prerequisites:** None; **Benefit:** Pick one of the following natural attacks: gore, hoof (if the race has hooves), slam, talons, or wings (if the race has flight). Members of this race receive one natural attack of the chosen type. Gore, slam, and talons are primary natural attacks, while hoof and wings are secondary natural attacks. The damage is based on the creature's size.  ",
+			"***Natural Attack (1 RP):*** **Prerequisites:** None; **Benefit:** Pick one of the following [natural attacks](umr/natural_attacks): gore, hoof (if the race has hooves), slam, talons, or wings (if the race has flight). Members of this race receive one natural attack of the chosen type. Gore, slam, and talons are primary natural attacks, while hoof and wings are secondary natural attacks. The damage is based on the creature's size.  ",
 			"**Special:** This trait can be taken multiple times. Each time, pick a different natural attack.",
 			"",
 			"***Reach (1 RP):*** **Prerequisite:** Large size; **Benefit:** Members of this race have a reach of 10 feet.",
@@ -1639,7 +1420,7 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 236](source/advanced_race_guide)",
 			"",
-			"***Carrion Sense (1 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have a natural ability to sniff out carrion. This functions like the scent ability, but only for corpses and badly wounded creatures (creatures with 25% or fewer hit points).",
+			"***Carrion Sense (1 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have a natural ability to sniff out carrion. This functions like the [scent](umr/scent) ability, but only for corpses and badly wounded creatures (creatures with 25% or fewer hit points).",
 			"",
 			"***Darkvision 60 Feet (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race can see in the dark up to 60 feet.",
 			"",
@@ -1651,7 +1432,7 @@
 			"",
 			"***Minesight (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have darkvision 90 feet; however, they are automatically dazzled in bright light and take a -2 penalty on saving throws against effects with the light descriptor.",
 			"",
-			"***Water Sense (1 RP):*** **Prerequisite:** Outsider (native) with ties to the Plane of Water or amphibious racial trait; **Benefit:** Members of this race can sense vibrations in water, granting them blindsense 30 feet against creatures that are touching the same body of water."
+			"***Water Sense (1 RP):*** **Prerequisite:** Outsider (native) with ties to the Plane of Water or amphibious racial trait; **Benefit:** Members of this race can sense vibrations in water, granting them [blindsense](umr/blindsense) 30 feet against creatures that are touching the same body of water."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1671,9 +1452,9 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 236](source/advanced_race_guide)",
 			"",
-			"***Scent (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain the scent ability.",
+			"***Scent (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain the [scent](umr/scent) ability.",
 			"",
-			"***See in Darkness (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race can see perfectly in darkness of any kind, including that created by spells such as [deeper darkness](spell/deeper_darkness)."
+			"***See in Darkness (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race can [see perfectly in darkness](umr/see_in_darkness) of any kind, including that created by spells such as [deeper darkness](spell/deeper_darkness)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1693,9 +1474,9 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 236](source/advanced_race_guide)",
 			"",
-			"***All-Around Vision (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have some way of seeing all around them, granting them a +4 racial bonus on Perception checks and making them immune to flanking.",
+			"***All-Around Vision (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have some way of [seeing all around them](umr/all-around_vision), granting them a +4 racial bonus on Perception checks and making them immune to flanking.",
 			"",
-			"***Blindsense 30 Feet (4 RP):*** **Prerequisites:** None; **Benefit:** Using nonvisual senses such as acute smell or hearing, members of this race notice things they cannot see. Members of this race usually do not need to make Perception checks to pinpoint the location of a creature within 30 feet, provided they have line of effect to that creature. A creature that members of this race cannot see still has total concealment against individuals with blindsense, and members of this race still have the normal miss chance when attacking creatures that have concealment. Visibility still affects the movement of members of this race. Members of this race are still denied their Dexterity bonus to AC against attacks from creatures they cannot see."
+			"***Blindsense 30 Feet (4 RP):*** **Prerequisites:** None; **Benefit:** Using nonvisual senses such as acute smell or hearing, members of this race [notice things they cannot see](umr/blindsense). Members of this race usually do not need to make Perception checks to pinpoint the location of a creature within 30 feet, provided they have line of effect to that creature. A creature that members of this race cannot see still has total concealment against individuals with blindsense, and members of this race still have the normal miss chance when attacking creatures that have concealment. Visibility still affects the movement of members of this race. Members of this race are still denied their Dexterity bonus to AC against attacks from creatures they cannot see."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1744,15 +1525,15 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 237](source/advanced_race_guide)",
 			"",
-			"Light Blindness (-2 RP): **Prerequisite:** Darkvision or see in darkness trait; Weakness: Abrupt exposure to bright light blinds members of this race for 1 round; on subsequent rounds, they are dazzled as long as they remain in the affected area.",
+			"***Light Blindness (-2 RP):*** **Prerequisite:** Darkvision or see in darkness trait; **Weakness:** Abrupt exposure to bright light blinds members of this race for 1 round; on subsequent rounds, they are [dazzled](rule/awareness_conditions) as long as they remain in the affected area.",
 			"",
-			"Light Sensitivity (-1 RP): **Prerequisite:** Darkvision; Weakness: Members of this race are dazzled as long as they remain in an area of bright light.",
+			"***Light Sensitivity (-1 RP):*** **Prerequisite:** Darkvision; **Weakness:** Members of this race are [dazzled](rule/awareness_conditions) as long as they remain in an area of bright light.",
 			"",
-			"Negative Energy Affinity (-1 RP): **Prerequisites:** None; Weakness: A member of this race is alive, but reacts to positive and negative energy as if it were undead; positive energy harms it, while negative energy heals it.",
+			"***Negative Energy Affinity (-1 RP):*** **Prerequisites:** None; **Weakness:** A member of this race is alive, but reacts to positive and negative energy as if it were undead; positive energy harms it, while negative energy heals it.",
 			"",
-			"Resurrection Vulnerability (-1 RP): **Prerequisite:** Half-undead subtype or undead type; Weakness: A raise dead spell cast on a member of this race can destroy it (Will negates). Using the spell in this way does not require a material component.",
+			"***Resurrection Vulnerability (-1 RP):*** **Prerequisite:** Half-undead subtype or undead type; **Weakness:** A [raise dead](spell/raise_dead) spell cast on a member of this race can destroy it (Will negates). Using the spell in this way does not require a material component.",
 			"",
-			"Vulnerable to Sunlight (-2 RP): **Prerequisite:** Native to the Darklands or the Plane of Shadow; Weakness: Members of this race take 1 point of Constitution damage after every hour they are exposed to sunlight."
+			"***Vulnerable to Sunlight (-2 RP):*** **Prerequisite:** Native to the Darklands or the Plane of Shadow; **Weakness:** Members of this race take 1 point of Constitution damage after every hour they are exposed to sunlight."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1771,10 +1552,10 @@
 		"description": [
 			"**Source** [Advanced Race Guide pg. 237](source/advanced_race_guide)",
 			"",
-			"Elemental Vulnerability (-2 RP): **Prerequisite:** Outsider (native) with ties to an elemental plane; Weakness: Pick one of the following energy types: acid, cold, electricity, or fire. Members of this race have vulnerability to the chosen energy type. They cannot posses any racial trait that grants them resistance or immunity to this energy type.  ",
+			"***Elemental Vulnerability (-2 RP):*** **Prerequisite:** Outsider (native) with ties to an elemental plane; **Weakness:** Pick one of the following energy types: acid, cold, electricity, or fire. Members of this race have [vulnerability](rule/energy_immunity_and_vulnerability) to the chosen energy type. They cannot posses any racial trait that grants them resistance or immunity to this energy type.  ",
 			"**Special:** This trait can be taken multiple times. Each time it is taken, choose a different energy type. If a race has vulnerability to fire and immunity to cold, it gains the cold subtype. If a race has vulnerability to cold and immunity to fire, it gains the fire subtype.",
 			"",
-			"Sunlight Powerlessness (-2 RP): **Prerequisite:** Half-undead subtype or undead type; Weakness: Members of this race are powerless in natural sunlight (this does not include light created by effects such as a [daylight](spell/daylight) spell). A member of this race caught in natural sunlight cannot attack and is staggered."
+			"***Sunlight Powerlessness (-2 RP):*** **Prerequisite:** Half-undead subtype or undead type; **Weakness:** Members of this race are powerless in natural sunlight (this does not include light created by effects such as a [daylight](spell/daylight) spell). A member of this race caught in natural sunlight cannot attack and is [staggered](rule/awareness_conditions)."
 		],
 		"parent_topics": [
 			"gamemastering",
@@ -1803,8 +1584,7 @@
 		"subtopics": [
 			"standard_other_traits",
 			"advanced_other_traits",
-			"monstrous_other_traits",
-			"quadrupeds_and_magic_item_slots"
+			"monstrous_other_traits"
 		],
 		"siblings": [
 			"ability_score_racial_traits",
@@ -1826,9 +1606,9 @@
 			"",
 			"***Amphibious (2 RP):*** **Prerequisite:** Swim racial trait; **Benefit:** Members of this race are amphibious and can breathe both air and water.",
 			"",
-			"***Heroic (4 RP):*** **Prerequisites:** None; **Benefit:** In campaigns that use the optional hero point system, each time a member of this race gains a level, it gains 2 hero points instead of 1. If it takes the [Blood of Heroes](feat/blood_of_heroes) feat, it gains 3 hero points each level instead of 2.",
+			"***Heroic (4 RP):*** **Prerequisites:** None; **Benefit:** In campaigns that use [the optional hero point system](rule/hero_points), each time a member of this race gains a level, it gains 2 hero points instead of 1. If it takes the [Blood of Heroes](feat/blood_of_heroes) feat, it gains 3 hero points each level instead of 2.",
 			"",
-			"***Hold Breath (1 RP):*** **Prerequisites:** None; **Benefit:** Members of this race can hold their breath for a number of rounds equal to four times their Constitution score before risking drowning or suffocating.",
+			"***Hold Breath (1 RP):*** **Prerequisites:** None; **Benefit:** Members of this race can hold their breath for a number of rounds equal to four times their Constitution score before risking drowning or [suffocating](rule/suffocation).",
 			"",
 			"***Light and Dark (1 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per day as an immediate action, a member of this race can treat positive and negative energies as if it were an undead creature, taking damage from positive energy and healing damage from negative energy. This ability lasts for 1 minute once activated.",
 			"",
@@ -1849,8 +1629,7 @@
 		"siblings": [
 			"standard_other_traits",
 			"advanced_other_traits",
-			"monstrous_other_traits",
-			"quadrupeds_and_magic_item_slots"
+			"monstrous_other_traits"
 		]
 	},
 	"advanced_other_traits": {
@@ -1870,8 +1649,7 @@
 		"siblings": [
 			"standard_other_traits",
 			"advanced_other_traits",
-			"monstrous_other_traits",
-			"quadrupeds_and_magic_item_slots"
+			"monstrous_other_traits"
 		]
 	},
 	"monstrous_other_traits": {
@@ -1884,26 +1662,9 @@
 			"**Special:** This trait can be taken up to twice. When it is taken a second time, the race gains a fourth arm.",
 			"",
 			"***Quadruped (2 RP):*** **Prerequisites:** Any type except humanoid, Large size, normal speed; **Benefit:** Members of this race possess four legs and two arms, granting them a +4 racial bonus to CMD against trip attempts and a +10 foot bonus to their base speed. In addition, members of this race use weapons and armor as if they were Medium (instead of Large).  ",
-			"**Special:** The number of legs can be increased by 2 for each additional 1 RP spent. Each such increase grants an additional +4 racial bonus to CMD against trip attempts, but no other bonus."
-		],
-		"parent_topics": [
-			"gamemastering",
-			"race_builder",
-			"step_3_racial_traits",
-			"other_racial_traits"
-		],
-		"siblings": [
-			"standard_other_traits",
-			"advanced_other_traits",
-			"monstrous_other_traits",
-			"quadrupeds_and_magic_item_slots"
-		]
-	},
-	"quadrupeds_and_magic_item_slots": {
-		"name": "Quadrupeds and Magic Item Slots",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"**Source** [Advanced Race Guide pg. 236](source/advanced_race_guide)",
+			"**Special:** The number of legs can be increased by 2 for each additional 1 RP spent. Each such increase grants an additional +4 racial bonus to CMD against trip attempts, but no other bonus.",
+			"",
+			"### Quadrupeds and Magic Item Slots",
 			"",
 			"Creating a race with more than two legs adversely affects that race's ability to use standard feet slot magic items. The best way to deal with this is to create variant magic item versions of the various boots, shoes, and slippers that can be worn by this race. Allow members of these races to find [ankle bracelets of speed](magic-wondrous/boots_of_speed) or [horseshoes of spider climb](magic-wondrous/slippers_of_spider_climbing) that act just like their traditional magic item counterparts, but fit the new race's form."
 		],
@@ -1916,8 +1677,7 @@
 		"siblings": [
 			"standard_other_traits",
 			"advanced_other_traits",
-			"monstrous_other_traits",
-			"quadrupeds_and_magic_item_slots"
+			"monstrous_other_traits"
 		]
 	},
 	"movement": {

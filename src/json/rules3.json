@@ -14,10 +14,7 @@
 			"",
 			"***Subsequent Affiliations:*** Once play begins, a PC must seek out and contact agents of an organization before attempting to join or gain affiliation with it. Upon making contact, she must convince that agent that she would make a good addition to the organization. Players should speak with their GM out of the game when they make the decision to pursue affiliation with a group, since the GM has final say as to which groups (and thus which options) are available. An affiliation should never be something players just decide they have on their own-it should be the result of gameplay and interaction with NPCs associated with the organization. Additional information on how to earn affiliation is presented in each group's section, along with a short example encounter GMs can use as inspiration for setting up the attempt to affiliate with the group."
 		],
-		"parent_topics": [
-			"gamemastering",
-			"campaign_systems"
-		],
+		"parent_topics": [ "gamemastering" ],
 		"subtopics": [
 			"affiliations_for_adventuring_parties",
 			"afiliations_for_npcs",
@@ -25,22 +22,22 @@
 			"abandoning_affiliations"
 		],
 		"siblings": [
-			"alignments",
-			"bargaining",
-			"companions",
-			"contacts",
-			"exploration_ucp",
-			"honor",
-			"investment",
-			"lineage",
-			"magic_item_creation_ucp",
-			"relationships",
-			"reputation_and_fame",
-			"retirement",
-			"retraining",
-			"taxation",
-			"young_characters",
-			"affiliations"
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"bestiary",
+			"race_builder",
+			"campaign_systems",
+			"aquatic_adventures_aa",
+			"occult_rules",
+			"mastering_combat",
+			"mastering_magic",
+			"mastering_intrigue",
+			"horror_rules",
+			"affiliations",
+			"infernal_contracts",
+			"mastering_the_wild",
+			"planar_adventures",
+			"primal_magic"
 		]
 	},
 	"affiliations_for_adventuring_parties": {
@@ -56,7 +53,6 @@
 		],
 		"parent_topics": [
 			"gamemastering",
-			"campaign_systems",
 			"affiliations"
 		],
 		"siblings": [
@@ -77,7 +73,6 @@
 		],
 		"parent_topics": [
 			"gamemastering",
-			"campaign_systems",
 			"affiliations"
 		],
 		"siblings": [
@@ -98,7 +93,6 @@
 		],
 		"parent_topics": [
 			"gamemastering",
-			"campaign_systems",
 			"affiliations"
 		],
 		"siblings": [
@@ -123,7 +117,6 @@
 		],
 		"parent_topics": [
 			"gamemastering",
-			"campaign_systems",
 			"affiliations"
 		],
 		"siblings": [
@@ -133,8 +126,6 @@
 			"abandoning_affiliations"
 		]
 	},
-
-
 	"firearms": {
 		"name": "Firearms",
 		"sources": [ "Ultimate Combat" ],
@@ -2844,6 +2835,7 @@
 			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
+			"affiliations",
 			"infernal_contracts",
 			"mastering_the_wild",
 			"planar_adventures",
@@ -5786,6 +5778,7 @@
 			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
+			"affiliations",
 			"infernal_contracts",
 			"mastering_the_wild",
 			"planar_adventures",
@@ -5816,6 +5809,7 @@
 			"mastering_magic",
 			"mastering_intrigue",
 			"horror_rules",
+			"affiliations",
 			"infernal_contracts",
 			"mastering_the_wild",
 			"planar_adventures",
