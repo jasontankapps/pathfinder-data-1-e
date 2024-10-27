@@ -2186,7 +2186,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This trademark spell of the Lantern Bearers functions as daylight, except it lasts longer. In addition, as a swift action once during the spell's duration, you can will the light to try to end a magical darkness effect located within 60 feet of the light this spell emits. Attempt a dispel check (1d20 + your caster level), with a DC equal to 11 + the caster level of the darkness effect. If you succeed, the darkness effect ends. Regardless of whether you are successful, the light from this spell dims to the brightness of a torch for the spell's remaining duration."
+			"This trademark spell of the [Lantern Bearers](rule/aff_lights) functions as daylight, except it lasts longer. In addition, as a swift action once during the spell's duration, you can will the light to try to end a magical darkness effect located within 60 feet of the light this spell emits. Attempt a dispel check (1d20 + your caster level), with a DC equal to 11 + the caster level of the darkness effect. If you succeed, the darkness effect ends. Regardless of whether you are successful, the light from this spell dims to the brightness of a torch for the spell's remaining duration."
 		]
 	},
 	"brightest_light": {
@@ -5202,7 +5202,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Reflex half; **Spell Resistance** yes",
 			"",
-			"By performing part of the Chelish opera Victory of the Hellknights, you call forth spectral illusions of mounted Hellknights to trample your foes under the hooves of their glorious steeds. The shadowy knights appear in an adjacent 10-foot square and ride forward in the direction you indicate, dealing 1d6 points of damage per caster level (maximum 20d6) to all creatures in their path. Half of this damage is cold damage, while half results directly from arcane power and is not subject to cold resistance or immunity. The knights cannot pass through force effects or barriers that block incorporeal creatures or undead.",
+			"By performing part of the Chelish opera Victory of the [Hellknights](rule/aff_lawknights), you call forth spectral illusions of mounted Hellknights to trample your foes under the hooves of their glorious steeds. The shadowy knights appear in an adjacent 10-foot square and ride forward in the direction you indicate, dealing 1d6 points of damage per caster level (maximum 20d6) to all creatures in their path. Half of this damage is cold damage, while half results directly from arcane power and is not subject to cold resistance or immunity. The knights cannot pass through force effects or barriers that block incorporeal creatures or undead.",
 			"",
 			"### Mythic Dirge of the Victorious Knights",
 			"",

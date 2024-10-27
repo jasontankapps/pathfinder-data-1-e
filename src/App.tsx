@@ -8,9 +8,21 @@ import Menu from './components/Menu';
 import ArchetypePage from './pages/ArchetypePage';
 import ClassPage from './pages/ClassPage';
 import ClassAbilityPage from './pages/ClassAbilityPage';
+import EquipmentMiscPage from './pages/EquipmentMiscPage';
+import FaithPage from './pages/FaithPage';
+import FeatPage from './pages/FeatPage';
+import MagicArtifactPage from './pages/MagicArtifactPage';
+import MagicWeaponPage from './pages/MagicWeaponPage';
+import MagicWondrousPage from './pages/MagicWondrousPage';
 import MainPage from './pages/MainPage';
+import MonsterPage from './pages/MonsterPage';
+import MonsterTemplatePage from './pages/MonsterTemplatePage';
+import NPCPage from './pages/NPCPage';
 import PrestigeClassPage from './pages/PrestigeClassPage';
 import RacePage from './pages/RacePage';
+import RulesPage from './pages/RulesPage';
+import SpellPage from './pages/SpellPage';
+import TraitPage from './pages/TraitPage';
 import ErrorPage from './pages/ErrorPage';
 
 import Loading from './Loading';
@@ -56,7 +68,6 @@ const DruidDomainPage = lazy(() => import("./pages/DruidDomainPage"));
 const EquipmentAlchemicalReagentPage = lazy(() => import("./pages/EquipmentAlchemicalReagentPage"));
 const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
-const EquipmentMiscPage = lazy(() => import("./pages/EquipmentMiscPage"));
 const EquipmentPoisonPage = lazy(() => import("./pages/EquipmentPoisonPage"));
 const EquipmentSiegeEnginePage = lazy(() => import("./pages/EquipmentSiegeEnginesPage"));
 const EquipmentSpecMaterialPage = lazy(() => import("./pages/EquipmentSpecMaterialPage"));
@@ -64,8 +75,6 @@ const EquipmentSpellbookPage = lazy(() => import("./pages/EquipmentSpellbookPage
 const EquipmentWeaponEnhancementsPage = lazy(() => import("./pages/EquipmentWeaponEnhancementPage"));
 const EquipmentWeaponPage = lazy(() => import("./pages/EquipmentWeaponPage"));
 const ExploitPage = lazy(() => import("./pages/ExploitPage"));
-const FaithPage = lazy(() => import("./pages/FaithPage"));
-const FeatPage = lazy(() => import("./pages/FeatPage"));
 const HauntPage = lazy(() => import("./pages/HauntPage"));
 const HellknightOrderPage = lazy(() => import("./pages/HellknightOrderPage"));
 const ImplementPage = lazy(() => import("./pages/ImplementPage"));
@@ -73,28 +82,21 @@ const InquisitionPage = lazy(() => import("./pages/InquisitionPage"));
 const KineticPage = lazy(() => import("./pages/KineticPage"));
 const MadnessPage = lazy(() => import("./pages/MadnessPage"));
 const MagicArmorPage = lazy(() => import("./pages/MagicArmorPage"));
-const MagicArtifactPage = lazy(() => import("./pages/MagicArtifactPage"));
 const MagicEnhancementPage = lazy(() => import("./pages/MagicEnhancementPage"));
 const MagicIounStonePage = lazy(() => import("./pages/MagicIounStonePage"));
 const MagicMiscPage = lazy(() => import("./pages/MagicMiscPage"));
 const MagicRingPage = lazy(() => import("./pages/MagicRingPage"));
 const MagicRodPage = lazy(() => import("./pages/MagicRodPage"));
 const MagicStaffPage = lazy(() => import("./pages/MagicStaffPage"));
-const MagicWeaponPage = lazy(() => import("./pages/MagicWeaponPage"));
-const MagicWondrousPage = lazy(() => import("./pages/MagicWondrousPage"));
 const MasterpiecePage = lazy(() => import("./pages/MasterpiecePage"));
 const MediumSpiritPage = lazy(() => import("./pages/MediumSpiritPage"));
 const MonsterFamilyPage = lazy(() => import("./pages/MonsterFamilyPage"));
-const MonsterPage = lazy(() => import("./pages/MonsterPage"));
-const MonsterTemplatePage = lazy(() => import("./pages/MonsterTemplatePage"));
 const MonsterTypingPage = lazy(() => import("./pages/MonsterTypingPage"));
 const MysteryPage = lazy(() => import("./pages/MysteryPage"));
-const NPCPage = lazy(() => import("./pages/NPCPage"));
 const OathPage = lazy(() => import("./pages/OathPage"));
 const OrderPage = lazy(() => import("./pages/OrderPage"));
 const OtherClassPage = lazy(() => import("./pages/OtherClassPage"));
 const RagePowerPage = lazy(() => import("./pages/RagePowerPage"));
-const RulesPage = lazy(() => import("./pages/RulesPage"));
 const SchoolPage = lazy(() => import("./pages/SchoolPage"));
 const SearchPage = lazy(() => import("./pages/SearchPage"));
 const ShamanSpiritPage = lazy(() => import("./pages/ShamanSpiritPage"));
@@ -102,14 +104,12 @@ const SkillPage = lazy(() => import("./pages/SkillPage"));
 const SorcererBloodlinePage = lazy(() => import("./pages/SorcererBloodlinePage"));
 const SourcePage = lazy(() => import("./pages/SourcePage"));
 const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
-const SpellPage = lazy(() => import("./pages/SpellPage"));
 const TechArmorPage = lazy(() => import("./pages/EquipmentTechArmorPage"));
 const TechArtifactPage = lazy(() => import("./pages/EquipmentTechArtifactPage"));
 const TechCybertechPage = lazy(() => import("./pages/EquipmentTechCybertechPage"));
 const TechMiscPage = lazy(() => import("./pages/EquipmentTechMiscPage"));
 const TechPharmaceuticalsPage = lazy(() => import("./pages/EquipmentTechPharmaceuticalPage"));
 const TechWeaponPage = lazy(() => import("./pages/EquipmentTechWeaponPage"));
-const TraitPage = lazy(() => import("./pages/TraitPage"));
 const TrapPage = lazy(() => import("./pages/TrapPage"));
 const UMRPage = lazy(() => import("./pages/UMRPage"));
 
@@ -145,7 +145,7 @@ const App: FC = () => {
 						<Route path="/equipment-armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorPage /></Suspense>} />
 						<Route path="/equipment-armorenhancement/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorEnhancementsPage /></Suspense>} />
 						<Route path="/equipment-material/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpecMaterialPage /></Suspense>} />
-						<Route path="/equipment-misc/:id" render={() => <Suspense fallback={<Loading />}><EquipmentMiscPage /></Suspense>} />
+						<Route path="/equipment-misc/:id" render={() => <EquipmentMiscPage />} />
 						<Route path="/equipment-poison/:id" render={() => <Suspense fallback={<Loading />}><EquipmentPoisonPage /></Suspense>} />
 						<Route path="/equipment-reagent/:id" render={() => <Suspense fallback={<Loading />}><EquipmentAlchemicalReagentPage /></Suspense>} />
 						<Route path="/equipment-siegeengine/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSiegeEnginePage /></Suspense>} />
@@ -156,9 +156,9 @@ const App: FC = () => {
 							"/exploit/:id",
 							"/greaterexploit/:id"
 						]} render={() => <Suspense fallback={<Loading />}><ExploitPage /></Suspense>} />
-						<Route path="/faith/:id" render={() => <Suspense fallback={<Loading />}><FaithPage /></Suspense>} />
+						<Route path="/faith/:id" render={() => <FaithPage />} />
 						<Route path="/family/:id" render={() => <Suspense fallback={<Loading />}><MonsterFamilyPage /></Suspense>} />
-						<Route path="/feat/:id" render={() => <Suspense fallback={<Loading />}><FeatPage /></Suspense>} />
+						<Route path="/feat/:id" render={() => <FeatPage />} />
 						<Route path="/haunt/:id" render={() => <Suspense fallback={<Loading />}><HauntPage /></Suspense>} />
 						<Route path="/hellknightorder/:id" render={() => <Suspense fallback={<Loading />}><HellknightOrderPage /></Suspense>} />
 						<Route path="/implement/:id" render={() => <Suspense fallback={<Loading />}><ImplementPage /></Suspense>} />
@@ -166,16 +166,16 @@ const App: FC = () => {
 						<Route path="/kinetic/:id" render={() => <Suspense fallback={<Loading />}><KineticPage /></Suspense>} />
 						<Route path="/madness/:id" render={() => <Suspense fallback={<Loading />}><MadnessPage /></Suspense>} />
 						<Route path="/magic-armor/:id" render={() => <Suspense fallback={<Loading />}><MagicArmorPage /></Suspense>} />
-						<Route path="/magic-artifact/:id" render={() => <Suspense fallback={<Loading />}><MagicArtifactPage /></Suspense>} />
+						<Route path="/magic-artifact/:id" render={() => <MagicArtifactPage />} />
 						<Route path="/magic-enhancement/:id" render={() => <Suspense fallback={<Loading />}><MagicEnhancementPage /></Suspense>} />
 						<Route path="/magic-ioun/:id" render={() => <Suspense fallback={<Loading />}><MagicIounStonePage /></Suspense>} />
 						<Route path="/magic-ring/:id" render={() => <Suspense fallback={<Loading />}><MagicRingPage /></Suspense>} />
 						<Route path="/magic-rod/:id" render={() => <Suspense fallback={<Loading />}><MagicRodPage /></Suspense>} />
 						<Route path="/magic-staff/:id" render={() => <Suspense fallback={<Loading />}><MagicStaffPage /></Suspense>} />
-						<Route path="/magic-weapon/:id" render={() => <Suspense fallback={<Loading />}><MagicWeaponPage /></Suspense>} />
-						<Route path="/magic-wondrous/:id" render={() => <Suspense fallback={<Loading />}><MagicWondrousPage /></Suspense>} />
+						<Route path="/magic-weapon/:id" render={() => <MagicWeaponPage />} />
+						<Route path="/magic-wondrous/:id" render={() => <MagicWondrousPage />} />
 						<Route path="/magusarcana/:id" render={() => <Suspense fallback={<Loading />}><ArcanaPage /></Suspense>} />
-						<Route path="/monster/:id" render={() => <Suspense fallback={<Loading />}><MonsterPage /></Suspense>} />
+						<Route path="/monster/:id" render={() => <MonsterPage />} />
 						<Route path="/mystery/:id" render={() => <Suspense fallback={<Loading />}><MysteryPage /></Suspense>} />
 						<Route path={[
 							"/constructmod/:id",
@@ -197,7 +197,7 @@ const App: FC = () => {
 							"/magic-tattoo/:id",
 							"/magic-throne/:id"
 						]} render={() => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>} />
-						<Route path="/npc/:id" render={() => <Suspense fallback={<Loading />}><NPCPage /></Suspense>} />
+						<Route path="/npc/:id" render={() => <NPCPage />} />
 						<Route path="/oath/:id" render={() => <Suspense fallback={<Loading />}><OathPage /></Suspense>} />
 						<Route path="/oraclecurse/:id" render={() => <Suspense fallback={<Loading />}><CursePage /></Suspense>} />
 						<Route path="/order/:id" render={() => <Suspense fallback={<Loading />}><OrderPage /></Suspense>} />
@@ -207,7 +207,7 @@ const App: FC = () => {
 							"/ragepower/:id",
 							"/stanceragepower/:id"
 						]} render={() => <Suspense fallback={<Loading />}><RagePowerPage /></Suspense>} />
-						<Route path="/rule/:id" render={() => <Suspense fallback={<Loading />}><RulesPage  /></Suspense>} />
+						<Route path="/rule/:id" render={() => <RulesPage />} />
 						<Route path="/search" render={() => <Suspense fallback={<Loading />}><SearchPage /></Suspense>} />
 						<Route path="/shamanspirit/:id" render={() => <Suspense fallback={<Loading />}><ShamanSpiritPage /></Suspense>} />
 						<Route path={[
@@ -217,7 +217,7 @@ const App: FC = () => {
 						<Route path="/skill/:id" render={() => <Suspense fallback={<Loading />}><SkillPage /></Suspense>} />
 						<Route path="/sorcererbloodline/:id" render={() => <Suspense fallback={<Loading />}><SorcererBloodlinePage /></Suspense>} />
 						<Route path="/source/:id" render={() => <Suspense fallback={<Loading />}><SourcePage /></Suspense>} />
-						<Route path="/spell/:id" render={() => <Suspense fallback={<Loading />}><SpellPage /></Suspense>} />
+						<Route path="/spell/:id" render={() => <SpellPage />} />
 						<Route path="/spelldef/:id" render={() => <Suspense fallback={<Loading />}><SpellDefPage /></Suspense>} />
 						<Route path={[
 							"/legendaryspirit/:id",
@@ -234,8 +234,8 @@ const App: FC = () => {
 						<Route path="/tech-misc/:id" render={() => <Suspense fallback={<Loading />}><TechMiscPage /></Suspense>} />
 						<Route path="/tech-pharmaceutical/:id" render={() => <Suspense fallback={<Loading />}><TechPharmaceuticalsPage /></Suspense>} />
 						<Route path="/tech-weapon/:id" render={() => <Suspense fallback={<Loading />}><TechWeaponPage /></Suspense>} />
-						<Route path="/template/:id" render={() => <Suspense fallback={<Loading />}><MonsterTemplatePage /></Suspense>} />
-						<Route path="/trait/:id" render={() => <Suspense fallback={<Loading />}><TraitPage /></Suspense>} />
+						<Route path="/template/:id" render={() => <MonsterTemplatePage />} />
+						<Route path="/trait/:id" render={() => <TraitPage />} />
 						<Route path="/trap/:id" render={() => <Suspense fallback={<Loading />}><TrapPage /></Suspense>} />
 						<Route path="/umr/:id" render={() => <Suspense fallback={<Loading />}><UMRPage /></Suspense>} />
 						<Route render={() => <ErrorPage />} />

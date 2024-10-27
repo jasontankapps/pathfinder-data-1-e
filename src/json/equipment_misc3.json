@@ -930,7 +930,7 @@
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"Developed by Al-Zabriti riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges."
+			"Developed by [Al-Zabriti](rule/aff_deserts) riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges."
 		]
 	},
 	"questing_knight_package": {
@@ -1961,7 +1961,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This alchemical substance, originally developed by secretive worshipers of Zon-Kuthon to hide the marks of their devotion, has become popular among former Gray Maidens. When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
+			"This alchemical substance, originally developed by secretive worshipers of Zon-Kuthon to hide the marks of their devotion, has become popular among former [Gray Maidens](rule/aff_scarred_ladies). When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
 		]
 	},
 	"scavenger_beetle_colony": {
@@ -2709,7 +2709,7 @@
 			"**Price** 75 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"The menacing, eyeless masks of Hellknight signifers were first created by members of the Order of the Gate and are semi-transparent on the inside. Those who wear them are treated as if they were wearing smoked goggles. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability."
+			"The menacing, eyeless masks of [Hellknight signifers](prestigeclass/hellknight_signifer) were first created by members of the Order of the Gate and are semi-transparent on the inside. Those who wear them are treated as if they were wearing smoked goggles. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability."
 		]
 	},
 	"signifier_mask": {
@@ -2721,7 +2721,7 @@
 			"**Price** 75 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"The menacing, eyeless masks of the Hellknight signifers were first created by members of the Order of the Gate, and are semi-transparent when viewed from the inside. This alchemical treating of the material obscures the face of the wearer as a full helm does but allows the wearer to see as if through a smoky pane of glass. When wearing a signifer mask, the wearer is always treated as averting her gaze when dealing with gaze attacks, and she gains a +8 circumstance bonus on saving throws against vision-based effects. However, the obscuring nature of the mask means that the wearer also takes a -4 penalty on vision-based Perception checks while wearing the mask, and all opponents are treated as having concealment (20% miss chance).",
+			"The menacing, eyeless masks of the [Hellknight signifers](prestigeclass/hellknight_signifer) were first created by members of the Order of the Gate, and are semi-transparent when viewed from the inside. This alchemical treating of the material obscures the face of the wearer as a full helm does but allows the wearer to see as if through a smoky pane of glass. When wearing a signifer mask, the wearer is always treated as averting her gaze when dealing with gaze attacks, and she gains a +8 circumstance bonus on saving throws against vision-based effects. However, the obscuring nature of the mask means that the wearer also takes a -4 penalty on vision-based Perception checks while wearing the mask, and all opponents are treated as having concealment (20% miss chance).",
 			"",
 			"A character with the Hellknight signifer prestige class can see through the mask as normal, but she can also adjust her mask as a standard action to function as detailed above. Signifer masks are often magically enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask class feature."
 		]

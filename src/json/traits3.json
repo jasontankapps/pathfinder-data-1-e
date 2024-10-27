@@ -317,7 +317,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"Your superiors have identified you as an Eagle Knight candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
+			"Your superiors have identified you as an [Eagle Knights](rule/aff_vangard) candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -620,7 +620,7 @@
 		"name": "Questing Hellknight",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
-			"## Questing Hellknight",
+			"## Questing [Hellknight](rule/aff_lawknights)",
 			"",
 			"**Type:** Social",
 			"",
@@ -873,7 +873,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You witnessed the training of Red Mantis assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
+			"You witnessed the training of [Red Mantis](rule/aff_assassins) assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -1573,7 +1573,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"Rivethun is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf. While you suffer a physical ailment, such as disease, poison, or ability damage to Strength, Dexterity, or Constitution (but not including hit point damage), you gain a +2 trait bonus on Will saving throws. While you suffer a mental ailment, including insanity, any charm or compulsion effect, or ability damage to Intelligence, Wisdom, or Charisma, you gain a +2 trait bonus on Fortitude saving throws."
+			"[Rivethun](rule/aff_animists) is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf. While you suffer a physical ailment, such as disease, poison, or ability damage to Strength, Dexterity, or Constitution (but not including hit point damage), you gain a +2 trait bonus on Will saving throws. While you suffer a mental ailment, including insanity, any charm or compulsion effect, or ability damage to Intelligence, Wisdom, or Charisma, you gain a +2 trait bonus on Fortitude saving throws."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -2518,7 +2518,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
 			"",
-			"The Pathfinder Society has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane-the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit light as the spell (CL 5th) as a standard action."
+			"The [Pathfinder Society](rule/aff_scholars) has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane-the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit light as the spell (CL 5th) as a standard action."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -3452,7 +3452,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You witnessed or were party to the rescue of a halfling from Chelish slavery by the Bellflower Network or Eagle Knights. Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
+			"You witnessed or were party to the rescue of a halfling from Chelish slavery by the [Bellflower Network](rule/aff_antislavery) or [Eagle Knights](rule/aff_vangard). Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -3527,7 +3527,7 @@
 			"## Slippery",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The Bellflower Network",
+			"**Requirements:** Member of The [Bellflower Network](rule/aff_antislavery)",
 			"",
 			"You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught. You gain a +1 trait bonus on Stealth checks and Stealth is a class skill for you."
 		],
@@ -3828,7 +3828,7 @@
 			"## Soul-Searcher's Strength",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Must follow the traditions of the Rivethun",
+			"**Requirements:** Must follow the traditions of the [Rivethun](rule/aff_animists)",
 			"",
 			"Your introspections have taught you to understand your own flaws and proclivities and how to work with them. Choose one saving throw. You gain a +1 trait bonus on saving throws of the chosen kind."
 		],
@@ -4248,7 +4248,7 @@
 			"## Stalwart of the Society",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"The courageous powers of Golarion's ancient paladin orders are open to you thanks to the Society's records of heroic deeds. As a result, your aura of courage class ability grants an additional +1 trait bonus on saving throws against fear effects."
 		],
@@ -4276,13 +4276,13 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
 			"",
-			"Growing up in Kintargo, it's hard not to become obsessed with one of the city's celebrities. There are so many to choose from, and they're all so glamorous, rich, and successful! Wouldn't it be amazing to, perhaps some day, meet one of them? Or even better, to be a Kintargan celebrity yourself? Your interest in one of Kintargo's celebrities could be completely benign, with the NPC acting as a muse, inspiration, or role model for you that you used to guide many life choices leading you to this day. Or perhaps your interest is more akin to an obsession, in which you hope to some day live a life like that you imagine your idol lives, or perhaps even to some day meet and become friends (or perhaps more than friends) with your idol. Keep in mind, though, that sometimes a celebrity's public persona and real personality are two very different things, and if some day you were to meet your idol, you might be surprised at the truth! That said, the fact that, by all accounts, your idol has been missing since House Thrune instituted martial law has you worried; you hope he or she is all right! The fact that all five of the local legends listed below have been rumored to have ties to the Silver Ravens further concerns you, considering how that group seems to have been particularly targeted by Barzillai Thrune's agents over the past week. The fate of all five of these Kintargan icons will be revealed at some point during the Hell's Rebels Adventure Path, but keep in mind that some of those fates might not be pleasant discoveries for you!",
+			"Growing up in Kintargo, it's hard not to become obsessed with one of the city's celebrities. There are so many to choose from, and they're all so glamorous, rich, and successful! Wouldn't it be amazing to, perhaps some day, meet one of them? Or even better, to be a Kintargan celebrity yourself? Your interest in one of Kintargo's celebrities could be completely benign, with the NPC acting as a muse, inspiration, or role model for you that you used to guide many life choices leading you to this day. Or perhaps your interest is more akin to an obsession, in which you hope to some day live a life like that you imagine your idol lives, or perhaps even to some day meet and become friends (or perhaps more than friends) with your idol. Keep in mind, though, that sometimes a celebrity's public persona and real personality are two very different things, and if some day you were to meet your idol, you might be surprised at the truth! That said, the fact that, by all accounts, your idol has been missing since House Thrune instituted martial law has you worried; you hope he or she is all right! The fact that all five of the local legends listed below have been rumored to have ties to the [Silver Ravens](rule/aff_rebels) further concerns you, considering how that group seems to have been particularly targeted by Barzillai Thrune's agents over the past week. The fate of all five of these Kintargan icons will be revealed at some point during the Hell's Rebels Adventure Path, but keep in mind that some of those fates might not be pleasant discoveries for you!",
 			"",
 			"You gain a +1 trait bonus on Knowledge (local) checks. Pick one of the following celebrities with which to be obsessed. Each celebrity is associated with a particular ability score. Once per day, you can draw on your inspiration from your icon when you are about to attempt a skill check modified by that ability score. When you do so, roll the check twice and take the better of the two results as your actual result.",
 			"",
 			"- **Jackdaw (sex and race unknown; Intelligence):** A notorious folk hero or heroine (no one seems to know if Jackdaw is a man or woman) who helped defend Kintargo during the Chelish Civil War, and whom many believe still lives on today in the city's shadows.",
 			"- **Jilia Bainilus (female human; Wisdom):** Kintargo's previous lord-mayor was well known for her cutting insights into the political world. Few have fought harder to maintain Kintargo's independence.",
-			"- **Octavio Sabinus (male human; Strength):** The Lictor of the Hellknight Order of the Torrent might seem an odd choice for admiration, but Octavio's physical stature certainly lent him all the support he needed to command a room.",
+			"- **Octavio Sabinus (male human; Strength):** The Lictor of the [Hellknight](rule/aff_lawknights) Order of the Torrent might seem an odd choice for admiration, but Octavio's physical stature certainly lent him all the support he needed to command a room.",
 			"- **Shensen (female half-elf; Charisma):** Shensen's performances as an outspoken force against the diabolism of House Thrune have won her nearly as many admirers as have her memorable performances on stage in the Kintargo Opera House.",
 			"- **Strea Vestori (female tiefling; Dexterity):** Strea is often regarded as the face of the slums known as the Devil's Nursery. As Kintargo's most outspoken and public tiefling citizen and leader of the Cloven Hoof Society, she has nearly as many admirers as she has political enemies in Cheliax."
 		],
@@ -4854,7 +4854,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
 			"",
-			"You have spent time at Magaambya, the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
+			"You have spent time at [Magaambya](rule/aff_i_school), the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -6332,7 +6332,7 @@
 			"## Tracker of the Society",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your favored terrain class ability."
 		],
@@ -7421,7 +7421,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
 			"",
-			"Much of Kintargo's history is lost or hidden. You know because you've made a point of seeking out those secrets. Local urban legends and bits of strange historical rumors have long fascinated you-who knows what amazing truths about Kintargo's past have been lost forever to the redactors of House Thrune? What caused Professor Mangvhune of the Alabaster Academy to become the city's most infamous serial killer? Who were the dragons Adrakash, Ithanothaur, and Rivozair, and what were their ties to Kintargo? Why do the Devil's Bells of the Temple of Asmodeus seem to ring at random times, and is there a pattern to the peals? Who were the Silver Ravens who defended Kintargo during the Chelish Civil War, and why did they vanish so soon after that war's resolution? So many mysteries, and who better than you to find the answers?",
+			"Much of Kintargo's history is lost or hidden. You know because you've made a point of seeking out those secrets. Local urban legends and bits of strange historical rumors have long fascinated you-who knows what amazing truths about Kintargo's past have been lost forever to the redactors of House Thrune? What caused Professor Mangvhune of the Alabaster Academy to become the city's most infamous serial killer? Who were the dragons Adrakash, Ithanothaur, and Rivozair, and what were their ties to Kintargo? Why do the Devil's Bells of the Temple of Asmodeus seem to ring at random times, and is there a pattern to the peals? Who were the [Silver Ravens](rule/aff_rebels) who defended Kintargo during the Chelish Civil War, and why did they vanish so soon after that war's resolution? So many mysteries, and who better than you to find the answers?",
 			"",
 			"Pick one of the questions above as your focus. Answers to these questions can be discovered at different points during Hell's Rebels, but don't expect to learn these answers any time soon! More important, your choice of focus grants you a +1 trait bonus in a particular Knowledge skill check associated with that focus (pick one of the two options provided below for your question). That Knowledge skill is always a class skill for you. Once per day, when you attempt a Knowledge skill check in either of the types associated with your focus, you can roll twice and take the better result as your actual result.",
 			"",

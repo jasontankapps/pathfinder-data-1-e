@@ -217,7 +217,7 @@
 			"**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
 			"",
-			"There are instances where wearing full plate armor can jeopardize a Hellknight's life. Primarily worn by Hellknight sailors, this studded leather armor includes heavy gloves and a helm of sculpted leather designed to look like a skull: either a human's or that of some aquatic creature. Hellknight leather's statistics are identical to those of studded leather, except it costs 5 gp more and weighs 5 pounds more."
+			"There are instances where wearing full plate armor can jeopardize a Hellknight's life. Primarily worn by [Hellknight](rule/aff_lawknights) sailors, this studded leather armor includes heavy gloves and a helm of sculpted leather designed to look like a skull: either a human's or that of some aquatic creature. Hellknight leather's statistics are identical to those of studded leather, except it costs 5 gp more and weighs 5 pounds more."
 		]
 	},
 	"hide_shirt": {
@@ -739,7 +739,7 @@
 			"**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
 			"",
-			"The armor worn by a Hellknight signifer is a vestment of armored plates, chain, and dark fabric. It functions as half-plate, but it can be donned and removed as though it were medium armor. Any spellcaster who wears this armor is treated as if he were wearing Hellknight plate for the purposes of any feats and effects that require one to be wearing Hellknight plate. This armor includes a signifer mask, though signifer masks can be purchased separately."
+			"The armor worn by a [Hellknight signifer](prestigeclass/hellknight_signifer) is a vestment of armored plates, chain, and dark fabric. It functions as half-plate, but it can be donned and removed as though it were medium armor. Any spellcaster who wears this armor is treated as if he were wearing Hellknight plate for the purposes of any feats and effects that require one to be wearing Hellknight plate. This armor includes a signifer mask, though signifer masks can be purchased separately."
 		]
 	},
 	"hellknight_half_plate": {
@@ -806,7 +806,7 @@
 			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
 			"",
-			"The Gray Maidens' distinctive armor is one of their most iconic identifiers. Gray Maiden plate is mechanically identical to full plate, and any effect that functions with full plate functions with Gray Maiden plate. Certain options for Gray Maidens function only when they wear Gray Maiden plate."
+			"The [Gray Maidens'](rule/aff_scarred_ladies) distinctive armor is one of their most iconic identifiers. Gray Maiden plate is mechanically identical to full plate, and any effect that functions with full plate functions with Gray Maiden plate. Certain options for Gray Maidens function only when they wear Gray Maiden plate."
 		]
 	},
 	"hellknight_plate": {
@@ -822,7 +822,7 @@
 			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
 			"",
-			"These distinctive suits of armor are a special type of masterwork full plate that grant additional effects when worn by a character with levels in the Hellknight prestige class. Apart from its distinctive look (each order of Hellknights has its own style of armor), a suit of Hellknight plate functions the same as a suit of masterwork full plate."
+			"These distinctive suits of armor are a special type of masterwork full plate that grant additional effects when worn by a character with levels in the Hellknight prestige class. Apart from its distinctive look (each order of [Hellknights](rule/aff_lawknights) has its own style of armor), a suit of Hellknight plate functions the same as a suit of masterwork full plate."
 		]
 	},
 	"stoneplate": {

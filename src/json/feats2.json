@@ -3271,7 +3271,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide), [Second Darkness Player's Guide pg. 27](source/second_darkness_player's_guide), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
 			"",
-			"Your intimacy with runes and the mysteries of ancient arcana has taught you secret ways to draw greater power from magical writings. The Cyphermages of Riddleport initially devised these unusual methods, but they have since spread far and wide through the Inner Sea region.  ",
+			"Your intimacy with runes and the mysteries of ancient arcana has taught you secret ways to draw greater power from magical writings. The [Cyphermages](rule/aff_i_tradition) of Riddleport initially devised these unusual methods, but they have since spread far and wide through the Inner Sea region.  ",
 			"**Prerequisites:** Int 15, [Scribe Scroll](feat/scribe_scroll).  ",
 			"**Benefit:** You cast spells from scrolls at 1 caster level higher than the scroll's caster level. In addition, you gain a +2 bonus on caster level checks to activate a scroll with a higher caster level than your own."
 		]
@@ -3288,7 +3288,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide), [Second Darkness Player's Guide pg. 27](source/second_darkness_player's_guide), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
 			"",
-			"Through researching lengthy, ancient, arcane scripts salvaged from Thassilonian ruins, you have discovered a more efficient method of recording spells. As with the Cypher Magic feat, Cypher Script was originally developed by the Cyphermages of Riddleport, but recently has been spreading through the Inner Sea region.  ",
+			"Through researching lengthy, ancient, arcane scripts salvaged from Thassilonian ruins, you have discovered a more efficient method of recording spells. As with the Cypher Magic feat, Cypher Script was originally developed by the [Cyphermages](rule/aff_i_tradition) of Riddleport, but recently has been spreading through the Inner Sea region.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank, Linguistics 1 rank, Spellcraft 1 rank, spellbook class feature.  ",
 			"**Benefit:** Any spell you scribe in your spellbook costs half as much as normal and takes up only half the room it normally would (round all fractions up). It takes you only 10 minutes per spell level to scribe a spell into your spellbook (5 minutes for cantrips)."
 		]
@@ -5439,7 +5439,7 @@
 			"**Source** [Faction Guide pg. 56](source/faction_guide)",
 			"",
 			"You can take apart and reassemble magic items.  ",
-			"**Prerequisites:** Any item creation feat, Aspis Consortium 20 TPA.  ",
+			"**Prerequisites:** Any item creation feat, [Aspis Consortium](rule/aff_profiteers) 20 TPA.  ",
 			"**Benefit:** You can break a magic item down into component pieces. These pieces are nonmagical and may have little resemblance to the original item other than being of the same material (a magical sword may be three recognizable metal pieces or simply a collection of metal scraps). Disassembling a magic item takes 1 hour per 1,000 gp of the item's price and requires you to concentrate as if crafting an item. You can only use this feat on items your item creation feat would let you craft (for example, if you have [Craft Wondrous Item](feat/craft_wondrous_item), you can disassemble wondrous items but not magic weapons or armor).",
 			"",
 			"You may reassemble a dismantled item as long as all the pieces are present; this takes the same amount of time as taking it apart did. There is a 10% chance the reconstruction fails and the item is permanently destroyed."
@@ -6214,7 +6214,7 @@
 			"",
 			"**Source** [Divine Anthology pg. 28](source/divine_anthology)",
 			"",
-			"Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within Wrath and Punishment, the most well-known fighting manual of the Church of Asmodeus, are as old as time itself, martial experts across the Inner Sea region note that Wrath and Punishment is less than 3 decades old. Of course, few in Cheliax dare to publicly make such claims. Outside of Cheliax, copies of Wrath and Punishment tend to be found in Hellknight enclaves.  ",
+			"Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within Wrath and Punishment, the most well-known fighting manual of the Church of Asmodeus, are as old as time itself, martial experts across the Inner Sea region note that Wrath and Punishment is less than 3 decades old. Of course, few in Cheliax dare to publicly make such claims. Outside of Cheliax, copies of Wrath and Punishment tend to be found in [Hellknight](rule/aff_lawknights) enclaves.  ",
 			"**Initial Benefit:** Whenever you threaten a critical hit with a light mace or heavy mace on a foe, that foe becomes sickened for 1 round. If you confirm the critical hit, the sickened effect lasts for 2 rounds. The duration of the sickened effect doesn't stack with multiple critical threats.  ",
 			"**Advanced Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise); [Divine Fighting Technique](feat/divine_fighting_technique); [Improved Feint](feat/improved_feint); base attack bonus +10 or Bluff 10 ranks.  ",
 			"**Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his Dexterity bonus to AC is also hindered by the attack. You can attempt a dirty trick combat maneuver check as a swift action that doesn't provoke an attack of opportunity immediately after damage from the attack is resolved.",

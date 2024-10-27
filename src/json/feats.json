@@ -347,7 +347,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 6](source/adventurer's_guide)",
 			"",
-			"You have an expansive personality and can forge more affiliations than normal.  ",
+			"You have an expansive personality and can forge more [affiliations](rule/affiliations) than normal.  ",
 			"**Benefit:** Increase your affiliation slot total by 2.  ",
 			"**Normal:** You have a number of affiliation slots equal to your Charisma modifier + 1 (minimum 1).  ",
 			"**Special:** You can take this feat multiple times; each time you do so, your number of affiliation slots increases by 2."
@@ -418,7 +418,7 @@
 			"**Source** [Faction Guide pg. 56](source/faction_guide)",
 			"",
 			"You are a master at defending yourself from all manner of combat maneuvers.  ",
-			"**Prerequisites:** [Defensive Combat Training](feat/defensive_combat_training), Bellflower Network 10 TPA.  ",
+			"**Prerequisites:** [Defensive Combat Training](feat/defensive_combat_training), [Bellflower Network](rule/aff_antislavery) 10 TPA.  ",
 			"**Benefit:** You gain a +4 bonus to your CMD."
 		]
 	},
@@ -512,7 +512,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 84](source/adventurer's_guide)",
 			"",
-			"The Gray Maidens' signature armor hinders you less than others.  ",
+			"The [Gray Maidens'](rule/aff_scarred_ladies) signature armor hinders you less than others.  ",
 			"**Prerequisites:** Str 13; Dex 13; [Endurance](feat/endurance) or armor training class feature; proficiency with heavy armor.  ",
 			"**Benefit:** For the purpose of class features (such as a ranger's combat style, a barbarian's fast movement, or a magus's spellcasting), you treat Gray Maiden plate as medium armor or heavy armor, whichever is more beneficial to a given ability. This does not affect the armor's statistics, and it is still considered heavy armor for all other purposes."
 		]
@@ -930,7 +930,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
 			"",
-			"This horse was trained by the Al-Zabriti tribespeople. It knows more tricks and is more loyal to its rider than most mounts.  ",
+			"This horse was trained by the [Al-Zabriti](rule/aff_deserts) tribespeople. It knows more tricks and is more loyal to its rider than most mounts.  ",
 			"**Prerequisites:** Horse.  ",
 			"**Benefit:** This horse automatically knows the tricks included in the combat riding trick (attack, come, defend, down, guard, and heel), and these tricks do not count against the normal maximum number of tricks the horse can learn. The Handle Animal DC to get the horse to perform a trick is reduced by 5, and the DC to teach the horse new tricks is reduced by 5."
 		]
@@ -2243,7 +2243,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 9](source/armor_master's_handbook)",
 			"",
-			"These armor tricks are most common among the various Hellknight orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and don't function when you're wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
+			"These armor tricks are most common among the various [Hellknight](rule/aff_lawknights) orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and don't function when you're wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
 			"",
 			"*Blade among the Folds* (Sleight of Hand 3 ranks): You are adept at concealing small weapons in your armor. While wearing heavy armor, you gain a +2 bonus on Sleight of Hand checks to conceal a light melee weapon or an easily concealed ranged weapon, such as a dart, sling, or hand crossbow, within your armor. In addition, a searcher doesn't gain the usual +4 bonus on Perception checks to find the hidden weapon as long as you are wearing your armor, even if the searcher frisks you. This trick functions even in heavy armor that uses magic or materials to be treated as medium armor.",
 			"",
@@ -2271,7 +2271,7 @@
 			"",
 			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
 			"",
-			"Many of these armor tricks originated in Andoran and are employed by various branches of the Eagle Knights, who highly value the greater protection provided by medium armor but want to retain flexibility and agility in combat.",
+			"Many of these armor tricks originated in Andoran and are employed by various branches of the [Eagle Knights](rule/aff_vangard), who highly value the greater protection provided by medium armor but want to retain flexibility and agility in combat.",
 			"",
 			"*Acrobatic Sit-Up* (Mobility, Acrobatics 5 ranks): You have developed the ability to recover from a fall and attack an opponent in a single fluid movement. Whenever you are prone, you can make an attack against a single foe and stand from prone without provoking an attack of opportunity from that foe. Make a single melee attack against one target without the normal penalties for attacking while prone. If you hit your target, you can immediately stand from prone (normally a move action) without provoking an attack of opportunity from that target for doing so. Any other target that threatens you can still make an attack of opportunity against you. If your attack fails, you provoke attacks of opportunity from all threatening foes and cannot stand until your next turn.",
 			"",
@@ -2534,7 +2534,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 35](source/adventurer's_guide), [Agents of Evil pg. 13](source/agents_of_evil)",
 			"",
-			"You have earned the attention of the Aspis Consortium and can call in favors when necessary.  ",
+			"You have earned the attention of the [Aspis Consortium](rule/aff_profiteers) and can call in favors when necessary.  ",
 			"**Benefit:** Whenever you are in a settlement that is the size of a small town or larger, you can purchase (but not sell) items through your Aspis contacts. Treat your current settlement as though it were a metropolis to determine its base value and available magic items. You pay a 5% markup for such items, and orders take 3d6 days to be delivered through Consortium channels. You can pay an additional 1,000 gp to have your item magically delivered to you in 1d3 days instead."
 		]
 	},
@@ -6039,7 +6039,7 @@
 			"",
 			"**Source** [Occult Origins pg. 24](source/occult_origins)",
 			"",
-			"Your training with the Pathfinder Society (or its rivals) has taught you proper caution and wariness when deciphering the ancient scrolls and inscriptions of fallen civilizations.  ",
+			"Your training with the [Pathfinder Society](rule/aff_scholars) (or its rivals) has taught you proper caution and wariness when deciphering the ancient scrolls and inscriptions of fallen civilizations.  ",
 			"**Prerequisites:** Linguistics 3 ranks, Spellcraft 3 ranks.  ",
 			"**Benefit:** You gain a +4 bonus on saving throws against written magical effects, including explosive runes, glyph of warding, illusory script, symbol of death, and similar magic, as well as against any form of curse, madness, possession, or similar effect-magical or not-that might occur from reading a book, inscription, scroll, or any other form of writing."
 		]

@@ -14,12 +14,14 @@ import rules13 from '../src/json/rules13.json' assert {type: 'json'};
 import rules14 from '../src/json/rules14.json' assert {type: 'json'};
 import rules15 from '../src/json/rules15.json' assert {type: 'json'};
 import rules16 from '../src/json/rules16.json' assert {type: 'json'};
+import rules17 from '../src/json/rules17.json' assert {type: 'json'};
 
 const rules = {
 	...rules1, ...rules2, ...rules3, ...rules4,
 	...rules5, ...rules6, ...rules7, ...rules8,
 	...rules9, ...rules10, ...rules11, ...rules12,
-	...rules13, ...rules14, ...rules15, ...rules16
+	...rules13, ...rules14, ...rules15, ...rules16,
+	...rules17
 };
 
 function isGood(value) {

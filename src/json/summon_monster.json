@@ -1236,7 +1236,7 @@
 		"name": "Summon Monster III: Cyphermage",
 		"spell": "Summon Monster III",
 		"type": "class/prestige",
-		"grantor": "Cyphermage",
+		"grantor": "[Cyphermage](rule/aff_i_tradition)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
@@ -2832,7 +2832,7 @@
 		"name": "Summon Monster VI: Cyphermage",
 		"spell": "Summon Monster VI",
 		"type": "class/prestige",
-		"grantor": "Cyphermage",
+		"grantor": "[Cyphermage](rule/aff_i_tradition)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Prestige Class: [Cyphermage](prestigeclass/cyphermage)",
@@ -4121,7 +4121,7 @@
 		"name": "Summon Monster IX: Cyphermage",
 		"spell": "Summon Monster IX",
 		"type": "class/prestige",
-		"grantor": "Cyphermage",
+		"grantor": "[Cyphermage](rule/aff_i_tradition)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Prestige Class: [Cyphermage](prestigeclass/cyphermage)",

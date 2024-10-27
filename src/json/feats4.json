@@ -1377,7 +1377,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 84](source/adventurer's_guide)",
 			"",
-			"You were selected for indoctrination into the Gray Maidens and underwent some of the preliminary scarring and conditioning, but Queen Ileosa was defeated before you could fully serve her. You bear the mental and physical scars of your sisters in the Gray Maidens, and while you never had to carry out any of the queen's commands, you feel a strong kinship with those of your sisters who have.  ",
+			"You were selected for indoctrination into the [Gray Maidens](rule/aff_scarred_ladies) and underwent some of the preliminary scarring and conditioning, but Queen Ileosa was defeated before you could fully serve her. You bear the mental and physical scars of your sisters in the Gray Maidens, and while you never had to carry out any of the queen's commands, you feel a strong kinship with those of your sisters who have.  ",
 			"**Prerequisites:** Female, must be taken at 1st level.  ",
 			"**Benefit:** You are affiliated with the Gray Maidens. In addition, choose two of the following benefits to represent the focus of your initial training and indoctrination.",
 			"",
@@ -2760,7 +2760,7 @@
 			"",
 			"You dedicated yourself to the cause of slaughter against a specific group or people, either for country, for vengeance, or perhaps just for sport.  ",
 			"**Prerequisites:** You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier or Drafted background.  ",
-			"**Benefit:** Select a particular nation, organization, or humanoid subtype (such as Cheliax, Eagle Knights, or goblinoids). You gain a +4 bonus on Sense Motive checks to determine whether a given creature is affiliated with that group and a +4 bonus on Bluff and Diplomacy checks to conceal your animosity toward members of that group.  ",
+			"**Benefit:** Select a particular nation, organization, or humanoid subtype (such as Cheliax, [Eagle Knights](rule/aff_vangard), or goblinoids). You gain a +4 bonus on Sense Motive checks to determine whether a given creature is affiliated with that group and a +4 bonus on Bluff and Diplomacy checks to conceal your animosity toward members of that group.  ",
 			"**Goal:** Deliver the killing blow to a number of your hated foes whose combined Hit Dice total is equal to 10 &times; your current character level.  ",
 			"**Completion Benefit:** You gain a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against foes of your selected type, and a +2 bonus on weapon attack and damage rolls against them. These bonuses stack with a ranger's favored enemy bonuses.  ",
 			"**Special:** By meeting the goal of this feat, your name becomes known to your enemy. Creatures of your chosen enemy faction gain a +1 morale bonus on attack and damage rolls against you should they become aware of your identity with a successful Knowledge (local) check (DC = 10 + your character level)."
@@ -3590,7 +3590,7 @@
 			"**Source** [Path of the Hellknight pg. 62](source/path_of_the_hellknight)",
 			"",
 			"Your Hellknight armor guards you against many threats.  ",
-			"**Prerequisites:** Heavy Armor Proficiency, base attack bonus +5, must swear allegiance to a single Hellknight order.  ",
+			"**Prerequisites:** Heavy Armor Proficiency, base attack bonus +5, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
 			"**Benefit:** Once per day as a full-round action, you can give your Hellknight armor the broken condition. Upon doing so, you are affected by one of the following spells (your choice), using your character level as your caster level: break enchantment, neutralize poison, remove disease, or remove paralysis. Once you have used this benefit, your Hellknight armor must be repaired as normal to restore its full bonus to your Armor Class and return its armor check penalty to normal.",
 			"",
 			"You can use this ability even if paralyzed or otherwise restrained, but not if you are unconscious. For the purposes of this ability, \"Hellknight armor\" means any armor with the word \"Hellknight\" in its name. You cannot use this ability if your armor is already broken."
@@ -3604,7 +3604,7 @@
 			"",
 			"**Source** [Path of the Hellknight pg. 62](source/path_of_the_hellknight)",
 			"",
-			"Performing daily Hellknight reckonings grants you special boons.  ",
+			"Performing daily [Hellknight](rule/aff_lawknights) reckonings grants you special boons.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.  ",
 			"**Benefit:** Upon taking this feat, you gain proficiency in all of your Hellknight order's favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning-a trial of obedience and pain. When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant.",
 			"",
@@ -3631,7 +3631,7 @@
 			"",
 			"You equate pain with discipline and can inflict damage upon yourself to unlock greater power.  ",
 			"**Prerequisites:** [Hellknight Obedience](feat/hellknight_obedience), Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.  ",
-			"**Benefit:** During your hour-long Hellknight reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the Order of the Nail often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action.",
+			"**Benefit:** During your hour-long [Hellknight](rule/aff_lawknights) reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the Order of the Nail often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action.",
 			"",
 			"Fervor: The DCs to resist the effects of the boons granted by your Hellknight Obedience feat increase by 1 for 1 hour.",
 			"",
@@ -4900,7 +4900,7 @@
 			"",
 			"**Source** [Pathfinder Society Primer pg. 8](source/pathfinder_society_primer)",
 			"",
-			"You learned the importance of an honest day's work while training as an initiate of the Pathfinder Society.  ",
+			"You learned the importance of an honest day's work while training as an initiate of the [Pathfinder Society](rule/aff_scholars).  ",
 			"**Prerequisites:** Ability to attempt Day Job checks (see the Guide to Pathfinder Society Organized Play).  ",
 			"**Benefit:** You gain a +3 bonus on Day Job checks using one skill you choose when you take this feat. This bonus stacks with other feats that grant a bonus to the chosen skill, including [Skill Focus](feat/skill_focus)."
 		]

@@ -367,7 +367,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
 			"",
-			"The wonders of magic have always fascinated you, and you find the urge to tinker and experiment with magic almost irresistible. You could be the child of an alchemist, wizard, or witch; a member of the Pathfinder Society; or maybe someone with a touch of fey or dragon blood. You may not be trained in magic, and you've had your share of accidental mishaps, but you possess a natural knack for activating magic items. you've always been intrigued by the cold magic of the winter witches and ice mages of the North, and would love to get your hands on some of their magic items. You gain a +1 trait bonus on Knowledge (arcana) and Use Magic Device checks, and Use Magic Device is a class skill for you."
+			"The wonders of magic have always fascinated you, and you find the urge to tinker and experiment with magic almost irresistible. You could be the child of an alchemist, wizard, or witch; a member of the [Pathfinder Society](rule/aff_scholars); or maybe someone with a touch of fey or dragon blood. You may not be trained in magic, and you've had your share of accidental mishaps, but you possess a natural knack for activating magic items. you've always been intrigued by the cold magic of the winter witches and ice mages of the North, and would love to get your hands on some of their magic items. You gain a +1 trait bonus on Knowledge (arcana) and Use Magic Device checks, and Use Magic Device is a class skill for you."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -657,7 +657,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
 			"",
-			"You are a member of one of Magnimar's wealthiest families-or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk-goals which led you to the Pathfinder Society. Despite your exile, your name still carries considerable weight in Magnimar, and you gain a +1 trait bonus on Diplomacy and Intimidate checks made within the city. Additionally, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. Your last name is probably Derexhi, Kaddren, Mindurian, Niroden, Scarnetti, Valdemar, Vanderale, or Versade (but may be another of your choosing)."
+			"You are a member of one of Magnimar's wealthiest families-or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk-goals which led you to the [Pathfinder Society](rule/aff_scholars). Despite your exile, your name still carries considerable weight in Magnimar, and you gain a +1 trait bonus on Diplomacy and Intimidate checks made within the city. Additionally, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. Your last name is probably Derexhi, Kaddren, Mindurian, Niroden, Scarnetti, Valdemar, Vanderale, or Versade (but may be another of your choosing)."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1699,7 +1699,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
 			"",
-			"Your family has a long tradition of service in the Hellknights, and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
+			"Your family has a long tradition of service in the [Hellknights](rule/aff_lawknights), and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -1838,7 +1838,7 @@
 			"",
 			"You spent much of your youth helping the clergy of your chosen faith perform their duties, and learned from them respect for authority. As long as you are acting in the service of a liege or leader you recognize as legitimate, you gain a +2 trait bonus on saving throws against fear and compulsion effects.",
 			"",
-			"Suggested Characters: Abadarans, Hellknights, Hermeans."
+			"Suggested Characters: Abadarans, [Hellknights](rule/aff_lawknights), Hermeans."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -1862,7 +1862,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the Pathfinder Society, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.",
+			"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the [Pathfinder Society](rule/aff_scholars), and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.",
 			"",
 			"**Suggested Characters:** Osirians, Pathfinders, Taldans."
 		],
@@ -2237,7 +2237,7 @@
 			"## Beast of the Society",
 			"",
 			"**Type:** Magic  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal. Whenever you use your wild shape class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level."
 		],
@@ -2290,7 +2290,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Halfling",
 			"",
-			"Before you were old enough to be a Bellflower Network member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
+			"Before you were old enough to be a [Bellflower Network](rule/aff_antislavery) member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -2303,7 +2303,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
 			"",
-			"You are a tiller in the secretive Bellflower Network in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
+			"You are a tiller in the secretive [Bellflower Network](rule/aff_antislavery) in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -2382,7 +2382,7 @@
 			"## Berserker of the Society",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability. You may use your rage ability for 3 additional rounds per day."
 		],
@@ -2810,7 +2810,7 @@
 			"## Blade of the Society",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters. You gain a +1 trait bonus on damage rolls from sneak attacks."
 		],
@@ -3836,7 +3836,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray",
 			"",
-			"You have begun training to enter one of the Houses of Perfection, and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
+			"You have begun training to enter one of the [Houses of Perfection](rule/aff_monasteries), and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5199,7 +5199,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
 			"",
-			"You've long heard rumors of dark deeds afoot in Westcrown. Shipments of valuable cargo that go missing with nary a trace or question asked. People who disappear as though they never existed. Lords of business and nobles who speak in veiled references and accidental slips of masters even they must obey. What lords rule the Westcrown underworld? Do the tales of far-reaching criminal organizations hold a hint of truth? Could the fabled Council of Thieves, said to have been purged from the city ages ago, have somehow survived or reformed? And what hold do they hold over the city today? You don't know, but you're determined to find out! Choose one of the following skills: Bluff, Diplomacy, Knowledge (local), Perception, Sense Motive, or Stealth. You gain a +1 trait bonus on this skill and it is always considered a class skill for you."
+			"You've long heard rumors of dark deeds afoot in Westcrown. Shipments of valuable cargo that go missing with nary a trace or question asked. People who disappear as though they never existed. Lords of business and nobles who speak in veiled references and accidental slips of masters even they must obey. What lords rule the Westcrown underworld? Do the tales of far-reaching criminal organizations hold a hint of truth? Could the fabled [Council of Thieves](rule/aff_thieves), said to have been purged from the city ages ago, have somehow survived or reformed? And what hold do they hold over the city today? You don't know, but you're determined to find out! Choose one of the following skills: Bluff, Diplomacy, Knowledge (local), Perception, Sense Motive, or Stealth. You gain a +1 trait bonus on this skill and it is always considered a class skill for you."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5251,7 +5251,7 @@
 			"## Convincing Liar",
 			"",
 			"**Type:** Social  ",
-			"**Requirements:** Member of The Bellflower Network",
+			"**Requirements:** Member of The [Bellflower Network](rule/aff_antislavery)",
 			"",
 			"You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you."
 		],
@@ -5624,7 +5624,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Thornkeep or Echo Wood",
 			"",
-			"You trained with the Hellknights at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
+			"You trained with the [Hellknights](rule/aff_lawknights) at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5650,7 +5650,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti Island",
 			"",
-			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the Red Mantis cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat) ."
+			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the [Red Mantis](rule/aff_assassins) cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat) ."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5790,7 +5790,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
 			"",
-			"You've sold relics to a Cyphermage in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
+			"You've sold relics to a [Cyphermage](rule/aff_i_tradition) in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -6148,7 +6148,7 @@
 			"## Defender of the Society",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"Your time spent studying the greatest warriors of the Society taught you new defensive skills while wearing armor. You gain a +1 trait bonus to Armor Class when wearing medium or heavy armor."
 		],
@@ -6809,7 +6809,7 @@
 			"",
 			"Your childhood was ended by a great disaster or atrocity that you witnessed. To cope with the horror, you have learned to reflexively suppress all emotion. You gain a +2 trait bonus on Will saving throws against emotion and fear effects.",
 			"",
-			"Suggested Characters: Galtans, Hellknights, Nidalese."
+			"Suggested Characters: Galtans, [Hellknights](rule/aff_lawknights), Nidalese."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -7475,7 +7475,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
 			"",
-			"Since Talmandor's Bounty is an Andoren colony and is unlikely to see the threat of slavery, the presence of the Eagle Knights isn't strongly needed, and the Bountiful Venture Company would prefer to not have that organization immediately associated with the colony (despite the colony's name having been derived from the Eagle Knights' patron, Talmandor). However, the need for safety can't be overlooked. You were a soldier in the Andoren army or you were a civilian who showed great promise in military matters. The Eagle Knights recruited you and offered unofficial Eagle Knight status if you managed to make it into the ranks of the colonists. There, you would see to the safety of the colony and send back reports with each supply ship regarding the general state of the colony and any threats you notice. The Bountiful Venture Company admired your military prowess and selected you for the second wave of colonists to arrive at Talmandor's Bounty.",
+			"Since Talmandor's Bounty is an Andoren colony and is unlikely to see the threat of slavery, the presence of the [Eagle Knights](rule/aff_vangard) isn't strongly needed, and the Bountiful Venture Company would prefer to not have that organization immediately associated with the colony (despite the colony's name having been derived from the Eagle Knights' patron, Talmandor). However, the need for safety can't be overlooked. You were a soldier in the Andoren army or you were a civilian who showed great promise in military matters. The Eagle Knights recruited you and offered unofficial Eagle Knight status if you managed to make it into the ranks of the colonists. There, you would see to the safety of the colony and send back reports with each supply ship regarding the general state of the colony and any threats you notice. The Bountiful Venture Company admired your military prowess and selected you for the second wave of colonists to arrive at Talmandor's Bounty.",
 			"",
 			"You begin play with a breastplate, a longsword (or some other martial or simple weapon), and an additional 100 gp of gear. In addition, you gain a +1 trait bonus on saving throws against mind-affecting effects."
 		],
@@ -8389,7 +8389,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
 			"",
-			"Though you were raised as a member of one of Magnimar's various Sczarni gangs, you never fit in with the rest of your settled, metropolitan brethren. The Pathfinder Society in particular recognized your wanderlust and potential as an agent, and on more than one occasion you impressed or bamboozled their agents with your street smarts and finesse. Over the years, you fell out of favor with the Sczarni, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. You gain a +2 trait bonus on Bluff checks to pass hidden messages. Also, anytime you deliver a coup de grace, you deal an additional 1d6 points of damage."
+			"Though you were raised as a member of one of Magnimar's various Sczarni gangs, you never fit in with the rest of your settled, metropolitan brethren. The [Pathfinder Society](rule/aff_scholars) in particular recognized your wanderlust and potential as an agent, and on more than one occasion you impressed or bamboozled their agents with your street smarts and finesse. Over the years, you fell out of favor with the Sczarni, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. You gain a +2 trait bonus on Bluff checks to pass hidden messages. Also, anytime you deliver a coup de grace, you deal an additional 1d6 points of damage."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8406,7 +8406,7 @@
 			"## Exalted of the Society",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively. You may channel energy one additional time per day."
 		],
@@ -8436,7 +8436,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
 			"",
-			"Although you're a relative newcomer to Magnimar, you're not some naive stranger. You've been sent by the Pathfinder Society lodge in your home country to learn more about Varisia by experiencing the frontier firsthand. After arriving, you reported to the Magnimar lodge and placed your expertise at the venture-captain's disposal. To represent your experience in distant lands, choose a country other than Varisia as your homeland and gain one of the languages spoken in that country as a bonus language. Additionally, choose one of the following skills: Handle Animal, Knowledge (geography), Linguistics, or Survival. You gain a +1 trait bonus on checks made with this skill and it is always a class skill for you."
+			"Although you're a relative newcomer to Magnimar, you're not some naive stranger. You've been sent by the [Pathfinder Society](rule/aff_scholars) lodge in your home country to learn more about Varisia by experiencing the frontier firsthand. After arriving, you reported to the Magnimar lodge and placed your expertise at the venture-captain's disposal. To represent your experience in distant lands, choose a country other than Varisia as your homeland and gain one of the languages spoken in that country as a bonus language. Additionally, choose one of the following skills: Handle Animal, Knowledge (geography), Linguistics, or Survival. You gain a +1 trait bonus on checks made with this skill and it is always a class skill for you."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8808,7 +8808,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You've failed the trials to gain entry to one of the Houses of Perfection. Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
+			"You've failed the trials to gain entry to one of the [Houses of Perfection](rule/aff_monasteries). Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},

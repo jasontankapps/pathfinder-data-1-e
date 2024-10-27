@@ -90,7 +90,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
 			"",
-			"Kintargo is a tough place to live if you count yourself as a law-abiding citizen. While you likely agree with most others of Kintargo that many of the laws put in place by House Thrune seem excessive, you always respected the law and honored it as best you could. You likely worship a deity such as Abadar or Iomedae -a lawful neutral or perhaps lawful good power allowed to practice within Cheliax, but only under restrictions. Yet despite this, Thrune has always made Cheliax a safer place to live. But with recent events, enough is enough. As much as it pains you to admit, the law of the land is now manifestly and obviously not correct, and something must be done to oppose this misuse of power. If that means aligning yourself to a rebel faction such as the Silver Ravens, so be it.",
+			"Kintargo is a tough place to live if you count yourself as a law-abiding citizen. While you likely agree with most others of Kintargo that many of the laws put in place by House Thrune seem excessive, you always respected the law and honored it as best you could. You likely worship a deity such as Abadar or Iomedae -a lawful neutral or perhaps lawful good power allowed to practice within Cheliax, but only under restrictions. Yet despite this, Thrune has always made Cheliax a safer place to live. But with recent events, enough is enough. As much as it pains you to admit, the law of the land is now manifestly and obviously not correct, and something must be done to oppose this misuse of power. If that means aligning yourself to a rebel faction such as the [Silver Ravens](rule/aff_rebels), so be it.",
 			"",
 			"Note that this trait works particularly well for paladins or other characters who wish to venerate lawful causes but still oppose the government. Your GM should be open to allowing lawful characters to perform actions out of character for someone of lawful alignment, provided the end goal is a new and better government for Kintargo, but with this feat, characters tied strongly to law (such as lawful clerics, monks, or paladins) can hide those ties in ways that help them perform as rebels without giving up their actual convictions.",
 			"",
@@ -1005,7 +1005,7 @@
 			"## Freed Slave (FG)",
 			"",
 			"**Type:** Race  ",
-			"**Requirements:** Halfling; Member of The Bellflower Network",
+			"**Requirements:** Halfling; Member of The [Bellflower Network](rule/aff_antislavery)",
 			"",
 			"You grew up as a slave in Cheliax and know the ins and outs of Chelish nobility better than most. You gain a +1 trait bonus on Diplomacy and Knowledge (nobility) checks and Knowledge (nobility) is a class skill for you."
 		],
@@ -1195,7 +1195,7 @@
 			"",
 			"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials.",
 			"",
-			"**Suggested Characters:** Absalom natives, Aspis Consortium agents, Taldans."
+			"**Suggested Characters:** Absalom natives, [Aspis Consortium](rule/aff_profiteers) agents, Taldans."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2023,7 +2023,7 @@
 			"## Greater Adept of the Society",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge. You gain one additional 0-level spell slot."
 		],
@@ -2091,7 +2091,7 @@
 			"",
 			"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.",
 			"",
-			"**Suggested Characters:** Eagle Knights, Garundi, Pathfinders."
+			"**Suggested Characters:** [Eagle Knights](rule/aff_vangard), Garundi, Pathfinders."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2435,7 +2435,7 @@
 			"## Havoc of the Society",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes. Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell."
 		],
@@ -2592,7 +2592,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"At least one of your parents was a Hellknight, and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
+			"At least one of your parents was a [Hellknight](rule/aff_lawknights), and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -2605,7 +2605,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
 			"",
-			"You have always admired the authority, discipline, and righteousness of the ebon-armored [Hellknights](prestigeclass/hellknight). Whether it's their unwavering self-control, uncompromising dedication to law and order, relentless pursuit of justice, or merciless administration of punishment, you have tried to model your own actions on the Hellknight philosophy called the Measure and the Chain. Your most fervent wish is to eventually join one of the Hellknight orders and take your place among the grim ranks dedicated to upholding and enforcing the laws of Hell and of Cheliax.",
+			"You have always admired the authority, discipline, and righteousness of the ebon-armored [Hellknights](rule/aff_lawknights). Whether it's their unwavering self-control, uncompromising dedication to law and order, relentless pursuit of justice, or merciless administration of punishment, you have tried to model your own actions on the Hellknight philosophy called the Measure and the Chain. Your most fervent wish is to eventually join one of the Hellknight orders and take your place among the grim ranks dedicated to upholding and enforcing the laws of Hell and of Cheliax.",
 			"",
 			"You gain a +1 trait bonus on Knowledge (planes) checks, and Knowledge (planes) is a class skill for you. In addition, choose one of the following Hellknight orders. You have trained yourself in the use of that order's favored weapon (if more than one weapon is listed, pick one), and gain a +1 trait bonus to your Combat Maneuver Defense whenever an opponent tries to sunder or disarm you of that weapon.",
 			"",
@@ -2628,7 +2628,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"Your family has strong ties to a Hellknight order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
+			"Your family has strong ties to a [Hellknight](rule/aff_lawknights) order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -2640,7 +2640,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You have laboriously studied the training rites of various Hellknight orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
+			"You have laboriously studied the training rites of various [Hellknight](rule/aff_lawknights) orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -2652,7 +2652,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"If you are an inquisitor, you can select any inquisition associated with your preferred Hellknight order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
+			"If you are an inquisitor, you can select any inquisition associated with your preferred [Hellknight](rule/aff_lawknights) order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -2823,7 +2823,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
 			"",
-			"You've long been interested in the legacy of the Silver Ravens-a group of freedom fighters that rose to prominence in Kintargo during the Chelish Civil War. There's frustratingly little information today about the group, and you suspect that most of what was recorded about the Silver Ravens has long since been redacted or destroyed by government agents, but You've managed to pick up a tidbit here and there. Most of your knowledge isn't so much about the Silver Ravens specifically, but more about general histories of rebel groups and freedom fighters who have fought against oppressive governments throughout history, both in Cheliax and beyond.",
+			"You've long been interested in the legacy of the [Silver Ravens](rule/aff_rebels)-a group of freedom fighters that rose to prominence in Kintargo during the Chelish Civil War. There's frustratingly little information today about the group, and you suspect that most of what was recorded about the Silver Ravens has long since been redacted or destroyed by government agents, but You've managed to pick up a tidbit here and there. Most of your knowledge isn't so much about the Silver Ravens specifically, but more about general histories of rebel groups and freedom fighters who have fought against oppressive governments throughout history, both in Cheliax and beyond.",
 			"",
 			"Your familiarity with rebel groups allows you to grant a +2 bonus on an Organization check of your choice once the party reestablishes the Silver Ravens during the first adventure. You can change which check you assign this bonus to once at the start of the rebellion's Upkeep phase. Your time preparing for joining the Silver Ravens has also honed your skill at remaining unseen. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you."
 		],
@@ -3014,7 +3014,7 @@
 			"## Honored Fist of the Society",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most. You increase your ki pool by 1 point."
 		],
@@ -3686,7 +3686,7 @@
 			"**Type:** Faction  ",
 			"**Faction:** Grand Lodge",
 			"",
-			"Venture-Captain Valsin likes to keep abreast of situations within the Pathfinder Society, and you do your best to emulate him. Choose either Diplomacy or Knowledge (local). You gain a +1 trait bonus on all checks for the chosen skill, and the chosen skill becomes a class skill for you."
+			"Venture-Captain Valsin likes to keep abreast of situations within the [Pathfinder Society](rule/aff_scholars), and you do your best to emulate him. Choose either Diplomacy or Knowledge (local). You gain a +1 trait bonus on all checks for the chosen skill, and the chosen skill becomes a class skill for you."
 		],
 		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
@@ -3739,7 +3739,7 @@
 			"",
 			"As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger. As a standard action, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.",
 			"",
-			"Suggested Characters: Eagle Knights, Iomedaeans, Mendevian crusaders."
+			"Suggested Characters: [Eagle Knights](rule/aff_vangard), Iomedaeans, Mendevian crusaders."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -4398,7 +4398,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"You are a member of the Lantern Bearers or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame-the drow-never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
+			"You are a member of the [Lantern Bearers](rule/aff_lights) or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame-the drow-never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -5250,7 +5250,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including Hellknights) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
+			"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including [Hellknights](rule/aff_lawknights)) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -5443,7 +5443,7 @@
 			"## Maestro of the Society",
 			"",
 			"**Type:** Social  ",
-			"**Requirements:** Member of The Pathfinder Society",
+			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
 			"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day."
 		],
@@ -6374,7 +6374,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"Your exposure to teaching from the Houses of Perfection makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
+			"Your exposure to teaching from the [Houses of Perfection](rule/aff_monasteries) makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -6465,7 +6465,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
 			"",
-			"As a child in Magnimar, the city's ancient monuments inspired you with wonder. Your fascination with these relics has only grown in the years since, encouraging you to join the ranks of the Pathfinder Society so you can further quench your thirst for knowledge. Though you know little about the actual lore of the monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. You gain a +1 trait bonus on Knowledge (history) checks made in Varisia due to your familiarity with its historical remnants. This bonus increases to +2 if the check relates to the city of Magnimar. Additionally, you gain a +2 trait bonus on any skill check made to receive a boon from one of Magnimar's magically imbued monuments."
+			"As a child in Magnimar, the city's ancient monuments inspired you with wonder. Your fascination with these relics has only grown in the years since, encouraging you to join the ranks of the [Pathfinder Society](rule/aff_scholars) so you can further quench your thirst for knowledge. Though you know little about the actual lore of the monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. You gain a +1 trait bonus on Knowledge (history) checks made in Varisia due to your familiarity with its historical remnants. This bonus increases to +2 if the check relates to the city of Magnimar. Additionally, you gain a +2 trait bonus on any skill check made to receive a boon from one of Magnimar's magically imbued monuments."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8030,7 +8030,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
 			"",
-			"Explore, report, and cooperate. This is the credo you've lived by since you've joined the Pathfinder Society, and after hearing about the expedition to found Talmandor's Bounty you applied, eager to see the remains of Azlant. However, you quickly learned that the Bountiful Venture Company wasn't interested in involving the Pathfinder Society in the formation of the colony. This struck you as strange, because who else has as keen an understanding of some of the elements of ancient Azlant as the Pathfinder Society? Regardless, you went through the application process, making sure to highlight all of your applicable skills and experience while keeping your involvement in the Society to yourself. You were elated to receive notice that you were selected for the second wave of colonists bound for the broken continent of Azlant. You begin play with a standard [wayfinder](magic-wondrous/wayfinder) and you gain a +1 trait bonus on initiative checks."
+			"Explore, report, and cooperate. This is the credo you've lived by since you've joined the [Pathfinder Society](rule/aff_scholars), and after hearing about the expedition to found Talmandor's Bounty you applied, eager to see the remains of Azlant. However, you quickly learned that the Bountiful Venture Company wasn't interested in involving the Pathfinder Society in the formation of the colony. This struck you as strange, because who else has as keen an understanding of some of the elements of ancient Azlant as the Pathfinder Society? Regardless, you went through the application process, making sure to highlight all of your applicable skills and experience while keeping your involvement in the Society to yourself. You were elated to receive notice that you were selected for the second wave of colonists bound for the broken continent of Azlant. You begin play with a standard [wayfinder](magic-wondrous/wayfinder) and you gain a +1 trait bonus on initiative checks."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8191,7 +8191,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You carry the physical and emotional scars of your Gray Maiden initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
+			"You carry the physical and emotional scars of your [Gray Maiden](rule/aff_scarred_ladies) initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},

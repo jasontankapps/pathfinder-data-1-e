@@ -2159,7 +2159,7 @@
 			"**Source** [Path of the Hellknight pg. 62](source/path_of_the_hellknight)",
 			"",
 			"You have learned the art of spellcasting while wearing signifer armor.  ",
-			"**Prerequisites:** [Arcane Armor Mastery](feat/arcane_armor_mastery), [Arcane Armor Training](feat/arcane_armor_training), Heavy Armor Proficiency, caster level 7th, must swear allegiance to a single Hellknight order.  ",
+			"**Prerequisites:** [Arcane Armor Mastery](feat/arcane_armor_mastery), [Arcane Armor Training](feat/arcane_armor_training), Heavy Armor Proficiency, caster level 7th, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
 			"**Benefit:** As a swift action, you can reduce the arcane spell failure chance due to the armor you are wearing by 30% for any spells you cast this round. This benefit applies only if you are wearing armor with \"Hellknight\" in its name. This bonus replaces, and does not stack with, the bonuses granted by Arcane Armor Mastery, Arcane Armor Training, and similar feats and effects."
 		]
 	},
@@ -2353,7 +2353,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 85](source/adventurer's_guide)",
 			"",
-			"The Gray Maidens' bond with each other goes beyond simple combat coordination. An elite member of the sisterhood is an inspiration to her fellow women, both invigorating their spirits and effortlessly coordinating their tactics.  ",
+			"The [Gray Maidens'](rule/aff_scarred_ladies) bond with each other goes beyond simple combat coordination. An elite member of the sisterhood is an inspiration to her fellow women, both invigorating their spirits and effortlessly coordinating their tactics.  ",
 			"**Prerequisites:** Cha 13, [Shield Focus](feat/shield_focus), [Shield Wall](feat/shield_wall), [Sisterhood Rampart](feat/sisterhood_rampart), [Sisterhood Style](feat/sisterhood_style), base attack bonus +6.  ",
 			"**Benefit:** While you're using Sisterhood Style and wielding a longsword and either a light or heavy shield, the bonus on saving throws from Sisterhood Style increases to +2 and you grant half that bonus to all allies within 20 feet. In addition, you can choose up to two teamwork feats you have when entering the Sisterhood Style stance. As a swift action, you can grant one of those feats to two allies within 20 feet until the beginning of your next turn, or you can grant both feats to one ally within 20 feet until the beginning of your next turn."
 		]
@@ -2366,7 +2366,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 85](source/adventurer's_guide)",
 			"",
-			"The shield wall was the heart of the Gray Maidens' military strategy; combined with their precise tactical coordination, Gray Maiden lines were nearly unbreakable. Maidens behind the line would then strike with polearms or longbows, picking off targets with ease.  ",
+			"The shield wall was the heart of the Gray Maidens' military strategy; combined with their precise tactical coordination, [Gray Maiden](rule/aff_scarred_ladies) lines were nearly unbreakable. Maidens behind the line would then strike with polearms or longbows, picking off targets with ease.  ",
 			"**Prerequisites:** Cha 13, [Shield Focus](feat/shield_focus), [Shield Wall](feat/shield_wall), [Sisterhood Style](feat/sisterhood_style), base attack bonus +4.  ",
 			"**Benefit:** While using Sisterhood Style, you and adjacent allies gain an additional +1 bonus to the shield bonus granted by Shield Wall, and each of you adds your shield bonus to AC (not counting enhancement bonuses) to your CMD against bull rush combat maneuvers. In addition, you and adjacent allies do not provide soft cover against allies' attacks."
 		]
@@ -2379,7 +2379,7 @@
 			"",
 			"**Source** [Adventurer's Guide pg. 86](source/adventurer's_guide)",
 			"",
-			"The Gray Maidens are more than just soldiers-they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
+			"The [Gray Maidens](rule/aff_scarred_ladies) are more than just soldiers-they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
 			"**Prerequisites:** Cha 13, [Shield Focus](feat/shield_focus), base attack bonus +2.  ",
 			"**Benefit:** While using this style and wielding a longsword and a light or heavy shield, you gain a +1 bonus on Reflex and Will saving throws. In addition, when you enter the Sisterhood Style stance, you can choose a teamwork feat you have. As a swift action, you can grant that feat to an ally within 10 feet until the beginning of your next turn."
 		]

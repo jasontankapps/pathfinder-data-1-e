@@ -145,7 +145,7 @@
 				"## [Berserker of the Society](trait/berserker_of_the_society)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability. You may use your rage ability for 3 additional rounds per day."
 			],
@@ -181,7 +181,7 @@
 				"## [Blade of the Society](trait/blade_of_the_society)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters. You gain a +1 trait bonus on damage rolls from sneak attacks."
 			],
@@ -304,7 +304,7 @@
 				"## [Defender of the Society](trait/defender_of_the_society)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"Your time spent studying the greatest warriors of the Society taught you new defensive skills while wearing armor. You gain a +1 trait bonus to Armor Class when wearing medium or heavy armor."
 			],
@@ -422,7 +422,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"You've failed the trials to gain entry to one of the Houses of Perfection. Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
+				"You've failed the trials to gain entry to one of the [Houses of Perfection](rule/aff_monasteries). Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
 			],
 			[
 				"## [Faith's Hunter](trait/faith's_hunter)",
@@ -473,14 +473,14 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"Your family has strong ties to a Hellknight order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
+				"Your family has strong ties to a [Hellknight](rule/aff_lawknights) order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
 			],
 			[
 				"## [Hellknight Initiate](trait/hellknight_initiate)",
 				"",
 				"**Type:** Combat",
 				"",
-				"You have laboriously studied the training rites of various Hellknight orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
+				"You have laboriously studied the training rites of various [Hellknight](rule/aff_lawknights) orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
 			],
 			[
 				"## [Helpful (CoP)](trait/helpful_cop)",
@@ -517,7 +517,7 @@
 				"## [Honored Fist of the Society](trait/honored_fist_of_the_society)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most. You increase your ki pool by 1 point."
 			],
@@ -556,7 +556,7 @@
 				"",
 				"As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger. As a standard action, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.",
 				"",
-				"Suggested Characters: Eagle Knights, Iomedaeans, Mendevian crusaders."
+				"Suggested Characters: [Eagle Knights](rule/aff_vangard), Iomedaeans, Mendevian crusaders."
 			],
 			[
 				"## [Inspiring Rush](trait/inspiring_rush)",
@@ -634,7 +634,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"Your exposure to teaching from the Houses of Perfection makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
+				"Your exposure to teaching from the [Houses of Perfection](rule/aff_monasteries) makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
 			],
 			[
 				"## [Monster Challenger](trait/monster_challenger)",
@@ -718,7 +718,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"You carry the physical and emotional scars of your Gray Maiden initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
+				"You carry the physical and emotional scars of your [Gray Maiden](rule/aff_scarred_ladies) initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
 			],
 			[
 				"## [Pillager](trait/pillager)",
@@ -734,7 +734,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"Your superiors have identified you as an Eagle Knight candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
+				"Your superiors have identified you as an [Eagle Knights](rule/aff_vangard) candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
 			],
 			[
 				"## [Punish Insurrection](trait/punish_insurrection)",
@@ -769,7 +769,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"You witnessed the training of Red Mantis assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
+				"You witnessed the training of [Red Mantis](rule/aff_assassins) assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
 			],
 			[
 				"## [Resilient](trait/resilient)",
@@ -850,7 +850,7 @@
 				"## [Slippery](trait/slippery)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Member of The Bellflower Network",
+				"**Requirements:** Member of The [Bellflower Network](rule/aff_antislavery)",
 				"",
 				"You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught. You gain a +1 trait bonus on Stealth checks and Stealth is a class skill for you."
 			],
@@ -982,7 +982,7 @@
 				"## [Tracker of the Society](trait/tracker_of_the_society)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your favored terrain class ability."
 			],

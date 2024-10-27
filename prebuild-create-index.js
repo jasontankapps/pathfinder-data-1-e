@@ -1420,6 +1420,13 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
+	"rules17.json": {
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 17,
+		type: "Rules",
+		properties: [ "name" ]
+	},
 	"sidekicks.json": {
 		searchgroup: 1, // classes
 		link: "sidekick",

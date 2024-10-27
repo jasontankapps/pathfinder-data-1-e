@@ -1200,7 +1200,7 @@
 			"",
 			"**Disarming Strike (Ex)** When the Aldori swordlord successfully disarms an opponent using an Aldori dueling sword, she also deals normal damage to the target, but without the normal Strength (or Dexterity) bonus to damage.",
 			"",
-			"Proud and stern, Aldori swordlords represent the pinnacle of Brevoy's sword-dueling culture. Swordlords dedicate their lives to mastering a single blade and using it to defeat any with the courage to openly oppose them. Their pride and determination to constantly challenge themselves makes them ever-eager to prove the superiority of their fighting style, which often sets them at odds with others."
+			"Proud and stern, [Aldori swordlords](rule/aff_swordmasters) represent the pinnacle of Brevoy's sword-dueling culture. Swordlords dedicate their lives to mastering a single blade and using it to defeat any with the courage to openly oppose them. Their pride and determination to constantly challenge themselves makes them ever-eager to prove the superiority of their fighting style, which often sets them at odds with others."
 		]
 	},
 	"android_impostor": {
@@ -4059,7 +4059,7 @@
 			"Combat Gear potions of cure light wounds (2), scroll of fireball, scroll of invisibility;  ",
 			"Other Gear +1 full plate, +1 halberd, mwk light crossbow",
 			"",
-			"Citadel Vraid is a hostile place for virtually anyone but the Hellknights who rule it. Since armigers make up the bulk of Citadel Vraid's denizens, intruders often encounter these rookie Hellknights before rousing the attention of higherups. Most armigers have up to 4 or 5 class levels in fighter or ranger, though some pupils have backgrounds as cavaliers or even rogues. Citadel Vraid's Hellknights and signifers are significantly more challenging than their greener associates, and possess at least 1 level in either the Hellknight or Hellknight Signifer prestige class. The following is an example of a typical Signifer of the Nail from Citadel Vraid."
+			"Citadel Vraid is a hostile place for virtually anyone but the [Hellknights](rule/aff_lawknights) who rule it. Since armigers make up the bulk of Citadel Vraid's denizens, intruders often encounter these rookie Hellknights before rousing the attention of higherups. Most armigers have up to 4 or 5 class levels in fighter or ranger, though some pupils have backgrounds as cavaliers or even rogues. Citadel Vraid's Hellknights and signifers are significantly more challenging than their greener associates, and possess at least 1 level in either the Hellknight or Hellknight Signifer prestige class. The following is an example of a typical Signifer of the Nail from Citadel Vraid."
 		]
 	},
 	"spell_hunter": {
@@ -5005,7 +5005,7 @@
 			"**SQ** armor training 2  ",
 			"**Combat Gear** potion of bull's strength, potion of cure moderate wounds; **Other Gear** +1 full plate, +1 heavy steel shield, +1 bastard sword, cloak of resistance +1, 45 gp",
 			"",
-			"When Queen Ileosa Arabasti first came to power in the Varisian city of Korvosa, she transformed her personal guard into an order of all-female knights who served as her elite soldiers. Known as Gray Maidens both for its members' flawless suits of polished steel full-plate armor and for their generally stern and imposing dispositions, this order was staunchly loyal to the queen throughout her reign and carried out her direct orders.",
+			"When Queen Ileosa Arabasti first came to power in the Varisian city of Korvosa, she transformed her personal guard into an order of all-female knights who served as her elite soldiers. Known as [Gray Maidens](rule/aff_scarred_ladies) both for its members' flawless suits of polished steel full-plate armor and for their generally stern and imposing dispositions, this order was staunchly loyal to the queen throughout her reign and carried out her direct orders.",
 			"",
 			"Ileosa maintained her control over these skilled warriors through a complex regimen of extreme mental and physical torture, including the brutal and permanent scarring of the knights' faces to ensure that none of the Gray Maidens could rival the queen's beauty. The result warped many of the knights' views of the world, and left many Gray Maidens desensitized to suffering and morally ambivalent toward commands to perform evil tasks in their commander's name.",
 			"",
@@ -5118,7 +5118,7 @@
 			"",
 			"**Signifer Mask (Su)** A Hellknight signifer's mask-which is given to a signifer upon initiation-is often devoid of eyeholes or other personally identifying features, though it doesn't obscure the wearer's vision. While wearing it, she gains a +2 competence bonus on Sense Motive checks and on saving throws against spells and abilities that rely on visual effects.",
 			"",
-			"Seekers of magical power are just as likely to appreciate the value of imposed order as those with more martial skills. Most Hellknight orders augment their ranks with skilled spellcasters called signifers; these magicians enhance the order's efforts, either by directly targeting those who sow chaos or by improving the Hellknights' already impressive arsenals.",
+			"Seekers of magical power are just as likely to appreciate the value of imposed order as those with more martial skills. Most Hellknight orders augment their ranks with skilled spellcasters called signifers; these magicians enhance the order's efforts, either by directly targeting those who sow chaos or by improving the [Hellknights'](rule/aff_lawknights) already impressive arsenals.",
 			"",
 			"Though their spells are useful in direct support roles, Hellknight signifers are most feared for summoning diabolical beings, whether to savage their foes or test their allies."
 		]
@@ -5470,7 +5470,7 @@
 			"",
 			"An Osirionologist is a scholar who specializes in the study of Ancient Osirion. Because this lost civilization accomplished wonders unmatched by current magical and engineering knowledge and did so very suddenly after a starkly primitive beginning, many Osirionologists-including scholars, collectors, and power-hungry magical researchers from Andoran, Cheliax, Absalom, Osirion, Qadira, Katapesh, and beyond-obsess over discovering how these wonders came about.",
 			"",
-			"Osirionologists are often amenable to working with Pathfinders exploring the ruins of Ancient Osirion as long as they feel their academic agendas are respected. They also work as hired experts for the Aspis Consortium so they can undertake otherwise unaffordable expeditions. Naturally, most Osirionologists place their own motivations above those of their allies, and can be trusted only so long as they are moving toward their goals."
+			"Osirionologists are often amenable to working with Pathfinders exploring the ruins of Ancient Osirion as long as they feel their academic agendas are respected. They also work as hired experts for the [Aspis Consortium](rule/aff_profiteers) so they can undertake otherwise unaffordable expeditions. Naturally, most Osirionologists place their own motivations above those of their allies, and can be trusted only so long as they are moving toward their goals."
 		]
 	},
 	"ossuary_agent": {
@@ -6391,7 +6391,7 @@
 			"",
 			"**Cypher Magic** The cyphermage casts spells from scrolls as 1 caster level higher than the scroll's caster level, even scrolls she created (all listed scrolls). Additionally, she gains a +2 bonus on caster level checks to activate a scroll that has a higher caster level than her own.",
 			"",
-			"The cyphermages of the pirate town of Riddleport are students of ancient Thassilonian history and runic lore. Members of the mysterious Order of Cyphers, they pursue lost knowledge and keep their discoveries secret from outsiders-and in their overwhelming ambition to be the first to solve great mysteries, keep secrets even from the other members of their enigmatic order.",
+			"The [cyphermages](rule/aff_i_tradition) of the pirate town of Riddleport are students of ancient Thassilonian history and runic lore. Members of the mysterious Order of Cyphers, they pursue lost knowledge and keep their discoveries secret from outsiders-and in their overwhelming ambition to be the first to solve great mysteries, keep secrets even from the other members of their enigmatic order.",
 			"",
 			"Because all cyphermages are especially attuned to runes-whether the runes are newly scribed or ancient carvings in Thassilonian ruins like Riddleport's Cyphergate-they have unusual skill at using written magic such as scrolls, and can draw extra power from these items."
 		]

@@ -1369,7 +1369,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the Pathfinder Society, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened. Suggested Characters: Osirians, Pathfinders, Taldans."
+				"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the [Pathfinder Society](rule/aff_scholars), and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened. Suggested Characters: Osirians, Pathfinders, Taldans."
 			],
 			[
 				"## [Balanced Determination](trait/balanced_determination)",
@@ -1542,7 +1542,7 @@
 				"## [Convincing Liar](trait/convincing_liar)",
 				"",
 				"**Type:** Social  ",
-				"**Requirements:** Member of The Bellflower Network",
+				"**Requirements:** Member of The [Bellflower Network](rule/aff_antislavery)",
 				"",
 				"You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you."
 			],
@@ -1788,7 +1788,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials. Suggested Characters: Absalom natives, Aspis Consortium agents, Taldans."
+				"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials. Suggested Characters: Absalom natives, [Aspis Consortium](rule/aff_profiteers) agents, Taldans."
 			],
 			[
 				"## [Friends in Low Places](trait/friends_in_low_places)",
@@ -1824,7 +1824,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse. Suggested Characters: Eagle Knights, Garundi, Pathfinders."
+				"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse. Suggested Characters: [Eagle Knights](rule/aff_vangard), Garundi, Pathfinders."
 			],
 			[
 				"## [Grief-Filled](trait/grief-filled)",
@@ -1866,7 +1866,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"At least one of your parents was a Hellknight, and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
+				"At least one of your parents was a [Hellknight](rule/aff_lawknights), and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
 			],
 			[
 				"## [Imposing Scion](trait/imposing_scion)",
@@ -1948,13 +1948,13 @@
 				"",
 				"**Type:** Social",
 				"",
-				"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including Hellknights) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
+				"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including [Hellknights](rule/aff_lawknights)) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
 			],
 			[
 				"## [Maestro of the Society](trait/maestro_of_the_society)",
 				"",
 				"**Type:** Social  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day."
 			],
@@ -2255,7 +2255,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You witnessed or were party to the rescue of a halfling from Chelish slavery by the Bellflower Network or Eagle Knights. Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
+				"You witnessed or were party to the rescue of a halfling from Chelish slavery by the [Bellflower Network](rule/aff_antislavery) or [Eagle Knights](rule/aff_vangard). Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
 			],
 			[
 				"## [Snowbound](trait/snowbound)",
@@ -3426,7 +3426,7 @@
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 21 Abadius and 16 Calistril (or 8-14 on d%)",
 				"",
-				"You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
+				"You are bathed in the light of the [Lantern Bearer](rule/aff_lights), who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
 			],
 			[
 				"## [The Newlyweds](trait/the_newlyweds)",
@@ -3640,7 +3640,7 @@
 				"## [Beast of the Society](trait/beast_of_the_society)",
 				"",
 				"**Type:** Magic  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal. Whenever you use your wild shape class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level."
 			],
@@ -3893,7 +3893,7 @@
 				"## [Greater Adept of the Society](trait/greater_adept_of_the_society)",
 				"",
 				"**Type:** Magic  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge. You gain one additional 0-level spell slot."
 			],
@@ -3929,7 +3929,7 @@
 				"## [Havoc of the Society](trait/havoc_of_the_society)",
 				"",
 				"**Type:** Magic  ",
-				"**Requirements:** Member of The Pathfinder Society",
+				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 				"",
 				"Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes. Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell."
 			],
@@ -4259,7 +4259,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"Rivethun is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf. While you suffer a physical ailment, such as disease, poison, or ability damage to Strength, Dexterity, or Constitution (but not including hit point damage), you gain a +2 trait bonus on Will saving throws. While you suffer a mental ailment, including insanity, any charm or compulsion effect, or ability damage to Intelligence, Wisdom, or Charisma, you gain a +2 trait bonus on Fortitude saving throws."
+				"[Rivethun](rule/aff_animists) is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf. While you suffer a physical ailment, such as disease, poison, or ability damage to Strength, Dexterity, or Constitution (but not including hit point damage), you gain a +2 trait bonus on Will saving throws. While you suffer a mental ailment, including insanity, any charm or compulsion effect, or ability damage to Intelligence, Wisdom, or Charisma, you gain a +2 trait bonus on Fortitude saving throws."
 			],
 			[
 				"## [Scholar of the Analects](trait/scholar_of_the_analects)",
