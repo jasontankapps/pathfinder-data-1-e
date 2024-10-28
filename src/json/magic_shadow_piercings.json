@@ -49,17 +49,14 @@
 	},
 	"body_piercings_major": {
 		"name": "Body Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "body_piercings_minor"
 	},
 	"body_piercings_greater": {
 		"name": "Body Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "body_piercings_minor"
 	},
 	"chest_piercings_major": {
 		"name": "Chest Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "chest_piercings_minor"
 	},
 	"head_piercings_minor": {
@@ -88,12 +85,10 @@
 	},
 	"chest_piercings_greater": {
 		"name": "Chest Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "chest_piercings_minor"
 	},
 	"head_piercings_major": {
 		"name": "Head Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "head_piercings_minor"
 	},
 	"eye_piercings_minor": {
@@ -146,27 +141,22 @@
 	},
 	"suspension_piercings_major": {
 		"name": "Suspension Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "suspension_piercings_minor"
 	},
 	"suspension_piercings_greater": {
 		"name": "Suspension Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "suspension_piercings_minor"
 	},
 	"eye_piercings_major": {
 		"name": "Eye Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "eye_piercings_minor"
 	},
 	"eye_piercings_greater": {
 		"name": "Eye Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "eye_piercings_minor"
 	},
 	"head_piercings_greater": {
 		"name": "Head Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"copyof": "head_piercings_minor"
 	}
 }

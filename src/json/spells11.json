@@ -44,7 +44,6 @@
 	},
 	"umbral_infusion_mass": {
 		"name": "Umbral Infusion, Mass",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "umbral_infusion"
 	},
 	"mass_umbral_infusion": {
@@ -375,7 +374,6 @@
 	},
 	"undead_anatomy_2": {
 		"name": "Undead Anatomy II",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "undead_anatomy_1"
 	},
 	"undead_anatomy_ii": {
@@ -383,7 +381,6 @@
 	},
 	"undead_anatomy_3": {
 		"name": "Undead Anatomy III",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "undead_anatomy_1"
 	},
 	"undead_anatomy_iii": {
@@ -391,7 +388,6 @@
 	},
 	"undead_anatomy_4": {
 		"name": "Undead Anatomy IV",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "undead_anatomy_1"
 	},
 	"undead_anatomy_iv": {
@@ -758,7 +754,6 @@
 	},
 	"unhallowed_blows_greater": {
 		"name": "Unhallowed Blows, Greater",
-		"sources": [ "People of the Wastes" ],
 		"copyof": "unhallowed_blows"
 	},
 	"greater_unhallowed_blows": {
@@ -1978,11 +1973,6 @@
 	},
 	"vermin_shape_2": {
 		"name": "Vermin Shape II",
-		"sources": [
-			"Ultimate Magic",
-			"Book of the Damned - Volume 2: Lords of Chaos",
-			"Inner Sea World Guide"
-		],
 		"copyof": "vermin_shape_1"
 	},
 	"vermin_shape_ii": {
@@ -2373,7 +2363,6 @@
 	},
 	"violent_misfire_greater": {
 		"name": "Violent Misfire, Greater",
-		"sources": [ "People of the Wastes" ],
 		"copyof": "violent_misfire"
 	},
 	"greater_violent_misfire": {
@@ -3920,7 +3909,6 @@
 	},
 	"water_walk_communal": {
 		"name": "Water Walk, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "water_walk"
 	},
 	"communal_water_walk": {
@@ -4417,12 +4405,10 @@
 	},
 	"whip_of_ants": {
 		"name": "Whip of Ants",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "whip_of_spiders"
 	},
 	"whip_of_centipedes": {
 		"name": "Whip of Centipedes",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "whip_of_spiders"
 	},
 	"whip_of_spiders": {
@@ -5424,7 +5410,6 @@
 	},
 	"shared_wrath": {
 		"name": "Shared Wrath",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "wrath"
 	},
 	"wrathful_mantle": {

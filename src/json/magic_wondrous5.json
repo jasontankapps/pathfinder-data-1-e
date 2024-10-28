@@ -2879,6 +2879,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), invisibility, light; **Cost** 4,000 gp"
 		]
 	},
+	"vanishing_wayfinder": {
+		"copyof": "wayfinder_vanishing"
+	},
 	"werewhistle": {
 		"name": "Werewhistle",
 		"sources": [ "Ultimate Equipment" ],

@@ -271,7 +271,6 @@
 	},
 	"absorb_rune_2": {
 		"name": "Absorb Rune II",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "absorb_rune_1"
 	},
 	"absorb_rune_ii": {
@@ -279,7 +278,6 @@
 	},
 	"absorb_rune_3": {
 		"name": "Absorb Rune III",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "absorb_rune_1"
 	},
 	"absorb_rune_iii": {
@@ -926,12 +924,10 @@
 	},
 	"age_resistance": {
 		"name": "Age Resistance",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_age_resistance"
 	},
 	"age_resistance_greater": {
 		"name": "Age Resistance, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_age_resistance"
 	},
 	"greater_age_resistance": {
@@ -1070,7 +1066,6 @@
 	},
 	"aggressive_thundercloud_greater": {
 		"name": "Aggressive Thundercloud, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "aggressive_thundercloud"
 	},
 	"greater_aggressive_thundercloud": {
@@ -1327,7 +1322,6 @@
 	},
 	"air_walk_communal": {
 		"name": "Air Walk, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "air_walk"
 	},
 	"communal_air_walk": {
@@ -1462,12 +1456,10 @@
 	},
 	"escape_alarm": {
 		"name": "Escape Alarm",
-		"sources": [ "Villain Codex" ],
 		"copyof": "alarm"
 	},
 	"selective_alarm": {
 		"name": "Selective Alarm",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "alarm"
 	},
 	"alaznist's_jinx": {
@@ -1616,7 +1608,6 @@
 	},
 	"align_weapon_communal": {
 		"name": "Align Weapon, Communal",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "align_weapon"
 	},
 	"communal_align_weapon": {
@@ -1842,6 +1833,10 @@
 			"",
 			"This spell functions as ally across time as noted above with two exceptions. First, you can summon one duplicate per caster level before the spell ends. Second, you can have up to one duplicate in existence at a time for every 3 caster levels you have."
 		]
+	},
+	"army_across_time": {
+		"name": "Army Across Time",
+		"copyof": "ally_across_time"
 	},
 	"alpha_instinct": {
 		"name": "Alpha Instinct",
@@ -2260,12 +2255,10 @@
 	},
 	"angelic_aspect": {
 		"name": "Angelic Aspect",
-		"sources": [ "Champions of Purity" ],
 		"copyof": "lesser_angelic_aspect"
 	},
 	"angelic_aspect_greater": {
 		"name": "Angelic Aspect, Greater",
-		"sources": [ "Champions of Purity" ],
 		"copyof": "lesser_angelic_aspect"
 	},
 	"greater_angelic_aspect": {
@@ -2450,7 +2443,6 @@
 	},
 	"animal_aspect_greater": {
 		"name": "Animal Aspect, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "animal_aspect"
 	},
 	"greater_animal_aspect": {
@@ -2657,7 +2649,6 @@
 	},
 	"animate_dead_lesser": {
 		"name": "Animate Dead, Lesser",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "animate_dead"
 	},
 	"lesser_animate_dead": {
@@ -2817,7 +2808,6 @@
 	},
 	"animus_mine_greater": {
 		"name": "Animus Mine, Greater",
-		"sources": [ "Heroes of the Darklands" ],
 		"copyof": "animus_mine"
 	},
 	"greater_animus_mine": {
@@ -2895,7 +2885,6 @@
 	},
 	"ant_haul_communal": {
 		"name": "Ant Haul, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "ant_haul"
 	},
 	"communal_ant_haul": {
@@ -3108,7 +3097,6 @@
 	},
 	"source_severance": {
 		"name": "Source Severance",
-		"sources": [ "Faiths and Philosophies" ],
 		"copyof": "antimagic_field"
 	},
 	"antipathy": {
@@ -3503,7 +3491,6 @@
 	},
 	"appearance_of_life_greater": {
 		"name": "Appearance of Life, Greater",
-		"sources": [ "Villain Codex" ],
 		"copyof": "appearance_of_life"
 	},
 	"greater_appearance_of_life": {
@@ -4095,7 +4082,6 @@
 	},
 	"arcane_sight_greater": {
 		"name": "Arcane Sight, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "arcane_sight"
 	},
 	"greater_arcane_sight": {
@@ -4207,11 +4193,6 @@
 			"",
 			"This spell can be cast only underwater."
 		]
-	},
-	"army_across_time": {
-		"name": "Army Across Time",
-		"sources": [ "Legacy of the First World" ],
-		"copyof": "ally_across_time"
 	},
 	"aroden's_magic_army": {
 		"name": "Aroden's Magic Army",
@@ -4618,7 +4599,6 @@
 	},
 	"assume_appearance_greater": {
 		"name": "Assume Appearance, Greater",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "assume_appearance"
 	},
 	"greater_assume_appearance": {
@@ -4712,7 +4692,6 @@
 	},
 	"astral_projection_lesser": {
 		"name": "Astral Projection, Lesser",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "astral_projection"
 	},
 	"lesser_astral_projection": {
@@ -4763,7 +4742,6 @@
 	},
 	"atavism_mass": {
 		"name": "Atavism, Mass",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "atavism"
 	},
 	"mass_atavism": {
@@ -4930,27 +4908,22 @@
 	},
 	"audiovisual_hallucination": {
 		"name": "Audiovisual Hallucination",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "auditory_hallucination"
 	},
 	"complex_hallucination": {
 		"name": "Complex Hallucination",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "auditory_hallucination"
 	},
 	"permanent_hallucination": {
 		"name": "Permanent Hallucination",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "auditory_hallucination"
 	},
 	"scripted_hallucination": {
 		"name": "Scripted Hallucination",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "auditory_hallucination"
 	},
 	"triggered_hallucination": {
 		"name": "Triggered Hallucination",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "auditory_hallucination"
 	},
 	"augmenting_wall": {
@@ -6071,7 +6044,6 @@
 	},
 	"bear's_endurance_mass": {
 		"name": "Bear's Endurance, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "bear's_endurance"
 	},
 	"mass_bear's_endurance": {
@@ -6264,7 +6236,6 @@
 	},
 	"beast_shape_2": {
 		"name": "Beast Shape II",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "beast_shape_1"
 	},
 	"beast_shape_ii": {
@@ -6272,7 +6243,6 @@
 	},
 	"beast_shape_3": {
 		"name": "Beast Shape III",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "beast_shape_1"
 	},
 	"beast_shape_iii": {
@@ -6280,7 +6250,6 @@
 	},
 	"beast_shape_4": {
 		"name": "Beast Shape IV",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "beast_shape_1"
 	},
 	"beast_shape_iv": {
@@ -6288,12 +6257,10 @@
 	},
 	"magical_beast_shape": {
 		"name": "Magical Beast Shape",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "beast_shape_1"
 	},
 	"share_shape": {
 		"name": "Share Shape",
-		"sources": [ "Animal Archive" ],
 		"copyof": "beast_shape_1"
 	},
 	"beastspeak": {
@@ -6607,7 +6574,6 @@
 	},
 	"bestow_curse_greater": {
 		"name": "Bestow Curse, Greater",
-		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"copyof": "bestow_curse"
 	},
 	"greater_bestow_curse": {
@@ -6615,12 +6581,10 @@
 	},
 	"conditional_curse": {
 		"name": "Conditional Curse",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "bestow_curse"
 	},
 	"curse_major": {
 		"name": "Curse, Major",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "bestow_curse"
 	},
 	"major_curse": {
@@ -6767,7 +6731,6 @@
 	},
 	"bestow_planar_infusion_2": {
 		"name": "Bestow Planar Infusion II",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "bestow_planar_infusion_1"
 	},
 	"bestow_planar_infusion_ii": {
@@ -6775,7 +6738,6 @@
 	},
 	"bestow_planar_infusion_3": {
 		"name": "Bestow Planar Infusion III",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "bestow_planar_infusion_1"
 	},
 	"bestow_planar_infusion_iii": {
@@ -6909,7 +6871,6 @@
 	},
 	"threefold_form": {
 		"name": "Threefold Form",
-		"sources": [ "Legacy of the First World" ],
 		"copyof": "bilocation"
 	},
 	"bind_sage": {
@@ -7033,7 +6994,6 @@
 	},
 	"binding_earth_mass": {
 		"name": "Binding Earth, Mass",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "binding_earth"
 	},
 	"mass_binding_earth": {
@@ -7109,7 +7069,6 @@
 	},
 	"bite_the_hand_mass": {
 		"name": "Bite the Hand, Mass",
-		"sources": [ "Pathfinder Society Field Guide" ],
 		"copyof": "bite_the_hand"
 	},
 	"mass_bite_the_hand": {
@@ -7299,7 +7258,6 @@
 	},
 	"grasping_tentacles": {
 		"name": "Grasping Tentacles",
-		"sources": [ "Dirty Tactics Toolbox" ],
 		"copyof": "black_tentacles"
 	},
 	"blacklight": {
@@ -7563,7 +7521,6 @@
 	},
 	"bladed_dash_greater": {
 		"name": "Bladed Dash, Greater",
-		"sources": [ "Inner Sea Magic" ],
 		"copyof": "bladed_dash"
 	},
 	"greater_bladed_dash": {
@@ -7786,7 +7743,6 @@
 	},
 	"die_for_your_master": {
 		"name": "Die for Your Master",
-		"sources": [ "Animal Archive" ],
 		"copyof": "bleed_for_your_master"
 	},
 	"bleed_glory": {

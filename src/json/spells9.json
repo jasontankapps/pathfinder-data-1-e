@@ -67,7 +67,6 @@
 	},
 	"shapechanger's_gift_greater": {
 		"name": "Shapechanger's Gift, Greater",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "shapechanger's_gift"
 	},
 	"greater_shapechanger's_gift": {
@@ -193,7 +192,6 @@
 	},
 	"share_language_communal": {
 		"name": "Share Language, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "share_language"
 	},
 	"communal_share_language": {
@@ -201,12 +199,10 @@
 	},
 	"compel_tongue": {
 		"name": "Compel Tongue",
-		"sources": [ "Black Markets" ],
 		"copyof": "share_language"
 	},
 	"compel_tongue_mass": {
 		"name": "Compel Tongue, Mass",
-		"sources": [ "Black Markets" ],
 		"copyof": "compel_tongue"
 	},
 	"mass_compel_tongue": {
@@ -305,7 +301,6 @@
 	},
 	"share_skin_greater": {
 		"name": "Share Skin, Greater",
-		"sources": [ "Blood of the Moon" ],
 		"copyof": "share_skin"
 	},
 	"greater_share_skin": {
@@ -500,11 +495,6 @@
 			"Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance."
 		]
 	},
-	"shield_companion_aa": {
-		"name": "Shield Companion (AA)",
-		"sources": [ "Animal Archive" ],
-		"copyof": "shield_other"
-	},
 	"shield_companion_acg": {
 		"name": "Shield Companion (ACG)",
 		"sources": [ "Advanced Class Guide" ],
@@ -633,7 +623,6 @@
 	},
 	"shield_of_fortification_greater": {
 		"name": "Shield of Fortification, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "shield_of_fortification"
 	},
 	"greater_shield_of_fortification": {
@@ -753,7 +742,6 @@
 	},
 	"shield_of_the_dawnflower_greater": {
 		"name": "Shield of the Dawnflower, Greater",
-		"sources": [ "Inner Sea Gods" ],
 		"copyof": "shield_of_the_dawnflower"
 	},
 	"greater_shield_of_the_dawnflower": {
@@ -838,6 +826,10 @@
 			"This spell functions as [shield other](spell/shield_other) but affects only the caster's animal companion or familiar. Spellcasters from classes that do not normally gain an animal companion, familiar, or fiendish servant but who gain one through an alternate class feature, archetype, or prestige class can prepare and cast this spell as a 1st-level spell if they are capable of casting spells."
 		]
 	},
+	"shield_companion_aa": {
+		"name": "Shield Companion (AA)",
+		"copyof": "shield_other"
+	},
 	"shield_speech": {
 		"name": "Shield Speech",
 		"sources": [ "Taldor, Echoes of Glory" ],
@@ -883,7 +875,6 @@
 	},
 	"shield_speech_greater": {
 		"name": "Shield Speech, Greater",
-		"sources": [ "Taldor, Echoes of Glory" ],
 		"copyof": "shield_speech"
 	},
 	"greater_shield_speech": {
@@ -1183,7 +1174,6 @@
 	},
 	"shout_greater": {
 		"name": "Shout, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "shout"
 	},
 	"greater_shout": {
@@ -1334,7 +1324,6 @@
 	},
 	"siege_of_trees_greater": {
 		"name": "Siege of Trees, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "siege_of_trees"
 	},
 	"greater_siege_of_trees": {
@@ -1705,7 +1694,6 @@
 	},
 	"simulacrum_lesser": {
 		"name": "Simulacrum, Lesser",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "simulacrum"
 	},
 	"lesser_simulacrum": {
@@ -2644,7 +2632,6 @@
 	},
 	"song_of_discord_greater": {
 		"name": "Song of Discord, Greater",
-		"sources": [ "Chronicle of Legends" ],
 		"copyof": "song_of_discord"
 	},
 	"greater_song_of_discord": {
@@ -3336,11 +3323,6 @@
 			"A soul contacted this way can speak normally in any language it knows. Unlike speak with dead and similar spells, you are not limited to asking questions and can engage in normal conversation with the soul (and vice versa). The soul isn't an undead creature and isn't compelled to speak or be truthful. Generally, the soul only knows what it knew in life, although souls that persisted with awareness of their surroundings after death may have more to offer."
 		]
 	},
-	"speak_with_waves": {
-		"name": "Speak with Waves",
-		"sources": [ "Elemental Master's Handbook" ],
-		"copyof": "stone_tell"
-	},
 	"spear_of_purity": {
 		"name": "Spear of Purity",
 		"sources": [ "Ultimate Magic" ],
@@ -3514,7 +3496,6 @@
 	},
 	"spell_absorption_greater": {
 		"name": "Spell Absorption, Greater",
-		"sources": [ "Inner Sea Magic" ],
 		"copyof": "spell_absorption"
 	},
 	"greater_spell_absorption": {
@@ -3635,7 +3616,6 @@
 	},
 	"spell_immunity_communal": {
 		"name": "Spell Immunity, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "spell_immunity"
 	},
 	"communal_spell_immunity": {
@@ -3643,7 +3623,6 @@
 	},
 	"spell_immunity_greater": {
 		"name": "Spell Immunity, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "spell_immunity"
 	},
 	"greater_spell_immunity": {
@@ -3651,7 +3630,6 @@
 	},
 	"spell_immunity_greater_communal": {
 		"name": "Spell Immunity, Greater Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "spell_immunity"
 	},
 	"greater_communal_spell_immunity": {
@@ -3739,12 +3717,10 @@
 	},
 	"spellcasting_contract": {
 		"name": "Spellcasting Contract",
-		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"copyof": "lesser_spellcasting_contract"
 	},
 	"spellcasting_contract_greater": {
 		"name": "Spellcasting Contract, Greater",
-		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"copyof": "lesser_spellcasting_contract"
 	},
 	"greater_spellcasting_contract": {
@@ -3825,12 +3801,10 @@
 	},
 	"spellcrash": {
 		"name": "Spellcrash",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "lesser_spellcrash"
 	},
 	"spellcrash_greater": {
 		"name": "Spellcrash, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "lesser_spellcrash"
 	},
 	"greater_spellcrash": {
@@ -4125,7 +4099,6 @@
 	},
 	"spider_climb_communal": {
 		"name": "Spider Climb, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "spider_climb"
 	},
 	"communal_spider_climb": {
@@ -4245,7 +4218,6 @@
 	},
 	"spindrift_spritz_mass": {
 		"name": "Spindrift Spritz, Mass",
-		"sources": [ "Elemental Master's Handbook" ],
 		"copyof": "spindrift_spritz"
 	},
 	"mass_spindrift_spritz": {
@@ -4298,7 +4270,6 @@
 	},
 	"spiral_descent": {
 		"name": "Spiral Descent",
-		"sources": [ "Inner Sea Temples" ],
 		"copyof": "spiral_ascent"
 	},
 	"spirit_bonds": {
@@ -5120,7 +5091,6 @@
 	},
 	"steal_years_greater": {
 		"name": "Steal Years, Greater",
-		"sources": [ "Blood of the Night" ],
 		"copyof": "steal_years"
 	},
 	"greater_steal_years": {
@@ -5441,6 +5411,10 @@
 			"This spell functions as stone tell but allows conversations only with a body of standing or flowing fresh water at least as large as you are. Flowing water can generally speak about events happening upstream but not events happening downstream."
 		]
 	},
+	"speak_with_waves": {
+		"name": "Speak with Waves",
+		"copyof": "stone_tell"
+	},
 	"stone_throwing": {
 		"name": "Stone Throwing",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -5567,7 +5541,6 @@
 	},
 	"stoneskin_communal": {
 		"name": "Stoneskin, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "stoneskin"
 	},
 	"communal_stoneskin": {
@@ -5575,7 +5548,6 @@
 	},
 	"clay_skin": {
 		"name": "Clay Skin",
-		"sources": [ "Potions and Poisons" ],
 		"copyof": "stoneskin"
 	},
 	"storm_of_blades": {
@@ -5974,7 +5946,6 @@
 	},
 	"stunning_barrier_greater": {
 		"name": "Stunning Barrier, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "stunning_barrier"
 	},
 	"greater_stunning_barrier": {
@@ -6199,7 +6170,6 @@
 	},
 	"suffocation_mass": {
 		"name": "Suffocation, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "suffocation"
 	},
 	"mass_suffocation": {
@@ -6207,7 +6177,6 @@
 	},
 	"suffocation_slow": {
 		"name": "Suffocation, Slow",
-		"sources": [ "Dark Markets - A Guide to Katapesh" ],
 		"copyof": "instant_suffocation"
 	},
 	"slow_suffocation": {
@@ -6310,7 +6279,6 @@
 	},
 	"suggestion_mass": {
 		"name": "Suggestion, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "suggestion"
 	},
 	"mass_suggestion": {
@@ -6318,12 +6286,10 @@
 	},
 	"contagious_suggestion": {
 		"name": "Contagious Suggestion",
-		"sources": [ "Blood of the Beast" ],
 		"copyof": "suggestion"
 	},
 	"triggered_suggestion": {
 		"name": "Triggered Suggestion",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "suggestion"
 	},
 	"summon_accuser": {
@@ -6422,7 +6388,6 @@
 	},
 	"summon_barghest_2": {
 		"name": "Summon Barghest II",
-		"sources": [ "Pathfinder Comics #10" ],
 		"copyof": "summon_barghest_1"
 	},
 	"summon_barghest_ii": {
@@ -6473,7 +6438,6 @@
 	},
 	"summon_cacodaemon_greater": {
 		"name": "Summon Cacodaemon, Greater",
-		"sources": [ "Book of the Damned - Volume 3: Horsemen of the Apocalypse" ],
 		"copyof": "summon_cacodaemon"
 	},
 	"greater_summon_cacodaemon": {
@@ -6684,12 +6648,10 @@
 	},
 	"summon_genie": {
 		"name": "Summon Genie",
-		"sources": [ "People of the Sands" ],
 		"copyof": "lesser_summon_genie"
 	},
 	"summon_genie_greater": {
 		"name": "Summon Genie, Greater",
-		"sources": [ "People of the Sands" ],
 		"copyof": "lesser_summon_genie"
 	},
 	"greater_summon_genie": {
@@ -6827,7 +6789,6 @@
 	},
 	"summon_giant_ally_2": {
 		"name": "Summon Giant Ally II",
-		"sources": [ "Inner Sea Races" ],
 		"copyof": "summon_giant_ally_1"
 	},
 	"summon_giant_ally_ii": {
@@ -6835,7 +6796,6 @@
 	},
 	"summon_giant_ally_3": {
 		"name": "Summon Giant Ally III",
-		"sources": [ "Inner Sea Races" ],
 		"copyof": "summon_giant_ally_1"
 	},
 	"summon_giant_ally_iii": {
@@ -6915,7 +6875,6 @@
 	},
 	"summon_kami": {
 		"name": "Summon Kami",
-		"sources": [ "Inner Sea Races" ],
 		"copyof": "summon_nature's_ally_1"
 	},
 	"summon_laborers": {
@@ -7837,7 +7796,6 @@
 	},
 	"rain_of_frogs": {
 		"name": "Rain of Frogs",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "summon_swarm"
 	},
 	"summon_thanadaemon": {
@@ -8176,7 +8134,6 @@
 	},
 	"sun's_disdain_mass": {
 		"name": "Sun's Disdain, Mass",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "sun's_disdain"
 	},
 	"mass_sun's_disdain": {

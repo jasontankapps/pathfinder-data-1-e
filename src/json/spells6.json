@@ -1287,7 +1287,6 @@
 	},
 	"knock_mass": {
 		"name": "Knock, Mass",
-		"sources": [ "Inner Sea Temples" ],
 		"copyof": "knock"
 	},
 	"mass_knock": {
@@ -1496,7 +1495,6 @@
 	},
 	"contingent_venom": {
 		"name": "Contingent Venom",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "languid_venom"
 	},
 	"lash_of_the_astradaemon": {
@@ -1570,7 +1568,6 @@
 	},
 	"last_azlanti's_defending_sword_mass": {
 		"name": "Last Azlanti's Defending Sword, Mass",
-		"sources": [ "Arcane Anthology" ],
 		"copyof": "last_azlanti's_defending_sword"
 	},
 	"mass_last_azlanti's_defending_sword": {
@@ -1793,7 +1790,6 @@
 	},
 	"lend_judgment_greater": {
 		"name": "Lend Judgment, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "lend_judgment"
 	},
 	"greater_lend_judgment": {
@@ -2056,7 +2052,6 @@
 	},
 	"life_conduit_greater": {
 		"name": "Life Conduit, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "life_conduit"
 	},
 	"greater_life_conduit": {
@@ -2064,7 +2059,6 @@
 	},
 	"life_conduit_improved": {
 		"name": "Life Conduit, Improved",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "life_conduit"
 	},
 	"improved_life_conduit": {
@@ -2115,7 +2109,6 @@
 	},
 	"unlife_current": {
 		"name": "Unlife Current",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "life_current"
 	},
 	"life_of_crime": {
@@ -2342,10 +2335,6 @@
 	},
 	"lighten_object_mass": {
 		"name": "Lighten Object, Mass",
-		"sources": [
-			"Inner Sea Gods",
-			"Faiths of Balance"
-		],
 		"copyof": "lighten_object"
 	},
 	"mass_lighten_object": {
@@ -3585,7 +3574,6 @@
 	},
 	"longstrider_greater": {
 		"name": "Longstrider, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "longstrider"
 	},
 	"greater_longstrider": {
@@ -3644,7 +3632,6 @@
 	},
 	"lost_locale": {
 		"name": "Lost Locale",
-		"sources": [ "Inner Sea Races" ],
 		"copyof": "lost_passage"
 	},
 	"lost_passage": {
@@ -4261,12 +4248,10 @@
 	},
 	"sympathetic_aura": {
 		"name": "Sympathetic Aura",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "magic_aura"
 	},
 	"magic_aura_greater": {
 		"name": "Magic Aura, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "magic_aura"
 	},
 	"greater_magic_aura": {
@@ -4496,7 +4481,6 @@
 	},
 	"magic_fang_greater": {
 		"name": "Magic Fang, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "magic_fang"
 	},
 	"greater_magic_fang": {
@@ -4507,6 +4491,7 @@
 		"sources": [
 			"PRPG Core Rulebook",
 			"Book of the Damned",
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
 			"Ultimate Magic"
 		],
 		"description": [
@@ -4584,15 +4569,10 @@
 	},
 	"parasitic_soul": {
 		"name": "Parasitic Soul",
-		"sources": [
-			"Book of the Damned",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
-		],
 		"copyof": "magic_jar"
 	},
 	"possess_object": {
 		"name": "Possess Object",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "magic_jar"
 	},
 	"magic_missile": {
@@ -4709,7 +4689,6 @@
 	},
 	"magic_siege_engine_greater": {
 		"name": "Magic Siege Engine, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "magic_siege_engine"
 	},
 	"greater_magic_siege_engine": {
@@ -4836,7 +4815,6 @@
 	},
 	"magic_weapon_greater": {
 		"name": "Magic Weapon, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "magic_weapon"
 	},
 	"greater_magic_weapon": {
@@ -4918,16 +4896,6 @@
 			"",
 			"You gain a +5 bonus on Bluff checks to tell lies and Diplomacy checks to make a request. You gain a +2 bonus on Intimidate checks and use the object's size to determine whether you gain a bonus or penalty on Intimidate checks for size."
 		]
-	},
-	"major_creation": {
-		"name": "Major Creation",
-		"sources": [ "PRPG Core Rulebook" ],
-		"copyof": "minor_creation"
-	},
-	"major_image": {
-		"name": "Major Image",
-		"sources": [ "PRPG Core Rulebook" ],
-		"copyof": "minor_image"
 	},
 	"major_phantom_object": {
 		"name": "Major Phantom Object",
@@ -5033,7 +5001,6 @@
 	},
 	"make_whole_greater": {
 		"name": "Make Whole, Greater",
-		"sources": [ "Technology Guide" ],
 		"copyof": "make_whole"
 	},
 	"greater_make_whole": {
@@ -5632,7 +5599,6 @@
 	},
 	"mask_dweomer_communal": {
 		"name": "Mask Dweomer, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "mask_dweomer"
 	},
 	"communal_mask_dweomer": {
@@ -6225,7 +6191,6 @@
 	},
 	"mental_barrier_2": {
 		"name": "Mental Barrier II",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mental_barrier_1"
 	},
 	"mental_barrier_ii": {
@@ -6233,7 +6198,6 @@
 	},
 	"mental_barrier_3": {
 		"name": "Mental Barrier III",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mental_barrier_1"
 	},
 	"mental_barrier_iii": {
@@ -6241,7 +6205,6 @@
 	},
 	"mental_barrier_4": {
 		"name": "Mental Barrier IV",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mental_barrier_1"
 	},
 	"mental_barrier_iv": {
@@ -6249,7 +6212,6 @@
 	},
 	"mental_barrier_5": {
 		"name": "Mental Barrier V",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mental_barrier_1"
 	},
 	"mental_barrier_v": {
@@ -6373,12 +6335,10 @@
 	},
 	"demanding_message": {
 		"name": "Demanding Message",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "message"
 	},
 	"demanding_message_mass": {
 		"name": "Demanding Message, Mass",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "message"
 	},
 	"mass_demanding_message": {
@@ -6661,7 +6621,6 @@
 	},
 	"mind_blank_communal": {
 		"name": "Mind Blank, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "mind_blank"
 	},
 	"communal_mind_blank": {
@@ -6820,7 +6779,6 @@
 	},
 	"mind_swap_major": {
 		"name": "Mind Swap, Major",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_swap"
 	},
 	"major_mind_swap": {
@@ -6950,7 +6908,6 @@
 	},
 	"mind_thrust_2": {
 		"name": "Mind Thrust II",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_thrust_1"
 	},
 	"mind_thrust_ii": {
@@ -6958,7 +6915,6 @@
 	},
 	"mind_thrust_3": {
 		"name": "Mind Thrust III",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_thrust_1"
 	},
 	"mind_thrust_iii": {
@@ -6966,7 +6922,6 @@
 	},
 	"mind_thrust_4": {
 		"name": "Mind Thrust IV",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_thrust_1"
 	},
 	"mind_thrust_iv": {
@@ -6974,7 +6929,6 @@
 	},
 	"mind_thrust_5": {
 		"name": "Mind Thrust V",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_thrust_1"
 	},
 	"mind_thrust_v": {
@@ -6982,7 +6936,6 @@
 	},
 	"mind_thrust_6": {
 		"name": "Mind Thrust VI",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "mind_thrust_1"
 	},
 	"mind_thrust_vi": {
@@ -7173,6 +7126,10 @@
 			"[^R]: Includes adamantine, alchemical silver, and mithral. You can't use major creation to create a cold iron item."
 		]
 	},
+	"major_creation": {
+		"name": "Major Creation",
+		"copyof": "minor_creation"
+	},
 	"minor_dream": {
 		"name": "Minor Dream",
 		"sources": [ "Advanced Race Guide" ],
@@ -7240,6 +7197,10 @@
 			"",
 			"The image disappears when struck by an opponent unless you cause the illusion to react appropriately."
 		]
+	},
+	"major_image": {
+		"name": "Major Image",
+		"copyof": "minor_image"
 	},
 	"minor_phantom_object": {
 		"name": "Minor Phantom Object",
@@ -7325,7 +7286,6 @@
 	},
 	"minor_reversion_mass": {
 		"name": "Minor Reversion, Mass",
-		"sources": [ "Plane-Hopper's Handbook" ],
 		"copyof": "minor_reversion"
 	},
 	"mass_minor_reversion": {
@@ -7333,7 +7293,6 @@
 	},
 	"greater_reversion": {
 		"name": "Greater Reversion",
-		"sources": [ "Plane-Hopper's Handbook" ],
 		"copyof": "minor_reversion"
 	},
 	"miracle": {

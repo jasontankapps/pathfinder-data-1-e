@@ -2316,6 +2316,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect evil](spell/detect_evil), light, [protection from evil](spell/protection_from_evil); **Cost** 1,000 gp"
 		]
 	},
+	"shining_wayfinder": {
+		"copyof": "wayfinder_shining"
+	},
 	"silver_nail": {
 		"name": "Silver Nail",
 		"sources": [ "Horror Adventures" ],

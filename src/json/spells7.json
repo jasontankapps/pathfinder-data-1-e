@@ -163,7 +163,6 @@
 	},
 	"monstrous_physique_2": {
 		"name": "Monstrous Physique II",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "monstrous_physique_1"
 	},
 	"monstrous_physique_ii": {
@@ -171,7 +170,6 @@
 	},
 	"monstrous_physique_3": {
 		"name": "Monstrous Physique III",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "monstrous_physique_1"
 	},
 	"monstrous_physique_iii": {
@@ -179,7 +177,6 @@
 	},
 	"monstrous_physique_4": {
 		"name": "Monstrous Physique IV",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "monstrous_physique_1"
 	},
 	"monstrous_physique_iv": {
@@ -355,7 +352,6 @@
 	},
 	"mount_communal": {
 		"name": "Mount, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "mount"
 	},
 	"communal_mount": {
@@ -634,7 +630,6 @@
 	},
 	"mydriatic_spontaneity_mass": {
 		"name": "Mydriatic Spontaneity, Mass",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "mydriatic_spontaneity"
 	},
 	"mass_mydriatic_spontaneity": {
@@ -734,7 +729,6 @@
 	},
 	"naga_shape_2": {
 		"name": "Naga Shape II",
-		"sources": [ "Blood of the Beast" ],
 		"copyof": "naga_shape_1"
 	},
 	"naga_shape_ii": {
@@ -742,7 +736,6 @@
 	},
 	"naga_shape_3": {
 		"name": "Naga Shape III",
-		"sources": [ "Blood of the Beast" ],
 		"copyof": "naga_shape_1"
 	},
 	"naga_shape_iii": {
@@ -806,7 +799,6 @@
 	},
 	"named_bullet_greater": {
 		"name": "Named Bullet, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "named_bullet"
 	},
 	"greater_named_bullet": {
@@ -960,7 +952,6 @@
 	},
 	"nature's_ravages_greater": {
 		"name": "Nature's Ravages, Greater",
-		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "nature's_ravages"
 	},
 	"greater_nature's_ravages": {
@@ -1211,16 +1202,10 @@
 	},
 	"neutralize_poison_greater": {
 		"name": "Neutralize Poison, Greater",
-		"sources": [ "Dirty Tactics Toolbox" ],
 		"copyof": "neutralize_poison"
 	},
 	"greater_neutralize_poison": {
 		"copyof": "neutralize_poison_greater"
-	},
-	"nex's_secret_workshop": {
-		"name": "Nex's Secret Workshop",
-		"sources": [ "Inner Sea Intrigue" ],
-		"copyof": "nondetection"
 	},
 	"night_blindness": {
 		"name": "Night Blindness",
@@ -1526,7 +1511,6 @@
 	},
 	"nondetection_communal": {
 		"name": "Nondetection, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "nondetection"
 	},
 	"communal_nondetection": {
@@ -1558,6 +1542,10 @@
 	},
 	"lesser_nondetection": {
 		"copyof": "nondetection_lesser"
+	},
+	"nex's_secret_workshop": {
+		"name": "Nex's Secret Workshop",
+		"copyof": "nondetection"
 	},
 	"numerological_evocation": {
 		"name": "Numerological Evocation",
@@ -1742,12 +1730,10 @@
 	},
 	"object_possession": {
 		"name": "Object Possession",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "lesser_object_possession"
 	},
 	"object_possession_greater": {
 		"name": "Object Possession, Greater",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "lesser_object_possession"
 	},
 	"greater_object_possession": {
@@ -2060,7 +2046,6 @@
 	},
 	"oneiric_horror_greater": {
 		"name": "Oneiric Horror, Greater",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "oneiric_horror"
 	},
 	"greater_oneiric_horror": {
@@ -2138,7 +2123,6 @@
 	},
 	"ooze_form_2": {
 		"name": "Ooze Form II",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "ooze_form_1"
 	},
 	"ooze_form_ii": {
@@ -2146,7 +2130,6 @@
 	},
 	"ooze_form_3": {
 		"name": "Ooze Form III",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "ooze_form_1"
 	},
 	"ooze_form_iii": {
@@ -2727,7 +2710,6 @@
 	},
 	"owl's_wisdom_mass": {
 		"name": "Owl's Wisdom, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "owl's_wisdom"
 	},
 	"mass_owl's_wisdom": {
@@ -2829,7 +2811,6 @@
 	},
 	"pain_strike_mass": {
 		"name": "Pain Strike, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "pain_strike"
 	},
 	"mass_pain_strike": {
@@ -2886,11 +2867,6 @@
 			"",
 			"If you use this spell against an effect that also targets you or includes you in its area, you suffer the effects for both yourself and the target you spared, potentially taking damage or suffering other consequences twice."
 		]
-	},
-	"pale_flame": {
-		"name": "Pale Flame",
-		"sources": [ "Heroes of the Darklands" ],
-		"copyof": "produce_flame"
 	},
 	"paragon_surge": {
 		"name": "Paragon Surge",
@@ -3061,7 +3037,6 @@
 	},
 	"passing_fancy_mass": {
 		"name": "Passing Fancy, Mass",
-		"sources": [ "Spymaster's Handbook" ],
 		"copyof": "passing_fancy"
 	},
 	"mass_passing_fancy": {
@@ -3136,7 +3111,6 @@
 	},
 	"path_of_glory_greater": {
 		"name": "Path of Glory, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "path_of_glory"
 	},
 	"greater_path_of_glory": {
@@ -3265,7 +3239,6 @@
 	},
 	"peacebond_greater": {
 		"name": "Peacebond, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "peacebond"
 	},
 	"greater_peacebond": {
@@ -3789,7 +3762,6 @@
 	},
 	"pesh_addiction_lesser": {
 		"name": "Pesh Addiction, Lesser",
-		"sources": [ "Dark Markets - A Guide to Katapesh" ],
 		"copyof": "pesh_addiction"
 	},
 	"lesser_pesh_addiction": {
@@ -4302,12 +4274,10 @@
 	},
 	"flame_steed": {
 		"name": "Flame Steed",
-		"sources": [ "Wilderness Origins" ],
 		"copyof": "phantom_steed"
 	},
 	"phantom_steed_communal": {
 		"name": "Phantom Steed, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "phantom_steed"
 	},
 	"communal_phantom_steed": {
@@ -4802,7 +4772,6 @@
 	},
 	"planar_adaptation_mass": {
 		"name": "Planar Adaptation, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "planar_adaptation"
 	},
 	"mass_planar_adaptation": {
@@ -4842,8 +4811,43 @@
 	},
 	"planar_ally": {
 		"name": "Planar Ally",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Adventurer's Guide",
+			"Arcane Anthology"
+		],
 		"description": [
+			"### Planar Ally, Lesser",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 320](source/prpg_core_rulebook)  ",
+			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)) [see text]; **Level** cleric 4, medium 3, oracle 4, psychic 4, shaman 4, warpriest 4",
+			"",
+			"#### Casting",
+			"",
+			"**Casting Time** 10 minutes  ",
+			"**Components** V, S, M (offerings worth 500 gp plus payment, see text), DF",
+			"",
+			"#### Effect",
+			"",
+			"**Range** close (25 ft. + 5 ft./2 levels)  ",
+			"**Effect** one called outsider of 6 HD or less  ",
+			"**Duration** instantaneous  ",
+			"**Saving Throw** none; **Spell Resistance** no",
+			"",
+			"By casting this spell, you request your deity to send you an outsider (of 6 HD or less) of the deity's choice. If you serve no particular deity, the spell is a general plea answered by a creature sharing your philosophical alignment. If you know an individual creature's name, you may request that individual by speaking the name during the spell (though you might get a different creature anyway).",
+			"",
+			"You may ask the creature to perform one task in exchange for a payment from you. Tasks might range from the simple to the complex. You must be able to communicate with the creature called in order to bargain for its services.",
+			"",
+			"The creature called requires a payment for its services. This payment can take a variety of forms, from donating gold or magic items to an allied temple, to a gift given directly to the creature, to some other action on your part that matches the creature's alignment and goals. Regardless, this payment must be made before the creature agrees to perform any services. The bargaining takes at least 1 round, so any actions by the creature begin in the round after it arrives.",
+			"",
+			"A task taking up to 1 minute per caster level requires a payment of 100 gp per HD of the creature called. For a task taking up to 1 hour per caster level, the creature requires a payment of 500 gp per HD. A long-term task, one requiring up to 1 day per caster level, requires a payment of 1,000 gp per HD.",
+			"",
+			"A non-hazardous task requires only half the indicated payment, while an especially hazardous task might require a greater gift. Few if any creatures will accept a task that seems suicidal (remember, a called creature actually dies when it is killed, unlike a summoned creature). However, if the task is strongly aligned with the creature's ethos, it may halve or even waive the payment.",
+			"",
+			"At the end of its task, or when the duration bargained for expires, the creature returns to its home plane (after reporting back to you, if appropriate and possible).",
+			"",
+			"*Note:* When you use a calling spell that calls an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",
+			"",
 			"## Planar Ally",
 			"",
 			"**Source** [PRPG Core Rulebook pg. 320](source/prpg_core_rulebook)  ",
@@ -4882,41 +4886,32 @@
 			"",
 			"This spell functions like lesser planar ally, except that you may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. The creatures agree to help you and request your return payment together.",
 			"",
-			"### Planar Ally, Lesser",
+			"### Planar Inquiry",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 320](source/prpg_core_rulebook)  ",
-			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)) [see text]; **Level** cleric 4, medium 3, oracle 4, psychic 4, shaman 4, warpriest 4",
+			"**Source** [Adventurer's Guide pg. 125](source/adventurer's_guide), [Arcane Anthology pg. 14](source/arcane_anthology)  ",
+			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)) [see text]; **Level** arcanist 3, cleric 3, druid 3, hunter 3, inquisitor 3, oracle 3, shaman 3, sorcerer 3, summoner 3, unchained summoner 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"#### Casting",
 			"",
 			"**Casting Time** 10 minutes  ",
-			"**Components** V, S, M (offerings worth 500 gp plus payment, see text), DF",
+			"**Components** V, S, M (offerings worth 100 gp per HD of the creature called)",
 			"",
 			"#### Effect",
 			"",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
-			"**Effect** one called outsider of 6 HD or less  ",
-			"**Duration** instantaneous  ",
+			"**Effect** one called outsider who answers questions  ",
+			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"By casting this spell, you request your deity to send you an outsider (of 6 HD or less) of the deity's choice. If you serve no particular deity, the spell is a general plea answered by a creature sharing your philosophical alignment. If you know an individual creature's name, you may request that individual by speaking the name during the spell (though you might get a different creature anyway).",
+			"Although he was hardly the first to turn to the Outer Planes for answers, Jatembe's dealings with outsiders in his pursuit of enlightenment are legendary, and the Magaambya credits the Old-Mage with the creation of this spell.",
 			"",
-			"You may ask the creature to perform one task in exchange for a payment from you. Tasks might range from the simple to the complex. You must be able to communicate with the creature called in order to bargain for its services.",
+			"This spell calls a creature from another plane to your precise location, functioning like *lesser planar ally* except as noted. When you call a creature using *planar inquiry,* the only task that you can ask of the creature is for it to answer questions or gather information regarding a specific topic (a person, a place, or a thing). After hearing your request, if the creature has an appropriate Knowledge skill, it can attempt a check to provide the information it has. If it lacks such a skill, the called creature leaves for 1d4 hours to gather this information. Upon its return, you roll 1d20 + your caster level, and use the result to determine what information the creature has gathered about the subject (as if using Diplomacy). The called creature stays for up to 10 minutes as it relays this information to you, after which it departs to its home plane. If the creature is attacked or damaged at any time during the spell's duration, the spell ends and the creature returns to the plane from which you summoned it.",
 			"",
-			"The creature called requires a payment for its services. This payment can take a variety of forms, from donating gold or magic items to an allied temple, to a gift given directly to the creature, to some other action on your part that matches the creature's alignment and goals. Regardless, this payment must be made before the creature agrees to perform any services. The bargaining takes at least 1 round, so any actions by the creature begin in the round after it arrives.",
-			"",
-			"A task taking up to 1 minute per caster level requires a payment of 100 gp per HD of the creature called. For a task taking up to 1 hour per caster level, the creature requires a payment of 500 gp per HD. A long-term task, one requiring up to 1 day per caster level, requires a payment of 1,000 gp per HD.",
-			"",
-			"A non-hazardous task requires only half the indicated payment, while an especially hazardous task might require a greater gift. Few if any creatures will accept a task that seems suicidal (remember, a called creature actually dies when it is killed, unlike a summoned creature). However, if the task is strongly aligned with the creature's ethos, it may halve or even waive the payment.",
-			"",
-			"At the end of its task, or when the duration bargained for expires, the creature returns to its home plane (after reporting back to you, if appropriate and possible).",
-			"",
-			"*Note:* When you use a calling spell that calls an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type."
+			"When you cast this spell, you can choose a specific kind of outsider to call, even calling an individual creature by name. The kind of outsider called doesn't alter the effects of the spell, but when you use planar inquiry to summon a creature with an alignment or elemental subtype, the spell gains that descriptor. You cannot call an outsider whose Hit Dice exceed your caster level (maximum 18 HD) and you cannot use this spell to contact a unique outsider (such as a deity's herald) or an outsider with mythic ranks."
 		]
 	},
 	"planar_ally_greater": {
 		"name": "Planar Ally, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_ally"
 	},
 	"greater_planar_ally": {
@@ -4924,7 +4919,6 @@
 	},
 	"planar_ally_lesser": {
 		"name": "Planar Ally, Lesser",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_ally"
 	},
 	"lesser_planar_ally": {
@@ -5004,7 +4998,6 @@
 	},
 	"planar_binding_greater": {
 		"name": "Planar Binding, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_binding"
 	},
 	"greater_planar_binding": {
@@ -5012,7 +5005,6 @@
 	},
 	"planar_binding_lesser": {
 		"name": "Planar Binding, Lesser",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "planar_binding"
 	},
 	"lesser_planar_binding": {
@@ -5020,10 +5012,6 @@
 	},
 	"planar_inquiry": {
 		"name": "Planar Inquiry",
-		"sources": [
-			"Adventurer's Guide",
-			"Arcane Anthology"
-		],
 		"copyof": "lesser_planar_ally"
 	},
 	"planar_orientation": {
@@ -5134,7 +5122,6 @@
 	},
 	"janni's_jaunt": {
 		"name": "Janni's Jaunt",
-		"sources": [ "Planes of Power" ],
 		"copyof": "plane_shift"
 	},
 	"planeslayer's_call": {
@@ -5234,10 +5221,6 @@
 	},
 	"planetary_adaptation_mass": {
 		"name": "Planetary Adaptation, Mass",
-		"sources": [
-			"People of the Stars",
-			"Distant Worlds"
-		],
 		"copyof": "planetary_adaptation"
 	},
 	"mass_planetary_adaptation": {
@@ -5377,7 +5360,6 @@
 	},
 	"plant_shape_2": {
 		"name": "Plant Shape II",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "plant_shape_1"
 	},
 	"plant_shape_ii": {
@@ -5385,7 +5367,6 @@
 	},
 	"plant_shape_3": {
 		"name": "Plant Shape III",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "plant_shape_1"
 	},
 	"plant_shape_iii": {
@@ -5867,7 +5848,6 @@
 	},
 	"positive_pulse_greater": {
 		"name": "Positive Pulse, Greater",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "positive_pulse"
 	},
 	"greater_positive_pulse": {
@@ -5951,7 +5931,6 @@
 	},
 	"possession_greater": {
 		"name": "Possession, Greater",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "possession"
 	},
 	"greater_possession": {
@@ -6605,6 +6584,10 @@
 			"This spell functions as per produce flame, except that the flames never glow brighter than dim light, including any fires started by this spell. These flames cast light only half the distance of a torch and cannot be seen from more than 100 feet away. The flames deal 2d6 points of fire damage + 1 point per caster level (maximum +5). Against plants, this damage increases to 2d6 points + 2 points per caster level (maximum +10)."
 		]
 	},
+	"pale_flame": {
+		"name": "Pale Flame",
+		"copyof": "produce_flame"
+	},
 	"profane_nimbus": {
 		"name": "Profane Nimbus",
 		"sources": [ "Horror Adventures" ],
@@ -6708,7 +6691,6 @@
 	},
 	"familiar_double": {
 		"name": "Familiar Double",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "project_image"
 	},
 	"project_weakness": {
@@ -6848,7 +6830,6 @@
 	},
 	"protection_from_arrows_communal": {
 		"name": "Protection from Arrows, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_arrows"
 	},
 	"communal_protection_from_arrows": {
@@ -6856,12 +6837,10 @@
 	},
 	"protection_from_chaos": {
 		"name": "Protection from Chaos",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "protection_from_evil"
 	},
 	"protection_from_chaos_communal": {
 		"name": "Protection from Chaos, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_chaos": {
@@ -6917,7 +6896,6 @@
 	},
 	"protection_from_energy_communal": {
 		"name": "Protection from Energy, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_energy"
 	},
 	"communal_protection_from_energy": {
@@ -7116,7 +7094,6 @@
 	},
 	"protection_from_evil_communal": {
 		"name": "Protection from Evil, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_evil": {
@@ -7124,12 +7101,10 @@
 	},
 	"protection_from_good": {
 		"name": "Protection from Good",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "protection_from_evil"
 	},
 	"protection_from_good_communal": {
 		"name": "Protection from Good, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_good": {
@@ -7137,12 +7112,10 @@
 	},
 	"protection_from_law": {
 		"name": "Protection from Law",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "protection_from_evil"
 	},
 	"protection_from_law_communal": {
 		"name": "Protection from Law, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "protection_from_evil"
 	},
 	"communal_protection_from_law": {
@@ -7527,7 +7500,6 @@
 	},
 	"psychic_crush_2": {
 		"name": "Psychic Crush II",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "psychic_crush_1"
 	},
 	"psychic_crush_ii": {
@@ -7535,7 +7507,6 @@
 	},
 	"psychic_crush_3": {
 		"name": "Psychic Crush III",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "psychic_crush_1"
 	},
 	"psychic_crush_iii": {
@@ -7543,7 +7514,6 @@
 	},
 	"psychic_crush_4": {
 		"name": "Psychic Crush IV",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "psychic_crush_1"
 	},
 	"psychic_crush_iv": {
@@ -7551,7 +7521,6 @@
 	},
 	"psychic_crush_5": {
 		"name": "Psychic Crush V",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "psychic_crush_1"
 	},
 	"psychic_crush_v": {

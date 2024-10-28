@@ -352,7 +352,7 @@
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 18,000 gp; **Weight** 3 lbs.",
 			"",
-			"This flag bears an image of a red rose on a silvery field. Made for the Scarlet Rose's standard-bearers, these flags offer protection to the wielder and inspiration to her allies. To grant any benefit, a banner of the Scarlet Rose must be held firmly in one hand by a woman. While held, it grants the bearer a +2 shield bonus to AC and a +4 luck bonus to her CMD. A banner of the Scarlet Rose counts as a heavy shield for the purpose of any feat or class feature that requires the user to be wielding a shield (such as Sisterhood Style- or Shield Wall).",
+			"This flag bears an image of a red rose on a silvery field. Made for the [Scarlet Rose's](rule/aff_scarred_ladies) standard-bearers, these flags offer protection to the wielder and inspiration to her allies. To grant any benefit, a banner of the Scarlet Rose must be held firmly in one hand by a woman. While held, it grants the bearer a +2 shield bonus to AC and a +4 luck bonus to her CMD. A banner of the Scarlet Rose counts as a heavy shield for the purpose of any feat or class feature that requires the user to be wielding a shield (such as Sisterhood Style- or Shield Wall).",
 			"",
 			"Whenever the banner's bearer uses a class ability that grants a competence bonus (such as the bard's inspire courage ability or the cavalier's lion's call order ability), the competence bonus granted to allies increases by 1. This benefit does not apply to spells that grant competence bonuses, nor does it stack with other item effects that increase competence bonuses.",
 			"",
@@ -591,6 +591,9 @@
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), darkness, darkvision; **Cost** 9,000 gp"
 		]
+	},
+	"ebon_wayfinder": {
+		"copyof": "wayfinder_ebon"
 	},
 	"woodlands'_ingress": {
 		"name": "Woodlands' Ingress",

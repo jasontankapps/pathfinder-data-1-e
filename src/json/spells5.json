@@ -240,7 +240,6 @@
 	},
 	"globe_of_invulnerability_lesser": {
 		"name": "Globe of Invulnerability, Lesser",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "globe_of_invulnerability"
 	},
 	"lesser_globe_of_invulnerability": {
@@ -396,7 +395,6 @@
 	},
 	"glyph_of_warding_greater": {
 		"name": "Glyph of Warding, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "glyph_of_warding"
 	},
 	"greater_glyph_of_warding": {
@@ -909,7 +907,6 @@
 	},
 	"grease_greater": {
 		"name": "Grease, Greater",
-		"sources": [ "Dirty Tactics Toolbox" ],
 		"copyof": "grease"
 	},
 	"greater_grease": {
@@ -1080,7 +1077,6 @@
 	},
 	"guardian_monument_greater": {
 		"name": "Guardian Monument, Greater",
-		"sources": [ "Arcane Anthology" ],
 		"copyof": "lesser_guardian_monument"
 	},
 	"greater_guardian_monument": {
@@ -1392,7 +1388,6 @@
 	},
 	"blast_of_wind": {
 		"name": "Blast of Wind",
-		"sources": [ "Elemental Master's Handbook" ],
 		"copyof": "gust_of_wind"
 	},
 	"gusting_sphere": {
@@ -1553,7 +1548,6 @@
 	},
 	"halfling_vengeance_mass": {
 		"name": "Halfling Vengeance, Mass",
-		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"copyof": "halfling_vengeance"
 	},
 	"mass_halfling_vengeance": {
@@ -1965,7 +1959,6 @@
 	},
 	"harrowing_greater": {
 		"name": "Harrowing, Greater",
-		"sources": [ "The Harrow Handbook" ],
 		"copyof": "harrowing"
 	},
 	"greater_harrowing": {
@@ -2296,7 +2289,6 @@
 	},
 	"heal_mass": {
 		"name": "Heal, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "heal"
 	},
 	"mass_heal": {
@@ -2947,7 +2939,6 @@
 	},
 	"heroic_fortune_mass": {
 		"name": "Heroic Fortune, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "heroic_fortune"
 	},
 	"mass_heroic_fortune": {
@@ -3078,11 +3069,21 @@
 	},
 	"heroism_greater": {
 		"name": "Heroism, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "heroism"
 	},
 	"greater_heroism": {
 		"copyof": "heroism_greater"
+	},
+	"hollow_heroism": {
+		"name": "Hollow Heroism",
+		"copyof": "heroism"
+	},
+	"hollow_heroism_greater": {
+		"name": "Hollow Heroism, Greater",
+		"copyof": "heroism"
+	},
+	"greater_hollow_heroism": {
+		"copyof": "hollow_heroism_greater"
 	},
 	"hero's_defiance": {
 		"name": "Hero's Defiance",
@@ -3156,7 +3157,6 @@
 	},
 	"hex_glyph_greater": {
 		"name": "Hex Glyph, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "hex_glyph"
 	},
 	"greater_hex_glyph": {
@@ -3497,7 +3497,6 @@
 	},
 	"hide_from_undead_greater": {
 		"name": "Hide from Undead, Greater",
-		"sources": [ "People of the Wastes" ],
 		"copyof": "hide_from_undead"
 	},
 	"greater_hide_from_undead": {
@@ -3644,7 +3643,6 @@
 	},
 	"hold_fey": {
 		"name": "Hold Fey",
-		"sources": [ "The First World, Realm of the Fey" ],
 		"copyof": "hold_person"
 	},
 	"hold_monster": {
@@ -3692,7 +3690,6 @@
 	},
 	"hold_monster_mass": {
 		"name": "Hold Monster, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "hold_monster"
 	},
 	"mass_hold_monster": {
@@ -3765,7 +3762,6 @@
 	},
 	"hold_person_mass": {
 		"name": "Hold Person, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "hold_person"
 	},
 	"mass_hold_person": {
@@ -3829,19 +3825,6 @@
 			"",
 			"All melee and natural attacks from the target deal damage as if the target were one size category smaller than it actually is. While the target is under the effects of this spell, weapons dropped by the target function normally for other creatures, while any melee weapons picked up by the target deal damage as if one size smaller. Ranged attacks and weapons are unaffected by this spell."
 		]
-	},
-	"hollow_heroism": {
-		"name": "Hollow Heroism",
-		"sources": [ "Ultimate Intrigue" ],
-		"copyof": "heroism"
-	},
-	"hollow_heroism_greater": {
-		"name": "Hollow Heroism, Greater",
-		"sources": [ "Ultimate Intrigue" ],
-		"copyof": "heroism"
-	},
-	"greater_hollow_heroism": {
-		"copyof": "hollow_heroism_greater"
 	},
 	"holy_aura": {
 		"name": "Holy Aura",
@@ -3950,7 +3933,6 @@
 	},
 	"unholy_ice_weapon": {
 		"name": "Unholy Ice Weapon",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "holy_ice_weapon"
 	},
 	"holy_javelin": {
@@ -4344,7 +4326,6 @@
 	},
 	"hostile_juxtaposition_greater": {
 		"name": "Hostile Juxtaposition, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "hostile_juxtaposition"
 	},
 	"greater_hostile_juxtaposition": {
@@ -4445,7 +4426,6 @@
 	},
 	"human_potential_mass": {
 		"name": "Human Potential, Mass",
-		"sources": [ "Arcane Anthology" ],
 		"copyof": "human_potential"
 	},
 	"mass_human_potential": {
@@ -4497,7 +4477,6 @@
 	},
 	"hunger_for_flesh_mass": {
 		"name": "Hunger for Flesh, Mass",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "hunger_for_flesh"
 	},
 	"mass_hunger_for_flesh": {
@@ -4966,7 +4945,6 @@
 	},
 	"hypnotism_greater": {
 		"name": "Hypnotism, Greater",
-		"sources": [ "Blood of the Beast" ],
 		"copyof": "hypnotism"
 	},
 	"greater_hypnotism": {
@@ -5212,7 +5190,6 @@
 	},
 	"icy_prison_mass": {
 		"name": "Icy Prison, Mass",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "icy_prison"
 	},
 	"mass_icy_prison": {
@@ -5304,7 +5281,6 @@
 	},
 	"id_insinuation_2": {
 		"name": "Id Insinuation II",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "id_insinuation_1"
 	},
 	"id_insinuation_ii": {
@@ -5312,7 +5288,6 @@
 	},
 	"id_insinuation_3": {
 		"name": "Id Insinuation III",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "id_insinuation_1"
 	},
 	"id_insinuation_iii": {
@@ -5320,7 +5295,6 @@
 	},
 	"id_insinuation_4": {
 		"name": "Id Insinuation IV",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "id_insinuation_1"
 	},
 	"id_insinuation_iv": {
@@ -5482,7 +5456,6 @@
 	},
 	"illusion_of_treachery_greater": {
 		"name": "Illusion of Treachery, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "illusion_of_treachery"
 	},
 	"greater_illusion_of_treachery": {
@@ -6261,12 +6234,6 @@
 	},
 	"infernal_healing_greater": {
 		"name": "Infernal Healing, Greater",
-		"sources": [
-			"Hell's Vengeance Player's Guide",
-			"Pathfinder #29: Mother of Flies",
-			"Gods and Magic",
-			"Inner Sea World Guide"
-		],
 		"copyof": "infernal_healing"
 	},
 	"greater_infernal_healing": {
@@ -6326,7 +6293,6 @@
 	},
 	"inflict_critical_wounds_mass": {
 		"name": "Inflict Critical Wounds, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_critical_wounds"
 	},
 	"mass_inflict_critical_wounds": {
@@ -6390,7 +6356,6 @@
 	},
 	"inflict_light_wounds_mass": {
 		"name": "Inflict Light Wounds, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_light_wounds"
 	},
 	"mass_inflict_light_wounds": {
@@ -6450,7 +6415,6 @@
 	},
 	"inflict_moderate_wounds_mass": {
 		"name": "Inflict Moderate Wounds, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_moderate_wounds"
 	},
 	"mass_inflict_moderate_wounds": {
@@ -6561,7 +6525,6 @@
 	},
 	"inflict_serious_wounds_mass": {
 		"name": "Inflict Serious Wounds, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "inflict_serious_wounds"
 	},
 	"mass_inflict_serious_wounds": {
@@ -6960,7 +6923,6 @@
 	},
 	"insect_spies_greater": {
 		"name": "Insect Spies, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "insect_spies"
 	},
 	"greater_insect_spies": {
@@ -7206,7 +7168,6 @@
 	},
 	"instant_summons_greater": {
 		"name": "Instant Summons, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "instant_summons"
 	},
 	"greater_instant_summons": {
@@ -7352,7 +7313,6 @@
 	},
 	"intellect_fortress_2": {
 		"name": "Intellect Fortress II",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "intellect_fortress_1"
 	},
 	"intellect_fortress_ii": {
@@ -7360,7 +7320,6 @@
 	},
 	"intellect_fortress_3": {
 		"name": "Intellect Fortress III",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "intellect_fortress_1"
 	},
 	"intellect_fortress_iii": {
@@ -7497,7 +7456,6 @@
 	},
 	"interrogation_greater": {
 		"name": "Interrogation, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "interrogation"
 	},
 	"greater_interrogation": {
@@ -7505,7 +7463,6 @@
 	},
 	"inveigle_monster": {
 		"name": "Inveigle Monster",
-		"sources": [ "Inner Sea Intrigue" ],
 		"copyof": "inveigle_person"
 	},
 	"inveigle_person": {
@@ -7623,7 +7580,6 @@
 	},
 	"invigorate_mass": {
 		"name": "Invigorate, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "invigorate"
 	},
 	"mass_invigorate": {
@@ -7845,7 +7801,6 @@
 	},
 	"invisibility_bubble_giant": {
 		"name": "Invisibility Bubble, Giant",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "invisibility_bubble"
 	},
 	"giant_invisibility_bubble": {
@@ -7853,7 +7808,6 @@
 	},
 	"invisibility_bubble_mass": {
 		"name": "Invisibility Bubble, Mass",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "invisibility_bubble"
 	},
 	"mass_invisibility_bubble": {
@@ -7912,7 +7866,6 @@
 	},
 	"invisibility_greater": {
 		"name": "Invisibility, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "invisibility"
 	},
 	"greater_invisibility": {
@@ -7920,7 +7873,6 @@
 	},
 	"invisibility_mass": {
 		"name": "Invisibility, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "invisibility"
 	},
 	"mass_invisibility": {

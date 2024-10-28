@@ -68,7 +68,6 @@
 	},
 	"absinthe_glass": {
 		"name": "Absinthe (glass)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "absinthe_bottle"
 	},
 	"accuracy_lozenge": {
@@ -363,23 +362,14 @@
 	},
 	"alchemical_pheromones_arousal": {
 		"name": "Alchemical pheromones (arousal)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Dirty Tactics Toolbox"
-		],
 		"copyof": "alchemical_pheromones_aggression"
 	},
 	"alchemical_pheromones_simple": {
 		"name": "Alchemical pheromones (simple)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "alchemical_pheromones_aggression"
 	},
 	"alchemical_pheromones_susceptibility": {
 		"name": "Alchemical pheromones (susceptibility)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Dirty Tactics Toolbox"
-		],
 		"copyof": "alchemical_pheromones_aggression"
 	},
 	"alchemical_preserves": {
@@ -533,10 +523,6 @@
 	},
 	"ale_mug": {
 		"name": "Ale (mug)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ale_gallon"
 	},
 	"alkali_salt": {
@@ -986,7 +972,6 @@
 	},
 	"applejack_mug": {
 		"name": "Applejack (mug)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "applejack_gallon"
 	},
 	"aquarium_ball": {
@@ -1014,7 +999,6 @@
 	},
 	"aquatic_harness_medium": {
 		"name": "Aquatic harness (medium)",
-		"sources": [ "Blood of the Sea" ],
 		"copyof": "aquatic_harness_large"
 	},
 	"aquatic_pinger": {
@@ -1234,11 +1218,6 @@
 	},
 	"tear-away_artisan's_outfit": {
 		"name": "Tear-away artisan's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "artisan's_outfit"
 	},
 	"tear_away_artisan's_outfit": {
@@ -1336,7 +1315,6 @@
 	},
 	"aurochs_common": {
 		"name": "Aurochs (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "aurochs_combat_trained"
 	},
 	"authoritative_vestments": {
@@ -1438,7 +1416,10 @@
 		"name": "Backpack (common)",
 		"sources": [
 			"Ultimate Equipment",
-			"PRPG Core Rulebook"
+			"Ultimate Wilderness",
+			"PRPG Core Rulebook",
+			"Adventurer's Armory",
+			"Advanced Player's Guide"
 		],
 		"description": [
 			"## Backpack",
@@ -1458,26 +1439,18 @@
 	},
 	"backpack_carrier": {
 		"name": "Backpack (carrier)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "backpack_common"
 	},
 	"backpack_hydration": {
 		"name": "Backpack (hydration)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "backpack_common"
 	},
 	"backpack_masterwork": {
 		"name": "Backpack (masterwork)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "backpack_common"
 	},
 	"backpack_weaponrack": {
 		"name": "Backpack (weaponrack)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "backpack_common"
 	},
 	"badger_plush": {
@@ -1563,7 +1536,6 @@
 	},
 	"ball_2_in": {
 		"name": "Ball (2 in.)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ball_ten_in"
 	},
 	"ball_two_in": {
@@ -1571,7 +1543,6 @@
 	},
 	"ball_5_in": {
 		"name": "Ball (5 in.)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ball_ten_in"
 	},
 	"ball_five_in": {
@@ -1803,10 +1774,6 @@
 	},
 	"bat_uskwood": {
 		"name": "Bat (uskwood)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "bat"
 	},
 	"bath_hot": {
@@ -1822,7 +1789,6 @@
 	},
 	"bath_cold": {
 		"name": "Bath (cold)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "bath_hot"
 	},
 	"bath_public": {
@@ -1855,25 +1821,25 @@
 			"**Source** [Adventurer's Armory 2 pg. 16](source/adventurer's_armory_2)  ",
 			"**Price** 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth); **Weight** 10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)",
 			"",
-			"An offset bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.",
+			"An **offset** bear trap is a specialized variety of a bear trap constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.",
 			"",
-			"A sawtooth bear trap has vicious jaws and tighter springs. Used primarily against humanoids or monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering by intelligent victims.",
+			"A **sawtooth** bear trap has vicious jaws and tighter springs. Used primarily against humanoids or monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering by intelligent victims.",
 			"",
-			"**Offset Bear Trap - CR 1/2**  ",
-			"**Type** mechanical; **Perception** DC 15; **Disable Device** DC 20  ",
-			"**Effects**  ",
-			"**Trigger** location; **Reset** manual  ",
-			"**Effect** Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check.  ",
-			"**Sawtooth Bear Trap - CR 5**  ",
-			"**Type** mechanical; **Perception** DC 25; **Disable Device** DC 25  ",
-			"**Effects**  ",
-			"**Trigger** location; **Reset** manual  ",
-			"**Effect** Atk +15 melee (3d6+9); serrated jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 25 Disable Device check, DC 28 Escape Artist check, or DC 32 Strength check."
+			">**Offset Bear Trap - CR 1/2**  ",
+			">**Type** mechanical; **Perception** DC 15; **Disable Device** DC 20  ",
+			">**Effects**  ",
+			">**Trigger** location; **Reset** manual  ",
+			">**Effect** Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist check, or DC 28 Strength check.",
+			">",
+			">**Sawtooth Bear Trap - CR 5**  ",
+			">**Type** mechanical; **Perception** DC 25; **Disable Device** DC 25  ",
+			">**Effects**  ",
+			">**Trigger** location; **Reset** manual  ",
+			">**Effect** Atk +15 melee (3d6+9); serrated jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 25 Disable Device check, DC 28 Escape Artist check, or DC 32 Strength check."
 		]
 	},
 	"bear_trap_sawtooth": {
 		"name": "Bear trap (sawtooth)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "bear_trap_offset"
 	},
 	"bear_trap": {
@@ -2182,7 +2148,6 @@
 	},
 	"bison_combat-trained": {
 		"name": "Bison (combat-trained)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "bison_common"
 	},
 	"bison_combat_trained": {
@@ -2246,32 +2211,26 @@
 	},
 	"flaming_sumac": {
 		"name": "Flaming sumac",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "black_cumin"
 	},
 	"golden_cardamom": {
 		"name": "Golden cardamom",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "black_cumin"
 	},
 	"striped_nutmeg": {
 		"name": "Striped nutmeg",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "black_cumin"
 	},
 	"sunrise_cinnamon": {
 		"name": "Sunrise cinnamon",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "black_cumin"
 	},
 	"tiger_cloves": {
 		"name": "Tiger cloves",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "black_cumin"
 	},
 	"violet_salt": {
 		"name": "Violet salt",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "black_cumin"
 	},
 	"black_fester_vial": {
@@ -2305,10 +2264,6 @@
 	},
 	"black_powder_keg": {
 		"name": "Black powder (keg)",
-		"sources": [
-			"Ultimate Combat",
-			"Inner Sea World Guide"
-		],
 		"copyof": "black_powder_dose"
 	},
 	"blackfingers_paste": {
@@ -2666,7 +2621,6 @@
 	},
 	"boar_combat-trained": {
 		"name": "Boar (combat-trained)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "boar_common"
 	},
 	"boar_combat_trained": {
@@ -2969,7 +2923,6 @@
 	},
 	"bounty_hunter's_kit_superior": {
 		"name": "Bounty hunter's kit (superior)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "bounty_hunter's_kit_common"
 	},
 	"bowling_set": {
@@ -3029,10 +2982,9 @@
 	},
 	"branding_iron_custom_shape": {
 		"name": "Branding iron (custom shape)",
-		"sources": [
-			"Adventurer's Guide",
-			"Path of the Hellknight"
-		],
+		"copyof": "branding_iron_common"
+	},
+	"branding_iron": {
 		"copyof": "branding_iron_common"
 	},
 	"brawler's_brew": {
@@ -3255,10 +3207,6 @@
 	},
 	"buoy_superior": {
 		"name": "Buoy (superior)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "buoy_common"
 	},
 	"buoyant_balloon": {
@@ -3301,11 +3249,6 @@
 	},
 	"tear-away_burglar's_outfit": {
 		"name": "Tear-away burglar's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Adventurer's Armory 2"
-		],
 		"copyof": "burglar's_outfit"
 	},
 	"tear_away_burglar's_outfit": {
@@ -3367,83 +3310,38 @@
 	},
 	"cage_tiny": {
 		"name": "Cage (tiny)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_small_or_medium": {
 		"name": "Cage (small or medium)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_large": {
 		"name": "Cage (large)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_huge": {
 		"name": "Cage (huge)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_diminutive_or_fine_aquatic": {
 		"name": "Cage (diminutive or fine, aquatic)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_tiny_aquatic": {
 		"name": "Cage (tiny, aquatic)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_small_or_medium_aquatic": {
 		"name": "Cage (small or medium, aquatic)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_large_aquatic": {
 		"name": "Cage (large, aquatic)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"cage_huge_aquatic": {
 		"name": "Cage (huge, aquatic)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "cage_diminutive_or_fine"
 	},
 	"calistria's_kindness": {
@@ -3691,12 +3589,10 @@
 	},
 	"cane_elegant": {
 		"name": "Cane (elegant)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "cane_common"
 	},
 	"cane_simple": {
 		"name": "Cane (simple)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "cane_common"
 	},
 	"cane_hollow_common": {
@@ -3716,7 +3612,6 @@
 	},
 	"cane_hollow_simple": {
 		"name": "Cane, hollow (simple)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "cane_hollow_common"
 	},
 	"hollow_simple_cane": {
@@ -3724,7 +3619,6 @@
 	},
 	"cane_hollow_elegant": {
 		"name": "Cane, hollow (elegant)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "cane_hollow_common"
 	},
 	"hollow_elegant_cane": {
@@ -3867,10 +3761,6 @@
 	},
 	"carriage_travel_per_mile": {
 		"name": "Carriage (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "carriage"
 	},
 	"carrion_bait": {
@@ -3907,10 +3797,6 @@
 	},
 	"cart_travel_per_mile": {
 		"name": "Cart (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "cart"
 	},
 	"casting_plaster": {
@@ -3947,10 +3833,6 @@
 	},
 	"cat_osirian_wise-eye": {
 		"name": "Cat (osirian wise-eye)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "cat_common"
 	},
 	"cat_osirian_wise_eye": {
@@ -4018,7 +3900,10 @@
 	},
 	"cauldron_mithral": {
 		"name": "Cauldron (mithral)",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Advanced Player's Guide"
+		],
 		"description": [
 			"## Cauldron",
 			"**Source** [Ultimate Equipment pg. 56](source/ultimate_equipment)  ",
@@ -4029,10 +3914,6 @@
 	},
 	"cauldron": {
 		"name": "Cauldron",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "cauldron_mithral"
 	},
 	"cavalier's_kit": {
@@ -4309,22 +4190,18 @@
 	},
 	"chariot_light_travel_per_mile": {
 		"name": "Chariot (light) (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
 	},
 	"chariot_light": {
 		"name": "Chariot (light)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
 	},
 	"chariot_medium_travel_per_mile": {
 		"name": "Chariot (medium) (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
 	},
 	"chariot_medium": {
 		"name": "Chariot (medium)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "chariot_heavy"
 	},
 	"chausses": {
@@ -4394,8 +4271,9 @@
 		"name": "Chest (huge)",
 		"sources": [
 			"Ultimate Equipment",
+			"Advanced Player's Guide",
 			"Adventurer's Armory",
-			"Advanced Player's Guide"
+			"PRPG Core Rulebook"
 		],
 		"description": [
 			"## Chest",
@@ -4407,30 +4285,14 @@
 	},
 	"chest_large": {
 		"name": "Chest (large)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "chest_huge"
 	},
 	"chest_medium": {
 		"name": "Chest (medium)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "chest_huge"
 	},
 	"chest_small": {
 		"name": "Chest (small)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "chest_huge"
 	},
 	"chicken": {
@@ -4740,7 +4602,6 @@
 	},
 	"coach_cab_travel_per_mile": {
 		"name": "Coach cab (travel, per mile)",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "coach_cab"
 	},
 	"cobbled_item": {
@@ -4813,11 +4674,6 @@
 	},
 	"coffin_ornate": {
 		"name": "Coffin (ornate)",
-		"sources": [
-			"Ultimate Equipment",
-			"Pathfinder Campaign Setting",
-			"Adventurer's Armory"
-		],
 		"copyof": "coffin_common"
 	},
 	"cold-weather_outfit": {
@@ -4849,12 +4705,6 @@
 	},
 	"tear-away_cold-weather_outfit": {
 		"name": "Tear-away cold-weather outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Pathfinder #51: The Hungry Storm",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "cold_weather_outfit"
 	},
 	"tear_away_cold_weather_outfit": {
@@ -4936,7 +4786,6 @@
 	},
 	"commissioned_broadsheet_print_run_500_broadsheets": {
 		"name": "Commissioned broadsheet (print run (500 broadsheets))",
-		"sources": [ "Merchant's Manifest" ],
 		"copyof": "commissioned_broadsheet_setup_and_proof_print"
 	},
 	"commissioned_broadsheet_print_run_five_hundred_broadsheets": {
@@ -5265,11 +5114,6 @@
 	},
 	"tear-away_courtesan's_outfit": {
 		"name": "Tear-away courtesan's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Adventurer's Armory 2"
-		],
 		"copyof": "courtesan's_outfit"
 	},
 	"tear_away_courtesan's_outfit": {
@@ -5300,11 +5144,6 @@
 	},
 	"tear-away_courtier's_outfit": {
 		"name": "Tear-away courtier's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "courtier's_outfit"
 	},
 	"tear_away_courtier's_outfit": {
@@ -5423,7 +5262,6 @@
 	},
 	"crusader's_cross_masterwork": {
 		"name": "Crusader's cross (masterwork)",
-		"sources": [ "Demon Hunter's Handbook" ],
 		"copyof": "crusader's_cross_standard"
 	},
 	"crutch": {
@@ -5699,28 +5537,28 @@
 			"",
 			"A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes-the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC. Instead of a Disable Device DC, decoy triggers have a Sense Motive DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.",
 			"",
-			"**Decoy Pressure Switch**  ",
-			"**Type** mechanical; **Perception** DC 12; **Sense Motive** DC 24  ",
-			"**Effects**  ",
-			"**Trap Perception** DC +6, CR Modifier: +2  ",
-			"**Decoy Trap Door**  ",
-			"**Type** mechanical; **Perception** DC 10; **Sense Motive** DC 28  ",
-			"**Effects**  ",
-			"**Trap Perception** DC +9, CR Modifier: +3  ",
-			"**Decoy Tripwire**  ",
-			"**Type** mechanical; **Perception** DC 15; **Sense Motive** DC 20  ",
-			"**Effects**  ",
-			"**Trap Perception** DC +3, CR Modifier: +1"
+			">**Decoy Pressure Switch**  ",
+			">**Type** mechanical; **Perception** DC 12; **Sense Motive** DC 24  ",
+			">**Effects**  ",
+			">**Trap Perception** DC +6, CR Modifier: +2",
+			">",
+			">**Decoy Trap Door**  ",
+			">**Type** mechanical; **Perception** DC 10; **Sense Motive** DC 28  ",
+			">**Effects**  ",
+			">**Trap Perception** DC +9, CR Modifier: +3",
+			">",
+			">**Decoy Tripwire**  ",
+			">**Type** mechanical; **Perception** DC 15; **Sense Motive** DC 20  ",
+			">**Effects**  ",
+			">**Trap Perception** DC +3, CR Modifier: +1"
 		]
 	},
 	"decoy_trigger_decoy_trap_door": {
 		"name": "Decoy trigger (decoy trap door)",
-		"sources": [ "Kobolds of Golarion" ],
 		"copyof": "decoy_trigger_decoy_pressure_switch"
 	},
 	"decoy_trigger_decoy_tripwire": {
 		"name": "Decoy trigger (decoy tripwire)",
-		"sources": [ "Kobolds of Golarion" ],
 		"copyof": "decoy_trigger_decoy_pressure_switch"
 	},
 	"deep_breath": {
@@ -5840,11 +5678,6 @@
 	},
 	"tear-away_dilettante's_outfit": {
 		"name": "Tear-away dilettante's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Race Guide"
-		],
 		"copyof": "dilettante's_outfit"
 	},
 	"tear_away_dilettante's_outfit": {
@@ -5888,7 +5721,11 @@
 	},
 	"dire_bat_common": {
 		"name": "Dire bat (common)",
-		"sources": [ "Animal Archive" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Advanced Race Guide",
+			"Animal Archive"
+		],
 		"description": [
 			"## Dire bat",
 			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
@@ -5899,18 +5736,10 @@
 	},
 	"dire_bat_riding": {
 		"name": "Dire bat (riding)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Race Guide"
-		],
 		"copyof": "dire_bat_common"
 	},
 	"dire_bat_riding_combat_trained": {
 		"name": "Dire bat (riding, combat trained)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Race Guide"
-		],
 		"copyof": "dire_bat_common"
 	},
 	"dire_bear": {
@@ -6164,11 +5993,6 @@
 	},
 	"tear-away_doctor's_outfit": {
 		"name": "Tear-away doctor's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Pathfinder #8: Seven Days to the Grave"
-		],
 		"copyof": "doctor's_outfit"
 	},
 	"tear_away_doctor's_outfit": {
@@ -6224,20 +6048,10 @@
 	},
 	"dog_lap": {
 		"name": "Dog (lap)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "dog_guard"
 	},
 	"dog_riding": {
 		"name": "Dog (riding)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "dog_guard"
 	},
 	"dog_sled": {
@@ -6259,12 +6073,6 @@
 	},
 	"dog_sled_travel_per_mile": {
 		"name": "Dog sled (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide",
-			"Pathfinder #51: The Hungry Storm"
-		],
 		"copyof": "dog_sled"
 	},
 	"dolphin": {
@@ -6590,10 +6398,6 @@
 	},
 	"dungeoneering_kit_deluxe": {
 		"name": "Dungeoneering kit (deluxe)",
-		"sources": [
-			"Ultimate Equipment",
-			"Pathfinder Society Field Guide"
-		],
 		"copyof": "dungeoneering_kit_common"
 	},
 	"duo_saw": {
@@ -6699,7 +6503,6 @@
 	},
 	"ear_trumpet_masterwork": {
 		"name": "Ear trumpet (masterwork)",
-		"sources": [ "Ranged Tactics Toolbox" ],
 		"copyof": "ear_trumpet_common"
 	},
 	"ear_trumpet": {
@@ -6882,7 +6685,6 @@
 	},
 	"elk_common": {
 		"name": "Elk (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "elk_combat_trained"
 	},
 	"elven_prosthetics": {
@@ -7009,11 +6811,6 @@
 	},
 	"tear-away_entertainer's_outfit": {
 		"name": "Tear-away entertainer's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "entertainer's_outfit"
 	},
 	"tear_away_entertainer's_outfit": {
@@ -7086,11 +6883,6 @@
 	},
 	"tear-away_executioner's_outfit": {
 		"name": "Tear-away executioner's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Adventurer's Armory 2"
-		],
 		"copyof": "executioner's_outfit"
 	},
 	"tear_away_executioner's_outfit": {
@@ -7160,11 +6952,6 @@
 	},
 	"tear-away_explorer's_outfit": {
 		"name": "Tear-away explorer's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "explorer's_outfit"
 	},
 	"tear_away_explorer's_outfit": {
@@ -7307,12 +7094,10 @@
 	},
 	"false_teeth_common": {
 		"name": "False teeth (common)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "false_teeth_clockwork"
 	},
 	"false_teeth_masterwork": {
 		"name": "False teeth (masterwork)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "false_teeth_clockwork"
 	},
 	"false-bottomed_chest": {

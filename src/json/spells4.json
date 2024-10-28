@@ -72,7 +72,6 @@
 	},
 	"eldritch_conduit_greater": {
 		"name": "Eldritch Conduit, Greater",
-		"sources": [ "Inner Sea Magic" ],
 		"copyof": "eldritch_conduit"
 	},
 	"greater_eldritch_conduit": {
@@ -309,7 +308,6 @@
 	},
 	"elemental_body_2": {
 		"name": "Elemental Body II",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "elemental_body_1"
 	},
 	"elemental_body_ii": {
@@ -317,7 +315,6 @@
 	},
 	"elemental_body_3": {
 		"name": "Elemental Body III",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "elemental_body_1"
 	},
 	"elemental_body_iii": {
@@ -325,7 +322,6 @@
 	},
 	"elemental_body_4": {
 		"name": "Elemental Body IV",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "elemental_body_1"
 	},
 	"elemental_body_iv": {
@@ -837,7 +833,6 @@
 	},
 	"endure_elements_communal": {
 		"name": "Endure Elements, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "endure_elements"
 	},
 	"communal_endure_elements": {
@@ -1051,7 +1046,6 @@
 	},
 	"energy_siege_shot_greater": {
 		"name": "Energy Siege Shot, Greater",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "energy_siege_shot"
 	},
 	"greater_energy_siege_shot": {
@@ -1215,7 +1209,6 @@
 	},
 	"enlarge_person_mass": {
 		"name": "Enlarge Person, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "enlarge_person"
 	},
 	"mass_enlarge_person": {
@@ -1408,22 +1401,18 @@
 	},
 	"burning_entanglement": {
 		"name": "Burning Entanglement",
-		"sources": [ "Villain Codex" ],
 		"copyof": "entangle"
 	},
 	"sickening_entanglement": {
 		"name": "Sickening Entanglement",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "entangle"
 	},
 	"thirsting_entanglement": {
 		"name": "Thirsting Entanglement",
-		"sources": [ "Legacy of the First World" ],
 		"copyof": "entangle"
 	},
 	"thorny_entanglement": {
 		"name": "Thorny Entanglement",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "entangle"
 	},
 	"enter_image": {
@@ -1490,12 +1479,10 @@
 	},
 	"entice_fey": {
 		"name": "Entice Fey",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "lesser_entice_fey"
 	},
 	"entice_fey_greater": {
 		"name": "Entice Fey, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "lesser_entice_fey"
 	},
 	"greater_entice_fey": {
@@ -2133,12 +2120,10 @@
 	},
 	"evolution_surge": {
 		"name": "Evolution Surge",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_evolution_surge"
 	},
 	"evolution_surge_greater": {
 		"name": "Evolution Surge, Greater",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_evolution_surge"
 	},
 	"greater_evolution_surge": {
@@ -3034,7 +3019,6 @@
 	},
 	"false_life_greater": {
 		"name": "False Life, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "false_life"
 	},
 	"greater_false_life": {
@@ -3092,7 +3076,6 @@
 	},
 	"false_vision_greater": {
 		"name": "False Vision, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "false_vision"
 	},
 	"greater_false_vision": {
@@ -3400,7 +3383,6 @@
 	},
 	"feather_step_mass": {
 		"name": "Feather Step, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "feather_step"
 	},
 	"mass_feather_step": {
@@ -3499,7 +3481,6 @@
 	},
 	"fester_mass": {
 		"name": "Fester, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "fester"
 	},
 	"mass_fester": {
@@ -3601,7 +3582,6 @@
 	},
 	"fey_form_2": {
 		"name": "Fey Form II",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "fey_form_1"
 	},
 	"fey_form_ii": {
@@ -3609,7 +3589,6 @@
 	},
 	"fey_form_3": {
 		"name": "Fey Form III",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "fey_form_1"
 	},
 	"fey_form_iii": {
@@ -3617,19 +3596,10 @@
 	},
 	"fey_form_4": {
 		"name": "Fey Form IV",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "fey_form_1"
 	},
 	"fey_form_iv": {
 		"copyof": "fey_form_4"
-	},
-	"fey_gate": {
-		"name": "Fey Gate",
-		"sources": [
-			"Ultimate Wilderness",
-			"The First World, Realm of the Fey"
-		],
-		"copyof": "gate"
 	},
 	"fickle_winds": {
 		"name": "Fickle Winds",
@@ -4351,7 +4321,6 @@
 	},
 	"controlled_fireball": {
 		"name": "Controlled Fireball",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "fireball"
 	},
 	"firebelly": {
@@ -4741,7 +4710,6 @@
 	},
 	"flaming_sphere_greater": {
 		"name": "Flaming Sphere, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "flaming_sphere"
 	},
 	"greater_flaming_sphere": {
@@ -4795,7 +4763,6 @@
 	},
 	"flare_burst": {
 		"name": "Flare Burst",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "flare"
 	},
 	"flash_fire": {
@@ -4969,7 +4936,6 @@
 	},
 	"fleeting_memory_mass": {
 		"name": "Fleeting Memory, Mass",
-		"sources": [ "Black Markets" ],
 		"copyof": "fleeting_memory"
 	},
 	"mass_fleeting_memory": {
@@ -5031,7 +4997,6 @@
 	},
 	"flesh_puppet_horde": {
 		"name": "Flesh Puppet Horde",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "flesh_puppet"
 	},
 	"flesh_to_ooze": {
@@ -5480,7 +5445,6 @@
 	},
 	"fly_mass": {
 		"name": "Fly, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "fly"
 	},
 	"mass_fly": {
@@ -5596,7 +5560,6 @@
 	},
 	"poisonous_cloud": {
 		"name": "Poisonous Cloud",
-		"sources": [ "Potions and Poisons" ],
 		"copyof": "fog_cloud"
 	},
 	"follow_aura": {
@@ -5803,7 +5766,6 @@
 	},
 	"forbid_action_greater": {
 		"name": "Forbid Action, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "forbid_action"
 	},
 	"greater_forbid_action": {
@@ -6331,7 +6293,6 @@
 	},
 	"form_of_the_alien_dragon_2": {
 		"name": "Form of the Alien Dragon II",
-		"sources": [ "Legacy of Dragons" ],
 		"copyof": "form_of_the_alien_dragon_1"
 	},
 	"form_of_the_alien_dragon_ii": {
@@ -6339,7 +6300,6 @@
 	},
 	"form_of_the_alien_dragon_3": {
 		"name": "Form of the Alien Dragon III",
-		"sources": [ "Legacy of Dragons" ],
 		"copyof": "form_of_the_alien_dragon_1"
 	},
 	"form_of_the_alien_dragon_iii": {
@@ -6465,7 +6425,6 @@
 	},
 	"form_of_the_dragon_2": {
 		"name": "Form of the Dragon II",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "form_of_the_dragon_1"
 	},
 	"form_of_the_dragon_ii": {
@@ -6473,7 +6432,6 @@
 	},
 	"form_of_the_dragon_3": {
 		"name": "Form of the Dragon III",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "form_of_the_dragon_1"
 	},
 	"form_of_the_dragon_iii": {
@@ -6566,7 +6524,6 @@
 	},
 	"form_of_the_exotic_dragon_2": {
 		"name": "Form of the Exotic Dragon II",
-		"sources": [ "Legacy of Dragons" ],
 		"copyof": "form_of_the_exotic_dragon_1"
 	},
 	"form_of_the_exotic_dragon_ii": {
@@ -6574,7 +6531,6 @@
 	},
 	"form_of_the_exotic_dragon_3": {
 		"name": "Form of the Exotic Dragon III",
-		"sources": [ "Legacy of Dragons" ],
 		"copyof": "form_of_the_exotic_dragon_1"
 	},
 	"form_of_the_exotic_dragon_iii": {
@@ -6682,7 +6638,6 @@
 	},
 	"fox's_cunning_mass": {
 		"name": "Fox's Cunning, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "fox's_cunning"
 	},
 	"mass_fox's_cunning": {
@@ -7404,7 +7359,8 @@
 		"name": "Gate",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Wilderness"
+			"Ultimate Wilderness",
+			"The First World, Realm of the Fey"
 		],
 		"description": [
 			"## Gate",
@@ -7469,6 +7425,10 @@
 			"While the spell always deposits travelers on solid ground in the First World, it conveys no protections against whatever creatures or environmental hazards may be present there."
 		]
 	},
+	"fey_gate": {
+		"name": "Fey Gate",
+		"copyof": "gate"
+	},
 	"geas_lesser": {
 		"name": "Geas, Lesser",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -7529,7 +7489,6 @@
 	"lesser_geas": { "copyof": "geas_lesser" },
 	"geas_quest": {
 		"name": "Geas/Quest",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "lesser_geas"
 	},
 	"geas": { "copyof": "geas_quest" },
@@ -7934,7 +7893,6 @@
 	},
 	"ghostbane_dirge_mass": {
 		"name": "Ghostbane Dirge, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ghostbane_dirge"
 	},
 	"mass_ghostbane_dirge": {
@@ -8064,7 +8022,6 @@
 	},
 	"giant_form_2": {
 		"name": "Giant Form II",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "giant_form_1"
 	},
 	"giant_form_ii": {

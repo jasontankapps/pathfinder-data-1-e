@@ -27,7 +27,6 @@
 	},
 	"fetters_masterwork": {
 		"name": "Fetters (masterwork)",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "fetters_common"
 	},
 	"field_survival_guide": {
@@ -335,7 +334,6 @@
 	},
 	"flag_ensign_or_courtesy_small": {
 		"name": "Flag (ensign or courtesy, small)",
-		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
 	"small_flag_ensign_or_courtesy": {
@@ -343,7 +341,6 @@
 	},
 	"flag_personal_signal_large": {
 		"name": "Flag (personal signal, large)",
-		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
 	"large_flag_personal_signal": {
@@ -351,7 +348,6 @@
 	},
 	"flag_personal_signal_small": {
 		"name": "Flag (personal signal, small)",
-		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
 	"small_flag_personal_signal": {
@@ -461,7 +457,6 @@
 	},
 	"fleshgem_spikes": {
 		"name": "Fleshgem (spikes)",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "fleshgem_decorative"
 	},
 	"flight_grapnel": {
@@ -516,7 +511,6 @@
 	},
 	"flying_straps_standard": {
 		"name": "Flying straps (standard)",
-		"sources": [ "Monster Codex" ],
 		"copyof": "flying_straps_masterwork"
 	},
 	"foaming_powder": {
@@ -763,10 +757,6 @@
 	},
 	"fortune-teller's_deck_masterwork": {
 		"name": "Fortune-teller's deck (masterwork)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "fortune_teller's_deck_common"
 	},
 	"fortune_teller's_deck_masterwork": {
@@ -774,10 +764,6 @@
 	},
 	"fortune-teller's_deck_quality": {
 		"name": "Fortune-teller's deck (quality)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "fortune_teller's_deck_common"
 	},
 	"fortune_teller's_deck_quality": {
@@ -970,10 +956,6 @@
 	},
 	"galley_travel_per_mile": {
 		"name": "Galley (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "galley"
 	},
 	"gambeson": {
@@ -1001,7 +983,6 @@
 	},
 	"gambler's_kit_common": {
 		"name": "Gambler's kit (common)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "gambler's_kit_cheating"
 	},
 	"gar": {
@@ -1099,10 +1080,6 @@
 	},
 	"gecko_riding_combat_trained": {
 		"name": "Gecko (riding, combat trained)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Race Guide"
-		],
 		"copyof": "gecko_riding"
 	},
 	"gecko_gloves": {
@@ -1174,7 +1151,6 @@
 	},
 	"giant_chameleon_common": {
 		"name": "Giant chameleon (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "giant_chameleon_combat_trained"
 	},
 	"giant_frilled_lizard_combat-trained": {
@@ -1192,7 +1168,6 @@
 	},
 	"giant_frilled_lizard_common": {
 		"name": "Giant frilled lizard (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "giant_frilled_lizard_combat_trained"
 	},
 	"giant_frog": {
@@ -1234,7 +1209,6 @@
 	},
 	"giant_gecko_common": {
 		"name": "Giant gecko (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "giant_gecko_combat_trained"
 	},
 	"giant_lair_infiltrator's_kit": {
@@ -1289,7 +1263,6 @@
 	},
 	"giant_owl_common": {
 		"name": "Giant owl (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "giant_owl_combat_trained"
 	},
 	"giant_seahorse_combat_trained": {
@@ -1305,7 +1278,6 @@
 	},
 	"giant_seahorse_normal": {
 		"name": "Giant seahorse (normal)",
-		"sources": [ "Blood of the Sea" ],
 		"copyof": "giant_seahorse_combat_trained"
 	},
 	"giant_skunk": {
@@ -1371,7 +1343,6 @@
 	},
 	"giant_vulture_common": {
 		"name": "Giant vulture (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "giant_vulture_combat_trained"
 	},
 	"gildea_myrrh": {
@@ -1511,7 +1482,6 @@
 	},
 	"goblin_dog_common": {
 		"name": "Goblin dog (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "goblin_dog_combat_trained"
 	},
 	"goblin_fishing_lure": {
@@ -1609,7 +1579,6 @@
 	},
 	"grappling_hook_mithral": {
 		"name": "Grappling hook (mithral)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "grappling_hook_common"
 	},
 	"gravedigger's_kit": {
@@ -1701,7 +1670,11 @@
 	},
 	"grog_cup": {
 		"name": "Grog (cup)",
-		"sources": [ "Pirates of the Inner Sea" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Adventurer's Armory",
+			"Pirates of the Inner Sea"
+		],
 		"description": [
 			"## Grog",
 			"**Source** [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea)  ",
@@ -1712,15 +1685,10 @@
 	},
 	"grog_gallon": {
 		"name": "Grog (gallon)",
-		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "grog_cup"
 	},
 	"grog_mug": {
 		"name": "Grog (mug)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "grog_cup"
 	},
 	"grooming_kit": {
@@ -2270,7 +2238,6 @@
 	},
 	"hippocampus_common": {
 		"name": "Hippocampus (common)",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "hippocampus_combat_trained"
 	},
 	"hippogriff_combat_trained": {
@@ -2327,10 +2294,6 @@
 	},
 	"hireling_untrained_per_day": {
 		"name": "Hireling (untrained, per day)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "hireling_trained_per_day"
 	},
 	"hireling_crier_masterful_per_day": {
@@ -2346,17 +2309,14 @@
 	},
 	"hireling_crier_skilled_per_day": {
 		"name": "Hireling, crier (skilled, per day)",
-		"sources": [ "Merchant's Manifest" ],
 		"copyof": "hireling_crier_masterful_per_day"
 	},
 	"hireling_crier_trained_per_day": {
 		"name": "Hireling, crier (trained, per day)",
-		"sources": [ "Merchant's Manifest" ],
 		"copyof": "hireling_crier_masterful_per_day"
 	},
 	"hireling_crier_untrained_per_day": {
 		"name": "Hireling, crier (untrained, per day)",
-		"sources": [ "Merchant's Manifest" ],
 		"copyof": "hireling_crier_masterful_per_day"
 	},
 	"hobgoblin_war_draught": {
@@ -2456,7 +2416,10 @@
 	},
 	"holy_symbol_gold_compartment": {
 		"name": "Holy symbol (gold, compartment)",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Holy symbol (compartment)",
 			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
@@ -2471,7 +2434,6 @@
 	},
 	"holy_symbol_iron_compartment": {
 		"name": "Holy symbol (iron, compartment)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_iron": {
@@ -2479,7 +2441,6 @@
 	},
 	"holy_symbol_platinum_compartment": {
 		"name": "Holy symbol (platinum, compartment)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_platinum": {
@@ -2487,10 +2448,6 @@
 	},
 	"holy_symbol_silver_compartment": {
 		"name": "Holy symbol (silver, compartment)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_silver": {
@@ -2498,10 +2455,6 @@
 	},
 	"holy_symbol_wooden_compartment": {
 		"name": "Holy symbol (wooden, compartment)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "holy_symbol_compartment_gold"
 	},
 	"holy_symbol_compartment_wooden": {
@@ -2509,7 +2462,10 @@
 	},
 	"holy_symbol_gold_flask": {
 		"name": "Holy symbol (gold, flask)",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Holy symbol (flask)",
 			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
@@ -2524,7 +2480,6 @@
 	},
 	"holy_symbol_iron_flask": {
 		"name": "Holy symbol (iron, flask)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_iron": {
@@ -2532,7 +2487,6 @@
 	},
 	"holy_symbol_platinum_flask": {
 		"name": "Holy symbol (platinum, flask)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_platinum": {
@@ -2540,10 +2494,6 @@
 	},
 	"holy_symbol_silver_flask": {
 		"name": "Holy symbol (silver, flask)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_silver": {
@@ -2551,10 +2501,6 @@
 	},
 	"holy_symbol_wooden_flask": {
 		"name": "Holy symbol (wooden, flask)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "holy_symbol_flask_gold"
 	},
 	"holy_symbol_flask_wooden": {
@@ -2562,7 +2508,10 @@
 	},
 	"holy_symbol_gold": {
 		"name": "Holy symbol (gold)",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Holy symbol",
 			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
@@ -2575,20 +2524,14 @@
 	},
 	"holy_symbol_iron": {
 		"name": "Holy symbol (iron)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_gold"
 	},
 	"holy_symbol_platinum": {
 		"name": "Holy symbol (platinum)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "holy_symbol_gold"
 	},
 	"holy_symbol_silver": {
 		"name": "Holy symbol (silver)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "holy_symbol_gold"
 	},
 	"holy_symbol_tattoo": {
@@ -2605,10 +2548,6 @@
 	},
 	"holy_symbol_wooden": {
 		"name": "Holy symbol (wooden)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "holy_symbol_gold"
 	},
 	"holy_text": {
@@ -2754,47 +2693,22 @@
 	},
 	"horse_heavy_combat_trained": {
 		"name": "Horse (heavy, combat trained)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "horse_heavy"
 	},
 	"horse_light": {
 		"name": "Horse (light)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "horse_heavy"
 	},
 	"horse_light_combat_trained": {
 		"name": "Horse (light, combat trained)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "horse_heavy"
 	},
 	"horse_pony": {
 		"name": "Horse (pony)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "horse_heavy"
 	},
 	"horse_pony_combat_trained": {
 		"name": "Horse (pony, combat trained)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory"
-		],
 		"copyof": "horse_heavy"
 	},
 	"horse_whip": {
@@ -2846,11 +2760,6 @@
 	},
 	"tear-away_hot_weather_outfit": {
 		"name": "Tear-away hot weather outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "hot_weather_outfit"
 	},
 	"tear_away_hot_weather_outfit": {
@@ -2906,11 +2815,6 @@
 	},
 	"hourglass_1_minute": {
 		"name": "Hourglass (1 minute)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "hourglass_one_hour"
 	},
 	"hourglass_one_minute": {
@@ -2918,11 +2822,6 @@
 	},
 	"hourglass_6_seconds": {
 		"name": "Hourglass (6 seconds)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "hourglass_one_hour"
 	},
 	"hourglass_six_seconds": {
@@ -3029,7 +2928,6 @@
 	},
 	"hypnotist's_locket_pocket_watch": {
 		"name": "Hypnotist's locket (pocket watch)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "hypnotist's_locket_locket"
 	},
 	"ice_cream": {
@@ -3229,10 +3127,6 @@
 	},
 	"ink_non-black": {
 		"name": "Ink, non-black",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ink_black"
 	},
 	"ink_non_black": {
@@ -3286,23 +3180,14 @@
 	},
 	"inn_stay_good": {
 		"name": "Inn stay (good)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "inn_stay_common"
 	},
 	"inn_stay_poor": {
 		"name": "Inn stay (poor)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "inn_stay_common"
 	},
 	"inn_stay_suite_average": {
 		"name": "Inn stay (suite, average)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "inn_stay_common"
 	},
 	"average_inn_stay_suite": {
@@ -3310,7 +3195,6 @@
 	},
 	"inn_stay_suite_luxurious": {
 		"name": "Inn stay (suite, luxurious)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "inn_stay_common"
 	},
 	"luxurious_inn_stay_suite": {
@@ -3318,7 +3202,6 @@
 	},
 	"inn_stay_suite_small": {
 		"name": "Inn stay (suite, small)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "inn_stay_common"
 	},
 	"small_inn_stay_suite": {
@@ -3483,26 +3366,14 @@
 	},
 	"invisible_ink_good": {
 		"name": "Invisible ink (good)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "invisible_ink_average"
 	},
 	"invisible_ink_simple": {
 		"name": "Invisible ink (simple)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "invisible_ink_average"
 	},
 	"invisible_ink_superior": {
 		"name": "Invisible ink (superior)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "invisible_ink_average"
 	},
 	"iron_eye_gorum": {
@@ -3547,7 +3418,6 @@
 	},
 	"iron_mask_masterwork": {
 		"name": "Iron mask (masterwork)",
-		"sources": [ "Path of the Hellknight" ],
 		"copyof": "iron_mask_common"
 	},
 	"iron_spike": {
@@ -3695,7 +3565,6 @@
 	},
 	"junk_travel_per_mile": {
 		"name": "Junk (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "junk"
 	},
 	"just_scale_abadar": {
@@ -3785,10 +3654,6 @@
 	},
 	"keelboat_travel_per_mile": {
 		"name": "Keelboat (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "keelboat"
 	},
 	"key-wound_rattler": {
@@ -3940,7 +3805,6 @@
 	},
 	"laundry": {
 		"name": "Laundry",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "laundry_magic"
 	},
 	"lawyer_competent": {
@@ -3956,12 +3820,10 @@
 	},
 	"lawyer_experienced": {
 		"name": "Lawyer (experienced)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "lawyer_competent"
 	},
 	"lawyer_novice": {
 		"name": "Lawyer (novice)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "lawyer_competent"
 	},
 	"leaper's_libation": {
@@ -4162,7 +4024,6 @@
 	},
 	"linguist's_codex_standard": {
 		"name": "Linguist's codex (standard)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "linguist's_codex_expanded"
 	},
 	"liniment": {
@@ -4204,7 +4065,6 @@
 	},
 	"lion_common": {
 		"name": "Lion (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "lion_combat_trained"
 	},
 	"liquid_breeze": {
@@ -4324,7 +4184,6 @@
 	},
 	"lizard_common": {
 		"name": "Lizard (common)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "lizard_nex_gecko"
 	},
 	"loaded_dice_average": {
@@ -4344,11 +4203,6 @@
 	},
 	"loaded_dice_superior": {
 		"name": "Loaded dice (superior)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "loaded_dice_average"
 	},
 	"loaded_shell_game_cups": {
@@ -4382,34 +4236,26 @@
 	"average_lock": { "copyof": "lock_average" },
 	"lock_good": {
 		"name": "Lock (good)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "lock_average"
 	},
 	"good_lock": { "copyof": "lock_good" },
 	"lock_simple": {
 		"name": "Lock (simple)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "lock_average"
 	},
 	"simple_lock": { "copyof": "lock_simple" },
 	"lock_superior": {
 		"name": "Lock (superior)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "lock_average"
 	},
 	"superior_lock": { "copyof": "lock_superior" },
 	"lock_of_the_saved_averge": {
 		"name": "Lock of the saved (averge)",
-		"sources": [ "Adventurer's Armory" ],
+		"sources": [
+			"Adventurer's Armory",
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Lock of the saved",
 			"**Source** [Adventurer's Armory pg. 25](source/adventurer's_armory)  ",
@@ -4425,26 +4271,14 @@
 	},
 	"lock_of_the_saved_good": {
 		"name": "Lock of the saved (good)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "lock_of_the_saved_average"
 	},
 	"lock_of_the_saved_simple": {
 		"name": "Lock of the saved (simple)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "lock_of_the_saved_average"
 	},
 	"lock_of_the_saved_superior": {
 		"name": "Lock of the saved (superior)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "lock_of_the_saved_average"
 	},
 	"lodestone_boots": {
@@ -4505,10 +4339,6 @@
 	},
 	"longship_travel_per_mile": {
 		"name": "Longship (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "longship"
 	},
 	"lonoma_eel": {
@@ -4637,7 +4467,6 @@
 	},
 	"luglurch_ale_mug": {
 		"name": "Luglurch ale (mug)",
-		"sources": [ "Halflings of Golarion" ],
 		"copyof": "luglurch_ale_gallon"
 	},
 	"lure_fake_area_map": {
@@ -4657,7 +4486,6 @@
 	},
 	"lure_fake_coins": {
 		"name": "Lure (fake coins)",
-		"sources": [ "Kobolds of Golarion" ],
 		"copyof": "lure_fake_area_map"
 	},
 	"mage's_assistant": {
@@ -4749,7 +4577,6 @@
 	},
 	"mammoth_common": {
 		"name": "Mammoth (common)",
-		"sources": [ "People of the North" ],
 		"copyof": "mammoth_combat_trained"
 	},
 	"mammoth_goad": {
@@ -4766,7 +4593,13 @@
 	},
 	"manacles_with_barbs_common": {
 		"name": "Manacles with barbs (common)",
-		"sources": [ "Advanced Race Guide" ],
+		"sources": [
+			"Advanced Race Guide",
+			"Path of the Hellknight",
+			"Ultimate Equipment",
+			"PRPG Core Rulebook",
+			"Melee Tactics Toolbox"
+		],
 		"description": [
 			"## Manacle barbs",
 			"**Source** [Advanced Race Guide pg. 123](source/advanced_race_guide)  ",
@@ -4783,11 +4616,6 @@
 	},
 	"manacles_with_barbs_masterwork": {
 		"name": "Manacles with barbs (masterwork)",
-		"sources": [
-			"Path of the Hellknight",
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "manacle_barbs"
 	},
 	"manacle_barbs_masterwork": {
@@ -4795,10 +4623,6 @@
 	},
 	"manacles_with_barbs_mithral": {
 		"name": "Manacles with barbs (mithral)",
-		"sources": [
-			"Path of the Hellknight",
-			"Ultimate Equipment"
-		],
 		"copyof": "manacle_barbs"
 	},
 	"manacle_barbs_mithral": {
@@ -4806,7 +4630,6 @@
 	},
 	"manacles_with_barbs_quickcatch": {
 		"name": "Manacles with barbs (quickcatch)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "manacle_barbs"
 	},
 	"manacle_barbs_quickcatch": {
@@ -4849,19 +4672,10 @@
 	"manacles": { "copyof": "manacles_common" },
 	"manacles_masterwork": {
 		"name": "Manacles (masterwork)",
-		"sources": [
-			"Path of the Hellknight",
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "manacles_common"
 	},
 	"manacles_mithral": {
 		"name": "Manacles (mithral)",
-		"sources": [
-			"Path of the Hellknight",
-			"Ultimate Equipment"
-		],
 		"copyof": "manacles_common"
 	},
 	"manacles_quickcatch": {
@@ -4971,7 +4785,6 @@
 	},
 	"marine_rope_woven_kelp": {
 		"name": "Marine rope (woven kelp)",
-		"sources": [ "Blood of the Sea" ],
 		"copyof": "marine_rope_treated_hemp"
 	},
 	"marked_cards": {
@@ -5148,7 +4961,6 @@
 	},
 	"mead_mug": {
 		"name": "Mead (mug)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "mead_gallon"
 	},
 	"meal_common_per_day": {
@@ -5167,18 +4979,10 @@
 	},
 	"meal_good_per_day": {
 		"name": "Meal (good, per day)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "meal_common_per_day"
 	},
 	"meal_poor_per_day": {
 		"name": "Meal (poor, per day)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "meal_common_per_day"
 	},
 	"measuring_cord_10_ft": {
@@ -5832,11 +5636,6 @@
 	},
 	"tear-away_monk's_outfit": {
 		"name": "Tear-away monk's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "monk's_outfit"
 	},
 	"tear_away_monk's_outfit": {
@@ -5930,17 +5729,14 @@
 	},
 	"monster_hunter's_kit_fey": {
 		"name": "Monster hunter's kit (fey)",
-		"sources": [ "Monster Hunter's Handbook" ],
 		"copyof": "monster_hunter's_kit_abberation"
 	},
 	"monster_hunter's_kit_ooze": {
 		"name": "Monster hunter's kit (ooze)",
-		"sources": [ "Monster Hunter's Handbook" ],
 		"copyof": "monster_hunter's_kit_abberation"
 	},
 	"monster_hunter's_kit_regular": {
 		"name": "Monster hunter's kit (regular)",
-		"sources": [ "Monster Hunter's Handbook" ],
 		"copyof": "monster_hunter's_kit_abberation"
 	},
 	"monster_mask": {
@@ -6024,10 +5820,6 @@
 	},
 	"musical_instrument_masterwork": {
 		"name": "Musical instrument (masterwork)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "musical_instrument_common"
 	},
 	"musk_kit": {
@@ -6308,11 +6100,6 @@
 	},
 	"tear-away_noble's_outfit": {
 		"name": "Tear-away noble's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "noble's_outfit"
 	},
 	"tear_away_noble's_outfit": {
@@ -6569,22 +6356,18 @@
 	},
 	"oozing_vat_huge": {
 		"name": "Oozing vat (huge)",
-		"sources": [ "Alchemy Manual" ],
 		"copyof": "oozing_vat_gargantuan"
 	},
 	"oozing_vat_large": {
 		"name": "Oozing vat (large)",
-		"sources": [ "Alchemy Manual" ],
 		"copyof": "oozing_vat_gargantuan"
 	},
 	"oozing_vat_medium": {
 		"name": "Oozing vat (medium)",
-		"sources": [ "Alchemy Manual" ],
 		"copyof": "oozing_vat_gargantuan"
 	},
 	"oozing_vat_small": {
 		"name": "Oozing vat (small)",
-		"sources": [ "Alchemy Manual" ],
 		"copyof": "oozing_vat_gargantuan"
 	},
 	"oracle's_kit": {
@@ -6643,27 +6426,22 @@
 	},
 	"orrery_calculating_standard": {
 		"name": "Orrery (calculating standard)",
-		"sources": [ "People of the Stars" ],
 		"copyof": "orrery_calculating_grand"
 	},
 	"orrery_calculating_tellurium": {
 		"name": "Orrery (calculating tellurium)",
-		"sources": [ "People of the Stars" ],
 		"copyof": "orrery_calculating_grand"
 	},
 	"orrery_grand": {
 		"name": "Orrery (grand)",
-		"sources": [ "People of the Stars" ],
 		"copyof": "orrery_calculating_grand"
 	},
 	"orrery_standard": {
 		"name": "Orrery (standard)",
-		"sources": [ "People of the Stars" ],
 		"copyof": "orrery_calculating_grand"
 	},
 	"orrery_tellurium": {
 		"name": "Orrery (tellurium)",
-		"sources": [ "People of the Stars" ],
 		"copyof": "orrery_calculating_grand"
 	},
 	"osprey": {
@@ -6730,7 +6508,6 @@
 	},
 	"owl_common": {
 		"name": "Owl (common)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "owl_verduran"
 	},
 	"pachycephalosaurus": {
@@ -6770,7 +6547,6 @@
 	},
 	"pack_animal_donkey_mule": {
 		"name": "Pack animal (donkey/mule)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "pack_animal_ox"
 	},
 	"pack_animal_donkey": {
@@ -6781,7 +6557,6 @@
 	},
 	"pack_animal_yak": {
 		"name": "Pack animal (yak)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "pack_animal_ox"
 	},
 	"padzahr": {
@@ -6936,7 +6711,6 @@
 	},
 	"parasol_umbrella": {
 		"name": "Parasol (umbrella)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "parasol_common"
 	},
 	"umbrella": { "copyof": "parasol_umbrella" },
@@ -6991,7 +6765,16 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Numerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific Knowledge check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same."
+			"Numerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific Knowledge check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is focused on, the cost of the book remains the same.",
+			"",
+			"### Specific Volumes",
+			"",
+			"- [Volume 1](equipment-misc/pathfinder_chronicles_volume_one)",
+			"- [Volume 2](equipment-misc/pathfinder_chronicles_volume_two)",
+			"- [Volume 11](equipment-misc/pathfinder_chronicles_volume_eleven)",
+			"- [Volume 14](equipment-misc/pathfinder_chronicles_volume_fourteen)",
+			"- [Volume 27](equipment-misc/pathfinder_chronicles_volume_twenty_seven)",
+			"- [Volume 44](equipment-misc/pathfinder_chronicles_volume_forty_four)"
 		]
 	},
 	"pathfinder_chronicles_-_volume_1": {
@@ -7115,7 +6898,7 @@
 			"- Navigate the tunnels of the Darklands and identify Darklands natives (Knowledge [dungeoneering] +2 and Knowledge [geography] +2)"
 		]
 	},
-	"pathfinder_chronicles_volume_fourty_four": {
+	"pathfinder_chronicles_volume_forty_four": {
 		"copyof": "pathfinder_chronicles_-_volume_44"
 	},
 	"pathfinder's_kit": {
@@ -7174,11 +6957,6 @@
 	},
 	"tear-away_peasant's_outfit": {
 		"name": "Tear-away peasant's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "peasant's_outfit"
 	},
 	"tear_away_peasant's_outfit": {
@@ -7242,11 +7020,6 @@
 	},
 	"perfume_exotic_per_dose": {
 		"name": "Perfume (exotic, per dose)",
-		"sources": [
-			"Inner Sea World Guide",
-			"Curse of the Crimson Throne Player's Guide",
-			"Pathfinder Campaign Setting"
-		],
 		"copyof": "perfume_common_per_dose"
 	},
 	"perfume_kit": {
@@ -7426,10 +7199,6 @@
 	},
 	"tear-away_pickpocket's_outfit": {
 		"name": "Tear-away pickpocket's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "pickpocket's_outfit"
 	},
 	"tear_away_pickpocket's_outfit": {
@@ -7484,7 +7253,6 @@
 	},
 	"pirate_clothes_fancy": {
 		"name": "Pirate clothes (fancy)",
-		"sources": [ "Pirates of the Inner Sea" ],
 		"copyof": "pirate_clothes_basic"
 	},
 	"pitcher": {

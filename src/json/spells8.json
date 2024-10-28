@@ -435,7 +435,6 @@
 	},
 	"raise_animal_companion": {
 		"name": "Raise Animal Companion",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "raise_dead"
 	},
 	"raise_dead": {
@@ -622,7 +621,8 @@
 		"name": "Ray of Exhaustion",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"Dark Markets - A Guide to Katapesh"
 		],
 		"description": [
 			"## Ray of Exhaustion",
@@ -696,10 +696,6 @@
 	},
 	"ray_of_sickening": {
 		"name": "Ray of Sickening",
-		"sources": [
-			"Ultimate Magic",
-			"Dark Markets - A Guide to Katapesh"
-		],
 		"copyof": "ray_of_exhaustion"
 	},
 	"read_magic": {
@@ -1182,7 +1178,6 @@
 	},
 	"reduce_person_mass": {
 		"name": "Reduce Person, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "reduce_person"
 	},
 	"mass_reduce_person": {
@@ -1464,12 +1459,10 @@
 	},
 	"reincarnate_spy": {
 		"name": "Reincarnate Spy",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "reincarnate"
 	},
 	"cyclic_reincarnation": {
 		"name": "Cyclic Reincarnation",
-		"sources": [ "Arcane Anthology" ],
 		"copyof": "reincarnate"
 	},
 	"reinforce_armaments": {
@@ -1517,7 +1510,6 @@
 	},
 	"reinforce_armaments_communal": {
 		"name": "Reinforce Armaments, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "reinforce_armaments"
 	},
 	"communal_reinforce_armaments": {
@@ -1549,12 +1541,10 @@
 	},
 	"rejuvenate_eidolon": {
 		"name": "Rejuvenate Eidolon",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
 	"rejuvenate_eidolon_greater": {
 		"name": "Rejuvenate Eidolon, Greater",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
 	"greater_rejuvenate_eidolon": {
@@ -1897,7 +1887,6 @@
 	},
 	"remove_radioactivity_greater": {
 		"name": "Remove Radioactivity, Greater",
-		"sources": [ "Technology Guide" ],
 		"copyof": "remove_radioactivity"
 	},
 	"greater_remove_radioactivity": {
@@ -2012,7 +2001,6 @@
 	},
 	"rend_body_2": {
 		"name": "Rend Body II",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "rend_body_1"
 	},
 	"rend_body_ii": {
@@ -2020,7 +2008,6 @@
 	},
 	"rend_body_3": {
 		"name": "Rend Body III",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "rend_body_1"
 	},
 	"rend_body_iii": {
@@ -2028,7 +2015,6 @@
 	},
 	"rend_body_4": {
 		"name": "Rend Body IV",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "rend_body_1"
 	},
 	"rend_body_iv": {
@@ -2520,7 +2506,6 @@
 	},
 	"resist_energy_communal": {
 		"name": "Resist Energy, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "resist_energy"
 	},
 	"communal_resist_energy": {
@@ -2892,7 +2877,6 @@
 	},
 	"restoration_greater": {
 		"name": "Restoration, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "restoration"
 	},
 	"greater_restoration": {
@@ -2900,7 +2884,6 @@
 	},
 	"restoration_lesser": {
 		"name": "Restoration, Lesser",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "restoration"
 	},
 	"lesser_restoration": {
@@ -2932,7 +2915,6 @@
 	},
 	"restore_eidolon": {
 		"name": "Restore Eidolon",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_restore_eidolon"
 	},
 	"restore_eidolon_lesser": {
@@ -3109,12 +3091,10 @@
 	},
 	"false_resurrection": {
 		"name": "False Resurrection",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "resurrection"
 	},
 	"false_resurrection_greater": {
 		"name": "False Resurrection, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "resurrection"
 	},
 	"greater_false_resurrection": {
@@ -3274,7 +3254,6 @@
 	},
 	"returning_weapon_communal": {
 		"name": "Returning Weapon, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "returning_weapon"
 	},
 	"communal_returning_weapon": {
@@ -4966,7 +4945,6 @@
 	},
 	"sand_whirlwind_greater": {
 		"name": "Sand Whirlwind, Greater",
-		"sources": [ "Taldor, Echoes of Glory" ],
 		"copyof": "sand_whirlwind"
 	},
 	"greater_sand_whirlwind": {
@@ -5173,7 +5151,6 @@
 	},
 	"scale_spikes_greater": {
 		"name": "Scale Spikes, Greater",
-		"sources": [ "Monster Codex" ],
 		"copyof": "scale_spikes"
 	},
 	"greater_scale_spikes": {
@@ -5714,7 +5691,6 @@
 	},
 	"scrying_greater": {
 		"name": "Scrying, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "scrying"
 	},
 	"greater_scrying": {
@@ -5847,10 +5823,6 @@
 	},
 	"sea_stallion": {
 		"name": "Sea Stallion",
-		"sources": [
-			"Ultimate Wilderness",
-			"Animal Archive"
-		],
 		"copyof": "sea_steed"
 	},
 	"sea_steed": {
@@ -6207,10 +6179,6 @@
 	},
 	"secret_coffer": {
 		"name": "Secret Coffer",
-		"sources": [
-			"Black Markets",
-			"Heroes of the Streets"
-		],
 		"copyof": "secret_chest"
 	},
 	"secret_page": {
@@ -6298,7 +6266,6 @@
 	},
 	"secret_vault": {
 		"name": "Secret Vault",
-		"sources": [ "Black Markets" ],
 		"copyof": "secret_chest"
 	},
 	"secure_shelter": {
@@ -6456,7 +6423,6 @@
 	},
 	"glimpse_the_hidden": {
 		"name": "Glimpse the Hidden",
-		"sources": [ "Potions and Poisons" ],
 		"copyof": "see_invisibility"
 	},
 	"see_through_stone": {
@@ -6556,7 +6522,6 @@
 	},
 	"seeds_of_influence_greater": {
 		"name": "Seeds of Influence, Greater",
-		"sources": [ "Inner Sea Intrigue" ],
 		"copyof": "seeds_of_influence"
 	},
 	"greater_seeds_of_influence": {
@@ -6794,7 +6759,6 @@
 	},
 	"word_of_beckoning": {
 		"name": "Word of Beckoning",
-		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"copyof": "sending"
 	},
 	"sense_fear": {
@@ -7424,7 +7388,6 @@
 	},
 	"shadow_conjuration_greater": {
 		"name": "Shadow Conjuration, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "shadow_conjuration"
 	},
 	"greater_shadow_conjuration": {
@@ -7501,7 +7464,6 @@
 	},
 	"shadow_enchantment_greater": {
 		"name": "Shadow Enchantment, Greater",
-		"sources": [ "Occult Realms" ],
 		"copyof": "shadow_enchantment"
 	},
 	"greater_shadow_enchantment": {
@@ -7584,7 +7546,6 @@
 	},
 	"shadow_evocation_greater": {
 		"name": "Shadow Evocation, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "shadow_evocation"
 	},
 	"greater_shadow_evocation": {
@@ -7763,7 +7724,6 @@
 	},
 	"shadow_transmutation_greater": {
 		"name": "Shadow Transmutation, Greater",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "shadow_transmutation"
 	},
 	"greater_shadow_transmutation": {
