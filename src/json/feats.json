@@ -418,7 +418,7 @@
 			"**Source** [Faction Guide pg. 56](source/faction_guide)",
 			"",
 			"You are a master at defending yourself from all manner of combat maneuvers.  ",
-			"**Prerequisites:** [Defensive Combat Training](feat/defensive_combat_training), [Bellflower Network](rule/aff_antislavery) 10 TPA.  ",
+			"**Prerequisites:** [Defensive Combat Training](feat/defensive_combat_training), [Bellflower Network](rule/f_antislavery) 10 TPA.  ",
 			"**Benefit:** You gain a +4 bonus to your CMD."
 		]
 	},
@@ -4690,7 +4690,7 @@
 			"**Source** [Faction Guide pg. 56](source/faction_guide)",
 			"",
 			"You are skilled at fighting criminal humans such as bandits.  ",
-			"**Prerequisites:** Bloodstone Swords 10 TPA.  ",
+			"**Prerequisites:** [Bloodstone Swords](rule/f_merceneries) 10 TPA.  ",
 			"**Benefit:** You gain a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against humans, and a +1 bonus on weapon attack and damage rolls against humans. If you have a favored enemy bonus against humans, this feat does not stack with that bonus."
 		]
 	},
@@ -5958,7 +5958,7 @@
 			"**Source** [Faction Guide pg. 56](source/faction_guide)",
 			"",
 			"You always appear to be in control of your situation.  ",
-			"**Prerequisites:** Prophets of Kalistrade 10 TPA.  ",
+			"**Prerequisites:** [Prophets of Kalistrade](rule/f_profits) 10 TPA.  ",
 			"**Benefit:** You gain +2 bonus on saving throws against effects that affect your composure. This includes all mind-affecting spells, as well as any spell or ability that would cause you to behave in an out-of-control manner, such as fear effects and nausea. This does not include physical effects such as fatigue, and does not reduce any damage taken from concurrent effects."
 		]
 	},

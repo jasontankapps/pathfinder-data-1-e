@@ -1686,7 +1686,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"You spent countless hours of your youth wandering the open campuses of the Kitharodian Academy and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
+			"You spent countless hours of your youth wandering the open campuses of the [Kitharodian Academy](rule/f_bards) and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -4948,7 +4948,7 @@
 			"## Coherent Rage",
 			"",
 			"**Type:** Combat  ",
-			"**Faction:** Ulfen Guard",
+			"**Faction:** [Ulfen Guard](rule/f_imperial)",
 			"",
 			"Your determination allows you to hold onto a shred of your rational mind at all times. Select one of the following skills: Bluff, Escape Artist, Handle Animal, or Stealth. You may use this skill normally while raging."
 		],
@@ -6209,7 +6209,7 @@
 			"## Defy Madness",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Old Cults",
+			"**Requirements:** [Old Cults](rule/f_old_cults)",
 			"",
 			"Your direct involvement with supernatural and alien forces has left you less vulnerable to the insanity they cause. You gain a +1 trait bonus on any saving throws against confusion, insanity, madness, and Wisdom damage and drain."
 		],
@@ -6569,7 +6569,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Druma",
 			"",
-			"As an adherent of the Prophecies of Kalistrade, you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
+			"As an adherent of the [Prophecies of Kalistrade](rule/f_profits), you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},

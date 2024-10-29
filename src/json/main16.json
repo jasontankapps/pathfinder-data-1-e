@@ -259,7 +259,7 @@
 				"## [Coherent Rage](trait/coherent_rage)",
 				"",
 				"**Type:** Combat  ",
-				"**Group:** Ulfen Guard",
+				"**Group:** [Ulfen Guard](rule/f_imperial)",
 				"",
 				"Your determination allows you to hold onto a shred of your rational mind at all times. Select one of the following skills: Bluff, Escape Artist, Handle Animal, or Stealth. You may use this skill normally while raging."
 			],
@@ -1062,7 +1062,7 @@
 				"## [Witty Repartee](trait/witty_repartee)",
 				"",
 				"**Type:** Combat  ",
-				"**Requirements:** Kitharodian Academy",
+				"**Requirements:** [Kitharodian Academy](rule/f_bards)",
 				"",
 				"You are quick with your tongue and have always possessed the talent to quickly admonish your enemies. You gain a +1 trait bonus on Bluff checks and Bluff is a class skill for you."
 			],

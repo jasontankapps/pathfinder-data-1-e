@@ -2054,7 +2054,7 @@
 				"## [Noble Savage](trait/noble_savage)",
 				"",
 				"**Type:** Social  ",
-				"**Faction:** Ulfen Guard",
+				"**Faction:** [Ulfen Guard](rule/f_imperial)",
 				"",
 				"You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing. You gain a +2 trait bonus on Diplomacy and Perform checks when dealing with people of high social standing."
 			],
@@ -2204,7 +2204,7 @@
 				"## [Savant](trait/savant)",
 				"",
 				"**Type:** Social  ",
-				"**Requirements:** Kitharodian Academy",
+				"**Requirements:** [Kitharodian Academy](rule/f_bards)",
 				"",
 				"From a very young age, the ability to master performance types has come quite naturally to you. Choose a performance type. You gain a +2 trait bonus on all Perform checks made using that performance type. Perform is always a class skill for you."
 			],
@@ -4367,7 +4367,7 @@
 				"## [Tar-Baphon's Whisper](trait/tar-baphon's_whisper)",
 				"",
 				"**Type:** Magic  ",
-				"**Requirements:** Whispering Way",
+				"**Requirements:** [Whispering Way](rule/f_gravepath)",
 				"",
 				"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast [sotto voce](spell/sotto_voce) as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 			],

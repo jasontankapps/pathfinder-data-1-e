@@ -194,7 +194,7 @@
 			"**Aura** faint abjuration and transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 1,100 gp; **Weight** -;",
 			"",
-			"This silver coin bears the symbol of the Prophecies of Kalistrade on one side, and its other side is inscribed with one of the many rules that lead to enlightenment. When the coin is placed in a non-magical bag or purse and the command word is spoken, the coin reduces the weight of any coins, gems, or jewelry carried in the bag by half. In addition, the container becomes the focus of an alarm spell that's triggered if the container is opened without the command word being spoken. Most Kalistocrat's coins have a mental alarm. The coin doesn't function for containers of other materials, and a container can benefit from only one Kalistocrat's coin at a time.",
+			"This silver coin bears the symbol of the [Prophecies of Kalistrade](rule/f_profits) on one side, and its other side is inscribed with one of the many rules that lead to enlightenment. When the coin is placed in a non-magical bag or purse and the command word is spoken, the coin reduces the weight of any coins, gems, or jewelry carried in the bag by half. In addition, the container becomes the focus of an alarm spell that's triggered if the container is opened without the command word being spoken. Most Kalistocrat's coins have a mental alarm. The coin doesn't function for containers of other materials, and a container can benefit from only one Kalistocrat's coin at a time.",
 			"",
 			"### Construction",
 			"",
@@ -547,7 +547,7 @@
 			"**Aura** moderate necromancy [evil]; **CL** 7th  ",
 			"**Slot** none; **Price** 1,400 gp; **Weight** -;",
 			"",
-			"Death cults such as the Whispering Way use this elixir to prevent their enemies from stealing their members' secrets, even after death. Elite cultists typically imbibe deathgag elixir as part of an elaborate initiation ritual when they are promoted to high-ranking positions in the cult. Thereafter, should the imbiber fall below -1 hit point, the elixir triggers the release of a fatal poison that throws him into wild convulsions. The victim begins foaming at the mouth, and his eyes turn blood red. Soon after, the victim's entire jaw dissolves, rendering him immune to speak with dead spells. Prior to the victim's death, only a limited wish, miracle, or wish spell can undo the effects of the elixir. Individuals that have imbibed deathgag elixir are noted as being \"deathgagged\" in the Defensive Abilities section of their stat blocks.",
+			"Death cults such as the [Whispering Way](rule/f_gravepath) use this elixir to prevent their enemies from stealing their members' secrets, even after death. Elite cultists typically imbibe deathgag elixir as part of an elaborate initiation ritual when they are promoted to high-ranking positions in the cult. Thereafter, should the imbiber fall below -1 hit point, the elixir triggers the release of a fatal poison that throws him into wild convulsions. The victim begins foaming at the mouth, and his eyes turn blood red. Soon after, the victim's entire jaw dissolves, rendering him immune to speak with dead spells. Prior to the victim's death, only a limited wish, miracle, or wish spell can undo the effects of the elixir. Individuals that have imbibed deathgag elixir are noted as being \"deathgagged\" in the Defensive Abilities section of their stat blocks.",
 			"",
 			"### Construction",
 			"",
@@ -1966,7 +1966,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ki pool, Kusari-Gama 40 TPA; **Cost** 1,000 gp"
+			"**Requirements** ki pool, [Kusari-Gama](rule/f_clans) 40 TPA; **Cost** 1,000 gp"
 		]
 	},
 	"lantern_of_auras": {
@@ -5642,7 +5642,7 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 30 lbs.",
 			"",
-			"Created by the Prophets of Kalistrade, this chest is approximately 2 feet wide and 1 foot long. On creation, the maker chooses 10 nonmagical items worth under 100 gp that could fit within the chest's dimensions. They can be specially created items for the chest (such as a silvered dagger) or a standard item (such as 50 feet of silk rope). Thereafter, when the box is closed, the owner need only speak the name of one of the the items, and it appears within the chest, ready to be removed and used. A given item only appears once per day, and disappears after 24 hours. Prophets use these chests to keep backups of important tools, and to hide weapons in case of emergency.",
+			"Created by the [Prophets of Kalistrade](rule/f_profits), this chest is approximately 2 feet wide and 1 foot long. On creation, the maker chooses 10 nonmagical items worth under 100 gp that could fit within the chest's dimensions. They can be specially created items for the chest (such as a silvered dagger) or a standard item (such as 50 feet of silk rope). Thereafter, when the box is closed, the owner need only speak the name of one of the the items, and it appears within the chest, ready to be removed and used. A given item only appears once per day, and disappears after 24 hours. Prophets use these chests to keep backups of important tools, and to hide weapons in case of emergency.",
 			"",
 			"### Construction",
 			"",

@@ -1076,7 +1076,7 @@
 			"**Source** [Faction Guide pg. 56](source/faction_guide)",
 			"",
 			"You have trained at the feet of the masters of the Kusari-Gama, a secret society of monk warriors. With their secrets you have mastered new ways to apply your ki.  ",
-			"**Prerequisites:** Ki pool class feature, Wis 13, Kusari-Gama 25 TPA.  ",
+			"**Prerequisites:** Ki pool class feature, Wis 13, [Kusari-Gama](rule/f_clans) 25 TPA.  ",
 			"**Benefit:** You learn how to channel your ki in a new ability. Choose one of the following ki powers:",
 			"",
 			"Bone Crusher: When you succeed at a trip or disarm combat maneuver, you may spend 1 point from your ki pool as a swift action to deal damage to your opponent as if you had hit them with an unarmed strike.",
@@ -2198,7 +2198,7 @@
 			"**Source** [Faction Guide pg. 57](source/faction_guide)",
 			"",
 			"You have trained to fight onrushing enemy hordes. With a carefully timed strike you ensure that their reckless charge will be their undoing.  ",
-			"**Prerequisites:** Dwarf, Ninth Battalion TPA 25.  ",
+			"**Prerequisites:** Dwarf, [Ninth Battalion](rule/f_legion) 25 TPA.  ",
 			"**Benefit:** You treat all one- or two-handed melee weapons as if they had the brace special feature.  ",
 			"**Normal:** Only weapons with the brace special feature can be readied against charges."
 		]
@@ -4076,7 +4076,7 @@
 			"**Source** [Faction Guide pg. 57](source/faction_guide)",
 			"",
 			"When using your bardic performance abilities, you grant your allies greater bonuses.  ",
-			"**Prerequisites:** Bardic performance class feature, [Extra Performance](feat/extra_performance), Kitharodian Academy 15 TPA.  ",
+			"**Prerequisites:** Bardic performance class feature, [Extra Performance](feat/extra_performance), [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
 			"**Benefit:** When any of your bardic performance abilities grant your allies a bonus, that bonus is increased by +1."
 		]
 	},
@@ -5979,7 +5979,7 @@
 			"**Source** [Faction Guide pg. 57](source/faction_guide)",
 			"",
 			"The fact that you have given up your real name makes you resistant to certain types of magic.  ",
-			"**Prerequisites:** Risen Guard rank, Risen Guard 10 TPA.  ",
+			"**Prerequisites:** [Risen Guard](rule/f_second_life) rank, Risen Guard 10 TPA.  ",
 			"**Benefit:** Anyone who attempts to use magic in order to learn personal information about you, such as through divination, scrying, or similar magic, must make a caster level check with a DC equal to 10 plus your level to succeed. You are immune to spells that require the use of your name in order to function (such as trap the soul).",
 			"",
 			"Most members of the Risen Guard with this feat are addressed by their rank.  ",
@@ -6720,7 +6720,7 @@
 			"",
 			"Vernisant: Your family is descended from the great general Arnisant, who commanded Taldan forces during the Shining Crusade... and they will never let anyone forget it! Their fierce Imperialist support and nationalist fervor has left you alienated from your relatives now, but their emphasis on scholarship left a mark nonetheless. You gain a +1 bonus on all Knowledge skills in which you have at least 1 rank.",
 			"",
-			"Vinmark: Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the Ulfen Guard. Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
+			"Vinmark: Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the [Ulfen Guard](rule/f_imperial). Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
 			"",
 			"Zespire: Your family runs charities and lobbies heavily for social reform, leaving them with few friends among their Opparan peers but heartfelt support from the common folk and lesser nobility. You gain a +2 bonus on Diplomacy and Perform checks when dealing with common citizens and with nobles whose titles are limited to Lord, Lady, Knight, or Dame.",
 			"",
@@ -6970,7 +6970,7 @@
 			"**Source** [Faction Guide pg. 57](source/faction_guide)",
 			"",
 			"You hear the voices of the Old Ones, and believe it is your destiny to awaken others to their ancient cause using bizarre and torturous rituals. Whether your work leaves these individuals mad or truly touched by alien sentience remains unproven.  ",
-			"**Prerequisites:** Old Cults 20 TPA.  ",
+			"**Prerequisites:** [Old Cults](rule/f_old_cults) 20 TPA.  ",
 			"**Benefit:** You can attempt a DC 25 Heal check upon an unconscious but stable intelligent creature. The ritual takes 1 hour to complete. If it's successful, the victim must make a DC 25 Will save or he gains a false memory of a vision that he has personally been chosen by the Great Old Ones to serve them (treat as an implanted memory from modify memory, except this is a nonmagical effect). If the ritual is unsuccessful, the victim takes 1d2 points of Intelligence and Wisdom drain; you may attempt the ritual again."
 		]
 	},
@@ -6983,7 +6983,7 @@
 			"**Source** [Faction Guide pg. 57](source/faction_guide)",
 			"",
 			"Your walk, stance, and voice all amplify your status as a [Hellknight](rule/aff_lawknights) when you cast spells or use spell-like abilities against opponents.  ",
-			"**Prerequisites:** Hellknight rank, Hellknight 10 TPA.  ",
+			"**Prerequisites:** Hellknight rank, [Hellknight](rule/f_lawknights) 10 TPA.  ",
 			"**Benefit:** Whenever you cast a spell or use a spell-like ability from the compulsion, fear, phantasm, or shadow sub-schools, add +1 to the DC of the saving throw against that spell or effect."
 		]
 	},

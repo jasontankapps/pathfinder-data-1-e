@@ -4332,7 +4332,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You were raised under the Prophecies of Kalistrade, and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate Profession check to earn money or gain capital using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity."
+			"You were raised under the [Prophecies of Kalistrade](rule/f_profits), and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate Profession check to earn money or gain capital using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -6925,7 +6925,7 @@
 			"## Necrotic Aura",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Whispering Way",
+			"**Requirements:** [Whispering Way](rule/f_gravepath)",
 			"",
 			"Your exposure to the necromantic arts has strengthened your defenses against its vile rot. You gain a +1 trait bonus on saving throws against spells from the necromancy school or any effect that deals negative energy damage."
 		],
@@ -7130,7 +7130,7 @@
 			"## Noble Savage",
 			"",
 			"**Type:** Social  ",
-			"**Faction:** Ulfen Guard",
+			"**Faction:** [Ulfen Guard](rule/f_imperial)",
 			"",
 			"You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing. You gain a +2 trait bonus on Diplomacy and Perform checks when dealing with people of high social standing."
 		],

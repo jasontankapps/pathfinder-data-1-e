@@ -369,7 +369,7 @@
 			"**Region:** Druma  ",
 			"**Requirements:** Ratfolk",
 			"",
-			"While you might not be a practicing follower of the Prophecies of Kalistrade, you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
+			"While you might not be a practicing follower of the [Prophecies of Kalistrade](rule/f_profits), you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -1936,7 +1936,7 @@
 			"## Savant",
 			"",
 			"**Type:** Social  ",
-			"**Requirements:** Kitharodian Academy",
+			"**Requirements:** [Kitharodian Academy](rule/f_bards)",
 			"",
 			"From a very young age, the ability to master performance types has come quite naturally to you. Choose a performance type. You gain a +2 trait bonus on all Perform checks made using that performance type. Perform is always a class skill for you."
 		],
@@ -2360,7 +2360,7 @@
 			"## Second Tongue",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Old Cults",
+			"**Requirements:** [Old Cults](rule/f_old_cults)",
 			"",
 			"Using an ancient and painful surgical technique, you've reshaped your tongue. These surgical mutilations permit you to speak ancient words unpronounceable to most mortals, enhancing your ability to work magic associated with the Great Old Ones. Any summoning or divination spell you cast to summon or contact a Great Old One or one of their minions is cast at +1 caster level."
 		],
@@ -2638,7 +2638,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** See text",
 			"",
-			"As a follower of Razmir, the Prophecies of Kalistrade, or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: create water, mending, purify food and drink, or stabilize. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
+			"As a follower of Razmir, the [Prophecies of Kalistrade](rule/f_profits), or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: create water, mending, purify food and drink, or stabilize. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -5390,7 +5390,7 @@
 			"## Tar-Baphon's Whisper",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Whispering Way",
+			"**Requirements:** [Whispering Way](rule/f_gravepath)",
 			"",
 			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast [sotto voce](spell/sotto_voce) as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
@@ -7197,7 +7197,7 @@
 			"## Unnatural Presence",
 			"",
 			"**Type:** Faith  ",
-			"**Requirements:** Old Cults",
+			"**Requirements:** [Old Cults](rule/f_old_cults)",
 			"",
 			"Your prolonged association with alien forces leaks from your pores. You can use your Intimidate skill to demoralize animals and vermin; Intimidate is a class skill for you."
 		],
@@ -8995,7 +8995,7 @@
 			"## Witty Repartee",
 			"",
 			"**Type:** Combat  ",
-			"**Requirements:** Kitharodian Academy",
+			"**Requirements:** [Kitharodian Academy](rule/f_bards)",
 			"",
 			"You are quick with your tongue and have always possessed the talent to quickly admonish your enemies. You gain a +1 trait bonus on Bluff checks and Bluff is a class skill for you."
 		],

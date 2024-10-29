@@ -1534,7 +1534,7 @@
 			"**Source** [Faction Guide pg. 57](source/faction_guide)",
 			"",
 			"Regular contact with an elemental guardian of the Ruby Prince (such as Khemet's invisible fire elemental cohort Janhelia) has left you able to shrug off many sources of unnatural heat, even if the effort required sometimes makes it difficult to defend yourself from attacks.  ",
-			"**Prerequisites:** [Endurance](feat/endurance), Risen Guard rank, Risen Guard 15 TPA.  ",
+			"**Prerequisites:** [Endurance](feat/endurance), [Risen Guard](rule/f_second_life) rank, Risen Guard 15 TPA.  ",
 			"**Benefit:** You gain fire resistance 5 and a +2 bonus on all saving throws to resist the effects of fire or heat. As a swift action, you can increase your fire resistance to 10 and your save bonus to +4 until your next turn; this causes you to lose your Dexterity bonus to Armor Class until your next turn (which leaves you vulnerable to sneak attacks)."
 		]
 	},
@@ -4042,7 +4042,7 @@
 			"**Source** [Faction Guide pg. 58](source/faction_guide)",
 			"",
 			"The range of your bardic performances increases.  ",
-			"**Prerequisites:** Bardic performance class feature, [Extra Performance](feat/extra_performance), [Master Performer](feat/master_performer), bard level 8th, Kitharodian Academy 15 TPA.  ",
+			"**Prerequisites:** Bardic performance class feature, [Extra Performance](feat/extra_performance), [Master Performer](feat/master_performer), bard level 8th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
 			"**Benefit:** Double the range of any bardic performance ability that possesses a range in the ability description."
 		]
 	},
@@ -5462,7 +5462,7 @@
 			"",
 			"**Source** [Agents of Evil pg. 13](source/agents_of_evil)",
 			"",
-			"Your research has gained the attention of the Whispering Way, which rewards you with access to its libraries.  ",
+			"Your research has gained the attention of the [Whispering Way](rule/f_gravepath), which rewards you with access to its libraries.  ",
 			"**Prerequisites:** [Associate (Whispering Way)](feat/associate).  ",
 			"**Benefit:** You can exploit lore acquired from the Whispering Way once per day to combine your own blood and a vial of unholy water to create a potion of cure light wounds or a potion of inflict light wounds as a full-round action. The blood loss from this transformation deals 1 point of Constitution damage to you. In addition, in any settlement that is the size of a small town or larger, you can always find scrolls of the following spells available for purchase regardless of their legality: animate dead, control undead, create undead, detect undead, disrupt undead, false life, greater false life, ghoul touch, lesser animate dead, mass repair undead, repair undead, and undead anatomy I-IV."
 		]
