@@ -1,7 +1,7 @@
 {
 	"mastering_intrigue": {
 		"name": "Mastering Intrigue",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -10,7 +10,7 @@
 			"",
 			"All references to \"an intrigue-based game\" in the following section apply to a game that incorporates any amount of intrigue, from one with a splash of deviousness to a full-on political thriller."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"intrigue_systems",
 			"influence",
@@ -29,7 +29,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -46,7 +46,7 @@
 	},
 	"intrigue_systems": {
 		"name": "Intrigue Systems",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -68,7 +68,7 @@
 			"***Spells of Intrigue:*** Many spells cause problems with an intrigue-based game by enabling characters to easily detect lies, charm creatures who have needed knowledge, or otherwise bypass social interactions. This section talks about these spells both in general terms and in specifics for certain prominent spells."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -91,7 +91,7 @@
 	},
 	"intrigue_elements": {
 		"name": "Intrigue Elements",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -101,7 +101,7 @@
 			"Even a group that's primarily involved in dungeon-delving might get embroiled in a power struggle back in the town where they make their home base, or be stuck between two rivals who attempt to use the PCs as cat's-paws. In a campaign that uses just one element for a bit of flavor, it's important to incorporate that element on a regular basis-but not necessarily every session."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems"
 		],
@@ -119,7 +119,7 @@
 	},
 	"relationships_and_loyalty": {
 		"name": "Relationships and Loyalty",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 98](source/ultimate_intrigue)",
@@ -139,7 +139,7 @@
 			"***Hierarchies:*** Hierarchies are a structured system of loyalties, whether political, social, military, or another sort entirely. Progression up a hierarchy is a great way to track the non-monetary rewards in an intrigue-based game. Hierarchies are also an excellent source of interesting plotlines and conflicting loyalties, from either direction on the hierarchy. Becoming a member of a hierarchy gives PCs a strong sense of belonging and reason to take actions and pursue an intrigue adventure. Enemies operating within a hierarchy make great opponents, as their membership in the hierarchy can be alternately a source of strength and a vulnerability. If the enemy and a PC are both members of the same hierarchy, things can become particularly interesting, as both characters are empowered and constrained by their places in the system."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_elements"
@@ -154,7 +154,7 @@
 	},
 	"measure_and_countermeasure": {
 		"name": "Measure and Countermeasure",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 99](source/ultimate_intrigue)",
@@ -166,7 +166,7 @@
 			"The exception is when trying to introduce the notion of measures and countermeasures to a play group that doesn't typically use them or that consists of new players who aren't familiar with all the spells and tools at their disposal. For such a group, the first time they learn about using basic countermeasures might be when an NPC has used them. For example, say the PCs begin an investigation of a crime at the request of an NPC; the NPC could start by telling the PCs what investigative measures he has already taken-and thus what countermeasures he suspects the perpetrator might have used. This introduces the PCs to those measures and countermeasures seamlessly as an established element of the game world, rather than an obstacle that comes out of the blue during play. With this sort of introduction planned, you can design a plot revolving around bypassing or exploiting those countermeasures from the outset."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_elements"
@@ -181,7 +181,7 @@
 	},
 	"the_importance_of_appearances": {
 		"name": "The Importance of Appearances",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 99](source/ultimate_intrigue)",
@@ -189,7 +189,7 @@
 			"In some games, success and failure are measured in the court of public opinion, and appearing to be a certain way is often more important than being that way. This leads to plenty of deception and betrayal, and can also lead to wars of popular belief, wherein both sides seek to paint the other as evil and subjective opinions hold sway over the truth of the matter. In these situations, it is important to be able to keep up appearances, which is a key skill set in an intrigue-focused adventuring party. The necessity of appearances often restricts certain actions a group can take, resulting in indirect, discreet, and unusual tactics, rather than rushing into an adversary's home and annihilating everyone with steel and spells. Using social pressure to restrict the actions under consideration is a great way to highlight the varied skills and abilities of each party member, as long as these restrictions make sense and fit into the way the situation is structured. For instance, if the PCs want to help the evil duke's younger sister stir up dissent against the duke by proving that the duke was guilty of murdering his majordomo, murdering the duke's loyal retainers and new majordomo would make the PCs look hypocritical (as well as like desperate maniacs), and so isn't a wise tactic. Similarly, if a certain type of magic, such as necromancy or compulsions, is illegal in a society, then it makes sense that the PCs must use those tactics sparingly to avoid their deeds being overshadowed by their unlawful uses of magic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_elements"
@@ -204,7 +204,7 @@
 	},
 	"bargains_and_compromise": {
 		"name": "Bargains and Compromise",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -212,7 +212,7 @@
 			"In a campaign revolving around physical combat between good and evil, there's little room for compromise. But in an intrigue-based game, where each character acts according to her interests and loyalties, there comes a point where the writing is on the wall, at which a reasonable opponent offers a bargain rather than follow the struggle all the way through to destruction. These compromises might even offer the PCs more than they would get for destroying their foe, while allowing the foe to keep what's most important to her. In most campaigns, the PCs are going to win, but this sort of offer is a great opportunity for the PCs to establish their priorities and make a real decision about how they win. For example, suppose the PCs have a main goal of emancipating enslaved halflings, and during this conflict, the proslavery faction bribes an influential magistrate to make life difficult for the PCs. The PCs are able to turn the tables and discover damning evidence that could destroy the magistrate's career forever, so the magistrate offers the PCs a deal: if they withhold the evidence and allow her to keep her job, she'll use her influence to assist in halfling emancipation and give the PCs a strong advantage. Can the PCs trust her? Which is stronger, their desire to help the halflings, or their desire to see the magistrate get her just desserts?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_elements"
@@ -227,7 +227,7 @@
 	},
 	"the_power_of_secrets": {
 		"name": "The Power of Secrets",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -235,7 +235,7 @@
 			"Secrets are powerful in any Pathfinder game, even ones entirely focused on combat, since discovering secrets enables characters to learn an enemy's strengths and weaknesses and plan accordingly. However, when you're using intrigue in your game, secrets are even more significant. In fact, a truly powerful secret can be a far greater reward than even a dragon's hoard. Secrets are tied into all the other elements of an intrigue-based game. They can destroy relationships and change loyalties, often to the advantage of the one who holds or releases the secret. Disclosing a secret can shatter someone's false appearance. For instance, no matter how high the PCs roll on Diplomacy, their words alone can't persuade the kind and faithful queen to help assassinate or oust her husband, an evil king who has convinced everyone-even his wife, whom he truly loves-that he is a good man. But if the PCs expose the king's dark secrets in a convincing way, then pull off a skilled effort to influence the queen, they just might succeed. Secrets are also part and parcel of blackmail plots, which can lead to fascinating bargains and backroom deals. Of course, though using extortion might earn you an ally of sorts, such alliances are built on ill will. Because of the dangers of leaked secrets, protecting secrets is a main impetus of the arms race of measures and countermeasures mentioned earlier. And, of course, sometimes the most dangerous thing a character can do is discover a secret that someone powerful doesn't want anyone to know."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_elements"
@@ -250,7 +250,7 @@
 	},
 	"intrigue_themes": {
 		"name": "Intrigue Themes",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -258,7 +258,7 @@
 			"If intrigue elements are ingredients, then the following intrigue themes are sample recipes that combine those components in various specific ways, opening the door to adventures and campaigns that delve deeper into the world of intrigue than ones that contain a mere sprinkling of elements here and there."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems"
 		],
@@ -276,7 +276,7 @@
 	},
 	"a_game_of_nobles": {
 		"name": "A Game of Nobles",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -284,7 +284,7 @@
 			"Adventuring among the double-dealing and self-serving schemes of the nobility combines the Relationships and Loyalty, The Importance of Appearances, Bargains and Compromise, and The Power of Secrets elements. Whether the PCs start off as members of the nobility, guards and servants seeking to improve their status and fortune, illegitimate children hoping to claim their noble parents' titles, or simply adventurers hired by the wrong noble house, they quickly become tangled up in a tapestry of power and betrayal. In this theme, since the major players exercise great influence, the stakes are extremely high, allowing even lower-level PCs to become big movers and shakers as long as they are experts at playing along. When using this theme, it is understood that everyone has their own agendas and attempts to increase their personal standing, so self-serving actions are the status quo, whereas moments of true sacrifice and loyalty are rare and touching. With the shifting tides of politics, an enemy today can be a friend tomorrow, and it's likely that many characters will be neutral on the good/evil axis, or at least only mildly good or evil, muddying the waters and making the choice of whom to support less obvious."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_themes"
@@ -299,7 +299,7 @@
 	},
 	"the_criminal_underworld": {
 		"name": "The Criminal Underworld",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 100](source/ultimate_intrigue)",
@@ -311,7 +311,7 @@
 			"In a campaign with this theme, the hidden world of criminals lurks under the surface of even the most harmless places and people. A benevolent group of healers who cross national borders to help cure disease outbreaks might contain an element that smuggles in illegal alchemical substances. A sheriff renowned for eliminating most of the gangs in a city might have been working under the patronage and assistance of the gang that stood to gain by taking over its rivals' territory and operations. The PCs, as people in the know, experience this secret underbelly wherever they go and live in this shadowy realm of murky morals. Even if they start with good intentions, it is easy for them to become cynical about the world around them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_themes"
@@ -326,7 +326,7 @@
 	},
 	"war_of_propaganda": {
 		"name": "War of Propaganda",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 101](source/ultimate_intrigue)",
@@ -334,7 +334,7 @@
 			"A campaign that features wars of propaganda and public opinion centers on The Importance of Appearance, flavored with the Bargains and Compromise and The Power of Secrets elements. In a game using this theme, the PCs seek to influence public opinion in a particular way. They might be political fixers who seek to improve their clients' image, or they might be lobbyists for a particular political movement attempting to build and garner support for that movement. Either way, the PCs become involved in managing information (particularly damaging secrets) and forging temporary bargains and alliances in order to further their cause. Unlike many other types of adventures that involve PCs discovering a secret and nefarious plot, in a propaganda war, the PCs must uncover and decide how to use damaging secrets about the opposite side. They must also bury their own secrets and those of their allies. Despite being politically damaging, these secrets usually arise from humanizing flaws or lapses in judgment in an otherwise respectable ally, rather than from the ally being actively nefarious. However, the PCs might have to make a hard choice if a legitimately despicable character offers them the support they need or retains their services. In a war of propaganda, social conflict is nearly a given, and since the battlefield is in the court of public opinion, influence and verbal duels are likely to play a part as well."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_themes"
@@ -349,7 +349,7 @@
 	},
 	"law_and_order": {
 		"name": "Law and Order",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 101](source/ultimate_intrigue)",
@@ -361,7 +361,7 @@
 			"Lawyer characters often also dip into investigation as well, but they focus on finding the vulnerabilities in their opposition's case. A court proceeding before a magistrate or jury might involve one or more verbal duels between the attorneys, interspersed with investigation and interactions between the characters involved, with the case itself being a larger social conflict."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_themes"
@@ -376,7 +376,7 @@
 	},
 	"ultimate_intrigue": {
 		"name": "Ultimate Intrigue",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 101](source/ultimate_intrigue)",
@@ -384,7 +384,7 @@
 			"In a campaign that fully embraces all the diverse elements of intrigue, all of the above themes come together. On the one side, there are scheming nobles seeking to gain advantage, and on the other side, the underbelly of the criminal underworld, with people like political fixers, lobbyists, and law enforcement all caught in between-supporting, using, and being used in turn by both sides. The PCs must navigate these treacherous worlds, facing difficult decisions about how to deal with their divided loyalties or putting aside their differences to deal with a common threat. For instance, suppose that an evil duchess, eager to usurp the throne from her older brother, enlists the aid of a major crime family, offering magical assistance to the malefactors so that they can murder a series of nobles without leaving evidence. The party might consist of the unlikely alliance of the detective assigned to investigate the murders, the son of one of the murdered nobles, and the daughter of a rival crime boss. All three of them would be determined to traverse the web of intrigue for their own reasons, but each comes from such a different world that there's bound to be tension and conflict when those worlds collide. Each would have a different set of resources and contacts, all of which would be necessary to unearth the duchess's involvement and then cut through her lies and propaganda to prove what she did to the people and to her brother, the king."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"intrigue_systems",
 			"intrigue_themes"
@@ -399,7 +399,7 @@
 	},
 	"influence": {
 		"name": "Influence",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -407,7 +407,7 @@
 			"Jockeying for position and favor is natural part of human social dynamics, as common in the armies of high-minded crusaders as in the courts of wicked nobles. The resulting web of allegiances lies at the heart of any intrigue-focused campaign, with individuals scheming to gain allies while undermining their enemies' support. To represent these machinations, this section introduces two influence systems: one for individual influence and one for organizational influence. The first system provides a dynamic framework for social encounters in which the PCs gain or lose the favor of key NPCs, as well as a mechanic for calling in debts. The second system models the way the PCs' actions affect their clout within allied organizations, and how far organizations at cross-purposes with the PCs will go to undermine them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -431,7 +431,7 @@
 	},
 	"individual_influence": {
 		"name": "Individual Influence",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -472,7 +472,7 @@
 			"| 20 | 40 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence"
 		],
@@ -509,7 +509,7 @@
 			"A PC who succeeds at a discovery check learns one of the skills that can influence the NPC (starting with the skill with the lowest DC), one of his strengths, or one of his weaknesses. For every 5 by which the PC exceeds the DC, she learns an additional influence skill, strength, or weakness. Thus, a withdrawn but observant character can provide allies with a significant bonus (or help them avoid significant penalties) on future influence checks, making her as important to the group's success as PCs who prefer the spotlight."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -530,7 +530,7 @@
 	},
 	"influence_check": {
 		"name": "Influence Check",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 102](source/ultimate_intrigue)",
@@ -548,7 +548,7 @@
 			"Once the PCs succeed at a certain number of influence checks, they gain sway over that NPC, changing his opinion on an issue, earning a favor, or otherwise gaining some benefit or removing an obstacle."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -577,7 +577,7 @@
 			"If the PCs know which NPCs they need to influence in advance, they can seek out information to assist them in doing so ahead of time, potentially gaining information from the social stat block before the encounter. To represent the results of such preparations, each PC can attempt one Knowledge-based discovery check in advance with a - 5 penalty. The GM can allow other discovery skills to work, but Sense Motive should never work in advance unless the PC is actively stalking the NPC, which might require additional Disguise or Stealth checks and could lead to negative consequences. If the PCs attempt a discovery check against a particularly prominent NPC in advance, the PCs can attempt the Knowledge check to receive a +4 on the discovery check in advance, as well (see [Discovery Checks](rule/discovery_check))."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -606,7 +606,7 @@
 			"The PCs may not be the only ones seeking to influence prominent NPCs. An opposing party of NPCs at the same event can place additional pressure on the PCs to complete their task. Once either the PCs or the opposing party gain sway over an NPC (see [Benefits of Influence](rule/benefits_of_influence)), the other group can't attempt further influence checks during that event. If the two groups are actively opposed, one group's successful check causes the other group to take a cumulative -2 penalty on subsequent influence checks against that NPC, which can change the strategies the PCs might use. For instance, if the PCs notice the other group talking with a particular NPC, they have to decide whether to try to influence that NPC (thus foiling their rivals) or to yield that NPC to the other group and focus on influencing other NPCs."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -627,7 +627,7 @@
 	},
 	"influence_and_magic": {
 		"name": "Influence and Magic",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 103](source/ultimate_intrigue)",
@@ -641,7 +641,7 @@
 			"From innocuous glamers-such as magic that sustains illusory finery-to spells disguising an individual as a different person, illusion spells are versatile tools of deception. Many illusions that allow a saving throw require the viewers to study the illusion carefully or interact with it before they attempt a saving throw. In the context of the influence system, the first time a PC interacts with an NPC during a phase, the PC and the NPC each receive a saving throw against the other's relevant illusions, as they are assumed to be studying each other carefully at some point during the first exchange. After that, participants generally become more complacent in the way they examine each other, so they receive saving throws against only illusions dealing with particularly specific aspects of their interaction. For example, a glamer to make a dress look nicer would grant a saving throw during the first phase of interaction, but it usually wouldn't recur in later phases unless the topic of the dress came up in conversation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -672,7 +672,7 @@
 			"The PCs themselves may also be interested in using secrecy and trickery. A PC may even be present at a large social event under more than one identity at the same time. All participants each typically attempt a Sense Motive and Perception check upon first encountering a deception and can attempt another check only if new lies or disguises are introduced during the event. However, each time a PC makes a claim or takes an action that seems implausible for the person she claims to be, nearby opponents can attempt another opposed check."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -701,7 +701,7 @@
 			"In general, this influence system assumes that the PCs share roughly the same goals, and that the party shares the total number of successful influence checks. Games developed around intrigue can produce unusual situations, though, and it is possible that the PCs may be split into groups working at cross-purposes, or, more likely, toward unrelated goals, where each purpose is separate but not in direct conflict. For example, Valeros and Seelah may want to influence the NPCs in the king's court to support a war against the necromancer queen of a neighboring land, while Kyra and Ezren want to influence those same NPCs to gain support for Kyra to marry the princess. In such cases, each groups' number of successful influence checks should be tracked separately; if their goals are unrelated rather than conflicting, one group's influence over an NPC doesn't take that NPC out of play for the others, as it would for an opposing group."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -722,7 +722,7 @@
 	},
 	"benefits_of_influence": {
 		"name": "Benefits of Influence",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 105](source/ultimate_intrigue)",
@@ -742,7 +742,7 @@
 			"GMs also can use the influence system instead of Diplomacy to modify NPC attitudes. In this case, rather than using influence levels, each time the PCs successfully sway an NPC, the NPC's attitude toward the PCs improves by one step. Most NPCs start at indifferent or unfriendly. An NPC whose attitude is not at least indifferent will always refuse requests for aid."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -763,7 +763,7 @@
 	},
 	"countering_influence": {
 		"name": "Countering Influence",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 106](source/ultimate_intrigue)",
@@ -775,7 +775,7 @@
 			"For example, suppose Merisiel has achieved moderate sway over the mayor, and Ezren has achieved minor sway over the mayor. The DC for Ezren to influence the mayor with Diplomacy is 23, with two successful checks required, and the DC for Merisiel to influence the mayor with Diplomacy is 27, with three successful checks required (since it is harder for her to move from holding moderate sway to major sway). If Merisiel wanted to lower Ezren's influence over the mayor from minor sway to no sway, she would need to succeed at two DC 23 Diplomacy checks, with a +4 bonus from her moderate sway, to make a persuasive case that Ezren should not be trusted. Since the mayor is deeply religious, Merisiel reminds the mayor of Ezren's detachment from religion to gain another +2 bonus. On the other hand, if Ezren wanted to lower Merisiel's influence level with the mayor, he would need to succeed at three DC 27 Diplomacy checks, with a +2 bonus from his minor sway."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -804,7 +804,7 @@
 			"Over time, a PC's influence over an NPC is likely to wane if the PC doesn't keep in contact with her (and continue making influence checks every once in a while), depending on the influence's nature. Generally, the higher the influence level, the more effort the PC must commit and thus the faster the influence degrades with neglect. However, if the PCs achieve major sway over an NPC because she becomes deeply indebted to them, at the GM's discretion their influence level may not degrade until the NPC feels she has repaid that debt, making it a matter of favors rather than time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -875,7 +875,7 @@
 			"***Penalty:*** This section details what the PCs lose if they antagonize this NPC (if antagonizing her is possible)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"individual_influence"
@@ -896,7 +896,7 @@
 	},
 	"using_the_individual_influence_system": {
 		"name": "Using the Individual Influence System",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -904,7 +904,7 @@
 			"Individual influence is great for situations such as high-stakes auctions, political lobbying, or convincing a guard to let the PCs go after they are framed and imprisoned. The following example uses the influence rules as the framework for a classic murder mystery."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence"
 		],
@@ -930,7 +930,7 @@
 			"The PCs have been invited to a day of festivities at the estate of the hostess to discuss trade agreements and access to exotic markets. The hostess meets the PCs when they arrive late at night, sharing a drink with them before asking a servant to show them to their rooms in the nearby guest house (allow a single phase of influence or discovery checks against her during this time for the ostensible purpose of trade agreements). However, by the start of festivities the next morning, disaster strikes. A few minutes after the PCs and other guests begin arriving for breakfast, greeted by the hostess's second husband, the butler discovers the hostess's body. A brief argument ensues, with all the NPCs (and possibly the PCs as well) bickering about who should investigate and who might just be trying to hide evidence of the crime. Eventually, the NPCs agree that guards should accompany every person who leaves the drawing room, and the opportunity for influence begins. The PCs have a total of four phases in which to influence the NPCs and conduct their own investigations (under the guards' watchful eyes)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"using_the_individual_influence_system"
@@ -944,7 +944,7 @@
 	},
 	"what_happened": {
 		"name": "What Happened",
-		"subtitle": "Influence, Intrigue, Gamemastering",
+		"subtitle": "Influence, Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -952,7 +952,7 @@
 			"The hostess's close friend is in serious financial trouble, which she has hidden, continuing to present a veneer of wealth. To fund her continued lifestyle, she began to steal from the hostess. When the hostess caught her in the act, the close friend lashed out with a nearby object and accidentally killed the hostess. Horrified at what she had done and afraid of being caught, the close friend cleaned up the blood, then activated a scroll of dress corpse from the hostess's first husband's supply of scrolls, applied poison stolen from the butler's supplies, and moved the body to the bedroom, all while avoiding the night guards through her careful study of their patterns used to assist her previous larceny."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"using_the_individual_influence_system"
@@ -966,7 +966,7 @@
 	},
 	"the_value_of_influence": {
 		"name": "The Value of Influence",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 108](source/ultimate_intrigue)",
@@ -974,7 +974,7 @@
 			"Influenced NPCs allow the PCs access to additional clues or restricted areas, as mentioned in their social stat blocks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"using_the_individual_influence_system"
@@ -999,7 +999,7 @@
 			"",
 			"CN female human rogue",
 			"",
-			"***Affiliation*** The spy is ostensibly a minor member of a littleknown noble house.",
+			"***Affiliation*** The spy is ostensibly a minor member of a little-known noble house.",
 			"",
 			"***Secret Identity*** The spy is really an agent for a morally dubious merchant consortium.",
 			"",
@@ -1058,7 +1058,7 @@
 			"The second husband stands to inherit the hostess's vast fortune because she never had children. He is legitimately distraught by her death. The second husband is known to have insomnia and was out of his bedroom for the entire night. He was in the garden at the time of the murder, so he didn't notice anything. If the PCs gain sway over him, he allows them full access to the bedroom (the apparent murder scene)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"using_the_individual_influence_system"
@@ -1072,7 +1072,7 @@
 	},
 	"organizational_influence": {
 		"name": "Organizational Influence",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 109](source/ultimate_intrigue)",
@@ -1080,7 +1080,7 @@
 			"The organizational influence system provides the GM with tools to track the PCs' social cachet within organizations. Small organizations seeking to make their mark on society may allow the PCs a great deal of clout within them, but are limited in what they can offer. Large organizations, on the other hand, are typically more difficult to influence, but can bring much more power to bear on an area at large."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence"
 		],
@@ -1106,7 +1106,7 @@
 	},
 	"influence_points_and_ranks": {
 		"name": "Influence Points and Ranks",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 109](source/ultimate_intrigue)",
@@ -1144,7 +1144,7 @@
 			"***Respected, Admired, or Revered (Rank 2 or above):*** Helpful."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1184,7 +1184,7 @@
 			"***Revered (Rank 4):*** While the PCs are not the official leaders of the organization, they are key members. The PCs can direct and shape policy."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1222,7 +1222,7 @@
 			"Hunted (Rank -4): The organization seeks to discredit, humiliate, or kill the PCs, and is willing to sacrifice enough time, resources, and lives to markedly weaken itself in the pursuit of this goal. Even the organization's leaders may risk their lives in pursuit of the PCs' downfall."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1244,7 +1244,7 @@
 	},
 	"gaining_influence_points": {
 		"name": "Gaining Influence Points",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 110](source/ultimate_intrigue)",
@@ -1252,7 +1252,7 @@
 			"As the PCs perform tasks that benefit an organization, they gain influence points. Performing favors requested by an organization is the most effective way for the PCs to accrue influence points with that organization. A typical favor earns the PCs from 2 to 5 influence points, depending upon how difficult and dangerous the favor is to complete. See the [Favors](rule/favors) section for more details. The PCs can also accrue influence points with an organization by taking actions that coincidentally further the organization's interests. Such actions typically earn the PCs 1 or 2 influence points. For example, if the PCs apprehend a notorious jewel thief who has been stealing from their own coffers (as well as those of local nobles), they may gain an influence point with the local nobility. The PCs can also gain influence points by building trust with a member of the organization. The personal influence system found at the beginning of this section is one good way to create an encounter based around improving this NPC's opinion of the PCs, while the [verbal dueling](rule/verbal_duels) system is another. The number of organizational influence points that the PCs can earn from gaining the approval of a single NPC within the organization typically ranges from 1 to 5. Backing a rank-and-file member of the organization is worth at most 1 influence point, while the backing of one of an organization's leaders is worth 5 influence points, and may be worth more in extraordinary circumstances, at the GM's discretion."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1274,7 +1274,7 @@
 	},
 	"losing_influence_points": {
 		"name": "Losing Influence Points",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 110](source/ultimate_intrigue)",
@@ -1284,7 +1284,7 @@
 			"The most crippling blow to the PCs' reputation with organization is betrayal. To be considered traitors to the organization, the PCs must violate the organization's fundamental tenets while using the organization's own resources against it. If an organization that favors the PCs becomes convinced of the PCs' betrayal, the PCs immediately lose a number of influence points equal to twice their current total, essentially reversing their standing with the group. In general, the higher the PCs' influence rank, the more evidence the organization requires before it considers any accusations of treachery credible. If an organization declares the PCs traitors, it is possible (though difficult) for them to redeem their reputation. In general, this process requires the PCs to track down and discredit the source of the slanderous evidence. Doing so restores the PCs' original influence point total, and likely earns them additional rewards from the organization for unmasking the true threat against it. If they only partially exonerate themselves, they may regain some but not all of their influence points."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1318,7 +1318,7 @@
 			"As the campaign unfolds, the web of alliances and rivalries between organizations may shift. A sudden shift in allegiances does not retroactively adjust the PCs' influence point total."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1348,7 +1348,7 @@
 			"An organization's prominence represents the political and social power of that organization in its home community or area of influence. The categories of prominence are weak, moderate, strong, and preeminent. In general, a weak organization can provide only simple assistance within its limited area of concern. Most weak organizations are eager to recruit new members to increase their prominence, though some appreciate the lack of attention they draw from outside forces. A gang of pickpockets is an example of a weak organization. In comparison, a moderate organization holds an established place in the power structure of its local area, and has some connections and contacts with other local organizations. A thieves' guild is likely to be a moderate organization. A strong organization, on the other hand, may be at the top of the power structure for its area of concern, or it may be one of several organizations that hold power on a regional or national scale. The cathedral of a major deity in a state with multiple religious traditions is likely to be a strong organization. Finally, a preeminent organization is the undisputed head of the power structure in its sizable area of concern-the ruling body of a nation is an example of a preeminent organization, as is a merchants' guild that effectively controls trade in a large region."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1417,7 +1417,7 @@
 			"| 28 | Carry out the duties of a key member of the organization for 1 week. |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1451,7 +1451,7 @@
 			"If an organization figures out that the PCs are maintaining two separate identities, the PCs' influence point total for that organization may change drastically. If both sets of the PCs' identities are aligned with an organization, the PCs' influence point total may go as high as the sum of the points they earned under both identities. Conversely, if both sets of the PCs' identities are aligned against an organization, the PCs' influence point total may go as low as a negative number equal to the sum of the two. Adding the two values sometimes allows a single action to count twice-this reflects that the organization may either respect the PCs' dedication to their cause, or revile the PCs for their dedication to opposing it. In most cases, however, the resulting change in influence should be less extreme than a direct sum, even if the organization has a favorable opinion of both identities. If the PCs are working for two opposed organizations, see the last paragraph of [Losing Influence](rule/losing_influence_points) for details on how an organization responds to being betrayed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1505,7 +1505,7 @@
 			"***New Benefits:*** This section details the benefits the PCs can earn from the organization beyond those listed in the Common Benefits section."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1545,7 +1545,7 @@
 			"***Reciprocal Benefits:*** The organization leverages its ties to one of its closest allies for the PCs' gain. The PCs can purchase a benefit from the benefits list of a closely allied organization by expending two favors. Treat the PCs' influence rank with the allied organization as 1 lower than their rank with the initial organization."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"influence",
 			"organizational_influence"
@@ -1567,7 +1567,7 @@
 	},
 	"heists": {
 		"name": "Heists",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 118](source/ultimate_intrigue)",
@@ -1579,7 +1579,7 @@
 			"An ideal heist allows every character in the party a chance to shine, making it fun for everyone involved."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -1615,7 +1615,7 @@
 			"Parties will often split up for a heist. The GM should treat each member of the party (or subgroups of two or three) as if she were an individual adventuring group, and provide opportunities for all characters to showcase their respective skills. Working backward, consider each hero's strengths and each player's interests, and then present an obstacle against which that hero is most likely to excel. In a well-planned heist, every character (and by extension, player) needs an opportunity to take center stage-PCs will naturally gravitate toward activities at which they excel, and will want to build their heist schemes around those skills. Making sure the pieces of the heist interconnect-that many goals can be achieved only by characters working on different tasks in tandem-ensures that each player has a stake in what the others are doing. This sense of teamwork is the driving force behind making a heist rewarding for everyone involved."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists"
 		],
@@ -1629,7 +1629,7 @@
 	},
 	"building_a_heist": {
 		"name": "Building a Heist",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 118](source/ultimate_intrigue)",
@@ -1651,7 +1651,7 @@
 			"In a heist, often only two characters work together, and single characters may work alone, independently of the rest of the party. In this case, the subgroup or individual functions as a separate adventuring party with its own Average Party Level (APL). GMs can judge how difficult to make an individual task by applying an appropriate Challenge Rating to it. In the [Designing Encounters](rule/designing_encounters) section of the Pathfinder RPG Core Rulebook recommends subtracting 1 from the APL for a group of three or fewer players. When considering how many guards a single character should be able to take out, or how difficult a trap a thief should be able to disarm, GMs should set the Challenge Rating according to this formula. Every character should be handling tasks that play to his or her strengths, so the challenge ought to be appropriate despite operating alone. Easy and average encounters should make up the bulk of heist obstacles, since a single character or a duo is already behind the curve for the expected power of a three-person party."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists"
 		],
@@ -1695,7 +1695,7 @@
 			"***Test Security:*** This type of heist is really a trial or practice run designed to test existing security systems. The owners of the target hire the PCs to fake a heist in order to expose any weaknesses in the security. A security test can bring a big payout or earn valuable favors. Alternatively, the hiring party might not want the weaknesses of its security system known, and might turn to lethal tactics to keep the PCs silent. However, it might make a good single-session palate cleanser between adventures with higher stakes. In this type of heist, a valueless object typically serves as a stand-in for the goal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"building_a_heist"
@@ -1723,7 +1723,7 @@
 			"***Complex:*** A complex heist includes five or more obstacles per person and could take a week, a month, or even longer to complete. This is the centerpiece of a major campaign arc and requires planning over an extended period of time. The heist itself will likely dominate multiple gaming sessions and drive a central plot thread in the campaign. Examples of major heist arcs include stealing the crown jewels from a heavily guarded castle or smuggling a political prisoner and his family out of enemy territory. Large, complex heists require days or weeks of reconnaissance, placing people on the \"inside\" in trusted roles, side adventures to acquire detailed floor plans, timed practice runs, and intimate knowledge of traps, tricks, and spells. This is the kind of intricate thievery around which entire movies or thriller novels are built."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"building_a_heist"
@@ -1769,7 +1769,7 @@
 			"***Misdirection and Hidden Items:*** A well-secured fortress might appear to hold a modest treasure, when in reality the true prize is somewhere else entirely. Magical invisibility or illusions can aid in concealing an item. Extradimensional magic can secure a valuable item far from reach. Misdirection can be overcome with bribery, observation, or divination spells, any of which might allow the PCs to find the goal's true location."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"building_a_heist"
@@ -1795,7 +1795,7 @@
 			"***Don't Overplan:*** A heist should be fairly loose and forgiving for the PCs. GMs should make some obstacles optional and provide flexibility in finding solutions. No GM can anticipate for every possible approach players may attempt, and GMs should try to leave room for the players to bring their own ideas to the table. No defense is forever or totally impregnable-and no NPC is perfect in their power or position. Allow the players to discover gaps in the defenses and exploit them in new and inventive ways rather than creating a rigid structure they must tackle exactly as planned. The heist diagram serves as a good tool, but as with a dungeon map, GMs should always be prepared to revise it or throw the whole thing out as unexpected events crop up."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"building_a_heist"
@@ -1809,7 +1809,7 @@
 	},
 	"running_a_heist": {
 		"name": "Running a Heist",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 122](source/ultimate_intrigue)",
@@ -1817,7 +1817,7 @@
 			"With the preparations complete, it's time for the heist itself. There are two main parts to this process: planning and execution."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists"
 		],
@@ -1856,7 +1856,7 @@
 			"Simple heists involve shorter planning sessions, with most of the information the PCs require available immediately. For a moderate or complex heist, the planning stage might involve some small scenes, including interacting with NPCs, gathering information from a community, or scouting out the location where the heist will take place."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"running_a_heist"
@@ -1869,7 +1869,7 @@
 	},
 	"executing_the_heist": {
 		"name": "Executing the Heist",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 123](source/ultimate_intrigue)",
@@ -1889,7 +1889,7 @@
 			"The players might come up with their own contingency plans during the planning stage. Because heists in fiction tend to have twists and turns that require the crew to be cleverer than their opposition, be forgiving with the details when contingencies come up. Assume that the characters did have some ideas in their back pockets, and play a little loose with the rules if necessary. GMs might allow each player one contingency they have set up for the heist (typically for a moderate or complex heist). When the plan hits a snag, the characters involved can call in their contingency-turns out they had planned for just such a situation, and had the proper tools, documents, or knowledge at hand to meet the challenge. This doesn't let them overcome an obstacle automatically, but might let them try again after a failure or attempt a check they wouldn't have been able to even try without the advantage they revealed with their contingency."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"running_a_heist"
@@ -1956,7 +1956,7 @@
 			"Disguise has an advantage over stealth, as sometimes not everyone in the party needs to be disguised for a plan to work. For instance, one or more characters might disguise themselves as bounty hunters or guards bringing in the others in chains. [Breakaway chains](equipment-misc/breakaway_chains) and [false manacles](equipment-misc/false_manacles) allow PCs to appear chained while able to easily free themselves. Even a good disguise fails, however, if the character can't play the assumed persona convincingly. The best disguises are often as people unlikely to be questioned or engaged in conversation-servants, laborers, and guards. A brazen infiltrator might pretend to be someone in authority, such as a foreign noble or a military officer, relying on aloofness or brusqueness to avoid questions. For a group, one character can be disguised as an authority figure while the rest play her servants. This provides a built-in excuse for party members to defer to the PC with the best social skills."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"running_a_heist"
@@ -1969,7 +1969,7 @@
 	},
 	"example_heist": {
 		"name": "Example Heist",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 126](source/ultimate_intrigue)",
@@ -1991,7 +1991,7 @@
 			"And so it goes, as the Game Master reveals the manor's defenses and the players figure out their way of dealing with them. The heist that the group plans and executes is different from what the GM guessed it might be. However, the whole group still has a good time pulling off the heist and the players all get a chance for their characters to shine."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists"
 		],
@@ -2015,7 +2015,7 @@
 			"Infiltration covers both a direct infiltration with a single, set goal (similar to a heist) and long-term espionage that requires living a double life and has a less specific goal. Infiltration ranges from breaking and entering to using social skills to get inside a location. Infiltration usually requires the Stealth and Disguise skills, and often social skills and Sleight of Hand as well."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists"
 		],
@@ -2049,7 +2049,7 @@
 			"***Perform Reconnaissance:*** The infiltrator is attempting to gather information about a location and its inhabitants. Details of the location's defenses and defenders, as well as its strategic targets, allow her and her allies to be prepared for subsequent assaults, heists, or investigations against that location. Eavesdropping on a suspected criminal could allow the PC to catch him red-handed at his next crime or reveal the identities of others involved in the criminal operation. A less scrupulous character might use reconnaissance to blackmail a target by threatening to exploit or expose the secrets she discovers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"infiltration"
@@ -2075,7 +2075,7 @@
 			"***Long-Term:*** This covers long-term espionage, and requires the PC to create a cover story or alternate identity. It plays out over the course of several sessions, but usually takes up 10 minutes or less per session. Rather than having a set number of obstacles to obtain a single goal, put two obstacles in front of the PC as she tries to infiltrate the organization or befriend the target. Then provide a single obstacle or two each session in which the PC attempts to get something out of the infiltration. Provide a minor piece of useful information for each obstacle overcome, or a more important piece at certain intervals (typically after the PC has overcome four or five obstacles). Structure the secrets of the organization in layers from the least secret to the most secret, so the PC gets closer and closer to the innermost levels of the organization. People from the organization the PC is infiltrating might encounter the PC elsewhere, in which case she might need to quickly adopt her cover or avoid being noticed. Long-term espionage can go on indefinitely, but each time the PC fails to overcome an obstacle, the organization or target becomes more suspicious of her true agenda. After three failures (or one egregious failure), the interloping character's motivation is revealed unless she takes extraordinary steps to repair her reputation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"infiltration"
@@ -2115,7 +2115,7 @@
 			"***Wealthy Visitor:*** Self-made merchant, seeking employees to buy and sell goods for her; hedonistic socialite, looking to hire locals to throw a big party; vacuous heir, looking for property to buy; gambler, trying to find players for a high-stakes game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"infiltration"
@@ -2137,7 +2137,7 @@
 			"When carrying out a long-term infiltration, characters should strive to keep their personas as easy to maintain as possible, and shouldn't rely on disguises or magic to alter their appearance, instead using relative anonymity to avoid recognition. An infamous face might eliminate this option, however, and necessitate a long-term disguise. Adjusting mannerisms, modes of dress, and speech are all easier than maintaining physical disguises. Using spells to maintain a persona is particularly risky-longlasting spells are generally needed, and the longer the charade goes on, the more likely a spy is to encounter someone who can see through an illusion or detect the magical effect."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"heists",
 			"infiltration"
@@ -2151,7 +2151,7 @@
 	},
 	"leadership": {
 		"name": "Leadership",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 130](source/ultimate_intrigue)",
@@ -2159,7 +2159,7 @@
 			"Social interactions and the bonds between people are some of the most important elements in any story. One of the best ways to portray those ties and bring a supporting cast of NPCs to life is through the [Leadership](feat/leadership) feat, though getting the most out of it can sometimes be a challenge for both players and GMs. This section offers an in-depth overview of the [Leadership](feat/leadership) feat, presenting suggestions for how to include cohorts and followers in your game and incorporate them into various rules systems."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -2186,7 +2186,7 @@
 	},
 	"leadership_modifiers": {
 		"name": "Leadership Modifiers",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 130](source/ultimate_intrigue)",
@@ -2208,7 +2208,7 @@
 			"***Other Modifiers from the Core Rulebook:*** The other modifiers from the Core Rulebook, such as having a familiar, recruiting a cohort of a different alignment, or causing deaths, are simpler to adjudicate. Many characters qualify for having a guildhouse or base of operations, gaining a +2 bonus to their Leadership scores specifically for the purpose of followers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"leadership"
 		],
@@ -2223,7 +2223,7 @@
 	},
 	"high_leadership_scores_and_followers": {
 		"name": "High Leadership Scores and Followers",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 130](source/ultimate_intrigue)",
@@ -2233,7 +2233,7 @@
 			"For example, a character with a Leadership score of 27 would have 202 1st-level followers, 20 2nd-level followers, 10 3rd-level followers, five 4th-level followers, three 5th-level followers, and two 6th-level followers. Meanwhile, a character with a Leadership score of 26 would have 168 1st-level followers, 16 2nd-level followers, eight 3rd-level followers, four 4th-level followers, two 5th-level followers, and two 6th-level followers (due to the exception)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"leadership"
 		],
@@ -2248,7 +2248,7 @@
 	},
 	"loyalty_and_the_leadership_feat": {
 		"name": "Loyalty and the Leadership Feat",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 131](source/ultimate_intrigue)",
@@ -2260,7 +2260,7 @@
 			"Some groups have players with the Leadership feat run their cohorts during combat to take the burden of running additional NPCs off the GM. This method can still be used in a campaign where cohorts and followers might betray the PCs, but the GM should remind players that she might make adjustments to a cohort's proposed actions every once in a while. For more advice on running cohorts, see the [companions system](rule/controlling_companions)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"leadership"
 		],
@@ -2282,7 +2282,7 @@
 			"",
 			"Cohorts traditionally function as fellow adventurers, and followers function as background characters who perform tasks to help the PCs behind the scenes. There are plenty of other things for these characters to do, however, such as aiding in downtime activities or kingdom-building. The options below make followers more involved in campaigns, and also provide alternatives for groups that want to enjoy the character interaction from having cohorts but don't want more characters in combat.",
 			"",
-			"***Contacts:*** When using the [contacts rules](rule/contacts), a cohort or a follower can act as a contact. Followers typically have a Trust score of 3 or 4, whereas a cohort always has a Trust score of 5. Using followers and cohorts as contacts is a good way to keep them in the background and away from the direct spotlight.",
+			"***Contacts:*** When using the [contacts rules](rule/contacts), a cohort or a follower can act as a contact. Followers typically have a [Trust score](rule/trust) of 3 or 4, whereas a cohort always has a Trust score of 5. Using followers and cohorts as contacts is a good way to keep them in the background and away from the direct spotlight.",
 			"",
 			"***Downtime:*** The [downtime system](rule/downtime) already interfaces with the [Leadership](feat/leadership) feat. A character can use followers as labor or organize them into teams, and can appoint a cohort or a notable follower to serve as a manager for her business. See [Using Followers](rule/using_followers) for more details.",
 			"",
@@ -2301,7 +2301,7 @@
 			"***Verbal Duels:*** A clever PC can stack the deck in her favor by seeding followers into an audience before a [verbal duel](rule/verbal_duels) in an attempt to gain an edge or at least counter negative biases."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"leadership"
 		],
@@ -2316,7 +2316,7 @@
 	},
 	"variant_leadership": {
 		"name": "Variant Leadership",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 132](source/ultimate_intrigue)",
@@ -2331,7 +2331,7 @@
 			"- [Weapon Bearer](feat/weapon_bearer)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"leadership"
 		],
@@ -2346,7 +2346,7 @@
 	},
 	"nemeses": {
 		"name": "Nemeses",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 136](source/ultimate_intrigue)",
@@ -2354,7 +2354,7 @@
 			"Over the course of their adventuring careers, player characters face many obstacles and enemies. Only a true nemesis, though, continually tests the PCs, seeking to foil them at every turn. Whether it's a corrupt magistrate thwarting the PCs' efforts to bring order to a town, or a fellow adventurer sabotaging their attempts to curry favor with the king, a nemesis can be the PCs' most memorable foe-particularly if he's an adversary they've made through their own choices. This section provides detailed guidelines to help GMs create recurring villains who are memorable and who possess recourses beyond normal foes. A system of escalating nemesis stratagems helps rivalries intensify over multiple engagements. It also presents suggestions for encounter adjustments and increased XP rewards you might provide to make facing a nemesis deadlier, but also more rewarding. Each foiled strategem should provide the PCs with an opportunity to strike back against their foe, potentially launching into new adventures plotted to go along with the PCs' schemes. These new adventures are also almost certain to deepen the grudge between the characters and their nemesis."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -2379,7 +2379,7 @@
 	},
 	"provoking_a_nemesis": {
 		"name": "Provoking a Nemesis",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 136](source/ultimate_intrigue)",
@@ -2405,7 +2405,7 @@
 			"| 9 or higher | Intense |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses"
 		],
@@ -2428,7 +2428,7 @@
 			"This back and forth between the PCs and their nemesis should culminate in a natural, plot-driven conclusion - such as a dramatic final encounter or the end of a campaign arc. Such interplay works best if there is a reason that the nemesis and PCs haven't faced one another in combat until this climax. PCs tend to find ways to kill enemies with even the most foolproof-seeming escape plans, and using storytelling tricks to save the nemesis can breed resentment among players. Nonetheless, if a nemesis somehow dies early but still has plenty of resources, the nemesis may be able to manage a [resurrection](spell/resurrection)-just like the PCs would if one of their own died in the struggle. Unless special events (or even deliberately laid stratagems) deem otherwise, a nemesis likely continues to antagonize the PCs until either he dies or somehow reconciles with his foes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses"
 		],
@@ -2449,7 +2449,7 @@
 			"A nemesis typically only employs one stratagem at a time. Only if the PCs continually cause the nemesis major setbacks will he use two stratagems simultaneously. A nemesis typically employs stratagems appropriate for his current Nemesis Level and that tie into the archetype or modus operandi that you've chosen for the villain (see [Nemesis Personas](rule/nemesis_personas)). Occasionally a lesser strategy might make sense for a nemesis after he's endured a lesser setback, but he should never employ a stratagem meant for a higher Nemesis Level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses"
 		],
@@ -2482,7 +2482,7 @@
 			"***High:*** The PCs gain XP as if they had defeated an encounter with a CR equal to their APL - 1."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses",
 			"stratagems"
@@ -2564,7 +2564,7 @@
 			"If the PCs discover the tail, they might trick it into reporting false information to the nemesis. Alternatively, they might capture or have their tracker arrested, denying their enemy a useful ally."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses",
 			"stratagems"
@@ -2676,7 +2676,7 @@
 			"Intending to use it to overbear the unprepared PCs, the nemesis's agents possessed more valuable treasure than usual or had one of the nemesis's useful magic items in their possession. Upon defeating their foes, the PCs gain a useful treasure for themselves."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses",
 			"stratagems"
@@ -2768,7 +2768,7 @@
 			"Using his trump card brings considerable attention to the nemesis, perhaps from the law, the trump card's former owner, or a deadlier creature that wants this advantage for itself. The PCs might temporarily ally with this creature, or use its antagonism to their advantage."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses",
 			"stratagems"
@@ -2782,7 +2782,7 @@
 	},
 	"nemesis_personas": {
 		"name": "Nemesis Personas",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 141](source/ultimate_intrigue)",
@@ -2800,7 +2800,7 @@
 			"***Trickster:*** The nemesis is an agent of chaos, a troublemaker who may act with malice or out of pure capriciousness. The trickster respects no laws, authorities, or systems of control. He may be prone to acts of charity when the mood strikes. He may even be a hero to some, but he may just as quickly turn on those who supported him, or abandon them for a new scheme altogether. The trickster's opposition to the PCs may be a perverse social experiment to undermine their principles or to disrupt the world around them. Or, it may be just a game to him, and the PCs are simply too much fun to ignore."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"nemeses"
 		],
@@ -2813,7 +2813,7 @@
 	},
 	"pursuit": {
 		"name": "Pursuit",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -2823,7 +2823,7 @@
 			"There are two main types of pursuits. In a direct pursuit, the pursuers are following another group's trail wherever it may lead, with the express goal of catching up to their quarries. In this type of pursuit, the pursuers don't know where the quarries will go-they're forced to follow the trail that their prey left behind. By contrast, in a race, both sides know the destination, and the pursuers simply want to get there first, perhaps to catch their quarries or prevent them from acquiring something at the destination."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -2865,7 +2865,7 @@
 			"***Group Progress:*** The group's progress is equal to the lowest personal progress in the party. Tactics and advantages, as explained later, can give characters ways to improve the speed of the whole group."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -2881,7 +2881,7 @@
 	},
 	"building_a_pursuit": {
 		"name": "Building a Pursuit",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -2891,7 +2891,7 @@
 			"When running a pursuit, it helps to have a visual aid of the area where the pursuit takes place. If the GM is using a published adventure or otherwise has access to a nice-looking map of the region, it might be interesting to have a map big enough for miniatures or tokens to sit on each tile. The GM can then draw in the tiles, providing a bit of a game board to help the players visualize the pursuit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -2911,7 +2911,7 @@
 	},
 	"direct_pursuits": {
 		"name": "Direct Pursuits",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 142](source/ultimate_intrigue)",
@@ -2925,7 +2925,7 @@
 			"***Ending a Direct Pursuit:*** A direct pursuit can end in one of four ways. When the pursuers are on the same tile as the quarries and have made equal or greater progress than the quarries, the pursuers catch their quarries. When the quarries reach a location where they stop progressing (such as a safe haven or stronghold), pursuit ends and may turn into a siege. When the pursuers can't possibly succeed at the Survival check to continue tracking their quarries and have exhausted any other tactics that might help relocate the trail, their quarries have eluded them. Finally, the pursuers can voluntarily give up the pursuit. Optionally, the GM can choose a distance at which the quarries are so far ahead that the pursuers have no real chance of catching up. For instance, the GM might decide that if the quarry group is five tiles ahead of the pursuers, they've escaped; this number might be smaller in jungles or other dense terrain."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit",
 			"building_a_pursuit"
@@ -2945,7 +2945,7 @@
 			"In a race, both groups have far more options in their travels. As with a direct pursuit in which the PCs are the quarries, the GM should include more options for terrain tiles than just a linear path. The two groups might start on different tiles and move through different types of terrain during the race. A race features no quarry or pursuer. A race ends when one group reaches the designated destination."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit",
 			"building_a_pursuit"
@@ -2957,7 +2957,7 @@
 	},
 	"running_a_pursuit": {
 		"name": "Running a Pursuit",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 143](source/ultimate_intrigue)",
@@ -2967,7 +2967,7 @@
 			"Each day of pursuit consists of eight 1-hour pursuit phases. Pursuits take place over a long period of time and cover plenty of ground, so pursuers and quarries might encounter terrain tile denizens or environmental hazards along the way. Consider using these encounters to provide spikes of tension and to control the pursuit's pacing."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -2984,7 +2984,7 @@
 	},
 	"direct_pursuits_and_tracking": {
 		"name": "Direct Pursuits and Tracking",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 143](source/ultimate_intrigue)",
@@ -2994,7 +2994,7 @@
 			"The pursuing group has one main tracker, but other members can assist using the aid another action. Any pursuer participating in tracking (either as the main tracker or assisting) halves her personal progress for that pursuit phase. If the tracking pursuer has a much greater speed than the slowest member of his group, this might not lower the group's progress."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit",
 			"running_a_pursuit"
@@ -3149,7 +3149,7 @@
 			"A lake or an area with many rivers counts as a water tile. Because such a tile contains little ground, Survival checks to track involve following wakes or looking for refuse quarries left behind, functioning the same as hard ground. Rapids might cause a water tile to take more progress to complete, and water features with currents typically have more maximum advantages. A group traveling on water usually needs a boat or raft, and uses the speed of that vessel. Swimmers must attempt a DC 20 Swim check for each 1-hour pursuit phase or take 1d6 points of nonlethal damage (See the [Swim](skill/swim) skill for more information). The [special movement tactic](rule/individual_tactics) allows a creature with a swim speed to traverse water rapidly."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -3165,7 +3165,7 @@
 	},
 	"pursuit_advantages": {
 		"name": "Pursuit Advantages",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 145](source/ultimate_intrigue)",
@@ -3179,7 +3179,7 @@
 			"Checks attempted to gain an advantage represent an entire hour's worth of checks, so temporary modifiers that don't last the entire time cannot be applied. These skills can't be rerolled by an effect that would reroll a single check, and the character can't take 10 or 20."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -3224,7 +3224,7 @@
 			"***Tight Squeeze (Underground):*** A character can attempt an Escape Artist check to fit more quickly and easily through narrow tunnels. This allows her to scout ahead to find more direct passages, set explosives to open up passages, or otherwise clear the way for allies. The DC varies depending on how tight the squeeze is."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit",
 			"pursuit_advantages"
@@ -3233,7 +3233,7 @@
 	},
 	"pursuit_tactics": {
 		"name": "Pursuit Tactics",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 146](source/ultimate_intrigue)",
@@ -3241,7 +3241,7 @@
 			"Tactics are the key to shaking a tenacious pursuer or capturing an elusive quarry. The following tactics present many of the most basic methods for doing so, but if the PCs come up with a new tactic, the GM should use these examples as guidelines. Tactics can affect a single character, multiple characters, or the whole group. There is no limit to how many tactics a character or group can use, but common sense prevents using two contradictory tactics. Characters and groups decide which tactics they are using for each 1-hour pursuit phase, though some last for multiple phases or until the characters using them decide to stop. Some tactics require the group to be either the pursuers or the quarries, and can't be used in races."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -3277,7 +3277,7 @@
 			"***Special Movement:*** A character with consistent access to a fly speed, swim speed, or the like for a full pursuit phase might be able to move particularly quickly over the appropriate type of terrain; though, for instance, a character flying above a jungle canopy would not be able to follow a trail below."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit",
 			"pursuit_tactics"
@@ -3309,7 +3309,7 @@
 			"***Split Up:*** This tactic allows a group to split into multiple groups. For example, quarries might choose to do so to ensure that at least one character gets away (or to send off a decoy group that doesn't carry what the pursuers want), whereas pursuers might choose to do so in order to attempt more Survival checks and have a greater chance not to lose the trail, or they might leave a tired but faster character behind to catch up later. Pursuers who split up will probably need to use magic, a smoke signal, or other means to arrange a rendezvous. This makes the pursuit more complicated, so GMs might want to consider restricting this tactic for their groups' first few pursuits."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit",
 			"pursuit_tactics"
@@ -3339,7 +3339,7 @@
 			"***Unconscious:*** An unconscious character has a personal progress of 0, and can't increase it as long as she remains unconscious. As with fatigue and exhaustion, the character must take this penalty for the entire phase in which she recovers from unconsciousness."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"pursuit"
 		],
@@ -3355,7 +3355,7 @@
 	},
 	"research": {
 		"name": "Research",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 148](source/ultimate_intrigue)",
@@ -3367,7 +3367,7 @@
 			"These rules can represent researching any repository of lore or knowledge: an actual library, a vast historical archive, a complicated legal contract, a city's hall of records, a hoard of ancient scrolls, a magical tome of esoteric lore, a wizard's personal collection of books and scrolls, or even a psychic's memory palace. For the purposes of these rules, however, the term \"library\" is used to represent all of these possibilities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -3409,7 +3409,7 @@
 			"When a library's knowledge points are reduced to 0, the characters have learned everything they can from that library, and gain experience points according to the library's CR. To learn additional information, they must visit another library and continue their research there."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"research"
 		],
@@ -3422,7 +3422,7 @@
 	},
 	"research_by_expertise": {
 		"name": "Research by Expertise",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 148](source/ultimate_intrigue)",
@@ -3436,7 +3436,7 @@
 			"However, certain character classes might be better suited for research in specific libraries that have collections focusing on fields of study particularly relevant to those classes and their abilities. For example, a cleric or inquisitor researching in a religious library connected to her faith might be considered a scholar or even a polymath instead of a novice, or a cavalier or warpriest undertaking research at a famous war college might be considered a scholar while arcanists and wizards are treated as novices."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"research",
 			"using_a_library"
@@ -3494,7 +3494,7 @@
 			"Once you have determined the number and frequency of a library's research thresholds, decide the specific piece of information revealed at each research threshold. Every bit of knowledge gained at a research threshold should be unique, based on the story you want to tell or the topic the characters are researching. However, the new information might build on the old, narrowing it down with more specific details and useful facets."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"research"
 		],
@@ -3533,7 +3533,7 @@
 			"***Specialized Skills:*** Instead of assigning specific Knowledge skills to a library's Research check, you can use Linguistics as the default Research check skill, and assign specialized skills that reflect the specific nature of the library's collections. To carry out research in such a library, a character must succeed at a Linguistics check or at one of the specialized skill checks listed in the library's stat block. The Linguistics check follows all of the normal rules for Research checks, but if a researcher uses the more specialized check to perform her research, she gains a +2 circumstance bonus on the check for using precisely the correct skill for that library, as opposed to the more general use of Linguistics. This element otherwise follows all of the other rules for Research checks. Any skill, not just Knowledge skills, can be a specialized skill. For example, a military library might have Profession (soldier) as a specialized skill, an archive of famous plays might use Perform (act), or a tome of arcane magic might allow Spellcraft as a specialized skill. The circumstance bonus from specialized skills replaces the general bonus to Knowledge checks a library would otherwise grant; thus if the library is particularly helpful, it might grant more than a +2 circumstance bonus."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"research",
 			"designing_a_library"
@@ -3542,7 +3542,7 @@
 	},
 	"spells_of_intrigue": {
 		"name": "Spells of Intrigue",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 154](source/ultimate_intrigue)",
@@ -3552,7 +3552,7 @@
 			"The following section offers advice on certain spells particularly likely to see use in an intrigue-focused game, organized by level of play and spell school."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -3585,7 +3585,7 @@
 			"At early levels, the number of spells available is smaller, but these are sometimes the most important spells to understand. Low-level spells of intrigue (typically 3rd level or lower) can remain useful at high levels, and high-level characters can cast them far more often."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue"
 		],
@@ -3668,7 +3668,7 @@
 			"**[Create Treasure Map](spell/create_treasure_map):** This spell allows the PCs to gain a map to whatever a dead creature considered most valuable. Since the spell indicates that the value is subjective and might include intangibles, such as a mate or a favorite place to find food, the spell usually offers numerous opportunities for other interesting adventures. It does this without forcing the GM's hand on any particular issue, particularly since it takes an hour to cast, costs 100 gp, and requires the particularly ghoulish task of using a corpse's skin as the map. Sometimes, however, there is just no way around it: the evil cultist who worships the mad artifact as a god certainly considers it to be the most valuable treasure in the area, for instance. In these cases, one countermeasure that also protects against various other divinations is to ensure that the villain's underlings have some level of misinformation, or no information at all. For instance, the cult leader might allow her lackeys to believe that the artifact is always housed within their secret but insecure temple, while in reality, she usually switches it for an elaborately trapped fake. Since [create treasure map](spell/create_treasure_map) can't account for inconsistencies or holes in a creature's knowledge, even blindfolding cult members or using teleportation to bring them to the worship chamber would prevent them from leaking its secret location."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"low-level_play_1-6"
@@ -3696,7 +3696,7 @@
 			"**[Suggestion](spell/suggestion):** [Suggestion](spell/suggestion) and its ilk, on the other hand, actually are mind-controlling spells. The key to [suggestion](spell/suggestion) is that it has to be presented in a reasonable fashion-and certain suggestions would simply never be reasonable for the target in question. The more creative the player, or the sharper his understanding of an NPC's motivations, the more often he can use this spell to his advantage. Players should be rewarded for this type of ingenuity, especially at lower levels when [suggestion](spell/suggestion) is one of the most powerful spells available. In mid-level play (or for a resourceful low-level villain), adversaries might start to succeed at Sense Motive checks to notice [suggestion](spell/suggestion) effects, potentially using [protection from evil](spell/protection_from_evil) or similar spells to either protect against them or end ongoing compulsions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"low-level_play_1-6"
@@ -3730,7 +3730,7 @@
 			"Using that as a basis, interacting generally means spending a move action, standard action, or greater on a character's part. For example, if there were a [major image](spell/major_image) of an ogre, a character who tried to attack the ogre would receive a saving throw to disbelieve, as would a character who spent 1 minute attempting a Diplomacy check on the ogre. A character who just traded witty banter with the ogre as a free action would not, nor would a character who simply cast spells on herself or her allies and never directly confronted the illusory ogre. For a glamer, interacting generally works the same as for a figment, except that the interaction must be limited to something the glamer affects. For instance, grabbing a creature's ear would be an interaction for a human using [disguise self](spell/disguise_self) to appear as an elf, but not for someone using a glamer to change his hair color. Similarly, visually studying someone would not grant a save against a glamer that purely changed her voice."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"low-level_play_1-6"
@@ -3756,7 +3756,7 @@
 			"This might seem like a surefire way to ruin any murder mystery, but there are mitigating factors that need to be taken into account. First, the corpse's knowledge is limited to what the creature knew while it was alive. A murderer's best recourse to avoiding this spell is using a disguise or stealth, so that the victim doesn't learn the killer's identity. Second, if the corpse is in no condition to speak, that stops [speak with dead](spell/speak_with_dead) (though there are spells that can repair a corpse). Third, the spell allows a saving throw, and whether or not it succeeds, the spell fails for the next week, so a murderer can cast [speak with dead](spell/speak_with_dead) herself to forestall future castings. Such precautions on the part of the murderer, however, give the PCs more information about her, so it advances the plot and the investigation in an interesting way. Finally, the corpse's answers are brief, cryptic, and repetitive; a corpse could provide an interesting clue that furthers the investigation, rather than allowing the PCs to abruptly solve the whole thing."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"low-level_play_1-6"
@@ -3778,7 +3778,7 @@
 			"The spells that come into prominence around 7th level can greatly affect campaigns, making it more complicated to run mysteries and interaction-heavy adventures. These spells are typically 4th level or higher."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue"
 		],
@@ -3808,7 +3808,7 @@
 			"[Teleport](spell/teleport): [Teleport](spell/teleport) is like [dimension door](spell/dimension_door), but adds considerably to the range and versatility. However, it is important to note that [teleport](spell/teleport) has several special limitations built into the spell. For one thing, the caster needs to know both the layout of the destination as well as where it is physically located. If the caster has managed to use divinations to see the layout of a secret hideout, it still won't do any good unless she knows where it is. Second, areas of strong physical and magical energy may make teleportation more hazardous or even impossible. Many GMs forget this important component, which actually gives the villain a good in-game reason to establish a secret volcano lair or build her fortress on a ley line. This advice applies equally well to [greater teleport](spell/greater_teleport), although the results of a failed teleportation are less dire."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"mid-level_play_7-12"
@@ -3857,7 +3857,7 @@
 			"**[Stone Tell](spell/stone_tell):** This one is similar enough in nature to [speak with animals](spell/speak_with_animals) and [speak with plants](spell/speak_with_plants) that much of the same advice is applicable for you to apply. Play up the stones's different way of thinking, including how they view the world and events on a much longer timescale than most living beings."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"mid-level_play_7-12"
@@ -3882,7 +3882,7 @@
 			"First, the creature never takes obviously self-destructive actions. The spell doesn't mention whether this means only bodily harm, but there are many sorts of destruction beyond the physical. For instance, a command to make a king announce something that will obviously irreparably destroy his reputation and tear his kingdom apart likely counts. Even if something isn't obviously self-destructive, each time a command forces the dominated person to take actions against his nature, he receives another saving throw with a +2 bonus. It's up to you to determine how often to give these new saving throws if orders result in many successive acts against a character's nature, but be fair in applying them at the same rate for both PCs and NPCs. Since being dominated can be highly frustrating for PCs, you can consider choosing a particularly fast rate in applying these new saving throws in both cases, though be sure to let the PCs know about this if it looks like they can use a dominate effect before the NPCs do. The advice here also applies to [dominate monster](spell/dominate_monster)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"mid-level_play_7-12"
@@ -3927,7 +3927,7 @@
 			"[Vision](spell/vision): Compared to [legend lore](spell/legend_lore), [vision](spell/vision) takes much less time to cast, causes fatigue, and requires a caster level check to succeed. Stylistically, the big difference is that the caster sees a single vision rather than hearing information from numerous legends. The character also gets to ask a particular question to narrow the scope of the spell, so that one vision is likely to be related to a topic about which the character really wants to know. For a vision spell, put some good thought into exactly what the PC sees, and try to describe it as vividly as possible with plenty of visual details. You can tailor the vision to show the most-interesting visual snippet related to the question the PC asked. By describing what the PC sees as if she were there, you make the spell an experience rather than a simple information dump. The PC must still interpret what she saw. You may even wish to take the spellcaster's player to another room and describe the vision, then let her return to describe and interpret what her spell revealed to the rest of the party. Sometimes the caster will focus on one of the visual details when another was an even greater clue, which she only discovers later on in an exciting moment of revelation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue"
 		],
@@ -3948,7 +3948,7 @@
 			"The following detailed example puts some of the above advice into practice, using two of the most difficult spells to adjudicate, divination and vision. The GM in this example provides different sets of clues to her players with each spell that help point them toward the mystery's solution only when examined together."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue"
 		],
@@ -3978,7 +3978,7 @@
 			"The PCs receive a plea from the current king of Gaheris, asking them to investigate the cause of the streak of arson, which has been targeting members of his family. Kyra casts [divination](spell/divination) with the goal of solving the arsons and Ezren casts [vision](spell/vision), hoping to learn about the true source of the arsons."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"example_of_intrigue_spells"
@@ -4011,7 +4011,7 @@
 			"***Interpretation:*** When read aloud, the first line of the poem contains a homophone of the word \"witch.\" The verse references the witchfire's escape when the wall of the tomb was chipped away. The witchfire's vengeance, or payment as the poem describes it, has just been delayed. The cave mouth is a blackened yawn, and the \"first\" pyre is the one where the hag was burned, though the PCs might go to the first arson as a red herring before they realize this, except perhaps by using additional clues from Ezren's [vision](spell/vision) below. The twin sleepers in prisons of dark beauty are the sisters' souls trapped in black sapphires; freeing them from their magical prisons would weaken the witchfire substantially. The final line hints at the story of betrayal between the sisters, and of how the witchfire only gained their cooperation by taking it forcefully."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"example_of_intrigue_spells"
@@ -4038,7 +4038,7 @@
 			"***Interpretation:*** The true source of the arsons, when it comes down to it, is the original killing of the coven leader, who became a witchfire. The vision provides numerous clues to some of the elements of the story, but the most striking one might be the distinctive great cypress tree. With some further research, Ezren might be able to locate it, allowing him to find the hut's remains, which are also near the cave where the witchfire placed the door to her new demesne."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"spells_of_intrigue",
 			"example_of_intrigue_spells"
@@ -4064,7 +4064,7 @@
 			"The following section offers advice on how to create and run social conflicts in your games, including suggestions on how player characters can become embroiled in such conflicts. You'll also find a new event-based structure for adventure design, in which the PCs' actions lead to consequences will either determine the next event in a social conflict or modify future events. The section closes out with advice on designing social conflict events, giving you all the tools necessary to run a social conflict adventure arc, or even an entire campaign."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -4100,7 +4100,7 @@
 			"Before designing a social conflict for your campaign, you should determine its pace. There are two main types of pacing that can help introduce social conflict into your game: episodic and serialized. Each has its own strengths and challenges outlined below."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4134,7 +4134,7 @@
 			"Such back-and-forths can go on between the PCs' traditional adventures or until the PCs decide to put their full concentration toward the problems plaguing their friends in the city, at which point the pacing may become more serialized."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"pacing"
@@ -4160,7 +4160,7 @@
 			"In this example of serialized pacing, nearly the entire story revolves around the social conflict at hand, with each event leading to another in a complex web of intrigue."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"pacing"
@@ -4194,7 +4194,7 @@
 			"While social conflicts with serialized pacing are a good way to add intrigue to your game, they can quickly become a maze of stakes and contenders. In such cases, it's helpful to record the various stakes and contenders to keep all the details straight. You won't need to pick up every dangling thread in your weave of characters and varied agendas, but if you're able to produce the perfect threat or call-back from multiple sessions ago, it'll look like you had it planned all the time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4219,7 +4219,7 @@
 			"When the stakes of a conflict are no more than a plot device, it's okay for them to be somewhat nebulous. Other times, the stakes are concrete, and you'll want a precise way to measure them. For this purpose, you can use the rules for [gaining capital in the downtime system](rule/downtime) or the [influence system for organizations](rule/organizational_influence)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"stakes_and_contenders"
@@ -4238,7 +4238,7 @@
 			"Because events can take on many forms, each of the following sections also present options for using discovery and challenge events with subsystems from other sources."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4278,7 +4278,7 @@
 			"Ultimately, the consequences for discovery events should depend on how much the PCs found out and how they respond to the knowledge. These consequences should also take the stakes into account and how contenders might react to the knowledge that the PCs are involved or snooping around. Outstanding successes at discovery challenges should affect the PCs' ability to navigate challenge events in a positive way, while terrible failures may mean the PCs misconstrue the scope of the challenge, overlook some aspect of it, or follow up bad leads."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"events_ui"
@@ -4310,7 +4310,7 @@
 			"Lastly, while social conflict is an attempt to avoid physical conflict and strife, there are times when the PCs will have to engage in combat to resolve a social conflict. Maybe after failing to negotiate with the rebels, the PCs must attempt to subdue and stop them from committing acts of violence against the community. It could be that while attempting to gain favor with a band of hot-headed noble scions, the PCs don't realize they've slighted them and inadvertently inflame the young aristocrats' ire. In this latter case, a good nonlethal thrashing might regain the rash blowhards' respect. As a general guideline, resorting to combat in order to gain successes in social conflict is a last resort that usually stems from a failure at some point earlier in the chain of events. Even in these cases, try to present opportunities to bring flair to the battlefield, perhaps by employing dramatic environments (like rooftop battles or dawn duels), enemies with colorful abilities (like a bard's stinging oratory or a swashbuckler's panache), or hazards that could change the course of combat (like a precariously hung chandelier or toppling pillars)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"events_ui"
@@ -4338,7 +4338,7 @@
 			"While most of this section offers tools and suggestions to help GMs create their own social conflict events, the PCs might be able to take an event in a completely unexpected direction, unlike in combat encounters where the actions and consequences are more rigorously determined. Interesting uses of skills, feats, spells, and magic items, not to mention inspired roleplaying, can often create circumstances you never imagined. When this happens, it's better to reward players for their ingenuity instead of discouraging it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4362,7 +4362,7 @@
 			"While you could use the Social Combat Deck or many of the existing tools in the Pathfinder RPG to run social conflict events, eventually you'll want to shape the PCs' encounters around a story you have created or around some unanticipated consequence of the PCs' past actions. When planning such encounters, you may want to create freeform events that give players a more active role in developing the ongoing story. Since social conflict events are less predictable than combat encounters, the following tools and guidelines can help you ad-lib when your players do something out of the ordinary."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4393,7 +4393,7 @@
 			"Each freeform event you create should have a number of actions the PCs can take to achieve their goals. It's always better to create more actions and goals than you might need, and to have a variety of them, so multiple characters can participate in the event. Often these goals will revolve around a check or taking a specific action."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"freeform_events"
@@ -4416,7 +4416,7 @@
 			"When you're running a freeform challenge where wits and charm are more effective than quick reflexes, it might become important to determine the order in which different characters (both PCs and NPCs) perform their actions. In such cases, consider having each character roll a social initiative check. Rather than being Dexterity-based, a social initiative check is Charisma-based, though all other standard methods for increasing initiative (such as the [Improved Initiative](feat/improved_initiative) feat) still apply."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"freeform_events"
@@ -4470,7 +4470,7 @@
 			"Keep in mind that when PCs have invested in maximizing their success with certain skills or roles, they should feel good about those choices. Rather than simply increasing the DCs when selecting advantageous options should have otherwise made them easier-thus effectively punishing the PCs-when you create tasks with those higher DCs, create greater rewards for them as well. Thus, the players' choices grant access to new and exciting possibilities that the characters never could have obtained otherwise (and of course, if the players are apprehensive about attempting the difficult DC, they can abandon this extra prize without experiencing a loss)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"freeform_events"
@@ -4499,7 +4499,7 @@
 			"***Race Against Time:*** In this type of event, the PCs must race to achieve as many goals as possible before a certain amount of time elapses. A time limit makes an event more exciting for the players. Make the reason for the time limit something interesting to the PCs and the developing story. The in-game reason for the time limit could be anything from an upcoming election, to an impending invasion, to the public's waning interest in the issue at the heart of the PCs' goals. When determining overall goals in a timesensitive conflict, you may wish to set multiple thresholds of victory, ordering possible outcomes from best to worst and listing a minimum number of successes for each successively better outcome."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"freeform_events"
@@ -4522,7 +4522,7 @@
 			"When designing any type of social conflict event, it's always best to allow the PCs to advance the plot even in the face of a critical failure. Of course, there should be consequences for failure, but that should never be the end the story. In other words, a success moves the PCs toward victory and a failure moves their adversaries toward victory, but you shouldn't plan a result that creates a deadlock and stalls the flow of the action. So long as a defeat doesn't lead to the entire party's death, it likely brings with it a variety of exciting ramifications-sometimes more so than a success might. Feel free to use the PCs' defeats as springboards into new plots and more rewarding future victories."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts",
 			"freeform_events"
@@ -4537,7 +4537,7 @@
 	},
 	"social_conflict_events_and_advancement": {
 		"name": "Social Conflict Events and Advancement",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 172](source/ultimate_intrigue)",
@@ -4563,7 +4563,7 @@
 			"***Challenge Events:*** Challenge events should nearly always grant experience points and treasure. This is especially true if you're running a serialized social conflict campaign. If a social conflict is the main thrust of a campaign, most challenge events should have a CR close to the APL of the PCs. Just like with combat encounters, particularly taxing challenge events (especially those that might consume the PCs' resources or include the chance for a significant change in the stakes) can be of a higher CR than the APL, but never more than 3 higher. Challenge events should use the normal experience and treasure values whenever the PCs are involved in a combat encounter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4579,7 +4579,7 @@
 	},
 	"example_social_conflict_the_taken": {
 		"name": "Example Social Conflict: The Taken",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 173](source/ultimate_intrigue)",
@@ -4647,7 +4647,7 @@
 			"The fosterlings do not concede the social conflict, even to the point of total ruination. While Princess Annika would prefer to occlude her ties to the fosterlings and allow her lieutenants to quietly back off, the norn commanding all the fosterlings demands they continue to the end. When they are completely defeated, the fosterlings are exposed, both sides informed of their existence, and Princess Annika along with them. If the PCs have a personal connection with the princess, she begs them to protect her against her norn mistress. Once the norn is vanquished, the princess and the fosterlings may need a new place to live. The PCs could then convince the people of the kingdom of the benefits of letting their former infiltrators become loyal citizens."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"social_conflicts"
 		],
@@ -4663,7 +4663,7 @@
 	},
 	"verbal_duels": {
 		"name": "Verbal Duels",
-		"subtitle": "Intrigue, Gamemastering",
+		"subtitle": "Intrigue, Gamemastery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"**Source** [Ultimate Intrigue pg. 176](source/ultimate_intrigue)",
@@ -4673,7 +4673,7 @@
 			"Many of the following rules assume the duel is between two chief opponents and is conducted in front of onlookers the duelists are attempting to sway-indeed, sometimes a duelist and her allies can improve their odds by discerning the crowd's biases and playing to them. A verbal duel's audience might be an angry mob, the members of a ruling council or senate, the jury during a court proceeding, or socialites at a party-anywhere two characters might best each other with wit and cutting remarks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -4709,7 +4709,7 @@
 			"It is also important to determine whether or not the verbal duel involves an audience that can be swayed. For example, if the duel occurs between the captain of the watch and one of the PCs, the PC could be trying to get a mob to attack the tower of a corrupt high priest, while the captain is attempting to convince the crowd to disperse. Crowds often have their own motivations and predilections, and certain tactics during the duel will have a greater or lesser effect on its members, which can affect the results. Determining the nature of such crowd attitudes and how to affect them can sometimes grant a powerful advantage."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels"
 		],
@@ -4737,7 +4737,7 @@
 			"A duelist and any of her allies who have at least 10 minutes to interact with the crowd before a verbal duel begins can attempt a check to determine an [audience bias](rule/audience_biases). Succeeding at a DC 15 Sense Motive check allows a duelist or one of her allies to learn one of the crowd's biases. Sometimes assessing an audience can have a higher DC if the GM feels the crowd is particularly tight-lipped or their biases are otherwise obscured. Once a character attempts a Sense Motive check to assess an audience's biases, she can't retry that check, even if she has more time to study the audience."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"setting_the_scene_2"
@@ -4763,7 +4763,7 @@
 			"The GM is free to create whatever biases she would like, but each bias should be both reasonable and fit with the attitudes of the audience. A group of hard-minded wizards might have a negative bias toward allegory but applaud logic, while a rowdy group of tavern-goers could have a very positive bias toward mockery but start booing and hissing at logic. A GM does not need to create biases for all tactics, but having a handful of them can make the debate more interesting and flavorful and allow the duelist's allies to help affect the duel by assessing and seeding the audience."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"setting_the_scene_2"
@@ -4793,7 +4793,7 @@
 			"Both sides can attempt to seed the audience before the duel begins and can even seed the same biases, but a given duelist can only benefit from a single successful seeding of a particular bias."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"setting_the_scene_2"
@@ -4821,7 +4821,7 @@
 			"In many cases, using magic to enhance one's verbal dueling skills is often considered gauche or even illegal. The more official the verbal duel, the more likely the chance magic will be restricted or even banned. This is often particularly true during the course of duels in a legal setting."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"setting_the_scene_2"
@@ -4851,7 +4851,7 @@
 			"One of the main ways to adjust determination is to consider if one of the characters has a social advantage or disadvantage. While the GM is free to determine the particulars of a character's social advantage or disadvantage in a situation, the four default categories are extreme advantage, significant advantage, significant disadvantage, and extreme disadvantage. A character at an extreme advantage multiplies her determination by 2 and gains 5 edges. A character with a significant advantage multiplies her determination by 1.5 and gains 3 edges. A character at a significant disadvantage multiplies her determination by 3/4. Finally, a character at an extreme disadvantage multiplies her determination by 1/2 and loses 3 of her starting edges (minimum 0)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels"
 		],
@@ -4890,7 +4890,7 @@
 			"While not everyone is as good at verbal sparring as their character's statistics indicate, players will often want to roleplay their tactics during a verbal duel. For particularly inspired or heart-felt roleplaying, the GM might award anywhere up to a +2 modifier on a tactic's associated skill check. For brilliant roleplaying during a verbal duel, a GM might award an edge, and that edge can be general or keyed to a particular tactic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words"
@@ -4929,7 +4929,7 @@
 			"**Special:** If you use allegory to open an exchange, and your opponent chooses to end the exchange rather than attempt to counter your allegory, increase the exchange's current ante by 2 (before your opponent's determination is reduced) instead of gaining an edge."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -4964,7 +4964,7 @@
 			"**Special:** Baiting cannot be employed to open an exchange. If your opponent ends an exchange rather than counter your baiting, your baiting doesn't suffer the normal -2 penalty on future associated skill checks for winning an exchange."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -4999,7 +4999,7 @@
 			"**Special:** Successfully countering with an emotional appeal increases the exchange's ante by an additional 1."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5034,7 +5034,7 @@
 			"**Special:** If you win an exchange with flattery, reduce the ante of the exchange by 2 (minimum 0) and gain an edge that can be used with any skill check in a verbal duel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5069,7 +5069,7 @@
 			"**Special:** When you win an exchange with logic, you gain 1 edge that you can only use with logic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5104,7 +5104,7 @@
 			"**Special:** You gain a +2 bonus on the associated skill check when you use mockery to counter a tactic with a negative audience bias, and if you win the exchange with mockery against such a tactic, increase the ante by 1. You take a -2 penalty on the associated skill check when you use mockery to counter a tactic with a positive audience bias, though if you succeed, reduce the ante by 1."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5139,7 +5139,7 @@
 			"**Special:** If you win an exchange with presence, you regain 1 determination (to a maximum amount equal to your starting determination)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5172,7 +5172,7 @@
 			"**Special:** You cannot use red herring as an opener. When using a red herring as a counter, you can choose to gain a +4 bonus on the associated skill check. If you do so and succeed, instead of continuing and escalating the exchange as normal, you reduce the ante to 0 and automatically win the exchange. Unlike normal, you start the next exchange."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5205,7 +5205,7 @@
 			"**Special:** Since rhetoric involves subtle word choices that most audiences don't notice consciously, it is very rare for an audience to have a negative bias toward rhetoric."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5238,7 +5238,7 @@
 			"**Special:** When using wit, you can choose to gain a +2 bonus on the associated skill check. If you do so and fail the associated skill check, decrease your determination by 1. If you fail by 5 or more, you take a -2 penalty on wit's associated skill checks for the rest of the duel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words",
@@ -5273,7 +5273,7 @@
 			"Duelists repeat this cycle until one decides to end an exchange, a duelist fails to counter her opponent's tactic, or the duel otherwise ends. When a duelist decides to end an exchange or fails to counter her opponent's tactic, her determination is reduced by an amount equal to the current ante of the exchange. Whichever duelist ends an exchange or fails to counter her opponent's tactic can either open a new exchange or concede the verbal duel if she still has determination remaining."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words"
@@ -5294,7 +5294,7 @@
 			"At the end of any exchange, either duelist can call to end the duel, and set the terms for ending the duel. When they do this, it can be considered a tie if both sides agree, or one side can call for the other to concede. A verbal duel ends immediately if one duelist's determination is reduced to 0 or lower. In these cases, the other duelist wins. In either case where there is a victor, the victorious duelist achieves some social advantage from his success, usually defined by the scene of the verbal duel. A victory or a defeat in a verbal duel might also lead to unexpected complications. For instance, a duelist may enter a verbal duel with her rival, a corrupt advisor. After succeeding, she may not only convince the duke that his advisor was plotting behind his back, but also inadvertently catch the eye of the duchess, who invites her to a secret tryst."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels",
 			"dueling_with_words"
@@ -5315,7 +5315,7 @@
 			"In unusual circumstances, a verbal duel might involve more than two independent duelists. In this case, the rules work the same with the following modification. First, when a duelist opens an exchange, she selects one of the other duelists and the exchange continues between the two of them. When that exchange's winner is determined or the exchange ends, the winner must then start an exchange with a different duelist. This goes on until only one duelist remains."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels"
 		],
@@ -5343,7 +5343,7 @@
 			"In a solo duel, when a duelist wins an exchange with a given tactic, that tactic takes a cumulative -2 penalty for the rest of the verbal duel. In a team duel, when a duelist wins an exchange, that character takes a -2 penalty on skill checks associated with all of her tactics instead. Hearing many different voices, even if they have similar opinions, lends credibility to a team's arguments."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels"
 		],
@@ -5377,7 +5377,7 @@
 			"Now Lem has 6 determination left. He can open a new exchange against Meligaster and try again, and at least Meligaster suffers a -2 penalty on future uses of flattery, so Lem doesn't have to worry about beating another 36."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"verbal_duels"
 		],
@@ -5398,7 +5398,7 @@
 			"When skills come into conflict with each other, it can lead to extremely complex interactions, often well beyond the scope of the short skill descriptions in the Pathfinder RPG Core Rulebook. The following section offers detailed advice on the most common skill clashes that involve difficult adjudications, as well as clarifications of skills where the Core Rulebook provides little guidance. The advice in this section is holistic, and GMs are encouraged to read each description in full to gain the best grasp of the nuances of each skill. Additionally, this section offers an optional variant system for opposed skill checks that reduces randomness and the potential for many rolls."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue"
 		],
 		"subtopics": [
@@ -5434,7 +5434,7 @@
 			"The Bluff skill is an extremely versatile, though sometimes misunderstood, social skill. Unlike Diplomacy and Intimidate, which can directly push their target toward a course of action, Bluff feeds the target misinformation. A skilled user of the Bluff skill needs to understand how the target's mind works, in order to deliver just the right misinformation to achieve the desired results. The disadvantage is that such manipulation is less predictable and more difficult to pull off, but the advantage is that the target is not aware that he is being manipulated, whereas even the most successful Diplomacy or Intimidate attempt leaves the target realizing who has convinced him to take action. This section includes clarifications and details on several different ways to use Bluff-and on several things that don't work."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],
@@ -5486,7 +5486,7 @@
 			"***Lies upon Lies:*** The aftermath of a Bluff becomes even more complicated if someone else attempts to make a contradictory lie, either in the same scene as the original prevarication or afterwards. If the bluffing characters are present together, it might be a good time to have them enter a verbal duel, with the target as the audience. However, this isn't possible when the second Bluff attempt happens after the first deceiving character is gone but before the target discovers the ruse. In this case, the second bluffing character has an advantage. She might be able to show proof that the first character was lying in order to build up the credibility of her own lie. If the second bluffing character beats the target's Sense Motive, but does not debunk the original lie or beat the first bluffing character's original Bluff check, then the target will likely be confused and unlikely to act on either piece of information. Or, the target might conclude that the second bluffer believes what she said but is misinformed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict",
 			"bluff"
@@ -5514,7 +5514,7 @@
 			"***Maintaining a Disguise:*** When maintaining a disguise, the Bluff skill isn't necessary to correctly portray things such as mannerisms or facial expressions, but it will almost certainly come up when the disguised character makes statements in his assumed persona as he talks about events he didn't actually experience. Of course, a well-prepared character has thoroughly researched his disguise, so he is unlikely to take any penalties to his Bluff attempts."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict",
 			"bluff"
@@ -5555,7 +5555,7 @@
 			"In this case, and in other instances of requests made to unfriendly or hostile characters, the GM should consider only allowing such requests that are couched in such a way that they seem to be in the target's best interests. An unfriendly or hostile character certainly isn't going to be doing the would-be diplomat any favors, but that doesn't mean they will ignore an idea that is better for them than facing the consequences of the combat. Even if adversaries agree to a brief cease-fire to listen to the diplomat's terms, they won't let their guard down. Generally, they will also require the side calling for the cease-fire to make a show of their intentions by laying down or sheathing their weapons, dropping spell component pouches, or the like, while attempting Sense Motive checks to determine if the cease-fire is a ruse. Creatures that feel themselves to be at an advantage in the combat by virtue of a short-duration spell or other effect that would expire during a cease-fire almost never agree to a cease-fire, as it isn't in their best interest to do so."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],
@@ -5589,7 +5589,7 @@
 			"***Simulacrum and Disguise:*** The caster of the simulacrum spell uses the Disguise skill to shape the form created. However, it is important to note that the Sense Motive check to detect a simulacrum is very easy at the level that simulacrum becomes available, so unless the simulacrum has a high Bluff modifier, it is still challenging to use a simulacrum as an impostor for long."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],
@@ -5619,7 +5619,7 @@
 			"***Explaining Negative Consequences:*** Sometimes a character wants to calmly explain negative consequences to someone in a way that merely relies on logic, not fear. This is particularly important when attempting to convince someone immune to fear, such as a paladin or vampire, to back down in the face of negative consequences. This is different than improving a creature's attitude or making a request (particularly since a character might try it with an unfriendly creature), so it doesn't fall under Diplomacy. One good way to handle this is to use the rules for [influence](rule/influence) or verbal duels instead, since those both allow for logic and knowledge to help impact the situation. If only a skill check is possible, consider allowing an Intimidate check that doesn't apply any modifiers tied to frightening the target (such as the [Intimidating Prowess](feat/intimidating_prowess) feat, size modifiers, an [inquisitor's stern gaze](class/inquisitor), and so on) and then having the result not be a fear effect."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],
@@ -5659,7 +5659,7 @@
 			"***Observing:*** The final state is when the perceiving character is able to directly observe the sneaking character with a precise sense, such as vision. This is generally the result when the perceiving character rolls higher on its opposed Perception check than the sneaking character's Stealth result while also having line of sight to the sneaking character and the ability to see through any sort of invisibility or other tricks the sneaking character might be using."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],
@@ -5691,7 +5691,7 @@
 			"***Sense Motive Is Not Mind Reading:*** Though Sense Motive can help ferret out lies and gain hunches about odd situations, it doesn't let a character read opponents' minds and know exactly what they're thinking or planning. It is a verification tool that works well in conjunction with other skills, rather than a skill that allows a character to ascertain information."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],
@@ -5724,7 +5724,7 @@
 			"***The Odds:*** This variant increases the odds of success dramatically for highly skilled characters. For instance, if the hunter in the example above has a modifier on Stealth checks at least 9 higher than the orcs' Perception modifiers, in the default system, she would have a 50% chance of succeeding. But with this variant, her chance increases to 85%. When the character has less of an advantage against her adversaries, this variant still increases the rate of success dramatically with many adversaries, and it decreases the rate slightly with a few determined adversaries. For instance, with the default system, if the hunter's Stealth matched the orcs' Perception, she would have essentially a 0% chance of sneaking past the 50 orcs. With this variant, her chance is 1 in 8. However, if the other 48 orcs weren't present, her chance of sneaking past just the two sentries in the default system is roughly 1 in 4, whereas with this variant, it is 1 in 8, since only the determined adversaries make their own rolls and thus affect her odds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_intrigue",
 			"skills_in_conflict"
 		],

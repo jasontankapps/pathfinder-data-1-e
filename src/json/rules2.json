@@ -41,7 +41,7 @@
 	},
 	"minor_wondrous_items": {
 		"name": "Table 15-18: Minor Wondrous Items",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 497](source/prpg_core_rulebook)",
@@ -175,7 +175,7 @@
 	},
 	"medium_wondrous_items": {
 		"name": "Table 15-19: Medium Wondrous Items",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 498](source/prpg_core_rulebook)",
@@ -309,7 +309,7 @@
 	},
 	"major_wondrous_items": {
 		"name": "Table 15-20: Major Wondrous Items",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 499](source/prpg_core_rulebook)",
@@ -1188,6 +1188,8 @@
 			"",
 			"Not all items adhere to these formulas. First and foremost, these few formulas aren't enough to truly gauge the exact differences between items. The price of a magic item may be modified based on its actual worth. The formulas only provide a starting point. The pricing of scrolls assumes that, whenever possible, a wizard or cleric created it. Potions and wands follow the formulas exactly. Staves follow the formulas closely, and other items require at least some judgment calls.",
 			"",
+			">***Also See:*** [Magic Item Creation (Gamemastery)](rule/magic_item_creation_ucp)",
+			"",
 			"### Estimating Magic Item Gold Piece Values",
 			"",
 			"| Effect | Base Price | Example |",
@@ -1673,7 +1675,9 @@
 			"",
 			"The cost to add additional abilities to an item is the same as if the item was not magical, less the value of the original item. Thus, a +1 longsword can be made into a +2 vorpal longsword, with the cost to create it being equal to that of a +2 vorpal sword minus the cost of a +1 longsword.",
 			"",
-			"If the item is one that occupies a specific place on a character's body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her ring of protection +2, the cost of adding this ability is the same as for creating a ring of invisibility multiplied by 1.5."
+			"If the item is one that occupies a specific place on a character's body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her ring of protection +2, the cost of adding this ability is the same as for creating a ring of invisibility multiplied by 1.5.",
+			"",
+			">***Also See:*** [Upgrading Items[(rule/upgrading_items)."
 		],
 		"parent_topics": [
 			"items",

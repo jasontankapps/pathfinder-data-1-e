@@ -3964,7 +3964,7 @@
 			"",
 			"At the GM's discretion, an entire adventuring party can have a group affiliation. In such a case, the assumption is that the campaign the GM has chosen to run involves the whole party being agents of a specific group. Once the GM assigns a group affiliation, all members of the party are treated as if they were affiliated with that group. This affiliation does not take up any individual PC's affiliation slots.",
 			"",
-			"Alternatively, a party can use rules for membership in groups, such as those presented in *Pathfinder Campaign Setting: Faction Guide*, or joining a group could be a significant part of a campaign, as in the case of the Silver Ravens in the Hell's Rebels Adventure Path. In such a case, a character automatically gains affiliation with a group once he successfully joins the group in question.",
+			"Alternatively, a party can use rules for membership in groups, such as those presented in [factions](rule/factions), or joining a group could be a significant part of a published campaign. In such a case, a character automatically gains affiliation with a group once he successfully joins the group in question.",
 			"",
 			"### Afiliations for NPCs",
 			"",
@@ -3988,7 +3988,7 @@
 			"",
 			"***2:*** There was also a separate publication with rules for [Factions](rule/factions) that can be used with/instead of these rules."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"aff_deserts",
 			"aff_swordmasters",
@@ -4014,7 +4014,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -4060,7 +4060,7 @@
 			"***Spells:*** The following spells are closely guarded by the tribespeople: [Blade of Light](spell/blade_of_light), [Burning Sands](spell/burning_sands), [Cleansing Fire](spell/cleansing_fire), [Sun's Disdain](spell/sun's_disdain), [Mass Sun's Disdain](spell/mass_sun's_disdain), [Sunstalker](spell/sunstalker)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4113,7 +4113,7 @@
 			"***Spells:*** By combining martial talents and arcane understanding, enthusiasts of the swordmaster style have designed a small number of potent spells: [Aldori Alacrity](spell/aldori_alacrity), [Contest of Skill](spell/contest_of_skill), [Deivon's Parry](spell/deivon's_parry), [Tactical Adaptation](spell/tactical_adaptation), [Tieldlara's Feint](spell/tieldlara's_feint)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4167,7 +4167,7 @@
 			"***Spells:*** [Deceptive Redundancy](spell/deceptive_redundancy), [Haunting Reminder](spell/haunting_reminder), [Obscured Script](spell/obscured_script), [Sympathetic Aura](spell/sympathetic_aura)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4217,7 +4217,7 @@
 			"***Magic Items:*** [Liberator's Key](magic-wondrous/liberator's_key), [Subtle Slippers](magic-wondrous/subtle_slippers), [Tiller's Pendant](magic-wondrous/tiller's_pendant), [Whispering Shell](magic-wondrous/whispering_shell)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4264,7 +4264,7 @@
 			"***Class Options:*** [The Twice-Damned Prince](legendaryspirit/twice-damned_prince) (Legendary Medium spirit); these [rogue talents](ability/rogue_talents) are designed specifically for rogues working for the council, either as full members or merely as affiliates: Aspexia's Mysticism, Careful Stab, Hairpin Trick, Knockout Queen, Silencing Strike, Founders' Blessing, Shrinewalk"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4313,7 +4313,7 @@
 			"***Spells:*** Some of the spells they've researched and invented on their own, such as [codespeak](spell/codespeak), have gone on to become widespread in their use, but others, such as those detailed below, remain controlled by the Inheritors and are generally only available to their members and affiliates: [Absorb Rune I-III](spell/absorb_rune_1), [Hidden Knowledge](spell/hidden_knowledge), [Rune Trace](spell/rune_trace), [Rune of Rule](spell/rune_of_rule), [Slave to Sin](spell/slave_to_sin)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4365,7 +4365,7 @@
 			"***Spells:*** [Detect Charm](spell/detect_charm), [Summon Flight of Eagles](spell/summon_flight_of_eagles), [Suppress Charms and Compulsions](spell/suppress_charms_and_compulsions)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4417,7 +4417,7 @@
 			"***Magic Items:*** [Banner of the Scarlet Rose](magic-wondrous/banner_of_the_scarlet_rose), [Erinyes Company Cloak](magic-wondrous/erinyes_company_cloak), [Helm of the Fanged Crown](magic-wondrous/helm_of_the_fanged_crown), [Maiden's Aegis](magic-armor/maiden's_aegis), [Maiden's Helm](magic-wondrous/maiden's_helm), [Maiden's Panoply](magic-armor/maiden's_panoply), [Maiden's Promise](magic-wondrous/maiden's_promise), [Rose Knight's Blade](magic-weapon/rose_knight's_blade)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4469,7 +4469,7 @@
 			"***Spells:*** Many of these spells are innovations of the Order of the Gate's signifers, originating in the notes of the order's magic-users: [Brand of Conformity](spell/brand_of_conformity), [Brand of Hobbling](spell/brand_of_hobbling), [Brand of Tracking](spell/brand_of_tracking), [Dirge of the Victorious Knights](spell/dirge_of_the_victorious_knights), [Infernal Challenger](spell/infernal_challenger), [Shackle](spell/shackle)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4518,7 +4518,7 @@
 			"***Magic Items:*** [Dhoti of Style Mastery](magic-wondrous/dhoti_of_style_mastery), [Efreeti Horns](magic-wondrous/efreeti_horns), [Gloves of Unfolding Wind](magic-wondrous/gloves_of_unfolding_wind), [Monastic Warden](magic-weapon/monastic_warden), [Mountainshaper's Girdle](magic-wondrous/mountainshaper's_girdle), [Traveling Master's Turban](magic-wondrous/traveling_master's_turban)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4569,7 +4569,7 @@
 			"***Spells:*** These spells were developed by the Lights to aid in the exploration of the Darklands, to deal with the drow love of poison, and to help fight against choices that could result in corruption of the soul: [Brightest Light](spell/brightest_light), [Detoxify](spell/detoxify), [Preserve Grace](spell/preserve_grace)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4620,7 +4620,7 @@
 			"***Spells:*** "
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4673,7 +4673,7 @@
 			"***Spells:*** [Frost Mammoth](spell/frost_mammoth), [Invoke Primal Power](spell/invoke_primal_power)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4724,7 +4724,7 @@
 			"***Magic Items:*** [Bands of Unbreakable Camaraderie](magic-wondrous/bands_of_unbreakable_camaraderie), [First Aid Gloves](magic-wondrous/first_aid_gloves), [Wayfinder](magic-wondrous/wayfinder), [Ebon Wayfinder](magic-wondrous/ebon_wayfinder), [Shining Wayfinder](magic-wondrous/shining_wayfinder), [Vanishing Wayfinder](magic-wondrous/vanishing_wayfinder), [Wayfinder of Hidden Strength](magic-wondrous/wayfinder_of_hidden_strength)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4775,7 +4775,7 @@
 			"***Spells:*** Over the centuries, the assassins have developed numerous magical means to facilitate their death-dealing worship of Achaekek: [Bone Flense](spell/bone_flense), [Crimson Breath](spell/crimson_breath), [Mark of Blood](spell/mark_of_blood), [Mirror Mantis](spell/mirror_mantis), [Sarzari Shadow Memory](spell/sarzari_shadow_memory), [Sawtooth Terrain](spell/sawtooth_terrain)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4826,7 +4826,7 @@
 			"***Feats:*** [Spirit Beacon](feat/spirit_beacon), [Spirit Rebuke](feat/spirit_rebuke), [Spirit Sight](feat/spirit_sight)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4877,7 +4877,7 @@
 			"***Spells:*** [Instant Portrait](spell/instant_portrait), [Wall of Silver](spell/wall_of_silver)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4928,7 +4928,7 @@
 			"***Spells:*** [Storm Sight](spell/storm_sight)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"affiliations"
 		],
 		"siblings": [
@@ -4973,7 +4973,7 @@
 			"",
 			"There was also a separate publication with rules for [Affiliations](rule/affiliations) that can be used with/instead of these rules."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"faction_basics",
 			"faction_prestige",
@@ -4985,7 +4985,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -5021,7 +5021,7 @@
 			"Bear in mind that a PC need not be from a particular country to become a member of a faction, even if that faction itself is closely associated with that country. Likewise, characters of any class can join a faction. PCs are not necessarily bound to work with a single faction. Although it is simplest to stay with one faction for a character's career, there is no reason a PC can't gain prestige within more than one group (though trying to work with two rival groups is unlikely to turn out well). Lastly, characters should not be required to join a faction. Those uninterested in the idea can ignore it, but those who find it appealing have an additional option for customizing their characters and how they fit into the world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions"
 		],
 		"siblings": [
@@ -5091,7 +5091,7 @@
 			"A character's ability to spend PA is dependent on his being in contact with other members of his faction, and unless noted otherwise, most factions tend to have agents, contacts, or headquarters in settlements that are at least the size of a large city. To reflect the difficulty of contacting a faction agent in a smaller settlement, PA costs increase by 5 in communities smaller than 5,000 people. This change, of course, can vary by organization; for the Green Faith, for example, the opposite is true - PA costs increase by 5 in communities larger than 5,000"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions"
 		],
 		"siblings": [
@@ -5112,7 +5112,7 @@
 			"***Note:*** The factions presented below are referenced in other Open Game Content, and have been converted into generic entities, removing proper names and Pathfinder-specific lore that likely isn't considered Open Game Content."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions"
 		],
 		"siblings": [
@@ -5185,7 +5185,7 @@
 			"***50 TPA, 50 CPA:*** Acquire the Gold rank and a gold badge. The character selects one large location (such as a country) or up to four smaller locations (as described in the Silver rank entry) as his area of control. He gains a +4 bonus on Appraise, Bluff, Diplomacy, Intimidate, Knowledge (local), and Knowledge (nobility) checks regarding that area and its trade interactions; this bonus stacks with his Silver agent bonus on these skills (if any) for a location and can stack with the +4 bonus on one check [listed here](rule/faction_costs)). Alternatively, if the agent is already a Silver agent and has four or more bases of operations, he can spend 10 CPA points to upgrade his rank to Gold rather than purchasing that rank all at once."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5229,7 +5229,7 @@
 			"***20 TPA:*** Purchase or upgrade magical weapons with abilities from the following list: defending, merciful, returning, throwing, sleep arrow, sword of subtlety."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5288,7 +5288,7 @@
 			"***30 TPA, 2 CPA:*** Gain the rank \"lieutenant\" and a loyal team of 1 sergeant (5th-level fighter, ranger, or rogue) and 5-8 corporals (3rd-level fighters, rangers, or rogues) as followers. These troops won't necessarily die on the character's behalf."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5344,7 +5344,7 @@
 			"***30 TPA, 10 CPA, Major:*** Gain the rank of commander, Knowledge (geography) as a class skill, and a loyal team of 1 captain (5th-level fighter) and 5-8 lance corporals (3rd-level fighters); one of the lance corporals may instead be a 3rd-level cleric, sorcerer, or wizard. Commanders may purchase a talon sword at a 10% discount. If the commander is assigned to fortification (such as a castle, fort, or other Vanguard outpost), he also gains 10-20 guardsmen (1st-level fighters) and a support staff (5-10 noncombatant 1st-level commoners and experts) to handle the needs of his subordinates. If assigned to a military ship, he instead gains 10-20 marines (1st-level fighters) and a support staff for the ship. Most commanders lead brigades of ground troops or captain military ships; characters who do not want these specific duties are treated as inactive, unassigned officers in the military."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5408,7 +5408,7 @@
 			"***45 TPA, 1 CPA, Master of Blades:*** Gain the rank \"lictor\" or (if the character is a spellcaster) \"vicarius,\" plus a master of blades (or paravicar) and his subordinates, plus 2 additional paralictors and their subordinates. Lictors always have a base of operations which houses their subordinates and support staff."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5462,7 +5462,7 @@
 			"> *Dirge of Misfortune (Su):* A bard of 8th level or higher can use his performance to break the concentration of his enemies, causing them to fail at ordinarily achievable tasks. Once per round as an immediate action, as long as the bard continues performing, he can force an opponent to reroll any d20 roll just made. The opponent must use the result of the reroll, which has a -2 penalty. To be affected, the opponent must be within 30 feet and able to see and hear the bard's performance. Dirge of misfortune is a mind-affecting ability that relies on audible and visual components."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5525,7 +5525,7 @@
 			"***40 TPA, 5 CPA, Master:*** Learn how to craft [ki crystals](magic-wondrous/ki_crystal)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5594,7 +5594,7 @@
 			"Any dwarf who can carry a tune can use one to bolster himself in combat. Anyone with at least 1 rank in Perform (sing) may begin singing a battle song as a standard action and maintain it each round as a free action; he gains the minimum benefit described for the song, which does not advance with the singer's level. The singing is otherwise like bardic performance by a novice bard (requiring a standard action to start a new performance, ending if the singer is unconscious, and so on). A non-bard in range of a bard singing the same battle song only gains the benefit of the highest bonus from that song (typically the bard's). For example, a non-bard singing the song of steadfastness gains a +1 dodge bonus to AC (no matter what his level is), but if in range of a bard whose version of the song grants a +2 dodge bonus, he only gets the bard's +2 (not his own +1 and the bard's +2). Of course, a bard who has used all his bardic performance rounds for the day can sing for his own benefit as long as he has at least 1 rank in Perform (sing)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5635,7 +5635,7 @@
 			"***20 TPA, 8 CPA:*** Open a portal. At the character's request, this portal may act as a teleportation circle that sends him to an isolated, near-mythical, or lost magical location in the world (or even another planet), or as a gate to a nightmarish, otherworldly realm. The cultists' control over such things depends on stellar conjunctions and the accuracy of their source spells; safety or even a return trip are never guaranteed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5686,7 +5686,7 @@
 			"***50+ CPA:*** Obtain a small estate where the character can display her wealth and maintain her standing in society. The estate covers 2 acres and includes an attractive mansion, pleasant furnishings, and a small staff of 1st-level commoners to tend the building and grounds. As a Profit landowner, the character has access to all public buildings (though non-Profit companions must wait on the street). She is treated as living a [wealthy lifestyle](rule/cost_of_living), except that her CPA investment in this reward covers the gp/month cost (no additional payment is needed). She can purchase additional estates or combine them into a single, larger estate for 10 CPA per additional acre. A character who has spent 100 CPA or more on this resource is treated as living an extravagant lifestyle (but still no gp/month payment is needed)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5739,7 +5739,7 @@
 			"***30 TPA, 0+ CPA, 3rd rank:*** Imprison any ordinary person for up to 1 week, or an unusual person (such as an adventurer or diplomat, with the exception of the royal family) for up to 24 hours (as per the 1st-rank ability), or confiscate any property (worth up to 10,000 gp) for up to 24 hours (spending 1 CPA extends this time limit by 24 hours)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5788,7 +5788,7 @@
 			"***35 TPA, 10 CPA, blood-bound or of-the-blood:*** Obtain a baculum ring from the Imperial Guard. As part of their arrangement with the Emperor, the barbarian kings annually present the imperial seat with a ring carved from the baculum of a linnorm, and the Emperor normally awards it to an exceptional member of the Guard. Over the centuries, nearly a hundred of these have been awarded and have since been passed down through family lines. A few dozen more belong to the Imperial Guard itself and are awarded at the discretion of the leader. Those lucky enough to own one consider it a high honor, and all who recognize the ring greatly respect the wearer. The rightful wearer of a baculum ring gains a +1 morale bonus on attack rolls and saves against fear effects; this is a nonmagical effect. The wearer gains a +2 bonus on Diplomacy and Intimidate checks to influence someone who recognizes the nature of the ring. The ring is of masterwork quality and is suitable for use as a sorcerer or wizard's arcane bond."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5841,7 +5841,7 @@
 			"***30 TPA, 5 CPA:*** Learn how to create a lich's phylactery with the Craft Wondrous Item feat."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions",
 			"faction_list"
 		],
@@ -5947,7 +5947,7 @@
 			"[^2]: Characters can't spend multiple PA for more items costing more than 750 gp."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"factions"
 		],
 		"siblings": [

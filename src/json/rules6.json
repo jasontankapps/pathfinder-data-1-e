@@ -1,7 +1,7 @@
 {
 	"adventures": {
 		"name": "Adventures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -9,7 +9,7 @@
 			"Past the elaborate details and fantastical beasts, beyond the schemes of villains and works of strange magic, lies the culmination of the Game Master's craft: the development and harmonizing of numerous characters, plots, creatures, and settings into a single vibrant, dangerous, and enthralling experience: a Pathfinder Roleplaying Game adventure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -35,7 +35,7 @@
 	},
 	"elements_of_adventure": {
 		"name": "Elements of Adventure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -45,7 +45,7 @@
 			"Yet building such an adventure proves no mean feat, and it relies on a variety of factors. While the previous parts of this guide have laid the groundwork to help GMs choose and create many of the elements that go into crafting a great gaming experience, these elements all come together in the adventure and the act of storytelling itself. To help GMs in the sometimes daunting task of pulling together a great fantasy adventure, this section presents a storehouse of advice, inspiration, and tools for GMs to plan and create adventures in a wide variety of settings. From advice on managing staple elements of nearly any plot, to helpful new rules elements to enhance campaigns venturing into classic RPG locales, to random encounter tables easily customized for use in nearly any setting, this section is designed to be a constant aid to GMs, no matter what types of campaigns they decide to run."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -65,7 +65,7 @@
 	},
 	"what_makes_a_great_adventure": {
 		"name": "What Makes a Great Adventure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -81,7 +81,7 @@
 			"To aid in all this, the current section highlights several general locations common to Pathfinder RPG adventures. Each section features considerations a GM preparing for his adventure might take into account, as well as a wide variety of tables to aid in making interesting and evocative choices spontaneously should the PCs take some unexpected route or to merely help add a bit more detail."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"elements_of_adventure"
@@ -93,7 +93,7 @@
 	},
 	"choosing_your_adventure": {
 		"name": "Choosing Your Adventure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 172](source/gamemastery_guide)",
@@ -107,7 +107,7 @@
 			"Once the GM knows what type of adventure he wants to run, consulting the details and special rules in this section and the Pathfinder RPG Core Rulebook can help highlight those aspects that make the chosen location unique. Players should be able to feel that adventuring in a dungeon, underwater, and on the planes are all distinctly different experiences, presenting unique challenges and choices. Melding the descriptions of such settings with game components that help drive home the feel and personality of an adventure site can add variation and detail to any story. If the GM can meld both the descriptive and rules elements of the game - whether through creativity, rules knowledge, well-reasoned improvisation, quick reference, or a combination of these traits - the players' roleplaying experiences will be all the richer."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"elements_of_adventure"
@@ -119,7 +119,7 @@
 	},
 	"planar": {
 		"name": "Planar",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"tags": "the planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -128,7 +128,7 @@
 			"Beyond the mundane world of humans, elves, gnomes, and dwarves lie vast realms known as the planes of existence. Almost limitless in size and potential, the various planes embody the fundamental aspects of reality: alignments, elements, energies, and so on. Each plane is a universe unto itself; it follows its own natural laws and has its own unique inhabitants - the outsiders that occasionally visit or are summoned to the mortal world, be they gods, angels, demons, devils, or even stranger creatures. Literally anything is possible on the planes, making them a perfect location for exotic, terrifying, wondrous, and deadly adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -150,7 +150,7 @@
 	},
 	"what_is_a_plane": {
 		"name": "What is a Plane?",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -168,7 +168,7 @@
 			"***Demiplanes:*** This catch-all category covers all extradimensional spaces that function like planes but have measurable size and limited access. Other kinds of planes are theoretically infinite in size, but a demiplane might be only a few hundred feet across."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar"
@@ -182,7 +182,7 @@
 	},
 	"planar_traits": {
 		"name": "Planar Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -198,7 +198,7 @@
 			"***Magic Traits:*** Magic works differently from plane to plane; magic traits set the boundaries for what magic can and can't do on each plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar"
@@ -218,7 +218,7 @@
 	},
 	"physical_traits": {
 		"name": "Physical Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -226,7 +226,7 @@
 			"The two most important natural laws set by physical traits are how gravity works and how time passes. Other physical traits pertain to the size and shape of a plane and how easily a plane's nature can be altered."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -247,7 +247,7 @@
 	},
 	"gravity_traits": {
 		"name": "Gravity Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 184](source/gamemastery_guide)",
@@ -271,7 +271,7 @@
 			"It takes a DC 16 Wisdom check to set a new direction of gravity as a free action; this check can be made once per round. Any character who fails this Wisdom check in successive rounds receives a +6 bonus on subsequent checks until he or she succeeds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -300,7 +300,7 @@
 			"***Self-Contained Shape:*** On planes with this trait, the borders wrap in on themselves, depositing the traveler on the other side of the map. Some spherical planes are examples of self-contained, finite planes, but they can also be cubes, tori, or flat expanses with magical edges that teleport the traveler to the opposite edge when she crosses them. Some demiplanes are self-contained."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -316,7 +316,7 @@
 	},
 	"time_traits": {
 		"name": "Time Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 185](source/gamemastery_guide)",
@@ -340,7 +340,7 @@
 			"***Timeless:*** On planes with this trait, time still passes, but the effects of time are diminished. How the timeless trait affects certain activities or conditions such as hunger, thirst, aging, the effects of poison, and healing varies from plane to plane. The danger of a timeless plane is that once an individual leaves such a plane for one where time flows normally, conditions such as hunger and aging occur retroactively. If a plane is timeless with respect to magic, any spell cast with a non-instantaneous duration is permanent until dispelled."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -356,7 +356,7 @@
 	},
 	"morphic_traits": {
 		"name": "Morphic Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 186](source/gamemastery_guide)",
@@ -376,7 +376,7 @@
 			"***Static:*** These planes are unchanging. Visitors cannot affect living residents of the plane or objects that the denizens possess. Any spells that would affect those on the plane have no effect unless the plane's static trait is somehow removed or suppressed. Spells cast before entering a plane with the static trait remain in effect, however. Even moving an unattended object within a static plane requires a DC 16 Strength check. Particularly heavy objects may be impossible to move."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -392,7 +392,7 @@
 	},
 	"elemental_and_energy_traits": {
 		"name": "Elemental and Energy Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 186](source/gamemastery_guide)",
@@ -420,7 +420,7 @@
 			"Major positive-dominant planes go even further. A creature on a major positive-dominant plane must make a DC 15 Fortitude save to avoid being blinded for 10 rounds by the brilliance of the surroundings. Simply being on the plane grants fast healing 5 as an extraordinary ability. In addition, those at full hit points gain 5 additional temporary hit points per round. These temporary hit points fade 1d20 rounds after the creature leaves the major positive-dominant plane. However, a creature must make a DC 20 Fortitude save each round that its temporary hit points exceed its normal hit point total. Failing the saving throw results in the creature exploding in a riot of energy, which kills it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -435,7 +435,7 @@
 	},
 	"alignment_traits": {
 		"name": "Alignment Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 187](source/gamemastery_guide)",
@@ -457,7 +457,7 @@
 			"A strongly neutral-aligned plane stands in opposition to all other moral and ethical principles: good, evil, law, and chaos. Such a plane may be more concerned with the balance of the alignments than with accommodating and accepting alternate points of view. In the same fashion as for other strongly aligned planes, strongly neutral-aligned planes apply a -2 circumstance penalty on Intelligence-, Wisdom-, or Charisma-based checks made by any creature that isn't neutral. The penalty is applied twice (once for law/chaos, and once for good/evil), so neutral good, neutral evil, lawful neutral, and chaotic neutral creatures take a -2 penalty and lawful good, chaotic good, chaotic evil, and lawful evil creatures take a -4 penalty."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -472,7 +472,7 @@
 	},
 	"magic_traits": {
 		"name": "Magic Traits",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 187](source/gamemastery_guide)",
@@ -512,7 +512,7 @@
 			"Compare: [Primal Magic](rule/primal_magic), [Unchained Wild Magic](rule/wild_magic)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -527,7 +527,7 @@
 	},
 	"the_great_beyond": {
 		"name": "The Great Beyond",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -537,7 +537,7 @@
 			"The planes that make up the Great Beyond are briefly detailed below."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar"
@@ -572,7 +572,7 @@
 	},
 	"material_plane": {
 		"name": "Material Plane",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -587,7 +587,7 @@
 			"- Normal Magic"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -617,7 +617,7 @@
 	},
 	"shadow_plane": {
 		"name": "Shadow Plane",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -632,7 +632,7 @@
 			"- Impeded Magic: Spells with the [light](spelldef/light) descriptor or that use or generate light or fire are impeded on the Shadow Plane. Spells that produce light are less effective in general, because all light sources have their ranges halved on the Shadow Plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -662,7 +662,7 @@
 	},
 	"negative_energy_plane": {
 		"name": "Negative Energy Plane",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -677,7 +677,7 @@
 			"- Impeded Magic: Spells and spell-like abilities that use positive energy (including [cure](spell/cure_light_wounds) spells) are impeded. Characters on this plane take a -10 penalty on saving throws made to remove negative levels bestowed by an energy drain attack."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -707,7 +707,7 @@
 	},
 	"positive_energy_plane": {
 		"name": "Positive Energy Plane",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 188](source/gamemastery_guide)",
@@ -722,7 +722,7 @@
 			"- Impeded Magic: Spells and spell-like abilities that use negative energy (including [inflict](spell/inflict_light_wounds) spells) are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -752,7 +752,7 @@
 	},
 	"plane_of_air": {
 		"name": "Plane of Air",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 189](source/gamemastery_guide)",
@@ -767,7 +767,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [earth](spelldef/earth) descriptor or that use or create earth (including those of the [Earth](domain/earth) domain, spell-like abilities of the elemental [earth] bloodline, and spells that summon earth elementals or outsiders with the [earth](subtype/earth) subtype) are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -797,7 +797,7 @@
 	},
 	"plane_of_earth": {
 		"name": "Plane of Earth",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 190](source/gamemastery_guide)",
@@ -811,7 +811,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [air](spelldef/air) descriptor or that use or create air (including those of the [Air](domain/air) domain, spell-like abilities of the elemental [air] bloodline, and spells that summon air elementals or outsiders with the [air](subtype/air) subtype) are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -841,7 +841,7 @@
 	},
 	"plane_of_fire": {
 		"name": "Plane of Fire",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 190](source/gamemastery_guide)",
@@ -855,7 +855,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [water](spelldef/water) descriptor or that use or create water (including spells of the [Water](domain/water) domain, spell-like abilities of the elemental [water] bloodline, and spells that summon water elementals or outsiders with the [water](subtype/water) subtype) are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -885,7 +885,7 @@
 	},
 	"plane_of_water": {
 		"name": "Plane of Water",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 190](source/gamemastery_guide)",
@@ -902,7 +902,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [fire](spelldef/fire) descriptor or that use or create fire (including spells of the [Fire](domain/fire) domain, spell-like abilities of the elemental [fire] bloodline, and spells that summon fire elementals or outsiders with the [fire](subtype/fire) subtype) are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -932,7 +932,7 @@
 	},
 	"ethereal_plane": {
 		"name": "Ethereal Plane",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -949,7 +949,7 @@
 			"- Normal Magic: Spells function normally on the Ethereal Plane, though they do not cross into the Material Plane. The only exceptions are spells and spell-like abilities that have the [force](spelldef/force) descriptor and abjuration spells that affect ethereal beings; these can cross from the Material Plane to the Ethereal Plane. Spellcasters on the Material Plane must have some way to detect foes on the Ethereal Plane before targeting them with force-based spells. While it's possible to hit ethereal enemies with a force spell cast on the Material Plane, the reverse isn't possible. No magical attacks cross from the Ethereal Plane to the Material Plane, including force attacks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -979,7 +979,7 @@
 	},
 	"astral_plane": {
 		"name": "Astral Plane",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -994,7 +994,7 @@
 			"- Enhanced Magic: All spells and spell-like abilities used within the Astral Plane may be employed as if they were improved by the [Quicken Spell](feat/quicken_spell) or [Quicken Spell-Like Ability](feat/quicken_spell-like_ability) feats. Already quickened spells and spell-like abilities are unaffected, as are spells from magic items. Spells so quickened are still prepared and cast at their unmodified level. As with the [Quicken Spell](feat/quicken_spell) feat, only one quickened spell or spell-like ability can be cast per round."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1024,7 +1024,7 @@
 	},
 	"abaddon": {
 		"name": "Abaddon (Neutral Evil)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -1039,7 +1039,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [good](spelldef/good) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1069,7 +1069,7 @@
 	},
 	"the_abyss": {
 		"name": "The Abyss (Chaotic Evil)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -1084,7 +1084,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [lawful](spelldef/lawful) or [good](spelldef/good) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1114,7 +1114,7 @@
 	},
 	"elysium": {
 		"name": "Elysium (Chaotic Good)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 191](source/gamemastery_guide)",
@@ -1129,7 +1129,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [lawful](spelldef/lawful) or [evil](spelldef/evil) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1159,7 +1159,7 @@
 	},
 	"heaven": {
 		"name": "Heaven (Lawful Good)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 192](source/gamemastery_guide)",
@@ -1174,7 +1174,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [chaotic](spelldef/chaotic) or [evil](spelldef/evil) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1204,7 +1204,7 @@
 	},
 	"hell": {
 		"name": "Hell (Lawful Evil)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 192](source/gamemastery_guide)",
@@ -1219,7 +1219,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [chaotic](spelldef/chaotic) or [good](spelldef/good) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1249,7 +1249,7 @@
 	},
 	"limbo": {
 		"name": "Limbo (Chaotic Neutral)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 192](source/gamemastery_guide)",
@@ -1265,7 +1265,7 @@
 			"- Wild Magic and Normal Magic: On the few islands of stability within Limbo, magic is more likely to be normal. Magic is wild everywhere else."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1295,7 +1295,7 @@
 	},
 	"nirvana": {
 		"name": "Nirvana (Neutral Good)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 193](source/gamemastery_guide)",
@@ -1310,7 +1310,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [evil](spelldef/evil) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1340,7 +1340,7 @@
 	},
 	"purgatory": {
 		"name": "Purgatory (Neutral)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 193](source/gamemastery_guide)",
@@ -1355,7 +1355,7 @@
 			"- Enhanced Magic: Spells and spell-like abilities with the [death](spelldef/death) descriptor, or from the [Death](domain/death) or [Repose](domain/repose) domains, are enhanced."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1385,7 +1385,7 @@
 	},
 	"utopia": {
 		"name": "Utopia (Lawful Neutral)",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 193](source/gamemastery_guide)",
@@ -1401,7 +1401,7 @@
 			"- Impeded Magic: Spells and spell-like abilities with the [chaotic](spelldef/chaotic) descriptor are impeded."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1431,13 +1431,13 @@
 	},
 	"planar_toolbox": {
 		"name": "Planar Toolbox",
-		"subtitle": "The Planes, Gamemastering",
+		"subtitle": "The Planes, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"The planes offer limitless possibilities for destinations, inhabitants, and adventures. What PCs might find on the other side of a portal might be an exotic foray in a wondrous land, or a campaign-changing expedition into the impossible. In either case, the following tables should help GMs planning adventures beyond the realms of mortals."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar"
@@ -1457,7 +1457,7 @@
 	},
 	"pt_1": {
 		"name": "Random Planes, Demiplanes, and Portal Descriptions",
-		"subtitle": "Planar Toolbox, Gamemastering",
+		"subtitle": "Planar Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-17: Random Planar Destinations",
@@ -1566,7 +1566,7 @@
 			"| 99-100 | An iron mouth that snaps shut at irregular intervals |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1581,7 +1581,7 @@
 	},
 	"pt_2": {
 		"name": "Encounters on Astral, Etheral, and Shadow Planes",
-		"subtitle": "Planar Toolbox, Gamemastering",
+		"subtitle": "Planar Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-20: Astral Plane",
@@ -1672,7 +1672,7 @@
 			"| 99-100 | 1d4 [retrievers](monster/retriever) | 13 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1687,7 +1687,7 @@
 	},
 	"pt_3": {
 		"name": "Encounters on Aligned Planes",
-		"subtitle": "Planar Toolbox, Gamemastering",
+		"subtitle": "Planar Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-23: Chaos-Aligned Plane",
@@ -1836,7 +1836,7 @@
 			"| 100 | 1 [sea serpent](monster/sea_serpent) | 12 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1851,7 +1851,7 @@
 	},
 	"pt_4": {
 		"name": "Encounters on Elemental Planes",
-		"subtitle": "Planar Toolbox, Gamemastering",
+		"subtitle": "Planar Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-28: Air-Dominant Plane",
@@ -1971,7 +1971,7 @@
 			"| 100 | 1 [kraken](monster/kraken) | 18 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"planar",
@@ -1986,7 +1986,7 @@
 	},
 	"taverns": {
 		"name": "Taverns",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -2002,7 +2002,7 @@
 			"The [Tavern Toolbox](rule/tavern_toolbox) can be used to give a tavern, inn, or restaurant some unusual flavor. Roll 1d3 different traits or simply choose a trait or two from the list."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -2023,7 +2023,7 @@
 	},
 	"services": {
 		"name": "Services",
-		"subtitle": "Taverns, Gamemastering",
+		"subtitle": "Taverns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -2031,7 +2031,7 @@
 			"By definition, a tavern is a business where customers can purchase alcoholic beverages. Sounds simple enough, right? But just as with modern bars, a fantasy tavern can be far more than just a place to get a flagon of ale. Defining what characters can find within a particular tavern goes a long way toward giving the place a unique feel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns"
@@ -2050,7 +2050,7 @@
 	},
 	"drinks": {
 		"name": "Drinks",
-		"subtitle": "Taverns, Gamemastering",
+		"subtitle": "Taverns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -2060,7 +2060,7 @@
 			"But why stop there? Perhaps a tavern stocks truly unusual or rare drinks crafted from unique plants or even monsters. A tavern along a swampy track may distill a special liquor from ambulatory plant creatures, which gives it a potent kick. Depending on how prevalent magic is in your campaign, it's even possible that a tavern has an alchemist on staff who dabbles in the creation of remarkably strong, tasty, or even dangerous drinks. Drinks could be carbonated or flaming, could have an outward effect on imbibers (such as turning a drinker's hair blue), or could contain mild (or not so mild) hallucinogenic ingredients."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns",
@@ -2075,7 +2075,7 @@
 	},
 	"food": {
 		"name": "Food",
-		"subtitle": "Taverns, Gamemastering",
+		"subtitle": "Taverns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -2085,7 +2085,7 @@
 			"Offering exotic or bizarre food on a menu is another great way to make a tavern or inn more memorable. The players will quickly forget the tavern that just serves mutton, but they will probably remember the inn that serves poached drake eggs in firebrandy sauce."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns",
@@ -2100,7 +2100,7 @@
 	},
 	"entertainment": {
 		"name": "Entertainment",
-		"subtitle": "Taverns, Gamemastering",
+		"subtitle": "Taverns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 198](source/gamemastery_guide)",
@@ -2112,7 +2112,7 @@
 			"Remember that tastes in entertainment vary wildly from place to place. One town's tavern may boast extremely bawdy songs and \"performances\" that would make even a barbarian blush, while other, more conservative areas may restrict entertainment to hymns or morality plays. Taverns and inns often serve as convenient sites for prostitution, either from among its clientele or as a service of the establishment itself. Such services can be either open or covert, depending on the tavern's location."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns",
@@ -2127,7 +2127,7 @@
 	},
 	"bedding": {
 		"name": "Bedding and Other Amenities",
-		"subtitle": "Taverns, Gamemastering",
+		"subtitle": "Taverns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2141,7 +2141,7 @@
 			"Taverns and inns serve as the focal points of most communities. The front of a tavern may boast a board with wanted posters, local decrees, available jobs, or requests for help, which the PCs might find of interest. The local sheriff or constable may use the tavern as second base of operations, deputizing any able-bodied citizens (or the PCs) as he sees fit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns",
@@ -2156,7 +2156,7 @@
 	},
 	"staff_and_patrons": {
 		"name": "Staff and Patrons",
-		"subtitle": "Taverns, Gamemastering",
+		"subtitle": "Taverns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 199](source/gamemastery_guide)",
@@ -2176,7 +2176,7 @@
 			"While every staff member of patron might not need a full stat block, it's a good idea to come up with a list of personality types and quirks and assign them to the characters that the PCs engage with. Merely adding a lisp to the bartender or giving the waitress a severe limp while she hobbles around the tavern with numerous full tankards of ale can go a long way toward making a tavern memorable."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns"
@@ -2189,7 +2189,7 @@
 	},
 	"tavern_toolbox": {
 		"name": "Tavern Toolbox",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"Over the course of a campaign, the PCs might seek solace in a blur of inns and taverns. But with a little effort and the help of the following charts full of details, the PCs may soon develop essential stopping places and favorite watering holes.",
@@ -2410,7 +2410,7 @@
 			"| 99-100 | Writing set (loan of) | 2 sp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"taverns"
@@ -2423,7 +2423,7 @@
 	},
 	"urban": {
 		"name": "Urban",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 202](source/gamemastery_guide)",
@@ -2433,7 +2433,7 @@
 			"This section looks at how settlements are put together, how the PCs move around them, what business can be conducted there, and how to craft your own adventures within a city, taking into account both real life elements and the incredible possibilities that magic affords to fantasy settings."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -2457,7 +2457,7 @@
 	"the_shape_of_civilization": {
 		"name": "The Shape of Civilization",
 		"tags": "settlement population ranges",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 202](source/gamemastery_guide)",
@@ -2494,7 +2494,7 @@
 			"| Metropolis | More than 25,000 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban"
@@ -2509,7 +2509,7 @@
 	},
 	"streets_and_traffic": {
 		"name": "Streets and Traffic",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 202](source/gamemastery_guide)",
@@ -2531,7 +2531,7 @@
 			"Additional rules for city streets, for moving through crowds or across rooftops, and for cities in general can be found [here](rule/urban_adventures)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban"
@@ -2546,7 +2546,7 @@
 	},
 	"settlements_in_play": {
 		"name": "Settlements in Play",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 203](source/gamemastery_guide)",
@@ -2558,7 +2558,7 @@
 			"Note that for particularly large cities, you can use multiple settlement stat blocks to represent different districts within a city. This allows you to have neighborhoods with distinct characteristics inside one city's walls. GMs should feel free to add other new elements to create the cities they desire."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban"
@@ -2581,7 +2581,7 @@
 	},
 	"the_settlement_stat_block": {
 		"name": "The Settlement Stat Block",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 204](source/gamemastery_guide)",
@@ -2641,7 +2641,7 @@
 			"&ast; In a metropolis, nearly all minor magic items are available."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2658,7 +2658,7 @@
 	},
 	"settlement_modifiers": {
 		"name": "Settlement Modifiers",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 205](source/gamemastery_guide)",
@@ -2678,7 +2678,7 @@
 			"***Society:*** Society measures how open-minded and civilized a settlement's citizens are. A low society modifier might mean many of the citizens harbor prejudices or are overly suspicious of out-of-towners. A high society modifier means that citizens are used to diversity and unusual visitors and that they respond better to well-spoken attempts at conversation. A settlement's society modifier applies on all Disguise checks, as well as on Diplomacy checks made to alter the attitude of any non-government official."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2695,7 +2695,7 @@
 	},
 	"settlement_alignment": {
 		"name": "Settlement Alignment",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 206](source/gamemastery_guide)",
@@ -2703,7 +2703,7 @@
 			"A settlement's alignment not only describes the community's general personality and attitude, but also influences its modifiers. A lawful component to a settlement's alignment increases its law modifier by 1. A good component increases its society modifier by 1. A chaotic component increases its crime modifier by 1. An evil component increases its corruption modifier by 1. A neutral component increases its lore modifier by 1 (a truly neutral city gains an increase of 2 to its lore modifier). Alignment never modifies a settlement's economy modifier."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2720,7 +2720,7 @@
 	},
 	"settlement_government": {
 		"name": "Settlement Government",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 206](source/gamemastery_guide)",
@@ -2738,7 +2738,7 @@
 			"***Secret Syndicate:*** An unofficial or illegal group like a thieves' guild rules the settlement; they may use a puppet leader to maintain secrecy, but the group members pull the strings in town. (Corruption, Economy, and Crime +2; Law -6)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2755,7 +2755,7 @@
 	},
 	"settlement_qualities": {
 		"name": "Settlement Qualities",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 207](source/gamemastery_guide)",
@@ -2789,7 +2789,7 @@
 			"***Tourist Attraction:*** The settlement possesses some sort of landmark or event that draws visitors from far and wide. (Economy +1; increase base value by 20%)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2806,7 +2806,7 @@
 	},
 	"settlement_disadvantages": {
 		"name": "Settlement Disadvantages",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 207](source/gamemastery_guide)",
@@ -2824,7 +2824,7 @@
 			"***Plagued:*** The community is suffering from a protracted contagion or malady. (-2 to all modifiers; reduce base value by 20%; select a communicable disease: there's a 5% chance each day that a PC is exposed to the disease and must make a Fortitude save to avoid contracting the illness)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2841,7 +2841,7 @@
 	},
 	"sample_settlements": {
 		"name": "Sample Settlements",
-		"subtitle": "Urban, Gamemastering",
+		"subtitle": "Urban, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -2849,7 +2849,7 @@
 			"While it's nice to be prepared, and planning out cities can be fun in and of itself, it's not always possible to generate specific settlement stat blocks for every town and city that the PCs might visit. Sometimes the PCs decide to venture off in search of supplies instead of heading straight for the next dungeon, other times they make selling their newly acquired loot their highest priority. The following sample settlements are designed for precisely such occasions. Rather than a specific name, each of these sample settlements bears a generic title that indicates what kind of settlement it is or where it might be located."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban"
@@ -2874,7 +2874,7 @@
 	},
 	"settlements_1": {
 		"name": "Capital City",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -2903,7 +2903,7 @@
 			"**Minor Items** 4d4; **Medium Items** 3d4; **Major Items** 2d4"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2922,7 +2922,7 @@
 	},
 	"settlements_2": {
 		"name": "City of Thieves",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -2951,7 +2951,7 @@
 			"**Minor Items** 4d4; **Medium Items** 3d4; **Major Items** 1d6"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -2970,7 +2970,7 @@
 	},
 	"settlements_3": {
 		"name": "City-State of Intrigue",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -2999,7 +2999,7 @@
 			"**Minor Items** all available; **Medium Items** 4d4; **Major Items** 3d4"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3018,7 +3018,7 @@
 	},
 	"settlements_4": {
 		"name": "Creepy Backwoods Hamlet",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -3047,7 +3047,7 @@
 			"**Minor Items** 1d6; **Medium Items** &mdash;; **Major Items** &mdash;"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3066,7 +3066,7 @@
 	},
 	"settlements_5": {
 		"name": "Dwarven Trade Town",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -3095,7 +3095,7 @@
 			"**Minor Items** 3d4; **Medium Items** 2d4; **Major Items** 1d4"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3114,7 +3114,7 @@
 	},
 	"settlements_6": {
 		"name": "Elven Town",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -3144,7 +3144,7 @@
 			"**Minor Items** 3d4; **Medium Items** 1d6; **Major Items** &mdash;"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3163,7 +3163,7 @@
 	},
 	"settlements_7": {
 		"name": "Failing Fishing Village",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -3192,7 +3192,7 @@
 			"**Minor Items** 1d4; **Medium Items** 1d2; **Major Items** &mdash;"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3211,7 +3211,7 @@
 	},
 	"settlements_8": {
 		"name": "Sleepy Crosswoods Thorp",
-		"subtitle": "Sample Settlements, Gamemastering",
+		"subtitle": "Sample Settlements, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 208](source/gamemastery_guide)",
@@ -3240,7 +3240,7 @@
 			"**Minor Items** 1d4; **Medium Items** &mdash;; **Major Items** &mdash;"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3259,13 +3259,13 @@
 	},
 	"urban_toolbox": {
 		"name": "Urban Toolbox",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"Whether as a place to rest between adventures or the setting of an entire campaign, cities offer the PCs a vast number of options and the potential to draw unanticipated elements into a campaign. Whether the GM is designing an entirely new community, adding details to an existing city, or adding new elements on the fly, the following tables can help better describe and define the next urban adventure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban"
@@ -3287,7 +3287,7 @@
 	},
 	"ut_1": {
 		"name": "Unique City Decorations and Shops",
-		"subtitle": "Urban Toolbox, Gamemastering",
+		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-38: Unique City Decorations",
@@ -3385,7 +3385,7 @@
 			"| 99-100 | Three Coppers Secondhand Goods |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3401,7 +3401,7 @@
 	},
 	"ut_2": {
 		"name": "100 City Locations",
-		"subtitle": "Urban Toolbox, Gamemastering",
+		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-40: 100 City Locations",
@@ -3510,7 +3510,7 @@
 			"| 100 | **Windmill:** wind-powered mill, often for making flour |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3526,7 +3526,7 @@
 	},
 	"ut_3": {
 		"name": "Arena, Castle/Estate, Menagerie/Museum",
-		"subtitle": "Urban Toolbox, Gamemastering",
+		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-41: Arena",
@@ -3617,7 +3617,7 @@
 			"| 99-100 | 1 [iron golem](monster/iron_golem) | 13 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3633,7 +3633,7 @@
 	},
 	"ut_4": {
 		"name": "Rooftop and Sewer",
-		"subtitle": "Urban Toolbox, Gamemastering",
+		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-44: Rooftop",
@@ -3695,7 +3695,7 @@
 			"| 99-100 | 1 [froghemoth](monster/froghemoth) | 13 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3711,7 +3711,7 @@
 	},
 	"ut_5": {
 		"name": "Slum, Tavern, and Thieves' Guild",
-		"subtitle": "Urban Toolbox, Gamemastering",
+		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-46: Slum",
@@ -3802,7 +3802,7 @@
 			"| 100 | 1 [pirate captain](npc/marauder_pirate_captain) | 11 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"urban",
@@ -3818,7 +3818,7 @@
 	},
 	"water": {
 		"name": "Water",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -3828,7 +3828,7 @@
 			"Also See: [Aquatic Adventures](rule/aquatic_adventures_aa) (a separate publication from Paizo)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -3851,7 +3851,7 @@
 	"aquatic_adventures": {
 		"name": "Aquatic Adventures",
 		"tags": "Adapting to Aquatic Adventures",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -3865,7 +3865,7 @@
 			"***Natural Adaptation:*** Any creature that has the aquatic subtype can breathe water easily and is unaffected by water temperature extremes that are found in that creature's typical environment. Aquatic creatures and creatures with the [hold breath](umr/hold_breath) ability are much more resistant to [pressure damage](rule/water_dangers); they do not suffer damage from pressure unless they are moved instantaneously from one depth to another in the blink of an eye (in which case they adapt to the pressure change after successfully making five successive Fortitude saves against the pressure effects)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water"
@@ -3879,7 +3879,7 @@
 	},
 	"nautical_adventures": {
 		"name": "Nautical Adventures",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -3887,7 +3887,7 @@
 			"Water can also provide the setting for a different and unique game experience: the nautical adventure. In such a scenario, the effects and dangers of underwater adventuring are replaced by surface hazards as the PCs and their opponents use vehicles like ships and boats to navigate the terrain. For the most part, shipboard adventures can be resolved normally, with a combat taking place aboard a ship functioning almost identically to one that occurs on land. If the combat happens during a storm or in heavy seas, treat the ship's deck as difficult terrain. Remember to take into account the effects on spellcasters' concentration checks due to weather or the motion of the ship's deck."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water"
@@ -3902,7 +3902,7 @@
 	"fast-play_ship_combat": {
 		"name": "Fast-Play Ship Combat",
 		"tags": "sinking",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 214](source/gamemastery_guide)",
@@ -3924,7 +3924,7 @@
 			"A ship gains the sinking condition if its hit points are reduced to 0 or fewer. A sinking ship cannot move or attack, and it sinks completely 10 rounds after it gains the sinking condition. Each hit on a sinking ship that inflicts damage reduces the remaining time for it to sink by 1 round per 25 points of damage inflicted. Magic (such as [make whole](spell/make_whole)) can repair a sinking ship if the ship's hit points are raised above 0, at which point the ship loses the sinking condition. Generally, nonmagical repairs take too long to save a ship from sinking once it begins to go down."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water"
@@ -3939,7 +3939,7 @@
 	},
 	"ship_statistics": {
 		"name": "Ship Statistics",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 215](source/gamemastery_guide)",
@@ -3977,7 +3977,7 @@
 			"| [Galley](/equipment-misc/galley) | 2 | 200 | +8 | 90 feet&ast; | 4 | 6d6+24 | 4 | 200/250+100 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water",
@@ -3987,7 +3987,7 @@
 	},
 	"water_toolbox": {
 		"name": "Water Toolbox",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 216](source/gamemastery_guide)",
@@ -3995,7 +3995,7 @@
 			"From adventures on the open ocean or under the sea, upon uncharted coasts or in maze-like river country, the potential for peril and discovery upon the waves is endless. The tables here present not just ideas and suggestions for elements GMs might include in their aquatic encounters, but details, personalities, and destinations ready for ocean-going adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water"
@@ -4015,7 +4015,7 @@
 	},
 	"aqt_1": {
 		"name": "Islands and Flotsam",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 216](source/gamemastery_guide)",
@@ -4106,7 +4106,7 @@
 			"| 99-100 | A sail with a large, perfectly round hole in its center |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water",
@@ -4121,7 +4121,7 @@
 	},
 	"aqt_2": {
 		"name": "Ghost Ships and Shipwrecks",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 217](source/gamemastery_guide)",
@@ -4182,7 +4182,7 @@
 			"| 99-100  | **The Maltmainge Tomorrow:** still, silent crows perch upon every part of this well-preserved ship |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water",
@@ -4197,7 +4197,7 @@
 	},
 	"aqt_3": {
 		"name": "Sailors and Boatmen",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 218](source/gamemastery_guide)",
@@ -4256,7 +4256,7 @@
 			"| 99-100  | **Captain Z'gark:** legendary hobgoblin sea captain; not an inch of his flesh is unscarred |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water",
@@ -4271,7 +4271,7 @@
 	},
 	"aqt_4": {
 		"name": "Boats and Captains",
-		"subtitle": "Exploration, Gamemastering",
+		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 219](source/gamemastery_guide)",
@@ -4387,7 +4387,7 @@
 			"| 99-100 | Zhar Slitshanks | *Winter's Bite* |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"water",
@@ -4402,7 +4402,7 @@
 	},
 	"wilderness_gg": {
 		"name": "Wilderness",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -4412,7 +4412,7 @@
 			"What sets a wilderness adventure apart? First, the obvious answer: the terrain is more open and traversable. The party may travel through declivities, valleys, and gorges, but in general, they'll have a wider, broader range for their trek. They will not be constrained by dungeon walls or cavern tunnels, and can choose their own pathways to their destination, but with these benefits come a wide variety of additional hazards and a potential for adventure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -4434,7 +4434,7 @@
 	},
 	"climate_and_weather": {
 		"name": "Climate and Weather",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -4444,7 +4444,7 @@
 			"The GM might consider penalizing PCs for wearing inappropriate attire in various climates and terrains: increased DCs on Acrobatics checks or additional movement penalties for heavily armored PCs in bogs, for instance, or even Survival checks with increasing DCs as the party moves into ever-more inhospitable climes. Suggested encounters are listed with many of these sections."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg"
@@ -4462,7 +4462,7 @@
 	},
 	"climate": {
 		"name": "Climate",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -4478,7 +4478,7 @@
 			"***Tropical:*** The tropics are the hottest part of a planet; lying along the equator, they come directly under the sun's glare for the entirety of the year. Rather than winter or summer, the tropics have a dry season and a wet season, based on the movement of the rain belt from south to north and back again. Again, however, terrain makes a difference: lush, verdant jungles enjoy frequent rainfall, enormous mountains can sport snow at high altitudes, and the sands of massive deserts shift back and forth on the winds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4491,7 +4491,7 @@
 	},
 	"weather_gg": {
 		"name": "Weather",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 220](source/gamemastery_guide)",
@@ -4505,7 +4505,7 @@
 			"Types of weather that may factor into encounters include blizzards, severe cold or extreme heat, fog, hurricanes and typhoons, monsoons, dust storms, hailstorms, sandstorms, snowstorms, and thunderstorms (with or without lightning), tornadoes, and windstorms (see the other [Weather section](rule/weather))."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4518,7 +4518,7 @@
 	},
 	"environment_gg": {
 		"name": "Environment",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 221](source/gamemastery_guide)",
@@ -4526,7 +4526,7 @@
 			"In addition to climate and weather, the environment itself can have an impact on adventures. The environment includes both landscapes and ecosystems. Landscape varies widely and is generally a function of both geology and geography - that is, the natural structure and substance of the land, and the physical features within a region. An ecosystem refers to the type of biological life in a region, rather than topology. The following terrain types can appear in virtually any climate, and each has its own unique hazards and considerations to take into account when used as the setting for an adventure. Remember that the possibility of becoming lost exists in any terrain!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg"
@@ -4549,7 +4549,7 @@
 	},
 	"deserts": {
 		"name": "Deserts",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -4559,7 +4559,7 @@
 			"[Desert terrain is described here,](rule/desert_terrain) but encounters in the desert might also include exposure to either severe [heat](rule/heat_dangers) or [cold](rule/cold_dangers); [storms](rule/storms), whether blizzards, sandstorms, or thunderstorms, which can lead to flash [floods](rule/floods) in the higher deserts in particular; and [thirst](rule/starvation_and_thirst), when water stores eventually vanish."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4577,7 +4577,7 @@
 	},
 	"forests_jungles": {
 		"name": "Forests/Jungles",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -4587,7 +4587,7 @@
 			"[Forest terrain is described here,](rule/forest_terrain) but when adventuring in the forest or jungle, some possible encounters might also incorporate [darkness](rule/vision_and_light), [falling branches or trees](rule/falling_objects), [fog](rule/fog), [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4605,7 +4605,7 @@
 	},
 	"hills": {
 		"name": "Hills",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -4615,7 +4615,7 @@
 			"[Hills terrain is described here;](rule/hills_terrain) hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include [avalanches](rule/avalanches_cr_7), the danger of [falls](rule/falling), [icy terrain](rule/cold_dangers), inclement [weather](rule/weather), rivers and streams, and [rubble](rule/floors). Hills used as defensive positions might also incorporate trenches and berms."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4633,7 +4633,7 @@
 	},
 	"marshes_swamps_and_bogs": {
 		"name": "Marshes, Swamps, and Bogs",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -4643,7 +4643,7 @@
 			"[Marshes, swamps, and bogs are described here.](rule/marsh_terrain) When traveling through swamps, one should always be wary of rotten vegetation, which can break suddenly under too much weight and cause [falls](rule/falling), as well as quicksand and deep pools of water, which can be spotted in the same manner as quicksand. Falling into such a pool requires a DC 10 Swim check and carries the possibility of drowning. The deep water in swamps, while providing cover, can also hamper movement."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4661,7 +4661,7 @@
 	},
 	"mountains": {
 		"name": "Mountains",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 222](source/gamemastery_guide)",
@@ -4671,7 +4671,7 @@
 			"[Mountain terrain is described here.](rule/mountain_terrain) Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or [avalanches](rule/avalanches_cr_7) of snow, mud, or rock, low clouds that function as [fog](rule/fog), and [ice sheets](rule/cold_dangers). [Volcanic mountains](rule/volcanoes) add dangers of smoke and lava."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4689,7 +4689,7 @@
 	},
 	"plains": {
 		"name": "Plains",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
@@ -4699,7 +4699,7 @@
 			"[Plains terrain is described here.](rule/plains_terrain) With few terrain features to shield them, plains are often beset by [high winds](rule/winds), causing [dust storms](rule/storms) and even tornadoes. Grassfires are also a danger (treat as [forest fires](rule/forest_fires_cr_6)), and they can cause normally placid herd animals to stampede, effectively granting them the [stampede and trample](umr/trample) special abilities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4717,7 +4717,7 @@
 	},
 	"underground": {
 		"name": "Underground",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
@@ -4727,7 +4727,7 @@
 			"Dungeons are described in greater detail [in the core rules](rule/dungeons) and [here in the GameMastery Guide](rule/dungeons_gg). Hazards in the Core Rulebook that can help liven up underground encounters include [cave-ins](rule/cave-ins_and_collapses_cr_8), [suffocation](rule/suffocation), [falling rocks](rule/falling_objects), [darkness](rule/vision_and_light), and dangerous [molds and fungi](rule/slimes_molds_and_fungi)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4745,7 +4745,7 @@
 	},
 	"encounters_on_a_journey": {
 		"name": "Encounters on a Journey",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 223](source/gamemastery_guide)",
@@ -4759,7 +4759,7 @@
 			"***Ongoing Encounters:*** While definitely the most labor-intensive route, a GM might create specific encounters for a trip and have secondary spin-off adventures available for the party to pursue or ignore. This requires significantly greater preparation time but has the added benefit of creating new stories for the campaign and cutting down on the GM's need to craft impromptu content. The party might even choose to come back later to revisit interesting sites or plot lines."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg"
@@ -4773,13 +4773,13 @@
 	},
 	"wilderness_toolbox": {
 		"name": "Wilderness Toolbox",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"The wilderness presents a vast range of opportunities for adventure, not just as far as setting and locations go, but also in terms of hazards one might encounter, creatures to be faced, and natives or travelers also venturing through such areas. The following charts should help GMs add additional details to their adventures in the wilds, whether suggesting discoveries to make along the road, or serving as a reminder to mention the weather."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg"
@@ -4801,7 +4801,7 @@
 	},
 	"wt_1": {
 		"name": "Things Found on the Roadside, Types of Weather",
-		"subtitle": "Wilderness Toolbox, Gamemastering",
+		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-56: Things Found on the Roadside",
@@ -4904,7 +4904,7 @@
 			"| 99-100 | **Whiteout:** heavy snow, causing visibility problems |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -4921,7 +4921,7 @@
 	},
 	"wt_2": {
 		"name": "Scenic Spots, Terrain Types",
-		"subtitle": "Wilderness Toolbox, Gamemastering",
+		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-58: Scenic Spots",
@@ -5035,7 +5035,7 @@
 			"| 99-100 | **Wetlands:** wet, soggy, seasonally waterlogged area |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -5052,7 +5052,7 @@
 	},
 	"wt_3": {
 		"name": "Beach/Coast, Eldritch Forest",
-		"subtitle": "Wilderness Toolbox, Gamemastering",
+		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-60: Beach/Coast",
@@ -5114,7 +5114,7 @@
 			"| 99-100 | 1 [couatl](monster/couatl) | 10 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -5131,7 +5131,7 @@
 	},
 	"wt_4": {
 		"name": "Oasis, Polar",
-		"subtitle": "Wilderness Toolbox, Gamemastering",
+		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-62: Oasis",
@@ -5193,7 +5193,7 @@
 			"| 100 | 1 [ice linnorm](monster/ice_linnorm) | 17 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -5210,7 +5210,7 @@
 	},
 	"wt_5": {
 		"name": "Sky, Temperate Plains",
-		"subtitle": "Wilderness Toolbox, Gamemastering",
+		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-64: Sky",
@@ -5272,7 +5272,7 @@
 			"| 99-100 | 1 [guardian naga](monster/guardian_naga) | 10 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -5289,7 +5289,7 @@
 	},
 	"wt_6": {
 		"name": "Volcano, Wasteland",
-		"subtitle": "Wilderness Toolbox, Gamemastering",
+		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-66: Volcano",
@@ -5351,7 +5351,7 @@
 			"| 100 | 1 [shoggoth](monster/shoggoth) | 19 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"wilderness_gg",
@@ -5368,7 +5368,7 @@
 	},
 	"advanced_topics": {
 		"name": "Advanced Topics",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
@@ -5376,7 +5376,7 @@
 			"Roleplaying games are, at their cores, simulations, with most rules focusing on how to perform epic feats and participate in the fantastic adventures of legendary heroes. Thus, games like the Pathfinder RPG highlight the most common elements of fantasy stories: battle, magic, monsters, and the like, detailing facets of the simulation that benefit from or require more detail than a GM might comfortably arbitrate on his own."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -5406,7 +5406,7 @@
 	},
 	"customizing_your_game": {
 		"name": "Customizing Your Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
@@ -5416,7 +5416,7 @@
 			"In an attempt to better equip GMs with more exciting options for their campaigns, this section presents a variety of new subsystems, as well as advice to make running common fantasy encounters easier. While some sections offer more detailed explanations and uses of existing rules, others present altogether new rules, while still others explain the methods behind creating common story elements. In any case, this section strives to aid GMs seeking to craft more exciting and evocative games, but does not claim to be inclusive of all the situations that might arise in an adventure. Rather, GMs should utilize these new rules and details in the same way they might use those in the Pathfinder RPG Core Rulebook, employing them as written when possible or altering them to serve as departure points customized to specific stories, or as the basis for wholly unique subsystems."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -5440,7 +5440,7 @@
 	},
 	"when_to_design": {
 		"name": "When to Design?",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 230](source/gamemastery_guide)",
@@ -5456,7 +5456,7 @@
 			"GMs should try to test their rules systems before games begin, compare them to existing rules, and then let the players know that they're trying rules the GM has created himself. If things go poorly, the GM can adjust elements on the fly or even abandon the system in favor of more standard rules - and go back to the drawing board after the game. If things go well, though, the GM might solicit feedback and make additional adjustments, tinkering until he's devised a useful new tool."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"customizing_your_game"
@@ -5468,7 +5468,7 @@
 	},
 	"when_to_disguise": {
 		"name": "When to Disguise?",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 231](source/gamemastery_guide)",
@@ -5478,7 +5478,7 @@
 			"Say a PC wishes to run, leap off a cliff, and attack a dragon soaring past, digging in his axe to maintain a hold on the soaring beast. While rules exist for elements of the action, sticking and hanging onto a weapon embedded in another creature is not part of the game system. Yet rather than denying a character the opportunity to attempt a heroic feat, you could easily rely on the results of the rules you do know to arbitrate those you don't. For example, if the same character rolls high on his Acrobatics skill check and significantly exceeds his target's AC with his attack, you could declare that her plan works and she's now being dragged along by the dragon. Alternatively, if the PC botches either roll, she might be in for a long fall. Either way, interpreting existing rules in an unconventional way, or even just calling for an ability check to suggest either a good or poor result, can save you from paging through volumes of rules trying to find a non-existent perfect fit. And with some shuffling of notes and hidden dice roles, no player should be the wiser to such an improvised ruling."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"customizing_your_game"
@@ -5490,7 +5490,7 @@
 	},
 	"chases": {
 		"name": "Chases",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -5498,7 +5498,7 @@
 			"While chases are a signature action scene in countless stories, they present a singular challenge in the Pathfinder Roleplaying Game, thanks to static movement rates. Since every creature in the game has a set movement rate, it might seem like you'd either automatically (or never) catch up to a fleeing foe! Obviously, this isn't the case, because there's more to catching a foe or avoiding being caught than simple speed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -5523,7 +5523,7 @@
 	},
 	"building_a_chase": {
 		"name": "Building a Chase",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -5543,7 +5543,7 @@
 			"***Long Shot:*** If one participant is so far ahead that he has practically already won the chase, he begins the chase either three cards from the end of the chase or 10 cards away from the rest of the chase's participants, whichever is the greater distance between the two sides."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"chases"
@@ -5556,7 +5556,7 @@
 	},
 	"chase_obstacles": {
 		"name": "Chase Obstacles",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -5568,7 +5568,7 @@
 			"As a general rule, obstacles should be overcome by physical skill checks, such as Acrobatics, Climb, Escape Artist, Ride, or Swim. Perception can be used for obstacles like short cuts, Stealth can be rolled for obstacles requiring someone to move through a square quietly, or Bluff might be required to navigate a square by convincing a city guard you should be allowed to pass. You can even use saving throws to resolve obstacles (a Fortitude save to avoid being sickened by passing through a pool of filth, for example, or a Will save to evade the strange wailing spirits haunting that area). Be creative! It's okay to reuse obstacles, but try to vary them between cards and remember not to get bogged down with repetitive DCs or certain types of checks!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"chases"
@@ -5581,7 +5581,7 @@
 	},
 	"running_a_chase": {
 		"name": "Running a Chase",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 232](source/gamemastery_guide)",
@@ -5601,7 +5601,7 @@
 			"A character can also choose to make a ranged attack or cast a spell during his turn in a chase. If the action is a full-round action, he can't move at all. Use the number of cards and their established distances to determine ranges as necessary. The terrain where the chase takes place might provide the target partial or even full cover or concealment, as you wish. A character can only choose to make melee attacks against targets that are on the same card."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"chases"
@@ -5614,7 +5614,7 @@
 	},
 	"disasters": {
 		"name": "Disasters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -5624,7 +5624,7 @@
 			"Presented below are rules for handling the effects of three different types of disasters, both natural and supernatural. Some disasters happen quickly, like earthquakes and tsunamis, while others progress through several stages, like forest fires, volcanoes, and undead uprisings. Adjust the pacing of the adventure to fit the disaster, allowing the events to unfold over mere minutes or over several days as your needs require."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -5650,7 +5650,7 @@
 	"volcanoes": {
 		"name": "Volcanoes",
 		"tags": "lava poisonous gases lava bombs pyroclastic flows",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -5674,7 +5674,7 @@
 			"Some volcanic eruptions create a devastating wave of burning ash, hot gases, and volcanic debris called a pyroclastic flow that can travel for miles. Treat a pyroclastic flow as an avalanche traveling at 500 feet per round, combined with the effects of poisonous gas listed above. Contact with the searing-hot debris of the flow causes 2d6 points of fire damage per round, while any creature buried in the flow suffers 10d6 points of damage per round. Only reality-warping magic like [miracle](spell/miracle) or [wish](spell/wish) can turn aside or impede a pyroclastic flow."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters"
@@ -5687,7 +5687,7 @@
 	},
 	"tsunamis": {
 		"name": "Tsunamis",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 234](source/gamemastery_guide)",
@@ -5701,7 +5701,7 @@
 			"A creature can avoid being pulled out to sea with a DC 25 Swim check; otherwise it is pulled 6d6 &times; 10 feet away from shore. Waters after a tsunami are always treated as rough or stormy, barring magical influence. A creature caught in a collapsing building takes 6d6 points of damage (DC 15 Reflex save for half), or half that amount if the building is particularly small. There is a 50% chance that the creature is buried (as for a [cave-in](rule/cave-ins_and_collapses_cr_8), or the tsunami may tear the building apart, freeing the creature from the rubble."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters"
@@ -5714,7 +5714,7 @@
 	},
 	"undead_uprising": {
 		"name": "Undead Uprising",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -5724,7 +5724,7 @@
 			"Undead uprisings occur in waves, with the timing varying according to the underlying forces at play. The events may happen over the course of only a few days, devastating a city, or be spread out over weeks as the terrified populace cowers behind locked doors and struggles to survive. During the day, life often returns to some semblance of normalcy, as the light of day briefly suppresses the power of the undead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters"
@@ -5743,7 +5743,7 @@
 	},
 	"the_unquiet_dead": {
 		"name": "The Unquiet Dead",
-		"subtitle": "Undead, Gamemastering",
+		"subtitle": "Undead, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -5751,7 +5751,7 @@
 			"On the first nights of an undead uprising, the bodies of the recently dead rise as [zombies](template/zombie). Those interred in consecrated ground remain at rest, but bodies left unburied or in mass graves lurch out into the streets, wreaking havoc. At first, only a few corpses are able to free themselves from their coffins and tombs, but each night, more bodies return to walk the land of the living. When dawn breaks, the dead seek safety in their graves or other hidden places. Any caught in the daylight flail about [confused](rule/awareness_conditions), as per the condition until they are destroyed or manage to stagger into shelter. At the GM's discretion, non-humanoid corpses may rise as undead on subsequent nights."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters",
@@ -5766,7 +5766,7 @@
 	},
 	"skeletal_awakening": {
 		"name": "Skeletal Awakening",
-		"subtitle": "Undead, Gamemastering",
+		"subtitle": "Undead, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -5774,7 +5774,7 @@
 			"As the uprising progresses, older and older corpses join the shambling ranks of the undead. [Skeletons](template/skeleton) wearing traces of long-rotted funeral garb claw their way out of graveyards and crypts, and act with a malevolence and organization rarely encountered among their ilk. The undead remain mindless, but the magical power behind the incursion gives them the efficiency and tactical acumen of a living army. The skeletons seek out weapons and armor to gird themselves for battle. Elite [skeletal champions](template/skeletal_champion) lead the troops, wielding magic items scavenged from abandoned graves. Eventually, [ghouls](monster/ghoul) and [wights](monster/wight) prowl the streets after dark as well, along with other lesser, free-willed undead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters",
@@ -5789,7 +5789,7 @@
 	},
 	"lost_souls_uu": {
 		"name": "Lost Souls",
-		"subtitle": "Undead, Gamemastering",
+		"subtitle": "Undead, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -5801,7 +5801,7 @@
 			"As the undead grow stronger, the growing flood of negative energy brings the [Shadow Plane](rule/shadow_plane) closer, leaving colors muted or gray except during the brightest hours of daylight. Even those undead most vulnerable to light can move about with impunity from late afternoon to mid-morning."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters",
@@ -5816,7 +5816,7 @@
 	},
 	"necropolis": {
 		"name": "Necropolis",
-		"subtitle": "Undead, Gamemastering",
+		"subtitle": "Undead, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 235](source/gamemastery_guide)",
@@ -5826,7 +5826,7 @@
 			"Heroes who perished in the battle against the uprising return as fearsome undead generals. The few living survivors are enslaved as thralls. The area becomes a city of the dead, or construction begins if no such city existed or survived. Free-willed undead flock to this new sanctuary, and only the greatest of heroes can return this now-blighted area to the world of the living."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"disasters",
@@ -5841,7 +5841,7 @@
 	},
 	"drugs_and_addiction": {
 		"name": "Drugs and Addiction",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5851,7 +5851,7 @@
 			"For better or worse, all things that one might find in the real world multiply and take on wondrous and lethal qualities in fantasy settings, and the vices of alcohol and chemical abuse are no different. While many games have no place for realistic bouts of drunkenness or the soul-scouring depths of addiction, such elements hold great potential for adventure. Whether one seeks to reenact a feat of fortitude like the drinking contest between Hercules and Dionysus, have an encounter with lotus-eater-like decadents, or recreate the entheogens of religious mysteries, these rules cover the highs and lows."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -5877,7 +5877,7 @@
 	},
 	"drugs": {
 		"name": "Drugs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5891,7 +5891,7 @@
 			"[The full list of drugs can be found here.](main/drugs)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"drugs_and_addiction"
@@ -5905,7 +5905,7 @@
 	},
 	"addiction": {
 		"name": "Addiction",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5935,7 +5935,7 @@
 			"*Effect* -2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction; Cure 3 consecutive saves"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"drugs_and_addiction"
@@ -5949,7 +5949,7 @@
 	},
 	"curing_addiction": {
 		"name": "Curing Addiction",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 236](source/gamemastery_guide)",
@@ -5957,7 +5957,7 @@
 			"As addictions are [diseases](rule/diseases), they can be cured as such, through the use of spells like [remove disease](spell/remove_disease) or by succeeding at Fortitude saves over time. Unlike with other diseases, an addicted character can only make a Fortitude save to overcome his addiction after a day of not taking the drug he is addicted to. The DC of this Fortitude save is equal to the highest addiction DC his drug use has reached (not necessarily the DC that addicted him if he has continued to make use of the drug while addicted). This DC decreases by -2 for everyday the character does not make use of the drug, to a minimum of the drug's base addiction DC. Depending on the severity of the character's addiction, it might take two or three consecutive successful Fortitude saves to overcome the disease. Should a character take a dose of the drug he's addicted to, he immediately relapses, causing the addiction DC to instantly return to its highest DC and negating any successful past saves."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"drugs_and_addiction"
@@ -5971,7 +5971,7 @@
 	},
 	"drunkenness": {
 		"name": "Drunkenness",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Inner Sea Taverns"
@@ -5995,7 +5995,7 @@
 			"After reaching *soused*, you must make a Fortitude save after every drink you consume. The DC is 15 + the number of extra drinks you've had while soused. If you fail, you pass out. Upon waking, you must make a DC 20 Fortitude save to remember what happened while you were drinking."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"drugs_and_addiction"
@@ -6009,7 +6009,7 @@
 	},
 	"fortune-telling": {
 		"name": "Fortune-Telling",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
@@ -6021,7 +6021,7 @@
 			"No matter how the fortune-telling enters your campaign, you as the Game Master have options. You can choose to roll some dice behind a screen and simply tell your players the result - or you can choose to use the moment to create dramatic tension and the feeling that the players' characters are integral to the fortune-telling. While the second option is likely a lot more fun for all involved, it does require some work on your part."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -6047,7 +6047,7 @@
 	},
 	"basic_fortune-telling_methods": {
 		"name": "Basic Fortune-Telling Methods",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
@@ -6065,7 +6065,7 @@
 			"***False Randomness:*** Many fortune-telling methods can be made to look random while allowing you to remain in total control of the outcome. This is easiest to do with a prop like a spirit board, but can also be done easily with cards. The advantage to false randomness is that it allows you to give players specific information you want to impart about their futures. By spelling out words on a spirit board or stacking a deck so certain cards are revealed, you can impart meanings specific to the needs of your game. The disadvantage of this technique is that, if you mess up, players know you rigged the results and don't feel as excited or as invested in the results as they might otherwise."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"fortune-telling"
@@ -6079,7 +6079,7 @@
 	},
 	"fortune-telling_props": {
 		"name": "Fortune-Telling Props",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 238](source/gamemastery_guide)",
@@ -6095,7 +6095,7 @@
 			"***Crystal Ball, Fire, Foci:*** When using a crystal ball, fire, or any other prop that offers no visible result, you need to use a more theatrical style. These readings tend to be more scripted (see [Fortune-Telling as Theater](rule/fortune-telling_as_theater)), although you can still add player interaction into such encounters by asking the players questions, such as \"What animal comes to mind as you stare into the fire\"? You must then be ready to assign a meaning to the animal or whatever other factors you decide have relevance."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"fortune-telling"
@@ -6109,7 +6109,7 @@
 	},
 	"fortune-telling_as_theater": {
 		"name": "Fortune-Telling as Theater",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 239](source/gamemastery_guide)",
@@ -6121,7 +6121,7 @@
 			"You can, of course, combine this theatrical reading style with one of the more random fortune-telling elements. The combination can be particularly powerful. And always remember that, even in the most directed of readings, you want to integrate the players into the process. This will provide them with the most powerful and enjoyable experience, and will also give them things to look forward to - or dread - in the coming adventure. That kind of emotional engagement and suspense can turn a run-of-the-mill adventure into a truly magical experience."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"fortune-telling"
@@ -6135,7 +6135,7 @@
 	},
 	"mundane_and_magical_fortune-telling": {
 		"name": "Mundane and Magical Fortune-Telling",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 239](source/gamemastery_guide)",
@@ -6145,7 +6145,7 @@
 			"The Pathfinder RPG also presents many magical options for fortune-telling. The spells [augury](spell/augury), [contact other plane](spell/contact_other_plane), and [vision](spell/vision), along with a host of other divination spells, all prove useful in giving characters insights into the future, where classic magic items like [crystal balls](magic-wondrous/crystal_ball) and [medallions of thoughts](magic-wondrous/medallion_of_thoughts) allow seers to demonstrate their uncanny insights. A variety of illusion-based spells and magic items, such as a [wand of major image](spell/major_image) or a [deck of illusions](magic-wondrous/deck_of_illusions), help bring flair to a fortuneteller's readings, regardless of actual truthfulness. There is also the [harrower prestige class](prestigeclass/harrower), which employs the aforementioned Harrow Deck and allows characters to play a kind of adventuring fortune-teller."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"fortune-telling"
@@ -6159,7 +6159,7 @@
 	},
 	"gambling_and_games_of_chance": {
 		"name": "Gambling and Games of Chance",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -6169,7 +6169,7 @@
 			"However, no one coming to your house for an RPG session is going to be satisfied if you just play croupier all night long. You need to make your players' trip to the Gold Goblin Gaming House rich in fantasy if you're going to have a successful gaming experience, in both senses of the word \"gaming.\""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -6197,7 +6197,7 @@
 	},
 	"creating_the_right_atmosphere": {
 		"name": "Creating the Right Atmosphere",
-		"subtitle": "Gambling, Gamemastering",
+		"subtitle": "Gambling, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -6211,7 +6211,7 @@
 			"In the end, offer them an adventure no matter how it turns out. If they lose big, have the club owner give them a chance to win back what they've lost by taking out the kobolds in the nearby sewer. If they win big, have some half-orcs attempt to jack their winnings in the alley. There are many types of gambles in the world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"gambling_and_games_of_chance"
@@ -6227,7 +6227,7 @@
 	},
 	"types_of_gambling_games": {
 		"name": "Types of Gambling Games",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -6247,7 +6247,7 @@
 			"***Proposition betting:*** Prop bets are bets on the outcomes of events for which one has imperfect knowledge. Sports bets are the best known of these types of bets. The house sets a line on which it believes half the bettors will pick one side and half will pick the other. The proposition then happens, and the people who picked correctly are paid off."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"gambling_and_games_of_chance"
@@ -6263,7 +6263,7 @@
 	},
 	"gambling_and_skill_checks": {
 		"name": "Gambling and Skill Checks",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 240](source/gamemastery_guide)",
@@ -6275,7 +6275,7 @@
 			"In a hand of a skill game like poker, you can use a player's Profession (gambler) skill to adjudicate it, in the same way a character's Profession (fisherman) skill might be used to catch a fish for dinner. However, it need not be the only skill a player could use. Bluff, Intimidate, Sense Motive, and (for cheating) Sleight of Hand can all be used to win a single hand of cards. These rolls, along with some roleplaying, can make a card showdown into an interesting encounter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"gambling_and_games_of_chance"
@@ -6291,7 +6291,7 @@
 	},
 	"games_of_chance": {
 		"name": "Games of Chance",
-		"subtitle": "Gambling, Gamemastering",
+		"subtitle": "Gambling, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
@@ -6301,7 +6301,7 @@
 			"Of course, cheating is the only way to change your luck in a game of chance. If someone at the table wants to cheat, Sleight of Hand is the most useful skill, but Disable Device might also be allowed. In addition, magic can be quite useful for cheating. Spells like mage hand, silent image, and modify memory can turn bad results into good results. Getting caught, however, can turn these good results into much, much worse outcomes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"gambling_and_games_of_chance"
@@ -6317,7 +6317,7 @@
 	},
 	"designing_a_gambling_game": {
 		"name": "Designing a Gambling Game",
-		"subtitle": "Gambling, Gamemastering",
+		"subtitle": "Gambling, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
@@ -6335,7 +6335,7 @@
 			"***Payout:*** The payout is the rate of return a player gets when he wins, usually double the odds. It's important to understand that for a game of pure chance, all choices must lead to the same payouts over time. Think of the roulette board. A straight-up bet on a single number has a 37-to-1 chance of hitting, and pays 35-to-1. A bet on all of the numbers 1-12 has a 2.167-to-1 chance of hitting, and pays 2-to-1. A bet on red has a 1.111-to-1 chance of hitting, and pays 1-to-1. Doing the math on these bets show that they all have the same rate of return: a player loses 5.3 cents for every dollar bet."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"gambling_and_games_of_chance"
@@ -6351,7 +6351,7 @@
 	},
 	"sample_game_twenty_bones": {
 		"name": "Sample Game: Twenty Bones",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 241](source/gamemastery_guide)",
@@ -6369,7 +6369,7 @@
 			"***The payout:*** The player will win 9.55 coins for every 10 coins he bets. The fact that a player is paid two coins on every win obscures the fact that the player gave over a coin to buy the die. Accounting for this, every successful bet's payout is 1-to-1."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"gambling_and_games_of_chance"
@@ -6385,7 +6385,7 @@
 	},
 	"haunts": {
 		"name": "Haunts",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 242](source/gamemastery_guide)",
@@ -6395,7 +6395,7 @@
 			"[Find a list of haunts here.](main/haunts)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -6424,7 +6424,7 @@
 	},
 	"haunt_rules": {
 		"name": "Haunt Rules",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Occult Adventures"
@@ -6455,7 +6455,7 @@
 			"Haunts created using spells with non-instantaneous durations can also create problems. If the haunts do not have the persistent quality, it is unclear whether these spells continue with their normal durations after the haunt's surprise-round attack. To resolve this matter, consider creating haunts with durations as persistent haunts."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6473,7 +6473,7 @@
 	"haunt_templates": {
 		"name": "Haunt Templates",
 		"tags": "item-bound haunt possessing haunt chained haunts elusive haunt tenacious haunt unyielding haunt variant haunts",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [
 			"Horror Adventures",
 			"Occult Adventures"
@@ -6516,7 +6516,7 @@
 			"Haunts that are not tied to undeath are not vulnerable to positive energy, and cannot be detected with spells such as [detect undead](spell/detect_undead) or evaded with spells such as [hide from undead](spell/hide_from_undead). They have their own sets of vulnerabilities and defenses."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6533,7 +6533,7 @@
 	},
 	"seances_and_spirit_communication": {
 		"name": "Seances and Spirit Communication",
-		"subtitle": "Haunts, Gamemastering",
+		"subtitle": "Haunts, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 230](source/occult_adventures)",
@@ -6543,7 +6543,7 @@
 			"Diplomacy, spells such as [calm spirit](spell/calm_spirit), and comforting environments such as darkened seance cabinets can all improve a spirit's attitude. Some characters attempting to communicate with haunts carry flat, lettered boards known as talking boards, cone-shaped spirit trumpets, or writing planchettes: small, wheeled boards that write with chalk or charcoal pencils. While these are mundane items with no inherent magic of their own, in the hands of those with properly established rapports, these tools increase the efficiency of messages received from haunts, doubling the rate of communication from two signals (raps, letters, etc.) per round to four signals per round."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6560,7 +6560,7 @@
 	},
 	"elements_of_a_haunt": {
 		"name": "Elements of a Haunt",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 243](source/gamemastery_guide)",
@@ -6590,7 +6590,7 @@
 			"***Destruction:*** This describes the act needed to permanently destroy the haunt."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6607,7 +6607,7 @@
 	},
 	"creating_a_haunt": {
 		"name": "Creating a Haunt",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Horror Adventures",
@@ -6676,7 +6676,7 @@
 			"| Variant Haunts | Varies |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6693,7 +6693,7 @@
 	},
 	"echoes_of_the_first_world": {
 		"name": "Echoes of the First World",
-		"subtitle": "Haunts, Gamemastering",
+		"subtitle": "Haunts, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 132](source/ultimate_wilderness)",
@@ -6705,7 +6705,7 @@
 			"***Overcharge:*** Positive energy and healing effects heal echoes of the First World. If such healing would cause an echo of the First World to exceed its normal maximum hit points, it gains half the excess as temporary hit points until those hit points are spent or 1 minute has passed since it last gained temporary hit points in this manner. As long as an echo of the First World has at least 1 temporary hit point gained in this way, it also gains its overcharge ability."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6722,7 +6722,7 @@
 	},
 	"botanical_haunts": {
 		"name": "Botanical Haunts",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_#144_midwives_to_death)",
@@ -6734,7 +6734,7 @@
 			"The standard destruction condition for a botanical haunt is when the plant is entirely destroyed, which requires an hour of work and a successful Knowledge (nature) check (DC = 15 + twice the haunt's CR) to thoroughly remove the plant's roots. This destroys the haunt, but the animating nature spirit is likely to seek another vessel. The only way to permanently destroy a botanical haunt is by placating the spirit animating it; the exact method required depends upon the spirit's grievance."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"haunts"
@@ -6751,7 +6751,7 @@
 	},
 	"hazards": {
 		"name": "Hazards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)",
@@ -6763,7 +6763,7 @@
 			"Hazards have challenge ratings like traps or monsters. A typical hazard triggers if a creature ventures near or into it, causing hit point damage, ability damage or drain, or some other harmful effect. Most can be detected by wary and knowledgeable PCs. Every hazard should have a means of escape or a way to eliminate the hazard, if not both."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -6784,7 +6784,7 @@
 	},
 	"sample_hazards": {
 		"name": "Sample Hazards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)",
@@ -6854,7 +6854,7 @@
 			">**Effect** 1d2 Con damage per grub"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"hazards"
@@ -6863,7 +6863,7 @@
 	},
 	"mysteries_and_investigations": {
 		"name": "Mysteries and Investigations",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"tags": "Mystery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -6874,7 +6874,7 @@
 			"When planning an adventure based around a mystery, a GM needs to consider the plot from two angles, conceiving both the mystery's elements and the investigative techniques of the detectives (typically the PCs)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -6899,7 +6899,7 @@
 	},
 	"the_fantasy_mystery": {
 		"name": "The Fantasy Mystery",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 246](source/gamemastery_guide)",
@@ -6915,7 +6915,7 @@
 			"***The Truth:*** When creating an adventure based on a mysterious occurrence, it's vital to sketch out the timeline of events. Once the GM knows exactly what happened, it becomes easier to handle PCs who take unexpected tracks. What incidents led up to the mystery, who is involved, who knows details of the incident, how much time elapsed between events?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"mysteries_and_investigations"
@@ -6928,7 +6928,7 @@
 	},
 	"running_a_mystery": {
 		"name": "Running a Mystery",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 246](source/gamemastery_guide)",
@@ -6948,7 +6948,7 @@
 			"***Sub-Adventures:*** A detailed mystery doesn't need to exclude the elements of more traditional adventures. Interspersing an investigation with combats, challenges, and even related dungeons can bolster a group's excitement and keep the mystery feeling like an adventure and not merely a drawn-out roleplaying encounter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"mysteries_and_investigations"
@@ -6961,7 +6961,7 @@
 	},
 	"magical_investigations": {
 		"name": "Magical Investigations",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"tags": "Mystery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -6982,7 +6982,7 @@
 			"***Speak with Dead:*** [Speak with dead](spell/speak_with_dead) allows the characters to speak with a corpse, but the corpse knows only what it did in life. If the victim was attacked from behind, he may not have seen his murderer. [Speak with dead](spell/speak_with_dead) also fails if the corpse has been a target of the spell within the past week, or if the corpse doesn't have a mouth. Be sure to give the PCs some clue for their efforts, however."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"mysteries_and_investigations"
@@ -6995,7 +6995,7 @@
 	},
 	"puzzles_and_riddles": {
 		"name": "Puzzles and Riddles",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 248](source/gamemastery_guide)",
@@ -7003,7 +7003,7 @@
 			"While ancient ciphers and cunning sphinxes fill the pages of great fantasy tales, crafting a workable and believable puzzle that adds an air of mystery can be a challenge. What makes a great puzzle in a newspaper is rarely right for a puzzle in a dungeon. Puzzles in such publications are usually solved by one person, with no time limit, and modern-day knowledge. None of those things are true in most Pathfinder adventures. In such roleplaying situations you have a team of solvers, often pressed for time, and with only their characters' knowledge. Just as you customize encounters to your PCs' skills, you should customize a puzzle to both your players' skills and their PCs' characteristics. When putting together a puzzle, riddle, or similar knowledge-based challenge for your campaign, consider the four parts of a well-orchestrated puzzle: the setup, the mechanism, the clues, and the answer."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -7030,7 +7030,7 @@
 	},
 	"the_setup": {
 		"name": "The Setup",
-		"subtitle": "Puzzles and Riddles, Gamemastering",
+		"subtitle": "Puzzles and Riddles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 248](source/gamemastery_guide)",
@@ -7044,7 +7044,7 @@
 			"Whether a puzzle demands immediate attention or stretches out over several sessions, keep in mind that the game should not stop while it's being solved. Sometimes impending doom makes solving a puzzle necessary to survive, other times allowing an enigma to baffle players for several sessions makes it a more significant part of the plot. You should also consider the consequences should the PCs fail, and make sure your game can still progress if they do. While coming up with the wrong solution might deny the party some detail, piece of treasure, or option, it should never mean that the adventure comes to a halt."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"puzzles_and_riddles"
@@ -7059,7 +7059,7 @@
 	},
 	"the_mechanism": {
 		"name": "The Mechanism",
-		"subtitle": "Puzzles and Riddles, Gamemastering",
+		"subtitle": "Puzzles and Riddles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 248](source/gamemastery_guide)",
@@ -7077,7 +7077,7 @@
 			"***Wordplay:*** Assuming your players are comfortable speaking English, you can use puns, anagrams, hidden words, and the like to befuddle them. Often such puzzles come off as being cute or quirky, so make sure that dour wordplay doesn't undermine your adventure and villains; while a sprite might naturally spout rhyming riddles, the same approach instantly robs a vampire of his menace."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"puzzles_and_riddles"
@@ -7092,7 +7092,7 @@
 	},
 	"the_clues": {
 		"name": "The Clues",
-		"subtitle": "Puzzles and Riddles, Gamemastering",
+		"subtitle": "Puzzles and Riddles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
@@ -7104,7 +7104,7 @@
 			"Also bear in mind that many spells can read thoughts, reveal hints, or otherwise affect or circumvent puzzles. Never deny PCs use of their abilities when faced with puzzles. Should those abilities make a puzzle less challenging than anticipated, reward the party for their cleverness, and perhaps consider such factors in future puzzles."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"puzzles_and_riddles"
@@ -7119,7 +7119,7 @@
 	},
 	"the_answer": {
 		"name": "The Answer",
-		"subtitle": "Puzzles and Riddles, Gamemastering",
+		"subtitle": "Puzzles and Riddles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
@@ -7129,7 +7129,7 @@
 			"It helps if the answer is something the players might think of when they're trying to figure out what type of brainbender they've thrown at them. A pirate's riddle might have a nautical theme, for example, or a sphinx's might concern the desert or ancient ruins. Just make sure the solution's possibilities aren't too broad or too narrow. For example, there are lots of animals, but not many seasons, making the latter the source of more achievable answers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"puzzles_and_riddles"
@@ -7144,7 +7144,7 @@
 	},
 	"sample_puzzles": {
 		"name": "Sample Puzzles",
-		"subtitle": "Puzzles and Riddles, Gamemastering",
+		"subtitle": "Puzzles and Riddles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 249](source/gamemastery_guide)",
@@ -7166,7 +7166,7 @@
 			">What are the next 3 letters after \"O, T, T, F, F, S, S\"? Answer: \"E, N, T.\" The first seven letters stand for: \"one,\" \"two,\" \"three,\" \"four,\" \"five,\" \"six,\" \"seven.\""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics",
 			"puzzles_and_riddles"
@@ -7182,7 +7182,7 @@
 	"sanity_and_madness": {
 		"name": "Sanity and Madness",
 		"tags": "curing insanity, types of insanity",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 250](source/gamemastery_guide)",
@@ -7209,7 +7209,7 @@
 			"| 85-100 | [Schizophrenia](madness/schizophrenia) |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"advanced_topics"
 		],
@@ -7230,7 +7230,7 @@
 	"npc_gallery": {
 		"name": "NPC Gallery",
 		"tags": "npc boons non-player characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 254](source/gamemastery_guide)",
@@ -7258,7 +7258,7 @@
 			"A previous section presents [an optional system for boons](rule/npc_boons): minor in-game bonuses and benefits specific NPCs can grant to PCs who befriend them. This system of favors and benefits encourages PCs to invest greater interest in working with NPCs and creates a way to reward characters with something other than experience and treasure. At the end of the statistics for each of the following NPCs is a suggestion for a minor benefit that is appropriate to the NPC and that works within this system. GMs who wish to employ these favors or create their own boons might use those presented here as guides for new benefits. At the same time, GMs should not feel that every one of the following NPCs has to offer exactly these boons, or any boon at all. Those interested in designing their own boons or customizing them to their game should feel free to modify these effects however they feel best suits their needs."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [ "list_of_npcs" ],
@@ -7276,7 +7276,7 @@
 	},
 	"list_of_npcs": {
 		"name": "A List of NPCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 255](source/gamemastery_guide)",
@@ -7390,7 +7390,7 @@
 			"    - [Village Idiot](npc/villager_village_idiot)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"npc_gallery"
 		],
@@ -7411,7 +7411,7 @@
 			"",
 			"[Monster listings can be found here.](main/monsters)"
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"stat_block",
 			"monster_creation",
@@ -7423,7 +7423,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -7509,7 +7509,7 @@
 			"[^B]: Example of a bonus feat's footnote."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary"
 		],
 		"siblings": [
@@ -7531,7 +7531,7 @@
 			"The following guidelines are provided to assist in monster creation and to help balance a creation for its CR."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary"
 		],
 		"subtopics": [
@@ -7564,7 +7564,7 @@
 			"The first step in creating a new monster is to define its concept and role in the game. Generally, this involves picking the monster's CR, type, physical appearance, and manner of fighting. Once you have these basic pieces of information, you should find a number of similar monsters of the same type and roughly the same CR for comparison purposes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7646,7 +7646,7 @@
 			"| 25 | 560 | 43 | 36 | 28 | 180 | 135 | 30 | 24 | 26 | 21 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7694,7 +7694,7 @@
 			"| Vermin | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 32 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7740,7 +7740,7 @@
 			"| Colossal | 8 | - | 42 | 6 | 26 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7772,7 +7772,7 @@
 			"A creature's mental ability scores (Intelligence, Wisdom, and Charisma) are largely defined by the creature's concept. The base for all of these abilities is 10. Creatures that rely on spells and spell-like abilities in combat should have one mental ability score that stands out (usually Charisma). Creatures incapable of speech have an Intelligence score of 2 or lower. Unintelligent undead, constructs, oozes, plants, and vermin rarely have an Intelligence score."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7822,7 +7822,7 @@
 			"&ast; As long as a creature has an Intelligence of at least 1, it gains a minimum of 1 skill point per Hit Die. Creatures with an Intelligence score of --- gain no skill points or feats."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7908,7 +7908,7 @@
 			"| 30 | +30 | +22 | +15 | +17 | +10 | 15 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -7940,7 +7940,7 @@
 			"Special senses and resistances to certain energy types are common in creatures of CR 5 and lower. Damage reduction, energy immunities, and regeneration are more common in creatures above CR 5. Spell resistance and immunities become more common above CR 10. As a general rule a creature's spell resitance should equal its CR + 11."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -8003,7 +8003,7 @@
 			"| 25 | 1,640,000 XP | 138,000 gp | 208,000 gp | 312,000 gp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -8031,7 +8031,7 @@
 			"Now that you have all of the creature's statistics sorted out, it's time to fill in all the details - such as name, alignment, space, reach, environment, and ecology - as you see fit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_creation"
 		],
@@ -8059,7 +8059,7 @@
 			"The following rules allow you to adjust monsters, increasing (or even decreasing) their statistics and abilities while still creating a balanced and fun encounter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary"
 		],
 		"subtopics": [
@@ -8091,7 +8091,7 @@
 			"[Find a listing of all templates here.](main/monster_templates)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement"
 		],
@@ -8112,7 +8112,7 @@
 			"Adding racial Hit Dice to a monster is a similar process to building a monster from scratch. As additional Hit Dice are added, other abilities increase in power as well. Additional Hit Dice usually results in better attack bonuses, saves, hit points, and skills, as well as more feats. It can also include additional spellcasting capability and other powers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement"
 		],
@@ -8141,7 +8141,7 @@
 			"When advancing a monster by adding racial HD, you should start by deciding what you want the monster to become. In most cases, this means merely a tougher, stronger version of an existing monster. Note the desired CR of the new monster. This is also the point at which you should decide whether the creature is going to increase in size. As a general rule, creatures whose Hit Dice increase by 50% or more should also increase in size, but GMs should feel free to ignore this rule if warranted by the individual creature or situation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_racial_hit_dice"
@@ -8209,7 +8209,7 @@
 			"&ast; Repeat the adjustment if the creature moves up more than one size."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_racial_hit_dice"
@@ -8234,7 +8234,7 @@
 			"Once you have determined the number of additional Hit Dice possessed by the creature, use this number to modify its other statistics. Start with ability scores. For every 4 additional Hit Dice gained by the monster, add 1 to one of its ability scores. In addition, make any modifications to its ability scores based on an increase in size, as noted on [Table 2-2](rule/step_2_add_hit_dice)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_racial_hit_dice"
@@ -8275,7 +8275,7 @@
 			"| Colossal | -8 | +6 | -8 | -16 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_racial_hit_dice"
@@ -8300,7 +8300,7 @@
 			"Next, adjust the creature's derived statistics, such as its initiative, AC, saving throws, melee and ranged attack bonuses, BAB, CMB, and CMD. Adjust any special attacks or qualities that are based on the creature's size, Hit Dice, or ability scores. If the creature changed in size, be sure to adjust its AC, attack, CMB, and CMD accordingly (as noted on [Table 2-3](rule/step_2_add_hit_dice)). [Table 2-1](rule/step_2_add_hit_dice) also tracks the average change to the creature's AC, attack rolls, and damage rolls. Add up these values for each step of change between the creature's original and new CR. If the creature changed size, make sure to make changes to its natural armor bonus, as noted on [Table 2-2](rule/step_4_skills_and_feats). If the creature does not meet these averages, you should consider adjusting its ability scores or Hit Dice to get it closer to the target."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_racial_hit_dice"
@@ -8325,7 +8325,7 @@
 			"Finally, compare the new monster's statistics to those presented on [Table 1-1](rule/step_2_target_statistics) for a creature of its adjusted CR. Note that if the original creature deviated from these values, the new one should do so in a similar fashion. For example, if the original creature had higher than normal hit points but a lower than normal CR, the creature should maintain that balance at a higher CR (even though its hit points and AC both increased)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_racial_hit_dice"
@@ -8350,7 +8350,7 @@
 			"Of all the methods of advancing a monster, adding class levels requires the most adjudication and careful comparison. Some classes truly add to the power and abilities of some monster types, while others do not. For example, adding levels of barbarian to a hill giant can be a great addition, whereas adding levels of sorcerer is less useful. When adding class levels to a creature, take the following three steps."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement"
 		],
@@ -8390,7 +8390,7 @@
 			"***Special:*** Creatures that do not fall into any of the other categories usually rely on special abilities and powers to attack their foes. They might be tough or dangerous in physical combat, but the threat is greatly increased by their special abilities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_class_levels"
@@ -8416,7 +8416,7 @@
 			"A monster with class levels always possesses treasure equal to an NPC of a level equal to the monster's final CR (as calculated in Step 3). To determine the value of this gear, use the [value listed](rule/step_6_gear) for a heroic NPC of that level. Once a total GP value is determined, follow the rules for outfitting an NPC as outlined in that section. Gear should help a monster with class levels remain challenging and retain statistics close to those presented on [Table 1-1: Monster Statistics by CR](rule/step_2_target_statistics)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_class_levels"
@@ -8451,7 +8451,7 @@
 			"&ast; This class is only key if its spellcasting levels stack with those possessed by the creature."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary",
 			"monster_advancement",
 			"adding_class_levels"
@@ -8484,7 +8484,7 @@
 			"Also see: [Race Builder](rule/race_builder)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"bestiary"
 		],
 		"siblings": [

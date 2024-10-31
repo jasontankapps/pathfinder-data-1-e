@@ -9,7 +9,7 @@
 			"",
 			"While the Pathfinder RPG Core Rulebook presents a robust system capable of simulating most combat, as well as a wide selection of weapons and armor types common to most European-influenced fantasy settings, this section provides new options for GMs and players alike to add depth to the standard combat rules, as well as introduces a wealth of new weapons with historical ties to those lands that would have seemed strange and exotic to residents of Medieval Europe."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"firearms",
 			"duels",
@@ -21,7 +21,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -47,7 +47,7 @@
 			"This section presents an anachronistic collection of hand-held black powder weapons. Most of them are singleshot muzzle-loaders with highly inefficient triggering mechanisms-traditional sword and sorcery firearms. More advanced firearms are also presented for those brave enough to mix their fantasy with a technology much closer to that of the Old West than the slow and unstable weapons that gave musketeers their name. If you are interested in letting such weapons in your game, do so with the following warning: Advanced guns can substantially change the assumptions of your game world, in the same way that they changed the face of warfare in the real world. If you like your fantasy to be of the more traditional variety, stand clear. Or, better yet, run for cover."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -81,7 +81,7 @@
 			"***Guns Everywhere:*** Guns are commonplace. Early firearms are seen as antiques, and advanced firearms are widespread. Firearms are simple weapons, and early firearms, advanced guns, and their ammunition are bought or crafted for 10% of the cost listed. The gunslinger loses the gunsmith class feature and instead gains the gun training class feature at 1st level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"firearms"
 		],
@@ -144,7 +144,7 @@
 			"***Deflecting and Snatching Bullets:*** The [Deflect Arrows](feat/deflect_arrows) feat and the [Snatch Arrows](feat/snatch_arrows) feat can be used to deflect bullets, but not pellets shot from a scatter weapon. Neither of these feats can be used to deflect siege firearm attacks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"firearms"
 		],
@@ -179,7 +179,7 @@
 			"[Firearms and gear can be found here.](main/equipment_firearms)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"firearms"
 		],
@@ -198,7 +198,7 @@
 			"There is no form of combat more civilized than the duel. Be it with steel or spells, duels are used to settle disputes in situations where a chaotic melee would be disruptive or even illegal. Although duels are often considered honorable, this does not necessarily make them any less deadly. Duels often permit combatants to engage in more even fights than the fracas of the battlefield, allowing the true skill, power, and wit of each to determine the victor."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -235,7 +235,7 @@
 			"- In the case of duels exclusively among warriors, additional rules typically prohibit the use of poison or even entire types of attacks (such as prohibiting ranged attacks, or requiring the use of firearms). In addition, most such duels prohibit the use of magic that affects other participants, although spells that enhance the caster are sometimes allowed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -267,7 +267,7 @@
 			"In addition to his normal actions, each participant in a duel may use one of a number of special immediate actions, available only to characters participating in a duel. They may take dueling counters, dueling dodges, dueling parries, or dueling resolve actions, each of which is described below."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -306,7 +306,7 @@
 			"| Spell is the same as the spell being countered | +10 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -334,7 +334,7 @@
 			"Once the attack is resolved, the creature that attempted a dueling dodge takes a -2 penalty to his AC and on all Reflex saving throws until the start of his next turn (even if the duel ends)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -362,7 +362,7 @@
 			"This dueling parry only applies to one attack. Other attacks made by the same attacker are resolved normally. If the attack is a hit and a critical threat, but would be parried by the duelist, it is still a hit, but no confirmation roll is made and damage is rolled normally."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -390,7 +390,7 @@
 			"If, by the end of the character's next turn, the spell or effect ends or he is brought to above 0 hit points, he is fatigued, but otherwise suffers no ill effect. A character can only use this ability once per duel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -414,7 +414,7 @@
 			"If you are using the duel rules within a [performance combat](rule/performance_combat), successfully performing a dueling counter, dueling dodge, or dueling resolve all allow the combatant to make a performance combat check as a free action. Since the dueling counter, dueling dodge, and dueling resolve action are all immediate actions, and are usually not done on the character's turn, this means that the combatant using one of these dueling actions must spend a victory point to make the performance combat check (not an action)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -444,7 +444,7 @@
 			"Regardless of the conditions, most duels are serious affairs, with each side putting pride, honor, treasure, and even their lives on the line to win the day. While villains might try to cheat the rules and exploit every advantage, nobler duelists see the competition as a chance to prove their superiority on the field of battle using only their skills and wits, rather than chance or superior numbers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"duels"
 		],
@@ -470,7 +470,7 @@
 			"The following rules for performance combat allow you as the GM to run an encounter, or even a series of combat encounters, in which the combatants must not only win the battle, but also win over the crowd."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -507,7 +507,7 @@
 			"***Toward a Goal:*** Often these are elaborate affairs that may reproduce a historical battle, or just pit combatants against terrain and challenges that feature a variety of hazards and traps. These types of battles can be races (maybe mixing them with [the rules for vehicular combat](rule/vehicles_in_combat)), or may present capture-the-flag-like objectives, but all test the ability of the combatants to achieve a predetermined goal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -550,7 +550,7 @@
 			"If the crowd is helpful toward one side of the combat and a member of that side succeeds at a performance combat check, that side gains a victory point."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -573,7 +573,7 @@
 			"The first thing a GM must do in a performance combat is determine the crowd's starting attitude. Typically a crowd starts out with an indifferent attitude toward each side, but it could start with an attitude that's a step higher or lower based on other circumstances. Favored champions of a fighting pit or a city may start at a higher attitude step, while outsiders, prisoners of war, or criminals may start at a lower attitude step. If you are running a series of combats, a crowd may start with a higher or lower starting attitude based on a combatant's or a group of combatants' performance in the last bout, which is determined by the number of victory points the individual or group has (see [Serialized Performance Combats](rule/serialized_performance_combat))."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -619,7 +619,7 @@
 			"Succeeding at a performance combat check improves the attitude of the crowd by one step. Unlike skill checks, a roll of a natural 20 on a performance combat check always succeeds. Failing the check either leaves the attitude unchanged or, if the check fails by 5 or more, causes the attitude of the crowd to decrease by one step. The DC of the check is determined by the crowd's current attitude, with a number of adjustments to the DC granted by the circumstances of the performance combat. If the crowd's current attitude is helpful, a successful check grants the favored side 1 victory point."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -693,7 +693,7 @@
 			"[^1]: This is the DC to gain a victory point. The base DC is modified by the size of the crowd, the number of participants on each side, and a number of other circumstances."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -722,7 +722,7 @@
 			"The following are the standard triggers for making a performance combat check. The triggers are organized by the action type required to attempt or to make the performance combat check."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat"
 		],
@@ -767,7 +767,7 @@
 			"***Multiple Hits:*** If a combatant has more than one attack on her turn and hits an opponent with at least two of those attacks, she can make a performance combat check as a swift action. She gains a +2 bonus on this performance combat check for every attack she hits with beyond the second."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -799,7 +799,7 @@
 			"***Vanquish Opponent:*** Whenever a combatant reduces a creature to 0 or fewer hit points, he can make a performance combat check as a free or immediate action."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -829,7 +829,7 @@
 			"***Withdraw:*** Whenever a combatant uses the withdraw action, she must make a performance combat check as a free action. She takes a -5 penalty on the check, and success does not shift the crowd's attitude, but failure shifts it one step lower."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -861,7 +861,7 @@
 			"***Splitting Up Victory Points:*** Sometimes, in the case of team performance combat, the lineup of a performance combat team may change. If this occurs, it may be important to split up any victory points the team has gained. Victory points should be split as evenly as possible among the combatants within a team, with the remainder going to combatants in any way the team chooses (but with no individual player receiving more than 1 point from the remainder). For instance, if a team is made up of four combatants, but at the end of a bout there are 6 victory points, all four combatants gain at least 1 victory point, and two members of the team each receive 1 additional point, as chosen by the members of the team in any way the members deem fair."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -885,7 +885,7 @@
 			"When the performance combat is concluded, the side with the highest attitude wins over the crowd. In the case of a tie, use victory points to determine the winner. If the bout is still a tie, that performance combat is a tie."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -912,7 +912,7 @@
 			"If a side of the performance combat starts with at least 1 victory point per member of the side, the crowd's attitude starts as friendly toward that side instead of indifferent. If the side has at least 3 victory points per member, the crowd starts as helpful instead of indifferent."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
 			"affecting_the_crowd's_attitude"
@@ -937,7 +937,7 @@
 			"[The basic rules for siege engines from the Core Rulebook are found here](rule/siege_engines). The following new options for siege engines both supplement and expand upon those rules. If the rules ever appear to be in conflict, use the rules below."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat"
 		],
 		"subtopics": [
@@ -1000,7 +1000,7 @@
 			"| Colossal | 8 hours | 12 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"siege_engines_uc"
 		],
@@ -1076,7 +1076,7 @@
 			"Ammunition can be used either in select types of indirect-fire siege engines, or with cannons. The ammunition description specifies which types of siege engines use the special ammunition. The costs and weights presented are for individual uses of special ammunition."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"siege_engines_uc"
 		],
@@ -1097,7 +1097,7 @@
 			"When any of these structures gain the broken condition, their hardness is halved, along with any other effects of the broken condition."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"siege_engines_uc"
 		],
@@ -1136,7 +1136,7 @@
 			"| Adamantine | 20 | 560 hp | 1,260 hp | 4,480 hp | 15,120 hp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"siege_engines_uc",
 			"structure_hardness_and_hit_points"
@@ -1173,7 +1173,7 @@
 			"*Note:* The Break DC assumes the gate is size Large and is barred and locked. Huge doors increase the break DC by 5, Gargantuan doors increase the DC by 10, and Colossal doors increase the DC by 15. [Arcane lock](spell/arcane_lock) increases the DC by 10."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"siege_engines_uc",
 			"structure_hardness_and_hit_points"
@@ -1208,7 +1208,7 @@
 			"| Adamantine | 20 | 120 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_combat",
 			"siege_engines_uc",
 			"structure_hardness_and_hit_points"
@@ -2725,7 +2725,7 @@
 			"",
 			"But those are just ordinary people who have access to magic. Basic hedge wizards may make a fine living crafting glowing swords, and a priest with the ability to heal broken bones is a must for any church that wants to win itself a congregation, but such everyday spellcasters are hardly the stuff of legend. Instead, those magic users who get remembered as heroes and legends-rather than simply magical craftsmen and merchants-take these same techniques and build upon them, seeking out ever-more-elusive knowledge and crafting new spells of magnificent power. It is with these esoteric practices that the greatest make names for themselves; these potent arts set the masters apart from mundane practitioners."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"spellblights",
 			"spell_duels",
@@ -2738,7 +2738,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -2764,7 +2764,7 @@
 			"Unlike many magical effects, a spellblight usually persists in an antimagic field, though because they often affect spellcasting, their effect is typically lessened in such a field."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -2794,7 +2794,7 @@
 			"***Curses and Other Spells:*** All spellblights can be inflicted upon spellcasters with a bestow curse or [major curse](spell/major_curse) spell. Bestow curse can bestow any minor spellblight, while a major curse is required to afflict a spellcaster with a major spellblight. Other spells may inflict a specific spellblight or may allow the caster to select any spellblight as part of the spell. A successful saving throw against the spell prevents the spellblight from taking hold."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2826,7 +2826,7 @@
 			"***Use Magic Device:*** When a spellcaster rolls a natural 1 while attempting to use a magic device with the Use Magic Device skill, she can choose to risk gaining a minor spellblight instead of not being able to activate the item for 24 hours (Will negates DC 10 + item's caster level)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2876,7 +2876,7 @@
 			"| 10 | Roll twice on the minor spellblight chart. The spellcaster is affected with both spellblights. |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2896,7 +2896,7 @@
 			"The following section details spellblights, split up based on their severity and featuring descriptions of effects and special methods to end those effects. Note that some of the effects of spellblights can be somewhat beneficial. Crafty spellcasters can make the best of even the worst situations, and the beneficial effects of any spellblights represent this. If a spellblight calls for a concentration check based on the level of the effect, and the caster is using a spell-like ability that doesn't have an effective level, use half the caster level of the spell-like ability instead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights"
 		],
@@ -2961,7 +2961,7 @@
 			"Spell addiction is cured by any effect that removes confusion, insanity, or disease. Creatures that are immune to mind-affecting effects are immune to spell addiction."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights",
 			"description_of_spellblights"
@@ -3021,7 +3021,7 @@
 			"A [restoration](spell/restoration) cast on the afflicted spellcaster suppresses this spellblight for 1 day."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights",
 			"description_of_spellblights"
@@ -3066,7 +3066,7 @@
 			"***Staggered:*** Once per day, while a spellcaster is staggered, she can take a 20% chance of spell failure when casting a single spell that takes a swift or standard action to cast. If the spell is successfully cast, she can take a move action directly after casting the spell."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spellblights",
 			"description_of_spellblights"
@@ -3086,7 +3086,7 @@
 			"Spellcasters are no strangers to battle, but there's a difference between the chaos of a huge melee, with dozens of feral monsters seeking to tear the caster limb from limb, and a more civilized duel between rivals seeking to settle a dispute. Make no mistake, these duels can be just as deadly, but the rules surrounding them make for a different style of combat-one in which both combatants can attack and defend with ease, allowing the true skill and power of each to determine the victor."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -3120,7 +3120,7 @@
 			"- The duel lasts until one of the casters has been knocked unconscious or otherwise prevented from continuing. Spells such as [hold person](spell/hold_person) do not end duels, but [flesh to stone](spell/flesh_to_stone) certainly does, assuming the target fails her saving throw. Some duels go to the death and are only ended when one duelist or team is a smoking pile of ash."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3149,7 +3149,7 @@
 			"In addition to the normal set of actions a dueling caster can perform each round, each participant in a duel may take a special counterspell action called a dueling counter, as noted below."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3185,7 +3185,7 @@
 			"| Spell is the same as the spell being countered | +10 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3208,7 +3208,7 @@
 			"Regardless of the conditions, most duels are serious affairs, with each side putting pride, honor, treasure, and even their lives on the line to win the day. While villains might try to cheat the rules and exploit every advantage, the more noble duelist sees the competition as a chance to prove her superiority and skill on the field of battle, using only her magic and wits."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"spell_duels"
 		],
@@ -3228,7 +3228,7 @@
 			"One of the most potent tools a spellcasters can wield is the command of summoned creatures; the most powerful of these spells call forth allies mightier than mere flesh, reaching from the depths of Hell to the peaks of Heaven, and even stranger places beyond the pale. When reaching for knowledge and forces from other planes, a spellcaster must have control over the strengths and weaknesses of their targets, or face doom far worse than any that might be visited upon them in the Material Plane. A spellcaster wishing to bind such creatures who cannot play to the desires of his summoned captive will surely lose control, and may find himself torn from his reality as a plaything of the multiverse's cruelest tormentors."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -3255,7 +3255,7 @@
 			"The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is [planar ally](spell/planar_ally); wizard, sorcerers, and summoners rely primarily on [planar binding](spell/planar_binding) (or [summon monster](spell/summon_monster_1), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3282,7 +3282,7 @@
 			"The cleric must bargain with the deity's servant for a payment agreed upon before the outsider will perform the task: gold, magic items, gifts, sacrifices, or promises by the cleric to achieve certain goals particular to the conjured ally. The greater the task, the greater the payment required, with a minimum of 100 gp worth of goods or services, sometimes extending into the thousands-and sometimes the ally simply refuses the cleric's binding if the job is too dangerous or beneath its dignity."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"calling_outsiders"
@@ -3308,7 +3308,7 @@
 			"Smart arcane binders often make deals with the creatures they call. Like clerics using [planar ally](spell/planar_ally), they bargain and shower the outsider with gifts in exchange for their services. While it is always good for an arcane spellcaster to make these deals from a position of strength, it is much better to get the outsider to come to mutually agreed upon terms for the service, rather than forcing it to commit actions against its nature or desires."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"calling_outsiders"
@@ -3336,7 +3336,7 @@
 			"Not all outsiders have true names. The chaotic and primeval nature of proteans defies the strange logic of true names, as does the writhing chaotic nature of the qlippoth. It is unclear whether aeons have true names. There are those sages who believe each aeon has two true names, and only by finding out both names can a creature gain some control over the aeon, but such matters are purely conjecture."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3374,7 +3374,7 @@
 			"Offering appropriate gifts to the summoned creature can provide the caster a +2 bonus on the opposed Charisma check to keep it on the Material Plane. Indeed, if the gift is sweet enough, the outsider may choose not to break the strictures of the summoning, even if it has the opportunity to do so. All gifts, whether or not they are good enough to please the outsider, disappear at the spell's conclusion. Only the worst sorts of gifts are rejected; such a rejection indicates that the summoned creature feels gravely insulted."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3414,7 +3414,7 @@
 			"***Unholy:*** The opposite of the holy weapon, an [unholy](magic-enhancement/unholy) weapon inflicts its damage on good-aligned outsiders, but is in other respects the same."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"dealing_with_outsiders"
@@ -3430,7 +3430,7 @@
 			"The following sections give a general overview of the major outsider classifications, examples for each category (and their spell resistance, if any), their interests, their vulnerabilities, and what substances they dislike."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders"
 		],
@@ -3478,7 +3478,7 @@
 			"***Theletos (SR 18):*** These guardians of freedom and fate often aid spellcasters in the pursuit of the former and the implementation of the latter, but like all aeons, their views on these subjects typically seem contradictory, and they are difficult to fully control or understand."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3525,7 +3525,7 @@
 			"***Vulpinal (SR 17):*** These foxlike agathions deal with those who bind them into service with an outspoken friendliness. They often bluntly state their dissatisfaction with their current fate in the most diplomatic terms, frequently accompanied by a smile and a wink. They prefer to be used as messengers and emissaries in the service of good, and if bound for any other purpose, they trick their way into the resolution of their bargains as quickly as possible."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3570,7 +3570,7 @@
 			"***Solar (SR 34):*** The greatest warriors of goodness, solars do not typically treat directly with mortals. To summon a solar and bargain with it, a wizard must destroy an item of great evil in the solar's name, crush a powerful evil in the world, or offer an evil relic as part of the summoning."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3613,7 +3613,7 @@
 			"***Trumpet (SR 25):*** Mighty warriors and messengers, trumpet archons are the leaders of Heaven's strike forces and the heralds of gods. To gain their favor, one must prove worthy of their presence; rather than making offerings of things, trumpet archons ask for sacrifices of service and time, and any binder who offers an exchange of services-and intends to keep her word-gains a +2 Charisma bonus. Those who renege on their bonds see their fortunes begin to vanish, and take a -2 Charisma penalty when dealings with good extraplanar creatures until they set matters right."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3658,7 +3658,7 @@
 			"***Lyrakien:*** Musicians among the azata, lyrakien can be persuaded to service with gifts of wondrous musical instruments and rare bits of music-especially fey music."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3713,7 +3713,7 @@
 			"***Thanadaemon (SR 24):*** As deacons of the Horseman of Death, thanadaemons are hardly ever summoned by mortal spellcasters, and when they are, the event portends a near-apocalyptic end of mortal life."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3778,7 +3778,7 @@
 			"***Vrolikai (SR 30):*** These transformed nabasus hate being summoned to the Material Plane, believing their time there is over and they are meant for greater things. When summoned, they typically ask for twice the normal amount in gifts. These demands are often accompanied by outrageous, sometimes impossible demands. They can eventually be reasoned with, but only when binders demonstrate power over them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3841,7 +3841,7 @@
 			"***Pit Fiend (SR 31):*** Pit fiends, the greatest of all the non-noble devils in Hell, are rarely tempted to answer a summons; when called, most of them come to see the stupidity or the arrogance that brought them to the Material Plane before snatching the wizard away for an eternity of torment. Only the greatest of promises, such as a noble offering the enslavement of an entire empire, a priest offering the destruction of holy relics, or an antipaladin pledging the delivery of a helpless and noteworthy angel for the pit fiend's pleasure, might induce the pit fiend into service."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3914,7 +3914,7 @@
 			"***Water Elemental:*** When summoning a water elemental, remove sources of water from the room and prepare a bonfire. A ring of fire around the magic circle exposes the elemental to its hated enemy the instant it appears on the Material Plane, distracting it long enough for the binder to seize control. This is an opposed Will check, granting a +1 bonus to the caster for each large fire in the room; success grants a +4 bonus on the Charisma check."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3955,7 +3955,7 @@
 			"***Zelekhut (SR 20):*** Zelekhuts often answer the call of binders who wish to use them to search out and even execute those who seek to evade justice."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -3996,7 +3996,7 @@
 			"***Voidworm:*** To most other proteans, these tiny creatures aren't true proteans at all, just pale reflections of protean powers manifesting in the twisting currents of Limbo. Mortal spellcasters sometimes call these creatures to serve as familiars."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4043,7 +4043,7 @@
 			"Thulgant (SR 25 vs. lawful spells and creatures): These powerful qlippoth are too arrogant and self-important to answer the call of a spellcaster wishing to bind them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4076,7 +4076,7 @@
 			"There is one group of outsiders that it is more difficult to bind: the native outsider. A native outsider cannot be called and bound from the Material Plane. In order to call any outsider, it must be on a different plane from the binder. Native outsiders (or other outsiders currently manifesting on the Material Plane) can only be called and bound by spellcasters on a different plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"binding_outsiders",
 			"outsider_categories"
@@ -4106,7 +4106,7 @@
 			"The [Craft Construct](feat/craft_construct) feat allows a spellcaster to create all manner of permanent constructs in a process much like magic item creation. Each construct has a purchase price and a crafting cost, along with a list of requirements and the skills used to create them. Some require special materials in addition to the cost for basic crafting supplies, generally for the construct's body. Special material costs increase both the purchase price and the crafting cost of the construct. The DC to craft a construct is 5 + the default caster level of the construct, just like for a magic item. Like when crafting magic items, a creator with a sufficiently high skill bonus may ignore these requirements. Each missing requirement increases the Craft DC by 5. Regardless, the creator must meet all item creation feats and minimum caster level requirements. Crafting a construct takes 1 day per 1,000 gp in the item's base price, excluding any special material costs. This process is identical to the process for crafting a magic item, including the rules for accelerating creation and handling interruptions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -4135,7 +4135,7 @@
 			"A caster can use the [animate objects](spell/animate_objects) spell to instantly create a temporary construct. A [permanency](spell/permanency) spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. [Craft Construct](feat/craft_construct) creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object monster entry](monster/animated_object)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4170,7 +4170,7 @@
 			"***Trip (Ex, 2 CP):*** The object gains the trip special ability with one of its slam attacks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4193,7 +4193,7 @@
 			"The monster creation rules in the Bestiary serve as your best guide for designing a new construct. New constructs should stick fairly close to the [Monster Statistics by CR table](rule/step_2_target_statistics). As they are usually mindless combat brutes, most use the \"high attack\" column, with damage falling in between the High and Low average damage columns. Note that all the construct's saving throws are likely to be poor, and they have no favored saves. Lacking a Constitution score, a construct's hit points also tend to be low in comparison to creatures with similar CRs. Consider giving any construct that doesn't have either damage reduction or hardness a higher AC to compensate."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4225,7 +4225,7 @@
 			"When designing a new construct, keep in mind that the above pricing formula only serves as a guideline. As with magic items, construct pricing remains more art than science, and like magic items, compare new constructs to existing ones for guidance. If you're not sure, err on the side of a higher price."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs",
 			"building_new_constructs"
@@ -4245,7 +4245,7 @@
 			"A construct that has been completely destroyed cannot be repaired, though at the GM's option some of the materials may be usable in the construction of a new construct. Additionally, some constructs have special means of repair, usually involving spells related to the golem's nature (such as the use of acid damage to heal a clay golem.)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4270,7 +4270,7 @@
 			"A list of all construct modifications can be found in [Miscellaneous Magic](main/magic_misc) under the Construct Modifications heading."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs"
 		],
@@ -4304,7 +4304,7 @@
 			"***Ability Score Modification:*** Using this modification, a crafter can permanently increase one of the construct's ability scores by +2 per modification. He cannot increase any abilities with a score of 0. The cost for permanently increasing an ability score is 5,000 gp."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs",
 			"construct_modifications"
@@ -4324,7 +4324,7 @@
 			"These modifications represent more complex changes to the structure and function of the construct. The cost is equivalent to the minimum level to cast the spell &times; the spell level &times; 250 gp."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"building_and_modifying_constructs",
 			"construct_modifications"
@@ -4363,7 +4363,7 @@
 			"Remember that it's acceptable to make a spell that isn't as powerful as an existing spell. Just because it's not the best spell of its level doesn't mean it won't get used by adventurers. In fact, that's why easily crafted scrolls are a significant part of the game-to allow parties access to spells they wouldn't normally prepare or learn, but may find useful in some circumstances."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic"
 		],
 		"subtopics": [
@@ -4416,7 +4416,7 @@
 			"A spell can do several of these things at once, or give the caster a choice between several options, but such spells should always be less powerful than a single-purpose spell of the same spell level, so keep that in mind when designing the spell. Note that \"condition or effect\" is the broadest category in the above list, which includes actual conditions like sickened and panicked, as well as effects like teleportation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4490,7 +4490,7 @@
 			"| 9th | 25 dice | 20 dice |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4520,7 +4520,7 @@
 			"A spell that affects multiple creatures is more powerful than a spell that only affects one creature. Multiple-creature spells tend to either be area effects such as cones and spheres (like [fireball](spell/fireball)), or allow the caster to select multiple targets as long as no two targets are more than a set distance apart (like [slow](spell/slow)). A burst effect like [fireball](spell/fireball) can potentially affect many more enemies than a pick-your-targets spell like [slow](spell/slow), but you never risk hitting your friends when you use [slow](spell/slow). Select which type is most appropriate for the spell, but understand that selecting multiple targets is generally more powerful except at the lowest caster levels (where a low caster level means few targets compared to a burst which can affect many)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4554,7 +4554,7 @@
 			"There are no hard-and-fast rules for determining how long a spell should last at a particular level; a weak spell may last hours, while a powerful one may only last a few rounds or be spent in one action. Your best bet is to compare your spell's effect and duration to those of similar spells of its intended level and spells one level below and above that. Make sure you are fully aware of the differences between \"instantaneous\" spells and \"permanent\" spells."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4596,7 +4596,7 @@
 			"Spells that only affect the caster never require a saving throw (you'd never try to resist a beneficial spell you're casting on yourself), so you don't list a saving throw for those spells at all (see [true strike](spell/true_strike))."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4630,7 +4630,7 @@
 			"If a spell's saving throw entry is marked as \"(harmless)\" or \"(object),\" the spell resistance entry should say that as well."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4660,7 +4660,7 @@
 			"Spells that call an outsider to serve for more than a few rounds (such as [planar ally](spell/planar_ally) and [planar binding](spell/planar_binding)) should have a casting time of 10 minutes; more powerful spells may have even longer casting times. Note that [gate](spell/gate) can be used to call creatures and only has a casting time of 1 standard action, but when used this way, it requires a 10,000 gp material component, so that faster casting time doesn't come cheaply."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4696,7 +4696,7 @@
 			"Focus components are governed by the same rules as material components-in most cases they're just there for flavor, and are only relevant if costly. A costly focus is like a costly material component, except it's a one-time expenditure rather than a repeat expenditure, a barrier to entry that you can ignore once they've crossed the threshold. A costly focus is a good way to delay when PCs gain access to the spell, but once they have the materials, it's essentially just like any other spell without a costly focus. As with material components, balance the spell for its level, and if it seems like the spell is too good and delaying access to it would help moderate it, consider adding a costly focus component."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4774,7 +4774,7 @@
 			"***Water:*** Spells that manipulate water or conjure creatures from water-dominant planes or with the water subtype should have the water descriptor."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"spell_terminology"
@@ -4826,7 +4826,7 @@
 			"&ast; Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4860,7 +4860,7 @@
 			"When you finish writing a spell description, have others look it over. They'll notice things you missed, come up with questions your spell needs to address, and find ways your spell can be abused. Use that feedback to revise the spell."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4898,7 +4898,7 @@
 			"Spells with variable effects may be more than one type of spell in the hierarchy depending on the results-a [confusion](spell/confusion) spell that causes a monster to babble incoherently is an incapacitate spell, but if the spell causes it to attack one of its allies, it's a control spell. Likewise, a [summon monster](spell/summon_monster_1) spell that summons a fiendish constrictor snake is an incapacitate spell if the snake grapples an enemy, but it's just a damage spell if it summons a fiendish boar, which only deals damage and has no special attacks. Balancing these spells is tricky, as you have to consider their optimal usage."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4926,7 +4926,7 @@
 			"\"Depletable statistic\" isn't an official game term, but it is a helpful concept when comparing power levels of spells-attacking depletable statistics is a war of attrition that can eventually wear down the target, whereas adding penalties to non-depletable statistics may have no effect at all, as the target may have other attacks that allow them to ignore those penalties."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4960,7 +4960,7 @@
 			"Rather than create a multipurpose spell that gives a \"shopping list\" of effects the caster can choose from, keep the spell focused on one or perhaps two similar options. Note that there is a difference between a spell with multiple similar options and one with radically different options. Good examples of appropriate multipurpose spells are [alarm](spell/alarm) (audible and mental alarms are still alarms), [beast shape I](spell/beast_shape_1) (Small or Medium animals, specific benefits from a short list), [fire shield](spell/fire_shield) (two options with basically the same mechanical effect, on par for a spell of its level), the [summon monster](spell/summon_monster_1) spells (very versatile but of limited duration, with monsters of a lower power level than other spells of the same level)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -4984,7 +4984,7 @@
 			"Some spells in the Core Rulebook are clearly the best of their spell level. Other spells are perfect examples of what a spell of that level or purpose should be able to do. These are \"benchmark\" spells, and when designing a new spell you should always compare your spell to the benchmark spells. If your spell is better than the benchmark spell, you should reduce its power or increase its spell level. The following is a list of benchmark spells by sorcerer/wizard spell level, with explanations of why they are benchmarks. If you create a spell and it's better than a comparable benchmark spell, your spell is too powerful."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells"
 		],
@@ -5021,7 +5021,7 @@
 			"[Magic Missile](spell/magic_missile): Perhaps the best 1st-level spell in the game, [magic missile](spell/magic_missile) may not do a lot of damage, but it requires no attack roll, has a medium range, needs no saving throw, and harms incorporeal creatures. Even if [magic missile](spell/magic_missile) were 2nd-level, smart casters would still learn it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5052,7 +5052,7 @@
 			"[Web](spell/web): This is a powerful, nonlethal spell that remains viable even at higher levels (even a lich who makes his save against a web has to deal with the difficult terrain and risks becoming stuck if he moves). It even provides cover, and can be set on fire to damage targets in the area."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5091,7 +5091,7 @@
 			"[Suggestion](spell/suggestion): This is the lowest-level spell in which the caster is able to compel the target to act, yet the spell's control is still limited to \"reasonable actions.\""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5122,7 +5122,7 @@
 			"[Phantasmal Killer](spell/phantasmal_killer): This is the lowest-level spell that can directly kill a creature, but allows two saves to resist it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5155,7 +5155,7 @@
 			"[Wall of Stone](spell/wall_of_stone): This is the lowest-level spell that creates a large-scale, permanent (instantaneous) object out of nothing (compare as well to [fabricate](spell/fabricate), which permanently reshapes raw materials into finished goods)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5184,7 +5184,7 @@
 			"[Guards and Wards](spell/guards_and_wards): Although not often used by PCs because they usually don't have permanent residences, this spell is important because it establishes that a large-area defensive spell can use multiple effects to protect a home and befuddle invaders."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5211,7 +5211,7 @@
 			"[Limited Wish](spell/limited_wish): This powerful spell lets the caster pick effects from countless available lower-levels spells at the time of casting, even those from different class lists."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5242,7 +5242,7 @@
 			"[Mind Blank](spell/mind_blank): This spell is an example of a very narrowly focused defensive spell that is able to block even higher-level spells from affecting the target."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5273,7 +5273,7 @@
 			"[Time Stop](spell/time_stop): This is the only spell in the game that lets the caster take multiple rounds' worth of actions and simultaneously prevents anyone else from doing anything about it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_magic",
 			"designing_spells",
 			"benchmarks"
@@ -5676,13 +5676,13 @@
 			"",
 			"Compare: [Planar Magic Traits](rule/magic_traits), [Unchained Wild Magic](rule/wild_magic)"
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"siblings": [
 			"basics_from_the_core_rulebook",
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -5703,7 +5703,7 @@
 		"description": [
 			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water - typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"swimming_and_aquatic_adventures",
 			"fighting_underwater",
@@ -5714,7 +5714,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -5742,7 +5742,7 @@
 			"***Swim Speed:*** Creatures with a swim speed have a variety of advantages underwater. First of all, they can swim through normal water at their full swim speed without needing to attempt a Swim check. They can use the run and charge actions and take 5-foot steps with their swim speed. When they do need to attempt Swim checks to deal with a hazardous situation or perform a special action, they benefit from a sizable +8 racial bonus on their Swim checks. There might be an unusual circumstance where a creature has a swim speed that's actually slower than one-quarter of its land speed (for instance, a monk using the spell [monkey fish](spell/monkey_fish) to gain a swim speed of 10 feet). Such a creature can swim at one-quarter of its land speed instead, but it sacrifices the benefits of its swim speed on rounds when it isn't using its swim speed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa"
 		],
 		"subtopics": [
@@ -5775,7 +5775,7 @@
 			"thinking_in_three_dimensions"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"swimming_and_aquatic_adventures"
 		]
@@ -5796,7 +5796,7 @@
 			"thinking_in_three_dimensions"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"swimming_and_aquatic_adventures"
 		]
@@ -5812,7 +5812,7 @@
 			"While most skills work the same underwater, [Perception](skill/perception) and [Survival](skill/survival) work somewhat differently. See the notes under those skills for more information."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa"
 		],
 		"subtopics": [
@@ -5842,7 +5842,7 @@
 			"***Cover from the Surface:*** Due to water's surface tension, creatures attempting to attack through water's surface count its surface as total cover (if a creature is partially submerged, it gains proportionally less cover); this applies even to spells that require attack rolls. The exception to this rule is attacks that deal piercing damage-these can penetrate the water's surface but take a -2 penalty to do so. This is a change from the rule on cover from the water's surface in the Core Rulebook, but it allows actions like spearfishing and firing harpoons from whaling ships."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"fighting_underwater"
 		],
@@ -5864,7 +5864,7 @@
 			"***Tripping Underwater:*** While flying creatures specifically can't be tripped, the Core Rulebook doesn't specify whether the same is true of swimming creatures. Being prone doesn't mean much for a swimming creature, so instead, a successful trip against a swimming creature forces that creature to attempt a Swim check at a DC equal to the result of the combat maneuver check to trip; failing the Swim check causes the creature to become off-balance. Many aquatic creatures can't be tripped or have a high Swim bonus and thus can always take 10, so this tactic isn't always effective, but when it is, it can make dexterous foes much easier to hit. However, being off-balance doesn't affect most of the target's attack rolls, and the target can regain its balance simply by succeeding at a Swim check to move on its next turn as normal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"fighting_underwater"
 		],
@@ -5884,7 +5884,7 @@
 			"In addition to preventing a character from being grappled and several other nasty conditions, [freedom of movement](spell/freedom_of_movement) enables the target to move and attack normally while underwater. Thus, a creature benefitting from freedom of movement can swing weapons without penalties (though objects that leave its possession, like thrown weapons or ammo from ranged weapons, lose this benefit), lift objects without drag, and walk along the bottom at full speed. The creature automatically succeeds at all Swim checks as the water offers no significant resistance to its movement. If the creature has the ability to do so, it can fly or use spells like [air walk](spell/air_walk) to freely move around as if it were in air. Creatures who need just the movement benefits from freedom of movement without the benefits against grapple, paralysis, and magic effects that hinder movement should consider the lower-level spell [free swim](spell/free_swim)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"fighting_underwater"
 		],
@@ -5918,7 +5918,7 @@
 			"***Sonic Spells:*** While sound travels four times faster and farther in water than air, it also takes more energy to do so, so in the end sonic spells have the same results underwater as they do on land. At the GM's discretion, a spellcaster can choose to instead double the range or area, halve the damage, and decrease the DC by 2 for sonic attacks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"fighting_underwater"
 		],
@@ -5937,7 +5937,7 @@
 			"In addition to the ways in which being underwater affects normal actions, an underwater environment presents a variety of special dangers and features that can prove hazardous to surface-dwellers and aquatic creatures alike."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa"
 		],
 		"subtopics": [
@@ -5964,7 +5964,7 @@
 			"Because of the prohibitive limitations of holding one's breath, underwater explorers from the surface use a variety of techniques to extend their ability to breathe underwater. The most common is [water breathing](spell/water_breathing), which is extremely long-lasting and can protect an entire group with one casting. A simpler, short-term solution is [air bubble](spell/air_bubble), which can protect a single creature for a few minutes-but not usually enough for an underwater adventure. The most powerful option is [life bubble](spell/life_bubble); while its duration is half that of water breathing, it also protects against many other underwater hazards such as extreme temperature and pressure. Those who prefer a mundane alternative to ephemeral (and dispellable) magic tend to use [air tanks](equipment-misc/air_tank) to store additional air, but characters hoping to stay underwater find that carrying around more than a few extra breaths of air sets their buoyancy to swiftly rising, almost like wearing a giant life preserver, so this solution is effective only for a strong swimmer or someone with access to magic to alter buoyancy."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"underwater_hazards_and_features"
 		],
@@ -5999,7 +5999,7 @@
 			"***Abaddonian Zone:*** Some scholars, particularly among deep-sea races, utter dark whispers of a fifth and final zone that exists only in the depths of the deepest ocean trenches, over 20,000 feet below the water's surface. Supposedly, pressures over 1,000 times that of the surface world, combined with low temperatures and ambient magic, create within these trenches a nightmarish tableau that hardly seems it could exist on the Material Plane. Amorphous creatures like jellyfish, sea cucumbers, and tube worms cling to life in this inhospitable environment, eking out a life amidst beings of unfathomable malevolence. While scholars have funded expeditions to gather information on the Abaddonian zone, there are few, if any, survivors to give their accounts of those expeditions, and certainly none who remained sane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"underwater_hazards_and_features"
 		],
@@ -6020,7 +6020,7 @@
 			"The majority of the ocean does not count as running water, but currents do. Thus while the spell [locate creature](spell/locate_creature) functions underwater, it rarely extends to its full range, since even an extremely slow current blocks the spell. Likewise, vampires tempt fate in the ocean by exposing themselves to the risk of an unexpected current."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"underwater_hazards_and_features"
 		],
@@ -6039,7 +6039,7 @@
 			"When currents flowing in opposite directions meet, they create a whirlpool. Most whirlpools are harmless, but some mighty maelstroms formed by powerful tides are capable of great destruction. The most powerful whirlpools can reach a maximum current speed of around 200 feet per round, spinning in a circle and generating a centripetal force to pull nearby creatures and objects into the whirlpool and prevent those caught in the whirlpool from leaving. Whirlpool movement doesn't normally provoke attacks of opportunity, because no one caught in the current is in a position to make one. Conditions are so rough in maelstroms that Swim checks reach DC 40 or higher. Creatures caught in a whirlpool take 1d6 points of bludgeoning damage per round for every 50 feet of the whirlpool's speed. Sometimes the only way to survive a whirlpool is to reach the center, since-unlike when a water elemental creates and controls a whirlpool with mischief in mind-a natural whirlpool eventually drags its captives to the bottom and out."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"aquatic_adventures_aa",
 			"underwater_hazards_and_features"
 		],

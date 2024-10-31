@@ -19,7 +19,7 @@
 			"",
 			"***Occult Rituals:*** Occult rituals are rare and powerful rites that anyone who knows the right secrets can perform. Rituals are long and difficult to perform, and they always come at a price."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"occult_skill_unlocks",
 			"auras",
@@ -34,7 +34,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -69,7 +69,7 @@
 			"- [Read Aura](skill/perception) (Perception)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"siblings": [
@@ -98,7 +98,7 @@
 			"Various spells can detect aspects of a creature's or object's aura. The [analyze aura](spell/analyze_aura) spell and the [read aura occult skill unlock](skill/perception) are the most comprehensive ways to assess a creature's entire aura."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"subtopics": [
@@ -129,7 +129,7 @@
 			"The strength of an alignment aura is based on the creature's Hit Dice or the magic item's caster level, as referenced in certain *detect* spells."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"auras"
 		],
@@ -180,7 +180,7 @@
 			"***Pride (Orange):*** Orange indicates pride and ambition, and ranges in hue as these emotions are flavored by jealous competition (green), fear of falling behind (pale gray), or even self-love (dull crimson)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"auras"
 		],
@@ -203,7 +203,7 @@
 			"Interpretation of the vital force's flow between chakras and the fine lines emanating through the greater aura can allow the observer to note whether the creature is unharmed or wounded, if it is poisoned or diseased, and whether it is under any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, or unconscious."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"auras"
 		],
@@ -226,7 +226,7 @@
 			"Other magic auras are the result of a creature's inherent supernatural abilities, and can have game effects on those who approach too closely. Such auras (such as a dragon's frightful presence) often force creatures to attempt saving throws to resist their effects. For more information on magic auras, see [detect magic](spell/detect_magic)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"auras"
 		],
@@ -251,7 +251,7 @@
 			"Unlike ki, kundalini flows not from the heavens above but from the ground below. Some mystics claim its colorful name derives from the fact that its mastery was first pioneered by the ancient serpentfolk who ruled the world millennia ago, but another explanation is that kundalini energy flows through the seven chakras in a coiling, ophidian manner. The kundalini flow awakens each chakra in turn. As it progresses from the root chakra at the base of the spine to the crown chakra at the top of the head, the serpent-fire opens new vistas of personal power to the initiate, granting her unique supernatural abilities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"subtopics": [ "activating_chakras" ],
@@ -305,7 +305,7 @@
 			"Once the crown chakra is opened, the initiate becomes fully in tune with the powers of the multiverse, allowing him to gain the benefit of any two distinct chakras each round. He gains this benefit even if he doesn't select the crown chakra. If he selects the crown chakra, every time he would roll a d20 during that turn (such as when attempting an attack roll, a saving throw, or a skill check), he can roll twice and take the higher result. The initiate must be at least 14th level before he can open this chakra."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"chakras"
 		],
@@ -321,7 +321,7 @@
 			"Psychic duels are battles in which combatants' minds become intertwined within a [binary mindscape](rule/binary_mindscapes). Though psychic spellcasters wield tremendous power in such battles, other creatures can also wield mental might with surprising potency."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"subtopics": [
@@ -354,7 +354,7 @@
 			"While locked in a psychic duel, the combatants' physical bodies become unresponsive. They retain their positions, but they can take no actions and lose their Dexterity bonuses to Armor Class for the duration of the duel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels"
 		],
@@ -385,7 +385,7 @@
 			"Conditions gained during a psychic duel rarely carry over into the real world, but damage is dealt to the physical body of the duelist, so it's possible for combatants to die. Similarly, unlike all other effects that occur in the real world after a psychic duel begins, damaging and healing a duelist's physical body carry over to the psychic duel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels"
 		],
@@ -406,7 +406,7 @@
 			"While engaged in a psychic duel, the combatants don't attack or cast spells normally. Instead, the combatants create psychic manifestations, abilities that can be used only within a binary mindscape; these represent changes to the mindscape's fabric (see [Mindscapes](rule/mindscapes))."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels"
 		],
@@ -446,7 +446,7 @@
 			"***Sacrificing Spell-Like Abilities to Generate MP:*** A combatant can sacrifice a use of a spell-like ability in a way similar to sacrificing spells to generate MP. However, each at-will spell-like ability can be sacrificed only once during a single psychic duel; it is not a source of infinite MP."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels",
 			"psychic_manifestations"
@@ -469,7 +469,7 @@
 			"Psychic manifestations have three main types: offensive manifestations, defensive manifestations, and thought-form creatures. For the purpose of concentration checks, creating a manifestation is considered casting a spell with a spell level equal to the number of MP spent to create the manifestation. The combatant creating the manifestation treats her manifesting level as her caster level for such checks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels",
 			"psychic_manifestations"
@@ -530,7 +530,7 @@
 			"***Shaken (1 MP):*** The affected creatures are shaken for 1d4 rounds. This condition can be applied only to manifestations that require Will saves."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels",
 			"psychic_manifestations"
@@ -565,7 +565,7 @@
 			"Psychic Redirect (1 MP; immediate action): When the combatant would take damage while she has a thoughtform creature active, she can use this ability to apply the damage to her thought-form creature instead. If the attack targets both the combatant and the thought-form creature, the thought-form creature takes the damage for both itself and the combatant and suffers any condition conferred by the attack, but the combatant suffers no effects."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels",
 			"psychic_manifestations"
@@ -608,7 +608,7 @@
 			"***Protective Ability:*** Increase the cost by 1 MP to grant the creator a +4 bonus to AC (both normal and touch), a +2 bonus on Reflex saving throws, and evasion for as long as this thought-form creature exists. Increasing the cost by an additional 2 MP also grants the creator immunity to attacks against AC or touch AC for as long as this thought-form creature exists."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels",
 			"psychic_manifestations"
@@ -631,7 +631,7 @@
 			"There are a number of ways a psychic duel can conclude and the combatants' minds can return to their bodies (aside from the end of the [instigate psychic duel](spell/instigate_psychic_duel) spell that started the combat). The duel ends immediately if one of the combatants reaches 0 or fewer hit points or both combatants agree to end the psychic duel. Each combatant can make this agreement as a free action that can be taken even when it isn't that combatant's turn. Rarely, a spell or ability can allow combatants to leave a psychic duel. For instance, unlike most spells, [mindscape door](spell/mindscape_door) can be cast while in a psychic duel, allowing the caster to leave the mindscape and end the duel. Lastly, a creature adjacent to the body of a combatant can attempt to shake that creature out of its torpor as a standard action. Doing so is a melee touch attack that deals no damage but allows the combatant to attempt a new saving throw against the effect that started the psychic duel. If the check is successful, the mind of the roused creature returns to its body and the duel ends. A creature in a psychic duel can attempt no more than one additional save per round in this way."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"psychic_duels"
 		],
@@ -652,7 +652,7 @@
 			"Rather than introducing new rules, this section explains the nuances of possession magic, as used in the new [possession](spell/possession) spell, as well as monster abilities and other spells."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"subtopics": [
@@ -689,7 +689,7 @@
 			"***Incorporeal Possession:*** [Ghosts](template/ghost), [shadow demons](monster/shadow_demon), and similar creatures do not possess physical bodies-they are simply disembodied souls. They use the rules below to govern the interaction between their mental characteristics and their hosts' physical forms. Such a creature merges with the host's body and is unharmed when ejected. Creatures that use [magic jar](spell/magic_jar) can often use the new [possession](spell/possession) spell instead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession"
 		],
@@ -714,7 +714,7 @@
 			"- The possessor can use nonmagical and magical class abilities such as domain, hex, rage, and school powers. Supernatural abilities (with the exception of class abilities) are not considered mental abilities, as they generally rely upon a creature's physical form. For example, a [red dragon](family/red_dragon) possessing a cleric of Iomedae could not use its breath weapon ability to breathe fire while inhabiting the cleric's form. The GM can choose to make a specific exception if she believes an ability is solely mental in nature."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession"
 		],
@@ -747,7 +747,7 @@
 			"Possession versus Possession: If you attempt to possess a creature that is already possessed, the possessing creature must succeed at the [possession](spell/possession) spell's save or be ejected, allowing you to enter the host. If the possessing creature voluntarily fails its save, first that creature is automatically ejected and then the host attempts the Will save instead. A possession effect that doesn't allow a saving throw automatically causes the possessing creature to be ejected."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession"
 		],
@@ -774,7 +774,7 @@
 			"While this article uses the word \"fiend\" extensively, it should be noted that fiends are not the only creatures that might attempt to forcibly manipulate mortals to their whims. Other extraplanar creatures - good or evil - various forms of undead, unknowable entities from the depths of space, and other even less fathomable beings all might seek to take control of frail mortal bodies or other base physical shells. As such, GMs might easily alter or add to these rules to use them for any manner of possession-like effect they require."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession"
 		],
@@ -800,7 +800,7 @@
 			"Rare among common fiends, those capable of possession stand out in power above others of their kind. Mastering the ability to discorporate their forms and influence creatures and materials around them, such body thieves are masters of terror and manipulation. Typically only the most extraordinary and perverse fiends can make use of the powers of possession, learning such secrets from blasphemous masters or dark secrets of the multiverse. To represent this, fiends who increase in power beyond the common representatives of their kind gain access to the [Possess Creature](feat/possess_creature), [Possess Location](feat/possess_location), and [Possess Object](feat/possess_object) feats and the host of terrible abilities they might provide. Using these powers, even a relatively weak fiend can come to possess an area or object, while more powerful horrors might overwhelm a mortal body. Despite the similarity to mind-affecting effects, fiendish possession has more to do with the spiritual hijacking of a body or the physical corruption of objects, and thus, creatures immune to mind-affecting effects are not immune to possession (although several possession actions themselves are mind-affecting). Creatures where the body and spirit are indivisible, as is the case with most outsiders and incorporeal undead, are immune to possession effects."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession",
 			"possession_misc"
@@ -829,7 +829,7 @@
 			"***Saving Throw:*** This indicates what sort of saving throw the possessed creature, location, object, or target of the action can make to negate or reduce the effects of the action. In all cases, the DC for this saving throw is DC 10 + the HD of the possessing fiend + the fiend's Cha modifier."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession",
 			"possession_misc"
@@ -1008,7 +1008,7 @@
 			"The possessing fiend grants its host a taste of its unnatural powers. The fiend imbues its host with the ability to utilize one of its spell-like abilities (chosen by the fiend) for the ability's duration. Utilizing this spell-like ability is a standard action for the host, but is treated as being used by the fiend for the purposes of determining caster level and save DCs. A host might be able to utilize this ability multiple times, but cannot use it more times per day than the fiend itself could. Typically a fiend uses this action as a way to endear the host to its presence or as a way to show the greater power of its fiendish ways."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession",
 			"possession_misc",
@@ -1096,7 +1096,7 @@
 			"A fiend possessing an object can cause that object and those around it to move at its command. This effect is identical to the [animate objects](spell/animate_objects) spell, except that the object the fiend possesses must be included among the items to be animated. The possessing fiend's Hit Dice serve as the caster level for the purposes of this effect. In addition, all animated objects gain a fly speed equal to the fiend's highest movement speed with perfect maneuverability."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession",
 			"possession_misc",
@@ -1154,7 +1154,7 @@
 			"In every case, the caster level for these spell-like abilities equals the possessing fiend's Hit Dice and the cost in possession points equals 1 + the spell's level. None of these effects, regardless of its potential range or space, extends beyond the space of the fiend's possession."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession",
 			"possession_misc",
@@ -1182,7 +1182,7 @@
 			"A far riskier method of ending a possession involves an invitation by the exorcist to the possessing fiend to leave its current host to take up residence in the exorcist's body (or in the body of a nearby volunteer). An exorcist can force a possessing fiend to leave its current host and attempt the new possession by making a successful Intimidate check to demoralize the fiend. Typically, the exorcist taking such a bold risk hopes to make his own saving throw to resist the possession or protects himself with magic before making this risky attempt. If the fiend fails to possess the exorcist, it can immediately try to repossess its original host, who can attempt to resist this possession by making a Will save. If the fiend fails to return to its host, it manifests in its physical form in a space adjacent to the host, and is typically infuriated."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"possession",
 			"possession_misc"
@@ -1205,7 +1205,7 @@
 			"While anyone can attempt to cast occult rituals, the process is fraught with peril. The strange and intricate incantations are often challenging to perform with precision, and failure can weaken the casters or even unleash horrors upon the world. Even when successfully performed, each occult ritual has a price-a backlash that affects at least the caster leading the ritual, and often those assisting in its performance."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"subtopics": [
@@ -1256,7 +1256,7 @@
 			"This form of attunement can be broken in the standard ways described in [Using Ley Lines](rule/using_ley_lines)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"occult_rituals"
 		],
@@ -1279,7 +1279,7 @@
 			"If an occult ritual is taught or its secrets are explained directly, it takes at least 1 day per ritual level to learn the method of its casting. Learning a ritual from hidden clues or from scratch takes a week or a month per ritual level (GM's discretion). At the end of this period of study and contemplation, the person attempting to learn the ritual must succeed at an Intelligence check (DC = 15 + the ritual level if learning from clues or a coerced teacher, or DC = 10 + the ritual level if learning from an instructor eager to teach). Failing the check means the secrets of the ritual elude the learner's understanding, though she can start the process anew at the same rate of potential discovery."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"occult_rituals"
 		],
@@ -1302,7 +1302,7 @@
 			"[Click here to see all Occult Rituals.](main/occult_rituals)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"occult_rituals"
 		],
@@ -1421,7 +1421,7 @@
 			"***Transmutation:*** Range medium; Target one creature or 20 cu. ft. of matter; Duration rounds; Saving Throw Fortitude half (or harmless); SR yes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"occult_rituals"
 		],
@@ -1434,7 +1434,7 @@
 	},
 	"running_an_occult_game": {
 		"name": "Running an Occult Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -1444,7 +1444,7 @@
 			"In an occult adventure, the characters uncover clues as they search for the meaning behind perplexing events and supernatural phenomena. The tone is usually ominous and laden with secrecy and veiled threats as the characters untangle each portentous thread of occult mystery. Ordinary folk seldom recognize the patterns beneath events; only the truly initiated, undaunted by the risks to mind, body, and soul, dare plumb the depths of the occult in order to protect their world from unseen dangers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules"
 		],
 		"subtopics": [
@@ -1467,7 +1467,7 @@
 	},
 	"incorporating_the_occult": {
 		"name": "Incorporating the Occult",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -1477,7 +1477,7 @@
 			"In occult adventures, each new piece of the puzzle opens up more questions than it answers, and the mysteries of the story and plot are carefully nested like so many matryoshka dolls. In such games, haunts do not hesitate to reveal the causes for their spiritual contamination, and ritually marked corpses are far more than atmospheric window dressing. The very locations adventurers investigate may themselves be intrinsically linked by mysterious ley lines to other locations with similarly disturbing histories."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game"
 		],
@@ -1492,7 +1492,7 @@
 	},
 	"occult_elements": {
 		"name": "Occult Elements",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -1500,7 +1500,7 @@
 			"As characters in an occult campaign start to discover the hidden strands that connect seemingly unrelated events, they begin to interact with the bizarre, esoteric trappings of occult stories, including the following elements."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game"
 		],
@@ -1523,7 +1523,7 @@
 	},
 	"mysteries_within_mysteries": {
 		"name": "Mysteries within Mysteries",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 218](source/occult_adventures)",
@@ -1545,7 +1545,7 @@
 			"Some hooks may play major roles in the campaign, while others turn out to be minor anecdotes. Regardless, an adventure hook based on a character's curiosity, need, or longing is an invaluable tool for building player investment in the story."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_elements"
@@ -1561,7 +1561,7 @@
 	},
 	"unseen_realms": {
 		"name": "Unseen Realms",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 219](source/occult_adventures)",
@@ -1573,7 +1573,7 @@
 			"In a campaign steeped in occult lore and practice, spirits and demons might be the major questgivers, regular allies, foils, or adversaries, and their machinations pull the PCs in multiple directions. They might all seem virtuous, or may all seem reprehensible, but they all want something, and they are willing to use the PCs as pawns to achieve it. An uncooperative angel may give the characters information only grudgingly, whereas a devil who wants something might be more forthcoming."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_elements"
@@ -1589,7 +1589,7 @@
 	},
 	"the_power_and_price_of_knowledge": {
 		"name": "The Power and Price of Knowledge",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 219](source/occult_adventures)",
@@ -1601,7 +1601,7 @@
 			"In the depths of the occult underworld, initiates barter for the true names of demon princes, exchange rare formulae for the creation of artificial life, and broker in corpses that conceal terrible secrets. Such mystical bargains are rarely fair trades of power, and hermetic orders and cults manipulate these exchanges to devalue the knowledge traded away and inflate the value of the knowledge earned."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_elements"
@@ -1617,7 +1617,7 @@
 	},
 	"strange_rules_and_peculiar_patterns": {
 		"name": "Strange Rules and Peculiar Patterns",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -1627,7 +1627,7 @@
 			"Knowledge of these strange rules and peculiar patterns often holds the key to an antagonist's defeat. In a typical mystery adventure, the GM might keep secret the means of causing a monster's demise. But occult knowledge could give investigating player characters unusual opportunities to learn more about their foes. Perhaps divinations or phrenological readings reveal multiple weaknesses characters could exploit, though not all of them are real, and some may even empower the antagonist. Ultimately, the only way to find out may be to encounter the antagonist directly, but putting the acquired knowledge to the test may be a more dangerous affair than the PCs initially realized."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_elements"
@@ -1643,7 +1643,7 @@
 	},
 	"fates_worse_than_death": {
 		"name": "Fates Worse Than Death",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -1653,7 +1653,7 @@
 			"In occult adventures where characters can leave their bodies, travel in dreams, and project their forms onto the Astral Plane, the death of the physical body could come to hold less significance. Therefore, present the characters with fates worse than death. This might amount to a torturous \"living\" death, such as the eternal enslavement and torture of the soul or a debilitating madness that gradually renders a psychic creature mindless and insane. Since death in fantasy roleplaying games is typically either the end of a character's story or a small inconvenience before resurrection, look for ways to offer an escape from death using occult characters' knowledge of the spirit world-but at significant cost to their bodies, minds, or souls."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_elements"
@@ -1669,7 +1669,7 @@
 	},
 	"esoteric_atmosphere": {
 		"name": "Esoteric Atmosphere",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -1677,7 +1677,7 @@
 			"Setting the scene is important in occult adventures, which rely upon creating an eerie atmosphere of tension, dread, and wonder in the presence of the supernatural. GMs can use props and tools to create a physical atmosphere around their players that draws them in to the emotional realm of the adventure. A room illuminated by flickering candles suggests darkened seance chambers or occult rituals, and a prepared library of sounds and voices brings settings and characters to life. If the characters are occult initiates or psychics, or they consult a fortune-teller or a medium, consider using cards, crystals, talismans, talking boards, and other such items as props in those scenes (as described in the [Handouts and Props](rule/handouts_and_props) section). Challenge yourself to give the players goose bumps a few times over the course of your campaign."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_elements"
@@ -1693,7 +1693,7 @@
 	},
 	"occult_themes": {
 		"name": "Occult Themes",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -1701,7 +1701,7 @@
 			"The following campaign themes combine the elements of occult adventures in different ways, and are meant to serve as packages to help GMs open the door of the occult in their campaign worlds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game"
 		],
@@ -1723,7 +1723,7 @@
 	},
 	"the_occult_underworld": {
 		"name": "The Occult Underworld",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 220](source/occult_adventures)",
@@ -1737,7 +1737,7 @@
 			"Another way to impress the theme of a ubiquitous occult underworld upon the characters is to hit them close to home. Choose an important NPC dear to one of the characters to be a member of a secret society or a cult that the characters oppose. Consider the scenes in which your NPC has appeared and create an ulterior motive for the character within those scenes that advances the agenda of the secret society or cult to which the NPC belongs. Handled well, this character's motivations will seem clear to the PCs in hindsight, as if you had planned the betrayal from the beginning."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_themes"
@@ -1752,7 +1752,7 @@
 	},
 	"spiritual_warfare": {
 		"name": "Spiritual Warfare",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 221](source/occult_adventures)",
@@ -1760,7 +1760,7 @@
 			"Occult elements such as Mysteries within Mysteries, The Price and Power of Knowledge, and Fates Worse Than Death can combine to create a powerful overriding campaign theme highlighting the struggle for dominance between the worlds of the living and the dead. The veils between the worlds are worn thin. Haunts, ghosts, and lost souls are commonplace, though they are not the true antagonists; in such campaigns, the real villains are often powerful outsiders with legions of minions who specialize in the harvesting of souls for a profitable black market in the nether realms. Spirits who seek rest are a common occurrence, and PCs are tasked with discovering the means to help the dead move on one way or another, either through completing tasks a soul left incomplete in life, or by laying the spirit to rest permanently through force of might. Stakes are high in such games, and death is never the end."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_themes"
@@ -1775,7 +1775,7 @@
 	},
 	"into_the_great_beyond": {
 		"name": "Into the Great Beyond",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 221](source/occult_adventures)",
@@ -1789,7 +1789,7 @@
 			"GMs should be prepared to adjudicate scenes where the characters project themselves into non-physical realms. Adventures along this theme might find the characters entering the twisted mindscape of an insane or possessed victim, or they might enter the mindscape of an enemy to steal hidden knowledge or implant subconscious suggestions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_themes"
@@ -1804,7 +1804,7 @@
 	},
 	"fear_and_reverence_of_the_unknown": {
 		"name": "Fear and Reverence of the Unknown",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 221](source/occult_adventures)",
@@ -1816,7 +1816,7 @@
 			"As another take on this theme, the common crowd could develop a worshipful fascination toward people or entities skilled in the occult arts, consulting them for knowledge of the future or employing their psychic talents to quickly learn what ordinary folk cannot normally see or know. On the other hand, twisted individuals who wield occult power often attract lackeys and slaves willing to serve the dark arts, and the ranks of wicked cults teem with dangerous, unscrupulous predators enraptured by their charismatic cult leaders."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_themes"
@@ -1831,7 +1831,7 @@
 	},
 	"ultimate_occult": {
 		"name": "Ultimate Occult",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 222](source/occult_adventures)",
@@ -1841,7 +1841,7 @@
 			"NPCs with supernatural powers should be rare, or should conceal themselves from the world at large. Large and powerful churches may exist, exerting significant economic and political power, but only a few individuals ever perform miracles, and even these persons of extraordinary faith may fall out of favor with church doctrine. Perhaps in such campaigns there are no true gods, or their status as divine entities cannot be proven. It may be that the so-called gods are actually various spirits and other inscrutable forces that occupy the space between dimensions. The Outer Planes and the gods who dwell there may be just a shared manifestation of the collective consciousness, which appears to exist only because people believe that it does."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_themes"
@@ -1856,7 +1856,7 @@
 	},
 	"occult_adventure_seeds": {
 		"name": "Occult Adventure Seeds",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 222](source/occult_adventures)",
@@ -1864,7 +1864,7 @@
 			"The following adventure seeds play on the elements and themes integral to occult adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game"
 		],
@@ -1889,7 +1889,7 @@
 	},
 	"a_brace_of_imps": {
 		"name": "A Brace of Imps",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
@@ -1903,7 +1903,7 @@
 			"***Further Adventures:*** The PCs may gain a new ally in the form of the sorcerer, or a powerful antagonist if she takes the devil's bargain. Does the ragpicker know more than he is willing to admit? What dark secrets does the lodge hold that the devil may seek for himself?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -1921,7 +1921,7 @@
 	},
 	"feast_of_souls": {
 		"name": "Feast of Souls",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
@@ -1935,7 +1935,7 @@
 			"***Further Adventures:*** Destroying the hag's heartstone frees the bound souls within, but did the hag have a deeper, more insidious motivation than the mere collection of souls for profit in the evil planes? Perhaps she had captured the spirit of a powerful, corrupt entity that now threatens the city with darker strife after gaining its freedom. The PCs have brought peace to the community for a time, but at what price, and what deadly machinations await?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -1953,7 +1953,7 @@
 	},
 	"golem's_revenge": {
 		"name": "Golem's Revenge",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 223](source/occult_adventures)",
@@ -1967,7 +1967,7 @@
 			"***Further Adventures:*** The PCs may defeat the golem, but unless they uncover the true plans of the secret society, they haven't thwarted the new purge. Will the PCs come to the rescue of those who cannot protect themselves? Convincing the golem of the truth might net the PCs a powerful ally, but if they destroyed it, they might need to find the old golem crafter's notes and try to teach themselves the occult rituals he used so they can fashion a new golem, if they are to have any hope of defeating the cult's foul undertaking."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -1985,7 +1985,7 @@
 	},
 	"lost_souls": {
 		"name": "Lost Souls",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
@@ -1999,7 +1999,7 @@
 			"***Further Adventures:*** If the ruler's coma was result of the dark arts or an attempted assassination, the true culprits may lurk in ambush for the characters as they voyage through these strange realms. And as the characters explore, they find the processions of other rulers heading toward Heaven or Hell. Are these events all somehow connected?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -2017,7 +2017,7 @@
 	},
 	"the_menhir": {
 		"name": "The Menhir",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
@@ -2031,7 +2031,7 @@
 			"***Further Adventures:*** Creatures of psychic power are attracted to a ley line passing through the menhir. Following the ley line leads to other villages with their own menhirs; those that were denied their sacrifices are now surrounded by dry and desolate land where nothing lives. Ley lines lead from these menhirs as well, on and on throughout the world. Generation after generation, the beings bound to these menhirs feed and grow more powerful. How can the PCs release the common folk from these mysterious horrors?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -2049,7 +2049,7 @@
 	},
 	"mind_trap": {
 		"name": "Mind Trap",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 224](source/occult_adventures)",
@@ -2063,7 +2063,7 @@
 			"***Further Adventures:*** The PCs might decide to destroy the mindscape-perhaps by traveling to the Dimension of Dreams, and possibly even freeing the ancient consciousness in the process. Other trapped creatures might exist inside the mindscape, and freeing them might provide the characters with future contacts or adversaries."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -2081,7 +2081,7 @@
 	},
 	"the_order": {
 		"name": "The Order",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 225](source/occult_adventures)",
@@ -2095,7 +2095,7 @@
 			"***Further Adventures:*** As the Truthseeker's cult gathers power, how does the original church respond? How many cities and towns has it infiltrated, and how readily does it swell its numbers? Did the cultists cause the tragic events that led to their rise to power? Even if the PCs stop the Truthseeker, is another cult member ready to take up the mantle?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -2113,7 +2113,7 @@
 	},
 	"portrait_of_evil": {
 		"name": "Portrait of Evil",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 225](source/occult_adventures)",
@@ -2127,7 +2127,7 @@
 			"***Further Adventures:*** When the accused is defeated, her image moves to the background of the soul portrait, and the PCs are left with the unsavory task of deciding what to do with the artifact. Less scrupulous PCs may decide to take it for themselves, commissioning an artist to add their likenesses to the canvas, having learned of the powers bequeathed by the portrait. PCs with stronger morals might seek to destroy the artifact, but will soon learn that only the owner of a soul portrait can destroy it- and at the high cost of another's life."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_adventure_seeds"
@@ -2145,7 +2145,7 @@
 	},
 	"occult_locations": {
 		"name": "Occult Locations",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 226](source/occult_adventures)",
@@ -2153,7 +2153,7 @@
 			"When it comes to occult adventures, locations themselves can be living things, serving as active participants in paranormal stories."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game"
 		],
@@ -2183,7 +2183,7 @@
 	},
 	"loci_spirits": {
 		"name": "Loci Spirits",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 226](source/occult_adventures)",
@@ -2191,7 +2191,7 @@
 			"Loci spirits form when excess psychic energy becomes saturated with powerful positive emotional resonances. Loci spirits typically arise in places with connections to previous miracles, benevolent guardian spirits, or good-aligned deities. Loci spirits infuse a specific area; their psychic energy heightens the positive emotions experienced there to create a feeling of peace and protection. A loci spirit also manifests a unique ceremonial power linked specifically to the emotional energy that birthed the spirit. Except in rare circumstances, a given area can house at most one loci spirit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2214,7 +2214,7 @@
 	},
 	"loci_spirit_rules": {
 		"name": "Loci Spirit Rules",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 226](source/occult_adventures)",
@@ -2246,7 +2246,7 @@
 			"After a loci spirit manifests its ceremonial effect, or after a failed ceremony, the spirit can't manifest the effect again for another 24 hours."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2269,7 +2269,7 @@
 	},
 	"corrupting_a_loci_spirit": {
 		"name": "Corrupting a Loci Spirit",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 227](source/occult_adventures)",
@@ -2295,7 +2295,7 @@
 			"| Casting [hallow](spell/hallow) | Restores 4 hit points |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2318,7 +2318,7 @@
 	},
 	"elements_of_a_loci_spirit": {
 		"name": "Elements of a Loci Spirit",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 227](source/occult_adventures)",
@@ -2344,7 +2344,7 @@
 			"***Corruption Effect:*** This entry gives a brief description of what the loci spirit's effects become if it is corrupted."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2367,7 +2367,7 @@
 	},
 	"creating_a_loci_spirit": {
 		"name": "Creating a Loci Spirit",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 228](source/occult_adventures)",
@@ -2416,7 +2416,7 @@
 			"[^2]: Loci spirits that are susceptible to corruption lose twice the amount of hit points from corrupting actions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2439,7 +2439,7 @@
 	},
 	"ley_lines": {
 		"name": "Ley Lines",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 232](source/occult_adventures)",
@@ -2447,7 +2447,7 @@
 			"Researchers into the occult theorize that all the worlds of the Material Plane and the planes beyond are alive. While the exact measure of life and consciousness the universe exhibits is debated, attempts to quantify this cosmic biology point toward the phenomenon of ley lines as proof. Ley lines are conduits of magical energy that traverse all known corners of creation, serving the same function as the veins and arteries of living creatures. These conduits, connecting geographical and cosmological features both great and small, grant knowledge and power to those who tap into them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2470,7 +2470,7 @@
 	},
 	"qualities_of_ley_lines": {
 		"name": "Qualities of Ley Lines",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 232](source/occult_adventures)",
@@ -2482,7 +2482,7 @@
 			"Like the arteries of a circulatory system, ley lines come in many different sizes. The larger a ley line, the more capacity it has to carry magical energy. The size of a given ley line can change over time, however, and may vary at different points along its length. The size of a ley line generally impacts the strength and kinds of power that can be drawn from it by spellcasters. Ley lines have an effective caster level ranging from 1 to 20 that represents the overall strength of the ley line and determines the power of effects associated with it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2505,7 +2505,7 @@
 	},
 	"finding_ley_lines": {
 		"name": "Finding Ley Lines",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 232](source/occult_adventures)",
@@ -2517,7 +2517,7 @@
 			"Ley lines do not generally move from location to location. While the exact paths they take may drift over the course of millennia or eons, these changes are largely unnoticed by all but the longest-lived races. As such, the discovery of a ley line can impact a region for millennia and draw attention from those seeking to exploit the ley line's power. Civilizations that discover ley lines sometimes mark the locations in which their power is most easily accessible by erecting monuments such as menhir circles or obelisks. These sites are typically used to perform rituals or other functions that tap into the latent power of a ley line to enhance spellcasting. A powerful wizard might build his tower atop a particularly strong ley line, a druidic sect might construct a menhir circle nearest to where a ley line touches the ground, or an ancient dragon might build its mountaintop lair as close to a ley line in the sky as possible. Accurate maps and charts depicting the paths and intersections of ley lines are reliable for centuries or more and can reveal nodes of power across worlds and planes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2540,7 +2540,7 @@
 	},
 	"using_ley_lines": {
 		"name": "Using Ley Lines",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 233](source/occult_adventures)",
@@ -2552,7 +2552,7 @@
 			"Ley lines can become damaged over the course of time, whether by extreme magical forces or other monumental events. Damage in this manner can cause a supernatural bruise that bleeds out into the location surrounding a ley line. Harming or destroying ley lines is difficult, given their monumental size and power. Even the weakest of ley lines are impervious to most physical and magical attacks, though great forces can exert influence over them. [Mage's disjunction](spell/mage's_disjunction) can potentially destroy a ley line, though this task requires the caster to succeed at a caster level check with a DC equal to 20 + the ley line's caster level. Doing so immediately deals 2d6 points of damage per caster level of the ley line (no saving throw) to the caster. Additionally, all creatures attuned to the ley line and able to benefit from attunement take 1d6 points of nonlethal damage per caster level of the ley line when it is destroyed. There is a 1% chance per caster level of the ley line that its destruction creates a permanent [antimagic field](spell/antimagic_field) with a radius of 100 feet per caster level of the destroyed ley line. Furthermore, the caster of [mage's disjunction](spell/mage's_disjunction) who creates an [antimagic field](spell/antimagic_field) in this way must succeed at a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic, not even via [miracle](spell/miracle) or [wish](spell/wish)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2575,7 +2575,7 @@
 	},
 	"mindscapes": {
 		"name": "Mindscapes",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 234](source/occult_adventures)",
@@ -2593,7 +2593,7 @@
 			"Creatures drawn into mindscapes don't have to appear as themselves, and can instead assume alternate forms called mental masks. They can do so only if they know they're in a mindscape or believe they're in a dream (the creator of a mindscape almost always does). A mental mask allows a creature to hide its true identity, masking its true features from its enemies. Non-psychic creatures can't assume a mental mask; they must appear in immersive mindscapes in their true forms."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2616,7 +2616,7 @@
 	},
 	"binary_mindscapes": {
 		"name": "Binary Mindscapes",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -2624,7 +2624,7 @@
 			"A binary mindscape is typically only a minimalist backdrop for a psychic battle-a ghostly image, like a stark memory, lacking detail and verisimilitude. It might manifest as a flat surface surrounded by fog or a featureless plain of grass on a cloudy day. Sometimes, a binary mindscape mimics a real-world locale the creator knows well, but even then, the details at the edges of vision are usually fuzzy and indistinct, and features that invoke lesser senses, such as smell and taste, are lacking. A binary mindscape has no effect on the psychic battle; it's merely a mental construct used to assist the participants in visualizing their actions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2648,7 +2648,7 @@
 	},
 	"creation_and_control": {
 		"name": "Creation and Control",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -2658,7 +2658,7 @@
 			"A binary mindscape is overt, finite, and harmful (see [Mindscape Traits](rule/mindscape_traits)). Its other traits (such as gravity, time, and magic) are normal, with the exception of the special actions and limitations on spellcasting described in the Psychic Duels section."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2668,7 +2668,7 @@
 	},
 	"immersive_mindscapes": {
 		"name": "Immersive Mindscapes",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -2678,7 +2678,7 @@
 			"An immersive mindscape can be sculpted in much more detail than a binary mindscape, and its traits vary. The creator dictates the traits of an immersive mindscape, and visitors are subject to whatever strictures the host is able to place upon the mindscape. The construction of the mindscape might be carefully designed, or might be a more instinctive expression drawn from the creator's own desires or intentions (whether conscious or subconscious). Some spells allow the creator to use a target's memories or desires when creating the mindscape to better fool the target."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2701,7 +2701,7 @@
 	},
 	"mindscape_traits": {
 		"name": "Mindscape Traits",
-		"subtitle": "Occult Rules, Gamemastering",
+		"subtitle": "Occult Rules, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 235](source/occult_adventures)",
@@ -2711,7 +2711,7 @@
 			"Every mindscape is considered [sentient](rule/morphic_traits), but instead of changing according to its own will, it responds to the will of those inside it. Typically, the creature that created the mindscape controls its traits. Depending on her level of expertise, the creator can alter one or more of the traits of the mindscape to suit her purposes. The psychic duel rules and some spells allow other creatures to alter mindscapes, but usually only if they're aware they're within one."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations"
@@ -2743,7 +2743,7 @@
 	},
 	"transparency": {
 		"name": "Transparency",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 236](source/occult_adventures)",
@@ -2757,7 +2757,7 @@
 			"Psychic mindscape traps and spells often include a seamless transition from the real world to the mindscape in order to maintain the veil. For example, a chest trapped with a veiled immersive mindscape might trigger a visual and tactile continuation of the current situation, making the thief believe she still kneels before the container in the chamber where she found it. If the effect is done well and is powerful enough, the thief might live out several hours, days, or weeks of her life trapped in her own mind, while her body remains slumped before the chest, slowly dying from lack of food and water."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2775,7 +2775,7 @@
 	},
 	"shape_and_size_traits_oa": {
 		"name": "Shape and Size Traits",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 236](source/occult_adventures)",
@@ -2789,7 +2789,7 @@
 			"***Self-Contained Shape:*** A mindscape exhibiting this physical trait might seem to go on forever, but its spatial relations actually fold back upon themselves, no matter which direction creatures within it travel. Such a mindscape might consist of an staircase that is somehow a loop, a winding tunnel that appears straight but starts and ends in the same place, or a tesseract where exiting on one side of the cube always returns the traveler to the opposite side. A self-contained medieval keep, for example, might allow travelers to exit the front gate only to find themselves reentering by the rear portal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2807,7 +2807,7 @@
 	},
 	"feedback_oa": {
 		"name": "Feedback",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 236](source/occult_adventures)",
@@ -2819,7 +2819,7 @@
 			"***Harmless:*** Occupants of a harmless mindscape still feel the sensation of the environment or other creatures harming them, but injuries and conditions are not real: they cause no physical harm to the host's body. A creature that dies in a harmless mindscape wakes up none the worse for wear."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2837,7 +2837,7 @@
 	},
 	"gravity_traits_oa": {
 		"name": "Gravity Traits",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -2855,7 +2855,7 @@
 			"***Subjective Gravity:*** Gravity functions however each individual wishes it, relative to that individual. Thus, if one creature stands on the floor of a parlor, while another envisions the ceiling of that same room as being \"down\" and stands upon that surface, each would experience gravity differently and see the other as \"overhead\" and \"upside down.\""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2873,7 +2873,7 @@
 	},
 	"time_traits_oa": {
 		"name": "Time Traits",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -2887,7 +2887,7 @@
 			"***Rapid Time:*** In other instances, a mindscape's creator might desire to cause time to move faster within the mindscape than in the real world. In this instance, 2 or more rounds of activity within the mindscape could be completed while only 1 round passes in the real world. A controller could thus spend a great deal of time contemplating a complex mental puzzle, then emerge from the mindscape to rejoin her allies having lost no true time at all."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2905,7 +2905,7 @@
 	},
 	"alignment_traits_oa": {
 		"name": "Alignment Traits",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -2917,7 +2917,7 @@
 			"***Strongly Aligned:*** A mindscape influenced by a strong alignment almost always exhibits noticeable characteristics. The atmosphere alone might cause discomfort for or even damage beings of a diametrically opposed alignment. A creator who wishes to create a strongly aligned mindscape might find it difficult to keep victims from noticing these features. The creeping alignment influence can give a clue to those trapped within that all is not as it seems."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2935,7 +2935,7 @@
 	},
 	"magic_traits_oa": {
 		"name": "Magic Traits",
-		"subtitle": "Mindscapes, Gamemastering",
+		"subtitle": "Mindscapes, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 237](source/occult_adventures)",
@@ -2949,7 +2949,7 @@
 			"***Altered Magic:*** Magic might behave very differently within a mindscape-use the rules for the [enhanced, impeded, limited, or wild planar magic traits](rule/magic_traits)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"occult_locations",
@@ -2967,7 +2967,7 @@
 	},
 	"esoteric_planes": {
 		"name": "Esoteric Planes",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 238](source/occult_adventures)",
@@ -2989,7 +2989,7 @@
 			"The short summaries below offer an occult viewpoint on the realms generally referred to as the Esoteric Planes. Many prominent planes in the orthodox scheme, such as the Shadow Plane and Elemental Planes, do not feature prominently in the cosmology of the adept concerned with multiversal truths and the journey of the mortal soul. Occultism freely acknowledges the existence of these planes, but does not dwell on them, an approach likewise observed here. For more information on these planes, including their planar traits, see [here](rule/planar)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game"
 		],
@@ -3015,7 +3015,7 @@
 	},
 	"positive_energy_plane_oa": {
 		"name": "Positive Energy Plane",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 239](source/occult_adventures)",
@@ -3027,7 +3027,7 @@
 			"For reasons unknown even to the eldest natives, divine beings cannot enter the Positive Energy Plane. Refugees from the vengeance of the gods or those hoping to hide important relics from certain divinities sometimes venture to the Positive Energy Plane to negotiate with the jyoti, who over the centuries have amassed an astounding trove of world-shattering artifacts, illegitimate half-mortal bastards, heretics, and other dangers."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3046,7 +3046,7 @@
 	},
 	"negative_energy_plane_oa": {
 		"name": "Negative Energy Plane",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 240](source/occult_adventures)",
@@ -3060,7 +3060,7 @@
 			"The ancient wisdom suggests that the [jyoti](monster/jyoti) hate the sceaduinar for their knowledge of the role destruction plays in the creation of souls, and the jyoti fear the exposure of that information. The Negative Energy Plane's most terrible and hateful residents, the undead abominations known as [nightshades](family/nightshade), care little for this squabbling between the planes. Theirs is a quest to eradicate all life in the cosmos, to cloak the stars of the Material Plane in darkness, and to quench the Cosmic Fire, no matter the consequences."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3079,7 +3079,7 @@
 	},
 	"material_plane_oa": {
 		"name": "Material Plane",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 240](source/occult_adventures)",
@@ -3089,7 +3089,7 @@
 			"Just as little-known forces bind a physical body to its astral and ethereal counterparts, the whole of the universe is bound together by a series of ley lines' spiritual conduits that interpenetrate the many planes of the multiverse. Ley lines are prevalent on the Material Plane, and wise adepts of the occult arts, canny students of the arcane, and even village witches learn to recognize and manipulate these forces to their own ends. Some believe that one of the most prominent of these ley lines is the so-called \"River of Souls\" that guides a monad's spiritual journey through mortal incarnation and the afterlife, but that is just one aspect of this multiversal arterial network."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3108,7 +3108,7 @@
 	},
 	"ethereal_plane_oa": {
 		"name": "Ethereal Plane",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 240](source/occult_adventures)",
@@ -3126,7 +3126,7 @@
 			"Finally, the sweeping expanse of the Ethereal Plane is home to countless pocket realities known as demiplanes. Many of these unique realms are the private domains of powerful arcane spellcasters, the playgrounds of minor gods, the experiments of the inscrutable elohim, or the prisons of creatures that pose such danger to the cosmos that they must never be released."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3145,7 +3145,7 @@
 	},
 	"dimension_of_dreams": {
 		"name": "Dimension of Dreams",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 241](source/occult_adventures)",
@@ -3173,7 +3173,7 @@
 			"- Wild Magic: Both lucid bodies and creatures visiting the Dimension of Dream with their physical bodies are subject to the wild magic of dreamscapes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3192,7 +3192,7 @@
 	},
 	"astral_plane_oa": {
 		"name": "Astral Plane",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 243](source/occult_adventures)",
@@ -3208,7 +3208,7 @@
 			"Other inhabitants of the Astral Plane include enormous [astral leviathans](monster/astral_leviathan) that float through the silvery seas, sometimes with passengers or even semi-permanent settlements upon their backs; strange [caulborn](monster/caulborn) who harvest knowledge and psychic energy from astral travelers; formless [manasaputras](family/manasaputra) who seek to guide Material Plane adepts through telepathy; and the lean humanoid outsiders known as the [shulsaga](monster/shulsaga), multiplanar hunters who ride magical disks and view intruders to their astral realm with xenophobic disdain."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3227,7 +3227,7 @@
 	},
 	"akashic_record": {
 		"name": "Akashic Record",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 244](source/occult_adventures)",
@@ -3249,7 +3249,7 @@
 			"- Static"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3268,7 +3268,7 @@
 	},
 	"the_boneyard": {
 		"name": "The Boneyard",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 245](source/occult_adventures)",
@@ -3289,7 +3289,7 @@
 			"- Enhanced Magic: Spells and spell-like abilities with the death descriptor, or from the [Death](domain/death) or [Repose](domain/repose) domains, are enhanced."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3308,7 +3308,7 @@
 	},
 	"outer_sphere": {
 		"name": "Outer Sphere",
-		"subtitle": "Occult, Gamemastering",
+		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"**Source** [Occult Adventures pg. 245](source/occult_adventures)",
@@ -3318,7 +3318,7 @@
 			"As time progresses, petitioners become more and more attuned to their chosen or assigned plane. Some manage to eventually ascend into the form of an outsider associated with their plane, but others simply end their journey of existence by merging completely with their plane in body and soul, vanishing from reality altogether and becoming quintessence-the very matter of the Outer Sphere itself."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"occult_rules",
 			"running_an_occult_game",
 			"esoteric_planes"
@@ -3351,7 +3351,7 @@
 			"",
 			"A planar campaign is a great chance for your players to create characters of wildly diverse races. A number of suitable planar races are summarized below, including three new races appropriate for player characters. One thing to keep in mind when allowing players to play these races is that their powers tend to be a bit more significant than those of the game's core races. As a result, you should consider using the[ race builder rules](rule/race_builder). Choose a target RP total for all the players, and allow them to purchase new abilities and options for their races so that each player is playing an equivalently powerful character."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"planar_terrains",
 			"planar_races",
@@ -3364,7 +3364,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -3390,7 +3390,7 @@
 			"Some classes, like the [ranger](class/ranger), interact directly with terrain, and class abilities like favored terrain can become complicated in a plane-hopping campaign. In games that are largely limited to the Material Plane, the planes terrain category works fine, but if you intend to run a game set on another plane, you should consider breaking up that category into specific planes (thus, a ranger would choose Heaven or Ethereal Plane, or even a demiplane like Leng as a favored terrain), or simply doing away with the planes category entirely. With this latter solution, you should work with ranger players to help them anticipate the terrains featured in your upcoming campaign, with new categories like crystalline (for realms in the Plane of Earth or under Elysium, where immense crystal formations are common), living (for truly sentient realms like portions of the Abyss), or void (for empty reaches in the Astral Plane or the energy planes) potentially becoming new options for rangers to select from."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures"
 		],
 		"siblings": [
@@ -3438,7 +3438,7 @@
 			"**[Wayang](race/wayang):** Wayangs originally came from the Shadow Plane, but are rarely found there today; most dwell now on the Material Plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures"
 		],
 		"siblings": [
@@ -3465,7 +3465,7 @@
 			"And so the gods follow a largely self-imposed ban on direct interaction with the Material Plane. They leave their concerns and agendas in the capable hands of their faithful and allow their churches to represent the deity's interests and decide their own fates. It should be noted that this element of self-imposed non-intervention does not extend equally to the ranks of demigods. These entities, while powerful, can be defeated by the mortals whose lives they manipulate, and they do well to keep that possible fate, however unlikely, in mind."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures"
 		],
 		"subtopics": [
@@ -3494,7 +3494,7 @@
 			"There are three levels of power among the divine, although divinities of all levels wield vast power, especially when compared to a lowly mortal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine"
 		],
@@ -3524,7 +3524,7 @@
 			"Deities grant their clerics access to five domains."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine",
 			"divine_power"
@@ -3547,7 +3547,7 @@
 			"Demigods grant their clerics access to four domains."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine",
 			"divine_power"
@@ -3572,7 +3572,7 @@
 			"A quasi deity grants from one to four domains to its clerics."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine",
 			"divine_power"
@@ -3597,7 +3597,7 @@
 			"Take care to not remove the threat of failure from your game, of course-if the players come to expect you to save their characters each and every time they fail, the suspense of the game will fade. As a general rule, divine intervention should only occur once per player per campaign, but of course you can alter this frequency as you wish to suit the preference of your table."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine"
 		],
@@ -3624,7 +3624,7 @@
 			"Divine gifts can be of any power level, but the example gifts presented in the following section focusing upon the core pantheon are all on par with effects that could be granted by a miracle spell-feel free to adjust this power level as you prefer for your home campaign. At your discretion, you can allow divine spellcasters to duplicate the effects of a divine gift (as appropriate for their deity) by casting [miracle](spell/miracle) themselves."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine"
 		],
@@ -3653,7 +3653,7 @@
 			"Some deities have no interest in faith. These divinities may seek widespread destruction (such as [Rovagug](faith/rovagug), whose realm is also his prison, and who would be released into the Multiverse upon its destruction) or exist as a manifestation of the fact that all things must end (such as [Groetus](faith/groetus), whose \"realm\" consists of his own body high above the Boneyard). And then there are the Outer Gods&mdash;divinities whose very existence predates the concept of existence as mortals understand it. Divinities like [Azathoth](faith/azathoth), [Shub-Niggurath](faith/shub-niggurath), and [Yog-Sothoth](faith/yog-sothoth) are incalculably ancient, and they exist outside of the boundaries and restrictions of faith, souls, and the concept of quintessence entirely. Mortals still worship them, yet the Outer Gods have little interest in such worship, and in many cases these alien divinities may not even comprehend the concept of faith at all. Among the Outer Gods, only [Nyarlathotep's](faith/nyarlathotep_black_pharaoh) pursuit of faith provides a singular, ominous, and unnerving exception to this rule."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine"
 		],
@@ -3680,7 +3680,7 @@
 			"While a demigod's power within its realm is immense, a deity's is nigh absolute. Yet even in deities' realms, the concepts of free will and non-interference remain. Just as a divinity leaves its worshipers free to express their faith and set their own fates as they wish, it also does not oversee and police every facet of life in its realm. This means that non-worshipers, or even enemies of a faith, can travel through a deity's planar realm without fear of immediate reprisal. A paladin among a group of adventurers on a mission into [Lamashtu's](faith/lamashtu) realm in the Abyss will likely feel unwelcome and meet strong resistance from that region's denizens, but would not need to fear direct punishment from Lamashtu herself. Likewise, a devil-worshiping priest who infiltrates an enclave of azatas in [Cayden Cailean's](faith/cayden_cailean) realm in Elysium to chase down an escaped petitioner from the pits of Hell would not be immediately crushed by the offended god. Only in the most significant of incursions or when a divinity is directly called out or confronted will a deity or demigod take note-and even then, the most common response would be to send a powerful minion to handle the situation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine"
 		],
@@ -3703,7 +3703,7 @@
 			"The most significant deities of the Inner Sea region are the 20 presented in the Pathfinder RPG Core Rulebook. In a setting of your own design, the most powerful and prominent deities are entirely up to you. Regardless of which deities hold sway in your setting, you should take the time to design and detail your chosen pantheon of gods and goddesses, both as individuals and as a group. The following section summarizes this information for each deity in the core pantheon, to provide players of characters (and GMs of NPCs) who worship one of these deities more information for roleplaying."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine"
 		],
@@ -3763,7 +3763,7 @@
 			"[Deities and faiths can be found here.](main/faiths)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"role_of_the_divine",
 			"the_core_pantheon"
@@ -3784,7 +3784,7 @@
 			"There are seven categories of traits that summarize the nature of reality within each realm of existence: gravity, time, realm, structural, essence, alignment, and magic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures"
 		],
 		"subtopics": [
@@ -3842,7 +3842,7 @@
 			"Setting a new direction of gravity takes a free action and requires a successful DC 16 Wisdom check; a character can attempt this check once per round. A character who fails this Wisdom check receives a +6 bonus on subsequent checks until she succeeds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -3890,7 +3890,7 @@
 			"On planes with this trait, time still passes but the effects of time are diminished. How the timeless trait affects certain activities or conditions such as hunger, thirst, aging, afflictions, and healing varies from plane to plane. The danger of a timeless plane is that once an individual leaves such a plane for one where time flows normally, conditions such as hunger and aging apply retroactively. If a plane is timeless with respect to magic, any spell cast with a duration other than instantaneous is permanent until dispelled."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -3926,7 +3926,7 @@
 			"On planes with this trait, the borders wrap in on themselves, depositing a traveler who voyages too far onto the other side of the map. Unbounded planes can be spheres, cubes, tori, or flat expanses with magical edges that teleport the traveler to the opposite edge when she crosses them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -3966,7 +3966,7 @@
 			"Static planes are unchanging, or they reset once change occurs. Visitors cannot affect living residents of the plane or objects that the denizens carry in any lasting way. Spells that would affect the plane or its denizens have no effect unless the plane's static trait is somehow removed or suppressed. Spells cast before entering a plane with the static trait remain in effect, however. Even moving an unattended object within a static plane requires a successful DC 16 Strength check. Particularly heavy objects may be impossible to move. Often, a plane with the static trait has a duration listed-this is the amount of time that any change can persist before the plane's reality resets."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -4030,7 +4030,7 @@
 			"A creature on a major positive-dominant plane must succeed at a DC 15 Fortitude save or be blinded for 10 rounds by the brilliance of the surroundings. Simply being on the plane grants living creatures fast healing 5. In addition, living creatures at full hit points gain 5 additional temporary hit points per round that last until 1d20 rounds after the creature leaves the major positive-dominant plane. However, a creature that gains temporary hit points in this way must attempt a DC 20 Fortitude save each round that its temporary hit points exceed its normal maximum hit point total. Failure results in the creature exploding in a riot of energy, which kills it. Undead on a major positive-dominant plane take 3d6 points of positive energy damage per round and are staggered during each round they take this damage."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -4066,7 +4066,7 @@
 			"A strongly neutral-aligned plane stands in opposition to or in careful balance between all moral and ethical principles: good, evil, law, and chaos. Such a plane may be more concerned with the balance of the alignments than with accommodating and accepting alternate points of view. In the same fashion as for other strongly aligned planes, strongly neutral-aligned planes impose a -2 penalty on the Intelligence-, Wisdom-, and Charisma-based checks of any creature that isn't neutral. The penalty is applied separately for neutrality with respect to law and chaos and for neutrality with respect to good and evil; therefore chaotic neutral, lawful neutral, neutral evil, and neutral good creatures take a -2 penalty, and chaotic evil, chaotic good, lawful evil, and lawful good creatures take a -4 penalty."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -4132,7 +4132,7 @@
 			"| 99-100 | The spell functions strongly. Targets take a -2 penalty on saving throws against the spell. The spell has the maximum possible effect, as if cast with the [Maximize Spell](feat/maximize_spell) feat. If the spell is already maximized with this feat, there is no further effect. |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"traits_of_a_plane"
 		],
@@ -4148,7 +4148,7 @@
 	},
 	"building_a_planar_campaign": {
 		"name": "Building a Planar Campaign",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -4156,7 +4156,7 @@
 			"The typical adventurer can readily secure fame and fortune within a single dungeon, nation, or continent, and for many campaigns, sticking to an easily grasped fantasy world of goblins, knights, and near-Earth conditions is the right move. After all, traveling the multiverse increases the possibilities and dangers by untold orders of magnitude. In capable hands, a planar campaign can inspire stories unlike any other. But if handled poorly, a romp across the planes can turn into a disjointed series of accidents or sudden endings that could potentially harm a long-term game. So how can you as a GM convey a creative, fun, and memorable experience?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures"
 		],
 		"subtopics": [
@@ -4175,7 +4175,7 @@
 	},
 	"why_the_planes": {
 		"name": "Why the Planes?",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -4183,7 +4183,7 @@
 			"Okay, you've made the choice to take your game to the planes, but your campaign's characters already enjoy stabbing bad guys on their home world. So why should your players risk life, limb, and the integrity of their souls to travel the planes when there are perfectly good dungeons in their own corner of the cosmic backyard? The possibilities are limitless, yet most goals fall within four categories: access, acquisition, confrontation, or rescue. Each of these can be the ultimate aim for a campaign or merely a step toward a bigger task, and an effective planar campaign uses several of these goals to create a compelling sequence of events."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign"
 		],
@@ -4202,7 +4202,7 @@
 	},
 	"access": {
 		"name": "Access",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -4212,7 +4212,7 @@
 			"From the PCs' perspective, these are tools that can enable them to achieve otherwise impossible goals. A lost secret might survive only in an extraplanar library. The conditions of an evil artifact's destruction might require travel to the heart of a divine realm. Learning an antagonist's plans might require partaking in an extraplanar intrigue in which the PCs must survive alien politics and interview long-dead souls. Sometimes the goal is to journey to a Transitive Plane with the intention of accessing an obscure demiplane or other realm that conventional magic can't find."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"why_the_planes"
@@ -4226,7 +4226,7 @@
 	},
 	"acquisition": {
 		"name": "Acquisition",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -4236,7 +4236,7 @@
 			"Of course, adventurers specialize in studying and acquiring baubles, so to some, a plane's treasures may simply be awaiting harvest by the right hands. The fabled artifact necessary to slay a demon lord might reside in Heaven, perhaps in the possession of an archon who's not inclined to share. The reagents needed to brew a powerful potion to end a mythic curse might grow only in Abaddon's tear-soaked soil or crystallize in the Plane of Earth's most secluded caverns. Some travelers might seek real estate instead of treasures, skirmishing with the Astral Plane's [shulsagas](monster/shulsaga) to claim a newly formed demiplane as their own."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"why_the_planes"
@@ -4250,7 +4250,7 @@
 	},
 	"confrontation": {
 		"name": "Confrontation",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -4260,7 +4260,7 @@
 			"That's easier said than done, however. These beings often have a host of allies defending a well-fortified abode. Heroes leading the charge are unlikely to share their enemy's alignment or subtypes, potentially exposing the attackers to hostile planar traits. The strongest outsiders can even wield the power of their home planes as a weapon, much as demon lords wield mythic power within their own realms. If adventurers can destroy such beings, they can end countless plots at once and create a power vacuum felt across the planes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"why_the_planes"
@@ -4274,7 +4274,7 @@
 	},
 	"rescue": {
 		"name": "Rescue",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 82](source/planar_adventures)",
@@ -4284,7 +4284,7 @@
 			"Any number of fiends and villains are all too happy to capture living prey to consume, experiment on, sacrifice, or torture. Among the most infamous abductors are the Ethereal Plane's [xills](monster/xill) and the far-ranging [devourers](monster/devourer) that prey upon live hosts and mortals' souls, respectively. [Night hags](monster/night_hag) are practiced soul trappers who might trade a hero's soul away or consume it, preventing resurrection unless intercepted. [Devils'](rule/devils) use of [infernal contracts](rule/infernal_contracts) can let them abscond with a PCs' friend or ally under the wrong circumstances (or insidiously small print)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"why_the_planes"
@@ -4298,7 +4298,7 @@
 	},
 	"presenting_the_planes": {
 		"name": "Presenting the Planes",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 83](source/planar_adventures)",
@@ -4306,7 +4306,7 @@
 			"There's a significant reason that most campaigns take place on an earthlike world: it's predictable. Gravity works as expected, there are 24 hours in a day, seasons exist, and weather patterns make sense. That changes rapidly the moment the PCs start jumping to other planes of existence, and conflict between the players' expectations and each planar reality is often more jarring for you than for them, due to potential challenges managing and presenting those differences in compelling ways. The ways in which you can overcome these difficulties vary as much as the planes themselves, but the basics fall into three broad concepts."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign"
 		],
@@ -4324,7 +4324,7 @@
 	},
 	"not_just_another_dungeon": {
 		"name": "Not Just Another Dungeon",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 83](source/planar_adventures)",
@@ -4336,7 +4336,7 @@
 			"As an example, filling a dungeon that is located in Hell with [devils](rule/devils) is a disservice. Instead, consider what abilities are commonly available to local creatures (e.g., teleportation) and how those abilities might shape the denizens' behaviors in this infernal citadel. If the site is constructed from evocative materials, with walls made from ever-burning bones or floors composed of tombstones, don't stop at asking why it's that way-think about what effect those choices have on the intended inhabitants and the intruding PCs. If there's a fiend-operated market nearby, consider acceptable currency, how the traditional marketplace interactions might differ from those of the PCs' home world, what's being sold, and who the expected customers are (outsiders have fairly limited needs, after all)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"presenting_the_planes"
@@ -4349,7 +4349,7 @@
 	},
 	"normal_is_abnormal": {
 		"name": "Normal Is Abnormal",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 84](source/planar_adventures)",
@@ -4361,7 +4361,7 @@
 			"Making the abnormal normal comes with an important warning: be very careful about rewriting the laws of reality. It might seem like a grand idea to assume that physics, down to the atomic level, operates differently on another plane, but that would mean even a 20th-level wizard's body could discorporate in an instant. For most groups, aim for a middle ground of unsettlingly odd: an exciting destination that doesn't entirely upend the game's mechanics. Like running an intense investigation or a horror campaign, striking the right balance for a planar adventure might involve a conversation with your players to understand everyone's boundaries and expectations."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"presenting_the_planes"
@@ -4374,7 +4374,7 @@
 	},
 	"traveling_the_planes": {
 		"name": "Traveling the Planes",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 84](source/planar_adventures)",
@@ -4402,7 +4402,7 @@
 			"**Desperate Measures:** Several other items facilitate planar travel but in extraordinarily dangerous and unpredictable ways. Even so, circumstances might leave the PCs no choice but to place a [bag of holding](magic-wondrous/bag_of_holding_type_1) inside a [portable hole](magic-wondrous/portable_hole) or destroy a [staff of power](magic-staff/staff_of_power) in the hopes of going somewhere - anywhere - else."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"presenting_the_planes"
@@ -4415,7 +4415,7 @@
 	},
 	"planar_tuning_forks": {
 		"name": "Planar Tuning Forks",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -4439,7 +4439,7 @@
 			"Planar tuning forks have no notable weight."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign"
 		],
@@ -4459,7 +4459,7 @@
 	},
 	"untuned_fork": {
 		"name": "Untuned Fork",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -4469,7 +4469,7 @@
 			"Before an untuned fork can be used as a focus for casting [plane shift](spell/plane_shift), it must be physically transported to the plane in question and subjected to a specific condition while on that plane, as detailed for each category of tuning fork. Once a previously untuned fork is attuned to a plane, it changes appearance to reflect that plane's nature and cannot be attuned to a different one. Regardless of the plane in question, only one untuned fork can be attuned at a time in a 300-foot radius. Untuned forks take time to attune to a plane, and if a second untuned fork is struck within 300 feet of another fork that is in the process of becoming attuned, planar dissonance causes the attuning process for both forks to immediately end, and the procedure must start anew."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"planar_tuning_forks"
@@ -4484,7 +4484,7 @@
 	},
 	"common_tuning_fork": {
 		"name": "Common Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -4492,7 +4492,7 @@
 			"A common tuning fork is one attuned to the major Inner or Outer Planes (Abbadon, Abyss, the Astral Plane, Axis, the Boneyard, Elysium, the Ethereal Plane, the First World, Heaven, Hell, Maelstrom, the Negative Energy Plane, Nirvana, the Plane of Air, the Plane of Earth, the Plane of Fire, the Plane of Water, the Positive Energy Plane, and the Shadow Plane). For layered planes, a common tuning fork can be attuned only to the first layer of the plane (the Threshold in Heaven, Avernus in Hell, or Kurnugia in the Abyss). Attuning a common tuning fork requires striking it against a solid surface somewhere on the plane, after which the tuning fork must be allowed to absorb the plane's energies for 24 hours. Once this time passes, the untuned fork becomes attuned to that plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"planar_tuning_forks"
@@ -4507,7 +4507,7 @@
 	},
 	"uncommon_tuning_fork": {
 		"name": "Uncommon Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 85](source/planar_adventures)",
@@ -4517,7 +4517,7 @@
 			"Attuning an uncommon tuning fork is done in much the same way as a common tuning fork, but the tuning fork must be struck against a magic item of CL 11th or higher that was created on that plane, a creature of CR 11 or higher native to the plane, or a unique or specific feature of the plane as determined by the GM-such features are generally protected and should require mid-level play (9th level or above) to access. Once so struck, the tuning fork must be allowed to absorb the plane's energies for 3 days. After this time passes, the untuned fork becomes attuned to that plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"planar_tuning_forks"
@@ -4532,7 +4532,7 @@
 	},
 	"rare_tuning_fork": {
 		"name": "Rare Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -4542,7 +4542,7 @@
 			"Attuning a rare tuning fork is done using the same method as an uncommon fork, but the fork must be struck against an artifact created on that plane, a creature of CR 21 or higher native to the plane, or a unique or specific feature of the plane that you determine-such features are generally well guarded and difficult to reach, and thus they should require relatively high-level play (15th level or above) to use. Once so struck, the fork must be allowed to absorb the plane's energies for 1 week. After this time has passed, the untuned fork is attuned to that plane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"planar_tuning_forks"
@@ -4557,7 +4557,7 @@
 	},
 	"unique_tuning_fork": {
 		"name": "Unique Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -4567,7 +4567,7 @@
 			"Attuning an untuned fork to a unique plane or dimension requires a specific task for that plane. For example, attuning a fork to a legendary vampire's personal demiplane might require a player to plunge the tuning fork into the heart of a vampire native to that plane and then allow the fork 13 days to absorb the planar energies before it becomes fully attuned."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"planar_tuning_forks"
@@ -4582,7 +4582,7 @@
 	},
 	"alternate_cosmologies": {
 		"name": "Alternate Cosmologies",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -4590,7 +4590,7 @@
 			"The Pathfinder RPG assumes a cosmology centered on the Great Beyond, a concept that not only contextualizes the alignment system, the functionality of certain spells (such as [etherealness](spell/etherealness) and [shadow walk](spell/shadow_walk)), and the nature of the divine, but also helps to define the roles of every outsider in the game. However, the Great Beyond is far from the only possible model for a cosmology in your game. Presented below are several alternate cosmologies you might wish to explore for your own setting. Consider these examples as options and inspirations; as always, you are encouraged to alter the game world to fit your desires and expectations, as well as those held by your players."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign"
 		],
@@ -4611,7 +4611,7 @@
 	},
 	"alignment-free_cosmology": {
 		"name": "Alignment-Free Cosmology",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 86](source/planar_adventures)",
@@ -4622,10 +4622,10 @@
 			"",
 			"Without alignment to rely on, the gods in this cosmology play a more important role, rallying a multitude of outsiders to the concepts encompassed by their areas of concern and enabling campaigning based on each type of outsider's role rather than its morality and ethics. Mortal souls still flow to the specific god the owner worshiped above others, but rather than alignment, the owner's actions serve as the determining factor of her fate if she died without a specific faith. An honest farmer's soul would migrate toward the realm of the inevitables, perhaps, since the farmer obeyed the laws of the land and dutifully provided for her family and society, whereas another farmer might go to the realm of devils because of his penchant in life for abusing his employees.",
 			"",
-			"In such a world, spells that function based on alignment will work quite differently, or perhaps not at all. In most cases, this puts you in the position of having to make decisions on the spot as to whether [detect evil](spell/detect_evil) would provide information, or whether or not a [holy](magic-enhancement/holy) sword might hurt the creature that attempts to wield it. As a result, the players' trust in you becomes far more important in an alignmentfree cosmology, since they must respect and trust that you are making decisions for the good of gameplay, not to be merely antagonistic or competitive."
+			"In such a world, spells that function based on alignment will work quite differently, or perhaps not at all. In most cases, this puts you in the position of having to make decisions on the spot as to whether [detect evil](spell/detect_evil) would provide information, or whether or not a [holy](magic-enhancement/holy) sword might hurt the creature that attempts to wield it. As a result, the players' trust in you becomes far more important in an alignment-free cosmology, since they must respect and trust that you are making decisions for the good of gameplay, not to be merely antagonistic or competitive."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"alternate_cosmologies"
@@ -4641,7 +4641,7 @@
 	},
 	"alternate_realities_and_parallel_worlds": {
 		"name": "Alternate Realities and Parallel Worlds",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 87](source/planar_adventures)",
@@ -4653,7 +4653,7 @@
 			"Gods in this cosmology exist in their own alternate realities. Perhaps they are the living result of those worlds' souls merging into singular beings, or, in a world where belief had the power to alter the fundamental structure of reality, gods could be born out of gestalt mortal belief. In other facets, outsiders and gods might hold no sway at all. Each instance of reality is, in effect, an opportunity for you to create entirely new settings for the players to explore. One intriguing possibility with this cosmology is that there could exist multiple incarnations of each character across multiple worlds. Thus, when a PC dies and is resurrected, the restored body is not so much brought back to life as it is pulled from another reality, so each time a character returns from death, she might change in strange and unexpected ways. This gives a player the opportunity to completely rebuild her character upon resurrection, explaining, for example, that the new incarnation was drawn from a world where the character trained not as a wizard but as a fighter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"alternate_cosmologies"
@@ -4669,7 +4669,7 @@
 	},
 	"dualistic_cosmology": {
 		"name": "Dualistic Cosmology",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 87](source/planar_adventures)",
@@ -4681,7 +4681,7 @@
 			"Rather than good and evil, a dualistic system based on law and chaos might have a single plane of law and a single plane of chaos complete with a variety of lawful and chaotic outsiders. Depending on their actions and beliefs while alive, adherents of a deity of law might ascend to a lawful plane at the moment of their death, only to be punished for transgressions. By contrast, adherents of chaos might find themselves hurled into a realm that combines the whimsies of [proteans](rule/proteans) alongside the destructive horrors of [demons](rule/demons) and the freedom-loving passions of the [azatas](family/azata). This dichotomy need not adhere to the concept of alignment at all; instead, its deities could embody other dualistic concepts. For example, a deity of day could vie against a deity of night, with both having positive and negative areas of concern in their portfolios. This system might have one divine power enthroned within the First World and its rival dwelling in the Shadow Plane. Life and death. Love and hate. Fire and water. The possibilities are boundless."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"alternate_cosmologies"
@@ -4697,7 +4697,7 @@
 	},
 	"extraterrestrial_planes": {
 		"name": "Extraterrestrial Planes",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 88](source/planar_adventures)",
@@ -4711,7 +4711,7 @@
 			"In this cosmology, the gods might simply be ultrapowerful aliens who rule planets or entire solar systems reserved for the souls of their followers, who remain protected from the dangers and terrors between the stars for the rest of their eternal existence. Faith in these entities that dwell in a physical location rather than an unreachable plane might prove less fervent, or their proximity could make devotion stronger, even allowing for commonplace divine contact - unless the gods united in forbidding it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"alternate_cosmologies"
@@ -4727,7 +4727,7 @@
 	},
 	"mundane_cosmology": {
 		"name": "Mundane Cosmology",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 88](source/planar_adventures)",
@@ -4739,7 +4739,7 @@
 			"Would outsiders exist at all? Certainly not in the normal conceptualization. Outsiders in such a cosmology could represent mortal beliefs rather than being an intrinsic part of reality. Powerful spellcasters likely don't summon them from somewhere else-such outsiders are instead created out of raw magical energy and infused with a specific alignment or characterizing belief. A wizard seeking bloody, destructive revenge might channel his power to create a [balor](monster/balor) and set the creature loose upon his enemies. A religious spellcaster might form an [angel](family/angel) that embodies her beliefs, rather than believing in the creed of the angel's divine patron, turning the standard paradigm on its head."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"alternate_cosmologies"
@@ -4755,7 +4755,7 @@
 	},
 	"world_tree": {
 		"name": "World Tree",
-		"subtitle": "Planar Adventures, Gamemastering",
+		"subtitle": "Planar Adventures, Gamemastery",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"**Source** [Planar Adventures pg. 89](source/planar_adventures)",
@@ -4767,7 +4767,7 @@
 			"What, though, if the World Tree hosted a native race-a species that spawned from the flesh of their great mother tree, perhaps existing in the strange overlapping area somewhere between plant and fey, with their own cities and their own societies that were devoted to protecting the World Tree and regulating travel upon it? Wars would still occur, of course, but with the only path of transit controlled by the outsider race that emerged from its very substance, the World Tree would be less of a war zone and more a neutral ground between the planes. Outsiders and even mortals could travel upon the tree's branches and up and down its trunk-if their journeys were the will of the World Tree and its chosen servitors. Instead of transit aided by spells and magical components, travelers would offer tribute to the living goddess of the World Tree, hoping for an answer to their prayers in the form of either safe passage or escort."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"planar_adventures",
 			"building_a_planar_campaign",
 			"alternate_cosmologies"

@@ -1,7 +1,7 @@
 {
 	"non-player_characters": {
 		"name": "Non-Player Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -9,7 +9,7 @@
 			"While player characters provide the focus and driving force of a game's plot, over the course of even a single adventure dozens or even hundreds of other characters take their entrances and exits, sometimes aiding, sometimes threatening, yet always contributing something to the tale. These are non-player characters, the populations of entire campaign worlds, the monsters and villains of plots crude and nefarious, allies and agents, royals and shopkeeps, and the limitless arsenal of a storyteller's imagination."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -34,7 +34,7 @@
 	},
 	"cast_of_characters": {
 		"name": "Cast of Characters",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -48,7 +48,7 @@
 			"A good RPG session plays like a piece of good fiction reads. Although it may sound a little philosophical, this adage is reasonably accurate. The similitude between gaming and reading is subtle and hints at the importance of a story within the game. While the act of roleplaying might be compared to impromptu theater (in at least the time actively spent playing at the table), the reference to reading recalls the preparation work that precedes it. More than actual play itself, it is the backstage of the game that benefits from the GM being well read and imaginative, since knowing or researching a wide range means being able to summon additional details at the gaming table. Among the things found in books, of course, are interesting models for NPCs. In fantasy, these models come in literally thousands of shapes and sizes, but this variety proves much less substantial than it might look on the surface as most fantasy characters fall within the range of a relatively small number of archetypes. Yet for all the basic similarities of such characters, be they PCs or NPCs, it's the nuances that set them apart. While King Conan and King Arthur occupy much the same role in their respective story cycles, their specifics distinguish them, creating distinct and memorable heroes despite any similarities. GMs become better storytellers by exposing themselves to such characters, whether in fiction, film, history, or any number of other pastimes. Taking inspiration from the works of other storytellers thus proves one of the surest ways a GM might add depth to his own characters and ultimately improve his game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters"
 		],
@@ -68,7 +68,7 @@
 	},
 	"designing_npcs": {
 		"name": "Designing NPCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -82,7 +82,7 @@
 			"While there is no right or wrong process for designing NPCs, creating interesting, useful, and memorable characters can be a daunting task. [These rules](rule/creating_npcs) address the creation of NPCs from a rules standpoint - what one might consider the \"science\" of NPC creation. As this section delves into the \"art\" of creating NPCs, it's up to the GM to decide for himself - often on a case-by-case basis - the best methods for designing new characters. For villains and other major characters, this often means coming up with a concept and then devising unique statistics to support it. When building more mundane characters, utility and ease of use often take priority, with the GM adding personality to pre-existing stats. In either case, the path to creating a valuable NPC begins with determining the character's role in a game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters"
@@ -95,7 +95,7 @@
 	},
 	"npc_roles": {
 		"name": "NPC Roles",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -103,7 +103,7 @@
 			"The functions performed by a character in a story are a way to define her role, as linear or complex as it may be. A character might constantly perform a single function, which makes for a linear role (like the cruel and unforgiving tyrant who does nothing but harass the heroes), or multiple functions, which makes for a complex role (the official that initially helps the heroes, but at some point turns against them after being bribed). These functions easily apply to prominent NPCs in Pathfinder adventures, and translate into the game as follows."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters"
@@ -123,7 +123,7 @@
 	},
 	"the_villain": {
 		"name": "The Villain",
-		"subtitle": "NPC Roles, Gamemastering",
+		"subtitle": "NPC Roles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 80](source/gamemastery_guide)",
@@ -137,7 +137,7 @@
 			"In folktales, the villain is the source of woe in all its forms, and the Old English substantive for \"evil\" (yfel) was used by the Anglo-Saxons to mean \"harm,\" \"crime,\" \"misfortune,\" or \"disease.\" In keeping with these definitions, a villain's possible functions might vary widely, her modus operandi defining her as much as her personality or goals. In crafting a villainous NPC, the GM might consider what type of game he wants to run and what abilities he needs his villain to possess, considering these variables to shape the antagonist's aspect and attributes. If a villain needs to spy upon the heroes, she probably needs scrying magic, stealth, or a scouting minion; if she needs to impersonate a PC or NPC ally, she probably needs to be a transmuter, a shapeshifter, or the employer of a doppelganger; if she needs to provoke an accident, she must be able to curse the PCs, poison their food, bribe their associates, or the like. Behind the entire sequence can lurk a powerful, masterminding villain (often a devil, dragon, or magic-user in folktales), while different functions are assigned to different minions (the sneaky one who spies, the strong one who charges, the cunning one who deceives, and so on). Such elements need not be set in stone at a villain's creation, and might be altered during the course of a campaign, but should help frame a GM's thoughts when deciding what villains he needs for his game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters",
@@ -153,7 +153,7 @@
 	},
 	"the_donor": {
 		"name": "The Donor",
-		"subtitle": "NPC Roles, Gamemastering",
+		"subtitle": "NPC Roles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 81](source/gamemastery_guide)",
@@ -164,7 +164,7 @@
 			""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters",
@@ -180,7 +180,7 @@
 	},
 	"the_helper": {
 		"name": "The Helper",
-		"subtitle": "NPC Roles, Gamemastering",
+		"subtitle": "NPC Roles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 82](source/gamemastery_guide)",
@@ -193,7 +193,7 @@
 			""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters",
@@ -209,7 +209,7 @@
 	},
 	"the_patron": {
 		"name": "The Patron",
-		"subtitle": "NPC Roles, Gamemastering",
+		"subtitle": "NPC Roles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 82](source/gamemastery_guide)",
@@ -222,7 +222,7 @@
 			""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters",
@@ -238,7 +238,7 @@
 	},
 	"the_victim": {
 		"name": "The Victim",
-		"subtitle": "NPC Roles, Gamemastering",
+		"subtitle": "NPC Roles, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 82](source/gamemastery_guide)",
@@ -250,7 +250,7 @@
 			"In some situations, the NPCs can become victims of the PCs, the most classic case being the prisoner dilemma, where the heroes must decide what to do with captured foes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters",
@@ -266,7 +266,7 @@
 	},
 	"npc_basics": {
 		"name": "NPC Basics",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 82](source/gamemastery_guide)",
@@ -282,7 +282,7 @@
 			"In recurring NPCs, the GM might create more elaborate and nuanced personalities, or even change a character's attitude slowly over time; novelists and screenwriters call this character development, and the history of literature and film is filled with works themed solely around events leading to a single change in a character's outlook. Thus, a character who might begin with no more than the note \"conniving and ill-tempered\" can evolve dramatically with details like \"distrustful of elves\" and \"sympathetic toward youths who remind her of her lost son.\" How much work a GM puts into detailing an NPC's personality should relate directly to the character's importance to a campaign. Few PCs will care if the local smith aspires to move to the big city if he never has a speaking role, while a major villain with no greater personality than \"heartless and hateful\" will likely feel two-dimensional after the third or fourth meeting."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"cast_of_characters"
@@ -295,7 +295,7 @@
 	},
 	"making_npcs_unique": {
 		"name": "Making NPCs Unique",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 84](source/gamemastery_guide)",
@@ -317,7 +317,7 @@
 			"***Voice:*** An NPC's voice - accent, tone, and choice of words - is an invaluable tool in conveying personality. Not every GM has the acting talent to present pitchperfect NPCs by voice alone, but most GMs can surprise themselves - and their players - with a little effort."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters"
 		],
@@ -338,7 +338,7 @@
 	},
 	"naming_npcs": {
 		"name": "Naming NPCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 84](source/gamemastery_guide)",
@@ -354,7 +354,7 @@
 			"***Invented Names:*** The GM is, of course, free to throw vowels and consonants in the lottery wheel and see what happens. In this case, the sequence of certain letters and the length of the name can be used to convey a suitable verbal image. Savage creatures might have guttural names, full of hard and grunting sounds, while more elegant beings might use soft, lilting vowel sounds. GMs might go so far as to try to invent names tied to an NPC's race or culture, like the sounds in a mermaid's name being reminiscent of the rush of the surf, or a stone giant's name sounding as though it were full of breaking rocks. In any case, the GM should make sure to say his newly invented name out loud several times with several variations to avoid any laughable mistakes - or obvious rhymes - mid-game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"making_npcs_unique"
@@ -368,7 +368,7 @@
 	},
 	"stereotypes": {
 		"name": "Stereotypes",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 85](source/gamemastery_guide)",
@@ -376,7 +376,7 @@
 			"One danger a GM might encounter when designing NPCs is to rely too heavily on the stereotypes drawn from well-known characters in fantasy stories. Myths and folktales prove rife with repetition and overly familiar characters, leaving GMs with quite a challenge in coming up with original NPCs. The key is to take the old building blocks and arrange them as differently, imaginatively, and yet as reasonably as possible. If groan-worthy and tired NPC tropes cannot be avoided, they should be worked into something fresh and palatable, or traditionally pleasant. Is it bad for the innkeeper to be an ex-adventurer? Not that bad if we have an innkeeper with an interesting personality or secret. Is it bad for the good king's advisor to be sly and scheming? Not that bad if she turns out to be the clever, if shady, opponent of a greater villain manipulating the throne. As long as his creation is balanced, functional, and believable, the GM should think of originality as a welcome addition rather than a necessity."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"making_npcs_unique"
@@ -390,7 +390,7 @@
 	},
 	"monstrous_npcs": {
 		"name": "Monstrous NPCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 85](source/gamemastery_guide)",
@@ -400,7 +400,7 @@
 			"GMs should remain aware of a creature's setting and believability when considering monstrous NPCs. Although a conversation with a hobgoblin might prove novel in the right circumstance, the surest way to make the local green grocer interesting is not to make him a [bugbear](monster/bugbear), while having the true villain of a campaign be an [awakened](spell/awaken) pigeon can shatter the believably of even the most outlandish fantasy campaign. An unusual race should never be considered a replacement for the work of creating an interesting personality and motivation for a character, and monstrous NPCs should be thought through just as thoroughly as normal NPCs."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"making_npcs_unique"
@@ -414,7 +414,7 @@
 	},
 	"avoiding_npc_overwork": {
 		"name": "Avoiding NPC Overwork",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 85](source/gamemastery_guide)",
@@ -430,7 +430,7 @@
 			"***A Word Is Enough:*** There is no need to create a detailed life story, even for a major recurring NPC. Where backstory is important, a few short notes usually provide everything the GM needs."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"making_npcs_unique"
@@ -444,7 +444,7 @@
 	},
 	"life_of_an_npc": {
 		"name": "Life of an NPC",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 86](source/gamemastery_guide)",
@@ -452,7 +452,7 @@
 			"Once a GM knows what roles he needs NPCs to fill in a game and has a few notes about their specifics, its time to let the NPCs loose in the venue of an actual game. Transforming an NPC from an idea into an actual personality interacting with or facing off against the PCs proves one of the most challenging and rewarding aspects of any roleplaying game, often being one of the surest differences between a mediocre game and an extraordinary one. However, it requires not just a measure of acting talent but also fine judgment on the part of the GM to make an NPC feel like an active individual while avoiding common traps that such characters can present."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters"
 		],
@@ -474,7 +474,7 @@
 	},
 	"building_connections": {
 		"name": "Building Connections",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 86](source/gamemastery_guide)",
@@ -490,7 +490,7 @@
 			"***NPC Allies, Followers, and Hirelings:*** It has been said that the primary duty of a leader is to be a fit person for others to follow, and it is the duty of every PC to nurture good relations with NPCs in their employ or under their command. The attitude of any NPC toward the PCs (both individually and as a group) is something the GM should note and track, and that should be reflected back in the NPC's attitudes and actions. Several options exist for PCs to interact with helpful NPCs and hangers-on. While many such NPCs follow the PCs for payment or their own reasons, when there is a clear chain of command linking the PCs to an NPC, the [Leadership](feat/leadership) feat likely comes into play. These rules should make it easier for PCs to get what they need out of specialized NPCs in terms of service and obedience, but it does not entail carte blanche to mistreat an NPC or routinely put him into unreasonable danger. Eventually a mistreated follower will desert the PCs, or harbor a grudge that leads to sloppy work, vulnerability to overtures by an enemy, or even an attempt on the life of one or more PCs."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"life_of_an_npc"
@@ -505,7 +505,7 @@
 	},
 	"dead_ends": {
 		"name": "Dead Ends",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 86](source/gamemastery_guide)",
@@ -521,7 +521,7 @@
 			"***Ghostly Visitations:*** If all else fails, the PCs might receive a visit from the dead character's ghost, or have a vision in a dream, which conveys about the same amount of information as dying words. Such supernatural messages should be brief and rarely used, lest they lose the feeling of supernatural portentousness."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"life_of_an_npc"
@@ -536,7 +536,7 @@
 	},
 	"whos_in_control": {
 		"name": "Who's in Control?",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
@@ -544,7 +544,7 @@
 			"The term \"non-player character\" suggests that NPCs are characters played by the GM, but according to circumstances and GM preference, they might also be played by one or more assistant GMs, or by players whose characters have died in situations where it is not feasible for the party to meet a replacement PC. PCs who gain devotees might also take on the role of playing one of their followers. Who plays which NPCs is ultimately up to the GM, but often making a secondary character a player's responsibility allows the GM to remain focused on the story and keeps him from giving a single character and her retinue an unfair amount of attention. Regardless of who plays an NPC, the important distinction is that PCs play the \"starring roles\" in a roleplaying adventure, while NPCs are secondary characters and extras. Yet remember that just because NPCs are usually played by the GM, they don't always have to be and can afford new or guest players a unique opportunity to participate in the game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"life_of_an_npc"
@@ -559,7 +559,7 @@
 	},
 	"beyond_expectations": {
 		"name": "Beyond Expectations",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
@@ -567,7 +567,7 @@
 			"Occasionally a throwaway NPC, one relegated to a limited role and with few expectations from the GM, comes to life, captures the attention and interest of the PCs, and grows into a campaign regular. If an NPC starts to assume an importance beyond that planned for in her creation, the GM should not be concerned. Continue to use the stats created for the character (or generic NPC stats if necessary) until the gaming session ends, then make it a priority to create the required level of detail for the character before the next session. NPCs that grow organically out of a challenging adventure, an entertaining interaction, or merely player enthusiasm are part of what keeps a campaign vital and interesting for even the most farsighted GM."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"life_of_an_npc"
@@ -582,7 +582,7 @@
 	},
 	"npc_traps": {
 		"name": "NPC Traps",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 87](source/gamemastery_guide)",
@@ -596,7 +596,7 @@
 			"***Show Stealers:*** While a major villain certainly merits some time in the spotlight, a lesser NPC who regularly upstages the PCs swiftly garners the players' dislike and resentment. The PCs are the stars of the show, so to speak, and NPCs are supporting characters, not competitors for screen time. As with over-protectiveness, this is an easy trap to fall into, and erring on the side of caution is always best."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"life_of_an_npc"
@@ -611,7 +611,7 @@
 	},
 	"npc_boons": {
 		"name": "NPC Boons",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 88](source/gamemastery_guide)",
@@ -633,7 +633,7 @@
 			"What follows is a list of boons that might be offered by members of each of the NPC classes in the Pathfinder RPG Core Rulebook. As it would be impossible to cover all the possibilities of NPC situations and potential boons, the rest of this section should be considered a guide to creating your own boons or a shopping list from which you might choose boons to add to NPCs in a campaign. GMs looking for more specific examples should see [the gallery](rule/npc_gallery), as each NPC therein includes an example boon that might be granted by such a character. Although the boons listed here detail some granted by characters with specific NPC classes, any NPC of any class can grant a boon."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters"
 		],
@@ -655,7 +655,7 @@
 	},
 	"adept": {
 		"name": "Adept",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -675,7 +675,7 @@
 			"***Unique:*** Allows the PC to commune with the spirit animal of his tribe, granting the PC the ability to [speak with animals](spell/speak_with_animals) of a specific regional species once per day."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_boons"
@@ -690,7 +690,7 @@
 	},
 	"aristocrat": {
 		"name": "Aristocrat",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -710,7 +710,7 @@
 			"***Unique:*** Grants a PC a minor, landless title that affords him access to certain local rights."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_boons"
@@ -725,7 +725,7 @@
 	},
 	"commoner": {
 		"name": "Commoner",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -745,7 +745,7 @@
 			"***Unique:*** Competently manages a home or business for an absentee PC."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_boons"
@@ -760,7 +760,7 @@
 	},
 	"expert": {
 		"name": "Expert",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -780,7 +780,7 @@
 			"***Unique:*** Can create a special tool that opens an ancient lock, circumvents an impassible trap, or replaces a part of a fabulous broken mechanism."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_boons"
@@ -795,7 +795,7 @@
 	},
 	"warrior": {
 		"name": "Warrior",
-		"subtitle": "NPCs, Gamemastering",
+		"subtitle": "NPCs, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 89](source/gamemastery_guide)",
@@ -815,7 +815,7 @@
 			"***Unique:*** Grants the secret of a specialized fighting style, providing a PC with a +1 bonus on initiative."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_boons"
@@ -830,7 +830,7 @@
 	},
 	"villains": {
 		"name": "Villains",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -840,7 +840,7 @@
 			"Not every local thug or monster chieftain needs to be a fully realized villain, though. While the PCs will likely face and defeat numerous opponents over the course of a campaign, only the most significant ones or those the GM plans to return to time and time again need to be fleshed out into extensively detailed characters. A villain's character often proves important to the type of campaign being run and the threats therein; brutal villains typically have brutal means, while more cunning opponents tend toward more subtle plots. In many ways, an adventure is embodied by its main villain or villains, and GMs should take the time to prepare accordingly. GMs hoping to run effective and memorable villains in their campaigns should consider some of the following advice."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters"
 		],
@@ -860,7 +860,7 @@
 	},
 	"villainous_archetypes": {
 		"name": "Villainous Archetypes",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -868,7 +868,7 @@
 			"A strong concept is the first step in designing a memorable villain. Several of the most basic villainous archetypes are presented here, and with a bit of imagination a GM might create countless permutations of such characters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains"
@@ -888,7 +888,7 @@
 	},
 	"crime_lord": {
 		"name": "Crime Lord",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -902,7 +902,7 @@
 			"***Plans:*** Most crime lords do not have grand plans beyond holding and expanding their turf and maintaining a decadent lifestyle. Occasionally, a crime lord might attack the local authorities - often in response to an official crackdown on the bribery and corruption that keeps eyes looking the other way. A successful crime lord may eventually take on the role of an evil overlord or create an anarchic \"city of thieves\" where almost anything goes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -918,7 +918,7 @@
 	},
 	"evil_overlord": {
 		"name": "Evil Overlord",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 90](source/gamemastery_guide)",
@@ -932,7 +932,7 @@
 			"***Plans:*** A typical evil overlord values wealth and power more than anything else, and most of her plans revolve around trying to acquire more of both. Short-term objectives might include finding or taking powerful magical weapons and other items, killing neighboring rulers and taking their lands, robbing temples and other sources of wealth, and executing anyone who objects. Longer-term objectives typically involve conquest: from the local area to the entire world. Any ruler or other character who is more powerful than the overlord is seen as a threat and must be killed or brought under control until he can be dealt with once and for all."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -948,7 +948,7 @@
 	},
 	"evil_priest": {
 		"name": "Evil Priest",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 91](source/gamemastery_guide)",
@@ -962,7 +962,7 @@
 			"***Plans:*** A tyrant might plan to spread the faith by conquest, with increased wealth and power as pleasant side effects. A vizier could scheme to gain and keep political power, and then set the country on the path to war and the conquest of infidel lands. A cultist might want to destroy all of a region's forms of authority so his cult can take power or - especially in the case of chaotic cults - summon their patron to wreak havoc and destruction."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -978,7 +978,7 @@
 	},
 	"mad_wizard": {
 		"name": "Mad Wizard",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 91](source/gamemastery_guide)",
@@ -992,7 +992,7 @@
 			"***Plans:*** A mad wizard's plans are often grandiose. Taking over a kingdom is just the first step in taking over the world, and then the universe. Dealing with demons might be part of a larger scheme to bring down a demon lord and establish the wizard as overlord of an infernal realm. Mad wizards dream big, and dismiss accusations - and even undeniable proof - of their twisted minds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1008,7 +1008,7 @@
 	},
 	"scheming_noble": {
 		"name": "Scheming Noble",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 92](source/gamemastery_guide)",
@@ -1022,7 +1022,7 @@
 			"***Plans:*** These villains envy what others possess. Less ambitious schemes might include engineering scandals and planting evidence to bring down rivals, while grander plans might include ruling the kingdom, either by stealing the throne or by turning the sovereign into a puppet."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1038,7 +1038,7 @@
 	},
 	"advanced_villainy": {
 		"name": "Advanced Villainy",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 92](source/gamemastery_guide)",
@@ -1058,7 +1058,7 @@
 			"***Nonliving Villains:*** What if an intelligent sword dominated a dim (but very strong) owner and became the brains of the operation? What if a cursed helm or some other item changed a character's alignment and turned him into a villain? A villain that is not a living creature can provide some surprises and plot twists that will keep the PCs very busy; especially if one of them slays the supposed villain, loots the intelligent sword, and instantly falls under the weapon's thrall."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains"
@@ -1071,7 +1071,7 @@
 	},
 	"playing_villains": {
 		"name": "Playing Villains",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1079,7 +1079,7 @@
 			"The time and effort that goes into the creation of a major villain is wasted if the villain does not get enough time with the player characters. Every GM knows the frustration of spending hours crafting a great villain, only to have him cut down in a few rounds with scarcely a word exchanged. Every villain deserves a moment to defy or mock the PC, and there are a number of ways to arrange this without fudging dice rolls or railroading the players."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains"
@@ -1099,7 +1099,7 @@
 	},
 	"hands-on_management": {
 		"name": "Hands-On Management",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1107,7 +1107,7 @@
 			"As every villain knows, minions cannot be trusted. Some are disloyal, many are incompetent, and the rest are too lazy to do a good job. This gives the PCs a chance to see the villain before the final showdown and become familiar with his personality. The villain can be present while the PCs are chewing through lower-level minions - shouting orders and threats, casting spells and other long-range attacks, taunting the PCs, and escaping before they can get within reach. Depending on the layout of a particular area, the villain can be standing at the back of the troops (and cutting down any who try to flee), looking down on the action from a balcony with a bodyguard or two, and so on. No matter the circumstances, the villain will always have an escape route planned, and a fine sense of timing about when to use it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1123,7 +1123,7 @@
 	},
 	"secret_villains": {
 		"name": "Secret Villains",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1131,7 +1131,7 @@
 			"Spells like [detect evil](spell/detect_evil) are the bane of any villain whose identity needs to be a surprise. There are spells and magic items that can conceal a character's alignment and even make an evil character appear to be good, but the greatest defense is a crowd. At a royal court, for example, there should be a cross-section of people, many of them neutral. Inevitably, though, some will be evil or chaotic. Are the PCs going to scan the alignment of everyone in the castle, or the city? What will they do about those who read as chaotic or evil? If the villain keeps his head down, it could take the PCs forever to work through the list of suspects' time which the true villain can use to great advantage."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1147,7 +1147,7 @@
 	},
 	"the_disembodied_voice": {
 		"name": "The Disembodied Voice",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1155,7 +1155,7 @@
 			"Spellcasting villains can use magical means to taunt and provoke the PCs without exposing themselves to any danger. Scrying and clairvoyance spells allow the villain to keep an eye on the PCs and adjust the minions' tactics accordingly, while magic mouth, whispering wind, and similar spells let the villain give orders and issue taunts. Various illusion spells allow the villain to appear before the PCs without any risk."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1171,7 +1171,7 @@
 	},
 	"a_bolt-hole": {
 		"name": "A Bolt-Hole",
-		"subtitle": "Villains, Gamemastering",
+		"subtitle": "Villains, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1179,7 +1179,7 @@
 			"Every good villain has an escape route prepared for use if the final showdown goes in the PCs' favor. Only fools, fanatics, and psychotics ever fight to the death-most others will try to escape as soon as it becomes apparent they cannot win. There are plenty of spells and magic items that a villain can use to escape and live to fight another day. The [Escape Kit](rule/the_villain's_escape_kit) lists some of the spells, and with a little imagination it is possible to come up with more. The keys are planning (some spells will need to be cast in advance) and keeping a close eye on casting times and saving throws. A low-level spell with no saving throw can often be more useful than a higher-level spell that does have a saving throw."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1195,7 +1195,7 @@
 	},
 	"the_villain's_escape_kit": {
 		"name": "The Villain's Escape Kit",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
@@ -1215,7 +1215,7 @@
 			"***Rapid Retreat:*** [Expeditious retreat](spell/expeditious_retreat), [haste](spell/haste), [longstrider](spell/longstrider), [mount](spell/mount), [phantom steed](spell/phantom_steed), [time stop](spell/time_stop)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"villains",
@@ -1231,7 +1231,7 @@
 	},
 	"rewards": {
 		"name": "Rewards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -1239,7 +1239,7 @@
 			"Much of the famously addictive appeal of the Pathfinder Roleplaying Game and its predecessor games lies in its variety of reward mechanisms. These most obviously include experience points, treasure, and magic items, but also such in-story advantages like information, property, status, titles, even the possibility of eventual godhood."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -1263,7 +1263,7 @@
 	},
 	"the_role_of_rewards": {
 		"name": "The Role of Rewards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -1289,7 +1289,7 @@
 			"| PCs Pivotal to Sweeping Events | PCs as Scroungers, Traders, Crafters |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards"
 		],
@@ -1307,7 +1307,7 @@
 	},
 	"experience": {
 		"name": "Experience",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -1315,7 +1315,7 @@
 			"Experience points are the lifeblood of the Pathfinder rewards system. They determine the rate at which the PCs progress, and form the currency with which the most spectacular and reliable abilities are acquired. By deciding when and how to give out XP, you're establishing the expectations the players will bring to the rest of the game's reward system."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards"
@@ -1334,7 +1334,7 @@
 	},
 	"backgrounded_experience": {
 		"name": "Backgrounded Experience",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 102](source/gamemastery_guide)",
@@ -1344,7 +1344,7 @@
 			"This timing scheme suits groups at the bundled (left) end of the rewards continuum. It preserves session time and keeps participants focused on the fictional proceedings. Backgrounded awards remove the temptation for players to undertake ridiculous, tangential, or out-of-character actions just to acquire the last few XP they need to level up."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1360,7 +1360,7 @@
 	},
 	"downtime_experience": {
 		"name": "Downtime Experience",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -1372,7 +1372,7 @@
 			"If players seek out downtime at an ill-placed moment, you can always deter them with a plot development requiring immediate action. This interruption might range from a simple wandering monster attack to an elaborate new wrinkle in the campaign's ongoing storyline."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1388,7 +1388,7 @@
 	},
 	"immediate_experience": {
 		"name": "Immediate Experience",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -1400,7 +1400,7 @@
 			"When using this timing scheme, be prepared for the game to stop at a moment's notice, shifting into rules-scanning mode while the players level up. Characters also risk becoming unsympathetic or unbelievable as they chase the biggest XP results at the lowest risks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1416,7 +1416,7 @@
 	},
 	"handwaved_experience": {
 		"name": "Handwaved Experience (Milestones)",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -1424,7 +1424,7 @@
 			"Ignore XP altogether. Decide how many sessions you want the group to spend at each level. Allow your players to level up each time they hit that milestone. This option suits groups at the far left side of the rewards continuum."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1440,7 +1440,7 @@
 	},
 	"ad_hoc_experience": {
 		"name": "Ad Hoc Experience",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 103](source/gamemastery_guide)",
@@ -1465,7 +1465,7 @@
 			"Players on the right side of the rewards continuum probably prefer heavily action-oriented games. If your game consists mostly of exciting combat sequences with a minimum of plot to connect them, it's probably not worth bothering with ad hoc awards."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1481,7 +1481,7 @@
 	},
 	"treasure": {
 		"name": "Treasure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 105](source/gamemastery_guide)",
@@ -1500,7 +1500,7 @@
 			"- The corpse of a bizarre aberrant creature, if properly preserved and maintained, might fetch a pretty penny from the crazy wizard-sage of the Spiral Tower - if his automaton rivals don't swoop in and steal the coffin first."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards"
@@ -1522,7 +1522,7 @@
 	},
 	"magic_items_gg": {
 		"name": "Magic Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 105](source/gamemastery_guide)",
@@ -1538,7 +1538,7 @@
 			"Keep detailed treatment of magic items low for groups on the left side of the continuum. Ask them for wish lists of items they desire for their characters. Use these as the items they find while dungeon crawling, adding in just enough variation to maintain a sense of surprise. These groups usually want to use their magic items without fussing over them. The odd item might serve as an epic plot device, but most magic items should remain quietly in the background."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1557,7 +1557,7 @@
 	},
 	"high_or_low_magic": {
 		"name": "High or Low Magic?",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 105](source/gamemastery_guide)",
@@ -1571,7 +1571,7 @@
 			"But these default assumptions do not appeal to everyone. If you want a setting with lower magic, two ways of adjusting the level of magic in your game are presented below, as well as the repercussions such changes can have on the game itself."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1590,7 +1590,7 @@
 	},
 	"reducing_magic_with_rules_adjustments": {
 		"name": "Reducing Magic with Rules Adjustments",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -1600,7 +1600,7 @@
 			"But limits on magic can change game balance dramatically at higher levels. Monster Challenge Ratings will need adjusting, to take into account your group's reduced damage output and lower AC values. Altering the rate at which the magic-wielding classes acquire spells also changes the balance between them and their weapon-wielding counterparts. Be careful when reducing access to healing items and spells, as this will make the PCs frailer."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1619,7 +1619,7 @@
 	},
 	"reducing_magic_with_world_description": {
 		"name": "Reducing Magic with World Description",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -1629,7 +1629,7 @@
 			"High-magic PCs in a low-magic world can't easily trade items and wouldn't dream of selling them. Use the wish list method of magic treasure allocation, described above, to ensure that players get the gear they need and want."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1648,7 +1648,7 @@
 	},
 	"magic_shops": {
 		"name": "Magic Shops",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -1660,7 +1660,7 @@
 			"Alternatively, you can assume that magic shops exist in the background of the world, entering into a social contract with players not to focus on them or make them a part of the story. If the PCs pay too much attention to them, including planning heists, they go away, leaving the group without a way of buying, selling, or trading desired items."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1679,7 +1679,7 @@
 	},
 	"types_of_magic_shops": {
 		"name": "Types of Magic Shops",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 106](source/gamemastery_guide)",
@@ -1691,7 +1691,7 @@
 			"High-end shops are located alongside a city's purveyors of luxury goods, in heavily guarded districts. These top-range shops often specialize exclusively in major items, and reliably vouch for the quality of their wares, including freedom from curses or other ill effects. Security such shops is top of the line, with powerful spells and traps, and highly skilled and well-paid guards, some of whom may not be entirely mortal. They might be trained monsters, ingenious automatons, or summoned outsiders. The identities of a high-end shop's true owners are often shrouded in rumor and mystery. They might be phantasmal surrogates, disguised dragons, or even powerful entities from the Great Beyond."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1710,7 +1710,7 @@
 	},
 	"story_items": {
 		"name": "Story Items",
-		"subtitle": "Magic, Gamemastering",
+		"subtitle": "Magic, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 107](source/gamemastery_guide)",
@@ -1730,7 +1730,7 @@
 			"[^M]: Wikipedia: [MacGuffin](https://en.wikipedia.com/wiki/MacGuffin) (Link opens in outside browser.)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1749,7 +1749,7 @@
 	},
 	"trouble_items": {
 		"name": "Trouble Items",
-		"subtitle": "Magic, Gamemastering",
+		"subtitle": "Magic, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 107](source/gamemastery_guide)",
@@ -1763,7 +1763,7 @@
 			"It may be easier to step out of character to handle trouble items. Propose an adjustment that fixes the problem, perhaps suggesting several options. Solicit the player's input. Some players will accept a toned-down version of the current item, while others might prefer a completely new piece of gear."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"the_role_of_rewards",
@@ -1782,7 +1782,7 @@
 	},
 	"starting_treasure": {
 		"name": "Starting Treasure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -1790,7 +1790,7 @@
 			"By default, we tend to think of starting characters as inexperienced beginners who have scraped together a few coins to equip themselves with mundane items for a new life of adventure. By adjusting what beginning characters start with, you can use starting treasure to define the characters, making them part of the world they're about to explore."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards"
 		],
@@ -1812,7 +1812,7 @@
 	},
 	"starting_with_magic_items": {
 		"name": "Starting with Magic Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -1826,7 +1826,7 @@
 			"Be careful starting young or inexperienced players with magic items. Giving the stuff away can devalue the classic moment when a player finds her first piece of magical gear out in the wild."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"starting_treasure"
@@ -1842,7 +1842,7 @@
 	},
 	"heirloom_items": {
 		"name": "Heirloom Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -1856,7 +1856,7 @@
 			"Non-magical equipment can also be treated as heirlooms, especially for characters from impoverished backgrounds. That scuffed-up suit of leather armor might be a hand-me-down from a roguish uncle, or a precious bit of loot from a terrible battle that took place nearby a generation ago."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"starting_treasure"
@@ -1872,7 +1872,7 @@
 	},
 	"setting_items": {
 		"name": "Setting Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -1887,7 +1887,7 @@
 			"As with heirloom items, slip setting items into your narration at suitable moments as the action progresses rather than front-loading them into your opening session preliminaries. Be ready to collaborate with players on modified descriptions in case they decide that your suggestions don't fit their character concepts."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"starting_treasure"
@@ -1903,7 +1903,7 @@
 	},
 	"plot_items": {
 		"name": "Plot Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 108](source/gamemastery_guide)",
@@ -1916,7 +1916,7 @@
 			"- \"This darkwood shield was given to me by my uncle, who said it saved his hide several times, back during the gnoll raids.\" (This detail introduces a mentor figure who can give the PCs crotchety advice, and sets up the possibility that the gnolls will rise again to terrorize the area.)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"starting_treasure"
@@ -1932,7 +1932,7 @@
 	},
 	"mighty_items": {
 		"name": "Mighty Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 109](source/gamemastery_guide)",
@@ -1944,7 +1944,7 @@
 			"For starting PCs, a major item may be mighty enough to make the plot work. Relics or artifacts, however, carry more cachet and are more likely to be received with a mixture of glee and fear. Create a new artifact for the purpose, or modify an existing one. Limit its number of uses so that the characters can occasionally use it to blow through superior opposition, but can't rely on it to overcome every obstacle they run up against. The players should have to think hard before pulling it from their arsenal. It might cause additional problems whenever it is used. The item might do collateral damage to surrounding people and buildings, or its use might alert pursuers to the party's presence."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"starting_treasure"
@@ -1960,7 +1960,7 @@
 	},
 	"wealthy_characters": {
 		"name": "Wealthy Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 109](source/gamemastery_guide)",
@@ -1974,7 +1974,7 @@
 			"Alternatively, if other players consent, a player with a character concept that logically demands it might get a 10-20% bonus to their starting budget."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"starting_treasure"
@@ -1990,7 +1990,7 @@
 	},
 	"what_is_a_reward": {
 		"name": "What is a Reward",
-		"subtitle": "Treasure, Gamemastering",
+		"subtitle": "Treasure, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 110](source/gamemastery_guide)",
@@ -1998,7 +1998,7 @@
 			"With a little added effort, treasure can be much more than just numbers temporarily penciled onto a character sheet. You can also extend the definition of treasure by making a variety of intangible benefits available to the characters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards"
 		],
@@ -2024,7 +2024,7 @@
 	},
 	"making_basic_treasure_interesting": {
 		"name": "Making Basic Treasure Interesting",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 110](source/gamemastery_guide)",
@@ -2068,7 +2068,7 @@
 			"[^B]: Wikipedia: *[Brewer's Dictionary of Phrase and Fable](https://en.wikipedia.org/wiki/Brewer%27s_Dictionary_of_Phrase_and_Fable)* (Link opens in outside browser.)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2088,7 +2088,7 @@
 	},
 	"non-adventuring_magic_items": {
 		"name": "Non-Adventuring Magic Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2100,7 +2100,7 @@
 			"- Tools: enhanced hammers, leather-curing vats, never-dull scissors, rope-making devices, or self-heating forges"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2120,7 +2120,7 @@
 	},
 	"burdensome_treasure": {
 		"name": "Burdensome Treasure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2130,7 +2130,7 @@
 			"Although such problems are realistic and logical, they can be overused. Players think of treasure as theirs once they've found it and may resent it when it's taken away from them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2150,7 +2150,7 @@
 	},
 	"special_treasures": {
 		"name": "Special Treasures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2160,7 +2160,7 @@
 			"Art objects may be delicate or burdensome. Use of the Appraise skill is necessary to separate valuable objects from dross. Condition affects value; a badly deteriorated work fetches a low price, no matter how renowned the artist. Works by known artists increase in value if accompanied by documentation establishing their histories, but this is rarely found when objects have been stolen or looted."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2180,7 +2180,7 @@
 	},
 	"services_franchises_and_property": {
 		"name": "Services, Franchises and Property",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 111](source/gamemastery_guide)",
@@ -2192,7 +2192,7 @@
 			"Outright ownership of land by commoners may be rare in a pseudo-medieval society, but noble patrons often grant property rights. Adventurers typically gain management rights over a section of arable land, which belongs to a noble either as an ancestral claim or a similar feudal grant from a ruler. When it comes to managing and working such land, adventurers may prefer to take a hands-off approach, hiring a bailiff or sheriff to oversee production and taxation. These details may then be left in the background, except when land ownership generates the occasional story hook or perhaps the occasional small profits (nothing rivaling the rewards of adventuring, of course). The PCs may periodically be called on to deal with marauders, repel invading rivals, or quell peasant rebellions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2212,7 +2212,7 @@
 	},
 	"coins_gg": {
 		"name": "Coins",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 112](source/gamemastery_guide)",
@@ -2232,7 +2232,7 @@
 			"Unusual coins might carry a value higher than their metal content suggests. Magical coins whose functions prove useful to adventurers should not count as cash, but as magical treasure far above their face value."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2252,7 +2252,7 @@
 	},
 	"intangible_benefits": {
 		"name": "Intangible Benefits",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 112](source/gamemastery_guide)",
@@ -2270,7 +2270,7 @@
 			"To avoid overload, these \"situational bonuses\" might be limited to three such awards per character. Characters who reach their limit can drop old bonuses to gain new ones."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2290,7 +2290,7 @@
 	},
 	"story_benefits": {
 		"name": "Story Benefits",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 112](source/gamemastery_guide)",
@@ -2306,7 +2306,7 @@
 			"Story benefits can provide information, grant political influence, or allow NPC allies to overcome rivals and enemies. They allow adventurers to meet or solidify connections to important NPCs. As with any exciting ongoing story, a success often leads to a new challenge, and additional obstacles and encounters for the heroes to overcome."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2326,7 +2326,7 @@
 	},
 	"treasures_as_adventures": {
 		"name": "Treasures as Adventures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 113](source/gamemastery_guide)",
@@ -2342,7 +2342,7 @@
 			"Story events may be triggered not only by the discovery of items but also by their use. When the heroes solve problems using mighty magic items, the unintended consequences of their actions may spawn further adventure plots. For example, magical wishes may alter the world in unexpected ways. After unwittingly skewing the cosmic balance, the adventurers may have to undertake further tasks to put matters right."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2362,7 +2362,7 @@
 	},
 	"exit_rewards": {
 		"name": "Exit Rewards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 113](source/gamemastery_guide)",
@@ -2376,7 +2376,7 @@
 			"Be careful to avoid favoritism when concluding a PC's career with exit rewards. Give everyone a chance to shape his favored glorious end state. Collaborate with players to successfully bring the closure they envision to their exiting heroes. If they see their characters retiring to blissful obscurity, that can be just as satisfying a reward as godhood."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"what_is_a_reward"
@@ -2396,7 +2396,7 @@
 	},
 	"pcs_controlling_rewards": {
 		"name": "PCs Controlling Rewards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -2404,7 +2404,7 @@
 			"In some cases, the PCs themselves can take on the responsibility of providing their own rewards, using character abilities and resources gained from their adventures to create exactly the weapons, armors, tools, and treasures they desire. While mundane items might be created using various Craft skills, many PCs set their sights upon more extraordinary goals, such as researching and designing new spells and crafting magic items."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards"
 		],
@@ -2424,7 +2424,7 @@
 	},
 	"research_and_designing_spells": {
 		"name": "Research and Designing Spells",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -2440,7 +2440,7 @@
 			"***Components:*** Unless there's a particularly good reason, almost all spells should require both verbal and somatic components, and most divine spells should require a divine focus. Spells with no verbal component are particularly rare. If the spell-as-designed lacks them, consider adding material component or focus requirements as a means of adding flavor. Expensive components and foci are a good way to adjust the effective power of a spell without changing the level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards"
@@ -2460,7 +2460,7 @@
 	},
 	"good_spells_and_bad_spells": {
 		"name": "Good Spells and Bad Spells",
-		"subtitle": "Creating Spells, Gamemastering",
+		"subtitle": "Creating Spells, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -2474,7 +2474,7 @@
 			"While as a general rule overly specialized spells are a bad idea, there's much to be said for researching specialized spells like a brewer's blessing or a charm to hold a shoe on a horse. If a player is particularly excited about the spell, consider approving it even if it doesn't have much in-game application."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards",
@@ -2489,7 +2489,7 @@
 	},
 	"creating_a_spell": {
 		"name": "Creating a Spell",
-		"subtitle": "Creating Spells, Gamemastering",
+		"subtitle": "Creating Spells, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 114](source/gamemastery_guide)",
@@ -2510,7 +2510,7 @@
 			"| Additional research materials | -1 per 100 gp per spell level (maximum +5) |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards",
@@ -2525,7 +2525,7 @@
 	},
 	"spell_components": {
 		"name": "Spell Components",
-		"subtitle": "Creating Spells, Gamemastering",
+		"subtitle": "Creating Spells, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 115](source/gamemastery_guide)",
@@ -2535,7 +2535,7 @@
 			"Even when tracking individual components, many reagents are so common they can be assumed to be easily found. Save the legwork for commissioning tiny silver whistles (for [mage's faithful hound](spell/mage's_faithful_hound)), finding dragon scales (for [form of the dragon](spell/form_of_the_dragon_1)), and things of that nature. Yet even then, don't go overboard - while finding rare components can be a fun opportunity for side-quests, your players go grocery shopping often enough in real life, and obsessing over whether their leaves are fresh or their eggshell components got cracked in the last fall is a good way to bore your players and ensure nobody wants to play a caster in your game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards",
@@ -2550,7 +2550,7 @@
 	},
 	"components_for_new_spells": {
 		"name": "Components for New Spells",
-		"subtitle": "Creating Spells, Gamemastering",
+		"subtitle": "Creating Spells, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 115](source/gamemastery_guide)",
@@ -2564,7 +2564,7 @@
 			"When adding material components or a focus to a new spell, consider what forces the spell is shaping, and select components that reflect those forces. Good components don't necessarily need to be literally appropriate - the handful of earth required for [detect undead](spell/detect_undead) is an example of a more symbolic fit. Humorous spell components are tempting (and well represented in the game), but should be used sparingly."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards",
@@ -2579,7 +2579,7 @@
 	},
 	"enhanced_components": {
 		"name": "Enhanced Components",
-		"subtitle": "Creating Spells, Gamemastering",
+		"subtitle": "Creating Spells, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 115](source/gamemastery_guide)",
@@ -2597,7 +2597,7 @@
 			"***Vampire Dust:*** The carefully sifted dust of a destroyed vampire enhances spells fueled by negative energy. A single vampire yields only 1d4+1 uses of dust. Spells infused with vampire dust receive a +1 bonus to caster level. If the caster personally slew the vampire, the dust increases save DCs by +1 as well."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards"
@@ -2611,7 +2611,7 @@
 	},
 	"wishes": {
 		"name": "Wishes",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 116](source/gamemastery_guide)",
@@ -2633,7 +2633,7 @@
 			"***Deferred Results:*** Rather than denying a particularly powerful *wish*, such as for the throne of a kingdom, the *wish* can be granted over an extended period. The *wish* subtly reshapes reality, guiding the wisher through seeming coincidence, good fortune, and the timely appearance of helpful NPCs. Success is not assured unless the PC takes advantage of her opportunities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards"
@@ -2647,7 +2647,7 @@
 	},
 	"making_magic_items": {
 		"name": "Making Magic Items",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 116](source/gamemastery_guide)",
@@ -2659,7 +2659,7 @@
 			"The best test for item pricing is to compare it to \"must have\" items in the game, like weapons, armor, and stat-boosting gear. Also compare it to other items that share the same slot, and items with similar powers. As a rule of thumb, if you'd take the item in a heartbeat over a more expensive standard item, it is probably too cheap. And if you'd never consider taking a 10,000 gp ring over a [belt of physical might +2](magic-wondrous/belt_of_physical_might_2) or even a +2 battleaxe, it might just be overpriced. However, it is safer to price items too high rather than too low. After all, the PC gets a new, custom magic item out of the arrangement, and that's worth paying a bit extra."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards"
@@ -2677,7 +2677,7 @@
 	},
 	"ad-hoc_pricing": {
 		"name": "Ad-Hoc Pricing",
-		"subtitle": "Magic Items, Gamemastering",
+		"subtitle": "Magic Items, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 117](source/gamemastery_guide)",
@@ -2685,7 +2685,7 @@
 			"If there's no effect in [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) that matches the new item's powers, try looking through existing magic items for something that's close. For example, Seltyiel wants to add the bladethirst ability to his longsword, a power he's come up with that lets him draw the weapon as a free action. This is essentially the [Quick Draw](feat/quick_draw) feat, but tied to a single weapon. Even though it's a weapon enhancement, Seltyiel wants it as a flat cost, like adding fire resistance to a suit of armor. Looking over the ability, the GM decides that this fits well, since it doesn't really scale up with a more powerful weapon. [Gloves of arrow snaring](magic-wondrous/gloves_of_arrow_snaring) are a 4,000 gp item that grants a feat, so the GM uses this as the base price. Multiple different abilities on a magic item would normally increase this cost by 50%, but since the [Quick Draw](feat/quick_draw) feat would allow drawing items other than just a single weapon, the GM splits the difference and makes it a 5,000 gp weapon enhancement."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards",
@@ -2698,7 +2698,7 @@
 	},
 	"keeping_the_balance": {
 		"name": "Keeping the Balance",
-		"subtitle": "Magic Items, Gamemastering",
+		"subtitle": "Magic Items, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 117](source/gamemastery_guide)",
@@ -2712,7 +2712,7 @@
 			"***Good Item, Bad Formula:*** Take a look at what the magic item actually does, and compare it to the formula used. Consider tweaking the cost or powers to match the provided benefit. A ring that provides [mind blank](spell/mind_blank) calculates to 153,000 gp, while one that casts [mind blank](spell/mind_blank) once per day (at 24 hours per use) comes out to 55,080 gp. In truth, there's not a large difference in utility between the two items, and the first ring is a better fit for the theme of continuous mental protection."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"pcs_controlling_rewards",
@@ -2725,7 +2725,7 @@
 	},
 	"random_item_generators": {
 		"name": "Random Item Generators",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 118](source/gamemastery_guide)",
@@ -2757,7 +2757,7 @@
 			"[^2]: The original table appears in the Pathfinder RPG Core Rulebook. The items on the table can be found in [miscellaneous equipment](main/equipment_misc), along with many other items from later books."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards"
 		],
@@ -2780,7 +2780,7 @@
 	},
 	"random_armor_and_shields": {
 		"name": "Random Armor and Shields",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 118](source/gamemastery_guide)",
@@ -2923,7 +2923,7 @@
 			"[^B]: If you roll a special ability twice, roll again. If you roll two versions of the same special ability, use the better."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -2940,7 +2940,7 @@
 	},
 	"random_weapons": {
 		"name": "Random Weapons",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 121](source/gamemastery_guide)",
@@ -3148,7 +3148,7 @@
 			"[^P]: Bows, crossbows, and slings crafted with this ability bestow this power upon their ammunition."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -3165,7 +3165,7 @@
 	},
 	"random_potions_and_oils": {
 		"name": "Random Potions and Oils",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 124](source/gamemastery_guide)",
@@ -3299,7 +3299,7 @@
 			"| 99-100 | [nondetection](spell/nondetection) | 800 gp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -3316,7 +3316,7 @@
 	},
 	"random_scrolls": {
 		"name": "Random Scrolls",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 125](source/gamemastery_guide)",
@@ -3356,7 +3356,7 @@
 			"[^3]: For arcane spells, consult [Tables 5-27 through 5-36](rule/random_arcane_spells). For divine spells, consult [Tables 5-37 through 5-46](rule/random_divine_spells)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -3373,7 +3373,7 @@
 	},
 	"random_arcane_spells": {
 		"name": "Random Arcane Spells",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 125](source/gamemastery_guide)",
@@ -3828,7 +3828,7 @@
 			"[^3]: Additional cost"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -3845,7 +3845,7 @@
 	},
 	"random_divine_spells": {
 		"name": "Random Divine Spells",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 130](source/gamemastery_guide)",
@@ -4247,7 +4247,7 @@
 			"[^5]: Additional bargaining cost"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -4264,7 +4264,7 @@
 	},
 	"random_wands": {
 		"name": "Random Wands",
-		"subtitle": "Random Item Generators, Gamemastering",
+		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 134](source/gamemastery_guide)",
@@ -4661,7 +4661,7 @@
 			"[^2]: Extra cost"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"rewards",
 			"random_item_generators"
@@ -4678,7 +4678,7 @@
 	},
 	"creating_a_world": {
 		"name": "Creating a World",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -4686,7 +4686,7 @@
 			"While running games within a published campaign setting or a favorite fictional universe is a lot of fun, many GMs enjoy creating an entire setting from scratch - a world in which every idea, NPC, and location, is an expression of your creativity. It's a powerful feeling, one that can give you countless hours of enjoyment even outside of the game session."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -4714,7 +4714,7 @@
 	},
 	"world_building": {
 		"name": "World Building",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -4722,7 +4722,7 @@
 			"Creating a setting from scratch can also be intimidating. This section provides you with tools to help take the guesswork out of world building, breaking down monumental considerations into small, manageable chunks. While this section presumes you're creating a fantasy setting for use with the Pathfinder Roleplaying Game, most of this advice can be applied to any game genre or system. Keep in mind that not all of these questions need to be answered ahead of time, and creating as you play allows you to keep things fresh and fun for both you and your players."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -4745,7 +4745,7 @@
 	},
 	"defining_a_setting": {
 		"name": "Defining a Setting",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -4757,7 +4757,7 @@
 			"More than establishing any concrete facts, your fundamental concept for your setting needs to capture what makes it special and different from other settings. Try to answer questions like the following: What is the single most defining aspect of this setting? What is the one-sentence hook that would make players want to play in it, and what aspect are you most excited to work on? It also helps to write down what type of game you're hoping to run. Is it a swashbuckling sword and sorcery adventure? Complex political intrigue? Wild magic in the wilderness? A good setting should encompass and facilitate multiple types of play, but defining the game you want to run can steer you toward setting choices that compliment it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"world_building"
@@ -4770,7 +4770,7 @@
 	},
 	"tools_of_the_trade": {
 		"name": "Tools of the Trade",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -4782,7 +4782,7 @@
 			"The following sections cover a number of questions you should consider when designing a setting, but sometimes the easiest place to start is with a single setting element, such as the city your players find themselves in at the start of the campaign."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"world_building"
@@ -4795,7 +4795,7 @@
 	},
 	"building_a_city": {
 		"name": "Building a City",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 140](source/gamemastery_guide)",
@@ -4813,7 +4813,7 @@
 			"For more information on building cities, as well as important questions to consider, see [The Cosmopolitcan Society](rule/the_cosmopolitan_society)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"world_building"
@@ -4826,7 +4826,7 @@
 	},
 	"detailing_your_world": {
 		"name": "Detailing Your World",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 142](source/gamemastery_guide)",
@@ -4836,7 +4836,7 @@
 			"Luckily, you won't need it. With just an hour or two of considering the following questions, you should have all the answers you need to kick things off with a bang. What follow are 30 of the most important questions in setting design to help you formulate a quick world-building cheat sheet."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -4859,7 +4859,7 @@
 	},
 	"the_heroic_details": {
 		"name": "The Heroic Details",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 142](source/gamemastery_guide)",
@@ -4913,7 +4913,7 @@
 			"Assuming your world is one in which piles of gems await the heroes in subterranean mazes, what do the heroes do with them when they get back to town? Is there a Crazy Yorick's Magick Shoppe in every large city, or do the heroes have to craft their own magical wands, potions, and gear? Can they invest their winnings in stock or property? Is there some kind of fence or underground black market to move goods?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"detailing_your_world"
@@ -4926,7 +4926,7 @@
 	},
 	"the_mundane_details": {
 		"name": "The Mundane Details",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 143](source/gamemastery_guide)",
@@ -4978,7 +4978,7 @@
 			"Memorable worlds aren't made up solely of ordinary people living ordinary lives in ordinary towns. Does another plane intersect with the area somewhere close by? Do ghosts walk around carrying on their daily business? At times, your players should be equally surprised by the strange things locals have grown used to and no longer think about, or by the apparent lack of weirdness."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"detailing_your_world"
@@ -4991,7 +4991,7 @@
 	},
 	"the_scholarly_details": {
 		"name": "The Scholarly Details",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 144](source/gamemastery_guide)",
@@ -5041,7 +5041,7 @@
 			"This question is actually about verisimilitude, and the answer is usually, \"It falls and hits the person standing beneath it on the head.\" So the real question is, other than \"accepted\" weirdness like magic and demons, is there anything you want to change or alter about the physical world? If so, how can you do it without losing the players' suspension of disbelief? Your world needs to make its own kind of sense to bind the strange and fantastic in a way that feels natural - at least to the world's residents - thus creating a stage for the PCs' wondrous adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"detailing_your_world"
@@ -5054,7 +5054,7 @@
 	},
 	"geography": {
 		"name": "Geography",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -5068,7 +5068,7 @@
 			"But let's face it: most GMs don't have access to these resources. In this case, a little research can go a long way. Read up on geology, meteorology, astronomy, and other earth sciences. Watch documentaries and educational shows on these subjects. Most of all, study maps of the real world, not just game products; as any student of geology can tell you, it's shocking just how many scientific errors appear in maps from the most beloved fantasy games and novels."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -5091,7 +5091,7 @@
 	},
 	"creating_a_world_map": {
 		"name": "Creating a World Map",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -5101,7 +5101,7 @@
 			"When creating your world, you can use color as a handy way to keep track of forests, deserts, or oceans, or develop your own system of simple cartography symbols. These symbols can be extremely simple: inverted \"V\" shapes for mountains, crosshatching for forests, scattered dots for deserts, etc.-whatever makes the most sense to you. Some GMs prefer to draw their world maps on blank paper, sharing them with players as \"in-world\" handouts. Others prefer to use graph or hex paper, the better to precisely track distances and travel times. Still others use professional cartography software. The \"right\" method is the one that feels most natural to you, and the following advice applies no matter what media you use."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography"
@@ -5114,7 +5114,7 @@
 	},
 	"starting_size": {
 		"name": "Starting Size",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -5122,7 +5122,7 @@
 			"The kind of campaign you want to run should inform the scope of the map you need to create. If your game focuses entirely on a small valley in a mountain range, you might not even need to create a world map. On the other hand, if you're intending to include long overland journeys, you might need to create a sprawling map of an entire continent, or even a whole planet! The important thing to keep in mind is that you don't need to finish everything before the first game. Focusing only on the parts of the map that are directly connected to the next session not only eases your workload, but makes it easier to keep track of things. You're learning about your new world as you create it, and if you do so in small patches over the course of months or years, your knowledge will grow organically."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography"
@@ -5135,7 +5135,7 @@
 	},
 	"terrain_hierarchy": {
 		"name": "Terrain Hierarchy",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 146](source/gamemastery_guide)",
@@ -5152,7 +5152,7 @@
 			"- The lowest point in the ocean is the Mariana Trench, at a depth of 35,797 feet."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography"
@@ -5173,7 +5173,7 @@
 	},
 	"coastlines": {
 		"name": "Coastlines",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -5181,7 +5181,7 @@
 			"The first step is to divide land from water; draw in the region's coastlines, remembering to add bays and harbors here and there (these make great locations for major cities). Scatter islands, inland seas, and lakes here and there, bearing in mind that a chain of islands extending off a coast might indicate an extension of a mountainous region into an ocean or sea. Unless you're an expert on geology or cartography, don't worry about things like plate tectonics or trying to map the curve of the planet, especially if the region you're mapping is only a single continent or smaller. (Of course, it can't hurt to freshen up on these topics.) One way to make this easier is to vaguely base the shapes of your continents on the shapes of Earth's continents, a tactic used by many game designers and fantasy novelists."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography",
@@ -5198,7 +5198,7 @@
 	},
 	"elevations": {
 		"name": "Elevations",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -5208,7 +5208,7 @@
 			"Once you have your mountainous regions placed, you can draw an increasing number of outlines around those mountains to show gradual changes in elevation as you work your way down to the coastline. Don't be afraid to make these lower regions wide and large; you'll need somewhere to put your deserts and large forests. Also remember that mountain ranges extending into oceans are an excellent source of realistic island chains."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography",
@@ -5225,7 +5225,7 @@
 	},
 	"rivers": {
 		"name": "Rivers",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -5233,7 +5233,7 @@
 			"Once you have the elevations of your region marked, you'll be able to place rivers. Start near the centerline of a mountain range and wind downward on whatever curving course you want as you approach a coastline. Make sure that your rivers don't double back across an elevation line once they cross it, since water has a hard time flowing uphill. One important thing to keep in mind is that, as a general rule, water wants to flow together rather than apart-as a result, you should avoid having your rivers \"split\" as they flow downward from the mountains, save to create a delta like those at the mouths of the Mississippi or the Nile. Likewise, make sure that you don't have multiple rivers emptying out of a lake!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography",
@@ -5250,7 +5250,7 @@
 	},
 	"vegetation": {
 		"name": "Vegetation",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -5258,7 +5258,7 @@
 			"Sketch in major woodlands or jungles, placing them along coastlines and in lowlands, perhaps up to the edges of your highest elevations in places. Vegetation near a large water source like a delta often forms a marshland or swamp. Don't go too overboard with these regions, though! Remember that areas you don't turn into woodlands or swamps can be hilly regions, plains, steppes, badlands, or other relatively clear terrains. Deserts are a special case - place them in areas where there are few rivers (it's okay to have one or two) and where there's a mountain range to block the path of precipitation; this area is known as a \"rain shadow.\""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography",
@@ -5275,7 +5275,7 @@
 	},
 	"tags": {
 		"name": "Tags",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -5283,7 +5283,7 @@
 			"Now you're ready to start naming your regions and placing spots of interest like cities, dungeons, and other notable features. Keep in mind some simple rules here: cities are almost always found on rivers or shorelines, and you'd expect to see cave entrances in hilly or mountainous areas. If you're drawing in national borders, remember that such divisions commonly fall along convenient geographical features, such as rivers or mountain ranges. Make sure to place plenty of intriguing adventure sites, too - it's a good rule to place three adventure sites within a few day's travel of each of your cities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography",
@@ -5300,7 +5300,7 @@
 	},
 	"breaking_the_rules": {
 		"name": "Breaking the Rules",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 147](source/gamemastery_guide)",
@@ -5308,7 +5308,7 @@
 			"While these guidelines stress the importance of realism, don't forget that you're designing a fantasy world! Anything goes - feel free to have rivers flowing uphill, mountains that float on the ocean, deserts or forests that move, or swaths of ocean where the water drops away to expose portions of the sea bed. As long as you realize that these locations are unrealistic, you can design for them and explain them however you wish."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"geography",
@@ -5325,7 +5325,7 @@
 	},
 	"cultural_considerations": {
 		"name": "Cultural Considerations",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 148](source/gamemastery_guide)",
@@ -5344,7 +5344,7 @@
 			"All of these methods are valid, though each has its pitfalls and its benefits. A creative GM can certainly use real-world cultures as a starting point or base when creating new cultures for the game world; after all, these are proven points of history, and provide easy access points for players. The other options require significantly greater creative involvement. The following tips can help a GM get started."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -5368,7 +5368,7 @@
 	},
 	"core_elements_of_the_people": {
 		"name": "Core Elements of the People",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 148](source/gamemastery_guide)",
@@ -5386,7 +5386,7 @@
 			"***Foreign Relations:*** Is this a homogenous group, having lived and intermarried within a relatively small group of people, or the product of a series of invasions and raids? How much contact and commerce do people have with outside cultures, and is travel beyond the hereditary home feasible and encouraged? How are outsiders viewed, and who are the enemies and allies of this culture?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations"
@@ -5400,7 +5400,7 @@
 	},
 	"government_and_law": {
 		"name": "Government and Law",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 148](source/gamemastery_guide)",
@@ -5425,7 +5425,7 @@
 			"Another consideration: Do the laws permit precedent, meaning they build on previous judicial interpretations, or is every case decided afresh based on the statutes in ancient tomes? If it's the latter, then the outcomes of similar cases may bear no resemblance to each other. If the former, then every case heard in court adds another wrinkle to the law that must be considered, and a new breed arises to deal with these interpretations: lawyers, advocates, or solicitors. Keep in mind also that a broad, national law with established precedent makes trade easier, since merchants no longer have to learn the vagaries of law in far-flung towns and counties - and this in turn strengthens the nation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations"
@@ -5439,7 +5439,7 @@
 	},
 	"economics": {
 		"name": "Economics",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 149](source/gamemastery_guide)",
@@ -5453,7 +5453,7 @@
 			"The following sections outline several types of societies."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations"
@@ -5467,7 +5467,7 @@
 	},
 	"societies": {
 		"name": "Societies",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 149](source/gamemastery_guide)",
@@ -5475,7 +5475,7 @@
 			"The following sections outline several types of societies."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations"
@@ -5496,7 +5496,7 @@
 	},
 	"the_primitive_society": {
 		"name": "The Primitive Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
@@ -5520,7 +5520,7 @@
 			"- Barbarian tribes dwelling in rough huts, slowly becoming a more settled civilization."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5542,7 +5542,7 @@
 	},
 	"defining_primitive_culture": {
 		"name": "Defining Primitive Culture",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
@@ -5556,7 +5556,7 @@
 			"The peoples of primitive cultures must frequently be superb warriors and survivalists, at least within their specific environments, and such cultures often have astronomically high childhood mortality rates."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5572,7 +5572,7 @@
 	},
 	"leadership_and_control": {
 		"name": "Leadership and Control",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 150](source/gamemastery_guide)",
@@ -5580,7 +5580,7 @@
 			"A primitive culture rewards strength and intelligence in its leaders. Smart leaders show the people how to prosper. Strong leaders bring plunder and security. Different cultures place different values on their leaders, but they inevitably follow those who give them the greatest chance for survival. If raids and brutality are the means by which a culture survives, bloodthirst becomes a virtue. If guile and cunning prove more efficacious, then the culture develops them as its primary traits. Leaders, then, must demonstrate their abilities to earn and defend their positions, whether by leading war bands, luring enemies into snares and ambushes, or devising better methods for hunting and raising food. Those with aptitudes for magic or the divine can often lead as well, whether directly or through an advisory role."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5596,7 +5596,7 @@
 	},
 	"religion_taboos_rituals_and_superstitions": {
 		"name": "Religion, Taboos, Rituals, and Superstitions",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 151](source/gamemastery_guide)",
@@ -5610,7 +5610,7 @@
 			"Primitive magic is frequently sympathetic; that is, by drawing pictures of their enemies, people hope to gain control over them. By eating the flesh of strong beasts, they hope to absorb that strength - and some even eat the flesh of worthy opponents to commemorate their bravery."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5626,7 +5626,7 @@
 	},
 	"questions_about_your_primitive_society": {
 		"name": "Questions about Your Primitive Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 151](source/gamemastery_guide)",
@@ -5657,7 +5657,7 @@
 			"- What do they eat? How does the group store food?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5673,7 +5673,7 @@
 	},
 	"the_feudal_society": {
 		"name": "The Feudal Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 152](source/gamemastery_guide)",
@@ -5695,7 +5695,7 @@
 			"Additionally, they must also tax their peasants, maintain the fief's infrastructure (since technically this land belongs to their liege), and stamp out uprisings, rebellions, and monstrous incursions. They can pass their titles to their children, if their liege allows it; many titles begin as granted titles but later turn into hereditary titles, with the holder being responsible for the fief's tithe. At the top of this pyramid sits the all-powerful monarch."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5717,7 +5717,7 @@
 	},
 	"ruling_a_feudal_society": {
 		"name": "Ruling a Feudal Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 152](source/gamemastery_guide)",
@@ -5727,7 +5727,7 @@
 			"Protection comes in many forms. The very purpose of the kingdom is to stand united against enemy invasion, and this is the reason the vassals have sworn to provide warriors and service to the king. Yet the king must also protect the kingdom against internal threats, such as rebellions, bandits, thieves and murderers, mercantile fraud, and dissident or ambitious nobles. Much of the time, this means passing responsibility to the local lords and trusting them to do their work; and in most cases the vassals have extraordinary latitude to interpret the king's wishes, and direct appeal to the ruler is rare and discouraged by his underlings. Feudal justice at the uppermost levels tends to be pragmatic, rather than idealistic, meaning that any disputes are settled according to which party is of most use to the king himself. Occasionally, as in the case of the Holy Roman Emperor, a monarch may be selected by a group of peers rather than inherited through his bloodline, in which case he's both absolute ruler and beholden to his underlings, a fact reflected in his rulings. In a feudal society, justice is far from blind."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5743,7 +5743,7 @@
 	},
 	"the_feudal_hierarchy": {
 		"name": "The Feudal Hierarchy",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
@@ -5765,7 +5765,7 @@
 			"| Serf | - | Y |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5781,7 +5781,7 @@
 	},
 	"religion's_role": {
 		"name": "Religion's Role",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
@@ -5791,7 +5791,7 @@
 			"Depending on the society you design, the churches may be more or less woven into the framework of society, with churches of a lawful bent naturally appealing to a monarch from whom all laws stem. In such situations, the monarchy generally works with its spiritual advisors in much the same way as it does with its vassals - though in theory the church answers to itself, in practice power begets power, and those churches deeply enmeshed in feudal politics tend to spend much of their effort enforcing the social order, maintaining orthodoxy, and rooting out heresies."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5807,7 +5807,7 @@
 	},
 	"questions_about_your_feudal_society": {
 		"name": "Questions about Your Feudal Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 153](source/gamemastery_guide)",
@@ -5834,7 +5834,7 @@
 			"- Which are the most prominent cities, and do they have major works like cathedrals, bridges, and fortresses?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5850,7 +5850,7 @@
 	},
 	"the_rural_agrarian_society": {
 		"name": "The Rural/Agrarian Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 154](source/gamemastery_guide)",
@@ -5870,7 +5870,7 @@
 			"- A walled farm town, perched high on a peninsular bluff, defending its goods and lifestyle against pirates and raiders alike."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5893,7 +5893,7 @@
 	},
 	"life_in_an_agrarian_society": {
 		"name": "Life in an Agrarian Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 154](source/gamemastery_guide)",
@@ -5907,7 +5907,7 @@
 			"Agrarian communities are usually closely knit out of necessity, though there may be tension and antagonism among the members. Such societies require mutual cooperation to survive, and as a result, their interactions often revolve around group activities, such as a shared religious services or barn raisings."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5924,7 +5924,7 @@
 	},
 	"the_religion_of_farmers": {
 		"name": "The Religion of Farmers",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -5934,7 +5934,7 @@
 			"Superstitions and taboos may also play a strong role in the society. As with the primitive society, many real-world taboos arise as ways of passing on practical lessons, such as dietary restrictions on animals that eat unclean foods and could therefore pass along disease. Other superstitions might hold that placing hex signs and horseshoes on barns prevents bad luck, or farmers might keep goats with their cows to prevent sickness, then sacrifice the goats to drive away plague."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5951,7 +5951,7 @@
 	},
 	"social_structure_and_economy": {
 		"name": "Social Structure and Economy",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -5961,7 +5961,7 @@
 			"No one specific type of government best fits an agrarian society. Some societies might have inherited monarchs who rule by fiat, while others might elect reluctant leaders or councils of elders, and still others might come together only in mutual self-defense. Within the home, the father is usually the landowner and head of the household, working the fields from sunrise to sunset. While the wife often works beside him during harvest time and handles the food preservation, an important goal for most women is to bear and raise as many strong children is possible, for more children mean more hands to help with the fields."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -5978,7 +5978,7 @@
 	},
 	"challenges": {
 		"name": "Challenges",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -5986,7 +5986,7 @@
 			"Far from the protecting arm of a liege lord (if they have one at all), most rural societies must rely on themselves. Along with the normal race against time and nature to produce enough food to survive, raiders and monsters are a constant threat, especially during the winter, when farmer's stores are full and foraging is difficult. As a result, farmers are as likely to be suspicious or hostile as they are to welcome the protection of adventurers. War is another great destroyer of rural communities; though rarely involved as fighters themselves, farmers see their fields trampled and animals infected by unburied corpses. Warlords of all alignments are notorious for commandeering and slaughtering farm animals for their sustenance, and billeting their troops in homes even if they are unwelcome."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6003,7 +6003,7 @@
 	},
 	"questions_about_your_rural_agrarian_society": {
 		"name": "Questions about Your Rural/Agrarian Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 155](source/gamemastery_guide)",
@@ -6031,7 +6031,7 @@
 			"- What monsters and fey live near this society, and how do these people deal with them?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6048,7 +6048,7 @@
 	},
 	"the_cosmopolitan_society": {
 		"name": "The Cosmopolitan Society",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
@@ -6060,7 +6060,7 @@
 			"Whatever the reason, a city grows and thrives by becoming a hub, attracting trade, visitors, and new residents. As it grows, it changes, and residents can often see the shape of the old city underneath the gleaming streets, with the old buildings coexisting with or being slowly supplanted by the new. A city's architecture is typically reflective of the people who created it, and immigrants frequently bring the aesthetics (and cultural practices) of their homelands, making a city's buildings and structure a physical record of its history."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6081,7 +6081,7 @@
 	},
 	"city_requirements": {
 		"name": "City Requirements",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
@@ -6095,7 +6095,7 @@
 			"- A reason to exist: Why is the city here, and not 20 miles down the road? Does it have strategic importance or natural resources, or is it a crossroads for trade?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6110,7 +6110,7 @@
 	},
 	"urban_planning": {
 		"name": "Urban Planning",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 156](source/gamemastery_guide)",
@@ -6128,7 +6128,7 @@
 			"Most of these groups will be interested in power, and many will imagine they can do a better job protecting the city than the current ruling clique. But from what does the city need protection? The Pathfinder Roleplaying Game Bestiary contains helpful lists of monsters grouped by their environment and habitat; these are invaluable tools for outlining the possible monsters that lair near the city. Of course, the presence of monsters also attracts adventurers seeking glory or wealth. The more monsters or other physical threats near a city, the more likely the city will have extensive stocks of adventuring supplies, weapon shops, armories, and the like."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6143,7 +6143,7 @@
 	},
 	"questions_about_your_city": {
 		"name": "Questions about Your City",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 157](source/gamemastery_guide)",
@@ -6182,7 +6182,7 @@
 			"- Why do adventurers come to your city?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6198,7 +6198,7 @@
 	"other_societies": {
 		"name": "Other Societies",
 		"tags": "bureaucracy caste system decadent society magocracy matriarchy monstrous society theocracy",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 158](source/gamemastery_guide)",
@@ -6245,7 +6245,7 @@
 			"By their nature, priests in a fantasy world must be faithful to reap the benefits of the power of prayer. Those who rise to power within the church hierarchy are therefore the most faithful of the faithful; their detractors might even call them extremists and zealots. Moderates might exist peacefully within a theocratic government, but they also might be hounded out and driven away from the ship of state. Outsiders may be welcome, or they may be required to convert or tithe to the church while within the borders. Priests from these lands might be more devout, seeing their rule as a privilege, or they might be sycophantic politicians cloaking themselves in the barest shreds of faith. Adventuring priests from such lands might act as missionaries and envoys, and how expansionist the government is likely depends on the teachings and interpretations of their holy texts. Such a society may choose to remain within its borders and attract followers by virtue of its shining goodness, or it might choose to launch crusades to bring nonbelievers to the truth."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"cultural_considerations",
@@ -6261,7 +6261,7 @@
 	},
 	"technology_2": {
 		"name": "Technology",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 160](source/gamemastery_guide)",
@@ -6269,7 +6269,7 @@
 			"One of the most important factors in building a world is its level of technological advancement. Technology affects every aspect of the game, from what gear PCs carry to what kinds of adventures a GM can run. Though many fantasy games presume a level of technology based on medieval Europe, this is far from the only option - even leaving aside those subgenres that might qualify as science fiction, fantasy can still run the gamut from steampunk and magic-infused technocracy to the hardscrabble world of primitive barbarian tribes. So how do you decide what's right for your world?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -6293,7 +6293,7 @@
 	},
 	"contentious_technology": {
 		"name": "Contentious Technology",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 160](source/gamemastery_guide)",
@@ -6315,7 +6315,7 @@
 			"***Steam Power:*** Entire genres - especially steampunk - have been built around steam power and the idea of \"industrial revolution fantasy.\" Steamboats, steam trains, mechanized factories: the advancement a simple steam engine can bring to a world is immense, and in such a setting, it's easy for steam power to become the focus. Steam-powered vehicles streamline transportation of troops, civilians, and goods, making it easier to build vast empires. Steam-powered factories turn out perfect machined goods at a rate far above traditional cottage industry. Steam-powered war machines might even make appearances on the battlefield. Next to firearms, steam power has the most potential to change the flavor of your campaign setting, for good or ill. Use it carefully."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"technology_2"
@@ -6329,7 +6329,7 @@
 	},
 	"multiple_levels_of_technology": {
 		"name": "Multiple Levels of Technology",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 161](source/gamemastery_guide)",
@@ -6339,7 +6339,7 @@
 			"This brings up another important issue: futuristic technology. Though it can be argued that, to a caveman, a sword constitutes future technology, most people think of futuristic science in terms of ray guns and laser swords, the treasures of invading aliens, or the post-apocalyptic remnants of lost civilizations. Such items are often persona non grata in a fantasy setting, but the question remains: in a world where a wizard can make his [wishes](spell/wish) reality, is there any functional difference between a ray gun that shoots fire and a [wand of scorching ray](spell/scorching_ray)?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"technology_2"
@@ -6353,7 +6353,7 @@
 	},
 	"magic_and_technology": {
 		"name": "Magic and Technology",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 161](source/gamemastery_guide)",
@@ -6363,7 +6363,7 @@
 			"In the end, neither magic nor science can truly replace the other, for every archer needs a basic understanding of physics, and the doctor who cures disease with moldy bread is every bit a magician to the uninitiated onlooker. By figuring out how the two interact and balance out, you can flesh out your cultures and be prepared when a player decides he wants to foster a scientific revolution in-game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"technology_2"
@@ -6377,7 +6377,7 @@
 	},
 	"anachronisms": {
 		"name": "Anachronisms",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 161](source/gamemastery_guide)",
@@ -6389,7 +6389,7 @@
 			"The first thing to remember in designing a campaign setting is that it's your world, not Earth. Random chance plays a major role in science, and the fact that a given Earth culture didn't make a specific discovery until a certain date doesn't mean your culture has to follow the same timeline, so long as the progression is internally consistent. On Earth, different cultures advanced in different fields at different rates; the Chinese had cannons, flamethrowers, and land mines before Europe discovered gunpowder. Don't let history tie the hands of your imagination."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"technology_2"
@@ -6403,7 +6403,7 @@
 	},
 	"time": {
 		"name": "Time",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -6411,7 +6411,7 @@
 			"Even the most superficial treatment of a campaign setting needs to deal with history and the passage of time. Every ancient ruin, powerful artifact, and court intrigue is rooted in the past, and history brings context to adventures. Your decisions on such things as the age of the world, the nature of the calendar, and even the length of the seasons have significant impacts on the stories that unfold."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -6437,7 +6437,7 @@
 	},
 	"the_role_of_time": {
 		"name": "The Role of Time",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -6447,7 +6447,7 @@
 			"Time also acts as a pacing mechanic, both during the adventures you run and when connecting them together. The use of downtime for healing, recovery, and crafting items (to say nothing of adventurers who have family or business obligations) is made more real when you know what being away from the story for that length of time means. Does a villain have time to recover his forces after the last battle, or is he still weakened? Does the war in the neighboring kingdom get worse, or do diplomats forge a peace accord? To this end, it might be useful to establish a campaign calendar that allows you to track time in-game, and that can also be filled out ahead of time with major holy days, festivals, and other time-sensitive events to give your campaign added verisimilitude and easy adventure hooks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time"
@@ -6463,7 +6463,7 @@
 	},
 	"time_in_your_game": {
 		"name": "Time in Your Game",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -6479,7 +6479,7 @@
 			"Finally, you should think about how tightly you want to bind such things as government, religion, or magic to the marking of time. Do people think of time in terms of the emperor's reign? Is each day of the week connected to a religious practice or observation?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time"
@@ -6495,7 +6495,7 @@
 	},
 	"celebrating_time": {
 		"name": "Celebrating Time",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -6509,7 +6509,7 @@
 			"Don't forget the extraordinary events that the heroes themselves have a role to play in, either. If the player characters liberate a town from years of domination, then that's cause for a new celebration!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time"
@@ -6525,7 +6525,7 @@
 	},
 	"crafting_time": {
 		"name": "Crafting Time",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 162](source/gamemastery_guide)",
@@ -6537,7 +6537,7 @@
 			"This last point cannot be stressed enough: one of the most common player complaints about a setting is an overzealous backstory. Don't fall so in love with your world's history that you marginalize your players. Historical facts should be presented in a manner that's fun, exciting, and useful - or else ignored altogether."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time"
@@ -6553,7 +6553,7 @@
 	},
 	"traps_and_opportunities": {
 		"name": "Traps and Opportunities",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -6567,7 +6567,7 @@
 			"***Names:*** When writing up their worlds' calendars, many GMs realize that our own calendar (with both months and days named after historical and mythological figures) seems out of place in-game. While making up your own names for the months or days of the week seems like the obvious solution, it can also be aggravating to players trying to keep track of time when the adventure begins on the third Blargday of Skurbgin. If you want to create new names, it might help to have the definitions readily available, to name them after your own gods or historical figures, or cheat a little and have the first letters stay the same (such as a workweek running from Mournday through Fireday)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time"
@@ -6583,7 +6583,7 @@
 	},
 	"the_age_of_the_world": {
 		"name": "The Age of the World",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -6591,7 +6591,7 @@
 			"Time isn't just about holidays, calendars, and politics. On a more cosmic level, the tone of the campaign may depend on how old or young the world is, and what this means to the people, places, and plots that play out upon it. While the standard fantasy world assumes such things as ancient empires and lost races as an explanation for the many dungeons, artifacts, and legends that feature in adventures, this is merely a default. Consider these other options."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time"
@@ -6611,7 +6611,7 @@
 	},
 	"youthful_worlds": {
 		"name": "Youthful Worlds",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -6619,7 +6619,7 @@
 			"A young world is one that has only recently given rise to a civilized society, one in which many races are in their infancy or have yet to achieve cultural maturity. There are no ruined remnants of a lost age (or they may be buried so deep as to be yet undiscovered by the current residents). In such a world, magic may feel raw and untamed. The gods may yet walk the earth, or they have only recently inspired the creation of cults and churches. Military orders have yet to be founded. Races have not been divided by civil war or strife. The player characters are the heroes that future generations will tell stories about. Depending on how young the world is, you might decide some rules elements may be entirely absent-no iron weapons, no spells greater than 3rd level in power, and so on."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time",
@@ -6632,7 +6632,7 @@
 	},
 	"ancient_worlds": {
 		"name": "Ancient Worlds",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 163](source/gamemastery_guide)",
@@ -6640,7 +6640,7 @@
 			"In contrast to a young world, an ancient world has already hit the peak of its civilizations and is fast approaching its end. In the twilight of this setting, some races have been lost to history or have moved on to other shores in the multiverse. Technology may have come and gone, giving the setting either a dystopian, post-apocalyptic theme or a pastoral, back-to-nature aesthetic. Or it may have advanced to a truly astounding level, marrying the traditional fantasy elements to steampunk or cyberpunk tropes. If the world is ancient, tradition might be even more dominant over the lives of individuals. Sorcerers may no longer exist, having had their magical traits codified into the power of wizards. Barbarians and druids might no longer have a place, or perhaps their role is changed to that of degenerate savages."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"time",
@@ -6653,7 +6653,7 @@
 	},
 	"the_cosmos": {
 		"name": "The Cosmos",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 164](source/gamemastery_guide)",
@@ -6661,7 +6661,7 @@
 			"Space. In many fantasy games, it's not even the final frontier, but rather completely beyond the bounds of the campaign setting. Yet mankind has always looked to the sky for escape and adventure, and why should your PCs be any different? By answering a few questions regarding the nature of your world's cosmos, you can expand your setting and greatly increase its verisimilitude."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -6685,7 +6685,7 @@
 	},
 	"creating_your_planet": {
 		"name": "Creating Your Planet",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 164](source/gamemastery_guide)",
@@ -6705,7 +6705,7 @@
 			"***Moons:*** Earth's moon is responsible for its tides: if your world has no moon, does it still have tidal action to stir its oceans? What about lycanthropy or other magic inherently tied to the moon? Conversely, if your world has an enormous moon or multiple satellites, do you have enormous and erratic shifts in your tides? Are the moons close enough to reach, and what effects do they exert on each other? Are they lifeless rocks or thriving worlds?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_cosmos"
@@ -6719,7 +6719,7 @@
 	},
 	"other_worlds": {
 		"name": "Other Worlds",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 164](source/gamemastery_guide)",
@@ -6743,7 +6743,7 @@
 			"[^1]: This generalization has come into question as more and more exoplanets (planets around other stars) have been discovered, but it's still a useful starting point."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_cosmos"
@@ -6757,7 +6757,7 @@
 	},
 	"space_travel": {
 		"name": "Space Travel",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 165](source/gamemastery_guide)",
@@ -6771,7 +6771,7 @@
 			"***Spells:*** Teleportation spells are important to consider when establishing extraplanetary locations. Can a wizard simply cast [greater teleport](spell/greater_teleport) or [wish](spell/wish), or is more required to reach the stars? Be warned that easy access to the galaxy brings a host of concerns-such as why, if interplanetary travel is easy, aliens aren't thronging your base world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_cosmos"
@@ -6785,7 +6785,7 @@
 	},
 	"extraterrestrials": {
 		"name": "Extraterrestrials",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 165](source/gamemastery_guide)",
@@ -6795,7 +6795,7 @@
 			"Once you've come up with a basic idea, consider how the aliens' evolution informs their society and thought processes. Do they have a sense of right and wrong, or life and death? Do they have a sense of property? Are they part of a hive mind, and if so, are they capable of understanding free will and individual culpability? Most importantly, what are their intentions toward your PCs' world: are they benevolent \"angels,\" or planet-killing Old Ones? By making your aliens different from the races of your base world, you create a chance for your players - and yourself - to boldly go where you've never gone before."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_cosmos"
@@ -6809,7 +6809,7 @@
 	},
 	"the_planes_gg": {
 		"name": "The Planes",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 166](source/gamemastery_guide)",
@@ -6817,7 +6817,7 @@
 			"Perhaps the most prominent question in any society is that of what happens to us when we die. In a roleplaying game featuring larger-than-life heroes, this is a practical as well as philosophical consideration, for many spells are capable of returning the dead to life, and more than one group of daring PCs has followed the path of Orpheus and ventured into the underworld to reclaim a fallen comrade. Fantasy RPGs have long been attached to the idea of the multiverse, the concept that the world in which the players reside is merely one (and often the most mundane) of a number of different planes of existence. Many real-world religions follow the same principle to a lesser extent, often viewing death as the natural transition from one plane to the next. When designing your world, it's important to give thought to the worlds that lie beyond, and how souls and the various cycles of existence play into them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -6841,7 +6841,7 @@
 	},
 	"the_purpose_of_planes": {
 		"name": "The Purpose of Planes",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 166](source/gamemastery_guide)",
@@ -6849,7 +6849,7 @@
 			"If you're pouring all your efforts into developing a vibrant, self-contained world for your campaign setting, why should you bother introducing planes at all? The simplest answer is that many rules systems expect you to. Monsters like devils and angels - and in fact, all creatures of the \"outsider\" type in the Pathfinder Roleplaying Game - are presumed to stem from different planes than the PCs, often ones tied to specific alignments. In addition, it can be difficult to challenge high-level PCs within the boundaries of the same world that housed their low-level adventures. By having your players travel to other planes, you gain the opportunity to reinvent the natural laws of the setting and introduce both creatures and characters powerful enough to keep the PCs on their toes. Most importantly, however, planes fill out your world and help to answer the biggest of spiritual questions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_planes_gg"
@@ -6863,7 +6863,7 @@
 	},
 	"planar_models": {
 		"name": "Planar Models",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 166](source/gamemastery_guide)",
@@ -6898,7 +6898,7 @@
 			"- A living creature, with the planes forming its limbs or carried on its back."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_planes_gg"
@@ -6912,7 +6912,7 @@
 	},
 	"location_and_travel": {
 		"name": "Location and Travel",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 167](source/gamemastery_guide)",
@@ -6924,7 +6924,7 @@
 			"Travel is by far the most crucial consideration in constructing a cosmology, as it's the only way your players will ever interact with your creations. Assuming mundane means are insufficient to access the planes - that it's not merely a challenge of building a new Tower of Babel or finding the right cave entrance - the most common methods are through plane-shifting spells, magical portals, and strange and deadly interstitial realms and passages. You should feel free to make certain planes off-limits or reachable only through other planes, forcing your players into a mind-bending cosmological walkabout-for if ever there were a place for a GM to blatantly play god, this is it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_planes_gg"
@@ -6938,7 +6938,7 @@
 	},
 	"other_considerations": {
 		"name": "Other Considerations",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 167](source/gamemastery_guide)",
@@ -6946,7 +6946,7 @@
 			"One of the biggest questions that comes up in creating planes of super-powerful (and in some cases deific) entities is why those beings don't already control the players' comparatively weak homeworld. Is it that plane-shifting is forbidden, or too difficult for the creatures to attempt it on their own, or simply that it's not worth the effort? Certainly some of the gods have managed to exert themselves on the Material Plane, and perhaps it's these same gods that keep the borders from becoming too porous. Regardless, it also brings up the issue of the gods - do they reside on particular planes, and can you visit their shining cities in person? Or do they exist here and there, as ideas or manifestations, omnipotent but unconcerned with creating a physical home? Do they all reside in the company of their peers, looking down like the Greek pantheon at plots they've set in motion, or do they seek solitude in the farthest reaches of their chosen plane, bored with the constant streams of petitioners seeking their favor? For that matter, did the gods create the planes, or did some mysterious force beyond even them set the current celestial order in motion? Dealing with the infinite and omnipotent always begets such questions, yet it's within these very tangles of cause and effect that a GM can unleash the most creativity."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"the_planes_gg"
@@ -6960,7 +6960,7 @@
 	},
 	"parallel_worlds": {
 		"name": "Parallel Worlds",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 168](source/gamemastery_guide)",
@@ -6970,7 +6970,7 @@
 			"Alternate realities give GMs an unlimited sandbox in which to create new adventures for their players. Bored with your current setting, or its natural laws? Throw your party into a new dimension, one so strange that it's an adventure just surviving, or so similar that the players only slowly come to understand what's happened. Whether it's a dream world, an alternate history, a parallel dimension, or some entirely new creation, alternate realities offer possibilities unavailable anywhere else."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world"
 		],
@@ -6993,7 +6993,7 @@
 	},
 	"creating_a_parallel_world": {
 		"name": "Creating a Parallel World",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 168](source/gamemastery_guide)",
@@ -7007,7 +7007,7 @@
 			"As mentioned above, one model is to think of reality as a tree, with the PCs marking the end of a given branch. Every choice, event, natural law, or other discernible characteristic for its timeline has caused a branching, and the seemingly linear path back to the tree's root is their history. Yet while that route is all they can perceive, every road their world didn't take exists alongside them in the tree's canopy, just waiting for them to jump between branches. As with an actual tree, those realities that branch closest to the PCs' end point are easiest to reach; a world in which the events of yesterday turned out differently is comparatively easy to jump to compared to a world in which the PCs' home nation was never founded, and the latter might require more powerful magic or a series of jumps through interstitial realities. This model also reinforces one piece of GM advice: while it may be tempting to alter a number of factors in your world at once, the ramifications of a single change are usually more than enough to keep you busy, and changing too many runs the risk of overwhelming your players. Keeping the worlds' point of divergence identifiable is half the fun of alternate realities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"parallel_worlds"
@@ -7020,7 +7020,7 @@
 	},
 	"sample_parallel_worlds": {
 		"name": "Sample Parallel Worlds",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 168](source/gamemastery_guide)",
@@ -7042,7 +7042,7 @@
 			"***Different Natural Laws:*** The most fundamental change you can make to your world is altering the natural laws on which it runs. Though revising gravity might be too extreme, what about a world in which magic simply doesn't work, or spells work in unexpected ways? Similarly, what about a world in which all the gods are dead - or weirder yet, never existed in the first place? Making such changes can be dangerous to the balance of the game - after all, few spellcasters enjoy losing their abilities entirely - but when done correctly, a world that's identical save for the loss of magic, deities, or some other crucial constant can be more terrifying than any dungeon."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"parallel_worlds"
@@ -7055,7 +7055,7 @@
 	},
 	"going_home": {
 		"name": "Going Home",
-		"subtitle": "World Building, Gamemastering",
+		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 169](source/gamemastery_guide)",
@@ -7065,7 +7065,7 @@
 			"Of course, extradimensional paranoia is only one way to have fun with the characters' homecoming. Others are more blatant; for instance, if time doesn't pass at the same rate between dimensions, the PCs might return home to a world 30 years after than they left it, during which time they've been vilified for abandoning their responsibilities. Once they've opened the door to parallel worlds, they've given yourself carte blanche to play fast and loose with your world and your players' expectations, and nothing will ever again be quite what it seems."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
 			"parallel_worlds"

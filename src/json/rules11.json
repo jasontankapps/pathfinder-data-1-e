@@ -1,7 +1,7 @@
 {
 	"dungeons_gg": {
 		"name": "Dungeons",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -11,7 +11,7 @@
 			"There's a reason that dungeons are so common in the game: they represent the simplest method of constructing an adventure, since a dungeon map really is nothing more than a flow chart. At their most basic, the chambers of a dungeon represent decision points and the hallways represent paths between those points. The layout of a dungeon removes many variables from the game, allowing the GM to focus on a limited number of areas that he knows the PCs are likely to visit. Since you know what rooms and what routes are available before the game even begins, you can prepare for encounters much more easily than you can for an adventure set in a city or the wilderness, where the flow chart concept is no longer literally represented by the solid stone walls and becomes more of an abstract guide for plotting purposes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures"
 		],
@@ -39,7 +39,7 @@
 	},
 	"the_dungeon_concept": {
 		"name": "The Dungeon Concept",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -47,7 +47,7 @@
 			"Just because dungeons are some of the simplest adventure sites to build and run doesn't mean that they need to be simplistic. A dungeon can be quite complex, filled with intrigue and dynamic elements. The first thing to do when creating a dungeon for your players to explore is to decide on the dungeon's basic concept: what kind of dungeon it is. Are you building an underground complex of chambers below a ruined castle occupied by a tribe of goblins? Is the dungeon a series of caves burrowing through a volcanic mountain ruled by fire giants? Is it an immense shipwreck at the bottom of the sea? A wizard's tower that has sunk into a swamp? A haunted mine? A partially collapsed manor? A dragon's lair? Choosing a basic concept for your dungeon at the beginning helps guide the creative process of mapping and populating it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -67,7 +67,7 @@
 	},
 	"drawing_a_dungeon_map": {
 		"name": "Drawing a Dungeon Map",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -79,7 +79,7 @@
 			"A good way to build skill at mapping dungeons is to copy them from published products. Get yourself a big pad or notebook filled with graph paper. Whenever you see a nice map in one of those products, pick up a pen or pencil and try to duplicate that map. Before long, you'll be drawing your own maps - and it can't hurt to keep drawing maps even when you aren't preparing for a specific game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -99,7 +99,7 @@
 	},
 	"sketching_the_map": {
 		"name": "Sketching the Map",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 174](source/gamemastery_guide)",
@@ -123,7 +123,7 @@
 			"***Wide Corridors:*** Remember that combat in the Pathfinder RPG is based on 5-foot squares. If you fill your dungeon with 5-foot-wide hallways, you're not only forcing many prospective battles to narrow down to one-on-one conflicts between one monster and one player, you're also making it more difficult for monsters of Large size or bigger to live in or move about in your dungeon. Also keep the size of the dungeon's inhabitants in mind; if your dungeon is a cloud giant's floating castle, for example, the rooms and corridors should be giant-sized, not human-sized."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -143,7 +143,7 @@
 	},
 	"inking_the_map": {
 		"name": "Inking the Map",
-		"subtitle": "Dungeons, Gamemastering",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 175](source/gamemastery_guide)",
@@ -153,7 +153,7 @@
 			"You can scan your map at this stage as well and use a paint program to color larger areas. Scanning a map and using image manipulation software is also a great way to correct errors you made during the inking process."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -173,7 +173,7 @@
 	},
 	"tagging_the_map": {
 		"name": "Tagging the Map",
-		"subtitle": "Dungeons, Gamemastering",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -181,7 +181,7 @@
 			"Once your map is inked and colored, it's essentially ready for play. All that's left is to tag it with number locations that key the map to the encounter descriptions in your notes. Using a number key helps to keep your map's details from being obscured by descriptive words. If possible, use a pen of a different color than anything else on your map so the number tags stand out and are easy to see; alternatively, you can circle the number tags or mark them with a highlighter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -201,7 +201,7 @@
 	},
 	"adding_details_to_the_map": {
 		"name": "Adding Details to the Map",
-		"subtitle": "Dungeons, Gamemastering",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -209,7 +209,7 @@
 			"While not strictly necessary, adding additional elements to your map can make it more attractive. Details such as furniture (tables, chairs, beds, and chests are all good examples), light sources (fireplaces or firepits, windows, skylights, and so on), and architectural features add a touch of realism to inhabited dungeons. Be careful not to add too many extra details to the map, however - not only can they clutter your map and obscure important information, but they can have a detrimental effect on combat as well. Remember that characters and monsters need room to fight and maneuver, and a room filled with superfluous furniture can make combat overly complex."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -229,7 +229,7 @@
 	},
 	"dungeon_ecology": {
 		"name": "Dungeon Ecology",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -243,7 +243,7 @@
 			"***Shelter and Access:*** All of your dungeon denizens need somewhere to live. The main thing to keep in mind here is that a monster's lair should be sized appropriately for the monster. The larger the monster, the larger its lair needs to be. As a general rule, it's good to give a monster living space that's at least nine times its own space. And unless you want your monster to be trapped in its lair, make sure it can access other parts of the dungeon, including an exit (by squeezing, at minimum)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -263,7 +263,7 @@
 	},
 	"encounter_archetypes": {
 		"name": "Encounter Archetypes",
-		"subtitle": "Dungeons, Gamemastering",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 176](source/gamemastery_guide)",
@@ -289,7 +289,7 @@
 			"***Special Encounters:*** Finally, you can include special encounters. The easiest way to make a special encounter is to combine two or more of the archetypes listed above into a single encounter; a battle against fire elementals in a burning building is a combination combat and hazard encounter. A riddling sphinx that attacks any group that can't answer her riddle within 24 seconds is a combination puzzle and combat encounter. A [chase](rule/chases) can serve as a special encounter, as can purely roleplaying encounters. One particularly important special encounter that every dungeon should have is the \"climactic\" encounter, where the PCs confront one of the dungeon's rulers or reach the goal of their delve. A climactic encounter should usually be a deadly or epic encounter (typically with a CR of 3 or 4 above the average party level), and often combines three or more of the above archetypes (usually combat, hazard, and story)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -309,7 +309,7 @@
 	},
 	"resting_in_the_dungeon": {
 		"name": "Resting in the Dungeon",
-		"subtitle": "Dungeons, Gamemastering",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 177](source/gamemastery_guide)",
@@ -321,7 +321,7 @@
 			"If your PCs are habitual dungeon relaxers who rest after every encounter, the dungeon's inhabitants should catch on after a few naps and set up some ambushes or assaults on the characters' campsite. The goal is to keep the PCs challenged without making things hopelessly difficult, and to allow them time to recover when you feel they really need it; don't let them dictate when they'll have the luxury of a full night's sleep!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -341,13 +341,13 @@
 	},
 	"dungeon_toolbox": {
 		"name": "Dungeon Toolbox",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"An innocent facade can often hide a dark secret, and who knows what lurks behind that stuck door or beyond that rusty portcullis? When looking for a lair for your villains or the inspiration to create a new trap-filled vault, consider using the ideas below, or simply use the following tables to generate a home for a villain you didn't expect the PCs to follow"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg"
@@ -375,7 +375,7 @@
 	},
 	"dt_1": {
 		"name": "Dungeon Locations, Types and Entrances",
-		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"subtitle": "Dungeon Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-1: Places to Find Dungeons",
@@ -536,7 +536,7 @@
 			"| 99-100 | A moonbeam reveals a door in a stone circle |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg",
@@ -553,7 +553,7 @@
 	},
 	"dt_2": {
 		"name": "Dungeon Rooms",
-		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"subtitle": "Dungeon Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-4: Dungeon Rooms ",
@@ -722,7 +722,7 @@
 			"| 99-100 | Is alive |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg",
@@ -739,7 +739,7 @@
 	},
 	"dt_3": {
 		"name": "100 Pieces of Minor and Major Dungeon Dressing",
-		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"subtitle": "Dungeon Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-7: 100 Pieces of Minor and Major Dungeon Dressing",
@@ -848,7 +848,7 @@
 			"| 100 | [Whistle](equipment-misc/whistle_signal) | Wood bench |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg",
@@ -865,7 +865,7 @@
 	},
 	"dt_4": {
 		"name": "Dragon's Lair, Goblin Den, Graveyard/Necropolis",
-		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"subtitle": "Dungeon Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-8: Dragon's Lair",
@@ -956,7 +956,7 @@
 			"| 99-100 | 1 [lich](template/lich) | 12 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg",
@@ -973,7 +973,7 @@
 	},
 	"dt_5": {
 		"name": "Lost Jungle City, Planar Stronghold, Underwater Ruin",
-		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"subtitle": "Dungeon Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-11: Lost Jungle City",
@@ -1063,7 +1063,7 @@
 			"| 99-100 | 1 [kraken](monster/kraken) | 18 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg",
@@ -1080,7 +1080,7 @@
 	},
 	"dt_6": {
 		"name": "Unholy Temple, Wizard's Laboratory",
-		"subtitle": "Dungeon Toolbox, Gamemastering",
+		"subtitle": "Dungeon Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 7-14: Unholy Temple",
@@ -1142,7 +1142,7 @@
 			"| 98-100 | 1 [iron golem](monster/iron_golem) | 13 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"adventures",
 			"dungeons_gg",
@@ -4369,7 +4369,7 @@
 	},
 	"mastering_the_wild": {
 		"name": "Mastering the Wild",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 122](source/ultimate_wilderness)",
@@ -4396,7 +4396,7 @@
 			"",
 			"***Animal Companions and Familiars:*** This section expands your choices for both animal companions and familiars. Not only does it provide you with dozens of each type of companion, but it also presents guidance on magic item slots for animal companions and familiars, guidelines on plant and vermin companions, and a number of archetypes and feats for companions and familiars."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"discovery_and_exploration",
 			"the_first_world",
@@ -4414,7 +4414,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -4431,7 +4431,7 @@
 	},
 	"discovery_and_exploration": {
 		"name": "Discovery and Exploration",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 124](source/ultimate_wilderness)",
@@ -4449,7 +4449,7 @@
 			"***Way Sign:*** Way signs are events, objects, or terrain features that give a hint to find a location. Discovering a way sign, either by stumbling across one in the wild (such as by reaching a vantage point that gives an excellent view of the lay of the land, or by stumbling across an old road sign) or by researching a region beforehand (such as by consulting gazetteers, maps, or the rumor mill), can grant bonus Discovery Points or reveal the existence of previously unknown locations-but some way signs may be inaccurate or misleading."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -4472,7 +4472,7 @@
 	},
 	"the_exploration_process": {
 		"name": "The Exploration Process",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 124](source/ultimate_wilderness)",
@@ -4482,7 +4482,7 @@
 			"Once the explorers reach the territory in question, they can begin exploration and discovery. Their efforts result in the accumulation of Discovery Points, which they can spend to discover locations, and in finding way signs, which provide additional Discovery Points and sometimes also reveal the existence of further locations to be discovered. Discovery Points earned in a given territory are tied to that territory; the PCs cannot apply points earned in one territory to a new territory. The party's accumulated Discovery Points remain indefinitely, even if the PCs leave the territory and return later."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration"
 		],
@@ -4499,7 +4499,7 @@
 	},
 	"character_actions": {
 		"name": "Character Actions",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 124](source/ultimate_wilderness)",
@@ -4517,7 +4517,7 @@
 			"***Uncovering Way Signs:*** Every way sign the characters uncover has an associated skill check with a DC determined by the complexity of the way sign. The amount of time necessary to interpret a given way sign varies; some checks can be attempted with an insignificant time expenditure (such as recalling information about a territory using a Knowledge skill), while some require significant time to complete (like translating ancient texts or visiting a nearby settlement to gather information), which takes away from time spent documenting, exploring, or seeking a location. On a successful skill check, the PCs earn Discovery Points for the territory to which the way sign is linked. A simple way sign grants 1 Discovery Point, a moderately complex way sign grants 3 Discovery Points, and a complex way sign grants 5 Discovery Points. However, misinterpreting a way sign can complicate exploration; if a PC fails a check to interpret a way sign by 5 or more, the misinformation he obtains reduces the PCs' current Discovery Point total for that territory by 1d4 points. This can result in negative values. The PCs can attempt to interpret a way sign multiple times, but once they have successfully interpreted it, further attempts do not grant additional Discovery Points."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"the_exploration_process"
@@ -4530,7 +4530,7 @@
 	},
 	"additional_factors": {
 		"name": "Additional Factors",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 125](source/ultimate_wilderness)",
@@ -4546,7 +4546,7 @@
 			"***Weather:*** Inclement weather hampers exploration checks if it is the predominant weather of a given exploration period. For example, the PCs would take a -1 penalty in the case of light fog or light rain, but a -10 penalty in the case of a blizzard or hurricane."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"the_exploration_process"
@@ -4559,7 +4559,7 @@
 	},
 	"exploration_rewards_uw": {
 		"name": "Exploration Rewards",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 125](source/ultimate_wilderness)",
@@ -4571,7 +4571,7 @@
 			"***Maps and Gazetteers:*** The successful completion of a map or gazetteer can generate a monetary reward if the PCs sell their hard work back in civilization. A complete map or gazetteer of a region that has never before been explored can be sold for a number of gold pieces equal to 100 &times; the territory's CR; once a map or gazetteer of a region has been sold, further copies of a map or gazetteer of that region (regardless of whether the first item sold was a map or gazetteer) are generally worth only 10% of that value or less, depending on GM's discretion and supply and demand."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"the_exploration_process"
@@ -4584,7 +4584,7 @@
 	},
 	"creating_a_territory": {
 		"name": "Creating a Territory",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 126](source/ultimate_wilderness)",
@@ -4592,7 +4592,7 @@
 			"The steps listed below present all the information you need to generate territories for your PCs to explore. If you're using the hex-based exploration rules from Ultimate Campaign, follow these steps for every hex in your map, though you can reuse information for similar hexes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration"
 		],
@@ -4645,7 +4645,7 @@
 			"| 20 | 38 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"creating_a_territory"
@@ -4686,7 +4686,7 @@
 			"Adjustments are cumulative, but the minimum discovery score = 1."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"creating_a_territory"
@@ -4710,7 +4710,7 @@
 			"When designing a territory, you'll usually want to include at least one or two way signs, or as many as 10 in cases of large territories. If you're using hex-based exploration, treat each significant terrain feature as a territory for the purpose of deciding how many way signs to include, rather than treating each hex as its own territory. Each way sign should have a trigger that results in its discovery by the party, be it attempting to recall lore about a region, gathering information in a nearby settlement, using flight to scout the lay of the land, or uncovering an old map or journal discussing the region. Each way sign should also have an associated skill check and DC to successfully gain information or interpret the clue. For a simple way sign, this DC should equal the territory's CR + 10. For a moderately complex way sign, the DC should be equal to the territory's CR + 15. For complex way signs, the DC should be equal to the territory's CR + 20."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"creating_a_territory"
@@ -4732,7 +4732,7 @@
 			"A territory's CR sets the average CR of random encounters occurring within that territory. Numerous example encounter tables appear in the *Pathfinder RPG Bestiary*, as well as throughout [this section](rule/adventures), but your encounter tables don't need to be as complex. Usually, a short table of a half dozen or so potential encounters is enough. It's generally best to check for encounters four times per day-once at dawn, once at noon, once at dusk, and once at midnight, with a 20% chance of an encounter each time. You can even tie encounters to exploration checks, with a result of a natural 1 on such a check indicating a random encounter. Feel free to adjust the frequency of these checks and the chance of a random encounter occurring as best suits your game. Keep in mind that too many random encounters and wandering monsters can slow down the progression of your plot and can frustrate players. It's often best to limit random encounters to one per day of in-game time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration",
 			"creating_a_territory"
@@ -4795,7 +4795,7 @@
 			"| 96-100 | 2 [ghuls](monster/ghul) | 7 |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"discovery_and_exploration"
 		],
@@ -4807,7 +4807,7 @@
 	},
 	"the_first_world": {
 		"name": "The First World",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 128](source/ultimate_wilderness)",
@@ -4827,7 +4827,7 @@
 			"***Mildly Neutral-Aligned:*** The First World does not impart alignment-based Charisma check penalties to anyone."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -4851,7 +4851,7 @@
 	},
 	"history_of_the_first_world": {
 		"name": "History of the First World",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 128](source/ultimate_wilderness)",
@@ -4867,7 +4867,7 @@
 			"Whether these stories are true in totality or only in part, the fact of the First World remains: it is an ancient realm filled with mystery and danger and a reality where vast secrets and mind-expanding truths await discovery side by side with the ever-present opportunity for death and destruction. It is nature unrestrained-a primal and primeval wilderness where everything that exists does so on a grand scale."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world"
 		],
@@ -4880,7 +4880,7 @@
 	},
 	"features_and_inhabitants": {
 		"name": "Features and Inhabitants",
-		"subtitle": "The First World, Gamemastering",
+		"subtitle": "The First World, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 129](source/ultimate_wilderness)",
@@ -4894,7 +4894,7 @@
 			"Notable inhabitants of the First World include creatures of the animal, fey, plant, and vermin types. Of the fey, the most legendary of the First World denizens are the members of the [wild hunt](family/wild_hunt), but all fey have ties back to this realm. Beyond animals, fey, and plants, the following creatures are among those most often encountered in this dimension: [almirajes](monster/almiraj), [animal lords](template/animal_lord), [bandersnatches](monster/bandersnatch), [blink dogs](monster/blink_dog), [catoblepases](monster/catoblepas), [cerynitis](monster/cerynitis), [delgeths](monster/delgeth), [drakainias](monster/drakainia), [drakes (all)](family/drake), [elementals (all)](family/elemental), [elohims](monster/elohim_mythic), [ettercaps](monster/ettercap), [fachens](monster/fachen), [faerie dragons](monster/faerie_dragon), [fey creatures](type/fey), [giant eagles](monster/giant_eagle), [grodairs](monster/grodair), [grootslangs](monster/grootslang), [jabberwocks](monster/jabberwock), [jubjub birds](monster/jubjub_bird), [leucrottas](monster/leucrotta), [linnorms](family/linnorm), [manitous](monster/manitou), [pegasi](monster/pegasus), [sards](monster/sard), [shining children](monster/shining_child), [thrasfyrs](monster/thrasfyr), [thunderbirds](monster/thunderbird), [unicorns](monster/unicorn), [vishaps](monster/vishap), [wendigos](monster/wendigo), [will-o'-wisps](monster/will-o'-wisp), [worgs](monster/worg), [winter wolves](monster/winter_wolf), and [yeth hounds](monster/yeth_hound). Undead are incredibly rare in the First World, but those that do exist there tend to be powerful and unique."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world"
 		],
@@ -4908,7 +4908,7 @@
 	},
 	"the_eldest": {
 		"name": "The Eldest",
-		"subtitle": "The First World, Gamemastering",
+		"subtitle": "The First World, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 131](source/ultimate_wilderness)",
@@ -4932,7 +4932,7 @@
 			"| [Shyka](/faith/shyka) | N | The Many | Entropy, reincarnation, time | [Death](domain/death), [Destruction](domain/destruction), [Madness](domain/madness), [Magic](domain/magic) | Arcane, Catastrophe, Divine, Insanity | [Light mace](equipment-weapon/light_mace) |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world",
 			"features_and_inhabitants"
@@ -4941,7 +4941,7 @@
 	},
 	"getting_to_the_first_world": {
 		"name": "Getting to the First World",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 130](source/ultimate_wilderness)",
@@ -4949,7 +4949,7 @@
 			"The First World is a coterminous plane and therefore overlaps the Material Plane, but unlike the Shadow Plane, the First World does not mimic the Material Plane's geography. [Ley lines](rule/ley_lines), supernatural conduits that connect the planes and channel experiences, magic, memories, and the souls of the dead and the unborn through them, crisscross the First World just as they do the Material Plane. Unlike those on the Material Plane, ley lines found in the First World do not stay in one place for long and typically wander vast distances, writhing through the world like disquieted snakes. Where these ley lines penetrate the barrier between the First World and the Material Plane, thin spots known as breaches form, allowing passage between the First World and the Material Plane without the aid of magic. These breaches typically manifest as circles of mushrooms, puddles of water with a rainbow-hued surface, trees in a peculiar arch, or other seemingly innocuous patterns. Simply stepping through one of these portals is often enough to travel from one plane to the other, but breaches are not always two-sided. Some doorways to the Material Plane are one-way, stranding extraplanar travelers in a seemingly dull and lifeless world, while Material visitors to the First World could be stranded for decades or more as they try to find a way back home. Other means of traveling to and from the First World include powerful spells such as [fey gate](spell/fey_gate), [gate](spell/gate), and [plane shift](spell/plane_shift)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world"
 		],
@@ -4962,7 +4962,7 @@
 	},
 	"hazards_of_the_first_world": {
 		"name": "Hazards of the First World",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 130](source/ultimate_wilderness)",
@@ -4970,7 +4970,7 @@
 			"In the First World, the terrain itself can be as dangerous as any denizen. The following are just a handful of hazards found on the borders of or within this fey realm. These hazards can also manifest on the Material Plane in areas where ley lines from the First World cross over and weaken the boundaries between realms."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world"
 		],
@@ -4988,7 +4988,7 @@
 	},
 	"phantom_ring_cr_9": {
 		"name": "Phantom Ring",
-		"subtitle": "The First World, Gamemastering",
+		"subtitle": "The First World, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 130](source/ultimate_wilderness)",
@@ -5008,7 +5008,7 @@
 			"Once a creature escapes from a phantom ring, the hazard relocates to a random location within 1d6 miles."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world",
 			"hazards_of_the_first_world"
@@ -5021,7 +5021,7 @@
 	},
 	"pixie_pollen_cr_2": {
 		"name": "Pixie Pollen",
-		"subtitle": "The First World, Gamemastering",
+		"subtitle": "The First World, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 131](source/ultimate_wilderness)",
@@ -5039,7 +5039,7 @@
 			"The effects of pixie pollen are supernatural, mind-affecting sleep effects."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world",
 			"hazards_of_the_first_world"
@@ -5052,7 +5052,7 @@
 	},
 	"weeping_waste_cr_10": {
 		"name": "Weeping Waste",
-		"subtitle": "The First World, Gamemastering",
+		"subtitle": "The First World, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 132](source/ultimate_wilderness)",
@@ -5070,7 +5070,7 @@
 			"Even for creatures able to resist the depths of depression, traveling through a weeping waste instills an insidious loneliness and melancholy that leaves sentient humanoids desperate for friendly contact. They become blindly trusting, taking a -5 penalty on Sense Motive checks and a -2 penalty on saves against charm effects, and they take a -5 penalty on initiative checks if combat begins directly after they converse with an intelligent creature. This lonely desperation persists for 1d4 days after leaving the weeping waste."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"the_first_world",
 			"hazards_of_the_first_world"
@@ -5083,7 +5083,7 @@
 	},
 	"foraging_and_salvaging": {
 		"name": "Foraging and Salvaging",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 134](source/ultimate_wilderness)",
@@ -5091,7 +5091,7 @@
 			"When far from the crafters and the markets of the city, an adventurer needs to have skill in foraging and salvaging to acquire materials and repair useful gear."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -5113,7 +5113,7 @@
 	},
 	"foraging": {
 		"name": "Foraging",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 134](source/ultimate_wilderness)",
@@ -5160,7 +5160,7 @@
 			"***Swift Foraging:*** A character can attempt to forage more quickly by increasing the required DC by 10; doing so cuts the time taken to forage in half."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"foraging_and_salvaging"
 		],
@@ -5171,7 +5171,7 @@
 	},
 	"salvaging": {
 		"name": "Salvaging",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 134](source/ultimate_wilderness)",
@@ -5189,7 +5189,7 @@
 			"***Costly Spell Components:*** Anyone trained in Spellcraft can salvage costly material or focus spell components from magic items. Each attempt requires destroying the item and 8 hours of work. An item can be broken down into a powder that can be used in place of gemstone dust as a material component. Otherwise, the item must have a spell requiring the component in its construction requirements to salvage that component. A successful Spellcraft check with a DC equal to 10 + the item's caster level yields materials usable in place of that spell component worth two-thirds the item's creation cost (one-third its market price). If you fail the check by 4 or less, the item is destroyed without yielding spell components, but you can try to salvage them again. If you fail the check by 5 or more, the item is destroyed and the spell components are ruined."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"foraging_and_salvaging"
 		],
@@ -5200,7 +5200,7 @@
 	},
 	"harvesting_poisons": {
 		"name": "Harvesting Poisons",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"**Source** [Ultimate Wilderness pg. 142](source/ultimate_wilderness)",
@@ -5224,7 +5224,7 @@
 			"***Preserving Harvested Poison:*** Poison harvested from a creature or hazard remains potent for 24 hours. If a character wishes to preserve harvested poison for a longer period, she must treat it alchemically, as if crafting the poison with Craft (alchemy) but using the poison dose as the raw ingredients normally needed to brew a dose of the poison and thus avoiding the gp cost to craft the poison."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [ "crafting_antivenom" ],
@@ -5243,7 +5243,7 @@
 	},
 	"crafting_antivenom": {
 		"name": "Crafting Antivenom",
-		"subtitle": "Wilderness, Gamemastering",
+		"subtitle": "Wilderness, Gamemastery",
 		"tags": "poison",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -5262,7 +5262,7 @@
 			"***Purchasing Antivenom:*** Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"harvesting_poisons"
 		],
@@ -5278,7 +5278,7 @@
 			"The wilderness can be a dangerous place. Monsters roam and hunt within their territories, barbarians protect their settlements with frightening force, and sudden shifts in the weather can overwhelm the unprepared or unlucky explorer. But sometimes the landscape itself presents dangers that dwarf all others. The following are just a few ways that the environment can challenge hapless adventurers in the wild."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -5322,7 +5322,7 @@
 			"A 5-foot square of brambles has AC 5 and hardness 2. A 5-foot square of light brambles has 30 hit points, while a 5-foot square of heavy brambles has 60 hit points. If a square of heavy brambles is reduced to 30 or fewer hit points, it functions as a square of light brambles instead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5365,7 +5365,7 @@
 			"***Structures:*** Most wood or masonry buildings collapse during an earthquake. Structures built of stone or reinforced masonry take 100 points of damage that is not reduced by hardness. Large structures such as castles might not collapse outright, but certain features such as towers or entire sections of a wall might. Creatures caught in a structure that is destroyed suffer collapse effects."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5406,7 +5406,7 @@
 			"***Freezing Eruption (CR 5):*** Freezing gouts of super-chilled air erupt from small vents in the ground, blasting a 5-foot square with subzero temperatures. A creature occupying the square must succeed at a DC 15 Reflex save to avoid the freezing eruption. On a failed save, the creature takes 2d6 points of cold damage and becomes entangled, as it is encrusted with ice. A creature can break free from the encrusting ice with a successful DC 20 Escape Artist or Strength check, but it takes 1d4 points of cold damage at the start of each turn it remains encrusted. The encrusting ice melts away in 1d6 rounds in regions where the ambient temperature is above freezing. Freezing eruptions occur from the same vent every 1d4 minutes. A square containing a freezing eruption can be identified by the shards of ice around it with a successful DC 20 Knowledge (nature) or Survival check."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5453,7 +5453,7 @@
 			"Some bodies of flowing water are rife with large rocks, logs, and other debris that can prove dangerous to those pulled into the current. In such conditions, a creature or vehicle being moved by the current at a rate of 60 feet per round or more takes 2d6 points of bludgeoning damage per round from such obstacles, plus an additional 1d6 points of damage for every 10 feet beyond 60 that the current moves per round."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5496,7 +5496,7 @@
 			"***Mud Pot (CR 1):*** Mud pots are springs that mostly contain hot bubbling mud instead of water. The mud's color depends on the amount and type of minerals in the mud. Mud pots range widely in size and depth, with many found in clusters. Gases from within the earth can cause mud pots to boil over or shoot mud a short distance into the air. Exposure to a mud pot deals 1d3 points of acid damage and 1d3 points of fire damage per round of exposure. Total immersion in a mud pot deals 1d6 points of acid damage and 1d6 points of fire damage per round; damage continues for 1 round after total immersion, but this additional damage is only 1d3 points of acid damage and 1d3 points of fire damage. Moving through a mud pot is like moving through a [bog](rule/marsh_terrain)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5525,7 +5525,7 @@
 			"Glittering fields of fresh snow can pose a danger to unprepared travelers during the daylight hours, as the sun reflecting from the fields of white can be dazzling or even blinding. Travelers through such areas risk having their eyes become sunburned-a condition known as snow blindness. A creature in an area of reflective snow is automatically dazzled, and for each hour it spends in such an area, it must succeed at a DC 15 Fortitude save or succumb to snow blindness, becoming blind for 24 hours. Wearing protective eye gear that reduces the amount of sunlight hitting the eyes negates the dazzled condition and the chance of developing snow blindness. A character can reduce the duration of snow blindness to 1d6 hours with a successful DC 20 Heal check as long as she keeps her eyes covered or wears protective eye gear. Spells such as [remove blindness/deafness](spell/remove_blindness_deafness) heal snow blindness immediately. Creatures that are particularly susceptible to bright light take a -4 penalty on saves to resist snow blindness. To a lesser extent, staring out over vast stretches of sunlit water or desert can have the same effects as staring at reflective snow, but the save to avoid blindness in this case is only DC 10."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5556,7 +5556,7 @@
 			"An area of spellgorging plants can be identified with a successful DC 15 Knowledge (arcana), Knowledge (nature), or Survival check due to the unusual colors and shapes of the surrounding flora. Most animals avoid eating spellgorging plants because of their bizarre and unpleasant taste. A creature consuming a spellgorging plant must succeed at a DC 20 Fortitude save or become sickened for 1d4 hours. A spellgorging plant loses its ability to consume magic if it is destroyed-spellgorging plants have SR 20 for the purposes of resisting magical spell effects, but they otherwise have normal hit points and hardness for plants of their type."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5602,7 +5602,7 @@
 			"When ice gives way, a hole of a size equal to the creature's space opens in the ice. A creature falling into the nearfreezing water beneath the ice is treated as if it were in an area of extreme cold, and on the round it plunges into the water, it must also succeed at a DC 15 Swim check or be submerged beneath the water and trapped beneath the ice, unable to surface. A creature trapped beneath the ice can attempt to break through with a Strength check (the break DC depends on the ice's thickness, as indicated on Table 4-7), or it can attempt to swim to an opening in the ice (although unless the creature is able to see in the darkness beneath the ice, it might have trouble finding its way to where an opening is). A submerged creature that is adjacent to the edge of the break in the ice can attempt a DC 20 Climb check to pull itself out, although keep in mind that ice adjacent to a break is fragile and could shatter in turn."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5631,7 +5631,7 @@
 			"Uniquely beautiful in appearance, vampire orchids grow in large clusters in meadows or on hilltops where they can get plenty of sunlight. Their vivid petals range in a hue of wild and clashing colors with frequent splotches of crimson on the petals. Vampire orchids can be exceedingly dangerous to the unwary due to their unusual pollination methods. A creature traveling through a cluster of vampire orchids must attempt a DC 15 Reflex save or a DC 20 Acrobatics check. Failure causes the tremors from the creature's footsteps to release soporific pollen from the orchids' blossoms, forcing the creature to attempt a DC 15 Fortitude save to avoid falling asleep for 1 minute. A helpless or sleeping creature takes 1d4 points of damage at the end of each round it remains in contact with vampire orchids' this damage does not cause physical pain and is not in and of itself enough to wake a sleeping creature."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5678,7 +5678,7 @@
 			"***Volcanic Lightning:*** Ash clouds can generate powerful lightning strikes. These strikes typically deal between 4d8 and 10d8 points of electricity damage and are unusually difficult to dodge (Reflex half, DC = 15 + number of damage dice)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"hazards_and_disasters"
 		],
@@ -5721,7 +5721,7 @@
 			"You can find herbs under [miscellaneous equipment](main/equipment_misc)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"siblings": [
@@ -5751,7 +5751,7 @@
 			"*Pathfinder RPG Ultimate Intrigue* features a section called [Spells of Intrigue](rule/spells_of_intrigue). Applications of several intrigue-themed spells are also appropriate for wilderness campaigns. Intrigue-themed spells that are particularly appropriate for wilderness-heavy campaigns but were covered in that book include the following: [blood biography](spell/blood_biography), [commune with nature](spell/commune_with_nature), [create treasure map](spell/create_treasure_map), [detect poison](spell/detect_poison), [find the path](spell/find_the_path), [locate creature](spell/locate_creature), [speak with animals](spell/speak_with_animals), [speak with plants](spell/speak_with_plants), and [stone tell](spell/stone_tell)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -5782,7 +5782,7 @@
 			"Many wilderness-appropriate spells are available as early as 1st level. These low-level spells are often disregarded, as many of them can be substituted with class abilities, equipment, and skills. Still, low-level spells (those of 3rd level and lower) can remain useful at high levels, especially because high-level characters can cast them far more frequently."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild"
 		],
@@ -5818,7 +5818,7 @@
 			"At a cost of 11,250 gp, a [wand of neutralize poison](spell/neutralize_poison) makes for a practical, if unusual, weapon. When added into the arsenal of mobile melee classes, specifically those with ranks in Use Magic Device or supplementary spellcaster levels, such wands can be used to disable the poisons of wilderness-dwelling creatures. The forfeiture of an attack in order to strike a foe with a poison-neutralizing wand could mean the difference between life and death for a character who is facing repeated applications of poison."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"low-level_play_levels_1-6"
@@ -5844,7 +5844,7 @@
 			"[Detect Snares and Pits](spell/detect_snares_and_pits): As a concentration effect, this spell is more useful in low-stress situations. It cuts down on some of the monotony of having PCs attempt repeated Perception checks, but the spell's specific detection parameters mean that some skill checks are still required."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"low-level_play_levels_1-6"
@@ -5870,7 +5870,7 @@
 			"[Calm Animals](spell/calm_animals), [Charm Animal](spell/charm_animal), and [Dominate Animal](spell/dominate_animal): Spells that can adjust the attitudes of animals have obvious uses as deterrents when traversing through wilderness environments. Simply calming or charming animals is often sufficient to travel through an area without harassment, while more powerful spells such as [dominate animal](spell/dominate_animal) can be used to deal with more dangerous or more immediate threats. Another insidious use of this magic is to subvert the loyal animal companions of foes. The ability to charm or dominate an animal companion of an opponent can significantly reduce the challenge of an encounter, while simultaneously presenting that foe the moral quandary of how to handle its wayward companion."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"low-level_play_levels_1-6"
@@ -5908,7 +5908,7 @@
 			"[Whispering Wind](spell/whispering_wind): While [sending](spell/sending) requires 10 minutes to cast, [whispering wind](spell/whispering_wind) takes only a standard action. Use of this spell doesn't guarantee a successful transmission though, as it requires the caster to be knowledgeable of a specific location within range, but even then, there's no guarantee that the intended recipient is at the designated location. It's also entirely possible that if the PCs find themselves camping at an easily identifiable landmark, they might become the unintended recipients of a [whispering wind](spell/whispering_wind) message. Mistakenly receiving a message in this manner could spark a new adventure or entire campaign, especially when you consider that [whispering wind](spell/whispering_wind) often revolves around the need to get a message out in a quick and urgent manner."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"low-level_play_levels_1-6"
@@ -5930,7 +5930,7 @@
 			"At the middle tier of spellcasting, many spells with wilderness themes revolve around control effects. While most of them have been previously detailed (see [Spells of Intrigue](rule/spells_of_intrigue) and thus are not covered below, mid-level divination spells are plentiful."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild"
 		],
@@ -5959,7 +5959,7 @@
 			"**Repel Vermin:** [Repel vermin](spell/repel_vermin) is similar to [antilife shell](spell/antilife_shell), but it takes up a lower-level spell slot and requires less time to cast. While the field created by this spell can be bypassed with a successful Will save, it still deals damage to vermin managing to traverse it-a particularly powerful effect against large numbers of enemies with few hit points. Perhaps the most enticing use of [repel vermin](spell/repel_vermin) is its ability to diminish the effectiveness of vermin swarms."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"mid-level_play_levels_7-12"
@@ -5986,7 +5986,7 @@
 			"[Wall of Stone](spell/wall_of_stone) and [Wall of Thorns](spell/wall_of_thorns): Both of these spells allow for the creation of walls to divide a battlefield. Walls made of stone have the benefit of adjoining to existing stone-a plentiful terrain feature in most wilderness environs. Since this spell has a duration of instantaneous, [wall of stone](spell/wall_of_stone) creates long-lasting defenses. Such walls can cut off tight-knit groups in confined areas, though creatures in the path of a forming wall can attempt a Reflex save to avoid entrapment. [Wall of thorns](spell/wall_of_thorns) creates a temporary effect, and while it doesn't block off terrain as dependably as [wall of stone](spell/wall_of_stone), it covers twice the space of a stone wall and doesn't allow a Reflex save. [Wall of thorns](spell/wall_of_thorns) can be used to deadly effect when sculpted to cover larger area. These walls can be combined with area effects, such as [cloudkill](spell/cloudkill) or [insect plague](spell/insect_plague), to devastate foes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"mid-level_play_levels_7-12"
@@ -6023,7 +6023,7 @@
 			"[Transmute Rock to Mud](spell/transmute_rock_to_mud): Transforming large areas of unworked rock into mud creates effectively impassable terrain. Most creatures trapped in a transmuted area of mud reduce their base speed to 5 feet. Considering the vast area that even a minimum caster can affect, this mud acts as a slowing effect on all creatures without a means of flying or levitating. The most effective, and oftentimes unexpected, use of this spell is when it's used on the ceiling of a cavern. Along with creating an area of mobility-restricting terrain, the collapsing mud deals a hefty sum of damage to creatures caught underneath the falling deluge. Keep in mind that transmuted mud can be dispelled, with effects similar to a casting of [transmute mud to rock](spell/transmute_mud_to_rock)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild",
 			"mid-level_play_levels_7-12"
@@ -6056,7 +6056,7 @@
 			"[Transmute Metal to Wood](spell/transmute_metal_to_wood): An instantaneous effect, [transmute metal to wood](spell/transmute_metal_to_wood) affects all metal items within a large radius. While the spell doesn't allow any sort of saving throw, it does treat magic items affected by the spell as if they had significant spell resistance, meaning [Spell Penetration](feat/spell_penetration) and [Greater Spell Penetration](feat/greater_spell_penetration) increase the effectiveness of the spell by a wide margin. This spell also specifies that it affects only objects-so no using it against [iron golems](monster/iron_golem)! [Transmute metal to wood](spell/transmute_metal_to_wood) is at its best when employed by [druids](class/druid), as a druid often has few (if any) metal items in her possession, allowing the caster to center the spell on herself if threatened by numerous metal-clad foes. Teaming this spell with the [repel wood](spell/repel_wood) is a powerful combo that keeps metal-wielding foes on the defensive."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"spells_of_the_wild"
 		],
@@ -6084,7 +6084,7 @@
 			"As with all content that might be uncomfortable for some players, you should make sure to have your table's consent before introducing the harvesting of trophies into your game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -6124,7 +6124,7 @@
 			"***Creating Trophies:*** Once trophy components are harvested, they generally remain viable for 24 hours before decay or spoilage ruins them. Application of gentle repose, oil of timelessness, or similar magic can extend this period of decay. In order to turn components harvested from a creature into a long-lasting trophy, a character must attempt a check with an appropriate Craft skill (the exact skill varies according to the nature of the trophy the character is creating, but it is usually one from the following list: alchemy, jewelry, leather, or taxidermy) to preserve the components and turn them into a trophy. The DC of this check is equal to 15 + the creature's CR."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"trophies_and_treasures"
 		],
@@ -6159,7 +6159,7 @@
 			"| Colossal | 1d6 &times; 100 lbs. |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"trophies_and_treasures"
 		],
@@ -6207,7 +6207,7 @@
 			"| 20 | 13,000 gp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"trophies_and_treasures"
 		],
@@ -6320,7 +6320,7 @@
 			"**Affinity** The spinnerets of a creature capable of using [web](umr/web) as per the universal monster rule can be used in the creation of any magic item that has [spider climb](spell/spider_climb) or [web](spell/web) as a requirement."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"trophies_and_treasures"
 		],
@@ -6348,7 +6348,7 @@
 			"Temperatures of 40&deg; F and lower or 90&deg; F or higher are hazardous, growing more dangerous the more extreme they become. Without the benefit of [endure elements](spell/endure_elements) or some other form of protection, characters exposed to temperatures beyond these ranges run the risk of taking damage and suffering other effects. The effects of [cold dangers](rule/cold_dangers) and [heat dangers](rule/heat_dangers) are in the Pathfinder RPG Core Rulebook."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [
@@ -6379,7 +6379,7 @@
 			"When determining weather for a region in your campaign, your first step is to establish the weather baseline for the region. The weather baseline is influenced by the region's climate (this sets the baseline temperature), elevation (this provides the baseline precipitation intensity), and season (this affects the temperature and dictates the baseline precipitation frequency)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness"
 		],
@@ -6420,7 +6420,7 @@
 			"| Tropical | 50&deg; F | 75&deg; F | 95&deg; F | 75&deg; F | Increase frequency and intensity by one step |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"weather_baseline"
@@ -6455,7 +6455,7 @@
 			"| Highland | Above 5,000 ft. | -10&deg; F | Medium (decrease precipitation frequency by one step) |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"weather_baseline"
@@ -6487,7 +6487,7 @@
 			"| Winter | Rare | Rare |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"weather_baseline"
@@ -6508,7 +6508,7 @@
 			"Once you have established weather baselines for a region and adjust them to match the elevation and season, the next step is to breathe life into the weather by determining the temperature's variation from the adjusted baseline and the daily precipitation. With this system, you can build out weather patterns and events as far as you want into the future. If the PCs will be in a region for some time, it's a good idea to plan out the weather's variations and events at least a week in advance so if a character tries to use Survival to predict the weather, you'll have information to work with. On the other hand, if you know the PCs are going to be in a region for only a few days, planning our a full week of weather isn't necessary. And of course, you can randomly generate weather on a day-by-day basis if you're comfortable with the possibility of an unexpected turn complicating the game's other events."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness"
 		],
@@ -6570,7 +6570,7 @@
 			"| 86-100 | +2d10&deg; F | 1d2 days days |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"temperature_variations_and_precipitation"
@@ -6746,7 +6746,7 @@
 			"| 91-100 | Windstorm |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"temperature_variations_and_precipitation"
@@ -6766,7 +6766,7 @@
 			"While temperature and precipitation are important aspects of weather, other details can add further danger and drama. Powerful winds can complicate weather, cloud cover can obscure vision, and special, often destructive weather events can cause incredible mayhem and widespread devastation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness"
 		],
@@ -6813,7 +6813,7 @@
 			"***Skill Penalty:*** This is the penalty for skill checks that can be affected by the wind. These penalties always apply on Fly checks and sound-based Perception checks, but GMs may also wish to apply them on Acrobatics checks, Climb checks, and any other ability or skill checks that could be adversely affected by winds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"weather_details"
@@ -6843,7 +6843,7 @@
 			"| 86-100 | Overcast |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"weather_details"
@@ -6883,7 +6883,7 @@
 			"***Wildfire:*** While wildfires can be sparked a number of ways, for these rules, they are usually created by a lightning strike in a particularly dry area of forest or other vegetation. Use the rules for [forest fires](rule/forest_fires_cr_6), but add a 10% chance of the fire producing 1d6 firenados (see Tornado above)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"weather_in_the_wilderness",
 			"weather_details"
@@ -6906,7 +6906,7 @@
 			"As with all expansions to the rules, make sure to secure your GM's approval before selecting your character's animal companion or familiar-not all of the options presented on the following pages are appropriate for every campaign or every game world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild"
 		],
 		"subtopics": [ "magic_item_slots" ],
@@ -7021,7 +7021,7 @@
 			"**Familiars** [blue-ringed octopus](monster/blue-ringed_octopus), [butterfly](monster/butterfly), [cockroach](monster/cockroach), [creeper ivy](monster/creeper_ivy), [dweomer cap](monster/dweomer_cap), [flowering lattice](monster/flowering_lattice), [giant isopod](monster/giant_isopod), [giant tardigrade](monster/giant_tardigrade), [greensting scorpion](monster/greensting_scorpion), [house centipede](monster/house_centipede), [ioun wyrd](monster/ioun_wyrd), [king crab](monster/king_crab), [leopard slug](monster/leopard_slug), [moth](monster/moth), [petrifern](monster/petrifern), [ravenous tumbleweed](monster/ravenous_tumbleweed), [razor fern](monster/razor_fern), [sawleg locust](monster/sawleg_locust), [scarlet spider](monster/scarlet_spider), [shimmerwing dragonfly](monster/shimmerwing_dragonfly), [spiny starfish](monster/spiny_starfish), [suture vine](monster/suture_vine), [trilobite](monster/trilobite), [vampire squid](monster/vampire_squid)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"mastering_the_wild",
 			"companions_and_familiars"
 		],

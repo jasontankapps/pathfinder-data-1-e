@@ -2906,7 +2906,7 @@
 			"",
 			"Additionally, when you are in a settlement no smaller than a small city and are seeking a magic item with a value equal to or less than the city's base value and the item is not available, you can check again after 1 day (rather than 1 week).",
 			"",
-			"If using the contact rules you gain a single reliable contact each time you enter a settlement no smaller than a small city. This contact is randomly determined to be a fence, gossip, manipulator, merchant, petty criminal, snitch, or thug. The contact operates only within that city, and if the contact's Trust score goes down, it immediately drops to 1."
+			"If using the contact rules you gain a single reliable contact each time you enter a settlement no smaller than a small city. This contact is randomly determined to be a fence, gossip, manipulator, merchant, petty criminal, snitch, or thug. The contact operates only within that city, and if the contact's [Trust score](rule/trust) goes down, it immediately drops to 1."
 		]
 	},
 	"gun_twirling": {

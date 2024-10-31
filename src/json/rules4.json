@@ -1,7 +1,7 @@
 {
 	"basics_from_the_core_rulebook": {
 		"name": "Basics from the Core Rulebook",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -20,7 +20,7 @@
 			"",
 			"***Player:*** Just because he's playing dozens of characters during the course of a session doesn't make him any less a player than the others who sit at the table."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"starting_a_campaign",
 			"published_adventures",
@@ -36,7 +36,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -53,7 +53,7 @@
 	},
 	"starting_a_campaign": {
 		"name": "Starting a Campaign",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -67,7 +67,7 @@
 			"Of course, the backbone of any campaign is the adventures that comprise it, be they an intricately connected series of plots and storylines or an open-ended sandbox of possibility. But where do these adventures come from? There are, essentially, two sources for adventures. You can build your own from scratch, or you can run a published adventure. Both options have different pros and cons, and you certainly don't have to limit yourself to only one choice for the duration of a campaign."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"siblings": [
@@ -83,7 +83,7 @@
 	},
 	"published_adventures": {
 		"name": "Published Adventures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -93,7 +93,7 @@
 			"The most important thing to remember when using a published adventure, though, is that the writer of the adventure doesn't know your group the way you know your group. If you know your players are particularly paranoid and assume all helpful NPCs are out to get them, then a published adventure about a kindly cleric who's actually a shapechanged demon probably won't work well for your group. Feel free to change published adventures as you see fit, either while you're reading them or during play. If, for example, one of your players has written into his character's backstory that his father was killed by an orc warlord and he became an adventurer to someday get revenge on that orc, go ahead and change the hobgoblin warlord in the adventure into an orc. Adapting adventures to your group and your play style in this manner is an important part of running published adventures, since it customizes the experience to your group and makes it all the more enjoyable."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"siblings": [
@@ -109,7 +109,7 @@
 	},
 	"building_an_adventure": {
 		"name": "Building an Adventure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 396](source/prpg_core_rulebook)",
@@ -121,7 +121,7 @@
 			"Whatever you decide to do in your adventure, there are three elements that, if you prepare them beforehand, will save you a lot of time and anguish in the end: stat blocks, encounters, and treasure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"subtopics": [
@@ -142,7 +142,7 @@
 	},
 	"stat_blocks": {
 		"name": "Stat Blocks",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 397](source/prpg_core_rulebook)",
@@ -152,7 +152,7 @@
 			"The *Pathfinder RPG Bestiary* provides [more than 300](main/monsters) pre-made monster stat blocks for use in adventures, and that's just the beginning: you can use stat blocks from other monster bestiaries or adventures just as easily in your game. One good trick is to copy a stat block onto a 3x5 card or into a small document you can easily bring up on your computer during the game-you can keep these cards and documents forever to reuse them as needed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
@@ -164,7 +164,7 @@
 	},
 	"designing_encounters": {
 		"name": "Designing Encounters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 397](source/prpg_core_rulebook)",
@@ -256,7 +256,7 @@
 			"***NPC Gear Adjustments:*** You can significantly increase or decrease the power level of an NPC with class levels by adjusting the NPC's gear. The combined value of an NPC's gear is given in on [Table 14-9](rule/step_6_gear). A classed NPC encountered with no gear should have his CR reduced by 1 (provided that loss of gear actually hampers the NPC), while a classed NPC that instead has gear equivalent to that of a PC (as listed on [Table 12-4](rule/placing_treasure)) has a CR of 1 higher than his actual CR. Be careful awarding NPCs this extra gear, though-especially at high levels, where you can blow out your entire adventure's treasure budget in one fell swoop!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
@@ -271,7 +271,7 @@
 	},
 	"awarding_experience": {
 		"name": "Awarding Experience",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 399](source/prpg_core_rulebook)",
@@ -287,7 +287,7 @@
 			"***Story Awards:*** Feel free to award Story Awards when players conclude a major storyline or make an important accomplishment. These awards should be worth double the amount of experience points for a CR equal to the APL. Particularly long or difficult story arcs might award even more, at your discretion as GM."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure",
 			"designing_encounters"
@@ -296,7 +296,7 @@
 	},
 	"placing_treasure": {
 		"name": "Placing Treasure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 399](source/prpg_core_rulebook)",
@@ -364,7 +364,7 @@
 			"&ast; [Average Party Level](rule/designing_encounters)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
@@ -379,7 +379,7 @@
 	},
 	"building_a_treasure_hoard": {
 		"name": "Building a Treasure Hoard",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 400](source/prpg_core_rulebook)",
@@ -429,7 +429,7 @@
 			"| Major Item | 40,000 gp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"building_an_adventure",
 			"placing_treasure"
@@ -438,7 +438,7 @@
 	},
 	"preparing_for_the_game": {
 		"name": "Preparing for the Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 401](source/prpg_core_rulebook)",
@@ -452,7 +452,7 @@
 			"Make sure that accommodations are met. If your game session's going to last a long time, think about where folks can go for lunch or dinner-if you're planning on providing food, make sure it's ready to go before the game begins. Many tables organize responsibilities among the players-if a GM hosts the game at his house, the players might split up the task of providing drinks, snacks, or meals. Try to use common sense here-while it's tempting to load up with potato chips and soda pop, gaming is no excuse for poor health! Of course, if your home is not the hosting site for the game, that doesn't let you off the hook. You as GM are the organizing force for the gathering-you're technically throwing the party, and it's your responsibility to see that your players have a comfortable, enjoyable place to game, otherwise the game itself will suffer."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"siblings": [
@@ -468,7 +468,7 @@
 	},
 	"during_the_game": {
 		"name": "During the Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 402](source/prpg_core_rulebook)",
@@ -510,7 +510,7 @@
 			"See also: [GameMastery Guide - During the Game](rule/during_the_game_gg)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"siblings": [
@@ -526,7 +526,7 @@
 	},
 	"campaign_tips": {
 		"name": "Campaign Tips",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 404](source/prpg_core_rulebook)",
@@ -544,7 +544,7 @@
 			"Yet still, the lure of building an entire campaign setting is great. In a lot of ways, creating your own world is like an entirely different game in and of itself-a Game Master thus gets to play the game more often than his players, since when the actual session isn't going, the GM gets to design cities and evil temples and nations and dungeons and monsters to his heart's content. The remainder of this section covers a number of different topics to aid you. These topics barely scratch the surface of the implications and ideas you'll be facing when creating your own campaign world, but they can get you started."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"subtopics": [
@@ -564,7 +564,7 @@
 	},
 	"cost_of_living": {
 		"name": "Cost of Living",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 405](source/prpg_core_rulebook)",
@@ -582,7 +582,7 @@
 			"***Extravagant (1,000 gp/month):*** The PC lives in a mansion, castle, or other extravagant home-he might even own the building in question. This is the lifestyle of most aristocrats. He can secure any nonmagical item worth 25 gp or less from his belongings in his home in 1d10 minutes. He need only track purchases of meals or taxes in excess of 100 gp."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"campaign_tips"
 		],
@@ -593,7 +593,7 @@
 	},
 	"monstrous_characters": {
 		"name": "Monstrous Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 405](source/prpg_core_rulebook)",
@@ -607,7 +607,7 @@
 			"[A list of playable races can be found here.](main/races)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"campaign_tips"
 		],
@@ -618,7 +618,7 @@
 	},
 	"ending_the_campaign": {
 		"name": "Ending the Campaign",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 406](source/prpg_core_rulebook)",
@@ -632,7 +632,7 @@
 			"Setting level caps of lower than 20th allows you to use them as soft limits-if your campaign's story arc goes beyond what you'd originally planned, your players can continue to gain levels and new abilities beyond what you estimated. Since the classes presented here don't have additional rules provided beyond 20th level, setting a campaign arc to end at 20th level requires great timing and, invariably, some manipulation on your part as GM to make sure the story winds up before the PCs reach enough XP to theoretically hit 21st level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"subtopics": [ "beyond_20th_level" ],
@@ -649,7 +649,7 @@
 	},
 	"beyond_20th_level": {
 		"name": "Beyond 20th Level",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 406](source/prpg_core_rulebook)",
@@ -673,7 +673,7 @@
 			"***Multiclassing/Prestige Classes:*** The simplest way to progress beyond 20th level is to simply multiclass or take levels in a prestige class, in which case you gain all of the abilities of the new class level normally. This effectively treats 20th level as a hard limit for class level, but not as a hard limit for total character level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"ending_the_campaign"
 		],
@@ -681,7 +681,7 @@
 	},
 	"creating_npcs": {
 		"name": "Creating NPCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 448](source/prpg_core_rulebook)",
@@ -691,7 +691,7 @@
 			"The world that the player characters inhabit should be full of rich and vibrant characters with whom they can interact. While most need little more than names and general descriptions, some require complete statistics, such as town guards, local clerics, and wizened sages. The PCs might find themselves in combat with these characters, either against them or as allies. Alternatively the PCs might find themselves relying on the skills and abilities of the NPCs. In either case, the process for creating these NPCs can be performed in seven simple steps."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook"
 		],
 		"subtopics": [
@@ -717,7 +717,7 @@
 	"step_1_the_basics_step_2_determine_ability_scores": {
 		"name": "Steps 1 and 2: Basic Info and Determine Ability Scores",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 450](source/prpg_core_rulebook)",
@@ -759,7 +759,7 @@
 			"&ast; Half-elves, half-orcs, and humans receive a +2 bonus to one ability score of your choice."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -776,7 +776,7 @@
 	"step_3_skills": {
 		"name": "Step 3: Skills",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 451](source/prpg_core_rulebook)",
@@ -810,7 +810,7 @@
 			"&ast; Humans receive one additional skill selection."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -827,7 +827,7 @@
 	"step_4_feats": {
 		"name": "Step 4: Feats",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 452](source/prpg_core_rulebook)",
@@ -857,7 +857,7 @@
 			"***Skill (most NPC classes):*** [Armor](feat/light_armor_proficiency) [Proficiency](feat/medium_armor_proficiency) [(all)](feat/heavy_armor_proficiency), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Martial Weapon Proficiency](feat/martial_weapon_proficiency), [Run](feat/run), [Shield Proficiency](feat/shield_proficiency), [Skill Focus](feat/skill_focus), and [Toughness](feat/toughness)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -874,7 +874,7 @@
 	"step_5_class_features": {
 		"name": "Step 5: Class Features",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 453](source/prpg_core_rulebook)",
@@ -884,7 +884,7 @@
 			"When it comes to spells, determine how many spell selections you need to make for each level. Choose a variety of spells for the highest two levels of spells possessed by the NPC. For all other levels, stick to a few basic spells, prepared multiple times (if possible). If this NPC is slated to appear in only one encounter (such as a combat), leaving off lower-level spells entirely is an acceptable way to speed up generation, especially if the NPC is unlikely to cast those spells. You can always choose a few during play if they are needed."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -901,7 +901,7 @@
 	"step_6_gear": {
 		"name": "Step 6: Gear",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 453](source/prpg_core_rulebook)",
@@ -947,7 +947,7 @@
 			"| - | 20 | 159,000 gp | 55,000 gp | 40,000 gp | 44,000 gp | 18,000 gp | 2,000 gp |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -964,7 +964,7 @@
 	"step_7_details": {
 		"name": "Step 7: Details",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 454](source/prpg_core_rulebook)",
@@ -972,7 +972,7 @@
 			"Once you have assigned all of the NPC's gear, all that remains is to fill out the details. Determine the character's attack and damage bonuses, CMB, CMD, initiative modifier, and Armor Class. If the character's magic items affect his skills or ability scores, make sure to take those changes into account. Determine the character's total hit points by assuming the average result. Finally, fill out any other important details, such as name, alignment, religion, and a few personality traits to round him out."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -989,7 +989,7 @@
 	"example_kiramor_the_forest_shadow": {
 		"name": "Example: Kiramor, the Forest Shadow",
 		"subtitle": "Creating NPCs",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"**Source** [PRPG Core Rulebook pg. 454](source/prpg_core_rulebook)",
@@ -1040,7 +1040,7 @@
 			"**Combat Gear** potion of cure moderate wounds, potion of invisibility; **Other Gear** +1 longbow with 40 arrows, mwk rapier, +1 studded leather armor, gear and coins worth 200 gp"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"basics_from_the_core_rulebook",
 			"creating_npcs"
 		],
@@ -1082,7 +1082,7 @@
 			"",
 			"Regardless of skill or experience as a Game Master, it's likely that every GM can identify one of these roles as an area in which she lacks experience or confidence. This GameMastery Guide seeks to address such needs, counseling on challenging aspects of campaigns, contributing new options and inspirations, and refreshing the game's classic elements. Most importantly, the countless tools herein are designed not to change games or tell GMs how they should play, but rather to inspire new stories and save effort, leaving GMs with more time to run exactly the adventures they and their groups want to play-or have been playing for years."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"getting_started",
 			"running_a_game",
@@ -1099,7 +1099,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -1116,7 +1116,7 @@
 	},
 	"getting_started": {
 		"name": "Getting Started",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 8](source/gamemastery_guide)",
@@ -1138,7 +1138,7 @@
 			"In addition to these roles, the Game Master might also fill a handful of others. Many groups maintain a set of house rules for their games, and the Game Master has the final say on particular interpretations and arbitrations of rules (though everyone in the group should be aware of any house rules beforehand). The Game Master may also act as host for the game. At the least, the host provides an ample place to play. While some extraordinary Game Masters might provide all materials, including books, character sheets, pencils, dice, miniatures, and a battlemat, groups should decide upon those details themselves. As the host for a game, it is important to provide a surface large enough to play upon, a place for everyone to sit, reasonable facilities, and the desire to get a good game going. Whether played at a Victorian dining table lit with candelabras, on the floor of a spartan apartment, in the library during recess, or in the back of a van on the way to a family camping trip, roleplaying games can be tailored to most any situation, as long as there's excitement and a desire to play."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -1163,7 +1163,7 @@
 	},
 	"a_game_master's_glossary": {
 		"name": "A Game Master's Glossary",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 9](source/gamemastery_guide)",
@@ -1183,7 +1183,7 @@
 			"***Session:*** A session is a single bout of gaming. Not every session ties up an adventure; many adventures require multiple sessions to complete. The duration of sessions varies from group to group, from a few hours to a weekend."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started"
 		],
@@ -1198,7 +1198,7 @@
 	},
 	"tone_and_maturity": {
 		"name": "Tone and Maturity",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1206,7 +1206,7 @@
 			"Players come to games to feel larger than life, and each brings a character that has aspirations, desires, abilities, and unique ways of looking at the world. The Game Master's job is to help guide the story and involve each character in a way that makes her actions feel meaningful. This means listening to the players while simultaneously keeping your own preferences in mind. No two gaming groups are the same, so groups that discuss their preferences for styles of play, tone, and group dynamics are more likely to enjoy long-running, trouble-free games."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started"
 		],
@@ -1228,7 +1228,7 @@
 	},
 	"style_of_play": {
 		"name": "Style of Play",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1236,7 +1236,7 @@
 			"Finding the right fit with a group depends on a shared preference of styles of play and the willingness to compromise. Does your group prefer to focus more on combat or roleplaying? The former style moves quickly through the story and centers primarily on fun tactical situations. If it's the latter, games should highlight character development and storyline, and it wouldn't be unusual to have an entire session pass without combat. Most groups fit somewhere in the wide middle of this spectrum, but knowing what your players enjoy most is crucial to keeping everyone entertained."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"tone_and_maturity"
@@ -1251,7 +1251,7 @@
 	},
 	"tone_and_setting": {
 		"name": "Tone and Setting",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1259,7 +1259,7 @@
 			"Once your players decide what style of game they're looking for, it's time to consider tone and setting. A group that's more interested in lighthearted silliness will disappoint a Game Master wanting to run a creepy horror campaign. Setting and tone determine whether you're running a complex, gritty political game in which the PCs unravel conspiracies or a high-magic and high-action fantasy epic involving bizarre monsters and divine mandates. Setting encompasses the central themes and tropes of your world, and tone is the feel, whether that's gritty realism or fairy-tale derring-do. The desired magic level is also worth discussing early on, as some players like readily available magic, while others prefer it to be exclusive and rare, only finding a handful of magic items throughout their entire career. A short meeting before launching the campaign allows you to tailor the experience for your players, and most players appreciate the effort to satisfy everyone's tastes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"tone_and_maturity"
@@ -1274,7 +1274,7 @@
 	},
 	"group_styles": {
 		"name": "Group Styles",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1282,7 +1282,7 @@
 			"In addition to focusing on the game-specific themes and styles, consider the group of players sitting around the table. Are they looking for a casual \"beer and pretzels\" game, or are they committed roleplayers looking for a deeply immersive campaign? Have you been playing with the same group for years? Is everyone at the table a complete stranger in a session you're running at a convention or a game store? Each of these different group styles requires a different performance from the Game Master. Casual groups require less focus and can often be more forgiving of mistakes, glossing over problematic situations in favor of hanging out and enjoying a shared hobby. Committed roleplayers can demand significantly more focus and attention, as each player brings a complex and interesting character in need of development within the game. Some Game Masters find convention play or hobby store play difficult because they lack a point of reference for the newly formed group. In these cases, a bit of small talk before the game begins often offers cues as to players' interests. Use time before play begins to ask a few focused questions about not only the players, but also their characters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"tone_and_maturity"
@@ -1297,7 +1297,7 @@
 	},
 	"retaining_interest": {
 		"name": "Retaining Interest",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 10](source/gamemastery_guide)",
@@ -1307,7 +1307,7 @@
 			"Always be open to switching things up. Players inevitably throw wrenches into the Game Master's plans, despite how obvious a lead seems or how convincing a hook sounds. Don't be afraid to play off their creativity the same way they do with yours. If you have a plot the characters are trying to unravel, and the solutions they come up with make more sense than your prepared ones, try ignoring the original resolution from your notebook or a published adventure and turning the story in a new direction-the players never need know about the original version, and you can take full credit for their enjoyment. Similarly, if the players keep going off track and getting involved in events outside of your planned story, that might be a sign that your players are interested in a different sort of game than you originally crafted. And even if you have great empathy with your gaming group and give them everything they want, remember that tastes can change over time. Remember what your players enjoyed and try to perform in that way again, but realize your players likely have varied palates and can enjoy a wide range of game types."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"tone_and_maturity"
@@ -1322,7 +1322,7 @@
 	},
 	"sensitive_topics": {
 		"name": "Sensitive Topics",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 11](source/gamemastery_guide)",
@@ -1342,7 +1342,7 @@
 			"If you feel certain styles or topics might turn off your players but still want to include them, consider testing the waters with your group by running that style of game as a one-shot and not something destructive to your regular campaign. When playing with strangers, young people, or with other potentially sensitive players, or when playing in a public place, it's best to keep any adult content out of your games. While society tolerates violence to some extent, other adult topics better suit more private, mature groups. Remember, some players might not want to see gritty real-world topics in their lighthearted weekly game. Above all, know your players' the better you know the preferences of the group you play with, the more enjoyable the game will be for everyone involved."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"tone_and_maturity"
@@ -1357,7 +1357,7 @@
 	},
 	"the_gm_as_host": {
 		"name": "The GM as Host",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1369,7 +1369,7 @@
 			"Some of the following issues can be delegated to a willing player, but ultimately, all of them are the GM's responsibility."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started"
 		],
@@ -1394,7 +1394,7 @@
 	},
 	"number_of_players": {
 		"name": "Number of Players",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1402,7 +1402,7 @@
 			"Before a game ever begins it's up to the GM to decide how many players to invite to play. While there is no firm minimum or maximum limit to how many players a game can accommodate, this choice is largely a matter of how many players the GM expects he can comfortably manage and what limitations a game's expected play space present. Although most published adventures present challenges for parties with four characters, any encounter can easily be customized to suit the needs of any size group."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1420,7 +1420,7 @@
 	},
 	"small_groups": {
 		"name": "Small Groups",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1430,7 +1430,7 @@
 			"A simple way to accomplish the latter is to eliminate the need for those abilities. For example, if the party lacks a rogue, you may wish to remove traps and locks from the party's path. Another method is to introduce an NPC who has the needed abilities - just so long as that NPC doesn't steal the spotlight. Alternatively, you can give the characters magic items that perform the necessary function, such as healing potions and wands for the party without a healer. Last but not least, if the players are experienced enough to handle it, you might enjoy letting each player play two characters to round out the group."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1448,7 +1448,7 @@
 	},
 	"large_groups": {
 		"name": "Large Groups",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1456,7 +1456,7 @@
 			"Groups of more than six players offer more character options, but they also tend to be louder and harder to manage. The more characters there are, the more complex combat becomes and the longer each person has to wait for his turn, making it easier for distractions and side conversations to get out of hand or for naturally shy players to be overlooked. It's generally best not to take on more than six players at a time unless you're experienced enough to make combat move along smartly without looking up a lot of rules."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1474,7 +1474,7 @@
 	},
 	"finding_players": {
 		"name": "Finding Players",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 12](source/gamemastery_guide)",
@@ -1492,7 +1492,7 @@
 			"***A word of warning:*** As with any party, it's important to make sure that everyone you invite to your game gets along with the rest. While you can't predict every conflict, you can do your best to avoid obvious problems-this might be a player whose style doesn't match the rest of the group (see [Problem Players](rule/player_interactions)), or a player with a more obvious conflict, such as a current player's ex-spouse. A lot of gaming groups fall apart because of interplayer conflict. As a result, when taking a chance on a new player, it's generally best to issue a limited invitation, such as for a single adventure, and then decide from there. Don't let a party member who's friends with a potential player - or worse, the potential player himself - pressure you into inviting him back if he isn't right for your game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1510,7 +1510,7 @@
 	},
 	"where_to_play": {
 		"name": "Where to Play",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1525,7 +1525,7 @@
 			"- Easy access to snacks, beverages, and a bathroom."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1543,7 +1543,7 @@
 	},
 	"the_building": {
 		"name": "The Building",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1557,7 +1557,7 @@
 			"In nice weather, playing outside in a barn or gazebo, or even at a picnic table or on the grass can be fun too-just be sure to weight down character sheets and notes so you don't have to chase them when the wind picks up."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1575,7 +1575,7 @@
 	},
 	"the_room": {
 		"name": "The Room",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1583,7 +1583,7 @@
 			"The traditional gaming space is a table big enough to seat all the players and the GM, but that's not strictly necessary. The dinner table is often the surface of choice because it provides enough space for a battlemat and minis, plus plenty of seating. However, the dining room tends to be a central, high-traffic space in a house, and it usually isn't where a game library is kept. A small room where everyone can easily see and hear everyone else, with a bit of floor space for a map and minis, can work just as well. If you share your abode with other people, make sure that your presence won't disturb the rest of the household and that its regular activities won't disturb you."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1601,7 +1601,7 @@
 	},
 	"when_to_play": {
 		"name": "When to Play",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 13](source/gamemastery_guide)",
@@ -1615,7 +1615,7 @@
 			"If you opt for an irregular schedule, you'll need to schedule every session, which can be more difficult, as players don't have the option of always leaving certain days open. Scheduling an irregular game can happen at the end of each session or via group emails and phone calls."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"the_gm_as_host"
@@ -1633,7 +1633,7 @@
 	},
 	"rules_of_the_house": {
 		"name": "Rules of the House",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1641,7 +1641,7 @@
 			"Once you have a place to play and a date for your first session, it's time to decide what \"house rules\" are needed for your campaign. While the term normally refers to modifications to the mechanics of the game, house rules can also be the literal rules of the house, covering the basic courtesies and dynamics of the game table. Some typical house rules are discussed below, but this list is by no means exhaustive. Discuss the issues and the options for handling them with your players before play begins, and make sure everyone agrees to abide by the final decision. If you see a need for a new house rule as play proceeds, talk to your players outside of the game, then implement the new rule at the next session, reminding the group about it before play begins."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started"
 		],
@@ -1665,7 +1665,7 @@
 	},
 	"player_absence": {
 		"name": "Player Absence",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1681,7 +1681,7 @@
 			"***The character disappears from the group, reappears when the player does, and no notice is taken of the event.*** This solution is quite simple, but it requires a degree of maturity to pull off. The character was there, then simply is not. After a time, she's there again. The GM does not need to find something else for her to do or stage an exit and re-entrance. When she reappears, the character may know what happened in her absence, or may not, depending on the group's preference."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1698,7 +1698,7 @@
 	},
 	"calling_off_a_session": {
 		"name": "Calling off a Session",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1710,7 +1710,7 @@
 			"If absences become a chronic problem, some GMs may choose to invite slightly more players into a campaign than they need, with the assumption that one or two will always have scheduling conflicts. While it can be fun to have a rotating cast, this method can also require both the players and the GM to play fast and loose with continuity and bookkeeping... and requires the GM to be comfortable running a big group if everyone shows up."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1727,7 +1727,7 @@
 	},
 	"food_at_the_game_table": {
 		"name": "Food at the Game Table",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1739,7 +1739,7 @@
 			"Also note that food and beverages aren't free. If you rotate locations, you can agree that snacks are the responsibility of the house where the game occurs, ask that everyone bring a snack or beverage to share, or simply pass the hat at each session for contributions to the snack fund."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1756,7 +1756,7 @@
 	},
 	"children_and_pets": {
 		"name": "Children and Pets",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 14](source/gamemastery_guide)",
@@ -1766,7 +1766,7 @@
 			"Pets can likewise cause problems at the game table. If anyone is allergic to animal fur, courtesy demands that the animals be kept out of the room. This solution also prevents a random doggy tail swipe from clearing the battlemat, or a kitty from turning the minis into cat toys. Still, if everyone enjoys the company of the animals, it may be fine to allow their presence."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1783,7 +1783,7 @@
 	},
 	"other_activities_at_the_game_table": {
 		"name": "Other Activities at the Game Table",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 15](source/gamemastery_guide)",
@@ -1795,7 +1795,7 @@
 			"If the alternate activities are disturbing the other players, you can ask that those involved move to another area, away from the table. Just moving over to the living room couch may suffice:;those involved can still hear the action, but the other players won't see what they're doing. Alternatively, those not involved with the action could make the popcorn, refill people's beverages, and pick up the snack debris. Doing so can provide them with an opportunity to chat in another room for a while."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1812,7 +1812,7 @@
 	},
 	"out-of-character_talking": {
 		"name": "Out-of-Character Talking",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 15](source/gamemastery_guide)",
@@ -1822,7 +1822,7 @@
 			"One option is to simply require a player to stand up or make a specific hand gesture when talking out of character. Alternatively, you could have everyone use an accent when speaking in character. As long as everyone understands the convention, it should take the group only a few sessions to become used to it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1839,7 +1839,7 @@
 	},
 	"interplayer_conflict": {
 		"name": "Interplayer Conflict",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 15](source/gamemastery_guide)",
@@ -1849,7 +1849,7 @@
 			"Most party bickering isn't harmful, and some may even be entertaining. However, if party members draw steel against one another, it's probably time to intervene. A house rule that mandates an out-of-game discussion when such a situation occurs is highly recommended, as are rules discouraging intraparty duels and theft and encouraging players to work as a team rather than splitting off into groups, which results in less game time for everyone."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"rules_of_the_house"
@@ -1866,7 +1866,7 @@
 	},
 	"preparing_to_run_a_game": {
 		"name": "Preparing to Run a Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1876,7 +1876,7 @@
 			"Such magical experiences require plenty of preparation, even a sense of spontaneity-it's tough to seem spontaneous when you're shuffling though notes."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started"
 		],
@@ -1900,7 +1900,7 @@
 	},
 	"things_to_have_at_the_table": {
 		"name": "Things to Have at the Table",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1918,7 +1918,7 @@
 			"***Props and Associated Supplies:*** Props and player handouts, such as sketches of important items, maps for player reference, and written notes, can speed play and help hold the players' interest."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -1935,7 +1935,7 @@
 	},
 	"seven_essentials_for_good_preparation": {
 		"name": "Seven Essentials for Good Preparation",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1943,7 +1943,7 @@
 			"Exactly what kind of preparation is needed varies from game to game. If you follow this checklist, however, you'll be ready for just about anything."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -1970,7 +1970,7 @@
 	"know_the_characters_and_the_players": {
 		"name": "Know the Characters and the Players",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -1982,7 +1982,7 @@
 			"Knowing your players can prove as important as knowing their characters. Many players develop favorite tricks and stunts with their characters' powers, or well-ingrained misconceptions about what their characters can or cannot do. Knowing these quirks can help you keep the players engaged and challenged and can deflect problems before the dice hit the table."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2001,7 +2001,7 @@
 	"know_the_scene": {
 		"name": "Know the Scene",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2011,7 +2011,7 @@
 			"Next, take a moment to get familiar with each adventure site's layout. Note the major features and where they lie in relation to each other. Pay special attention to entrances, exits, stairwells, and other features that the characters will use to move around."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2030,7 +2030,7 @@
 	"know_the_story": {
 		"name": "Know the Story",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2040,7 +2040,7 @@
 			"Other games place the characters within an unfolding story. Before running such a game, stop to consider the story's beginning, middle, and end. Note the key events and turning points in the tale, and pay special attention to events and developments that turn on character decisions or actions. Consider how you will present those turning points so that you can create a seamless narrative that flows naturally from the party's actions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2059,7 +2059,7 @@
 	"know_the_adversaries": {
 		"name": "Know the Adversaries",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 16](source/gamemastery_guide)",
@@ -2079,7 +2079,7 @@
 			"You should also think about what might make the creature surrender or flee. Few creatures fight to the death if there's an alternative available."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2098,7 +2098,7 @@
 	"know_the_rules": {
 		"name": "Know the Rules",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2110,7 +2110,7 @@
 			"If you can't quite figure out some aspect of the rules, and time permits, consult another Game Master, or the messageboards at [paizo.com](https://www.paizo.com/), which contain a wealth of helpful information and rules discussions. If all else fails, decide how you want the rule in question to work and use it that way; such decisions have a way of working out if you think them through ahead of time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2129,7 +2129,7 @@
 	"don't_overdo_it": {
 		"name": "Don't Overdo it",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2139,7 +2139,7 @@
 			"Likewise, don't create so many notes that you can't keep them organized. One page for each major encounter, event, or personality is generally plenty, and often less will do."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2158,7 +2158,7 @@
 	"lay_a_few_alternate_plans": {
 		"name": "Lay a Few Alternate Plans",
 		"subtitle": "GM Preparations",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2168,7 +2168,7 @@
 			"Of course, sometimes you still won't be able to prepare for player actions. When things go astray, it's generally the most fun for everyone to play along, exploring the new story and using it to gently nudge the game back onto the original track. Sticking without exception to a prepared plot makes players feel powerless, and part of the fun of being a GM is being surprised by your players. Go with it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2186,7 +2186,7 @@
 	},
 	"published_or_homegrown": {
 		"name": "Published or Homegrown",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 17](source/gamemastery_guide)",
@@ -2194,7 +2194,7 @@
 			"A one-shot game is a scenario intended to last for a single play session. These scenarios might be \"stand-alone,\" with little or no connection to other campaigns you run, or merely a diversion for your regular characters to give you extra time to put together the next major challenge. Paizo's Pathfinder Society Scenarios are designed for just such situations, and can be downloaded from paizo.com. Keep in mind that the characters in these sessions can be the usual PCs, affiliates such as hirelings, or totally new characters intended only for a single game; one-shots are often perfect for unusual character ideas that might fail or grow stale in a longer game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -2211,7 +2211,7 @@
 	},
 	"sharing_the_load": {
 		"name": "Sharing the Load",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
@@ -2219,7 +2219,7 @@
 			"Unless you've got a very short scenario to run or a very long game session planned, create new characters ahead of time. In a time crunch, you might create them yourself and allow your players to pick from the bunch. In this case, you should make a few more than you'll need so that nobody feels stuck with the leftovers. If you decide to have players create their own characters, be clear about the power level, gear, and other game details you'll allow and reserve the right to review and edit characters to better fit the group. You might even want to meet up with players one-on-one or have them submit characters early for review."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -2236,7 +2236,7 @@
 	},
 	"one-shot_games": {
 		"name": "One-Shot Games",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
@@ -2250,7 +2250,7 @@
 			"[^M]: Wikipedia: [MacGuffin](https://en.wikipedia.com/wiki/MacGuffin) (Link opens in outside browser.)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -2267,7 +2267,7 @@
 	},
 	"campaigns": {
 		"name": "Campaigns",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 18](source/gamemastery_guide)",
@@ -2281,7 +2281,7 @@
 			"The sheer scope of your campaign world can also affect play. You can confine all your adventures to a single country or similar geographic area, or even to a single town or city. The kinds of adventures you can run in such a confined setting, however, will be different than what you can do with a whole continent. An epic, world-spanning campaign offers an endless variety of adventure sites, while a localized campaign offers a more intimate feel and a strong sense that the characters are part of the world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -2305,7 +2305,7 @@
 	},
 	"essentials_of_good_campaigns": {
 		"name": "Essentials of Good Campaigns",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2315,7 +2315,7 @@
 			"Don't overdo this element. Your goal isn't to script your campaign, but rather to explain how and why things happen. Keep the story general, with an eye toward details your characters can notice and perhaps change through their actions. Choose something that can unfold slowly so that the story can move along even when your player characters aren't actively involved in it. Consider how the player characters might shape or redirect the story, but also establish what happens if they don't get involved."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2331,7 +2331,7 @@
 	},
 	"setting_and_scope": {
 		"name": "Setting and Scope",
-		"subtitle": "Campaigns, Gamemastering",
+		"subtitle": "Campaigns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2341,7 +2341,7 @@
 			"Not every important character in your world need be terribly influential. Every locale with people has a few memorable characters, so sprinkle the neighborhood where your PCs live with a few of those. Some of these might become valuable assets to the characters, providing them with information, introductions to more influential people, or protection in times of need. Others might simply offer the occasional bit of comic relief."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2357,7 +2357,7 @@
 	},
 	"story": {
 		"name": "Story",
-		"subtitle": "Campaigns, Gamemastering",
+		"subtitle": "Campaigns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2367,7 +2367,7 @@
 			"You might plan a campaign with an ending in mind, a fairly easy task if you've laid out a story. Or you might decide to end the campaign when player interest (or your own) starts to flag. In either case, consider what elements in the campaign have struck a chord with the group. Perhaps you've grown fond of a particular town or character. Perhaps they really despise some villain or have a burning desire to obtain a certain item. Craft your ending so things end on a high note, with main conflicts resolved and the loose ends tied up. It's often fun to create an epilogue that lays out each character's later career and retirement and looks ahead to the general state of your game world during the surviving characters' sunset years."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2383,7 +2383,7 @@
 	},
 	"movers_and_shakers": {
 		"name": "Movers and Shakers",
-		"subtitle": "Campaigns, Gamemastering",
+		"subtitle": "Campaigns, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2391,7 +2391,7 @@
 			"Preparation is great, but sometimes you just want to play. Published adventures are perfect for this, but even those require a bit of reading ahead of time. If you want to truly wing it, with nothing more than a few notes and some dice, try flipping through some completed adventures for stat blocks you can use-at the very least, you're going to need to know things like hit points, AC, and saves-or tag some creatures in a monster book. Sketch out as much of the plot as you feel you need; it could be a whole adventure, or just the first scene. Consider throwing in a big decision requiring party deliberation whenever you need a minute to figure out the next encounter, and remember that a fun roleplaying encounter with an oddball NPC can provide extensive entertainment without any math involved. For more tips on emergency game prep, see [this section](rule/emergency_game_prep). And when in doubt-roll initiative!"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2407,7 +2407,7 @@
 	},
 	"campaign_endings": {
 		"name": "Campaign Endings",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2419,7 +2419,7 @@
 			"No matter how many published adventures or settings you own, it's up to you to decide whether you'll use them. If you merely lift an idea from them now and then, you're still getting your money's worth, but using them to a greater extent allows GMs to run sweeping, intricate campaigns with minimal preparation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game",
@@ -2435,7 +2435,7 @@
 	},
 	"winging_it": {
 		"name": "Winging It",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 19](source/gamemastery_guide)",
@@ -2449,7 +2449,7 @@
 			"***Round-Robin Campaigns:*** No one says you have to GM every session. Sometimes a team of GMs can rotate the responsibility of running the game, each GM taking up the game where the previous one left off each week, while the other GMs play. This requires significant coordination, and expert roleplaying (as some players already know the plotlines), but the chance to play in your own campaign and regularly experience different GM styles can be extremely entertaining and rewarding."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"preparing_to_run_a_game"
@@ -2466,7 +2466,7 @@
 	},
 	"creating_a_campaign_guide": {
 		"name": "Creating a Campaign Guide",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2474,7 +2474,7 @@
 			"In television series and similar ongoing media, there is the concept of the \"story bible,\" a document setting forth the essential information about the characters, story, and setting of the series so that later writers can produce scripts with some amount of consistency. In a similar vein, Game Masters can create a campaign guide to help keep track of their creation and to supply players with an overview of an ongoing campaign. This way, the players have some idea what to expect and can create and play their characters to best fit into the overall setting. The most important function of a campaign guide is to make your players excited to delve into the setting and play the game! Consider the following when preparing a campaign guide."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started"
 		],
@@ -2497,7 +2497,7 @@
 	"system": {
 		"name": "System",
 		"subtitle": "Creating Campaign Guides",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2507,7 +2507,7 @@
 			"For example, you might ban a particular sorcerer bloodline or other character option simply because it doesn't fit into the setting and does not exist there (at least so far as anybody knows). On the other hand, you can set up a rule that PCs cannot be assassins or choose evil as their alignment because you'd rather not deal with the complications those possibilities entail. That doesn't necessarily mean assassins and evil alignments don't exist in the setting; they're just not an option for the players."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"creating_a_campaign_guide"
@@ -2523,7 +2523,7 @@
 	"setting_and_scope_2": {
 		"name": "Setting and Scope",
 		"subtitle": "Creating Campaign Guides",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2537,7 +2537,7 @@
 			"***Enliven with Detail:*** Try to give the players some essential details about daily life in the setting. What do people eat? What kind of clothes do they wear? What do they do for fun? What is a typical day, week, or year like? What are some expressions people use? These details form valuable hooks players can use to get into character during the game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"creating_a_campaign_guide"
@@ -2553,7 +2553,7 @@
 	"story_2": {
 		"name": "Story",
 		"subtitle": "Creating Campaign Guides",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2563,7 +2563,7 @@
 			"Some GMs prefer a freeform campaign, starting the players off with just a setting and their characters' backstories, letting the rest unfold as play progresses. The story is written as the players choose what their characters do and the dice determine the outcome of those actions. Other GMs have a particular kind of story in mind and try to deftly steer the players, allowing them a wide range of choice within the bounds of the story, but keeping it focused on a particular field of play; for example, a player who wanted his character to go off exploring some lost ruin in a campaign about warring guilds might discover something hidden in the ruins that has some bearing on the main conflict, bringing things back around to that story."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"creating_a_campaign_guide"
@@ -2579,7 +2579,7 @@
 	"voice": {
 		"name": "Voice",
 		"subtitle": "Creating Campaign Guides",
-		"tags": "Gamemastering",
+		"tags": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 20](source/gamemastery_guide)",
@@ -2597,7 +2597,7 @@
 			"***Combining Voices:*** Of course, you can also mix subjective and objective voice in your guide. You might use a primarily objective voice to provide the bulk of the information and then put the information into context with snippets or examples of subjective voice, such as quotations from in-setting characters or even more involved things like sketched-out maps."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"creating_a_campaign_guide"
@@ -2613,7 +2613,7 @@
 	"publication": {
 		"name": "Publication",
 		"subtitle": "Creating Campaign Guides",
-		"tags": "Gamemastering copyrights media print electronic",
+		"tags": "Gamemastery copyrights media print electronic",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 21](source/gamemastery_guide)",
@@ -2641,7 +2641,7 @@
 			"Game Masters have taken advantage of desktop and online multimedia in recent years to create other ways of providing information to players. If you have musical talent, opening each session with custom theme music can be a powerful way of getting players into the right mindset. You can also create audio podcasts for your campaign, or even take things a step further and use video editing to create a \"campaign trailer,\" like a trailer for a film, which you can then distribute among your players or share online. This doesn't have to involve a lot of original video; you can use still images and artwork and give them motion through effects like pans or zooms, with different dissolves and transitions between images."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"getting_started",
 			"creating_a_campaign_guide"
@@ -2656,7 +2656,7 @@
 	},
 	"running_a_game": {
 		"name": "Running a Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 24](source/gamemastery_guide)",
@@ -2664,7 +2664,7 @@
 			"A roleplaying game is only as good as its GM. The GM sets the tone for the game, keeps the action moving, adjudicates situations, and tailors the storyline to the player's tastes. In this section, you'll find all the information you need on how to run the best game you possibly can, from tips and tricks to the tools of the trade, plus primers on avoiding common problems, the math behind the game, and how to design different types of adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -2691,7 +2691,7 @@
 	},
 	"gming_style_choices": {
 		"name": "GMing Style Choices",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 24](source/gamemastery_guide)",
@@ -2707,7 +2707,7 @@
 			"***Taking Back Mistakes:*** Almost every game session, a player does something they didn't mean to do, whether it's stepping on the wrong square or forgetting to add a bonus that means the difference between success and failure. Some GMs have a rule that once it's left your mouth or you've moved your miniature on the mat, you're committed, even if the end result isn't what you would have normally done. Other GMs allow players to retroactively add bonuses to rolls, or take back poorly planned spells and other mistakes, letting them make the best moves possible for their character. This is a difficult balance - too much leeway and there's no risk, but being too strict can ruin the fun for your players. Remember, though, that the standard used for your players should apply to you as well, and such \"rewind\" moments can be anything from a misplaced miniature to letting a clue slip out too early."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -2724,7 +2724,7 @@
 	},
 	"pregame_preparation": {
 		"name": "Pre-Game Preparation",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 24](source/gamemastery_guide)",
@@ -2744,7 +2744,7 @@
 			"***Prepare Additional Tools:*** If you use props in your game, preparing in advance helps the game flow smoothly. Pick the miniatures and any three-dimensional terrain you want to use in a given session and put them in an easily accessible place. Put any pictures you want to show in a folder on your computer or print them onto sheets. If the players have the map to a dungeon level, think about drawing the level on the battlemat ahead of time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -2761,7 +2761,7 @@
 	},
 	"running_the_game": {
 		"name": "Running the Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 25](source/gamemastery_guide)",
@@ -2785,7 +2785,7 @@
 			"***Keeping the Game Moving:*** One of the biggest dangers in a game session is the risk of getting bogged down. Sometimes it's the result of the GM not being prepared and needing to read over something during the game. Other times, it is because of a player not being prepared or taking too much time to make a decision. These slowdowns can ruin the mood, tension, and drama of a game. Preparation as the GM helps minimize these risks on your end. For players, sometimes a decision merely takes a moment, and having a bit of patience is fine. Should long turns and side conversations regularly detract from the action, however, give players a time limit to declare their actions, after which they're considered to be delaying, and you move on to the next character in the initiative order. Of course, new players naturally require more time to make decisions than experienced ones, which is why it can be useful to assign one of your more adept players as a mentor."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -2802,7 +2802,7 @@
 	},
 	"post_game": {
 		"name": "Post Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 26](source/gamemastery_guide)",
@@ -2812,7 +2812,7 @@
 			"Once the players have gone home, it may be a good idea to do some basic record-keeping, such as writing down what happened that session in case you need to refresh your memory later, or plot ideas to revisit in future sessions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -2829,7 +2829,7 @@
 	},
 	"the_art_of_gming": {
 		"name": "The Art of GMing",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -2839,7 +2839,7 @@
 			"It's not that players aren't important; on the contrary, they're both your audience and your fellow performers, and in many ways everything you do is for them. But they also have less control over the world, and play more limited parts. You lead the band. If you bring gusto to the adventure, your players will respond in kind. If you show up unprepared and harried, they may not invest much effort either. Delivering the best possible performance as a GM depends on how you see yourself when you game, how well you prepare, and what tricks and techniques you use to keep your campaign moving smoothly."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -2863,7 +2863,7 @@
 	},
 	"making_it_happen": {
 		"name": "Making it Happen",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -2875,7 +2875,7 @@
 			"And yet things don't always go smoothly. Sometimes, all you want is for the players to embark on the quest you've spent all week on, but instead the party accidentally goes off in another direction-or worse, sees the hook for your quest and deliberately decides not to bite because it doesn't interest them enough, or doesn't offer enough of a reward. When such things happen, you have several options."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming"
@@ -2895,7 +2895,7 @@
 	},
 	"forcing_things": {
 		"name": "Forcing Things",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -2905,7 +2905,7 @@
 			"Canny GMs, though, won't force it more than absolutely necessary. It's often worth it to ask your players after the game (or one-on-one later, if that's easier) to tell you why they didn't buy into your original adventure premise, and what sort of adventure they'd prefer. If they want more gold and glory, or to find out what's beyond the western mountains, find a way to make that an option. Player feedback allows you to craft a game that's more satisfying for everyone."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -2919,7 +2919,7 @@
 	},
 	"follow_the_pcs'_lead": {
 		"name": "Follow the PCs' Lead",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -2931,7 +2931,7 @@
 			"If you're especially fortunate, you can probably turn some of your existing encounters, NPCs, or plot elements into elements of the adventure that the party wants to pursue - or use their new direction to steer them subtly onto the adventure you had planned - but it's not always possible. When forced to think on your feet, one helpful trick is to listen to player speculation and then elaborate on their fears or suspicions to make the plots feel even more complex. If the players say \"I'll bet the duke's involved!\", a simple option is to take the cue and have the duke actually be behind the nefarious plot they've uncovered, thus making players feel satisfied for having figured it out. On the other hand, if it turns out that the duke is actually an unfortunate innocent, with his daughter held as a pawn of the true villains, then the players get both the satisfaction of being partially correct and the thrill of uncovering something new, and your adventure feels meatier and more intricate with almost no additional effort."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -2945,7 +2945,7 @@
 	},
 	"the_illusion_of_free_choice": {
 		"name": "The Illusion of Free Choice",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 28](source/gamemastery_guide)",
@@ -2959,7 +2959,7 @@
 			"Above all, put yourself in the player's shoes. Don't think about how cool the villain is, how clever the traps are, or how smart the backstory is - think about what's in it for your players, and why an adventure would appeal to them personally, and you'll never go wrong."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -2973,7 +2973,7 @@
 	},
 	"gm_as_actor": {
 		"name": "GM as Actor",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 29](source/gamemastery_guide)",
@@ -2981,7 +2981,7 @@
 			"As both performer and director, a good GM needs some of the skills of the stage, from use of accents to scene management."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming"
@@ -3000,7 +3000,7 @@
 	},
 	"volume_and_style": {
 		"name": "Volume and Style",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 29](source/gamemastery_guide)",
@@ -3026,7 +3026,7 @@
 			"***If the Party Talks, Sit Down:*** Last but not least, when the players talk among themselves, withdraw. Let them plan. While they do, you can check your notes, update the map, and think about the next encounter. It's good to perform, but not all the time. The players deserve some stage time as well."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3039,7 +3039,7 @@
 	},
 	"giving_direction": {
 		"name": "Giving Direction",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 30](source/gamemastery_guide)",
@@ -3049,7 +3049,7 @@
 			"One way to handle these differences is to acknowledge them. Sometimes simply saying, \"Hey, you're hogging the spotlight\" is a better solution than trying to passively-aggressively give more attention to everyone else. As long as you confront the behavior rather than the person, it's often possible for a given player to learn to play in sync with the group's style."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3062,7 +3062,7 @@
 	},
 	"presentation": {
 		"name": "Presentation",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 30](source/gamemastery_guide)",
@@ -3070,7 +3070,7 @@
 			"Presentation, as they say, is everything, and some GMs go that extra mile to make their game immersive with a cool handout, perfect soundtrack, or pre-made maps of every dungeon room. Below are a few quick and easy ideas for adding more goodies to your game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming"
@@ -3091,7 +3091,7 @@
 	},
 	"handouts_and_props": {
 		"name": "Handouts and Props",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 30](source/gamemastery_guide)",
@@ -3112,7 +3112,7 @@
 			"In general, props are worth digging out for artifacts, for special NPC audiences that you know are coming up, and for particular impact with players who might be a bit jaded or easily distracted. One or two props per game sessions is plenty; you don't need to turn into an amateur magician just to make a point."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3127,7 +3127,7 @@
 	},
 	"music": {
 		"name": "Music",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3137,7 +3137,7 @@
 			"Sometimes you want that extra emotional impact for a game. And for those special occasions, it's worth digging around your music collection to build a playlist. It may seem a little trite, but most fantasy movie soundtracks work well as background music for a fantasy game, so long as you stay away from overly recognizable themes that will jar your players out of the moment. Most of the time, it's best to use fairly subtle soundtracks (though there's nothing wrong with some heavy metal beats to keep the momentum, if that's what you group loves, so long as there aren't a lot of words to distract people). But if you really want to knock a game out of the park (say, when doing a special \"send-off\" game for a player leaving town), then it might be worth it to ascribe themes to particular characters or, better yet, choose songs to go with specific encounters, such as heavy industrial noises for a fight in the dwarven smithy, soft mandolins and violins for the visit to the elven queen, a dirge for a dead NPC, or a bombastic, brassy symphonic charge for the final battle against the villain. The important thing to remember is that the music should support the scene subtly, without taking center stage; for this reason it's often best to avoid popular music or things with comprehensible lyrics, and it's important to have the songs cued up and ready so you don't waste valuable game time and dramatic tension by searching for the proper track."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3152,7 +3152,7 @@
 	},
 	"lighting": {
 		"name": "Lighting",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3160,7 +3160,7 @@
 			"Lighting is like music: it's easy to overdo it. But a single candle or dimmer switch can get people to focus, or at least get their attention off their phone or laptop and onto the gaming table. The main thing lighting can do is help minimize distractions. A single spotlight on the center of the GM screen and battlemat usually does very well, if you can set up a table lamp to do so while still allowing enough light for people to see their character sheets."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3175,7 +3175,7 @@
 	},
 	"attention_and_distractions": {
 		"name": "Attention and Distractions",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3183,7 +3183,7 @@
 			"Just as effective (and less dramatic) is removing distractions directly. You're the GM - it's okay to tell players at the start of the game to put away the game system or music, cell phone or laptop. And it's also okay to tell them right at the start of the session that if they're not paying attention when it's their character's turn, you'll skip them that round. That usually does the trick, but if the carrot works better than the stick, you could also give additional XP to the players who are most engaged and prepared when it's their turn. You can also help them out by writing the initiative order down on the battlemat so the players know who's acting next, or using an [initiative tracker](rule/initiative_tracker) that everyone can see."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3198,7 +3198,7 @@
 	},
 	"narrative_techniques": {
 		"name": "Narrative Techniques",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3206,7 +3206,7 @@
 			"As the GM, you are the one and only conduit for the players to learn about their situation in the game. If you forget to describe something, the players quite rightly feel cheated. If you focus your description on an object, they sense that it might be important. As a result, your choices on how you convey information are crucial to your game's success."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming"
@@ -3231,7 +3231,7 @@
 	},
 	"description": {
 		"name": "Description",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 31](source/gamemastery_guide)",
@@ -3245,7 +3245,7 @@
 			"This same approach works well for NPCs, though in most cases you need more than just physical description. If you boil it down, most NPCs need a name, a speaking style, a general appearance, weapons and armor, and a motivation or goal. If you have all those, it's often possible to play a roleplaying scene without generating further stats for the NPC."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3264,7 +3264,7 @@
 	},
 	"spotlight": {
 		"name": "Spotlight",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3276,7 +3276,7 @@
 			"The point of using the GM spotlight is to get the action moving again. Be brutally obvious only if you must, but don't let the adventure derail just because someone failed a Perception roll."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3295,7 +3295,7 @@
 	},
 	"backstory": {
 		"name": "Backstory",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3308,7 +3308,7 @@
 			"In the second case, relevant doesn't mean \"the GM thought it was interesting.\" The lore actually needs to matter in the present day, and help a player make a decision at some point in the adventure. If the backstory never matters to the adventure outcome, then it's best ignored."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3327,7 +3327,7 @@
 	},
 	"cliffhangers": {
 		"name": "Cliffhangers",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3344,7 +3344,7 @@
 			"The point is that a new plot thread starts as soon as the old ones drop, and if you're still in the middle of a story, freezing the frame on the cusp of a battle or huge revelation keeps player excitement high all the way until the next session."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3363,7 +3363,7 @@
 	},
 	"cut_scenes": {
 		"name": "Cut Scenes",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3373,7 +3373,7 @@
 			"While this might seem like an ideal way to handle split parties and introduce historical events, it doesn't work for all groups. Impatient players might want to \"get back to the adventure\" rather than learn about events happening 1,000 miles away."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3392,7 +3392,7 @@
 	},
 	"flashbacks": {
 		"name": "Flashbacks",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 32](source/gamemastery_guide)",
@@ -3402,7 +3402,7 @@
 			"Better still, the flashback could feature the PCs as earlier heroes whose failure led to the present calamity: the tomb raiders who set loose the Lich Lord, or even guards who failed as the prince was assassinated. Above all, keep it short; flashbacks have very specific uses, and a single scene in this style is usually plenty to get the point across."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3421,7 +3421,7 @@
 	},
 	"foreshadowing": {
 		"name": "Foreshadowing",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 33](source/gamemastery_guide)",
@@ -3442,7 +3442,7 @@
 			"When done right, foreshadowing ties in heavily with the idea of continuity. Instead of inventing a new villain every game, why not bring back an old one - appropriately leveled during his time away, of course - who already has reason to hate the PCs? Or you could throw a twist into the storyline by making the sweet maiden they saved in the first adventure turn out to be the major villain of the campaign. Such recurring figures make it feel like all the events in your campaign and even your world are somehow tied together, the story leading to some grand and inevitable conclusion."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3461,7 +3461,7 @@
 	},
 	"secrets": {
 		"name": "Secrets",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 33](source/gamemastery_guide)",
@@ -3471,7 +3471,7 @@
 			"Simply taking the player aside and leaving the room, or passing a note, is perfectly adequate, but knowing another player is getting secret knowledge often eats at other players and can tempt even the most steadfast gamer into metagaming. Talking to the player in question between game sessions is a far safer option, but isn't always possible. Though there are any number of sneaky ways to let a player know something important without alerting the rest of the party - for instance, covertly sending them a text message if you allow cell phones at the table - in general the best way to handle secrets is to either flat-out ask your players to respect the fact that they don't know a given piece of information, or - better still - manipulate the game to avoid the need for intraparty secrets altogether. And remember that any time you spend with one player is time you aren't spending with the rest."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming",
@@ -3490,7 +3490,7 @@
 	},
 	"cheatings": {
 		"name": "Cheatings",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 33](source/gamemastery_guide)",
@@ -3502,7 +3502,7 @@
 			"Where you fall on the spectrum is a personal call, but if you do decide to fudge rolls for the sake of the game, it's best done in secret, and as infrequently as possible. And only - **only** - if it results in more fun for everyone."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_art_of_gming"
@@ -3517,7 +3517,7 @@
 	},
 	"the_science_of_gming": {
 		"name": "The Science of GMing",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
@@ -3525,7 +3525,7 @@
 			"Mastering the arts of narrative and group storytelling is crucial to running a good game. Yet game mastering has a practical side as well. The following subtopics address certain fundamental mechanics and tools that all GMs should familiarize themselves with."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -3551,7 +3551,7 @@
 	},
 	"dice_mechanics_and_more": {
 		"name": "Dice Mechanics and More",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
@@ -3573,7 +3573,7 @@
 			"There are many game aids that help make sessions smoother and more memorable."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -3599,7 +3599,7 @@
 	},
 	"art": {
 		"name": "Art",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
@@ -3607,7 +3607,7 @@
 			"In a fantasy world where terrible beasts crush villages and flying cloud castles eclipse the sun, an evocative photo or painting can help set the mood or provide a backdrop for an encounter, or even an entire campaign. With millions of vacationers posting their photos to the internet and professional photographers displaying samples of their work online and in magazines, it's possible to find free inspiration for almost any game scene, whether a castle, desert, island, or volcano. Most modern fantasy artists have online galleries featuring beautiful illustrations of fantastic creatures and locations, and many artists sell \"coffee table books\" of their artwork for easy browsing. Art books, history books, and travel books are rich sources for great photos, as are web pages of concept art from movies and television."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3625,7 +3625,7 @@
 	},
 	"grid": {
 		"name": "Combat Grid",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 34](source/gamemastery_guide)",
@@ -3633,7 +3633,7 @@
 			"Many aspects of combat in the Pathfinder RPG assume the use of a grid to determine the relative positions of different creatures. You can simply use graph paper for battles, erasing and redrawing each creature's location as it moves. However, most gamers prefer larger-scale squares that are big enough to contain a token or miniature for each creature. Many groups use wet-erase \"battlemats\" with 1-inch grids; these durable mats roll up for easy storage or travel. Office supply stores carry easel pads with 1-inch grid paper, which are especially handy when you want to reuse a particular map multiple times (such as a prominent street or the PCs' favorite tavern); laminating the pages or using a Plexiglass overlay (which is safe for dry-erase and wet-erase markers) extends the utility of these pages. Many companies sell three-dimensional terrain, such as high-quality painted resin or fold-up paper models, and several companies sell inexpensive mapping software for creating your own gridded fantasy maps."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3651,7 +3651,7 @@
 	},
 	"face_cards": {
 		"name": "Face Cards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
@@ -3661,7 +3661,7 @@
 			"To find good illustrations or photographs, look at collectible card games, magazines, and roleplaying games for appropriate historical and fantasy characters. Internet image searches for concept art generate good results, and can be further fine-tuned by adding race names to the search criteria. Given a large enough library of character illustrations, you can create a card for every significant NPC in your game-and the cards provide handy places for the players to record notes about that NPC."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3679,7 +3679,7 @@
 	},
 	"miniatures": {
 		"name": "Miniatures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
@@ -3689,7 +3689,7 @@
 			"For decades, most miniatures were sold as unpainted metal or plastic, and painting and customizing miniatures required time and effort to create a visually appealing tabletop setup. While this is still popular, nowadays there are also companies that produce pre-painted plastic miniatures or printable paper miniatures in PDF form. Even if you're not interested in collecting or painting miniatures, consider rewarding a player who provides miniatures for the game with bonus XP (just as you might reward a player who always hosts the game, or provides food for everyone). Painting minis is also a way to get a non-gamer spouse or significant other peripherally involved in the hobby; more than one \"gamer widow\" has earned kudos for painting miniatures without ever touching dice."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3707,7 +3707,7 @@
 	},
 	"initiative_tracker": {
 		"name": "Initiative Tracker",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
@@ -3717,7 +3717,7 @@
 			"Another method is using a larger surface like a cork board, marker board, or dry-erase board to track PC and monster initiative and status. If positioned so the players can see it as well, this also lets them know when their turns are coming up so they can plan ahead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3735,7 +3735,7 @@
 	},
 	"item_cards": {
 		"name": "Item Cards",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 35](source/gamemastery_guide)",
@@ -3743,7 +3743,7 @@
 			"Kill the monsters, take their treasure, and sort it all out later-it's a standard tactic of most adventuring groups. So what happens when the players want to identify a stockpile of magic items from their last adventure? Just as face cards help players remember NPCs, a physical card describing an item (and perhaps a note about who it was taken from) helps the players remember the unusual items their PCs carry-and helps a busy GM keep track of what that bubbling green potion, smoking longsword, and bleeding gauntlet actually do."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3761,7 +3761,7 @@
 	},
 	"without_accessories": {
 		"name": "Without Accessories",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 36](source/gamemastery_guide)",
@@ -3769,7 +3769,7 @@
 			"Of course, sometimes you don't want or need accessories at all-perhaps you're gaming in a car, at a campsite, or somewhere else with limited space or materials. Many campaigns don't use miniatures or a grid, even for combat. You can describe items verbally and not refer to cards or pictures. Crits are just extra damage and fumbles are misses. Character initiative is clockwise from the GM. Random results are determined by playing pick-a-number or rock-paper-scissors. The appeal of roleplaying games is the shared experience of storytelling (whether the story is an epic quest or a monster bash), and humans have been telling stories together for thousands of years just with their minds and voices. Each gaming group is different; some like all the bells and whistles, some prefer simplicity and abstraction, and many fall somewhere in between. Just as the sort of campaign each group prefers is different, how they choose to play that campaign can vary from group to group or game to game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3787,7 +3787,7 @@
 	},
 	"creating_adventures": {
 		"name": "Creating Adventures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 36](source/gamemastery_guide)",
@@ -3817,7 +3817,7 @@
 			"Non-linear adventures require you to plan ahead for what the PCs may do, and think on your feet in case they come up with something you weren't expecting. For example, if the PCs are intimidated by your description of the damage from the orc raid and ask about finding better weapons to help deal with the orcs, you may be momentarily caught off-guard because this sort of action wasn't in the original idea of the lair-based adventure. However, developing a stable of secondary characters and side treks lets you quickly insert an appropriate NPC for this purpose, such as the aforementioned old ranger with the +1 [orc bane](magic-enhancement/bane) arrows - who no longer needs help with a dire wolf, and is now willing to trade the arrows for a favor to be named later (which you can use as a plot hook for the next adventure). If you're stuck for ideas when the PCs make an unexpected shift, don't be afraid to ask the players what their characters are looking for; if they ask about [orc bane](magic-enhancement/bane) arrows, that may inspire you about a hermit ranger, but if they ask for potions or scrolls, it may inspire the idea of a lonely, half-mad cleric living at a ruined shrine, and the players don't need to know that their suggestion as to what they're looking for helped define the course of the adventure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -3834,7 +3834,7 @@
 	},
 	"running_smooth_combats": {
 		"name": "Running Smooth Combats",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 39](source/gamemastery_guide)",
@@ -3854,7 +3854,7 @@
 			"***Tokens:*** There are dozens of conditions in the game that can affect a creature's behavior, possible actions, or combat stats, and it's easy to lose track of them during gameplay. One way to help with this is using tokens next to or underneath a creature on the battlefield or the displayed initiative tracker. The simplest tokens are torn pieces of paper with the condition written on them. Alternatively, you can use glass beads, colored plastic disks (possibly even magnetic ones for easy stacking), flat wooden squares, or even fancier tools. Several companies make variants of these, allowing you to customize them to your needs, such as a yellow marker for panicked, green for nauseated, red for enraged, and so on. Tokens also let you single out unusual creatures when unique miniatures are unavailable (\"the orc with the purple marker has tentacles instead of arms\") and help the players identify targets in combat without having to ask which opponent is which (\"I attack the panicked orc before he runs away and alerts anyone to our presence\")."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -3871,7 +3871,7 @@
 	},
 	"building_encounters": {
 		"name": "Building Encounters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 40](source/gamemastery_guide)",
@@ -3879,7 +3879,7 @@
 			"One of the ironies of being a GM is that it's not your job to create a fair fight between the PCs and monsters: if it were a *fair* fight, the PCs would lose half the time, and that makes for a very short adventuring career. Consider a \"fair\" fight between four 6th-level PCs and four 6th-level NPCs; the NPCs are a CR 9 encounter, which has a good chance of killing one of the PCs, but the PCs are likely to kill all the NPCs. This is how it should be; your job is to create encounters that are challenging, which means the PCs are expected to win, but should have to work for it. The following section gives advice on building encounters that are challenging, memorable, effective, and interesting."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -3903,7 +3903,7 @@
 	},
 	"play_to_the_pcs'_strengths": {
 		"name": "Play to the PCs' Strengths",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 40](source/gamemastery_guide)",
@@ -3915,7 +3915,7 @@
 			"This is not to say that you shouldn't challenge the players to try different tactics. Put the fighter who likes being surrounded in a situation where he has to guard a narrow bridge and can't let anyone get past him, or have him fight monsters that get flanking bonuses or sneak attacks that make him rely on terrain or the other PCs to avoid getting killed. Let the tactician-sorcerer take control of a minion. The trick is to teach other styles of play (or at least present them as options) without them feeling forced."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3931,7 +3931,7 @@
 	},
 	"high-_and_low-cr_encounters": {
 		"name": "High- and Low-CR Encounters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 41](source/gamemastery_guide)",
@@ -3947,7 +3947,7 @@
 			"It's entirely possible to have an exciting and challenging fight (CR equal to APL +1 or +2) without overwhelming the PCs. An \"epic\" fight may last two or three hours of real time: a memorable fight if the PCs win, but a depressing slog if they can't. It's generally better to keep combat encounters to about an hour - that way you can get two or three encounters into one night of gaming, and make more progress in the adventure or campaign than a single, longer fight. If the fight you've given the PCs ends up too tough for them, don't forget to remind them that they can run away, or you can cheat a little bit and suddenly treat the monster as if it had the young creature template (-2 on all rolls), which might be enough to turn the tide in the PCs' favor; after all, you want the PCs to win, because that means everyone gets to keep playing. Killing them with an accidentally-too-hard encounter is no fun for anyone."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3963,7 +3963,7 @@
 	},
 	"solo_monsters_vs_groups_of_monsters": {
 		"name": "Solo Monsters vs. Groups of Monsters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 41](source/gamemastery_guide)",
@@ -3973,7 +3973,7 @@
 			"Remember that, as a GM, you have tricks up your sleeve, and if the PCs are having an easy time dealing with a solitary monster, it's all right to send in reinforcements. An intelligent NPC may have bodyguards en route. A brutish monster may have a handler or trainer within earshot of its cries for help. Even an unintelligent creature like an ooze or big zombie may benefit from the arrival of wandering monsters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -3989,7 +3989,7 @@
 	},
 	"winning_monster_combos": {
 		"name": "Winning Monster Combos",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 42](source/gamemastery_guide)",
@@ -3999,7 +3999,7 @@
 			"Monster abilities can also complement hazards or traps; a flying monster ignores difficult terrain, floor pits, or patches of green slime. Monsters with damage reduction are immune to arrow traps and most spear traps; those immune to poison can ignore the danger of poisonous traps or even rooms with inherently toxic air, such as a sulfurous volcanic vent. Using monsters intelligently like this helps create fun and memorable encounters, as well as challenges PCs to try new tactics."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4015,7 +4015,7 @@
 	},
 	"don't_stymie_the_pcs": {
 		"name": "Don't Stymie the PCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 42](source/gamemastery_guide)",
@@ -4029,7 +4029,7 @@
 			"***Present Other Options:*** Just because the encounter involves a monster doesn't mean that all the PCs have to focus on defeating that monster. Create another task that helps overcome the monster, prepares for the next encounter, or disables a parallel threat during the fight. For example, in a fight against a bunch of [black puddings](monster/black_pudding), rather than having the rogue frustrated by not being able to use sneak attack, add a spiked wall trap that the rogue can disable while the other characters deal with the oozes. If the encounter has an iron golem and the wizard has no electricity attacks to slow it, put a magical puzzle-crystal in the room that unlocks a secret room if the wizard makes a Knowledge (arcana) check. If the party cleric channels negative energy and the other PCs are fighting undead (meaning the cleric would heal enemies if she tried to channel), include a door made of fused bone that only opens from a focused blast of negative energy. If the opponent is resistant to physical attacks, put a chained prisoner in the room that the barbarian, fighter, or paladin can rescue while the spellcasters deal with the threat."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4045,7 +4045,7 @@
 	},
 	"unusual_campaigns": {
 		"name": "Unusual Campaigns",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4053,7 +4053,7 @@
 			"Most GMs eventually toy with the idea of running a theme campaign, such as an all-dwarf or all-elf campaign. While most of these have no game effect, below are several variant campaigns that require special consideration when building encounters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -4077,7 +4077,7 @@
 	},
 	"no_healers": {
 		"name": "No Healers",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4085,7 +4085,7 @@
 			"Whether you're running a low-magic campaign or just have a group of players uninterested in playing healers, a lack of curative magic in the party is a big deviation from the norm. Without a healer, monsters that deal high damage have a greater risk of killing a PC - there's no healer to step in and compensate for a critical hit - so you should rely on weaker monsters that don't deal damage in large increments. If there is magic in the campaign, the PCs can at least rely on potions (and scrolls and wands, given an adequate Use Magic Device bonus), but this forces them to decide between attacking and healing each round. Without reliable access to any healing magic (such as in a historical campaign), the PCs must resort to nonmagical methods like the Heal skill, or perhaps limited-use legendary items or quasi-magical items derived from unusual monster parts. They should also consider using more defensive tactics, such as taking the [Dodge](feat/dodge) and [Combat Expertise](feat/combat_expertise) feats, in order to raise their Armor Classes and reduce the number of successful attacks against them. Keep in mind that without healing, PCs generally have no way to deal with curses, diseases, poisons, and other afflictions, so use creatures with those abilities sparingly or make mundane methods of overcoming such dangers a more significant and readily available part of your campaign."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4101,7 +4101,7 @@
 	},
 	"no_spellcasters": {
 		"name": "No Spellcasters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4109,7 +4109,7 @@
 			"Though technically a broader example of the \"no healers\" variant, a campaign with no spellcasters at all has an entirely different set of problems. Most adventures assume that a typical party has one arcane caster and one divine caster; without any magic at their disposal, the PCs may have a hard time dealing with monsters that are resistant to physical damage but vulnerable to magic. Even something as simple as a swarm (immune to weapons but vulnerable to area attacks) becomes a significant challenge when the PCs don't have magic. Conversely, an otherwise challenge-appropriate monster that has a high spell resistance may actually end up weaker than a \"normal\" creature because its CR assumes the PC spellcasters are going to have trouble - a hindrance a no-spellcaster party completely ignores. Keep an eye out for monsters with high DR, high SR, or vulnerabilities to magical attacks (including cold and fire vulnerability); these are likely to be more or less difficult than expected."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4125,7 +4125,7 @@
 	},
 	"all_spellcasters": {
 		"name": "All Spellcasters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4133,7 +4133,7 @@
 			"This section is more about a party with no melee classes, rather than a party where every PC is a spellcaster-a group of four clerics or paladins is technically an all-spellcaster party, but they don't have the sort of problems that four sorcerers, wizards, or even bards face. Such a party is the opposite of the no-spellcasters group; DR is less important, SR and resistances are more important, and creatures with nearly universal magic immunity are a serious problem. [Golems](family/golem), for example, can't be damaged by most direct-attack spells, and even though a [stone golem](monster/stone_golem) is CR 11, it may be able to eliminate an entire party of 12th-level wizards, especially given a wizard's low AC and hit points compared to a melee class. The golem is an \"easy\" challenge on paper, but more dangerous in execution. Of course, smart players will use summoned monsters and charmed enemies to take the brunt of physical attacks, and a smart GM can stave off a lot of player frustration by providing such things to the PCs (even in the form of scrolls or wands) if the players don't think of it themselves; even a few summoned [orcs](monster/orc) at the start of an adventure can help an all-caster party survive."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4149,7 +4149,7 @@
 	},
 	"small_party": {
 		"name": "Small Party",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4157,7 +4157,7 @@
 			"Sometimes you have a player who can't make it to this week's session; sometimes you only know two other gamers in your area. Either way, having a small party presents you with some unique challenges. With fewer characters, a battle can shift against them very quickly; one unconscious, charmed, or held PC in a group of three is a loss of 33% of the party's resources compared to 25% in a standard party. Often, one or more PCs may have to take on multiple roles (melee character, skill character, arcane damage-dealer, or divine healer), and as the game rewards specialization, this means these hybrid characters are slightly less effective at either task than two focused characters would be. Fewer characters means it's more likely they're clustered together, and thus are more vulnerable to area attacks. When dealing with a small party, temperance is the key - start with smaller, weaker encounters, and give the players time to get the feel of their group's vulnerabilities. Once the players have an idea about their party dynamics, test them with encounters closer to their average party level, and eventually you'll find a good CR range that suits their abilities and is still challenging."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4173,7 +4173,7 @@
 	},
 	"large_party": {
 		"name": "Large Party",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 43](source/gamemastery_guide)",
@@ -4185,7 +4185,7 @@
 			"It's perfectly fine for a large group of PCs to have an easier time dealing with challenges where the CR is equal to the APL. In general, it's better to use multiple weak monsters than one powerful monster. This gives each PC multiple opponents to choose from, gives you more creatures to play with, and keeps PC mortality low."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4201,7 +4201,7 @@
 	},
 	"variant_play_experiences": {
 		"name": "Variant Play Experiences",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 44](source/gamemastery_guide)",
@@ -4209,7 +4209,7 @@
 			"Not every game session involves half a dozen people sitting around a table, with dice and character sheets in hand. Other popular play experiences include solo campaigns, convention play, and online games."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -4231,7 +4231,7 @@
 	},
 	"solo_campaigns": {
 		"name": "Solo Campaigns",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 44](source/gamemastery_guide)",
@@ -4249,7 +4249,7 @@
 			"Stealth, skill, and roleplaying encounters are much more common in solo play. Just remember to have a backup plan should the PC fail to accomplish a goal, such as an alternate route around a trap, a quick combat resolution to a failed stealth situation, or a temporary way to neutralize or contain a dangerous opponent."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4263,7 +4263,7 @@
 	},
 	"convention_play": {
 		"name": "Convention Play",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 44](source/gamemastery_guide)",
@@ -4271,7 +4271,7 @@
 			"Conventions are hotbeds of gaming opportunity. While many RPG events available at game conventions are single-session adventures, timed dungeon runs, or tournaments, others are run through organized play groups like the Pathfinder Society which allow players to keep the same character over the course of several games (or conventions!), accumulating experience, gear, and notoriety. Campaigns that operate via game conventions and other public events lose a great deal of the camaraderie of a standard campaign due to the infrequency of sessions and the variable player mix, but such events can be perfect for players without a lot of free time or other players nearby."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4285,7 +4285,7 @@
 	},
 	"online_games": {
 		"name": "Online Games",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 45](source/gamemastery_guide)",
@@ -4297,7 +4297,7 @@
 			"Live chat brings the play experience closer to that of a tabletop game. Everyone logs into the same chat channel at the same time. A live chat game moves slower than a tabletop one, but much faster than a messageboard game. Chat-based games require scheduling, however, and can be a significant headache when you have players from different time zones. Furthermore, absences may be more frequent until you get a solid group, as players are often less committed to an Internet game than an in-person engagement, but logs of missed game sessions allow absentees to quickly catch up on the action."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming",
@@ -4311,7 +4311,7 @@
 	},
 	"fixing_a_'broken'_game": {
 		"name": "Fixing a 'Broken' Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 45](source/gamemastery_guide)",
@@ -4327,7 +4327,7 @@
 			"***When PCs Miss a Clue:*** Any time you leave the course of an adventure to a die roll, you risk PCs - and thus players - missing something important, whether it's a secret door, a hidden panel in a treasure chest, or a failed Knowledge roll. Fortunately, you control the entire game world, and it's easy to point the PCs at the clue again. If the PCs missed a secret door, let them find a rough treasure map of the dungeon with the door clearly marked (on the back of a scroll they found earlier is a nice trick), or they can hear about it from another group of adventurers. Cohorts are good for spotting overlooked secret compartments in treasure chests, as is a sharpeyed town merchant. A forgotten reference to an ancient king, priest, or wizard can turn up in an old prayer book or during spell research. While the PCs may be the focus of the campaign world, there are countless secondary characters and events that can put them back on the right track if they get lost."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"the_science_of_gming"
@@ -4344,7 +4344,7 @@
 	},
 	"gm_considerations": {
 		"name": "GM Considerations",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 46](source/gamemastery_guide)",
@@ -4352,7 +4352,7 @@
 			"One of the game's delights - and frustrations - is that it changes over time. Every session runs a little bit differently, and whether it's new abilities, new characters, or changes to the gaming group itself, a good GM needs to know how to roll with the punches."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -4378,7 +4378,7 @@
 	},
 	"game_changers": {
 		"name": "Game Changers",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 46](source/gamemastery_guide)",
@@ -4450,7 +4450,7 @@
 			"If you have to hit the reset button, make it obvious that you're doing so. The campaign may have gone in a bold, player-driven direction that you weren't anticipating. And when it did, all that talk of destiny from the crazy lady back in the starting village was invalidated or became completely irrelevant. If you feel like you'd have to stretch the narrative too far to cover an out-of-date portent, then make it clear in the story of the world that the old destiny no longer applies. Perhaps the stars rearrange themselves in the sky (due to the PCs' actions, ideally), and now everyone's fate is uncertain, or can be perceived anew. Maybe the goddess of destiny appears and says that the trickster god has stolen threads from her loom of fate - including the threads that represent the PCs. You're operating in a realm where anything is possible, so avail yourself of that power."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4467,7 +4467,7 @@
 	},
 	"emergency_game_prep": {
 		"name": "Emergency Game Prep",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 48](source/gamemastery_guide)",
@@ -4487,7 +4487,7 @@
 			"Remember, thrust matters more than direction. As you improvise your way through a session, it's tempting to worry about whether you're making decisions - especially plot and setting decisions - that will come back to haunt you later. Ignore those concerns; you'll have plenty of time to tie up loose ends, patch over plot holes, and bring the players back to the main plotline later. You care that the PCs are doing something interesting. The pause while you figure out the perfect encounter diminishes everyone's fun more than the out-of-place detail or the tangential plotline ever could."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4505,7 +4505,7 @@
 	"tpks": {
 		"name": "TPKs",
 		"tags": "total party kills death",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 49](source/gamemastery_guide)",
@@ -4533,7 +4533,7 @@
 			"***Rewind:*** Sometimes accidents happen. Someone reads a rule wrong, you design an encounter that's unfairly lethal, or the game otherwise goes off the rails. If a fundamental misunderstanding or error led to the TPK, don't feel like you have to let it stand. Just hit the rewind button and play the encounter over again. You want decisions at your table to have consequences, but simple errors shouldn't steal everyone's fun."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4550,7 +4550,7 @@
 	},
 	"overpowered_pcs": {
 		"name": "Overpowered PCs",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 50](source/gamemastery_guide)",
@@ -4574,7 +4574,7 @@
 			"***Overpowered Monsters:*** Sometimes the proverbial shoe will be on the other foot, and a monster will be unexpectedly powerful. At first, let it play out a bit. Once the power disparity is clear to everyone at the table, take action - either nerf the monster on the spot and tell the players (in general terms) what you've done and why, or forego use of that monster, telling the players that \"the dragon turtle has some problems, which I'm going to fix before our next session.\""
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4591,7 +4591,7 @@
 	},
 	"personalizing_published_adventures": {
 		"name": "Personalizing Published Adventures",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 51](source/gamemastery_guide)",
@@ -4603,7 +4603,7 @@
 			"What it comes down to is that you have to make the adventure your own - whether a Pathfinder Module, a one-session Pathfinder Society Scenario, or a third-party adventure. If you're lucky and choose well, you can save yourself a lot of work. Make changes to the story if you have to, embrace tangents the PCs introduce, and always feel free to point the story in the general direction of your campaign's primary plot if the PCs decide to abandon the story in the published adventure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4620,7 +4620,7 @@
 	},
 	"converting_content_from_35_or_other_systems": {
 		"name": "Converting Content from 3.5 or Other Systems",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 51](source/gamemastery_guide)",
@@ -4638,7 +4638,7 @@
 			"Of course, you can also look to other game systems for ideas and adventure materials, it just requires more work on your part. In most cases, searching the internet for fanmade conversion suggestions is a time-saver; most of these suggest skill DCs, replacement spells and magic items, and rough stat blocks or simple replacements (such as swapping the tcho-tcho people of the Lovecraftian mythos for [goblins](monster/goblin)). Use the Pathfinder RPG rules as a resource; the Bestiary includes a wide variety of monsters so you can create the sort of fantasy that you want, and by trading a few proper nouns, you can convert even a superhero, space opera, or hard SF scenario into a fantasy plot."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4655,7 +4655,7 @@
 	},
 	"words_every_game_master_should_known": {
 		"name": "Words Every Game Master Should Known",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 55](source/gamemastery_guide)",
@@ -4663,7 +4663,7 @@
 			"Abase, abash, abattoir, abhorrent, ablution, abscess, abstemious, abstersion, abstruse, accoutre, acephalous, acrid, aesculapian, affusion, ague, alembic, alluvium, amanuensis, ambergris, ambrosia, ambry, amorphous, amphora, anchorite, anfractuous, anodyne, anserine, antechamber, antediluvian, anthelmintic, antic, aquiline, ardent, argot, ascians, asperity, astomatous, atavistic, ataxia, augean, autarch, avuncular, bacchanal, badinage, bagatelle, baksheesh, balderdash, baleful, baleen, ballyhoo, banal, bannock, banns, bantam, barque, barmy, baroque, bashi-bazouk, bas-relief, bathos, bawdy, bayard, beadle, beatitude, bede, begum, beldame, beleaguer, belfry, beltane, belvedere, benefice, benison, benjamin, beshrew, besot, bete noire, bewray, bibliolatry, bibulous, bier, bijou, bilbo, billingsgate, biltong, biretta, bivouac, blague, blain, blandish, blarney, blaspheme, blowzy, bodkin, boeotian, bombast, boreal, bouffant, bourse, bower, braggadocio, bravo, bretwalda, brine, bruin, bucolic, bursar, cache, cachinnate, cad, cadaverous, cadge, cadre, caitiff, calumny, camarilla, canard, canny, canticle, caparison, caper, carillon, castigate, casuistry, cataphracts, cateran, caudle, caustic, cavil, celerity, cenobite, chancellery, chary, churl, chyme, cinerary, circumvallate, cistern, clamber, clamor, cockade, cognate, cognomen, coif, collet, colporteur, comely, commodious, compurgation, concatenate, condign, condottiere, connubial, conterminous, contretemps, conundrum, convalesce, convivial, coomb, coppice, coquette, corban, cornucopia, coronach, coruscate, cosset, coterie, coven, covenant, coxcomb, coxswain, cozen, crannog, crenellated, crepuscular, croft, crone, crony, crotchet, cruciform, cubit, cuckold, cuirass, cur, cuspidor, cyclopean, cynosure, dacoit, damask, dastard, dauphin, debauch, decuman, defenestrate, deglutition, demesne, desiccate, diadem, diarchy, dictum, dirge, distaff, dobbin, dodder, dolmen, dolor, dotterel, doughty, dowager, doyen, dragoman, dross, dudgeon, duffer, durbar, ebullient, eclat, eidolon, efface, effigy, elan, eldritch, eleemosynary, elegy, empyreal, ensanguined, epicure, epigraph, equerry, escutcheon, eviscerate, excoriate, factotum, falderal, fallal, fardel, farrago, fasces, fester, filament, firmament, fitz, flagellate, flagitious, foozle, fop, formic, fracas, fresco, friable, frippery, frolic, fulgent, fulgurate, fuliginous, fulminate, fumarole, fustigate, gaffer, galleass, gallipot, gallowglass, gammer, gardyloo, gentry, genuflect, geophagy, gewgaw, gibbet, gimcrack, glaucous, gloaming, glower, gossamer, gralloch, grippe, hagiography, halcyon, halidom, harangue, harbinger, harlequin, harridan, hauteur, hebdomadal, hecatomb, helot, heriot, hermetic, hircine, hirsute, hoary, hoyden, humbug, hussar, hydrargyrum, ichor, idolater, ilk, imbroglio, indurate, ineffable, inexorable, infrangible, iniquity, inosculate, insouciant, intaglio, inveigle, invidious, irascible, irk, itinerant, jabber, jackanapes, janissary, jaundice, jeer, jejune, jeremiad, jingo, jocund, jongleur, jorum, joss, jougs, jowl, jubilee, juggernaut, ken, kern, khamsin, kine, kirk, kirtle, kittle, knacker, knell, knout, kowtow, kulak, laager, lachrymal, lackadaisical, lacuna, lade, laggard, laird, lambent, lampoon, lanceolate, lancet, languor, lank, lanyard, lapidary, lares, lariat, larrikin, lascivious, lassitude, laud, laureate, lazar, lazaretto, leal, leaven, lector, lees, legate, legerdemain, leman, lesion, liege, liniment, lissome, lithe, littoral, liturgy, loam, logogram, loll, lour, lucre, lupine, macerate, machinate, madrigal, maelstrom, mafficking, malediction, mammon, mandarin, mange, martinet, mawkish, medicament, mendacious, mendicant, metier, miasma, missive, monomachy, mordant, mulct, nadir, naphtha, narcissism, narcosis, nascent, naught, navicular, neap, nebulous, necromancy, necrophagous, necropolis, necropsy, necrosis, nectar, ne'er, neuter, nexus, nightshade, nihilism, nirvana, nitrate, noctule, node, nostrum, noxious, noyade, nubile, nucleus, nugatory, nullify, obeisance, obese, oblate, oblique, oblivion, obloquy, obsequious, obstinate, obstreperous, obtrude, obdurate, obtuse, obverse, occult, ocular, offal, officiate, offspring, ogle, olfaction, omen, ominous, onerous, onslaught, opaline, opiate, ordinal, ordure, orgy, orpine, oscular, ossify, ostracize, ovoid, ozone, pact, palpable, palpitate, palsy, panacea, pandemonium, pang, pannage, parabolic, paradox, paragon, parallax, paranoia, paraphernalia, parasite, pare, pariah, particularism, partisan, pathetic, paunch, pawky, pediment, penchant, pendant, pendulum, penitent, penology, pensile, pentacle, pentagram, penumbra, penury, peptic, perdition, perfidy, perpendicular, perpetual, persecute, pervert, pestilence, petty, phalanx, phallus, phlegm, phosphorus, pillage, pinion, piteous, plague, placid, plead, plenitude, plight, pock, polemic, pollard, polyglot, pompous, pontiff, porcine, potash, potent, primal, profane, prolate, propagate, prostrate, pulverize, pumice, purgatory, purulent, pustule, pygmy, quagmire, quarantine, quarrel, quasi, quench, quoin, quotient, rabid, rake, rampage, rampant, ramshackle, rapacious, ravage, reap, reave, reckoning, recluse, redolent, refute, regicide, regorge, regret, relapse, relic, relish, remorse, resinous, resurgent, retribution, revenant, reverie, revive, rhapsody, rhetoric, rictus, rigmarole, rime, rind, riparian, rookery, ruinous, runt, sable, sabotage, sacrilege, salve, samite, sanctify, sargasso, scabious, scallywag, scalpel, scandalize, scapegoat, scathe, scion, sclerosis, scour, scrag, scrimshank, sebaceous, secession, secretion, secular, semblance, seminal, seminary, senile, sepulture, serpentine, serrate, servile, shade, sham, shamefaced, shanty, shoddy, shorn, shrill, shun, silage, silvanus, simulacrum, sinuous, sitar, skewbald, slander, sluice, smattering, smock, sneer, snide, sordid, spawn, speculum, splay, spume, stagnant, stagnate, stake, strangulate, strigil, stub, subjugate, suction, sulphur, supernaturalness, supremacy, surge, suture, swagger, swamp, swank, sweat, swill, syringe, taboo, taint, tallow, tangible, tardy, tariff, tatty, temerity, temperance, tenuity, terret, terrify, tether, thane, theurgy, thews, thorn, thou, threshold, throb, throng, thuggery, thy, titillate, topsy-turvy, torpid, tortuous, totem, toxin, tractable, transform, trauma, tremulous, trigon, trotter, truncate, truss, tumulus, turgid, tyrant, ugly, ulcer, ululate, umbral, undulate, unhallowed, unman, unravel, unspeakable, uproar, usury, utter, vainglory, valgus, vapid, vault, vegetal, venerable, vengeance, verdigris, vigilance, violate, viridescent, virus, viviparous, voiceless, volition, voluble, vulgar, vulnerable, waif, wan, wangle, warn, watchfulness, waxen, wean, wheedle, whorl, widow, , wince, wreath, writhe, xanthous, xenophobia, xiphoid, xylograph, xylophagous, yearn, yule, zeal, zealot, zenith, ziggurat, zounds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game",
 			"gm_considerations"
@@ -4680,7 +4680,7 @@
 	},
 	"tools_for_game_masters": {
 		"name": "Tools for Game Masters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"The following is a supply of inspirational charts, suggestions, and other quick references to help inspire GMs both before and during a game session.",
@@ -4887,7 +4887,7 @@
 			"| Friherre | Bar&oacute;n, Baronesa | Helots | Pan |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"running_a_game"
 		],
@@ -4904,7 +4904,7 @@
 	},
 	"player_characters": {
 		"name": "Player Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -4914,7 +4914,7 @@
 			"If the game were a movie and the GM its director, then the players would be both starring actors and audience. All the fearsome monsters, nasty traps, elaborate dungeons, and sinister plots in the world are wasted without a dynamic band of players to confront them and aid in developing an exciting story. By sharing a measure of responsibility with the GM for a game's story and the group's greater enjoyment, players go beyond the role of mere bystanders, and become both the stars and the co-authors of their heroic epic."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide"
 		],
 		"subtopics": [
@@ -4937,7 +4937,7 @@
 	},
 	"starting_characters": {
 		"name": "Starting Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -4945,7 +4945,7 @@
 			"This section details the part of a Pathfinder game the Game Master does not directly control, discussing the elements of an adventuring party, players' rights and responsibilities, ways to involve newcomers and re-engage veterans, and suggestions for how to work with gamers of all types toward the creation of more exciting stories and more enjoyable games."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters"
 		],
@@ -4967,7 +4967,7 @@
 	},
 	"the_face_of_the_enemy": {
 		"name": "The Face of the Enemy",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -4979,7 +4979,7 @@
 			"Should a player have a concern about the game, a GM's rules arbitration, or any other game-related quandary, he should be encouraged to bring such matters up at a time when it doesn't detract from the group's fun, perhaps immediately following the current game session. In the best campaigns, players should feel like they have a stake in the ongoing story, and a good Game Master keeps in touch with what game elements the players enjoy most, tailoring the campaign to take advantage of their preferences. In the end, though the GM always has the final say, it's important for everyone involved to remember that it's only a game, and a bit of flexibility here and there results in a more enjoyable experience for everyone in the end."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -4996,7 +4996,7 @@
 	},
 	"before_the_game": {
 		"name": "Before the Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -5004,7 +5004,7 @@
 			"Prior to sitting down to create characters, the players and GM should have a discussion about what sort of game they want to play. Although most campaigns using the Pathfinder Roleplaying Game fall within the sword and sorcery genre, other options abound, and the GM should make sure the players are aware of what sort of game they're headed into. If that means a world where wizardry is outlawed, or all druids have been driven underground by the depredations of an industrial revolution, they should know this before the game begins. Getting a sense of the types of characters each player would enjoy running helps the GM tailor the game from its outset; for more information on this aspect, see [Creating a World](rule/creating_a_world)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -5021,7 +5021,7 @@
 	},
 	"group_composition": {
 		"name": "Group Composition",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 58](source/gamemastery_guide)",
@@ -5033,7 +5033,7 @@
 			"Occasionally, a GM might restrict available character types. In these campaigns, such as the example mentioned [previously](rule/before_the_game) where wizardry is outlawed, it's important to decide whether or not you're interested in allowing exceptions. A sorcerer on the run from government officials who think he's a wizard makes for a great PC, but ultimately players must abide by the tropes of your world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -5050,7 +5050,7 @@
 	},
 	"character_creation_gg": {
 		"name": "Character Creation",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5060,7 +5060,7 @@
 			"During the pre-campaign discussion, the GM should make sure that all players are on the same page regarding character creation basics such as how to generate statistics and what, if any, special character options might be used. This is the time for GMs to discuss what material beyond the Pathfinder RPG Core Rulebook new characters might employ. Unless an option clearly conflicts with the tone of the game, or the GM feels the power level is unbalanced, it's often a good idea to honor player requests, but ultimately the GM makes the call as to what rules can be used, and this information needs to be available to all players up front to avoid disappointment. When in doubt, you can always allow a power on a provisional basis, with the understanding that you'll help the player rebuild his character if you later reject the rule."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -5077,7 +5077,7 @@
 	},
 	"character_backgrounds": {
 		"name": "Character Backgrounds",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5089,7 +5089,7 @@
 			"Also see: [How to Create a Background](rule/how_to_create_a_background)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -5106,7 +5106,7 @@
 	},
 	"during_the_game_gg": {
 		"name": "During the Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5114,7 +5114,7 @@
 			"***It's been stated before, but it bears repeating:*** as long as everyone's enjoying themselves, the game is working. Some groups want nothing but combat after combat, while others crave in-depth roleplaying or elaborate plots. Each player around the game table brings his own unique skills and preferences, and it is the job of the Game Master to play to each player's interests while balancing the needs of the whole group - including himself as world-builder and chief storyteller - to make sure everyone is having fun."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -5136,7 +5136,7 @@
 	},
 	"fair_gameplay": {
 		"name": "Fair Gameplay",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 59](source/gamemastery_guide)",
@@ -5148,7 +5148,7 @@
 			"Beyond simply obeying the rules, however, fairness can also mean sharing the spotlight equally, and ensuring that all players are getting the chance to perform. While not every player is going to be on the edge of his seat every minute, it's a GM's job to watch and see if anyone is hogging the spotlight or being left out. Compromise and sacrifice are needed to keep the game going smoothly, and you should avoid letting players monopolize your attention with their characters' individual needs or interests. Similarly, sometimes characters are knocked out of combat or killed. Although it's no fun to sit out for a portion of a session, players should remain positive and understand that sometimes the dice roll against them - and that you as GM will get them back into the action as soon as possible."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters",
@@ -5162,7 +5162,7 @@
 	},
 	"player_knowledge": {
 		"name": "Player Knowledge",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 60](source/gamemastery_guide)",
@@ -5178,7 +5178,7 @@
 			"One particularly sticky area of metagaming has nothing to do with game mechanics, but rather real-world knowledge and intelligence. Sometimes the player who's a genius at solving puzzles and riddles wants to play a dumb brute of a swordsman. This is great - so long as his character isn't still solving all the puzzles. In this situation (or the reverse, where the player who's terrible at puzzles has an Intelligence score of 22), let all the players work together to solve the puzzle, but use skill checks and Intelligence checks to offer hints or determine who actually comes up with the solution. Similarly, don't fall into the trap of letting a player's knowledge base inform the character's beyond what's reasonable. Just because your player knows how to make gunpowder out of bat guano doesn't mean his uneducated halfling cleric does."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters",
@@ -5192,7 +5192,7 @@
 	},
 	"plot_development": {
 		"name": "Plot Development",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 61](source/gamemastery_guide)",
@@ -5208,7 +5208,7 @@
 			"Obstinacy, however, is one of the quickest ways for a player to kill a campaign. A player who refuses to play his character any way but his own, fails to accommodate other players' wishes and interests, or insists on heading off on his own is forgetting the cooperative nature of the game. In this case, it's the GM's responsibility to intervene and speak privately to the player. If working together to add additional plot elements, or coaching the player in more team-based play, doesn't succeed in bringing him back in line with the rest of the group, then it might be best for him to create a new character or resign from the gaming group altogether: perhaps taking his headstrong character on a solo adventure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters",
@@ -5222,7 +5222,7 @@
 	},
 	"after_the_game": {
 		"name": "After the Game",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5230,7 +5230,7 @@
 			"Between sessions, players still have plenty of opportunities to contribute to a game's success. Engaging in good record keeping, maintaining up-to-date characters, participating in game-related projects, and giving feedback all help games run smoothly, take work off your shoulders, and keep a campaign fun even between sessions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters"
@@ -5252,7 +5252,7 @@
 	},
 	"keeping_current": {
 		"name": "Keeping Current",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5262,7 +5262,7 @@
 			"Players should also ensure that their character sheets stay up to date, adding and removing equipment, accounting for long-term effects, and updating character level adjustments as soon as possible. Decide ahead of time if you have any specific preferences regarding leveling, such as not allowing the players to level in the middle of the session, or insisting that they roll their hit points in front of a witness. Players should always arrive for a session with an up-to-date character sheet so valuable game time isn't consumed by last-minute preparation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters",
@@ -5276,7 +5276,7 @@
 	},
 	"feedback": {
 		"name": "Feedback",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5286,7 +5286,7 @@
 			"Constructive criticism is just as important as positive reinforcement, but it should be handled more carefully. When possible, raise any individual issues with players in private. Phrasing such criticism as a request for assistance often makes the process easier. For example, if a player is getting caustic toward a teammate over the latter's limited rules knowledge, you might ask that he help educate the neophyte player. Similarly, if one player's character is constantly disrupting the game by heading off in different directions, you could ask that player to help you keep the group on track; many players understand the difficulties of GMing, and may play differently if they see themselves as sharing that responsibility."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters",
@@ -5300,7 +5300,7 @@
 	},
 	"creativity_between_sessions": {
 		"name": "Creativity Between Sessions",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 62](source/gamemastery_guide)",
@@ -5312,7 +5312,7 @@
 			"It's not just artists and writers who can help the GM between sessions, either. If you have a trusted player who's particularly adept with the rules (or maybe even GMs himself), feel free to use him as a resource, perhaps vetting rules supplements proposed by other players and advising you on tricky balance issues, or educating other players in particularly confusing aspects of the game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"starting_characters",
@@ -5326,7 +5326,7 @@
 	},
 	"new_players": {
 		"name": "New Players",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 63](source/gamemastery_guide)",
@@ -5346,7 +5346,7 @@
 			"GMs who choose to run a game for beginners should decide whether they want to make it open to the public or restricted to a select group of friends. While inviting a few interested potential players is usually the easiest course, many game stores and conventions welcome GMs willing to teach new roleplayers. As with any new game or topic, the GM should be patient with beginners, receptive to their questions, and interested in making sure everyone understands what's going on. Not every rule and option needs to be presented from the start; ensuring that everyone is comfortable with the basics before gradually introducing new elements helps to avoid overwhelming anyone. Remember that, first and foremost, the Pathfinder RPG is a game and is most fun when played, so demonstrations, simple combats, and keeping an open forum for questions can not only make for a fun adventure, but can also quickly expand a GM's pool of potential players."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters"
 		],
@@ -5359,7 +5359,7 @@
 	},
 	"the_life_of_a_party": {
 		"name": "The Life of a Party",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5367,7 +5367,7 @@
 			"Once a group has its players, the elements of the game are decided upon, and characters are made, it's time for adventure! The importance of the players doesn't end when the GM's story begins. The ways players cooperate, characters play off of each other, and an adventuring party functions together can determine not just the success or failure of an adventure, but also the fortune of a gaming group as a whole. This section focuses on elements of the game GMs - and their players - should consider to improve the quality of their parties, make running the game easier, and generally spend more game time roleplaying and less time squabbling. Keeping in mind some of the issues and sticking points most commonly faced during roleplaying games can help you steer your party away from problems, frustrations, and wasted time."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters"
 		],
@@ -5388,7 +5388,7 @@
 	},
 	"gathering_a_group": {
 		"name": "Gathering A Group",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5396,7 +5396,7 @@
 			"There's an important step between creating characters and having that first adventure: forming an adventuring party. Unless your players have discussed connections between their characters in advance, you might find yourself with a disparate group of individuals seemingly unlikely to work toward the same goal. This can prove an extremely daunting task, and may require some quick and clever improvisation, though experienced players are likely to try and make the job easier for you by responding receptively to potential common interests. The less handwaving a GM has to do, however, the stronger a story feels. To help a group deal with the often-awkward first encounter, the following options aid in transforming a group of strangers into a cohesive adventuring party."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party"
@@ -5418,7 +5418,7 @@
 	},
 	"shared_past": {
 		"name": "Shared Past",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5430,7 +5430,7 @@
 			"The shared past method can also work well beyond first level; just because a PC never mentioned an old acquaintance, for example, doesn't mean she doesn't exist, and more than one replacement character has come searching for her recently deceased sibling, only to pick up her sister's quest where the late adventurer left off. Shared pasts also provide an excellent means of introducing villains with a connection to the PCs, making the adventure a personal vendetta from the very first encounter."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5445,7 +5445,7 @@
 	},
 	"shared_goal": {
 		"name": "Shared Goal",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5453,7 +5453,7 @@
 			"Perhaps one character shows up at the entrance to a recently uncovered dungeon looking for her missing niece, and soon after a robed figure also approaches the entrance tracking down a kobold who stole his master's book of arcane research. Both need to clear out the same dungeon, so they might as well work together. It's the PCs' objective, not their history, that brings them together in this case. While such happenstance can easily stretch credulity if numerous adventurers show up at a site all at the same time, chancing upon a character or another group with a similar destination or goal can be made to feel natural if it's done thoughtfully. Unlike the shared past method, the characters must learn to trust one another over time, providing ample opportunities for roleplaying as characters feel each other out and create friendships and rivalries."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5468,7 +5468,7 @@
 	},
 	"in_media_res": {
 		"name": "In Media Res",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 64](source/gamemastery_guide)",
@@ -5478,7 +5478,7 @@
 			"As stirring as this method can be, it risks taking a measure of character control out of the players' hands, as it assumes prior actions, and can be especially frustrating if a player doesn't believe her character would be involved in the situation presented. Thus, it's often helpful for the GM to include the players in a measure of the setup, perhaps asking each member to come up with a reason for why his character might be in a specific place or be interested in some event. They don't need to know how the GM plans to start things off, but they'll already know why they're around when the excitement begins."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5493,7 +5493,7 @@
 	},
 	"flash_forward": {
 		"name": "Flash Forward",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 65](source/gamemastery_guide)",
@@ -5501,7 +5501,7 @@
 			"By far the easiest way to get characters together is to skip past the introductions and straight to the adventure. Having the players decide upon how the characters met, develop a few connections or rivalries, and determining what shared goals they already have allows a group to forgo the introductory period. While this glosses over many nuances of character motivation and potentially memorable first meetings, it also means that the GM can start an adventure at the first encounter of the adventure and start the story moving forward from there. This method tends to work best for one-night adventures, where specifics of characterization and motivation prove secondary to the excitement of the game, but can also be useful for groups where players are keen on weaving an elaborate group backstory."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5516,7 +5516,7 @@
 	},
 	"party_composition": {
 		"name": "Party Composition",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 65](source/gamemastery_guide)",
@@ -5524,7 +5524,7 @@
 			"As long as every player is participating and having fun, there's no right or wrong number of players in a gaming group. Yet times arise when the number of characters and the choices they make have a significant effect on an adventure, and can potentially compromise the enjoyment of all involved."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party"
@@ -5545,7 +5545,7 @@
 	},
 	"splitting_the_party": {
 		"name": "Splitting the Party",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 65](source/gamemastery_guide)",
@@ -5571,7 +5571,7 @@
 			"***Go With the Flow:*** When the two parties reunite, let it happen. Don't worry that 10 minutes passed for one group and only 5 minutes passed for the other. It's probably not worth it to award experience points differently - few people really care that they get 150 more XP than someone else, and making such distinctions is more likely to foment discord than prevent it."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5585,7 +5585,7 @@
 	},
 	"adjusting_for_limitations": {
 		"name": "Adjusting for Limitations",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 66](source/gamemastery_guide)",
@@ -5601,7 +5601,7 @@
 			"***Hirelings:*** In many fantasy settings, it's wholly plausible that a group of adventurers might hire porters, guides, mercenaries, or even other adventurers to fulfill any number of needs: see anything labeled *Lodging/Services* under [miscellaneous equipment](main/equipment_misc) for rates."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5615,7 +5615,7 @@
 	},
 	"secondary_characters": {
 		"name": "Secondary Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 66](source/gamemastery_guide)",
@@ -5623,7 +5623,7 @@
 			"While most gaming groups adhere to the basic convention of one player per character, there's no rule to prevent players from running multiple characters if you're comfortable with it. As mentioned earlier, the [Leadership](feat/leadership) feat offers perhaps the most obvious option for this, potentially drawing a small army into a single character's employ. Yet there's nothing to say that a player can't play two totally independent PCs at once. This option is particularly useful for small groups that would otherwise have significant holes in their abilities and skill sets. In extreme cases, a game with only one player might see the player running an entire party."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5637,7 +5637,7 @@
 	},
 	"handling_treasure": {
 		"name": "Handling Treasure",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 66](source/gamemastery_guide)",
@@ -5651,7 +5651,7 @@
 			"***NPC Shares:*** Seldom discussed, NPCs have their own motives. Does a cohort get a share of the treasure? A hireling or follower? An NPC who's tagging along? An animal companion? Before splitting up treasure, the entire group - and any avaricious NPCs - should be on the same page about where the loot goes in the end (and such issues can conveniently resolve the problem of the character with too many hirelings or cohorts)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party"
@@ -5667,7 +5667,7 @@
 	},
 	"death_of_a_hero": {
 		"name": "Death of a Hero",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
@@ -5675,7 +5675,7 @@
 			"Inevitably, whether in a dramatic sacrifice or merely through bad luck with the dice, player characters die. How the group reacts to the death - and what the now-characterless player does about the situation - can say a lot about your game. In most cases, the focus of all parties involved changes to making sure the recently deceased character can get back into the action as soon as possible. But should the circumstances of the character's death render him beyond the party's reach, it might be time to create a new character."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party"
@@ -5695,7 +5695,7 @@
 	},
 	"when_to_resurrect": {
 		"name": "When to Resurrect",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
@@ -5705,7 +5705,7 @@
 			"By the same token, players with dead characters should understand that their companions are not obligated to restore them, especially if doing so would require hocking every item and using every gold piece the party possesses. The game should not be made less enjoyable - and the party crippled - just to reverse the unfortunate fate of a single character."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5718,7 +5718,7 @@
 	},
 	"back_from_the_grave": {
 		"name": "Back from the Grave",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 67](source/gamemastery_guide)",
@@ -5730,7 +5730,7 @@
 			"Forcing characters to cope with the loss of a party member, however, isn't the only option to dealing with in-game deaths. If a character proves absolutely vital to a game, is the hinge that keeps a player invested, or was slain through an unfair technicality, the GM might consider finding a way to return the character to life. While openly ignoring the rules can feel weak and arbitrary, the GM might concoct a special deific favor or even an adventure-worthy plot to restore the deceased character. Doing so can strengthen a party, rewarding members for their reliance on and willingness to sacrifice for one another, and even give the group new reasons to adventure, but this tactic should be used sparingly lest a group lose its fear of death altogether."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5743,7 +5743,7 @@
 	},
 	"alignment_gg": {
 		"name": "Alignment",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -5755,7 +5755,7 @@
 			"Many of the debates spawned by alignment arise as the system moves beyond mere description to taking on a role that affects the game's rules. While no real-world humans can say they're entirely good or law-abiding, there exist creatures in the Pathfinder Roleplaying Game that are fundamentally good, evil, lawful, or chaotic, and some magic depends on judging a character by its alignment. Because game effects are associated with an ultimately subjective system, you should make sure your players understand your interpretation of alignment ahead of time. The following are a few ways you might handle alignment in your game or use it to help players develop their characters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party"
@@ -5777,7 +5777,7 @@
 	},
 	"predestination": {
 		"name": "Predestination",
-		"subtitle": "Gamemastering, Alignment",
+		"subtitle": "Gamemastery, Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -5785,7 +5785,7 @@
 			"The simplest way to view alignment is as nine literal personalities. If a character is lawful good, he always obeys the law and always does the \"right\" thing, while a chaotic evil character always shirks the law and acts maliciously. This is a system of absolutes, where free will and context mean little, everything is pre-ordained, and every creature has a path. Players who view alignment as predestination might wear alignments like straitjackets, but at the same time, they always know how to roleplay their character's reaction to situations. This proves both helpful and comforting to many players new to or ill at ease with roleplaying. This approach also renders alignment-based rules easy to arbitrate, turning every matter of determining alignment into a simple yes-no question. Problems with this method tend to arise when a game ventures into sketchier moral and ethical situations. A player might become uncomfortable when his lawful good character feels forced to obey the laws of an evil society, or might have trouble in a campaign that requires him to work with those whose alignments differ from his own."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5800,7 +5800,7 @@
 	},
 	"free_willl": {
 		"name": "Free Willl",
-		"subtitle": "Gamemastering, Alignment",
+		"subtitle": "Gamemastery, Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -5808,7 +5808,7 @@
 			"Many players tend to focus more on creating characters with consistent, specific personalities rather than alignments. These players envision their heroes' backgrounds, personality traits, attitudes, and goals, and only then choose an alignment that best reflects these facets. A character's alignment then becomes a way of categorizing his personality, rather than defining him and channeling his actions. As long as the player understands the impact of his choice on gameplay, this approach works smoothly. For example, a player who chooses the chaotic neutral alignment needs to understand that certain elements within the game world will judge him based on this decision (as with any other alignment). Some temples might deny him healing because the biggest threat in the region is chaotic monsters, viewing her alignment as grounds for suspicion. This method is also problematic when it becomes too general. Accepting alignment as a broad category can render it almost meaningless and make it difficult for you as the GM to judge whether a character is acting outside of her alignment and arbitrate any game effects associated with doing so."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5823,7 +5823,7 @@
 	},
 	"defining_deeds": {
 		"name": "Defining Deeds",
-		"subtitle": "Gamemastering, Alignment",
+		"subtitle": "Gamemastery, Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 68](source/gamemastery_guide)",
@@ -5831,7 +5831,7 @@
 			"Another way to see alignment is as a series of concentric rings. In the center ring are all the behaviors that are obviously acceptable according to a character's alignment. Around that is a middle circle that covers the gray areas-actions that might be allowed under certain circumstances or are unclear. On the outside is the forbidden area of extreme actions that obviously violate the alignment. Taking prisoners offers examples of all three circles. Accepting an opponent's honorable surrender is clearly good. Torturing that prisoner for information might be in the forbidden area for a given good character. But what about threatening torture, if the PC doesn't intend to carry out the threat? That falls into the middle circle. Taking this route means players must remember their characters' alignment and act accordingly. At the same time, while this route goes far toward suggesting how characters might act in specific situations, debates might arise when group members don't see eye-to-eye about which acts are permissible. Additionally, some characters might have varying access to the gray areas of their alignment, and GMs should discuss where this line exists for characters who face repercussions for deviating from their moral code."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5846,7 +5846,7 @@
 	},
 	"changing_alignment": {
 		"name": "Changing Alignment",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 69](source/gamemastery_guide)",
@@ -5860,7 +5860,7 @@
 			"Characters also risk having their alignment changed if they continually act in accordance with an alignment other than the one they chose. For many characters, this matters little, but in the case of characters bound to a specific alignment for rules-related purposes, an alignment change might mean having to reimagine their entire character. Instead of springing this on a player, make it clear when an action risks violating an alignment-related requirement. Sometimes this will be seen as the voice of the character's conscience, and allow the player to refrain from the action or suitably justify it to themselves (and you) to bring it into accordance with their values."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party",
@@ -5875,7 +5875,7 @@
 	},
 	"evil_characters": {
 		"name": "Evil Characters",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 69](source/gamemastery_guide)",
@@ -5885,7 +5885,7 @@
 			"Evil characters present more than just an excuse to engage in offensive behavior or play homicidal maniacs; rather, they allow players to mimic some of the classic cads and antiheroes of legends and fantasy literature. Just like good characters, evil characters have goals and desires and understand the consequences of their actions. Those who do whatever they want without consideration for the rest of the party risk undesirable repercussions. Adventurers who routinely steal from their companions or betray their compatriots are likely to find themselves abandoned or slain. But evil characters who are more than just psychopaths can prove to be valuable members of a group should their goals parallel those of a party. Talk with your players and discuss what makes their characters evil, their goals, and how allying with other adventurers might aid those goals. At the same time, players of good characters should think about why they might travel with such ne'er-do-wells (perhaps out of desperation, responsibility, or the hope of rehabilitation)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"the_life_of_a_party"
@@ -5901,7 +5901,7 @@
 	},
 	"player_interactions": {
 		"name": "Player Interactions",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 70](source/gamemastery_guide)",
@@ -5927,7 +5927,7 @@
 			"***Respect:*** Although the GM controls many aspects of the game, one thing she can't control-and shouldn't attempt to-is the players. Tailoring the game to better suit the players shouldn't feel subversive or manipulative. Ideally, everyone at the game table is there to have a good time and a GM should make clear her attempts to minimize conflicts and improve the game for everyone. Players should also take responsibility-the more they respect and understand each other, the less the GM needs these suggestions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters"
 		],
@@ -5956,7 +5956,7 @@
 	},
 	"antagonist": {
 		"name": "Antagonist",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 71](source/gamemastery_guide)",
@@ -5972,7 +5972,7 @@
 			"***3. Identify Possible Resolutions:*** One player should never be allowed to create a situation that's only fun for him. One of the most dangerous sources of antagonism is a character of an opposing alignment or organization whose primary goal is the destruction of another party member. No one really wins in that situation, and it's likely that the distrust carries over to the next time everyone rolls up characters. In this situation, lay out the problem clearly for the antagonist, and be polite but firm in offering to help the player modify his character or create a new one capable of working within the group."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -5996,7 +5996,7 @@
 	},
 	"continuity_expert": {
 		"name": "Continuity Expert",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 71](source/gamemastery_guide)",
@@ -6010,7 +6010,7 @@
 			"Like a [rules lawyer](rule/rules_lawyer), a continuity expert can be a great help to a GM. Most prove eager to research elements of a campaign setting and enthusiastically help prepare for upcoming sessions. Canny GMs might find ways to have such a player research multiple useful topics without giving away the intended course of upcoming adventures. During a session, a continuity expert's knowledge can prove exceedingly useful if it has an in-character outlet - encouraging such a player to adopt a knowledgeable class, purchase tomes of relevant lore, or be the group researcher gives her opportunities to exploit and display her knowledge in character and without interrupting the game."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6034,7 +6034,7 @@
 	},
 	"diva": {
 		"name": "Diva",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 72](source/gamemastery_guide)",
@@ -6052,7 +6052,7 @@
 			"Off-scene encounters can be discussed before or after a gaming session, over email during the week, or whenever other players aren't waiting. As long as the diva isn't doing something crazy or suicidal, there's no reason to punish her, but neither should you have these solo escapades reveal key plot points or allow yourself to be distracted from the rest of the party."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6076,7 +6076,7 @@
 	},
 	"entrepreneur": {
 		"name": "Entrepreneur",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 72](source/gamemastery_guide)",
@@ -6090,7 +6090,7 @@
 			"The value of mundane loot is closely tied to the magic level of your campaign, the size of the city the players deliver the goods to, the need for those goods, and the quality and quantity of the goods. Delivering 20 suits of chainmail to a sleepy village likely floods the market and earns a pittance, while that same armor in a town scrambling to arm itself would earn significantly more. As a general rule, try assuming a 10-20% payout where there is a moderate need for the items and then adjust from there."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6114,7 +6114,7 @@
 	},
 	"flake": {
 		"name": "Flake",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 73](source/gamemastery_guide)",
@@ -6134,7 +6134,7 @@
 			"If a player missing out on sessions truly cripples a group, consider using NPCs to fill the same role. The rest of the party can temporarily adopt or hire these NPCs to make up for missing skills, and the NPC's wages are a small price to pay for a well-timed fireball or backstab - especially if they come out of the missing character's share of treasure."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6158,7 +6158,7 @@
 	},
 	"glass_jaw": {
 		"name": "Glass Jaw",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 73](source/gamemastery_guide)",
@@ -6174,7 +6174,7 @@
 			"***[Power Gamers](rule/power_gamer) and Glass Jaws:*** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6198,7 +6198,7 @@
 	},
 	"loner": {
 		"name": "Loner",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 74](source/gamemastery_guide)",
@@ -6214,7 +6214,7 @@
 			"Of course, you're not the only one likely to be irritated by a loner's gallivanting, and regular abandonment of the group eventually causes intra-party strife. Other characters (and players) might become upset and seek to confront the loner's character. This can be a great opportunity for roleplaying, but it risks alienating the loner. Make sure that the loner knows that while running her character in such a manner isn't \"wrong,\" going off alone can have a negative impact of the other players' enjoyment, and that you want to make sure everyone - including her - is getting their needs met."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6238,7 +6238,7 @@
 	},
 	"lump": {
 		"name": "Lump",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 74](source/gamemastery_guide)",
@@ -6254,7 +6254,7 @@
 			"***Lump vs. Diva:*** In many ways, the [diva](rule/diva) loves the lump player - he allows the diva to take all the limelight for herself while the lump does what he always does. But as the lump slowly emerges from his shell, suddenly there's less time in the sun for the diva. Jumping back and forth between these two player types can be a challenge; focus on fanning the flames of the lump until he becomes comfortable enough with the game that the diva won't be able to shove him back into his shell."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6278,7 +6278,7 @@
 	},
 	"one-trick_pony": {
 		"name": "One-Trick Pony",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
@@ -6292,7 +6292,7 @@
 			"A second type of one-trick pony is the player who uses a specific tactic against enemies again and again during the campaign. This player has found an effective combo or strategy and uses it whenever possible, to the exclusion of all others. Again, while not technically wrong, this play style can quickly get old, and there are a few ways to address it. Before you do so, however, stop and make sure there's actually a problem. Is the player's strategy boring the other party members? Or are you merely frustrated by its effectiveness? Don't punish players for being good at what they do; instead, try exploring counter strategies, and enlist other players and GMs outside of the game if you need tactical help. If you have recurring villains, it only makes sense that they'd quickly learn to defend against their enemies' greatest weapons, or turn the party's pet tactic around and begin using it against them. There's no strategy for which a defense cannot be devised, and if the one-trick pony complains that the enemy seems unduly prepared, let him know that's the danger of predictability."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6316,7 +6316,7 @@
 	},
 	"multitask_master": {
 		"name": "Multitask Master",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 75](source/gamemastery_guide)",
@@ -6332,7 +6332,7 @@
 			"Like most situations, this one is best handled in private at first. If you need to discuss the issue with the group, make sure not to single out a particular player. Instead, focus on the distractions that prevent the game from being fun and come up with a solution the entire group can accept. When possible, it's generally best to start a gaming group with such rules in place than to try and add them later after a problem arises. But distraction is contagious, and the slower the game gets, the more temptation there is for players to multitask."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6356,7 +6356,7 @@
 	},
 	"power_gamer": {
 		"name": "Power Gamer",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 76](source/gamemastery_guide)",
@@ -6370,7 +6370,7 @@
 			"The most important thing when dealing with a power gamer is avoiding an adversarial relationship. Instead, try to learn from her, filing away her tactics for use by future villains. If a player is so effective in combat that it's ruining your game, take her aside and ask for her assistance. Congratulate her honestly on her prowess - she spent a lot of time devising those strategies - then explain the situation. Maybe she can help your other players maximize their characters-a group of all power gamers is easier to deal with than a mixed batch. If that doesn't work, perhaps she or another player can help you devise effective counter strategies, or maybe she'd enjoy the challenge of playing a character a few levels lower than everyone else. In the end, it's possible she may need to retire or redesign the character, but the more transparency you can have about this process, and the less it feels like punishment, the better. And if the character is only slightly too powerful, or the other players prefer to focus on roleplaying, there are always noncombat encounters to help give other players the chance to shine."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6394,7 +6394,7 @@
 	},
 	"rules_lawyer": {
 		"name": "Rules Lawyer",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 76](source/gamemastery_guide)",
@@ -6412,7 +6412,7 @@
 			"Even if you follow these rules, you may still have trouble with rules lawyers. Not everyone views rules the same way. The important thing is to stand behind your rulings, and when certain things break the rules - for good reason - don't feel like you have to reveal world secrets just because the rules lawyer demands answers. GMs work in mysterious ways, and with any luck history will vindicate your choice."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6436,7 +6436,7 @@
 	},
 	"tagalong": {
 		"name": "Tagalong",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 77](source/gamemastery_guide)",
@@ -6450,7 +6450,7 @@
 			"Children too young to join the game are the most challenging form of tagalongs, as they require both supervision and attention, not to mention a good degree of childproofing for the gaming area. Polite parents should ask the group whether their children are too distracting for gaming, and if it's clear that young children aren't welcome, quietly excuse themselves during the weeks when they can't find a babysitter. But if a group is willing to try - particularly if multiple players have tagalong children - you may be able to play through the distraction caused by children. The important thing is to make sure everyone's on board, as the presence of children can drive some gamers away from the game permanently. Approach this topic respectfully, but be sure to hear from all players before determining the best course of action."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"
@@ -6474,7 +6474,7 @@
 	},
 	"thespian": {
 		"name": "Thespian",
-		"subtitle": "Gamemastering, Player Types",
+		"subtitle": "Gamemastery, Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"**Source** [GameMastery Guide pg. 77](source/gamemastery_guide)",
@@ -6488,7 +6488,7 @@
 			"If tangentially related roleplaying encounters begin to dominate a game, however, or certain players seem bored by the clever dialogue, it might be time to rein back on the roleplaying and throw in a few more combat encounters to accommodate everyone's play styles. Because they tend to involve less dice rolling than other types of encounters, social interactions between characters and NPCs can easily happen between games (though it should be noted that email tends to lose a lot of the flair and fun for thespians). Conversely, if some of your players are bored whenever they're not rolling dice, try incorporating more dice rolls into your social interactions. After all, your players put ranks into Bluff, Diplomacy, Sense Motive, and other social skills for a reason, and you shouldn't give away your biggest secrets to the thespian instead of the Diplomacy-heavy bard just because the thespian player likes to do all the talking. As with other metagame questions of personal knowledge versus character knowledge, it's important to remember that a great performance by a player doesn't necessarily indicate the same from his character."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"player_characters",
 			"player_interactions"

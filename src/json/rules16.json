@@ -28,7 +28,7 @@
 			"- Ultimate Magic",
 			"    - [Binding Outsiders](rule/binding_outsiders)"
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"horror_characters",
 			"fear_ha",
@@ -46,7 +46,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -70,7 +70,7 @@
 			"The life of an adventurer has never been safe or comfortable. Terrible dangers lurk around every corner and the threat of death is a constant companion. Despite such grim realities, far more horrifying fates await those who find themselves facing off against true darkness: nightmares that thirst for the tears of the innocent and hunger for the flesh of the living. Adventurers who find themselves in a horror game must be prepared to face terror, madness, and threats to their very souls."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [ "playing_a_horror_hero" ],
@@ -96,7 +96,7 @@
 			"To run an effective horror-themed adventure, the GM has to think about her game in a different light. In the same way, to get the most out of their characters, players in a horror game should consider their characters anew. This section is aimed at the player, and provides tips on how to create suitable characters for horror-themed Pathfinder RPG adventures. It also touches on how you, as a player, can participate in horror-themed games in ways that make the story more unnerving for everyone at the game table."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters"
 		],
@@ -121,7 +121,7 @@
 			"Aside from their macabre themes, many horror games involve a different, intentionally darker sort of storytelling than other Pathfinder games. In a horror-themed game, the GM is juggling her story and the game's rules to not just tell a story, but to create an atmosphere of dread within the game. Joking around out-of-character and getting distracted can wreck the mood the GM works to create. Laughter relieves tension, which might be exactly what the GM is trying to foster. At the start of your horror game, point out this section to the GM and have her answer the question: How serious do you want the game to be?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters",
 			"playing_a_horror_hero"
@@ -146,7 +146,7 @@
 			"During the process of creating your character, also keep this question in mind: What is my character afraid of? This isn't something that's going to come back and make your character weaker; it's a consideration to help you get into your character's head. Probably the biggest difference between horror adventures and other games is that they encourage you to have a more intimate understanding of your character as an individual, not just as an assemblage of numbers. Take a look at [Aspects of Horror Heroes](rule/aspects_of_horror_heroes) and consider working some of those elements into your thoughts about your character. These story elements will help your GM involve your character more deeply in the story, and help you as a player understand what your character fears and how your character might confront or avoid those fears."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters",
 			"playing_a_horror_hero"
@@ -188,7 +188,7 @@
 			"Screaming might also be an obvious reaction, but that tends to be the domain of victims, not heroes (though, everyone has the occasional less-than-heroic moment). Retreating also seems distinctly unheroic, but in a horror game, that might occasionally be the prudent choice, especially if it is clear that a threat outmatches your group. Remember that in horror games, combat is not always be the surest path to victory."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters",
 			"playing_a_horror_hero"
@@ -212,7 +212,7 @@
 			"When your character confronts a shocking scene, ask yourself what your character would do, what you would want to do, and what you would really do. These questions often have different answers. Let those answers influence how you react. Alternatively, you might hang on to the first thing that comes to mind, emulating more instinctual reactions to horror. Frightened or distraught people don't make the best decisions, so don't be afraid to make a snap judgment, act rashly, or react without consulting the group. In any case, your choice of action should usually be whatever you think will be the most fun or interesting for the entire group."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters",
 			"playing_a_horror_hero"
@@ -236,7 +236,7 @@
 			"Sometimes, your choices might mean playing along with the GM. The GM is not your opponent-she's the conductor of a symphony in which you're a star performer. If she seems to be hinting hard toward a course of action, consider going along with it or mentioning to the whole group why you don't want to. The GM might also use any number of \"special effects\" during a horror game, such as providing certain characters with information only they know or asking to roll your dice for you in a specific situation. If that happens, oblige your GM. It could mean nothing or it could portend terrible things, but whatever the case, your GM isn't trying to cheat you. You're all just trying to make the game more fun."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters",
 			"playing_a_horror_hero"
@@ -276,7 +276,7 @@
 			"***Have a Reason to Be Brave:*** Maybe it's to be like your hero, maybe it's to repay a debt, maybe it's for your child, but have a reason to occasionally face your fears."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_characters",
 			"playing_a_horror_hero"
@@ -300,7 +300,7 @@
 			"In a game where terrible things lurk in the darkness and horrors crawl forth from nightmares to plague the living, the rules for fear are an important part of play. To help bring an appropriate atmosphere to the table, the following rules broaden the levels of fear and allow fear to have a greater impact on your character and the story."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -336,7 +336,7 @@
 			"For example, Merisiel is exploring a haunted graveyard. Her GM declares she is spooked by her surroundings. She falls into a sinkhole filled with rotting corpses, which would also make her spooked. If she fails her Will save, her fear level increases to shaken. Later, after dealing with gruesome undead, she is scared and facing off against an evil cultist who casts [doom](spell/doom), which causes the shaken condition, on her. If she fails her save against the spell, she is staggered for 1 round (rather than frightened), since shaken is a lesser fear effect."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fear_ha"
 		],
@@ -367,7 +367,7 @@
 			"3. ***Scared:*** You are noticeably afraid, jumping at shadows and easily panicked by odd sights and unexplained noises. You take all of the penalties of the shaken condition, except the penalty on saves against fear effects becomes -4. In addition, if being subject to a lesser fear effect would increase your fear level, you are staggered for 1 round instead."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fear_ha",
 			"levels_of_fear"
@@ -402,7 +402,7 @@
 			"7. ***Horrified:*** You are transfixed with fear and can take no actions. You take a -2 penalty to your AC, are flat-footed (even if you normally cannot be), and are considered helpless."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fear_ha",
 			"levels_of_fear"
@@ -424,7 +424,7 @@
 			"For example, Ezren becomes subject to an effect that causes him to be shaken for 1 minute and another that causes him to be panicked for 1 round. On the 1st round, his fear increases to panicked. On the following 9 rounds, he is shaken. If, on the 3rd round, he becomes spooked for 1 minute, he becomes scared for 7 rounds (the overlap between the spooked condition and the remaining rounds of the shaken condition), then spooked for 3 rounds."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fear_ha"
 		],
@@ -445,7 +445,7 @@
 			"This revised fear system is meant to work seamlessly with the existing rules for fear, so GMs should use this system as an opportunity to add new fear effects to their games, including those derived from the environment and various situations. For example, entering an abandoned asylum during a moonless night might cause all the characters to gain the spooked condition, while discovering a cabinet filled with gnawed bones might cause a character to become scared for 1 minute after a failing a Will save. GMs not using this system should use the next-lower condition from the Core Rulebook if one of the new conditions appears, so anything that would normally inflict the spooked condition has no effect, scared becomes shaken, and terrified or horrified become panicked"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fear_ha"
 		],
@@ -466,7 +466,7 @@
 			"A number of creatures and characters are immune to fear. While that is fine for most fantasy adventure campaigns, it can prove problematic for horror-themed campaigns. GMs running such games should consider changing fear immunity to a form of resistance. Creatures and characters with fear resistance track their fear levels as normal, but they take the penalties of the fear level two steps lower than their actual level (thus, they suffer no effect at all unless they are at least scared). Furthermore, effects that normally cause a character to become spooked or shaken don't increase such a character's fear to a higher level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fear_ha"
 		],
@@ -491,7 +491,7 @@
 			"For some games, presenting the weakening of sanity and the onset of madness as assaults on a creature's Wisdom score or the randomness of the confusion condition might be enough. But running a horror-themed game often necessitates a more robust and nuanced system. In the following system, the mental resilience of a creature is based on the totality of her mental being and mental strengths, rather than her weaknesses, improving her chances to weather and triumph against a vast array of sanity-threatening horrors."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -532,7 +532,7 @@
 			"***Sanity Edge:*** Your sanity edge is equal to 1/2 your sanity score. When you experience a sanity attack that causes you to gain a madness (see Sanity Threshold above), compare your total amount of sanity damage to your edge to determine the potency of the madness. If your current sanity damage is less than your sanity edge, then you manifest a lesser madness. If your current sanity damage is equal to or greater than your sanity edge, you manifest a greater madness instead. More information on madness, both greater and lesser, can be found in its section. Furthermore, when you accrue total sanity damage equal to or greater than your edge, any dormant lesser madnesses you have manifest again."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"sanity"
 		],
@@ -572,7 +572,7 @@
 			"Effects dealing sanity damage and [madnesses](rule/madness) are mind-affecting effects, and as such certain creature types are immune to them. In horror games, the GM may want to make an exception to this, at least in the case of sanity damage and madnesses, allowing undead and even some kinds of plant and construct creatures to feel the effects of insanity. The GM should be careful to determine whether the creature's immunity to mind-affecting effects compensates for an extremely poor Will save and potentially give a bonus on Will saves against sanity damage to such creatures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"sanity"
 		],
@@ -598,7 +598,7 @@
 			"In a particularly horror-themed game, the GM may consider removing some or all of the magical options to reduce sanity damage, relying on rest alone to recover sanity. For the most terror, she could even make sanity damage irrecoverable. In these cases, the GM should consider increasing the characters' sanity scores and sanity edges to ensure the heroes can make it through enough of the adventure before they snap."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"sanity"
 		],
@@ -622,7 +622,7 @@
 			"[The full list of corruptions is here.](main/corruptions)"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -669,7 +669,7 @@
 			"***Stain:*** A negative effect granted by a manifestation of your corruption."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"corruption"
 		],
@@ -693,7 +693,7 @@
 			"***Multiple Corruptions:*** Typically, you can have only one corruption. If some exceedingly rare condition arises that would cause you to be affected by more than one, you typically gain stains from both corruptions' manifestations but gifts from only the first one you contracted, and the secondary corruption also grants manifestations at a slower rate. When the text refers to your manifestation level, use only your manifestation level for the second corruption, not the sum of all your manifestation levels."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"corruption"
 		],
@@ -718,7 +718,7 @@
 			"Unless stated otherwise, the DC for gifts that allow a saving throw is equal to 10 + 1/2 your level + your [manifestation level](rule/manifestation_level). You can have a maximum of nine manifestations."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"corruption"
 		],
@@ -745,7 +745,7 @@
 			"***Vile Corruption:*** In this form of campaign, corruptions are terrible burdens to be purged as soon as possible. When you contract a corruption or your manifestation level increases, the GM decides which manifestation you gain. You always acquire the stain, but you can choose not to take the gift. If you refuse the gift, you gain a +1 circumstance bonus on saving throws related to the corruption progressing. For each additional gift you refuse, this bonus increases by 1. You can accept the gifts of your manifestations at any time, but once you do, you immediately lose the corresponding bonus on saving throws."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"corruption",
 			"manifestations"
@@ -767,7 +767,7 @@
 			"This standard rate of acquisition is a guideline rather than a strict rule. Many corruptions feature story considerations that could speed up or slow down the process, and individual GMs can alter the speed to serve the campaign's narrative. When introducing a corruption at higher levels, a GM could accelerate the rate at which the first manifestations are acquired or grant multiple manifestations at once. In any case, the GM decides when a corruption progresses, not you (though variants can alter this, as described in Variants)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"corruption"
 		],
@@ -789,7 +789,7 @@
 			"Every corruption has an associated saving throw. Each time you fail it, your corruption progresses to the next corruption stage. Each stage causes a more significant change within you, until you become completely irredeemable at corruption stage 3. When you gain a corruption, you begin at what is effectively stage 0, with no direct penalties. You must attempt a saving throw when you are being pulled toward darkness, and these saves are usually spread over a long period of time (often weeks or months). As such, abilities that allow or force rerolls (or rolling twice and taking the higher or lower result) can never be used on these saving throws, and temporary bonuses don't apply on the progression saving throw, even if they are long-lasting."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"corruption"
 		],
@@ -813,7 +813,7 @@
 			"This section includes new curses, as well as several curse variants. It also provides advice for using all kinds of curses in your game, including guidelines on creating them."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -847,7 +847,7 @@
 			"Curses can afflict characters in a variety of ways, but because they are perniciously difficult to remove, the tone of the game can shift if they appear often. Most curses-especially those that require more than a simple [remove curse](spell/remove_curse) spell to eliminate-should be used to add a significant and memorable challenge or as a consequence for a momentous choice. A relentless torrent of curses reduces their mystique while dramatically hampering a party's effectiveness, potentially removing the PCs' ability to deal with encounters of appropriate Challenge Ratings."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha"
 		],
@@ -883,7 +883,7 @@
 			"If the GM allows a creature to place a spontaneous curse, that creature must have at least 5 ranks in Knowledge (arcana) or (religion). Such a creature can attempt to use a curse with a listed DC less than or equal to 10 + its number of ranks in the skill. Creatures with a curse ability, as well as some creatures closely associated with curses (such as angels, fey, hags, and undead), can curse a target without meeting this requirement. Improvising a curse reduces the cursing creature's Charisma score by 2, and this decrease remains as long as the curse lasts; the cursing creature cannot dismiss its improvised curse."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha"
 		],
@@ -914,7 +914,7 @@
 			"***Make It Simple:*** A good curse has easy-to-handle mechanics. Most curses should have only one or two effects, and should be possible to resolve during play. Avoid the need to reference complicated effects during combat. Failing that, prepare an index card with the curse's details that you can use as an easy reference."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha"
 		],
@@ -950,7 +950,7 @@
 			"***Static:*** Curses like [baleful polymorph](spell/baleful_polymorph) apply an effect for the entire duration of the curse, with no change in their severity."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha",
 			"creating_new_curses"
@@ -973,7 +973,7 @@
 			"Some curses are easier to remove than normal; improvised curses, because of their impromptu nature, tend to be easier to remove. A simple cleansing ritual might suffice to remove them, which the PCs could discover through exploration, research, or a successful Knowledge (religion) check. Such curses could even fade over the course of days or weeks. While many NPC casters offer curse removal with no questions asked, it is common knowledge that curses are rarely picked up accidentally. Some of these casters might want to know the circumstances behind the curse (often employing Sense Motive or even divination magic during the discussion). Good-aligned churches might expect acts of atonement or charity as at least partial payment for removing a justly gained curse."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha",
 			"creating_new_curses"
@@ -1001,7 +1001,7 @@
 			"***Symbiosis:*** On rare occasions, a character might allow the curse to infect her very being as a desperate attempt to mitigate the effects, hoping that this will give her some measure of control. Symbiosis with a curse is rarely successful, and it usually leads to contracting an [accursed corruption](corruption/accursed), as the curse takes over the creature's personality. In rare cases, curse symbiosis might transform the accursed into a monster associated with curses (such as a hag) without first going through an accursed corruption."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha",
 			"creating_new_curses"
@@ -1022,7 +1022,7 @@
 			"Cursed items most commonly result from something going horribly wrong during the creation of a normal magic item. However, it is also possible for such items to carry a curse to punish a death or to be the result of intentional malice. Cursed items are often most pernicious and difficult to thwart when created to hurt a particular foe."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha"
 		],
@@ -1058,7 +1058,7 @@
 			"***Unique Items:*** These items should be priced and their crafting requirements assigned on a case-by-case basis as new items with the effects they produce rather than the items they appear to be."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha",
 			"cursed_items_ha"
@@ -1077,7 +1077,7 @@
 			"Sometimes, a creature's punishment curse and a land's curse are the same. A [cursed lord](template/cursed_lord) is a creature trapped by a cursed realm. The cursed lord gains power over the realm, but is incapable of leaving unless the curse is somehow broken, which usually involves killing or redeeming the cursed lord. Characters can accomplish this only by enacting very specific circumstances, similar to the restrictions placed upon the destruction of artifacts. For example, a cursed realm might trap a villainous cursed lord who profited by selling false maps to escaped slaves and refugees, who then drowned while attempting to cross a river at a non-existent ford; the realm would be impossible to free from the stain of his heinous crime until he is slain and his body is placed in the river by a former slave."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha"
 		],
@@ -1125,7 +1125,7 @@
 			"***Cure*** Generational curses can usually be cured only by special means, though the extinction of a family line also is able to end its threat. Even if [remove curse](spell/remove_curse) can cure the curse on an individual target, it doesn't stop the generational curse from affecting future generations, which must deal with the curse in their own manner."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"curses_ha"
 		],
@@ -1150,7 +1150,7 @@
 			"While standard diseases in the Pathfinder Roleplaying Game challenge players and make for good storytelling opportunities, they are typically telegraphed days in advance with the first Fortitude save and easily cured with low-level spells. Further, very few diseases are even capable of killing, and often they do nothing more alarming than dealing ability score damage. However, there are worse diseases brewing in the world. This section contains new options for diseases, including a collection of templates that can be applied to any disease to make it more frightening in a variety of ways, and a selection of new diseases that progress through a series of horrifying symptoms, similar to the [diseases rules](rule/diseases_pu)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -1221,7 +1221,7 @@
 			"",
 			"A plague is a disease that spreads very effectively, and can easily pass through an entire community in a short period of time. If left unchecked, plagues can ravage entire cities or regions, and in the case of particularly deadly or virulent plagues, can potentially even bring an end to mighty civilizations. The plague template can be added to any disease. The disease retains its base statistics except as noted below.",
 			"",
-			"Type If the disease's type is ingested, it instead changes to inhaled. If its type is injury, it instead changes to contact. If its type is contact or inhaled, it remains the same.",
+			"***Type*** If the disease's type is ingested, it instead changes to inhaled. If its type is injury, it instead changes to contact. If its type is contact or inhaled, it remains the same.",
 			"",
 			"***Save*** The initial saving throw DC to resist the disease increases by 5. The saving throw remains the same for all subsequent saving throws to resist the disease's effects.",
 			"",
@@ -1250,7 +1250,7 @@
 			"**Special** If the diseased creature fails two consecutive saving throws, it is sickened until the next time it succeeds at a saving throw to resist the disease's effects. If the diseased creature fails four consecutive saving throws, it is nauseated until the next time it succeeds at a saving throw to resist the disease's effects. These penalties are in addition to any other effects of the disease, and cannot be removed as long as the creature remains diseased. Even if the creature is normally immune to the sickened or nauseated condition, that condition still applies; only immunity to diseases protects against gaining the condition from a virulent disease."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horrific_diseases"
 		],
@@ -1383,7 +1383,7 @@
 			"Terminal The affected creature's skin and organs slowly transform into solid bone, until eventually the creature is effectively petrified. The creature is constantly nauseated. For the first 24 hours at this stage, its Dexterity score is reduced by 1 each hour. During this time, its skin and organs transform into a single, solid mass of bone. Once its Dexterity score reaches 0 or after 24 hours have passed, it is petrified. A [stone to flesh](spell/stone_to_flesh) spell can undo the petrification, but the creature must immediately succeed at a Fortitude save against the disease's DC to survive the change. Even if it does, its Dexterity is again reduced by 1 each hour, and it eventually becomes petrified once more unless cured of the disease."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horrific_diseases"
 		],
@@ -1402,7 +1402,7 @@
 			"While many Pathfinder campaigns tend to fixate on the monsters and NPCs that directly oppose the PCs, in a horror game, it's important to give the environment, atmosphere, and ambience equal billing. An appropriate environment can lead to a much deeper sense of horror and a more memorable session, since creatures are something the PCs usually fight and defeat directly, while the environment is pervasive and unstoppable. Use the following horrific locations, hazards, domains, and nightmare dreamscapes to build the tension and increase the growing dread the players feel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -1456,7 +1456,7 @@
 			"***Lost Halls:*** The corridors of some decrepit mansions can mislead those who seek to discover their hidden secrets. Within these lost halls, doors vanish, corridors impossibly twist and turn, staircases climb endlessly, and passages appear and disappear to confuse explorers. Creatures caught in lost halls find themselves temporarily trapped in an extradimensional labyrinth. For each round spent exploring the twisting turns, an affected creature can attempt a DC 20 Intelligence check as a full-round action to find its way back to the point where it originally became lost. During this time, others might hear it calling out, but can't see or detect the lost creature. The phenomenon is short-lived, so if the creature finds itself hopelessly lost, 10 minutes later it finds its way back to the point where it first disappeared. This phenomenon can affect multiple creatures at once, in which case they can hear the disturbing echoes of other lost creatures trying to extract themselves from the twisting halls, but they can't otherwise interact with or assist their allies in any way. Unlike most of the other locations in this section, a lost halls phenomenon is normally harmless, if extremely unsettling, but when populated with creatures that target the separated characters, lost halls can substantially alter the threat of encounters."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments"
 		],
@@ -1527,7 +1527,7 @@
 			"",
 			"***Sanguinary Cloud (CR 6):*** Often found floating over campsites of unfortunate travelers drained of all bodily fluids, these blood-red fog banks can be mistaken for colossal [vampiric mists](monster/vampiric_mist). A sanguinary cloud typically settles over a 60-foot-radius area, obscuring all sight beyond 5 feet, including darkvision, granting concealment (20% miss chance) to all creatures 5 feet away or farther. Creatures caught within a bank of this deadly fog must succeed at a DC 18 Fortitude save each round or take 1d3 points of Constitution damage as their bodily fluids are forcibly extracted from their pores and mucous membranes and drawn into the crimson mist. A severe or greater wind disperses a sanguinary cloud, leaving behind a thin sheen of bloody bile.",
 			"",
-			"Sour Ground (CR varies): These corrupted holy sites usually feature long-toppled standing stones and spiraling rock paths carefully arranged by a forgotten culture to invoke powerful divine magic. On these grounds, divine casters restored life to those who died before their time and buried those whose time indeed was up. However, time, overuse, and trespassers caused the ground's life-giving properties to sour, corrupting the corpses of those whose loved ones are foolhardy enough to lay them to rest within the necropolis's boundaries. Any mostly intact corpse of a creature buried within these ancient cemeteries animates 24 hours later as a [juju zombie](template/juju_zombie) and seeks its revenge on those who condemned its corpse to this vile existence. These terrible creatures still retain a semblance of their former personalities and are often barely distinguishable from the living with the exception of cold flesh, slightly sunken features, distracted behavior, and an increasingly foul smell. They lure in mourning loved ones with comforting embraces before engaging in a murderous rampage, perhaps burying the resulting corpses in the same sour ground to increase their numbers and extract more revenge on the living. The CR and the XP reward of sour ground are based on the number of juju zombies that arise.",
+			"***Sour Ground (CR varies):*** These corrupted holy sites usually feature long-toppled standing stones and spiraling rock paths carefully arranged by a forgotten culture to invoke powerful divine magic. On these grounds, divine casters restored life to those who died before their time and buried those whose time indeed was up. However, time, overuse, and trespassers caused the ground's life-giving properties to sour, corrupting the corpses of those whose loved ones are foolhardy enough to lay them to rest within the necropolis's boundaries. Any mostly intact corpse of a creature buried within these ancient cemeteries animates 24 hours later as a [juju zombie](template/juju_zombie) and seeks its revenge on those who condemned its corpse to this vile existence. These terrible creatures still retain a semblance of their former personalities and are often barely distinguishable from the living with the exception of cold flesh, slightly sunken features, distracted behavior, and an increasingly foul smell. They lure in mourning loved ones with comforting embraces before engaging in a murderous rampage, perhaps burying the resulting corpses in the same sour ground to increase their numbers and extract more revenge on the living. The CR and the XP reward of sour ground are based on the number of juju zombies that arise.",
 			"",
 			"***Suicide Copse (CR 4):*** Certain forests are known for attracting unusual numbers of suicides. The exact cause can vary, and may be the result of mind-altering pollen, strange psychic phenomena, or the work of mournful or malevolent spirits. Whatever the cause, suicide copses don't so much attract suicidal creatures as inspire suicide in those nearby. Each hour a creature spends within the suicide copse, it must succeed at a DC 16 Will save or be affected by the spell [terrible remorse](spell/terrible_remorse) (CL 10). A creature that succeeds at this saving throw three consecutive times is immune to this effect for 24 hours. At the GM's discretion, some creatures affected by the suicide copse might be compelled to hang themselves, drown themselves, or kill themselves by other means, rather than being affected by [terrible remorse](spell/terrible_remorse), but such compulsions still last only 1 minute. Though called a copse, this effect can potentially cover entire forests spanning hundreds of square miles.",
 			"",
@@ -1538,7 +1538,7 @@
 			"***Witch Light (CR 1):*** Often confused with will-o-- wisps, these shimmering lights also tend to lead unwary passersby to their dooms. Witch lights appear as flickering lights resembling lantern or torch flames, but can be seen only with a successful DC 10 Perception check. A result of 30 or higher on the Perception check allows the viewer to identify the witch light as a mirage. The witch light seems to move with the viewer, retreating if the creature moves toward it and following if it moves away. Some witch lights have a mind of their own, or are controlled by malevolent entities, and lead viewers toward specific places-often pits or other hazards, but sometimes treasures or long-buried secrets. Creatures actively following a witch light take a -4 penalty on Perception checks and a -4 penalty on Reflex saves to resist the effects of traps and hazards."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments"
 		],
@@ -1565,7 +1565,7 @@
 			"Such domains are not always devoid of humanoid populations-they may harbor villages of fearful and superstitious locals that usually serve as chattel and livestock for the domain's lord. These populations tend to be incredibly insular and suspicious of outsiders and intrusions on their lifestyles, as trespassers into the realm-particularly adventurers-have ways of disrupting the locals' tentative impasse with their lord."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments"
 		],
@@ -1602,7 +1602,7 @@
 			"***Time:*** A domain's time passes at the normal rate by default. In some cases, the lord's powerful whims alter the passage of time, whether replicating the slow churning of years felt by a lich's long existence, or the quickening felt by a blood-sated vampire. This alteration can be temporary or permanent, and the domain can have the erratic time, flowing time (half or double normal time), or timeless trait."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments",
 			"domains_of_evil"
@@ -1628,7 +1628,7 @@
 			"***Haunted Lands:*** Cursed lords are plagued with the spectres of the acts that led to the creation of the domain, which materialize as haunts. The realm of a brutal dictator might be tormented with the haunts of those he tortured to death, reflecting the various violent means by which they were killed. The domain of a lich cursed for sacrificing her entire family to fuel her transformation into undeath may contain the spirits of those she betrayed, who wander the halls of a ruined manse at the core of the land. The cursed lord has no control over these spectral trespassers, placed to remind him of his former misdeeds. When a cursed realm is created, the domain manifests a number of haunts with a total CR value (that is, the CR of a hypothetical encounter with all of the hazards at once) of up to double the cursed lord's Hit Dice, with no single haunt having a CR that exceeds the cursed lord's Hit Dice. These haunts are [chained](rule/haunt_templates) to the cursed lord and can't be completely destroyed while the cursed lord still exists. Other haunts not chained to the cursed lord might manifest within the domain of evil, but such haunts don't count against the CR limit."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments",
 			"domains_of_evil"
@@ -1648,7 +1648,7 @@
 			"The following section provides guidelines for creating nightmare dreamscapes: realms of fear and horror within the [Dimension of Dreams](rule/dimension_of_dreams). A nightmare typically has a goal, which the dreamer can complete within the nightmare dreamscape to win freedom from it, and features, which represent the ways in which the dreamer's fears manifest. A nightmare's goal and features might come entirely from the dreamer's own mind or be chosen by the creator of a supernatural effect."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments"
 		],
@@ -1696,7 +1696,7 @@
 			"| 61-100 | Self-contained shape |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments",
 			"nightmare_dreamscapes"
@@ -1720,7 +1720,7 @@
 			"***Spells:*** Certain spells, such as [nightmare](spell/nightmare) or [night terrors](spell/night_terrors), can cause their targets to experience nightmares. A caster of the [nightmare](spell/nightmare) spell can choose to ensnare her target in a nightmare dreamscape instead of allowing her target a Will save to resist the spell. If so, the caster doesn't have much control over the nightmare dreamscape but can ensure the presence of one [nightmare feature](rule/nightmare_features) per 5 caster levels. The caster doesn't select which nightmare features the target experiences. If the target fails to accomplish the goal of the nightmare, it suffers the spell's effects."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments",
 			"nightmare_dreamscapes"
@@ -1754,7 +1754,7 @@
 			"***Take a Test:*** The nightmare ends once the dreamer completes a test. The nature of the test varies: a cleric might have to endure a test of faith, while a fighter might have to perform difficult combat drills. The GM chooses three to five skill checks or ability checks to represent different aspects of the test, of which the character must succeed at a minimum of half, or devises a series of more complicated encounters, if she desires."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments",
 			"nightmare_dreamscapes"
@@ -1798,7 +1798,7 @@
 			"***Unable to Speak:*** The dreamer either can't speak or can't understand anything said in the dream."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"horror_environments",
 			"nightmare_dreamscapes"
@@ -1824,7 +1824,7 @@
 			"In addition to the intentional practices of true fleshwarping and fleshcrafting is a transformation called a fleshwarp mutation, which also involves the nightmarish metamorphosis of a creature into a new form. This type of fleshwarping, however, is a phenomenon rather than a willful act, and typically occurs after a creature interacts with a particularly strong magical or alchemical hazard. The more a creature is exposed to that hazard, the greater the effects of the fleshwarp mutation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -1891,7 +1891,7 @@
 			"[Sinspawn](monster/sinspawn) (CR 2): Cost 1,000 gp; Creation DC 18, 3 days; Creatures 1 [human](race/human)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fleshwarping"
 		],
@@ -1931,7 +1931,7 @@
 			"Fleshcrafts can be found in the [miscellaneous magic section](main/magic_misc)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fleshwarping"
 		],
@@ -2011,7 +2011,7 @@
 			"| 95-100 | **Weeping Sores:** Open sores weep strange fluids down the creature's body. The creature takes a -4 penalty on Fortitude saves to resist diseases. |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"fleshwarping"
 		],
@@ -2061,7 +2061,7 @@
 			"| 86-100 | [Schizophrenia](madness/schizophrenia) |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -2100,7 +2100,7 @@
 			"***Dormancy Effect:*** If you're using the sanity system, the afflicted character suffers this effect while the madness is dormant. Otherwise, ignore this entry."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"madness"
 		],
@@ -2122,7 +2122,7 @@
 			"Certain spells can also aid in recovery from madnesses or cure them outright. [Lesser restoration](spell/lesser_restoration) has no effect on greater madnesses, but reduces the current DC of one lesser madness afflicting the target by 2, up to once per day. [Restoration](spell/restoration) and [heal](spell/heal) reduce the current DC of one lesser madness afflicting the target by 5 or of one greater madness afflicting the target by 2, up to once per day each. [Greater restoration](spell/greater_restoration), [limited wish](spell/limited_wish), and [psychic surgery](spell/psychic_surgery) all either cure the target of all lesser madnesses or reduce the DC of one greater madness by the spell's caster level (caster's choice), while [miracle](spell/miracle) or [wish](spell/wish) immediately cure a target of all lesser and greater madnesses."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"madness"
 		],
@@ -2142,7 +2142,7 @@
 			"[Lesser restoration](spell/lesser_restoration) has no effect on insanity, but under these rules it can be used to treat lesser madnesses. Conversely, [greater restoration](spell/greater_restoration), [heal](spell/heal), and [psychic surgery](spell/psychic_surgery) have reduced effects against greater madnesses in this system compared to in the previous books. This allows madnesses to play a larger part at both higher and lower levels in horror games, or any other game featuring psychological threats. If you want to feature the madnesses as afflictions that are simple to remove for high-level spellcasters while outside the reach of anyone else - as per the more baseline Pathfinder RPG experience - assume lesser madnesses are not affected by [lesser restoration](spell/lesser_restoration), and [greater restoration](spell/greater_restoration), [heal](spell/heal), and [psychic surgery](spell/psychic_surgery) remove all madnesses, whether lesser or greater."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"madness"
 		],
@@ -2169,7 +2169,7 @@
 			"This section includes tips on how to run any sort of horror adventure, describing various horror subgenres and including tips on how to create horror adventures, cultivate an unnerving atmosphere, and use the Pathfinder RPG rules to adjudicate terrifying encounters. Before any of that, though, the GM should understand how horror adventures differ from normal Pathfinder adventures and why she should take exceptional care to make sure her players are willing participants."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules"
 		],
 		"subtopics": [
@@ -2206,7 +2206,7 @@
 			"Nor does a horror-themed Pathfinder game suggest that the PCs become less heroic or that they are suddenly destined for a grim fate. It might change what plots, monsters, and locations are included and what sorts of characters players make, but the assumption remains that the PCs will undertake adventures, win treasure, gain power, and ultimately accomplish their quests. The GM might mask these assumptions a bit more than usual-there's no sense of threat if success seems like a foregone conclusion. In the end, though, it gives the GM the opportunity to pit the PCs against escalating horrors and levels of terror."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -2232,7 +2232,7 @@
 			"Anyone planning on participating in a horror adventure should read the following section-GMs and players alike. Of all the content in this section, this particular area is the most serious because it doesn't deal with fictional characters, but with real people and reactions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -2267,7 +2267,7 @@
 			"Finally, sometimes opinions and expectations simply change. Let players know that if they become uncomfortable with any part of your game, it's perfectly fine for them to leave the game space. Make yourself available to discuss your game's content if a player so desires-but understand you are not owed any insight into your players' reactions. If a player expresses concerns about a game's content, he doesn't need to explain himself; either remove the sensitive element, run a different game, or ask the player to participate in a different game. If you keep these considerations in mind and prioritize your players' enjoyment, you'll be on your way to running an adventure your group remembers for its creepiness, not its unintended negative consequences."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_games_and_consent"
@@ -2295,7 +2295,7 @@
 			"Everyone should be working together to create a game that's fun for the entire group, so know that it's literally in [the Pathfinder game's rules](rule/how_to_play) that playing the Pathfinder RPG is supposed to be rewarding for everyone involved."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_games_and_consent"
@@ -2324,7 +2324,7 @@
 			"***Advanced Plots:*** Advanced plots are more complex, and can serve as the basis for entire campaigns. Again, they can be used to inspire unique adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -2369,7 +2369,7 @@
 			"***Advanced Plots:*** The secret of an incestuous imperial dynasty reveals an undercity of vain, inbred [mongrelmen](monster/mongrelman) lurking beneath the capital. A mind-altering disease (to which elves are mysteriously immune) becomes sentient, infects the minds of hundreds, and launches a pogrom against those it can't infect. A nation's pervasive, cowlike herd animals stave off famine, but the nation turns on the PCs when they expose that the creatures are semi-sentient [drakainia](monster/drakainia) spawn."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2403,7 +2403,7 @@
 			"***Advanced Plots:*** A strange nightmare, swift-growing plant, or spreading wound holds a means of communicating with a future dominated by another species. In the wake of a planetary alignment, an entire race begins fleeing the planet. A musician discovers tones that allow her to reshape reality, drawing the attention of otherworldly star-shrieks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2436,7 +2436,7 @@
 			"***Advanced Plots:*** A genius arcanist seeks to recreate the empire of a fallen undead tyrant by retracing his path to [lichdom](template/lich). A rift between realities allows the hordes of the Abyss to invade the world. The corpse of everyone who dies returns as a [ghoul](monster/ghoul) within 1 day, forcing the PCs to investigate why souls are not passing on to the afterlife."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2473,7 +2473,7 @@
 			"***Advanced Plots:*** A ghost becomes the PCs' patron, offering its treasure (or home) if they complete what it left undone. A violent, mute ghost the PCs thought exorcised reappears-could they have mistaken its identity? The ghost of a defeated villain or a fallen ally becomes linked to one of the PCs' pieces of equipment, though the connection seems to be stronger than simply that between victim and murder weapon."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2507,7 +2507,7 @@
 			"***Advanced Plots:*** A PC is the reincarnated lover of an ancient vampire baroness. A [mothman](monster/mothman) follows the PCs from afar, intent on creating, ending, or repeating an age-long curse. The entire faith of a just deity is convinced a PC holds the key to a horrible prophecy and can't be allowed to live."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2541,7 +2541,7 @@
 			"***Advanced Plots:*** The PCs become aware they are the only true humanoids in a society that consists entirely of doppelgangers. [Derros](monster/derro) kidnap the inhabitants of an entire village without their knowledge, relocating them to a near-perfect re-creation of their community deep underground. A [pakalchi sahkil](monster/pakalchi) convinces the queen that her court mages have turned against her, leading her to start a bloody witch hunt throughout the entire nation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2581,7 +2581,7 @@
 			"***Advanced Plots:*** The PCs find a crimson garrote that belonged to a famous killer, leading to a rash of murders following in their wake. Mere months after raiding a crypt, a [mummy lord](monster/mummy_lord) appears and attempts to slay the PCs, reappearing yearly on the anniversary of the defiling. Because of her remarkable lineage, the notorious serial killer known only as the Queen of Razors can't be killed without infuriating the royal church, but the PCs can't allow her to kill again."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_subgenres"
@@ -2607,7 +2607,7 @@
 			"[The GameMastery Guide](rule/getting_started) provides extensive details on creating and running adventures. As horror adventures are just another type of Pathfinder RPG adventure, all of that advice still pertains. The difference, though, is that now the GM has an additional goal: to make the story scary. The following advice supplements the advice in the *GameMastery Guide* to help GMs do just that."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -2639,7 +2639,7 @@
 			"Through the entire adventure design process, GMs should keep in mind that they're not writing a horror novel or screenplay-they're writing a horror RPG adventure. It's easy to get distracted by nuanced lore and charismatic villains, but all GMs should remember that the PCs are the stars of the story and ultimately the most important characters. Along with this, remember that Pathfinder characters have a variety of magic and other options that might allow them to make things that frighten everyday people meaningless or that instantly reveal any secrets. Therefore, it's important for GMs to know characters' strengths as much as their weaknesses and customize the adventure to play upon what they fear most (see [Choose the Terror](rule/choose_the_terror) for more details). These powers might be daunting in their effects or variety, but each ability might provide a new way to reveal terrors."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_horror_adventures"
@@ -2662,7 +2662,7 @@
 			"Once a GM has decided to create a frightening adventure, what sort of terror should be included? As explained in the discussion of horror subgenres, there are many types of horror. A GM should be able to boil her horror story down to something basic, perhaps even a singular fear. This might be as primal as a fear of spiders or of losing one's teeth, or it could be more sophisticated, like the fear of abandonment or mechanical disasters. Once the GM has chosen a fear, then she can choose an avatar or incarnation of that fear. This might be a monster, person, or other threat that embodies that fear and proliferates it. For example, nothing exploits a fear of spiders quite like giant spiders or spider swarms, while representing the fear of abandonment might require a creature like an [attic whisperer](monster/attic_whisperer) or the spirit of a bitter old man who waits for death but can't be convinced that he's dead. This avatar can be anything a GM wants. Feel free to make it more terrifying or unnatural if that helps-the giant spiders could actually be scheming [Leng spiders](monster/leng_spider), or the attic whisperer might control an army of animated dolls. This can work as mere flavor, or a GM might search out rules (or designs of her own) to back it up. Remember that the chosen threat might not need to be a literal embodiment; for instance, a fear of alien abductions and experimentation is literally embodied by [grays](monster/gray) but also metaphorically embodied by [derros](monster/derro)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_horror_adventures"
@@ -2687,7 +2687,7 @@
 			"While the horrors of fiction and film often work alone, such is rarely the case in Pathfinder adventures. GMs should choose lesser threats that prop up the horror's main avatar. These might be its allies, opportunistic hangers on, deranged victims, the remnants of the creature's work, or the source of the creature's monstrousness. These allies might be less powerful than a primary foe, or at the very least, less actively horrific. For example, the [Leng spiders](monster/leng_spider) might surround themselves with a cult of [ettercaps](monster/ettercap), while the tooth faeries might feed their stolen teeth to a half-slumbering, albino [purple worm](monster/purple_worm). Traps, hazards, haunts, and other challenges should provide lesser encounters that grant the PCs experience but also winnow away their resources, causing them to face the final threat with some vulnerabilities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_horror_adventures"
@@ -2718,7 +2718,7 @@
 			"***Warp Reality:*** The rules are the physics of the game-the laws of what can and can't happen-and sometimes the most unsettling thing a GM can do in horror adventure is plan to break those rules. Maybe the PCs have a bizarre group nightmare, are pursued by a reality warping [mothman](monster/mothman), or begin to lose their minds. Regardless, a GM can convey this by having the game not work the way the PCs expect. Maybe a [detect magic](spell/detect_magic) spell reveals its information as a chorus of screams, an isolated character can momentarily walk on walls, time reverses for an instant, or when a PC tries to use an ability, he's told it doesn't work, without explanation. These tricks work best when used sparingly and when the PCs' lives aren't in jeopardy, because they signal that perhaps the world isn't as reliable (or unbiased) as the characters thought."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_horror_adventures"
@@ -2747,7 +2747,7 @@
 			"Finally, a GM should know what success means for her adventure. PCs often assume that violence puts an end to things. For instance, they may think that killing the attic whisperer or setting the clock tower on fire destroys the fear. But fear and evil are notoriously resilient. Truly destroying the horror might require learning its origins or discovering its special weakness. If the attic whisperer continually arises from the ashes, eventually-with a little guidance-the PCs could discover that the creature's father is still alive, and might even be the priest who asked them to put an end to the lonely creature's menace. Of course, even then, it's difficult for the characters within a horror story to know whether an evil is truly exorcised-or merely lying in wait for a sequel."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_horror_adventures"
@@ -2791,7 +2791,7 @@
 			"10. Are elements unintentionally predictable, cliched, or similar to well-known horror tales?"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -2817,7 +2817,7 @@
 	},
 	"how_to_scare_heroes": {
 		"name": "How to Scare Heroes",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 201](source/horror_adventures)",
@@ -2831,7 +2831,7 @@
 			"***Ominous Setting:*** The adventure's most fearful moments transpire in the players' imaginations, but what happens in the real world can help it along. See [Creating Atmosphere](rule/creating_atmosphere) for suggestions on how to prepare a game space for terror."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -2848,7 +2848,7 @@
 	},
 	"how_to_scare_players": {
 		"name": "How to Scare Players",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 201](source/horror_adventures)",
@@ -2856,7 +2856,7 @@
 			"Numerous guides, stories, and films exist that can help GMs tell a better horror story. However, few explicitly help a GM run better horror adventures. Telling a great story is only part of a horror adventure. The GM still runs a Pathfinder game, and unlike most horror stories, this means the players are not just her audience but also the stars of her story. While she wants to terrify the characters, she wants to give the players the opportunity to dread something as well-to share a sympathetic sort of fear with their characters. While the game's atmosphere can contribute to players' fear, a GM can also subtly alter the roleplaying game experience to sow suspicion and dismay. The following techniques are essentially GM special effects and are best used sparingly."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -2873,7 +2873,7 @@
 	},
 	"secrets_and_suspicion": {
 		"name": "Secrets and Suspicion",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 201](source/horror_adventures)",
@@ -2889,7 +2889,7 @@
 			"***The Shell Game:*** Combining the techniques above, the GM calls each player away from the table one at a time. She tells one character something relevant, but provides the others with either nothing or pointless observations. The players who got nothing now have to wonder if they were the only ones, while the player who learned a secret has to wonder what other players learned. This works well in situations where one player has become the GM's coconspirator-perhaps via an enchantment effect on the player's character or by the PC being replaced by a monster."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -2906,7 +2906,7 @@
 	},
 	"dice_and_other_deceits": {
 		"name": "Dice and Other Deceits",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 202](source/horror_adventures)",
@@ -2920,7 +2920,7 @@
 			"***Reconsider Game Aides:*** Many Pathfinder adventures feature a variety of tools that encourage strategy and precision gaming. A GM could throw precision out the window. When vague horrors are reduced to pawns and squares, the fearfulness of the unknown withers. Instead, the GM might play faster and looser with game measurements, tracking player arrangements vaguely on whiteboards or in the imagination alone, erring in the PCs' favor in terms of range and movement whenever possible. It takes some experimentation, but GMs can find that players identify more intimately with characters in their heads than with miniatures on the game table."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -2937,7 +2937,7 @@
 	},
 	"stress_and_uncertainty": {
 		"name": "Stress and Uncertainty",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 202](source/horror_adventures)",
@@ -2957,7 +2957,7 @@
 			"***Splitting the Party:*** It's relatively common in horror stories for the protagonists to become separated. If this happens in a game, the GM divides the group and sends those who aren't currently playing out of the room-she doesn't want them knowing their allies' fate or distracting the players currently in the limelight. Switch between groups about every 10 or 15 minutes until the group meets back up, trying to end each scene with a group either on a mini-cliffhanger or at a point when they have something to discuss (which can happen away from the table). Keep the party split for as brief a period as possible; not only are divided groups weaker in a fight, but players quickly lose their immersion when away from the game table and forced to put the game on hold."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -2974,7 +2974,7 @@
 	},
 	"death_and_bargaining": {
 		"name": "Death and Bargaining",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 203](source/horror_adventures)",
@@ -2990,7 +2990,7 @@
 			"***The Devil:*** Inform the PC that he died and now stands before a devil, a grim reaper, or something worse. This godlike entity offers to return the PC to life but will come to call later and demand a service. Whatever this service might be, the PC is compelled to comply and also to keep the terms of the bargain secret. Perhaps the GM knows what the entity wants at the bargain's outset, but even if not, this kind of loose thread is perfect for future exploitation."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -3007,7 +3007,7 @@
 	},
 	"encouraging_horror_roleplaying": {
 		"name": "Encouraging Horror Roleplaying",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 203](source/horror_adventures)",
@@ -3019,7 +3019,7 @@
 			"***Reward Terror:*** Whenever a player does something that improves the game's story, enhances the session's atmosphere, or just seems cool, the GM can give the party an ad hoc experience award. There are few more powerful ways to encourage behavior that benefits the game than with immediate positive reinforcement, and the GM has an endless supply of experience points to dole out. This shouldn't be much, maybe as little as 50 XP at lower levels, maybe creeping up to 200 XP at higher levels-nothing that feels like a game-changer. Even then, though, a little reward can serve as a strong incentive to encourage good roleplaying and story investment. Best of all, it encourages not just one player but the entire group to prioritize behavior the GM rewards."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"horror_storytelling"
@@ -3036,7 +3036,7 @@
 	},
 	"going_too_far": {
 		"name": "Going Too Far",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
@@ -3052,7 +3052,7 @@
 			"***Don't Use Costumes or Makeup:*** Costumes and fake blood are distractions. If a GM tries to make herself look creepy, it might work for a minute, but most games run longer than that. After a while, the prop or special effect becomes commonplace, or worse, just silly."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -3069,7 +3069,7 @@
 	},
 	"creating_atmosphere": {
 		"name": "Creating Atmosphere",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
@@ -3077,7 +3077,7 @@
 			"An adventure might be a masterpiece of terror, but if it's being played on a sunny day with people laughing in the background, the players still might not be able to feel the mood. The surroundings can be a GM's greatest ally in telling a truly effective horror tale, but they might also work against her entirely. Consider the game space as a stage. This section includes ways that a GM might manipulate that performance space to create an atmosphere perfect for horror adventures."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -3100,7 +3100,7 @@
 	},
 	"game_space": {
 		"name": "Game Space",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
@@ -3108,7 +3108,7 @@
 			"Since playing Pathfinder can take up a considerable area, the size of which is often limited by any number of practical constraints, game space can be one of the most difficult environmental factors to influence. If the GM has a choice, though, she can seek a quiet place where interruptions will be few-traffic and background noise can negatively impact the atmosphere being created. If she has to share a space, it might help for the GM to tell non-players that she's running a game and would appreciate not being interrupted, or she might schedule a time when disturbances will be limited. While a GM might consider running the game outside or in creepy surroundings like a crypt or cabin in the woods, keep in mind that such a venue could be distracting in itself and is probably more trouble than it's worth."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_atmosphere"
@@ -3122,7 +3122,7 @@
 	},
 	"lighting_ha": {
 		"name": "Lighting",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
@@ -3130,7 +3130,7 @@
 			"Dimming the lights can go a long way in creating a moodier environment. Shadows add an air of the unknown, and cause everyday distractions to fade away. Make sure that the players can see, though-there's a lot of reading and page referencing in Pathfinder that GMs don't want to turn into a chore. A room with lights on a dimmer switch works well, as does turning off overhead lighting and moving a single-bulb lamp into the room. Candles and non-electric lamps typically prove distracting and troublesome, if not outright hazardous. While rooms with natural lighting can create issues during the day, at night, the dark can make them prime game spaces."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_atmosphere"
@@ -3144,7 +3144,7 @@
 	},
 	"music_ha": {
 		"name": "Music",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
@@ -3164,7 +3164,7 @@
 			"***Volume Matching:*** In action-packed scenes, a GM can turn an energetic track up and raise her voice over it, quickening her speech's tempo to evoke a sense of urgency. If everyone has to speak louder to be heard over the music, it's easier to envision the hectic or dangerous nature of the accompanying scene. As with all narrative special effects, this technique works best when used infrequently."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_atmosphere"
@@ -3178,7 +3178,7 @@
 	},
 	"house-ruling_distractions": {
 		"name": "House-Ruling Distractions",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 205](source/horror_adventures)",
@@ -3190,7 +3190,7 @@
 			"If including rules for what is and isn't allowed at a game table, the GM should make them clear before the game starts, possibly explaining why or showing players this section of text as reasoning. The goal here is to create as atmospheric and immersive an experience as possible, not to be a tyrant."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"creating_atmosphere"
@@ -3204,7 +3204,7 @@
 	},
 	"rules_improvisation": {
 		"name": "Rules Improvisation",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 206](source/horror_adventures)",
@@ -3224,7 +3224,7 @@
 			"***Monster Statistics:*** Need something other than a DC? [Table 1-1](rule/step_2_target_statistics) provides a wealth of level-appropriate benchmarks for creature hit points, Armor Class, damage, saving throw DCs, and more. These aren't just for monsters, though. Consider finding the party's level and using these statistics for any challenge required, increasing or decreasing the figures as necessary to adjust the difficulty."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures"
 		],
@@ -3249,7 +3249,7 @@
 	},
 	"buried_alive": {
 		"name": "Buried Alive",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 206](source/horror_adventures)",
@@ -3265,7 +3265,7 @@
 			"***Horror Considerations:*** The experience of being buried alive can be all the worse if a character isn't alone. Tiny or smaller creatures would not have their movement restricted in a coffin constructed for a Medium creature. [Crawling hands](monster/crawling_hand), [rot grubs](infestation/rot_grubs), [scarlet spiders](monster/scarlet_spider), and [vipers](monster/viper) all make particularly horrible coffinmates, particularly if they're crawling all over the character in swarms. Additionally, breaking out of a coffin and finding himself underwater, buried in a walled-off enclosure, or at the bottom of a tank of flesh-eating beetles might make a character quickly regret his escape."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"rules_improvisation"
@@ -3281,7 +3281,7 @@
 	},
 	"burned_at_the_stake": {
 		"name": "Burned at the Stake",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 207](source/horror_adventures)",
@@ -3295,7 +3295,7 @@
 			"***Horror Considerations:*** Don't trust a burning wooden post in an open square to hold every heretic. Cages and magical paralysis are more effective at restraining victims, while illusions can lure unfortunates into traps. Placing the stake at the top of a spire or the bottom of a pit also makes access and escape more challenging and could extend the threat of smoke hazards."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"rules_improvisation"
@@ -3311,7 +3311,7 @@
 	},
 	"burning_buildings_and_crumbling_structures": {
 		"name": "Burning Buildings and Crumbling Structures",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 207](source/horror_adventures)",
@@ -3339,7 +3339,7 @@
 			"***Horror Considerations:*** Write a 10 on a whiteboard or set a die at 10 in front of the PCs. After their first turn trying to escape, change the number to 9. Decrease the number every turn. A generous GM might let them know that when the count reaches 0, the structure collapses (to whatever terrible end; consider the rules for [cave-ins and collapses](rule/cave-ins_and_collapses_cr_8)) or not. In either case, few things motivate a group like a ticking clock. Beyond collapsing structures, PCs may need to flee a burning topiary garden, a tsunami-battered village, the nightmare of a waking dreamer, a city being destroyed by [kaiju](family/kaiju), or a forest come to life."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"rules_improvisation"
@@ -3355,7 +3355,7 @@
 	},
 	"guillotine": {
 		"name": "Guillotine",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 208](source/horror_adventures)",
@@ -3369,7 +3369,7 @@
 			"***Horror Considerations:*** A GM might use an even more [horrific versions of the guillotine in which the creature it killed has its soul trapped within the lethal blade](magic-artifact/final_blade), preventing [resurrection](spell/resurrection)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"rules_improvisation"
@@ -3385,7 +3385,7 @@
 	},
 	"hanging": {
 		"name": "Hanging",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 209](source/horror_adventures)",
@@ -3401,7 +3401,7 @@
 			"***Horror Considerations:*** A noose quickly turns into a lifeline when the ground is hundreds of feet below a struggling victim. Nooses made of chain or metal cord might also be more difficult to escape."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"rules_improvisation"
@@ -3417,7 +3417,7 @@
 	},
 	"thematic_creepiness": {
 		"name": "Thematic Creepiness",
-		"subtitle": "Horror, Gamemastering",
+		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"**Source** [Horror Adventures pg. 209](source/horror_adventures)",
@@ -3431,7 +3431,7 @@
 			"***Horror Considerations:*** One doesn't have to bother with rules at all. GMs don't need to explain every thematic effect or unnerving embellishment, especially when these exist in the space between supernatural manifestations and the PCs' own uncertain observations. If a situation doesn't require hard-and-fast rules, a GM doesn't need to complicate things."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"horror_rules",
 			"running_horror_adventures",
 			"rules_improvisation"
@@ -3447,13 +3447,13 @@
 	},
 	"npc_creator's_toolbox": {
 		"name": "NPC Creator's Toolbox",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"These tables can be used to construct NPCs quickly."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters"
 		],
@@ -3474,7 +3474,7 @@
 	},
 	"npc_toolbox_1": {
 		"name": "Backgrounds and Goals",
-		"subtitle": "NPC Toolbox, Gamemastering",
+		"subtitle": "NPC Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 4-1: NPC Backgrounds",
@@ -3579,7 +3579,7 @@
 			"| 99-100 | Rule a country |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_creator's_toolbox"
@@ -3593,7 +3593,7 @@
 	},
 	"npc_toolbox_2": {
 		"name": "Physical and Personality Characteristics",
-		"subtitle": "NPC Toolbox, Gamemastering",
+		"subtitle": "NPC Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 4-3: NPC Physical Characteristics",
@@ -3809,7 +3809,7 @@
 			"| 100 | Asks a kobold glove puppet its opinion at inopportune moments |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_creator's_toolbox"
@@ -3823,7 +3823,7 @@
 	},
 	"npc_toolbox_3": {
 		"name": "Occupations and Secrets",
-		"subtitle": "NPC Toolbox, Gamemastering",
+		"subtitle": "NPC Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 4-5: NPC Occupations",
@@ -3933,7 +3933,7 @@
 			"| 99-100 | Knows someone is not what appears to be |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_creator's_toolbox"
@@ -3947,7 +3947,7 @@
 	},
 	"npc_toolbox_4": {
 		"name": "Rewards and Random Name Generator",
-		"subtitle": "NPC Toolbox, Gamemastering",
+		"subtitle": "NPC Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"### Table 4-7: NPC Rewards for Heroic Deeds",
@@ -4063,7 +4063,7 @@
 			"| 99-100 | Beautiful | White | Wasps | Nets | in Sureness |"
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
 			"npc_creator's_toolbox"

@@ -1,7 +1,7 @@
 {
 	"race_builder": {
 		"name": "Race Builder",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
@@ -10,7 +10,7 @@
 			"",
 			"In addition, these rules allow you to create powerful races meant to take on more challenging encounters than those typically faced by the core races. You can create new races, model a race after an existing monster, or even \"power up\" core races in order to play those races side-by-side with more powerful new races."
 		],
-		"parent_topics": [ "gamemastering" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"creating_a_new_race",
 			"step_1_concept_arg",
@@ -22,7 +22,7 @@
 			"gamemastery_guide",
 			"bestiary",
 			"race_builder",
-			"campaign_systems",
+			"mastering_campaigns",
 			"aquatic_adventures_aa",
 			"occult_rules",
 			"mastering_combat",
@@ -39,7 +39,7 @@
 	},
 	"creating_a_new_race": {
 		"name": "Creating a New Race",
-		"subtitle": "Gamemastering",
+		"subtitle": "Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
@@ -73,7 +73,7 @@
 			"Once you have determined the race's power level, begin the following three steps to create your race."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder"
 		],
 		"siblings": [
@@ -85,7 +85,7 @@
 	},
 	"step_1_concept_arg": {
 		"name": "Step 1: Concept",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 214](source/advanced_race_guide)",
@@ -104,7 +104,7 @@
 			"If you are using these rules and you are not the GM, make sure you work closely with your GM to create a race that fills a definite niche and need in her campaign world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder"
 		],
 		"siblings": [
@@ -116,7 +116,7 @@
 	},
 	"step_2_racial_qualities": {
 		"name": "Step 2: Racial Qualities",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
@@ -124,7 +124,7 @@
 			"The next step is to choose your race's qualities. You must select an option from each of the following quality categories. Qualities or aspects of qualities often serve as prerequisites for racial traits."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder"
 		],
 		"subtopics": [
@@ -143,7 +143,7 @@
 	},
 	"type_quality": {
 		"name": "Type Quality",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 215](source/advanced_race_guide)",
@@ -157,7 +157,7 @@
 			"The humanoid type requires that you pick at least one subtype for your race, and the outsider (native) type allows you to make a decision about what other plane your race may have ties to. Keep track of your race's creature type, any subtypes it has, and any planes it has ties to. Sometimes a race's type, subtypes, or planar ties serve as prerequisites for some racial traits. For instance, you must have the ratfolk subtype to take the rodent empathy racial trait, and you must have ties to Abaddon, the Abyss, or Hell in order to take the fiendish sorcery racial trait."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities"
 		],
@@ -176,7 +176,7 @@
 	},
 	"low_rp_types": {
 		"name": "Low-RP Types",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -218,7 +218,7 @@
 			"- Aberrations breathe, eat, and sleep."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities",
 			"type_quality"
@@ -231,7 +231,7 @@
 	},
 	"mid_rp_types": {
 		"name": "Mid-RP Types",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 216](source/advanced_race_guide)",
@@ -278,7 +278,7 @@
 			"- Half-undead creatures are harmed by positive energy and healed by negative energy. A half-undead creature with the fast healing special quality still benefits from that quality."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities",
 			"type_quality"
@@ -291,7 +291,7 @@
 	},
 	"high_rp_types": {
 		"name": "High-RP Types",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 217](source/advanced_race_guide)",
@@ -351,7 +351,7 @@
 			"***Purchase:*** When using the purchase method for ability scores, assume members of races without Constitution have a Constitution score of 10 and buy the rest of the abilities normally using the points allocated for the campaign's power level."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities",
 			"type_quality"
@@ -364,7 +364,7 @@
 	},
 	"size_quality": {
 		"name": "Size Quality",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
@@ -380,7 +380,7 @@
 			"***Tiny (4 RP):*** **Prerequisites:** Aberration, construct, dragon, fey, outsider (native), or plant type; **Benefit:** Tiny creatures gain a +2 size bonus to Dexterity and a -2 size penalty to Strength. Tiny races gain a +2 size bonus to their AC, a +2 size bonus on attack rolls, a -2 penalty on combat maneuver checks and to their CMD, and a +8 size bonus on Stealth checks. Tiny characters take up a space of 2-1/2 feet by 2-1/2 feet, so up to four of these characters can fit into a single square. Tiny races typically have a natural reach of 0 feet, meaning they can't reach into adjacent squares. They must enter an opponent's square to attack it in melee. This provokes an attack of opportunity from the opponent. Since they have no natural reach, they do not threaten the squares around them. Other creatures can move through those squares without provoking attacks of opportunity. Tiny creatures typically cannot flank an enemy."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities"
 		],
@@ -394,7 +394,7 @@
 	},
 	"base_speed_quality": {
 		"name": "Base Speed Quality",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 218](source/advanced_race_guide)",
@@ -406,7 +406,7 @@
 			"***Slow Speed (-1 RP):*** The race has a base speed of 20 feet. If the race is Medium, its members' speed is never modified by armor or encumbrance."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities"
 		],
@@ -420,7 +420,7 @@
 	},
 	"ability_score_quality": {
 		"name": "Ability Score Quality",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 219](source/advanced_race_guide)",
@@ -452,7 +452,7 @@
 			"***Weakness (-1 RP):*** Members of this race gain a +2 bonus to one physical ability score, a +2 bonus to one mental ability score, and a -4 penalty to any other ability score."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities"
 		],
@@ -466,7 +466,7 @@
 	},
 	"language_quality": {
 		"name": "Language Quality",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 219](source/advanced_race_guide)",
@@ -482,7 +482,7 @@
 			"***Xenophobic (0 RP):*** Members of this race start with their racial language only. Races without a racial language cannot take this array. Furthermore, choose up to four languages (except for Druidic or other secret languages), one of which must be Common (or Undercommon, if the race is native to the Darklands). Members of this race with high Intelligence scores can choose from any of these additional languages."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_2_racial_qualities"
 		],
@@ -496,7 +496,7 @@
 	},
 	"step_3_racial_traits": {
 		"name": "Step 3: Racial Traits",
-		"subtitle": "Race Creation, Gamemastering",
+		"subtitle": "Race Creation, Gamemastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"**Source** [Advanced Race Guide pg. 220](source/advanced_race_guide)",
@@ -520,7 +520,7 @@
 			"There are a number of racial traits that require a certain humanoid subtype as a prerequisite. This is usually the case when a racial trait mentions a race in its name. As the GM, you can view these subtype prerequisites as suggestions and indicators as to what kinds of races or humanoid subtypes would usually take these traits. Feel free to change the name or racial subtype prerequisite of such a trait to better fit the race you are building."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder"
 		],
 		"subtopics": [
@@ -550,7 +550,7 @@
 			"The following racial traits add to the base ability score modifiers chosen in the ability score modifier quality."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -592,7 +592,7 @@
 			"**Special:** This bonus can be taken multiple times, but each additional time it is taken, its cost increases by 1 RP. Its effects stack."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"ability_score_racial_traits"
@@ -608,7 +608,7 @@
 			"The following racial traits augment the defenses of members of the race."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -728,7 +728,7 @@
 			"***Unnatural (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race unnerve normal animals, and train to defend themselves against the inevitable attacks from such creatures. Members of this race take a -4 penalty on all Charisma-based skill checks to affect creatures of the animal type, and receive a +4 dodge bonus to AC against animals. Animals' starting attitude toward members of this race is one step worse than normal."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"defense_racial_traits"
@@ -760,7 +760,7 @@
 			"***Skeletal Damage Reduction (2 RP):*** **Prerequisite:** Undead type; **Benefit:** Members of this race gain DR 5/bludgeoning."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"defense_racial_traits"
@@ -789,7 +789,7 @@
 			"***Rock Catching (2 RP):*** **Prerequisite:** Large size quality; **Benefit:** Members of this race can catch Small, Medium, or Large rocks (or projectiles of similar shape). Once per round, a member of this race that would normally be hit by a rock can make a Reflex saving throw to catch it as a free action. The DC is 15 for a Small rock, 20 for a Medium rock, and 25 for a Large rock (if the projectile provides a magical bonus on attack rolls, the DC increases by that amount). The member of this race must be aware of the attack in order to make a rock catching attempt."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"defense_racial_traits"
@@ -809,7 +809,7 @@
 			"Feat and skill racial traits typically grant bonuses on particular skills or grant bonus feats."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -899,7 +899,7 @@
 			"***Water Child (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain a +4 racial bonus on Swim checks, can always take 10 while swimming, and may choose Aquan as a bonus language."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"feat_and_skill_traits"
@@ -920,7 +920,7 @@
 			"***Quick Reactions (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race receive [Improved Initiative](feat/improved_initiative) as a bonus feat."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"feat_and_skill_traits"
@@ -939,7 +939,7 @@
 			"The following racial traits augment a race's ability to use magic or grant spell-like abilities."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -1040,7 +1040,7 @@
 			"***Weather Savvy (1 RP):*** **Prerequisite:** Outsider (native) with ties to the Plane of Air or fey type; **Benefit:** Members of this race are so in tune with the air and sky they can sense the slightest change in atmospheric conditions. They can spend a full-round action to predict the weather in an area for the next 24 hours. This prediction is always accurate, but cannot account for spells or supernatural effects that might alter the forecast."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"magical_racial_traits"
@@ -1065,7 +1065,7 @@
 			"**Special:** This trait costs as many RP as the level of the spell chosen. This trait can be taken up to three times. Each time you take an additional spell, adjust the RP cost of this trait appropriately."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"magical_racial_traits"
@@ -1086,7 +1086,7 @@
 			"**Special:** This trait costs as many RP as twice the level of spell chosen (minimum 2). Up to five spells can be chosen when you take this trait. Each time you take an additional spell, adjust the RP cost of this trait appropriately."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"magical_racial_traits"
@@ -1106,7 +1106,7 @@
 			"The following racial traits augment a race's ability to move about the world."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -1156,7 +1156,7 @@
 			"***Vestigial Wings (2 RP):*** **Prerequisites:** None; **Benefit:** Members of this race have wings that do not provide the lift required for actual flight, but do have enough power to aid flight attained by some other method, and grant a +4 racial bonus on Fly checks."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"movement_racial_traits"
@@ -1186,7 +1186,7 @@
 			"**Special:** This trait can be taken twice. Its effects stack."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"movement_racial_traits"
@@ -1206,7 +1206,7 @@
 			"***Expert Climber (4 RP):*** **Prerequisite:** Climb racial trait; **Benefit:** Members of this race can cling to cave walls and even ceilings as long as the surface has hand- and footholds. In effect, members of this race are treated as being constantly under the effects of a nonmagical [spider climb](spell/spider_climb) spell, save that members of this race cannot cling to smooth surfaces. This trait doubles the normal +8 racial bonus on Climb checks normally granted to creatures with a climb speed (to a total +16 bonus)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"movement_racial_traits"
@@ -1226,7 +1226,7 @@
 			"The following racial traits augment a race's fighting prowess."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -1317,7 +1317,7 @@
 			"***Wyrmscourged (3 RP):*** **Prerequisites:** None; **Benefit:** Members of this race gain a +1 bonus on attack rolls and a +2 dodge bonus to AC and on saving throws against the extraordinary, supernatural, and spell-like abilities of dragons. In addition, they gain a +2 racial bonus on Knowledge (arcana) checks to identify dragons and can make such checks untrained."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"offensive_racial_traits"
@@ -1350,7 +1350,7 @@
 			"***Tripping Tail (3 RP):*** **Prerequisite:** Slapping tail trait; **Benefit:** When a member of this race hits with its slapping tail, it can make a trip attack as a free action that does not provoke attacks of opportunity."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"offensive_racial_traits"
@@ -1374,7 +1374,7 @@
 			"***Rock Throwing (3 RP):*** **Prerequisite:** Large size; **Benefit:** Members of this race are accomplished rock throwers and gain a +1 racial bonus on attack rolls with thrown rocks. A member of this race can hurl rocks up to two categories smaller than its size. A \"rock\" is any large, bulky, and relatively regularly shaped object made of any material with a hardness of at least 5. A thrown rock has a range increment of 120 feet. The creature can hurl the rock up to five range increments. Damage from a thrown rock is 2d6 plus 1-1/2 times the throwing creature's Strength bonus."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"offensive_racial_traits"
@@ -1394,7 +1394,7 @@
 			"All races start with normal vision. The following traits augment their vision or otherwise enhance their senses."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -1436,7 +1436,7 @@
 			"***Water Sense (1 RP):*** **Prerequisite:** Outsider (native) with ties to the Plane of Water or amphibious racial trait; **Benefit:** Members of this race can sense vibrations in water, granting them [blindsense](umr/blindsense) 30 feet against creatures that are touching the same body of water."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"senses_racial_traits"
@@ -1458,7 +1458,7 @@
 			"***See in Darkness (4 RP):*** **Prerequisites:** None; **Benefit:** Members of this race can [see perfectly in darkness](umr/see_in_darkness) of any kind, including that created by spells such as [deeper darkness](spell/deeper_darkness)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"senses_racial_traits"
@@ -1480,7 +1480,7 @@
 			"***Blindsense 30 Feet (4 RP):*** **Prerequisites:** None; **Benefit:** Using nonvisual senses such as acute smell or hearing, members of this race [notice things they cannot see](umr/blindsense). Members of this race usually do not need to make Perception checks to pinpoint the location of a creature within 30 feet, provided they have line of effect to that creature. A creature that members of this race cannot see still has total concealment against individuals with blindsense, and members of this race still have the normal miss chance when attacking creatures that have concealment. Visibility still affects the movement of members of this race. Members of this race are still denied their Dexterity bonus to AC against attacks from creatures they cannot see."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"senses_racial_traits"
@@ -1500,7 +1500,7 @@
 			"The following racial traits apply weaknesses to members of the race. All weakness racial traits cost negative RP, which means they subtract from a race's total RP spent for the purposes of meeting the race's power level restrictions."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -1537,7 +1537,7 @@
 			"***Vulnerable to Sunlight (-2 RP):*** **Prerequisite:** Native to the Darklands or the Plane of Shadow; **Weakness:** Members of this race take 1 point of Constitution damage after every hour they are exposed to sunlight."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"weakness_racial_traits"
@@ -1559,7 +1559,7 @@
 			"***Sunlight Powerlessness (-2 RP):*** **Prerequisite:** Half-undead subtype or undead type; **Weakness:** Members of this race are powerless in natural sunlight (this does not include light created by effects such as a [daylight](spell/daylight) spell). A member of this race caught in natural sunlight cannot attack and is [staggered](rule/awareness_conditions)."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"weakness_racial_traits"
@@ -1578,7 +1578,7 @@
 			"This category covers various traits that other categories do not, which can augment your race in a number of different ways."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits"
 		],
@@ -1622,7 +1622,7 @@
 			"***Treespeech (2 RP):*** **Prerequisite:** Plant type; **Benefit:** Members of this race have the ability to converse with plants as if subject to a continual [speak with plants](spell/speak_with_plants) spell."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"other_racial_traits"
@@ -1642,7 +1642,7 @@
 			"***Grabbing Appendages (6 RP):*** **Prerequisites:** Any type except humanoid, Large size; **Benefit:** Members of this race have a small group of appendages that are useful for little more than to aid in grappling. Members of this race gain [Improved Grapple](feat/improved_grapple) as a bonus feat, and can maintain a grapple and still make attacks with their main appendages."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"other_racial_traits"
@@ -1670,7 +1670,7 @@
 			"Creating a race with more than two legs adversely affects that race's ability to use standard feet slot magic items. The best way to deal with this is to create variant magic item versions of the various boots, shoes, and slippers that can be worn by this race. Allow members of these races to find [ankle bracelets of speed](magic-wondrous/boots_of_speed) or [horseshoes of spider climb](magic-wondrous/slippers_of_spider_climbing) that act just like their traditional magic item counterparts, but fit the new race's form."
 		],
 		"parent_topics": [
-			"gamemastering",
+			"gamemastery",
 			"race_builder",
 			"step_3_racial_traits",
 			"other_racial_traits"
@@ -3047,7 +3047,7 @@
 			"",
 			"You can use downtime to help others rest and recover using the Heal skill. For long-term care, treating wounds, and treating disease, you can spend Labor to modify your check result. Each 1 point of Labor spent adds 2 to your check.",
 			"",
-			"***Long-Term Care:*** Spending a day of downtime on longterm care allows you to care for up to six patients that day.",
+			"***Long-Term Care:*** Spending a day of downtime on long-term care allows you to care for up to six patients that day.",
 			"",
 			"***Treat Wounds from Caltrops, Spike Growth, or Spike Stones:*** Spending a day of downtime allows you to treat up to 50 patients of this type. You may combine this option with the treat disease option, caring for up to 50 total patients per day.",
 			"",
