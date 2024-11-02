@@ -42,6 +42,24 @@ ion-list ion-item-divider {
 	border-bottom-width: 3px;
 }
 
+/* Optional Header */
+
+/* Rules: Hierarchy */
+
+div.hierarchyInset {
+	text-align: end;
+	font-style: italic;
+	font-weight: bold;
+	margin-inline: 0.5rem;
+	margin-block: 0.5rem;
+}
+div.hierarchyRulesInset span {
+	white-space: nowrap;
+}
+div.basicContent.hasInset > div:nth-child(2) h2 {
+	margin-top: 0;
+}
+
 /* Footer */
 
 ion-buttons.slotless {

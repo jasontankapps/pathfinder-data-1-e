@@ -1,4 +1,5 @@
 import { FC, PropsWithChildren, useCallback, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { IonContent, IonPage, ScrollCustomEvent, useIonViewDidEnter } from '@ionic/react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
@@ -12,6 +13,7 @@ import './Page.css';
 interface PageProps extends Partial<DisplayItemProps> {
 	title: string
 	hierarchy?: HierarchyArray
+	topLink?: [string, string]
 	sources?: SourceProp[]
 	hideSources?: boolean
 	pageId: string
@@ -33,6 +35,10 @@ const debounce = (fn: Function, ns: string, delay: number = 500) => {
 	}, delay);
 };
 
+const HierarchyInset: React.FC<{linkInfo: [string, string]}> = ({linkInfo}) => {
+	return <div className="hierarchyInset"><Link to={"/" + linkInfo[1]}>{linkInfo[0]}</Link></div>;
+};
+
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const { 
 		title,
@@ -41,6 +47,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		className,
 		children,
 		hierarchy,
+		topLink,
 		sources = [],
 		hideSources,
 		pageId,
@@ -61,6 +68,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
 	}, [pageId, dispatch]);
+	const cN = "basicContent simple" + (topLink ? " hasInset" : "");
 
 	return (
 		<IonPage>
@@ -71,7 +79,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				:
 					<SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />
 				}
-				<div className="basicContent simple">
+				<div className={cN}>
+					{topLink ? <HierarchyInset linkInfo={topLink} /> : <></>}
 					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} prefix={pageId} /> : children}
 				</div>
 			</IonContent>

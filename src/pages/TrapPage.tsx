@@ -17,6 +17,8 @@ type Data = typeof traps;
 
 type Params = { id?: keyof Data };
 
+const trapLink: [string, string] = ["All Traps", "rule/sample_traps"];
+
 const TrapPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
@@ -30,6 +32,7 @@ const TrapPage: React.FC = () => {
 		hierarchy={hierarchy}
 		sources={sources}
 		pageId={"trap--" + id}
+		topLink={trapLink}
 	/>;
 };
 
