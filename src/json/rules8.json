@@ -1795,7 +1795,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
 			"",
-			"A normal forest hex can be any sort of common forest: sparse patches of trees in the lowlands, thickly needled pines of the taiga, a lush tropical jungle, or even an ancient fruit tree grove turned overgrown and wild.",
+			"A normal [forest](rule/forest_terrain) hex can be any sort of common forest: sparse patches of trees in the lowlands, thickly needled pines of the taiga, a lush tropical jungle, or even an ancient fruit tree grove turned overgrown and wild.",
 			"",
 			"***Difficult:*** A difficult forest is a treacherous place, full of rotting trees that can [fall without warning](rule/falling_objects), twisted scythe [trees](monster/tarantula_tree) that [lunge at their victims](monster/hangman_tree), or [witch-lights](rule/horror_hazards) that lead expeditions off the path. For each hour spent traveling through a difficult forest, there is a 5% chance of a falling tree hazard. Survival check DCs to avoid getting lost increase by 5.",
 			"",
@@ -1831,7 +1831,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
 			"",
-			"A hill is lower and less steep than a mountain. Hills are often transitional terrain between mountains and plains.",
+			"A hill is lower and less steep than a mountain. [Hills](rule/hills_terrain) are often transitional terrain between mountains and plains.",
 			"",
 			"***Difficult:*** Full of short cliffs and jagged stones, a difficult hill hex requires extra caution to avoid [dangerous falls](rule/falling). For the purposes of travel and exploration times, treat the party's speed as one category slower on [Tables 3-2 and 3-3](rule/movement_ucp).",
 			"",
@@ -1867,7 +1867,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
 			"",
-			"Marshes, swamps, and bogs are challenging ground to traverse. Survival check DCs to avoid getting lost increase by 1 in a marsh hex.",
+			"[Marshes, swamps, and bogs](rule/marsh_terrain) are challenging ground to traverse. Survival check DCs to avoid getting lost increase by 1 in a marsh hex.",
 			"",
 			"***Difficult:*** A difficult marsh hex is a deadly place, replete with [quicksand](rule/marsh_terrain), poisonous plants, and treacherous water. The DCs for Survival checks to get along in the wild increase by 5. For the purposes of travel and exploration times, treat the party's speed as one category slower on [Tables 3-2 and 3-3](rule/movement_ucp).",
 			"",
@@ -1903,7 +1903,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
 			"",
-			"Mountains form long barriers across the landscape that greatly impede the movement of travelers.",
+			"[Mountains](rule/mountain_terrain) form long barriers across the landscape that greatly impede the movement of travelers.",
 			"",
 			"***Difficult:*** All Climb DCs in a difficult mountain hex increase by 2. For the purposes of travel and exploration times, treat the party's speed as one category slower on [Tables 3-2 and 3-3](rule/movement_ucp).",
 			"",
@@ -1939,7 +1939,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
 			"",
-			"Plains can be fields of high grasses, permanently frozen tundra, or flat badlands.",
+			"[Plains](rule/plains_terrain) can be fields of high grasses, permanently frozen tundra, or flat badlands.",
 			"",
 			"***Difficult:*** Dangerous plains tend to be filled with small sinkholes and [pits](trap/pit_trap) that can twist or break the legs of the unwary. For the purposes of travel and exploration times, treat the party's speed as one category slower on [Tables 3-2 and 3-3](rule/movement_ucp).",
 			"",
@@ -2011,7 +2011,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
 			"",
-			"Whether a river, lake, or ocean, this type of hex is predominantly water. If the PCs lack swim speeds or boats, it is best to treat lakes and oceans as obstacles for the PCs to travel around rather than through. Treat the shores of the water hex as the adjacent terrain type.",
+			"Whether a river, lake, or ocean, this type of hex is [predominantly water](rule/aquatic_terrain). If the PCs lack swim speeds or boats, it is best to treat lakes and oceans as obstacles for the PCs to travel around rather than through. Treat the shores of the water hex as the adjacent terrain type.",
 			"",
 			"***Difficult:*** [Whitewater rapids](rule/aquatic_terrain), strong tides, or underwater [vortexes](rule/whirlpools) mean this water is more challenging to cross. The Swim DCs to cross these waters increase by 5.",
 			"",
@@ -2767,7 +2767,7 @@
 			"",
 			"The most obvious manifestation of your character's lineage is his still-living relatives. Many of these NPCs have been with the character since birth, and helped shape him into the person he is today. A character's family is an extension of that character's backstory, and so you should ultimately have the final say over its size and nature. The GM should only intervene when your desired family would disrupt the campaign in some way or give you an unfair advantage. For the same reason, the GM should avoid introducing new members to your character's family after the campaign begins, unless the circumstances of the story (such as marriage or pregnancy) demand it.",
 			"",
-			"The first thing you need to do is to determine the size and composition of your character's family. This can be chosen arbitrarily, within reason, or can be [generated randomly](rule/background_generator). One character's family might consist solely of the single parent who raised him, while another character might be a part of a large clan or noble house. Once you determine the size of the family, you can use the guidelines in this section and in [Non-Player Characters](rule/non-player_characters) to further develop the personalities of these relatives. Every family is different, so it's hard to generalize a PC's relationship with his relatives. The following guidelines are a good place to start. This assumes a happy, functional family. For other family types of dynamics, see [Complicated and Dysfunctional Families](rule/complicated_and_dysfunctional_families).",
+			"The first thing you need to do is to determine the size and composition of your character's family. This can be chosen arbitrarily, within reason, or can be [generated randomly](rule/background_generator). One character's family might consist solely of the single parent who raised him, while another character might be a part of a large clan or noble house. Once you determine the size of the family, you can use the guidelines in this section and in [Non-Player Characters](rule/non-player_characters) to further develop the personalities of these relatives. Every family is different, so it's hard to generalize a PC's relationship with his relatives. The following guidelines are a good place to start. This assumes a happy, functional family. For other family types of dynamics, see Complicated and Dysfunctional Families.",
 			"",
 			"***Immediate Family:*** This group includes anyone who played a direct role in raising the character, or anyone whom the character is raising (such as a child or younger sibling). Generally this includes the character's mother, father, surrogate parents, brothers, sisters, and any other live-in relatives. The character's spouse (if any) also belongs in this category, as do any children. The size of an immediate family varies by culture, but for most campaigns they shouldn't be too numerous. These family members are usually very loyal, and start the campaign with a helpful attitude toward the PC (though in most campaigns they are low-level NPC-class characters and can't provide much support in terms of finances or gear). It should be difficult to permanently worsen their attitudes, barring exceptionally heinous actions. A character's greatest obligations are often to immediate family members, and when times get rough for the family, he may be expected to spend time or money helping them.",
 			"",
@@ -3305,7 +3305,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
 			"",
-			"Fantasy and myth are rife with exotic materials used to create magic items-meteoric iron, unicorn horn, dragon blood, vampire ichor, and so on. The item creation system in the Core Rulebook is very abstract, however, and most item creation is just a matter of spending gold in town for the necessary supplies that are never quantified or described. This section provides details on incorporating talismanic components into a campaign, the effect they have on treasure hoards, examples of many talismanic components, and the sorts of items they are used for.",
+			"Fantasy and myth are rife with exotic materials used to create magic items: meteoric iron, unicorn horn, dragon blood, vampire ichor, and so on. The item creation system in the Core Rulebook is very abstract, however, and most item creation is just a matter of spending gold in town for the necessary supplies that are never quantified or described. This section provides details on incorporating talismanic components into a campaign, the effect they have on treasure hoards, examples of many talismanic components, and the sorts of items they are used for.",
 			"",
 			"Using talismanic components is a fun way to provide more story flavor and local color to a campaign. They make magic items feel more unique and less mass-produced. A +1 [flaming](magic-enhancement/flaming) longsword is no longer an unremarkable magic item if giving a weapon a +1 enhancement bonus requires a sprinkle of dust from a dead star, and if crafting a flaming weapon requires a fragment of a fire elemental's spirit. That gives the weapon a sense of history and opens the door to many questions about who originally created the sword, where the creator got the materials for it, and who it was crafted for. Interactions with merchants and traders likewise take on a new flavor if caravans full of goods from distant lands carry a small selection of these obscure crafting components."
 		],
@@ -3802,8 +3802,6 @@
 			"fame",
 			"sphere_of_influence",
 			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
 			"shared_fame",
 			"alter_egos_aliases_and_secret_identities"
 		],
@@ -3832,7 +3830,15 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 181](source/ultimate_campaign)",
 			"",
-			"You begin play with a Fame equal to your character level + your Charisma modifier. Your Fame ranges from -100 to 100, with 0 representing a lack of any notoriety. Through the course of the campaign, your words and deeds help you build a reputation. Though an adventurer performs many deeds, not all are significant enough to warrant a change in Fame. If possible, the GM should stick to those deeds that directly affect the story or campaign and not reward points for minor victories. The significance of specific deeds should generally be left up to the GM, though Table 3-5 details some specific examples. If your Fame ever drops below 0, see [Disrepute and Infamy](rule/disrepute_and_infamy).",
+			"You begin play with a Fame equal to your character level + your Charisma modifier. Your Fame ranges from -100 to 100, with 0 representing a lack of any notoriety. Through the course of the campaign, your words and deeds help you build a reputation. Though an adventurer performs many deeds, not all are significant enough to warrant a change in Fame. If possible, the GM should stick to those deeds that directly affect the story or campaign and not reward points for minor victories. The significance of specific deeds should generally be left up to the GM, though Table 3-5 details some specific examples.",
+			"",
+			"### Disrepute and Infamy",
+			"",
+			"If your Fame drops below 0, your reputation is based on infamy rather than fame. Treat your Fame as a positive number instead of a negative number for all rules relating to Fame, Sphere of Influence, and Prestige Points (for example, a villainous Fame of -20 is equivalent to a heroic Fame of 20 for the purpose of determining what awards you can buy).",
+			"",
+			"If an event would increase your Fame, you may choose to increase your Fame (bringing it closer to 0) or decrease your Fame (making it a larger negative number). For example, if your Fame is -20 and you publicly roll a 30 on a Craft check to create a masterwork sword (normally worth +2), you may increase your Fame to -18 or decrease it to -22. Negative events that decrease your Fame always count as negative (a villain attacking innocent people doesn't make the public like him more).",
+			"",
+			"If you have a negative Fame, nonevil NPCs often have unfriendly or hostile reactions to you (see Table 3-7: Negative Fame Reactions). Note that if you have a reputation for being powerful and dangerous, NPCs might avoid you rather than confront you.",
 			"",
 			"### Table 3-5: Fame Events",
 			"",
@@ -3868,6 +3874,18 @@
 			"| Be convicted of murder | -8 |",
 			"| Be convicted of treason | -10 |",
 			"",
+			"### Table 3-7: Negative Fame Reactions",
+			"",
+			"| Fame | Reaction |",
+			"| --- | --- |",
+			"| -5 | Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community. |",
+			"| -8 | Merchants, hirelings, and innkeepers refuse to accept your business. If you enter a business, you are immediately asked to leave. If you refuse, the owner calls for the authorities or locals to throw you out |",
+			"| -10 | When you approach, businesses shutter their windows and bar their doors. Most citizens refuse to speak with you. Others request that you leave immediately. If you remain for longer than 24 hours or act out against the citizens, your Fame decreases by 5 and the citizens form a mob to run you out of town. |",
+			"| -15 | Incensed that you display the gall to enter their community, an angry mob gathers. If you do not leave within a few minutes, the mob starts pelting you with fruit, sticks, and rocks. |",
+			"| -20 | An angry mob forms shortly after you enter town. Not willing to wait for a potentially corrupt trial, they attempt to capture you and execute you for your crimes. |",
+			"| -25 | An authority figure has issued a warrant for your arrest, including a reward to anyone who captures you. This is well known and many are eager to collect it. |",
+			"| -30 | An authority figure has issued a bounty for your head. This is well known and many are eager to collect it. |",
+			"",
 			"[^1]: This includes claiming a treasure from a defeated monster or rival. A villainous character may include stealing such an item instead of obtaining it fairly.",
 			"[^2]: Per 40,000 gp of the item's price.",
 			"[^3]: Such as finding the ruins of a lost city, recovering forgotten lore, or creating a useful new spell.",
@@ -3886,8 +3904,6 @@
 			"fame",
 			"sphere_of_influence",
 			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
 			"shared_fame",
 			"alter_egos_aliases_and_secret_identities"
 		]
@@ -3930,8 +3946,6 @@
 			"fame",
 			"sphere_of_influence",
 			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
 			"shared_fame",
 			"alter_egos_aliases_and_secret_identities"
 		]
@@ -3944,31 +3958,11 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
 			"",
-			"Prestige Points represent your ability to leverage your Fame. You earn Prestige Points (PP) by completing objectives during the course of play. The GM decides which deeds, goals, or story elements are most important and awards players for completing them accordingly. Each time your Fame increases, you also gain 1 Prestige Point. In a typical campaign, you should gain approximately 4 to 6 Prestige Points per character level. Your current Prestige Points can never exceed your Fame. You can't share Prestige Points with other characters; only the character who earned them can spend them. Most of the time, you spend points on rewards-titles, temporary abilities, or bonuses on tasks associated with your interests."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_campaigns",
-			"reputation_and_fame"
-		],
-		"siblings": [
-			"fame",
-			"sphere_of_influence",
-			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
-			"shared_fame",
-			"alter_egos_aliases_and_secret_identities"
-		]
-	},
-	"awards": {
-		"name": "Awards",
-		"subtitle": "Gamemastery",
-		"sources": [ "Ultimate Campaign" ],
-		"description": [
-			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
+			"Prestige Points represent your ability to leverage your Fame. You earn Prestige Points (PP) by completing objectives during the course of play. The GM decides which deeds, goals, or story elements are most important and awards players for completing them accordingly. Each time your Fame increases, you also gain 1 Prestige Point. In a typical campaign, you should gain approximately 4 to 6 Prestige Points per character level. Your current Prestige Points can never exceed your Fame. You can't share Prestige Points with other characters; only the character who earned them can spend them. Most of the time, you spend points on rewards: titles, temporary abilities, or bonuses on tasks associated with your interests.",
 			"",
-			"Spending Prestige Points earns you awards-temporary bonuses or favors. Each time you want to use an award, you must spend the Prestige Points for that award. Unless otherwise stated, bonuses from spending Prestige Points do not stack (for example, you can't combine the Hero's Luck award with the Lore of Ages award to gain a +9 bonus on a Knowledge check). Spending Prestige Points on a reward is not an action. You may only spend Prestige Points within your Sphere of Influence.",
+			"### Awards",
+			"",
+			"Spending Prestige Points earns you awards: temporary bonuses or favors. Each time you want to use an award, you must spend the Prestige Points for that award. Unless otherwise stated, bonuses from spending Prestige Points do not stack (for example, you can't combine the Hero's Luck award with the Lore of Ages award to gain a +9 bonus on a Knowledge check). Spending Prestige Points on a reward is not an action. You may only spend Prestige Points within your Sphere of Influence.",
 			"",
 			"Titles are a special category of award that is permanent instead of temporary. Unless a title's description says otherwise, you can only select a particular title once.",
 			"",
@@ -3991,8 +3985,6 @@
 			"fame",
 			"sphere_of_influence",
 			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
 			"shared_fame",
 			"alter_egos_aliases_and_secret_identities"
 		]
@@ -4016,7 +4008,7 @@
 			"gamemastery",
 			"mastering_campaigns",
 			"reputation_and_fame",
-			"awards"
+			"prestige_points"
 		],
 		"siblings": [
 			"fame_1",
@@ -4048,7 +4040,7 @@
 			"gamemastery",
 			"mastering_campaigns",
 			"reputation_and_fame",
-			"awards"
+			"prestige_points"
 		],
 		"siblings": [
 			"fame_1",
@@ -4092,7 +4084,7 @@
 			"gamemastery",
 			"mastering_campaigns",
 			"reputation_and_fame",
-			"awards"
+			"prestige_points"
 		],
 		"siblings": [
 			"fame_1",
@@ -4128,7 +4120,7 @@
 			"gamemastery",
 			"mastering_campaigns",
 			"reputation_and_fame",
-			"awards"
+			"prestige_points"
 		],
 		"siblings": [
 			"fame_1",
@@ -4158,7 +4150,7 @@
 			"gamemastery",
 			"mastering_campaigns",
 			"reputation_and_fame",
-			"awards"
+			"prestige_points"
 		],
 		"siblings": [
 			"fame_1",
@@ -4186,7 +4178,7 @@
 			"gamemastery",
 			"mastering_campaigns",
 			"reputation_and_fame",
-			"awards"
+			"prestige_points"
 		],
 		"siblings": [
 			"fame_1",
@@ -4195,47 +4187,6 @@
 			"fame_30",
 			"fame_40",
 			"fame_55"
-		]
-	},
-	"disrepute_and_infamy": {
-		"name": "Disrepute and Infamy",
-		"subtitle": "Gamemastery",
-		"tags": "fame",
-		"sources": [ "Ultimate Campaign" ],
-		"description": [
-			"**Source** [Ultimate Campaign pg. 184](source/ultimate_campaign)",
-			"",
-			"If your Fame drops below 0, your reputation is based on infamy rather than fame. Treat your Fame as a positive number instead of a negative number for all rules relating to Fame, Sphere of Influence, and Prestige Points (for example, a villainous Fame of -20 is equivalent to a heroic Fame of 20 for the purpose of determining what awards you can buy).",
-			"",
-			"If an event would increase your Fame, you may choose to increase your Fame (bringing it closer to 0) or decrease your Fame (making it a larger negative number). For example, if your Fame is -20 and you publicly roll a 30 on a Craft check to create a masterwork sword (normally worth +2), you may increase your Fame to -18 or decrease it to -22. Negative events that decrease your Fame always count as negative (a villain attacking innocent people doesn't make the public like him more).",
-			"",
-			"If you have a negative Fame, nonevil NPCs often have unfriendly or hostile reactions to you (see Table 3-7: Negative Fame Reactions). Note that if you have a reputation for being powerful and dangerous, NPCs might avoid you rather than confront you.",
-			"",
-			"### Table 3-7: Negative Fame Reactions",
-			"",
-			"| Fame | Reaction |",
-			"| --- | --- |",
-			"| -5 | Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community. |",
-			"| -8 | Merchants, hirelings, and innkeepers refuse to accept your business. If you enter a business, you are immediately asked to leave. If you refuse, the owner calls for the authorities or locals to throw you out |",
-			"| -10 | When you approach, businesses shutter their windows and bar their doors. Most citizens refuse to speak with you. Others request that you leave immediately. If you remain for longer than 24 hours or act out against the citizens, your Fame decreases by 5 and the citizens form a mob to run you out of town. |",
-			"| -15 | Incensed that you display the gall to enter their community, an angry mob gathers. If you do not leave within a few minutes, the mob starts pelting you with fruit, sticks, and rocks. |",
-			"| -20 | An angry mob forms shortly after you enter town. Not willing to wait for a potentially corrupt trial, they attempt to capture you and execute you for your crimes. |",
-			"| -25 | An authority figure has issued a warrant for your arrest, including a reward to anyone who captures you. This is well known and many are eager to collect it. |",
-			"| -30 | An authority figure has issued a bounty for your head. This is well known and many are eager to collect it. |"
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_campaigns",
-			"reputation_and_fame"
-		],
-		"siblings": [
-			"fame",
-			"sphere_of_influence",
-			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
-			"shared_fame",
-			"alter_egos_aliases_and_secret_identities"
 		]
 	},
 	"shared_fame": {
@@ -4256,8 +4207,6 @@
 			"fame",
 			"sphere_of_influence",
 			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
 			"shared_fame",
 			"alter_egos_aliases_and_secret_identities"
 		]
@@ -4285,8 +4234,6 @@
 			"fame",
 			"sphere_of_influence",
 			"prestige_points",
-			"awards",
-			"disrepute_and_infamy",
 			"shared_fame",
 			"alter_egos_aliases_and_secret_identities"
 		]
@@ -4300,7 +4247,7 @@
 			"",
 			"Every hero's journey comes to an end. Ideally this happens at the conclusion of the campaign, but not every hero makes it that far. Some are crippled in battle, killed without the possibility of resurrection, or altered beyond recognition by foul magic. Others lose the will to adventure or their motives for adventuring become irrelevant. Characters can also fall by the wayside for out-of-game reasons, such as a player's schedule changing and preventing participation or the player losing interest in playing the character or the game.",
 			"",
-			"When this happens, you have an opportunity beyond the character walking off into the sunset-you can work with the GM to turn her into an NPC. If you choose this, you're left with questions to answer. Where does she go? What does she do when not adventuring? Similarly, the GMs is presented with an intriguing dilemma: should the retired character be involved in the campaign as an NPC, and if so, how?",
+			"When this happens, you have an opportunity beyond the character walking off into the sunset: you can work with the GM to turn her into an NPC. If you choose this, you're left with questions to answer. Where does she go? What does she do when not adventuring? Similarly, the GMs is presented with an intriguing dilemma: should the retired character be involved in the campaign as an NPC, and if so, how?",
 			"",
 			"Using ex-PCs to develop the world and advance the story is an easy way to establish a personal connection between the players and the setting, yet overusing them can steal the focus of the campaign away from the active PCs. The GM must also take the desires of the character's player into account, as few enjoy seeing a favorite PC portrayed poorly.",
 			"",
@@ -4364,9 +4311,9 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
 			"",
-			"You need to consider your retired PC's relationship with the remaining PCs, including your new character if you have one. If your PC left on good terms, the party members now have a friendly contact to call upon for advice or assistance. The retired PC can also serve as a convenient mouthpiece when the GM needs to relay plot-relevant information to the players. However, the GM should take care not to let your retired PC have too much of an active role in the campaign-the point of retiring is to retire, and if your old character is involved almost as much as your current character that means you're getting twice as much time in the spotlight as the other players.",
+			"You need to consider your retired PC's relationship with the remaining PCs, including your new character if you have one. If your PC left on good terms, the party members now have a friendly contact to call upon for advice or assistance. The retired PC can also serve as a convenient mouthpiece when the GM needs to relay plot-relevant information to the players. However, the GM should take care not to let your retired PC have too much of an active role in the campaign - the point of retiring is to retire, and if your old character is involved almost as much as your current character that means you're getting twice as much time in the spotlight as the other players.",
 			"",
-			"Your retired PC isn't automatically best friends with your new character and shouldn't be the source of free gold, magic items, or spellcasting (but see the [Lineage](rule/lineage) section for information about handling inheritance from earlier PCs). You should think of your retired PC as an allied NPC-to keep things fair, you need to make Diplomacy checks to gain significant favors, and the GM is the final arbiter of how much assistance your old PC is willing to offer based on the needs of the campaign."
+			"Your retired PC isn't automatically best friends with your new character and shouldn't be the source of free gold, magic items, or spellcasting (but see the [Lineage](rule/lineage) section for information about handling inheritance from earlier PCs). You should think of your retired PC as an allied NPC - to keep things fair, you need to make Diplomacy checks to gain significant favors, and the GM is the final arbiter of how much assistance your old PC is willing to offer based on the needs of the campaign."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4389,7 +4336,7 @@
 			"",
 			"A character that stops being a PC doesn't have to quit adventuring; that PC just isn't part of the main adventuring party anymore. A devout mystic might leave the group to undertake a sacred pilgrimage for her church, or a savage warrior may return to her homeland to defend her tribe from foreign invaders. This type of retirement works best for an individualistic character or one whose adventuring motives are independent of the group's overall goals. The ex-PC may not have a direct role to play in the group's future efforts, but that doesn't mean she can't continue to influence the campaign.",
 			"",
-			"An easy way for the GM to keep the departed character relevant is to make sure the other PCs are informed about her activities. She might send letters or magical messages (such as from sending) to the other PCs, or the PCs may hear news and rumors about her from bards and through town gossip (especially when they're in the retired PC's territory). These tales could be realistic or bombastic, depending on the personality of the retired PC. As a general rule, they shouldn't overshadow the accomplishments of the active PCs-the goal should always be to inform or entertain the PCs rather than have the retired PC steal the spotlight.",
+			"An easy way for the GM to keep the departed character relevant is to make sure the other PCs are informed about her activities. She might send letters or magical messages (such as from sending) to the other PCs, or the PCs may hear news and rumors about her from bards and through town gossip (especially when they're in the retired PC's territory). These tales could be realistic or bombastic, depending on the personality of the retired PC. As a general rule, they shouldn't overshadow the accomplishments of the active PCs - the goal should always be to inform or entertain the PCs rather than have the retired PC steal the spotlight.",
 			"",
 			"This approach gives the GM an excellent avenue to foreshadow future developments in the campaign, or to steer the party into further adventures. For example, the PCs might hear that their old ally sold several sets of Large weapons and armor in a nearby town, and when the PCs reach that area they are attacked by a gang of hill giants. Using retired PCs to flesh out the local history and legends also gives the campaign a stronger sense of continuity.",
 			"",
@@ -4418,7 +4365,7 @@
 			"",
 			"A good betrayal is unexpected but believable in hindsight. This form of retirement works well for a character the party would not immediately suspect, so long as the GM and player can construct a rational motive. Sometimes the circumstances make this easy. A character left for dead or believed killed in battle might survive and swear revenge on the friends who abandoned him. He could return as an undead creature to (quite literally) haunt the PCs, or return in a different form, such as a flesh golem. If no obvious motive for betrayal presents itself, the GM should consider what the ex-PC values most, and use that information to turn the character against the party. Even the most righteous characters may turn against former friends under the right circumstances. Perhaps the villains are holding the character's family hostage to force compliance, or perhaps it's something as simple as a well-placed [suggestion](spell/suggestion) effect, a [dominate person](spell/dominate_person) spell, or demonic possession.",
 			"",
-			"The key to making the most of a retired character's betrayal is for the GM to tie it in with the campaign story. A former PC that acts alone is good for one fight or a tense roleplaying scene, but not much more than that. One who becomes a recurring villain, however, gives the PCs another hook to get involved with the story and lets the players act on their feelings of betrayal. It also gives them the opportunity to bring the former PC to justice- or offer redemption."
+			"The key to making the most of a retired character's betrayal is for the GM to tie it in with the campaign story. A former PC that acts alone is good for one fight or a tense roleplaying scene, but not much more than that. One who becomes a recurring villain, however, gives the PCs another hook to get involved with the story and lets the players act on their feelings of betrayal. It also gives them the opportunity to bring the former PC to justice - or offer redemption."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4443,17 +4390,15 @@
 			"",
 			"Retraining takes all your attention for 8 hours per day for a number of days based on what you're retraining. You can't perform any other strenuous activities while retraining, such as marching, adventuring, or crafting magic items. You can retrain only one thing at a time; you must complete or abandon a particular training goal before starting another one. Abandoning unfinished training means you lose all progress toward that training's goal and all costs associated with that training.",
 			"",
-			"Unless stated otherwise, retraining costs gp equal to 10 &times; your level &times; the number of days required to retrain. This is normally paid in full at the start of the retraining period, but the GM might allow you to divide these payments over multiple days. At the GM's discretion, this training cost could be up to 50% higher or lower, depending on situational factors within the settlement-availability of trainers, local economy, cost of materials, and so on.",
+			"Unless stated otherwise, retraining costs gp equal to 10 &times; your level &times; the number of days required to retrain. This is normally paid in full at the start of the retraining period, but the GM might allow you to divide these payments over multiple days. At the GM's discretion, this training cost could be up to 50% higher or lower, depending on situational factors within the settlement: availability of trainers, local economy, cost of materials, and so on.",
 			"",
-			"Some retraining options require you to work with a trainer. If no suitable trainer is available, the GM might allow you to retrain yourself by spending twice the normal time. Even if you train yourself, you must still pay the cost for training (though you don't double the cost as you do the time). Any option that requires a trainer also requires some kind of training facility for that activity (such as a Dojo-see [Rooms](rule/rooms)).",
+			"Some retraining options require you to work with a trainer. If no suitable trainer is available, the GM might allow you to retrain yourself by spending twice the normal time. Even if you train yourself, you must still pay the cost for training (though you don't double the cost as you do the time). Any option that requires a trainer also requires some kind of training facility for that activity (such as a Dojo; see [Rooms](rule/rooms)).",
 			"",
 			"When you use retraining to replace some aspect of your character, you must meet all prerequisites, requirements, and considerations for whatever you're trying to acquire. For example, a 6th-level rogue can't use retraining to learn the [Weapon Specialization](feat/weapon_specialization) feat because only fighters can choose that feat. When retraining multiple character options (class features, feats, classes, etc.) in one continuous period, all of the new selections are made at the end of that period in an order decided by the player. If this period is interrupted for any reason all choices must be made immediately. In this way players can retrain class features and their prerequisites at the same time.",
 			"",
 			"Unless otherwise specified, there is no limit to how many times you can use retraining. Options that specify \"one\" of something refer to once per retraining session, not a campaign-wide limitation. For example, a barbarian can retrain one rage power per training session, and when she finishes a session she can start another retraining session to retrain that rage power or another one.",
 			"",
-			"Some of the options listed below involve retraining features of your character that are essentially permanent parts of your heritage, such as a sorcerer's bloodline. The cost of retraining these things presumably includes magical or alchemical alterations to your body. The GM might rule that these changes are unavailable in the campaign, are only available under rare circumstances, take longer, are temporary, require some sort of quest, or are more expensive than the listed cost.",
-			"",
-			"The subtopics have the many types of training available."
+			"Some of the options listed below involve retraining features of your character that are essentially permanent parts of your heritage, such as a sorcerer's bloodline. The cost of retraining these things presumably includes magical or alchemical alterations to your body. The GM might rule that these changes are unavailable in the campaign, are only available under rare circumstances, take longer, are temporary, require some sort of quest, or are more expensive than the listed cost."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4531,9 +4476,9 @@
 			"",
 			"Swapping one archetype for another requires two retraining sessions: one to abandon the archetype, and then one to gain the new one.",
 			"",
-			"Note that you don't have to use the retraining rules to take an archetype if your class level is low enough that the archetype doesn't modify any of your current class abilities. For example, if you're a 1st-level fighter who wants the [archer archetype](archetype-fighter/archer), that archetype doesn't replace any class abilities until fighter level 2, so you don't need to use the retraining rules at all-once you reach 2nd level, you can just decide to take the archer archetype.",
+			"Note that you don't have to use the retraining rules to take an archetype if your class level is low enough that the archetype doesn't modify any of your current class abilities. For example, if you're a 1st-level fighter who wants the [archer archetype](archetype-fighter/archer), that archetype doesn't replace any class abilities until fighter level 2, so you don't need to use the retraining rules at all; once you reach 2nd level, you can just decide to take the archer archetype.",
 			"",
-			"Example: Logan's 4th-level fighter has the [archer archetype](archetype-fighter/archer). Because he is 4th level, he has two alternative class features from his archetype (hawkeye at 2nd level and trick shot at 3rd level), so he must spend 10 days and 400 gp retraining to abandon this archetype. If he were 5th level, he would also have the expert archer alternative class feature, which would increase his retraining to 15 days and 750 gp."
+			"**Example:** Logan's 4th-level fighter has the [archer archetype](archetype-fighter/archer). Because he is 4th level, he has two alternative class features from his archetype (hawkeye at 2nd level and trick shot at 3rd level), so he must spend 10 days and 400 gp retraining to abandon this archetype. If he were 5th level, he would also have the expert archer alternative class feature, which would increase his retraining to 15 days and 750 gp."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4620,7 +4565,31 @@
 			"",
 			"***Wizard:*** Retrain your arcane bond by replacing one bonded item with another, replacing your bonded item with a familiar, or replacing your familiar with a bonded item. See also [retraining feats](rule/feat).",
 			"",
-			"You can instead retrain your arcane school (including changing to or from a universalist). Doing so replaces your school's bonus spell slots and school powers. This training takes 5 days for every school power you lose from changing schools."
+			"You can instead retrain your arcane school (including changing to or from a universalist). Doing so replaces your school's bonus spell slots and school powers. This training takes 5 days for every school power you lose from changing schools.",
+			"",
+			"### Other Classes",
+			"",
+			"There are no official guidelines for Shifter or Vigilante, nor the hybrid and Occult classes, as they were published after this sourcebook. The following are non-official suggestions:",
+			"",
+			"- **Shifter:** Retrain one aspect into another.",
+			"- **Vigilante:** Retrain a social talent into another social talent, or a vigilante talent into another vigilante talent. Alternately, retrain your specialization from being an avenger into being a stalker, or vice versa; this takes 5 days for every level of Vigilante you have, plus an additional 5 days for each vigilante talent you have that is unique to your current specialization.",
+			"- **Arcanist:** Retrain an exploit into another exploit.",
+			"- **Bloodrager:** Retrain your bloodline. Doing so replaces your bonus spells, bloodline feats, and bloodline powers. This training takes 5 days for every bonus feat and bloodline power you lose from changing bloodlines.",
+			"- **Brawler:** Retrain a maneuver training choice. This takes 5 days for every +1 bonus you currently have in the maneuver. (For example, if you have +3 to grapple, +2 to sunder and +1 to bull rush, it takes 5 days to retrain bull rush, 10 days to retrain sunder, and 15 days to retrain grapple.) If you wish to swap the bonuses you have between two maneuvers, it takes 5 days for every +1 difference between them. (For example, it would take 5 days to change grapple to +2 and sunder to +3, 5 days to change sunder to +1 and +2 to bull rush, or 10 days to change grapple to +1 and bull rush to +3.",
+			"- **Hunter:** Retrain a single bonus trick known by your animal companion.",
+			"- **Investigator:** Retrain one investigator talent into another.",
+			"- **Shaman:** Retrain one hex into another. Alternatively, you can retrain your chosen spirit. This takes 5 days for the basic spirit, 10 days for the greater spirit, 15 days for the true spirit, or 20 days if you're at 20th level and have manifestation powers. Retraining your spirit takes an additional 5 days for every spirit-specific hex you currently know. In addition, you can only choose your new spirit as your wandering spirit until you complete retraining.",
+			"- **Skald:** Retrain one type of Perform skill associated with your versatile performance class feature, or retrain one rage power.",
+			"- **Slayer:** Retrain one slayer talent or advanced talent.",
+			"- **Warpriest:** Retrain one blessing; the new blessing must be one granted by your deity. If you are a neutral warpriest of a neutral deity, you can instead retrain whether you spontaneously cast *cure* spells or *inflict* spells, which also changes what your fervor does and whether you channel positive or negative energy.",
+			"- **Kineticist:** Retrain a utility wild talent, or your choice of metakinetic mastery. Or, you can instead retrain an expanded element choice, which takes 5 days, plus an additional 5 days for every utility talent that you would no longer qualify for.[^1] If you have expanded your primary element twice, you may retrain once to remove the 15th-level benefit, then retrain again to remove the 7th-level benefit.",
+			"- **Mesmerist:** Retrain one choice of bold stare.",
+			"- **Occultist:** Retrain an implement school or panoply. You cannot retrain either of your original two implement schools.",
+			"- **Psychic:** Retrain a phrenic amplification, or retrain a psychic discipline; the latter takes 5 days for every bonus spell the discipline grants, and an additional 5 days if this changes the ability score your phrenic pool uses.",
+			"- **Spiritualist:** Retrain a connection to a different phantom with a different emotional focus. This takes 5 days, plus an additional 5 days for every spiritualist level you possess.",
+			"- **Swashbuckler, Medium:** There are no special class features to retrain, though you may retrain bonus feats, spells known, etc, such as any other character could.",
+			"",
+			"[^1]: Do not include the bonus talents granted directly by Expanded Element when calculating this amount."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4649,9 +4618,9 @@
 			"",
 			"One of the most critical choices you can make about your character is what class to choose when you gain a level.",
 			"",
-			"In general, it takes 7 days to retrain one level in a class into one level in another class. Some classes are more suited for this kind of retraining, as they have a similar focus or purpose-this is called retraining synergy. If your old class has retraining synergy with your new class, retraining that class level takes only 5 days instead of 7 days. Determine class retraining synergies according to Table 3-8: Retraining Synergies.",
+			"In general, it takes 7 days to retrain one level in a class into one level in another class. Some classes are more suited for this kind of retraining, as they have a similar focus or purpose: this is called retraining synergy. If your old class has retraining synergy with your new class, retraining that class level takes only 5 days instead of 7 days. Determine class retraining synergies according to Table 3-8: Retraining Synergies.",
 			"",
-			"Most prestige classes have retraining synergy with base classes that share their common class features. For example, the arcane trickster prestige class requires and advances arcane spellcasting, so it has retraining synergy with all arcane spellcasting classes. It also requires and advances sneak attack, so it has retraining synergy with classes that grant sneak attack. The GM is the final arbiter of whether or not a prestige class has retraining synergy with a base class, but should err on the side of generosity-if you would rather spend time retraining levels over and over again instead of adventuring, that is your choice.",
+			"Most prestige classes have retraining synergy with base classes that share their common class features. For example, the arcane trickster prestige class requires and advances arcane spellcasting, so it has retraining synergy with all arcane spellcasting classes. It also requires and advances sneak attack, so it has retraining synergy with classes that grant sneak attack. The GM is the final arbiter of whether or not a prestige class has retraining synergy with a base class, but should err on the side of generosity; if you would rather spend time retraining levels over and over again instead of adventuring, that is your choice.",
 			"",
 			"### Table 3-8: Retraining Synergies",
 			"",
@@ -4683,9 +4652,23 @@
 			"",
 			"This retraining does not allow you to reselect the feats your character gains at odd levels or the ability score increases your character gains every four levels (though you can retrain those options separately). If retraining a class level means you no longer qualify for a feat, prestige class, or other ability you have, you can't use that feat, prestige class, or ability until you meet the qualifications again. (You can still retrain that feat, prestige class, or other ability.)",
 			"",
-			"Example: Mark is playing a ranger 5/rogue 2, and has decided he'd like to retrain one of his ranger levels into a rogue level (so he has to find a 3rd-level rogue). When he completes the training, he immediately loses all benefits from taking ranger level 5 (base attack bonus, saving throw bonuses, Hit Dice, hit points, skill ranks, and class features), then gains 1 level in rogue, immediately gaining all the benefits of rogue level 3. Mark's character is now a ranger 4/rogue 3. This retraining did not change Mark's 7th-level feat.",
+			"**Example:** Mark is playing a ranger 5/rogue 2, and has decided he'd like to retrain one of his ranger levels into a rogue level (so he has to find a 3rd-level rogue). When he completes the training, he immediately loses all benefits from taking ranger level 5 (base attack bonus, saving throw bonuses, Hit Dice, hit points, skill ranks, and class features), then gains 1 level in rogue, immediately gaining all the benefits of rogue level 3. Mark's character is now a ranger 4/rogue 3. This retraining did not change Mark's 7th-level feat.",
 			"",
-			"If you are retraining a level in an NPC class (adept, aristocrat, commoner, or expert) to a level in any other class, the training takes only 3 days. This allows an NPC soldier to begin her career as a warrior and eventually become an officer who is a single-classed fighter, and for a younger character to start out with one commoner or expert level and become a 1st-level adventurer with a PC class when he reaches adulthood (see [Young Characters](rule/young_characters))."
+			"If you are retraining a level in an NPC class (adept, aristocrat, commoner, or expert) to a level in any other class, the training takes only 3 days. This allows an NPC soldier to begin her career as a warrior and eventually become an officer who is a single-classed fighter, and for a younger character to start out with one commoner or expert level and become a 1st-level adventurer with a PC class when he reaches adulthood (see [Young Characters](rule/young_characters)).",
+			"",
+			"### Other Classes",
+			"",
+			"There are no official guidelines for Shifter or Vigilante, nor the hybrid and Occult classes, as they were published after this sourcebook. The following are non-official suggestions:",
+			"",
+			"- Shifter has synergy with druid and ranger.",
+			"- Vigilante has synergy with rogue and fighter.",
+			"- Hybrid classes have synergy with their parent classes, and the classes their parents have synergy with.",
+			"- Kineticist has synergy with monk and the occult classes.",
+			"- Medium has synergy with summoner and the occult classes.",
+			"- Mesmerist has synergy with bard and the occult classes.",
+			"- Occultist has synergy with wizard and the occult classes.",
+			"- Psychic has synergy with sorcerer and the occult classes.",
+			"- Spiritualist has synergy with summoner and the occult classes."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4745,7 +4728,7 @@
 			"",
 			"Retraining hit points takes 3 days and requires you to spend time at a martial academy, monk monastery, or with some kind of master of combat who is at least one level higher than you. At the end of the training period, increase your hit points by 1. You can retrain hit points only if your maximum hit point total is less than the maximum possible hit point total for your character.",
 			"",
-			"Example: If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) &times; 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the [Toughness](feat/toughness) feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat."
+			"**Example:** If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) &times; 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the [Toughness](feat/toughness) feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4932,11 +4915,11 @@
 			"",
 			"Though many taxes come in the form of financial transactions, some collectors are willing to substitute material goods, favors, or services for coin.",
 			"",
-			"***Direct Taxation:*** Claiming a share of all proceeds is the simplest way collectors benefit from adventurers. This might be a coinage fee for converting foreign or excessive currency, a duty imposed on treasure and enforced by customs inspectors, or even a tithe paid by religious characters. Though such policies are straightforward to implement, clever PCs can avoid them by concealing their wealth-a typical tax collector lacks the wherewithal to ferret out treasure masked by illusion or cached in an extradimensional space. However, bragging about evading taxes can backfire, and could lead to divination-based inspections or interrogation under magical means.",
+			"***Direct Taxation:*** Claiming a share of all proceeds is the simplest way collectors benefit from adventurers. This might be a coinage fee for converting foreign or excessive currency, a duty imposed on treasure and enforced by customs inspectors, or even a tithe paid by religious characters. Though such policies are straightforward to implement, clever PCs can avoid them by concealing their wealth - a typical tax collector lacks the wherewithal to ferret out treasure masked by illusion or cached in an extradimensional space. However, bragging about evading taxes can backfire, and could lead to divination-based inspections or interrogation under magical means.",
 			"",
 			"***Monetary Favors:*** When a collector needs funds, the PCs present a ready and often untapped source of money. Experienced adventures routinely throw around amounts of gold that could equip an army or feed a town for months. Canny collectors avoid drawing from the well too often, saving their requests for dire circumstances. When they do call, they appeal to the PCs' compassion, patriotism, or sense of duty. Technically, it's not tax evasion to decline such a request, but collectors have long memories.",
 			"",
-			"***Service:*** In some countries, particularly ones with the feudal system, subjects swear fealty to their lord in a system of intertwined obligation. In return for the lord's protection, subjects agree to give service. When called upon by a lord, a PC must report to duty, offer up a suitable person to serve instead, or refuse the call and risk imprisonment or worse. Churches similarly expect service from their congregations, and guilds expect service from their members. Willing and eager service on the part of the PCs may be repaid by a favor from their collector in a time of need. If the service is especially suited to adventurers, such as clearing out monsters from the city sewer, the PCs should receive less than the normal treasure award-they shouldn't earn more gold for performing a service than they would have to pay in taxes to avoid that service."
+			"***Service:*** In some countries, particularly ones with the feudal system, subjects swear fealty to their lord in a system of intertwined obligation. In return for the lord's protection, subjects agree to give service. When called upon by a lord, a PC must report to duty, offer up a suitable person to serve instead, or refuse the call and risk imprisonment or worse. Churches similarly expect service from their congregations, and guilds expect service from their members. Willing and eager service on the part of the PCs may be repaid by a favor from their collector in a time of need. If the service is especially suited to adventurers, such as clearing out monsters from the city sewer, the PCs should receive less than the normal treasure award; they shouldn't earn more gold for performing a service than they would have to pay in taxes to avoid that service."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4992,7 +4975,9 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 193](source/ultimate_campaign)",
 			"",
-			"Forcing taxes on adventurers carries a certain amount of risk. Low-level PCs who avoid paying taxes likely face arrest, heavy fines, and possibly imprisonment if caught. Of course, they might be able to perform a suitable service in lieu of punishment. For mid-level PCs, indirect consequences are more effective than attempts to arrest them (unless the authorities have enough resources and ability that they stand a reasonable chance of capturing and holding the PCs)\"local businesses may refuse to serve them, the thieves\" guild might be given permission to rob them, city guards may ignore their calls for help, and so on. High-level PCs outmatch anyone trying to arrest them, and in many cases the worst consequences of their actions are cheers from other lawbreakers and snubs by nobles who rely on taxation for income. In the cases of dues and tithes, PCs who shirk their responsibilities can expect no help from their churches or guilds while indebted, and have to pay a considerable surcharge even after they make good on their debts. Of course, the proper service or favor might convince a church or guild to forgive the PCs for their transgressions."
+			"Forcing taxes on adventurers carries a certain amount of risk. Low-level PCs who avoid paying taxes likely face arrest, heavy fines, and possibly imprisonment if caught. Of course, they might be able to perform a suitable service in lieu of punishment. For mid-level PCs, indirect consequences are more effective than attempts to arrest them (unless the authorities have enough resources and ability that they stand a reasonable chance of capturing and holding the PCs) - local businesses may refuse to serve them, the thieves' guild might be given permission to rob them, city guards may ignore their calls for help, and so on.",
+			"",
+			"High-level PCs outmatch anyone trying to arrest them, and in many cases the worst consequences of their actions are cheers from other lawbreakers and snubs by nobles who rely on taxation for income. In the cases of dues and tithes, PCs who shirk their responsibilities can expect no help from their churches or guilds while indebted, and have to pay a considerable surcharge even after they make good on their debts. Of course, the proper service or favor might convince a church or guild to forgive the PCs for their transgressions."
 		],
 		"parent_topics": [
 			"gamemastery",

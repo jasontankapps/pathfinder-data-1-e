@@ -3082,7 +3082,7 @@
 			"",
 			"- The hand can retrieve or pick up an item or weapon as a standard action.",
 			"- The hand can attempt any of the following skill checks at a -4 penalty: Disable Device, Escape Artist, Heal, Sleight of Hand, or Use Magic Device.",
-			"- The hand can knock you prone as a free action, and drag you while you're prone at a speed of 5 feet as a fullround action.",
+			"- The hand can knock you prone as a free action, and drag you while you're prone at a speed of 5 feet as a full-round action.",
 			"- The hand can perform any other action appropriate for a hand and an arm, such as pouring a held potion into your mouth or awakening you from a sleep spell.",
 			"- The hand can make a single melee or ranged attack with a light or one-handed weapon as a full-round action."
 		]
@@ -3096,8 +3096,8 @@
 			"**Source** [Haunted Heroes Handbook pg. 24](source/haunted_heroes_handbook)",
 			"",
 			"Your possessed hand can painlessly pull free of your body or reattach itself, leaving you with a bloodless but raw-looking stump at the end of one arm while the hand itself performs remote tasks under your command, acting in many ways like a strange familiar.  ",
-			"**Prerequisites:** Hand's Autonomy, [Possessed Hand](feat/possessed_hand).  ",
-			"**Benefit:** You can remove your possessed hand, allowing the possessing spirit to animate and control its motion. Removing or reattaching your possessed hand is a fullround action. This deals no damage to you, but you can't use the hand while it is removed. The hand acts as a wizard's familiar, using your character level as your effective wizard level, except it doesn't gain the alertness, share spells, deliver touch spells, spell resistance, or scry on familiar abilities. Use the statistics for a crawling hand to represent the detached hand, save that the hand isn't undead, doesn't have the mark quarry ability, and shares your alignment. If the hand is destroyed, the spirit regenerates your missing hand in 2d4 days. This process can be accelerated by regenerate or similar magic. You cannot use the Possessed Hand feat or any feat with the Possessed Hand feat as a prerequisite until the hand is fully regenerated. If you have the familiar class feature, you can choose for your possessed hand to become your familiar, granting it all familiar abilities as normal. If selected as a familiar, your possessed hand grants you a +3 bonus on Sleight of Hand checks."
+			"**Prerequisites:** [Hand's Autonomy](feat/hand's_autonomy), [Possessed Hand](feat/possessed_hand).  ",
+			"**Benefit:** You can remove your possessed hand, allowing the possessing spirit to animate and control its motion. Removing or reattaching your possessed hand is a full-round action. This deals no damage to you, but you can't use the hand while it is removed. The hand acts as a wizard's familiar, using your character level as your effective wizard level, except it doesn't gain the alertness, share spells, deliver touch spells, spell resistance, or scry on familiar abilities. Use the statistics for a [crawling hand](monster/crawling_hand) to represent the detached hand, save that the hand isn't undead, doesn't have the mark quarry ability, and shares your alignment. If the hand is destroyed, the spirit regenerates your missing hand in 2d4 days. This process can be accelerated by [regenerate](spell/regenerate) or similar magic. You cannot use the Possessed Hand feat or any feat with the Possessed Hand feat as a prerequisite until the hand is fully regenerated. If you have the familiar class feature, you can choose for your possessed hand to become your familiar, granting it all familiar abilities as normal. If selected as a familiar, your possessed hand grants you a +3 bonus on Sleight of Hand checks."
 		]
 	},
 	"hand's_knowledge": {
@@ -5260,7 +5260,7 @@
 			"",
 			"You possess an impressive flexibility with casting that other wizards lack.  ",
 			"**Prerequisites:** [Flexible Wizardry](feat/flexible_wizardry), [Spell Mastery](feat/spell_mastery), wizard level 8th.  ",
-			"**Benefit:** When you use Flexible Wizardry, you can flexibly prepare a number of spell slots equal to your Intelligence modifier + 4. Furthermore, you can finalize one of these slots with a standard action instead of a fullround action."
+			"**Benefit:** When you use Flexible Wizardry, you can flexibly prepare a number of spell slots equal to your Intelligence modifier + 4. Furthermore, you can finalize one of these slots with a standard action instead of a full-round action."
 		]
 	},
 	"improved_forceful_charge": {
