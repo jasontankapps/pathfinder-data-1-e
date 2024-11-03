@@ -7201,12 +7201,14 @@
 			"",
 			"| d% | Insanity |",
 			"| --- | --- |",
-			"| 1-11 | [Amnesia](madness/amnesia) |",
-			"| 12-48 | [Mania](madness/mania)/[Phobia](madness/phobia) |",
-			"| 49-68 | [Disassociated Identity](madness/dissociated_identity) |",
-			"| 69-78 | [Paranoid](madness/paranoid) |",
-			"| 79-84 | [Moral Insanity](madness/moral_insanity) |",
-			"| 85-100 | [Schizophrenia](madness/schizophrenia) |"
+			"| 1-11 | [Amnesia](madness/amnesia_gg) |",
+			"| 12-48 | [Mania/Phobia](madness/mania_phobia) |",
+			"| 49-68 | [Disassociated Identity](madness/dissociated_identity_gg) |",
+			"| 69-78 | [Paranoid](madness/paranoia) |",
+			"| 79-84 | [Moral Insanity](madness/moral_insanity_gg) |",
+			"| 85-100 | [Schizophrenia](madness/schizophrenia_gg) |",
+			"",
+			"***Note:*** *Horror Adventures* introduced [different rules for madness](rule/madness), which you may prefer to use."
 		],
 		"parent_topics": [
 			"gamemastery",
