@@ -67,6 +67,7 @@ isIndex(fuseIndex);
 type SearchIndex = RangeStartToEndMinusOne<1, 13>;
 
 const allSearchFiltersActive: SearchIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const nothingActive: SearchIndex[] = [];
 
 //// Load and deserialize index
 //const myIndex = Fuse.parseIndex(fuseIndex);
@@ -147,7 +148,7 @@ const SearchResults: FC<{searchText: string, filter?: SearchIndex[]}> = ({search
 		);
 	}
 	const results = filter
-		? fuse.search(searchText).filter((el, i) => (filter.indexOf(data[el.refIndex].s) > -1) && (i < 100))
+		? fuse.search(searchText).filter(el => (filter.indexOf(data[el.refIndex].s) > -1)).slice(0, 100)
 		: fuse.search(searchText, { limit: 100 });
 	if (results.length === 0) {
 		return (
@@ -188,11 +189,11 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 		}
 	}
 	const save = () => {
-		setFilter(temp.length ? temp : allSearchFiltersActive);
+		setFilter(temp.length ? temp : nothingActive);
 		setOpen(false);
 	};
 	const close = () => setOpen(false);
-	const selectDeselect = () => setTemp(temp.length ? [] : allSearchFiltersActive);
+	const selectDeselect = () => setTemp(temp.length ? nothingActive : allSearchFiltersActive);
 	return (
 		<IonModal isOpen={open} onIonModalDidDismiss={() => setOpen(false)} onLoad={() => setTemp(filter)}>
 			<IonHeader>
@@ -242,7 +243,7 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 const SearchPage: FC = () => {
 	const [searchText, setSearchText] = useState<string>("");
 	const [isPending, startTransition] = useTransition();
-	const [filter, setFilter] = useState<SearchIndex[]>(allSearchFiltersActive);
+	const [filter, setFilter] = useState<SearchIndex[]>(nothingActive);
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
@@ -264,6 +265,7 @@ const SearchPage: FC = () => {
 						type="text"
 						placeholder="Search for titles and topics"
 						onInput={(input) => startTransition(() => setSearchText(String(input.currentTarget.value || "")))}
+						debounce={500}
 					/>
 					<IonButtons slot="end">
 						<IonButton onClick={() => setFilterOpen(true)} color={filter.length && filter.length < 12 ? "tertiary" : undefined}>
