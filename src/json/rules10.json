@@ -2897,7 +2897,7 @@
 		],
 		"subtopics": [
 			"direct_pursuits",
-			"races"
+			"races_ui"
 		],
 		"siblings": [
 			"the_core_mechanic",
@@ -2932,11 +2932,11 @@
 		],
 		"siblings": [
 			"direct_pursuits",
-			"races"
+			"races_ui"
 		]
 	},
-	"races": {
-		"name": "Races",
+	"races_ui": {
+		"name": "races_ui",
 		"subtitle": "Pursuit, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -2952,7 +2952,7 @@
 		],
 		"siblings": [
 			"direct_pursuits",
-			"races"
+			"races_ui"
 		]
 	},
 	"running_a_pursuit": {

@@ -9,7 +9,7 @@
 		]
 	},
 	"advancing": {
-		"name": "Advancing",
+		"name": "Advancing (armor)",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Advancing",
@@ -46,7 +46,7 @@
 		]
 	},
 	"benevolent": {
-		"name": "Benevolent",
+		"name": "Benevolent (armor)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Benevolent",
@@ -227,7 +227,7 @@
 		]
 	},
 	"defiant": {
-		"name": "Defiant",
+		"name": "Defiant (armor, shield)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Defiant",
@@ -236,7 +236,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a bane weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/- against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the [magic vestment](spell/magic_vestment) spell). To randomly determine the armor or shield's designated foe, use the table for the bane weapon special ability.",
+			"Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a bane weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/- against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the [magic vestment](spell/magic_vestment) spell). To randomly determine the armor or shield's designated foe, use the table for the [bane](magic-enhancement/bane) weapon special ability.",
 			"",
 			"### Construction",
 			"",
@@ -302,7 +302,7 @@
 		]
 	},
 	"impervious": {
-		"name": "Impervious",
+		"name": "Impervious (armor, shield)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impervious",
@@ -370,7 +370,7 @@
 		]
 	},
 	"spell_storing": {
-		"name": "Spell Storing",
+		"name": "Spell Storing (armor)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spell Storing",
@@ -594,7 +594,7 @@
 		"copyof": "poison-resistant"
 	},
 	"glamered": {
-		"name": "Glamered",
+		"name": "Glamered (armor)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1275,7 +1275,7 @@
 		"copyof": "arrow-collecting"
 	},
 	"brawling": {
-		"name": "Brawling",
+		"name": "Brawling (armor)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Brawling",
@@ -1316,7 +1316,7 @@
 		"copyof": "fortification_moderate"
 	},
 	"ghost_touch_armor": {
-		"name": "Ghost Touch (armor)",
+		"name": "Ghost Touch (armor, shield)",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4329,11 +4329,11 @@
 			"**Aura** strong abjuration; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A defiant weapon helps its wielder stay alive in desperate conditions. It stays in its wielder's hand even if she is panicked, stunned, or unconscious. She adds the weapon's enhancement bonus as a bonus on checks to stabilize when dying and on saving throws to end ongoing conditions such as disease, poison, and hold person. If the wielder possesses Heroic Defiance, [Heroic Recovery](feat/heroic_recovery), [Improved Great Fortitude](feat/improved_great_fortitude), [Improved Iron Will](feat/improved_iron_will), or [Improved Lightning Reflexes](feat/improved_lightning_reflexes), she gains a number of additional daily uses equal to the weapon's enhancement bonus that can be used on any of these feats.",
+			"This special ability can only be placed on melee weapons. A defiant weapon helps its wielder stay alive in desperate conditions. It stays in its wielder's hand even if she is panicked, stunned, or unconscious. She adds the weapon's enhancement bonus as a bonus on checks to stabilize when dying and on saving throws to end ongoing conditions such as disease, poison, and [hold person](spell/hold_person). If the wielder possesses [Heroic Defiance](feat/heroic_defiance), [Heroic Recovery](feat/heroic_recovery), [Improved Great Fortitude](feat/improved_great_fortitude), [Improved Iron Will](feat/improved_iron_will), or [Improved Lightning Reflexes](feat/improved_lightning_reflexes), she gains a number of additional daily uses equal to the weapon's enhancement bonus that can be used on any of these feats.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Heroic Defiance](feat/heroic_defiance), [break enchantment](spell/break_enchantment), [stabilize](spell/stabilize); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Heroic Defiance, [break enchantment](spell/break_enchantment), [stabilize](spell/stabilize); **Price** -"
 		]
 	},
 	"dispelling_burst": {

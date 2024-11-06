@@ -3313,7 +3313,7 @@
 		],
 		"subtopics": [
 			"core_classes",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alignment_pu",
@@ -3370,7 +3370,7 @@
 		],
 		"siblings": [
 			"core_classes",
-			"base_classes"
+			"base_classes_pu"
 		]
 	},
 	"barbarian": {
@@ -3814,7 +3814,7 @@
 			"wizard"
 		]
 	},
-	"base_classes": {
+	"base_classes_pu": {
 		"name": "Base Classes",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -3840,7 +3840,7 @@
 		],
 		"siblings": [
 			"core_classes",
-			"base_classes"
+			"base_classes_pu"
 		]
 	},
 	"alchemist": {
@@ -3866,7 +3866,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -3904,7 +3904,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -3940,7 +3940,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -3978,7 +3978,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -4014,7 +4014,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -4074,7 +4074,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -4110,7 +4110,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",
@@ -4148,7 +4148,7 @@
 			"optional_rules_systems",
 			"pathfinder_unchained",
 			"variant_multiclassing",
-			"base_classes"
+			"base_classes_pu"
 		],
 		"siblings": [
 			"alchemist",

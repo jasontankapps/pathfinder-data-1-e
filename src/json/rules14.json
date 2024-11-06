@@ -8944,7 +8944,7 @@
 		],
 		"subtopics": [
 			"loyalties",
-			"classes",
+			"classes_pu",
 			"creatures_spells_and_effects"
 		],
 		"siblings": [
@@ -8991,11 +8991,11 @@
 		],
 		"siblings": [
 			"loyalties",
-			"classes",
+			"classes_pu",
 			"creatures_spells_and_effects"
 		]
 	},
-	"classes": {
+	"classes_pu": {
 		"name": "Classes",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -9023,7 +9023,7 @@
 		],
 		"siblings": [
 			"loyalties",
-			"classes",
+			"classes_pu",
 			"creatures_spells_and_effects"
 		]
 	},
@@ -9053,7 +9053,7 @@
 		],
 		"siblings": [
 			"loyalties",
-			"classes",
+			"classes_pu",
 			"creatures_spells_and_effects"
 		]
 	},
