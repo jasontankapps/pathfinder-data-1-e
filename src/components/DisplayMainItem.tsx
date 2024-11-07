@@ -105,7 +105,7 @@ const p = (props: MDpProps, tables: Table[]) => {
 	return <p>{children}</p>;
 };
 
-const h1 = (props: MDpProps) => {
+const h1 = (props: MDpProps, prefix: string) => {
 	const { children } = props;
 	let id;
 	let text = children;
@@ -116,7 +116,7 @@ const h1 = (props: MDpProps) => {
 			text = point[1];
 		}
 	}
-	return <IonItemDivider className="mainItem" id={id}><IonLabel>{text}</IonLabel></IonItemDivider>
+	return <IonItemDivider className="mainItem" id={prefix + id}><IonLabel>{text}</IonLabel></IonItemDivider>
 };
 
 const getElementAndUrl = (input: string): [ReactNode, string] => {
@@ -186,7 +186,7 @@ const makeComponents = (tables: Table[], id: string) => {
 		a: (props: MDaProps) => doLink(props, id),
 		li: (props: MDpProps) => li(props, id),
 		p: (props: MDpProps) => p(props, tables),
-		h1,
+		h1: (props: MDpProps) => h1(props, id),
 		h2,
 		h3,
 		h6,

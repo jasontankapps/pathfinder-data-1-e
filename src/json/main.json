@@ -2410,7 +2410,7 @@
 			[
 				"**Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)",
 				"",
-				"Some abilities are not tied to your race, class, or skill-things like particularly quick reflexes that allow you to react to danger more swiftly, the ability to craft magic items, the training to deliver powerful strikes with melee weapons, or the knack for deflecting arrows fired at you. These abilities are represented as feats. While some feats are more useful to certain types of characters than others, and many of them have special prerequisites that must be met before they are selected, as a general rule feats represent abilities outside of the normal scope of your character's race and class. Many of them alter or enhance class abilities or soften class restrictions, while others might apply bonuses to your statistics or grant you the ability to take actions otherwise prohibited to you. By selecting feats, you can customize and adapt your character to be uniquely yours.",
+				"Some abilities are not tied to your race, class, or skill - things like particularly quick reflexes that allow you to react to danger more swiftly, the ability to craft magic items, the training to deliver powerful strikes with melee weapons, or the knack for deflecting arrows fired at you. These abilities are represented as feats. While some feats are more useful to certain types of characters than others, and many of them have special prerequisites that must be met before they are selected, as a general rule feats represent abilities outside of the normal scope of your character's race and class. Many of them alter or enhance class abilities or soften class restrictions, while others might apply bonuses to your statistics or grant you the ability to take actions otherwise prohibited to you. By selecting feats, you can customize and adapt your character to be uniquely yours.",
 				"",
 				"**Prerequisites:** Some feats have prerequisites. Your character must have the indicated ability score, class feature, feat, skill, base attack bonus, or other quality designated in order to select or use that feat. A character can gain a feat at the same level at which he gains the prerequisite.",
 				"",
@@ -2453,7 +2453,7 @@
 			"# Critical Feats ! critical",
 			[
 				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
-				"Critical feats modify the effects of a critical hit by inflicting an additional condition on the victim of the critical hit. Characters without the Critical Mastery feat can only apply the effects of one critical feat to an individual critical hit. Characters with multiple critical feats can decide which feat to apply after the critical hit has been confirmed.",
+				"Critical feats modify the effects of a critical hit by inflicting an additional condition on the victim of the critical hit. Characters without the [Critical Mastery](feat/critical_mastery) feat can only apply the effects of one critical feat to an individual critical hit. Characters with multiple critical feats can decide which feat to apply after the critical hit has been confirmed.",
 				"",
 				"{table0}"
 			],

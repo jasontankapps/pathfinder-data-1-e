@@ -8049,7 +8049,7 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		],
 		"siblings": [
 			"alignment_pu",
@@ -8103,7 +8103,7 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		]
 	},
 	"implementing_esoteric_components": {
@@ -8131,7 +8131,7 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		]
 	},
 	"optional_components": {
@@ -8235,7 +8235,7 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		]
 	},
 	"esoteric_components": {
@@ -8320,7 +8320,7 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		]
 	},
 	"crafting_magic_items": {
@@ -8343,10 +8343,10 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		]
 	},
-	"feats": {
+	"feats_ucp": {
 		"name": "Feats",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -8376,7 +8376,7 @@
 			"scrounging",
 			"esoteric_components",
 			"crafting_magic_items",
-			"feats"
+			"feats_ucp"
 		]
 	},
 	"fractional_base_bonuses": {

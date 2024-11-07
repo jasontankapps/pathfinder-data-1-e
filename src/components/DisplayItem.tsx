@@ -77,6 +77,40 @@ const h2 = (props: MDpProps) => {
 	return <h2>{props.children}</h2>;
 };
 
+const makeId = (input: string) => input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
+
+const h3 = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h3>{children}</h3>;
+	}
+	return <h3 id={prefix + makeId(children)}>{children}</h3>;
+};
+
+const h4 = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h4>{children}</h4>;
+	}
+	return <h4 id={prefix + makeId(children)}>{children}</h4>;
+};
+
+const h5 = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h5>{children}</h5>;
+	}
+	return <h5 id={prefix + makeId(children)}>{children}</h5>;
+};
+
+const h6 = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h6>{children}</h6>;
+	}
+	return <h6 id={prefix + makeId(children)}>{children}</h6>;
+};
+
 const makeComponents = (tables: Table[], id: string) => {
 	return {
 		a: (props: MDaProps) => doLink(props, id),
@@ -84,7 +118,11 @@ const makeComponents = (tables: Table[], id: string) => {
 		p: (props: MDpProps) => p(props, tables),
 		td,
 		table,
-		h2
+		h2,
+		h3: (props: MDpProps) => h3(props, id),
+		h4: (props: MDpProps) => h4(props, id),
+		h5: (props: MDpProps) => h5(props, id),
+		h6: (props: MDpProps) => h6(props, id)
 	};
 };
 
