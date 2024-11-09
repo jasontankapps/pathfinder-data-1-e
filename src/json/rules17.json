@@ -3229,7 +3229,7 @@
 			"",
 			"### Table 7-10: Light Sources and Illumination",
 			"",
-			"| Object | Normal | Increased | Duration |",
+			"| Object/Spell | Normal | Increased | Duration |",
 			"| --- | --- | --- | --- |",
 			"| Candle | n/a[^1] | 5 ft. | 1 hr. |",
 			"| Everburning torch | 20 ft. | 40 ft. | Permanent |",
@@ -3238,15 +3238,10 @@
 			"| Lantern, hooded | 30 ft. | 60 ft. | 6 hr./pint |",
 			"| Sunrod | 30 ft. | 60 ft. | 6 hr. |",
 			"| Torch | 20 ft. | 40 ft. | 1 hr. |",
-			"",
-			"### Magical Light Sources",
-			"",
-			"| Spell | Normal | Increased | Duration |",
-			"| --- | --- | --- | --- |",
-			"| Continual flame | 20 ft. | 40 ft. | Permanent |",
-			"| Dancing lights (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |",
-			"| Daylight | 60 ft.[^2] | 120 ft. | 10 min./level |",
-			"| Light | 20 ft. | 40 ft. | 10 min./level |",
+			"| [Continual flame](spell/continual_flame) | 20 ft. | 40 ft. | Permanent |",
+			"| [Dancing lights](spell/dancing_lights) (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |",
+			"| [Daylight](spell/daylight) | 60 ft.[^2] | 120 ft. | 10 min./level |",
+			"| [Light](spell/light) | 20 ft. | 40 ft. | 10 min./level |",
 			"",
 			"[^1]: A candle does not provide normal illumination, only dim light.",
 			"[^2]: The light for a daylight spell is bright light."
@@ -4974,6 +4969,26 @@
 			"divine_spells",
 			"psychic_magic",
 			"special_abilities"
+		]
+	},
+	"changing_alignments_TEMP__MOVE_THIS_TO_GAMEMASTERY_SOMEWHERE": {
+		"name": "Changing Alignments",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"**Source** [PRPG Core Rulebook pg. 168](source/prpg_core_rulebook)",
+			"",
+			"Alignment is a tool, a convenient shorthand you can use to summarize the general attitude of an NPC, region, religion, organization, monster, or even magic item.",
+			"",
+			"Certain character classes list repercussions for those who don't adhere to a specific alignment, and some spells and magic items have different effects on targets depending on alignment, but beyond that it's generally not necessary to worry too much about whether someone is behaving differently from his stated alignment. In the end, the Game Master is the one who gets to decide if something's in accordance with its indicated alignment, based on the descriptions given previously and his own opinion and interpretation; the only thing the GM needs to strive for is to be consistent as to what constitutes the difference between alignments like chaotic neutral and chaotic evil. There's no hard and fast mechanic by which you can measure alignment; unlike hit points or skill ranks or Armor Class, alignment is solely a label the GM controls.",
+			"",
+			"It's best to let players play their characters as they want. If a player is roleplaying in a way that you, as the GM, think doesn't fit his alignment, let him know that he's acting out of alignment and tell him why - but do so in a friendly manner. If a character wants to change his alignment, let him - in most cases, this should amount to little more than a change of personality, or in some cases, no change at all if the alignment change was more of an adjustment to more accurately summarize how a player, in your opinion, is portraying his character. In some cases, changing alignments can impact a character's abilities; see the class write-ups for details. An [atonement](spell/atonement) spell may be necessary to repair damage done by alignment changes arising from involuntary sources or momentary lapses in personality.",
+			"",
+			"Players who frequently have their characters change alignment should in all likelihood be playing chaotic neutral characters.",
+			"",
+			"***Note:*** GMs may want to check out [this alternate system](rule/changing_alignment_ucp) for keeping track of players' alignments."
+		],
+		"siblings": [
+			"changing_alignments_TEMP__MOVE_THIS_TO_GAMEMASTERY_SOMEWHERE"
 		]
 	}
 }
