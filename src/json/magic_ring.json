@@ -1827,7 +1827,7 @@
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 10,800 gp; **Weight** -",
 			"",
-			"On command, the wearer of this ring can touch it to another ring, magical or mundane, and bind it to the ring of transposition. Once per day, the wearer of the ring of transposition can speak a command word to exchange places with the creature wearing the bonded ring, which must be within 800 feet, as though using a dimension door spell against a willing target. In the process, the ring of transposition trades places with the ring on the other creature's hand, and the bond between the rings is broken. The bonding property of the ring of transposition can be used as often as desired, breaking any existing bond each time it is used. An existing bond can be broken by a successful dispel check against the caster level of the ring.",
+			"On command, the wearer of this ring can touch it to another ring, magical or mundane, and bind it to the ring of transposition. Once per day, the wearer of the ring of transposition can speak a command word to exchange places with the creature wearing the bonded ring, which must be within 800 feet, as though using a [dimension door](spell/dimension_door) spell against a willing target. In the process, the ring of transposition trades places with the ring on the other creature's hand, and the bond between the rings is broken. The bonding property of the ring of transposition can be used as often as desired, breaking any existing bond each time it is used. An existing bond can be broken by a successful dispel check against the caster level of the ring.",
 			"",
 			"### Construction",
 			"",
@@ -2160,7 +2160,7 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 14,000 gp; **Weight** -",
 			"",
-			"This ring is made of a single piece of deep blue crystal. The ring grants its wearer a swim speed of 30 feet, as well as +8 racial bonus on swim checks for having a swim speed. Furthermore, once per day as a swift action, as long as the wearer is in contact with liquid, he can use dimension door as the spell, but its starting and ending points must be connected by a contagious mass of liquid.",
+			"This ring is made of a single piece of deep blue crystal. The ring grants its wearer a swim speed of 30 feet, as well as +8 racial bonus on swim checks for having a swim speed. Furthermore, once per day as a swift action, as long as the wearer is in contact with liquid, he can use [dimension door](spell/dimension_door) as the spell, but its starting and ending points must be connected by a contagious mass of liquid.",
 			"",
 			"### Construction",
 			"",
@@ -2794,7 +2794,7 @@
 			"",
 			"This shining, ash-white ring of bone is crafted to look like countless interlocking rat fangs, set with a dozen dark, garnet eyes like those of albino sewer-hunters. The wearer of this ring can utter a command word to call forth 1d3 rat swarms within 40 feet. These swarms each act immediately and vanish after 7 rounds. They are independent and not under the wearer's control, though the wearer is immune to the effects and attacks of any swarm created through use of this ring.",
 			"",
-			"Alternatively, upon command, the ring's wearer can use dimension door. This magical transportation must begin and end in a square that includes a swarm summoned by use of this ring.",
+			"Alternatively, upon command, the ring's wearer can use [dimension door](spell/dimension_door). This magical transportation must begin and end in a square that includes a swarm summoned by use of this ring.",
 			"",
 			"This ring's abilities can be used a total of three times per day, in any combination. An urban druid wearing this ring can gain one additional use per day by expending three daily uses of her wild shape ability.",
 			"",
@@ -2941,7 +2941,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), dimension door, wall of force; **Cost** 15,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [dimension door](spell/dimension_door), wall of force; **Cost** 15,000 gp"
 		]
 	},
 	"ring_of_resumption": {
@@ -3333,7 +3333,7 @@
 			"**Aura** strong illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 56,160 gp; **Weight** -",
 			"",
-			"This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and subject to an effect similar to mislead. Her illusory double appears to die or to take on the dying condition in her place, as appropriate for the negated effect. The wearer cannot control the double. In addition, the wearer can touch the ring's stone as a standard action once per day to use dimension door but only while the ring's mislead effect is active.",
+			"This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and subject to an effect similar to mislead. Her illusory double appears to die or to take on the dying condition in her place, as appropriate for the negated effect. The wearer cannot control the double. In addition, the wearer can touch the ring's stone as a standard action once per day to use [dimension door](spell/dimension_door) but only while the ring's mislead effect is active.",
 			"",
 			"### Construction",
 			"",

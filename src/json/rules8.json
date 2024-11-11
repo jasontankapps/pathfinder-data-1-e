@@ -162,7 +162,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
 			"",
-			"[In general, a character can sell an item for half its listed price](rule/selling_treasure). This keeps players from getting bogged down in bargaining with NPCs over 10 gp on a 10,000 gp item, and maintains game balance by not allowing players to use bargaining to exceed the [Wealth by Level](rule/placing_treasure) guidelines by buying low and selling high. The \"sell for half\" rule allows a fair price for standard items in normal circumstances.",
+			"[In general, a character can sell an item for half its listed price](rule/wealth_and_money). This keeps players from getting bogged down in bargaining with NPCs over 10 gp on a 10,000 gp item, and maintains game balance by not allowing players to use bargaining to exceed the [Wealth by Level](rule/placing_treasure) guidelines by buying low and selling high. The \"sell for half\" rule allows a fair price for standard items in normal circumstances.",
 			"",
 			"For rare or unique items, or in certain cases, the GM might allow or encourage bargaining. Keep in mind that bargaining usually involves one PC talking with an NPC while the other players wait, and watching someone else bargain is rarely interesting. Bargaining should be infrequent, and should happen only when it's important to the story.",
 			"",
@@ -283,7 +283,7 @@
 			"",
 			"### Trade Goods",
 			"",
-			"[Trade goods](rule/other_wealth) are exempt from bargaining, even in extraordinary circumstances."
+			"[Trade goods](rule/wealth_and_money) are exempt from bargaining, even in extraordinary circumstances."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2954,7 +2954,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
 			"",
-			"Talismanic components are [trade goods](rule/other_wealth) just like gems, wheat, spices, or cloth. Under normal circumstances, you can acquire these materials at the listed cost or sell what you find in a treasure hoard at the listed cost. For example, 500 gp worth of dragon heartblood costs 500 gp in a city, and if you take a flask of dragon heartblood worth 500 gp as your share of treasure, you can sell it in town for 500 gp. If there is a surplus or shortage of a particular component, the price could go up or down, or merchants might be more inclined to [bargain over the price](rule/bargaining) to try to get a better deal.",
+			"Talismanic components are [trade goods](rule/wealth_and_money) just like gems, wheat, spices, or cloth. Under normal circumstances, you can acquire these materials at the listed cost or sell what you find in a treasure hoard at the listed cost. For example, 500 gp worth of dragon heartblood costs 500 gp in a city, and if you take a flask of dragon heartblood worth 500 gp as your share of treasure, you can sell it in town for 500 gp. If there is a surplus or shortage of a particular component, the price could go up or down, or merchants might be more inclined to [bargain over the price](rule/bargaining) to try to get a better deal.",
 			"",
 			"If the GM uses these rules for talismanic components, killing monsters shouldn't suddenly result in more treasure because you can loot suitable parts for components, in the same way that just because wyvern poison costs 3,000 gp doesn't mean that 3,000 gp worth of sellable poison can be obtained from every wyvern. The value of a talismanic component from a monster should be subtracted from the monster's total treasure award for the encounter, or later encounters should award a reduced amount of treasure to make up for the value of the talismanic component.",
 			"",

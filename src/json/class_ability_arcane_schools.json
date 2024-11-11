@@ -117,7 +117,7 @@
 			"",
 			"**Replacement Powers:** The following school power replaces the acid dart power of the conjuration school.",
 			"",
-			"**Shift (Su):** At 1st level, you can teleport to a nearby space as a swift action as if using dimension door. This movement does not provoke an attack of opportunity. You must be able to see the space that you are moving into. You cannot take other creatures with you when you use this ability (except for familiars). You can move 5 feet for every two wizard levels you possess (minimum 5 feet). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+			"**Shift (Su):** At 1st level, you can teleport to a nearby space as a swift action as if using [dimension door](spell/dimension_door). This movement does not provoke an attack of opportunity. You must be able to see the space that you are moving into. You cannot take other creatures with you when you use this ability (except for familiars). You can move 5 feet for every two wizard levels you possess (minimum 5 feet). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 		]
 	},
 	"divination": {
@@ -169,7 +169,7 @@
 			"",
 			"**Replacement Powers:** The following school power replaces the diviner's fortune power of the divination school.",
 			"",
-			"**Send Senses (Sp):** As a standard action, you place a scrying sensor at a point within medium range (100 feet + 10 feet/wizard level) that you can see and have line of effect to. You can see or hear (not both) through this sensor for number of rounds equal to 1/2 your wizard level (minimum 1). The sensor otherwise functions as a clairaudience/clairovoyance spell with a caster level equal to your wizard level. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+			"**Send Senses (Sp):** As a standard action, you place a scrying sensor at a point within medium range (100 feet + 10 feet/wizard level) that you can see and have line of effect to. You can see or hear (not both) through this sensor for number of rounds equal to 1/2 your wizard level (minimum 1). The sensor otherwise functions as a [clairaudience/clairovoyance](spell/clairaudience_clairvoyance) spell with a caster level equal to your wizard level. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 		]
 	},
 	"enchantment": {
@@ -272,7 +272,7 @@
 			"",
 			"**Blinding Ray (Sp):** As a standard action you can fire a shimmering ray at any foe within 30 feet as a ranged touch attack. The ray causes creatures to be blinded for 1 round. Creatures with more Hit Dice than your wizard level are dazzled for 1 round instead. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
 			"",
-			"**Invisibility Field (Sp):** At 8th level, you can make yourself invisible as a swift action for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This otherwise functions as greater invisibility.",
+			"**Invisibility Field (Sp):** At 8th level, you can make yourself invisible as a swift action for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This otherwise functions as [greater invisibility](spell/greater_invisibility).",
 			"",
 			"### Deception School",
 			"",

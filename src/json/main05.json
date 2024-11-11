@@ -654,7 +654,7 @@
 			"## main/equipment_poisons Poisons // (144 items)",
 			"## main/equipment_siegeengines Siege Engines // (57 items)",
 			"# Other Equipment",
-			"## main/equipment_reagents Alchemical Items // (356 items)",
+			"## main/equipment_alchemical Alchemical Items // (356 items)",
 			"## main/equipment_adventuring_gear Adventuring Gear // (442 items)",
 			"## main/equipment_tools Tools // (168 items)",
 			"## main/equipment_mounts_pets Mounts and Pets // (217 items)",
@@ -2904,7 +2904,7 @@
 			}
 		]
 	},
-	"equipment_reagents": {
+	"equipment_alchemical": {
 		"title": "Alchemical Items",
 		"sources": [
 			"Adventurer's Armory",

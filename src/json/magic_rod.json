@@ -419,7 +419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), dimension door, lightning bolt, resist energy; **Cost** 6,000 gp"
+			"**Requirements** [Craft Rod](feat/craft_rod), [dimension door](spell/dimension_door), lightning bolt, resist energy; **Cost** 6,000 gp"
 		]
 	},
 	"grounding_rod": {
@@ -3848,7 +3848,7 @@
 			"",
 			"This copper rod is made up of constantly grinding gearlike parts. It is believed that these rods may be some alternate or lesser form of harbinger archons. T he rod can take may useful forms, and after 24 hours in the possession of a lawful good creature, the wielder can command it to take the form of any tool, including a chime of opening. Very intelligent and witty, these rods communicate with their wielders in truespeech (see [archon subtype](subtype/archon)) or Celestial. Furthermore, the rod has the following powers.",
 			"",
-			"- Three times per day, on command, the rod's wielder can use dimension door, as the spell.",
+			"- Three times per day, on command, the rod's wielder can use [dimension door](spell/dimension_door), as the spell.",
 			"- Once per day, on command, the rod can emit a blast of energy that deals 2d6 points of force damage to creatures adjacent to the wielder. A successful DC 12 Reflex save halves the damage. The wielder can choose to omit any target from this blast that it desires, damaging only the foes it chooses.",
 			"",
 			"The rod's purpose is to destroy or foil the plans of chaotic evil creatures.",

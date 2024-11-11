@@ -5164,7 +5164,7 @@
 			"**Source** [Ultimate Combat pg. 95](source/ultimate_combat)",
 			"",
 			"Teleportation does not faze you.  ",
-			"**Prerequisites:** Ability to use the abundant step class feature or cast dimension door.  ",
+			"**Prerequisites:** Ability to use the abundant step class feature or cast [dimension door](spell/dimension_door).  ",
 			"**Benefit:** After using abundant step or casting dimension door, you can take any actions you still have remaining on your turn. You also gain a +4 bonus on Concentration checks when casting teleportation spells."
 		]
 	},
@@ -5177,7 +5177,7 @@
 			"**Source** [Ultimate Combat pg. 95](source/ultimate_combat)",
 			"",
 			"You have been trained to use magical movement as part of your combat tactics.  ",
-			"**Prerequisites:** Ability to use the abundant step class feature or cast dimension door, [Dimensional Agility](feat/dimensional_agility).  ",
+			"**Prerequisites:** Ability to use the abundant step class feature or cast [dimension door](spell/dimension_door), [Dimensional Agility](feat/dimensional_agility).  ",
 			"**Benefit:** As a full-round action, you use abundant step or cast dimension door as a special charge. Doing so allows you to teleport up to double your current speed (up to the maximum distance allowed by the spell or ability) and to make the attack normally allowed on a charge."
 		]
 	},
@@ -5204,7 +5204,7 @@
 			"**Source** [Ultimate Combat pg. 96](source/ultimate_combat)",
 			"",
 			"You teleport with a mere thought, savaging your opponents as you flash in and out of reality.  ",
-			"**Prerequisites:** Ability to use the abundant step class feature or cast dimension door, [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), base attack bonus +6.  ",
+			"**Prerequisites:** Ability to use the abundant step class feature or cast [dimension door](spell/dimension_door), [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), base attack bonus +6.  ",
 			"**Benefit:** You can take a full-attack action, activating abundant step or casting dimension door as a swift action. If your do, you can teleport up to twice your speed (up to the maximum distance allowed by the spell or ability), dividing this teleportation into increments you use before your first attack, between each attack, and after your last attack. You must teleport at least 5 feet each time you teleport.  ",
 			"**Special:** A monk can use additional points from his ki pool to increase his speed before determining the total speed for this teleportation."
 		]
@@ -5232,7 +5232,7 @@
 			"**Source** [Ultimate Combat pg. 96](source/ultimate_combat)",
 			"",
 			"Your rapid teleportation makes your combat maneuvers more difficult to avoid.  ",
-			"**Prerequisites:** Ability to use the abundant step class feature or cast dimension door, [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), [Dimensional Dervish](feat/dimensional_dervish), base attack bonus +9.  ",
+			"**Prerequisites:** Ability to use the abundant step class feature or cast [dimension door](spell/dimension_door), [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), [Dimensional Dervish](feat/dimensional_dervish), base attack bonus +9.  ",
 			"**Benefit:** While using the Dimensional Dervish feat, you gain a +4 bonus on combat maneuver checks to bull rush, disarm, reposition, or trip an opponent."
 		]
 	},
@@ -5245,7 +5245,7 @@
 			"**Source** [Ultimate Combat pg. 96](source/ultimate_combat)",
 			"",
 			"You flash into and out of reality so quickly it is impossible to tell exactly where you are at any given time.  ",
-			"**Prerequisites:** [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), [Dimensional Dervish](feat/dimensional_dervish), ability to use the abundant step class feature or cast dimension door, base attack bonus +9.  ",
+			"**Prerequisites:** [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), [Dimensional Dervish](feat/dimensional_dervish), ability to use the abundant step class feature or cast [dimension door](spell/dimension_door), base attack bonus +9.  ",
 			"**Benefit:** While using the Dimensional Dervish feat, you provide flanking from all squares you attack from. Flanking starts from the moment you make an attack until the start of your next turn. You can effectively flank with yourself and with multiple allies when using this feat."
 		]
 	},
@@ -5258,7 +5258,7 @@
 			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunter's_handbook)",
 			"",
 			"Even teleportation cannot keep you from confronting your foe.  ",
-			"**Prerequisites:** [Dimensional Agility](feat/dimensional_agility), [Step Up](feat/step_up), base attack bonus +12, abundant step class feature or ability to cast dimension door.  ",
+			"**Prerequisites:** [Dimensional Agility](feat/dimensional_agility), [Step Up](feat/step_up), base attack bonus +12, abundant step class feature or ability to cast [dimension door](spell/dimension_door).  ",
 			"**Benefit:** Once per day, when an adjacent foe moves using a teleportation spell, spell-like ability, or similar ability (including effects like a shadowdancer's shadow jump ability), you can follow the creature as an immediate action. This ability has no range limit; you simply appear adjacent to the target wherever its destination happens to be. You cannot use this ability to travel to another plane. This feat does not provide you any means of returning, nor does it grant you knowledge of where your foe is going."
 		]
 	},

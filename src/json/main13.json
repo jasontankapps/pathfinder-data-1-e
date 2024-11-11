@@ -3,15 +3,7 @@
 		"title": "Feats - Meditation",
 		"sources": [ "Faiths and Philosophies" ],
 		"searchgroup": "feat",
-		"description": [
-			[
-				"**Description Source** [Faiths and Philosophies pg. 19](source/faiths_and_philosophies)  ",
-				"Meditation provides some of the advantages of a monastic refuge anywhere. While meditation can help any character center herself or calm a troubled mind, those specially trained in the art can use it to unlock fantastic abilities within themselves, reflected in the following feats. These feats can be taken by any character who meets the prerequisites, but are most commonly encountered among those who have trained in a monastery.",
-				"",
-				"**Monks and Meditation Feats:** A monk may take a meditation feat in place of a bonus feat. She must meet all of the prerequisites to take the feat as normal."
-			],
-			[ "{table0}" ]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -41,46 +33,11 @@
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
-	"feats_mastery": {
-		"title": "Feats - Mastery",
+	"feats_weapon_mastery": {
+		"title": "Feats - Weapon Mastery",
 		"sources": [],
 		"searchgroup": "feat",
-		"tags": "weapon mastery armor mastery shield mastery item mastery",
-		"description": [
-			"# Weapon Mastery Feats",
-			[
-				"**Description Source** [Weapon Master's Handbook pg. 20](source/weapon_master's_handbook)  ",
-				"Although most combat techniques are general enough to be categorized as combat feats, some require such a high level of martial skill that they are instead categorized as weapon mastery feats. Weapon mastery feats count as combat feats for all purposes, including which classes can select them as bonus feats, and you gain the benefits of a weapon mastery feat only while wielding a weapon that belongs to a fighter weapon group that you have selected with the fighter weapon training class feature (referred to hereafter as an \"appropriate weapon\"), and any effect of these feats related to attacks applies only to attacks from such weapons unless the feat specifies otherwise. Characters who lack the weapon training class feature can access weapon mastery feats by taking the Martial Focus feat below."
-			],
-			[ "{table0}" ],
-			"# Armor Mastery Feats",
-			[
-				"**Description Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)  ",
-				"Armor mastery feats are a new type of feat that require armor training as a prerequisite. They count as combat feats for all purposes, including which classes can select them as bonus feats. You gain the benefits of an armor mastery feat only while wearing armor with which you are proficient and only while wearing a type of armor that matches the feat's armor proficiency feat prerequisite, if any. Armor mastery feats without armor proficiency prerequisites can be used while wearing any suit of armor. Characters who lack the armor training class feature can access armor mastery feats by taking the Armor Focus feat, presented below.",
-				"",
-				"{table1}"
-			],
-			"# Shield Mastery Feats",
-			[
-				"**Description Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)  ",
-				"To some combatants shields are just as important, if not more so, than weapons or armor. Shields are multipurpose, capable of defense or offense. They slide on and off far faster than armor, and allow adventurers to change their tactics on a whim.",
-				"",
-				"A handful of specialists train to maximize a shield's use in battle. Presented here are new feats categorized as shield mastery feats, each requiring [Shield Focus](feat/shield_focus) as a prerequisite. Characters with the armor training class feature can ignore the Shield Focus feat as a prerequisite for shield mastery feats. Shield mastery feats count as combat feats for all purposes, including which classes can select them as bonus feats. You gain the benefits of a shield mastery feat only while wielding a shield with which you are proficient. Characters with the Shield Focus feat also qualify for the [Improved Shield Focus](feat/improved_shield_focus) feat below.",
-				"",
-				"{table2}"
-				],
-			"# Item Mastery Feats",
-			[
-				"**Description Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)  ",
-				"Using an item mastery feat is a standard action that doesn't provoke attacks of opportunity, similar to activating a command word item, though you do not need to speak to use the feat. Creating these effects requires you to assault the existing magic of the item through your force of will and channel the item's inherent magic through your own body; This act is thus governed by the user's fortitude. All effects created by item mastery feats act as spell-like abilities and use your base attack bonus as the caster level. Any spell-like ability's save DC is equal to 10 + the spell level + your Constitution modifier. If a spell-like ability calls for a calculation using your Intelligence, Wisdom, or Charisma bonus or modifier, use your Constitution bonus or modifier instead.",
-				"",
-				"Magic item mastery is stressful for the item as well as the user and can't be performed on items that can be used only a limited number of times or that must be recharged (such as elixirs, potions, scrolls, staffs, and wands)-it requires items with constant effects or daily uses. Magic item mastery doesn't affect an item's normal properties or deplete any of its daily uses.",
-				"",
-				"The following magic item mastery feats are available to any character who qualifies.",
-				"",
-				"{table3}"
-			]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -109,7 +66,16 @@
 					[ [ "feat/weapon_material_mastery", "Weapon Material Mastery" ], "Base attack bonus +7, weapon training class feature with a melee weapon.", "Perform impressive deeds with weapons made of special materials" ],
 					[ [ "feat/weapon_style_mastery", "Weapon Style Mastery" ], "Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon.", "Have two weapon styles active at once" ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_armor_mastery": {
+		"title": "Feats - Armor Mastery",
+		"sources": [],
+		"searchgroup": "feat",
+		"description": [ "{table0}" ],
+		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
@@ -131,7 +97,16 @@
 					[ [ "feat/secured_armor", "Secured Armor" ], "Base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium or heavy armor.", "25% chance to negate a critical hit or sneak attack" ],
 					[ [ "feat/sprightly_armor", "Sprightly Armor" ], "Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with light armor.", "Gain your armor's enhancement bonus to initiative" ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_shield_mastery": {
+		"title": "Feats - Shield Mastery",
+		"sources": [],
+		"searchgroup": "feat",
+		"description": [ "{table0}" ],
+		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
@@ -156,7 +131,16 @@
 					[ [ "feat/tower_shield_specialist", "Tower Shield Specialist" ], "[Shield Focus](feat/shield_focus), [Tower Shield Proficiency](feat/tower_shield_proficiency), base attack bonus +11 or fighter level 8th.", "Reduce the armor check penalty of a tower shield" ],
 					[ [ "feat/unhindering_shield", "Unhindering Shield" ], "[Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th, proficiency with bucklers.", "Treat your buckler hand as free for all purposes" ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_item_mastery": {
+		"title": "Feats - Item Mastery",
+		"sources": [],
+		"searchgroup": "feat",
+		"description": [],
+		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
@@ -194,31 +178,7 @@
 		"title": "Feats - Monster",
 		"sources": [ "Horror Adventures" ],
 		"searchgroup": "feat",
-		"description": [
-			[
-				"**Description Source** [Horror Adventures pg. 78](source/horror_adventures)  ",
-				"Monster feats were introduced in *Pathfinder RPG Bestiary*, though without a separate tag (all feats in Bestiary are monster feats except [Craft Construct](feat/craft_construct)). Most of these feats apply specifically to monsters and might grant abilities that could be disruptive in the hands of PCs, although with the GM's permission PCs can take one of these feats if they meet the prerequisites.",
-				"",
-				"Some monster feats allow a creature to apply metamagic feat-like effects to its spell-like abilities. You can select a spell-like ability duplicating a spell with a level less than or equal to 1/2 the monster's caster level (round down) - 1 or 2, depending on the ability. The table below summarizes these feats and what spell-like abilities they can affect by caster level.",
-				"",
-				"| Spell Level | Caster Level[^1] | Caster Level[^2] |",
-				"| --- | --- | --- |",
-				"| 0 | 2nd | 4th |",
-				"| 1st | 4th | 6th |",
-				"| 2nd | 6th | 8th |",
-				"| 3rd | 8th | 10th |",
-				"| 4th | 10th | 12th |",
-				"| 5th | 12th | 14th |",
-				"| 6th | 14th | 16th |",
-				"| 7th | 16th | 18th |",
-				"| 8th | 18th | 20th |",
-				"| 9th | 20th | &mdash; |",
-				"",
-				"[^1]: Bouncing, disruptive, intensified, lingering, or scarring ability.",
-				"[^2]: Fearsome, sickening, or traumatic ability."
-			],
-			[ "{table0}" ]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -262,33 +222,10 @@
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_teamwork": {
-		"title": "Feats - Teamwork, etc",
+		"title": "Feats - Teamwork",
 		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
-		"description": [
-			"# Teamwork Feats",
-			[
-				"**Description Source** [Advanced Player's Guide pg. 150](source/advanced_player's_guide)  ",
-				"Teamwork feats grant large bonuses, but they only function under specific circumstances. In most cases, these feats require an ally who also possesses the feat to be positioned carefully on the battlefield.",
-				"",
-				"Teamwork feats provide no bonus if the listed conditions are not met. Note that allies who are paralyzed, stunned, unconscious, or otherwise unable to act do not count for the purposes of these feats."
-			],
-			[ "{table0}" ],
-			"# Betrayal Feats",
-			[
-				"**Description Source** [Champions of Corruption pg. 22](source/champions_of_corruption)  ",
-				"\"Teamwork\" is a relative term. Many villains don't concern themselves with collateral damage and make their plans with exceeding ruthlessness. Presented below are several teamwork feats with the common theme of reaping a benefit at your allies' expense. All of these feats refer to an initiator and an abettor. The initiator is the one activating the feat (also referred to as \"you\") and the abettor is an ally who also has the feat and whose presence and (perhaps unwilling) sacrifice allows the feat to take effect. Choosing one of these feats effectively grants consent for an ally with the same feat to harm you in combat, and vice versa, but evil characters are often willing to take big risks to get the upper hand. Some recruit devoted minions specifically to use in this way. Characters with class abilities granting allies access to teamwork feats (such as cavaliers or inquisitors) can select these teamwork feats normally, but allies who are granted these feats can use the feats only as initiators, not as abettors. An inquisitor could not grant an ally the Ally Shield feat and then use the ally as a shield, for example, but he could allow that ally to use him as a shield.",
-				"",
-				"{table1}"
-			],
-			"# Coven Feats",
-			[
-				"**Description Source** [Blood of the Coven pg. 13](source/blood_of_the_coven)  ",
-				"Two of the feats below are coven feats, special teamwork feats whose effects require three participants. While such feats often represent the connection between coven members and refer to the group as a coven, any group of three individuals who meet the prerequisites can select these feats.",
-				"",
-				"{table2}"
-			]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -489,7 +426,16 @@
 					[ [ "feat/wild_flanking", "Wild Flanking" ], "[Power Attack](feat/power_attack), base attack bonus +4.", "Hit an enemy with stronger power attacks, but risk damaging your allies" ],
 					[ [ "feat/wounded_paw_gambit", "Wounded Paw Gambit" ], "[Broken Wing Gambit](feat/broken_wing_gambit), Bluff 5 ranks.", "When you use Broken Wing Gambit, nearby allies can attempt a ranged attack against the attacker" ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_betrayal": {
+		"title": "Feats - Betrayal",
+		"sources": [ "Advanced Player's Guide" ],
+		"searchgroup": "feat",
+		"description": [ "{table0}" ],
+		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
@@ -506,7 +452,16 @@
 					[ [ "feat/splash_volley", "Splash Volley" ], "Base attack bonus +1.", "Allies can help to redirect missed splash weapons nearby" ],
 					[ [ "feat/wild_flanking", "Wild Flanking" ], "[Power Attack](feat/power_attack), base attack bonus +4.", "Hit an enemy with stronger power attacks, but risk damaging your allies" ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_coven": {
+		"title": "Feats - Teamwork, etc",
+		"sources": [ "Advanced Player's Guide" ],
+		"searchgroup": "feat",
+		"description": [ "{table0}" ],
+		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
@@ -523,28 +478,37 @@
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
-	"feats_mesmerist": {
+	"feats_trick": {
 		"title": "Feats - Stare/Trick",
 		"searchgroup": "feat",
-		"sources": [
-			"Occult Adventures",
-			"Psychic Anthology"
+		"sources": [],
+		"description": [ "{table0}" ],
+		"tables": [
+			{
+				"headers": [ "Feat", "Prerequisites", "Description" ],
+				"types": [ null, null, 0 ],
+				"initialColumn": 0,
+				"nullValue": "",
+				"className": "plain",
+				"id": "Trick feats table",
+				"ripples": [0],
+				"data": [
+					[ [ "feat/bouncing_trick", "Bouncing Trick" ], "Mesmerist trick class feature.", "Triggered trick jumps to new target" ],
+					[ [ "feat/contingent_trick", "Contingent Trick" ], "Any two trick feats.", "Implant a flexible trick that has multiple options" ],
+					[ [ "feat/reflexive_trick", "Reflexive Trick" ], "Mesmerist tricks class feature.", "Implant a new trick in yourself when you trigger a trick" ],
+					[ [ "feat/spell_trick", "Spell Trick" ], "Masterful tricks class feature, ability to cast 4th-level mesmerist spells.", "Implant one of your spells as a trick" ],
+					[ [ "feat/split_trick", "Split Trick" ], "Mesmerist trick class feature.", "Split a trick among two creatures" ],
+					[ [ "feat/swap_trick", "Swap Trick" ], "Mesmerist tricks class feature.", "Switch which trick is implanted" ]
+				]
+			}
 		],
-		"description": [
-			"# Stare Feats",
-			[
-				"**Description Source** [Occult Adventures pg. 128](source/occult_adventures)  ",
-				"Stare feats allow a mesmerist to apply additional effects to his painful stare ability. Characters without the [Compounded Pain](feat/compounded_pain) feat can apply the effects of only one stare feat to an individual attack; A mesmerist with multiple stare feats must choose which to apply before the damage roll is made."
-			],
-			[ "{table0}" ],
-			"# Trick Feats",
-			[
-				"**Description Source** [Psychic Anthology pg. 16](source/psychic_anthology)  ",
-				"This section introduces trick feats, a new type of feat that allows mesmerists-as well as other characters capable of taking mesmerist tricks-to modify their tricks by altering or expanding how they can be used. A target can be implanted with only one mesmerist trick that has been modified by a trick feat at a time, and a single mesmerist trick can be modified by only one trick feat.",
-				"",
-				"{table1}"
-			]
-		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_stare": {
+		"title": "Feats - Stare/Trick",
+		"searchgroup": "feat",
+		"sources": [],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -597,42 +561,7 @@
 		"title": "Feats - Story",
 		"sources": [ "Ultimate Campaign" ],
 		"searchgroup": "feat",
-		"description": [
-			[
-				"**Description Source** [Ultimate Campaign pg. 66](source/ultimate_campaign)  ",
-				"A story feat reflects a goal-often an all-consuming one-that shapes your life. Each story feat incorporates a trigger event (which comes from either a campaign occurrence or your background), an immediate benefit, a goal, and a further benefit for achieving that goal.",
-				"",
-				"Story feats are marked with the story keyword. Each feat has at least two possible prerequisites, representing conditions most likely met during play or a background that fits the feat (see [Backgrounds](rule/character_background)). You need to meet only one of these prerequisites. Anytime you gain a new feat, you may take a story feat, but you can have only one uncompleted story feat at a time. Story feats are designed for PCs, but can be taken by NPCs and monsters as well.",
-				"",
-				"Unlike typical feats, story feats have nebulous prerequisites, and you should chose one only after talking with the GM. The GM should weave a story feat into the greater story of the campaign and even adjust it as needed to fit the campaign's long-term goals and the specifics of your background. Story feats should work organically within the story of the campaign, rather than be chosen purely for their mechanical benefits.",
-				"",
-				"Like the prerequisites, the completion conditions for a story feat might require GM adjudication. If the events of the campaign are not likely to resolve the story implied by the story feat, the GM should consider shifting the goal to something you can achieve. Establishing a meaningful story arc is more important than adhering to the letter of the feat.",
-				"",
-				"Because a story feat represents both your motivation and character development, the GM should make an effort to incorporate elements related to the feat into the ongoing campaign. These can be direct elements, like the appearance of a villain or hated creature, or indirect elements, such as rumors of the fate of a lost relative or NPCs who are impressed by a PC's artistic endeavors. A good rule of thumb is to work in a reference to each PC's story feat once every three to five sessions.",
-				"",
-				"In most cases, allies can assist in completing a story feat. At the GM's discretion, if you do not take a leadership role in tasks or conflicts related to your own story feat, you might need to complete additional goals to resolve the story feat, or might even be denied completion altogether."
-			],
-			"# Common Rules",
-			[
-				"Many story feats share similar terminology in their prerequisites and completion conditions. The following terms have special meanings when used in story feats.",
-				"",
-				"**Appropriate Number:** These are either creatures whose individual CRs add up to 20, or creatures whose individual CRs add up to 5 times your character level, whichever is greater. For example, if you're at 6th level, an appropriate number of creatures have CRs that add up to 30. This calculation is based on your current character level, not the level at which you selected the story feat. Overly easy challenges (encounters with CRs of 3 or more below your character level) don't count unless circumstances make them much more difficult to handle.",
-				"",
-				"**Challenging Foe:** This is a foe or group of foes with a total CR of 10 or a CR of 3 plus your character level, whichever is higher. If this refers to a distinct individual, the foe's CR is set when the feat is taken, but the foe advances in power as you do. Otherwise, it refers to your current level. A typical recurring foe advances in CR by 1 for every 1-2 levels you gain.",
-				"",
-				"**Character's Level:** Normally, this is your actual character level. If you're a creature best represented by CR rather than character level (such as most monsters with more than 1 HD), use your calculated CR instead of your character level.",
-				"",
-				"**Decisively Defeat:** You overcome a foe in some way, such as by killing the creature, knocking it unconscious, or causing it to be taken prisoner. You must be a significant participant in the conflict to defeat the opponent, even if another strikes the final blow. Whether or not merely causing the enemy to flee qualifies is up to the GM. Generally, driving off an enemy while causing little actual harm does not qualify as a decisive defeat.",
-				"",
-				"**Slay:** Slaying a foe includes killing it, destroying it, turning it to stone, banishing it to the Abyss, or otherwise eliminating it in a fashion reversible only by powerful magic. Unless otherwise noted, you must deal the final blow yourself to slay a creature.",
-				"",
-				"**Thwart:** Distinct from defeating a foe, thwarting a foe involves disrupting its plans in a substantial and essentially permanent fashion. Deposing a lord, bringing down a priest's temple, or banishing a sorcerer to the depths of Hell all qualify as thwarting. You keep any benefits gained by thwarting a foe even if it survives defeat and returns more powerful than before. You must be a significant participant in the events that lead to your foe being thwarted for your actions to count toward fulfilling a story requirement."
-			],
-			"# Story Feats and Stacking",
-			[ "Most story feat bonuses are untyped, and stack with almost any other bonus. However, if you have multiple story feats, their untyped bonuses do not stack with each other. For example, if two story feats gave you a bonus on saving throws, you would add only the higher bonus." ],
-			"---",
-			[ "{table0}" ]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -728,17 +657,7 @@
 		"title": "Feats - Style",
 		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
-		"description": [
-			[ "[Jump to the table](#stylefeatstable)" ],
-			[
-				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
-				"For centuries, great warriors have looked to nature and the multiverse to find inspiration in battle. Countless monastic and contemplative orders have crafted intricate unarmed fighting styles based on the deadliness and grace of natural and supernatural creatures. Although many such fighting techniques were created by secretive orders, they have since spread to practitioners the world over.",
-				"",
-				"As a swift action, you can enter the stance employed by the fighting style a style feat embodies. Although you cannot use a style feat before combat begins, the style you are in persists until you spend a swift action to switch to a different combat style. You can use a feat that has a style feat as a prerequisite only while in the stance of the associated style. For example, if you have feats associated with Mantis Style and Tiger Style, you can use a swift action to adopt Tiger Style at the start of one turn, and then can use other feats that have Tiger Style as a prerequisite. By using another swift action at the start of your next turn, you could adopt Mantis Style and use other feats that have Mantis Style as a prerequisite."
-			],
-			"# Table ! stylefeatstable",
-			[ "{table0}" ]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -844,70 +763,55 @@
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
-	"feats_metamagic": {
-		"title": "Feats - Metamagic/Item Creation",
-		"sources": [ "PRPG Core Rulebook" ],
+	"feats_item_creation": {
+		"title": "Feats - Item Creation",
 		"searchgroup": "feat",
-		"description": [
-			[ "[Jump to Table of Metamagic Feats](#metamagicfeats)" ],
-			[ "[Jump to Item Creation Feats](#itemcreationsection)" ],
-			[ "[Jump to Table of Item Creation Feats](#itemcreationfeats)" ],
-			"# Metamagic Feats",
-			[
-				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
-				"As a spellcaster's knowledge of magic grows, he can learn to cast spells in ways slightly different from the norm. Preparing and casting a spell in such a way is harder than normal but, thanks to metamagic feats, is at least possible. Spells modified by a metamagic feat use a spell slot higher than normal. This does not change the level of the spell, so the DC for saving throws against it does not go up. Metamagic feats do not affect spell-like abilities.",
-				"",
-				"**Wizards and Divine Spellcasters:** Wizards and divine spellcasters must prepare their spells in advance. During preparation, the character chooses which spells to prepare with metamagic feats (and thus which ones take up higher-level spell slots than normal).",
-				"",
-				"**Sorcerers and Bards:** Sorcerers and bards choose spells as they cast them. They can choose when they cast their spells whether to apply their metamagic feats to improve them. As with other spellcasters, the improved spell uses up a higher-level spell slot. Because the sorcerer or bard has not prepared the spell in a metamagic form in advance, he must apply the metamagic feat on the spot. Therefore, such a character must also take more time to cast a metamagic spell (one enhanced by a metamagic feat) than he does to cast a regular spell. If the spell's normal casting time is a standard action, casting a metamagic version is a full-round action for a sorcerer or bard. (This isn't the same as a 1-round casting time.) The only exception is for spells modified by the [Quicken Spell](feat/quicken_spell) metamagic feat, which can be cast as normal using the feat.",
-				"",
-				"For a spell with a longer casting time, it takes an extra full-round action to cast the spell.",
-				"",
-				"**Spontaneous Casting and Metamagic Feats:** A cleric spontaneously casting a cure or inflict spell, or a druid spontaneously casting a summon nature's ally spell, can cast a metamagic version of it instead. Extra time is also required in this case. Casting a standard action metamagic spell spontaneously is a full-round action, and a spell with a longer casting time takes an extra full-round action to cast. The only exception is for spells modified by the Quicken Spell feat, which can be cast as a swift action.",
-				"",
-				"**Effects of Metamagic Feats on a Spell:** In all ways, a metamagic spell operates at its original spell level, even though it is prepared and cast using a higher-level spell slot. Saving throw modifications are not changed unless stated otherwise in the feat description.",
-				"",
-				"The modifications made by these feats only apply to spells cast directly by the feat user. A spellcaster can't use a metamagic feat to alter a spell being cast from a wand, scroll, or other device.",
-				"",
-				"Metamagic feats that eliminate components of a spell don't eliminate the attack of opportunity provoked by casting a spell while threatened. Casting a spell modified by Quicken Spell does not provoke an attack of opportunity.",
-				"",
-				"Metamagic feats cannot be used with all spells. See the specific feat descriptions for the spells that a particular feat can't modify.",
-				"",
-				"**Multiple Metamagic Feats on a Spell:** A spellcaster can apply multiple metamagic feats to a single spell. Changes to its level are cumulative. You can't apply the same metamagic feat more than once to a single spell.",
-				"",
-				"**Magic Items and Metamagic Spells:** With the right item creation feat, you can store a metamagic version of a spell in a scroll, potion, or wand. Level limits for potions and wands apply to the spell's higher spell level (after the application of the metamagic feat). A character doesn't need the metamagic feat to activate an item storing a metamagic version of a spell.",
-				"",
-				"**Counterspelling Metamagic Spells:** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to [counterspelling](rule/counterspells) or its ability to counterspell another spell."
-			],
-			"# Table of Metamagic Feats ! itemcreationsection",
-			[ "{table0}" ],
-			"# Item Creation Feats",
-			[
-				"**Description Source** [PRPG Core Rulebook pg. 112](source/prpg_core_rulebook)  ",
-				"An item creation feat lets a character create a magic item of a certain type. Regardless of the type of item each involves, the various item creation feats all have certain features in common.",
-				"",
-				"**Raw Materials Cost:** The cost of creating a magic item equals half the base price of the item.",
-				"",
-				"Using an item creation feat also requires access to a laboratory or magical workshop, special tools, and so on. A character generally has access to what he needs unless unusual circumstances apply.",
-				"",
-				"**Time:** The time to create a magic item depends on the feat and the cost of the item.",
-				"",
-				"**Item Cost:** Brew Potion, Craft Staff, Craft Wand, and Scribe Scroll create items that directly reproduce spell effects, and the power of these items depends on their caster level-that is, a spell from such an item has the power it would have if cast by a spellcaster of that level. The price of these items (and thus the cost of the raw materials) also depends on the caster level. The caster level must be low enough that the spellcaster creating the item can cast the spell at that level. To find the final price in each case, multiply the caster level by the spell level, then multiply the result by a constant, as shown below:",
-				"",
-				"- Scrolls: Base price = spell level &times; caster level &times; 25 gp.",
-				"- Potions: Base price = spell level &times; caster level &times; 50 gp.",
-				"- Wands: Base price = spell level &times; caster level &times; 750 gp.",
-				"- Staves: The price for staves is calculated using [more complex formulas](rule/creating_staves).",
-				"",
-				"A 0-level spell is considered to have a spell level of 1/2 for the purpose of this calculation.",
-				"",
-				"**Extra Costs:** Any potion, scroll, or wand that stores a spell with a costly material component also carries a commensurate cost. For potions and scrolls, the creator must expend the material component cost when creating the item. For a wand, the creator must expend 50 units of the material component. Some magic items similarly incur extra costs in material components, as noted in their descriptions.",
-				"",
-				"**Skill Check:** Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See [Magic Item Creation](rule/magic_item_creation) for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item. See Magic Items for more details."
-			],
-			"# Table of Item Creation Feats ! itemcreationfeats",
-			[ "{table1}" ]
+		"description": [ "{table0}" ],
+		"tables": [
+			{
+				"headers": [ "Feat", "Prerequisites", "Description" ],
+				"types": [ null, null, 0 ],
+				"initialColumn": 0,
+				"nullValue": "",
+				"className": "plain",
+				"id": "Item Creation feats table",
+				"ripples": [0],
+				"data": [
+					[ [ "feat/aligned_crafting", "Aligned Crafting" ], "Craft Magic Arms and Armor or Craft Wondrous Item.", "Create magic items infused with your alignment" ],
+					[ [ "feat/brew_potion", "Brew Potion" ], "Caster level 3rd.", "Create magic potions" ],
+					[ [ "feat/craft_construct", "Craft Construct" ], "Caster level 5th, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item).", "Learn how to craft constructs." ],
+					[ [ "feat/craft_magic_arms_and_armor", "Craft Magic Arms and Armor" ], "Caster level 5th.", "Create magic armors, shields, and weapons" ],
+					[ [ "feat/craft_ooze", "Craft Ooze" ], "[Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), Craft (alchemy) 3 ranks, caster level 5th.", "You can use alchemy to create dangerous ooze creatures" ],
+					[ [ "feat/craft_poppet", "Craft Poppet" ], "Caster level 1st.", "Create poppets" ],
+					[ [ "feat/craft_rod", "Craft Rod" ], "Caster level 9th.", "Create magic rods" ],
+					[ [ "feat/craft_shadow_piercing", "Craft Shadow Piercing" ], "Craft (jewelry) 5 ranks, caster level 5th.", "Learn to craft magical piercings infused with shadow" ],
+					[ [ "feat/craft_staff", "Craft Staff" ], "Caster level 11th.", "Create magic staves" ],
+					[ [ "feat/craft_wand", "Craft Wand" ], "Caster level 5th.", "Create magic wands" ],
+					[ [ "feat/craft_wondrous_item", "Craft Wondrous Item" ], "Caster level 3rd.", "Create magic wondrous items" ],
+					[ [ "feat/create_enhanced_firearm", "Create Enhanced Firearm" ], "[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); Craft (weapons) 1 rank or [Gunsmithing](feat/gunsmithing).", "Firearms you create are less likely to misfire" ],
+					[ [ "feat/cultivate_magic_plants", "Cultivate Magic Plants" ], "[Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), Knowledge (nature) 1 rank.", "Grow magical plants" ],
+					[ [ "feat/demon_grafter", "Demon Grafter" ], "[Demonologist](feat/demonologist), Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.", "Learn how to implant demonic tissue into mortal flesh" ],
+					[ [ "feat/fleshwarper", "Fleshwarper" ], "Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.", "Create fleshwarped creatures and items" ],
+					[ [ "feat/forge_ring", "Forge Ring" ], "Caster level 7th.", "Create magic rings" ],
+					[ [ "feat/grisly_ornament", "Grisly Ornament" ], "[Harvest Parts](feat/harvest_parts).", "Craft grotesque ornaments that provide moral bonuses to AC, attack, CMB, CMD, saves, or skills" ],
+					[ [ "feat/grow_plant_creature", "Grow Plant Creature" ], "[Train Plants](feat/train_plants), Handle Animal 5 ranks, Knowledge (nature) 5 ranks.", "Learn to cultivate and raise plant creatures" ],
+					[ [ "feat/harvest_parts", "Harvest Parts" ], "Craft (any) 1 rank or Heal 1 rank.", "Harvest parts from a creature to be used for crafting" ],
+					[ [ "feat/haunt_scavenger", "Haunt Scavenger" ], "Any one item creation feat or Craft (alchemy) 3 ranks.", "Syphon ectoplasm from haunts to use in crafting magic items" ],
+					[ [ "feat/infuse_poison", "Infuse Poison" ], "[Brew Potion](feat/brew_potion), Craft (alchemy) 5 ranks, caster level 3rd.", "Infuse poisons with other spells" ],
+					[ [ "feat/inscribe_magical_tattoo", "Inscribe Magical Tattoo" ], "Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th", "Learn to craft magical tattoos" ],
+					[ [ "feat/lifecrafting", "Lifecrafting" ], "[Craft Construct](feat/craft_construct), [Leadership](feat/leadership).", "Create a new wyrwood from an ioun stone" ],
+					[ [ "feat/monstrous_crafter", "Monstrous Crafter" ], "[Craft Wondrous Item](feat/craft_wondrous_item), [Grisly Ornament](feat/grisly_ornament), [Harvest Parts](feat/harvest_parts).", "Integrate an ornament into a magic item to gain its benefit once per day" ],
+					[ [ "feat/reinforced_crafting", "Reinforced Crafting" ], "[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ability to cast make whole or mending.", "Your magic items are more resilient" ],
+					[ [ "feat/scribe_scroll", "Scribe Scroll" ], "Caster level 1st.", "Create magic scrolls" ]
+				]
+			}
 		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_metamagic": {
+		"title": "Feats - Metamagic",
+		"searchgroup": "rule",
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -1003,69 +907,15 @@
 					[ [ "feat/widen_spell", "Widen Spell" ], "", "Double spell area" ],
 					[ [ "feat/yai-mimic_spell", "Yai-Mimic Spell" ], "Int 15, [Still Spell](feat/still_spell).", "Modify a ray spell to fire from your forehead, granting you brief regeneration" ]
 				]
-			},
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"className": "plain",
-				"id": "Item Creation feats table",
-				"ripples": [0],
-				"data": [
-					[ [ "feat/aligned_crafting", "Aligned Crafting" ], "Craft Magic Arms and Armor or Craft Wondrous Item.", "Create magic items infused with your alignment" ],
-					[ [ "feat/brew_potion", "Brew Potion" ], "Caster level 3rd.", "Create magic potions" ],
-					[ [ "feat/craft_construct", "Craft Construct" ], "Caster level 5th, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item).", "Learn how to craft constructs." ],
-					[ [ "feat/craft_magic_arms_and_armor", "Craft Magic Arms and Armor" ], "Caster level 5th.", "Create magic armors, shields, and weapons" ],
-					[ [ "feat/craft_ooze", "Craft Ooze" ], "[Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), Craft (alchemy) 3 ranks, caster level 5th.", "You can use alchemy to create dangerous ooze creatures" ],
-					[ [ "feat/craft_poppet", "Craft Poppet" ], "Caster level 1st.", "Create poppets" ],
-					[ [ "feat/craft_rod", "Craft Rod" ], "Caster level 9th.", "Create magic rods" ],
-					[ [ "feat/craft_shadow_piercing", "Craft Shadow Piercing" ], "Craft (jewelry) 5 ranks, caster level 5th.", "Learn to craft magical piercings infused with shadow" ],
-					[ [ "feat/craft_staff", "Craft Staff" ], "Caster level 11th.", "Create magic staves" ],
-					[ [ "feat/craft_wand", "Craft Wand" ], "Caster level 5th.", "Create magic wands" ],
-					[ [ "feat/craft_wondrous_item", "Craft Wondrous Item" ], "Caster level 3rd.", "Create magic wondrous items" ],
-					[ [ "feat/create_enhanced_firearm", "Create Enhanced Firearm" ], "[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); Craft (weapons) 1 rank or [Gunsmithing](feat/gunsmithing).", "Firearms you create are less likely to misfire" ],
-					[ [ "feat/cultivate_magic_plants", "Cultivate Magic Plants" ], "[Brew Potion](feat/brew_potion), [Craft Wondrous Item](feat/craft_wondrous_item), Knowledge (nature) 1 rank.", "Grow magical plants" ],
-					[ [ "feat/demon_grafter", "Demon Grafter" ], "[Demonologist](feat/demonologist), Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.", "Learn how to implant demonic tissue into mortal flesh" ],
-					[ [ "feat/fleshwarper", "Fleshwarper" ], "Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.", "Create fleshwarped creatures and items" ],
-					[ [ "feat/forge_ring", "Forge Ring" ], "Caster level 7th.", "Create magic rings" ],
-					[ [ "feat/grisly_ornament", "Grisly Ornament" ], "[Harvest Parts](feat/harvest_parts).", "Craft grotesque ornaments that provide moral bonuses to AC, attack, CMB, CMD, saves, or skills" ],
-					[ [ "feat/grow_plant_creature", "Grow Plant Creature" ], "[Train Plants](feat/train_plants), Handle Animal 5 ranks, Knowledge (nature) 5 ranks.", "Learn to cultivate and raise plant creatures" ],
-					[ [ "feat/harvest_parts", "Harvest Parts" ], "Craft (any) 1 rank or Heal 1 rank.", "Harvest parts from a creature to be used for crafting" ],
-					[ [ "feat/haunt_scavenger", "Haunt Scavenger" ], "Any one item creation feat or Craft (alchemy) 3 ranks.", "Syphon ectoplasm from haunts to use in crafting magic items" ],
-					[ [ "feat/infuse_poison", "Infuse Poison" ], "[Brew Potion](feat/brew_potion), Craft (alchemy) 5 ranks, caster level 3rd.", "Infuse poisons with other spells" ],
-					[ [ "feat/inscribe_magical_tattoo", "Inscribe Magical Tattoo" ], "Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th", "Learn to craft magical tattoos" ],
-					[ [ "feat/lifecrafting", "Lifecrafting" ], "[Craft Construct](feat/craft_construct), [Leadership](feat/leadership).", "Create a new wyrwood from an ioun stone" ],
-					[ [ "feat/monstrous_crafter", "Monstrous Crafter" ], "[Craft Wondrous Item](feat/craft_wondrous_item), [Grisly Ornament](feat/grisly_ornament), [Harvest Parts](feat/harvest_parts).", "Integrate an ornament into a magic item to gain its benefit once per day" ],
-					[ [ "feat/reinforced_crafting", "Reinforced Crafting" ], "[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ability to cast make whole or mending.", "Your magic items are more resilient" ],
-					[ [ "feat/scribe_scroll", "Scribe Scroll" ], "Caster level 1st.", "Create magic scrolls" ]
-				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
-	"feats_grit_panache": {
-		"title": "Feats - Grit/Panache",
-		"sources": [
-			"Ultimate Combat",
-			"Advanced Class Guide"
-		],
+	"feats_grit": {
+		"title": "Feats - Grit",
+		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
-		"description": [
-			[ "[Jump to Panache Feats](#panachefeats)" ],
-			"# Grit Feats",
-			[
-				"**Description Source** [Ultimate Combat pg. 78](source/ultimate_combat)  ",
-				"Grit feats interact with the gunslinger's grit class ability or the grit granted by the [Amateur Gunslinger](feat/amateur_gunslinger) feat, usually by adding to her set of deeds. Sometimes these feats increase the number of grit points a character has or how that character regains grit points. [Gunslingers](class/gunslinger) can take grit feats as bonus feats."
-			],
-			[ "{table0}" ],
-			"# Panache Feats ! panachefeats",
-			[
-				"**Description Source** [Advanced Class Guide pg. 136](source/advanced_class_guide)  ",
-				"Panache feats interact with the [swashbuckler's](class/swashbuckler) panache class ability or the panache granted by the [Amateur Swashbuckler](feat/amateur_swashbuckler) feat. Swashbucklers can take panache feats as bonus feats."
-			],
-			[ "{table1}" ]
-		],
+		"description": [ "{table0}" ],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -1098,7 +948,16 @@
 					[ [ "feat/sizzling_shot", "Sizzling Shot" ], "Grit class feature or [Amateur Gunslinger](feat/amateur_gunslinger), base attack bonus +4.", "Cause your firearm attacks to be half fire damage" ],
 					[ [ "feat/whip-shot_deed", "Whip-Shot Deed" ], "Grit class feature or [Amateur Gunslinger](feat/amateur_gunslinger) feat, pistol-whip deed.", "Fire your gun at the same time you use pistol-whip" ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+	},
+	"feats_panache": {
+		"title": "Feats - Panache",
+		"sources": [ "Advanced Class Guide" ],
+		"searchgroup": "feat",
+		"description": [ "{table0}" ],
+		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
