@@ -14,7 +14,7 @@
 		"description": [
 			"## Abysium",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 70](source/pathfinder_#61_shards_of_sin)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 70](source/pathfinder_61_shards_of_sin)",
 			"",
 			"Known also as feverstone (a somewhat misleading name, as abysium is a metal like all the others), this glowing, blue-green substance can be a source of great energy. However, it also causes those who spend extended amounts of time near it to grow ill and die unless proper precautions are taken. Abysium is associated with conjuration magic, zeal, and sloth. Abysium functions as steel when used to craft weapons and armor, but anyone who carries or wears abysium arms or armor becomes sickened for as long as the gear is carried or worn, plus an additional 1d4 hours after it is removed. Likewise, a character in an area with heavy concentrations of abysium becomes sickened as long as he remains in the area. This is a poison effect. In Thassilon, wealthy lords often built manacles or prison bars out of Abysium in order to keep their prisoners debilitated.",
 			"",
@@ -121,7 +121,7 @@
 		"description": [
 			"## Blackwood",
 			"",
-			"**Source** [Merchant's Manifest pg. 9](source/merchant's_manifest)",
+			"**Source** [Merchant's Manifest pg. 9](source/merchants_manifest)",
 			"",
 			"Any wooden or mostly wooden item (such as a bow or quarterstaff) made from blackwood is considered a masterwork item and weighs only half as much as a normal wooden item of that type. Items not normally made of wood or only partially of wood (such as a battleaxe, mace, or other metal item with a wooden haft) either cannot be made from blackwood or do not gain any special benefit. The armor check penalty of a blackwood shield is reduced by 2 compared to an ordinary shield of its type. When wielded against creatures with the water subtype, mundane blackwood weapons ignore 1 point of the creature's DR (if any), and enchanted blackwood weapons ignore a number of DR equal to 2 times the weapon's enhancement bonus. To determine the price of a blackwood item, use the original weight but add 20 gp per pound to the price of a masterwork version of that item. Blackwood has 10 hit points per inch of thickness and hardness 7."
 		]
@@ -216,7 +216,7 @@
 		"description": [
 			"## Cryptstone",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_139_the_dead_road)",
 			"",
 			"Cryptstone is a dense gray stone scavenged from the mausoleums of the Graveyard of Souls in the Boneyard. While cryptstone may appear ancient and pitted, the supernatural essence of the Boneyard has infused it with power over the eons. A weapon made of cryptstone grants a +1 bonus on weapon damage rolls against undead creatures; this damage is multiplied on a critical hit. Additionally, any nonmagical weapon made of cryptstone affects incorporeal undead as if it were a magic weapon, and weapons made of cryptstone that have the [disruption](magic-enhancement/disruption) special ability increase the DC of that ability by +1.",
 			"",
@@ -275,7 +275,7 @@
 		"description": [
 			"## Djezet",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 70](source/pathfinder_#61_shards_of_sin)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 70](source/pathfinder_61_shards_of_sin)",
 			"",
 			"One of the strangest of the seven known types of skymetal, rust-red djezet is liquid at all temperatures. This makes the metal relatively useless for crafting metal objects (although many gifted metallurgists, such as Xin himself, have had some success creating djezet alloys), but most who seek out this metal intend to use it instead as an additional material component for spellcasting, since it possesses an ability to enhance magic. Djezet is associated with enchantment magic, love, and lust. Used as an additional material component, a dose of djezet increases the effective level of a spell by +1, as if it were being modified by the Heighten Spell feat. In order to function as an additional material component, the spellcaster must use a number of doses of djezet equal to the spell's level-additional djezet used beyond this amount does nothing. Djezet costs 200 gp per dose."
 		]
@@ -410,7 +410,7 @@
 		"description": [
 			"## Glaucite",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 18](source/pathfinder_#85_fires_of_creation)",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 18](source/pathfinder_85_fires_of_creation)",
 			"",
 			"When the phrase \"Numerian Steel\" is used, the speaker is usually, knowingly or not, referring to an iron/adamantine alloy called glaucite. This dark gray metal is the material of choice for hulls and starship superstructures, and is what constitutes the walls, floors, and ceilings of the strange ruins found throughout Numeria. Without more advanced technology, glaucite is extremely difficult to work with. Because the metal isn't much better than steel for forging weapons or armor, and the process of extracting the adamantine from it is so expensive and time consuming that the resulting adamantine isn't worth the effort, Numerian scavengers have, by and large, left the walls and floors of the structures buried in the region untouched. It's simply easier to scavenge smaller objects or work with normal iron or steel in the long run.",
 			"",
@@ -458,7 +458,7 @@
 		"description": [
 			"## Heatstone Plating",
 			"",
-			"**Source** [Merchant's Manifest pg. 17](source/merchant's_manifest)",
+			"**Source** [Merchant's Manifest pg. 17](source/merchants_manifest)",
 			"",
 			"Heatstone plating involves placing heatstones at strategic points within clothing or armor. A character wearing armor that has heatstone plating is constantly protected from cold weather as per the endure elements spell. Armor with heatstone plating weighs 1 additional pound for every 5 pounds of the armor's original weight (for example, a suit of leather armor with heatstone plating weighs 18 pounds). Heatstone plating cannot be sewn into heavy armor.",
 			"",
@@ -474,7 +474,7 @@
 		"description": [
 			"## Horacalcum",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_#61_shards_of_sin)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_61_shards_of_sin)",
 			"",
 			"The rarest of the known skymetals, this dull, coppery substance warps time around it, making things seem to speed up or slow down. Horacalcum is associated with illusion magic, humility, and pride. Almost never found in amounts greater than a pound, horacalcum is the same weight and density as steel, but is much more durable. A weapon made of horacalcum gains a +1 circumstance bonus on attack rolls (ammunition can be made of horacalcum, but does not grant any bonus on attack rolls). An entire suit of armor made from this rare metal is fantastically expensive, but since a suit of horacalcum armor simultaneously allows its wearer to react more quickly while perceiving time more slowly, some consider the cost justifiable. A suit of light horacalcum armor grants a +1 bonus on Initiative checks, medium horacalcum armor grants a +2 bonus on Initiative checks, and heavy horacalcum armor grants a +3 bonus on Initiative checks. Weapons and armor made of horacalcum are always of masterwork quality-the masterwork cost is included in the prices given below.",
 			"",
@@ -487,7 +487,7 @@
 		"description": [
 			"## Inubrix",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_#61_shards_of_sin)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_61_shards_of_sin)",
 			"",
 			"This metal's structure allows it to pass through iron and steel without touching them, seemingly shifting in and out of phase with reality. This quality earned the pale metal the nickname \"ghost iron.\" Inubrix is associated with necromancy magic, temperance, and gluttony. Inubrix is the softest of the solid skymetals, being only slightly less malleable than lead. It doesn't function well for crafting armor as a result, and though inubrix weapons can penetrate most metal armors with relative ease, the weapons tend to break easily. Inubrix has 10 hit points per inch of thickness and hardness 5.",
 			"",
@@ -530,7 +530,7 @@
 		"description": [
 			"## Liquid Glass",
 			"",
-			"**Source** [Merchant's Manifest pg. 17](source/merchant's_manifest)",
+			"**Source** [Merchant's Manifest pg. 17](source/merchants_manifest)",
 			"",
 			"This heatstone-derived glass is warm to the touch and slightly malleable, as if it were still liquid. A pliable nature allows this otherwise razor-sharp crystal to repair itself when it takes damage. An item made from liquid glass repairs damage to itself at a rate of 2 hit points per day, even if the weapon is broken or destroyed (but not if the weapon is destroyed in a way that the pieces cannot be retrieved, such as via disintegrate). If a weapon made from liquid glass has full hit points, it grants a +1 bonus on damage rolls. Items made from liquid glass have 10 hit points per inch of thickness and hardness 10.",
 			"",
@@ -613,7 +613,7 @@
 		"description": [
 			"## Noqual",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_#61_shards_of_sin), [Pathfinder #14: Children of the Void pg. 19](source/pathfinder_#14_children_of_the_void)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_61_shards_of_sin), [Pathfinder #14: Children of the Void pg. 19](source/pathfinder_14_children_of_the_void)",
 			"",
 			"Noqual looks almost like a pale green crystal to the untrained eye, but can be worked as iron despite its appearance. It is associated with abjuration magic, charity, and envy. Noqual is light-half as heavy as iron, yet just as strong. More importantly, noqual is strangely resistant to magic. An object made of noqual gains a +4 bonus on any saving throw made against a magical source. Creating a magic item that incorporates any amount of noqual into it increases the price of creation by 5,000 gp, as costly reagents and alchemical supplies must be used to treat the metal during the process.",
 			"",
@@ -641,7 +641,7 @@
 		"description": [
 			"## Pyre Steel",
 			"",
-			"**Source** [Pathfinder: Goblins #5 pg. 27](source/pathfinder_goblins_#5)",
+			"**Source** [Pathfinder: Goblins #5 pg. 27](source/pathfinder_goblins_5)",
 			"",
 			"Some dwarves and hobgoblins forge tools and weapons out of pyre steel: steel embedded with ground glass that won't warp when exposed to heat. Pyre steel weapons have fire resistance 10 and may be ignited without gaining the broken condition. They're usually forged with grooves and reservoirs ideal for retaining fuel; once ignited, they burn for 3 minutes. Pyre steel is brittle, having the same hardness but half the hit points of a regular weapon. Only weapons made primarily from metal can be created from pyre steel. Using pyre steel doubles the base cost of the weapon or item, but not the cost of making it masterwork."
 		]
@@ -652,7 +652,7 @@
 		"description": [
 			"## Siccatite",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_#61_shards_of_sin)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 71](source/pathfinder_61_shards_of_sin)",
 			"",
 			"This shining silver metal is either incredibly hot or freezing cold when found. Siccatite is associated with evocation magic, wrath, and kindness. As of yet, scholars have not determined whether siccatite is actually two similarly hued metals or a single type that determines its own temperature via some unknown process. When raw siccatite is found, it has a 50% chance of being hot siccatite; otherwise, it's cold siccatite. Physical contact with siccatite deals 1 point of energy damage each round (either fire or cold, as appropriate). Hot siccatite can eventually ignite objects, and cold siccatite in water quickly surrounds itself with a 1-foot-thick shell of ice. A weapon made of siccatite deals +1 point of damage of the appropriate energy type each time it strikes a foe, but also deals 1 point of the same energy damage to the wielder each round it is used in combat. Likewise, siccatite armor deals 1 point of energy damage per round to a creature wearing it, and deals 1 point of energy damage each full round a creature is grappled by someone wearing siccatite armor. Cold siccatite armor grants fire resistance 5, while hot siccatite armor grants cold resistance 5. (The type of armor does not alter the amount of resistance granted.) Weapons made of siccatite cost +1,000 gp. Armor made of siccatite costs +6,000 gp."
 		]
@@ -676,7 +676,7 @@
 		"description": [
 			"## Singing Steel",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurers_armory_2)",
 			"",
 			"This lustrous golden metal emits beautiful bell-like tones when struck. An alloy of gold and mithral, singing steel was originally created by the elves of Jinin, although the secrets of working singing steel have spread to Hwanggot, Minkai, and Tianjing. Instruments made of this metal are especially popular among bards and other performers who worship the goddess Shelyn.",
 			"",
@@ -702,7 +702,7 @@
 		"description": [
 			"## Spiresteel",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_139_the_dead_road)",
 			"",
 			"Philosophers speculate that the Spire upon which the Boneyard rests is composed of a condensed form of pure quintessence, but those brave enough to acquire some the substance report that ore mined from the Spire can be smelted and worked into weapons and armor. This substance, called spiresteel, exhibits an innate attraction for soul energy.",
 			"",
@@ -738,7 +738,7 @@
 		"description": [
 			"## Sunsilver",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurers_armory_2)",
 			"",
 			"An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. A weapon made of sunsilver counts as alchemical silver for all purposes. Items not primarily made of metal are not meaningfully affected by being partially made of sunsilver. (For example, a scimitar or breastplate can be made of sunsilver, while a quarterstaff or hide armor cannot.) In addition, items made of sunsilver are immune to rust effects (such as rusting grasp). While in an area of bright light, a shield or suit of armor made of sunsilver shines brightly, allowing the wearer to reflect light at nearby foes as a move action. When she does so, creatures adjacent to the wearer must succeed at a DC 12 Fortitude save or be dazzled for 1 round.",
 			"",
@@ -751,7 +751,7 @@
 		"description": [
 			"## Throneglass",
 			"",
-			"**Source** [Pathfinder #126: Beyond the Veiled Past pg. 49](source/pathfinder_#126_beyond_the_veiled_past)",
+			"**Source** [Pathfinder #126: Beyond the Veiled Past pg. 49](source/pathfinder_126_beyond_the_veiled_past)",
 			"",
 			"The Imperial Palace in Azlant was a fabulous building that featured classic Azlanti architecture, including a famous skylight made of a single sheet of magically treated glass as durable as steel. Though the green-tinted substance was sturdy, it was still no match for the onslaught of Earthfall. As the meteors tore the continent to pieces, a direct hit razed the building, shattering the skylight. Years later, as survivors surveyed the damage, they discovered that the material had retained its durability and some manufactured the green shards into weapons, calling the material throneglass.",
 			"",
@@ -793,7 +793,7 @@
 		"description": [
 			"## Voidglass",
 			"",
-			"**Source** [Armor Master's Handbook pg. 31](source/armor_master's_handbook), [The Dragon's Demand pg. 35](source/the_dragon's_demand)",
+			"**Source** [Armor Master's Handbook pg. 31](source/armor_masters_handbook), [The Dragon's Demand pg. 35](source/the_dragons_demand)",
 			"",
 			"Voidglass originates on an unknown world beyond Golarion. It is brought to Golarion in small quantities by grioths, a race of psychic extraterrestrials. Voidglass resonates with a creature's mind, bolstering thought and mental defenses. Any suit of armor normally made from metal can be made of voidglass. A suit of light voidglass armor or a voidglass shield grants a +1 resistance bonus on all saving throws against mind-affecting magic. This bonus increases to +2 for medium voidglass armor, and to +3 for heavy voidglass armor. A voidglass piercing or slashing weapon deals 1 additional point of damage on a hit; bludgeoning weapons gain no benefit.",
 			"",
@@ -872,7 +872,7 @@
 		"description": [
 			"## Glass",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 89](source/pathfinder_#71_rasputin_must_die!)",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 89](source/pathfinder_71_rasputin_must_die)",
 			"",
 			"Brittle and often strange in appearance, glass weapons mostly serve as ceremonial instruments, but are also the best way of permanently slaying fexts. The glass parts of these weapons replace what is typically a metal or stone component, such as an arrowhead or a dagger's blade. The remainder of the weapon is created normally, though the fittings require some specialization.",
 			"",

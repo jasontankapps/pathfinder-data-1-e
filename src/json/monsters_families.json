@@ -385,7 +385,7 @@
 			"- **Truespeech (Su)** All azatas can speak with any creature that has a language, as though using a tongues spell (caster level 14th). This ability is always active."
 		]
 	},
-	"baba_yaga's_rider": {
+	"baba_yagas_rider": {
 		"name": "Baba Yaga's Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"members": [
@@ -514,7 +514,7 @@
 		"description": [
 			"## Bore Worm",
 			"",
-			"**Source** [Pathfinder #117: Assault on Longshadow](source/pathfinder_#117_assault_on_longshadow)",
+			"**Source** [Pathfinder #117: Assault on Longshadow](source/pathfinder_117_assault_on_longshadow)",
 			"",
 			"Bore worms are a vile breed of subterranean burrowing worm, attacking prey both in their Darklands home and, more rarely, on the planet's surface. Three major variants of the worms exist, each representing a different stage in the creature's long life cycle-the swarm, monarch, and empress stages."
 		]
@@ -2035,7 +2035,7 @@
 		"description": [
 			"## Dragon (Planar)",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
+			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_137_the_city_outside_of_time)",
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
@@ -2056,7 +2056,7 @@
 		"description": [
 			"## Dragon (Planar, Apocalypse)",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
+			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_137_the_city_outside_of_time)",
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
@@ -2077,7 +2077,7 @@
 		"description": [
 			"## Dragon (Planar, Bliss)",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
+			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_137_the_city_outside_of_time)",
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
@@ -2119,7 +2119,7 @@
 		"description": [
 			"## Dragon (Planar, Edict)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
@@ -2317,7 +2317,7 @@
 		"description": [
 			"## Dragon (Planar, Tumult)",
 			"",
-			"**Source** [Pathfinder #138: Rise of New Thassilon](source/pathfinder_#138_rise_of_new_thassilon)",
+			"**Source** [Pathfinder #138: Rise of New Thassilon](source/pathfinder_138_rise_of_new_thassilon)",
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
@@ -3230,7 +3230,7 @@
 		"description": [
 			"## Fiend-Bred Animal",
 			"",
-			"**Source** [Pathfinder #103: The Hellfire Compact](source/pathfinder_#103_the_hellfire_compact)",
+			"**Source** [Pathfinder #103: The Hellfire Compact](source/pathfinder_103_the_hellfire_compact)",
 			"",
 			"Fiend-bred animals are pedigreed varieties of animals whose bloodlines include an animal-like fiend. The breeders of these creatures typically use a conjuration spell of the calling subschool, such as planar ally or planar binding, to call a suitable fiend to the Material Plane and persuade it to mate with an animal of a compatible species. Most of the male hybrids are sterile, and thus the female hybrids of the first generations are mated with animal males until the new variety breeds true. Thereafter, breeders strive to emphasize trainability while retaining the most desirable traits derived from the progenitor fiend.",
 			"",
@@ -3358,7 +3358,7 @@
 		"description": [
 			"## Gigas",
 			"",
-			"**Source** [Pathfinder #30: The Twice-Damned Prince](source/pathfinder_#30_the_twice-damned_prince)",
+			"**Source** [Pathfinder #30: The Twice-Damned Prince](source/pathfinder_30_the_twice-damned_prince)",
 			"",
 			"This family represents a group of similar monsters. No official description has been provided."
 		]
@@ -3466,7 +3466,7 @@
 			"- [Mhar](monster/mhar)",
 			"- [Mordiggian](monster/mordiggian)",
 			"- [Rhan-Tegoth](monster/rhan-tegoth)",
-			"- [Tawil At'umr](monster/tawil_at'umr)",
+			"- [Tawil At'umr](monster/tawil_atumr)",
 			"- [Tsathoggua](monster/tsathoggua)",
 			"- [Xhamen-Dor](monster/xhamen-dor)",
 			"- [Yig](monster/yig)"
@@ -3552,13 +3552,13 @@
 		"members": [
 			"- [Arcanotheign](monster/arcanotheign)",
 			"- [Basileus](monster/basileus)",
-			"- [End's Voice](monster/end's_voice)",
+			"- [End's Voice](monster/ends_voice)",
 			"- [Gravedragger](monster/gravedragger)",
 			"- [Great Elder Iuu](monster/great_elder_iuu)",
 			"- [Hand of the Inheritor](monster/hand_of_the_inheritor)",
 			"- [Latten Mechanism](monster/latten_mechanism)",
 			"- [Lawgiver](monster/lawgiver)",
-			"- [Mother's Maw](monster/mother's_maw)",
+			"- [Mother's Maw](monster/mothers_maw)",
 			"- [Night Monarch](monster/night_monarch)",
 			"- [Personification of Fury](monster/personification_of_fury)",
 			"- [Steward of the Skein](monster/steward_of_the_skein)",
@@ -3689,7 +3689,7 @@
 		"description": [
 			"## House Spirit",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_#67_the_snows_of_summer)",
+			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_67_the_snows_of_summer)",
 			"",
 			"These sometimes-helpful fey creatures bind themselves to rural families and live among them. Some bear a resemblance to the family's ancestors, a similarity that grows more obvious the longer they are in the family's service. House spirits use their compression ability and invisibility to stay out of the sight of those they live among.",
 			"",
@@ -3712,7 +3712,7 @@
 		"description": [
 			"## Idol",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust](source/pathfinder_#27_what_lies_in_dust)",
+			"**Source** [Pathfinder #27: What Lies in Dust](source/pathfinder_27_what_lies_in_dust)",
 			"",
 			"The trappings of strange cultures and jealous mystics, isolated natives and sinister beliefs, idols symbolize the might of enigmatic and often bloody faiths. As the focus of cultish tribes and mysterious religions, crude icons occasionally come to express a measure of true power, transforming religious ardor offered through centuries of worship or the magic of inscrutable priests into not just supernatural properties, but actual life. Such idols thus become manifestations of self-fulfilling beliefs, servants to zealots, and miniature gods to the blindly devout.",
 			"",
@@ -3917,7 +3917,7 @@
 		"description": [
 			"## Kyton Demagogue",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
+			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_137_the_city_outside_of_time)",
 			"",
 			"This family represents a group of similar monsters. No official description has been provided."
 		]
@@ -4038,7 +4038,7 @@
 		"name": "Lurking Ray",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Executioner's Hood](monster/executioner's_hood)",
+			"- [Executioner's Hood](monster/executioners_hood)",
 			"- [Lurker Above](monster/lurker_above)",
 			"- [Trapper](monster/trapper)"
 		],
@@ -4130,7 +4130,7 @@
 		"description": [
 			"## Mortic",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road](source/pathfinder_139_the_dead_road)",
 			"",
 			"[Mortics](subtype/mortic) are humanoids afflicted with the physiology and appetites of undead. All mortics are pulled between two worlds: as living humanoids, they crave community and friendship, but their necromantic nature forces them to indulge in inhuman hungers and commit violence against the living. As a result, most mortics lurk at the edge of civilization or isolate themselves with others of their own kind. Although living creatures, mortics can suspend their living processes temporarily, becoming more like undead."
 		]
@@ -4256,7 +4256,7 @@
 		"description": [
 			"## Ossumental",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep](source/pathfinder_#83_the_slave_trenches_of_hakotep)",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep](source/pathfinder_83_the_slave_trenches_of_hakotep)",
 			"",
 			"This family represents a group of similar monsters. No official description has been provided."
 		]
@@ -4273,7 +4273,7 @@
 		"description": [
 			"## Phantom Armor",
 			"",
-			"**Source** [Pathfinder #47: Ashes at Dawn](source/pathfinder_#47_ashes_at_dawn)",
+			"**Source** [Pathfinder #47: Ashes at Dawn](source/pathfinder_47_ashes_at_dawn)",
 			"",
 			"Raised from the corpses of knights and soldiers slain by treachery rather than battle or conflicts considered crimes even in the heat of war, phantom armors appear as suits of animate armor, walking or floating of their own accord. Most phantom armors haunt the halls and blasted battlefields where they were slain, seeking revenge against their murderers or, should that prove impossible, confronting any living creature that might give them the opportunity to do battle once more. Dastardly necromancers have also discovered the process for binding violent spirits to suits of armor, giving rise to eerie servants that combine endless patience with cold brutality.",
 			"",
@@ -4321,7 +4321,7 @@
 		"description": [
 			"## Poppet",
 			"",
-			"**Source** [Adventurer's Armory 2](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2](source/adventurers_armory_2)",
 			"",
 			"Humanoid in shape and constructed of base materials, poppets are designed to accompany explorers into dangerous places and help with simple tasks."
 		]
@@ -4337,7 +4337,7 @@
 		"description": [
 			"## Primeval Sea Creature",
 			"",
-			"**Source** [Pathfinder #60: From Hell's Heart](source/pathfinder_#60_from_hell's_heart)",
+			"**Source** [Pathfinder #60: From Hell's Heart](source/pathfinder_60_from_hells_heart)",
 			"",
 			"This family represents a group of similar monsters. No official description has been provided."
 		]
@@ -4691,7 +4691,7 @@
 		"description": [
 			"## Rot Grub",
 			"",
-			"**Source** [Pathfinder #25: The Bastards of Erebus](source/pathfinder_#25_the_bastards_of_erebus)",
+			"**Source** [Pathfinder #25: The Bastards of Erebus](source/pathfinder_25_the_bastards_of_erebus)",
 			"",
 			"### Rot Grubs As Hazards (CR 4)",
 			"",
@@ -4751,7 +4751,7 @@
 		"description": [
 			"## Siktempora",
 			"",
-			"**Source** [Pathfinder #135: Runeplague](source/pathfinder_#135_runeplague)",
+			"**Source** [Pathfinder #135: Runeplague](source/pathfinder_135_runeplague)",
 			"",
 			"Each siktempora is different in shape, alignment, and power, but they all share a few similar traits.",
 			"",
@@ -4853,7 +4853,7 @@
 		"description": [
 			"## Thassilonian Sentinel",
 			"",
-			"**Source** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
+			"**Source** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_134_it_came_from_hollow_mountain)",
 			"",
 			"During the height of the Thassilonian Empire, nobles and other wealthy elite favored these constructs as guardians and protectors in their homes, hidden in plain sight among the palace's normal decorations. Able to replace the heads of statues to blend in, these creatures keep alert for intruders and extract themselves from the statues with which they are docked in order to attack. The creatures don't need to remove themselves from their statues to use their special attacks, however, and only separate for added mobility or to have the chance to attack with their claws.",
 			"",
@@ -4968,7 +4968,7 @@
 		"description": [
 			"## Troops",
 			"",
-			"**Source** [Pathfinder #100: A Song of Silver](source/pathfinder_#100_a_song_of_silver)",
+			"**Source** [Pathfinder #100: A Song of Silver](source/pathfinder_100_a_song_of_silver)",
 			"",
 			"The troop subtype represents an organized group of trained soldiers who act as a unit, rather than as individuals. A troop is something of an abstraction, in that the component creatures that make up the troop are mostly irrelevant; only the troop as a whole matters for the purposes of combat. A troop is similar to a swarm, but is normally composed of Small or Medium creatures. Large groups of Tiny or smaller creatures should use the normal swarm rules.",
 			"",

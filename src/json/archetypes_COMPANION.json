@@ -189,7 +189,7 @@
 			"**Source** [Ultimate Wilderness pg. 187](source/ultimate_wilderness), [Animal Archive pg. 20](source/animal_archive)  ",
 			"Some companions live lives of faithful devotion and steady vigilance, standing watch through long hours and always ready to leap into action to protect their masters.",
 			"",
-			"**Animal Feats:** In addition to the standard feats available to animal companions, a bodyguard can select [Bodyguard](feat/bodyguard), [Combat Patrol](feat/combat_patrol), [Heroic Defiance](feat/heroic_defiance), [Heroic Recovery](feat/heroic_recovery), and [In Harm's Way](feat/in_harm's_way).",
+			"**Animal Feats:** In addition to the standard feats available to animal companions, a bodyguard can select [Bodyguard](feat/bodyguard), [Combat Patrol](feat/combat_patrol), [Heroic Defiance](feat/heroic_defiance), [Heroic Recovery](feat/heroic_recovery), and [In Harm's Way](feat/in_harms_way).",
 			"",
 			"**Shared Vigilance (Ex):** Both a bodyguard and its master gain Alertness as a bonus feat whenever they are adjacent.",
 			"",
@@ -330,7 +330,7 @@
 		"description": [
 			"## Elemental Companion",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hoppers_handbook)  ",
 			"The heart of this companion beats with primal energy.",
 			"",
 			"**Elemental Type (Ex):** An elemental companion gains a subtype that matches its element: air, earth, fire, or water.",

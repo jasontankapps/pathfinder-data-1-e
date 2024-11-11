@@ -1652,7 +1652,7 @@
 			"| 15-18 | 2d4 [ghouls](monster/ghoul) | 5 |",
 			"| 19-25 | 1d6 [shadows](monster/shadow) | 6 |",
 			"| 26-31 | 1d8 [skeletal champions](template/skeletal_champion) | 6 |",
-			"| 32-36 | 1 [will-o'-wisp](monster/will-o'-wisp) | 6 |",
+			"| 32-36 | 1 [will-o'-wisp](monster/will-o-wisp) | 6 |",
 			"| 37-41 | 1 [kyton](monster/kyton) | 6 |",
 			"| 42 | 1d4 [mummies](monster/mummy) | 7 |",
 			"| 43-45 | 1d6 [barghests](monster/barghest) | 7 |",
@@ -1870,7 +1870,7 @@
 			"| 46-49 | 1d6 [Large air elementals](monster/large_air_elemental) | 8 |",
 			"| 50-56 | 1d6 [djinn](monster/djinni) | 8 |",
 			"| 57-59 | 1d8 [harpies](monster/harpy) | 8 |",
-			"| 60-62 | 1d4 [will-o'-wisps](monster/will-o'-wisp) | 8 |",
+			"| 60-62 | 1d4 [will-o'-wisps](monster/will-o-wisp) | 8 |",
 			"| 63-65 | 1d8 [griffons](monster/griffon) | 8 |",
 			"| 66 | 1d4 [amir (noble) jann](monster/janni) | 9 |",
 			"| 67-70 | 1 [roc](monster/roc) | 9 |",
@@ -6725,7 +6725,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
-			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_#144_midwives_to_death)",
+			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_144_midwives_to_death)",
 			"",
 			"Botanical haunts are masses of vegetation that work as a single entity to fight against invaders in their territory. Their animating force typically originates from vengeful nature spirits, such as a corrupted dryad or angry kami. Botanical haunts differ from standard haunts in several important ways.",
 			"",
@@ -8357,7 +8357,7 @@
 			"monster_advancement"
 		],
 		"subtopics": [
-			"step_1_determine_creature's_role",
+			"step_1_determine_creatures_role",
 			"step_2_add_class_levels",
 			"step_3_determine_cr"
 		],
@@ -8367,7 +8367,7 @@
 			"adding_class_levels"
 		]
 	},
-	"step_1_determine_creature's_role": {
+	"step_1_determine_creatures_role": {
 		"name": "Step 1: Determine Creature's Role",
 		"subtitle": "Monster Advancement",
 		"tags": "Bestiary",
@@ -8398,7 +8398,7 @@
 			"adding_class_levels"
 		],
 		"siblings": [
-			"step_1_determine_creature's_role",
+			"step_1_determine_creatures_role",
 			"step_2_add_class_levels",
 			"step_3_determine_cr"
 		]
@@ -8424,7 +8424,7 @@
 			"adding_class_levels"
 		],
 		"siblings": [
-			"step_1_determine_creature's_role",
+			"step_1_determine_creatures_role",
 			"step_2_add_class_levels",
 			"step_3_determine_cr"
 		]
@@ -8459,7 +8459,7 @@
 			"adding_class_levels"
 		],
 		"siblings": [
-			"step_1_determine_creature's_role",
+			"step_1_determine_creatures_role",
 			"step_2_add_class_levels",
 			"step_3_determine_cr"
 		]

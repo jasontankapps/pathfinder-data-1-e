@@ -5,7 +5,7 @@
 		"description": [
 			"## Take a Breather (Combat)",
 			"",
-			"**Source** [Healer's Handbook pg. 15](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 15](source/healers_handbook)",
 			"",
 			"You can use lapses in your opponent's guard to recuperate from the wounds you have already sustained.  ",
 			"**Prerequisites:** Con 13, [Combat Vigor](feat/combat_vigor), character level 4th.  ",
@@ -31,7 +31,7 @@
 		"description": [
 			"## Take This (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 11](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 11](source/antiheros_handbook)",
 			"",
 			"You can quickly retrieve items from the body of a companion who is unable to act.  ",
 			"**Benefit:** If you are adjacent to an ally who also has this feat but is unable to act, you can retrieve a held or openly carried item from his body as a swift action that does not provoke attacks of opportunity.  ",
@@ -69,7 +69,7 @@
 			"**Benefit:** When fighting with the falcata and buckler, your shield bonus to AC increases by +1 and you gain a +2 bonus on Acrobatics checks.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">When you make an attack with a falcata using two hands while wearing a buckler, you can spend 3 stamina points to ignore the -1 penalty on attack rolls for using your shield arm to wield a weapon while wearing a buckler and to retain the buckler's shield bonus for 1 round."
 		]
@@ -101,7 +101,7 @@
 			"**Special:** You can take this feat multiple times. Each time you do, you gain an additional daily use of each talent."
 		]
 	},
-	"talmandor's_lifting": {
+	"talmandors_lifting": {
 		"name": "Talmandor's Lifting",
 		"sources": [ "Andoran, Spirit of Liberty" ],
 		"description": [
@@ -125,14 +125,14 @@
 		"description": [
 			"## Tandem Evasion (Combat, Teamwork)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 21](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 21](source/dragonslayers_handbook)",
 			"",
 			"You and your allies help each other evade deadly attacks.  ",
 			"**Prerequisites:** Dex 13, [Dodge](feat/dodge).  ",
 			"**Benefit:** When adjacent to an ally who also has this feat, you gain evasion against a dragon's breath weapon and tail sweep special attacks. If you already have evasion, you gain improved evasion instead.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to benefit from this feat even if there are no adjacent allies who also have this feat. However, if you fail your save, you are knocked prone."
 		]
@@ -246,7 +246,7 @@
 		"description": [
 			"## Targeted Blow (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"You can inflict special injuries on your foes by attacking specific areas.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +9, weapon training class feature with a melee weapon.  ",
@@ -281,7 +281,7 @@
 		"description": [
 			"## Tattoo Attunement",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoners_handbook)",
 			"",
 			"You've learned to absorb summoned creatures into temporary spell tattoos.  ",
 			"**Prerequisites:** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo) or [Varisian Tattoo](feat/varisian_tattoo); Spellcraft 5 ranks.  ",
@@ -296,7 +296,7 @@
 		"description": [
 			"## Tattoo Conversion",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 15](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 15](source/monster_summoners_handbook)",
 			"",
 			"Your have turned your deep knowledge of creating tattoos from summoned creatures into an offensive weapon.  ",
 			"**Prerequisites:** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo) or [Varisian Tattoo](feat/varisian_tattoo); [Tattoo Attunement](feat/tattoo_attunement); Spellcraft 15 ranks; ability to cast control summoned creature.  ",
@@ -309,7 +309,7 @@
 		"description": [
 			"## Tattoo Transformation",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 15](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 15](source/monster_summoners_handbook)",
 			"",
 			"You've learned to take on some of the resistance of a summoned creature when you absorb it as a tattoo.  ",
 			"**Prerequisites:** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo) or [Varisian Tattoo](feat/varisian_tattoo); [Tattoo Attunement](feat/tattoo_attunement); Spellcraft 9 ranks.  ",
@@ -361,7 +361,7 @@
 		"description": [
 			"## Taunt",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"You may be small, but your remarks cut others down to size.  ",
 			"**Prerequisites:** Cha 13, Small size or smaller.  ",
@@ -403,7 +403,7 @@
 		"description": [
 			"## Team Up (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"When you are ganging up against an enemy, you can aid an ally with a quick feint.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Gang Up](feat/gang_up), base attack bonus +6.  ",
@@ -425,7 +425,7 @@
 		"description": [
 			"## Technologist",
 			"",
-			"**Source** [Iron Gods Player's Guide pg. 9](source/iron_gods_player's_guide), [Technology Guide pg. 7](source/technology_guide)",
+			"**Source** [Iron Gods Player's Guide pg. 9](source/iron_gods_players_guide), [Technology Guide pg. 7](source/technology_guide)",
 			"",
 			"You are familiar with the basic mechanics of technology.  ",
 			"**Benefit:** You are considered to be trained in any skill used against a technology-based subject. If the skill in question requires training to use even against non-technological subjects, you must still have ranks in that skill in order to gain the benefit of Technologist.  ",
@@ -464,7 +464,7 @@
 		"description": [
 			"## Telekinetic Mastery (Combat, Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 27](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 27](source/weapon_masters_handbook)",
 			"",
 			"You can coax telekinesis from transmutation magic items.  ",
 			"**Prerequisites:** Use Magic Device 5 ranks, base Fortitude save bonus +7.  ",
@@ -519,7 +519,7 @@
 		"description": [
 			"## Teleport Tactician (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"You are highly alert for enemies using teleportation to approach you or flee from you.  ",
 			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes), [Disruptive](feat/disruptive), [Spellbreaker](feat/spellbreaker).  ",
@@ -537,7 +537,7 @@
 		"description": [
 			"## Teleportation Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 27](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 27](source/weapon_masters_handbook)",
 			"",
 			"You can coax teleportation from conjuration magic items.  ",
 			"**Prerequisites:** Use Magic Device 4 ranks, base Fortitude save bonus +6.  ",
@@ -604,7 +604,7 @@
 		"description": [
 			"## Tenacious Transmutation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"Your mastery of the magic of changing makes your transmutations more durable.  ",
 			"**Prerequisites:** [Spell Focus (transmutation)](feat/spell_focus).  ",
@@ -711,7 +711,7 @@
 		"description": [
 			"## Terrifying Strike",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)",
 			"",
 			"Your touch spreads fear.  ",
 			"**Prerequisites:** Despair special ability, mummy.  ",
@@ -948,7 +948,7 @@
 			"**Benefit:** When you spend a swift action to attempt a performance combat check while you're raging, you gain a +2 bonus on the check if the trigger involved you dealing damage to a creature that had hit you within the last round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 3 stamina points to increase the bonus on performance combat checks that you gain from Thrilling Vengeance by 2."
 		]
@@ -1032,7 +1032,7 @@
 		"description": [
 			"## Thrune Trusted Agent (Teamwork)",
 			"",
-			"**Source** [Pathfinder #105: The Inferno Gate pg. 7](source/pathfinder_#105_the_inferno_gate)",
+			"**Source** [Pathfinder #105: The Inferno Gate pg. 7](source/pathfinder_105_the_inferno_gate)",
 			"",
 			"Your supernatural bond to other Thrune agents strengthens your resolve and allows you to bolster your allies.  ",
 			"**Prerequisites:** Thrune Loyal Agent trait.  ",
@@ -1048,7 +1048,7 @@
 		"description": [
 			"## Thunder and Fang (Combat)",
 			"",
-			"**Source** [Varisia, Birthplace of Legends pg. 10](source/varisia_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 28](source/pathfinder_#10_a_history_of_ashes)",
+			"**Source** [Varisia, Birthplace of Legends pg. 10](source/varisia_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 28](source/pathfinder_10_a_history_of_ashes)",
 			"",
 			"You have mastered the ancient Shoanti Thunder and Fang fighting style, allowing you to fight with increased effectiveness when wielding an earth breaker and klar.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Trip](feat/improved_trip), [Tripping Staff](feat/tripping_staff), [Weapon Focus (quarterstaff)](feat/weapon_focus), [Weapon Specialization (quarterstaff)](feat/weapon_specialization), base attack bonus +12.  ",
@@ -1063,7 +1063,7 @@
 		"description": [
 			"## Thundering Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"You can conjure your spells into existence with blaring thunder or fearful shrieks, deafening creatures damaged by their effects.  ",
 			"**Benefit:** You can modify a spell to deafen a creature damaged by the spell. When a creature takes damage from this spell, it becomes deafened for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the deafening effect. If the spell does not allow a save, the target can make a Fortitude save to negate the deafening effect. If the spell effect also causes the creature to become deafened, the duration of this metamagic effect is added to the duration of the spell. A thundering spell uses up a spell slot two levels higher than the spell's actual level.",
@@ -1216,7 +1216,7 @@
 		],
 		"mythic_only": true
 	},
-	"titan's_tangle": {
+	"titans_tangle": {
 		"name": "Titan's Tangle",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
@@ -1247,7 +1247,7 @@
 			"**Benefit:** When you are disabled, you are not staggered, though performing standard actions still deals 1 point of damage to you. Taking a full-round action deals 2 points of damage to you.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 1 stamina when disabled to take a standard action without losing a hit point."
 		]
@@ -1258,7 +1258,7 @@
 		"description": [
 			"## Tool Optimizer",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 22](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 22](source/adventurers_armory_2)",
 			"",
 			"You can easily find items that function as tools or augment your own set of tools.  ",
 			"**Prerequisites:** Craft (any) 1 rank, Disable Device 1 rank, or Profession (any) 1 rank.  ",
@@ -1286,14 +1286,14 @@
 		"description": [
 			"## Toppling Bash (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"Your shield bash throws your enemies off balance.  ",
 			"**Prerequisites:** [Improved Shield Bash](feat/improved_shield_bash), [Shield Focus](feat/shield_focus), [Stumbling Bash](feat/stumbling_bash), base attack bonus +11 or fighter level 8th.  ",
 			"**Benefit:** As a swift action when you hit a creature with a shield bash, you can attempt a trip combat maneuver against that creature at a -5 penalty. This does not provoke an attack of opportunity, and if your attempt fails by 10 or more, you are not knocked prone.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to negate the penalty on your combat maneuver check to knock a creature prone."
 		]
@@ -1341,7 +1341,7 @@
 			"**Normal:** A torch used in combat is treated as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size plus 1 point of fire damage.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">By spending 2 stamina points when you hit an opponent with a torch, you can increase the amount of fire damage dealt by the torch to 1d4."
 		]
@@ -1352,7 +1352,7 @@
 		"description": [
 			"## Torch Handling",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneers_handbook)",
 			"",
 			"In your grasp, a simple torch becomes a beacon.  ",
 			"**Benefit:** You gain three benefits upon taking this feat. First, you treat torches as simple weapons. Second, the radius of normal and increased illumination shed by any torch or mundane light source you carry increases by 10 feet. Finally, once per day you may reroll a single saving throw to resist any effect that would otherwise extinguish your light source, such as having water thrown at you, being targeted by a quench spell, and so on."
@@ -1364,7 +1364,7 @@
 		"description": [
 			"## Torchbearer",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 20](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 20](source/dungeoneers_handbook)",
 			"",
 			"You acquire a professional torchbearer to accompany you  ",
 			"**Prerequisites:** Character level 5th.  ",
@@ -1419,7 +1419,7 @@
 		"description": [
 			"## Totem Spirit",
 			"",
-			"**Source** [Inner Sea World Guide pg. 289](source/inner_sea_world_guide), [Rise of the Runelords Player's Guide pg. 15](source/rise_of_the_runelords_player's_guide), [Pathfinder Campaign Setting pg. 147](source/pathfinder_campaign_setting)",
+			"**Source** [Inner Sea World Guide pg. 289](source/inner_sea_world_guide), [Rise of the Runelords Player's Guide pg. 15](source/rise_of_the_runelords_players_guide), [Pathfinder Campaign Setting pg. 147](source/pathfinder_campaign_setting)",
 			"",
 			"You are mystically tied to your tribe's sacred totem.  ",
 			"**Prerequisites:** Member of a Shoanti tribe.  ",
@@ -1499,7 +1499,7 @@
 		"description": [
 			"## Touch of Serenity (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"With a single touch you can reduce the threat of even the most savage of foes.  ",
 			"**Prerequisites:** Wis 18, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
@@ -1609,7 +1609,7 @@
 		"description": [
 			"## Tower Shield Specialist (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"You wield tower shields with ease.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), [Tower Shield Proficiency](feat/tower_shield_proficiency), base attack bonus +11 or fighter level 8th.  ",
@@ -1818,7 +1818,7 @@
 			"**Benefit:** You can attempt to disarm a trap by striking it with a melee weapon instead of making a Disable Device check. As a full-round action, make a melee attack against an Armor Class equal to the trap's Disable Device DC. If you miss, the trap activates. If you hit, roll damage. If this damage is at least half the trap's Disable Device DC, you disable the trap. If this damage is less than half the trap's Disable Device DC, the trap activates. You can only attempt this on nonmagical traps. You must be able to reach some part of the trap with your attack in order to use this feat. At the GM's discretion, some traps may not be susceptible to this feat."
 		]
 	},
-	"trapper's_setup": {
+	"trappers_setup": {
 		"name": "Trapper's Setup",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -1890,7 +1890,7 @@
 			"**Benefit:** When you make a sneak attack with a poisoned weapon, you can forgo some of your sneak attack damage to increase the save DC of your poison, increasing the poison's save DC by 1 for every 1d6 points of sneak attack damage you forgo. This can't cause the save DC to exceed 15 + 1/2 your character level."
 		]
 	},
-	"treant's_call": {
+	"treants_call": {
 		"name": "Treant's Call",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
@@ -1975,7 +1975,7 @@
 		"description": [
 			"## Tribal Hunter (Combat, Teamwork)",
 			"",
-			"**Source** [Ultimate Wilderness pg. 119](source/ultimate_wilderness), [Heroes of the Wild pg. 19](source/heroes_of_the_wild), [Adventurer's Guide pg. 133](source/adventurer's_guide)",
+			"**Source** [Ultimate Wilderness pg. 119](source/ultimate_wilderness), [Heroes of the Wild pg. 19](source/heroes_of_the_wild), [Adventurer's Guide pg. 133](source/adventurers_guide)",
 			"",
 			"From watching pack animals hunt, you learned to take down large prey as part of a group.  ",
 			"**Prerequisites:** [Animal Affinity](feat/animal_affinity).  ",
@@ -1992,7 +1992,7 @@
 		"description": [
 			"## Tribal Scars",
 			"",
-			"**Source** [Adventurer's Guide pg. 133](source/adventurer's_guide), [People of the North pg. 24](source/people_of_the_north)",
+			"**Source** [Adventurer's Guide pg. 133](source/adventurers_guide), [People of the North pg. 24](source/people_of_the_north)",
 			"",
 			"You endured the grueling coming-of-age rituals of your tribe or following, and proudly bear the scars that grant you the blessings of your tribe's ancestors or totem.  ",
 			"**Benefit:** You gain one of the following benefits, depending on which Mammoth Lord following you belong to. (At the GM's discretion, other options of her own design could exist for different tribes.)",
@@ -2031,7 +2031,7 @@
 		"description": [
 			"## Trick Riding (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide)",
 			"",
 			"You are not only skilled at controlling a horse in combat; you can make it look like art.  ",
 			"**Prerequisites:** Ride 9 ranks, [Mounted Combat](feat/mounted_combat).  ",
@@ -2075,7 +2075,7 @@
 		"description": [
 			"## Triple-Baron (Gathlain Court Title)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hoppers_handbook)",
 			"",
 			"The Three have seen your offerings and proclaimed them satisfactory, even before you actually had the chance to show those offerings to them.  ",
 			"**Prerequisites:** Fey creature type or [Fey Obedience](feat/fey_obedience) (Magdh), you must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits.  ",
@@ -2126,7 +2126,7 @@
 		"description": [
 			"## Tripping Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide)",
 			"",
 			"The force intrinsic to your critical hits can knock your foes down.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Trip](feat/improved_trip), base attack bonus +9.  ",
@@ -2184,7 +2184,7 @@
 		"description": [
 			"## Troth of the Forgotten Pharaoh",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 17](source/pathfinder_#82_secrets_of_the_sphinx), [Pathfinder #81: Shifting Sands pg. 19](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 17](source/pathfinder_82_secrets_of_the_sphinx), [Pathfinder #81: Shifting Sands pg. 19](source/pathfinder_81_shifting_sands)",
 			"",
 			"You've pledged your body to the Forgotten Pharaoh, and are willing to sacrifice yourself to keep his secrets even in death.  ",
 			"**Prerequisites:** Must be a member of the Cult of the Forgotten Pharaoh.  ",
@@ -2324,7 +2324,7 @@
 		"description": [
 			"## Tundra Stride",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_masters_handbook)",
 			"",
 			"Whether as predator or prey, you have learned to move like the arctic wind when survival is at stake.  ",
 			"**Prerequisites:** Acrobatics 5 ranks.  ",
@@ -2393,7 +2393,7 @@
 		"description": [
 			"## Twilight Tattoo",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 31](source/andoran_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurers_guide), [Andoran, Birthplace of Freedom pg. 31](source/andoran_birthplace_of_freedom)",
 			"",
 			"You have a special tattoo that identifies you as a Twilight Talon when you speak a designated command word.  ",
 			"**Prerequisites:** Wis 13, affiliated with the Twilight Talons.  ",
@@ -2776,7 +2776,7 @@
 	"two_weapon_rend": {
 		"copyof": "two-weapon_rend"
 	},
-	"tyrant's_rebuke": {
+	"tyrants_rebuke": {
 		"name": "Tyrant's Rebuke",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -2828,7 +2828,7 @@
 		"description": [
 			"## Umbral Scion",
 			"",
-			"**Source** [Advanced Race Guide pg. 106](source/advanced_race_guide), [Pathfinder #15: The Armageddon Echo pg. 59](source/pathfinder_#15_the_armageddon_echo), [Pathfinder #18: Descent into Midnight pg. 14](source/pathfinder_#18_descent_into_midnight)",
+			"**Source** [Advanced Race Guide pg. 106](source/advanced_race_guide), [Pathfinder #15: The Armageddon Echo pg. 59](source/pathfinder_15_the_armageddon_echo), [Pathfinder #18: Descent into Midnight pg. 14](source/pathfinder_18_descent_into_midnight)",
 			"",
 			"New spell-like abilities are unlocked for you as you rise to ascendency among the drow people.  ",
 			"**Prerequisites:** Cha 13, Wis 13, [Drow Nobility](feat/drow_nobility), [Greater Drow Nobility](feat/greater_drow_nobility), [Improved Drow Nobility](feat/improved_drow_nobility), able to use drow spell-like abilities, drow.  ",
@@ -2899,14 +2899,14 @@
 		"description": [
 			"## Unblinking Flame Feint (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 106](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 106](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"You move as swiftly and unpredictably as a flickering flame.  ",
 			"**Prerequisites:** Int 13; Wis 13; [Combat Expertise](feat/combat_expertise); [Perfect Style](feat/perfect_style); base attack bonus +9 or monk level 9th.  ",
 			"**Benefit:** While using Perfect Style, you can use your Wisdom modifier in place of your Charisma modifier when attempting Bluff checks to feint. You can spend 1 ki point as a swift action to gain the benefits of [Improved Feint](feat/improved_feint) for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points instead of 1 ki point when using Unblinking Flame Feint."
 		]
@@ -2921,14 +2921,14 @@
 		"description": [
 			"## Unblinking Flame Fist (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 106](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 106](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"You can exploit the weaknesses in your opponents' defenses, like a flame seeking fuel to consume.  ",
 			"**Prerequisites:** Int 13; Wis 13; [Combat Expertise](feat/combat_expertise); [Perfect Style](feat/perfect_style); [Stunning Fist](feat/stunning_fist); [Unblinking Flame Feint](feat/unblinking_flame_feint); base attack bonus +13 or monk level 13th.  ",
 			"**Benefit:** When using Perfect Style, the save DC of your stunning fist attack increases by 2 against flat-footed targets. When you spend 1 ki point to gain the benefits of [Improved Feint](feat/improved_feint) for 1 round, you can attempt a feint as part of your movement when charging.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points instead of 1 ki point when using Unblinking Flame Fist."
 		]
@@ -2952,7 +2952,7 @@
 		"description": [
 			"## Unbreakable (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 86](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 86](source/adventurers_guide)",
 			"",
 			"As a veteran [Gray Maiden](rule/aff_scarred_ladies), you can endure a staggering amount of punishment.  ",
 			"**Prerequisites:** Con 13, [Endurance](feat/endurance), [Toughness](feat/toughness), fighter level 4th.  ",
@@ -3067,7 +3067,7 @@
 		"description": [
 			"## Unconquerable Resolve (Combat)",
 			"",
-			"**Source** [Healer's Handbook pg. 15](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 15](source/healers_handbook)",
 			"",
 			"Each time you tap into your inner strength, your bodily strength is renewed, making you much more resilient than you might look.  ",
 			"**Prerequisites:** Resolve class feature, samurai level 1st.  ",
@@ -3122,7 +3122,7 @@
 		"description": [
 			"## Under and Over (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide)",
 			"",
 			"You can slip under a foe trying to grab you, knocking him off balance.  ",
 			"**Prerequisites:** [Agile Maneuvers](feat/agile_maneuvers), Small size or smaller.  ",
@@ -3143,7 +3143,7 @@
 		"description": [
 			"## Underfoot (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide)",
 			"",
 			"You slip under and around your larger foes.  ",
 			"**Prerequisites:** [Dodge](feat/dodge), [Mobility](feat/mobility), Small size or smaller.  ",
@@ -3296,14 +3296,14 @@
 		"description": [
 			"## Unfolding Wind Rush (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 106](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 106](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"Thrown weapons fly from your hands as if blown by a gale, and you leave behind a wake of wind as you move.  ",
 			"**Prerequisites:** Dex 13; Wis 13; [Dodge](feat/dodge); [Mobility](feat/mobility); [Perfect Style](feat/perfect_style); [Quick Draw](feat/quick_draw); [Unfolding Wind Strike](feat/unfolding_wind_strike); base attack bonus +13 or monk level 13th.  ",
 			"**Benefit:** When using Perfect Style and wielding thrown weapons, you can combine a full-attack action with a single move action. You must forgo the attack at your highest bonus but can take the remaining attacks as normal at any point during your movement. You can spend 1 ki point as a swift action to create a path of wind along your path of movement that functions as wind wall for 1 round; this effect does not affect your ranged attacks.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points instead of 1 ki point when using Unfolding Wind Rush."
 		]
@@ -3318,14 +3318,14 @@
 		"description": [
 			"## Unfolding Wind Strike (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 106](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 106](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"The wind through which your thrown weapons fly directs them to their targets or back to your hand.  ",
 			"**Prerequisites:** Dex 13; Wis 13; [Perfect Style](feat/perfect_style); [Quick Draw](feat/quick_draw); base attack bonus +9 or monk level 9th.  ",
 			"**Benefit:** When using Perfect Style, you double the range increment of any thrown weapon you wield. You can spend 1 ki point as a swift action to imbue a number of thrown weapons equal to your Wisdom bonus with the returning or seeking weapon special ability for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points instead of 1 ki point when using Unfolding Wind Strike."
 		]
@@ -3355,7 +3355,7 @@
 		"description": [
 			"## Unhindering Shield (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"You are accustomed to fighting with your shield.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th, proficiency with bucklers.  ",
@@ -3508,14 +3508,14 @@
 		"description": [
 			"## Untwisting Iron Skin (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 107](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 107](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"Your training has tempered your flesh to resist blows as though it were forged iron.  ",
 			"**Prerequisites:** Str 15; Wis 13; [Perfect Style](feat/perfect_style); [Toughness](feat/toughness); [Untwisting Iron Strength](feat/untwisting_iron_strength); base attack bonus +13 or monk level 13th.  ",
 			"**Benefit:** When using Perfect Style, you gain an amount of DR/adamantine equal to 1/3 your character level (maximum 6). Additionally, whenever you break an item with a hardness of 10 or more, you gain DR 1/- for a number of rounds equal to half the item's hit points (maximum 10 rounds); the value of this damage reduction increases by 1 for every 5 points of hardness above 10 the broken item had. You can spend 1 ki point as a swift action to double either of the damage reduction values granted by this feat for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points instead of 1 ki point when using Untwisting Iron Skin."
 		]
@@ -3530,14 +3530,14 @@
 		"description": [
 			"## Untwisting Iron Strength (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 107](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 107](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"You are a master at breaking even the toughest of objects.  ",
 			"**Prerequisites:** Str 15; Wis 13; [Perfect Style](feat/perfect_style); base attack bonus +9 or monk level 9th.  ",
 			"**Benefit:** When using Perfect Style, your attacks ignore an amount of hardness equal to your character level. Additionally, you gain a +4 bonus on Strength checks to break objects. If you spend 1 ki point as a swift action, you also gain the benefits of Improved Sunder for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points instead of 1 ki point when using Untwisting Iron Strength."
 		]
@@ -3616,7 +3616,7 @@
 		"description": [
 			"## Upsetting Shield Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"You can strike at weapons to upset enemy attacks.  ",
 			"**Prerequisites:** Dex 13, proficiency with bucklers.  ",
@@ -3629,7 +3629,7 @@
 		"description": [
 			"## Upsetting Strike (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 13](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 13](source/armor_masters_handbook)",
 			"",
 			"You can turn the tables on disoriented opponents.  ",
 			"**Prerequisites:** Dex 15, [Combat Reflexes](feat/combat_reflexes), [Improved Shield Bash](feat/improved_shield_bash), [Upsetting Shield Style](feat/upsetting_shield_style), proficiency with bucklers.  ",
@@ -3642,7 +3642,7 @@
 		"description": [
 			"## Upsetting Vengeance (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 13](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 13](source/armor_masters_handbook)",
 			"",
 			"You punish those who fail to press their attack.  ",
 			"**Prerequisites:** Dex 13, [Combat Reflexes](feat/combat_reflexes), [Improved Shield Bash](feat/improved_shield_bash), [Upsetting Shield Style](feat/upsetting_shield_style), [Upsetting Strike](feat/upsetting_strike), proficiency with bucklers.  ",
@@ -3687,19 +3687,19 @@
 		"description": [
 			"## Ursurping Spell (Metamagic)",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"Like Daronlyr the Overthrower, you lay such brazen claim to power that you force targets of your spells to act as though they were your allies.  ",
 			"**Benefit:** A creature that fails its saving throw against a usurping spell counts as your ally rather than your enemy for the purpose of flanking other creatures and cannot make attacks of opportunity against you. This effect lasts for the duration of the spell or for 1 round, whichever is longer. A usurping spell uses up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
-	"usurper's_guard": {
+	"usurpers_guard": {
 		"name": "Usurper's Guard",
 		"sources": [ "Pathfinder #132: The Six-Legend Soul" ],
 		"description": [
 			"## Usurper's Guard (Teamwork)",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"You work with your allies to create a defensive guard to facilitate spellcasting.  ",
 			"**Prerequisites:** Base attack bonus +3 or ability to cast 2nd-level spells.  ",
@@ -3812,7 +3812,7 @@
 		"description": [
 			"## Vanguard Hustle (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 13](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 13](source/armor_masters_handbook)",
 			"",
 			"You are able to protect allies from a distance.  ",
 			"**Prerequisites:** Dex 13, [Bodyguard](feat/bodyguard), [Combat Patrol](feat/combat_patrol), [Combat Reflexes](feat/combat_reflexes), [Mobility](feat/mobility), [Saving Shield](feat/saving_shield), [Vanguard Style](feat/vanguard_style), [Vanguard Ward](feat/vanguard_ward), proficiency with light or heavy shields.  ",
@@ -3825,7 +3825,7 @@
 		"description": [
 			"## Vanguard Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 13](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 13](source/armor_masters_handbook)",
 			"",
 			"You can bring your shield to bear against dangers that threaten your allies.  ",
 			"**Prerequisites:** [Bodyguard](feat/bodyguard), [Combat Reflexes](feat/combat_reflexes), proficiency with light or heavy shields.  ",
@@ -3838,20 +3838,20 @@
 		"description": [
 			"## Vanguard Ward (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 13](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 13](source/armor_masters_handbook)",
 			"",
 			"You strongly defend your allies.  ",
 			"**Prerequisites:** [Bodyguard](feat/bodyguard), [Combat Reflexes](feat/combat_reflexes), [Vanguard Style](feat/vanguard_style), proficiency with light or heavy shields.  ",
 			"**Benefit:** While using Vanguard Style, when an adjacent ally is attacked or required to make a Reflex saving throw, you can expend a use of an attack of opportunity to use both Bodyguard and Vanguard Style to protect that ally. You can also lose your shield bonus to AC to grant your ally a shield bonus to AC of the same value for as long as that ally gains a bonus to Reflex saves from Vanguard Style."
 		]
 	},
-	"vanth's_scythe": {
+	"vanths_scythe": {
 		"name": "Vanth's Scythe",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Vanth's Scythe",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_139_the_dead_road)",
 			"",
 			"You've seen the reapers many times, and have learned something of their methods.  ",
 			"**Prerequisites:** Character level 9th, [duskwalker](race/duskwalker), ghost hunter racial trait.  ",
@@ -3909,7 +3909,7 @@
 		"description": [
 			"## Varisian Tattoo",
 			"",
-			"**Source** [Inner Sea World Guide pg. 289](source/inner_sea_world_guide), [Rise of the Runelords Player's Guide pg. 15](source/rise_of_the_runelords_player's_guide), [Pathfinder Campaign Setting pg. 147](source/pathfinder_campaign_setting)",
+			"**Source** [Inner Sea World Guide pg. 289](source/inner_sea_world_guide), [Rise of the Runelords Player's Guide pg. 15](source/rise_of_the_runelords_players_guide), [Pathfinder Campaign Setting pg. 147](source/pathfinder_campaign_setting)",
 			"",
 			"You bear intricate tattoos that inspire and empower your natural magic ability. These tattoos mark you as a worker of the ancient traditions of Varisian magic. A Varisian tattoo typically consists of a long string of complex characters from the Thassilonian alphabet.  ",
 			"**Prerequisites:** [Spell Focus](feat/spell_focus).  ",
@@ -3985,7 +3985,7 @@
 		"description": [
 			"## Vengeful Banisher (Story)",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 13](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 13](source/demon_hunters_handbook)",
 			"",
 			"You've witnessed demons and their madness firsthand, likely in one of the lands detailed in this section, or perhaps some other demon-marked region such as the Worldwound or the Abyss. Since then, You've sworn to send these wretched fiends back to whence they came, and You've become an expert at rooting out their kind and their servants.  ",
 			"**Prerequisites:** You witnessed at least one family member or a close friend being killed by demons or demonic cultists, or you have the Hated Foe or An Eye for an Eye background.  ",
@@ -4000,7 +4000,7 @@
 		"description": [
 			"## Vengeful Death Vow",
 			"",
-			"**Source** [Pathfinder: Worldscape #1 pg. 28](source/pathfinder_worldscape_#1)",
+			"**Source** [Pathfinder: Worldscape #1 pg. 28](source/pathfinder_worldscape_1)",
 			"",
 			"Your death vow strikes terror into the hearts of your enemies, making them less likely to hit you in combat.  ",
 			"**Prerequisites:** Death vow class feature.  ",
@@ -4102,7 +4102,7 @@
 		"description": [
 			"## Vermin Heart",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide), [Pathfinder Campaign Setting pg. 219](source/pathfinder_campaign_setting), [Revenge of the Kobold King pg. 6](source/revenge_of_the_kobold_king)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide), [Pathfinder Campaign Setting pg. 219](source/pathfinder_campaign_setting), [Revenge of the Kobold King pg. 6](source/revenge_of_the_kobold_king)",
 			"",
 			"You have a special bond with things that creep, crawl, skitter, and sting.  ",
 			"**Prerequisites:** Wild empathy class feature.  ",
@@ -4162,7 +4162,7 @@
 		"description": [
 			"## Versatile Summon Monster",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 18](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 18](source/monster_summoners_handbook)",
 			"",
 			"You've learned to summon a more diverse array of monsters.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank, Knowledge (planes) 1 rank.  ",
@@ -4170,13 +4170,13 @@
 			"**Special:** You can select this feat more than once. Each time you do, you can choose an additional two templates."
 		]
 	},
-	"versatile_summon_nature's_ally": {
+	"versatile_summon_natures_ally": {
 		"name": "Versatile Summon Nature's Ally",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Versatile Summon Nature's Ally",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 18](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 18](source/monster_summoners_handbook)",
 			"",
 			"You've learned to summon a wider array of creatures.  ",
 			"**Prerequisites:** [Augment Summoning](feat/augment_summoning), Knowledge (nature) 1 rank, Knowledge (planes) 1 rank.  ",
@@ -4224,7 +4224,7 @@
 		"description": [
 			"## Victory Through Unity (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 79](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 79](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You have practiced your family's genetic experimentations upon your own familiar.  ",
 			"**Prerequisites:** You must have a familiar, and you must either be a member of House Merrosett or have the Initiated or Storied Lineage background.  ",
@@ -4326,7 +4326,7 @@
 		"description": [
 			"## Vim and Vigor (Combat)",
 			"",
-			"**Source** [Healer's Handbook pg. 15](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 15](source/healers_handbook)",
 			"",
 			"You rebound more quickly than normal when you draw upon your inner reserve to repair your wounds.  ",
 			"**Prerequisites:** Con 13, [Combat Vigor](feat/combat_vigor), [Endurance](feat/endurance), character level 3rd.  ",
@@ -4339,7 +4339,7 @@
 		"description": [
 			"## Vindictive Fall",
 			"",
-			"**Source** [Antihero's Handbook pg. 9](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 9](source/antiheros_handbook)",
 			"",
 			"When you fall, you drag others down with you.  ",
 			"**Prerequisites:** [Lightning Reflexes](feat/lightning_reflexes).  ",
@@ -4464,7 +4464,7 @@
 		"description": [
 			"## Vision Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 27](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 27](source/weapon_masters_handbook)",
 			"",
 			"You can pierce invisibility with divination magic items.  ",
 			"**Prerequisites:** Use Magic Device 2 ranks, base Fortitude save bonus +4.  ",
@@ -4587,7 +4587,7 @@
 		"description": [
 			"## Waking Dream",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)",
 			"",
 			"You can manipulate the world of dreams, even in your physical form.  ",
 			"**Prerequisites:** Cha 17, [Ephemeral Tread](feat/ephemeral_tread), [Lucid Dreamer](feat/lucid_dreamer), Knowledge (planes) 10 ranks.  ",
@@ -4637,7 +4637,7 @@
 			"**Benefit:** When using a spell trigger item, you can move both before and after triggering the item, as long as the total distance moved is not greater than your speed. Choose one creature potentially affected by your spell trigger item. Your movement does not provoke attacks of opportunity from that creature only. You must move at least 5 feet before and after using your spell trigger item to utilize this feat."
 		]
 	},
-	"wanderer's_fortune": {
+	"wanderers_fortune": {
 		"name": "Wanderer's Fortune",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -4684,7 +4684,7 @@
 		"description": [
 			"## War Singer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide)",
 			"",
 			"Your songs draw upon the savage chants and brutal ways of your people, inspiring those around you to new heights of violence and savagery.  ",
 			"**Prerequisites:** Cha 13, bardic performance class feature, half-orc or orc.  ",
@@ -4704,7 +4704,7 @@
 			"**Benefit:** You can spend 10 minutes and two uses of your vishkanya venom to coat an area no larger than 10 feet by 10 feet with your blood. This creates a forbiddance effect, using your character level as your caster level (maximum 20). The save DC of this effect is equal to 15 + your Charisma modifier. Creatures that take damage from the forbiddance effect are also exposed to your vishkanya venom. If you have abilities that alter the effects of your venom, you must choose which effect applies when you create the venomous area."
 		]
 	},
-	"warleader's_rage": {
+	"warleaders_rage": {
 		"name": "Warleader's Rage",
 		"sources": [ "Orcs of Golarion" ],
 		"description": [
@@ -4897,7 +4897,7 @@
 		"description": [
 			"## We are the Wall (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 76](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 76](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You embody your family's legendary monster-hunters.  ",
 			"**Prerequisites:** Be a member of House Darahan, or have the Champion of the People, Duty, or Raider background.  ",
@@ -4912,7 +4912,7 @@
 		"description": [
 			"## Weapon Adept (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You are skilled at using customized weaponry.  ",
 			"**Benefit:** Choose a weapon modification (such as jagged hooks). You treat weapons with that modification as being of their normal category (simple, martial, or exotic).  ",
@@ -5024,7 +5024,7 @@
 		"description": [
 			"## Weapon Material Mastery (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 23](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 23](source/weapon_masters_handbook)",
 			"",
 			"You can perform impressive deeds with weapons made from peculiar materials.  ",
 			"**Prerequisites:** Base attack bonus +7, weapon training class feature with a melee weapon.  ",
@@ -5122,7 +5122,7 @@
 		"description": [
 			"## Weapon Style Mastery (Style, Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 23](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 23](source/weapon_masters_handbook)",
 			"",
 			"You can combine multiple fighting styles together.  ",
 			"**Prerequisites:** Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon.  ",
@@ -5139,7 +5139,7 @@
 		"description": [
 			"## Weapon Trick (Combat)",
 			"",
-			"**Source** [Martial Arts Handbook pg. 12](source/martial_arts_handbook), [Weapon Master's Handbook pg. 8](source/weapon_master's_handbook)",
+			"**Source** [Martial Arts Handbook pg. 12](source/martial_arts_handbook), [Weapon Master's Handbook pg. 8](source/weapon_masters_handbook)",
 			"",
 			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -5148,7 +5148,7 @@
 			"",
 			"### One-Handed Weapon Tricks",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 8](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 8](source/weapon_masters_handbook)",
 			"",
 			"These weapon tricks are common among the Aldori swordlords and many weapon masters of Tian Xia. You can use these tricks only while wearing light or no armor, wielding a light or one-handed manufactured weapon in one hand, and holding nothing in your off hand.",
 			"",
@@ -5166,7 +5166,7 @@
 			"",
 			"### Polearm Tricks",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 8](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 8](source/weapon_masters_handbook)",
 			"",
 			"These weapon tricks are common in southern Garund and parts of Iobaria and Arcadia. You can use these tricks only while wielding a weapon from the polearm weapon group.",
 			"",
@@ -5184,7 +5184,7 @@
 			"",
 			"### Ranged Weapon Tricks",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 8](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 8](source/weapon_masters_handbook)",
 			"",
 			"These weapon tricks are common among the Chernasardo Rangers of Fangwood and the archers trained by House Narikopolus in Cheliax. You can use these tricks while wielding a ranged weapon",
 			"",
@@ -5194,7 +5194,7 @@
 			"",
 			"### Two-Handed Weapon Tricks",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 9](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 9](source/weapon_masters_handbook)",
 			"",
 			"These weapon tricks are known to dwarves of the Five Kings Mountains and Shoanti champions of the Cinderlands. You can use these tricks while wielding any two-handed weapon.",
 			"",
@@ -5210,7 +5210,7 @@
 			"",
 			"### Two-Weapon Tricks",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 9](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 9](source/weapon_masters_handbook)",
 			"",
 			"These weapon tricks are common among the pirates of the Shackles, the Shoanti, and natives of Northern Casmaron and Garund. You can use these tricks only while wielding two weapons.",
 			"",
@@ -5226,7 +5226,7 @@
 			"",
 			"### Weapon and Shield Tricks",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 9](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 9](source/weapon_masters_handbook)",
 			"",
 			"These weapon tricks are common in Taldor, where they are used by rondelero fighters, and Lastwall, where they are taught in the Crusader's War College. You can use these tricks only while wielding a shield and a weapon you can wield in one hand.",
 			"",
@@ -5249,7 +5249,7 @@
 		"description": [
 			"## Weapon Versatility (Combat)",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 25](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 25](source/undead_slayers_handbook)",
 			"",
 			"You can use your favored weapons in unconventional ways.  ",
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus), base attack bonus +1.  ",
@@ -5302,7 +5302,7 @@
 		"description": [
 			"## Well-Prepared",
 			"",
-			"**Source** [Advanced Player's Guide pg. 173](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 173](source/advanced_players_guide)",
 			"",
 			"Somehow, you always seem to have the right tools or supplies close at hand.  ",
 			"**Prerequisites:** Halfling.  ",
@@ -5646,7 +5646,7 @@
 		"description": [
 			"## Will of Giants",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"You are no mere humanoid, to be toyed with by petty enchantments.  ",
 			"**Prerequisites:** Wis 14, [Iron Will](feat/iron_will), giant subtype.  ",
@@ -5672,7 +5672,7 @@
 		"description": [
 			"## Willing Death (Origin)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 17](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 17](source/plane-hoppers_handbook)",
 			"",
 			"You might have been a soldier in an army, a self-sacrificing lover, or a hero who rushed in where even angels feared to tread. You died because you valued someone else's life above your own.  ",
 			"**Prerequisites:** Duskwalker.  ",
@@ -5685,7 +5685,7 @@
 		"description": [
 			"## Wily Warrior (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 17](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 17](source/spymasters_handbook)",
 			"",
 			"Those who observe your imposing demeanor assume muscle is your sole advantage, but you prove them wrong every time.  ",
 			"**Prerequisites:** Bluff 1 rank, Sense Motive 1 rank, base attack bonus +1, or you must have the Military Strategist background.  ",
@@ -5728,7 +5728,7 @@
 		"description": [
 			"## Wind Song",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 19](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 19](source/elemental_masters_handbook)",
 			"",
 			"You have learned to play haunting, captivating melodies similar to those of the eerie Painted Flutes canyon. Like an echo, the wind carries the sound and magic of your music much farther than it would normally reach.  ",
 			"**Prerequisites:** Perform (wind instruments) 5 ranks; bardic performance or raging song class feature.  ",
@@ -5762,7 +5762,7 @@
 		"description": [
 			"## Wingclipper (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"Your attacks can prevent winged opponents from flying.  ",
 			"**Prerequisites:** Base attack bonus +9.  ",
@@ -5810,7 +5810,7 @@
 			"**Note:** A monk can take this feat as a bonus feat at 1st level. To benefit from this feat, monks must have both hands free and be capable of delivering an unarmed strike."
 		]
 	},
-	"winter's_strike": {
+	"winters_strike": {
 		"name": "Winter's Strike",
 		"sources": [
 			"Advanced Class Guide",
@@ -6148,7 +6148,7 @@
 		"description": [
 			"## Yai-Mimic Spell (Metamagic)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"You have studied the magical nature of giant oni and can use your spells to imitate their esoteric features.  ",
 			"**Prerequisites:** Int 15, [Still Spell](feat/still_spell).  ",

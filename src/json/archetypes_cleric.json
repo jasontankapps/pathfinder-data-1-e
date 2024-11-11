@@ -5,7 +5,7 @@
 		"description": [
 			"## Angelfire Apostle",
 			"",
-			"**Source** [Healer's Handbook pg. 7](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 7](source/healers_handbook)  ",
 			"Angelfire apostles use the powers of good to avoid violence when possible and cleanse both maladies and evil creatures with blinding flames. Angelfire apostles typically follow Sarenrae, but a few serve empyreal lords such as Ragathiel.",
 			"",
 			"**Armor Proficiency:** Angelfire apostles are not proficient with medium armor.",
@@ -73,7 +73,7 @@
 		"description": [
 			"## Blossoming Light",
 			"",
-			"**Source** [Adventurer's Guide pg. 112](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 112](source/adventurers_guide)  ",
 			"There are some clerics who take their pursuit of purity and light to extremes. These clerics are known as blossoming lights, and forsake armor and weaponry in favor of opening their hearts to pure goodness. Many are peace-loving or even pacifistic, and nearly every blossoming light favors redemption over righteous wrath.",
 			"",
 			"Blossoming lights are primarily found among the [Lantern Bearers](rule/aff_lights), as their powers are a great boon against the organization's foes. Despite this, their ways did not originate with elvenkind. Legend tells that Sarenrae, horrified by the consequences of the destruction of Gormuz, reached out to one of that city's survivors. She granted the frightened woman divine powers to guide her fellow survivors, both to safety and to goodness, and humbly asked her to spread the message of redemption and forgiveness. While this priestess's identity has been lost to history, the Dawnflower's imparted wisdom has not.",
@@ -125,7 +125,7 @@
 		"description": [
 			"## Channeler of the Unknown",
 			"",
-			"**Source** [Antihero's Handbook pg. 12](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 12](source/antiheros_handbook)  ",
 			"While most clerics who fall out of favor with their deities simply lose their divine connection and the powers it granted, a few continue to go through the motions of prayer and obedience, persisting in the habits of faith even when their faith itself has faded. Among these, an even smaller number find that while their original deity no longer answers their prayers, something else does: an unknown entity or force of the universe channeling its power through a trained and practicing vessel.",
 			"",
 			"**This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-cleric.**",
@@ -509,7 +509,7 @@
 		"description": [
 			"## Foundation of Faith",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 8](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 8](source/elemental_masters_handbook)  ",
 			"Whether aiding the faithful or defending against the depredations of unbelievers, a foundation of faith is unshakable in her convictions. These clerics are most common among worshipers of deities of earth or protection, such as Abadar or Torag, but any religion might count foundations of faith among its priests.",
 			"",
 			"**Channel Energy:** A foundation of faith does not gain the channel energy ability.",
@@ -531,7 +531,7 @@
 		"description": [
 			"## Herald Caller",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 7](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 7](source/monster_summoners_handbook)  ",
 			"Unlike warpriests or paladins, who charge headlong into battle in the name of their patron deities, herald callers are adept at calling powerful outsiders to aid their brethren in battle.",
 			"",
 			"**Skill Ranks per Level:** 4 + Int modifier. This alters the cleric's class skills.",
@@ -727,7 +727,7 @@
 		"description": [
 			"## Roaming Exorcist",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 18](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 18](source/undead_slayers_handbook)  ",
 			"The roaming exorcist travels far and wide to root out possessions, hauntings, and hidden evils. The roaming exorcist extracts unruly spirits from not only victims of possession, but also haunted sites and accursed items.",
 			"",
 			"**Skill Ranks per Level:** 4 + Int modifier.",
@@ -751,7 +751,7 @@
 		"description": [
 			"## Sacred Attendant",
 			"",
-			"**Source** [Healer's Handbook pg. 4](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 4](source/healers_handbook)  ",
 			"Sacred attendants bring out the varied beauty in everyone they help, and they typically worship deities of beauty, love, and sex.",
 			"",
 			"**Channel Beauty (Su):** Whenever a sacred attendant channels energy to heal, she can opt to reduce the number of dice she rolls by 1 or more. For every die the sacred attendant subtracts, each of the targets of the channeled energy is healed of 1 point of Charisma damage.",
@@ -811,7 +811,7 @@
 		"description": [
 			"## Stoic Caregiver",
 			"",
-			"**Source** [Healer's Handbook pg. 6](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 6](source/healers_handbook)  ",
 			"Stoic caregivers are champions of life in defiance of untimely death as well as undeath. Stoic caregivers are sent to protect and help those who find themselves in dangerous situations, especially children and expectant mothers, and they provide aid and comfort to individuals acting to fulfill prophecy.",
 			"",
 			"**Positive Channeler (Su):** A stoic caregiver must choose to channel positive energy, even if she worships a deity who is neutral or if she is not devoted to a particular deity. A stoic caregiver cannot worship a deity who is evil.",

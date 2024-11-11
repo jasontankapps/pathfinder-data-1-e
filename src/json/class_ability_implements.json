@@ -320,7 +320,7 @@
 			"*Parity (Su):* While casting a transmutation spell that provides you an enhancement bonus to a single mental or physical attribute, you can expend 1 point of mental focus as an immediate action to divide the bonus the spell provides, granting half to the original attribute affected by the spell and half to a corresponding attribute. Strength corresponds with Intelligence, Dexterity corresponds with Wisdom, and Constitution corresponds with Charisma. You can also use this ability to divide an ability score bonus granted by a magic item, but you must immediately expend 1 point of mental focus each day when you allocate mental focus to your implements to maintain the parity, or else the bonus immediately reverts to normal."
 		]
 	},
-	"mage's_paraphernalia_panoply": {
+	"mages_paraphernalia_panoply": {
 		"name": "Mage's Paraphernalia (Panoply)",
 		"description": [
 			"## Mage's Paraphernalia",
@@ -346,7 +346,7 @@
 			"*Spell Power (Su):* As a free action while casting a spell, you can expend 2 points of mental focus to increase that spell's caster level by 2. At 12th and 18th levels, whenever you use this ability, you can spend an additional point of mental focus in order to increase the spell's caster level by an additional 1."
 		]
 	},
-	"performer's_accoutrements_panoply": {
+	"performers_accoutrements_panoply": {
 		"name": "Performer's Accoutrements (Panoply)",
 		"description": [
 			"## Performer's Accoutrements",
@@ -372,7 +372,7 @@
 			"*Puppet Master (Sp):* By taking a standard action and expending 2 points of mental focus, you can implant a hypnotic suggestion in a creature. This functions as per [suggestion](spell/suggestion) (using your occultist level as the caster level), except that the saving throw DC is equal to 10 + half your occultist level + your Intelligence modifier, and if the target fails its saving throw, you can choose to have it forget everything that occurs while it is under the spell's effects, as well as any recollection of you using this ability on it. Memories forgotten in this way can be recovered with restoration or spells or effects that can restore lost memories (such as modify memory)."
 		]
 	},
-	"saint's_holy_regalia_panoply": {
+	"saints_holy_regalia_panoply": {
 		"name": "Saint's Holy Regalia (Panoply)",
 		"description": [
 			"## Saint's Holy Regalia",

@@ -22,7 +22,7 @@
 		"description": [
 			"## Insidious Healing",
 			"",
-			"**Source** [Healer's Handbook pg. 8](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 8](source/healers_handbook)",
 			"",
 			"Your healing spells give you an advantage when you choose to affect those targets with other spells.  ",
 			"**Benefit:** Any creature that chooses not to attempt a saving throw against any healing spell you cast takes a -4 penalty on saving throws against other targeted spells you cast for 24 hours."
@@ -222,14 +222,14 @@
 		"description": [
 			"## Intense Blows (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"Your forceful blows and your armor's weight make you more difficult to hinder in combat.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with heavy armor.  ",
 			"**Benefit:** When you are using Power Attack, you gain a +1 bonus to your CMD until the beginning of your next turn. When your base attack bonus reaches +4, and every 4 points thereafter, this bonus increases by another 1.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to double this feat's bonus to your CMD for one combat maneuver check."
 		]
@@ -253,7 +253,7 @@
 		"description": [
 			"## Intensified Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"Your spells can go beyond several normal limitations.  ",
 			"**Benefit:** An intensified spell increases the maximum number of damage dice by 5 levels. You must actually have sufficient caster levels to surpass the maximum in order to benefit from this feat. No other variables of the spell are affected, and spells that inflict damage that is not modified by caster level are not affected by this feat. An intensified spell uses up a spell slot one level higher than the spell's actual level."
@@ -487,7 +487,7 @@
 			"**Benefit:** Whenever an opponent you threaten makes an attack against a helpless, prone, or stunned ally or any attack against a noncombatant, that opponent provokes an attack of opportunity from you. If your attack of opportunity hits your foe, she takes a -4 penalty on the attack roll that provoked this attack of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">When an opponent provokes an attack of opportunity from you as a result of the Intrepid Rescuer feat, if your attack of opportunity hits, you can spend 5 stamina points to cause the opponent's attack to automatically miss your ally."
 		]
@@ -549,7 +549,7 @@
 		"description": [
 			"## Invested Magic",
 			"",
-			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 69](source/pathfinder_#30_the_twice-damned_prince)",
+			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 69](source/pathfinder_30_the_twice-damned_prince)",
 			"",
 			"Spells cast using this feat pay the wages of Mammon and forgo their more mundane costs.  ",
 			"**Benefit:** You may satisfy the material requirement of any spell you cast with valuable coins, gems, or jewelry rather than the normal component. For spells with material components with no listed value, valuables worth 5 times the spell's level in gp may be expended instead of the usual components (5 gp for a 1st-level spell, 20 gp for a 4th-level spell, etc). In the case of spells with components that have a listed cost, you may expend valuables worth a number of gp equal to one and a half times this cost (thus, a spell like [commune](spell/commune) with material components costing 500 gp could be cast using valuables worth 750 gp). Only coins, gems, jewelry, and other similar objects of obvious worth can be used to replace other material components using this feat. The value of these objects need not match the required cost exactly, but they cannot be less than the required costs. Should valuables of greater value than required be expended (likely when employing objects like gems or jewelry), the extraneous gp value is lost, consumed with the rest of the object. The only exception comes in the case of spells with material components that have a listed worth. When casting such spells you may expend double the components' gp worth in valuables to cast the spell as if your caster level were 1 level higher. This e!ect only applies to spells with components with a specific gp value. Any expenditure beyond double the gp value grants no additional benefit."
@@ -574,7 +574,7 @@
 		"description": [
 			"## Iomedaean Sword Oath",
 			"",
-			"**Source** [Pathfinder #26: The Sixfold Trial pg. 72](source/pathfinder_#26_the_sixfold_trial)",
+			"**Source** [Pathfinder #26: The Sixfold Trial pg. 72](source/pathfinder_26_the_sixfold_trial)",
 			"",
 			"By swearing to never use a weapon other than a longsword, you can achieve things normally limited to the most highly trained swordsmen.  ",
 			"**Prerequisites:** Proficient in longsword, [Weapon Focus (longsword)](feat/weapon_focus), base attack bonus +4, worshiper of Iomedae.  ",
@@ -651,14 +651,14 @@
 		"description": [
 			"## Ironclad Reactions (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"You are able to quickly react to attacks.  ",
 			"**Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium armor.  ",
 			"**Benefit:** Once per round when a foe successfully hits you with an attack of opportunity, you can expend a use of an attack of opportunity to take a 5-foot step. You can do this even if you have already taken a 5-foot step.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points to use this feat even if an attack of opportunity against you misses."
 		]
@@ -669,7 +669,7 @@
 		"description": [
 			"## Ironguts",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"You have an especially strong stomach.  ",
 			"**Prerequisites:** Con 13; dwarf, half-orc, or orc.  ",
@@ -682,7 +682,7 @@
 		"description": [
 			"## Ironhide",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"Your skin is thicker and more resilient than that of most of your people.  ",
 			"**Prerequisites:** Con 13; dwarf, half-orc, or orc.  ",
@@ -935,7 +935,7 @@
 		"description": [
 			"## Joyless Toil (Combat)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 11](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 11](source/elemental_masters_handbook)",
 			"",
 			"Your strikes render your enemy distracted and unable to focus on productive action.  ",
 			"**Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
@@ -1036,7 +1036,7 @@
 			"**Benefit:** When a foe more than 5 feet away from you makes a melee attack against you using reach, you gain a +4 dodge bonus to your AC against the attack.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to gain the benefits of this feat against any one melee attack."
 		]
@@ -1047,7 +1047,7 @@
 		"description": [
 			"## Keen Scent",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"Your nose is as sensitive as that of a wild predator.  ",
 			"**Prerequisites:** Wis 13, half-orc or orc.  ",
@@ -1115,7 +1115,7 @@
 		"description": [
 			"## Ki Throw (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"Your physical control and mastery of momentum allows you to throw enemies.  ",
 			"**Prerequisites:** [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
@@ -1360,7 +1360,7 @@
 		"description": [
 			"## Knight of the Twisted Word (Gathlain Court Title)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hoppers_handbook)",
 			"",
 			"You've so impressed the Traitor that he's given you a title in his court-in-exile-possibly to keep an eye on you.  ",
 			"**Prerequisites:** Fey creature type or [Fey Obedience](feat/fey_obedience) (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat.",
@@ -1374,14 +1374,14 @@
 		"description": [
 			"## Knocking Blows (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"The weight of your blows overwhelms your opponents.  ",
 			"**Prerequisites:** Str 13, [Intense Blows](feat/intense_blows), [Power Attack](feat/power_attack), base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.  ",
 			"**Benefit:** If you hit a creature that is no more than one size category larger than you with a Power Attack, the creature you attacked is also knocked off balance. Until the beginning of your next turn, it takes a -4 penalty to its CMD against combat maneuvers that move it or knock it prone.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points when using this feat to change the target's penalty to CMD to -6."
 		]
@@ -1444,7 +1444,7 @@
 		"description": [
 			"## Knowledgeable Spellcaster",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunters_handbook)",
 			"",
 			"Your vast knowledge of opponents lets you more effectively cast spells on them.  ",
 			"**Prerequisites:** Knowledge (arcana, dungeoneering, local, nature, planes, or religion) 5 ranks, caster level 7th.  ",
@@ -1548,13 +1548,13 @@
 			"**Benefit:** You gain a +4 bonus on combat maneuver checks against enemies denied their Dexterity bonus to AC."
 		]
 	},
-	"kraggodan's_stance": {
+	"kraggodans_stance": {
 		"name": "Kraggodan's Stance",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Kraggodan's Stance (Combat)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 11](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 11](source/elemental_masters_handbook)",
 			"",
 			"You have learned one of the secrets of Kraggodan's defenders and can lock your armor and shield into an impenetrable barrier.  ",
 			"**Prerequisites:** Con 13, proficiency with heavy armor and shields.  ",
@@ -1681,20 +1681,20 @@
 			"**Benefit:** When using this style, you treat spiked chains as if they had the monk special weapon feature. Additionally, if you have Stunning Fist, you can spend 1 point from your ki pool to make a Stunning Fist attack with your spiked chain instead of an unarmed strike. This still costs a use of Stunning Fist as normal."
 		]
 	},
-	"lady_luck's_guidance": {
+	"lady_lucks_guidance": {
 		"name": "Lady Luck's Guidance",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
 			"## Lady Luck's Guidance",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hoppers_handbook)",
 			"",
 			"Desna has taken a liking to you and guides you from the stars as you travel.  ",
 			"**Prerequisites:** Knowledge (geography) 5 ranks, Knowledge (planes) 5 ranks.  ",
 			"**Benefit:** Once per day during overland travel, you can attempt a DC 25 Knowledge (geography) check to follow the stars. On a success, you and up to eight other creatures use Desna's mystical guidance to travel twice the usual distance during overland travel."
 		]
 	},
-	"lamashtu's_mark": {
+	"lamashtus_mark": {
 		"name": "Lamashtu's Mark",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
@@ -1703,7 +1703,7 @@
 		"description": [
 			"## Lamashtu's Mark",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 419](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #1: Burnt Offerings pg. 56](source/pathfinder_#1_burnt_offerings)",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 419](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #1: Burnt Offerings pg. 56](source/pathfinder_1_burnt_offerings)",
 			"",
 			"You are marked as one of Lamashtu's favored minions.  ",
 			"**Prerequisites:** Con 13, Lamashtu as patron deity.  ",
@@ -1984,7 +1984,7 @@
 		"description": [
 			"## Leaf Singer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"Your songs recount the ways and mysteries of your people.  ",
 			"**Prerequisites:** Cha 13, bardic performance class feature, elf or half-elf.  ",
@@ -2020,7 +2020,7 @@
 			"**Benefit:** When you succeed at a Reflex save against a spell or effect that affects an area, as an immediate action you can attempt an Acrobatics check to jump out of the effect's area. You must move to the nearest space you can see outside of the affected area. The DC for this Acrobatics check is equal to the number of feet you must move to escape the area, and you can't travel farther than your normal movement. If you use this feat, you are staggered on your next turn. This movement doesn't provoke attacks of opportunity from creatures in the area of the effect you are escaping.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to ignore the staggered condition normally imparted by this feat."
 		]
@@ -2066,7 +2066,7 @@
 		"description": [
 			"## Lector Priest (Origin)",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_139_the_dead_road)",
 			"",
 			"Your creator was a priest and magician, and your memories are filled with the smell of incense.Your creator was a priest and magician, and your memories are filled with the smell of incense.  ",
 			"**Prerequisites:** [Shabti](race/shabti).  ",
@@ -2142,7 +2142,7 @@
 		],
 		"mythic_only": true
 	},
-	"legionnaire's_inspiration": {
+	"legionnaires_inspiration": {
 		"name": "Legionnaire's Inspiration",
 		"sources": [
 			"Adventurer's Guide",
@@ -2151,7 +2151,7 @@
 		"description": [
 			"## Legionnaire's Inspiration",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 29](source/andoran_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurers_guide), [Andoran, Birthplace of Freedom pg. 29](source/andoran_birthplace_of_freedom)",
 			"",
 			"You inspire your comrades to stand against impossible odds.  ",
 			"**Prerequisites:** Affiliated with the Golden Legion.  ",
@@ -2222,7 +2222,7 @@
 		"description": [
 			"## Liberating Shot (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_masters_handbook)",
 			"",
 			"You can use ranged weapons to help grappled allies escape their captors' clutches.  ",
 			"**Prerequisites:** Dex 13, [Deadly Aim](feat/deadly_aim), base attack bonus +7, weapon training class feature with a ranged weapon.  ",
@@ -2310,7 +2310,7 @@
 		"description": [
 			"## Lifebound",
 			"",
-			"**Source** [Healer's Handbook pg. 15](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 15](source/healers_handbook)",
 			"",
 			"You are especially responsive to curative magic that soothes your wounds with particular effectiveness.  ",
 			"**Benefit:** Whenever a spell, spell-like ability, or supernatural ability heals you up to your maximum number of hit points, any excess hit points persist for 1 round per level as temporary hit points (up to a maximum number of hit points equal to 1/2 your character level).",
@@ -2361,7 +2361,7 @@
 			"**Benefit:** Your haunting gaze grants horrifying insights to the darker places of your inner psyche. You gain a +2 insight bonus on Will saving throws against emotion effects and a +2 insight bonus on Bluff checks. Additionally, if a humanoid creature attempts to read your mind using an ability like detect thoughts, it is shaken for 2d4 rounds regardless of whether the mind-reading attempt succeeds. If a humanoid fails a Diplomacy check against you by 5 or more, it becomes shaken for 2d4 rounds by your emotionless gaze."
 		]
 	},
-	"life's_blood": {
+	"lifes_blood": {
 		"name": "Life's Blood",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -2412,7 +2412,7 @@
 		"description": [
 			"## Light Step",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"You pick your way nimbly through even the most dangerous and uneven terrain.  ",
 			"**Prerequisites:** [Acrobatic Steps](feat/acrobatic_steps), [Nimble Moves](feat/nimble_moves), elf.  ",
@@ -2425,7 +2425,7 @@
 		"description": [
 			"## Lighting the Way (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 79](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 79](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You seek to lead others through your pious example.  ",
 			"**Prerequisites:** Be a member of House Zespire, or have the Devoted, Exemplar, Marked by the Gods, or Righteous Mentor background.  ",
@@ -2539,7 +2539,7 @@
 		"description": [
 			"## Lingering Performance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"The effects of your bardic performance carry on, even after you have stopped performing.  ",
 			"**Prerequisites:** Bardic performance class feature.  ",
@@ -2552,7 +2552,7 @@
 		"description": [
 			"## Lingering Smite",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 25](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 25](source/undead_slayers_handbook)",
 			"",
 			"You can channel your divine energy through a melee weapon to cause lingering damage to undead creatures.  ",
 			"**Prerequisites:** [Channel Smite](feat/channel_smite), channel energy 3d6.  ",
@@ -2565,7 +2565,7 @@
 		"description": [
 			"## Lingering Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"You spell clings to existence, slowly fading from the world.  ",
 			"**Benefit:** You may cause an instantaneous spell that affects an area to persist until the beginning of your next turn. Those already in the area suffer no additional harm, but other creatures or objects entering the area are subject to its effects. A lingering spell with a visual manifestation obscures vision, providing concealment (20% miss chance) beyond 5 feet and total concealment (50% miss chance) beyond 20 feet.",
@@ -2690,13 +2690,13 @@
 			"**Benefit:** When you use the Linnorm Vengeance feat to allow an enemy to hit you, you can make a retaliatory unarmed strike attack against that opponent as an immediate action. This acts as an attack of opportunity, and counts against the number of attacks of opportunity you can make each round. Additionally, once per day when a melee attack deals enough damage to knock you unconscious or kill you, the attacker must succeed at a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier) or be stunned for 1 round. This save occurs after you make the retaliatory unarmed strike granted by the Linnorm Vengeance feat."
 		]
 	},
-	"lion's_heart": {
+	"lions_heart": {
 		"name": "Lion's Heart",
 		"sources": [ "Pathfinder #132: The Six-Legend Soul" ],
 		"description": [
 			"## Lion's Heart",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"Inspired by tales of Cyricas the Leaping Lion vaulting from his sickbed, you refuse to allow ability damage to hinder you.  ",
 			"**Prerequisites:** Wis 15, [Great Fortitude](feat/great_fortitude).  ",
@@ -2774,7 +2774,7 @@
 		"description": [
 			"## Lonely Death (Origin)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 17](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 17](source/plane-hoppers_handbook)",
 			"",
 			"Whether because you were lost in wilderness or quarantined during a plague, you died alone, unnoticed, and unmourned. Your body might not have been discovered for weeks.  ",
 			"**Prerequisites:** Duskwalker.  ",
@@ -2803,7 +2803,7 @@
 		"description": [
 			"## Longshanks",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"Your long stride allows you extra maneuverability.  ",
 			"**Prerequisites:** Giant subtype, size Large or larger.  ",
@@ -2819,7 +2819,7 @@
 		"description": [
 			"## Lookout (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"Your allies help you avoid being surprised.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you may act in the surprise round as long as your ally would normally be able to act in the surprise round. If you would normally be denied the ability to act in the surprise round, your initiative is equal to your initiative roll or the roll of your ally -1, whichever is lower. If both you and your ally would be able to act in the surprise round without the aid of this feat, you may take both a standard and a move action (or a full-round action) during the surprise round.",
@@ -2880,7 +2880,7 @@
 		"description": [
 			"## Low Profile (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"Yours small stature helps you avoid ranged attacks.  ",
 			"**Prerequisites:** Dex 13, Small size or smaller.  ",
@@ -2924,7 +2924,7 @@
 		"description": [
 			"## Luck of Heroes (Hero Point)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 324](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 324](source/advanced_players_guide)",
 			"",
 			"To others, it seems that you always have a bit of luck around you.  ",
 			"**Prerequisites:** Hero's Fortune.  ",
@@ -2955,7 +2955,7 @@
 		"description": [
 			"## Lucky Halfling",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide), [Dark Markets - A Guide to Katapesh pg. 13](source/dark_markets_-_a_guide_to_katapesh)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide), [Dark Markets - A Guide to Katapesh pg. 13](source/dark_markets_-_a_guide_to_katapesh)",
 			"",
 			"You bring luck to those with whom you travel.  ",
 			"**Prerequisites:** Halfling.  ",
@@ -3320,7 +3320,7 @@
 		"description": [
 			"## Magical Enigma (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 16](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 16](source/spymasters_handbook)",
 			"",
 			"A troubling mystery lurks around you, tied to the origin of your magic or your family's legacy, and you seek the truth at all costs.  ",
 			"**Prerequisites:** Bloodline, eidolon, mystery, phantom, spirit animal, or witch's familiar class feature and you must have an unknown secret about your magic or family history (even if you do not yet know the topic of the secret) or have the One of a Kind, the Outsider's Lineage, or the Unknown background.  ",
@@ -3393,7 +3393,7 @@
 		"description": [
 			"## Majesty of the Yamaraj",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_139_the_dead_road)",
 			"",
 			"The magistrates of death can breathe death and decay. You were in the presence of a final judge once and your soul remembers that moment still.  ",
 			"**Prerequisites:** Channel energy 5d6, [duskwalker](race/duskwalker), ghost hunter racial trait.  ",
@@ -3406,7 +3406,7 @@
 		"description": [
 			"## Major Spell Expertise",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"You can cast a single low-level spell as a spell-like ability.  ",
 			"**Prerequisites:** [Minor Spell Expertise](feat/minor_spell_expertise), ability to cast 9th-level spells.  ",
@@ -3628,7 +3628,7 @@
 		"description": [
 			"## Marcher-Lord of the Cerulean Abyss (Gathlain Court Title)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hoppers_handbook)",
 			"",
 			"You've made your case to become one of Ragadahn's nobles in the traditional way-by carving your sigil and the Water Lord's ouroboros in the flesh of a living dragon or of another massive monstrosity-and earned some of his might as a reward.  ",
 			"**Prerequisites:** Fey creature type or [Fey Obedience](feat/fey_obedience) (Ragadahn), you must have carved your name and Ragadahn's holy symbol on the hide of a living dragon or outsider with either the aquatic or water subtype and a CR at least 2 higher than your level when you took the feat.  ",
@@ -3733,13 +3733,13 @@
 			"**Benefit:** You can use the surge ability once per day (adding 1d6). If you are or become mythic, you can use your surge one additional time per day."
 		]
 	},
-	"marksman's_utility": {
+	"marksmans_utility": {
 		"name": "Marksman's Utility",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Marksman's Utility (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_masters_handbook)",
 			"",
 			"Your mastery of ranged weapons enables you to use them to perform deeds that you would normally need a firearm to accomplish.  ",
 			"**Prerequisites:** Base attack bonus +6, weapon training class feature with a ranged weapon.  ",
@@ -3766,7 +3766,7 @@
 		"description": [
 			"## Martial Focus (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 20](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 20](source/weapon_masters_handbook)",
 			"",
 			"You have honed your skills with a group of related weapons.  ",
 			"**Prerequisites:** Base attack bonus +5.  ",
@@ -3833,7 +3833,7 @@
 			"You can gain Martial Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of weapon."
 		]
 	},
-	"mascot's_affection": {
+	"mascots_affection": {
 		"name": "Mascot's Affection",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -3855,7 +3855,7 @@
 		"description": [
 			"## Mask Focus",
 			"",
-			"**Source** [Adventurer's Guide pg. 124](source/adventurer's_guide), [Arcane Anthology pg. 14](source/arcane_anthology)",
+			"**Source** [Adventurer's Guide pg. 124](source/adventurers_guide), [Arcane Anthology pg. 14](source/arcane_anthology)",
 			"",
 			"You can use your mask as an additional focus for your arcane spells, enhancing their power.  ",
 			"**Prerequisites:** [Extend Spell](feat/extend_spell), [Nameless One](feat/nameless_one), ability to cast 3rd-level arcane spells.  ",
@@ -3888,7 +3888,7 @@
 		"description": [
 			"## Masked by Fear",
 			"",
-			"**Source** [Adventurer's Guide pg. 124](source/adventurer's_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
+			"**Source** [Adventurer's Guide pg. 124](source/adventurers_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
 			"",
 			"You embody all that you fear while wearing your mask.  ",
 			"**Prerequisites:** [Nameless One](feat/nameless_one); base Will save bonus +6 or bravery class feature.  ",
@@ -3904,7 +3904,7 @@
 		"description": [
 			"## Masked Intent",
 			"",
-			"**Source** [Adventurer's Guide pg. 124](source/adventurer's_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
+			"**Source** [Adventurer's Guide pg. 124](source/adventurers_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
 			"",
 			"Your masked face makes your intentions nearly impossible to discern.  ",
 			"**Prerequisites:** [Nameless One](feat/nameless_one).  ",
@@ -3958,7 +3958,7 @@
 		"description": [
 			"## Master Alchemist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"Your mastery of alchemy is nearly supernatural.  ",
 			"**Prerequisites:** Craft (alchemy) 5 ranks.  ",
@@ -4163,7 +4163,7 @@
 			"**Benefit:** When wielding a weapon with the performance weapon special quality that belongs to a category of weapons in which you have weapon training, you may add the bonus from your weapon training to any performance combat checks made as a result of using the weapon."
 		]
 	},
-	"mauler's_endurance": {
+	"maulers_endurance": {
 		"name": "Mauler's Endurance",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -4227,7 +4227,7 @@
 		"description": [
 			"## Maze Expert",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunters_handbook)",
 			"",
 			"You have a near-perfect sense of direction.  ",
 			"**Prerequisites:** [Skill Focus (Survival)](feat/skill_focus), Survival 5 ranks.  ",
@@ -4266,7 +4266,7 @@
 			"**Benefit:** When you hit an opponent with a melee or ranged weapon attack, you may choose to deal average damage (rounded down), as if you had rolled exactly the average amount on the damage die or dice. You add your damage bonuses and penalties as normal.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 5 stamina points before making a melee or ranged attack with Measured Response to treat the attack roll's result as a 10."
 		]
@@ -4296,7 +4296,7 @@
 			"**Benefit:** For 1 round per character level after you perform combat meditation, whenever you attempt a concentration check to avoid losing a spell or a Fortitude save to resist a distraction effect (such as the distraction ability of a swarm), you gain a +4 bonus on the check. If you choose to use the benefits of Combat Meditation on the check, the bonus applies to both die rolls."
 		]
 	},
-	"medusa's_wrath": {
+	"medusas_wrath": {
 		"name": "Medusa's Wrath",
 		"sources": [
 			"Mythic Adventures",
@@ -4309,7 +4309,7 @@
 			"**Source** [PRPG Core Rulebook pg. 130](source/prpg_core_rulebook)",
 			"",
 			"You can take advantage of your opponent's confusion, delivering multiple blows.  ",
-			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), [Gorgon's Fist](feat/gorgon's_fist), [Scorpion Style](feat/scorpion_style), base attack bonus +11.  ",
+			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), [Gorgon's Fist](feat/gorgons_fist), [Scorpion Style](feat/scorpion_style), base attack bonus +11.  ",
 			"**Benefit:** Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
@@ -4387,7 +4387,7 @@
 		"description": [
 			"## Merciful Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"Your damaging spells subdue rather than kill.  ",
 			"**Benefit:** You can alter spells that inflict damage to inflict nonlethal damage instead. Spells that inflict damage of a particular type (such as fire) inflict nonlethal damage of that same type. A merciful spell does not use up a higher-level spell slot than the spell's actual level."
@@ -4660,7 +4660,7 @@
 		"description": [
 			"## Minor Spell Expertise",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"You are able to cast a 1st-level spell as a spell-like ability.  ",
 			"**Prerequisites:** Ability to cast 4th-level spells.  ",
@@ -4668,7 +4668,7 @@
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new spell."
 		]
 	},
-	"minotaur's_charge": {
+	"minotaurs_charge": {
 		"name": "Minotaur's Charge",
 		"sources": [ "Classic Monsters Revisited" ],
 		"description": [
@@ -4712,7 +4712,7 @@
 			"**Benefit:** If you are the only character threatening an opponent and that opponent uses a combat feat (including taking an action that benefits from a combat feat, or gaining any bonus to AC, attack rolls, damage rolls, or saving throws from a combat feat), you can take an immediate action to gain the benefit of that feat until the end of your next turn. You must meet all the feat's prerequisites. If a feat has a daily use limitation, as does Stunning Fist, any uses of that feat while you're using Mirror Move count toward that feat's daily limit for you. You can use Mirror Move once per day for every 4 levels you have attained.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend up to 5 stamina points to extend the duration that you benefit from a mirrored feat by 1 round per stamina point spent."
 		]
@@ -4779,7 +4779,7 @@
 		"description": [
 			"## Missile Shield (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"You are skilled at deflecting ranged attacks with your shield.  ",
 			"**Prerequisites:** Dex 13, [Shield Focus](feat/shield_focus).  ",
@@ -4832,7 +4832,7 @@
 		"description": [
 			"## Mobile Bulwark Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"You are able to swing your tower shield around quickly.  ",
 			"**Prerequisites:** Str 13, [Shield Focus](feat/shield_focus), [Tower Shield Proficiency](feat/tower_shield_proficiency), base attack bonus +1.  ",
@@ -4845,7 +4845,7 @@
 		"description": [
 			"## Mobile Fortress (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"You use your tower shield to defend yourself or an ally at a moment's notice.  ",
 			"**Prerequisites:** Str 15, [Mobile Bulwark Style](feat/mobile_bulwark_style), [Shield Focus](feat/shield_focus), [Tower Shield Proficiency](feat/tower_shield_proficiency), base attack bonus +4.  ",
@@ -4858,7 +4858,7 @@
 		"description": [
 			"## Mobile Gathering",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 23](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 23](source/elemental_masters_handbook)",
 			"",
 			"You can gather elemental energy while walking slowly.  ",
 			"**Prerequisites:** Kineticist level 7th, kinetic blast class feature.  ",
@@ -4871,7 +4871,7 @@
 		"description": [
 			"## Mobile Stronghold (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"You can use your tower shield to block magical attacks.  ",
 			"**Prerequisites:** Str 17, [Mobile Bulwark Style](feat/mobile_bulwark_style), [Mobile Fortress](feat/mobile_fortress), [Shield Focus](feat/shield_focus), [Tower Shield Proficiency](feat/tower_shield_proficiency), base attack bonus +7.  ",
@@ -4938,7 +4938,7 @@
 		"description": [
 			"## Modification Master (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You can create inconceivable bastardizations of the smith's art.  ",
 			"**Prerequisites:** [Creative Armorsmith](feat/creative_armorsmith), [Armor Adept](feat/armor_adept), and Craft (armor) 7 ranks, or Creative Weaponsmith, [Weapon Adept](feat/weapon_adept), and Craft (weapons) 7 ranks; Knowledge (engineering) 7 ranks.  ",
@@ -4951,7 +4951,7 @@
 		"description": [
 			"## Modification Trainer (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You can drill others in the use of modified weapons or armor.  ",
 			"**Prerequisites:** Cha 13, Armor Adept or Weapon Adept, fighter level 4th.  ",
@@ -4964,7 +4964,7 @@
 		"description": [
 			"## Modified Weapon Proficiency (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You know how to use a specific weapon skillfully, even when it has undergone modification.  ",
 			"**Prerequisites:** Proficiency with the selected weapon.  ",
@@ -5107,7 +5107,7 @@
 		"description": [
 			"## Monster Spotter",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 7](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 7](source/monster_hunters_handbook)",
 			"",
 			"Your knowledge of strange life forms makes you adept at piercing their disguises and detecting their hiding places.  ",
 			"**Prerequisites:** [Skill Focus](feat/skill_focus) (Knowledge [any]), Knowledge (any) 3 ranks.  ",
@@ -5156,7 +5156,7 @@
 		"description": [
 			"## Monstrous Crafter (Item Creation)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 24](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 24](source/monster_hunters_handbook)",
 			"",
 			"You can weave pieces of beasts into your magic items.  ",
 			"**Prerequisites:** [Craft Wondrous Item](feat/craft_wondrous_item), [Grisly Ornament](feat/grisly_ornament), [Harvest Parts](feat/harvest_parts).  ",
@@ -5169,7 +5169,7 @@
 		"description": [
 			"## Monstrous Disguise",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunters_handbook)",
 			"",
 			"You can disguise yourself as a monstrous humanoid.  ",
 			"**Prerequisites:** Disguise 5 ranks, Knowledge (nature) 5 ranks.  ",
@@ -5185,7 +5185,7 @@
 		"description": [
 			"## Monstrous Mask",
 			"",
-			"**Source** [Blood of Fiends pg. 25](source/blood_of_fiends), [Pathfinder #25: The Bastards of Erebus pg. 66](source/pathfinder_#25_the_bastards_of_erebus)",
+			"**Source** [Blood of Fiends pg. 25](source/blood_of_fiends), [Pathfinder #25: The Bastards of Erebus pg. 66](source/pathfinder_25_the_bastards_of_erebus)",
 			"",
 			"Your fiendish physical traits give you a twisted and fearsome appearance that strikes fear into others' hearts.  ",
 			"**Prerequisites:** Tiefling, must be taken at 1st level.  ",
@@ -5198,7 +5198,7 @@
 		"description": [
 			"## Monstrous Masquerade",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunters_handbook)",
 			"",
 			"When you disguise yourself as a monstrous humanoid, you can gain some of its qualities.  ",
 			"**Prerequisites:** [Monstrous Disguise](feat/monstrous_disguise), Disguise 9 ranks, Knowledge (nature) 9 ranks.  ",
@@ -5338,20 +5338,20 @@
 			"**Benefit:** At night when at least part of the moon is showing and you can see it, you gain a +2 bonus on Fortitude and Reflex saves but take a -2 penalty on Will saves."
 		]
 	},
-	"morrigna's_wrappings": {
+	"morrignas_wrappings": {
 		"name": "Morrigna's Wrappings",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Morrigna's Wrappings",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_139_the_dead_road)",
 			"",
 			"One of the Boneyard's psychopomp bounty hunters has taught you the trick of using spider webs to defend against the undead.  ",
 			"**Prerequisites:** Character level 9th, [duskwalker](race/duskwalker), ward against corruption racial trait.  ",
 			"**Benefit:** So long as you have a spider web wrapped around some part of your body, the bonus provided by your ward against corruption racial trait increases to +4."
 		]
 	},
-	"mother's_gift": {
+	"mothers_gift": {
 		"name": "Mother's Gift",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -5402,7 +5402,7 @@
 		"description": [
 			"## Mountain Eyes",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 19](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 19](source/elemental_masters_handbook)",
 			"",
 			"Your gaze cuts through vapors with ease.  ",
 			"**Prerequisites:** [Blind-Fight](feat/blind-fight), Perception 5 ranks.  ",
@@ -5428,7 +5428,7 @@
 		"description": [
 			"## Mountain-Splitting Strike (Combat)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"You have learned techniques to focus the force of an unarmed strike into the most vulnerable parts of a large opponent's anatomy.  ",
 			"**Prerequisites:** Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
@@ -5479,7 +5479,7 @@
 		"description": [
 			"## Mounted Blade",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide), [Qadira, Gateway to the East pg. 9](source/qadira_gateway_to_the_east), [Qadira, Jewel of the East pg. 15](source/qadira_jewel_of_the_east)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide), [Qadira, Gateway to the East pg. 9](source/qadira_gateway_to_the_east), [Qadira, Jewel of the East pg. 15](source/qadira_jewel_of_the_east)",
 			"",
 			"You can use the momentum of your mount to carry your weapon through one foe and into another.  ",
 			"**Prerequisites:** [Mounted Combat](feat/mounted_combat), Ride 3 ranks.  ",
@@ -5526,7 +5526,7 @@
 		"description": [
 			"## Mounted Onslaught",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide), [Cities of Golarion pg. 50](source/cities_of_golarion)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide), [Cities of Golarion pg. 50](source/cities_of_golarion)",
 			"",
 			"You and your mount can shatter an enemy's line with your unyielding assault.  ",
 			"**Prerequisites:** [Mounted Combat](feat/mounted_combat), [Trample](feat/trample), Ride 5 ranks.  ",
@@ -5543,7 +5543,7 @@
 		"description": [
 			"## Mounted Shield (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"Your defensive tactics defend both you and your mount.  ",
 			"**Prerequisites:** [Mounted Combat](feat/mounted_combat), [Shield Focus](feat/shield_focus).  ",
@@ -5564,7 +5564,7 @@
 		"description": [
 			"## Mounted Skirmisher (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"You are adept at attacking from upon a swift moving steed.  ",
 			"**Prerequisites:** Ride rank 14, [Mounted Combat](feat/mounted_combat), [Trick Riding](feat/trick_riding).  ",
@@ -5672,7 +5672,7 @@
 			"**Benefit:** When you wield one-handed or light weapons in each of your arms, and all of those weapons belong to the same weapon group (as defined for the fighter class), all attacks with those weapons gain a +2 bonus on damage rolls."
 		]
 	},
-	"murderer's_circle": {
+	"murderers_circle": {
 		"name": "Murderer's Circle",
 		"sources": [
 			"Ultimate Combat",
@@ -5731,7 +5731,7 @@
 			"**Benefit:** You gain a limited form of tremorsense. As a move action, you become aware of all creatures within 15 feet that are in contact with the ground at that moment."
 		]
 	},
-	"musketeer's_daring": {
+	"musketeers_daring": {
 		"name": "Musketeer's Daring",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -5745,7 +5745,7 @@
 			"**Normal:** You can roll further derring-do d6s only if you roll a natural 6 on the die."
 		]
 	},
-	"musketeer's_dodge": {
+	"musketeers_dodge": {
 		"name": "Musketeer's Dodge",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -5758,7 +5758,7 @@
 			"**Benefit:** When you use the gunslinger's dodge deed to move, the movement granted by that deed does not provoke attacks of opportunity, and you gain a +4 dodge bonus to your Armor Class."
 		]
 	},
-	"musketeer's_reposition": {
+	"musketeers_reposition": {
 		"name": "Musketeer's Reposition",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -5771,7 +5771,7 @@
 			"**Benefit:** When you hit an opponent with a two-handed firearm while using the pistol-whip deed, you can perform a reposition combat maneuver instead of knocking the target prone. However, you can't reposition the foe closer to you. This combat maneuver does not provoke attacks of opportunity."
 		]
 	},
-	"musketeer's_sidestep": {
+	"musketeers_sidestep": {
 		"name": "Musketeer's Sidestep",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -5962,7 +5962,7 @@
 		"description": [
 			"## Nameless One",
 			"",
-			"**Source** [Adventurer's Guide pg. 124](source/adventurer's_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
+			"**Source** [Adventurer's Guide pg. 124](source/adventurers_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
 			"",
 			"You completely eschew your former identity, making you impossible to locate or even name.  ",
 			"**Benefit:** When you take this feat, you eschew all of your former identities, going as far as to render your former name completely inaccessible to discover by mortal means. You perform an 8-hour ritual that requires the expenditure of 200 gp for rare oils, incense, and creation of a special mask. After this ritual, you forever lose all names and identities previously associated with you (including any identities that you gain from class abilities). You adopt a brief descriptive title in place of a new name. Your title must not reference the names of any people or places. (For example, you could adopt the title \"Blue Fox\" or \"Twilight Stalker,\" but not the title \"Chelish Avenger\" or \"Spirit of the Mwangi.\") At the ritual's conclusion, you must don the mask created for the ritual, the appearance of which is evocative of your title. While you're wearing this mask, any attempts to scry or otherwise locate any of your eschewed identities or connect you to those identities do not work, revealing nothing but darkness, as if you were an invalid target or did not exist. Successful Knowledge checks to identify you reveal your new title rather than any old identity, but can reveal your strengths and weaknesses normally.",
@@ -6052,7 +6052,7 @@
 		"description": [
 			"## Natural Jouster (Combat)",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 91](source/pathfinder_#69_maiden_mother_crone)",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 91](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"Nearly all svathurims have the following feat, which is common among tauric creatures.  ",
 			"**Prerequisites:** Centaur (or any tauric creature at the GM's discretion)  ",
@@ -6164,7 +6164,7 @@
 			"**Benefit:** You get a +2 bonus on all Knowledge (nature) checks and Survival checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
 		]
 	},
-	"nature's_freedom": {
+	"natures_freedom": {
 		"name": "Nature's Freedom",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -6177,7 +6177,7 @@
 			"**Benefit:** When you expend one additional use when you channel energy, you enable affected creatures to move freely through undergrowth as per the druid's woodland stride class feature. This effect lasts a for number of minutes equal to your Charisma modifier (minimum 1). Multiple uses of this feat extend the duration of the woodland stride effect."
 		]
 	},
-	"nature's_weapons": {
+	"natures_weapons": {
 		"name": "Nature's Weapons",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -6190,7 +6190,7 @@
 			"**Benefit:** You can turn nearly anything you might find in the wilderness into an improvised melee weapon. This improvised melee weapon is one-handed and deals 1d6 points of damage for Medium creatures and 1d4 for Small creatures. Depending on the weapon, it deals bludgeoning, piercing, or slashing damage (at the GM's discretion). Grabbing an object to use as a weapon is the same action as drawing a weapon. The weapon must be of a material that is naturally occurring in that terrain."
 		]
 	},
-	"nature's_wrath": {
+	"natures_wrath": {
 		"name": "Nature's Wrath",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -6243,7 +6243,7 @@
 		"description": [
 			"## Needle in a Haystack",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunters_handbook)",
 			"",
 			"Once you have even the trace of a creature you're tracking, you can't be thrown off the trail.  ",
 			"**Prerequisites:** [Skill Focus (Perception)](feat/skill_focus), Perception 3 ranks.  ",
@@ -6388,7 +6388,7 @@
 		"description": [
 			"## Never Conquered, Forever Feared (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 78](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 78](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You are dauntless in battle, and your lineage echoes with awe-inspiring power.  ",
 			"**Prerequisites:** Be a member of House Heskillar, or have the Adopted by Dragons, Path of Righteous Rage, or Proud Heritage background.  ",
@@ -6692,7 +6692,7 @@
 		"description": [
 			"## Noble Scion (Taldor Variant)",
 			"",
-			"**Source** [War for the Crown Player's Guide pg. 10](source/war_for_the_crown_player's_guide)",
+			"**Source** [War for the Crown Player's Guide pg. 10](source/war_for_the_crown_players_guide)",
 			"",
 			"You are a member of one of the significant noble families of Oppara, whether or not you remain in good standing with your family. In many cases, these families are Imperialists loyal to Maxillar Pythareus, and as such you either are a black sheep or your family has cut you off entirely.  ",
 			"**Prerequisites:** Cha 13 or [Child of Oppara](trait/child_of_oppara) trait, must be taken at 1st level.  ",
@@ -6759,13 +6759,13 @@
 			"- Paying for lodgings, stabling, taxes, and tolls."
 		]
 	},
-	"nosoi's_spiritsense": {
+	"nosois_spiritsense": {
 		"name": "Nosoi's Spiritsense",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Nosoi's Spiritsense",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_139_the_dead_road)",
 			"",
 			"Even the lowliest psychopomp can sniff out the undead. A whippoorwill in a papier-mache' mask taught you how to do it.  ",
 			"**Prerequisites:** [Duskwalker](race/duskwalker).  ",
@@ -6864,7 +6864,7 @@
 		"description": [
 			"## Oblivating Stare (Stare)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 21](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 21](source/spymasters_handbook)",
 			"",
 			"Your stare can cause a target to lose track of someone.  ",
 			"**Prerequisites:** Allure bold stare improvement, hypnotic stare class feature, Mesmerist level 5th.  ",

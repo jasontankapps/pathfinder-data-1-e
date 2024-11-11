@@ -59,7 +59,7 @@
 		"description": [
 			"## Muscaria",
 			"",
-			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 14](source/pathfinder_#110_the_thrushmoor_terror)  ",
+			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 14](source/pathfinder_110_the_thrushmoor_terror)  ",
 			"**Type** ingested; **Addiction** minor, Fortitude DC 14  ",
 			"**Price** 15 gp  ",
 			"**Effect** 3 hours; +1d6 alchemical bonus on a single Knowledge (any one), Perception, or Sense Motive check once per minute for the duration of the effect Onset 30 minutes  ",
@@ -128,7 +128,7 @@
 			"Cultists of [Ghlaunder](faith/ghlaunder) and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
 		]
 	},
-	"slaver's_drops": {
+	"slavers_drops": {
 		"name": "Slaver's Drops",
 		"sources": [ "Rival Guide" ],
 		"description": [
@@ -184,7 +184,7 @@
 			"**Damage** 1d6 Con damage"
 		]
 	},
-	"sting's_savor": {
+	"stings_savor": {
 		"name": "Sting's Savor",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -214,7 +214,7 @@
 			"**Damage** 1d2 Con damage"
 		]
 	},
-	"serpent's_kiss": {
+	"serpents_kiss": {
 		"name": "Serpent's Kiss",
 		"sources": [ "Potions and Poisons" ],
 		"description": [

@@ -2148,7 +2148,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 321](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 321](source/advanced_players_guide)",
 			"",
 			"You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the [Improved Dirty Trick](feat/improved_dirty_trick) feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2206,7 +2206,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 321](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 321](source/advanced_players_guide)",
 			"",
 			"You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the [Improved Drag](feat/improved_drag) feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2307,7 +2307,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 322](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 322](source/advanced_players_guide)",
 			"",
 			"You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the [Improved Reposition](feat/improved_reposition) feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or [wall of fire](spell/wall_of_fire).",
 			"",
@@ -2338,7 +2338,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 322](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 322](source/advanced_players_guide)",
 			"",
 			"You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver-you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the [Improved Steal](feat/improved_steal) feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -3527,7 +3527,7 @@
 					[ [ "disease/fungal_flu", "Fungal Flu" ], "DC 12" ],
 					[ [ "disease/leprosy", "Leprosy" ], "DC 12 (negates; DC 20 to avoid effects)" ],
 					[ [ "disease/mindfire", "Mindfire" ], "DC 12" ],
-					[ [ "disease/coward's_mark", "Coward's Mark" ], "DC 13" ],
+					[ [ "disease/cowards_mark", "Coward's Mark" ], "DC 13" ],
 					[ [ "disease/ghoul_fever", "Ghoul Fever" ], "DC 13" ],
 					[ [ "disease/green_haze", "Green Haze" ], "DC 13" ],
 					[ [ "disease/shakes", "Shakes" ], "DC 13" ],
@@ -3540,7 +3540,7 @@
 					[ [ "disease/tetanus", "Tetanus" ], "DC 14" ],
 					[ [ "disease/glacier_plague", "Glacier Plague" ], "DC 15" ],
 					[ [ "disease/greenscale", "Greenscale" ], "DC 15" ],
-					[ [ "disease/moxix's_delectation", "Moxix's Delectation" ], "DC 15" ],
+					[ [ "disease/moxixs_delectation", "Moxix's Delectation" ], "DC 15" ],
 					[ [ "disease/red_ache", "Red Ache" ], "DC 15" ],
 					[ [ "disease/spellscar_fever", "Spellscar Fever" ], "DC 15 (+1 per previous save)" ],
 					[ [ "disease/the_tainted_plague", "The Tainted Plague" ], "DC 15 (see description)" ],
@@ -3565,7 +3565,7 @@
 					[ [ "disease/eidite_sickness", "Eidite sickness" ], "DC 20" ],
 					[ [ "disease/ergia", "Ergia" ], "DC 20" ],
 					[ [ "disease/scarlet_leprosy", "Scarlet Leprosy" ], "DC 20" ],
-					[ [ "disease/vorel's_phage", "Vorel's Phage" ], "DC 20" ],
+					[ [ "disease/vorels_phage", "Vorel's Phage" ], "DC 20" ],
 					[ [ "disease/blightburn_sickness", "Blightburn Sickness" ], "DC 22" ],
 					[ [ "disease/crypt_fever", "Crypt Fever" ], "DC 22" ],
 					[ [ "disease/daemonic_wasting", "Daemonic Wasting" ], "DC 23" ]
@@ -3609,7 +3609,7 @@
 					[ [ "infestation/ear_seekers", "Ear Seekers" ], "15", "Ear seekers are tiny, pale-colored worms that dwell in rotting wood or other organic detritus." ],
 					[ [ "infestation/fractal_etch", "Fractal Etch" ], "15", "The nanites behind this affliction scrub away the folds of the brain" ],
 					[ [ "infestation/rot_grubs", "Rot Grubs" ], "17", "Rot grubs are nauseating parasites that feed on flesh and nest in corpses." ],
-					[ [ "infestation/soldier's_peace", "Soldier's Peace" ], "15", "These nanites settle in the brain, where they inflict crippling pain in response to violent acts and thoughts." ],
+					[ [ "infestation/soldiers_peace", "Soldier's Peace" ], "15", "These nanites settle in the brain, where they inflict crippling pain in response to violent acts and thoughts." ],
 					[ [ "infestation/thought_crawlers", "Thought Crawlers" ], "16", "These parasitic worms live in cerebrospinal fluid, causing an escalating progression of debilitating neurological symptoms." ]
 				],
 				"initialColumn": 0,
@@ -5281,7 +5281,7 @@
 			"",
 			"***6th Level:*** The wearer can use [prestidigitation](spell/prestidigitation) at will.",
 			"",
-			"***8th Level:*** By spending 1 full round reconfiguring the ring's puzzle, the wearer can find a way to solve the puzzle with four of the pieces while twisting the final piece into a tiny shape that grows into another simple object. Treat the result as if the wearer had reconfigured a [traveler's any-tool](magic-wondrous/traveler's_any-tool), except that the resulting object additionally grants a +2 competence bonus on a skill check of the wearer's choice that could conceivably involve the object. As long as she does not lose the object, the wearer can return the fifth piece to the ring by spending another full round. The wearer cannot use any of the ring's creation powers without all five pieces.",
+			"***8th Level:*** By spending 1 full round reconfiguring the ring's puzzle, the wearer can find a way to solve the puzzle with four of the pieces while twisting the final piece into a tiny shape that grows into another simple object. Treat the result as if the wearer had reconfigured a [traveler's any-tool](magic-wondrous/travelers_any-tool), except that the resulting object additionally grants a +2 competence bonus on a skill check of the wearer's choice that could conceivably involve the object. As long as she does not lose the object, the wearer can return the fifth piece to the ring by spending another full round. The wearer cannot use any of the ring's creation powers without all five pieces.",
 			"",
 			"***10th Level:*** By spending 1 minute reconfiguring the ring's puzzle, the wearer can find a way to solve the puzzle with four of the pieces while twisting the final piece into a tiny shape that grows into a new object as [minor creation](spell/minor_creation), except that the wearer uses Disable Device rather than Craft to create a complex object. The fifth piece of the ring mysteriously reappears 24 hours after the new object vanishes. The wearer cannot use any of the ring's creation powers without all five pieces.",
 			"",
@@ -6195,7 +6195,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cat's_grace), [grace](spell/grace), creator must have 10 ranks in the Acrobatics skill; **Cost** 8,100 gp"
+			"[Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cats_grace), [grace](spell/grace), creator must have 10 ranks in the Acrobatics skill; **Cost** 8,100 gp"
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -6337,17 +6337,17 @@
 			"",
 			"Embroidered dragons of gold thread adorn this red silk robe. The wearer gains a +3 enhancement bonus to natural armor and fire resistance 10. Once per day, the wearer can gain the benefit of [darkvision](spell/darkvision), as the spell. A typical dragon robe is attuned to red dragons, though variants attuned to other types of dragons exist.",
 			"",
-			"***14th Level:*** The wearer can use [dragon's breath](spell/dragon's_breath) (red dragon) once per day. The save DC is equal to 13 + the wearer's Constitution modifier, and spell resistance does not apply.",
+			"***14th Level:*** The wearer can use [dragon's breath](spell/dragons_breath) (red dragon) once per day. The save DC is equal to 13 + the wearer's Constitution modifier, and spell resistance does not apply.",
 			"",
 			"***16th Level:*** The wearer's enhancement bonus to natural armor increases to +4, and his fire resistance increases to 20.",
 			"",
-			"***18th Level:*** The wearer can use [dragon's breath](spell/dragon's_breath) three times per day. The wearer can also use [form of the dragon III](spell/form_of_the_dragon_3) once per day, with a save DC equal to 22 + the wearer's Constitution modifier.",
+			"***18th Level:*** The wearer can use [dragon's breath](spell/dragons_breath) three times per day. The wearer can also use [form of the dragon III](spell/form_of_the_dragon_3) once per day, with a save DC equal to 22 + the wearer's Constitution modifier.",
 			"",
-			"***20th Level:*** The wearer's enhancement bonus to natural armor increases to +5 and his fire resistance to 30. In addition, any [dragon's breath](spell/dragon's_breath) effect created by this item is [maximized](feat/maximize_spell).",
+			"***20th Level:*** The wearer's enhancement bonus to natural armor increases to +5 and his fire resistance to 30. In addition, any [dragon's breath](spell/dragons_breath) effect created by this item is [maximized](feat/maximize_spell).",
 			"",
 			"### Construction Requirements",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), [Maximize Spell](feat/maximize_spell), [darkvision](spell/darkvision), [dragon's breath](spell/dragon's_breath), [form of the dragon III](spell/form_of_the_dragon_3), [resist energy](spell/resist_energy); **Cost** 132,000 gp"
+			"[Craft Wondrous Item](feat/craft_wondrous_item), [Maximize Spell](feat/maximize_spell), [darkvision](spell/darkvision), [dragon's breath](spell/dragons_breath), [form of the dragon III](spell/form_of_the_dragon_3), [resist energy](spell/resist_energy); **Cost** 132,000 gp"
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -6787,11 +6787,11 @@
 			"",
 			"***13th Level:*** The fruits produced by the sash cure 1d4 points of damage each instead of 1 point. An exploding fruit's healing power is unchanged.",
 			"",
-			"***15th Level:*** Once per week, the sash can produce the effects of [heroes' feast](spell/heroes'_feast).",
+			"***15th Level:*** Once per week, the sash can produce the effects of [heroes' feast](spell/heroes_feast).",
 			"",
 			"### Construction Requirements",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), [create food and water](spell/create_food_and_water), [cure moderate wounds](spell/cure_moderate_wounds), [delay poison](spell/delay_poison), [goodberry](spell/goodberry), [heroes' feast](spell/heroes'_feast), [lesser restoration](spell/lesser_restoration), [remove paralysis](spell/remove_paralysis); **Cost** 6,000 gp"
+			"[Craft Wondrous Item](feat/craft_wondrous_item), [create food and water](spell/create_food_and_water), [cure moderate wounds](spell/cure_moderate_wounds), [delay poison](spell/delay_poison), [goodberry](spell/goodberry), [heroes' feast](spell/heroes_feast), [lesser restoration](spell/lesser_restoration), [remove paralysis](spell/remove_paralysis); **Cost** 6,000 gp"
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7667,13 +7667,13 @@
 			"",
 			"***16th Level:*** The wearer's wings grow stronger, more agile, and more beautiful, and iridescent patterns trace along them. Her fly speed increases to 60 feet (good maneuverability), and she gains a +5 competence bonus on Fly checks.",
 			"",
-			"***18th Level:*** The wearer gains a small domain in the fey realm. She can access her domain from any location, creating a silvery gateway. Treat her domain as a [mage's magnificent mansion](spell/mage's_magnificent_mansion) except that its size equals 20 10-foot cubes/level, the domain appears as wilderness instead of a mansion, and the servants are tiny fey instead of nearly transparent liveried servants.",
+			"***18th Level:*** The wearer gains a small domain in the fey realm. She can access her domain from any location, creating a silvery gateway. Treat her domain as a [mage's magnificent mansion](spell/mages_magnificent_mansion) except that its size equals 20 10-foot cubes/level, the domain appears as wilderness instead of a mansion, and the servants are tiny fey instead of nearly transparent liveried servants.",
 			"",
 			"***20th Level:*** The wearer's type changes to fey, and she gains DR 10/cold iron. If the wearer's type was already fey and she already possessed DR/cold iron, her DR increases by 10 and magic weapons with enhancement bonuses of +3 or greater do not count as cold iron for the purpose of bypassing her DR.",
 			"",
 			"### Construction Requirements",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](spell/eagle's_splendor), [faerie fire](spell/faerie_fire), [fly](spell/fly), [mage's magnificent mansion](spell/mage's_magnificent_mansion), [sunburst](spell/sunburst), [suggestion](spell/suggestion), creator must be fey; **Cost** 132,000 gp"
+			"[Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](spell/eagles_splendor), [faerie fire](spell/faerie_fire), [fly](spell/fly), [mage's magnificent mansion](spell/mages_magnificent_mansion), [sunburst](spell/sunburst), [suggestion](spell/suggestion), creator must be fey; **Cost** 132,000 gp"
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7951,7 +7951,7 @@
 			"",
 			"***10th Level:*** The owner can also activate the strand's bead of healing to cast [remove blindness/deafness](spell/remove_blindness_deafness) or [remove disease](spell/remove_disease) instead of [cure serious wounds](spell/cure_serious_wounds).",
 			"",
-			"***14th Level:*** The owner can also activate the strand's bead of smiting to cast [chaos hammer](spell/chaos_hammer), [holy smite](spell/holy_smite), [order's wrath](spell/order's_wrath), or [unholy blight](spell/unholy_blight) (whichever was used to craft the item) once per day.",
+			"***14th Level:*** The owner can also activate the strand's bead of smiting to cast [chaos hammer](spell/chaos_hammer), [holy smite](spell/holy_smite), [order's wrath](spell/orders_wrath), or [unholy blight](spell/unholy_blight) (whichever was used to craft the item) once per day.",
 			"",
 			"***16th Level:*** The owner can also activate the strand's bead of karma to cast her spells with a +4 caster level bonus for 10 minutes once per day.",
 			"",
@@ -7959,7 +7959,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), [bless](spell/bless), [cure serious wounds](spell/cure_serious_wounds), [remove blindness/deafness](spell/remove_blindness_deafness), [remove disease](spell/remove_disease), [righteous might](spell/righteous_might), [wind walk](spell/wind_walk), and either [chaos hammer](spell/chaos_hammer), [holy smite](spell/holy_smite), [order's wrath](spell/order's_wrath), or [unholy blight](spell/unholy_blight); **Cost** 51,375 gp"
+			"[Craft Wondrous Item](feat/craft_wondrous_item), [bless](spell/bless), [cure serious wounds](spell/cure_serious_wounds), [remove blindness/deafness](spell/remove_blindness_deafness), [remove disease](spell/remove_disease), [righteous might](spell/righteous_might), [wind walk](spell/wind_walk), and either [chaos hammer](spell/chaos_hammer), [holy smite](spell/holy_smite), [order's wrath](spell/orders_wrath), or [unholy blight](spell/unholy_blight); **Cost** 51,375 gp"
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -8155,7 +8155,7 @@
 		"name": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird_scion_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_128_songbird_scion_saboteur)",
 			"",
 			"This article introduces relics: magic items that grow in power the more they are used in the pursuit of a specific cause. Each relic was once a typical magic item that played a central role in a massively important event, increasing dramatically in potency as it drew power from its shaping of fate. Relics occupy a space somewhere between normal magic items and artifacts. Unlike most magic items, relics can't be crafted. Unlike artifacts, however, they can be destroyed normally. Eventually, these extra-powerful items are misplaced, forgotten, or ignored, and their power wanes as a result-though it is not entirely lost.",
 			"",
@@ -8188,11 +8188,11 @@
 		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird_scion_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_128_songbird_scion_saboteur)",
 			"",
 			"As she adventures, the wielder of a relic might achieve great deeds, called triumphs, tied to the item's associated cause, which she can apply to the relic to increase its power. Each volume of the War for the Crown Adventure Path indicates which deeds qualify as a triumph for the relics of old Taldor. Each PC involved in achieving a triumph can apply that triumph to up to one of her carried relics, unlocking the next set of abilities for that item.",
 			"",
-			"An individual relic can attain only the triumphs for which it is present, so if the PCs achieved two triumphs before finding [Koriana's Blade](magic-relic/koriana's_blade), the sword wouldn't gain the benefits listed under First Triumph until the PCs' third triumph. To be present for a triumph, a relic needs to be worn, held, or carried (as opposed to being stored in a [bag of holding](magic-wondrous/bag_of_holding_type_1), for instance), and the PC carrying it must have been involved in the triumph in some way. Some triumphs improve on existing abilities, such as granting more uses of an ability per day or increasing a relic's enhancement bonus from +1 to +2. All other triumph abilities are cumulative with the item's base abilities and with each other. For example, a relic that has attained two triumphs grants both its first-triumph and second-triumph abilities along with its base abilities.",
+			"An individual relic can attain only the triumphs for which it is present, so if the PCs achieved two triumphs before finding [Koriana's Blade](magic-relic/korianas_blade), the sword wouldn't gain the benefits listed under First Triumph until the PCs' third triumph. To be present for a triumph, a relic needs to be worn, held, or carried (as opposed to being stored in a [bag of holding](magic-wondrous/bag_of_holding_type_1), for instance), and the PC carrying it must have been involved in the triumph in some way. Some triumphs improve on existing abilities, such as granting more uses of an ability per day or increasing a relic's enhancement bonus from +1 to +2. All other triumph abilities are cumulative with the item's base abilities and with each other. For example, a relic that has attained two triumphs grants both its first-triumph and second-triumph abilities along with its base abilities.",
 			"",
 			"***Increasing DCs:*** Some effects have DCs that increase as the relic attains more triumphs; these are indicated by a note such as \"DC = 15 + 1 per additional triumph attained.\" An effect with such a DC counts neither the triumph that the effect came from nor any previous triumphs. For example, if a relic's first triumph granted an effect with a DC of 15 + 1 per additional triumph attained, that DC would be 15. When that relic attained a second triumph, the DC would increase to 16.",
 			"",
@@ -8212,7 +8212,7 @@
 		"name": "Relics In Your Own Campaign",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird_scion_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_128_songbird_scion_saboteur)",
 			"",
 			"To implement relics in your own game, you can use the Taldan items presented here, adjusting their themes and details as necessary. Alternatively, you can adapt [scaling items from Pathfinder RPG Pathfinder Unchained](rule/scaling_items) or create your own items to suit your needs.",
 			"",
@@ -8235,7 +8235,7 @@
 		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 78](source/pathfinder_#128_songbird_scion_saboteur)",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 78](source/pathfinder_128_songbird_scion_saboteur)",
 			"",
 			"Relics work much like [scaling items](rule/scaling_items), with the exceptions that they don't cost a share of your treasure and they scale up due to story events rather than at certain levels. This makes it easy to adapt the scaling items from that book to use as relics, either to replace ones listed here that don't suit your group in War for the Crown or to use in a different campaign. Doing so requires the following adjustments, in addition to adding thematic background elements to the items to tie them to the triumphs of your game.",
 			"",

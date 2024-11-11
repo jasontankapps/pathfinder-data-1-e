@@ -138,7 +138,7 @@
 		"description": [
 			"## Opportunistic Grappler (Combat)",
 			"",
-			"**Source** [Antihero's Handbook pg. 9](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 9](source/antiheros_handbook)",
 			"",
 			"When someone grabs you, you can easily reach that opponent's vulnerable spots.  ",
 			"**Benefit:** While you are grappled (but not when you are controlling the grapple), you can attempt a dirty trick combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the [Improved Dirty Trick](feat/improved_dirty_trick) feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and [Greater Dirty Trick](feat/greater_dirty_trick) feats."
@@ -176,7 +176,7 @@
 		"description": [
 			"## Orc Fury Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_masters_handbook)",
 			"",
 			"You inspire great fear in your enemies.  ",
 			"**Prerequisites:** [Bullying Blow](feat/bullying_blow), [Intimidating Prowess](feat/intimidating_prowess), Intimidate 3 ranks, weapon familiarity racial trait.  ",
@@ -210,7 +210,7 @@
 		"description": [
 			"## Orc Rampage (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_masters_handbook)",
 			"",
 			"You effortlessly savage fearful enemies.  ",
 			"**Prerequisites:** [Bullying Blow](feat/bullying_blow), [Intimidating Prowess](feat/intimidating_prowess), [Orc Fury Style](feat/orc_fury_style), Intimidate 5 ranks, weapon familiarity racial trait.  ",
@@ -223,7 +223,7 @@
 		"description": [
 			"## Orc Snarl (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_masters_handbook)",
 			"",
 			"Your attacks leave your opponent quivering in fear.  ",
 			"**Prerequisites:** [Bullying Blow](feat/bullying_blow), [Intimidating Prowess](feat/intimidating_prowess), [Orc Fury Style](feat/orc_fury_style), [Orc Rampage](feat/orc_rampage), Intimidate 7 ranks, weapon familiarity racial trait.  ",
@@ -328,7 +328,7 @@
 		"description": [
 			"## Ostentatious Display",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 12](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 12](source/dungeoneers_handbook)",
 			"",
 			"Your extravagant jewelry and accessories give you an air of importance you can use to your advantage in many social situations.  ",
 			"**Benefit:** As long as you are wearing a valuable nonmagical item in a magic item slot, you gain a +1 bonus on skill checks with a corresponding skill. Bonuses from wearing items in multiple slots that affect the same skill do not stack.",
@@ -374,7 +374,7 @@
 			"**Benefit:** When you spend a swift action to attempt a performance combat check, you may add your favored enemy bonus to the check if you're fighting a favored enemy.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points to select another type of favored enemy (and subtype if humanoid or outsider is chosen). For the purposes of Ostentatious Weakness, that type counts as having been chosen with the favored enemy class feature, with a bonus equal to your highest favored enemy bonus."
 		]
@@ -413,13 +413,13 @@
 		"description": [
 			"## Our Bounty, Our Glory (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 77](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 77](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You can ignore privation and channel your emotions to prepare for a later bounty.  ",
 			"**Prerequisites:** Be a member of House Denzarni, or have the Bloodthirsty, Omen, Tree Tender, or Unsuspecting Master background.  ",
 			"**Benefit:** You add 1 day to the time you can go without food or water before making Constitution checks and you add +4 to Constitution checks to stave off the effects of starvation and thirst.  ",
 			"**Goal:** You must succumb to your emotions and be victorious. Thwart an appropriate number of foes while you are subject to an effect with the emotion descriptor, such as [rage](spell/rage).  ",
-			"**Completion Benefit:** Once per day, you can use [heroes' feast](spell/heroes'_feast) as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of [neutralize poison](spell/neutralize_poison) or [remove disease](spell/remove_disease)."
+			"**Completion Benefit:** Once per day, you can use [heroes' feast](spell/heroes_feast) as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of [neutralize poison](spell/neutralize_poison) or [remove disease](spell/remove_disease)."
 		]
 	},
 	"out_of_the_sun": {
@@ -445,7 +445,7 @@
 		"description": [
 			"## Outer Planes Traveler",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 9](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 9](source/demon_hunters_handbook)",
 			"",
 			"You have seen the outer reaches of the multiverse, and have gleaned knowledge from these alien realms. You have a special affinity for one of these realms in particular, and carry some of that plane's power within you.  ",
 			"**Prerequisites:** Knowledge (planes) 11 ranks, ability to cast plane shift or gate as a spell or spell-like ability.  ",
@@ -473,7 +473,7 @@
 		"description": [
 			"## Outflank (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 165](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 165](source/advanced_players_guide)",
 			"",
 			"You look for every edge when flanking an enemy.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
@@ -491,7 +491,7 @@
 		"description": [
 			"## Outslug Sprint (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"You can make quick, defensive movements.  ",
 			"**Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise) or brawler's cunning class feature; [Lunge](feat/lunge); [Outslug Style](feat/outslug_style); [Outslug Weave](feat/outslug_weave); [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -504,7 +504,7 @@
 		"description": [
 			"## Outslug Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"You dart in and out of combat.  ",
 			"**Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise) or brawler's cunning class feature; [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -518,7 +518,7 @@
 		"description": [
 			"## Outslug Weave (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"You land precise attacks from afar.  ",
 			"**Prerequisites:** Int 13; [Combat Expertise](feat/combat_expertise) or brawler's cunning class feature; [Lunge](feat/lunge); [Outslug Style](feat/outslug_style); [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -572,7 +572,7 @@
 		"description": [
 			"## Overseer of the House of Truth (Origin)",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_139_the_dead_road)",
 			"",
 			"Your creator was a politician and administrator, and your memories are filled with the sound of clinking coins.  ",
 			"**Prerequisites:** [Shabti](race/shabti).  ",
@@ -585,7 +585,7 @@
 		"description": [
 			"## Overwatch Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_masters_handbook)",
 			"",
 			"You have learned to wait until your ranged attacks have the greatest effect.  ",
 			"**Prerequisites:** [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -599,7 +599,7 @@
 		"description": [
 			"## Overwatch Tactician (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_masters_handbook)",
 			"",
 			"You quickly prepare to react to your enemies' actions.  ",
 			"**Prerequisites:** [Overwatch Style](feat/overwatch_style), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -612,7 +612,7 @@
 		"description": [
 			"## Overwatch Vortex (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_masters_handbook)",
 			"",
 			"You are ready to respond to many more of your foes' actions.  ",
 			"**Prerequisites:** [Overwatch Style](feat/overwatch_style), [Overwatch Tactician](feat/overwatch_tactician), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +11.  ",
@@ -625,7 +625,7 @@
 		"description": [
 			"## Overwhelm (Combat, Teamwork)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 21](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 21](source/dragonslayers_handbook)",
 			"",
 			"You can overwhelm large foes with sheer numbers.  ",
 			"**Benefit:** You are considered to be flanking an opponent if at least one ally who also has this feat is threatening that opponent and the opponent is at least two size categories larger than the larger of you or your ally, regardless of your actual positioning.  ",
@@ -690,7 +690,7 @@
 		"description": [
 			"## Pacify Animal",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunters_handbook)",
 			"",
 			"You are able to calm rampaging animals.  ",
 			"**Prerequisites:** Wild empathy class feature.  ",
@@ -839,7 +839,7 @@
 		"description": [
 			"## Painful Cures",
 			"",
-			"**Source** [Healer's Handbook pg. 8](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 8](source/healers_handbook)",
 			"",
 			"Your healing spells exacerbate rather than alleviate pain.  ",
 			"**Prerequisites:** Evil alignment.  ",
@@ -855,7 +855,7 @@
 		"description": [
 			"## Paired Opportunists (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 166](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 166](source/advanced_players_guide)",
 			"",
 			"You know how to make an enemy pay for lax defenses.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4 circumstance bonus on attacks of opportunity against creatures that you both threaten. Enemies that provoke attacks of opportunity from your ally also provoke attacks of opportunity from you so long as you threaten them (even if the situation or an ability would normally deny you the attack of opportunity). This does not allow you to take more than one attack of opportunity against a creature for a given action.",
@@ -1078,7 +1078,7 @@
 		"description": [
 			"## Parry Spell",
 			"",
-			"**Source** [Advanced Player's Guide pg. 166](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 166](source/advanced_players_guide)",
 			"",
 			"You can throw an enemy spell back at its caster.  ",
 			"**Prerequisites:** Spellcraft 15 ranks, [Improved Counterspell](feat/improved_counterspell).  ",
@@ -1108,7 +1108,7 @@
 		"description": [
 			"## Parting Shot (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 166](source/advanced_player's_guide), [Pathfinder Campaign Setting pg. 112](source/pathfinder_campaign_setting)",
+			"**Source** [Advanced Player's Guide pg. 166](source/advanced_players_guide), [Pathfinder Campaign Setting pg. 112](source/pathfinder_campaign_setting)",
 			"",
 			"You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or retreating.  ",
 			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), [Mobility](feat/mobility), [Shot on the Run](feat/shot_on_the_run), base attack bonus +6.  ",
@@ -1141,7 +1141,7 @@
 		"description": [
 			"## Pass For Human",
 			"",
-			"**Source** [Advanced Player's Guide pg. 166](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 166](source/advanced_players_guide)",
 			"",
 			"You're easily mistaken for a human rather than a member of your own race.  ",
 			"**Prerequisites:** Half-elf, half-orc, or halfling (see Special).  ",
@@ -1383,7 +1383,7 @@
 		"description": [
 			"## Perfect Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 166](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 166](source/advanced_players_guide)",
 			"",
 			"When wielding a monk weapon, your attacks can be extremely precise.  ",
 			"**Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
@@ -1406,7 +1406,7 @@
 		"description": [
 			"## Perfect Style (Combat, Style)",
 			"",
-			"**Source** [Adventurer's Guide pg. 106](source/adventurer's_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 106](source/adventurers_guide), [Inner Sea Combat pg. 13](source/inner_sea_combat)",
 			"",
 			"You have trained at one of the [Houses of Perfection](rule/aff_monasteries).  ",
 			"**Prerequisites:** Wis 13; base attack bonus +5 or monk level 5th.  ",
@@ -1416,7 +1416,7 @@
 			"**Normal:** You can select Perfect Style multiple times. Each time you do so, you must select a different House of Perfection to belong to.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend up to 5 stamina points to increase the resistance granted to you by Perfect Style by 2 per stamina point spent."
 		]
@@ -1468,7 +1468,7 @@
 		"description": [
 			"## Pernicious Stab (Combat)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"Your deep strikes allow you to deliver poison efficiently when your opponent is off guard.  ",
 			"**Prerequisites:** Sneak attack +2d6.  ",
@@ -1481,7 +1481,7 @@
 		"description": [
 			"## Persistent Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"You can modify a spell to become more tenacious when its targets resist its effect.  ",
 			"**Benefit:** Whenever a creature targeted by a persistent spell or within its area succeeds on its saving throw against the spell, it must make another saving throw against the effect. If a creature fails this second saving throw, it suffers the full effects of the spell, as if it had failed its first saving throw. A persistent spell uses up a spell slot two levels higher than the spell's actual level. Spells that do not require a saving throw to resist or lessen the spell's effect do not benefit from this feat."
@@ -1493,7 +1493,7 @@
 		"description": [
 			"## Personal Chronicler",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hoppers_handbook)",
 			"",
 			"Psychopomps have sent a nosoi scribe to record your actions.  ",
 			"**Prerequisites:** Duskwalker.",
@@ -1622,7 +1622,7 @@
 		"description": [
 			"## Pestilent",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)",
 			"",
 			"Your unarmed strikes and natural weapons cause extra harm to those infected with your disease.  ",
 			"**Prerequisites:** Ability to cause disease via a spell, spell-like ability, or supernatural means.  ",
@@ -1731,7 +1731,7 @@
 		"description": [
 			"## Piercing Gambit (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 10](source/antiheros_handbook)",
 			"",
 			"You cast a spell destined to fail in order to help your ally overcome an enemy's spell resistance.  ",
 			"**Prerequisites:** [Spell Penetration](feat/spell_penetration) or Bluff 3 ranks; caster level 1st.  ",
@@ -1965,7 +1965,7 @@
 		"description": [
 			"## Planar Focus",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoners_handbook)",
 			"",
 			"By studying other planes, you've learned to take on aspects of outsiders as well as animals.  ",
 			"**Prerequisites:** Knowledge (planes) 5 ranks, animal focus class feature.  ",
@@ -2147,7 +2147,7 @@
 			"",
 			"**Improved:** You can use [dimension door](spell/dimension_door) once per day as a spell-like ability.",
 			"",
-			"**Greater:** You can use [mage's magnificent mansion](spell/mage's_magnificent_mansion) once per day as a spell-like ability.",
+			"**Greater:** You can use [mage's magnificent mansion](spell/mages_magnificent_mansion) once per day as a spell-like ability.",
 			"",
 			"#### Harrowed Realm",
 			"",
@@ -2284,7 +2284,7 @@
 		"description": [
 			"## Planar Mentor",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hoppers_handbook)",
 			"",
 			"Whether you sought it out, caught its attention, or inherited its service, an outsider is watching over you. The more you impress it, the more it shares its power and knowledge.  ",
 			"**Benefit:** When you take this feat, choose one non-unique outsider with 18 Hit Dice or fewer and whose alignment is within one step of your own along either the law/chaos axis or the good/evil axis. Twice per day (three times per day for an outsider with only neutral alignment components) when you fulfill the condition associated with either component of your mentor's alignment, you can gain your mentor's boon for that alignment as an immediate action. This grants you resistance equal to your level to a particular energy type as well as a special benefit associated with that alignment. These benefits last for a number of rounds equal to your Charisma modifier + 1 (minimum 1).",
@@ -2322,7 +2322,7 @@
 		"description": [
 			"## Planar Sensitivity",
 			"",
-			"**Source** [Pathfinder #105: The Inferno Gate pg. 64](source/pathfinder_#105_the_inferno_gate)",
+			"**Source** [Pathfinder #105: The Inferno Gate pg. 64](source/pathfinder_105_the_inferno_gate)",
 			"",
 			"You can sense and manipulate connections between the planes.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks.  ",
@@ -2421,7 +2421,7 @@
 			"**Benefit:** When you use wild shape to take the form of an animal, you can expend an additional daily use of your wild shape class feature to add the celestial template or fiendish template to your animal form. (Good druids must use the celestial template, while evil druids must use the fiendish template.) If your form has the celestial template and you score a critical threat against an evil creature while using your form's natural weapons, you gain a +2 bonus on the attack roll to confirm the critical hit. The same bonus applies if your form has the fiendish template and you score a critical threat against a good creature."
 		]
 	},
-	"planewalker's_insight": {
+	"planewalkers_insight": {
 		"name": "Planewalker's Insight",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -2469,7 +2469,7 @@
 		"description": [
 			"## Point-Blank Master (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"You are adept at firing ranged weapons in close quarters.  ",
 			"**Prerequisites:** [Weapon Specialization](feat/weapon_specialization) with selected ranged weapon.  ",
@@ -2525,14 +2525,14 @@
 		"description": [
 			"## Poised Bearing (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"Your armor's weight gives you stable footing.  ",
 			"**Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium or heavy armor.  ",
 			"**Benefit:** You treat your size as one category larger for the purposes of determining the size of creatures against which you can attempt bull rush, drag, overrun, and trip combat maneuvers.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points as a swift action to have this feat's effect on your size for the purposes of specific combat maneuvers also determine what size a creature must be to perform the combat maneuvers against you."
 		]
@@ -2576,7 +2576,7 @@
 			"**Benefit:** You can spend 1 grit point to load your firearm with 1 dose of inhaled or ingested poison as a move action. This action has no chance of exposing you to the poison (as if you had the poison use class feature). Shooting a firearm loaded with a poison in this manner is a standard action that provokes attacks of opportunity and sprays out the poison in a 15-foot cone. Any creatures caught in the blast take no damage but are exposed to this poison and must each immediately attempt a save against the poison as though the onset time had elapsed."
 		]
 	},
-	"poisoner's_channel": {
+	"poisoners_channel": {
 		"name": "Poisoner's Channel",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -2657,7 +2657,7 @@
 		"description": [
 			"## Poppet Familiar",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 31](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 31](source/adventurers_armory_2)",
 			"",
 			"You may select a poppet as your familiar.  ",
 			"**Prerequisites:** Ability to acquire a new familiar, caster level 3rd.  ",
@@ -2679,14 +2679,14 @@
 		"description": [
 			"## Porcupine Defense (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"You are a threat to opponents that try to overwhelm you.  ",
 			"**Prerequisites:** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), base attack bonus +6.  ",
 			"**Benefit:** Whenever an opponent of at least one size category larger than yourself attempts a combat maneuver attack against you, you gain a +2 bonus on any allowed attacks of opportunity. If your opponent may make such attacks without provoking attacks of opportunity, you instead gain a +2 bonus to CMD against such maneuvers.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to make an attack of opportunity against an opponent at least one size category larger than you if that opponent attempts a combat maneuver check against you. You can perform this attack of opportunity even if your opponent can attempt such combat maneuvers without normally provoking attacks of opportunity."
 		]
@@ -2710,7 +2710,7 @@
 		"description": [
 			"## Possess Creature (Monster)",
 			"",
-			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 57](source/pathfinder_#28_the_infernal_syndrome)",
+			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 57](source/pathfinder_28_the_infernal_syndrome)",
 			"",
 			"A fiend gains the ability to merge its physical form with another creature's body, spreading its foul influence from within a living vessel.  ",
 			"**Prerequisites:** Cha 20, any evil outsider with 10 or more Hit Dice.  ",
@@ -2727,7 +2727,7 @@
 		"description": [
 			"## Possess Location (Monster)",
 			"",
-			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 57](source/pathfinder_#28_the_infernal_syndrome)",
+			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 57](source/pathfinder_28_the_infernal_syndrome)",
 			"",
 			"A fiend learns to disperse its essence over an area, gaining mastery over features and structures there and tainting the place with its wickedness.  ",
 			"**Prerequisites:** Cha 16, any evil outsider with 8 or more Hit Dice.",
@@ -2743,7 +2743,7 @@
 		"description": [
 			"## Possess Object (Monster)",
 			"",
-			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 58](source/pathfinder_#28_the_infernal_syndrome)",
+			"**Source** [Pathfinder #28: The Infernal Syndrome pg. 58](source/pathfinder_28_the_infernal_syndrome)",
 			"",
 			"A fiend gains the power to bind its malign essence to a single object, corrupting it into a relic of undeniable evil.  ",
 			"**Prerequisites:** Cha 18, any evil outsider with 9 or more Hit Dice.",
@@ -2929,7 +2929,7 @@
 		"description": [
 			"## Practiced Dreamer",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)",
 			"",
 			"Your time in the Dimension of Dreams has improved your ability to manipulate its landscape.  ",
 			"**Prerequisites:** Cha 15, [Lucid Dreamer](feat/lucid_dreamer), Knowledge (planes) 5 ranks.  ",
@@ -2970,7 +2970,7 @@
 		"description": [
 			"## Practiced Tactician",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"With only a few quick gestures and commands, you can direct others in combat.  ",
 			"**Prerequisites:** Tactician class feature.  ",
@@ -3021,7 +3021,7 @@
 		"description": [
 			"## Precise Strike (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"You are skilled at striking where it counts, as long as an ally distracts your foe.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +1.  ",
@@ -3053,7 +3053,7 @@
 		"description": [
 			"## Preferred Spell",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"You find it very easy to cast one particular spell.  ",
 			"**Prerequisites:** Spellcraft 5 ranks, [Heighten Spell](feat/heighten_spell).  ",
@@ -3292,7 +3292,7 @@
 		"description": [
 			"## Prosperity and Pride (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 76](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 76](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"Your family has raised cities and mastered trade, and you seek to do the same.  ",
 			"**Prerequisites:** Be a member of House Corcina, or have the Craftsperson, Inheritance, Well-Connected Friend, or Worldshaker background.  ",
@@ -3342,7 +3342,7 @@
 			"**Completion Benefit:** You gain Craft Construct as a bonus feat without meeting its prerequisites and can use it for any purpose. The cost to build any construct that normally costs less than the cost of your donated golem is permanently reduced by 10%; the cost of the base materials is not reduced, however."
 		]
 	},
-	"protector's_strike": {
+	"protectors_strike": {
 		"name": "Protector's Strike",
 		"sources": [
 			"Inner Sea Gods",
@@ -3484,7 +3484,7 @@
 		"description": [
 			"## Psychovore Master (Combat)",
 			"",
-			"**Source** [Pathfinder: Spiral of Bones #3 pg. 29](source/pathfinder_spiral_of_bones_#3)",
+			"**Source** [Pathfinder: Spiral of Bones #3 pg. 29](source/pathfinder_spiral_of_bones_3)",
 			"",
 			"When your unarmed attacks strike true. you also damage your target's mind and gain power from it.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), [Psychovore Strike](feat/psychovore_strike), [Psychovore Style](feat/psychovore_style), Sense Motives 15 ranks.  ",
@@ -3497,7 +3497,7 @@
 		"description": [
 			"## Psychovore Strike (Combat)",
 			"",
-			"**Source** [Pathfinder: Spiral of Bones #3 pg. 29](source/pathfinder_spiral_of_bones_#3)",
+			"**Source** [Pathfinder: Spiral of Bones #3 pg. 29](source/pathfinder_spiral_of_bones_3)",
 			"",
 			"You can land blows that confuse your enemies.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), [Psychovore Style](feat/psychovore_style), Sense Motive 9 ranks.  ",
@@ -3510,7 +3510,7 @@
 		"description": [
 			"## Psychovore Style (Combat, Style)",
 			"",
-			"**Source** [Pathfinder: Spiral of Bones #3 pg. 30](source/pathfinder_spiral_of_bones_#3)",
+			"**Source** [Pathfinder: Spiral of Bones #3 pg. 30](source/pathfinder_spiral_of_bones_3)",
 			"",
 			"You can sense the thoughts of others, allowing you to predict their movements.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), Sense Motive 3 ranks.  ",
@@ -3587,7 +3587,7 @@
 		"description": [
 			"## Punch Through (Combat, Teamwork)",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 21](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 21](source/demon_hunters_handbook)",
 			"",
 			"You and your allies are adept at bypassing enemy defenses.  ",
 			"**Prerequisites:** Base attack bonus +6.  ",
@@ -3616,7 +3616,7 @@
 		"description": [
 			"## Punishing Kick (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"Your kicks are so powerful you use them to push or knock back your foes.  ",
 			"**Prerequisites:** Con 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
@@ -3635,7 +3635,7 @@
 		"description": [
 			"## Punishing Step (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunters_handbook)",
 			"",
 			"You can hurt a foe that uses a combat maneuver against you.  ",
 			"**Prerequisites:** Dex 13, [Dodge](feat/dodge).  ",
@@ -3648,7 +3648,7 @@
 		"description": [
 			"## Puppet Master (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 16](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 16](source/spymasters_handbook)",
 			"",
 			"You crave power you can wield without drawing attention to yourself.  ",
 			"**Prerequisites:** You must have survived an encounter with a challenging foe without suffering significant harm by striking a deal (regardless of whether the deal was with the challenging foe or not), or have the Boss, the Liege Lord, or the Well-Connected Friend background.  ",
@@ -3676,7 +3676,7 @@
 		"description": [
 			"## Pure Legion Assault (Combat)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 23](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 23](source/spymasters_handbook)",
 			"",
 			"The Pure Legion trained you to apply your knowledge of religions to predicting and defeating divine servitors.  ",
 			"**Prerequisites:** Bluff 1 rank, Knowledge (religion) 1 rank, Pure Legion Recruit trait .  ",
@@ -3702,7 +3702,7 @@
 		"description": [
 			"## Purifying Channel",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)",
 			"",
 			"Your healing energy also damages your enemies.  ",
 			"**Prerequisites:** Cha 15, [Selective Channeling](feat/selective_channeling), channel energy class feature.  ",
@@ -3744,7 +3744,7 @@
 		"description": [
 			"## Pushing Assault (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 167](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 167](source/advanced_players_guide)",
 			"",
 			"A strike made with a two-handed weapon can push a similar sized opponent backward.  ",
 			"**Prerequisites:** Str 15, [Power Attack](feat/power_attack), base attack bonus +1.  ",
@@ -4020,7 +4020,7 @@
 		"description": [
 			"## Quick Trapper",
 			"",
-			"**Source** [Pathfinder #116: Fangs of War pg. 67](source/pathfinder_#116_fangs_of_war)",
+			"**Source** [Pathfinder #116: Fangs of War pg. 67](source/pathfinder_116_fangs_of_war)",
 			"",
 			"Your trap-making proficiency improves greatly.  ",
 			"**Prerequisites:** [Learn Ranger Trap](feat/learn_ranger_trap) or trap class feature, Survival 5 ranks.  ",
@@ -4136,7 +4136,7 @@
 			"**Benefit:** If you are wearing armor spikes, as an immediate action when you take damage from a nonmagical attack, you can give your armor spikes the broken condition to reduce the amount of damage you take by 5. If your armor spikes are already broken, they are destroyed when you take the damage. If you are wearing masterwork armor spikes, you instead reduce the damage taken by 10.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">If you choose to spend 5 stamina points when using this feat, there is a 50% chance that your armor spikes do not gain the broken condition. This combat trick has no effect if your armor spikes already have the broken condition."
 		]
@@ -4184,7 +4184,7 @@
 		"description": [
 			"## Racial Heritage",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"The blood of a non-human ancestor flows in your veins.  ",
 			"**Prerequisites:** Human.  ",
@@ -4368,7 +4368,7 @@
 		"description": [
 			"## Raging Vitality",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"While raging, you are full of vigor and health.  ",
 			"**Prerequisites:** Con 15, rage class feature.  ",
@@ -4407,7 +4407,7 @@
 		"description": [
 			"## Rallying Blow",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)",
 			"",
 			"When you strike true in battle, you wash away allies' fear.  ",
 			"**Prerequisites:** Aura of courage.  ",
@@ -4526,7 +4526,7 @@
 		"description": [
 			"## Rapid Recovery",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_#85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
 			"",
 			"When you heal damage with your nanite surge, you also remove harmful effects.  ",
 			"**Prerequisites:** [Rapid Repair](feat/rapid_repair), Con 13, nanite surge ability.  ",
@@ -4579,7 +4579,7 @@
 		"description": [
 			"## Rapid Repair",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_#85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
 			"",
 			"You can use your nanite surge to repair damage.  ",
 			"**Prerequisites:** Wis 13, nanite surge ability.  ",
@@ -4652,7 +4652,7 @@
 		"description": [
 			"## Ray Shield (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"You can even deflect rays with your shield.  ",
 			"**Prerequisites:** Dex 15, [Missile Shield](feat/missile_shield), [Spellbreaker](feat/spellbreaker).  ",
@@ -4670,7 +4670,7 @@
 		"description": [
 			"## Razortusk",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"Your powerful jaws and steely teeth are deadly enough to give you a bite attack.  ",
 			"**Prerequisites:** Half-orc.  ",
@@ -4686,7 +4686,7 @@
 		"description": [
 			"## Reach Defense (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"You are proficient at avoiding polearms and long-limbed creatures.  ",
 			"**Prerequisites:** Dex 15  ",
@@ -4694,7 +4694,7 @@
 			"**Special:** This feat counts as [Dodge](feat/dodge) for the purposes of qualifying for the [Mobility](feat/mobility) and [Spring Attack](feat/spring_attack) feats.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to grant the benefit of this feat to any adjacent allies for 1 round."
 		]
@@ -4705,7 +4705,7 @@
 		"description": [
 			"## Reach Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"Your spells go farther than normal.  ",
 			"**Benefit:** You can alter a spell with a range of touch, close, or medium to increase its range to a higher range category, using the following order: touch, close, medium, and long. A reach spell uses up a spell slot one level higher than the spell's actual level for each increase in range category. For example, a spell with a range of touch increased to long range uses up a spell slot three levels higher. Spells modified by this feat that require melee touch attacks instead require ranged touch attacks.",
@@ -4928,7 +4928,7 @@
 		"description": [
 			"## Recalcitrant",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)",
 			"",
 			"You are determined to maintain your own will and bow to no one.  ",
 			"**Prerequisites:** [Iron Will](feat/iron_will), hobgoblin.  ",
@@ -5081,7 +5081,7 @@
 			"**Benefit:** Once per turn, when an opponent only you threaten fails an attack against you, you can redirect the attack to target another foe. The new target must be adjacent to you and within reach of the opponent that missed you. Attempt a combat maneuver check; if the result exceeds both the Combat Maneuver Defense of the opponent who missed you and the Armor Class of the new target, the attack strikes and deals its normal damage.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend up to 5 stamina points to grant yourself a bonus on the combat maneuver check equal to the number of stamina points you spent."
 		]
@@ -5102,7 +5102,7 @@
 			"**Benefit:** As long as you have at least 1 grit point, after an ally has made a ranged attack roll but before the results of the roll have been revealed, you can fire a loaded firearm at the volley as it moves toward its target, redirecting its path. Make an attack roll using your highest attack bonus, and use your result in place of your ally's original attack roll. On a successful hit, your ally's attack deals damage as normal. You may perform this action a number of times per round up to your Wisdom bonus (minimum 1).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">By spending 4 stamina points, you can use this feat an additional time per round."
 		]
@@ -5113,7 +5113,7 @@
 		"description": [
 			"## Redistributed Might (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 26](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 26](source/adventurers_guide)",
 			"",
 			"You've gained enough control over your body to translate strength into swiftness.  ",
 			"**Prerequisites:** Con 13, Wis 13, [Exotic Weapon Proficiency (aldori dueling sword)](feat/exotic_weapon_proficiency), [Iron Will](feat/iron_will), base attack bonus +4.  ",
@@ -5139,7 +5139,7 @@
 		"description": [
 			"## Reflexive Crystalline Dust",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"Vigilance has taught you to manifest your crystalline dust the instant you sense danger.  ",
 			"**Prerequisites:** [Swift Crystalline Dust](feat/swift_crystalline_dust), aphorite, crystalline dust racial trait.  ",
@@ -5307,7 +5307,7 @@
 		"description": [
 			"## Rending Claws (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"Your claw attacks do greater harm to your enemy.  ",
 			"**Prerequisites:** Str 13, two claw natural weapon attacks, base attack bonus +6.  ",
@@ -5380,7 +5380,7 @@
 			"",
 			"Your natural spells are significantly increased, enabling you to feed and heal others.  ",
 			"**Prerequisites:** Con 15, character level 8th, [ghoran](race/ghoran), natural magic racial trait.  ",
-			"**Benefit:** Once per week, you can cast [heroes' feast](spell/heroes'_feast) as a spell-like ability with a caster level equal to your character level. If you do so, you lose access to the spells normally granted by the natural magic racial trait for the next 48 hours."
+			"**Benefit:** Once per week, you can cast [heroes' feast](spell/heroes_feast) as a spell-like ability with a caster level equal to your character level. If you do so, you lose access to the spells normally granted by the natural magic racial trait for the next 48 hours."
 		]
 	},
 	"repositioning_strike": {
@@ -5392,7 +5392,7 @@
 		"description": [
 			"## Repositioning Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"Your critical hits can move your foes where you wish.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Reposition](feat/improved_reposition), base attack bonus +9.  ",
@@ -5465,7 +5465,7 @@
 		"description": [
 			"## Resisting Grappler (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 7](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 7](source/monster_hunters_handbook)",
 			"",
 			"You are especially adept at fighting off the grabbing appendages of aberrations and other tentacled horrors.  ",
 			"**Prerequisites:** Dex 13.  ",
@@ -5517,7 +5517,7 @@
 		"description": [
 			"## Restorative Vigor (Combat)",
 			"",
-			"**Source** [Healer's Handbook pg. 15](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 15](source/healers_handbook)",
 			"",
 			"You can recover from additional kinds of damage using your vigor.  ",
 			"**Prerequisites:** Con 15, [Combat Vigor](feat/combat_vigor), character level 8th.  ",
@@ -5530,7 +5530,7 @@
 		"description": [
 			"## Retributive Kick (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"You can use your weapon attacks to set up a foe for an unarmed strike.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +5, weapon training class feature with a melee weapon.  ",
@@ -5543,7 +5543,7 @@
 		"description": [
 			"## Retributive Summoning",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 6](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 6](source/plane-hoppers_handbook)",
 			"",
 			"Your training in counterspelling summons is so extensive that you can redirect some of your foes' power to call forth your own allies.  ",
 			"**Prerequisites:** [Spell Focus](feat/spell_focus) or counter summons class feature.",
@@ -5779,7 +5779,7 @@
 		"description": [
 			"## Ricochet Toss (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_masters_handbook)",
 			"",
 			"You are able to angle your thrown weapon attacks in such a way that the weapon ricochets and immediately returns to you.  ",
 			"**Prerequisites:** [Quick Draw](feat/quick_draw), base attack bonus +6, weapon training class feature with a ranged weapon.  ",
@@ -5877,7 +5877,7 @@
 			"**Benefit:** Whenever you succeed at a trip combat maneuver, you can automatically attempt a drag combat maneuver against your tripped target as a swift action.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">By spending 4 stamina points, you can attempt a drag combat maneuver check against any opponent that you successfully trip using Riptide Attack as a free action instead of a swift action."
 		]
@@ -5941,7 +5941,7 @@
 		"description": [
 			"## Ritual Mask",
 			"",
-			"**Source** [Adventurer's Guide pg. 125](source/adventurer's_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
+			"**Source** [Adventurer's Guide pg. 125](source/adventurers_guide), [Arcane Anthology pg. 15](source/arcane_anthology)",
 			"",
 			"You can use your mask to enhance your occult powers.  ",
 			"**Prerequisites:** [Nameless One](feat/nameless_one), ability to cast one or more occult rituals.  ",
@@ -5970,7 +5970,7 @@
 		"description": [
 			"## Rival (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 16](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 16](source/spymasters_handbook)",
 			"",
 			"You have a rival, and the two of you try to sabotage, humiliate, or otherwise defeat each other without allowing anyone else to interfere.  ",
 			"**Prerequisites:** You must have at least one enemy who wishes to outdo you. If you have multiple rivals, the GM may keep the specific rival secret, or have many of your enemies work together against you. If your rival is not already a challenging foe, it either advances to become one or allies itself with others one or more creatures who are .  ",
@@ -6016,7 +6016,7 @@
 			">When you use this feat, you can spend up to 3 stamina points to increase the duration of the effect by 1 round for each stamina point spent."
 		]
 	},
-	"robot's_bane": {
+	"robots_bane": {
 		"name": "Robot's Bane",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -6093,7 +6093,7 @@
 		"description": [
 			"## Rugged Northerner",
 			"",
-			"**Source** [Adventurer's Guide pg. 133](source/adventurer's_guide), [Inner Sea World Guide pg. 288](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 133](source/adventurers_guide), [Inner Sea World Guide pg. 288](source/inner_sea_world_guide)",
 			"",
 			"You live a hard life in a cold climate, and after enduring the hardships of many brutal winters, you've gained some benefit from the frozen environs.  ",
 			"**Prerequisites:** Con 13, Survival 1 rank.  ",
@@ -6292,7 +6292,7 @@
 		"description": [
 			"## Sacrificial Aid (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 10](source/antiheros_handbook)",
 			"",
 			"You convince an ally to help you disable a trap, but the ally takes the damage if you fail.  ",
 			"**Benefit:** When you attempt to disable a trap, an ally who also has this feat can bolster your efforts. The ally rolls 1d20 and adds either her total bonus on Disable Device checks or her character level, whichever is higher; if the result of the ally's roll is 10 or greater, you gain a +4 bonus on your Disable Device check. If you trigger the trap, your ally is the target of the trap's effects. In the case of a trap with multiple targets, your ally takes the effects both for herself and for you (potentially taking damage twice or attempting saving throws twice).  ",
@@ -6342,7 +6342,7 @@
 			"**Benefit:** You can choose to take a -1 penalty on all attack rolls and combat maneuver checks to grant your mount a +1 bonus on all attack rolls and damage rolls made with natural weapons. These effects affect you and your mount for 1 round. When your base attack bonus reaches +4, and every 4 points thereafter, this penalty increases by -1 and the bonus to your mount's attack and damage increases by +1 to a maximum of +5. You must choose to use this feat before making an attack roll."
 		]
 	},
-	"sage's_guidance": {
+	"sages_guidance": {
 		"name": "Sage's Guidance",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -6406,7 +6406,7 @@
 		"description": [
 			"## Sandwalker",
 			"",
-			"**Source** [Legacy of Fire Player's Guide pg. 20](source/legacy_of_fire_player's_guide)",
+			"**Source** [Legacy of Fire Player's Guide pg. 20](source/legacy_of_fire_players_guide)",
 			"",
 			"You are at home on the shifting waves of sand.  ",
 			"**Prerequisites:** Dex 13, Con 13.  ",
@@ -6557,7 +6557,7 @@
 			"**Benefit:** When attempting a performance combat check while raging, you may, as a free action, expend a number of your daily rounds of rage up to half your barbarian level to create a display of savagery. You gain a bonus on the performance combat check equal to half the number of rounds expended, rounded down. If you expend all your remaining rounds of rage in this manner, thus ending your rage, you gain an additional +2 bonus on the check.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend stamina points instead of rounds of rage when using Savage Surge."
 		]
@@ -6572,7 +6572,7 @@
 		"description": [
 			"## Saving Shield (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"You deflect attacks that could mean your ally's death.  ",
 			"**Prerequisites:** [Shield Proficiency](feat/shield_proficiency).  ",
@@ -6593,7 +6593,7 @@
 		],
 		"has_mythic_version": true
 	},
-	"savior's_arrow": {
+	"saviors_arrow": {
 		"name": "Savior's Arrow",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -6651,7 +6651,7 @@
 		"description": [
 			"## [Scarlet Rose](rule/aff_scarred_ladies) Devotion",
 			"",
-			"**Source** [Adventurer's Guide pg. 85](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 85](source/adventurers_guide)",
 			"",
 			"Through the bond of sisterhood, you can inspire your allies to overcome terrible threats.  ",
 			"**Prerequisites:** [Bodyguard](feat/bodyguard), [Combat Reflexes](feat/combat_reflexes), Perform (oratory) 3 ranks, any good alignment.  ",
@@ -6716,7 +6716,7 @@
 	"scarring_spell_like_ability": {
 		"copyof": "scarring_spell-like_ability"
 	},
-	"scavenger's_eye": {
+	"scavengers_eye": {
 		"name": "Scavenger's Eye",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -6730,7 +6730,7 @@
 			"**Normal:** Determining the most valuable object in a treasure hoard takes 1 full-round action."
 		]
 	},
-	"scavenger's_luck": {
+	"scavengers_luck": {
 		"name": "Scavenger's Luck",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -6752,7 +6752,7 @@
 		"description": [
 			"## Scholar",
 			"",
-			"**Source** [Adventurer's Guide pg. 125](source/adventurer's_guide), [Inner Sea World Guide pg. 288](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 125](source/adventurers_guide), [Inner Sea World Guide pg. 288](source/inner_sea_world_guide)",
 			"",
 			"You have graduated from one of the many colleges, universities, and specialized schools of higher learning scattered throughout the Inner Sea region.  ",
 			"**Benefit:** Pick any two Knowledge skills. You gain a +2 bonus on checks with these two skills. If you have 10 or more ranks in one of these Knowledge skills, the bonus increases to +4 for that skill.  ",
@@ -6896,7 +6896,7 @@
 		"description": [
 			"## Scouting Summons (Metamagic)",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoners_handbook)",
 			"",
 			"Your experiments with the connection between summoners and the creatures they summon have taught you to see through the eyes of a summoned creature for a short time.  ",
 			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus), ability to cast magic jar.  ",
@@ -6922,7 +6922,7 @@
 		"description": [
 			"## Scribe Spell Equation",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"You pluck runes and glyphs from your crystalline dust and arrange them into an equation that holds magic for later use.  ",
 			"**Prerequisites:** [Scribe Scroll](feat/scribe_scroll), aphorite, caster level 5th, crystalline dust racial trait.  ",
@@ -6976,7 +6976,7 @@
 		"description": [
 			"## Scuttle",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"You know how to keep your head down and crawl away undetected by larger foes.  ",
 			"**Benefit:** You can crawl at half your normal speed and can take a 5-foot step when crawling. When crawling, you don't provoke attacks of opportunity from opponents that are one or more size categories larger than you.  ",

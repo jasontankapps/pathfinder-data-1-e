@@ -76,7 +76,7 @@
 		"description": [
 			"## Dragoncrafting",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 18](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 18](source/dragonslayers_handbook)",
 			"",
 			"You have the ability to create rare and valuable items from the bodies of fallen true dragons.  ",
 			"**Prerequisites:** Craft (any) 5 ranks, Knowledge (arcana) 3 ranks.  ",
@@ -140,7 +140,7 @@
 		"description": [
 			"## Dragonheart",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"Your familiarity with dragonkind makes you less susceptible to their abilities.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank.  ",
@@ -153,7 +153,7 @@
 		"description": [
 			"## Dragonslayer (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"You have been trained to fight dragons.  ",
 			"**Prerequisites:** Knowledge (arcana) 4 ranks, base attack bonus +4.  ",
@@ -166,7 +166,7 @@
 		"description": [
 			"## Dragon-Touched (Story)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 13](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 13](source/dragonslayers_handbook)",
 			"",
 			"Your life has been shaped by an encounter with a powerful dragon, and you have dedicated your life to seeing that dragon dead.  ",
 			"**Prerequisites:** You must have been knocked unconscious in an encounter with a challenging draconic foe or have a regional background tied to a specific dragon (such as those presented in this section or a similar trait).  ",
@@ -243,7 +243,7 @@
 		"description": [
 			"## Dreadful Carnage (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Slaying an enemy demoralizes your other nearby foes.  ",
 			"**Prerequisites:** Str 15, [Power Attack](feat/power_attack), [Furious Focus](feat/furious_focus), base attack bonus +11.  ",
@@ -283,7 +283,7 @@
 		"description": [
 			"## Dreamwalker",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hoppers_handbook)",
 			"",
 			"Your dreams are as vivid as your waking hours, and you can slip into a dreamlike state with no effort.  ",
 			"**Prerequisites:** Cha 17, [Lucid Dreamer](feat/lucid_dreamer), [Practiced Dreamer](feat/practiced_dreamer), Knowledge (planes) 10 ranks.  ",
@@ -359,7 +359,7 @@
 			"**Benefit:** You gain a +5 bonus on Linguistics checks made to decipher writings in the Druidic language. If you have 10 or more ranks in Linguistics, add Druidic to the list of bonus languages available to you."
 		]
 	},
-	"drunkard's_recovery": {
+	"drunkards_recovery": {
 		"name": "Drunkard's Recovery",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -388,7 +388,7 @@
 			"**Benefit:** When you drink a tankard of ale or strong alcohol, you take a -2 penalty on Reflex saving throws, but gain a number of temporary hit points equal to your character level, and gain a +2 alchemical bonus on Fortitude and Will saving throws. These bonuses last 1 hour or until the temporary hit points gained by this effect are lost, whichever occurs first. Regardless, the penalty lasts for a full hour."
 		]
 	},
-	"drunken_god's_blessings": {
+	"drunken_gods_blessings": {
 		"name": "Drunken God's Blessings",
 		"sources": [ "Inner Sea Taverns" ],
 		"description": [
@@ -430,7 +430,7 @@
 	"drunken_sing_along": {
 		"copyof": "drunken_sing-along"
 	},
-	"dryad's_apprentice": {
+	"dryads_apprentice": {
 		"name": "Dryad's Apprentice",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
@@ -443,7 +443,7 @@
 			"**Benefit:** You can cast [wood shape](spell/wood_shape) as a spell-like ability at will, but only on a piece of wood no larger than 1 pound. You gain a +4 bonus on Craft checks involving wood, and you are always treated as if you had masterwork artisan's woodworking tools when attempting such checks."
 		]
 	},
-	"dryad's_attendant": {
+	"dryads_attendant": {
 		"name": "Dryad's Attendant",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
@@ -452,7 +452,7 @@
 			"**Source** [Wilderness Origins pg. 10](source/wilderness_origins)",
 			"",
 			"Dryads trust you to bear their power and their bond.  ",
-			"**Prerequisites:** Cha 15, [Dryad's Apprentice](feat/dryad's_apprentice).",
+			"**Prerequisites:** Cha 15, [Dryad's Apprentice](feat/dryads_apprentice).",
 			"",
 			"You can cast [meld into stone](spell/meld_into_stone) as a spell-like ability once per day with a caster level equal to your character level, except that you instead meld with wood. You can remain melded with the wood for up to 24 hours. If you meld with a [dryad's](monster/dryad) bonded tree, the dryad can treat you as her bonded tree for a number of days equal to your Charisma modifier (minimum 1) after you leave it; the dryad retains her bond to her tree during this time as well."
 		]
@@ -493,7 +493,7 @@
 		"description": [
 			"## Duck and Cover (Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Your allies assist you in avoiding certain attacks.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, and both of you are required to make a Reflex saving throw against a spell or effect, you may take the result of your die roll or that of your ally (your modifiers still apply to the roll, regardless of which result you take). If you take your ally's result, you are knocked prone (or staggered on your next turn, if you are already prone or cannot be knocked prone). In addition, you receive a +2 cover bonus to your AC against ranged attacks as long as your ally is wielding a shield."
@@ -525,14 +525,14 @@
 		"description": [
 			"## Duelist of the Roaring Falls (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 25](source/adventurer's_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 25](source/adventurers_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
 			"",
 			"You have embraced the Roaring Falls method of Aldori swordplay, known for its elegant, sweeping strikes.  ",
 			"**Prerequisites:** [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +5.  ",
 			"**Benefit:** When you use an Aldori dueling sword to deal damage to a shaken, frightened, or panicked foe, you can add your Dexterity bonus to damage rolls instead of your Strength bonus. If you can already add your Dexterity bonus to damage rolls, you instead gain a +1 competence bonus on damage rolls made with an Aldori dueling sword. When you attempt a dueling parry during a duel, the penalty on your attack roll to parry is reduced from -5 to -3. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When you hit a foe with a melee attack made using an Aldori dueling sword, you can spend 4 stamina points to treat that foe as being shaken for the purpose of gaining a bonus from Duelist of the Roaring Falls until the start of your next turn."
 		]
@@ -547,14 +547,14 @@
 		"description": [
 			"## Duelist of the Shrouded Lake (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 25](source/adventurer's_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 25](source/adventurers_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
 			"",
 			"You have embraced the Shrouded Lake style of Aldori swordplay, known for its circuitous footwork.  ",
 			"**Prerequisites:** [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +5.  ",
 			"**Benefit:** When attempting to bull rush or reposition a foe, you gain a +1 insight bonus on the combat maneuver check and a +4 dodge bonus to your AC against attacks of opportunity you provoke. You also gain a +1 insight bonus to your CMD against bull rush and reposition attempts. When you attempt a dueling dodge during a duel, your bonus to AC increases to +6. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">By spending 5 stamina points when you attempt a combat maneuver check with an Aldori dueling sword, you gain a +4 bonus to your AC against attacks made by that target until the beginning of your next turn."
 		]
@@ -578,7 +578,7 @@
 		"description": [
 			"## Dwarven Fury (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"You can channel your hatred against many opponents.  ",
 			"**Prerequisites:** [Dwarven Hatred Style](feat/dwarven_hatred_style), [Dwarven Seething](feat/dwarven_seething), base attack bonus +7, defensive training and hatred racial traits, Medium size.  ",
@@ -591,7 +591,7 @@
 		"description": [
 			"## Dwarven Hatred Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"You harness hatred into ferocity.  ",
 			"**Prerequisites:** Base attack bonus +1, defensive training and hatred racial traits, Medium size.  ",
@@ -604,7 +604,7 @@
 		"description": [
 			"## Dwarven Seething (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"Your hatred drives every swing of your weapon.  ",
 			"**Prerequisites:** [Dwarven Hatred Style](feat/dwarven_hatred_style), base attack bonus +5, defensive training and hatred racial traits, Medium size.  ",
@@ -662,7 +662,7 @@
 		"description": [
 			"## Eagle Eyes",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Your vision is especially keen.  ",
 			"**Prerequisites:** Wis 13, keen senses racial trait.  ",
@@ -713,7 +713,7 @@
 	"eagle_eyed": {
 		"copyof": "eagle-eyed"
 	},
-	"eagle's_resolve": {
+	"eagles_resolve": {
 		"name": "Eagle's Resolve",
 		"sources": [
 			"Adventurer's Guide",
@@ -722,7 +722,7 @@
 		"description": [
 			"## Eagle's Resolve",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 28](source/andoran_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurers_guide), [Andoran, Birthplace of Freedom pg. 28](source/andoran_birthplace_of_freedom)",
 			"",
 			"You are resolute in your opposition to slavery and oppression, and the very thought of mental control disgusts you.  ",
 			"**Prerequisites:** [Iron Will](feat/iron_will).  ",
@@ -867,7 +867,7 @@
 		"description": [
 			"## Eclectic",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"You have a talent for picking up different vocations.  ",
 			"**Prerequisites:** Human.  ",
@@ -909,7 +909,7 @@
 		"description": [
 			"## Ectoplasmic Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Your spells breach the gulf between dimensions, sending ghostly emanations into the ether.  ",
 			"**Benefit:** An ectoplasmic spell has full effect against incorporeal or ethereal creatures. An ectoplasmic spell uses up a spell slot one level higher than the spell's actual level."
@@ -1095,7 +1095,7 @@
 		"description": [
 			"## Eldritch Claws (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Who needs magic weapons? Eldritch tricks are no match for your bestial ferocity.  ",
 			"**Prerequisites:** Str 15, natural weapons, base attack bonus +6.  ",
@@ -1293,7 +1293,7 @@
 		"description": [
 			"## Elemental Fist (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"You empower your strike with elemental energy  ",
 			"**Prerequisites:** Con 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
@@ -1324,7 +1324,7 @@
 		"description": [
 			"## Elemental Focus",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Your spells of a certain element are more difficult to resist.  ",
 			"**Benefit:** Choose one energy type (acid, cold, electricity, or fire). Add +1 to the Difficulty Class for all saving throws against spells that deal damage of the energy type you select.  ",
@@ -1399,7 +1399,7 @@
 		"description": [
 			"## Elemental Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"You can manipulate the elemental nature of your spells.  ",
 			"**Benefit:** Choose one energy type: acid, cold, electricity, or fire. You may replace a spell's normal damage with that energy type or split the spell's damage, so that half is of that energy type and half is of its normal type. An elemental spell uses up a spell slot one level higher than the spell's actual level.  ",
@@ -1453,7 +1453,7 @@
 		"description": [
 			"## Elf-Magic Defense",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)",
 			"",
 			"You can better resist arcane trickery from your hated foes.  ",
 			"**Prerequisites:** Favored enemy class feature, hobgoblin.  ",
@@ -1504,7 +1504,7 @@
 		"description": [
 			"## Elven Accuracy (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 159](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 159](source/advanced_players_guide)",
 			"",
 			"Your sharp eyesight makes difficult shots easier.  ",
 			"**Prerequisites:** Elf.  ",
@@ -1531,7 +1531,7 @@
 		"description": [
 			"## Elven Battle Focus (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"Your fighting style is enhanced by your keen intellect.  ",
 			"**Prerequisites:** Int 13, [Elven Battle Style](feat/elven_battle_style), [Elven Battle Training](feat/elven_battle_training), [Weapon Finesse](feat/weapon_finesse), base attack bonus +4, weapon familiarity racial trait.  ",
@@ -1544,7 +1544,7 @@
 		"description": [
 			"## Elven Battle Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"You wield traditional elven weapons with grace.  ",
 			"**Prerequisites:** [Elven Battle Training](feat/elven_battle_training), [Weapon Finesse](feat/weapon_finesse), base attack bonus +1, weapon familiarity racial trait.  ",
@@ -1557,7 +1557,7 @@
 		"description": [
 			"## Elven Battle Torrent (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"You rapidly counter enemy attacks.  ",
 			"**Prerequisites:** Int 13, [Elven Battle Focus](feat/elven_battle_focus), [Elven Battle Style](feat/elven_battle_style), [Elven Battle Training](feat/elven_battle_training), [Weapon Finesse](feat/weapon_finesse), base attack bonus +10, weapon familiarity racial trait.  ",
@@ -1627,7 +1627,7 @@
 			"**Benefit:** As a standard action, you can alter one of your ongoing abjuration or transmutation spells. It must be currently affecting you and must grant a choice of options when cast. You change its benefit to a different one from the same list. In order to accomplish this, you must make a successful Spellcraft check (DC equal to 10 + the level of the spell to be altered). The duration of the spell is reduced to half of the spell's remaining duration. For example, a 7th-level wizard could change her resist energy (fire) spell with 50 minutes of its duration remaining into resist energy (cold), but the new duration would be 25 minutes. This ability does not change the benefit for any other creatures targeted by the original spell."
 		]
 	},
-	"emissary's_emboldening": {
+	"emissarys_emboldening": {
 		"name": "Emissary's Emboldening",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -1689,7 +1689,7 @@
 		"description": [
 			"## Empathy",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_#85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
 			"",
 			"You have learned to experience emotion.  ",
 			"**Prerequisites:** Cha 13, android.  ",
@@ -1765,7 +1765,7 @@
 		"description": [
 			"## Empty Quiver Flexibility (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_masters_handbook)",
 			"",
 			"You can apply your ranged fighting feats to melee attacks.  ",
 			"**Prerequisites:** [Empty Quiver Style](feat/empty_quiver_style), [Rapid Shot](feat/rapid_shot), [Stabbing Shot](feat/stabbing_shot), Weapon Focus with the chosen weapon.  ",
@@ -1778,7 +1778,7 @@
 		"description": [
 			"## Empty Quiver Flurry (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_masters_handbook)",
 			"",
 			"You can use your ranged weapons to make melee attacks that keep foes at bay as you shoot them.  ",
 			"**Prerequisites:** [Empty Quiver Flexibility](feat/empty_quiver_flexibility), [Empty Quiver Style](feat/empty_quiver_style), [Rapid Shot](feat/rapid_shot), [Stabbing Shot](feat/stabbing_shot), Weapon Focus with the chosen weapon.  ",
@@ -1792,7 +1792,7 @@
 		"description": [
 			"## Empty Quiver Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 14](source/weapon_masters_handbook)",
 			"",
 			"You can fight in melee with your bow, crossbow, or firearm.  ",
 			"**Prerequisites:** Weapon Focus with the chosen weapon.  ",
@@ -1855,7 +1855,7 @@
 		],
 		"has_mythic_version": true
 	},
-	"endure_pain_zon-kuthon's_kiss": {
+	"endure_pain_zon-kuthons_kiss": {
 		"name": "Endure Pain (Zon-Kuthon's Kiss)",
 		"sources": [ "Cities of Golarion" ],
 		"description": [
@@ -1868,8 +1868,8 @@
 			"**Benefit:** If you take nonlethal damage, you may attempt a Fortitude saving throw (DC equal to 10 + the nonlethal damage dealt) to reduce that damage by half. The Endurance feat grants a +4 bonus on this saving throw."
 		]
 	},
-	"endure_pain_zon_kuthon's_kiss": {
-		"copyof": "endure_pain_zon-kuthon's_kiss"
+	"endure_pain_zon_kuthons_kiss": {
+		"copyof": "endure_pain_zon-kuthons_kiss"
 	},
 	"enduring_might": {
 		"name": "Enduring Might",
@@ -1932,7 +1932,7 @@
 		"description": [
 			"## Energy Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_masters_handbook)",
 			"",
 			"You can project energy from evocation magic items.  ",
 			"**Prerequisites:** Use Magic Device 1 rank, base Fortitude save bonus +4.  ",
@@ -1972,7 +1972,7 @@
 		"description": [
 			"## Enforcer (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 159](source/advanced_player's_guide), [Pathfinder Campaign Setting pg. 125](source/pathfinder_campaign_setting)",
+			"**Source** [Advanced Player's Guide pg. 159](source/advanced_players_guide), [Pathfinder Campaign Setting pg. 125](source/pathfinder_campaign_setting)",
 			"",
 			"You are skilled at causing fear in those you brutalize.  ",
 			"**Prerequisites:** Intimidate 1 rank.  ",
@@ -2158,7 +2158,7 @@
 		"description": [
 			"## Ephemeral Tread",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)",
 			"",
 			"You are able to gain some abilities of a lucid dreamer while in your corporeal form.  ",
 			"**Prerequisites:** Cha 15, [Lucid Dreamer](feat/lucid_dreamer), Knowledge (planes) 5 ranks.  ",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"## Equipment Trick (Combat)",
 			"",
-			"**Source** [Heroes from the Fringe pg. 29](source/heroes_from_the_fringe), [Sargava, the Lost Colony pg. 25](source/sargava_the_lost_colony), [Adventurer's Armory pg. 22](source/adventurer's_armory), [Dirty Tactics Toolbox pg. 18](source/dirty_tactics_toolbox), [Adventurer's Armory 2 pg. 2](source/adventurer's_armory_2)",
+			"**Source** [Heroes from the Fringe pg. 29](source/heroes_from_the_fringe), [Sargava, the Lost Colony pg. 25](source/sargava_the_lost_colony), [Adventurer's Armory pg. 22](source/adventurers_armory), [Dirty Tactics Toolbox pg. 18](source/dirty_tactics_toolbox), [Adventurer's Armory 2 pg. 2](source/adventurers_armory_2)",
 			"",
 			"Choose a piece of equipment, such as an anvil, boots, a cloak, a heavy blade scabbard, a sunrod, or a wondrous item. You understand how to use that piece of equipment in combat.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -2232,7 +2232,7 @@
 			"",
 			"### Heavy Blade Scabbard Tricks",
 			"",
-			"**Source** [Adventurer's Armory pg. 22](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 22](source/adventurers_armory)",
 			"",
 			"In addition to the feat, skill, or other requirement listed for each of these tricks, you must have the Equipment Trick (heavy blade scabbard) feat to use a trick. You may use these tricks with any sword scabbard designed for a heavy blade (see the [fighter weapon groups](ability/weapon_groups)). At your GM's discretion, you may be able to use some of these tricks with a scabbard intended for a light blade, but that requires a separate Equipment Trick feat and may be less effective.",
 			"",
@@ -2250,7 +2250,7 @@
 			"",
 			"### Instrument Tricks",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 19](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 19](source/adventurers_armory_2)",
 			"",
 			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any musical instrument's uses and supplement the [Equipment Trick](feat/equipment_trick) feat. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.",
 			"",
@@ -2290,7 +2290,7 @@
 			"",
 			"### Lantern Tricks",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 14](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 14](source/adventurers_armory_2)",
 			"",
 			"Lanterns come in a variety of shapes and sizes. Each of these tricks can be performed with any sort of lantern or lamp, except when a specific kind of lamp is indicated in the description. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (lantern) feat to use a trick.",
 			"",
@@ -2306,7 +2306,7 @@
 			"",
 			"### Pole Tricks",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 15](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 15](source/adventurers_armory_2)",
 			"",
 			"Each of these tricks can be done with a pole or balancing pole, but specific poles have further abilities. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (pole) feat to use a trick.",
 			"",
@@ -2340,7 +2340,7 @@
 			"",
 			"### Shield Tricks",
 			"",
-			"**Source** [Adventurer's Armory pg. 23](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 23](source/adventurers_armory)",
 			"",
 			"In addition to the feat, skill, or other requirement listed for each of these tricks, you must have the Equipment Trick (shield) feat and proficiency in (non-tower) shields to use a trick. You may use these tricks with any light or heavy shield. At your GM's discretion, you may be able to use some of these tricks with a tower shield or buckler, but that requires a separate Equipment Trick feat for that kind of shield and may add a penalty on the associated roll.",
 			"",
@@ -2408,7 +2408,7 @@
 			"",
 			"### Thunderstone Tricks",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 26](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 26](source/adventurers_armory_2)",
 			"",
 			"In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (thunderstone) feat to use the following tricks.",
 			"",
@@ -2435,7 +2435,7 @@
 			"*Favored Item* (Magical Aptitude): Once per day, you can spend 1 hour practicing with a wondrous item to designate it as your favored item for that day. If the favored item functions for a specific number of rounds or minutes per day greater than 1 round or 1 minute, you increase the maximum number of rounds or minutes it can function that day by an amount equal to half your ranks in Use Magic Device (minimum 1 round)."
 		]
 	},
-	"erastil's_blessing": {
+	"erastils_blessing": {
 		"name": "Erastil's Blessing",
 		"sources": [ "Paths of the Righteous" ],
 		"description": [
@@ -2758,7 +2758,7 @@
 			">When you threaten a critical hit against an exhausted target and choose to use Exhausting Critical, you can spend up to 5 stamina points. If you do, you gain a +2 bonus on the confirmation roll for each stamina point you spent."
 		]
 	},
-	"exile's_path": {
+	"exiles_path": {
 		"name": "Exile's Path",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -2784,13 +2784,13 @@
 			"**Benefit:** When you fail a saving throw to resist possession or a dominate spell, you can deal 4 points of Constitution damage to yourself and reroll your saving throw as an immediate action. You cannot reduce or negate this damage in any way, and the only way to heal the damage is through natural recovery; magical methods don't work. You must take the result of the second roll, even if it is worse. If you succeed at the second saving throw, you also become immune to that spell or ability from that creature for 24 hours. You must be wielding a lethal piercing or slashing weapon, or possess a claw natural attack or some way to draw such a weapon reactively without using your immediate action, to use this ability."
 		]
 	},
-	"exorcist's_rebuttal": {
+	"exorcists_rebuttal": {
 		"name": "Exorcist's Rebuttal",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Exorcist's Rebuttal",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 9](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 9](source/demon_hunters_handbook)",
 			"",
 			"You've experienced the suffocating grip of demonic possession. The event left you emotionally scarred, but it also tempered your mind against the prying magic of evil enchantments.  ",
 			"**Prerequisites:** [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will).  ",
@@ -2830,7 +2830,7 @@
 		"description": [
 			"## Expanded Arcana",
 			"",
-			"**Source** [Advanced Player's Guide pg. 159](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 159](source/advanced_players_guide)",
 			"",
 			"Your research has revealed new spells.  ",
 			"**Prerequisites:** Caster level 1st, see Special.  ",
@@ -2873,7 +2873,7 @@
 		"description": [
 			"## Expanded Hunter Tactics (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunters_handbook)",
 			"",
 			"You're able to train your allies as you do your animal companion.  ",
 			"**Prerequisites:** Hunter tactics class feature.  ",
@@ -2969,7 +2969,7 @@
 		"description": [
 			"## Expanded Summon Monster",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 28](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 28](source/monster_summoners_handbook)",
 			"",
 			"You can summon allies beyond the reach of most conjurers.  ",
 			"**Prerequisites:** Ability to cast a summon monster spell.  ",
@@ -3029,7 +3029,7 @@
 			"- [Crysmal](monster/crysmal)",
 			"- [Dimetrodon](monster/dimetrodon)[^T]",
 			"- [Dire weasel](monster/dire_weasel)[^T]",
-			"- [D'ziriak](monster/d'ziriak)",
+			"- [D'ziriak](monster/dziriak)",
 			"- [Foo lion](template/foo_creature)",
 			"- [Giant seahorse](monster/giant_seahorse)[^T]",
 			"- [Giant skunk](monster/giant_skunk)[^T]",
@@ -3168,7 +3168,7 @@
 		"description": [
 			"## Experienced Ghost Hunter",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hoppers_handbook)",
 			"",
 			"You've fought enough specters that doing so has become second nature.  ",
 			"**Prerequisites:** Character level 7th, duskwalker, ghost hunter racial trait.  ",
@@ -3211,7 +3211,7 @@
 		"description": [
 			"## Expert Boarder",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 32](source/andoran_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurers_guide), [Andoran, Birthplace of Freedom pg. 32](source/andoran_birthplace_of_freedom)",
 			"",
 			"You are as comfortable dangling from a ship's rigging as you are on stable land.  ",
 			"**Prerequisites:** Affiliated with the Gray Corsairs.  ",
@@ -3446,7 +3446,7 @@
 			"**Benefit:** If you are wearing medium or heavy armor and are adjacent to an ally who also has this feat, as a free action, you may give your ally a circumstance bonus to her AC equal to half the armor bonus provided by your armor. This bonus lasts for 1 round. During this round, you gain no bonus to your AC from your armor.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points either to use this feat without losing your own armor bonus to AC, or to use this feat to grant the bonus to an ally."
 		]
@@ -3622,7 +3622,7 @@
 		"description": [
 			"## Extra Bombs",
 			"",
-			"**Source** [Advanced Player's Guide pg. 159](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 159](source/advanced_players_guide)",
 			"",
 			"You can throw more bombs per day.  ",
 			"**Prerequisites:** Bomb class feature.  ",
@@ -3694,7 +3694,7 @@
 		"description": [
 			"## Extra Crystalline Dust",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"You can manifest crystalline dust more often.  ",
 			"**Prerequisites:** Aphorite, crystalline dust racial trait.  ",
@@ -3708,7 +3708,7 @@
 		"description": [
 			"## Extra Death Vow",
 			"",
-			"**Source** [Pathfinder: Worldscape #1 pg. 28](source/pathfinder_worldscape_#1)",
+			"**Source** [Pathfinder: Worldscape #1 pg. 28](source/pathfinder_worldscape_1)",
 			"",
 			"Your fury and fighting prowess allow you to swear to slay more enemies per day.  ",
 			"**Prerequisites:** Death vow class feature.  ",
@@ -3721,7 +3721,7 @@
 		"description": [
 			"## Extra Discovery",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You have made a new alchemical discovery.  ",
 			"**Prerequisites:** Discovery class feature.  ",
@@ -3836,7 +3836,7 @@
 		"description": [
 			"## Extra Hex",
 			"",
-			"**Source** [Advanced Class Guide pg. 147](source/advanced_class_guide), [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Class Guide pg. 147](source/advanced_class_guide), [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You have learned the secrets of a new hex.  ",
 			"**Prerequisites:** Hex class feature.  ",
@@ -4104,7 +4104,7 @@
 		"description": [
 			"## Extra Rage Power",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You have unlocked a new ability to use while raging.  ",
 			"**Prerequisites:** Rage power class feature.  ",
@@ -4145,7 +4145,7 @@
 		"description": [
 			"## Extra Revelation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You have discovered a new aspect of your mystery.  ",
 			"**Prerequisites:** Revelation class feature.  ",
@@ -4159,7 +4159,7 @@
 		"description": [
 			"## Extra Rogue Talent",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"Through constant practice, you have learned how to perform a special trick.  ",
 			"**Prerequisites:** Rogue talent class feature.  ",
@@ -4218,7 +4218,7 @@
 		"description": [
 			"## Extra Spontaneous Spell Mastery",
 			"",
-			"**Source** [Adventurer's Guide pg. 124](source/adventurer's_guide), [Arcane Anthology pg. 14](source/arcane_anthology)",
+			"**Source** [Adventurer's Guide pg. 124](source/adventurers_guide), [Arcane Anthology pg. 14](source/arcane_anthology)",
 			"",
 			"You are able to spontaneously cast spells you have mastered more frequently than your peers.  ",
 			"**Prerequisites:** Magaambyan arcanist spontaneous spell mastery class feature.  ",
@@ -4263,7 +4263,7 @@
 		"description": [
 			"## Extra Surge",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_#85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 72](source/pathfinder_85_fires_of_creation), [People of the Stars pg. 7](source/people_of_the_stars)",
 			"",
 			"You can use your nanite surge ability more often than normal.  ",
 			"**Prerequisites:** Con 13, nanite surge ability.  ",
@@ -4434,7 +4434,7 @@
 		"description": [
 			"## Eyes of the Purge",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"Through training and persistence inspired by the Great Purge of Stavian I, you have learned to detect the sources of divine magic in such effects' auras.  ",
 			"**Prerequisites:** Ability to cast [detect magic](spell/detect_magic) as a spell or spell-like ability.  ",
@@ -4485,7 +4485,7 @@
 		],
 		"mythic_only": true
 	},
-	"faerie's_strike": {
+	"faeries_strike": {
 		"name": "Faerie's Strike",
 		"sources": [
 			"Advanced Class Guide",
@@ -4506,7 +4506,7 @@
 			">When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent."
 		]
 	},
-	"falcon's_cry": {
+	"falcons_cry": {
 		"name": "Falcon's Cry",
 		"sources": [
 			"Adventurer's Guide",
@@ -4515,7 +4515,7 @@
 		"description": [
 			"## Falcon's Cry",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Andoran, Birthplace of Freedom pg. 30](source/andoran_birthplace_of_freedom)",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurers_guide), [Andoran, Birthplace of Freedom pg. 30](source/andoran_birthplace_of_freedom)",
 			"",
 			"You inspire others to throw off the shackles of oppression.  ",
 			"**Prerequisites:** Cha 13, affiliated with the Steel Falcons.  ",
@@ -4528,7 +4528,7 @@
 		"description": [
 			"## Fall Guy (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 10](source/antiheros_handbook)",
 			"",
 			"Your ally plays the part of a bumbling fool, making you look good in comparison.  ",
 			"**Prerequisites:** Bluff 1 rank.  ",
@@ -4545,14 +4545,14 @@
 		"description": [
 			"## Falling Water Gambit (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 25](source/adventurer's_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 25](source/adventurers_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
 			"",
 			"You have integrated both the Roaring Falls and Shrouded Lake techniques of Aldori swordplay into a seamless union.  ",
 			"**Prerequisites:** [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Duelist of the Roaring Falls](feat/duelist_of_the_roaring_falls), [Duelist of the Shrouded Lake](feat/duelist_of_the_shrouded_lake), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +8.  ",
 			"**Benefit:** When attacking a creature denied its Dexterity bonus to AC because of your successful feint, you increase the threat range of your Aldori dueling sword by 1 (typically to 18-20/&times;2), and gain a +2 bonus on attack rolls to confirm critical hits. After you make a dueling dodge or succeed at a dueling parry during a duel, you can make an attack of opportunity against the foe who attacked you if that foe is shaken, frightened, or panicked. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">By spending 4 stamina points, you gain the ability to attempt a dueling dodge or a dueling parry against attacks made by a shaken, frightened, or panicked opponent, even if you aren't participating in a duel."
 		]
@@ -4713,21 +4713,21 @@
 			"**Special:** This feat is only for campaigns using the optional undead hunger rules."
 		]
 	},
-	"fan-bearer_at_the_king's_right_hand": {
+	"fan-bearer_at_the_kings_right_hand": {
 		"name": "Fan-Bearer at the King's Right Hand",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Fan-Bearer at the King's Right Hand (Origin)",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_139_the_dead_road)",
 			"",
 			"Your creator was an aide and bodyguard, and your memories are filled with the sight of that charge.  ",
 			"**Prerequisites:** [Shabti](race/shabti).  ",
 			"**Benefit:** As a swift action, you can designate an adjacent ally as your charge. So long as you remain adjacent to that character, he benefits from your resistance to level drain and immunity to undeath racial traits. This ability applies even if one of you is killed, so long as you remain adjacent."
 		]
 	},
-	"fan_bearer_at_the_king's_right_hand": {
-		"copyof": "fan-bearer_at_the_king's_right_hand"
+	"fan_bearer_at_the_kings_right_hand": {
+		"copyof": "fan-bearer_at_the_kings_right_hand"
 	},
 	"fanged_crown_massacre": {
 		"name": "Fanged Crown Massacre",
@@ -4735,7 +4735,7 @@
 		"description": [
 			"## Fanged Crown Massacre",
 			"",
-			"**Source** [Adventurer's Guide pg. 84](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 84](source/adventurers_guide)",
 			"",
 			"Driven by your loyalty to a fallen queen, you can inspire your allies to brutal acts.  ",
 			"**Prerequisites:** [Bodyguard](feat/bodyguard), [Combat Reflexes](feat/combat_reflexes), Perform (oratory) 3 ranks, any evil alignment.  ",
@@ -4850,7 +4850,7 @@
 		"description": [
 			"## Fast Drinker",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You swiftly guzzle spirits to draw forth ki.  ",
 			"**Prerequisites:** Con 18, drunken ki class feature.  ",
@@ -4889,7 +4889,7 @@
 		"description": [
 			"## Fast Healer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You benefit greatly from your healing, be it from spells or natural healing.  ",
 			"**Prerequisites:** Con 13, [Diehard](feat/diehard), [Endurance](feat/endurance).  ",
@@ -5007,7 +5007,7 @@
 		"description": [
 			"## Favored Defense",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"Your cunning is your shield against your quarry's attacks.  ",
 			"**Prerequisites:** Favored enemy class feature.  ",
@@ -5207,14 +5207,14 @@
 		"description": [
 			"## Feint Defender (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 18](source/armor_masters_handbook)",
 			"",
 			"You use your shield to conceal your own body language and keep your attention focused.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th, Sense Motive 1 rank.  ",
 			"**Benefit:** You add your shield's bonus to AC to the DC of feint attempts against you.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint against you in combat, and use the lower of the two results."
 		]
@@ -5688,7 +5688,7 @@
 		"description": [
 			"## Fiendish Facade",
 			"",
-			"**Source** [Blood of Fiends pg. 25](source/blood_of_fiends), [Pathfinder #25: The Bastards of Erebus pg. 66](source/pathfinder_#25_the_bastards_of_erebus)",
+			"**Source** [Blood of Fiends pg. 25](source/blood_of_fiends), [Pathfinder #25: The Bastards of Erebus pg. 66](source/pathfinder_25_the_bastards_of_erebus)",
 			"",
 			"You are easily mistaken for a member of another race. Your fiendish physical traits are normally hidden by clothing or appear to be markings of another race.  ",
 			"**Prerequisites:** Must be taken at 1st level, tiefling.  ",
@@ -5704,7 +5704,7 @@
 		"description": [
 			"## Fiendish Heritage",
 			"",
-			"**Source** [Pathfinder #25: The Bastards of Erebus pg. 66](source/pathfinder_#25_the_bastards_of_erebus)",
+			"**Source** [Pathfinder #25: The Bastards of Erebus pg. 66](source/pathfinder_25_the_bastards_of_erebus)",
 			"",
 			"You possess a strong tie to your fiendish ancestors, granting you favorable abilities.  ",
 			"**Prerequisites:** Tiefling, must be taken at 1st level.  ",
@@ -5794,7 +5794,7 @@
 		"description": [
 			"## Fight On",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You can keep fighting even after you should be dead.  ",
 			"**Prerequisites:** Con 13; dwarf, half-orc, or orc.  ",
@@ -5814,7 +5814,7 @@
 			"**Benefit:** When you are in a rage and an ally with this feat within 60 feet is in a rage, you don't take the normal -2 penalty to AC for being in a rage. If you would take a larger penalty to AC for being in a rage, reduce that penalty by 2."
 		]
 	},
-	"figment's_fluidity": {
+	"figments_fluidity": {
 		"name": "Figment's Fluidity",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -5922,7 +5922,7 @@
 		"description": [
 			"## Find the Flaw",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"You sense the minute imperfections in the otherwise ordered structure of your foes' weapons and armor.  ",
 			"**Prerequisites:** Str 13, [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), base attack bonus +1, Craft (armor or weapons) 5 ranks, aphorite.  ",
@@ -5935,7 +5935,7 @@
 		"description": [
 			"## Finesse Shot (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_masters_handbook)",
 			"",
 			"You can use ranged attacks to perform actions that require finesse.  ",
 			"**Prerequisites:** Marksman's Utility, base attack bonus +7, weapon training class feature with a ranged weapon.  ",
@@ -5962,7 +5962,7 @@
 			"The first time in a round you use a combination feat to apply a reduction or penalty to yourself or an enemy, you can double the feat's numerical modifier. For example, you can double the reduction granted by [Combat Rhythm](feat/combat_rhythm) to -2. This does not double any other effects of combination feats, such as damage."
 		]
 	},
-	"fire_god's_blessing": {
+	"fire_gods_blessing": {
 		"name": "Fire God's Blessing",
 		"sources": [ "Orcs of Golarion" ],
 		"description": [
@@ -6073,7 +6073,7 @@
 		"description": [
 			"## First General of the East (Origin)",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_139_the_dead_road)",
 			"",
 			"Your creator was a soldier and person of war, and your memories are filled with the taste of blood.  ",
 			"**Prerequisites:** Character level 5th, [shabti](race/shabti).  ",
@@ -6097,7 +6097,7 @@
 			"**Benefit:** As long as you hold your clan, house, or party's flag, members of that allegiance within 30 feet who can see the flag (including yourself) gain a +1 morale bonus on attack rolls, weapon damage rolls, and saving throws against fear and charm effects. You must hold the flag in one hand in order to grant this bonus. If the standard is taken by the enemy or destroyed, this bonus becomes a penalty, affecting all creatures that the bonus previously affected for 1 hour (or until you reclaim the lost flag).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">Whenever you can see your flag but aren't holding it, you can spend 1 stamina point to gain the benefits of Flagbearer for 1 minute as if you were holding it."
 		]
@@ -6148,7 +6148,7 @@
 		"description": [
 			"## Flame Warrior (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"The raging inferno of your body flows through any sword or axe you wield.  ",
 			"**Prerequisites:** Fire subtype, giant subtype.  ",
@@ -6193,7 +6193,7 @@
 		"description": [
 			"## Flaying Critical (Combat, Critical)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"Your critical hits weaken your opponents' defenses.  ",
 			"**Prerequisites:** [Critical Focus](feat/critical_focus), base attack bonus +11.  ",
@@ -6342,7 +6342,7 @@
 		"description": [
 			"## Flight Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_masters_handbook)",
 			"",
 			"You can coax the magic of flight from transmutation magic items.  ",
 			"**Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.  ",
@@ -6395,7 +6395,7 @@
 		"description": [
 			"## Flumefire Rage",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 7](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 7](source/elemental_masters_handbook)",
 			"",
 			"Your meditation before a rune-engraved stone in the Flume Warrens unlocks the secret of its blazing flame.  ",
 			"**Prerequisites:** Cha 15; bloodrage class feature, elemental focus class feature, or Varisian Tattoo (evocation).  ",
@@ -6437,7 +6437,7 @@
 		"description": [
 			"## Focused Aberration Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 22](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 22](source/monster_hunters_handbook)",
 			"",
 			"You hold strong against aberrations.  ",
 			"**Prerequisites:** Favored enemy (aberration) class feature.  ",
@@ -6450,7 +6450,7 @@
 		"description": [
 			"## Focused Animal Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"You're skilled at patiently hiding from your favored enemies, particularly animals.  ",
 			"**Prerequisites:** Favored enemy (animal) class feature.  ",
@@ -6463,7 +6463,7 @@
 		"description": [
 			"## Focused Construct Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"You are skilled at breaking the defenses of constructs and other creatures.  ",
 			"**Prerequisites:** Favored enemy (construct) class feature.  ",
@@ -6498,7 +6498,7 @@
 			"**Benefit:** You gain a +2 bonus on all saving throws against fear effects. Whenever a fear effect targets you and fails to affect you (either because of a successful saving throw or because of immunity to fear), you gain a +2 morale bonus on attack rolls, weapon damage rolls, and CMB checks against the creature that attempted to use the fear affect on you for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points in order to gain the benefit of Focused Discipline for 1 round as if you had been targeted by a fear effect that failed to affect you."
 		]
@@ -6509,7 +6509,7 @@
 		"description": [
 			"## Focused Dragon Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"Your understanding of dragons helps you to easily avoid breath weapons.  ",
 			"**Prerequisites:** Favored enemy (dragon) class feature.  ",
@@ -6535,7 +6535,7 @@
 		"description": [
 			"## Focused Fey Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"Your attacks strike true against capricious targets like fey.  ",
 			"**Prerequisites:** Favored enemy (fey) class feature.  ",
@@ -6561,7 +6561,7 @@
 		"description": [
 			"## Focused Magical Beast Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"You move in ways that confound creatures that would strike you repeatedly.  ",
 			"**Prerequisites:** Favored enemy (magical beast) class feature.  ",
@@ -6574,7 +6574,7 @@
 		"description": [
 			"## Focused Ooze Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"You've learned to avoid and overcome the engulfing attacks of your studied prey.  ",
 			"**Prerequisites:** Favored enemy (ooze) class feature.  ",
@@ -6587,7 +6587,7 @@
 		"description": [
 			"## Focused Outsider Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"You've learned to attack in a way that stymies the natural resistances common in outsiders.  ",
 			"**Prerequisites:** Favored enemy (outsider) class feature.  ",
@@ -6627,7 +6627,7 @@
 		"description": [
 			"## Focused Plant Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"You are quick to dodge and slash anything that would ensnare you.  ",
 			"**Prerequisites:** Favored enemy (plant) class feature.  ",
@@ -6644,7 +6644,7 @@
 		"description": [
 			"## Focused Shot (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide), [Pathfinder Campaign Setting pg. 89](source/pathfinder_campaign_setting)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide), [Pathfinder Campaign Setting pg. 89](source/pathfinder_campaign_setting)",
 			"",
 			"Your anatomical insight adds deadliness to your shots.  ",
 			"**Prerequisites:** Int 13, [Point-Blank Shot](feat/point_blank_shot), [Precise Shot](feat/precise_shot).  ",
@@ -6663,7 +6663,7 @@
 		"description": [
 			"## Focused Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"When you cast a spell that affects more than one creature, one opponent finds it more difficult to resist.  ",
 			"**Benefit:** When casting a spell that affects or targets more than one creature, you can choose one target or creature within the spell effect. That creature's saving throw DC to resist the spell is increased by +2. You must choose which target to focus the spell on before casting the spell. A focused spell uses up a spell slot one level higher than the spell's actual level."
@@ -6675,7 +6675,7 @@
 		"description": [
 			"## Focused Target (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunters_handbook)",
 			"",
 			"You pour your entire focus into slaying your chosen target.  ",
 			"**Prerequisites:** Studied target class feature (second studied target).  ",
@@ -6688,7 +6688,7 @@
 		"description": [
 			"## Focused Undead Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"Your knowledge of the undead makes you especially effective when fighting them.  ",
 			"**Prerequisites:** Favored enemy (undead) class feature.  ",
@@ -6701,7 +6701,7 @@
 		"description": [
 			"## Focused Vermin Expertise (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 23](source/monster_hunters_handbook)",
 			"",
 			"Your experience with vermin resists the attacks of swarms.  ",
 			"**Prerequisites:** Favored enemy (vermin) class feature.  ",
@@ -6798,7 +6798,7 @@
 		"description": [
 			"## Following Step (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 160](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 160](source/advanced_players_guide)",
 			"",
 			"You can repeatedly close the distance when foes try to move away, without impeding your normal movement.  ",
 			"**Prerequisites:** Dex 13, [Step Up](feat/step_up).  ",
@@ -6910,7 +6910,7 @@
 		"description": [
 			"## Forceful Charge",
 			"",
-			"**Source** [Adventurer's Guide pg. 16](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 16](source/adventurers_guide)",
 			"",
 			"This animal's charges move its enemies.  ",
 			"**Prerequisites:** [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), animal companion.  ",
@@ -7014,7 +7014,7 @@
 		"description": [
 			"## Fortitude of Giants",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"Your great mass and vigor allows you to shrug off the effects of poison and fatigue.  ",
 			"**Prerequisites:** Con 14, [Great Fortitude](feat/great_fortitude), giant subtype.  ",

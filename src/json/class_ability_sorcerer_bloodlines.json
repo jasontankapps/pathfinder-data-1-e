@@ -76,7 +76,7 @@
 			"",
 			"**Class Skill:** Knowledge (planes).",
 			"",
-			"**Bonus Spells:** [cause fear](spell/cause_fear) (3rd), [bull's strength](spell/bull's_strength) (5th), [rage](spell/rage) (7th), [stoneskin](spell/stoneskin) (9th), [dismissal](spell/dismissal) (11th), [transformation](spell/transformation) (13th), [greater teleport](spell/greater_teleport) (15th), [unholy aura](spell/unholy_aura) (17th), [summon monster IX](spell/summon_monster_9) (19th).",
+			"**Bonus Spells:** [cause fear](spell/cause_fear) (3rd), [bull's strength](spell/bulls_strength) (5th), [rage](spell/rage) (7th), [stoneskin](spell/stoneskin) (9th), [dismissal](spell/dismissal) (11th), [transformation](spell/transformation) (13th), [greater teleport](spell/greater_teleport) (15th), [unholy aura](spell/unholy_aura) (17th), [summon monster IX](spell/summon_monster_9) (19th).",
 			"",
 			"**Bonus Feats:** [Augment Summoning](feat/augment_summoning), [Cleave](feat/cleave), [Empower Spell](feat/empower_spell), [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Skill Focus](feat/skill_focus) (Knowledge [planes])",
 			"",
@@ -143,7 +143,7 @@
 		"description": [
 			"## Aquatic",
 			"",
-			"**Source** [Advanced Player's Guide pg. 136](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 136](source/advanced_players_guide)  ",
 			"Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside villages. The song of the sea hums in your blood, calling the waves and all those within to your command.",
 			"",
 			"**Class Skill:** Swim.",
@@ -257,7 +257,7 @@
 		"description": [
 			"## Boreal",
 			"",
-			"**Source** [Advanced Player's Guide pg. 136](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 136](source/advanced_players_guide)  ",
 			"Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. Their savage and raw energies flow down through generations to infuse you to the marrow with the chill of the polar wind, crackling auroras, and the long winter's night.",
 			"",
 			"**Class Skill:** Survival.",
@@ -371,7 +371,7 @@
 		"description": [
 			"## Deep Earth",
 			"",
-			"**Source** [Advanced Player's Guide pg. 137](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 137](source/advanced_players_guide)  ",
 			"The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. You are likely slow, steady, and stable in your thinking, little prone to wandering and preferring to instead find depth in contemplation.",
 			"",
 			"**Class Skill:** Knowledge (dungeoneering).",
@@ -640,7 +640,7 @@
 		"description": [
 			"## Dreamspun",
 			"",
-			"**Source** [Advanced Player's Guide pg. 137](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 137](source/advanced_players_guide)  ",
 			"Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who reach through and touch the supernal realm of dreams and the farthest shores of night. Whether it is a gift or curse is not always clear, but your visions of the past and future call you ineluctably to a life of adventure.",
 			"",
 			"**Class Skill:** Sense Motive.",
@@ -916,7 +916,7 @@
 			"",
 			"*Invoke the Harrow (Su):* At 9th level, you can draw a random harrow card from a complete [harrow deck](equipment-misc/harrow_deck) you own as a standard action and channel the aspects of the card into your body. You take on superficial traits featured on the card and gain a +4 enhancement bonus to the ability score associated with the card's suit. You can invoke the harrow for a number of minutes per day equal to your sorcerer level; the duration need not be continuous, but it must be used in 1-minute increments.",
 			"",
-			"*Harrowed Home (Sp):* At 15th level, your otherworldly connection is so strong that your subconscious cleaves off a small portion of the Harrowed Realm for use as your own private sanctuary. Your harrowed home is created the first time you use this ability, and is decorated as a garish reflection of your personality. Thereafter, you always visit this same home. You can place a portal to your harrowed home once every 24 hours, but placing a new portal destroys the previous one, and you can not move the entrance while you are inside. As long as you are not in your harrowed home, time ceases to pass for anything and anyone still in your pocket dimension; creatures cannot move, objects do not decay, and everything remains exactly the same as you left it the last time you visited the plane. Time continues as normal whenever you are inside your harrowed home. This ability is otherwise identical to [mage's magnificent mansion](spell/mage's_magnificent_mansion).",
+			"*Harrowed Home (Sp):* At 15th level, your otherworldly connection is so strong that your subconscious cleaves off a small portion of the Harrowed Realm for use as your own private sanctuary. Your harrowed home is created the first time you use this ability, and is decorated as a garish reflection of your personality. Thereafter, you always visit this same home. You can place a portal to your harrowed home once every 24 hours, but placing a new portal destroys the previous one, and you can not move the entrance while you are inside. As long as you are not in your harrowed home, time ceases to pass for anything and anyone still in your pocket dimension; creatures cannot move, objects do not decay, and everything remains exactly the same as you left it the last time you visited the plane. Time continues as normal whenever you are inside your harrowed home. This ability is otherwise identical to [mage's magnificent mansion](spell/mages_magnificent_mansion).",
 			"",
 			"*Kin to the Old Tales (Su):* At 20th level, your soul becomes host to the otherworldly energies of the harrow. You gain DR 10/cold iron and immunity to curses, paralysis, and sleep. You can always act in the surprise round of combat, and you cannot be caught flat-footed. You gain unlimited use of your *invoke the harrow* ability."
 		]
@@ -932,7 +932,7 @@
 			"",
 			"**Class Skill:** Perform (oratory).",
 			"",
-			"**Bonus Spells:** [moment of greatness](spell/moment_of_greatness) (3rd), [eagle's splendor](spell/eagle's_splendor) (5th), [heroism](spell/heroism) (7th), [threefold aspect](spell/threefold_aspect) (9th), [greater command](spell/greater_command) (11th), [repulsion](spell/repulsion) (13th), [greater age resistance](spell/greater_age_resistance) (15th), [prediction of failure](spell/prediction_of_failure) (17th), [overwhelming presence](spell/overwhelming_presence) (19th).",
+			"**Bonus Spells:** [moment of greatness](spell/moment_of_greatness) (3rd), [eagle's splendor](spell/eagles_splendor) (5th), [heroism](spell/heroism) (7th), [threefold aspect](spell/threefold_aspect) (9th), [greater command](spell/greater_command) (11th), [repulsion](spell/repulsion) (13th), [greater age resistance](spell/greater_age_resistance) (15th), [prediction of failure](spell/prediction_of_failure) (17th), [overwhelming presence](spell/overwhelming_presence) (19th).",
 			"",
 			"**Bonus Feats:** [Diehard](feat/diehard), [Endurance](feat/endurance), [Heroic Defiance](feat/heroic_defiance), [Heroic Recovery](feat/heroic_recovery), [Improved Initiative](feat/improved_initiative), [Lingering Spell](feat/lingering_spell), [Magical Aptitude](feat/magical_aptitude), [Persuasive](feat/persuasive)",
 			"",
@@ -1036,7 +1036,7 @@
 			"",
 			"**Class Skill:** Disable Device.",
 			"",
-			"**Bonus Spells:** [alarm](spell/alarm) (3rd), [create pit](spell/create_pit) (5th), [explosive runes](spell/explosive_runes) (7th), [dragon's breath](spell/dragon's_breath) (9th), [transmute rock to mud](spell/transmute_rock_to_mud) (11th), [guards and wards](spell/guards_and_wards) (13th), [delayed blast fireball](spell/delayed_blast_fireball) (15th), [form of the dragon III](spell/form_of_the_dragon_3) (17th), [imprisonment](spell/imprisonment) (19th).",
+			"**Bonus Spells:** [alarm](spell/alarm) (3rd), [create pit](spell/create_pit) (5th), [explosive runes](spell/explosive_runes) (7th), [dragon's breath](spell/dragons_breath) (9th), [transmute rock to mud](spell/transmute_rock_to_mud) (11th), [guards and wards](spell/guards_and_wards) (13th), [delayed blast fireball](spell/delayed_blast_fireball) (15th), [form of the dragon III](spell/form_of_the_dragon_3) (17th), [imprisonment](spell/imprisonment) (19th).",
 			"",
 			"**Bonus Feats:** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Defensive Combat Training](feat/defensive_combat_training), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Silent Spell](feat/silent_spell)",
 			"",
@@ -1272,7 +1272,7 @@
 			"",
 			"**Class Skill:** Survival.",
 			"",
-			"**Bonus Spells:** [burning hands](spell/burning_hands) (3rd), [bull's strength](spell/bull's_strength) (5th), [rage](spell/rage) (7th), [wall of fire](spell/wall_of_fire) (9th), [cloudkill](spell/cloudkill) (11th), [transformation](spell/transformation) (13th), [delayed blast fireball](spell/delayed_blast_fireball) (15th), [iron body](spell/iron_body) (17th), [meteor swarm](spell/meteor_swarm) (19th).",
+			"**Bonus Spells:** [burning hands](spell/burning_hands) (3rd), [bull's strength](spell/bulls_strength) (5th), [rage](spell/rage) (7th), [wall of fire](spell/wall_of_fire) (9th), [cloudkill](spell/cloudkill) (11th), [transformation](spell/transformation) (13th), [delayed blast fireball](spell/delayed_blast_fireball) (15th), [iron body](spell/iron_body) (17th), [meteor swarm](spell/meteor_swarm) (19th).",
 			"",
 			"**Bonus Feats:** [Diehard](feat/diehard), [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Intimidating Prowess](feat/intimidating_prowess), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), [Toughness](feat/toughness), [Widen Spell](feat/widen_spell)",
 			"",
@@ -1297,7 +1297,7 @@
 		"description": [
 			"## Pestilence",
 			"",
-			"**Source** [Pathfinder #29: Mother of Flies pg. 29](source/pathfinder_#29_mother_of_flies)  ",
+			"**Source** [Pathfinder #29: Mother of Flies pg. 29](source/pathfinder_29_mother_of_flies)  ",
 			"You were born during the height of a great magical plague, to a mother suffering from an eldritch disease, or you suffered an eldritch pox as a child, such that your very soul now carries a blight of pestilence within it.",
 			"",
 			"**Class Skill:** Heal.",
@@ -1387,7 +1387,7 @@
 		"description": [
 			"## Protean",
 			"",
-			"**Source** [Advanced Player's Guide pg. 138](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 138](source/advanced_players_guide)  ",
 			"You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound creation. Your mind and spirit burst with the constant inspiration of consummate freedom, though you have difficulty following through on a task when another, new and exciting, catches your interest.",
 			"",
 			"**Class Skill:** Knowledge (planes).",
@@ -1489,7 +1489,7 @@
 		"description": [
 			"## Salamander",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 6](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 6](source/elemental_masters_handbook)  ",
 			"You are descended from the elemental outsiders known as [salamanders](monster/salamander). You wield flame as a weapon and a tool, and your smithing skills are unrivaled.",
 			"",
 			"**Class Skill:** Acrobatics",
@@ -1555,7 +1555,7 @@
 		"description": [
 			"## Serpentine",
 			"",
-			"**Source** [Advanced Player's Guide pg. 138](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 138](source/advanced_players_guide)  ",
 			"Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was young; your forebears were likely favored slaves anointed by their reptilian masters and gifted with their cold cunning and subtle manipulation. While deception and a mesmeric charm are your birthright, you may struggle for truth in spite of your heritage.",
 			"",
 			"**Class Skill:** Diplomacy.",
@@ -1597,7 +1597,7 @@
 		"description": [
 			"## Shadow",
 			"",
-			"**Source** [Advanced Player's Guide pg. 140](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 140](source/advanced_players_guide)  ",
 			"Spirits from the shadow plane dally at times in the world of light, and such as these lay with your ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. You are often sullen and withdrawn, preferring to skulk at the fringes of social circles and keep to yourself, cultivating an air of mystery and majesty that is all your own.",
 			"",
 			"**Class Skill:** Stealth.",
@@ -1731,7 +1731,7 @@
 		"description": [
 			"## Starsoul",
 			"",
-			"**Source** [Advanced Player's Guide pg. 140](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 140](source/advanced_players_guide)  ",
 			"You come from a line of stargazers and explorers who delved deeply into the darkness beyond the stars. In touching the void, the void touched them, and your mind, spirit, and body yearn to span the gulf between worlds.",
 			"",
 			"**Class Skill:** Knowledge (nature).",
@@ -1775,7 +1775,7 @@
 		"description": [
 			"## Stormborn",
 			"",
-			"**Source** [Advanced Player's Guide pg. 141](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 141](source/advanced_players_guide)  ",
 			"You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in your veins.",
 			"",
 			"**Class Skill:** Knowledge (nature).",
@@ -1889,7 +1889,7 @@
 		"description": [
 			"## Verdant",
 			"",
-			"**Source** [Advanced Player's Guide pg. 141](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 141](source/advanced_players_guide)  ",
 			"Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature.",
 			"",
 			"**Class Skill:** Knowledge (nature).",

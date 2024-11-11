@@ -31,7 +31,7 @@
 		"description": [
 			"## Brazen Disciple",
 			"",
-			"**Source** [Adventurer's Guide pg. 104](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 104](source/adventurers_guide)  ",
 			"Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an efreeti. Those who succeed often become monks known as the brazen disciples.",
 			"",
 			"Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the [Houses of Perfection](rule/aff_monasteries), some become enamored with the efreet and instead seek out genie masters.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Disciple of Wholeness",
 			"",
-			"**Source** [Healer's Handbook pg. 4](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 4](source/healers_handbook)  ",
 			"Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 			"",
 			"**Healing Ki (Su):** At 4th level, a disciple of wholeness can touch a creature as a swift action and spend 1 point from her ki pool to restore a number of hit points equal to 1d4 + 1/2 her monk level to that creature. If she has the wholeness of body class feature, she can spend 2 points to restore a number of hit points equal to 1d8 + her monk level to a touched creature. She does not gain the ability to spend ki to gain an extra attack during a flurry of blows.",
@@ -93,7 +93,7 @@
 		"description": [
 			"## Drunken Master",
 			"",
-			"**Source** [Advanced Player's Guide pg. 110](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 110](source/advanced_players_guide)  ",
 			"Most monks lead lives of moderation and quiet contemplation. But the drunken master finds perfection through excess. Powered by strong wine, he uses his intoxication to reach a state where his ki is more potent, if somewhat fleeting. A drunken master has the following class features.",
 			"",
 			"**Drunken Ki (Su):** At 3rd level, a drunken master can drink a tankard of ale or strong alcohol and gain one temporary ki point. The act of drinking is a standard action that does not provoke attacks of opportunity. The monk can have a maximum number of drunken ki points equal to 1 plus one additional point for every two levels thereafter (5th, 7th, and so on). The monk can gain this temporary ki even before he gains a ki pool at 4th level. These drunken ki points last for 1 hour or until spent, whichever is shorter. As long as he has at least 1 drunken ki point, the monk can spend 1 ki point as a swift action to move 5 feet without provoking attacks of opportunity. This ability replaces still mind.",
@@ -113,7 +113,7 @@
 		"description": [
 			"## Elemental Monk",
 			"",
-			"**Source** [Disciple's Doctrine pg. 4](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 4](source/disciples_doctrine)  ",
 			"Elemental monks draw inspiration from genies to create their fighting style. Their adaptability and versatility make them capable of serving as emissaries of elemental balance.",
 			"",
 			"**Alignment:** An elemental monk must be true neutral.",
@@ -178,7 +178,7 @@
 			"**Source** [Ultimate Combat pg. 58](source/ultimate_combat)  ",
 			"The flowing monk is the wind and the river. He knows how the world flows, and forces his enemies to flow with it. Even the most powerful stone breaks under the graceful and persistent pressure of wind and water.",
 			"",
-			"**Bonus Feat:** A flowing monk replaces the normal monk bonus feats with the following: [Agile Maneuvers](feat/agile_maneuvers), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Improved Reposition](feat/improved_reposition), [Improved Trip](feat/improved_trip), [Nimble Moves](feat/nimble_moves), and [Weapon Finesse](feat/weapon_finesse). At 6th level, the following feats are also available: [Acrobatic Steps](feat/acrobatic_steps), [Bodyguard](feat/bodyguard), [Improved Disarm](feat/improved_disarm), [Improved Feint](feat/improved_feint), [Ki Throw](feat/ki_throw), [Mobility](feat/mobility), [Second Chance](feat/second_chance), and [Sidestep](feat/sidestep). At 10th level, the following feats are added: [In Harm's Way](feat/in_harm's_way), [Repositioning Strike](feat/repositioning_strike), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack), and [Tripping Strike](feat/tripping_strike).",
+			"**Bonus Feat:** A flowing monk replaces the normal monk bonus feats with the following: [Agile Maneuvers](feat/agile_maneuvers), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Improved Reposition](feat/improved_reposition), [Improved Trip](feat/improved_trip), [Nimble Moves](feat/nimble_moves), and [Weapon Finesse](feat/weapon_finesse). At 6th level, the following feats are also available: [Acrobatic Steps](feat/acrobatic_steps), [Bodyguard](feat/bodyguard), [Improved Disarm](feat/improved_disarm), [Improved Feint](feat/improved_feint), [Ki Throw](feat/ki_throw), [Mobility](feat/mobility), [Second Chance](feat/second_chance), and [Sidestep](feat/sidestep). At 10th level, the following feats are added: [In Harm's Way](feat/in_harms_way), [Repositioning Strike](feat/repositioning_strike), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack), and [Tripping Strike](feat/tripping_strike).",
 			"",
 			"**Redirection (Ex):** At 1st level, as an immediate action, a flowing monk can attempt a reposition or trip combat maneuver against a creature that the flowing monk threatens and that attacks him. If the combat maneuver is successful, the attacker is sickened for 1 round (Reflex DC = 10 + 1/2 the monk's level + monk's Wisdom modifier to halve the duration), plus 1 additional round at 4th level and for every four levels afterward (to a maximum of 6 rounds at 20th level). The monk gains a +2 bonus on the reposition or trip combat maneuver check and the save DC for redirection increases by 2 if the attacker is using [Power Attack](feat/power_attack) or is charging when attacking him. The benefit increases to a +4 bonus and an increase of the saving throw by 4 if both apply.",
 			"",
@@ -226,7 +226,7 @@
 			"",
 			"**Alignment:** A hamatulatsu master must be lawful neutral or lawful evil.",
 			"",
-			"**Bonus Feats:** A hamatulatsu master replaces the normal monk bonus feats with the following: [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency), [Improved Grapple](feat/improved_grapple), [Intimidating Prowess](feat/intimidating_prowess), [Scorpion Style](feat/scorpion_style), or [Weapon Focus](feat/weapon_focus). At 6th level, the following feats are added to the list: [Gorgon's Fist](feat/gorgon's_fist), [Hamatulatsu](feat/hamatulatsu), [Improved Sunder](feat/improved_sunder), [Mobility](feat/mobility), [Power Attack](feat/power_attack). At 10th level, the following feats are added to the list: [Critical Focus](feat/critical_focus), [Impaling Critical](feat/impaling_critical) (unarmed strike), [Improved Critical](feat/improved_critical), [Medusa's Wrath](feat/medusa's_wrath), [Snatch Arrows](feat/snatch_arrows). At 14th level, the following feat is added to the list: [Improved Impaling Critical](feat/improved_impaling_critical). Anytime a hamatulatsu master would gain a bonus feat, she can instead choose to gain two additional uses of stunning fist per day.",
+			"**Bonus Feats:** A hamatulatsu master replaces the normal monk bonus feats with the following: [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency), [Improved Grapple](feat/improved_grapple), [Intimidating Prowess](feat/intimidating_prowess), [Scorpion Style](feat/scorpion_style), or [Weapon Focus](feat/weapon_focus). At 6th level, the following feats are added to the list: [Gorgon's Fist](feat/gorgons_fist), [Hamatulatsu](feat/hamatulatsu), [Improved Sunder](feat/improved_sunder), [Mobility](feat/mobility), [Power Attack](feat/power_attack). At 10th level, the following feats are added to the list: [Critical Focus](feat/critical_focus), [Impaling Critical](feat/impaling_critical) (unarmed strike), [Improved Critical](feat/improved_critical), [Medusa's Wrath](feat/medusas_wrath), [Snatch Arrows](feat/snatch_arrows). At 14th level, the following feat is added to the list: [Improved Impaling Critical](feat/improved_impaling_critical). Anytime a hamatulatsu master would gain a bonus feat, she can instead choose to gain two additional uses of stunning fist per day.",
 			"",
 			"**Stunning Fist (Ex):** A hamatulatsu master expands the conditions that she can apply to the target of her stunning fist beyond merely stunning her target. At 4th level, she can choose to make the target shaken for 1 minute. At 8th level, she can choose to deal 1d10 points of nonlethal bleed damage. At 12th level, she can choose to make the target frightened for 1d3 rounds. At 16th level, she can deal 2d12 points of nonlethal bleed damage. The shaken and frightened conditions allow the target to attempt a Will save to negate the effect instead of a Fortitude save. This ability otherwise functions as normal for a monk of her level.",
 			"",
@@ -309,7 +309,7 @@
 		"description": [
 			"## Hungry Ghost Monk",
 			"",
-			"**Source** [Advanced Player's Guide pg. 110](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 110](source/advanced_players_guide)  ",
 			"The hungry ghost monk looks to spirits that prey upon the living as models of perfection. He sees the life energy of the universe as a resource to be manipulated, even stealing it from other creatures. It is through this constant influx of energy that the hungry ghost monk reaches his ultimate goal: power-personal, pure, and simple. A hungry ghost monk has the following class features.",
 			"",
 			"**Punishing Kick (Ex):** At 1st level, a hungry ghost monk gains [Punishing Kick](feat/punishing_kick) as a bonus feat, even if he does not meet the prerequisites. At 10th level, and every five levels thereafter, the monk can push the target of his Punishing Kick an additional 5 feet (10 feet at 10th level, 15 feet at 15th level, and 20 feet at 20th level). At 15th level, he can instead choose to push the target 5 feet and knock the target prone with the same attack. The target still gets a saving throw to avoid being knocked prone. This ability replaces Stunning Fist.",
@@ -500,7 +500,7 @@
 		"description": [
 			"## Ki Mystic",
 			"",
-			"**Source** [Advanced Player's Guide pg. 111](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 111](source/advanced_players_guide)  ",
 			"The ki mystic believes that violence is sometimes necessary, but knowing and understanding is the true root of perfection. Through meditation and spiritual visions, a ki mystic can see beyond the veil of reality to the underlying truth of all existence. A ki mystic has the following class features.",
 			"",
 			"**Ki Mystic (Su):** At 3rd level, a ki mystic gains a pool of ki points equal to his Wisdom modifier. The pool increases to 1/2 his monk level + his Wisdom modifier + 2 at level 4. If the monk has at least 1 point of ki in his ki pool, he gains a +2 bonus on all Knowledge skill checks. As a swift action, the monk can spend 1 ki point immediately before making an ability, or skill check to gain a +4 insight bonus on the check. This ability replaces still mind.",
@@ -666,7 +666,7 @@
 		"description": [
 			"## Monk of the Empty Hand",
 			"",
-			"**Source** [Advanced Player's Guide pg. 111](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 111](source/advanced_players_guide)  ",
 			"The monk of the empty hand eschews normal weapons in favor of whatever is lying around-rocks, chair legs, flagons of ale, even a simple quill pen all become deadly weapons in the hands of such a monk. A monk of the empty hand draws on his own ki to infuse his improvised weapons with power, and can transform a broken bottle into a magical weapon.",
 			"",
 			"**Weapon and Armor Proficiency:** Monks of the empty hand are proficient with the shuriken only. A monk of the empty hand treats normal weapons as improvised weapons with the following equivalencies (substituting all of their statistics for the listed weapon): a light weapon functions as a light hammer, a one-handed weapon functions as a club, and a two-handed weapon functions as a quarterstaff. This replaces the normal monk weapon proficiencies.",
@@ -688,7 +688,7 @@
 		"description": [
 			"## Monk of the Four Winds",
 			"",
-			"**Source** [Advanced Player's Guide pg. 112](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 112](source/advanced_players_guide)  ",
 			"The monk of the four winds is connected to the natural world in a way few other creatures-even other monks-can hope to match. He can call upon the elements and the spirits of the world in times of need, and as he nears his goal of perfection, he gains the ability to slow down time and even defeat death itself. A monk of the four winds has the following class features.",
 			"",
 			"**Elemental Fist (Su):** At 1st level, a monk of the four winds gains [Elemental Fist](feat/elemental_fist) as a bonus feat, even if he does not meet the prerequisites. At 5th level, and every five levels thereafter, the monk increases the damage of his Elemental Fist by 1d6 (2d6 at 5th level, 3d6 at 10th level, and so on). This ability replaces Stunning Fist.",
@@ -718,7 +718,7 @@
 		"description": [
 			"## Monk of the Healing Hand",
 			"",
-			"**Source** [Advanced Player's Guide pg. 113](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 113](source/advanced_players_guide)  ",
 			"Monks of the healing hand seek perfection through helping others. By focusing their meditations on the flow of life within themselves and all creation they gain an understanding of how to share their ki with others, healing wounds and even bringing the dead back to life. For such a monk, sacrificing himself to save another is the surest way to achieve transcendence. A monk of the healing hand has the following class features.",
 			"",
 			"**Ancient Healing Hand (Su):** At 7th level, a monk of the healing hand can heal another creature's wounds with a touch. As a full-round action, the monk can spend 2 ki points to heal a number of hit points equal to the monk's level. He needs at least one hand free to use this ability, and cannot heal himself. If the action is interrupted, the subject heals no hit points, and the ki points are lost. This ability replaces wholeness of body.",
@@ -734,7 +734,7 @@
 		"description": [
 			"## Monk of the Lotus",
 			"",
-			"**Source** [Advanced Player's Guide pg. 114](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 114](source/advanced_players_guide)  ",
 			"Monks are warriors who hone their bodies into deadly weapons, but some monks eschew violence in favor of a more peaceful philosophy. While a monk of the lotus realizes that combat cannot always be avoided-and is more than capable in a fight-he understands that all creatures are connected, and to harm another is to harm the self. Instead, he strives to find peaceful resolutions to conflicts, and in doing so, hopes to achieve inner peace. A monk of the lotus has the following class features.",
 			"",
 			"**Touch of Serenity (Su):** At 1st level, a monk of the lotus gains Touch of Serenity as a bonus feat, even if he does not meet the prerequisites. At 6th level, and every six levels thereafter, the duration of Touch of Serenity increases by 1 round. Each round on its turn, the target may attempt a new Will save to end the effect. This duration does not stack; only the longest remaining duration applies. This ability replaces Stunning Fist.",
@@ -768,7 +768,7 @@
 		"description": [
 			"## Monk of the Sacred Mountain",
 			"",
-			"**Source** [Advanced Player's Guide pg. 114](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 114](source/advanced_players_guide)  ",
 			"The monk of the sacred mountain finds strength and power in the earth beneath his feet. Rather than spinning though the battlefield with the fluid motion of the river, he roots himself to the ground, as immovable and unshakable as the stones of the mountain. A monk of the sacred mountain has the following class features.",
 			"",
 			"**Iron Monk (Ex):** At 2nd level, a monk of the sacred mountain gains [Toughness](feat/toughness) as a bonus feat. In addition, the monk gains a +1 natural armor bonus. This ability replaces evasion.",
@@ -1023,7 +1023,7 @@
 			"",
 			"**[deadly juggernaut](spell/deadly_juggernaut)** (2 ki points) **Source** [Martial Arts Handbook pg. 21](source/martial_arts_handbook)",
 			"",
-			"**[dragon's breath](spell/dragon's_breath)** (2 ki points) **Source** [Ultimate Magic pg. 52](source/ultimate_magic)",
+			"**[dragon's breath](spell/dragons_breath)** (2 ki points) **Source** [Ultimate Magic pg. 52](source/ultimate_magic)",
 			"",
 			"**[Gliding Steps](feat/gliding_steps)** &dagger; (1 ki point) **Source** [Ultimate Magic pg. 52](source/ultimate_magic)",
 			"",
@@ -1358,7 +1358,7 @@
 		"description": [
 			"## Sin Monk",
 			"",
-			"**Source** [Antihero's Handbook pg. 14](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 14](source/antiheros_handbook)  ",
 			"Some vices prove too tempting even to those who have trained their minds and bodies against such corruptions, and the seven sins of ancient Thassilon stand among the most alluring. Martial experts who have allowed such passions to lead them astray may find themselves gaining powers drawn from their newly embraced sins.",
 			"",
 			"This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-monk.",
@@ -1472,7 +1472,7 @@
 		"description": [
 			"## Soul Shepherd",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 65](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 65](source/pathfinder_139_the_dead_road)  ",
 			"Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and methods, soul shepherds believe in safeguarding the Cycle of Souls.",
 			"",
 			"**Calming Strike (Su):** As an immediate action after hitting an incorporeal undead creature with an unarmed strike, a soul shepherd can attempt to calm the creature, encouraging it to move peacefully to the next stage of its metaphysical journey. The target must succeed at a Will save (DC = 10 + half soul shepherd's level + the soul shepherd's Wisdom modifier) or be calmed, as [calm spirit](spell/calm_spirit), for 1 minute.",
@@ -1500,7 +1500,7 @@
 		"description": [
 			"## Spirit Master",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 22](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 22](source/undead_slayers_handbook)  ",
 			"Spirit masters are monks who specialize in combating the undead, laying their corpses to rest, and sending their souls to final judgment.",
 			"",
 			"**Resilient Soul (Ex):** At 3rd level, a spirit master gains a +2 bonus on saving throws against necromancy spells and effects. This ability replaces still mind.",
@@ -1548,7 +1548,7 @@
 		"description": [
 			"## Terra-Cotta Monk",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 22](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 22](source/dungeoneers_handbook)  ",
 			"Possessing a natural affinity for all things earthen, terracotta monks are experts at turning the stone around them against their enemies.",
 			"",
 			"**Class Skills:** A terra-cotta monk adds Knowledge (dungeoneering), Knowledge (engineering), and Disable Device to his list of class skills and removes Knowledge (history), Perform, and Ride.",
@@ -1731,7 +1731,7 @@
 		"description": [
 			"## Weapon Adept",
 			"",
-			"**Source** [Advanced Player's Guide pg. 114](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 114](source/advanced_players_guide)  ",
 			"While all monks train in both unarmed combat and with weapons, the weapon adept seeks to become one with his weapons, transforming them into perfect extensions of his own body. Through such training, a weapon adept seeks to attain perfection by becoming a living weapon himself. A weapon adept has the following class features.",
 			"",
 			"**Perfect Strike (Ex):** At 1st level, a weapon adept gains Perfect Strike as a bonus feat, even if he does not meet the prerequisites. At 10th level, the monk can roll his attack roll three times and take the higher result. If one of these rolls is a critical threat, he can choose which one of his other two rolls to use as his confirmation roll. This ability replaces Stunning Fist.",
@@ -1779,7 +1779,7 @@
 		"description": [
 			"## Windstep Master",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_masters_handbook)  ",
 			"Most monks are agile and fleet of foot, but few can rival a windstep master's lightness of step. Windstep masters train in mountaintop monasteries and other holy houses dedicated to the wind, such as the Monastery of Unfolding Wind in Niswan.",
 			"",
 			"**Hurricane Punch (Ex):** At 1st level, a windstep master gains [Hurricane Punch](feat/hurricane_punch) as a bonus feat, even if he does not meet the prerequisites. While using this feat, he doesn't provoke an attack of opportunity, even if he doesn't have the [Improved Bull Rush](feat/improved_bull_rush) feat.",
@@ -1805,7 +1805,7 @@
 		"description": [
 			"## Zen Archer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 115](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 115](source/advanced_players_guide)  ",
 			"Some monks seek to become one with another weapon entirely-the bow. The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true.",
 			"",
 			"**Weapon and Armor Proficiency:** Zen archers are proficient with longbows, shortbows, composite longbows, and composite shortbows in addition to their normal weapon proficiencies.",

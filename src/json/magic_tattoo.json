@@ -69,7 +69,7 @@
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), daylight; **Cost** 750 gp"
 		]
 	},
-	"kin's_face_tattoo": {
+	"kins_face_tattoo": {
 		"name": "Kin's Face Tattoo",
 		"sources": [
 			"Pathfinder #91: Battle of Bloodmarch Hills",
@@ -78,7 +78,7 @@
 		"description": [
 			"## Kin's Face Tattoo",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 61](source/pathfinder_#91_battle_of_bloodmarch_hills), [Bastards of Golarion pg. 11](source/bastards_of_golarion)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 61](source/pathfinder_91_battle_of_bloodmarch_hills), [Bastards of Golarion pg. 11](source/bastards_of_golarion)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 1,600 gp; **Weight** -",
 			"",
@@ -108,7 +108,7 @@
 			"**Requirements** [Improved Dirty Trick](feat/improved_dirty_trick), [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [summon monster I](spell/summon_monster_1); **Cost** 1,000 gp"
 		]
 	},
-	"caster's_tattoo_lesser": {
+	"casters_tattoo_lesser": {
 		"name": "Caster's Tattoo (Lesser)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
@@ -127,8 +127,8 @@
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), Silent Spell, Still Spell; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
 		]
 	},
-	"lesser_caster's_tattoo": {
-		"copyof": "caster's_tattoo_lesser"
+	"lesser_casters_tattoo": {
+		"copyof": "casters_tattoo_lesser"
 	},
 	"watchtower_tattoo": {
 		"name": "Watchtower Tattoo",
@@ -256,16 +256,16 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [summon nature's ally I](spell/summon_nature's_ally_1); **Cost** 9,000 gp"
+			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 9,000 gp"
 		]
 	},
-	"caster's_tattoo_normal": {
+	"casters_tattoo_normal": {
 		"name": "Caster's Tattoo (Normal)",
 		"sources": [ "Inner Sea Magic" ],
-		"copyof": "caster's_tattoo_lesser"
+		"copyof": "casters_tattoo_lesser"
 	},
-	"normal_caster's_tattoo": {
-		"copyof": "caster's_tattoo_normal"
+	"normal_casters_tattoo": {
+		"copyof": "casters_tattoo_normal"
 	},
 	"penumbra_tattoo": {
 		"name": "Penumbra Tattoo",
@@ -284,12 +284,12 @@
 			"**Requirements** [Inscribe Magical Tattoo](feat/inscribe_magical_tattoo), protective penumbra; **Cost** 12,000 gp"
 		]
 	},
-	"caster's_tattoo_greater": {
+	"casters_tattoo_greater": {
 		"name": "Caster's Tattoo (Greater)",
 		"sources": [ "Inner Sea Magic" ],
-		"copyof": "caster's_tattoo_lesser"
+		"copyof": "casters_tattoo_lesser"
 	},
-	"greater_caster's_tattoo": {
-		"copyof": "caster's_tattoo_greater"
+	"greater_casters_tattoo": {
+		"copyof": "casters_tattoo_greater"
 	}
 }

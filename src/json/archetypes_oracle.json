@@ -107,7 +107,7 @@
 		"description": [
 			"## Divine Numerologist",
 			"",
-			"**Source** [Disciple's Doctrine pg. 17](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 17](source/disciples_doctrine)  ",
 			"The Oracular Council of Po Li and those trained in their sacred methods often include divine numerologists, who use esoteric mathematics and numbers traditions to peer into the past and future and extract meaningful portents. The divine numerologist's ultimate goal is to learn and understand the patterns in the equations and algorithms that underscore even the most chaotic forms of reality and use them to their personal advantage.",
 			"",
 			"**Recommended Mysteries:** Any.",
@@ -289,7 +289,7 @@
 			"| 40+ | Once in the next 24 hours, you can use contact other plane as a spell-like ability, using your oracle level as your caster level. |"
 		]
 	},
-	"ocean's_echo": {
+	"oceans_echo": {
 		"name": "Ocean's Echo",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
@@ -317,7 +317,7 @@
 		"description": [
 			"## Pei Zin Practitioner",
 			"",
-			"**Source** [Healer's Handbook pg. 20](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 20](source/healers_handbook)  ",
 			"In distant Tian Xia, herbalists practice an obscure alchemical art known as Pei Zin herbalism, which involves medicinal and restorative techniques that are used throughout much of that continent. A few practitioners develop a talent for Pei Zin that transcends ordinary alchemy, allowing them to blur the line between applying alchemical medicine and coaxing divine miracles.",
 			"",
 			"Like other masters of the art, Pei Zin practitioners can use the [Profession (herbalist)](skill/profession) skill in place of Craft (alchemy) to create alchemical remedies with recipes that include certain plant-derived reagents.",

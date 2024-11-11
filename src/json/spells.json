@@ -8,7 +8,7 @@
 			"Unable to find the requested spell."
 		]
 	},
-	"abadar's_truthtelling": {
+	"abadars_truthtelling": {
 		"name": "Abadar's Truthtelling",
 		"sources": [
 			"Inner Sea Gods",
@@ -18,7 +18,7 @@
 		"description": [
 			"## Abadar's Truthtelling",
 			"",
-			"**Source** [Inner Sea Gods pg. 228](source/inner_sea_gods), [Pathfinder #8: Seven Days to the Grave pg. 71](source/pathfinder_#8_seven_days_to_the_grave), [Gods and Magic pg. 5](source/gods_and_magic)  ",
+			"**Source** [Inner Sea Gods pg. 228](source/inner_sea_gods), [Pathfinder #8: Seven Days to the Grave pg. 71](source/pathfinder_8_seven_days_to_the_grave), [Gods and Magic pg. 5](source/gods_and_magic)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)",
 			"",
 			"### Casting",
@@ -42,7 +42,7 @@
 		"description": [
 			"## Abeyance",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 74](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 74](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 2, inquisitor 2, oracle 2, paladin 2, warpriest 2",
 			"",
 			"### Casting",
@@ -148,7 +148,7 @@
 	"ablative_sphere": {
 		"copyof": "ablative_sphere_garundi"
 	},
-	"aboleth's_lung": {
+	"aboleths_lung": {
 		"name": "Aboleth's Lung",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -206,7 +206,7 @@
 		"description": [
 			"## Absorb Rune I",
 			"",
-			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 60](source/adventurers_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 4, bard 4, cleric 4, magus 4, occultist 4, oracle 4, skald 4, sorcerer 4, warpriest 4, wizard 4",
 			"",
 			"### Casting",
@@ -229,7 +229,7 @@
 			"",
 			"### Absorb Rune II",
 			"",
-			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 60](source/adventurers_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 6, bard 6, cleric 6, magus 6, occultist 6, oracle 6, skald 6, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"#### Casting",
@@ -248,7 +248,7 @@
 			"",
 			"### Absorb Rune III",
 			"",
-			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 60](source/adventurers_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 9, cleric 9, oracle 9, sorcerer 9, wizard 9",
 			"",
 			"#### Casting",
@@ -369,7 +369,7 @@
 		"description": [
 			"## Absorbing Touch",
 			"",
-			"**Source** [Advanced Player's Guide pg. 200](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 200](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 3, investigator 3",
 			"",
 			"### Casting",
@@ -474,7 +474,7 @@
 		"description": [
 			"## Abyssal Vermin",
 			"",
-			"**Source** [Pathfinder #78: City of Locusts pg. 75](source/pathfinder_#78_city_of_locusts)  ",
+			"**Source** [Pathfinder #78: City of Locusts pg. 75](source/pathfinder_78_city_of_locusts)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** antipaladin 2, arcanist 4, cleric 4, oracle 4, redmantisassassin 4, sorcerer 4, warpriest 4, witch 4, wizard 4 (Deskari)",
 			"",
 			"### Casting",
@@ -498,7 +498,7 @@
 		"description": [
 			"## Accelerate Poison",
 			"",
-			"**Source** [Advanced Player's Guide pg. 201](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 201](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** arcanist 2, druid 2, hunter 2, occultist 2, ranger 2, redmantisassassin 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -880,7 +880,7 @@
 		"description": [
 			"## Advanced Scurvy",
 			"",
-			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 73](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 73](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**School** [necromancy](spelldef/necromancy) [[disease](spelldef/disease), [evil](spelldef/evil)]; **Level** cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Besmara)",
 			"",
 			"### Casting",
@@ -1001,7 +1001,7 @@
 		"description": [
 			"## Aggravate Affliction",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, cleric 3, druid 3, hunter 3, oracle 3, sorcerer 4, warpriest 3, witch 3, wizard 4",
 			"",
 			"### Casting",
@@ -1462,7 +1462,7 @@
 		"name": "Selective Alarm",
 		"copyof": "alarm"
 	},
-	"alaznist's_jinx": {
+	"alaznists_jinx": {
 		"name": "Alaznist's Jinx",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
@@ -1494,7 +1494,7 @@
 		"description": [
 			"## Alchemical Allocation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 201](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 201](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, investigator 2",
 			"",
 			"### Casting",
@@ -1541,7 +1541,7 @@
 		"description": [
 			"## Aldori Alacrity",
 			"",
-			"**Source** [Adventurer's Guide pg. 27](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 27](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, bard 2, investigator 2, magus 2, skald 2",
 			"",
 			"### Casting",
@@ -1698,7 +1698,7 @@
 		"description": [
 			"## Allfood",
 			"",
-			"**Source** [Advanced Player's Guide pg. 201](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 201](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -1724,7 +1724,7 @@
 		"description": [
 			"## Allied Cloak",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurers_armory_2)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 3, bard 3, bloodrager 3, magus 3, occultist 2, skald 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3",
 			"",
 			"### Casting",
@@ -1747,7 +1747,7 @@
 		"description": [
 			"## Alluring Light",
 			"",
-			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 72](source/pathfinder_#134_it_came_from_hollow_mountain)  ",
+			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 72](source/pathfinder_134_it_came_from_hollow_mountain)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)); **Level** bard 1, skald 1, witch 1",
 			"",
 			"### Casting",
@@ -1948,7 +1948,7 @@
 		"description": [
 			"## Alter Summoned Monster",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoners_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)); **Level** antipaladin 2, arcanist 2, bard 2, cleric 2, druid 2, hunter 2, oracle 2, ranger 2, skald 2, sorcerer 2, summoner 2, warpriest 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -1972,7 +1972,7 @@
 		"description": [
 			"## Alter Winds",
 			"",
-			"**Source** [Advanced Player's Guide pg. 201](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 201](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[air](spelldef/air)]; **Level** arcanist 1, druid 1, hunter 1, occultist 1, redmantisassassin 1, sorcerer 1, spiritualist 1, wizard 1",
 			"",
 			"### Casting",
@@ -2029,7 +2029,7 @@
 		"description": [
 			"## Amplify Elixir",
 			"",
-			"**Source** [Advanced Player's Guide pg. 201](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 201](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 3, investigator 3",
 			"",
 			"### Casting",
@@ -2846,7 +2846,7 @@
 		"description": [
 			"## Ant Haul",
 			"",
-			"**Source** [Advanced Player's Guide pg. 201](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 201](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, arcanist 1, cleric 1, druid 1, hunter 1, investigator 1, medium 1, occultist 1, oracle 1, psychic 1, ranger 1, redmantisassassin 1, sorcerer 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -3159,7 +3159,7 @@
 		"description": [
 			"## Anti-Summoning Shield",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunters_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 2, bard 2, inquisitor 3, skald 2, sorcerer 2, summoner 2, unchained summoner 2, wizard 2",
 			"",
 			"### Casting",
@@ -3417,7 +3417,7 @@
 		"description": [
 			"## Apparent Treachery",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_74_sword_of_valor)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 3, inquisitor 3, skald 3, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -3550,7 +3550,7 @@
 			"You can't send or receive an object into a space that is protected by an antimagic field, globe of invulnerability, or similar effect that keeps magical effects out; if you attempt to do so, the spell is lost."
 		]
 	},
-	"apsu's_shining_scales": {
+	"apsus_shining_scales": {
 		"name": "Apsu's Shining Scales",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
@@ -3631,7 +3631,7 @@
 		"description": [
 			"## Aqueous Orb",
 			"",
-			"**Source** [Advanced Player's Guide pg. 202](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 202](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[water](spelldef/water)]; **Level** arcanist 3, bloodrager 3, druid 3, hunter 3, magus 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3",
 			"",
 			"### Casting",
@@ -3653,7 +3653,7 @@
 			"The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and churns in place. An aqueous orb stops if it moves outside the spell's range."
 		]
 	},
-	"aram_zey's_focus": {
+	"aram_zeys_focus": {
 		"name": "Aram Zey's Focus",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -3676,7 +3676,7 @@
 			"Aram Zey created this spell for use by his students, both to increase their confidence in their skills and to ensure more of them survived encounters with deadly traps. If you don't have the trapfinding class ability, this spell grants you the trapfinding ability of a rogue of half your character level. If you have the trapfinding ability granted by class levels, however, this spell grants you a +5 competence bonus on all Disable Device checks made to disarm mechanical (but not magical) traps. While under the effects of Aram Zey's focus, whenever you trigger a trap by rolling poorly on a Disable Device check, you may roll a second Disable Device check. This new roll uses the same modifiers as the first roll. If your second roll is high enough to avoid accidentally springing the trap, you avoid setting it off, but still fail to disarm it. Each time you take advantage of this feature, the remaining duration of the spell is reduced by 1 minute-if less than a minute's worth of duration remains, the spell ends as soon as you reroll your Disable Device check."
 		]
 	},
-	"aram_zey's_trap_ward": {
+	"aram_zeys_trap_ward": {
 		"name": "Aram Zey's Trap Ward",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -3851,7 +3851,7 @@
 		"description": [
 			"## Arcane Concordance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 203](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 203](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation); **Level** bard 3, skald 3",
 			"",
 			"### Casting",
@@ -4087,7 +4087,7 @@
 	"greater_arcane_sight": {
 		"copyof": "arcane_sight_greater"
 	},
-	"archon's_aura": {
+	"archons_aura": {
 		"name": "Archon's Aura",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -4111,7 +4111,7 @@
 			"You gain a powerful aura, similar to an archon's aura of menace. Any hostile creature within a 20-foot radius of you must make a Will save to resist the effects of this aura. If the creature fails, it takes a -2 penalty on attack rolls and saving throws and to Armor Class for the duration of this spell, or until it successfully hits you with an attack. A creature that has resisted or broken the effect cannot be affected again by this particular casting of archon's aura."
 		]
 	},
-	"archon's_trumpet": {
+	"archons_trumpet": {
 		"name": "Archon's Trumpet",
 		"sources": [ "Champions of Purity" ],
 		"description": [
@@ -4135,7 +4135,7 @@
 			"Upon hearing a booming report, as if from a trumpet archon's mighty horn, all creatures in the area of the burst are paralyzed for 1d4 rounds."
 		]
 	},
-	"ardor's_onslaught": {
+	"ardors_onslaught": {
 		"name": "Ardor's Onslaught",
 		"sources": [
 			"Planar Adventures",
@@ -4194,7 +4194,7 @@
 			"This spell can be cast only underwater."
 		]
 	},
-	"aroden's_magic_army": {
+	"arodens_magic_army": {
 		"name": "Aroden's Magic Army",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -4218,7 +4218,7 @@
 			"You imbue all manufactured weapons carried by allies within range with magic, granting each weapon a +1 enhancement bonus on attack rolls and damage rolls per 5 caster levels (maximum +4)."
 		]
 	},
-	"aroden's_spellbane": {
+	"arodens_spellbane": {
 		"name": "Aroden's Spellbane",
 		"sources": [
 			"Inner Sea Magic",
@@ -4253,7 +4253,7 @@
 			"Add half your tier to the number of spells you can select to not function in the area. As a full-round action, you can expend one use of mythic power to change one of the spells blocked by this effect. You can do this as often as you wish during the spell's duration."
 		]
 	},
-	"aroden's_spellsword": {
+	"arodens_spellsword": {
 		"name": "Aroden's Spellsword",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -4285,7 +4285,7 @@
 		"description": [
 			"## Arrow Eruption",
 			"",
-			"**Source** [Advanced Player's Guide pg. 202](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 202](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 2, hunter 2, ranger 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -4327,7 +4327,7 @@
 			"You fire a shimmering arrow of pure order from your holy symbol at any one target in range as a ranged touch attack. A chaotic creature struck by an arrow of law takes 1d8 points of damage per two caster levels (maximum 5d8). A chaotic outsider instead takes 1d6 points of damage per caster level (maximum 10d6) and is dazed for 1 round. A successful Will save reduces the damage to half and negates the daze effect. This spell deals only half damage to creatures that are neither chaotic nor lawful, and they are not dazed. The arrow has no effect on lawful creatures."
 		]
 	},
-	"artificer's_curse": {
+	"artificers_curse": {
 		"name": "Artificer's Curse",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -4440,7 +4440,7 @@
 		"description": [
 			"## Aspect of the Bear",
 			"",
-			"**Source** [Advanced Player's Guide pg. 203](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 203](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** druid 2, hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -4463,7 +4463,7 @@
 		"description": [
 			"## Aspect of the Falcon",
 			"",
-			"**Source** [Advanced Player's Guide pg. 203](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 203](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** druid 1, hunter 1, ranger 1",
 			"",
 			"### Casting",
@@ -4489,7 +4489,7 @@
 		"description": [
 			"## Aspect of the Nightingale",
 			"",
-			"**Source** [Inner Sea Gods pg. 228](source/inner_sea_gods), [Pathfinder #50: Night of Frozen Shadows pg. 75](source/pathfinder_#50_night_of_frozen_shadows)  ",
+			"**Source** [Inner Sea Gods pg. 228](source/inner_sea_gods), [Pathfinder #50: Night of Frozen Shadows pg. 75](source/pathfinder_50_night_of_frozen_shadows)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, oracle 1, paladin 1, ranger 1, shaman 1, skald 1, warpriest 1 (Shelyn)",
 			"",
 			"### Casting",
@@ -4512,7 +4512,7 @@
 		"description": [
 			"## Aspect of the Stag",
 			"",
-			"**Source** [Advanced Player's Guide pg. 203](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 203](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** druid 4, hunter 3, ranger 3",
 			"",
 			"### Casting",
@@ -4535,7 +4535,7 @@
 		"description": [
 			"## Aspect of the Wolf",
 			"",
-			"**Source** [Advanced Player's Guide pg. 204](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 204](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** druid 5, hunter 4, ranger 4",
 			"",
 			"### Casting",
@@ -5097,7 +5097,7 @@
 		"description": [
 			"## Aura of Greater Courage",
 			"",
-			"**Source** [Advanced Player's Guide pg. 204](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 204](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[emotion](spelldef/emotion)]; **Level** paladin 2",
 			"",
 			"### Casting",
@@ -5355,7 +5355,7 @@
 			"Creatures with an Intelligence score of 2 or lower aren't affected by this spell."
 		]
 	},
-	"badger's_ferocity": {
+	"badgers_ferocity": {
 		"name": "Badger's Ferocity",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -5385,7 +5385,7 @@
 		"description": [
 			"## Balance of Suffering",
 			"",
-			"**Source** [Healer's Handbook pg. 8](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 8](source/healers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** cleric 6, inquisitor 6, occultist 6, oracle 6, shaman 6, spiritualist 6, warpriest 6, witch 6",
 			"",
 			"### Casting",
@@ -5478,7 +5478,7 @@
 		"description": [
 			"## Ball Lightning",
 			"",
-			"**Source** [Advanced Player's Guide pg. 204](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 204](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[air](spelldef/air), [electricity](spelldef/electricity)]; **Level** arcanist 4, bloodrager 4, druid 4, hunter 4, magus 4, occultist 4, shaman 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -5562,7 +5562,7 @@
 		"description": [
 			"## Banish Seeming",
 			"",
-			"**Source** [Advanced Player's Guide pg. 204](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 204](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** inquisitor 3, psychic 5, witch 5",
 			"",
 			"### Casting",
@@ -5684,13 +5684,13 @@
 			"You summon a chain from another realm, causing it to burst out from the ground and strike a target within the spell's range. You can have the chain either make a melee attack (dealing 1d6 points of slashing damage) or attempt a trip combat maneuver against the target. The chain uses your base attack bonus plus your key spellcasting ability score modifier as its attack bonus and combat maneuver bonus. On a successful hit or combat maneuver check, the target must attempt a Will save. If it fails its save, the creature is shaken for 1d4 rounds. You summon one additional chain every 3 levels after 1st, for a total of two chains at 4th level, three at 7th level, and a maximum of four at 10th level. Multiple chains can attack the same target but the shaken effect doesn't stack."
 		]
 	},
-	"bard's_escape": {
+	"bards_escape": {
 		"name": "Bard's Escape",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Bard's Escape",
 			"",
-			"**Source** [Advanced Player's Guide pg. 204](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 204](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** bard 5, skald 5",
 			"",
 			"### Casting",
@@ -5714,7 +5714,7 @@
 		"description": [
 			"## Barghest Feast",
 			"",
-			"**Source** [Pathfinder #117: Assault on Longshadow pg. 76](source/pathfinder_#117_assault_on_longshadow)  ",
+			"**Source** [Pathfinder #117: Assault on Longshadow pg. 76](source/pathfinder_117_assault_on_longshadow)  ",
 			"**School** [transmutation](spelldef/transmutation) [[evil](spelldef/evil)]; **Level** alchemist 3, investigator 3 (Hadregash)",
 			"",
 			"### Casting",
@@ -5981,7 +5981,7 @@
 		"description": [
 			"## Beanstalk",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 4, sorcerer 4, summoner 4, unchained summoner 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -5999,7 +5999,7 @@
 			"When casting this spell, you must plant the material components in soil. When you do, at the end of casting, a large beanstalk rises up from the ground. It's strong enough to support Huge or smaller creatures weighing no more than 2,000 pounds total, and has enough handholds and footholds that it can be climbed as if it were knotted rope (Climb DC 5). At the end of the spell's duration, the beanstalk withers and dies at an accelerated rate, leaving nothing more than a pile of compost."
 		]
 	},
-	"bear's_endurance": {
+	"bears_endurance": {
 		"name": "Bear's Endurance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -6042,12 +6042,12 @@
 			"Mass bear's endurance works like bear's endurance, except that it affects multiple creatures."
 		]
 	},
-	"bear's_endurance_mass": {
+	"bears_endurance_mass": {
 		"name": "Bear's Endurance, Mass",
-		"copyof": "bear's_endurance"
+		"copyof": "bears_endurance"
 	},
-	"mass_bear's_endurance": {
-		"copyof": "bear's_endurance_mass"
+	"mass_bears_endurance": {
+		"copyof": "bears_endurance_mass"
 	},
 	"beast_shape_1": {
 		"name": "Beast Shape I",
@@ -6316,7 +6316,7 @@
 		"description": [
 			"## Befuddled Combatant",
 			"",
-			"**Source** [Healer's Handbook pg. 17](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 17](source/healers_handbook)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[curse](spelldef/curse), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 5, bard 5, mesmerist 5, psychic 5, shaman 5, skald 5, sorcerer 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -6344,7 +6344,7 @@
 		"description": [
 			"## Beguiling Gift",
 			"",
-			"**Source** [Advanced Player's Guide pg. 205](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 205](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 1, mesmerist 1, psychic 1, skald 1, witch 1",
 			"",
 			"### Casting",
@@ -6409,7 +6409,7 @@
 			"An overwhelming feeling of loss overcomes the targets, and their allies' words sound bleak and hollow. Regardless of actual allegiances, affected creatures no longer count as allies for other creatures and always count as enemies for the purposes of abilities, effects, and spells that differentiate between allies and enemies, such as flanking or spells such as bane or bless. Allies of an affected creature must succeed at a melee touch attack to affect the subject with touch spells, and an affected creature cannot voluntarily fail a saving throw even if the effect is harmless (such as cure light wounds). An affected creature still counts as her own ally and can target herself with abilities, effects, and spells normally."
 		]
 	},
-	"besmara's_grasping_depths": {
+	"besmaras_grasping_depths": {
 		"name": "Besmara's Grasping Depths",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -6506,7 +6506,7 @@
 			"",
 			"### Bestow Curse, Greater",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 8, cleric 7, oracle 7, sorcerer 8, witch 7, wizard 8",
 			"",
 			"#### Casting",
@@ -6596,7 +6596,7 @@
 		"description": [
 			"## Bestow Grace",
 			"",
-			"**Source** [Advanced Player's Guide pg. 205](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 205](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** paladin 2",
 			"",
 			"### Casting",
@@ -6797,7 +6797,7 @@
 		"description": [
 			"## Billowing Skirt",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurers_armory_2)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, bard 2, inquisitor 2, occultist 2, shaman 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -7169,7 +7169,7 @@
 		"description": [
 			"## Black Sword of War",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 75](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 75](source/pathfinder_71_rasputin_must_die)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** antipaladin 3, arcanist 3, cleric 3, hunter 3, oracle 3, ranger 3, sorcerer 3, warpriest 3, wizard 3 (Szuriel)",
 			"",
 			"### Casting",
@@ -7403,7 +7403,7 @@
 		"description": [
 			"## Blade of Light",
 			"",
-			"**Source** [Adventurer's Guide pg. 16](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 16](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[good](spelldef/good)]; **Level** cleric 4, inquisitor 4, oracle 4, paladin 4, warpriest 4",
 			"",
 			"### Casting",
@@ -7451,7 +7451,7 @@
 			"While blade snare is active, you may make melee attacks and cast spells as normal, though you may not make ranged weapon attacks; the magic field thwarts such attacks. You may not snare more than one limb or weapon in the field at a time. If you already have an opponent's weapon or limb stuck in the field and you are hit by a second melee attack, you must choose which weapon or limb to snare. The other limb or weapon is unaffected by the spell."
 		]
 	},
-	"blade_tutor's_spirit": {
+	"blade_tutors_spirit": {
 		"name": "Blade Tutor's Spirit",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -7614,7 +7614,7 @@
 		"description": [
 			"## Blaze of Glory",
 			"",
-			"**Source** [Advanced Player's Guide pg. 205](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 205](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)) [[good](spelldef/good), [mind-affecting](spelldef/mindaffecting)]; **Level** paladin 4",
 			"",
 			"### Casting",
@@ -7775,7 +7775,7 @@
 		"description": [
 			"## Bleeding Strike",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 75](source/pathfinder_#77_herald_of_the_ivory_labyrinth)  ",
+			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 75](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** antipaladin 1, cleric 1, hunter 1, oracle 1, ranger 1, warpriest 1, witch 1 (Baphomet)",
 			"",
 			"### Casting",
@@ -7979,7 +7979,7 @@
 		"description": [
 			"## Blessing of Courage and Life",
 			"",
-			"**Source** [Advanced Player's Guide pg. 205](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 205](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)) [[emotion](spelldef/emotion)]; **Level** cleric 2, oracle 2, paladin 2, warpriest 2",
 			"",
 			"### Casting",

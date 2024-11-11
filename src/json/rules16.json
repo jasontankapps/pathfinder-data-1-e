@@ -630,7 +630,7 @@
 			"contracting_a_corruption",
 			"manifestations",
 			"manifestation_level",
-			"the_corruption's_progress"
+			"the_corruptions_progress"
 		],
 		"siblings": [
 			"horror_characters",
@@ -678,7 +678,7 @@
 			"contracting_a_corruption",
 			"manifestations",
 			"manifestation_level",
-			"the_corruption's_progress"
+			"the_corruptions_progress"
 		]
 	},
 	"contracting_a_corruption": {
@@ -688,7 +688,7 @@
 		"description": [
 			"**Source** [Horror Adventures pg. 14](source/horror_adventures)",
 			"",
-			"The catalyst section of each corruption offers a number of possible methods for contracting that corruption. Once you contract a corruption, you immediately gain a manifestation. Your manifestation level becomes 1, and your number of manifestations and your manifestation level can increase as described in [Manifestation Level](rule/manifestation_level). You also draw closer to losing your soul, as represented by your corruption stage. This is described under [The Corruption's Progress](rule/the_corruption's_progress).",
+			"The catalyst section of each corruption offers a number of possible methods for contracting that corruption. Once you contract a corruption, you immediately gain a manifestation. Your manifestation level becomes 1, and your number of manifestations and your manifestation level can increase as described in [Manifestation Level](rule/manifestation_level). You also draw closer to losing your soul, as represented by your corruption stage. This is described under [The Corruption's Progress](rule/the_corruptions_progress).",
 			"",
 			"***Multiple Corruptions:*** Typically, you can have only one corruption. If some exceedingly rare condition arises that would cause you to be affected by more than one, you typically gain stains from both corruptions' manifestations but gifts from only the first one you contracted, and the secondary corruption also grants manifestations at a slower rate. When the text refers to your manifestation level, use only your manifestation level for the second corruption, not the sum of all your manifestation levels."
 		],
@@ -702,7 +702,7 @@
 			"contracting_a_corruption",
 			"manifestations",
 			"manifestation_level",
-			"the_corruption's_progress"
+			"the_corruptions_progress"
 		]
 	},
 	"manifestations": {
@@ -728,7 +728,7 @@
 			"contracting_a_corruption",
 			"manifestations",
 			"manifestation_level",
-			"the_corruption's_progress"
+			"the_corruptions_progress"
 		]
 	},
 	"corruption_variants": {
@@ -776,10 +776,10 @@
 			"contracting_a_corruption",
 			"manifestations",
 			"manifestation_level",
-			"the_corruption's_progress"
+			"the_corruptions_progress"
 		]
 	},
-	"the_corruption's_progress": {
+	"the_corruptions_progress": {
 		"name": "The Corruption's Progress",
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
@@ -798,7 +798,7 @@
 			"contracting_a_corruption",
 			"manifestations",
 			"manifestation_level",
-			"the_corruption's_progress"
+			"the_corruptions_progress"
 		]
 	},
 	"curses_ha": {
@@ -2362,7 +2362,7 @@
 			"",
 			"The enemy in a body horror game can also be unclear. While it might be individuals spreading a plague, a race of sentient parasites, or a mad scientist transforming victims, it might also be simply a disease itself. The former examples lend themselves toward common Pathfinder plots. The latter, though, might unfold as a scavenger hunt or series of challenges that contribute toward concocting a cure. In such cases, the final challenge should be the most harrowing and present the greatest risk of exposure to infection. In that way, the defeat of the invisible menace has a climax, but it also has the extremely personal threat of another outbreak.",
 			"",
-			"***Monsters and Threats:*** Parasites and diseases often feature in body horror stories, so consider rot grubs (of the [giant variety](monster/giant_rot_grub) or more [common hazards](rule/hazards)), [ear seekers](infestation/ear_seekers), [intellect devourers](monster/intellect_devourer), or [visceral plagues of disease](rule/diseases) (though consider using the [unchained rules for diseases](rule/diseases_and_poisons)). Creatures that implant their eggs or are born from other creatures include [lunarmas](monster/lunarma), [vegepygmies](monster/vegepygmy), and [xills](monster/xill), while those who cling to or take over a host's body include [incutilises](monster/incutilis) and [wizard's shackles](monster/wizard's_shackle). [Fleshwarps](family/fleshwarp) and oozes like [carnivorous blobs](monster/carnivorous_blob) embody the horror of abominable transformation, [beheaded](monster/beheaded) and [crawling hands](monster/crawling_hand) are unbound body parts, and [drow](race/drow) and [kytons](family/kyton) use flesh as mediums for their art or taboo experimentations. Many of the corruptions and the [fleshwarping rules](rule/fleshwarping) also allow a PC to experience the terror of transformation firsthand.",
+			"***Monsters and Threats:*** Parasites and diseases often feature in body horror stories, so consider rot grubs (of the [giant variety](monster/giant_rot_grub) or more [common hazards](rule/hazards)), [ear seekers](infestation/ear_seekers), [intellect devourers](monster/intellect_devourer), or [visceral plagues of disease](rule/diseases) (though consider using the [unchained rules for diseases](rule/diseases_and_poisons)). Creatures that implant their eggs or are born from other creatures include [lunarmas](monster/lunarma), [vegepygmies](monster/vegepygmy), and [xills](monster/xill), while those who cling to or take over a host's body include [incutilises](monster/incutilis) and [wizard's shackles](monster/wizards_shackle). [Fleshwarps](family/fleshwarp) and oozes like [carnivorous blobs](monster/carnivorous_blob) embody the horror of abominable transformation, [beheaded](monster/beheaded) and [crawling hands](monster/crawling_hand) are unbound body parts, and [drow](race/drow) and [kytons](family/kyton) use flesh as mediums for their art or taboo experimentations. Many of the corruptions and the [fleshwarping rules](rule/fleshwarping) also allow a PC to experience the terror of transformation firsthand.",
 			"",
 			"***Basic Plots:*** A quarantine traps the PCs in a city suffering from bubonic plague. A breed of oozes infests a community's sewers, changing those they touch into melting zombies. [Ghorazaghs](monster/ghorazagh) capture the PCs in a labyrinthine scab-hive.",
 			"",
@@ -2500,7 +2500,7 @@
 			"",
 			"Gothic horror tales highlight and develop wealth, extravagance, and the noble or positive qualities of characters to better wring pathos from their ruination. Romances are also common, whether as the spark that ignites dark passions or as the motivation for heroics. Death, desperation, and madness are frequent results of both themes, paving the way for encounters with the fantastic, deals with wicked forces, and passions that keep characters from a peaceful death. Indulging these themes suggests not only a host of settings (like crumbling manors, grim cathedrals, and misty graveyards), but also stock characters (suspicious townsfolk, penniless nobles, and ghostly governesses) waiting to populate a gothic tale.",
 			"",
-			"***Monsters and Threats:*** The mainstays of gothic horror include some of the most identifiable monsters in fiction and folklore: fiends, [ghosts](template/ghost), [hags](family/hag), [lycanthropes](template/lycanthrope), murderous animals, [skeletons](template/skeleton), [vampires](template/vampire), [yeth hounds](monster/yeth_hound), and the like. Almost any monster could make a fine villain in a gothic horror story, though, so long as it has a tragic background and intentions of menace. For example, the sorrow of a lovelorn dryad might extend beyond herself, transforming a wilderness into a savage nightmare. Insidious magic items-like [monkey's paws](magic-artifact/monkey's_paw) and [soul portraits](magic-artifact/soul_portrait)-also often appear in gothic stories, the objects taking on the sins of their past owners. Bargains with fiends, foul gods, or perhaps even death itself can inspire tragic villains. [Haunts](rule/haunts) also make useful threats for gothic horror tales, their descriptive dangers providing a way to reveal mournful histories-perhaps piece by piece through a series of interrelated, tragic events.",
+			"***Monsters and Threats:*** The mainstays of gothic horror include some of the most identifiable monsters in fiction and folklore: fiends, [ghosts](template/ghost), [hags](family/hag), [lycanthropes](template/lycanthrope), murderous animals, [skeletons](template/skeleton), [vampires](template/vampire), [yeth hounds](monster/yeth_hound), and the like. Almost any monster could make a fine villain in a gothic horror story, though, so long as it has a tragic background and intentions of menace. For example, the sorrow of a lovelorn dryad might extend beyond herself, transforming a wilderness into a savage nightmare. Insidious magic items-like [monkey's paws](magic-artifact/monkeys_paw) and [soul portraits](magic-artifact/soul_portrait)-also often appear in gothic stories, the objects taking on the sins of their past owners. Bargains with fiends, foul gods, or perhaps even death itself can inspire tragic villains. [Haunts](rule/haunts) also make useful threats for gothic horror tales, their descriptive dangers providing a way to reveal mournful histories-perhaps piece by piece through a series of interrelated, tragic events.",
 			"",
 			"***Basic Plots:*** Every hundred years, a [graveknight](template/graveknight) appears and challenges the high priest of the goddess of valor, whose cathedral stands upon an ancient battlefield. A [changeling](race/changeling) begs for the PCs' protection, fearful of the crone she's seen in her nightmares. The PCs must retrieve a lost locket from a spectral house that appears only on the night of the winter solstice.",
 			"",
@@ -3445,7 +3445,7 @@
 			"thematic_creepiness"
 		]
 	},
-	"npc_creator's_toolbox": {
+	"npc_creators_toolbox": {
 		"name": "NPC Creator's Toolbox",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -3463,7 +3463,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		],
 		"subtopics": [
 			"npc_toolbox_1",
@@ -3582,7 +3582,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		],
 		"siblings": [
 			"npc_toolbox_1",
@@ -3812,7 +3812,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		],
 		"siblings": [
 			"npc_toolbox_1",
@@ -3936,7 +3936,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		],
 		"siblings": [
 			"npc_toolbox_1",
@@ -4066,7 +4066,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"non-player_characters",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		],
 		"siblings": [
 			"npc_toolbox_1",
@@ -4079,7 +4079,7 @@
 		"name": "Affiliations",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
-			"**Source** [Adventurer's Guide pg. 5](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 5](source/adventurers_guide)",
 			"",
 			"Affiliation with a group means that a character has proven to be an ally with the group's interests at heart and is trusted to be a caretaker for that group's secrets.",
 			"",
@@ -4113,7 +4113,7 @@
 			"",
 			"### Important Notes",
 			"",
-			"***1:*** The affiliations listed here were printed in [Adventurer's Guide](source/adventurer's_guide) and have been converted into generic entities, removing proper names and Pathfinder-specific lore that likely isn't considered Open Game Content.",
+			"***1:*** The affiliations listed here were printed in [Adventurer's Guide](source/adventurers_guide) and have been converted into generic entities, removing proper names and Pathfinder-specific lore that likely isn't considered Open Game Content.",
 			"",
 			"***2:*** There was also a separate publication with rules for [Factions](rule/factions) that can be used with/instead of these rules."
 		],
@@ -4186,7 +4186,7 @@
 			"",
 			"***Magic Items:*** The tribes of the desert create and use the following items, though they rarely share them with outsiders; they can sometimes be found in black markets in the nation, though purchasing them there might earn the enmity of the desert tribespeople: [Caparison of Resistance](magic-wondrous/caparison_of_resistance_1_bonus), [Cloak of Heavenly Fire](magic-wondrous/cloak_of_heavenly_fire)",
 			"",
-			"***Spells:*** The following spells are closely guarded by the tribespeople: [Blade of Light](spell/blade_of_light), [Burning Sands](spell/burning_sands), [Cleansing Fire](spell/cleansing_fire), [Sun's Disdain](spell/sun's_disdain), [Mass Sun's Disdain](spell/mass_sun's_disdain), [Sunstalker](spell/sunstalker)"
+			"***Spells:*** The following spells are closely guarded by the tribespeople: [Blade of Light](spell/blade_of_light), [Burning Sands](spell/burning_sands), [Cleansing Fire](spell/cleansing_fire), [Sun's Disdain](spell/suns_disdain), [Mass Sun's Disdain](spell/mass_suns_disdain), [Sunstalker](spell/sunstalker)"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4235,11 +4235,11 @@
 			"",
 			"***Equipment:*** [Aldori Dueling Sword](equipment-weapon/aldori_dueling_sword)",
 			"",
-			"***Feats:*** [Aldori Artistry](feat/aldori_artistry), [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Aldori Dueling Mastery](feat/aldori_dueling_mastery), [Aldori Style](feat/aldori_style), [Aldori Style Aegis](feat/aldori_style_aegis), [Aldori Style Conquest](feat/aldori_style_conquest), [Duelist of the Roaring Falls](feat/duelist_of_the_roaring_falls), [Duelist of the Shrouded Lake](feat/duelist_of_the_shrouded_lake), [Falling Water Gambit](feat/falling_water_gambit), [Garen's Discipline](feat/garen's_discipline), [Redistributed Might](feat/redistributed_might), [Serren's Masterstroke](feat/serren's_masterstroke)",
+			"***Feats:*** [Aldori Artistry](feat/aldori_artistry), [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Aldori Dueling Mastery](feat/aldori_dueling_mastery), [Aldori Style](feat/aldori_style), [Aldori Style Aegis](feat/aldori_style_aegis), [Aldori Style Conquest](feat/aldori_style_conquest), [Duelist of the Roaring Falls](feat/duelist_of_the_roaring_falls), [Duelist of the Shrouded Lake](feat/duelist_of_the_shrouded_lake), [Falling Water Gambit](feat/falling_water_gambit), [Garen's Discipline](feat/garens_discipline), [Redistributed Might](feat/redistributed_might), [Serren's Masterstroke](feat/serrens_masterstroke)",
 			"",
-			"***Magic Items:*** [rostland edge](magic-weapon/rostland_edge), [swordlord's cloak](magic-wondrous/swordlord's_cloak_1_bonus)",
+			"***Magic Items:*** [rostland edge](magic-weapon/rostland_edge), [swordlord's cloak](magic-wondrous/swordlords_cloak_1_bonus)",
 			"",
-			"***Spells:*** By combining martial talents and arcane understanding, enthusiasts of the swordmaster style have designed a small number of potent spells: [Aldori Alacrity](spell/aldori_alacrity), [Contest of Skill](spell/contest_of_skill), [Deivon's Parry](spell/deivon's_parry), [Tactical Adaptation](spell/tactical_adaptation), [Tieldlara's Feint](spell/tieldlara's_feint)"
+			"***Spells:*** By combining martial talents and arcane understanding, enthusiasts of the swordmaster style have designed a small number of potent spells: [Aldori Alacrity](spell/aldori_alacrity), [Contest of Skill](spell/contest_of_skill), [Deivon's Parry](spell/deivons_parry), [Tactical Adaptation](spell/tactical_adaptation), [Tieldlara's Feint](spell/tieldlaras_feint)"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4341,9 +4341,9 @@
 			"",
 			"***Archetypes:*** [Bellflower Harvester](archetype-vigilante/bellflower_harvester) (Vigilante), [Bellflower Irrigator](archetype-rogue/bellflower_irrigator) (Rogue)",
 			"",
-			"***Equipment:*** [applecheek](equipment-misc/applecheek), [boniface paint](equipment-misc/boniface_paint), [cooking powder](equipment-misc/cooking_powder), [sparkle smoke](equipment-misc/sparkle_smoke), [tiller's gum](equipment-misc/tiller's_gum)",
+			"***Equipment:*** [applecheek](equipment-misc/applecheek), [boniface paint](equipment-misc/boniface_paint), [cooking powder](equipment-misc/cooking_powder), [sparkle smoke](equipment-misc/sparkle_smoke), [tiller's gum](equipment-misc/tillers_gum)",
 			"",
-			"***Magic Items:*** [Liberator's Key](magic-wondrous/liberator's_key), [Subtle Slippers](magic-wondrous/subtle_slippers), [Tiller's Pendant](magic-wondrous/tiller's_pendant), [Whispering Shell](magic-wondrous/whispering_shell)"
+			"***Magic Items:*** [Liberator's Key](magic-wondrous/liberators_key), [Subtle Slippers](magic-wondrous/subtle_slippers), [Tiller's Pendant](magic-wondrous/tillers_pendant), [Whispering Shell](magic-wondrous/whispering_shell)"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4487,7 +4487,7 @@
 			"",
 			"***Archetypes:*** [Scion of Talmandor](archetype-paladin) (Paladin), [Toxic Talon](archetype-rogue/toxic_talon) (Rogue)",
 			"",
-			"***Feats:*** most of the feats listed here require affiliation with one of the specific factions within the Vanguard: [Eagle's Resolve](feat/eagle's_resolve), [Expert Boarder](feat/expert_boarder), [Falcon's Cry](feat/falcon's_cry), [Legionnaire's Inspiration](feat/legionnaire's_inspiration), [Twilight Tattoo](feat/twilight_tattoo)",
+			"***Feats:*** most of the feats listed here require affiliation with one of the specific factions within the Vanguard: [Eagle's Resolve](feat/eagles_resolve), [Expert Boarder](feat/expert_boarder), [Falcon's Cry](feat/falcons_cry), [Legionnaire's Inspiration](feat/legionnaires_inspiration), [Twilight Tattoo](feat/twilight_tattoo)",
 			"",
 			"***Magic Items:*** [Eagle Knight Dress Uniform](magic-armor/eagle_knight_dress_uniform), [Golden Eagle Epaulets](magic-wondrous/golden_eagle_epaulets), [Talonstrike Sword](magic-weapon/talonstrike_sword)",
 			"",
@@ -4543,7 +4543,7 @@
 			"",
 			"***Feats:*** [Agile Maiden](feat/agile_maiden), [Fanged Crown Massacre](feat/fanged_crown_massacre), [Gray Maiden Initiate](feat/gray_maiden_initiate), [Scarlet Rose Devotion](feat/scarlet_rose_devotion), [Sisterhood Dedication](feat/sisterhood_dedication), [Sisterhood Style](feat/sisterhood_style), [Unbreakable](feat/unbreakable)",
 			"",
-			"***Magic Items:*** [Banner of the Scarlet Rose](magic-wondrous/banner_of_the_scarlet_rose), [Erinyes Company Cloak](magic-wondrous/erinyes_company_cloak), [Helm of the Fanged Crown](magic-wondrous/helm_of_the_fanged_crown), [Maiden's Aegis](magic-armor/maiden's_aegis), [Maiden's Helm](magic-wondrous/maiden's_helm), [Maiden's Panoply](magic-armor/maiden's_panoply), [Maiden's Promise](magic-wondrous/maiden's_promise), [Rose Knight's Blade](magic-weapon/rose_knight's_blade)"
+			"***Magic Items:*** [Banner of the Scarlet Rose](magic-wondrous/banner_of_the_scarlet_rose), [Erinyes Company Cloak](magic-wondrous/erinyes_company_cloak), [Helm of the Fanged Crown](magic-wondrous/helm_of_the_fanged_crown), [Maiden's Aegis](magic-armor/maidens_aegis), [Maiden's Helm](magic-wondrous/maidens_helm), [Maiden's Panoply](magic-armor/maidens_panoply), [Maiden's Promise](magic-wondrous/maidens_promise), [Rose Knight's Blade](magic-weapon/rose_knights_blade)"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4593,7 +4593,7 @@
 			"",
 			"***Equipment:*** This equipment might be found in the possession of any Steel Knight, though some individual pieces might be used more by some orders than others: [branding iron](equipment-misc/branding_iron) [Hellknight barding](equipment-misc/hellknight_barding), [Hellknight half-plate](equipment-armor/hellknight_half-plate), [Hellknight leather](equipment-armor/hellknight_leather), [Hellknight plate](equipment-armor/hellknight_plate), [Signifer mask](equipment-misc/signifer_mask)",
 			"",
-			"***Magic Items:*** Steel Knights have crafted a wide range of magical items, many being baroque versions of well-known items; special and custom items are among the most valued possessions of Steel Knights and their orders: [Gelugon Plate](magic-armor/gelugon_plate), [Signifer's Fist](magic-weapon/signifer's_fist)",
+			"***Magic Items:*** Steel Knights have crafted a wide range of magical items, many being baroque versions of well-known items; special and custom items are among the most valued possessions of Steel Knights and their orders: [Gelugon Plate](magic-armor/gelugon_plate), [Signifer's Fist](magic-weapon/signifers_fist)",
 			"",
 			"***Spells:*** Many of these spells are innovations of the Order of the Gate's signifers, originating in the notes of the order's magic-users: [Brand of Conformity](spell/brand_of_conformity), [Brand of Hobbling](spell/brand_of_hobbling), [Brand of Tracking](spell/brand_of_tracking), [Dirge of the Victorious Knights](spell/dirge_of_the_victorious_knights), [Infernal Challenger](spell/infernal_challenger), [Shackle](spell/shackle)"
 		],
@@ -4644,7 +4644,7 @@
 			"",
 			"***Feats:*** [Perfect Style](feat/perfect_style), [Unblinking Flame Feint](feat/unblinking_flame_feint), [Unblinking Flame Fist](feat/unblinking_flame_fist), [Unfolding Wind Rush](feat/unfolding_wind_rush), [Unfolding Wind Strike](feat/unfolding_wind_strike), [Untwisting Iron Skin](feat/untwisting_iron_skin), [Untwisting Iron Strength](feat/untwisting_iron_strength)",
 			"",
-			"***Magic Items:*** [Dhoti of Style Mastery](magic-wondrous/dhoti_of_style_mastery), [Efreeti Horns](magic-wondrous/efreeti_horns), [Gloves of Unfolding Wind](magic-wondrous/gloves_of_unfolding_wind), [Monastic Warden](magic-weapon/monastic_warden), [Mountainshaper's Girdle](magic-wondrous/mountainshaper's_girdle), [Traveling Master's Turban](magic-wondrous/traveling_master's_turban)"
+			"***Magic Items:*** [Dhoti of Style Mastery](magic-wondrous/dhoti_of_style_mastery), [Efreeti Horns](magic-wondrous/efreeti_horns), [Gloves of Unfolding Wind](magic-wondrous/gloves_of_unfolding_wind), [Monastic Warden](magic-weapon/monastic_warden), [Mountainshaper's Girdle](magic-wondrous/mountainshapers_girdle), [Traveling Master's Turban](magic-wondrous/traveling_masters_turban)"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -4693,7 +4693,7 @@
 			"",
 			"***Equipment:*** Agents of the Lights prefer to arm themselves with the finest elven gear available, including items rarely seen outside of elven lands, such as those listed here: [elven leafblade](equipment-weapon/elven_leafblade), [elven thornblade](equipment-weapon/elven_thornblade), [lantern honey](equipment-misc/lantern_honey)",
 			"",
-			"***Magic Items:*** [Banshee's Howl](magic-weapon/banshee's_howl), [Elven Vengeance](magic-armor/elven_vengeance), [Lantern of Hidden Light](magic-wondrous/lantern_of_hidden_light), [Ring of Retreat](magic-ring/ring_of_retreat)",
+			"***Magic Items:*** [Banshee's Howl](magic-weapon/banshees_howl), [Elven Vengeance](magic-armor/elven_vengeance), [Lantern of Hidden Light](magic-wondrous/lantern_of_hidden_light), [Ring of Retreat](magic-ring/ring_of_retreat)",
 			"",
 			"***Spells:*** These spells were developed by the Lights to aid in the exploration of the Darklands, to deal with the drow love of poison, and to help fight against choices that could result in corruption of the soul: [Brightest Light](spell/brightest_light), [Detoxify](spell/detoxify), [Preserve Grace](spell/preserve_grace)"
 		],
@@ -5052,7 +5052,7 @@
 			"",
 			"***Feats:*** [Storm-Lashed](feat/storm-lashed)",
 			"",
-			"***Magic Items:*** Many of the magic items valued by the Seekers were first created by their predecessors; explorers of the region can sometimes find these items in creatures' lairs or ancient ruins, but the Seekers take offense when those who aren't at least affiliated with them claim such items as their own: [Amulet of the Storm](magic-wondrous/amulet_of_the_storm), [Goz Mask](magic-wondrous/goz_mask), [Jar of Lightning](magic-wondrous/jar_of_lightning), [Storm Kindler's Rod](magic-artifact/storm_kindler's_rod) (minor artifact)",
+			"***Magic Items:*** Many of the magic items valued by the Seekers were first created by their predecessors; explorers of the region can sometimes find these items in creatures' lairs or ancient ruins, but the Seekers take offense when those who aren't at least affiliated with them claim such items as their own: [Amulet of the Storm](magic-wondrous/amulet_of_the_storm), [Goz Mask](magic-wondrous/goz_mask), [Jar of Lightning](magic-wondrous/jar_of_lightning), [Storm Kindler's Rod](magic-artifact/storm_kindlers_rod) (minor artifact)",
 			"",
 			"***Spells:*** [Storm Sight](spell/storm_sight)"
 		],

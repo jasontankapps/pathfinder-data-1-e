@@ -56,19 +56,19 @@
 			"Craft (Alchemy) DC 20"
 		]
 	},
-	"fiendslayer's_kit": {
+	"fiendslayers_kit": {
 		"name": "Fiendslayer's kit",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Fiendslayer's kit",
-			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurers_armory_2)  ",
 			"**Price** 1,100 gp; **Weight** 9 lbs.  ",
 			"**Category** Kits",
 			"",
 			"This pack includes several items necessary to injure or intimidate a variety of evil outsiders, or to overcome their damage reduction. The kit contains a celestial censer, a silver holy symbol, 2 cold iron weapon blanches, 2 vials of holy water, 10 sticks of incense, an oil of align weapon (good), a vial of silversheen, and a scroll of magic circle against evil. Most of the items in this kit are items evil outsiders hate, increasing the effectiveness of spells such as banishment."
 		]
 	},
-	"fighter's_kit": {
+	"fighters_kit": {
 		"name": "Fighter's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -140,12 +140,12 @@
 			"A fire carrier is a conical device made of thickly insulated leather and wood designed to carry a live coal under a layer of ash. A fire carrier can keep a coal red hot for 24 hours and allows anyone to light a fire in normal conditions without having to resort to Survival checks, alchemical devices, or magic."
 		]
 	},
-	"fire_giant_hunter's_kit": {
+	"fire_giant_hunters_kit": {
 		"name": "Fire giant hunter's kit",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Fire giant hunter's kit",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 300 gp; **Weight** 25 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -437,7 +437,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Flayleaf",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -491,7 +491,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Flotation device",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -548,7 +548,7 @@
 		],
 		"description": [
 			"## Folding chair",
-			"**Source** [Ultimate Equipment pg. 56](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 56](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 2 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -563,7 +563,7 @@
 		],
 		"description": [
 			"## Folding ladder",
-			"**Source** [Ultimate Equipment pg. 56](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 56](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 2 gp; **Weight** 16 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -594,12 +594,12 @@
 			"This wooden table has jointed legs and a hinge down the middle. When fully extended, it is a 2-foot-by-4-foot table, but collapses down to 2 feet by 2 feet by 2 inches. Setting up the table is a full-round action; collapsing it is 2 full-round actions."
 		]
 	},
-	"fool's_glow": {
+	"fools_glow": {
 		"name": "Fool's glow",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
 		"description": [
 			"## Fool's glow",
-			"**Source** [Pathfinder #106: For Queen and Empire pg. 75](source/pathfinder_#106_for_queen_and_empire)  ",
+			"**Source** [Pathfinder #106: For Queen and Empire pg. 75](source/pathfinder_106_for_queen_and_empire)  ",
 			"**Price** 45 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -629,7 +629,7 @@
 		],
 		"description": [
 			"## Footprint book",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
 			"**Price** 50 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -672,7 +672,7 @@
 			"This kit contains tools useful for building shelters and finding food in a forest. It includes a bear trap, camouflage netting, five fishhooks, a handaxe, 50 feet of hemp rope, and 100 feet of twine."
 		]
 	},
-	"forger's_kit": {
+	"forgers_kit": {
 		"name": "Forger's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -738,7 +738,7 @@
 			"This twist of hard, baked pastry surrounds a slip of paper that contains cryptic advice."
 		]
 	},
-	"fortune-teller's_deck_common": {
+	"fortune-tellers_deck_common": {
 		"name": "Fortune-teller's deck (common)",
 		"sources": [
 			"Ultimate Equipment",
@@ -746,35 +746,35 @@
 		],
 		"description": [
 			"## Fortune-teller's deck",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
 			"**Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)",
 			"",
 			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future-and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the augury spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortuneteller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
 		]
 	},
-	"fortune_teller's_deck_common": {
-		"copyof": "fortune-teller's_deck_common"
+	"fortune_tellers_deck_common": {
+		"copyof": "fortune-tellers_deck_common"
 	},
-	"fortune-teller's_deck_masterwork": {
+	"fortune-tellers_deck_masterwork": {
 		"name": "Fortune-teller's deck (masterwork)",
-		"copyof": "fortune_teller's_deck_common"
+		"copyof": "fortune_tellers_deck_common"
 	},
-	"fortune_teller's_deck_masterwork": {
-		"copyof": "fortune-teller's_deck_masterwork"
+	"fortune_tellers_deck_masterwork": {
+		"copyof": "fortune-tellers_deck_masterwork"
 	},
-	"fortune-teller's_deck_quality": {
+	"fortune-tellers_deck_quality": {
 		"name": "Fortune-teller's deck (quality)",
-		"copyof": "fortune_teller's_deck_common"
+		"copyof": "fortune_tellers_deck_common"
 	},
-	"fortune_teller's_deck_quality": {
-		"copyof": "fortune-teller's_deck_quality"
+	"fortune_tellers_deck_quality": {
+		"copyof": "fortune-tellers_deck_quality"
 	},
 	"founderflame_torch": {
 		"name": "Founderflame torch",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Founderflame torch",
-			"**Source** [Merchant's Manifest pg. 21](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 21](source/merchants_manifest)  ",
 			"**Price** 250 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -793,7 +793,7 @@
 			"These quick and wily carnivores can be difficult to train, but often make excellent familiars. Many humanoid communities see these canines as a menace to their farming fowl, and some use dogs to track them during recreational hunts."
 		]
 	},
-	"fraudulent_medium's_kit": {
+	"fraudulent_mediums_kit": {
 		"name": "Fraudulent medium's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -822,12 +822,12 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
 		]
 	},
-	"frost_giant_hunter's_kit": {
+	"frost_giant_hunters_kit": {
 		"name": "Frost giant hunter's kit",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Frost giant hunter's kit",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 305 gp; **Weight** 35 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -854,7 +854,7 @@
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Frostbite ointment",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_#51_the_hungry_storm)  ",
+			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -889,7 +889,7 @@
 		],
 		"description": [
 			"## Furs",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_#51_the_hungry_storm), [Advanced Player's Guide pg. 185](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm), [Advanced Player's Guide pg. 185](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 12 gp; **Weight** 5 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -963,14 +963,14 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Gambeson",
-			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurers_armory_2)  ",
 			"**Price** 1 gp; **Weight** 4 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"This padded cloth jacket is often worn alone or with mail or plate armor and is favored by hunters, guards, and soldiers. A gambeson fitted with leather loops to more easily attach armor is called an arming doublet. Although sufficient to protect you against casual scrapes, it is not as thick as padded armor."
 		]
 	},
-	"gambler's_kit_cheating": {
+	"gamblers_kit_cheating": {
 		"name": "Gambler's kit (cheating)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -981,9 +981,9 @@
 			"Particularly useful for travelers moving through areas too small or remote to support a full-time place for gambling, this small, tightly packed suitcase holds decks of cards, a betting wheel, numbered cloths, colored wooden chips, and a wide variety of other sorts of specialized equipment necessary for many different games of chance. A cheating gambler's kit is very similar, except its cards are marked and its games are rigged, giving a knowledgeable user a +4 circumstance bonus on Profession (gambler) checks when using these materials. A DC 25 Perception or DC 20 Profession (gambler) check exposes the ruse."
 		]
 	},
-	"gambler's_kit_common": {
+	"gamblers_kit_common": {
 		"name": "Gambler's kit (common)",
-		"copyof": "gambler's_kit_cheating"
+		"copyof": "gamblers_kit_cheating"
 	},
 	"gar": {
 		"name": "Gar",
@@ -1002,7 +1002,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Garlic tablets",
-			"**Source** [Undead Slayer's Handbook pg. 9](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 9](source/undead_slayers_handbook)  ",
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1019,14 +1019,14 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Garlic",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
 			"These pungent white cloves serve as food and medicine and play a role in many traditional cleansing rituals. It is well established that vampires cannot abide the presence of garlic."
 		]
 	},
-	"gaspodar's_signet": {
+	"gaspodars_signet": {
 		"name": "Gaspodar's signet",
 		"sources": [ "Lost Treasures" ],
 		"description": [
@@ -1045,7 +1045,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Gauntlet magnet",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2)  ",
 			"**Price** 75 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1087,19 +1087,19 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Gecko gloves",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
 			"The palms and fingers of these leather gloves are covered in small hairlike bristles, resembling those found on the feet of geckos, that aid you when climbing. Gecko gloves grant you a +1 circumstance bonus on Climb checks. They also enable you to climb with only one hand; doing so imposes a -5 penalty on your Climb checks."
 		]
 	},
-	"ghost_hunter's_kit": {
+	"ghost_hunters_kit": {
 		"name": "Ghost hunter's kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Ghost hunter's kit",
-			"**Source** [Undead Slayer's Handbook pg. 13](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 13](source/undead_slayers_handbook)  ",
 			"**Price** 670 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -1114,7 +1114,7 @@
 		],
 		"description": [
 			"## Ghost ink",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurer's_armory_2), [Seekers of Secrets pg. 43](source/seekers_of_secrets)  ",
+			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2), [Seekers of Secrets pg. 43](source/seekers_of_secrets)  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1211,12 +1211,12 @@
 		"name": "Giant gecko (common)",
 		"copyof": "giant_gecko_combat_trained"
 	},
-	"giant_lair_infiltrator's_kit": {
+	"giant_lair_infiltrators_kit": {
 		"name": "Giant lair infiltrator's kit",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Giant lair infiltrator's kit",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 215 gp; **Weight** 33 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -1391,7 +1391,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Gloomstick",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2)  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1409,7 +1409,7 @@
 		],
 		"description": [
 			"## Glowing ink",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1551,7 +1551,7 @@
 			"This unusual seat is designed so that an orc handler can sit astride a gorthek mount. Large leather straps loop around the beast's chest and neck to hold the seat in place. The saddle includes straps that drape over the orc's shoulders to help her stay mounted during violent collisions."
 		]
 	},
-	"grappler's_grease": {
+	"grapplers_grease": {
 		"name": "Grappler's grease",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -1581,12 +1581,12 @@
 		"name": "Grappling hook (mithral)",
 		"copyof": "grappling_hook_common"
 	},
-	"gravedigger's_kit": {
+	"gravediggers_kit": {
 		"name": "Gravedigger's kit",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Gravedigger's kit",
-			"**Source** [Undead Slayer's Handbook pg. 11](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 11](source/undead_slayers_handbook)  ",
 			"**Price** 265 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -1703,7 +1703,7 @@
 			"This pouch of toiletries includes a comb, scissors, a nail file, a sponge, a hairbrush, a miniature mirror, soap, a chewing stick, and tooth powder."
 		]
 	},
-	"guard's_kit": {
+	"guards_kit": {
 		"name": "Guard's kit",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -1720,7 +1720,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Gum rope",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1730,7 +1730,7 @@
 			"Craft (Alchemy) DC 20"
 		]
 	},
-	"gunslinger's_kit": {
+	"gunslingers_kit": {
 		"name": "Gunslinger's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1742,7 +1742,7 @@
 			"This includes a backpack, a bedroll, a belt pouch, a flint and steel, a gunsmith's kit, an iron pot, a mess kit, a powder horn, rope, torches (10), trail rations (5 days), and a waterskin."
 		]
 	},
-	"gunsmith's_kit": {
+	"gunsmiths_kit": {
 		"name": "Gunsmith's kit",
 		"sources": [
 			"Ultimate Equipment",
@@ -1813,7 +1813,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Hallowed chalice",
-			"**Source** [Adventurer's Armory pg. 24](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 24](source/adventurers_armory)  ",
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -1856,7 +1856,7 @@
 		],
 		"description": [
 			"## Hammock",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp; **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1892,7 +1892,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Hanging board",
-			"**Source** [Adventurer's Armory 2 pg. 14](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 14](source/adventurers_armory_2)  ",
 			"**Price** 75 gp; **Weight** 7 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -1908,7 +1908,7 @@
 		],
 		"description": [
 			"## Harpy musk",
-			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Mythical Monsters Revisited pg. 24](source/mythical_monsters_revisited), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide)  ",
+			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Mythical Monsters Revisited pg. 24](source/mythical_monsters_revisited), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide)  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1941,7 +1941,7 @@
 		],
 		"description": [
 			"## Harrow deck",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 19](source/adventurers_armory), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Entertainment",
 			"",
@@ -1975,7 +1975,7 @@
 		],
 		"description": [
 			"## Hat",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp-50 gp; **Weight** 1/2 lb.-2 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2002,7 +2002,7 @@
 		],
 		"description": [
 			"## Hawk",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 18 gp; **Weight** 2 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2014,14 +2014,14 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Headscarf",
-			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurers_armory_2)  ",
 			"**Price** 1 sp-10 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
 			"Often worn for privacy, religious or cultural reasons, or protection from the elements, full scarves designed to be wrapped around the head are common accessories throughout Golarion. Headscarves of bright colors or ornate embroidery can fetch a substantially higher price."
 		]
 	},
-	"healer's_kit": {
+	"healers_kit": {
 		"name": "Healer's kit",
 		"sources": [
 			"Ultimate Equipment",
@@ -2041,7 +2041,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Heated gloves",
-			"**Source** [Merchant's Manifest pg. 13](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 13](source/merchants_manifest)  ",
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -2073,7 +2073,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Heatstone desalinator",
-			"**Source** [Merchant's Manifest pg. 16](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 16](source/merchants_manifest)  ",
 			"**Price** 10 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2088,7 +2088,7 @@
 		],
 		"description": [
 			"## Heatstone",
-			"**Source** [Merchant's Manifest pg. 16](source/merchant's_manifest), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
+			"**Source** [Merchant's Manifest pg. 16](source/merchants_manifest), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2115,7 +2115,7 @@
 		],
 		"description": [
 			"## Hellknight barding",
-			"**Source** [Adventurer's Guide pg. 96](source/adventurer's_guide), [Path of the Hellknight pg. 63](source/path_of_the_hellknight)  ",
+			"**Source** [Adventurer's Guide pg. 96](source/adventurers_guide), [Path of the Hellknight pg. 63](source/path_of_the_hellknight)  ",
 			"**Price** varies; **Weight** varies  ",
 			"**Category** Animal Gear",
 			"",
@@ -2130,7 +2130,7 @@
 		],
 		"description": [
 			"## Helmet candle",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 2 gp; **Weight** 4 lbs  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2149,7 +2149,7 @@
 			"This high conical headpiece ends in a tip that usually has a piece of silk or similar diaphanous material dangling from it. Women of noble birth sometimes wear a hennin to formal or social occasions as a signal of their eligibility, and give the silk part of the headpiece as a token to suitors they favor."
 		]
 	},
-	"heratic's_fork": {
+	"heratics_fork": {
 		"name": "Heratic's fork",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -2173,12 +2173,12 @@
 			"This collection of genealogical tables, descriptions of common traits found in particular noble families, heraldry, scurrilous rumors, and ancestral deeds provides readers with a great deal of insight into the aristocracy. Consulting this book grants a +2 circumstance bonus on Knowledge (nobility) checks."
 		]
 	},
-	"heroka's_saga_vol_i": {
+	"herokas_saga_vol_i": {
 		"name": "Heroka's Saga, Vol. I",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Heroka's Saga, Vol. I",
-			"**Source** [Dungeoneer's Handbook pg. 15](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 15](source/dungeoneers_handbook)  ",
 			"**Price** 20,000 gp; Accuracy -1  ",
 			"**Category** Dungeon Guides  ",
 			"**Associated Skill** Perform (oratory) (DC 15)",
@@ -2191,8 +2191,8 @@
 			"- Identify poisonous flora (Knowledge [nature] +2)"
 		]
 	},
-	"heroka's_saga_vol_1": {
-		"copyof": "heroka's_saga_vol_i"
+	"herokas_saga_vol_1": {
+		"copyof": "herokas_saga_vol_i"
 	},
 	"hide_dye": {
 		"name": "Hide dye",
@@ -2301,7 +2301,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Hireling, crier",
-			"**Source** [Merchant's Manifest pg. 5](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 5](source/merchants_manifest)  ",
 			"**Price** 10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained); **Weight** - (masterful), - (skilled), - (trained), - (untrained)",
 			"",
 			"A crier can be hired to spread a rumor. An untrained crier usually has a +0 bonus on propaganda checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a +10 bonus on propaganda checks. A masterful crier is rare and usually has a +12 bonus on propaganda checks. If they are available, multiple criers can be hired to spread a single rumor; they attempt a single propaganda check together and gain a +1 bonus for every doubling of their numbers (+1 for two, +2 for four, +3 for eight, +4 for 16, or a maximum of +5 for 32 criers)."
@@ -2383,7 +2383,7 @@
 		],
 		"description": [
 			"## Hollowed pommel",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2407,7 +2407,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Holly",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 0 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -2567,7 +2567,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Holy warrior package",
-			"**Source** [Adventurer's Armory 2 pg. 4](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 4](source/adventurers_armory_2)  ",
 			"**Price** 1000 gp; **Weight** 102 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2673,7 +2673,7 @@
 		],
 		"description": [
 			"## Horse",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900 lbs. (pony, combat trained)",
 			"",
 			"This Large quadruped is used as a mount and pack animal. Horses can be trained for combat but otherwise are skittish around battle. Many cultures support breeding programs and often consider their horse the best at whatever task they breed it to perform.",
@@ -2716,7 +2716,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Horse whip",
-			"**Source** [Merchant's Manifest pg. 24](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 24](source/merchants_manifest)  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Animal Gear",
 			"",
@@ -2744,14 +2744,14 @@
 		],
 		"description": [
 			"## Hot weather outfit",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Advanced Player's Guide pg. 185](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 185](source/advanced_players_guide)  ",
 			"**Price** 8 gp; **Weight** 4 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil. The outfit provides a +2 bonus on Fortitude saves to resist warm or hot weather. This does not stack with any bonuses gained from the Survival skill.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -2765,7 +2765,7 @@
 	"tear_away_hot_weather_outfit": {
 		"copyof": "tear-away_hot_weather_outfit"
 	},
-	"hound's_blood_vial": {
+	"hounds_blood_vial": {
 		"name": "Hound's blood (vial)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -2785,7 +2785,7 @@
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
 		"description": [
 			"## Houndbane dust",
-			"**Source** [Pathfinder #106: For Queen and Empire pg. 75](source/pathfinder_#106_for_queen_and_empire)  ",
+			"**Source** [Pathfinder #106: For Queen and Empire pg. 75](source/pathfinder_106_for_queen_and_empire)  ",
 			"**Price** 75 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2804,7 +2804,7 @@
 		],
 		"description": [
 			"## Hourglass",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Advanced Player's Guide pg. 181](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 181](source/advanced_players_guide)  ",
 			"**Price** 25 gp (1 hour), 20 gp (1 minute), 10 gp (6 seconds); **Weight** 1 lb. (1 hour), 1/2 lb. (1 minute), - (6 seconds)",
 			"",
 			"The standard hourglass takes 1 hour to empty the sand from the upper chamber; smaller ones that mark time more precisely are also readily available, in 1-minute and 6-second sizes. Hourglasses tracking more than an hour are rare."
@@ -2851,7 +2851,7 @@
 			"This wooden platform is tied like a saddle to a Huge creature's back. The platform is 10 feet square and enclosed by a low wall and sometimes a roof. The howdah has room for four Medium creatures (usually armed with bows or longspears), or two Medium creatures and a light ballista or light catapult. Occupants of the howdah have cover against attackers from below and are considered mounted for the purposes of making attacks."
 		]
 	},
-	"hunter's_kit": {
+	"hunters_kit": {
 		"name": "Hunter's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -2863,12 +2863,12 @@
 			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, an iron pot, a mess kit, rope, a spell component pouch, torches (10), trail rations (5 days), a waterskin, and a wooden holy symbol."
 		]
 	},
-	"hunter's_manual": {
+	"hunters_manual": {
 		"name": "Hunter's manual",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Hunter's manual",
-			"**Source** [Monster Hunter's Handbook pg. 26](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 26](source/monster_hunters_handbook)  ",
 			"**Price** 90 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2877,7 +2877,7 @@
 			"If the reader successfully makes such a Knowledge check using the book, she gains a +1 circumstance bonus on her next saving throw against any of that creature's spell-like, supernatural, or extraordinary abilities she identified."
 		]
 	},
-	"hunter's_sight": {
+	"hunters_sight": {
 		"name": "Hunter's sight",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -2889,7 +2889,7 @@
 			"This complicated lens fits over one eye and takes up the eyes slot when in use. When using it in conjunction with a ranged weapon, you reduce any range penalty on your attacks by 2. Objects within 100 feet become difficult to see, however, and you take a -2 penalty on Perception checks based on sight while wearing the hunter's sight."
 		]
 	},
-	"hunter's_stand": {
+	"hunters_stand": {
 		"name": "Hunter's stand",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2913,7 +2913,7 @@
 			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
-	"hypnotist's_locket_locket": {
+	"hypnotists_locket_locket": {
 		"name": "Hypnotist's locket (locket)",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -2926,9 +2926,9 @@
 			"A hypnotist's locket can also come in the form of a pocket watch. It can be worn the same way, still includes a space for a portrait or keepsake, and adds the same bonus for hypnotism, but it also functions as a timepiece."
 		]
 	},
-	"hypnotist's_locket_pocket_watch": {
+	"hypnotists_locket_pocket_watch": {
 		"name": "Hypnotist's locket (pocket watch)",
-		"copyof": "hypnotist's_locket_locket"
+		"copyof": "hypnotists_locket_locket"
 	},
 	"ice_cream": {
 		"name": "Ice cream",
@@ -2969,7 +2969,7 @@
 			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"
 		]
 	},
-	"ifrit's_blood": {
+	"ifrits_blood": {
 		"name": "Ifrit's blood",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -3016,7 +3016,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Imperial conquest",
-			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurers_armory_2)  ",
 			"**Price** 250 gp; **Weight** 4 lbs.  ",
 			"**Category** Entertainment",
 			"",
@@ -3089,7 +3089,7 @@
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Iniquitous panacea",
-			"**Source** [Antihero's Handbook pg. 28](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 28](source/antiheros_handbook)  ",
 			"**Price** 200 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -3103,7 +3103,7 @@
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Ink of stolen secrets",
-			"**Source** [Antihero's Handbook pg. 28](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 28](source/antiheros_handbook)  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3207,7 +3207,7 @@
 	"small_inn_stay_suite": {
 		"copyof": "inn_stay_suite_small"
 	},
-	"inquisitor's_kit": {
+	"inquisitors_kit": {
 		"name": "Inquisitor's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3268,7 +3268,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Instrument of the divine",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
 			"**Price** 200 gp; **Weight** 3 lbs.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -3293,7 +3293,7 @@
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Interrogation tools",
-			"**Source** [Demon Hunter's Handbook pg. 7](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 7](source/demon_hunters_handbook)  ",
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
@@ -3315,7 +3315,7 @@
 			"Craft (Alchemy) DC 15"
 		]
 	},
-	"investigator's_kit": {
+	"investigators_kit": {
 		"name": "Investigator's kit",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3332,7 +3332,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Invisible enemies kit",
-			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurers_armory_2)  ",
 			"**Price** 900 gp; **Weight** 4 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3347,7 +3347,7 @@
 		],
 		"description": [
 			"## Invisible ink",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior); **Weight** - (average), - (good), - (simple), - (superior)",
 			"",
 			"Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with invisible ink only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a full-round action per page of text. A successful Craft (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).",
@@ -3429,7 +3429,7 @@
 		],
 		"description": [
 			"## Iron spike",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 cp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3444,7 +3444,7 @@
 		],
 		"description": [
 			"## Iron vial",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3468,7 +3468,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Jetcaster",
-			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneers_handbook)  ",
 			"**Price** 80 gp; **Weight** 6 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3487,7 +3487,7 @@
 		],
 		"description": [
 			"## Jewelry",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** Varies; **Weight** Varies  ",
 			"**Category** Clothing",
 			"",
@@ -3524,7 +3524,7 @@
 			"This basic clay jug is fitted with a stopper and holds 1 gallon of liquid. The listed weight is for a jug filled with water, wine, or ale; when empty, it weighs about 1/2 pound."
 		]
 	},
-	"juggler's_kit": {
+	"jugglers_kit": {
 		"name": "Juggler's kit",
 		"sources": [
 			"Ultimate Equipment",
@@ -3532,7 +3532,7 @@
 		],
 		"description": [
 			"## Juggler's kit",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 15 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -3588,7 +3588,7 @@
 		],
 		"description": [
 			"## Kaava musk",
-			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Sargava, the Lost Colony pg. 24](source/sargava_the_lost_colony), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 40 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3606,7 +3606,7 @@
 		],
 		"description": [
 			"## Kahve (cup)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 2 cp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -3630,7 +3630,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Karazhica",
-			"**Source** [Merchant's Manifest pg. 27](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 27](source/merchants_manifest)  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Food/Drink",
 			"",
@@ -3661,7 +3661,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Key-wound rattler",
-			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneers_handbook)  ",
 			"**Price** 350 gp; **Weight** 25 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3685,7 +3685,7 @@
 			"This heavy pleated skirt is usually worn by men. Most have a specific design or pattern that represents allegiance to a particular clan or other social group."
 		]
 	},
-	"kineticist's_kit": {
+	"kineticists_kit": {
 		"name": "Kineticist's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -3705,19 +3705,19 @@
 		],
 		"description": [
 			"## Kite",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp-2,000 gp; **Weight** 1 lb.-5 lbs.  ",
 			"**Category** Entertainment",
 			"",
 			"Kites range from canvas toys to ornate, silken works of art."
 		]
 	},
-	"knight's_kit": {
+	"knights_kit": {
 		"name": "Knight's kit",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Knight's kit",
-			"**Source** [Dragonslayer's Handbook pg. 7](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 7](source/dragonslayers_handbook)  ",
 			"**Price** 751 gp; **Weight** 17 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3785,7 +3785,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Lantern honey",
-			"**Source** [Adventurer's Guide pg. 114](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 114](source/adventurers_guide)  ",
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -3826,7 +3826,7 @@
 		"name": "Lawyer (novice)",
 		"copyof": "lawyer_competent"
 	},
-	"leaper's_libation": {
+	"leapers_libation": {
 		"name": "Leaper's libation",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -3849,7 +3849,7 @@
 		],
 		"description": [
 			"## Leeching kit",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
 			"**Price** 5 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -3933,7 +3933,7 @@
 		],
 		"description": [
 			"## Light detector",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3963,7 +3963,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Light kit",
-			"**Source** [Undead Slayer's Handbook pg. 11](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 11](source/undead_slayers_handbook)  ",
 			"**Price** 170 gp; **Weight** 6 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3975,7 +3975,7 @@
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Light of Axtarr",
-			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_masters_handbook)  ",
 			"**Price** 180 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3985,7 +3985,7 @@
 			"Craft (Alchemy) DC 30"
 		]
 	},
-	"light-killer's_grease": {
+	"light-killers_grease": {
 		"name": "Light-killer's grease",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4006,15 +4006,15 @@
 			"Craft (Alchemy) DC 15"
 		]
 	},
-	"light_killer's_grease": {
-		"copyof": "light-killer's_grease"
+	"light_killers_grease": {
+		"copyof": "light-killers_grease"
 	},
-	"linguist's_codex_expanded": {
+	"linguists_codex_expanded": {
 		"name": "Linguist's codex (expanded)",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Linguist's codex",
-			"**Source** [Adventurer's Armory 2 pg. 16](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 16](source/adventurers_armory_2)  ",
 			"**Price** 200 gp (expanded), 50 gp (standard); **Weight** 5 lbs. (expanded), 3 lbs. (standard)",
 			"",
 			"This leather-bound reference tome contains several alphabets used in the various languages of Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms. As long as you speak at least three languages, consulting a standard linguist's codex grants you a +2 circumstance bonus on Linguistics checks when communicating in a language you do not speak.",
@@ -4022,9 +4022,9 @@
 			"An expanded linguist's codex has far more phrases and guidance, including instructions to pronounce the sounds in a correct and pleasing manner. These codices provide a +2 circumstance bonus on Diplomacy checks when communicating in a language you do not speak."
 		]
 	},
-	"linguist's_codex_standard": {
+	"linguists_codex_standard": {
 		"name": "Linguist's codex (standard)",
-		"copyof": "linguist's_codex_expanded"
+		"copyof": "linguists_codex_expanded"
 	},
 	"liniment": {
 		"name": "Liniment",
@@ -4043,7 +4043,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Linnorm mead",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 cp/mug; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -4072,7 +4072,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Liquid breeze",
-			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 29](source/adventurers_armory_2)  ",
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4112,12 +4112,12 @@
 			"Craft (Alchemy) DC 20"
 		]
 	},
-	"liron_treye's_journal": {
+	"liron_treyes_journal": {
 		"name": "Liron Treye's Journal",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Liron Treye's Journal",
-			"**Source** [Dungeoneer's Handbook pg. 15](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 15](source/dungeoneers_handbook)  ",
 			"**Price** 4,600 gp; Accuracy +6  ",
 			"**Category** Dungeon Guides  ",
 			"**Associated Skill** Knowledge (religion) (DC 25)",
@@ -4130,7 +4130,7 @@
 			"- Recite Ustalavic apologue or adage (Diplomacy +2)"
 		]
 	},
-	"lisken's_medicinal_tonic_cup": {
+	"liskens_medicinal_tonic_cup": {
 		"name": "Lisken's medicinal tonic (cup)",
 		"sources": [ "Halflings of Golarion" ],
 		"description": [
@@ -4161,7 +4161,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Litmus strip",
-			"**Source** [Dungeoneer's Handbook pg. 26](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 26](source/dungeoneers_handbook)  ",
 			"**Price** 15 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4176,7 +4176,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Lizard",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 cp (common), 12 gp (Nex gecko); **Weight** 2 oz. (common), 4 oz. (Nex gecko)",
 			"",
 			"These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They eat insects and have the ability to walk up walls and hang upside down. Varieties of more intelligent lizards are often selected by wizards as familiars."
@@ -4195,7 +4195,7 @@
 		],
 		"description": [
 			"## Loaded dice",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Advanced Player's Guide pg. 185](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 185](source/advanced_players_guide)  ",
 			"**Price** 10 gp (average), 50 gp (superior); **Weight** - (average), - (superior)",
 			"",
 			"Most loaded dice are weighted, with a heavier substance included opposite the desired number. You can spot this tampering with a DC 15 Appraise or Perception check. Superior dice (such as wooden dice carved around a naturally heavy point) have DCs ranging from 20 to 30."
@@ -4258,7 +4258,7 @@
 		],
 		"description": [
 			"## Lock of the saved",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
 			"**Price** +50 gp; **Weight** 1 lb.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -4286,7 +4286,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Lodestone boots",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 60 gp; **Weight** 4 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -4346,7 +4346,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Lonoma eel",
-			"**Source** [Merchant's Manifest pg. 6](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 6](source/merchants_manifest)  ",
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -4360,7 +4360,7 @@
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Loping ointment",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**Price** 60 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4375,7 +4375,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Lore seeker package",
-			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurers_armory_2)  ",
 			"**Price** 1000 gp; **Weight** 44 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -4409,7 +4409,7 @@
 	"love_in_idleness": {
 		"copyof": "love-in-idleness"
 	},
-	"lover's_breath": {
+	"lovers_breath": {
 		"name": "Lover's breath",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
@@ -4488,7 +4488,7 @@
 		"name": "Lure (fake coins)",
 		"copyof": "lure_fake_area_map"
 	},
-	"mage's_assistant": {
+	"mages_assistant": {
 		"name": "Mage's assistant",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -4512,7 +4512,7 @@
 		],
 		"description": [
 			"## Magnet",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4549,7 +4549,7 @@
 			"This simple lens allows a closer look at small objects. It is also useful as a substitute for a flint and steel when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a full-round action. A magnifying glass grants a +2 circumstance bonus on Appraise checks involving any item that is small or highly detailed."
 		]
 	},
-	"magus's_kit": {
+	"maguss_kit": {
 		"name": "Magus's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4707,7 +4707,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Mantra wheel",
-			"**Source** [Merchant's Manifest pg. 23](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 23](source/merchants_manifest)  ",
 			"**Price** 450 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4726,7 +4726,7 @@
 			"This sweet liquid comes from tapping, and partially draining, the sap of maple trees during the early spring. The sap is then boiled down into a syrup, though it is sometimes thickened further and then poured over snow to create a taffylike candy, known as snow candy."
 		]
 	},
-	"mapmaker's_kit": {
+	"mapmakers_kit": {
 		"name": "Mapmaker's kit",
 		"sources": [
 			"Ultimate Equipment",
@@ -4735,7 +4735,7 @@
 		],
 		"description": [
 			"## Mapmaker's kit",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_player's_guide), [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_#51_the_hungry_storm)  ",
+			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_players_guide), [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
 			"**Price** 10 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4751,7 +4751,7 @@
 		],
 		"description": [
 			"## Marbles",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4796,7 +4796,7 @@
 		],
 		"description": [
 			"## Marked cards",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Entertainment",
 			"",
@@ -4812,7 +4812,7 @@
 		],
 		"description": [
 			"## Marker dye",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting)  ",
+			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting)  ",
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4842,7 +4842,7 @@
 		],
 		"description": [
 			"## Mask",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp-50 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -5022,7 +5022,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Meditation crystal",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -5045,7 +5045,7 @@
 			"Craft (Alchemy) DC 20"
 		]
 	},
-	"medium's_kit": {
+	"mediums_kit": {
 		"name": "Medium's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -5110,7 +5110,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Mekainae",
-			"**Source** [Merchant's Manifest pg. 6](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 6](source/merchants_manifest)  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Food/Drink",
 			"",
@@ -5186,7 +5186,7 @@
 			"Craft (Alchemy) DC 25"
 		]
 	},
-	"mengkare's_shards": {
+	"mengkares_shards": {
 		"name": "Mengkare's shards",
 		"sources": [ "Lost Treasures" ],
 		"description": [
@@ -5198,7 +5198,7 @@
 			"These crystalline fragments are all that remains of an orb of dragonkind that was destroyed by the great wyrm gold dragon Mengkare at the outset of his grand experiment. The owner of a shard receives a +2 circumstance bonus on Diplomacy checks with citizens of Hermea. The individual shards are nonmagical, but many believe that were they to be reunited into a complete sphere, the item would regain its powers over gold dragons, including Mengkare himself."
 		]
 	},
-	"merchant's_scale": {
+	"merchants_scale": {
 		"name": "Merchant's scale",
 		"sources": [
 			"Ultimate Equipment",
@@ -5213,7 +5213,7 @@
 			"A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on Appraise checks involving items that are valued by weight, including anything made of precious metals."
 		]
 	},
-	"merfolk's_comb": {
+	"merfolks_comb": {
 		"name": "Merfolk's Comb",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -5229,7 +5229,7 @@
 			"This vibrant yellow and pale-green variety of seaweed has wide fronds with lines of narrow fringe along the upper edge."
 		]
 	},
-	"mesmerist's_kit": {
+	"mesmerists_kit": {
 		"name": "Mesmerist's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -5273,14 +5273,14 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Metal glove",
-			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneers_handbook)  ",
 			"**Price** 120 gp; **Weight** 10 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints, and the position of its fingers and wrist must be adjusted and locked into place before the wielder can properly slip it over her arm. When wearing a metal glove, it is impossible to manipulate one's digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's cage. Any trap or creature attempting to damage an arm wearing a metal glove must break through the glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as normal. A metal glove has hardness 10 and 15 hit points, and can withstand 2,000 pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of her body."
 		]
 	},
-	"midwife's_kit": {
+	"midwifes_kit": {
 		"name": "Midwife's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -5347,7 +5347,7 @@
 			"The scent of this light brown incense carries a distinct tang of peppermint oil. Once the incense is lit in a censer or appropriate container, its smoke permeates a 20-foot-by-20-foot area to a height of 10 feet. Living creatures within the area that breathe the incense fumes for more than 1 minute gain a +1 morale bonus on saves against pain effects, while taking a -1 penalty on saves against mind-affecting effects. This effect lasts for as long as the creature remains within the area of the incense, and for an additional minute after leaving. The incense burns for 1 hour before dissipating, unless dispersed before then by wind."
 		]
 	},
-	"miner's_bird": {
+	"miners_bird": {
 		"name": "Miner's bird",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
@@ -5359,7 +5359,7 @@
 			"A miner's bird is a Diminutive, semi-trained animal (typically a canary or other delicate songbird) in a portable cage. The enclosure is most often made of wood or metal. The bird within has 1 hit point, a Constitution score of 3, and a Fortitude save bonus of -2 (otherwise, its statistics are identical to a thrush). When the bird fails its first saving throw against a poison-based effect, it emits a loud chirping, audible within 60 feet."
 		]
 	},
-	"miner's_lantern": {
+	"miners_lantern": {
 		"name": "Miner's lantern",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -5371,7 +5371,7 @@
 			"A smaller version of the bullseye lantern, a miner's lantern provides normal light in a 30-foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of oil. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand."
 		]
 	},
-	"miner's_pick": {
+	"miners_pick": {
 		"name": "Miner's pick",
 		"sources": [
 			"Ultimate Equipment",
@@ -5391,7 +5391,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Minkaian ceremonial tea",
-			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurers_armory_2)  ",
 			"**Price** 900 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5421,7 +5421,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Mirror ball",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2)  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5443,7 +5443,7 @@
 			"This hand-held mirror is about a foot across. Unlike many higher-quality glass mirrors, this one is made out of polished steel and sturdy enough that you can drop it without risk of breakage."
 		]
 	},
-	"mishan's_melodious_feather": {
+	"mishans_melodious_feather": {
 		"name": "Mishan's melodious feather",
 		"sources": [ "Lost Treasures" ],
 		"description": [
@@ -5462,7 +5462,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Mistletoe",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** -; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -5474,7 +5474,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Mithral chain (10 ft.)",
-			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 25](source/giant_hunters_handbook)  ",
 			"**Price** 530 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5489,7 +5489,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Mithral horseshoes",
-			"**Source** [Adventurer's Guide pg. 14](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 14](source/adventurers_guide)  ",
 			"**Price** 550 gp; **Weight** 4 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -5513,7 +5513,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Mithral manacles",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1,000 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5599,7 +5599,7 @@
 			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
-	"monk's_kit": {
+	"monks_kit": {
 		"name": "Monk's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -5611,7 +5611,7 @@
 			"This kit includes a backpack, a belt pouch, a blanket, rope, soap, torches (10), trail rations (5 days), and a waterskin."
 		]
 	},
-	"monk's_outfit": {
+	"monks_outfit": {
 		"name": "Monk's outfit",
 		"sources": [
 			"Ultimate Equipment",
@@ -5627,26 +5627,26 @@
 			"This simple outfit includes sandals, loose breeches, and a loose shirt, and is bound together with sashes. The outfit is designed to give you maximum mobility, and it's made of high-quality fabric. You can conceal small weapons in pockets hidden in the folds, and the sashes are strong enough to serve as short ropes.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
 			"Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price."
 		]
 	},
-	"tear-away_monk's_outfit": {
+	"tear-away_monks_outfit": {
 		"name": "Tear-away monk's outfit",
-		"copyof": "monk's_outfit"
+		"copyof": "monks_outfit"
 	},
-	"tear_away_monk's_outfit": {
-		"copyof": "tear-away_monk's_outfit"
+	"tear_away_monks_outfit": {
+		"copyof": "tear-away_monks_outfit"
 	},
 	"monkey_statue": {
 		"name": "Monkey statue",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Monkey statue",
-			"**Source** [Merchant's Manifest pg. 23](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 23](source/merchants_manifest)  ",
 			"**Price** 150 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5661,7 +5661,7 @@
 		],
 		"description": [
 			"## Monkey",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 3 gp; **Weight** 5 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5685,7 +5685,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Monster bait",
-			"**Source** [Monster Hunter's Handbook pg. 26](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 26](source/monster_hunters_handbook)  ",
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5703,19 +5703,19 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Monster dummy",
-			"**Source** [Monster Hunter's Handbook pg. 26](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 26](source/monster_hunters_handbook)  ",
 			"**Price** 10 gp; **Weight** 40 lbs.  ",
 			"**Category** Tools",
 			"",
 			"This is a straw-stuffed wire frame of a monstrous creature, wrapped in burlap and coated in the musk of that particular creature. When using the Handle Animal skill to teach the attack trick, having a monster dummy present allows the trainer to add whatever creature type the dummy represents to the list of creatures the animal will attack. The dummy also provides a +2 bonus on Handle Animal checks to teach animals to attack all kinds of creatures."
 		]
 	},
-	"monster_hunter's_kit_abberation": {
+	"monster_hunters_kit_abberation": {
 		"name": "Monster hunter's kit (abberation)",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Monster hunter's kit",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
 			"**Price** 257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular); **Weight** 15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)",
 			"",
 			"This kit includes a bear trap, a footprint book, a scent cloak, and monster bait and an odor stalk keyed to a specific creature type. The kit also contains the following additional items if designed to hunt the following creature types.",
@@ -5727,17 +5727,17 @@
 			"Ooze: The kit contains two alkali flasks (+30 gp)."
 		]
 	},
-	"monster_hunter's_kit_fey": {
+	"monster_hunters_kit_fey": {
 		"name": "Monster hunter's kit (fey)",
-		"copyof": "monster_hunter's_kit_abberation"
+		"copyof": "monster_hunters_kit_abberation"
 	},
-	"monster_hunter's_kit_ooze": {
+	"monster_hunters_kit_ooze": {
 		"name": "Monster hunter's kit (ooze)",
-		"copyof": "monster_hunter's_kit_abberation"
+		"copyof": "monster_hunters_kit_abberation"
 	},
-	"monster_hunter's_kit_regular": {
+	"monster_hunters_kit_regular": {
 		"name": "Monster hunter's kit (regular)",
-		"copyof": "monster_hunter's_kit_abberation"
+		"copyof": "monster_hunters_kit_abberation"
 	},
 	"monster_mask": {
 		"name": "Monster mask",
@@ -5841,7 +5841,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Mwangi coffee",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 3 cp/cup; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -5853,7 +5853,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Mystic guide package",
-			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurers_armory_2)  ",
 			"**Price** 1000 gp; **Weight** 67 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5902,7 +5902,7 @@
 		],
 		"description": [
 			"## Nautical chart",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurer's_armory_2), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea)  ",
+			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea)  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5926,7 +5926,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Necrobane formaldehyde",
-			"**Source** [Undead Slayer's Handbook pg. 11](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 11](source/undead_slayers_handbook)  ",
 			"**Price** 60 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5947,7 +5947,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Necrosalt",
-			"**Source** [Undead Slayer's Handbook pg. 15](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 15](source/undead_slayers_handbook)  ",
 			"**Price** 150 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5998,7 +5998,7 @@
 			"**Effect** net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)"
 		]
 	},
-	"nethys's_dagger": {
+	"nethyss_dagger": {
 		"name": "Nethys's dagger",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
@@ -6012,7 +6012,7 @@
 			"Found most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers. The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher. When processed into a powder with a successful DC 15 Craft (alchemy) check, Nethys's dagger can be used as an additional material component when casting spells, granting the user a +1 alchemical bonus on caster level checks to overcome spell resistance."
 		]
 	},
-	"night_stalker's_tonic": {
+	"night_stalkers_tonic": {
 		"name": "Night stalker's tonic",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -6032,7 +6032,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Night tea",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 sp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -6075,7 +6075,7 @@
 			"Craft (Alchemy) DC 25"
 		]
 	},
-	"noble's_outfit": {
+	"nobles_outfit": {
 		"name": "Noble's outfit",
 		"sources": [
 			"Ultimate Equipment",
@@ -6091,26 +6091,26 @@
 			"These clothes are designed specifically to be expensive and gaudy, letting everyone know exactly how expensive they are. Precious metals and gems are worked into the clothing, along with elaborate embroidery, and some outfits may contain impractical concessions to high fashion. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this outfit.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
 			"Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price."
 		]
 	},
-	"tear-away_noble's_outfit": {
+	"tear-away_nobles_outfit": {
 		"name": "Tear-away noble's outfit",
-		"copyof": "noble's_outfit"
+		"copyof": "nobles_outfit"
 	},
-	"tear_away_noble's_outfit": {
-		"copyof": "tear-away_noble's_outfit"
+	"tear_away_nobles_outfit": {
+		"copyof": "tear-away_nobles_outfit"
 	},
 	"nostalgia_oil": {
 		"name": "Nostalgia oil",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Nostalgia oil",
-			"**Source** [Adventurer's Guide pg. 147](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 147](source/adventurers_guide)  ",
 			"**Price** 80 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -6139,7 +6139,7 @@
 		],
 		"description": [
 			"## Nushadir",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6178,7 +6178,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Observations of Oagon",
-			"**Source** [Dungeoneer's Handbook pg. 15](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 15](source/dungeoneers_handbook)  ",
 			"**Price** 3,500 gp; Accuracy +5  ",
 			"**Category** Dungeon Guides  ",
 			"**Associated Skill** Knowledge (geography) (DC 25)",
@@ -6215,7 +6215,7 @@
 			"These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on Knowledge checks related to the occult topic covered by that manual. Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects-such as spirits as a whole-provide an overview but don't give enough detail to grant a skill bonus."
 		]
 	},
-	"occultist's_implement": {
+	"occultists_implement": {
 		"name": "Occultist's implement",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -6227,7 +6227,7 @@
 			"This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an occultist, who can use it as an implement. Any such item is nonmagical, even if it appears to be a rod or wand. Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and harrow decks) use their normal item entries instead of this catchall."
 		]
 	},
-	"occultist's_kit": {
+	"occultists_kit": {
 		"name": "Occultist's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -6256,7 +6256,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Odor stalk",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
 			"**Price** 70 gp; **Weight** 1/10 lbs  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6309,7 +6309,7 @@
 		],
 		"description": [
 			"## Oldlaw whiskey (bottle)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -6370,7 +6370,7 @@
 		"name": "Oozing vat (small)",
 		"copyof": "oozing_vat_gargantuan"
 	},
-	"oracle's_kit": {
+	"oracles_kit": {
 		"name": "Oracle's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -6480,7 +6480,7 @@
 			"These playful water mammals are either used as familiars or trained to perform tricks as pets. They are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening the shells of mollusks."
 		]
 	},
-	"out-of-towner's_kit": {
+	"out-of-towners_kit": {
 		"name": "Out-of-towner's kit",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
@@ -6492,15 +6492,15 @@
 			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a [city map](equipment-misc/city_map), and [fashionable accessories](equipment-misc/fashionable_accessories)."
 		]
 	},
-	"out_of_towner's_kit": {
-		"copyof": "out-of-towner's_kit"
+	"out_of_towners_kit": {
+		"copyof": "out-of-towners_kit"
 	},
 	"owl_verduran": {
 		"name": "Owl (verduran)",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Owl",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 20 gp (common), 20 gp (Verduran); **Weight** 1-3 lbs. (common), 3 lbs. (Verduran)",
 			"",
 			"These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. Owls eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent familiars."
@@ -6527,7 +6527,7 @@
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Pack animal (musk ox)",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_#51_the_hungry_storm)  ",
+			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
 			"**Price** 24 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -6539,7 +6539,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Pack Animal",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak); **Weight** 600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)",
 			"",
 			"Working animals are universal, but the animal type varies according to local availability. Elephants carry goods in much of the Mwangi Expanse. Yaks pull loads in mountainous regions. In many other parts of the Inner Sea, donkeys, mules, and oxen pull carts or plows. The donkey market in Katapesh is particularly brisk."
@@ -6586,7 +6586,7 @@
 			"Pain wheels are used by orc marauders to blight the lands of their foes and despoil the earth for generations to come. When you whirl this cruel weapon above your head as a standard action, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be sickened by pain for 1d6 rounds. Creatures affected by bleed effects take a -5 penalty on their saves. A successful DC 11 Heal check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a move action) before it can be used. You can also load a dose of itching powder or another alchemical powder normally used as a splash weapons into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder."
 		]
 	},
-	"paladin's_kit": {
+	"paladins_kit": {
 		"name": "Paladin's kit",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -6630,7 +6630,7 @@
 		],
 		"description": [
 			"## Pantograph",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurer's_armory_2), [Seekers of Secrets pg. 42](source/seekers_of_secrets)  ",
+			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2), [Seekers of Secrets pg. 42](source/seekers_of_secrets)  ",
 			"**Price** 50 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6647,7 +6647,7 @@
 		],
 		"description": [
 			"## Paper (sheet)",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook), [Advanced Player's Guide pg. 181](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook), [Advanced Player's Guide pg. 181](source/advanced_players_guide)  ",
 			"**Price** 4 sp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6761,7 +6761,7 @@
 		],
 		"description": [
 			"## Pathfinder Chronicle",
-			"**Source** [Adventurer's Guide pg. 147](source/adventurer's_guide), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
+			"**Source** [Adventurer's Guide pg. 147](source/adventurers_guide), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6901,7 +6901,7 @@
 	"pathfinder_chronicles_volume_forty_four": {
 		"copyof": "pathfinder_chronicles_-_volume_44"
 	},
-	"pathfinder's_kit": {
+	"pathfinders_kit": {
 		"name": "Pathfinder's kit",
 		"sources": [
 			"Pathfinder Society Primer",
@@ -6932,7 +6932,7 @@
 			"Craft (Alchemy) DC 25"
 		]
 	},
-	"peasant's_outfit": {
+	"peasants_outfit": {
 		"name": "Peasant's outfit",
 		"sources": [
 			"Ultimate Equipment",
@@ -6948,19 +6948,19 @@
 			"These clothes are of poor quality, the fabric little more than sack cloth, often patched and mended many times over. A peasant's outfit consists of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes, causing significantly more wear on the feet.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
 			"Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price."
 		]
 	},
-	"tear-away_peasant's_outfit": {
+	"tear-away_peasants_outfit": {
 		"name": "Tear-away peasant's outfit",
-		"copyof": "peasant's_outfit"
+		"copyof": "peasants_outfit"
 	},
-	"tear_away_peasant's_outfit": {
-		"copyof": "tear-away_peasant's_outfit"
+	"tear_away_peasants_outfit": {
+		"copyof": "tear-away_peasants_outfit"
 	},
 	"peg_leg": {
 		"name": "Peg leg",
@@ -6991,7 +6991,7 @@
 	"underwater_pen": {
 		"copyof": "pen_underwater"
 	},
-	"performer's_token": {
+	"performers_token": {
 		"name": "Performer's token",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -7012,7 +7012,7 @@
 		],
 		"description": [
 			"## Perfume/Cologne",
-			"**Source** [Inner Sea World Guide pg. 293](source/inner_sea_world_guide), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_player's_guide)  ",
+			"**Source** [Inner Sea World Guide pg. 293](source/inner_sea_world_guide), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_players_guide)  ",
 			"**Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare); **Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)",
 			"",
 			"Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent)."
@@ -7042,7 +7042,7 @@
 		],
 		"description": [
 			"## Perfume/cologne",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7063,7 +7063,7 @@
 		],
 		"description": [
 			"## Periscope",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 181](source/advanced_players_guide)  ",
 			"**Price** 20 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7078,7 +7078,7 @@
 		],
 		"description": [
 			"## Pesh",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -7099,7 +7099,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Petrified ooze",
-			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneers_handbook)  ",
 			"**Price** 80 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -7114,7 +7114,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Phantom ash",
-			"**Source** [Adventurer's Guide pg. 168](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 168](source/adventurers_guide)  ",
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -7126,7 +7126,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Phosphorescent gel",
-			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneers_handbook)  ",
 			"**Price** 45 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -7136,7 +7136,7 @@
 			"Craft (Alchemy) DC 20"
 		]
 	},
-	"phrenologist's_kit": {
+	"phrenologists_kit": {
 		"name": "Phrenologist's kit",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -7153,7 +7153,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Pickle extractor",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 2 cp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7175,7 +7175,7 @@
 	"pickles_goblin_one_jar": {
 		"copyof": "pickles_goblin_1_jar"
 	},
-	"pickpocket's_outfit": {
+	"pickpockets_outfit": {
 		"name": "Pickpocket's outfit",
 		"sources": [
 			"Ultimate Equipment",
@@ -7183,26 +7183,26 @@
 		],
 		"description": [
 			"## Pickpocket's outfit",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 gp; **Weight** 3 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on your person.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
 			"Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a standard action) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price."
 		]
 	},
-	"tear-away_pickpocket's_outfit": {
+	"tear-away_pickpockets_outfit": {
 		"name": "Tear-away pickpocket's outfit",
-		"copyof": "pickpocket's_outfit"
+		"copyof": "pickpockets_outfit"
 	},
-	"tear_away_pickpocket's_outfit": {
-		"copyof": "tear-away_pickpocket's_outfit"
+	"tear_away_pickpockets_outfit": {
+		"copyof": "tear-away_pickpockets_outfit"
 	},
 	"piecemeal_weapon": {
 		"name": "Piecemeal weapon",

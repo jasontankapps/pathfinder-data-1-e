@@ -116,7 +116,7 @@
 		"description": [
 			"## Beacon Retriever",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 75](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 75](source/pathfinder_135_runeplague)  ",
 			"**School** conjuration (calling) [chaotic, evil]; **Level** 8  ",
 			"**Casting Time** 8 hours  ",
 			"**Components** V, S, M (rare incenses and expensive phosphorescent inks used to scribe a conjuring diagram, collectively worth 25,000 gp, or the sacrifice of a sapient good-aligned creature of CR 15 or higher), SC (up to the Charisma modifier of the primary caster)  ",
@@ -196,7 +196,7 @@
 		"description": [
 			"## Breath of Forgotten Life",
 			"",
-			"**Source** [Disciple's Doctrine pg. 31](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 31](source/disciples_doctrine)  ",
 			"**School** divination [mind-affecting]; **Level** 6  ",
 			"**Casting Time** 60 minutes  ",
 			"**Components** V, S, M (a token of a past life), F (an elegant mirror), SC (up to 8)  ",
@@ -327,7 +327,7 @@
 		"description": [
 			"## Craft Sinspawn",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 75](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 75](source/pathfinder_135_runeplague)  ",
 			"**School** transmutation; **Level** 9  ",
 			"**Casting Time** 90 minutes  ",
 			"**Components** V, S, M (water mixed with diamond dust worth 5,000 gp; several freshly slain humanoids), F (a gem worth at least 20,000 gp containing the soul of an appropriately sinful creature), SC (at least 6, up to 20)  ",
@@ -354,7 +354,7 @@
 			"**Source** [Inner Sea Temples pg. 53](source/inner_sea_temples)  ",
 			"**School** transmutation; **Level** 8  ",
 			"**Casting Time** 80 minutes  ",
-			"**Components** V, M (a flask of blessed sunflower seed oil worth 100 gp for each caster and a [potion of cat's grace](spell/cat's_grace)), F (a masterwork scimitar made from rose gold worth 5,000 gp), SC (at least 1, up to the Charisma modifier of the primary caster)  ",
+			"**Components** V, M (a flask of blessed sunflower seed oil worth 100 gp for each caster and a [potion of cat's grace](spell/cats_grace)), F (a masterwork scimitar made from rose gold worth 5,000 gp), SC (at least 1, up to the Charisma modifier of the primary caster)  ",
 			"**Skill Checks** Acrobatics DC 30, 3 successes; Knowledge (religion) DC 30, 2 successes; Perform (dance) DC 30, 3 successes  ",
 			"**Range** touch  ",
 			"**Target** primary and secondary casters  ",
@@ -365,7 +365,7 @@
 			"",
 			"### Effect",
 			"",
-			"This ritual must be cast at dawn beneath the open sky on the Material Plane. The ritual must be performed at a site of Sarenite worship (such as a dervish house, shrine, or temple of Sarenrae) that has hosted active worship services for at least 52 consecutive weeks. The primary caster holds aloft the rose-gold scimitar, and the secondary casters stand around him and begin spinning in place. The primary caster recites 23 verses from Sarenrae's holy text, The Birth of Light and Truth, taking a sip from the [potion of cat's grace](spell/cat's_grace) between each stanza. After the last verse is completed, the secondary casters whirl around the primary caster, each anointing the rose-gold scimitar with blessed sunflower seed oil. Upon the successful completion of the ritual, all the casters are filled with the spirits of dervish heroes, becoming faster, stronger, tougher, and more skilled in combat. Each caster gains a +4 enhancement bonus to Strength, Dexterity, and Constitution; a +2 dodge bonus to AC; and a +2 sacred bonus on all saving throws. The caster's base attack bonus is equal his character level (which may give the caster multiple attacks). If the caster's base attack bonus is already equal to his character level, he gains one additional attack at his highest base attack bonus when making a full-attack action. In addition, any scimitar wielded by a caster is treated as if it has the keen weapon special ability. In exchange, each caster temporarily loses his ability to cast spells, save for those from the conjuration (healing) school.",
+			"This ritual must be cast at dawn beneath the open sky on the Material Plane. The ritual must be performed at a site of Sarenite worship (such as a dervish house, shrine, or temple of Sarenrae) that has hosted active worship services for at least 52 consecutive weeks. The primary caster holds aloft the rose-gold scimitar, and the secondary casters stand around him and begin spinning in place. The primary caster recites 23 verses from Sarenrae's holy text, The Birth of Light and Truth, taking a sip from the [potion of cat's grace](spell/cats_grace) between each stanza. After the last verse is completed, the secondary casters whirl around the primary caster, each anointing the rose-gold scimitar with blessed sunflower seed oil. Upon the successful completion of the ritual, all the casters are filled with the spirits of dervish heroes, becoming faster, stronger, tougher, and more skilled in combat. Each caster gains a +4 enhancement bonus to Strength, Dexterity, and Constitution; a +2 dodge bonus to AC; and a +2 sacred bonus on all saving throws. The caster's base attack bonus is equal his character level (which may give the caster multiple attacks). If the caster's base attack bonus is already equal to his character level, he gains one additional attack at his highest base attack bonus when making a full-attack action. In addition, any scimitar wielded by a caster is treated as if it has the keen weapon special ability. In exchange, each caster temporarily loses his ability to cast spells, save for those from the conjuration (healing) school.",
 			"",
 			"Finally, once during the duration of the ritual, each caster can activate a whirling dance on the battlefield as a standard action. While dancing, the caster gains the effects of a [displacement](spell/displacement) spell and can use the [Spring Attack](feat/spring_attack) and [Whirlwind Attack](feat/whirlwind_attack) feats as if he possessed them without meeting their prerequisites. This dance is a supernatural effect and lasts a number of rounds equal to the primary caster's character level.",
 			"",
@@ -427,7 +427,7 @@
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
-	"egoist's_militia": {
+	"egoists_militia": {
 		"name": "Egoist's Militia",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -850,7 +850,7 @@
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
-	"hag's_eye_brew": {
+	"hags_eye_brew": {
 		"name": "Hag's Eye Brew",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
@@ -978,7 +978,7 @@
 		"description": [
 			"## Inhabit Rune Giant",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 76](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 76](source/pathfinder_135_runeplague)  ",
 			"**School** necromancy; **Level** 6  ",
 			"**Casting Time** 60 minutes  ",
 			"**Components** V, S, SC (up to the Intelligence modifier of the primary caster)  ",
@@ -1025,7 +1025,7 @@
 		"description": [
 			"## Invert Giant",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 77](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 77](source/pathfinder_135_runeplague)  ",
 			"**School** transmutation; **Level** 5  ",
 			"**Casting Time** 50 minutes  ",
 			"**Components** V, S, SC (up to the Intelligence modifier of the primary caster)  ",
@@ -1049,7 +1049,7 @@
 		"description": [
 			"## Invisible Aegis",
 			"",
-			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 52](source/pathfinder_#140_eulogy_for_roslar's_coffer)  ",
+			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 52](source/pathfinder_140_eulogy_for_roslars_coffer)  ",
 			"**School** abjuration; **Level** 4  ",
 			"**Casting Time** 40 minutes  ",
 			"**Components** V, M (a clear glass marble), F (an iron key)  ",
@@ -1306,7 +1306,7 @@
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
-	"peacock_spirit's_tranquil_roar": {
+	"peacock_spirits_tranquil_roar": {
 		"name": "Peacock Spirit's Tranquil Roar",
 		"sources": [ "Occult Origins" ],
 		"description": [
@@ -1489,7 +1489,7 @@
 		"description": [
 			"## Runelord Manifestation",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 77](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 77](source/pathfinder_135_runeplague)  ",
 			"**School** divination (scrying); **Level** 8  ",
 			"**Casting Time** 80 minutes  ",
 			"**Components** V, S, M (a pool of water), F (a silver mirror worth 5,000 gp), SC (up to 8)  ",
@@ -1683,13 +1683,13 @@
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
-	"song_of_the_kami's_gift": {
+	"song_of_the_kamis_gift": {
 		"name": "Song of the Kami's Gift",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Song of the Kami's Gift",
 			"",
-			"**Source** [Disciple's Doctrine pg. 32](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 32](source/disciples_doctrine)  ",
 			"**School** conjuration (summoning); **Level** 5  ",
 			"**Casting Time** 50 minutes  ",
 			"**Components** V, S, M (an offering of food, artwork, or clothing valued at 100 gp), F (a handcrafted shrine worth 500 gp), SC (up to 20)  ",
@@ -1775,7 +1775,7 @@
 		"description": [
 			"## The Viridian Transcendence",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 78](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 78](source/pathfinder_135_runeplague)  ",
 			"**School** conjuration (teleportation); **Level** 8  ",
 			"**Casting Time** 80 minutes  ",
 			"**Components** V, S, M (a gemstone lens worth at least 10,000 gp), SC (up to 8)  ",
@@ -1877,7 +1877,7 @@
 		"description": [
 			"## Untangle Ley Lines",
 			"",
-			"**Source** [Pathfinder #142: Gardens of Gallowspire pg. 75](source/pathfinder_#142_gardens_of_gallowspire)  ",
+			"**Source** [Pathfinder #142: Gardens of Gallowspire pg. 75](source/pathfinder_142_gardens_of_gallowspire)  ",
 			"**School** transmutation; **Level** 9  ",
 			"**Casting Time** 9 hours  ",
 			"**Components** V, S, M (incense ground from First World plants), SC (up to 8)  ",
@@ -2078,7 +2078,7 @@
 		"description": [
 			"## Wrest Resources",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 79](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 79](source/pathfinder_135_runeplague)  ",
 			"**School** conjuration (teleportation); **Level** 7  ",
 			"**Casting Time** 60 minutes  ",
 			"**Components** V, S, M (an amount of a single natural mineral, metal, or gemstone worth 500 gp), F (an adamantine spade worth 5,000 gp), SC (up to 20)  ",

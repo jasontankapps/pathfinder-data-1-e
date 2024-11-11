@@ -31,7 +31,7 @@
 		"description": [
 			"## Brazen Disciple",
 			"",
-			"**Source** [Adventurer's Guide pg. 104](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 104](source/adventurers_guide)  ",
 			"Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an efreeti. Those who succeed often become monks known as the brazen disciples.",
 			"",
 			"Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the [Houses of Perfection](rule/aff_monasteries), some become enamored with the efreet and instead seek out genie masters.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Disciple of Wholeness",
 			"",
-			"**Source** [Healer's Handbook pg. 4](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 4](source/healers_handbook)  ",
 			"Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 			"",
 			"**Healing Ki (Su):** At 4th level, a disciple of wholeness can touch a creature as a swift action and spend 1 point from her ki pool to restore a number of hit points equal to 1d4 + 1/2 her monk level to that creature. If she has the wholeness of body ki power, she can spend 2 points to restore a number of hit points equal to 1d8 + her monk level to a touched creature. She does not gain the ability to spend ki to gain an extra attack during a flurry of blows.",
@@ -93,7 +93,7 @@
 		"description": [
 			"## Elemental Monk",
 			"",
-			"**Source** [Disciple's Doctrine pg. 4](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 4](source/disciples_doctrine)  ",
 			"Elemental monks draw inspiration from genies to create their fighting style. Their adaptability and versatility make them capable of serving as emissaries of elemental balance.",
 			"",
 			"**Alignment:** An elemental monk must be true neutral.",
@@ -414,7 +414,7 @@
 		"description": [
 			"## Soul Shepherd",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 65](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 65](source/pathfinder_139_the_dead_road)  ",
 			"Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and methods, soul shepherds believe in safeguarding the Cycle of Souls.",
 			"",
 			"**Calming Strike (Su):** As an immediate action after hitting an incorporeal undead creature with an unarmed strike, a soul shepherd can attempt to calm the creature, encouraging it to move peacefully to the next stage of its metaphysical journey. The target must succeed at a Will save (DC = 10 + half soul shepherd's level + the soul shepherd's Wisdom modifier) or be calmed, as [calm spirit](spell/calm_spirit), for 1 minute.",
@@ -442,7 +442,7 @@
 		"description": [
 			"## Windstep Master",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_masters_handbook)  ",
 			"Most monks are agile and fleet of foot, but few can rival a windstep master's lightness of step. Windstep masters train in mountaintop monasteries and other holy houses dedicated to the wind, such as the Monastery of Unfolding Wind in Niswan.",
 			"",
 			"**Hurricane Punch (Ex):** At 1st level, a windstep master gains [Hurricane Punch](feat/hurricane_punch) as a bonus feat, even if he does not meet the prerequisites. While using this feat, he doesn't provoke an attack of opportunity, even if he doesn't have the [Improved Bull Rush](feat/improved_bull_rush) feat.",

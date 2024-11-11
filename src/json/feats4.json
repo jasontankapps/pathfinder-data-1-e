@@ -5,7 +5,7 @@
 		"description": [
 			"## Fortuitous Vigor (Combat)",
 			"",
-			"**Source** [Healer's Handbook pg. 14](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 14](source/healers_handbook)",
 			"",
 			"Your determination and enthusiasm help you shake off the most grievous wounds and soldier on against your enemies.  ",
 			"**Prerequisites:** Con 13, [Combat Vigor](feat/combat_vigor), character level 4th.  ",
@@ -73,7 +73,7 @@
 		"description": [
 			"## Forward from Beneath (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 78](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 78](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You have vowed to infiltrate your wicked kin and redeem your family's reputation.  ",
 			"**Prerequisites:** Be a member of House Kastner, be a good-aligned member of a family or organization whose secret evil has been publicly revealed, or have the Dishonored Family or Betrayal backgrounds.  ",
@@ -288,7 +288,7 @@
 		"description": [
 			"## Frost Warrior (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"The frigid cold of your body makes your melee attacks more formidable.  ",
 			"**Prerequisites:** Cold subtype, giant subtype.  ",
@@ -331,7 +331,7 @@
 		"description": [
 			"## Furious Focus (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +1.  ",
@@ -377,7 +377,7 @@
 			"**Benefit:** While raging, you gain a +4 competence bonus on saving throws made against spells and effects with the good descriptor."
 		]
 	},
-	"fury's_fall": {
+	"furys_fall": {
 		"name": "Fury's Fall",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
@@ -390,7 +390,7 @@
 			"**Benefit:** When making a trip attack, add your Dexterity bonus to your CMB."
 		]
 	},
-	"fury's_snare": {
+	"furys_snare": {
 		"name": "Fury's Snare",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
@@ -425,7 +425,7 @@
 		"description": [
 			"## Gang Up (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"You are adept at using greater numbers against foes.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise).  ",
@@ -438,13 +438,13 @@
 			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend 5 stamina points, you can gain the feat's benefits when you and one other ally are threatening an opponent (instead of two other allies)."
 		]
 	},
-	"garen's_discipline": {
+	"garens_discipline": {
 		"name": "Garen's Discipline",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Garen's Discipline (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 26](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 26](source/adventurers_guide)",
 			"",
 			"You've learned to defend yourself against spell and storm with dazzling flourishes of your weapon.  ",
 			"**Prerequisites:** [Alertness](feat/alertness), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +4.  ",
@@ -540,7 +540,7 @@
 		"description": [
 			"## Ghost Hunting Team",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hoppers_handbook)",
 			"",
 			"Your loathing of undead is so great that even your allies can feel it.  ",
 			"**Prerequisites:** Duskwalker, ghost hunter racial trait.  ",
@@ -627,7 +627,7 @@
 		"description": [
 			"## Giant Vendetta (Story)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 13](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 13](source/giant_hunters_handbook)",
 			"",
 			"Your life has been shaped by an encounter with giants.  ",
 			"**Prerequisites:** You must have been knocked unconscious in an encounter with a challenging giant foe or have a regional background trait tied to giants (such as those presented in this section).  ",
@@ -642,7 +642,7 @@
 		"description": [
 			"## Giant-Bane Caster",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"You can apply your specialized knowledge of giants' weaknesses in order to make your spells harder for giants to resist.  ",
 			"**Prerequisites:** Caster level 4th, favored enemy (giants) class feature.  ",
@@ -658,7 +658,7 @@
 		"description": [
 			"## Giant-Killer Stance (Combat)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"You can prepare a crippling strike against larger foes that rush into your weapon's reach.  ",
 			"**Prerequisites:** [Power Attack](feat/power_attack).  ",
@@ -668,13 +668,13 @@
 	"giant_killer_stance": {
 		"copyof": "giant-killer_stance"
 	},
-	"giant's_crush": {
+	"giants_crush": {
 		"name": "Giant's Crush",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Giant's Crush (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"When you strike hard, you knock smaller foes off their feet.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), base attack bonus +6, giant subtype.  ",
@@ -682,26 +682,26 @@
 			"**Special:** This effect stacks with the effect of Giant's Wallop."
 		]
 	},
-	"giant's_smash": {
+	"giants_smash": {
 		"name": "Giant's Smash",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Giant's Smash (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"Obstacles do not concern you.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), giant subtype.  ",
 			"**Benefit:** When you attack an inanimate, unattended object, you ignore the first 5 points of its hardness. You also receive a +5 bonus on Strength checks to knock down or break open doors."
 		]
 	},
-	"giant's_wallop": {
+	"giants_wallop": {
 		"name": "Giant's Wallop",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Giant's Wallop (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"When you strike, you knock the sense out of smaller foes.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), base attack bonus +6, giant subtype.  ",
@@ -741,7 +741,7 @@
 		"description": [
 			"## Gilded Weapons",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"Axiomatic energies flow from the golden dust you shed, harming chaotic beings on contact.  ",
 			"**Prerequisites:** Aphorite, crystalline dust racial trait, nonchaotic alignment.  ",
@@ -890,7 +890,7 @@
 		"description": [
 			"## Gnome Trickster",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"Your arcane talents go beyond the illusory.  ",
 			"**Prerequisites:** Cha 13, gnome, gnome magic racial trait.  ",
@@ -935,7 +935,7 @@
 		"description": [
 			"## Go Unnoticed",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"Your small size lets you quickly duck out of sight.  ",
 			"**Prerequisites:** Dex 13, Small size or smaller.  ",
@@ -1008,14 +1008,14 @@
 		"description": [
 			"## Golden League Tattoos",
 			"",
-			"**Source** [Spymaster's Handbook pg. 21](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 21](source/spymasters_handbook)",
 			"",
 			"You have quite the impressive collection of tattoos that commemorate your connection to and achievements within the Golden League.  ",
 			"**Prerequisites:** Regional trait associated with one of the Dragon Empires nations.  ",
 			"**Benefit:** You have an impressive collection of tattoos, which are visible unless you wear concealing clothing or succeed at a DC 10 Disguise check. You can take 10 on Intimidate checks against creatures able to see your tattoos, even when stress or distractions would normally prevent you from doing so. You add Knowledge (local) to the skills associated with the presence tactic for [verbal duels](rule/verbal_duels), and the first time you win an exchange with that tactic you do not take a penalty on associated skill checks if you repeat the tactic in the same duel."
 		]
 	},
-	"golden_legion's_stayed_blade": {
+	"golden_legions_stayed_blade": {
 		"name": "Golden Legion's Stayed Blade",
 		"sources": [ "Champions of Purity" ],
 		"description": [
@@ -1028,7 +1028,7 @@
 			"**Benefit:** If you deal an amount of damage to a creature that would slay it outright, you can pull that attack, instead dealing only enough damage to reduce its hit points to -1, and leave it stable."
 		]
 	},
-	"golem's_conviction": {
+	"golems_conviction": {
 		"name": "Golem's Conviction",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
@@ -1058,7 +1058,7 @@
 			"**Benefit:** When you are raging and you confirm a critical hit with a melee weapon or a critical hit is confirmed on you (whether by a melee weapon, spell, or ranged weapon), you regain 1 round of rage (up to your maximum for the day). You can only gain this benefit once per round."
 		]
 	},
-	"gorgon's_fist": {
+	"gorgons_fist": {
 		"name": "Gorgon's Fist",
 		"sources": [
 			"Mythic Adventures",
@@ -1127,7 +1127,7 @@
 			"**Normal:** You can use aid another to grant an ally a +2 bonus to AC against the next attack from an adjacent foe.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">If you spend 3 stamina points when you use this feat, your ally benefits from the AC bonus until the beginning of your next turn."
 		]
@@ -1375,7 +1375,7 @@
 		"description": [
 			"## Gray Maiden Initiate",
 			"",
-			"**Source** [Adventurer's Guide pg. 84](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 84](source/adventurers_guide)",
 			"",
 			"You were selected for indoctrination into the [Gray Maidens](rule/aff_scarred_ladies) and underwent some of the preliminary scarring and conditioning, but Queen Ileosa was defeated before you could fully serve her. You bear the mental and physical scars of your sisters in the Gray Maidens, and while you never had to carry out any of the queen's commands, you feel a strong kinship with those of your sisters who have.  ",
 			"**Prerequisites:** Female, must be taken at 1st level.  ",
@@ -1497,7 +1497,7 @@
 		"description": [
 			"## Greater Awesome Blow (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"When you perform an awesome blow, you fling opponents back farther.  ",
 			"**Prerequisites:** Str 25, [Awesome Blow](feat/awesome_blow), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), size Large or larger.  ",
@@ -1537,7 +1537,7 @@
 		"description": [
 			"## Greater Bless Equipment",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 7](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 7](source/undead_slayers_handbook)",
 			"",
 			"Your blessings are longer lasting, and you can bless more than one item at a time.  ",
 			"**Prerequisites:** [Bless Equipment](feat/bless_equipment), [Improved Bless Equipment](feat/improved_bless_equipment), caster level 12th, channel energy class feature.  ",
@@ -1567,7 +1567,7 @@
 		"description": [
 			"## Greater Blind-Fight (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"Your enemies cannot hide from you.  ",
 			"**Prerequisites:** Perception 15 ranks, [Improved Blind-Fight](feat/improved_blind-fight).  ",
@@ -1696,7 +1696,7 @@
 		"description": [
 			"## Greater Dirty Trick (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"When you pull a dirty trick, your foe is truly hindered.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Dirty Trick](feat/improved_dirty_trick), base attack bonus +6.  ",
@@ -1737,7 +1737,7 @@
 		"description": [
 			"## Greater Dispel Focus",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoners_handbook)",
 			"",
 			"You are a master of the art of dispelling.  ",
 			"**Prerequisites:** [Dispel Focus](feat/dispel_focus), ability to cast dispel magic.  ",
@@ -1753,7 +1753,7 @@
 		"description": [
 			"## Greater Drag (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"Foes that you drag are thrown out of balance.  ",
 			"**Prerequisites:** Str 13, [Improved Drag](feat/improved_drag), [Power Attack](feat/power_attack), base attack bonus +6.  ",
@@ -1798,7 +1798,7 @@
 		"description": [
 			"## Greater Elemental Focus",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"Choose an energy type to which you have already applied the Elemental Focus feat. Any spells you cast of this energy type are very hard to resist.  ",
 			"**Prerequisites:** [Elemental Focus](feat/elemental_focus).  ",
@@ -1863,7 +1863,7 @@
 			">After you take a move action to successfully maintain a grapple, you can spend 5 stamina points before the end of your turn to maintain that grapple as a swift action. This allows you to make up to three grapple checks to maintain a grapple during a round, but you still can't maintain a grapple until the round after you initiate it."
 		]
 	},
-	"greater_hunter's_bond": {
+	"greater_hunters_bond": {
 		"name": "Greater Hunter's Bond",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1883,14 +1883,14 @@
 		"description": [
 			"## Greater Ironclad Reactions (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 16](source/armor_masters_handbook)",
 			"",
 			"You are able to quickly react to attacks.  ",
 			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes), [Ironclad Reactions](feat/ironclad_reactions), base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium armor.  ",
 			"**Benefit:** You can use Ironclad Reactions more than once per round, but not more than once for each act you take that provokes an attack of opportunity. Each 5-foot step you take still counts as expending one use of an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to use this feat without it counting against your maximum number of attacks of opportunity for that round."
 		]
@@ -1997,7 +1997,7 @@
 		"description": [
 			"## Greater Planar Mentor",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hoppers_handbook)",
 			"",
 			"Your mentor begins to look upon you as an equal and can even answer your call.  ",
 			"**Prerequisites:** [Improved Planar Mentor](feat/improved_planar_mentor), [Planar Mentor](feat/planar_mentor), character level 13th.  ",
@@ -2012,14 +2012,14 @@
 		"description": [
 			"## Greater Ray Shield (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 18](source/armor_masters_handbook)",
 			"",
 			"You can turn your shield to deflect rays and other ranged attacks without harming it.  ",
 			"**Prerequisites:** Dex 17, [Missile Shield](feat/missile_shield), [Ray Shield](feat/ray_shield), [Spellbreaker](feat/spellbreaker).  ",
 			"**Benefit:** When you use the Ray Shield feat, your shield is not affected by the deflected ranged touch attack.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">When you successfully deflect a ranged touch attack, you can spend 10 stamina points as a swift or immediate action to reflect the attack toward another target, which must be within 60 feet of you. The total distance from the original attacker, to you, and then to the new target cannot exceed the original attack's maximum range. You take a -5 penalty on the ranged touch attack to hit the new target."
 		]
@@ -2054,7 +2054,7 @@
 		"description": [
 			"## Greater Reposition (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 161](source/advanced_players_guide)",
 			"",
 			"When you reposition foes, they are left vulnerable to the attacks of your allies.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Reposition](feat/improved_reposition), base attack bonus +6.  ",
@@ -2123,7 +2123,7 @@
 		"description": [
 			"## Greater Shield Specialization (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"Your masterful shieldwork provides even greater protection to your vital areas.  ",
 			"**Prerequisites:** Proficiency with selected shield, [Greater Shield Focus](feat/greater_shield_focus), [Shield Focus](feat/shield_focus), Shield Specialization with selected shield, fighter level 12th.  ",
@@ -2136,7 +2136,7 @@
 			">You can spend 5 stamina points to use your selected shield to negate a critical hit a second time each day."
 		]
 	},
-	"greater_skald's_vigor": {
+	"greater_skalds_vigor": {
 		"name": "Greater Skald's Vigor",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -2246,7 +2246,7 @@
 		"description": [
 			"## Greater Steal (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You have a knack for snatching items from your opponents in combat.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Steal](feat/improved_steal), base attack bonus +6.  ",
@@ -2573,7 +2573,7 @@
 		"description": [
 			"## Grenade Expert",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)",
 			"",
 			"You are skilled at both manufacturing and using alchemical grenades.  ",
 			"**Prerequisites:** [Throw Anything](feat/throw_anything).  ",
@@ -2587,7 +2587,7 @@
 		"description": [
 			"## Grisly Ornament (Item Creation)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 24](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 24](source/monster_hunters_handbook)",
 			"",
 			"You adorn your gear with mementos from your foes.  ",
 			"**Prerequisites:** [Harvest Parts](feat/harvest_parts).  ",
@@ -2621,7 +2621,7 @@
 		"description": [
 			"## Ground-Grabber (Combat)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 23](source/giant_hunters_handbook)",
 			"",
 			"When pressed by big opponents, you hunker down to more easily keep your feet.  ",
 			"**Prerequisites:** Con 13.  ",
@@ -2637,7 +2637,7 @@
 		"description": [
 			"## Groundling",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You can speak with burrowing animals.  ",
 			"**Prerequisites:** Cha 13, gnome, gnome magic racial trait.  ",
@@ -2723,7 +2723,7 @@
 		"description": [
 			"## Growth in Ash",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 6](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 6](source/elemental_masters_handbook)",
 			"",
 			"You're aware that when fire passes, growth can begin.  ",
 			"**Benefit:** When you succeed at a Reflex save to avoid catching on fire, or when you cease taking ongoing fire damage from a spell or effect, you can smear ash on yourself as an immediate action to gain fast healing 1 for 3 rounds. For every Hit Die you have beyond 3, extend the duration of this fast healing by an additional round."
@@ -2807,7 +2807,7 @@
 		"description": [
 			"## Guarded Charge (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 18](source/armor_masters_handbook)",
 			"",
 			"Your raised shield protects you as you charge forward.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
@@ -2841,7 +2841,7 @@
 			"**Benefit:** You can replace one of the domains offered by your deity with one of the following druid domains: Desert, Ruins, or Vermin. You gain a +1 bonus to your caster level when casting domain spells from the selected domain."
 		]
 	},
-	"guardian's_return": {
+	"guardians_return": {
 		"name": "Guardian's Return",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -3017,7 +3017,7 @@
 			"**Special:** Hamatulatsu may be selected as a substitute bonus feat at 6th level by a monk even if the monk does not otherwise meet the prerequisites. This fighting style is normally only taught to women of the Sisterhood of the Golden Erinyes.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">By spending 5 stamina points, you can treat a hit with an unarmed strike as a critical hit for the purpose of determining the benefits that you gain from Hamatulatsu."
 		]
@@ -3028,7 +3028,7 @@
 		"description": [
 			"## Hammer Guards the Anvil (Teamwork)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 7](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 7](source/elemental_masters_handbook)",
 			"",
 			"Your allies cover you when your guard is down.  ",
 			"**Benefit:** Creatures threatened by an ally with this feat cannot make attacks of opportunity against you when you pick up an item from the ground, retrieve a stored item, sheathe a weapon, or stand up from prone."
@@ -3068,7 +3068,7 @@
 			"**Benefit:** As a standard action, you can make a single ranged attack with a weapon that deals bludgeoning damage against a creature no more than one size category larger than you that is within the weapon's first range increment. If you hit and damage the target, you can immediately attempt to perform a trip combat maneuver against that target. This does not provoke an attack of opportunity, and if your combat maneuver check fails by 10 or more, you do not fall prone."
 		]
 	},
-	"hand's_autonomy": {
+	"hands_autonomy": {
 		"name": "Hand's Autonomy",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -3087,7 +3087,7 @@
 			"- The hand can make a single melee or ranged attack with a light or one-handed weapon as a full-round action."
 		]
 	},
-	"hand's_detachment": {
+	"hands_detachment": {
 		"name": "Hand's Detachment",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -3096,11 +3096,11 @@
 			"**Source** [Haunted Heroes Handbook pg. 24](source/haunted_heroes_handbook)",
 			"",
 			"Your possessed hand can painlessly pull free of your body or reattach itself, leaving you with a bloodless but raw-looking stump at the end of one arm while the hand itself performs remote tasks under your command, acting in many ways like a strange familiar.  ",
-			"**Prerequisites:** [Hand's Autonomy](feat/hand's_autonomy), [Possessed Hand](feat/possessed_hand).  ",
+			"**Prerequisites:** [Hand's Autonomy](feat/hands_autonomy), [Possessed Hand](feat/possessed_hand).  ",
 			"**Benefit:** You can remove your possessed hand, allowing the possessing spirit to animate and control its motion. Removing or reattaching your possessed hand is a full-round action. This deals no damage to you, but you can't use the hand while it is removed. The hand acts as a wizard's familiar, using your character level as your effective wizard level, except it doesn't gain the alertness, share spells, deliver touch spells, spell resistance, or scry on familiar abilities. Use the statistics for a [crawling hand](monster/crawling_hand) to represent the detached hand, save that the hand isn't undead, doesn't have the mark quarry ability, and shares your alignment. If the hand is destroyed, the spirit regenerates your missing hand in 2d4 days. This process can be accelerated by [regenerate](spell/regenerate) or similar magic. You cannot use the Possessed Hand feat or any feat with the Possessed Hand feat as a prerequisite until the hand is fully regenerated. If you have the familiar class feature, you can choose for your possessed hand to become your familiar, granting it all familiar abilities as normal. If selected as a familiar, your possessed hand grants you a +3 bonus on Sleight of Hand checks."
 		]
 	},
-	"hand's_knowledge": {
+	"hands_knowledge": {
 		"name": "Hand's Knowledge",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -3126,7 +3126,7 @@
 			"**Benefit:** Once per day when you use lay on hands, you can also imbue that ally with valor. In addition to the normal effects of your lay on hands, the targeted ally gains a sacred bonus on attack rolls and on saves against fear effects equal to your Charisma bonus (minimum +1) for 1 minute."
 		]
 	},
-	"hand's_sight": {
+	"hands_sight": {
 		"name": "Hand's Sight",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -3148,7 +3148,7 @@
 		"description": [
 			"## Harder They Fall (Combat, Teamwork)",
 			"",
-			"**Source** [Ultimate Wilderness pg. 113](source/ultimate_wilderness), [Giant Hunter's Handbook pg. 19](source/giant_hunter's_handbook)",
+			"**Source** [Ultimate Wilderness pg. 113](source/ultimate_wilderness), [Giant Hunter's Handbook pg. 19](source/giant_hunters_handbook)",
 			"",
 			"You can work with an ally to move or knock over a foe that's too large for either of you to overcome alone.  ",
 			"**Prerequisites:** Str 13, Int 13, [Combat Expertise](feat/combat_expertise), [Power Attack](feat/power_attack).  ",
@@ -3220,7 +3220,7 @@
 		"description": [
 			"## Harmonic Spell",
 			"",
-			"**Source** [Inner Sea World Guide pg. 287](source/inner_sea_world_guide), [Pathfinder #12: Crown of Fangs pg. 59](source/pathfinder_#12_crown_of_fangs), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
+			"**Source** [Inner Sea World Guide pg. 287](source/inner_sea_world_guide), [Pathfinder #12: Crown of Fangs pg. 59](source/pathfinder_12_crown_of_fangs), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
 			"",
 			"You can weave bardic music effects into your spellcasting in such a way that your spellcasting and bardic performance become indistinguishable.  ",
 			"**Prerequisites:** Bardic music ability.  ",
@@ -3237,7 +3237,7 @@
 		"description": [
 			"## Harrowed",
 			"",
-			"**Source** [Inner Sea World Guide pg. 287](source/inner_sea_world_guide), [Curse of the Crimson Throne Player's Guide pg. 14](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
+			"**Source** [Inner Sea World Guide pg. 287](source/inner_sea_world_guide), [Curse of the Crimson Throne Player's Guide pg. 14](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
 			"",
 			"Numerous Harrow readings early in your life seem to have hit the mark precisely, increasing your belief that you are destined for a specific purpose in life.  ",
 			"**Benefit:** You get a +1 bonus on all Will saves made to resist enchantment effects. Once per day, you may draw a card from a Harrow deck you own. At any one time for the rest of that day, you may apply a +2 bonus on any d20 roll modified by the card's suit. For example, if you drew a card from the suit of Dexterity, you could apply this +2 bonus on an Initiative check, a Reflex save, a Dexterity-based skill check, or a ranged attack roll. You may assign this +2 bonus after you make the roll, but you must do so before you know whether the roll was a success or not."
@@ -3275,7 +3275,7 @@
 			"**Normal:** The bonus granted by aid another either grants your ally a +2 bonus on her next attack roll against an opponent or grants your ally a +2 bonus to AC against that opponent's next attack made before the beginning of your next turn.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">When using the aid another action to help an ally who also has this feat, you can spend 5 stamina points to grant a +4 bonus instead of the normal +2. Alternatively, you can grant your ally a +2 bonus both on her next attack roll and to her AC against the next attack against her."
 		]
@@ -3299,7 +3299,7 @@
 		"description": [
 			"## Harvest Parts (Item Creation)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 24](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 24](source/monster_hunters_handbook)",
 			"",
 			"You can extract the choicest parts from a monster's carcass to use as resources when crafting items.  ",
 			"**Prerequisites:** Craft (any) 1 rank or Heal 1 rank.  ",
@@ -3394,7 +3394,7 @@
 			">When an opponent misses you due to the miss chance from Haunted Gnome Shroud, you can spend 5 stamina points to impose a -2 penalty on all that opponent's attack rolls against you until that opponent deals damage to you. This ability doesn't stack with itself."
 		]
 	},
-	"healer's_hands": {
+	"healers_hands": {
 		"name": "Healer's Hands",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -3460,7 +3460,7 @@
 			"**Special:** You may take this feat multiple times. Each time you select it, you gain an additional use of daylight and may select another spell from the table."
 		]
 	},
-	"heaven's_light": {
+	"heavens_light": {
 		"name": "Heaven's Light",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -3475,13 +3475,13 @@
 			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive."
 		]
 	},
-	"heaven's_step": {
+	"heavens_step": {
 		"name": "Heaven's Step",
 		"sources": [ "Pathfinder #132: The Six-Legend Soul" ],
 		"description": [
 			"## Heaven's Step (Combat)",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"Like the daring Heaven's Step Offensive championed by Grand Prince Gennaris III of Taldor, you confidently take the fight to your enemy and strike an unexpected blow.  ",
 			"**Prerequisites:** Dex 15, [Following Step](feat/following_step), [Step Up](feat/step_up), [Step Up and Strike](feat/step_up_and_strike), base attack bonus +10.  ",
@@ -3708,7 +3708,7 @@
 		"description": [
 			"## Heroic Defiance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You struggle on when others would fall.  ",
 			"**Prerequisites:** [Diehard](feat/diehard), [Endurance](feat/endurance), base Fortitude save +8.  ",
@@ -3742,7 +3742,7 @@
 			"**Benefit:** Once per day, you can move up to your speed as an immediate action, but you must end this movement adjacent to an opponent who is about to make an attack against an ally. As long as you are visible to the opponent you moved next to, that opponent takes a -2 penalty on the attack roll to which you moved in response.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">By spending 4 stamina points, you can use this feat an additional time per day."
 		]
@@ -3769,7 +3769,7 @@
 		"description": [
 			"## Heroic Recovery",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You can throw off the effects of crippling conditions.  ",
 			"**Prerequisites:** [Diehard](feat/diehard), [Endurance](feat/endurance), base Fortitude save +4.  ",
@@ -3798,7 +3798,7 @@
 			"**Benefit:** Once per day as a standard action, you may attempt a new saving throw against a harmful condition requiring a Will save that is affecting you. If you are dominated, controlled, or cannot take an action because of the effect against which you are trying to make a new saving throw, you can make this saving throw at the start of the turn as no action, but on a success, your turn ends. You cannot use this feat to remove instantaneous effects, effects that do not require a Will save, or effects that do not allow a saving throw."
 		]
 	},
-	"hero's_display": {
+	"heros_display": {
 		"name": "Hero's Display",
 		"sources": [
 			"Ultimate Combat",
@@ -3819,13 +3819,13 @@
 			">When using this feat, you can spend up to 6 stamina points to increase the radius of the demoralizing effect by 5 feet per stamina point you spent (to a maximum of 60 feet)."
 		]
 	},
-	"hero's_fortune": {
+	"heros_fortune": {
 		"name": "Hero's Fortune",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Hero's Fortune (Hero Point)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 324](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 324](source/advanced_players_guide)",
 			"",
 			"Even at the start of your career, it was clear that you had a chance at greatness, and your legend continues to grow with every adventure.  ",
 			"**Benefit:** You gain a hero point. The maximum number of hero points you can have at any one time is increased to 5.  ",
@@ -3968,7 +3968,7 @@
 		"description": [
 			"## Holy Water Assault (Combat)",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 23](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 23](source/undead_slayers_handbook)",
 			"",
 			"You have found new and effective uses for holy water in combating the undead.  ",
 			"**Prerequisites:** Base attack bonus +1, Knowledge (religion) 3 ranks.  ",
@@ -3995,7 +3995,7 @@
 		"description": [
 			"## Hook Fighter (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 22](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 22](source/adventurers_armory_2)",
 			"",
 			"In your deft hands, a climbing tool becomes a deadly weapon.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -4045,7 +4045,7 @@
 			"**Special:** A creature with this feat can take the Mounted Archery feat without possessing 1 rank in the Ride skill or the [Mounted Combat](feat/mounted_combat) feat."
 		]
 	},
-	"horn_rider's_charge": {
+	"horn_riders_charge": {
 		"name": "Horn Rider's Charge",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -4101,7 +4101,7 @@
 		"description": [
 			"## Horse Sense",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"You take Grand Prince Beldam I's insistence upon the resilience of simple creatures to heart, emulating them to shield yourself from complex mental effects.  ",
 			"**Prerequisites:** Wis 15, [Iron Will](feat/iron_will).",
@@ -4115,7 +4115,7 @@
 		"description": [
 			"## Horse Whisperer",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)",
 			"",
 			"Your skill at handling horses allows you to influence all the horses in the area.  ",
 			"**Benefit:** You gain a +2 bonus on Handle Animal and Ride checks to handle or ride horses. In addition, you can attempt one Handle Animal check to issue a command to all horses within a 60-foot radius. An opponent whose animal companion or mount is within range can attempt a DC 20 Handle Animal check as an immediate action to prevent her horse from being influenced by you. If the opponent succeeds, you cannot influence that creature again for 1 hour."
@@ -4198,7 +4198,7 @@
 		"description": [
 			"## Hurricane Punch (Combat)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 19](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 19](source/elemental_masters_handbook)",
 			"",
 			"Your fast strikes hit with the force of a hurricane, pushing your foes away.  ",
 			"**Prerequisites:** Str 13, [Improved Bull Rush](feat/improved_bull_rush), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Power Attack](feat/power_attack).  ",
@@ -4305,7 +4305,7 @@
 		"description": [
 			"## Illusion Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_masters_handbook)",
 			"",
 			"You can weave figments with illusion magic items.  ",
 			"**Prerequisites:** Use Magic Device 2 ranks, base Fortitude save bonus +4.  ",
@@ -4318,7 +4318,7 @@
 		"description": [
 			"## Illusive Gnome Bewilderment (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"You can use your gnome weapons in unusual ways.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Gnome Weapon Focus](feat/gnome_weapon_focus), [Illusive Gnome Style](feat/illusive_gnome_style), [Illusive Gnome Surprise](feat/illusive_gnome_surprise), [Improved Feint](feat/improved_feint), gnome magic and weapon familiarity racial traits.  ",
@@ -4331,7 +4331,7 @@
 		"description": [
 			"## Illusive Gnome Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"The chaotic, somewhat random design of your racial weapons makes it easy to combine them with illusions.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Gnome Weapon Focus](feat/gnome_weapon_focus), [Improved Feint](feat/improved_feint), base attack bonus +1, gnome magic and weapon familiarity racial traits.  ",
@@ -4344,7 +4344,7 @@
 		"description": [
 			"## Illusive Gnome Surprise (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 12](source/weapon_masters_handbook)",
 			"",
 			"You can use gnome weapons in unusual ways.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Gnome Weapon Focus](feat/gnome_weapon_focus), [Illusive Gnome Style](feat/illusive_gnome_style), [Improved Feint](feat/improved_feint).  ",
@@ -4400,7 +4400,7 @@
 		"description": [
 			"## Imperial Prankster",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 73](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"You model your behavior on that of the legendary trickster, Grand Prince Beldam I, to confound proponents of law and order.  ",
 			"**Prerequisites:** Bluff 5 ranks, any chaotic alignment.  ",
@@ -4471,14 +4471,14 @@
 		"description": [
 			"## Imposing Bearing (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"Your armor allows you to push your opponents around.  ",
 			"**Prerequisites:** [Poised Bearing](feat/poised_bearing), base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.  ",
 			"**Benefit:** You treat your size as two categories larger for the purposes of determining the size of creatures against which you can attempt bull rush, drag, overrun, and trip combat maneuvers.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points as a swift action to add half your armor bonus to your next combat maneuver check this turn. Alternatively, you can spend 5 stamina points as an immediate action to add half your armor bonus to your CMD against a single combat maneuver this turn."
 		]
@@ -4489,7 +4489,7 @@
 		"description": [
 			"## Impressive Grit (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_masters_handbook)",
 			"",
 			"Your mastery of ranged weapons allows you to perform impressive deeds.  ",
 			"**Prerequisites:** Base attack bonus +11, weapon training class feature with a ranged weapon.  ",
@@ -4503,7 +4503,7 @@
 		"description": [
 			"## Improved Armor Focus (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 16](source/armor_masters_handbook)",
 			"",
 			"Your mastery makes the most of your armor.  ",
 			"**Prerequisites:** [Armor Focus](feat/armor_focus), base attack bonus +6, proficiency with selected armor.  ",
@@ -4511,7 +4511,7 @@
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of armor.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to negate your armor's armor check penalty for 1 skill check."
 		]
@@ -4544,7 +4544,7 @@
 		"description": [
 			"## Improved Awesome Throw (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"When you perform an awesome throw, you knock opponents back farther.  ",
 			"**Prerequisites:** Str 25, [Awesome Throw](feat/awesome_throw), [Greater Bull Rush](feat/greater_bull_rush), Throw Anything or rock throwing, size Large or larger.  ",
@@ -4611,7 +4611,7 @@
 		"description": [
 			"## Improved Bless Equipment",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 7](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 7](source/undead_slayers_handbook)",
 			"",
 			"You can channel even more energy into weapons and armor to grant them several divine powers at once.  ",
 			"**Prerequisites:** [Bless Equipment](feat/bless_equipment), caster level 9th, channel energy class feature.  ",
@@ -4633,7 +4633,7 @@
 		"description": [
 			"## Improved Blind-Fight (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"Your keen senses guide your hand against hidden foes.  ",
 			"**Prerequisites:** Perception 10 ranks, [Blind-Fight](feat/blind-fight).  ",
@@ -4793,7 +4793,7 @@
 			">Once per round when you confirm a critical hit, you can spend 5 stamina points to treat that attack as if you reduced the target to 0 or fewer hit points for the purpose of using the Cleaving Finish feat."
 		]
 	},
-	"improved_collector's_boon": {
+	"improved_collectors_boon": {
 		"name": "Improved Collector's Boon",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -4802,7 +4802,7 @@
 			"**Source** [Chronicle of Legends pg. 24](source/chronicle_of_legends)",
 			"",
 			"Your knack for unlocking the true potential of magical equipment allows you to draw great power from your equipment.  ",
-			"**Prerequisites:** [Collector's Boon](feat/collector's_boon), character level 9th.",
+			"**Prerequisites:** [Collector's Boon](feat/collectors_boon), character level 9th.",
 			"",
 			"While you are wearing or wielding at least three items from a [set](main/magic_misc), you can gain the benefits of the three-, four-, and five-item benefits listed in the set, as appropriate for the total number of pieces of the set in your possession. In addition, you gain a +2 circumstance bonus on Use Magic Device checks as long as you are currently wearing or wielding at least five pieces of magical equipment (such as magic armor, magic weapons, magic rings, or wondrous items). For the purposes of determining whether you gain this benefit, gauntlets that are part of a suit of magic armor count as a separate magic item only if they have been enchanted as weapons."
 		]
@@ -4966,7 +4966,7 @@
 		"description": [
 			"## Improved Dirty Trick (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You are skilled at pulling dirty tricks on your foes.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise).  ",
@@ -5047,7 +5047,7 @@
 		"description": [
 			"## Improved Drag (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You are skilled at dragging foes around the battlefield.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +1.  ",
@@ -5117,7 +5117,7 @@
 		"description": [
 			"## Improved Elemental Counterspell",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 23](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 23](source/elemental_masters_handbook)",
 			"",
 			"You can charge your kinetic blast with disruptive elemental energy that tears apart elemental spells.  ",
 			"**Prerequisites:** Two basic blast wild talents from two different elements, expanded element class feature, kinetic blast class feature.  ",
@@ -5269,7 +5269,7 @@
 		"description": [
 			"## Improved Forceful Charge",
 			"",
-			"**Source** [Adventurer's Guide pg. 16](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 16](source/adventurers_guide)",
 			"",
 			"Enemies fall before this animal's charge.  ",
 			"**Prerequisites:** [Forceful Charge](feat/forceful_charge), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), animal companion.  ",
@@ -5375,14 +5375,14 @@
 		"description": [
 			"## Improved Horse Whisperer",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)",
 			"",
 			"Your understanding of horses goes so deep that you can communicate with them as if you shared a language.  ",
 			"**Prerequisites:** [Horse Whisperer](feat/horse_whisperer), Handle Animal 5 ranks, Ride 5 ranks.  ",
 			"**Benefit:** With a successful DC 20 Handle Animal check, you can communicate with a horse as if you were using speak with animals for 1 round. The horse's ability to communicate and take actions is still limited by its intelligence."
 		]
 	},
-	"improved_hunter's_bond": {
+	"improved_hunters_bond": {
 		"name": "Improved Hunter's Bond",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -5509,7 +5509,7 @@
 		"description": [
 			"## Improved Ki Throw (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"Your enemies are living weapons in your hands.  ",
 			"**Prerequisites:** [Improved Bull Rush](feat/improved_bull_rush), Ki Throw.  ",
@@ -5616,7 +5616,7 @@
 		"description": [
 			"## Improved Mounted Archery",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)",
 			"",
 			"You are an expert at making ranged attacks while mounted.  ",
 			"**Prerequisites:** [Mounted Archery](feat/mounted_archery), [Mounted Combat](feat/mounted_combat), Ride 1 rank.  ",
@@ -5746,7 +5746,7 @@
 		"description": [
 			"## Improved Planar Mentor",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 26](source/plane-hoppers_handbook)",
 			"",
 			"As you grow, so too does your mentor's influence.  ",
 			"**Prerequisites:** [Planar Mentor](feat/planar_mentor), character level 7th.  ",
@@ -5847,7 +5847,7 @@
 		"description": [
 			"## Improved Punishing Step (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 14](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 14](source/monster_hunters_handbook)",
 			"",
 			"You know how to take advantage of a devastating charge.  ",
 			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), [Punishing Step](feat/punishing_step), base attack bonus +8.  ",
@@ -5885,7 +5885,7 @@
 		"description": [
 			"## Improved Reposition (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"You have learned how to force your enemies to move around the battlefield.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise).  ",
@@ -5945,7 +5945,7 @@
 		"description": [
 			"## Improved Second Chance (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"You can turn a missed strike into a second chance without sacrificing later attacks.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Second Chance](feat/second_chance), base attack bonus +11.  ",
@@ -5977,7 +5977,7 @@
 		"description": [
 			"## Improved Share Spells",
 			"",
-			"**Source** [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 162](source/advanced_players_guide)",
 			"",
 			"You can share spells with those you have a magical connection with.  ",
 			"**Prerequisites:** Spellcraft 10 ranks, ability to acquire an animal companion, eidolon, familiar, or special mount.  ",
@@ -6018,14 +6018,14 @@
 		"description": [
 			"## Improved Shield Focus (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 18](source/armor_masters_handbook)",
 			"",
 			"Your mastery makes the most of your shield.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6.  ",
 			"**Benefit:** You reduce the armor check penalty of any shield you are using by 1. You also use your character level in place of your base attack bonus for the purpose of shield mastery feat prerequisites.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points to negate your shield's armor check penalty for one skill check."
 		]
@@ -6039,7 +6039,7 @@
 		"description": [
 			"## Improved Sidestep (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"You are adept at sidestepping your opponent's melee attacks without compromising your mobility.  ",
 			"**Prerequisites:** Dex 15, [Dodge](feat/dodge), [Mobility](feat/mobility), [Sidestep](feat/sidestep).  ",
@@ -6126,7 +6126,7 @@
 		"description": [
 			"## Improved Steal (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"You have a knack for snatching items from your opponents.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise).  ",
@@ -6156,7 +6156,7 @@
 		"description": [
 			"## Improved Stellar Wanderer",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hoppers_handbook)",
 			"",
 			"You have mastered the art of planar travel through your time on Cynosure.  ",
 			"**Prerequisites:** [Stellar Wanderer](feat/stellar_wanderer), Knowledge (planes) 15 ranks.  ",
@@ -6185,7 +6185,7 @@
 		"description": [
 			"## Improved Stonecunning",
 			"",
-			"**Source** [Advanced Player's Guide pg. 163](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 163](source/advanced_players_guide)",
 			"",
 			"Your sense for stonework is uncanny.  ",
 			"**Prerequisites:** Wis 13, dwarf, stonecunning racial trait.  ",
@@ -6597,7 +6597,7 @@
 		"description": [
 			"## Improvisational Healer",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 22](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 22](source/adventurers_armory_2)",
 			"",
 			"In any urban or natural setting, you can scavenge for useful medical supplies.  ",
 			"**Prerequisites:** Heal 1 rank.  ",
@@ -6638,7 +6638,7 @@
 			">When making an improvised weapon attack, you can spend 2 stamina points to increase the damage of the attack by an additional step (to a maximum of 1d10, or 2d8 if the improvised weapon is two-handed)."
 		]
 	},
-	"in_harm's_way": {
+	"in_harms_way": {
 		"name": "In Harm's Way",
 		"sources": [
 			"Advanced Player's Guide",
@@ -6647,7 +6647,7 @@
 		"description": [
 			"## In Harm's Way (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 164](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 164](source/advanced_players_guide)",
 			"",
 			"You put yourself in danger's path to save your allies.  ",
 			"**Prerequisites:** [Bodyguard](feat/bodyguard).  ",
@@ -6784,7 +6784,7 @@
 		"description": [
 			"## Ineffable Count of the Clock (Gathlain Court Title)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 22](source/plane-hoppers_handbook)",
 			"",
 			"You realize that the endless march of time is more of a drunkard's lurch, and this grants you status in the eyes of the Many.  ",
 			"**Prerequisites:** Fey creature type or [Fey Obedience](feat/fey_obedience) (Shyka), you must have either visited or interacted with an outsider from the Dimension of Time.  ",
@@ -6797,7 +6797,7 @@
 		"description": [
 			"## Inerrant Justice (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 15](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 15](source/spymasters_handbook)",
 			"",
 			"You will punish the guilty without letting any innocents be harmed as a result.  ",
 			"**Prerequisites:** Must have witnessed or suffered a grave injustice that went unpunished, or have the An Eye for an Eye or the Raiders background. If the offender is not a challenging foe, it either advances to become one or allies with one or more creatures who are.  ",
@@ -6825,7 +6825,7 @@
 		"description": [
 			"## Infectious Weapons",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)",
 			"",
 			"Your weapons spread your sickness.  ",
 			"**Prerequisites:** Ability to cause disease with a natural weapon via an extraordinary or supernatural ability.  ",
@@ -6851,7 +6851,7 @@
 		"description": [
 			"## Infiltrator (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 15](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 15](source/spymasters_handbook)",
 			"",
 			"You have sacrificed your true identity in order to achieve your goal.  ",
 			"**Prerequisites:** Must have adopted an assumed or secret identity associated with an enemy organization.  ",

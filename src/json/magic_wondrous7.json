@@ -70,7 +70,7 @@
 		"description": [
 			"## Catching Cape",
 			"",
-			"**Source** [Ultimate Equipment pg. 262](source/ultimate_equipment), [Advanced Player's Guide pg. 302](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 262](source/ultimate_equipment), [Advanced Player's Guide pg. 302](source/advanced_players_guide)  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** shoulders; **Price** 200 gp; **Weight** 3 lbs.",
 			"",
@@ -152,7 +152,7 @@
 		"description": [
 			"## Muleback Cords",
 			"",
-			"**Source** [Ultimate Equipment pg. 267](source/ultimate_equipment), [Advanced Player's Guide pg. 308](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 267](source/ultimate_equipment), [Advanced Player's Guide pg. 308](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 1,000 gp; **Weight** 1/4 lb.",
 			"",
@@ -291,7 +291,7 @@
 		"description": [
 			"## Cowardly Crouching Cloak",
 			"",
-			"**Source** [Ultimate Equipment pg. 265](source/ultimate_equipment), [Advanced Player's Guide pg. 303](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 265](source/ultimate_equipment), [Advanced Player's Guide pg. 303](source/advanced_players_guide)  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** shoulders; **Price** 1,800 gp; **Weight** 4 lbs.",
 			"",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Caparison of Resistance",
 			"",
-			"**Source** [Adventurer's Guide pg. 16](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 16](source/adventurers_guide)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 2,700 gp (+1 bonus), 10,800 gp (+2 bonus), 24,300 gp (+3 bonus), 43,200 gp (+4 bonus), 67,500 gp (+5 bonus); **Weight** 4 lbs.",
 			"",
@@ -471,7 +471,7 @@
 		"description": [
 			"## Cloak of the Crusader",
 			"",
-			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_#103_the_hellfire_compact), [Gods and Magic pg. 55](source/gods_and_magic), [Inner Sea Gods pg. 262](source/inner_sea_gods)  ",
+			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_103_the_hellfire_compact), [Gods and Magic pg. 55](source/gods_and_magic), [Inner Sea Gods pg. 262](source/inner_sea_gods)  ",
 			"**Aura** faint enchantment; **CL** 1st  ",
 			"**Slot** shoulders; **Price** 2,700 gp; **Weight** 1 lb.",
 			"",
@@ -484,7 +484,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), barkskin, bless, silent image; **Cost** 1,350 gp"
 		]
 	},
-	"deathlurker's_cloak": {
+	"deathlurkers_cloak": {
 		"name": "Deathlurker's Cloak",
 		"sources": [
 			"Inner Sea Gods",
@@ -629,7 +629,7 @@
 		"description": [
 			"## Rimepelt",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 61](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 61](source/pathfinder_68_the_shackled_hut)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** shoulders; **Price** 3,350 gp; **Weight** 5 lbs.",
 			"",
@@ -648,7 +648,7 @@
 		"description": [
 			"## Cloak of Woodland Creatures",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 53](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 53](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**Aura** faint abjuration and conjuration; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 3,500 gp; **Weight** 1 lb.",
 			"",
@@ -668,7 +668,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, [summon nature's ally I](spell/summon_nature's_ally_1); **Cost** 2,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 2,250 gp"
 		]
 	},
 	"stonemist_cloak": {
@@ -725,13 +725,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [expeditious retreat](spell/expeditious_retreat); **Cost** 1,800 gp"
 		]
 	},
-	"swordlord's_cloak_1_bonus": {
+	"swordlords_cloak_1_bonus": {
 		"name": "Swordlord's Cloak (+1 bonus)",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Swordlord's Cloak",
 			"",
-			"**Source** [Adventurer's Guide pg. 26](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 26](source/adventurers_guide)  ",
 			"**Aura** faint abjuration and divination; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 4,000 gp (+1 bonus), 16,000 gp (+2 bonus), 37,000 gp (+3 bonus), 64,000 gp (+4 bonus), 100,000 gp (+5 bonus); **Weight** 1 lb.",
 			"",
@@ -744,8 +744,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), anticipate peril, resistance; **Cost** 2,000 gp (+1 bonus), 8,000 gp (+2 bonus), 18,500 gp (+3 bonus), 32,000 gp (+4 bonus), 50,000 gp (+5 bonus)"
 		]
 	},
-	"swordlord's_cloak_1": {
-		"copyof": "swordlord's_cloak_1_bonus"
+	"swordlords_cloak_1": {
+		"copyof": "swordlords_cloak_1_bonus"
 	},
 	"cloak_of_resistance_2": {
 		"name": "Cloak of Resistance (+2)",
@@ -757,7 +757,7 @@
 		"description": [
 			"## Cloak of the Yeti",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 60](source/pathfinder_#67_the_snows_of_summer)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer pg. 60](source/pathfinder_67_the_snows_of_summer)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 4,000 gp; **Weight** 5 lbs.",
 			"",
@@ -801,7 +801,7 @@
 		"description": [
 			"## Golden Eagle Epaulets",
 			"",
-			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty)  ",
+			"**Source** [Adventurer's Guide pg. 77](source/adventurers_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 4,500 gp; **Weight** 1 lb.",
 			"",
@@ -835,7 +835,7 @@
 		"description": [
 			"## Skelterhide",
 			"",
-			"**Source** [Pathfinder #117: Assault on Longshadow pg. 30](source/pathfinder_#117_assault_on_longshadow)  ",
+			"**Source** [Pathfinder #117: Assault on Longshadow pg. 30](source/pathfinder_117_assault_on_longshadow)  ",
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** shoulders; **Price** 4,500 gp; **Weight** 5 lbs.",
 			"",
@@ -854,7 +854,7 @@
 		"description": [
 			"## Harborwing Cloak",
 			"",
-			"**Source** [Merchant's Manifest pg. 22](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 22](source/merchants_manifest)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 5,200 gp; **Weight** 1 lb.",
 			"",
@@ -915,7 +915,7 @@
 		"description": [
 			"## Cloak of Heavenly Fire",
 			"",
-			"**Source** [Adventurer's Guide pg. 16](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 16](source/adventurers_guide)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** shoulder; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
@@ -946,7 +946,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 3,000 gp"
 		]
 	},
-	"dead_man's_shroud": {
+	"dead_mans_shroud": {
 		"name": "Dead Man's Shroud",
 		"sources": [ "Seekers of Secrets" ],
 		"description": [
@@ -1111,7 +1111,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), contagion, resistance, virulent miasma; **Cost** 3,600 gp"
 		]
 	},
-	"hunter's_cloak": {
+	"hunters_cloak": {
 		"name": "Hunter's Cloak",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1152,7 +1152,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bless water; **Cost** 4,000 gp"
 		]
 	},
-	"crow_brother's_cloak": {
+	"crow_brothers_cloak": {
 		"name": "Crow Brother's Cloak",
 		"sources": [ "Seers of the Drowned City" ],
 		"description": [
@@ -1181,7 +1181,7 @@
 		"description": [
 			"## Arbalest Cloak",
 			"",
-			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 73](source/pathfinder_#122_into_the_shattered_continent)  ",
+			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 73](source/pathfinder_122_into_the_shattered_continent)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 9,000 gp; **Weight** 8 lbs.",
 			"",
@@ -1193,7 +1193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air walk](spell/air_walk), [bull's strength](spell/bull's_strength); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air walk](spell/air_walk), [bull's strength](spell/bulls_strength); **Cost** 4,500 gp"
 		]
 	},
 	"cape_of_daring_deeds": {
@@ -1247,7 +1247,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), mirror image; **Cost** 4,500 gp"
 		]
 	},
-	"poet's_cloak": {
+	"poets_cloak": {
 		"name": "Poet's Cloak",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -1468,7 +1468,7 @@
 		"description": [
 			"## Cloak of Good Fortune",
 			"",
-			"**Source** [Disciple's Doctrine pg. 28](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 28](source/disciples_doctrine)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 12,500 gp; **Weight** 1 lb.",
 			"",
@@ -1588,7 +1588,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), spider climb, web; **Cost** 7,000 gp"
 		]
 	},
-	"gunfighter's_poncho": {
+	"gunfighters_poncho": {
 		"name": "Gunfighter's Poncho",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1679,7 +1679,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create water, shifting sand; **Cost** 7,500 gp"
 		]
 	},
-	"comfort's_cloak": {
+	"comforts_cloak": {
 		"name": "Comfort's Cloak",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1730,12 +1730,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), speak with animals; **Cost** 7,800 gp"
 		]
 	},
-	"swordlord's_cloak_2_bonus": {
+	"swordlords_cloak_2_bonus": {
 		"name": "Swordlord's Cloak (+2 bonus)",
-		"copyof": "swordlord's_cloak_1_bonus"
+		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlord's_cloak_2": {
-		"copyof": "swordlord's_cloak_2_bonus"
+	"swordlords_cloak_2": {
+		"copyof": "swordlords_cloak_2_bonus"
 	},
 	"cloak_of_resistance_4": {
 		"name": "Cloak of Resistance (+4)",
@@ -1747,7 +1747,7 @@
 		"description": [
 			"## Hyena Spirit Skin",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 55](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 55](source/pathfinder_39_the_city_of_seven_spears)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 16,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1775,7 +1775,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter self; **Cost** 8,000 gp"
 		]
 	},
-	"prestidigitator's_cloak": {
+	"prestidigitators_cloak": {
 		"name": "Prestidigitator's Cloak",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2001,7 +2001,7 @@
 	"major_stone_cloak": {
 		"copyof": "stone_cloak_major"
 	},
-	"reaper's_wisdom": {
+	"reapers_wisdom": {
 		"name": "Reaper's Wisdom",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -2024,7 +2024,7 @@
 		"description": [
 			"## [Erinyes Company](rule/aff_scarred_ladies) Cloak",
 			"",
-			"**Source** [Adventurer's Guide pg. 86](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 86](source/adventurers_guide)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** shoulders; **Price** 22,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2062,7 +2062,7 @@
 		"description": [
 			"## Wings of Flying (Lesser)",
 			"",
-			"**Source** [Pathfinder #63: The Asylum Stone pg. 59](source/pathfinder_#63_the_asylum_stone)  ",
+			"**Source** [Pathfinder #63: The Asylum Stone pg. 59](source/pathfinder_63_the_asylum_stone)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** shoulders; **Price** 22,000 gp; **Weight** 10 lbs.",
 			"",
@@ -2161,7 +2161,7 @@
 		"description": [
 			"## Melding Cloak",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 28](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 28](source/monster_hunters_handbook)  ",
 			"**Aura** moderate illusion and transmutation; **CL** 10th  ",
 			"**Slot** shoulders; **Price** 25,000 gp; **Weight** 1 lb.",
 			"",
@@ -2251,7 +2251,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fire shield, resist energy, creator must be a Triaxian; **Cost** 15,000 gp"
 		]
 	},
-	"highwayman's_cape": {
+	"highwaymans_cape": {
 		"name": "Highwayman's Cape",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2285,12 +2285,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Improved Disarm](feat/improved_disarm), pilfering hand, creator must be a panache user; **Cost** 17,500 gp"
 		]
 	},
-	"swordlord's_cloak_3_bonus": {
+	"swordlords_cloak_3_bonus": {
 		"name": "Swordlord's Cloak (+3 bonus)",
-		"copyof": "swordlord's_cloak_1_bonus"
+		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlord's_cloak_3": {
-		"copyof": "swordlord's_cloak_3_bonus"
+	"swordlords_cloak_3": {
+		"copyof": "swordlords_cloak_3_bonus"
 	},
 	"pauldrons_of_unflinching_fortitude_5_6_fortitude": {
 		"name": "Pauldrons of Unflinching Fortitude (+5/+6 Fortitude)",
@@ -2319,7 +2319,7 @@
 		"description": [
 			"## Plumed Mantle",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 69](source/pathfinder_#34_blood_for_blood)  ",
+			"**Source** [Pathfinder #34: Blood for Blood pg. 69](source/pathfinder_34_blood_for_blood)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** shoulders; **Price** 39,550 gp; **Weight** -;",
 			"",
@@ -2341,7 +2341,7 @@
 	"lycanthrope_skin_brown_bear_bat_crocodile_shark_tiger": {
 		"copyof": "lycanthrope_skin_skinwalker_brown_bear_bat_crocodile_shark_tiger"
 	},
-	"juggernaut's_pauldrons": {
+	"juggernauts_pauldrons": {
 		"name": "Juggernaut's Pauldrons",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2365,7 +2365,7 @@
 	"caparison_of_resistance_4": {
 		"copyof": "caparison_of_resistance_4_bonus"
 	},
-	"charlatan's_cape": {
+	"charlatans_cape": {
 		"name": "Charlatan's Cape",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2525,12 +2525,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), darkness, sculpt sound, shadow body, shadow walk; **Cost** 31,625 gp"
 		]
 	},
-	"swordlord's_cloak_4_bonus": {
+	"swordlords_cloak_4_bonus": {
 		"name": "Swordlord's Cloak (+4 bonus)",
-		"copyof": "swordlord's_cloak_1_bonus"
+		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlord's_cloak_4": {
-		"copyof": "swordlord's_cloak_4_bonus"
+	"swordlords_cloak_4": {
+		"copyof": "swordlords_cloak_4_bonus"
 	},
 	"immolation_cloak": {
 		"name": "Immolation Cloak",
@@ -2592,12 +2592,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), feather fall, fly, poison, resistance, creator must be at least caster level 12; **Cost** 39,300 gp"
 		]
 	},
-	"swordlord's_cloak_5_bonus": {
+	"swordlords_cloak_5_bonus": {
 		"name": "Swordlord's Cloak (+5 bonus)",
-		"copyof": "swordlord's_cloak_1_bonus"
+		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlord's_cloak_5": {
-		"copyof": "swordlord's_cloak_5_bonus"
+	"swordlords_cloak_5": {
+		"copyof": "swordlords_cloak_5_bonus"
 	},
 	"sleeves_of_many_garments": {
 		"name": "Sleeves of Many Garments",
@@ -2633,13 +2633,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength; **Cost** 250 gp"
 		]
 	},
-	"lover's_bangle": {
+	"lovers_bangle": {
 		"name": "Lover's Bangle",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Lover's Bangle",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 36](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 36](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** wrists; **Price** 750 gp; **Weight** 1 lb.",
 			"",
@@ -2678,7 +2678,7 @@
 		"description": [
 			"## Decorum Band",
 			"",
-			"**Source** [Pathfinder: Goblins #1 pg. 29](source/pathfinder_goblins_#1)  ",
+			"**Source** [Pathfinder: Goblins #1 pg. 29](source/pathfinder_goblins_1)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** wrists; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -2695,7 +2695,7 @@
 		"description": [
 			"## Quickmetal Bracers",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurers_armory_2)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** wrists; **Price** 1,000 gp (Silver), 2,000 gp (Cold Iron), 5,000 gp (Adamantine); **Weight** 1 lb.",
 			"",
@@ -2708,7 +2708,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), major creation; **Cost** 500 gp (Silver), 1,000 gp (Cold Iron), 2,500 gp (Adamantine)"
 		]
 	},
-	"burglar's_bracers": {
+	"burglars_bracers": {
 		"name": "Burglar's Bracers",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2725,7 +2725,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), shrink item; **Cost** 550 gp"
 		]
 	},
-	"saint's_protection_charm": {
+	"saints_protection_charm": {
 		"name": "Saint's Protection Charm",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -2772,7 +2772,7 @@
 		"description": [
 			"## Manacles of Cooperation",
 			"",
-			"**Source** [Ultimate Equipment pg. 274](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 274](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_players_guide)  ",
 			"**Aura** faint enchantment; **CL** 1st  ",
 			"**Slot** wrist; **Price** 2,000 gp; **Weight** 2 lbs.",
 			"",
@@ -2831,7 +2831,7 @@
 		"description": [
 			"## Shackles of Compliance",
 			"",
-			"**Source** [Ultimate Equipment pg. 274](source/ultimate_equipment), [Pathfinder #55: The Wormwood Mutiny pg. 58](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Ultimate Equipment pg. 274](source/ultimate_equipment), [Pathfinder #55: The Wormwood Mutiny pg. 58](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** wrist; **Price** 3,280 gp; **Weight** 2 lbs.",
 			"",
@@ -2848,7 +2848,7 @@
 		"name": "Bracers of Armor (+2)",
 		"copyof": "bracers_of_armor_1"
 	},
-	"bracers_of_falcon's_aim": {
+	"bracers_of_falcons_aim": {
 		"name": "Bracers of Falcon's Aim",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2865,7 +2865,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aspect of the falcon; **Cost** 2,000 gp"
 		]
 	},
-	"inquisitor's_bastion_vambraces": {
+	"inquisitors_bastion_vambraces": {
 		"name": "Inquisitor's Bastion Vambraces",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2892,7 +2892,7 @@
 		"description": [
 			"## Bands of Unbreakable Camaraderie",
 			"",
-			"**Source** [Adventurer's Guide pg. 147](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 147](source/adventurers_guide)  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
@@ -2970,7 +2970,7 @@
 		"description": [
 			"## Bone Beads",
 			"",
-			"**Source** [Pathfinder #48: Shadows of Gallowspire pg. 35](source/pathfinder_#48_shadows_of_gallowspire)  ",
+			"**Source** [Pathfinder #48: Shadows of Gallowspire pg. 35](source/pathfinder_48_shadows_of_gallowspire)  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** wrist; **Price** 6,000 gp; **Weight** -;",
 			"",
@@ -3051,7 +3051,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), crushing despair, creator must have the raging song class feature; **Cost** 3,500 gp"
 		]
 	},
-	"armiger's_panoply": {
+	"armigers_panoply": {
 		"name": "Armiger's Panoply",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
@@ -3131,7 +3131,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), calm emotions, charm person, cure moderate wounds, prayer, shadow weapon; **Cost** 4,000 gp"
 		]
 	},
-	"duelist's_vambraces": {
+	"duelists_vambraces": {
 		"name": "Duelist's Vambraces",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3182,7 +3182,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), heroism; **Cost** 4,000 gp"
 		]
 	},
-	"harvester's_bindings": {
+	"harvesters_bindings": {
 		"name": "Harvester's Bindings",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -3209,7 +3209,7 @@
 		"description": [
 			"## Bracelets of Defiant Wind",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 69](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 69](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate conjuration and evocation [air]; **CL** 10th  ",
 			"**Slot** wrists; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -3266,7 +3266,7 @@
 	"fate_woven_braid_of_the_norns": {
 		"copyof": "fate-woven_braid_of_the_norns"
 	},
-	"seducer's_bane": {
+	"seducers_bane": {
 		"name": "Seducer's Bane",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3327,7 +3327,7 @@
 		"description": [
 			"## Lidless Charm Bracelet",
 			"",
-			"**Source** [Pathfinder #116: Fangs of War pg. 46](source/pathfinder_#116_fangs_of_war)  ",
+			"**Source** [Pathfinder #116: Fangs of War pg. 46](source/pathfinder_116_fangs_of_war)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** wrists; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -3359,7 +3359,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bless weapon; **Cost** 5,750 gp"
 		]
 	},
-	"arrowmaster's_bracers": {
+	"arrowmasters_bracers": {
 		"name": "Arrowmaster's Bracers",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3429,7 +3429,7 @@
 		"description": [
 			"## Bracelet of Mercy",
 			"",
-			"**Source** [Ultimate Equipment pg. 270](source/ultimate_equipment), [Advanced Player's Guide pg. 300](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 270](source/ultimate_equipment), [Advanced Player's Guide pg. 300](source/advanced_players_guide)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** wrist; **Price** 15,000 gp; **Weight** -;",
 			"",
@@ -3449,7 +3449,7 @@
 		"description": [
 			"## Ioun Spite Bracers",
 			"",
-			"**Source** [Adventurer's Guide pg. 36](source/adventurer's_guide), [Agents of Evil pg. 29](source/agents_of_evil)  ",
+			"**Source** [Adventurer's Guide pg. 36](source/adventurers_guide), [Agents of Evil pg. 29](source/agents_of_evil)  ",
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** wrists; **Price** 15,000 gp; **Weight** 2 lbs.",
 			"",
@@ -3555,7 +3555,7 @@
 		"description": [
 			"## Bracers of Celestial Intervention",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoners_handbook)  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** wrist; **Price** 16,000 gp; **Weight** 1 lb.",
 			"",
@@ -3572,7 +3572,7 @@
 		"description": [
 			"## Silver Smite Bracelet",
 			"",
-			"**Source** [Advanced Player's Guide pg. 309](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 309](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** wrist; **Price** 16,000 gp; **Weight** 1 lb.",
 			"",
@@ -3663,7 +3663,7 @@
 		"description": [
 			"## Armband of the Golden Serpent",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 62](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 62](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** wrist; **Price** 20,000 gp; **Weight** 3 lbs.",
 			"",
@@ -3748,7 +3748,7 @@
 		"description": [
 			"## Swallowtail Bracers",
 			"",
-			"**Source** [Pathfinder #75: Demon's Heresy pg. 63](source/pathfinder_#75_demon's_heresy)  ",
+			"**Source** [Pathfinder #75: Demon's Heresy pg. 63](source/pathfinder_75_demons_heresy)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** wrists; **Price** 27,000 gp; **Weight** 1 lb.",
 			"",
@@ -3842,7 +3842,7 @@
 		"description": [
 			"## Electro-Temporal Bracer",
 			"",
-			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 74](source/pathfinder_#122_into_the_shattered_continent)  ",
+			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 74](source/pathfinder_122_into_the_shattered_continent)  ",
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** wrists; **Price** 32,000 gp; **Weight** 1 lb.",
 			"",
@@ -3864,7 +3864,7 @@
 		"description": [
 			"## Thorned Manacles",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 29](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 29](source/demon_hunters_handbook)  ",
 			"**Aura** moderate abjuration and transmutation; **CL** 7th  ",
 			"**Slot** wrist; **Price** 35,600 gp; **Weight** 2 lbs.",
 			"",
@@ -3934,7 +3934,7 @@
 			"**Reward:** By handling a magic item for 1 minute, the wearer can identify its properties and command word as if she had successfully examined the item using [detect magic](spell/detect_magic) and succeeded at a Spellcraft check. This ability does not reveal whether the item is cursed unless the wearer's character level is equal to or greater than the caster level of the item."
 		]
 	},
-	"carved_king's_band": {
+	"carved_kings_band": {
 		"name": "Carved King's Band",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -4012,7 +4012,7 @@
 			"**Reward:** Dinosaurs, dire tigers, mastodons, and other megafauna will not willingly attack the bearer unless they are magically compelled to do so or the bearer attacks them first. In addition, the bearer can spend one use to cause the totemic figurine to take the form of two different creatures at once."
 		]
 	},
-	"trailblazer's_boots": {
+	"trailblazers_boots": {
 		"name": "Trailblazer's Boots",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -4066,7 +4066,7 @@
 			"**Reward:** The wayfinder of cooperation can be simultaneously attuned to a number of additional ioun stones equal to half the bearer's character level, rather than a single ioun stone."
 		]
 	},
-	"crusader's_scabbard": {
+	"crusaders_scabbard": {
 		"name": "Crusader's Scabbard",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -4090,7 +4090,7 @@
 			"**Communication** speech (Common)"
 		]
 	},
-	"lady_ninahu's_doll": {
+	"lady_ninahus_doll": {
 		"name": "Lady Ninahu's Doll",
 		"sources": [ "Lost Treasures" ],
 		"description": [
@@ -4116,7 +4116,7 @@
 			"**Communication** empathy"
 		]
 	},
-	"hollis's_lucky_rock": {
+	"holliss_lucky_rock": {
 		"name": "Hollis's Lucky Rock",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -4226,7 +4226,7 @@
 		"description": [
 			"## The Bloodwind",
 			"",
-			"**Source** [Pathfinder #111: Dreams of the Yellow King pg. 38](source/pathfinder_#111_dreams_of_the_yellow_king)  ",
+			"**Source** [Pathfinder #111: Dreams of the Yellow King pg. 38](source/pathfinder_111_dreams_of_the_yellow_king)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 126,900 gp; **Weight** 4 lbs.",
 			"",
@@ -4449,7 +4449,7 @@
 		"description": [
 			"## Carnivorous Jar",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**Aura** moderate necromancy; **CL** 11th  ",
 			"**Slot** none; **Weight** 10 lbs.",
 			"",
@@ -4495,7 +4495,7 @@
 		"description": [
 			"## Cloak of Immolation",
 			"",
-			"**Source** [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** shoulders; **Weight** 1 lb.",
@@ -4516,7 +4516,7 @@
 		"description": [
 			"## Crown of Blindness",
 			"",
-			"**Source** [Ultimate Equipment pg. 345](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 345](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** headband; **Weight** 1 lb.",
@@ -4656,7 +4656,7 @@
 		"description": [
 			"## Girdle of Opposite Gender",
 			"",
-			"**Source** [Ultimate Equipment pg. 346](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 346](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** belt; **Weight** 1 lb.",
 			"",
@@ -4695,7 +4695,7 @@
 		"description": [
 			"## Hat of Hatreds",
 			"",
-			"**Source** [Ultimate Equipment pg. 346](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 346](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** head; **Weight** -",
@@ -4813,13 +4813,13 @@
 			"**Requirements** incense of meditation; **Cost** -"
 		]
 	},
-	"kleptomaniac's_gloves": {
+	"kleptomaniacs_gloves": {
 		"name": "Kleptomaniac's Gloves",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Kleptomaniac's Gloves",
 			"",
-			"**Source** [Antihero's Handbook pg. 31](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 31](source/antiheros_handbook)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** hands; **Weight** 1 lb.",
 			"",
@@ -4830,7 +4830,7 @@
 			"**Requirements** gloves of larceny; **Cost** -"
 		]
 	},
-	"liar's_well": {
+	"liars_well": {
 		"name": "Liar's Well",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
@@ -4951,7 +4951,7 @@
 			"**Requirements** mirror of life trapping, mirror of opposition; **Cost** -"
 		]
 	},
-	"monkey's_paw_cursed": {
+	"monkeys_paw_cursed": {
 		"name": "Monkey's Paw (cursed)",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -5023,7 +5023,7 @@
 		"description": [
 			"## One-Way Window (cursed)",
 			"",
-			"**Source** [Ultimate Equipment pg. 348](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 348](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Weight** 1 lb.",
@@ -5047,7 +5047,7 @@
 		"description": [
 			"## Overcharged Staff",
 			"",
-			"**Source** [Antihero's Handbook pg. 31](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 31](source/antiheros_handbook)  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Weight** 5 lbs.",
 			"",
@@ -5169,7 +5169,7 @@
 		"description": [
 			"## Riot Pipes",
 			"",
-			"**Source** [Ultimate Equipment pg. 350](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 350](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** none; **Weight** 3 lbs.",
@@ -5354,13 +5354,13 @@
 			"**Requirements** any figurine of wondrous power; **Cost** -"
 		]
 	},
-	"unspeakable_one's_vestments": {
+	"unspeakable_ones_vestments": {
 		"name": "Unspeakable One's Vestments",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
 			"## Unspeakable One's Vestments",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 33](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 33](source/pathfinder_113_what_grows_within)  ",
 			"**Aura** strong varied; **CL** 15th  ",
 			"**Slot** body; **Weight** 1 lb.",
 			"",

@@ -33,7 +33,7 @@
 		"description": [
 			"## Mistmail",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 285](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 285](source/advanced_players_guide)  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** armor; **Price** 2,250 gp; **Weight** 25 lbs.",
 			"",
@@ -78,7 +78,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, [protection from good](spell/protection_from_good), Curse subdomain or evil eye hex; **Price** 1,340 gp"
 		]
 	},
-	"inheritor's_breastplate": {
+	"inheritors_breastplate": {
 		"name": "Inheritor's Breastplate",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
@@ -87,7 +87,7 @@
 		"description": [
 			"## Inheritor's Breastplate",
 			"",
-			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_#103_the_hellfire_compact), [Inner Sea Gods pg. 252](source/inner_sea_gods)  ",
+			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_103_the_hellfire_compact), [Inner Sea Gods pg. 252](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration and transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 2,430 gp; **Weight** 30 lbs.",
 			"",
@@ -125,7 +125,7 @@
 		"description": [
 			"## Iadaran Dress Uniform",
 			"",
-			"**Source** [Merchant's Manifest pg. 12](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 12](source/merchants_manifest)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 2,625 gp; **Weight** 5 lbs.",
 			"",
@@ -181,7 +181,7 @@
 		"description": [
 			"## Red Stalker Armor",
 			"",
-			"**Source** [Adventurer's Guide pg. 159](source/adventurer's_guide), [Inner Sea Gods pg. 253](source/inner_sea_gods)  ",
+			"**Source** [Adventurer's Guide pg. 159](source/adventurers_guide), [Inner Sea Gods pg. 253](source/inner_sea_gods)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** armor; **Price** 3,035 gp; **Weight** 15 lbs.",
 			"",
@@ -267,7 +267,7 @@
 		"description": [
 			"## Djezet Skin",
 			"",
-			"**Source** [Armor Master's Handbook pg. 25](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 25](source/armor_masters_handbook)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** armor; **Price** 3,410 gp; **Weight** 7 lbs.",
 			"",
@@ -402,7 +402,7 @@
 	"half_plate_of_the_dark_prince": {
 		"copyof": "half-plate_of_the_dark_prince"
 	},
-	"toiler's_armor": {
+	"toilers_armor": {
 		"name": "Toiler's Armor",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -436,7 +436,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, interrogation; **Price** 2,160 gp"
 		]
 	},
-	"forgefather's_half-plate": {
+	"forgefathers_half-plate": {
 		"name": "Forgefather's Half-Plate",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -453,8 +453,8 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), know the enemy, mending, [protection from evil](spell/protection_from_evil), spark; **Price** 2,465 gp"
 		]
 	},
-	"forgefather's_half_plate": {
-		"copyof": "forgefather's_half-plate"
+	"forgefathers_half_plate": {
+		"copyof": "forgefathers_half-plate"
 	},
 	"veiled_chain": {
 		"name": "Veiled Chain",
@@ -490,7 +490,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm person, [summon monster I](spell/summon_monster_1); **Price** 2,570 gp"
 		]
 	},
-	"lucky_drunk's_mail": {
+	"lucky_drunks_mail": {
 		"name": "Lucky Drunk's Mail",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -575,7 +575,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), buoyancy, water walk; **Price** 2,500 gp"
 		]
 	},
-	"golden_judge's_breastplate": {
+	"golden_judges_breastplate": {
 		"name": "Golden Judge's Breastplate",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -628,13 +628,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength; **Price** 2,665 gp"
 		]
 	},
-	"akhentepi's_armor": {
+	"akhentepis_armor": {
 		"name": "Akhentepi's Armor",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
 			"## Akhentepi's Armor",
 			"",
-			"**Source** [Pathfinder #79: The Half-Dead City pg. 60](source/pathfinder_#79_the_half-dead_city)  ",
+			"**Source** [Pathfinder #79: The Half-Dead City pg. 60](source/pathfinder_79_the_half-dead_city)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** armor; **Price** 5,235 gp; **Weight** 10 lbs.",
 			"",
@@ -716,7 +716,7 @@
 	"all_seeing_armor": {
 		"copyof": "all-seeing_armor"
 	},
-	"gray_master's_leathers": {
+	"gray_masters_leathers": {
 		"name": "Gray Master's Leathers",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -739,7 +739,7 @@
 		"description": [
 			"## Shifting Jerkin",
 			"",
-			"**Source** [Armor Master's Handbook pg. 25](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 25](source/armor_masters_handbook)  ",
 			"**Aura** faint illusion and transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 5,965 gp; **Weight** 8 lbs.",
 			"",
@@ -756,7 +756,7 @@
 		"description": [
 			"## Arachnid Harness",
 			"",
-			"**Source** [Armor Master's Handbook pg. 25](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 25](source/armor_masters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** armor; **Price** 6,160 gp; **Weight** 15 lbs.",
 			"",
@@ -792,7 +792,7 @@
 		"description": [
 			"## Locust Cuirass",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 58](source/pathfinder_#81_shifting_sands)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 58](source/pathfinder_81_shifting_sands)  ",
 			"**Aura** moderate conjuration; **CL** 6th  ",
 			"**Slot** armor; **Price** 6,565 gp; **Weight** 8 lbs.",
 			"",
@@ -862,7 +862,7 @@
 		"description": [
 			"## Trained Barding",
 			"",
-			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 27](source/armor_masters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** armor; **Price** 8,350 gp; **Weight** 30 lbs.",
 			"",
@@ -913,7 +913,7 @@
 		"description": [
 			"## Snakescale Armor",
 			"",
-			"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 39](source/pathfinder_#42_sanctum_of_the_serpent_god)  ",
+			"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 39](source/pathfinder_42_sanctum_of_the_serpent_god)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** armor; **Price** 8,900 gp; **Weight** 20 lbs.",
 			"",
@@ -947,7 +947,7 @@
 		"description": [
 			"## Stone-eater Armor",
 			"",
-			"**Source** [Armor Master's Handbook pg. 29](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 29](source/armor_masters_handbook)  ",
 			"**Aura** moderate abjuration and evocation; **CL** 10th  ",
 			"**Slot** armor; **Price** 8,950 gp; **Weight** 75 lbs.",
 			"",
@@ -963,13 +963,13 @@
 	"stone_eater_armor": {
 		"copyof": "stone-eater_armor"
 	},
-	"giant's_nail_scale_mail": {
+	"giants_nail_scale_mail": {
 		"name": "Giant's Nail Scale Mail",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"## Giant's Nail Scale Mail",
 			"",
-			"**Source** [Pathfinder #93: Forge of the Giant God pg. 16](source/pathfinder_#93_forge_of_the_giant_god)  ",
+			"**Source** [Pathfinder #93: Forge of the Giant God pg. 16](source/pathfinder_93_forge_of_the_giant_god)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** armor; **Price** 9,200 gp; **Weight** 30 lbs.",
 			"",
@@ -1034,7 +1034,7 @@
 			"This nonmagical breastplate is made of adamantine, giving its wearer damage reduction 2/-."
 		]
 	},
-	"soothsayer's_raiment": {
+	"soothsayers_raiment": {
 		"name": "Soothsayer's Raiment",
 		"sources": [
 			"Ultimate Equipment",
@@ -1043,7 +1043,7 @@
 		"description": [
 			"## Soothsayer's Raiment",
 			"",
-			"**Source** [Ultimate Equipment pg. 129](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 129](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_players_guide)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** armor; **Price** 10,300 gp; **Weight** 40 lbs.",
 			"",
@@ -1152,7 +1152,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), plane shift; **Price** 5,580 gp"
 		]
 	},
-	"emissary's_breastplate": {
+	"emissarys_breastplate": {
 		"name": "Emissary's Breastplate",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
@@ -1169,13 +1169,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), arcane mark, command, tongues, creator must have 5 ranks in Knowledge (nobility); **Price** 5,850 gp"
 		]
 	},
-	"uskroth's_armor": {
+	"uskroths_armor": {
 		"name": "Uskroth's Armor",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Uskroth's Armor",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 55](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 55](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** armor; **Price** 11,350 gp; **Weight** 100 lbs.",
 			"",
@@ -1211,7 +1211,7 @@
 		"description": [
 			"## Bilgewater Coat",
 			"",
-			"**Source** [Merchant's Manifest pg. 25](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 25](source/merchants_manifest)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 11,655 gp; **Weight** 10 lbs.",
 			"",
@@ -1231,7 +1231,7 @@
 		"description": [
 			"## Boneless Leather",
 			"",
-			"**Source** [Ultimate Equipment pg. 124](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 124](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 12,160 gp; **Weight** 15 lbs.",
 			"",
@@ -1265,7 +1265,7 @@
 		"description": [
 			"## Elemental Bulwark",
 			"",
-			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 27](source/armor_masters_handbook)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** armor; **Price** 12,300 gp; **Weight** 40 lbs.",
 			"",
@@ -1276,7 +1276,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fire shield; **Price** 6,300 gp"
 		]
 	},
-	"murderer's_blackcloth": {
+	"murderers_blackcloth": {
 		"name": "Murderer's Blackcloth",
 		"sources": [
 			"Ultimate Equipment",
@@ -1285,7 +1285,7 @@
 		"description": [
 			"## Murderer's Blackcloth",
 			"",
-			"**Source** [Ultimate Equipment pg. 128](source/ultimate_equipment), [Advanced Player's Guide pg. 285](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 128](source/ultimate_equipment), [Advanced Player's Guide pg. 285](source/advanced_players_guide)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** armor; **Price** 12,405 gp; **Weight** 10 lbs.",
 			"",
@@ -1296,13 +1296,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, invisibility, silence; **Price** 6,280 gp"
 		]
 	},
-	"honor's_panoply": {
+	"honors_panoply": {
 		"name": "Honor's Panoply",
 		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
 		"description": [
 			"## Honor's Panoply",
 			"",
-			"**Source** [Pathfinder #104: Wrath of Thrune pg. 59](source/pathfinder_#104_wrath_of_thrune)  ",
+			"**Source** [Pathfinder #104: Wrath of Thrune pg. 59](source/pathfinder_104_wrath_of_thrune)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** armor; **Price** 12,550 gp; **Weight** 50 lbs.",
 			"",
@@ -1326,7 +1326,7 @@
 		"description": [
 			"## Folding Plate",
 			"",
-			"**Source** [Ultimate Equipment pg. 126](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 126](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** armor; **Price** 12,650 gp; **Weight** 50 lbs.",
 			"",
@@ -1367,7 +1367,7 @@
 		"description": [
 			"## Legion Armor",
 			"",
-			"**Source** [Armor Master's Handbook pg. 29](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 29](source/armor_masters_handbook)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** armor; **Price** 13,400 gp; **Weight** 35 lbs.",
 			"",
@@ -1435,7 +1435,7 @@
 		"description": [
 			"## Mammoth Hide",
 			"",
-			"**Source** [Adventurer's Guide pg. 134](source/adventurer's_guide), [Inner Sea Combat pg. 52](source/inner_sea_combat), [Melee Tactics Toolbox pg. 23](source/melee_tactics_toolbox)  ",
+			"**Source** [Adventurer's Guide pg. 134](source/adventurers_guide), [Inner Sea Combat pg. 52](source/inner_sea_combat), [Melee Tactics Toolbox pg. 23](source/melee_tactics_toolbox)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 14,665 gp; **Weight** 25 lbs.",
 			"",
@@ -1452,7 +1452,7 @@
 		"description": [
 			"## Icelink Chainmail",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_#69_maiden_mother_crone)",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 61](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** armor; **Price** 15,100 gp; **Weight** 20 lbs.",
@@ -1472,7 +1472,7 @@
 		"description": [
 			"## Gale Armor",
 			"",
-			"**Source** [Armor Master's Handbook pg. 25](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 25](source/armor_masters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** armor; **Price** 15,180 gp; **Weight** -",
 			"",
@@ -1532,7 +1532,7 @@
 		"description": [
 			"## Elven Vengeance",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 115](source/adventurers_guide)  ",
 			"**Aura** strong abjuration; **CL** 12th  ",
 			"**Slot** armor; **Price** 16,150 gp; **Weight** 20 lbs.",
 			"",
@@ -1552,7 +1552,7 @@
 		"description": [
 			"## Armor of Insults",
 			"",
-			"**Source** [Ultimate Equipment pg. 124](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 124](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** armor; **Price** 16,175 gp; **Weight** 20 lbs.",
 			"",
@@ -1569,7 +1569,7 @@
 		"description": [
 			"## Skin of Klendar the Troll King",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 58](source/pathfinder_#27_what_lies_in_dust)  ",
+			"**Source** [Pathfinder #27: What Lies in Dust pg. 58](source/pathfinder_27_what_lies_in_dust)  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** armor; **Price** 16,315 gp; **Weight** 25 lbs.",
 			"",
@@ -1617,7 +1617,7 @@
 			"This full plate is made of adamantine, giving its wearer damage reduction 3/-."
 		]
 	},
-	"hero's_hauberk": {
+	"heros_hauberk": {
 		"name": "Hero's Hauberk",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -1702,7 +1702,7 @@
 		"description": [
 			"## Eagle Knight Dress Uniform",
 			"",
-			"**Source** [Adventurer's Guide pg. 76](source/adventurer's_guide), [Inner Sea Combat pg. 50](source/inner_sea_combat)  ",
+			"**Source** [Adventurer's Guide pg. 76](source/adventurers_guide), [Inner Sea Combat pg. 50](source/inner_sea_combat)  ",
 			"**Aura** moderate enchantment; **CL** 6th  ",
 			"**Slot** armor; **Price** 18,175 gp; **Weight** 20 lbs.",
 			"",
@@ -1719,7 +1719,7 @@
 		"description": [
 			"## Lifecollar Coat",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayers_handbook)  ",
 			"**Aura** moderate abjuration and necromancy; **CL** 7th  ",
 			"**Slot** chest and neck (see text); **Price** 18,200 gp; **Weight** 10 lbs.",
 			"",
@@ -1740,7 +1740,7 @@
 		"description": [
 			"## Armor of the Pure Legion",
 			"",
-			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 27](source/armor_masters_handbook)  ",
 			"**Aura** strong abjuration; **CL** 15th  ",
 			"**Slot** armor; **Price** 18,300 gp; **Weight** 30 lbs.",
 			"",
@@ -1757,7 +1757,7 @@
 		"description": [
 			"## Hide of the Dragonrider",
 			"",
-			"**Source** [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_#70_the_frozen_stars)  ",
+			"**Source** [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_70_the_frozen_stars)  ",
 			"**Aura** moderate abjuration and enchantment; **CL** 8th  ",
 			"**Slot** armor; **Price** 18,480 gp; **Weight** 25 lbs.",
 			"",
@@ -1822,7 +1822,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, feather fall, and limited wish, wish, or miracle; **Price** 9,535 gp"
 		]
 	},
-	"infiltrator's_mail": {
+	"infiltrators_mail": {
 		"name": "Infiltrator's Mail",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -1862,7 +1862,7 @@
 		"description": [
 			"## The Forbidden Name",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 42](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 42](source/pathfinder_113_what_grows_within)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** armor; **Price** 20,175 gp; **Weight** 20 lbs.",
 			"",
@@ -1881,7 +1881,7 @@
 		"description": [
 			"## Howling Skull Armor",
 			"",
-			"**Source** [Pathfinder #59: The Price of Infamy pg. 60](source/pathfinder_#59_the_price_of_infamy)  ",
+			"**Source** [Pathfinder #59: The Price of Infamy pg. 60](source/pathfinder_59_the_price_of_infamy)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** armor; **Price** 20,375 gp; **Weight** 20 lbs.",
 			"",
@@ -1898,7 +1898,7 @@
 		"description": [
 			"## Do-Maru of Broken Flesh",
 			"",
-			"**Source** [Pathfinder #52: Forest of Spirits pg. 60](source/pathfinder_#52_forest_of_spirits)  ",
+			"**Source** [Pathfinder #52: Forest of Spirits pg. 60](source/pathfinder_52_forest_of_spirits)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** armor; **Price** 20,550 gp; **Weight** 30 lbs.",
 			"",
@@ -1920,7 +1920,7 @@
 		"description": [
 			"## Raiment of the Shining Crusade",
 			"",
-			"**Source** [Armor Master's Handbook pg. 29](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 29](source/armor_masters_handbook)  ",
 			"**Aura** moderate abjuration and evocation; **CL** 7th  ",
 			"**Slot** armor; **Price** 20,750 gp; **Weight** 50 lbs.",
 			"",
@@ -1933,7 +1933,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, [protection from evil](spell/protection_from_evil); **Price** 10,750 gp"
 		]
 	},
-	"war_commander's_field_plate": {
+	"war_commanders_field_plate": {
 		"name": "War Commander's Field Plate",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
@@ -1958,7 +1958,7 @@
 		"description": [
 			"## Armor of Fragmenting Stone",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoners_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** armor; **Price** 21,650 gp; **Weight** 60 lbs.",
 			"",
@@ -1966,7 +1966,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4), creator must have visited the Elemental Plane of Earth; **Price** 11,650 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4), creator must have visited the Elemental Plane of Earth; **Price** 11,650 gp"
 		]
 	},
 	"gug_hide": {
@@ -2023,13 +2023,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fly, creator must be good; **Price** 11,350 gp"
 		]
 	},
-	"death's_preservation_banded_mail": {
+	"deaths_preservation_banded_mail": {
 		"name": "Death's Preservation Banded Mail",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Death's Preservation Banded Mail",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 30](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 30](source/dragonslayers_handbook)",
 			"",
 			"**Aura** strong conjuration and divination; **CL** 18th  ",
 			"**Slot** armor; **Price** 22,400 gp; **Weight** 35 lbs.",
@@ -2041,7 +2041,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contingency, gentle repose, limited wish or miracle, word of recall; **Price** 11,200 gp"
 		]
 	},
-	"armiger's_armor": {
+	"armigers_armor": {
 		"name": "Armiger's Armor",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2064,7 +2064,7 @@
 		"description": [
 			"## Ghost Mirror Armor",
 			"",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 62](source/pathfinder_#51_the_hungry_storm)  ",
+			"**Source** [Pathfinder #51: The Hungry Storm pg. 62](source/pathfinder_51_the_hungry_storm)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** 22,675 gp; **Weight** 45 lbs.",
 			"",
@@ -2081,7 +2081,7 @@
 		"description": [
 			"## Armor of the Pious",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 62](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 62](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** moderate abjuration [good]; **CL** 9th  ",
 			"**Slot** armor; **Price** 23,300 gp; **Weight** 25 lbs.",
 			"",
@@ -2114,7 +2114,7 @@
 	"goblin_plate": {
 		"copyof": "goblin_plate_goblin"
 	},
-	"buccaneer's_breastplate": {
+	"buccaneers_breastplate": {
 		"name": "Buccaneer's Breastplate",
 		"sources": [
 			"Ultimate Equipment",
@@ -2123,7 +2123,7 @@
 		"description": [
 			"## Buccaneer's Breastplate",
 			"",
-			"**Source** [Ultimate Equipment pg. 124](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 124](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** armor; **Price** 23,850 gp; **Weight** 30 lbs.",
 			"",
@@ -2140,7 +2140,7 @@
 		"description": [
 			"## Dragonform Armor",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 30](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 30](source/dragonslayers_handbook)",
 			"",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 24,120 gp; **Weight** 15 lbs.",
@@ -2152,7 +2152,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [form of the dragon I](spell/form_of_the_dragon_1); **Price** 12,060 gp"
 		]
 	},
-	"purgatory's_cowl": {
+	"purgatorys_cowl": {
 		"name": "Purgatory's Cowl",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -2175,7 +2175,7 @@
 		"description": [
 			"## Aldori Dueling Armor",
 			"",
-			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 27](source/armor_masters_handbook)  ",
 			"**Aura** moderate illusion and transmutation; **CL** 9th  ",
 			"**Slot** armor; **Price** 24,200 gp; **Weight** 20 lbs.",
 			"",
@@ -2212,7 +2212,7 @@
 		"description": [
 			"## Suit of Inverted Jade",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 70](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 70](source/pathfinder_139_the_dead_road)  ",
 			"**Aura** strong necromancy; **CL** 14th  ",
 			"**Slot** armor; **Price** 25,000 gp; **Weight** 50 lbs.",
 			"",
@@ -2271,7 +2271,7 @@
 		"description": [
 			"## Forsaken Banded Mail",
 			"",
-			"**Source** [Ultimate Equipment pg. 126](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 126](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** armor; **Price** 25,400 gp; **Weight** 35 lbs.",
 			"",
@@ -2288,7 +2288,7 @@
 		"description": [
 			"## Armor of the Tireless Warrior",
 			"",
-			"**Source** [Pathfinder #53: Tide of Honor pg. 60](source/pathfinder_#53_tide_of_honor)  ",
+			"**Source** [Pathfinder #53: Tide of Honor pg. 60](source/pathfinder_53_tide_of_honor)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** armor; **Price** 25,900 gp; **Weight** 15 lbs.",
 			"",
@@ -2463,7 +2463,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy; **Price** 15,000 gp"
 		]
 	},
-	"alchemist's_suit": {
+	"alchemists_suit": {
 		"name": "Alchemist's Suit",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2486,7 +2486,7 @@
 		"description": [
 			"## Skyplate Armor",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 30,300 gp; **Weight** 20 lbs.",
 			"",
@@ -2520,13 +2520,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), control water, [elemental body I](spell/elemental_body_1); **Price** 15,350 gp"
 		]
 	},
-	"maiden's_panoply": {
+	"maidens_panoply": {
 		"name": "Maiden's Panoply",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Maiden's Panoply",
 			"",
-			"**Source** [Adventurer's Guide pg. 87](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 87](source/adventurers_guide)  ",
 			"**Aura** moderate abjuration and divination; **CL** 11th  ",
 			"**Slot** armor; **Price** 30,650 gp; **Weight** 50 lbs.",
 			"",
@@ -2537,7 +2537,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), detect thoughts, telepathy; **Price** 16,150 gp"
 		]
 	},
-	"diviner's_blight": {
+	"diviners_blight": {
 		"name": "Diviner's Blight",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -2596,7 +2596,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creeping doom, spell turning, [vermin shape II](spell/vermin_shape_2); **Price** 16,350 gp"
 		]
 	},
-	"advocate's_armor": {
+	"advocates_armor": {
 		"name": "Advocate's Armor",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2619,7 +2619,7 @@
 		"description": [
 			"## Clockwork Armor",
 			"",
-			"**Source** [Armor Master's Handbook pg. 28](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 28](source/armor_masters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 33,350 gp; **Weight** 60 lbs.",
 			"",
@@ -2640,7 +2640,7 @@
 		"description": [
 			"## Eel Skin Armor",
 			"",
-			"**Source** [Pathfinder #58: Island of Empty Eyes pg. 60](source/pathfinder_#58_island_of_empty_eyes)  ",
+			"**Source** [Pathfinder #58: Island of Empty Eyes pg. 60](source/pathfinder_58_island_of_empty_eyes)  ",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** armor; **Price** 33,810 gp; **Weight** 15 lbs.",
 			"",
@@ -2712,7 +2712,7 @@
 		"description": [
 			"## Giant-Hide Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
@@ -2797,7 +2797,7 @@
 		"description": [
 			"## Giant-Hide Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
@@ -2813,7 +2813,7 @@
 	"giant_hide_armor_hill_giant": {
 		"copyof": "giant-hide_armor_hill_giant"
 	},
-	"wizard's_mail": {
+	"wizards_mail": {
 		"name": "Wizard's Mail",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2852,7 +2852,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion; **Price** 26,955 gp"
 		]
 	},
-	"field_medic's_breastplate": {
+	"field_medics_breastplate": {
 		"name": "Field Medic's Breastplate",
 		"sources": [ "Champions of Purity" ],
 		"description": [
@@ -2876,7 +2876,7 @@
 		"description": [
 			"## Nightskin",
 			"",
-			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 68](source/pathfinder_#30_the_twice-damned_prince)  ",
+			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 68](source/pathfinder_30_the_twice-damned_prince)  ",
 			"**Aura** moderate illusion (evil); **CL** 10th  ",
 			"**Slot** armor; **Price** 53,100 gp; **Weight** 25 lbs.",
 			"",
@@ -2889,7 +2889,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), major image, true seeing; **Price** 26,550 gp"
 		]
 	},
-	"tiger's_hide": {
+	"tigers_hide": {
 		"name": "Tiger's Hide",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
@@ -2915,7 +2915,7 @@
 		"description": [
 			"## Giant-Hide Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
@@ -2940,7 +2940,7 @@
 		"description": [
 			"## Giant-Hide Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
@@ -2982,7 +2982,7 @@
 		"description": [
 			"## Gelugon Plate",
 			"",
-			"**Source** [Adventurer's Guide pg. 97](source/adventurer's_guide), [Inner Sea Combat pg. 51](source/inner_sea_combat)  ",
+			"**Source** [Adventurer's Guide pg. 97](source/adventurers_guide), [Inner Sea Combat pg. 51](source/inner_sea_combat)  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 7th  ",
 			"**Slot** armor; **Price** 60,950 gp; **Weight** 50 lbs.",
 			"",
@@ -3037,7 +3037,7 @@
 		"description": [
 			"## O-Yoroi of Imperial Rule",
 			"",
-			"**Source** [Pathfinder #54: The Empty Throne pg. 60](source/pathfinder_#54_the_empty_throne)  ",
+			"**Source** [Pathfinder #54: The Empty Throne pg. 60](source/pathfinder_54_the_empty_throne)  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** armor; **Price** 68,400 gp; **Weight** 45 lbs.",
 			"",
@@ -3060,7 +3060,7 @@
 		"description": [
 			"## Giant-Hide Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
@@ -3085,7 +3085,7 @@
 		"description": [
 			"## Giant-Hide Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 127](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
@@ -3110,7 +3110,7 @@
 		"description": [
 			"## Daystar Half-Plate",
 			"",
-			"**Source** [Ultimate Equipment pg. 125](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 125](source/ultimate_equipment), [Advanced Player's Guide pg. 284](source/advanced_players_guide)  ",
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** armor; **Price** 81,250 gp; **Weight** 50 lbs.",
 			"",
@@ -3357,7 +3357,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), know direction, warp wood; **Price** 1,342 gp"
 		]
 	},
-	"caster's_shield": {
+	"casters_shield": {
 		"name": "Caster's Shield",
 		"sources": [
 			"Ultimate Equipment",
@@ -3379,7 +3379,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll), creator must be at least 6th level; **Price** 1,653 gp"
 		]
 	},
-	"bronze_whisperer's_shield": {
+	"bronze_whisperers_shield": {
 		"name": "Bronze Whisperer's Shield",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -3402,7 +3402,7 @@
 		"description": [
 			"## Scarab Shield",
 			"",
-			"**Source** [Pathfinder #79: The Half-Dead City pg. 61](source/pathfinder_#79_the_half-dead_city)  ",
+			"**Source** [Pathfinder #79: The Half-Dead City pg. 61](source/pathfinder_79_the_half-dead_city)  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** shield; **Price** 4,399 gp; **Weight** 6 lbs.",
 			"",
@@ -3417,7 +3417,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blessing of courage and life, sanctuary; **Price** 2,279 gp"
 		]
 	},
-	"burglar's_buckler": {
+	"burglars_buckler": {
 		"name": "Burglar's Buckler",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3442,7 +3442,7 @@
 		"description": [
 			"## Challenging Shield",
 			"",
-			"**Source** [Armor Master's Handbook pg. 31](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 31](source/armor_masters_handbook)  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** shield; **Price** 5,170 gp; **Weight** 15 lbs.",
 			"",
@@ -3511,7 +3511,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects; **Price** 3,659 gp"
 		]
 	},
-	"dragonslayer's_shield": {
+	"dragonslayers_shield": {
 		"name": "Dragonslayer's Shield",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3534,7 +3534,7 @@
 		"description": [
 			"## Shield of Sunrise",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayers_handbook)  ",
 			"**Aura** moderate evocation; **CL** 5th  ",
 			"**Slot** shield; **Price** 7,659 gp; **Weight** 6 lbs.",
 			"",
@@ -3580,7 +3580,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_nature's_ally_1); **Price** 4,158 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_natures_ally_1); **Price** 4,158 gp"
 		]
 	},
 	"collapsible_tower": {
@@ -3600,7 +3600,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 4,170 gp"
 		]
 	},
-	"lion's_shield": {
+	"lions_shield": {
 		"name": "Lion's Shield",
 		"sources": [
 			"Ultimate Equipment",
@@ -3617,16 +3617,16 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally IV](spell/summon_nature's_ally_4); **Price** 4,670 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally IV](spell/summon_natures_ally_4); **Price** 4,670 gp"
 		]
 	},
-	"maiden's_aegis": {
+	"maidens_aegis": {
 		"name": "Maiden's Aegis",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Maiden's Aegis",
 			"",
-			"**Source** [Adventurer's Guide pg. 87](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 87](source/adventurers_guide)  ",
 			"**Aura** moderate abjuration; **CL** 6th  ",
 			"**Slot** shield; **Price** 9,170 gp; **Weight** 15 lbs.",
 			"",
@@ -3654,7 +3654,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, light; **Price** 4,975 gp"
 		]
 	},
-	"caster's_shield_greater": {
+	"casters_shield_greater": {
 		"name": "Caster's Shield, Greater",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3671,16 +3671,16 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll); **Price** 5,153 gp"
 		]
 	},
-	"greater_caster's_shield": {
-		"copyof": "caster's_shield_greater"
+	"greater_casters_shield": {
+		"copyof": "casters_shield_greater"
 	},
-	"gunner's_buckler": {
+	"gunners_buckler": {
 		"name": "Gunner's Buckler",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Gunner's Buckler",
 			"",
-			"**Source** [Armor Master's Handbook pg. 31](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 31](source/armor_masters_handbook)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** shield; **Price** 10,155 gp; **Weight** 2 lbs.",
 			"",
@@ -3691,7 +3691,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, shield; **Price** 5,155 gp"
 		]
 	},
-	"stalker's_fang_shoanti": {
+	"stalkers_fang_shoanti": {
 		"name": "Stalker's Fang (Shoanti)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -3710,8 +3710,8 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, keen edge, creator must be a Shoanti; **Price** 5,962 gp"
 		]
 	},
-	"stalker's_fang": {
-		"copyof": "stalker's_fang_shoanti"
+	"stalkers_fang": {
+		"copyof": "stalkers_fang_shoanti"
 	},
 	"celestial_shield": {
 		"name": "Celestial Shield",
@@ -3758,7 +3758,7 @@
 		"description": [
 			"## Phalanx Shield",
 			"",
-			"**Source** [Armor Master's Handbook pg. 31](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 31](source/armor_masters_handbook)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** shield; **Price** 14,080 gp; **Weight** 30 lbs.",
 			"",
@@ -3826,7 +3826,7 @@
 		"description": [
 			"## Surefooted Shield",
 			"",
-			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 18](source/pathfinder_#94_ice_tomb_of_the_giant_queen)  ",
+			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 18](source/pathfinder_94_ice_tomb_of_the_giant_queen)  ",
 			"**Aura** moderate abjuration; **CL** 6th  ",
 			"**Slot** shield; **Price** 14,200 gp; **Weight** 15 lbs.",
 			"",
@@ -3865,7 +3865,7 @@
 		"description": [
 			"## Battlement Shield",
 			"",
-			"**Source** [Ultimate Equipment pg. 130](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 130](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_players_guide)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** shield; **Price** 16,180 gp; **Weight** 45 lbs.",
 			"",
@@ -3876,7 +3876,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wall of stone; **Price** 8,180 gp"
 		]
 	},
-	"shieldmarshal's_ward": {
+	"shieldmarshals_ward": {
 		"name": "Shieldmarshal's Ward",
 		"sources": [ "Mythic Origins" ],
 		"description": [
@@ -3962,7 +3962,7 @@
 		"description": [
 			"## Bloodfeast Shield",
 			"",
-			"**Source** [Monster Codex pg. 237](source/monster_codex), [Pathfinder #48: Shadows of Gallowspire pg. 65](source/pathfinder_#48_shadows_of_gallowspire)  ",
+			"**Source** [Monster Codex pg. 237](source/monster_codex), [Pathfinder #48: Shadows of Gallowspire pg. 65](source/pathfinder_48_shadows_of_gallowspire)  ",
 			"**Aura** strong necromancy; **CL** 12th  ",
 			"**Slot** shield; **Price** 18,770 gp; **Weight** 15 lbs.",
 			"",
@@ -4022,7 +4022,7 @@
 		"description": [
 			"## Fortress Shield",
 			"",
-			"**Source** [Ultimate Equipment pg. 132](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 132](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_players_guide)  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** shield; **Price** 19,180 gp; **Weight** 45 lbs.",
 			"",
@@ -4074,7 +4074,7 @@
 	"lyrune_quah_klar": {
 		"copyof": "lyrune-quah_klar"
 	},
-	"wyrmslayer's_shield": {
+	"wyrmslayers_shield": {
 		"name": "Wyrmslayer's Shield",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4185,7 +4185,7 @@
 		"description": [
 			"## Lens of the Dark Tapestry",
 			"",
-			"**Source** [Armor Master's Handbook pg. 31](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 31](source/armor_masters_handbook)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** shield; **Price** 29,170 gp; **Weight** 30 lbs.",
 			"",
@@ -4230,13 +4230,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, animate objects; **Price** 18,170 gp"
 		]
 	},
-	"storval's_fang": {
+	"storvals_fang": {
 		"name": "Storval's Fang",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Storval's Fang",
 			"",
-			"**Source** [Disciple's Doctrine pg. 30](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 30](source/disciples_doctrine)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** none; **Price** 38,312 gp; **Weight** 6 lbs.",
 			"",
@@ -4306,7 +4306,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Turn Undead, death ward, etherealness; **Price** 26,390 gp"
 		]
 	},
-	"savith's_iron": {
+	"saviths_iron": {
 		"name": "Savith's Iron",
 		"sources": [ "Lost Treasures" ],
 		"description": [
@@ -4358,7 +4358,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), antimagic field; **Price** 60,930 gp"
 		]
 	},
-	"conqueror's_breastplate": {
+	"conquerors_breastplate": {
 		"name": "Conqueror's Breastplate",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -4562,7 +4562,7 @@
 		"description": [
 			"## Constrictor Armor",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 75](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**Aura** strong transmutation; **CL** 12th  ",
 			"**Slot** body; **Weight** 30 lbs.",
 			"",
@@ -4582,7 +4582,7 @@
 		"description": [
 			"## Gravesoul Armor",
 			"",
-			"**Source** [Ultimate Equipment pg. 346](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 346](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** armor; **Weight** 20 lbs.",
@@ -4605,7 +4605,7 @@
 		"description": [
 			"## Planar Invasion Shield",
 			"",
-			"**Source** [Ultimate Equipment pg. 349](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 349](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** shield; **Weight** 15 lbs.",

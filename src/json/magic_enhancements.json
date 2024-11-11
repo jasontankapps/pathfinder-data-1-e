@@ -14,7 +14,7 @@
 		"description": [
 			"## Advancing",
 			"",
-			"**Source** [Armor Master's Handbook pg. 28](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 28](source/armor_masters_handbook)  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -34,7 +34,7 @@
 		"description": [
 			"## Balanced",
 			"",
-			"**Source** [Armor Master's Handbook pg. 26](source/armor_master's_handbook), [Ultimate Equipment pg. 115](source/ultimate_equipment)  ",
+			"**Source** [Armor Master's Handbook pg. 26](source/armor_masters_handbook), [Ultimate Equipment pg. 115](source/ultimate_equipment)  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -144,7 +144,7 @@
 		"description": [
 			"## Champion",
 			"",
-			"**Source** [Ultimate Equipment pg. 116](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 116](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -198,7 +198,7 @@
 		"description": [
 			"## Dastard",
 			"",
-			"**Source** [Ultimate Equipment pg. 116](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 116](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -426,7 +426,7 @@
 		"description": [
 			"## Terrain-Striding",
 			"",
-			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 27](source/armor_masters_handbook)  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -497,7 +497,7 @@
 		"description": [
 			"## Withstanding",
 			"",
-			"**Source** [Armor Master's Handbook pg. 27](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 27](source/armor_masters_handbook)  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -531,7 +531,7 @@
 		"description": [
 			"## Cushioned",
 			"",
-			"**Source** [Armor Master's Handbook pg. 24](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 24](source/armor_masters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** armor quality; **Price** +1,000 gp; **Weight** -",
 			"",
@@ -562,7 +562,7 @@
 		"description": [
 			"## Fitting",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** +2,000 gp; **Weight** -",
 			"",
@@ -619,7 +619,7 @@
 		"description": [
 			"## Mental Focus",
 			"",
-			"**Source** [Armor Master's Handbook pg. 26](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 26](source/armor_masters_handbook)  ",
 			"**Aura** evocation; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +3,000 gp; **Weight** -",
 			"",
@@ -656,7 +656,7 @@
 		"description": [
 			"## Jousting",
 			"",
-			"**Source** [Ultimate Equipment pg. 120](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 120](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +3,750 gp; **Weight** -",
 			"",
@@ -815,7 +815,7 @@
 		"description": [
 			"## Phantasmal",
 			"",
-			"**Source** [Armor Master's Handbook pg. 24](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 24](source/armor_masters_handbook)  ",
 			"**Aura** moderate illusion; **CL** 7th  ",
 			"**Slot** armor quality; **Price** +2 bonus; **Weight** -",
 			"",
@@ -832,7 +832,7 @@
 		"description": [
 			"## Rampaging",
 			"",
-			"**Source** [Armor Master's Handbook pg. 28](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 28](source/armor_masters_handbook)  ",
 			"**Aura** faint conjuration and transmutation; **CL** 3rd  ",
 			"**Slot** armor quality; **Price** +2 bonus; **Weight** -",
 			"",
@@ -1055,7 +1055,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cat's_grace); **Price** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cats_grace); **Price** 2,500 gp"
 		]
 	},
 	"creeping": {
@@ -1072,7 +1072,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility); **Price** +2,500 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace), [invisibility](spell/invisibility); **Price** +2,500 gp"
 		]
 	},
 	"deceiving": {
@@ -1132,7 +1132,7 @@
 		"description": [
 			"## Spirit-bonded",
 			"",
-			"**Source** [Armor Master's Handbook pg. 26](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 26](source/armor_masters_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** armor quality; **Price** +6,000 gp; **Weight** -",
 			"",
@@ -1152,7 +1152,7 @@
 		"description": [
 			"## Locksmith",
 			"",
-			"**Source** [Armor Master's Handbook pg. 24](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 24](source/armor_masters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** armor quality; **Price** +6,500 gp; **Weight** -",
 			"",
@@ -1177,7 +1177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength), [spider climb](spell/spider_climb); **Price** +3,500 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength), [spider climb](spell/spider_climb); **Price** +3,500 gp"
 		]
 	},
 	"spiteful": {
@@ -1260,7 +1260,7 @@
 		"description": [
 			"## Arrow-collecting",
 			"",
-			"**Source** [Armor Master's Handbook pg. 26](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 26](source/armor_masters_handbook)  ",
 			"**Aura** moderate abjuration and evocation; **CL** 11th  ",
 			"**Slot** armor quality; **Price** +3 bonus; **Weight** -",
 			"",
@@ -1288,7 +1288,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength); **Price** +3 bonus"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength); **Price** +3 bonus"
 		]
 	},
 	"cotraveling": {
@@ -1424,7 +1424,7 @@
 		"description": [
 			"## Phase Lurching",
 			"",
-			"**Source** [Armor Master's Handbook pg. 24](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 24](source/armor_masters_handbook)  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** armor quality; **Price** +9,100 gp; **Weight** -",
 			"",
@@ -1503,7 +1503,7 @@
 		"description": [
 			"## Radiant Flight",
 			"",
-			"**Source** [Armor Master's Handbook pg. 28](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 28](source/armor_masters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +15,000 gp; **Weight** -",
 			"",
@@ -1566,7 +1566,7 @@
 		"description": [
 			"## Venom-eating",
 			"",
-			"**Source** [Armor Master's Handbook pg. 24](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 24](source/armor_masters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +15,000 gp; **Weight** -",
 			"",
@@ -1644,7 +1644,7 @@
 		"description": [
 			"## Dread Wing",
 			"",
-			"**Source** [Armor Master's Handbook pg. 28](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 28](source/armor_masters_handbook)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor quality; **Price** +5 bonus; **Weight** -",
 			"",
@@ -1672,7 +1672,7 @@
 		"description": [
 			"## Unbowed",
 			"",
-			"**Source** [Armor Master's Handbook pg. 28](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 28](source/armor_masters_handbook)  ",
 			"**Aura** moderate conjuration and evocation; **CL** 9th  ",
 			"**Slot** armor quality; **Price** +5 bonus; **Weight** -",
 			"",
@@ -1692,7 +1692,7 @@
 		"description": [
 			"## Righteous",
 			"",
-			"**Source** [Ultimate Equipment pg. 121](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 121](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
@@ -1729,7 +1729,7 @@
 		"description": [
 			"## Unrighteous",
 			"",
-			"**Source** [Ultimate Equipment pg. 123](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 123](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
@@ -1766,7 +1766,7 @@
 		"description": [
 			"## Determination",
 			"",
-			"**Source** [Ultimate Equipment pg. 117](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 117](source/ultimate_equipment), [Advanced Player's Guide pg. 283](source/advanced_players_guide)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** armor/shield quality; **Price** +30,000 gp; **Weight** -",
 			"",
@@ -1939,7 +1939,7 @@
 		"description": [
 			"## Assiduous",
 			"",
-			"**Source** [Armor Master's Handbook pg. 30](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 30](source/armor_masters_handbook)  ",
 			"**Aura** faint enchantment and conjuration; **CL** 1st  ",
 			"**Slot** shield quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -1967,7 +1967,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength); **Price** +1 bonus"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength); **Price** +1 bonus"
 		]
 	},
 	"blinding": {
@@ -2013,7 +2013,7 @@
 		"description": [
 			"## Folding",
 			"",
-			"**Source** [Armor Master's Handbook pg. 30](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 30](source/armor_masters_handbook)  ",
 			"**Aura** strong conjuration and transmutation; **CL** 13th  ",
 			"**Slot** shield quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2047,7 +2047,7 @@
 		"description": [
 			"## Heraldric",
 			"",
-			"**Source** [Armor Master's Handbook pg. 30](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 30](source/armor_masters_handbook)  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** shield quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2115,7 +2115,7 @@
 		"description": [
 			"## Spellrending",
 			"",
-			"**Source** [Armor Master's Handbook pg. 31](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 31](source/armor_masters_handbook)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** shield quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2218,7 +2218,7 @@
 		"description": [
 			"## Mastering",
 			"",
-			"**Source** [Armor Master's Handbook pg. 30](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 30](source/armor_masters_handbook)  ",
 			"**Aura** strong conjuration and transmutation; **CL** 13th  ",
 			"**Slot** shield quality; **Price** +2 bonus; **Weight** -",
 			"",
@@ -2303,7 +2303,7 @@
 		"description": [
 			"## Bastion",
 			"",
-			"**Source** [Armor Master's Handbook pg. 30](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 30](source/armor_masters_handbook)  ",
 			"**Aura** strong abjuration; **CL** 15th  ",
 			"**Slot** shield quality; **Price** +4 bonus; **Weight** -",
 			"",
@@ -2377,7 +2377,7 @@
 		"description": [
 			"## Agile",
 			"",
-			"**Source** [Pathfinder #100: A Song of Silver pg. 21](source/pathfinder_#100_a_song_of_silver), [Pathfinder Society Field Guide pg. 50](source/pathfinder_society_field_guide)  ",
+			"**Source** [Pathfinder #100: A Song of Silver pg. 21](source/pathfinder_100_a_song_of_silver), [Pathfinder Society Field Guide pg. 50](source/pathfinder_society_field_guide)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2385,7 +2385,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** -"
 		]
 	},
 	"allying": {
@@ -2397,7 +2397,7 @@
 		"description": [
 			"## Allying",
 			"",
-			"**Source** [Ultimate Equipment pg. 135](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 135](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2569,7 +2569,7 @@
 		"description": [
 			"## Breaking",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 28](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 28](source/dungeoneers_handbook)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2640,7 +2640,7 @@
 		"description": [
 			"## Conductive",
 			"",
-			"**Source** [Ultimate Equipment pg. 137](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 137](source/ultimate_equipment), [Advanced Player's Guide pg. 286](source/advanced_players_guide)  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2665,7 +2665,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [eagle's splendor](spell/eagle's_splendor); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [eagle's splendor](spell/eagles_splendor); **Price** -"
 		]
 	},
 	"corrosive": {
@@ -2677,7 +2677,7 @@
 		"description": [
 			"## Corrosive",
 			"",
-			"**Source** [Ultimate Equipment pg. 138](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 138](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2702,7 +2702,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** -"
+			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** -"
 		]
 	},
 	"courageous": {
@@ -2751,7 +2751,7 @@
 		"description": [
 			"## Cunning",
 			"",
-			"**Source** [Ultimate Equipment pg. 138](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 138](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_players_guide)  ",
 			"**Aura** moderate divination; **CL** 6th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -2805,7 +2805,7 @@
 		"description": [
 			"## Debilitating",
 			"",
-			"**Source** [Spymaster's Handbook pg. 30](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 30](source/spymasters_handbook)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
@@ -2937,7 +2937,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** -"
 		]
 	},
 	"dueling_pfsg": {
@@ -3069,7 +3069,7 @@
 		"description": [
 			"## Furious",
 			"",
-			"**Source** [Ultimate Equipment pg. 142](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 142](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_players_guide)  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3111,7 +3111,7 @@
 		"description": [
 			"## Grayflame",
 			"",
-			"**Source** [Ultimate Equipment pg. 142](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 142](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3184,7 +3184,7 @@
 		"description": [
 			"## Guided",
 			"",
-			"**Source** [Pathfinder #10: A History of Ashes pg. 22](source/pathfinder_#10_a_history_of_ashes)  ",
+			"**Source** [Pathfinder #10: A History of Ashes pg. 22](source/pathfinder_10_a_history_of_ashes)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3221,7 +3221,7 @@
 		"description": [
 			"## Huntsman",
 			"",
-			"**Source** [Ultimate Equipment pg. 143](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 143](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_players_guide)  ",
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3275,7 +3275,7 @@
 		"description": [
 			"## Jurist",
 			"",
-			"**Source** [Ultimate Equipment pg. 144](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 144](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3283,7 +3283,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [owl's wisdom](spell/owl's_wisdom); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [owl's wisdom](spell/owls_wisdom); **Price** -"
 		]
 	},
 	"keen": {
@@ -3349,7 +3349,7 @@
 		"description": [
 			"## Leveraging",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 6th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
@@ -3386,7 +3386,7 @@
 		"description": [
 			"## Menacing",
 			"",
-			"**Source** [Ultimate Equipment pg. 145](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 145](source/ultimate_equipment), [Advanced Player's Guide pg. 288](source/advanced_players_guide)  ",
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3555,7 +3555,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Initiative](feat/improved_initiative), [cat's grace](spell/cat's_grace); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Initiative](feat/improved_initiative), [cat's grace](spell/cats_grace); **Price** -"
 		]
 	},
 	"planar": {
@@ -3730,7 +3730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength); **Price** -"
 		]
 	},
 	"spell_storing_weapon": {
@@ -3782,7 +3782,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_nature's_ally_1); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_natures_ally_1); **Price** -"
 		]
 	},
 	"spirit_hunting": {
@@ -3811,7 +3811,7 @@
 		"description": [
 			"## Summon Bane",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 21](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 21](source/monster_summoners_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
@@ -3819,7 +3819,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** -"
 		]
 	},
 	"thawing": {
@@ -3956,7 +3956,7 @@
 		"description": [
 			"## Vampiric",
 			"",
-			"**Source** [Horror Adventures pg. 214](source/horror_adventures), [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Horror Adventures pg. 214](source/horror_adventures), [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
@@ -4029,7 +4029,7 @@
 		"description": [
 			"## Concealed, Lesser",
 			"",
-			"**Source** [Spymaster's Handbook pg. 30](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 30](source/spymasters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Price** +3,000 gp; **Weight** -",
 			"",
@@ -4100,7 +4100,7 @@
 		"description": [
 			"## Resizing",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** +4,000 gp; **Weight** -",
 			"",
@@ -4153,7 +4153,7 @@
 		"description": [
 			"## Liberating (WMH)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Price** +7,000 gp; **Weight** -",
 			"",
@@ -4170,7 +4170,7 @@
 		"description": [
 			"## Concealed",
 			"",
-			"**Source** [Spymaster's Handbook pg. 30](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 30](source/spymasters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Price** +7,500 gp; **Weight** -",
 			"",
@@ -4256,7 +4256,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [order's wrath](spell/order's_wrath), creator must be lawful; **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [order's wrath](spell/orders_wrath), creator must be lawful; **Price** -"
 		]
 	},
 	"burning": {
@@ -4289,7 +4289,7 @@
 		"description": [
 			"## Corrosive Burst",
 			"",
-			"**Source** [Ultimate Equipment pg. 138](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 138](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 12th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
@@ -4580,7 +4580,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bull's_strength), [lead blades](spell/lead_blades), [righteous might](spell/righteous_might) or [giant form I](spell/giant_form_1); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength), [lead blades](spell/lead_blades), [righteous might](spell/righteous_might) or [giant form I](spell/giant_form_1); **Price** -"
 		]
 	},
 	"invigorating": {
@@ -4782,7 +4782,7 @@
 		"description": [
 			"## Quaking",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** faint evocation; **CL** 6th  ",
 			"**Price** +2 bonus; **Weight** -",
 			"",
@@ -4802,7 +4802,7 @@
 		"description": [
 			"## Runeforged",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 423](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 57](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 423](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 57](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**Aura** strong (two variable schools); **CL** 13th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
@@ -4841,7 +4841,7 @@
 		"description": [
 			"## Sharding",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Price** +2 bonus; **Weight** -",
 			"",
@@ -4858,7 +4858,7 @@
 		"description": [
 			"## Shattering",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 28](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 28](source/dungeoneers_handbook)  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
@@ -4928,7 +4928,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [hunter's eye](spell/hunter's_eye), [true strike](spell/true_strike); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [hunter's eye](spell/hunters_eye), [true strike](spell/true_strike); **Price** -"
 		]
 	},
 	"toxic": {
@@ -5070,7 +5070,7 @@
 		"description": [
 			"## Transformative",
 			"",
-			"**Source** [Ultimate Equipment pg. 149](source/ultimate_equipment), [Advanced Player's Guide pg. 289](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 149](source/ultimate_equipment), [Advanced Player's Guide pg. 289](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +10,000 gp; **Weight** -",
 			"",
@@ -5090,7 +5090,7 @@
 		"description": [
 			"## Dueling",
 			"",
-			"**Source** [Ultimate Equipment pg. 141](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 141](source/ultimate_equipment), [Advanced Player's Guide pg. 287](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +14,000 gp; **Weight** -",
 			"",
@@ -5098,7 +5098,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace); **Price** +7,000 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** +7,000 gp"
 		]
 	},
 	"transformative_greater": {
@@ -5453,7 +5453,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility); **Price** -"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace), [invisibility](spell/invisibility); **Price** -"
 		]
 	},
 	"beaming": {
@@ -5533,7 +5533,7 @@
 		"description": [
 			"## Driving",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
@@ -5544,7 +5544,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinetic charge](spell/telekinetic_charge); **Price** -"
 		]
 	},
-	"healer's_sorrow": {
+	"healers_sorrow": {
 		"name": "Healer's Sorrow",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
@@ -6051,7 +6051,7 @@
 		"description": [
 			"## Heart-Piercing",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Price** +5 bonus; **Weight** -",
 			"",

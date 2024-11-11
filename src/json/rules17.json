@@ -1407,7 +1407,7 @@
 					[ "53", [ "magic-wondrous/bag_of_tricks_gray", "Bag of tricks, gray" ], 3400 ],
 					[ "54", [ "magic-wondrous/dust_of_disappearance", "Dust of disappearance" ], 3500 ],
 					[ "55", [ "magic-wondrous/lens_of_detection", "Lens of detection" ], 3500 ],
-					[ "56", [ "magic-wondrous/druid's_vestment", "Vestment, druid's" ], 3750 ],
+					[ "56", [ "magic-wondrous/druids_vestment", "Vestment, druid's" ], 3750 ],
 					[ "57", [ "magic-wondrous/figurine_of_wondrous_power_silver_raven", "Figurine of wondrous power, silver raven" ], 3800 ],
 					[ "58", [ "magic-wondrous/amulet_of_mighty_fists_1", "Amulet of mighty fists +1" ], 4000 ],
 					[ "59", [ "magic-wondrous/belt_of_giant_strength_2", "Belt of giant strength +2" ], 4000 ],
@@ -1526,7 +1526,7 @@
 					[ "38", [ "magic-wondrous/blessed_book", "Blessed book" ], 12500 ],
 					[ "39", [ "magic-wondrous/gem_of_brightness", "Gem of brightness" ], 13000 ],
 					[ "40", [ "magic-wondrous/lyre_of_building", "Lyre of building" ], 13000 ],
-					[ "41", [ "magic-wondrous/monk's_robe", "Robe, Monk's" ], 13000 ],
+					[ "41", [ "magic-wondrous/monks_robe", "Robe, Monk's" ], 13000 ],
 					[ "42", [ "magic-wondrous/cloak_of_arachnida", "Cloak of arachnida" ], 14000 ],
 					[ "43", [ "magic-wondrous/belt_of_dwarvenkind", "Belt of dwarvenkind" ], 14900 ],
 					[ "44", [ "magic-wondrous/periapt_of_wound_closure", "Periapt of wound closure" ], 15000 ],
@@ -4556,7 +4556,7 @@
 		],
 		"subtopics": [
 			"wizard_spells_and_borrowed_spellbooks",
-			"adding_spells_to_a_wizard's_spellbook",
+			"adding_spells_to_a_wizards_spellbook",
 			"writing_a_new_spell_into_a_spellbook",
 			"replacing_and_copying_spellbooks",
 			"selling_a_spellbook"
@@ -4584,13 +4584,13 @@
 		],
 		"siblings": [
 			"wizard_spells_and_borrowed_spellbooks",
-			"adding_spells_to_a_wizard's_spellbook",
+			"adding_spells_to_a_wizards_spellbook",
 			"writing_a_new_spell_into_a_spellbook",
 			"replacing_and_copying_spellbooks",
 			"selling_a_spellbook"
 		]
 	},
-	"adding_spells_to_a_wizard's_spellbook": {
+	"adding_spells_to_a_wizards_spellbook": {
 		"name": "Adding Spells to a Wizard's Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -4616,7 +4616,7 @@
 		],
 		"siblings": [
 			"wizard_spells_and_borrowed_spellbooks",
-			"adding_spells_to_a_wizard's_spellbook",
+			"adding_spells_to_a_wizards_spellbook",
 			"writing_a_new_spell_into_a_spellbook",
 			"replacing_and_copying_spellbooks",
 			"selling_a_spellbook"
@@ -4657,7 +4657,7 @@
 		],
 		"siblings": [
 			"wizard_spells_and_borrowed_spellbooks",
-			"adding_spells_to_a_wizard's_spellbook",
+			"adding_spells_to_a_wizards_spellbook",
 			"writing_a_new_spell_into_a_spellbook",
 			"replacing_and_copying_spellbooks",
 			"selling_a_spellbook"
@@ -4681,7 +4681,7 @@
 		],
 		"siblings": [
 			"wizard_spells_and_borrowed_spellbooks",
-			"adding_spells_to_a_wizard's_spellbook",
+			"adding_spells_to_a_wizards_spellbook",
 			"writing_a_new_spell_into_a_spellbook",
 			"replacing_and_copying_spellbooks",
 			"selling_a_spellbook"
@@ -4703,7 +4703,7 @@
 		],
 		"siblings": [
 			"wizard_spells_and_borrowed_spellbooks",
-			"adding_spells_to_a_wizard's_spellbook",
+			"adding_spells_to_a_wizards_spellbook",
 			"writing_a_new_spell_into_a_spellbook",
 			"replacing_and_copying_spellbooks",
 			"selling_a_spellbook"

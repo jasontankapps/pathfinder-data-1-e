@@ -244,7 +244,7 @@
 		"description": [
 			"## Unconscious Agenda",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 419](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 61](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 419](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 61](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 6, bard 6, inquisitor 6, skald 6, sorcerer 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -399,7 +399,7 @@
 		"description": [
 			"## Undeath Inversion",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 27](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 27](source/undead_slayers_handbook)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, cleric 4, oracle 4, sorcerer 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -539,7 +539,7 @@
 			"A ranger with the ranger traps class feature can cast this spell on a ranger trap he creates as part of the same action he uses to prepare a ranger trap. This doesn't reduce the spell's casting time if such a ranger casts this spell on an ordinary trap, even one that he created himself using Craft (traps)."
 		]
 	},
-	"undine's_curse": {
+	"undines_curse": {
 		"name": "Undine's Curse",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -623,7 +623,7 @@
 		"description": [
 			"## Unfetter",
 			"",
-			"**Source** [Advanced Player's Guide pg. 253](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 253](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 1, unchained summoner 1",
 			"",
 			"### Casting",
@@ -647,7 +647,7 @@
 		"description": [
 			"## Unflappable Mien",
 			"",
-			"**Source** [Disciple's Doctrine pg. 19](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 19](source/disciples_doctrine)  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 3, bard 3, mesmerist 3, occultist 3, psychic 3, skald 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -908,7 +908,7 @@
 		"description": [
 			"## Universal Formula",
 			"",
-			"**Source** [Advanced Player's Guide pg. 253](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 253](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 4, investigator 4",
 			"",
 			"### Casting",
@@ -931,7 +931,7 @@
 		"description": [
 			"## Unleash Pandemonium",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 75](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 75](source/pathfinder_74_sword_of_valor)  ",
 			"**School** [conjuration](spelldef/conjuration) [[chaotic](spelldef/chaotic)]; **Level** cleric 5, oracle 5, summoner 5, unchained summoner 5, warpriest 5, witch 5",
 			"",
 			"### Casting",
@@ -1051,7 +1051,7 @@
 		"description": [
 			"## Unravel Destiny",
 			"",
-			"**Source** [Advanced Player's Guide pg. 325](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 325](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, cleric 3, oracle 3, sorcerer 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1243,7 +1243,7 @@
 		"description": [
 			"## Unspoken Name",
 			"",
-			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 73](source/pathfinder_#140_eulogy_for_roslar's_coffer)  ",
+			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 73](source/pathfinder_140_eulogy_for_roslars_coffer)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, cleric 3, inquisitor 3, oracle 3, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -1316,7 +1316,7 @@
 		"description": [
 			"## Unwilling Shield",
 			"",
-			"**Source** [Advanced Player's Guide pg. 253](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 253](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 6, bard 5, inquisitor 5, mesmerist 5, occultist 5, psychic 6, skald 5, sorcerer 6, spiritualist 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -1342,7 +1342,7 @@
 		"description": [
 			"## Unwitting Ally",
 			"",
-			"**Source** [Advanced Player's Guide pg. 253](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 253](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([charm](spelldef/charm)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 0, mesmerist 0, psychic 1, skald 0",
 			"",
 			"### Casting",
@@ -1408,7 +1408,7 @@
 			"You can't bring other creatures with you, and other creatures that go through the portals don't teleport. Once you step through, the spell ends and you can't take any other actions until your next turn."
 		]
 	},
-	"urgathoa's_beacon": {
+	"urgathoas_beacon": {
 		"name": "Urgathoa's Beacon",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -1573,7 +1573,7 @@
 		"description": [
 			"## Vanish",
 			"",
-			"**Source** [Advanced Player's Guide pg. 253](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 253](source/advanced_players_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 1, bard 1, magus 1, mesmerist 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -1623,7 +1623,7 @@
 		"description": [
 			"## Veil of Ash",
 			"",
-			"**Source** [Pathfinder #24: The Final Wish pg. 61](source/pathfinder_#24_the_final_wish)  ",
+			"**Source** [Pathfinder #24: The Final Wish pg. 61](source/pathfinder_24_the_final_wish)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -1675,7 +1675,7 @@
 		"description": [
 			"## Veil of Positive Energy",
 			"",
-			"**Source** [Advanced Player's Guide pg. 254](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 254](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[good](spelldef/good)]; **Level** paladin 1",
 			"",
 			"### Casting",
@@ -1802,7 +1802,7 @@
 		"description": [
 			"## Venomous Bolt",
 			"",
-			"**Source** [Advanced Player's Guide pg. 254](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 254](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[poison](spelldef/poison)]; **Level** hunter 3, ranger 3",
 			"",
 			"### Casting",
@@ -1876,7 +1876,7 @@
 		"description": [
 			"## Vermicious Assumption",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 75](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 75](source/pathfinder_74_sword_of_valor)  ",
 			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)) [[chaotic](spelldef/chaotic), [evil](spelldef/evil)]; **Level** cleric 6, oracle 6, summoner 6, unchained summoner 6, warpriest 6",
 			"",
 			"### Casting",
@@ -2011,7 +2011,7 @@
 		"description": [
 			"## Versatile Weapon",
 			"",
-			"**Source** [Advanced Player's Guide pg. 254](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 254](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, bard 2, bloodrager 3, hunter 2, magus 3, occultist 2, psychic 3, ranger 2, redmantisassassin 3, skald 2, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -2448,7 +2448,7 @@
 		"description": [
 			"## Virulence",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** cleric 4, oracle 4, warpriest 4, witch 4",
 			"",
 			"### Casting",
@@ -2549,7 +2549,7 @@
 		"description": [
 			"## Vision of Lamashtu",
 			"",
-			"**Source** [Inner Sea World Guide pg. 297](source/inner_sea_world_guide), [Pathfinder #5: Sins of the Saviors pg. 71](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Inner Sea World Guide pg. 297](source/inner_sea_world_guide), [Pathfinder #5: Sins of the Saviors pg. 71](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**School** [illusion](spelldef/illusion) ([phantasm](spelldef/phantasm)) [[mind-affecting](spelldef/mindaffecting), [evil](spelldef/evil)]; **Level** cleric 7, inquisitor 6, oracle 7, shaman 7, witch 7",
 			"",
 			"### Casting",
@@ -2736,7 +2736,7 @@
 		"description": [
 			"## Vomit Swarm",
 			"",
-			"**Source** [Advanced Player's Guide pg. 254](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 254](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)); **Level** alchemist 2, investigator 2, witch 2",
 			"",
 			"### Casting",
@@ -2795,7 +2795,7 @@
 		"description": [
 			"## Vortex",
 			"",
-			"**Source** [Advanced Player's Guide pg. 254](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 254](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[water](spelldef/water)]; **Level** arcanist 7, druid 7, shaman 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -2867,7 +2867,7 @@
 		"description": [
 			"## Wake of Light",
 			"",
-			"**Source** [Advanced Player's Guide pg. 254](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 254](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[good](spelldef/good)]; **Level** paladin 2",
 			"",
 			"### Casting",
@@ -3233,7 +3233,7 @@
 		"description": [
 			"## Wall of Lava",
 			"",
-			"**Source** [Advanced Player's Guide pg. 255](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 255](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[earth](spelldef/earth), [fire](spelldef/fire)]; **Level** arcanist 8, druid 8, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -3263,7 +3263,7 @@
 		"description": [
 			"## Wall of Light",
 			"",
-			"**Source** [The Dragon's Demand pg. 24](source/the_dragon's_demand)  ",
+			"**Source** [The Dragon's Demand pg. 24](source/the_dragons_demand)  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** arcanist 5, druid 5, hunter 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -3287,7 +3287,7 @@
 		"description": [
 			"## Wall of Mist",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_masters_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[air](spelldef/air)]; **Level** arcanist 3, magus 3, shaman 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -3343,7 +3343,7 @@
 		"description": [
 			"## Wall of Silver",
 			"",
-			"**Source** [Adventurer's Guide pg. 177](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 177](source/adventurers_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[good](spelldef/good)]; **Level** arcanist 6, bard 5, cleric 6, inquisitor 5, oracle 6, skald 5, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"### Casting",
@@ -3460,7 +3460,7 @@
 		"description": [
 			"## Wall of Suppression",
 			"",
-			"**Source** [Advanced Player's Guide pg. 255](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 255](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 9, psychic 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -3529,7 +3529,7 @@
 		"description": [
 			"## Wandering Star Motes",
 			"",
-			"**Source** [Advanced Player's Guide pg. 255](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 255](source/advanced_players_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([pattern](spelldef/pattern)) [[light](spelldef/light), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 4, occultist 4, psychic 4, redmantisassassin 4, shaman 4, skald 4, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3633,7 +3633,7 @@
 		"description": [
 			"## Ward the Faithful",
 			"",
-			"**Source** [Advanced Player's Guide pg. 256](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 256](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** inquisitor 3",
 			"",
 			"### Casting",
@@ -3768,7 +3768,7 @@
 		"description": [
 			"## Watchful Animal",
 			"",
-			"**Source** [Spymaster's Handbook pg. 22](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 22](source/spymasters_handbook)  ",
 			"**School** [divination](spelldef/divination) ([scrying](spelldef/scrying)); **Level** arcanist 4, druid 4, hunter 4, ranger 4, shaman 4, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3840,7 +3840,7 @@
 		"description": [
 			"## Water Shield",
 			"",
-			"**Source** [Pathfinder #24: The Final Wish pg. 61](source/pathfinder_#24_the_final_wish)  ",
+			"**Source** [Pathfinder #24: The Final Wish pg. 61](source/pathfinder_24_the_final_wish)  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [water](spelldef/water)]; **Level** arcanist 4, cleric 4, druid 3, hunter 3, oracle 4, sorcerer 4, warpriest 4, wizard 4",
 			"",
 			"### Casting",
@@ -3920,7 +3920,7 @@
 		"description": [
 			"## Waterproof",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 14](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 14](source/elemental_masters_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration) [[water](spelldef/water)]; **Level** alchemist 1, arcanist 1, bard 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, magus 1, oracle 1, ranger 1, shaman 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -3953,7 +3953,7 @@
 		"description": [
 			"## Waters of Lamashtu",
 			"",
-			"**Source** [Book of the Damned pg. 186](source/book_of_the_damned), [Pathfinder #5: Sins of the Saviors pg. 71](source/pathfinder_#5_sins_of_the_saviors), [Gods and Magic pg. 25](source/gods_and_magic), [Inner Sea World Guide pg. 297](source/inner_sea_world_guide), [Pathfinder Comics #5 pg. 28](source/pathfinder_comics_#5)  ",
+			"**Source** [Book of the Damned pg. 186](source/book_of_the_damned), [Pathfinder #5: Sins of the Saviors pg. 71](source/pathfinder_5_sins_of_the_saviors), [Gods and Magic pg. 25](source/gods_and_magic), [Inner Sea World Guide pg. 297](source/inner_sea_world_guide), [Pathfinder Comics #5 pg. 28](source/pathfinder_comics_5)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** alchemist 2, antipaladin 2, cleric 3, druid 3, hunter 3, investigator 3, oracle 3, warpriest 3, witch 3",
 			"",
 			"### Casting",
@@ -4154,7 +4154,7 @@
 		"description": [
 			"## Weapon of Awe",
 			"",
-			"**Source** [Advanced Player's Guide pg. 256](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 256](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[emotion](spelldef/emotion)]; **Level** cleric 2, inquisitor 2, occultist 2, oracle 2, paladin 2, warpriest 2",
 			"",
 			"### Casting",
@@ -4382,7 +4382,7 @@
 		"description": [
 			"## What Grows Within",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 66](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 66](source/pathfinder_113_what_grows_within)  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** arcanist 6, bard 6, cleric 6, druid 6, hunter 6, mesmerist 6, oracle 6, psychic 6, skald 6, sorcerer 6, warpriest 6, witch 6, wizard 6 (Xhamen-Dor)",
 			"",
 			"### Casting",
@@ -4757,7 +4757,7 @@
 		"description": [
 			"## Winds of Vengeance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 256](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 256](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[air](spelldef/air)]; **Level** arcanist 9, cleric 9, druid 9, oracle 9, shaman 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -5318,7 +5318,7 @@
 		"description": [
 			"## World Wave",
 			"",
-			"**Source** [Advanced Player's Guide pg. 256](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 256](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[earth](spelldef/earth), [water](spelldef/water)]; **Level** arcanist 9, druid 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -5372,7 +5372,7 @@
 		"description": [
 			"## Wrath",
 			"",
-			"**Source** [Advanced Player's Guide pg. 257](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 257](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 1",
 			"",
 			"### Casting",
@@ -5390,7 +5390,7 @@
 			"",
 			"### Shared Wrath",
 			"",
-			"**Source** [Advanced Player's Guide pg. 243](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 243](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 4",
 			"",
 			"#### Casting",
@@ -5418,7 +5418,7 @@
 		"description": [
 			"## Wrathful Mantle",
 			"",
-			"**Source** [Advanced Player's Guide pg. 257](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 257](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force), [light](spelldef/light)]; **Level** cleric 3, oracle 3, paladin 3, warpriest 3",
 			"",
 			"### Casting",
@@ -5497,7 +5497,7 @@
 		"description": [
 			"## Yellow Sign",
 			"",
-			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 72](source/pathfinder_#110_the_thrushmoor_terror)  ",
+			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 72](source/pathfinder_110_the_thrushmoor_terror)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 9, bard 6, cleric 9, oracle 9, skald 6, sorcerer 9, witch 9, wizard 9 (Hastur)",
 			"",
 			"### Casting",
@@ -5544,7 +5544,7 @@
 			"You make your target look like a younger version of itself. You select how much younger it looks (for example, \"-10 years\" or \"as a young adult\"). You cannot otherwise change details of the target's appearance other than those directly associated with aging (for example, gray hair returns to its original color). The target cannot appear so much younger that it changes size. This spell does not affect any age-based modifications to ability scores or other age-related effects."
 		]
 	},
-	"zephyr's_fleetness": {
+	"zephyrs_fleetness": {
 		"name": "Zephyr's Fleetness",
 		"sources": [ "Inner Sea Races" ],
 		"description": [

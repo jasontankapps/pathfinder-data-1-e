@@ -15,7 +15,7 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"fate's_favored": {
+	"fates_favored": {
 		"name": "Fate's Favored",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -597,7 +597,7 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"folgrit's_bounty": {
+	"folgrits_bounty": {
 		"name": "Folgrit's Bounty",
 		"sources": [ "Divine Anthology" ],
 		"description": [
@@ -610,7 +610,7 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"folgrit's_mercy": {
+	"folgrits_mercy": {
 		"name": "Folgrit's Mercy",
 		"sources": [ "Divine Anthology" ],
 		"description": [
@@ -910,7 +910,7 @@
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
 	},
-	"founders'_heritage": {
+	"founders_heritage": {
 		"name": "Founders' Heritage",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -1974,7 +1974,7 @@
 	"good_natured": {
 		"copyof": "good-natured"
 	},
-	"gozreh's_sight": {
+	"gozrehs_sight": {
 		"name": "Gozreh's Sight",
 		"sources": [ "People of the Wastes" ],
 		"description": [
@@ -2693,7 +2693,7 @@
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
 	},
-	"heretic's_caution": {
+	"heretics_caution": {
 		"name": "Heretic's Caution",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
@@ -3083,7 +3083,7 @@
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
-	"huldra's_luck": {
+	"huldras_luck": {
 		"name": "Huldra's Luck",
 		"sources": [ "People of the North" ],
 		"description": [
@@ -3109,7 +3109,7 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"hunter's_knack": {
+	"hunters_knack": {
 		"name": "Hunter's Knack",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -3578,7 +3578,7 @@
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
-	"inheritor's_immunity": {
+	"inheritors_immunity": {
 		"name": "Inheritor's Immunity",
 		"sources": [ "People of the Wastes" ],
 		"description": [
@@ -4573,7 +4573,7 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"kobold's_neighbor": {
+	"kobolds_neighbor": {
 		"name": "Kobold's Neighbor",
 		"sources": [ "Andoran, Spirit of Liberty" ],
 		"description": [
@@ -4669,7 +4669,7 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"lamia's_bane": {
+	"lamias_bane": {
 		"name": "Lamia's Bane",
 		"sources": [ "People of the Wastes" ],
 		"description": [
@@ -4878,7 +4878,7 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"liar's_tongue": {
+	"liars_tongue": {
 		"name": "Liar's Tongue",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -4983,7 +4983,7 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"lillend's_harp": {
+	"lillends_harp": {
 		"name": "Lillend's Harp",
 		"sources": [ "Blood of Angels" ],
 		"description": [
@@ -5012,7 +5012,7 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"lingshen's_finest": {
+	"lingshens_finest": {
 		"name": "Lingshen's Finest",
 		"sources": [ "Dragon Empires Primer" ],
 		"description": [
@@ -5050,7 +5050,7 @@
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
-	"lion's_audacity": {
+	"lions_audacity": {
 		"name": "Lion's Audacity",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
@@ -5517,7 +5517,7 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"magic's_might": {
+	"magics_might": {
 		"name": "Magic's Might",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -5698,7 +5698,7 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"marid's_fury": {
+	"marids_fury": {
 		"name": "Marid's Fury",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
@@ -5723,7 +5723,7 @@
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
 	},
-	"marked_by_nature's_magic": {
+	"marked_by_natures_magic": {
 		"name": "Marked by Nature's Magic",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -5785,7 +5785,7 @@
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
-	"martyr's_blood": {
+	"martyrs_blood": {
 		"name": "Martyr's Blood",
 		"sources": [ "Bastards of Golarion" ],
 		"description": [
@@ -6056,7 +6056,7 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"merchant's_child": {
+	"merchants_child": {
 		"name": "Merchant's Child",
 		"sources": [
 			"Inner Sea Primer",
@@ -6485,7 +6485,7 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"mother's_rage": {
+	"mothers_rage": {
 		"name": "Mother's Rage",
 		"sources": [ "Orcs of Golarion" ],
 		"description": [
@@ -6498,7 +6498,7 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"mother's_teeth": {
+	"mothers_teeth": {
 		"name": "Mother's Teeth",
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
@@ -6877,7 +6877,7 @@
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
-	"nature's_mimic": {
+	"natures_mimic": {
 		"name": "Nature's Mimic",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -7294,7 +7294,7 @@
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
-	"oathkeeper's_vow": {
+	"oathkeepers_vow": {
 		"name": "Oathkeeper's Vow",
 		"sources": [ "Divine Anthology" ],
 		"description": [
@@ -7771,7 +7771,7 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"outcast's_intuition": {
+	"outcasts_intuition": {
 		"name": "Outcast's Intuition",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -8034,7 +8034,7 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"pathfinder's_focus": {
+	"pathfinders_focus": {
 		"name": "Pathfinder's Focus",
 		"sources": [ "Pathfinder Society Primer" ],
 		"description": [
@@ -8077,7 +8077,7 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"patron's_boon": {
+	"patrons_boon": {
 		"name": "Patron's Boon",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
@@ -8159,7 +8159,7 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"perfectionist's_brew": {
+	"perfectionists_brew": {
 		"name": "Perfectionist's Brew",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -8171,7 +8171,7 @@
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
-	"performer's_surprise": {
+	"performers_surprise": {
 		"name": "Performer's Surprise",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
@@ -8419,7 +8419,7 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"planetar's_visions": {
+	"planetars_visions": {
 		"name": "Planetar's Visions",
 		"sources": [ "Blood of Angels" ],
 		"description": [

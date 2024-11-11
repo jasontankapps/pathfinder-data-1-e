@@ -8,7 +8,7 @@
 		"description": [
 			"## Blessing of Fervor",
 			"",
-			"**Source** [Advanced Player's Guide pg. 205](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 205](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** cleric 4, oracle 4, warpriest 4",
 			"",
 			"### Casting",
@@ -144,7 +144,7 @@
 		"description": [
 			"## Blessing of the Salamander",
 			"",
-			"**Source** [Advanced Player's Guide pg. 206](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 206](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** druid 5, hunter 4, ranger 4",
 			"",
 			"### Casting",
@@ -172,7 +172,7 @@
 		"description": [
 			"## Blessing of the Watch",
 			"",
-			"**Source** [Inner Sea Gods pg. 230](source/inner_sea_gods), [Pathfinder #8: Seven Days to the Grave pg. 71](source/pathfinder_#8_seven_days_to_the_grave), [Gods and Magic pg. 5](source/gods_and_magic)  ",
+			"**Source** [Inner Sea Gods pg. 230](source/inner_sea_gods), [Pathfinder #8: Seven Days to the Grave pg. 71](source/pathfinder_8_seven_days_to_the_grave), [Gods and Magic pg. 5](source/gods_and_magic)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)",
 			"",
 			"### Casting",
@@ -450,7 +450,7 @@
 		"description": [
 			"## Blood Biography",
 			"",
-			"**Source** [Advanced Player's Guide pg. 206](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 206](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, bard 2, bloodrager 3, cleric 3, inquisitor 3, medium 2, occultist 2, oracle 3, psychic 3, skald 2, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -613,7 +613,7 @@
 		"description": [
 			"## Blood Money",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 59](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 59](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, magus 1, redmantisassassin 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -883,7 +883,7 @@
 		"description": [
 			"## Bloodhound",
 			"",
-			"**Source** [Advanced Player's Guide pg. 206](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 206](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 3, hunter 2, inquisitor 2, investigator 3, occultist 3, ranger 2",
 			"",
 			"### Casting",
@@ -906,7 +906,7 @@
 		"description": [
 			"## Bloodstone Mirror",
 			"",
-			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 72](source/pathfinder_#140_eulogy_for_roslar's_coffer)  ",
+			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 72](source/pathfinder_140_eulogy_for_roslars_coffer)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 7, occultist 5, oracle 7, witch 7",
 			"",
 			"### Casting",
@@ -978,7 +978,7 @@
 		"description": [
 			"## Bloody Claws",
 			"",
-			"**Source** [Advanced Player's Guide pg. 206](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 206](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** druid 4, hunter 3, ranger 3",
 			"",
 			"### Casting",
@@ -1002,7 +1002,7 @@
 		"description": [
 			"## Bloody Tears and Jagged Smile",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 75](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 75](source/pathfinder_71_rasputin_must_die)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 2, cleric 2, oracle 2, sorcerer 2, warpriest 2, wizard 2 (Szuriel)",
 			"",
 			"### Casting",
@@ -1185,13 +1185,13 @@
 			"*Augmented:* If you expend two uses of mythic power, you can affect allies as though they had the orc subtype."
 		]
 	},
-	"bomber's_eye": {
+	"bombers_eye": {
 		"name": "Bomber's Eye",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Bomber's Eye",
 			"",
-			"**Source** [Advanced Player's Guide pg. 206](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 206](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, investigator 1",
 			"",
 			"### Casting",
@@ -1238,7 +1238,7 @@
 		"description": [
 			"## Bone Flense",
 			"",
-			"**Source** [Adventurer's Guide pg. 160](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 160](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, bloodrager 2, cleric 3, druid 3, hunter 3, inquisitor 3, magus 3, oracle 3, sorcerer 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1293,7 +1293,7 @@
 		"description": [
 			"## Boneshatter",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 15](source/pathfinder_#84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 26](source/osirion_land_of_the_pharaohs)  ",
+			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 15](source/pathfinder_84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 26](source/osirion_land_of_the_pharaohs)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, cleric 5, oracle 5, sorcerer 4, warpriest 5, wizard 4",
 			"",
 			"### Casting",
@@ -1369,7 +1369,7 @@
 		"description": [
 			"## Borrow Fortune",
 			"",
-			"**Source** [Advanced Player's Guide pg. 206](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 206](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation); **Level** medium 3, oracle 3, psychic 3",
 			"",
 			"### Casting",
@@ -1392,7 +1392,7 @@
 		"description": [
 			"## Borrow Skill",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 1, medium 1, psychic 1, skald 1",
 			"",
 			"### Casting",
@@ -1523,7 +1523,7 @@
 		"description": [
 			"## Bow Spirit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** hunter 4, ranger 4",
 			"",
 			"### Casting",
@@ -1572,7 +1572,7 @@
 		"description": [
 			"## Brand",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** inquisitor 0",
 			"",
 			"### Casting",
@@ -1591,7 +1591,7 @@
 			"",
 			"### Brand, Greater",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** inquisitor 4",
 			"",
 			"#### Casting",
@@ -1618,7 +1618,7 @@
 		"description": [
 			"## Brand of Conformity",
 			"",
-			"**Source** [Adventurer's Guide pg. 97](source/adventurer's_guide), [Path of the Hellknight pg. 60](source/path_of_the_hellknight)  ",
+			"**Source** [Adventurer's Guide pg. 97](source/adventurers_guide), [Path of the Hellknight pg. 60](source/path_of_the_hellknight)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** inquisitor 1",
 			"",
 			"### Casting",
@@ -1645,7 +1645,7 @@
 		"description": [
 			"## Brand of Hobbling",
 			"",
-			"**Source** [Adventurer's Guide pg. 98](source/adventurer's_guide), [Path of the Hellknight pg. 60](source/path_of_the_hellknight)  ",
+			"**Source** [Adventurer's Guide pg. 98](source/adventurers_guide), [Path of the Hellknight pg. 60](source/path_of_the_hellknight)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** inquisitor 2",
 			"",
 			"### Casting",
@@ -1672,7 +1672,7 @@
 		"description": [
 			"## Brand of Tracking",
 			"",
-			"**Source** [Adventurer's Guide pg. 98](source/adventurer's_guide), [Path of the Hellknight pg. 60](source/path_of_the_hellknight)  ",
+			"**Source** [Adventurer's Guide pg. 98](source/adventurers_guide), [Path of the Hellknight pg. 60](source/path_of_the_hellknight)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** inquisitor 4",
 			"",
 			"### Casting",
@@ -1710,7 +1710,7 @@
 		"description": [
 			"## Break",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, bloodrager 1, occultist 1, psychic 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -1901,7 +1901,7 @@
 		"description": [
 			"## Brilliant Inspiration",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[language-dependent](spelldef/languagedependent)]; **Level** bard 6, psychic 8, skald 6",
 			"",
 			"### Casting",
@@ -1925,7 +1925,7 @@
 		"description": [
 			"## Bristle",
 			"",
-			"**Source** [Advanced Player's Guide pg. 207](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 207](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 1, hunter 1",
 			"",
 			"### Casting",
@@ -2067,7 +2067,7 @@
 			"You toss several adamantine bullets into the air, which then hover protectively nearby and intercept firearm attacks targeting you. The number of bullets protecting you is equal to half your caster level (maximum 4). When an opponent takes a shot at you with a firearm, as an immediate action you can designate a hovering bullet to attempt to block the attack, increasing your AC against that attack by 10. Doing this destroys the adamantine bullet whether or not the attack hits. The spell is discharged when all affected adamantine bullets are destroyed or taken from you. Each adamantine bullet has AC 24, 20 hit points, and hardness 20."
 		]
 	},
-	"bull's_strength": {
+	"bulls_strength": {
 		"name": "Bull's Strength",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2110,13 +2110,13 @@
 			"This spell functions like bull's strength, except that it affects multiple creatures."
 		]
 	},
-	"bull's_strength_mass": {
+	"bulls_strength_mass": {
 		"name": "Bull's Strength, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
-		"copyof": "bull's_strength"
+		"copyof": "bulls_strength"
 	},
-	"mass_bull's_strength": {
-		"copyof": "bull's_strength_mass"
+	"mass_bulls_strength": {
+		"copyof": "bulls_strength_mass"
 	},
 	"bungle": {
 		"name": "Bungle",
@@ -2175,7 +2175,7 @@
 		"description": [
 			"## Burdened Thoughts",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 26](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 26](source/giant_hunters_handbook)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 3, druid 2, hunter 2, shaman 2, sorcerer 3, witch 2, wizard 3",
 			"",
 			"### Casting",
@@ -2281,7 +2281,7 @@
 		"description": [
 			"## Burning Gaze",
 			"",
-			"**Source** [Advanced Player's Guide pg. 208](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 208](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 2, bloodrager 2, druid 2, hunter 2, magus 2, mesmerist 2, occultist 2, shaman 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -2350,7 +2350,7 @@
 		"description": [
 			"## Burning Sands",
 			"",
-			"**Source** [Adventurer's Guide pg. 16](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 16](source/adventurers_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[earth](spelldef/earth), [fire](spelldef/fire)]; **Level** arcanist 1, druid 1, hunter 1, ranger 1, shaman 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -2409,7 +2409,7 @@
 		"description": [
 			"## Burst Bonds",
 			"",
-			"**Source** [Advanced Player's Guide pg. 208](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 208](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation); **Level** inquisitor 1",
 			"",
 			"### Casting",
@@ -2604,7 +2604,7 @@
 		"description": [
 			"## Burst with Light",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunters_handbook)  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** cleric 4, oracle 4, paladin 4, warpriest 4",
 			"",
 			"### Casting",
@@ -2680,7 +2680,7 @@
 		"description": [
 			"## Cacophonous Call",
 			"",
-			"**Source** [Advanced Player's Guide pg. 208](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 208](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 2, skald 2",
 			"",
 			"### Casting",
@@ -2699,7 +2699,7 @@
 			"",
 			"### Cacophonous Call, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 208](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 208](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 5, skald 5",
 			"",
 			"#### Casting",
@@ -2786,7 +2786,7 @@
 		"description": [
 			"## Calcific Touch",
 			"",
-			"**Source** [Advanced Player's Guide pg. 208](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 208](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[earth](spelldef/earth)]; **Level** arcanist 4, bloodrager 4, psychic 4, redmantisassassin 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -2843,7 +2843,7 @@
 			"| 8 | Earth | Conjuration | Combat Maneuver Check |"
 		]
 	},
-	"calistria's_guardian_wasps": {
+	"calistrias_guardian_wasps": {
 		"name": "Calistria's Guardian Wasps",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -2878,7 +2878,7 @@
 		"description": [
 			"## Call Animal",
 			"",
-			"**Source** [Advanced Player's Guide pg. 209](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 209](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** druid 1, hunter 1, mesmerist 1, ranger 1",
 			"",
 			"### Casting",
@@ -3267,7 +3267,7 @@
 		"description": [
 			"## Campfire Wall",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire), [light](spelldef/light)]; **Level** arcanist 3, bard 3, druid 2, hunter 2, occultist 2, ranger 2, skald 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -3356,7 +3356,7 @@
 		"description": [
 			"## Carrion Compass",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayers_handbook)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, cleric 1, hunter 1, oracle 1, ranger 1, sorcerer 2, warpriest 1, witch 1, wizard 2",
 			"",
 			"### Casting",
@@ -3408,7 +3408,7 @@
 		"description": [
 			"## Carrying Wind",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_masters_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) [[air](spelldef/air)]; **Level** druid 3, hunter 3, shaman 3",
 			"",
 			"### Casting",
@@ -3455,7 +3455,7 @@
 		"description": [
 			"## Cast Out",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** inquisitor 3, medium 2, psychic 4",
 			"",
 			"### Casting",
@@ -3479,7 +3479,7 @@
 		"description": [
 			"## Castigate",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [fear](spelldef/fear), [language-dependent](spelldef/languagedependent), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 2, mesmerist 2",
 			"",
 			"### Casting",
@@ -3498,7 +3498,7 @@
 			"",
 			"### Castigate, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [fear](spelldef/fear), [language-dependent](spelldef/languagedependent), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 5, mesmerist 5",
 			"",
 			"#### Casting",
@@ -3552,7 +3552,7 @@
 			"Any effect that would bring the creature back to life or animate it as an undead fails, but ends the catatonia. The target can be affected by spells that affect only objects, including animate objects (if the creature is Small) and teleport object. However, anything that would cause the body to change form (such as shrink item) fails and ends the catatonia. This doesn't prevent the effects of spells that simply deal damage or otherwise destroy objects."
 		]
 	},
-	"cat's_grace": {
+	"cats_grace": {
 		"name": "Cat's Grace",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -3595,13 +3595,13 @@
 			"This spell functions like cat's grace, except it affects multiple creatures."
 		]
 	},
-	"cat's_grace_mass": {
+	"cats_grace_mass": {
 		"name": "Cat's Grace, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
-		"copyof": "cat's_grace"
+		"copyof": "cats_grace"
 	},
-	"mass_cat's_grace": {
-		"copyof": "cat's_grace_mass"
+	"mass_cats_grace": {
+		"copyof": "cats_grace_mass"
 	},
 	"cause_fear": {
 		"name": "Cause Fear",
@@ -3759,7 +3759,7 @@
 		"description": [
 			"## Celestial Companion",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 12](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 12](source/plane-hoppers_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, druid 2, hunter 2, paladin 1, ranger 2, shaman 2, sorcerer 2, summoner 1, unchained summoner 1, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -4198,7 +4198,7 @@
 		"description": [
 			"## Challenge Evil",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** paladin 1",
 			"",
 			"### Casting",
@@ -4248,7 +4248,7 @@
 		"description": [
 			"## Chameleon Stride",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -4291,7 +4291,7 @@
 	"greater_chameleon_stride": {
 		"copyof": "chameleon_stride_greater"
 	},
-	"champion's_bout": {
+	"champions_bout": {
 		"name": "Champion's Bout",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -4692,7 +4692,7 @@
 			"The room itself is covered in a layer of slippery, semi-real gore. Any creature attempting to walk within or through the area of gore can move at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round, and failure by 5 or more means it falls prone (see the [Acrobatics](skill/acrobatics) skill for details). Creatures that don't move on their turns don't need to attempt this check and are not considered flat-footed. A creature that succeeded at its Will save gains a +5 bonus on the Acrobatics check."
 		]
 	},
-	"charon's_dispensation": {
+	"charons_dispensation": {
 		"name": "Charon's Dispensation",
 		"sources": [
 			"Book of the Damned",
@@ -4744,7 +4744,7 @@
 			"This spell is primarily used by the [Eagle Knights](rule/aff_vangard), though they did not create it; [Hellknights](rule/aff_lawknights) also use it extensively to gather information and foster cooperation."
 		]
 	},
-	"cheetah's_sprint": {
+	"cheetahs_sprint": {
 		"name": "Cheetah's Sprint",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
@@ -4940,7 +4940,7 @@
 		"description": [
 			"## Claim Identity",
 			"",
-			"**Source** [Spymaster's Handbook pg. 28](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 28](source/spymasters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 3, antipaladin 3, arcanist 4, bard 3, druid 4, hunter 4, inquisitor 3, investigator 3, shaman 4, skald 3, sorcerer 4, witch 3, wizard 4",
 			"",
 			"### Casting",
@@ -4961,7 +4961,7 @@
 			"",
 			"### Claim Identity, Greater",
 			"",
-			"**Source** [Spymaster's Handbook pg. 28](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 28](source/spymasters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 5, antipaladin 4, arcanist 6, bard 5, druid 6, hunter 6, inquisitor 5, investigator 5, shaman 6, skald 5, sorcerer 6, witch 5, wizard 6",
 			"",
 			"#### Casting",
@@ -5046,7 +5046,7 @@
 		"description": [
 			"## Clashing Rocks",
 			"",
-			"**Source** [Advanced Player's Guide pg. 210](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 210](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[earth](spelldef/earth)]; **Level** arcanist 9, druid 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -5072,7 +5072,7 @@
 		"description": [
 			"## Cleanse",
 			"",
-			"**Source** [Advanced Player's Guide pg. 211](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 211](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation); **Level** cleric 5, inquisitor 6, oracle 5, warpriest 5",
 			"",
 			"### Casting",
@@ -5097,7 +5097,7 @@
 		"description": [
 			"## Cleansing Fire",
 			"",
-			"**Source** [Adventurer's Guide pg. 17](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 17](source/adventurers_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire), [good](spelldef/good)]; **Level** cleric 5, inquisitor 4, oracle 5, paladin 4, warpriest 5",
 			"",
 			"### Casting",
@@ -5258,7 +5258,7 @@
 		"description": [
 			"## Cloak of Dreams",
 			"",
-			"**Source** [Advanced Player's Guide pg. 211](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 211](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 6, bard 5, mesmerist 5, occultist 6, psychic 6, shaman 7, skald 5, sorcerer 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -5306,7 +5306,7 @@
 		"description": [
 			"## Cloak of Shade",
 			"",
-			"**Source** [Advanced Player's Guide pg. 211](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 211](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** druid 1, hunter 1, ranger 1",
 			"",
 			"### Casting",
@@ -5355,7 +5355,7 @@
 		"description": [
 			"## Cloak of Winds",
 			"",
-			"**Source** [Advanced Player's Guide pg. 211](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 211](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[air](spelldef/air)]; **Level** arcanist 3, bloodrager 3, druid 3, hunter 3, magus 3, occultist 3, ranger 3, sorcerer 3, spiritualist 3, wizard 3",
 			"",
 			"### Casting",
@@ -5409,7 +5409,7 @@
 		"description": [
 			"## Cloud of Seasickness",
 			"",
-			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 73](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 73](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[poison](spelldef/poison)]; **Level** arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, sorcerer 2, warpriest 2, wizard 2 (Besmara)",
 			"",
 			"### Casting",
@@ -5506,7 +5506,7 @@
 		"description": [
 			"## Codespeak",
 			"",
-			"**Source** [Ultimate Intrigue pg. 206](source/ultimate_intrigue), [Second Darkness Player's Guide pg. 26](source/second_darkness_player's_guide), [Black Markets pg. 24](source/black_markets)  ",
+			"**Source** [Ultimate Intrigue pg. 206](source/ultimate_intrigue), [Second Darkness Player's Guide pg. 26](source/second_darkness_players_guide), [Black Markets pg. 24](source/black_markets)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, bard 2, medium 2, mesmerist 2, occultist 2, psychic 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -6322,7 +6322,7 @@
 		"description": [
 			"## Confess",
 			"",
-			"**Source** [Advanced Player's Guide pg. 212](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 212](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 2, mesmerist 2, psychic 2",
 			"",
 			"### Casting",
@@ -6509,7 +6509,7 @@
 		"description": [
 			"## Conjure Deadfall",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 4, magus 5, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -6573,7 +6573,7 @@
 		"description": [
 			"## Constricting Coils",
 			"",
-			"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 71](source/pathfinder_#42_sanctum_of_the_serpent_god)  ",
+			"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 71](source/pathfinder_42_sanctum_of_the_serpent_god)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 5, cleric 5, oracle 5, sorcerer 5, warpriest 5, wizard 5 (Ydersius)",
 			"",
 			"### Casting",
@@ -6910,7 +6910,7 @@
 		"description": [
 			"## Contagious Flame",
 			"",
-			"**Source** [Advanced Player's Guide pg. 212](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 212](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 6, magus 6, occultist 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -6960,7 +6960,7 @@
 		"description": [
 			"## Contest of Skill",
 			"",
-			"**Source** [Adventurer's Guide pg. 27](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 27](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** bard 2, cleric 3, magus 2, oracle 3, paladin 2, skald 2, warpriest 3",
 			"",
 			"### Casting",
@@ -7041,7 +7041,7 @@
 			"The following spells can be companion spells for deadman's contingency: animate dead (animating your corpse as an uncontrolled skeleton or zombie), disintegrate, fireball, gentle repose, magic mouth, major image (with a duration of 3 rounds), permanent image, sending, stinking cloud, and teleport object."
 		]
 	},
-	"deadman's_contingency": {
+	"deadmans_contingency": {
 		"name": "Deadman's Contingency",
 		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "contingency"
@@ -7434,7 +7434,7 @@
 		"description": [
 			"## Coordinated Effort",
 			"",
-			"**Source** [Advanced Player's Guide pg. 212](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 212](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** bard 3, inquisitor 3, psychic 4, skald 3",
 			"",
 			"### Casting",
@@ -7530,7 +7530,7 @@
 		"description": [
 			"## Corruption Resistance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 212](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 212](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[chaotic](spelldef/chaotic), [evil](spelldef/evil), [good](spelldef/good), or [lawful](spelldef/lawful)]; **Level** antipaladin 2, inquisitor 2, paladin 2",
 			"",
 			"### Casting",
@@ -7644,7 +7644,7 @@
 		"description": [
 			"## Covetous Aura",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 58](source/pathfinder_#5_sins_of_the_saviors), [Inner Sea World Guide pg. 294](source/inner_sea_world_guide)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 58](source/pathfinder_5_sins_of_the_saviors), [Inner Sea World Guide pg. 294](source/inner_sea_world_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 5, sorcerer 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -7698,7 +7698,7 @@
 			"Break enchantment, limited wish, miracle, remove curse, or wish can each end covetous urge before the duration expires. Dispel magic does not affect covetous urge."
 		]
 	},
-	"coward's_cowl": {
+	"cowards_cowl": {
 		"name": "Coward's Cowl",
 		"sources": [ "Agents of Evil" ],
 		"description": [
@@ -7724,13 +7724,13 @@
 			"While affected by coward's cowl, a creature takes a -2 penalty on all saving throws against fear effects."
 		]
 	},
-	"coward's_lament": {
+	"cowards_lament": {
 		"name": "Coward's Lament",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Coward's Lament",
 			"",
-			"**Source** [Advanced Player's Guide pg. 212](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 212](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 4",
 			"",
 			"### Casting",
@@ -7748,13 +7748,13 @@
 			"You compel an opponent to face you in combat, or suffer for its cowardice. Each round that the target fails to attack you in melee, it receives a cumulative -1 penalty to its Armor Class, attack rolls, and saving throws (maximum penalty -5). Each round at the end of its turn, the target may attempt a Will saving throw to prevent the penalties from increasing for that round. All penalties reset to zero when the target attacks you in melee, but increase again if it stops attacking. If the target is prevented from attacking you by physical restraint, magic, or impassable terrain, the penalties do not increase. If you move away from the target, the spell ends."
 		]
 	},
-	"crafter's_curse": {
+	"crafters_curse": {
 		"name": "Crafter's Curse",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Crafter's Curse",
 			"",
-			"**Source** [Advanced Player's Guide pg. 213](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 213](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** arcanist 1, occultist 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -7772,13 +7772,13 @@
 			"The target of crafter's curse takes a -5 penalty on all Craft skill checks while the spell lasts."
 		]
 	},
-	"crafter's_fortune": {
+	"crafters_fortune": {
 		"name": "Crafter's Fortune",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Crafter's Fortune",
 			"",
-			"**Source** [Advanced Player's Guide pg. 213](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 213](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, arcanist 1, investigator 1, occultist 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -7796,7 +7796,7 @@
 			"The target is struck by inspiration and gains a +5 luck bonus on its next Craft skill check."
 		]
 	},
-	"crafter's_nightmare": {
+	"crafters_nightmare": {
 		"name": "Crafter's Nightmare",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -7976,7 +7976,7 @@
 		"description": [
 			"## Create Drug",
 			"",
-			"**Source** [Book of the Damned pg. 183](source/book_of_the_damned), [Pathfinder #99: Dance of the Damned pg. 74](source/pathfinder_#99_dance_of_the_damned)  ",
+			"**Source** [Book of the Damned pg. 183](source/book_of_the_damned), [Pathfinder #99: Dance of the Damned pg. 74](source/pathfinder_99_dance_of_the_damned)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** alchemist 3, cleric 4, druid 3, hunter 3, investigator 3, occultist 3, oracle 4, warpriest 4",
 			"",
 			"### Casting",

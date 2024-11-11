@@ -50,7 +50,7 @@
 		"description": [
 			"## Aerial (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster or Versatile Summon Nature's Ally",
@@ -126,7 +126,7 @@
 		"description": [
 			"## Alebrije (CR +2)",
 			"",
-			"**Source** [Pathfinder #144: Midwives to Death](source/pathfinder_#144_midwives_to_death)  ",
+			"**Source** [Pathfinder #144: Midwives to Death](source/pathfinder_144_midwives_to_death)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -421,7 +421,7 @@
 		"description": [
 			"## Aqueous (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster or Versatile Summon Nature's Ally",
@@ -565,7 +565,7 @@
 		"description": [
 			"## Boreal Creature (CR +1)",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_#67_the_snows_of_summer)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_67_the_snows_of_summer)  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** Yes",
@@ -666,7 +666,7 @@
 		"description": [
 			"## Child of Yog-Sothoth (CR +1)",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within](source/pathfinder_113_what_grows_within)  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -725,7 +725,7 @@
 		"description": [
 			"## Chthonic (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster or Versatile Summon Nature's Ally",
@@ -783,7 +783,7 @@
 			"## Colour-Blighted (CR +0)",
 			"",
 			"**Source** [Bestiary 4](source/bestiary_4)  ",
-			"**Source** [Pathfinder #46: Wake of the Watcher](source/pathfinder_#46_wake_of_the_watcher)  ",
+			"**Source** [Pathfinder #46: Wake of the Watcher](source/pathfinder_46_wake_of_the_watcher)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -853,7 +853,7 @@
 			"",
 			"### Construction",
 			"",
-			"A commando construct's materials cost an additional 10,000 gp above the base creature's cost. The Craft check required to make the body has a DC 4 higher than normal for the base construct's kind. The construct is animated using a special laboratory or workroom that costs 1,000 gp to establish. If the creator is personally constructing the creature's body, the crafting and the ritual can be performed simultaneously. The creator must have a minimum caster level 1 higher than the base creature's minimum required caster level. In addition, the following spells must be cast during the ritual: [bull's strength](spell/bull's_strength), [greater heroism](spell/greater_heroism), and [limited wish](spell/limited_wish)."
+			"A commando construct's materials cost an additional 10,000 gp above the base creature's cost. The Craft check required to make the body has a DC 4 higher than normal for the base construct's kind. The construct is animated using a special laboratory or workroom that costs 1,000 gp to establish. If the creator is personally constructing the creature's body, the crafting and the ritual can be performed simultaneously. The creator must have a minimum caster level 1 higher than the base creature's minimum required caster level. In addition, the following spells must be cast during the ritual: [bull's strength](spell/bulls_strength), [greater heroism](spell/greater_heroism), and [limited wish](spell/limited_wish)."
 		]
 	},
 	"counterpoised": {
@@ -898,7 +898,7 @@
 		"description": [
 			"## Dark (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster",
@@ -938,7 +938,7 @@
 		"description": [
 			"## Degenerate (CR -1)",
 			"",
-			"**Source** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)  ",
+			"**Source** [Pathfinder #99: Dance of the Damned](source/pathfinder_99_dance_of_the_damned)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1279,7 +1279,7 @@
 			"",
 			"**Rebuild Rules:** **Special Attacks** wild shape (if it has 7 or more HD, using its HD - 3 as its druid level to determine the effect of the wild shape); **Druid Spells** can cast a small number of druid spells (see below) using its HD as its CL; **Ability Scores** +4 Wisdom; **SQ** woodland stride-.",
 			"",
-			"**Animal Companion:** These rules assume the druid creature doesn't have an animal companion. If you want to add one, select a creature from the list of a [summon nature's ally](spell/summon_nature's_ally_1) spell. The spell must have a level no higher than 1/2 the creature's CR. Treat the companion as an additional creature in the encounter, awarding XP for defeating it as if it was not an animal companion.",
+			"**Animal Companion:** These rules assume the druid creature doesn't have an animal companion. If you want to add one, select a creature from the list of a [summon nature's ally](spell/summon_natures_ally_1) spell. The spell must have a level no higher than 1/2 the creature's CR. Treat the companion as an additional creature in the encounter, awarding XP for defeating it as if it was not an animal companion.",
 			"",
 			"### Cleric, Druid, and Wizard Spells Slots",
 			"",
@@ -1667,7 +1667,7 @@
 			"",
 			"### Construction",
 			"",
-			"An enlightened construct's phrenic stone and materials cost an additional 60,000 gp above the base creature's cost. The construct's master can assemble the body or hire someone else to do the job. The DC of the Craft check required to create the body is 10 higher than normal for the base creature. After the body is created, the enlightened construct is animated through a magical ritual that requires a specially prepared laboratory or workroom that costs 1,000 gp to establish. The ritual takes 8 hours to complete. If the creator is personally constructing the construct's body, the construction and the ritual can be performed simultaneously. The creator must have a minimum caster level 4 higher than the base construct's minimum required caster level. In addition, the following spells must be cast during the ritual: [awaken construct](spell/awaken_construct), [eagle's splendor](spell/eagle's_splendor), [greater possession](spell/greater_possession), and [wish](spell/wish)."
+			"An enlightened construct's phrenic stone and materials cost an additional 60,000 gp above the base creature's cost. The construct's master can assemble the body or hire someone else to do the job. The DC of the Craft check required to create the body is 10 higher than normal for the base creature. After the body is created, the enlightened construct is animated through a magical ritual that requires a specially prepared laboratory or workroom that costs 1,000 gp to establish. The ritual takes 8 hours to complete. If the creator is personally constructing the construct's body, the construction and the ritual can be performed simultaneously. The creator must have a minimum caster level 4 higher than the base construct's minimum required caster level. In addition, the following spells must be cast during the ritual: [awaken construct](spell/awaken_construct), [eagle's splendor](spell/eagles_splendor), [greater possession](spell/greater_possession), and [wish](spell/wish)."
 		]
 	},
 	"entothrope": {
@@ -1764,7 +1764,7 @@
 		"description": [
 			"## Eruphyte (CR +1)",
 			"",
-			"**Source** [Pathfinder #142: Gardens of Gallowspire](source/pathfinder_#142_gardens_of_gallowspire)  ",
+			"**Source** [Pathfinder #142: Gardens of Gallowspire](source/pathfinder_142_gardens_of_gallowspire)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2131,7 +2131,7 @@
 		"description": [
 			"## Fiery (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster or Versatile Summon Nature's Ally",
@@ -2174,9 +2174,9 @@
 			"**Source** [The First World, Realm of the Fey](source/the_first_world_realm_of_the_fey)  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
-			"**Usable with Summons** Yes - Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_nature's_ally_1), and [planar ally](spell/planar_ally).",
+			"**Usable with Summons** Yes - Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_natures_ally_1), and [planar ally](spell/planar_ally).",
 			"",
-			"Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_nature's_ally_1), and [planar ally](spell/planar_ally). A First World creature's CR increases by 1 only if the base creature has 5 or more HIt Dice. A First World creature's quick and rebuild rules are the same.",
+			"Creatures with the First World template live on the First World, and can be summoned using spells such as [summon monster](spell/summon_monster_1), [summon nature's ally](spell/summon_natures_ally_1), and [planar ally](spell/planar_ally). A First World creature's CR increases by 1 only if the base creature has 5 or more HIt Dice. A First World creature's quick and rebuild rules are the same.",
 			"",
 			"**Rebuild Rules:** **Type** the creature counts as both its base type as well as fey for any effects related to type; **Senses** gains low-light vision; **Defensive Abilities** gains DR and energy resistance as noted on the table below, +4 bonus against mind-affecting effects; **SR** gains SR equal to new CR + 5; **Special** a First World creature killed while on the First World does not travel to the Boneyard, but simply reappears elsewhere in the First World 1d10 days later as if raised by resurrection, save that the negative level and Constitution drain from that spell cannot force it below 1st level or a Constitution score of 1. At the GM's option, the creature may be reincarnated (as per [reincarnate](spell/reincarnate)) instead.",
 			"",
@@ -2308,7 +2308,7 @@
 		"description": [
 			"## Frostfallen Creature (CR +1)",
 			"",
-			"**Source** [Pathfinder #51: The Hungry Storm](source/pathfinder_#51_the_hungry_storm)  ",
+			"**Source** [Pathfinder #51: The Hungry Storm](source/pathfinder_51_the_hungry_storm)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2707,7 +2707,7 @@
 		"description": [
 			"## Guardian Spirit (CR - Varies)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3553,7 +3553,7 @@
 			"",
 			"### Trench Zombie",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 91](source/pathfinder_#71_rasputin_must_die!)",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 91](source/pathfinder_71_rasputin_must_die)",
 			"",
 			"A trench zombie is a rotting creature leaking sulfurous fumes from beneath its acid-burned, peeling skin, and bristling with the armaments it possessed in its horrifying death. Retaining many of the memories and skills it possessed in life, a trench zombie contributes its intelligence into a sort of hive mind for the trench mist that originally spawned it, creating a true symbiosis between the two-a gift the trench zombie repays upon its destruction, when the horrific fumes that granted it unlife go back to the trench mist that birthed it. Trench zombies are foul and vengeful, and are canny enough to lurk within the nurturing embrace of their mother mist, which provides them concealment without impairing their senses. Those seeking trench zombies' destruction typically must enter the engulfing body of a trench mist if they are to ward off the zombies' ranged attacks. Trench zombies are created using the juju zombie template, but they lose the juju zombie's immunity to magic missile, which is replaced by immunity to acid. Trench zombies also gain the following special ability.",
 			"",

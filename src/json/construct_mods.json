@@ -337,7 +337,7 @@
 			"This modification causes a construct to explode in a shower of razor-sharp scrap and debris when it is reduced to 0 or fewer hit points. All creatures within a 10-foot burst of the construct take a number of points of slashing damage equal to 1d6 times the construct's CR. A successful Reflex save (DC = 10 + half the construct's Hit Dice + the construct's Constitution modifier) halves this damage. If a construct already has a similar ability, such as the death burst of a [clockwork golem](monster/clockwork_golem), the DC of the ability instead increases by 4."
 		]
 	},
-	"crafter's_eyes": {
+	"crafters_eyes": {
 		"name": "Crafter's Eyes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -367,7 +367,7 @@
 			"",
 			"**Source** [Construct Handbook pg. 8](source/construct_handbook)  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [mage's private sanctum](spell/mage's_private_sanctum), Small or larger construct  ",
+			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [mage's private sanctum](spell/mages_private_sanctum), Small or larger construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",

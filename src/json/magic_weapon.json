@@ -99,13 +99,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reduce person; **Price** 86 gp"
 		]
 	},
-	"blade_of_life's_defense": {
+	"blade_of_lifes_defense": {
 		"name": "Blade of Life's Defense",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Blade of Life's Defense",
 			"",
-			"**Source** [Merchant's Manifest pg. 7](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 7](source/merchants_manifest)  ",
 			"**Aura** ; **CL**  ",
 			"**Price** 170 gp ; **Weight** 6 lbs.",
 			"",
@@ -189,7 +189,7 @@
 		"description": [
 			"## Dustburst Bullet",
 			"",
-			"**Source** [Ultimate Equipment pg. 154](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 154](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_players_guide)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 196 gp ; **Weight** 1/2 lb.",
 			"",
@@ -262,7 +262,7 @@
 		"description": [
 			"## Tangle Bolt",
 			"",
-			"**Source** [Ultimate Equipment pg. 162](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 162](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_players_guide)  ",
 			"**Aura** strong conjuration; **CL** 12th  ",
 			"**Slot** none; **Price** 226 gp ; **Weight** -",
 			"",
@@ -296,7 +296,7 @@
 		"description": [
 			"## Unerring Grenade",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 46](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 46](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 266 gp ; **Weight** 1 lb.",
 			"",
@@ -377,7 +377,7 @@
 			"As a masterwork weapon, this alchemical silver dagger has a +1 enhancement bonus on attack rolls (but not on damage rolls)."
 		]
 	},
-	"alchemist's_bullet": {
+	"alchemists_bullet": {
 		"name": "Alchemist's Bullet",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -433,7 +433,7 @@
 		"description": [
 			"## Earthfire Shuriken",
 			"",
-			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_#50_night_of_frozen_shadows)  ",
+			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_50_night_of_frozen_shadows)  ",
 			"**Aura** strong evocation [fire]; **CL** 12th  ",
 			"**Slot** none; **Price** 400 gp ; **Weight** 1/2 lb.",
 			"",
@@ -641,7 +641,7 @@
 		"description": [
 			"## Dimensional Grenade",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 60](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 60](source/pathfinder_71_rasputin_must_die)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 1,450 gp; **Weight** 1 lb.",
 			"",
@@ -698,7 +698,7 @@
 		"description": [
 			"## Searing Arrow",
 			"",
-			"**Source** [Ultimate Equipment pg. 159](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 159](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 1,516 gp; **Weight** -",
 			"",
@@ -718,7 +718,7 @@
 		"description": [
 			"## Sizzling Arrow",
 			"",
-			"**Source** [Ultimate Equipment pg. 160](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 160](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 1,516 gp; **Weight** -",
 			"",
@@ -780,7 +780,7 @@
 		"description": [
 			"## Detecting Dart",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 28](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 28](source/monster_hunters_handbook)  ",
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** -",
 			"",
@@ -856,7 +856,7 @@
 		"description": [
 			"## Crossbow of the Crab",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 46](source/pathfinder_#123_the_flooded_cathedral)  ",
+			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 46](source/pathfinder_123_the_flooded_cathedral)  ",
 			"**Aura** no aura (nonmagical); **CL**  ",
 			"**Price** 2,500 gp; **Weight** 24 lbs.",
 			"",
@@ -871,7 +871,7 @@
 		"description": [
 			"## Effortless Lace",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunters_handbook)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 2,500 gp; **Weight** -",
 			"",
@@ -884,7 +884,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 1,250 gp"
 		]
 	},
-	"alchemist's_aspergillum": {
+	"alchemists_aspergillum": {
 		"name": "Alchemist's Aspergillum",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -935,13 +935,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fester, fireball; **Price** 1,500 gp"
 		]
 	},
-	"everbloom's_rose": {
+	"everblooms_rose": {
 		"name": "Everbloom's Rose",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
 			"## Everbloom's Rose",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 60](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 60](source/pathfinder_68_the_shackled_hut)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 3,000 gp; **Weight** 6 lbs.",
 			"",
@@ -984,7 +984,7 @@
 			"This nonmagical axe is made of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls."
 		]
 	},
-	"carouser's_retort": {
+	"carousers_retort": {
 		"name": "Carouser's Retort",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -1024,7 +1024,7 @@
 		"description": [
 			"## Conflagration Pike",
 			"",
-			"**Source** [Pathfinder: Hollow Mountain #1 pg. 27](source/pathfinder_hollow_mountain_#1)  ",
+			"**Source** [Pathfinder: Hollow Mountain #1 pg. 27](source/pathfinder_hollow_mountain_1)  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 3,110 gp; **Weight** 12 lbs.",
 			"",
@@ -1035,7 +1035,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), burning hands; **Price** 1,710 gp"
 		]
 	},
-	"fiend's_relief": {
+	"fiends_relief": {
 		"name": "Fiend's Relief",
 		"sources": [ "Agents of Evil" ],
 		"description": [
@@ -1058,7 +1058,7 @@
 		"description": [
 			"## Tidewater Cutlass",
 			"",
-			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 59](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 59](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 3,395 gp; **Weight** 4 lbs.",
 			"",
@@ -1107,7 +1107,7 @@
 		"description": [
 			"## Grasping Bolas",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 3,805 gp; **Weight** 2 lbs.",
 			"",
@@ -1160,7 +1160,7 @@
 		"description": [
 			"## Spear of Manhunting",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 61](source/pathfinder_#67_the_snows_of_summer)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer pg. 61](source/pathfinder_67_the_snows_of_summer)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** none; **Price** 3,925 gp; **Weight** 8 lbs.",
 			"",
@@ -1213,7 +1213,7 @@
 		"description": [
 			"## Lashing Aklys",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 61](source/pathfinder_#64_beyond_the_doomsday_door)  ",
+			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 61](source/pathfinder_64_beyond_the_doomsday_door)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 4,305 gp; **Weight** 2 lbs.",
 			"",
@@ -1230,7 +1230,7 @@
 		"description": [
 			"## Boarding Pike of Repelling",
 			"",
-			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 58](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 58](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 4,308 gp; **Weight** 9 lbs.",
 			"",
@@ -1250,7 +1250,7 @@
 		"description": [
 			"## Lance of Jousting",
 			"",
-			"**Source** [Ultimate Equipment pg. 156](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 156](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_players_guide)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 4,310 gp; **Weight** 10 lbs.",
 			"",
@@ -1267,7 +1267,7 @@
 		"description": [
 			"## Ranseur of the Gargoyle",
 			"",
-			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 65](source/pathfinder_#73_the_worldwound_incursion)  ",
+			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 65](source/pathfinder_73_the_worldwound_incursion)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 4,310 gp; **Weight** 12 lbs.",
 			"",
@@ -1284,7 +1284,7 @@
 		"description": [
 			"## Wizard Hook",
 			"",
-			"**Source** [Pathfinder #59: The Price of Infamy pg. 61](source/pathfinder_#59_the_price_of_infamy)  ",
+			"**Source** [Pathfinder #59: The Price of Infamy pg. 61](source/pathfinder_59_the_price_of_infamy)  ",
 			"**Aura** moderate necromancy; **CL** 6th  ",
 			"**Slot** none; **Price** 4,310 gp; **Weight** 1 lb.",
 			"",
@@ -1295,7 +1295,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spectral hand; **Price** 2,310 gp"
 		]
 	},
-	"forgefather's_sledge": {
+	"forgefathers_sledge": {
 		"name": "Forgefather's Sledge",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -1338,7 +1338,7 @@
 		"description": [
 			"## Grafting Blade",
 			"",
-			"**Source** [Spymaster's Handbook pg. 30](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 30](source/spymasters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 4,370 gp; **Weight** 1 lb.",
 			"",
@@ -1442,7 +1442,7 @@
 		"description": [
 			"## Biting Bracelet",
 			"",
-			"**Source** [Spymaster's Handbook pg. 30](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 30](source/spymasters_handbook)  ",
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1487,13 +1487,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Eschew Materials, magic missile; **Price** 2,825 gp"
 		]
 	},
-	"brinya's_love": {
+	"brinyas_love": {
 		"name": "Brinya's Love",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Brinya's Love",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 35](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 35](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Aura** moderate transmutation [good]; **CL** 7th  ",
 			"**Slot** none; **Price** 5,052 gp; **Weight** 1 lb.",
 			"",
@@ -1538,13 +1538,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), color spray, eagle's splendor; **Price** 2,778 gp"
 		]
 	},
-	"smuggler's_sling": {
+	"smugglers_sling": {
 		"name": "Smuggler's Sling",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Smuggler's Sling",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunters_handbook)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 5,300 gp; **Weight** -",
 			"",
@@ -1580,7 +1580,7 @@
 		"description": [
 			"## Axe of the Imperative",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 62](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 62](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** none; **Price** 5,310 gp; **Weight** 6 lbs.",
 			"",
@@ -1600,7 +1600,7 @@
 		"description": [
 			"## Runechill Hatchet",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 423](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #4: Fortress of the Stone Giants pg. 46](source/pathfinder_#4_fortress_of_the_stone_giants)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 423](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #4: Fortress of the Stone Giants pg. 46](source/pathfinder_4_fortress_of_the_stone_giants)  ",
 			"**Aura** moderate necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 5,312 gp; **Weight** 6 lbs.",
 			"",
@@ -1706,7 +1706,7 @@
 		"description": [
 			"## Whispering Shrike",
 			"",
-			"**Source** [Pathfinder #49: The Brinewall Legacy pg. 61](source/pathfinder_#49_the_brinewall_legacy)  ",
+			"**Source** [Pathfinder #49: The Brinewall Legacy pg. 61](source/pathfinder_49_the_brinewall_legacy)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 5,940 gp; **Weight** 2 lbs.",
 			"",
@@ -1723,7 +1723,7 @@
 		"description": [
 			"## Bonespur Dagger",
 			"",
-			"**Source** [Pathfinder Comics #12 pg. 26](source/pathfinder_comics_#12)  ",
+			"**Source** [Pathfinder Comics #12 pg. 26](source/pathfinder_comics_12)  ",
 			"**Aura** moderate necromancy; **CL** 6th  ",
 			"**Slot** none; **Price** 6,302 gp; **Weight** 2 lbs.",
 			"",
@@ -1772,7 +1772,7 @@
 			"**Requirements** Craft Arms and Armor, magic aura, shrink item; **Price** 3,160 gp"
 		]
 	},
-	"inheritor's_light": {
+	"inheritors_light": {
 		"name": "Inheritor's Light",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -1798,7 +1798,7 @@
 		"description": [
 			"## Boulderhead Mace",
 			"",
-			"**Source** [Ultimate Equipment pg. 152](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 152](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 6,812 gp; **Weight** 8 lbs.",
 			"",
@@ -1832,7 +1832,7 @@
 		"description": [
 			"## Natron Fang",
 			"",
-			"**Source** [Pathfinder #80: Empty Graves pg. 63](source/pathfinder_#80_empty_graves)  ",
+			"**Source** [Pathfinder #80: Empty Graves pg. 63](source/pathfinder_80_empty_graves)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** weapon; **Price** 7,280 gp; **Weight** 8 lbs.",
 			"",
@@ -1852,7 +1852,7 @@
 		"description": [
 			"## Beaststrike Club",
 			"",
-			"**Source** [Ultimate Equipment pg. 150](source/ultimate_equipment), [Advanced Player's Guide pg. 289](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 150](source/ultimate_equipment), [Advanced Player's Guide pg. 289](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** none; **Price** 7,300 gp; **Weight** 3 lbs.",
 			"",
@@ -1882,13 +1882,13 @@
 			"**Requirements** Craft Magic Items and Armor, death knell; **Price** 3,802 gp"
 		]
 	},
-	"sharpshooter's_blade": {
+	"sharpshooters_blade": {
 		"name": "Sharpshooter's Blade",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"## Sharpshooter's Blade",
 			"",
-			"**Source** [Pathfinder #57: Tempest Rising pg. 59](source/pathfinder_#57_tempest_rising)  ",
+			"**Source** [Pathfinder #57: Tempest Rising pg. 59](source/pathfinder_57_tempest_rising)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 7,305 gp; **Weight** 1 lb.",
 			"",
@@ -1901,7 +1901,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), greater magic weapon, versatile weapon; **Price** 3,805 gp"
 		]
 	},
-	"fighter's_fork": {
+	"fighters_fork": {
 		"name": "Fighter's Fork",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1918,7 +1918,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 3,815 gp"
 		]
 	},
-	"swashbuckler's_rapier": {
+	"swashbucklers_rapier": {
 		"name": "Swashbuckler's Rapier",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -1986,7 +1986,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a druid of at least 12th level; **Price** 4,306 gp"
 		]
 	},
-	"wanderer's_scarf": {
+	"wanderers_scarf": {
 		"name": "Wanderer's Scarf",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
@@ -2041,13 +2041,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic weapon; **Price** 4,000 gp"
 		]
 	},
-	"iomedae's_needle": {
+	"iomedaes_needle": {
 		"name": "Iomedae's Needle",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Iomedae's Needle",
 			"",
-			"**Source** [Pathfinder #141: Last Watch pg. 49](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch pg. 49](source/pathfinder_141_last_watch)  ",
 			"**Aura** strong divination and necromancy; **CL** 18th  ",
 			"**Slot** weapon; **Price** 8,016 gp; **Weight** 10 lbs.",
 			"",
@@ -2114,7 +2114,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate, slow; **Price** 4,305 gp"
 		]
 	},
-	"cave_dweller's_greataxe": {
+	"cave_dwellers_greataxe": {
 		"name": "Cave Dweller's Greataxe",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2240,7 +2240,7 @@
 		"description": [
 			"## Spear of the Watchful Guardian",
 			"",
-			"**Source** [Pathfinder #79: The Half-Dead City pg. 61](source/pathfinder_#79_the_half-dead_city)  ",
+			"**Source** [Pathfinder #79: The Half-Dead City pg. 61](source/pathfinder_79_the_half-dead_city)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** weapon; **Price** 8,462 gp; **Weight** 6 lbs.",
 			"",
@@ -2261,7 +2261,7 @@
 		"description": [
 			"## Stirge Lance",
 			"",
-			"**Source** [Spymaster's Handbook pg. 31](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 31](source/spymasters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 8,500 gp; **Weight** -",
 			"",
@@ -2337,7 +2337,7 @@
 		"description": [
 			"## Impaler of Thorns",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 421](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #2: The Skinsaw Murders pg. 51](source/pathfinder_#2_the_skinsaw_murders)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 421](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #2: The Skinsaw Murders pg. 51](source/pathfinder_2_the_skinsaw_murders)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 9 lbs.",
 			"",
@@ -2428,7 +2428,7 @@
 		"description": [
 			"## Silverfang",
 			"",
-			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_#62_curse_of_the_lady's_light)  ",
+			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_62_curse_of_the_ladys_light)  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 9,320 gp; **Weight** 2 lbs.",
 			"",
@@ -2441,7 +2441,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death ward, halt undead; **Price** 8,250 gp"
 		]
 	},
-	"diplomat's_traveling_stick": {
+	"diplomats_traveling_stick": {
 		"name": "Diplomat's Traveling Stick",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2481,7 +2481,7 @@
 		"description": [
 			"## Fang of Erebus",
 			"",
-			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 64](source/pathfinder_#30_the_twice-damned_prince)  ",
+			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 64](source/pathfinder_30_the_twice-damned_prince)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 9,501 gp; **Weight** 2 lbs.",
 			"",
@@ -2514,7 +2514,7 @@
 	"glaive_guisarme_of_the_vanguard": {
 		"copyof": "glaive-guisarme_of_the_vanguard"
 	},
-	"reaper's_lantern": {
+	"reapers_lantern": {
 		"name": "Reaper's Lantern",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -2575,7 +2575,7 @@
 		"description": [
 			"## Shrivelblade",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 9,810 gp; **Weight** 3 lbs.",
 			"",
@@ -2595,7 +2595,7 @@
 		"description": [
 			"## Trident of Stability",
 			"",
-			"**Source** [Ultimate Equipment pg. 163](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 163](source/ultimate_equipment), [Advanced Player's Guide pg. 291](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 9,815 gp; **Weight** 4 lbs.",
 			"",
@@ -2606,7 +2606,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate; **Price** 5,065 gp"
 		]
 	},
-	"redlust's_daughter": {
+	"redlusts_daughter": {
 		"name": "Redlust's Daughter",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -2623,7 +2623,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, flame strike, shrink item; **Price** 5,125 gp"
 		]
 	},
-	"pirate's_arm": {
+	"pirates_arm": {
 		"name": "Pirate's Arm",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -2664,13 +2664,13 @@
 	"junkblade": {
 		"copyof": "junkblade_goblin"
 	},
-	"master's_woe_stiletto": {
+	"masters_woe_stiletto": {
 		"name": "Master's Woe Stiletto",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Master's Woe Stiletto",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayers_handbook)  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 10,002 gp; **Weight** 1 lb.",
 			"",
@@ -2703,7 +2703,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature; **Price** 5,215 gp"
 		]
 	},
-	"balor's_lash": {
+	"balors_lash": {
 		"name": "Balor's Lash",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -2726,7 +2726,7 @@
 		"description": [
 			"## Cailean Fighting Tankard",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 30](source/weapon_masters_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** none; **Price** 10,301 gp; **Weight** 2 lbs.",
 			"",
@@ -2737,7 +2737,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wondrous Item](feat/craft_wondrous_item), secret chest; **Price** 5,301 gp"
 		]
 	},
-	"assassin's_dagger": {
+	"assassins_dagger": {
 		"name": "Assassin's Dagger",
 		"sources": [
 			"Ultimate Equipment",
@@ -2782,7 +2782,7 @@
 		"description": [
 			"## Deadly Kiss",
 			"",
-			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_#50_night_of_frozen_shadows)  ",
+			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_50_night_of_frozen_shadows)  ",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** none; **Price** 10,302 gp; **Weight** 1 lb.",
 			"",
@@ -2812,7 +2812,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic weapon, mirror strike; **Price** 5,302 gp"
 		]
 	},
-	"serpent's_fang": {
+	"serpents_fang": {
 		"name": "Serpent's Fang",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -2833,7 +2833,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), secret chest; **Price** 5,302 gp"
 		]
 	},
-	"courtesan's_ire": {
+	"courtesans_ire": {
 		"name": "Courtesan's Ire",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -2858,7 +2858,7 @@
 		"description": [
 			"## Hammertail",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 55](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 55](source/pathfinder_39_the_city_of_seven_spears)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 10,305 gp; **Weight** 2 lbs.",
 			"",
@@ -2869,7 +2869,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), entangle, telekinesis; **Price** 5,305 gp"
 		]
 	},
-	"hell's_eye": {
+	"hells_eye": {
 		"name": "Hell's Eye",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -2903,7 +2903,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, keen edge; **Price** 5,305 gp"
 		]
 	},
-	"signifer's_fist": {
+	"signifers_fist": {
 		"name": "Signifer's Fist",
 		"sources": [
 			"Adventurer's Guide",
@@ -2912,7 +2912,7 @@
 		"description": [
 			"## Signifer's Fist",
 			"",
-			"**Source** [Adventurer's Guide pg. 97](source/adventurer's_guide), [Advanced Class Origins pg. 29](source/advanced_class_origins)  ",
+			"**Source** [Adventurer's Guide pg. 97](source/adventurers_guide), [Advanced Class Origins pg. 29](source/advanced_class_origins)  ",
 			"**Aura** faint conjuration and transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 10,305 gp; **Weight** 2 lbs.",
 			"",
@@ -2929,7 +2929,7 @@
 		"description": [
 			"## Vindictive Harpoon",
 			"",
-			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 59](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 59](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 10,305 gp; **Weight** 16 lbs.",
 			"",
@@ -2946,7 +2946,7 @@
 		"description": [
 			"## Clicking Blade",
 			"",
-			"**Source** [Merchant's Manifest pg. 11](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 11](source/merchants_manifest)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** 10,310 gp; **Weight** 3 lbs.",
 			"",
@@ -2963,7 +2963,7 @@
 		"description": [
 			"## Heartspit",
 			"",
-			"**Source** [Pathfinder #93: Forge of the Giant God pg. 12](source/pathfinder_#93_forge_of_the_giant_god)  ",
+			"**Source** [Pathfinder #93: Forge of the Giant God pg. 12](source/pathfinder_93_forge_of_the_giant_god)  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 10,310 gp; **Weight** 18 lbs.",
 			"",
@@ -2991,13 +2991,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** 5,310 gp"
 		]
 	},
-	"brine's_sting": {
+	"brines_sting": {
 		"name": "Brine's Sting",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"## Brine's Sting",
 			"",
-			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 56](source/pathfinder_#56_raiders_of_the_fever_sea)  ",
+			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 56](source/pathfinder_56_raiders_of_the_fever_sea)  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 10,320 gp; **Weight** 2 lbs.",
 			"",
@@ -3050,7 +3050,7 @@
 		"description": [
 			"## Wavecutter",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 57](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 57](source/pathfinder_39_the_city_of_seven_spears)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** none; **Price** 10,320 gp; **Weight** 4 lbs.",
 			"",
@@ -3061,7 +3061,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, keen edge; **Price** 5,320 gp"
 		]
 	},
-	"cavalryman's_bow": {
+	"cavalrymans_bow": {
 		"name": "Cavalryman's Bow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
@@ -3084,7 +3084,7 @@
 		"description": [
 			"## Skyrocket Crossbow",
 			"",
-			"**Source** [Pathfinder #59: The Price of Infamy pg. 61](source/pathfinder_#59_the_price_of_infamy)  ",
+			"**Source** [Pathfinder #59: The Price of Infamy pg. 61](source/pathfinder_59_the_price_of_infamy)  ",
 			"**Aura** moderate divination and evocation; **CL** 6th  ",
 			"**Slot** none; **Price** 10,400 gp; **Weight** 2 lbs.",
 			"",
@@ -3177,7 +3177,7 @@
 		"description": [
 			"## Swarmbow",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_#81_shifting_sands)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_81_shifting_sands)  ",
 			"**Aura** moderate conjuration; **CL** 6th  ",
 			"**Slot** none; **Price** 11,275 gp; **Weight** 2 lbs.",
 			"",
@@ -3248,7 +3248,7 @@
 		"description": [
 			"## Axe of Felling",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 11,330 gp; **Weight** 8 lbs.",
 			"",
@@ -3276,7 +3276,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fireball or flame blade, warp wood; **Price** 5,900 gp"
 		]
 	},
-	"trailblazor's_spade": {
+	"trailblazors_spade": {
 		"name": "Trailblazor's Spade",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -3371,7 +3371,7 @@
 	"triple_stinging_blade": {
 		"copyof": "triple-stinging_blade_calistria"
 	},
-	"tamer's_whip": {
+	"tamers_whip": {
 		"name": "Tamer's Whip",
 		"sources": [ "Animal Archive" ],
 		"description": [
@@ -3385,7 +3385,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animal trance, snare, [summon nature's ally I](spell/summon_nature's_ally_1); **Price** 6,101 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animal trance, snare, [summon nature's ally I](spell/summon_natures_ally_1); **Price** 6,101 gp"
 		]
 	},
 	"icicle_wand": {
@@ -3394,7 +3394,7 @@
 		"description": [
 			"## Icicle Wand",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 61](source/pathfinder_#67_the_snows_of_summer)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer pg. 61](source/pathfinder_67_the_snows_of_summer)  ",
 			"**Aura** faint conjuration [cold]; **CL** 5th  ",
 			"**Slot** none; **Price** 12,250 gp; **Weight** 1 lb.",
 			"",
@@ -3405,7 +3405,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Wand](feat/craft_wand), ice spears, icicle dagger; **Price** 6,125 gp"
 		]
 	},
-	"constrictor's_gauntlets": {
+	"constrictors_gauntlets": {
 		"name": "Constrictor's Gauntlets",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
@@ -3430,7 +3430,7 @@
 		"description": [
 			"## Scorpion Tail Whip",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 63](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 63](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**Aura** moderate divination; **CL** 6th  ",
 			"**Slot** none; **Price** 12,305 gp; **Weight** 3 lbs.",
 			"",
@@ -3466,7 +3466,7 @@
 		"description": [
 			"## Sinderbos",
 			"",
-			"**Source** [Pathfinder #104: Wrath of Thrune pg. 42](source/pathfinder_#104_wrath_of_thrune)  ",
+			"**Source** [Pathfinder #104: Wrath of Thrune pg. 42](source/pathfinder_104_wrath_of_thrune)  ",
 			"**Aura** moderate conjuration and evocation; **CL**  ",
 			"**Slot** none; **Price** 12,312 gp; **Weight** 5 lbs.",
 			"",
@@ -3488,7 +3488,7 @@
 		"description": [
 			"## Blade of Binding",
 			"",
-			"**Source** [Ultimate Equipment pg. 151](source/ultimate_equipment), [Advanced Player's Guide pg. 289](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 151](source/ultimate_equipment), [Advanced Player's Guide pg. 289](source/advanced_players_guide)  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 12,350 gp; **Weight** 8 lbs.",
 			"",
@@ -3501,13 +3501,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope; **Price** 6,350 gp"
 		]
 	},
-	"gorum's_thorn": {
+	"gorums_thorn": {
 		"name": "Gorum's Thorn",
 		"sources": [ "Pathfinder #92: The Hill Giant's Pledge" ],
 		"description": [
 			"## Gorum's Thorn",
 			"",
-			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 33](source/pathfinder_#92_the_hill_giant's_pledge)  ",
+			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 33](source/pathfinder_92_the_hill_giants_pledge)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 12,350 gp; **Weight** 8 lbs.",
 			"",
@@ -3524,7 +3524,7 @@
 		"description": [
 			"## Dancing Wasp",
 			"",
-			"**Source** [Pathfinder #49: The Brinewall Legacy pg. 60](source/pathfinder_#49_the_brinewall_legacy)  ",
+			"**Source** [Pathfinder #49: The Brinewall Legacy pg. 60](source/pathfinder_49_the_brinewall_legacy)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 12,392 gp; **Weight** 3 lbs.",
 			"",
@@ -3532,7 +3532,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_nature's_ally_4); **Price** 6,352 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** 6,352 gp"
 		]
 	},
 	"shadowcraft_weapon": {
@@ -3592,7 +3592,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, plane shift; **Price** 6,700 gp"
 		]
 	},
-	"shifter's_sorrow": {
+	"shifters_sorrow": {
 		"name": "Shifter's Sorrow",
 		"sources": [
 			"Ultimate Equipment",
@@ -3618,7 +3618,7 @@
 		"description": [
 			"## Emberchill",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 60](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 60](source/pathfinder_68_the_shackled_hut)  ",
 			"**Aura** moderate evocation (plus aura of stored spell); **CL** 10th  ",
 			"**Slot** none; **Price** 12,806 gp; **Weight** 2 lbs.",
 			"",
@@ -3686,7 +3686,7 @@
 		"description": [
 			"## Spine Flail",
 			"",
-			"**Source** [Pathfinder #63: The Asylum Stone pg. 59](source/pathfinder_#63_the_asylum_stone)  ",
+			"**Source** [Pathfinder #63: The Asylum Stone pg. 59](source/pathfinder_63_the_asylum_stone)  ",
 			"**Aura** faint necromancy; **CL** 4th  ",
 			"**Slot** none; **Price** 13,308 gp; **Weight** 10 lbs.",
 			"",
@@ -3705,7 +3705,7 @@
 		"description": [
 			"## Andoren Emancipation Hammer",
 			"",
-			"**Source** [Merchant's Manifest pg. 4](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 4](source/merchants_manifest)  ",
 			"**Aura** moderate abjuration and evocation; **CL** 9th  ",
 			"**Slot** weapon; **Price** 13,312 gp; **Weight** 5 lbs.",
 			"",
@@ -3722,7 +3722,7 @@
 		"description": [
 			"## Korrigan Club",
 			"",
-			"**Source** [Pathfinder #116: Fangs of War pg. 29](source/pathfinder_#116_fangs_of_war)  ",
+			"**Source** [Pathfinder #116: Fangs of War pg. 29](source/pathfinder_116_fangs_of_war)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 13,400 gp; **Weight** 3 lbs.",
 			"",
@@ -3791,7 +3791,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), acid arrow, adoration; **Price** 7,051 gp"
 		]
 	},
-	"headsman's_blade": {
+	"headsmans_blade": {
 		"name": "Headsman's Blade",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3808,13 +3808,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, slay living; **Price** 7,100 gp"
 		]
 	},
-	"channeler's_scarf": {
+	"channelers_scarf": {
 		"name": "Channeler's Scarf",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Channeler's Scarf",
 			"",
-			"**Source** [Merchant's Manifest pg. 22](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 22](source/merchants_manifest)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** weapon; **Price** 14,012 gp; **Weight** 2 lbs.",
 			"",
@@ -3874,7 +3874,7 @@
 		"description": [
 			"## Death Bill",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 60](source/pathfinder_#64_beyond_the_doomsday_door)  ",
+			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 60](source/pathfinder_64_beyond_the_doomsday_door)  ",
 			"**Aura** moderate necromancy; **CL** 10th  ",
 			"**Slot** none; **Price** 14,318 gp; **Weight** 10 lbs.",
 			"",
@@ -3885,7 +3885,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, inflict critical wounds; **Price** 7,318 gp"
 		]
 	},
-	"black_eagle's_blade": {
+	"black_eagles_blade": {
 		"name": "Black Eagle's Blade",
 		"sources": [ "People of the River" ],
 		"description": [
@@ -3925,7 +3925,7 @@
 		"description": [
 			"## Dagger of Repossession",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 29](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 29](source/demon_hunters_handbook)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 14,702 gp; **Weight** 1 lb.",
 			"",
@@ -3938,7 +3938,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), break enchantment; **Price** 7,502 gp"
 		]
 	},
-	"triton's_trident": {
+	"tritons_trident": {
 		"name": "Triton's Trident",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3961,7 +3961,7 @@
 		"description": [
 			"## Spear of the Honored Ancestors",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 31](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 31](source/weapon_masters_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 15,302 gp; **Weight** 6 lbs.",
 			"",
@@ -4081,7 +4081,7 @@
 		"description": [
 			"## Tsuruhashi, the Silent Crane",
 			"",
-			"**Source** [Pathfinder #54: The Empty Throne pg. 61](source/pathfinder_#54_the_empty_throne)  ",
+			"**Source** [Pathfinder #54: The Empty Throne pg. 61](source/pathfinder_54_the_empty_throne)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** none; **Price** 16,101 gp; **Weight** 1 lb.",
 			"",
@@ -4098,7 +4098,7 @@
 		"description": [
 			"## Dagger of Black Sands",
 			"",
-			"**Source** [Merchant's Manifest pg. 17](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 17](source/merchants_manifest)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 16,302 gp; **Weight** 1 lb.",
 			"",
@@ -4132,7 +4132,7 @@
 		"description": [
 			"## Rimeblade",
 			"",
-			"**Source** [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_#70_the_frozen_stars)  ",
+			"**Source** [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_70_the_frozen_stars)  ",
 			"**Aura** moderate evocation [cold]; **CL** 8th  ",
 			"**Slot** none; **Price** 16,955 gp; **Weight** 4 lbs.",
 			"",
@@ -4164,13 +4164,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects; **Price** 10,025 gp"
 		]
 	},
-	"hero's_blade": {
+	"heros_blade": {
 		"name": "Hero's Blade",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Hero's Blade",
 			"",
-			"**Source** [Advanced Player's Guide pg. 325](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 325](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 17,315 gp; **Weight** 4 lbs.",
 			"",
@@ -4215,7 +4215,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Reach Spell, breath of life; **Price** 14,215 gp"
 		]
 	},
-	"hangman's_noose": {
+	"hangmans_noose": {
 		"name": "Hangman's Noose",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -4236,7 +4236,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope, suffocation; **Price** 9,301 gp"
 		]
 	},
-	"arachnid's_fang": {
+	"arachnids_fang": {
 		"name": "Arachnid's Fang",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
@@ -4270,7 +4270,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation, ray of sickening; **Price** 9,305 gp"
 		]
 	},
-	"tigress's_strand": {
+	"tigresss_strand": {
 		"name": "Tigress's Strand",
 		"sources": [ "Lost Treasures" ],
 		"description": [
@@ -4287,7 +4287,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, web; **Price** 9,305 gp"
 		]
 	},
-	"doppelganger's_sword": {
+	"doppelgangers_sword": {
 		"name": "Doppelganger's Sword",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
@@ -4313,7 +4313,7 @@
 		"description": [
 			"## Shieldsplitter Lance",
 			"",
-			"**Source** [Ultimate Equipment pg. 159](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 159](source/ultimate_equipment), [Advanced Player's Guide pg. 290](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 18,310 gp; **Weight** 10 lbs.",
 			"",
@@ -4324,7 +4324,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, shatter; **Price** 9,310 gp"
 		]
 	},
-	"mage's_crossbow": {
+	"mages_crossbow": {
 		"name": "Mage's Crossbow",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
@@ -4347,7 +4347,7 @@
 		"description": [
 			"## Zul",
 			"",
-			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 57](source/pathfinder_#56_raiders_of_the_fever_sea)  ",
+			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 57](source/pathfinder_56_raiders_of_the_fever_sea)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 18,395 gp; **Weight** 4 lbs.",
 			"",
@@ -4360,7 +4360,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), calcific touch, [summon monster I](spell/summon_monster_1); **Price** 9,355 gp"
 		]
 	},
-	"fleshwarped_scorpion's_tail": {
+	"fleshwarped_scorpions_tail": {
 		"name": "Fleshwarped Scorpion's Tail",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -4402,7 +4402,7 @@
 		"description": [
 			"## Oathtaker",
 			"",
-			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_#50_night_of_frozen_shadows)  ",
+			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_50_night_of_frozen_shadows)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** none; **Price** 18,540 gp; **Weight** 20 lbs.",
 			"",
@@ -4419,7 +4419,7 @@
 		"description": [
 			"## Guns of the Twin Drakes",
 			"",
-			"**Source** [Antihero's Handbook pg. 30](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 30](source/antiheros_handbook)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 18,600 gp; **Weight** 8 lbs.",
 			"",
@@ -4452,7 +4452,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm animals, speak with animals; **Price** 9,482 gp"
 		]
 	},
-	"treekeeper's_staff_elf": {
+	"treekeepers_staff_elf": {
 		"name": "Treekeeper's Staff (Elf)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -4473,8 +4473,8 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), litany of entanglement, plant growth, speak with plants, creator must be an elf; **Price** 9,650 gp"
 		]
 	},
-	"treekeeper's_staff": {
-		"copyof": "treekeeper's_staff_elf"
+	"treekeepers_staff": {
+		"copyof": "treekeepers_staff_elf"
 	},
 	"steadfast_urumi": {
 		"name": "Steadfast Urumi",

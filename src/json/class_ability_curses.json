@@ -33,7 +33,7 @@
 		"name": "Clouded Vision",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Clouded Vision** ([Advanced Player's Guide](source/advanced_player's_guide)): Your eyes are obscured, making it difficult for you to see. You cannot see anything beyond 30 feet, but you can see as if you had darkvision. At 5th level, this distance increases to 60 feet. At 10th level, you gain blindsense out to a range of 30 feet. At 15th level, you gain blindsight out to a range of 15 feet."
+			"**Clouded Vision** ([Advanced Player's Guide](source/advanced_players_guide)): Your eyes are obscured, making it difficult for you to see. You cannot see anything beyond 30 feet, but you can see as if you had darkvision. At 5th level, this distance increases to 60 feet. At 10th level, you gain blindsense out to a range of 30 feet. At 15th level, you gain blindsight out to a range of 15 feet."
 		]
 	},
 	"cold-blooded": {
@@ -61,7 +61,7 @@
 		"name": "Deaf",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Deaf** ([Advanced Player's Guide](source/advanced_player's_guide)): You cannot hear and suffer all of the usual penalties for being deafened. You cast all of your spells as if they were modified by the Silent Spell feat. This does not increase their level or casting time. At 5th level, you receive a +3 competence bonus on Perception checks that do not rely upon hearing, and the initiative penalty for being deaf is reduced to -2. At 10th level, you gain scent and you do not suffer any penalty on initiative checks due to being deaf. At 15th level, you gain tremorsense out to a range of 30 feet."
+			"**Deaf** ([Advanced Player's Guide](source/advanced_players_guide)): You cannot hear and suffer all of the usual penalties for being deafened. You cast all of your spells as if they were modified by the Silent Spell feat. This does not increase their level or casting time. At 5th level, you receive a +3 competence bonus on Perception checks that do not rely upon hearing, and the initiative penalty for being deaf is reduced to -2. At 10th level, you gain scent and you do not suffer any penalty on initiative checks due to being deaf. At 15th level, you gain tremorsense out to a range of 30 feet."
 		]
 	},
 	"deep_one": {
@@ -82,7 +82,7 @@
 		"name": "Elemental Imbalance",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"**Elemental Imbalance** ([Elemental Master's Handbook](source/elemental_master's_handbook)): You wield an element's might, but you are vulnerable to its opposite. Choose air, earth, fire, or water. If you select air, you gain vulnerability to acid, cannot benefit from any acid resistance or immunity, and cannot cast spells with the acid or earth descriptors. If you select earth, you gain vulnerability to electricity, cannot benefit from any electricity resistance or immunity, and cannot cast spells with the air or electricity descriptors. If you select fire, you gain vulnerability to cold, cannot benefit from any cold resistance or immunity, and cannot cast spells with the cold or water descriptors. If you select water, you gain vulnerability to fire, cannot benefit from any fire resistance or immunity, and cannot cast spells with the fire descriptor.",
+			"**Elemental Imbalance** ([Elemental Master's Handbook](source/elemental_masters_handbook)): You wield an element's might, but you are vulnerable to its opposite. Choose air, earth, fire, or water. If you select air, you gain vulnerability to acid, cannot benefit from any acid resistance or immunity, and cannot cast spells with the acid or earth descriptors. If you select earth, you gain vulnerability to electricity, cannot benefit from any electricity resistance or immunity, and cannot cast spells with the air or electricity descriptors. If you select fire, you gain vulnerability to cold, cannot benefit from any cold resistance or immunity, and cannot cast spells with the cold or water descriptors. If you select water, you gain vulnerability to fire, cannot benefit from any fire resistance or immunity, and cannot cast spells with the fire descriptor.",
 			"",
 			"As you advance in level, add the following spells to your oracle spells known based on your chosen element. At 1st level, add [burning hands](spell/burning_hands) (fire), [grease](spell/grease) (earth), [hydraulic push](spell/hydraulic_push) (water), or [shocking grasp](spell/shocking_grasp) (air) to your spells known. At 5th level, add [frigid touch](spell/frigid_touch) (water), [glitterdust](spell/glitterdust) (earth), [levitate](spell/levitate) (air), or [scorching ray](spell/scorching_ray) (fire) to your spells known. At 10th level, add [ball lightning](spell/ball_lightning) (air), [calcific touch](spell/calcific_touch) (earth), [ice storm](spell/ice_storm) (water), or [wall of fire](spell/wall_of_fire) (fire) to your spells known. At 15th level, add [chain lightning](spell/chain_lightning) (air), [contagious flame](spell/contagious_flame) (fire), [flesh to stone](spell/flesh_to_stone) (earth), or [freezing sphere](spell/freezing_sphere) (water) to your spells known."
 		]
@@ -91,7 +91,7 @@
 		"name": "Ghoul",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"**Ghoul** ([Horror Realms](source/horror_realms)): While your actual dietary needs don't change, you crave the flesh of sentient creatures. You can only go without food for 12 hours before you begin to starve, and when you do starve, the DC of the Constitution check to avoid taking damage increases by 5. If you feed on fresh, raw flesh (no older than 1 hour) from a creature of your own race, you gain a +1 morale bonus on all saving throws for 24 hours. At 5th level, you add [ghoul touch](spell/ghoul_touch) to your list of 2nd-level oracle spells known. At 10th level, you become immune to paralysis and disease. At 15th level, you gain the effects of [heroes' feast](spell/heroes'_feast) whenever you feed on the raw flesh of a sentient creature, and the effects of this heroes' feast double if the flesh you eat comes from a member of your own race (this effect applies no more often than once per day)."
+			"**Ghoul** ([Horror Realms](source/horror_realms)): While your actual dietary needs don't change, you crave the flesh of sentient creatures. You can only go without food for 12 hours before you begin to starve, and when you do starve, the DC of the Constitution check to avoid taking damage increases by 5. If you feed on fresh, raw flesh (no older than 1 hour) from a creature of your own race, you gain a +1 morale bonus on all saving throws for 24 hours. At 5th level, you add [ghoul touch](spell/ghoul_touch) to your list of 2nd-level oracle spells known. At 10th level, you become immune to paralysis and disease. At 15th level, you gain the effects of [heroes' feast](spell/heroes_feast) whenever you feed on the raw flesh of a sentient creature, and the effects of this heroes' feast double if the flesh you eat comes from a member of your own race (this effect applies no more often than once per day)."
 		]
 	},
 	"god-meddled": {
@@ -120,7 +120,7 @@
 		"name": "Haunted",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Haunted** ([Advanced Player's Guide](source/advanced_player's_guide)): Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). Retrieving any stored item from your gear requires a standard action, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction. Add [mage hand](spell/mage_hand) and [ghost sound](spell/ghost_sound) to your list of spells known. At 5th level, add [levitate](spell/levitate) and [minor image](spell/minor_image) to your list of spells known. At 10th level, add [telekinesis](spell/telekinesis) to your list of spells known. At 15th level, add [reverse gravity](spell/reverse_gravity) to your list of spells known."
+			"**Haunted** ([Advanced Player's Guide](source/advanced_players_guide)): Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). Retrieving any stored item from your gear requires a standard action, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction. Add [mage hand](spell/mage_hand) and [ghost sound](spell/ghost_sound) to your list of spells known. At 5th level, add [levitate](spell/levitate) and [minor image](spell/minor_image) to your list of spells known. At 10th level, add [telekinesis](spell/telekinesis) to your list of spells known. At 15th level, add [reverse gravity](spell/reverse_gravity) to your list of spells known."
 		]
 	},
 	"hellbound": {
@@ -155,7 +155,7 @@
 		"name": "Lame",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Lame** ([Advanced Player's Guide](source/advanced_player's_guide)): One of your legs is permanently wounded, reducing your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet. Your speed is never reduced due to encumbrance. At 5th level, you are immune to the fatigued condition (but not exhaustion). At 10th level, your speed is never reduced by armor. At 15th level, you are immune to the exhausted condition."
+			"**Lame** ([Advanced Player's Guide](source/advanced_players_guide)): One of your legs is permanently wounded, reducing your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet. Your speed is never reduced due to encumbrance. At 5th level, you are immune to the fatigued condition (but not exhaustion). At 10th level, your speed is never reduced by armor. At 15th level, you are immune to the exhausted condition."
 		]
 	},
 	"legalistic": {
@@ -246,7 +246,7 @@
 		"name": "Shattered Psyche",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
-			"**Shattered Psyche** ([Pathfinder #88: Valley of the Brain Collectors](source/pathfinder_#88_valley_of_the_brain_collectors)): Your mind is crowded with dozens of voices, fragmented snippets of your past lives. You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and concentration checks. You gain a +4 competence bonus on saving throws made against mind-affecting effects. At 5th level, you're immune to charm effects. At 10th level, you're immune to compulsion effects. At 15th level, you're immune to all mind-affecting effects."
+			"**Shattered Psyche** ([Pathfinder #88: Valley of the Brain Collectors](source/pathfinder_88_valley_of_the_brain_collectors)): Your mind is crowded with dozens of voices, fragmented snippets of your past lives. You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and concentration checks. You gain a +4 competence bonus on saving throws made against mind-affecting effects. At 5th level, you're immune to charm effects. At 10th level, you're immune to compulsion effects. At 15th level, you're immune to all mind-affecting effects."
 		]
 	},
 	"site-bound": {
@@ -267,7 +267,7 @@
 		"name": "Tongues",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Tongues** ([Advanced Player's Guide](source/advanced_player's_guide)): In times of stress or unease, you speak in tongues. Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are language dependent. You gain the selected language as a bonus language. At 5th level, pick an additional language to speak in combat and add it to your list of known languages. At 10th level, you can understand any spoken language, as if under the effects of [tongues](spell/tongues), even during combat. At 15th level, you can speak and understand any language, but your speech is still restricted during combat."
+			"**Tongues** ([Advanced Player's Guide](source/advanced_players_guide)): In times of stress or unease, you speak in tongues. Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are language dependent. You gain the selected language as a bonus language. At 5th level, pick an additional language to speak in combat and add it to your list of known languages. At 10th level, you can understand any spoken language, as if under the effects of [tongues](spell/tongues), even during combat. At 15th level, you can speak and understand any language, but your speech is still restricted during combat."
 		]
 	},
 	"toxic_blood": {
@@ -288,7 +288,7 @@
 		"name": "Wasting",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Wasting** ([Advanced Player's Guide](source/advanced_player's_guide)): Your body is slowly rotting away. You take a -4 penalty on Charisma-based skill checks, except for Intimidate. You gain a +4 competence bonus on saves made against disease. At 5th level, you are immune to the sickened condition (but not nauseated). At 10th level, you gain immunity to disease. At 15th level, you are immune to the nauseated condition."
+			"**Wasting** ([Advanced Player's Guide](source/advanced_players_guide)): Your body is slowly rotting away. You take a -4 penalty on Charisma-based skill checks, except for Intimidate. You gain a +4 competence bonus on saves made against disease. At 5th level, you are immune to the sickened condition (but not nauseated). At 10th level, you gain immunity to disease. At 15th level, you are immune to the nauseated condition."
 		]
 	},
 	"wolfscarred_face": {

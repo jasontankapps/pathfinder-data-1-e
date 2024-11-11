@@ -36,7 +36,7 @@
 		"description": [
 			"## Create Holds",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneers_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 4, druid 4, hunter 3, ranger 3, redmantisassassin 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -128,7 +128,7 @@
 		"description": [
 			"## Create Pit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 213](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 213](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 2, sorcerer 2, summoner 2, unchained summoner 2, wizard 2",
 			"",
 			"### Casting",
@@ -149,7 +149,7 @@
 			"",
 			"### Acid Pit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 204](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 204](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[acid](spelldef/acid)]; **Level** arcanist 4, sorcerer 4, summoner 4, unchained summoner 4, wizard 4",
 			"",
 			"#### Casting",
@@ -168,7 +168,7 @@
 			"",
 			"### Hungry Pit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 228](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 228](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 5, sorcerer 5, summoner 5, unchained summoner 5, wizard 5",
 			"",
 			"#### Casting",
@@ -187,7 +187,7 @@
 			"",
 			"### Spiked Pit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 246](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 246](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3",
 			"",
 			"#### Casting",
@@ -289,7 +289,7 @@
 		"description": [
 			"## Create Treasure Map",
 			"",
-			"**Source** [Advanced Player's Guide pg. 214](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 214](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, bard 2, druid 3, hunter 2, medium 2, occultist 2, psychic 2, ranger 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -348,7 +348,7 @@
 		"description": [
 			"## Create Variant Mummy",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -509,7 +509,7 @@
 		"description": [
 			"## Crimson Breath",
 			"",
-			"**Source** [Adventurer's Guide pg. 160](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 160](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 4, arcanist 4, cleric 4, druid 4, hunter 4, investigator 4, oracle 4, sorcerer 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -581,7 +581,7 @@
 			"Once you teleport to a new location with this spell, you can take no additional actions for the round, as if casting dimension door. You can't teleport if there are no creatures suffering from a fear effect in range."
 		]
 	},
-	"crusader's_edge": {
+	"crusaders_edge": {
 		"name": "Crusader's Edge",
 		"sources": [
 			"Inner Sea Magic",
@@ -727,7 +727,7 @@
 		"description": [
 			"## Cup of Dust",
 			"",
-			"**Source** [Advanced Player's Guide pg. 214](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 214](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** druid 3, hunter 3, mesmerist 3, occultist 3, psychic 3, witch 3",
 			"",
 			"### Casting",
@@ -757,7 +757,7 @@
 		"description": [
 			"## Curative Distillation",
 			"",
-			"**Source** [Healer's Handbook pg. 8](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 8](source/healers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** alchemist 2, cleric 3, investigator 2, oracle 3, warpriest 3",
 			"",
 			"### Casting",
@@ -1021,7 +1021,7 @@
 		"description": [
 			"## Curse Item",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 73](source/pathfinder_#64_beyond_the_doomsday_door)  ",
+			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 73](source/pathfinder_64_beyond_the_doomsday_door)  ",
 			"**School** [necromancy](spelldef/necromancy) [[curse](spelldef/curse)]; **Level** cleric 2, oracle 2, warpriest 2 (Groetus)",
 			"",
 			"### Casting",
@@ -1297,7 +1297,7 @@
 		"description": [
 			"## Curse of Unexpected Death",
 			"",
-			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 74](source/pathfinder_#89_palace_of_fallen_stars)  ",
+			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 74](source/pathfinder_89_palace_of_fallen_stars)  ",
 			"**School** [necromancy](spelldef/necromancy) [[curse](spelldef/curse), [death](spelldef/death)]; **Level** cleric 4, oracle 4, shaman 5, warpriest 4, witch 5 (Zyphus)",
 			"",
 			"### Casting",
@@ -1582,7 +1582,7 @@
 			"This spell functions like death ward, except as noted above and it only protects against these attacks from daemons."
 		]
 	},
-	"daggermark's_exchange": {
+	"daggermarks_exchange": {
 		"name": "Daggermark's Exchange",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -1605,7 +1605,7 @@
 			"You swallow a dose of poison with no effect and regurgitate a dose of a different poison (your choice) into the old container (or another you have on hand). Attempt a Craft (alchemy) check against the new poison's DC. If you succeed, you create a dose of your chosen poison. If you fail, the poison you regurgitate is inert. If you roll a natural 1, you expose yourself to the original poison (although you remain immune to that poison if you have venom immunity or a similar class feature or ability). The new poison's price must be the same as or less than the original poison's price."
 		]
 	},
-	"dahak's_release": {
+	"dahaks_release": {
 		"name": "Dahak's Release",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
@@ -1825,7 +1825,7 @@
 		"description": [
 			"## Dancing Lantern",
 			"",
-			"**Source** [Advanced Player's Guide pg. 214](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 214](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire), [light](spelldef/light)]; **Level** arcanist 1, bard 1, cleric 1, hunter 1, oracle 1, ranger 1, redmantisassassin 1, shaman 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -2171,7 +2171,7 @@
 			"",
 			"### Brightest Light",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source/adventurer's_guide), [Inner Sea Intrigue pg. 58](source/inner_sea_intrigue)  ",
+			"**Source** [Adventurer's Guide pg. 115](source/adventurers_guide), [Inner Sea Intrigue pg. 58](source/inner_sea_intrigue)  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** arcanist 4, bard 4, cleric 4, druid 4, hunter 4, inquisitor 4, magus 4, occultist 4, oracle 4, paladin 4, ranger 4, shaman 4, sorcerer 4, warpriest 4, wizard 4",
 			"",
 			"#### Casting",
@@ -2356,7 +2356,7 @@
 	"mass_dazzling_blade": {
 		"copyof": "dazzling_blade_mass"
 	},
-	"deadeye's_arrow": {
+	"deadeyes_arrow": {
 		"name": "Deadeye's Arrow",
 		"sources": [
 			"Inner Sea Gods",
@@ -2387,7 +2387,7 @@
 			"*Beacon:* You throw or fire the arrow straight up. When it reaches maximum range or a solid surface (such as the roof of a cave) it explodes in a peal of thunder and forms a forked bolt of electricity resembling Erastil's holy symbol, which lingers for 1 round. The thunder and lightning are as loud and bright as natural thunder and lightning, but they do not harm any nearby creatures."
 		]
 	},
-	"deadeye's_lore": {
+	"deadeyes_lore": {
 		"name": "Deadeye's Lore",
 		"sources": [
 			"Ultimate Combat",
@@ -2419,7 +2419,7 @@
 		"description": [
 			"## Deadly Finale",
 			"",
-			"**Source** [Advanced Player's Guide pg. 214](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 214](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** bard 6, skald 6",
 			"",
 			"### Casting",
@@ -2466,7 +2466,7 @@
 		"description": [
 			"## Deafening Song Bolt",
 			"",
-			"**Source** [Advanced Player's Guide pg. 214](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 214](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** bard 5, skald 5",
 			"",
 			"### Casting",
@@ -2769,7 +2769,7 @@
 		"description": [
 			"## Deathwine",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 58](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 58](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** alchemist 2, arcanist 3, cleric 2, investigator 2, oracle 2, sorcerer 3, warpriest 2, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -2872,7 +2872,7 @@
 		"description": [
 			"## Debilitating Speech",
 			"",
-			"**Source** [Disciple's Doctrine pg. 10](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 10](source/disciples_doctrine)  ",
 			"**School** [enchantment](spelldef/enchantment) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -2948,7 +2948,7 @@
 		"description": [
 			"## Deceptive Redundancy",
 			"",
-			"**Source** [Adventurer's Guide pg. 37](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 37](source/adventurers_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 5, bard 5, mesmerist 5, psychic 5, skald 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -3186,7 +3186,7 @@
 		"description": [
 			"## Defile Armor",
 			"",
-			"**Source** [Advanced Player's Guide pg. 215](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 215](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[evil](spelldef/evil)]; **Level** antipaladin 3, inquisitor 4",
 			"",
 			"### Casting",
@@ -3242,7 +3242,7 @@
 		"description": [
 			"## Deflection",
 			"",
-			"**Source** [Advanced Player's Guide pg. 215](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 215](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[force](spelldef/force)]; **Level** arcanist 7, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -3309,13 +3309,13 @@
 			"You animate the target of the spell, manipulating the glove with your own hand from a distance. The glove moves as you direct it with a fly speed of 30 feet and average maneuverability. Directing the glove is a standard action, though the glove can move up to its speed and perform a task in the same action. You can attempt Disable Device and Sleight of Hand checks using the glove, though attempting these checks at a distance increases the normal skill check DCs by 5, or by 20 if you do not have line of sight to the object you are manipulating. The glove can also lift or drag objects using your caster level as your Strength score. The glove cannot wield weapons or make attacks effectively while this spell is in effect. If you cast this spell on a magical glove, its innate magic is suppressed for the duration of the spell."
 		]
 	},
-	"deivon's_parry": {
+	"deivons_parry": {
 		"name": "Deivon's Parry",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Deivon's Parry",
 			"",
-			"**Source** [Adventurer's Guide pg. 27](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 27](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 1, magus 1, skald 1",
 			"",
 			"### Casting",
@@ -3488,7 +3488,7 @@
 		"description": [
 			"## Delayed Consumption",
 			"",
-			"**Source** [Advanced Player's Guide pg. 215](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 215](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 5, investigator 5",
 			"",
 			"### Casting",
@@ -3613,7 +3613,7 @@
 		"description": [
 			"## Demon Dream",
 			"",
-			"**Source** [Pathfinder Comics #10 pg. 26](source/pathfinder_comics_#10)  ",
+			"**Source** [Pathfinder Comics #10 pg. 26](source/pathfinder_comics_10)  ",
 			"**School** [illusion](spelldef/illusion) ([phantasm](spelldef/phantasm)) [[evil](spelldef/evil), [mind-affecting](spelldef/mindaffecting)]; **Level** cleric 6, oracle 6, warpriest 6",
 			"",
 			"### Casting",
@@ -3637,7 +3637,7 @@
 		"description": [
 			"## Denounce",
 			"",
-			"**Source** [Advanced Player's Guide pg. 215](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 215](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting)]; **Level** bard 4, inquisitor 4, mesmerist 4, psychic 5, skald 4",
 			"",
 			"### Casting",
@@ -3824,7 +3824,7 @@
 		"description": [
 			"## Detect Aberration",
 			"",
-			"**Source** [Advanced Player's Guide pg. 215](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 215](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** druid 1, hunter 1, psychic 1, ranger 1",
 			"",
 			"### Casting",
@@ -3924,7 +3924,7 @@
 		"description": [
 			"## Detect Charm",
 			"",
-			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
+			"**Source** [Adventurer's Guide pg. 77](source/adventurers_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 1, bard 1, cleric 1, inquisitor 1, medium 1, mesmerist 1, occultist 1, oracle 1, paladin 1, psychic 1, shaman 1, skald 1, sorcerer 1, spiritualist 1, warpriest 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -3948,7 +3948,7 @@
 		"description": [
 			"## Detect Demon",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunters_handbook)  ",
 			"**School** [divination](spelldef/divination); **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1",
 			"",
 			"### Casting",
@@ -4217,7 +4217,7 @@
 	"greater_detect_magic": {
 		"copyof": "detect_magic_greater"
 	},
-	"identifier's_eye": {
+	"identifiers_eye": {
 		"name": "Identifier's Eye",
 		"sources": [ "Potions and Poisons" ],
 		"copyof": "detect_magic"
@@ -4685,7 +4685,7 @@
 		"description": [
 			"## Determine Depth",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneers_handbook)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, bard 2, druid 2, hunter 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -4711,7 +4711,7 @@
 		"description": [
 			"## Detonate",
 			"",
-			"**Source** [Advanced Player's Guide pg. 215](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 215](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 4, arcanist 4, bloodrager 4, investigator 4, magus 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -4737,7 +4737,7 @@
 		"description": [
 			"## Detoxify",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 115](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** cleric 3, druid 3, hunter 2, inquisitor 3, oracle 3, paladin 3, ranger 2, shaman 3, warpriest 3, witch 3",
 			"",
 			"### Casting",
@@ -4790,7 +4790,7 @@
 		"description": [
 			"## Devolution",
 			"",
-			"**Source** [Advanced Player's Guide pg. 216](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 216](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, psychic 3, redmantisassassin 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3",
 			"",
 			"### Casting",
@@ -4844,7 +4844,7 @@
 		"description": [
 			"## Diamond Spray",
 			"",
-			"**Source** [Pathfinder #24: The Final Wish pg. 60](source/pathfinder_#24_the_final_wish)  ",
+			"**Source** [Pathfinder #24: The Final Wish pg. 60](source/pathfinder_24_the_final_wish)  ",
 			"**School** [evocation](spelldef/evocation) [[earth](spelldef/earth)]; **Level** arcanist 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -5135,7 +5135,7 @@
 		"description": [
 			"## Diminish Resistance",
 			"",
-			"**Source** [Planar Adventures pg. 40](source/planar_adventures), [Monster Hunter's Handbook pg. 30](source/monster_hunter's_handbook)  ",
+			"**Source** [Planar Adventures pg. 40](source/planar_adventures), [Monster Hunter's Handbook pg. 30](source/monster_hunters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, bard 2, cleric 2, inquisitor 2, magus 2, mesmerist 2, oracle 2, psychic 2, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5187,7 +5187,7 @@
 		"description": [
 			"## Dirge of the Victorious Knights",
 			"",
-			"**Source** [Adventurer's Guide pg. 98](source/adventurer's_guide), [Inner Sea World Guide pg. 294](source/inner_sea_world_guide), [Cheliax, Empire of Devils pg. 22](source/cheliax_empire_of_devils)  ",
+			"**Source** [Adventurer's Guide pg. 98](source/adventurers_guide), [Inner Sea World Guide pg. 294](source/inner_sea_world_guide), [Cheliax, Empire of Devils pg. 22](source/cheliax_empire_of_devils)  ",
 			"**School** [illusion](spelldef/illusion) ([shadow](spelldef/shadow_subschool)); **Level** bard 6, skald 6",
 			"",
 			"### Casting",
@@ -5319,7 +5319,7 @@
 		"description": [
 			"## Discern Value",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 30](source/dungeoneers_handbook)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, bard 3, skald 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -5411,7 +5411,7 @@
 		"description": [
 			"## Discordant Blast",
 			"",
-			"**Source** [Advanced Player's Guide pg. 216](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 216](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** bard 4, skald 4",
 			"",
 			"### Casting",
@@ -6336,7 +6336,7 @@
 		"description": [
 			"## Divine Transfer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 216](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 216](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** paladin 3",
 			"",
 			"### Casting",
@@ -6360,7 +6360,7 @@
 		"description": [
 			"## Divine Vessel",
 			"",
-			"**Source** [Advanced Player's Guide pg. 216](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 216](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[chaotic](spelldef/chaotic), [evil](spelldef/evil), [good](spelldef/good), or [lawful](spelldef/lawful)]; **Level** oracle 8",
 			"",
 			"### Casting",
@@ -6526,7 +6526,7 @@
 			"All of this information is based on the last time the influencing creature linked itself to the target, either to issue a command or to receive sensory input from the target. For example, if at nightfall a vampire commanded a dominated victim to walk to a cemetery, this spell can reveal the vampire's general location at that time, though it may have moved since then."
 		]
 	},
-	"dongun_shaper's_touch": {
+	"dongun_shapers_touch": {
 		"name": "Dongun Shaper's Touch",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -6660,7 +6660,7 @@
 		"description": [
 			"## Draconic Reservoir",
 			"",
-			"**Source** [Advanced Player's Guide pg. 217](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 217](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 3, arcanist 3, bloodrager 3, investigator 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -6694,7 +6694,7 @@
 		"description": [
 			"## Draconic Suppression",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayers_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 5, sorcerer 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -6718,7 +6718,7 @@
 		"description": [
 			"## Dragon Turtle Shell",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayers_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 3, arcanist 3, cleric 3, druid 2, hunter 2, investigator 3, oracle 3, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -6735,7 +6735,7 @@
 			"When you are struck by an opponent's natural attacks, the damage is resolved as if the attack came from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL 20th). Refer to [Table 3-1](umr/natural_attacks) to determine an attack's altered base damage. If the creature's natural attack deals non-standard damage, refer instead to the [Improved Natural Attack](feat/improved_natural_attack) feat. It is not possible to reduce the base damage of a creature's natural attack below 1d2 with this spell."
 		]
 	},
-	"dragon's_breath": {
+	"dragons_breath": {
 		"name": "Dragon's Breath",
 		"sources": [
 			"Advanced Player's Guide",
@@ -6744,7 +6744,7 @@
 		"description": [
 			"## Dragon's Breath",
 			"",
-			"**Source** [Advanced Player's Guide pg. 217](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 217](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 4, arcanist 4, bloodrager 4, investigator 4, magus 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -6788,7 +6788,7 @@
 		"description": [
 			"## Dragonvoice",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayers_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, bard 2, investigator 2, redmantisassassin 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -7011,7 +7011,7 @@
 		"description": [
 			"## Dream Feast",
 			"",
-			"**Source** [Inner Sea Gods pg. 232](source/inner_sea_gods), [Pathfinder #2: The Skinsaw Murders pg. 72](source/pathfinder_#2_the_skinsaw_murders)  ",
+			"**Source** [Inner Sea Gods pg. 232](source/inner_sea_gods), [Pathfinder #2: The Skinsaw Murders pg. 72](source/pathfinder_2_the_skinsaw_murders)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** cleric 1, druid 1, hunter 1, oracle 1, ranger 1, shaman 1, warpriest 1 (Desna)",
 			"",
 			"### Casting",
@@ -7256,13 +7256,13 @@
 			"Anyone who closely examines the corpse can attempt a Perception check (DC = 10 + your caster level) to notice that the corpse's wounds (or lack thereof) don't look natural, but this doesn't allow the observer to determine what the corpse looked like before this spell was cast. Closely examining the corpse with a successful Heal check (DC = 15 + your caster level) not only reveals that the target's apparent wounds are false, but also what the originally obscured wounds were."
 		]
 	},
-	"drunkard's_breath": {
+	"drunkards_breath": {
 		"name": "Drunkard's Breath",
 		"sources": [ "Pathfinder #14: Children of the Void" ],
 		"description": [
 			"## Drunkard's Breath",
 			"",
-			"**Source** [Pathfinder #14: Children of the Void pg. 61](source/pathfinder_#14_children_of_the_void)  ",
+			"**Source** [Pathfinder #14: Children of the Void pg. 61](source/pathfinder_14_children_of_the_void)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** bard 2, cleric 2, oracle 2, skald 2, warpriest 2 (Cayden Cailean)",
 			"",
 			"### Casting",
@@ -7286,7 +7286,7 @@
 		"description": [
 			"## Dungeonsight",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 28](source/dragonslayers_handbook)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 5, bard 4, cleric 5, inquisitor 4, oracle 5, skald 4, sorcerer 5, warpriest 5, wizard 5",
 			"",
 			"### Casting",
@@ -7361,7 +7361,7 @@
 		"description": [
 			"## Dust of Twilight",
 			"",
-			"**Source** [Advanced Player's Guide pg. 217](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 217](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) [[darkness](spelldef/darkness)]; **Level** arcanist 2, bard 2, bloodrager 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -7493,7 +7493,7 @@
 		"description": [
 			"## Eagle Eye",
 			"",
-			"**Source** [Advanced Player's Guide pg. 217](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 217](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** druid 2, hunter 2, psychic 2, ranger 2, shaman 2",
 			"",
 			"### Casting",
@@ -7511,7 +7511,7 @@
 			"Eagle eye creates a magical sensor directly above you. The sensor can appear anywhere above you, to a maximum height equal to the spell's range. You can see from this vantage as if you were actually there, rotating your viewpoint 360 degrees. You perceive with your normal visual senses. A caster using eagle eye can easily see for a considerable distance. The spell does not penetrate any solid surface, although it is unaffected by foliage and the like."
 		]
 	},
-	"eagle's_splendor": {
+	"eagles_splendor": {
 		"name": "Eagle's Splendor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -7535,7 +7535,7 @@
 			"The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase."
 		]
 	},
-	"eagle's_splendor_mass": {
+	"eagles_splendor_mass": {
 		"name": "Eagle's Splendor, Mass",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -7559,8 +7559,8 @@
 			"This spell functions like eagle's splendor, except that it affects multiple creatures."
 		]
 	},
-	"mass_eagle's_splendor": {
-		"copyof": "eagle's_splendor_mass"
+	"mass_eagles_splendor": {
+		"copyof": "eagles_splendor_mass"
 	},
 	"eaglesoul": {
 		"name": "Eaglesoul",
@@ -7814,7 +7814,7 @@
 			"*Augmented (8th):* If you expend two uses of mythic power, the spell lasts for an additional round and the spread's radius increases by 20 feet. Each round this spell is in effect, on your turn you may expend one use of mythic power to continue its duration for 1 round and increase its radius by another 20 feet."
 		]
 	},
-	"echean's_excellent_enclosure": {
+	"echeans_excellent_enclosure": {
 		"name": "Echean's Excellent Enclosure",
 		"sources": [ "Rival Guide" ],
 		"description": [

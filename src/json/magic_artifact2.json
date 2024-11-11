@@ -33,7 +33,7 @@
 		"description": [
 			"## Anima Focus",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 420](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #6: Spires of Xin-Shalast pg. 58](source/pathfinder_#6_spires_of_xin-shalast)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 420](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #6: Spires of Xin-Shalast pg. 58](source/pathfinder_6_spires_of_xin-shalast)  ",
 			"**Aura** strong (conjuration and necromancy); **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 9 tons",
 			"",
@@ -143,7 +143,7 @@
 		"description": [
 			"## Barding of Pleated Light",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 65](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 65](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** overwhelming abjuration; **CL** 20th  ",
 			"**Slot** armor (barding); **Price** -; **Weight** 100 lbs.",
 			"",
@@ -156,13 +156,13 @@
 			"The barding of pleated light is destroyed if it's reduced to 0 hit points in an area of absolute darkness with no light-not even a candle's flicker or reflected moonbeam-within 10 miles in any direction."
 		]
 	},
-	"belimarius's_invidious_halberd": {
+	"belimariuss_invidious_halberd": {
 		"name": "Belimarius's Invidious Halberd",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Belimarius's Invidious Halberd",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 56](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 56](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**Aura** strong abjuration [evil]; **CL** 17th  ",
 			"**Slot** none; **Price** -; **Weight** 12 lbs.",
 			"",
@@ -405,7 +405,7 @@
 		"description": [
 			"## Bottle of the Bound",
 			"",
-			"**Source** [Ultimate Equipment pg. 335](source/ultimate_equipment), [Advanced Player's Guide pg. 316](source/advanced_player's_guide), [Artifacts and Legends pg. 16](source/artifacts_and_legends)",
+			"**Source** [Ultimate Equipment pg. 335](source/ultimate_equipment), [Advanced Player's Guide pg. 316](source/advanced_players_guide), [Artifacts and Legends pg. 16](source/artifacts_and_legends)",
 			"",
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 4 lbs.",
@@ -543,7 +543,7 @@
 		"description": [
 			"## Chalice of Lissala",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 69](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 69](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**Aura** overwhelming enchantment; **CL** 22nd  ",
 			"**Slot** none; **Price** -; **Weight** 4 lbs.",
 			"",
@@ -564,7 +564,7 @@
 		"description": [
 			"## Chalice of Ozem",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 62](source/pathfinder_#77_herald_of_the_ivory_labyrinth)  ",
+			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 62](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
 			"**Aura** strong abjuration and evocation [force]; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -629,7 +629,7 @@
 		"description": [
 			"## Cloud Castle of the Storm King",
 			"",
-			"**Source** [Ultimate Equipment pg. 336](source/ultimate_equipment), [Advanced Player's Guide pg. 316](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 336](source/ultimate_equipment), [Advanced Player's Guide pg. 316](source/advanced_players_guide)",
 			"",
 			"**Aura** strong (all schools); **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** -",
@@ -702,7 +702,7 @@
 		"description": [
 			"## Crook and Flail of Kings",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_#84_pyramid_of_the_sky_pharaoh)  ",
+			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_84_pyramid_of_the_sky_pharaoh)  ",
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 5 lbs. each",
 			"",
@@ -728,7 +728,7 @@
 		"description": [
 			"## Crown of Fangs",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 432](source/curse_of_the_crimson_throne), [Pathfinder #12: Crown of Fangs pg. 64](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Curse of the Crimson Throne pg. 432](source/curse_of_the_crimson_throne), [Pathfinder #12: Crown of Fangs pg. 64](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong enchantment, illusion, and necromancy; **CL** 20th  ",
 			"**Slot** head; **Price** -; **Weight** 4 lbs.",
 			"",
@@ -754,7 +754,7 @@
 		"description": [
 			"## Crown of Infernal Majesty",
 			"",
-			"**Source** [Pathfinder #106: For Queen and Empire pg. 59](source/pathfinder_#106_for_queen_and_empire)  ",
+			"**Source** [Pathfinder #106: For Queen and Empire pg. 59](source/pathfinder_106_for_queen_and_empire)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 20th  ",
 			"**Slot** head; **Price** -; **Weight** -",
 			"",
@@ -776,7 +776,7 @@
 		"description": [
 			"## Dancing Hut of Baba Yaga",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 61](source/pathfinder_#68_the_shackled_hut), [Artifacts and Legends pg. 21](source/artifacts_and_legends)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 61](source/pathfinder_68_the_shackled_hut), [Artifacts and Legends pg. 21](source/artifacts_and_legends)  ",
 			"**Aura** overwhelming conjuration and transmutation; **CL** 30th  ",
 			"**Slot** none; **Price** -; **Weight** 3,500 lbs.",
 			"",
@@ -825,13 +825,13 @@
 			"The Demon Prince Armor dissolves if submerged in the tears of a demon lord. If that foul concoction is then drank by an angel, the armor is destroyed."
 		]
 	},
-	"deskari's_tooth": {
+	"deskaris_tooth": {
 		"name": "Deskari's Tooth",
 		"sources": [ "Pathfinder #78: City of Locusts" ],
 		"description": [
 			"## Deskari's Tooth",
 			"",
-			"**Source** [Pathfinder #78: City of Locusts pg. 62](source/pathfinder_#78_city_of_locusts)  ",
+			"**Source** [Pathfinder #78: City of Locusts pg. 62](source/pathfinder_78_city_of_locusts)  ",
 			"**Aura** strong conjuration and necromancy (evil); **CL** 20th  ",
 			"**Slot** weapon; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -861,13 +861,13 @@
 			"The Diadem of Nod can be destroyed if its wearer uses it to create a dream inside of another pocket dream dimension. It can't be destroyed from within a dream it created."
 		]
 	},
-	"dryad's_song": {
+	"dryads_song": {
 		"name": "Dryad's Song",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"## Dryad's Song",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 49](source/pathfinder_#119_prisoners_of_the_blight)  ",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 49](source/pathfinder_119_prisoners_of_the_blight)  ",
 			"**Aura** strong conjuration and transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -892,13 +892,13 @@
 			"Dryad's Song crumbles into ash if it is wholly submerged in a mixture of glaistig blood and a traitor's tears of regret."
 		]
 	},
-	"dryad's_song_corrupted": {
+	"dryads_song_corrupted": {
 		"name": "Dryad's Song (Corrupted)",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"## Dryad's Song (Corrupted)",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 26](source/pathfinder_#119_prisoners_of_the_blight)  ",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 26](source/pathfinder_119_prisoners_of_the_blight)  ",
 			"**Aura** strong transmutation and necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -921,7 +921,7 @@
 			"If the blighted dryad Arlantia is killed, Dryad's Song slowly reverts to its original state."
 		]
 	},
-	"emperor's_mammoth": {
+	"emperors_mammoth": {
 		"name": "Emperor's Mammoth",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1026,7 +1026,7 @@
 		"description": [
 			"## Fork of the Forgotten One",
 			"",
-			"**Source** [Ultimate Equipment pg. 337](source/ultimate_equipment), [Advanced Player's Guide pg. 317](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 337](source/ultimate_equipment), [Advanced Player's Guide pg. 317](source/advanced_players_guide)",
 			"",
 			"**Aura** strong transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 12 lbs.",
@@ -1109,7 +1109,7 @@
 		"description": [
 			"## Guardian Key",
 			"",
-			"**Source** [Pathfinder #66: The Dead Heart of Xin pg. 58](source/pathfinder_#66_the_dead_heart_of_xin)  ",
+			"**Source** [Pathfinder #66: The Dead Heart of Xin pg. 58](source/pathfinder_66_the_dead_heart_of_xin)  ",
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** none; **Price** -; **Weight** -",
 			"",
@@ -1229,7 +1229,7 @@
 		"description": [
 			"## Heart of the Herald",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 62](source/pathfinder_#77_herald_of_the_ivory_labyrinth)  ",
+			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 62](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
 			"**Aura** strong necromancy (chaotic, evil); **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -1244,13 +1244,13 @@
 			"The Heart of the Herald must be used to redeem the Herald of the Ivory Labyrinth."
 		]
 	},
-	"heart's_bane": {
+	"hearts_bane": {
 		"name": "Heart's Bane",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"## Heart's Bane",
 			"",
-			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 75](source/pathfinder_#108_hell_comes_to_westcrown)  ",
+			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 75](source/pathfinder_108_hell_comes_to_westcrown)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -1263,13 +1263,13 @@
 			"If Iomedae's current herald uses Heart's Bane to deliver a coup de grace attack to an unwilling paladin of Iomedae, the sword shatters and is permanently destroyed."
 		]
 	},
-	"heart's_edge": {
+	"hearts_edge": {
 		"name": "Heart's Edge",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"## Heart's Edge",
 			"",
-			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 56](source/pathfinder_#108_hell_comes_to_westcrown)  ",
+			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 56](source/pathfinder_108_hell_comes_to_westcrown)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -1346,7 +1346,7 @@
 		"description": [
 			"## Icecrown of Irrisen",
 			"",
-			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 62](source/pathfinder_#72_the_witch_queen's_revenge)",
+			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 62](source/pathfinder_72_the_witch_queens_revenge)",
 			"",
 			"**Aura** strong transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 3 lbs.",
@@ -1391,7 +1391,7 @@
 		"description": [
 			"## Imago Lens",
 			"",
-			"**Source** [Pathfinder #76: The Midnight Isles pg. 60](source/pathfinder_#76_the_midnight_isles)  ",
+			"**Source** [Pathfinder #76: The Midnight Isles pg. 60](source/pathfinder_76_the_midnight_isles)  ",
 			"**Aura** overwhelming illusion (chaotic, evil); **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 80 lbs.",
 			"",
@@ -1451,7 +1451,7 @@
 			"The Invidian Eye must be offered to 100 free-willed mortals who know nothing of its powers and be rejected by each."
 		]
 	},
-	"jar_of_dragon's_teeth": {
+	"jar_of_dragons_teeth": {
 		"name": "Jar of Dragon's Teeth",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1497,7 +1497,7 @@
 		"description": [
 			"## Jawbone of the Venerable Galevius",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 67](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 67](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** overwhelming transmutation; **CL** 20th  ",
 			"**Slot** neck; **Price** -; **Weight** 1 lb.",
 			"",
@@ -1520,7 +1520,7 @@
 			"If an evil user (that is capable of speech) wears the jawbone for a full year and does not speak a single word or utter a sound during that time, the jawbone crumbles to dust and is permanently destroyed."
 		]
 	},
-	"karzoug's_burning_glaive": {
+	"karzougs_burning_glaive": {
 		"name": "Karzoug's Burning Glaive",
 		"sources": [ "Rise of the Runelords Anniversary Edition" ],
 		"description": [
@@ -1610,7 +1610,7 @@
 			"The Lens of Galundari can only be destroyed if a deity is freed from within. Although theoretically possible, it is unclear if a deity can be bound into the lens by normal means, but such a being's release would be so explosive as to shatter the lens."
 		]
 	},
-	"linnorm's_lament": {
+	"linnorms_lament": {
 		"name": "Linnorm's Lament",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
@@ -1633,7 +1633,7 @@
 		"description": [
 			"## Lung Bloodstone of Arazni",
 			"",
-			"**Source** [Pathfinder #141: Last Watch pg. 28](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch pg. 28](source/pathfinder_141_last_watch)  ",
 			"**Aura** strong abjuration and necromancy [lawful]; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -1650,7 +1650,7 @@
 		"description": [
 			"## Mask of the Forgotten Pharaoh",
 			"",
-			"**Source** [Pathfinder #80: Empty Graves pg. 62](source/pathfinder_#80_empty_graves)  ",
+			"**Source** [Pathfinder #80: Empty Graves pg. 62](source/pathfinder_80_empty_graves)  ",
 			"**Aura** strong necromancy and transmutation; **CL** 17th  ",
 			"**Slot** head and headband; **Price** -; **Weight** 5 lbs.",
 			"",
@@ -1673,13 +1673,13 @@
 			"So long as the soul of Hakotep I remains sundered, the Mask of the Forgotten Pharaoh cannot be destroyed. If the three pieces of Hakotep's divided soul (his ba, ib, and ka) are reunited, the mask loses all of its magical abilities, becoming a mundane but valuable funerary mask worth 50,000 gp."
 		]
 	},
-	"minderhal's_forge": {
+	"minderhals_forge": {
 		"name": "Minderhal's Forge",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"## Minderhal's Forge",
 			"",
-			"**Source** [Pathfinder #93: Forge of the Giant God pg. 58](source/pathfinder_#93_forge_of_the_giant_god)  ",
+			"**Source** [Pathfinder #93: Forge of the Giant God pg. 58](source/pathfinder_93_forge_of_the_giant_god)  ",
 			"**Aura** strong transmutation [evil, lawful]; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** -",
 			"",
@@ -1712,7 +1712,7 @@
 		"description": [
 			"## Mirror of Sorshen",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 69](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 69](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**Aura** overwhelming enchantment; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -1808,7 +1808,7 @@
 		"description": [
 			"## Noriznigath",
 			"",
-			"**Source** [Pathfinder #78: City of Locusts pg. 63](source/pathfinder_#78_city_of_locusts)  ",
+			"**Source** [Pathfinder #78: City of Locusts pg. 63](source/pathfinder_78_city_of_locusts)  ",
 			"**Aura** strong evocation (evil); **CL** 20th  ",
 			"**Slot** weapon; **Price** -; **Weight** 10 lbs.",
 			"",
@@ -1819,13 +1819,13 @@
 			"Noriznigath melts into blood and mist if its namesake, the long-dead nascent demon lord Noriznigath, is restored to life."
 		]
 	},
-	"omat's_sarcophagus": {
+	"omats_sarcophagus": {
 		"name": "Omat's Sarcophagus",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"## Omat's Sarcophagus",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 73](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 73](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** overwhelming conjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 1,500 lbs.",
 			"",
@@ -1875,13 +1875,13 @@
 			"An Orb of Dragonkind immediately shatters if it is caught in the breath weapon of a dragon who is a blood relative of the dragon trapped within. This causes everyone within 90 feet to be struck by the breath weapon of that dragon, released as the orb explodes."
 		]
 	},
-	"pauper's_thighbone": {
+	"paupers_thighbone": {
 		"name": "Pauper's Thighbone",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Pauper's Thighbone",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 69](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 69](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** overwhelming transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 4 lbs.",
 			"",
@@ -1898,7 +1898,7 @@
 			"If a nonevil owner is so consistently selfish as to cause all the runes of the Pauper's Thighbone to permanently disappear, the rod can be broken open with a successful DC 35 Strength check. This liberates the shard of bone within but destroys the artifact."
 		]
 	},
-	"perfection's_key": {
+	"perfections_key": {
 		"name": "Perfection's Key",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1962,7 +1962,7 @@
 		"description": [
 			"## Primogen Crown",
 			"",
-			"**Source** [Pathfinder #127: Crownfall pg. 57](source/pathfinder_#127_crownfall)  ",
+			"**Source** [Pathfinder #127: Crownfall pg. 57](source/pathfinder_127_crownfall)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 20th  ",
 			"**Slot** head; **Price** -; **Weight** -",
 			"",
@@ -1981,7 +1981,7 @@
 		"description": [
 			"## Radiance",
 			"",
-			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 64](source/pathfinder_#73_the_worldwound_incursion)  ",
+			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 64](source/pathfinder_73_the_worldwound_incursion)  ",
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 4 lbs.",
 			"",
@@ -2024,7 +2024,7 @@
 		"description": [
 			"## Relic of Kazavon, Armor of Skulls",
 			"",
-			"**Source** [Artifacts and Legends pg. 36](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 63](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Artifacts and Legends pg. 36](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 63](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 20th  ",
 			"**Slot** armor; **Price** -; **Weight** 30 lbs.",
 			"",
@@ -2055,7 +2055,7 @@
 		"description": [
 			"## Relic of Kazavon, Bound Blade",
 			"",
-			"**Source** [Artifacts and Legends pg. 36](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 64](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Artifacts and Legends pg. 36](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 64](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 6 lbs.",
 			"",
@@ -2115,7 +2115,7 @@
 		"description": [
 			"## Relic of Kazavon, Howling Horn",
 			"",
-			"**Source** [Artifacts and Legends pg. 37](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 65](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Artifacts and Legends pg. 37](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 65](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong evocation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 12 lbs.",
 			"",
@@ -2146,7 +2146,7 @@
 		"description": [
 			"## Relic of Kazavon, Shredskin",
 			"",
-			"**Source** [Artifacts and Legends pg. 37](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 65](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Artifacts and Legends pg. 37](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 65](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong divination and illusion; **CL** 20th  ",
 			"**Slot** chest; **Price** -; **Weight** 20 lbs.",
 			"",
@@ -2177,7 +2177,7 @@
 		"description": [
 			"## Relic of Kazavon, Staff of the Slain",
 			"",
-			"**Source** [Artifacts and Legends pg. 37](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 66](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Artifacts and Legends pg. 37](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 66](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong evocation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 6 lbs.",
 			"",
@@ -2210,7 +2210,7 @@
 		"description": [
 			"## Relic of Kazavon, Throne of Nalt",
 			"",
-			"**Source** [Artifacts and Legends pg. 38](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 66](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Artifacts and Legends pg. 38](source/artifacts_and_legends), [Pathfinder #12: Crown of Fangs pg. 66](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong divination and enchantment; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 3,475 lbs.",
 			"",
@@ -2240,7 +2240,7 @@
 		"description": [
 			"## Riftcarver",
 			"",
-			"**Source** [Pathfinder #78: City of Locusts pg. 63](source/pathfinder_#78_city_of_locusts)  ",
+			"**Source** [Pathfinder #78: City of Locusts pg. 63](source/pathfinder_78_city_of_locusts)  ",
 			"**Aura** strong conjuration and evocation [earth]; **CL** 20th  ",
 			"**Slot** weapon; **Price** -; **Weight** 80 lbs.",
 			"",
@@ -2297,7 +2297,7 @@
 		"description": [
 			"## Robe of the Rifts",
 			"",
-			"**Source** [Pathfinder #78: City of Locusts pg. 63](source/pathfinder_#78_city_of_locusts)  ",
+			"**Source** [Pathfinder #78: City of Locusts pg. 63](source/pathfinder_78_city_of_locusts)  ",
 			"**Aura** strong transmutation (evil); **CL** 20th  ",
 			"**Slot** body; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2342,7 +2342,7 @@
 		"description": [
 			"## Runewell of Wrath",
 			"",
-			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 70](source/pathfinder_#138_rise_of_new_thassilon)  ",
+			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 70](source/pathfinder_138_rise_of_new_thassilon)  ",
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 900 lbs.",
 			"",
@@ -2353,7 +2353,7 @@
 			"The [runewell of wrath](magic-artifact/runewell_of_wrath) is linked to Alaznist, and as long as she lives, the runewell cannot be destroyed. If Alaznist is slain, the liquid fire within the runewell immediately cools and becomes ordinary water, destroying the runewell in the process (although it can still be used as a portal to travel to Alaznist's Demesne, provided the [anima focus](magic-artifact/anima_focus) at area E10 still functions)."
 		]
 	},
-	"saint_cuthbert's_mace": {
+	"saint_cuthberts_mace": {
 		"name": "Saint Cuthbert's Mace",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
@@ -2442,7 +2442,7 @@
 		"description": [
 			"## Scepter of Alaznist",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 70](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 70](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**Aura** overwhelming (no school); **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 8 lbs.",
 			"",
@@ -2510,7 +2510,7 @@
 		"description": [
 			"## Scintillating Garment",
 			"",
-			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 70](source/pathfinder_#138_rise_of_new_thassilon)  ",
+			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 70](source/pathfinder_138_rise_of_new_thassilon)  ",
 			"**Aura** strong abjuration and conjuration; **CL** 20th  ",
 			"**Slot** body; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2530,7 +2530,7 @@
 		"description": [
 			"## Scroll of Kakishon",
 			"",
-			"**Source** [Artifacts and Legends pg. 44](source/artifacts_and_legends), [Pathfinder #21: The Jackal's Price pg. 9](source/pathfinder_#21_the_jackal's_price)  ",
+			"**Source** [Artifacts and Legends pg. 44](source/artifacts_and_legends), [Pathfinder #21: The Jackal's Price pg. 9](source/pathfinder_21_the_jackals_price)  ",
 			"**Aura** overwhelming conjuration; **CL** 23rd  ",
 			"**Slot** none; **Price** -; **Weight** 3 lbs.",
 			"",
@@ -2551,7 +2551,7 @@
 		"description": [
 			"## Serithtial",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #11: Skeletons of Scarwall pg. 56](source/pathfinder_#11_skeletons_of_scarwall), [Artifacts and Legends pg. 61](source/artifacts_and_legends)  ",
+			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #11: Skeletons of Scarwall pg. 56](source/pathfinder_11_skeletons_of_scarwall), [Artifacts and Legends pg. 61](source/artifacts_and_legends)  ",
 			"**Aura** strong abjuration; **CL** 17th  ",
 			"**Slot** none; **Price** -; **Weight** 5 lbs.",
 			"",
@@ -2627,7 +2627,7 @@
 		"description": [
 			"## Shard of Envy",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 68](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 68](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming abjuration; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2646,7 +2646,7 @@
 		"description": [
 			"## Shard of Gluttony",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 68](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 68](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming necromancy; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2665,7 +2665,7 @@
 		"description": [
 			"## Shard of Greed",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming transmutation; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2684,7 +2684,7 @@
 		"description": [
 			"## Shard of Lust",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming enchantment; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2703,7 +2703,7 @@
 		"description": [
 			"## Shard of Pride",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming illusion; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2722,7 +2722,7 @@
 		"description": [
 			"## Shard of Sloth",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming conjuration; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2741,7 +2741,7 @@
 		"description": [
 			"## Shard of Wrath",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_#61_shards_of_sin)  ",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 69](source/pathfinder_61_shards_of_sin)  ",
 			"**Aura** overwhelming evocation; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
@@ -2809,7 +2809,7 @@
 		"description": [
 			"## Shield of Xin-Undoros",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 71](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 71](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**Aura** overwhelming abjuration; **CL** 23rd  ",
 			"**Slot** none; **Price** -; **Weight** 20 lbs.",
 			"",
@@ -2857,7 +2857,7 @@
 		"description": [
 			"## Sihedron",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 71](source/pathfinder_#137_the_city_outside_of_time), [Pathfinder #66: The Dead Heart of Xin pg. 59](source/pathfinder_#66_the_dead_heart_of_xin)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 71](source/pathfinder_137_the_city_outside_of_time), [Pathfinder #66: The Dead Heart of Xin pg. 59](source/pathfinder_66_the_dead_heart_of_xin)  ",
 			"**Aura** overwhelming (all schools); **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 7 lbs.",
 			"",
@@ -2930,7 +2930,7 @@
 		"description": [
 			"## Skull of Ydersius",
 			"",
-			"**Source** [Artifacts and Legends pg. 48](source/artifacts_and_legends), [Pathfinder #42: Sanctum of the Serpent God pg. 60](source/pathfinder_#42_sanctum_of_the_serpent_god)  ",
+			"**Source** [Artifacts and Legends pg. 48](source/artifacts_and_legends), [Pathfinder #42: Sanctum of the Serpent God pg. 60](source/pathfinder_42_sanctum_of_the_serpent_god)  ",
 			"**Aura** overwhelming all; **CL** 30th  ",
 			"**Slot** none; **Price** -; **Weight** 150 lbs.",
 			"",
@@ -2986,13 +2986,13 @@
 			"Any creature that makes a successful DC 35 Craft (traps) check while manipulating the music box can rig the device to play in reverse once. In this way, a bard can learn the Song of Extinction masterpiece, but backwards. Performing this reverse version of the Song of Extinction causes the music box to implode, but also kills the performer. The performer cannot be brought back to life by any means short of divine intervention."
 		]
 	},
-	"sorshen's_sinuous_guisarme": {
+	"sorshens_sinuous_guisarme": {
 		"name": "Sorshen's Sinuous Guisarme",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Sorshen's Sinuous Guisarme",
 			"",
-			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 71](source/pathfinder_#138_rise_of_new_thassilon)  ",
+			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 71](source/pathfinder_138_rise_of_new_thassilon)  ",
 			"**Aura** strong evocation [evil]; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 10 lbs.",
 			"",
@@ -3045,7 +3045,7 @@
 		"description": [
 			"## Spherical Boat of Zutha",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 73](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 73](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**Aura** overwhelming necromancy and transmutation; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -3120,7 +3120,7 @@
 		"description": [
 			"## Stole of the Inheritor",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 63](source/pathfinder_#77_herald_of_the_ivory_labyrinth)  ",
+			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 63](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
 			"**Aura** overwhelming abjuration; **CL** 20th  ",
 			"**Slot** shoulders; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -3137,7 +3137,7 @@
 		"description": [
 			"## Surcease of Sorrows",
 			"",
-			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 91](source/pathfinder_#143_borne_by_the_sun's_grace)  ",
+			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 91](source/pathfinder_143_borne_by_the_suns_grace)  ",
 			"**Aura** overwhelming all; **CL** 27th  ",
 			"**Slot** none; **Price** -; **Weight** 6 lbs.",
 			"",
@@ -3190,7 +3190,7 @@
 		"description": [
 			"## Sword of Greed, Chellan",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 420](source/rise_of_the_runelords_anniversary_edition), [Artifacts and Legends pg. 51](source/artifacts_and_legends), [Pathfinder #6: Spires of Xin-Shalast pg. 52](source/pathfinder_#6_spires_of_xin-shalast)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 420](source/rise_of_the_runelords_anniversary_edition), [Artifacts and Legends pg. 51](source/artifacts_and_legends), [Pathfinder #6: Spires of Xin-Shalast pg. 52](source/pathfinder_6_spires_of_xin-shalast)  ",
 			"**Aura** strong transmutation; **CL** 16th  ",
 			"**Slot** none; **Price** -; **Weight** 25 lbs.",
 			"",
@@ -3258,7 +3258,7 @@
 		"description": [
 			"## Sword of Pride, Baraket",
 			"",
-			"**Source** [Pathfinder #133: Secrets of Roderic's Cove pg. 51](source/pathfinder_#133_secrets_of_roderic's_cove), [Artifacts and Legends pg. 50](source/artifacts_and_legends)  ",
+			"**Source** [Pathfinder #133: Secrets of Roderic's Cove pg. 51](source/pathfinder_133_secrets_of_roderics_cove), [Artifacts and Legends pg. 50](source/artifacts_and_legends)  ",
 			"**Aura** ; **CL** 16th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
 			"",
@@ -3320,7 +3320,7 @@
 		"description": [
 			"## Sword of Valor",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 63](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 63](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** strong abjuration and evocation [good]; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 3 lbs.",
 			"",
@@ -3367,7 +3367,7 @@
 		"description": [
 			"## Synchrony Device",
 			"",
-			"**Source** [Pathfinder #126: Beyond the Veiled Past pg. 66](source/pathfinder_#126_beyond_the_veiled_past)  ",
+			"**Source** [Pathfinder #126: Beyond the Veiled Past pg. 66](source/pathfinder_126_beyond_the_veiled_past)  ",
 			"**Aura** overwhelming conjuration; **CL** 21st  ",
 			"**Slot** none; **Price** -; **Weight** 16,800 lbs.",
 			"",
@@ -3415,7 +3415,7 @@
 		"description": [
 			"## Tannaris, Sword of Envy",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 56](source/pathfinder_#137_the_city_outside_of_time), [Artifacts and Legends pg. 52](source/artifacts_and_legends)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 56](source/pathfinder_137_the_city_outside_of_time), [Artifacts and Legends pg. 52](source/artifacts_and_legends)  ",
 			"**Aura** strong abjuration; **CL** 16th  ",
 			"**Slot** none; **Price** -; **Weight** 7 lbs.",
 			"",
@@ -3468,7 +3468,7 @@
 		"description": [
 			"## Tathlum",
 			"",
-			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 6](source/pathfinder_#108_hell_comes_to_westcrown)  ",
+			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 6](source/pathfinder_108_hell_comes_to_westcrown)  ",
 			"**Aura** strong evocation and necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 220 lbs.",
 			"",
@@ -3514,7 +3514,7 @@
 		"description": [
 			"## The Bone Grimoire",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 59](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 59](source/pathfinder_135_runeplague)  ",
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 3 lbs.",
 			"",
@@ -3556,7 +3556,7 @@
 		"description": [
 			"## The Doom Idol of Ib",
 			"",
-			"**Source** [Pathfinder #111: Dreams of the Yellow King pg. 31](source/pathfinder_#111_dreams_of_the_yellow_king)  ",
+			"**Source** [Pathfinder #111: Dreams of the Yellow King pg. 31](source/pathfinder_111_dreams_of_the_yellow_king)  ",
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 80 lbs.",
 			"",
@@ -3679,7 +3679,7 @@
 		"description": [
 			"## The Impossible Eye",
 			"",
-			"**Source** [Pathfinder #23: The Impossible Eye pg. 51](source/pathfinder_#23_the_impossible_eye)  ",
+			"**Source** [Pathfinder #23: The Impossible Eye pg. 51](source/pathfinder_23_the_impossible_eye)  ",
 			"**Aura** overwhelming divination; **CL** 21st  ",
 			"**Price** -; **Weight** 3 lbs.",
 			"",
@@ -3733,7 +3733,7 @@
 		"description": [
 			"## The Moaning Diamond",
 			"",
-			"**Source** [Ultimate Equipment pg. 338](source/ultimate_equipment), [Advanced Player's Guide pg. 317](source/advanced_player's_guide), [Artifacts and Legends pg. 31](source/artifacts_and_legends)  ",
+			"**Source** [Ultimate Equipment pg. 338](source/ultimate_equipment), [Advanced Player's Guide pg. 317](source/advanced_players_guide), [Artifacts and Legends pg. 31](source/artifacts_and_legends)  ",
 			"**Aura** overwhelming transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 4 lbs.",
 			"",
@@ -3753,7 +3753,7 @@
 		"description": [
 			"## The Shield of the Sun",
 			"",
-			"**Source** [Ultimate Equipment pg. 339](source/ultimate_equipment), [Advanced Player's Guide pg. 317](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 339](source/ultimate_equipment), [Advanced Player's Guide pg. 317](source/advanced_players_guide)",
 			"",
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 2 lbs.",
@@ -3853,7 +3853,7 @@
 			"The Usher of the Black Rain burns to ash if Apollyon's cloak (which was stitched from the flesh of the angels whose souls empower his bow) is brought to Nirvana, washed clean there, and then buried while intoning each dead angel's long-forgotten name."
 		]
 	},
-	"vesper's_rapier": {
+	"vespers_rapier": {
 		"name": "Vesper's Rapier",
 		"sources": [
 			"Artifacts and Legends",
@@ -3900,7 +3900,7 @@
 		"description": [
 			"## Was Scepter",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 75](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 75](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** overwhelming abjuration and transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 30 lbs.",
 			"",
@@ -3924,7 +3924,7 @@
 		"description": [
 			"## Winter Collector",
 			"",
-			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 68](source/pathfinder_#72_the_witch_queen's_revenge)",
+			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 68](source/pathfinder_72_the_witch_queens_revenge)",
 			"",
 			"**Aura** strong conjuration and evocation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** varies",

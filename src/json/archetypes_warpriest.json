@@ -187,7 +187,7 @@
 		"description": [
 			"## Fist of the Godclaw",
 			"",
-			"**Source** [Disciple's Doctrine pg. 12](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 12](source/disciples_doctrine)  ",
 			"Devoted to the divine control of law above all else, these zealots seek to establish absolute order. Disciplined and precise, they lead their allies against the chaotic hordes.",
 			"",
 			"**Alignment:** A fist of the Godclaw must be of a lawful alignment.",
@@ -276,7 +276,7 @@
 			"| Water | Cold |"
 		]
 	},
-	"liberty's_blade": {
+	"libertys_blade": {
 		"name": "Liberty's Blade",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
@@ -303,7 +303,7 @@
 		"description": [
 			"## Mantis Zealot",
 			"",
-			"**Source** [Adventurer's Guide pg. 157](source/adventurer's_guide), [Advanced Class Origins pg. 25](source/advanced_class_origins)  ",
+			"**Source** [Adventurer's Guide pg. 157](source/adventurers_guide), [Advanced Class Origins pg. 25](source/advanced_class_origins)  ",
 			"Among the [Red Mantis](rule/aff_assassins) worshipers of Achaekek, some hold such strong faith in their assassin god that they gain divine power. They forge themselves into perfect killers in honor of He Who Walks in Blood. These warpriests are a relatively recent addition to the Red Mantis arsenal, but in the few short decades they have served the assassins, they have quickly built a reputation for themselves as particularly fanatical devotees of the Mantis God. Their penchant for taking the faith's writings verbatim and for overwhelming and often destructive pedantry serves them well in matters of loyalty to Achaekek (and particularly when it comes to drafting contracts for assassinations that favor the organization in financial and tactical ways), but it offers little room for complex cases that would benefit from bending the rules, making them unsuitable for missions that require diplomatic finesse. In addition, the rising incidence of mantis zealots accusing fellow worshipers of Achaekek of heresy and blasphemy, resulting in internal accusations, exiles, and even fullblown assassinations, increasingly makes them objects of fear and distrust among even their own kind. Whether the rise of the mantis zealot presages a dramatic upcoming shift in the religion's hierarchy and methods, or whether the faction may be burning too bright for its own good and is hurtling toward self-annihilation, remains to be seen.",
 			"",
 			"**Mantis Sworn (Ex):** A mantis zealot must choose Achaekek as his deity, and he must be lawful evil in alignment. If he ever changes his deity, he loses this archetype and becomes a normal warpriest.",
@@ -331,7 +331,7 @@
 		"description": [
 			"## Molthuni Arsenal Chaplain",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 6](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 6](source/weapon_masters_handbook)  ",
 			"Molthuni arsenal chaplains are warpriests trained in the Arsenal District in Korholm. They bolster their nation's military by focusing on the militant aspects of their gods.",
 			"",
 			"**War Blessing (Su):** A Molthuni arsenal chaplain must choose War as his blessing, and can do so even if it is a domain not normally granted by his deity. He does not receive a second blessing.",
@@ -470,7 +470,7 @@
 		"description": [
 			"## Shieldbearer",
 			"",
-			"**Source** [Armor Master's Handbook pg. 7](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 7](source/armor_masters_handbook)  ",
 			"Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people. The shieldbearer tradition has long been a strong legacy among the dwarves of the Five Kings Mountains, while many young women throughout the Lands of the Linnorm Kings and Realm of the Mammoth Lords become shieldbearers known as shield maidens. Shieldbearers among the Shoanti are often advisors as well as combatants, while in the Mwangi Expanse shieldbearers are known for defending entire villages from the Gorilla King's minions.",
 			"",
 			"**Shield Adept (Ex):** At 1st level, a shieldbearer receives [Improved Shield Bash](feat/improved_shield_bash) as a bonus feat. When carrying a shield, the shieldbearer adds his shield bonus on concentration checks to cast defensively.",

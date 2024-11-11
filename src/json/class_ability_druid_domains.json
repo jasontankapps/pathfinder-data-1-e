@@ -94,7 +94,7 @@
 			"",
 			"**Ambush (Ex):** At 6th level, you gain sneak attack +1d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources. This sneak attack damage increases by +1d6 for every 5 druid levels you possess beyond 6th, to a maximum of +3d6 at 16th level.",
 			"",
-			"**Domain Spells:** 1st-[touch of the sea](spell/touch_of_the_sea), 2nd-[savage maw](spell/savage_maw), 3rd-[water walk](spell/water_walk), 4th-[strong jaw](spell/strong_jaw), 5th-[legend lore](spell/legend_lore), 6th-[mass owl's wisdom](spell/mass_owl's_wisdom), 7th-[true seeing](spell/true_seeing), 8th-[mass heal](spell/mass_heal), 9th-[regenerate](spell/regenerate)."
+			"**Domain Spells:** 1st-[touch of the sea](spell/touch_of_the_sea), 2nd-[savage maw](spell/savage_maw), 3rd-[water walk](spell/water_walk), 4th-[strong jaw](spell/strong_jaw), 5th-[legend lore](spell/legend_lore), 6th-[mass owl's wisdom](spell/mass_owls_wisdom), 7th-[true seeing](spell/true_seeing), 8th-[mass heal](spell/mass_heal), 9th-[regenerate](spell/regenerate)."
 		]
 	},
 	"desert": {
@@ -130,7 +130,7 @@
 			"",
 			"**Aerial evasion (Ex):** At 6th level, you gain the evasion ability (as a rogue) when you are flying. At 12th level, you gain improved evasion while flying.",
 			"",
-			"**Domain Spells:** 1st-[aspect of the falcon](spell/aspect_of_the_falcon), 2nd-[eagle's splendor](spell/eagle's_splendor), 3rd-[fly](spell/fly), 4th-[river of wind](spell/river_of_wind), 5th-[overland flight](spell/overland_flight), 6th-[eagle aerie](spell/eagle_aerie), 7th-[animal shapes](spell/animal_shapes) (birds only), 8th-[sunburst](spell/sunburst), 9th-[winds of vengeance](spell/winds_of_vengeance)."
+			"**Domain Spells:** 1st-[aspect of the falcon](spell/aspect_of_the_falcon), 2nd-[eagle's splendor](spell/eagles_splendor), 3rd-[fly](spell/fly), 4th-[river of wind](spell/river_of_wind), 5th-[overland flight](spell/overland_flight), 6th-[eagle aerie](spell/eagle_aerie), 7th-[animal shapes](spell/animal_shapes) (birds only), 8th-[sunburst](spell/sunburst), 9th-[winds of vengeance](spell/winds_of_vengeance)."
 		]
 	},
 	"erosion": {
@@ -202,7 +202,7 @@
 			"",
 			"**Ranged Legerdemain (Su):** At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.",
 			"",
-			"**Domain Spells:** 1st-[beguiling gift](spell/beguiling_gift), 2nd-[spider climb](spell/spider_climb), 3rd-[cacophonous call](spell/cacophonous_call), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[summon nature's ally V](spell/summon_nature's_ally_5) (dire ape or girallon only), 6th-[confusion](spell/confusion), 7th-[animal shapes](spell/animal_shapes) (apes and monkeys only), 8th-[clenched fist](spell/clenched_fist), 9th-[foresight](spell/foresight)."
+			"**Domain Spells:** 1st-[beguiling gift](spell/beguiling_gift), 2nd-[spider climb](spell/spider_climb), 3rd-[cacophonous call](spell/cacophonous_call), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[summon nature's ally V](spell/summon_natures_ally_5) (dire ape or girallon only), 6th-[confusion](spell/confusion), 7th-[animal shapes](spell/animal_shapes) (apes and monkeys only), 8th-[clenched fist](spell/clenched_fist), 9th-[foresight](spell/foresight)."
 		]
 	},
 	"mountain": {
@@ -421,7 +421,7 @@
 			"",
 			"**Sudden Sting (Su):** At 8th level, you can inflict a lingering, painful sting as a swift action that requires a successful melee touch attack. This sting deals 1d4 points of piercing damage plus 1 point for every 2 druid levels you have, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become staggered for 1 round. This is a pain effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Domain Spells:** 1st-[ant haul](spell/ant_haul), 2nd-[summon swarm](spell/summon_swarm), 3rd-[vermin shape I](spell/vermin_shape_i), 4th-[vermin shape II](spell/vermin_shape_ii), 5th-[insect plague](spell/insect_plague), 6th-[swarm skin](spell/swarm_skin), 7th-[creeping doom](spell/creeping_doom), 8th-[verminous transformation](spell/verminous_transformation), 9th-[summon nature's ally IX](spell/summon_nature's_ally_9) (1d3 purple worms only)."
+			"**Domain Spells:** 1st-[ant haul](spell/ant_haul), 2nd-[summon swarm](spell/summon_swarm), 3rd-[vermin shape I](spell/vermin_shape_i), 4th-[vermin shape II](spell/vermin_shape_ii), 5th-[insect plague](spell/insect_plague), 6th-[swarm skin](spell/swarm_skin), 7th-[creeping doom](spell/creeping_doom), 8th-[verminous transformation](spell/verminous_transformation), 9th-[summon nature's ally IX](spell/summon_natures_ally_9) (1d3 purple worms only)."
 		]
 	},
 	"vulture": {
@@ -455,7 +455,7 @@
 			"",
 			"**Pack Tactics (Ex):** At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Domain Spells:** 1st-[hunter's howl](spell/hunter's_howl), 2nd-[bloodhound](spell/bloodhound), 3rd-[aspect of the wolf](spell/aspect_of_the_wolf), 4th-[strong jaw](spell/strong_jaw), 5th-[tireless pursuers](spell/tireless_pursuers), 6th-[find the path](spell/find_the_path), 7th-[animal shapes](spell/animal_shapes) (canines only), 8th-[phantasmal revenge](spell/phantasmal_revenge), 9th-[freedom](spell/freedom)."
+			"**Domain Spells:** 1st-[hunter's howl](spell/hunters_howl), 2nd-[bloodhound](spell/bloodhound), 3rd-[aspect of the wolf](spell/aspect_of_the_wolf), 4th-[strong jaw](spell/strong_jaw), 5th-[tireless pursuers](spell/tireless_pursuers), 6th-[find the path](spell/find_the_path), 7th-[animal shapes](spell/animal_shapes) (canines only), 8th-[phantasmal revenge](spell/phantasmal_revenge), 9th-[freedom](spell/freedom)."
 		]
 	}
 }

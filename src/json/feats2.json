@@ -32,7 +32,7 @@
 			"**Normal:** When you charge, you take a -2 penalty to AC until the start of your next turn.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When charging any creature with an evil alignment, you can spend 2 stamina points in order to ignore the -2 penalty to AC imposed by charging."
 		]
@@ -47,7 +47,7 @@
 		"description": [
 			"## Charge Through (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"You can overrun enemies when charging.  ",
 			"**Prerequisites:** Str 13, [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), base attack bonus +1.  ",
@@ -178,7 +178,7 @@
 		"description": [
 			"## Childlike",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"Your resemblance to a human child tends to make others trust you, perhaps more than they should.  ",
 			"**Prerequisites:** Cha 13, halfling.  ",
@@ -446,7 +446,7 @@
 		"description": [
 			"## Claw Wrench (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunters_handbook)",
 			"",
 			"You can pry open a mighty beast's grasp or snapping jaws.  ",
 			"**Prerequisites:** Dex 13, [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
@@ -461,7 +461,7 @@
 		"description": [
 			"## Cleansing Burst",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 73](source/pathfinder_81_shifting_sands)",
 			"",
 			"Your channeled energy wards off disease.  ",
 			"**Prerequisites:** Able to cast remove disease or the ability to cure disease with a mercy, channel positive energy class feature.  ",
@@ -672,7 +672,7 @@
 		"description": [
 			"## Close Call",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 8](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 8](source/dungeoneers_handbook)",
 			"",
 			"Your nimble fingers are able to catch small slips before they become big disasters.  ",
 			"**Prerequisites:** [Deft Hands](feat/deft_hands).  ",
@@ -736,7 +736,7 @@
 		"description": [
 			"## Cloud Step",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"Your tread is of unearthly lightness.  ",
 			"**Prerequisites:** [Spider Step](feat/spider_step), monk level 12th.  ",
@@ -792,7 +792,7 @@
 		"description": [
 			"## Coaxing Spell (Metamagic)",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 10](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 10](source/dungeoneers_handbook)",
 			"",
 			"Your charms and enchantments reach the minds of even the lowliest dungeon denizens.  ",
 			"**Prerequisites:** [Spell Focus (enchantment)](feat/spell_focus), Knowledge (dungeoneering) 6 ranks.  ",
@@ -808,7 +808,7 @@
 		"description": [
 			"## Cockatrice Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"With a single strike, you transmute flesh to stone.  ",
 			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), Gorgon's Fist, Medusa's Wrath, base attack bonus +16.  ",
@@ -829,7 +829,7 @@
 		"description": [
 			"## Cold Celerity",
 			"",
-			"**Source** [Adventurer's Guide pg. 133](source/adventurer's_guide), [People of the North pg. 24](source/people_of_the_north)",
+			"**Source** [Adventurer's Guide pg. 133](source/adventurers_guide), [People of the North pg. 24](source/people_of_the_north)",
 			"",
 			"You are a child of the frozen north, and you draw strength from the biting cold and unforgiving conditions.  ",
 			"**Prerequisites:** [Endurance](feat/endurance).  ",
@@ -861,7 +861,7 @@
 			"**Benefit:** When an ally who also has this feat attempts a trained Knowledge skill check while within 30 feet of you, you may attempt an aid another check as a free action to improve that ally's skill check. You must have at least 1 rank in the Knowledge skill to be aided in order to use this feat. If you succeed at the aid another check, you automatically know any information your ally gains from the Knowledge check as if you had rolled the Knowledge check. Whether or not your aid another check is successful, you cannot attempt a Knowledge check to determine the same information as your ally after using this feat."
 		]
 	},
-	"collector's_boon": {
+	"collectors_boon": {
 		"name": "Collector's Boon",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -872,7 +872,7 @@
 			"You have a knack for unlocking the true potential of your magical equipment.  ",
 			"**Prerequisites:** Character level 5th.",
 			"",
-			"You can enhance the effects of certain magical items when wearing or wielding two or more sympathetic magic items. While you are wearing or wielding at least two items from a [set](main/magic_misc), you gain the two-item benefit listed in the set, as well as any specific benefits detailed in the item description entries for the pieces of that set. You do not gain any benefits that require three or more set pieces; such benefits must be unlocked by taking the [Improved Collector's Boon](feat/improved_collector's_boon) feat.  ",
+			"You can enhance the effects of certain magical items when wearing or wielding two or more sympathetic magic items. While you are wearing or wielding at least two items from a [set](main/magic_misc), you gain the two-item benefit listed in the set, as well as any specific benefits detailed in the item description entries for the pieces of that set. You do not gain any benefits that require three or more set pieces; such benefits must be unlocked by taking the [Improved Collector's Boon](feat/improved_collectors_boon) feat.  ",
 			"**Special:** You can't gain the set bonuses of more than one set at a time due to the interference of incompatible sympathetic magical effects. If you have multiple pieces of two or more sets, you must choose the set you gain the benefits of at the start of each day and can't change this decision for 24 hours."
 		]
 	},
@@ -979,7 +979,7 @@
 		"description": [
 			"## Combat Patrol (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"You range across the battlefield, dealing with threats wherever they arise.  ",
 			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes), [Mobility](feat/mobility), base attack bonus +5.  ",
@@ -1078,7 +1078,7 @@
 		"description": [
 			"## Combat Vigor (Combat)",
 			"",
-			"**Source** [Healer's Handbook pg. 14](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 14](source/healers_handbook)",
 			"",
 			"You can quickly recuperate from devastating attacks without divine assistance.  ",
 			"**Prerequisites:** Con 13.  ",
@@ -1209,7 +1209,7 @@
 		"description": [
 			"## Compulsion Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_masters_handbook)",
 			"",
 			"You can gain influence over the minds of others using enchantment magic items.  ",
 			"**Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.  ",
@@ -1306,7 +1306,7 @@
 		"description": [
 			"## Concilator (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 15](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 15](source/spymasters_handbook)",
 			"",
 			"You have witnessed terrible violence and prefer a better way  ",
 			"**Prerequisites:** Must have successfully requested that the opposing sides of a violent encounter pause for parley.  ",
@@ -1335,7 +1335,7 @@
 		"description": [
 			"## Conditional Spell (Metamagic)",
 			"",
-			"**Source** [Healer's Handbook pg. 8](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 8](source/healers_handbook)",
 			"",
 			"You know how to apply restrictions on how a creature can use the benefits of your spells.  ",
 			"**Benefit:** A conditional spell is subject to the rules laid out in the spell conditional favor. A conditional spell takes up a spell slot 1 level higher than normal."
@@ -1528,7 +1528,7 @@
 		"description": [
 			"## Contingent Spell (Metamagic)",
 			"",
-			"**Source** [Healer's Handbook pg. 14](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 14](source/healers_handbook)",
 			"",
 			"Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).  ",
 			"**Prerequisites:** Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).  ",
@@ -1621,7 +1621,7 @@
 		"description": [
 			"## Cooperative Crafting",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"Your assistance makes item crafting far more efficient.  ",
 			"**Prerequisites:** 1 rank in any Craft skill, any item creation feat.  ",
@@ -1724,7 +1724,7 @@
 		"description": [
 			"## Coordinated Defense (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"You are adept at working with allies to avoid being tripped, grappled, and subjected to other maneuvers.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus to your Combat Maneuver Defense. This bonus increases to +4 if the creature attempting the maneuver is larger than both you and your ally.",
@@ -1741,7 +1741,7 @@
 		"description": [
 			"## Coordinated Distraction (Combat, Teamwork)",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 21](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 21](source/demon_hunters_handbook)",
 			"",
 			"When working in tandem, you can make it difficult for foes to use their magical abilities.  ",
 			"**Benefit:** When you and at least one ally with this feat threaten the same enemy, the enemy treats the DC to cast spells defensively as 2 higher for each threatening character with this feat. If you or your allies are incapable of taking an attack of opportunity against the target for any reason, the effects of this feat do not apply."
@@ -1756,7 +1756,7 @@
 		"description": [
 			"## Coordinated Maneuvers (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"You are skilled at working with your allies to perform dangerous combat maneuvers.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus on all combat maneuver checks. This bonus increases to +4 when attempting to break free from a grapple.",
@@ -1899,10 +1899,10 @@
 		"description": [
 			"## Cosmic Gate",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hoppers_handbook)",
 			"",
 			"You know that the stars shining in Cynosure's pools aren't reflections, but are gateways, and you can use this knowledge in your travels.  ",
-			"**Prerequisites:** [Lady Luck's Guidance](feat/lady_luck's_guidance), Knowledge (planes) 10 ranks.",
+			"**Prerequisites:** [Lady Luck's Guidance](feat/lady_lucks_guidance), Knowledge (planes) 10 ranks.",
 			"",
 			"Once per day, you can briefly enter Cynosure and use the pools located there to instantly travel to a nearby location on the Material Plane; this functions as [teleport](spell/teleport) except you are always considered very familiar with your destination."
 		]
@@ -1916,7 +1916,7 @@
 		"description": [
 			"## Cosmopolitan",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide), [Pathfinder Campaign Setting pg. 86](source/pathfinder_campaign_setting)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide), [Pathfinder Campaign Setting pg. 86](source/pathfinder_campaign_setting)",
 			"",
 			"Living in large, exotic cities has put you in touch with many diverse civilizations, cultures, and races.  ",
 			"**Benefit:** You can speak and read two additional languages of your choice. In addition, choose two Intelligence-, Wisdom-, or Charisma-based skills. Those skills always count as class skills for you."
@@ -2010,7 +2010,7 @@
 		"description": [
 			"## Courage in Numbers (Teamwork)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 21](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 21](source/dragonslayers_handbook)",
 			"",
 			"Your allies give you courage when you face an enemy as one.  ",
 			"**Prerequisites:** [Iron Will](feat/iron_will).  ",
@@ -2084,7 +2084,7 @@
 		"description": [
 			"## Covering Defense (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 156](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 156](source/advanced_players_guide)",
 			"",
 			"You are skilled at protecting yourself and your allies with your shield.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6.  ",
@@ -2131,14 +2131,14 @@
 		"description": [
 			"## Covering Shield (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 24](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 24](source/dragonslayers_handbook)",
 			"",
 			"You can use your shield to protect your most vulnerable parts from area effects.  ",
 			"**Prerequisites:** Dex 13, Shield Focus, [Shield Proficiency](feat/shield_proficiency).  ",
 			"**Benefit:** While using a shield of the type to which your Shield Focus feat applies, you gain a bonus on Reflex saves against area of effect attacks equal to your shield's base bonus to armor class plus any bonuses granted by feats or class abilities. This does not transfer any enhancement bonuses on a shield to Reflex saves.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points to also gain the enhancement bonus of your shield on your Reflex save against one attack or hazard."
 		]
@@ -2250,7 +2250,7 @@
 		"description": [
 			"## Craft Poppet (Item Creation)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 31](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 31](source/adventurers_armory_2)",
 			"",
 			"Some construct builders learn their art by creating poppets.  ",
 			"**Prerequisites:** Caster level 1st.  ",
@@ -2263,7 +2263,7 @@
 		"description": [
 			"## Craft Robot",
 			"",
-			"**Source** [Pathfinder #90: The Divinity Drive pg. 71](source/pathfinder_#90_the_divinity_drive)",
+			"**Source** [Pathfinder #90: The Divinity Drive pg. 71](source/pathfinder_90_the_divinity_drive)",
 			"",
 			"You can build robots.  ",
 			"**Prerequisites:** [Craft Technological Arms and Armor](feat/craft_technological_arms_and_armor), [Craft Technological Item](feat/craft_technological_item), [Technologist](feat/technologist), Craft (mechanical) 9 ranks, Knowledge (engineering) 9 ranks.  ",
@@ -2583,7 +2583,7 @@
 		"description": [
 			"## Creative Armorsmith (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You can temporarily customize your own armor.  ",
 			"**Prerequisites:** Craft (armor) 3 ranks, Knowledge (engineering) 3 ranks.  ",
@@ -2596,7 +2596,7 @@
 		"description": [
 			"## Creative Weaponsmith (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You can temporarily customize your own weapons.  ",
 			"**Prerequisites:** Craft (weapons) 3 ranks, Knowledge (engineering) 3 ranks.  ",
@@ -2609,7 +2609,7 @@
 		"description": [
 			"## Creature Focus",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 22](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 22](source/monster_hunters_handbook)",
 			"",
 			"You have deadly experience with a certain type of creature, granting you an edge in fighting its kind.  ",
 			"**Prerequisites:** No levels in a class that grants the favored enemy class feature.  ",
@@ -2656,7 +2656,7 @@
 		"description": [
 			"## Crippling Critical (Combat, Critical)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"You are able to maim a target and hinder its movement.  ",
 			"**Prerequisites:** [Critical Focus](feat/critical_focus), base attack bonus +13.  ",
@@ -2808,7 +2808,7 @@
 		"description": [
 			"## Crossbow Mastery (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 10](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide), [Curse of the Crimson Throne Player's Guide pg. 10](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
 			"",
 			"You can load crossbows with blinding speed and even fire them in melee with little fear of reprisal.  ",
 			"**Prerequisites:** Dex 15, [Point-Blank Shot](feat/point_blank_shot), [Rapid Reload](feat/rapid_reload), [Rapid Shot](feat/rapid_shot).  ",
@@ -2860,7 +2860,7 @@
 			"**Benefit:** Whenever you deal bleed damage to an opponent, cause an opponent to suffer a fear or pain effect, or reduce an opponent's hit points to 0 or fewer, you gain a +2 morale bonus on attack rolls and weapon damage rolls for 1 round."
 		]
 	},
-	"crusader's_fist": {
+	"crusaders_fist": {
 		"name": "Crusader's Fist",
 		"sources": [
 			"Ultimate Combat",
@@ -2881,7 +2881,7 @@
 			">When you use Crusader's Fist and confirm a critical hit, you can spend 5 stamina points to multiply the extra damage for that critical hit."
 		]
 	},
-	"crusader's_flurry": {
+	"crusaders_flurry": {
 		"name": "Crusader's Flurry",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -2934,7 +2934,7 @@
 		"description": [
 			"## Cry Challenge",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 22](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 22](source/giant_hunters_handbook)",
 			"",
 			"With a ferocious shout or vigorous gestures, you provoke an opponent's ire. By tricking the opponent into making a clumsy swing at you, you provide an opening for your allies.  ",
 			"**Prerequisites:** [Antagonize](feat/antagonize).  ",
@@ -2948,7 +2948,7 @@
 		"description": [
 			"## Cry of Mercy",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 74](source/pathfinder_#39_the_city_of_seven_spears)",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 74](source/pathfinder_39_the_city_of_seven_spears)",
 			"",
 			"You invoke an ancestral boon to modify your fatal blows, and those of your allies, so that they render your foes merely unconscious.  ",
 			"**Prerequisites:** Wis 13.  ",
@@ -2975,7 +2975,7 @@
 		"description": [
 			"## Crystalline Cloud",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 14](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 14](source/plane-hoppers_handbook)",
 			"",
 			"You can release large amounts of crystalline dust to create a diversion or cover your allies.  ",
 			"**Prerequisites:** Aphorite, character level 5th, crystalline dust racial trait.  ",
@@ -3091,7 +3091,7 @@
 		"description": [
 			"## Curative Mastery (Item Mastery)",
 			"",
-			"**Source** [Healer's Handbook pg. 14](source/healer's_handbook)",
+			"**Source** [Healer's Handbook pg. 14](source/healers_handbook)",
 			"",
 			"You can invoke a magic item's innate conjuration magic to conjure positive energy for healing wounds.  ",
 			"**Prerequisites:** Use Magic Device 1 rank, base Fortitude bonus +2.  ",
@@ -3119,7 +3119,7 @@
 		"description": [
 			"## Curse Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_masters_handbook)",
 			"",
 			"You can coax curses from necromantic magic items.  ",
 			"**Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.  ",
@@ -3157,7 +3157,7 @@
 		"description": [
 			"## Cursed Item Detection",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 12](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 12](source/dungeoneers_handbook)",
 			"",
 			"Your arcane prowess is so great that even cursed items fail to befuddle you.  ",
 			"**Prerequisites:** Spellcraft 5 ranks, ability to cast detect magic as a spell or spell-like ability.  ",
@@ -3186,14 +3186,14 @@
 		"description": [
 			"## Cushioning Armor (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 16](source/armor_masters_handbook)",
 			"",
 			"You twist in your armor, allowing it to mitigate your fall.  ",
 			"**Prerequisites:** Armor training class feature, proficiency with medium or heavy armor.  ",
 			"**Benefit:** When you take falling damage, you can direct half of the damage to your armor. This damage ignores the armor's hardness.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to utilize your armor's hardness when directing falling damage to it."
 		]
@@ -3204,14 +3204,14 @@
 		"description": [
 			"## Cushioning Shield (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 18](source/armor_masters_handbook)",
 			"",
 			"You let your shield absorb some of the damage from a fall.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
 			"**Benefit:** When you fall 10 or more feet, you can direct half of the falling damage you would take to your shield. This damage ignores the shield's hardness.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to utilize your shield's hardness when directing falling damage to it."
 		]
@@ -3222,7 +3222,7 @@
 		"description": [
 			"## Cut from the Air (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"Your powerful and swift attacks can slice ranged attacks out of the air.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +5, weapon training class feature with a melee weapon.  ",
@@ -3269,7 +3269,7 @@
 		"description": [
 			"## Cypher Magic",
 			"",
-			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide), [Second Darkness Player's Guide pg. 27](source/second_darkness_player's_guide), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 60](source/adventurers_guide), [Second Darkness Player's Guide pg. 27](source/second_darkness_players_guide), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
 			"",
 			"Your intimacy with runes and the mysteries of ancient arcana has taught you secret ways to draw greater power from magical writings. The [Cyphermages](rule/aff_i_tradition) of Riddleport initially devised these unusual methods, but they have since spread far and wide through the Inner Sea region.  ",
 			"**Prerequisites:** Int 15, [Scribe Scroll](feat/scribe_scroll).  ",
@@ -3286,7 +3286,7 @@
 		"description": [
 			"## Cypher Script",
 			"",
-			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide), [Second Darkness Player's Guide pg. 27](source/second_darkness_player's_guide), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 60](source/adventurers_guide), [Second Darkness Player's Guide pg. 27](source/second_darkness_players_guide), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
 			"",
 			"Through researching lengthy, ancient, arcane scripts salvaged from Thassilonian ruins, you have discovered a more efficient method of recording spells. As with the Cypher Magic feat, Cypher Script was originally developed by the [Cyphermages](rule/aff_i_tradition) of Riddleport, but recently has been spreading through the Inner Sea region.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank, Linguistics 1 rank, Spellcraft 1 rank, spellbook class feature.  ",
@@ -3373,7 +3373,7 @@
 		"description": [
 			"## Dampen Presence",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 10](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 10](source/dungeoneers_handbook)",
 			"",
 			"Your habitual stillness makes you difficult to perceive for creatures that use blindsight or blindsense.  ",
 			"**Prerequisites:** [Skill Focus (Stealth)](feat/skill_focus), Stealth 5 ranks.  ",
@@ -3425,7 +3425,7 @@
 		"description": [
 			"## Dark Affinity",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)",
 			"",
 			"You have observed the dark stalkers who roam the Hao Jin Tapestry and adopted some of their tricks.  ",
 			"**Prerequisites:** Character level 3rd, must have visited the Hao Jin Tapestry.  ",
@@ -3466,7 +3466,7 @@
 		"description": [
 			"## Darting Retrieval (Combat, Teamwork)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunters_handbook)",
 			"",
 			"As your ally disarms a foe, you knock the disarmed item out of the way.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Disarm](feat/improved_disarm).  ",
@@ -3482,7 +3482,7 @@
 		"description": [
 			"## Darting Viper (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2), [Dwarves of Golarion pg. 21](source/dwarves_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2), [Dwarves of Golarion pg. 21](source/dwarves_of_golarion)",
 			"",
 			"When using a dorn-dergar, you can quickly attack both near and distant foes.  ",
 			"**Prerequisites:** Base attack bonus +4, proficiency with the dwarven dorn-dergar.  ",
@@ -3500,7 +3500,7 @@
 		"description": [
 			"## Dastardly Finish (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"You can take advantage of an enemy's debilitated state to attempt a coup de grace.  ",
 			"**Prerequisites:** Sneak attack +5d6.  ",
@@ -3548,7 +3548,7 @@
 			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with those granted by Fearless Curiosity and Intimidating Confidence. In addition, once per day you may reroll a natural 1 on a saving throw or an attack roll. If your reroll results in a successful saving throw or attack roll, as a free action you can make an Intimidate check to demoralize the target of your attack or the creature that forced you to make a saving throw, as long as the creature is within 30 feet and can see and hear you. This effect does not apply on saving throws against traps or other objects. This does not stack with other effects that allow you to reroll a saving throw or an attack roll. You may only make one reroll."
 		]
 	},
-	"dawn's_blessing": {
+	"dawns_blessing": {
 		"name": "Dawn's Blessing",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -3570,7 +3570,7 @@
 		"description": [
 			"## Dazing Assault (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"You can daze foes with wild attacks.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +11.  ",
@@ -3609,7 +3609,7 @@
 		"description": [
 			"## Dazing Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"You can daze creatures with the power of your spells.  ",
 			"**Benefit:** You can modify a spell to daze a creature damaged by the spell. When a creature takes damage from this spell, they become dazed for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the daze effect. If the spell does not allow a save, the target can make a Will save to negate the daze effect. If the spell effect also causes the creature to become dazed, the duration of this metamagic effect is added to the duration of the spell. A dazing spell uses up a spell slot three levels higher than the spell's actual level. Spells that do not inflict damage do not benefit from this feat."
@@ -3963,7 +3963,7 @@
 		"description": [
 			"## Death from Below (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"You have been trained to fight flying creatures.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -4068,7 +4068,7 @@
 			">Whenever a creature threatens a critical hit against you and neither of its confirmation rolls would succeed, you can spend 5 stamina points to make an attack of opportunity against that creature."
 		]
 	},
-	"death's_host": {
+	"deaths_host": {
 		"name": "Death's Host",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
@@ -4081,7 +4081,7 @@
 			"**Benefit:** Whenever you are possessed by an undead creature that you do not directly control, you gain a +4 bonus on saving throws against death effects. You don't fall unconscious at negative hit points, and if you or the undead possessing you is forced to attempt a saving throw to resist ending the possession effect, you or your possessor gains a +4 bonus on the saving throw."
 		]
 	},
-	"death's_suitor": {
+	"deaths_suitor": {
 		"name": "Death's Suitor",
 		"sources": [ "Faction Guide" ],
 		"description": [
@@ -4124,7 +4124,7 @@
 		"description": [
 			"## Deceitful Incompetence (Combat)",
 			"",
-			"**Source** [Antihero's Handbook pg. 8](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 8](source/antiheros_handbook)",
 			"",
 			"You learn from your mistakes rapidly when others lower their guard around you.  ",
 			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes).  ",
@@ -4151,14 +4151,14 @@
 		"description": [
 			"## Deconstruct Spell",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 14](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 14](source/plane-hoppers_handbook)",
 			"",
 			"You deconstruct a spell into its constituent glyphs, storing them to replenish your crystalline dust.  ",
 			"**Prerequisites:** [Improved Counterspell](feat/improved_counterspell), aphorite, crystalline dust racial trait.  ",
 			"**Benefit:** Once per day when you successfully counterspell or dispel a spell, you can instead deconstruct the spell to regain a number of rounds of your crystalline dust racial trait equal to half the level of the spell. You can't use this feat to gain more than your maximum number of rounds of your crystalline dust racial trait."
 		]
 	},
-	"decoy's_misdirection": {
+	"decoys_misdirection": {
 		"name": "Decoy's Misdirection",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -4219,7 +4219,7 @@
 		"description": [
 			"## Deep Drinker",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"You draw greater amounts of ki from your libations.  ",
 			"**Prerequisites:** Con 13, monk level 11, drunken ki class feature.  ",
@@ -4248,7 +4248,7 @@
 		"description": [
 			"## Deepsight",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"Your senses are especially keen in the utter darkness.  ",
 			"**Prerequisites:** Darkvision 60 feet.  ",
@@ -4271,7 +4271,7 @@
 		"description": [
 			"## Defended Movement (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 18](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 18](source/armor_masters_handbook)",
 			"",
 			"You deftly block attacks with your shield while moving through battle.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
@@ -4279,7 +4279,7 @@
 			"**Special:** Defended Movement counts as both [Dodge](feat/dodge) and [Mobility](feat/mobility) for the purposes of feats that have Dodge and Mobility as prerequisites.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points as an immediate action to increase the bonus to your AC to +4 against a single attack."
 		]
@@ -4503,7 +4503,7 @@
 		"description": [
 			"## Delayed Spell (Metamagic)",
 			"",
-			"**Source** [Pathfinder #116: Fangs of War pg. 67](source/pathfinder_#116_fangs_of_war)",
+			"**Source** [Pathfinder #116: Fangs of War pg. 67](source/pathfinder_116_fangs_of_war)",
 			"",
 			"You can set a spell to trigger on a delay.  ",
 			"**Benefit:** A delayed spell can be activated as a standard action anytime within 1 minute per spell level of being cast. Only spells that target one or more squares or grid intersections can be affected by Delayed Spell, and the target (as well as any other variables determined at the time of casting) cannot be changed once the delayed spell is cast. You can have as many delayed spells as you wish at any given time, but only one spell can be triggered in a single standard action. Though a delayed spell does not manifest until it is triggered, it emits a magical aura as normal and can be identified with Knowledge (arcana) as a spell effect in place. A delayed spell uses up a spell slot 1 level higher than the spell's actual level."
@@ -4528,7 +4528,7 @@
 		"description": [
 			"## Deliberate Death (Origin)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hoppers_handbook)",
 			"",
 			"Someone killed you: a monster, a murderer, a soldier, an executioner, it doesn't matter-someone made a conscious decision to end your life.  ",
 			"**Prerequisites:** Duskwalker.  ",
@@ -4541,7 +4541,7 @@
 		"description": [
 			"## Demon Grafter (Item Creation)",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source/pathfinder_#74_sword_of_valor)",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source/pathfinder_74_sword_of_valor)",
 			"",
 			"Your studies into demonic anatomy and physiology allow you to graft their immortal tissues onto mortal flesh.  ",
 			"**Prerequisites:** [Demonologist](feat/demonologist), Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.  ",
@@ -4565,7 +4565,7 @@
 			"**Benefit:** You gain a +2 bonus on Knowledge (planes) checks to know the powers and abilities of demons. You gain a +2 morale bonus on all attack rolls and a +2 morale bonus on caster level checks to penetrate spell resistance made against creatures with the demon subtype you recognize as demons.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When you successfully identify a demon using Knowledge (planes), you can spend up to 9 stamina points to increase the morale bonus on attack rolls and caster level checks from Demon Hunter by 1 per 3 stamina points spent."
 		]
@@ -4589,7 +4589,7 @@
 		"description": [
 			"## Demonic Nemesis (Combat)",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 9](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 9](source/demon_hunters_handbook)",
 			"",
 			"You are well acquainted with the machinations of a particular demon lord. You're resistant to his tricks, and have no fear of his minions.  ",
 			"**Prerequisites:** [Demon Hunter](feat/demon_hunter), Knowledge (planes) 6 ranks.  ",
@@ -4663,7 +4663,7 @@
 		"description": [
 			"## Demonologist",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 71](source/pathfinder_#74_sword_of_valor)",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 71](source/pathfinder_74_sword_of_valor)",
 			"",
 			"You have immersed yourself deeply in studies of the nature of the Abyss and its inhabitants.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks.  ",
@@ -4759,7 +4759,7 @@
 		"description": [
 			"## Derro Magister",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 58](source/pathfinder_#61_shards_of_sin)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 58](source/pathfinder_61_shards_of_sin)",
 			"",
 			"A derro magister's mind is particularly affected by the consumption of strange mold, granting enhanced resistance to magic and additional spell-like abilities and traits.  ",
 			"**Prerequisites:** Cha 20, derro.  ",
@@ -4810,7 +4810,7 @@
 		"description": [
 			"## Designated Antagonist (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 10](source/antiheros_handbook)",
 			"",
 			"When you antagonize your foes, you can redirect their enmity to your ally.  ",
 			"**Prerequisites:** [Antagonize](feat/antagonize).  ",
@@ -4833,7 +4833,7 @@
 			"**Benefit:** When no ally is within 10 feet of you and you are not receiving benefits from the aid another action, you gain a +1 morale bonus on melee attack and damage rolls.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points to gain the benefits of Desperate Battler even while an ally is within 10 feet of you (but not when receiving the benefits of the aid another action)."
 		]
@@ -4876,12 +4876,12 @@
 			"**Benefit:** Whenever you confirm a critical hit against an opponent, in addition to dealing critical damage as normal, you maim your target so much that it takes 2 points of Charisma damage and becomes staggered for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When you confirm a critical hit against an opponent, you can spend 4 stamina points to increase the Charisma damage that opponent takes from Destroy Identity to 1d3+1 points."
 		]
 	},
-	"destroyer's_blessing": {
+	"destroyers_blessing": {
 		"name": "Destroyer's Blessing",
 		"sources": [
 			"Advanced Race Guide",
@@ -4960,7 +4960,7 @@
 		"description": [
 			"## Devastating Assault (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"You can hammer at a foe to smash through its defenses.  ",
 			"**Prerequisites:** Base attack bonus +9, weapon training class feature with a melee weapon.  ",
@@ -4996,7 +4996,7 @@
 		"description": [
 			"## Devil Sense",
 			"",
-			"**Source** [Adventurer's Guide pg. 176](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 176](source/adventurers_guide)",
 			"",
 			"You instinctively sense the presence of fiends.  ",
 			"**Prerequisites:** Wis 13, ability to cast detect evil as a spell or spell-like ability.  ",
@@ -5016,7 +5016,7 @@
 			"**Benefit:** Whenever you attempt a Will save against a charm or compulsion spell cast by anyone who is not a worshiper of Asmodeus, you may roll twice and take the better result."
 		]
 	},
-	"devil's_foe": {
+	"devils_foe": {
 		"name": "Devil's Foe",
 		"sources": [ "Andoran, Spirit of Liberty" ],
 		"description": [
@@ -5134,7 +5134,7 @@
 		"description": [
 			"## Difficult Swings (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"You can force foes to move cautiously when near you.  ",
 			"**Prerequisites:** Base attack bonus +5, weapon training class feature with a melee weapon.  ",
@@ -5187,7 +5187,7 @@
 		"description": [
 			"## Dimensional Awareness (Combat)",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoners_handbook)",
 			"",
 			"Your exposure to summoned creatures allows you to predict where conjured opponents will likely appear.  ",
 			"**Prerequisites:** [Arcane Strike](feat/arcane_strike) or [Disruptive](feat/disruptive); [Banishing Critical](feat/banishing_critical); [Combat Reflexes](feat/combat_reflexes); Spellcraft 8 ranks; arcane pool class feature.  ",
@@ -5215,7 +5215,7 @@
 		"description": [
 			"## Dimensional Disruption (Combat)",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoners_handbook)",
 			"",
 			"You've become so adept at combating summoned creatures that you can interrupt the magical energies that summon them to your plane.  ",
 			"**Prerequisites:** [Arcane Strike](feat/arcane_strike) or [Disruptive](feat/disruptive); [Banishing Critical](feat/banishing_critical); [Combat Reflexes](feat/combat_reflexes); [Dimensional Awareness](feat/dimensional_awareness); Spellcraft 8 ranks; arcane pool class feature.  ",
@@ -5255,7 +5255,7 @@
 		"description": [
 			"## Dimensional Step Up",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunters_handbook)",
 			"",
 			"Even teleportation cannot keep you from confronting your foe.  ",
 			"**Prerequisites:** [Dimensional Agility](feat/dimensional_agility), [Step Up](feat/step_up), base attack bonus +12, abundant step class feature or ability to cast [dimension door](spell/dimension_door).  ",
@@ -5402,7 +5402,7 @@
 		"description": [
 			"## Disarming Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"Your critical hits can disarm your foes.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Disarm](feat/improved_disarm), base attack bonus +9.  ",
@@ -5652,7 +5652,7 @@
 		"description": [
 			"## Dispel Focus",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 9](source/monster_summoners_handbook)",
 			"",
 			"You are skilled at the art of dispelling.  ",
 			"**Prerequisites:** Ability to cast dispel magic.  ",
@@ -5665,7 +5665,7 @@
 		"description": [
 			"## Dispel Mastery (Item Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 26](source/weapon_masters_handbook)",
 			"",
 			"You can dispel magic with abjuration magic items.  ",
 			"**Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.  ",
@@ -5760,7 +5760,7 @@
 		"description": [
 			"## Disrupting Shot (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"With a well-placed shot, you make it harder for a nearby opponent to cast spells.  ",
 			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point-blank_shot), fighter level 6th.  ",
@@ -5837,7 +5837,7 @@
 		"description": [
 			"## Disruptive Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 157](source/advanced_players_guide)",
 			"",
 			"Your magical energies cling to enemies, interfering with their spellcasting.  ",
 			"**Benefit:** Targets affected by a disruptive spell must make concentration checks when using spells or spell-like abilities (DC equals the save DC of the disruptive spell plus the level of the spell being cast) for 1 round. Targets that avoid the spell's effects avoid this feat's effect as well. A disruptive spell uses up a spell slot one level higher than the spell's actual level."
@@ -5975,7 +5975,7 @@
 		"description": [
 			"## Distracting Explosion",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)",
 			"",
 			"Your bombs explode with such force that they throw targets off their guard and provides an opening for your allies.  ",
 			"**Prerequisites:** Bomb class feature, hobgoblin.  ",
@@ -5989,7 +5989,7 @@
 		"description": [
 			"## Diva Advance (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 176](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 176](source/adventurers_guide)",
 			"",
 			"You stride forward with confidence, trusting your performance to protect you as much as your arms and armor.  ",
 			"**Prerequisites:** Cha 17, [Combat Expertise](feat/combat_expertise), [Diva Strike](feat/diva_strike), [Diva Style](feat/diva_style), [Improved Feint](feat/improved_feint), base attack bonus +11 or bard level 11th.  ",
@@ -6002,7 +6002,7 @@
 		"description": [
 			"## Diva Strike (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 176](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 176](source/adventurers_guide)",
 			"",
 			"Those distracted by your performance leave themselves open to vicious attacks.  ",
 			"**Prerequisites:** Cha 15; [Combat Expertise](feat/combat_expertise); [Diva Style](feat/diva_style); [Improved Feint](feat/improved_feint); base attack bonus +7 or bard level 7th.  ",
@@ -6015,7 +6015,7 @@
 		"description": [
 			"## Diva Style (Combat, Style)",
 			"",
-			"**Source** [Adventurer's Guide pg. 176](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 176](source/adventurers_guide)",
 			"",
 			"You employ song, dance, or some other method of performance to distract your enemies from the battle at hand.  ",
 			"**Prerequisites:** Cha 13; base attack bonus +1 or bard level 1st.  ",
@@ -6194,7 +6194,7 @@
 		"description": [
 			"## Divine Fighting Technique (Combat)",
 			"",
-			"**Source** [Divine Anthology pg. 28](source/divine_anthology), [Weapon Master's Handbook pg. 10](source/weapon_master's_handbook)",
+			"**Source** [Divine Anthology pg. 28](source/divine_anthology), [Weapon Master's Handbook pg. 10](source/weapon_masters_handbook)",
 			"",
 			"You have trained in the divine fighting technique of a specific deity.  ",
 			"**Prerequisites:** Must worship a single patron deity that has an established divine fighting technique.  ",
@@ -6203,7 +6203,7 @@
 			"",
 			"### Abadar's Crossbow",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 10](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 10](source/weapon_masters_handbook)",
 			"",
 			"Abadar teaches complex crossbow techniques.  ",
 			"**Initial Benefit:** You can attempt a ranged steal combat maneuver check with a crossbow, using your Dexterity modifier in place of your Strength modifier to calculate your Combat Maneuver Bonus. If you succeed, the stolen item is knocked away by the bolt; if the bolt can pierce any part of the item and the item weighs 2 pounds or less, the bolt continues past the creature and carries the item up to one range increment away, pinning it to whatever surface it lands on.  ",
@@ -6221,7 +6221,7 @@
 			"",
 			"### Calistria's Poisoned Lash",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 10](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 10](source/weapon_masters_handbook)",
 			"",
 			"Calistria inspires creative ways to poison foes.  ",
 			"**Optional Replacement:** A chaotic neutral rogue or slayer who worships Calistria can replace one talent with the following initial benefit.  ",
@@ -6232,7 +6232,7 @@
 			"",
 			"### Cayden Cailean's Blade and Tankard",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 11](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 11](source/weapon_masters_handbook)",
 			"",
 			"Cayden Cailean is famous for wading into battle with a tankard in his off hand.  ",
 			"**Optional Replacement:** A chaotic good fighter or swashbuckler who worships Cayden Cailean can replace proficiency with shields or bucklers with the following initial benefit.  ",
@@ -6265,7 +6265,7 @@
 			"",
 			"### Gorum's Swordmanship",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 11](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 11](source/weapon_masters_handbook)",
 			"",
 			"Gorum teaches devastating greatsword techniques.  ",
 			"**Optional Replacement:** A chaotic neutral barbarian or fighter who worships Gorum can replace a bonus feat or rage power with the following initial benefit.  ",
@@ -6333,7 +6333,7 @@
 			"",
 			"### Zon-Kuthon's Flensing",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 11](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 11](source/weapon_masters_handbook)",
 			"",
 			"Zon-Kuthon invites all mortals to join in inflicting and suffering pain.  ",
 			"**Initial Benefit:** Once per round, when you hit a foe with a spiked chain, you can twist the chain so it painfully flenses both of you. You and your target are both sickened for 1 round, and the target must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be sickened for an additional 1d4+1 rounds.  ",
@@ -6379,13 +6379,13 @@
 			"**Benefit:** Once per day as an immediate action before rolling a saving throw, you can add your Charisma modifier on that saving throw. As usual, this does not stack if you already apply your Charisma modifier to that saving throw. If you possess the charmed life class feature, you can instead apply Divine Protection's bonus after rolling the saving throw but before the result is revealed."
 		]
 	},
-	"diviner's_delving": {
+	"diviners_delving": {
 		"name": "Diviner's Delving",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Diviner's Delving",
 			"",
-			"**Source** [Advanced Player's Guide pg. 158](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 158](source/advanced_players_guide)",
 			"",
 			"Your keen magical intuition makes reading signs, portents, and mystical clues quick and easy.  ",
 			"**Prerequisites:** [Spell Focus (divination)](feat/spell_focus).  ",
@@ -6509,7 +6509,7 @@
 		"description": [
 			"## Dog-Sniff-Hate",
 			"",
-			"**Source** [We Be Goblins Free! pg. 15](source/we_be_goblins_free!), [We Be Goblins! pg. 12](source/we_be_goblins!), [We Be Goblins Too! pg. 13](source/we_be_goblins_too!)",
+			"**Source** [We Be Goblins Free! pg. 15](source/we_be_goblins_free), [We Be Goblins! pg. 12](source/we_be_goblins), [We Be Goblins Too! pg. 13](source/we_be_goblins_too)",
 			"",
 			"Unlike many goblins, you're not particularly afraid of dogs. You know what dogs smell like, and that smell makes you mad-very mad.  ",
 			"**Prerequisites:** [Skill Focus (Perception)](feat/skill_focus), goblin.  ",
@@ -6603,7 +6603,7 @@
 		"description": [
 			"## Dorn-Dergar Master (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2), [Dwarves of Golarion pg. 21](source/dwarves_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2), [Dwarves of Golarion pg. 21](source/dwarves_of_golarion)",
 			"",
 			"You can use a dorn-dergar with only one hand.  ",
 			"**Prerequisites:** [Two-Weapon Fighting](feat/two-weapon_fighting), base attack bonus +4, proficiency with the dwarven dorn-dergar.  ",
@@ -6899,7 +6899,7 @@
 		"description": [
 			"## Dragon Gold Crown",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"Inspired by tales of First Emperor Taldaris pulling the gold from the gullet of the terrible dragon Verksaris to forge the Primogen Crown, you have learned to fashion potent headgear from the remains of magical creatures you defeat.  ",
 			"**Prerequisites:** Knowledge (arcana) 5 ranks, Survival 5 ranks.  ",

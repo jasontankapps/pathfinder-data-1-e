@@ -8,7 +8,7 @@
 			"Unable to find the requested magic ring."
 		]
 	},
-	"dungeon_ring_prisoner's": {
+	"dungeon_ring_prisoners": {
 		"name": "Dungeon Ring (prisoner's)",
 		"sources": [
 			"Ultimate Equipment",
@@ -17,7 +17,7 @@
 		"description": [
 			"## Dungeon Ring",
 			"",
-			"**Source** [Ultimate Equipment pg. 166](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 166](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_players_guide)  ",
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** ring; **Price** 250 gp (prisoner's), 16,000 gp (jailer's); **Weight** -",
 			"",
@@ -36,7 +36,7 @@
 		"description": [
 			"## Ironbound Ring",
 			"",
-			"**Source** [Adventurer's Guide pg. 36](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 36](source/adventurers_guide)  ",
 			"**Aura** faint abjuration and enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 500 gp (Minion), 8,000 gp (Master); **Weight** -",
 			"",
@@ -47,7 +47,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), resistance, suggestion; **Cost** 4,000 gp"
 		]
 	},
-	"fool's_malady": {
+	"fools_malady": {
 		"name": "Fool's Malady",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -92,7 +92,7 @@
 		"description": [
 			"## Ring of Arcane Signets",
 			"",
-			"**Source** [Ultimate Equipment pg. 167](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 167](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_players_guide)  ",
 			"**Aura** faint universal; **CL** 8th  ",
 			"**Slot** ring; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -196,7 +196,7 @@
 		"description": [
 			"## Ring of Resistance",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source/pathfinder_#123_the_flooded_cathedral)  ",
+			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source/pathfinder_123_the_flooded_cathedral)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5); **Weight** -",
 			"",
@@ -207,7 +207,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](spell/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		]
 	},
-	"deadeye's_spotter_ring": {
+	"deadeyes_spotter_ring": {
 		"name": "Deadeye's Spotter Ring",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -251,7 +251,7 @@
 		"description": [
 			"## Ring of Balanced Grip",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurers_armory_2)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 1,600 gp; **Weight** -",
 			"",
@@ -268,7 +268,7 @@
 		"description": [
 			"## Ring of Starlight",
 			"",
-			"**Source** [Merchant's Manifest pg. 12](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 12](source/merchants_manifest)  ",
 			"**Aura** faint evocation; **CL** 1st  ",
 			"**Slot** ring; **Price** 1,600 gp; **Weight** -",
 			"",
@@ -453,7 +453,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 5 ranks in Swim; **Cost** 1,250 gp"
 		]
 	},
-	"droskar's_guiding_ring": {
+	"droskars_guiding_ring": {
 		"name": "Droskar's Guiding Ring",
 		"sources": [
 			"Inner Sea Gods",
@@ -483,14 +483,14 @@
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** ring; **Price** 2,800 gp; **Weight** -",
 			"",
-			"This ring is made of thin but strong vines braided together in an elegant weave. If the wearer can cast summon nature's ally spells, the wearer adds leaf leshy to the 1st-level list of monsters he can summon with those spells, adds gourd leshy to the 2nd-level list, adds fungus leshy the 3rd-level list, and adds seaweed leshy to the 4th-level list. Also, once per day on command the wearer can use this ring to summon a leaf leshy, as if by the [summon nature's ally I](spell/summon_nature's_ally_1) spell.",
+			"This ring is made of thin but strong vines braided together in an elegant weave. If the wearer can cast summon nature's ally spells, the wearer adds leaf leshy to the 1st-level list of monsters he can summon with those spells, adds gourd leshy to the 2nd-level list, adds fungus leshy the 3rd-level list, and adds seaweed leshy to the 4th-level list. Also, once per day on command the wearer can use this ring to summon a leaf leshy, as if by the [summon nature's ally I](spell/summon_natures_ally_1) spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), plant growth, [summon nature's ally I](spell/summon_nature's_ally_1); **Cost** 1,400 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), plant growth, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 1,400 gp"
 		]
 	},
-	"knight-inheritor's_ring": {
+	"knight-inheritors_ring": {
 		"name": "Knight-Inheritor's Ring",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
@@ -499,7 +499,7 @@
 		"description": [
 			"## Knight-Inheritor's Ring",
 			"",
-			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_#103_the_hellfire_compact), [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
+			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_103_the_hellfire_compact), [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
 			"**Aura** faint enchantment and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -510,8 +510,8 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), bless weapon, prestidigitation, shield of faith, wartrain mount, creator must be at least 3rd level; **Cost** 1,500 gp"
 		]
 	},
-	"knight_inheritor's_ring": {
-		"copyof": "knight-inheritor's_ring"
+	"knight_inheritors_ring": {
+		"copyof": "knight-inheritors_ring"
 	},
 	"profane_seal_signet": {
 		"name": "Profane Seal Signet",
@@ -536,7 +536,7 @@
 		"description": [
 			"## Ring of Austere Majesty",
 			"",
-			"**Source** [Merchant's Manifest pg. 19](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 19](source/merchants_manifest)  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -584,7 +584,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), [Spell Focus](feat/spell_focus), creator must have the bloodrage class feature; **Cost** 1,500 gp"
 		]
 	},
-	"tyrant's_friend": {
+	"tyrants_friend": {
 		"name": "Tyrant's Friend",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -716,7 +716,7 @@
 		"description": [
 			"## Saltspray Ring",
 			"",
-			"**Source** [Pathfinder #121: The Lost Outpost pg. 54](source/pathfinder_#121_the_lost_outpost)  ",
+			"**Source** [Pathfinder #121: The Lost Outpost pg. 54](source/pathfinder_121_the_lost_outpost)  ",
 			"**Aura** faint conjuration and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 4,500 gp; **Weight** -",
 			"",
@@ -752,7 +752,7 @@
 		"description": [
 			"## Ring of Delayed Doom",
 			"",
-			"**Source** [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 292](source/advanced_players_guide)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** ring; **Price** 5,000 gp (1 stone), 10,000 gp (2 stones), 15,000 gp (3 stones), 20,000 gp (4 stones), 25,000 gp (5 stones), 30,000 gp (6 stones), 35,000 gp (7 stones), 40,000 gp (8 stones), 45,000 gp (9 stones); **Weight** -",
 			"",
@@ -789,7 +789,7 @@
 		"description": [
 			"## Ring of Maniacal Devices",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 5,000 gp; **Weight** -",
 			"",
@@ -1164,11 +1164,11 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,800 gp; **Weight** -",
 			"",
-			"This ring carved from a single piece of cherry wood bears an inscription written in Tien. If the wearer can cast summon nature's ally spells, the wearer adds shikigami to the 3rd-level list of monsters he can summon with those spells, adds kodama to the 5th-level list, adds zuishin to the 7th-level list, and adds toshigami to the 9th-level list. Also, once per day on command the wearer can use this ring to summon a shikigami, as if by the [summon nature's ally III](spell/summon_nature's_ally_3) spell.",
+			"This ring carved from a single piece of cherry wood bears an inscription written in Tien. If the wearer can cast summon nature's ally spells, the wearer adds shikigami to the 3rd-level list of monsters he can summon with those spells, adds kodama to the 5th-level list, adds zuishin to the 7th-level list, and adds toshigami to the 9th-level list. Also, once per day on command the wearer can use this ring to summon a shikigami, as if by the [summon nature's ally III](spell/summon_natures_ally_3) spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), commune with nature, [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 3,900 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), commune with nature, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 3,900 gp"
 		]
 	},
 	"ring_of_summoning_affinity_aeon": {
@@ -1215,7 +1215,7 @@
 		],
 		"copyof": "ring_of_protection_1"
 	},
-	"maintenance_overseer's_ring": {
+	"maintenance_overseers_ring": {
 		"name": "Maintenance Overseer's Ring",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
@@ -1248,7 +1248,7 @@
 		"description": [
 			"## Ring of Forcefangs",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1265,7 +1265,7 @@
 		"description": [
 			"## Ring of Heroes",
 			"",
-			"**Source** [Advanced Player's Guide pg. 325](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 325](source/advanced_players_guide)  ",
 			"**Aura** moderate (no school); **CL** 7th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1482,7 +1482,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), bull's strength, telekinesis; **Cost** 4,300 gp"
 		]
 	},
-	"scholar's_ring": {
+	"scholars_ring": {
 		"name": "Scholar's Ring",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1507,7 +1507,7 @@
 		"description": [
 			"## Ring of Protected Life",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayers_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 9,000 gp; **Weight** 1 lb.",
 			"",
@@ -1606,7 +1606,7 @@
 		"description": [
 			"## Ring of Revelation",
 			"",
-			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [Advanced Player's Guide pg. 293](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [Advanced Player's Guide pg. 293](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** ring; **Price** 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior); **Weight** -",
 			"",
@@ -1729,7 +1729,7 @@
 		"description": [
 			"## Ring of Seven Virtues",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_39_the_city_of_seven_spears)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -1806,7 +1806,7 @@
 		"description": [
 			"## Ring of the Iron Skull",
 			"",
-			"**Source** [Pathfinder #57: Tempest Rising pg. 59](source/pathfinder_#57_tempest_rising)  ",
+			"**Source** [Pathfinder #57: Tempest Rising pg. 59](source/pathfinder_57_tempest_rising)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** ring; **Price** 10,800 gp; **Weight** -",
 			"",
@@ -1938,7 +1938,7 @@
 		"description": [
 			"## Ring of Blood Calling",
 			"",
-			"**Source** [Pathfinder #106: For Queen and Empire pg. 18](source/pathfinder_#106_for_queen_and_empire)  ",
+			"**Source** [Pathfinder #106: For Queen and Empire pg. 18](source/pathfinder_106_for_queen_and_empire)  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -1999,7 +1999,7 @@
 		"description": [
 			"## Ring of Immolation",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #11: Skeletons of Scarwall pg. 42](source/pathfinder_#11_skeletons_of_scarwall)  ",
+			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #11: Skeletons of Scarwall pg. 42](source/pathfinder_11_skeletons_of_scarwall)  ",
 			"**Aura** moderate evocation (fire); **CL** 10th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2016,7 +2016,7 @@
 		"description": [
 			"## Ring of Retreat",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 115](source/adventurers_guide)  ",
 			"**Aura** strong conjuration; **CL** 12th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2095,11 +2095,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 12,880 gp; **Weight** -",
 			"",
-			"This coiling band is made of jade carved into the shape of a sea drake. If the wearer can cast summon nature's ally spells, the wearer adds forest drake and shadow drake to the 4th-level list of monsters he can summon with those spells, adds flame drake to the 5th-level list, adds frost drake to the 6th-level list, and adds desert drake to the 9th-level list. Also, once per day on command the wearer can use this ring to summon a shadow drake, as if by the [summon nature's ally IV](spell/summon_nature's_ally_4) spell.",
+			"This coiling band is made of jade carved into the shape of a sea drake. If the wearer can cast summon nature's ally spells, the wearer adds forest drake and shadow drake to the 4th-level list of monsters he can summon with those spells, adds flame drake to the 5th-level list, adds frost drake to the 6th-level list, and adds desert drake to the 9th-level list. Also, once per day on command the wearer can use this ring to summon a shadow drake, as if by the [summon nature's ally IV](spell/summon_natures_ally_4) spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), greater magic fang, [summon nature's ally IV](spell/summon_nature's_ally_4); **Cost** 6,440 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), greater magic fang, [summon nature's ally IV](spell/summon_natures_ally_4); **Cost** 6,440 gp"
 		]
 	},
 	"ghost_battling_ring": {
@@ -2167,13 +2167,13 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), dimension door, touch of the sea; **Cost** 7,000 gp"
 		]
 	},
-	"duxotar's_signet": {
+	"duxotars_signet": {
 		"name": "Duxotar's Signet",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"## Duxotar's Signet",
 			"",
-			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 38](source/pathfinder_#108_hell_comes_to_westcrown)  ",
+			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 38](source/pathfinder_108_hell_comes_to_westcrown)  ",
 			"**Aura** moderate abjuration and illusion; **CL** 6th  ",
 			"**Slot** ring; **Price** 14,500 gp; **Weight** -",
 			"",
@@ -2259,7 +2259,7 @@
 		"description": [
 			"## Ring of Retribution",
 			"",
-			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_players_guide)  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2307,7 +2307,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), water walk; **Cost** 7,500 gp"
 		]
 	},
-	"scavenger's_ring": {
+	"scavengers_ring": {
 		"name": "Scavenger's Ring",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -2356,13 +2356,13 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), holy smite, [magic circle against evil](spell/magic_circle_against_evil); **Cost** 8,000 gp"
 		]
 	},
-	"dungeon_ring_jailer's": {
+	"dungeon_ring_jailers": {
 		"name": "Dungeon Ring (jailer's)",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"copyof": "dungeon_ring_prisoner's"
+		"copyof": "dungeon_ring_prisoners"
 	},
 	"ring_of_perfect_sizing": {
 		"name": "Ring of Perfect Sizing",
@@ -2370,7 +2370,7 @@
 		"description": [
 			"## Ring of Perfect Sizing",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 16,000 gp; **Weight** -",
 			"",
@@ -2387,7 +2387,7 @@
 		"description": [
 			"## Sigil of Kraggodan",
 			"",
-			"**Source** [Pathfinder #118: Siege of Stone pg. 41](source/pathfinder_#118_siege_of_stone)  ",
+			"**Source** [Pathfinder #118: Siege of Stone pg. 41](source/pathfinder_118_siege_of_stone)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,000 gp; **Weight** -",
 			"",
@@ -2483,7 +2483,7 @@
 		"description": [
 			"## Ring of Stony Flesh",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 18,000 gp; **Weight** -",
 			"",
@@ -2765,7 +2765,7 @@
 	"ring_of_x_ray_vision": {
 		"copyof": "ring_of_x-ray_vision"
 	},
-	"witness_hunter's_ring": {
+	"witness_hunters_ring": {
 		"name": "Witness Hunter's Ring",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -2782,7 +2782,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), detect scrying, locate creature; **Cost** 12,600 gp"
 		]
 	},
-	"swarmwalker's_ring": {
+	"swarmwalkers_ring": {
 		"name": "Swarmwalker's Ring",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -2879,7 +2879,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), planar ally, planar binding; **Cost** 15,000 gp"
 		]
 	},
-	"planefarer's_band": {
+	"planefarers_band": {
 		"name": "Planefarer's Band",
 		"sources": [ "Planes of Power" ],
 		"description": [
@@ -2950,7 +2950,7 @@
 		"description": [
 			"## Ring of Resumption",
 			"",
-			"**Source** [Healer's Handbook pg. 30](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 30](source/healers_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 30,800 gp; **Weight** -",
 			"",
@@ -3021,7 +3021,7 @@
 		"description": [
 			"## Sihedron Ring",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #6: Spires of Xin-Shalast pg. 37](source/pathfinder_#6_spires_of_xin-shalast)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #6: Spires of Xin-Shalast pg. 37](source/pathfinder_6_spires_of_xin-shalast)  ",
 			"**Aura** moderate abjuration and illusion; **CL** 9th  ",
 			"**Slot** ring; **Price** 35,000 gp; **Weight** -",
 			"",
@@ -3148,7 +3148,7 @@
 		"description": [
 			"## Ring of Fear Reflection",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayers_handbook)",
 			"",
 			"**Aura** moderate abjuration and necromancy; **CL** 7th  ",
 			"**Slot** ring; **Price** 48,000 gp; **Weight** -",
@@ -3183,7 +3183,7 @@
 		"description": [
 			"## Band of Triumph",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 35](source/pathfinder_#131_the_reaper's_right_hand)  ",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 35](source/pathfinder_131_the_reapers_right_hand)  ",
 			"**Aura** strong enchantment and evocation; **CL** 13th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
@@ -3193,7 +3193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [eagle's splendor](spell/eagle's_splendor), [good hope](spell/good_hope), [shout](spell/shout); **Cost** 25,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [eagle's splendor](spell/eagles_splendor), [good hope](spell/good_hope), [shout](spell/shout); **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_friend_shield": {
@@ -3323,7 +3323,7 @@
 			"**Requirements** [Forge Ring](feat/forge_ring), mnemonic enhancer; **Cost** 28,000 gp"
 		]
 	},
-	"survivor's_ring": {
+	"survivors_ring": {
 		"name": "Survivor's Ring",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -3525,7 +3525,7 @@
 		"description": [
 			"## Ring of the Recalled Soul",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 28](source/pathfinder_#132_the_six-legend_soul)  ",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 28](source/pathfinder_132_the_six-legend_soul)  ",
 			"**Aura** moderate illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 150,000 gp; **Weight** -",
 			"",
@@ -3570,7 +3570,7 @@
 		"description": [
 			"## Ring of Splendid Security",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #12: Crown of Fangs pg. 60](source/pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #12: Crown of Fangs pg. 60](source/pathfinder_12_crown_of_fangs)  ",
 			"**Aura** strong abjuration; **CL** 16th  ",
 			"**Slot** ring; **Price** 180,000 gp; **Weight** -",
 			"",
@@ -3776,7 +3776,7 @@
 		"description": [
 			"## Cannibal Ring",
 			"",
-			"**Source** [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** strong transmutation; **CL** 16th  ",
 			"**Slot** ring; **Weight** -",
@@ -3796,7 +3796,7 @@
 		"description": [
 			"## Chatter Ring",
 			"",
-			"**Source** [Antihero's Handbook pg. 31](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 31](source/antiheros_handbook)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** ring; **Weight** -",
 			"",
@@ -3873,7 +3873,7 @@
 		"description": [
 			"## Ring of Truth",
 			"",
-			"**Source** [Ultimate Equipment pg. 349](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 349](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)",
 			"",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** ring; **Weight** -",

@@ -5,7 +5,7 @@
 		"description": [
 			"## Qlippoth Appearance",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 74](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 74](source/pathfinder_135_runeplague)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)) [[mind-affecting](spelldef/mindaffecting)]; **Level** alchemist 3, antipaladin 2, cleric 3, oracle 3, shaman 3, warpriest 3, witch 3",
 			"",
 			"### Casting",
@@ -159,7 +159,7 @@
 		"description": [
 			"## Quick Throwing",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** antipaladin 2, bloodrager 2, hunter 2, magus 2, paladin 2, ranger 2",
 			"",
 			"### Casting",
@@ -359,7 +359,7 @@
 		"description": [
 			"## Raiment of Command",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 61](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 418](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 61](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 2, bard 2, redmantisassassin 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -495,7 +495,7 @@
 		"description": [
 			"## Rally Point",
 			"",
-			"**Source** [Advanced Player's Guide pg. 237](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 237](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [good](spelldef/good), [mind-affecting](spelldef/mindaffecting)]; **Level** paladin 1",
 			"",
 			"### Casting",
@@ -519,7 +519,7 @@
 		"description": [
 			"## Rampart",
 			"",
-			"**Source** [Advanced Player's Guide pg. 237](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 237](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[earth](spelldef/earth)]; **Level** arcanist 7, druid 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -561,7 +561,7 @@
 			"The targeted construct gains fast healing 5. This does not stack with any fast healing the construct already has. Fast healing has no effect on a construct that has been brought to 0 hit points or destroyed."
 		]
 	},
-	"raven's_flight": {
+	"ravens_flight": {
 		"name": "Raven's Flight",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
@@ -773,7 +773,7 @@
 			"All attacks made by the target match your alignment, counting as either chaotic, evil, good, or lawful as appropriate. If your alignment includes multiple alignment components, such as lawful good, you select one alignment component to impart to the target. Whenever the target confirms a critical hit against or takes damage from a creature, that creature must attempt a Will save. On a failed save, the creature is sent to the Outer Plane matching your alignment, as per [plane shift](spell/plane_shift), and the spell ends. A warpriest treats this spell as a 6th-level cleric spell for the purposes of preparing the spell, determining DCs, and so forth."
 		]
 	},
-	"reaper's_coterie": {
+	"reapers_coterie": {
 		"name": "Reaper's Coterie",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -829,7 +829,7 @@
 		"description": [
 			"## Rebuke",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** inquisitor 4",
 			"",
 			"### Casting",
@@ -1012,7 +1012,7 @@
 		"description": [
 			"## Recorporeal Incarnation",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 61](source/inner_sea_intrigue), [Pathfinder #16: Endless Night pg. 10](source/pathfinder_#16_endless_night)  ",
+			"**Source** [Inner Sea Intrigue pg. 61](source/inner_sea_intrigue), [Pathfinder #16: Endless Night pg. 10](source/pathfinder_16_endless_night)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 7, sorcerer 7, witch 7, wizard 7",
 			"",
 			"### Casting",
@@ -1064,7 +1064,7 @@
 			"This spell affects only the creature that directly killed the targeted corpse. Other individuals that contributed to the target's death are unaffected, and if the victim did not die from violence or died indirectly (for instance, if the creature died from suffocating after someone trapped it in a room filling with water), then the spell has no effect. The killer can attempt a Will save to resist the spell's effects. Distance is not a factor, but the killer must be on the same plane as you at the time you cast the spell, or the spell fails. Once a corpse has acted as the focus for red hand of the killer, it can never act as the focus for another casting of red hand of the killer."
 		]
 	},
-	"redcap's_touch": {
+	"redcaps_touch": {
 		"name": "Redcap's Touch",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -1556,7 +1556,7 @@
 		"description": [
 			"## Rejuvenate Eidolon, Lesser",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** summoner 1, unchained summoner 1",
 			"",
 			"### Casting",
@@ -1575,7 +1575,7 @@
 			"",
 			"### Rejuvenate Eidolon",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** summoner 3, unchained summoner 3",
 			"",
 			"#### Casting",
@@ -1594,7 +1594,7 @@
 			"",
 			"### Rejuvenate Eidolon, Greater",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** summoner 5, unchained summoner 5",
 			"",
 			"#### Casting",
@@ -2220,7 +2220,7 @@
 		"description": [
 			"## Replenish Ki",
 			"",
-			"**Source** [Inner Sea Gods pg. 238](source/inner_sea_gods), [Pathfinder #53: Tide of Honor pg. 73](source/pathfinder_#53_tide_of_honor)  ",
+			"**Source** [Inner Sea Gods pg. 238](source/inner_sea_gods), [Pathfinder #53: Tide of Honor pg. 73](source/pathfinder_53_tide_of_honor)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** cleric 4, oracle 4, warpriest 4 (Irori)",
 			"",
 			"### Casting",
@@ -2305,7 +2305,7 @@
 		"description": [
 			"## Repugnant Taste",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 30](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 30](source/monster_hunters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** alchemist 3, bard 3, druid 4, hunter 3, investigator 3, mesmerist 3, ranger 3, shaman 4, skald 3, witch 4",
 			"",
 			"### Casting",
@@ -2353,7 +2353,7 @@
 		"description": [
 			"## Residual Tracking",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** hunter 1, occultist 2, ranger 1",
 			"",
 			"### Casting",
@@ -2567,7 +2567,7 @@
 		"description": [
 			"## Resize Item",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -2634,7 +2634,7 @@
 		"description": [
 			"## Resounding Blow",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** antipaladin 4, inquisitor 5, paladin 4",
 			"",
 			"### Casting",
@@ -2746,7 +2746,7 @@
 		"description": [
 			"## Rest Eternal",
 			"",
-			"**Source** [Advanced Player's Guide pg. 238](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 238](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[curse](spelldef/curse)]; **Level** cleric 4, druid 5, hunter 5, oracle 4, shaman 5, warpriest 4, witch 5",
 			"",
 			"### Casting",
@@ -2770,7 +2770,7 @@
 		"description": [
 			"## Restful Cloak",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurers_armory_2)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** cleric 2, druid 2, hunter 2, occultist 2, oracle 2, paladin 2, ranger 2, shaman 2, warpriest 2",
 			"",
 			"### Casting",
@@ -2793,7 +2793,7 @@
 		"description": [
 			"## Restful Sleep",
 			"",
-			"**Source** [Advanced Player's Guide pg. 239](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 239](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** bard 1, skald 1",
 			"",
 			"### Casting",
@@ -2993,7 +2993,7 @@
 		"description": [
 			"## Resurgent Transformation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 239](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 239](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** alchemist 5, investigator 5",
 			"",
 			"### Casting",
@@ -3106,7 +3106,7 @@
 		"description": [
 			"## Retribution",
 			"",
-			"**Source** [Advanced Player's Guide pg. 239](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 239](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil), [pain](spelldef/pain)]; **Level** inquisitor 3",
 			"",
 			"### Casting",
@@ -3336,7 +3336,7 @@
 		"description": [
 			"## Reveal True Shape",
 			"",
-			"**Source** [Pathfinder #19: Howl of the Carrion King pg. 75](source/pathfinder_#19_howl_of_the_carrion_king)  ",
+			"**Source** [Pathfinder #19: Howl of the Carrion King pg. 75](source/pathfinder_19_howl_of_the_carrion_king)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, bard 2, cleric 2, druid 2, hunter 2, oracle 2, skald 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -3360,7 +3360,7 @@
 		"description": [
 			"## Revealing Light",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 31](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 31](source/monster_hunters_handbook)  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** arcanist 2, bard 1, cleric 2, inquisitor 2, medium 1, oracle 2, psychic 2, skald 1, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -3407,7 +3407,7 @@
 		"description": [
 			"## Revenant Armor",
 			"",
-			"**Source** [Armor Master's Handbook pg. 23](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 23](source/armor_masters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** antipaladin 3, arcanist 4, cleric 4, magus 4, medium 4, occultist 4, oracle 4, paladin 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 4, witch 3, wizard 4",
 			"",
 			"### Casting",
@@ -3468,7 +3468,7 @@
 		"description": [
 			"## Reviving Finale",
 			"",
-			"**Source** [Advanced Player's Guide pg. 239](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 239](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** bard 3, skald 3",
 			"",
 			"### Casting",
@@ -3633,7 +3633,7 @@
 		"description": [
 			"## Righteous Blood",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 27](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 27](source/demon_hunters_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration) [[good](spelldef/good)]; **Level** inquisitor 2, paladin 2",
 			"",
 			"### Casting",
@@ -3657,7 +3657,7 @@
 		"description": [
 			"## Righteous Condemnation",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 13](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 13](source/plane-hoppers_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration) [[good](spelldef/good), [lawful](spelldef/lawful)]; **Level** cleric 3, inquisitor 3, oracle 3, paladin 2, warpriest 3",
 			"",
 			"### Casting",
@@ -3708,7 +3708,7 @@
 		"description": [
 			"## Righteous Vigor",
 			"",
-			"**Source** [Advanced Player's Guide pg. 239](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 239](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 3, paladin 2",
 			"",
 			"### Casting",
@@ -3756,7 +3756,7 @@
 		"description": [
 			"## Rising Water",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 14](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 14](source/elemental_masters_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) [[water](spelldef/water)]; **Level** arcanist 4, bloodrager 3, druid 4, hunter 3, magus 4, occultist 4, psychic 4, ranger 3, shaman 4, sorcerer 4, summoner 4, unchained summoner 4, wizard 4",
 			"",
 			"### Casting",
@@ -3820,7 +3820,7 @@
 			"You heighten your awareness of your own thoughts, allowing you to more easily resist outside influences. You gain a +1 resistance bonus on saving throws to resist mind-affecting effects. This resistance bonus is increased to +2 if the effect is an emotion or fear effect. Additionally, at any time during the spell's duration, whenever you fail a saving throw to resist a mind-affecting effect, you can expend the spell's remaining duration as an immediate action in order to reroll that saving throw. You must take the second result, even if it's worse. The +2 resistance bonus granted by the spell applies to the reroll, but after you make this reroll, the spell ends."
 		]
 	},
-	"rival's_weald": {
+	"rivals_weald": {
 		"name": "Rival's Weald",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -3854,7 +3854,7 @@
 		"description": [
 			"## River of Wind",
 			"",
-			"**Source** [Advanced Player's Guide pg. 240](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 240](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[air](spelldef/air)]; **Level** arcanist 4, bloodrager 4, druid 4, hunter 4, magus 4, occultist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -4139,7 +4139,7 @@
 			"A target cannot be healed of damage from this disease (naturally or by magic) while the target is within 100 feet of another target. If healed of such damage while away from other targets, a target might take damage again the day they reconvene. This disease is a curse, and can never be cured by successful saving throws. The spell can be ended on a single target only with a successful casting of remove curse followed by a successful casting of remove disease while the target is within 100 feet of at least one other target. When the curse remains on only one target, it ends automatically."
 		]
 	},
-	"rovagug's_fury": {
+	"rovagugs_fury": {
 		"name": "Rovagug's Fury",
 		"sources": [
 			"Inner Sea Gods",
@@ -4149,7 +4149,7 @@
 		"description": [
 			"## Rovagug's Fury",
 			"",
-			"**Source** [Inner Sea Gods pg. 239](source/inner_sea_gods), [Pathfinder #23: The Impossible Eye pg. 66](source/pathfinder_#23_the_impossible_eye), [Gods and Magic pg. 33](source/gods_and_magic)  ",
+			"**Source** [Inner Sea Gods pg. 239](source/inner_sea_gods), [Pathfinder #23: The Impossible Eye pg. 66](source/pathfinder_23_the_impossible_eye), [Gods and Magic pg. 33](source/gods_and_magic)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** adept 2, arcanist 2, bloodrager 2, cleric 2, inquisitor 2, oracle 2, redmantisassassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Rovagug)",
 			"",
 			"### Casting",
@@ -4246,7 +4246,7 @@
 		"description": [
 			"## Rune of Jandelay",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 50](source/pathfinder_#77_herald_of_the_ivory_labyrinth)  ",
+			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 50](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 9, sorcerer 9, witch 9, wizard 9",
 			"",
 			"### Casting",
@@ -4300,7 +4300,7 @@
 		"description": [
 			"## Rune of Rule",
 			"",
-			"**Source** [Adventurer's Guide pg. 61](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 61](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, bard 2, occultist 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -4362,7 +4362,7 @@
 		"description": [
 			"## Rune Trace",
 			"",
-			"**Source** [Adventurer's Guide pg. 60](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 60](source/adventurers_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 1, bard 1, cleric 1, occultist 1, oracle 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -4394,7 +4394,7 @@
 		"description": [
 			"## Runic Overload",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 26](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 26](source/giant_hunters_handbook)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** arcanist 5, bloodrager 3, magus 4, sorcerer 5, witch 6, wizard 5",
 			"",
 			"### Casting",
@@ -4513,7 +4513,7 @@
 		"description": [
 			"## Sacred Bond",
 			"",
-			"**Source** [Advanced Player's Guide pg. 240](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 240](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** cleric 3, inquisitor 2, oracle 3, paladin 2, warpriest 3",
 			"",
 			"### Casting",
@@ -4645,7 +4645,7 @@
 		"description": [
 			"## Sacrificial Oath",
 			"",
-			"**Source** [Advanced Player's Guide pg. 240](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 240](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** paladin 4",
 			"",
 			"### Casting",
@@ -4669,7 +4669,7 @@
 		"description": [
 			"## Saddle Surge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 240](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 240](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** paladin 2",
 			"",
 			"### Casting",
@@ -4759,7 +4759,7 @@
 		"description": [
 			"## Sanctify Armor",
 			"",
-			"**Source** [Advanced Player's Guide pg. 240](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 240](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[good](spelldef/good)]; **Level** inquisitor 4, paladin 3",
 			"",
 			"### Casting",
@@ -4996,7 +4996,7 @@
 		"description": [
 			"## Sarzari Shadow Memory",
 			"",
-			"**Source** [Adventurer's Guide pg. 160](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 160](source/adventurers_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 6, bard 6, cleric 6, inquisitor 6, oracle 6, psychic 6, skald 6, sorcerer 6, warpriest 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -5056,7 +5056,7 @@
 		"description": [
 			"## Saving Finale",
 			"",
-			"**Source** [Advanced Player's Guide pg. 241](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 241](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 1, skald 1",
 			"",
 			"### Casting",
@@ -5086,7 +5086,7 @@
 		"description": [
 			"## Sawtooth Terrain",
 			"",
-			"**Source** [Adventurer's Guide pg. 161](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 161](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[earth](spelldef/earth)]; **Level** arcanist 5, cleric 5, druid 5, hunter 5, oracle 5, sorcerer 5, warpriest 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -5260,7 +5260,7 @@
 		"description": [
 			"## Scent Trail",
 			"",
-			"**Source** [Advanced Player's Guide pg. 241](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 241](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 2, hunter 2",
 			"",
 			"### Casting",
@@ -5529,7 +5529,7 @@
 		"description": [
 			"## Screech",
 			"",
-			"**Source** [Advanced Player's Guide pg. 241](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 241](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** witch 3",
 			"",
 			"### Casting",
@@ -5571,13 +5571,13 @@
 			"This spell creates a powerful protection from scrying and observation. When casting the spell, you dictate what will and will not be observed in the spell's area. The illusion created must be stated in general terms. Once the conditions are set, they cannot be changed. Attempts to scry the area automatically detect the image stated by you with no save allowed. Sight and sound are appropriate to the illusion created. Direct observation may allow a save (as per a normal illusion), if there is cause to disbelieve what is seen. Even entering the area does not cancel the illusion or necessarily allow a save, assuming that hidden beings take care to stay out of the way of those affected by the illusion."
 		]
 	},
-	"scribe's_binding": {
+	"scribes_binding": {
 		"name": "Scribe's Binding",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Scribe's Binding",
 			"",
-			"**Source** [Spymaster's Handbook pg. 29](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 29](source/spymasters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 9, occultist 6, sorcerer 9, witch 9, wizard 9",
 			"",
 			"### Casting",
@@ -5599,7 +5599,7 @@
 			"A target bound by this spell can be freed by only freedom , miracle , or wish . Polymorph any object restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
 		]
 	},
-	"scrivener's_chant": {
+	"scriveners_chant": {
 		"name": "Scrivener's Chant",
 		"sources": [ "Seekers of Secrets" ],
 		"description": [
@@ -5702,7 +5702,7 @@
 		"description": [
 			"## Sculpt Corpse",
 			"",
-			"**Source** [Advanced Player's Guide pg. 241](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 241](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 1, occultist 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -5776,7 +5776,7 @@
 		"description": [
 			"## Sculpted Cape",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurers_armory_2)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, bard 1, hunter 1, occultist 1, ranger 1, shaman 1, skald 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -5952,7 +5952,7 @@
 		"description": [
 			"## Seamantle",
 			"",
-			"**Source** [Advanced Player's Guide pg. 241](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 241](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[water](spelldef/water)]; **Level** arcanist 8, druid 8, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -6038,7 +6038,7 @@
 		"description": [
 			"## Sebaceous Twin",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 70](source/pathfinder_#119_prisoners_of_the_blight)  ",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 70](source/pathfinder_119_prisoners_of_the_blight)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, cleric 3, druid 3, hunter 3, oracle 3, sorcerer 3, warpriest 3, witch 3, wizard 3 (Cyth-V'sug)",
 			"",
 			"### Casting",
@@ -6088,7 +6088,7 @@
 		"description": [
 			"## Second Wind",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_masters_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)) [[air](spelldef/air)]; **Level** antipaladin 3, cleric 3, hunter 3, inquisitor 3, oracle 3, paladin 3, ranger 3, warpriest 3",
 			"",
 			"### Casting",
@@ -6244,7 +6244,7 @@
 		"description": [
 			"## Secret Speech",
 			"",
-			"**Source** [Inner Sea Gods pg. 240](source/inner_sea_gods), [Pathfinder #17: A Memory of Darkness pg. 62](source/pathfinder_#17_a_memory_of_darkness)  ",
+			"**Source** [Inner Sea Gods pg. 240](source/inner_sea_gods), [Pathfinder #17: A Memory of Darkness pg. 62](source/pathfinder_17_a_memory_of_darkness)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, bard 1, cleric 2, inquisitor 1, oracle 2, shaman 2, skald 1, sorcerer 2, warpriest 2, wizard 2 (Calistria)",
 			"",
 			"### Casting",
@@ -6298,7 +6298,7 @@
 			"The secure shelter contains crude furnishings-eight bunks, a trestle table, eight stools, and a writing desk."
 		]
 	},
-	"seducer's_eyes": {
+	"seducers_eyes": {
 		"name": "Seducer's Eyes",
 		"sources": [
 			"Inner Sea Gods",
@@ -6557,7 +6557,7 @@
 		"description": [
 			"## Seek Thoughts",
 			"",
-			"**Source** [Advanced Player's Guide pg. 242](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 242](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination) [[mind-affecting](spelldef/mindaffecting)]; **Level** alchemist 3, arcanist 3, bard 3, inquisitor 3, investigator 3, medium 2, mesmerist 3, occultist 3, psychic 2, skald 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -6601,13 +6601,13 @@
 			"This spell functions like disguise self, except that you can change the appearance of other people as well. Affected creatures resume their normal appearances if slain. Unwilling targets can negate the spell's effect on them by making Will saves or with spell resistance."
 		]
 	},
-	"seer's_bane": {
+	"seers_bane": {
 		"name": "Seer's Bane",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
 			"## Seer's Bane",
 			"",
-			"**Source** [Pathfinder #102: Breaking the Bones of Hell pg. 75](source/pathfinder_#102_breaking_the_bones_of_hell)  ",
+			"**Source** [Pathfinder #102: Breaking the Bones of Hell pg. 75](source/pathfinder_102_breaking_the_bones_of_hell)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 6, inquisitor 6, oracle 6, warpriest 6 (Mephistopheles)",
 			"",
 			"### Casting",
@@ -6681,7 +6681,7 @@
 		"description": [
 			"## Semblance of Flesh",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 75](source/pathfinder_#86_lords_of_rust)  ",
+			"**Source** [Pathfinder #86: Lords of Rust pg. 75](source/pathfinder_86_lords_of_rust)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 2, cleric 2, oracle 2, sorcerer 2, warpriest 2, wizard 2 (Brigh)",
 			"",
 			"### Casting",
@@ -6739,7 +6739,7 @@
 			"",
 			"### Word of Beckoning",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 72](source/pathfinder_#131_the_reaper's_right_hand)  ",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 72](source/pathfinder_131_the_reapers_right_hand)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** arcanist 7, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -7044,7 +7044,7 @@
 			"You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm another creature. If attacked, affected individuals can defend themselves and may participate in combat by using [Combat Expertise](feat/combat_expertise), fighting defensively, or taking the total defense action without triggering the spell's nonlethal damage."
 		]
 	},
-	"serren's_armor_lock": {
+	"serrens_armor_lock": {
 		"name": "Serren's Armor Lock",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
@@ -7068,7 +7068,7 @@
 			"Upon pointing at an armored foe, you cause all of the joints of the target's armor to stiffen as otherworldly chains wrap around the target. On a failed Reflex save, a target in heavy metal armor becomes staggered. A target in light or medium metal armor instead becomes entangled. Targets wearing no armor or nonmetallic armor are unaffected. If the target is wearing heavy metal armor and succeeds at its Reflex save, it becomes entangled instead of staggered; a target in light or medium metal armor that succeeds at its saving throw is unaffected by the spell."
 		]
 	},
-	"serren's_swift_girding": {
+	"serrens_swift_girding": {
 		"name": "Serren's Swift Girding",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
@@ -7124,7 +7124,7 @@
 		"description": [
 			"## Severed Fate",
 			"",
-			"**Source** [Advanced Player's Guide pg. 324](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 324](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment); **Level** cleric 3, oracle 3, warpriest 3, witch 2",
 			"",
 			"### Casting",
@@ -7151,7 +7151,7 @@
 		"description": [
 			"## Shackle",
 			"",
-			"**Source** [Adventurer's Guide pg. 99](source/adventurer's_guide), [Path of the Hellknight pg. 61](source/path_of_the_hellknight)  ",
+			"**Source** [Adventurer's Guide pg. 99](source/adventurers_guide), [Path of the Hellknight pg. 61](source/path_of_the_hellknight)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 2, cleric 2, hunter 2, inquisitor 2, oracle 2, ranger 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -7632,7 +7632,7 @@
 		"description": [
 			"## Shadow Projection",
 			"",
-			"**Source** [Advanced Player's Guide pg. 243](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 243](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** arcanist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",

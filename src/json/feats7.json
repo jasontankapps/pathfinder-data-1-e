@@ -68,7 +68,7 @@
 		"description": [
 			"## Second Chance (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"Quick reflexes turn missed strikes into second chances.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), base attack bonus +6.  ",
@@ -168,7 +168,7 @@
 		"description": [
 			"## Secured Armor (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"You are adept at using your armor to cover your most vulnerable areas.  ",
 			"**Prerequisites:** Base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium or heavy armor.  ",
@@ -176,7 +176,7 @@
 			"**Special:** This chance stacks with the light fortification and moderate fortification armor special abilities.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">If you fail to negate a critical hit against you, you can spend 5 stamina points to cause the attack to deal half damage."
 		]
@@ -354,7 +354,7 @@
 		"description": [
 			"## Selective Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 168](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 168](source/advanced_players_guide)",
 			"",
 			"Your allies need not fear friendly fire.  ",
 			"**Prerequisites:** Spellcraft 10 ranks.  ",
@@ -467,7 +467,7 @@
 		"description": [
 			"## Sense Loyalties",
 			"",
-			"**Source** [Spymaster's Handbook pg. 9](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 9](source/spymasters_handbook)",
 			"",
 			"You can quickly sense a target's relationship to some specific god, patron, or government, and use that knowledge to manipulate them.  ",
 			"**Prerequisites:** Knowledge (nobility) 1 rank, Knowledge (religion) 1 rank.  ",
@@ -561,13 +561,13 @@
 			"**Benefit:** You gain the [compression](umr/compression) universal monster ability, allowing you to move through an area as small as one-quarter your space without squeezing, or one-eighth your space when squeezing."
 		]
 	},
-	"serren's_masterstroke": {
+	"serrens_masterstroke": {
 		"name": "Serren's Masterstroke",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Serren's Masterstroke (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 26](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 26](source/adventurers_guide)",
 			"",
 			"When bypassing a foe's defenses while feinting, you can deal devastating damage.  ",
 			"**Prerequisites:** [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +6.  ",
@@ -580,7 +580,7 @@
 		"description": [
 			"## Servant in the House of Truth (Origin)",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 73](source/pathfinder_139_the_dead_road)",
 			"",
 			"Your creator was a scholar and a seeker of lore, and your memories are filled with the feel of papyrus and ink.  ",
 			"**Prerequisites:** [Shabti](race/shabti).  ",
@@ -718,7 +718,7 @@
 		"description": [
 			"## Shadow Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"You accurately strike even those you cannot clearly see.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -743,7 +743,7 @@
 			"**Benefit:** You can expend one use of your shadow walk spell-like ability to use [dimension door](spell/dimension_door) as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness."
 		]
 	},
-	"shadow's_embrace": {
+	"shadows_embrace": {
 		"name": "Shadow's Embrace",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -769,7 +769,7 @@
 			"**Benefit:** The first time each round that you hit a creature suffering from a fear effect, you can deal hidden strike or sneak attack damage as if you were flanking that creature (improved uncanny dodge and other effects that prevent flanking also prevent a hidden strike or sneak attack from this feat)."
 		]
 	},
-	"shadow's_shroud": {
+	"shadows_shroud": {
 		"name": "Shadow's Shroud",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -1053,7 +1053,7 @@
 		"description": [
 			"## Shared Insight",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"You deftly direct others' attentions where you wish.  ",
 			"**Prerequisites:** Wis 13, half-elf.  ",
@@ -1105,7 +1105,7 @@
 		"description": [
 			"## Shared Quarry (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunters_handbook)",
 			"",
 			"When working together, you and your companions are skilled at taking down particular targets.  ",
 			"**Prerequisites:** Hunter's bond class feature, quarry class feature.  ",
@@ -1198,7 +1198,7 @@
 		"description": [
 			"## Sharp Senses",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"Your senses are especially sharp, even for your kind.  ",
 			"**Prerequisites:** Keen senses racial trait.  ",
@@ -1341,7 +1341,7 @@
 		"description": [
 			"## Sheltering Stubborness",
 			"",
-			"**Source** [Antihero's Handbook pg. 9](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 9](source/antiheros_handbook)",
 			"",
 			"Your stubborn mind is not easy to sway.  ",
 			"**Prerequisites:** [Iron Will](feat/iron_will).  ",
@@ -1354,14 +1354,14 @@
 		"description": [
 			"## Shield Brace (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"You've mastered the art of balancing a polearm's weight against a shield's stability.  ",
 			"**Prerequisites:** Shield Focus; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.  ",
 			"**Benefit:** You can use a two-handed weapon sized appropriately for you from the polearm or spears weapon group while also using a light, heavy, or tower shield with which you are proficient. The shield's armor check penalty (if any) applies to attacks made with the weapon.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 1 stamina point to negate the penalty on attacks for using this feat for a single round."
 		]
@@ -1403,7 +1403,7 @@
 		"description": [
 			"## Shield Gauntlet Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"You use your gauntlet to shield you from harm.  ",
 			"**Prerequisites:** [Weapon Focus (gauntlet or spiked gauntlet)](feat/weapon_focus), proficiency with bucklers and light shields.  ",
@@ -1437,7 +1437,7 @@
 		"description": [
 			"## Shield Material Expertise (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"You emphasize and exploit the potential of the special material from which your shield is made.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
@@ -1456,7 +1456,7 @@
 		"description": [
 			"## Shield Material Mastery (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"Your extraordinary understanding of the special materials from which your shield is made lets you take advantage of it more often.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), [Shield Material Expertise](feat/shield_material_expertise), base attack bonus +11 or fighter level 8th.  ",
@@ -1472,7 +1472,7 @@
 		"description": [
 			"## Shield of Swings (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"A wild frenzy of attacks serves to bolster your defenses.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +1.  ",
@@ -1547,7 +1547,7 @@
 			"When using a shield, you gain a +4 bonus on Strength checks to avoid being blown away by a strong wind and on Climb checks to catch yourself on a wall or slope when falling.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to use this feat in the same round as a bull rush combat maneuver performed with the Shield Slam feat."
 		]
@@ -1561,7 +1561,7 @@
 		"description": [
 			"## Shield Specialization (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"You have mastered the use of one type of shield.  ",
 			"**Prerequisites:** Proficiency with selected shield, [Shield Focus](feat/shield_focus), fighter level 4th.  ",
@@ -1583,7 +1583,7 @@
 		"description": [
 			"## Shield Wall (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"You form a unified defense with those around you.  ",
 			"**Prerequisites:** [Shield Proficiency](feat/shield_proficiency).  ",
@@ -1601,7 +1601,7 @@
 		"description": [
 			"## Shielded Caster (Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"Your allies cover you while you cast complicated spells.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4 competence bonus on concentration checks. If your ally is wielding a buckler or a light shield, this bonus increases by +1. If your ally is wielding a heavy shield or a tower shield, this bonus increases by +2. Finally, if an enemy threatening you and your ally has the [Disruptive](feat/disruptive) feat, or another ability that increases the DC of concentration checks, the amount of the increase is halved."
@@ -1613,7 +1613,7 @@
 		"description": [
 			"## Shielded Gauntlet Attack (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"Your gauntlet helps you take advantage of weakness.  ",
 			"**Prerequisites:** [Shield Gauntlet Style](feat/shield_gauntlet_style), proficiency with bucklers and light shields.  ",
@@ -1626,7 +1626,7 @@
 		"description": [
 			"## Shielded Gauntlet Master (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 12](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 12](source/armor_masters_handbook)",
 			"",
 			"Your can effectively attack and defend with your gauntlet.  ",
 			"**Prerequisites:** [Shielded Gauntlet Attack](feat/shielded_gauntlet_attack), [Shield Gauntlet Style](feat/shield_gauntlet_style), proficiency with bucklers and light shields.  ",
@@ -1639,7 +1639,7 @@
 		"description": [
 			"## Shielded Mage (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"You have learned how to cast spells from behind the safety of a shield.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +3 or fighter level 1st.  ",
@@ -1693,14 +1693,14 @@
 		"description": [
 			"## Shielded Stand (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"You can cover an effort to regain your feet.  ",
 			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +3 or fighter level 1st.  ",
 			"**Benefit:** As a swift action, you can prevent yourself or an adjacent ally from provoking an attack of opportunity when standing from prone or when picking up an object from the ground."
 		]
 	},
-	"shifter's_edge": {
+	"shifters_edge": {
 		"name": "Shifter's Edge",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1713,7 +1713,7 @@
 			"**Benefit:** Whenever you use Weapon Finesse to make a melee attack with your claws or a natural attack augmented by your claws, and you use your Dexterity bonus on attack rolls and your Strength modifier on damage rolls, you also add half your shifter level to the damage."
 		]
 	},
-	"shifter's_rush": {
+	"shifters_rush": {
 		"name": "Shifter's Rush",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1788,7 +1788,7 @@
 		"description": [
 			"## Shingle Runner",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 461](source/curse_of_the_crimson_throne), [Curse of the Crimson Throne Player's Guide pg. 6](source/curse_of_the_crimson_throne_player's_guide)",
+			"**Source** [Curse of the Crimson Throne pg. 461](source/curse_of_the_crimson_throne), [Curse of the Crimson Throne Player's Guide pg. 6](source/curse_of_the_crimson_throne_players_guide)",
 			"",
 			"Many of those who dwell among the rooftops that span much of Korvosa become skillful at making bounding leaps and clambering up steep surfaces, and learn how to land more safely when they fall.  ",
 			"**Prerequisites:** Dex 12, [Acrobatic](feat/acrobatic).  ",
@@ -1820,13 +1820,13 @@
 			"**Benefit:** If you act in the surprise round of a combat, as a free action you can attempt a single Intimidate check to demoralize a creature within 30 feet that can clearly see or hear you."
 		]
 	},
-	"shoki's_argument": {
+	"shokis_argument": {
 		"name": "Shoki's Argument",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Shoki's Argument",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_#139_the_dead_road)",
+			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_139_the_dead_road)",
 			"",
 			"The collectors of the lost dead prefer to use complex theology or blunt warnings to gather wayward spirits, but sometimes a more direct approach is necessary. One of them shared a trade secret with you.  ",
 			"**Prerequisites:** Ability to cast [disrupt undead](spell/disrupt_undead), character level 3rd, [duskwalker](race/duskwalker).  ",
@@ -1894,7 +1894,7 @@
 			"**Benefit:** Opponents do not gain a +2 bonus on attack rolls for flanking you, although they can still sneak attack you. You also gain a +3 bonus on Sense Motive checks made to resist a foe's Bluff checks to feint in combat.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">When an opponent attempts a feint against you, you can spend up to 5 stamina points to increase the DC of the skill check made to feint by 1 per point of stamina spent."
 		]
@@ -1953,7 +1953,7 @@
 		"description": [
 			"## Sickening Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"You can sicken creatures with your spells.  ",
 			"**Benefit:** You can modify a spell to sicken a creature damaged by the spell. When a creature takes damage from this spell, they become sickened for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the sickening effect. If the spell does not allow a save, the target can make a Fortitude save to negate the sickening effect. If the spell effect also causes the creature to become sickened, the duration of this metamagic effect is added on to the duration of the spell. A sickening spell uses up a spell slot two levels higher than the spell's actual level.",
@@ -2006,7 +2006,7 @@
 		"description": [
 			"## Sidestep (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 169](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 169](source/advanced_players_guide)",
 			"",
 			"You can reposition yourself after a foe's missed swing.  ",
 			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), [Mobility](feat/mobility).  ",
@@ -2256,7 +2256,7 @@
 		"description": [
 			"## Sinister Reputation",
 			"",
-			"**Source** [Adventurer's Guide pg. 35](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 35](source/adventurers_guide)",
 			"",
 			"You need spook only a few souls to scare a whole city.  ",
 			"**Prerequisites:** Cha 13; Intimidate 5 ranks; Persuasive or renown social talent.  ",
@@ -2351,7 +2351,7 @@
 		"description": [
 			"## Sisterhood Dedication (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 85](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 85](source/adventurers_guide)",
 			"",
 			"The [Gray Maidens'](rule/aff_scarred_ladies) bond with each other goes beyond simple combat coordination. An elite member of the sisterhood is an inspiration to her fellow women, both invigorating their spirits and effortlessly coordinating their tactics.  ",
 			"**Prerequisites:** Cha 13, [Shield Focus](feat/shield_focus), [Shield Wall](feat/shield_wall), [Sisterhood Rampart](feat/sisterhood_rampart), [Sisterhood Style](feat/sisterhood_style), base attack bonus +6.  ",
@@ -2364,7 +2364,7 @@
 		"description": [
 			"## Sisterhood Rampart (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 85](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 85](source/adventurers_guide)",
 			"",
 			"The shield wall was the heart of the Gray Maidens' military strategy; combined with their precise tactical coordination, [Gray Maiden](rule/aff_scarred_ladies) lines were nearly unbreakable. Maidens behind the line would then strike with polearms or longbows, picking off targets with ease.  ",
 			"**Prerequisites:** Cha 13, [Shield Focus](feat/shield_focus), [Shield Wall](feat/shield_wall), [Sisterhood Style](feat/sisterhood_style), base attack bonus +4.  ",
@@ -2377,7 +2377,7 @@
 		"description": [
 			"## Sisterhood Style (Combat, Style)",
 			"",
-			"**Source** [Adventurer's Guide pg. 86](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 86](source/adventurers_guide)",
 			"",
 			"The [Gray Maidens](rule/aff_scarred_ladies) are more than just soldiers-they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
 			"**Prerequisites:** Cha 13, [Shield Focus](feat/shield_focus), base attack bonus +2.  ",
@@ -2397,7 +2397,7 @@
 			"**Benefit:** As long as you have at least 1 grit point when using a firearm to fire bullets, pellets, or similar ammunition, you can choose for half of the attack's damage to deal fire damage and the other half to deal bludgeoning and piercing damage. If you spend 1 grit point when you declare such an attack with a firearm, you can grant the bullet or pellets fired the flaming weapon special ability for that attack only."
 		]
 	},
-	"skald's_vigor": {
+	"skalds_vigor": {
 		"name": "Skald's Vigor",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -2567,7 +2567,7 @@
 			">You can spend 2 stamina points to select another light or one-handed slashing weapon. That weapon counts as a chosen weapon for Slashing Grace until the start of your next turn."
 		]
 	},
-	"slayer's_feint": {
+	"slayers_feint": {
 		"name": "Slayer's Feint",
 		"sources": [
 			"Advanced Class Guide",
@@ -2588,7 +2588,7 @@
 			">When attempting a feint using Acrobatics, you can spend a number of stamina points up to your Dexterity bonus. If you do, you gain a bonus on that feint attempt equal to the number of stamina points you spent."
 		]
 	},
-	"slayer's_knack": {
+	"slayers_knack": {
 		"name": "Slayer's Knack",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -2714,7 +2714,7 @@
 		"description": [
 			"## Slipslinger Bombardment (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_masters_handbook)",
 			"",
 			"You can sling a rain of splash weapons at your enemies.  ",
 			"**Prerequisites:** [Quick Draw](feat/quick_draw), [Slipslinger Grenadier](feat/slipslinger_grenadier), [Slipslinger Style](feat/slipslinger_style), [Throw Anything](feat/throw_anything), warslinger racial trait.  ",
@@ -2728,7 +2728,7 @@
 		"description": [
 			"## Slipslinger Grenadier (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_masters_handbook)",
 			"",
 			"You can hurl splash weapons with your sling.  ",
 			"**Prerequisites:** [Slipslinger Style](feat/slipslinger_style), [Throw Anything](feat/throw_anything), warslinger racial trait.  ",
@@ -2742,7 +2742,7 @@
 		"description": [
 			"## Slipslinger Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 13](source/weapon_masters_handbook)",
 			"",
 			"You can fire all manner of slings and sling-like weapons.  ",
 			"**Prerequisites:** [Weapon Focus (sling) or weapon training (thrown) class feature](feat/weapon_focus) or weapon training (thrown) class feature), warslinger racial trait.  ",
@@ -2808,7 +2808,7 @@
 		"description": [
 			"## Sly Draw",
 			"",
-			"**Source** [Adventurer's Armory pg. 31](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 31](source/adventurers_armory)",
 			"",
 			"You can draw your weapon with such speed and finesse that your opponents don't realize they're threatened.  ",
 			"**Prerequisites:** [Quick Draw](feat/quick_draw).  ",
@@ -2837,7 +2837,7 @@
 		"description": [
 			"## Smash (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You overcome obstacles by breaking them.  ",
 			"**Prerequisites:** [Power Attack](feat/power_attack), half-orc.  ",
@@ -2856,7 +2856,7 @@
 		"description": [
 			"## Smash from the Air (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"Your powerful and swift attacks can slice ranged attacks out of the air.  ",
 			"**Prerequisites:** Str 13, [Cut from the Air](feat/cut_from_the_air), [Power Attack](feat/power_attack), base attack bonus +9, weapon training class feature with a melee weapon.  ",
@@ -2869,7 +2869,7 @@
 		"description": [
 			"## Smashing Crush (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"Your hammers strike objects with destructive force.  ",
 			"**Prerequisites:** Str 13, [Improved Sunder](feat/improved_sunder), [Smashing Style](feat/smashing_style), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -2882,7 +2882,7 @@
 		"description": [
 			"## Smashing Dent (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"Your hammer strikes cause traumatic injuries.  ",
 			"**Prerequisites:** Str 13, [Improved Sunder](feat/improved_sunder), [Smashing Crush](feat/smashing_crush), [Smashing Style](feat/smashing_style), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +6.  ",
@@ -2909,7 +2909,7 @@
 		"description": [
 			"## Smashing Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"Your hammer blows dent armor, hampering your opponent.  ",
 			"**Prerequisites:** Str 13, [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -2923,7 +2923,7 @@
 		"description": [
 			"## Smell Fear",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You can catch the sour scent of fear on the wind.  ",
 			"**Prerequisites:** [Keen Scent](feat/keen_scent), half-orc or orc.  ",
@@ -3249,7 +3249,7 @@
 			"**Benefit:** You get a +2 bonus on Stealth checks when others are actively trying to find you. In crowds, this bonus increases to +4. Additionally, you gain a +2 circumstance bonus on Diplomacy and Knowledge (local) checks when trying to find a place to hide."
 		]
 	},
-	"sniper's_lantern": {
+	"snipers_lantern": {
 		"name": "Sniper's Lantern",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -3268,7 +3268,7 @@
 		"description": [
 			"## Snoutgrip (Combat)",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 25](source/dragonslayers_handbook)",
 			"",
 			"You can hold an opponent's mouth shut.  ",
 			"**Prerequisites:** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +12 or 10th-level monk.  ",
@@ -3298,7 +3298,7 @@
 		"description": [
 			"## Sociable",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You have a way of helping others to get along.  ",
 			"**Prerequisites:** Cha 13, half-elf.  ",
@@ -3349,7 +3349,7 @@
 		"description": [
 			"## Solid Shadows (Metamagic)",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 14](source/monster_summoners_handbook)",
 			"",
 			"Your shadowy illusions are more potent.  ",
 			"**Prerequisites:** [Spell Focus (illusion)](feat/spell_focus).  ",
@@ -3545,7 +3545,7 @@
 			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have [Weapon Focus](feat/weapon_focus) in, the creature is dazzled for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">When you inflict the dazzled condition on an opponent using the Spear Dancer feat, you can spend up to 5 stamina points to increase the duration of the effect by 1 round per stamina point spent."
 		]
@@ -3556,7 +3556,7 @@
 		"description": [
 			"## Spear Dancing Reach (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"You can strike from afar with double weapons.  ",
 			"**Prerequisites:** Dex 17, [Spear Dancing Spiral](feat/spear_dancing_spiral), [Spear Dancing Style](feat/spear_dancing_style), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -3569,7 +3569,7 @@
 		"description": [
 			"## Spear Dancing Spiral (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"You wield spears with poise and grace.  ",
 			"**Prerequisites:** Dex 15, [Spear Dancing Style](feat/spear_dancing_style), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -3582,7 +3582,7 @@
 		"description": [
 			"## Spear Dancing Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"You can use polearms and spears as double weapons.  ",
 			"**Prerequisites:** Dex 13, [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -3619,7 +3619,7 @@
 			"**Benefit:** When you must attempt a performance combat check because you used the withdraw action, you can attempt an Acrobatics check against your opponent's CMD before the performance combat check. Success allows you to withdraw without taking the standard -5 penalty on your check. In addition, for every 5 points by which your Acrobatics check result exceeds your opponent's CMD, you gain a +1 bonus on all Perform checks you make for the remainder of the round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">When you use Spectacular Exit to withdraw without taking the -5 penalty on performance combat checks and you spend 5 stamina points, you don't need to succeed at an Acrobatics check in order to avoid the penalty."
 		]
@@ -3659,7 +3659,7 @@
 		"description": [
 			"## Spell Bluff (AH) (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 10](source/antiheros_handbook)",
 			"",
 			"When your ally is in the area of effect of a harmful spell, your foes are caught off guard.  ",
 			"**Benefit:** When an ally who also has this feat fails her saving throw (including voluntarily failing the save) against a spell that would harm her with an area of effect that includes her, intelligent enemies within the spell's area take a -2 penalty on their saving throws to resist the spell's effects."
@@ -3699,7 +3699,7 @@
 		"description": [
 			"## Spell Chain (Teamwork)",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 21](source/demon_hunter's_handbook)",
+			"**Source** [Demon Hunter's Handbook pg. 21](source/demon_hunters_handbook)",
 			"",
 			"You help your allies bypass your foes' magical defenses.  ",
 			"**Prerequisites:** [Spell Penetration](feat/spell_penetration).  ",
@@ -3830,7 +3830,7 @@
 		"description": [
 			"## Spell Perfection",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You are unequaled at the casting of one particular spell.  ",
 			"**Prerequisites:** Spellcraft 15 ranks, at least three metamagic feats.  ",
@@ -3843,7 +3843,7 @@
 		"description": [
 			"## Spell Praxis",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"You can solve your spell equations in the instant your blade strikes a foe.  ",
 			"**Prerequisites:** [Scribe Scroll](feat/scribe_scroll), [Scribe Spell Equation](feat/scribe_spell_equation), aphorite, caster level 5th, crystalline dust racial trait.  ",
@@ -3949,7 +3949,7 @@
 		"description": [
 			"## Spellcut (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 22](source/weapon_masters_handbook)",
 			"",
 			"You can weaken waves of harmful magic energy with weapon blows.  ",
 			"**Prerequisites:** Str 13, [Cut from the Air](feat/cut_from_the_air), [Power Attack](feat/power_attack), base attack bonus +9, Spellcraft 1 rank, weapon training class feature with a melee weapon.  ",
@@ -4005,7 +4005,7 @@
 		"description": [
 			"## Spider Step",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"Your physical mastery grants you an impossible stride.  ",
 			"**Prerequisites:** Acrobatics 6 ranks, Climb 6 ranks, monk level 6th.  ",
@@ -4050,7 +4050,7 @@
 			"**Benefit:** When you succeed at a bull rush or overrun combat maneuver, you may automatically make an attack roll with your armor spikes against the target of the maneuver as a swift action, using your highest attack bonus.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend 4 stamina points after succeeding at a bull rush or overrun combat maneuver check to use Spiked Destroyer against that target as a free action."
 		]
@@ -4098,7 +4098,7 @@
 		"description": [
 			"## Spirit Beacon",
 			"",
-			"**Source** [Adventurer's Guide pg. 169](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 169](source/adventurers_guide)",
 			"",
 			"You are more aware of the supernatural forces that influence the world-and, consequently, are more easily noticed by them.  ",
 			"**Prerequisites:** Wis 15, [Iron Will](feat/iron_will).  ",
@@ -4168,7 +4168,7 @@
 		"description": [
 			"## Spirit Rebuke",
 			"",
-			"**Source** [Adventurer's Guide pg. 169](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 169](source/adventurers_guide)",
 			"",
 			"Your insight and force of will can tame dangerous spirits.  ",
 			"**Prerequisites:** Wis 17; [Iron Will](feat/iron_will); [Spirit Beacon](feat/spirit_beacon); Diplomacy 5 ranks or Intimidate 5 ranks.  ",
@@ -4210,7 +4210,7 @@
 		"description": [
 			"## Spirit Sight",
 			"",
-			"**Source** [Adventurer's Guide pg. 169](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 169](source/adventurers_guide)",
 			"",
 			"You fully open your mind to the spirit world, learning to perceive the hidden.  ",
 			"**Prerequisites:** Wis 15, [Iron Will](feat/iron_will), [Spirit Beacon](feat/spirit_beacon).  ",
@@ -4314,7 +4314,7 @@
 		],
 		"has_mythic_version": true
 	},
-	"spirit's_gift": {
+	"spirits_gift": {
 		"name": "Spirit's Gift",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -4366,7 +4366,7 @@
 			"**Benefit:** You gain a +2 competence bonus on Knowledge checks to identify creatures with the incorporeal subtype, and can attempt Knowledge checks dealing with incorporeal creatures untrained. When affected by a dominate person, magic jar, or possession spell or a similar ability, your mind and soul remain aware within your body, at war with the invading consciousness. While dominated or possessed, you can attempt a Will save as a swift action to temporarily regain control over your body. On a successful save, you can act normally for 1 round. On a failed save, you cannot attempt to regain control for 1 hour, but the possessing consciousness can't take a swift action that round."
 		]
 	},
-	"spiritualist's_call": {
+	"spiritualists_call": {
 		"name": "Spiritualist's Call",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -4419,7 +4419,7 @@
 		"description": [
 			"## Splash Weapon Mastery",
 			"",
-			"**Source** [Adventurer's Armory pg. 31](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 31](source/adventurers_armory)",
 			"",
 			"You are adept at increasing the range, area, and accuracy of splash weapons.  ",
 			"**Benefit:** When throwing a splash weapon, you act as if you had the Far Shot feat. When you hit with a splash weapon, select one additional square adjacent to the splash area; creatures in this area also take splash damage. When you miss with a splash weapon, you may adjust the miss direction on the grid by +1 or -1. This feat counts as Far Shot for the purpose of qualifying for other feats, but only in regard to splash weapons."
@@ -4504,7 +4504,7 @@
 		],
 		"has_mythic_version": true
 	},
-	"spontaneous_nature's_ally": {
+	"spontaneous_natures_ally": {
 		"name": "Spontaneous Nature's Ally",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -4523,14 +4523,14 @@
 		"description": [
 			"## Sprightly Armor (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 17](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 17](source/armor_masters_handbook)",
 			"",
 			"You make the most of your armor's magical capabilities.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with light armor.  ",
 			"**Benefit:** You add your armor's enhancement bonus as a bonus on your initiative checks.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 21](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 21](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points as an immediate action to gain a circumstance bonus on your Reflex saves equal to your armor's enhancement bonus for 1 turn."
 		]
@@ -4573,7 +4573,7 @@
 		"description": [
 			"## Spring-Heeled Reaping (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 11](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 11](source/armor_masters_handbook)",
 			"",
 			"Your armor's flexibility and your own training allow you to strike multiple times while moving.  ",
 			"**Prerequisites:** Dex 17, [Dodge](feat/dodge), [Mobility](feat/mobility), base attack bonus +11, proficiency with light armor.  ",
@@ -4589,7 +4589,7 @@
 		"description": [
 			"## Spring-Heeled Sprint (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 11](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 11](source/armor_masters_handbook)",
 			"",
 			"You can move quickly without sacrificing your offense.  ",
 			"**Prerequisites:** Dex 15, [Dodge](feat/dodge), [Mobility](feat/mobility), base attack bonus +7, proficiency with light armor.  ",
@@ -4605,7 +4605,7 @@
 		"description": [
 			"## Spring-Heeled Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 11](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 11](source/armor_masters_handbook)",
 			"",
 			"You cunningly dart across the battlefield from foe to foe, taking advantage of your armor's flexibility to duck blows.  ",
 			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), [Mobility](feat/mobility), [Shot on the Run](feat/shot_on_the_run) or [Spring Attack](feat/spring_attack), base attack bonus +4, proficiency with light armor.  ",
@@ -4659,7 +4659,7 @@
 			"**Benefit:** Whenever you make a bull rush attack and your combat maneuver check exceeds the target's CMD by 5 or more, you can attempt to trip the target as part of your bull rush as a free action. This does not provoke an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">After succeeding at a bull rush combat maneuver check, you can spend 4 stamina points to attempt to trip the target with Squash Flat regardless of your bull rush combat maneuver check's result."
 		]
@@ -4706,7 +4706,7 @@
 		"description": [
 			"## Stabbing Shot (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You can clear the way to continue using your bow.  ",
 			"**Prerequisites:** [Rapid Shot](feat/rapid_shot), elf.  ",
@@ -4849,7 +4849,7 @@
 			">You can spend 5 stamina points to declare that you are using this feat after you've hit with an unarmed strike."
 		]
 	},
-	"stalker's_focus": {
+	"stalkers_focus": {
 		"name": "Stalker's Focus",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -4917,7 +4917,7 @@
 		"description": [
 			"## Standing Tall (Story)",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 77](source/pathfinder_#131_the_reaper's_right_hand)",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 77](source/pathfinder_131_the_reapers_right_hand)",
 			"",
 			"You can tap into your family's old ways to take on some of the traits of plants.  ",
 			"**Prerequisites:** Be a member of House Fahlspar, or have the Hunter, Nature, or Tree Tender background.  ",
@@ -4988,7 +4988,7 @@
 		"description": [
 			"## Startoss Comet (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_masters_handbook)",
 			"",
 			"You can aim a thrown weapon so it strikes two foes.  ",
 			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point_blank_shot), [Startoss Style](feat/startoss_style), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -5001,7 +5001,7 @@
 		"description": [
 			"## Startoss Shower (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_masters_handbook)",
 			"",
 			"You can strike multiple opponents with thrown weapons.  ",
 			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point_blank_shot), [Startoss Comet](feat/startoss_comet), [Startoss Style](feat/startoss_style), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +4.  ",
@@ -5014,7 +5014,7 @@
 		"description": [
 			"## Startoss Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 15](source/weapon_masters_handbook)",
 			"",
 			"Your thrown weapons become more deadly.  ",
 			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point-blank_shot), [Weapon Focus](feat/weapon_focus) with the chosen weapon.  ",
@@ -5077,7 +5077,7 @@
 			"**Benefit:** If you use Stand Still to prevent an opponent from moving, you may make a disarm or trip combat maneuver against your target as an immediate action.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">You can spend up to 4 stamina points to gain a +1 bonus per stamina point spent on any combat maneuver check that you attempt as part of Steady Engagement."
 		]
@@ -5149,7 +5149,7 @@
 		"description": [
 			"## Steel Soul",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You are especially resistant to magic.  ",
 			"**Prerequisites:** Dwarf, hardy racial trait.  ",
@@ -5176,7 +5176,7 @@
 		"description": [
 			"## Stellar Wanderer",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 29](source/plane-hoppers_handbook)",
 			"",
 			"You have gained Desna's trust, and she has taught you her realm's secrets.  ",
 			"**Prerequisites:** Character level 15, Knowledge (planes) 10 ranks.  ",
@@ -5226,7 +5226,7 @@
 		"description": [
 			"## Step Up and Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"When a foe tries to move away, you can follow and make an attack.  ",
 			"**Prerequisites:** Dex 13, [Following Step](feat/following_step), [Step Up](feat/step_up), base attack bonus +6.  ",
@@ -5420,7 +5420,7 @@
 		"description": [
 			"## Stone Dodger (Teamwork)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunters_handbook)",
 			"",
 			"By working with an ally to gauge the trajectory of incoming attacks, you can more easily avoid taking damage.  ",
 			"**Benefit:** Whenever you are able to see and hear at least one ally with this feat, you receive a +4 dodge bonus to AC against attacks from hurled rocks (or projectiles of similar shape, including bludgeoning ranged attacks from siege weapons). If you are hit by such an attack while you have this bonus, you can attempt a Reflex save to take only half damage from the attack. The DC for this save is equal to the bonus of the ranged attack used to hurl the rock."
@@ -5435,7 +5435,7 @@
 		"description": [
 			"## Stone Magic",
 			"",
-			"**Source** [Giants Revisited pg. 49](source/giants_revisited), [Pathfinder #4: Fortress of the Stone Giants pg. 57](source/pathfinder_#4_fortress_of_the_stone_giants)",
+			"**Source** [Giants Revisited pg. 49](source/giants_revisited), [Pathfinder #4: Fortress of the Stone Giants pg. 57](source/pathfinder_4_fortress_of_the_stone_giants)",
 			"",
 			"Knowledgeable even among stone giant elders, you have unlocked greater mastery over earth and stone.  ",
 			"**Prerequisites:** Cha 17, stone giant elder (age 700 years or older).  ",
@@ -5464,7 +5464,7 @@
 		"description": [
 			"## Stone Sense",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"You can feel movement in the very earth and stones around you.  ",
 			"**Prerequisites:** [Improved Stonecunning](feat/improved_stonecunning), Perception 10 ranks.  ",
@@ -5490,7 +5490,7 @@
 		"description": [
 			"## Stone Singer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 171](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 171](source/advanced_players_guide)",
 			"",
 			"Your songs are in accordance with the ways and lands of your people.  ",
 			"**Prerequisites:** Cha 13, bardic performance class feature, dwarf.  ",
@@ -5503,7 +5503,7 @@
 		"description": [
 			"## Stone Soul",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"You're so attuned to the earth that your skin can harden to the thickness of stone.  ",
 			"**Prerequisites:** Stone giant.  ",
@@ -5530,7 +5530,7 @@
 		"description": [
 			"## Stone to Flesh Savant",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 15](source/monster_hunters_handbook)",
 			"",
 			"You can use your mercies to transform petrified victims back to flesh.  ",
 			"**Prerequisites:** Paladin level 12th, lay on hands class feature, mercy class feature.  ",
@@ -5543,7 +5543,7 @@
 		"description": [
 			"## Stone-Faced",
 			"",
-			"**Source** [Advanced Player's Guide pg. 170](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 170](source/advanced_players_guide)",
 			"",
 			"Rocks show more expression than you.  ",
 			"**Prerequisites:** Dwarf.  ",
@@ -5559,7 +5559,7 @@
 		"description": [
 			"## Stone-Handed (Combat)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_masters_handbook)",
 			"",
 			"Drawing upon techniques to combat animated creatures, you bring a strike like an avalanche of stone.  ",
 			"**Prerequisites:** Str 13, [Stunning Fist](feat/stunning_fist).  ",
@@ -5603,7 +5603,7 @@
 		"description": [
 			"## Storm Breaker",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 15](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 15](source/elemental_masters_handbook)",
 			"",
 			"After the Eye of Abendego, no other storm, magic or mundane, can faze you.  ",
 			"**Benefit:** You are treated as two sizes larger than your actual size when calculating whether you can be moved by wind or currents, including the vortex and whirlwind special abilities of monsters. If you have at least 11 Hit Dice, you cannot be moved by nonmagical wind unless you so choose."
@@ -5641,7 +5641,7 @@
 		"description": [
 			"## Storm Soul",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"Your attunement to storms grants you immunity to some of their effects.  ",
 			"**Prerequisites:** Cloud or storm giant.  ",
@@ -5667,7 +5667,7 @@
 		"description": [
 			"## Storm Warrior",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"Your weapons channel the fury of thunderstorms.  ",
 			"**Prerequisites:** [Storm Soul](feat/storm_soul), cloud or storm giant.  ",
@@ -5684,7 +5684,7 @@
 		"description": [
 			"## Storm-Lashed",
 			"",
-			"**Source** [Adventurer's Guide pg. 184](source/adventurer's_guide), [Pathfinder Campaign Setting pg. 133](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 289](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 184](source/adventurers_guide), [Pathfinder Campaign Setting pg. 133](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 289](source/inner_sea_world_guide)",
 			"",
 			"A life spent enduring gales and storms has hardened your body to the elements.  ",
 			"**Benefit:** You can ignore many of the effects of severe weather. In rainy conditions, your visibility is reduced by only one-quarter (not by half) and you take only a -2 penalty on Perception checks. You are treated as if you were one size category larger for the purpose of wind effects, and halve any penalty on Perception checks caused by high winds. Finally, you gain a +2 bonus on saving throws against effects with the electricity descriptor or that deal electricity damage."
@@ -6072,7 +6072,7 @@
 		"description": [
 			"## Stumbling Bash (Combat, Shield Mastery)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 19](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 19](source/armor_masters_handbook)",
 			"",
 			"Your shield bash causes your enemies to falter.  ",
 			"**Prerequisites:** [Improved Shield Bash](feat/improved_shield_bash), [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th.  ",
@@ -6088,7 +6088,7 @@
 		"description": [
 			"## Stunning Assault (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 171](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 171](source/advanced_players_guide)",
 			"",
 			"You powerful but imprecise attacks can stun your enemies.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +16.  ",
@@ -6547,10 +6547,10 @@
 		"description": [
 			"## Summon Guardian Spirit",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 26](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 26](source/monster_summoners_handbook)",
 			"",
 			"A guardian spirit has selected you as its ward.  ",
-			"**Prerequisites:** Ability to cast [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3).  ",
+			"**Prerequisites:** Ability to cast [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_natures_ally_3).  ",
 			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the [guardian spirit template](template/guardian_spirit) to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
 			"",
 			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it. This ritual takes 24 hours, and once complete it moves the guardian spirit to the higher-level list of creatures that can be summoned."
@@ -6642,13 +6642,13 @@
 			"Summon nature's ally IX: Alraune."
 		]
 	},
-	"summoner's_call": {
+	"summoners_call": {
 		"name": "Summoner's Call",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Summoner's Call",
 			"",
-			"**Source** [Advanced Player's Guide pg. 171](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 171](source/advanced_players_guide)",
 			"",
 			"Whenever you summon your eidolon, it is more powerful for a brief period of time.  ",
 			"**Prerequisites:** Eidolon class feature.  ",
@@ -6671,7 +6671,7 @@
 			"**Benefit:** Whenever you confirm a critical hit against an undead creature, your attack bypasses all DR, deals full damage to incorporeal creatures, and acts as though it has the flaming burst weapon special ability.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 25](source/weapon_masters_handbook)",
 			">",
 			">Whenever you threaten a critical hit against an undead creature, you can spend up to 4 stamina points to gain a +1 bonus per stamina point spent to confirm the critical hit."
 		]
@@ -6682,7 +6682,7 @@
 		"description": [
 			"## Sunblade",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 7](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 7](source/elemental_masters_handbook)",
 			"",
 			"You can channel your deity's solar wrath through your blade.  ",
 			"**Prerequisites:** [Word of Healing](feat/word_of_healing), paladin level 5th, worshiper of a deity that grants the Fire or Sun domain.  ",
@@ -6711,7 +6711,7 @@
 		"description": [
 			"## Sundering Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 171](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 171](source/advanced_players_guide)",
 			"",
 			"Your critical hits can sunder your foes' weapons.  ",
 			"**Prerequisites:** Str 13, [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), base attack bonus +9.  ",
@@ -6838,7 +6838,7 @@
 		"description": [
 			"## Supernatural Spy (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 17](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 17](source/spymasters_handbook)",
 			"",
 			"Your familiarity with magic drives you to discover a great supernatural secret. You might work with an eldritch organization, which could be a school of magic such as the Arcanamirium or part of a government with strong ties to magic such as that of Irrisen, or you might attempt to keep your magical inquiries hidden from your employers.  ",
 			"**Prerequisites:** Alchemist discovery, arcane discovery, arcanist exploit, or magus arcana class feature and you must either have observed a created magical effect you could not understand or have the Master Craftsman or the Unquenchable Hunger for Knowledge background.  ",
@@ -6866,7 +6866,7 @@
 		"description": [
 			"## Suppress Blight",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 61](source/pathfinder_#119_prisoners_of_the_blight)",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 61](source/pathfinder_119_prisoners_of_the_blight)",
 			"",
 			"You can temporarily suppress afflictions brought on by blight, at a long-term cost.  ",
 			"**Prerequisites:** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will).  ",
@@ -6879,7 +6879,7 @@
 		"description": [
 			"## Suppress Regeneration (Combat, Teamwork)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunters_handbook)",
 			"",
 			"You and your allies can exacerbate a regenerating creature's weaknesses. By making a precisely timed attack to open a serious wound just a bit further, your allies can extend the length of time the creature's regeneration is suppressed.  ",
 			"**Benefit:** When you make a successful attack that causes a creature's regeneration ability to cease functioning for at least 1 round (such as by hitting a troll with alchemist's fire), any ally who also has this feat and is currently threatening the creature can make an attack of opportunity against it. This attack of opportunity deals no damage, but instead extends the time that the creature's regeneration is suppressed by 1 additional round. If multiple allies with this feat hit the creature with this attack of opportunity, the additional rounds of suppression stack."
@@ -7117,7 +7117,7 @@
 		"description": [
 			"## Swamp Dweller",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)",
 			"",
 			"You have trained with the Muckmouth lizardfolk of the Hao Jin Tapestry and learned their ways.  ",
 			"**Prerequisites:** Str 13, must have visited the Hao Jin Tapestry.  ",
@@ -7146,7 +7146,7 @@
 		"description": [
 			"## Swap Places (Combat, Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"You are skilled at changing places with your ally during a chaotic melee.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you can move into your ally's square as part of normal movement. At the same time, your ally moves into your previous space as an immediate action. Both you and your ally must be willing and able to move to take advantage of this feat. Your ally must be the same size as you to utilize this feat. Your ally does not provoke an attack of opportunity from this movement, but you provoke as normal. This movement does not count against your ally's movement on his next turn.",
@@ -7243,7 +7243,7 @@
 		"description": [
 			"## Swift Aid (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 172](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 172](source/advanced_players_guide)",
 			"",
 			"With a quick but harmless swipe, you can aid an ally's assault.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), base attack bonus +6.  ",
@@ -7262,7 +7262,7 @@
 		"description": [
 			"## Swift Crystalline Dust",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 15](source/plane-hoppers_handbook)",
 			"",
 			"You can manifest your crystalline dust more rapidly.  ",
 			"**Prerequisites:** Aphorite, crystalline dust racial trait.  ",
@@ -7275,7 +7275,7 @@
 		"description": [
 			"## Swift Iron Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 11](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 11](source/armor_masters_handbook)",
 			"",
 			"You have learned to move in ways that better accommodate your armor, and can maneuver easily despite its bulk.  ",
 			"**Prerequisites:** Str 13, Dex 13, proficiency with medium armor.  ",
@@ -7303,7 +7303,7 @@
 		"description": [
 			"## Swift Refuge (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 11](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 11](source/armor_masters_handbook)",
 			"",
 			"You quickly turn, forcing devastating blows to be blunted by the thickest part of your armor.  ",
 			"**Prerequisites:** Str 13, Dex 13, [Swift Iron Style](feat/swift_iron_style), proficiency with medium armor.  ",
@@ -7316,7 +7316,7 @@
 		"description": [
 			"## Swift Sprint (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 11](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 11](source/armor_masters_handbook)",
 			"",
 			"You balance your armor expertly, allowing you to run and sprint without impediment.  ",
 			"**Prerequisites:** Str 13, Dex 13, [Swift Iron Style](feat/swift_iron_style), [Swift Refuge](feat/swift_refuge), proficiency with medium armor.  ",
@@ -7342,7 +7342,7 @@
 		"description": [
 			"## Swing About (Teamwork)",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 19](source/giant_hunters_handbook)",
 			"",
 			"You can grab an ally and move her to a position near you.  ",
 			"**Prerequisites:** [Escape Route](feat/escape_route).  ",
@@ -7395,7 +7395,7 @@
 		"description": [
 			"## Swordplay Deflection (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"You can deflect incoming attacks.  ",
 			"**Prerequisites:** [Combat Expertise](feat/combat_expertise), [Improved Feint](feat/improved_feint), [Swordplay Style](feat/swordplay_style), [Swordplay Upset](feat/swordplay_upset), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +7.  ",
@@ -7408,7 +7408,7 @@
 		"description": [
 			"## Swordplay Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"Your defense relies on perfectly timed attacks.  ",
 			"**Prerequisites:** [Combat Expertise](feat/combat_expertise), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +3.  ",
@@ -7422,14 +7422,14 @@
 		"description": [
 			"## Swordplay Upset (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 17](source/weapon_masters_handbook)",
 			"",
 			"You catch opponents off guard with your attacks.  ",
 			"**Prerequisites:** [Combat Expertise](feat/combat_expertise), [Improved Feint](feat/improved_feint), [Swordplay Style](feat/swordplay_style), [Weapon Focus](feat/weapon_focus) with the chosen weapon, base attack bonus +5.  ",
 			"**Benefit:** While using Swordplay Style, as an immediate action, you can attempt a feint against an opponent that makes a melee attack against you and misses."
 		]
 	},
-	"sword's_shadow": {
+	"swords_shadow": {
 		"name": "Sword's Shadow",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
@@ -7510,7 +7510,7 @@
 		"description": [
 			"## Tactical Reposition (Combat)",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 8](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 8](source/dungeoneers_handbook)",
 			"",
 			"You excel at moving foes right where you want them.  ",
 			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Reposition](feat/improved_reposition).  ",
@@ -7524,7 +7524,7 @@
 		"description": [
 			"## Tag-Team Interrogation (Teamwork)",
 			"",
-			"**Source** [Adventurer's Guide pg. 36](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 36](source/adventurers_guide)",
 			"",
 			"You and your partner work together to bewilder a target, alternating between fear and kindness.  ",
 			"**Prerequisites:** Intimidating Prowess or Persuasive; Diplomacy 1 rank; Intimidate 1 rank.  ",

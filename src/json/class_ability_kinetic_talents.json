@@ -773,7 +773,7 @@
 		"description": [
 			"## Dampening Infusion",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** void; **Type** substance infusion; **Level** 1; **Burn** 1  ",
 			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
 			"**Saving Throw** Will negates",
@@ -819,7 +819,7 @@
 		"description": [
 			"## Dazzling Infusion",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** fire, wood; **Type** substance infusion; **Level** 1; **Burn** 1  ",
 			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Plasma Blast](kinetic/plasma_blast), [Positive Blast](kinetic/positive_blast), [Verdant Blast](kinetic/verdant_blast)  ",
 			"**Saving Throw** Will negates",
@@ -910,7 +910,7 @@
 		"description": [
 			"## Energize Weapon",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** air, fire, void, water; **Type** form infusion; **Level** 1; **Burn** 1  ",
 			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Cold Blast](kinetic/cold_blast), [Electric Blast](kinetic/electric_blast), [Fire Blast](kinetic/fire_blast), [Negative Blast](kinetic/negative_blast)  ",
 			"**Saving Throw** none",
@@ -1317,7 +1317,7 @@
 		"description": [
 			"## Penetrating Infusion",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** air, fire, water; **Type** substance infusion; **Level** 2; **Burn** 2  ",
 			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Cold Blast](kinetic/cold_blast), [Electric Blast](kinetic/electric_blast), [Fire Blast](kinetic/fire_blast)  ",
 			"**Saving Throw** none",
@@ -1423,7 +1423,7 @@
 		"description": [
 			"## Shepherd of Souls",
 			"",
-			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
+			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hoppers_handbook)  ",
 			"**Element** universal; **Type** substance infusion; **Level** 7; **Burn** 4  ",
 			"**Associated Blasts** any simple  ",
 			"**Saving Throw** Will negates",
@@ -1485,7 +1485,7 @@
 		"description": [
 			"## Spindle",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** universal; **Type** form infusion; **Level** 2; **Burn** 2  ",
 			"**Associated Blasts** any  ",
 			"**Saving Throw** Reflex negates (see text)",
@@ -1667,7 +1667,7 @@
 		"description": [
 			"## Turning Blast",
 			"",
-			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
+			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hoppers_handbook)  ",
 			"**Element** void, wood; **Type** substance infusion; **Level** 4; **Burn** 3  ",
 			"**Prerequisite** duskwalker, or [Planar Infusion (Boneyard)](feat/planar_infusion)  ",
 			"**Associated Blasts** [Positive Blast](kinetic/positive_blast), [Negative Blast](kinetic/negative_blast)  ",
@@ -1731,7 +1731,7 @@
 		"description": [
 			"## Unnerving Infusion",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** void; **Type** substance infusion; **Level** 3; **Burn** 2  ",
 			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
 			"**Saving Throw** Will negates",
@@ -1777,7 +1777,7 @@
 		"description": [
 			"## Vampiric Infusion",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** void; **Type** substance infusion; **Level** 5; **Burn** 3  ",
 			"**Prerequisite** void healer  ",
 			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
@@ -1986,7 +1986,7 @@
 			"Your air shroud improves, granting you the benefits of life bubble. When you accept burn to grant the benefit to others, the benefit lasts until the next time your burn is removed."
 		]
 	},
-	"air's_leap": {
+	"airs_leap": {
 		"name": "Air's Leap",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
@@ -1999,7 +1999,7 @@
 			"You are always considered to have a running start when jumping, you add your kineticist level as a bonus on all Acrobatics checks to jump, you jump twice as far or high as the results of your check indicate, and you can accept 1 point of burn when jumping to double the distance you jump again (to a total of four times as far)."
 		]
 	},
-	"air's_reach": {
+	"airs_reach": {
 		"name": "Air's Reach",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
@@ -2019,7 +2019,7 @@
 		"description": [
 			"## Angelic Protection (Sp)",
 			"",
-			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
+			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hoppers_handbook)  ",
 			"**Element** aether, water, wood; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
 			"**Prerequisite** kinetic healer wild talent, aasimar or [Planar Infusion (Elysium, Heaven, Nirvana)](feat/planar_infusion)  ",
 			"**Saving Throw** none; **SR** none",
@@ -2519,7 +2519,7 @@
 			"You imbue a willing animal, magical beast, or other creature that can serve as a suitable mount with elemental power from the Plane of Fire, wreathing it in flames for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have. The mount gains fire resistance 10 and its speed increases by 10 feet. Creatures other than you who touch the mount, attack the mount with a natural weapon or unarmed strike, or attempt to mount the creature take 1d6 points of fire damage every round they are in contact with the mount."
 		]
 	},
-	"fire's_fury": {
+	"fires_fury": {
 		"name": "Fire's Fury",
 		"sources": [ "Occult Adventures" ],
 		"subhierarchy": [["Wild Utility Talents", "ability/wild_utility_talents"]],
@@ -2903,7 +2903,7 @@
 		"description": [
 			"## Infernal Bargain (Sp)",
 			"",
-			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
+			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hoppers_handbook)  ",
 			"**Element** universal; **Type** utility (Sp); **Level** 1; **Burn** 0  ",
 			"**Prerequisite** tiefling or [Planar Infusion (Hell)](feat/planar_infusion)  ",
 			"**Saving Throw** none; **SR** yes",
@@ -2999,7 +2999,7 @@
 		"description": [
 			"## Kinetic Restoration (Su)",
 			"",
-			"**Sources:** [Healer's Handbook pg. 15](source/healer's_handbook)  ",
+			"**Sources:** [Healer's Handbook pg. 15](source/healers_handbook)  ",
 			"**Element** universal; **Type** utility (Su); **Level** 3; **Burn** 1",
 			"",
 			"You recover from 1d4 points of ability score damage to one of your physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any fatigue that you suffer, and improves an exhaustion condition to fatigued.",
@@ -3014,7 +3014,7 @@
 		"description": [
 			"## Kinetic Revivification (Su)",
 			"",
-			"**Sources:** [Healer's Handbook pg. 15](source/healer's_handbook)  ",
+			"**Sources:** [Healer's Handbook pg. 15](source/healers_handbook)  ",
 			"**Element** aether, water; **Type** utility (Su); **Level** 6; **Burn** 0  ",
 			"**Prerequisite** kinetic healer",
 			"",
@@ -3043,7 +3043,7 @@
 		"description": [
 			"## Magnetism (Sp)",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** air, earth; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
 			"**Prerequisite** magnetic infusion  ",
 			"**Saving Throw** none; **SR** yes",
@@ -3058,7 +3058,7 @@
 		"description": [
 			"## Magnetism, Greater (Sp)",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 22](source/elemental_masters_handbook)  ",
 			"**Element** air, earth; **Type** utility (Sp); **Level** 9; **Burn** 0  ",
 			"**Prerequisite** magnetic infusion, magnetism  ",
 			"**Saving Throw** none; **SR** no",
@@ -3145,7 +3145,7 @@
 		"description": [
 			"## Pillar (Sp)",
 			"",
-			"**Sources:** [Elemental Master's Handbook pg. 23](source/elemental_master's_handbook)  ",
+			"**Sources:** [Elemental Master's Handbook pg. 23](source/elemental_masters_handbook)  ",
 			"**Element** earth, water, wood; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
 			"**Prerequisite** kinetic cover",
 			"",
@@ -3506,7 +3506,7 @@
 		"description": [
 			"## Splash of the Styx (Sp)",
 			"",
-			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)  ",
+			"**Sources:** [Plane-Hopper's Handbook pg. 8](source/plane-hoppers_handbook)  ",
 			"**Element** water; **Type** utility (Sp); **Level** 5; **Burn** 1  ",
 			"**Prerequisite** tiefling or [Planar Infusion (Abaddon, Abyss, or Hell)](feat/planar_infusion)  ",
 			"**Saving Throw** Will negates; **SR** yes",

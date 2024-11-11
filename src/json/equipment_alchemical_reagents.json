@@ -14,7 +14,7 @@
 		"description": [
 			"## Acid",
 			"",
-			"**Source** [Adventurer's Armory pg. 26](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 26](source/adventurers_armory)",
 			"",
 			"**Price** 10 gp; **Weight** 1 lb.",
 			"",
@@ -46,7 +46,7 @@
 		"description": [
 			"## Alchemical Grease",
 			"",
-			"**Source** [Adventurer's Armory pg. 26](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 26](source/adventurers_armory)",
 			"",
 			"**Price** 5 gp; **Weight** 1 lb.",
 			"",
@@ -66,13 +66,13 @@
 			"*Wall of Stone (M)*: For each pot of grease used as a power component, you may designate one 10-foot square of the spell's stone wall as being slippery (+5 to Climb DCs)."
 		]
 	},
-	"alchemist's_fire": {
+	"alchemists_fire": {
 		"name": "Alchemist's Fire",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Alchemist's Fire",
 			"",
-			"**Source** [Adventurer's Armory pg. 26](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 26](source/adventurers_armory)",
 			"",
 			"**Price** 20 gp; **Weight** 1 lb.",
 			"",
@@ -104,7 +104,7 @@
 		"description": [
 			"## Antiplague",
 			"",
-			"**Source** [Adventurer's Armory pg. 26](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 26](source/adventurers_armory)",
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
@@ -126,7 +126,7 @@
 		"description": [
 			"## Antitoxin",
 			"",
-			"**Source** [Adventurer's Armory pg. 26](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 26](source/adventurers_armory)",
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
@@ -164,7 +164,7 @@
 		"description": [
 			"## Bladeguard",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 40 gp; **Weight** -",
 			"",
@@ -220,7 +220,7 @@
 		"description": [
 			"## Cooperation Crystals",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 10](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 10](source/plane-hoppers_handbook)",
 			"",
 			"**Price** 300 gp; **Weight** -",
 			"",
@@ -292,7 +292,7 @@
 		"description": [
 			"## Fire Fragment",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 10](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 10](source/plane-hoppers_handbook)",
 			"",
 			"**Price** 350 gp; **Weight** -",
 			"",
@@ -310,7 +310,7 @@
 		"description": [
 			"## Flash Powder",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
@@ -368,7 +368,7 @@
 		"description": [
 			"## Heavenly Quartz",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 11](source/plane-hoppers_handbook)",
 			"",
 			"**Price** 250 gp; **Weight** -",
 			"",
@@ -386,7 +386,7 @@
 		"description": [
 			"## Itching Powder",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 60 gp; **Weight** 2 lbs.",
 			"",
@@ -410,7 +410,7 @@
 		"description": [
 			"## Liquid Ice",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 40 gp; **Weight** 2 lbs.",
 			"",
@@ -620,7 +620,7 @@
 		"description": [
 			"## Smokestick",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 20 gp; **Weight** 1/2 lb.",
 			"",
@@ -662,7 +662,7 @@
 		"description": [
 			"## Tanglefoot Bag",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 50 gp; **Weight** 4 lbs.",
 			"",
@@ -686,7 +686,7 @@
 		"description": [
 			"## Thunderstone",
 			"",
-			"**Source** [Adventurer's Armory pg. 27](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 27](source/adventurers_armory)",
 			"",
 			"**Price** 30 gp; **Weight** 1 lb.",
 			"",
@@ -726,7 +726,7 @@
 		"description": [
 			"## Void Shard",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 11](source/plane-hoppers_handbook)",
 			"",
 			"**Price** 250 gp; **Weight** -",
 			"",
@@ -744,7 +744,7 @@
 		"description": [
 			"## Whimsy Star",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 11](source/plane-hoppers_handbook)",
 			"",
 			"**Price** 200 gp; **Weight** -",
 			"",

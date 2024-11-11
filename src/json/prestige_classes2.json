@@ -261,7 +261,7 @@
 		"description": [
 			"## Genie Binder",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 26](source/elemental_master's_handbook), [Pathfinder #22: The End of Eternity pg. 52](source/pathfinder_#22_the_end_of_eternity)",
+			"**Source** [Elemental Master's Handbook pg. 26](source/elemental_masters_handbook), [Pathfinder #22: The End of Eternity pg. 52](source/pathfinder_22_the_end_of_eternity)",
 			"",
 			"While genies chafe at being bound and bottled, they respect power-especially masters of the art of genie binding. The greatest of these conjurers was Sulesh the Great, a Keleshite spellcaster who refined the art of genie seals; his students continue to perfect his methods.",
 			"",
@@ -327,7 +327,7 @@
 		"description": [
 			"## Golden Legionnaire",
 			"",
-			"**Source** [Adventurer's Guide pg. 66](source/adventurer's_guide), [Paths of Prestige pg. 22](source/paths_of_prestige)",
+			"**Source** [Adventurer's Guide pg. 66](source/adventurers_guide), [Paths of Prestige pg. 22](source/paths_of_prestige)",
 			"",
 			"Golden Legionnaires are members of the [Eagle Knights](rule/aff_vangard) branch known formally as Eagle Knights of the Golden Legion. The foremost protectors of Andoran and its populace, the Golden Legionnaires primarily guard Andoran's borders and watch over the country's untamed rural areas.",
 			"",
@@ -377,7 +377,7 @@
 			"",
 			"**Defy Danger (Ex):** A Golden Legionnaire gains a +2 bonus on saving throws against one of the following dangers: charms and compulsions, curses, diseases, fear, poisons, traps, or the innate magical powers (spell-like abilities and supernatural abilities not gained from class levels) of one creature type (and subtype, if applicable) chosen from the ranger favored enemy list. At 5th level and again at 9th level, a Golden Legionnaire gains an additional +2 bonus against a different danger; alternatively, he can increase the bonus against a previously selected danger by 2.",
 			"",
-			"**Legion Feats:** A Golden Legionnaire gains the following bonus feats at the prescribed levels, even if he doesn't meet the prerequisites: 2nd level-[Stand Still](feat/stand_still), 4th level-[Bodyguard](feat/bodyguard), 6th level-[In Harm's Way](feat/in_harm's_way), 8th level-[Swift Aid](feat/swift_aid). If he already has the feat for a given level, he can instead take any other combat feat whose prerequisites he meets.",
+			"**Legion Feats:** A Golden Legionnaire gains the following bonus feats at the prescribed levels, even if he doesn't meet the prerequisites: 2nd level-[Stand Still](feat/stand_still), 4th level-[Bodyguard](feat/bodyguard), 6th level-[In Harm's Way](feat/in_harms_way), 8th level-[Swift Aid](feat/swift_aid). If he already has the feat for a given level, he can instead take any other combat feat whose prerequisites he meets.",
 			"",
 			"**Intercept (Ex):** At 2nd level, a Golden Legionnaire gains a bonus equal to half his class level on combat maneuver checks when using the Stand Still feat, and gains the same bonus to his CMD when an opponent attempts an Acrobatics check to move through a square he threatens.",
 			"",
@@ -402,7 +402,7 @@
 		"description": [
 			"## Gray Corsair",
 			"",
-			"**Source** [Adventurer's Guide pg. 68](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 68](source/adventurers_guide)",
 			"",
 			"Scourge of the seaborne slaver, Gray Corsairs augment existing class skills with specializations that suit them well for their long tours of duty at sea. Yet Gray Corsairs must also be able to operate with skill on land, for they are often expected to mount marine-based raids on island strongholds or other remote locations used by slavers as markets or staging areas for their cruelty.",
 			"",
@@ -798,7 +798,7 @@
 		"description": [
 			"## Hellknight Signifer",
 			"",
-			"**Source** [Adventurer's Guide pg. 92](source/adventurer's_guide), [Paths of Prestige pg. 28](source/paths_of_prestige)",
+			"**Source** [Adventurer's Guide pg. 92](source/adventurers_guide), [Paths of Prestige pg. 28](source/paths_of_prestige)",
 			"",
 			"Hellknight signifers form the spellcasting arm of the [Hellknight](rule/aff_lawknights) orders. They serve as faceless enforcers of order and use their magical powers to relentlessly root out and punish criminals to the letter of the law. They wear masks-often featureless-to mark themselves as impersonal agents of order, unswayed by empathy, detached from emotion, and dedicated to passing impartial judgment upon all lawbreakers. A signifer's distinctive mask is a symbol of his devotion to the precepts of law and exacting justice, and it serves as the focus for several of his signifer powers. Traditionally, signifers are arcane or divine spellcasters. As a signifer must be lawful, clerics who take this prestige class generally worship lawful deities, with the majority being worshipers of Abadar or Asmodeus. Despite trends toward diabolism, overall a signifer's views of good and evil are defined by his Hellknight order first and everything else second. While it's certainly possible for a psychic spellcaster to become a Hellknight signifer, to date, such examples are relatively rare among the various Hellknight orders. Yet in time, as such magic spreads and gains acceptance, psychic Hellknight signifers may well grow more common.",
 			"",
@@ -881,7 +881,7 @@
 		"description": [
 			"## Hellknight",
 			"",
-			"**Source** [Adventurer's Guide pg. 90](source/adventurer's_guide), [Inner Sea World Guide pg. 278](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 90](source/adventurers_guide), [Inner Sea World Guide pg. 278](source/inner_sea_world_guide)",
 			"",
 			"Not all who start as novice armigers have what it takes to become a full-fledged [Hellknight](rule/aff_lawknights), but those who do receive a wide array of abilities as they grow more powerful. While the individual powers and focus of a particular Hellknight vary according to his order, all Hellknights are universally feared and respected in regions where they maintain a presence. Most Hellknights are lawful neutral and proudly avoid being \"tainted\" by distractions such as good or evil, but some who rise in power shift toward tyrannical and cruel natures.",
 			"",
@@ -1077,7 +1077,7 @@
 			"",
 			"**Undead:** Arrows loosed from a hinterlander's bow are infused with divine power and deal full damage to any undead that are incorporeal, as if the arrows had the ghost touch weapon special ability.",
 			"",
-			"**Master Archer (Ex):** At 1st level, and again at 3rd and 5th levels, a hinterlander gains a bonus feat from the following list, even if he doesn't meet the prerequisites: [Erastil's Blessing](feat/erastil's_blessing), [Far Shot](feat/far_shot), [Focused Shot](feat/focused_shot), [Point-Blank Shot](feat/point-blank_shot), and [Rapid Shot](feat/rapid_shot). At 3rd level, he adds [Improved Precise Shot](feat/improved_precise_shot), [Parting Shot](feat/parting_shot), [Point-Blank Master](feat/point-blank_master), and [Manyshot](feat/manyshot) to the list. At 5th level, he adds [Pinpoint Targeting](feat/pinpoint_targeting) and [Shot on the Run](feat/shot_on_the_run) to the list. The benefits of these feats apply only when the hinterlander wears light, medium, or no armor.",
+			"**Master Archer (Ex):** At 1st level, and again at 3rd and 5th levels, a hinterlander gains a bonus feat from the following list, even if he doesn't meet the prerequisites: [Erastil's Blessing](feat/erastils_blessing), [Far Shot](feat/far_shot), [Focused Shot](feat/focused_shot), [Point-Blank Shot](feat/point-blank_shot), and [Rapid Shot](feat/rapid_shot). At 3rd level, he adds [Improved Precise Shot](feat/improved_precise_shot), [Parting Shot](feat/parting_shot), [Point-Blank Master](feat/point-blank_master), and [Manyshot](feat/manyshot) to the list. At 5th level, he adds [Pinpoint Targeting](feat/pinpoint_targeting) and [Shot on the Run](feat/shot_on_the_run) to the list. The benefits of these feats apply only when the hinterlander wears light, medium, or no armor.",
 			"",
 			"**Fast Movement (Ex):** At 2nd level, a hinterlander's base land speed increases by 10 feet.",
 			"",
@@ -1102,7 +1102,7 @@
 		"description": [
 			"## Holy Vindicator",
 			"",
-			"**Source** [Advanced Player's Guide pg. 263](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 263](source/advanced_players_guide)",
 			"",
 			"Many faiths have within their membership an order of the church militant, be they holy knights or dark warriors, who put their lives and immortal souls on the line for their faith. They are paragons of battle, eschewing sermons for steel. These men and women are living conduits of divine power, down to their very blood, which they happily shed in a moment if it brings greater glory to their deity or judgment upon heretics, infidels, and all enemies of the faith.",
 			"",
@@ -1181,7 +1181,7 @@
 		"description": [
 			"## Horizon Walker",
 			"",
-			"**Source** [Advanced Player's Guide pg. 265](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 265](source/advanced_players_guide)",
 			"",
 			"Those whose wanderlust drives them to push the boundary of safe environments sometimes seek the calling of the horizon walker. Horizon walkers are masters of travel, always seeking to find the safe ways through inhospitable terrain. They are comfortable in places others speak of only in hushed whispers, and they can both venture forth onto untrod paths themselves and guide the less-traveled through such hazardous lands.",
 			"",
@@ -1273,13 +1273,13 @@
 			"**Master of All Lands (Su):** At 10th level, the horizon walker becomes familiar with and comfortable in all possible terrains. His terrain bonus in all favored terrains increases by +2, and he treats all other terrains as if they were favored terrains (+2 bonus). If a naturally occurring condition of temperature or weather requires a check or saving throw, he automatically succeeds. All allies within 60 feet of him gain a +2 bonus on these checks and saves; if the horizon walker is in a mastered terrain, this bonus increases to +4."
 		]
 	},
-	"inheritor's_crusader": {
+	"inheritors_crusader": {
 		"name": "Inheritor's Crusader",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
 		"description": [
 			"## Inheritor's Crusader",
 			"",
-			"**Source** [Pathfinder #26: The Sixfold Trial pg. 71](source/pathfinder_#26_the_sixfold_trial)",
+			"**Source** [Pathfinder #26: The Sixfold Trial pg. 71](source/pathfinder_26_the_sixfold_trial)",
 			"",
 			"Honor, justice, and valor-while many righteous folk believe in these things, a select group of Iomedae's champions live and breathe them. It is in their blood and constantly at the forefront of their thoughts. The teachings of this once small, exclusive group of knights have inspired others, and now heroes all across Golarion take up swords in the name of these ideals. Most crusaders spend their time advancing the cause of the downtrodden, freeing the oppressed from tyranny and injustice, or helping the timid rise up in the face of evil, though their powers also make them suited for hunting down criminals, breaking the mental shackles of brainwashing and witchcraft, and destroying monsters that pierce the bravest hearts with fear.",
 			"",
@@ -1417,7 +1417,7 @@
 		"description": [
 			"## Justicar",
 			"",
-			"**Source** [Pathfinder #8: Seven Days to the Grave pg. 69](source/pathfinder_#8_seven_days_to_the_grave)",
+			"**Source** [Pathfinder #8: Seven Days to the Grave pg. 69](source/pathfinder_8_seven_days_to_the_grave)",
 			"",
 			"Justiciars embody law and civilization wherever they go, from the most corrupt depths of a city slum to the wildest frontier lands. They arbitrate disputes, deal with criminals, and establish law where there is none. In pleasant times they are diplomats, in dangerous ones they are judge, jury, and executioner. Their feet leave trails destined to become great roads, and their decrees carry the force of law. Being a justiciar is a serious duty and is not taken lightly-they tend to wear down over time, weathered not from travel and sunlight but from the heavy burden of carrying civilization forward into the future. A rare few pursue heretics of their own religion, keeping the faith stable and weeding out unruly elements. Each is sworn to uphold a religious or secular code.",
 			"",
@@ -1549,7 +1549,7 @@
 		"description": [
 			"## Lantern Bearer",
 			"",
-			"**Source** [Adventurer's Guide pg. 110](source/adventurer's_guide), [Paths of Prestige pg. 32](source/paths_of_prestige)",
+			"**Source** [Adventurer's Guide pg. 110](source/adventurers_guide), [Paths of Prestige pg. 32](source/paths_of_prestige)",
 			"",
 			"Originally, only elves were allowed to join the [Lantern Bearers](rule/aff_lights), but with the destruction of the Winter Council and the group's new focus on openness, these restrictions have been abandoned. While elves still hold a majority in the organization and its base of operations remains in Kyonin, any who seek to further the group's goals are welcome as members. The same goes for those passionate about opposing demonic influences or threats from the Darklands. These dedicated soldiers and redeemers, called Lantern Bearers after the group that gave rise to them, form the backbone of that organization.",
 			"",
@@ -1629,7 +1629,7 @@
 		"description": [
 			"## Liberator",
 			"",
-			"**Source** [Second Darkness Player's Guide pg. 22](source/second_darkness_player's_guide)",
+			"**Source** [Second Darkness Player's Guide pg. 22](source/second_darkness_players_guide)",
 			"",
 			"Liberators fight to free the wrongfully imprisoned-be they slaves, political prisoners, or princesses locked in towers. They rely on physical strength-but also quick wits-to overcome oppressors. Since charging blindly into battle could result in a prisoner's death, liberators plan their rescues carefully.",
 			"",
@@ -2027,7 +2027,7 @@
 		"description": [
 			"## Magaambyan Arcanist",
 			"",
-			"**Source** [Adventurer's Guide pg. 118](source/adventurer's_guide), [Paths of Prestige pg. 34](source/paths_of_prestige)",
+			"**Source** [Adventurer's Guide pg. 118](source/adventurers_guide), [Paths of Prestige pg. 34](source/paths_of_prestige)",
 			"",
 			"A Magaambyan arcanist studies and follows traditions of magic originally discovered by Old-Mage Jatembe himself, and uses these arcane secrets to continue Jatembe's quest to bring decency and integrity to civilization. Despite the name of the class, any arcane spellcaster can expand her powers via this prestige class, not only arcanists. Most Magaambyan arcanists consider their studies to be a sacred duty and a tradition that spans the ages. As a Magaambyan arcanist learns the deeper meanings locked within the academy's wisdom, she discovers the true enlightened and philanthropic purpose of the [Magaambya](rule/aff_i_school).",
 			"",
@@ -2102,7 +2102,7 @@
 		"description": [
 			"## Mammoth Rider",
 			"",
-			"**Source** [Adventurer's Guide pg. 128](source/adventurer's_guide), [Paths of Prestige pg. 36](source/paths_of_prestige)",
+			"**Source** [Adventurer's Guide pg. 128](source/adventurers_guide), [Paths of Prestige pg. 36](source/paths_of_prestige)",
 			"",
 			"From the inhospitable arctic wastes of the far north come the mighty mammoth riders, fearsome warriors who have trained the great beasts that wander the chilly wilds to serve as their faithful steeds. Toughened by their harsh environment, mammoth riders tame their surroundings through tenacious determination and sheer force of will, fighting alongside their bestial companions to take down huge game and carve out a hard existence in the icy north.",
 			"",
@@ -2175,7 +2175,7 @@
 		"description": [
 			"## Master Chymist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 267](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 267](source/advanced_players_guide)",
 			"",
 			"When alchemists blithely use mutagens to turn themselves into hulking creatures of muscle and reflex, civilized folk often turn their heads and mutter that such transformations must have a price. For a few alchemists, that price is transformation into a master chymist, a creature able to take a monstrous brute form as an act of will.",
 			"",
@@ -2273,7 +2273,7 @@
 		"description": [
 			"## Master Spy",
 			"",
-			"**Source** [Advanced Player's Guide pg. 270](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 270](source/advanced_players_guide)",
 			"",
 			"Unparalleled practitioners of deception, master spies rely on deceit and trickery over brawn and spells. A master spy is an expert at both magical and nonmagical means of evading detection, and quick-witted when it comes to improvisation. Master spies may serve countries or private interests, or sell their services to the highest bidder without a thought to long-term loyalty.",
 			"",
@@ -2355,7 +2355,7 @@
 		"description": [
 			"## Mortal Usher",
 			"",
-			"**Source** [Pathfinder #144: Midwives to Death pg. 76](source/pathfinder_#144_midwives_to_death)",
+			"**Source** [Pathfinder #144: Midwives to Death pg. 76](source/pathfinder_144_midwives_to_death)",
 			"",
 			"Whether the trouble is a formidable lich draining power from thousands of enslaved ghosts or a [qlippoth](family/qlippoth) funneling stolen souls through an Abyssal stronghold, occasionally the [psychopomps](family/psychopomp) must enlist a mortal usher-a living agent imbued with their power and cunning-to travel where even the guardians of the River of Souls cannot tread.",
 			"",
@@ -2552,7 +2552,7 @@
 		"description": [
 			"## Nature Warden",
 			"",
-			"**Source** [Advanced Player's Guide pg. 272](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 272](source/advanced_players_guide)",
 			"",
 			"Nature wardens are guardians of the wild places of the world, hunters and explorers par excellence, highly skilled in negotiating their way among the non-human inhabitants of the wild. Nature wardens befriend and train a beast of the wild as a companion, and some call wardens \"beastmasters\" because of these pets, but nature wardens are much more than tamers of wild things. They are experts at navigating the harsh brutality of nature's fury and making do with whatever tools and weapons present themselves, but they go beyond being hardy survivalists to become cunning tacticians with keen analytical minds, able to adapt and prepare for any situation and make the absolute best use of the advantages that any terrain or environment can afford them.",
 			"",
@@ -2747,7 +2747,7 @@
 		"description": [
 			"## Pain Taster",
 			"",
-			"**Source** [Occult Mysteries pg. 46](source/occult_mysteries), [Pathfinder #15: The Armageddon Echo pg. 60](source/pathfinder_#15_the_armageddon_echo)",
+			"**Source** [Occult Mysteries pg. 46](source/occult_mysteries), [Pathfinder #15: The Armageddon Echo pg. 60](source/pathfinder_15_the_armageddon_echo)",
 			"",
 			"For pain tasters, agony is more than a pleasure-it's a path to power. Until recently, pain tasting was a practice employed exclusively by the drow. However, in recent decades Kuthite scholars have begun spreading details about the practice through cult circles. Though on the surface most pain tasters are followers of Zon-Kuthon, that path is now beginning to crop up among other evil and neutral cults as well.",
 			"",
@@ -2917,7 +2917,7 @@
 		"description": [
 			"## Pathfinder Delver",
 			"",
-			"**Source** [Adventurer's Guide pg. 138](source/adventurer's_guide), [Seekers of Secrets pg. 58](source/seekers_of_secrets)",
+			"**Source** [Adventurer's Guide pg. 138](source/adventurers_guide), [Seekers of Secrets pg. 58](source/seekers_of_secrets)",
 			"",
 			"Not all Pathfinders are concerned with cataloging their exploits. Some are most at home treading ground untouched in years or even centuries, in search of the next challenge, the next dungeon, or the next ancient treasure. Pathfinder delvers prefer to leave the journaling to others and set off on a new grand adventure before the ink dries on the chronicles of their last. Often they're accompanied by a cohort or other companion who might not have the bravery (or foolhardiness) to go it alone on a grand adventure, but is more than willing to chronicle the exploits and adventures of another. For many in the [Pathfinder Society](rule/aff_scholars), the delvers represent a frustrating combination-on the one hand, their eagerness to explore helps the Society reach areas and learn secrets that may otherwise go undiscovered. On the other hand, their tendency toward poor documentation worries many Society members, who fear that the bulk of what a delver might discover will go unreported.",
 			"",
@@ -3076,7 +3076,7 @@
 		"description": [
 			"## Pathfinder Savant",
 			"",
-			"**Source** [Adventurer's Guide pg. 140](source/adventurer's_guide), [Seekers of Secrets pg. 60](source/seekers_of_secrets)",
+			"**Source** [Adventurer's Guide pg. 140](source/adventurers_guide), [Seekers of Secrets pg. 60](source/seekers_of_secrets)",
 			"",
 			"Pathfinder savants are specialists in the theory and practice of magic, illuminating mysteries of the eldritch fabric that permeates existence. The path of the savant brings expertise in the lore of glyphs and sigils, knowledge of exotic spells, and the power to unlock the full potential of magical devices. This skill also makes savants quite valuable to adventuring parties, both in their mastery over ancient traps that utilize old magic and in their skill at identifying and utilizing magic items found in the field. Of course, with their focus on the intellectual portions of adventuring, Pathfinder savants are often ill-equipped to handle the tougher, more excruciating parts of a typical dungeon delve; melee combat, wrenching open stuck doors, and enduring dangerous and unhealthy environments are not the savant's forte. As a result, they rarely undertake solo missions, instead allying with well-rounded groups of fellow adventurers in order to interact with history and strange archaic wonders without dealing with the grislier portions of exploration all on their own. To the Pathfinder savant, this is merely a logical extension of their preferred role in exploration, but that doesn't protect them from periodic sneers and veiled insults from more physically focused companions. Of course, most such associates are quick to beg forgiveness when, inevitably, the savant is needed to decipher the workings of a strange magical device or to call upon their significant magical power to solve problems that cannot be dealt with through brawn alone.",
 			"",

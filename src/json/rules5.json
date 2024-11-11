@@ -18,7 +18,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		],
 		"siblings": [
 			"getting_started",
@@ -41,7 +41,7 @@
 			"",
 			"For every player character with complete statistics and volumes of background there exist countless NPCs, some just as nuanced and well developed as veteran heroes, others two-dimensional and stereotyped, destined to speak but once before fading back into anonymity. Regardless of their role or impact on a campaign, a GM's legion of NPCs enables him to weave the tale he has to tell. Some swiftly become favorites, either of the players or GM, and take on roles bordering on the PCs' significance. Others are challenges to be avoided or overcome, whether reoccurring opponents or ravenous things straight from a bestiary's pages. Still others exist merely to give color and life to a world, commoners and passersby who merely brush against the PCs in their adventures, aiding, hindering, or simply living their lives as natives of a shared fantasy. Whether recurring or transitory, helpful or menacing, NPCs serve as the living descriptions of a campaign world, each eliciting a reaction from the collected players, and each helping to take the tale beyond the realm of one-sided narrative and into the experience of a vibrant, living adventure.",
 			"",
-			"This section delves into the world of non-player characters: from designing the types of characters a GM might want to include in his story to making even the most peripheral personalities memorable. Beyond such advice and toolboxes of character creation also comes advice on detailing those most important of NPCs: villains. This can serve as a reference and toolbox for GMs during the course of their games, making use of [the tables given](rule/npc_creator's_toolbox) as aids to give unanticipated characters a little extra flair or resources to provide your favorite NPCs the details they need to be truly memorable. In addition, an NPC Sheet is included in the back of [the physical book] for you to record the details of the NPCs you create.",
+			"This section delves into the world of non-player characters: from designing the types of characters a GM might want to include in his story to making even the most peripheral personalities memorable. Beyond such advice and toolboxes of character creation also comes advice on detailing those most important of NPCs: villains. This can serve as a reference and toolbox for GMs during the course of their games, making use of [the tables given](rule/npc_creators_toolbox) as aids to give unanticipated characters a little extra flair or resources to provide your favorite NPCs the details they need to be truly memorable. In addition, an NPC Sheet is included in the back of [the physical book] for you to record the details of the NPCs you create.",
 			"",
 			"### Good to Read, Good to Play",
 			"",
@@ -63,7 +63,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		]
 	},
 	"designing_npcs": {
@@ -333,7 +333,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		]
 	},
 	"naming_npcs": {
@@ -469,7 +469,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		]
 	},
 	"building_connections": {
@@ -650,7 +650,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		]
 	},
 	"adept": {
@@ -855,7 +855,7 @@
 			"life_of_an_npc",
 			"npc_boons",
 			"villains",
-			"npc_creator's_toolbox"
+			"npc_creators_toolbox"
 		]
 	},
 	"villainous_archetypes": {
@@ -1094,7 +1094,7 @@
 			"secret_villains",
 			"the_disembodied_voice",
 			"a_bolt-hole",
-			"the_villain's_escape_kit"
+			"the_villains_escape_kit"
 		]
 	},
 	"hands-on_management": {
@@ -1118,7 +1118,7 @@
 			"secret_villains",
 			"the_disembodied_voice",
 			"a_bolt-hole",
-			"the_villain's_escape_kit"
+			"the_villains_escape_kit"
 		]
 	},
 	"secret_villains": {
@@ -1142,7 +1142,7 @@
 			"secret_villains",
 			"the_disembodied_voice",
 			"a_bolt-hole",
-			"the_villain's_escape_kit"
+			"the_villains_escape_kit"
 		]
 	},
 	"the_disembodied_voice": {
@@ -1166,7 +1166,7 @@
 			"secret_villains",
 			"the_disembodied_voice",
 			"a_bolt-hole",
-			"the_villain's_escape_kit"
+			"the_villains_escape_kit"
 		]
 	},
 	"a_bolt-hole": {
@@ -1176,7 +1176,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 93](source/gamemastery_guide)",
 			"",
-			"Every good villain has an escape route prepared for use if the final showdown goes in the PCs' favor. Only fools, fanatics, and psychotics ever fight to the death-most others will try to escape as soon as it becomes apparent they cannot win. There are plenty of spells and magic items that a villain can use to escape and live to fight another day. The [Escape Kit](rule/the_villain's_escape_kit) lists some of the spells, and with a little imagination it is possible to come up with more. The keys are planning (some spells will need to be cast in advance) and keeping a close eye on casting times and saving throws. A low-level spell with no saving throw can often be more useful than a higher-level spell that does have a saving throw."
+			"Every good villain has an escape route prepared for use if the final showdown goes in the PCs' favor. Only fools, fanatics, and psychotics ever fight to the death-most others will try to escape as soon as it becomes apparent they cannot win. There are plenty of spells and magic items that a villain can use to escape and live to fight another day. The [Escape Kit](rule/the_villains_escape_kit) lists some of the spells, and with a little imagination it is possible to come up with more. The keys are planning (some spells will need to be cast in advance) and keeping a close eye on casting times and saving throws. A low-level spell with no saving throw can often be more useful than a higher-level spell that does have a saving throw."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1190,10 +1190,10 @@
 			"secret_villains",
 			"the_disembodied_voice",
 			"a_bolt-hole",
-			"the_villain's_escape_kit"
+			"the_villains_escape_kit"
 		]
 	},
-	"the_villain's_escape_kit": {
+	"the_villains_escape_kit": {
 		"name": "The Villain's Escape Kit",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -1226,7 +1226,7 @@
 			"secret_villains",
 			"the_disembodied_voice",
 			"a_bolt-hole",
-			"the_villain's_escape_kit"
+			"the_villains_escape_kit"
 		]
 	},
 	"rewards": {
@@ -2532,7 +2532,7 @@
 			"",
 			"The Pathfinder Roleplaying Game handles most spell components in a fairly abstract fashion: the components are purchased as part of a spell component pouch, which is assumed to contain the required quantity of any components for any spell of which the caster has knowledge. For many GMs, this suits their needs, and other than having the player mark off some gold when his PC uses a more expensive component like diamond dust, that is the extent of attention spell components receive. The virtue of this system is speed and simplicity. A GM desiring more verisimilitude can instead require the PCs track down or prepare individual components, and even allow PCs to obtain enhanced components that improve their spells.",
 			"",
-			"Even when tracking individual components, many reagents are so common they can be assumed to be easily found. Save the legwork for commissioning tiny silver whistles (for [mage's faithful hound](spell/mage's_faithful_hound)), finding dragon scales (for [form of the dragon](spell/form_of_the_dragon_1)), and things of that nature. Yet even then, don't go overboard - while finding rare components can be a fun opportunity for side-quests, your players go grocery shopping often enough in real life, and obsessing over whether their leaves are fresh or their eggshell components got cracked in the last fall is a good way to bore your players and ensure nobody wants to play a caster in your game."
+			"Even when tracking individual components, many reagents are so common they can be assumed to be easily found. Save the legwork for commissioning tiny silver whistles (for [mage's faithful hound](spell/mages_faithful_hound)), finding dragon scales (for [form of the dragon](spell/form_of_the_dragon_1)), and things of that nature. Yet even then, don't go overboard - while finding rare components can be a fun opportunity for side-quests, your players go grocery shopping often enough in real life, and obsessing over whether their leaves are fresh or their eggshell components got cracked in the last fall is a good way to bore your players and ensure nobody wants to play a caster in your game."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2559,7 +2559,7 @@
 			"",
 			"Historically, components such as blood carried both the life and strength of a creature, and the potential to bind two lives together; coffin nails could be pounded or bound into a weapon, making it strike true; hair and nails rendered the original owner vulnerable to hostile magic even at great distances; and animal horns and tusks provide protection to their wearer, not to mention the healing properties of a unicorn's horn.",
 			"",
-			"Most spell components in the Pathfinder RPG are based on sympathy, either duplicating the desired outcome of the spell (gauze and a wisp of smoke for [gaseous form](spell/gaseous_form)) or having properties related to the spell (an owl's feather for [owl's wisdom](spell/owl's_wisdom)). The latter sort of component may utilize contagion as well, as the single feather retains the nature of the whole.",
+			"Most spell components in the Pathfinder RPG are based on sympathy, either duplicating the desired outcome of the spell (gauze and a wisp of smoke for [gaseous form](spell/gaseous_form)) or having properties related to the spell (an owl's feather for [owl's wisdom](spell/owls_wisdom)). The latter sort of component may utilize contagion as well, as the single feather retains the nature of the whole.",
 			"",
 			"When adding material components or a focus to a new spell, consider what forces the spell is shaping, and select components that reflect those forces. Good components don't necessarily need to be literally appropriate - the handful of earth required for [detect undead](spell/detect_undead) is an example of a more symbolic fit. Humorous spell components are tempting (and well represented in the game), but should be used sparingly."
 		],
@@ -3230,22 +3230,22 @@
 			"| 03-04 | [align weapon](spell/align_weapon) | 300 gp |",
 			"| 05-06 | [arcane lock](spell/arcane_lock) | 300 gp |",
 			"| 07-10 | [barkskin](spell/barkskin) | 300 gp |",
-			"| 11-15 | [bear's endurance](spell/bear's_endurance) | 300 gp |",
+			"| 11-15 | [bear's endurance](spell/bears_endurance) | 300 gp |",
 			"| 16-17 | [blur](spell/blur) | 300 gp |",
-			"| 18-22 | [bull's strength](spell/bull's_strength) | 300 gp |",
-			"| 23-26 | [cat's grace](spell/cat's_grace) | 300 gp |",
+			"| 18-22 | [bull's strength](spell/bulls_strength) | 300 gp |",
+			"| 23-26 | [cat's grace](spell/cats_grace) | 300 gp |",
 			"| 27-36 | [cure moderate wounds](spell/cure_moderate_wounds) | 300 gp |",
 			"| 37 | [darkness](spell/darkness) | 300 gp |",
 			"| 38-40 | [darkvision](spell/darkvision) | 300 gp |",
 			"| 41-43 | [delay poison](spell/delay_poison) | 300 gp |",
-			"| 44-46 | [eagle's splendor](spell/eagle's_splendor) | 300 gp |",
-			"| 47-49 | [fox's cunning](spell/fox's_cunning) | 300 gp |",
+			"| 44-46 | [eagle's splendor](spell/eagles_splendor) | 300 gp |",
+			"| 47-49 | [fox's cunning](spell/foxs_cunning) | 300 gp |",
 			"| 50-51 | [gentle repose](spell/gentle_repose) | 300 gp |",
 			"| 52-57 | [invisibility](spell/invisibility) | 300 gp |",
 			"| 58-61 | [levitate](spell/levitate) | 300 gp |",
 			"| 62 | [make whole](spell/make_whole) | 300 gp |",
 			"| 63-64 | [obscure object](spell/obscure_object) | 300 gp |",
-			"| 65-67 | [owl's wisdom](spell/owl's_wisdom) | 300 gp |",
+			"| 65-67 | [owl's wisdom](spell/owls_wisdom) | 300 gp |",
 			"| 68-69 | [protection from arrows](spell/protection_from_arrows) | 300 gp |",
 			"| 70 | [reduce animal](spell/reduce_animal) | 300 gp |",
 			"| 71-73 | [remove paralysis](spell/remove_paralysis) | 300 gp |",
@@ -3455,21 +3455,21 @@
 			"| --- | --- | --- |",
 			"| 01-02 | [acid arrow](spell/acid_arrow) | 150 gp |",
 			"| 03-04 | [alter self](spell/alter_self) | 150 gp |",
-			"| 05-06 | [bear's endurance](spell/bear's_endurance) | 150 gp |",
+			"| 05-06 | [bear's endurance](spell/bears_endurance) | 150 gp |",
 			"| 07-08 | [blindness/deafness](spell/blindness_deafness) | 150 gp |",
 			"| 09-10 | [blur](spell/blur) | 150 gp |",
-			"| 11-12 | [bull's strength](spell/bull's_strength) | 150 gp |",
-			"| 13-14 | [cat's grace](spell/cat's_grace) | 150 gp |",
+			"| 11-12 | [bull's strength](spell/bulls_strength) | 150 gp |",
+			"| 13-14 | [cat's grace](spell/cats_grace) | 150 gp |",
 			"| 15-16 | [command undead](spell/command_undead) | 150 gp |",
 			"| 17-18 | [darkness](spell/darkness) | 150 gp |",
 			"| 19-20 | [darkvision](spell/darkvision) | 150 gp |",
 			"| 21 | [daze monster](spell/daze_monster) | 150 gp |",
 			"| 22 | [detect thoughts](spell/detect_thoughts) | 150 gp |",
-			"| 23-24 | [eagle's splendor](spell/eagle's_splendor) | 150 gp |",
+			"| 23-24 | [eagle's splendor](spell/eagles_splendor) | 150 gp |",
 			"| 25-26 | [false life](spell/false_life) | 150 gp |",
 			"| 27-28 | [flaming sphere](spell/flaming_sphere) | 150 gp |",
 			"| 29-30 | [fog cloud](spell/fog_cloud) | 150 gp |",
-			"| 31-32 | [fox's cunning](spell/fox's_cunning) | 150 gp |",
+			"| 31-32 | [fox's cunning](spell/foxs_cunning) | 150 gp |",
 			"| 33-34 | [ghoul touch](spell/ghoul_touch) | 150 gp |",
 			"| 35-37 | [glitterdust](spell/glitterdust) | 150 gp |",
 			"| 38-39 | [gust of wind](spell/gust_of_wind) | 150 gp |",
@@ -3484,7 +3484,7 @@
 			"| 57-59 | [mirror image](spell/mirror_image) | 150 gp |",
 			"| 60-61 | [misdirection](spell/misdirection) | 150 gp |",
 			"| 62 | [obscure object](spell/obscure_object) | 150 gp |",
-			"| 63 | [owl's wisdom](spell/owl's_wisdom) | 150 gp |",
+			"| 63 | [owl's wisdom](spell/owls_wisdom) | 150 gp |",
 			"| 64-65 | [protection from arrows](spell/protection_from_arrows) | 150 gp |",
 			"| 66-67 | [pyrotechnics](spell/pyrotechnics) | 150 gp |",
 			"| 68-69 | [resist energy](spell/resist_energy) | 150 gp |",
@@ -3623,8 +3623,8 @@
 			"| 30-31 | [feeblemind](spell/feeblemind) | 1,125 gp |",
 			"| 32-34 | [hold monster](spell/hold_monster) | 1,125 gp |",
 			"| 35 | [interposing hand](spell/interposing_hand) | 1,125 gp |",
-			"| 36-37 | [mage's faithful hound](spell/mage's_faithful_hound) | 1,125 gp |",
-			"| 38-39 | [mage's private sanctum](spell/mage's_private_sanctum) | 1,125 gp |",
+			"| 36-37 | [mage's faithful hound](spell/mages_faithful_hound) | 1,125 gp |",
+			"| 38-39 | [mage's private sanctum](spell/mages_private_sanctum) | 1,125 gp |",
 			"| 40-42 | [magic jar](spell/magic_jar) | 1,125 gp |",
 			"| 43 | [major creation](spell/major_creation) | 1,125 gp |",
 			"| 44-45 | [mind fog](spell/mind_fog) | 1,125 gp |",
@@ -3662,31 +3662,31 @@
 			"| 01-02 | [acid fog](spell/acid_fog) | 1,650 gp |",
 			"| 03-04 | [analyze dweomer](spell/analyze_dweomer) | 1,650 gp |",
 			"| 05-07 | [antimagic field](spell/antimagic_field) | 1,650 gp |",
-			"| 08-09 | [bear's endurance, mass](spell/mass_bear's_endurance) | 1,650 gp |",
+			"| 08-09 | [bear's endurance, mass](spell/mass_bears_endurance) | 1,650 gp |",
 			"| 10 | [beast shape IV](spell/beast_shape_4) | 1,650 gp |",
-			"| 11-12 | [bull's strength, mass](spell/mass_bull's_strength) | 1,650 gp |",
-			"| 13-14 | [cat's grace, mass](spell/mass_cat's_grace) | 1,650 gp |",
+			"| 11-12 | [bull's strength, mass](spell/mass_bulls_strength) | 1,650 gp |",
+			"| 13-14 | [cat's grace, mass](spell/mass_cats_grace) | 1,650 gp |",
 			"| 15-17 | [chain lightning](spell/chain_lightning) | 1,650 gp |",
 			"| 18-19 | [contingency](spell/contingency) | 1,650 gp |",
 			"| 20 | [control water](spell/control_water) | 1,650 gp |",
 			"| 21-24 | [disintegrate](spell/disintegrate) | 1,650 gp |",
 			"| 25-28 | [dispel magic, greater](spell/greater_dispel_magic) | 1,650 gp |",
-			"| 29-30 | [eagle's splendor, mass](spell/mass_eagle's_splendor) | 1,650 gp |",
+			"| 29-30 | [eagle's splendor, mass](spell/mass_eagles_splendor) | 1,650 gp |",
 			"| 31 | [elemental body III](spell/elemental_body_3) | 1,650 gp |",
 			"| 32-33 | [eyebite](spell/eyebite) | 1,650 gp |",
 			"| 34-36 | [flesh to stone](spell/flesh_to_stone) | 1,650 gp |",
 			"| 37-38 | [forceful hand](spell/forceful_hand) | 1,650 gp |",
 			"| 39-40 | [form of the dragon I](spell/form_of_the_dragon_1) | 1,650 gp |",
-			"| 41-42 | [fox's cunning, mass](spell/mass_fox's_cunning) | 1,650 gp |",
+			"| 41-42 | [fox's cunning, mass](spell/mass_foxs_cunning) | 1,650 gp |",
 			"| 43 | [freezing sphere](spell/freezing_sphere) | 1,650 gp |",
 			"| 44-45 | [geas/quest](spell/geas_quest) | 1,650 gp |",
 			"| 46-48 | [globe of invulnerability](spell/globe_of_invulnerability) | 1,650 gp |",
 			"| 49-50 | [guards and wards](spell/guards_and_wards) | 1,650 gp |",
 			"| 51-52 | [heroism, greater](spell/greater_heroism) | 1,650 gp |",
-			"| 53-54 | [mage's lucubration](spell/mage's_lucubration) | 1,650 gp |",
+			"| 53-54 | [mage's lucubration](spell/mages_lucubration) | 1,650 gp |",
 			"| 55-57 | [mislead](spell/mislead) | 1,650 gp |",
 			"| 58 | [move earth](spell/move_earth) | 1,650 gp |",
-			"| 59 | [owl's wisdom, mass](spell/mass_owl's_wisdom) | 1,650 gp |",
+			"| 59 | [owl's wisdom, mass](spell/mass_owls_wisdom) | 1,650 gp |",
 			"| 60-61 | [permanent image](spell/permanent_image) | 1,650 gp |",
 			"| 62-64 | [planar binding](spell/planar_binding) | 1,650 gp |",
 			"| 65 | [plant shape II](spell/plant_shape_2) | 1,650 gp |",
@@ -3725,8 +3725,8 @@
 			"| 29-31 | [hold person, mass](spell/mass_hold_person) | 2,275 gp |",
 			"| 32-33 | [insanity](spell/insanity) | 2,275 gp |",
 			"| 34-36 | [invisibility, mass](spell/mass_invisibility) | 2,275 gp |",
-			"| 37-38 | [mage's magnificent mansion](spell/mage's_magnificent_mansion) | 2,275 gp |",
-			"| 39-40 | [mage's sword](spell/mage's_sword) | 2,275 gp |",
+			"| 37-38 | [mage's magnificent mansion](spell/mages_magnificent_mansion) | 2,275 gp |",
+			"| 39-40 | [mage's sword](spell/mages_sword) | 2,275 gp |",
 			"| 41-42 | [phase door](spell/phase_door) | 2,275 gp |",
 			"| 43-45 | [plane shift](spell/plane_shift) | 2,275 gp |",
 			"| 46-47 | [plant shape III](spell/plant_shape_3) | 2,275 gp |",
@@ -3807,7 +3807,7 @@
 			"| 26-30 | [gate](spell/gate) | 3,825 gp |",
 			"| 31-33 | [hold monster, mass](spell/mass_hold_monster) | 3,825 gp |",
 			"| 34-37 | [imprisonment](spell/imprisonment) | 3,825 gp |",
-			"| 38-43 | [mage's disjunction](spell/mage's_disjunction) | 3,825 gp |",
+			"| 38-43 | [mage's disjunction](spell/mages_disjunction) | 3,825 gp |",
 			"| 44-51 | [meteor swarm](spell/meteor_swarm) | 3,825 gp |",
 			"| 52-55 | [power word kill](spell/power_word_kill) | 3,825 gp |",
 			"| 56-58 | [prismatic sphere](spell/prismatic_sphere) | 3,825 gp |",
@@ -3916,7 +3916,7 @@
 			"| 91 | [shillelagh](spell/shillelagh) | 25 gp |",
 			"| 92-93 | [speak with animals](spell/speak_with_animals) | 25 gp |",
 			"| 94-95 | [summon monster I](spell/summon_monster_1) | 25 gp |",
-			"| 96-97 | [summon nature's ally I](spell/summon_nature's_ally_1) | 25 gp |",
+			"| 96-97 | [summon nature's ally I](spell/summon_natures_ally_1) | 25 gp |",
 			"| 98-99 | [bless water](spell/bless_water) | 50 gp |",
 			"| 100 | [curse water](spell/curse_water) | 50 gp |",
 			"",
@@ -3929,16 +3929,16 @@
 			"| 06-08 | [animal messenger](spell/animal_messenger) | 150 gp |",
 			"| 09 | [animal trance](spell/animal_trance) | 150 gp |",
 			"| 10-13 | [barkskin](spell/barkskin) | 150 gp |",
-			"| 14 | [bear's endurance](spell/bear's_endurance) | 150 gp |",
-			"| 15 | [bull's strength](spell/bull's_strength) | 150 gp |",
+			"| 14 | [bear's endurance](spell/bears_endurance) | 150 gp |",
+			"| 15 | [bull's strength](spell/bulls_strength) | 150 gp |",
 			"| 16-17 | [calm emotions](spell/calm_emotions) | 150 gp |",
-			"| 18 | [cat's grace](spell/cat's_grace) | 150 gp |",
+			"| 18 | [cat's grace](spell/cats_grace) | 150 gp |",
 			"| 19-21 | [chill metal](spell/chill_metal) | 150 gp |",
 			"| 22-26 | [cure moderate wounds](spell/cure_moderate_wounds) | 150 gp |",
 			"| 27-28 | [darkness](spell/darkness) | 150 gp |",
 			"| 29-30 | [death knell](spell/death_knell) | 150 gp |",
 			"| 31-33 | [delay poison](spell/delay_poison) | 150 gp |",
-			"| 34-35 | [eagle's splendor](spell/eagle's_splendor) | 150 gp |",
+			"| 34-35 | [eagle's splendor](spell/eagles_splendor) | 150 gp |",
 			"| 36-37 | [enthrall](spell/enthrall) | 150 gp |",
 			"| 38-40 | [find traps](spell/find_traps) | 150 gp |",
 			"| 41-42 | [flame blade](spell/flame_blade) | 150 gp |",
@@ -3951,7 +3951,7 @@
 			"| 53-54 | [hold person](spell/hold_person) | 150 gp |",
 			"| 55-57 | [inflict moderate wounds](spell/inflict_moderate_wounds) | 150 gp |",
 			"| 58 | [make whole](spell/make_whole) | 150 gp |",
-			"| 59-60 | [owl's wisdom](spell/owl's_wisdom) | 150 gp |",
+			"| 59-60 | [owl's wisdom](spell/owls_wisdom) | 150 gp |",
 			"| 61 | [reduce animal](spell/reduce_animal) | 150 gp |",
 			"| 62-63 | [remove paralysis](spell/remove_paralysis) | 150 gp |",
 			"| 64-65 | [resist energy](spell/resist_energy) | 150 gp |",
@@ -3965,7 +3965,7 @@
 			"| 78-79 | [spiritual weapon](spell/spiritual_weapon) | 150 gp |",
 			"| 80 | [status](spell/status) | 150 gp |",
 			"| 81-82 | [summon monster II](spell/summon_monster_2) | 150 gp |",
-			"| 83-84 | [summon nature's ally II](spell/summon_nature's_ally_2) | 150 gp |",
+			"| 83-84 | [summon nature's ally II](spell/summon_natures_ally_2) | 150 gp |",
 			"| 85-86 | [summon swarm](spell/summon_swarm) | 150 gp |",
 			"| 87 | [tree shape](spell/tree_shape) | 150 gp |",
 			"| 88 | [undetectable alignment](spell/undetectable_alignment) | 150 gp |",
@@ -4019,7 +4019,7 @@
 			"| 80-81 | [spike growth](spell/spike_growth) | 375 gp |",
 			"| 82-83 | [stone shape](spell/stone_shape) | 375 gp |",
 			"| 84-85 | [summon monster III](spell/summon_monster_3) | 375 gp |",
-			"| 86-87 | [summon nature's ally III](spell/summon_nature's_ally_3) | 375 gp |",
+			"| 86-87 | [summon nature's ally III](spell/summon_natures_ally_3) | 375 gp |",
 			"| 88-89 | [water breathing](spell/water_breathing) | 375 gp |",
 			"| 90-91 | [water walk](spell/water_walk) | 375 gp |",
 			"| 92-93 | [wind wall](spell/wind_wall) | 375 gp |",
@@ -4052,7 +4052,7 @@
 			"| 50-52 | [inflict critical wounds](spell/inflict_critical_wounds) | 700 gp |",
 			"| 53-56 | [magic weapon, greater](spell/greater_magic_weapon) | 700 gp |",
 			"| 57-58 | [neutralize poison](spell/neutralize_poison) | 700 gp |",
-			"| 59-60 | [order's wrath](spell/order's_wrath) | 700 gp |",
+			"| 59-60 | [order's wrath](spell/orders_wrath) | 700 gp |",
 			"| 61-62 | [poison](spell/poison) | 700 gp |",
 			"| 63-65 | [reincarnate](spell/reincarnate) | 700 gp |",
 			"| 66-67 | [repel vermin](spell/repel_vermin) | 700 gp |",
@@ -4062,7 +4062,7 @@
 			"| 74-77 | [spell immunity](spell/spell_immunity) | 700 gp |",
 			"| 78-79 | [spike stones](spell/spike_stones) | 700 gp |",
 			"| 80-82 | [summon monster IV](spell/summon_monster_4) | 700 gp |",
-			"| 83-85 | [summon nature's ally IV](spell/summon_nature's_ally_4) | 700 gp |",
+			"| 83-85 | [summon nature's ally IV](spell/summon_natures_ally_4) | 700 gp |",
 			"| 86-88 | [tongues](spell/tongues) | 700 gp |",
 			"| 89-90 | [unholy blight](spell/unholy_blight) | 700 gp |",
 			"| 91-92 | [divination](spell/divination) | 725 gp |",
@@ -4098,7 +4098,7 @@
 			"| 51-53 | [slay living](spell/slay_living) | 1,125 gp |",
 			"| 54-56 | [spell resistance](spell/spell_resistance) | 1,125 gp |",
 			"| 57-59 | [summon monster V](spell/summon_monster_5) | 1,125 gp |",
-			"| 60-61 | [summon nature's ally V](spell/summon_nature's_ally_5) | 1,125 gp |",
+			"| 60-61 | [summon nature's ally V](spell/summon_natures_ally_5) | 1,125 gp |",
 			"| 62 | [transmute mud to rock](spell/transmute_mud_to_rock) | 1,125 gp |",
 			"| 63 | [transmute rock to mud](spell/transmute_rock_to_mud) | 1,125 gp |",
 			"| 64-65 | [tree stride](spell/tree_stride) | 1,125 gp |",
@@ -4124,29 +4124,29 @@
 			"| 01-02 | [animate objects](spell/animate_objects) | 1,650 gp |",
 			"| 03-04 | [antilife shell](spell/antilife_shell) | 1,650 gp |",
 			"| 05-06 | [banishment](spell/banishment) | 1,650 gp |",
-			"| 07-08 | [bear's endurance, mass](spell/mass_bear's_endurance) | 1,650 gp |",
+			"| 07-08 | [bear's endurance, mass](spell/mass_bears_endurance) | 1,650 gp |",
 			"| 09-10 | [blade barrier](spell/blade_barrier) | 1,650 gp |",
-			"| 11-12 | [bull's strength, mass](spell/mass_bull's_strength) | 1,650 gp |",
-			"| 13-14 | [cat's grace, mass](spell/mass_cat's_grace) | 1,650 gp |",
+			"| 11-12 | [bull's strength, mass](spell/mass_bulls_strength) | 1,650 gp |",
+			"| 13-14 | [cat's grace, mass](spell/mass_cats_grace) | 1,650 gp |",
 			"| 15-18 | [cure moderate wounds, mass](spell/mass_cure_moderate_wounds) | 1,650 gp |",
 			"| 19-22 | [dispel magic, greater](spell/greater_dispel_magic) | 1,650 gp |",
-			"| 23-25 | [eagle's splendor, mass](spell/mass_eagle's_splendor) | 1,650 gp |",
+			"| 23-25 | [eagle's splendor, mass](spell/mass_eagles_splendor) | 1,650 gp |",
 			"| 26-29 | [find the path](spell/find_the_path) | 1,650 gp |",
 			"| 30-31 | [fire seeds](spell/fire_seeds) | 1,650 gp |",
 			"| 32-33 | [geas/quest](spell/geas_quest) | 1,650 gp |",
 			"| 34-37 | [harm](spell/harm) | 1,650 gp |",
 			"| 38-42 | [heal](spell/heal) | 1,650 gp |",
-			"| 43-45 | [heroes' feast](spell/heroes'_feast) | 1,650 gp |",
+			"| 43-45 | [heroes' feast](spell/heroes_feast) | 1,650 gp |",
 			"| 46-48 | [inflict moderate wounds, mass](spell/mass_inflict_moderate_wounds) | 1,650 gp |",
 			"| 49-51 | [ironwood](spell/ironwood) | 1,650 gp |",
 			"| 52-54 | [liveoak](spell/liveoak) | 1,650 gp |",
 			"| 55-56 | [move earth](spell/move_earth) | 1,650 gp |",
-			"| 57-59 | [owl's wisdom, mass](spell/mass_owl's_wisdom) | 1,650 gp |",
+			"| 57-59 | [owl's wisdom, mass](spell/mass_owls_wisdom) | 1,650 gp |",
 			"| 60-61 | [repel wood](spell/repel_wood) | 1,650 gp |",
 			"| 62-64 | [spellstaff](spell/spellstaff) | 1,650 gp |",
 			"| 65-66 | [stone tell](spell/stone_tell) | 1,650 gp |",
 			"| 67-69 | [summon monster VI](spell/summon_monster_6) | 1,650 gp |",
-			"| 70-71 | [summon nature's ally VI](spell/summon_nature's_ally_6) | 1,650 gp |",
+			"| 70-71 | [summon nature's ally VI](spell/summon_natures_ally_6) | 1,650 gp |",
 			"| 72-73 | [transport via plants](spell/transport_via_plants) | 1,650 gp |",
 			"| 74-75 | [wind walk](spell/wind_walk) | 1,650 gp |",
 			"| 76-77 | [word of recall](spell/word_of_recall) | 1,650 gp |",
@@ -4177,7 +4177,7 @@
 			"| 47-50 | [repulsion](spell/repulsion) | 2,275 gp |",
 			"| 51-54 | [scrying, greater](spell/greater_scrying) | 2,275 gp |",
 			"| 55-58 | [summon monster VII](spell/summon_monster_7) | 2,275 gp |",
-			"| 59-61 | [summon nature's ally VII](spell/summon_nature's_ally_7) | 2,275 gp |",
+			"| 59-61 | [summon nature's ally VII](spell/summon_natures_ally_7) | 2,275 gp |",
 			"| 62-65 | [sunbeam](spell/sunbeam) | 2,275 gp |",
 			"| 66-67 | [transmute metal to wood](spell/transmute_metal_to_wood) | 2,275 gp |",
 			"| 68-71 | [word of chaos](spell/word_of_chaos) | 2,275 gp |",
@@ -4208,7 +4208,7 @@
 			"| 52-53 | [shield of law](spell/shield_of_law) | 3,000 gp |",
 			"| 54-58 | [spell immunity, greater](spell/greater_spell_immunity) | 3,000 gp |",
 			"| 59-61 | [summon monster VIII](spell/summon_monster_8) | 3,000 gp |",
-			"| 62-64 | [summon nature's ally VIII](spell/summon_nature's_ally_8) | 3,000 gp |",
+			"| 62-64 | [summon nature's ally VIII](spell/summon_natures_ally_8) | 3,000 gp |",
 			"| 65-70 | [sunburst](spell/sunburst) | 3,000 gp |",
 			"| 71-75 | [unholy aura](spell/unholy_aura) | 3,000 gp |",
 			"| 76-78 | [whirlwind](spell/whirlwind) | 3,000 gp |",
@@ -4235,7 +4235,7 @@
 			"| 68-70 | [soul bind](spell/soul_bind) | 3,825 gp |",
 			"| 71-74 | [storm of vengeance](spell/storm_of_vengeance) | 3,825 gp |",
 			"| 75-80 | [summon monster IX](spell/summon_monster_9) | 3,825 gp |",
-			"| 81-87 | [summon nature's ally IX](spell/summon_nature's_ally_9) | 3,825 gp |",
+			"| 81-87 | [summon nature's ally IX](spell/summon_natures_ally_9) | 3,825 gp |",
 			"| 88-90 | [astral projection](spell/astral_projection) | 4,825 gp |",
 			"| 91-93 | [sympathy](spell/sympathy) | 5,325 gp |",
 			"| 94-100 | [true resurrection](spell/true_resurrection) | 28,825 gp |",
@@ -4390,7 +4390,7 @@
 			"| 90 | [sleep](spell/sleep) | 750 gp |",
 			"| 91 | [speak with animals](spell/speak_with_animals) | 750 gp |",
 			"| 92 | [summon monster I](spell/summon_monster_1) | 750 gp |",
-			"| 93 | [summon nature's ally I](spell/summon_nature's_ally_1) | 750 gp |",
+			"| 93 | [summon nature's ally I](spell/summon_natures_ally_1) | 750 gp |",
 			"| 94 | [true strike](spell/true_strike) | 750 gp |",
 			"| 95 | [undetectable alignment](spell/undetectable_alignment) | 750 gp |",
 			"| 96 | [unseen servant](spell/unseen_servant) | 750 gp |",
@@ -4410,12 +4410,12 @@
 			"| 05 | [animal messenger](spell/animal_messenger) | 4,500 gp |",
 			"| 06 | [animal trance](spell/animal_trance) | 4,500 gp |",
 			"| 07 | [barkskin](spell/barkskin) | 4,500 gp |",
-			"| 08-09 | [bear's endurance](spell/bear's_endurance) | 4,500 gp |",
+			"| 08-09 | [bear's endurance](spell/bears_endurance) | 4,500 gp |",
 			"| 10 | [blindness/deafness](spell/blindness_deafness) | 4,500 gp |",
 			"| 11 | [blur](spell/blur) | 4,500 gp |",
-			"| 12-13 | [bull's strength](spell/bull's_strength) | 4,500 gp |",
+			"| 12-13 | [bull's strength](spell/bulls_strength) | 4,500 gp |",
 			"| 14 | [calm emotions](spell/calm_emotions) | 4,500 gp |",
-			"| 15-16 | [cat's grace](spell/cat's_grace) | 4,500 gp |",
+			"| 15-16 | [cat's grace](spell/cats_grace) | 4,500 gp |",
 			"| 17 | [chill metal](spell/chill_metal) | 4,500 gp |",
 			"| 18 | [command undead](spell/command_undead) | 4,500 gp |",
 			"| 19-24 | [cure moderate wounds](spell/cure_moderate_wounds) | 4,500 gp |",
@@ -4425,14 +4425,14 @@
 			"| 28 | [death knell](spell/death_knell) | 4,500 gp |",
 			"| 29 | [delay poison](spell/delay_poison) | 4,500 gp |",
 			"| 30 | [detect thoughts](spell/detect_thoughts) | 4,500 gp |",
-			"| 31-32 | [eagle's splendor](spell/eagle's_splendor) | 4,500 gp |",
+			"| 31-32 | [eagle's splendor](spell/eagles_splendor) | 4,500 gp |",
 			"| 33 | [enthrall](spell/enthrall) | 4,500 gp |",
 			"| 34 | [false life](spell/false_life) | 4,500 gp |",
 			"| 35-36 | [find traps](spell/find_traps) | 4,500 gp |",
 			"| 37 | [flame blade](spell/flame_blade) | 4,500 gp |",
 			"| 38 | [flaming sphere](spell/flaming_sphere) | 4,500 gp |",
 			"| 39 | [fog cloud](spell/fog_cloud) | 4,500 gp |",
-			"| 40 | [fox's cunning](spell/fox's_cunning) | 4,500 gp |",
+			"| 40 | [fox's cunning](spell/foxs_cunning) | 4,500 gp |",
 			"| 41 | [gentle repose](spell/gentle_repose) | 4,500 gp |",
 			"| 42 | [ghoul touch](spell/ghoul_touch) | 4,500 gp |",
 			"| 43 | [glitterdust](spell/glitterdust) | 4,500 gp |",
@@ -4450,7 +4450,7 @@
 			"| 58 | [minor image](spell/minor_image) | 4,500 gp |",
 			"| 59 | [mirror image](spell/mirror_image) | 4,500 gp |",
 			"| 60 | [misdirection](spell/misdirection) | 4,500 gp |",
-			"| 61-62 | [owl's wisdom](spell/owl's_wisdom) | 4,500 gp |",
+			"| 61-62 | [owl's wisdom](spell/owls_wisdom) | 4,500 gp |",
 			"| 63 | [protection from arrows](spell/protection_from_arrows) | 4,500 gp |",
 			"| 64 | [pyrotechnics](spell/pyrotechnics) | 4,500 gp |",
 			"| 65 | [reduce animal](spell/reduce_animal) | 4,500 gp |",
@@ -4471,7 +4471,7 @@
 			"| 81 | [spiritual weapon](spell/spiritual_weapon) | 4,500 gp |",
 			"| 82 | [status](spell/status) | 4,500 gp |",
 			"| 83 | [summon monster II](spell/summon_monster_2) | 4,500 gp |",
-			"| 84 | [summon nature's ally II](spell/summon_nature's_ally_2) | 4,500 gp |",
+			"| 84 | [summon nature's ally II](spell/summon_natures_ally_2) | 4,500 gp |",
 			"| 85 | [summon swarm](spell/summon_swarm) | 4,500 gp |",
 			"| 86 | [tongues](spell/tongues) | 4,500 gp |",
 			"| 87 | [touch of idiocy](spell/touch_of_idiocy) | 4,500 gp |",
@@ -4557,7 +4557,7 @@
 			"| 83 | [stone shape](spell/stone_shape) | 11,250 gp |",
 			"| 84 | [suggestion](spell/suggestion) | 11,250 gp |",
 			"| 85 | [summon monster III](spell/summon_monster_3) | 11,250 gp |",
-			"| 86 | [summon nature's ally III](spell/summon_nature's_ally_3) | 11,250 gp |",
+			"| 86 | [summon nature's ally III](spell/summon_natures_ally_3) | 11,250 gp |",
 			"| 87 | [tiny hut](spell/tiny_hut) | 11,250 gp |",
 			"| 88 | [vampiric touch](spell/vampiric_touch) | 11,250 gp |",
 			"| 89 | [water breathing](spell/water_breathing) | 11,250 gp |",
@@ -4617,7 +4617,7 @@
 			"| 51 | [locate creature](spell/locate_creature) | 21,000 gp |",
 			"| 52 | [minor creation](spell/minor_creation) | 21,000 gp |",
 			"| 53 | [mnemonic enhancer](spell/mnemonic_enhancer) | 21,000 gp |",
-			"| 54 | [order's wrath](spell/order's_wrath) | 21,000 gp |",
+			"| 54 | [order's wrath](spell/orders_wrath) | 21,000 gp |",
 			"| 55 | [phantasmal killer](spell/phantasmal_killer) | 21,000 gp |",
 			"| 56 | [rainbow pattern](spell/rainbow_pattern) | 21,000 gp |",
 			"| 57 | [reduce person, mass](spell/mass_reduce_person) | 21,000 gp |",
@@ -4634,7 +4634,7 @@
 			"| 68-69 | [spell immunity](spell/spell_immunity) | 21,000 gp |",
 			"| 70 | [spike stones](spell/spike_stones) | 21,000 gp |",
 			"| 71 | [summon monster IV](spell/summon_monster_4) | 21,000 gp |",
-			"| 72 | [summon nature's ally IV](spell/summon_nature's_ally_4) | 21,000 gp |",
+			"| 72 | [summon nature's ally IV](spell/summon_natures_ally_4) | 21,000 gp |",
 			"| 73 | [unholy blight](spell/unholy_blight) | 21,000 gp |",
 			"| 74 | [wall of fire](spell/wall_of_fire) | 21,000 gp |",
 			"| 75 | [wall of ice](spell/wall_of_ice) | 21,000 gp |",
@@ -5704,7 +5704,7 @@
 		"subtopics": [
 			"ruling_a_feudal_society",
 			"the_feudal_hierarchy",
-			"religion's_role",
+			"religions_role",
 			"questions_about_your_feudal_society"
 		],
 		"siblings": [
@@ -5737,7 +5737,7 @@
 		"siblings": [
 			"ruling_a_feudal_society",
 			"the_feudal_hierarchy",
-			"religion's_role",
+			"religions_role",
 			"questions_about_your_feudal_society"
 		]
 	},
@@ -5775,11 +5775,11 @@
 		"siblings": [
 			"ruling_a_feudal_society",
 			"the_feudal_hierarchy",
-			"religion's_role",
+			"religions_role",
 			"questions_about_your_feudal_society"
 		]
 	},
-	"religion's_role": {
+	"religions_role": {
 		"name": "Religion's Role",
 		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -5801,7 +5801,7 @@
 		"siblings": [
 			"ruling_a_feudal_society",
 			"the_feudal_hierarchy",
-			"religion's_role",
+			"religions_role",
 			"questions_about_your_feudal_society"
 		]
 	},
@@ -5844,7 +5844,7 @@
 		"siblings": [
 			"ruling_a_feudal_society",
 			"the_feudal_hierarchy",
-			"religion's_role",
+			"religions_role",
 			"questions_about_your_feudal_society"
 		]
 	},

@@ -5,7 +5,7 @@
 		"description": [
 			"## Egorian Diplomacy",
 			"",
-			"**Source** [Spymaster's Handbook pg. 28](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 28](source/spymasters_handbook)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 1, cleric 1, inquisitor 1, magus 1, mesmerist 1, oracle 1, psychic 1, skald 1, warpriest 1",
 			"",
 			"### Casting",
@@ -131,7 +131,7 @@
 		"description": [
 			"## Elemental Aura",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 3, arcanist 3, bloodrager 3, investigator 3, magus 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -417,7 +417,7 @@
 		"description": [
 			"## Elemental Speech",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination) [[air](spelldef/air), [earth](spelldef/earth), [fire](spelldef/fire), or [water](spelldef/water)]; **Level** arcanist 2, bard 3, cleric 3, druid 2, hunter 2, mesmerist 3, oracle 3, skald 3, sorcerer 2, warpriest 3, wizard 2",
 			"",
 			"### Casting",
@@ -478,7 +478,7 @@
 		"description": [
 			"## Elemental Touch",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 2, arcanist 2, bloodrager 2, investigator 2, magus 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -512,7 +512,7 @@
 		"description": [
 			"## Elude Time",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 5, investigator 5, psychic 7",
 			"",
 			"### Casting",
@@ -684,7 +684,7 @@
 		"description": [
 			"## Empower Holy Water",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayers_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) [[good](spelldef/good)]; **Level** alchemist 2, bard 2, investigator 2, paladin 1, skald 2",
 			"",
 			"### Casting",
@@ -847,7 +847,7 @@
 		"description": [
 			"## Enemy Hammer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 219](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 219](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 6, occultist 6, psychic 6, sorcerer 6, spiritualist 6, wizard 6",
 			"",
 			"### Casting",
@@ -911,7 +911,7 @@
 			"You forge a mental bond between yourself and the other targets, each of which must have an Intelligence score of 3 or higher. Choose one of your favored enemy types (such as goblinoids or magical beasts). You grant the targets half your favored enemy bonus against that type of creature. If any target moves out of range, the spell ends for it."
 		]
 	},
-	"enemy's_heart": {
+	"enemys_heart": {
 		"name": "Enemy's Heart",
 		"sources": [
 			"Advanced Race Guide",
@@ -1421,7 +1421,7 @@
 		"description": [
 			"## Enter Image",
 			"",
-			"**Source** [Advanced Player's Guide pg. 219](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 219](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, bard 2, cleric 3, medium 3, mesmerist 2, occultist 2, oracle 3, psychic 3, redmantisassassin 3, skald 2, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -1769,7 +1769,7 @@
 		"description": [
 			"## Erode Defenses",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 29](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 29](source/dragonslayers_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, magus 2, redmantisassassin 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1793,7 +1793,7 @@
 		"description": [
 			"## Eroding Ray",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -2073,7 +2073,7 @@
 		"description": [
 			"## Euphoric Tranquility",
 			"",
-			"**Source** [Advanced Player's Guide pg. 219](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 219](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 8, bard 6, cleric 8, druid 8, mesmerist 6, oracle 8, psychic 8, skald 6, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -2093,7 +2093,7 @@
 			"Furthermore, if the creature is interacted with, or questioned while under the effects of this spell, it is considered to have an attitude of Helpful (see the [Diplomacy skill](skill/diplomacy)), though any advice or answers it gives may be disjointed or stream of consciousness due to its euphoric state."
 		]
 	},
-	"evaluator's_lens": {
+	"evaluators_lens": {
 		"name": "Evaluator's Lens",
 		"sources": [ "Black Markets" ],
 		"description": [
@@ -2135,7 +2135,7 @@
 		"description": [
 			"## Evolution Surge, Lesser",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 2, unchained summoner 2",
 			"",
 			"### Casting",
@@ -2154,7 +2154,7 @@
 			"",
 			"### Evolution Surge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 3, unchained summoner 3",
 			"",
 			"#### Casting",
@@ -2173,7 +2173,7 @@
 			"",
 			"### Evolution Surge, Greater",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 4, unchained summoner 4",
 			"",
 			"#### Casting",
@@ -2250,7 +2250,7 @@
 		"description": [
 			"## Expeditious Excavation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[earth](spelldef/earth)]; **Level** arcanist 1, druid 1, hunter 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -2308,7 +2308,7 @@
 		"description": [
 			"## Expel Blood",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 13](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 13](source/elemental_masters_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) [[evil](spelldef/evil), [water](spelldef/water)]; **Level** arcanist 7, sorcerer 7, summoner 6, unchained summoner 6, witch 7, wizard 7",
 			"",
 			"### Casting",
@@ -2334,7 +2334,7 @@
 		"description": [
 			"## Expend",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -2683,7 +2683,7 @@
 		"description": [
 			"## Face of the Devourer",
 			"",
-			"**Source** [Inner Sea Gods pg. 233](source/inner_sea_gods), [Pathfinder #23: The Impossible Eye pg. 65](source/pathfinder_#23_the_impossible_eye)  ",
+			"**Source** [Inner Sea Gods pg. 233](source/inner_sea_gods), [Pathfinder #23: The Impossible Eye pg. 65](source/pathfinder_23_the_impossible_eye)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, redmantisassassin 1, sorcerer 1, warpriest 1, wizard 1 (Rovagug)",
 			"",
 			"### Casting",
@@ -2875,7 +2875,7 @@
 		"description": [
 			"## False Alibi",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #59: The Price of Infamy pg. 75](source/pathfinder_#59_the_price_of_infamy)  ",
+			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #59: The Price of Infamy pg. 75](source/pathfinder_59_the_price_of_infamy)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 3, cleric 3, inquisitor 3, oracle 3, skald 3, warpriest 3 (Norgorber)",
 			"",
 			"### Casting",
@@ -3141,7 +3141,7 @@
 		"description": [
 			"## Fastidiousness",
 			"",
-			"**Source** [Disciple's Doctrine pg. 13](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 13](source/disciples_doctrine)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 1, bard 1, cleric 1, mesmerist 1, occultist 1, oracle 1, paladin 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -3247,7 +3247,7 @@
 		"description": [
 			"## Feast of Ashes",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** druid 2, hunter 2, occultist 2, psychic 2, witch 2",
 			"",
 			"### Casting",
@@ -3344,7 +3344,7 @@
 		"description": [
 			"## Feather Step",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 1, druid 1, hunter 1, psychic 1, ranger 1, skald 1",
 			"",
 			"### Casting",
@@ -3363,7 +3363,7 @@
 			"",
 			"### Feather Step, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 3, druid 3, hunter 3, psychic 3, ranger 3, skald 3",
 			"",
 			"#### Casting",
@@ -3442,7 +3442,7 @@
 		"description": [
 			"## Fester",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** inquisitor 3, witch 2",
 			"",
 			"### Casting",
@@ -3461,7 +3461,7 @@
 			"",
 			"### Fester, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** inquisitor 6, witch 6",
 			"",
 			"#### Casting",
@@ -3633,7 +3633,7 @@
 		"description": [
 			"## Fiendish Wrath",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 13](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 13](source/plane-hoppers_handbook)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** alchemist 3, arcanist 4, bard 3, bloodrager 3, investigator 3, mesmerist 3, psychic 4, skald 3, sorcerer 4, summoner 3, unchained summoner 3, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3657,7 +3657,7 @@
 		"description": [
 			"## Fiery Body",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -3734,7 +3734,7 @@
 		"description": [
 			"## Film of Filth",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_74_sword_of_valor)  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** arcanist 4, cleric 4, druid 4, hunter 3, oracle 4, ranger 3, redmantisassassin 4, sorcerer 4, warpriest 4, wizard 4",
 			"",
 			"### Casting",
@@ -3758,7 +3758,7 @@
 		"description": [
 			"## Final Sacrifice",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoners_handbook)  ",
 			"**School** [evocation](spelldef/evocation); **Level** antipaladin 3, arcanist 3, bloodrager 2, cleric 3, oracle 3, shaman 3, sorcerer 3, summoner 2, warpriest 3, witch 4, wizard 3",
 			"",
 			"### Casting",
@@ -3937,7 +3937,7 @@
 		"description": [
 			"## Fire Breath",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** alchemist 2, arcanist 2, bloodrager 2, investigator 2, magus 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -3961,7 +3961,7 @@
 		"description": [
 			"## Fire of Entanglement",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation); **Level** paladin 2",
 			"",
 			"### Casting",
@@ -3985,7 +3985,7 @@
 		"description": [
 			"## Fire of Judgment",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation); **Level** paladin 3",
 			"",
 			"### Casting",
@@ -4009,7 +4009,7 @@
 		"description": [
 			"## Fire of Vengeance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** paladin 4",
 			"",
 			"### Casting",
@@ -4115,7 +4115,7 @@
 		"description": [
 			"## Fire Snake",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 5, druid 5, hunter 5, magus 5, occultist 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -4332,7 +4332,7 @@
 		"description": [
 			"## Firebelly",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #62: Curse of the Lady's Light pg. 75](source/pathfinder_#62_curse_of_the_lady's_light)  ",
+			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #62: Curse of the Lady's Light pg. 75](source/pathfinder_62_curse_of_the_ladys_light)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, paladin 1, warpriest 1 (Torag)",
 			"",
 			"### Casting",
@@ -4356,7 +4356,7 @@
 		"description": [
 			"## Firebrand",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -4380,7 +4380,7 @@
 		"description": [
 			"## Firefall",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 4, bloodrager 4, magus 4, redmantisassassin 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -4400,7 +4400,7 @@
 			"The coruscating rain of fire fills a hemispherical burst with a radius of 60 feet. All creatures and objects in the area take 5d6 points of fire damage and catch on fire. Creatures who make successful Reflex saves take half damage and don't catch on fire. Creatures within 120 feet of the original fire source are blinded for 1d4+1 rounds (Will negates)."
 		]
 	},
-	"fire's_friend": {
+	"fires_friend": {
 		"name": "Fire's Friend",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -4460,7 +4460,7 @@
 			"*Augmented (4th):* If you expend two uses of mythic power, you create a second line of fire using your other hand. If you overlap the lines, creatures in the overlap must attempt two saving throws and take the lower result, but don't take damage from both lines. You may stop either line of fire as a free action on your turn, but once you stop maintaining a line, you must cast mythic firestream again to recreate it."
 		]
 	},
-	"firewalker's_meditation": {
+	"firewalkers_meditation": {
 		"name": "Firewalker's Meditation",
 		"sources": [ "Divine Anthology" ],
 		"description": [
@@ -4610,7 +4610,7 @@
 		"description": [
 			"## Flames of the Faithful",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** inquisitor 2",
 			"",
 			"### Casting",
@@ -4640,7 +4640,7 @@
 		"description": [
 			"## Flaming Aura",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, shaman 4, sorcerer 4, summoner 4, unchained summoner 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -4743,7 +4743,7 @@
 			"",
 			"### Flare Burst",
 			"",
-			"**Source** [Advanced Player's Guide pg. 223](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 223](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** arcanist 1, bard 1, bloodrager 1, druid 1, hunter 1, magus 1, psychic 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"#### Casting",
@@ -5342,7 +5342,7 @@
 		"description": [
 			"## Fluid Form",
 			"",
-			"**Source** [Advanced Player's Guide pg. 223](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 223](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[water](spelldef/water)]; **Level** alchemist 4, arcanist 6, investigator 4, psychic 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -5368,7 +5368,7 @@
 		"description": [
 			"## Flurry of Snowballs",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 72](source/pathfinder_#67_the_snows_of_summer), [People of the North pg. 26](source/people_of_the_north)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer pg. 72](source/pathfinder_67_the_snows_of_summer), [People of the North pg. 26](source/people_of_the_north)  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold), [water](spelldef/water)]; **Level** arcanist 2, druid 2, hunter 2, magus 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5425,7 +5425,7 @@
 			"",
 			"### Fly, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 223](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 223](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 7, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -5479,7 +5479,7 @@
 		"description": [
 			"## Foe to Friend",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 5, mesmerist 5, psychic 7, skald 5",
 			"",
 			"### Casting",
@@ -5568,7 +5568,7 @@
 		"description": [
 			"## Follow Aura",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination) [[chaotic](spelldef/chaotic), [evil](spelldef/evil), [good](spelldef/good), or [lawful](spelldef/lawful)]; **Level** inquisitor 2, occultist 3",
 			"",
 			"### Casting",
@@ -5611,13 +5611,13 @@
 			"You amplify the effect of magic associated with your spirit and wandering spirit (any spells on the spirit magic spell lists for these spirits). When allies within the area cast these spells, they gain a +2 bonus on caster level checks and concentration checks, as well as to spell DCs. This bonus is a sacred bonus if you are good-aligned or a profane bonus if you are evil-aligned; if you are neither good nor evil, you can choose what type of bonus the spell grants when you cast it."
 		]
 	},
-	"fool's_forbiddance": {
+	"fools_forbiddance": {
 		"name": "Fool's Forbiddance",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Fool's Forbiddance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 6, psychic 8, skald 6",
 			"",
 			"### Casting",
@@ -5635,7 +5635,7 @@
 			"Through your antics and performance, you create an area of warding that adversely affects all enemies that dare enter it. When an enemy creature enters the area it must make an immediate Will saving throw. If it fails, the creature is confused as long as it is in the area and for 1 round after it leaves. If it succeeds on the saving throw, the creature is staggered as long as it is in the area and for 1 round after it leaves."
 		]
 	},
-	"fool's_gold_aa": {
+	"fools_gold_aa": {
 		"name": "Fool's Gold (AA)",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -5659,7 +5659,7 @@
 			"You cast this spell on one or more gold pieces, which make those who have them more vulnerable to your magics. A creature with one or more of these gold pieces in its possession must attempt a Will save (at this spell's save DC) the first time the creature is forced to attempt a saving throw against a spell, spell-like ability, or supernatural ability you create. If the creature fails, it takes a -2 penalty on all saving throws against your magic effects as long as the gold piece is in its possession. Additionally, if it fails a saving throw against a magic ability of yours that is not harmless and has a duration, the duration is doubled for that creature."
 		]
 	},
-	"fool's_gold_vc": {
+	"fools_gold_vc": {
 		"name": "Fool's Gold (VC)",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -5683,7 +5683,7 @@
 			"You can temporarily make copper or silver seem to be an equivalent amount of gold. The spell affects 1 gp/level worth of material (thus, at 3rd level, the spell affects up to 300 copper pieces, 30 silver pieces, or a copper or silver item worth no more than 3 gp). Coins increase in value as normal for the new type of coinage. For items other than coins, some of the value of the item comes from its craftsmanship, regardless of the metal used, so the value of the item seems to be 5 times (for silver items) or 50 times (for copper items) its true value. Thus, a copper candlestick originally worth 5 cp transformed by this spell appears to be worth 250 cp, or 2 gp and 5 sp. A successful DC 25 Appraise check automatically detects the true nature of the coins or items. Creatures inspecting or interacting with the coins or items can attempt a saving throw to disbelieve the illusion."
 		]
 	},
-	"fool's_teleport": {
+	"fools_teleport": {
 		"name": "Fool's Teleport",
 		"sources": [ "Occult Origins" ],
 		"description": [
@@ -5815,7 +5815,7 @@
 		"description": [
 			"## Force Anchor",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[force](spelldef/force)]; **Level** arcanist 3, inquisitor 2, magus 2, sorcerer 3, summoner 2, unchained summoner 2, wizard 3",
 			"",
 			"### Casting",
@@ -6008,7 +6008,7 @@
 		"description": [
 			"## Forced Repentance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 4, paladin 4",
 			"",
 			"### Casting",
@@ -6135,7 +6135,7 @@
 			"When moving in and among trees, those subject to the spell gain a +5 circumstance bonus on Acrobatics checks and Climb checks. Rangers in their favored terrain can also add their favored terrain bonus on such Acrobatics and Climb checks."
 		]
 	},
-	"forest's_sense": {
+	"forests_sense": {
 		"name": "Forest's Sense",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -6536,13 +6536,13 @@
 	"form_of_the_exotic_dragon_iii": {
 		"copyof": "form_of_the_exotic_dragon_3"
 	},
-	"fortune's_path": {
+	"fortunes_path": {
 		"name": "Fortune's Path",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Fortune's Path",
 			"",
-			"**Source** [Disciple's Doctrine pg. 10](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 10](source/disciples_doctrine)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, bard 2, cleric 3, oracle 3, skald 2, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -6593,7 +6593,7 @@
 			"Since most creatures don't hold ill-will toward their own race, you can use foster hatred toward a smaller subset of creatures of your chosen type, such as worshipers of Shelyn, in order to focus the hatred onto your chosen targets."
 		]
 	},
-	"fox's_cunning": {
+	"foxs_cunning": {
 		"name": "Fox's Cunning",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -6636,12 +6636,12 @@
 			"This spell functions like fox's cunning, except that it affects multiple creatures."
 		]
 	},
-	"fox's_cunning_mass": {
+	"foxs_cunning_mass": {
 		"name": "Fox's Cunning, Mass",
-		"copyof": "fox's_cunning"
+		"copyof": "foxs_cunning"
 	},
-	"mass_fox's_cunning": {
-		"copyof": "fox's_cunning_mass"
+	"mass_foxs_cunning": {
+		"copyof": "foxs_cunning_mass"
 	},
 	"fractions_of_heal_and_harm": {
 		"name": "Fractions of Heal and Harm",
@@ -6652,7 +6652,7 @@
 		"description": [
 			"## Fractions of Heal and Harm",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #41: The Thousand Fangs Below pg. 73](source/pathfinder_#41_the_thousand_fangs_below)  ",
+			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #41: The Thousand Fangs Below pg. 73](source/pathfinder_41_the_thousand_fangs_below)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, bard 3, bloodrager 3, cleric 3, oracle 3, redmantisassassin 3, skald 3, sorcerer 3, warpriest 3, wizard 3 (Nethys)",
 			"",
 			"### Casting",
@@ -6766,7 +6766,7 @@
 			"The spell also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as flails, hammers, and maces, provided that the weapon is wielded in the hand rather than hurled. The freedom of movement spell does not, however, grant water breathing."
 		]
 	},
-	"freedom's_toast": {
+	"freedoms_toast": {
 		"name": "Freedom's Toast",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -6927,7 +6927,7 @@
 		"description": [
 			"## Frost Mammoth",
 			"",
-			"**Source** [Adventurer's Guide pg. 134](source/adventurer's_guide), [People of the North pg. 26](source/people_of_the_north)  ",
+			"**Source** [Adventurer's Guide pg. 134](source/adventurers_guide), [People of the North pg. 26](source/people_of_the_north)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[cold](spelldef/cold)]; **Level** arcanist 7, cleric 7, druid 7, oracle 7, shaman 7, sorcerer 7, summoner 6, unchained summoner 6, wizard 7",
 			"",
 			"### Casting",
@@ -6975,7 +6975,7 @@
 		"description": [
 			"## Frosthammer",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source/pathfinder_#69_maiden_mother_crone)  ",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source/pathfinder_69_maiden_mother_crone)  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold)]; **Level** antipaladin 3, cleric 3, hunter 3, inquisitor 3, oracle 3, ranger 3, warpriest 3 (Kostchtchie)",
 			"",
 			"### Casting",
@@ -6999,7 +6999,7 @@
 		"description": [
 			"## Frosty Aura",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [transmutation](spelldef/transmutation) [[cold](spelldef/cold)]; **Level** arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, shaman 4, sorcerer 4, summoner 4, unchained summoner 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -7025,7 +7025,7 @@
 		"description": [
 			"## Frozen Note",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting), [sonic](spelldef/sonic)]; **Level** bard 5, skald 5",
 			"",
 			"### Casting",
@@ -7149,7 +7149,7 @@
 		"description": [
 			"## Fungal Blisters",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 70](source/pathfinder_#119_prisoners_of_the_blight)  ",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 70](source/pathfinder_119_prisoners_of_the_blight)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, druid 2, hunter 2, investigator 2, sorcerer 2, witch 2, wizard 2 (Cyth-V'sug)",
 			"",
 			"### Casting",
@@ -7248,7 +7248,7 @@
 		"description": [
 			"## Gallant Inspiration",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** bard 2, skald 2",
 			"",
 			"### Casting",
@@ -7300,7 +7300,7 @@
 		"description": [
 			"## Garrulous Grin",
 			"",
-			"**Source** [Spymaster's Handbook pg. 28](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 28](source/spymasters_handbook)  ",
 			"**School** [necromancy](spelldef/necromancy) [[fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** antipaladin 2, bard 2, inquisitor 2, mesmerist 2, psychic 2, shaman 2, skald 2, spiritualist 2, witch 3",
 			"",
 			"### Casting",
@@ -7493,7 +7493,7 @@
 	},
 	"geas": { "copyof": "geas_quest" },
 	"quest": { "copyof": "geas_quest" },
-	"geb's_hammer": {
+	"gebs_hammer": {
 		"name": "Geb's Hammer",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
@@ -7583,7 +7583,7 @@
 		"description": [
 			"## Genius Avaricious",
 			"",
-			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 68](source/pathfinder_#30_the_twice-damned_prince)  ",
+			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 68](source/pathfinder_30_the_twice-damned_prince)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[evil](spelldef/evil)]; **Level** arcanist 6, cleric 6, oracle 6, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"### Casting",
@@ -7693,7 +7693,7 @@
 		"description": [
 			"## Getaway",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** arcanist 6, bard 6, mesmerist 6, occultist 6, psychic 6, skald 6, sorcerer 6, spiritualist 6, wizard 6",
 			"",
 			"### Casting",
@@ -7717,7 +7717,7 @@
 		"description": [
 			"## Geyser",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[fire](spelldef/fire), [water](spelldef/water)]; **Level** arcanist 5, druid 4, hunter 4, magus 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -7854,7 +7854,7 @@
 		"description": [
 			"## Ghostbane Dirge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 2, cleric 2, inquisitor 2, occultist 2, oracle 2, paladin 1, shaman 2, skald 2, warpriest 2",
 			"",
 			"### Casting",
@@ -7873,7 +7873,7 @@
 			"",
 			"### Ghostbane Dirge, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 4, cleric 5, inquisitor 5, occultist 5, oracle 5, paladin 3, shaman 5, skald 4, warpriest 5",
 			"",
 			"#### Casting",

@@ -89,7 +89,7 @@
 		"name": "Book-Bound",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
-			"**Book-Bound (Su)** ([Disciple's Doctrine pg. 9](source/disciple's_doctrine)): As long as he wields his spellbook in his off hand, the magus can take an immediate action to gain a +4 bonus on a concentration check he attempts within the next round. This bonus stacks with other bonuses, including the bonus from the concentrate arcana. The magus can use this ability three times per day."
+			"**Book-Bound (Su)** ([Disciple's Doctrine pg. 9](source/disciples_doctrine)): As long as he wields his spellbook in his off hand, the magus can take an immediate action to gain a +4 bonus on a concentration check he attempts within the next round. This bonus stacks with other bonuses, including the bonus from the concentrate arcana. The magus can use this ability three times per day."
 		]
 	},
 	"broad_study": {
@@ -103,7 +103,7 @@
 		"name": "Circle of Order",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
-			"**Circle of Order (Su)** ([Disciple's Doctrine pg. 9](source/disciple's_doctrine)): As a swift action, the magus can spend 1 point from his arcane pool to fortify his defenses against chaotic attacks. This grants him a dodge bonus to his AC equal to half his magus level (maximum +10 at 20th level) against chaotic-aligned attacks and effects and outsiders with the chaotic subtype until the beginning of his next turn. (For example, the magus would gain the dodge bonus against attacks from an anarchic weapon or a glabrezu's pincers.) The magus must be at least 9th level to select this arcana."
+			"**Circle of Order (Su)** ([Disciple's Doctrine pg. 9](source/disciples_doctrine)): As a swift action, the magus can spend 1 point from his arcane pool to fortify his defenses against chaotic attacks. This grants him a dodge bonus to his AC equal to half his magus level (maximum +10 at 20th level) against chaotic-aligned attacks and effects and outsiders with the chaotic subtype until the beginning of his next turn. (For example, the magus would gain the dodge bonus against attacks from an anarchic weapon or a glabrezu's pincers.) The magus must be at least 9th level to select this arcana."
 		]
 	},
 	"close_range": {
@@ -218,7 +218,7 @@
 		"name": "Intuitive Protection",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"**Intuitive Protection (Sp)** ([Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)): When a conjuration (summoning) spell is cast by an opponent and the magus successfully identifies the spell with a Spellcraft check, he can spend 1 point form his arcane pool as an immediate action to cast protection from chaos, evil, good, or law (chosen when using this ability) on himself; this lasts a number of rounds equal to his magus level. At 7th level, he can instead cast magic circle against chaos, evil, good, or law when using this ability. The magus must be at least 3rd level before selecting this arcana."
+			"**Intuitive Protection (Sp)** ([Monster Summoner's Handbook pg. 9](source/monster_summoners_handbook)): When a conjuration (summoning) spell is cast by an opponent and the magus successfully identifies the spell with a Spellcraft check, he can spend 1 point form his arcane pool as an immediate action to cast protection from chaos, evil, good, or law (chosen when using this ability) on himself; this lasts a number of rounds equal to his magus level. At 7th level, he can instead cast magic circle against chaos, evil, good, or law when using this ability. The magus must be at least 3rd level before selecting this arcana."
 		]
 	},
 	"ki_arcana": {
@@ -260,7 +260,7 @@
 		"name": "Planar Hunter",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"**Planar Hunter (Su)** ([Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)): Whenever the magus enhances his weapon using his arcane pool, he can spend 1 additional point from his arcane pool to add the planar special ability to his weapon, or 2 additional points to add the phase locking special ability. The magus must be at least 9th level before selecting this arcana."
+			"**Planar Hunter (Su)** ([Monster Summoner's Handbook pg. 9](source/monster_summoners_handbook)): Whenever the magus enhances his weapon using his arcane pool, he can spend 1 additional point from his arcane pool to add the planar special ability to his weapon, or 2 additional points to add the phase locking special ability. The magus must be at least 9th level before selecting this arcana."
 		]
 	},
 	"pool_ray": {
@@ -319,7 +319,7 @@
 			"**Quickened Magic (Su)** ([Ultimate Magic pg. 12](source/ultimate_magic)): The magus can cast one spell per day as if it were modified by the Quicken Spell feat. This does not increase the level of the spell. The magus must be at least 15th level before selecting this magus arcana."
 		]
 	},
-	"rakshasa's_fortune": {
+	"rakshasas_fortune": {
 		"name": "Rakshasa's Fortune",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
@@ -424,11 +424,11 @@
 			"**Still Magic (Su)** ([Ultimate Magic pg. 12](source/ultimate_magic)): The magus can cast one spell per day as if it were modified by the Still Spell feat. This does not increase the casting time or the level of the spell."
 		]
 	},
-	"tabris's_step": {
+	"tabriss_step": {
 		"name": "Tabris's Step",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
-			"**Tabris's Step (Sp)** ([Disciple's Doctrine pg. 9](source/disciple's_doctrine)): As a swift action, a magus can spend 1 point from his arcane pool and gain the effects of a water walk spell for 10 minutes per magus level. If he expends 2 points from his arcane pool, he can affect a total number of touched creatures equal to his magus level. The magus must be at least 6th level to select this arcana."
+			"**Tabris's Step (Sp)** ([Disciple's Doctrine pg. 9](source/disciples_doctrine)): As a swift action, a magus can spend 1 point from his arcane pool and gain the effects of a water walk spell for 10 minutes per magus level. If he expends 2 points from his arcane pool, he can affect a total number of touched creatures equal to his magus level. The magus must be at least 6th level to select this arcana."
 		]
 	},
 	"throwing_magus": {

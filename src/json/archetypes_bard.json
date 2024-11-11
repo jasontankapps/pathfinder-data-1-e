@@ -20,7 +20,7 @@
 			"",
 			"**Attract Rats:** At 6th level, the animal speaker can use bardic performance to summon 1d3 rat swarms; they remain as long as he continues performing. At 11th level, he summons 2d3 swarms instead of 1d3 and the swarms have the advanced creature simple template. At 17th level, the number of swarms he summons increases to 3d3. This ability replaces suggestion.",
 			"",
-			"**Summon Nature's Ally:** At 1st level, the animal speaker adds [summon nature's ally I](spell/summon_nature's_ally_1) to his bard spell list and bard spells known as a 1st-level spell. At 4th level (when he gains access to 2nd-level spells) he adds [summon nature's ally II](spell/summon_nature's_ally_2) to his spell list and spells known as a 2nd-level spell, and so on every 3 levels thereafter, until 16th level when he adds [summon nature's ally VI](spell/summon_nature's_ally_6) to his 6th-level spell list and spells known. This replaces mass suggestion"
+			"**Summon Nature's Ally:** At 1st level, the animal speaker adds [summon nature's ally I](spell/summon_natures_ally_1) to his bard spell list and bard spells known as a 1st-level spell. At 4th level (when he gains access to 2nd-level spells) he adds [summon nature's ally II](spell/summon_natures_ally_2) to his spell list and spells known as a 2nd-level spell, and so on every 3 levels thereafter, until 16th level when he adds [summon nature's ally VI](spell/summon_natures_ally_6) to his 6th-level spell list and spells known. This replaces mass suggestion"
 		]
 	},
 	"arcane_duelist": {
@@ -29,7 +29,7 @@
 		"description": [
 			"## Arcane Duelist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 80](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 80](source/advanced_players_guide)  ",
 			"A master of the martial applications of steel and spell, the arcane duelist blends both into a lethal combination.",
 			"",
 			"**Arcane Strike:** Arcane duelists gain [Arcane Strike](feat/arcane_strike) as a bonus feat at 1st level. This ability replaces bardic knowledge.",
@@ -95,7 +95,7 @@
 		"description": [
 			"## Archivist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 80](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 80](source/advanced_players_guide)  ",
 			"Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic brethren.",
 			"",
 			"**Bardic Performance:** An archivist gains the following types of bardic performance.",
@@ -121,7 +121,7 @@
 		"description": [
 			"## Argent Voice",
 			"",
-			"**Source** [Adventurer's Guide pg. 174](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 174](source/adventurers_guide)  ",
 			"As much as the [Silver Ravens](rule/aff_rebels) are freedom fighters, they are also patrons of the arts. Perhaps owing to the strong ties between the organization's leadership and the Kintargo Opera House, the Silver Ravens are particularly active in the theater community and count many of Cheliax's finest singers among their recruits. In part, this is mere shrewdness, as actors and performers are often invited into the halls of the wealthy and powerful, where a rebellion can do the most damage.",
 			"",
 			"However, there is another reason for the Silver Ravens to recruit singers from the Chelish opera. The Silver Ravens rely on talented voices to deploy their most powerful weapon in the defense of Kintargo-the \"Song of Silver.\" While specially trained argent dramaturges can create lesser versions of this song, the true \"Song of Silver\" must be performed in Kintargo. Those among the Silver Ravens who dedicate themselves to the study of this magical performance are known as argent voices, and through practice and experience, these bards are able to modulate their own bardic performance abilities to reflect some measure of the power found in the \"Song of Silver.\" For this reason, argent voices are among the most respected and treasured of the Silver Raven's agents. While some argent voices travel the Inner Sea, fighting tyranny and oppression, many others remain in Kintargo, ready to activate the city's defenses should the need arise.",
@@ -199,7 +199,7 @@
 		"description": [
 			"## Brazen Deceiver",
 			"",
-			"**Source** [Adventurer's Guide pg. 50](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 50](source/adventurers_guide)  ",
 			"Where other thieves use stealth or intimidation to achieve their goals, the brazen deceiver depends on lies. The [Council of Thieves](rule/aff_thieves) often sends brazen deceivers to acquire blackmail materials, arrange the release of incarcerated agents, or otherwise manipulate events in the Council's favor. Brazen deceivers' techniques come from a dark source. During the reformation of the Council, Sabriune and Aspexia acquired the shattered fragments of an ancient relic called the Totemrix, which belonged to the long-deceased demon lord of shadows, Vyriavaxus. This particularly intrigued Sabriune, for it was her demonic patron Nocticula who slew Vyriavaxus. Drawing upon Sabriune's heretical faith, Aspexia's psychometric mastery, and Westcrown's lingering psychic trauma from an oppressive shadow curse that plagued its nights for many years, the Council leaders were able to coax remnants of power from the broken artifact. All brazen deceivers are imbued with a fragment of that power during their initiation-not enough to damn a soul or shift alignment, but just enough to give these bards access to the sinister energies they need to deceive.",
 			"",
 			"**Deceptive Tale (Su):** A brazen deceiver learns the deceptive tale bardic performance, allowing him to weave magic into his lies and imbue the most fantastic claims with the appearance of truth. While the brazen deceiver maintains this performance, he takes half the normal penalty on Bluff checks for unlikely lies (rounding down to -2). At 5th level, this effect also applies to Bluff checks for far-fetched lies, and at 11th level, it applies to Bluff checks for impossible lies. Deceptive tale relies on audible components.",
@@ -365,7 +365,7 @@
 		"description": [
 			"## Court Bard",
 			"",
-			"**Source** [Advanced Player's Guide pg. 81](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 81](source/advanced_players_guide)  ",
 			"Spending years studying all of the finer points of erudition and etiquette, the court bard takes up the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the well-moneyed elite who aspire to join their ranks.",
 			"",
 			"**Bardic Performance:** A court bard gains the following types of bardic performance.",
@@ -549,7 +549,7 @@
 		"description": [
 			"## Detective",
 			"",
-			"**Source** [Advanced Player's Guide pg. 81](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 81](source/advanced_players_guide)  ",
 			"Piecing together clues and catching the guilty with sheer cleverness, the detective is skilled at divining the truth.",
 			"",
 			"**Bardic Performance:** A detective gains the following types of bardic performance.",
@@ -731,7 +731,7 @@
 		"description": [
 			"## Faith Singer",
 			"",
-			"**Source** [Healer's Handbook pg. 19](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 19](source/healers_handbook)  ",
 			"Faith singers show their faith in their deity with songs or other appropriate performances.",
 			"",
 			"**Faithful:** Like a cleric, a faith singer must worship a deity, and his alignment must be within one step of his deity's alignment.",
@@ -752,7 +752,7 @@
 			"",
 			"**Bardic Performance:** The fey courtier has access to the following bardic performances.",
 			"",
-			"**Scorn of the Wilds (Sp):** At 8th level, the fey courtier can use bardic performance to permanently mark a creature with nature's displeasure by spending 2 rounds performing while the target remains within 30 feet. The performance includes a litany of the target's misdeeds against fey and nature. Unless the target succeeds at a Will saving throw (DC = 10 + half the bard's level + his Charisma modifier), it is cursed as per [nature's exile](spell/nature's_exile) or [bestow curse](spell/bestow_curse). At 14th level, the fey courtier's options expand to include [baleful polymorph](spell/baleful_polymorph) and [green caress](spell/green_caress). As part of the performance, the fey courtier must define a condition under which the curse will be lifted, which must relate to making amends for the crime against fey or nature and cannot be suicidal to carry out. A creature that succeeds at its saving throw is immune to the fey courtier's scorn of the wild for 24 hours. This is a curse effect.",
+			"**Scorn of the Wilds (Sp):** At 8th level, the fey courtier can use bardic performance to permanently mark a creature with nature's displeasure by spending 2 rounds performing while the target remains within 30 feet. The performance includes a litany of the target's misdeeds against fey and nature. Unless the target succeeds at a Will saving throw (DC = 10 + half the bard's level + his Charisma modifier), it is cursed as per [nature's exile](spell/natures_exile) or [bestow curse](spell/bestow_curse). At 14th level, the fey courtier's options expand to include [baleful polymorph](spell/baleful_polymorph) and [green caress](spell/green_caress). As part of the performance, the fey courtier must define a condition under which the curse will be lifted, which must relate to making amends for the crime against fey or nature and cannot be suicidal to carry out. A creature that succeeds at its saving throw is immune to the fey courtier's scorn of the wild for 24 hours. This is a curse effect.",
 			"",
 			"This replaces dirge of doom and frightening tune.",
 			"",
@@ -772,7 +772,7 @@
 			"| 14th | 8,000 gp | 50,000 gp |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_nature's_ally_1) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat/augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell/summon_natures_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_natures_ally_1) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), [mite](monster/mite), [sprite](monster/sprite); 2nd-[atomie](monster/atomie), [fuath (gremlin)](monster/fuath), [nixie](monster/nixie); 3rd-[leprechaun](monster/leprechaun), [nuglub (gremlin)](monster/nuglub), [pooka](monster/pooka); 4th-[kelpie](monster/kelpie), [korred](monster/korred), [twigjack](monster/twigjack); 5th-[lampad](monster/lampad), [lurker in light](monster/lurker_in_light), [swan maiden](monster/swan_maiden); 6th-[cold rider](monster/cold_rider), [oceanid](monster/oceanid), [sangoi](monster/sangoi).",
 			"",
 			"This replaces inspire competence."
 		]
@@ -866,7 +866,7 @@
 			"**Source** [Legacy of the First World pg. 11](source/legacy_of_the_first_world)  ",
 			"Most cultures tell stories of people stolen away by the fey, only to return years later, forever changed. The First World minstrel was changed in such a way by the fey, and his performances channel the mysterious powers of the First World.",
 			"",
-			"**Fey Magic:** A First World minstrel adds [summon nature's ally](spell/summon_nature's_ally_1) spells to his spell list instead of the equivalent [summon monster](spell/summon_monster_1) spells.",
+			"**Fey Magic:** A First World minstrel adds [summon nature's ally](spell/summon_natures_ally_1) spells to his spell list instead of the equivalent [summon monster](spell/summon_monster_1) spells.",
 			"",
 			"This ability alters the First World minstrel's spell list.",
 			"",
@@ -915,7 +915,7 @@
 		"description": [
 			"## Flamesinger",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 5](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 5](source/elemental_masters_handbook)  ",
 			"The flamesinger finds inspiration in the mesmerizing beauty of fire. While the flamesinger's tradition originated among the varied peoples of the Padishah Empire of Kelesh, it long ago spread to Qadira and from there throughout the Inner Sea region.",
 			"",
 			"**Fire Music:** A flamesinger gains [Fire Music](feat/fire_music) as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds [summon monster I](spell/summon_monster_1) and [summon monster II](spell/summon_monster_2) to her bard spells known; every 3 levels thereafter she gains the next level of [summon monster](spell/summon_monster_1), until she adds [summon monster VI](spell/summon_monster_6) to her spells known at 16th level. The flamesinger must apply the [Fire Music](feat/fire_music) feat's effect when casting these spells.",
@@ -1127,7 +1127,7 @@
 		"description": [
 			"## Luring Piper",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 11](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 11](source/monster_hunters_handbook)  ",
 			"Some bards have an exceptional ability to use their musical performances to entrance the world's wilder creatures. These performers are so focused that they create melodies capable of leading animals and fey to their unwilling death.",
 			"",
 			"**Class Skills:** A luring piper gains Survival as a class skill.",
@@ -1167,7 +1167,7 @@
 		"description": [
 			"## Magician",
 			"",
-			"**Source** [Advanced Player's Guide pg. 82](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 82](source/advanced_players_guide)  ",
 			"A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them.",
 			"",
 			"**Bardic Performance:** A magician gains the following types of bardic performance.",
@@ -1423,7 +1423,7 @@
 		"description": [
 			"## Ringleader (AG)",
 			"",
-			"**Source** [Adventurer's Guide pg. 33](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 33](source/adventurers_guide)  ",
 			"The [Aspis Consortium's](rule/aff_profiteers) global operations are too extensive to conduct without relying on contractors and hirelings. Ringleaders are specialists who oversee large operations in which trouble could strike at any moment and any place.",
 			"",
 			"**Cunning Plan (Su):** By spending 1 minute laying out a plan, a ringleader can impart inspiring instructions to a number of allies equal to her bard level + her Charisma bonus. Upon concluding the plan, the ringleader chooses one of her bardic performances and expends a number of rounds of bardic performance equal to up to double her bard level. Thereafter, as a move action, the ringleader or any of the instructed allies can trigger the implanted instructions, causing that creature to immediately gain the benefits of the ringleader's implanted bardic performance (each creature can trigger the instructions for itself separately). This effect lasts for a number of rounds equal to the rounds of bardic performance the ringleader expended while creating the plan, though the effect also ends if the ringleader dismisses it as a free action or activates a different plan or bardic performance. For the purpose of this ability, the ringleader attempts any skill checks associated with the bardic performance once a creature triggers the plan. A ringleader's cunning plans all expire each time she regains her daily spell slots or after 24 hours (whichever comes first).",
@@ -1487,7 +1487,7 @@
 		"description": [
 			"## Sandman",
 			"",
-			"**Source** [Advanced Player's Guide pg. 82](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 82](source/advanced_players_guide)  ",
 			"Combining performance with stealth, trickery, and guile, the sandman uses cleverness to keep others off-balance.",
 			"",
 			"**Bardic Performance:** A sandman gains the following types of bardic performance.",
@@ -1519,7 +1519,7 @@
 		"description": [
 			"## Savage Skald",
 			"",
-			"**Source** [Advanced Player's Guide pg. 84](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 84](source/advanced_players_guide)  ",
 			"Far from civilization, furious tribes have their own war-singers, work-chanters, and lore-keepers, savaging enemies with song and sword alike.",
 			"",
 			"**Bardic Performance:** A savage skald gains the following types of bardic performance.",
@@ -1541,7 +1541,7 @@
 		"description": [
 			"## Sea Singer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 84](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 84](source/advanced_players_guide)  ",
 			"The sea singer calls the blue waters his home, and is much in demand among sea captains wishing good fortune for their crew and hull as they ply the tradewinds far and wide.",
 			"",
 			"**Bardic Performance:** A sea singer gains the following types of bardic performance.",
@@ -1607,7 +1607,7 @@
 		"description": [
 			"## Solacer",
 			"",
-			"**Source** [Healer's Handbook pg. 18](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 18](source/healers_handbook)  ",
 			"Solacers are experts in the healing arts as well as creators of performances that console the distraught, rally the stricken, raise spirits, and vanquish sorrow.",
 			"",
 			"**Class Skills:** A solacer adds Heal to his list of class skills instead of Appraise.",
@@ -1758,7 +1758,7 @@
 		"description": [
 			"## Street Performer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 85](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 85](source/advanced_players_guide)  ",
 			"Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for his supper.",
 			"",
 			"**Bardic Performance:** A street performer gains the following types of bardic performance.",

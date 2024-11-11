@@ -1,5 +1,5 @@
 {
-	"archmage's_vestments": {
+	"archmages_vestments": {
 		"name": "Archmage's Vestments",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -9,9 +9,9 @@
 			"",
 			"Consisting of everything a truly legendary wizard might need to overcome his rivals, the Archmage's Vestments enhance the wearer's spellcasting abilities.",
 			"",
-			"[Caster's Shield, Greater](magic-armor/caster's_shield_greater): For each additional piece of the set you wear or wield, the maximum spell level of scroll you can inscribe on this shield increases by 1.",
+			"[Caster's Shield, Greater](magic-armor/casters_shield_greater): For each additional piece of the set you wear or wield, the maximum spell level of scroll you can inscribe on this shield increases by 1.",
 			"",
-			"[Magician's Hat](magic-wondrous/magician's_hat): While you are wearing and wielding all five pieces of this set, you can use this hat's ability to shift metamagic feats two additional times per day.",
+			"[Magician's Hat](magic-wondrous/magicians_hat): While you are wearing and wielding all five pieces of this set, you can use this hat's ability to shift metamagic feats two additional times per day.",
 			"",
 			"[Ring of Counterspells](magic-ring/ring_of_counterspells): While you are wearing and wielding all five pieces of this set, you can store a second spell of 1st through 6th level inside this ring.",
 			"",
@@ -28,7 +28,7 @@
 			"**Five-Item Benefit:** While you are wearing and wielding all five pieces of this set, you gain one additional 5th-level spell slot for one arcane spellcasting class you have levels in."
 		]
 	},
-	"aroden's_array": {
+	"arodens_array": {
 		"name": "Aroden's Array",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -57,7 +57,7 @@
 			"**Five-Item Benefit:** When wearing and wielding all five pieces of this set, once per day as an immediate action you can maximize the effects of a single healing effect targeting you, treating all dice rolled as part of the effect as though they had rolled the maximum possible value."
 		]
 	},
-	"beastmaster's_will": {
+	"beastmasters_will": {
 		"name": "Beastmaster's Will",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -82,7 +82,7 @@
 			"**Four-Item Benefit:** When wearing all four pieces of this set, you gain the [animal focus](class/hunter) class feature with an effective hunter level equal to your character level - 4. You can only use this ability on yourself in 1-minute increments and not an any animal companion you may have. The animal focus class feature you gain from this equipment set is separate of that from any other source."
 		]
 	},
-	"besmara's_bounty": {
+	"besmaras_bounty": {
 		"name": "Besmara's Bounty",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -100,7 +100,7 @@
 			"",
 			"[Jellyfish Cape](magic-wondrous/jellyfish_cape): For every two additional pieces of this set you wear or wield, the electricity damage dealt by this item's tentacles increases by 1d4 and the DC to resist being sickened by their sting increases by 1.",
 			"",
-			"[Sea Tyrant's Patch](magic-wondrous/sea_tyrant's_patch): While you are wearing and wielding all five pieces of this set, you can use this item's ability to use [mass charm monster](spell/mass_charm_monster) one additional time per day.",
+			"[Sea Tyrant's Patch](magic-wondrous/sea_tyrants_patch): While you are wearing and wielding all five pieces of this set, you can use this item's ability to use [mass charm monster](spell/mass_charm_monster) one additional time per day.",
 			"",
 			"**Two-Item Benefit:** While you are wearing or wielding at least two pieces of this set, you gain a +1 circumstance bonus on Acrobatics checks to balance and Swim checks.",
 			"",
@@ -140,7 +140,7 @@
 			"**Five-Item Benefit:** While you are wearing all five pieces of this set, you gain immunity to fire damage."
 		]
 	},
-	"irori's_meditation": {
+	"iroris_meditation": {
 		"name": "Irori's Meditation",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -152,7 +152,7 @@
 			"",
 			"[Bodywrap of Mighty Strikes1](magic-wondrous/bodywrap_of_mighty_strikes_1): For every additional piece of this set you wear, you can add this item's enhancement to one additional attack and damage roll per round.",
 			"",
-			"[Monk's Robe](magic-wondrous/monk's_robe): While you are wearing all three pieces of this set, the bonus to AC you gain from your effective monk levels granted by this item increases by 2, exceeding the monk's AC bonus maximum of +5 if applicable.",
+			"[Monk's Robe](magic-wondrous/monks_robe): While you are wearing all three pieces of this set, the bonus to AC you gain from your effective monk levels granted by this item increases by 2, exceeding the monk's AC bonus maximum of +5 if applicable.",
 			"",
 			"[Necklace of Ki Serenity](magic-wondrous/necklace_of_ki_serenity): For every additional piece of this set you wear, you increase this item's bonus by 1.",
 			"",
@@ -161,7 +161,7 @@
 			"**Three-Item Benefit:** When wearing all three pieces of this set, your base speed increases by 10 feet."
 		]
 	},
-	"pharasma's_command": {
+	"pharasmas_command": {
 		"name": "Pharasma's Command",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
@@ -190,7 +190,7 @@
 			"**Five-Item Benefit:** When wearing and wielding all five pieces of this set, you gain immunity to death effects."
 		]
 	},
-	"urgathoa's_gluttony": {
+	"urgathoas_gluttony": {
 		"name": "Urgathoa's Gluttony",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [

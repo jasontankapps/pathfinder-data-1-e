@@ -494,7 +494,7 @@
 		"description": [
 			"## Grenade (gas grenade)",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 62](source/pathfinder_#86_lords_of_rust)  ",
+			"**Source** [Pathfinder #86: Lords of Rust pg. 62](source/pathfinder_86_lords_of_rust)  ",
 			"**Price** 750 gp  ",
 			"**Slot** none; **Weight** 1 lb.  ",
 			"**Capacity** 1; **Usage** disposable",
@@ -717,13 +717,13 @@
 		],
 		"copyof": "cortex_gun_mark_i"
 	},
-	"envoy's_mouthpiece": {
+	"envoys_mouthpiece": {
 		"name": "Envoy's mouthpiece",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Envoy's mouthpiece",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 62](source/pathfinder_#86_lords_of_rust)  ",
+			"**Source** [Pathfinder #86: Lords of Rust pg. 62](source/pathfinder_86_lords_of_rust)  ",
 			"**Price** 2,000 gp  ",
 			"**Slot** headband; **Weight** 1 lb.  ",
 			"**Capacity** 10; **Usage** 1/hour",
@@ -801,7 +801,7 @@
 		"description": [
 			"## Mindmelder",
 			"",
-			"**Source** [Pathfinder #90: The Divinity Drive pg. 61](source/pathfinder_#90_the_divinity_drive)  ",
+			"**Source** [Pathfinder #90: The Divinity Drive pg. 61](source/pathfinder_90_the_divinity_drive)  ",
 			"**Price** 30,000 gp  ",
 			"**Slot** head; **Weight** 3 lbs.  ",
 			"**Capacity** 10; **Usage** 1/hour",
@@ -936,7 +936,7 @@
 		"description": [
 			"## Nutrient training node",
 			"",
-			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_#87_the_choking_tower)  ",
+			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_87_the_choking_tower)  ",
 			"**Price** 30,000 gp  ",
 			"**Slot** none; **Weight** 25 lbs.  ",
 			"**Capacity** 100; **Usage** 1 charge",
@@ -959,7 +959,7 @@
 		"description": [
 			"## Proximity helmet",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 61](source/pathfinder_#85_fires_of_creation)  ",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 61](source/pathfinder_85_fires_of_creation)  ",
 			"**Price** 4,000 gp  ",
 			"**Slot** head; **Weight** 2 lbs.  ",
 			"**Capacity** 10; **Usage** 1 charge/hour",
@@ -1515,7 +1515,7 @@
 		"description": [
 			"## Grip of death",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 72](source/pathfinder_#88_valley_of_the_brain_collectors)  ",
+			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 72](source/pathfinder_88_valley_of_the_brain_collectors)  ",
 			"**Price** 90,000 gp  ",
 			"**Slot** none; **Weight** 1 lb.  ",
 			"**Capacity** 10; **Usage** 1 charge/round",

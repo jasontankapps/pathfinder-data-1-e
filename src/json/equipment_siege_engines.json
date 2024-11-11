@@ -8,7 +8,7 @@
 			"Unable to find the requested poison."
 		]
 	},
-	"alchemist's_fire": {
+	"alchemists_fire": {
 		"name": "Alchemist's fire",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -147,7 +147,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Ballista net",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a ballista net hits, it deals no damage, but causes the target to become entangled. An entangled creature takes a -2 penalty on attack rolls and a -4 penalty to Dexterity, can move at only half speed, and cannot charge or run.",
 			"",
@@ -160,7 +160,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flak",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"Flak ammunition is a type of short-fused bomb, specifically designed to explode in midair. Flak ammunition is packed with steel balls and black powder, and may be fired from a bombard or catapult. When flak explodes, it deals 4d6 points of piercing and bludgeoning damage to all creatures and objects within 40 feet of the target square. A flak bomb must reach an altitude of at least 50 feet to function properly. If flak ammunition impacts anything before it reaches this altitude, the bomb deals 1d6 points of bludgeoning damage and fails to explode.",
 			"",
@@ -173,7 +173,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flechette bolt",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"This ballista bolt consists of dozens of small steel darts, called flechettes, which break away after the bolt is released. If the bolt impacts anything before it reaches a distance of 30 feet, it deals 1d8 points of damage. Between 30 and 60 feet away, the flechettes deploy, dealing piercing damage to every creature and object within a 30-foot-cone burst. After 60 feet, the flechettes lose momentum and fall harmlessly to the ground.",
 			"",
@@ -188,7 +188,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Weighted bolt",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"This barbed ballista bolt is equipped with a heavy weight at the end of a long chain. The bolt's extra weight makes the bolt harder to fire accurately, and imposes a -2 penalty on attack rolls. In addition to the normal damage dealt by a ballista bolt of its size, on a successful hit the weighted bolt lodges itself into the target's body, leaving the weighted chain hanging loosely, imparting a -5 penalty on all Fly checks made by the target. These penalties stack if a target is hit with multiple weighted bolts. A weighted bolt can be removed with a successful DC 25 Heal check or a DC 20 Strength check.",
 			"",
@@ -253,7 +253,7 @@
 	"heavy_ballista": {
 		"copyof": "ballista_heavy"
 	},
-	"cannon_fiend's_mouth": {
+	"cannon_fiends_mouth": {
 		"name": "Cannon, fiend's mouth",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -283,7 +283,7 @@
 			"**Category** Direct-Fire (Huge); **Proficiency** Siege Engine"
 		]
 	},
-	"manticore's_tail": {
+	"manticores_tail": {
 		"name": "Manticore's Tail",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [

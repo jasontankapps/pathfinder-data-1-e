@@ -5,7 +5,7 @@
 		"description": [
 			"## Banishing Warden",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 18](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 18](source/monster_hunters_handbook)  ",
 			"The banishing warden is an expert at fighting all types of evil outsiders and sending them back to their native planes.",
 			"",
 			"**Class Skills:** A banishing warden gains Knowledge (planes) as a class skill but does not gain Knowledge (nobility) as a class skill.",
@@ -61,7 +61,7 @@
 		"description": [
 			"## Chaos Knight",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 18](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 18](source/plane-hoppers_handbook)  ",
 			"Despite the entropic forces inherent in ganzis, some forgo a life of chaos, instead harnessing their heritage to enforce the power of law. The chaos knight is able to tap into the nature of the Maelstrom in order to grant or gain small, unpredictable blessings to aid on her quest for order. The following archetype is available to ganzi characters.",
 			"",
 			"**Entropic Touch (Su):** At 2nd level, a chaos knight can employ the forces of entropy with a touch to shatter a mind-affecting spell or effect currently affecting an ally. As a standard action, he can touch a creature to grant that creature a new saving throw against one mind-affecting effect, with a bonus on the save equal to one-third the chaos knight's level (minimum +0). If the chaos knight targets himself, he can use this ability as a swift action. A chaos knight can use this ability a number of times per day equal to half his paladin level + his Charisma modifier.",
@@ -132,7 +132,7 @@
 		"description": [
 			"## Divine Defender",
 			"",
-			"**Source** [Advanced Player's Guide pg. 116](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 116](source/advanced_players_guide)  ",
 			"Some paladins see themselves as the last line of defense between the teeming hordes of evil and the innocent folk trying to make a living in a harsh, unforgiving world. These defenders spend their lives protecting others and taking on foes that the common man should not even know exist. To aid them in their holy mission, they have special powers to protect themselves and those around them. The divine defender has the following class features.",
 			"",
 			"**Shared Defense (Su):** At 3rd level, a divine defender can spend one use of her lay on hands ability as a standard action to grant all adjacent allies (including paladins) a bonus. At 3rd level, adjacent allies receive a +1 sacred bonus to their AC and CMD and on their saving throws. These bonuses last for a number of rounds equal to the divine defender's Charisma modifier. At 9th level and 15th level, this bonus increases by +1. At 6th level, these bonuses are granted to all allies within 10 feet, and allies that are at fewer than 0 hit points within this area are automatically stabilized. At 12th level, these bonuses are granted to all allies within 15 feet, and allies within this area are immune to bleed damage. At 18th level, these bonuses are granted to all allies within 20 feet, and allies within this area gain a 25% chance to negate any sneak attack or critical hit scored against them. This ability does not stack with the chance provided from the light, medium, or heavy fortification armor special abilities. These bonuses are cumulative with each other. Allies only benefit from these bonuses while in the listed area. This ability replaces mercy.",
@@ -157,7 +157,7 @@
 			"",
 			"**Guarding Hands (Su):** The paladin can use lay on hands to heal herself or her divine troth as a move action, but cannot use lay on hands to heal herself as a swift action. The divine guardian cannot use lay on hands more than once per round. This modifies lay on hands.",
 			"",
-			"**Courageous Defense (Ex):** At 3rd level a divine guardian can intercept attacks directed at the target of her divine troth as if she had the [Bodyguard](feat/bodyguard) and [In Harm's Way](feat/in_harm's_way) feats. The divine guardian's aura of courage does not grant a bonus to allies within 10 feet, but still grants her immunity to fear effects. This ability modifies aura of courage.",
+			"**Courageous Defense (Ex):** At 3rd level a divine guardian can intercept attacks directed at the target of her divine troth as if she had the [Bodyguard](feat/bodyguard) and [In Harm's Way](feat/in_harms_way) feats. The divine guardian's aura of courage does not grant a bonus to allies within 10 feet, but still grants her immunity to fear effects. This ability modifies aura of courage.",
 			"",
 			"**Bonus Feat:** A divine guardian gains a bonus feat at 7th level, and additional bonus feats at 10th and 13th level. These bonus feats must be chosen from the following list: [Diehard](feat/diehard), [Endurance](feat/endurance), [Greater Shield Focus](feat/greater_shield_focus), [Greater Shield Specialization](feat/greater_shield_specialization), [Heroic Defiance](feat/heroic_defiance), [Heroic Recovery](feat/heroic_recovery), [Missile Shield](feat/missile_shield), [Ray Shield](feat/ray_shield), [Saving Shield](feat/saving_shield), [Shield Focus](feat/shield_focus), [Shield Specialization](feat/shield_specialization), or Tower Shield Proficiency. She must meet these feats' prerequisites, but for purposes of meeting the prerequisites of these bonus feats, she treats her paladin level as her fighter level, may use her Charisma score as her Dexterity score, and is considered to have the Spellbreaker feat."
 		]
@@ -312,7 +312,7 @@
 			"This replaces aura of faith."
 		]
 	},
-	"forgefather's_seeker": {
+	"forgefathers_seeker": {
 		"name": "Forgefather's Seeker",
 		"sources": [ "Construct Handbook" ],
 		"description": [
@@ -470,7 +470,7 @@
 		"description": [
 			"## Hospitaler",
 			"",
-			"**Source** [Advanced Player's Guide pg. 116](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 116](source/advanced_players_guide)  ",
 			"Paladins are known for their charity and for tending to the sick. The hospitaler takes to this calling above all others, spending much of her time healing the poor, and giving aid and succor to those in need. The hospitaler has the following class features.",
 			"",
 			"**Smite Evil (Su):** This functions as the paladin ability, but the hospitaler can smite evil one additional time per day at 7th level, and every six levels thereafter (instead of 4th level and every three levels thereafter).",
@@ -526,7 +526,7 @@
 		"description": [
 			"## Invigorator",
 			"",
-			"**Source** [Healer's Handbook pg. 24](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 24](source/healers_handbook)  ",
 			"Invigorators devote themselves to keeping their allies bodily whole. These selfless paladins believe the best way to combat evil is by bolstering the health and spirits of those who fight alongside them. They play vital roles and often command troops among martial faiths, such as those of Iomedae and Torag.",
 			"",
 			"**Bestow Hope (Su):** Beginning at 1st level, an invigorator is a champion of her faith who can call upon her deity's holy power to bathe battling allies in protective energy. As a swift action during combat, the invigorator can choose a number of nonevil allies within sight equal to her Charisma modifier upon whom to bestow hope. Once activated, bestow hope grants the invigorator and these allies DR 1/- until the combat ends, at which point the damage reduction immediately ends.",
@@ -614,7 +614,7 @@
 		"description": [
 			"## Knight of Coins",
 			"",
-			"**Source** [Merchant's Manifest pg. 28](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 28](source/merchants_manifest)  ",
 			"Servants of gods who revere wealth, knights of coins promote fair trade and stable commerce between cities and between nations. Many of these knights are Abadarans, and some have also taken the sacred shield archetype. Regardless, knights of coins know that a prosperous city can uplift and enrich more people than pious prayers alone.",
 			"",
 			"**Class Skills:** A knight of coins adds Appraise, Knowledge (local), Perception, and Use Magic Device to her list of class skills. She gains a number of skill ranks equal to 4 + her Intelligence modifier at each level, instead of a number of skill ranks equal to 2 + her Intelligence modifier.",
@@ -676,7 +676,7 @@
 		"description": [
 			"## Legate",
 			"",
-			"**Source** [Armor Master's Handbook pg. 6](source/armor_master's_handbook)  ",
+			"**Source** [Armor Master's Handbook pg. 6](source/armor_masters_handbook)  ",
 			"The first legates in the Inner Sea region were ambassadors from Holomog, a celestial-worshiping confederation in southern Garund. Though they hold to the same strict paladin code, legates present themselves not as armed crusaders, but as peaceful envoys and advisors, bringing wisdom garnered from the long, stable history of their nation. They often serve as diplomats (and sometimes spies) for good organizations. Yet woe to those who believe them defenseless, for a legate can call upon her divine patron to provide her with armor and weapons.",
 			"",
 			"**Celestial Armor (Sp):** At 3rd level, a legate can conjure armor as a standard action. This ability acts as the spell [instant armor](spell/instant_armor), using her paladin level as her caster level, except as follows. At 6th level and every 3 paladin levels thereafter, the armor gains an additional +1 enhancement bonus. These bonuses can be used to add any of the following armor special abilities: champion, fortification (heavy, light, or medium), invulnerability, or spell resistance (13, 15, 17, or 19). In addition, the legate can grant her armor the energy resistance special ability at the cost of a +3 bonus, the improved energy resistance special ability at the cost of a +5 bonus, or the righteous special ability at a cost of a +4 bonus. The armor must have least a +1 enhancement bonus before any special abilities can be added. The bonus and special abilities granted are determined when this ability is used and cannot be changed until this ability is used again. If the legate has a steed bond and is riding her steed, she can include her steed when summoning celestial armor, granting the steed barding with the same bonuses and special abilities as her own. The legate can use this ability a number of times per day equal to her Wisdom bonus plus half her paladin level.",
@@ -788,7 +788,7 @@
 		"description": [
 			"## Sacred Servant",
 			"",
-			"**Source** [Advanced Player's Guide pg. 117](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 117](source/advanced_players_guide)  ",
 			"Paladins as a general rule, venerate the gods of good and purity, but some take this a step further, dedicating themselves to a specific deity and furthering the cause of the faith. These sacred servants are rewarded for their devotion with additional spells and powerful allies. A sacred servant must select one deity to worship. This deity's alignment must be lawful good, lawful neutral, or neutral good. A sacred servant has the following class features.",
 			"",
 			"**Smite Evil (Su):** This functions as the paladin ability, but the sacred servant can smite evil one additional time per day at 7th level, and every six levels thereafter (instead of 4th level and every three levels thereafter). This replaces smite evil.",
@@ -830,7 +830,7 @@
 		"description": [
 			"## Scion of Talmandor",
 			"",
-			"**Source** [Adventurer's Guide pg. 74](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 74](source/adventurers_guide)  ",
 			"While all Steel Falcons are peerless proponents of the rights of the downtrodden, those who endeavor to make the spread of liberty as peaceful as possible often become scions of Talmandor, honoring the powerful avoral agathion who serves as the patron of the Steel Falcons. Talmandor is reluctant to act directly on behalf of the [Eagle Knights](rule/aff_vangard) and even more unwilling to accept their worship, preferring to lend assistance primarily by being a voice of reason and dispensing wise counsel when it is most needed. A scion of Talmandor attempts to exemplify this selfless altruism, offering assistance to the oppressed and facilitating the peaceful transfer of power from the few to the many.",
 			"",
 			"Scions of Talmandor look to the brutality of the revolution in Galt, Andoran's neighbor, as a cautionary tale and an unfortunate blemish on populism's short history. They also reject the Nirmathi notion of freedom, thinking it too individualistic; instead, they strive to build strong communities both at home and abroad. Wherever possible, a scion of Talmandor opts for peaceful, grassroots solutions to problems facing the many oppressed peoples of the Inner Sea region, encouraging them to take a central role in bettering their lot in life.",
@@ -862,7 +862,7 @@
 		"description": [
 			"## Shining Knight",
 			"",
-			"**Source** [Advanced Player's Guide pg. 117](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 117](source/advanced_players_guide)  ",
 			"While paladins often are seen mounted atop a loyal steed, the shining knight is the true symbol of mounted bravery. They are never far from their steeds and are always clad in brightly polished armor. The shining knight has the following class features.",
 			"",
 			"**Skilled Rider (Ex and Su):** At 3rd level, a shining knight does not take any penalty to her Ride skill due to her armor check penalty. In addition, any mount she is riding gains the benefit of her divine grace class feature, adding her Charisma bonus (if any) to its saving throws. This ability replaces divine health.",
@@ -970,7 +970,7 @@
 		"description": [
 			"## Tempered Champion",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 7](source/weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 7](source/weapon_masters_handbook)  ",
 			"Tempered champions are trained in the Tempering Hall in Absalom to master their deities' favored weapons.",
 			"",
 			"**Divine Weapon Specialization (Ex):** At 4th level and every 4 levels thereafter, a tempered champion gains a bonus feat from the following list: [Disruptive](feat/disruptive), [Divine Fighting Technique](feat/divine_fighting_technique), [Greater Penetrating Strike](feat/greater_penetrating_strike), [Greater Weapon Focus](feat/greater_weapon_focus), [Greater Weapon Specialization](feat/greater_weapon_specialization), [Penetrating Strike](feat/penetrating_strike), [Weapon Focus](feat/weapon_focus), [Weapon Specialization](feat/weapon_specialization), and [Weapon Trick](feat/weapon_trick). If a feat requires choosing a weapon or weapon group, the tempered champion must choose her deity's favored weapon, or its group. The tempered champion must meet the feat's prerequisites, but treats her tempered champion levels as fighter levels for this purpose.",
@@ -1060,7 +1060,7 @@
 		"description": [
 			"## Undead Scourge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 117](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 117](source/advanced_players_guide)  ",
 			"Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there are some paladins that dedicate themselves to wiping these unholy terrors from the world. The following are the class features of the undead scourge.",
 			"",
 			"**Smite Evil (Su):** This functions as the paladin ability of the same name, but the undead scourge does not deal 2 points of damage per level on the first successful attack against evil dragons and evil outsiders. She does deal 2 points of damage per level on all smite attacks made against evil undead creatures.",
@@ -1076,7 +1076,7 @@
 		"description": [
 			"## Vindictive Bastard",
 			"",
-			"**Source** [Antihero's Handbook pg. 14](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 14](source/antiheros_handbook)  ",
 			"While paladins often collaborate with less righteous adventurers in order to further their causes, those who spend too much time around companions with particularly loose morals run the risk of adopting those same unscrupulous ideologies and methods. Such a vindictive bastard, as these fallen paladins are known, strikes out for retribution and revenge, far more interested in tearing down those who have harmed her or her companions than furthering a distant deity's cause.",
 			"",
 			"**This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-paladin.**",
@@ -1176,7 +1176,7 @@
 		"description": [
 			"## Warrior of the Holy Light",
 			"",
-			"**Source** [Advanced Player's Guide pg. 118](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 118](source/advanced_players_guide)  ",
 			"Some paladins use their gifts to focus on the holy light that shines within their souls. With the gifts of purity and redemption, these paladins spend much of their lives helping others find the true path. Unleashing this power takes patience and comes at a steep price. Warriors of the holy light have the following class features.",
 			"",
 			"**Power of Faith (Su):** At 4th level, a warrior of the holy light learns to use the power of her faith to bolster her defenses and aid her allies. This class feature replaces the paladin's spells class feature. A warrior of the holy light does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items.",

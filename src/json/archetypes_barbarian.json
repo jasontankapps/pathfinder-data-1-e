@@ -51,7 +51,7 @@
 		"description": [
 			"## Breaker",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
 			"While most barbarians are skilled at breaking things, some find the need to destroy their surroundings an almost uncontrollable urge when in the middle of a rage. These barbarians are a danger not only to their foes, but also to the very environment around them. A breaker barbarian has the following class features.",
 			"",
 			"**Destructive (Ex):** Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a sunder combat maneuver, she adds half her barbarian level (minimum +1) on the damage roll. This ability replaces fast movement.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Brutal Pugilist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
 			"Some barbarians focus on using their bare hands to tear their opponents limb from limb. These brutal pugilists also learn a great deal about various combat maneuvers, using them to cripple or crush their foes. A brutal pugilist has the following class features.",
 			"",
 			"**Savage Grapple (Ex):** At 2nd level, the brutal pugilist takes only half the normal penalties to Dexterity, attack rolls, and combat maneuver checks when she has the grappled condition. She can make an attack of opportunity against creatures trying to grapple her even if they possess the [Improved Grapple](feat/improved_grapple) feat or the grab special attack. If she hits with this attack of opportunity, she gains a +2 circumstance bonus to her CMD against the grapple attempt. She cannot make these attacks of opportunity once a grapple has succeeded. This ability replaces uncanny dodge.",
@@ -203,7 +203,7 @@
 		"description": [
 			"## Drunken Brute",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
 			"Barbarians are known for their ability to consume potent drink, but drunken brutes turn drinking into a combat tactic, using the potent liquor to fuel their rage and grant them additional powers. A drunken brute has the following class feature.",
 			"",
 			"**Raging Drunk (Ex):** While raging, the drunken brute can drink a potion, or a tankard of ale or similar quantity of alcohol, as a move action that does not provoke attacks of opportunity. A potion has its normal effect, while an alcoholic drink allows the barbarian to maintain her rage that round without expending a round of rage for the day (instead of the alcohol's normal effects). For each alcoholic drink consumed while raging, the barbarian is nauseated for 1 round when her rage expires, in addition to the normal fatigue that follows a rage. Tireless rage does not negate this nauseated condition but the internal fortitude rage power does. This ability replaces fast movement.",
@@ -239,7 +239,7 @@
 		"description": [
 			"## Elemental Kin",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
 			"Some barbarian tribes have strong ties to the elemental forces of nature. Their shamans anoint the warriors at birth, tying them to the patron element of the tribe and granting them lasting boons against such forces. An elemental kin has the following class feature.",
 			"",
 			"**Elemental Fury (Ex):** At 3rd level, whenever the elemental kin takes an amount of energy damage equal to or greater than her barbarian level while raging, she adds 1 to the total number of rounds that she can rage that day. At 6th level, and every three levels thereafter, the number of extra rounds per energy attack increases by +1, to a maximum of +6 rounds per energy attack at at 18th level. This ability replaces trap sense.",
@@ -329,7 +329,7 @@
 		"description": [
 			"## Geminate Invoker",
 			"",
-			"**Source** [Adventurer's Guide pg. 166](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 166](source/adventurers_guide)  ",
 			"Geminate invokers are barbarians who use [Rivethun](rule/aff_animists) traditions to invite spirits into their bodies. The spirits' aid enables them to overcome the distractions of the flesh: they can ignore pain, and even defy death. These ascetics make up much of the Rivethun martial forces.",
 			"",
 			"**Contemplative (Ex):** A geminate invoker adds Knowledge (history), Knowledge (religion), and Linguistics to his list of class skills. Unlike most barbarians, a geminate invoker can be lawful, but must maintain a neutral element to his alignment. A geminate invoker who ceases to be neutral-aligned cannot activate his trance ability.",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Giant Stalker",
 			"",
-			"**Source** [Adventurer's Guide pg. 130](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 130](source/adventurers_guide)  ",
 			"Of the dangerous creatures that roam grim peaks and icy steppes, giants are among the most feared. They are cunning and capricious, and their ability to craft weapons and coordinate attacks makes them a constant threat to the nomadic tribes in the region. In the wilds where giants hunt, cleverness isn't the only thing the people need to survive-they require the fearlessness to confront a challenge, no matter the size.",
 			"",
 			"Elders select the children of the tribe's fiercest barbarians for the honor of becoming giant stalkers. Through intense training, these children learn to spot and track giants using telltale signs along with more subtle clues (such as giants' unique scents). They learn the giants' speech and culture; they study their traditions and brutality; and most importantly, they foster their hatred of these oversized foes.",
@@ -417,7 +417,7 @@
 		"description": [
 			"## Hurler",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
 			"A raging barbarian is frightening enough in melee, but some become skilled at throwing objects at their foes before closing in for the kill. A hurler has the following class feature.",
 			"",
 			"**Skilled Thrower (Ex):** The hurler is skilled at throwing objects in combat. Increase the range increment of any thrown weapon or object by 10 feet. This ability replaces fast movement.",
@@ -431,7 +431,7 @@
 		"description": [
 			"## Invulnerable Rager",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
 			"Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These barbarians invite their enemies to attack them, and use pain to fuel their rage. An invulnerable rager has the following class features.",
 			"",
 			"**Invulnerability (Ex):** At 2nd level, the invulnerable rager gains DR/- equal to half her barbarian level. This damage reduction is doubled against nonlethal damage. This ability replaces uncanny dodge, improved uncanny dodge, and damage reduction.",
@@ -519,7 +519,7 @@
 		"description": [
 			"## Mounted Fury",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
 			"Many barbarian tribes are masters of the horse, teaching their members how to ride from a young age. As a result, barbarians from such tribes are even more terrifying when mounted, using their steeds' speed and strength to great advantage. A mounted fury has the following class features.",
 			"",
 			"**Fast Rider (Ex):** The speed of any mount the barbarian rides is increased by 10 feet. This ability replaces fast movement.",
@@ -652,7 +652,7 @@
 		"description": [
 			"## Savage Barbarian",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
 			"Some barbarians are truly savage, having little training in modern arms. These savage barbarians learn to avoid blows and toughen up their skin. A savage barbarian has the following class features.",
 			"",
 			"**Naked Courage (Ex):** At 3rd level, the savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving throws against fear when wearing no armor (shields are allowed). This bonus increases by +1 for every six levels after 3rd. This ability replaces trap sense.",
@@ -782,7 +782,7 @@
 		"description": [
 			"## Superstitious",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
 			"Many barbarians distrust magic. While most just shy away from magic, others focus their rage on users of such foul arts. These barbarians are naturally distrusting, and develop keen senses to protect them from harm. A superstitious barbarian has the following class features.",
 			"",
 			"**Sixth Sense (Ex):** At 3rd level, the superstitious barbarian gains a +1 bonus on initiative and a +1 insight bonus to AC during surprise rounds. This bonus increases by +1 for every three levels after 3rd. This ability replaces trap sense.",
@@ -821,7 +821,7 @@
 		"description": [
 			"## Totem Warrior",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
 			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem [rage powers](ability/rage_powers) that match their totem.",
 			"",
 			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): [animal fury](ragepower/animal_fury), [low-light vision](ragepower/low-light_vision), [night vision](ragepower/night_vision), [raging climber](ragepower/raging_climber), [raging leaper](ragepower/raging_leaper), [raging swimmer](ragepower/raging_swimmer), and [swift foot](ragepower/swift_foot)."

@@ -25,7 +25,7 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Two-Headed Celestial Eagle (LN)](monster/eagle) [^I][^T]"
 		],
@@ -40,7 +40,7 @@
 		"description": [
 			"## Faith: [Brigh](faith/brigh)",
 			"",
-			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
+			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_86_lords_of_rust)",
 			"",
 			"- [Clockwork Spy](monster/clockwork_spy)"
 		]
@@ -54,7 +54,7 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Stirge](monster/stirge) [^I]"
 		],
@@ -83,7 +83,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Great Horned Owl](monster/great_horned_owl)"
 		]
@@ -97,7 +97,7 @@
 		"description": [
 			"## Faith: [Milani](faith/milani)",
 			"",
-			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)",
+			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_68_the_shackled_hut)",
 			"",
 			"- [Great Horned Owl (Extraplanar)](monster/great_horned_owl)"
 		]
@@ -111,7 +111,7 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Pathfinder #44: Trial of the Beast](source/pathfinder_#44_trial_of_the_beast)",
+			"**Sources** [Pathfinder #44: Trial of the Beast](source/pathfinder_44_trial_of_the_beast)",
 			"",
 			"- [Whippoorwill](monster/eagle)",
 			"    - *(uses Eagle statistics)*"
@@ -126,7 +126,7 @@
 		"description": [
 			"## Faith: [Torag](faith/torag)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Badger](monster/badger) [^A][^I]"
 		],
@@ -144,7 +144,7 @@
 		"description": [
 			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
-			"**Sources** [Pathfinder #47: Ashes at Dawn](source/pathfinder_#47_ashes_at_dawn), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Pathfinder #47: Ashes at Dawn](source/pathfinder_47_ashes_at_dawn), [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Bloody Human Skeleton](monster/human_skeleton)",
 			"- [Fiendish Giant Maggot](monster/giant_maggot) [^I]"
@@ -160,7 +160,7 @@
 		"description": [
 			"## Faith: [Zursvaater](faith/zursvaater)",
 			"",
-			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
+			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_95_anvil_of_fire)",
 			"",
 			"- [Burning Human Skeleton](monster/human_skeleton)"
 		]
@@ -189,7 +189,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Antelope (Herd Animal)](monster/antelope) [^A][^I]",
 			"- [Baboon (Primate)](monster/baboon) [^A][^I]",
@@ -316,7 +316,7 @@
 		"description": [
 			"## Faith: [Besmara](faith/besmara)",
 			"",
-			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
+			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_55_the_wormwood_mutiny)",
 			"",
 			"- [Entropic Reefclaw (CN)](monster/reefclaw)"
 		]
@@ -333,7 +333,7 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #17: A Memory of Darkness](source/pathfinder_#17_a_memory_of_darkness)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #17: A Memory of Darkness](source/pathfinder_17_a_memory_of_darkness)",
 			"",
 			"- [Entropic Giant Bee](monster/giant_bee) [^I]",
 			"- [Tiefling Rogue 1 (CN)](monster/tiefling)"
@@ -349,7 +349,7 @@
 		"description": [
 			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial or Entropic Wolf](monster/wolf) [^I]"
 		],
@@ -364,7 +364,7 @@
 		"description": [
 			"## Faith: [Desna](faith/desna)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Pseudodragon (CG)](monster/pseudodragon) [^I]"
 		],
@@ -379,7 +379,7 @@
 		"description": [
 			"## Faith: [Erastil](faith/erastil)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial Elk (LG)](monster/elk) [^I]"
 		],
@@ -397,7 +397,7 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #38: Racing to Ruin](source/pathfinder_38_racing_to_ruin)",
 			"",
 			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^A][^I]",
 			"- [Merfolk](monster/merfolk) [^A]"
@@ -413,7 +413,7 @@
 		"description": [
 			"## Faith: [Groetus](faith/groetus)",
 			"",
-			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_#64_beyond_the_doomsday_door)",
+			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_64_beyond_the_doomsday_door)",
 			"",
 			"- [Akata](monster/akata)"
 		]
@@ -427,7 +427,7 @@
 		"description": [
 			"## Faith: [Irori](faith/irori)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Shikigami (Kami)](monster/shikigami) [^I]"
 		],
@@ -457,7 +457,7 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Grig](monster/grig) [^A][^I]"
 		],
@@ -472,7 +472,7 @@
 		"description": [
 			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Giant Fly](monster/giant_fly) [^I]"
 		],
@@ -487,7 +487,7 @@
 		"description": [
 			"## Faith: [Ydersius](faith/ydersius)",
 			"",
-			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
+			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_42_sanctum_of_the_serpent_god)",
 			"",
 			"- [Venomous Snake](monster/venomous_snake) [^A]"
 		],
@@ -502,7 +502,7 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Augur (Kyton)](monster/augur) [evil, lawful][^I]"
 		],
@@ -533,7 +533,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Camel (Herd Animal)](monster/camel) [^A][^I]",
 			"- [Compsognathus (Dinosaur)](monster/compsognathus) [^A][^I]",
@@ -650,7 +650,7 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Resolute Hippogriff (LN)](monster/hippogriff) [^I]"
 		],
@@ -665,7 +665,7 @@
 		"description": [
 			"## Faith: [Arazni](faith/arazni)",
 			"",
-			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
+			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_140_eulogy_for_roslars_coffer)",
 			"",
 			"- [Augur Kyton](monster/augur) [evil, lawful]"
 		]
@@ -679,7 +679,7 @@
 		"description": [
 			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Hell Hound](monster/hell_hound)[evil, fire, lawful][^I]"
 		],
@@ -694,7 +694,7 @@
 		"description": [
 			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Satyr (without pipes, CG)](monster/satyr) [^I]"
 		],
@@ -709,7 +709,7 @@
 		"description": [
 			"## Faith: [Desna](faith/desna)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good][^I]"
 		],
@@ -724,7 +724,7 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Iron Cobra (no poison)](monster/iron_cobra) [^A][^I]"
 		],
@@ -753,7 +753,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Small)](monster/small_ice_elemental) [air, cold, water]"
 		]
@@ -767,7 +767,7 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_#5_sins_of_the_saviors)",
+			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_5_sins_of_the_saviors)",
 			"",
 			"- [Fiendish Worg (CE)](monster/worg)"
 		]
@@ -781,7 +781,7 @@
 		"description": [
 			"## Faith: [Mahathallah](faith/mahathallah)",
 			"",
-			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
+			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_99_dance_of_the_damned)",
 			"",
 			"- [Forlarren](monster/forlarren)"
 		]
@@ -795,7 +795,7 @@
 		"description": [
 			"## Faith: [Moloch](faith/moloch)",
 			"",
-			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
+			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_105_the_inferno_gate)",
 			"",
 			"- [Phantom Armor (Guardian) (LE)](monster/guardian_phantom_armor)"
 		]
@@ -812,7 +812,7 @@
 		"description": [
 			"## Faith: [Nethys](faith/nethys)",
 			"",
-			"**Sources** [Pathfinder #41: The Thousand Fangs Below](source/pathfinder_#41_the_thousand_fangs_below), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Pathfinder #41: The Thousand Fangs Below](source/pathfinder_41_the_thousand_fangs_below), [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Blink Dog](monster/blink_dog) [^A]",
 			"- [Paracletus (Aeon)](monster/paracletus) [^I]"
@@ -831,7 +831,7 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #59: The Price of Infamy](source/pathfinder_#59_the_price_of_infamy)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #59: The Price of Infamy](source/pathfinder_59_the_price_of_infamy)",
 			"",
 			"- [Fiendish Choker](monster/choker) [^I]",
 			"- [Human Natural Wererat Rogue 2](monster/wererat_hybrid_form)"
@@ -847,7 +847,7 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Nosoi (Psychopomp)](monster/nosoi) [^I]"
 		],
@@ -865,7 +865,7 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Pathfinder #23: The Impossible Eye](source/pathfinder_23_the_impossible_eye), [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Choker (CE)](monster/choker)",
 			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil]"
@@ -881,7 +881,7 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Silvanshee (agathion)](monster/silvanshee) [good]"
 		],
@@ -896,7 +896,7 @@
 		"description": [
 			"## Faith: [Szuriel](faith/szuriel)",
 			"",
-			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
+			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_71_rasputin_must_die)",
 			"",
 			"- [Cacodaemon](monster/cacodaemon) [evil]"
 		]
@@ -910,7 +910,7 @@
 		"description": [
 			"## Faith: [Torag](faith/torag)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Dire Badger](monster/dire_badger) [^A][^I]"
 		],
@@ -925,7 +925,7 @@
 		"description": [
 			"## Faith: [Zursvaater](faith/zursvaater)",
 			"",
-			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
+			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_95_anvil_of_fire)",
 			"",
 			"- [Thoqqua](monster/thoqqua) [earth, fire]"
 		]
@@ -939,7 +939,7 @@
 		"description": [
 			"## Faith: [Zyphus](faith/zyphus)",
 			"",
-			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
+			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_89_palace_of_fallen_stars)",
 			"",
 			"- [Cacodaemon](monster/cacodaemon) [evil]"
 		]
@@ -969,7 +969,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Arbiter (Inevitable)](monster/arbiter) [lawful][^I]",
 			"- [Augur (Kyton)](monster/augur) [evil, lawful][^I]",
@@ -1283,7 +1283,7 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Resolute Griffon (LN)](monster/griffon) [^I]",
 			"- [Two-Headed Celestial Giant Eagle (LN)](monster/giant_eagle) [^I][^T]"
@@ -1299,7 +1299,7 @@
 		"description": [
 			"## Faith: [Ashava](faith/ashava)",
 			"",
-			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
+			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_134_it_came_from_hollow_mountain)",
 			"",
 			"- [Celestial Pegasus](monster/pegasus)"
 		]
@@ -1313,7 +1313,7 @@
 		"description": [
 			"## Faith: [Brigh](faith/brigh)",
 			"",
-			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
+			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_86_lords_of_rust)",
 			"",
 			"- [Clockwork Servant](monster/clockwork_servant)"
 		]
@@ -1327,7 +1327,7 @@
 		"description": [
 			"## Faith: [Deskari](faith/deskari)",
 			"",
-			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
+			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_78_city_of_locusts)",
 			"",
 			"- [Vermlek](monster/vermlek) [chaotic, evil]"
 		]
@@ -1341,7 +1341,7 @@
 		"description": [
 			"## Faith: [Erastil](faith/erastil)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial Dire Boar (LG)](monster/dire_boar_daeodon) [^I]"
 		],
@@ -1356,7 +1356,7 @@
 		"description": [
 			"## Faith: [Geryon](faith/geryon)",
 			"",
-			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
+			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_107_scourge_of_the_godclaw)",
 			"",
 			"- [Venomous Snake Swarm](monster/venomous_snake_swarm)"
 		]
@@ -1370,7 +1370,7 @@
 		"description": [
 			"## Faith: [Hastur](faith/hastur)",
 			"",
-			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_#110_the_thrushmoor_terror)",
+			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_110_the_thrushmoor_terror)",
 			"",
 			"- [Byakhee](monster/byakhee)"
 		]
@@ -1384,7 +1384,7 @@
 		"description": [
 			"## Faith: [Iomedae](faith/iomedae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial Giant Eagle (LG)](monster/giant_eagle) [^I]"
 		],
@@ -1399,7 +1399,7 @@
 		"description": [
 			"## Faith: [Irori](faith/irori)",
 			"",
-			"**Sources** [Pathfinder #53: Tide of Honor](source/pathfinder_#53_tide_of_honor)",
+			"**Sources** [Pathfinder #53: Tide of Honor](source/pathfinder_53_tide_of_honor)",
 			"",
 			"- [Giant Mantis](monster/giant_mantis)",
 			"- [Tiger](monster/tiger)"
@@ -1428,7 +1428,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Hound Archon (CG)](monster/hound_archon) [good, lawful]"
 		]
@@ -1442,7 +1442,7 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Yeth Hound (CE)](monster/yeth_hound) [evil][^I]"
 		],
@@ -1457,7 +1457,7 @@
 		"description": [
 			"## Faith: [Mephistopheles](faith/mephistopheles)",
 			"",
-			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
+			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_102_breaking_the_bones_of_hell)",
 			"",
 			"- [Guardian Scroll](monster/guardian_scroll)"
 		]
@@ -1471,7 +1471,7 @@
 		"description": [
 			"## Faith: [Milani](faith/milani)",
 			"",
-			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)",
+			"**Sources** [Pathfinder #68: The Shackled Hut](source/pathfinder_68_the_shackled_hut)",
 			"",
 			"- [Hound Archon (CG)](monster/hound_archon) [good, lawful]"
 		]
@@ -1485,7 +1485,7 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Giant Black Widow (Spider)](monster/giant_black_widow) [^A][^I]"
 		],
@@ -1500,7 +1500,7 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Catrina (Psychopomp)](monster/catrina) [^I]"
 		],
@@ -1515,7 +1515,7 @@
 		"description": [
 			"## Faith: [Szuriel](faith/szuriel)",
 			"",
-			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
+			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_71_rasputin_must_die)",
 			"",
 			"- [Fiendish urdefhan](monster/urdefhan)"
 		]
@@ -1529,7 +1529,7 @@
 		"description": [
 			"## Faith: [Torag](faith/torag)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Azer](monster/azer) [fire][^A][^I]"
 		],
@@ -1544,7 +1544,7 @@
 		"description": [
 			"## Faith: [Xhamen-Dor](faith/xhamen-dor)",
 			"",
-			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
+			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_113_what_grows_within)",
 			"",
 			"- [Phycomid](monster/phycomid)"
 		]
@@ -1558,7 +1558,7 @@
 		"description": [
 			"## Faith: [Ydersius](faith/ydersius)",
 			"",
-			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
+			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_42_sanctum_of_the_serpent_god)",
 			"",
 			"- [Amphisbaena](monster/amphisbaena)"
 		]
@@ -1572,7 +1572,7 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_#11_skeletons_of_scarwall)",
+			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_11_skeletons_of_scarwall)",
 			"",
 			"- [Shadow (LE)](monster/shadow)"
 		]
@@ -1586,7 +1586,7 @@
 		"description": [
 			"## Faith: [Zyphus](faith/zyphus)",
 			"",
-			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
+			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_89_palace_of_fallen_stars)",
 			"",
 			"- [Lacridaemon](monster/lacridaemon) [evil]"
 		]
@@ -1617,10 +1617,10 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Crysmal](monster/crysmal) [earth][^I]",
-			"- [D'ziriak](monster/d'ziriak) [^I]",
+			"- [D'ziriak](monster/dziriak) [^I]",
 			"- [Dimetrodon (Dinasaur)](monster/dimetrodon) [^A][^I]",
 			"- [Dire Weasel](monster/dire_weasel) [^A][^I]",
 			"- [Foo Lion](template/foo_creature) [good][^I]",
@@ -1704,7 +1704,7 @@
 			"",
 			"**Sources** [Champions of Balance](source/champions_of_balance)",
 			"",
-			"- [D'ziriak (N)](monster/d'ziriak)",
+			"- [D'ziriak (N)](monster/dziriak)",
 			"- [Magmin (CN)](monster/magmin) [fire]",
 			"- [Mephit (Any) (N)](monster/mephit)",
 			"- [Satyr (CN)](monster/satyr)",
@@ -1792,7 +1792,7 @@
 		"description": [
 			"## Faith: [Ashava](faith/ashava)",
 			"",
-			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
+			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_134_it_came_from_hollow_mountain)",
 			"",
 			"- [Lunar Naga](monster/lunar_naga)"
 		]
@@ -1806,7 +1806,7 @@
 		"description": [
 			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Bearded Devil](monster/barbazu) [evil, lawful][^I]",
 			"- [Cerberi](monster/cerberi) [evil, lawful][^I]"
@@ -1822,7 +1822,7 @@
 		"description": [
 			"## Faith: [Baphomet](faith/baphomet)",
 			"",
-			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
+			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_77_herald_of_the_ivory_labyrinth)",
 			"",
 			"- [Half-Fiend Minotaur](monster/minotaur)"
 		]
@@ -1836,7 +1836,7 @@
 		"description": [
 			"## Faith: [Besmara](faith/besmara)",
 			"",
-			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
+			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_55_the_wormwood_mutiny)",
 			"",
 			"- [Saltwater Merrow (NE)](monster/saltwater_merrow)"
 		]
@@ -1850,7 +1850,7 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Spider Eater](monster/spider_eater) [^I]"
 		],
@@ -1868,7 +1868,7 @@
 		"description": [
 			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #14: Children of the Void](source/pathfinder_#14_children_of_the_void)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #14: Children of the Void](source/pathfinder_14_children_of_the_void)",
 			"",
 			"- [Cayhound](monster/cayhound) [^I]",
 			"- [Rust Monster (N)](monster/rust_monster)",
@@ -1885,7 +1885,7 @@
 		"description": [
 			"## Faith: [Deskari](faith/deskari)",
 			"",
-			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
+			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_78_city_of_locusts)",
 			"",
 			"- [Fiendish Giant Locust](monster/giant_locust)"
 		]
@@ -1899,7 +1899,7 @@
 		"description": [
 			"## Faith: [Hastur](faith/hastur)",
 			"",
-			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_#110_the_thrushmoor_terror)",
+			"**Sources** [Pathfinder #110: The Thrushmoor Terror](source/pathfinder_110_the_thrushmoor_terror)",
 			"",
 			"- [Keeper of the Yellow Sign](monster/keeper_of_the_yellow_sign)"
 		]
@@ -1913,7 +1913,7 @@
 		"description": [
 			"## Faith: [Iomedae](faith/iomedae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Celestial Griffon (LG)](monster/griffon) [^I]"
 		],
@@ -1942,7 +1942,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Medium)](monster/medium_ice_elemental) [air, cold, water]",
 			"- [Half-Fiend Yeti](monster/yeti) [cold]"
@@ -1957,7 +1957,7 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Barghest (CE)](monster/barghest) [evil, lawful][^I]"
 		],
@@ -1972,7 +1972,7 @@
 		"description": [
 			"## Faith: [Mahathallah](faith/mahathallah)",
 			"",
-			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
+			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_99_dance_of_the_damned)",
 			"",
 			"- [Achaierai](monster/achaierai) [evil, lawful]"
 		]
@@ -1986,7 +1986,7 @@
 		"description": [
 			"## Faith: [Nethys](faith/nethys)",
 			"",
-			"**Sources** [Pathfinder #41: The Thousand Fangs Below](source/pathfinder_#41_the_thousand_fangs_below)",
+			"**Sources** [Pathfinder #41: The Thousand Fangs Below](source/pathfinder_41_the_thousand_fangs_below)",
 			"",
 			"- [Cloaker](monster/cloaker) [^A]"
 		],
@@ -2004,7 +2004,7 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #59: The Price of Infamy](source/pathfinder_#59_the_price_of_infamy)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #59: The Price of Infamy](source/pathfinder_59_the_price_of_infamy)",
 			"",
 			"- [Advanced Choker](monster/choker) [^I]",
 			"- [Shadow Mastiff](monster/shadow_mastiff) [evil]"
@@ -2023,7 +2023,7 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_23_the_impossible_eye)",
 			"",
 			"- [Fiendish Gibbering Mouther (CE)](monster/gibbering_mouther) [^I]",
 			"- [Fiendish Grick (NE)](monster/grick)"
@@ -2039,7 +2039,7 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Vulpinal (Agathion)](monster/vulpinal) [good][^I]"
 		],
@@ -2054,7 +2054,7 @@
 		"description": [
 			"## Faith: [Szuriel](faith/szuriel)",
 			"",
-			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_#71_rasputin_must_die!)",
+			"**Sources** [Pathfinder #71: Rasputin Must Die!](source/pathfinder_71_rasputin_must_die)",
 			"",
 			"- [Genthodaemon](monster/genthodaemon) [evil]",
 			"- [Nightmare](monster/nightmare) [evil]"
@@ -2069,7 +2069,7 @@
 		"description": [
 			"## Faith: [Xhamen-Dor](faith/xhamen-dor)",
 			"",
-			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
+			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_113_what_grows_within)",
 			"",
 			"- [Basidirond](monster/basidirond)"
 		]
@@ -2083,7 +2083,7 @@
 		"description": [
 			"## Faith: [Ydersius](faith/ydersius)",
 			"",
-			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
+			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_42_sanctum_of_the_serpent_god)",
 			"",
 			"- [Emperor Cobra](monster/emperor_cobra) [^A]"
 		],
@@ -2098,7 +2098,7 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful][^I]"
 		],
@@ -2113,7 +2113,7 @@
 		"description": [
 			"## Faith: [Zyphus](faith/zyphus)",
 			"",
-			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_#89_palace_of_fallen_stars)",
+			"**Sources** [Pathfinder #89: Palace of Fallen Stars](source/pathfinder_89_palace_of_fallen_stars)",
 			"",
 			"- [Ceustodaemon](monster/ceustodaemon) [evil]"
 		]
@@ -2143,7 +2143,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Achaierai](monster/achaierai) [evil, lawful][^I]",
 			"- [Archelon (Megafauna)](monster/archelon) [^I]",
@@ -2275,7 +2275,7 @@
 		"description": [
 			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
+			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
 			"",
 			"- [Djinni](monster/djinni) [air][^W]"
 		],
@@ -2295,7 +2295,7 @@
 		"description": [
 			"## Summon Monster V",
 			"",
-			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Planes of Power](source/planes_of_power), [Pathfinder #92: The Hill Giant's Pledge](source/pathfinder_#92_the_hill_giant's_pledge)",
+			"**Sources** [Bestiary 5](source/bestiary_5), [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Planes of Power](source/planes_of_power), [Pathfinder #92: The Hill Giant's Pledge](source/pathfinder_92_the_hill_giants_pledge)",
 			"",
 			"- [Aether Elemental (Large)](monster/large_aether_elemental)",
 			"- [Air Elemental (Large)](monster/large_air_elemental) [air]",
@@ -2332,7 +2332,7 @@
 		"description": [
 			"## Faith: [Arazni](faith/arazni)",
 			"",
-			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
+			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_140_eulogy_for_roslars_coffer)",
 			"",
 			"- [Fiendish Giant Scarab](monster/giant_scarab)"
 		]
@@ -2346,7 +2346,7 @@
 		"description": [
 			"## Faith: [Baphomet](faith/baphomet)",
 			"",
-			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_#77_herald_of_the_ivory_labyrinth)",
+			"**Sources** [Pathfinder #77: Herald of the Ivory Labyrinth](source/pathfinder_77_herald_of_the_ivory_labyrinth)",
 			"",
 			"- [Fiendish Chimera](monster/chimera)"
 		]
@@ -2360,7 +2360,7 @@
 		"description": [
 			"## Faith: [Besmara](faith/besmara)",
 			"",
-			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_#55_the_wormwood_mutiny)",
+			"**Sources** [Pathfinder #55: The Wormwood Mutiny](source/pathfinder_55_the_wormwood_mutiny)",
 			"",
 			"- [Tylosaurus (N)](monster/tylosaurus)"
 		]
@@ -2374,7 +2374,7 @@
 		"description": [
 			"## Faith: [Brigh](faith/brigh)",
 			"",
-			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_#86_lords_of_rust)",
+			"**Sources** [Pathfinder #86: Lords of Rust](source/pathfinder_86_lords_of_rust)",
 			"",
 			"- [Clockwork Soldier](monster/clockwork_soldier)"
 		]
@@ -2388,7 +2388,7 @@
 		"description": [
 			"## Faith: [Deskari](faith/deskari)",
 			"",
-			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_#78_city_of_locusts)",
+			"**Sources** [Pathfinder #78: City of Locusts](source/pathfinder_78_city_of_locusts)",
 			"",
 			"- [Fiendish Giant Mosquito](monster/giant_mosquito)"
 		]
@@ -2402,7 +2402,7 @@
 		"description": [
 			"## Faith: [Geryon](faith/geryon)",
 			"",
-			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
+			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_107_scourge_of_the_godclaw)",
 			"",
 			"- [Drowning Devil (Sarglagon)](monster/sarglagon) [evil, lawful]"
 		]
@@ -2416,7 +2416,7 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Arsinoitherium (Megafauna)](monster/arsinoitherium) [^A][^I]"
 		],
@@ -2431,7 +2431,7 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Immense Tortoise](monster/immense_tortoise) [^A][^I]"
 		],
@@ -2446,7 +2446,7 @@
 		"description": [
 			"## Faith: [Groetus](faith/groetus)",
 			"",
-			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_#64_beyond_the_doomsday_door)",
+			"**Sources** [Pathfinder #64: Beyond the Doomsday Door](source/pathfinder_64_beyond_the_doomsday_door)",
 			"",
 			"- [Chaos Beast](monster/chaos_beast) [chaotic]",
 			"- [Mothman](monster/mothman)"
@@ -2476,7 +2476,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Large)](monster/large_ice_elemental) [air, cold, water]"
 		]
@@ -2490,7 +2490,7 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Shadow Mastiff](monster/shadow_mastiff) [evil]"
 		],
@@ -2505,7 +2505,7 @@
 		"description": [
 			"## Faith: [Lissala](faith/lissala)",
 			"",
-			"**Sources** [Pathfinder #65: Into the Nightmare Rift](source/pathfinder_#65_into_the_nightmare_rift)",
+			"**Sources** [Pathfinder #65: Into the Nightmare Rift](source/pathfinder_65_into_the_nightmare_rift)",
 			"",
 			"- [Advanced Kyton Evangelist (LE)](monster/kyton) [evil, lawful]",
 			"- [Dark Naga (LE)](monster/dark_naga)"
@@ -2520,7 +2520,7 @@
 		"description": [
 			"## Faith: [Moloch](faith/moloch)",
 			"",
-			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
+			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_105_the_inferno_gate)",
 			"",
 			"- [Warmonger Devil (Levaloch)](monster/levaloch) [evil, lawful]"
 		]
@@ -2534,7 +2534,7 @@
 		"description": [
 			"## Faith: [Nethys](faith/nethys)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Theletos (Aeon)](monster/theletos) [^I]"
 		],
@@ -2549,7 +2549,7 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Vanth (Psychopomp)](monster/vanth) [^I]"
 		],
@@ -2564,7 +2564,7 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil]"
 		],
@@ -2579,7 +2579,7 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Janni (Genie, NG)](monster/janni) [^I]"
 		],
@@ -2594,7 +2594,7 @@
 		"description": [
 			"## Faith: [Xhamen-Dor](faith/xhamen-dor)",
 			"",
-			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)",
+			"**Sources** [Pathfinder #113: What Grows Within](source/pathfinder_113_what_grows_within)",
 			"",
 			"- [Mi-go](monster/mi-go)"
 		]
@@ -2608,7 +2608,7 @@
 		"description": [
 			"## Faith: [Zursvaater](faith/zursvaater)",
 			"",
-			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_#95_anvil_of_fire)",
+			"**Sources** [Pathfinder #95: Anvil of Fire](source/pathfinder_95_anvil_of_fire)",
 			"",
 			"- [Burning Fire Giant Skeleton](monster/human_skeleton)"
 		]
@@ -2638,7 +2638,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Adhukait (Asura)](monster/adhukait) [evil, lawful][^I]",
 			"- [Allosaurus (Dinosaur)](monster/allosaurus) [^A][^I]",
@@ -2851,7 +2851,7 @@
 		"description": [
 			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
+			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
 			"",
 			"- [Efreeti](monster/efreeti) [fire][^W]",
 			"- [Shaitan](monster/shaitan) [earth][^W]"
@@ -2907,7 +2907,7 @@
 		"description": [
 			"## Faith: [Desna](faith/desna)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #2: The Skinsaw Murders](source/pathfinder_#2_the_skinsaw_murders)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #2: The Skinsaw Murders](source/pathfinder_2_the_skinsaw_murders)",
 			"",
 			"- [Star Monarch](monster/star_monarch) [^I]",
 			"- [Young Brass Dragon (CG)](monster/young_brass_dragon) [fire]"
@@ -2926,7 +2926,7 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #35: War of the River Kings](source/pathfinder_#35_war_of_the_river_kings)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #35: War of the River Kings](source/pathfinder_35_war_of_the_river_kings)",
 			"",
 			"- [Advanced Bulette](monster/bulette) [^A][^I]",
 			"- [Behir (N)](monster/behir)"
@@ -2945,7 +2945,7 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #38: Racing to Ruin](source/pathfinder_38_racing_to_ruin)",
 			"",
 			"- [Whale](monster/whale) [^A][^I]",
 			"- [Young Frost Giant](monster/frost_giant) [cold][^A]"
@@ -2961,7 +2961,7 @@
 		"description": [
 			"## Faith: [Irori](faith/irori)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Zuishin (Kami, NG)](monster/zuishin) [^I]"
 		],
@@ -2991,7 +2991,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Huge)](monster/huge_ice_elemental) [air, cold, water]"
 		]
@@ -3005,7 +3005,7 @@
 		"description": [
 			"## Faith: [Minderhal](faith/minderhal)",
 			"",
-			"**Sources** [Pathfinder #93: Forge of the Giant God](source/pathfinder_#93_forge_of_the_giant_god)",
+			"**Sources** [Pathfinder #93: Forge of the Giant God](source/pathfinder_93_forge_of_the_giant_god)",
 			"",
 			"- [Fiendish or Resolute Stone Giant](monster/stone_giant)"
 		]
@@ -3022,7 +3022,7 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_#23_the_impossible_eye)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #23: The Impossible Eye](source/pathfinder_23_the_impossible_eye)",
 			"",
 			"- [Advanced Entropic Girtablilu](monster/girtablilu) [^I]"
 		],
@@ -3040,7 +3040,7 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_20_house_of_the_beast), [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Djinni (NG)](monster/djinni) [air]",
 			"- [Movanic Deva (Angel)](monster/movanic_deva) [good][^I]"
@@ -3056,7 +3056,7 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Avoral (Agathion)](monster/avoral) [good][^I]"
 		],
@@ -3071,7 +3071,7 @@
 		"description": [
 			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Daughter of Urgathoa](monster/daughter_of_urgathoa) [^I]"
 		],
@@ -3086,7 +3086,7 @@
 		"description": [
 			"## Faith: [Ydersius](faith/ydersius)",
 			"",
-			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_#42_sanctum_of_the_serpent_god)",
+			"**Sources** [Pathfinder #42: Sanctum of the Serpent God](source/pathfinder_42_sanctum_of_the_serpent_god)",
 			"",
 			"- [Giant Anaconda](monster/giant_anaconda) [^A]"
 		],
@@ -3101,7 +3101,7 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful][^I]"
 		],
@@ -3132,7 +3132,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Avoral (Agathion)](monster/avoral) [good][^I]",
 			"- [Behemoth Hippopotamus](monster/behemoth_hippopotamus) [^A][^I]",
@@ -3360,7 +3360,7 @@
 		"description": [
 			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
+			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
 			"",
 			"- [Marid](monster/marid) [water][^W]"
 		],
@@ -3411,7 +3411,7 @@
 		"description": [
 			"## Faith: [Arazni](faith/arazni)",
 			"",
-			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_#140_eulogy_for_roslar's_coffer)",
+			"**Sources** [Pathfinder #140: Eulogy for Roslar's Coffer](source/pathfinder_140_eulogy_for_roslars_coffer)",
 			"",
 			"- [Interlocutor Kyton](monster/interlocutor) [evil, lawful]"
 		]
@@ -3428,7 +3428,7 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #17: A Memory of Darkness](source/pathfinder_#17_a_memory_of_darkness)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #17: A Memory of Darkness](source/pathfinder_17_a_memory_of_darkness)",
 			"",
 			"- [Advanced Entropic Chaos Beast](monster/chaos_beast) [chaotic][^I]",
 			"- [Hellwasp Swarm (CE)](monster/hellwasp_swarm)"
@@ -3444,7 +3444,7 @@
 		"description": [
 			"## Faith: [Geryon](faith/geryon)",
 			"",
-			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_#107_scourge_of_the_godclaw)",
+			"**Sources** [Pathfinder #107: Scourge of the Godclaw](source/pathfinder_107_scourge_of_the_godclaw)",
 			"",
 			"- [Aghasura (Asura)](monster/aghasura) [evil, lawful]"
 		]
@@ -3458,7 +3458,7 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Pathfinder #35: War of the River Kings](source/pathfinder_#35_war_of_the_river_kings)",
+			"**Sources** [Pathfinder #35: War of the River Kings](source/pathfinder_35_war_of_the_river_kings)",
 			"",
 			"- [Gorgon (N)](monster/gorgon)"
 		]
@@ -3472,7 +3472,7 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin)",
+			"**Sources** [Pathfinder #38: Racing to Ruin](source/pathfinder_38_racing_to_ruin)",
 			"",
 			"- [Frost Giant](monster/frost_giant) [cold][^A]",
 			"- [Young Cloud Giant](monster/cloud_giant) [^A]"
@@ -3488,7 +3488,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Greater)](monster/greater_ice_elemental) [air, cold, water]"
 		]
@@ -3502,7 +3502,7 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_#5_sins_of_the_saviors)",
+			"**Sources** [Pathfinder #5: Sins of the Saviors](source/pathfinder_5_sins_of_the_saviors)",
 			"",
 			"- [Nightmare (NE)](monster/nightmare) [evil]",
 			"- [Warped One (CE)](monster/warped_one) [chaotic, evil]"
@@ -3517,7 +3517,7 @@
 		"description": [
 			"## Faith: [Mahathallah](faith/mahathallah)",
 			"",
-			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_#99_dance_of_the_damned)",
+			"**Sources** [Pathfinder #99: Dance of the Damned](source/pathfinder_99_dance_of_the_damned)",
 			"",
 			"- [Cabal Devil](monster/uniila) [evil, lawful]"
 		]
@@ -3531,7 +3531,7 @@
 		"description": [
 			"## Faith: [Mephistopheles](faith/mephistopheles)",
 			"",
-			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
+			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_102_breaking_the_bones_of_hell)",
 			"",
 			"- [Contract Devil (Phistophilus)](monster/phistophilus) [evil, lawful]"
 		]
@@ -3545,7 +3545,7 @@
 		"description": [
 			"## Faith: [Moloch](faith/moloch)",
 			"",
-			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_#105_the_inferno_gate)",
+			"**Sources** [Pathfinder #105: The Inferno Gate](source/pathfinder_105_the_inferno_gate)",
 			"",
 			"- [Tophet](monster/tophet)"
 		]
@@ -3559,7 +3559,7 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Jorogumo](monster/jorogumo) [^A][^I]"
 		],
@@ -3574,7 +3574,7 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast)",
+			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_20_house_of_the_beast)",
 			"",
 			"- [Efreeti (LG)](monster/efreeti) [fire][^W]"
 		],
@@ -3589,7 +3589,7 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_#11_skeletons_of_scarwall)",
+			"**Sources** [Pathfinder #11: Skeletons of Scarwall](source/pathfinder_11_skeletons_of_scarwall)",
 			"",
 			"- [Greater Shadow (LE)](monster/greater_shadow)"
 		]
@@ -3619,7 +3619,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Aghasura (Asura)](monster/aghasura) [evil, lawful][^I]",
 			"- [Baregara](monster/baregara) [chaotic, evil][^I]",
@@ -3828,7 +3828,7 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook), [Pathfinder #8: Seven Days to the Grave](source/pathfinder_#8_seven_days_to_the_grave)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook), [Pathfinder #8: Seven Days to the Grave](source/pathfinder_8_seven_days_to_the_grave)",
 			"",
 			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful][^I]",
 			"- [Kolyarut (LN)](monster/kolyarut) [lawful]"
@@ -3847,7 +3847,7 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Pathfinder #38: Racing to Ruin](source/pathfinder_#38_racing_to_ruin), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Pathfinder #38: Racing to Ruin](source/pathfinder_38_racing_to_ruin), [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Cloud Giant](monster/cloud_giant) [^A]",
 			"- [Great White Whale](monster/great_white_whale) [^A][^I]",
@@ -3864,7 +3864,7 @@
 		"description": [
 			"## Faith: [Kostchtchie](faith/kostchtchie)",
 			"",
-			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_#69_maiden_mother_crone)",
+			"**Sources** [Pathfinder #69: Maiden, Mother, Crone](source/pathfinder_69_maiden_mother_crone)",
 			"",
 			"- [Fiendish Ice Elemental (Elder)](monster/elder_ice_elemental) [air, cold, water]"
 		]
@@ -3878,7 +3878,7 @@
 		"description": [
 			"## Faith: [Mephistopheles](faith/mephistopheles)",
 			"",
-			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_#102_breaking_the_bones_of_hell)",
+			"**Sources** [Pathfinder #102: Breaking the Bones of Hell](source/pathfinder_102_breaking_the_bones_of_hell)",
 			"",
 			"- [Heresy Devil (Ayngavhaul)](monster/ayngavhaul) [evil, lawful]"
 		]
@@ -3892,7 +3892,7 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Morrigna (Psychopomp)](monster/morrigna) [^I]"
 		],
@@ -3907,7 +3907,7 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Peri](monster/peri) [good][^I]"
 		],
@@ -3938,7 +3938,7 @@
 		"description": [
 			"## Feat: [Expanded Summon Monster](feat/expanded_summon_monster)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Augnagar (Qlippoth)](monster/augnagar) [chaotic, evil][^I]",
 			"- [Couatl](monster/couatl) [^I]",
@@ -4149,7 +4149,7 @@
 			"- [Trumpet Archon](monster/trumpet_archon) [good, lawful]"
 		]
 	},
-	"summon_nature's_ally_i_druid_shark_shaman": {
+	"summon_natures_ally_i_druid_shark_shaman": {
 		"name": "Summon Nature's Ally I: Druid Shark Shaman",
 		"spell": "Summon Nature's Ally I",
 		"type": "class",
@@ -4163,7 +4163,7 @@
 			"- [Stingray](monster/stingray)"
 		]
 	},
-	"summon_nature's_ally_i_abadar": {
+	"summon_natures_ally_i_abadar": {
 		"name": "Summon Nature's Ally I: Abadar",
 		"spell": "Summon Nature's Ally I",
 		"type": "faith",
@@ -4172,13 +4172,13 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Two-Headed Celestial Eagle (LN)](monster/eagle) [^I][^T]"
 		],
 		"footnotes": ["I", "T"]
 	},
-	"summon_nature's_ally_i_calistria": {
+	"summon_natures_ally_i_calistria": {
 		"name": "Summon Nature's Ally I: Calistria",
 		"spell": "Summon Nature's Ally I",
 		"type": "faith",
@@ -4187,13 +4187,13 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Stirge](monster/stirge) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_i_pharasma": {
+	"summon_natures_ally_i_pharasma": {
 		"name": "Summon Nature's Ally I: Pharasma",
 		"spell": "Summon Nature's Ally I",
 		"type": "faith",
@@ -4202,13 +4202,13 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Pathfinder #44: Trial of the Beast](source/pathfinder_#44_trial_of_the_beast)",
+			"**Sources** [Pathfinder #44: Trial of the Beast](source/pathfinder_44_trial_of_the_beast)",
 			"",
 			"- [Whippoorwill](monster/eagle)",
 			"    - *(uses Eagle statistics)*"
 		]
 	},
-	"summon_nature's_ally_i_torag": {
+	"summon_natures_ally_i_torag": {
 		"name": "Summon Nature's Ally I: Torag",
 		"spell": "Summon Nature's Ally I",
 		"type": "faith",
@@ -4217,13 +4217,13 @@
 		"description": [
 			"## Faith: [Torag](faith/torag)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Badger](monster/badger) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_i_urgathoa": {
+	"summon_natures_ally_i_urgathoa": {
 		"name": "Summon Nature's Ally I: Urgathoa",
 		"spell": "Summon Nature's Ally I",
 		"type": "faith",
@@ -4232,13 +4232,13 @@
 		"description": [
 			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Giant Maggot](monster/giant_maggot) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_i_the_eldest_pantheon": {
+	"summon_natures_ally_i_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally I: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally I",
 		"type": "faith",
@@ -4253,7 +4253,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_i_spider_summoner": {
+	"summon_natures_ally_i_spider_summoner": {
 		"name": "Summon Nature's Ally I: Spider Summoner",
 		"spell": "Summon Nature's Ally I",
 		"type": "feat",
@@ -4267,7 +4267,7 @@
 			"- [Giant Crab Spider](monster/giant_crab_spider)"
 		]
 	},
-	"summon_nature's_ally_i_summon_plant_ally": {
+	"summon_natures_ally_i_summon_plant_ally": {
 		"name": "Summon Nature's Ally I: Summon Plant Ally",
 		"spell": "Summon Nature's Ally I",
 		"type": "feat",
@@ -4282,7 +4282,7 @@
 			"- [Vegepygmy](monster/vegepygmy)"
 		]
 	},
-	"summon_nature's_ally_i_ring_of_natural_attunement_leshy": {
+	"summon_natures_ally_i_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally I: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally I",
 		"type": "magic-ring",
@@ -4296,7 +4296,7 @@
 			"- [Leaf Leshy](monster/leaf_leshy)"
 		]
 	},
-	"summon_nature's_ally_i_basic": {
+	"summon_natures_ally_i_basic": {
 		"name": "Summon Nature's Ally I: Basic",
 		"spell": "Summon Nature's Ally I",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -4319,7 +4319,7 @@
 			"- [Viper (Snake)](monster/viper)"
 		]
 	},
-	"summon_nature's_ally_ii_druid_shark_shaman": {
+	"summon_natures_ally_ii_druid_shark_shaman": {
 		"name": "Summon Nature's Ally II: Druid Shark Shaman",
 		"spell": "Summon Nature's Ally II",
 		"type": "class",
@@ -4333,7 +4333,7 @@
 			"- [Manta Ray](monster/manta_ray)"
 		]
 	},
-	"summon_nature's_ally_ii_calistria": {
+	"summon_natures_ally_ii_calistria": {
 		"name": "Summon Nature's Ally II: Calistria",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4342,13 +4342,13 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Giant Bee](monster/giant_bee) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_cayden_cailean": {
+	"summon_natures_ally_ii_cayden_cailean": {
 		"name": "Summon Nature's Ally II: Cayden Cailean",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4357,13 +4357,13 @@
 		"description": [
 			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial or Entropic Wolf](monster/wolf) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_desna": {
+	"summon_natures_ally_ii_desna": {
 		"name": "Summon Nature's Ally II: Desna",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4372,13 +4372,13 @@
 		"description": [
 			"## Faith: [Desna](faith/desna)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Pseudodragon (CG)](monster/pseudodragon) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_erastil": {
+	"summon_natures_ally_ii_erastil": {
 		"name": "Summon Nature's Ally II: Erastil",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4387,13 +4387,13 @@
 		"description": [
 			"## Faith: [Erastil](faith/erastil)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial Elk (LG)](monster/elk) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_gozreh": {
+	"summon_natures_ally_ii_gozreh": {
 		"name": "Summon Nature's Ally II: Gozreh",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4402,13 +4402,13 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^I]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_green_faith": {
+	"summon_natures_ally_ii_green_faith": {
 		"name": "Summon Nature's Ally II: Green Faith",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4417,7 +4417,7 @@
 		"description": [
 			"## Faith: [Green Faith](faith/green_faith)",
 			"",
-			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
+			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_75_demons_heresy)",
 			"",
 			"- **Order of the Wing**",
 			"    - [Axe Beak](monster/axe_beak)",
@@ -4426,7 +4426,7 @@
 			"    - [Giant Porcupine](monster/giant_porcupine)"
 		]
 	},
-	"summon_nature's_ally_ii_irori": {
+	"summon_natures_ally_ii_irori": {
 		"name": "Summon Nature's Ally II: Irori",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4435,13 +4435,13 @@
 		"description": [
 			"## Faith: [Irori](faith/irori)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Shikigami (Kami)](monster/shikigami)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_shelyn": {
+	"summon_natures_ally_ii_shelyn": {
 		"name": "Summon Nature's Ally II: Shelyn",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4450,13 +4450,13 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Grig](monster/grig)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_urgathoa": {
+	"summon_natures_ally_ii_urgathoa": {
 		"name": "Summon Nature's Ally II: Urgathoa",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4465,13 +4465,13 @@
 		"description": [
 			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Giant Fly](monster/giant_fly)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_zon-kuthon": {
+	"summon_natures_ally_ii_zon-kuthon": {
 		"name": "Summon Nature's Ally II: Zon-Kuthon",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4480,13 +4480,13 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Augur (Kyton)](monster/augur) [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ii_the_eldest_pantheon": {
+	"summon_natures_ally_ii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally II: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally II",
 		"type": "faith",
@@ -4502,7 +4502,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_ii_summon_plant_ally": {
+	"summon_natures_ally_ii_summon_plant_ally": {
 		"name": "Summon Nature's Ally II: Summon Plant Ally",
 		"spell": "Summon Nature's Ally II",
 		"type": "feat",
@@ -4518,7 +4518,7 @@
 			"    - *(without Seed ability)*"
 		]
 	},
-	"summon_nature's_ally_ii_ring_of_natural_attunement_leshy": {
+	"summon_natures_ally_ii_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally II: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally II",
 		"type": "magic-ring",
@@ -4532,7 +4532,7 @@
 			"- [Gourd Leshy](monster/gourd_leshy)"
 		]
 	},
-	"summon_nature's_ally_ii_basic": {
+	"summon_natures_ally_ii_basic": {
 		"name": "Summon Nature's Ally II: Basic",
 		"spell": "Summon Nature's Ally II",
 		"sources": [
@@ -4564,7 +4564,7 @@
 			"- [Wolf](monster/wolf)"
 		]
 	},
-	"summon_nature's_ally_iii_abadar": {
+	"summon_natures_ally_iii_abadar": {
 		"name": "Summon Nature's Ally III: Abadar",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4573,13 +4573,13 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Resolute Hippogriff (LN)](monster/hippogriff)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_asmodeus": {
+	"summon_natures_ally_iii_asmodeus": {
 		"name": "Summon Nature's Ally III: Asmodeus",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4588,13 +4588,13 @@
 		"description": [
 			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Hell Hound](monster/hell_hound) [evil, fire, lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_cayden_cailean": {
+	"summon_natures_ally_iii_cayden_cailean": {
 		"name": "Summon Nature's Ally III: Cayden Cailean",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4603,13 +4603,13 @@
 		"description": [
 			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Satyr (without pipes, CG)](monster/satyr)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_desna": {
+	"summon_natures_ally_iii_desna": {
 		"name": "Summon Nature's Ally III: Desna",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4618,13 +4618,13 @@
 		"description": [
 			"## Faith: [Desna](faith/desna)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_gorum": {
+	"summon_natures_ally_iii_gorum": {
 		"name": "Summon Nature's Ally III: Gorum",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4633,13 +4633,13 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Iron Cobra (no poison)](monster/iron_cobra)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_nethys": {
+	"summon_natures_ally_iii_nethys": {
 		"name": "Summon Nature's Ally III: Nethys",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4648,13 +4648,13 @@
 		"description": [
 			"## Faith: [Nethys](faith/nethys)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Paracletus (Aeon)](monster/paracletus)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_norgorber": {
+	"summon_natures_ally_iii_norgorber": {
 		"name": "Summon Nature's Ally III: Norgorber",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4663,13 +4663,13 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Choker](monster/choker)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_pharasma": {
+	"summon_natures_ally_iii_pharasma": {
 		"name": "Summon Nature's Ally III: Pharasma",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4678,13 +4678,13 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Nosoi (Psychopomp)](monster/nosoi)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_rovagug": {
+	"summon_natures_ally_iii_rovagug": {
 		"name": "Summon Nature's Ally III: Rovagug",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4693,13 +4693,13 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_shelyn": {
+	"summon_natures_ally_iii_shelyn": {
 		"name": "Summon Nature's Ally III: Shelyn",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4708,13 +4708,13 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Silvanshee (agathion)](monster/silvanshee) [good]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_torag": {
+	"summon_natures_ally_iii_torag": {
 		"name": "Summon Nature's Ally III: Torag",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4723,13 +4723,13 @@
 		"description": [
 			"## Faith: [Torag](faith/torag)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Dire Badger](monster/dire_badger)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iii_the_eldest_pantheon": {
+	"summon_natures_ally_iii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally III: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally III",
 		"type": "faith",
@@ -4745,7 +4745,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_iii_summon_plant_ally": {
+	"summon_natures_ally_iii_summon_plant_ally": {
 		"name": "Summon Nature's Ally III: Summon Plant Ally",
 		"spell": "Summon Nature's Ally III",
 		"type": "feat",
@@ -4760,7 +4760,7 @@
 			"- [Weedwhip](monster/weedwhip)"
 		]
 	},
-	"summon_nature's_ally_iii_ring_of_natural_attunement_kami": {
+	"summon_natures_ally_iii_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally III: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally III",
 		"type": "magic-ring",
@@ -4774,7 +4774,7 @@
 			"- [Shikigami](monster/shikigami)"
 		]
 	},
-	"summon_nature's_ally_iii_ring_of_natural_attunement_leshy": {
+	"summon_natures_ally_iii_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally III: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally III",
 		"type": "magic-ring",
@@ -4788,7 +4788,7 @@
 			"- [Fungus Leshy](monster/fungus_leshy)"
 		]
 	},
-	"summon_nature's_ally_iii_basic": {
+	"summon_natures_ally_iii_basic": {
 		"name": "Summon Nature's Ally III: Basic",
 		"spell": "Summon Nature's Ally III",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -4814,7 +4814,7 @@
 			"- [Wolverine](monster/wolverine)"
 		]
 	},
-	"summon_nature's_ally_iv_abadar": {
+	"summon_natures_ally_iv_abadar": {
 		"name": "Summon Nature's Ally IV: Abadar",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4823,14 +4823,14 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Resolute Griffon (LN)](monster/griffon) [^I]",
 			"- [Two-Headed Celestial Giant Eagle (LN)](monster/giant_eagle) [^I][^T]"
 		],
 		"footnotes": ["I", "T"]
 	},
-	"summon_nature's_ally_iv_erastil": {
+	"summon_natures_ally_iv_erastil": {
 		"name": "Summon Nature's Ally IV: Erastil",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4839,13 +4839,13 @@
 		"description": [
 			"## Faith: [Erastil](faith/erastil)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial Dire Boar (LG)](monster/dire_boar_daeodon)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iv_green_faith": {
+	"summon_natures_ally_iv_green_faith": {
 		"name": "Summon Nature's Ally IV: Green Faith",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4854,7 +4854,7 @@
 		"description": [
 			"## Faith: [Green Faith](faith/green_faith)",
 			"",
-			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
+			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_75_demons_heresy)",
 			"",
 			"- **Order of the Fang**",
 			"    - [Giant Chameleon Lizard](monster/giant_chameleon)",
@@ -4866,7 +4866,7 @@
 			"    - [Seaweed Leshy](monster/seaweed_leshy)"
 		]
 	},
-	"summon_nature's_ally_iv_iomedae": {
+	"summon_natures_ally_iv_iomedae": {
 		"name": "Summon Nature's Ally IV: Iomedae",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4875,13 +4875,13 @@
 		"description": [
 			"## Faith: [Iomedae](faith/iomedae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Celestial Giant Eagle (LG)](monster/giant_eagle)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iv_lamashtu": {
+	"summon_natures_ally_iv_lamashtu": {
 		"name": "Summon Nature's Ally IV: Lamashtu",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4890,13 +4890,13 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Yeth Hound (CE)](monster/yeth_hound) [evil]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iv_norgorber": {
+	"summon_natures_ally_iv_norgorber": {
 		"name": "Summon Nature's Ally IV: Norgorber",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4905,13 +4905,13 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Giant Black Widow (Spider)](monster/giant_black_widow)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iv_pharasma": {
+	"summon_natures_ally_iv_pharasma": {
 		"name": "Summon Nature's Ally IV: Pharasma",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4920,13 +4920,13 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Catrina (Psychopomp)](monster/catrina)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iv_torag": {
+	"summon_natures_ally_iv_torag": {
 		"name": "Summon Nature's Ally IV: Torag",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4935,13 +4935,13 @@
 		"description": [
 			"## Faith: [Torag](faith/torag)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Azer](monster/azer) [fire]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_iv_the_eldest_pantheon": {
+	"summon_natures_ally_iv_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally IV: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally IV",
 		"type": "faith",
@@ -4958,7 +4958,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_iv_spider_summoner": {
+	"summon_natures_ally_iv_spider_summoner": {
 		"name": "Summon Nature's Ally IV: Spider Summoner",
 		"spell": "Summon Nature's Ally IV",
 		"type": "feat",
@@ -4972,7 +4972,7 @@
 			"- [Giant Black Widow](monster/giant_black_widow)"
 		]
 	},
-	"summon_nature's_ally_iv_summon_plant_ally": {
+	"summon_natures_ally_iv_summon_plant_ally": {
 		"name": "Summon Nature's Ally IV: Summon Plant Ally",
 		"spell": "Summon Nature's Ally IV",
 		"type": "feat",
@@ -4988,7 +4988,7 @@
 			"    - *(without Air Cyst ability)*"
 		]
 	},
-	"summon_nature's_ally_iv_ring_of_natural_attunement_drake": {
+	"summon_natures_ally_iv_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally IV: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally IV",
 		"type": "magic-ring",
@@ -5003,7 +5003,7 @@
 			"- [Shadow Drake](monster/shadow_drake) [cold]"
 		]
 	},
-	"summon_nature's_ally_iv_ring_of_natural_attunement_leshy": {
+	"summon_natures_ally_iv_ring_of_natural_attunement_leshy": {
 		"name": "Summon Nature's Ally IV: Ring of Natural Attunement (Leshy)",
 		"spell": "Summon Nature's Ally IV",
 		"type": "magic-ring",
@@ -5017,7 +5017,7 @@
 			"- [Seaweed Leshy](monster/seaweed_leshy)"
 		]
 	},
-	"summon_nature's_ally_iv_basic": {
+	"summon_natures_ally_iv_basic": {
 		"name": "Summon Nature's Ally IV: Basic",
 		"spell": "Summon Nature's Ally IV",
 		"sources": [
@@ -5029,7 +5029,7 @@
 		"description": [
 			"## Summon Nature's Ally IV",
 			"",
-			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Pathfinder #116: Fangs of War](source/pathfinder_#116_fangs_of_war)",
+			"**Sources** [PRPG Core Rulebook](source/prpg_core_rulebook), [Bestiary 2](source/bestiary_2), [Pathfinder #116: Fangs of War](source/pathfinder_116_fangs_of_war)",
 			"",
 			"- [Air Elemental (Medium)](monster/medium_air_elemental) [air]",
 			"- [Ant, Giant (Drone)](monster/giant_ant)",
@@ -5060,7 +5060,7 @@
 			"- [Anhana](monster/anhana)"
 		]
 	},
-	"summon_nature's_ally_v_asmodeus": {
+	"summon_natures_ally_v_asmodeus": {
 		"name": "Summon Nature's Ally V: Asmodeus",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5069,14 +5069,14 @@
 		"description": [
 			"## Faith: [Asmodeus](faith/asmodeus)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Bearded Devil](monster/barbazu) [evil, lawful][^I]",
 			"- [Cerberi](monster/cerberi) [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_calistria": {
+	"summon_natures_ally_v_calistria": {
 		"name": "Summon Nature's Ally V: Calistria",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5085,13 +5085,13 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Spider Eater](monster/spider_eater)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_cayden_cailean": {
+	"summon_natures_ally_v_cayden_cailean": {
 		"name": "Summon Nature's Ally V: Cayden Cailean",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5100,13 +5100,13 @@
 		"description": [
 			"## Faith: [Cayden Cailean](faith/cayden_cailean)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Cayhound](monster/cayhound)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_green_faith": {
+	"summon_natures_ally_v_green_faith": {
 		"name": "Summon Nature's Ally V: Green Faith",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5115,7 +5115,7 @@
 		"description": [
 			"## Faith: [Green Faith](faith/green_faith)",
 			"",
-			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
+			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_75_demons_heresy)",
 			"",
 			"- **Order of the Fang**",
 			"    - [Emperor Cobra](monster/emperor_cobra)",
@@ -5125,7 +5125,7 @@
 			"    - [Giant Owl](monster/giant_owl)"
 		]
 	},
-	"summon_nature's_ally_v_iomedae": {
+	"summon_natures_ally_v_iomedae": {
 		"name": "Summon Nature's Ally V: Iomedae",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5134,13 +5134,13 @@
 		"description": [
 			"## Faith: [Iomedae](faith/iomedae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Celestial Griffon (LG)](monster/griffon)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_lamashtu": {
+	"summon_natures_ally_v_lamashtu": {
 		"name": "Summon Nature's Ally V: Lamashtu",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5149,13 +5149,13 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Entropic Barghest (CE)](monster/barghest) [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_norgorber": {
+	"summon_natures_ally_v_norgorber": {
 		"name": "Summon Nature's Ally V: Norgorber",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5164,13 +5164,13 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Choker](monster/choker)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_rovagug": {
+	"summon_natures_ally_v_rovagug": {
 		"name": "Summon Nature's Ally V: Rovagug",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5179,13 +5179,13 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Gibbering Mouther (CE)](monster/gibbering_mouther)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_sheyln": {
+	"summon_natures_ally_v_sheyln": {
 		"name": "Summon Nature's Ally V: Sheyln",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5194,13 +5194,13 @@
 		"description": [
 			"## Faith: [Sheyln](faith/sheyln)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Vulpinal (Agathion)](monster/vulpinal) [good]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_zon-kuthon": {
+	"summon_natures_ally_v_zon-kuthon": {
 		"name": "Summon Nature's Ally V: Zon-Kuthon",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5209,13 +5209,13 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_v_the_eldest_pantheon": {
+	"summon_natures_ally_v_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally V: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally V",
 		"type": "faith",
@@ -5231,7 +5231,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_v_spider_summoner": {
+	"summon_natures_ally_v_spider_summoner": {
 		"name": "Summon Nature's Ally V: Spider Summoner",
 		"spell": "Summon Nature's Ally V",
 		"type": "feat",
@@ -5245,7 +5245,7 @@
 			"- [Ogre Spider](monster/ogre_spider)"
 		]
 	},
-	"summon_nature's_ally_v_summon_plant_ally": {
+	"summon_natures_ally_v_summon_plant_ally": {
 		"name": "Summon Nature's Ally V: Summon Plant Ally",
 		"spell": "Summon Nature's Ally V",
 		"type": "feat",
@@ -5260,7 +5260,7 @@
 			"- [Shambling Mound](monster/shambling_mound)"
 		]
 	},
-	"summon_nature's_ally_v_ring_of_natural_attunement_drake": {
+	"summon_natures_ally_v_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally V: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally V",
 		"type": "magic-ring",
@@ -5274,7 +5274,7 @@
 			"- [Flame Drake](monster/flame_drake) [fire]"
 		]
 	},
-	"summon_nature's_ally_v_ring_of_natural_attunement_kami": {
+	"summon_natures_ally_v_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally V: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally V",
 		"type": "magic-ring",
@@ -5288,7 +5288,7 @@
 			"- [Kodama](monster/kodama)"
 		]
 	},
-	"summon_nature's_ally_v_basic": {
+	"summon_natures_ally_v_basic": {
 		"name": "Summon Nature's Ally V: Basic",
 		"spell": "Summon Nature's Ally V",
 		"sources": [
@@ -5320,7 +5320,7 @@
 			"- [Woolly Rhinoceros](monster/woolly_rhinoceros)"
 		]
 	},
-	"summon_nature's_ally_vi_gorum": {
+	"summon_natures_ally_vi_gorum": {
 		"name": "Summon Nature's Ally VI: Gorum",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5329,13 +5329,13 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Arsinoitherium](monster/arsinoitherium)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_gozreh": {
+	"summon_natures_ally_vi_gozreh": {
 		"name": "Summon Nature's Ally VI: Gozreh",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5344,13 +5344,13 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Immense Tortoise](monster/immense_tortoise)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_green_faith": {
+	"summon_natures_ally_vi_green_faith": {
 		"name": "Summon Nature's Ally VI: Green Faith",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5359,13 +5359,13 @@
 		"description": [
 			"## Faith: [Green Faith](faith/green_faith)",
 			"",
-			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
+			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_75_demons_heresy)",
 			"",
 			"- **Order of the Leaf**",
 			"    - [Shambling Mound](monster/shambling_mound)"
 		]
 	},
-	"summon_nature's_ally_vi_lamashtu": {
+	"summon_natures_ally_vi_lamashtu": {
 		"name": "Summon Nature's Ally VI: Lamashtu",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5374,13 +5374,13 @@
 		"description": [
 			"## Faith: [Lamashtu](faith/lamashtu)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Shadow Mastiff](monster/shadow_mastiff) [evil]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_nethys": {
+	"summon_natures_ally_vi_nethys": {
 		"name": "Summon Nature's Ally VI: Nethys",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5389,13 +5389,13 @@
 		"description": [
 			"## Faith: [Nethys](faith/nethys)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Theletos (Aeon)](monster/theletos)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_pharasma": {
+	"summon_natures_ally_vi_pharasma": {
 		"name": "Summon Nature's Ally VI: Pharasma",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5404,13 +5404,13 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Vanth (Psychopomp)](monster/vanth)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_rovagug": {
+	"summon_natures_ally_vi_rovagug": {
 		"name": "Summon Nature's Ally VI: Rovagug",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5419,13 +5419,13 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_sarenrae": {
+	"summon_natures_ally_vi_sarenrae": {
 		"name": "Summon Nature's Ally VI: Sarenrae",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5434,13 +5434,13 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Janni (Genie, NG)](monster/janni)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vi_the_eldest_pantheon": {
+	"summon_natures_ally_vi_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally VI: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally VI",
 		"type": "faith",
@@ -5456,7 +5456,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_vi_summon_plant_ally": {
+	"summon_natures_ally_vi_summon_plant_ally": {
 		"name": "Summon Nature's Ally VI: Summon Plant Ally",
 		"spell": "Summon Nature's Ally VI",
 		"type": "feat",
@@ -5471,7 +5471,7 @@
 			"- [Treant](monster/treant)"
 		]
 	},
-	"summon_nature's_ally_vi_ring_of_natural_attunement_drake": {
+	"summon_natures_ally_vi_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally VI: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally VI",
 		"type": "magic-ring",
@@ -5485,7 +5485,7 @@
 			"- [Frost Drake](monster/frost_drake) [cold]"
 		]
 	},
-	"summon_nature's_ally_vi_basic": {
+	"summon_natures_ally_vi_basic": {
 		"name": "Summon Nature's Ally VI: Basic",
 		"spell": "Summon Nature's Ally VI",
 		"sources": [
@@ -5518,7 +5518,7 @@
 			"- [Water Elemental (Huge)](monster/huge_water_elemental) [water]"
 		]
 	},
-	"summon_nature's_ally_vii_desna": {
+	"summon_natures_ally_vii_desna": {
 		"name": "Summon Nature's Ally VII: Desna",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5527,13 +5527,13 @@
 		"description": [
 			"## Faith: [Desna](faith/desna)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Star Monarch](monster/star_monarch)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_gorum": {
+	"summon_natures_ally_vii_gorum": {
 		"name": "Summon Nature's Ally VII: Gorum",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5542,13 +5542,13 @@
 		"description": [
 			"## Faith: [Gorum](faith/gorum)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Bulette](monster/bulette)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_gozreh": {
+	"summon_natures_ally_vii_gozreh": {
 		"name": "Summon Nature's Ally VII: Gozreh",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5557,13 +5557,13 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Whale](monster/whale)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_green_faith": {
+	"summon_natures_ally_vii_green_faith": {
 		"name": "Summon Nature's Ally VII: Green Faith",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5572,7 +5572,7 @@
 		"description": [
 			"## Faith: [Green Faith](faith/green_faith)",
 			"",
-			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_#75_demon's_heresy)",
+			"**Sources** [Pathfinder #75: Demon's Heresy](source/pathfinder_75_demons_heresy)",
 			"",
 			"- *Order of the Fang*",
 			"    - [Giant Anaconda](monster/giant_anaconda)",
@@ -5582,7 +5582,7 @@
 			"    - [Giant Snapping Turtle](monster/giant_snapping_turtle)"
 		]
 	},
-	"summon_nature's_ally_vii_irori": {
+	"summon_natures_ally_vii_irori": {
 		"name": "Summon Nature's Ally VII: Irori",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5591,13 +5591,13 @@
 		"description": [
 			"## Faith: [Irori](faith/irori)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Zuishin (Kami, NG)](monster/zuishin)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_rovagug": {
+	"summon_natures_ally_vii_rovagug": {
 		"name": "Summon Nature's Ally VII: Rovagug",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5606,13 +5606,13 @@
 		"description": [
 			"## Faith: [Rovagug](faith/rovagug)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Entropic Girtablilu](monster/girtablilu)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_sarenrae": {
+	"summon_natures_ally_vii_sarenrae": {
 		"name": "Summon Nature's Ally VII: Sarenrae",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5624,14 +5624,14 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast), [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_20_house_of_the_beast), [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Djinni (NG)](monster/djinni) [air]",
 			"- [Movanic Deva (Angel)](monster/movanic_deva) [good]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_shelyn": {
+	"summon_natures_ally_vii_shelyn": {
 		"name": "Summon Nature's Ally VII: Shelyn",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5640,13 +5640,13 @@
 		"description": [
 			"## Faith: [Shelyn](faith/shelyn)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Avoral (Agathion)](monster/avoral) [good]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_urgathoa": {
+	"summon_natures_ally_vii_urgathoa": {
 		"name": "Summon Nature's Ally VII: Urgathoa",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5655,13 +5655,13 @@
 		"description": [
 			"## Faith: [Urgathoa](faith/urgathoa)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Fiendish Daughter of Urgathoa](monster/daughter_of_urgathoa)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_zon-kuthon": {
+	"summon_natures_ally_vii_zon-kuthon": {
 		"name": "Summon Nature's Ally VII: Zon-Kuthon",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5670,13 +5670,13 @@
 		"description": [
 			"## Faith: [Zon-Kuthon](faith/zon-kuthon)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_vii_the_eldest_pantheon": {
+	"summon_natures_ally_vii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally VII: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally VII",
 		"type": "faith",
@@ -5692,7 +5692,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_vii_spider_summoner": {
+	"summon_natures_ally_vii_spider_summoner": {
 		"name": "Summon Nature's Ally VII: Spider Summoner",
 		"spell": "Summon Nature's Ally VII",
 		"type": "feat",
@@ -5706,7 +5706,7 @@
 			"- [Giant Tarantula](monster/giant_tarantula)"
 		]
 	},
-	"summon_nature's_ally_vii_summon_plant_ally": {
+	"summon_natures_ally_vii_summon_plant_ally": {
 		"name": "Summon Nature's Ally VII: Summon Plant Ally",
 		"spell": "Summon Nature's Ally VII",
 		"type": "feat",
@@ -5720,7 +5720,7 @@
 			"- [Giant Flytrap](monster/giant_flytrap)"
 		]
 	},
-	"summon_nature's_ally_vii_ring_of_natural_attunement_kami": {
+	"summon_natures_ally_vii_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally VII: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally VII",
 		"type": "magic-ring",
@@ -5734,7 +5734,7 @@
 			"- [Zuishin](monster/zuishin)"
 		]
 	},
-	"summon_nature's_ally_vii_basic": {
+	"summon_natures_ally_vii_basic": {
 		"name": "Summon Nature's Ally VII: Basic",
 		"spell": "Summon Nature's Ally VII",
 		"sources": [
@@ -5766,7 +5766,7 @@
 			"- [Water Elemental (Greater)](monster/greater_water_elemental) [water]"
 		]
 	},
-	"summon_nature's_ally_viii_calistria": {
+	"summon_natures_ally_viii_calistria": {
 		"name": "Summon Nature's Ally VIII: Calistria",
 		"spell": "Summon Nature's Ally VIII",
 		"type": "faith",
@@ -5775,13 +5775,13 @@
 		"description": [
 			"## Faith: [Calistria](faith/calistria)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Advanced Entropic Chaos Beast](monster/chaos_beast) [chaotic]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_viii_norgorber": {
+	"summon_natures_ally_viii_norgorber": {
 		"name": "Summon Nature's Ally VIII: Norgorber",
 		"spell": "Summon Nature's Ally VIII",
 		"type": "faith",
@@ -5790,13 +5790,13 @@
 		"description": [
 			"## Faith: [Norgorber](faith/norgorber)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Jorogumo](monster/jorogumo)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_viii_sarenrae": {
+	"summon_natures_ally_viii_sarenrae": {
 		"name": "Summon Nature's Ally VIII: Sarenrae",
 		"spell": "Summon Nature's Ally VIII",
 		"type": "faith",
@@ -5805,13 +5805,13 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_#20_house_of_the_beast)",
+			"**Sources** [Pathfinder #20: House of the Beast](source/pathfinder_20_house_of_the_beast)",
 			"",
 			"- [Efreeti (LG)](monster/efreeti) [fire][^W]"
 		],
 		"footnotes": ["W"]
 	},
-	"summon_nature's_ally_viii_the_eldest_pantheon": {
+	"summon_natures_ally_viii_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally VIII: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally VIII",
 		"type": "faith",
@@ -5827,7 +5827,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_viii_summon_plant_ally": {
+	"summon_natures_ally_viii_summon_plant_ally": {
 		"name": "Summon Nature's Ally VIII: Summon Plant Ally",
 		"spell": "Summon Nature's Ally VIII",
 		"type": "feat",
@@ -5841,7 +5841,7 @@
 			"- [Jinmenju](monster/jinmenju)"
 		]
 	},
-	"summon_nature's_ally_viii_basic": {
+	"summon_natures_ally_viii_basic": {
 		"name": "Summon Nature's Ally VIII: Basic",
 		"spell": "Summon Nature's Ally VIII",
 		"sources": [
@@ -5866,7 +5866,7 @@
 			"- [Water Elemental (Elder)](monster/elder_water_elemental) [water]"
 		]
 	},
-	"summon_nature's_ally_ix_abadar": {
+	"summon_natures_ally_ix_abadar": {
 		"name": "Summon Nature's Ally IX: Abadar",
 		"spell": "Summon Nature's Ally IX",
 		"type": "faith",
@@ -5875,13 +5875,13 @@
 		"description": [
 			"## Faith: [Abadar](faith/abadar)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ix_gozreh": {
+	"summon_natures_ally_ix_gozreh": {
 		"name": "Summon Nature's Ally IX: Gozreh",
 		"spell": "Summon Nature's Ally IX",
 		"type": "faith",
@@ -5890,13 +5890,13 @@
 		"description": [
 			"## Faith: [Gozreh](faith/gozreh)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Great White Whale](monster/great_white_whale)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ix_pharasma": {
+	"summon_natures_ally_ix_pharasma": {
 		"name": "Summon Nature's Ally IX: Pharasma",
 		"spell": "Summon Nature's Ally IX",
 		"type": "faith",
@@ -5905,13 +5905,13 @@
 		"description": [
 			"## Faith: [Pharasma](faith/pharasma)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Morrigna (Psychopomp)](monster/morrigna)"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ix_sarenrae": {
+	"summon_natures_ally_ix_sarenrae": {
 		"name": "Summon Nature's Ally IX: Sarenrae",
 		"spell": "Summon Nature's Ally IX",
 		"type": "faith",
@@ -5920,13 +5920,13 @@
 		"description": [
 			"## Faith: [Sarenrae](faith/sarenrae)",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"- [Peri](monster/peri) [good]"
 		],
 		"footnotes": ["I"]
 	},
-	"summon_nature's_ally_ix_the_eldest_pantheon": {
+	"summon_natures_ally_ix_the_eldest_pantheon": {
 		"name": "Summon Nature's Ally IX: The Eldest (Pantheon)",
 		"spell": "Summon Nature's Ally IX",
 		"type": "faith",
@@ -5942,7 +5942,7 @@
 		],
 		"footnotes": ["E"]
 	},
-	"summon_nature's_ally_ix_summon_plant_ally": {
+	"summon_natures_ally_ix_summon_plant_ally": {
 		"name": "Summon Nature's Ally IX: Summon Plant Ally",
 		"spell": "Summon Nature's Ally IX",
 		"type": "feat",
@@ -5956,7 +5956,7 @@
 			"- [Alraune](monster/alraune)"
 		]
 	},
-	"summon_nature's_ally_ix_ring_of_natural_attunement_drake": {
+	"summon_natures_ally_ix_ring_of_natural_attunement_drake": {
 		"name": "Summon Nature's Ally IX: Ring of Natural Attunement (Drake)",
 		"spell": "Summon Nature's Ally IX",
 		"type": "magic-ring",
@@ -5970,7 +5970,7 @@
 			"- [Desert Drake](monster/desert_drake) [earth]"
 		]
 	},
-	"summon_nature's_ally_ix_ring_of_natural_attunement_kami": {
+	"summon_natures_ally_ix_ring_of_natural_attunement_kami": {
 		"name": "Summon Nature's Ally IX: Ring of Natural Attunement (Kami)",
 		"spell": "Summon Nature's Ally IX",
 		"type": "magic-ring",
@@ -5984,7 +5984,7 @@
 			"- [Toshigami](monster/toshigami)"
 		]
 	},
-	"summon_nature's_ally_ix_basic": {
+	"summon_natures_ally_ix_basic": {
 		"name": "Summon Nature's Ally IX: Basic",
 		"spell": "Summon Nature's Ally IX",
 		"sources": [ "PRPG Core Rulebook" ],

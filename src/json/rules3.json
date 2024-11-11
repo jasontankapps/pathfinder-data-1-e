@@ -476,10 +476,10 @@
 		"subtopics": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"firearms",
@@ -514,10 +514,10 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		]
 	},
 	"crowd_attitudes": {
@@ -557,13 +557,13 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		]
 	},
-	"crowd's_starting_attitude": {
+	"crowds_starting_attitude": {
 		"name": "Crowd's Starting Attitude",
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
@@ -580,10 +580,10 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		]
 	},
 	"performance_combat_check": {
@@ -592,7 +592,7 @@
 		"description": [
 			"**Source** [Ultimate Combat pg. 154](source/ultimate_combat)",
 			"",
-			"Whenever a combatant has a chance to affect the crowd's attitude, she makes a performance combat check. The check is a Charisma ability check modified by the base attack bonus of the character plus any ranks the character has in Perform (act), Perform (comedy), or Perform (dance), whichever is highest. Making a performance combat check is usually a swift action, triggered when a combatant performs a trigger action (see [Affecting the Crowd's Attitude](rule/affecting_the_crowd's_attitude)).",
+			"Whenever a combatant has a chance to affect the crowd's attitude, she makes a performance combat check. The check is a Charisma ability check modified by the base attack bonus of the character plus any ranks the character has in Perform (act), Perform (comedy), or Perform (dance), whichever is highest. Making a performance combat check is usually a swift action, triggered when a combatant performs a trigger action (see [Affecting the Crowd's Attitude](rule/affecting_the_crowds_attitude)).",
 			"",
 			"### Base Attack Bonus",
 			"",
@@ -626,10 +626,10 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		]
 	},
 	"performance_combat_check_dc": {
@@ -700,13 +700,13 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		]
 	},
-	"affecting_the_crowd's_attitude": {
+	"affecting_the_crowds_attitude": {
 		"name": "Affecting the Crowd's Attitude",
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
@@ -737,10 +737,10 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowd's_starting_attitude",
+			"crowds_starting_attitude",
 			"performance_combat_check",
 			"performance_combat_check_dc",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		]
 	},
 	"swift_action_checks": {
@@ -770,7 +770,7 @@
 			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"swift_action_checks",
@@ -802,7 +802,7 @@
 			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"swift_action_checks",
@@ -832,7 +832,7 @@
 			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"swift_action_checks",
@@ -864,7 +864,7 @@
 			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"swift_action_checks",
@@ -888,7 +888,7 @@
 			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"swift_action_checks",
@@ -915,7 +915,7 @@
 			"gamemastery",
 			"mastering_combat",
 			"performance_combat",
-			"affecting_the_crowd's_attitude"
+			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
 			"swift_action_checks",
@@ -2850,7 +2850,7 @@
 			"",
 			"### Spell Research",
 			"",
-			"The game rules for what a caster must do to create a new spell are very vague (see [Independent Research](rule/adding_spells_to_a_wizard's_spellbook)). This is because, like the details of creating magic items, the nitty-gritty of what the caster is doing for this research isn't important for the progress of the campaign. Just as it's not necessary to know whether a wizard is using squid ink or ink from a rare plant when crafting a [scroll of burning hands](spell/burning_hands), it's not necessary to know whether he's modifying gestures described in Irulark's Incunabulum or altering the pronunciation of words detailed in Murlost's Great Grimoire to create a new 1st-level attack spell. While it's fine to include these elements for flavor, particularly in a high-narrative campaign, they don't affect the outcome of the item crafting or spell research, both of which largely take place outside of game time. Therefore, this section is about the game mechanics of a player or GM designing a new spell, not the in-world requirements of a character researching a new spell.",
+			"The game rules for what a caster must do to create a new spell are very vague (see [Independent Research](rule/adding_spells_to_a_wizards_spellbook)). This is because, like the details of creating magic items, the nitty-gritty of what the caster is doing for this research isn't important for the progress of the campaign. Just as it's not necessary to know whether a wizard is using squid ink or ink from a rare plant when crafting a [scroll of burning hands](spell/burning_hands), it's not necessary to know whether he's modifying gestures described in Irulark's Incunabulum or altering the pronunciation of words detailed in Murlost's Great Grimoire to create a new 1st-level attack spell. While it's fine to include these elements for flavor, particularly in a high-narrative campaign, they don't affect the outcome of the item crafting or spell research, both of which largely take place outside of game time. Therefore, this section is about the game mechanics of a player or GM designing a new spell, not the in-world requirements of a character researching a new spell.",
 			"",
 			"### The Golden Rule",
 			"",

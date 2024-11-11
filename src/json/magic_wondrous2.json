@@ -16,7 +16,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must have 5 ranks in Sleight of Hand; **Cost** 1,250 gp"
 		]
 	},
-	"healer's_gloves": {
+	"healers_gloves": {
 		"name": "Healer's Gloves",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -56,7 +56,7 @@
 		"description": [
 			"## Touch of Avolition",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 63](source/pathfinder_#88_valley_of_the_brain_collectors)  ",
+			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 63](source/pathfinder_88_valley_of_the_brain_collectors)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** hand; **Price** 2,500 gp; **Weight** -;",
 			"",
@@ -71,7 +71,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, hold person; **Cost** 1,250 gp"
 		]
 	},
-	"inheritor's_gauntlet": {
+	"inheritors_gauntlet": {
 		"name": "Inheritor's Gauntlet",
 		"sources": [
 			"Inner Sea Gods",
@@ -99,7 +99,7 @@
 		"description": [
 			"## Dianxue Gloves",
 			"",
-			"**Source** [Merchant's Manifest pg. 10](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 10](source/merchants_manifest)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** hands; **Price** 3,000 gp; **Weight** -;",
 			"",
@@ -110,7 +110,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), status, true strike, creator must have 5 ranks in Heal; **Cost** 1,500 gp"
 		]
 	},
-	"engineer's_workgloves": {
+	"engineers_workgloves": {
 		"name": "Engineer's Workgloves",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -135,7 +135,7 @@
 		"description": [
 			"## Rimeshaper Gloves",
 			"",
-			"**Source** [Merchant's Manifest pg. 13](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 13](source/merchants_manifest)  ",
 			"**Aura** faint abjuration and transmutation; **CL** 3rd  ",
 			"**Slot** hands; **Price** 3,000 gp; **Weight** 1 lb.",
 			"",
@@ -152,7 +152,7 @@
 		"description": [
 			"## Gloves of Stolen Unlife",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 28](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 28](source/undead_slayers_handbook)  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** hands; **Price** 3,040 gp; **Weight** 1 lb.",
 			"",
@@ -163,7 +163,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), false life; **Cost** 1,520 gp"
 		]
 	},
-	"death's_will": {
+	"deaths_will": {
 		"name": "Death's Will",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -180,7 +180,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cat's grace, spit venom; **Cost** 1,800 gp"
 		]
 	},
-	"kalistocrat's_gloves": {
+	"kalistocrats_gloves": {
 		"name": "Kalistocrat's Gloves",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
@@ -205,7 +205,7 @@
 		"description": [
 			"## Gloves of Improvised Might",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurers_armory_2)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** hands; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp (+5); **Weight** 1 lb.",
 			"",
@@ -297,7 +297,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, enlarge person; **Cost** 2,000 gp"
 		]
 	},
-	"trapspringer's_gloves": {
+	"trapspringers_gloves": {
 		"name": "Trapspringer's Gloves",
 		"sources": [
 			"Ultimate Equipment",
@@ -326,7 +326,7 @@
 		"description": [
 			"## First Aid Gloves",
 			"",
-			"**Source** [Adventurer's Guide pg. 147](source/adventurer's_guide), [Pathfinder Society Primer pg. 24](source/pathfinder_society_primer)  ",
+			"**Source** [Adventurer's Guide pg. 147](source/adventurers_guide), [Pathfinder Society Primer pg. 24](source/pathfinder_society_primer)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** hands; **Price** 4,500 gp; **Weight** 1 lb.",
 			"",
@@ -343,7 +343,7 @@
 		"description": [
 			"## Impact Gauntlets",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunters_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** hands; **Price** 4,500 gp; **Weight** 1 lb.",
 			"",
@@ -354,7 +354,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), shrink item; **Cost** 2,250 gp"
 		]
 	},
-	"extractor's_gloves": {
+	"extractors_gloves": {
 		"name": "Extractor's Gloves",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -381,7 +381,7 @@
 		"description": [
 			"## Gauntlets of the Deep",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_#124_city_in_the_deep)  ",
+			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_124_city_in_the_deep)  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** hands; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
@@ -430,7 +430,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Arcane Strike, magic weapon; **Cost** 2,500 gp"
 		]
 	},
-	"poisoner's_gloves": {
+	"poisoners_gloves": {
 		"name": "Poisoner's Gloves",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -506,7 +506,7 @@
 		"description": [
 			"## Gauntlets of Catching",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 73](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 73](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Aura** faint abjuration; **CL** 4th  ",
 			"**Slot** hands; **Price** 6,000 gp; **Weight** 20 lbs.",
 			"",
@@ -517,7 +517,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), shield; **Cost** 3,000 gp"
 		]
 	},
-	"magnetist's_gloves": {
+	"magnetists_gloves": {
 		"name": "Magnetist's Gloves",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -594,13 +594,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cause fear, heroism; **Cost** 3,600 gp"
 		]
 	},
-	"fervent_searcher's_gloves": {
+	"fervent_searchers_gloves": {
 		"name": "Fervent Searcher's Gloves",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Fervent Searcher's Gloves",
 			"",
-			"**Source** [Merchant's Manifest pg. 15](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 15](source/merchants_manifest)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** hands; **Price** 7,400 gp; **Weight** -;",
 			"",
@@ -611,7 +611,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), residual tracking; **Cost** 3,700 gp"
 		]
 	},
-	"beast_wrestler's_gauntlets": {
+	"beast_wrestlers_gauntlets": {
 		"name": "Beast Wrestler's Gauntlets",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
@@ -681,7 +681,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), acid arrow, [summon monster V](spell/summon_monster_5); **Cost** 4,000 gp"
 		]
 	},
-	"demonic_smith's_gloves": {
+	"demonic_smiths_gloves": {
 		"name": "Demonic Smith's Gloves",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
@@ -758,7 +758,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), expeditious excavation; **Cost** 4,000 gp"
 		]
 	},
-	"shadow_falconer's_glove": {
+	"shadow_falconers_glove": {
 		"name": "Shadow Falconer's Glove",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -864,7 +864,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), dimensional anchor, bull's strength; **Cost** 4,500 gp"
 		]
 	},
-	"swindler's_gloves": {
+	"swindlers_gloves": {
 		"name": "Swindler's Gloves",
 		"sources": [ "Seers of the Drowned City" ],
 		"description": [
@@ -964,7 +964,7 @@
 		"description": [
 			"## Gloves of Unfolding Wind",
 			"",
-			"**Source** [Adventurer's Guide pg. 107](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 107](source/adventurers_guide)  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1000,7 +1000,7 @@
 		"description": [
 			"## Perilous Gloves",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayers_handbook)  ",
 			"**Aura** faint transmutation and necromancy; **CL** 1st  ",
 			"**Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1132,7 +1132,7 @@
 		"description": [
 			"## Gloves of Dueling",
 			"",
-			"**Source** [Ultimate Equipment pg. 236](source/ultimate_equipment), [Advanced Player's Guide pg. 305](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 236](source/ultimate_equipment), [Advanced Player's Guide pg. 305](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** hands; **Price** 15,000 gp; **Weight** -;",
 			"",
@@ -1143,7 +1143,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater magic weapon; **Cost** 7,500 gp"
 		]
 	},
-	"saboteur's_gloves": {
+	"saboteurs_gloves": {
 		"name": "Saboteur's Gloves",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -1284,7 +1284,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), mage hand, telekinesis; **Cost** 10,000 gp"
 		]
 	},
-	"glove_of_familiar's_touch": {
+	"glove_of_familiars_touch": {
 		"name": "Glove of Familiar's Touch",
 		"sources": [ "Familiar Folio" ],
 		"description": [
@@ -1307,7 +1307,7 @@
 		"description": [
 			"## Armguards of Waning Hope",
 			"",
-			"**Source** [Merchant's Manifest pg. 14](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 14](source/merchants_manifest)  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** hands; **Price** 25,000 gp; **Weight** 1 lb.",
 			"",
@@ -1436,7 +1436,7 @@
 		"description": [
 			"## Mantis Embrace",
 			"",
-			"**Source** [Adventurer's Guide pg. 159](source/adventurer's_guide), [Agents of Evil pg. 29](source/agents_of_evil)  ",
+			"**Source** [Adventurer's Guide pg. 159](source/adventurers_guide), [Agents of Evil pg. 29](source/agents_of_evil)  ",
 			"**Aura** strong evocation and necromancy; **CL** 13th  ",
 			"**Slot** hands; **Price** 50,000 gp; **Weight** 1 lb.",
 			"",
@@ -1453,7 +1453,7 @@
 		"description": [
 			"## Gloves of Stolen Breath",
 			"",
-			"**Source** [Healer's Handbook pg. 28](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 28](source/healers_handbook)  ",
 			"**Aura** moderate conjuration and necromancy; **CL** 9th  ",
 			"**Slot** hands; **Price** 54,000 gp; **Weight** -;",
 			"",
@@ -1478,7 +1478,7 @@
 		"description": [
 			"## Talons of Leng",
 			"",
-			"**Source** [Ultimate Equipment pg. 239](source/ultimate_equipment), [Pathfinder #6: Spires of Xin-Shalast pg. 65](source/pathfinder_#6_spires_of_xin-shalast), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Ultimate Equipment pg. 239](source/ultimate_equipment), [Pathfinder #6: Spires of Xin-Shalast pg. 65](source/pathfinder_6_spires_of_xin-shalast), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** hands; **Price** 67,000 gp; **Weight** 1 lb.",
 			"",
@@ -1557,7 +1557,7 @@
 		"description": [
 			"## Veil of Attentiveness",
 			"",
-			"**Source** [Merchant's Manifest pg. 12](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 12](source/merchants_manifest)  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** head; **Price** 750 gp; **Weight** -;",
 			"",
@@ -1670,7 +1670,7 @@
 		"description": [
 			"## Skinsaw Mask",
 			"",
-			"**Source** [Pathfinder #100: A Song of Silver pg. 21](source/pathfinder_#100_a_song_of_silver), [Pathfinder #2: The Skinsaw Murders pg. 45](source/pathfinder_#2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Pathfinder #100: A Song of Silver pg. 21](source/pathfinder_100_a_song_of_silver), [Pathfinder #2: The Skinsaw Murders pg. 45](source/pathfinder_2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** faint necromancy [evil]; **CL** 3rd  ",
 			"**Slot** head; **Price** 1,500 gp; **Weight** 1 lb.",
 			"",
@@ -1724,7 +1724,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self, magic aura; **Cost** 800 gp"
 		]
 	},
-	"besmara's_bicorne": {
+	"besmaras_bicorne": {
 		"name": "Besmara's Bicorne",
 		"sources": [
 			"Inner Sea Gods",
@@ -1783,13 +1783,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), shield; **Cost** 1,000 gp"
 		]
 	},
-	"caller's_feather": {
+	"callers_feather": {
 		"name": "Caller's Feather",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Caller's Feather",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoners_handbook)  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** head; **Price** 2,000 gp; **Weight** -;",
 			"",
@@ -1800,7 +1800,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), planar ally or planar binding; **Cost** 1,000 gp"
 		]
 	},
-	"plaguebringer's_mask": {
+	"plaguebringers_mask": {
 		"name": "Plaguebringer's Mask",
 		"sources": [
 			"Curse of the Crimson Throne",
@@ -1809,7 +1809,7 @@
 		"description": [
 			"## Plaguebringer's Mask",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #8: Seven Days to the Grave pg. 18](source/pathfinder_#8_seven_days_to_the_grave)  ",
+			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #8: Seven Days to the Grave pg. 18](source/pathfinder_8_seven_days_to_the_grave)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** head; **Price** 2,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1820,7 +1820,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [misdirection](spell/misdirection), [remove disease](spell/remove_disease); **Cost** 1,000 gp"
 		]
 	},
-	"gray_gambler's_hat": {
+	"gray_gamblers_hat": {
 		"name": "Gray Gambler's Hat",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -1858,7 +1858,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), blindness/deafness; **Cost** 1,250 gp"
 		]
 	},
-	"besmara's_tricorne": {
+	"besmaras_tricorne": {
 		"name": "Besmara's Tricorne",
 		"sources": [
 			"Inner Sea Gods",
@@ -1867,7 +1867,7 @@
 		"description": [
 			"## Besmara's Tricorne",
 			"",
-			"**Source** [Inner Sea Gods pg. 261](source/inner_sea_gods), [Pathfinder #55: The Wormwood Mutiny pg. 58](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Inner Sea Gods pg. 261](source/inner_sea_gods), [Pathfinder #55: The Wormwood Mutiny pg. 58](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** head; **Price** 2,600 gp; **Weight** 1 lb.",
 			"",
@@ -1907,7 +1907,7 @@
 		"description": [
 			"## Hood of the Living",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 28](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 28](source/undead_slayers_handbook)  ",
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** head; **Price** 2,840 gp; **Weight** 1 lb.",
 			"",
@@ -1943,7 +1943,7 @@
 		"description": [
 			"## Hollow Mask",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_#124_city_in_the_deep)  ",
+			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_124_city_in_the_deep)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** head; **Price** 3,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1976,7 +1976,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate rope, magic missile, resistance; **Cost** 1,500 gp"
 		]
 	},
-	"miser's_mask": {
+	"misers_mask": {
 		"name": "Miser's Mask",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2010,7 +2010,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), guidance, resistance; **Cost** 1,550 gp"
 		]
 	},
-	"explorer's_pith_helmet": {
+	"explorers_pith_helmet": {
 		"name": "Explorer's Pith Helmet",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -2083,7 +2083,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ray of enfeeblement, vampiric touch; **Cost** 1,750 gp"
 		]
 	},
-	"maiden's_helm": {
+	"maidens_helm": {
 		"name": "Maiden's Helm",
 		"sources": [
 			"Adventurer's Guide",
@@ -2092,7 +2092,7 @@
 		"description": [
 			"## Maiden's Helm",
 			"",
-			"**Source** [Adventurer's Guide pg. 87](source/adventurer's_guide), [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_#62_curse_of_the_lady's_light)  ",
+			"**Source** [Adventurer's Guide pg. 87](source/adventurers_guide), [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_62_curse_of_the_ladys_light)  ",
 			"**Aura** moderate enchantment; **CL** 6th  ",
 			"**Slot** head; **Price** 3,500 gp; **Weight** 3 lbs.",
 			"",
@@ -2109,7 +2109,7 @@
 		"description": [
 			"## Mortuary Mask",
 			"",
-			"**Source** [Pathfinder Comics #12 pg. 26](source/pathfinder_comics_#12)  ",
+			"**Source** [Pathfinder Comics #12 pg. 26](source/pathfinder_comics_12)  ",
 			"**Aura** moderate necromancy; **CL** 6th  ",
 			"**Slot** head; **Price** 3,500 gp; **Weight** 2 lbs.",
 			"",
@@ -2120,13 +2120,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cause fear, deathwatch; **Cost** 1,750 gp"
 		]
 	},
-	"stag's_helm": {
+	"stags_helm": {
 		"name": "Stag's Helm",
 		"sources": [ "Pathfinder #31: Stolen Land" ],
 		"description": [
 			"## Stag's Helm",
 			"",
-			"**Source** [Pathfinder #31: Stolen Land pg. 52](source/pathfinder_#31_stolen_land)  ",
+			"**Source** [Pathfinder #31: Stolen Land pg. 52](source/pathfinder_31_stolen_land)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** head; **Price** 3,500 gp; **Weight** 3 lbs.",
 			"",
@@ -2139,7 +2139,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must have at least 5 ranks in Perception, true strike; **Cost** 1,750 gp"
 		]
 	},
-	"stalker's_mask": {
+	"stalkers_mask": {
 		"name": "Stalker's Mask",
 		"sources": [
 			"Ultimate Equipment",
@@ -2149,7 +2149,7 @@
 		"description": [
 			"## Stalker's Mask",
 			"",
-			"**Source** [Ultimate Equipment pg. 247](source/ultimate_equipment), [Pathfinder #2: The Skinsaw Murders pg. 40](source/pathfinder_#2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Ultimate Equipment pg. 247](source/ultimate_equipment), [Pathfinder #2: The Skinsaw Murders pg. 40](source/pathfinder_2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** head; **Price** 3,500 gp; **Weight** 1 lb.",
 			"",
@@ -2160,7 +2160,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self, rage; **Cost** 1,750 gp"
 		]
 	},
-	"demon_mother's_mask": {
+	"demon_mothers_mask": {
 		"name": "Demon Mother's Mask",
 		"sources": [
 			"Inner Sea Gods",
@@ -2182,13 +2182,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), detect animals or plants, polymorph, [summon monster II](spell/summon_monster_2), creator must have 5 ranks in Handle Animal and Heal; **Cost** 1,800 gp"
 		]
 	},
-	"kybwa'ka_war_mask": {
+	"kybwaka_war_mask": {
 		"name": "Kybwa'ka War Mask",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
 			"## Kybwa'ka War Mask",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 57](source/pathfinder_#27_what_lies_in_dust)  ",
+			"**Source** [Pathfinder #27: What Lies in Dust pg. 57](source/pathfinder_27_what_lies_in_dust)  ",
 			"**Aura** faint necromancy; **CL** 4th  ",
 			"**Slot** head; **Price** 3,700 gp; **Weight** 5 lbs.",
 			"",
@@ -2205,7 +2205,7 @@
 		"description": [
 			"## Tlil Mask",
 			"",
-			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 25](source/pathfinder_#143_borne_by_the_sun's_grace)  ",
+			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 25](source/pathfinder_143_borne_by_the_suns_grace)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** head; **Price** 3,700 gp; **Weight** 1 lb.",
 			"",
@@ -2250,13 +2250,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Elemental Spell; **Cost** 2,000 gp"
 		]
 	},
-	"traveling_master's_turban": {
+	"traveling_masters_turban": {
 		"name": "Traveling Master's Turban",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Traveling Master's Turban",
 			"",
-			"**Source** [Adventurer's Guide pg. 107](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 107](source/adventurers_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** head; **Price** 4,000 gp; **Weight** 1 lb.",
 			"",
@@ -2267,7 +2267,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate rope, endure elements, rope trick; **Cost** 2,000 gp"
 		]
 	},
-	"vagrant's_hood": {
+	"vagrants_hood": {
 		"name": "Vagrant's Hood",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -2361,7 +2361,7 @@
 		"description": [
 			"## Ushanka of the Northlands",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 61](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 61](source/pathfinder_68_the_shackled_hut)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** head; **Price** 4,500 gp; **Weight** -;",
 			"",
@@ -2372,7 +2372,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, creator must have 5 ranks in Survival; **Cost** 2,250 gp"
 		]
 	},
-	"grappler's_mask": {
+	"grapplers_mask": {
 		"name": "Grappler's Mask",
 		"sources": [
 			"Ultimate Equipment",
@@ -2381,7 +2381,7 @@
 		"description": [
 			"## Grappler's Mask",
 			"",
-			"**Source** [Ultimate Equipment pg. 242](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 242](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_players_guide)  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** head; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
@@ -2401,7 +2401,7 @@
 		"description": [
 			"## Helm of Fearsome Mien",
 			"",
-			"**Source** [Ultimate Equipment pg. 244](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 244](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_players_guide)  ",
 			"**Aura** faint necromancy; **CL** 1st  ",
 			"**Slot** head; **Price** 5,000 gp; **Weight** 4 lbs.",
 			"",
@@ -2421,7 +2421,7 @@
 		"description": [
 			"## Jingasa of the Fortunate Soldier",
 			"",
-			"**Source** [Ultimate Equipment pg. 245](source/ultimate_equipment), [Pathfinder #52: Forest of Spirits pg. 60](source/pathfinder_#52_forest_of_spirits)  ",
+			"**Source** [Ultimate Equipment pg. 245](source/ultimate_equipment), [Pathfinder #52: Forest of Spirits pg. 60](source/pathfinder_52_forest_of_spirits)  ",
 			"**Aura** strong divination; **CL** 15th  ",
 			"**Slot** head; **Price** 5,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2522,7 +2522,7 @@
 		"description": [
 			"## Mask of the Mantis",
 			"",
-			"**Source** [Adventurer's Guide pg. 159](source/adventurer's_guide), [Pathfinder #9: Escape from Old Korvosa pg. 69](source/pathfinder_#9_escape_from_old_korvosa), [Pathfinder #10: A History of Ashes pg. 18](source/pathfinder_#10_a_history_of_ashes), [Pathfinder Campaign Setting pg. 197](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 298](source/inner_sea_world_guide), [Curse of the Crimson Throne pg. 434](source/curse_of_the_crimson_throne)  ",
+			"**Source** [Adventurer's Guide pg. 159](source/adventurers_guide), [Pathfinder #9: Escape from Old Korvosa pg. 69](source/pathfinder_9_escape_from_old_korvosa), [Pathfinder #10: A History of Ashes pg. 18](source/pathfinder_10_a_history_of_ashes), [Pathfinder Campaign Setting pg. 197](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 298](source/inner_sea_world_guide), [Curse of the Crimson Throne pg. 434](source/curse_of_the_crimson_throne)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** head; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
@@ -2616,7 +2616,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must have animal focus or wild shape class feature; **Cost** 3,250 gp"
 		]
 	},
-	"lepidstadt_investigator's_hat": {
+	"lepidstadt_investigators_hat": {
 		"name": "Lepidstadt Investigator's Hat",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
@@ -2679,7 +2679,7 @@
 		"description": [
 			"## Fog-Cutting Lenses",
 			"",
-			"**Source** [Monster Codex pg. 69](source/monster_codex), [Pathfinder #4: Fortress of the Stone Giants pg. 50](source/pathfinder_#4_fortress_of_the_stone_giants), [Rise of the Runelords Anniversary Edition pg. 421](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Monster Codex pg. 69](source/monster_codex), [Pathfinder #4: Fortress of the Stone Giants pg. 50](source/pathfinder_4_fortress_of_the_stone_giants), [Rise of the Runelords Anniversary Edition pg. 421](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** face; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -2702,7 +2702,7 @@
 		"description": [
 			"## Goz Mask",
 			"",
-			"**Source** [Adventurer's Guide pg. 185](source/adventurer's_guide), [Inner Sea World Guide pg. 298](source/inner_sea_world_guide)  ",
+			"**Source** [Adventurer's Guide pg. 185](source/adventurers_guide), [Inner Sea World Guide pg. 298](source/inner_sea_world_guide)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** head; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -2741,7 +2741,7 @@
 		"description": [
 			"## Mouthpiece of the Dominion",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 74](source/pathfinder_#88_valley_of_the_brain_collectors)  ",
+			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 74](source/pathfinder_88_valley_of_the_brain_collectors)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** head; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -2814,7 +2814,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1), charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
 		]
 	},
-	"shepsi-ak's_funerary_mask": {
+	"shepsi-aks_funerary_mask": {
 		"name": "Shepsi-ak's Funerary Mask",
 		"sources": [ "Undead Unleashed" ],
 		"description": [
@@ -2831,16 +2831,16 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), polymorph, sanctify corpse; **Cost** 4,500 gp"
 		]
 	},
-	"shepsi_ak's_funerary_mask": {
-		"copyof": "shepsi-ak's_funerary_mask"
+	"shepsi_aks_funerary_mask": {
+		"copyof": "shepsi-aks_funerary_mask"
 	},
-	"sniper's_helmet": {
+	"snipers_helmet": {
 		"name": "Sniper's Helmet",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
 			"## Sniper's Helmet",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 61](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 61](source/pathfinder_71_rasputin_must_die)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2878,7 +2878,7 @@
 		"description": [
 			"## War Mask of Terror",
 			"",
-			"**Source** [Pathfinder #38: Racing to Ruin pg. 39](source/pathfinder_#38_racing_to_ruin)  ",
+			"**Source** [Pathfinder #38: Racing to Ruin pg. 39](source/pathfinder_38_racing_to_ruin)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2893,7 +2893,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), scare, shield; **Cost** 4,500 gp"
 		]
 	},
-	"bax's_mask": {
+	"baxs_mask": {
 		"name": "Bax's Mask",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -2952,7 +2952,7 @@
 		"description": [
 			"## Earth Child Faceguard",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 28](source/giant_hunters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** head; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -2980,7 +2980,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), scorching ray; **Cost** 5,000 gp"
 		]
 	},
-	"hunter's_nose_ring": {
+	"hunters_nose_ring": {
 		"name": "Hunter's Nose Ring",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -2997,7 +2997,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bloodhound, platinum ring worth 250 gp; **Cost** 5,000 gp"
 		]
 	},
-	"commander's_helm_dwarf_lesser": {
+	"commanders_helm_dwarf_lesser": {
 		"name": "Commander's Helm (Dwarf) (Lesser)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -3020,8 +3020,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), the teamwork feat to be imbued, tactical acumen, creator must be a dwarf; **Cost** 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)"
 		]
 	},
-	"lesser_commander's_helm": {
-		"copyof": "commander's_helm_dwarf_lesser"
+	"lesser_commanders_helm": {
+		"copyof": "commanders_helm_dwarf_lesser"
 	},
 	"mask_of_a_thousand_tomes": {
 		"name": "Mask Of A Thousand Tomes",
@@ -3050,7 +3050,7 @@
 		"description": [
 			"## Medusa Mask",
 			"",
-			"**Source** [Ultimate Equipment pg. 246](source/ultimate_equipment), [Pathfinder #2: The Skinsaw Murders pg. 54](source/pathfinder_#2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 422](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Ultimate Equipment pg. 246](source/ultimate_equipment), [Pathfinder #2: The Skinsaw Murders pg. 54](source/pathfinder_2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 422](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** head; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -3084,7 +3084,7 @@
 		"description": [
 			"## Desert Veil",
 			"",
-			"**Source** [Merchant's Manifest pg. 4](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 4](source/merchants_manifest)  ",
 			"**Aura** moderate abjuration and conjuration; **CL** 7th  ",
 			"**Slot** head; **Price** 11,000 gp; **Weight** -;",
 			"",
@@ -3173,7 +3173,7 @@
 		"description": [
 			"## Helm of the Fanged Crown",
 			"",
-			"**Source** [Adventurer's Guide pg. 86](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 86](source/adventurers_guide)  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** head; **Price** 12,000 gp; **Weight** 3 lbs.",
 			"",
@@ -3203,7 +3203,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), jump, remove fear; **Cost** 6,000 gp"
 		]
 	},
-	"reaper's_mask": {
+	"reapers_mask": {
 		"name": "Reaper's Mask",
 		"sources": [
 			"Pathfinder #102: Breaking the Bones of Hell",
@@ -3213,7 +3213,7 @@
 		"description": [
 			"## Reaper's Mask",
 			"",
-			"**Source** [Pathfinder #102: Breaking the Bones of Hell pg. 13](source/pathfinder_#102_breaking_the_bones_of_hell), [Pathfinder #2: The Skinsaw Murders pg. 47](source/pathfinder_#2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 422](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Pathfinder #102: Breaking the Bones of Hell pg. 13](source/pathfinder_102_breaking_the_bones_of_hell), [Pathfinder #2: The Skinsaw Murders pg. 47](source/pathfinder_2_the_skinsaw_murders), [Rise of the Runelords Anniversary Edition pg. 422](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** moderate enchantment [evil]; **CL** 7th  ",
 			"**Slot** head; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
@@ -3230,7 +3230,7 @@
 		"description": [
 			"## Clasp of the Mind Scream",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 54](source/pathfinder_#27_what_lies_in_dust)  ",
+			"**Source** [Pathfinder #27: What Lies in Dust pg. 54](source/pathfinder_27_what_lies_in_dust)  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** head; **Price** 12,800 gp; **Weight** 1 lb.",
 			"",
@@ -3250,7 +3250,7 @@
 	"circlet_of_spell_eating_type_3": {
 		"copyof": "circlet_of_spell-eating_type_3"
 	},
-	"bitter_widow's_veil": {
+	"bitter_widows_veil": {
 		"name": "Bitter Widow's Veil",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -3290,7 +3290,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aspect of the stag, moonstruck; **Cost** 7,000 gp"
 		]
 	},
-	"translator's_cap_human": {
+	"translators_cap_human": {
 		"name": "Translator's Cap (Human)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -3311,8 +3311,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), tongues or the ability to speak all seven languages, creator must be a human; **Cost** 7,000 gp"
 		]
 	},
-	"translator's_cap": {
-		"copyof": "translator's_cap_human"
+	"translators_cap": {
+		"copyof": "translators_cap_human"
 	},
 	"tin_cap": {
 		"name": "Tin Cap",
@@ -3350,12 +3350,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter self, speak with dead; **Cost** 8,000 gp"
 		]
 	},
-	"commander's_helm_dwarf_greater": {
+	"commanders_helm_dwarf_greater": {
 		"name": "Commander's Helm (Dwarf) (Greater)",
-		"copyof": "commander's_helm_dwarf_lesser"
+		"copyof": "commanders_helm_dwarf_lesser"
 	},
-	"greater_commander's_helm": {
-		"copyof": "commander's_helm_dwarf_greater"
+	"greater_commanders_helm": {
+		"copyof": "commanders_helm_dwarf_greater"
 	},
 	"halo_of_inner_calm": {
 		"name": "Halo of Inner Calm",
@@ -3394,13 +3394,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), phantom steed; **Cost** 8,000 gp"
 		]
 	},
-	"frontovik's_gas_mask": {
+	"frontoviks_gas_mask": {
 		"name": "Frontovik's Gas Mask",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
 			"## Frontovik's Gas Mask",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 60](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 60](source/pathfinder_71_rasputin_must_die)  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** head; **Price** 17,000 gp; **Weight** 2 lbs.",
 			"",
@@ -3430,7 +3430,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter self, misdirection, tongues; **Cost** 8,600 gp"
 		]
 	},
-	"cat's_eye_crown": {
+	"cats_eye_crown": {
 		"name": "Cat's Eye Crown",
 		"sources": [
 			"Ultimate Equipment",
@@ -3551,7 +3551,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [daylight](spell/daylight), [sunbeam](spell/sunbeam); **Cost** 10,000 gp"
 		]
 	},
-	"magician's_hat": {
+	"magicians_hat": {
 		"name": "Magician's Hat",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3666,7 +3666,7 @@
 		"description": [
 			"## Vudran Ashak Helmet",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 59](source/pathfinder_#27_what_lies_in_dust)  ",
+			"**Source** [Pathfinder #27: What Lies in Dust pg. 59](source/pathfinder_27_what_lies_in_dust)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** head; **Price** 22,000 gp; **Weight** 3 lbs.",
 			"",
@@ -3691,11 +3691,11 @@
 			"",
 			"The wearer of this helm, crafted from a beast's skull, gains the ability to communicate with dogs, wolves, dire wolves, foxes, jackals, coyotes, and similar canine animals as the speak with animals spell. The wearer gains a +2 competence bonus on Diplomacy checks and Charisma checks to influence wolf-like magical beasts such as blink dogs, winter wolves, and worgs.",
 			"",
-			"On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer's following turn, 1d3 wolves appear as if summoned by the spell [summon nature's ally III](spell/summon_nature's_ally_3). They act on the wearer's initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow.",
+			"On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer's following turn, 1d3 wolves appear as if summoned by the spell [summon nature's ally III](spell/summon_natures_ally_3). They act on the wearer's initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), speak with animals, [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 11,300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), speak with animals, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 11,300 gp"
 		]
 	},
 	"visage_of_the_bound": {
@@ -3704,7 +3704,7 @@
 		"description": [
 			"## Visage of the Bound",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 21](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 21](source/monster_summoners_handbook)  ",
 			"**Aura** moderate conjuration and evocation; **CL** 9th  ",
 			"**Slot** head; **Price** 22,900 gp; **Weight** 2 lbs.",
 			"",
@@ -3794,12 +3794,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), water breathing; **Cost** 12,000 gp"
 		]
 	},
-	"commander's_helm_dwarf_superior": {
+	"commanders_helm_dwarf_superior": {
 		"name": "Commander's Helm (Dwarf) (Superior)",
-		"copyof": "commander's_helm_dwarf_lesser"
+		"copyof": "commanders_helm_dwarf_lesser"
 	},
-	"superior_commander's_helm": {
-		"copyof": "commander's_helm_dwarf_superior"
+	"superior_commanders_helm": {
+		"copyof": "commanders_helm_dwarf_superior"
 	},
 	"circlet_of_spell-eating_type_4": {
 		"name": "Circlet of Spell-Eating (Type IV)",
@@ -3836,7 +3836,7 @@
 		"description": [
 			"## Greathelm of the Mammoth Lord",
 			"",
-			"**Source** [Adventurer's Guide pg. 133](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 133](source/adventurers_guide)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** head; **Price** 24,700 gp; **Weight** 5 lbs.",
 			"",
@@ -3872,7 +3872,7 @@
 		"description": [
 			"## Mask of Anonymous Mien",
 			"",
-			"**Source** [Spymaster's Handbook pg. 31](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 31](source/spymasters_handbook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** head; **Price** 25,000 gp; **Weight** 1 lb.",
 			"",
@@ -3931,7 +3931,7 @@
 		"description": [
 			"## Dance of Seven Veils",
 			"",
-			"**Source** [Pathfinder #135: Runeplague pg. 67](source/pathfinder_#135_runeplague)  ",
+			"**Source** [Pathfinder #135: Runeplague pg. 67](source/pathfinder_135_runeplague)  ",
 			"**Aura** moderate illusion and transmutation; **CL** 9th  ",
 			"**Slot** head or neck; **Price** 27,000 gp; **Weight** -;",
 			"",
@@ -3939,7 +3939,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disguise self](spell/disguise_self), [eagle's splendor](spell/eagle's_splendor), [fox's cunning](spell/fox's_cunning), [levitate](spell/levitate), [feather fall](spell/feather_fall); **Cost** 13,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disguise self](spell/disguise_self), [eagle's splendor](spell/eagles_splendor), [fox's cunning](spell/foxs_cunning), [levitate](spell/levitate), [feather fall](spell/feather_fall); **Cost** 13,500 gp"
 		]
 	},
 	"helm_of_telepathy": {
@@ -4033,7 +4033,7 @@
 		"description": [
 			"## Crown of Ash",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 66](source/pathfinder_#34_blood_for_blood)  ",
+			"**Source** [Pathfinder #34: Blood for Blood pg. 66](source/pathfinder_34_blood_for_blood)  ",
 			"**Aura** strong divination and transmutation; **CL** 12th  ",
 			"**Slot** head; **Price** 29,900 gp; **Weight** 2 lbs.",
 			"",
@@ -4106,7 +4106,7 @@
 		"description": [
 			"## Mask of Giants (Lesser)",
 			"",
-			"**Source** [Ultimate Equipment pg. 246](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 246](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** head; **Price** 30,000 gp; **Weight** 1 lb.",
 			"",
@@ -4126,7 +4126,7 @@
 		"description": [
 			"## Nightgaunt Mask",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 62](source/pathfinder_#65_into_the_nightmare_rift)  ",
+			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 62](source/pathfinder_65_into_the_nightmare_rift)  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** head; **Price** 30,000 gp; **Weight** 1 lbs.",
 			"",
@@ -4139,13 +4139,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter self, blindness/deafness, [summon monster VI](spell/summon_monster_6); **Cost** 15,000 gp"
 		]
 	},
-	"thremyr's_beard_lesser": {
+	"thremyrs_beard_lesser": {
 		"name": "Thremyr's Beard (Lesser)",
 		"sources": [ "Pathfinder #94: Ice Tomb of the Giant Queen" ],
 		"description": [
 			"## Thremyr's Beard",
 			"",
-			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 33](source/pathfinder_#94_ice_tomb_of_the_giant_queen)  ",
+			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 33](source/pathfinder_94_ice_tomb_of_the_giant_queen)  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** head; **Price** 32,250 gp (Lesser), 42,250 gp (Greater); **Weight** 2 lbs.",
 			"",
@@ -4162,8 +4162,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), grasping hand (lesser and greater), ill omen (greater); **Cost** 17,625 gp (Lesser), 21,125 gp (Greater)"
 		]
 	},
-	"lesser_thremyr's_beard": {
-		"copyof": "thremyr's_beard_lesser"
+	"lesser_thremyrs_beard": {
+		"copyof": "thremyrs_beard_lesser"
 	},
 	"steel-mind_cap": {
 		"name": "Steel-mind Cap",
@@ -4187,7 +4187,7 @@
 	"steel_mind_cap": {
 		"copyof": "steel-mind_cap"
 	},
-	"stormlord's_helm": {
+	"stormlords_helm": {
 		"name": "Stormlord's Helm",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4210,7 +4210,7 @@
 		"description": [
 			"## Yithian Thought Ring",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 50](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 50](source/pathfinder_113_what_grows_within)  ",
 			"**Aura** strong divination; **CL** 15th  ",
 			"**Slot** head; **Price** 35,000 gp; **Weight** 1 lb.",
 			"",
@@ -4256,7 +4256,7 @@
 		"description": [
 			"## Roseskin Comb",
 			"",
-			"**Source** [Merchant's Manifest pg. 8](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 8](source/merchants_manifest)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** head; **Price** 37,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -4290,7 +4290,7 @@
 		"description": [
 			"## Bridle of Charon",
 			"",
-			"**Source** [Pathfinder: Spiral of Bones #5 pg. 30](source/pathfinder_spiral_of_bones_#5)  ",
+			"**Source** [Pathfinder: Spiral of Bones #5 pg. 30](source/pathfinder_spiral_of_bones_5)  ",
 			"**Aura** strong transmutation; **CL** 14th  ",
 			"**Slot** head; **Price** 40,000 gp; **Weight** 2 lbs.",
 			"",
@@ -4307,7 +4307,7 @@
 		"description": [
 			"## Falcon Crown",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 63](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 63](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** head; **Price** 42,000 gp; **Weight** 2 lbs.",
 			"",
@@ -4320,12 +4320,12 @@
 			"**Requirements** Arcane Blast, [Craft Wondrous Item](feat/craft_wondrous_item), foresight, haste; **Cost** 21,000 gp"
 		]
 	},
-	"thremyr's_beard_greater": {
+	"thremyrs_beard_greater": {
 		"name": "Thremyr's Beard (Greater)",
-		"copyof": "thremyr's_beard_lesser"
+		"copyof": "thremyrs_beard_lesser"
 	},
-	"greater_thremyr's_beard": {
-		"copyof": "thremyr's_beard_greater"
+	"greater_thremyrs_beard": {
+		"copyof": "thremyrs_beard_greater"
 	},
 	"frostwild_bridle": {
 		"name": "Frostwild Bridle",
@@ -4350,7 +4350,7 @@
 		"description": [
 			"## Grim Helm",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_139_the_dead_road)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** head; **Price** 48,000 gp; **Weight** 4 lbs.",
 			"",
@@ -4363,7 +4363,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](spell/calm_emotions); **Cost** 24,000 gp"
 		]
 	},
-	"judge's_wig": {
+	"judges_wig": {
 		"name": "Judge's Wig",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4386,7 +4386,7 @@
 		"description": [
 			"## Khepresh of Refuge",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_#84_pyramid_of_the_sky_pharaoh)  ",
+			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_84_pyramid_of_the_sky_pharaoh)  ",
 			"**Aura** strong abjuration; **CL** 15th  ",
 			"**Slot** head; **Price** 63,000 gp; **Weight** 3 lbs.",
 			"",
@@ -4534,13 +4534,13 @@
 	"cap_of_darkest_dreams": {
 		"copyof": "cap_of_darkest_dreams_changeling"
 	},
-	"magnate's_miter": {
+	"magnates_miter": {
 		"name": "Magnate's Miter",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Magnate's Miter",
 			"",
-			"**Source** [Merchant's Manifest pg. 18](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 18](source/merchants_manifest)  ",
 			"**Aura** strong enchantment; **CL** 18th  ",
 			"**Slot** head; **Price** 90,000 gp; **Weight** 1 lb.",
 			"",
@@ -4562,7 +4562,7 @@
 		"description": [
 			"## Mask of Giants (Greater)",
 			"",
-			"**Source** [Ultimate Equipment pg. 245](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 245](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_players_guide)  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** head; **Price** 90,000 gp; **Weight** 1 lb.",
 			"",
@@ -4589,7 +4589,7 @@
 			"This helm is made of large, alchemically hardened snake scales, and is crafted in the shape of a stylized serpent mouth. Its wearer stares out through the serpent's eyes, and sees all things cast in a yellow tint. When worn, it grants the following spell-like abilities to the wearer:",
 			"",
 			"- Hypnotism (3/day)",
-			"- [Summon nature's ally III](spell/summon_nature's_ally_3) (constrictor snake only, 3/day)",
+			"- [Summon nature's ally III](spell/summon_natures_ally_3) (constrictor snake only, 3/day)",
 			"- [Beast shape III](spell/beast_shape_3) (snake form only, 1/day)",
 			"- Poison (1/day)",
 			"",
@@ -4597,7 +4597,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [beast shape III](spell/beast_shape_3), [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 48,000 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [beast shape III](spell/beast_shape_3), [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 48,000 gp"
 		]
 	},
 	"hood_of_privacy": {
@@ -4680,7 +4680,7 @@
 		"description": [
 			"## Hurricane Crown",
 			"",
-			"**Source** [Pathfinder #60: From Hell's Heart pg. 54](source/pathfinder_#60_from_hell's_heart)  ",
+			"**Source** [Pathfinder #60: From Hell's Heart pg. 54](source/pathfinder_60_from_hells_heart)  ",
 			"**Aura** strong conjuration and evocation; **CL** 17th  ",
 			"**Slot** head; **Price** 125,000 gp; **Weight** 2 lbs.",
 			"",
@@ -4791,7 +4791,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law); **Cost** 500 gp"
 		]
 	},
-	"dead_man's_headband": {
+	"dead_mans_headband": {
 		"name": "Dead Man's Headband",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4904,7 +4904,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Extend Spell](feat/extend_spell), fly; **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
 		]
 	},
-	"shifter's_headband_2": {
+	"shifters_headband_2": {
 		"name": "Shifter's Headband (+2)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -5107,7 +5107,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), status; **Cost** 3,500 gp"
 		]
 	},
-	"headband_of_fortune's_favor": {
+	"headband_of_fortunes_favor": {
 		"name": "Headband of Fortune's Favor",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -5151,7 +5151,7 @@
 		"description": [
 			"## Headband of Twisted Intellect",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 54](source/pathfinder_#123_the_flooded_cathedral)  ",
+			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 54](source/pathfinder_123_the_flooded_cathedral)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** headband; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -5163,10 +5163,10 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/fox's_cunning), creator must be an [aboleth](monster/aboleth); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be an [aboleth](monster/aboleth); **Cost** 4,000 gp"
 		]
 	},
-	"serpent's_band": {
+	"serpents_band": {
 		"name": "Serpent's Band",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -5180,7 +5180,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animal trance, hypnotism, speak with animals, [summon nature's ally V](spell/summon_nature's_ally_5); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animal trance, hypnotism, speak with animals, [summon nature's ally V](spell/summon_natures_ally_5); **Cost** 4,500 gp"
 		]
 	},
 	"headband_of_mental_prowess_2": {
@@ -5207,7 +5207,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, fox's cunning, owl's wisdom (any two); **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)"
 		]
 	},
-	"hunter's_band": {
+	"hunters_band": {
 		"name": "Hunter's Band",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -5341,7 +5341,7 @@
 		"description": [
 			"## Iron Band of Iron Mind",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 73](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 73](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** headband; **Price** 15,000 gp; **Weight** 4 lbs.",
 			"",
@@ -5384,9 +5384,9 @@
 		"name": "Headband of Alluring Charisma (+4)",
 		"copyof": "headband_of_alluring_charisma_2"
 	},
-	"shifter's_headband_4": {
+	"shifters_headband_4": {
 		"name": "Shifter's Headband (+4)",
-		"copyof": "shifter's_headband_2"
+		"copyof": "shifters_headband_2"
 	},
 	"guerrilla_bandanna": {
 		"name": "Guerrilla Bandanna",
@@ -5407,7 +5407,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), instant enemy, invisibility; **Cost** 9,000 gp"
 		]
 	},
-	"kineticist's_diadem_lesser": {
+	"kineticists_diadem_lesser": {
 		"name": "Kineticist's Diadem (Lesser)",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -5426,8 +5426,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be a 10th-level kineticist with access to the appropriate element; **Cost** 9,000 gp (Lesser), 25,000 gp (Normal), 49,000 gp (Greater)"
 		]
 	},
-	"lesser_kineticist's_diadem": {
-		"copyof": "kineticist's_diadem_lesser"
+	"lesser_kineticists_diadem": {
+		"copyof": "kineticists_diadem_lesser"
 	},
 	"esoteric_diadem_lesser": {
 		"name": "Esoteric Diadem (Lesser)",
@@ -5435,7 +5435,7 @@
 		"description": [
 			"## Esoteric Diadem",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 9](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 9](source/elemental_masters_handbook)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** headband; **Price** 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater); **Weight** -;",
 			"",
@@ -5493,7 +5493,7 @@
 		"description": [
 			"## Moon Circlet",
 			"",
-			"**Source** [Advanced Player's Guide pg. 308](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 308](source/advanced_players_guide)  ",
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** headband; **Price** 20,000 gp; **Weight** -;",
 			"",
@@ -5514,7 +5514,7 @@
 		"description": [
 			"## Efreeti Horns",
 			"",
-			"**Source** [Adventurer's Guide pg. 107](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 107](source/adventurers_guide)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** headband; **Price** 24,000 gp; **Weight** 1 lb.",
 			"",
@@ -5597,9 +5597,9 @@
 		"name": "Headband of Alluring Charisma (+6)",
 		"copyof": "headband_of_alluring_charisma_2"
 	},
-	"shifter's_headband_6": {
+	"shifters_headband_6": {
 		"name": "Shifter's Headband (+6)",
-		"copyof": "shifter's_headband_2"
+		"copyof": "shifters_headband_2"
 	},
 	"headband_of_mental_prowess_4": {
 		"name": "Headband of Mental Prowess (+4)",
@@ -5657,12 +5657,12 @@
 	"normal_esoteric_diadem": {
 		"copyof": "esoteric_diadem_normal"
 	},
-	"kineticist's_diadem_normal": {
+	"kineticists_diadem_normal": {
 		"name": "Kineticist's Diadem (Normal)",
-		"copyof": "kineticist's_diadem_lesser"
+		"copyof": "kineticists_diadem_lesser"
 	},
-	"normal_kineticist's_diadem": {
-		"copyof": "kineticist's_diadem_normal"
+	"normal_kineticists_diadem": {
+		"copyof": "kineticists_diadem_normal"
 	},
 	"headband_of_mental_superiority_4": {
 		"name": "Headband of Mental Superiority (+4)",
@@ -5697,12 +5697,12 @@
 		"name": "Headband of Mental Prowess (+6)",
 		"copyof": "headband_of_mental_prowess_2"
 	},
-	"kineticist's_diadem_greater": {
+	"kineticists_diadem_greater": {
 		"name": "Kineticist's Diadem (Greater)",
-		"copyof": "kineticist's_diadem_lesser"
+		"copyof": "kineticists_diadem_lesser"
 	},
-	"greater_kineticist's_diadem": {
-		"copyof": "kineticist's_diadem_greater"
+	"greater_kineticists_diadem": {
+		"copyof": "kineticists_diadem_greater"
 	},
 	"esoteric_diadem_greater": {
 		"name": "Esoteric Diadem (Greater)",
@@ -5821,12 +5821,12 @@
 	"greater_talisman_sealed_summons": {
 		"copyof": "talisman_greater_sealed_summons"
 	},
-	"talisman_greater_warrior's_courage": {
+	"talisman_greater_warriors_courage": {
 		"name": "Talisman (Greater) (Warrior's Courage)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_warrior's_courage": {
-		"copyof": "talisman_greater_warrior's_courage"
+	"greater_talisman_warriors_courage": {
+		"copyof": "talisman_greater_warriors_courage"
 	},
 	"talisman_greater_arrow_protection": {
 		"name": "Talisman (Greater) (Arrow Protection)",
@@ -5905,12 +5905,12 @@
 	"greater_talisman_hamsa": {
 		"copyof": "talisman_greater_hamsa"
 	},
-	"talisman_greater_life's_breath": {
+	"talisman_greater_lifes_breath": {
 		"name": "Talisman (Greater) (Life's Breath)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_life's_breath": {
-		"copyof": "talisman_greater_life's_breath"
+	"greater_talisman_lifes_breath": {
+		"copyof": "talisman_greater_lifes_breath"
 	},
 	"hexbiter_charm": {
 		"name": "Hexbiter Charm",
@@ -5918,7 +5918,7 @@
 		"description": [
 			"## Hexbiter Charm",
 			"",
-			"**Source** [Merchant's Manifest pg. 13](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 13](source/merchants_manifest)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck or shoulder; **Price** 180 gp; **Weight** -;",
 			"",
@@ -5937,7 +5937,7 @@
 		"description": [
 			"## Lynx Eye Charm",
 			"",
-			"**Source** [Merchant's Manifest pg. 13](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 13](source/merchants_manifest)  ",
 			"**Aura** faint divination and transmutation; **CL** 3rd  ",
 			"**Slot** neck or shoulder; **Price** 350 gp; **Weight** -;",
 			"",
@@ -5964,12 +5964,12 @@
 	"lesser_talisman_sealed_summons": {
 		"copyof": "talisman_lesser_sealed_summons"
 	},
-	"talisman_lesser_warrior's_courage": {
+	"talisman_lesser_warriors_courage": {
 		"name": "Talisman (Lesser) (Warrior's Courage)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_warrior's_courage": {
-		"copyof": "talisman_lesser_warrior's_courage"
+	"lesser_talisman_warriors_courage": {
+		"copyof": "talisman_lesser_warriors_courage"
 	},
 	"talisman_greater_beneficial_winds": {
 		"name": "Talisman (Greater) (Beneficial Winds)",
@@ -5978,13 +5978,13 @@
 	"greater_talisman_beneficial_winds": {
 		"copyof": "talisman_greater_beneficial_winds"
 	},
-	"maiden's_promise": {
+	"maidens_promise": {
 		"name": "Maiden's Promise",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Maiden's Promise",
 			"",
-			"**Source** [Adventurer's Guide pg. 87](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 87](source/adventurers_guide)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** neck; **Price** 500 gp; **Weight** -;",
 			"",
@@ -6076,7 +6076,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), mage hand; **Cost** 450 gp"
 		]
 	},
-	"death's_head_talisman_10_hd": {
+	"deaths_head_talisman_10_hd": {
 		"name": "Death's Head Talisman (10 HD)",
 		"sources": [ "City of Strangers" ],
 		"description": [
@@ -6133,7 +6133,7 @@
 		"description": [
 			"## Hivebrain Symbiote",
 			"",
-			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_#87_the_choking_tower)  ",
+			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_87_the_choking_tower)  ",
 			"**Aura** faint transmutation; **CL** 9th  ",
 			"**Slot** neck; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6167,7 +6167,7 @@
 		"description": [
 			"## Protective Ruff",
 			"",
-			"**Source** [Merchant's Manifest pg. 8](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 8](source/merchants_manifest)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** neck; **Price** 1,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -6192,9 +6192,9 @@
 	"lesser_talisman_protection_from_flames": {
 		"copyof": "talisman_lesser_protection_from_flames"
 	},
-	"death's_head_talisman_14_hd": {
+	"deaths_head_talisman_14_hd": {
 		"name": "Death's Head Talisman (14 HD)",
-		"copyof": "death's_head_talisman_10_hd"
+		"copyof": "deaths_head_talisman_10_hd"
 	},
 	"amulet_of_bullet_protection_1": {
 		"name": "Amulet of Bullet Protection (+1)",
@@ -6334,9 +6334,9 @@
 	"lesser_talisman_good_fortune": {
 		"copyof": "talisman_lesser_good_fortune"
 	},
-	"death's_head_talisman_18_hd": {
+	"deaths_head_talisman_18_hd": {
 		"name": "Death's Head Talisman (18 HD)",
-		"copyof": "death's_head_talisman_10_hd"
+		"copyof": "deaths_head_talisman_10_hd"
 	},
 	"necklace_of_fangs": {
 		"name": "Necklace of Fangs",
@@ -6378,7 +6378,7 @@
 		"description": [
 			"## Torc of Innocuous Gems",
 			"",
-			"**Source** [Spymaster's Handbook pg. 31](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 31](source/spymasters_handbook)  ",
 			"**Aura** moderate illusion; **CL** 9th  ",
 			"**Slot** neck; **Price** 1,800 gp; **Weight** -;",
 			"",
@@ -6395,7 +6395,7 @@
 		"description": [
 			"## Necklace of Bloody Incisors",
 			"",
-			"**Source** [Merchant's Manifest pg. 14](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 14](source/merchants_manifest)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** neck; **Price** 1,850 gp; **Weight** -;",
 			"",
@@ -6463,7 +6463,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter self, creator must be a half-elf; **Cost** 1,000 gp"
 		]
 	},
-	"charlatan's_symbol": {
+	"charlatans_symbol": {
 		"name": "Charlatan's Symbol",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -6520,9 +6520,9 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), detect poison, delay poison; **Cost** 1,125 gp"
 		]
 	},
-	"death's_head_talisman_24_hd": {
+	"deaths_head_talisman_24_hd": {
 		"name": "Death's Head Talisman (24 HD)",
-		"copyof": "death's_head_talisman_10_hd"
+		"copyof": "deaths_head_talisman_10_hd"
 	},
 	"choker_of_body_alteration": {
 		"name": "Choker of Body Alteration",
@@ -6631,7 +6631,7 @@
 		"name": "Necklace of Fireballs (Type VII)",
 		"copyof": "necklace_of_fireballs_type_1"
 	},
-	"hero's_release_pendant": {
+	"heros_release_pendant": {
 		"name": "Hero's Release Pendant",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -6700,7 +6700,7 @@
 		"description": [
 			"## Hand of the Honest Man",
 			"",
-			"**Source** [Pathfinder #80: Empty Graves pg. 62](source/pathfinder_#80_empty_graves)  ",
+			"**Source** [Pathfinder #80: Empty Graves pg. 62](source/pathfinder_80_empty_graves)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 3,000 gp; **Weight** 2 lbs.",
 			"",
@@ -6875,7 +6875,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), magic stone, owl's wisdom, creator must have 5 ranks in Craft (sculpting); **Cost** 1,650 gp"
 		]
 	},
-	"medal_of_the_hero's_heart": {
+	"medal_of_the_heros_heart": {
 		"name": "Medal of the Hero's Heart",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
@@ -6894,12 +6894,12 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), restoration; **Cost** 1,700 gp"
 		]
 	},
-	"talisman_lesser_life's_breath": {
+	"talisman_lesser_lifes_breath": {
 		"name": "Talisman (Lesser) (Life's Breath)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_life's_breath": {
-		"copyof": "talisman_lesser_life's_breath"
+	"lesser_talisman_lifes_breath": {
+		"copyof": "talisman_lesser_lifes_breath"
 	},
 	"mind_sentinel_medallion": {
 		"name": "Mind Sentinel Medallion",
@@ -6918,7 +6918,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [protection from evil](spell/protection_from_evil); **Cost** 1,750 gp"
 		]
 	},
-	"mummer's_ruff": {
+	"mummers_ruff": {
 		"name": "Mummer's Ruff",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -6955,7 +6955,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Augment Summoning, [Craft Wondrous Item](feat/craft_wondrous_item), [summon monster VI](spell/summon_monster_6) or [summon nature's ally V](spell/summon_nature's_ally_5); **Cost** 1,750 gp"
+			"**Requirements** Augment Summoning, [Craft Wondrous Item](feat/craft_wondrous_item), [summon monster VI](spell/summon_monster_6) or [summon nature's ally V](spell/summon_natures_ally_5); **Cost** 1,750 gp"
 		]
 	},
 	"sihedron_medallion": {
@@ -6967,7 +6967,7 @@
 		"description": [
 			"## Sihedron Medallion",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #1: Burnt Offerings pg. 55](source/pathfinder_#1_burnt_offerings)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #1: Burnt Offerings pg. 55](source/pathfinder_1_burnt_offerings)  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** neck; **Price** 3,500 gp; **Weight** -;",
 			"",
@@ -6986,7 +6986,7 @@
 		"description": [
 			"## Hearth Mantle",
 			"",
-			"**Source** [Pathfinder #87: The Choking Tower pg. 60](source/pathfinder_#87_the_choking_tower)  ",
+			"**Source** [Pathfinder #87: The Choking Tower pg. 60](source/pathfinder_87_the_choking_tower)  ",
 			"**Aura** faint abjuration and evocation; **CL** 5th  ",
 			"**Slot** neck; **Price** 3,600 gp; **Weight** 2 lbs.",
 			"",
@@ -7007,7 +7007,7 @@
 		"description": [
 			"## Periapt of Placebos",
 			"",
-			"**Source** [Pathfinder #116: Fangs of War pg. 44](source/pathfinder_#116_fangs_of_war)  ",
+			"**Source** [Pathfinder #116: Fangs of War pg. 44](source/pathfinder_116_fangs_of_war)  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** neck; **Price** 3,600 gp; **Weight** 1 lb.",
 			"",

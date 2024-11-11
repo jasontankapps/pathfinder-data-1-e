@@ -89,7 +89,7 @@
 		"description": [
 			"## Counter-Summoner",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoners_handbook)  ",
 			"While most summoners excel at conjuring monsters, there are those who focus instead on disrupting the conjurations of opponents. The counter-summoner harnesses powerful abjuration magic to instantly thwart the conjuration and summoning abilities of other casters, though at the cost of weakening his own powers of conjuration.",
 			"",
 			"**Counter-Summon (Su):** At 1st level, a counter-summoner can attempt to counter a conjuration spell cast by another creature. He must identify the spell being cast as normal for counterspelling. If he does so, he can attempt to counter the spell as a swift or immediate action. To counter the spell, the counter-summoner must attempt a dispel check as if using dispel magic. If the spell being countered is a summon monster or summon nature's ally spell, the counter-summoner gains a bonus on the dispel check. The counter-summoner can use this ability a number of times per day equal to 3 his Charisma modifier. This replaces summon monster.",
@@ -249,7 +249,7 @@
 		"description": [
 			"## Morphic Savant",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 16](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 16](source/monster_summoners_handbook)  ",
 			"A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to fulfill whatever goals strike his fancy. Chaotic evil and chaotic neutral morphic savants often train with Blackfire Adepts in the hopes of learning greater powers of chaotic unmaking, and chaotic good morphic savants are most common as agents of the Bellflower Network.",
 			"",
 			"**Alignment:** Any chaotic.",
@@ -297,7 +297,7 @@
 		"description": [
 			"## Pyroclast",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source/pathfinder_#95_anvil_of_fire)  ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source/pathfinder_95_anvil_of_fire)  ",
 			"Pyroclasts harness the primal elemental energy of magma. Their eidolons often resemble elemental beings.",
 			"",
 			"**Diminished Spellcasting:** A pyroclast receives one fewer spell per day of each level than normal. If this reduces the number of spells for a level to 0, he can cast spells of that level only if his Charisma score grants him bonus spells of that level. This alters the summoner's spells.",
@@ -405,7 +405,7 @@
 		"description": [
 			"## Storm Caller",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 16](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 16](source/elemental_masters_handbook)  ",
 			"Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm callers, who channel the elemental energies of the Plane of Air. Storm callers are most commonly encountered in areas where thunderstorms appear frequently, including supernaturally stormy places like the Sodden Lands.",
 			"",
 			"**Stormy Eidolon:** A storm caller must select the resistance (electricity) or immunity (electricity) evolution for his eidolon. If the eidolon has neither of these evolutions, it becomes nauseated until it regains one of them.",
@@ -513,7 +513,7 @@
 		"description": [
 			"## Unwavering Conduit",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 17](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 17](source/monster_summoners_handbook)  ",
 			"Unwavering conduits work to keep everything ordered and regimented, drawing on power from the Eternal City of Axis, Heaven, or Hell to enforce whichever laws the summoner finds paramount. Lawful good unwavering conduits often work with Riftwardens to protect the integrity of the Great Beyond, while lawful evil unwavering conduits are commonly diabolists in Cheliax.",
 			"",
 			"**Alignment:** Any lawful.",

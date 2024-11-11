@@ -5,7 +5,7 @@
 		"description": [
 			"## Sunstalker",
 			"",
-			"**Source** [Adventurer's Guide pg. 17](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 17](source/adventurers_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 3, bard 3, hunter 3, ranger 3, skald 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -32,7 +32,7 @@
 		"description": [
 			"## Suppress Charms and Compulsions",
 			"",
-			"**Source** [Adventurer's Guide pg. 77](source/adventurer's_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
+			"**Source** [Adventurer's Guide pg. 77](source/adventurers_guide), [Andoran, Spirit of Liberty pg. 27](source/andoran_spirit_of_liberty)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 2, bard 2, cleric 2, mesmerist 2, oracle 2, paladin 2, psychic 2, shaman 2, skald 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -131,7 +131,7 @@
 		"description": [
 			"## Surefoot Boots",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 21](source/adventurers_armory_2)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 2, hunter 2, occultist 2, ranger 2, shaman 2",
 			"",
 			"### Casting",
@@ -295,7 +295,7 @@
 		"description": [
 			"## Swallow Your Fear",
 			"",
-			"**Source** [Pathfinder #35: War of the River Kings pg. 73](source/pathfinder_#35_war_of_the_river_kings)  ",
+			"**Source** [Pathfinder #35: War of the River Kings pg. 73](source/pathfinder_35_war_of_the_river_kings)  ",
 			"**School** [enchantment](spelldef/enchantment); **Level** bard 1, cleric 1, oracle 1, skald 1, warpriest 1 (Gorum)",
 			"",
 			"### Casting",
@@ -345,7 +345,7 @@
 		"description": [
 			"## Swarm Skin",
 			"",
-			"**Source** [Advanced Player's Guide pg. 248](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 248](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 6, hunter 6, witch 6",
 			"",
 			"### Casting",
@@ -407,7 +407,7 @@
 		"description": [
 			"## Swipe",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 419](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 62](source/pathfinder_#5_sins_of_the_saviors)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 419](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #5: Sins of the Saviors pg. 62](source/pathfinder_5_sins_of_the_saviors)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** arcanist 3, bard 2, skald 2, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -463,7 +463,7 @@
 		"description": [
 			"## Sylvan Hideaway",
 			"",
-			"**Source** [Pathfinder #116: Fangs of War pg. 67](source/pathfinder_#116_fangs_of_war)  ",
+			"**Source** [Pathfinder #116: Fangs of War pg. 67](source/pathfinder_116_fangs_of_war)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** druid 3, hunter 3, ranger 3, shaman 3",
 			"",
 			"### Casting",
@@ -1378,7 +1378,7 @@
 		"description": [
 			"## Tactical Adaptation",
 			"",
-			"**Source** [Adventurer's Guide pg. 27](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 27](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** magus 3",
 			"",
 			"### Casting",
@@ -1549,7 +1549,7 @@
 		"description": [
 			"## Talisman of Reprieve",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 12](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 12](source/plane-hoppers_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 5, inquisitor 4, occultist 5, paladin 3, warpriest 5",
 			"",
 			"### Casting",
@@ -1589,7 +1589,7 @@
 			"This spell functions as contingency, but you invest a spell whose level doesn't exceed one-quarter of your level (rounded down, maximum spell level 3rd) into one of your implements that holds 2 or more points of mental focus. The spell's school must match that of the implement, and the spell must be one that affects only your person. Casting talismanic implement reduces the selected implement's mental focus by 2, including for the purposes of determining the effects of resonant powers. When you refresh your mental focus, talismanic implement ends automatically, even if the duration hasn't elapsed. Unlike contingency, you may have multiple talismanic implements simultaneously, though a single implement can hold only one talismanic implement spell, and if you have any talismanic implements, you can't have any other kind of contingency in effect."
 		]
 	},
-	"tamer's_lash": {
+	"tamers_lash": {
 		"name": "Tamer's Lash",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -2131,7 +2131,7 @@
 		"description": [
 			"## Telepathic Censure",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 27](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 27](source/demon_hunters_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** bard 2, inquisitor 2, skald 2",
 			"",
 			"### Casting",
@@ -2155,7 +2155,7 @@
 		"description": [
 			"## Telepathic Silence",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 31](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 31](source/monster_hunters_handbook)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** medium 4, mesmerist 4, occultist 4, psychic 4, spiritualist 4",
 			"",
 			"### Casting",
@@ -2550,7 +2550,7 @@
 		"description": [
 			"## Teratoid Caress",
 			"",
-			"**Source** [Pathfinder Comics #10 pg. 27](source/pathfinder_comics_#10)  ",
+			"**Source** [Pathfinder Comics #10 pg. 27](source/pathfinder_comics_10)  ",
 			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)) [[chaotic](spelldef/chaotic), [curse](spelldef/curse), [evil](spelldef/evil)]; **Level** cleric 3, oracle 3, warpriest 3",
 			"",
 			"### Casting",
@@ -2657,7 +2657,7 @@
 		"description": [
 			"## Thanatotic Fury",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 4, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -2767,7 +2767,7 @@
 		"description": [
 			"## Thorn Body",
 			"",
-			"**Source** [Advanced Player's Guide pg. 248](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 248](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 3, druid 4, hunter 4, investigator 3, shaman 4",
 			"",
 			"### Casting",
@@ -3127,7 +3127,7 @@
 		"description": [
 			"## Threefold Aspect",
 			"",
-			"**Source** [Advanced Player's Guide pg. 249](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 249](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 5, hunter 5, witch 4",
 			"",
 			"### Casting",
@@ -3226,7 +3226,7 @@
 		"description": [
 			"## Thundering Drums",
 			"",
-			"**Source** [Advanced Player's Guide pg. 249](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 249](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[sonic](spelldef/sonic)]; **Level** bard 3, skald 3",
 			"",
 			"### Casting",
@@ -3250,7 +3250,7 @@
 		"description": [
 			"## Thunderous Footfalls",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3",
 			"",
 			"### Casting",
@@ -3344,13 +3344,13 @@
 			"If you cast this spell in or on a body of water at least 30 feet across, you can shape the spell either as the cone described above or as a 60-foot line. In either shape, the water deals 1d10 points of bludgeoning damage for every 2 caster levels you have in addition to pushing away creatures that fail their Reflex saves."
 		]
 	},
-	"tieldlara's_feint": {
+	"tieldlaras_feint": {
 		"name": "Tieldlara's Feint",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Tieldlara's Feint",
 			"",
-			"**Source** [Adventurer's Guide pg. 27](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 27](source/adventurers_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([charm](spelldef/charm)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 2, skald 2",
 			"",
 			"### Casting",
@@ -3438,7 +3438,7 @@
 		"description": [
 			"## Timely Inspiration",
 			"",
-			"**Source** [Advanced Player's Guide pg. 249](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 249](source/advanced_players_guide)  ",
 			"**School** [divination](spelldef/divination); **Level** bard 1, skald 1",
 			"",
 			"### Casting",
@@ -3494,7 +3494,7 @@
 		"description": [
 			"## Tireless Pursuit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 249](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 249](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** hunter 1, inquisitor 1, ranger 1",
 			"",
 			"### Casting",
@@ -3512,7 +3512,7 @@
 			"",
 			"### Tireless Pursuers",
 			"",
-			"**Source** [Advanced Player's Guide pg. 249](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 249](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** hunter 3, inquisitor 4, ranger 3",
 			"",
 			"#### Casting",
@@ -3536,7 +3536,7 @@
 		"description": [
 			"## Titanic Anchoring",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** antipaladin 3, bloodrager 3, cleric 3, hunter 3, magus 3, oracle 3, paladin 3, ranger 3, warpriest 3",
 			"",
 			"### Casting",
@@ -3693,7 +3693,7 @@
 		"description": [
 			"## Torrent of Elemental Rage",
 			"",
-			"**Source** [Pathfinder #24: The Final Wish pg. 60](source/pathfinder_#24_the_final_wish)  ",
+			"**Source** [Pathfinder #24: The Final Wish pg. 60](source/pathfinder_24_the_final_wish)  ",
 			"**School** [evocation](spelldef/evocation) [[air](spelldef/air), [earth](spelldef/earth), [fire](spelldef/fire), [water](spelldef/water)]; **Level** arcanist 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -3856,7 +3856,7 @@
 		"description": [
 			"## Touch of Gracelessness",
 			"",
-			"**Source** [Advanced Player's Guide pg. 249](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 249](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, bard 1, bloodrager 1, mesmerist 1, redmantisassassin 1, skald 1, sorcerer 1, spiritualist 1, wizard 1",
 			"",
 			"### Casting",
@@ -4005,7 +4005,7 @@
 		"description": [
 			"## Touch of the Sea",
 			"",
-			"**Source** [Advanced Player's Guide pg. 250](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 250](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, arcanist 1, bloodrager 1, druid 1, hunter 1, investigator 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -4313,7 +4313,7 @@
 		"description": [
 			"## Tracking Mark",
 			"",
-			"**Source** [Inner Sea Gods pg. 243](source/inner_sea_gods), [Pathfinder #32: Rivers Run Red pg. 71](source/pathfinder_#32_rivers_run_red)  ",
+			"**Source** [Inner Sea Gods pg. 243](source/inner_sea_gods), [Pathfinder #32: Rivers Run Red pg. 71](source/pathfinder_32_rivers_run_red)  ",
 			"**School** [evocation](spelldef/evocation); **Level** bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, paladin 1, ranger 1, warpriest 1 (Erastil)",
 			"",
 			"### Casting",
@@ -4526,7 +4526,7 @@
 		"description": [
 			"## Transmogrify",
 			"",
-			"**Source** [Advanced Player's Guide pg. 250](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 250](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 4, unchained summoner 4",
 			"",
 			"### Casting",
@@ -4660,7 +4660,7 @@
 		"description": [
 			"## Transmute Potion to Poison",
 			"",
-			"**Source** [Advanced Player's Guide pg. 250](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 250](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** alchemist 2, investigator 2",
 			"",
 			"### Casting",
@@ -4882,7 +4882,7 @@
 		"description": [
 			"## Traveling Dream",
 			"",
-			"**Source** [Gods and Magic pg. 13](source/gods_and_magic), [Pathfinder #2: The Skinsaw Murders pg. 72](source/pathfinder_#2_the_skinsaw_murders)  ",
+			"**Source** [Gods and Magic pg. 13](source/gods_and_magic), [Pathfinder #2: The Skinsaw Murders pg. 72](source/pathfinder_2_the_skinsaw_murders)  ",
 			"**School** [divination](spelldef/divination) ([scrying](spelldef/scrying)); **Level** cleric 4, druid 4, hunter 4, oracle 4, warpriest 4 (Desna)",
 			"",
 			"### Casting",
@@ -4906,7 +4906,7 @@
 		"description": [
 			"## Treasure Stitching",
 			"",
-			"**Source** [Advanced Player's Guide pg. 250](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 250](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 5, bard 4, cleric 5, occultist 4, oracle 5, skald 4, sorcerer 5, warpriest 5, wizard 5",
 			"",
 			"### Casting",
@@ -4987,7 +4987,7 @@
 		"description": [
 			"## Trial by Fire",
 			"",
-			"**Source** [Spymaster's Handbook pg. 22](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 22](source/spymasters_handbook)  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** antipaladin 3, cleric 3, inquisitor 3, oracle 3, paladin 3, warpriest 3",
 			"",
 			"### Casting",
@@ -5088,7 +5088,7 @@
 		"description": [
 			"## True Form",
 			"",
-			"**Source** [Advanced Player's Guide pg. 251](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 251](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 4, druid 4, hunter 4, occultist 4, psychic 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -5287,7 +5287,7 @@
 		"description": [
 			"## Tsunami",
 			"",
-			"**Source** [Advanced Player's Guide pg. 251](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 251](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[water](spelldef/water)]; **Level** arcanist 9, druid 9, shaman 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -5349,7 +5349,7 @@
 		"description": [
 			"## Twilight Knife",
 			"",
-			"**Source** [Advanced Player's Guide pg. 252](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 252](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 3, bloodrager 3, occultist 3, psychic 3, sorcerer 3, spiritualist 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -5377,7 +5377,7 @@
 		"description": [
 			"## Twin Form",
 			"",
-			"**Source** [Advanced Player's Guide pg. 252](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 252](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 6, investigator 6",
 			"",
 			"### Casting",
@@ -5432,7 +5432,7 @@
 		"description": [
 			"## Twisted Futures",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 27](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 27](source/giant_hunters_handbook)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, bard 1, cleric 2, druid 1, hunter 1, oracle 2, shaman 1, skald 1, sorcerer 2, warpriest 2, witch 1, wizard 2",
 			"",
 			"### Casting",

@@ -5,7 +5,7 @@
 		"description": [
 			"## Acrobat",
 			"",
-			"**Source** [Advanced Player's Guide pg. 132](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 132](source/advanced_players_guide)  ",
 			"Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.",
 			"",
 			"**Expert Acrobat (Ex):** At 1st level, an acrobat does not suffer any armor check penalties on Acrobatics, Climb, Fly, Sleight of Hand, or Stealth skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on Acrobatics and Fly skill checks. This ability replaces trapfinding.",
@@ -59,7 +59,7 @@
 		"description": [
 			"## Bellflower Irrigator",
 			"",
-			"**Source** [Adventurer's Guide pg. 43](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 43](source/adventurers_guide)  ",
 			"Bellflower irrigators take on tasks that many other agents of the [Bellflower Network](rule/aff_antislavery) find distasteful. Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge the precise moment to strike from the shadows and annihilate slave traders and masters alike. Bellflower irrigators realize that for every slave released today, another will be shackled tomorrow-until all the masters are dead. This cynicism leads Bellflower irrigators to target anyone who owns or sells slaves on Golarion, especially cruel masters within Cheliax.",
 			"",
 			"Though most Bellflower irrigators are halflings, this branch of the Network is more diverse than many of the others-anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good-most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.",
@@ -85,7 +85,7 @@
 		"description": [
 			"## Burglar",
 			"",
-			"**Source** [Advanced Player's Guide pg. 132](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 132](source/advanced_players_guide)  ",
 			"Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike. Such riches are guarded with vicious traps and hazards, but the devious mind of the burglar allows her to find such dangers and avoid them.",
 			"",
 			"**Careful Disarm (Ex):** At 4th level, whenever a burglar attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.",
@@ -269,7 +269,7 @@
 		"description": [
 			"## Cutpurse",
 			"",
-			"**Source** [Advanced Player's Guide pg. 132](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 132](source/advanced_players_guide)  ",
 			"Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse while wandering the streets and markets. Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing.",
 			"",
 			"**Measure the Mark (Ex):** When a cutpurse makes a Sleight of Hand check to take something from a creature, the target makes its Perception check before the rogue makes her Sleight of Hand check, and the rogue knows the Perception check result. She can decide whether or not to make the check based on the results of the target's Perception check. If the rogue elects not to make the check, she can make a Bluff check, opposed by the target's Sense Motive, to prevent the target from noticing the attempt. This ability replaces trapfinding.",
@@ -361,7 +361,7 @@
 		"description": [
 			"## Discretion Specialist",
 			"",
-			"**Source** [Antihero's Handbook pg. 25](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 25](source/antiheros_handbook)  ",
 			"Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient witnesses, and other loose ends. Many organizations employ them to cover up activities that might be unpopular-should they become known to the general populace.",
 			"",
 			"This archetype is appropriate for rogues and unchained rogues.",
@@ -453,7 +453,7 @@
 		"description": [
 			"## Earthshadow",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 8](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 8](source/elemental_masters_handbook)  ",
 			"When the dwarves began their Quest for Sky millennia ago to reach the world's surface, they already had a deep understanding of the earth's secrets. In the centuries since, the mystic lore the dwarves call earthcraft has been passed down through the generations, and its practitioners are called earthshadows. While many earthshadows are dwarves, their secrets have been shared with a worthy few members of other races over the ages.",
 			"",
 			"**Earthlink (Su):** The earth grants an earthshadow swiftness and hones her senses. When an earthshadow is in direct contact with an expanse of natural earth or unworked stone that is at least as large as she is, she adds half her rogue level (minimum 1) to Acrobatics and Perception checks.",
@@ -793,7 +793,7 @@
 		"description": [
 			"## Investigator",
 			"",
-			"**Source** [Advanced Player's Guide pg. 133](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 133](source/advanced_players_guide)  ",
 			"Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes. In some cities cabals of investigators work for rulers or bureaucracies, but often an investigator is a free agent who pursues whatever mysteries come across her path. Of course, not all investigators serve the law. Crime lords and guildmasters often have squads of investigators serving their own nefarious purposes.",
 			"",
 			"**Follow Up (Ex):** An investigator can roll twice on any Diplomacy check made to gather information, and receives the information for both results. This takes the same amount of time as one check. If the lesser of the two checks reveals false information, the rogue is aware of it. False information is not revealed in this way if the people she questioned do not know it to be false. This ability replaces trapfinding.",
@@ -909,7 +909,7 @@
 		"description": [
 			"## Nameless Shadow",
 			"",
-			"**Source** [Merchant's Manifest pg. 30](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 30](source/merchants_manifest)  ",
 			"Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants. Posing as mundane merchants or other harmless travelers, these assassins can hide both within darkness and in the anonymity of a seemingly unimportant crowd. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
 			"**Harmless Guise (Ex):** A nameless shadow gains the dual identity and seamless guise vigilante class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant. At 6th level, the nameless shadow gains the many guises vigilante social talent. At 8th level, the nameless shadow gains the quick change vigilante social talent. At 14th level, the nameless shadow gains the everyman vigilante social talent. At 18th level, the nameless shadow gains the any guise vigilante social talent.",
@@ -1063,7 +1063,7 @@
 		"description": [
 			"## Poisoner",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_players_guide)  ",
 			"Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.",
 			"",
 			"**Poison Use (Ex):** At 1st level, a poisoner is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade. This ability replaces trapfinding.",
@@ -1081,7 +1081,7 @@
 		"description": [
 			"## Rake",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_players_guide)  ",
 			"The rake is a rogue who is open about her skills and talents, often to the point of being boastful. Usually she has the protection of an important figure who finds her services useful, but sometimes her bravado is enough to keep enemies away. She is often used as a face for the group for diplomacy, gathering information, negotiations, or to gain the most lucrative contracts and quests from local authorities.",
 			"",
 			"**Bravado's Blade (Ex):** When a rake hits an opponent and deals sneak attack damage, she can forgo 1d6 points of that damage and make a free Intimidate check to demoralize the foe. For every additional 1d6 points of sneak attack damage she forgoes, she receives a +5 circumstance bonus on this check. This ability replaces trapfinding.",
@@ -1212,7 +1212,7 @@
 		"description": [
 			"## Sapper",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneers_handbook)  ",
 			"The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of time.",
 			"",
 			"**Destructive Dismantle (Ex):** A sapper is able to quickly breach obstacles. Using a combination of engineering, explosives, alchemical reagents, and sheer bloodymindedness, she can deal up to 10 points of damage per sapper level upon an object once per day, ignoring the object's hardness. She might crack open a stone wall with an explosive charge, or collapse a ceiling by tunneling through its supports. This ability requires 1d4+1 hours of preparation, so it can be used only on immobile and unresisting objects. This ability replaces trapfinding.",
@@ -1228,7 +1228,7 @@
 		"description": [
 			"## Scout",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_players_guide)  ",
 			"Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the city and the dungeon.",
 			"",
 			"**Scout's Charge (Ex):** At 4th level, whenever a scout makes a charge, her attack deals sneak attack damage as if the target were flat-footed. Foes with uncanny dodge are immune to this ability. This ability replaces uncanny dodge.",
@@ -1514,7 +1514,7 @@
 		"description": [
 			"## Sniper",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_players_guide)  ",
 			"Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows and then strikes from a distance without remorse. Snipers, of course, understand that such protestations about \"cowardice\" and \"honor\" regarding their profession are in fact merely the bleatings of sheep fearing the slaughter and pay them no heed. Most snipers take pride in their formidable abilities, which allow them to take life quickly, quietly, and efficiently, then disappear into their surroundings without a trace.",
 			"",
 			"**Accuracy (Ex):** At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow or crossbow. This ability replaces trapfinding.",
@@ -1560,7 +1560,7 @@
 		"description": [
 			"## Spy",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_players_guide)  ",
 			"The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals. Spies are the ultimate manipulators, and even those who commission their services sometimes find that they've merely served the spies' own interests.",
 			"",
 			"**Skilled Liar (Ex):** Whenever a spy uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to feint attempts or attempts to pass secret messages. This ability replaces trapfinding.",
@@ -1622,7 +1622,7 @@
 		"description": [
 			"## Swashbuckler",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_players_guide)  ",
 			"A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on performance.",
 			"",
 			"**Martial Training (Ex):** At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the combat trick rogue talent up to two times. This ability replaces trapfinding.",
@@ -1708,7 +1708,7 @@
 		"description": [
 			"## Thug",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_players_guide)  ",
 			"Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. Through both threat and violence, the thug gets what she wants by the promise of force, and has no problem making good on that promise as needed.",
 			"",
 			"**Frightening (Ex):** Whenever a thug successfully uses Intimidate to demoralize a creature, the duration of the shaken condition is increased by 1 round. In addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the target frightened for 1 round. This ability replaces trapfinding.",
@@ -1748,7 +1748,7 @@
 		"description": [
 			"## Toxic Talon",
 			"",
-			"**Source** [Adventurer's Guide pg. 75](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 75](source/adventurers_guide)  ",
 			"Twilight Talons might pursue many tasks, from relatively passive information gathering to staging massive coups meant to depose tyrants. A toxic talon, however, is trained and deployed for one very specific purpose: to defeat foes with unusual and potent poisons. After adopting a profession to serve as a cover for his activities, a toxic talon spends resources and time combining easy-to-obtain materials into dangerous toxins to aid in the defense of Andoran. A toxic talon can use rare, complex, slow-release poisons to make a death look like it happened naturally, but sometimes the toxic talon will use specific poisons to cast suspicion on other organizations, stirring internal conflict that other Twilight Talons can use to their advantage.",
 			"",
 			"The use of poisons in the defense of a good nation is controversial, and other branches of the [Eagle Knights](rule/aff_vangard) generally disavow the existence of toxic talons among their organization. Many influential leaders among the Eagle Knights, particularly in the Steel Falcons, have pushed to have the practices of the toxic talons banned from use, but these efforts have only pushed the toxic talons into further obscurity. Their role is particularly protected by the Twilight Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by publicly accepting blame for a mission that has had unfortunate public repercussions. In such a case, the toxic talon is not abandoned by his kin-instead, he is placed on a fair and public trial whose purpose is as much to appease the masses as it is to determine whether any moral lines were crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor or prison (in which case he often continues to run missions inside of prisons or other fortifications for the Eagle Knights as best suits his talents) or to exile (in which case his role in serving Andoran shifts to one of clandestine missions in other nations). A toxic talon who martyrs his freedom in this way and is then captured again understands that it's unlikely he'll be afforded the same level of support from the Eagle Knights, and that the organization may well disavow any official knowledge of his actions. To a toxic talon, this is all merely a deeper, more significant level of service to the well-being of the nation of Andoran. By serving as a sort of sineater for the rest of the Twilight Talons (and at times, for the other branches of the Eagle Knights), such selfless characters can ensure that the organization survives scandal and public outcry to carry on their good work. In such cases, while public recognition for their deeds may never manifest, their brothers and sisters never forget the toxic talon's sacrifice.",
@@ -1780,7 +1780,7 @@
 		"description": [
 			"## Trapsmith",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_players_guide)  ",
 			"Some rogues are not content with just disabling traps-they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may have started out putting together traps in order to better understand how to disable them, but for most, it's long since gone beyond that-they now relish the challenge of creating the perfect combat machine.",
 			"",
 			"**Careful Disarm (Ex):** At 4th level, whenever a trapsmith attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.",
@@ -1818,7 +1818,7 @@
 		"description": [
 			"## Vexing Dodger",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 21](source/giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 21](source/giant_hunters_handbook)  ",
 			"Vexing dodgers take advantage of their smaller size to outmaneuver larger foes such as giants. Vexing dodgers have the following class features.",
 			"",
 			"**Limb-Climber (Ex):** When adjacent to or in the space of a corporeal creature at least one size category larger than herself, a vexing dodger can climb that creature's body with a successful Climb check against a DC equal to the target creature's CMD. Although the vexing dodger is holding on to the creature, this action isn't a grapple; it doesn't provoke attacks of opportunity from the creature, and neither the vexing dodger nor the creature she climbs gains the grappled condition. While the vexing dodger is on the climbed creature, the creature takes a penalty on attack rolls against the vexing dodger equal to the number of sneak attack dice the dodger possesses. This ability replaces trapfinding.",

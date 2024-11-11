@@ -103,7 +103,7 @@
 			"",
 			"### Ahriman, Lord of All Divs, CR 26",
 			"",
-			"**Source** [Mythic Realms pg. 48](source/mythic_realms), [Pathfinder #24: The Final Wish pg. 76](source/pathfinder_#24_the_final_wish)  ",
+			"**Source** [Mythic Realms pg. 48](source/mythic_realms), [Pathfinder #24: The Final Wish pg. 76](source/pathfinder_24_the_final_wish)  ",
 			"**XP** 2,457,600  ",
 			"NE Huge outsider (div, evil, extraplanar)  ",
 			"**Init** +20; **Senses** darkvision 60 ft., see in darkness, true seeing; Perception +43  ",
@@ -1131,7 +1131,7 @@
 			"",
 			"### Baba Yaga CR 30/MR 10",
 			"",
-			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 74](source/pathfinder_#72_the_witch_queen's_revenge)  ",
+			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 74](source/pathfinder_72_the_witch_queens_revenge)  ",
 			"**XP** 9,830,400  ",
 			"Female venerable advanced human witch 20/archmage 10  ",
 			"NE Medium humanoid (human, mythic)  ",
@@ -1194,7 +1194,7 @@
 			"Around campfires and in front of hearths on cold winter nights, wise grandmothers and favored uncles recite countless tales of a stern and powerful woman. Some know her as the Old Crone, others as Old Knobby Legs. She's often called the Queen of the Witches, but those who are wise call her Dear Grandmother. She is Baba Yaga, and on Golarion, she has an oppressive and violent legacy. But, on other worlds, the foolhardy and the brave seek her for wisdom and magic."
 		]
 	},
-	"baba_yaga's_rider_black_rider": {
+	"baba_yagas_rider_black_rider": {
 		"name": "Baba Yaga's Rider, Black Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
@@ -1256,11 +1256,11 @@
 			"",
 			"The Black Rider has the most forbidding appearance of the Three Riders. He always appears in a frightening form when called to service. His judgments are the least recorded in history, as they are all performed under the cover of night, and many Irriseni citizens blame other vicious creatures and strange occurrences for the disappearance of their fellow citizens.",
 			"",
-			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
+			"**Family:** [Baba Yaga's Rider](family/baba_yagas_rider)"
 		]
 	},
-	"black_rider": { "copyof": "baba_yaga's_rider_black_rider" },
-	"baba_yaga's_rider_red_rider": {
+	"black_rider": { "copyof": "baba_yagas_rider_black_rider" },
+	"baba_yagas_rider_red_rider": {
 		"name": "Baba Yaga's Rider, Red Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
@@ -1321,11 +1321,11 @@
 			"",
 			"The Red Rider is the most fiery and aggressive of the Three Riders. When Irriseni citizens share old tales of previous Riders around the hearth, stories of the Red Rider's judgments always go into gruesome detail about his wholesale slaughter and shocking violence. Some argue that the Red Rider is no more vicious than the Black Rider, and that the larger number of heinous tales about the Red Rider are simply the result of the time of day in which he engages in his tasks. More citizens are awake and out of their homes during the day to witness the Red Rider's judgments before he cedes his time to the night.",
 			"",
-			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
+			"**Family:** [Baba Yaga's Rider](family/baba_yagas_rider)"
 		]
 	},
-	"red_rider": { "copyof": "baba_yaga's_rider_red_rider" },
-	"baba_yaga's_rider_white_rider": {
+	"red_rider": { "copyof": "baba_yagas_rider_red_rider" },
+	"baba_yagas_rider_white_rider": {
 		"name": "Baba Yaga's Rider, White Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
@@ -1388,10 +1388,10 @@
 			"",
 			"The White Rider is the most even-tempered and diplomatic of the Three Riders. This does not mean that she is sympathetic or merciful, just that there is less blood staining the crisp white garments she wears. When the White Rider comes calling, citizens of Irrisen often seek to curry favor by bringing her gifts of hot tea, pastries, and fresh baked bread. She rarely accepts these offerings, and when she does it is only from those she has already judged to be loyal to Baba Yaga and worthy of the Queen of Witches's rule. Those who too eagerly attempt to carry favor face added scrutiny from her.",
 			"",
-			"**Family:** [Baba Yaga's Rider](family/baba_yaga's_rider)"
+			"**Family:** [Baba Yaga's Rider](family/baba_yagas_rider)"
 		]
 	},
-	"white_rider": { "copyof": "baba_yaga's_rider_white_rider" },
+	"white_rider": { "copyof": "baba_yagas_rider_white_rider" },
 	"balravnus": {
 		"name": "Balravnus, Lord of the Deep Pools",
 		"sources": [ "Demons Revisited" ],
@@ -1580,7 +1580,7 @@
 			"",
 			"### Black Magga, CR 15",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 406](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #3: The Hook Mountain Massacre pg. 88](source/pathfinder_#3_the_hook_mountain_massacre)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 406](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #3: The Hook Mountain Massacre pg. 88](source/pathfinder_3_the_hook_mountain_massacre)  ",
 			"**XP** 51,200  ",
 			"CE Gargantuan outsider (aquatic, native)  ",
 			"**Init** +4; **Senses** all-around vision, darkvision 60 ft.; Perception +22",
@@ -1716,7 +1716,7 @@
 			"",
 			"### Courage Heart, CR 15",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 84](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 84](source/pathfinder_68_the_shackled_hut)  ",
 			"**XP** 51,200  ",
 			"CG Medium outsider (chaotic, extraplanar, good)  ",
 			"**Init** +10; **Senses** darkvision 60 ft., low-light vision; Perception +27  ",
@@ -1888,7 +1888,7 @@
 			"",
 			"### Dancing Hut of Baba Yaga, CR 17",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 63](source/pathfinder_#68_the_shackled_hut), [Artifacts and Legends pg. 22](source/artifacts_and_legends)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 63](source/pathfinder_68_the_shackled_hut), [Artifacts and Legends pg. 22](source/artifacts_and_legends)  ",
 			"**XP** 102,400  ",
 			"N Huge construct  ",
 			"**Init** +12; **Senses** blindsight 120 ft.; Perception +8  ",
@@ -1947,7 +1947,7 @@
 			"",
 			"### Baphomet, CR 27",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 88](source/pathfinder_#77_herald_of_the_ivory_labyrinth)  ",
+			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 88](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
 			"**XP** 3,276,800  ",
 			"CE Large outsider (chaotic, demon, evil, extraplanar)  ",
 			"**Init** +23; **Senses** darkvision 60 ft., detect good, detect law, see in darkness, true seeing; Perception +53  ",
@@ -2114,7 +2114,7 @@
 			"",
 			"### Deskari, CR 29",
 			"",
-			"**Source** [Pathfinder #78: City of Locusts pg. 88](source/pathfinder_#78_city_of_locusts)  ",
+			"**Source** [Pathfinder #78: City of Locusts pg. 88](source/pathfinder_78_city_of_locusts)  ",
 			"**XP** 6,553,600  ",
 			"CE Gargantuan outsider (chaotic, demon, earth, evil, extraplanar)  ",
 			"**Init** +14; **Senses** darkvision 60 ft., detect good, detect law, swarmsight, true seeing; Perception +54  ",
@@ -2287,7 +2287,7 @@
 			"",
 			"### Nocticula, CR 30",
 			"",
-			"**Source** [Pathfinder #76: The Midnight Isles pg. 86](source/pathfinder_#76_the_midnight_isles)  ",
+			"**Source** [Pathfinder #76: The Midnight Isles pg. 86](source/pathfinder_76_the_midnight_isles)  ",
 			"**XP** 9,830,400  ",
 			"CE Medium outsider (chaotic, demon, evil, extraplanar)  ",
 			"**Init** +13; **Senses** darkvision 60 ft., detect good, detect law, see in darkness, true seeing; Perception +58  ",
@@ -2458,7 +2458,7 @@
 			"",
 			"### Shax, CR 28",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 84](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 84](source/pathfinder_74_sword_of_valor)  ",
 			"**XP** 4,915,200  ",
 			"CE Medium outsider (chaotic, demon, evil, extraplanar)  ",
 			"**Init** +18; **Senses** darkvision 60 ft., detect good, detect law, true seeing; Perception +54  ",
@@ -2546,7 +2546,7 @@
 			"",
 			"### Sifkesh, CR 28",
 			"",
-			"**Source** [Pathfinder #75: Demon's Heresy pg. 86](source/pathfinder_#75_demon's_heresy)  ",
+			"**Source** [Pathfinder #75: Demon's Heresy pg. 86](source/pathfinder_75_demons_heresy)  ",
 			"**XP** 4,915,200  ",
 			"CE Medium outsider (chaotic, demon, evil, extraplanar)  ",
 			"**Init** +12; **Senses** darkvision 60 ft., detect good, detect law, true seeing; Perception +51  ",
@@ -2633,7 +2633,7 @@
 			"",
 			"### Xoveron, CR 27",
 			"",
-			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 84](source/pathfinder_#73_the_worldwound_incursion)  ",
+			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 84](source/pathfinder_73_the_worldwound_incursion)  ",
 			"**XP** 3,276,800  ",
 			"CE Huge outsider  ",
 			"**Init** +6; **Senses** darkvision 60 ft., detect good, detect law, true seeing; Perception +55  ",
@@ -2714,7 +2714,7 @@
 			"",
 			"### Emperor of Scales, CR 15",
 			"",
-			"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 82](source/pathfinder_#42_sanctum_of_the_serpent_god)  ",
+			"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 82](source/pathfinder_42_sanctum_of_the_serpent_god)  ",
 			"**XP** 51,200  ",
 			"CE Huge outsider (chaotic, evil, native)  ",
 			"**Init** +11; **Senses** all-around vision, darkvision 60 ft., scent; Perception +26  ",
@@ -2874,7 +2874,7 @@
 			"",
 			"### Ashava, CR 28",
 			"",
-			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 84](source/pathfinder_#134_it_came_from_hollow_mountain)  ",
+			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 84](source/pathfinder_134_it_came_from_hollow_mountain)  ",
 			"**XP** 4,915,200  ",
 			"CG Medium outsider (azata, chaotic, extraplanar, good)  ",
 			"**Init** +34; **Senses** blindsense 60 ft., darkvision 60 ft., [detect evil](spell/detect_evil), [detect law](spell/detect_law), low-light vision, see in darkness, [true seeing](spell/true_seeing); Perception +46  ",
@@ -3712,7 +3712,7 @@
 			"",
 			"### Atlach-Nacha, CR 28",
 			"",
-			"**Source** [Pathfinder #112: The Whisper Out of Time pg. 84](source/pathfinder_#112_the_whisper_out_of_time)  ",
+			"**Source** [Pathfinder #112: The Whisper Out of Time pg. 84](source/pathfinder_112_the_whisper_out_of_time)  ",
 			"**XP** 4,915,200  ",
 			"NE Huge aberration (evil, Great Old One)  ",
 			"**Init** +23; **Senses** darkvision 60 ft., see in darkness, true seeing; Perception +46  ",

@@ -2301,7 +2301,7 @@
 		"description": [
 			"**Source** [Ultimate Campaign pg. 84](source/ultimate_campaign)",
 			"",
-			"If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook (see [Spells Copied from Another's Spellbook or a Scroll](rule/adding_spells_to_a_wizard's_spellbook)). If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells."
+			"If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook (see [Spells Copied from Another's Spellbook or a Scroll](rule/adding_spells_to_a_wizards_spellbook)). If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells."
 		],
 		"parent_topics": [
 			"exploration",
@@ -3678,7 +3678,7 @@
 			"### Alchemy Lab",
 			"",
 			"**Earnings** gp, Goods, or Magic +10  ",
-			"**Benefit** counts as an [alchemist's lab](equipment-misc/alchemist's_lab)  ",
+			"**Benefit** counts as an [alchemist's lab](equipment-misc/alchemists_lab)  ",
 			"**Create** 8 Goods, 1 Influence, 5 Labor, 1 Magic (390 gp); **Time** 16 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -3713,7 +3713,7 @@
 			"### Artisan's Workshop",
 			"",
 			"**Earnings** gp, Goods, or Influence +10  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for one Craft skill  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for one Craft skill  ",
 			"**Create** 9 Goods, 9 Labor (360 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -3876,7 +3876,7 @@
 			"### Clockwork Shop",
 			"",
 			"**Earnings** gp, Goods, or Labor +10  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for Craft (clockwork)  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for Craft (clockwork)  ",
 			"**Create** 9 Goods, 9 Labor (360 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -4030,7 +4030,7 @@
 			"### Forge",
 			"",
 			"**Earnings** gp or Goods +10  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for smithing skills  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for smithing skills  ",
 			"**Create** 9 Goods, 1 Influence, 8 Labor (370 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -4138,11 +4138,11 @@
 			"### Infirmary",
 			"",
 			"**Earnings** gp or Influence +8  ",
-			"**Benefit** counts as a [healer's kit](equipment-misc/healer's_kit) (see below)  ",
+			"**Benefit** counts as a [healer's kit](equipment-misc/healers_kit) (see below)  ",
 			"**Create** 6 Goods, 1 Influence, 6 Labor, 1 Magic (370 gp); **Time** 16 days  ",
 			"**Size** 4-12 squares",
 			"",
-			"An Infirmary is used for treating injured and sick people. It contains beds or cots, a wash basin, and medical supplies. This counts as having a [healer's kit](equipment-misc/healer's_kit) for up to two healers at a time. As long as the building doesn't have the broken condition, you don't need to track individual uses of these healer's kits.",
+			"An Infirmary is used for treating injured and sick people. It contains beds or cots, a wash basin, and medical supplies. This counts as having a [healer's kit](equipment-misc/healers_kit) for up to two healers at a time. As long as the building doesn't have the broken condition, you don't need to track individual uses of these healer's kits.",
 			"",
 			"### Kitchen",
 			"",
@@ -4181,11 +4181,11 @@
 			"### Leather Workshop",
 			"",
 			"**Earnings** gp or Goods +10  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for leatherworking skills  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for leatherworking skills  ",
 			"**Create** 7 Goods, 1 Influence, 7 Labor (310 gp); **Time** 16 days  ",
 			"**Size** 4-10 squares",
 			"",
-			"This workshop includes a sturdy table, stool, vats, drying racks, and tools designed for turning raw hides into leather. The Leather Workshop counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for up to three people creating leather goods with skills such as Craft (leather) and Craft (shoes).",
+			"This workshop includes a sturdy table, stool, vats, drying racks, and tools designed for turning raw hides into leather. The Leather Workshop counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for up to three people creating leather goods with skills such as Craft (leather) and Craft (shoes).",
 			"",
 			"### Lodging",
 			"",
@@ -4277,7 +4277,7 @@
 			"### Printer",
 			"",
 			"**Earnings** gp, Goods, Influence, or Labor +8  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for writing and printing skills  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for writing and printing skills  ",
 			"**Create** 9 Goods, 2 Influence, 7 Labor (380 gp); **Time** 20 days  ",
 			"**Size** 5-16 squares  ",
 			"**Upgrades From** Scriptorium",
@@ -4376,9 +4376,9 @@
 			"### Sewing Room",
 			"",
 			"**Earnings** gp, Goods, or Influence +10  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for one Craft skill  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for one Craft skill  ",
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
-			"**Size** 6-12 squares A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets).",
+			"**Size** 6-12 squares A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets).",
 			"",
 			"### Shack",
 			"",
@@ -4538,11 +4538,11 @@
 			"### Workstation",
 			"",
 			"**Earnings** gp, Goods, or Influence +8  ",
-			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for one Craft or Profession skill  ",
+			"**Benefit** counts as [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for one Craft or Profession skill  ",
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
 			"**Size** 8-16 squares",
 			"",
-			"This includes a table, chair, and appropriate [masterwork artisan's tools](equipment-misc/masterwork_artisan's_tools) for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
+			"This includes a table, chair, and appropriate [masterwork artisan's tools](equipment-misc/masterwork_artisans_tools) for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
 		],
 		"parent_topics": [
 			"exploration",
@@ -4764,7 +4764,7 @@
 			"",
 			"***Lead-Lined Walls:*** Lead-lined walls block nearly all divinations from passing through, but are ineffective as long as any door is open so much as a crack. Detection and location magic generally is blocked as long as there is an unbroken lead barrier directly between the caster and the protected creature or object, but scrying effects, [discern location](spell/discern_location), and other spells that aren't limited to straight lines of effect are blocked only if the protected creature or object is seamlessly enclosed by lead-lined walls. Because of this and the fact that they are rumored to cause insanity in anyone who dwells within long enough, these walls are rarely used in any structures other than vaults and panic rooms. The price includes adding lead lining to any doors, shutters, and other openings into the room so that the lead seal is complete when they are closed. A room sealed fast against divination from all directions by lead is also airtight, potentially suffocating anyone trapped inside. A lead-lined wall costs an extra 250 gp for each 5-foot-wide by 10-foot-tall section of wall. This augmentation cannot be applied to paper walls.",
 			"",
-			"***Secrecy Runes:*** Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the [Craft Wondrous Item](feat/craft_wondrous_item) feat, the spell [mage's private sanctum](spell/mage's_private_sanctum), and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
+			"***Secrecy Runes:*** Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the [Craft Wondrous Item](feat/craft_wondrous_item) feat, the spell [mage's private sanctum](spell/mages_private_sanctum), and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
 			"",
 			"| Runes of Secrecy | Maximum Spell Level of Divination Blocked | Cost per Section of Wall[^&ast;] |",
 			"| --- | --- | --- |",
@@ -6110,7 +6110,7 @@
 		"subtopics": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6180,7 +6180,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6248,7 +6248,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6269,7 +6269,7 @@
 			"theater_events"
 		]
 	},
-	"caster's_tower_events": {
+	"casters_tower_events": {
 		"name": "Caster's Tower Events",
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
@@ -6304,7 +6304,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6362,7 +6362,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6423,7 +6423,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6481,7 +6481,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6537,7 +6537,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6596,7 +6596,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6652,7 +6652,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6713,7 +6713,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6767,7 +6767,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6829,7 +6829,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6887,7 +6887,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -6946,7 +6946,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7008,7 +7008,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7069,7 +7069,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7134,7 +7134,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7195,7 +7195,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7256,7 +7256,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7318,7 +7318,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7382,7 +7382,7 @@
 		"siblings": [
 			"alchemist_events",
 			"bardic_college_events",
-			"caster's_tower_events",
+			"casters_tower_events",
 			"castle_events",
 			"dance_hall_events",
 			"guildhall_events",
@@ -7421,7 +7421,7 @@
 			"cabal_events",
 			"cult_events",
 			"mercenary_company_events",
-			"thieves'_guild_events"
+			"thieves_guild_events"
 		],
 		"siblings": [
 			"generic_building_events",
@@ -7441,7 +7441,7 @@
 			"| 06-20 | Arcane flux |",
 			"| 21-30 | Work opportunity |",
 			"| 31-50 | Portent |",
-			"| 51-60 | Roll on the [Caster's Tower Events](rule/caster's_tower_events) table |",
+			"| 51-60 | Roll on the [Caster's Tower Events](rule/casters_tower_events) table |",
 			"| 61-75 | Roll on the [Magical Academy Events](rule/magical_academy_events) table |",
 			"| 76-90 | Familiar scraps |",
 			"| 91-100 | Image problem |",
@@ -7468,7 +7468,7 @@
 			"cabal_events",
 			"cult_events",
 			"mercenary_company_events",
-			"thieves'_guild_events"
+			"thieves_guild_events"
 		]
 	},
 	"cult_events": {
@@ -7513,7 +7513,7 @@
 			"cabal_events",
 			"cult_events",
 			"mercenary_company_events",
-			"thieves'_guild_events"
+			"thieves_guild_events"
 		]
 	},
 	"mercenary_company_events": {
@@ -7560,10 +7560,10 @@
 			"cabal_events",
 			"cult_events",
 			"mercenary_company_events",
-			"thieves'_guild_events"
+			"thieves_guild_events"
 		]
 	},
-	"thieves'_guild_events": {
+	"thieves_guild_events": {
 		"name": "Thieves' Guild Events",
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
@@ -7604,7 +7604,7 @@
 			"cabal_events",
 			"cult_events",
 			"mercenary_company_events",
-			"thieves'_guild_events"
+			"thieves_guild_events"
 		]
 	}
 }

@@ -22,7 +22,7 @@
 		"description": [
 			"## Seven-Sided Coin",
 			"",
-			"**Source** [Pathfinder: Runescars #4 pg. 27](source/pathfinder_runescars_#4)  ",
+			"**Source** [Pathfinder: Runescars #4 pg. 27](source/pathfinder_runescars_4)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** -;",
 			"",
@@ -45,7 +45,7 @@
 		"description": [
 			"## Sheath of Bladestealth",
 			"",
-			"**Source** [Ultimate Equipment pg. 319](source/ultimate_equipment), [Advanced Player's Guide pg. 309](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 319](source/ultimate_equipment), [Advanced Player's Guide pg. 309](source/advanced_players_guide)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Soul Jar",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 436](source/curse_of_the_crimson_throne), [Pathfinder #33: The Varnhold Vanishing pg. 53](source/pathfinder_#33_the_varnhold_vanishing), [Pathfinder #64: Beyond the Doomsday Door pg. 61](source/pathfinder_#64_beyond_the_doomsday_door), [Lost Treasures pg. 55](source/lost_treasures)  ",
+			"**Source** [Curse of the Crimson Throne pg. 436](source/curse_of_the_crimson_throne), [Pathfinder #33: The Varnhold Vanishing pg. 53](source/pathfinder_33_the_varnhold_vanishing), [Pathfinder #64: Beyond the Doomsday Door pg. 61](source/pathfinder_64_beyond_the_doomsday_door), [Lost Treasures pg. 55](source/lost_treasures)  ",
 			"**Aura** strong necromancy; **CL** 15th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
@@ -106,7 +106,7 @@
 		"description": [
 			"## Steadfast Grapple",
 			"",
-			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 59](source/pathfinder_#55_the_wormwood_mutiny)  ",
+			"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 59](source/pathfinder_55_the_wormwood_mutiny)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 9 lbs.",
 			"",
@@ -189,7 +189,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), light, lesser restoration; **Cost** 2,500 gp"
 		]
 	},
-	"toastmaster's_teacup": {
+	"toastmasters_teacup": {
 		"name": "Toastmaster's Teacup",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -231,7 +231,7 @@
 		"description": [
 			"## Vial of Reckless Courage",
 			"",
-			"**Source** [Antihero's Handbook pg. 31](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 31](source/antiheros_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
@@ -248,7 +248,7 @@
 		"description": [
 			"## Wayfinder of Hidden Strength",
 			"",
-			"**Source** [Adventurer's Guide pg. 148](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 148](source/adventurers_guide)  ",
 			"**Aura** faint evocation and transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
@@ -326,7 +326,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), arcane lock, hold portal; **Cost** 2,650 gp"
 		]
 	},
-	"assassin's_sight": {
+	"assassins_sight": {
 		"name": "Assassin's Sight",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
@@ -371,7 +371,7 @@
 		"description": [
 			"## Discord Bottle",
 			"",
-			"**Source** [Pathfinder #104: Wrath of Thrune pg. 16](source/pathfinder_#104_wrath_of_thrune)  ",
+			"**Source** [Pathfinder #104: Wrath of Thrune pg. 16](source/pathfinder_104_wrath_of_thrune)  ",
 			"**Aura** faint conjuration and enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 5,400 gp; **Weight** 1 lb.",
 			"",
@@ -410,7 +410,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), pyrotechnics; **Cost** 2,700 gp"
 		]
 	},
-	"field_scrivener's_desk": {
+	"field_scriveners_desk": {
 		"name": "Field Scrivener's Desk",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -458,7 +458,7 @@
 		"description": [
 			"## Lantern of the Shining Truth",
 			"",
-			"**Source** [Merchant's Manifest pg. 15](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 15](source/merchants_manifest)  ",
 			"**Aura** faint conjuration and evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 5,400 gp; **Weight** 2 lbs.",
 			"",
@@ -537,7 +537,7 @@
 		"description": [
 			"## Grave Candle",
 			"",
-			"**Source** [Occult Mysteries pg. 55](source/occult_mysteries), [Pathfinder #27: What Lies in Dust pg. 11](source/pathfinder_#27_what_lies_in_dust)  ",
+			"**Source** [Occult Mysteries pg. 55](source/occult_mysteries), [Pathfinder #27: What Lies in Dust pg. 11](source/pathfinder_27_what_lies_in_dust)  ",
 			"**Aura** moderate necromancy; **CL** 10th  ",
 			"**Slot** none; **Price** 5,500 gp; **Weight** 1 lb.",
 			"",
@@ -588,7 +588,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), detect metal, faerie fire, summon swarm; **Cost** 2,750 gp"
 		]
 	},
-	"resplendent_diplomat's_palette": {
+	"resplendent_diplomats_palette": {
 		"name": "Resplendent Diplomat's Palette",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
@@ -613,7 +613,7 @@
 		"description": [
 			"## Seishinru, Spirit Elixir",
 			"",
-			"**Source** [Pathfinder #54: The Empty Throne pg. 61](source/pathfinder_#54_the_empty_throne)  ",
+			"**Source** [Pathfinder #54: The Empty Throne pg. 61](source/pathfinder_54_the_empty_throne)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 5,500 gp; **Weight** -;",
 			"",
@@ -720,7 +720,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), magic aura, secret page, sending; **Cost** 3,000 gp"
 		]
 	},
-	"caver's_bolt": {
+	"cavers_bolt": {
 		"name": "Caver's Bolt",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -779,7 +779,7 @@
 		"description": [
 			"## Figurines of Wondrous Power",
 			"",
-			"**Source** [Ultimate Equipment pg. 297](source/ultimate_equipment), [PRPG Core Rulebook pg. 513](source/prpg_core_rulebook), [Aquatic Adventures pg. 62](source/aquatic_adventures), [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_#34_blood_for_blood), [Legacy of Fire Player's Guide pg. 26](source/legacy_of_fire_player's_guide), [Pathfinder #122: Into the Shattered Continent pg. 33](source/pathfinder_#122_into_the_shattered_continent), [Seers of the Drowned City pg. 54](source/seers_of_the_drowned_city), [Advanced Race Guide pg. 166](source/advanced_race_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty), [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook), [Ultimate Equipment pg. 297](source/ultimate_equipment), [Ultimate Combat pg. 143](source/ultimate_combat), [Advanced Class Guide pg. 236](source/advanced_class_guide), [Animal Archive pg. 27](source/animal_archive), [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_#70_the_frozen_stars), [Mythic Adventures pg. 151](source/mythic_adventures)  ",
+			"**Source** [Ultimate Equipment pg. 297](source/ultimate_equipment), [PRPG Core Rulebook pg. 513](source/prpg_core_rulebook), [Aquatic Adventures pg. 62](source/aquatic_adventures), [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_34_blood_for_blood), [Legacy of Fire Player's Guide pg. 26](source/legacy_of_fire_players_guide), [Pathfinder #122: Into the Shattered Continent pg. 33](source/pathfinder_122_into_the_shattered_continent), [Seers of the Drowned City pg. 54](source/seers_of_the_drowned_city), [Advanced Race Guide pg. 166](source/advanced_race_guide), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty), [Elemental Master's Handbook pg. 10](source/elemental_masters_handbook), [Ultimate Equipment pg. 297](source/ultimate_equipment), [Ultimate Combat pg. 143](source/ultimate_combat), [Advanced Class Guide pg. 236](source/advanced_class_guide), [Animal Archive pg. 27](source/animal_archive), [Pathfinder #70: The Frozen Stars pg. 63](source/pathfinder_70_the_frozen_stars), [Mythic Adventures pg. 151](source/mythic_adventures)  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black Jade Raven), 9,100 gp (Serpentine Eagle), 9,100 gp (Serpentine Owl), 10,000 gp (Bronze Griffon), 10,000 gp (Ebony Fly), 10,000 gp (Hematite Courgar), 10,000 gp (Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven), 15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon); **Weight** 1 lb.",
 			"",
@@ -909,7 +909,7 @@
 		"description": [
 			"## Fortifying Leeches",
 			"",
-			"**Source** [Pathfinder #63: The Asylum Stone pg. 58](source/pathfinder_#63_the_asylum_stone)  ",
+			"**Source** [Pathfinder #63: The Asylum Stone pg. 58](source/pathfinder_63_the_asylum_stone)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.",
 			"",
@@ -928,7 +928,7 @@
 		"description": [
 			"## Gremlin-Skin Drum",
 			"",
-			"**Source** [Pathfinder #87: The Choking Tower pg. 60](source/pathfinder_#87_the_choking_tower)  ",
+			"**Source** [Pathfinder #87: The Choking Tower pg. 60](source/pathfinder_87_the_choking_tower)  ",
 			"**Aura** moderate enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1011,7 +1011,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), knock; **Cost** 3,000 gp"
 		]
 	},
-	"martyr's_tear": {
+	"martyrs_tear": {
 		"name": "Martyr's Tear",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1030,7 +1030,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), vampiric touch; **Cost** 3,000 gp"
 		]
 	},
-	"master_vidlian's_squeeze-box": {
+	"master_vidlians_squeeze-box": {
 		"name": "Master Vidlian's Squeeze-Box",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
@@ -1047,8 +1047,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), cushioning bands, grease; **Cost** 3,000 gp"
 		]
 	},
-	"master_vidlian's_squeeze_box": {
-		"copyof": "master_vidlian's_squeeze-box"
+	"master_vidlians_squeeze_box": {
+		"copyof": "master_vidlians_squeeze-box"
 	},
 	"memoriam_root": {
 		"name": "Memoriam Root",
@@ -1056,7 +1056,7 @@
 		"description": [
 			"## Memoriam Root",
 			"",
-			"**Source** [Healer's Handbook pg. 29](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 29](source/healers_handbook)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
@@ -1085,7 +1085,7 @@
 		"description": [
 			"## Panacea Flask",
 			"",
-			"**Source** [Pathfinder: Runescars #1 pg. 28](source/pathfinder_runescars_#1)  ",
+			"**Source** [Pathfinder: Runescars #1 pg. 28](source/pathfinder_runescars_1)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -1102,7 +1102,7 @@
 		"description": [
 			"## Pentacle Token",
 			"",
-			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 22](source/pathfinder_#108_hell_comes_to_westcrown)  ",
+			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 22](source/pathfinder_108_hell_comes_to_westcrown)  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -1158,7 +1158,7 @@
 		"description": [
 			"## Pocket Prey",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 29](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 29](source/monster_hunters_handbook)  ",
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 3 lbs.",
 			"",
@@ -1175,7 +1175,7 @@
 		"description": [
 			"## Righteous Medal",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 62](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 62](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** moderate abjuration and transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** -;",
 			"",
@@ -1330,7 +1330,7 @@
 		"description": [
 			"## Ioun Memory Node",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 78](source/pathfinder_#123_the_flooded_cathedral)  ",
+			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 78](source/pathfinder_123_the_flooded_cathedral)  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 6,000 gp (Type I), 14,000 gp (Type II), 24,000 gp (Type III), 36,000 gp (Type IV); **Weight** -;",
 			"",
@@ -1350,13 +1350,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [awaken construct](spell/awaken_construct); **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		]
 	},
-	"wavecutter's_figurine": {
+	"wavecutters_figurine": {
 		"name": "Wavecutter's Figurine",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
 			"## Wavecutter's Figurine",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_#124_city_in_the_deep)  ",
+			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_124_city_in_the_deep)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1367,7 +1367,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [touch of the sea](spell/touch_of_the_sea); **Cost** 3,000 gp"
 		]
 	},
-	"black_marketeer's_bag": {
+	"black_marketeers_bag": {
 		"name": "Black Marketeer's Bag",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -1409,7 +1409,7 @@
 		"description": [
 			"## Insidious Bear Trap",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 60](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 60](source/pathfinder_68_the_shackled_hut)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 6,300 gp; **Weight** 10 lbs.",
 			"",
@@ -1521,7 +1521,7 @@
 		"description": [
 			"## Elocution Tooth",
 			"",
-			"**Source** [Pathfinder: Goblins #1 pg. 29](source/pathfinder_goblins_#1)  ",
+			"**Source** [Pathfinder: Goblins #1 pg. 29](source/pathfinder_goblins_1)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 6,400 gp; **Weight** -;",
 			"",
@@ -1559,7 +1559,7 @@
 		"description": [
 			"## Farglass",
 			"",
-			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 56](source/pathfinder_#56_raiders_of_the_fever_sea)  ",
+			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 56](source/pathfinder_56_raiders_of_the_fever_sea)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 6,400 gp; **Weight** 1 lb.",
 			"",
@@ -1570,13 +1570,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), clairaudience/ clairvoyance; **Cost** 3,700 gp"
 		]
 	},
-	"tiller's_pendant": {
+	"tillers_pendant": {
 		"name": "Tiller's Pendant",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Tiller's Pendant",
 			"",
-			"**Source** [Adventurer's Guide pg. 45](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 45](source/adventurers_guide)  ",
 			"**Aura** faint illusion and transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 6,400 gp; **Weight** -;",
 			"",
@@ -1593,7 +1593,7 @@
 		"description": [
 			"## Brazen Head",
 			"",
-			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 64](source/pathfinder_#73_the_worldwound_incursion)  ",
+			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 64](source/pathfinder_73_the_worldwound_incursion)  ",
 			"**Aura** faint divination (evil) and enchantment (evil); **CL** 5th  ",
 			"**Slot** none; **Price** 6,500 gp; **Weight** 10 lbs.",
 			"",
@@ -1614,7 +1614,7 @@
 		"description": [
 			"## Foresight Quill",
 			"",
-			"**Source** [Disciple's Doctrine pg. 29](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 29](source/disciples_doctrine)  ",
 			"**Aura** moderate divination; **CL** 6th  ",
 			"**Slot** none; **Price** 6,500 gp; **Weight** -;",
 			"",
@@ -1631,7 +1631,7 @@
 		"description": [
 			"## Gas-Trap Cylinder",
 			"",
-			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 60](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Pathfinder #71: Rasputin Must Die! pg. 60](source/pathfinder_71_rasputin_must_die)  ",
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** none; **Price** 6,500 gp; **Weight** 50 lbs.",
 			"",
@@ -1718,7 +1718,7 @@
 		"description": [
 			"## Trumpet of Spirit Speaking",
 			"",
-			"**Source** [Occult Mysteries pg. 55](source/occult_mysteries), [Pathfinder #71: Rasputin Must Die! pg. 61](source/pathfinder_#71_rasputin_must_die!)  ",
+			"**Source** [Occult Mysteries pg. 55](source/occult_mysteries), [Pathfinder #71: Rasputin Must Die! pg. 61](source/pathfinder_71_rasputin_must_die)  ",
 			"**Aura** moderate necromancy; **CL** 6th  ",
 			"**Slot** none; **Price** 6,500 gp; **Weight** 1 lb.",
 			"",
@@ -1888,7 +1888,7 @@
 		"description": [
 			"## Effigy of Anubis",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 58](source/pathfinder_#81_shifting_sands)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 58](source/pathfinder_81_shifting_sands)  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 6,900 gp; **Weight** 1 lb.",
 			"",
@@ -1969,7 +1969,7 @@
 		"description": [
 			"## Ghostlight Lantern",
 			"",
-			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 9](source/pathfinder_#92_the_hill_giant's_pledge)  ",
+			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 9](source/pathfinder_92_the_hill_giants_pledge)  ",
 			"**Aura** moderate evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 7,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2258,13 +2258,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), blessing of fervor (Sunwall) or remove fear (Harchist and Hordeline); **Cost** 3,750 gp (Hordeline), 7,500 gp (Harchist), 62,500 gp (Sunwall)"
 		]
 	},
-	"jalhazar's_wheel": {
+	"jalhazars_wheel": {
 		"name": "Jalhazar's Wheel",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"## Jalhazar's Wheel",
 			"",
-			"**Source** [Pathfinder #57: Tempest Rising pg. 58](source/pathfinder_#57_tempest_rising)  ",
+			"**Source** [Pathfinder #57: Tempest Rising pg. 58](source/pathfinder_57_tempest_rising)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 7,500 gp; **Weight** 15 lbs.",
 			"",
@@ -2322,7 +2322,7 @@
 		"description": [
 			"## Wave Harp",
 			"",
-			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 79](source/pathfinder_#122_into_the_shattered_continent)  ",
+			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 79](source/pathfinder_122_into_the_shattered_continent)  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 7,500 gp; **Weight** 8 lbs.",
 			"",
@@ -2365,7 +2365,7 @@
 		"description": [
 			"## Zoic Fetish",
 			"",
-			"**Source** [Adventurer's Guide pg. 114](source/adventurer's_guide), [Inner Sea World Guide pg. 299](source/inner_sea_world_guide)  ",
+			"**Source** [Adventurer's Guide pg. 114](source/adventurers_guide), [Inner Sea World Guide pg. 299](source/inner_sea_world_guide)  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 7,500 gp; **Weight** -;",
 			"",
@@ -2388,7 +2388,7 @@
 		"description": [
 			"## Teleporting Climbing Rig",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 29](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 29](source/dungeoneers_handbook)  ",
 			"**Aura** moderate conjuration (teleportation); **CL** 7th  ",
 			"**Slot** none; **Price** 7,600 gp; **Weight** 7 lbs.",
 			"",
@@ -2431,7 +2431,7 @@
 		"description": [
 			"## Scarab of Khepri",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_#84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 25](source/osirion_land_of_the_pharaohs)  ",
+			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 61](source/pathfinder_84_pyramid_of_the_sky_pharaoh), [Osirion, Land of the Pharaohs pg. 25](source/osirion_land_of_the_pharaohs)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 7,800 gp; **Weight** -;",
 			"",
@@ -2448,7 +2448,7 @@
 		"description": [
 			"## Alpine Ice Axe",
 			"",
-			"**Source** [Pathfinder #70: The Frozen Stars pg. 62](source/pathfinder_#70_the_frozen_stars)  ",
+			"**Source** [Pathfinder #70: The Frozen Stars pg. 62](source/pathfinder_70_the_frozen_stars)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2467,7 +2467,7 @@
 		"description": [
 			"## Censer of Dreams",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 62](source/pathfinder_#65_into_the_nightmare_rift)  ",
+			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 62](source/pathfinder_65_into_the_nightmare_rift)  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2495,7 +2495,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fabricate, neutralize poison; **Cost** 4,000 gp"
 		]
 	},
-	"champion's_banner": {
+	"champions_banner": {
 		"name": "Champion's Banner",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
@@ -2531,13 +2531,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), charm person; **Cost** 4,000 gp"
 		]
 	},
-	"desna's_coin": {
+	"desnas_coin": {
 		"name": "Desna's Coin",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Desna's Coin",
 			"",
-			"**Source** [Antihero's Handbook pg. 30](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 30](source/antiheros_handbook)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -2550,7 +2550,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), divine favor; **Cost** 4,000 gp"
 		]
 	},
-	"exorcist's_aspergillum": {
+	"exorcists_aspergillum": {
 		"name": "Exorcist's Aspergillum",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2623,7 +2623,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), commune with nature, message; **Cost** 4,000 gp"
 		]
 	},
-	"hezzilreen's_spellbook": {
+	"hezzilreens_spellbook": {
 		"name": "Hezzilreen's Spellbook",
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
@@ -2663,7 +2663,7 @@
 		"description": [
 			"## Malleable Monument",
 			"",
-			"**Source** [Disciple's Doctrine pg. 29](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 29](source/disciples_doctrine)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 15 lbs.",
 			"",
@@ -2769,7 +2769,7 @@
 		"description": [
 			"## Retriever Drone",
 			"",
-			"**Source** [Pathfinder #75: Demon's Heresy pg. 62](source/pathfinder_#75_demon's_heresy)  ",
+			"**Source** [Pathfinder #75: Demon's Heresy pg. 62](source/pathfinder_75_demons_heresy)  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2811,7 +2811,7 @@
 		"description": [
 			"## Throne of the Sky-Father",
 			"",
-			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 66](source/pathfinder_#92_the_hill_giant's_pledge)  ",
+			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 66](source/pathfinder_92_the_hill_giants_pledge)  ",
 			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.",
 			"",
@@ -2868,7 +2868,7 @@
 		"description": [
 			"## Wayfinder, Vanishing",
 			"",
-			"**Source** [Adventurer's Guide pg. 148](source/adventurer's_guide), [Pathfinder Society Field Guide pg. 55](source/pathfinder_society_field_guide)  ",
+			"**Source** [Adventurer's Guide pg. 148](source/adventurers_guide), [Pathfinder Society Field Guide pg. 55](source/pathfinder_society_field_guide)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -2905,7 +2905,7 @@
 		"description": [
 			"## Whisper Safe",
 			"",
-			"**Source** [Merchant's Manifest pg. 5](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 5](source/merchants_manifest)  ",
 			"**Aura** faint conjuration; **CL** 4th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -3066,7 +3066,7 @@
 		"description": [
 			"## Blackwick Cauldron",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 65](source/pathfinder_#34_blood_for_blood)  ",
+			"**Source** [Pathfinder #34: Blood for Blood pg. 65](source/pathfinder_34_blood_for_blood)  ",
 			"**Aura** moderate divination and transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 8,850 gp; **Weight** 3 lbs.",
 			"",
@@ -3126,7 +3126,7 @@
 		"description": [
 			"## Chest of Keeping",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 62](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 62](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** strong transmutation; **CL** 12th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 10 lbs.",
 			"",
@@ -3137,7 +3137,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gentle repose, secret chest; **Cost** 4,500 gp"
 		]
 	},
-	"commander's_tent": {
+	"commanders_tent": {
 		"name": "Commander's Tent",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -3162,7 +3162,7 @@
 		"description": [
 			"## Confabulation Plates",
 			"",
-			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 52](source/pathfinder_#110_the_thrushmoor_terror)  ",
+			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 52](source/pathfinder_110_the_thrushmoor_terror)  ",
 			"**Aura** faint divination and necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.",
 			"",
@@ -3211,7 +3211,7 @@
 		"description": [
 			"## Dune Boat",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 62](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 62](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 6 lbs.",
 			"",
@@ -3222,13 +3222,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fabricate, shifting sand, creator must have 2 ranks in Craft (ships); **Cost** 4,500 gp"
 		]
 	},
-	"gemcarver's_tools": {
+	"gemcarvers_tools": {
 		"name": "Gemcarver's Tools",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Gemcarver's Tools",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_masters_handbook)  ",
 			"**Aura** moderate conjuratino and transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.",
 			"",
@@ -3238,10 +3238,10 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fabricate, [summon monster V](spell/summon_monster_5) or [summon nature's ally V](spell/summon_nature's_ally_5), 5 ranks in Craft (jewelry); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fabricate, [summon monster V](spell/summon_monster_5) or [summon nature's ally V](spell/summon_natures_ally_5), 5 ranks in Craft (jewelry); **Cost** 4,500 gp"
 		]
 	},
-	"investigator's_pipe": {
+	"investigators_pipe": {
 		"name": "Investigator's Pipe",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3346,7 +3346,7 @@
 		"description": [
 			"## Mother-Sphinx Token",
 			"",
-			"**Source** [Merchant's Manifest pg. 5](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 5](source/merchants_manifest)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -3379,7 +3379,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse; **Cost** 4,500 gp"
 		]
 	},
-	"redemptor's_blessing": {
+	"redemptors_blessing": {
 		"name": "Redemptor's Blessing",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -3589,7 +3589,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gust of wind, whispering wind, wind wall; **Cost** 5,000 gp"
 		]
 	},
-	"book_thief's_satchel": {
+	"book_thiefs_satchel": {
 		"name": "Book Thief's Satchel",
 		"sources": [ "Pathfinder Society Primer" ],
 		"description": [
@@ -3669,7 +3669,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), clairaudience/clairvoyance, comprehend languages, illusory script; **Cost** 5,000 gp"
 		]
 	},
-	"commander's_banner": {
+	"commanders_banner": {
 		"name": "Commander's Banner",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
@@ -3697,7 +3697,7 @@
 		"description": [
 			"## Construct Channel Brick",
 			"",
-			"**Source** [Ultimate Equipment pg. 289](source/ultimate_equipment), [Advanced Player's Guide pg. 303](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 289](source/ultimate_equipment), [Advanced Player's Guide pg. 303](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -3742,7 +3742,7 @@
 		"description": [
 			"## Doomharp",
 			"",
-			"**Source** [Ultimate Equipment pg. 291](source/ultimate_equipment), [Advanced Player's Guide pg. 304](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 291](source/ultimate_equipment), [Advanced Player's Guide pg. 304](source/advanced_players_guide)  ",
 			"**Aura** faint necromancy; **CL** 4th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.",
 			"",
@@ -3852,7 +3852,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), freedom of movement, heal; **Cost** 5,000 gp"
 		]
 	},
-	"hunter's_tree_fort": {
+	"hunters_tree_fort": {
 		"name": "Hunter's Tree Fort",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3884,7 +3884,7 @@
 		"description": [
 			"## Ki Mat",
 			"",
-			"**Source** [Ultimate Equipment pg. 307](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 307](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_players_guide)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 3 lbs.",
 			"",
@@ -3981,7 +3981,7 @@
 		"description": [
 			"## Molech",
 			"",
-			"**Source** [Pathfinder #105: The Inferno Gate pg. 70](source/pathfinder_#105_the_inferno_gate)  ",
+			"**Source** [Pathfinder #105: The Inferno Gate pg. 70](source/pathfinder_105_the_inferno_gate)  ",
 			"**Aura** strong enchantment and evocation [evil]; **CL** 12th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 2,000 lbs.",
 			"",
@@ -3998,7 +3998,7 @@
 		"description": [
 			"## Orb of Consumption",
 			"",
-			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_#62_curse_of_the_lady's_light)  ",
+			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_62_curse_of_the_ladys_light)  ",
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 9 lbs.",
 			"",
@@ -4067,7 +4067,7 @@
 	"summon_slave_crystal": {
 		"copyof": "summon-slave_crystal"
 	},
-	"lord's_banner_swiftness": {
+	"lords_banner_swiftness": {
 		"name": "Lord's Banner (Swiftness)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4076,7 +4076,7 @@
 		"description": [
 			"## Lord's Banner",
 			"",
-			"**Source** [Ultimate Equipment pg. 308](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 308](source/ultimate_equipment), [Advanced Player's Guide pg. 307](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp (Swiftness), 56,000 gp (Terror), 75,000 gp (Victory), 100,000 gp (Crusades); **Weight** 3 lbs.",
 			"",
@@ -4097,19 +4097,19 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor (leadership), hallow (crusades), freedom of movement (swiftness), fear (terror), heroism (victory); **Cost** 5,000 gp (Swiftness), 28,000 gp (Terror), 37,500 gp (Victory), 50,000 gp (Crusades)"
 		]
 	},
-	"lord's_banner_terror": {
+	"lords_banner_terror": {
 		"name": "Lord's Banner (Terror)",
-		"copyof": "lord's_banner_swiftness"
+		"copyof": "lords_banner_swiftness"
 	},
-	"lord's_banner_victory": {
+	"lords_banner_victory": {
 		"name": "Lord's Banner (Victory)",
-		"copyof": "lord's_banner_swiftness"
+		"copyof": "lords_banner_swiftness"
 	},
-	"lord's_banner_crusades": {
+	"lords_banner_crusades": {
 		"name": "Lord's Banner (Crusades)",
-		"copyof": "lord's_banner_swiftness"
+		"copyof": "lords_banner_swiftness"
 	},
-	"treasurer's_seal": {
+	"treasurers_seal": {
 		"name": "Treasurer's Seal",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4170,7 +4170,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Lucid Dreamer, deep slumber, eagle's splendor, guidance; **Cost** 5,150 gp"
 		]
 	},
-	"deck_of_the_hellwasp's_sting": {
+	"deck_of_the_hellwasps_sting": {
 		"name": "Deck of the Hellwasp's Sting",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -4189,7 +4189,7 @@
 			"**Requirements** Arcane Strike, [Craft Wondrous Item](feat/craft_wondrous_item), flame arrow, summon swarm; **Cost** 5,190 gp"
 		]
 	},
-	"familiar's_soulstone": {
+	"familiars_soulstone": {
 		"name": "Familiar's Soulstone",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -4210,13 +4210,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), raise dead; **Cost** 5,250 gp"
 		]
 	},
-	"besmara's_bones": {
+	"besmaras_bones": {
 		"name": "Besmara's Bones",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"## Besmara's Bones",
 			"",
-			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 56](source/pathfinder_#56_raiders_of_the_fever_sea)  ",
+			"**Source** [Pathfinder #56: Raiders of the Fever Sea pg. 56](source/pathfinder_56_raiders_of_the_fever_sea)  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** see text; **Price** 10,800 gp; **Weight** 300 lbs.",
 			"",
@@ -4250,7 +4250,7 @@
 		"description": [
 			"## Shackles Ensign",
 			"",
-			"**Source** [Pathfinder #57: Tempest Rising pg. 58](source/pathfinder_#57_tempest_rising)  ",
+			"**Source** [Pathfinder #57: Tempest Rising pg. 58](source/pathfinder_57_tempest_rising)  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 10,800 gp; **Weight** 3 lbs.",
 			"",
@@ -4280,7 +4280,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), atonement; **Cost** 5,657 gp"
 		]
 	},
-	"forger's_friend": {
+	"forgers_friend": {
 		"name": "Forger's Friend",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -4297,7 +4297,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), scrying; **Cost** 5,600 gp"
 		]
 	},
-	"fate-reader's_lenses": {
+	"fate-readers_lenses": {
 		"name": "Fate-Reader's Lenses",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
@@ -4318,8 +4318,8 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), enter image; **Cost** 5,625 gp"
 		]
 	},
-	"fate_reader's_lenses": {
-		"copyof": "fate-reader's_lenses"
+	"fate_readers_lenses": {
+		"copyof": "fate-readers_lenses"
 	},
 	"amazing_tools_of_manufacture": {
 		"name": "Amazing Tools of Manufacture",
@@ -4365,7 +4365,7 @@
 		"description": [
 			"## Blasphemous Chalice",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 70](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 70](source/pathfinder_139_the_dead_road)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.",
 			"",
@@ -4378,7 +4378,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shield of fortification](spell/shield_of_fortification); **Cost** 6,000 gp"
 		]
 	},
-	"bosun's_call": {
+	"bosuns_call": {
 		"name": "Bosun's Call",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -4447,7 +4447,7 @@
 	"horn_of_the_war_leader": {
 		"copyof": "horn_of_the_war-leader_half-orc"
 	},
-	"horsemaster's_saddle": {
+	"horsemasters_saddle": {
 		"name": "Horsemaster's Saddle",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4470,7 +4470,7 @@
 		"description": [
 			"## Lantern of Concealment",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 29](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 29](source/dungeoneers_handbook)  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.",
 			"",
@@ -4593,7 +4593,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), true seeing; **Cost** 6,000 gp"
 		]
 	},
-	"seeker's_sight": {
+	"seekers_sight": {
 		"name": "Seeker's Sight",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4668,7 +4668,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), minor creation, passwall; **Cost** 6,075 gp"
 		]
 	},
-	"warden's_cudgel": {
+	"wardens_cudgel": {
 		"name": "Warden's Cudgel",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
@@ -4691,7 +4691,7 @@
 		"description": [
 			"## Shell of Sending",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 56](source/pathfinder_#124_city_in_the_deep)  ",
+			"**Source** [Pathfinder #124: City in the Deep pg. 56](source/pathfinder_124_city_in_the_deep)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 12,200 gp; **Weight** -;",
 			"",
@@ -4706,7 +4706,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](spell/sending); **Cost** 6,100 gp"
 		]
 	},
-	"assassin's_sight_greater": {
+	"assassins_sight_greater": {
 		"name": "Assassin's Sight, Greater",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
@@ -4723,16 +4723,16 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), locate weakness, true strike; **Cost** 6,125 gp"
 		]
 	},
-	"greater_assassin's_sight": {
-		"copyof": "assassin's_sight_greater"
+	"greater_assassins_sight": {
+		"copyof": "assassins_sight_greater"
 	},
-	"jungle_seeker's_monocle": {
+	"jungle_seekers_monocle": {
 		"name": "Jungle Seeker's Monocle",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Jungle Seeker's Monocle",
 			"",
-			"**Source** [Merchant's Manifest pg. 20](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 20](source/merchants_manifest)  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 12,400 gp; **Weight** -;",
 			"",
@@ -4765,7 +4765,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), secret page; **Cost** 6,250 gp"
 		]
 	},
-	"gossiper's_gourd": {
+	"gossipers_gourd": {
 		"name": "Gossiper's Gourd",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -4829,7 +4829,7 @@
 		"description": [
 			"## Bag of Holding (Giant)",
 			"",
-			"**Source** [Pathfinder #93: Forge of the Giant God pg. 31](source/pathfinder_#93_forge_of_the_giant_god)  ",
+			"**Source** [Pathfinder #93: Forge of the Giant God pg. 31](source/pathfinder_93_forge_of_the_giant_god)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 12,500 gp (Type V), 15,000 gp (Type VI); **Weight** 100-150 lbs.",
 			"",
@@ -4869,13 +4869,13 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fabricate; **Cost** 6,250 gp"
 		]
 	},
-	"dagon's_eye": {
+	"dagons_eye": {
 		"name": "Dagon's Eye",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
 			"## Dagon's Eye",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 34](source/pathfinder_#124_city_in_the_deep)  ",
+			"**Source** [Pathfinder #124: City in the Deep pg. 34](source/pathfinder_124_city_in_the_deep)  ",
 			"**Aura** faint divination and evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 12,600 gp; **Weight** 2 lbs.",
 			"",
@@ -4941,7 +4941,7 @@
 		"description": [
 			"## Horn of Assured Victory",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 62](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 62](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** moderate enchantment; **CL** 11th  ",
 			"**Slot** none; **Price** 13,000 gp; **Weight** 3 lbs.",
 			"",
@@ -4958,7 +4958,7 @@
 		"description": [
 			"## Terra-Cotta Talisman",
 			"",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 63](source/pathfinder_#51_the_hungry_storm)  ",
+			"**Source** [Pathfinder #51: The Hungry Storm pg. 63](source/pathfinder_51_the_hungry_storm)  ",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** none; **Price** 13,000 gp (Horse), 16,000 gp (Warrior), 22,000 gp (Hound); **Weight** 1 lb.",
 			"",
@@ -5004,7 +5004,7 @@
 		"description": [
 			"## Mythopoeic Sphinx",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 63](source/pathfinder_#82_secrets_of_the_sphinx)  ",
+			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 63](source/pathfinder_82_secrets_of_the_sphinx)  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 13,000 gp; **Weight** 2 lbs.",
 			"",
@@ -5063,7 +5063,7 @@
 		"description": [
 			"## Flute of Persuasion",
 			"",
-			"**Source** [Pathfinder: Origins #6: Ezren pg. 35](source/pathfinder_origins_#6_ezren)  ",
+			"**Source** [Pathfinder: Origins #6: Ezren pg. 35](source/pathfinder_origins_6_ezren)  ",
 			"**Aura** moderate conjuration; **CL** 4th  ",
 			"**Slot** none; **Price** 14,000 gp; **Weight** 2 lbs.",
 			"",
@@ -5153,7 +5153,7 @@
 		"description": [
 			"## Skeleton Anchor",
 			"",
-			"**Source** [Pathfinder #58: Island of Empty Eyes pg. 61](source/pathfinder_#58_island_of_empty_eyes)  ",
+			"**Source** [Pathfinder #58: Island of Empty Eyes pg. 61](source/pathfinder_58_island_of_empty_eyes)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** 14,450 gp; **Weight** 100 lbs.",
 			"",
@@ -5212,7 +5212,7 @@
 		"description": [
 			"## Book of the Loremaster",
 			"",
-			"**Source** [Ultimate Equipment pg. 284](source/ultimate_equipment), [Advanced Player's Guide pg. 300](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 284](source/ultimate_equipment), [Advanced Player's Guide pg. 300](source/advanced_players_guide)  ",
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.",
 			"",
@@ -5232,7 +5232,7 @@
 		"description": [
 			"## Cauldron of Plenty",
 			"",
-			"**Source** [Ultimate Equipment pg. 287](source/ultimate_equipment), [Advanced Player's Guide pg. 302](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 287](source/ultimate_equipment), [Advanced Player's Guide pg. 302](source/advanced_players_guide)  ",
 			"**Aura** strong conjuration; **CL** 12th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 25 lbs.",
 			"",
@@ -5268,7 +5268,7 @@
 		"description": [
 			"## Expended Lightning Gun",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 45](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 45](source/pathfinder_113_what_grows_within)  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 15 lbs.",
 			"",
@@ -5355,21 +5355,21 @@
 		"description": [
 			"## Horn of the Tritons",
 			"",
-			"**Source** [Ultimate Equipment pg. 303](source/ultimate_equipment), [Pathfinder #58: Island of Empty Eyes pg. 60](source/pathfinder_#58_island_of_empty_eyes)  ",
+			"**Source** [Ultimate Equipment pg. 303](source/ultimate_equipment), [Pathfinder #58: Island of Empty Eyes pg. 60](source/pathfinder_58_island_of_empty_eyes)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.",
 			"",
 			"This device is a large, intricately inscribed and decorated conch shell that can be blown once per day (except by a triton, who can sound it three times per day). Blowing the horn activates any one of the following functions:",
 			"",
 			"- Calm rough waters in a 1-mile radius. Alternatively, this functions as a dismissal spell against a targeted water elemental (DC 19 negates).",
-			"- Summon 1d4+1 sharks or 1d3 advanced sharks as if using [summon nature's ally V](spell/summon_nature's_ally_5).",
+			"- Summon 1d4+1 sharks or 1d3 advanced sharks as if using [summon nature's ally V](spell/summon_natures_ally_5).",
 			"- Create a fear effect (DC 16 negates) in a 500-foot radius that only affects creatures with the aquatic or amphibious subtype which have Intelligence scores of 1 or 2.",
 			"",
 			"Any sounding of a horn of the tritons can be heard by all tritons within a 3-mile radius.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), control water, dismissal, fear, [summon nature's ally V](spell/summon_nature's_ally_5), creator must be a triton; **Cost** 7,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), control water, dismissal, fear, [summon nature's ally V](spell/summon_natures_ally_5), creator must be a triton; **Cost** 7,500 gp"
 		]
 	},
 	"lucky_horseshoe_communal": {
@@ -5399,7 +5399,7 @@
 		"description": [
 			"## Spy Eyes",
 			"",
-			"**Source** [Pathfinder #63: The Asylum Stone pg. 59](source/pathfinder_#63_the_asylum_stone)  ",
+			"**Source** [Pathfinder #63: The Asylum Stone pg. 59](source/pathfinder_63_the_asylum_stone)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lbs.",
 			"",
@@ -5418,7 +5418,7 @@
 		"description": [
 			"## The Lymirin Discourses",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 68](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 68](source/pathfinder_74_sword_of_valor)  ",
 			"**Aura** strong transmutation; **CL** 12th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 3 lbs.",
 			"",
@@ -5475,7 +5475,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alter winds, control winds; **Cost** 7,500 gp"
 		]
 	},
-	"sun_wukong's_puzzle_box": {
+	"sun_wukongs_puzzle_box": {
 		"name": "Sun Wukong's Puzzle Box",
 		"sources": [ "Daughters of Fury" ],
 		"description": [
@@ -5502,7 +5502,7 @@
 		"description": [
 			"## Entwined Syrinx",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 55](source/pathfinder_#27_what_lies_in_dust)  ",
+			"**Source** [Pathfinder #27: What Lies in Dust pg. 55](source/pathfinder_27_what_lies_in_dust)  ",
 			"**Aura** moderate illusion; **CL** 7th  ",
 			"**Slot** none; **Price** 15,300 gp; **Weight** 2 lbs.",
 			"",
@@ -5588,7 +5588,7 @@
 		"description": [
 			"## Caravan Guardian",
 			"",
-			"**Source** [Merchant's Manifest pg. 27](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 27](source/merchants_manifest)  ",
 			"**Aura** faint abjuration and conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.",
 			"",
@@ -5596,7 +5596,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alarm, [summon nature's ally I](spell/summon_nature's_ally_1); **Cost** 8,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), alarm, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 8,000 gp"
 		]
 	},
 	"diabolus_bell": {
@@ -5675,7 +5675,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fog cloud, restoration; **Cost** 8,000 gp"
 		]
 	},
-	"monster_killer's_folio": {
+	"monster_killers_folio": {
 		"name": "Monster Killer's Folio",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
@@ -5709,7 +5709,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), daylight; **Cost** 8,000 gp"
 		]
 	},
-	"runes_of_the_crone's_coven": {
+	"runes_of_the_crones_coven": {
 		"name": "Runes of the Crone's Coven",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -5832,7 +5832,7 @@
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gate; **Cost** 8,100 gp"
 		]
 	},
-	"cayden's_cup": {
+	"caydens_cup": {
 		"name": "Cayden's Cup",
 		"sources": [ "Mythic Adventures" ],
 		"description": [

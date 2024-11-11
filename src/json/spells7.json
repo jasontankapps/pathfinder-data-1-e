@@ -188,7 +188,7 @@
 		"description": [
 			"## Moonrise Arrow",
 			"",
-			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 72](source/pathfinder_#134_it_came_from_hollow_mountain)  ",
+			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 72](source/pathfinder_134_it_came_from_hollow_mountain)  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** cleric 3, inquisitor 3, magus 3, occultist 3, oracle 3, paladin 3, warpriest 3",
 			"",
 			"### Casting",
@@ -212,7 +212,7 @@
 		"description": [
 			"## Moonstruck",
 			"",
-			"**Source** [Advanced Player's Guide pg. 232](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 232](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bloodrager 4, druid 4, hunter 4, psychic 4, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -810,7 +810,7 @@
 		"description": [
 			"## Nap Stack",
 			"",
-			"**Source** [Advanced Player's Guide pg. 233](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 233](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** cleric 3, oracle 3, warpriest 3",
 			"",
 			"### Casting",
@@ -834,7 +834,7 @@
 		"description": [
 			"## Natural Rhythm",
 			"",
-			"**Source** [Advanced Player's Guide pg. 233](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 233](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 2, hunter 2",
 			"",
 			"### Casting",
@@ -852,13 +852,13 @@
 			"You enhance a creature's ability to harm an opponent based on the number of times it has already injured that opponent with a natural attack. Each time the creature successfully strikes an opponent with a natural attack, the subject gains a cumulative +1 bonus on damage rolls made against that opponent when making natural attacks (maximum +5 bonus). If an attack misses, the bonus to damage for all attacks resets to +0."
 		]
 	},
-	"nature's_exile": {
+	"natures_exile": {
 		"name": "Nature's Exile",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Nature's Exile",
 			"",
-			"**Source** [Advanced Player's Guide pg. 233](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 233](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** druid 3, hunter 3, witch 3",
 			"",
 			"### Casting",
@@ -878,7 +878,7 @@
 			"Nature's exile can be removed with break enchantment, limited wish, miracle, remove curse, or wish."
 		]
 	},
-	"nature's_paths": {
+	"natures_paths": {
 		"name": "Nature's Paths",
 		"sources": [
 			"Villain Codex",
@@ -905,13 +905,13 @@
 			"The target instinctively knows the shortest, easiest, and fastest way through the wilderness. For the purpose of determining overland speed, the target treats any trackless terrain as though there were a trail or road, and any terrain with a road or trail as though there were a highway. Up to one creature per caster level traveling with the target can also benefit from the effect. The spell functions only outdoors and does not function in magically altered terrain."
 		]
 	},
-	"nature's_ravages": {
+	"natures_ravages": {
 		"name": "Nature's Ravages",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Nature's Ravages",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 31](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 31](source/dungeoneers_handbook)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** cleric 4, oracle 4, warpriest 4, witch 3",
 			"",
 			"### Casting",
@@ -932,7 +932,7 @@
 			"",
 			"### Nature's Ravages, Greater",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 31](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 31](source/dungeoneers_handbook)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** cleric 8, oracle 8, witch 7",
 			"",
 			"#### Casting",
@@ -950,12 +950,12 @@
 			"This spell functions like nature's ravages, except the target corpse ages a number of years equal to up to 1 year per caster level (maximum 20 years at 20th level)."
 		]
 	},
-	"nature's_ravages_greater": {
+	"natures_ravages_greater": {
 		"name": "Nature's Ravages, Greater",
-		"copyof": "nature's_ravages"
+		"copyof": "natures_ravages"
 	},
-	"greater_nature's_ravages": {
-		"copyof": "nature's_ravages_greater"
+	"greater_natures_ravages": {
+		"copyof": "natures_ravages_greater"
 	},
 	"nauseating_dart": {
 		"name": "Nauseating Dart",
@@ -1011,7 +1011,7 @@
 		"description": [
 			"## Necromantic Burden",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 27](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 27](source/undead_slayers_handbook)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 3, cleric 2, oracle 2, sorcerer 3, warpriest 2, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1061,7 +1061,7 @@
 		"description": [
 			"## Negate Aroma",
 			"",
-			"**Source** [Advanced Player's Guide pg. 234](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 234](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, druid 1, hunter 1, investigator 1, occultist 1, ranger 1",
 			"",
 			"### Casting",
@@ -1105,7 +1105,7 @@
 			"The target's actions and words fail to impress. The target of this spell takes a -10 penalty on any Bluff, Diplomacy, and Intimidate checks as well as any performance combat checks it attempts."
 		]
 	},
-	"nereid's_grace": {
+	"nereids_grace": {
 		"name": "Nereid's Grace",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -1391,7 +1391,7 @@
 			"*Stay Up:* The target uses this ability when it is tripped or otherwise knocked prone. The target steadies itself and stays upright."
 		]
 	},
-	"nixie's_lure": {
+	"nixies_lure": {
 		"name": "Nixie's Lure",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -1543,7 +1543,7 @@
 	"lesser_nondetection": {
 		"copyof": "nondetection_lesser"
 	},
-	"nex's_secret_workshop": {
+	"nexs_secret_workshop": {
 		"name": "Nex's Secret Workshop",
 		"copyof": "nondetection"
 	},
@@ -1705,7 +1705,7 @@
 		"description": [
 			"## Oath of Peace",
 			"",
-			"**Source** [Advanced Player's Guide pg. 234](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 234](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** paladin 4",
 			"",
 			"### Casting",
@@ -1892,7 +1892,7 @@
 		"description": [
 			"## Obscured Script",
 			"",
-			"**Source** [Adventurer's Guide pg. 37](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 37](source/adventurers_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([phantasm](spelldef/phantasm)); **Level** arcanist 2, bard 2, mesmerist 2, occultist 2, psychic 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -1977,7 +1977,7 @@
 			"The ground is covered with slippery expanses and sharp shards of obsidian. The area of effect is difficult terrain, and the DC of Acrobatics checks within the area of effect increases by 5. A successful DC 15 Acrobatics check is required to run or charge across the area. A creature that falls prone in the area takes 1d6 points of damage from sharp obsidian."
 		]
 	},
-	"old_salt's_curse": {
+	"old_salts_curse": {
 		"name": "Old Salt's Curse",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -2219,7 +2219,7 @@
 		"description": [
 			"## Open the Dead Roads",
 			"",
-			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 78](source/pathfinder_#143_borne_by_the_sun's_grace)  ",
+			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 78](source/pathfinder_143_borne_by_the_suns_grace)  ",
 			"**School** [conjuration](spelldef/conjuration); **Level** cleric 6, oracle 6, warpriest 6",
 			"",
 			"### Casting",
@@ -2275,7 +2275,7 @@
 		"description": [
 			"## Opportunistic Loyalty",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 75](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 75](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)); **Level** antipaladin 1, cleric 1, inquisitor 1, mesmerist 1, oracle 1, psychic 1, warpriest 1, witch 1",
 			"",
 			"### Casting",
@@ -2317,13 +2317,13 @@
 			"You fill your target with boredom. The target loses all interest in its current task and must make a Will save against the spell's effect in order to perform its next action. If the target fails, it takes no action that round. The boredom lasts until the duration expires or the target breaks the spell's effect with a successful Will save."
 		]
 	},
-	"oracle's_burden": {
+	"oracles_burden": {
 		"name": "Oracle's Burden",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Oracle's Burden",
 			"",
-			"**Source** [Advanced Player's Guide pg. 234](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 234](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[curse](spelldef/curse)]; **Level** oracle 2",
 			"",
 			"### Casting",
@@ -2341,7 +2341,7 @@
 			"You entreat the forces of fate to bestow your oracle's curse upon another creature. The target creature suffers all the hindrances and none of the benefits of your oracle's curse class feature. You still suffer all effects of your oracle's curse. If you do not have the oracle's curse class feature, this spell has no effect."
 		]
 	},
-	"oracle's_vessel": {
+	"oracles_vessel": {
 		"name": "Oracle's Vessel",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -2406,7 +2406,7 @@
 			"An individual creature can be affected by the orb of the void only once per round, even if the orb moves through its space more than once."
 		]
 	},
-	"orchid's_drop": {
+	"orchids_drop": {
 		"name": "Orchid's Drop",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
@@ -2431,7 +2431,7 @@
 			"As long as you're under the effects of orchid's drop, drinking a dose of your mutagen heals you of 2d10 points of damage. For the spell's duration, you gain a +2 alchemical bonus on all saving throws."
 		]
 	},
-	"order's_wrath": {
+	"orders_wrath": {
 		"name": "Order's Wrath",
 		"sources": [
 			"PRPG Core Rulebook",
@@ -2665,7 +2665,7 @@
 			"Your presence inspires incredible awe in those nearby. A creature that fails a save against this spell falls to the ground and prostrates itself before you, believing it bows before a divine presence. A flying creature incapable of hovering must land immediately in order to prostrate itself. These creatures are considered to be helpless for the duration of the spell. Each round on its turn, a target of this spell may attempt a new saving throw to end the effect; this is a full-round action that does not provoke attacks of opportunity. A creature that recovers from this spell early after being affected by it for at least 1 round takes 1d6 points of Wisdom drain and is staggered for 1d4 rounds. A creature that makes the initial save to resist this spell is merely staggered for 1 round."
 		]
 	},
-	"owl's_wisdom": {
+	"owls_wisdom": {
 		"name": "Owl's Wisdom",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2708,12 +2708,12 @@
 			"This spell functions like owl's wisdom, except that it affects multiple creatures."
 		]
 	},
-	"owl's_wisdom_mass": {
+	"owls_wisdom_mass": {
 		"name": "Owl's Wisdom, Mass",
-		"copyof": "owl's_wisdom"
+		"copyof": "owls_wisdom"
 	},
-	"mass_owl's_wisdom": {
-		"copyof": "owl's_wisdom_mass"
+	"mass_owls_wisdom": {
+		"copyof": "owls_wisdom_mass"
 	},
 	"pack_empathy": {
 		"name": "Pack Empathy",
@@ -2772,7 +2772,7 @@
 		"description": [
 			"## Pain Strike",
 			"",
-			"**Source** [Advanced Player's Guide pg. 234](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 234](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[evil](spelldef/evil), [pain](spelldef/pain)]; **Level** arcanist 3, bloodrager 3, psychic 2, sorcerer 3, spiritualist 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -2791,7 +2791,7 @@
 			"",
 			"### Pain Strike, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 234](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 234](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[evil](spelldef/evil), [pain](spelldef/pain)]; **Level** arcanist 5, psychic 4, sorcerer 5, spiritualist 5, witch 5, wizard 5",
 			"",
 			"#### Casting",
@@ -2842,13 +2842,13 @@
 			"However, creatures under the effect of spells such as true seeing that automatically pierce illusions are not subject to this effect."
 		]
 	},
-	"paladin's_sacrifice": {
+	"paladins_sacrifice": {
 		"name": "Paladin's Sacrifice",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Paladin's Sacrifice",
 			"",
-			"**Source** [Advanced Player's Guide pg. 234](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 234](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** paladin 2",
 			"",
 			"### Casting",
@@ -2997,7 +2997,7 @@
 		"description": [
 			"## Passing Fancy",
 			"",
-			"**Source** [Spymaster's Handbook pg. 29](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 29](source/spymasters_handbook)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 2, bard 2, mesmerist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -3018,7 +3018,7 @@
 			"",
 			"### Passing Fancy, Mass",
 			"",
-			"**Source** [Spymaster's Handbook pg. 29](source/spymaster's_handbook)  ",
+			"**Source** [Spymaster's Handbook pg. 29](source/spymasters_handbook)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 4, mesmerist 4, psychic 5, skald 4, sorcerer 5, witch 5, wizard 5",
 			"",
 			"#### Casting",
@@ -3146,7 +3146,7 @@
 		"description": [
 			"## Pattern Recognition",
 			"",
-			"**Source** [Second Darkness Player's Guide pg. 27](source/second_darkness_player's_guide)  ",
+			"**Source** [Second Darkness Player's Guide pg. 27](source/second_darkness_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -3244,7 +3244,7 @@
 	"greater_peacebond": {
 		"copyof": "peacebond_greater"
 	},
-	"peacemaker's_parley": {
+	"peacemakers_parley": {
 		"name": "Peacemaker's Parley",
 		"sources": [ "Dwarves of Golarion" ],
 		"description": [
@@ -3274,7 +3274,7 @@
 		"description": [
 			"## Peasant Armaments",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 69](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 69](source/pathfinder_68_the_shackled_hut)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, cleric 1, hunter 1, inquisitor 1, oracle 1, ranger 1, redmantisassassin 1, sorcerer 1, warpriest 1, wizard 1 (Milani)",
 			"",
 			"### Casting",
@@ -3430,7 +3430,7 @@
 		"description": [
 			"## Perceive Cues",
 			"",
-			"**Source** [Advanced Player's Guide pg. 235](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 235](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, hunter 2, inquisitor 2, investigator 2, mesmerist 2, occultist 2, psychic 2, ranger 2, witch 2",
 			"",
 			"### Casting",
@@ -3820,7 +3820,7 @@
 			"Certain events can solidify the character's belief that it is doomed. Whenever the target rolls a natural 1 on an attack roll or saving throw, fails an ability or skill check by more than 5, or takes additional damage as a result of a foe's confirmed critical hit, the penalty to roll imposed by pessimism becomes -3 for 1 round. This increased penalty doesn't stack, even if multiple catastrophes occur on the same round."
 		]
 	},
-	"petulengro's_validation": {
+	"petulengros_validation": {
 		"name": "Petulengro's Validation",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
@@ -3999,7 +3999,7 @@
 		"description": [
 			"## Phantasmal Revenge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 235](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 235](source/advanced_players_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([phantasm](spelldef/phantasm)) [[emotion](spelldef/emotion), [fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 7, mesmerist 6, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -4027,7 +4027,7 @@
 		"description": [
 			"## Phantasmal Web",
 			"",
-			"**Source** [Advanced Player's Guide pg. 235](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 235](source/advanced_players_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([phantasm](spelldef/phantasm)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 5, bard 5, mesmerist 5, psychic 5, skald 5, sorcerer 5, spiritualist 5, wizard 5",
 			"",
 			"### Casting",
@@ -4424,7 +4424,7 @@
 		"description": [
 			"## Pied Piping",
 			"",
-			"**Source** [Advanced Player's Guide pg. 236](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 236](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting), [sonic](spelldef/sonic)]; **Level** bard 6, skald 6",
 			"",
 			"### Casting",
@@ -4554,7 +4554,7 @@
 		"description": [
 			"## Pillar of Life",
 			"",
-			"**Source** [Advanced Player's Guide pg. 236](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 236](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)) [[light](spelldef/light)]; **Level** cleric 5, oracle 5, warpriest 5",
 			"",
 			"### Casting",
@@ -4734,7 +4734,7 @@
 		"description": [
 			"## Planar Adaptation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 236](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 236](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 5, arcanist 5, cleric 4, investigator 5, medium 4, occultist 4, oracle 4, psychic 4, sorcerer 5, spiritualist 5, summoner 5, unchained summoner 5, warpriest 4, wizard 5",
 			"",
 			"### Casting",
@@ -4752,7 +4752,7 @@
 			"",
 			"### Planar Adaptation, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 236](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 236](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 7, cleric 6, occultist 6, oracle 6, psychic 6, sorcerer 7, summoner 6, unchained summoner 6, warpriest 6, wizard 7",
 			"",
 			"#### Casting",
@@ -4783,7 +4783,7 @@
 		"description": [
 			"## Planar Aegis",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 12](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 12](source/plane-hoppers_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 5, druid 5, hunter 3, occultist 4, ranger 3, sorcerer 5, summoner 4, unchained summoner 4, wizard 5",
 			"",
 			"### Casting",
@@ -4888,7 +4888,7 @@
 			"",
 			"### Planar Inquiry",
 			"",
-			"**Source** [Adventurer's Guide pg. 125](source/adventurer's_guide), [Arcane Anthology pg. 14](source/arcane_anthology)  ",
+			"**Source** [Adventurer's Guide pg. 125](source/adventurers_guide), [Arcane Anthology pg. 14](source/arcane_anthology)  ",
 			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)) [see text]; **Level** arcanist 3, cleric 3, druid 3, hunter 3, inquisitor 3, oracle 3, shaman 3, sorcerer 3, summoner 3, unchained summoner 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"#### Casting",
@@ -5120,11 +5120,11 @@
 			"This spell functions as per plane shift, but with the following exceptions. First, you are able to transport only willing creatures. Second, the spell can transport you and any other willing targets only to an Elemental Plane, the Astral Plane, or the Material Plane."
 		]
 	},
-	"janni's_jaunt": {
+	"jannis_jaunt": {
 		"name": "Janni's Jaunt",
 		"copyof": "plane_shift"
 	},
-	"planeslayer's_call": {
+	"planeslayers_call": {
 		"name": "Planeslayer's Call",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -5910,7 +5910,7 @@
 		"description": [
 			"## Possession Trap",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 19](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 19](source/undead_slayers_handbook)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 5, sorcerer 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -6120,7 +6120,7 @@
 		"description": [
 			"## Pox Pustules",
 			"",
-			"**Source** [Advanced Player's Guide pg. 236](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 236](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[disease](spelldef/disease)]; **Level** druid 2, hunter 2, witch 2",
 			"",
 			"### Casting",
@@ -6257,7 +6257,7 @@
 		"description": [
 			"## Preserve Grace",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 115](source/adventurers_guide)  ",
 			"**School** [divination](spelldef/divination) [[good](spelldef/good)]; **Level** cleric 2, inquisitor 1, oracle 2, paladin 1, warpriest 2",
 			"",
 			"### Casting",
@@ -6723,7 +6723,7 @@
 		"description": [
 			"## Prophetic Lore",
 			"",
-			"**Source** [Disciple's Doctrine pg. 11](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 11](source/disciples_doctrine)  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -7127,7 +7127,7 @@
 		"description": [
 			"## Protection from Natural Attacks",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 30](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 30](source/monster_hunters_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 3, druid 4, hunter 2, investigator 3, psychic 4, ranger 2, shaman 4, spiritualist 3, summoner 3, unchained summoner 3",
 			"",
 			"### Casting",
@@ -7151,7 +7151,7 @@
 		"description": [
 			"## Protection from Outsiders",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 26](source/demon_hunters_handbook)  ",
 			"**School** [abjuration](spelldef/abjuration) [see text]; **Level** cleric 2, inquisitor 2, oracle 2, paladin 2, warpriest 2",
 			"",
 			"### Casting",
@@ -7209,7 +7209,7 @@
 		"description": [
 			"## Protection from Spores",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 66](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 66](source/pathfinder_113_what_grows_within)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 2, cleric 2, druid 2, hunter 1, investigator 2, oracle 2, ranger 1, shaman 2, warpriest 2, witch 2",
 			"",
 			"### Casting",
@@ -7285,7 +7285,7 @@
 		"description": [
 			"## Protective Spirit",
 			"",
-			"**Source** [Advanced Player's Guide pg. 237](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 237](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -7654,7 +7654,7 @@
 			"You take a mental journey through the doors of perception to enter an altered state of consciousness. Despite this hallucinatory transmigration being entirely unreal, your mind and body fully react to it. You gain a +4 alchemical bonus to a random ability score, as well as a corresponding -2 penalty. If the bonus applies to Strength, the penalty applies to Intelligence, and vice versa. If the bonus applies to Dexterity, the penalty applies to Wisdom, and vice versa. If the bonus applies to Constitution, the penalty applies to Charisma, and vice versa. Each round as a standard action, you can explore the nooks and crannies of your imagination to further alter your corporal self. If you do so, attempt a Will save against the spell's save DC. If you succeed, randomly select another ability score and change the alchemical bonus and associated penalty accordingly. If you fail, you are dazed for 1 round instead as your mind reels from learning unexpected truths about yourself."
 		]
 	},
-	"pugwampi's_grace": {
+	"pugwampis_grace": {
 		"name": "Pugwampi's Grace",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
@@ -7758,7 +7758,7 @@
 		"description": [
 			"## Purging Finale",
 			"",
-			"**Source** [Advanced Player's Guide pg. 237](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 237](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** bard 3, skald 3",
 			"",
 			"### Casting",
@@ -7782,7 +7782,7 @@
 		"description": [
 			"## Purified Calling",
 			"",
-			"**Source** [Advanced Player's Guide pg. 237](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 237](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** summoner 4, unchained summoner 4",
 			"",
 			"### Casting",
@@ -7805,7 +7805,7 @@
 		"description": [
 			"## Purify Body",
 			"",
-			"**Source** [Healer's Handbook pg. 9](source/healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 9](source/healers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** alchemist 4, cleric 4, medium 4, oracle 4, paladin 4, psychic 5, warpriest 4",
 			"",
 			"### Casting",
@@ -7857,7 +7857,7 @@
 		"description": [
 			"## Putrefy Food and Drink",
 			"",
-			"**Source** [Advanced Player's Guide pg. 237](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 237](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** witch 0",
 			"",
 			"### Casting",

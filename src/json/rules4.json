@@ -842,7 +842,7 @@
 			"",
 			"***Melee (Finesse Fighter):*** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Dazzling Display](feat/dazzling_display), [Deadly Stroke](feat/deadly_stroke), [Dodge](feat/dodge), [Greater Vital Strike](feat/greater_vital_strike), [Improved Disarm](feat/improved_disarm), [Improved Feint](feat/improved_feint), [Improved Trip](feat/improved_trip), [Improved Vital Strike](feat/improved_vital_strike), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Shatter Defenses](feat/shatter_defenses), [Vital Strike](feat/vital_strike), [Weapon Finesse](feat/weapon_finesse), and [Whirlwind Attack](feat/whirlwind_attack).",
 			"",
-			"***Melee (Unarmed Fighter):*** [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Gorgon's Fist](feat/gorgon's_fist), [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Medusa's Wrath](feat/medusa's_wrath), [Mobility](feat/mobility), [Scorpion Style](feat/scorpion_style), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack), [Stunning Fist](feat/stunning_fist), and [Weapon Focus](feat/weapon_focus).",
+			"***Melee (Unarmed Fighter):*** [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Gorgon's Fist](feat/gorgons_fist), [Improved Grapple](feat/improved_grapple), [Improved Initiative](feat/improved_initiative), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Medusa's Wrath](feat/medusas_wrath), [Mobility](feat/mobility), [Scorpion Style](feat/scorpion_style), [Snatch Arrows](feat/snatch_arrows), [Spring Attack](feat/spring_attack), [Stunning Fist](feat/stunning_fist), and [Weapon Focus](feat/weapon_focus).",
 			"",
 			"***Melee (Mounted):*** [Improved Critical](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mounted Combat](feat/mounted_combat), [Power Attack](feat/power_attack), [Ride-By Attack](feat/ride-by_attack), [Skill Focus (Ride)](feat/skill_focus), [Spirited Charge](feat/spirited_charge), [Toughness](feat/toughness), [Trample](feat/trample), and [Weapon Focus](feat/weapon_focus).",
 			"",
@@ -1142,7 +1142,7 @@
 			"gamemastery_guide"
 		],
 		"subtopics": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -1161,7 +1161,7 @@
 			"npc_gallery"
 		]
 	},
-	"a_game_master's_glossary": {
+	"a_game_masters_glossary": {
 		"name": "A Game Master's Glossary",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -1188,7 +1188,7 @@
 			"getting_started"
 		],
 		"siblings": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -1218,7 +1218,7 @@
 			"sensitive_topics"
 		],
 		"siblings": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -1384,7 +1384,7 @@
 			"when_to_play"
 		],
 		"siblings": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -1655,7 +1655,7 @@
 			"interplayer_conflict"
 		],
 		"siblings": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -1890,7 +1890,7 @@
 			"winging_it"
 		],
 		"siblings": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -1963,7 +1963,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -1994,7 +1994,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -2023,7 +2023,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -2052,7 +2052,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -2091,7 +2091,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -2122,11 +2122,11 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
-	"don't_overdo_it": {
+	"dont_overdo_it": {
 		"name": "Don't Overdo it",
 		"subtitle": "GM Preparations",
 		"tags": "Gamemastery",
@@ -2151,7 +2151,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -2180,7 +2180,7 @@
 			"know_the_story",
 			"know_the_adversaries",
 			"know_the_rules",
-			"don't_overdo_it",
+			"dont_overdo_it",
 			"lay_a_few_alternate_plans"
 		]
 	},
@@ -2486,7 +2486,7 @@
 			"publication"
 		],
 		"siblings": [
-			"a_game_master's_glossary",
+			"a_game_masters_glossary",
 			"tone_and_maturity",
 			"the_gm_as_host",
 			"rules_of_the_house",
@@ -2882,7 +2882,7 @@
 		],
 		"subtopics": [
 			"forcing_things",
-			"follow_the_pcs'_lead",
+			"follow_the_pcs_lead",
 			"the_illusion_of_free_choice"
 		],
 		"siblings": [
@@ -2913,11 +2913,11 @@
 		],
 		"siblings": [
 			"forcing_things",
-			"follow_the_pcs'_lead",
+			"follow_the_pcs_lead",
 			"the_illusion_of_free_choice"
 		]
 	},
-	"follow_the_pcs'_lead": {
+	"follow_the_pcs_lead": {
 		"name": "Follow the PCs' Lead",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -2939,7 +2939,7 @@
 		],
 		"siblings": [
 			"forcing_things",
-			"follow_the_pcs'_lead",
+			"follow_the_pcs_lead",
 			"the_illusion_of_free_choice"
 		]
 	},
@@ -2967,7 +2967,7 @@
 		],
 		"siblings": [
 			"forcing_things",
-			"follow_the_pcs'_lead",
+			"follow_the_pcs_lead",
 			"the_illusion_of_free_choice"
 		]
 	},
@@ -3546,7 +3546,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
 	"dice_mechanics_and_more": {
@@ -3585,7 +3585,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		],
 		"subtopics": [
 			"art",
@@ -3829,7 +3829,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
 	"running_smooth_combats": {
@@ -3866,7 +3866,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
 	"building_encounters": {
@@ -3885,11 +3885,11 @@
 			"the_science_of_gming"
 		],
 		"subtopics": [
-			"play_to_the_pcs'_strengths",
+			"play_to_the_pcs_strengths",
 			"high-_and_low-cr_encounters",
 			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
-			"don't_stymie_the_pcs"
+			"dont_stymie_the_pcs"
 		],
 		"siblings": [
 			"dice_mechanics_and_more",
@@ -3898,10 +3898,10 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
-	"play_to_the_pcs'_strengths": {
+	"play_to_the_pcs_strengths": {
 		"name": "Play to the PCs' Strengths",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -3922,11 +3922,11 @@
 			"building_encounters"
 		],
 		"siblings": [
-			"play_to_the_pcs'_strengths",
+			"play_to_the_pcs_strengths",
 			"high-_and_low-cr_encounters",
 			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
-			"don't_stymie_the_pcs"
+			"dont_stymie_the_pcs"
 		]
 	},
 	"high-_and_low-cr_encounters": {
@@ -3954,11 +3954,11 @@
 			"building_encounters"
 		],
 		"siblings": [
-			"play_to_the_pcs'_strengths",
+			"play_to_the_pcs_strengths",
 			"high-_and_low-cr_encounters",
 			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
-			"don't_stymie_the_pcs"
+			"dont_stymie_the_pcs"
 		]
 	},
 	"solo_monsters_vs_groups_of_monsters": {
@@ -3980,11 +3980,11 @@
 			"building_encounters"
 		],
 		"siblings": [
-			"play_to_the_pcs'_strengths",
+			"play_to_the_pcs_strengths",
 			"high-_and_low-cr_encounters",
 			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
-			"don't_stymie_the_pcs"
+			"dont_stymie_the_pcs"
 		]
 	},
 	"winning_monster_combos": {
@@ -3994,7 +3994,7 @@
 		"description": [
 			"**Source** [GameMastery Guide pg. 42](source/gamemastery_guide)",
 			"",
-			"Some monsters are best used in groups or with other creatures that complement or augment their abilities. A single [derro](monster/derro) probably has a hard time using its sneak attack, but a group of them can easily set up flanking situations. [Tieflings](monster/tiefling) have fire resistance 5, making them handy allies for a fire priest with [burning hands](spell/burning_hands) or a [fire mephit](monster/mephit); alternatively, a tiefling cleric controlling a gang of [burning skeletons](template/skeleton) is all but immune to their area damage. Creatures with spell-like abilities can cast them on minions or on a leader. For example, a [dark naga](monster/dark_naga) or [spirit naga](monster/spirit_naga) can cast [cat's grace](spell/cat's_grace), [invisibility](spell/invisibility), or [displacement](spell/displacement) on its allies; a spirit naga can even turn itself invisible and cast cure spells on its allies. Given time, a [succubus's](monster/succubus) profane gift ability can bolster every single guard, priest, and lieutenant in an evil fortress.",
+			"Some monsters are best used in groups or with other creatures that complement or augment their abilities. A single [derro](monster/derro) probably has a hard time using its sneak attack, but a group of them can easily set up flanking situations. [Tieflings](monster/tiefling) have fire resistance 5, making them handy allies for a fire priest with [burning hands](spell/burning_hands) or a [fire mephit](monster/mephit); alternatively, a tiefling cleric controlling a gang of [burning skeletons](template/skeleton) is all but immune to their area damage. Creatures with spell-like abilities can cast them on minions or on a leader. For example, a [dark naga](monster/dark_naga) or [spirit naga](monster/spirit_naga) can cast [cat's grace](spell/cats_grace), [invisibility](spell/invisibility), or [displacement](spell/displacement) on its allies; a spirit naga can even turn itself invisible and cast cure spells on its allies. Given time, a [succubus's](monster/succubus) profane gift ability can bolster every single guard, priest, and lieutenant in an evil fortress.",
 			"",
 			"Monster abilities can also complement hazards or traps; a flying monster ignores difficult terrain, floor pits, or patches of green slime. Monsters with damage reduction are immune to arrow traps and most spear traps; those immune to poison can ignore the danger of poisonous traps or even rooms with inherently toxic air, such as a sulfurous volcanic vent. Using monsters intelligently like this helps create fun and memorable encounters, as well as challenges PCs to try new tactics."
 		],
@@ -4006,14 +4006,14 @@
 			"building_encounters"
 		],
 		"siblings": [
-			"play_to_the_pcs'_strengths",
+			"play_to_the_pcs_strengths",
 			"high-_and_low-cr_encounters",
 			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
-			"don't_stymie_the_pcs"
+			"dont_stymie_the_pcs"
 		]
 	},
-	"don't_stymie_the_pcs": {
+	"dont_stymie_the_pcs": {
 		"name": "Don't Stymie the PCs",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -4036,11 +4036,11 @@
 			"building_encounters"
 		],
 		"siblings": [
-			"play_to_the_pcs'_strengths",
+			"play_to_the_pcs_strengths",
 			"high-_and_low-cr_encounters",
 			"solo_monsters_vs_groups_of_monsters",
 			"winning_monster_combos",
-			"don't_stymie_the_pcs"
+			"dont_stymie_the_pcs"
 		]
 	},
 	"unusual_campaigns": {
@@ -4072,7 +4072,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
 	"no_healers": {
@@ -4226,7 +4226,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
 	"solo_campaigns": {
@@ -4309,7 +4309,7 @@
 			"online_games"
 		]
 	},
-	"fixing_a_'broken'_game": {
+	"fixing_a_broken_game": {
 		"name": "Fixing a 'Broken' Game",
 		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -4339,7 +4339,7 @@
 			"building_encounters",
 			"unusual_campaigns",
 			"variant_play_experiences",
-			"fixing_a_'broken'_game"
+			"fixing_a_broken_game"
 		]
 	},
 	"gm_considerations": {

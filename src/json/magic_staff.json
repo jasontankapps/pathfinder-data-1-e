@@ -85,11 +85,11 @@
 			"",
 			"- Know direction (1 charge)",
 			"- Pass without trace (1 charge)",
-			"- [Summon nature's ally I](spell/summon_nature's_ally_1) (2 charges)",
+			"- [Summon nature's ally I](spell/summon_natures_ally_1) (2 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), know direction, pass without trace, [summon nature's ally I](spell/summon_nature's_ally_1); **Cost** 4,800 gp"
+			"**Requirements** [Craft Staff](feat/craft_staff), know direction, pass without trace, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 4,800 gp"
 		]
 	},
 	"monstrification_staff": {
@@ -112,7 +112,7 @@
 			"**Requirements** [Craft Staff](feat/craft_staff), enlarge person, [monstrous physique I](spell/monstrous_physique_1), creator must be an alchemist; **Cost** 6,150 gp"
 		]
 	},
-	"gravedigger's_spade": {
+	"gravediggers_spade": {
 		"name": "Gravedigger's Spade",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -389,7 +389,7 @@
 		"description": [
 			"## Staff of Internal Assault",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayers_handbook)",
 			"",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
@@ -414,7 +414,7 @@
 		"description": [
 			"## Staff of Rigor",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -431,7 +431,7 @@
 			"**Requirements** [Craft Staff](feat/craft_staff), align weapon, bane, cause fear, command, magic weapon; **Cost** 10,400 gp"
 		]
 	},
-	"shory_acolyte's_staff": {
+	"shory_acolytes_staff": {
 		"name": "Shory Acolyte's Staff",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
@@ -558,15 +558,15 @@
 			"The staff also acts as a normal magical staff and contains the following spells: ",
 			"",
 			"- [Protection from evil](spell/protection_from_evil) (1 charge)",
-			"- [Summon nature's ally II](spell/summon_nature's_ally_2) (animals only, 2 charges)",
+			"- [Summon nature's ally II](spell/summon_natures_ally_2) (animals only, 2 charges)",
 			"- [Aura sight](spell/aura_sight) (3 charges)",
-			"- [Summon nature's ally IV](spell/summon_nature's_ally_4) (animals only, 4 charges)",
+			"- [Summon nature's ally IV](spell/summon_natures_ally_4) (animals only, 4 charges)",
 			"",
-			"A shaman who wields the staff can cast [summon nature's ally II](spell/summon_nature's_ally_2) and [summon nature's ally IV](spell/summon_nature's_ally_4) from the staff even though those spells are not on her spell list. Additionally, once per day when a druid or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
+			"A shaman who wields the staff can cast [summon nature's ally II](spell/summon_natures_ally_2) and [summon nature's ally IV](spell/summon_natures_ally_4) from the staff even though those spells are not on her spell list. Additionally, once per day when a druid or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), [aura sight](spell/aura_sight), [protection from evil](spell/protection_from_evil), [summon nature's ally I](spell/summon_nature's_ally_1), [summon nature's ally II](spell/summon_nature's_ally_2), zone of truth; **Cost** 12,400 gp"
+			"**Requirements** [Craft Staff](feat/craft_staff), [aura sight](spell/aura_sight), [protection from evil](spell/protection_from_evil), [summon nature's ally I](spell/summon_natures_ally_1), [summon nature's ally II](spell/summon_natures_ally_2), zone of truth; **Cost** 12,400 gp"
 		]
 	},
 	"staff_of_size_alteration": {
@@ -601,7 +601,7 @@
 		"description": [
 			"## Staff of Curchanus",
 			"",
-			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 77](source/pathfinder_#122_into_the_shattered_continent)  ",
+			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 77](source/pathfinder_122_into_the_shattered_continent)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 26,600 gp; **Weight** 5 lbs.",
 			"",
@@ -629,7 +629,7 @@
 		"description": [
 			"## Staff of Journeys",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 27,200 gp; **Weight** 5 lbs.",
 			"",
@@ -893,7 +893,7 @@
 			"**Requirements** [Craft Staff](feat/craft_staff), chain lightning, lightning bolt, shocking grasp; **Cost** 15,950 gp"
 		]
 	},
-	"heretic's_bane": {
+	"heretics_bane": {
 		"name": "Heretic's Bane",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -974,7 +974,7 @@
 		"description": [
 			"## Staff of Souls",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 32,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1000,7 +1000,7 @@
 		"description": [
 			"## Staff of Toxins",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 34,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1023,7 +1023,7 @@
 		"description": [
 			"## Staff of Shrieking",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1146,7 +1146,7 @@
 		"description": [
 			"## Staff of Stealth",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
 			"**Aura** moderate illusion; **CL** 8th  ",
 			"**Slot** none; **Price** 39,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1195,7 +1195,7 @@
 		"description": [
 			"## Staff of Bolstering",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 41,600 gp; **Weight** 5 lbs.",
 			"",
@@ -1211,13 +1211,13 @@
 			"**Requirements** [Craft Staff](feat/craft_staff), bear's endurance, bull's strength, cat's grace, greater magic weapon; **Cost** 20,800 gp"
 		]
 	},
-	"spherewalker's_staff": {
+	"spherewalkers_staff": {
 		"name": "Spherewalker's Staff",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
 			"## Spherewalker's Staff",
 			"",
-			"**Source** [Pathfinder #75: Demon's Heresy pg. 63](source/pathfinder_#75_demon's_heresy)  ",
+			"**Source** [Pathfinder #75: Demon's Heresy pg. 63](source/pathfinder_75_demons_heresy)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 43,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1267,7 +1267,7 @@
 		"description": [
 			"## Staff of the Dark Tapestry",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 63](source/pathfinder_#88_valley_of_the_brain_collectors)  ",
+			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 63](source/pathfinder_88_valley_of_the_brain_collectors)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1292,7 +1292,7 @@
 		"description": [
 			"## Staff of Fortune",
 			"",
-			"**Source** [Advanced Player's Guide pg. 325](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 325](source/advanced_players_guide)  ",
 			"**Aura** evocation (moderate); **CL** 9th  ",
 			"**Slot** none; **Price** 44,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1338,7 +1338,7 @@
 		"description": [
 			"## Staff of Performance",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 48,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1386,7 +1386,7 @@
 		"description": [
 			"## Staff of Hunting",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayers_handbook)",
 			"",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 51,000 gp; **Weight** 5 lbs.",
@@ -1412,7 +1412,7 @@
 		"description": [
 			"## Staff of Revelations",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 51,008 gp; **Weight** 5 lbs.",
 			"",
@@ -1482,7 +1482,7 @@
 		"description": [
 			"## Doomsday Staff",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 60](source/pathfinder_#64_beyond_the_doomsday_door)  ",
+			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 60](source/pathfinder_64_beyond_the_doomsday_door)  ",
 			"**Aura** strong varied; **CL** 13th  ",
 			"**Slot** none; **Price** 52,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1508,7 +1508,7 @@
 		"description": [
 			"## Staff of Obstacles",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 52,850 gp; **Weight** 5 lbs.",
 			"",
@@ -1536,7 +1536,7 @@
 		"description": [
 			"## Staff of Heaven and Earth",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Pathfinder #4: Fortress of the Stone Giants pg. 23](source/pathfinder_#4_fortress_of_the_stone_giants), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Pathfinder #4: Fortress of the Stone Giants pg. 23](source/pathfinder_4_fortress_of_the_stone_giants), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1585,7 +1585,7 @@
 		"description": [
 			"## Staff of Hoarding",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** none; **Price** 55,866 gp; **Weight** 5 lbs.",
 			"",
@@ -1636,7 +1636,7 @@
 		"description": [
 			"## Staff of Cackling Wrath",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 56,700 gp; **Weight** 5 lbs.",
 			"",
@@ -1664,7 +1664,7 @@
 		"description": [
 			"## Staff of Traps",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_players_guide)  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 56,925 gp; **Weight** 5 lbs.",
 			"",
@@ -1691,7 +1691,7 @@
 		"description": [
 			"## Staff of Many Rays",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
 			"**Aura** moderate evocation and necromancy; **CL** 11th  ",
 			"**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1741,7 +1741,7 @@
 		"description": [
 			"## Staff of Mithral Might",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Pathfinder #5: Sins of the Saviors pg. 36](source/pathfinder_#5_sins_of_the_saviors), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Pathfinder #5: Sins of the Saviors pg. 36](source/pathfinder_5_sins_of_the_saviors), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 58,000 gp; **Weight** 7 lbs.",
 			"",
@@ -1810,7 +1810,7 @@
 		"description": [
 			"## Staff of Stoneweaving",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_#34_blood_for_blood)  ",
+			"**Source** [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_34_blood_for_blood)  ",
 			"**Aura** strong abjuration and transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 63,180 gp; **Weight** 5 lbs.",
 			"",
@@ -1862,7 +1862,7 @@
 		"description": [
 			"## Staff of Hungry Shadows",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Pathfinder #5: Sins of the Saviors pg. 32](source/pathfinder_#5_sins_of_the_saviors), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Pathfinder #5: Sins of the Saviors pg. 32](source/pathfinder_5_sins_of_the_saviors), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 69,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1880,13 +1880,13 @@
 			"**Requirements** [Craft Staff](feat/craft_staff), darkness, enervation, planar binding, ray of enfeeblement, [summon monster V](spell/summon_monster_5), vampiric touch; **Cost** 34,650 gp"
 		]
 	},
-	"quiema's_branch": {
+	"quiemas_branch": {
 		"name": "Quiema's Branch",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
 		"description": [
 			"## Quiema's Branch",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 69](source/pathfinder_#34_blood_for_blood)  ",
+			"**Source** [Pathfinder #34: Blood for Blood pg. 69](source/pathfinder_34_blood_for_blood)  ",
 			"**Aura** strong abjuration, conjuration, and transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 72,750 gp; **Weight** 2 lbs.",
 			"",
@@ -1936,7 +1936,7 @@
 		"description": [
 			"## Staff of Slumber",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 81,766 gp; **Weight** 5 lbs.",
 			"",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"## Staff of Weather",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_players_guide)  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 84,066 gp; **Weight** 5 lbs.",
 			"",
@@ -2229,7 +2229,7 @@
 		"description": [
 			"## Staff of Vision",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_players_guide)  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 86,666 gp; **Weight** 5 lbs.",
 			"",
@@ -2288,7 +2288,7 @@
 			"- Charm animal (1 charge)",
 			"- Speak with animals (1 charge)",
 			"- Barkskin (2 charges)",
-			"- [Summon nature's ally VI](spell/summon_nature's_ally_6) (3 charges)",
+			"- [Summon nature's ally VI](spell/summon_natures_ally_6) (3 charges)",
 			"- Wall of thorns (3 charges)",
 			"- Animate plants (4 charges)",
 			"",
@@ -2296,7 +2296,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), animate plants, barkskin, charm animal, pass without trace, speak with animals, [summon nature's ally VI](spell/summon_nature's_ally_6), wall of thorns; **Cost** 50,500 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), animate plants, barkskin, charm animal, pass without trace, speak with animals, [summon nature's ally VI](spell/summon_natures_ally_6), wall of thorns; **Cost** 50,500 gp"
 		]
 	},
 	"staff_of_life": {
@@ -2460,13 +2460,13 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), bless, cure critical wounds, cure moderate wounds, flame strike, freedom of movement, heightened hold person, prayer, righteous might, searing light, true resurrection, true seeing; **Cost** 110,000 gp"
 		]
 	},
-	"winter's_reach": {
+	"winters_reach": {
 		"name": "Winter's Reach",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 		"description": [
 			"## Winter's Reach",
 			"",
-			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 63](source/pathfinder_#72_the_witch_queen's_revenge)",
+			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 63](source/pathfinder_72_the_witch_queens_revenge)",
 			"",
 			"**Aura** strong evocation and transmutation; **CL** 19th  ",
 			"**Slot** none; **Price** 228,000 gp; **Weight** 5 lbs.",
@@ -2525,7 +2525,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), cone of cold, continual flame, heightened fireball, globe of invulnerability, hold monster, levitate, heightened lightning bolt, magic missile, heightened ray of enfeeblement, wall of force; **Cost** 117,500 gp"
 		]
 	},
-	"lasirro's_staff": {
+	"lasirros_staff": {
 		"name": "Lasirro's Staff",
 		"sources": [ "Lost Treasures" ],
 		"description": [

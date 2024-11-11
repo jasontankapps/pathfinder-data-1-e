@@ -3062,7 +3062,7 @@
 			"consolidated_skills"
 		],
 		"subtopics": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3094,7 +3094,7 @@
 			"special_class_rules"
 		]
 	},
-	"change_others'_attitudes": {
+	"change_others_attitudes": {
 		"name": "Change Others' Attitudes",
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
@@ -3124,7 +3124,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3155,7 +3155,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3188,7 +3188,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3219,7 +3219,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3255,7 +3255,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3288,7 +3288,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3329,7 +3329,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3372,7 +3372,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -3408,7 +3408,7 @@
 			"influence_cha"
 		],
 		"siblings": [
-			"change_others'_attitudes",
+			"change_others_attitudes",
 			"create_diversions",
 			"demoralize",
 			"feint_in_combat",
@@ -8010,7 +8010,7 @@
 			"",
 			"***Component Cost:*** The value of esoteric material components that must be spent on a spell is equal to 1 gp &times; caster level &times; spell level, as shown on Table 4-7: Esoteric Material Component Costs. This value must be spent if esoteric components are mandatory in the campaign, or can be spent to replace normal material components if esoteric material components are optional.",
 			"",
-			"***Expending Components:*** Each component works effectively for only two schools of magic. A caster can expend an esoteric component type that doesn't match his spell's school, but he must expend twice as much of the substitute component to fake the effects of the appropriate component. The esoteric components used in a spell need not all be of the same type. For example, a 3rd-level wizard casting [bear's endurance](spell/bear's_endurance) could expend 6 gp worth of geodes, or 12 gp total worth of entropic resin and verdant salts, or 4 gp worth of geodes plus 4 gp worth of verdant salts, and so on.",
+			"***Expending Components:*** Each component works effectively for only two schools of magic. A caster can expend an esoteric component type that doesn't match his spell's school, but he must expend twice as much of the substitute component to fake the effects of the appropriate component. The esoteric components used in a spell need not all be of the same type. For example, a 3rd-level wizard casting [bear's endurance](spell/bears_endurance) could expend 6 gp worth of geodes, or 12 gp total worth of entropic resin and verdant salts, or 4 gp worth of geodes plus 4 gp worth of verdant salts, and so on.",
 			"",
 			"***Greater Component Effects:*** Expending twice the amount of components indicated on Table 4-7 activates a greater component effect, which varies by esoteric component type. These benefits are listed under the component descriptions at the end of the section, and depend on the component expended. To obtain the greater component benefit, the caster must use a single component type; using a type that doesn't match the spell's school still costs twice as much. The wizard in the above example could gain the geodes' greater component benefit by expending an extra 6 gp worth of geodes, or gain the verdant salts' greater component benefit by expending an extra 12 gp worth of verdant salts. A single casting of a spell can normally benefit from only one greater component effect, but the caster can expend additional components and attempt a Spellcraft check with a DC equal to 20 + double the spell's level to add more. The caster must pay the cost in esoteric components even if the Spellcraft check fails. For each greater component effect beyond the second, the DC increases by 5 + the spell's level. If the caster fails this check by 5 or more, the spell fails and its slot is lost. You can't apply the greater component effect of a single type of component more than once on a single casting of a spell.",
 			"",

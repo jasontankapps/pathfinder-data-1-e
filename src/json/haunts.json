@@ -194,7 +194,7 @@
 		"description": [
 			"## Flytrap",
 			"",
-			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_#144_midwives_to_death)  ",
+			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_144_midwives_to_death)  ",
 			"**CR** 4; **XP** 1,200  ",
 			"N persistent botanical haunt (up to 20-foot radius)  ",
 			"**Caster Level** 4th  ",
@@ -370,7 +370,7 @@
 			"When the sting of betrayal lingers beyond the grave, it can manifest as a disjointed mass of confused and paranoid spiritual energy that can turn even the closest of allies against one another."
 		]
 	},
-	"drought's_end": {
+	"droughts_end": {
 		"name": "Drought's End",
 		"sources": [ "Horror Realms" ],
 		"description": [
@@ -424,7 +424,7 @@
 		"description": [
 			"## Bountiful Feat",
 			"",
-			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_#144_midwives_to_death)  ",
+			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_144_midwives_to_death)  ",
 			"**CR** 8; **XP** 4,800  ",
 			"N persistent botanical haunt (up to 40-foot radius)  ",
 			"**Caster Level** 8th  ",
@@ -455,8 +455,8 @@
 			"**Caster Level** 13th  ",
 			"**Notice** Perception DC 18 (to see rippling, rainbow-hued distortions in the air)  ",
 			"**hp** 27; **Weaknesses** negative energy (see [echoes of the first world](rule/echoes_of_the_first_world)); **Trigger** proximity  ",
-			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by [plane shift](spell/plane_shift) and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the [summon nature's ally VI](spell/summon_nature's_ally_6) list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
-			"**Benefit** Determine the First World creature called using the [summon nature's ally VII](spell/summon_nature's_ally_7) list instead, and then add the [fey creature template](template/fey_creature).  ",
+			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by [plane shift](spell/plane_shift) and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the [summon nature's ally VI](spell/summon_natures_ally_6) list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
+			"**Benefit** Determine the First World creature called using the [summon nature's ally VII](spell/summon_natures_ally_7) list instead, and then add the [fey creature template](template/fey_creature).  ",
 			"**Destruction** A character with [plane shift](spell/plane_shift) prepared can attempt to counterspell the echo's effect. Successfully doing so destroys the dimensional tear."
 		]
 	},

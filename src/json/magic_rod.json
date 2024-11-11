@@ -34,7 +34,7 @@
 		"description": [
 			"## Rod of Giant Summoning",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoners_handbook)  ",
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -42,13 +42,13 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Augment Summoning](feat/augment_summoning), [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_nature's_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** [Craft Rod](feat/craft_rod), [Augment Summoning](feat/augment_summoning), [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_rod_of_giant_summoning": {
 		"copyof": "rod_of_giant_summoning_lesser"
 	},
-	"aerialist's_rod": {
+	"aerialists_rod": {
 		"name": "Aerialist's Rod",
 		"sources": [ "Villain Codex" ],
 		"description": [
@@ -211,7 +211,7 @@
 	"normal_rod_of_the_thriceborn": {
 		"copyof": "rod_of_the_thriceborn_normal"
 	},
-	"backbiter's_focus": {
+	"backbiters_focus": {
 		"name": "Backbiter's Focus",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
@@ -234,7 +234,7 @@
 		"description": [
 			"## Rod of Mortared Walls",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 25](source/pathfinder_#95_anvil_of_fire)  ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 25](source/pathfinder_95_anvil_of_fire)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.",
 			"",
@@ -255,7 +255,7 @@
 		"description": [
 			"## Crypt Rod",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_139_the_dead_road)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 8,500 gp; **Weight** 5 lbs.",
 			"",
@@ -574,7 +574,7 @@
 			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), baleful polymorph, creator must be good; **Cost** 6,500 gp"
 		]
 	},
-	"trap-stealer's_rod": {
+	"trap-stealers_rod": {
 		"name": "Trap-Stealer's Rod",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -595,8 +595,8 @@
 			"**Requirements** [Craft Rod](feat/craft_rod), create pit, knock, plane shift; **Cost** 6,750 gp"
 		]
 	},
-	"trap_stealer's_rod": {
-		"copyof": "trap-stealer's_rod"
+	"trap_stealers_rod": {
+		"copyof": "trap-stealers_rod"
 	},
 	"rod_of_the_uraeus": {
 		"name": "Rod of the Uraeus",
@@ -607,7 +607,7 @@
 		"description": [
 			"## Rod of the Uraeus",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_#81_shifting_sands), [Osirion, Land of the Pharaohs pg. 25](source/osirion_land_of_the_pharaohs)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_81_shifting_sands), [Osirion, Land of the Pharaohs pg. 25](source/osirion_land_of_the_pharaohs)  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** rod; **Price** 14,400 gp; **Weight** 4 lbs.",
 			"",
@@ -692,7 +692,7 @@
 		"description": [
 			"## Rod of Gripping Smoke",
 			"",
-			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_#87_the_choking_tower)  ",
+			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_87_the_choking_tower)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** neck; **Price** 15,000 gp; **Weight** 6 lbs.",
 			"",
@@ -747,7 +747,7 @@
 		"description": [
 			"## Scepter of Divine Providence",
 			"",
-			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 38](source/pathfinder_#94_ice_tomb_of_the_giant_queen)  ",
+			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 38](source/pathfinder_94_ice_tomb_of_the_giant_queen)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 17,312 gp; **Weight** 5 lbs.",
 			"",
@@ -827,7 +827,7 @@
 		"description": [
 			"## Waterblight Scepter",
 			"",
-			"**Source** [Merchant's Manifest pg. 9](source/merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 9](source/merchants_manifest)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 18,312 gp; **Weight** 8 lbs.",
 			"",
@@ -893,7 +893,7 @@
 		"description": [
 			"## Rod of the Devoured Dawn",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate illusion and transmutation; **CL** 10th  ",
 			"**Slot** rod; **Price** 20,000 gp; **Weight** 10 lbs.",
 			"",
@@ -1090,7 +1090,7 @@
 		"description": [
 			"## Fossilizing Rod",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_masters_handbook)  ",
 			"**Aura** moderate evocation and necromancy; **CL** 11th  ",
 			"**Slot** none; **Price** 26,400 gp; **Weight** 4 lbs.",
 			"",
@@ -1163,7 +1163,7 @@
 			"**Requirements** [Craft Rod](feat/craft_rod), aboleth's lung, acid arrow, touch of the sea; **Cost** 29,000 gp"
 		]
 	},
-	"liberator's_rod": {
+	"liberators_rod": {
 		"name": "Liberator's Rod",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -1383,7 +1383,7 @@
 			"**Requirements** [Craft Rod](feat/craft_rod), fabricate, major creation; **Cost** 22,850 gp"
 		]
 	},
-	"fool's_scepter": {
+	"fools_scepter": {
 		"name": "Fool's Scepter",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
@@ -1553,7 +1553,7 @@
 		"description": [
 			"## Rod of Well-Deserved Rest",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_39_the_city_of_seven_spears)  ",
 			"**Aura** strong enchantment and evocation; **CL** 12th  ",
 			"**Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1595,7 +1595,7 @@
 		"description": [
 			"## Rod of Razors",
 			"",
-			"**Source** [Pathfinder #35: War of the River Kings pg. 46](source/pathfinder_#35_war_of_the_river_kings)  ",
+			"**Source** [Pathfinder #35: War of the River Kings pg. 46](source/pathfinder_35_war_of_the_river_kings)  ",
 			"**Aura** n/a (see source); **CL** 15th  ",
 			"**Price** 65,000 gp; **Weight** 10 lbs.",
 			"",
@@ -1713,7 +1713,7 @@
 		"description": [
 			"## Lava Rod",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 32](source/pathfinder_#95_anvil_of_fire)  ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 32](source/pathfinder_95_anvil_of_fire)  ",
 			"**Aura** strong evocation [fire]; **CL** 13th  ",
 			"**Slot** none; **Price** 80,000 gp; **Weight** 8 lbs.",
 			"",
@@ -1730,7 +1730,7 @@
 		"description": [
 			"## Nightmare Rod",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 63](source/pathfinder_#65_into_the_nightmare_rift)  ",
+			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 63](source/pathfinder_65_into_the_nightmare_rift)  ",
 			"**Aura** strong illusion; **CL** 13th  ",
 			"**Slot** none; **Price** 80,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1928,7 +1928,7 @@
 		"description": [
 			"## Rod of Metamagic, Merciful",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2051,7 +2051,7 @@
 		"description": [
 			"## Rod of Metamagic, Bouncing",
 			"",
-			"**Source** [Ultimate Equipment pg. 187](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 187](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2094,7 +2094,7 @@
 		"description": [
 			"## Rod of Metamagic, Disruptive",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2117,7 +2117,7 @@
 		"description": [
 			"## Rod of Metamagic, Ectoplasmic",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2140,7 +2140,7 @@
 		"description": [
 			"## Rod of Metamagic, Elemental",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2229,7 +2229,7 @@
 		"description": [
 			"## Rod of Metamagic, Focused",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2272,7 +2272,7 @@
 		"description": [
 			"## Rod of Metamagic, Intensified",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2295,7 +2295,7 @@
 		"description": [
 			"## Rod of Metamagic, Lingering",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2358,7 +2358,7 @@
 		"description": [
 			"## Rod of Metamagic, Reach",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2421,7 +2421,7 @@
 		"description": [
 			"## Rod of Metamagic, Selective",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2645,7 +2645,7 @@
 		"description": [
 			"## Rod of Metamagic, Persistent",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2668,7 +2668,7 @@
 		"description": [
 			"## Rod of Metamagic, Sickening",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2771,7 +2771,7 @@
 		"description": [
 			"## Rod of Metamagic, Thundering",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3085,7 +3085,7 @@
 		"description": [
 			"## Rod of Metamagic, Dazing",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_players_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3865,7 +3865,7 @@
 			"**Communication** telepathy (Celestial; truespeech)"
 		]
 	},
-	"metamagician's_apprentice": {
+	"metamagicians_apprentice": {
 		"name": "Metamagician's Apprentice",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3911,7 +3911,7 @@
 		"description": [
 			"## Rod of Arson",
 			"",
-			"**Source** [Ultimate Equipment pg. 350](source/ultimate_equipment), [Advanced Player's Guide pg. 311](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 350](source/ultimate_equipment), [Advanced Player's Guide pg. 311](source/advanced_players_guide)",
 			"",
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** none; **Weight** 5 lbs.",

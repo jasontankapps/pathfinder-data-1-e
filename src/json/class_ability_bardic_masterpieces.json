@@ -8,13 +8,13 @@
 			"Unable to find the requested bardic masterpiece."
 		]
 	},
-	"ancients'_flight": {
+	"ancients_flight": {
 		"name": "Ancients' Flight",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Ancients' Flight (Oratory)",
 			"",
-			"**Sources** [Dragonslayer's Handbook](source/dragonslayer's_handbook)",
+			"**Sources** [Dragonslayer's Handbook](source/dragonslayers_handbook)",
 			"",
 			"You compel dragons to recite an epic poem telling the story of their race's creation.",
 			"",
@@ -46,7 +46,7 @@
 			"**Action:** 1 minute."
 		]
 	},
-	"arrowsong's_lament": {
+	"arrowsongs_lament": {
 		"name": "Arrowsong's Lament",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -96,7 +96,7 @@
 		"description": [
 			"## Ballad of the Homesick Wanderer",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoner's_handbook)",
+			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
 			"",
 			"This poem of sadness and longing was developed by a Riftwarden bard seeking a way to fight summoned creatures without violence. Its otherworldly lyrics drive outsiders to return to their planes of origin.",
 			"",
@@ -130,7 +130,7 @@
 			"**Action:** 1 minute."
 		]
 	},
-	"banshee's_requiem": {
+	"banshees_requiem": {
 		"name": "Banshee's Requiem",
 		"sources": [ "Horror Realms" ],
 		"description": [
@@ -149,7 +149,7 @@
 			"**Action:** 1 full round action."
 		]
 	},
-	"battle_song_of_the_people's_revolt": {
+	"battle_song_of_the_peoples_revolt": {
 		"name": "Battle Song of the People's Revolt",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
@@ -175,7 +175,7 @@
 		"description": [
 			"## Blazing Rondo (Oratory, Percussion)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
+			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
 			"",
 			"Thundering rhythms quicken your allies' movements, but the effort of keeping up with the beat is wearying.",
 			"",
@@ -213,7 +213,7 @@
 		"description": [
 			"## Dance of Captivating Desire (Dance)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_master's_handbook)",
+			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
 			"",
 			"A creation of Calistria's priesthood, this swaying, sensuous dance fans the fires of lust.",
 			"",
@@ -270,7 +270,7 @@
 		"description": [
 			"## Endless Waltz of the Eldest (Dance, String)",
 			"",
-			"**Sources** [Healer's Handbook](source/healer's_handbook)",
+			"**Sources** [Healer's Handbook](source/healers_handbook)",
 			"",
 			"This elegant but dizzyingly fast gnome waltz calls for rapidly changing roles inspired by the many faces that the legendary Eldest of the First World wear.",
 			"",
@@ -308,7 +308,7 @@
 		"description": [
 			"## Fafnheir and the First King (String, Wind)",
 			"",
-			"**Sources** [Dragonslayer's Handbook](source/dragonslayer's_handbook)",
+			"**Sources** [Dragonslayer's Handbook](source/dragonslayers_handbook)",
 			"",
 			"You affect the mood of listeners by celebrating the defeat of the First Linnorm King at the claws of Fafnheir, the Father of All Linnorms.",
 			"",
@@ -325,7 +325,7 @@
 			"**Action:** 2 full rounds."
 		]
 	},
-	"findelalara's_refuge": {
+	"findelalaras_refuge": {
 		"name": "Findelalara's Refuge",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
@@ -344,13 +344,13 @@
 			"**Action:** 5 full rounds."
 		]
 	},
-	"fugue_de_rue_d'auseil": {
+	"fugue_de_rue_dauseil": {
 		"name": "Fugue de Rue d'Auseil",
 		"sources": [ "Pathfinder #114: Black Stars Beckon" ],
 		"description": [
 			"## Fugue de Rue d'Auseil",
 			"",
-			"**Sources** [Pathfinder #114: Black Stars Beckon](source/pathfinder_#114_black_stars_beckon)",
+			"**Sources** [Pathfinder #114: Black Stars Beckon](source/pathfinder_114_black_stars_beckon)",
 			"",
 			"Your music provides a bastion that hedges out horrors and fiends.",
 			"",
@@ -405,7 +405,7 @@
 			"**Action:** 30 minutes."
 		]
 	},
-	"illusion's_decree": {
+	"illusions_decree": {
 		"name": "Illusion's Decree",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
@@ -430,7 +430,7 @@
 		"description": [
 			"## Kaminari Drums (Percussion)",
 			"",
-			"**Sources** [Disciple's Doctrine](source/disciple's_doctrine)",
+			"**Sources** [Disciple's Doctrine](source/disciples_doctrine)",
 			"",
 			"You beat a thunderous cacophony that strikes your foes with the fury of the kami of storms.",
 			"",
@@ -490,7 +490,7 @@
 		"description": [
 			"## Lingering Leitmotif (Oratory, Sing)",
 			"",
-			"**Sources** [Merchant's Manifest](source/merchant's_manifest)",
+			"**Sources** [Merchant's Manifest](source/merchants_manifest)",
 			"",
 			"Your clever turn of words or catchy musical jingle sticks in people's heads long after they have heard it.",
 			"",
@@ -583,7 +583,7 @@
 			"**Action:** 1 full round action."
 		]
 	},
-	"night_queen's_fury": {
+	"night_queens_fury": {
 		"name": "Night Queen's Fury",
 		"sources": [ "Distant Realms" ],
 		"description": [
@@ -610,7 +610,7 @@
 		"description": [
 			"## Pageant of the Peacock (Act, Dance)",
 			"",
-			"**Sources** [Dragonslayer's Handbook](source/dragonslayer's_handbook)",
+			"**Sources** [Dragonslayer's Handbook](source/dragonslayers_handbook)",
 			"",
 			"Your elegant movements cause you to seem to be more than you are.",
 			"",
@@ -623,7 +623,7 @@
 			"**Action:** 1 standard action."
 		]
 	},
-	"pallavi_of_nirvana's_blossoming": {
+	"pallavi_of_nirvanas_blossoming": {
 		"name": "Pallavi of Nirvana's Blossoming",
 		"sources": [ "Blood of Angels" ],
 		"description": [
@@ -646,7 +646,7 @@
 			"**Action:** 3 full rounds."
 		]
 	},
-	"ragadahn's_raqs_beledi": {
+	"ragadahns_raqs_beledi": {
 		"name": "Ragadahn's Raqs Beledi",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
@@ -665,7 +665,7 @@
 			"**Action:** 1 minute."
 		]
 	},
-	"ragadahn's_spiraling_ascent": {
+	"ragadahns_spiraling_ascent": {
 		"name": "Ragadahn's Spiraling Ascent",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
@@ -787,7 +787,7 @@
 		"description": [
 			"## Song of the Stonebearers (Percussion, Sing)",
 			"",
-			"**Sources** [Merchant's Manifest](source/merchant's_manifest)",
+			"**Sources** [Merchant's Manifest](source/merchants_manifest)",
 			"",
 			"This working song consists of a strong rhythm and boneshaking drum beats.",
 			"",
@@ -806,7 +806,7 @@
 		"description": [
 			"## Spirit of the Horse (Strings)",
 			"",
-			"**Sources** [Disciple's Doctrine](source/disciple's_doctrine)",
+			"**Sources** [Disciple's Doctrine](source/disciples_doctrine)",
 			"",
 			"This mournful song, which is typically played upon a traditional instrument known as a morin khuur, empowers animal companions.",
 			"",
@@ -857,13 +857,13 @@
 			"**Action:** 1 minute."
 		]
 	},
-	"symphony_of_sylandurla's_ascent": {
+	"symphony_of_sylandurlas_ascent": {
 		"name": "Symphony of Sylandurla's Ascent",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Symphony of Sylandurla's Ascent (Percussion, Wind)",
 			"",
-			"**Sources** [Healer's Handbook](source/healer's_handbook)",
+			"**Sources** [Healer's Handbook](source/healers_handbook)",
 			"",
 			"This elaborate arrangement for traditional elven instruments evokes Sylandurla's heroic climb up the spire from the planar city of Axis to the Boneyard, where it's said that she sang 8,008 tales to win elves their immunity to magical sleep.",
 			"",
@@ -933,7 +933,7 @@
 			"**Action:** 3 rounds."
 		]
 	},
-	"the_bear's_jig": {
+	"the_bears_jig": {
 		"name": "The Bear's Jig",
 		"sources": [ "People of the River" ],
 		"description": [
@@ -1229,7 +1229,7 @@
 		"description": [
 			"## The Waning Bolero (Dance)",
 			"",
-			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_#134_it_came_from_hollow_mountain)",
+			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_134_it_came_from_hollow_mountain)",
 			"",
 			"Your deliberate dancing causes your foes' steps to fall in time to your own.",
 			"",
@@ -1343,7 +1343,7 @@
 			"**Action:** 3 full rounds."
 		]
 	},
-	"wise_king's_saga": {
+	"wise_kings_saga": {
 		"name": "Wise King's Saga",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [

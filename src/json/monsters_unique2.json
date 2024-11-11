@@ -180,7 +180,7 @@
 			"",
 			"### Ghatanothoa, CR 29",
 			"",
-			"**Source** [Pathfinder #114: Black Stars Beckon pg. 84](source/pathfinder_#114_black_stars_beckon)  ",
+			"**Source** [Pathfinder #114: Black Stars Beckon pg. 84](source/pathfinder_114_black_stars_beckon)  ",
 			"**XP** 6,553,600  ",
 			"NE Colossal aberration (chaotic, evil, Great Old One)  ",
 			"**Init** +25; **Senses** blindsight 60 ft., darkvision 60 ft., true seeing; Perception +49  ",
@@ -341,7 +341,7 @@
 			"",
 			"### Ithaqua, CR 28",
 			"",
-			"**Source** [Pathfinder #109: In Search of Sanity pg. 82](source/pathfinder_#109_in_search_of_sanity)  ",
+			"**Source** [Pathfinder #109: In Search of Sanity pg. 82](source/pathfinder_109_in_search_of_sanity)  ",
 			"**XP** 4,915,200  ",
 			"CE Gargantuan monstrous humanoid (air, chaotic, cold, evil, Great Old One)  ",
 			"**Init** +24; **Senses** darkvision 60 ft., low-light vision, snow vision, true seeing; Perception +45  ",
@@ -434,7 +434,7 @@
 			"",
 			"### Mhar, CR 26",
 			"",
-			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 86](source/pathfinder_#138_rise_of_new_thassilon)  ",
+			"**Source** [Pathfinder #138: Rise of New Thassilon pg. 86](source/pathfinder_138_rise_of_new_thassilon)  ",
 			"**XP** 2,457,600  ",
 			"CE Colossal aberration (chaotic, evil, Great Old One)  ",
 			"**Init** +15; **Senses** blindsight 120 ft., darkvision 60 ft., tremorsense 600 ft.; Perception +45  ",
@@ -516,7 +516,7 @@
 			"",
 			"### Mordiggian, CR 30",
 			"",
-			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 86](source/pathfinder_#110_the_thrushmoor_terror)  ",
+			"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 86](source/pathfinder_110_the_thrushmoor_terror)  ",
 			"**XP** 9,830,400  ",
 			"CE Gargantuan aberration (chaotic, evil, Great Old One, incorporeal)  ",
 			"**Init** +31; **Senses** all-around vision, darkvision 60 ft., see in darkness, true seeing; Perception +50  ",
@@ -678,7 +678,7 @@
 	},
 	"rhan-tegoth": { "copyof": "great_old_one_rhan-tegoth" },
 	"rhan_tegoth": { "copyof": "great_old_one_rhan-tegoth" },
-	"great_old_one_tawil_at'umr": {
+	"great_old_one_tawil_atumr": {
 		"name": "Great Old One, Tawil At'umr",
 		"sources": [
 			"Bestiary 6",
@@ -766,7 +766,7 @@
 			"[^M]: mythic spell"
 		]
 	},
-	"tawil_at'umr": { "copyof": "great_old_one_tawil_at'umr" },
+	"tawil_atumr": { "copyof": "great_old_one_tawil_atumr" },
 	"great_old_one_tsathoggua": {
 		"name": "Great Old One, Tsathoggua",
 		"sources": [
@@ -780,7 +780,7 @@
 			"",
 			"### Tsathoggua, CR 29",
 			"",
-			"**Source** [Pathfinder #111: Dreams of the Yellow King pg. 84](source/pathfinder_#111_dreams_of_the_yellow_king)  ",
+			"**Source** [Pathfinder #111: Dreams of the Yellow King pg. 84](source/pathfinder_111_dreams_of_the_yellow_king)  ",
 			"**XP** 6,553,600  ",
 			"CE Large aberration (chaotic, evil, Great Old One)  ",
 			"**Init** +21; **Senses** darkvision 60 ft., see in darkness, true seeing; Perception +47  ",
@@ -880,7 +880,7 @@
 			"",
 			"### Xhamen-Dor, CR 26",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within pg. 86](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within pg. 86](source/pathfinder_113_what_grows_within)  ",
 			"**XP** 2,457,600  ",
 			"NE Gargantuan plant (aquatic, evil, Great Old One)  ",
 			"**Init** +24; **Senses** blindsight 60 ft., low-light vision; Perception +40  ",
@@ -1098,7 +1098,7 @@
 			"",
 			"### Arcanotheign, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 298](source/inner_sea_gods), [Pathfinder #41: The Thousand Fangs Below pg. 82](source/pathfinder_#41_the_thousand_fangs_below)  ",
+			"**Source** [Inner Sea Gods pg. 298](source/inner_sea_gods), [Pathfinder #41: The Thousand Fangs Below pg. 82](source/pathfinder_41_the_thousand_fangs_below)  ",
 			"**XP** 51,200  ",
 			"N Medium outsider (herald, incorporeal)  ",
 			"**Init** +12; **Senses** blindsense 60 ft., darkvision 60 ft., arcane sight 120 ft.; Perception +25  ",
@@ -1170,7 +1170,7 @@
 			"",
 			"### Basileus, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 278](source/inner_sea_gods), [Pathfinder #29: Mother of Flies pg. 78](source/pathfinder_#29_mother_of_flies)  ",
+			"**Source** [Inner Sea Gods pg. 278](source/inner_sea_gods), [Pathfinder #29: Mother of Flies pg. 78](source/pathfinder_29_mother_of_flies)  ",
 			"**XP** 51,200  ",
 			"LE Medium outsider (devil, evil, extraplanar, herald, lawful)  ",
 			"**Init** +10; **Senses** darkvision 60 ft., low-light vision, see in darkness; Perception +23",
@@ -1224,7 +1224,7 @@
 		]
 	},
 	"basileus": { "copyof": "herald_basileus" },
-	"herald_end's_voice": {
+	"herald_ends_voice": {
 		"name": "Herald, End's Voice",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
@@ -1237,7 +1237,7 @@
 			"",
 			"### End's Voice, CR 15",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 84](source/pathfinder_#64_beyond_the_doomsday_door)  ",
+			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 84](source/pathfinder_64_beyond_the_doomsday_door)  ",
 			"**XP** 51,200  ",
 			"CN Large outsider (chaotic, extraplanar)  ",
 			"**Init** +7; **Senses** darkvision 60 ft., trueseeing; Perception +21",
@@ -1307,7 +1307,7 @@
 			"**Family:** [Herald](family/herald)"
 		]
 	},
-	"end's_voice": { "copyof": "herald_end's_voice" },
+	"ends_voice": { "copyof": "herald_ends_voice" },
 	"herald_gravedragger": {
 		"name": "Herald, Gravedragger",
 		"sources": [
@@ -1321,7 +1321,7 @@
 			"",
 			"### Gravedragger, CR 15",
 			"",
-			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 86](source/pathfinder_#89_palace_of_fallen_stars)  ",
+			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 86](source/pathfinder_89_palace_of_fallen_stars)  ",
 			"**XP** 51,200  ",
 			"NE Large outsider (evil, herald)  ",
 			"**Init** +8; **Senses** darkvision 60 ft., scent, see in darkness; Perception +23  ",
@@ -1408,7 +1408,7 @@
 			"",
 			"### Great Elder Iuu, CR 15",
 			"",
-			"**Source** [Pathfinder #93: Forge of the Giant God pg. 86](source/pathfinder_#93_forge_of_the_giant_god)  ",
+			"**Source** [Pathfinder #93: Forge of the Giant God pg. 86](source/pathfinder_93_forge_of_the_giant_god)  ",
 			"**XP** 51,200  ",
 			"LE Large outsider (evil, giant, herald, lawful)  ",
 			"**Init** +3; **Senses** darkvision 120 ft., low-light vision; Perception +21  ",
@@ -1502,7 +1502,7 @@
 			"",
 			"### Hand of the Inheritor, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 292](source/inner_sea_gods), [Pathfinder #26: The Sixfold Trial pg. 86](source/pathfinder_#26_the_sixfold_trial)  ",
+			"**Source** [Inner Sea Gods pg. 292](source/inner_sea_gods), [Pathfinder #26: The Sixfold Trial pg. 86](source/pathfinder_26_the_sixfold_trial)  ",
 			"**XP** 51,200  ",
 			"LG Large outsider (angel, extraplanar, good, herald, lawful)  ",
 			"**Init** +9; **Senses** darkvision 60 ft., low-light vision; Perception +28  ",
@@ -1567,7 +1567,7 @@
 			"",
 			"### Latten Mechanism, CR 15",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 84](source/pathfinder_#86_lords_of_rust)  ",
+			"**Source** [Pathfinder #86: Lords of Rust pg. 84](source/pathfinder_86_lords_of_rust)  ",
 			"**XP** 51,200  ",
 			"N Large construct (extraplanar, herald)  ",
 			"**Init** +8; **Senses** darkvision 60 ft., low-light vision; Perception +22",
@@ -1646,7 +1646,7 @@
 		]
 	},
 	"latten_mechanism": { "copyof": "herald_latten_mechanism" },
-	"herald_mother's_maw": {
+	"herald_mothers_maw": {
 		"name": "Herald, Mother's Maw",
 		"sources": [
 			"Pathfinder #47: Ashes at Dawn",
@@ -1659,7 +1659,7 @@
 			"",
 			"### Mother's Maw, CR 15",
 			"",
-			"**Source** [Pathfinder #47: Ashes at Dawn pg. 82](source/pathfinder_#47_ashes_at_dawn)  ",
+			"**Source** [Pathfinder #47: Ashes at Dawn pg. 82](source/pathfinder_47_ashes_at_dawn)  ",
 			"**XP** 51,200  ",
 			"NE Large undead (evil, extraplanar)  ",
 			"**Init** +11; **Senses** darkvision 60 ft., lifesense, scent; Perception +28  ",
@@ -1724,7 +1724,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"mother's_maw": { "copyof": "herald_mother's_maw" },
+	"mothers_maw": { "copyof": "herald_mothers_maw" },
 	"herald_personification_of_fury": {
 		"name": "Herald, Personification of Fury",
 		"sources": [
@@ -1738,7 +1738,7 @@
 			"",
 			"### Personification of Fury, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 290](source/inner_sea_gods), [Pathfinder #38: Racing to Ruin pg. 88](source/pathfinder_#38_racing_to_ruin)  ",
+			"**Source** [Inner Sea Gods pg. 290](source/inner_sea_gods), [Pathfinder #38: Racing to Ruin pg. 88](source/pathfinder_38_racing_to_ruin)  ",
 			"**XP** 51,200  ",
 			"N Huge outsider (air, elemental, extraplanar, herald, water)  ",
 			"**Init** +16; **Senses** darkvision 60 ft.; Perception +22",
@@ -1814,7 +1814,7 @@
 			"",
 			"### Steward of the Skein, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 302](source/inner_sea_gods), [Pathfinder #44: Trial of the Beast pg. 90](source/pathfinder_#44_trial_of_the_beast)  ",
+			"**Source** [Inner Sea Gods pg. 302](source/inner_sea_gods), [Pathfinder #44: Trial of the Beast pg. 90](source/pathfinder_44_trial_of_the_beast)  ",
 			"**XP** 51,200  ",
 			"N Medium outsider (extraplanar, herald, psychopomp, shapechanger)  ",
 			"**Init** +7; **Senses** blindsense 30 ft., darkvision 60 ft., detect chaos/evil/good/law, spiritsense; Perception +27  ",
@@ -1881,7 +1881,7 @@
 			"",
 			"### Sunlord Thalachos, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 306](source/inner_sea_gods), [Pathfinder #20: House of the Beast pg. 86](source/pathfinder_#20_house_of_the_beast)  ",
+			"**Source** [Inner Sea Gods pg. 306](source/inner_sea_gods), [Pathfinder #20: House of the Beast pg. 86](source/pathfinder_20_house_of_the_beast)  ",
 			"**XP** 51,200  ",
 			"NG Large outsider (angel, extraplanar, good, herald, shapechanger)  ",
 			"**Init** +8; **Senses** darkvision 60 ft., low-light vision; Perception +24  ",
@@ -2019,7 +2019,7 @@
 			"",
 			"### Thais, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 282](source/inner_sea_gods), [Pathfinder #14: Children of the Void pg. 86](source/pathfinder_#14_children_of_the_void)  ",
+			"**Source** [Inner Sea Gods pg. 282](source/inner_sea_gods), [Pathfinder #14: Children of the Void pg. 86](source/pathfinder_14_children_of_the_void)  ",
 			"**XP** 51,200  ",
 			"CG Large outsider (chaotic, extraplanar, good, herald, shapechanger)  ",
 			"**Init** +12; **Senses** darkvision 60 ft., low-light vision; Perception +24  ",
@@ -2089,7 +2089,7 @@
 			"",
 			"### The First Blade, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 288](source/inner_sea_gods), [Pathfinder #35: War of the River Kings pg. 82](source/pathfinder_#35_war_of_the_river_kings)  ",
+			"**Source** [Inner Sea Gods pg. 288](source/inner_sea_gods), [Pathfinder #35: War of the River Kings pg. 82](source/pathfinder_35_war_of_the_river_kings)  ",
 			"**XP** 51,200  ",
 			"CN Large outsider (chaotic, extraplanar, herald)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., ironsense 60 ft., low-light vision; Perception +23  ",
@@ -2230,7 +2230,7 @@
 			"",
 			"### The Grim White Stag, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 286](source/inner_sea_gods), [Pathfinder #32: Rivers Run Red pg. 82](source/pathfinder_#32_rivers_run_red)  ",
+			"**Source** [Inner Sea Gods pg. 286](source/inner_sea_gods), [Pathfinder #32: Rivers Run Red pg. 82](source/pathfinder_32_rivers_run_red)  ",
 			"**XP** 51,200  ",
 			"LG Colossal outsider (extraplanar, good, lawful)  ",
 			"**Init** +2; **Senses** darkvision 60 ft., low-light vision, detect evil; Perception +22  ",
@@ -2368,7 +2368,7 @@
 			"",
 			"### The Old Man, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 294](source/inner_sea_gods), [Pathfinder #53: Tide of Honor pg. 86](source/pathfinder_#53_tide_of_honor)  ",
+			"**Source** [Inner Sea Gods pg. 294](source/inner_sea_gods), [Pathfinder #53: Tide of Honor pg. 86](source/pathfinder_53_tide_of_honor)  ",
 			"**XP** 51,200  ",
 			"LN Medium outsider (extraplanar, herald, lawful)  ",
 			"**Init** +10; **Senses** blindsight 30 ft., darkvision 60 ft., low-light vision; Perception +30",
@@ -2504,7 +2504,7 @@
 			"",
 			"### The Stabbing Beast, CR 15",
 			"",
-			"**Source** [Inner Sea Gods pg. 300](source/inner_sea_gods), [Pathfinder #59: The Price of Infamy pg. 90](source/pathfinder_#59_the_price_of_infamy)  ",
+			"**Source** [Inner Sea Gods pg. 300](source/inner_sea_gods), [Pathfinder #59: The Price of Infamy pg. 90](source/pathfinder_59_the_price_of_infamy)  ",
 			"**XP** 51,200  ",
 			"NE Medium outsider (evil, extraplanar, herald, shapechanger)  ",
 			"**Init** +16; **Senses** darkvision 60 ft., low-light vision, see in darkness, see invisibility; Perception +26",
@@ -3024,7 +3024,7 @@
 			"",
 			"### Winter's Heart",
 			"",
-			"The details for the Winter's Heart artifact can be found [here](magic-artifact/winter's_heart)."
+			"The details for the Winter's Heart artifact can be found [here](magic-artifact/winters_heart)."
 		]
 	},
 	"kaiju_agyra": {
@@ -3763,7 +3763,7 @@
 			"",
 			"### Kurshu the Undying, CR 15",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 88](source/pathfinder_#65_into_the_nightmare_rift)  ",
+			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 88](source/pathfinder_65_into_the_nightmare_rift)  ",
 			"**XP** 51,200  ",
 			"LE Large outsider (evil, extraplanar, lawful)  ",
 			"**Init** +10; **Senses** blindsense 60 ft., darkvision 120 ft., low-light vision, scent; Perception +25",
@@ -3836,7 +3836,7 @@
 			"",
 			"### Inkariax, CR 26",
 			"",
-			"**Source** [Pathfinder #137: The City Outside of Time pg. 86](source/pathfinder_#137_the_city_outside_of_time)  ",
+			"**Source** [Pathfinder #137: The City Outside of Time pg. 86](source/pathfinder_137_the_city_outside_of_time)  ",
 			"**XP** 2,457,600  ",
 			"LE Colossal outsider (evil, extraplanar, kyton, lawful)  ",
 			"**Init** +17; **Senses** darkvision 60 ft., [discern lies](spell/discern_lies), low-light vision, see in darkness, [true seeing](spell/true_seeing); Perception +41",

@@ -1,11 +1,11 @@
 {
-	"band_of_the_crusader's_alliance": {
+	"band_of_the_crusaders_alliance": {
 		"name": "Band of the Crusader's Alliance",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Band of the Crusader's Alliance",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 10th-12th level  ",
 			"**Aura** strong abjuration  ",
 			"**Slot** ring; **CL** 11th  ",
@@ -28,7 +28,7 @@
 		"description": [
 			"## Belt of the Last Wall",
 			"",
-			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_141_last_watch)  ",
 			"**Suitable For** (not given)  ",
 			"**Aura** strong abjuration and necromancy [lawful]  ",
 			"**Slot** belt; **CL** 13th  ",
@@ -45,13 +45,13 @@
 			"**Benefit** The Belt of the Last Wall's enhancement bonus increases to +4, and the damage reduction it provides increases to DR 2/adamantine. In addition, whenever an ally within 60 feet is attacked, the wearer can rip a shield free from the belt as an immediate action to grant that ally the benefits of [shield other](spell/shield_other) for 1 minute. This ability can be used 3 times; to regain a use, the wearer must affix a new shield worth at least 50 gp to the Belt of the Last Wall. Only one shield can be affixed to the Belt of the Last Wall per day."
 		]
 	},
-	"dignity's_barb": {
+	"dignitys_barb": {
 		"name": "Dignity's Barb",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Dignity's Barb",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 1st-3rd level  ",
 			"**Aura** strong divination  ",
 			"**Slot** none; **CL** 12th  ",
@@ -78,7 +78,7 @@
 		"description": [
 			"## Envoy Ring",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 1st-3rd level  ",
 			"**Aura** moderate enchantment  ",
 			"**Slot** ring; **CL** 11th  ",
@@ -105,7 +105,7 @@
 		"description": [
 			"## Grace of the Last Azlanti",
 			"",
-			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_141_last_watch)  ",
 			"**Suitable For** (not given)  ",
 			"**Aura** strong abjuration  ",
 			"**Slot** neck; **CL** 13th  ",
@@ -122,13 +122,13 @@
 			"**Benefit** The wearer can activate the amulet three times per day. She can activate the amulet before the duration expires to replace the previously selected feat with another choice. In addition, the wearer can select from more feats when using this ability, adding [Expanded Arcana](feat/expanded_arcana) to the list as well as all feats with \"Extra\" in their name - such as [Extra Channel](feat/extra_channel), [Extra Rage Power](feat/extra_rage_power), [Extra Rogue Talent](feat/extra_rogue_talent), and so on - that list as a prerequisite a class feature the wearer has. When conveying the benefits of a feat with \"Extra\" in its name, the duration of the amulet's effect is only 10 minutes."
 		]
 	},
-	"jalnesin's_broken_bonds": {
+	"jalnesins_broken_bonds": {
 		"name": "Jalnesin's Broken Bonds",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Jalnesin's Broken Bonds",
 			"",
-			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_141_last_watch)  ",
 			"**Suitable For** (not given)  ",
 			"**Aura** faint transmutation  ",
 			"**Slot** none; **CL** 5th  ",
@@ -145,13 +145,13 @@
 			"**Benefit** The weapon gains the [holy](magic-enhancement/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
 		]
 	},
-	"koriana's_blade": {
+	"korianas_blade": {
 		"name": "Koriana's Blade",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Koriana's Blade",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 4th-6th level  ",
 			"**Aura** strong abjuration  ",
 			"**Slot** none; **CL** 17th  ",
@@ -178,7 +178,7 @@
 		"description": [
 			"## Lance of the Leaping Lion",
 			"",
-			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_141_last_watch)  ",
 			"**Suitable For** (not given)  ",
 			"**Aura** strong evocation  ",
 			"**Slot** none; **CL** 15th  ",
@@ -195,13 +195,13 @@
 			"**Benefit** The lance's enhancement bonus increases to +4. Whenever you critically hit an opponent with the relic, it unleashes a burst of sonic energy in a 30-foot cone, originating from your square. Creatures within this area take 2d10 points of sonic damage (Fortitude DC 22 half). Undead creatures within this area instead take 4d10 points of sonic damage."
 		]
 	},
-	"ovetrian's_plate": {
+	"ovetrians_plate": {
 		"name": "Ovetrian's Plate",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Ovetrian's Plate",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 10th-12th level  ",
 			"**Aura** strong enchantment  ",
 			"**Slot** armor; **CL** 15th  ",
@@ -216,13 +216,13 @@
 			"**Second Triumph:** Ovetrian's Plate is +5 [rallying](magic-enhancement/rallying) full plate. When the wearer uses the armor's ability to demoralize enemies, he gains a morale bonus on attack rolls and damage rolls equal to the number of creatures that were demoralized. He also gains damage reduction of the same amount, which can't be overcome. These effects last for 1 round, but if the wearer successfully hits a foe suffering from a fear effect, the duration is extended by 1 round."
 		]
 	},
-	"scion's_dagger": {
+	"scions_dagger": {
 		"name": "Scion's Dagger",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Scion's Dagger",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 7th-9th level  ",
 			"**Aura** strong necromancy  ",
 			"**Slot** none; **CL** 17th  ",
@@ -247,7 +247,7 @@
 		"description": [
 			"## Standard of Conquest",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 7th-9th level  ",
 			"**Aura** strong transmutation  ",
 			"**Slot** none; **CL** 15th  ",
@@ -272,7 +272,7 @@
 		"description": [
 			"## Subtle Mask",
 			"",
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird_scion_saboteur)  ",
+			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_128_songbird_scion_saboteur)  ",
 			"**Suitable For** PCs of 4th-6th level  ",
 			"**Aura** moderate divination  ",
 			"**Slot** head; **CL** 11th  ",
@@ -291,13 +291,13 @@
 			"**Fourth Triumph:** The mask's enhancement bonus to Charisma is +6. When the wearer mentally activates the mask, she also detects whether the target is lying throughout the concentration, as per [discern lies](spell/discern_lies) (DC 22). Once per day, the wearer can speak a command word to use [true seeing](spell/true_seeing)."
 		]
 	},
-	"taldaris's_bequeathal": {
+	"taldariss_bequeathal": {
 		"name": "Taldaris's Bequeathal",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Taldaris's Bequeathal",
 			"",
-			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_#141_last_watch)  ",
+			"**Source** [Pathfinder #141: Last Watch](source/pathfinder_141_last_watch)  ",
 			"**Suitable For** (not given)  ",
 			"**Aura** moderate evocation  ",
 			"**Slot** armor; **CL** 9th  ",

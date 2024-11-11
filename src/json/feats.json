@@ -125,7 +125,7 @@
 		"description": [
 			"## Acadamae Graduate",
 			"",
-			"**Source** [Curse of the Crimson Throne Player's Guide pg. 11](source/curse_of_the_crimson_throne_player's_guide)",
+			"**Source** [Curse of the Crimson Throne Player's Guide pg. 11](source/curse_of_the_crimson_throne_players_guide)",
 			"",
 			"You have passed the grueling Test of Summoning and graduated from the Acadamae.  ",
 			"**Prerequisites:** Specialist wizard 1st; cannot have conjuration as a forbidden school.  ",
@@ -205,7 +205,7 @@
 		"description": [
 			"## Ace Disarm (Targeting, Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 20](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 20](source/weapon_masters_handbook)",
 			"",
 			"You catch objects with your ranged attacks and drag them along with you.  ",
 			"**Prerequisites:** Dex 13, [Deadly Aim](feat/deadly_aim), [Ranged Disarm](feat/ranged_disarm) base attack bonus +6, weapon training class feature with a ranged weapon.  ",
@@ -218,7 +218,7 @@
 		"description": [
 			"## Ace Trip (Targeting, Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 20](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 20](source/weapon_masters_handbook)",
 			"",
 			"You can trip flying opponents with your ranged attacks.  ",
 			"**Prerequisites:** Dex 13, [Deadly Aim](feat/deadly_aim), [Ranged Trip](feat/ranged_trip), base attack bonus +6, weapon training class feature with a ranged weapon.  ",
@@ -345,7 +345,7 @@
 		"description": [
 			"## Additional Affiliations",
 			"",
-			"**Source** [Adventurer's Guide pg. 6](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 6](source/adventurers_guide)",
 			"",
 			"You have an expansive personality and can forge more [affiliations](rule/affiliations) than normal.  ",
 			"**Benefit:** Increase your affiliation slot total by 2.  ",
@@ -363,7 +363,7 @@
 		"description": [
 			"## Additional Traits",
 			"",
-			"**Source** [Advanced Player's Guide pg. 150](source/advanced_player's_guide), [Second Darkness Player's Guide pg. 12](source/second_darkness_player's_guide), [Pathfinder #16: Endless Night pg. 15](source/pathfinder_#16_endless_night)",
+			"**Source** [Advanced Player's Guide pg. 150](source/advanced_players_guide), [Second Darkness Player's Guide pg. 12](source/second_darkness_players_guide), [Pathfinder #16: Endless Night pg. 15](source/pathfinder_16_endless_night)",
 			"",
 			"You have more traits than normal.  ",
 			"**Benefit:** You gain two character traits of your choice. These traits must be chosen from different lists, and cannot be chosen from lists from which you have already selected a character trait. You must meet any additional qualifications for the character traits you choose."
@@ -401,7 +401,7 @@
 		"description": [
 			"## Advanced Armor Training (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 15](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 15](source/armor_masters_handbook)",
 			"",
 			"You are specially trained to use your armor proficiencies in new ways.  ",
 			"**Prerequisites:** Armor training class feature, fighter level 3rd.  ",
@@ -454,7 +454,7 @@
 		"description": [
 			"## Advanced Weapon Training (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 19](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 19](source/weapon_masters_handbook)",
 			"",
 			"You are specially trained to use your weapon skills in new ways.  ",
 			"**Prerequisites:** Fighter level 5th, weapon training class feature.  ",
@@ -510,7 +510,7 @@
 		"description": [
 			"## Agile Maiden (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 84](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 84](source/adventurers_guide)",
 			"",
 			"The [Gray Maidens'](rule/aff_scarred_ladies) signature armor hinders you less than others.  ",
 			"**Prerequisites:** Str 13; Dex 13; [Endurance](feat/endurance) or armor training class feature; proficiency with heavy armor.  ",
@@ -637,7 +637,7 @@
 		"description": [
 			"## Aldori Artistry (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 24](source/adventurers_guide)",
 			"",
 			"You can do more with your blade than slash and stab.  ",
 			"**Prerequisites:** [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), [Weapon Finesse](feat/weapon_finesse), base attack bonus +2.  ",
@@ -655,14 +655,14 @@
 		"description": [
 			"## Aldori Dueling Disciple (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
+			"**Source** [Adventurer's Guide pg. 24](source/adventurers_guide), [Inner Sea Combat pg. 10](source/inner_sea_combat)",
 			"",
 			"Your prowess in Aldori swordplay grants you bravado.  ",
 			"**Prerequisites:** [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus](feat/weapon_focus) (Aldori dueling sword).  ",
 			"**Benefit:** You gain a +2 morale bonus on Intimidate checks to demoralize opponents, and the DC of any attempt to demoralize you increases by 2. When you're participating in a duel, these bonuses increase to +4.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">During any combat that is not a duel, you can spend 1 stamina point at the start of your turn to treat the combat as a duel until the start of your next turn for the purpose of gaining the benefits of the Aldori Dueling Discipline feat."
 		]
@@ -678,14 +678,14 @@
 		"description": [
 			"## Aldori Dueling Mastery (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide), [Pathfinder Campaign Setting pg. 67](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
+			"**Source** [Adventurer's Guide pg. 24](source/adventurers_guide), [Pathfinder Campaign Setting pg. 67](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 284](source/inner_sea_world_guide)",
 			"",
 			"You have mastered the impenetrable Aldori fighting style.  ",
 			"**Prerequisites:** [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), [Quick Draw](feat/quick_draw), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus](feat/weapon_focus) (Aldori dueling sword).  ",
 			"**Benefit:** You gain a +2 bonus on initiative checks as long as you start combat with an Aldori dueling sword in your hand. As long as you wield only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), you gain a +2 shield bonus to your AC. If you wield the sword in two hands, this bonus drops to a +1 shield bonus to AC. Although the dueling sword deals slashing damage, you treat it as if it were also a piercing weapon when determining the effects of weapons used by a duelist or swashbuckler.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">You can spend up to 6 stamina points at the start of your turn to increase the shield bonus that you gain from the Aldori Dueling Mastery feat by 1 per 2 stamina points spent until the start of your next turn."
 		]
@@ -696,7 +696,7 @@
 		"description": [
 			"## Aldori Style (Combat, Style)",
 			"",
-			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 24](source/adventurers_guide)",
 			"",
 			"You have learned the classic Aldori dueling stance.  ",
 			"**Prerequisites:** [Alertness](feat/alertness), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
@@ -709,7 +709,7 @@
 		"description": [
 			"## Aldori Style Aegis (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 24](source/adventurers_guide)",
 			"",
 			"Baron Aldori's dueling style is at its strongest when employed in one-on-one duels. Adjusting to a reverse grip and keeping your blade in motion, you parry your rival's strikes with ease.  ",
 			"**Prerequisites:** [Aldori Style](feat/aldori_style), [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
@@ -722,7 +722,7 @@
 		"description": [
 			"## Aldori Style Conquest (Combat)",
 			"",
-			"**Source** [Adventurer's Guide pg. 25](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 25](source/adventurers_guide)",
 			"",
 			"Defense is now second nature to you, and your blade punishes those who try to attack and fail.  ",
 			"**Prerequisites:** [Aldori Style](feat/aldori_style), [Aldori Style Aegis](feat/aldori_style_aegis), [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
@@ -772,7 +772,7 @@
 		"description": [
 			"## Align Equipment",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 6](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 6](source/undead_slayers_handbook)",
 			"",
 			"You gain the ability to bless equipment with abilities that make them more effective against outsiders.  ",
 			"**Prerequisites:** [Alignment Channel](feat/alignment_channel), [Bless Equipment](feat/bless_equipment), caster level 3rd, channel energy class feature.  ",
@@ -859,7 +859,7 @@
 		"description": [
 			"## Allied Spellcaster (Teamwork)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 150](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 150](source/advanced_players_guide)",
 			"",
 			"With the aid of an ally, you are skilled at piercing the protections of other creatures with your spells.  ",
 			"**Prerequisites:** Caster level 1st.  ",
@@ -915,7 +915,7 @@
 		"description": [
 			"## Altitude Affinity",
 			"",
-			"**Source** [Inner Sea World Guide pg. 284](source/inner_sea_world_guide), [Pathfinder #6: Spires of Xin-Shalast pg. 68](source/pathfinder_#6_spires_of_xin-shalast), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
+			"**Source** [Inner Sea World Guide pg. 284](source/inner_sea_world_guide), [Pathfinder #6: Spires of Xin-Shalast pg. 68](source/pathfinder_6_spires_of_xin-shalast), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
 			"",
 			"You have hardened your body against the grueling rigors of surviving at high altitudes.  ",
 			"**Prerequisites:** [Endurance](feat/endurance).  ",
@@ -928,7 +928,7 @@
 		"description": [
 			"## Al-Zabriti-Trained Horse",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)",
 			"",
 			"This horse was trained by the [Al-Zabriti](rule/aff_deserts) tribespeople. It knows more tricks and is more loyal to its rider than most mounts.  ",
 			"**Prerequisites:** Horse.  ",
@@ -1028,7 +1028,7 @@
 			"**Normal:** If you are unable to act in the surprise round because you failed a Perception check, you can't take any actions during the surprise round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points to grant the benefit of this feat to an adjacent ally."
 		]
@@ -1118,7 +1118,7 @@
 		"description": [
 			"## Anatomical Savant (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 19](source/monster_hunters_handbook)",
 			"",
 			"You know how to perform deadly strikes against even the most nebulous of targets.  ",
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus), base attack bonus +12.  ",
@@ -1744,7 +1744,7 @@
 		"description": [
 			"## Arcane Blast",
 			"",
-			"**Source** [Advanced Player's Guide pg. 150](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 150](source/advanced_players_guide)",
 			"",
 			"You can convert any spell into an attack.  ",
 			"**Prerequisites:** Arcane spellcaster, caster level 10th.  ",
@@ -1813,7 +1813,7 @@
 		"description": [
 			"## Arcane Shield",
 			"",
-			"**Source** [Advanced Player's Guide pg. 150](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 150](source/advanced_players_guide)",
 			"",
 			"You can convert any spell into a defense.  ",
 			"**Prerequisites:** Arcane spellcaster, caster level 10th.  ",
@@ -1866,7 +1866,7 @@
 		"description": [
 			"## Arcane Talent",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"Magic is in your blood, and at your fingertips.  ",
 			"**Prerequisites:** Cha 10; elf, half-elf, or gnome.  ",
@@ -1879,7 +1879,7 @@
 		"description": [
 			"## Arcane Trap Suppressor",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 8](source/dungeoneer's_handbook)",
+			"**Source** [Dungeoneer's Handbook pg. 8](source/dungeoneers_handbook)",
 			"",
 			"Your magic can suppress magic traps longer than usual.  ",
 			"**Prerequisites:** Ability to cast dispel magic or greater dispel magic as a spell or spell-like ability.  ",
@@ -1957,7 +1957,7 @@
 		"description": [
 			"## Arcing Lob",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 22](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 22](source/giant_hunters_handbook)",
 			"",
 			"You can hurl a splash weapon high into the air to break atop large opponents, cascading its contents down on your target or using your opponent's bulk to shield the surrounding area from the spray.  ",
 			"**Prerequisites:** Dex 15, [Point-Blank Shot](feat/point_blank_shot), [Precise Shot](feat/precise_shot), [Throw Anything](feat/throw_anything).  ",
@@ -2076,7 +2076,7 @@
 		"description": [
 			"## Armor Adept (Combat)",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 11](source/adventurers_armory_2)",
 			"",
 			"You are skilled at using customized armor.  ",
 			"**Benefit:** Choose two armor modifications (such as deflecting or jarring). You no longer suffer the drawbacks of wearing armor with those modifications.  ",
@@ -2090,7 +2090,7 @@
 		"description": [
 			"## Armor Focus (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 16](source/armor_masters_handbook)",
 			"",
 			"Your familiarity with a specific type of armor increases the amount of protection you receive from it.  ",
 			"**Prerequisites:** Base attack bonus +1, proficiency with selected armor.  ",
@@ -2098,7 +2098,7 @@
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of armor. The Armor Focus feat counts as the armor training class feature for the purpose of armor mastery feat prerequisites and determines what types of armor you can use with armor mastery feats.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 2 stamina points to increase the additional armor bonus granted by this feat to +2 for 1 round."
 		]
@@ -2109,7 +2109,7 @@
 		"description": [
 			"## Armor Material Expertise (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 16](source/armor_masters_handbook)",
 			"",
 			"You tap into the potential of your armor's special material.  ",
 			"**Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature.  ",
@@ -2136,7 +2136,7 @@
 			"Noqual (Pathfinder Adventure Path #61: Shards of Sin): The armor's resistance bonus on saves increases to +4 for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to use an ability for a material, even though your armor isn't made of it. This still counts against your daily limit of armor material abilities."
 		]
@@ -2147,14 +2147,14 @@
 		"description": [
 			"## Armor Material Mastery (Armor Mastery, Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 16](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 16](source/armor_masters_handbook)",
 			"",
 			"You bring the most out of your armor's special material.  ",
 			"**Prerequisites:** [Armor Material Expertise](feat/armor_material_expertise), base attack bonus +11 or fighter level 8th, armor training class feature.  ",
 			"**Benefit:** You can use the ability granted by Armor Material Expertise two additional times per day.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to use an armor material ability without it counting against your daily limit."
 		]
@@ -2232,7 +2232,7 @@
 		"description": [
 			"## Armor Trick (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 8](source/armor_masters_handbook)",
 			"",
 			"Choose one armor trick option (light, medium, heavy, or shield). You can perform armor tricks in combat when wearing the appropriate armor option.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
@@ -2241,7 +2241,7 @@
 			"",
 			"### Heavy Armor Tricks",
 			"",
-			"**Source** [Armor Master's Handbook pg. 9](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 9](source/armor_masters_handbook)",
 			"",
 			"These armor tricks are most common among the various [Hellknight](rule/aff_lawknights) orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and don't function when you're wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
 			"",
@@ -2255,7 +2255,7 @@
 			"",
 			"### Light Armor Tricks",
 			"",
-			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 8](source/armor_masters_handbook)",
 			"",
 			"Light armor tricks are rarely taught in formal schools, though some can be learned from experienced Freemen on the streets of Kaer Maga or the leaders of the Bloody Barbers thieves' guild in Absalom. These armor tricks are often used to supplement the modest defense provided by lighter armors by maximizing flexibility and mobility.",
 			"",
@@ -2269,7 +2269,7 @@
 			"",
 			"### Medium Armor Tricks",
 			"",
-			"**Source** [Armor Master's Handbook pg. 8](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 8](source/armor_masters_handbook)",
 			"",
 			"Many of these armor tricks originated in Andoran and are employed by various branches of the [Eagle Knights](rule/aff_vangard), who highly value the greater protection provided by medium armor but want to retain flexibility and agility in combat.",
 			"",
@@ -2284,7 +2284,7 @@
 			"*Versatile Armor* (Combat Expertise): You can adjust how you present yourself and maneuver in your armor to maximize your speed and mobility or to maximize your defenses. While using your armor for speed, your movement is not affected by your armor and its armor check penalty and armor bonus to AC both decrease by 2. While using your armor for defense, your armor's check penalty increases by 3 and its armor bonus to AC increases by 1. Adjusting how you use your armor is a move action, and the adjustment remains until you change it, take off your armor, or lose your Dexterity bonus to AC (if any).",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to use an armor trick while wearing armor with which you are not proficient, or without meeting the trick's additional prerequisites."
 		]
@@ -2306,7 +2306,7 @@
 			"**Special:** You can gain this feat multiple times. Each time you take the feat, it applies to a new skill.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 3 stamina points to take 10 on a Dexterity- or Strength-based skill that is associated with this feat even when doing so would not normally allowed because of the strenuous circumstances."
 		]
@@ -2317,7 +2317,7 @@
 		"description": [
 			"## Armored Rider",
 			"",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)",
 			"",
 			"You are accustomed to riding while wearing armor, and your armor doesn't hinder your riding skills.  ",
 			"**Prerequisites:** [Mounted Combat](feat/mounted_combat), Ride 3 ranks.  ",
@@ -2342,7 +2342,7 @@
 			"**Special:** The Artful Dodge feat acts as the [Dodge](feat/dodge) feat for the purpose of satisfying prerequisites that require Dodge. You can use Intelligence, rather than Dexterity, for feats with a minimum Dexterity prerequisite.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Armor Master's Handbook pg. 20](source/armor_master's_handbook)",
+			">**Source** [Armor Master's Handbook pg. 20](source/armor_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to gain a +1 dodge bonus for each opponent that you threaten that no other ally threatens."
 		]
@@ -2400,7 +2400,7 @@
 		"description": [
 			"## Ascendant (Story)",
 			"",
-			"**Source** [Spymaster's Handbook pg. 14](source/spymaster's_handbook)",
+			"**Source** [Spymaster's Handbook pg. 14](source/spymasters_handbook)",
 			"",
 			"You seek unquestioning admiration and respect to escape from a shameful past.  ",
 			"**Prerequisites:** You must have the [Secret Shame](trait/secret_shame) drawback or the Bastard-Born background, and you must also have no publicly known faults or made any indisputable mistakes that could humiliate or cast down a figure of high station .  ",
@@ -2432,7 +2432,7 @@
 		"description": [
 			"## Ascetic Form (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"You have mastered the ability to blend the use of arms with martial arts.  ",
 			"**Prerequisites:** [Ascetic Style](feat/ascetic_style); [Weapon Focus](feat/weapon_focus) with the chosen melee weapon; base attack bonus +5 or monk level 5th.  ",
@@ -2445,7 +2445,7 @@
 		"description": [
 			"## Ascetic Strike (Combat)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"Your weapon strikes deal more damage than usual.  ",
 			"**Prerequisites:** [Ascetic Form](feat/ascetic_form); [Ascetic Style](feat/ascetic_style); [Weapon Focus](feat/weapon_focus) with the chosen weapon; base attack bonus +7 or monk level 7th.  ",
@@ -2458,7 +2458,7 @@
 		"description": [
 			"## Ascetic Style (Combat, Style)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 16](source/weapon_masters_handbook)",
 			"",
 			"You blend arms and martial arts, using weapons with the same ease as unarmed strikes.  ",
 			"**Prerequisites:** [Weapon Focus](feat/weapon_focus) with the chosen melee weapon; base attack bonus +1 or monk level 1st.  ",
@@ -2475,7 +2475,7 @@
 		"description": [
 			"## Aspect of the Beast",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"Whether by magic or a curse of your blood, some part of you is more beast than man.  ",
 			"**Prerequisites:** wild shape class feature, see Special.  ",
@@ -2532,7 +2532,7 @@
 		"description": [
 			"## Aspis Partner",
 			"",
-			"**Source** [Adventurer's Guide pg. 35](source/adventurer's_guide), [Agents of Evil pg. 13](source/agents_of_evil)",
+			"**Source** [Adventurer's Guide pg. 35](source/adventurers_guide), [Agents of Evil pg. 13](source/agents_of_evil)",
 			"",
 			"You have earned the attention of the [Aspis Consortium](rule/aff_profiteers) and can call in favors when necessary.  ",
 			"**Benefit:** Whenever you are in a settlement that is the size of a small town or larger, you can purchase (but not sell) items through your Aspis contacts. Treat your current settlement as though it were a metropolis to determine its base value and available magic items. You pay a 5% markup for such items, and orders take 3d6 days to be delivered through Consortium channels. You can pay an additional 1,000 gp to have your item magically delivered to you in 1d3 days instead."
@@ -2598,7 +2598,7 @@
 		"description": [
 			"## Asura Sight (Combat)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 8](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 8](source/plane-hoppers_handbook)",
 			"",
 			"Taking inspiration from the many faces of asuras, you have learned to split your focus to avoid being caught off guard.  ",
 			"**Prerequisites:** [Asura Style](feat/asura_style), base attack bonus +9 or monk level 9th.  ",
@@ -2611,7 +2611,7 @@
 		"description": [
 			"## Asura Spellrend (Combat)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hoppers_handbook)",
 			"",
 			"Your blasphemies shatter divine magic.  ",
 			"**Prerequisites:** [Asura Sight](feat/asura_sight), [Asura Style](feat/asura_style), base attack bonus +13 or monk level 13th.",
@@ -2625,7 +2625,7 @@
 		"description": [
 			"## Asura Style (Combat, Style)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hoppers_handbook)",
 			"",
 			"Blasphemy comes quite naturally to you. When you interrupt your foes' divine spells, you use words, symbols, or gestures so abhorrent to their faith that they are repulsed by your deeds.  ",
 			"**Prerequisites:** Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +5 or monk level 5th.  ",
@@ -2689,7 +2689,7 @@
 		"description": [
 			"## Augment Calling",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 13](source/monster_summoner's_handbook)",
+			"**Source** [Monster Summoner's Handbook pg. 13](source/monster_summoners_handbook)",
 			"",
 			"Your attempts to bind or call outsiders are highly potent.  ",
 			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus); ability to cast lesser planar ally, lesser planar binding, or a higher-level version of these spells.  ",
@@ -2847,7 +2847,7 @@
 			"**Source** [Blood of the Coven pg. 4](source/blood_of_the_coven)",
 			"",
 			"Through ritual or force of will, you have awakened the latent power inherited from your hag mother.  ",
-			"**Prerequisites:** [Iron Will](feat/iron_will) or [Mother's Gift](feat/mother's_gift), changeling.  ",
+			"**Prerequisites:** [Iron Will](feat/iron_will) or [Mother's Gift](feat/mothers_gift), changeling.  ",
 			"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the [individual changeling heritage entries](race/changeling).  ",
 			"**Special:** As you grow closer to your hag nature, you occasionally manifest signs of supernatural evil. Each day at midnight, there is a 50% chance you radiate an evil aura for the purposes of divination spells and spell-like abilities for the following 24 hours. On these days, you also cause minor displays of corruption nearby-such as curling pages or spoiling milk-at the GM's discretion"
 		]
@@ -2870,7 +2870,7 @@
 			"In addition, when you spend a swift action to attempt a performance combat check that was triggered by a successful bull rush or sunder combat maneuver check, you gain a +2 bonus on the performance combat check. For every 5 points by which your attack exceeded your opponent's CMD, this bonus increases by 2.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">After successfully performing a bull rush or sunder combat maneuver, you can spend up to 5 stamina points to increase the bonus on performance combat checks that you gain from Awe-Inspiring Smash by 1 per stamina point spent."
 		]
@@ -2910,7 +2910,7 @@
 		"description": [
 			"## Awesome Throw (Combat)",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_#91_battle_of_bloodmarch_hills)",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 69](source/pathfinder_91_battle_of_bloodmarch_hills)",
 			"",
 			"Your ranged attacks can send smaller opponents flying.  ",
 			"**Prerequisites:** Str 25, Throw Anything or rock throwing, [Improved Bull Rush](feat/improved_bull_rush), size Large or larger.  ",
@@ -3051,7 +3051,7 @@
 		"description": [
 			"## Baneful Judgment (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 5](source/monster_hunters_handbook)",
 			"",
 			"You dole out judgment to a particular foe.  ",
 			"**Prerequisites:** Bane class feature, judgment class feature, monster lore class feature.  ",
@@ -3079,7 +3079,7 @@
 		"description": [
 			"## Banishing Critical (Critical)",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoner's_handbook), [Blood of Angels pg. 24](source/blood_of_angels)",
+			"**Source** [Monster Summoner's Handbook pg. 8](source/monster_summoners_handbook), [Blood of Angels pg. 24](source/blood_of_angels)",
 			"",
 			"Your familiarity with summoning creatures has taught you how to send them away with a well-timed strike.  ",
 			"**Prerequisites:** Arcane Strike or Disruptive; Spellcraft 8 ranks; arcane pool class feature.  ",
@@ -3105,7 +3105,7 @@
 		"description": [
 			"## Barracuda Dash (Combat)",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_#124_city_in_the_deep)",
+			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_124_city_in_the_deep)",
 			"",
 			"You use powerful, deadly bursts of speed to charge and attack an additional foe.  ",
 			"**Prerequisites:** Wis 13, [Barracuda Slam](feat/barracuda_slam), [Barracuda Style](feat/barracuda_style), [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 7 ranks, Swim 7 ranks.  ",
@@ -3120,7 +3120,7 @@
 		"description": [
 			"## Barracuda Slam (Combat)",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_#124_city_in_the_deep)",
+			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_124_city_in_the_deep)",
 			"",
 			"You learn to ram the whole weight of your body into an opponent to take it by surprise.  ",
 			"**Prerequisites:** Wis 13, [Barracuda Style](feat/barracuda_style), [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 5 ranks, Swim 5 ranks.  ",
@@ -3134,7 +3134,7 @@
 		"description": [
 			"## Barracuda Style (Combat, Style)",
 			"",
-			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_#124_city_in_the_deep)",
+			"**Source** [Pathfinder #124: City in the Deep pg. 81](source/pathfinder_124_city_in_the_deep)",
 			"",
 			"You study a combat style consisting of fluid, circular motions suited for moving and fighting underwater.  ",
 			"**Prerequisites:** Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 3 ranks, Swim 3 ranks.  ",
@@ -3186,7 +3186,7 @@
 		"description": [
 			"## Bashing Finish (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"You follow a powerful blow from your weapon with an opportunistic bash from your shield.  ",
 			"**Prerequisites:** [Improved Shield Bash](feat/improved_shield_bash), [Shield Master](feat/shield_master), base attack bonus +11.  ",
@@ -3343,7 +3343,7 @@
 			"**Benefit:** You can attempt to initiate a grapple against a foe trapped by your Beartrap Bite feat without provoking attacks of opportunity. You gain a +2 bonus on damage rolls against foes you are grappling."
 		]
 	},
-	"bear's_balance": {
+	"bears_balance": {
 		"name": "Bear's Balance",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
@@ -3543,7 +3543,7 @@
 			">You can spend 5 stamina points to declare that you are using Befuddling Strike after you've hit with an unarmed strike attack roll."
 		]
 	},
-	"belier's_bite": {
+	"beliers_bite": {
 		"name": "Belier's Bite",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
@@ -3570,7 +3570,7 @@
 			"**Benefit:** Once per day when you create a glamer or figment effect, you can empower the effect so that the DC to disbelieve it is 2 higher than normal."
 		]
 	},
-	"believer's_boon": {
+	"believers_boon": {
 		"name": "Believer's Boon",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3586,7 +3586,7 @@
 			"If you grossly violate the code of conduct required by your deity, your alignment shifts so that it is more than one step away from your deity's, or you no longer worship your deity, you lose access to this feat. You can regain it once you atone for your misdeeds to your deity (see [atonement](spell/atonement))."
 		]
 	},
-	"believer's_hands": {
+	"believers_hands": {
 		"name": "Believer's Hands",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
@@ -3621,7 +3621,7 @@
 		"description": [
 			"## Benthic Spell (Metamagic)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 14](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 14](source/elemental_masters_handbook)",
 			"",
 			"Explorers in the depths of the Arcadian Ocean have learned that deadly pressure can be just as lethal as any flame.  ",
 			"**Benefit:** You can modify a spell that deals acid, cold, electricity, or fire damage to deal damage through high-pressure water instead. The spell gains the water descriptor, and you can either replace the spell's normal damage with bludgeoning damage or split the spell's damage so that half is bludgeoning and half is of its normal type. Creatures with damage reduction apply their damage reduction to bludgeoning damage from a benthic spell, but the spell counts as bludgeoning and magic for the purposes of bypassing damage reduction.",
@@ -3733,7 +3733,7 @@
 		"description": [
 			"## Bilge Rat",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 15](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 15](source/elemental_masters_handbook)",
 			"",
 			"Keeping a sailing vessel afloat means moving constantly between bright sunlight and darkened holds. You wear an eye patch, out of convenience rather than necessity, to make one of your eyes used to the dark and the other to the light.  ",
 			"**Benefit:** If you are wearing an eye patch when you are dazzled or blinded as a result of eye damage or a visual stimulus (such as from fireworks or a glitterdust spell), you can remove or switch your eye patch as a move action to favor the eye you had kept covered. Switching your eye patch allows you to ignore the dazzled condition or to reduce the blinded condition to dazzled until the effect ends, at which time you regain the ability to use this feat."
@@ -3845,7 +3845,7 @@
 			"**Benefit:** When you spend a swift action to attempt a performance combat check, you can sacrifice one cartridge or an amount of black powder required for a single shot to make either a loud sound or an impressive flash. If you choose to make your weapon's report louder, you gain a +4 bonus on all Intimidate checks you attempt for 1 round. If you choose to create an impressive flash, you gain a +4 bonus on any Perform checks you attempt for 1 round.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points when using Black Powder Spectacle in order to gain a +4 bonus on Intimidate checks and Perform checks for 1 round."
 		]
@@ -3856,7 +3856,7 @@
 		"description": [
 			"## Blackfire Summoning",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 5](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 5](source/plane-hoppers_handbook)",
 			"",
 			"You have learned to make your summons destructive to the fabric of the planes, bringing blackfire in the wake of your magic.  ",
 			"**Prerequisites:** [Sacred Summons](feat/sacred_summons).",
@@ -3870,7 +3870,7 @@
 		"description": [
 			"## Blade of the Purge",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"Emulating the fervor of Grand Prince Stavian I, you can identify a religion you perceive to be opposed to your own and empower your weapons to strike deadly blows against its adherents.  ",
 			"**Prerequisites:** Bane class feature.  ",
@@ -4035,7 +4035,7 @@
 		"description": [
 			"## Bless Equipment",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 7](source/undead_slayer's_handbook)",
+			"**Source** [Undead Slayer's Handbook pg. 7](source/undead_slayers_handbook)",
 			"",
 			"You can bless armor and weapons with a touch to imbue them with magical properties.  ",
 			"**Prerequisites:** Caster level 3rd, channel energy class feature.  ",
@@ -4133,7 +4133,7 @@
 		"description": [
 			"## Blight Guide",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 61](source/pathfinder_#119_prisoners_of_the_blight)",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 61](source/pathfinder_119_prisoners_of_the_blight)",
 			"",
 			"Your confidence in exploring dangerous regions inspires the same in your companions.  ",
 			"**Prerequisites:** [Blight Survivalist](feat/blight_survivalist), [Skill Focus (Survival)](feat/skill_focus).  ",
@@ -4146,7 +4146,7 @@
 		"description": [
 			"## Blight Survivalist",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 61](source/pathfinder_#119_prisoners_of_the_blight)",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 61](source/pathfinder_119_prisoners_of_the_blight)",
 			"",
 			"You have learned to survive in dangerous environments.  ",
 			"**Prerequisites:** [Skill Focus (Survival)](feat/skill_focus).  ",
@@ -4378,7 +4378,7 @@
 		"description": [
 			"## Bloatmage Initiate",
 			"",
-			"**Source** [City of Strangers pg. 41](source/city_of_strangers), [Pathfinder #12: Crown of Fangs pg. 32](source/pathfinder_#12_crown_of_fangs), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
+			"**Source** [City of Strangers pg. 41](source/city_of_strangers), [Pathfinder #12: Crown of Fangs pg. 32](source/pathfinder_12_crown_of_fangs), [Pathfinder Campaign Setting pg. 218](source/pathfinder_campaign_setting)",
 			"",
 			"Your introduction to the ways of the bloatmage allows you to use elaborate rituals and gruesome rites to increase the amount of blood and lymph in your body, expanding your reserves of magical energy.  ",
 			"**Prerequisites:** [Spell Focus (any school)](feat/spell_focus).  ",
@@ -4491,7 +4491,7 @@
 		"description": [
 			"## Blood for the Empire (Teamwork)",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"When fighting alongside your allies, the sight of a bloodied foe inspires you to greatness, while a martyred comrade compels you to vengeance.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
@@ -4544,7 +4544,7 @@
 		"description": [
 			"## Blood of Heroes (Hero Point)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 323](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 323](source/advanced_players_guide)",
 			"",
 			"You have a sense of destiny about you and always seem to succeed, even when the odds are against you.  ",
 			"**Prerequisites:** Hero's Fortune.  ",
@@ -4663,7 +4663,7 @@
 			"**Benefit:** Whenever you threaten a critical hit with a piercing or slashing weapon (regardless of whether you confirm the critical hit or not), you deal 1 point of bleed damage to the targeted creature.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When you confirm a critical hit with a piercing or slashing weapon, you can spend up to 2 stamina points to increase the bleed damage dealt by Bloodletting by 1 per stamina point spent."
 		]
@@ -4703,7 +4703,7 @@
 		"description": [
 			"## Bloody Assault (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"Sacrificing accuracy, you can inflict bloody wounds that are slow to heal.  ",
 			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), base attack bonus +6.  ",
@@ -4721,7 +4721,7 @@
 		"description": [
 			"## Bloody Mess (Combat)",
 			"",
-			"**Source** [Antihero's Handbook pg. 8](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 8](source/antiheros_handbook)",
 			"",
 			"Your recklessness often puts you in harm's way, and you are terrifying to behold when covered in your own blood.  ",
 			"**Prerequisites:** [Skill Focus (Intimidate)](feat/skill_focus).  ",
@@ -4744,7 +4744,7 @@
 			"**Benefit:** If you hit an opponent with both your primary weapon and your off-hand weapon as part of the same attack action, and both of those weapons are sawtooth sabres, you deal 1 point of bleed damage in addition to the normal damage dealt by these attacks.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">You can spend 2 stamina points when dealing bleed damage with the Bloody Sabres feat to increase the amount of bleed damage your opponent takes by 1."
 		]
@@ -4968,7 +4968,7 @@
 		"description": [
 			"## Bodyguard (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"Your swift strikes ward off enemies attacking nearby allies.  ",
 			"**Prerequisites:** [Combat Reflexes](feat/combat_reflexes).  ",
@@ -5116,7 +5116,7 @@
 		"description": [
 			"## Bouncing Spell (Metamagic)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"You can direct a failed spell against a different target.  ",
 			"**Benefit:** Whenever a bouncing spell targeting a single creature has no effect on its intended target (whether due to spell resistance or a successful saving throw) you may, as a swift action, redirect it to target another eligible creature within range. The redirected spell behaves in all ways as if its new target were the original target for the spell. Spells that affect a target in any way (including a lesser effect from a successful saving throw) may not be redirected in this manner. A bouncing spell uses up a spell slot one level higher than the spell's actual level."
@@ -5221,7 +5221,7 @@
 		"description": [
 			"## Brackish Spell (Metamagic)",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 15](source/elemental_master's_handbook)",
+			"**Source** [Elemental Master's Handbook pg. 15](source/elemental_masters_handbook)",
 			"",
 			"You can conjure a seawater orb to protect yourself.  ",
 			"**Benefit:** This feat can be applied only to spells with the water descriptor. You can modify the spell to surround you with a thin sheath of brackish salt water in addition to the spell's normal effect. You gain DR/piercing equal to the spell's level for 1 round after you finish casting the spell. After this round, the water collapses into a briny puddle and the effect ends. A brackish spell does not use up a higher-level spell slot than the spell's actual level."
@@ -5275,7 +5275,7 @@
 		"description": [
 			"## Brash Stride",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_#132_the_six-legend_soul)",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 72](source/pathfinder_132_the_six-legend_soul)",
 			"",
 			"You have studied the bold fighting style of Grand Prince Cyricas and emulate his intrepid tread through jungles and other dangerous lands.  ",
 			"**Prerequisites:** Dex 15, [Acrobatic Steps](feat/acrobatic_steps), [Nimble Moves](feat/nimble_moves).  ",
@@ -5314,7 +5314,7 @@
 		"description": [
 			"## Breadth of Experience",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"Although still young for your kind, you have a lifetime of knowledge and training.  ",
 			"**Prerequisites:** Dwarf, elf, or gnome; 100+ years old.  ",
@@ -5587,7 +5587,7 @@
 		"description": [
 			"## Bulette Charge Style (Combat, Style)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 10](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 10](source/armor_masters_handbook)",
 			"",
 			"You use the weight of your armor to enhance the momentum of your charge.  ",
 			"**Prerequisites:** Str 13, [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), proficiency with heavy armor.  ",
@@ -5601,7 +5601,7 @@
 		"description": [
 			"## Bulette Leap (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 10](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 10](source/armor_masters_handbook)",
 			"",
 			"You can shove aside multiple opponents while leaping into the air.  ",
 			"**Prerequisites:** Str 15, [Bulette Charge Style](feat/bulette_charge_style), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), proficiency with heavy armor.  ",
@@ -5614,7 +5614,7 @@
 		"description": [
 			"## Bulette Rampage (Combat)",
 			"",
-			"**Source** [Armor Master's Handbook pg. 10](source/armor_master's_handbook)",
+			"**Source** [Armor Master's Handbook pg. 10](source/armor_masters_handbook)",
 			"",
 			"You are able to channel your enhanced momentum to deal incredible damage to multiple foes.  ",
 			"**Prerequisites:** Str 15, [Bulette Charge Style](feat/bulette_charge_style), [Bulette Leap](feat/bulette_leap), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), proficiency with heavy armor.  ",
@@ -5630,7 +5630,7 @@
 		"description": [
 			"## Bull Rush Strike (Combat)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 151](source/advanced_player's_guide)",
+			"**Source** [Advanced Player's Guide pg. 151](source/advanced_players_guide)",
 			"",
 			"Your critical hits can push back your foes.  ",
 			"**Prerequisites:** Str 13, [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), base attack bonus +9.  ",
@@ -5650,7 +5650,7 @@
 		"description": [
 			"## Bull-Catcher Style (Combat, Style)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 8](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 8](source/monster_hunters_handbook)",
 			"",
 			"You brace yourself to catch oncoming foes.  ",
 			"**Prerequisites:** Dex 13, [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
@@ -5666,7 +5666,7 @@
 		"description": [
 			"## Bull-Catcher Toss (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 8](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 8](source/monster_hunters_handbook)",
 			"",
 			"You can use a charging foe's momentum to throw them aside.  ",
 			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +8, brawler level 4th, or monk level 4th.  ",
@@ -5682,7 +5682,7 @@
 		"description": [
 			"## Bull-Catcher Wrangler (Combat)",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunter's_handbook)",
+			"**Source** [Monster Hunter's Handbook pg. 9](source/monster_hunters_handbook)",
 			"",
 			"You can wrestle a charging foe to the ground.  ",
 			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Bull-Catcher Toss](feat/bull_catcher_toss), [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike); base attack bonus +12, brawler level 8th, or monk level 8th.  ",
@@ -5692,7 +5692,7 @@
 	"bull_catcher_wrangler": {
 		"copyof": "bull-catcher_wrangler"
 	},
-	"bull's_eye": {
+	"bulls_eye": {
 		"name": "Bull's Eye",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
@@ -5723,7 +5723,7 @@
 			"**Benefit:** You can spend a move action to steady your shot. When you do, you gain a +4 bonus on your next ranged attack roll before the end of your turn.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">You can spend 5 stamina points to use Bullseye Shot as a swift action."
 		]
@@ -5824,7 +5824,7 @@
 		"description": [
 			"## Burrowing Shot (Weapon Mastery)",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_master's_handbook)",
+			"**Source** [Weapon Master's Handbook pg. 21](source/weapon_masters_handbook)",
 			"",
 			"You lodge your ranged weapons within your target's body.  ",
 			"**Prerequisites:** Dex 13, [Deadly Aim](feat/deadly_aim), base attack bonus +9, weapon training class feature with a ranged weapon.  ",
@@ -5870,7 +5870,7 @@
 			"**Benefit:** When an opponent confirms a critical hit against you with a melee weapon, you can attempt a special Bluff check against that opponent as an immediate action. The DC of this check is the same as the DC to demoralize the opponent with the Intimidate skill. If you are successful, the attacking opponent is shaken for 1 round as if you had successfully demoralized it with Intimidate. Exceeding the DC by 5 or more does not add to the shaken condition's duration. If you fail the special Bluff check granted by this feat, you can attempt it against opponents who saw you attempt the earlier check and fail, but you take a -2 cumulative penalty on that Bluff check and any subsequent Bluff checks attempted in conjunction with this feat against those opponents for 24 hours."
 		]
 	},
-	"butterfly's_sting": {
+	"butterflys_sting": {
 		"name": "Butterfly's Sting",
 		"sources": [
 			"Inner Sea Gods",
@@ -5887,7 +5887,7 @@
 			"**Benefit:** When you confirm a critical hit against a creature, you can choose to forgo the effect of the critical hit and grant a critical hit to the next ally who hits that creature with a melee attack before the start of your next turn. Your attack only deals normal damage, and the next ally to hit the target automatically confirms the attack as a critical hit.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When you confirm a critical hit, you can spend 10 stamina points to use Butterfly's Sting without forgoing your own critical hit."
 		]
@@ -5991,7 +5991,7 @@
 			"**Benefit:** You gain a +2 competence bonus on any Craft (siege engine) checks made to repair a firearm siege engine. In addition, if you are the crew leader for a firearm siege engine with the broken condition, that siege engine's misfire range is increased by only 2 instead of by 4, and the broken siege engine must misfire twice before it explodes.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">While acting as the leader of a firearm siege engine crew, you can spend 5 stamina points as an immediate action when the siege engine rolls a misfire to negate the misfire."
 		]
@@ -6128,12 +6128,12 @@
 			"**Benefit:** If you ready a ranged attack with a firearm to attack a spellcaster when he begins casting a spell and successfully hit your opponent, you can expend 1 grit point to increase the target's concentration check DC for being injured while casting by 5.",
 			"",
 			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
-			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_master's_handbook)",
+			">**Source** [Weapon Master's Handbook pg. 24](source/weapon_masters_handbook)",
 			">",
 			">When using Casterbane Shot, you can spend up to 5 stamina points to increase the DC of the concentration check imposed by the feat by an amount equal to the number of stamina points spent."
 		]
 	},
-	"caster's_champion": {
+	"casters_champion": {
 		"name": "Caster's Champion",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
@@ -6152,7 +6152,7 @@
 		"description": [
 			"## Casting Conduit (Teamwork)",
 			"",
-			"**Source** [Antihero's Handbook pg. 10](source/antihero's_handbook)",
+			"**Source** [Antihero's Handbook pg. 10](source/antiheros_handbook)",
 			"",
 			"You can use an ally as a conduit to convey spells to an enemy she can touch.  ",
 			"**Prerequisites:** Spellcraft 1 rank.  ",
@@ -6254,7 +6254,7 @@
 			"**Special:** You can take this feat multiple times. Its effects do not stack. Each time you select it, you must choose a different manifestation."
 		]
 	},
-	"cat's_fall": {
+	"cats_fall": {
 		"name": "Cat's Fall",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -6443,7 +6443,7 @@
 		"description": [
 			"## Cerberus Crush (Combat)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hoppers_handbook)",
 			"",
 			"When you strike from three directions, you channel deadly force into each blow.  ",
 			"**Prerequisites:** [Cerberus Snare](feat/cerberus_snare), [Cerberus Style](feat/cerberus_style), [Vital Strike](feat/vital_strike), base attack bonus +13 or monk level 13th.  ",
@@ -6456,7 +6456,7 @@
 		"description": [
 			"## Cerberus Snare (Combat)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hoppers_handbook)",
 			"",
 			"Your strikes latch onto your opponent like the jaws of a cerberus, preventing them from fleeing across planes.  ",
 			"**Prerequisites:** [Cerberus Style](feat/cerberus_style), base attack bonus +9 or monk level 9th.  ",
@@ -6469,7 +6469,7 @@
 		"description": [
 			"## Cerberus Style (Combat, Style)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 9](source/plane-hoppers_handbook)",
 			"",
 			"You rain blows upon your enemies from three directions, like the three heads of the cerberus guardians of Hell.  ",
 			"**Prerequisites:** [Cleave](feat/cleave), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +6 or monk level 6th.  ",
@@ -6729,7 +6729,7 @@
 		"description": [
 			"## Chance Death (Origin)",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hopper's_handbook)",
+			"**Source** [Plane-Hopper's Handbook pg. 16](source/plane-hoppers_handbook)",
 			"",
 			"You might have been struck by lightning or fallen off a horse, but either way your death came as the result of pure bad luck, a happenstance accident no one could have predicted.  ",
 			"**Prerequisites:** Duskwalker.  ",

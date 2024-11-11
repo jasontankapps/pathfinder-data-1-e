@@ -100,7 +100,7 @@
 		"description": [
 			"## Invoke Primal Power",
 			"",
-			"**Source** [Adventurer's Guide pg. 134](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 134](source/adventurers_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 5, hunter 5",
 			"",
 			"### Casting",
@@ -246,7 +246,7 @@
 		"description": [
 			"## Ironbloom Sprouts",
 			"",
-			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 75](source/pathfinder_#62_curse_of_the_lady's_light)  ",
+			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 75](source/pathfinder_62_curse_of_the_ladys_light)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Torag)",
 			"",
 			"### Casting",
@@ -424,7 +424,7 @@
 		"description": [
 			"## Irriseni Mirror Sight",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 73](source/pathfinder_#67_the_snows_of_summer), [Cities of Golarion pg. 63](source/cities_of_golarion)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer pg. 73](source/pathfinder_67_the_snows_of_summer), [Cities of Golarion pg. 63](source/cities_of_golarion)  ",
 			"**School** [divination](spelldef/divination) ([scrying](spelldef/scrying)); **Level** arcanist 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -510,7 +510,7 @@
 		"description": [
 			"## Ja Noi Aspect",
 			"",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 3, arcanist 3, bloodrager 3, druid 3, hunter 3, investigator 3, magus 3, ranger 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -528,7 +528,7 @@
 			"You gain some of the appearance and qualities of the ja noi, oni who take hobgoblin form. Your skin turns a fiery red color and you gain fast healing 3, although this ability cannot repair damage caused by acid or fire. You can dismiss this spell as an immediate action when you fail a Will saving throw; if you do, you can reroll your saving throw, but you must take the second result."
 		]
 	},
-	"jatembe's_ire": {
+	"jatembes_ire": {
 		"name": "Jatembe's Ire",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -576,13 +576,13 @@
 			"You fill the target with a sense of entitled self-importance, making the subject unable to bear the indignity of another creature getting something that it doesn't have. Whenever an ally of the target receives a harmless spell or spell-like ability, beneficial supernatural effect, or assisting action (including the aid another action, first aid using the Heal skill, etc.) that doesn't also include the target, the target is driven into a murderous rage against either the producer of that effect or the nearest creature that benefited from that effect, whichever is closer. The target must attack that creature on its next turn. Any ability that deals lethal damage is considered an attack for this purpose. Once the target deals lethal damage to the object of his jealous rage, the compulsion to attack that creature ends."
 		]
 	},
-	"jester's_jaunt": {
+	"jesters_jaunt": {
 		"name": "Jester's Jaunt",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Jester's Jaunt",
 			"",
-			"**Source** [Advanced Player's Guide pg. 230](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 230](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** bard 3, mesmerist 3, skald 3",
 			"",
 			"### Casting",
@@ -856,7 +856,7 @@
 	"jury_rig": {
 		"copyof": "jury-rig"
 	},
-	"kalistocrat's_nightmare": {
+	"kalistocrats_nightmare": {
 		"name": "Kalistocrat's Nightmare",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
@@ -935,7 +935,7 @@
 		"description": [
 			"## Keen Senses",
 			"",
-			"**Source** [Advanced Player's Guide pg. 230](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 230](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, druid 1, hunter 1, investigator 1, occultist 1, ranger 1",
 			"",
 			"### Casting",
@@ -983,7 +983,7 @@
 		"description": [
 			"## Keyhole",
 			"",
-			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 78](source/pathfinder_#143_borne_by_the_sun's_grace)  ",
+			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 78](source/pathfinder_143_borne_by_the_suns_grace)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, cleric 1, oracle 1, sorcerer 1, warpriest 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -1003,7 +1003,7 @@
 			"This spell does not normally allow a saving throw, but magic doors and barriers can resist the effect with a successful Will saving throw, as if they were carried by their original creator."
 		]
 	},
-	"khain's_army": {
+	"khains_army": {
 		"name": "Khain's Army",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
@@ -1126,13 +1126,13 @@
 			"This spell converts the momentum and force from melee attacks made against the target of the spell, reflecting them back upon the attacker's weapon. After making a successful melee attack against the target, an attacker must make a Fortitude saving throw for the weapon used. If the weapon fails the save, it takes damage equal to the damage rolled against the target. Creatures using natural attacks or unarmed strikes are unaffected by this spell."
 		]
 	},
-	"king's_castle": {
+	"kings_castle": {
 		"name": "King's Castle",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## King's Castle",
 			"",
-			"**Source** [Advanced Player's Guide pg. 230](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 230](source/advanced_players_guide)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** paladin 4",
 			"",
 			"### Casting",
@@ -1202,13 +1202,13 @@
 			"You invest a target with cursed elemental energy, causing nearby bodies of water to roil when the target draw nears and tendrils of water to drag it deeper under the waves. The target takes a -10 penalty on Swim checks and automatically sinks 15 feet per round when in any body of liquid. The creature does not sink if standing upon a solid surface capable of supporting its weight, even if it is submerged."
 		]
 	},
-	"knight's_calling": {
+	"knights_calling": {
 		"name": "Knight's Calling",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Knight's Calling",
 			"",
-			"**Source** [Advanced Player's Guide pg. 230](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 230](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** paladin 1",
 			"",
 			"### Casting",
@@ -1372,7 +1372,7 @@
 			"The insight bonus increases to +15 plus your tier. If the check is successful, you gain a +5 insight bonus on your next attack roll or saving throw against a creature of that type, as long as the roll occurs within 24 hours of casting the spell."
 		]
 	},
-	"kreighton's_perusal": {
+	"kreightons_perusal": {
 		"name": "Kreighton's Perusal",
 		"sources": [ "Pathfinder Society Primer" ],
 		"description": [
@@ -1396,7 +1396,7 @@
 			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses-invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the [Pathfinder Chronicles](equipment-misc/pathfinder_chronicle))."
 		]
 	},
-	"lament_of_summer's_last_breath": {
+	"lament_of_summers_last_breath": {
 		"name": "Lament of Summer's Last Breath",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
@@ -1524,7 +1524,7 @@
 			"You draw on the essence of astradaemons to cause one of your hands to elongate and sprout fearsome translucent claws that radiate a cold phosphorescence. You gain one claw attack, which is a primary natural attack that deals 1d6 points of slashing damage on a hit (1d4 for a Small spellcaster) and forces the creature struck to succeed at a Fortitude save against the spell (spell resistance applies) to resist gaining 1 negative level. Each time you inflict a negative level with this spell, you gain 5 temporary hit points that persist for 1 hour. A creature that succeeds at the saving throw against your claw's negative level is immune to further negative levels inflicted from this casting of lash of the astradaemon but not to the claw's damage. The claw does not interfere with your ability to cast spells or perform other actions that require hands. You can use your claw attack up to 1 time per 2 caster levels. Your claw reverts to a normal hand once you've delivered all of your potential attacks or after 24 hours (whichever comes first)."
 		]
 	},
-	"last_azlanti's_defending_sword": {
+	"last_azlantis_defending_sword": {
 		"name": "Last Azlanti's Defending Sword",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -1566,12 +1566,12 @@
 			"This spell functions as Aroden's defending sword, except you can create one sword per 5 caster levels, each of which must defend a different creature within range."
 		]
 	},
-	"last_azlanti's_defending_sword_mass": {
+	"last_azlantis_defending_sword_mass": {
 		"name": "Last Azlanti's Defending Sword, Mass",
-		"copyof": "last_azlanti's_defending_sword"
+		"copyof": "last_azlantis_defending_sword"
 	},
-	"mass_last_azlanti's_defending_sword": {
-		"copyof": "last_azlanti's_defending_sword_mass"
+	"mass_last_azlantis_defending_sword": {
+		"copyof": "last_azlantis_defending_sword_mass"
 	},
 	"lay_of_the_land": {
 		"name": "Lay of the Land",
@@ -1629,7 +1629,7 @@
 		"description": [
 			"## Lead Blades",
 			"",
-			"**Source** [Advanced Player's Guide pg. 230](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 230](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** hunter 1, occultist 1, ranger 1",
 			"",
 			"### Casting",
@@ -1945,7 +1945,7 @@
 		"description": [
 			"## Life Bubble",
 			"",
-			"**Source** [Advanced Player's Guide pg. 230](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 230](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 5, cleric 5, druid 4, hunter 3, occultist 4, oracle 5, psychic 5, ranger 3, sorcerer 5, warpriest 5, wizard 5",
 			"",
 			"### Casting",
@@ -2171,7 +2171,7 @@
 		"description": [
 			"## Life Shield",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 27](source/undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 27](source/undead_slayers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** cleric 3, druid 3, hunter 3, oracle 3, paladin 2, warpriest 3",
 			"",
 			"### Casting",
@@ -2220,7 +2220,7 @@
 		"description": [
 			"## Light Lance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 231](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 231](source/advanced_players_guide)  ",
 			"**School** [evocation](spelldef/evocation) [[good](spelldef/good), [light](spelldef/light)]; **Level** paladin 2",
 			"",
 			"### Casting",
@@ -2444,7 +2444,7 @@
 		"description": [
 			"## Lightning Conductor",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 18](source/elemental_masters_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) [[air](spelldef/air)]; **Level** arcanist 3, bloodrager 2, druid 3, hunter 3, magus 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -2473,7 +2473,7 @@
 		"description": [
 			"## Lightning Lash",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_74_sword_of_valor)  ",
 			"**School** [evocation](spelldef/evocation) [[electricity](spelldef/electricity)]; **Level** cleric 3, hunter 2, inquisitor 3, oracle 3, ranger 2, warpriest 3, witch 3",
 			"",
 			"### Casting",
@@ -2523,7 +2523,7 @@
 		"description": [
 			"## Lily Pad Stride",
 			"",
-			"**Source** [Advanced Player's Guide pg. 232](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 232](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 3, hunter 3",
 			"",
 			"### Casting",
@@ -2738,7 +2738,7 @@
 		"description": [
 			"## Lissalan Snake Sigil",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 75](source/pathfinder_#65_into_the_nightmare_rift)  ",
+			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 75](source/pathfinder_65_into_the_nightmare_rift)  ",
 			"**School** multiple (see text); **Level** arcanist 3, cleric 3, oracle 3, sorcerer 3, warpriest 3, wizard 3 (Lissala)",
 			"",
 			"### Casting",
@@ -2776,7 +2776,7 @@
 		"description": [
 			"## Litany of Admonition",
 			"",
-			"**Source** [Disciple's Doctrine pg. 13](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 13](source/disciples_doctrine)  ",
 			"**School** [necromancy](spelldef/necromancy) [[language-dependent](spelldef/language-dependent)]; **Level** antipaladin 3, inquisitor 4, paladin 3",
 			"",
 			"### Casting",
@@ -2826,7 +2826,7 @@
 		"description": [
 			"## Litany of Dependability",
 			"",
-			"**Source** [Disciple's Doctrine pg. 13](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 13](source/disciples_doctrine)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[lawful](spelldef/lawful)]; **Level** inquisitor 4, paladin 3",
 			"",
 			"### Casting",
@@ -2850,7 +2850,7 @@
 		"description": [
 			"## Litany of Duty",
 			"",
-			"**Source** [Disciple's Doctrine pg. 13](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 13](source/disciples_doctrine)  ",
 			"**School** [abjuration](spelldef/abjuration) [[lawful](spelldef/lawful)]; **Level** inquisitor 2, paladin 1",
 			"",
 			"### Casting",
@@ -2975,7 +2975,7 @@
 		"description": [
 			"## Litany of Order",
 			"",
-			"**Source** [Disciple's Doctrine pg. 13](source/disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 13](source/disciples_doctrine)  ",
 			"**School** [evocation](spelldef/evocation) [[lawful](spelldef/lawful), [language-dependent](spelldef/languagedependent)]; **Level** inquisitor 3, paladin 2",
 			"",
 			"### Casting",
@@ -3077,7 +3077,7 @@
 		"description": [
 			"## Litany of the Red Crusader",
 			"",
-			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 72](source/pathfinder_#140_eulogy_for_roslar's_coffer)  ",
+			"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 72](source/pathfinder_140_eulogy_for_roslars_coffer)  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** antipaladin 1, inquisitor 2, paladin 1",
 			"",
 			"### Casting",
@@ -3440,7 +3440,7 @@
 		"description": [
 			"## Lockjaw",
 			"",
-			"**Source** [Advanced Player's Guide pg. 232](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 232](source/advanced_players_guide)  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 2, hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -3679,7 +3679,7 @@
 			"This spell functions as lost passage, except that it affects a larger area. Lost locale can be made permanent with permanency at a cost of 90,000 gp."
 		]
 	},
-	"lover's_vengeance": {
+	"lovers_vengeance": {
 		"name": "Lover's Vengeance",
 		"sources": [
 			"Inner Sea World Guide",
@@ -3689,7 +3689,7 @@
 		"description": [
 			"## Lover's Vengeance",
 			"",
-			"**Source** [Inner Sea World Guide pg. 296](source/inner_sea_world_guide), [Pathfinder #17: A Memory of Darkness pg. 62](source/pathfinder_#17_a_memory_of_darkness), [Gods and Magic pg. 9](source/gods_and_magic)  ",
+			"**Source** [Inner Sea World Guide pg. 296](source/inner_sea_world_guide), [Pathfinder #17: A Memory of Darkness pg. 62](source/pathfinder_17_a_memory_of_darkness), [Gods and Magic pg. 9](source/gods_and_magic)  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 3, bard 3, cleric 3, oracle 3, shaman 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -3827,7 +3827,7 @@
 			"You summon a swarm of screeching, mischievous monkeys. The swarm understands and obeys your commands and has the statistics of a monkey swarm. Creatures failing a saving throw against the mad monkeys' distraction attack are deafened for 1 minute as well as nauseated. The monkeys attempt one disarm or steal combat maneuver each turn as a free action against any creature that begins its turn in the swarm, using your caster level plus your casting ability score bonus (Intelligence for wizards; Wisdom for druids and oracles; Charisma for bards, sorcerers, and summoners) for its CMB. Recovering an item from the monkeys requires a successful disarm or steal attempt against that CMB + 10. An object stolen by the monkeys takes swarm damage each round the swarm is in possession of the object."
 		]
 	},
-	"mad_sultan's_melody": {
+	"mad_sultans_melody": {
 		"name": "Mad Sultan's Melody",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -3938,7 +3938,7 @@
 			"You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range."
 		]
 	},
-	"mage's_crawl_space": {
+	"mages_crawl_space": {
 		"name": "Mage's Crawl Space",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
@@ -3962,7 +3962,7 @@
 			"When you cast this spell, you merge with an adjacent natural stone surface, forming a 5-foot pocket within. If the stone surface does not have enough volume to safely contain a 5-foot sphere of empty space, the spell fails. When created, there is sufficient air within the pocket for up to one Medium creature to survive for the spell's duration, including one additional Tiny or smaller creature, such as a familiar. At the end of the spell's duration, you are immediately expelled into the nearest available open space adjacent to the surface you merged with."
 		]
 	},
-	"mage's_decree": {
+	"mages_decree": {
 		"name": "Mage's Decree",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
@@ -3990,7 +3990,7 @@
 			"The nature of the spell prevents the message it carries from having any magical power; the message can't be used to transmit spells or abilities that are conveyed via speech. The message is transmitted in your voice in whatever language you use to speak it, and is not automatically translated. Any steps you take to disguise your voice are just as effective for messages delivered via this spell as they are for your normal speech. Mage's decree isn't a language-dependent spell; all targeted creatures receive the message, but might not understand it if they don't understand the language in which you spoke the message."
 		]
 	},
-	"mage's_disjunction": {
+	"mages_disjunction": {
 		"name": "Mage's Disjunction",
 		"sources": [
 			"PRPG Core Rulebook",
@@ -4027,7 +4027,7 @@
 			"The duration increases to 10 minutes per caster level. The chance to destroy an antimagic field increases to 2% per caster level."
 		]
 	},
-	"mage's_faithful_hound": {
+	"mages_faithful_hound": {
 		"name": "Mage's Faithful Hound",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -4057,7 +4057,7 @@
 			"The spell lasts for 1 hour per caster level, but once the hound begins barking, it lasts only 1 round per caster level. If you are ever more than 100 feet distant from the hound, the spell ends."
 		]
 	},
-	"mage's_lucubration": {
+	"mages_lucubration": {
 		"name": "Mage's Lucubration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -4082,7 +4082,7 @@
 			"If the recalled spell requires material components, you must provide them. The recovered spell is not usable until the material components are available."
 		]
 	},
-	"mage's_magnificent_mansion": {
+	"mages_magnificent_mansion": {
 		"name": "Mage's Magnificent Mansion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -4110,7 +4110,7 @@
 			"Since the place can be entered only through its special portal, outside conditions do not affect the mansion, nor do conditions inside it pass to the plane beyond."
 		]
 	},
-	"mage's_private_sanctum": {
+	"mages_private_sanctum": {
 		"name": "Mage's Private Sanctum",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -4140,7 +4140,7 @@
 			"Mage's private sanctum can be made permanent with a permanency spell."
 		]
 	},
-	"mage's_sword": {
+	"mages_sword": {
 		"name": "Mage's Sword",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -4228,7 +4228,7 @@
 			"",
 			"### Sympathetic Aura",
 			"",
-			"**Source** [Adventurer's Guide pg. 37](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 37](source/adventurers_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 2, bard 2, mesmerist 2, occultist 2, psychic 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"#### Casting",
@@ -5045,7 +5045,7 @@
 		"description": [
 			"## Malediction (Hero Points)",
 			"",
-			"**Source** [Advanced Player's Guide pg. 324](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 324](source/advanced_players_guide)  ",
 			"**School** [necromancy](spelldef/necromancy) [[death](spelldef/death), [evil](spelldef/evil)]; **Level** arcanist 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -5214,7 +5214,7 @@
 			"You invigorate your allies, who can hustle as long as you continue to sing or chant (which requires your concentration). This movement counts as a walk (not a hustle) for the purpose of accruing nonlethal damage and fatigue. You can concentrate on this spell and hustle at the same time."
 		]
 	},
-	"marid's_mastery": {
+	"marids_mastery": {
 		"name": "Marid's Mastery",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -5275,7 +5275,7 @@
 		"description": [
 			"## Mark of Blood",
 			"",
-			"**Source** [Adventurer's Guide pg. 160](source/adventurer's_guide), [Faction Guide pg. 61](source/faction_guide)  ",
+			"**Source** [Adventurer's Guide pg. 160](source/adventurers_guide), [Faction Guide pg. 61](source/faction_guide)  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** arcanist 2, bloodrager 2, inquisitor 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5429,7 +5429,7 @@
 		"description": [
 			"## Marks Of Forbiddance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 232](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 232](source/advanced_players_guide)  ",
 			"**School** [abjuration](spelldef/abjuration) [[mind-affecting](spelldef/mindaffecting)]; **Level** paladin 3",
 			"",
 			"### Casting",
@@ -5497,7 +5497,7 @@
 			"You mingle the power of your mind and body to exert force beyond your reach. This spell functions as the combat maneuver version of telekinesis, except as noted above. Alternatively, you can inflict a telekinetic unarmed strike with this spell, using your own unarmed strike damage and applying your primary spellcasting ability score modifier to the damage in place of your Strength modifier."
 		]
 	},
-	"martyr's_bargain": {
+	"martyrs_bargain": {
 		"name": "Martyr's Bargain",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
@@ -5527,13 +5527,13 @@
 			"You can be affected by only one martyr's bargain spell at a time. If you cast this spell while you are already under the effects of a previous martyr's bargain, the previous spell effect ends and you immediately take the damage it had delayed."
 		]
 	},
-	"martyr's_last_blessing": {
+	"martyrs_last_blessing": {
 		"name": "Martyr's Last Blessing",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
 			"## Martyr's Last Blessing",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut pg. 69](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut pg. 69](source/pathfinder_68_the_shackled_hut)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** cleric 3, hunter 3, oracle 3, ranger 3, warpriest 3 (Milani)",
 			"",
 			"### Casting",
@@ -5560,7 +5560,7 @@
 		"description": [
 			"## Mask Dweomer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 232](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 232](source/advanced_players_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** occultist 1, psychic 1, witch 1",
 			"",
 			"### Casting",
@@ -5613,7 +5613,7 @@
 		"description": [
 			"## Mask from Divination",
 			"",
-			"**Source** [Adventurer's Guide pg. 125](source/adventurer's_guide), [Arcane Anthology pg. 14](source/arcane_anthology)  ",
+			"**Source** [Adventurer's Guide pg. 125](source/adventurers_guide), [Arcane Anthology pg. 14](source/arcane_anthology)  ",
 			"**School** [divination](spelldef/divination); **Level** alchemist 5, arcanist 5, bloodrager 4, investigator 5, magus 5, shaman 5, sorcerer 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -5682,13 +5682,13 @@
 			"You unleash a wave of necromantic energy that snuffs out the life force of those in its path. This wave pulses out from you in a line 5 feet wide and 30 feet long. The wave visibly rips the souls from the bodies of those it passes through, which manifest as screaming, transparent versions of the affected creatures. The wave kills every living creature of 17 or fewer HD in the line, starting with the creature closest to you, to a maximum of 1d4 HD of creatures per caster level. No creature of 18 or more HD can be affected. If a creature succeeds at its saving throw or has too many HD, it doesn't count against the HD the spell can kill The wave continues to affect creatures as it rolls away from you until you either run out of HD to affect or reach the limit of the spell's area. If the spell does not kill any creatures, the unreleased necromantic energy violently explodes in the final square of the 60-foot line, dealing 10d6 points of damage + 1 point per caster level to any creature in that square with no saving throw. If several creatures occupy the same square, roll randomly to determine which is affected."
 		]
 	},
-	"master's_escape": {
+	"masters_escape": {
 		"name": "Master's Escape",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Master's Escape",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoners_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** arcanist 4, cleric 4, druid 4, hunter 4, oracle 4, sorcerer 4, summoner 3, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -5706,13 +5706,13 @@
 			"You create an extradimensional link between yourself and one summoned creature you control that allows you to switch places. After casting master's escape, you can teleport to your summoned creature's space as a swift action, causing your summoned creature to teleport to your former space. If your summoned creature is reduced to 0 or fewer hit points before you can use this spell's effect, you can teleport to a space that you can see within 30 feet as an immediate action. After using either of these effects, the spell ends. A summoner can target his eidolon with this spell."
 		]
 	},
-	"master's_mutation": {
+	"masters_mutation": {
 		"name": "Master's Mutation",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Master's Mutation",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 23](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 23](source/monster_summoners_handbook)  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 5, druid 5, hunter 5, sorcerer 5, summoner 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -5823,7 +5823,7 @@
 		"description": [
 			"## Maw of Chaos",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_74_sword_of_valor)  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)) [[chaotic](spelldef/chaotic)]; **Level** arcanist 8, cleric 8, oracle 8, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -5922,7 +5922,7 @@
 			"*Strange City:* The creature journeys through a city of cyclopean architecture under a sky of indescribable color and numerous stars. The creature must succeed at a Will save or take 2d4 points of Wisdom damage. If your campaign uses [the sanity system](rule/sanity), the creature instead takes 2d10 points of sanity damage."
 		]
 	},
-	"medusa's_bane": {
+	"medusas_bane": {
 		"name": "Medusa's Bane",
 		"sources": [ "Divine Anthology" ],
 		"description": [
@@ -6011,7 +6011,7 @@
 		"description": [
 			"## Memory Lapse",
 			"",
-			"**Source** [Advanced Player's Guide pg. 232](source/advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 232](source/advanced_players_guide)  ",
 			"**School** [enchantment](spelldef/enchantment) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 1, bard 1, mesmerist 1, occultist 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -7231,7 +7231,7 @@
 		"description": [
 			"## Minor Reversion",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 28](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 28](source/plane-hoppers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** arcanist 3, cleric 3, oracle 3, psychic 2, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -7249,7 +7249,7 @@
 			"",
 			"### Greater Reversion",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 28](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 28](source/plane-hoppers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** arcanist 5, cleric 5, oracle 5, psychic 4, sorcerer 5, warpriest 5, wizard 5",
 			"",
 			"#### Casting",
@@ -7267,7 +7267,7 @@
 			"",
 			"### Minor Reversion, Mass",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 28](source/plane-hopper's_handbook)  ",
+			"**Source** [Plane-Hopper's Handbook pg. 28](source/plane-hoppers_handbook)  ",
 			"**School** [conjuration](spelldef/conjuration) ([healing](spelldef/healing)); **Level** arcanist 6, cleric 6, oracle 6, psychic 5, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"#### Casting",
@@ -7456,7 +7456,7 @@
 		"description": [
 			"## Mirror Mantis",
 			"",
-			"**Source** [Adventurer's Guide pg. 160](source/adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 160](source/adventurers_guide)  ",
 			"**School** [illusion](spelldef/illusion) ([phantasm](spelldef/phantasm)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 1, bard 1, cleric 1, mesmerist 1, occultist 1, oracle 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",

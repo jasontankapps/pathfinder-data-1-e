@@ -90,7 +90,7 @@
 		"description": [
 			"## Man-Eating Animal (CR +1, +2, or +3)",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor](source/pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor](source/pathfinder_74_sword_of_valor)  ",
 			"**Acquired/Inherited Template** Both  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -239,7 +239,7 @@
 		"description": [
 			"## Mummified Animal (CR +1)",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands](source/pathfinder_#81_shifting_sands)  ",
+			"**Source** [Pathfinder #81: Shifting Sands](source/pathfinder_81_shifting_sands)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -316,7 +316,7 @@
 			"",
 			"### Variant Mummy Special Abilities",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 71](source/pathfinder_#81_shifting_sands)",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 71](source/pathfinder_81_shifting_sands)",
 			"",
 			"The abilities of a mummy reflect the circumstances of its creation. Mummies that arise from traditionally embalmed corpses usually exhibit standard abilities; those arising from natural mummification or more exotic embalming rituals may not.",
 			"",
@@ -1176,7 +1176,7 @@
 		"description": [
 			"## Primordial (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster or Versatile Summon Nature's Ally",
@@ -1216,7 +1216,7 @@
 		"description": [
 			"## Prophecy-Addled Creature (CR +1)",
 			"",
-			"**Source** [Pathfinder #125: Tower of the Drowned Dead](source/pathfinder_#125_tower_of_the_drowned_dead)  ",
+			"**Source** [Pathfinder #125: Tower of the Drowned Dead](source/pathfinder_125_tower_of_the_drowned_dead)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1446,7 +1446,7 @@
 		"description": [
 			"## Rampant (CR +1)",
 			"",
-			"**Source** [Pathfinder #142: Gardens of Gallowspire](source/pathfinder_#142_gardens_of_gallowspire)  ",
+			"**Source** [Pathfinder #142: Gardens of Gallowspire](source/pathfinder_142_gardens_of_gallowspire)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1879,7 +1879,7 @@
 		"description": [
 			"## Seeded (CR +1)",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within](source/pathfinder_#113_what_grows_within)  ",
+			"**Source** [Pathfinder #113: What Grows Within](source/pathfinder_113_what_grows_within)  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2672,7 +2672,7 @@
 		"description": [
 			"## Sunbaked Zombie (CR - Depends on Base Creature)",
 			"",
-			"**Source** [Pathfinder #80: Empty Graves](source/pathfinder_#80_empty_graves)  ",
+			"**Source** [Pathfinder #80: Empty Graves](source/pathfinder_80_empty_graves)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2881,7 +2881,7 @@
 			"**Rebuild Rules:** **Ability Scores** -2 Constitution, +2 natural armor bonus; **Attacks** gains 2 claw attacks (1d6); **Special** +4 racial bonus on Stealth checks in forests."
 		]
 	},
-	"trompe_l'oeil": {
+	"trompe_loeil": {
 		"name": "Trompe l'Oeil",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -3474,7 +3474,7 @@
 		"description": [
 			"## Winter Fey (CR +1)",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut](source/pathfinder_#68_the_shackled_hut)  ",
+			"**Source** [Pathfinder #68: The Shackled Hut](source/pathfinder_68_the_shackled_hut)  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** Yes",
@@ -3503,7 +3503,7 @@
 		"description": [
 			"## Winter-Touched Fey (CR +0)",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_#67_the_snows_of_summer)  ",
+			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_67_the_snows_of_summer)  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",

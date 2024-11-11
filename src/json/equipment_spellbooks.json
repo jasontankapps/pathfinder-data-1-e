@@ -45,10 +45,10 @@
 			"#### Spells",
 			"",
 			"- 6th-[contingency](spell/contingency)[^S], [freezing sphere](spell/freezing_sphere)[^S], [repulsion](spell/repulsion)",
-			"- 5th-[cone of cold](spell/cone_of_cold)[^S], [mage's private sanctum](spell/mage's_private_sanctum), [permanency](spell/permanency), [teleport](spell/teleport), [wall of force](spell/wall_of_force)[^S]",
+			"- 5th-[cone of cold](spell/cone_of_cold)[^S], [mage's private sanctum](spell/mages_private_sanctum), [permanency](spell/permanency), [teleport](spell/teleport), [wall of force](spell/wall_of_force)[^S]",
 			"- 4th-[ice storm](spell/ice_storm)[^S], [shout](spell/shout)[^S], [stoneskin](spell/stoneskin), [symbol of revelation](spell/symbol_of_revelation), [wall of ice](spell/wall_of_ice)[^S]",
 			"- 3rd-[arcane sight](spell/arcane_sight), [dispel magic](spell/dispel_magic), [elemental aura](spell/elemental_aura)[^S], [fire trap](spell/fire_trap), [heroism](spell/heroism), [lightning bolt](spell/lightning_bolt)[^S], [phantom steed](spell/phantom_steed), [seek thoughts](spell/seek_thoughts)",
-			"- 2nd-[bull's strength](spell/bull's_strength), [false life](spell/false_life)[^OP], [glitterdust](spell/glitterdust), [hideous laughter](spell/hideous_laughter), [make whole](spell/make_whole), [resist energy](spell/resist_energy), [rope trick](spell/rope_trick)",
+			"- 2nd-[bull's strength](spell/bulls_strength), [false life](spell/false_life)[^OP], [glitterdust](spell/glitterdust), [hideous laughter](spell/hideous_laughter), [make whole](spell/make_whole), [resist energy](spell/resist_energy), [rope trick](spell/rope_trick)",
 			"- 1st-[detect secret doors](spell/detect_secret_doors), [endure elements](spell/endure_elements), [enlarge person](spell/enlarge_person), [feather fall](spell/feather_fall), [mage armor](spell/mage_armor), [magic missile](spell/magic_missile)[^S], [obscuring mist](spell/obscuring_mist), [shield](spell/shield), [shocking grasp](spell/shocking_grasp)[^S]",
 			"",
 			"#### Ritual",
@@ -59,7 +59,7 @@
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
-	"arrowsong's_sorrow": {
+	"arrowsongs_sorrow": {
 		"name": "Arrowsong's Sorrow",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -154,11 +154,11 @@
 			"",
 			"- 4th-[dimension door](spell/dimension_door), [lesser age resistance](spell/lesser_age_resistance), [liquefy](spell/liquefy)",
 			"- 3rd-[deft digits](spell/deft_digits), [dispel magic](spell/dispel_magic), [greater magic weapon](spell/greater_magic_weapon), [haste](spell/haste), [hostile levitation](spell/hostile_levitation), [rags to riches](spell/rags_to_riches)",
-			"- 2nd-[alter self](spell/alter_self), [darkvision](spell/darkvision), [fool's gold](spell/fool's_gold_aa), [glide](spell/glide), [glitterdust](spell/glitterdust), [scorching ray](spell/scorching_ray), [touch of idiocy](spell/touch_of_idiocy)",
+			"- 2nd-[alter self](spell/alter_self), [darkvision](spell/darkvision), [fool's gold](spell/fools_gold_aa), [glide](spell/glide), [glitterdust](spell/glitterdust), [scorching ray](spell/scorching_ray), [touch of idiocy](spell/touch_of_idiocy)",
 			"- 1st-[ant haul](spell/ant_haul), [jury-rig](spell/jury-rig), [mage armor](spell/mage_armor), [magic missile](spell/magic_missile), [polypurpose panacea](spell/polypurpose_panacea), [shocking grasp](spell/shocking_grasp), [sleep](spell/sleep), [tears to wine](spell/tears_to_wine)"
 		]
 	},
-	"chymist's_guidebook": {
+	"chymists_guidebook": {
 		"name": "Chymist's Guidebook",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -176,7 +176,7 @@
 			"- 5th-[delayed consumption](spell/delayed_consumption), [magic jar](spell/magic_jar), [spell resistance](spell/spell_resistance)",
 			"- 4th-[detonate](spell/detonate), [freedom of movement](spell/freedom_of_movement), [greater invisibility](spell/greater_invisibility), [restoration](spell/restoration), [stoneskin](spell/stoneskin)",
 			"- 3rd-[amplify elixir](spell/amplify_elixir), [arcane sight](spell/arcane_sight), [haste](spell/haste), [heroism](spell/heroism), [protection from energy](spell/protection_from_energy), [thorn body](spell/thorn_body)",
-			"- 2nd-[alter self](spell/alter_self), [bear's endurance](spell/bear's_endurance), [false life](spell/false_life), [fire breath](spell/fire_breath), [see invisibility](spell/see_invisibility), [transmute potion to poison](spell/transmute_potion_to_poison)",
+			"- 2nd-[alter self](spell/alter_self), [bear's endurance](spell/bears_endurance), [false life](spell/false_life), [fire breath](spell/fire_breath), [see invisibility](spell/see_invisibility), [transmute potion to poison](spell/transmute_potion_to_poison)",
 			"- 1st-[ant haul](spell/ant_haul), [comprehend languages](spell/comprehend_languages), [cure light wounds](spell/cure_light_wounds), [detect secret doors](spell/detect_secret_doors), [enlarge person](spell/enlarge_person), [jump](spell/jump), [keen senses](spell/keen_senses), [negate aroma](spell/negate_aroma), [shield](spell/shield), [true strike](spell/true_strike)"
 		]
 	},
@@ -253,7 +253,7 @@
 			"[^S]: A spell from the caster's specialty school."
 		]
 	},
-	"erages_journeyman's_manual": {
+	"erages_journeymans_manual": {
 		"name": "Erages Journeyman's Manual",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -291,15 +291,15 @@
 			"#### Spells",
 			"",
 			"- 3rd-[absorbing touch](spell/absorbing_touch), [arcane sight](spell/arcane_sight), [draconic reservoir](spell/draconic_reservoir), [seek thoughts](spell/seek_thoughts)",
-			"- 2nd-[cat's grace](spell/cat's_grace), [invisibility](spell/invisibility), [perceive cues](spell/perceive_cues), [resist energy](spell/resist_energy), [see invisibility](spell/see_invisibility), [undetectable alignment](spell/undetectable_alignment)",
-			"- 1st-[ant haul](spell/ant_haul), [bomber's eye](spell/bomber's_eye), [comprehend languages](spell/comprehend_languages), [detect secret doors](spell/detect_secret_doors), [disguise self](spell/disguise_self), [expeditious retreat](spell/expeditious_retreat), [true strike](spell/true_strike)",
+			"- 2nd-[cat's grace](spell/cats_grace), [invisibility](spell/invisibility), [perceive cues](spell/perceive_cues), [resist energy](spell/resist_energy), [see invisibility](spell/see_invisibility), [undetectable alignment](spell/undetectable_alignment)",
+			"- 1st-[ant haul](spell/ant_haul), [bomber's eye](spell/bombers_eye), [comprehend languages](spell/comprehend_languages), [detect secret doors](spell/detect_secret_doors), [disguise self](spell/disguise_self), [expeditious retreat](spell/expeditious_retreat), [true strike](spell/true_strike)",
 			"",
 			"#### Ritual",
 			"",
 			"**Blast Finesse (Su)** As an immediate action when you throw a bomb, you can spend this boon to shape the blast by adding up to three 5-foot squares to the area, as long as these spaces are adjacent to the bomb's normal area of effect."
 		]
 	},
-	"grandfather's_legacy": {
+	"grandfathers_legacy": {
 		"name": "Grandfather's Legacy",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -436,10 +436,10 @@
 			"",
 			"#### Spells",
 			"",
-			"- 4th-[dragon's breath](spell/dragon's_breath)",
+			"- 4th-[dragon's breath](spell/dragons_breath)",
 			"- 3rd-[beast shape I](spell/beast_shape_i), [rage](spell/rage), [tongues](spell/tongues), [water breathing](spell/water_breathing)",
-			"- 2nd-[barkskin](spell/barkskin), [bull's strength](spell/bull's_strength), [cure moderate wounds](spell/cure_moderate_wounds), [elemental touch](spell/elemental_touch), [resist energy](spell/resist_energy)",
-			"- 1st-[bomber's eye](spell/bomber's_eye), [comprehend languages](spell/comprehend_languages), [crafter's fortune](spell/crafter's_fortune), [cure light wounds](spell/cure_light_wounds), [disguise self](spell/disguise_self), [enlarge person](spell/enlarge_person), [identify](spell/identify), [shield](spell/shield)",
+			"- 2nd-[barkskin](spell/barkskin), [bull's strength](spell/bulls_strength), [cure moderate wounds](spell/cure_moderate_wounds), [elemental touch](spell/elemental_touch), [resist energy](spell/resist_energy)",
+			"- 1st-[bomber's eye](spell/bombers_eye), [comprehend languages](spell/comprehend_languages), [crafter's fortune](spell/crafters_fortune), [cure light wounds](spell/cure_light_wounds), [disguise self](spell/disguise_self), [enlarge person](spell/enlarge_person), [identify](spell/identify), [shield](spell/shield)",
 			"",
 			"#### Ritual",
 			"",
@@ -491,7 +491,7 @@
 			"#### Spells",
 			"",
 			"- 2nd-[blur](spell/blur), [delay poison](spell/delay_poison), [fire breath](spell/fire_breath), [transmute potion to poison](spell/transmute_potion_to_poison), [vomit swarm](spell/vomit_swarm)",
-			"- 1st-[bomber's eye](spell/bomber's_eye), [comprehend languages](spell/comprehend_languages), [cure light wounds](spell/cure_light_wounds), [jump](spell/jump), [keen senses](spell/keen_senses), [negate aroma](spell/negate_aroma), [resist energy](spell/resist_energy), [touch of the sea](spell/touch_of_the_sea)",
+			"- 1st-[bomber's eye](spell/bombers_eye), [comprehend languages](spell/comprehend_languages), [cure light wounds](spell/cure_light_wounds), [jump](spell/jump), [keen senses](spell/keen_senses), [negate aroma](spell/negate_aroma), [resist energy](spell/resist_energy), [touch of the sea](spell/touch_of_the_sea)",
 			"",
 			"#### Ritual",
 			"",
@@ -517,7 +517,7 @@
 			"- 7th-[control weather](spell/control_weather), [elemental body IV](spell/elemental_body_iv), [phantasmal revenge](spell/phantasmal_revenge), [power word blind](spell/power_word_blind), [rampart](spell/rampart), [spell turning](spell/spell_turning)",
 			"- 6th-[beast shape IV](spell/beast_shape_iv), [cloak of dreams](spell/cloak_of_dreams), [control water](spell/control_water), [fluid form](spell/fluid_form), [getaway](spell/getaway), [plant shape II](spell/plant_shape_ii)",
 			"- 5th-[fabricate](spell/fabricate), [fire snake](spell/fire_snake), [geyser](spell/geyser), [hold monster](spell/hold_monster), [overland flight](spell/overland_flight), [planar adaptation](spell/planar_adaptation), [telekinesis](spell/telekinesis)",
-			"- 4th-[dragon's breath](spell/dragon's_breath), [dimension door](spell/dimension_door), [firefall](spell/firefall), [greater invisibility](spell/greater_invisibility), [moonstruck](spell/moonstruck), [resilient sphere](spell/resilient_sphere), [true form](spell/true_form), [wandering star motes](spell/wandering_star_motes)",
+			"- 4th-[dragon's breath](spell/dragons_breath), [dimension door](spell/dimension_door), [firefall](spell/firefall), [greater invisibility](spell/greater_invisibility), [moonstruck](spell/moonstruck), [resilient sphere](spell/resilient_sphere), [true form](spell/true_form), [wandering star motes](spell/wandering_star_motes)",
 			"- 3rd-[blink](spell/blink), [cloak of winds](spell/cloak_of_winds), [elemental aura](spell/elemental_aura), [fly](spell/fly), [shifting sand](spell/shifting_sand), [twilight knife](spell/twilight_knife), [versatile weapon](spell/versatile_weapon)",
 			"- 2nd-[accelerate poison](spell/accelerate_poison), [arrow eruption](spell/arrow_eruption), [dust of twilight](spell/dust_of_twilight), [elemental speech](spell/elemental_speech), [alter self](spell/alter_self), [fire breath](spell/fire_breath), [share language](spell/share_language), [slipstream](spell/slipstream)",
 			"- 1st-[alter winds](spell/alter_winds), [ant haul](spell/ant_haul), [endure elements](spell/endure_elements), [feather fall](spell/feather_fall), [flare burst](spell/flare_burst), [identify](spell/identify), [stone fist](spell/stone_fist), [touch of the sea](spell/touch_of_the_sea), [true strike](spell/true_strike), [vanish](spell/vanish)",
@@ -578,7 +578,7 @@
 			"",
 			"#### Spells",
 			"",
-			"- 5th-[break enchantment](spell/break_enchantment), [mage's private sanctum](spell/mage's_private_sanctum), [polymorph](spell/polymorph), [treasure stitching](spell/treasure_stitching)",
+			"- 5th-[break enchantment](spell/break_enchantment), [mage's private sanctum](spell/mages_private_sanctum), [polymorph](spell/polymorph), [treasure stitching](spell/treasure_stitching)",
 			"- 4th-[charm monster](spell/charm_monster), [dimension door](spell/dimension_door), [greater invisibility](spell/greater_invisibility), [moonstruck](spell/moonstruck), [true form](spell/true_form)",
 			"- 3rd-[cloak of winds](spell/cloak_of_winds), [explosive runes](spell/explosive_runes), [haste](spell/haste), [lightning bolt](spell/lightning_bolt), [nondetection](spell/nondetection), [twilight knife](spell/twilight_knife)",
 			"- 2nd-[acid arrow](spell/acid_arrow), [burning gaze](spell/burning_gaze), [dust of twilight](spell/dust_of_twilight), [fog cloud](spell/fog_cloud), [protection from arrows](spell/protection_from_arrows), [spider climb](spell/spider_climb)",
@@ -640,11 +640,11 @@
 			"",
 			"#### Spells",
 			"",
-			"- 9th-[dominate monster](spell/dominate_monster)[^S], [foresight](spell/foresight), [mage's disjunction](spell/mage's_disjunction), [mass hold monster](spell/mass_hold_monster)[^S], [mass suffocation](spell/mass_suffocation), [power word kill](spell/power_word_kill)[^S], [time stop](spell/time_stop)",
+			"- 9th-[dominate monster](spell/dominate_monster)[^S], [foresight](spell/foresight), [mage's disjunction](spell/mages_disjunction), [mass hold monster](spell/mass_hold_monster)[^S], [mass suffocation](spell/mass_suffocation), [power word kill](spell/power_word_kill)[^S], [time stop](spell/time_stop)",
 			"- 8th-[binding](spell/binding)[^S], [clone](spell/clone), [irresistible dance](spell/irresistible_dance)[^S], [mind blank](spell/mind_blank), [polymorph any object](spell/polymorph_any_object), [power word stun](spell/power_word_stun)[^S], [sunburst](spell/sunburst)",
 			"- 7th-[deflection](spell/deflection), [greater arcane sight](spell/greater_arcane_sight), [instant summons](spell/instant_summons)[^OP], [limited wish](spell/limited_wish), [mass hold person](spell/mass_hold_person)[^S], [plane shift](spell/plane_shift)[^OP], [power word blind](spell/power_word_blind)[^S], [resonating word](spell/resonating_word), [symbol of stunning](spell/symbol_of_stunning)[^S]",
-			"- 6th-[cloak of dreams](spell/cloak_of_dreams)[^S], [contingency](spell/contingency), [enemy hammer](spell/enemy_hammer), [forceful hand](spell/forceful_hand), [greater dispel magic](spell/greater_dispel_magic), [geas/quest](spell/geas_quest)[^S], [legend lore](spell/legend_lore), [mage's lucubration](spell/mage's_lucubration), [true seeing](spell/true_seeing)",
-			"- 5th-[dismissal](spell/dismissal), [dominate person](spell/dominate_person)[^S], [fabricate](spell/fabricate), [icy prison](spell/icy_prison), [feeblemind](spell/feeblemind)[^S], [mage's private sanctum](spell/mage's_private_sanctum), [permanency](spell/permanency), [prying eyes](spell/prying_eyes), [teleport](spell/teleport)[^OP]",
+			"- 6th-[cloak of dreams](spell/cloak_of_dreams)[^S], [contingency](spell/contingency), [enemy hammer](spell/enemy_hammer), [forceful hand](spell/forceful_hand), [greater dispel magic](spell/greater_dispel_magic), [geas/quest](spell/geas_quest)[^S], [legend lore](spell/legend_lore), [mage's lucubration](spell/mages_lucubration), [true seeing](spell/true_seeing)",
+			"- 5th-[dismissal](spell/dismissal), [dominate person](spell/dominate_person)[^S], [fabricate](spell/fabricate), [icy prison](spell/icy_prison), [feeblemind](spell/feeblemind)[^S], [mage's private sanctum](spell/mages_private_sanctum), [permanency](spell/permanency), [prying eyes](spell/prying_eyes), [teleport](spell/teleport)[^OP]",
 			"- 4th-[bestow curse](spell/bestow_curse), [crushing despair](spell/crushing_despair)[^S], [dimensional anchor](spell/dimensional_anchor), [fear](spell/fear), [moonstruck](spell/moonstruck)[^S], [resilient sphere](spell/resilient_sphere), [stone shape](spell/stone_shape), [stoneskin](spell/stoneskin)",
 			"- 3rd-[fireball](spell/fireball), [fly](spell/fly), [greater magic weapon](spell/greater_magic_weapon), [heroism](spell/heroism)[^S], [loathsome veil](spell/loathsome_veil), [nondetection](spell/nondetection), [protection from energy](spell/protection_from_energy), [suggestion](spell/suggestion)[^S]",
 			"- 2nd-[arcane lock](spell/arcane_lock), [continual flame](spell/continual_flame), [false life](spell/false_life), [hideous laughter](spell/hideous_laughter)[^S], [magic mouth](spell/magic_mouth)[^OP], [mirror image](spell/mirror_image)[^OP], [resist energy](spell/resist_energy), [rope trick](spell/rope_trick), [see invisibility](spell/see_invisibility), [touch of idiocy](spell/touch_of_idiocy)[^S]",
@@ -693,7 +693,7 @@
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
-	"nyzam's_remedies": {
+	"nyzams_remedies": {
 		"name": "Nyzam's Remedies",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -734,7 +734,7 @@
 			"- 5th-[dominate person](spell/dominate_person), [fire snake](spell/fire_snake), [prying eyes](spell/prying_eyes)[^S], [teleport](spell/teleport)[^OP], [telepathic bond](spell/telepathic_bond)[^S]",
 			"- 4th-[arcane eye](spell/arcane_eye)[^S], [confusion](spell/confusion), [detect scrying](spell/detect_scrying)[^S], [fear](spell/fear), [ice storm](spell/ice_storm), [wall of fire](spell/wall_of_fire)",
 			"- 3rd-[clairaudience/clairvoyance](spell/clairaudience_clairvoyance)[^S], [dispel magic](spell/dispel_magic), [displacement](spell/displacement), [greater magic weapon](spell/greater_magic_weapon)[^OP], [hydraulic torrent](spell/hydraulic_torrent), [lightning bolt](spell/lightning_bolt), [seek thoughts](spell/seek_thoughts), [tongues](spell/tongues)[^S]",
-			"- 2nd-[arcane lock](spell/arcane_lock), [false life](spell/false_life), [fox's cunning](spell/fox's_cunning)[^OP], [locate object](spell/locate_object)[^S], [resist energy](spell/resist_energy), [scorching ray](spell/scorching_ray), [see invisibility](spell/see_invisibility)[^S], [touch of idiocy](spell/touch_of_idiocy)",
+			"- 2nd-[arcane lock](spell/arcane_lock), [false life](spell/false_life), [fox's cunning](spell/foxs_cunning)[^OP], [locate object](spell/locate_object)[^S], [resist energy](spell/resist_energy), [scorching ray](spell/scorching_ray), [see invisibility](spell/see_invisibility)[^S], [touch of idiocy](spell/touch_of_idiocy)",
 			"- 1st-[alarm](spell/alarm), [charm person](spell/charm_person), [comprehend languages](spell/comprehend_languages)[^S], [color spray](spell/color_spray), [detect secret doors](spell/detect_secret_doors)[^S], [expeditious excavation](spell/expeditious_excavation)[^OP], [floating disk](spell/floating_disk), [protection from evil](spell/protection_from_evil), [shield](spell/shield), [true strike](spell/true_strike)[^S], [ventriloquism](spell/ventriloquism)",
 			"",
 			"#### Ritual",
@@ -762,7 +762,7 @@
 			"",
 			"- 9th-[fiery body](spell/fiery_body), [greater create demiplane](spell/greater_create_demiplane), [shapechange](spell/shapechange), [time stop](spell/time_stop), [transmute blood to acid](spell/transmute_blood_to_acid), [transmute golem](spell/transmute_golem)",
 			"- 8th-[frightful aspect](spell/frightful_aspect), [greater planar binding](spell/greater_planar_binding), [greater shout](spell/greater_shout), [moment of prescience](spell/moment_of_prescience), [polymorph any object](spell/polymorph_any_object), [temporal stasis](spell/temporal_stasis)",
-			"- 7th-[artificer's curse](spell/artificer's_curse), [control construct](spell/control_construct), [emblem of greed](spell/emblem_of_greed), [firebrand](spell/firebrand), [greater age resistance](spell/greater_age_resistance), [greater teleport](spell/greater_teleport), [legendary proportions](spell/legendary_proportions), [reverse gravity](spell/reverse_gravity)",
+			"- 7th-[artificer's curse](spell/artificers_curse), [control construct](spell/control_construct), [emblem of greed](spell/emblem_of_greed), [firebrand](spell/firebrand), [greater age resistance](spell/greater_age_resistance), [greater teleport](spell/greater_teleport), [legendary proportions](spell/legendary_proportions), [reverse gravity](spell/reverse_gravity)",
 			"- 6th-[enemy hammer](spell/enemy_hammer), [disintegrate](spell/disintegrate), [flesh to stone](spell/flesh_to_stone), [globe of invulnerability](spell/globe_of_invulnerability), [monstrous physique IV](spell/monstrous_physique_iv), [sonic form](spell/sonic_form), [tar pool](spell/tar_pool), [transformation](spell/transformation)",
 			"- 5th-[baleful polymorph](spell/baleful_polymorph), [beast shape III](spell/beast_shape_iii), [contact other plane](spell/contact_other_plane), [monstrous physique III](spell/monstrous_physique_iii), [open arms](spell/open_arms), [permanency](spell/permanency), [polymorph](spell/polymorph), [rune of ruin](spell/rune_of_ruin), [telekinesis](spell/telekinesis), [treasure stitching](spell/treasure_stitching)",
 			"- 4th-[arcane eye](spell/arcane_eye), [black tentacles](spell/black_tentacles), [dimension door](spell/dimension_door), [fire shield](spell/fire_shield), [greater darkvision](spell/greater_darkvision), [monstrous physique II](spell/monstrous_physique_ii), [obsidian flow](spell/obsidian_flow), [stoneskin](spell/stoneskin), [telekinetic charge](spell/telekinetic_charge), [true form](spell/true_form)",
@@ -775,7 +775,7 @@
 			"**Change Magic (Su)** Even the nature of magic is susceptible to your powerful transmutations. You can spend this boon as a swift action to declare a non-transmutation spell you are casting to be \"changed magic.\" This spell becomes a transmutation effect, and benefits from any abilities or feats that influence your transmutation spells and can be applied to the spell you cast (such as [Spell Focus](feat/spell_focus))."
 		]
 	},
-	"sarini's_workbook": {
+	"sarinis_workbook": {
 		"name": "Sarini's Workbook",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -789,7 +789,7 @@
 			"",
 			"#### Spells",
 			"",
-			"- 6th-[mass eagle's splendor](spell/mass_eagle's_splendor), [transformation](spell/transformation)",
+			"- 6th-[mass eagle's splendor](spell/mass_eagles_splendor), [transformation](spell/transformation)",
 			"- 5th-[baleful polymorph](spell/baleful_polymorph), [shadow evocation](spell/shadow_evocation), [telekinesis](spell/telekinesis), [teleport](spell/teleport), [vampiric shadow shield](spell/vampiric_shadow_shield), [wall of force](spell/wall_of_force)",
 			"- 4th-[black tentacles](spell/black_tentacles), [charm monster](spell/charm_monster), [greater flaming sphere](spell/greater_flaming_sphere), [mass enlarge person](spell/mass_enlarge_person), [mass reduce person](spell/mass_reduce_person), [tough crowd](spell/tough_crowd), [wreath of blades](spell/wreath_of_blades)",
 			"- 3rd-[burst of speed](spell/burst_of_speed), [dispel magic](spell/dispel_magic), [fly](spell/fly), [heckle](spell/heckle), [major image](spell/major_image), [stage fright](spell/stage_fright)",
@@ -841,17 +841,17 @@
 			"",
 			"- 6th-[elemental body III](spell/elemental_body_iii), [form of the dragon I](spell/form_of_the_dragon_i), [heal](spell/heal), [shadow walk](spell/shadow_walk), [transformation](spell/transformation), [twin form](spell/twin_form)",
 			"- 5th-[delayed consumption](spell/delayed_consumption), [dream](spell/dream), [elude time](spell/elude_time), [nightmare](spell/nightmare), [overland flight](spell/overland_flight), [resurgent transformation](spell/resurgent_transformation), [spell resistance](spell/spell_resistance)",
-			"- 4th-[detonate](spell/detonate), [dragon's breath](spell/dragon's_breath), [fire shield](spell/fire_shield), [fluid form](spell/fluid_form), [greater invisibility](spell/greater_invisibility), [neutralize poison](spell/neutralize_poison), [stoneskin](spell/stoneskin), [universal formula](spell/universal_formula)",
+			"- 4th-[detonate](spell/detonate), [dragon's breath](spell/dragons_breath), [fire shield](spell/fire_shield), [fluid form](spell/fluid_form), [greater invisibility](spell/greater_invisibility), [neutralize poison](spell/neutralize_poison), [stoneskin](spell/stoneskin), [universal formula](spell/universal_formula)",
 			"- 3rd-[absorbing touch](spell/absorbing_touch), [amplify elixir](spell/amplify_elixir), [bloodhound](spell/bloodhound), [displacement](spell/displacement), [draconic reservoir](spell/draconic_reservoir), [haste](spell/haste), [heroism](spell/heroism), [seek thoughts](spell/seek_thoughts), [thorn body](spell/thorn_body)",
-			"- 2nd-[alchemical allocation](spell/alchemical_allocation), [barkskin](spell/barkskin), [bull's strength](spell/bull's_strength), [cat's grace](spell/cat's_grace), [elemental touch](spell/elemental_touch), [fire breath](spell/fire_breath), [perceive cues](spell/perceive_cues), [see invisibility](spell/see_invisibility), [transmute potion to poison](spell/transmute_potion_to_poison), [vomit swarm](spell/vomit_swarm)",
-			"- 1st-[bomber's eye](spell/bomber's_eye), [comprehend languages](spell/comprehend_languages), [crafter's fortune](spell/crafter's_fortune), [disguise self](spell/disguise_self), [endure elements](spell/endure_elements), [keen senses](spell/keen_senses), [negate aroma](spell/negate_aroma), [shield](spell/shield), [stone fist](spell/stone_fist), [touch of the sea](spell/touch_of_the_sea)",
+			"- 2nd-[alchemical allocation](spell/alchemical_allocation), [barkskin](spell/barkskin), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), [elemental touch](spell/elemental_touch), [fire breath](spell/fire_breath), [perceive cues](spell/perceive_cues), [see invisibility](spell/see_invisibility), [transmute potion to poison](spell/transmute_potion_to_poison), [vomit swarm](spell/vomit_swarm)",
+			"- 1st-[bomber's eye](spell/bombers_eye), [comprehend languages](spell/comprehend_languages), [crafter's fortune](spell/crafters_fortune), [disguise self](spell/disguise_self), [endure elements](spell/endure_elements), [keen senses](spell/keen_senses), [negate aroma](spell/negate_aroma), [shield](spell/shield), [stone fist](spell/stone_fist), [touch of the sea](spell/touch_of_the_sea)",
 			"",
 			"#### Ritual",
 			"",
 			"**Spontaneous Bomb (Su)** When it comes to bombs, you have a special trick up your sleeve. Once per day as a swift action, you can apply a discovery that you qualify for (but do not already know) to a bomb. This does not allow you to stack non-stacking discoveries on a bomb."
 		]
 	},
-	"the_guide's_analects": {
+	"the_guides_analects": {
 		"name": "The Guide's Analects",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -865,7 +865,7 @@
 			"",
 			"#### Spells",
 			"",
-			"- 3rd-[Aroden's spellsword](spell/aroden's_spellsword), [heroism](spell/heroism), [lesser guardian monument](spell/lesser_guardian_monument), [magic circle against evil](spell/magic_circle_against_evil)",
+			"- 3rd-[Aroden's spellsword](spell/arodens_spellsword), [heroism](spell/heroism), [lesser guardian monument](spell/lesser_guardian_monument), [magic circle against evil](spell/magic_circle_against_evil)",
 			"- 2nd-[arcane disruption](spell/arcane_disruption), [human potential](spell/human_potential), [masterwork transformation](spell/masterwork_transformation), [winged sword](spell/winged_sword)",
 			"- 1st-[detect undead](spell/detect_undead), [endure elements](spell/endure_elements), [expeditious construction](spell/expeditious_construction), [heightened awareness](spell/heightened_awareness), [linked legacy](spell/linked_legacy), [mage armor](spell/mage_armor)",
 			"",
@@ -874,7 +874,7 @@
 			"**Glorious Blade (Su)** When you attack with a sword (including swordlike effects created by spells such as [spiritual weapon](spell/spiritual_weapon), as long as they require attack rolls), you can expend a prepared spell or spell slot as a free action to spend this boon. If you do, you gain an insight bonus on the attack roll equal to the level of the prepared spell or spell slot expended."
 		]
 	},
-	"the_last_azlanti's_analects": {
+	"the_last_azlantis_analects": {
 		"name": "The Last Azlanti's Analects",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -890,8 +890,8 @@
 			"#### Spells",
 			"",
 			"- 8th-[dimensional lock](spell/dimensional_lock), [iron body](spell/iron_body)",
-			"- 7th-[Aroden's magic army](spell/aroden's_magic_army), [delayed blast fireball](spell/delayed_blast_fireball), [instant summons](spell/instant_summons), [limited wish](spell/limited_wish)",
-			"- 6th-[antimagic field](spell/antimagic_field), [Last Azlanti's defending sword](spell/last_azlanti's_defending_sword), [mass human potential](spell/mass_human_potential), [transformation](spell/transformation)",
+			"- 7th-[Aroden's magic army](spell/arodens_magic_army), [delayed blast fireball](spell/delayed_blast_fireball), [instant summons](spell/instant_summons), [limited wish](spell/limited_wish)",
+			"- 6th-[antimagic field](spell/antimagic_field), [Last Azlanti's defending sword](spell/last_azlantis_defending_sword), [mass human potential](spell/mass_human_potential), [transformation](spell/transformation)",
 			"- 5th-[banishing blade](spell/banishing_blade), [cone of cold](spell/cone_of_cold), [fabricate](spell/fabricate), [greater guardian monument](spell/greater_guardian_monument)",
 			"- 4th-[dimensional anchor](spell/dimensional_anchor), [fear](spell/fear), [locate creature](spell/locate_creature), [resilient sphere](spell/resilient_sphere)",
 			"- 3rd-[daylight](spell/daylight), [dispel magic](spell/dispel_magic), [fireball](spell/fireball), [greater magic weapon](spell/greater_magic_weapon)",
@@ -917,7 +917,7 @@
 			"",
 			"#### Spells",
 			"",
-			"- 4th-[arcane eye](spell/arcane_eye), [eyes of the void](spell/eyes_of_the_void), [medusa's bane](spell/medusa's_bane)",
+			"- 4th-[arcane eye](spell/arcane_eye), [eyes of the void](spell/eyes_of_the_void), [medusa's bane](spell/medusas_bane)",
 			"- 3rd-[arcane sight](spell/arcane_sight), [channel the gift](spell/channel_the_gift), [fractions of heal and harm](spell/fractions_of_heal_and_harm)",
 			"- 2nd-[darkvision](spell/darkvision), [burning gaze](spell/burning_gaze), [see invisibility](spell/see_invisibility), [spell gauge](spell/spell_gauge)",
 			"- 1st-[countless eyes](spell/countless_eyes), [detect secret doors](spell/detect_secret_doors), [identify](spell/identify), [invisibility alarm](spell/invisibility_alarm), [see alignment](spell/see_alignment), [true strike](spell/true_strike)",
@@ -927,7 +927,7 @@
 			"**Keen Perception (Su)** You can spend this boon to gain a +2 insight bonus on a single Perception or Sense Motive check."
 		]
 	},
-	"the_swordsman's_analects": {
+	"the_swordsmans_analects": {
 		"name": "The Swordsman's Analects",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
@@ -1009,7 +1009,7 @@
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
-	"traveler's_tome": {
+	"travelers_tome": {
 		"name": "Traveler's Tome",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
@@ -1045,7 +1045,7 @@
 			"",
 			"#### Spells",
 			"",
-			"- 2nd-[fox's cunning](spell/fox's_cunning), [scorching ray](spell/scorching_ray)",
+			"- 2nd-[fox's cunning](spell/foxs_cunning), [scorching ray](spell/scorching_ray)",
 			"- 1st-[alarm](spell/alarm), [feather fall](spell/feather_fall), [obscuring mist](spell/obscuring_mist), [mount](spell/mount), [shield](spell/shield), [shocking grasp](spell/shocking_grasp), [silent image](spell/silent_image), [sleep](spell/sleep)"
 		]
 	},
@@ -1063,11 +1063,11 @@
 			"",
 			"#### Spells",
 			"",
-			"- 9th-[gate](spell/gate), [mage's disjunction](spell/mage's_disjunction), [meteor swarm](spell/meteor_swarm), [time stop](spell/time_stop)",
+			"- 9th-[gate](spell/gate), [mage's disjunction](spell/mages_disjunction), [meteor swarm](spell/meteor_swarm), [time stop](spell/time_stop)",
 			"- 8th-[maze](spell/maze), [polymorph any object](spell/polymorph_any_object), [power word stun](spell/power_word_stun), [summon monster VIII](spell/summon_monster_8)",
-			"- 7th-[forcecage](spell/forcecage), [mage's sword](spell/mage's_sword), [mass invisibility](spell/mass_invisibility), [summon monster VII](spell/summon_monster_7)",
-			"- 6th-[chain lightning](spell/chain_lightning), [globe of invulnerability](spell/globe_of_invulnerability), [Jatembe's ire](spell/jatembe's_ire), [legend lore](spell/legend_lore), [mislead](spell/mislead), [summon monster VI](spell/summon_monster_6), [true seeing](spell/true_seeing)",
-			"- 5th-[baleful polymorph](spell/baleful_polymorph), [cloudkill](spell/cloudkill), [communal stoneskin](spell/communal_stoneskin), [cone of cold](spell/cone_of_cold), [mage's faithful hound](spell/mage's_faithful_hound), [overland flight](spell/overland_flight)",
+			"- 7th-[forcecage](spell/forcecage), [mage's sword](spell/mages_sword), [mass invisibility](spell/mass_invisibility), [summon monster VII](spell/summon_monster_7)",
+			"- 6th-[chain lightning](spell/chain_lightning), [globe of invulnerability](spell/globe_of_invulnerability), [Jatembe's ire](spell/jatembes_ire), [legend lore](spell/legend_lore), [mislead](spell/mislead), [summon monster VI](spell/summon_monster_6), [true seeing](spell/true_seeing)",
+			"- 5th-[baleful polymorph](spell/baleful_polymorph), [cloudkill](spell/cloudkill), [communal stoneskin](spell/communal_stoneskin), [cone of cold](spell/cone_of_cold), [mage's faithful hound](spell/mages_faithful_hound), [overland flight](spell/overland_flight)",
 			"- 4th-[communal protection from energy](spell/communal_protection_from_energy), [dimension door](spell/dimension_door), [enervation](spell/enervation), [greater celestial healing](spell/greater_celestial_healing), [mass enlarge person](spell/mass_enlarge_person), [wall of fire](spell/wall_of_fire)",
 			"- 3rd-[communal resist energy](spell/communal_resist_energy), [fireball](spell/fireball), [haste](spell/haste), [lightning bolt](spell/lightning_bolt), [planar inquiry](spell/planar_inquiry)",
 			"- 2nd-[blur](spell/blur), [communal protection from evil](spell/communal_protection_from_evil), [glitterdust](spell/glitterdust), [mirror image](spell/mirror_image)",
@@ -1092,7 +1092,7 @@
 			"",
 			"#### Spells",
 			"",
-			"- 6th-[chain lightning](spell/chain_lightning), [contagious flame](spell/contagious_flame), [Jatembe's ire](spell/jatembe's_ire), [legend lore](spell/legend_lore), [planar binding](spell/planar_binding)",
+			"- 6th-[chain lightning](spell/chain_lightning), [contagious flame](spell/contagious_flame), [Jatembe's ire](spell/jatembes_ire), [legend lore](spell/legend_lore), [planar binding](spell/planar_binding)",
 			"- 5th-[dismissal](spell/dismissal), [lesser planar binding](spell/lesser_planar_binding), [overland flight](spell/overland_flight), [polymorph](spell/polymorph), [sending](spell/sending), [summon monster V](spell/summon_monster_5), [telepathic bond](spell/telepathic_bond)",
 			"- 4th-[black tentacles](spell/black_tentacles), [dimensional anchor](spell/dimensional_anchor), [greater celestial healing](spell/greater_celestial_healing), [wall of fire](spell/wall_of_fire)",
 			"- 3rd-[dispel magic](spell/dispel_magic), [haste](spell/haste), [planar inquiry](spell/planar_inquiry), [stinking cloud](spell/stinking_cloud)",

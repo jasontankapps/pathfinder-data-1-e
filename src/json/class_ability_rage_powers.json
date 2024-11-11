@@ -80,7 +80,7 @@
 			"While raging, the barbarian may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an opponent with a natural attack or unarmed strike. The barbarian deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC = 10 + 1/2 the barbarian's class level + the barbarian's Strength modifier) or take 1d4 points of Constitution damage as one of its vital organs is ripped free from its body. This power can only be used once per rage. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
-	"boar's_charge": {
+	"boars_charge": {
 		"name": "Boar's Charge",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
@@ -659,7 +659,7 @@
 			"The barbarian can make an attack of opportunity against a foe that moves into any square threatened by the barbarian, regardless of whether or not that movement would normally provoke an attack of opportunity. This power can only be used once per rage. A barbarian must be at least 8th level before selecting this power."
 		]
 	},
-	"viper's_breath": {
+	"vipers_breath": {
 		"name": "Viper's Breath",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
@@ -668,7 +668,7 @@
 			"While holding a dose of poison in her mouth, the barbarian can exhale a 15-foot cone of inhaled poison. Anyone caught in the spray must succeed at a saving throw against the poison with a DC equal to the poison's DC - 4 or suffer the poison's effects with an immediate onset. A barbarian must have viper's kiss to select this rage power."
 		]
 	},
-	"viper's_kiss": {
+	"vipers_kiss": {
 		"name": "Viper's Kiss",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
@@ -695,7 +695,7 @@
 			"While raging, the barbarian gains a +1 bonus on damage rolls against creatures possessing spells or spell-like abilities. This damage bonus increases by +1 for every four levels the barbarian has obtained. A barbarian must have the superstition rage power to select this rage power."
 		]
 	},
-	"aryzul's_curse": {
+	"aryzuls_curse": {
 		"name": "Aryzul's Curse",
 		"sources": [ "Planes of Power" ],
 		"description": [
@@ -704,7 +704,7 @@
 			"When raging, the barbarian emanates a 5-foot-radius aura of radioactivity. Each round that another creature begins its turn within this aura, it takes a cumulative -2 penalty to Strength (Fortitude negates, DC = 10 + 1/2 the barbarian's level + her Constitution modifier) for the duration of the rage. A creature's Strength penalty from this ability cannot exceed the barbarian's class level. At 12th level, the barbarian can choose to create a 10-foot-radius aura of radioactivity when she begins her rage."
 		]
 	},
-	"hshurha's_veil": {
+	"hshurhas_veil": {
 		"name": "Hshurha's Veil",
 		"sources": [ "Planes of Power" ],
 		"description": [
@@ -713,7 +713,7 @@
 			"When raging, the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of concealment against ranged attacks and attacks of opportunity."
 		]
 	},
-	"kelizandri's_tide": {
+	"kelizandris_tide": {
 		"name": "Kelizandri's Tide",
 		"sources": [ "Planes of Power" ],
 		"description": [
@@ -722,7 +722,7 @@
 			"When the barbarian rages, enemies find it difficult to escape the vortex of her fury. As a full-round action while raging, the barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her. Once per day after attempting this maneuver, she can attack each adjacent creature as a free action as if using the [Whirlwind Attack](feat/whirlwind_attack) feat. If she has the [Whirlwind Attack](feat/whirlwind_attack) feat, she can also use it as a free action in this way one additional time per day."
 		]
 	},
-	"ymeri's_pyre": {
+	"ymeris_pyre": {
 		"name": "Ymeri's Pyre",
 		"sources": [ "Planes of Power" ],
 		"description": [

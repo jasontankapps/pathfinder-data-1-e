@@ -49,7 +49,7 @@
 		"description": [
 			"## Blackfrost",
 			"",
-			"**Sources** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_#51_the_hungry_storm)",
+			"**Sources** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 15  ",
@@ -105,7 +105,7 @@
 			"**Cure** 2 consecutive saves. See [prismatic sphere](spell/prismatic_sphere), [prismatic spray](spell/prismatic_spray), or [prismatic wall](spell/prismatic_wall) for more details."
 		]
 	},
-	"king's_sleep": {
+	"kings_sleep": {
 		"name": "King's Sleep",
 		"sources": [
 			"PRPG Core Rulebook",
@@ -148,7 +148,7 @@
 		"description": [
 			"## Maiden lily attar",
 			"",
-			"**Sources** [Murder's Mark pg. 26](source/murder's_mark)",
+			"**Sources** [Murder's Mark pg. 26](source/murders_mark)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -163,7 +163,7 @@
 		"description": [
 			"## Quicklime",
 			"",
-			"**Sources** [Pathfinder #95: Anvil of Fire pg. 29](source/pathfinder_#95_anvil_of_fire)",
+			"**Sources** [Pathfinder #95: Anvil of Fire pg. 29](source/pathfinder_95_anvil_of_fire)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact or inhaled; **Save** Fortitude DC 18  ",
@@ -180,7 +180,7 @@
 		"description": [
 			"## Slow nectar",
 			"",
-			"**Sources** [Pathfinder #93: Forge of the Giant God pg. 8](source/pathfinder_#93_forge_of_the_giant_god)",
+			"**Sources** [Pathfinder #93: Forge of the Giant God pg. 8](source/pathfinder_93_forge_of_the_giant_god)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -259,7 +259,7 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
-	"pupil's_friend": {
+	"pupils_friend": {
 		"name": "Pupil's friend",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -297,7 +297,7 @@
 		"description": [
 			"## Might blight",
 			"",
-			"**Sources** [Merchant's Manifest pg. 11](source/merchant's_manifest)",
+			"**Sources** [Merchant's Manifest pg. 11](source/merchants_manifest)",
 			"",
 			"**Price** 60 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 13  ",
@@ -329,7 +329,7 @@
 		"description": [
 			"## Concentrated laxative",
 			"",
-			"**Sources** [Antihero's Handbook pg. 28](source/antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 28](source/antiheros_handbook)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 12  ",
@@ -373,7 +373,7 @@
 			"This greasy pale-blue liquid delivers a shocking sensation that is both freezing cold and searing hot. Gelidburn oil is popular among pickpockets looking to stab, snatch, and run."
 		]
 	},
-	"goblin's_eye": {
+	"goblins_eye": {
 		"name": "Goblin's eye",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -390,7 +390,7 @@
 			"These bright red seeds feature a single black dot each, giving them a superficial resemblance to an eye. The bright colors of the seeds make them attractive to certain animals, as well as those unfamiliar with wilderness lore. A character who succeeds at a DC 15 Knowledge (nature) or Survival check identifies the seed as poisonous. In some places, the seeds are used as jewelry."
 		]
 	},
-	"vampire's_kiss": {
+	"vampires_kiss": {
 		"name": "Vampire's kiss",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
@@ -538,7 +538,7 @@
 		"description": [
 			"## Bloodwine",
 			"",
-			"**Sources** [Pathfinder #41: The Thousand Fangs Below pg. 42](source/pathfinder_#41_the_thousand_fangs_below)",
+			"**Sources** [Pathfinder #41: The Thousand Fangs Below pg. 42](source/pathfinder_41_the_thousand_fangs_below)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 25  ",
@@ -553,7 +553,7 @@
 		"description": [
 			"## Frightshade",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antiheros_handbook)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 14  ",
@@ -568,7 +568,7 @@
 		"description": [
 			"## Frostspore",
 			"",
-			"**Sources** [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_#61_shards_of_sin)",
+			"**Sources** [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_61_shards_of_sin)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested or injury; **Save** Fortitude DC 13  ",
@@ -601,7 +601,7 @@
 		"description": [
 			"## Woundweal",
 			"",
-			"**Sources** [Adventurer's Armory pg. 19](source/adventurer's_armory)",
+			"**Sources** [Adventurer's Armory pg. 19](source/adventurers_armory)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -794,7 +794,7 @@
 		"description": [
 			"## Rainbow scarab shell",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -866,7 +866,7 @@
 		"description": [
 			"## Black whinnis",
 			"",
-			"**Sources** [Pathfinder #105: The Inferno Gate pg. 18](source/pathfinder_#105_the_inferno_gate)",
+			"**Sources** [Pathfinder #105: The Inferno Gate pg. 18](source/pathfinder_105_the_inferno_gate)",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -1010,7 +1010,7 @@
 			"**Cure** 1 save"
 		]
 	},
-	"nymph's_lure": {
+	"nymphs_lure": {
 		"name": "Nymph's lure",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1045,7 +1045,7 @@
 			"**Cure** 1 save"
 		]
 	},
-	"blackfinger's_salt": {
+	"blackfingers_salt": {
 		"name": "Blackfinger's salt",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
@@ -1080,13 +1080,13 @@
 			"**Cure** 1 save"
 		]
 	},
-	"sloth's_bite": {
+	"sloths_bite": {
 		"name": "Sloth's bite",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Sloth's bite",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antiheros_handbook)",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1112,7 +1112,7 @@
 			"This peculiar nettle plant bears a singularly effective poison that protects it from being eaten: creatures pricked by the nettle's thorns and affected by the poison are overcome with nausea at the mere idea of food, protecting the plant from being consumed. Farmers remain vigilant for signs of this fast-growing and hardy plant; it is difficult and dangerous to remove, so culling it is best done early, while the plant is still relatively small."
 		]
 	},
-	"count_ambras's_punishment": {
+	"count_ambrass_punishment": {
 		"name": "Count Ambras's punishment",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
@@ -1149,7 +1149,7 @@
 			"Ossivane mimics the petrification capability of cockatrices, but the toxin relies on the victim's heart pumping hard to spread the poison throughout the body as it stiffens limbs and locks joints. After the initial save, the victim attempts an additional Fortitude save against the poison only during rounds in which she takes a move, standard, or full-round action."
 		]
 	},
-	"slaver's_will": {
+	"slavers_will": {
 		"name": "Slaver's will",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
@@ -1166,7 +1166,7 @@
 			"This saccharine extract is made by drow and duergar taskmasters to help keep recalcitrant slaves in line. The poison clouds the minds of those who consume it, impairing victims' critical thinking and making them more suggestible."
 		]
 	},
-	"blackfinder's_silence": {
+	"blackfinders_silence": {
 		"name": "Blackfinder's silence",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -1189,7 +1189,7 @@
 		"description": [
 			"## Bloodbrain Venom",
 			"",
-			"**Sources** [Pathfinder #118: Siege of Stone pg. 16](source/pathfinder_#118_siege_of_stone)",
+			"**Sources** [Pathfinder #118: Siege of Stone pg. 16](source/pathfinder_118_siege_of_stone)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -1271,7 +1271,7 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
-	"peasant's_woe": {
+	"peasants_woe": {
 		"name": "Peasant's woe",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
@@ -1310,7 +1310,7 @@
 		"description": [
 			"## Swampseer poison",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [Pathfinder #34: Blood for Blood pg. 63](source/pathfinder_#34_blood_for_blood)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [Pathfinder #34: Blood for Blood pg. 63](source/pathfinder_34_blood_for_blood)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -1354,7 +1354,7 @@
 			"This small bright-blue flower has five petals arrayed in a star shape and looks remarkably similar to several other species of blue flowers that live in similar regions, requiring a successful DC 15 Knowledge (nature) or Survival check to correctly identify. The poison causes severe liver damage, making it even more difficult to resist future poisons that a victim may encounter. Although rarely a direct danger to humanoids, the flowers are sometimes consumed by livestock. When this occurs, the venom can be passed on through milk the animals produce for the next week, affecting those who drink it as though they had consumed a dose of blue star."
 		]
 	},
-	"calistria's_revenge": {
+	"calistrias_revenge": {
 		"name": "Calistria's revenge",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
@@ -1392,7 +1392,7 @@
 		"description": [
 			"## Halo mushroom toxin",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -1436,7 +1436,7 @@
 			"**Cure** 1 save"
 		]
 	},
-	"crone's_curse": {
+	"crones_curse": {
 		"name": "Crone's curse",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1543,7 +1543,7 @@
 			"**Cure** 1 save"
 		]
 	},
-	"witch-hunter's_sword": {
+	"witch-hunters_sword": {
 		"name": "Witch-hunter's sword",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1601,7 +1601,7 @@
 		"description": [
 			"## Liquid leprosy",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antiheros_handbook)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -1624,7 +1624,7 @@
 		"description": [
 			"## Muddling heresy",
 			"",
-			"**Sources** [Pathfinder #107: Scourge of the Godclaw pg. 73](source/pathfinder_#107_scourge_of_the_godclaw)",
+			"**Sources** [Pathfinder #107: Scourge of the Godclaw pg. 73](source/pathfinder_107_scourge_of_the_godclaw)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 20  ",
@@ -1710,7 +1710,7 @@
 		"description": [
 			"## Cytillesh extract",
 			"",
-			"**Sources** [Alchemy Manual pg. 11](source/alchemy_manual), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited), [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_#61_shards_of_sin), [No Response from Deepmar pg. 21](source/no_response_from_deepmar)",
+			"**Sources** [Alchemy Manual pg. 11](source/alchemy_manual), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited), [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_61_shards_of_sin), [No Response from Deepmar pg. 21](source/no_response_from_deepmar)",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -1808,7 +1808,7 @@
 		"description": [
 			"## Nights-eye dust",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -1825,7 +1825,7 @@
 		"description": [
 			"## Sweetdream",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 19  ",
@@ -1927,7 +1927,7 @@
 		"description": [
 			"## Lungsap powder",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antiheros_handbook)",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
@@ -1977,7 +1977,7 @@
 		"description": [
 			"## Skinsap extract",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 1,400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 16  ",
@@ -2012,7 +2012,7 @@
 		"description": [
 			"## Breath of the mantis god",
 			"",
-			"**Sources** [Adventurer's Guide pg. 158](source/adventurer's_guide), [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
+			"**Sources** [Adventurer's Guide pg. 158](source/adventurers_guide), [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 21  ",
@@ -2089,13 +2089,13 @@
 			"**Cure** 1 save"
 		]
 	},
-	"leng's_tears": {
+	"lengs_tears": {
 		"name": "Leng's tears",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Leng's tears",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 18  ",
@@ -2231,7 +2231,7 @@
 		"description": [
 			"## Grinding joint paste",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurers_armory_2)",
 			"",
 			"**Price** 2,100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -2377,13 +2377,13 @@
 			"This potent toxin is used by both drow and duergar to extract gold from ore and to eliminate political enemies. Cyanide poisoning usually manifests as bright red flushing of the skin, even more noticeable in pallid creatures like derros and duergar."
 		]
 	},
-	"leopard's_bane": {
+	"leopards_bane": {
 		"name": "Leopard's bane",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Leopard's bane",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antiheros_handbook)",
 			"",
 			"**Price** 4,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
@@ -2422,7 +2422,7 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
-	"widow's_kiss": {
+	"widows_kiss": {
 		"name": "Widow's kiss",
 		"sources": [ "Agents of Evil" ],
 		"description": [
@@ -2456,7 +2456,7 @@
 			"**Cure** 3 consecutive saves"
 		]
 	},
-	"fool's_leprosy": {
+	"fools_leprosy": {
 		"name": "Fool's Leprosy",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [

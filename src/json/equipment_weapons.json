@@ -69,7 +69,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"copyof": "alchemical_coal_blinding_cinders"
 	},
-	"alchemist's_fire": {
+	"alchemists_fire": {
 		"name": "Alchemist's fire",
 		"sources": [
 			"Alchemy Manual",
@@ -99,7 +99,7 @@
 		],
 		"description": [
 			"## Alkali flask",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Dungeon Denizens Revisited pg. 19](source/dungeon_denizens_revisited), [Advanced Player's Guide pg. 184](source/advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Dungeon Denizens Revisited pg. 19](source/dungeon_denizens_revisited), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -312,7 +312,7 @@
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		]
 	},
-	"artokus's_fire": {
+	"artokuss_fire": {
 		"name": "Artokus's fire",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
@@ -403,7 +403,7 @@
 		],
 		"description": [
 			"## Bolt, acid",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurer's_armory_2), [Pathfinder #15: The Armageddon Echo pg. 18](source/pathfinder_#15_the_armageddon_echo)  ",
+			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2), [Pathfinder #15: The Armageddon Echo pg. 18](source/pathfinder_15_the_armageddon_echo)  ",
 			"**Price** 40 gp; **Weight** 0.2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -424,7 +424,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Bolt, alchemical fire",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2)  ",
 			"**Price** 50 gp; **Weight** 0.1 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -445,7 +445,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Bolt, liquid ice",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2)  ",
 			"**Price** 40 gp; **Weight** 0.2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -466,7 +466,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Bolt, poison",
-			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurers_armory_2)  ",
 			"**Price** 25 gp; **Weight** 0.2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -487,7 +487,7 @@
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Bone Burn",
-			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_139_the_dead_road)  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -582,7 +582,7 @@
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Consecrated Salts",
-			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_139_the_dead_road)  ",
 			"**Price** 300 gp; **Weight** 0.5 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -598,7 +598,7 @@
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Corrosenze",
-			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_masters_handbook)  ",
 			"**Price** 90 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -633,7 +633,7 @@
 		],
 		"description": [
 			"## Darkflare",
-			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurer's_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
+			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurers_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -649,7 +649,7 @@
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Deadground dust",
-			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_masters_handbook)  ",
 			"**Price** 70 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -680,7 +680,7 @@
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Dung grenade",
-			"**Source** [Antihero's Handbook pg. 28](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 28](source/antiheros_handbook)  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -777,7 +777,7 @@
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Fiery boulder",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 72](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 72](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Price** 100 gp; **Weight** 10 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -933,7 +933,7 @@
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Firework (holy fountain)",
-			"**Source** [Demon Hunter's Handbook pg. 18](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 18](source/demon_hunters_handbook)  ",
 			"**Price** 110 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -969,7 +969,7 @@
 		],
 		"description": [
 			"## Firework (paper candle)",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1019,7 +1019,7 @@
 		],
 		"description": [
 			"## Firework (skyrocket)",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1053,7 +1053,7 @@
 		],
 		"description": [
 			"## Firework (star candle)",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1074,7 +1074,7 @@
 		],
 		"description": [
 			"## Firework (starfountain)",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 500 gp; **Weight** 100 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1094,7 +1094,7 @@
 		],
 		"description": [
 			"## Flash powder",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1113,7 +1113,7 @@
 		],
 		"description": [
 			"## Fuse grenade",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1145,7 +1145,7 @@
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Hellfire sparkler",
-			"**Source** [Antihero's Handbook pg. 28](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 28](source/antiheros_handbook)  ",
 			"**Price** 250 gp; **Weight** 50 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1198,7 +1198,7 @@
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Incendiary catalyst",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**Price** 40 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1214,7 +1214,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Insomnia powder",
-			"**Source** [Dungeoneer's Handbook pg. 26](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 26](source/dungeoneers_handbook)  ",
 			"**Price** 60 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1235,7 +1235,7 @@
 		],
 		"description": [
 			"## Itching powder",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 60 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1254,7 +1254,7 @@
 		],
 		"description": [
 			"## Keros oil",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1265,12 +1265,12 @@
 			"Craft (Alchemy) DC 15"
 		]
 	},
-	"kitumu's_ire": {
+	"kitumus_ire": {
 		"name": "Kitumu's ire",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Kitumu's ire",
-			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurers_armory_2)  ",
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1306,7 +1306,7 @@
 		],
 		"description": [
 			"## Liquid ice",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 40 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1381,7 +1381,7 @@
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Noxious pig",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 72](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 72](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Price** 150 gp; **Weight** 25 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1471,7 +1471,7 @@
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Portable hive",
-			"**Source** [Antihero's Handbook pg. 28](source/antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 28](source/antiheros_handbook)  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1581,7 +1581,7 @@
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Slime slow",
-			"**Source** [Demon Hunter's Handbook pg. 19](source/demon_hunter's_handbook)  ",
+			"**Source** [Demon Hunter's Handbook pg. 19](source/demon_hunters_handbook)  ",
 			"**Price** 15 gp; **Weight** 0.5 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1601,7 +1601,7 @@
 		],
 		"description": [
 			"## Sneezing powder",
-			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_player's_guide), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 107](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
 			"**Price** 60 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1617,7 +1617,7 @@
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Somnigrip",
-			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 31](source/elemental_masters_handbook)  ",
 			"**Price** 45 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1633,7 +1633,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Specialty smoke pellet (Pepper)",
-			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneers_handbook)  ",
 			"**Price** 60 gp (Pepper), 40 gp (Smog); **Weight** - (Pepper), - (Smog)",
 			"",
 			"Like standard smoke pellets, these specialty pellets fill a single 5-foot square with opaque smoke for 1 round when broken. They can also be thrown as a ranged touch attack with a range increment of 10 feet. However, unlike standard smoke pellets, these pellets produce smoke that confers additional effects.",
@@ -1669,7 +1669,7 @@
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Stench-gas bladder",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 41](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 41](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**Price** 30 gp; **Weight** 0.5 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1684,7 +1684,7 @@
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"## Sting grenade",
-			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_#115_trail_of_the_hunted)  ",
+			"**Source** [Pathfinder #115: Trail of the Hunted pg. 74](source/pathfinder_115_trail_of_the_hunted)  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1771,7 +1771,7 @@
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"## Tanglefoot bundle",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 72](source/pathfinder_#91_battle_of_bloodmarch_hills)  ",
+			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 72](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
 			"**Price** 250 gp; **Weight** 20 lbs.  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1842,7 +1842,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Tress tincture",
-			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 25](source/adventurers_armory_2)  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1858,7 +1858,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Venomblock",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunter's_handbook)  ",
+			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Alchemical Weapons",
 			"",
@@ -1974,7 +1974,7 @@
 		],
 		"description": [
 			"## Blunt arrows",
-			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"These arrows have rounded wooden tips that deal bludgeoning damage rather than piercing. An archer can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal weapon to deal nonlethal damage).",
 			"",
@@ -2021,7 +2021,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Bullets, groaning",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory)",
 			"",
 			"These sling bullets are honeycombed with overlapping perforations that cause them to emit an eerie moan audible within 500 feet of their flight path.",
 			"",
@@ -2070,7 +2070,7 @@
 		],
 		"description": [
 			"## Flight arrows",
-			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"These arrows have light shafts and special fletching to give them greater range. A flight arrow's range increment is 20 feet greater with longbows and 10 feet greater with shortbows. They deal damage as if one size category smaller.",
 			"",
@@ -2229,7 +2229,7 @@
 		],
 		"description": [
 			"## Smoke arrow",
-			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"This arrow is actually a specially-shaped smokestick that can be fired from a bow. It trails smoke as it flies, and creates a 5-foot cube of smoke where it strikes. It otherwise functions like a normal arrow in terms of damage, range, and so on.",
 			"",
@@ -2247,7 +2247,7 @@
 		],
 		"description": [
 			"## Thistle arrow",
-			"**Source** [Adventurer's Armory pg. 18](source/adventurer's_armory), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting)",
+			"**Source** [Adventurer's Armory pg. 18](source/adventurers_armory), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting)",
 			"",
 			"Crafted from the thistles of a poisonous plant, these barbed arrows deal damage as a bleed effect for 1d6 rounds after a hit.",
 			"",
@@ -2279,7 +2279,7 @@
 		],
 		"description": [
 			"## Whistling arrows",
-			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Ultimate Combat pg. 130](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 22](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurers_armory), [Ultimate Combat pg. 130](source/ultimate_combat)",
 			"",
 			"These arrows come with specially designed grooves and fletching that cause them to emit a loud keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.",
 			"",
@@ -2294,7 +2294,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Ballista net",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a ballista net hits, it deals no damage, but causes the target to become entangled. An entangled creature takes a -2 penalty on attack rolls and a -4 penalty to Dexterity, can move at only half speed, and cannot charge or run.",
 			"",
@@ -2307,7 +2307,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flak",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"Flak ammunition is a type of short-fused bomb, specifically designed to explode in midair. Flak ammunition is packed with steel balls and black powder, and may be fired from a bombard or catapult. When flak explodes, it deals 4d6 points of piercing and bludgeoning damage to all creatures and objects within 40 feet of the target square. A flak bomb must reach an altitude of at least 50 feet to function properly. If flak ammunition impacts anything before it reaches this altitude, the bomb deals 1d6 points of bludgeoning damage and fails to explode.",
 			"",
@@ -2320,7 +2320,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flechette bolt",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"This ballista bolt consists of dozens of small steel darts, called flechettes, which break away after the bolt is released. If the bolt impacts anything before it reaches a distance of 30 feet, it deals 1d8 points of damage. Between 30 and 60 feet away, the flechettes deploy, dealing piercing damage to every creature and object within a 30-foot-cone burst. After 60 feet, the flechettes lose momentum and fall harmlessly to the ground.",
 			"",
@@ -2335,7 +2335,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Weighted bolt",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayer's_handbook)",
+			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)",
 			"",
 			"This barbed ballista bolt is equipped with a heavy weight at the end of a long chain. The bolt's extra weight makes the bolt harder to fire accurately, and imposes a -2 penalty on attack rolls. In addition to the normal damage dealt by a ballista bolt of its size, on a successful hit the weighted bolt lodges itself into the target's body, leaving the weighted chain hanging loosely, imparting a -5 penalty on all Fly checks made by the target. These penalties stack if a target is hit with multiple weighted bolts. A weighted bolt can be removed with a successful DC 25 Heal check or a DC 20 Strength check.",
 			"",
@@ -2351,7 +2351,7 @@
 		],
 		"description": [
 			"## Battle aspergillum",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"Named for the common aspergillum, a macelike tool used by priests to sprinkle holy water, this light mace has a hollow head and a metal plug closing off the hole through which the head is filled. When the mace strikes a creature, holy water sprinkles out through tiny holes throughout the weapon's head; creatures subject to damage from holy water take 1 point of damage in addition to the normal effect of being struck by the mace (a nonmagical aspergillum can deal holy water damage to an incorporeal creature in this manner, even if the mace itself deals no damage). After 5 hits, the battle aspergillum is empty and needs to be refilled. Filling it with holy water is a standard action that provokes attacks of opportunity (like drinking a potion). A filled aspergillum is normally carried upright, to prevent the holy water from leaking out as the weapon moves.",
 			"",
@@ -2386,7 +2386,7 @@
 		],
 		"description": [
 			"## Brass knuckles",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurers_armory), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"These weapons fit snugly around the knuckles and allow you to deal lethal damage with an unarmed strike. You may hold, but not wield, a weapon or other object in a hand wearing brass knuckles. You may cast a spell with a somatic component while wearing brass knuckles if you make a successful concentration check (DC 10 + the level of the spell you're casting). Monks are proficient with brass knuckles. Brass knuckles can't be disarmed.",
 			"",
@@ -2405,7 +2405,7 @@
 		],
 		"description": [
 			"## Cestus",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 3](source/adventurer's_armory), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 3](source/adventurers_armory), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"The cestus is a glove of leather or thick cloth that covers the wielder from mid-finger to mid-forearm. The close combat weapon is reinforced with metal plates over the fingers and often lined with wicked spikes along the backs of the hands and wrists. While wearing a cestus, you are considered armed and your unarmed attacks deal lethal damage. If you are proficient with a cestus, you can have your unarmed strikes deal bludgeoning or piercing damage. Monks are proficient with the cestus. When using a cestus, your fingers are mostly exposed, allowing you to wield or carry items in that hand, but the constriction of the weapon at your knuckles gives you a -2 penalty on all precision-based tasks involving that hand (such as opening locks). A cestus can't be disarmed.",
 			"",
@@ -2456,7 +2456,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Hanbo",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory)",
 			"",
 			"The hanbo is a staff less than a yard long, often carved to look like a walking stick.",
 			"",
@@ -2489,7 +2489,7 @@
 		],
 		"description": [
 			"## Hook hand",
-			"**Source** [Villain Codex pg. 188](source/villain_codex), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Villain Codex pg. 188](source/villain_codex), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists. Hook hands can't be disarmed. They generally don't interfere with day-to-day activities, but can't be used for tasks that would require an actual hand (such as completing somatic components, drawing arrows, or holding a weapon with both hands).",
 			"",
@@ -2657,7 +2657,7 @@
 		],
 		"description": [
 			"## Wooden stake",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 5](source/adventurer's_armory), [Advanced Player's Guide pg. 179](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 5](source/adventurers_armory), [Advanced Player's Guide pg. 179](source/advanced_players_guide)",
 			"",
 			"This close combat weapon is just a sharpened piece of wood. Iron spikes that are used as weapons deal damage as wooden stakes.",
 			"",
@@ -2672,7 +2672,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Baston fighting stick",
-			"**Source** [Merchant's Manifest pg. 11](source/merchant's_manifest)",
+			"**Source** [Merchant's Manifest pg. 11](source/merchants_manifest)",
 			"",
 			"These weapons are treated sticks of wood, either left bare or covered in elaborate decorative designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1 to 3 inches. In most applications, these weapons are similar to clubs or quarterstaffs, but in the hands of a trained expert, they truly shine. A creature with the [Combat Reflexes](feat/combat_reflexes) feat treats the weapon as having the blocking and performance weapon special features.",
 			"",
@@ -2725,7 +2725,7 @@
 		],
 		"description": [
 			"## Mere club",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurer's_armory)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurers_armory)",
 			"",
 			"A Stone Age weapon traditionally made of carved stone, a mere (MEH-reh) is a short, flat-sided, sharp-pointed club.",
 			"",
@@ -2782,7 +2782,7 @@
 		],
 		"description": [
 			"## Bayonet",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Advanced Player's Guide pg. 176](source/advanced_player's_guide), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurers_armory), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Advanced Player's Guide pg. 176](source/advanced_players_guide), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"Bayonets are close combat weapons designed to fit into the grooves or muzzles of crossbows and firearms. They allow you to make melee attacks with these weapons but render them temporarily useless as ranged weapons. Attaching or removing a bayonet is a move action.",
 			"",
@@ -2800,7 +2800,7 @@
 		],
 		"description": [
 			"## Boar spear",
-			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 17](source/ultimate_equipment), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"This spear has a metal crossbar to protect you against onrushing attackers. If you ready a boar spear against a charge and your attack hits, you gain a +2 shield bonus to your AC against that creature until your next turn.",
 			"",
@@ -2818,7 +2818,7 @@
 		],
 		"description": [
 			"## Boarding pike",
-			"**Source** [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like longspears, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust. Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders.",
 			"",
@@ -2862,7 +2862,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Lantern staff",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"This long metal staff has reservoirs for lamp oil, and a lantern-like structure at its head. The lantern staff is fueled as and provides light as a hooded lantern. While lit, attacks with the lantern staff deal 1 point of fire damage in addition to the normal damage. Any effects that apply to a quarterstaff, except those that require it be used as a double weapon, also apply to a lantern staff.",
 			"",
@@ -3068,7 +3068,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Stingchuck",
-			"**Source** [Adventurer's Armory pg. 5](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 5](source/adventurers_armory)",
 			"",
 			"A stingchuck is a foul bag made of a humanoid's head with the brain removed and the skull heavily scored so that it bursts open when thrown. Normally filled with biting vermin, it acts as a splash weapon. When it hits, the vermin bite and sting the target, dealing 1d6 points of damage and forcing a DC 11 Fortitude save to avoid being nauseated for 1d3 rounds. Each round a creature remains nauseated by a stingchuck, it takes 1 additional point of damage from the biting vermin. All creatures within the splash effect take 1 point of damage from the vermin but do not risk being nauseated.",
 			"",
@@ -3138,7 +3138,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Blade boot",
-			"**Source** [Adventurer's Armory pg. 2](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 2](source/adventurers_armory)",
 			"",
 			"Blade boots come with a spring-mounted knife that pops out when triggered with the right combination of toe presses. You can use a blade boot as an off-hand weapon. Releasing the knife is a swift action; rearming it is a full-round action. When the blade is extended, you treat normal terrain as difficult and difficult terrain as impassable.",
 			"",
@@ -3156,7 +3156,7 @@
 		],
 		"description": [
 			"## Boarding axe",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"A boarding axe is similar to a handaxe, but features a spike that allows the weapon to do either slashing or piercing damage. When in hand, a boarding axe grants a +2 circumstance bonus on Climb checks to scale wooden or other penetrable surfaces, such as ice.",
 			"",
@@ -3184,7 +3184,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Monk"
 		]
 	},
-	"cat-o'-nine-tails": {
+	"cat-o-nine-tails": {
 		"name": "Cat-o'-nine-tails",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -3193,7 +3193,7 @@
 		],
 		"description": [
 			"## Cat-o'-nine-tails",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"This short whip is made of nine knotted thongs about 3 feet in length. A cat-o'-nine-tails deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher.",
 			"",
@@ -3203,8 +3203,8 @@
 			"**[Weapon Group](ability/weapon_groups)** Flails"
 		]
 	},
-	"cat_o'_nine_tails": {
-		"copyof": "cat-o'-nine-tails"
+	"cat_o_nine_tails": {
+		"copyof": "cat-o-nine-tails"
 	},
 	"dogslicer": {
 		"name": "Dogslicer",
@@ -3218,7 +3218,7 @@
 		],
 		"description": [
 			"## Dogslicer",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurer's_armory), [Advanced Race Guide pg. 117](source/advanced_race_guide)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurers_armory), [Advanced Race Guide pg. 117](source/advanced_race_guide)",
 			"",
 			"This short, curved blade was created by goblins, who often drill numerous holes into it in an attempt to reduce its weight. Most dogslicers are sized for Small creatures.",
 			"",
@@ -3233,7 +3233,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Dueling dagger",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2)",
 			"",
 			"This dagger is used in the off hand to block attacks. When you fight defensively or use [Combat Expertise](feat/combat_expertise) while wielding a dueling dagger, your bonus to AC increases by 1. This benefit applies even if you did not attack with the dueling dagger. If you aren't proficient with a dueling dagger, you treat it as a dagger and gain no special benefits. Any effects that apply to daggers apply to dueling daggers.",
 			"",
@@ -3324,7 +3324,7 @@
 		],
 		"description": [
 			"## Katar, tri-bladed",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_#9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting)",
 			"",
 			"Where most punching daggers boast a single thick blade, the tri-bladed katar features a fan of three splayed razor edges. Any effects that apply to a punching dagger also apply to a tri-bladed katar.",
 			"",
@@ -3524,7 +3524,7 @@
 		],
 		"description": [
 			"## Starknife",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [PRPG Core Rulebook pg. 142](source/prpg_core_rulebook), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [PRPG Core Rulebook pg. 142](source/prpg_core_rulebook), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends)",
 			"",
 			"From a central metal ring, four tapering metal blades extend from this weapon like points on a compass rose. By gripping the crossbar that runs through the weapon's open middle, a wielder can strike with it as a deadly melee weapon. Alternatively, by gripping it by the outer rim, a starknife's light, aerodynamic design allows it to be thrown short distances in a manner similar to a chakram.",
 			"",
@@ -3539,7 +3539,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Switchblade knife",
-			"**Source** [Adventurer's Armory pg. 5](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 5](source/adventurers_armory)",
 			"",
 			"This knife has a springloaded blade hidden inside the handle. It can be designed to look like another type of object (a DC 15 Perception check reveals the deception). If held in your hand, you can activate it as a free action. This weapon is treated as a dagger.",
 			"",
@@ -3609,7 +3609,7 @@
 		],
 		"description": [
 			"## War razor",
-			"**Source** [Book of the Damned pg. 93](source/book_of_the_damned), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurer's_armory)",
+			"**Source** [Book of the Damned pg. 93](source/book_of_the_damned), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurers_armory)",
 			"",
 			"To all appearances, a war razor is an oversized razor or flip knife. Since the razor folds into the handle, no sheath is required, making the weapon easy to hide and thus granting the wielder a +2 bonus on Sleight of Hand checks to conceal the weapon on her body.",
 			"",
@@ -3675,7 +3675,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Combat scabbard",
-			"**Source** [Adventurer's Armory pg. 6](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 6](source/adventurers_armory)",
 			"",
 			"This scabbard is an improvised weapon designed to allow you to remove it from your belt as a swift action when drawing the weapon it contains. Taking the [Equipment Trick](feat/equipment_trick) feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter weapon groups, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon.",
 			"",
@@ -3689,7 +3689,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Combat scabbard, sharpened",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory)",
 			"",
 			"This [combat scabbard](equipment-misc/combat_scabbard) has a sharp blade on the outer edge, allowing you to use it as a weapon.",
 			"",
@@ -3711,7 +3711,7 @@
 		],
 		"description": [
 			"## Cutlass",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide), [Villain Codex pg. 188](source/villain_codex)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide), [Villain Codex pg. 188](source/villain_codex)",
 			"",
 			"This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars.",
 			"",
@@ -3889,7 +3889,7 @@
 		],
 		"description": [
 			"## Scizore",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurer's_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurers_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
 			"",
 			"The scizore is a hardened tube that fits over the forearm, ending in a semicircular blade used for devastating bladed punch attacks. The scizore grants a +1 shield bonus to AC, but if you attack with the blade, you lose the AC bonus that round and take a -1 penalty on attack rolls with it. While wearing a scizore, you cannot use that hand for anything else. A scizore provides a +10 bonus to your CMD against being disarmed of your scizore. Donning a scizore is a full-round action.",
 			"",
@@ -3926,7 +3926,7 @@
 		],
 		"description": [
 			"## Sword cane",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)",
 			"",
 			"This slender light blade lies within a wooden container that serves as both its scabbard and hiding place. You can draw the blade as a swift action (or a free action if you have the [Quick Draw](feat/quick_draw) feat). An observer must succeed at a DC 20 Perception check to realize an undrawn sword cane is a weapon rather than a walking stick; the DC decreases to 10 if the observer is able to handle the weapon. You can use the [Weapon Finesse](feat/weapon_finesse) feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a sword cane sized for you, even though it isn't a light weapon. You can't wield a sword cane in two hands in order to apply 1-1/2 times your Strength modifier to damage.",
 			"",
@@ -3944,7 +3944,7 @@
 		],
 		"description": [
 			"## Terbutje",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurer's_armory)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurers_armory)",
 			"",
 			"This Stone Age weapon, also called a macuahuitl, is made from a length of tempered wood. It has bits of shark teeth, obsidian, glass, or similar materials studded all along its length.",
 			"",
@@ -3959,7 +3959,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Terbutje, steel",
-			"**Source** [Adventurer's Armory pg. 5](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 5](source/adventurers_armory)",
 			"",
 			"This is a forged weapon built to look much like a common terbutje. It lacks the fragility of its non-metallic counterpart.",
 			"",
@@ -4016,7 +4016,7 @@
 		],
 		"description": [
 			"## Bardiche",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurers_armory), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"The crescent axe-blade of this polearm is attached to the haft at two points: the center of the blade attaches to a socket at the top of the haft, and the lower point of the blade attaches to a secondary mount point. The blade is often very long, sometimes almost as long as the haft. You gain a +2 bonus to your CMD to resist sunder attempts made against a bardiche.",
 			"",
@@ -4035,7 +4035,7 @@
 		],
 		"description": [
 			"## Bec de corbin",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurers_armory), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"The bec de corbin is a polearm very similar to the lucerne hammer, but the hammer head is slightly blunter and the spike is stouter and more hooked. You primarily attack with the spike. You gain a +2 bonus on combat maneuver checks to sunder medium or heavy armor with a bec de corbin.",
 			"",
@@ -4054,7 +4054,7 @@
 		],
 		"description": [
 			"## Bill",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Advanced Player's Guide pg. 176](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 2](source/adventurers_armory), [Advanced Player's Guide pg. 176](source/advanced_players_guide)",
 			"",
 			"The blade of this polearm is a curved or hooked chopping blade with a spiked projection on the back of the blade. The spike is commonly used to block and parry. When fighting defensively or with full defense, this weapon gives you a +1 shield bonus to AC. A mounted opponent hit by a bill takes a -1 penalty on his Ride check to stay mounted.",
 			"",
@@ -4077,7 +4077,7 @@
 		],
 		"description": [
 			"## Earth breaker",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurer's_armory), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurers_armory), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends)",
 			"",
 			"The crude metal of this massive hammer's head ends in multiple blunt spikes that help concentrate the force of a powerful swing down into a smaller, more focused area, allowing it to smash through armor with greater ease. Due to the tremendous size and weight of its head, an earth breaker is poorly balanced, and requires two hands to properly lift and control.",
 			"",
@@ -4132,7 +4132,7 @@
 		],
 		"description": [
 			"## Glaive-guisarme",
-			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 3](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 18](source/ultimate_equipment), [Adventurer's Armory pg. 3](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide)",
 			"",
 			"This polearm combines the blade of a glaive with a wicked hook. A mounted opponent hit by a glaive-guisarme takes a -2 penalty on her Ride check to stay mounted.",
 			"",
@@ -4282,7 +4282,7 @@
 		],
 		"description": [
 			"## Horsechopper",
-			"**Source** [Ultimate Equipment pg. 19](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurer's_armory), [Advanced Race Guide pg. 118](source/advanced_race_guide)",
+			"**Source** [Ultimate Equipment pg. 19](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurers_armory), [Advanced Race Guide pg. 118](source/advanced_race_guide)",
 			"",
 			"Crafted by goblins for battling horses, this weapon is essentially a long-handled halberd with an enlarged hook on the blade. Most horsechoppers are sized for Small creatures.",
 			"",
@@ -4319,7 +4319,7 @@
 		],
 		"description": [
 			"## Lucerne hammer",
-			"**Source** [Ultimate Equipment pg. 19](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurer's_armory), [Advanced Player's Guide pg. 179](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 19](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurers_armory), [Advanced Player's Guide pg. 179](source/advanced_players_guide)",
 			"",
 			"This polearm has both a pronged hammer head for crushing blows and a spiked head for piercing and peeling armor. The long haft allows the wielder to put amazing force behind the head of this weapon. You gain a +2 bonus on combat maneuver checks to sunder medium or heavy armor with a lucerne hammer.",
 			"",
@@ -4344,7 +4344,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Axes"
 		]
 	},
-	"monk's_spade": {
+	"monks_spade": {
 		"name": "Monk's spade",
 		"sources": [
 			"Ultimate Equipment",
@@ -4409,7 +4409,7 @@
 		],
 		"description": [
 			"## Ogre hook",
-			"**Source** [Ultimate Equipment pg. 19](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurer's_armory)",
+			"**Source** [Ultimate Equipment pg. 19](source/ultimate_equipment), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 0](source/adventurers_armory)",
 			"",
 			"This large crook of sharpened metal makes it easy to trip and catch fleeing opponents. Invented by ogres, most ogre hooks are Large and crudely fashioned-often from metal torn from previous victims' weapons and armor. Despite their poor workmanship, the rarity and peril involved in getting ogre hooks make such items quite valuable.",
 			"",
@@ -4489,7 +4489,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Sarissa",
-			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunters_handbook)",
 			"",
 			"This spearlike weapon is about 15 feet long. Its unwieldy length is counterbalanced by a heavy brass base. A sarissa provides extended reach-tripling your reach rather than doubling it. A Medium wielder would threaten spaces 10 to 15 feet away, but not adjacent squares or squares 5 to 10 feet away (as with a typical reach weapon). Because of its great length and weight, a sarissa can be used to attack foes in only one direction each round. You must select a cone each round before you make any attacks with the sarissa. The weapon threatens only foes within this cone and within its extended reach. You can't change the area you threaten with the sarissa until your next turn. While you carry the sarissa pointed upward (typical for overland movement), you threaten only squares in the sarissa's reach in a cone pointed upward.",
 			"",
@@ -4521,7 +4521,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Syringe spear",
-			"**Source** [Adventurer's Armory pg. 5](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 5](source/adventurers_armory)",
 			"",
 			"The blade of this weapon, which is also called an injection spear, contains a thin tube or bore that connects to a hollow container just beneath the crosspiece. A successful hit with the spear injects the liquid contents of the container (typically poison or a potion) into the target. Refilling a syringe spear takes 1 minute.",
 			"",
@@ -4630,7 +4630,7 @@
 		],
 		"description": [
 			"## Chakram",
-			"**Source** [Ranged Tactics Toolbox pg. 0](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 3](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide), [Ultimate Equipment pg. 19](source/ultimate_equipment)",
+			"**Source** [Ranged Tactics Toolbox pg. 0](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 3](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide), [Ultimate Equipment pg. 19](source/ultimate_equipment)",
 			"",
 			"The chakram is a simple, elegant, and highly portable thrown weapon. It is a flat, open-centered metal discus with a sharpened edge. You can wield the chakram as a melee weapon, but it is not designed for such use; you take a -1 penalty on your attack roll with the weapon and must succeed at a DC 15 Reflex save or cut yourself on the blade (half damage, no Strength modifier). You do not need to make this save if wearing heavy armor.",
 			"",
@@ -4705,7 +4705,7 @@
 		],
 		"description": [
 			"## Hunga munga",
-			"**Source** [Ranged Tactics Toolbox pg. 0](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 3](source/adventurer's_armory), [Ultimate Equipment pg. 19](source/ultimate_equipment)",
+			"**Source** [Ranged Tactics Toolbox pg. 0](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 3](source/adventurers_armory), [Ultimate Equipment pg. 19](source/ultimate_equipment)",
 			"",
 			"Also called a mambele, danisco, goleyo, njiga, or any of many lesser-known names, this three-bladed dagger is intended for throwing but can be used as a melee weapon. Though the basic three-blade design is most common, hunga mungas can take a wide variety of forms.",
 			"",
@@ -4786,7 +4786,7 @@
 		],
 		"description": [
 			"## Pilum",
-			"**Source** [Ranged Tactics Toolbox pg. 0](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 4](source/adventurer's_armory), [Advanced Player's Guide pg. 179](source/advanced_player's_guide), [Ultimate Equipment pg. 19](source/ultimate_equipment)",
+			"**Source** [Ranged Tactics Toolbox pg. 0](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 4](source/adventurers_armory), [Advanced Player's Guide pg. 179](source/advanced_players_guide), [Ultimate Equipment pg. 19](source/ultimate_equipment)",
 			"",
 			"The tip of this heavy javelin is designed to break off and embed itself into a shield once it hits. Like ammunition, a thrown pilum that hits its target is destroyed. If you hit a shieldbearing opponent with a pilum, he loses the AC bonuses from that shield until he takes a standard action to pry the remnants of the pilum from his shield.",
 			"",
@@ -4820,7 +4820,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Reflex bow",
-			"**Source** [Merchant's Manifest pg. 11](source/merchant's_manifest)",
+			"**Source** [Merchant's Manifest pg. 11](source/merchants_manifest)",
 			"",
 			"These C-shaped bows are most often used in the Hongal tundra by the outriders of Tianjing, and in rare cases by the nobility of Xa Hoi. The unique shape and craft of these bows allows them to shoot with the same velocity and power as a longbow. The shorter size also allows them to be wielded easily while mounted on horseback (or atop any other steed). While mounted, you gain a +1 circumstance bonus on attack rolls with a reflex bow. All reflex bows are composite bows and can be modified to benefit from high Strength scores in the same way as composite bows. Effects that apply to both longbows and shortbows also apply to reflex bows.",
 			"",
@@ -4910,7 +4910,7 @@
 		],
 		"description": [
 			"## Aklys",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited), [Adventurer's Armory pg. 2](source/adventurers_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
 			"",
 			"The aklys is a hooked throwing club with a 20-foot-long cord, usually of woven leather; you can retrieve the aklys after throwing it as a move action. The hook allows you to make trip attacks at range. Some aklyses have holes drilled through them and whistle when flung.",
 			"",
@@ -4980,7 +4980,7 @@
 		],
 		"description": [
 			"## Battle poi",
-			"**Source** [Adventurer's Armory pg. 2](source/adventurer's_armory), [Legacy of Fire Player's Guide pg. 22](source/legacy_of_fire_player's_guide)",
+			"**Source** [Adventurer's Armory pg. 2](source/adventurers_armory), [Legacy of Fire Player's Guide pg. 22](source/legacy_of_fire_players_guide)",
 			"",
 			"This pair of arm-length chains has handles at one end and heavy fuel-soaked torch heads at the other. The weight of the poi is insufficient to deal physical damage, but the burning fuel deals fire damage. If you are proficient in battle poi, you are treated as if you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat for the purposes of making poi attacks. Poi can be extinguished by spending a full round action smothering them in sand or submerging them in water.",
 			"",
@@ -4995,7 +4995,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Butterfly knife",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory)",
 			"",
 			"This weapon has a blade concealed between the two halves of the handle that can be brought to bear quickly. If you are proficient with it (or have the [Quick Draw](feat/quick_draw) feat), you may open it as a free action; a nonproficient user must spend a move action to open it. Otherwise, treat it as a dagger. When it's closed, you gain a +2 bonus on Sleight of Hand checks made to conceal it on your body.",
 			"",
@@ -5046,7 +5046,7 @@
 		],
 		"description": [
 			"## Dwarven maulaxe",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting)",
 			"",
 			"This versatile weapon looks like a heavy-headed axe, but a proficient wielder can use the blunt back of the head to deal bludgeoning damage.",
 			"",
@@ -5060,7 +5060,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Elven leafblade",
-			"**Source** [Adventurer's Guide pg. 114](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 114](source/adventurers_guide)",
 			"",
 			"Elves have traditionally eschewed the use of larger weaponry, opting instead for lighter weapons that take advantage of their wielders' agility and poise. The elven curve blade is perhaps the bestknown weapon in this category, but the leafblade (often partnered with the substantially longer thornblade) embraces these fighting styles to an even greater extent. This short sword has a blade reminiscent of a long, narrow leaf and is suitable both for slashing swings and targeted thrusts. These weapons are designed to be wielded alongside elven thornblades. Attacks with an elven leafblade gain a +2 bonus on attack rolls made to confirm critical hits.",
 			"",
@@ -5110,7 +5110,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Flying talon",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2)",
 			"",
 			"This weapon consists of a three-pronged, barbed hook attached to a length of chain. Due to the weapon's unwieldiness, you cannot make attacks of opportunity with a flying talon and do not threaten any squares with it.",
 			"",
@@ -5249,7 +5249,7 @@
 		],
 		"description": [
 			"## Pata",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_#9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 18](source/adventurer's_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 18](source/adventurers_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
 			"",
 			"An evolution of the punching dagger, the pata is a short sword that ends in a full, fingerless gauntlet hilt. You punch rather than stab with the weapon, allowing you to put more force behind each strike. While wearing a pata, you cannot use that hand for anything else. A pata provides a +10 bonus to your CMD against disarm attempts.",
 			"",
@@ -5282,7 +5282,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razor, drow",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"Meant for quick strikes and slashes, this long, slender knife is incredibly sharp along one edge. Drow swashbucklers and assassins are particularly fond of these weapons. A confirmed critical hit or successful sneak attack with a drow razor deals an additional 2 points of damage; this damage is precision damage and is not multiplied on a critical hit. A character with the drow's weapon familiarity racial trait treats the drow razor as a martial weapon.",
 			"",
@@ -5303,7 +5303,7 @@
 		],
 		"description": [
 			"## Rope gauntlet",
-			"**Source** [Adventurer's Armory pg. 4](source/adventurer's_armory), [Legacy of Fire Player's Guide pg. 23](source/legacy_of_fire_player's_guide)",
+			"**Source** [Adventurer's Armory pg. 4](source/adventurers_armory), [Legacy of Fire Player's Guide pg. 23](source/legacy_of_fire_players_guide)",
 			"",
 			"By wrapping your hands and forearms in thin but tough hemp ropes and then soaking the makeshift gloves in water for weight and expansion, you can transform your fists into rock-hard weapons easily capable of killing in a fistfight. Each rope gauntlet takes a full minute to wrap and another minute to soak, but once applied the gauntlet can be worn for a day; removing a rope gauntlet takes 1 full round. When wearing rope gauntlets, you are considered armed and your attacks deal normal damage. If you are proficient with rope gauntlets, you may use the rough edges of the ropes to deal slashing damage rather than bludgeoning damage. Your fingers are mostly exposed, allowing you to wield or carry items in your hands while wearing rope gauntlets, but the constriction of the weapon at your knuckles gives you a -2 penalty on all precision-based tasks involving your hands (such opening locks).",
 			"",
@@ -5336,7 +5336,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sanpkhang",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"This elaborate knife is carved with special barbs and grooves, meant to channel toxins into the bloodstream. Any injury poison delivered with a sanpkhang has its DC increased by 1, or by 2 if delivered as part of a critical hit or sneak attack. The vishkanya's weapon familiarity racial trait grants proficiency with the sanpkhang.",
 			"",
@@ -5356,7 +5356,7 @@
 		],
 		"description": [
 			"## Scorpion whip",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Legacy of Fire Player's Guide pg. 23](source/legacy_of_fire_player's_guide), [Adventurer's Armory pg. 4](source/adventurer's_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Legacy of Fire Player's Guide pg. 23](source/legacy_of_fire_players_guide), [Adventurer's Armory pg. 4](source/adventurers_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
 			"",
 			"This whip has a series of razor-sharp blades and fangs inset along its tip. It deals lethal damage, even to creatures with armor bonuses. If you are proficient with both the scorpion whip and whip, you can use a scorpion whip in either the normal way (as a light performance weapon) or as a whip. When you use a scorpion whip as a whip, it is equivalent to a whip, but deals lethal damage and can harm creatures regardless of their armor bonus.",
 			"",
@@ -5393,7 +5393,7 @@
 		],
 		"description": [
 			"## Sica",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurer's_armory), [Ultimate Combat pg. 145](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurers_armory), [Ultimate Combat pg. 145](source/ultimate_combat)",
 			"",
 			"This blade is a smaller, lighter version of the shotel. You gain a +1 bonus on attack rolls with a sica against opponents using bucklers, light shields, or heavy shields.",
 			"",
@@ -5412,7 +5412,7 @@
 		],
 		"description": [
 			"## Swordbreaker dagger",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurer's_armory), [Advanced Player's Guide pg. 179](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurers_armory), [Advanced Player's Guide pg. 179](source/advanced_players_guide)",
 			"",
 			"You can use this dagger to disarm or sunder enemy blades by catching them in the grooves on the back of the blade and using your weapon as a lever. If you are proficient with this weapon, add a +4 bonus on combat maneuver checks to disarm or sunder bladed weapons while using it.",
 			"",
@@ -5466,7 +5466,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Waveblade",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"Also known as a \"scorpion's tail\" due to its unique, stinger-like shape, this short, double-curved blade has no hilt but features a knuckle guard. You gain a +2 bonus to your CMD against disarm attempts made to disarm you of a waveblade.",
 			"",
@@ -5486,7 +5486,7 @@
 		],
 		"description": [
 			"## Aldori dueling sword",
-			"**Source** [Adventurer's Guide pg. 24](source/adventurer's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurer's_armory)",
+			"**Source** [Adventurer's Guide pg. 24](source/adventurers_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurers_armory)",
 			"",
 			"These slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used as a martial weapon (in which case it functions as a longsword), but if you have the feat [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword), you can use the [Weapon Finesse](feat/weapon_finesse) feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with an Aldori dueling sword sized for you, even though it isn't a light weapon. You can also wield an Aldori dueling sword in two hands to apply 1-1/2 times your Strength bonus to damage rolls.",
 			"",
@@ -5583,7 +5583,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Elven thornblade",
-			"**Source** [Adventurer's Guide pg. 114](source/adventurer's_guide)",
+			"**Source** [Adventurer's Guide pg. 114](source/adventurers_guide)",
 			"",
 			"This blade is suited for thrusts and parries, making it especially capable of inflicting deep, penetrating wounds. A wielder with [Weapon Finesse](feat/weapon_finesse) can apply her Dexterity modifier to attack rolls with an elven thornblade instead of her Strength modifier. An elven thornblade grants no additional benefit when wielded two-handed. In addition, attacks with an elven thornblade gain a +2 bonus on attack rolls made to confirm critical hits.",
 			"",
@@ -5617,7 +5617,7 @@
 		],
 		"description": [
 			"## Falcata",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 33](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 33](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide)",
 			"",
 			"This heavy blade has a single sharp edge, concave at the bottom and convex at the top, with a hook-shaped hilt. Its shape distributes the weight to give it the momentum of an axe with the cutting edge of a sword, much like a larger version of a kukri. The hooked hilt is sometimes carved to resemble the head of a horse or bird of prey, and may have a thin chain stretched across its opening, acting as a partial guard for the hand and fingers.",
 			"",
@@ -5720,7 +5720,7 @@
 		],
 		"description": [
 			"## Khopesh",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 33](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 33](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide)",
 			"",
 			"This heavy blade has a convex curve near the end, making its overall shape similar to that of a battleaxe. A typical khopesh is 20 to 24 inches in length. Its curved shape allows the wielder to hook around defenses and trip foes. The elegant shape of a khopesh leads some artisans to cover them in ornate decorations.",
 			"",
@@ -5792,7 +5792,7 @@
 		],
 		"description": [
 			"## Rhoka sword",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Into the Darklands pg. 61](source/into_the_darklands), [Adventurer's Armory pg. 4](source/adventurer's_armory)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Into the Darklands pg. 61](source/into_the_darklands), [Adventurer's Armory pg. 4](source/adventurers_armory)",
 			"",
 			"This sword is used almost exclusively by the life-hating urdefhans. The sword is the size of a longsword but consists of two serrated blades placed side by side.",
 			"",
@@ -5814,7 +5814,7 @@
 		],
 		"description": [
 			"## Sawtooth sabre",
-			"**Source** [Adventurer's Guide pg. 158](source/adventurer's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory), [Ultimate Equipment pg. 20](source/ultimate_equipment)",
+			"**Source** [Adventurer's Guide pg. 158](source/adventurers_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurers_armory), [Ultimate Equipment pg. 20](source/ultimate_equipment)",
 			"",
 			"Crafted to evoke the barbed talons of the Mantis God himself, a sawtooth sabre may be used as a Martial Weapon (in which case it functions identically to a longsword). If you have the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (sawtooth sabre) feat, for the purpose of two-weapon fighting you can treat it as a light melee weapon; for all other purposes, it is a one-handed melee weapon.",
 			"",
@@ -5833,7 +5833,7 @@
 		],
 		"description": [
 			"## Shotel",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurer's_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurers_armory), [Ultimate Combat pg. 144](source/ultimate_combat)",
 			"",
 			"The shotel is a downward-curving sword designed to reach over or around an opponent's shield. You gain a +1 bonus on attack rolls with a shotel against opponents using bucklers, light shields, or heavy shields. The curve of a shotel's blade varies from sword to sword, and some models are double-edged, while others are single-edged, with the back edge able to be braced against a shield for additional power. Shotels are particularly useful for hooking mounted combatants and ripping them from their steeds.",
 			"",
@@ -5848,7 +5848,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sickle-sword",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"Favored by those residents of Irrisen with no talent for witchcraft, this exotic blade curves multiple times along its 3-1/2 feet. The sickle-sword's hilt is long and curved, and its blade bears a small secondary grip partway up its length. These allow a wielder with a free hand to rapidly twist the sword in unpredictable ways. When wielding a sickle-sword in one hand and nothing in the other, you can spend a swift action to gain a +2 bonus on your next attack roll before the end of your turn.",
 			"",
@@ -5866,7 +5866,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Spiral rapier",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"This rapier like weapon has a thicker blade than normal, which is shaped into a corkscrewing spiral of sharpened edges. These edges can catch enemy weapons, making it ideal for disarming or parrying. You can use the [Weapon Finesse](feat/weapon_finesse) feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a spiral rapier sized for you, even though it isn't a light weapon. You can't wield a spiral rapier in two hands in order to apply 1-1/2 times your Strength modifier to its damage. Any effects that apply to rapiers also apply to a spiral rapier.",
 			"",
@@ -5920,7 +5920,7 @@
 		],
 		"description": [
 			"## Temple sword",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_#9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 33](source/adventurer's_armory), [Advanced Player's Guide pg. 179](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 33](source/adventurers_armory), [Advanced Player's Guide pg. 179](source/advanced_players_guide)",
 			"",
 			"Heavy blades typically used by guardians of religious sites, temple swords have distinctive crescent-shaped blades, which appear to be an amalgam of sickle and sword. Many have holes drilled into the blade or the pommel so that charms, bells, or other holy trinkets can be attached to reflect the owner's devotion or to serve as foci for prayer or meditation. Monks are proficient with the temple sword.",
 			"",
@@ -5957,7 +5957,7 @@
 		],
 		"description": [
 			"## Urumi",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_#9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory), [Ultimate Combat pg. 134](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder #9: Escape from Old Korvosa pg. 83](source/pathfinder_9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurers_armory), [Ultimate Combat pg. 134](source/ultimate_combat)",
 			"",
 			"Commonly known as a whip sword, this deadly weapon is fashioned from one to four 5-foot-long, razor-sharp blades of flexible steel, almost like a metal cat-o'-nine-tails. The weapon is wielded by whipping the blades at one's opponent. The coiled blade is fine and flexible enough to be worn as a belt, and its wielders often carry the blades wrapped around themselves in this fashion.",
 			"",
@@ -6009,7 +6009,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Barbed spear",
-			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunters_handbook)",
 			"",
 			"A barbed spear is a 10-foot-long polearm with a four-pronged head similar to a caltrop. The head is connected to the pole by a single weak bolt, giving the weapon the fragile condition. When you use a barbed spear to attack a creature that is prone, flying above you, or at least one size category larger than you, you can make a melee attack with a -4 penalty to jam the barbed head into the target's foot. If you're successful, the target takes 1 point of damage and the barbed head breaks off in the target's foot. The barb then acts as a caltrop, wounding the creature's foot and halving its speed. This movement penalty lasts for 24 hours, or until the creature is treated with a successful DC 15 Heal check or receives at least 1 point of magical healing. Like caltrops, barbed spears may not work against unusual opponents. A barbed spear that embeds its caltrop-like head into a target's foot gains the broken condition, and can't be used as a weapon until it's repaired.",
 			"",
@@ -6026,7 +6026,7 @@
 		],
 		"description": [
 			"## Battle ladder, gnome",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
 			"",
 			"Gnomes use these narrow, reinforced, 4-foot ladders as weapons. Fighting with a battle ladder is like fighting with a quarterstaff, except that the spaces in the ladder can be used to entangle limbs, granting the ladder the trip weapon feature.",
 			"",
@@ -6051,7 +6051,7 @@
 		],
 		"description": [
 			"## Bladed scarf",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_player's_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory)",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurers_armory)",
 			"",
 			"Knowing that seductive performances can bring out the worst in watchers, some Varisians craft rows of razor-sharp blades into their scarves. The skill required in using such scarves effectively and not revealing their deadly nature makes them exotic weapons. If you are proficient with a bladed scarf, you deal 1d4 points of slashing damage to any creature that makes a successful grapple check against you while you wield the scarf. You can use the [Weapon Finesse](feat/weapon_finesse) feat to apply your Dexterity modifier instead of your Strength modifier on attack rolls with a bladed scarf sized for you, even though it isn't a light weapon.",
 			"",
@@ -6087,7 +6087,7 @@
 		],
 		"description": [
 			"## Boarding gaff",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea)",
 			"",
 			"A boarding gaff, or gaff hook, is a long pole with a hook for spearing fish. Pirates often add extra, heavier hooks to both ends of boarding gaffs to assist with boarding actions, giving the weapon its common name. A boarding gaff can also be used for fishing.",
 			"",
@@ -6102,7 +6102,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Butchering axe",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2)",
 			"",
 			"A creation of the orc smiths of Belkzen, this axe has an oversized head bristling with spikes and a long, thick haft that only barely counterbalances its weight. If your Strength is less than 19 (or 17 for a Small or smaller butchering axe), you take a -2 penalty on attacks with it, as you're unable to maneuver its daunting size and weight.",
 			"",
@@ -6124,7 +6124,7 @@
 		],
 		"description": [
 			"## Chain spear",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Crown of the Kobold King pg. 17](source/crown_of_the_kobold_king), [Revenge of the Kobold King pg. 13](source/revenge_of_the_kobold_king), [Adventurer's Armory pg. 3](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Crown of the Kobold King pg. 17](source/crown_of_the_kobold_king), [Revenge of the Kobold King pg. 13](source/revenge_of_the_kobold_king), [Adventurer's Armory pg. 3](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide)",
 			"",
 			"This vicious weapon is often used in gladiatorial events due to its versatility. The body of the weapon is a standard short spear, primarily used for thrusting. The butt of the spear is fitted with a length of chain, often spiked, with a hook at the end. The hook and chain may be used to make trip attacks. If your trip attack fails by 10 or more, you may drop the chain spear to avoid being knocked prone.",
 			"",
@@ -6139,7 +6139,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Chain-hammer",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2)",
 			"",
 			"This pair of hammers is linked by a loose chain. While the two hammers are balanced to wield in melee together, the chain is long enough that you can throw one hammer a short distance and then pull it back; pulling the chain to retrieve the thrown hammer is a move action. The chain-hammer's maximum throwing range is 10 feet. Dwarf rangers are fond of using chain-hammers, often using a locked gauntlet to make sure one of the hammers remains secure.",
 			"",
@@ -6193,7 +6193,7 @@
 		],
 		"description": [
 			"## Dorn-dergar, dwarven",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Dwarves of Golarion pg. 21](source/dwarves_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Dwarves of Golarion pg. 21](source/dwarves_of_golarion)",
 			"",
 			"This 10-foot-long chain is weighted at the end by a ball of solid iron the size of a large fist. By adjusting the slack of the chain, the weapon can be used either with or without reach. Changing between using it as a normal weapon and a reach weapon is a move action.",
 			"",
@@ -6304,7 +6304,7 @@
 		],
 		"description": [
 			"## Fauchard",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited)",
 			"",
 			"Like a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe.",
 			"",
@@ -6333,7 +6333,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Flambard",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory)",
 			"",
 			"This two-handed sword has a wavy blade that is especially useful for cutting through wooden weapons. If you are proficient with this weapon, you gain a +4 bonus on any sunder attempts made against weapons with a wooden haft; otherwise you may use this sword as a bastard sword.",
 			"",
@@ -6348,7 +6348,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Flask pike",
-			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunters_handbook)",
 			"",
 			"This pike has a hollow spot near its tip into which a flask can be strapped. If the flask is filled with an alchemical splash weapon and you hit a creature with the pike, the target is also hit with the splash weapon. This uses up the contents of the flask. Because of the added weight of a flask, attacks with the flask pike take a -2 penalty when it's loaded with one. Reloading the flask pike is a full-round action that provokes attacks of opportunity.",
 			"",
@@ -6381,7 +6381,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Garrote",
-			"**Source** [Adventurer's Armory pg. 3](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 3](source/adventurers_armory)",
 			"",
 			"A garrote is a length of wire or thin rope with wooden handles at both ends. The wire is placed across a victim's throat and crossed behind the neck; when the handles are pulled tight, the garrote strangles him. In order for you to use a garrote, your opponent must be helpless or unaware of you. You must make a grapple check (though you avoid the -4 penalty for not having two hands free) to successfully begin garroting your opponent. Sneak attack damage does not apply to a garrote. Your garroted opponent must make a concentration check (DC 20 + your CMB + level of the spell he's casting) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. You gain the following additional option when grappling with a garrote.",
 			"",
@@ -6437,7 +6437,7 @@
 		],
 		"description": [
 			"## Harpoon",
-			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 20](source/ultimate_equipment), [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"A harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have metal points, but some use ivory or are made entirely of wood. If you are proficient with the harpoon, it is a grappling weapon. A harpoon's weight includes 10 pounds for the weight of 50 feet of hemp rope. The weight can be reduced by using shorter or lighter rope. If you are not proficient with a harpoon, treat it like a spear.",
 			"",
@@ -6455,7 +6455,7 @@
 		],
 		"description": [
 			"## Injection spear",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_#61_shards_of_sin), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited)",
+			"**Source** [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_61_shards_of_sin), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited)",
 			"",
 			"This exotic two-handed weapon allows the user to inject targets with liquid on a hit. The spear's reservoir can hold up to 5 doses of a single fluid-a single dose is automatically injected when the spear hits a target. A non-proficient user can wield an injection spear as a standard spear but cannot trigger the injection. An injection spear is otherwise identical to a normal spear, save that it cannot be thrown, weighs 8 pounds, cannot be used to brace, and costs 60 gp.",
 			"",
@@ -6561,7 +6561,7 @@
 		],
 		"description": [
 			"## Mancatcher",
-			"**Source** [Ultimate Equipment pg. 21](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurer's_armory), [Advanced Player's Guide pg. 179](source/advanced_player's_guide)",
+			"**Source** [Ultimate Equipment pg. 21](source/ultimate_equipment), [Adventurer's Armory pg. 4](source/adventurers_armory), [Advanced Player's Guide pg. 179](source/advanced_players_guide)",
 			"",
 			"This polearm consists of two curved metal bands that close around a target when you attack, allowing you to bind an opponent. A mancatcher is built to capture a creature of a particular size category (such as Small or Medium) and doesn't work on creatures of the wrong size. Make a touch attack to hit an opponent and a combat maneuver check to grapple him (without the -4 penalty for not having two hands free); success means you and the target are grappled. Once the target is grappled, you can perform a move or damage grapple action against him. The mancatcher has hardness 10 and 5 hit points; breaking it requires a DC 26 Strength check. If you drop the mancatcher, the target can free himself as a standard action.",
 			"",
@@ -6581,7 +6581,7 @@
 		],
 		"description": [
 			"## Meteor hammer",
-			"**Source** [Ultimate Equipment pg. 21](source/ultimate_equipment), [Legacy of Fire Player's Guide pg. 22](source/legacy_of_fire_player's_guide), [Adventurer's Armory pg. 4](source/adventurer's_armory), [Ultimate Combat pg. 132](source/ultimate_combat)",
+			"**Source** [Ultimate Equipment pg. 21](source/ultimate_equipment), [Legacy of Fire Player's Guide pg. 22](source/legacy_of_fire_players_guide), [Adventurer's Armory pg. 4](source/adventurers_armory), [Ultimate Combat pg. 132](source/ultimate_combat)",
 			"",
 			"This weapon consists of one or two spherical weights attached by a 10-foot chain. You whirl the weights and wrap them around an opponent's body. If you succeed at a trip attempt with a meteor hammer, you can drag your opponent 5 feet closer to you rather than knocking her prone. You may use this weapon in two different ways: In meteor mode you use it as a double weapon, while in fortress mode you cannot use it as a double weapon but gain reach and a +1 shield bonus to AC. Switching between these two modes is a free action decided at the start of your turn.",
 			"",
@@ -6632,7 +6632,7 @@
 		],
 		"description": [
 			"## Piston maul, gnome",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
 			"",
 			"An alchemically fired piston in the head of this two-handed hammer strikes targets with astounding force. Successful sunder attacks made with a piston maul deal an additional 4 points of damage. A piston maul requires a thunderstone to function; otherwise, it functions as a greatclub. Inserting a thunderstone into the weapon's compartment is a standard action, and powers the weapon for 24 hours, after which the thunderstone is consumed.",
 			"",
@@ -6653,7 +6653,7 @@
 		],
 		"description": [
 			"## Ripsaw glaive, gnome",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
 			"",
 			"The blade of this glaive is serrated and mounted on an axle, around which a heavy cord is wrapped. When the cord is pulled as a move action, the blade spins rapidly for a number of rounds equal to your Strength bonus. While the blade is spinning, you gain a +2 bonus on damage rolls with the weapon. When the blade is not spinning, treat this weapon as a glaive.",
 			"",
@@ -6728,7 +6728,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Switchscythe",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"This scythe has a spring-loaded blade that folds down into the weapon's handle. Opening the scythe blade is a swift action, and closing it again is a standard action. You can use Bluff or Sleight of Hand to treat a closed switchscythe as a hidden weapon; the apparatus can be disguised with 1 minute of work, which grants a +5 bonus on such checks. This disguise is ruined when the weapon is opened and must be reapplied to hide the weapon again. Any effects that apply to a scythe also apply to a switchscythe.",
 			"",
@@ -6764,7 +6764,7 @@
 		],
 		"description": [
 			"## Totem spear",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 35](source/pathfinder_#10_a_history_of_ashes)",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Pathfinder #10: A History of Ashes pg. 35](source/pathfinder_10_a_history_of_ashes)",
 			"",
 			"Favored by the Shoanti of the Sklar-Quah, totem spears combine deadly weapons with the mournful music of Varisia's displaced natives. The shovel-like heads of these broad spears are decorated with variously oriented hollows. In addition to its use as a weapon, a totem spear can be played using the Perform (wind instrument) skill.",
 			"",
@@ -6823,7 +6823,7 @@
 		],
 		"description": [
 			"## Boomerang",
-			"**Source** [Ranged Tactics Toolbox pg. 33](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 2](source/adventurer's_armory), [Advanced Player's Guide pg. 176](source/advanced_player's_guide), [Ultimate Equipment pg. 21](source/ultimate_equipment)",
+			"**Source** [Ranged Tactics Toolbox pg. 33](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 2](source/adventurers_armory), [Advanced Player's Guide pg. 176](source/advanced_players_guide), [Ultimate Equipment pg. 21](source/ultimate_equipment)",
 			"",
 			"The boomerang is primarily a hunting tool, but it is not uncommon for these versatile thrown weapons to be carried into battle. A boomerang is made of wood and is flat, with a long haft, a pronounced forward curve, and a sharp backward bend at the head. A hunting boomerang does not fly in a returning path.",
 			"",
@@ -6852,7 +6852,7 @@
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Dire bolas",
-			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunter's_handbook)",
+			"**Source** [Giant Hunter's Handbook pg. 24](source/giant_hunters_handbook)",
 			"",
 			"This specialized bolas can be used to perform ranged trip combat maneuvers against creatures far larger than the wielder. It consists of a pair of metal weights connected by a silk rope 20 feet long. Because of the great size and weight of the bolas, you need both hands to swing it around your head, and considerable time to get the weights up to speed. Making a ranged attack with it is a full-round action. You can use a dire bolas to trip a creature whose size is up to three size categories larger than yours.",
 			"",
@@ -6873,7 +6873,7 @@
 		],
 		"description": [
 			"## Double crossbow",
-			"**Source** [Ranged Tactics Toolbox pg. 33](source/ranged_tactics_toolbox), [Classic Monsters Revisited pg. 42](source/classic_monsters_revisited), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 18](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide), [Ultimate Equipment pg. 21](source/ultimate_equipment)",
+			"**Source** [Ranged Tactics Toolbox pg. 33](source/ranged_tactics_toolbox), [Classic Monsters Revisited pg. 42](source/classic_monsters_revisited), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 18](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide), [Ultimate Equipment pg. 21](source/ultimate_equipment)",
 			"",
 			"This heavy weapon fires a pair of iron-tipped bolts with a single squeeze of the trigger. Because of its size and weight, you take a -4 penalty on your attack roll if you're proficient with it, or -8 if you're not. If the attack hits, the target takes damage from both bolts. Critical hits, sneak attack damage, and other precision-based damage apply to only the first bolt. Reloading one bolt is a standard action; the [Rapid Reload](feat/rapid_reload) feat reduces this to a move action. [Crossbow Mastery](feat/crossbow_mastery) allows you to reload both bolts as a move action. A double crossbow fires crossbow bolts.",
 			"",
@@ -6891,7 +6891,7 @@
 		],
 		"description": [
 			"## Flask thrower",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)",
 			"",
 			"This staff has a cradle at the end, designed to hold alchemical weapons such as acid. A flask thrower significantly extends the range of thrown substances that deal splash damage, such as acid, alchemist's fire, or holy water, as well as that of tools such as tanglefoot bags, thunderstones, or caltrops.",
 			"",
@@ -6909,7 +6909,7 @@
 		],
 		"description": [
 			"## Grappling hook",
-			"**Source** [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_player's_guide)",
+			"**Source** [Pirates of the Inner Sea pg. 19](source/pirates_of_the_inner_sea), [Skull and Shackles Player's Guide pg. 6](source/skull_and_shackles_players_guide)",
 			"",
 			"A grappling hook is usually thought of as a climbing instrument, but is also used to grapple enemy ships and draw them close before a boarding action.",
 			"",
@@ -7012,7 +7012,7 @@
 			"**Category** Ranged; **Proficiency** Exotic"
 		]
 	},
-	"heavy_slaver's_crossbow": {
+	"heavy_slavers_crossbow": {
 		"name": "Heavy slaver's crossbow",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -7045,7 +7045,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Hornbow, orc",
-			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 8](source/adventurers_armory_2)",
 			"",
 			"Larger even than a longbow, these bows are often made from the horns of great beasts. Though they have a shorter range than other bows, their greater destructive power is highly favored by orcs and their kin. All hornbows are composite bows and can be modified to benefit from high Strength scores in the same way as other composite bows. Any effect that applies to both longbows and shortbows also applies to hornbows.",
 			"",
@@ -7063,7 +7063,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Horse bow",
-			"**Source** [Merchant's Manifest pg. 24](source/merchant's_manifest)",
+			"**Source** [Merchant's Manifest pg. 24](source/merchants_manifest)",
 			"",
 			"The horse bow functions like a composite longbow, but it is designed to be used on horseback. A rider using a horse bow can make ranged attacks while mounted; furthermore, she does not take a penalty to attack rolls when her mount is taking a double move action, and she takes only a -4 penalty on attack rolls when her mount is running. The price of this item is for a default horse bow; each point of Strength bonus granted by the horse bow adds 150 gp to its cost.",
 			"",
@@ -7100,7 +7100,7 @@
 		],
 		"description": [
 			"## Lasso",
-			"**Source** [Ranged Tactics Toolbox pg. 33](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 3](source/adventurer's_armory), [Advanced Player's Guide pg. 178](source/advanced_player's_guide), [Ultimate Equipment pg. 21](source/ultimate_equipment)",
+			"**Source** [Ranged Tactics Toolbox pg. 33](source/ranged_tactics_toolbox), [Adventurer's Armory pg. 3](source/adventurers_armory), [Advanced Player's Guide pg. 178](source/advanced_players_guide), [Ultimate Equipment pg. 21](source/ultimate_equipment)",
 			"",
 			"This thrown weapon is a length of rope with a simple open knot on one end that allows you entangle a foe like you would using a net. The DC to cast a spell while entangled with a lasso is 10 + the spell level being cast. An entangled creature can slip free with a successful DC 15 Escape Artist check as a full-round action. The lasso has 2 hit points and AC 10, and requires a DC 23 Strength check to break it. On a successful hit, the lasso tightens; to use it again you must spend a standard action sliding the knot to enlarge the loop.",
 			"",
@@ -7115,7 +7115,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Launching crossbow",
-			"**Source** [Adventurer's Armory pg. 4](source/adventurer's_armory)",
+			"**Source** [Adventurer's Armory pg. 4](source/adventurers_armory)",
 			"",
 			"This stubby-looking crossbow has a cup-like attachment rather than a groove for a bolt. It is designed to launch splash weapons. Loading a launching crossbow is a full-round action.",
 			"",
@@ -7139,7 +7139,7 @@
 			"**Category** Ranged; **Proficiency** Exotic"
 		]
 	},
-	"light_slaver's_crossbow": {
+	"light_slavers_crossbow": {
 		"name": "Light slaver's crossbow",
 		"sources": [ "Monster Codex" ],
 		"description": [
@@ -7304,7 +7304,7 @@
 		],
 		"description": [
 			"## Shoanti bolas",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_player's_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurer's_armory)",
+			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Inner Sea World Guide pg. 290](source/inner_sea_world_guide), [Adventurer's Armory pg. 33](source/adventurers_armory)",
 			"",
 			"This spiked bolas functions as a standard bolas, but deals lethal damage rather than nonlethal damage.",
 			"",
@@ -7354,7 +7354,7 @@
 		],
 		"description": [
 			"## Sling glove",
-			"**Source** [Adventurer's Armory pg. 5](source/adventurer's_armory), [Legacy of Fire Player's Guide pg. 23](source/legacy_of_fire_player's_guide)",
+			"**Source** [Adventurer's Armory pg. 5](source/adventurers_armory), [Legacy of Fire Player's Guide pg. 23](source/legacy_of_fire_players_guide)",
 			"",
 			"This curved, scooped-shaped, 2-foot-long wicker basket attaches to your wrist, allowing you to throw fist-sized stones at great speed merely by whipping your arm forward. Loading a sling glove is a free action that does not provoke an attack of opportunity so long as you have a free hand. You take -4 penalty when throwing a stone at an adjacent target and cannot use the weapon to attack creatures in your space.",
 			"",
@@ -7388,7 +7388,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Stormshaft javelin",
-			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurer's_armory_2)",
+			"**Source** [Adventurer's Armory 2 pg. 9](source/adventurers_armory_2)",
 			"",
 			"This single-use javelin bears a thunderstone just behind the head. If you successfully strike a target with one of these javelins, the creature takes damage as normal and is the center of the thunderstone's effect. If you miss, roll to see where the javelin lands (as if determining a miss with a splash weapon); that square becomes the center of the thunderstone's effect.",
 			"",
@@ -7407,7 +7407,7 @@
 		],
 		"description": [
 			"## Thorn bow",
-			"**Source** [Adventurer's Armory pg. 18](source/adventurer's_armory), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Conquest of Bloodsworn Vale pg. 31](source/conquest_of_bloodsworn_vale)",
+			"**Source** [Adventurer's Armory pg. 18](source/adventurers_armory), [Pathfinder Campaign Setting pg. 209](source/pathfinder_campaign_setting), [Conquest of Bloodsworn Vale pg. 31](source/conquest_of_bloodsworn_vale)",
 			"",
 			"This polished rosewood bow is studded with thorns and tiny flowers; treat it as a shortbow.",
 			"",
@@ -7913,7 +7913,7 @@
 		"sources": [ "Pathfinder Worldscape #2" ],
 		"description": [
 			"## Radium pistol",
-			"**Source** [Pathfinder: Worldscape #2 pg. 26](source/pathfinder_worldscape_#2)",
+			"**Source** [Pathfinder: Worldscape #2 pg. 26](source/pathfinder_worldscape_2)",
 			"",
 			"A radium pistol is a one-handed weapon with a revolving cylinder containing six chambers. Each chamber holds a special radium-powder cartridge, and when one cartridge is fired, the cylinder automatically rotates (no extra hand or action required). readying the next cartridge for firing.",
 			"",
@@ -7991,7 +7991,7 @@
 		"sources": [ "Pathfinder Worldscape #2" ],
 		"description": [
 			"## Radium rifle",
-			"**Source** [Pathfinder: Worldscape #2 pg. 27](source/pathfinder_worldscape_#2)",
+			"**Source** [Pathfinder: Worldscape #2 pg. 27](source/pathfinder_worldscape_2)",
 			"",
 			"The long barrel and line construction of this two handed weapon allows for a range superior to even modern Earth ri-es.",
 			"",
@@ -8052,7 +8052,7 @@
 		"sources": [ "Pathfinder Worldscape #2" ],
 		"description": [
 			"## Thark rifle",
-			"**Source** [Pathfinder: Worldscape #2 pg. 27](source/pathfinder_worldscape_#2)",
+			"**Source** [Pathfinder: Worldscape #2 pg. 27](source/pathfinder_worldscape_2)",
 			"",
 			"Similar in construction to the standard radium rifle employed by Barsoom's red Martians, the Thark rifle (named for Barsoom's most prominent green Martian tribe) offers a staggering range and greater damage capacity fitting the brutality of its Large wielder. The Thark rifle is a Large two-handed weapon.",
 			"",
@@ -8081,7 +8081,7 @@
 			"**Category** Ammunition; **Proficiency** Exotic"
 		]
 	},
-	"alchemical_cartridge_dragon's_breath": {
+	"alchemical_cartridge_dragons_breath": {
 		"name": "Alchemical cartridge (dragon's breath)",
 		"sources": [
 			"Ultimate Equipment",
@@ -8158,7 +8158,7 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_flare": {
 		"name": "Alchemical cartridge (flare)",
@@ -8166,22 +8166,22 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_gray_dust_shot": {
 		"name": "Alchemical cartridge (gray dust shot)",
 		"sources": [ "Heroes of Golarion" ],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_gray_dust": {
 		"name": "Alchemical cartridge (gray dust)",
 		"sources": [ "Heroes of Golarion" ],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_molten_shot": {
 		"name": "Alchemical cartridge (molten shot)",
 		"sources": [ "People of the Wastes" ],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_paper_bullet_or_pellet": {
 		"name": "Alchemical cartridge (paper, bullet or pellet)",
@@ -8189,12 +8189,12 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_repellent": {
 		"name": "Alchemical cartridge (repellent)",
 		"sources": [ "People of the Wastes" ],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_salt_shot": {
 		"name": "Alchemical cartridge (salt shot)",
@@ -8202,17 +8202,17 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_smoke_cartridge": {
 		"name": "Alchemical cartridge (smoke cartridge)",
 		"sources": [ "Heroes of Golarion" ],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_toxin": {
 		"name": "Alchemical cartridge (toxin)",
 		"sources": [ "People of the Wastes" ],
-		"copyof": "alchemical_cartridge_dragon's_breath"
+		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"black_powder_dose": {
 		"name": "Black powder (dose)",
@@ -8322,7 +8322,7 @@
 	"silver_firearm_bullet": {
 		"copyof": "firearm_bullet_silver"
 	},
-	"gunsmith's_kit": {
+	"gunsmiths_kit": {
 		"name": "Gunsmith's kit",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
