@@ -30,8 +30,6 @@ const doLink = (props: MDaProps, prefix: string) => {
 			}
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
 			const yOffset = id ? 0 : -80;
-			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-			//[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
 			w && (w as HTMLIonContentElement).scrollByPoint(0, yCoordinate + yOffset, 500);
 		}
 //		console.log(id, href);
@@ -46,15 +44,44 @@ const li = (props: MDpProps, prefix: string) => {
 	return <li id={id && (prefix + id)}>{children}</li>;
 };
 
-const p = (props: MDpProps, tables: Table[]) => {
+const scrollWithOffset = (el: HTMLElement) => {
+	// `el` is the element being scrolled TO
+	let w = el.parentElement;
+	while(w && w.tagName.toUpperCase() !== "ION-CONTENT") {
+		w = w.parentElement;
+	}
+	const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
+	w && (w as HTMLIonContentElement).scrollByPoint(0, Math.max(0, yCoordinate - 80), 500);
+}
+const p = (props: MDpProps, tables: Table[], prefix: string) => {
 	const { children } = props;
 	if(typeof(children) === "string") {
+		// Display the requested table
 		let m = children.match(/^\{table([0-9]+)\}$/);
 		if(m) {
 			const index = parseInt(m[1]);
 			if(index >= 0 && index < tables.length) {
 				return <DisplayTable table={tables[index]} />;
 			}
+		}
+		const m2 = children.match(/^\{jumplist (.+)\}$/);
+		if(m2) {
+			// Create the requested "Jump to:" list
+			return (
+				<div className="jumpList">
+					<h2>Jump to:</h2>
+					<ul>
+						{m2[1].split(/ +\/ +/).map(input => {
+							const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
+							return (
+								<li key={`jumpLink-${prefix}${hash}`}>
+									<HashLink scroll={scrollWithOffset} to={`#${prefix}${hash}`}>{input} &#8269;</HashLink>
+								</li>
+							);
+						})}
+					</ul>
+				</div>
+			);
 		}
 	}
 	return <p>{children}</p>;
@@ -115,7 +142,7 @@ const makeComponents = (tables: Table[], id: string) => {
 	return {
 		a: (props: MDaProps) => doLink(props, id),
 		li: (props: MDpProps) => li(props, id),
-		p: (props: MDpProps) => p(props, tables),
+		p: (props: MDpProps) => p(props, tables, id),
 		td,
 		table,
 		h2,

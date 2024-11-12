@@ -3007,6 +3007,8 @@
 		"tags": "Selling treasure trade goods coins gp cp pp sp",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{jumplist Coins / Trade Goods / Selling Treasure}",
+			"",
 			"**Source** [PRPG Core Rulebook pg. 140](source/prpg_core_rulebook) [Ultimate Equipment pg. 93](source/ultimate_equipment)",
 			"",
 			"Each character begins play with a number of gold pieces that he can spend on weapons, armor, and other equipment. As a character adventures, he accumulates more wealth that can be spent on better gear and magic items. Table 6-1 lists the starting gold piece values by class. In addition, each character begins play with an outfit worth 10 gp or less. For characters above 1st level, see [Table 12-4](rule/placing_treasure).",

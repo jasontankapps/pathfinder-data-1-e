@@ -55,9 +55,6 @@ const doLink = (props: MDaProps, prefix: string) => {
 		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
-		//const m = href.match(/user-content-fn-(.+)/);
-		// Trying to make create the ID property that the footnote link will be pointing at,
-		//   since the plugin apparently doesn't do that automatically...
 		const scrollWithOffset = (el: HTMLElement) => {
 			// `el` is the element being scrolled TO
 			let w = el.parentElement;
@@ -66,8 +63,6 @@ const doLink = (props: MDaProps, prefix: string) => {
 			}
 			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
 			const yOffset = id ? 0 : -80;
-			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-			//[...w].pop()!.scrollByPoint(0, yCoordinate + yOffset, 500);
 			w && (w as HTMLIonContentElement).scrollByPoint(0, yCoordinate + yOffset, 500);
 		}
 		return <HashLink aria-label={ariaLabel} id={id && (prefix + id)} scroll={scrollWithOffset} to={"#" + prefix + href.slice(1)}>{children}</HashLink>
@@ -91,15 +86,46 @@ const li = (props: MDpProps, prefix: string) => {
 	return <li id={id && (prefix + id)}>{children}</li>;
 };
 
-const p = (props: MDpProps, tables: Table[]) => {
+const makeId = (input: string) => input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
+
+const scrollWithOffset = (el: HTMLElement) => {
+	// `el` is the element being scrolled TO
+	let w = el.parentElement;
+	while(w && w.tagName.toUpperCase() !== "ION-CONTENT") {
+		w = w.parentElement;
+	}
+	const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
+	w && (w as HTMLIonContentElement).scrollByPoint(0, Math.max(0, yCoordinate - 80), 500);
+}
+const p = (props: MDpProps, tables: Table[], prefix: string) => {
 	const { children } = props;
 	if(typeof(children) === "string") {
 		const m = children.match(/^\{table([0-9]+)\}$/);
 		if(m) {
+			// Display the requested table
 			const index = parseInt(m[1]);
 			if(index >= 0 && index < tables.length) {
 				return <DisplayTable table={tables[index]} />;
 			}
+		}
+		const m2 = children.match(/^\{jumplist (.+)\}$/);
+		if(m2) {
+			// Create the requested "Jump to:" list
+			return (
+				<div className="jumpList">
+					<h2>Jump to:</h2>
+					<ul>
+						{m2[1].split(/ +\/ +/).map(input => {
+							const hash = prefix + makeId(input);
+							return (
+								<li key={`jumpLink-${hash}`}>
+									<HashLink scroll={scrollWithOffset} to={`#${hash}`}>{input}</HashLink>
+								</li>
+							);
+						})}
+					</ul>
+				</div>
+			);
 		}
 	}
 	return <p>{children}</p>;
@@ -156,7 +182,7 @@ const h2 = (props: MDpProps) => {
 	return <IonItem className="mainItem linked" routerLink={url} onClick={() => dispatch(goTo(url))} routerDirection="forward">{element}</IonItem>
 };
 
-const h22 = (props: MDpProps) => {
+const h2Basic = (props: MDpProps) => {
 	if (props.children === "Footnotes") {
 		return <h3>{props.children}</h3>;
 	}
@@ -170,11 +196,43 @@ const h3 = (props: MDpProps) => {
 	return <IonItem className="mainItem linked indented" routerLink={url} onClick={() => dispatch(goTo(url))} routerDirection="forward">{element}</IonItem>
 };
 
+const h3Basic = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h3>{children}</h3>;
+	}
+	return <h3 id={prefix + makeId(children)}>{children}</h3>;
+};
+
+const h4Basic = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h4>{children}</h4>;
+	}
+	return <h4 id={prefix + makeId(children)}>{children}</h4>;
+};
+
+const h5Basic = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h5>{children}</h5>;
+	}
+	return <h5 id={prefix + makeId(children)}>{children}</h5>;
+};
+
 const h6 = (props: MDpProps) => {
 	const input = props.children;
 	const dispatch = useAppDispatch();
 	const [element, url] = getElementAndUrl(typeof input === "string" ? input : String(input));
 	return <IonItem className="mainItem linked reversed" routerLink={url} onClick={() => dispatch(goTo(url))} routerDirection="forward">{element}</IonItem>
+};
+
+const h6Basic = (props: MDpProps, prefix: string) => {
+	const { children } = props;
+	if(typeof(children) !== "string") {
+		return <h6>{children}</h6>;
+	}
+	return <h6 id={prefix + makeId(children)}>{children}</h6>;
 };
 
 const hr = () => {
@@ -185,7 +243,7 @@ const makeComponents = (tables: Table[], id: string) => {
 	return {
 		a: (props: MDaProps) => doLink(props, id),
 		li: (props: MDpProps) => li(props, id),
-		p: (props: MDpProps) => p(props, tables),
+		p: (props: MDpProps) => p(props, tables, id),
 		h1: (props: MDpProps) => h1(props, id),
 		h2,
 		h3,
@@ -198,10 +256,14 @@ const makeBasicComponents = (tables: Table[], id: string) => {
 	return {
 		a: (props: MDaProps) => doLink(props, id),
 		li: (props: MDpProps) => li(props, id),
-		p: (props: MDpProps) => p(props, tables),
+		p: (props: MDpProps) => p(props, tables, id),
 		td,
 		table,
-		h2: h22
+		h2: h2Basic,
+		h3: (props: MDpProps) => h3Basic(props, id),
+		h4: (props: MDpProps) => h4Basic(props, id),
+		h5: (props: MDpProps) => h5Basic(props, id),
+		h6: (props: MDpProps) => h6Basic(props, id)
 	};
 };
 
@@ -211,6 +273,7 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], s
 	const baseClass = "mainItem" + (singleTable ? " singleTable" : "");
 	return description.map((line, i) => {
 		if(typeof line === "string") {
+			// This section covers things like "## main/link Linktext"
 			return (
 				<Markdown
 					key={`mainItem-${i}`}
@@ -219,6 +282,7 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], s
 				>{line}</Markdown>
 			);
 		}
+		// This section covers the "normal" markdown text sections
 		return (
 			<IonItem className={`${baseClass} basic`} key={`mainItemBasic-${i}`}><IonLabel>
 				<Markdown

@@ -42,7 +42,7 @@ ion-list ion-item-divider {
 	border-bottom-width: 3px;
 }
 
-/* Optional Header */
+/* Optional Headers */
 
 /* Rules: Hierarchy */
 
@@ -58,6 +58,35 @@ div.hierarchyRulesInset span {
 }
 div.basicContent.hasInset > div:nth-child(2) h2 {
 	margin-top: 0;
+}
+
+/* JumpList */
+
+div.jumpList {
+	background: var(--ion-color-light-shade);
+	border: 2px solid var(--ion-color-light-tint);
+	border-radius: 1rem;
+	margin: 0.5rem;
+	text-align: end;
+	float:inline-end;
+	padding-inline: 0.625rem;
+	padding-block: 0.25rem;
+	margin-block-start: 0;
+}
+div.jumpList h2 {
+	font-size: 1rem;
+}
+div.jumpList ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div.jumpList ul li {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+div.jumpList ul li a {
+	text-decoration: none;
 }
 
 /* Footer */
