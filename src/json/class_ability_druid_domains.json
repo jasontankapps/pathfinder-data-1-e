@@ -14,7 +14,7 @@
 		"description": [
 			"## Aquatic Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 33](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/33}",
 			"",
 			"**Granted Powers:** You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.",
 			"",
@@ -31,7 +31,7 @@
 		"description": [
 			"## Arctic Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 33](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/33}",
 			"",
 			"**Granted Powers:** You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.",
 			"",
@@ -48,7 +48,7 @@
 		"description": [
 			"## Badlands Domain",
 			"",
-			"**Source** [Faiths and Philosophies pg. 24](source/faiths_and_philosophies)",
+			"{SOURCE Faiths and Philosophies/24}",
 			"",
 			"**Granted Powers:** Your spirit knows both the harshness of the drying wind and the raw beauty of painted canyons.",
 			"",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Cave Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 33](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/33}",
 			"",
 			"**Granted Powers:** The wonders and dark secrets of the deepest caves give you strength.",
 			"",
@@ -84,7 +84,7 @@
 		"description": [
 			"## Crocodile Domain",
 			"",
-			"**Source** [Faiths and Philosophies pg. 24](source/faiths_and_philosophies)",
+			"{SOURCE Faiths and Philosophies/24}",
 			"",
 			"**Granted Powers:** You are connected with the primal forces of creation and destruction and with the crocodile spirit's ancient wisdom.",
 			"",
@@ -103,7 +103,7 @@
 		"description": [
 			"## Desert Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/34}",
 			"",
 			"**Granted Powers:** The spirits and secrets of the endless wastes are yours to command.",
 			"",
@@ -120,7 +120,7 @@
 		"description": [
 			"## Eagle Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/34}",
 			"",
 			"**Granted Powers:** Your spirit soars with the mightiest and noblest of all winged creatures.",
 			"",
@@ -139,7 +139,7 @@
 		"description": [
 			"## Erosion Domain",
 			"",
-			"**Source** [Ultimate Wilderness pg. 46](source/ultimate_wilderness)",
+			"{SOURCE Ultimate Wilderness/46}",
 			"",
 			"**Granted Powers:** You command the crumbling of stone and revel in rust; the decay and destruction of metal and stone over time appeals to and delights you.",
 			"",
@@ -156,7 +156,7 @@
 		"description": [
 			"## Frog Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/34}",
 			"",
 			"**Granted Powers:** You venerate the elder amphibians that first brought life to land.",
 			"",
@@ -175,7 +175,7 @@
 		"description": [
 			"## Jungle Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/34}",
 			"",
 			"**Granted Powers:** The spirits of the jungle, both of natural guardians and lost civilizations, whisper in your heart.",
 			"",
@@ -192,7 +192,7 @@
 		"description": [
 			"## Monkey Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 34](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/34}",
 			"",
 			"**Granted Powers:** The balanced wisdom, skill, agility, and playfulness of the monkey are the model for your spiritual discipline.",
 			"",
@@ -211,7 +211,7 @@
 		"description": [
 			"## Mountain Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/35}",
 			"",
 			"**Granted Powers:** You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.",
 			"",
@@ -228,7 +228,7 @@
 		"description": [
 			"## Panther Domain",
 			"",
-			"**Source** [Faiths and Philosophies pg. 25](source/faiths_and_philosophies)",
+			"{SOURCE Faiths and Philosophies/25}",
 			"",
 			"**Granted Powers:** You share the power of the Hunter in Darkness. The potent magic of an ancient predator spirit flows through you.",
 			"",
@@ -245,7 +245,7 @@
 		"description": [
 			"## Plains Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/35}",
 			"",
 			"**Granted Powers:** The wide open spaces of the prairie, savanna, and steppe are yours to master.",
 			"",
@@ -262,7 +262,7 @@
 		"description": [
 			"## Plane of Air Domain",
 			"",
-			"**Source** [Planes of Power pg. 6](source/planes_of_power)",
+			"{SOURCE Planes of Power/6}",
 			"",
 			"**Granted Powers:** You draw your power from the boundless expanse of air and clouds. In addition, Fly is a class skill for you, and you can take ranks in the skill even without first having a reliable means to fly or glide. In addition, you can use wild empathy to influence a creature with the air subtype if its Intelligence score is 1 or 2.",
 			"",
@@ -281,7 +281,7 @@
 		"description": [
 			"## Plane of Earth Domain",
 			"",
-			"**Source** [Planes of Power pg. 6](source/planes_of_power)",
+			"{SOURCE Planes of Power/6}",
 			"",
 			"**Granted Powers:** You can navigate the untold wonders of the Plane of Earth with ease. In addition, you can use wild empathy to influence a creature with the earth subtype if its Intelligence score is 1 or 2.",
 			"",
@@ -300,7 +300,7 @@
 		"description": [
 			"## Plane of Fire Domain",
 			"",
-			"**Source** [Planes of Power pg. 7](source/planes_of_power)",
+			"{SOURCE Planes of Power/7}",
 			"",
 			"**Granted Powers:** You embrace the destructive flames and ever-roaring volcanoes of the Plane of Fire, having proven yourself impervious to its heat. In addition, you can use wild empathy to influence a creature with the fire subtype if its Intelligence score is 1 or 2.",
 			"",
@@ -319,7 +319,7 @@
 		"description": [
 			"## Plane of Water Domain",
 			"",
-			"**Source** [Planes of Power pg. 7](source/planes_of_power)",
+			"{SOURCE Planes of Power/7}",
 			"",
 			"**Granted Powers:** You are at one with the Plane of Water, able to navigate it and weaponize it at will. In addition, you can use wild empathy to influence a creature with the water subtype if its Intelligence score is 1 or 2.",
 			"",
@@ -338,7 +338,7 @@
 		"description": [
 			"## Ruins Domain",
 			"",
-			"**Source** [Inner Sea Monster Codex pg. 35](source/inner_sea_monster_codex)",
+			"{SOURCE Inner Sea Monster Codex/35}",
 			"",
 			"**Granted Powers:** You sense nature's creeping reclamation of what once belonged to the civilized world and understand how to ensure ruins that hold power or significance will persist.",
 			"",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Serpent Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/35}",
 			"",
 			"**Granted Powers:** You serve ancient serpentine mysteries whose coils still encircle the world.",
 			"",
@@ -376,7 +376,7 @@
 		"description": [
 			"## Swamp Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 35](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/35}",
 			"",
 			"**Granted Powers:** The sour-sweet depths of bogs, marshes, and swamps are your places of power.",
 			"",
@@ -393,7 +393,7 @@
 		"description": [
 			"## The Uskbond Domain",
 			"",
-			"**Source** [Horror Realms pg. 45](source/horror_realms)",
+			"{SOURCE Horror Realms/45}",
 			"",
 			"**Granted Powers:** The Uskbond functions as a unique domain with the granted powers and domain spells below. A druid who takes the Uskbond must be neutral evil and worship Zon-Kuthon. A druid who has taken an archetype that alters or replaces nature bond cannot take the Uskbond.",
 			"",
@@ -413,7 +413,7 @@
 		"description": [
 			"## Vermin Domain",
 			"",
-			"**Source** [Ultimate Wilderness pg. 46](source/ultimate_wilderness), [Inner Sea Monster Codex pg. 35](source/inner_sea_monster_codex)",
+			"{SOURCE Ultimate Wilderness/46;Inner Sea Monster Codex/35}",
 			"",
 			"**Granted Powers:** You see the perfection of nature in the spindly limbs and strange forms of all vermin, great and small alike.",
 			"",
@@ -430,7 +430,7 @@
 		"description": [
 			"## Vulture Domain",
 			"",
-			"**Source** [Faiths and Philosophies pg. 25](source/faiths_and_philosophies)",
+			"{SOURCE Faiths and Philosophies/25}",
 			"",
 			"**Granted Powers:** Yours is the power of death and rebirth. Your spirit soars above all and moves with the flow of unseen currents.",
 			"",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Wolf Domain",
 			"",
-			"**Source** [Ultimate Magic pg. 36](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/36}",
 			"",
 			"**Granted Powers:** You run with the pack and are the master of the cold hunt of your spirit totem.",
 			"",

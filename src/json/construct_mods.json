@@ -5,7 +5,7 @@
 		"description": [
 			"## Armor Modification",
 			"",
-			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/113}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -21,7 +21,7 @@
 		"description": [
 			"## Hit Dice Modification",
 			"",
-			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/113}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -37,7 +37,7 @@
 		"description": [
 			"## Movement Modification",
 			"",
-			"**Source** [Construct Handbook pg. 7](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/7}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -55,7 +55,7 @@
 		"description": [
 			"## Resistances",
 			"",
-			"**Source** [Construct Handbook pg. 7](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/7}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -71,7 +71,7 @@
 		"description": [
 			"## Sense Modifications",
 			"",
-			"**Source** [Construct Handbook pg. 8](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -87,7 +87,7 @@
 		"description": [
 			"## Spell-Like Ability Modification",
 			"",
-			"**Source** [Construct Handbook pg. 8](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -103,7 +103,7 @@
 		"description": [
 			"## Weapon Modification",
 			"",
-			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/113}  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -119,7 +119,7 @@
 		"description": [
 			"## Ability Score Increase",
 			"",
-			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Basic; **Cost** 5,000 gp  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -135,7 +135,7 @@
 		"description": [
 			"## Alarm Link",
 			"",
-			"**Source** [Construct Handbook pg. 8](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Complex; **Cost** 250 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](spell/alarm)  ",
 			"**CR Increase** None",
@@ -151,7 +151,7 @@
 		"description": [
 			"## Shatter Stash",
 			"",
-			"**Source** [Ultimate Magic pg. 115](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/115}  ",
 			"**Type** Complex; **Cost** See below  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [shatter](spell/shatter), variable (see below)  ",
 			"**CR Increase** None",
@@ -221,7 +221,7 @@
 		"description": [
 			"## Rune Carved",
 			"",
-			"**Source** [Ultimate Magic pg. 115](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/115}  ",
 			"**Type** Complex; **Cost** See below  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), variable (see below)  ",
 			"**CR Increase** None",
@@ -303,7 +303,7 @@
 		"description": [
 			"## Self-Repair",
 			"",
-			"**Source** [Construct Handbook pg. 9](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/9}  ",
 			"**Type** Complex; **Cost** 1,500 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [make whole](spell/make_whole)  ",
 			"**CR Increase** +1",
@@ -327,7 +327,7 @@
 		"description": [
 			"## Self-Destruct",
 			"",
-			"**Source** [Construct Handbook pg. 9](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/9}  ",
 			"**Type** Complex; **Cost** 3,570 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [fireball](spell/fireball)  ",
 			"**CR Increase** +1",
@@ -343,7 +343,7 @@
 		"description": [
 			"## Crafter's Eyes",
 			"",
-			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 8,000 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [scrying](spell/scrying)  ",
 			"**CR Increase** None",
@@ -365,7 +365,7 @@
 		"description": [
 			"## Construct Shelter",
 			"",
-			"**Source** [Construct Handbook pg. 8](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [mage's private sanctum](spell/mages_private_sanctum), Small or larger construct  ",
 			"**CR Increase** None",
@@ -383,7 +383,7 @@
 		"description": [
 			"## Construct Storage",
 			"",
-			"**Source** [Construct Handbook pg. 8](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [secret chest](spell/secret_chest), Small or larger construct  ",
 			"**CR Increase** None",
@@ -399,7 +399,7 @@
 		"description": [
 			"## Mind Link",
 			"",
-			"**Source** [Construct Handbook pg. 9](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/9}  ",
 			"**Type** Complex; **Cost** 16,500 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [telepathy](spell/telepathy)  ",
 			"**CR Increase** None",
@@ -419,7 +419,7 @@
 		"description": [
 			"## Bioconstruct Modification",
 			"",
-			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 22,750 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [regenerate](spell/regenerate)  ",
 			"**CR Increase** +1",
@@ -441,7 +441,7 @@
 		"description": [
 			"## Construct Limb",
 			"",
-			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 27,000 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects), Small or Tiny construct  ",
 			"**CR Increase** None",
@@ -461,7 +461,7 @@
 		"description": [
 			"## Construct Armor",
 			"",
-			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 35,000 gp  ",
 			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects), the construct modified must be the same size as the creator  ",
 			"**CR Increase** +1",

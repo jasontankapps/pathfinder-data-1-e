@@ -5,7 +5,7 @@
 		"description": [
 			"## Ancestral Harbinger",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 6](source/monster_summoners_handbook)  ",
+			"{SOURCE Monster Summoner's Handbook/6}  ",
 			"While all bloodragers tap into their bloodlines to fuel the arcane energies they use in battle, some have the ability to call directly to the spirits of their ancestors to aid them, summoning spirits to fight for them or inspire their allies. Ancestral harbingers are particularly common among Shoanti bloodragers and among Bonuwat tribes living along the coast of western Garund.",
 			"",
 			"**Spirit Guardian (Sp):** At 2nd level, an ancestral harbinger can call upon her ancestors to aid her in combat, summoning a weapon of force that functions as per [spiritual weapon](spell/spiritual_weapon). At 6th level, her ancestral spirit can take the form of a savage creature, functioning as per [summon nature's ally II](spell/summon_natures_ally_2) (this can't be used to summon multiple creatures from the [summon nature's ally I](spell/summon_natures_ally_1) list). At 12th level, her ancestor can manifest physically as a ghostly figure, functioning as per [spiritual ally](spell/spiritual_ally). At 18th level, her ancestral spirit can manifest either as a single powerful creature or as multiple lesser ancestors, functioning as per [summon nature's ally VI](spell/summon_natures_ally_6). The harbinger chooses which spell this ability functions as at the time of casting, and can use this ability while in a bloodrage. The ancestral harbinger can use this ability once per day, plus an additional time per day for every 4 bloodrager levels she possesses beyond 2nd. This ability replaces uncanny dodge and the bloodline feats gained at 6th and 18th levels.",
@@ -21,7 +21,7 @@
 		"description": [
 			"## Blood Conduit",
 			"",
-			"**Source** [Advanced Class Guide pg. 82](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/82}  ",
 			"Blood conduits learn to channel their arcane might directly through their flesh, without the need for mystical words or gestures.",
 			"",
 			"**Contact Specialist (Ex):** At 1st level, a blood conduit selects a bonus feat from the following: [Improved Bull Rush](feat/improved_bull_rush), [Improved Grapple](feat/improved_grapple), [Improved Reposition](feat/improved_reposition), [Improved Trip](feat/improved_trip), and [Improved Unarmed Strike](feat/improved_unarmed_strike). He does not need to meet the prerequisites to take this feat. He also adds those feats to his list of bloodline feats. This ability replaces fast movement and alters bloodline feats.",
@@ -37,7 +37,7 @@
 		"description": [
 			"## Bloodrider",
 			"",
-			"**Source** [Advanced Class Guide pg. 82](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/82}  ",
 			"In the world's wild lands, a mount is an advantage in both everyday life and the dealing of death. In many barbarian tribes, the true stature of a warrior is determined by his skill and ferocity on horseback. Other tribes measure it in skill atop whatever terrible mounts their people employ. A number of bloodragers are not only skilled in the art of mounted combat, but have learned to channel their arcane energies directly into their mount.",
 			"",
 			"**Fast Rider (Ex):** The bloodrider is adept at pushing his mount to its limit. The speed of any mount the bloodrager rides increases by 10 feet. This ability replaces fast movement.",
@@ -53,7 +53,7 @@
 		"description": [
 			"## Bloody-Knuckled Rowdy",
 			"",
-			"**Source** [Melee Tactics Toolbox pg. 13](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/13}  ",
 			"Bloodragers are frequently rough-and-ready, untrained scrappers who learn to exploit any advantage to gain the upper hand in a fight. The bloody-knuckled rowdy focuses on tricks and maneuvers that are quick and effective, duplicating combat styles from professional brawlers, street thugs, and even trapped animals. Rather than focusing on a single style, most bloody-knuckled rowdies dabble in multiple techniques, mixing and matching their array of vicious maneuvers to suit the occasion.",
 			"",
 			"**Bloody Knuckles:** The bloody-knuckled rowdy does not gain damage reduction.",
@@ -73,7 +73,7 @@
 		"description": [
 			"## Crossblooded Rager",
 			"",
-			"**Source** [Advanced Class Guide pg. 83](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/83}  ",
 			"While most bloodragers manifest only one bloodline, there are some that, through some quirk of heredity or the conjunction of other powers, manifest two. This combination of two distinct bloodlines can create a versatile and powerful rager who stands out among the horde.",
 			"",
 			"A crossblooded rager selects two different bloodlines. He gains access to the feats, bonus spells, and some of the powers of both bloodlines he is descended from, but at the cost of reducing mental clarity (see Drawbacks below). If the crossblooded rager already has a bloodline from another class, one of the chosen bloodlines must be that bloodline.",
@@ -98,7 +98,7 @@
 		"description": [
 			"## Enlightened Bloodrager",
 			"",
-			"**Source** [Adventurer's Guide pg. 120](source/adventurers_guide), [Arcane Anthology pg. 16](source/arcane_anthology)  ",
+			"{SOURCE Adventurer's Guide/120;Arcane Anthology/16}  ",
 			"Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers have been traveling to the [Magaambya](rule/aff_beast_riders) for generations, seeking the peace and enlightenment promised by students of Old-Mage Jatembe. Many perish or succumb to their bloodlust long before arriving at the school, but those who survive that journey and dedicate themselves to Jatembe's teachings eventually learn to control their anger and suppress the worst influences of their bloodlines.",
 			"",
 			"Once a bloodrager takes the teachings of the Magaambya into her heart and mind, she unlocks a unique method of casting her violent, rage-fueled spells. As a result, an enlightened bloodrager's magic looks, feels, and functions quite differently from the magic of other bloodragers. In many cases, when an enlightened bloodrager encounters a more traditional bloodrager, the meeting is laced with tension and suspicion. The enlightened bloodrager is, of course, well aware of the other bloodrager's tendency toward violence, and the other bloodrager is often unnerved by the calm and reasoned mannerisms of his enlightened counterpart. Many bloodragers even take offense at this demeanor, interpreting the enlightened bloodrager as a pawn of intellectuals or as having dishonored her ancestry or traditions by abandoning emotion and wrath. As one can well expect, such confrontations rarely result in lasting friendships!",
@@ -130,7 +130,7 @@
 		"description": [
 			"## Greenrager",
 			"",
-			"**Source** [Advanced Class Guide pg. 83](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/83}  ",
 			"Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the natural world manifest itself through the arcane current in the veins of the bloodragers called greenragers. These bloodragers funnel their eldritch heritage into abilities that allow them to call powerful allies from nature and empower them with their bloodrage.",
 			"",
 			"**Unfettered Fury (Ex):** At 3rd level, a greenrager's fury allows him to move through undergrowth with frightening speed and grace. This functions as the [druid's woodland stride class feature](class/druid), but only while the greenrager is bloodraging. This ability replaces blood sanctuary.",
@@ -146,7 +146,7 @@
 		"description": [
 			"## Hag-Riven",
 			"",
-			"**Source** [Blood of the Coven pg. 27](source/blood_of_the_coven)  ",
+			"{SOURCE Blood of the Coven/27}  ",
 			"All changelings have the potential to transform into hags, but the process is a slow one, requiring several nights to complete. When left incomplete-by virtue of a wily changeling's escape or her mother's death-the creature is scarred and saturated in arcane power. Though she remains in possession of her own faculties, the seeds of hag hatred sprout within her. These hag-riven wield powerful magic interlaced with more powerful emotions.",
 			"",
 			"The painful rituals that create a hag-riven can work for any creatures tenacious enough to endure them, and the art has sprung up as a defense against the devastating power of hags in various remote communities.",
@@ -178,7 +178,7 @@
 		"description": [
 			"## Id Rager",
 			"",
-			"**Source** [Occult Origins pg. 23](source/occult_origins)  ",
+			"{SOURCE Occult Origins/23}  ",
 			"An id rager lacks a supernatural taint to his blood, instead drawing power from pure emotion.",
 			"",
 			"**Atavistic Avatar (Su):** An id rager chooses one emotional focus to define his core: anger, dedication, despair, fear, hatred, jealousy, remorse, or zeal. At 1st level, he gains [Skill Focus](feat/skill_focus) as a bonus feat in one skill associated with his atavistic focus.",
@@ -220,7 +220,7 @@
 		"description": [
 			"## Metamagic Rager",
 			"",
-			"**Source** [Advanced Class Guide pg. 83](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/83}  ",
 			"While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel their bloodrage in ways that push their spells to impressive ends.",
 			"",
 			"**Meta-Rage (Su):** At 5th level, a metamagic rager can sacrifice additional rounds of bloodrage to apply a [metamagic feat](main/feats_metamagic) he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting. Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead. This ability replaces improved uncanny dodge."
@@ -232,7 +232,7 @@
 		"description": [
 			"## Primalist",
 			"",
-			"**Source** [Advanced Class Guide pg. 84](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/84}  ",
 			"While bloodrage powers come from the very essence of a bloodrager's being and are often strict and immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages with something more primal. The primalist mixes his bloodline with more traditional rage powers.",
 			"",
 			"**Primal Choices:** At 4th level and every 4 levels thereafter, a primalist can choose to take either his bloodline power or two [barbarian rage powers](ability/rage_powers). If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it. This ability does not count as the rage power class feature for determining feat prerequisites and other requirements. This ability alters the bloodline class feature."
@@ -244,7 +244,7 @@
 		"description": [
 			"## Prowler at World's End",
 			"",
-			"**Source** [Blood of the Beast pg. 4](source/blood_of_the_beast)  ",
+			"{SOURCE Blood of the Beast/4}  ",
 			"Ancient catfolk legends claim their kind was created to protect the world from the sinister forces that exist at the world's fringes. Many catfolk bloodragers capable of communing with the ancient spirits of creation take on the burden of this ancient tradition.",
 			"",
 			"**Bloodline:** A prowler at world's end must choose the destined bloodline as his bloodline.",
@@ -274,7 +274,7 @@
 		"description": [
 			"## Rageshaper",
 			"",
-			"**Source** [Advanced Class Guide pg. 84](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/84}  ",
 			"All bloodragers blend the unpredictable surge of arcane power with the savage fury of battle lust. For most, their rage is a conduit for the eldritch power locked in their heritage, but for a rageshaper, the latent magical energies in his blood bring about physical transformations and facilitate the blending of arcana and aggression into a deadly synthesis that few other barbarians (or even other bloodragers) can match.",
 			"",
 			"**Bestial Aspect (Su):** At 4th level, whenever a rageshaper gains a natural attack through the use of a polymorph spell, he can increase the damage done by that attack by one die. If the spell grants multiple natural attacks, the rageshaper must choose one kind of natural attack for the ability to enhance. At 9th level, if the rageshaper's altered form grants him a new mode of movement, that movement's base speed increases by 10 feet. This is an enhancement bonus. If the rageshaper's bloodrage powers already grant natural attacks or alternate modes of movement, then the bonuses granted by bestial aspect also apply to these bloodrage powers. This ability replaces blood sanctuary.",
@@ -288,7 +288,7 @@
 		"description": [
 			"## Spelleater",
 			"",
-			"**Source** [Advanced Class Guide pg. 85](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/85}  ",
 			"Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into the power of their bloodline in order to heal damage as it comes, and can even cannibalize their own magical energy to heal more damage and continue taking the fight to the enemy.",
 			"",
 			"**Blood of Life (Su):** A spelleater's blood empowers him to slowly recover from his wounds. At 2nd level, while bloodraging a spelleater gains [fast healing 1](umr/fast_healing). At 7th level and every 3 levels thereafter, this increases by 1 (to a maximum of fast healing 6 at 19th level). If the spelleater gains an increase to damage reduction from a bloodline, feat, or other ability, he is considered to have an effective damage reduction of 0, and the increase is added to this effective damage reduction. This ability replaces uncanny dodge and damage reduction.",
@@ -302,7 +302,7 @@
 		"description": [
 			"## Steelblood",
 			"",
-			"**Source** [Advanced Class Guide pg. 85](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/85}  ",
 			"Most bloodragers prefer light armor, but some learn the secret of using heavy armors. These steelbloods plod around the battlefield inspiring fear and delivering carnage from within a steel shell.",
 			"",
 			"**Weapon and Armor Proficiency:** A steelblood gains proficiency in heavy armor. A steelblood can cast bloodrager spells while wearing heavy armor without incurring an arcane spell failure chance. This replaces the bloodrager's armor proficiency.",
@@ -322,7 +322,7 @@
 		"description": [
 			"## Symbol Striker",
 			"",
-			"**Source** [Heroes from the Fringe pg. 7](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/7}  ",
 			"Symbol strikers are honored warriors of Dongun Hold, a Sky Citadel in Alkenstar that was a site of frequent conflicts between the nations of Geb and Nex. The dwarven inhabitants used powerful magic explosives to seal the fortress against the outside world and prevent the Sky Citadel from becoming a pawn in the arcane wars between the two powers. Only with the arrival of Ancil Alkenstar in 4588 AR did Dongun Hold reopen itself to the outside world. By then, the constant exposure to strange runic energies and the long isolation had caused a unique form of rune-wielding berserker spellcaster to develop, though the symbol striker tradition has since spread beyond its origins.",
 			"",
 			"**Skills:** A symbol striker gains Linguistics as a class skill, but does not gain Handle Animal as a class skill.",
@@ -350,7 +350,7 @@
 		"description": [
 			"## Untouchable Rager",
 			"",
-			"**Source** [Advanced Class Guide pg. 85](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/85}  ",
 			"While most bloodragers are known for their inexplicable ability to focus their bloodline into a horrifying mix of martial terror and spellcasting fury, from time to time a bloodrager's bloodline acts differently. Instead of empowering the bloodrager, it shields the bloodrager from magic of all types, often keeping the bloodrager untouched within the midst of magical effects.",
 			"",
 			"**Raging Resistance (Ex):** At 4th level, instead of gaining spells, a bloodrager becomes resistant to spells. While bloodraging, he gains spell resistance equal to 8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance cannot be voluntarily lowered. As long as the untouchable is bloodraging, the spell resistance is persistent, and can only be lowered by ending the bloodrage. At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell resistance from raging resistance is increased by 1. This ability replaces the spells, blood casting, eschew materials, and bloodline spells class features.",
@@ -364,7 +364,7 @@
 		"description": [
 			"## Urban Bloodrager",
 			"",
-			"**Source** [Heroes of the Streets pg. 24](source/heroes_of_the_streets)  ",
+			"{SOURCE Heroes of the Streets/24}  ",
 			"Like the [urban barbarian](archetype-barbarian/urban_barbarian), the urban bloodrager has learned to control her rage in so-called polite society. Though she lacks the untamed resilience of her wilder fellows, she's an expert at keeping her rage from causing collateral damage in crowds.",
 			"",
 			"**Class Skills:** An urban bloodrager adds Diplomacy (Cha), Knowledge (local) (Int), Linguistics (Int), and Profession (Wis) as class skills, and removes Handle Animal (Cha), Knowledge (nature) (Int), and Survival (Wis). This alters the bloodrager's class skills.",

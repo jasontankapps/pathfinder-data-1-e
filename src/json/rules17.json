@@ -3,7 +3,7 @@
 		"name": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 458](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/458}",
 			"",
 			"From the common potion of cure light wounds to the mighty holy avenger, magic items are valuable tools used by heroes and villains alike. This section contains a wide variety of items to enhance any character.",
 			"",
@@ -38,7 +38,7 @@
 		"name": "Magic Items and Detect Magic",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 458](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/458}",
 			"",
 			"When detect magic identifies a magic item's school of magic, this information refers to the school of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The description of each item provides its aura strength and the school to which it belongs.",
 			"",
@@ -77,7 +77,7 @@
 		"tags": "using magic items activating magic items spell completion command word spell trigger use-activated",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 458](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/458}",
 			"",
 			"To use a magic item, it must be activated, although sometimes activation simply means putting a ring on your finger. Some items, once donned, function constantly. In most cases, though, using an item requires a standard action that does not provoke attacks of opportunity. By contrast, spell completion items are treated like spells in combat and do provoke attacks of opportunity.",
 			"",
@@ -130,7 +130,7 @@
 		"name": "Size and Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/459}",
 			"",
 			"When an article of magic clothing or jewelry is discovered, most of the time size shouldn't be an issue. Many magic garments are made to be easily adjustable, or they adjust themselves magically to the wearer. Size should not keep characters of various kinds from using magic items. There may be rare exceptions, especially with race-specific items.",
 			"",
@@ -162,7 +162,7 @@
 		"tags": "slots, item slots",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/459}",
 			"",
 			"Many magic items need to be donned by a character who wants to employ them or benefit from their abilities. It's possible for a creature with a humanoid-shaped body to wear as many as 15 magic items at the same time. However, each of those items must be worn on (or over) a particular part of the body, known as a \"slot.\"",
 			"",
@@ -225,7 +225,7 @@
 		"name": "Saving Throws Against Magic Item Powers",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/459}",
 			"",
 			"Magic items produce spells or spell-like effects. For a saving throw against a spell or spell-like effect from a magic item, the DC is 10 + the level of the spell or effect + the ability modifier of the minimum ability score needed to cast that level of spell.",
 			"",
@@ -258,7 +258,7 @@
 		"name": "Damaging Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/459}",
 			"",
 			"A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them-even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.",
 			"",
@@ -289,7 +289,7 @@
 		"name": "Repairing Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/459}",
 			"",
 			"Repairing a magic item requires material components equal to half the cost to create the item, and requires half the time. The make whole spell can also repair a damaged (or even a destroyed) magic item-if the caster is high enough level."
 		],
@@ -319,7 +319,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 459](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/459}",
 			"",
 			"Many items, particularly wands and staves, are limited in power by the number of charges they hold. Normally, charged items have 50 charges at most (10 for staves). If such an item is found as a random part of a treasure, roll d% and divide by 2 to determine the number of charges left (round down, minimum 1). If the item has a maximum number of charges other than 50, roll randomly to determine how many charges are left.",
 			"",
@@ -350,7 +350,7 @@
 		"name": "Purchasing Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 460](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/460}",
 			"",
 			"Magic items are valuable, and most major cities have at least one or two purveyors of magic items, from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not every item is available in every town.",
 			"",
@@ -418,7 +418,7 @@
 		"name": "Magic Item Descriptions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 460](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/460}",
 			"",
 			"Each general type of magic item gets an overall description, followed by descriptions of specific items.",
 			"",
@@ -490,7 +490,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 501](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/501}",
 			"",
 			"A number of spells and magic items utilize extradimensional spaces, such as [rope trick](spell/rope_trick), a [bag of holding](magic-wondrous/bag_of_holding_type_1), a [handy haversack](magic-wondrous/handy_haversack), and a [portable hole](magic-wondrous/portable_hole). These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a bag of holding is brought into a rope trick, the contents of the bag of holding become inaccessible until the bag of holding is taken outside the rope trick. The only exception to this is when a bag of holding and a portable hole interact, forming a rift to the [Astral Plane](rule/astral_plane), as noted in their descriptions."
 		],
@@ -516,7 +516,7 @@
 		"name": "Magic Armor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 461](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/461}",
 			"",
 			"In general, magic armor protects the wearer to a greater extent than nonmagical armor. Magic armor bonuses are enhancement bonuses, never rise above +5, and stack with regular armor bonuses (and with shield and magic shield enhancement bonuses). All magic armor is also masterwork armor, reducing armor check penalties by 1.",
 			"",
@@ -672,7 +672,7 @@
 		"name": "Magic Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 468](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/468}",
 			"",
 			"A magic weapon is enhanced to strike more truly and deliver more damage. Magic weapons have enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls when used in combat. All magic weapons are also masterwork weapons, but their masterwork bonuses on attack rolls do not stack with their enhancement bonuses on attack rolls.",
 			"",
@@ -811,7 +811,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 477](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/477}",
 			"",
 			"A potion is a magic liquid that produces its effect when imbibed. Potions vary incredibly in appearance. Magic oils are similar to potions, except that oils are applied externally rather than imbibed. A potion or oil can be used only once. It can duplicate the effect of a spell of up to 3rd level that has a casting time of less than 1 minute and targets one or more creatures or objects. The price of a potion is equal to the level of the spell &times; the creator's caster level &times; 50 gp. If the potion has a material component cost, it is added to the base price and cost to create. Table 15-12 gives sample prices for potions created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster brewing the potion.",
 			"",
@@ -882,7 +882,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 478](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/478}",
 			"",
 			"Rings bestow magical powers upon their wearers. Only a rare few have charges-most magic rings are permanent and potent magic items. Anyone can use a ring.",
 			"",
@@ -968,7 +968,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 484](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/484}",
 			"",
 			"Rods are scepter-like devices that have unique magical powers and do not usually have charges. Anyone can use a rod.",
 			"",
@@ -1044,7 +1044,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 490](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/490}",
 			"",
 			"A scroll is a spell (or collection of spells) that has been stored in written form. A spell on a scroll can be used only once. The writing vanishes from the scroll when the spell is activated. Using a scroll is basically like casting a spell. The price of a scroll is equal to the level of the spell &times; the creator's caster level &times; 25 gp. If the scroll has a material component cost, it is added to the base price and cost to create. Table 15-15 gives sample prices for scrolls created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster scribing the scroll.",
 			"",
@@ -1148,7 +1148,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 491](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/491}",
 			"",
 			"A staff is a long shaft that stores several spells. Unlike wands, which can contain a wide variety of spells, each staff is of a certain kind and holds specific spells. A staff has 10 charges when created.",
 			"",
@@ -1228,7 +1228,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 496](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/496}",
 			"",
 			"A wand is a thin baton that contains a single spell of 4th level or lower. A wand has 50 charges when created-each charge allows the use of the wand's spell one time. A wand that runs out of charges is just a stick. The price of a wand is equal to the level of the spell &times; the creator's caster level &times; 750 gp. If the wand has a material component cost, it is added to the base price and cost to create once for each charge (50 &times; material component cost). Table 15-17 gives sample prices for wands created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster crafting the wand.",
 			"",
@@ -1291,7 +1291,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 496](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/496}",
 			"",
 			"This is a catch all category for anything that doesn't fall into the other groups. Anyone can use a wondrous item (unless specified otherwise in the description).",
 			"",
@@ -1331,7 +1331,7 @@
 		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 497](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/497}",
 			"",
 			"{table0}"
 		],
@@ -1465,7 +1465,7 @@
 		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 498](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/498}",
 			"",
 			"{table0}"
 		],
@@ -1599,7 +1599,7 @@
 		"subtitle": "Random Item Generators, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 499](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/499}",
 			"",
 			"{table0}"
 		],
@@ -1733,7 +1733,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 532](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/532}",
 			"",
 			"Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items think and feel the same way characters do and should be treated as NPCs. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Only permanent magic items (as opposed to single-use items or those with charges) can be intelligent. (This means that potions, scrolls, and wands, among other items, are never intelligent.) In general, less than 1% of magic items have intelligence.",
 			"",
@@ -1779,7 +1779,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 532](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/532}",
 			"",
 			"Creating a magic item with intelligence follows these simple guidelines. Intelligent items must have an alignment, mental ability scores, languages, senses, and at least one other special ability. These statistics and abilities can be improved during creation, increasing the item's overall cost. Many of these abilities add to an item's Ego score. Intelligent items with high Ego scores are difficult to control and can sometimes take control of their owner, making them dangerous to possess.",
 			"",
@@ -1808,7 +1808,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/533}",
 			"",
 			"Any item with intelligence has an alignment (see Table 15-21). Note that intelligent weapons already have alignments, either stated or by implication. If you're generating a random intelligent weapon, that weapon's alignment must fit with any alignment-oriented special abilities it has.",
 			"",
@@ -1853,7 +1853,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/533}",
 			"",
 			"Intelligent magic items possess all three mental ability scores: Intelligence, Wisdom, and Charisma. Each one of these ability scores begins at a value of 10, but can be increased to as high as 20. Table 15-22 shows the cost to increase one of the item's ability scores. This cost must be paid for each ability score raised above 10. For example, an intelligent magic item with a 15 Intelligence, 12 Wisdom, and 10 Charisma would cost at least 2,400 gp more than the base item (including the 500 gp for being an intelligent item).",
 			"",
@@ -1896,7 +1896,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/533}",
 			"",
 			"Like a character, an intelligent item understands Common plus one additional language per point of Intelligence bonus. Choose appropriate languages, taking into account the item's origin and purposes. If the item does not possess speech, it can still read and understand the languages it knows."
 		],
@@ -1923,7 +1923,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 533](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/533}",
 			"",
 			"Every intelligent magic item begins with the ability to see and hear within 30 feet, as well as the ability to communicate empathically with its owner. Empathy only allows the item to encourage or discourage certain actions through urges and emotions. Additional forms of communication and better senses increase the item's cost and Ego score, as noted on Table 15-23.",
 			"",
@@ -1977,7 +1977,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/535}",
 			"",
 			"Each intelligent item should possess at least one power, although more powerful items might possess a host of powers. To find the item's specific powers, choose or roll on Table 15-24. All powers function at the direction of the item, although intelligent items generally follow the wishes of their owner. Activating a power or concentrating on an active one is a standard action the item takes. The caster level for these effects is equal to the item's caster level. Save DCs are based off the item's highest mental ability score.",
 			"",
@@ -2026,7 +2026,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/535}",
 			"",
 			"Some intelligent items have special purposes that guide their actions. Intelligent magic items with a special purpose gain a +2 Ego bonus. An item's purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of \"defeat/slay arcane spellcasters\" doesn't mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizards' cabal to ruin, as well as end the rule of a sorcerer-queen in a nearby land. Likewise, a purpose of \"defend elves\" doesn't mean that if the wielder is an elf, he only wants to help the wielder. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of \"defeat/slay all\" isn't just a matter of self-preservation. It means that the item won't rest (or let its wielder rest) until it places itself above all others.",
 			"",
@@ -2073,7 +2073,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/535}",
 			"",
 			"A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see [Items Against Characters](rule/items_against_characters)). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score. See Table 15-26 for a list of dedicated powers.",
 			"",
@@ -2112,7 +2112,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/535}",
 			"",
 			"Ego is a measure of the total power and force of personality that an item possesses. An item's Ego score is the sum of all of its Ego modifiers plus an additional bonus for the cost of the base magic item (excluding the cost of all of the intelligent item enhancements). An item's Ego score helps determine whether the item or the character is dominant in their relationship, as detailed below.",
 			"",
@@ -2150,7 +2150,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 535](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/535}",
 			"",
 			"When an item has an Ego of its own, it has a will of its own. The item is absolutely true to its alignment. If the character who possesses the item is not true to that alignment's goals or the item's special purpose, personality conflict-item against character-results. Similarly, any item with an Ego score of 20 or higher always considers itself superior to any character, and a personality conflict results if the possessor does not always agree with the item.",
 			"",
@@ -2201,7 +2201,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 536](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/536}",
 			"",
 			"Cursed items are magic items with some sort of potentially negative impact. Occasionally they mix bad with good, forcing characters to make difficult choices. Cursed items are almost never made intentionally. Instead they are the result of rushed work, inexperienced crafters, or a lack of proper components. While many of these items still have functions, they either do not work as intended or come with serious drawbacks. When a magic item creation skill check fails by 5 or more, roll on Table 15-27 to determine the type of curse possessed by the item.",
 			"",
@@ -2236,7 +2236,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 536](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/536}",
 			"",
 			"The following are some of the most common cursed item effects. GMs should feel free to invent new cursed item effects to fit specific items.",
 			"",
@@ -2362,7 +2362,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 543](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/543}",
 			"",
 			"[Artifacts](main/magic_artifacts) are extremely powerful. Rather than merely another form of magical equipment, they are the sorts of legendary relics that whole campaigns can be based on. Each could be the center of a whole set of adventures-a quest to recover it, a fight against an opponent wielding it, a mission to cause its destruction, and so on.",
 			"",
@@ -2400,7 +2400,7 @@
 		"tags": "creating magic items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 548](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/548}",
 			"",
 			"To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually Spellcraft, but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see [Cursed Items](rule/cursed_items) for more information).",
 			"",
@@ -2456,7 +2456,7 @@
 		"name": "Magic Item Gold Piece Values",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 549](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/549}",
 			"",
 			"Many factors must be considered when determining the price of new magic items. The easiest way to come up with a price is to compare the new item to an item that is already priced, using that price as a guide. Otherwise, use the guidelines summarized on the table below.",
 			"",
@@ -2546,7 +2546,7 @@
 		"name": "Creating Magic Armor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 550](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/550}",
 			"",
 			"To create magic armor, a character needs a heat source and some iron, wood, or leatherworking tools. He also needs a supply of materials, the most obvious being the armor or the pieces of the armor to be assembled. Armor to be made into magic armor must be masterwork armor, and the masterwork cost is added to the base price to determine final market value. Additional magic supply costs for the materials are subsumed in the cost for creating the magic armor-half the base price of the item. Creating magic armor has a special prerequisite: The creator's caster level must be at least three times the enhancement bonus of the armor. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met. Magic armor or a magic shield must have at least a +1 enhancement bonus to have any armor or shield special abilities.",
 			"",
@@ -2583,7 +2583,7 @@
 		"name": "Creating Magic Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 551](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/551}",
 			"",
 			"To create a magic weapon, a character needs a heat source and some iron, wood, or leatherworking tools. She also needs a supply of materials, the most obvious being the weapon or the pieces of the weapon to be assembled. Only a masterwork weapon can become a magic weapon, and the masterwork cost is added to the total cost to determine final market value. Additional magic supplies costs for the materials are subsumed in the cost for creating the magic weapon-half the base price of the item based upon the item's total effective bonus.",
 			"",
@@ -2627,7 +2627,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 551](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/551}",
 			"",
 			"The creator of a potion needs a level working surface and at least a few containers in which to mix liquids, as well as a source of heat to boil the brew. In addition, he needs ingredients. The costs for materials and ingredients are subsumed in the cost for brewing the potion: 25 gp &times; the level of the spell &times; the level of the caster.",
 			"",
@@ -2682,7 +2682,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 551](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/551}",
 			"",
 			"To create a magic ring, a character needs a heat source. He also needs a supply of materials, the most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is subsumed in the cost for creating the ring. Ring costs are difficult to determine. Refer to [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) and use the ring prices in the ring descriptions as a guideline. Creating a ring generally costs half the ring's market price.",
 			"",
@@ -2720,7 +2720,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 552](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/552}",
 			"",
 			"To create a magic rod, a character needs a supply of materials, the most obvious being a rod or the pieces of the rod to be assembled. The cost for the materials is subsumed in the cost for creating the rod. Rod costs are difficult to determine. Refer to [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) and use the rod prices in the rod descriptions as a guideline. Creating a rod costs half the market value listed.",
 			"",
@@ -2758,7 +2758,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 552](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/552}",
 			"",
 			"To create a scroll, a character needs a supply of choice writing materials, the cost of which is subsumed in the cost for scribing the scroll: 12.5 gp &times; the level of the spell &times; the level of the caster.",
 			"",
@@ -2821,7 +2821,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 552](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/552}",
 			"",
 			"To create a magic staff, a character needs a supply of materials, the most obvious being a staff or the pieces of the staff to be assembled.",
 			"",
@@ -2863,7 +2863,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 553](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/553}",
 			"",
 			"To create a magic wand, a character needs a small supply of materials, the most obvious being a baton or the pieces of the wand to be assembled. The cost for the materials is subsumed in the cost for creating the wand: 375 gp &times; the level of the spell &times; the level of the caster. Wands are always fully charged (50 charges) when created.",
 			"",
@@ -2919,7 +2919,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 553](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/553}",
 			"",
 			"To create a wondrous item, a character usually needs some sort of equipment or tools to work on the item. She also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Wondrous item costs are difficult to determine. Refer to [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) and use the item prices in the item descriptions as a guideline. Creating an item costs half the market value listed.",
 			"",
@@ -2957,7 +2957,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 553](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/553}",
 			"",
 			"Sometimes, lack of funds or time make it impossible for a magic item crafter to create the desired item from scratch. Fortunately, it is possible to enhance or build upon an existing magic item. Only time, gold, and the various prerequisites required of the new ability to be added to the magic item restrict the type of additional powers one can place.",
 			"",
@@ -2990,7 +2990,7 @@
 		"name": "Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 170](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/170}",
 			"",
 			"There are three movement scales, as follows:",
 			"",
@@ -3048,7 +3048,7 @@
 		"name": "Tactical Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 170](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/170}",
 			"",
 			"Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons-they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.",
 			"",
@@ -3084,7 +3084,7 @@
 		"name": "Local Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 170](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/170}",
 			"",
 			"Characters exploring an area use local movement, measured in feet per minute.",
 			"",
@@ -3109,7 +3109,7 @@
 		"name": "Overland Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 171](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/171}",
 			"",
 			"Characters covering long distances cross-country use overland movement. Overland movement is measured in miles per hour or miles per day. A day represents 8 hours of actual travel time. For rowed watercraft, a day represents 10 hours of rowing. For a sailing ship, it represents 24 hours.",
 			"",
@@ -3186,7 +3186,7 @@
 		"name": "Evasion and Pursuit",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 171](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/171}",
 			"",
 			"In round-by-round movement, when simply counting off squares, it's impossible for a slow character to get away from a determined fast character without mitigating circumstances. Likewise, it's no problem for a fast character to get away from a slower one.",
 			"",
@@ -3211,7 +3211,7 @@
 		"name": "Vision and Light",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 172](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/172}",
 			"",
 			"Dwarves and half-orcs have darkvision, but other races need light to see by. See Table 7-10 for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).",
 			"",
@@ -3261,7 +3261,7 @@
 		"tags": "smashing an object breaking items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 173](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/173}",
 			"",
 			"When attempting to break an object, you have two choices: smash it with a weapon or [break it](#breaking-items) with sheer strength.",
 			"",
@@ -3415,7 +3415,7 @@
 		"name": "Magic and Spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 206](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/206}",
 			"",
 			"From creating a wisp of light to causing the ground itself to shatter and break, spells are a source of immense power. A spell is a one-time magical effect. Spells come in two types: arcane (cast by bards, sorcerers, and wizards) and divine (cast by clerics, druids, and experienced paladins and rangers). Some spellcasters select their spells from a limited list of spells known, while others have access to a wide variety of options.",
 			"",
@@ -3443,7 +3443,7 @@
 		"tag": "spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 206](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/206}",
 			"",
 			"Whether a spell is arcane or divine, and whether a character prepares spells in advance or chooses them on the spot, casting a spell works the same way."
 		],
@@ -3473,7 +3473,7 @@
 		"name": "Choosing a Spell",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 206](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/206}",
 			"",
 			"First you must choose which spell to cast. If you're a cleric, druid, experienced paladin, experienced ranger, or wizard, you select from among spells prepared earlier in the day and not yet cast (see Preparing Wizard Spells and Preparing Divine Spells).",
 			"",
@@ -3505,7 +3505,7 @@
 		"tags": "spells magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 206](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/206}",
 			"",
 			"To cast a spell, you must concentrate. If something interrupts your concentration while you're casting, you must make a concentration check or lose the spell. When you make a concentration check, you roll d20 and add your caster level and the ability score modifier used to determine bonus spells of the same type. Clerics, druids, and rangers add their Wisdom modifier. Bards, paladins, and sorcerers add their Charisma modifier. Finally, wizards add their Intelligence modifier. The more distracting the interruption and the higher the level of the spell you are trying to cast, the higher the DC (see Table 9-1). If you fail the check, you lose the spell just as if you had cast it to no effect.",
 			"",
@@ -3565,7 +3565,7 @@
 		"name": "Counterspells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 207](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/207}",
 			"",
 			"It is possible to cast any spell as a counterspell. By doing so, you are using the spell's energy to disrupt the casting of the same spell by another character. Counterspelling works even if one spell is divine and the other arcane.",
 			"",
@@ -3600,7 +3600,7 @@
 		"name": "Caster Level",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 208](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/208}",
 			"",
 			"A spell's power often depends on its caster level, which for most spellcasting characters is equal to her class level in the class she's using to cast the spell.",
 			"",
@@ -3627,7 +3627,7 @@
 		"name": "Spell Failure",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 208](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/208}",
 			"",
 			"If you ever try to cast a spell in conditions where the characteristics of the spell cannot be made to conform, the casting fails and the spell is wasted.",
 			"",
@@ -3652,7 +3652,7 @@
 		"name": "Special Spell Effects",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 208](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/208}",
 			"",
 			"Once you know which creatures (or objects or areas) are affected, and whether those creatures have made successful saving throws (if any were allowed), you can apply whatever results a spell entails.",
 			"",
@@ -3691,7 +3691,7 @@
 		"name": "Combining Magic Effects",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 208](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/208}",
 			"",
 			"Spells or magical effects usually work as described, no matter how many other spells or magical effects happen to be operating in the same area or on the same recipient. Except in special cases, a spell does not affect the way another spell operates. Whenever a spell has a specific effect on other spells, the spell description explains that effect. Several other general rules apply when spells or magical effects operate in the same place:",
 			"",
@@ -3730,7 +3730,7 @@
 		"name": "Spell Descriptions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 209](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/209}",
 			"",
 			"The description of each spell is presented in a standard format. Each category of information is explained and defined below."
 		],
@@ -3764,7 +3764,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 209](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/209}",
 			"",
 			"The first line of every spell description gives the name by which the spell is generally known.",
 			"",
@@ -3815,7 +3815,7 @@
 		"name": "Abjuration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 209](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/209}",
 			"",
 			"Abjurations are protective spells. They create physical or magical barriers, negate magical or physical abilities, harm trespassers, or even banish the subject of the spell to another plane of existence.",
 			"",
@@ -3844,7 +3844,7 @@
 		"name": "Conjuration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 209](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/209}",
 			"",
 			"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane (calling); create objects or effects on the spot (creation); heal (healing); bring manifestations of objects, creatures, or forms of energy to you (summoning); or transport creatures or objects over great distances (teleportation). Creatures you conjure usually-but not always-obey your commands.",
 			"",
@@ -3887,7 +3887,7 @@
 		"name": "Divination",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 210](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/210}",
 			"",
 			"Divination spells enable you to learn secrets long forgotten, predict the future, find hidden things, and foil deceptive spells.",
 			"",
@@ -3920,7 +3920,7 @@
 		"name": "Enchantment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 210](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/210}",
 			"",
 			"Enchantment spells affect the minds of others, influencing or controlling their behavior. All enchantments are mind-affecting spells. Two subschools of enchantment spells grant you influence over a subject creature.",
 			"",
@@ -3949,7 +3949,7 @@
 		"name": "Evocation",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 210](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/210}",
 			"",
 			"Evocation spells manipulate magical energy or tap an unseen source of power to produce a desired end. In effect, an evocation draws upon magic to create something out of nothing. Many of these spells produce spectacular effects, and evocation spells can deal large amounts of damage."
 		],
@@ -3974,7 +3974,7 @@
 		"name": "Illusion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 210](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/210}",
 			"",
 			"Illusion spells deceive the senses or minds of others. They cause people to see things that are not there, not see things that are there, hear phantom noises, or remember things that never happened.",
 			"",
@@ -4019,7 +4019,7 @@
 		"name": "Necromancy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 211](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/211}",
 			"",
 			"Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving undead creatures make up a large part of this school."
 		],
@@ -4044,7 +4044,7 @@
 		"name": "Transmutation",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 211](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/211}",
 			"",
 			"Transmutation spells change the properties of some creature, thing, or condition.",
 			"",
@@ -4097,7 +4097,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 212](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/212}",
 			"",
 			"The next line of a spell description gives the spell's level, a number between 0 and 9 that defines the spell's relative power. This number is preceded by a list of classes whose members can cast the spell. A spell's level affects the DC for any save allowed against its effects.",
 			"",
@@ -4138,7 +4138,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 213](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/213}",
 			"",
 			"Most spells have a casting time of 1 standard action. Others take 1 round or more, while a few require only a swift action.",
 			"",
@@ -4175,7 +4175,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 213](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/213}",
 			"",
 			"A spell's range indicates how far from you it can reach, as defined in the range entry of the spell description. A spell's range is the maximum distance from you that the spell's effect can occur, as well as the maximum distance at which you can designate the spell's point of origin. If any portion of the spell's area would extend beyond this range, that area is wasted. Standard ranges include the following.",
 			"",
@@ -4215,7 +4215,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 213](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/213}",
 			"",
 			"You must make choices about whom a spell is to affect or where an effect is to originate, depending on a spell's type. The next entry in a spell description defines the spell's target (or targets), its effect, or its area, as appropriate.",
 			"",
@@ -4304,7 +4304,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 215](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/215}",
 			"",
 			"A spell's duration entry tells you how long the magical energy of the spell lasts.",
 			"",
@@ -4355,7 +4355,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 216](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/216}",
 			"",
 			"Usually a harmful spell allows a target to make a saving throw to avoid some or all of the effect. The saving throw entry in a spell description defines which type of saving throw the spell allows and describes how saving throws against the spell work.",
 			"",
@@ -4421,7 +4421,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 217](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/217}",
 			"",
 			"Spell resistance is a special defensive ability. If your spell is being resisted by a creature with spell resistance, you must make a caster level check (1d20 + caster level) at least equal to the creature's spell resistance for the spell to affect that creature. The defender's spell resistance is like an Armor Class against magical attacks. Include any adjustments to your caster level to this caster level check.",
 			"",
@@ -4451,7 +4451,7 @@
 		"subtitle": "Spell Description",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 218](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/218}",
 			"",
 			"This portion of a spell description details what the spell does and how it works. If one of the previous entries in the description includes \"see text,\" this is where the explanation is found."
 		],
@@ -4476,7 +4476,7 @@
 		"name": "Arcane Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 218](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/218}",
 			"",
 			"Wizards, sorcerers, and bards cast arcane spells. Compared to divine spells, arcane spells are more likely to produce dramatic results.",
 			"",
@@ -4505,7 +4505,7 @@
 		"name": "Preparing Wizard Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 218](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/218}",
 			"",
 			"A wizard's level limits the number of spells he can prepare and cast. His high Intelligence score might allow him to prepare a few extra spells. He can prepare the same spell more than once, but each preparation counts as one spell toward his daily limit. To prepare a spell, the wizard must have an Intelligence score of at least 10 + the spell's level.",
 			"",
@@ -4541,7 +4541,7 @@
 		"name": "Arcane Magical Writing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 218](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/218}",
 			"",
 			"To record an arcane spell in written form, a character uses complex notation that describes the magical forces involved in the spell. The writer uses the same system no matter what her native language or culture. However, each character uses the system in his own way. Another person's magical writing remains incomprehensible to even the most powerful wizard until he takes time to study and decipher it.",
 			"",
@@ -4572,7 +4572,7 @@
 		"name": "Wizard Spells and Borrowed Spellbooks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 219](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/219}",
 			"",
 			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see [Arcane Magical Writing](rule/arcane_magical_writing)). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
 		],
@@ -4594,7 +4594,7 @@
 		"name": "Adding Spells to a Wizard's Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 219](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/219}",
 			"",
 			"Wizards can add new spells to their spellbooks through several methods. A wizard can only learn new spells that belong to the wizard spell lists.",
 			"",
@@ -4626,7 +4626,7 @@
 		"name": "Writing a New Spell into a Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 219](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/219}",
 			"",
 			"Once a wizard understands a new spell, he can record it into his spellbook.",
 			"",
@@ -4667,7 +4667,7 @@
 		"name": "Replacing and Copying Spellbooks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 219](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/219}",
 			"",
 			"A wizard can use the procedure for learning a spell to reconstruct a lost spellbook. If he already has a particular spell prepared, he can write it directly into a new book at the same cost required to write a spell into a spellbook. The process wipes the prepared spell from his mind, just as casting it would. If he does not have the spell prepared, he can prepare it from a borrowed spellbook and then write it into a new book.",
 			"",
@@ -4691,7 +4691,7 @@
 		"name": "Selling a Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 220](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/220}",
 			"",
 			"Captured spellbooks can be sold for an amount equal to half the cost of purchasing and inscribing the spells within."
 		],
@@ -4713,7 +4713,7 @@
 		"name": "Sorcerers and Bards",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 220](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/220}",
 			"",
 			"Sorcerers and bards cast arcane spells, but they do not use spellbooks or prepare spells. Their class level limits the number of spells she can cast (see these class descriptions). Her high Charisma score might allow her to cast a few extra spells. A member of either class must have a Charisma score of at least 10 + the spell's level to cast the spell.",
 			"",
@@ -4739,7 +4739,7 @@
 		"name": "Arcane Spells and Armor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 83](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/83}",
 			"",
 			"Armor restricts the complicated gestures required while casting any spell that has a somatic component. The armor and shield descriptions list the arcane spell failure chance for different armors and shields.",
 			"",
@@ -4761,7 +4761,7 @@
 		"name": "Divine Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 220](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/220}",
 			"",
 			"Clerics, druids, experienced paladins, and experienced rangers can cast divine spells. Unlike arcane spells, divine spells draw power from a divine source. Clerics gain spell power from deities or from divine forces. The divine force of nature powers druid and ranger spells, and the divine forces of law and good power paladin spells. Divine spells tend to focus on healing and protection and are less flashy, destructive, and disruptive than arcane spells."
 		],
@@ -4787,7 +4787,7 @@
 		"name": "Preparing Divine Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 220](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/220}",
 			"",
 			"Divine spellcasters prepare their spells in largely the same manner as wizards do, but with a few differences. The relevant ability for most divine spells is Wisdom (Charisma for paladins). To prepare a divine spell, a character must have a Wisdom score (or Charisma score for paladins) of 10 + the spell's level. Likewise, bonus spells are based on Wisdom.",
 			"",
@@ -4820,7 +4820,7 @@
 		"name": "Divine Magical Writing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 221](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/221}",
 			"",
 			"Divine spells can be written and deciphered like arcane spells (see [Arcane Magical Writing](rule/arcane_magical_writing)). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
 		],
@@ -4840,7 +4840,7 @@
 		"subtitle": "From Levelling Up",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 221](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/221}",
 			"",
 			"Divine spellcasters gain new spells as follows.",
 			"",
@@ -4863,7 +4863,7 @@
 		"name": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Source** [Occult Adventures pg. 144](source/occult_adventures)",
+			"{SOURCE Occult Adventures/144}",
 			"",
 			"Wizards study ancient tomes to unlock arcane secrets of the universe, and clerics pray to distant deities to grant them divine power. Yet there is a third, more esoteric kind of magic, connected to every creature's composite being, from the conscious mind to the deepest desire, from the life force to the spirit, from the very soul to the cosmic self. This third type of magic is psychic magic.",
 			"",
@@ -4891,7 +4891,7 @@
 		"subtitle": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Source** [Occult Adventures pg. 144](source/occult_adventures)",
+			"{SOURCE Occult Adventures/144}",
 			"",
 			"Psychic magic originates from the distinctive qualities of the caster's composite being, rather than through arcane formulae or rote supplication to divine entities. Therefore, psychic spells never have verbal or somatic components, and have only expensive material components. Psychic spells are purely mental actions, and they can be cast even while the caster is pinned or paralyzed. Focus components work the same way with psychic spells as they do with other spells.",
 			"",
@@ -4920,7 +4920,7 @@
 		"subtitle": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Source** [Occult Adventures pg. 144](source/occult_adventures)",
+			"{SOURCE Occult Adventures/144}",
 			"",
 			"Some psychic spells can be undercast. This means that the spellcaster can cast the spell at the level that he knows, or as any lower-level version of that spell, using the appropriate spell slot. When a spellcaster undercasts a spell, it is treated exactly like the lower-level version, including when determining its effect, saving throw, and other variables. For example, a psychic spellcaster who adds [ego whip III](spell/ego_whip_3) to his list of spells known can cast it as ego whip I, II or III. If he casts it as [ego whip I](spell/ego_whip_1), it is treated in all ways as that spell; it uses the text and the saving throw DC for that spell, and requires him to expend a 3rd-level spell slot.",
 			"",
@@ -4940,7 +4940,7 @@
 		"name": "Special Abilities",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 221](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/221}",
 			"",
 			"A number of classes and creatures gain the use of special abilities, many of which function like spells.",
 			"",
@@ -4975,7 +4975,7 @@
 		"name": "Changing Alignments",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 168](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/168}",
 			"",
 			"Alignment is a tool, a convenient shorthand you can use to summarize the general attitude of an NPC, region, religion, organization, monster, or even magic item.",
 			"",

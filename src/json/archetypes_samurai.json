@@ -5,7 +5,7 @@
 		"description": [
 			"## Brawling Blademaster",
 			"",
-			"**Source** [Martial Arts Handbook pg. 10](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/10}  ",
 			"While some martial arts traditions focus on the strength of the body, most schools of combat and self-defense know the importance of using weapons as well. Brawling blademaster samurai use weapon strikes and unarmed attacks in equal measure-foes expecting to defend themselves against a dagger or a sword are often caught off guard by a brawling blademaster's brutal kicks or punches.",
 			"",
 			"**Weapon and Armor Proficiency:** Brawling blademasters are proficient with all simple and martial weapons, plus the katana and wakizashi. Brawling blademasters are proficient with light armor, but not with shields.",
@@ -39,7 +39,7 @@
 		"description": [
 			"## Ironbound Sword",
 			"",
-			"**Source** [Blood of the Ancients pg. 18](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/18}  ",
 			"The ironbound sword's fighting style, focused on incapacitating opponents rather than killing them, is founded on a philosophy that cares both for the samurai and for her attacker. This style became prevalent during the peaceful and stable periods of Lung Wa, and reflected those values. Using these techniques, an ironbound sword can subdue a foe without causing permanent harm, leaving the soul of the samurai unstained by deaths of her enemies.",
 			"",
 			"**Merciful Combatant (Ex):** At 3rd level, an ironbound sword becomes an expert at defeating foes without killing them. An ironbound sword can use any weapon to deal nonlethal damage without taking the normal -4 penalty on attack rolls. Additionally, the ironbound sword gains a +2 bonus on combat maneuvers against a target so long as the last successful attack she made against that target dealt nonlethal damage. Her samurai levels count as fighter levels and stack with fighter levels for the purposes of fighter and samurai prerequisites and class features.",
@@ -61,7 +61,7 @@
 		"description": [
 			"## Soverign Blade",
 			"",
-			"**Source** [Legacy of Dragons pg. 14](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/14}  ",
 			"In Tian Xia, many samurai are tutored in the ways of honor using lessons that originate from sovereign dragons and their dedication to safeguarding harmony.",
 			"",
 			"**Alignment:** A sovereign blade's alignment must be at least partially neutral. If the sovereign blade's alignment is not partially neutral, she is treated as if she had violated her order's edicts each day until her alignment is again partially neutral.",
@@ -85,7 +85,7 @@
 		"description": [
 			"## Sword Saint",
 			"",
-			"**Source** [Dragon Empires Primer pg. 22](source/dragon_empires_primer)  ",
+			"{SOURCE Dragon Empires Primer/22}  ",
 			"Sword saints hail from lands where samurai are prevalent, and are often ronin who wander the world seeking new challenges to perfect their intricate style of swordplay called iaijutsu. The following benefits apply only when a sword saint is using a sword and carrying nothing in his other hand. The sword saint is an archetype of the [samurai](class/samurai).",
 			"",
 			"**Iaijutsu Strike (Ex):** A sword saint can perform a lightning-quick iaijutsu strike against the target of his challenge to inflict devastating wounds while drawing his sword. After the sword saint has challenged a foe but before he has attacked the target of his challenge, he may choose to use his iaijutsu strike as a full-round action, making an attack roll with his weapon as normal. In order to use this ability, the sword saint's weapon must be sheathed at the start of his turn. If he successfully hits his opponent with an iaijutsu strike, his attack deals an additional +1d6 points of damage. This bonus damage increases by an additional +1d6 at 3rd level and every two levels thereafter to a maximum of +10d6 damage at 19th level. Any extra damage as a result of a successful iaijutsu strike is not multiplied by a critical hit.",
@@ -109,7 +109,7 @@
 		"description": [
 			"## Ward Speaker",
 			"",
-			"**Source** [Disciple's Doctrine pg. 26](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/26}  ",
 			"The ward speaker draws power from simple rituals to honor the spirits found throughout the world so that he might better protect those entrusted to his care.",
 			"",
 			"**Alignment:** A ward speaker must be of a nonevil alignment. This alters the samurai's alignment.",
@@ -143,7 +143,7 @@
 		"description": [
 			"## Warrior Poet",
 			"",
-			"**Source** [Heroes from the Fringe pg. 13](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/13}  ",
 			"Warrior poets often study calligraphy, flower arrangement, poetry, and other courtly arts, but when called to battle, they treat combat as its own art form, fighting with beauty and grace. While these traditions first arose among the Jininese elves and are still extremely common in Jinin, the warrior poet's art has spread to different nations and peoples in Tian Xia over centuries.",
 			"",
 			"**Dancer's Grace (Ex):** When wearing no armor and not using a shield, the warrior poet gains a bonus to Armor Class equal to her Charisma bonus (to a maximum of her samurai level). A warrior poet loses this bonus while flat-footed or otherwise denied her Dexterity bonus.",
@@ -189,7 +189,7 @@
 		"description": [
 			"## Yojimbo",
 			"",
-			"**Source** [Armor Master's Handbook pg. 7](source/armor_masters_handbook)  ",
+			"{SOURCE Armor Master's Handbook/7}  ",
 			"Yojimbo are highly trained bodyguards favored by the nobles and warlords of distant Minkai. Yojimbo who follow the order of the warrior loyally guard a single master, while ronin serve whoever can pay for their protection. Yojimbo often accompany visitors to the Inner Sea region from Tian Xia; a few have chosen to stay, and some have even passed on their training to bodyguards of this region.",
 			"",
 			"**Resolute Defense (Ex):** At 1st level, whenever a yojimbo issues a challenge, he can select one ally as his ward for the duration of the challenge. Whenever the yojimbo is adjacent to his ward, he can use resolve, greater resolve, and true resolve on his ward rather than targeting himself.",

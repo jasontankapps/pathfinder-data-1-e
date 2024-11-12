@@ -14,7 +14,7 @@
 		"description": [
 			"## Isolation Haunt",
 			"",
-			"**Source** [Construct Handbook pg. 49](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/49}  ",
 			"**CR** &mdash;; **XP** 0  ",
 			"NE haunt (30-ft. radius)  ",
 			"**Caster Level** 5th  ",
@@ -34,7 +34,7 @@
 		"description": [
 			"## Bloody Handprints",
 			"",
-			"**Source** [Horror Adventures pg. 174](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/174}  ",
 			"**CR** 1/4; **XP** 100  ",
 			"NE haunt (surface with area up to 5-ft. square)  ",
 			"**Caster Level** 1st  ",
@@ -54,7 +54,7 @@
 		"description": [
 			"## Scratching Behind the Wall",
 			"",
-			"**Source** [Horror Adventures pg. 175](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/175}  ",
 			"**CR** 1/2; **XP** 200  ",
 			"CE haunt (5-ft.-by-10-ft. hallway)  ",
 			"**Caster Level** 1st  ",
@@ -74,7 +74,7 @@
 		"description": [
 			"## Cold Spot",
 			"",
-			"**Source** [Horror Adventures pg. 175](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/175}  ",
 			"**CR** 1; **XP** 400  ",
 			"NE haunt (5-ft. radius)  ",
 			"**Caster Level** 1st  ",
@@ -94,7 +94,7 @@
 		"description": [
 			"## Rapping Spirit",
 			"",
-			"**Source** [Occult Adventures pg. 230](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/230}  ",
 			"**CR** 1; **XP** 400  ",
 			"Alignment varies persistent haunt (5-ft. radius)  ",
 			"**Caster Level** 1st  ",
@@ -114,7 +114,7 @@
 		"description": [
 			"## Spectral Screams",
 			"",
-			"**Source** [Horror Adventures pg. 175](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/175}  ",
 			"**CR** 2; **XP** 600  ",
 			"NE haunt (10-ft. radius)  ",
 			"**Caster Level** 3rd  ",
@@ -134,7 +134,7 @@
 		"description": [
 			"## Demanding Dead",
 			"",
-			"**Source** [Occult Adventures pg. 230](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/230}  ",
 			"**CR** 3; **XP** 800  ",
 			"Alignment varies persistent haunt (15-ft. radius)  ",
 			"**Caster Level** 1st  ",
@@ -154,7 +154,7 @@
 		"description": [
 			"## Foreboding Mist",
 			"",
-			"**Source** [Horror Adventures pg. 175](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/175}  ",
 			"**CR** 3; **XP** 800  ",
 			"NE persistent haunt (15-ft. radius)  ",
 			"**Caster Level** 3rd  ",
@@ -174,7 +174,7 @@
 		"description": [
 			"## Buried Alive",
 			"",
-			"**Source** [Horror Adventures pg. 175](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/175}  ",
 			"**CR** 4; **XP** 1,200  ",
 			"NE persistent haunt (15-ft. radius)  ",
 			"**Caster Level** 5th  ",
@@ -194,7 +194,7 @@
 		"description": [
 			"## Flytrap",
 			"",
-			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_144_midwives_to_death)  ",
+			"{SOURCE Pathfinder #144: Midwives to Death/65}  ",
 			"**CR** 4; **XP** 1,200  ",
 			"N persistent botanical haunt (up to 20-foot radius)  ",
 			"**Caster Level** 4th  ",
@@ -210,7 +210,7 @@
 		"description": [
 			"## Following Footsteps",
 			"",
-			"**Source** [Ultimate Wilderness pg. 133](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/133}  ",
 			"**CR** 4; **XP** 1,200  ",
 			"CN variant haunt (20-ft. radius)  ",
 			"**Aura** moderate enchantment (compulsion)  ",
@@ -227,7 +227,7 @@
 		"description": [
 			"## Belated Arrival",
 			"",
-			"**Source** [Horror Adventures pg. 176](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/176}  ",
 			"**CR** 5; **XP** 1,600  ",
 			"N chained haunt (25-ft. radius)  ",
 			"**Caster Level** 9th  ",
@@ -247,7 +247,7 @@
 		"description": [
 			"## Bleeding Walls",
 			"",
-			"**Source** [GameMastery Guide pg. 243](source/gamemastery_guide)  ",
+			"{SOURCE GameMastery Guide/243}  ",
 			"**CR** 5; **XP** 1,600  ",
 			"CE haunt (5ft. by 20 ft. hallway)  ",
 			"**Caster Level** 5th  ",
@@ -263,7 +263,7 @@
 		"description": [
 			"## Spectral Vermin",
 			"",
-			"**Source** [Occult Adventures pg. 231](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/231}  ",
 			"**CR** 5; **XP** 1,600  ",
 			"CE free-roaming persistent vaporous haunt (30-ft.-by-30-ft. room)  ",
 			"**Caster Level** 5th  ",
@@ -283,7 +283,7 @@
 		"description": [
 			"## Arcane Storm",
 			"",
-			"**Source** [Horror Adventures pg. 174](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/174}  ",
 			"**CR** 6; **XP** 2,400  ",
 			"N persistent variant haunt (30-ft. radius)  ",
 			"**Aura** faint evocation  ",
@@ -308,7 +308,7 @@
 		"description": [
 			"## Death of Curchanus",
 			"",
-			"**Source** [Horror Realms pg. 62](source/horror_realms)  ",
+			"{SOURCE Horror Realms/62}  ",
 			"**CR** 6; **XP** 2,400  ",
 			"CE persistent variant haunt (20-ft. radius)  ",
 			"**Caster Level** 6th; Deity Lamashtu  ",
@@ -336,7 +336,7 @@
 		"description": [
 			"## Unsolved Murder",
 			"",
-			"**Source** [Horror Adventures pg. 176](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/176}  ",
 			"**CR** 6; **XP** 2,400  ",
 			"NE latent persistent possessing haunt (up to a 30-ft. radius)  ",
 			"**Caster Level** 6th  ",
@@ -356,7 +356,7 @@
 		"description": [
 			"## Betrayal",
 			"",
-			"**Source** [Horror Adventures pg. 176](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/176}  ",
 			"**CR** 7; **XP** 3,200  ",
 			"CE persistent haunt (30-ft. radius)  ",
 			"**Caster Level** 7th  ",
@@ -376,7 +376,7 @@
 		"description": [
 			"## Drought's End",
 			"",
-			"**Source** [Horror Realms pg. 62](source/horror_realms)  ",
+			"{SOURCE Horror Realms/62}  ",
 			"**CR** 7; **XP** 3,200  ",
 			"N persistent variant haunt (30-ft. radius)  ",
 			"**Caster Level** 7th; Deity Gozreh  ",
@@ -404,7 +404,7 @@
 		"description": [
 			"## Malignant Weapon",
 			"",
-			"**Source** [Occult Adventures pg. 231](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/231}  ",
 			"**CR** 7; **XP** 3,200  ",
 			"LE persistent item-bound haunt (haunted object affecting up to a 35-ft. radius)  ",
 			"**Caster Level** 7th  ",
@@ -424,7 +424,7 @@
 		"description": [
 			"## Bountiful Feat",
 			"",
-			"**Source** [Pathfinder #144: Midwives to Death pg. 65](source/pathfinder_144_midwives_to_death)  ",
+			"{SOURCE Pathfinder #144: Midwives to Death/65}  ",
 			"**CR** 8; **XP** 4,800  ",
 			"N persistent botanical haunt (up to 40-foot radius)  ",
 			"**Caster Level** 8th  ",
@@ -448,7 +448,7 @@
 		"description": [
 			"## Dimensional Tear",
 			"",
-			"**Source** [Ultimate Wilderness pg. 133](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/133}  ",
 			"**CR** 8; **XP** 4,800  ",
 			"N persistent variant haunt (30-ft. radius)  ",
 			"**Aura** moderate conjuration (calling)  ",
@@ -466,7 +466,7 @@
 		"description": [
 			"## Robotic Reactivation",
 			"",
-			"**Source** [Horror Realms pg. 63](source/horror_realms)  ",
+			"{SOURCE Horror Realms/63}  ",
 			"**CR** 8; **XP** 4,800  ",
 			"N chained persistent variant haunt (20-ft. radius centered on the activated robot)  ",
 			"**Caster Level** 8th  ",
@@ -494,7 +494,7 @@
 		"description": [
 			"## Watery Grave",
 			"",
-			"**Source** [Horror Adventures pg. 177](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/177}  ",
 			"**CR** 8; **XP** 4,800  ",
 			"CE chained free-roaming persistent haunt (one ship, up to a 40-ft. radius)  ",
 			"**Caster Level** 9th  ",
@@ -514,7 +514,7 @@
 		"description": [
 			"## Devouring Maws",
 			"",
-			"**Source** [Horror Adventures pg. 177](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/177}  ",
 			"**CR** 9; **XP** 6,400  ",
 			"CE persistent haunt (30-ft. radius)  ",
 			"**Caster Level** 9th  ",
@@ -534,7 +534,7 @@
 		"description": [
 			"## Insidious Presence",
 			"",
-			"**Source** [Occult Adventures pg. 231](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/231}  ",
 			"**CR** 9; **XP** 6,400  ",
 			"NE possessing persistent spiteful haunt (45-ft. radius when not possessing a creature)  ",
 			"**Caster Level** 10th  ",
@@ -556,7 +556,7 @@
 		"description": [
 			"## Network of Lasers",
 			"",
-			"**Source** [Horror Realms pg. 63](source/horror_realms)  ",
+			"{SOURCE Horror Realms/63}  ",
 			"**CR** 9; **XP** 6,400  ",
 			"N persistent variant haunt (up to 45-ft.-square room)  ",
 			"**Caster Level** 9th  ",
@@ -584,7 +584,7 @@
 		"description": [
 			"## Shifting Seasons",
 			"",
-			"**Source** [Horror Realms pg. 61](source/horror_realms)  ",
+			"{SOURCE Horror Realms/61}  ",
 			"**CR** 9; **XP** 6,400  ",
 			"CN persistent variant haunt (40-ft. radius)  ",
 			"**Caster Level** 9th  ",
@@ -613,7 +613,7 @@
 		"description": [
 			"## Enchanting Demise",
 			"",
-			"**Source** [Ultimate Wilderness pg. 133](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/133}  ",
 			"**CR** 10; **XP** 9,600  ",
 			"CN persistent variant haunt (80-ft. radius)  ",
 			"**Aura** moderate enchantment (compulsion) [mind-affecting]  ",
@@ -631,7 +631,7 @@
 		"description": [
 			"## Living Decay",
 			"",
-			"**Source** [Horror Adventures pg. 177](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/177}  ",
 			"**CR** 10; **XP** 9,600  ",
 			"NE persistent haunt (50-ft. radius)  ",
 			"**Caster Level** 9th  ",
@@ -657,7 +657,7 @@
 		"description": [
 			"## Maddening Influence",
 			"",
-			"**Source** [Horror Adventures pg. 173](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/173}  ",
 			"**CR** 10; **XP** 9,600  ",
 			"CE free-roaming persistent variant haunt (30-ft. radiu)  ",
 			"**Caster Level** 9th  ",
@@ -679,7 +679,7 @@
 		"description": [
 			"## Psychic Echo (Anger)",
 			"",
-			"**Source** [Horror Adventures pg. 174](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/174}  ",
 			"**CR** 10; **XP** 9,600  ",
 			"N persistent variant haunt (30-ft. radius)  ",
 			"**Caster Level** 11th  ",
@@ -703,7 +703,7 @@
 		"description": [
 			"## Servants of the Book",
 			"",
-			"**Source** [Book of the Damned pg. 167](source/book_of_the_damned)  ",
+			"{SOURCE Book of the Damned/167}  ",
 			"**CR** 10; **XP** 9,600  ",
 			"NE haunt (20-ft.-radius circle centered on the [Book of the Damned](magic-artifact/book_of_the_damned))  ",
 			"**Caster Level** 10th  ",
@@ -725,7 +725,7 @@
 		"description": [
 			"## Eternal Pyre",
 			"",
-			"**Source** [Horror Adventures pg. 178](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/178}  ",
 			"**CR** 11; **XP** 12,800  ",
 			"CE chained fast free-roaming persistent spiteful tenacious haunt (30-ft. radius)  ",
 			"**Caster Level** 11th  ",
@@ -745,7 +745,7 @@
 		"description": [
 			"## Spawn of the Abyss",
 			"",
-			"**Source** [Horror Adventures pg. 172](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/172}  ",
 			"**CR** 11; **XP** 12,800  ",
 			"CN persistent vaporous variant haunt (40-ft. radius)  ",
 			"**Aura** Aura strong conjuration  ",
@@ -779,7 +779,7 @@
 		"description": [
 			"## Breach to the Quickening",
 			"",
-			"**Source** [Horror Realms pg. 60](source/horror_realms)  ",
+			"{SOURCE Horror Realms/60}  ",
 			"**CR** 12; **XP** 19,200  ",
 			"CN persistent variant haunt (30-ft. radius)  ",
 			"**Caster Level** 12th  ",
@@ -818,7 +818,7 @@
 		"description": [
 			"## Dissolving Vat",
 			"",
-			"**Source** [Horror Adventures pg. 178](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/178}  ",
 			"**CR** 12; **XP** 19,200  ",
 			"CE fast persistent haunt (60-ft. radius centered around the vat)  ",
 			"**Caster Level** 11th  ",
@@ -838,7 +838,7 @@
 		"description": [
 			"## Heart Explosion",
 			"",
-			"**Source** [Horror Adventures pg. 178](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/178}  ",
 			"**CR** 13; **XP** 25,600  ",
 			"CE fast persistent haunt (60-ft. radius)  ",
 			"**Caster Level** 13th  ",
@@ -858,7 +858,7 @@
 		"description": [
 			"## Crushing Terror",
 			"",
-			"**Source** [Horror Adventures pg. 179](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/179}  ",
 			"**CR** 14; **XP** 38,400  ",
 			"NE persistent haunt (30-ft. radius)  ",
 			"**Caster Level** 13th  ",
@@ -878,7 +878,7 @@
 		"description": [
 			"## Final Soldier",
 			"",
-			"**Source** [Horror Adventures pg. 179](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/179}  ",
 			"**CR** 15; **XP** 51,200  ",
 			"NE belligerent chained fast persistent tenacious vaporous haunt (60-ft. radius)  ",
 			"**Caster Level** 15th  ",
@@ -898,7 +898,7 @@
 		"description": [
 			"## Fallen from the Sky",
 			"",
-			"**Source** [Horror Adventures pg. 179](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/179}  ",
 			"**CR** 16; **XP** 76,800  ",
 			"NE fast increased area persistent unyielding haunt (160-ft.-radius area aong the base and upper edge of a 200-ft.-tall cliff)  ",
 			"**Caster Level** 16th  ",
@@ -918,7 +918,7 @@
 		"description": [
 			"## Haunted Dungeon",
 			"",
-			"**Source** [Horror Adventures pg. 180](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/180}  ",
 			"**CR** 17; **XP** 102,400  ",
 			"CE belligerent elusive free-roaming increased area persistent tenacious haunt (entire structure, up to a 170-ft. radius)  ",
 			"**Caster Level** 17th  ",
@@ -938,7 +938,7 @@
 		"description": [
 			"## Flayed Suicide",
 			"",
-			"**Source** [Horror Adventures pg. 180](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/180}  ",
 			"**CR** 18; **XP** 153,600  ",
 			"NE belligerent persistent unyielding haunt (up to a 90-ft. radius)  ",
 			"**Caster Level** 20th  ",
@@ -958,7 +958,7 @@
 		"description": [
 			"## Soul Vortex",
 			"",
-			"**Source** [Horror Adventures pg. 180](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/180}  ",
 			"**CR** 19; **XP** 204,800  ",
 			"NE belligerent fast persistent unyielding haunt (up to a 95-ft.-radius area)  ",
 			"**Caster Level** 20th  ",
@@ -978,7 +978,7 @@
 		"description": [
 			"## Twisted Wish",
 			"",
-			"**Source** [Horror Adventures pg. 181](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/181}  ",
 			"**CR** 20; **XP** 307,200  ",
 			"LE belligerent free-roaming unyielding haunt (up to a 100-ft. radius))  ",
 			"**Caster Level** 20th  ",

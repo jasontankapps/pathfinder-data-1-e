@@ -13,7 +13,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Sanctified shield",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/25}  ",
 			"**Price** +100 gp; **Weight** -  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -26,7 +26,7 @@
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Shield boss",
-			"**Source** [Melee Tactics Toolbox pg. 21](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/21}  ",
 			"**Price** 120 gp (breakaway), 80 gp (hooked), 35 gp (illuminating), +50 gp (masterwork), 30 gp (reinforcing boss); **Weight** 10 lbs. (breakaway), 10 lbs. (hooked), 10 lbs. (illuminating), - (masterwork), 10 lbs. (reinforcing boss)  ",
 			"",
 			"A shield boss is a sturdy steel device that fastens to the front of a shield, providing metal support struts that radiate outward from the center of the shield, reinforcing its structure. A shield boss can be added to a buckler, light steel or wooden shield, or heavy steel or wooden shield. Tower shields are too large for a typical shield boss, though one can be crafted to fit a tower shield for an additional 300 gp. Attaching or removing a shield boss requires 10 minutes of work and a successful DC 15 Craft (armor) check; on a failure, the shield boss is not successfully attached or removed and the shield takes 1d6 points of damage that bypasses any hardness.",
@@ -82,7 +82,7 @@
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Armor vents",
-			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/28}  ",
 			"**Price** +100 gp; **Weight** -5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -97,7 +97,7 @@
 		],
 		"description": [
 			"## Armor spikes",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** +50 gp **Weight** +10 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
@@ -114,7 +114,7 @@
 		],
 		"description": [
 			"## Locked gauntlet",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** +8 gp **Weight** +5 lbs.",
 			"",
 			"This armored gauntlet has small chains and braces that allow the wearer to attach a weapon to the gauntlet so that it cannot be dropped easily. It provides a +10 bonus to your Combat Maneuver Defense to keep from being disarmed in combat. Removing a weapon from a locked gauntlet or attaching a weapon to a locked gauntlet is a full-round action that provokes attacks of opportunity.",
@@ -134,7 +134,7 @@
 		],
 		"description": [
 			"## Shield spikes",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** +10 gp **Weight** +5 lbs.",
 			"",
 			"*Light shield*  ",
@@ -156,7 +156,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Burnished",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/7}  ",
 			"**Cost** +500 gp **Weight** +5 lbs.",
 			"",
 			"Metal armor can be polished to reflect light in your enemies' eyes. In areas of bright light, all enemies within 30 feet that can see you must succeed at a Will saving throw (DC = 10 + your base attack bonus) or be dazzled for 1 round. Regardless of the result of its saving throw, a target may only be affected by this armor modification once per day.",
@@ -173,7 +173,7 @@
 		],
 		"description": [
 			"## Deflecting",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
+			"{SOURCE Adventurer's Armory 2/7;Faction Guide/55}  ",
 			"**Cost** +1,000 gp **Weight** +10 lbs.",
 			"",
 			"The artistry of a piece of armor's design lies not just in the protection it provides but also in its ability to deflect blows, creating momentary windows of opportunity when an opponent's attack is rebuffed. When an opponent attacks you with a bludgeoning or slashing melee weapon and misses by 5 or fewer, you gain a +1 circumstance bonus on your first melee attack roll against that opponent during your next turn.",
@@ -187,7 +187,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Double-plated",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/7}  ",
 			"**Cost** +1,000 gp **Weight** +20 lbs.",
 			"",
 			"Plating adds protection to a suit of armor's wearer at the cost of mobility. Double-plated armor's armor bonus is increased by 1, and its maximum Dexterity bonus is reduced by 2.",
@@ -207,7 +207,7 @@
 		],
 		"description": [
 			"## Jarring",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
+			"{SOURCE Adventurer's Armory 2/7;Faction Guide/55}  ",
 			"**Cost** +1,000 gp **Weight** +20 lbs.",
 			"",
 			"Opponents who swing too hard at targets wearing this armor often regret it-striking jarring armor sends a shock up the arm. Whenever an opponent makes a melee attack against you using the [Power Attack](feat/power_attack) feat and misses by 5 or fewer, he must succeed at a Fortitude saving throw (DC = 10 + the bonus that Power Attack would have applied to the attacker's weapon damage roll) or be sickened for 1 round.",
@@ -221,7 +221,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Nimble",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/7}  ",
 			"**Cost** +1,000 gp **Weight** +5 lbs.",
 			"",
 			"Nimble armor is designed for flexibility and ease of use, although this compromises its protective qualities. Nimble armor's maximum Dexterity bonus is increased by 2, and its armor check penalty is reduced by 1 (minimum 0).",
@@ -235,7 +235,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razored",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/7}  ",
 			"**Cost** +1,350 gp **Weight** +10 lbs.",
 			"",
 			"With every plate sharpened to a cutting edge, razored armor punishes those who get too close. Armor with the razored modification counts as having masterwork armor spikes; if the armor already had armor spikes or masterwork armor spikes, decrease the cost of the razored modification by the cost of the existing armor spikes. Whenever an opponent hits you with a melee touch attack or succeeds at a combat maneuver check to grapple, she must succeed at a Reflex saving throw (DC = 10 + your base attack bonus) or take an amount of piercing damage equal to 1d6 plus the armor's enhancement bonus.",
@@ -249,7 +249,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Slumbering",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/7}  ",
 			"**Cost** +500 gp **Weight** +5 lbs.",
 			"",
 			"Soldiers in the field and adventurers in the dungeon both find slumbering armor to be a boon, as its layers of downy internal padding allow the wearer to rest comfortably while armored. Slumbering armor is considered to be one category lighter for the purpose of sleeping in the armor. This allows you to sleep in medium armor without penalty, and if you have the [Endurance](feat/endurance) feat (or another method of sleeping in medium armor) you can sleep in heavy slumbering armor without penalty.",
@@ -263,7 +263,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Throwing shield",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Cost** +50 gp **Weight** -  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** performance, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
@@ -280,7 +280,7 @@
 		],
 		"description": [
 			"## Vitalguard",
-			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurers_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
+			"{SOURCE Adventurer's Armory 2/7;Faction Guide/55}  ",
 			"**Cost** +500 gp **Weight** +15 lbs.",
 			"",
 			"This well-designed armor reinforces your defenses, adding layers of padding or mail to your most vulnerable locations. Vitalguard armor's bonus to AC is increased by 2 for the purpose of confirming critical hits against you.",

@@ -14,7 +14,7 @@
 		"description": [
 			"## Bonecrusher (Dengue)",
 			"",
-			"**Source** [Heart of the Jungle pg. 6](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/6}  ",
 			"**Type** injury; **Fortitude Save* DC 12  ",
 			"**Onset** 1 week; **Frequency** 1/day  ",
 			"**Effect** 1d4 Dex damage  ",
@@ -30,7 +30,7 @@
 		"description": [
 			"## Filth Fever",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** injury; **Fortitude Save* DC 12  ",
 			"**Onset** 1d3 days; **Frequency** 1/day  ",
 			"**Effect** 1d3 Dex damage and 1d3 Con damage  ",
@@ -43,7 +43,7 @@
 		"description": [
 			"## Fungal Flu",
 			"",
-			"**Source** [Pathfinder #13: Shadow in the Sky pg. 81](source/pathfinder_13_shadow_in_the_sky)  ",
+			"{SOURCE Pathfinder #13: Shadow in the Sky/81}  ",
 			"**Type** inhaled; **Fortitude Save* DC 12  ",
 			"**Onset** 3d6 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in blindness. The blindness persists - even resisting spells like remove blindness/deafness - until the disease is cured.  ",
@@ -56,7 +56,7 @@
 		"description": [
 			"## Leprosy",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** contact, inhaled, or injury; **Fortitude Save* DC 12 ((negates; DC 20 to avoid effects))  ",
 			"**Onset** 2d4 weeks; **Frequency** 1/week  ",
 			"**Effect** 1d2 Cha damage  ",
@@ -69,7 +69,7 @@
 		"description": [
 			"## Mindfire",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** inhaled; **Fortitude Save* DC 12  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Int damage  ",
@@ -82,7 +82,7 @@
 		"description": [
 			"## Coward's Mark",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/24}  ",
 			"**Type** contact or inhaled; **Fortitude Save* DC 13  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Initial Effect** 1d2 Dexterity damage and 1d2 Wisdom damage. If the victim fails two saving throws 2 days in a row (not counting the initial save), he develops a secondary effect, or the existing secondary effect worsens. Curing the affliction immediately removes all accumulated secondary effects.  ",
@@ -98,7 +98,7 @@
 		"description": [
 			"## Ghoul Fever",
 			"",
-			"**Source** [Pathfinder RPG Bestiary pg. 146](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary/146}  ",
 			"**Type** injury; **Fortitude Save* DC 13  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d3 Con and 1d3 Dex damage  ",
@@ -113,7 +113,7 @@
 		"description": [
 			"## Green Haze",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** contact; **Fortitude Save* DC 13  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** -4 on Perception checks, target is permanently blinded if it fails 3 saves  ",
@@ -126,7 +126,7 @@
 		"description": [
 			"## Shakes",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** contact; **Fortitude Save* DC 13  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d8 Dex damage  ",
@@ -139,7 +139,7 @@
 		"description": [
 			"## Bluespit",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 23](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/23}  ",
 			"**Type** inhaled; **Fortitude Save* DC 14  ",
 			"**Onset** 1 hour; **Frequency** 1/day  ",
 			"**Effect** 1d6 nonlethal damage and fatigue. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall unconscious while infected with bluespit begins to [suffocate](rule/suffocation). Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
@@ -152,7 +152,7 @@
 		"description": [
 			"## Brainworms",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** contact or injury; **Fortitude Save* DC 14  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort save or gain the confused condition for the duration of the encounter  ",
@@ -165,7 +165,7 @@
 		"description": [
 			"## Devil Chills",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** injury; **Fortitude Save* DC 14  ",
 			"**Onset** 1d4 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Str damage  ",
@@ -178,7 +178,7 @@
 		"description": [
 			"## Sleeping Sickness",
 			"",
-			"**Source** [Heart of the Jungle pg. 8](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/8}  ",
 			"**Type** injury; **Fortitude Save* DC 14  ",
 			"**Onset** 1d2 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Wis damage and target is fatigued  ",
@@ -193,7 +193,7 @@
 		"description": [
 			"## Slimy Doom",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** contact; **Fortitude Save* DC 14  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead  ",
@@ -206,7 +206,7 @@
 		"description": [
 			"## Tetanus ",
 			"",
-			"**Source** [Pathfinder #1: Burnt Offerings pg. 43](source/pathfinder_1_burnt_offerings)  ",
+			"{SOURCE Pathfinder #1: Burnt Offerings/43}  ",
 			"**Type** injury; **Fortitude Save* DC 14  ",
 			"**Onset** 1d6 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Dex. Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours.  ",
@@ -219,7 +219,7 @@
 		"description": [
 			"## Glacier Plague",
 			"",
-			"**Source** [Irrisen - Land of Eternal Winter pg. 48](source/irrisen_-_land_of_eternal_winter)  ",
+			"{SOURCE Irrisen - Land of Eternal Winter/48}  ",
 			"**Type** contact or injury; **Fortitude Save* DC 15  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak  ",
@@ -234,7 +234,7 @@
 		"description": [
 			"## Greenscale",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** injury; **Fortitude Save* DC 15  ",
 			"**Onset** 1d6 days; **Frequency** 1/week  ",
 			"**Effect** 1d2 Cha damage and 1d2 Dex damage, target must make a second Fort save or 1 point of the Cha damage is drain instead  ",
@@ -247,7 +247,7 @@
 		"description": [
 			"## Moxix's Delectation",
 			"",
-			"**Source** [Pathfinder #58: Island of Empty Eyes pg. 67](source/pathfinder_58_island_of_empty_eyes)  ",
+			"{SOURCE Pathfinder #58: Island of Empty Eyes/67}  ",
 			"**Type** injury; **Fortitude Save* DC 15  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d3 Con and 1d3 Wis damage  ",
@@ -262,7 +262,7 @@
 		"description": [
 			"## Red Ache",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** injury; **Fortitude Save* DC 15  ",
 			"**Onset** 1d3 days; **Frequency** 1/day  ",
 			"**Effect** 1d6 Str damage  ",
@@ -275,7 +275,7 @@
 		"description": [
 			"## Spellscar Fever",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 63](source/pathfinder_119_prisoners_of_the_blight)  ",
+			"{SOURCE Pathfinder #119: Prisoners of the Blight/63}  ",
 			"**Type** ingested or inhaled; **Fortitude Save* DC 15 (+1 per previous save)  ",
 			"**Onset** 2d6+1 days; **Frequency** 1/day  ",
 			"**Effect** 1d2 Con damage, 1d2 Cha drain  ",
@@ -291,7 +291,7 @@
 		"description": [
 			"## The Tainted Plague",
 			"",
-			"**Source** [Pathfinder Campaign Setting pg. 149](source/pathfinder_campaign_setting)  ",
+			"{SOURCE Pathfinder Campaign Setting/149}  ",
 			"**Type** contact; **Fortitude Save* DC 15 (see description)  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d6 Con and 1d6 Wis  ",
@@ -306,7 +306,7 @@
 		"description": [
 			"## Blinding Sickness",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** ingested; **Fortitude Save* DC 16  ",
 			"**Onset** 1d3 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or be permanently blinded  ",
@@ -322,7 +322,7 @@
 		"description": [
 			"## Blood Veil",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 430](source/curse_of_the_crimson_throne), [Pathfinder #8: Seven Days to the Grave pg. 9](source/pathfinder_8_seven_days_to_the_grave)  ",
+			"{SOURCE Curse of the Crimson Throne/430;Pathfinder #8: Seven Days to the Grave/9}  ",
 			"**Type** contact or injury; **Fortitude Save* DC 16 (the first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease)  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and 1d4 Cha damage  ",
@@ -337,7 +337,7 @@
 		"description": [
 			"## Bonechill",
 			"",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
+			"{SOURCE Pathfinder #51: The Hungry Storm/67}  ",
 			"**Type** injury; **Fortitude Save* DC 16  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Dex damage and any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause hypothermia)  ",
@@ -350,7 +350,7 @@
 		"description": [
 			"## Boot Soup",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** contact; **Fortitude Save* DC 16  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to 0 feet are permanently paralyzed  ",
@@ -363,7 +363,7 @@
 		"description": [
 			"## Cackle Fever",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** inhaled; **Fortitude Save* DC 16  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d6 Wis damage  ",
@@ -376,7 +376,7 @@
 		"description": [
 			"## Dvezda Plague",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 71](source/pathfinder_69_maiden_mother_crone)  ",
+			"{SOURCE Pathfinder #69: Maiden, Mother, Crone/71}  ",
 			"**Type** ingested or inhaled; **Fortitude Save* DC 16  ",
 			"**Onset** 1d4 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and 1 Dex damage  ",
@@ -391,7 +391,7 @@
 		"description": [
 			"## Dysentary",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** contact or injury; **Fortitude Save* DC 16  ",
 			"**Onset** 1d3 days; **Frequency** 1/day  ",
 			"**Effect** 1d6 nonlethal damage and target is fatigued and staggered  ",
@@ -404,7 +404,7 @@
 		"description": [
 			"## Final Rest",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/24}  ",
 			"**Type** inhaled; **Fortitude Save* DC 16  ",
 			"**Onset** 1 week; **Frequency** 1/day  ",
 			"**Effect** 1d2 Charisma damage; while any Charisma damage remains, the victim cannot gain morale bonuses, receives a +2 bonus on saves against mind-affecting effects, and must attempt a saving throw even against harmless mind-affecting effects.  ",
@@ -419,7 +419,7 @@
 		"description": [
 			"## Pulsing Puffs",
 			"",
-			"**Source** [Heart of the Jungle pg. 8](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/8}  ",
 			"**Type** injury; **Fortitude Save* DC 16  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Dex damage  ",
@@ -432,7 +432,7 @@
 		"description": [
 			"## The Scales",
 			"",
-			"**Source** [Lost Cities of Golarion pg. 8](source/lost_cities_of_golarion)  ",
+			"{SOURCE Lost Cities of Golarion/8}  ",
 			"**Type** contact or injury; **Fortitude Save* DC 16  ",
 			"**Onset** 1d4 days; **Frequency** 1/2 days  ",
 			"**Effect** 1d2 Dex damage and 1d2 Cha damage  ",
@@ -445,7 +445,7 @@
 		"description": [
 			"## Bubonic Plague",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** injury or inhaled; **Fortitude Save* DC 17  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and 1 Cha damage and target is fatigued  ",
@@ -458,7 +458,7 @@
 		"description": [
 			"## Chillbane Fever",
 			"",
-			"**Source** [Irrisen - Land of Eternal Winter pg. 48](source/irrisen_-_land_of_eternal_winter)  ",
+			"{SOURCE Irrisen - Land of Eternal Winter/48}  ",
 			"**Type** inhaled, injury; **Fortitude Save* DC 17  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and target is sickened and fatigued  ",
@@ -473,7 +473,7 @@
 		"description": [
 			"## Firegut",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** injury or inhaled; **Fortitude Save* DC 17  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** target is staggered  ",
@@ -486,7 +486,7 @@
 		"description": [
 			"## Shattermind",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/24}  ",
 			"**Type** contact; **Fortitude Save* DC 17  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Wis (cannot reduce Wisdom below 1); on any day the victim fails her saving throw, she suffers the effects of a [type of insanity](rule/sanity_and_madness). Unlike normal insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its victims.  ",
@@ -501,7 +501,7 @@
 		"description": [
 			"## Demon Fever",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** injury; **Fortitude Save* DC 18  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain instead  ",
@@ -514,7 +514,7 @@
 		"description": [
 			"## Demonplague",
 			"",
-			"**Source** [The Worldwound pg. 29](source/the_worldwound)  ",
+			"{SOURCE The Worldwound/29}  ",
 			"**Type** injury or ingested; **Fortitude Save* DC 18  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts  ",
@@ -529,7 +529,7 @@
 		"description": [
 			"## Malaria (Jungle Fever)",
 			"",
-			"**Source** [Heart of the Jungle pg. 7](source/heart_of_the_jungle)  ",
+			"{SOURCE Heart of the Jungle/7}  ",
 			"**Type** injury; **Fortitude Save* DC 18  ",
 			"**Onset** 1d3 days; **Frequency** 1/day  ",
 			"**Effect** 1d3 Str damage and 1d3 Con damage and target is fatigued  ",
@@ -545,7 +545,7 @@
 		"description": [
 			"## Red Drip",
 			"",
-			"**Source** [Undead Unleashed pg. 63](source/undead_unleashed), [Heart of the Jungle pg. 8](source/heart_of_the_jungle)  ",
+			"{SOURCE Undead Unleashed/63;Heart of the Jungle/8}  ",
 			"**Type** contact (fungus); **Fortitude Save* DC 18  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Dex damage and 1d2 Cha damage  ",
@@ -558,7 +558,7 @@
 		"description": [
 			"## Eidite sickness",
 			"",
-			"**Source** [Wardens of the Reborn Forge pg. 19](source/wardens_of_the_reborn_forge)  ",
+			"{SOURCE Wardens of the Reborn Forge/19}  ",
 			"**Type** ingested, injury, or touch; **Fortitude Save* DC 20  ",
 			"**Onset** 1d3 days; **Frequency** 1/day  ",
 			"**Effect** 1d3 Wis damage and -4 penalty on saving throws against poisons and diseases. Unlike other diseases, constructs are not immune to eidite sickness. After 3 days of being affected by the disease, a construct gains the [advanced simple template](template/advanced) and loses any programming or instructions given to it, effectively going berserk, and attacks all living creatures in sight until it is destroyed or the disease is removed.  ",
@@ -573,7 +573,7 @@
 		"description": [
 			"## Ergia",
 			"",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
+			"{SOURCE Pathfinder #51: The Hungry Storm/67}  ",
 			"**Type** contact; **Fortitude Save* DC 20  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Str damage and 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead, and a creature that has suffered ability drain glows blue as if limned with faerie fire  ",
@@ -586,7 +586,7 @@
 		"description": [
 			"## Scarlet Leprosy",
 			"",
-			"**Source** [Undead Unleashed pg. 15](source/undead_unleashed)  ",
+			"{SOURCE Undead Unleashed/15}  ",
 			"**Type** contact; **Fortitude Save* DC 20  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d6 Con damage and 1d6 Cha damage; whenever the character takes Con damage, 1 point is permanent drain  ",
@@ -599,7 +599,7 @@
 		"description": [
 			"## Vorel's Phage",
 			"",
-			"**Source** [Pathfinder #2: The Skinsaw Murders pg. 27](source/pathfinder_2_the_skinsaw_murders)  ",
+			"{SOURCE Pathfinder #2: The Skinsaw Murders/27}  ",
 			"**Type** contact or ingestion ; **Fortitude Save* DC 20  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Cha and 1d4 Con.  ",
@@ -615,7 +615,7 @@
 		"description": [
 			"## Blightburn Sickness",
 			"",
-			"**Source** [Undead Unleashed pg. 15](source/undead_unleashed), [Mythic Realms pg. 21](source/mythic_realms)  ",
+			"{SOURCE Undead Unleashed/15;Mythic Realms/21}  ",
 			"**Type** contact (see text); **Fortitude Save* DC 22  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d6 Con damage and 1d6 Cha damage; contact is automatic when a creature comes within a 60-foot radius of blightburn, and can be blocked only by lead sheeting, 1 foot of stone, or a force effect  ",
@@ -628,7 +628,7 @@
 		"description": [
 			"## Crypt Fever",
 			"",
-			"**Source** [Tomb of the Iron Medusa pg. 13](source/tomb_of_the_iron_medusa)  ",
+			"{SOURCE Tomb of the Iron Medusa/13}  ",
 			"**Type** contact or inhaled; **Fortitude Save* DC 22  ",
 			"**Onset** 1 minute; **Frequency** 1/day  ",
 			"**Effect** 1d6 Str damage, 1d6 Cha damage, and victim is exhausted  ",
@@ -641,7 +641,7 @@
 		"description": [
 			"## Daemonic Wasting",
 			"",
-			"**Source** [Pathfinder #54: The Empty Throne pg. 28](source/pathfinder_54_the_empty_throne)  ",
+			"{SOURCE Pathfinder #54: The Empty Throne/28}  ",
 			"**Type** contact; **Fortitude Save* DC 23  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d4 Con damage and 1d4 Cha damage  ",
@@ -654,7 +654,7 @@
 		"description": [
 			"## Rabies",
 			"",
-			"**Source** [Pathfinder RPG Bestiary pg. 87](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary/87}  ",
 			"**Type** injury; **Fortitude Save* DC 14  ",
 			"**Onset** 2d6 weeks; **Frequency** 1/day  ",
 			"**Effect** 1 Con damage plus 1d3 Wis damage (minimum reduction to 1 Wis)  ",
@@ -667,7 +667,7 @@
 		"description": [
 			"## Pallid Gift",
 			"",
-			"**Source** [Villain Codex](source/villain_codex)  ",
+			"{SOURCE Villain Codex}  ",
 			"**Type** injury; **Fortitude Save* DC 10 + 1/2 the HD of the [pallid vector](template/pallid_vector) that is infecting the victim, plus the vector's Con modifier  ",
 			"**Onset** immediate; **Frequency** 1/day  ",
 			"**Effect** 1d6 Constitution damage, 1d6 Wisdom damage, and the infected creature is fatigued; the ability damage can't be healed, and the fatigue can't be removed while the creature is infected  ",

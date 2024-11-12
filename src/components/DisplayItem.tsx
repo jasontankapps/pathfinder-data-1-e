@@ -1,4 +1,4 @@
-import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes } from 'react';
+import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes, Fragment } from 'react';
 import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
 import { HashLink } from 'react-router-hash-link';
@@ -53,12 +53,22 @@ const scrollWithOffset = (el: HTMLElement) => {
 	const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
 	w && (w as HTMLIonContentElement).scrollByPoint(0, Math.max(0, yCoordinate - 80), 500);
 }
+const makeSourceLink = (sourceInfo: string, key: string, index: number) => {
+	const m = sourceInfo.match(/(.+?)\/([0-9]+)/);
+	const source = m ? m[1] : sourceInfo;
+	const sourceText = m ? `${source} pg. ${m[2]}` : source;
+	const link = source.toLowerCase().replace(/ /g, "_").replace(/[^-a-z_0-9]/g, "");
+	if(index > 0) {
+		return <Fragment key={key}>, <Link to={`/source/${link}`} aria-label={sourceText}>{sourceText}</Link></Fragment>
+	}
+	return <Link key={key} to={`/source/${link}`} aria-label={sourceText}>{sourceText}</Link>
+};
 const p = (props: MDpProps, tables: Table[], prefix: string) => {
 	const { children } = props;
 	if(typeof(children) === "string") {
-		// Display the requested table
 		let m = children.match(/^\{table([0-9]+)\}$/);
 		if(m) {
+			// Display the requested table
 			const index = parseInt(m[1]);
 			if(index >= 0 && index < tables.length) {
 				return <DisplayTable table={tables[index]} />;
@@ -83,8 +93,26 @@ const p = (props: MDpProps, tables: Table[], prefix: string) => {
 				</div>
 			);
 		}
+		const m3 = children.match(/^\{SOURCE (.+?)\}$/);
+		if(m3) {
+			// Create a 'source' line
+			const sources = m3[1].split(/;/).map((source, i) => makeSourceLink(source, `${prefix}/${i}/${source}/${children}`, i));
+			return <p><strong>Source</strong> {sources}</p>;
+		}
+		return <p>{children}</p>;
 	}
-	return <p>{children}</p>;
+	return Array.isArray(children) ? <p>{children.map((child, ci) => {
+		if(typeof(child) === "string") {
+			const m = child.match(/^\{SOURCE (.+?)\}$/);
+			if(m) {
+				// Create a 'source' line
+				const sources = m[1].split(/;/).map((source, i) => makeSourceLink(source, `${prefix}/${ci}-${i}/${source}/${children}`, i));
+				return <><strong>Source</strong> {sources}</>;
+			}
+			return child;
+		}
+		return child;
+	})}</p> : <p></p>;
 };
 
 const table = (props: MDtProps) => {

@@ -5,7 +5,7 @@
 		"description": [
 			"## Calamity Caller",
 			"",
-			"**Source** [Heroes from the Fringe pg. 12](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/12}  ",
 			"While all elves feel a deep connection to nature, some elven priests take this bond further, using their link to call down the wrath of nature upon their enemies. Ekujae are most inclined to harness this connection, but any elf can wield their bond to nature in this way.",
 			"",
 			"Calamity caller is a warpriest archetype that is available only to elves.",
@@ -47,7 +47,7 @@
 		"description": [
 			"## Champion of the Faith",
 			"",
-			"**Source** [Advanced Class Guide pg. 128](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/128}  ",
 			"Champions of the faith are crusaders who use the power of their divine patron to annihilate the faith's enemies.",
 			"",
 			"**Chosen Alignment:** At 1st level, a champion of the faith must select one of the following as his chosen alignment: chaos, evil, good, or law. This choice must be one of the alignments shared by the champion of the faith and his deity. Champions of the faith who are neutral with no other alignment components (or whose deity is) can choose any of the above alignments for this purpose. Additionally, a champion of the faith must select the blessing corresponding to his chosen alignment, even if it's not on his deity's list of domains.",
@@ -73,7 +73,7 @@
 		"description": [
 			"## Cult Leader",
 			"",
-			"**Source** [Advanced Class Guide pg. 128](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/128}  ",
 			"Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at those that get in the way of their agenda.",
 			"",
 			"**Class Skills:** The cult leader's class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Heal (Wis), Intimidate (Cha), Knowledge (local) (Int), Knowledge (religion) (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Slight of Hand (Dex), Spellcraft (Int), and Stealth (Dex). These skills replace the warpriest's class skills.",
@@ -97,7 +97,7 @@
 		"description": [
 			"## Disenchanter",
 			"",
-			"**Source** [Advanced Class Guide pg. 129](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/129}  ",
 			"While many warpriests focus on threats to the body, the disenchanter focuses on dangers to the mind and the soul. Using the power of his patron, the disenchanter seeks to keep the powers of magic in check.",
 			"",
 			"**Bonus Feats (Ex):** Whenever a disenchanter gains a bonus feat, he must choose from the following list: [Great Fortitude](feat/great_fortitude), [Improved Counterspell](feat/improved_counterspell), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus](feat/skill_focus) (Spellcraft), or [Spell Focus](feat/spell_focus) (abjuration). At 6th level, he adds the following feats to this list: Dispel Synergy, [Improved Great Fortitude](feat/improved_great_fortitude), [Improved Iron Will](feat/improved_iron_will), and [Improved Lightning Reflexes](feat/improved_lightning_reflexes). At 12th level, he adds the following feats to this list: [Destructive Dispel](feat/destructive_dispel), [Dispelling Critical](feat/dispelling_critical), [Parry Spell](feat/parry_spell), and [Ray Shield](feat/ray_shield). He need not meet the prerequisites for these feats. This ability alters bonus feats.",
@@ -113,7 +113,7 @@
 		"description": [
 			"## Divine Champion",
 			"",
-			"**Source** [Divine Anthology pg. 14](source/divine_anthology)  ",
+			"{SOURCE Divine Anthology/14}  ",
 			"Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths. They are similar to divine paragons in many ways, but tend to focus more on their deity's combat prowess rather than seeking to become a physical manifestation of the deity's will.",
 			"",
 			"**Devotion:** A divine champion's power comes from his close connection to his deity. He must worship a deity, and must maintain the same alignment as that deity.",
@@ -139,7 +139,7 @@
 		"description": [
 			"## Divine Commander",
 			"",
-			"**Source** [Advanced Class Guide pg. 129](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/129}  ",
 			"Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory. Their hearts quicken at battle cries, and they charge forth with their deity's symbol held high. These leaders of armies do so to promote the agenda of their faith, and lead armies of devoted followers willing to give their lives for the cause. (Several of the divine commander's abilities reference and interact with the [mass combat rules](rule/mass_combat).)",
 			"",
 			"**Mount (Ex):** A divine commander gains the service of a loyal and trusty steed to carry her into battle. This mount functions as a druid's animal companion, using the divine commander's level as her effective druid level. The creature must be one that she is capable of riding and must be suitable as a mount. A Medium divine commander can select a camel or a horse. A Small divine commander can select a pony or wolf, but can also select a boar or a dog if she is at least 4th level. (The GM might approve other animals as suitable mounts.)",
@@ -165,7 +165,7 @@
 		"description": [
 			"## Feral Champion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 97](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/97}  ",
 			"When a warpriest devotes himself to a god of the natural world, he is sometimes blessed with supernatural powers that allow him to evoke animalistic power and fury.",
 			"",
 			"**Feral Blessing:** A feral champion must take the Animal blessing and does not gain a second blessing.",
@@ -187,7 +187,7 @@
 		"description": [
 			"## Fist of the Godclaw",
 			"",
-			"**Source** [Disciple's Doctrine pg. 12](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/12}  ",
 			"Devoted to the divine control of law above all else, these zealots seek to establish absolute order. Disciplined and precise, they lead their allies against the chaotic hordes.",
 			"",
 			"**Alignment:** A fist of the Godclaw must be of a lawful alignment.",
@@ -219,7 +219,7 @@
 		"description": [
 			"## Forgepriest",
 			"",
-			"**Source** [Advanced Class Guide pg. 130](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/130}  ",
 			"Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most perfect weapons and armor they can, the better to equip the armies of the faithful.",
 			"",
 			"**Blessings:** A forgepriest selects only one blessing. This alters the blessings class feature.",
@@ -243,7 +243,7 @@
 		"description": [
 			"## Jistkan Magistrate",
 			"",
-			"**Source** [Blood of the Ancients pg. 15](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/15}  ",
 			"Some warpriests study the ancient magic that the Jistkan magistrates used to bind elementals and make pacts with genies. By tapping into the elementals' primal magic, these warpriests gain powers that help them in combat.",
 			"",
 			"**Class Skills:** A Jistkan magistrate gains Knowledge (planes) as a class skill. Survival is not a class skill for a Jistkan magistrate.",
@@ -282,7 +282,7 @@
 		"description": [
 			"## Liberty's Blade",
 			"",
-			"**Source** [Advanced Class Origins pg. 24](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/24}  ",
 			"There are some who find in the call to freedom something primal and spiritual, even more so than other Andorens. These liberty's blades become warpriests of deities who spread freedom, and they head to lives of adventure as [Eagle Knights](rule/aff_vangard) or adventurers, championing liberty wherever they go.",
 			"",
 			"**Freedom's Focus (Su):** A liberty's blade must worship a good deity who grants the Liberation blessing, and he must select the Liberation blessing. He does not gain a second blessing. This ability alters blessings.",
@@ -303,7 +303,7 @@
 		"description": [
 			"## Mantis Zealot",
 			"",
-			"**Source** [Adventurer's Guide pg. 157](source/adventurers_guide), [Advanced Class Origins pg. 25](source/advanced_class_origins)  ",
+			"{SOURCE Adventurer's Guide/157;Advanced Class Origins/25}  ",
 			"Among the [Red Mantis](rule/aff_assassins) worshipers of Achaekek, some hold such strong faith in their assassin god that they gain divine power. They forge themselves into perfect killers in honor of He Who Walks in Blood. These warpriests are a relatively recent addition to the Red Mantis arsenal, but in the few short decades they have served the assassins, they have quickly built a reputation for themselves as particularly fanatical devotees of the Mantis God. Their penchant for taking the faith's writings verbatim and for overwhelming and often destructive pedantry serves them well in matters of loyalty to Achaekek (and particularly when it comes to drafting contracts for assassinations that favor the organization in financial and tactical ways), but it offers little room for complex cases that would benefit from bending the rules, making them unsuitable for missions that require diplomatic finesse. In addition, the rising incidence of mantis zealots accusing fellow worshipers of Achaekek of heresy and blasphemy, resulting in internal accusations, exiles, and even fullblown assassinations, increasingly makes them objects of fear and distrust among even their own kind. Whether the rise of the mantis zealot presages a dramatic upcoming shift in the religion's hierarchy and methods, or whether the faction may be burning too bright for its own good and is hurtling toward self-annihilation, remains to be seen.",
 			"",
 			"**Mantis Sworn (Ex):** A mantis zealot must choose Achaekek as his deity, and he must be lawful evil in alignment. If he ever changes his deity, he loses this archetype and becomes a normal warpriest.",
@@ -331,7 +331,7 @@
 		"description": [
 			"## Molthuni Arsenal Chaplain",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 6](source/weapon_masters_handbook)  ",
+			"{SOURCE Weapon Master's Handbook/6}  ",
 			"Molthuni arsenal chaplains are warpriests trained in the Arsenal District in Korholm. They bolster their nation's military by focusing on the militant aspects of their gods.",
 			"",
 			"**War Blessing (Su):** A Molthuni arsenal chaplain must choose War as his blessing, and can do so even if it is a domain not normally granted by his deity. He does not receive a second blessing.",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Proclaimer",
 			"",
-			"**Source** [People of the Wastes pg. 19](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/19}  ",
 			"A proclaimer is the polar opposite of a [faithful wanderer (paladin)](archetype-paladin/faithful_wanderer), rushing into Abyss-twisted wastes with nothing but his weapon in his hand and his faith in his heart, shouting his deity's name to the skies. Most proclaimers don't survive their first day in a hostile environment, but those who do become the stuff of legend, bolstering the spirits of crusaders near and far.",
 			"",
 			"**Righteous Oath:** A proclaimer cannot be evil or worship an evil deity, and he must choose cure spells for his spontaneous casting.",
@@ -379,7 +379,7 @@
 		"description": [
 			"## Proselytizer",
 			"",
-			"**Source** [Cohorts and Companions pg. 24](source/cohorts_and_companions)  ",
+			"{SOURCE Cohorts and Companions/24}  ",
 			"The proselytizer is the perfect militant missionary. He seeks to win the hearts and lay claim to the souls of those he meets, and-failing that-spreads the word of his deity at the edge of the sword.",
 			"",
 			"**Weapon and Armor Proficiencies:** A proselytizer does not gain proficiency with heavy armor or with all martial weapons, though he does gain proficiency in his deity's favored weapon. If his deity's favored weapon is unarmed strike, he gains [Improved Unarmed Strike](feat/improved_unarmed_strike) as a bonus feat. This ability alters the warpriest's weapon and armor proficiencies.",
@@ -440,7 +440,7 @@
 		"description": [
 			"## Sacred Fist",
 			"",
-			"**Source** [Advanced Class Guide pg. 130](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/130}  ",
 			"Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists and whatever protection their deity bestows on them.",
 			"",
 			"**Class Skills:** The sacred fist's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Heal (Wis), Intimidate (Cha), Knowledge (history) (Int), Knowledge (religion) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), and Swim (Str). These skills replace the warpriest's class skills.",
@@ -470,7 +470,7 @@
 		"description": [
 			"## Shieldbearer",
 			"",
-			"**Source** [Armor Master's Handbook pg. 7](source/armor_masters_handbook)  ",
+			"{SOURCE Armor Master's Handbook/7}  ",
 			"Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people. The shieldbearer tradition has long been a strong legacy among the dwarves of the Five Kings Mountains, while many young women throughout the Lands of the Linnorm Kings and Realm of the Mammoth Lords become shieldbearers known as shield maidens. Shieldbearers among the Shoanti are often advisors as well as combatants, while in the Mwangi Expanse shieldbearers are known for defending entire villages from the Gorilla King's minions.",
 			"",
 			"**Shield Adept (Ex):** At 1st level, a shieldbearer receives [Improved Shield Bash](feat/improved_shield_bash) as a bonus feat. When carrying a shield, the shieldbearer adds his shield bonus on concentration checks to cast defensively.",
@@ -492,7 +492,7 @@
 		"description": [
 			"## Sixth Wing Bulwark",
 			"",
-			"**Source** [Distant Realms pg. 32](source/distant_realms)  ",
+			"{SOURCE Distant Realms/32}  ",
 			"Many are the followers of Ragathiel who lead in battle. Far fewer, but no less crucial to a successful campaign, are those who hold the line and defend against the incursion of evil forces. The Sixth Wing bulwark trains to do just that: fortifying herself and her allies to stand strong in the face of any opposition, no matter how dire.",
 			"",
 			"**Sixth Wing Sworn:** A Sixth Wing bulwark must be a worshiper of Ragathiel. If she ever changes her deity, she loses this archetype, cannot regain it, and becomes a normal warpriest.",

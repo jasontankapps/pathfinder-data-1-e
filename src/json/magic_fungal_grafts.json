@@ -5,7 +5,7 @@
 		"description": [
 			"## Fungal Eyes",
 			"",
-			"**Source** [Alchemy Manual pg. 10](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/10}  ",
 			"**Price** 18,000 gp; **Slot** eyes  ",
 			"These small, glowing blue fungi form a protective film over the subject's eyes, preventing her from seeing with normal vision but granting her blindsight to a range of 30 feet."
 		]
@@ -16,7 +16,7 @@
 		"description": [
 			"## Reaching Vines",
 			"",
-			"**Source** [Alchemy Manual pg. 10](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/10}  ",
 			"**Price** 4,000 gp; **Slot** wrists  ",
 			"Cytillesh spores seeded beneath the subject's skin enable the subject to extend and contract fungal vines from its wrists and forearms at will. The subject gains two vine attacks per round, which count as secondary natural attacks with a reach of 10 feet. These vines deal no damage, but the fungal-grafted creature can attempt to pull a struck target up to 5 feet toward itself, as the [pull](umr/pull) universal monster ability."
 		]

@@ -5,7 +5,7 @@
 		"description": [
 			"## Agathiel",
 			"",
-			"**Source** [Spymaster's Handbook pg. 25](source/spymasters_handbook)  ",
+			"{SOURCE Spymaster's Handbook/25}  ",
 			"The legends of Golarion teem with intelligent beasts who emerge from the wild to right wrongs perpetrated by a nation, aid a virtuous family, or extract long-overdue vengeance. Many of these trace back to the agathiel tradition, first stolen from agathion celestials by the elves of Kyonin and again later by Old-Mage Jatembe. Agathiels surrender a portion of their immortal souls to Nirvana in exchange for a measure of animalistic might to aid them in their righteous crusades. This exchange is permanent, and each agathiel commits the rest of his mortal life to service of others and the constant thrum of wild instincts. Though agathiels can be found in small numbers all over Golarion, the rituals to transform a mortal into an agathiel are common only in Kyonin and the Mwangi city-states, and among the wandering scholars of the Mwangi Expanse. The elves in particular relied upon these abilities to scout Golarion before reclaiming their abandoned territories after the Age of Darkness, leading to reports of extraordinary fey animals stalking elven ruins in the century before their return.",
 			"",
 			"**Immortal Commitment (Su):** Becoming an agathiel commits a portion of the vigilante's soul to Nirvana, and in turn invests him with a portion of the plane's power. An agathiel's social and vigilante identity alignments must both be within one step of neutral good. If either of the agathiel's alignments moves outside this range (because of his own actions or magical manipulation), he gains 1 permanent negative level and loses the ability to assume his vigilante identity until both of his alignments are within one step of neutral good. This negative level cannot be overcome in any way (including by restoration spells) until the agathiel's alignment reverts.",
@@ -31,7 +31,7 @@
 			"",
 			"**NOTE:** The levels given for social and vigilante talents are incorrect. It is unclear if the abilities or talents should be adjusted up or down a level to compensate, or if the talent types should be switched. Consult your GM.",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 38](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/38}  ",
 			"Anaphexia thought-killers worship Norgorber's Reaper of Reputation aspect from their secret home in Ustalav. In sacrifice to him, they cut out their own tongues to gain magical protection from exposure and hunt down secrets to steal before they can be spread-which usually requires executing those who already knew them.",
 			"",
 			"**Tongue Sacrifice (Su):** An Anaphexia thought-killer's social identity is as a Pharasmin priest, one whom many people assume has taken a vow of silence since they speak so infrequently. In order to assume her vigilante identity, an Anaphexia thought-killer must cut out her own tongue as a standard action-an act that deals 1d4 points of damage plus 1 point of bleed damage and leaves her unable to speak (even to cast spells). The thought-killer gains the ability to cast regenerate as a spell-like ability once per day, and only to restore her own tongue.",
@@ -59,7 +59,7 @@
 		"description": [
 			"## Avenging Beast",
 			"",
-			"**Source** [Ultimate Wilderness pg. 96](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/96}  ",
 			"Some vigilantes turn to natural traditions and supernatural forces to transform into beasts, unleashing a primal fury on their foes before returning to an ordinary guise.",
 			"",
 			"**Class Skills:** An avenging beast gains Knowledge (nature) and Spellcraft as class skills, but does not gain Disable Device, Knowledge (engineering), Perform, and Sleight of Hand as class skills.",
@@ -96,7 +96,7 @@
 		"description": [
 			"## Bellflower Harvester",
 			"",
-			"**Source** [Adventurer's Guide pg. 42](source/adventurers_guide), [Spymaster's Handbook pg. 25](source/spymasters_handbook)  ",
+			"{SOURCE Adventurer's Guide/42;Spymaster's Handbook/25}  ",
 			"Bellflower harvesters are the front-line operatives of the secretive [Bellflower Network](rule/aff_antislavery), whose members infiltrate Chelish estates in the guise of servants and slaves, and tolerate a harsh life as they uncover secrets, gauge security, and send slaves on the first steps toward freedom. While [Bellflower tillers](prestigeclass/bellflower_tiller) wander the countryside, escorting the crop of escapees to freedom, Bellflower harvesters remain in seeming bondage to direct others to the road to freedom, undermine efforts to recapture slaves, and end the threat of especially vile masters. Bellflower harvesters consist almost exclusively of halflings, though the role could be taken by anyone with the patience or humility to withstand months or years of cruel abuse without risking being caught raising a hand in his own defense.",
 			"",
 			"**Rebellious Identity (Ex):** A Bellflower harvester's vigilante identity must be within one step of chaotic good, and his social identity must appear to be a servant, slave, or other menial laborer.",
@@ -128,7 +128,7 @@
 		"description": [
 			"## Brute",
 			"",
-			"**Source** [Ultimate Intrigue pg. 54](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/54}  ",
 			"Either through the results of magical experimentation or bizarre natural sparks, some vigilantes can transform into brutish versions of themselves, becoming larger, more terrifying in appearance, and far more formidable in combat-though at a price.",
 			"",
 			"**Chaotic Vigilante (Ex):** A brute's vigilante alignment must be chaotic, and his vigilante identity and his social identity must be within one step of each other on the alignment axis.",
@@ -182,7 +182,7 @@
 		"description": [
 			"## Cabalist",
 			"",
-			"**Source** [Ultimate Intrigue pg. 55](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/55}  ",
 			"Appearing to be an upstanding member of society, the cabalist clandestinely follows the tenets of a secret society. Practice with blood sacrifices, necromancy, and shadow magic gives a cabalist a reputation as a sinister and dangerous vigilante.",
 			"",
 			"**Class Skills:** The cabalist adds Knowledge (arcana) and Spellcraft to his list of class skills, instead of Disable Device, Knowledge (engineering), Perception, and Survival.",
@@ -242,7 +242,7 @@
 		"description": [
 			"## Chu Ye Enforcer",
 			"",
-			"**Source** [Martial Arts Handbook pg. 18](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/18}  ",
 			"In the despotic nation of Chu Ye, merciless oni oppress the human populace. Some humans and tieflings with oni blood use the power of the oni for their own ambitions. Donning terrifying masks, these vigilantes forsake their humanity to become more like the evil beings they mimic.",
 			"",
 			"**Yokai Heart (Su):** A Chu Ye enforcer seeks to transmute himself into a destructive spirit and terrorize his enemies. His vigilante identity alignment must be non-good. While in his vigilante identity, the Chu Ye enforcer gains darkvision with a range of 60 feet and low-light vision, and he counts as both a native outsider with the oni subtype and his original type for any effect related to type, whichever is worse for him.",
@@ -274,7 +274,7 @@
 		"description": [
 			"## Darklantern",
 			"",
-			"**Source** [Heroes of the Darklands pg. 11](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/11}  ",
 			"The [Lantern Bearers](rule/aff_lights) are an elite group of elves dedicated to the containment and eradication of the drow. However, some Lantern Bearers are tasked with the unthinkable assignment of infiltrating drow society so as to relay information to the Winter Council-a secret cabal tasked with keeping the existence of drow a secret-about activities in the Darklands and drow cities. In order to accomplish this task, select members of the Lantern Bearers undergo a horrific ritual allowing them to temporarily experience the dark transformation into a drow, but at the cost of their sanity.",
 			"",
 			"**Elven Ancestry:** A darklantern must be a creature with the elf subtype.",
@@ -300,7 +300,7 @@
 		"description": [
 			"## Dragonscale Loyalist",
 			"",
-			"**Source** [Heroes of the High Court pg. 24](source/heroes_of_the_high_court)  ",
+			"{SOURCE Heroes of the High Court/24}  ",
 			"Since the disappearance of the Rogarvias, Brevoy draws ever closer to civil war. The rule of King-Regent Noleski Surtova grows increasingly tenuous; to hold his position, he sends handpicked agents into the kingdom's courts to flush out traitors to the Dragonscale Throne. When not acting as courtiers, these agents don fearsome draconic masks, becoming anonymous protectors of the kingregent's rule.",
 			"",
 			"**Ruby Courtier (Ex):** Surtova's minions pose as minor nobles studying the Aldori swordlord traditions common throughout Brevoy. At 1st level, a Dragonscale loyalist gains [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) (Aldori dueling sword) as a bonus feat. His social identity must appear to be that of a noble, and he can't select double time, many guises, or any social talent inappropriate for a noble social identity.",
@@ -344,7 +344,7 @@
 		"description": [
 			"## Experimenter",
 			"",
-			"**Source** [Horror Adventures pg. 70](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/70}  ",
 			"Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.",
 			"",
 			"**Class Skills:** An experimenter adds all Knowledge skills to his list of class skills.",
@@ -386,7 +386,7 @@
 		"description": [
 			"## Faceless Enforcer",
 			"",
-			"**Source** [Path of the Hellknight pg. 50](source/path_of_the_hellknight)  ",
+			"{SOURCE Path of the Hellknight/50}  ",
 			"Unyielding warriors, faceless enforcers lock their identities behind implacable helms. While their infamous reputations spread far, striking fear in their foes, the individual behind the mask remains a complete mystery.",
 			"",
 			"**Weapon and Armor Proficiencies:** A faceless enforcer is proficient with heavy armor, but not with shields.",
@@ -424,7 +424,7 @@
 		"description": [
 			"## Ferocious Hunter",
 			"",
-			"**Source** [Heroes from the Fringe pg. 26](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/26}  ",
 			"Half-orcs with more distant orc ancestry often look almost indistinguishable from humans, aside from a slightly greenish tint to their skin or sharp teeth. The ability to move through the world without experiencing the same discrimination many of their kin face opens doors that might otherwise be closed, yet many of these half-orcs still take great pride in their heritage and have a powerful desire to show the world that half-orcs are deserving of respect. By taking on an alter-ego that allows them to show their true colors, they can become a champion of the downtrodden and a hero among half-orcs.",
 			"",
 			"**Hidden Heritage (Ex):** A ferocious hunter must present as human for his social identity and as a half-orc for his vigilante identity in order to gain the benefits of dual identity. He gains [Pass for Human](feat/pass_for_human) as a bonus feat. In addition, his alignment stays the same when he switches between identities.",
@@ -450,7 +450,7 @@
 		"description": [
 			"## Gunmaster",
 			"",
-			"**Source** [Ultimate Intrigue pg. 57](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/57}  ",
 			"Firearms can be potent tools for striking fear into the hearts of enemies, and canny vigilantes use this to their advantage. Gunmasters brandish firearms like extensions of their will, taking down their foes with deadly accuracy and skill.",
 			"",
 			"**Weapon and Armor Proficiencies:** A gunmaster is proficient with all firearms but not with martial weapons or medium armor.",
@@ -486,7 +486,7 @@
 		"description": [
 			"## Half-Elf Double Scion",
 			"",
-			"**Source** [Heroes from the Fringe pg. 22](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/22}  ",
 			"Many half-elves who live in human or elven societies try to blend in, hiding their true ancestry. But deception takes a toll, and some half-elves form alternate identities to let the suppressed side of their heritage be known. This other identity can be either a force for good, enabling the half-elf to express a part of himself that has been denied to him, or for evil, with the half-elf hurting others to make up for his own pain.",
 			"",
 			"**Dual Heritage:** A half-elf double scion appears to be an elf in one identity and a human in the other identity. He takes no penalties to Disguise checks to appear as the race that matches his current identity. The selection of which race is the social identity and which is the vigilante identity is made at 1st level and cannot be changed. Additionally, when a half-elf double scion switches from one identity to another, he is representing different aspects of his heritage rather than personality. As a result, a half-elf double scion has the same alignment in both of his identities.",
@@ -508,7 +508,7 @@
 		"description": [
 			"## Hangman",
 			"",
-			"**Source** [Horror Adventures pg. 70](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/70}  ",
 			"Wherever the guilty walk free, the hangman brings judgment.",
 			"",
 			"**Weapon and Armor Proficiency:** A hangman is proficient with nets and whips, but not shields.",
@@ -550,7 +550,7 @@
 		"description": [
 			"## Hidden Current",
 			"",
-			"**Source** [Blood of the Sea pg. 8](source/blood_of_the_sea)  ",
+			"{SOURCE Blood of the Sea/8}  ",
 			"Sometimes the best place to hide is in plain sight. The hidden current operates above and below the sea. When operating underwater, he blends easily with the locals, passing himself off as one of them or as an experienced aquatic traveler. When operating on land, he erases all traces of his aquatic heritage. When the hidden current needs to avoid pursuit, he slips away into his native environment.",
 			"",
 			"**Guise of the Land Walker (Ex):** At 1st level, a hidden current gains the many guises social talent, but the mundane identity assumed must be of a non-aquatic humanoid and functions only when he is on land.",
@@ -572,7 +572,7 @@
 		"description": [
 			"## Imperial Agent",
 			"",
-			"**Source** [Blood of the Ancients pg. 19](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/19}  ",
 			"Many residents of Lung Wa's successor states refuse to admit the empire has truly fallen, but the self-proclaimed imperial agents have taken matters into their own hands. Imperial agents are often the descendants of nobility and generals from Lung Wa, devoted to reuniting the empire by conquering Lung Wa's successor states. Often forming secret networks with fanciful names, they focus on destabilizing nations with blackmail, slander, and treachery.",
 			"",
 			"**Slander (Ex):** At 1st level, an imperial agent becomes an expert at spreading malicious rumors in order to foment chaos and strife to further his aims. Slandering an individual or organization takes 1d4 days in a settlement smaller than a town, or 1 week in a town or larger settlement. The imperial agent must succeed at either a Bluff or Diplomacy check. If the general populace is indifferent towards the target of the slander, the DC of this check is 20 + the target's Charisma modifier. For each step above indifferent the public's attitude towards the target is, the DC increases by 5, and for each step below indifferent the public's attitude towards the target is, the DC decreases by 5. If the imperial agent is successful, the public's attitude toward his target is decreased by 1 step. If the imperial agent fails the check, however, he cannot affect the settlement with this ability for 1 week, and the target of his slander becomes aware that someone is spreading malicious rumors. The GM determines the exact effects of the public's shift in attitude. Even if the public is hostile toward the target, they might not act openly against the target, especially if doing so might be dangerous.",
@@ -594,7 +594,7 @@
 		"description": [
 			"## Magical Child",
 			"",
-			"**Source** [Ultimate Intrigue pg. 57](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/57}  ",
 			"Some vigilantes, no matter their age, carry a spark of capricious whimsy under which flows a powerful current of magic and wonder. They keep these wondrous abilities secret, though they are aided in their endeavors by creatures just as magical as they are.",
 			"",
 			"**Class Skills:** A magical child adds Knowledge (arcana), Knowledge (planes), and Spellcraft to her list of class skills, instead of Disable Device, Knowledge (engineering), Perception, and Survival.",
@@ -634,7 +634,7 @@
 		"description": [
 			"## Masked Maiden",
 			"",
-			"**Source** [Adventurer's Guide pg. 82](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/82}  ",
 			"In the wake of Ileosa's death, some of the surviving [Gray Maidens](rule/aff_scarred_ladies) attempted to return to their former lives-a task made difficult by the physical and emotional scars of their indoctrination. For a few, suppressing the indoctrination's effects seemed to work. In time, though, the repressed aspects returned, pushing these former conscripts to don their armor and seek out conflict. These so-called masked maidens find themselves leading a double life: ordinary (albeit troubled) citizen by day, faceless warrior by night. In the most tragic cases, the identities entirely disassociate, with the maiden experiencing unexplained exhaustion and injuries upon awakening.",
 			"",
 			"While their social identities cover a wide range of personality types, in their vigilante identities, masked maidens are usually icy and dispassionate. These identities are rarely good-aligned, and are more often merciless bringers of justice than gentle redeemers. Some masked maidens continue enforcing the queen's cruel agenda, while others fight crime or pursue personal vendettas. A masked maiden always uses the iconic Gray Maiden helm when in her vigilante identity, as these helms serve excellently at both hiding the vigilante's identity while simultaneously evoking the significant social gravitas associated with the Gray Maidens. Often, the masked maiden wears signature garb, such as a helm with a distinctively colored plume or a scarlike etching on the helm's face, or perhaps a unique cloak. Although the masked maiden hides behind the armor and is pursuing her goals, she wants to be able to be identified as a specific individual.",
@@ -664,7 +664,7 @@
 		"description": [
 			"## Mounted Fury",
 			"",
-			"**Source** [Ultimate Intrigue pg. 58](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/58}  ",
 			"Some vigilantes form special bonds with the creatures they use as steeds, considering these loyal and trusted mounts just as much heroes or antiheroes as they might be. Mounted furies often masquerade as anonymous stable hands or humble quartermasters to mask their vigilante activities.",
 			"",
 			"**Class Skills:** A mounted fury adds Handle Animal to his list of class skills, instead of Swim and Use Magic Device.",
@@ -704,7 +704,7 @@
 		"description": [
 			"## Mutated Defender",
 			"",
-			"**Source** [People of the Wastes pg. 9](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/9}  ",
 			"Occasionally a mutation takes hold of the body of a vigilante, but he learns to hide his maladies, usually through alchemical concoctions or magical concealment. Unlike other mutants, who are usually shunned in Alkenstar and other settlements, mutated defenders can appear in public without revealing their mutations-though they can still use them to their full potential in secret.",
 			"",
 			"**Mutant Specialization:** A mutated defender gains a base attack bonus equal to his vigilante level instead of using those listed in the vigilante's class table. He adds this value as normal to any other base attack bonus gained from other classes or racial Hit Dice. He also selects one [mutant deformity](template/mutant) other than mindless or vulnerability. This deformity magically reverts when the vigilante is in his social identity, as do all mutations from his mutant talents, allowing him to hide his mutation entirely. Unlike with other vigilante talents, the vigilante is entirely unable to use the benefits of his mutant talents while in his social identity.",
@@ -728,7 +728,7 @@
 		"description": [
 			"## Psychometrist",
 			"",
-			"**Source** [Ultimate Intrigue pg. 59](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/59}  ",
 			"Wise vigilantes know that there is power in certain seemingly unremarkable items. Psychometrists aren't spellcasters; instead, they collect strange items or create their own uncanny gadgets that seem to only work for them. Psychometrists often hide their clandestine activities behind the guise of an eccentric peddler, curator, tinker, or artificer.",
 			"",
 			"**Class Skills:** A psychometrist adds Knowledge (arcana) and Knowledge (history) to his list of class skills, instead of Knowledge (dungeoneering) and Knowledge (engineering).",
@@ -762,7 +762,7 @@
 		"description": [
 			"## Serial Killer",
 			"",
-			"**Source** [Horror Adventures pg. 71](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/71}  ",
 			"Some vigilantes adopt an innocent guise to cloak their acts of brutal murder.",
 			"",
 			"**Alignment:** A serial killer's vigilante identity must be evil. A serial killer whose vigilante identity becomes nonevil cannot gain new levels as a vigilante but retains all of her class abilities.",
@@ -810,7 +810,7 @@
 		"description": [
 			"## Splintersoul",
 			"",
-			"**Source** [Antihero's Handbook pg. 17](source/antiheros_handbook)  ",
+			"{SOURCE Antihero's Handbook/17}  ",
 			"A splintersoul pushes the boundaries of what it means to have two separate identities. One may be kind and calm while the other is angry and heartless, and the change from one identity to another is sudden and frightening. The splintersoul is torn by conflicting emotions and thoughts, but because of his dual mind, he can master a uniquely disparate set of skills and abilities no normal person should be able to manage.",
 			"",
 			"**Splintered Identity (Ex):** A splintersoul's two identities are even more distant from one another than those of a normal vigilante. He cannot use any of his vigilante talents while in his social identity.",
@@ -838,7 +838,7 @@
 		"description": [
 			"## Teisatsu",
 			"",
-			"**Source** [Spymaster's Handbook pg. 26](source/spymasters_handbook)  ",
+			"{SOURCE Spymaster's Handbook/26}  ",
 			"Teisatsu are specialized vigilantes who focus on infiltrating social scenes and high-society gatherings on behalf of the feuding lords of Minkai. Trained as assassins and spies, they cultivate a suite of personalities and study secret arts that hone their bodies into deadly weapons.",
 			"",
 			"**Weapon and Armor Proficiency:** Teisatsu are proficient with all simple weapons, plus the kama, katana, kusarigama, nunchaku, sai, short sword, shortbow, shuriken, siangham, and wakizashi. They are proficient with light and medium armor, but not with shields.",
@@ -868,7 +868,7 @@
 		"description": [
 			"## Warlock",
 			"",
-			"**Source** [Ultimate Intrigue pg. 60](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/60}  ",
 			"Practicing magic in secret, the warlock obscures her arcane scholarship from public view. Her study of these arts allows her to hide her dual nature and enchant her enemies-or simply blast them with furious magical attacks.",
 			"",
 			"**Class Skills:** The warlock adds Knowledge (arcana) and Spellcraft to her list of class skills, instead of Disable Device, Knowledge (engineering), Perception, and Survival.",
@@ -925,7 +925,7 @@
 		"description": [
 			"## Wildsoul",
 			"",
-			"**Source** [Ultimate Intrigue pg. 61](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/61}  ",
 			"Within some vigilantes are incredible innate abilities that, although normally the domain of natural beasts, inexplicably aid them in fighting their enemies. These vigilantes have ties to the creature whose abilities they emulate, whether from a distant lycanthrope ancestor, a divine touch, unnatural experimentation, or something else altogether.",
 			"",
 			"**Natural Course (Ex):** At first level, when a wildsoul chooses a vigilante specialization, he must also choose a natural course: arachnid, falconine, or ursine. This represents the type of creature that influences his body, granting him his remarkable abilities. Once this choice is made, it can't be changed.",
@@ -989,7 +989,7 @@
 		"description": [
 			"## Zealot",
 			"",
-			"**Source** [Ultimate Intrigue pg. 62](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/62}  ",
 			"Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his religion is outlawed or persecuted in the region.",
 			"",
 			"**Class Skills:** A zealot adds Knowledge (religion) and Spellcraft to his list of class skills, instead of Disable Device, Knowledge (engineering), Perform, and Sleight of Hand.",

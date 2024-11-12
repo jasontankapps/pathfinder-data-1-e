@@ -5,7 +5,7 @@
 		"description": [
 			"## Armored Hulk",
 			"",
-			"**Source** [Ultimate Combat pg. 28](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/28}  ",
 			"Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.",
 			"",
 			"**Weapon and Armor Proficiency:** An armored hulk gains proficiency in heavy armor.",
@@ -27,7 +27,7 @@
 		"description": [
 			"## Beastkin Berserker",
 			"",
-			"**Source** [Heroes of the Darklands pg. 21](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/21}  ",
 			"While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so deeply into primal fury that she actually transforms into an animal. Berserkers of the surface world often associate with predators such as bears or wolves, and are sometimes mistaken for lycanthropes. The barbarians in Deep Tolguth shapechange into rampaging dinosaurs or megafauna, crafting their armor out of the hide and bones of their favored animals.",
 			"",
 			"**Savage Rapport (Ex):** At 1st level, a beastkin berserker gains a spiritual connection to a specific kind of creature with the animal type (such as a badger or a triceratops). She adds half her level (minimum 1) on Handle Animal, Intimidate, and Sense Motive checks involving the chosen type of animal.",
@@ -51,7 +51,7 @@
 		"description": [
 			"## Breaker",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/78}  ",
 			"While most barbarians are skilled at breaking things, some find the need to destroy their surroundings an almost uncontrollable urge when in the middle of a rage. These barbarians are a danger not only to their foes, but also to the very environment around them. A breaker barbarian has the following class features.",
 			"",
 			"**Destructive (Ex):** Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a sunder combat maneuver, she adds half her barbarian level (minimum +1) on the damage roll. This ability replaces fast movement.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Brutal Pugilist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/78}  ",
 			"Some barbarians focus on using their bare hands to tear their opponents limb from limb. These brutal pugilists also learn a great deal about various combat maneuvers, using them to cripple or crush their foes. A brutal pugilist has the following class features.",
 			"",
 			"**Savage Grapple (Ex):** At 2nd level, the brutal pugilist takes only half the normal penalties to Dexterity, attack rolls, and combat maneuver checks when she has the grappled condition. She can make an attack of opportunity against creatures trying to grapple her even if they possess the [Improved Grapple](feat/improved_grapple) feat or the grab special attack. If she hits with this attack of opportunity, she gains a +2 circumstance bonus to her CMD against the grapple attempt. She cannot make these attacks of opportunity once a grapple has succeeded. This ability replaces uncanny dodge.",
@@ -85,7 +85,7 @@
 		"description": [
 			"## Brutish Swamper",
 			"",
-			"**Source** [Ultimate Wilderness pg. 37](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/37}  ",
 			"The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength. The prejudice and misunderstanding with which civilized folk often regard barbarians is often even more pronounced in the case of these belligerent outcasts from society, in large part due to the fact that brutish swampers deliberately mock and antagonize the so-called \"city folk.\" To a brutish swamper, an urban lifestyle is one that breeds weakness and lassitude in the body. The brutish swamper has little interest or patience in maintaining alliances or friendship with those who live such soft lifestyles, and this aggression only further encourages feelings of prejudice on both sides of the cultural divide. When a brutish swamper joins an adventuring party, they usually come to value the skills and talents of their more urbanized companions, but never fully understand the desire to live lives surrounded by creature comforts.",
 			"",
 			"**Swamp Skills:** A brutish swamper adds Knowledge (geography) and Knowledge (local) to her list of class skills.",
@@ -117,7 +117,7 @@
 		"description": [
 			"## Cave Dweller",
 			"",
-			"**Source** [Ultimate Wilderness pg. 37](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/37}  ",
 			"Unused to the light of the sun, cave dwellers use their subterranean expertise to protect their clans from the manifold dangers of deep caverns and tunnels. The typical cave dweller is perfectly content to live his entire life underground, and he may even view the light of the sun as particularly abhorrent or taboo. While this lifestyle doesn't in and of itself imply evil or sinister intent, many outlanders ignorantly assume that cave dwellers avoid the light of the sun for malicious reasons. In truth, cave dwellers are as capable of goodness and kindness as any other-they just see little reason to venture out of their preferred homelands. When a cave dweller joins an adventuring party, she may retain an inherent nervousness about sleeping under the open sky and may long for the familiar confines of a comforting cavern, but this rarely translates directly into a notable disadvantage. Indeed, many adventuring groups come to value the specialized talents and skills the cave dweller brings to the party.",
 			"",
 			"**Skills:** A cave dweller gains Stealth as a class skill in place of Ride.",
@@ -145,7 +145,7 @@
 		"description": [
 			"## Deepwater Rager",
 			"",
-			"**Source** [Legacy of the First World pg. 28](source/legacy_of_the_first_world)  ",
+			"{SOURCE Legacy of the First World/28}  ",
 			"Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging seas. This archetype is compatible with both barbarians and unchained barbarians.",
 			"",
 			"**Strong Lungs (Ex):** A deepwater rager can hold her breath for a number of rounds equal to four times her Constitution score, and she does not reduce the duration of her held breath by taking a standard action or a full-round action. Additionally, as long as she is able to speak, the deepwater rager adds her Constitution modifier to Intimidate skill checks in addition to her Charisma modifier.",
@@ -177,7 +177,7 @@
 		"description": [
 			"## Dreadnought",
 			"",
-			"**Source** [Horror Adventures pg. 47](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/47}  ",
 			"Unstoppable and fearless, the dreadnought turns the terror of her enemies into violent physical power.",
 			"",
 			"**Dead Calm (Ex):** A dreadnought can enter a dispassionate killing spree as a free action, granting her additional combat prowess. The dreadnought gains only half the usual bonuses from her rage but takes no penalty to her AC, can use all her normal skills and effects that require concentration, and is not fatigued when her rage ends. The dreadnought cannot enter a rage for 1 minute after she ends her rage, and she cannot charge or run while under the effects of her rage.",
@@ -203,7 +203,7 @@
 		"description": [
 			"## Drunken Brute",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/78}  ",
 			"Barbarians are known for their ability to consume potent drink, but drunken brutes turn drinking into a combat tactic, using the potent liquor to fuel their rage and grant them additional powers. A drunken brute has the following class feature.",
 			"",
 			"**Raging Drunk (Ex):** While raging, the drunken brute can drink a potion, or a tankard of ale or similar quantity of alcohol, as a move action that does not provoke attacks of opportunity. A potion has its normal effect, while an alcoholic drink allows the barbarian to maintain her rage that round without expending a round of rage for the day (instead of the alcohol's normal effects). For each alcoholic drink consumed while raging, the barbarian is nauseated for 1 round when her rage expires, in addition to the normal fatigue that follows a rage. Tireless rage does not negate this nauseated condition but the internal fortitude rage power does. This ability replaces fast movement.",
@@ -217,7 +217,7 @@
 		"description": [
 			"## Drunken Rager",
 			"",
-			"**Source** [Alchemy Manual pg. 12](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/12}  ",
 			"These hotheaded, hard-drinking ruffians and brawlers are as dangerous in the midst of combat as they are in a tavern, and they wouldn't be caught dead without a libation for either occasion.",
 			"",
 			"**Drunken Rage (Ex):** At 1st level, a drunken rager can drink a unit of ale or other strong alcohol while raging to gain 1 drunken rage point. The act of drinking is a standard action that does not provoke attacks of opportunity. At 1st level, the barbarian can have a maximum of 1 drunken rage point; this maximum increases by 1 every 2 levels thereafter. These drunken rage points last for 1 hour or until spent, whichever comes first. The barbarian can use drunken rage points only while raging. Unless otherwise noted, spending a drunken rage point is a free action.",
@@ -239,7 +239,7 @@
 		"description": [
 			"## Elemental Kin",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/78}  ",
 			"Some barbarian tribes have strong ties to the elemental forces of nature. Their shamans anoint the warriors at birth, tying them to the patron element of the tribe and granting them lasting boons against such forces. An elemental kin has the following class feature.",
 			"",
 			"**Elemental Fury (Ex):** At 3rd level, whenever the elemental kin takes an amount of energy damage equal to or greater than her barbarian level while raging, she adds 1 to the total number of rounds that she can rage that day. At 6th level, and every three levels thereafter, the number of extra rounds per energy attack increases by +1, to a maximum of +6 rounds per energy attack at at 18th level. This ability replaces trap sense.",
@@ -253,7 +253,7 @@
 		"description": [
 			"## Fearsome Defender",
 			"",
-			"**Source** [Horror Adventures pg. 47](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/47}  ",
 			"Dark overlords frequently recruit their most bloodthirsty followers to serve as brutal bodyguards. These savage slaves feel little pain and exist only to rain terror down on the enemies of their pitiless masters.",
 			"",
 			"**Intractable (Ex):** A combination of brainwashing and loyalty helps a fearsome defender resist pain and torture, enduring grueling combat or questioning without betraying her dark lord. A fearsome defender gains a +2 bonus on saving throws against pain effects, and the DCs of checks to coerce her or demoralize her with Diplomacy or Intimidate increase by 2. Both the bonus and the increase to DCs increase by 2 when she gains greater rage and again by 2 when she gains mighty rage.",
@@ -279,7 +279,7 @@
 		"description": [
 			"## Feral Gnasher",
 			"",
-			"**Source** [Advanced Race Guide pg. 116](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/116}  ",
 			"Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon learn to fend for themselves. These barbarians often utilize pieced-together armor and fight with their sharp teeth and whatever improvised weapons are within reach. A feral gnasher has the following class features.",
 			"",
 			"**Weapon and Armor Proficiency:** A feral gnasher loses all martial weapon proficiencies except for greatclub and loses proficiency with medium armor.",
@@ -307,7 +307,7 @@
 		"description": [
 			"## Flesheater",
 			"",
-			"**Source** [Occult Adventures pg. 114](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/114}  ",
 			"A flesheater eats flesh to create a spiritual bond between herself and the consumed creature, allowing her to take on aspects of the creature that served as the meal.",
 			"",
 			"**Rage:** In additional to the standard bonuses and penalties of rage, a flesheater takes a -2 penalty to Intelligence while raging. The additional benefits and penalties from a flesheater's abilities last only as long as her rage does, and she cannot use these abilities if they would bring the total penalty to Intelligence to an amount equal to or greater than her Intelligence score. This ability alters the rage ability.",
@@ -329,7 +329,7 @@
 		"description": [
 			"## Geminate Invoker",
 			"",
-			"**Source** [Adventurer's Guide pg. 166](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/166}  ",
 			"Geminate invokers are barbarians who use [Rivethun](rule/aff_animists) traditions to invite spirits into their bodies. The spirits' aid enables them to overcome the distractions of the flesh: they can ignore pain, and even defy death. These ascetics make up much of the Rivethun martial forces.",
 			"",
 			"**Contemplative (Ex):** A geminate invoker adds Knowledge (history), Knowledge (religion), and Linguistics to his list of class skills. Unlike most barbarians, a geminate invoker can be lawful, but must maintain a neutral element to his alignment. A geminate invoker who ceases to be neutral-aligned cannot activate his trance ability.",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Giant Stalker",
 			"",
-			"**Source** [Adventurer's Guide pg. 130](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/130}  ",
 			"Of the dangerous creatures that roam grim peaks and icy steppes, giants are among the most feared. They are cunning and capricious, and their ability to craft weapons and coordinate attacks makes them a constant threat to the nomadic tribes in the region. In the wilds where giants hunt, cleverness isn't the only thing the people need to survive-they require the fearlessness to confront a challenge, no matter the size.",
 			"",
 			"Elders select the children of the tribe's fiercest barbarians for the honor of becoming giant stalkers. Through intense training, these children learn to spot and track giants using telltale signs along with more subtle clues (such as giants' unique scents). They learn the giants' speech and culture; they study their traditions and brutality; and most importantly, they foster their hatred of these oversized foes.",
@@ -393,7 +393,7 @@
 		"description": [
 			"## Hateful Rager",
 			"",
-			"**Source** [Advanced Race Guide pg. 54](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/54}  ",
 			"From a young age, many half-orcs are treated cruelly, bullied, ridiculed, and made outcasts. While some hide their shame, others foster a deep, burning hatred that they channel into a raw fury and unleash against their enemies. These half-orcs are called hateful ragers. A hateful rager has the following class features.",
 			"",
 			"**Reduced Rage (Ex):** At 2nd level and every level thereafter, a hateful rager only gains 1 additional round of rage per day instead of the normal 2 additional rounds of rage per day.",
@@ -417,7 +417,7 @@
 		"description": [
 			"## Hurler",
 			"",
-			"**Source** [Advanced Player's Guide pg. 78](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/78}  ",
 			"A raging barbarian is frightening enough in melee, but some become skilled at throwing objects at their foes before closing in for the kill. A hurler has the following class feature.",
 			"",
 			"**Skilled Thrower (Ex):** The hurler is skilled at throwing objects in combat. Increase the range increment of any thrown weapon or object by 10 feet. This ability replaces fast movement.",
@@ -431,7 +431,7 @@
 		"description": [
 			"## Invulnerable Rager",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/79}  ",
 			"Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These barbarians invite their enemies to attack them, and use pain to fuel their rage. An invulnerable rager has the following class features.",
 			"",
 			"**Invulnerability (Ex):** At 2nd level, the invulnerable rager gains DR/- equal to half her barbarian level. This damage reduction is doubled against nonlethal damage. This ability replaces uncanny dodge, improved uncanny dodge, and damage reduction.",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Jungle Rager",
 			"",
-			"**Source** [Inner Sea Combat pg. 39](source/inner_sea_combat)  ",
+			"{SOURCE Inner Sea Combat/39}  ",
 			"More \"civilized\" folk sometimes scoff at the people of the Mwangi Expanse, dismissing them as primitives with inferior technology. Although some tribes do rely on wood and bone over metal, their greatest advantage comes from mastery of the terrain. A jungle rager can disappear from sight, strike from hiding, and use the environment to shield herself from harm.",
 			"",
 			"**Home Ground Advantage (Ex):** At 2nd level, a jungle rager learns how to make optimal use of the natural cover of her homeland. She chooses a specific terrain type from the ranger list of favored terrains. When in this terrain, she increases her bonus to AC and on Reflex saving throws gained from cover, partial cover, and improved cover (but not soft cover) by 1. In this terrain, she also increases the miss chance caused by concealment for attacks against her by 5%. This ability replaces uncanny dodge.",
@@ -467,7 +467,7 @@
 		"description": [
 			"## Mad Dog",
 			"",
-			"**Source** [Animal Archive pg. 7](source/animal_archive)  ",
+			"{SOURCE Animal Archive/7}  ",
 			"Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of beasts as their battle brethren.",
 			"",
 			"**War Beast (Ex):** At 1st level, a mad dog gains the service of an [animal companion](ability/druid_companions), using the barbarian's level as her effective druid level. This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.",
@@ -491,7 +491,7 @@
 		"description": [
 			"## Mooncursed",
 			"",
-			"**Source** [Horror Adventures pg. 47](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/47}  ",
 			"Some barbarians exhibit an unusual form of lycanthropy powered by their fury. Such a character transforms willfully but can maintain her animal or hybrid forms only while raging.",
 			"",
 			"**Race:** A mooncursed must either be a humanoid or monstrous humanoid.",
@@ -519,7 +519,7 @@
 		"description": [
 			"## Mounted Fury",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/79}  ",
 			"Many barbarian tribes are masters of the horse, teaching their members how to ride from a young age. As a result, barbarians from such tribes are even more terrifying when mounted, using their steeds' speed and strength to great advantage. A mounted fury has the following class features.",
 			"",
 			"**Fast Rider (Ex):** The speed of any mount the barbarian rides is increased by 10 feet. This ability replaces fast movement.",
@@ -535,7 +535,7 @@
 		"description": [
 			"## Numerian Liberator",
 			"",
-			"**Source** [People of the River pg. 6](source/people_of_the_river)  ",
+			"{SOURCE People of the River/6}  ",
 			"The Kellid barbarians that roam Numeria's badlands have a healthy mistrust of technology and its corruptive influence. Since the cataclysmic Rain of Stars millennia ago, these warriors have developed numerous techniques and skills to protect themselves from the strange mechanical monsters that roam Numeria. While many native Kellids oppose the Technic League and its espousal of foul alien artifacts, the most stalwart and staunchly dedicated of these technophobic traditionalists refer to themselves as Numerian liberators.",
 			"",
 			"**Class Skill:** A Numerian liberator gains Stealth as a class skill and removes Climb from her list of barbarian class skills.",
@@ -555,7 +555,7 @@
 		"description": [
 			"## Pack Hunter",
 			"",
-			"**Source** [Ultimate Wilderness pg. 38](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/38}  ",
 			"Pack hunter barbarians team up to hunt dangerous prey to feed, to protect their camps, and as a rite of passage. Often, a tribe of pack hunters looks to a specific species of animal (such as wolves) who themselves hunt in packs, and view these animals as sacred manifestations of their people's traditions and values.",
 			"",
 			"**Bonus Feats:** Whenever a pack hunter would gain a new rage power, she can instead select a [teamwork feat](main/feats_teamwork). She must still meet the prerequisites for the teamwork feat.",
@@ -579,7 +579,7 @@
 		"description": [
 			"## Pack Rager",
 			"",
-			"**Source** [Monster Codex pg. 92](source/monster_codex)  ",
+			"{SOURCE Monster Codex/92}  ",
 			"Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. While such uncontrolled displays of carnage often disregard group tactics, there are those barbarians whose rages inspire and spur on their allies during the ferocious dance of death.",
 			"",
 			"**Bonus Feat:** At 2nd level and every 4 levels thereafter, the pack rager can take a bonus [teamwork feat](main/feats_teamwork). This teamwork feat must also be a combat feat. This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.",
@@ -601,7 +601,7 @@
 		"description": [
 			"## Primal Hunter",
 			"",
-			"**Source** [Ranged Tactics Toolbox pg. 11](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/11}  ",
 			"Rather than exploding with anger, primal hunters focus their rage to strike distant targets. Though able to hold their own in melee, primal hunters specialize in using some of the oldest of ranged weapons: bows, slings, and spears.",
 			"",
 			"**Exceptional Pull:** At 1st level, a primal hunter gains [Exceptional Pull](feat/exceptional_pull) as a bonus feat, even if she doesn't meet the requirements. At 11th and 20th levels, the strength rating of weapons she wields increases by 1 (weapons without a strength rating are not affected). This ability replaces fast movement.",
@@ -620,7 +620,7 @@
 		"description": [
 			"## Raging Cannibal",
 			"",
-			"**Source** [Ultimate Wilderness pg. 38](source/ultimate_wilderness), [Champions of Corruption pg. 27](source/champions_of_corruption)  ",
+			"{SOURCE Ultimate Wilderness/38;Champions of Corruption/27}  ",
 			"While savagery is not inherently evil, some barbaric cultures thrive on depravity and welcome the act of feeding on their own kind. The raging cannibal is a barbarian who feasts upon her fallen opponents not out of hunger, or even a taste for flesh, but rather because she believes consuming her foes and defiling their lost lives demonstrates her strength. This penchant for feasting on the flesh of her kin makes the raging cannibal an awkward companion to travel with for many groups, with rumors revolving around the raging cannibal's culinary exploits often causing tense situations that other party members might be called upon to resolve via diplomacy before the raging cannibal grows frustrated and decides to take matters into her own hands!",
 			"",
 			"**Animal Fury:** At 2nd level, a raging cannibal must select animal fury as her first rage power.",
@@ -652,7 +652,7 @@
 		"description": [
 			"## Savage Barbarian",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/79}  ",
 			"Some barbarians are truly savage, having little training in modern arms. These savage barbarians learn to avoid blows and toughen up their skin. A savage barbarian has the following class features.",
 			"",
 			"**Naked Courage (Ex):** At 3rd level, the savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving throws against fear when wearing no armor (shields are allowed). This bonus increases by +1 for every six levels after 3rd. This ability replaces trap sense.",
@@ -668,7 +668,7 @@
 		"description": [
 			"## Savage Technologist",
 			"",
-			"**Source** [Technology Guide pg. 13](source/technology_guide)  ",
+			"{SOURCE Technology Guide/13}  ",
 			"Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But rather than rejecting technology, they wield the League's own weapons against it. A savage technologist has the following class features.",
 			"",
 			"**Class skills:** Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (local) (Int), Perception (Wis), Sense Motive Wis), Ride (Dex), Survival (Wis), and Swim (Str).",
@@ -690,7 +690,7 @@
 		"description": [
 			"## Scarred Rager",
 			"",
-			"**Source** [Ultimate Combat pg. 29](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/29}  ",
 			"Some barbarians wear marks of prowess and savagery upon their bodies. The scarred rager believes each wound tells the tales of her prowess and bravery. She augments these ragged trophies with brands and tattoos in order to win the notice and favor of her gods, ancestors, or totem spirits. The scarred rager's gnarled and exotic appearance terrifies civilized onlookers, but is awe-inspiring to her savage kin.",
 			"",
 			"**Terrifying Visage (Ex):** A scarred rager adds 1/2 her barbarian level on Intimidate checks against humanoids who are not members of barbarian tribes. When dealing with barbarians, the scarred rager may choose to add this bonus on Diplomacy checks instead. The DC of any fear effect created by the scarred rager also increases by 1. This ability replaces fast movement.",
@@ -710,7 +710,7 @@
 		"description": [
 			"## Sea Reaver",
 			"",
-			"**Source** [Ultimate Combat pg. 29](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/29}  ",
 			"Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and coasts, pillaging those who hoard treasure and pursuing monsters of the deep. Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships.",
 			"",
 			"**Weapon and Armor Proficiency:** A sea reaver is not proficient with medium armor.",
@@ -732,7 +732,7 @@
 		"description": [
 			"## Sharptooth",
 			"",
-			"**Source** [Ultimate Wilderness pg. 39](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/39}  ",
 			"Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea. Sharks, in particular, are respected and admired by many such tribes, if not as manifestations of divine power, then merely as scions of the power and fury of the natural world.",
 			"",
 			"**Swim Like a Fish (Ex):** A sharptooth gains a swim speed of 10 feet. At 5th level and every 5 levels thereafter, her swim speed increases by 5 feet.",
@@ -760,7 +760,7 @@
 		"description": [
 			"## Shoanti Burn Rider",
 			"",
-			"**Source** [Inner Sea Combat pg. 44](source/inner_sea_combat)  ",
+			"{SOURCE Inner Sea Combat/44}  ",
 			"The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti. Burn riders learn early on that speed and lightning-quick reactions are essential to avoid becoming trapped by the fickle whims of a raging emberstorm. They have an uncanny understanding of fire and can read the currents in the smoke.",
 			"",
 			"**Flame Runner (Ex):** At 1st level, once per rage, a burn rider can goad her mount into a burst of incredible speed. The mount's speed increases by 10 feet until the end of the burn rider's turn. This bonus to speed increases by 10 feet at 9th level and again at 15th level. This ability replaces fast movement.",
@@ -782,7 +782,7 @@
 		"description": [
 			"## Superstitious",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/79}  ",
 			"Many barbarians distrust magic. While most just shy away from magic, others focus their rage on users of such foul arts. These barbarians are naturally distrusting, and develop keen senses to protect them from harm. A superstitious barbarian has the following class features.",
 			"",
 			"**Sixth Sense (Ex):** At 3rd level, the superstitious barbarian gains a +1 bonus on initiative and a +1 insight bonus to AC during surprise rounds. This bonus increases by +1 for every three levels after 3rd. This ability replaces trap sense.",
@@ -798,7 +798,7 @@
 		"description": [
 			"## Titan Mauler",
 			"",
-			"**Source** [Ultimate Combat pg. 30](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/30}",
 			"",
 			"In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose-to bring low these massive foes. While her enemies' size makes the creatures strong, the titan mauler is even stronger, taking up weapons from her fallen foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her increased size and greater ferocity against her titanic foes.",
 			"",
@@ -821,7 +821,7 @@
 		"description": [
 			"## Totem Warrior",
 			"",
-			"**Source** [Advanced Player's Guide pg. 79](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/79}  ",
 			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem [rage powers](ability/rage_powers) that match their totem.",
 			"",
 			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): [animal fury](ragepower/animal_fury), [low-light vision](ragepower/low-light_vision), [night vision](ragepower/night_vision), [raging climber](ragepower/raging_climber), [raging leaper](ragepower/raging_leaper), [raging swimmer](ragepower/raging_swimmer), and [swift foot](ragepower/swift_foot)."
@@ -833,7 +833,7 @@
 		"description": [
 			"## True Primitive",
 			"",
-			"**Source** [Ultimate Combat pg. 30](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/30}  ",
 			"Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. They gain power from their truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence far from the pathetic softness of so-called civilization. Even when forced to mingle with civilization, the true primitive stays apart in both traditions and trappings.",
 			"",
 			"**Weapon and Armor Proficiency:** A true primitive is proficient with hide armor and armors made from bone. A true primitive is also proficient with bone shields and the following weapons: battleaxe, blowgun, club, greatclub, handaxe, longspear, shortspear, sling, and spear.",
@@ -853,7 +853,7 @@
 		"description": [
 			"## Untamed Rager",
 			"",
-			"**Source** [Dirty Tactics Toolbox pg. 15](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/15}  ",
 			"There are no rules in the wild. Some barbarians enter combat with only victory in mind and do anything in their power to achieve it.",
 			"",
 			"**Despicable Tactics:** At 2nd level, the untamed rager gains [Improved Dirty Trick](feat/improved_dirty_trick) as a bonus feat. This ability replaces uncanny dodge.",
@@ -871,7 +871,7 @@
 		"description": [
 			"## Urban Barbarian",
 			"",
-			"**Source** [Ultimate Combat pg. 31](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/31}  ",
 			"Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and upbringing to move with the ebb and flow of civilization's natural rhythms.",
 			"",
 			"**Weapon and Armor Proficiency:** An urban barbarian is not proficient with medium armor.",
@@ -893,7 +893,7 @@
 		"description": [
 			"## Wild Rager",
 			"",
-			"**Source** [Ultimate Combat pg. 31](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/31}  ",
 			"Rages are barely controlled, but there are those who wholly give in to their more savage side, letting their rages take them to a confusing and uncontrolled place of terrible savagery. These barbarians become beasts, consumed with absolute bloodlust to the point where they cannot tell friend from foe.",
 			"",
 			"**Uncontrolled Rage (Ex):** A wild rager's rage functions as normal, except that when she reduces a creature to 0 or fewer hit points, she must attempt a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or become confused. For the remainder of her current turn, she attacks the nearest creature other than herself. On the following round, refer to the [confusion](spell/confusion) spell to determine her actions. At the end of this round, and each round thereafter, she can attempt a new saving throw to end the [confusion](spell/confusion) effect. The rounds during which she is confused do not count against the rounds she has spent raging that day, but she cannot end her rage voluntarily, nor can she use rage powers while confused.",
@@ -911,7 +911,7 @@
 		"description": [
 			"## Wildborn",
 			"",
-			"**Source** [Ultimate Wilderness pg. 39](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/39}  ",
 			"Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive without ever seeing a forge or worked stone, and only dare a trip into the city when no other option is available.",
 			"",
 			"**Weapon and Armor Proficiency:** A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. In addition, a wildborn gains [Improved Unarmed Strike](feat/improved_unarmed_strike) and [Catch Off-Guard](feat/catch_off-guard) as bonus feats at 1st level. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.",

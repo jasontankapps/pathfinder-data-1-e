@@ -5,7 +5,7 @@
 		"description": [
 			"## Egorian Diplomacy",
 			"",
-			"**Source** [Spymaster's Handbook pg. 28](source/spymasters_handbook)  ",
+			"{SOURCE Spymaster's Handbook/28}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 1, cleric 1, inquisitor 1, magus 1, mesmerist 1, oracle 1, psychic 1, skald 1, warpriest 1",
 			"",
 			"### Casting",
@@ -31,7 +31,7 @@
 		"description": [
 			"## Eldritch Conduit",
 			"",
-			"**Source** [Inner Sea Magic pg. 54](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/54}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, redmantisassassin 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -52,7 +52,7 @@
 			"",
 			"### Eldritch Conduit, Greater",
 			"",
-			"**Source** [Inner Sea Magic pg. 54](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/54}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 6, sorcerer 6, witch 6, wizard 6",
 			"",
 			"#### Casting",
@@ -83,7 +83,7 @@
 		"description": [
 			"## Eldritch Fever",
 			"",
-			"**Source** [Ultimate Magic pg. 218](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/218}  ",
 			"**School** [necromancy](spelldef/necromancy) [[curse](spelldef/curse), [disease](spelldef/disease), [evil](spelldef/evil)]; **Level** arcanist 3, inquisitor 3, psychic 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -107,7 +107,7 @@
 		"description": [
 			"## Elemental Assessor",
 			"",
-			"**Source** [Chronicle of the Righteous pg. 50](source/chronicle_of_the_righteous)  ",
+			"{SOURCE Chronicle of the Righteous/50}  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), [fire](spelldef/fire)]; **Level** arcanist 6, cleric 6, oracle 6, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"### Casting",
@@ -131,7 +131,7 @@
 		"description": [
 			"## Elemental Aura",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/218}  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 3, arcanist 3, bloodrager 3, investigator 3, magus 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -168,7 +168,7 @@
 		"description": [
 			"## Elemental Body I",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 275](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/275}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 4, arcanist 4, bloodrager 4, investigator 4, magus 4, redmantisassassin 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -194,7 +194,7 @@
 			"",
 			"### Mythic Elemental Body I",
 			"",
-			"**Source** [Mythic Adventures pg. 92](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/92}",
 			"",
 			"Each mythic elemental body spell must be learned individually, and you must know the respective non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic elemental body spell before you learn a higher-level one (for example, you can learn mythic elemental body II if you know elemental body II, even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a normal hit, as if you were wearing medium fortification armor.",
 			"",
@@ -202,7 +202,7 @@
 			"",
 			"### Elemental Body II",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 276](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/276}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 5, arcanist 5, investigator 5, magus 5, sorcerer 5, wizard 5",
 			"",
 			"#### Casting",
@@ -228,7 +228,7 @@
 			"",
 			"### Mythic Elemental Body II",
 			"",
-			"**Source** [Mythic Adventures pg. 92](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/92}",
 			"",
 			"Each mythic elemental body spell must be learned individually, and you must know the respective non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic elemental body spell before you learn a higher-level one (for example, you can learn mythic elemental body II if you know elemental body II, even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a normal hit, as if you were wearing medium fortification armor.",
 			"",
@@ -236,7 +236,7 @@
 			"",
 			"### Elemental Body III",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 276](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/276}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 6, arcanist 6, investigator 6, magus 6, sorcerer 6, wizard 6",
 			"",
 			"#### Casting",
@@ -262,7 +262,7 @@
 			"",
 			"### Mythic Elemental Body III",
 			"",
-			"**Source** [Mythic Adventures pg. 92](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/92}",
 			"",
 			"Each mythic elemental body spell must be learned individually, and you must know the respective non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic elemental body spell before you learn a higher-level one (for example, you can learn mythic elemental body II if you know elemental body II, even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a normal hit, as if you were wearing medium fortification armor.",
 			"",
@@ -270,7 +270,7 @@
 			"",
 			"### Elemental Body IV",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 277](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/277}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 7, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -296,7 +296,7 @@
 			"",
 			"### Mythic Elemental Body IV",
 			"",
-			"**Source** [Mythic Adventures pg. 92](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/92}",
 			"",
 			"Each mythic elemental body spell must be learned individually, and you must know the respective non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic elemental body spell before you learn a higher-level one (for example, you can learn mythic elemental body II if you know elemental body II, even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a normal hit, as if you were wearing medium fortification armor.",
 			"",
@@ -336,7 +336,7 @@
 		"description": [
 			"## Elemental Bombardment",
 			"",
-			"**Source** [Mythic Origins pg. 14](source/mythic_origins)  ",
+			"{SOURCE Mythic Origins/14}  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)) [see text]; **Level** arcanist 7, druid 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -374,7 +374,7 @@
 			"",
 			"### Mythic Elemental Bombardment",
 			"",
-			"**Source** [Mythic Origins pg. 14](source/mythic_origins)",
+			"{SOURCE Mythic Origins/14}",
 			"",
 			"If you expend one use of mythic power, you can summon a combination of differently sized elementals of up to two different types, as long as their total number does not exceed the original limit. For example, you could summon one Huge air elemental and two Large fire elementals, or one Large water elemental and six Medium earth elementals.",
 			"",
@@ -387,7 +387,7 @@
 		"description": [
 			"## Elemental Mastery",
 			"",
-			"**Source** [Inner Sea Races pg. 219](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/219}  ",
 			"**School** [transmutation](spelldef/transmutation) [see text]; **Level** arcanist 4, bloodrager 4, druid 4, hunter 4, magus 4, ranger 4, sorcerer 4, wizard 4 (Ifrit, Oread, Suli, Sylph, Undine)",
 			"",
 			"### Casting",
@@ -417,7 +417,7 @@
 		"description": [
 			"## Elemental Speech",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/218}  ",
 			"**School** [divination](spelldef/divination) [[air](spelldef/air), [earth](spelldef/earth), [fire](spelldef/fire), or [water](spelldef/water)]; **Level** arcanist 2, bard 3, cleric 3, druid 2, hunter 2, mesmerist 3, oracle 3, skald 3, sorcerer 2, warpriest 3, wizard 2",
 			"",
 			"### Casting",
@@ -448,7 +448,7 @@
 		"description": [
 			"## Elemental Swarm",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 277](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/277}  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)); **Level** druid 9, shaman 9, witch 9",
 			"",
 			"### Casting",
@@ -478,7 +478,7 @@
 		"description": [
 			"## Elemental Touch",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/218}  ",
 			"**School** [evocation](spelldef/evocation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** alchemist 2, arcanist 2, bloodrager 2, investigator 2, magus 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -512,7 +512,7 @@
 		"description": [
 			"## Elude Time",
 			"",
-			"**Source** [Advanced Player's Guide pg. 218](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/218}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 5, investigator 5, psychic 7",
 			"",
 			"### Casting",
@@ -535,7 +535,7 @@
 		"description": [
 			"## Emblazon Crest",
 			"",
-			"**Source** [Knights of the Inner Sea pg. 28](source/knights_of_the_inner_sea)  ",
+			"{SOURCE Knights of the Inner Sea/28}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, magus 1, paladin 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -559,7 +559,7 @@
 		"description": [
 			"## Emblem of Greed",
 			"",
-			"**Source** [Arcane Anthology pg. 20](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/20}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 6, cleric 6, inquisitor 6, magus 6, medium 6, oracle 6, shaman 7, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"### Casting",
@@ -585,7 +585,7 @@
 		"description": [
 			"## Embrace Destiny",
 			"",
-			"**Source** [Lost Kingdoms pg. 12](source/lost_kingdoms)  ",
+			"{SOURCE Lost Kingdoms/12}  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 2, oracle 1, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -608,7 +608,7 @@
 		"description": [
 			"## Emergency Force Sphere",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 23](source/cheliax_empire_of_devils)  ",
+			"{SOURCE Cheliax, Empire of Devils/23}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -632,7 +632,7 @@
 		"description": [
 			"## Emotive Block",
 			"",
-			"**Source** [Occult Adventures pg. 169](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/169}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** mesmerist 2, psychic 3, spiritualist 2",
 			"",
 			"### Casting",
@@ -658,7 +658,7 @@
 		"description": [
 			"## Empathy Conduit",
 			"",
-			"**Source** [Familiar Folio pg. 23](source/familiar_folio)  ",
+			"{SOURCE Familiar Folio/23}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 5, shaman 5, sorcerer 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -684,7 +684,7 @@
 		"description": [
 			"## Empower Holy Water",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/26}  ",
 			"**School** [transmutation](spelldef/transmutation) [[good](spelldef/good)]; **Level** alchemist 2, bard 2, investigator 2, paladin 1, skald 2",
 			"",
 			"### Casting",
@@ -708,7 +708,7 @@
 		"description": [
 			"## Enchantment Foil",
 			"",
-			"**Source** [Advanced Class Guide pg. 180](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/180}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 4, arcanist 4, cleric 4, inquisitor 4, investigator 4, mesmerist 3, occultist 4, oracle 4, psychic 4, sorcerer 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -731,7 +731,7 @@
 		"description": [
 			"## Enchantment Sight",
 			"",
-			"**Source** [Heroes of the High Court pg. 10](source/heroes_of_the_high_court)  ",
+			"{SOURCE Heroes of the High Court/10}  ",
 			"**School** [divination](spelldef/divination); **Level** alchemist 2, arcanist 2, bard 2, cleric 2, inquisitor 2, investigator 2, medium 2, mesmerist 2, occultist 2, oracle 2, paladin 2, psychic 2, skald 2, sorcerer 2, spiritualist 2, warpriest 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -758,7 +758,7 @@
 		"description": [
 			"## Endothermic Touch",
 			"",
-			"**Source** [Monster Codex pg. 141](source/monster_codex)  ",
+			"{SOURCE Monster Codex/141}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, druid 1, hunter 1, shaman 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -786,7 +786,7 @@
 		"description": [
 			"## Endure Elements",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 277](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/277}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** adept 1, alchemist 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, paladin 1, psychic 1, ranger 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -807,13 +807,13 @@
 			"",
 			"### Mythic Endure Elements",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The target changes to one creature touched per level. Affected creatures gain cold resistance 5 and fire resistance 5. They're not slowed by snow, and ignore penalties on Perception checks and ranged weapon attacks from hail, rain, sleet, and snow. They treat wind as one category weaker.",
 			"",
 			"### Endure Elements, Communal",
 			"",
-			"**Source** [Ultimate Combat pg. 228](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/228}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 3, arcanist 2, cleric 2, druid 2, hunter 2, investigator 3, oracle 2, paladin 2, psychic 2, ranger 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"#### Casting",
@@ -847,7 +847,7 @@
 		"description": [
 			"## Enemy Hammer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 219](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/219}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 6, occultist 6, psychic 6, sorcerer 6, spiritualist 6, wizard 6",
 			"",
 			"### Casting",
@@ -880,7 +880,7 @@
 			"",
 			"### Mythic Enemy Hammer",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The target becomes entangled whether or not it succeeds at its saving throw. When using the target as a weapon, add half your tier to your attack roll, and add your tier to the damage roll.",
 			"",
@@ -893,7 +893,7 @@
 		"description": [
 			"## Enemy Insight",
 			"",
-			"**Source** [Advanced Class Guide pg. 181](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/181}  ",
 			"**School** [divination](spelldef/divination); **Level** hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -920,7 +920,7 @@
 		"description": [
 			"## Enemy's Heart",
 			"",
-			"**Source** [Advanced Race Guide pg. 143](source/advanced_race_guide), [Orcs of Golarion pg. 28](source/orcs_of_golarion)  ",
+			"{SOURCE Advanced Race Guide/143;Orcs of Golarion/28}  ",
 			"**School** [necromancy](spelldef/necromancy) [[death](spelldef/death), [evil](spelldef/evil)]; **Level** adept 2, antipaladin 2, cleric 2, oracle 2, warpriest 2, witch 2 (orc)",
 			"",
 			"### Casting",
@@ -944,7 +944,7 @@
 		"description": [
 			"## Energy Drain",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 277](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/277}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 9, cleric 9, oracle 9, shaman 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -970,7 +970,7 @@
 		"description": [
 			"## Energy Hack",
 			"",
-			"**Source** [Advanced Class Origins pg. 31](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/31}  ",
 			"**School** [transmutation](spelldef/transmutation) [[acid](spelldef/acid), [cold](spelldef/cold), [electricity](spelldef/electricity), or [fire](spelldef/fire)]; **Level** arcanist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -995,7 +995,7 @@
 		"description": [
 			"## Energy Siege Shot",
 			"",
-			"**Source** [Ultimate Combat pg. 228](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/228}  ",
 			"**School** [transmutation](spelldef/transmutation) [variable]; **Level** arcanist 5, occultist 5, sorcerer 5, summoner 5, wizard 5",
 			"",
 			"### Casting",
@@ -1026,7 +1026,7 @@
 			"",
 			"### Energy Siege Shot, Greater",
 			"",
-			"**Source** [Ultimate Combat pg. 229](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/229}  ",
 			"**School** [transmutation](spelldef/transmutation) [variable]; **Level** arcanist 6, occultist 6, sorcerer 6, summoner 6, wizard 6",
 			"",
 			"#### Casting",
@@ -1060,7 +1060,7 @@
 		"description": [
 			"## Enervation",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 277](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/277}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, bloodrager 4, mesmerist 4, sorcerer 4, spiritualist 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -1083,7 +1083,7 @@
 			"",
 			"### Mythic Enervation",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The number of negative levels inflicted increases to 1d6, and the target is sickened for 24 hours. An undead creature struck by the ray gains 1d6 &times; 5 temporary hit points for a number of hours equal to your caster level.",
 			"",
@@ -1099,7 +1099,7 @@
 		"description": [
 			"## Enhance Water",
 			"",
-			"**Source** [Inner Sea Gods pg. 233](source/inner_sea_gods), [Faiths of Purity pg. 28](source/faiths_of_purity)  ",
+			"{SOURCE Inner Sea Gods/233;Faiths of Purity/28}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 1, cleric 1, oracle 1, paladin 1, skald 1, warpriest 1 (Cayden Cailean)",
 			"",
 			"### Casting",
@@ -1125,7 +1125,7 @@
 		"description": [
 			"## Enhanced Diplomacy",
 			"",
-			"**Source** [Taldor, Echoes of Glory pg. 24](source/taldor_echoes_of_glory)  ",
+			"{SOURCE Taldor, Echoes of Glory/24}  ",
 			"**School** [divination](spelldef/divination); **Level** cleric 0, druid 0, hunter 0, oracle 0, warpriest 0",
 			"",
 			"### Casting",
@@ -1152,7 +1152,7 @@
 		"description": [
 			"## Enlarge Person",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 277](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/277}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, arcanist 1, bloodrager 1, investigator 1, magus 1, medium 1, occultist 1, psychic 1, redmantisassassin 1, sorcerer 1, summoner 1, unchained summoner 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -1183,13 +1183,13 @@
 			"",
 			"### Mythic Enlarge Person",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"You can increase the target's size by up to two size categories, to a maximum of Huge. If the target grows two sizes, its weight increases by a factor of 25, it gains a +4 size bonus to Strength, and takes a -4 size penalty to Dexterity and a -2 penalty on attack rolls and to AC because of its increased size. A Medium humanoid creature whose size increases to Huge has a space of 15 feet and a natural reach of 10 feet. Mythic enlarge person counters and dispels mythic reduce person.",
 			"",
 			"### Enlarge Person, Mass",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 278](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/278}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 4, bloodrager 4, magus 4, psychic 4, redmantisassassin 4, sorcerer 4, summoner 3, unchained summoner 4, wizard 4",
 			"",
 			"#### Casting",
@@ -1220,7 +1220,7 @@
 		"description": [
 			"## Enlarge Tail",
 			"",
-			"**Source** [Kobolds of Golarion pg. 27](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/27}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, antipaladin 1, arcanist 1, druid 1, hunter 1, investigator 1, magus 1, redmantisassassin 1, sorcerer 1, summoner 1, unchained summoner 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -1243,7 +1243,7 @@
 		"description": [
 			"## Enlightened Step",
 			"",
-			"**Source** [Divine Anthology pg. 12](source/divine_anthology)  ",
+			"{SOURCE Divine Anthology/12}  ",
 			"**School** [transmutation](spelldef/transmutation) [[air](spelldef/air), [meditative](spelldef/meditative)]; **Level** cleric 6, druid 6, shaman 6, warpriest 6",
 			"",
 			"### Casting",
@@ -1269,7 +1269,7 @@
 		"description": [
 			"## Enshroud Thoughts",
 			"",
-			"**Source** [Occult Adventures pg. 169](source/occult_adventures), [Blood of the Elements pg. 13](source/blood_of_the_elements)  ",
+			"{SOURCE Occult Adventures/169;Blood of the Elements/13}  ",
 			"**School** [abjuration](spelldef/abjuration) [[mind-affecting](spelldef/mindaffecting)]; **Level** alchemist 2, bard 2, hunter 3, inquisitor 2, investigator 2, medium 2, mesmerist 2, psychic 2, ranger 3, shaman 2, skald 2, witch 2",
 			"",
 			"### Casting",
@@ -1299,7 +1299,7 @@
 		"description": [
 			"## Entangle",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 278](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/278}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 1, hunter 1, ranger 1, shaman 1",
 			"",
 			"### Casting",
@@ -1320,13 +1320,13 @@
 			"",
 			"### Mythic Entangle",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The spell functions in areas without any vegetation, causing plants to spring up out of the ground. These plants can reach creatures that are up to 10 feet in the air. Plants affected or created by the spell sprout thorns that deal 1d6 points of damage each round to creatures in the area.",
 			"",
 			"### Burning Entanglement",
 			"",
-			"**Source** [Villain Codex pg. 140](source/villain_codex)  ",
+			"{SOURCE Villain Codex/140}  ",
 			"**School** [evocation](spelldef/evocation); **Level** druid 3, hunter 3, ranger 3, shaman 3, witch 3",
 			"",
 			"#### Casting",
@@ -1345,7 +1345,7 @@
 			"",
 			"### Sickening Entanglement",
 			"",
-			"**Source** [Advanced Class Guide pg. 192](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/192}  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** druid 2, hunter 2, ranger 2, shaman 2",
 			"",
 			"#### Casting",
@@ -1363,7 +1363,7 @@
 			"",
 			"### Thirsting Entanglement",
 			"",
-			"**Source** [Legacy of the First World pg. 17](source/legacy_of_the_first_world)  ",
+			"{SOURCE Legacy of the First World/17}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 4, hunter 4, ranger 4, shaman 4",
 			"",
 			"#### Casting",
@@ -1382,7 +1382,7 @@
 			"",
 			"### Thorny Entanglement",
 			"",
-			"**Source** [Advanced Class Guide pg. 196](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/196}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** druid 3, hunter 3, ranger 3, shaman 3, witch 3",
 			"",
 			"#### Casting",
@@ -1421,7 +1421,7 @@
 		"description": [
 			"## Enter Image",
 			"",
-			"**Source** [Advanced Player's Guide pg. 219](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/219}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, bard 2, cleric 3, medium 3, mesmerist 2, occultist 2, oracle 3, psychic 3, redmantisassassin 3, skald 2, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -1451,7 +1451,7 @@
 		"description": [
 			"## Enthrall",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 278](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/278}  ",
 			"**School** [enchantment](spelldef/enchantment) ([charm](spelldef/charm)) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting), [sonic](spelldef/sonic)]; **Level** bard 2, cleric 2, inquisitor 2, mesmerist 2, oracle 2, psychic 2, shaman 2, skald 2, warpriest 2, witch 2",
 			"",
 			"### Casting",
@@ -1494,7 +1494,7 @@
 		"description": [
 			"## Entice Fey, Lesser",
 			"",
-			"**Source** [Ultimate Intrigue pg. 213](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/213}  ",
 			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)); **Level** bard 4, druid 5, hunter 4, medium 3, ranger 4, shaman 5, skald 4",
 			"",
 			"### Casting",
@@ -1513,7 +1513,7 @@
 			"",
 			"### Entice Fey",
 			"",
-			"**Source** [Ultimate Intrigue pg. 213](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/213}  ",
 			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)); **Level** bard 6, druid 7, shaman 7, skald 6",
 			"",
 			"#### Casting",
@@ -1532,7 +1532,7 @@
 			"",
 			"### Entice Fey, Greater",
 			"",
-			"**Source** [Ultimate Intrigue pg. 213](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/213}  ",
 			"**School** [conjuration](spelldef/conjuration) ([calling](spelldef/calling)); **Level** druid 9, shaman 9",
 			"",
 			"#### Casting",
@@ -1559,7 +1559,7 @@
 		"description": [
 			"## Enticing Adulation",
 			"",
-			"**Source** [Agents of Evil pg. 30](source/agents_of_evil)  ",
+			"{SOURCE Agents of Evil/30}  ",
 			"**School** [enchantment](spelldef/enchantment) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 3, skald 3, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -1585,7 +1585,7 @@
 		"description": [
 			"## Entomb",
 			"",
-			"**Source** [Heroes of the Darklands pg. 20](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/20}  ",
 			"**School** [transmutation](spelldef/transmutation) [[earth](spelldef/earth)]; **Level** arcanist 8, druid 8, shaman 8, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -1613,7 +1613,7 @@
 		"description": [
 			"## Entrap Spirit",
 			"",
-			"**Source** [Occult Adventures pg. 170](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/170}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** medium 4, occultist 5, psychic 5, spiritualist 4",
 			"",
 			"### Casting",
@@ -1640,7 +1640,7 @@
 		"description": [
 			"## Entropic Shield",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 278](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/278}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 1, oracle 1, psychic 1, warpriest 1",
 			"",
 			"### Casting",
@@ -1658,7 +1658,7 @@
 			"",
 			"### Mythic Entropic Shield",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"When a ranged attack misses because of this spell, there is a 50% chance that the attack is redirected back at the attacker rather than just being deflected harmlessly. The attack uses the same result as the attack roll the attacker made against you."
 		]
@@ -1669,7 +1669,7 @@
 		"description": [
 			"## Envious Urge",
 			"",
-			"**Source** [Ultimate Magic pg. 218](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/218}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 6, bard 4, mesmerist 4, psychic 6, skald 4, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -1693,7 +1693,7 @@
 		"description": [
 			"## Epidemic",
 			"",
-			"**Source** [Ultimate Magic pg. 218](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/218}  ",
 			"**School** [necromancy](spelldef/necromancy) [[disease](spelldef/disease), [evil](spelldef/evil)]; **Level** arcanist 7, cleric 6, druid 6, hunter 6, oracle 6, sorcerer 7, warpriest 6, witch 6, wizard 7",
 			"",
 			"### Casting",
@@ -1717,7 +1717,7 @@
 		"description": [
 			"## Erase",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 279](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/279}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, bard 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -1743,7 +1743,7 @@
 		"description": [
 			"## Erase Impressions",
 			"",
-			"**Source** [Occult Adventures pg. 170](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/170}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** medium 3, mesmerist 4, occultist 3, psychic 5, spiritualist 4",
 			"",
 			"### Casting",
@@ -1769,7 +1769,7 @@
 		"description": [
 			"## Erode Defenses",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 29](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/29}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, magus 2, redmantisassassin 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1793,7 +1793,7 @@
 		"description": [
 			"## Eroding Ray",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 30](source/plane-hoppers_handbook)  ",
+			"{SOURCE Plane-Hopper's Handbook/30}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -1817,7 +1817,7 @@
 		"description": [
 			"## Eruptive Pustules",
 			"",
-			"**Source** [Ultimate Magic pg. 218](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/218}  ",
 			"**School** [transmutation](spelldef/transmutation) [[acid](spelldef/acid)]; **Level** alchemist 3, arcanist 3, bloodrager 3, investigator 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -1841,7 +1841,7 @@
 		"description": [
 			"## Escaping Ward",
 			"",
-			"**Source** [Advanced Race Guide pg. 68](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/68}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 2, bard 2, hunter 2, inquisitor 2, magus 2, ranger 2, skald 2, sorcerer 2, wizard 2 (halfling)",
 			"",
 			"### Casting",
@@ -1864,7 +1864,7 @@
 		"description": [
 			"## Ether Step",
 			"",
-			"**Source** [Planar Adventures pg. 40](source/planar_adventures)  ",
+			"{SOURCE Planar Adventures/40}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 6, magus 5, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -1887,7 +1887,7 @@
 		"description": [
 			"## Ethereal Envelope",
 			"",
-			"**Source** [Occult Adventures pg. 170](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/170}  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** psychic 5, spiritualist 4",
 			"",
 			"### Casting",
@@ -1912,7 +1912,7 @@
 		"description": [
 			"## Ethereal Envelopment",
 			"",
-			"**Source** [Occult Adventures pg. 170](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/170}  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** psychic 7, spiritualist 5",
 			"",
 			"### Casting",
@@ -1938,7 +1938,7 @@
 		"description": [
 			"## Ethereal Fists",
 			"",
-			"**Source** [Occult Adventures pg. 171](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/171}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** magus 4, spiritualist 3",
 			"",
 			"### Casting",
@@ -1961,7 +1961,7 @@
 		"description": [
 			"## Ethereal Jaunt",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 279](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/279}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 7, cleric 7, oracle 7, psychic 6, sorcerer 7, summoner 5, unchained summoner 6, wizard 7",
 			"",
 			"### Casting",
@@ -1992,7 +1992,7 @@
 		"description": [
 			"## Etherealness",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 279](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/279}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 9, cleric 9, oracle 9, psychic 8, shaman 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -2018,7 +2018,7 @@
 		"description": [
 			"## Etheric Shards",
 			"",
-			"**Source** [Occult Adventures pg. 171](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/171}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** occultist 4, psychic 5, spiritualist 4",
 			"",
 			"### Casting",
@@ -2049,7 +2049,7 @@
 		"description": [
 			"## Euphoric Cloud",
 			"",
-			"**Source** [Advanced Class Guide pg. 181](source/advanced_class_guide), [Dark Markets - A Guide to Katapesh pg. 57](source/dark_markets_-_a_guide_to_katapesh)  ",
+			"{SOURCE Advanced Class Guide/181;Dark Markets - A Guide to Katapesh/57}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[poison](spelldef/poison)]; **Level** arcanist 2, druid 2, hunter 2, magus 2, mesmerist 2, psychic 2, sahirafiyun 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -2073,7 +2073,7 @@
 		"description": [
 			"## Euphoric Tranquility",
 			"",
-			"**Source** [Advanced Player's Guide pg. 219](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/219}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 8, bard 6, cleric 8, druid 8, mesmerist 6, oracle 8, psychic 8, skald 6, sorcerer 8, wizard 8",
 			"",
 			"### Casting",
@@ -2099,7 +2099,7 @@
 		"description": [
 			"## Evaluator's Lens",
 			"",
-			"**Source** [Black Markets pg. 30](source/black_markets)  ",
+			"{SOURCE Black Markets/30}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 3, inquisitor 2, sorcerer 3, summoner 2, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -2135,7 +2135,7 @@
 		"description": [
 			"## Evolution Surge, Lesser",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 2, unchained summoner 2",
 			"",
 			"### Casting",
@@ -2154,7 +2154,7 @@
 			"",
 			"### Evolution Surge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 3, unchained summoner 3",
 			"",
 			"#### Casting",
@@ -2173,7 +2173,7 @@
 			"",
 			"### Evolution Surge, Greater",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** summoner 4, unchained summoner 4",
 			"",
 			"#### Casting",
@@ -2200,7 +2200,7 @@
 		"description": [
 			"## Excruciating Deformation",
 			"",
-			"**Source** [Ultimate Magic pg. 219](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/219}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)) [[evil](spelldef/evil), [pain](spelldef/pain)]; **Level** arcanist 3, bloodrager 3, psychic 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -2224,7 +2224,7 @@
 		"description": [
 			"## Expeditious Construction",
 			"",
-			"**Source** [Arcane Anthology pg. 7](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/7}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[earth](spelldef/earth)]; **Level** arcanist 1, druid 1, hunter 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -2250,7 +2250,7 @@
 		"description": [
 			"## Expeditious Excavation",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** [transmutation](spelldef/transmutation) [[earth](spelldef/earth)]; **Level** arcanist 1, druid 1, hunter 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -2279,7 +2279,7 @@
 		"description": [
 			"## Expeditious Retreat",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 279](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/279}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, arcanist 1, bard 1, bloodrager 1, inquisitor 1, investigator 1, magus 1, medium 1, mesmerist 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, wizard 1",
 			"",
 			"### Casting",
@@ -2297,7 +2297,7 @@
 			"",
 			"### Mythic Expeditious Retreat",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The speed bonus from the spell increases to 40 feet. Add your tier to Acrobatics checks to avoid attacks of opportunity from movement, and when your movement provokes an attack of opportunity, add your tier to your AC against that attack."
 		]
@@ -2308,7 +2308,7 @@
 		"description": [
 			"## Expel Blood",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 13](source/elemental_masters_handbook)  ",
+			"{SOURCE Elemental Master's Handbook/13}  ",
 			"**School** [conjuration](spelldef/conjuration) [[evil](spelldef/evil), [water](spelldef/water)]; **Level** arcanist 7, sorcerer 7, summoner 6, unchained summoner 6, witch 7, wizard 7",
 			"",
 			"### Casting",
@@ -2334,7 +2334,7 @@
 		"description": [
 			"## Expend",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -2358,7 +2358,7 @@
 		"description": [
 			"## Explode Head",
 			"",
-			"**Source** [Occult Adventures pg. 171](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/171}  ",
 			"**School** [evocation](spelldef/evocation); **Level** arcanist 6, magus 6, psychic 5, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -2387,7 +2387,7 @@
 		"description": [
 			"## Explosion of Rot",
 			"",
-			"**Source** [Ultimate Wilderness pg. 229](source/ultimate_wilderness), [Champions of Balance pg. 25](source/champions_of_balance)  ",
+			"{SOURCE Ultimate Wilderness/229;Champions of Balance/25}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** druid 4, hunter 4",
 			"",
 			"### Casting",
@@ -2411,7 +2411,7 @@
 		"description": [
 			"## Explosive Runes",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 279](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/279}  ",
 			"**School** [abjuration](spelldef/abjuration) [[force](spelldef/force)]; **Level** arcanist 3, occultist 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -2439,7 +2439,7 @@
 		"description": [
 			"## Exquisite Accompaniment",
 			"",
-			"**Source** [Ultimate Magic pg. 219](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/219}  ",
 			"**School** [illusion](spelldef/illusion) ([shadow](spelldef/shadow_subschool)) [[shadow](spelldef/shadow_descriptor)]; **Level** bard 3, skald 3",
 			"",
 			"### Casting",
@@ -2463,7 +2463,7 @@
 		"description": [
 			"## Extreme Buoyancy",
 			"",
-			"**Source** [Aquatic Adventures pg. 59](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/59}  ",
 			"**School** [evocation](spelldef/evocation); **Level** alchemist 2, bard 2, druid 2, hunter 2, investigator 2, medium 2, occultist 2, psychic 2, ranger 2, shaman 2, skald 2, warpriest 2",
 			"",
 			"### Casting",
@@ -2487,7 +2487,7 @@
 		"description": [
 			"## Extreme Flexibility",
 			"",
-			"**Source** [Advanced Class Guide pg. 181](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/181}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, bloodrager 2, investigator 2, magus 2, medium 2, psychic 2, redmantisassassin 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -2510,7 +2510,7 @@
 		"description": [
 			"## Eyebite",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 280](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/280}  ",
 			"**School** [necromancy](spelldef/necromancy) [[emotion](spelldef/emotion), [pain](spelldef/pain)]; **Level** alchemist 6, arcanist 6, bard 6, investigator 6, mesmerist 6, skald 6, sorcerer 6, spiritualist 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -2550,7 +2550,7 @@
 		"description": [
 			"## Eyes of the Void",
 			"",
-			"**Source** [Advanced Class Guide pg. 181](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/181}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 4, antipaladin 4, arcanist 4, investigator 4, psychic 4, redmantisassassin 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -2573,7 +2573,7 @@
 		"description": [
 			"## Fable Tapestry",
 			"",
-			"**Source** [Inner Sea Races pg. 219](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/219}  ",
 			"**School** [illusion](spelldef/illusion) ([shadow](spelldef/shadow_subschool)) [[shadow](spelldef/shadow_descriptor)]; **Level** bard 5, skald 5 (Varisian)",
 			"",
 			"### Casting",
@@ -2604,7 +2604,7 @@
 		"description": [
 			"## Fabricate",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 280](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/280}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 5, occultist 5, psychic 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -2632,7 +2632,7 @@
 		"description": [
 			"## Fabricate Bullets",
 			"",
-			"**Source** [Ultimate Combat pg. 229](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/229}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, redmantisassassin 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -2656,7 +2656,7 @@
 		"description": [
 			"## Fabricate Disguise",
 			"",
-			"**Source** [Ultimate Intrigue pg. 214](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/214}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, antipaladin 1, arcanist 1, bard 1, inquisitor 1, investigator 1, psychic 1, skald 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -2683,7 +2683,7 @@
 		"description": [
 			"## Face of the Devourer",
 			"",
-			"**Source** [Inner Sea Gods pg. 233](source/inner_sea_gods), [Pathfinder #23: The Impossible Eye pg. 65](source/pathfinder_23_the_impossible_eye)  ",
+			"{SOURCE Inner Sea Gods/233;Pathfinder #23: The Impossible Eye/65}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, redmantisassassin 1, sorcerer 1, warpriest 1, wizard 1 (Rovagug)",
 			"",
 			"### Casting",
@@ -2712,7 +2712,7 @@
 		"description": [
 			"## Faerie Fire",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 280](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/280}  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** druid 1, hunter 1, mesmerist 1",
 			"",
 			"### Casting",
@@ -2731,7 +2731,7 @@
 			"",
 			"### Mythic Faerie Fire",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"Outlined creatures are dazzled. The spell outlines figment illusions in the burst, revealing them as such. This effect applies only to figments with a caster level equal to or less than your tier.",
 			"",
@@ -2744,7 +2744,7 @@
 		"description": [
 			"## Fair is Foul",
 			"",
-			"**Source** [Blood of the Coven pg. 21](source/blood_of_the_coven)  ",
+			"{SOURCE Blood of the Coven/21}  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** antipaladin 2, arcanist 4, cleric 3, oracle 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 3, witch 2, wizard 4",
 			"",
 			"### Casting",
@@ -2771,7 +2771,7 @@
 		"description": [
 			"## Fairness",
 			"",
-			"**Source** [Inner Sea Gods pg. 233](source/inner_sea_gods), [Faiths of Balance pg. 28](source/faiths_of_balance)  ",
+			"{SOURCE Inner Sea Gods/233;Faiths of Balance/28}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** cleric 1, inquisitor 2, oracle 1, paladin 2, warpriest 1 (Abadar)",
 			"",
 			"### Casting",
@@ -2795,7 +2795,7 @@
 		"description": [
 			"## Fairy Ring Retreat",
 			"",
-			"**Source** [Advanced Class Guide pg. 181](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/181}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** druid 7, shaman 7, witch 7",
 			"",
 			"### Casting",
@@ -2826,7 +2826,7 @@
 		"description": [
 			"## Fallback Strategy",
 			"",
-			"**Source** [Inner Sea Gods pg. 233](source/inner_sea_gods), [Gods and Magic pg. 39](source/gods_and_magic)  ",
+			"{SOURCE Inner Sea Gods/233;Gods and Magic/39}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 1, inquisitor 1, magus 1, oracle 1, paladin 1, warpriest 1 (Torag)",
 			"",
 			"### Casting",
@@ -2849,7 +2849,7 @@
 		"description": [
 			"## False Age",
 			"",
-			"**Source** [Heroes from the Fringe pg. 23](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/23}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, bard 2, investigator 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -2875,7 +2875,7 @@
 		"description": [
 			"## False Alibi",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #59: The Price of Infamy pg. 75](source/pathfinder_59_the_price_of_infamy)  ",
+			"{SOURCE Inner Sea Gods/234;Pathfinder #59: The Price of Infamy/75}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 3, cleric 3, inquisitor 3, oracle 3, skald 3, warpriest 3 (Norgorber)",
 			"",
 			"### Casting",
@@ -2899,7 +2899,7 @@
 		"description": [
 			"## False Belief",
 			"",
-			"**Source** [Ultimate Intrigue pg. 214](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/214}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 2, mesmerist 2, psychic 2, skald 2",
 			"",
 			"### Casting",
@@ -2923,7 +2923,7 @@
 		"description": [
 			"## False Face",
 			"",
-			"**Source** [Heroes of the High Court pg. 25](source/heroes_of_the_high_court)  ",
+			"{SOURCE Heroes of the High Court/25}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 1, arcanist 1, bard 1, inquisitor 1, investigator 1, mesmerist 1, skald 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -2946,7 +2946,7 @@
 		"description": [
 			"## False Future",
 			"",
-			"**Source** [Ultimate Intrigue pg. 214](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/214}  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 5, bard 3, cleric 4, medium 3, mesmerist 3, oracle 4, psychic 4, shaman 4, skald 3, sorcerer 5, spiritualist 4, warpriest 4, witch 4, wizard 5",
 			"",
 			"### Casting",
@@ -2976,7 +2976,7 @@
 		"description": [
 			"## False Life",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 280](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/280}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** alchemist 2, arcanist 2, bloodrager 2, investigator 2, medium 2, mesmerist 2, occultist 2, psychic 2, shaman 2, sorcerer 2, spiritualist 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -2994,13 +2994,13 @@
 			"",
 			"### Mythic False Life",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The temporary hit points gained increase to 2d8 + 2 per caster level (maximum +20). As an immediate action, you can dismiss the remaining duration of the spell to prevent 1 point of Strength, Dexterity, or Constitution damage per 10 temporary hit points remaining from the spell. This takes effect after the attack hits you and the damage is rolled, but before you take the damage. For example, if you have 22 temporary hit points from mythic false life and a wyvern stings you for 3 points of Constitution damage, you can dismiss the spell to prevent 2 points of Constitution damage from that attack.",
 			"",
 			"### False Life, Greater",
 			"",
-			"**Source** [Ultimate Magic pg. 219](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/219}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** alchemist 4, arcanist 4, bloodrager 4, investigator 4, medium 3, mesmerist 3, occultist 4, psychic 4, shaman 4, sorcerer 4, spiritualist 4, witch 4, wizard 4",
 			"",
 			"#### Casting",
@@ -3033,7 +3033,7 @@
 		"description": [
 			"## False Vision",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 280](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/280}  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 5, bard 5, medium 4, mesmerist 5, occultist 5, psychic 5, skald 5, sorcerer 5, spiritualist 5, wizard 5",
 			"",
 			"### Casting",
@@ -3052,7 +3052,7 @@
 			"",
 			"### False Vision, Greater",
 			"",
-			"**Source** [Ultimate Intrigue pg. 214](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/214}  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 7, bard 6, mesmerist 6, psychic 7, skald 6, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -3087,7 +3087,7 @@
 		"description": [
 			"## Familiar Figment",
 			"",
-			"**Source** [Animal Archive pg. 24](source/animal_archive)  ",
+			"{SOURCE Animal Archive/24}  ",
 			"**School** [illusion](spelldef/illusion) ([figment](spelldef/figment)); **Level** arcanist 2, redmantisassassin 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -3113,7 +3113,7 @@
 		"description": [
 			"## Familiar Melding",
 			"",
-			"**Source** [Ultimate Magic pg. 219](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/219}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, shaman 4, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3141,7 +3141,7 @@
 		"description": [
 			"## Fastidiousness",
 			"",
-			"**Source** [Disciple's Doctrine pg. 13](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/13}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 1, bard 1, cleric 1, mesmerist 1, occultist 1, oracle 1, paladin 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1",
 			"",
 			"### Casting",
@@ -3166,7 +3166,7 @@
 		"description": [
 			"## Fear",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 252](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/252}  ",
 			"**School** [necromancy](spelldef/necromancy) [[emotion](spelldef/emotion), [fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** antipaladin 4, arcanist 4, bard 3, bloodrager 4, inquisitor 4, medium 4, mesmerist 3, occultist 4, psychic 4, shaman 4, skald 3, sorcerer 4, spiritualist 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3190,7 +3190,7 @@
 		"description": [
 			"## Fear the Sun",
 			"",
-			"**Source** [Blood of Shadows pg. 15](source/blood_of_shadows)  ",
+			"{SOURCE Blood of Shadows/15}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** antipaladin 1, arcanist 2, bloodrager 1, cleric 2, druid 2, hunter 2, inquisitor 2, occultist 2, oracle 2, psychic 2, shaman 2, sorcerer 2, warpriest 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -3214,7 +3214,7 @@
 		"description": [
 			"## Fearsome Duplicate",
 			"",
-			"**Source** [Advanced Race Guide pg. 68](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/68}  ",
 			"**School** [illusion](spelldef/illusion) ([figment](spelldef/figment)); **Level** arcanist 3, bard 3, inquisitor 3, mesmerist 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, witch 3, wizard 3 (halfling)",
 			"",
 			"### Casting",
@@ -3247,7 +3247,7 @@
 		"description": [
 			"## Feast of Ashes",
 			"",
-			"**Source** [Advanced Player's Guide pg. 220](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** druid 2, hunter 2, occultist 2, psychic 2, witch 2",
 			"",
 			"### Casting",
@@ -3266,7 +3266,7 @@
 			"",
 			"### Mythic Feast of Ashes",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell's effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a heroes' feast spell (though the food is still used up when the target eats it)."
 		]
@@ -3277,7 +3277,7 @@
 		"description": [
 			"## Feast on Fear",
 			"",
-			"**Source** [Advanced Class Guide pg. 181](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/181}  ",
 			"**School** [necromancy](spelldef/necromancy) [[emotion](spelldef/emotion), [fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 5, bard 4, mesmerist 4, psychic 5, shaman 5, skald 4, sorcerer 5, spiritualist 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -3306,7 +3306,7 @@
 		"description": [
 			"## Feather Fall",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 281](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/281}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 1, bard 1, bloodrager 1, magus 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, wizard 1",
 			"",
 			"### Casting",
@@ -3331,7 +3331,7 @@
 			"",
 			"### Mythic Feather Fall",
 			"",
-			"**Source** [Mythic Adventures pg. 93](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/93}",
 			"",
 			"The spell affects one additional target per level. The targets don't have to be within 20 feet of each other.",
 			"",
@@ -3344,7 +3344,7 @@
 		"description": [
 			"## Feather Step",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 1, druid 1, hunter 1, psychic 1, ranger 1, skald 1",
 			"",
 			"### Casting",
@@ -3363,7 +3363,7 @@
 			"",
 			"### Feather Step, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 3, druid 3, hunter 3, psychic 3, ranger 3, skald 3",
 			"",
 			"#### Casting",
@@ -3394,7 +3394,7 @@
 		"description": [
 			"## Feeblemind",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 281](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/281}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 5, medium 4, mesmerist 5, psychic 5, sorcerer 5, spiritualist 5, witch 5, wizard 5",
 			"",
 			"### Casting",
@@ -3418,7 +3418,7 @@
 		"description": [
 			"## Ferment",
 			"",
-			"**Source** [Inner Sea Temples pg. 23](source/inner_sea_temples)  ",
+			"{SOURCE Inner Sea Temples/23}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, arcanist 1, bard 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -3442,7 +3442,7 @@
 		"description": [
 			"## Fester",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** inquisitor 3, witch 2",
 			"",
 			"### Casting",
@@ -3461,7 +3461,7 @@
 			"",
 			"### Fester, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** inquisitor 6, witch 6",
 			"",
 			"#### Casting",
@@ -3492,7 +3492,7 @@
 		"description": [
 			"## Fey Form I",
 			"",
-			"**Source** [Ultimate Wilderness pg. 229](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/229}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 3, arcanist 4, bloodrager 3, druid 3, hunter 3, investigator 3, magus 4, shaman 3, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3516,7 +3516,7 @@
 			"",
 			"### Fey Form II",
 			"",
-			"**Source** [Ultimate Wilderness pg. 229](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/229}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 5, arcanist 6, druid 5, hunter 5, investigator 5, magus 6, shaman 5, sorcerer 6, witch 6, wizard 6",
 			"",
 			"#### Casting",
@@ -3538,7 +3538,7 @@
 			"",
 			"### Fey Form III",
 			"",
-			"**Source** [Ultimate Wilderness pg. 230](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/230}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 6, arcanist 7, druid 6, hunter 6, investigator 6, shaman 6, sorcerer 7, witch 7, wizard 7",
 			"",
 			"#### Casting",
@@ -3560,7 +3560,7 @@
 			"",
 			"### Fey Form IV",
 			"",
-			"**Source** [Ultimate Wilderness pg. 230](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/230}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 9, druid 8, shaman 8, sorcerer 9, witch 9, wizard 9",
 			"",
 			"#### Casting",
@@ -3607,7 +3607,7 @@
 		"description": [
 			"## Fickle Winds",
 			"",
-			"**Source** [Ultimate Magic pg. 219](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/219}  ",
 			"**School** [transmutation](spelldef/transmutation) [[air](spelldef/air)]; **Level** arcanist 5, cleric 5, druid 5, hunter 3, oracle 5, ranger 3, sorcerer 5, spiritualist 5, warpriest 5, wizard 5",
 			"",
 			"### Casting",
@@ -3633,7 +3633,7 @@
 		"description": [
 			"## Fiendish Wrath",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 13](source/plane-hoppers_handbook)  ",
+			"{SOURCE Plane-Hopper's Handbook/13}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** alchemist 3, arcanist 4, bard 3, bloodrager 3, investigator 3, mesmerist 3, psychic 4, skald 3, sorcerer 4, summoner 3, unchained summoner 3, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -3657,7 +3657,7 @@
 		"description": [
 			"## Fiery Body",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -3682,7 +3682,7 @@
 		"description": [
 			"## Fiery Runes",
 			"",
-			"**Source** [Melee Tactics Toolbox pg. 30](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/30}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** alchemist 2, arcanist 2, bloodrager 2, druid 2, hunter 2, investigator 2, magus 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -3708,7 +3708,7 @@
 		"description": [
 			"## Fiery Shuriken",
 			"",
-			"**Source** [Ultimate Combat pg. 229](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/229}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[fire](spelldef/fire)]; **Level** arcanist 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -3734,7 +3734,7 @@
 		"description": [
 			"## Film of Filth",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_74_sword_of_valor)  ",
+			"{SOURCE Pathfinder #74: Sword of Valor/74}  ",
 			"**School** [transmutation](spelldef/transmutation) [[poison](spelldef/poison)]; **Level** arcanist 4, cleric 4, druid 4, hunter 3, oracle 4, ranger 3, redmantisassassin 4, sorcerer 4, warpriest 4, wizard 4",
 			"",
 			"### Casting",
@@ -3758,7 +3758,7 @@
 		"description": [
 			"## Final Sacrifice",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 22](source/monster_summoners_handbook)  ",
+			"{SOURCE Monster Summoner's Handbook/22}  ",
 			"**School** [evocation](spelldef/evocation); **Level** antipaladin 3, arcanist 3, bloodrager 2, cleric 3, oracle 3, shaman 3, sorcerer 3, summoner 2, warpriest 3, witch 4, wizard 3",
 			"",
 			"### Casting",
@@ -3782,7 +3782,7 @@
 		"description": [
 			"## Find Fault",
 			"",
-			"**Source** [Arcane Anthology pg. 24](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/24}  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, bard 3, bloodrager 3, inquisitor 3, magus 3, medium 3, oracle 3, psychic 3, shaman 3, skald 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -3806,7 +3806,7 @@
 		"description": [
 			"## Find Quarry",
 			"",
-			"**Source** [Ultimate Combat pg. 230](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/230}  ",
 			"**School** [divination](spelldef/divination); **Level** hunter 4, inquisitor 4, occultist 5, ranger 4",
 			"",
 			"### Casting",
@@ -3830,7 +3830,7 @@
 		"description": [
 			"## Find the Path",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 281](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/281}  ",
 			"**School** [divination](spelldef/divination); **Level** bard 6, cleric 6, druid 6, hunter 6, inquisitor 6, occultist 6, oracle 6, psychic 6, shaman 6, skald 6, spiritualist 6, warpriest 6, witch 6",
 			"",
 			"### Casting",
@@ -3856,7 +3856,7 @@
 		"description": [
 			"## Find Traps",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 281](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/281}  ",
 			"**School** [divination](spelldef/divination); **Level** cleric 2, inquisitor 2, medium 2, occultist 2, oracle 2, psychic 2, warpriest 2, witch 2",
 			"",
 			"### Casting",
@@ -3882,7 +3882,7 @@
 		"description": [
 			"## Finger of Death",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 282](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/282}  ",
 			"**School** [necromancy](spelldef/necromancy) [[death](spelldef/death)]; **Level** arcanist 7, druid 8, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -3901,7 +3901,7 @@
 			"",
 			"### Mythic Finger of Death",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt increases to 15 points of damage per caster level plus 1d8 points of Constitution damage. A creature that succeeds at its saving throw takes 3d8 points of damage + 1 point per caster level, takes 1d4 points of Constitution damage, and is staggered for 1 round."
 		]
@@ -3912,7 +3912,7 @@
 		"description": [
 			"## Fins to Feet",
 			"",
-			"**Source** [Advanced Race Guide pg. 195](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/195}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 3, druid 3, hunter 3, redmantisassassin 3, shaman 3, sorcerer 3, witch 3, wizard 3 (merfolk)",
 			"",
 			"### Casting",
@@ -3937,7 +3937,7 @@
 		"description": [
 			"## Fire Breath",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** alchemist 2, arcanist 2, bloodrager 2, investigator 2, magus 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -3961,7 +3961,7 @@
 		"description": [
 			"## Fire of Entanglement",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [evocation](spelldef/evocation); **Level** paladin 2",
 			"",
 			"### Casting",
@@ -3985,7 +3985,7 @@
 		"description": [
 			"## Fire of Judgment",
 			"",
-			"**Source** [Advanced Player's Guide pg. 221](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** [evocation](spelldef/evocation); **Level** paladin 3",
 			"",
 			"### Casting",
@@ -4009,7 +4009,7 @@
 		"description": [
 			"## Fire of Vengeance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/222}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** paladin 4",
 			"",
 			"### Casting",
@@ -4036,7 +4036,7 @@
 		"description": [
 			"## Fire Seeds",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 282](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/282}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[fire](spelldef/fire)]; **Level** druid 6, hunter 6, shaman 6",
 			"",
 			"### Casting",
@@ -4061,7 +4061,7 @@
 			"",
 			"### Mythic Fire Seeds",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"Each acorn's damage increases to 1d6 points of fire damage per caster level (maximum 20d6 for all acorns, no more than 10d6 for any particular acorn). Each holly berry's damage increases to 2d6 points of fire damage + 2 points per caster level. Any creature that fails its Reflex save against an acorn or holly berry catches on fire, taking 2d6 points of fire damage each round until the fire is extinguished. Attempts to extinguish this fire use the spell's save DC."
 		]
@@ -4075,7 +4075,7 @@
 		"description": [
 			"## Fire Shield",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 282](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/282}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire) or [cold](spelldef/cold)]; **Level** alchemist 4, arcanist 4, bloodrager 4, investigator 4, magus 4, occultist 4, sorcerer 4, summoner 3, unchained summoner 4, wizard 4",
 			"",
 			"### Casting",
@@ -4101,7 +4101,7 @@
 			"",
 			"### Mythic Fire Shield",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt to your attackers increases to 1d8 points of damage + 1 point per caster level (maximum +15). A chill shield gives you fire immunity. A warm shield gives you cold immunity."
 		]
@@ -4115,7 +4115,7 @@
 		"description": [
 			"## Fire Snake",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/222}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 5, druid 5, hunter 5, magus 5, occultist 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -4134,7 +4134,7 @@
 			"",
 			"### Mythic Fire Snake",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt increases to 1d10 points of damage per level (maximum 15d10). Any creature that fails its saving throw against the spell is grappled by a snake made of fire that lasts for 1 round per caster level. The snake can be dispelled, but not attacked. A grappled creature takes 1d10 points of fire damage on your turn each round. The snake's CMB is equal to your caster level plus your tier, and its CMD is equal to its CMB + 10.",
 			"",
@@ -4147,7 +4147,7 @@
 		"description": [
 			"## Fire Sneeze",
 			"",
-			"**Source** [Goblins of Golarion pg. 28](source/goblins_of_golarion)  ",
+			"{SOURCE Goblins of Golarion/28}  ",
 			"**School** [evocation](spelldef/evocation) [[air](spelldef/air), [fire](spelldef/fire)]; **Level** alchemist 2, arcanist 2, druid 2, hunter 2, investigator 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -4174,7 +4174,7 @@
 		"description": [
 			"## Fire Storm",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 282](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/282}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** cleric 8, druid 7, oracle 8, shaman 8",
 			"",
 			"### Casting",
@@ -4193,7 +4193,7 @@
 			"",
 			"### Mythic Fire Storm",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt increases to 1d8 points of damage per caster level (maximum 20d8). Half of this damage is fire damage, and the other half is divine energy that bypasses fire resistance and fire immunity. You can exclude any number of animals from damage just as you can plant creatures.",
 			"",
@@ -4206,7 +4206,7 @@
 		"description": [
 			"## Fire Trail",
 			"",
-			"**Source** [Advanced Race Guide pg. 119](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/119}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** alchemist 3, arcanist 3, bloodrager 3, investigator 3, magus 3, redmantisassassin 3, sorcerer 3, wizard 3 (goblin)",
 			"",
 			"### Casting",
@@ -4232,7 +4232,7 @@
 		"description": [
 			"## Fire Trap",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 282](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/282}  ",
 			"**School** [abjuration](spelldef/abjuration) [[fire](spelldef/fire)]; **Level** arcanist 4, druid 2, hunter 2, occultist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -4268,7 +4268,7 @@
 		"description": [
 			"## Fireball",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 283](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/283}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 3, bloodrager 3, magus 3, occultist 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -4291,7 +4291,7 @@
 			"",
 			"### Mythic Fireball",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt increases to 1d10 points of fire damage per caster level (maximum 10d10). Any creature that fails its Reflex saving throw catches on fire, taking 2d6 points of fire damage each round until the fire is extinguished. Attempts to extinguish this fire use the spell's save DC.",
 			"",
@@ -4299,7 +4299,7 @@
 			"",
 			"### Controlled Fireball",
 			"",
-			"**Source** [Ultimate Intrigue pg. 208](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/208}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire), [ruse](spelldef/ruse)]; **Level** arcanist 4, bloodrager 4, magus 4, occultist 4, sorcerer 4, wizard 4",
 			"",
 			"#### Casting",
@@ -4332,7 +4332,7 @@
 		"description": [
 			"## Firebelly",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #62: Curse of the Lady's Light pg. 75](source/pathfinder_62_curse_of_the_ladys_light)  ",
+			"{SOURCE Inner Sea Gods/234;Pathfinder #62: Curse of the Lady's Light/75}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, paladin 1, warpriest 1 (Torag)",
 			"",
 			"### Casting",
@@ -4356,7 +4356,7 @@
 		"description": [
 			"## Firebrand",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/222}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -4380,7 +4380,7 @@
 		"description": [
 			"## Firefall",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/222}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 4, bloodrager 4, magus 4, redmantisassassin 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -4406,7 +4406,7 @@
 		"description": [
 			"## Fire's Friend",
 			"",
-			"**Source** [Inner Sea Races pg. 220](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/220}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** alchemist 2, bloodrager 2, investigator 2, magus 2 (Goblin)",
 			"",
 			"### Casting",
@@ -4432,7 +4432,7 @@
 		"description": [
 			"## Firestream",
 			"",
-			"**Source** [Advanced Race Guide pg. 131](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/131}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 3, bloodrager 3, magus 3, sorcerer 3, wizard 3 (ifrit)",
 			"",
 			"### Casting",
@@ -4453,7 +4453,7 @@
 			"",
 			"### Mythic Firestream",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt increases to 2d10 points of fire damage. Any creature that fails its saving throw also catches fire. The continuous line of fire pushes against all creatures, making them treat the spell's area as difficult terrain.",
 			"",
@@ -4466,7 +4466,7 @@
 		"description": [
 			"## Firewalker's Meditation",
 			"",
-			"**Source** [Divine Anthology pg. 12](source/divine_anthology)  ",
+			"{SOURCE Divine Anthology/12}  ",
 			"**School** [abjuration](spelldef/abjuration) [[meditative](spelldef/meditative)]; **Level** arcanist 4, cleric 4, druid 4, paladin 3, shaman 4, warpriest 4, wizard 4",
 			"",
 			"### Casting",
@@ -4491,7 +4491,7 @@
 		"description": [
 			"## First World Revisions",
 			"",
-			"**Source** [Blood of Shadows pg. 11](source/blood_of_shadows)  ",
+			"{SOURCE Blood of Shadows/11}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 2, antipaladin 3, arcanist 3, cleric 2, investigator 2, medium 2, oracle 2, psychic 2, sorcerer 3, warpriest 2, witch 2, wizard 3 (Wayang)",
 			"",
 			"### Casting",
@@ -4515,7 +4515,7 @@
 		"description": [
 			"## Flame Arrow",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 283](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/283}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 3, bloodrager 3, magus 3, occultist 3, redmantisassassin 3, sorcerer 3, wizard 3",
 			"",
 			"### Casting",
@@ -4542,7 +4542,7 @@
 		"description": [
 			"## Flame Blade",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 283](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/283}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** druid 2, hunter 2, shaman 2",
 			"",
 			"### Casting",
@@ -4561,7 +4561,7 @@
 			"",
 			"### Mythic Flame Blade",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The blade's damage increases to 2d6 points of fire damage + 1 point per caster level (maximum +20). The blade threatens a critical hit on a natural 18-20 as if it were an actual scimitar.",
 			"",
@@ -4577,7 +4577,7 @@
 		"description": [
 			"## Flame Strike",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 283](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/283}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** cleric 5, druid 4, hunter 4, inquisitor 5, oracle 5, shaman 5, warpriest 5",
 			"",
 			"### Casting",
@@ -4596,7 +4596,7 @@
 			"",
 			"### Mythic Flame Strike",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The damage dealt increases to 1d8 per caster level (maximum 15d8). The area increases to a 20-foot-radius, 40-foot-high cylinder. You may have the divine half of the damage affect only one specific creature type (as the bane weapon quality)."
 		]
@@ -4610,7 +4610,7 @@
 		"description": [
 			"## Flames of the Faithful",
 			"",
-			"**Source** [Advanced Player's Guide pg. 222](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/222}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** inquisitor 2",
 			"",
 			"### Casting",
@@ -4629,7 +4629,7 @@
 			"",
 			"### Mythic Flames of the Faithful",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"The fire damage dealt by this spell bypasses fire resistance and fire immunity. On a successful critical hit, the target catches on fire."
 		]
@@ -4640,7 +4640,7 @@
 		"description": [
 			"## Flaming Aura",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 70](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/70}  ",
 			"**School** [transmutation](spelldef/transmutation) [[fire](spelldef/fire)]; **Level** arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, shaman 4, sorcerer 4, summoner 4, unchained summoner 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -4669,7 +4669,7 @@
 		"description": [
 			"## Flaming Sphere",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 283](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/283}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 2, bloodrager 2, druid 2, hunter 2, magus 2, occultist 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -4690,7 +4690,7 @@
 			"",
 			"### Flaming Sphere, Greater",
 			"",
-			"**Source** [Advanced Class Guide pg. 182](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/182}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 4, bloodrager 4, druid 4, hunter 4, magus 4, occultist 4, sorcerer 4, wizard 4",
 			"",
 			"#### Casting",
@@ -4724,7 +4724,7 @@
 		"description": [
 			"## Flare",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 284](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/284}  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** arcanist 0, bard 0, druid 0, hunter 0, magus 0, medium 0, mesmerist 0, occultist 0, psychic 0, skald 0, sorcerer 0, wizard 0",
 			"",
 			"### Casting",
@@ -4743,7 +4743,7 @@
 			"",
 			"### Flare Burst",
 			"",
-			"**Source** [Advanced Player's Guide pg. 223](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/223}  ",
 			"**School** [evocation](spelldef/evocation) [[light](spelldef/light)]; **Level** arcanist 1, bard 1, bloodrager 1, druid 1, hunter 1, magus 1, psychic 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"#### Casting",
@@ -4771,7 +4771,7 @@
 		"description": [
 			"## Flash Fire",
 			"",
-			"**Source** [Ultimate Combat pg. 230](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/230}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -4795,7 +4795,7 @@
 		"description": [
 			"## Flash Flood",
 			"",
-			"**Source** [Wilderness Origins pg. 27](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/27}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[water](spelldef/water)]; **Level** arcanist 6, druid 6, hunter 6, shaman 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -4821,7 +4821,7 @@
 		"description": [
 			"## Flash Forward",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 5](source/magic_tactics_toolbox)  ",
+			"{SOURCE Magic Tactics Toolbox/5}  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** alchemist 4, antipaladin 4, arcanist 5, bard 4, bloodrager 4, inquisitor 4, investigator 4, magus 4, medium 4, occultist 4, paladin 4, psychic 5, skald 4, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -4845,7 +4845,7 @@
 		"description": [
 			"## Flashfire",
 			"",
-			"**Source** [Ultimate Wilderness pg. 231](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/231}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** druid 3, hunter 3, shaman 3",
 			"",
 			"### Casting",
@@ -4869,7 +4869,7 @@
 		"description": [
 			"## Fleeting Defect",
 			"",
-			"**Source** [Black Markets pg. 31](source/black_markets)  ",
+			"{SOURCE Black Markets/31}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 2, bard 2, bloodrager 2, magus 2, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -4895,7 +4895,7 @@
 		"description": [
 			"## Fleeting Memory",
 			"",
-			"**Source** [Black Markets pg. 24](source/black_markets)  ",
+			"{SOURCE Black Markets/24}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 3, skald 3, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -4916,7 +4916,7 @@
 			"",
 			"### Fleeting Memory, Mass",
 			"",
-			"**Source** [Black Markets pg. 25](source/black_markets)  ",
+			"{SOURCE Black Markets/25}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 8, bard 6, skald 6, sorcerer 8, wizard 8",
 			"",
 			"#### Casting",
@@ -4947,7 +4947,7 @@
 		"description": [
 			"## Flesh Puppet",
 			"",
-			"**Source** [Horror Adventures pg. 117](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/117}  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** antipaladin 2, arcanist 4, cleric 3, occultist 3, oracle 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 3, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -4974,7 +4974,7 @@
 			"",
 			"### Flesh Puppet Horde",
 			"",
-			"**Source** [Horror Adventures pg. 117](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/117}  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** antipaladin 3, arcanist 5, cleric 4, occultist 4, oracle 4, shaman 4, sorcerer 5, spiritualist 4, warpriest 4, witch 5, wizard 5",
 			"",
 			"#### Casting",
@@ -5005,7 +5005,7 @@
 		"description": [
 			"## Flesh to Ooze",
 			"",
-			"**Source** [Dungeon Denizens Revisited pg. 19](source/dungeon_denizens_revisited)  ",
+			"{SOURCE Dungeon Denizens Revisited/19}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -5034,7 +5034,7 @@
 		"description": [
 			"## Flesh to Stone",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 284](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/284}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 6, magus 6, shaman 6, sorcerer 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -5055,7 +5055,7 @@
 			"",
 			"### Mythic Flesh to Stone",
 			"",
-			"**Source** [Mythic Adventures pg. 94](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/94}",
 			"",
 			"A creature that succeeds at its saving throw is partially petrified, becoming slowed (as the slow spell) for a number of rounds equal to your tier. The creature can end this effect early by spending a full-round action breaking away its own petrified flesh, dealing 5d10 points of damage to itself. Any effect that removes or reverses petrification negates this partial petrification and the slow effect. The spell can affect objects and undead, as long as the target is primarily made of flesh or bone, such as a corpse or zombie. The spell doesn't affect the target's gear. If cast on a creature with equipment, the creature transforms into stone but its gear doesn't.",
 			"",
@@ -5068,7 +5068,7 @@
 		"description": [
 			"## Flesh Wall",
 			"",
-			"**Source** [Horror Adventures pg. 117](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/117}  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil)]; **Level** arcanist 6, cleric 6, oracle 6, shaman 6, sorcerer 6, spiritualist 5, summoner 5, unchained summoner 5, warpriest 6, witch 6, wizard 6",
 			"",
 			"### Casting",
@@ -5103,7 +5103,7 @@
 		"description": [
 			"## Fleshcurdle",
 			"",
-			"**Source** [Inner Sea Magic pg. 55](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/55}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 2, redmantisassassin 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -5130,7 +5130,7 @@
 			"",
 			"### Mythic Fleshcurdle",
 			"",
-			"**Source** [Mythic Origins pg. 12](source/mythic_origins)",
+			"{SOURCE Mythic Origins/12}",
 			"",
 			"You can choose two effects instead of one effect, or may choose to enhance one effect. If you enhance the attack effect, all of the creature's natural attacks are affected. If you enhance the defense effect, in addition to fleshcurdle's normal effect on natural armor bonus, any critical threats against the creature gain a +4 bonus on the confirmation roll. If you enhance the movement effect, all of the creature's movement speeds are halved.",
 			"",
@@ -5143,7 +5143,7 @@
 		"description": [
 			"## Fleshwarping Swarm (Drow)",
 			"",
-			"**Source** [Inner Sea Races pg. 220](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/220}  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)); **Level** arcanist 3, sorcerer 3, summoner 3, witch 3, wizard 3 (Drow)",
 			"",
 			"### Casting",
@@ -5170,7 +5170,7 @@
 		"description": [
 			"## Fleshworm Infestation",
 			"",
-			"**Source** [Ultimate Magic pg. 220](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/220}  ",
 			"**School** [conjuration](spelldef/conjuration) ([summoning](spelldef/summoning)) [[evil](spelldef/evil)]; **Level** arcanist 4, cleric 4, inquisitor 4, oracle 4, psychic 4, sorcerer 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -5194,7 +5194,7 @@
 		"description": [
 			"## Fleshy Facade",
 			"",
-			"**Source** [Monster Codex pg. 81](source/monster_codex)  ",
+			"{SOURCE Monster Codex/81}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 2, arcanist 2, bard 2, inquisitor 2, investigator 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5218,7 +5218,7 @@
 		"description": [
 			"## Flexible Fury",
 			"",
-			"**Source** [Advanced Class Guide pg. 182](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/182}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 3, skald 3",
 			"",
 			"### Casting",
@@ -5243,7 +5243,7 @@
 		"description": [
 			"## Flexile Curse",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 21](source/magic_tactics_toolbox)  ",
+			"{SOURCE Magic Tactics Toolbox/21}  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse)]; **Level** arcanist 5, bard 3, cleric 5, inquisitor 3, oracle 5, psychic 5, sorcerer 5, warpriest 5, witch 3, wizard 5",
 			"",
 			"### Casting",
@@ -5269,7 +5269,7 @@
 		"description": [
 			"## Flickering Lights",
 			"",
-			"**Source** [Horror Adventures pg. 118](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/118}  ",
 			"**School** [evocation](spelldef/evocation) [[darkness](spelldef/darkness), [light](spelldef/light)]; **Level** arcanist 2, bard 2, cleric 2, inquisitor 2, magus 2, occultist 2, oracle 2, shaman 2, skald 2, sorcerer 2, warpriest 2, wizard 2",
 			"",
 			"### Casting",
@@ -5306,7 +5306,7 @@
 		"description": [
 			"## Floating Disk",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 284](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/284}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 1, magus 1, occultist 1, psychic 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -5325,7 +5325,7 @@
 			"",
 			"### Mythic Floating Disk",
 			"",
-			"**Source** [Mythic Adventures pg. 95](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/95}",
 			"",
 			"The disk created by this spell lasts for 2 hours per caster level and can carry up to 200 pounds of weight per caster level.",
 			"",
@@ -5342,7 +5342,7 @@
 		"description": [
 			"## Fluid Form",
 			"",
-			"**Source** [Advanced Player's Guide pg. 223](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/223}  ",
 			"**School** [transmutation](spelldef/transmutation) [[water](spelldef/water)]; **Level** alchemist 4, arcanist 6, investigator 4, psychic 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -5368,7 +5368,7 @@
 		"description": [
 			"## Flurry of Snowballs",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 72](source/pathfinder_67_the_snows_of_summer), [People of the North pg. 26](source/people_of_the_north)  ",
+			"{SOURCE Pathfinder #67: The Snows of Summer/72;People of the North/26}  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold), [water](spelldef/water)]; **Level** arcanist 2, druid 2, hunter 2, magus 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5396,7 +5396,7 @@
 		"description": [
 			"## Fly",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 284](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/284}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 3, arcanist 3, bloodrager 3, investigator 3, magus 3, medium 3, occultist 3, psychic 3, redmantisassassin 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -5417,7 +5417,7 @@
 			"",
 			"### Mythic Fly",
 			"",
-			"**Source** [Mythic Adventures pg. 95](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/95}",
 			"",
 			"The fly speed changes to 120 feet (or 80 feet if the target is wearing medium or heavy armor, or carrying a medium or heavy load) with perfect maneuverability. When the duration expires, the target is protected by feather fall for a number of rounds equal to your caster level.",
 			"",
@@ -5425,7 +5425,7 @@
 			"",
 			"### Fly, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 223](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/223}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 7, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -5456,7 +5456,7 @@
 		"description": [
 			"## Focused Scrutiny",
 			"",
-			"**Source** [Advanced Class Guide pg. 182](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/182}  ",
 			"**School** [divination](spelldef/divination); **Level** alchemist 2, bard 2, inquisitor 2, investigator 2, medium 2, mesmerist 2, psychic 2, shaman 2, skald 2",
 			"",
 			"### Casting",
@@ -5479,7 +5479,7 @@
 		"description": [
 			"## Foe to Friend",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/224}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 5, mesmerist 5, psychic 7, skald 5",
 			"",
 			"### Casting",
@@ -5507,7 +5507,7 @@
 		"description": [
 			"## Fog Cloud",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 284](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/284}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 2, druid 2, hunter 2, magus 2, shaman 2, sorcerer 2, unchained summoner 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5530,7 +5530,7 @@
 			"",
 			"### Mythic Fog Cloud",
 			"",
-			"**Source** [Mythic Adventures pg. 95](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/95}",
 			"",
 			"The radius of the fog increases to 50 feet.",
 			"",
@@ -5538,7 +5538,7 @@
 			"",
 			"### Poisonous Cloud",
 			"",
-			"**Source** [Potions and Poisons pg. 11](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/11}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[poison](spelldef/poison)]; **Level** arcanist 4, bloodrager 4, magus 4, shaman 4, sorcerer 4, summoner 4, unchained summoner 4, witch 4, wizard 4",
 			"",
 			"#### Casting",
@@ -5568,7 +5568,7 @@
 		"description": [
 			"## Follow Aura",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/224}  ",
 			"**School** [divination](spelldef/divination) [[chaotic](spelldef/chaotic), [evil](spelldef/evil), [good](spelldef/good), or [lawful](spelldef/lawful)]; **Level** inquisitor 2, occultist 3",
 			"",
 			"### Casting",
@@ -5593,7 +5593,7 @@
 		"description": [
 			"## Font of Spirit Magic",
 			"",
-			"**Source** [Advanced Class Guide pg. 182](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/182}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** shaman 3",
 			"",
 			"### Casting",
@@ -5617,7 +5617,7 @@
 		"description": [
 			"## Fool's Forbiddance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/224}  ",
 			"**School** [abjuration](spelldef/abjuration) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 6, psychic 8, skald 6",
 			"",
 			"### Casting",
@@ -5641,7 +5641,7 @@
 		"description": [
 			"## Fool's Gold (AA)",
 			"",
-			"**Source** [Arcane Anthology pg. 20](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/20}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 1, antipaladin 1, arcanist 2, bard 1, investigator 1, mesmerist 1, occultist 2, psychic 1, shaman 2, skald 1, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5665,7 +5665,7 @@
 		"description": [
 			"## Fool's Gold (VC)",
 			"",
-			"**Source** [Villain Codex pg. 117](source/villain_codex)  ",
+			"{SOURCE Villain Codex/117}  ",
 			"**School** [illusion](spelldef/illusion); **Level** arcanist 1, bard 1, medium 1, mesmerist 1, psychic 1, skald 1, sorcerer 1, wizard 1",
 			"",
 			"### Casting",
@@ -5689,7 +5689,7 @@
 		"description": [
 			"## Fool's Teleport",
 			"",
-			"**Source** [Occult Origins pg. 13](source/occult_origins)  ",
+			"{SOURCE Occult Origins/13}  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** arcanist 4, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -5715,7 +5715,7 @@
 		"description": [
 			"## Forbid Action",
 			"",
-			"**Source** [Ultimate Magic pg. 220](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/220}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting)]; **Level** cleric 1, inquisitor 1, mesmerist 1, occultist 1, oracle 1, psychic 1, warpriest 1",
 			"",
 			"### Casting",
@@ -5746,7 +5746,7 @@
 			"",
 			"### Forbid Action, Greater",
 			"",
-			"**Source** [Ultimate Magic pg. 220](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/220}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[language-dependent](spelldef/language-dependent), [mind-affecting](spelldef/mindaffecting)]; **Level** cleric 5, inquisitor 5, mesmerist 4, occultist 5, oracle 5, psychic 5, warpriest 5",
 			"",
 			"#### Casting",
@@ -5777,7 +5777,7 @@
 		"description": [
 			"## Forbiddance",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 285](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/285}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** cleric 6, inquisitor 6, occultist 6, oracle 6, warpriest 6",
 			"",
 			"### Casting",
@@ -5815,7 +5815,7 @@
 		"description": [
 			"## Force Anchor",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 26](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/26}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[force](spelldef/force)]; **Level** arcanist 3, inquisitor 2, magus 2, sorcerer 3, summoner 2, unchained summoner 2, wizard 3",
 			"",
 			"### Casting",
@@ -5839,7 +5839,7 @@
 		"description": [
 			"## Force Hook Charge",
 			"",
-			"**Source** [Ultimate Magic pg. 220](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/220}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** bloodrager 3, magus 3, psychic 4",
 			"",
 			"### Casting",
@@ -5870,7 +5870,7 @@
 		"description": [
 			"## Force Punch",
 			"",
-			"**Source** [Ultimate Magic pg. 221](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/221}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 3, bloodrager 3, magus 3, psychic 3, sorcerer 3, spiritualist 3, wizard 3",
 			"",
 			"### Casting",
@@ -5889,7 +5889,7 @@
 			"",
 			"### Mythic Force Punch",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"The damage dealt increases to 1d6 points of force damage per caster level (maximum 10d6). If moving the target would push it into another creature's space and it has at least 10 feet of distance remaining, you can attempt to overrun the other creature, adding your tier on the combat maneuver check. For each creature you overrun with the target, reduce the distance the target moves by 5 feet. If moving the target would push it into a solid obstacle (such as a wall or tree), the target takes damage as if it had fallen the distance pushed.",
 			"",
@@ -5902,7 +5902,7 @@
 		"description": [
 			"## Force Sword",
 			"",
-			"**Source** [Arcane Anthology pg. 8](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/8}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 2, bloodrager 2, magus 2, occultist 2, psychic 2, sorcerer 2, spiritualist 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -5928,7 +5928,7 @@
 		"description": [
 			"## Forcecage",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 285](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/285}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 7, psychic 7, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -5960,7 +5960,7 @@
 		"description": [
 			"## Forced Mutation",
 			"",
-			"**Source** [People of the Wastes pg. 29](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/29}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, cleric 3, inquisitor 3, magus 3, occultist 3, oracle 3, sorcerer 3, warpriest 3, witch 3, wizard 3",
 			"",
 			"### Casting",
@@ -5984,7 +5984,7 @@
 		"description": [
 			"## Forced Quiet",
 			"",
-			"**Source** [Ultimate Magic pg. 221](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/221}  ",
 			"**School** [transmutation](spelldef/transmutation) [[sonic](spelldef/sonic)]; **Level** arcanist 1, bard 1, inquisitor 1, mesmerist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -6008,7 +6008,7 @@
 		"description": [
 			"## Forced Repentance",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/224}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion), [mind-affecting](spelldef/mindaffecting)]; **Level** inquisitor 4, paladin 4",
 			"",
 			"### Casting",
@@ -6032,7 +6032,7 @@
 		"description": [
 			"## Forceful Hand",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 285](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/285}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** arcanist 6, magus 6, occultist 6, psychic 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -6056,7 +6056,7 @@
 		"description": [
 			"## Forceful Strike",
 			"",
-			"**Source** [Inner Sea Magic pg. 55](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/55}  ",
 			"**School** [evocation](spelldef/evocation) [[force](spelldef/force)]; **Level** cleric 4, inquisitor 4, magus 4, oracle 4, paladin 4, warpriest 4",
 			"",
 			"### Casting",
@@ -6083,7 +6083,7 @@
 		"description": [
 			"## Foresight",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 285](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/285}  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 9, druid 9, psychic 9, shaman 9, sorcerer 9, witch 9, wizard 9",
 			"",
 			"### Casting",
@@ -6104,7 +6104,7 @@
 			"",
 			"### Mythic Foresight",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"The spell's insight bonus increases to +3. If you cast the spell on another creature, you and the target are simultaneously warned by the spell, and the target gains the spell's insight bonuses."
 		]
@@ -6115,7 +6115,7 @@
 		"description": [
 			"## Forest Friend",
 			"",
-			"**Source** [Ultimate Combat pg. 230](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/230}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** druid 2, hunter 2, ranger 2",
 			"",
 			"### Casting",
@@ -6141,7 +6141,7 @@
 		"description": [
 			"## Forest's Sense",
 			"",
-			"**Source** [Ultimate Wilderness pg. 231](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/231}  ",
 			"**School** [divination](spelldef/divination) ([scrying](spelldef/scrying)); **Level** druid 4, hunter 3, ranger 3, shaman 4",
 			"",
 			"### Casting",
@@ -6165,7 +6165,7 @@
 		"description": [
 			"## Foretell Failure",
 			"",
-			"**Source** [Arcane Anthology pg. 24](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/24}  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 5, bard 4, occultist 5, oracle 4, psychic 4, skald 4, sorcerer 5, witch 4, wizard 5",
 			"",
 			"### Casting",
@@ -6188,7 +6188,7 @@
 		"description": [
 			"## Forgetful Slumber",
 			"",
-			"**Source** [Advanced Race Guide pg. 48](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/48}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 4, mesmerist 4, psychic 4, skald 4, sorcerer 4, witch 4, wizard 4 (half-elf)",
 			"",
 			"### Casting",
@@ -6212,7 +6212,7 @@
 		"description": [
 			"## Form of the Alien Dragon I",
 			"",
-			"**Source** [Legacy of Dragons pg. 29](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/29}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 6, arcanist 6, magus 6, psychic 7, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -6251,7 +6251,7 @@
 			"",
 			"### Form of the Alien Dragon II",
 			"",
-			"**Source** [Legacy of Dragons pg. 30](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/30}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 7, psychic 8, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -6270,7 +6270,7 @@
 			"",
 			"### Form of the Alien Dragon III",
 			"",
-			"**Source** [Legacy of Dragons pg. 30](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/30}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 8, psychic 9, sorcerer 8, wizard 8",
 			"",
 			"#### Casting",
@@ -6314,7 +6314,7 @@
 		"description": [
 			"## Form of the Dragon I",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 286](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/286}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 6, arcanist 6, investigator 6, magus 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -6353,7 +6353,7 @@
 			"",
 			"### Mythic Form of the Dragon I",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"Each mythic form of the dragon spell must be learned individually, and you must know the respective non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic form of the dragon spell before you learn a higher-level one (for example, you can learn mythic form of the dragon II if you know form of the dragon II, even if you don't know mythic form of the dragon I). Each mythic form of the dragon spell adds the following benefits to its respective non-mythic version.",
 			"",
@@ -6363,7 +6363,7 @@
 			"",
 			"### Form of the Dragon II",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 286](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/286}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 7, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -6382,7 +6382,7 @@
 			"",
 			"### Mythic Form of the Dragon II",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"Each mythic form of the dragon spell must be learned individually, and you must know the respective non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic form of the dragon spell before you learn a higher-level one (for example, you can learn mythic form of the dragon II if you know form of the dragon II, even if you don't know mythic form of the dragon I). Each mythic form of the dragon spell adds the following benefits to its respective non-mythic version.",
 			"",
@@ -6392,7 +6392,7 @@
 			"",
 			"### Form of the Dragon III",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 286](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/286}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 8, sorcerer 8, wizard 8",
 			"",
 			"#### Casting",
@@ -6411,7 +6411,7 @@
 			"",
 			"### Mythic Form of the Dragon III",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"Each mythic form of the dragon spell must be learned individually, and you must know the respective non-mythic form of the dragon spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic form of the dragon spell before you learn a higher-level one (for example, you can learn mythic form of the dragon II if you know form of the dragon II, even if you don't know mythic form of the dragon I). Each mythic form of the dragon spell adds the following benefits to its respective non-mythic version.",
 			"",
@@ -6443,7 +6443,7 @@
 		"description": [
 			"## Form of the Exotic Dragon I",
 			"",
-			"**Source** [Legacy of Dragons pg. 30](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/30}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 6, arcanist 6, druid 7, investigator 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -6482,7 +6482,7 @@
 			"",
 			"### Form of the Exotic Dragon II",
 			"",
-			"**Source** [Legacy of Dragons pg. 31](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/31}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 7, druid 8, sorcerer 7, wizard 7",
 			"",
 			"#### Casting",
@@ -6501,7 +6501,7 @@
 			"",
 			"### Form of the Exotic Dragon III",
 			"",
-			"**Source** [Legacy of Dragons pg. 31](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/31}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 8, druid 9, sorcerer 8, wizard 8",
 			"",
 			"#### Casting",
@@ -6542,7 +6542,7 @@
 		"description": [
 			"## Fortune's Path",
 			"",
-			"**Source** [Disciple's Doctrine pg. 10](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/10}  ",
 			"**School** [divination](spelldef/divination); **Level** arcanist 3, bard 2, cleric 3, oracle 3, skald 2, sorcerer 3, warpriest 3, wizard 3",
 			"",
 			"### Casting",
@@ -6573,7 +6573,7 @@
 		"description": [
 			"## Foster Hatred",
 			"",
-			"**Source** [Occult Adventures pg. 172](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/172}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[emotion](spelldef/emotion)]; **Level** antipaladin 4, inquisitor 5, mesmerist 5, psychic 6, spiritualist 5",
 			"",
 			"### Casting",
@@ -6599,7 +6599,7 @@
 		"description": [
 			"## Fox's Cunning",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 286](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/286}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, bard 2, investigator 2, medium 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, summoner 2, unchained summoner 2, wizard 2",
 			"",
 			"### Casting",
@@ -6618,7 +6618,7 @@
 			"",
 			"### Fox's Cunning, Mass",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 286](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/286}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 6, bard 6, psychic 6, skald 6, sorcerer 6, summoner 4, unchained summoner 6, wizard 6",
 			"",
 			"#### Casting",
@@ -6652,7 +6652,7 @@
 		"description": [
 			"## Fractions of Heal and Harm",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Pathfinder #41: The Thousand Fangs Below pg. 73](source/pathfinder_41_the_thousand_fangs_below)  ",
+			"{SOURCE Inner Sea Gods/234;Pathfinder #41: The Thousand Fangs Below/73}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** arcanist 3, bard 3, bloodrager 3, cleric 3, oracle 3, redmantisassassin 3, skald 3, sorcerer 3, warpriest 3, wizard 3 (Nethys)",
 			"",
 			"### Casting",
@@ -6675,7 +6675,7 @@
 		"description": [
 			"## Free Spirit",
 			"",
-			"**Source** [Inner Sea Temples pg. 23](source/inner_sea_temples)  ",
+			"{SOURCE Inner Sea Temples/23}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** bard 3, cleric 3, druid 3, hunter 3, medium 3, oracle 3, shaman 3, skald 3, spiritualist 3, warpriest 3, witch 3",
 			"",
 			"### Casting",
@@ -6698,7 +6698,7 @@
 		"description": [
 			"## Free Swim",
 			"",
-			"**Source** [Aquatic Adventures pg. 59](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/59}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 3, bard 3, cleric 3, druid 3, hunter 3, inquisitor 3, investigator 3, medium 3, mesmerist 3, occultist 3, oracle 3, psychic 3, ranger 3, skald 3, spiritualist 3, warpriest 3",
 			"",
 			"### Casting",
@@ -6722,7 +6722,7 @@
 		"description": [
 			"## Freedom",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 287](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/287}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** arcanist 9, psychic 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -6746,7 +6746,7 @@
 		"description": [
 			"## Freedom of Movement",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 287](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/287}  ",
 			"**School** [abjuration](spelldef/abjuration); **Level** alchemist 4, bard 4, cleric 4, druid 4, hunter 4, inquisitor 4, investigator 4, medium 4, mesmerist 4, occultist 4, oracle 4, psychic 4, ranger 4, skald 4, spiritualist 4, warpriest 4",
 			"",
 			"### Casting",
@@ -6772,7 +6772,7 @@
 		"description": [
 			"## Freedom's Toast",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods)  ",
+			"{SOURCE Inner Sea Gods/234}  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** arcanist 4, bard 5, cleric 5, inquisitor 5, oracle 5, skald 5, sorcerer 4, warpriest 5, wizard 4 (Cayden Cailean)",
 			"",
 			"### Casting",
@@ -6796,7 +6796,7 @@
 		"description": [
 			"## Freezing Sphere",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 287](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/287}  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold)]; **Level** arcanist 6, magus 6, occultist 6, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -6824,7 +6824,7 @@
 		"description": [
 			"## Frightful Aspect",
 			"",
-			"**Source** [Ultimate Combat pg. 230](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/230}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 8, cleric 8, druid 8, oracle 8, psychic 8, sorcerer 8, witch 8, wizard 8",
 			"",
 			"### Casting",
@@ -6847,7 +6847,7 @@
 		"description": [
 			"## Frigid Souls",
 			"",
-			"**Source** [Haunted Heroes Handbook pg. 27](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/27}  ",
 			"**School** [necromancy](spelldef/necromancy) ([haunted](spelldef/haunted)) [[emotion](spelldef/emotion), [fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, cleric 4, druid 4, hunter 3, oracle 4, ranger 3, shaman 4, sorcerer 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -6876,7 +6876,7 @@
 		"description": [
 			"## Frigid Touch",
 			"",
-			"**Source** [Ultimate Magic pg. 221](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/221}  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold)]; **Level** arcanist 2, bloodrager 2, druid 2, hunter 2, magus 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -6900,7 +6900,7 @@
 		"description": [
 			"## Frost Fall",
 			"",
-			"**Source** [Ultimate Combat pg. 230](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/230}  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold)]; **Level** arcanist 2, druid 2, hunter 2, occultist 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -6927,7 +6927,7 @@
 		"description": [
 			"## Frost Mammoth",
 			"",
-			"**Source** [Adventurer's Guide pg. 134](source/adventurers_guide), [People of the North pg. 26](source/people_of_the_north)  ",
+			"{SOURCE Adventurer's Guide/134;People of the North/26}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[cold](spelldef/cold)]; **Level** arcanist 7, cleric 7, druid 7, oracle 7, shaman 7, sorcerer 7, summoner 6, unchained summoner 6, wizard 7",
 			"",
 			"### Casting",
@@ -6951,7 +6951,7 @@
 		"description": [
 			"## Frostbite",
 			"",
-			"**Source** [Ultimate Magic pg. 221](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/221}  ",
 			"**School** [transmutation](spelldef/transmutation) [[cold](spelldef/cold)]; **Level** bloodrager 1, druid 1, hunter 1, magus 1, shaman 1, witch 1",
 			"",
 			"### Casting",
@@ -6975,7 +6975,7 @@
 		"description": [
 			"## Frosthammer",
 			"",
-			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source/pathfinder_69_maiden_mother_crone)  ",
+			"{SOURCE Pathfinder #69: Maiden, Mother, Crone/66}  ",
 			"**School** [evocation](spelldef/evocation) [[cold](spelldef/cold)]; **Level** antipaladin 3, cleric 3, hunter 3, inquisitor 3, oracle 3, ranger 3, warpriest 3 (Kostchtchie)",
 			"",
 			"### Casting",
@@ -6999,7 +6999,7 @@
 		"description": [
 			"## Frosty Aura",
 			"",
-			"**Source** [Pathfinder #91: Battle of Bloodmarch Hills pg. 71](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/71}  ",
 			"**School** [transmutation](spelldef/transmutation) [[cold](spelldef/cold)]; **Level** arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, shaman 4, sorcerer 4, summoner 4, unchained summoner 4, warpriest 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -7025,7 +7025,7 @@
 		"description": [
 			"## Frozen Note",
 			"",
-			"**Source** [Advanced Player's Guide pg. 224](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/224}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting), [sonic](spelldef/sonic)]; **Level** bard 5, skald 5",
 			"",
 			"### Casting",
@@ -7049,7 +7049,7 @@
 		"description": [
 			"## Full Pouch",
 			"",
-			"**Source** [Arcane Anthology pg. 20](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/20}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, bard 2, druid 2, hunter 2, inquisitor 3, investigator 2, occultist 3, ranger 3, skald 2, sorcerer 2, wizard 2",
 			"",
 			"### Casting",
@@ -7073,7 +7073,7 @@
 		"description": [
 			"## Fumblestep",
 			"",
-			"**Source** [Blood of the Beast pg. 27](source/blood_of_the_beast)  ",
+			"{SOURCE Blood of the Beast/27}  ",
 			"**School** [conjuration](spelldef/conjuration); **Level** arcanist 1, mesmerist 1, sorcerer 1, spiritualist 1, witch 1, wizard 1 (Tengu)",
 			"",
 			"### Casting",
@@ -7099,7 +7099,7 @@
 		"description": [
 			"## Fumbletongue",
 			"",
-			"**Source** [Ultimate Magic pg. 221](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/221}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[mind-affecting](spelldef/mindaffecting)]; **Level** bard 1, mesmerist 1, psychic 1, skald 1, witch 1",
 			"",
 			"### Casting",
@@ -7123,7 +7123,7 @@
 		"description": [
 			"## Funereal Weapon",
 			"",
-			"**Source** [Inner Sea Temples pg. 42](source/inner_sea_temples)  ",
+			"{SOURCE Inner Sea Temples/42}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** cleric 1, inquisitor 1, occultist 1, oracle 1, paladin 1, warpriest 1",
 			"",
 			"### Casting",
@@ -7149,7 +7149,7 @@
 		"description": [
 			"## Fungal Blisters",
 			"",
-			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 70](source/pathfinder_119_prisoners_of_the_blight)  ",
+			"{SOURCE Pathfinder #119: Prisoners of the Blight/70}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 2, arcanist 2, druid 2, hunter 2, investigator 2, sorcerer 2, witch 2, wizard 2 (Cyth-V'sug)",
 			"",
 			"### Casting",
@@ -7174,7 +7174,7 @@
 		"description": [
 			"## Fungal Infestation",
 			"",
-			"**Source** [Ultimate Magic pg. 221](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/221}  ",
 			"**School** [necromancy](spelldef/necromancy) [[disease](spelldef/disease)]; **Level** druid 3, hunter 3",
 			"",
 			"### Casting",
@@ -7198,7 +7198,7 @@
 		"description": [
 			"## Furious Fire Barrage",
 			"",
-			"**Source** [Agents of Evil pg. 31](source/agents_of_evil)  ",
+			"{SOURCE Agents of Evil/31}  ",
 			"**School** [evocation](spelldef/evocation) [[fire](spelldef/fire)]; **Level** arcanist 6, bloodrager 4, magus 5, sorcerer 6, wizard 6",
 			"",
 			"### Casting",
@@ -7224,7 +7224,7 @@
 		"description": [
 			"## Fury of the Sun",
 			"",
-			"**Source** [Advanced Race Guide pg. 131](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/131}  ",
 			"**School** [transmutation](spelldef/transmutation) [[curse](spelldef/curse), [fire](spelldef/fire)]; **Level** druid 2, hunter 2, witch 2 (ifrit)",
 			"",
 			"### Casting",
@@ -7248,7 +7248,7 @@
 		"description": [
 			"## Gallant Inspiration",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/225}  ",
 			"**School** [divination](spelldef/divination); **Level** bard 2, skald 2",
 			"",
 			"### Casting",
@@ -7272,7 +7272,7 @@
 		"description": [
 			"## Garden of Peril",
 			"",
-			"**Source** [Dirty Tactics Toolbox pg. 28](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/28}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[poison](spelldef/poison)]; **Level** arcanist 2, druid 2, hunter 2, ranger 2, sorcerer 2, summoner 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -7300,7 +7300,7 @@
 		"description": [
 			"## Garrulous Grin",
 			"",
-			"**Source** [Spymaster's Handbook pg. 28](source/spymasters_handbook)  ",
+			"{SOURCE Spymaster's Handbook/28}  ",
 			"**School** [necromancy](spelldef/necromancy) [[fear](spelldef/fear), [mind-affecting](spelldef/mindaffecting)]; **Level** antipaladin 2, bard 2, inquisitor 2, mesmerist 2, psychic 2, shaman 2, skald 2, spiritualist 2, witch 3",
 			"",
 			"### Casting",
@@ -7327,7 +7327,7 @@
 		"description": [
 			"## Gaseous Form",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 287](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/287}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** alchemist 3, arcanist 3, bard 3, investigator 3, magus 3, medium 3, occultist 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, spiritualist 3, wizard 3",
 			"",
 			"### Casting",
@@ -7348,7 +7348,7 @@
 			"",
 			"### Mythic Gaseous Form",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"The damage reduction changes to DR 10/epic and magic, and the fly speed increases to 30 feet. The target can expand itself as a free action, filling an area equal to double its normal space and height (a Medium creature fills a 10-foot-by-10-foot space to a height of about 10 feet) and blocking vision as obscuring mist. Returning from expanded to normal size is also a free action.",
 			"",
@@ -7365,7 +7365,7 @@
 		"description": [
 			"## Gate",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 287](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/287}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation) or [calling](spelldef/calling)); **Level** arcanist 9, cleric 9, oracle 9, psychic 9, sorcerer 9, wizard 9",
 			"",
 			"### Casting",
@@ -7404,7 +7404,7 @@
 			"",
 			"### Fey Gate",
 			"",
-			"**Source** [Ultimate Wilderness pg. 230](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/230}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 8, bard 6, cleric 8, druid 8, oracle 8, skald 6, sorcerer 8, summoner 6, unchained summoner 6, witch 8, wizard 8",
 			"",
 			"#### Casting",
@@ -7435,7 +7435,7 @@
 		"description": [
 			"## Geas, Lesser",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 288](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/288}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[curse](spelldef/curse), [language-dependent](spelldef/languagedependent), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 4, bard 3, inquisitor 4, mesmerist 3, psychic 4, skald 3, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -7462,7 +7462,7 @@
 			"",
 			"### Geas/Quest",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 288](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/288}  ",
 			"**School** [enchantment](spelldef/enchantment) ([compulsion](spelldef/compulsion)) [[curse](spelldef/curse), [language-dependent](spelldef/languagedependent), [mind-affecting](spelldef/mindaffecting)]; **Level** arcanist 6, bard 6, cleric 6, inquisitor 5, mesmerist 6, oracle 6, psychic 6, skald 6, sorcerer 6, warpriest 6, witch 6, wizard 6",
 			"",
 			"#### Casting",
@@ -7499,7 +7499,7 @@
 		"description": [
 			"## Geb's Hammer",
 			"",
-			"**Source** [Inner Sea Magic pg. 55](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/55}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 4, sorcerer 4, witch 4, wizard 4",
 			"",
 			"### Casting",
@@ -7532,7 +7532,7 @@
 		"description": [
 			"## Geniekind",
 			"",
-			"**Source** [Inner Sea Magic pg. 55](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/55}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 5, cleric 5, druid 5, hunter 5, oracle 5, sorcerer 5, summoner 5, unchained summoner 5, warpriest 5, wizard 5",
 			"",
 			"### Casting",
@@ -7560,7 +7560,7 @@
 			"",
 			"### Mythic Geniekind",
 			"",
-			"**Source** [Mythic Origins pg. 12](source/mythic_origins)",
+			"{SOURCE Mythic Origins/12}",
 			"",
 			"The energy resistance granted by your genie form increases to 20. You gain a +2 enhancement bonus to Strength and Dexterity. In addition, once while you are transformed you can use one spell-like ability based on your genie form (using your caster level), as detailed below.",
 			"",
@@ -7583,7 +7583,7 @@
 		"description": [
 			"## Genius Avaricious",
 			"",
-			"**Source** [Pathfinder #30: The Twice-Damned Prince pg. 68](source/pathfinder_30_the_twice-damned_prince)  ",
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/68}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[evil](spelldef/evil)]; **Level** arcanist 6, cleric 6, oracle 6, sorcerer 6, warpriest 6, wizard 6",
 			"",
 			"### Casting",
@@ -7615,7 +7615,7 @@
 		"description": [
 			"## Gentle Breeze",
 			"",
-			"**Source** [Advanced Class Guide pg. 183](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/183}  ",
 			"**School** [evocation](spelldef/evocation) [[air](spelldef/air)]; **Level** arcanist 1, druid 1, hunter 1, shaman 1, sorcerer 1, witch 1, wizard 1",
 			"",
 			"### Casting",
@@ -7639,7 +7639,7 @@
 		"description": [
 			"## Gentle Repose",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 289](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/289}  ",
 			"**School** [necromancy](spelldef/necromancy); **Level** arcanist 3, cleric 2, medium 2, occultist 3, oracle 2, shaman 2, sorcerer 3, spiritualist 2, warpriest 2, witch 2, wizard 3",
 			"",
 			"### Casting",
@@ -7665,7 +7665,7 @@
 		"description": [
 			"## Geomessage",
 			"",
-			"**Source** [Villain Codex pg. 237](source/villain_codex)  ",
+			"{SOURCE Villain Codex/237}  ",
 			"**School** [illusion](spelldef/illusion) ([figment](spelldef/figment)); **Level** arcanist 4, bard 3, hunter 3, medium 3, occultist 3, ranger 3, skald 3, sorcerer 4, wizard 4",
 			"",
 			"### Casting",
@@ -7693,7 +7693,7 @@
 		"description": [
 			"## Getaway",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/225}  ",
 			"**School** [conjuration](spelldef/conjuration) ([teleportation](spelldef/teleportation)); **Level** arcanist 6, bard 6, mesmerist 6, occultist 6, psychic 6, skald 6, sorcerer 6, spiritualist 6, wizard 6",
 			"",
 			"### Casting",
@@ -7717,7 +7717,7 @@
 		"description": [
 			"## Geyser",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/225}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)) [[fire](spelldef/fire), [water](spelldef/water)]; **Level** arcanist 5, druid 4, hunter 4, magus 5, sorcerer 5, wizard 5",
 			"",
 			"### Casting",
@@ -7747,7 +7747,7 @@
 		"description": [
 			"## Ghost Brand",
 			"",
-			"**Source** [Ultimate Intrigue pg. 215](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/215}  ",
 			"**School** [transmutation](spelldef/transmutation) [[shadow](spelldef/shadow_descriptor)]; **Level** bard 4, occultist 3, skald 4, spiritualist 4, witch 4",
 			"",
 			"### Casting",
@@ -7771,7 +7771,7 @@
 		"description": [
 			"## Ghost Sound",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 289](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/289}  ",
 			"**School** [illusion](spelldef/illusion) ([figment](spelldef/figment)); **Level** adept 0, arcanist 0, bard 0, magus 0, medium 0, mesmerist 0, occultist 0, psychic 0, skald 0, sorcerer 0, wizard 0",
 			"",
 			"### Casting",
@@ -7801,7 +7801,7 @@
 		"description": [
 			"## Ghost Whip",
 			"",
-			"**Source** [Occult Adventures pg. 172](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/172}  ",
 			"**School** [evocation](spelldef/evocation); **Level** arcanist 2, cleric 2, inquisitor 2, magus 2, occultist 2, oracle 2, psychic 2, sorcerer 2, spiritualist 2, warpriest 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -7828,7 +7828,7 @@
 		"description": [
 			"## Ghost Wolf",
 			"",
-			"**Source** [Advanced Race Guide pg. 58](source/advanced_race_guide), [Orcs of Golarion pg. 28](source/orcs_of_golarion)  ",
+			"{SOURCE Advanced Race Guide/58;Orcs of Golarion/28}  ",
 			"**School** [conjuration](spelldef/conjuration) ([creation](spelldef/creation)); **Level** arcanist 4, bloodrager 4, psychic 4, sorcerer 4, summoner 2, unchained summoner 2, wizard 4 (half-orc)",
 			"",
 			"### Casting",
@@ -7854,7 +7854,7 @@
 		"description": [
 			"## Ghostbane Dirge",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/225}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 2, cleric 2, inquisitor 2, occultist 2, oracle 2, paladin 1, shaman 2, skald 2, warpriest 2",
 			"",
 			"### Casting",
@@ -7873,7 +7873,7 @@
 			"",
 			"### Ghostbane Dirge, Mass",
 			"",
-			"**Source** [Advanced Player's Guide pg. 225](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/225}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** bard 4, cleric 5, inquisitor 5, occultist 5, oracle 5, paladin 3, shaman 5, skald 4, warpriest 5",
 			"",
 			"#### Casting",
@@ -7904,7 +7904,7 @@
 		"description": [
 			"## Ghostly Disguise",
 			"",
-			"**Source** [Ultimate Magic pg. 222](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/222}  ",
 			"**School** [illusion](spelldef/illusion) ([glamer](spelldef/glamer)); **Level** alchemist 2, arcanist 2, bard 2, inquisitor 2, investigator 2, medium 2, mesmerist 2, occultist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, witch 2, wizard 2",
 			"",
 			"### Casting",
@@ -7932,7 +7932,7 @@
 		"description": [
 			"## Ghoul Hunger",
 			"",
-			"**Source** [Inner Sea Gods pg. 234](source/inner_sea_gods), [Gods and Magic pg. 41](source/gods_and_magic)  ",
+			"{SOURCE Inner Sea Gods/234;Gods and Magic/41}  ",
 			"**School** [necromancy](spelldef/necromancy) [[evil](spelldef/evil), [mind-affecting](spelldef/mindaffecting)]; **Level** antipaladin 2, arcanist 2, cleric 2, oracle 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Urgathoa)",
 			"",
 			"### Casting",
@@ -7956,7 +7956,7 @@
 		"description": [
 			"## Ghoul Touch",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 289](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/289}  ",
 			"**School** [necromancy](spelldef/necromancy) [[poison](spelldef/poison)]; **Level** arcanist 2, bloodrager 2, sorcerer 2, spiritualist 2, wizard 2",
 			"",
 			"### Casting",
@@ -7982,7 +7982,7 @@
 		"description": [
 			"## Giant Form I",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 289](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/289}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** alchemist 6, arcanist 7, investigator 6, sorcerer 7, wizard 7",
 			"",
 			"### Casting",
@@ -8000,7 +8000,7 @@
 			"",
 			"### Giant Form II",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 289](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/289}  ",
 			"**School** [transmutation](spelldef/transmutation) ([polymorph](spelldef/polymorph)); **Level** arcanist 8, sorcerer 8, wizard 8",
 			"",
 			"#### Casting",
@@ -8036,7 +8036,7 @@
 		"description": [
 			"## Giant Vermin",
 			"",
-			"**Source** [PRPG Core Rulebook pg. 290](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/290}  ",
 			"**School** [transmutation](spelldef/transmutation); **Level** cleric 4, druid 4, hunter 4, oracle 4, shaman 4, warpriest 4",
 			"",
 			"### Casting",
@@ -8065,7 +8065,7 @@
 			"",
 			"### Mythic Giant Vermin",
 			"",
-			"**Source** [Mythic Adventures pg. 96](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/96}",
 			"",
 			"The vermin you transform with this spell gain DR 5/magic and either the advanced creature template or the giant creature template.",
 			"",

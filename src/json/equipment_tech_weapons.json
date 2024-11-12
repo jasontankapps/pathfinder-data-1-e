@@ -14,7 +14,7 @@
 		"description": [
 			"## Monowhip",
 			"",
-			"**Source** [Technology Guide pg. 20](source/technology_guide)",
+			"{SOURCE Technology Guide/20}",
 			"",
 			"**Cost** 70,000 gp  ",
 			"**Type** light melee; **Proficiency** exotic; **Weight** 1 lb.  ",
@@ -35,7 +35,7 @@
 		"description": [
 			"## Null blade",
 			"",
-			"**Source** [Technology Guide pg. 20](source/technology_guide)",
+			"{SOURCE Technology Guide/20}",
 			"",
 			"**Cost** 58,835 gp  ",
 			"**Type** one-handed melee; **Proficiency** exotic; **Weight** 4 lbs.  ",
@@ -58,7 +58,7 @@
 		"description": [
 			"## Plasma blade",
 			"",
-			"**Source** [Pathfinder #100: A Song of Silver pg. 105](source/pathfinder_100_a_song_of_silver)",
+			"{SOURCE Pathfinder #100: A Song of Silver/105}",
 			"",
 			"**Cost** 12,000 gp  ",
 			"**Type** one-handed melee; **Proficiency** exotic; **Weight** 3 lbs.  ",
@@ -78,7 +78,7 @@
 		"description": [
 			"## Chainsaw",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 2,700 gp  ",
 			"**Type** two-handed melee; **Proficiency** exotic; **Weight** 10 lbs.  ",
@@ -99,7 +99,7 @@
 		"description": [
 			"## Neural inhibitor",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 60](source/pathfinder_85_fires_of_creation)",
+			"{SOURCE Pathfinder #85: Fires of Creation/60}",
 			"",
 			"**Cost** 2,400 gp  ",
 			"**Type** light melee; **Proficiency** simple; **Weight** 2 lbs.  ",
@@ -120,7 +120,7 @@
 		"description": [
 			"## Laser torch",
 			"",
-			"**Source** [Technology Guide pg. 20](source/technology_guide)",
+			"{SOURCE Technology Guide/20}",
 			"",
 			"**Cost** 6,000 gp  ",
 			"**Type** one-handed melee; **Proficiency** martial; **Weight** 4 lbs.  ",
@@ -141,7 +141,7 @@
 		"description": [
 			"## Stun baton",
 			"",
-			"**Source** [Technology Guide pg. 20](source/technology_guide)",
+			"{SOURCE Technology Guide/20}",
 			"",
 			"**Cost** 5,000 gp  ",
 			"**Type** one-handed melee; **Proficiency** martial; **Weight** 2 lbs.  ",
@@ -162,7 +162,7 @@
 		"description": [
 			"## Starfall spade",
 			"",
-			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 63](source/pathfinder_89_palace_of_fallen_stars)",
+			"{SOURCE Pathfinder #89: Palace of Fallen Stars/63}",
 			"",
 			"**Cost** 8,620 gp  ",
 			"**Type** two-handed melee; **Proficiency** martial; **Weight** 12 lbs.  ",
@@ -184,7 +184,7 @@
 		"description": [
 			"## Arc pistol",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 10,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -206,7 +206,7 @@
 		"description": [
 			"## Dart gun",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 3,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -228,7 +228,7 @@
 		"description": [
 			"## Death ray",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 140,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 1 lb.  ",
@@ -251,7 +251,7 @@
 		"description": [
 			"## EMP pistol",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 12,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -272,7 +272,7 @@
 		"description": [
 			"## Flare gun",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 300 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 1 lb.  ",
@@ -293,7 +293,7 @@
 		"description": [
 			"## Gravity pistol",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 95,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -315,7 +315,7 @@
 		"description": [
 			"## Inferno pistol",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 60](source/pathfinder_85_fires_of_creation)",
+			"{SOURCE Pathfinder #85: Fires of Creation/60}",
 			"",
 			"**Cost** 5,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -336,7 +336,7 @@
 		"description": [
 			"## Laser pistol",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 10,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Mind burner",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 63](source/pathfinder_86_lords_of_rust)",
+			"{SOURCE Pathfinder #86: Lords of Rust/63}",
 			"",
 			"**Cost** 8,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -381,7 +381,7 @@
 		"description": [
 			"## Mindrender",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 56,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -402,7 +402,7 @@
 		"description": [
 			"## Sonic pistol",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 13,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -423,7 +423,7 @@
 		"description": [
 			"## Stun gun",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 3,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 3 lbs.  ",
@@ -444,7 +444,7 @@
 		"description": [
 			"## Zero pistol",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 10,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
@@ -465,7 +465,7 @@
 		"description": [
 			"## Arc rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 20,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
@@ -486,7 +486,7 @@
 		"description": [
 			"## Autograpnel",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 4,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 10 lbs.  ",
@@ -511,7 +511,7 @@
 		"description": [
 			"## EMP rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 24,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
@@ -532,7 +532,7 @@
 		"description": [
 			"## Gravity rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 165,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
@@ -554,7 +554,7 @@
 		"description": [
 			"## Id rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 50,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 5 lbs.  ",
@@ -579,7 +579,7 @@
 		"description": [
 			"## Laser rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 20,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
@@ -600,7 +600,7 @@
 		"description": [
 			"## Sonic rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 26,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
@@ -621,7 +621,7 @@
 		"description": [
 			"## Zero rifle",
 			"",
-			"**Source** [Technology Guide pg. 21](source/technology_guide)",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 20,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
@@ -644,7 +644,7 @@
 		"description": [
 			"## Atom gun",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 144,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 24 lbs.  ",
@@ -669,7 +669,7 @@
 		"description": [
 			"## Beam cannon (arc cannon)",
 			"",
-			"**Source:** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_89_palace_of_fallen_stars)]",
+			"{SOURCE Pathfinder #89: Palace of Fallen Stars/62}",
 			"",
 			"**Cost** 40,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.  ",
@@ -694,7 +694,7 @@
 		"description": [
 			"## Beam cannon (EMP cannon)",
 			"",
-			"**Source:** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_89_palace_of_fallen_stars)]",
+			"{SOURCE Pathfinder #89: Palace of Fallen Stars/62}",
 			"",
 			"**Cost** 58,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.  ",
@@ -719,7 +719,7 @@
 		"description": [
 			"## Beam cannon (laser cannon)",
 			"",
-			"**Source:** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_89_palace_of_fallen_stars)]",
+			"{SOURCE Pathfinder #89: Palace of Fallen Stars/62}",
 			"",
 			"**Cost** 40,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.  ",
@@ -744,7 +744,7 @@
 		"description": [
 			"## Beam cannon (sonic cannon)",
 			"",
-			"**Source:** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_89_palace_of_fallen_stars)]",
+			"{SOURCE Pathfinder #89: Palace of Fallen Stars/62}",
 			"",
 			"**Cost** 58,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.  ",
@@ -769,7 +769,7 @@
 		"description": [
 			"## Beam cannon (zero cannon)",
 			"",
-			"**Source:** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_89_palace_of_fallen_stars)]",
+			"{SOURCE Pathfinder #89: Palace of Fallen Stars/62}",
 			"",
 			"**Cost** 40,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.  ",
@@ -794,7 +794,7 @@
 		"description": [
 			"## Fleshnet cannon",
 			"",
-			"**Source:** [Pathfinder #88: Valley of the Brain Collectors pg. 63](source/pathfinder_88_valley_of_the_brain_collectors)]",
+			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/63}",
 			"",
 			"**Cost** 3,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.  ",
@@ -823,7 +823,7 @@
 		"description": [
 			"## Grenade launcher",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 8,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 8 lbs.  ",
@@ -846,7 +846,7 @@
 		"description": [
 			"## Nuclear resonator",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 90,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.  ",
@@ -873,7 +873,7 @@
 		"description": [
 			"## Plasmathrower",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 30,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 15 lbs.  ",
@@ -896,7 +896,7 @@
 		"description": [
 			"## Rail gun",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 30,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 14 lbs.  ",
@@ -921,7 +921,7 @@
 		"description": [
 			"## Rocket launcher",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 10,800 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 10 lbs.  ",
@@ -944,7 +944,7 @@
 		"description": [
 			"## Vortex gun",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 182,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 15 lbs.  ",
@@ -967,7 +967,7 @@
 		"description": [
 			"## X-laser",
 			"",
-			"**Source:** [Technology Guide pg. 21](source/technology_guide)]",
+			"{SOURCE Technology Guide/21}",
 			"",
 			"**Cost** 40,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 10 lbs.  ",

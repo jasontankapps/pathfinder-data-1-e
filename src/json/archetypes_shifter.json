@@ -5,7 +5,7 @@
 		"description": [
 			"## Adaptive Shifter",
 			"",
-			"**Source** [Distant Realms pg. 12](source/distant_realms)  ",
+			"{SOURCE Distant Realms/12}  ",
 			"Rather than emulate other animals entirely, some shifters learn to reshape their forms on the fly in response to a range of stimuli, rarely taking on a new form for longer than necessary to overcome a challenge.",
 			"",
 			"**Adaptive Claws (Su):** When activating her shifter claws ability in her natural form, an adaptive shifter can instead manifest a single bite attack that deals bludgeoning, piercing, and slashing damage; a gore attack that deals piercing damage; or a tail slap that deals bludgeoning damage. This natural attack otherwise deals damage as the shifter's claws.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Dragonblood Shifter",
 			"",
-			"**Source** [Wilderness Origins pg. 5](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/5}  ",
 			"Dragonblood shifters draw upon the inherent strength and majesty of the true dragons, gaining a measure of their powers from their association.",
 			"",
 			"**Draconic Aspect (Su):** A dragonblood shifter can temporarily imbue her body with draconic majesty as a swift action. When activating this ability, the shifter must select one of the chromatic or metallic dragon types from the table below. Her draconic aspect abilities grant resistances and deal a type of damage based on the chosen dragon type. While shifted into this form, she gains the [scent](umr/scent) ability and energy resistance 5 against the energy type that corresponds to her selected dragon type. She can maintain this form for a number of minutes per day equal to 3 + her shifter level. The duration does not need to be consecutive, but it must be spent in 1-minute increments. The shifter can select a different dragon type every time she uses this ability, but she must end her current draconic aspect and activate this ability again in order to change her chosen dragon type.",
@@ -118,7 +118,7 @@
 		"description": [
 			"## Elementalist Shifter",
 			"",
-			"**Source** [Ultimate Wilderness pg. 78](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/78}  ",
 			"Rather than drawing power from bestial aspects, elementalist shifters channel power from the Inner Sphere and can take on powerful elemental forms at the cost of the greater diversity available to traditional shifters. Although the elementalist shifter's powers seem more outlandish and supernatural than those of others of their kind, they remain equally immersed in the druidic traditions; their focus is simply rooted in expressions of nature found in extraplanar regions: the planes of Air, Earth, Fire, and Water.",
 			"",
 			"**Languages:** An elementalist shifter adds Aquan, Auran, Ignan, and Terran to her list of available bonus languages.",
@@ -202,7 +202,7 @@
 		"description": [
 			"## Feyform Shifter",
 			"",
-			"**Source** [Wilderness Origins pg. 6](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/6}  ",
 			"Feyform shifters are intimately linked to the First World, and can draw from it to gain otherworldly powers.",
 			"",
 			"**Fey Aspect (Su):** A feyform shifter can take on a First World aspect and assume fey traits as a swift action. While in this form, she gains low-light vision (or darkvision with a range of 30 feet, if she already has low-light vision) and DR 1/cold iron. Her body outline becomes indistinct; she is treated as though she has concealment, except that she cannot use this concealment to attempt Stealth checks. She can maintain this form for a number of minutes per day equal to 3 + her shifter level. The duration does not need to be consecutive, but it must be spent in 1-minute increments.",
@@ -246,7 +246,7 @@
 		"description": [
 			"## Fiendflesh Shifter",
 			"",
-			"**Source** [Ultimate Wilderness pg. 80](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/80}  ",
 			"By forging dark pacts with extraplanar forces, fiendflesh shifters invoke sinister powers to assume the strengths of daemons, demons, or devils. Fiendflesh shifters care nothing for the natural world and are instead consumed by an ever-growing lust for power at any price. To other shifters, the fiendflesh shifter is often viewed as a monster herself-an intrusion into the natural order of things and a foe who must be sought out and destroyed. Very few druids will ever willingly ally with fiendflesh shifters; this leaves these outcasts to live bitter, lonely lives or to seek out fiendish cults or other abhorrent faiths for support and companionship.",
 			"",
 			"**Alignment:** A fiendflesh shifter must be evil in alignment. If the fiendflesh shifter becomes nonevil, she loses all powers granted by this archetype.",
@@ -300,7 +300,7 @@
 		"description": [
 			"## Holy Beast",
 			"",
-			"**Source** [Heroes of Golarion pg. 12](source/heroes_of_golarion)  ",
+			"{SOURCE Heroes of Golarion/12}  ",
 			"Thousands of gods are venerated in Vudra, and devoted followers might have personal relationships with their chosen deities. Holy beast shifters pledge to hunt down their deity's enemies to earn that deity's blessing. These shifters tend to take on the aspect of their deity's sacred animal, and many of them seek to destroy rakshasas.",
 			"",
 			"**Beast's Blessing:** A holy beast must worship a deity.",
@@ -320,7 +320,7 @@
 		"description": [
 			"## Leafshifter",
 			"",
-			"**Source** [Ultimate Wilderness pg. 18](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/18}  ",
 			"Rather than assume aspects taken from the traits of natural animals, a leafshifter transforms into plant-animal hybrids that resemble living topiaries. This affords the leafshifter the savage power of the animal kingdom while also granting her the strength and timelessness of plant life.",
 			"",
 			"**Shifter's Slam (Ex):** This ability functions as the shifter claws class feature, except the leafshifter gains two slam attacks instead of two claw attacks. These slam attacks are made with her arms, which are covered in jagged bark and thorns, so these attacks deal bludgeoning and piercing damage.",
@@ -410,7 +410,7 @@
 		"description": [
 			"## Rageshaper",
 			"",
-			"**Source** [Ultimate Wilderness pg. 82](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/82}  ",
 			"Not all shifters represent the balance of nature. The rageshaper is a destructive force of nature brought to bear-a wild and uncontrollable engine of annihilation fueled by wrath. Rageshapers fly into bloodletting frenzies and rain down devastation like unstoppable natural disasters.",
 			"",
 			"**Alignment:** A rageshaper can be any nonlawful alignment. A rageshaper who becomes lawful cannot take any further levels in rageshaper, but he does not lose access to any rageshaper abilities he has already gained.",
@@ -454,7 +454,7 @@
 		"description": [
 			"## Style Shifter",
 			"",
-			"**Source** [Martial Arts Handbook pg. 16](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/16}  ",
 			"Among the many warriors that train on Tian Xia's Wall of Heaven, a select few have been able to perfect their combat techniques to the point where they can augment a combat style by partially transforming into the creature that inspired it. These style shifters have honed their techniques and shared them with the rest of Golarion.",
 			"",
 			"**Armor Proficiency:** A style shifter is not proficient with medium armor or shields.",
@@ -500,7 +500,7 @@
 		"description": [
 			"## Swarm Shifter",
 			"",
-			"**Source** [Wilderness Origins pg. 7](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/7}  ",
 			"Swarm shifters channel the essence of the basest and most overlooked animals, vermin.",
 			"",
 			"**Vermin Aspect (Su):** As a swift action, a swarm shifter can transform into a swarm of vermin. While in her vermin form, she gains a +2 bonus to natural armor. Her size increases by one size category (as [enlarge person](spell/enlarge_person), except her reach does not increase to 10 feet), but she can occupy the same space as a creature of any size. She must still attack a target as normal, even if occupying the same space as her target. She can maintain this form for a number of minutes per day equal to 3 + her shifter level. The duration does not need to be consecutive, but it must be spent in 1-minute increments.",
@@ -556,7 +556,7 @@
 		"description": [
 			"## Verdant Shifter",
 			"",
-			"**Source** [Ultimate Wilderness pg. 83](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/83}  ",
 			"Verdant shifters have an affinity for plants rather than animals and gain a plantlike form that grows in power as they do. Verdant shifters are the enemies of creatures that would despoil the natural world, and they seek to maintain balance with civilization and industry to ensure the sanctity of wild spaces.",
 			"",
 			"**Speak with Plants (Sp):** At 1st level, a verdant shifter gains the ability to cast speak with plants as a spell-like ability a number of times per day equal to 3 plus her Charisma modifier.",
@@ -584,7 +584,7 @@
 		"description": [
 			"## Weretouched",
 			"",
-			"**Source** [Ultimate Wilderness pg. 83](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/83}  ",
 			"Weretouched shifters are scions of lycanthropic forces, whether hereditary or supernaturally imposed. They can assume both animal and hybrid forms, as a lycanthrope does.",
 			"",
 			"**Lycanthrope Aspect (Su):** At 1st level, a weretouched gains the shifter aspect ability, except the animal aspect chosen is the only animal aspect the weretouched can gain. This alters her other class features, as detailed in each relevant class feature. Otherwise, this ability functions identically to shifter aspect.",
@@ -608,7 +608,7 @@
 		"description": [
 			"## Wild Effigy",
 			"",
-			"**Source** [Construct Handbook pg. 15](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/15}  ",
 			"A wild effigy still takes on the shapes of natural animals, but rather than transforming her body into flesh and muscle, she transforms into constructed effigies of her chosen aspects.",
 			"",
 			"**Armor Plating (Su):** A wild effigy's animal aspects are made out of carved, living rock. When a wild effigy is shifted into one of her minor or major aspects, she gains a +1 enhancement bonus to natural armor and gains DR adamantine equal to half her shifter level (minimum 1). The enhancement increases by 1 at 4th level and every 4 levels thereafter, to a maximum of +6 at 20th level. At 6th level, these bonuses also apply when the wild effigy is transformed into one of her aspects using wild shape.",

@@ -4,7 +4,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 194](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/194}",
 			"",
 			"Monsters can be truly memorable and entertaining, but they can also be a lot of work if the GM needs to customize them or create new ones. The standard methods for creating monsters and NPCs are similar to those for creating player characters, but striking the right power balance can be challenging.",
 			"",
@@ -58,7 +58,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 196](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/196}",
 			"",
 			"The arrays presented in this section allow you to quickly derive the statistics for three broad types of monsters. Each one allows for a fair amount of customization-especially through monster options-but the monster's statistics stay close to the baselines set by PC progressions and [Table 1-1 in the Bestiary](rule/step_2_target_statistics). The options roughly correspond to the combat, skill, and spell roles used for monster advancement in the normal monster creation system. Therefore, if you were to recreate a monster with the combat role (such as an ogre or vrock), you would start with the combatant array. You can choose whichever array you prefer, unless the monster is meant to mimic an NPC created with a character class from [Step 2](rule/step_2_creature_type_or_class_graft) or a template from [Step 4](rule/step_4_template_graft). The three arrays are as follows.",
 			"",
@@ -99,7 +99,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 196](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/196}",
 			"",
 			"You might create a monster that should use the statistics for a character class, either because the monster would normally be created by adding class levels to the monster or because you think the monster's abilities are similar enough to those of a character class that it would be quicker to start with the class. In this case, look ahead to the [class grafts](rule/class_grafts) and use the array required by the class you desire. Keep in mind that a monster with class levels typically has a CR equal to its class level - 1, so if you want your monster to have particular level-dependent class abilities, you'll want to use the statistics for a CR that's 1 lower than the target class level.",
 			"",
@@ -124,7 +124,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 196](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/196}",
 			"",
 			"In the simple monster creation system, you don't use the normal calculations to generate your monster's final statistics. Instead, you take the numbers directly from the array, then make a few adjustments based on grafts and monster options later along in the process. In other words, if the array says the monster's Fortitude saving throw bonus is +11, that number is its total bonus-it's assumed to already include all bonuses from Hit Dice, classes, Constitution modifier, and magic items, regardless of later adjustments.",
 			"",
@@ -175,7 +175,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 198](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/198}",
 			"",
 			"The most common type of monster in most regions, a combatant is at its best on the battlefield. A combatant monster typically has high physical statistics and powerful attacks. Strong defenses, hit points, and attacks take precedence over skills and options. This array covers a wide variety of creatures, from brutish beasts to experienced generals.",
 			"",
@@ -298,7 +298,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 200](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/200}",
 			"",
 			"Possessing in-depth knowledge, experts often appear as leaders, trusted advisors, or elite operatives. An expert monster typically has a high Intelligence modifier, but its other statistics vary depending on its role. Strong skills and interaction options are an expert's most important traits, but as the expert array is more versatile than the other arrays, many experts also pick up the secondary magic option or tactical combat options.",
 			"",
@@ -419,7 +419,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 202](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/202}",
 			"",
 			"With a large selection of spells, a spellcaster might be weak in combat, or could focus on powerful offensive spells. A spellcaster monster typically has a high spellcasting ability modifier: Intelligence, Wisdom, or (often for monstrous creatures) Charisma. Spells make up for the spellcaster's weak combat abilities, modest skills, and small number of monster options.",
 			"",
@@ -541,7 +541,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 204](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/204}",
 			"",
 			"With the normal monster creation system, foundational statistics such as base attack bonus, saving throw bonuses, and hit points are calculated from a monster's creature type and class levels. In this system, a monster's array sets its main statistics based on the broad role and CR it fits into. Creature types and classes then adjust those statistics to better resemble a particular monster concept.",
 			"",
@@ -577,7 +577,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 204](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/204}",
 			"",
 			"Altering an array by creature type is a simple process that typically adds or changes some of the monster's statistics. Each creature type includes at least the first two entries.",
 			"",
@@ -752,7 +752,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/206}",
 			"",
 			"Class grafts are more detailed than creature type grafts, ensuring that they more closely represent a PC class of the appropriate level. Each class graft is divided into the following sections.",
 			"",
@@ -795,7 +795,7 @@
 		"subtitle": "Class Grafts, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/206}",
 			"",
 			"### Alchemist",
 			"",
@@ -925,7 +925,7 @@
 		"subtitle": "Class Grafts, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/206}",
 			"",
 			"### Cleric",
 			"",
@@ -1147,7 +1147,7 @@
 		"subtitle": "Class Grafts, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/206}",
 			"",
 			"### Magus",
 			"",
@@ -1350,7 +1350,7 @@
 		"subtitle": "Class Grafts, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/206}",
 			"",
 			"### Rogue",
 			"",
@@ -1538,7 +1538,7 @@
 		"subtitle": "Class Grafts, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 206](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/206}",
 			"",
 			"### Hybrid Classes",
 			"",
@@ -1585,7 +1585,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 214](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/214}",
 			"",
 			"Find the monster's subtype (if any) in the list below and apply all abilities listed there. For monsters that replicate common PC races (such as humans or elves), the subtype includes the equivalent of their important racial traits as well. These entries don't always include all the abilities a creature gains from the subtypes as they appear in Bestiary volumes; they omit rules that are only relevant for creating the creature, those that cover the monster's noncombat abilities (such as whether it eats or sleeps), and abilities that aren't as useful for NPCs as they would be for PCs (such as a dwarf's stonecunning ability).",
 			"",
@@ -1618,7 +1618,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 214](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/214}",
 			"",
 			"The following subtypes cover most of those presented in bestiaries, with the exception of those that either don't grant significant abilities or have such an impact on the monster that a graft can't cover them. Those subtypes appear in the \"Other Subtypes\" section below.",
 			"",
@@ -1752,7 +1752,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 216](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/216}",
 			"",
 			"These optional grafts replicate popular monster templates, and are applied on top of the creature type or class graft chosen for the monster. Template graft entries follow a format similar to creature type grafts.",
 			"",
@@ -1916,7 +1916,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 217](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/217}",
 			"",
 			"If your monster isn't Medium, apply a size graft. Because there are many other ways to alter a creature's AC, hit points, attack bonuses, and damage, these grafts don't adjust those values like size changes do in the core rules. Most headers list a minimum CR or maximum CR, as described in the previous step. Use caution if your monster is outside the minimum or maximum CR range. Touch and flat-footed AC never increase above the monster's total AC, and never decrease below 1.",
 			"",
@@ -1976,7 +1976,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"This step is only for monsters that use the spellcaster array. For monsters that know only a few spells (rather than being focused primarily on spellcasting), choose an array other than spellcaster and give the monster the secondary spellcasting universal option in [Step 7](rule/step_7_monster_options).",
 			"",
@@ -2016,7 +2016,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"The easiest way to choose spells for a monster is to select a spell list from among those on the following pages that best matches its theme, using the options in this section. A fey with powerful spell-like abilities might choose the enchantment, fey, nature, or trickery spell list. A wizard dedicated to flame might choose the fire spell list, a dedicated transmuter would likely pick the transmutation list, and a generalist might take the arcane or magic list.",
 			"",
@@ -2066,7 +2066,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"The following lists are themed to different uses of magic, and also correspond to bloodlines, domains, and other prominent spell themes. For a monster with a class graft, use the graft's suggested spell lists to help you choose the monster's spells."
 		],
@@ -2094,7 +2094,7 @@
 		"subtitle": "Spell Lists, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"The following lists are themed to different uses of magic, and also correspond to bloodlines, domains, and other prominent spell themes. For a monster with a class graft, use the graft's suggested spell lists to help you choose the monster's spells.",
 			"",
@@ -2239,7 +2239,7 @@
 		"subtitle": "Spell Lists, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"### Celestial Spell List",
 			"",
@@ -2382,7 +2382,7 @@
 		"subtitle": "Spell Lists, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"### Divination Spell List",
 			"",
@@ -2525,7 +2525,7 @@
 		"subtitle": "Spell Lists, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"### Glory Spell List",
 			"",
@@ -2670,7 +2670,7 @@
 		"subtitle": "Spell Lists, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"### Magic Spell List",
 			"",
@@ -2813,7 +2813,7 @@
 		"subtitle": "Spell Lists, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 218](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/218}",
 			"",
 			"### Stealth Spell List",
 			"",
@@ -2956,7 +2956,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/228}",
 			"",
 			"Options are the main way to specialize your monster. They represent feats, universal monster rules, magic items, and all the other abilities a monster has at its disposal beyond its statistics. There are a large number of monster options to choose from, especially compared to the number of choices you make during the other steps of the simple monster creation process. Some are active abilities (such as those that give the monster a special attack), others adjust statistics (such as the power attack option, which has the same purpose as the [Power Attack](feat/power_attack) feat), and still others grant conditional modifiers (such as combat casting's bonus to concentration checks). Unless specified otherwise, saving throw DCs in this section use the Ability DC from the monster's array, modified by the monster's grafts."
 		],
@@ -3002,7 +3002,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/228}",
 			"",
 			"Look at the number of monster options you're supposed to choose based on the monster's array and grafts. You should have a list saying how many to pick of each category. When you pick an option, write down the option's name and effects. Adjust any statistics the option's entry tells you to. After you've selected all the monster options you're supposed to, look at the list carefully. Does the monster do everything it needs to do? Does it seem like it has too few or too many options? Using your best judgment, add or remove options as necessary.",
 			"",
@@ -3078,7 +3078,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/228}",
 			"",
 			"Though these options are geared primarily toward combatants, consider giving every monster at least one combat option, unless you intend the monster to never fight in any battle."
 		],
@@ -3112,7 +3112,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 228](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/228}",
 			"",
 			"Thematically, monsters with higher mental ability modifiers are the most likely to have cunning combat options.",
 			"",
@@ -3180,7 +3180,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 232](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/232}",
 			"",
 			"These abilities are typically supernatural or inhuman in nature. If a monster is meant to be more like an NPC-and especially if it uses a PC race-avoid choosing monstrous combat options.",
 			"",
@@ -3286,7 +3286,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 234](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/234}",
 			"",
 			"These options are most appropriate for monsters with high Strength or that rely on overwhelming physical attacks.",
 			"",
@@ -3352,7 +3352,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 234](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/234}",
 			"",
 			"Monsters with high Dexterity tend to take quick combat options, many of which increase mobility.",
 			"",
@@ -3420,7 +3420,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 235](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/235}",
 			"",
 			"High-Constitution monsters beef up their resistance to being hurt with tough combat options.",
 			"",
@@ -3480,7 +3480,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 235](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/235}",
 			"",
 			"These options are primarily useful to spellcasters, though combatants and experts blessed with magic can take them."
 		],
@@ -3514,7 +3514,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 235](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/235}",
 			"",
 			"These options improve a monster's ability to bring minion creatures into the fight.",
 			"",
@@ -3558,7 +3558,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 236](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/236}",
 			"",
 			"These magic options are most useful for aggressive monsters that use their spells to deal damage.",
 			"",
@@ -3626,7 +3626,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 237](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/237}",
 			"",
 			"These magical benefits protect, heal, or improve the abilities of the monster or its allies.",
 			"",
@@ -3684,7 +3684,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 237](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/237}",
 			"",
 			"Most of these abilities grant more spellcasting abilities or reflect the monster's deep understanding or clever manipulation of magical forces.",
 			"",
@@ -3738,7 +3738,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 238](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/238}",
 			"",
 			"Monsters with the expert array are the most adept with social options, though a charming swashbuckler (combatant) or an inspiring priest (spellcaster) could also benefit from one."
 		],
@@ -3772,7 +3772,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 238](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/238}",
 			"",
 			"These abilities manipulate mental states to either hinder enemies or boost allies. Many of them are more applicable in combat than other social options.",
 			"",
@@ -3828,7 +3828,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 239](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/239}",
 			"",
 			"These options primarily factor into interactions other than combat. Most of them are good for creating adversaries who present a noncombat challenge or for quickly generating NPC allies with useful abilities.",
 			"",
@@ -3882,7 +3882,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 239](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/239}",
 			"",
 			"A universal option can be taken in place of any option granted by an array or graft, regardless of the intended option type. These abilities are suitable for multiple arrays and roles.",
 			"",
@@ -3952,7 +3952,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 240](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/240}",
 			"",
 			"Skill bonuses in simple monster creation are divided into two categories: good and master. A good skill is one the monster has a significant bonus in, representing what would normally come from a moderate ability modifier and a decent number of skill ranks. A master skill is one the monster is incredibly talented with, representing a high ability modifier, full skill ranks, and possibly a significant racial bonus.",
 			"",
@@ -3986,7 +3986,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 240](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/240}",
 			"",
 			"Your monster's array-and potentially its grafts, spell list boons, and options-will tell you how many good and master skills to assign that monster. You should assign whatever feels right during this step. You might decide that an especially scholarly spellcaster monster should have more master skills than normal, or that you want to follow the construct array's guidelines and forgo giving your construct any good or master skills at all. In any case, the total number of skills you choose should be within one or two of the suggested numbers.",
 			"",
@@ -4008,7 +4008,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 240](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/240}",
 			"",
 			"Picking a monster's skills should be simple. Typically, a monster should have master skills that match its highest ability modifiers. For example, if you have a monster with a high Dexterity modifier, consider Acrobatics, Escape Artist, and Stealth when choosing its master skills. If you find yourself unsure of which skills to give a monster, or if you draw a blank after selecting a few especially important ones, you can skip the rest of the skills step. A table listing the skills appears below for easy reference. To make it faster to select a monster's spells, the table is divided into the most useful combat skills in the left-hand column and all other skills in the right-hand column. Combatants typically choose only combat skills.",
 			"",
@@ -4057,7 +4057,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 241](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/241}",
 			"",
 			"Each weapon and type of natural attack has a damage dice value associated with it. The values in the monster arrays from Step 1 give only the total amount of damage each attack deals. Assigning the right damage dice to each of a monster's attacks helps make it fit more naturally with the rest of the game's rules. For damage dice for natural attacks, reference [Table 3-1: Natural Attacks by Size](umr/natural_attacks)."
 		],
@@ -4089,7 +4089,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 241](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/241}",
 			"",
 			"For each of the monster's attacks, cross-reference the total amount of damage dealt with its appropriate die size on the table below. This will assign a value of damage dice to roll plus a flat modifier to the damage. Use these dice and modifiers to roll the attack's damage.",
 			"",
@@ -4149,7 +4149,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 241](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/241}",
 			"",
 			"If a monster needs more attacks than the array allows, calculate the damage yourself. Start by combining the damage values in the monster's array: a monster that deals 20 points of damage with two natural attacks should deal 40 points of damage total. If the monster has a large number of secondary attacks (which are less likely to hit), increase the total damage value by 25% or 50%. Finally, divide the total among all attacks before using the table. You don't have to distribute it evenly if some attacks should deal less damage.",
 			"",
@@ -4219,7 +4219,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 242](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/242}",
 			"",
 			"To show the end result of the simple monster creation process described in this section, this section shows existing Pathfinder RPG monsters recreated using this system."
 		],
@@ -4251,7 +4251,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 242](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/242}",
 			"",
 			"This long-form example gives a detailed breakdown of monster creation from start to finish, resulting in a new medusa archer. This illustrates the steps of the process, and shows how to think about creating a monster using this variant system. Throughout, it compares the new medusa to the [original](monster/medusa).",
 			"",
@@ -4331,7 +4331,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"The following sections re-create monsters found in the Bestiary. Many of them are variants on the initial creatures, meant to mimic creatures with class levels or alternate ability sets. Each entry includes a breakdown of the significant choices made for the monster, discounting simple procedures such as selecting the attacks and damage for a monster that don't deviate from its array numbers. After each breakdown, the monster's statistics appear in a new format unique to this section, as described below. The monsters are presented in order from simplest to most complex. Some of the monsters that appear early on-particularly combatants-have a high CR but simple abilities, so they're still easy to create.",
 			"",
@@ -4377,7 +4377,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"The worg is easy to create since it's a simple monster.",
 			"",
@@ -4443,7 +4443,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"As a big, dumb creature, the mastodon requires only a few adjustments despite its high CR.",
 			"",
@@ -4513,7 +4513,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"A majestic aerial hunter, the griffon's only significant adjustments come from its type and size.",
 			"",
@@ -4580,7 +4580,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"The goblin fighter is a suitable minion for any overlord, provided it doesn't burn the fortress down.",
 			"",
@@ -4652,7 +4652,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"Some templates have complicated alterations, but the zombie template is fairly easy to apply.",
 			"",
@@ -4720,7 +4720,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"The bat swarm is straightforward to create, but its swarm subtype is complicated and grants it additional features that make it unlike other monsters.",
 			"",
@@ -4791,7 +4791,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"A vexing adversary, this imp has a variety of extra options to confound its enemies.",
 			"",
@@ -4866,7 +4866,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"This monster uses different gear than the Bestiary fire giant, but has the same CR.",
 			"",
@@ -4939,7 +4939,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"With its unique pipes, the satyr requires a custom ability not included in the monster options.",
 			"",
@@ -5014,7 +5014,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"This creature has access to nature magic, much like a druid would. However, turning it into a spellcaster would make it feel unlike a burly frost giant. Instead, this stat block starts with the combatant array and draws inspiration from the options of the druid class graft. This monster is meant to fight alongside a mastodon as a CR 13 encounter.",
 			"",
@@ -5094,7 +5094,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"For an alternative to the vampire sorcerer in the Bestiary, this vampire is a cleric of a slightly higher CR.",
 			"",
@@ -5175,7 +5175,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"The ogre mage oni are devious shapeshifters who combine martial prowess with magical threats.",
 			"",
@@ -5252,7 +5252,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"The night hag soul collector is not only a dangerous opponent; she is also dangerously well connected. She can force her captured souls to do her bidding to augment her own combat effectiveness, granting her powers from the summoner class graft.",
 			"",
@@ -5366,7 +5366,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"A six-armed general of the abyssal hordes, the marilith is iconic for its overwhelming number of attacks. This marilith uses custom options to better reflect her skills as a general.",
 			"",
@@ -5443,7 +5443,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"This ancient blue dragon has additional attacks, with damage extrapolated from the natural attacks column for CR 18. Despite being a combatant, it has a reduced spellcasting ability (as if it were a CR 12-15 spellcaster) with a DC halfway between combatant and spellcaster to represent a dragon's natural spellcasting prowess. The spells are customized for this dragon, and it doesn't receive an additional boon from selecting one of the preset lists.  ",
 			"The dragon has seven options instead of four to reflect its many talents, including several built into its statistics: damage reduction, extra armor, and spell resistance. It adds +4 to the DC of its breath weapon to reflect at ability's raw power. The dragon gains additional Wisdom and Charisma modifiers of +5. It uses the expert array's number of skills, and has the flying acumen option built into its statistics.",
@@ -5519,7 +5519,7 @@
 		"subtitle": "Monster Examples, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 243](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/243}",
 			"",
 			"With a diverse spread of abilities useful for both combat and spellcasting, a pit fiend remains fairly complex to create even in the simple monster creation system. It's not really 100% a combatant, so it requires special statistical adjustments.",
 			"",
@@ -5594,7 +5594,7 @@
 		"name": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 198](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/198}",
 			"",
 			"All armor in the Pathfinder Roleplaying Game is constructed of pieces and parts that are carefully (or hastily) donned each time the armor is used. While a full suit of armor is always more protective than wearing pieces of armor, sometimes a character does not have time to don an entire suit of armor before jumping into the fray. Other times characters may not have access to an entire suit of armor; in dire situations, they may need to find pieces or parts of armor among lower-level treasure hoards, or they have to scavenge from the bodies of fallen foes in order to protect themselves.",
 			"",
@@ -5629,7 +5629,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 198](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/198}",
 			"",
 			"The piecemeal armor system splits up armor into three general types of armor pieces. An armor piece is a small group of armor parts, rather than simply being any discrete part of the armor. A single armor piece comprises the armor parts one needs to protect its corresponding area-either the arms, the legs, or the torso (including the head); a single arm or leg armor piece provides armor for both arms or both legs, respectively. A plate arm armor piece typically consists of pairs of pauldrons, gardbraces, rerebraces, vambraces, and gauntlets along with bits of chainmail and padded armor, while a chain lamellar arm armor piece consists of two chain sleeves, gauntlets, and perhaps pairs of pauldrons and couters. Both protect the arms, though they have a different number of specific parts and types of overall components.",
 			"",
@@ -5668,7 +5668,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 198](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/198}",
 			"",
 			"If you are proficient with an armor category, you are also proficient with the armor pieces of that category. For example, if you are proficient with light armor, you are proficient with all light armor pieces. Some torso armor pieces (such as chain, plate, and agile plate torso armor pieces) are a category lighter if worn alone (treat as a chain shirt, breastplate, and agile breastplate, respectively).",
 			"",
@@ -5693,7 +5693,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/199}",
 			"",
 			"Any individual armor piece can be of masterwork construction or constructed of special materials, or, if it is of masterwork construction, it can be magically enchanted at the standard cost listed in the Core Rulebook. In this manner, each armor piece is treated as its own type of armor, but most armorers and magic item crafters know that this is an inefficient way of making and enchanting armor.",
 			"",
@@ -5731,7 +5731,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/199}",
 			"",
 			"Armor pieces made of adamantine grant their wearers damage reduction of 1/- if they are light armor, 2/- if they are medium armor, and 3/- if they are heavy armor. Adamantine armor pieces are always masterwork in quality. Armor pieces normally made of steel that are made of adamantine have one-third more hit points than normal.",
 			"",
@@ -5760,7 +5760,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/199}",
 			"",
 			"If the dragonhide used to construct this armor comes from a dragon that had immunity to an energy type, the armor pieces also have immunity to that energy type. A piece of dragonhide armor costs double the armor piece cost + 100 gp. Alternatively, a plate torso armor piece can be constructed from dragonhide for 700 gp, and an agile plate torso armor piece can be constructed from dragonhide for 1,100 gp. Dragonhide armor pieces retain dragonhide's usual 25% reduction in cost when adding matching energy protection to them."
 		],
@@ -5780,7 +5780,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 199](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/199}",
 			"",
 			"Armor pieces made of mithral are lighter than steel, but are just as hard. Mithral armor pieces are less cumbersome to move in. Medium armor pieces that feature a reduced movement do not have a reduced movement when they are made from mithral. Heavy armor pieces that reduce the wearer's run speed to triple her speed instead of quadruple her speed do not do so when they are made from mithral or are part of a mithral armor suit.",
 			"",
@@ -5813,7 +5813,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/200}",
 			"",
 			"The time required to don an armor piece is based on its type and the area it protects; see Table 5-6.",
 			"",
@@ -5856,7 +5856,7 @@
 		"name": "Armor Pieces for Unusual Creatures",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/200}",
 			"",
 			"Armor pieces for unusually big creatures, unusually little creatures, and non-humanoid creatures (such as horses) have different costs and weights from those given in Tables [5-7](rule/arms), [5-8](rule/legs), and [5-9](rule/torso). Refer to the appropriate line in [Table 6-8](rule/armor_for_unusual_creatures) and apply the multipliers to cost and weight. For animals with four or more legs, the armor for half of the legs counts as the leg armor piece, and the armor for the other half counts as the arm armor piece."
 		],
@@ -5878,7 +5878,7 @@
 		"name": "Armor and Armor Piece Hit Points and Hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/200}",
 			"",
 			"To determine the hit points and hardness of your armor, use the hardness for the weakest material, and to determine hit points, add the total armor bonus (including the +1 for wearing a complete suit of armor) and multiply that value by 5. If you need to determine the hardness and hit points for a single armor piece, it has the hardness of its main material and hit points equal to its armor bonus (treat as +1 for armor pieces with a +0 armor bonus) &times; 5. [Hardness for substances can be found in Table 7-13](rule/breaking_things)."
 		],
@@ -5900,7 +5900,7 @@
 		"name": "Armor Piece Descriptions",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/200}",
 			"",
 			"The following pieces of armor make up the piecemeal armor system, and are split into three armor groups."
 		],
@@ -5928,7 +5928,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 200](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/200}",
 			"",
 			"With the smallest area to protect, arm armor pieces tend to have the lowest armor value of all the piecemeal armor types, with light armor pieces offering little to no protection unless they are part of a complete suit. Because arm armor pieces tend to interfere with hand movements needed for somatic components, they offer the highest spell failure chance.",
 			"",
@@ -6018,7 +6018,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 202](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/202}",
 			"",
 			"Heavier leg armor pieces slow down their wearers and provide higher armor check penalties, but are less restrictive to spellcasters than heavier arm armor pieces.",
 			"",
@@ -6106,7 +6106,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 203](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/203}",
 			"",
 			"The torso armor piece provides the most protection, but also usually provides the most hindrances to the wearer.",
 			"",
@@ -6220,7 +6220,7 @@
 		"name": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/206}",
 			"",
 			"Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat-in other words, that the decreasing hit points are a marker for his overall endurance and condition. It's not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword's slash made the enemy a little less lucky.",
 			"",
@@ -6252,7 +6252,7 @@
 		"name": "Determining Wound Points and Vigor Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/206}",
 			"",
 			"Instead of hit points, creatures using this system have a number of wound points and vigor points. These two replacement scores are kept track of separately, and represent different ways a character handles the damage inflicted on him. The following are descriptions of these scores and how they work within the variant system of damage tracking."
 		],
@@ -6276,7 +6276,7 @@
 		"name": "Wound Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/206}",
 			"",
 			"Typically a creature has a number of wound points equal to twice its Constitution score. It also has a wound threshold equal to its Constitution score.",
 			"",
@@ -6300,7 +6300,7 @@
 		"name": "Vigor Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/206}",
 			"",
 			"Vigor represents a creature's ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see [Critical Hits](rule/attacks_that_deal_wound_point_damage)).",
 			"",
@@ -6322,7 +6322,7 @@
 		"name": "Regaining Wound Points and Vigor Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 206](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/206}",
 			"",
 			"A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points.",
 			"",
@@ -6350,7 +6350,7 @@
 		"name": "Attacks that Deal Wound Point Damage",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 207](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/207}",
 			"",
 			"Some attacks can be used to deal wound points damage directly.",
 			"",
@@ -6375,7 +6375,7 @@
 		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 207](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/207}",
 			"",
 			"The following are a few other considerations to take into account when using the wounds and vigor system.",
 			"",
@@ -6401,7 +6401,7 @@
 		"name": "Wounds and Vigor Variant Feats",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 207](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/207}",
 			"",
 			"The following feats are either new for the wounds and vigor system or work differently in that system.",
 			"",
@@ -6449,7 +6449,7 @@
 		"name": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"**Source** [Blood of the Night pg. 22](source/blood_of_the_night)  ",
+			"{SOURCE Blood of the Night/22}  ",
 			"\"Hunger\" is perhaps a misleading term to describe a vampire's lust for flesh, consciousness, or youth. As unliving things, they technically require no sustenance, and yet ravenousness is often considered a key characteristic of those who walk without life. In truth, this desire is driven not by need, but by psychological greed. Feasting grants the undead no physical nourishment, but does fill them with a pleasure and power they can't attain by any other means. For undead, the act of feeding can be likened to that of an addict satiating her inner demon.",
 			"",
 			"The basest monsters pursue their addiction to the exclusion of anything else, but vampires and other greater undead are closer to functioning addicts-simultaneously managing their hunger and their more high-minded schemes. If denied living nectar for too long, however, even the sharpest creatures hurl themselves at whichever warm, soft parts of the living they most covet.",
@@ -7333,7 +7333,7 @@
 			"Ultimate Intrigue"
 		],
 		"description": [
-			"**Source** [Ultimate Intrigue pg. 132](source/ultimate_intrigue), [Pathfinder RPG Bestiary pg. 316](source/pathfinder_rpg_bestiary)",
+			"{SOURCE Ultimate Intrigue/132;Pathfinder RPG Bestiary/316}",
 			"",
 			"Sometimes befriending a monster instead of relying on force can lead to a particularly satisfying experience. Below is a list of potential monster cohorts linked to their monster entry. A monster cohort gains experience points as if it were a character of its cohort level, and when it gains enough XP to advance a level, it should generally gain a key class level (fighter is often the best choice for most cohorts).",
 			"",
@@ -7531,7 +7531,7 @@
 		"subtitle": "Research, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"**Source** [Ultimate Intrigue pg. 152](source/ultimate_intrigue)",
+			"{SOURCE Ultimate Intrigue/152}",
 			"",
 			"Libraries can exist in a wide variety of forms, from actual collections of printed books, handwritten scrolls, and indexed volumes to single, encyclopedic tomes of abstruse wisdom or painstakingly detailed legal contracts full of impenetrable language. The following are some examples of types of libraries characters might visit to conduct research. Rather than a specific name, each of these sample libraries is given a generic title that indicates the nature of its collections or where it might be located. GMs can use these examples as guidelines for creating their own custom libraries.",
 			"",
@@ -7675,7 +7675,7 @@
 		"subtitle": "Influence, Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"**Source** [Ultimate Intrigue pg. 114](source/ultimate_intrigue)",
+			"{SOURCE Ultimate Intrigue/114}",
 			"",
 			"The sample organizations in this section span all possible levels of influence. The organizations that are relevant to each GM depend upon the campaign.",
 			"",

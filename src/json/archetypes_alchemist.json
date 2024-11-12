@@ -5,7 +5,7 @@
 		"description": [
 			"## Aerochemist",
 			"",
-			"**Source** [Blood of the Ancients pg. 25](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/25}  ",
 			"Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemists are able to emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.",
 			"",
 			"**Aeromantic Concoction (Su):** An aerochemist learns to craft a special alchemical concoction. It takes 10 minutes to brew a dose of this concoction, and once brewed, it remains potent until used. An aerochemist can maintain only 1 dose of this concoction at a time-if he brews a second dose, any existing concoction becomes inert. As with an extract or bomb, an aeromantic concoction that is not in the aerochemist's possession becomes inert until he picks it up again. Anyone other than the aerochemist who attempts to drink his aeromantic concoction is affected in the same fashion as is a non-alchemist who drinks an alchemist's mutagen.",
@@ -31,7 +31,7 @@
 		"description": [
 			"## Alchemical Sapper",
 			"",
-			"**Source** [Ultimate Intrigue pg. 18](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/18}  ",
 			"Alchemical sappers are trained to create explosives.",
 			"",
 			"**Diminished Alchemy:** An alchemical sapper can prepare one fewer extract of each level than normal. If this reduces the number to 0, he can prepare extracts of that level only if his Intelligence allows bonus extracts of that level.",
@@ -73,7 +73,7 @@
 		"description": [
 			"## Alchemical Trapper",
 			"",
-			"**Source** [Monster Codex pg. 128](source/monster_codex)  ",
+			"{SOURCE Monster Codex/128}  ",
 			"Because kobolds rely on traps to soften up enemies, kobold alchemists learn to turn bombs into traps. When such alchemists are preparing defenses against larger creatures that might enter their tunnels and attempt to exterminate them, their skills mean the difference between life and death.",
 			"",
 			"**Bomb Trap (Su):** At 2nd level, an alchemical trapper can use one of her bombs to make a trap. Setting a bomb trap is a full-round action that provokes attacks of opportunity. A bomb trap fills a single 5-foot square and cannot be placed in the same area as any other trap. The alchemical trapper needs the same materials required for making a bomb. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and saving throws to avoid it are equal to the DC for the alchemical trapper's bombs. All bomb traps have location triggers and do not reset. The alchemical trapper can use any one discovery that applies to a bomb when making a bomb trap. The bomb trap lasts 10 minutes for each alchemist level the trapper possesses. If the bomb trap is not disabled or exploded within that time frame, the trap becomes inert. Creating a bomb trap uses one of the alchemical trapper's bombs per day. This ability replaces the discovery at 2nd level.",
@@ -87,7 +87,7 @@
 		"description": [
 			"## Aquachymist",
 			"",
-			"**Source** [Aquatic Adventures pg. 49](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/49}  ",
 			"The principles of alchemy work equally well underwater and on land, but mixing solutions and keeping them pure is a tougher task beneath the waves. Aquachymists are those rare few alchemists of land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that can be discovered only in the water's depths.",
 			"",
 			"**Class Skills:** An aquachymist has Swim as a class skill instead of Fly. This alters the alchemist's class skills.",
@@ -111,7 +111,7 @@
 		"description": [
 			"## Beastmorph",
 			"",
-			"**Source** [Ultimate Combat pg. 25](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/25}  ",
 			"Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers. They use their knowledge to duplicate these abilities, but at the cost of taking on inhuman shapes when they use mutagens.",
 			"",
 			"**Beastform Mutagen:** At 3rd level, a beastmorph's mutagen causes him to take on animalistic features-whether those of an animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid. For example, when the beastmorph uses his mutagen, he may gain a furry muzzle and pointed ears like a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a giant insect. The beastmorph also gains his choice of one of the abilities listed in the [alter self](spell/alter_self) spell, which persists as long as the mutagen. He may select a different ability each time he creates a mutagen. This ability replaces swift alchemy.",
@@ -131,7 +131,7 @@
 		"description": [
 			"## Blazing Torchbearer",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/21}  ",
 			"The blazing torchbearer is especially adept at manipulating flames of all kinds.",
 			"",
 			"**Everburning Flame (Ex):** Any torch held by a blazing torchbearer is considered to be an [everburning torch](equipment-misc/everburning_torch), although it still sheds heat and can be used as a weapon. In addition, a blazing torchbearer can cast [spark](spell/spark) as a spell-like ability at will. This ability replaces Brew Potion.",
@@ -147,7 +147,7 @@
 		"description": [
 			"## Blightseeker",
 			"",
-			"**Source** [Heroes of the Darklands pg. 10](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/10}  ",
 			"Blightseekers are alchemists devoted to the study of fungi native to the Darklands. While diverse fungi exist on the surface world, the unique combination of environmental conditions found in the Darklands fosters the growth of unpredictable and otherworldly fungal growths.",
 			"",
 			"**Spore Bomb (Su):** At 1st level, a blightseeker creates a special kind of alchemist bomb that delivers a payload of alchemically engineered fungal spores. These bombs infest their target with a virulent blight (see below). The blightseeker's bombs deal 1d4 points of damage (instead of 1d6), plus 1d4 points of damage for every 2 alchemist levels beyond 1st.",
@@ -201,7 +201,7 @@
 		"description": [
 			"## Blood Alchemist",
 			"",
-			"**Source** [Horror Adventures pg. 44](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/44}  ",
 			"Most alchemists can transform matter and energy into other forms, but some wicked specialists realize that life itself is an energy that can greatly fuel their alchemy.",
 			"",
 			"**Alignment:** A blood alchemist trades the lives of others for more power when using his lifeblood ability. A nonevil blood alchemist can't use the lifeblood ability, but he can use his other archetype and class abilities, and he can continue to advance in alchemist.",
@@ -229,7 +229,7 @@
 		"description": [
 			"## Bogborn Alchemist",
 			"",
-			"**Source** [Advanced Race Guide pg. 191](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/191}  ",
 			"Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively. These bogborn alchemists have the following class features.",
 			"",
 			"**Class Skills:** A bogborn alchemist adds Swim to his list of class skills.",
@@ -247,7 +247,7 @@
 		"description": [
 			"## Bramble Brewer",
 			"",
-			"**Source** [Advanced Race Guide pg. 44](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/44}  ",
 			"Some half-elven alchemists merge human curiosity with their elven link to nature. Such alchemists can manipulate the forces of alchemy to create bombs that reshape terrain and defoliate swaths of vegetation or to create mutagens that bestow the resilience of oak or the tenacity of bamboo. A bramble brewer has the following class features.",
 			"",
 			"**Briar Bombs (Su):** At 2nd level, a bramble brewer gains the tanglefoot bomb discovery, but the entanglement's duration persists for a number of rounds equal to the bramble brewer's Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot bomb, it transforms all squares in its splash radius into difficult terrain that persists for as long as the bomb's entangling effect. Although these bombs deal no damage, for every 1d6 points of damage the bramble brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet. This ability replaces the 2nd-level discovery class feature.",
@@ -269,7 +269,7 @@
 		"description": [
 			"## Chirurgeon",
 			"",
-			"**Source** [Ultimate Magic pg. 18](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/18}  ",
 			"An alchemist who studies anatomy and uses this knowledge to heal is a chirurgeon. A chirurgeon has the following class features.",
 			"",
 			"**Infused Curative:** At 2nd level, a chirurgeon's extracts of cure spells automatically act as infusions, and can be used by non-alchemists. When a chirurgeon prepares his extracts, he may choose to render any or all of his infused curatives inert and prepare other extracts to replace them (unlike infusions, which continue to occupy the alchemist's daily extract slots until consumed or used). This ability replaces poison use.",
@@ -287,7 +287,7 @@
 		"description": [
 			"## Clone Master",
 			"",
-			"**Source** [Ultimate Magic pg. 18](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/18}  ",
 			"Clone masters practice duplicating existing creatures in order to better understand how to create new life. A clone master has the following class features.",
 			"",
 			"**Bomb:** A clone master's bombs deal damage one die step lower than normal (regular bombs deal d4s, concussive bombs deal 1d3s, and so on). This otherwise functions as and replaces the standard alchemist bomb class feature.",
@@ -309,7 +309,7 @@
 		"description": [
 			"## Concocter",
 			"",
-			"**Source** [Potions and Poisons pg. 8](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/8}  ",
 			"Experts at combining sets of chemicals to create unique effects, concocters specialize in blending extracts, mutagens, and potions to create concoctions that give them exhilarating powers. Concocters seem reckless to those who aren't familiar with their ways, but those who know them understand that these alchemists simply have unorthodox methods.",
 			"",
 			"**Mutagenic Mixology (Ex):** At 2nd level, whenever a concocter brews a potion, he can mix in some of the chemicals he uses to create his mutagen, adding some of his mutagen's effects to this concoction.",
@@ -344,7 +344,7 @@
 		"description": [
 			"## Construct Rider",
 			"",
-			"**Source** [Cohorts and Companions pg. 12](source/cohorts_and_companions)  ",
+			"{SOURCE Cohorts and Companions/12}  ",
 			"A construct rider creates arcane devices to emulate and surpass weak flesh.",
 			"",
 			"**Class Skills:** The construct rider gains Ride (Dex) and Knowledge (engineering) (Int) as class skills.",
@@ -374,7 +374,7 @@
 		"description": [
 			"## Crimson Chymist",
 			"",
-			"**Source** [Adventurer's Guide pg. 156](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/156}  ",
 			"[Red Mantis](rule/aff_assassins) agents are easily identifiable by their iconic equipment. Yet some assassins believe even subtler killing methods can be employed while still honoring Achaekek. These crimson chymists turn to the alchemical arts, infusing their bodies with the mutagenic essence of the Mantis God.",
 			"",
 			"**Crimson Discoveries (Su):** A crimson chymist gains access to several additional unique discoveries, as detailed below.",
@@ -400,7 +400,7 @@
 		"description": [
 			"## Cruorchymist",
 			"",
-			"**Source** [Construct Handbook pg. 12](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/12}  ",
 			"Cruorchymists see their blood as just another tool for their experiments. They use this blood to create new life that can be commanded to serve the cruorchymist's goals.",
 			"",
 			"**Blood Familiar (Ex):** A cruorchymist has created a [homunculus](monster/homunculus) from basic materials and his own blood. The homunculus takes the shape of a Tiny humanoid. It functions in all ways as a [familiar](sidekick/familiar), treating the cruorchymist's alchemist level as his effective wizard level. If a cruorchymist wishes to replace his blood familiar, he can reduce the cost of the replacement ritual by taking 2 points of Constitution drain for every 100 gp he wishes to forgo. At 3rd level, if the cruorchymist has the infusion [discovery](ability/discoveries), a blood familiar can deliver extracts that have a range of touch for its cruorchymist master.",
@@ -420,7 +420,7 @@
 		"description": [
 			"## Crypt Breaker",
 			"",
-			"**Source** [Inner Sea Magic pg. 33](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/33}  ",
 			"Crypt breakers are most common in Osirion, where they use their powers of perception and alchemical adaptation to safely investigate the mysteries of that lands' past. They are often involved in expeditions into dangerous tombs and catacombs, where their ability to create alchemical devices designed to neutralize constructs and undead are often crucial to survival. A crypt breaker has the following class features.",
 			"",
 			"**Alkahest Bombs (Su):** A crypt breaker's bombs are specially designed to work best against constructs and corporeal undead-two foes commonly encountered in ancient tombs. Known as alkahest bombs, these bombs deal acid damage instead of fire damage. Alkahest is an alchemical fluid that eats away unliving flesh and animated constructs, but it doesn't work as well against other targets. Against constructs and corporeal undead, alkahest bombs deal 1d8 points of damage, plus 1d8 points of damage for every odd-numbered level instead of 1d6. Against all other creatures, alkahest bombs deal 1d4 points of damage, plus 1d4 points of force damage for every odd-numbered level. This ability otherwise functions as and replaces the standard alchemist bomb class feature.",
@@ -440,7 +440,7 @@
 		"description": [
 			"## Deep Bomber",
 			"",
-			"**Source** [Advanced Race Guide pg. 205](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/205}  ",
 			"Consumed with keeping hidden from the horrors below the surface, svirfneblin use their racial proclivity for alchemy and their inherent talent for obfuscation to strike their enemies from the darkness and retreat unseen. A deep bomber has the following class features.",
 			"",
 			"**Silent Bomb:** At 2nd level, when the deep bomber creates a bomb, he can choose to have it explode without making any noise, although those damaged by it may cry out. This ability replaces poison use.",
@@ -458,7 +458,7 @@
 		"description": [
 			"## Dimensional Excavator",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 14](source/magic_tactics_toolbox)  ",
+			"{SOURCE Magic Tactics Toolbox/14}  ",
 			"Alchemists are often drawn to the Mana Wastes to study the strange energies and interactions that can be found there. Though many overeager alchemists ultimately disappear during research expeditions, more cautious scholars of alchemy in Alkenstar are content to simply read the notes left behind by their more adventurous kindred. Some of these scholars have discovered and recorded ways to cause their bombs to create minor tears in the fabric of reality, forming extradimensional pits to vex their foes.",
 			"",
 			"**Extradimensional Extract (Su):** The intense study a dimensional excavator applies to dimensional forces causes him to treat his class level as 2 lower when qualifying for alchemist discoveries other than those granted by Precipitous Discoveries (see below). At 4th level, the dimensional excavator adds [create pit](spell/create_pit) to his list of extracts known, treating it as a 2nd-level alchemist extract. He can create an extract of this spell, which can then be thrown as a ranged attack, targeting a creature or square. If it strikes a square, the pit manifests in that area and all nearby creatures are affected normally. If a creature is struck, the pit manifests in the creature's location, and the struck creature must succeed at a Reflex save with a -2 penalty or fall into the pit.",
@@ -476,7 +476,7 @@
 		"description": [
 			"## Dragonblood Chymist",
 			"",
-			"**Source** [Legacy of Dragons pg. 12](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/12}  ",
 			"For alchemists, the key to effective mixtures lies in potent ingredients, and what could be more formidable than the blood of wyrms? The dragonblood chymists of Kaer Maga specialize in the reckless distillation of extracts and elixirs that allow them to experience the might of a dragon, however dangerous it might be",
 			"",
 			"**Dragonblood Mutagen (Su):** At 1st level, a dragonblood chymist discovers how to create a mutagen that he can imbibe in order to mimic the might of a dragon. While he maintains his original form, his features take on a draconic appearance, becoming scaly and lizard-like. He gains a +2 natural armor bonus and a +2 alchemical bonus to his Strength for 10 minutes per class level.",
@@ -500,7 +500,7 @@
 		"description": [
 			"## Ectochymist",
 			"",
-			"**Source** [Occult Adventures pg. 112](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/112}  ",
 			"Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other incorporeal creatures.",
 			"",
 			"**Class Skills:** An ectochymist adds Knowledge (religion) to his list of class skills. This alters the alchemist's class skills.",
@@ -526,7 +526,7 @@
 		"description": [
 			"## Ectoplasm Master",
 			"",
-			"**Source** [Haunted Heroes Handbook pg. 14](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/14}  ",
 			"Able to distill spectral horrors into alchemical reagents, the eccentric techniques of the ectoplasm master originated among agents of the [Whispering Way](rule/f_gravepath), though their secrets have since been exposed and spread to the winds by their rivals in the Esoteric Order of the Palatine Eye. Today, the ectoplasm master is not automatically regarded as an agent of sinister evil as a result.",
 			"",
 			"**Ectoplasmic Extracts (Su):** Instead of using alchemical reagents in order to create alchemical items (including his bombs, extracts, and mutagens), an ectoplasm master uses reagents such as corpse dust, crystallized ectoplasm, and similar reagents as alchemical catalysts. Just as with standard alchemists, the costs of these materials are insignificant and are comparable to the costs of the valueless material components of most spells. As a result of his eccentric techniques and use of odd alchemical components, an ectoplasm master has an expanded formula list. He adds all sorcerer/wizard spells of 6th level or lower from the necromancy school to his alchemist formula list (but must still learn each of these spells normally). If a spell appears on both the alchemist formula list and the sorcerer/wizard spell list, the ectoplasm master uses the lower of the two spell levels listed for the spell.",
@@ -548,7 +548,7 @@
 		"description": [
 			"## Eldritch Poisoner",
 			"",
-			"**Source** [Black Markets pg. 28](source/black_markets)  ",
+			"{SOURCE Black Markets/28}  ",
 			"Eldritch poisoners are masters of the toxic arts, synthesizing lethal and incapacitating poisons with uncanny speed and expertise.",
 			"",
 			"**Arcanotoxin (Su):** An eldritch poisoner can blend volatile chemicals and her own personal magic to create deadly poisons known as arcanotoxins. She can use this ability a number of times each day equal to her alchemist level + her Intelligence modifier. An arcanotoxin functions only when used by the eldritch poisoner and becomes inert if not used within 1 minute. Creating an arcanotoxin is a standard action, and it can be applied to a weapon as a move action.",
@@ -607,7 +607,7 @@
 		"description": [
 			"## Energist",
 			"",
-			"**Source** [Planar Adventures pg. 13](source/planar_adventures)  ",
+			"{SOURCE Planar Adventures/13}  ",
 			"While most alchemists experiment mainly with chemicals and physical materials to create disparate effects, energists tap into the energy of life or death: positive energy or negative energy. Energists are more likely than most alchemists to follow strange traditions and to travel the planes, discussing theories with jyoti, sceaduinars, and undead alike. Energists are often found in lands with unusual variations between life and death, such as Geb, or Virlych in Ustalav.",
 			"",
 			"The energist is an unusual archetype in that all who choose this specialized path must select one of two types of energy to focus on-positive energy or negative energy. The mechanics of how this archetype alters the basic alchemist class abilities function the same regardless of this choice, but these two schools of thought are diametrically opposed in every way. Just as positive energy and negative energy react violently when mixing together, energists of opposing themes traditionally interact violently. Although most who choose positive energy tend to be of good alignment and those who focus on negative energy gravitate toward evil, there is no underlying ethical or moral restriction for an energist to adhere to. Positive energy can be used for evil purposes, and negative energy to pursue good goals. But even then, energists whose alignments and philosophies otherwise would seem to match find themselves at odds if their chosen energies oppose the other.",
@@ -635,7 +635,7 @@
 		"description": [
 			"## Energy Scientist",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 30](source/elemental_masters_handbook)  ",
+			"{SOURCE Elemental Master's Handbook/30}  ",
 			"Energy scientists fervently prepare themselves to overcome exposure to specific elemental hazards so that they can traverse the Elemental Planes in search of novel discoveries and reagents.",
 			"",
 			"**Class Skills:** An energy scientist adds Knowledge (planes) and Swim to his class skills.",
@@ -667,7 +667,7 @@
 		"description": [
 			"## Fermenter",
 			"",
-			"**Source** [Potions and Poisons pg. 8](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/8}  ",
 			"Little more than moonshiners to some, fermenters focus their efforts on imbibing substances, learning from the resulting effects on their bodies, and infusing this knowledge into their skill sets. Fermenters consider themselves living experiments and accept the risks and benefits inherent in their work.",
 			"",
 			"**Substance Tolerance (Ex):** At 2nd level, whenever a fermenter consumes a drug, she gains a +2 bonus on her [saving throw to resist becoming addicted](rule/addiction). Whenever she consumes a tincture, she gains its usual benefits, but all penalties imposed are reduced by 1. (If the tincture's penalties instead impose a condition or another penalty that is not numerical, such as the penalties imposed by starlight juice, this ability has no effect at 2nd level.) Additionally, the fermenter can consume a number of alcoholic beverages equal to one plus three times her Constitution modifier before becoming sickened for 1 hour per drink above this maximum. ([Normal rules for drunkenness can be found here.](rule/drunkenness)) The bonus on saving throws to resist addiction increases to +3 at 8th level and to +4 at 10th level. At 10th level, the fermenter suffers no penalties at all from drinking tinctures, including conditions and other non-numerical penalties ([starlight juice](equipment-misc/starlight_juice) would not make her dazzled, for example). Additionally, at 10th level she can consume a number of alcoholic beverages equal to one plus four times her Constitution modifier before becoming sickened.",
@@ -689,7 +689,7 @@
 		"description": [
 			"## Fire Bomber",
 			"",
-			"**Source** [Advanced Race Guide pg. 117](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/117}  ",
 			"Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not quite as good at creating other types of bombs or extracts. A fire bomber has the following class features.",
 			"",
 			"**Weapon and Armor Proficiency:** A fire bomber treats torches as a simple weapon.",
@@ -715,7 +715,7 @@
 		"description": [
 			"## First World Innovator",
 			"",
-			"**Source** [Legacy of the First World pg. 6](source/legacy_of_the_first_world)  ",
+			"{SOURCE Legacy of the First World/6}  ",
 			"The First World's energies slowly leak into the Material Plane, haphazardly infusing mundane reagents with unpredictable power. Those who can harness these unusual substances-called primal reagents-walk a fine line between genius and catastrophe.",
 			"",
 			"**Primal Reagents (Su):** By spending 10 minutes patrolling his surroundings after recovering his daily extract slots, a First World innovator can gather a number of doses of primal reagents equal to half his alchemist level + his Intelligence modifier. Primal reagents retain their potency until the next time the First World innovator regains his extract slots. As part of the same action used to consume an extract, imbibe a potion, throw a bomb, or drink his mutagen, the First World innovator can expend 1 dose of primal reagents for additional effects as described below.",
@@ -747,7 +747,7 @@
 		"description": [
 			"## Gloom Chymist",
 			"",
-			"**Source** [Blood of Shadows pg. 18](source/blood_of_shadows)  ",
+			"{SOURCE Blood of Shadows/18}  ",
 			"A breakthrough in Nidalese alchemy led to the creation of glooms, magical fields of darkness from the Shadow Plane that can be momentarily animated with the use of strange compounds. These mixtures are quite efficacious, leading to the spread of their use throughout the rest of the Inner Sea region.",
 			"",
 			"**Gloom (Su):** A gloom chymist is skilled at mixing potent concoctions known as glooms, which are infused with shadow energy. A gloom is identical to a bomb except that it deals 1d6 points of cold damage + additional damage equal to the gloom chymist's Intelligence modifier. This damage increases by 1d6 for every 2 alchemist levels beyond 1st the gloom chymist has. A gloom does not qualify as a bomb for the purposes of feats or discoveries.",
@@ -765,7 +765,7 @@
 		"description": [
 			"## Grenadier",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 30](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Pathfinder Society Field Guide/30}  ",
 			"Grenadiers train to exercise their talents in the thick of battle, even when not under the influence of their mutagens. They learn methods of combining weapon attacks with their alchemical magic, and sacrifice skill with poisons in order to become more adept at using alchemical bombs or using alchemical items in conjunction with their martial skills. As an unusual side effect of their skill at handling bombs and alchemical items with increased speed, grenadiers master the ability to drink potions, elixirs, and mutagens quickly and safely, without exposing themselves to peril while doing so. A grenadier has the following class features.",
 			"",
 			"**Martial Weapon Proficiency:** At 1st level, a grenadier picks one martial weapon to become proficient in the use of. This ability replaces Brew Potion.",
@@ -785,7 +785,7 @@
 		"description": [
 			"## Grenadier [MC]",
 			"",
-			"**Source** [Monster Codex pg. 116](source/monster_codex)  ",
+			"{SOURCE Monster Codex/116}  ",
 			"Grenadiers train to exercise their talents in the thick of battle, even when not under the influence of their mutagens. They learn methods of combining weapon attacks with their alchemical magic, and sacrifice skill with poisons in order to become more adept at using alchemical bombs or using alchemical items in conjunction with their martial skills. As an unusual side effect of their skill at handling bombs and alchemical items with increased speed, grenadiers master the ability to drink potions, elixirs, and mutagens quickly and without exposing themselves to peril while doing so. A grenadier has the following class features.",
 			"",
 			"**Martial Weapon Proficiency:** At 1st level, a grenadier picks one martial weapon and becomes proficient in its use. This ability replaces Brew Potion.",
@@ -805,7 +805,7 @@
 		"description": [
 			"## Gun Chemist",
 			"",
-			"**Source** [People of the Wastes pg. 11](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/11}  ",
 			"Simple alchemists may dabble in explosives, but for the rare gun chemist, a firearm's barrel is his crucible.",
 			"",
 			"**Weapon and Armor Proficiency:** Gun chemists are proficient with all simple weapons, firearms, and light armor.",
@@ -849,7 +849,7 @@
 		"description": [
 			"## Herbalist (Vine Leshy only)",
 			"",
-			"**Source** [Ultimate Wilderness pg. 22](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/22}  ",
 			"Vine leshys who study the physical and spiritual composition of their own bodies have discovered a strange herbal alchemy all their own.",
 			"",
 			"**Herbalism (Su):** An herbalist's studies allow him a unique method of creating alchemical discoveries. He can attempt Profession (herbalist) checks in place of Craft (alchemy) checks for all purposes, and he gains a competence bonus equal to half his alchemist level on Profession (herbalist) checks to create alchemical items and to forage for and process herbs. An herbalist uses his Wisdom score instead of his Intelligence score for all alchemist class abilities.",
@@ -871,7 +871,7 @@
 		"description": [
 			"## Homunculist",
 			"",
-			"**Source** [Familiar Folio pg. 8](source/familiar_folio)  ",
+			"{SOURCE Familiar Folio/8}  ",
 			"One of the grand goals of alchemy is the ability to create new life. A homunculist has made this dream a reality, growing and modifying a familiar in his own laboratory.",
 			"",
 			"**Diminished Poisoning:** A homunculist doesn't gain the poison use, poison resistance, poison immunity, or swift poisoning class features.",
@@ -887,7 +887,7 @@
 		"description": [
 			"## Horticulturist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 35](source/ultimate_wilderness), [Heroes of the Wild pg. 24](source/heroes_of_the_wild)  ",
+			"{SOURCE Ultimate Wilderness/35;Heroes of the Wild/24}  ",
 			"A horticulturist spends his time cultivating plants and plant creatures, allowing him to experiment with strange and wondrous herbal concoctions.",
 			"",
 			"**Seed Extract:** At 1st level, a horticulturist adds summon nature's ally I-VI as 1st- through 6th-level extracts, respectively, to his class extract list. For example, he automatically adds summon nature's ally I to his formula book at 1st level and adds the next higher-level spell to his formula book each time he gains the ability to use extracts of that level. The horticulturist uses these special extracts to plant a seed that grows into a creature, bypassing the restriction for single target or personal effects. Using these extracts takes 1 round (as the spell's normal casting time), and the creature summoned must be placed in a space adjacent to the horticulturist. The horticulturist can use these extracts to summon only animals and plants on the appropriate summon nature's ally list. Creatures the horticulturist summons with these extracts become creatures with the plant type (gaining low-light vision and immunity to mind-affecting, paralysis, poison, polymorph, sleep, and stunning effects) rather than their normal type, but their attack bonuses, Hit Dice, saving throws, and skills don't change.",
@@ -917,7 +917,7 @@
 		"description": [
 			"## Ice Chemist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 35](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/35}  ",
 			"Reclusive alchemists who dwell in the highest mountains or on the frozen tundra devote their skills to mastering the cold.",
 			"",
 			"**Icy Bombs (Su):** An ice chemist's bombs deal cold damage instead of fire damage. In place of an alchemist discovery, she can learn to create bombs that deal fire damage like normal alchemist bombs do, though she can't apply discoveries that modify bombs to such fire bombs that she creates. An ice alchemist's icy bombs can still be poisonous or create thick vapors similar to smoke, but she cannot apply the explosive or inferno bomb discoveries to them.",
@@ -935,7 +935,7 @@
 		"description": [
 			"## Inspired Chemist",
 			"",
-			"**Source** [Advanced Class Guide pg. 75](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/75}  ",
 			"Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their mental ability scores grants them inspiration like an investigator. This inspiration also grants an inspired chemist amazing powers to avoid danger, but takes a toll on both physical power and health.",
 			"",
 			"**Inspiring Cognatogen:** At 1st level, an inspired chemist learns how to create an inspiring cognatogen, as the inspiring cognatogen discovery. This ability replaces the mutagen class ability. (This means that an inspired chemist cannot create mutagens unless he selects the mutagen discovery).",
@@ -955,7 +955,7 @@
 		"description": [
 			"## Internal Alchemist",
 			"",
-			"**Source** [Ultimate Magic pg. 18](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/18}  ",
 			"An internal alchemist studies medicine, diet, and the living body to purify the self in the hope of gaining immortality by means of alchemical concoctions and controlling vital energy. Internal alchemists develop unusual physical abilities from heightened knowledge of how their bodies work. An internal alchemist has the following class features.",
 			"",
 			"**Breath Mastery:** At 1st level, the internal alchemist can control his breath and the flow of vital energy within his body. Without preparation, he can hold his breath for a number of minutes equal to his Constitution score (after this, he must begin making Constitution checks or risk suffocation); by spending a full-round action preparing himself, he can increase this duration to 1 hour per point of Constitution. The alchemist can survive twice as long as normal without food or water before he starts to take penalties. He can put himself into a state of suspended animation as a move action, and is then unconscious and appears completely dead; he awakens at a preset time or in response to a condition set by him when he enters this state. This ability replaces Throw Anything.",
@@ -975,7 +975,7 @@
 		"description": [
 			"## Interrogator",
 			"",
-			"**Source** [Ultimate Intrigue pg. 18](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/18}  ",
 			"An interrogator extracts vital information from reluctant individuals using alchemical and traditional methods.",
 			"",
 			"**Class Skills:** An interrogator adds Intimidate and Sense Motive to his list of class skills.",
@@ -1013,7 +1013,7 @@
 		"description": [
 			"## Mad Scientist",
 			"",
-			"**Source** [Horror Adventures pg. 45](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/45}  ",
 			"The mad scientist's colleagues laughed at her insights, mocked her theories, and hounded her from the halls of academia, simply because they were too weak and frightened to understand her work. They thought she was finished. They were wrong.",
 			"",
 			"**Mad Genius (Su):** At 2nd level, a mad scientist can deal 1d3 points of Wisdom damage to herself (or 1d6 points of sanity damage if employing the [sanity rules](rule/sanity)) to create a genius extract as one of her daily 1st-, 2nd-, 3rd-, 4th-, or 5th-level extracts. This otherwise takes the same amount of time and effort as creating a normal extract of its level, but instead of her choosing a formula she knows for it to grant, a genius extract has an unpredictable result. When the alchemist (or an ally, if she has the infusion discovery) drinks the extract, it produces a random effect from the list of alchemist formulae of 1 spell level higher than the extract's spell level. For instance, if she creates a genius extract using a 2nd-level extract, it would produce the effect of a random 3rd-level alchemist formula. There is no way to predict which effect a genius extract will produce before drinking it. A genius extract's minimum caster level is equal to the minimum caster level of the extract used, not the effect produced. So, for instance, a genius extract that produced a [fox's cunning](spell/foxs_cunning) effect would have a minimum caster level of 1 (for the 1st-level extract used) rather than 4 (for the 2nd-level effect). There are 29 potential 2nd-level extracts, 23 potential 3rd-level extracts, 18 potential 4th-level extracts, 15 potential 5th-level extracts, and 15 potential 6th-level extracts.",
@@ -1043,7 +1043,7 @@
 		"description": [
 			"## Metamorph",
 			"",
-			"**Source** [Ultimate Intrigue pg. 19](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/19}  ",
 			"Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of living forms.",
 			"",
 			"**Class Skills:** A metamorph adds Disguise to her list of class skills.",
@@ -1071,7 +1071,7 @@
 		"description": [
 			"## Mindchemist",
 			"",
-			"**Source** [Ultimate Magic pg. 19](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/19}  ",
 			"While most alchemists use mutagens to boost their physical ability at the cost of mental ability, some use alchemy for the opposite purpose-to boost the power of the mind and memory. A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique. A mindchemist has the following class features.",
 			"",
 			"**Cognatogen:** At 1st level, a mindchemist learns how to create a cognatogen, as per the cognatogen discovery. This ability replaces the mutagen class ability (a mindchemist cannot create mutagens unless he selects mutagen* as a discovery).",
@@ -1091,7 +1091,7 @@
 		"description": [
 			"## Mixologist",
 			"",
-			"**Source** [Inner Sea Taverns pg. 57](source/inner_sea_taverns)  ",
+			"{SOURCE Inner Sea Taverns/57}  ",
 			"Certain alchemists focus on mastering the chemical reactions between alcohol and the physical body. Though the powerful potions they brew can have drawbacks, they are at least pleasurable.",
 			"",
 			"**Alcoholic Alchemy (Su):** A mixologist can infuse potions and extracts he creates with alcohol, increasing their potency. When a mixologist brews a potion, he can spend an additional 10 gp in raw materials to increase his caster level by 1 for the purpose of the potion's effects, but the potion counts as a strong alcoholic drink. When a mixologist creates his extracts, he can spend 1 extra minute doing so to increase his caster level by 1 for the purpose of that extract's effects, but the extract counts as a strong alcoholic drink. A mixologist can prepare one alcoholic extract for each level of extracts he can prepare. A mixologist can't ever gain a mutagen or discoveries that alter mutagens.",
@@ -1117,7 +1117,7 @@
 		"description": [
 			"## Mnemostiller",
 			"",
-			"**Source** [Distant Realms pg. 52](source/distant_realms)  ",
+			"{SOURCE Distant Realms/52}  ",
 			"Mnemostillers extract memories, storing them as a thick vapor called mnemos. They can return memories as easily as administering a potion, and experienced mnemostillers create a variety of effects through the careful administration of past traumas or victories.",
 			"",
 			"**Mental Ambix:** A mnemostiller's alchemy relies on force of personality, using his own mind as an alchemy lab to draw and purify the mnemos collected from others. A mnemostiller uses his Charisma score in place of his Intelligence score for the purpose of extracts and bonus extracts. A mnemostiller still uses his Intelligence score to learn new formulae.",
@@ -1159,7 +1159,7 @@
 		"description": [
 			"## Oenopion Researcher",
 			"",
-			"**Source** [Inner Sea Magic pg. 37](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/37}  ",
 			"Nex is known for its advanced magical lore, and the alchemists of Oenopion are incredibly skilled at making potions, elixirs, and other materials crucial to the country's economy and its monster-creating fleshforges. A Oenopion researcher has the following class features.",
 			"",
 			"**Discoveries:** The following discoveries complement the Oenopion researcher archetype: acid bomb, bottled ooze, feral mutagen, infuse mutagen, infusion, sunlight bomb.",
@@ -1175,7 +1175,7 @@
 		"description": [
 			"## Oozemaster",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 17](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/17}  ",
 			"The oozemaster is a specialized alchemist who fights and ensnares oozes. An oozemaster carefully studies the characteristics of the oozes he hunts to help him create new and more effective mutagens and bombs.",
 			"",
 			"**Class Skills:** An oozemaster gains Knowledge (dungeoneering) as a class skill but does not gain Knowledge (nature) as a class skill.",
@@ -1205,7 +1205,7 @@
 		"description": [
 			"## Perfumer",
 			"",
-			"**Source** [Wilderness Origins pg. 17](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/17}  ",
 			"While most alchemists focus on the flash of loud explosions, full-bodied potions, and dramatically transformative mutagens, others prefer subtlety and elegance. A perfumer alchemist refines extracts to their most pure and rarefied forms to spread on the wind, and would rather share a head-turning aroma at a social than drink a bone-twisting mutagen before a brawl.",
 			"",
 			"**Atomized Extracts (Su):** A perfumer's extracts are stored in atomizers, rather than bottles or vials, allowing him to spray them at himself or an adjacent ally. The target is considered the imbiber, as if she had drunk an extract prepared with the infusion discovery. As the contents of an atomizer are inhaled, the target must be able to breathe. Atomized extracts are considered extracts for purposes of other abilities, and become inert when not in the alchemist's possession.",
@@ -1231,7 +1231,7 @@
 		"description": [
 			"## Plague Bringer",
 			"",
-			"**Source** [Advanced Race Guide pg. 153](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/153}  ",
 			"The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new diseases and disease-delivery systems. A plague bringer feels no more remorse at unleashing his armaments on his enemies than an archer does when firing an arrow in the heat of battle. Disease is a tool, and the plague bringer is its master. A plague bringer has the following class features.",
 			"",
 			"**Plague Vial (Su):** At 1st level, a plague bringer can create a plague vial, an alchemically grown and concentrated disease sample. It takes 1 hour to prepare a plague vial, and once prepared, the vial remains potent until used. A plague bringer can only maintain 1 plague vial at a time-if he prepares a second vial, any existing plague vial becomes inert. A plague vial that is not in a plague bringer's possession becomes inert until a plague bringer picks it up again.",
@@ -1255,7 +1255,7 @@
 		"description": [
 			"## Preservationist",
 			"",
-			"**Source** [Ultimate Magic pg. 19](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/19}  ",
 			"Some alchemists are obsessed with collecting and preserving exotic creatures. These preservationists may use bottled animals and monsters as teaching tools, but some learn how to reanimate them for short periods to battle on the alchemist's behalf. A preservationist has the following class features.",
 			"",
 			"**Bottled Ally I:** At 2nd level, a preservationist adds Handle Animal to his list of class skills. He adds [summon nature's ally I](spell/summon_natures_ally_1) to his formula book as a 1st-level extract. When he prepares that extract, he actually prepares a tiny, preserved specimen in a bottle (as with a caster casting the spell, the preservationist doesn't have to choose the creature until he uses the extract). When the alchemist opens the bottle, the specimen animates and grows to normal size, serving the preservationist as per the spell and otherwise being treated as a summoned creature. When the duration expires, the preserved creature decays into powder. If the preservationist has the infusion discovery, another character can use the infused specimen. The [Augment Summoning](feat/augment_summoning) feat can be applied to these specimens. This ability replaces poison use.",
@@ -1279,7 +1279,7 @@
 		"description": [
 			"## Promethean Alchemist",
 			"",
-			"**Source** [Occult Adventures pg. 112](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/112}  ",
 			"Obsessed with discovering the origins of life, promethean alchemists build constructs they gradually endow with life.",
 			"",
 			"**Craft Construct:** At 1st level, a promethean alchemist gains the promethean disciple discovery. This ability replaces Brew Potion and Throw Anything.",
@@ -1368,7 +1368,7 @@
 		"description": [
 			"## Psychonaut",
 			"",
-			"**Source** [Ultimate Magic pg. 19](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/19}  ",
 			"A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of existence. A psychonaut has the following class features.",
 			"",
 			"**Bomb:** A psychonaut's bombs deal damage one die step lower than normal (regular bombs deal d4s, concussive bombs deal 1d3s, and so on). This ability otherwise functions as and replaces the standard alchemist bomb class feature.",
@@ -1392,7 +1392,7 @@
 		"description": [
 			"## Ragechemist",
 			"",
-			"**Source** [Ultimate Combat pg. 26](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat/26}  ",
 			"Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation. These alchemists have little control over their altered selves.",
 			"",
 			"**Rage Mutagen:** At 2nd level, whenever a ragechemist creates a mutagen that improves his Strength, that mutagen's bonus to Strength increases by +2 and penalizes the alchemist's Intelligence score. Furthermore, while under the effects of this mutagen, whenever the alchemist takes damage, his rage grows, with detrimental effects. At the end of each turn that he takes hit point damage, the ragechemist must succeed at a Will saving throw (DC 15, or DC 20 if any of the damage came from a critical hit that turn) or take a -2 penalty on Will saving throws and to Intelligence. These penalties end 1 hour after the mutagen ends and stack with themselves. If the penalty lowers the ragechemist's Intelligence score to 0, the ragechemist is comatose until 1 hour after the mutagen expires. This ability replaces poison use.",
@@ -1410,7 +1410,7 @@
 		"description": [
 			"## Reanimator",
 			"",
-			"**Source** [Ultimate Magic pg. 20](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/20}  ",
 			"A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life. Many work in tandem with necromancers to explore the fine border between the worlds of the living and the dead. A reanimator has the following class features.",
 			"",
 			"**Bomb:** A reanimator's bombs deal damage one die step lower than normal (regular bombs deal d4s, concussive bombs deal 1d3s, and so on). This ability otherwise functions as and replaces the standard alchemist bomb class feature.",
@@ -1430,7 +1430,7 @@
 		"description": [
 			"## Royal Alchemist",
 			"",
-			"**Source** [Heroes of the High Court pg. 11](source/heroes_of_the_high_court)  ",
+			"{SOURCE Heroes of the High Court/11}  ",
 			"Paranoia runs rampant among the noble courts of the Inner Sea. On account of this distrust, many rulers often hire specialized alchemists capable of concocting protections from both poisons and diseases for the nobles and their guests. The royal alchemist tradition began in the nation of Rahadoum shortly after the Oath Wars as a replacement for the protection once offered by the clerics and priests of the region. Today, royal alchemists are found in the courts of Cheliax, Galt, Taldor, and, surprisingly, Geb, where living visitors to the Blood Lords are offered protection from the death around them.",
 			"",
 			"**Class Skills:** A royal alchemist adds Diplomacy and Knowledge (nobility) to his list of class skills instead of Knowledge (nature) and Survival.",
@@ -1454,7 +1454,7 @@
 		"description": [
 			"## Saboteur",
 			"",
-			"**Source** [Advanced Race Guide pg. 36](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/36}  ",
 			"The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies. A saboteur has focused his alchemical research toward new ways to conceal his presence, sow confusion, and blow up large structures.",
 			"",
 			"**Class Skills:** A saboteur adds Knowledge (engineering) to his list of class skills and removes Knowledge (nature) from his list of class skills.",
@@ -1486,7 +1486,7 @@
 		"description": [
 			"## Sacrament Alchemist",
 			"",
-			"**Source** [Healer's Handbook pg. 11](source/healers_handbook)  ",
+			"{SOURCE Healer's Handbook/11}  ",
 			"Sacrament alchemists serve in a great variety of priestly roles for their deities. A sacrament alchemist is often invaluable even to like-minded allies who are not adherents of the alchemist's religion but who nonetheless rely on his divine abilities.",
 			"",
 			"**Faithful:** Like a cleric, a sacrament alchemist must worship a deity, and must be within one step of his deity's alignment.",
@@ -1512,7 +1512,7 @@
 		"description": [
 			"## Tinkerer",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 46](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/46}  ",
 			"Tinkerers constantly dabble in clockworking, creating special familiars that they regularly upgrade and with which they form bizarre bonds. Many worship Brigh and can be found throughout Golarion, especially in dwarven and gnome communities.",
 			"",
 			"**Clockwork Bond (Ex):** At 1st level, a tinkerer forms a bond with one of her creations, and begins play with it at no cost. This functions as the familiar option of the wizard's arcane bond class feature, with the tinkerer's effective wizard level equal to her alchemist level. If a tinkerer would gain a familiar through another class, those levels stack for purposes of determining the familiar's abilities.",
@@ -1572,7 +1572,7 @@
 		"description": [
 			"## Toxicant",
 			"",
-			"**Source** [Dirty Tactics Toolbox pg. 7](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/7}  ",
 			"In lands such as Daggermark and Katapesh where poisons are legal and may be openly studied and sold, some alchemists obsess over the myriad ways that poisons and venoms can be applied and delivered. Known as toxicants, these deadly artists induce the production of deadly secretions within their own bodies in order to better inflict crippling conditions upon their foes.",
 			"",
 			"**Toxic Secretion (Ex):** At 1st level, a toxicant has learned to mimic creatures with the ability to secrete harmful toxins through the skin. Once per day, in a process that takes 10 minutes, the toxicant can create and imbibe a tincture that causes her skin to secrete a mild toxin. The toxicant is immune to this secretion, but any creature that hits her with a natural attack or unarmed strike must succeed at a Fortitude save (DC = 10 + 1/2 the toxicant's alchemist level + the toxicant's Intelligence modifier). On a failed save, the target takes an amount of damage equal to the toxicant's Intelligence modifier. At 4th level, a target that fails its save must succeed at a second save 1 round later or take the same amount of damage again. This effect repeats as long as the target continues to fail its saving throws, to a maximum number of rounds equal to 1 + 1 for every 4 alchemist levels the toxicant possesses (to a maximum of 6 rounds at 20th level). This is a poison effect. The toxicant can suppress this secretion as a standard action, in which case it remains suppressed for 1 hour or until the toxicant reactivates it as a standard action.",
@@ -1592,7 +1592,7 @@
 		"description": [
 			"## Trap Breaker",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 23](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/23}  ",
 			"Trap breakers forgo the study of poison to instead master the construction and deployment of traps, using their nimble fingers to disable dangerous devices and their alchemical knowledge to create devastating land mines.",
 			"",
 			"**Trapfinding (Ex):** Starting at 2nd level, a trap breaker adds 1/2 his alchemist level on Perception checks made to locate traps and on Disable Device checks. A trap breaker can use Disable Device to disarm magic traps. This ability replaces poison use and poison resistance +2.",
@@ -1610,7 +1610,7 @@
 		"description": [
 			"## Vaultbreaker",
 			"",
-			"**Source** [Villain Codex pg. 236](source/villain_codex)  ",
+			"{SOURCE Villain Codex/236}  ",
 			"The vaultbreaker combines stealth with his bomb-making talents to construct special focused charges that can disable or destroy hinges, locks, and similar mechanisms.",
 			"",
 			"**Breaking and Entering (Ex):** A vaultbreaker gains Stealth as a class skill and can disarm magical traps as if he were a [rogue with the trapfinding ability](class/rogue).",
@@ -1636,7 +1636,7 @@
 		"description": [
 			"## Vivisectionist",
 			"",
-			"**Source** [Ultimate Magic pg. 20](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic/20}  ",
 			"A vivisectionist studies bodies to better understand their function. Unlike a chirurgeon, a vivisectionist's goals are not related to healing, but rather to experimentation and knowledge that most people would consider evil. A vivisectionist has the following class features.",
 			"",
 			"**Sneak Attack:** At 1st level, a vivisectionist gains the sneak attack ability as a [rogue](class/rogue) of the same level. If a character already has sneak attack from another class, the levels from the classes that grant sneak attack stack to determine the effective rogue level for the sneak attack's extra damage dice (so an alchemist 1/rogue 1 has a +1d6 sneak attack like a 2nd-level rogue, an alchemist 2/rogue 1 has a +2d6 sneak attack like a 3rd-level rogue, and so on). This ability replaces bomb.",
@@ -1664,7 +1664,7 @@
 		"description": [
 			"## Wasteland Blightbreaker",
 			"",
-			"**Source** [Healer's Handbook pg. 10](source/healers_handbook)  ",
+			"{SOURCE Healer's Handbook/10}  ",
 			"The deleterious effects of the weird hazards of the Mana Wastes require special skill to remedy. Many wasteland blightbreakers are also [chirurgeons](archetype-alchemist/chirurgeon).",
 			"",
 			"**Healing Infusion (Sp, Su):** At 2nd level, the blightbreaker can prepare extracts of the healing subschool as if he had the infusion discovery and can choose to render any such extracts inert and prepare other extracts to replace them (unlike infusions, which continue to occupy the alchemist's daily extract slots until consumed or used). If the blightbreaker has the infusion discovery, or if he is also a [chirurgeon](archetype-alchemist/chirurgeon), he can use [touch injection](spell/touch_injection) as a spell-like ability once per day as a standard action, but only to absorb an infusion of the healing subschool.",
@@ -1688,7 +1688,7 @@
 		"description": [
 			"## Winged Marauder",
 			"",
-			"**Source** [Monster Codex pg. 104](source/monster_codex)  ",
+			"{SOURCE Monster Codex/104}  ",
 			"Goblin alchemists have created a mixture of pheromones that they use to manipulate and entice giant vultures or dire bats to do their bidding. These goblins strap harnesses to the chests of these flying animals and hang beneath them, dropping flaming alchemical solutions on the helpless folks below.",
 			"",
 			"**Class Skills:** A winged marauder gains Acrobatics, Handle Animal, and Ride as class skills. These replace Disable Device, Sleight of Hand, and Use Magic Device as class skills.",

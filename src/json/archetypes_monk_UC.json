@@ -5,7 +5,7 @@
 		"description": [
 			"## Black Asp",
 			"",
-			"**Source** [Ultimate Intrigue pg. 67](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/67}  ",
 			"The black asps are a sinister order of monks who train as assassins and infiltrators with no need for weapons to achieve their goals. Through meditation and study, they learn how to use poison, hide any magics they choose to employ, and even empty their minds of thought to protect themselves from divinations.",
 			"",
 			"**Black Asp's Path (Ex):** A black asp is trained in the use of poison and cannot accidentally poison himself when applying poison to a weapon or when rolling a natural 1 on an attack roll with a poisoned weapon. At 3rd level, the black asp's ability to use poison improves. He gains Adder Strike as a bonus feat even if he does not meet the prerequisites.",
@@ -31,7 +31,7 @@
 		"description": [
 			"## Brazen Disciple",
 			"",
-			"**Source** [Adventurer's Guide pg. 104](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/104}  ",
 			"Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in developing a specific and unique fighting style that sets its disciples apart from other monks. In order to be admitted into the Monastery of Unblinking Flame and become one of these disciples, a supplicant must prove his worth by outwitting an efreeti. Those who succeed often become monks known as the brazen disciples.",
 			"",
 			"Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining the [Houses of Perfection](rule/aff_monasteries), some become enamored with the efreet and instead seek out genie masters.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Disciple of Wholeness",
 			"",
-			"**Source** [Healer's Handbook pg. 4](source/healers_handbook)  ",
+			"{SOURCE Healer's Handbook/4}  ",
 			"Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 			"",
 			"**Healing Ki (Su):** At 4th level, a disciple of wholeness can touch a creature as a swift action and spend 1 point from her ki pool to restore a number of hit points equal to 1d4 + 1/2 her monk level to that creature. If she has the wholeness of body ki power, she can spend 2 points to restore a number of hit points equal to 1d8 + her monk level to a touched creature. She does not gain the ability to spend ki to gain an extra attack during a flurry of blows.",
@@ -93,7 +93,7 @@
 		"description": [
 			"## Elemental Monk",
 			"",
-			"**Source** [Disciple's Doctrine pg. 4](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/4}  ",
 			"Elemental monks draw inspiration from genies to create their fighting style. Their adaptability and versatility make them capable of serving as emissaries of elemental balance.",
 			"",
 			"**Alignment:** An elemental monk must be true neutral.",
@@ -127,7 +127,7 @@
 		"description": [
 			"## Invested Regent",
 			"",
-			"**Source** [Heroes of the High Court pg. 22](source/heroes_of_the_high_court)  ",
+			"{SOURCE Heroes of the High Court/22}  ",
 			"The invested regent has been handpicked by inscrutable divine forces to command others-either at the present or at some future time. The invested regent can harness a divine spark to perform superhuman stunts, influence others, and escape injury. Invested regents come from all races and walks of life, but they are more likely to be nobleborn in their cultures. Although some invested regents are acutely aware of their powers' divine origins (such as powers gained from an investment ceremony to Asmodeus in the nation of Cheliax), others do not know the source of their abilities. Invested regents have strong personalities and a destiny to rule.",
 			"",
 			"**Investiture (Su):** An invested regent gains a pool of investiture points, supernatural energy he can use to call upon amazing abilities and divine protection. The number of points in the invested regent's investiture pool is equal to 1/2 his monk level + his Charisma modifier. As long as he has at least 1 point in his investiture pool, the invested regent can select one of his saving throws as a swift action and gain a +1 sacred bonus on saving throws of that type for 1 round. If he spends 1 point from his investiture pool during this swift action, he instead gains a sacred bonus equal to his Charisma modifier on the saving throw selected.",
@@ -222,7 +222,7 @@
 		"description": [
 			"## Lifting Hand",
 			"",
-			"**Source** [Martial Arts Handbook pg. 23](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/23}  ",
 			"Those studied in the art of grappling know that using their opponents' own weight and momentum to lift, disable, or throw them is impressive and effective. When facing a master of the lifting hand, an enemy is likely to find itself sailing through the air or locked in a tortuous compliance hold.",
 			"",
 			"**Savage Toss (Ex):** A lifting hand gains [Savage Slam](feat/savage_slam) as a bonus feat, even if she doesn't meet the prerequisites.",
@@ -252,7 +252,7 @@
 		"description": [
 			"## Monk of the Mantis",
 			"",
-			"**Source** [Dirty Tactics Toolbox pg. 11](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/11}  ",
 			"A body contains many points where the flesh, mind, and spirit coincide. A monk of the mantis is skilled at manipulating these points. With precise strikes, she temporarily disrupts a body's connection with the rest of the self.",
 			"",
 			"**Pressuring Strikes (Ex):** At 2nd level, a monk of the mantis gains the sneak attack ability. This ability functions as the rogue ability of the same name, except it can be used only during a flurry of blows. The initial sneak attack damage is +1d6, and the damage increases by 1d6 every 4 levels beyond 2nd. This ability replaces the monk's 2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats.",
@@ -268,7 +268,7 @@
 		"description": [
 			"## Perfect Scholar",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 44](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/44}  ",
 			"Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.",
 			"",
 			"**Class Skills:** A perfect scholar adds Knowledge (all) and Linguistics to his list of class skills, instead of Intimidate and Perform.",
@@ -298,7 +298,7 @@
 		"description": [
 			"## Sage Counselor",
 			"",
-			"**Source** [Ultimate Intrigue pg. 67](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/67}  ",
 			"Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world. They often find work as mentors teaching religion and martial arts, and some of them even become counselors for people in high places. Sage counselors often speak in metaphors, knowing that indirect persuasion is more effective than speaking plainly, and they use indirect tactics in combat as well.",
 			"",
 			"**Class Skills:** A sage counselor adds Bluff, Diplomacy, and Knowledge (nobility) to his list of class skills, instead of Climb, Escape Artist, and Perception.",
@@ -324,7 +324,7 @@
 		"description": [
 			"## Scaled Fist",
 			"",
-			"**Source** [Legacy of Dragons pg. 14](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/14}  ",
 			"Steeped in traditions that trace their origins to the warrior-monks who trained under the tutelage of draconic masters in Tian Xia, scaled fists eschew passive introspection in favor of unshakable confidence. Scaled fists learn to combine brutal intimidation with the brazen ferocity of an ancient wyrm to devastate their foes.",
 			"",
 			"**Draconic Might:** Any of the scaled fist's class abilities that make calculations based on her Wisdom (including bonus feats with DCs or uses per day, such as [Stunning Fist](feat/stunning_fist), but not Wisdom-based skills or Will saving throws) are instead based on her Charisma.",
@@ -352,7 +352,7 @@
 		"description": [
 			"## Serpent-Fire Adept",
 			"",
-			"**Source** [Occult Origins pg. 20](source/occult_origins)  ",
+			"{SOURCE Occult Origins/20}  ",
 			"A serpent-fire adept embraces the secrets of her chakras and mastery of their energetic flow.",
 			"",
 			"**Class Skills:** The serpent-fire adept adds Appraise, Diplomacy, Fly, Heal, Knowledge (arcana), Linguistics, and Survival to her list of class skills, but does not gain Climb, Intimidate, Knowledge (history), Perform, Ride, or Swim as class skills. This alters the monk's class skills.",
@@ -376,7 +376,7 @@
 		"description": [
 			"## Softstrike Monk",
 			"",
-			"**Source** [Martial Arts Handbook pg. 6](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/6}  ",
 			"The practices of softstrike monks date back to the peaceful eras of Imperial Lung Wa. Still common among warriors today, softstrike monks employ a nonlethal but effective form of combat.",
 			"",
 			"**Weapon Proficiency:** A softstrike monk is proficient with the aklys, bolas, club, light flail, light mace, nunchaku, quarterstaff, sap, sling, and any weapon with the monk special quality that can deal bludgeoning damage. He is considered proficient only with monk weapons that can deal multiple types of damage when dealing bludgeoning damage.",
@@ -414,7 +414,7 @@
 		"description": [
 			"## Soul Shepherd",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 65](source/pathfinder_139_the_dead_road)  ",
+			"{SOURCE Pathfinder #139: The Dead Road/65}  ",
 			"Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and methods, soul shepherds believe in safeguarding the Cycle of Souls.",
 			"",
 			"**Calming Strike (Su):** As an immediate action after hitting an incorporeal undead creature with an unarmed strike, a soul shepherd can attempt to calm the creature, encouraging it to move peacefully to the next stage of its metaphysical journey. The target must succeed at a Will save (DC = 10 + half soul shepherd's level + the soul shepherd's Wisdom modifier) or be calmed, as [calm spirit](spell/calm_spirit), for 1 minute.",
@@ -442,7 +442,7 @@
 		"description": [
 			"## Windstep Master",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 17](source/elemental_masters_handbook)  ",
+			"{SOURCE Elemental Master's Handbook/17}  ",
 			"Most monks are agile and fleet of foot, but few can rival a windstep master's lightness of step. Windstep masters train in mountaintop monasteries and other holy houses dedicated to the wind, such as the Monastery of Unfolding Wind in Niswan.",
 			"",
 			"**Hurricane Punch (Ex):** At 1st level, a windstep master gains [Hurricane Punch](feat/hurricane_punch) as a bonus feat, even if he does not meet the prerequisites. While using this feat, he doesn't provoke an attack of opportunity, even if he doesn't have the [Improved Bull Rush](feat/improved_bull_rush) feat.",

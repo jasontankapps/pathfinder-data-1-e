@@ -3,7 +3,7 @@
 		"name": "Mythic Rules",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 4](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/4}",
 			"",
 			"Legend speaks of the coming of great heroes. As the darkness gathers and the forces of the underworld rise to swallow the land of the living, a few brave souls will hear the call to greatness. Their deeds will become the stories of our time, and their victories will be celebrated for centuries to come. Even now, they walk among us, unaware of the destiny that awaits them. The moment is almost here. Their hour is at hand."
 		],
@@ -35,7 +35,7 @@
 		"name": "What is Mythic?",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 4](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/4}",
 			"",
 			"Everyone knows the story of the blacksmith's son who, after taking up arms to defend his village, continues on to become a renowned adventurer. And of the young elf who spends years studying musty tomes and practicing simple spells before she heads out into the world to seek ancient lore. These are the stories of everyday adventurers, risen from the ranks of the common folk to make a name for themselves in places harsh and unforgiving.",
 			"",
@@ -72,7 +72,7 @@
 		"name": "What Makes Mythic Adventures Different",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 5](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/5}",
 			"",
 			"In a world of might and sorcery, with dragons and elves, what does it mean to be \"mythic\"? Being mythic means possessing a degree of might unusual even in a fantasy world. Scenes turn more dramatic, the enemies are more lethal, and the consequences of the heroes' actions make a far-ranging impact. Being mythic means invoking a sense of wonder and awe even in those already accustomed to the strange and unusual.",
 			"",
@@ -99,7 +99,7 @@
 		"name": "Mythic versus Non-Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 5](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/5}",
 			"",
 			"As you make your way through these rules, you will see a number of abilities, feats, spells, magic items, and monsters refer to \"mythic\" versus \"non-mythic\" creatures and sources. For the purposes of the rules that follow, a creature is mythic if it has a mythic tier or mythic rank. Any mythic creature is considered a mythic source. The term \"mythic source\" can also apply to an attack, feat, spell, magic item, or other effect that originates from a mythic source.",
 			"",
@@ -121,7 +121,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 7](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/7}",
 			"",
 			"Mythic Adventures uses several terms that are new to the Pathfinder Roleplaying Game, or that previously existed but were rarely used. These terms are worth reviewing before continuing on with the rest of this section.",
 			"",
@@ -162,7 +162,7 @@
 		"name": "Mythic Heroes",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 10](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/10}",
 			"",
 			"Mythic heroes are set apart from their contemporaries, capable of amazing feats of courage in the face of overwhelming odds. In spite of this, they're still similar in many ways to other adventurers. They have hit points, an Armor Class, and saving throws-in fact, most of their statistics are comparable to non-mythic characters of an equal level. Where mythic characters differ is in the special abilities they gain from mythic paths-collections of similar abilities that they can choose to represent their mythic power. These abilities enhance mythic characters both in and out of battle, allowing them to take part in extraordinary, larger-than-life adventures."
 		],
@@ -192,7 +192,7 @@
 		"name": "Creating a Mythic Character",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 10](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/10}",
 			"",
 			"Unlike normal characters, those with mythic power have greater ties to the world around them and a greater place in legend. A skilled fighter might impact the history of a region, but a mythic champion can change its fate, and his every move is chronicled and recorded. Because of this greater impact on the campaign world, creating a mythic character requires you to work with the GM to find your place in the story and determine the source of your power.",
 			"",
@@ -228,7 +228,7 @@
 		"name": "Mythic Ascension",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 10](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/10}",
 			"",
 			"The moment a character gains her first mythic tier is called the moment of ascension (or simply ascension) and is usually concurrent with an extraordinary event. Generally speaking, the GM determines this event, which has many implications on the story of the character. Ascension determines the source of a mythic character's power, and though this doesn't affect the types of abilities she gains, it can influence future choices and roleplaying decisions.",
 			"",
@@ -260,7 +260,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 11](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/11}",
 			"",
 			"Once you gain mythic power, you select a mythic path, which is much like an additional class. It determines the majority of your mythic abilities. But instead of gaining levels in a mythic path, you gain tiers that grant additional abilities and bonuses. Gaining a tier in a path doesn't replace gaining experience and character levels. You still receive experience points for defeating challenges, but these apply only to your class levels. You gain additional mythic tiers by completing a number of trials; see [Gaining Tiers](rule/gaining_tiers).",
 			"",
@@ -281,7 +281,7 @@
 		"name": "Mythic Paths",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 11](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/11}",
 			"",
 			"Every mythic character belongs to a mythic path. Each path represents a journey into legend, and each tier in that path grants abilities and features related to that pursuit. Upon achieving his 1st mythic tier, a character must choose one mythic path to follow. Characters can choose from the following mythic paths.",
 			"",
@@ -326,7 +326,7 @@
 		"name": "Building a Mythic Creature",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 224](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/224}",
 			"",
 			"In addition to using a mythic simple template, there are two ways to create a new mythic monster. The first is to take an existing monster, give it the mythic subtype, and [add abilities](rule/modify_an_existing_monster) as described in that subtype. The second method is to [create an entirely new monster](rule/create_a_new_monster) with the mythic subtype and incorporate additional abilities into the final monster. Both methods are described in the following sections."
 		],
@@ -350,7 +350,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 225](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/225}",
 			"",
 			"Making a mythic monster out of an ordinary monster is fairly straightforward-just follow these steps.",
 			"",
@@ -386,7 +386,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 225](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/225}",
 			"",
 			"Creating a new mythic monster is especially challenging because you're basically creating a monster with two CRs: an initial CR, which determines its appropriate mythic rank and thus how many mythic abilities it gets, and its final CR, which determines appropriate values for its AC, hit points, damage per round, and so on. Though it's possible to create the monster all at once with a particular CR and MR in mind, it's generally easier to build it in several steps (some of which are very similar to the steps for modifying an existing monster).",
 			"",
@@ -425,7 +425,7 @@
 		"name": "Mythic Subtype",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 226](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/226}",
 			"",
 			"A creature with this subtype is infused with mythic power and is capable of terrible and awe-inspiring feats. Creatures with the mythic subtype gain the following abilities.",
 			"",
@@ -490,7 +490,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/228}",
 			"",
 			"Table 6-8: Monster Statistics by CR is an expansion of [the table of the same name](rule/step_2_target_statistics), listing approximate statistics for monsters up to CR 30 (the information for CR 1-20 is identical to that presented in the Bestiary). These values are rough guidelines. You'll notice that many of the existing monsters don't follow these guidelines exactly. Most monsters excel in one of these areas (usually in the amount of damage dealt), but lag in one or two other areas to balance them out. For example, a monster might have higher damage than what's listed in the table, but have a lower AC and hit points. The entries on the table are as follows.",
 			"",
@@ -580,7 +580,7 @@
 			"Mythic Origins"
 		],
 		"description": [
-			"**Source** [Mythic Adventures pg. 14](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/14}  ",
 			"For most practitioners of the arcane arts, learning magic requires a great deal of study and practice. Even for those who draw magic from their blood, the effort can be taxing. Not so for the archmage. This master of the arcane draws power from the very fabric of reality itself, learning to weave magic easily and naturally.",
 			"",
 			"The archmage is the master of arcane magic, and many of the abilities of this path enhance your ability to cast arcane spells or greatly increase their potency. In addition, may of the options in this path increase your knowledge of magic and of those who wield it. At the highest tiers, you can begin to break down the walls between the different types of magic and alter the very fabric of reality itself.",
@@ -830,7 +830,7 @@
 			"Heroes of Golarion"
 		],
 		"description": [
-			"**Source** [Mythic Adventures pg. 20](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/20}  ",
 			"The champion is the pinnacle of skill at arms and armor. No ordinary fighter could hope to match the skill with a blade, a bow, or an axe that surges within a mythic champion. The champion turns aside blows and shatters shields with every movement, all while racing gracefully across the chaotic battlefield. When the screams of fallen foes die down, the champion stands strong and defiant in blood-spattered armor, hefting a weapon and shouting a terrifying war cry.",
 			"",
 			"***Role:*** As a champion, your role is to take the fight to your enemies. Using devastating melee powers, you can crush your enemies before they even have a chance to harm you and your allies. Few can match your skill at arms or your ability to perform amazing feats of strength. The champion abilities allow you to control your foes, move easily around the battlefield, and challenge a large number of foes all at once. The rest of the party can count on you to dominate any melee you charge into.",
@@ -1085,7 +1085,7 @@
 			"Mythic Realms"
 		],
 		"description": [
-			"**Source** [Mythic Adventures pg. 26](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/26}  ",
 			"Not all mythic characters seek glory and fame for themselves. Some take a more humble route, watching over those dear to them or the lands they call home. Guardians seek connections with those around them, even the beasts, and draw their power from the trust of such bonds. This doesn't mean that all guardians are peaceful-indeed many use violent means to further their goals and safeguard those they watch over. But they find worth in those who travel with them. In battle, none can take the sort of punishment and wounds that a guardian can sustain.",
 			"",
 			"***Role:*** When others would retreat, you stand your ground. Your place is at the front of the battle, taking every hit your enemies can give while daring them to dish out more. Your job is to stop your enemies' advance, interposing yourself in the path of peril. You'll gladly take all that brutal punishment and return the beating with zeal. The wounds you suffer might kill a lesser hero, but you relish the thrill of combat, confident that your physical and mental perfection will lead to victory.",
@@ -1340,7 +1340,7 @@
 			"Mythic Realms"
 		],
 		"description": [
-			"**Source** [Mythic Adventures pg. 32](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/32}  ",
 			"Those who draw upon a god's power find themselves becoming closer to the divine. Some aspire to become immortal servants of their gods, and others reach for apotheosis itself. A hierophant could be either of these, channeling divine power directly or indirectly-whether from a deity, the spirit of nature, or the power of life itself-and eventually becoming more like a patron of divine power than a mere devotee.",
 			"",
 			"***Role:*** As a hierophant, your role in the group is to act as a conduit to the divine, healing and helping your allies through the miracles that you bestow. This focus is just as strong if you are instead a servant of nature, using the powers granted to you by this path to protect the wilderness and bring its fury to those who would dare to defile it.",
@@ -1689,7 +1689,7 @@
 			"Mythic Realms"
 		],
 		"description": [
-			"**Source** [Mythic Adventures pg. 38](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/38}  ",
 			"Some are destined not only to achieve personal greatness, but also to inspire armies, rally the fallen, and bring the most out of those who follow them. The marshal is such a leader, renowned for his vision, courage, and strategic acumen. Soldiers flock to a marshal's banner for a chance to serve under such a commander, confident that his skill will see them through even the most difficult challenges.",
 			"",
 			"***Role:*** As a marshal, your abilities allow you to inspire mythic and non-mythic allies alike to greatness. In a group, you protect and push your allies to even greater acts of heroism. All the while, the powers of the marshal allow you to take the lead, help your companions, and take the fight to your enemies.",
@@ -1955,7 +1955,7 @@
 			"Heroes of Golarion"
 		],
 		"description": [
-			"**Source** [Mythic Adventures pg. 44](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/44}  ",
 			"Seen only when they choose to be seen, tricksters manipulate kings and peasants alike, usually without anyone sensing their influence. Characters who rely upon their skills and wit find themselves drawn to the trickster's path. The mythic power of these heroes allows them to perform tasks that most would consider impossible. They can climb any wall, swim any current, and move without being seen by even the most observant guard. When they strike at their foes, they do so with unmatched accuracy.",
 			"",
 			"***Role:*** As a trickster, your role in the party is one of deception and manipulation. You have access to a number of abilities that empower you to confound your foes, both physically and mentally. With a subtle jest or twist of phrase, you can steer entire cities and even nations to do your bidding-but should that fail, you can always rely on a dagger from the shadows.",
@@ -2466,7 +2466,7 @@
 		"name": "Base Mythic Abilities",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 12](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/12}",
 			"",
 			"Every mythic PC gains a number of base abilities common to all mythic characters, in addition to the special abilities granted by each mythic path. These abilities are gained based on the character's mythic tier.",
 			"",
@@ -2528,7 +2528,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 13](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/13}",
 			"",
 			"A character's mythic power is classified by tier, with a 1st-tier mythic character already being significantly more powerful than a non-mythic character of the same level and a 10th-tier mythic character possessing nearly godlike puissance. Mythic tiers are similar to levels in a class or prestige class in that the powers gained at each tier are added to all those that came before, but tiers are gained in a different manner from levels. A character gains a new mythic tier by completing a number of trials that occur during play. A trial is a difficult task that adds to the legend and story of your character. Achieving a new mythic tier occurs independently of experience point progression (though you will also gain experience points for the various encounters you complete as you progress through your trials).",
 			"",
@@ -2573,7 +2573,7 @@
 		"name": "Mythic Hot Spots",
 		"sources": [ "Mythic Origins" ],
 		"description": [
-			"**Source** [Mythic Origins pg. 5](source/mythic_origins)",
+			"{SOURCE Mythic Origins/5}",
 			"",
 			"Golarion is rife with mysterious locations, long-forgotten kingdoms, and buried secrets just waiting for mythic characters to discover. The following are but a few of the locations in or around the Inner Sea region where mythic heroes might find additional adventures or possible ties to their mythic backgrounds.",
 			"",
@@ -2616,7 +2616,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Origins" ],
 		"description": [
-			"**Source** [Mythic Origins pg. 5](source/mythic_origins)",
+			"{SOURCE Mythic Origins/5}",
 			"",
 			"While *Mythic Adventures* touches on the subject of mythic characters gaining there power as a result of being directly descended from deities, this section expands on that idea by offering rules options for godling characters. While the mythic power gained by the son or daughter of a deity is comparable to that gained from other means of ascension, godlings are unique in that they have close ties to the deities with which they are associated. Most godlings come to appreciate their divine roots and become proud scions of their deific parents, though some scorn the source of their unasked-for power, and rise to epic heights of power in hopes of one day defeating their immortal progenitors. Depending on the individual and the deity, a godling may be in near-constant contact with the divine or may be kept completely in the dark as to his progenitor's motives. Most lie somewhere in between, receiving only occasional and cryptic guidance from the beings that granted them mythic power.",
 			"",
@@ -2698,7 +2698,7 @@
 		"name": "Mythic Feats",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 54](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/54}",
 			"",
 			"Mythic characters and monsters gain mythic feats as they gain tiers or ranks. These feats can be selected only as part of mythic advancement (see [Table 1-1](rule/base_mythic_abilities)), not as part of a character's normal advancement or in place of any other bonus feat.",
 			"",
@@ -2730,7 +2730,7 @@
 		"name": "Mythic Spells",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 78](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/78}",
 			"",
 			"Mythic spells draw upon the caster's mythic power to create more powerful magical effects-[mythic fireball](spell/fireball) sets affected creatures on fire, [mythic mage armor](spell/mage_armor) can negate critical hits, and so on. These spells aren't separate spells you gain as a spell known from your spellcasting class, but rather mythically charged versions of spells you already know.",
 			"",
@@ -2780,7 +2780,7 @@
 		"name": "Running a Mythic Game",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 118](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/118}",
 			"",
 			"Running a mythic game has many similarities to running other games. The PCs still go on adventures, fight monsters, discover treasure, and gain experience. The difference is that mythic games have an added level of drama, theater, and tension. Compared to non-mythic parties of the same character level, a mythic party's adventures feature incredibly difficult foes and far greater challenges. Of course, there are also splendorous rewards for the bold mythic adventurer (see [Mythic Magic Items](rule/mythic_magic_items)).",
 			"",
@@ -2816,7 +2816,7 @@
 		"name": "Making a Mythic Atmosphere",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 118](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/118}",
 			"",
 			"For a game to feel mythic, it must evoke wonder and awe in the GM and the players. It represents a power shrouded in mystery and beyond the reach of mortals. When characters encounter the mythic, they should feel as though they've just received a glimpse into an unseen world, promising so much more if they're bold enough to explore its wonders and face its dangers. A mythic atmosphere involves legends coming to life, and the characters will have a part to play in shaping these myths. If they succeed, they'll be the subject of tales and epic ballads for generations to come.",
 			"",
@@ -2846,7 +2846,7 @@
 		"name": "Different Scales of Mythic Campaigns",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 118](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/118}",
 			"",
 			"The mythic rules can be used in a number of ways to add truly fantastic elements to your game, from simply including a mythic foe at the end of an adventure to allowing the PCs to play mythic characters for their entire adventuring careers, taking on other mythic foes and rivaling the power of the gods. Ultimately, it's up to the GM to decide how much influence these rules have on the campaign and world as a whole. The following types of scale are provided to give GMs an easy guideline for incorporating mythic rules into their games.",
 			"",
@@ -2880,7 +2880,7 @@
 		"name": "Mythic Story Structure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 119](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/119}",
 			"",
 			"Campaigns and adventures come in many forms, taking shape organically with the whims of the players and the needs of the Game Master, but the key to running a successful mythic campaign or adventure involves a little more planning. The following structure is a guide to help GMs in planning out their mythic experience, regardless of length. This formula can work for a single session, where the PCs gain mythic power at the beginning and lose it by the end. Or you can apply it to an entire campaign, where the PCs gain mythic power early on and retire after of dozens of adventures.",
 			"",
@@ -2928,7 +2928,7 @@
 		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 119](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/119}",
 			"",
 			"At the start of the campaign, the PCs should be normal adventurers, developing and advancing without the aid of mythic power. This gives them a chance to experience life as mundane heroes, struggling to earn enough gold to keep themselves fed and allowing them to explore the normal world around them.",
 			"",
@@ -2955,7 +2955,7 @@
 		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 120](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/120}",
 			"",
 			"The next step is for the PCs to receive the aid they need, in the form of mythic power. The actual means by which the PCs receive this power may vary (see [Mythic Themes](rule/mythic_themes)), even between PCs in the same game. By the end of this part of the story, the PCs have had their [moment of ascension](rule/mythic_ascension), whether together or separately, and are now mythic. They are not yet ready to face their primary challenge, but the first steps down the path to victory should be revealed at this point.",
 			"",
@@ -2984,7 +2984,7 @@
 		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 120](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/120}",
 			"",
 			"The second part of the mythic structure is the journey. This part of the story can be nearly any length, from composing the middle of one session to encompassing dozens of sessions. The PCs, now enhanced with mythic power, must contend with various trials and dangers. Although these tests can take many different forms, there are some common types.",
 			"",
@@ -3017,7 +3017,7 @@
 		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 121](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/121}",
 			"",
 			"The trip back can be just as perilous as the journey to achieve their goal. The heroes are at the height of their power, but they are now beset on all sides by those who would see them fail. Their enemies should be aware of this quest, and go to any means to put an end to the PCs. The mythic characters have the tools necessary, however, to brush aside such lesser threats and travel back to the beginning of their journey. This gives them a chance to fully appreciate their power, and use it to defeat foes that would have been truly dangerous not long ago.",
 			"",
@@ -3046,7 +3046,7 @@
 		"subtitle": "Mythic Story",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 121](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/121}",
 			"",
 			"The GM and players must decide what happens to the PCs' power, once all is well again. Do they transcend ordinary life to continue down the path of a mythic hero, to go on other journeys, facing even greater threats? Do they find their mythic power fleeting, leaving them with the difficult task of returning to a mundane life? Many of these decisions will be guided by the needs of the story and your campaign.",
 			"",
@@ -3072,7 +3072,7 @@
 		"name": "Elements of a Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 122](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/122}",
 			"",
 			"Beyond the story, there are a wide variety of elements you can add to give your campaign a mythic feel. These elements are different ways of looking at various parts of an adventure. A mythic adventure should contain some of these, though not necessarily all at once.",
 			"",
@@ -3111,7 +3111,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 123](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/123}",
 			"",
 			"Amazing powers and impressive foes are only part of a mythic story. The world's reaction to such heroes is also a significant part of making a campaign actually feel mythic. The NPCs encountered in a mythic game should have a sense - possibly vague, possibly unmistakable - that the PCs are marked with grandeur.",
 			"",
@@ -3145,7 +3145,7 @@
 		"name": "Mythic Themes",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 123](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/123}",
 			"",
 			"Mythic adventures can gain their legendary powers in a variety of ways, from a gift from the gods, to the influence of ancient magic thought lost to the world, to traveling to a distant land filled with power. Such themes describe the source of mythic power in a given campaign and give general guidelines about how it functions. Some campaigns will focus on one theme to tell a mythic story, and others will include multiple themes-although the GM should be careful when using more than one theme, as this might muddle the story behind such power. In some cases, merging various themes will make more dramatic sense than using one theme alone.",
 			"",
@@ -3198,7 +3198,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 123](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/123}",
 			"",
 			"An ancient artifact, forgotten spell, or fantastic magical event grants the PCs mythic powers. Regardless of its particular source, this power comes from the very fabric of magic itself, a power few dare to harness.",
 			"",
@@ -3242,7 +3242,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 124](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/124}",
 			"",
 			"After the heroes achieve a monumental task thought to be too much for them, the essence of the mythic world bows to their achievement and fills them. This could come from destroying a plane-shattering artifact, defeating a legendary monster, or surviving a deadly journey to a wondrous location.",
 			"",
@@ -3280,7 +3280,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 124](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/124}",
 			"",
 			"Mythic power comes from a lost age when mythic creatures and characters were common. That power has faded from this world, but once an age, when the time is right, mythic power returns for a short time.",
 			"",
@@ -3318,7 +3318,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 126](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/126}",
 			"",
 			"Upon traveling to another plane, the PCs acquire mythic power. These powers might last only as long as the PCs are on this plane, or the PCs may be forever transformed by the visit.",
 			"",
@@ -3356,7 +3356,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 126](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/126}",
 			"",
 			"A god grants the heroes mythic powers, either in response to deeds they have accomplished or in anticipation of deeds they have yet to perform. In this theme, mythic power is the provenance of the gods and only divine agents may wield such power.",
 			"",
@@ -3400,7 +3400,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 127](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/127}",
 			"",
 			"The PCs gain mythic power by taking it from another mythic creature, either by force, happenstance, or through some more elaborate ritual or ceremony. In this theme, the amount of mythic power is finite; to gain more, one must take it from another.",
 			"",
@@ -3440,7 +3440,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 128](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/128}",
 			"",
 			"Designing a mythic encounter is a lot like designing an encounter in any other adventure. During play, the PCs will face a variety of challenges: monsters, NPCs, traps, and more. The difference is that during a mythic adventure, the challenges are far deadlier. It's important to stress to the players, through the encounters that they face, that these are dangers beyond what they might normally expect in the game. Much of this comes through the design of the encounters, which can vary greatly depending on the PCs and how you want to challenge them. In the most basic terms, the mythic rules can be used in one of two ways: to challenge normal PCs and to challenge mythic PCs.",
 			"",
@@ -3487,7 +3487,7 @@
 		"name": "Rewarding Mythic Characters",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 129](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/129}",
 			"",
 			"Mythic characters should be rewarded with experience points and treasure based on the higher overall CR of the encounters they face. In general, this means mythic characters will earn experience points and treasure at a faster rate than their normal counterparts. As a result, the GM is encouraged to use the medium or even slow experience point and treasure value progressions for such characters (see [Table 3-1](rule/character_advancement) and [Table 12-5](rule/placing_treasure)). Note that mythic characters will face fewer encounters to reach their next character level, but their XP and treasure totals should still fall relatively close to those of a non-mythic character of the same level.",
 			"",
@@ -3530,7 +3530,7 @@
 		"name": "Mythic Trials",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 129](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/129}",
 			"",
 			"The saga of mythic heroes is filled with wild adventures, deadly foes, and mysterious forces. For most, their journey is defined by such moments. These trials are the peaks of the story, turning points at which one wrong move or costly mistake might cause the entire quest to fail. In the game, these events denote the stages of the mythic character's journey. Think of trials as an important plot point, one that is intrinsically tied to the legend of the characters.",
 			"",
@@ -3568,7 +3568,7 @@
 		"subtitle": "Mythic",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 130](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/130}",
 			"",
 			"The following trials should give GMs ideas of the various challenges mythic characters need to face to gain tiers. Use these as is or as inspiration for designing your own. Some of these suggest a mythic origin as well, but can be reworked for other mythic characters. Note that some of these are larger in scope and might represent an entire campaign arc. At the GM's discretion, such longer events might represent several trials.",
 			"",
@@ -3616,7 +3616,7 @@
 		"name": "Mythic Boons",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 132](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/132}",
 			"",
 			"Mythic boons are special rewards given for moments of dramatic achievement. Mythic PCs should repeatedly act in a heroic fashion, charging boldly into danger with confidence, and they should be rewarded for accomplishing such astonishing feats of daring, luck, and courage. Awarding mythic boons is one way for the GM to encourage the players to push their characters to their limits.",
 			"",
@@ -3732,7 +3732,7 @@
 		"name": "Recurring Mythic Villains",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 133](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/133}",
 			"",
 			"Recurring villains are a staple of fantasy fiction and with a little careful planning you can make your mythic villains memorable opponents your players to remember and talk about for years to come. With the heroes possessing extraordinary power, the villains that defy them should also possess a measure of that power. A memorable, iconic villain will bump elbows with the PCs over and over again. Such a villain builds tension-for even as the PCs foil her plans, they're kept frustrated by failing to permanently stop this fiend. Creating such nasty villains is challenging as heroes grow stronger and get better at killing off persistent foes. To ensure the mythic villain survives, make use of noncombat encounters, ensure your villain always has an escape plan, and don't be afraid to reintroduce her after the players think she's had been finished off.",
 			"",
@@ -3764,7 +3764,7 @@
 		"name": "Mythic Flaws",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 134](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/134}",
 			"",
 			"Mythic heroes, for all their might, are still people with troubles and flaws. Many such legendary beings have equally legendary flaws that are ultimately their undoing. Because of the heroes' great power, these failings and weaknesses are also often dramatic, and if their enemies learn of these flaws, they will seek to exploit them.",
 			"",
@@ -3812,7 +3812,7 @@
 		"name": "Ideas for Mythic Adventures",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 135](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/135}",
 			"",
 			"Creating an adventure that feels mythic can be a daunting task, as there are a lot of factors to consider. The following ideas give you something to work with when designing your campaign. Each idea includes a basic synopsis of the plot, a list of some of the challenges the heroes could face, a look at the primary adversary, and ideas for further adventures. Some of these ideas imply the heroes' mythic origin, but they can easily be tailored for PCs who have already gone on other mythic adventures.",
 			"",
@@ -3862,7 +3862,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 135](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/135}",
 			"",
 			"Not too far from the city is a famous holy site dedicated to a powerful deity. Pilgrims constantly trek to the site to receive the god's blessing, but recently those pilgrims have been found turned to stone along the side of the road. The local clergy is deeply concerned, both for their parishioners' lives and for the sanctity of the site.",
 			"",
@@ -3895,7 +3895,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 135](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/135}",
 			"",
 			"A town has had a secretive mythic protector-a mythic phoenix-watching over it for the last few decades and keeping it from harm. When an ancient red dragon woke from its slumber and went on a rampage, this protector had no choice but to act. The phoenix soared into the sky to meet the challenge, but in the ensuing battle, both were left crippled, falling back to earth. While the dragon was wounded and forced to flee back to its lair, the phoenix had the very fires of its being corrupted by the evil wyrm. Now it stalks the land, burning everything it its wake, mad with pain, its mind clouded by the dragon's magic.",
 			"",
@@ -3930,7 +3930,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 137](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/137}",
 			"",
 			"What was to be a joyous occasion, the naming ceremony for the king and queen's newborn child, quickly turned to a scene of horror. The doors to the grand chamber opened and an old woman playing an ancient silver pipe entered. The attendees froze in place, unable to resist the piper's tune. As she made her way to the throne, the shadows of the king and queen rose up and seized the newborn royal, carrying the prince out through the doors with the piper following the procession. Left behind was a note instructing the kingdom to send its finest champions to the great arena in the pit of the world \"and if they survive our gladiator games, so will your kingdom.\"",
 			"",
@@ -3963,7 +3963,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 137](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/137}",
 			"",
 			"For centuries, a stretch of fertile land has been tended by several small settlements of halfling farmers. These halflings have developed a mystical bond with the land, creating a birthright of governance they pass down from generation to generation. Just recently, this bond was rudely severed by forces unknown. The land blighted, the crops withered, and the fields fell fallow.",
 			"",
@@ -3994,7 +3994,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 138](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/138}",
 			"",
 			"The heroes come upon a portion of the world left unmade. Whether an oversight of the creator, natural forces of the world, or unique arcane phenomena, this zone is a roiling mass of primeval matter that proves dangerous. Violent creatures of chaos drift in the mutable depths, and other powerful individuals with less noble intentions seek to control what sages term the Nascent Sphere. The heroes must learn to master and shape the primeval matter while keeping ill-meaning forces from encroaching. If the heroes lose control of the Nascent Sphere, a mythic villain may step forward to create a literal hell on the face of the world.",
 			"",
@@ -4025,7 +4025,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 138](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/138}",
 			"",
 			"An ancient civilization once dominated a valley, but its citizens have since degenerated into savagery. Still, vestiges of the civilization remain. Rumors reach the heroes that vast treasures and ancient magic reside on three mountain peaks surrounding the valley.",
 			"",
@@ -4058,7 +4058,7 @@
 		"subtitle": "Mythic Adventure",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"**Source** [Mythic Adventures pg. 139](source/mythic_adventures)",
+			"{SOURCE Mythic Adventures/139}",
 			"",
 			"After spending the night in a hollow, the heroes waken to a feeling of unease. The trees appear to have moved during the night, the road is missing, and the hill giant that just wandered into camp seems to think the heroes are creatures from childhood tales. Here, humans, dwarves, elves, halflings, and all the other common races are all thought to have been extinguished from the land long ago. The PCs also realize that they have newfound powers in this strange land. Little did they know that they camped near a mystical artifact that transported them to this new world due to unknown conditions that just happened to be right.",
 			"",

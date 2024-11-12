@@ -14,7 +14,7 @@
 		"description": [
 			"## Ancestor",
 			"",
-			"**Source** [Ultimate Magic pg. 53](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/53}",
 			"",
 			"**Deities:** Erastil, Irori, Pharasma.",
 			"",
@@ -53,7 +53,7 @@
 		"description": [
 			"## Apocalypse",
 			"",
-			"**Source** [Monster Codex pg. 56](source/monster_codex)",
+			"{SOURCE Monster Codex/56}",
 			"",
 			"Among fire giants, the rare but blessed oracles of the apocalypse are favored emissaries of the divine.",
 			"",
@@ -94,7 +94,7 @@
 		"description": [
 			"## Ascetic",
 			"",
-			"**Source** [Villain Codex pg. 104](source/villain_codex)",
+			"{SOURCE Villain Codex/104}",
 			"",
 			"**Deities:** Gozreh, Irori",
 			"",
@@ -129,7 +129,7 @@
 		"description": [
 			"## Battle",
 			"",
-			"**Source** [Advanced Player's Guide pg. 45](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/45}",
 			"",
 			"**Deities:** Cayden Cailean, Gorum, Iomedae, Rovagug.",
 			"",
@@ -168,7 +168,7 @@
 		"description": [
 			"## Bones",
 			"",
-			"**Source** [Advanced Player's Guide pg. 46](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/46}",
 			"",
 			"**Deities:** Norgorber, Pharasma, Urgathoa.",
 			"",
@@ -207,7 +207,7 @@
 		"description": [
 			"## Dark Tapestry",
 			"",
-			"**Source** [Ultimate Magic pg. 54](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/54}",
 			"",
 			"**Deities:** Lamashtu, Norgorber, Zon-Kuthon.",
 			"",
@@ -246,7 +246,7 @@
 		"description": [
 			"## Dragon",
 			"",
-			"**Source** [Legacy of Dragons pg. 8](source/legacy_of_dragons)",
+			"{SOURCE Legacy of Dragons/8}",
 			"",
 			"Oracles who draw their power from the mysterious and primal might of dragons are usually solitary folk. They are deep thinkers and often quick of wit, but prideful and equally quick-tempered.",
 			"",
@@ -291,7 +291,7 @@
 		"description": [
 			"## Elemental",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 28](source/elemental_masters_handbook)",
+			"{SOURCE Elemental Master's Handbook/28}",
 			"",
 			"Elemental oracles gain their powers from forces that balance or blend elements together.",
 			"",
@@ -334,7 +334,7 @@
 		"description": [
 			"## Flame",
 			"",
-			"**Source** [Advanced Player's Guide pg. 47](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/47}",
 			"",
 			"**Deities:** Asmodeus, Sarenrae.",
 			"",
@@ -373,7 +373,7 @@
 		"description": [
 			"## Godclaw",
 			"",
-			"**Source** [Path of the Hellknight pg. 26](source/path_of_the_hellknight)",
+			"{SOURCE Path of the Hellknight/26}",
 			"",
 			"Many Godclaw signifers are oracles who embrace the unique Godclaw mystery. Oracles with the Godclaw mystery often take the clouded vision or legalistic curses.",
 			"",
@@ -414,7 +414,7 @@
 		"description": [
 			"## Heavens",
 			"",
-			"**Source** [Advanced Player's Guide pg. 47](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/47}",
 			"",
 			"**Deities:** Desna, Gozreh, Pharasma, Sarenrae.",
 			"",
@@ -453,7 +453,7 @@
 		"description": [
 			"## Intrigue",
 			"",
-			"**Source** [Ultimate Intrigue pg. 69](source/ultimate_intrigue)",
+			"{SOURCE Ultimate Intrigue/69}",
 			"",
 			"**Deities:** Calistria, Norgorber",
 			"",
@@ -495,7 +495,7 @@
 		"description": [
 			"## Juju",
 			"",
-			"**Source** [Faiths and Philosophies pg. 14](source/faiths_and_philosophies), [Pathfinder #39: The City of Seven Spears pg. 68](source/pathfinder_39_the_city_of_seven_spears)",
+			"{SOURCE Faiths and Philosophies/14;Pathfinder #39: The City of Seven Spears/68}",
 			"",
 			"**Deities:** Wendo",
 			"",
@@ -532,7 +532,7 @@
 		"description": [
 			"## Life",
 			"",
-			"**Source** [Advanced Player's Guide pg. 48](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/48}",
 			"",
 			"**Deities:** Gozreh, Pharasma, Sarenrae.",
 			"",
@@ -571,7 +571,7 @@
 		"description": [
 			"## Lore",
 			"",
-			"**Source** [Advanced Player's Guide pg. 49](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/49}",
 			"",
 			"**Deities:** Abadar, Irori, Nethys.",
 			"",
@@ -610,7 +610,7 @@
 		"description": [
 			"## Lunar",
 			"",
-			"**Source** [Blood of the Moon pg. 28](source/blood_of_the_moon)",
+			"{SOURCE Blood of the Moon/28}",
 			"",
 			"**Deities:** Ashava, Desna, Groetus, Jezelda, Tsukiyo, Zon-Kuthon.",
 			"",
@@ -649,7 +649,7 @@
 		"description": [
 			"## Metal",
 			"",
-			"**Source** [Ultimate Magic pg. 55](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/55}",
 			"",
 			"**Deities:** Abadar, Gorum, Torag.",
 			"",
@@ -688,7 +688,7 @@
 		"description": [
 			"## Nature",
 			"",
-			"**Source** [Advanced Player's Guide pg. 50](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/50}",
 			"",
 			"**Deities:** Erastil, Gozreh.",
 			"",
@@ -730,7 +730,7 @@
 		"description": [
 			"## Occult",
 			"",
-			"**Source** [Occult Mysteries pg. 53](source/occult_mysteries), [Pathfinder #71: Rasputin Must Die! pg. 68](source/pathfinder_71_rasputin_must_die)",
+			"{SOURCE Occult Mysteries/53;Pathfinder #71: Rasputin Must Die!/68}",
 			"",
 			"You have an innate connection to the spirits of the dead.",
 			"",
@@ -771,7 +771,7 @@
 		"description": [
 			"## Outer Rifts",
 			"",
-			"**Source** [Inner Sea Magic pg. 31](source/inner_sea_magic)",
+			"{SOURCE Inner Sea Magic/31}",
 			"",
 			"**Deities:** Iomedae, Groetus, Lamashtu, demon lords",
 			"",
@@ -810,7 +810,7 @@
 		"description": [
 			"## Reaper",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 66](source/pathfinder_139_the_dead_road)",
+			"{SOURCE Pathfinder #139: The Dead Road/66}",
 			"",
 			"Oracles with the reaper mystery strive to quiet restless souls, end lives, and send souls to their final reward.",
 			"",
@@ -851,7 +851,7 @@
 		"description": [
 			"## Shadow",
 			"",
-			"**Source** [Blood of Shadows pg. 12](source/blood_of_shadows)",
+			"{SOURCE Blood of Shadows/12}",
 			"",
 			"**Deities:** Groetus, Lao Shu Po, Tsukiyo, Zon-Kuthon.",
 			"",
@@ -890,7 +890,7 @@
 		"description": [
 			"## Solar",
 			"",
-			"**Source** [The Harrow Handbook pg. 26](source/the_harrow_handbook)",
+			"{SOURCE The Harrow Handbook/26}",
 			"",
 			"Aimless wanderers and restless nomads, oracles of the solar mystery uncover meaning in the ever-changing positions of the sun and the stars in the sky.",
 			"",
@@ -931,7 +931,7 @@
 		"description": [
 			"## Spellscar",
 			"",
-			"**Source** [Inner Sea Magic pg. 30](source/inner_sea_magic)",
+			"{SOURCE Inner Sea Magic/30}",
 			"",
 			"**Deities:** Gozreh, Lamashtu, Nethys, Zyphus",
 			"",
@@ -970,7 +970,7 @@
 		"description": [
 			"## Stone",
 			"",
-			"**Source** [Advanced Player's Guide pg. 51](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/51}",
 			"",
 			"**Deities:** Abadar, Gorum, Torag.",
 			"",
@@ -1009,7 +1009,7 @@
 		"description": [
 			"## Streets",
 			"",
-			"**Source** [Heroes of the Streets pg. 20](source/heroes_of_the_streets)",
+			"{SOURCE Heroes of the Streets/20}",
 			"",
 			"**Deities:** Cayden Cailean, Milani, Norgorber.",
 			"",
@@ -1046,7 +1046,7 @@
 		"description": [
 			"## Succor",
 			"",
-			"**Source** [Healer's Handbook pg. 20](source/healers_handbook)",
+			"{SOURCE Healer's Handbook/20}",
 			"",
 			"**Deities:** Milani, Pharasma, Qi Zhong, Sarenrae",
 			"",
@@ -1089,7 +1089,7 @@
 		"description": [
 			"## Time",
 			"",
-			"**Source** [Ultimate Magic pg. 56](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/56}",
 			"",
 			"**Deities:** Gozreh, Nethys, Pharasma.",
 			"",
@@ -1128,7 +1128,7 @@
 		"description": [
 			"## Volcano",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source/pathfinder_95_anvil_of_fire)",
+			"{SOURCE Pathfinder #95: Anvil of Fire/72}",
 			"",
 			"**Deities:** Flauros, Mhar, Rovagug, Valani, Yamatsumi, Ymeri.",
 			"",
@@ -1167,7 +1167,7 @@
 		"description": [
 			"## Waves",
 			"",
-			"**Source** [Advanced Player's Guide pg. 52](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/52}",
 			"",
 			"**Deities:** Gozreh, Pharasma.",
 			"",
@@ -1206,7 +1206,7 @@
 		"description": [
 			"## Whimsy",
 			"",
-			"**Source** [Legacy of the First World pg. 10](source/legacy_of_the_first_world)",
+			"{SOURCE Legacy of the First World/10}",
 			"",
 			"Whimsy oracles gain powers from capricious fey tricksters.",
 			"",
@@ -1247,7 +1247,7 @@
 		"description": [
 			"## Wind",
 			"",
-			"**Source** [Advanced Player's Guide pg. 53](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/53}",
 			"",
 			"**Deities:** Gozreh, Shelyn.",
 			"",
@@ -1286,7 +1286,7 @@
 		"description": [
 			"## Winter",
 			"",
-			"**Source** [People of the North pg. 26](source/people_of_the_north)",
+			"{SOURCE People of the North/26}",
 			"",
 			"**Deities:** Gorum, Gozreh, Kostchtchie, Ng, Rovagug.",
 			"",
@@ -1325,7 +1325,7 @@
 		"description": [
 			"## Wood",
 			"",
-			"**Source** [Ultimate Magic pg. 57](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/57}",
 			"",
 			"**Deities:** Erastil, Gozreh.",
 			"",

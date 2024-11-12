@@ -5,12 +5,12 @@
 		"description": [
 			"## Animal Companions",
 			"",
-			"**Source** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Each animal companion has different starting sizes, speed, attacks, ability scores, and special qualities. All animal attacks are made using the creature's full base attack bonus unless otherwise noted. Animal attacks add the animal's Strength modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 its Strength modifier. Some have special abilities, such as [scent](umr/scent). As you gain levels, your animal companion improves as well, usually at 4th or 7th level, in addition to the standard bonuses noted on **the [Animal Companion](sidekick/animal_companion) page.** Instead of taking the listed benefit at 4th or 7th level, you can instead choose to increase the companion's Dexterity and Constitution by 2.",
 			"",
 			"### Monstrous Companions",
 			"",
-			"**Source** [Inner Sea Combat](source/inner_sea_combat)  ",
+			"{SOURCE Inner Sea Combat}  ",
 			"Fantastical mounts are not uncommon in the Inner Sea region, rife as it is with magic and the extraordinary. The Monstrous Mount Choices section below details monsters that are ridden primarily by cavaliers, rangers, and paladins. Taking on a monstrous mount requires [a feat](feat/monstrous_mount), but otherwise uses the rules for the animal companion class feature. Unlocking the most useful abilities and powerful attacks of a monstrous mount requires [a second feat](feat/monstrous_mount_mastery).",
 			"",
 			"### Plant Companions",
@@ -24,7 +24,7 @@
 			"",
 			"### Vermin Companions",
 			"",
-			"**Source** [Ultimate Magic](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic}  ",
 			"Vermin companions follow the same rules as animal companions, advancing their Hit Dice and other abilities per the animal companion base statistics table. Vermin companions can be trained as if they were animals using the Handle Animal skill.",
 			"",
 			"**Mindless:** Vermin companions have no Intelligence score and possess the mindless trait. In spite of this, vermin companions may learn one trick, plus additional bonus tricks. If a vermin animal companion gains an ability score increase (at 4 Hit Dice, 8 Hit Dice, and so on), the druid can apply this increase to the companion's Intelligence, changing it from - to 1, at which point the companion loses the mindless quality and is able to know up to 3 tricks per point of Intelligence, plus the additional bonus tricks. Vermin companions have no skill points or feats as long as they have the mindless quality.",
@@ -312,7 +312,7 @@
 		"description": [
 			"## Kineticist Elements",
 			"",
-			"**Source** [Occult Adventures](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures}  ",
 			"A kineticist can choose from among the following elements. Infusion wild talents are marked with a dagger (&ast;); all other wild talents listed below from 1st-9th are utility wild talents.",
 			"",
 			"### Aether",
@@ -547,7 +547,7 @@
 		"name": "Phantom Emotional Focus",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Description Source:** [Occult Adventures](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures}  ",
 			"Each phantom has an emotional focus-a powerful emotion based on some experience in life that keeps it tethered to the Material and Ethereal planes. This emotional focus also grants the phantom abilities that it can use while manifested. The type of each ability and its power are determined by the spiritualist's level.",
 			"",
 			"The emotional focus determines which bonus skill ranks the phantom gains, as well as the skills in which its spiritualist master gains [Skill Focus](feat/skill_focus). It also determines the good saving throws of the manifested phantom and the special abilities the phantom gains as it increases in level.",
@@ -586,7 +586,7 @@
 		"description": [
 			"## Evolutions",
 			"",
-			"**Description Source:** [Advanced Player's Guide](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide}  ",
 			"Each eidolon receives a number of evolution points that can be spent to give the eidolon new abilities, powers, and other upgrades. These abilities, called evolutions, can be changed whenever the summoner gains a new level, but they are otherwise set. Some evolutions require that the eidolon have a specific base form or the summoner be of a specific level before they can be chosen. A number of evolutions grant the eidolon additional natural attacks. Natural attacks listed as primary are made using the eidolon's full base attack bonus and add the eidolon's Strength modifier on damage rolls. Natural attacks listed as secondary are made using the eidolon's base attack bonus - 5 and add 1/2 the eidolon's Strength modifier on damage rolls (if positive). If the eidolon only has a single natural attack, the attack is made using its full base attack bonus and it adds 1-1/2 times its Strength modifier on damage rolls made with that attack, regardless of the attack's type.",
 			"",
 			"Evolutions are grouped by their cost in evolution points. Evolution points cannot be saved. All of the points must be spent whenever the summoner gains a level. Unless otherwise noted, each evolution can only be selected once.",
@@ -799,7 +799,7 @@
 		"description": [
 			"## Unchained Evolutions",
 			"",
-			"**Description Source:** [Pathfinder Unchained](source/pathfinder_unchained)  ",
+			"{SOURCE Pathfinder Unchained}  ",
 			"Each eidolon gains a number of evolution points that can be spent to give the eidolon new abilities, powers, and other upgrades. These abilities, called evolutions, can be changed whenever the summoner gains a new level, but they are otherwise set. Some evolutions require that the eidolon have a specific base form or the summoner be of a specific level before they can be chosen. A number of evolutions grant the eidolon additional natural attacks. Natural attacks listed as primary are made using the eidolon's full base attack bonus and add the eidolon's Strength modifier on damage rolls. Natural attacks listed as secondary are made using the eidolon's base attack bonus - 5 and add 1/2 the eidolon's Strength modifier on damage rolls (if positive). If the eidolon has only a single natural attack, the attack is made using its full base attack bonus, and it adds 1-1/2 times its Strength modifier on damage rolls made with that attack, regardless of the attack's type.",
 			"",
 			"Evolutions are grouped by their cost in evolution points. Evolution points cannot be saved. All of the points must be spent whenever the summoner gains a level. Unless otherwise noted, each evolution can be selected only once.",
@@ -958,7 +958,7 @@
 		"description": [
 			"## Arcanist Exploits",
 			"",
-			"**Source** [Advanced Class Guide](source/advanced_class_guide)",
+			"{SOURCE Advanced Class Guide}",
 			"",
 			"By bending and sometimes even breaking the rules of magic, the arcanist learns to exploit gaps and exceptions in the laws of magic. Some of these exploits allow her to break down various forms of magic, adding their essence to her arcane reservoir. At 1st level and every 2 levels thereafter, the arcanist learns a new arcane exploit selected from the following list. An arcanist exploit cannot be selected more than once. Once an arcanist exploit has been selected, it cannot be changed. Most arcanist exploits require the arcanist to expend points from her arcane reservoir to function. Unless otherwise noted, the saving throw DC for an arcanist exploit is equal to 10 + 1/2 the arcanist's level + the arcanist's Charisma modifier.",
 			"",
@@ -1023,7 +1023,7 @@
 		"description": [
 			"## Exploits of the Outer Rifts",
 			"",
-			"**Source** [Horror Realms pg. 6](source/horror_realms)",
+			"{SOURCE Horror Realms/6}",
 			"",
 			"Arcanists experiment with ancient knowledge and mystic lore, manipulating their own natural abilities to unlock powerful arcane secrets.Despite extensive effort, not all arcanists achieve the power they seek. Some discover that their blood lacks the innate power of a sorcerer's, or that deciphering mysteries in ancient tomes requires a degree of scholarly discipline they do not have. Undeterred, such individuals continue their quest by turning to the powerful mysteries of the Outer Rifts, be they blasphemous secrets found in lost ruins, tricks of magic etched into fiendish runestones, or any other dangerous form of sinister exploitation from these horrific realms.Not all arcanists who choose this route are necessarily evil-they justify these exploits by claiming to be in control of their actions and to use the tools of their enemies against them. Nevertheless, those who bend magic using exploits from the Outer Rifts should be wary of attracting the wrong attention or enabling a greater evil than that which they seek to defeat.",
 			"",
@@ -1083,7 +1083,7 @@
 		"description": [
 			"## Familiars",
 			"",
-			"**Source** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook}  ",
 			"A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.",
 			"",
 			"A familiar grants special abilities to its master, as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.",
@@ -1094,7 +1094,7 @@
 			"",
 			"Statistics for familiars [can be found here](sidekick/familiar).",
 			"",
-			"**Source** [Familiar Folio](source/familiar_folio), [Ultimate Magic](source/ultimate_magic)  ",
+			"{SOURCE Familiar Folio;Ultimate Magic}  ",
 			"While most familiars are Tiny animals or magical beasts, spellcasters may acquire larger or more unusual creatures during their travels, which impart certain rules effects that should be considered at the table.",
 			"",
 			"Small familiars threaten the areas around them like other Small creatures, and can be used to flank enemies, though both familiars and their masters are generally loath to employ such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars; some form of magic item, like a [bag of holding](magic-wondrous/bag_of_holding_type_1), is usually required.",
@@ -1223,7 +1223,7 @@
 		"description": [
 			"## Grand Discoveries",
 			"",
-			"**Source** [Advanced Player's Guide](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide}",
 			"",
 			"At 20th level, the alchemist makes a grand discovery. He immediately learns two normal discoveries, but also learns a third discovery chosen from the list below, representing a truly astounding alchemical breakthrough of significant import. For many alchemists, the promise of one of these grand discoveries is the primary goal of their experiments and hard work.",
 			"",
@@ -1255,7 +1255,7 @@
 		"description": [
 			"## Grand Hexes",
 			"",
-			"**Source:** [Advanced Player's Guide](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide}  ",
 			"Starting at 18th level, and every two levels thereafter, a witch can choose one of the following grand hexes whenever she could select a new hex.",
 			"",
 			"---",
@@ -1299,7 +1299,7 @@
 		"description": [
 			"## Greater Exploits",
 			"",
-			"**Source** [Advanced Class Guide](source/advanced_class_guide)",
+			"{SOURCE Advanced Class Guide}",
 			"",
 			"At 11th level and every 2 levels thereafter, an arcanist can choose one of the following greater exploits in place of an arcanist exploit.",
 			"",
@@ -1336,7 +1336,7 @@
 		"description": [
 			"## Deeds",
 			"",
-			"**Source** [Ultimate Combat](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat}  ",
 			"Gunslingers spend grit points to accomplish deeds. Most deeds grant the gunslinger some momentary bonus or effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as the gunslinger has at least 1 grit point. The following is the list of base gunslinger deeds. A gunslinger can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the appropriate amount of grit is spent to perform the deed.",
 			"",
 			"### 1st-Level Deeds",
@@ -1405,7 +1405,7 @@
 		"description": [
 			"## Renowned Deeds",
 			"",
-			"**Sources** [Chronicle of Legends p.4-5](source/chronicle_of_legends)",
+			"{SOURCE Chronicle of Legends/4}",
 			"",
 			"Swashbucklers and gunslingers perform impressive deeds through their grit and panache, but some are capable of truly spectacular acts known as renowned deeds. A swashbuckler or gunslinger (though not members of other classes) can select a renowned deed for her class upon reaching the class level listed in the deed's description. This replaces the specific listed deed or deeds; if the character would not gain the appropriate deeds, she cannot select the renowned deed, as if selecting an archetype.",
 			"",
@@ -1435,7 +1435,7 @@
 		"description": [
 			"## Hellknight Disciplines",
 			"",
-			"**Source:** [Adventurer's Guide](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide}  ",
 			"At 3rd level, a Hellknight gains access to his first discipline, choosing one associated with his specific order. At 6th level, the Hellknight gains a second discipline, choosing from any listed as being available to \"any order.\" At 9th level, the Hellknight gains his third discipline, choosing this one from any of the disciplines listed below, even those from another order, with the exception of pentamic faith. When applicable, the save DC to resist a discipline's effect is equal to 10 + the Hellknight's level + his Charisma modifier. The Hellknight can use any one discipline a number of times per day equal to the total number of disciplines he has access to, so at 3rd level he can use his discipline once per day. At 6th level, he can use both disciplines twice per day each. At 9th level, he can use all three of his disciplines three times per day.",
 			"",
 			"---",
@@ -1493,7 +1493,7 @@
 		"description": [
 			"## Hellknight Orders",
 			"",
-			"**Source:** [Inner Sea World Guide](source/inner_sea_world_guide)  ",
+			"{SOURCE Inner Sea World Guide}  ",
 			"A character must choose one Hellknight order to join. The choice of order determines what disciplines the character gains access to.",
 			"",
 			"| Order | Description |",
@@ -1539,7 +1539,7 @@
 		"description": [
 			"## Witch Hexes",
 			"",
-			"**Source:** [Advanced Player's Guide](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide}  ",
 			"Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level. A witch cannot select an individual hex more than once.",
 			"",
 			"Unless otherwise noted, using a hex is a standard action that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 + 1/2 the witch's level + the witch's Intelligence modifier.",
@@ -1674,7 +1674,7 @@
 		"description": [
 			"## Vigilante Talents - Hidden Strike",
 			"",
-			"**Description Source:** [Ultimate Intrigue](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue}  ",
 			"A stalker vigilante can apply only one talent below to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.",
 			"",
 			"---",
@@ -1699,19 +1699,19 @@
 		"description": [
 			"## Implements",
 			"",
-			"**Source** [Occult Adventures](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures}  ",
 			"Occultists can chose from the following *implement schools*, each representing a school of magic. An occultist can select an implement school more than once, as noted in the implements class feature.",
 			"",
 			"### Panoplies",
 			"",
-			"**Sources:** [Psychic Anthology](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology}  ",
 			"While many occultists focus on the inherent psychic properties of certain types of objects, some specialists take their studies a step further, exploring the ways specific types of implements interact with one another. While not all implements psychically resonate with all other kinds of implements, such *panoplies* unlock even greater magical potential when used to complement one another.",
 			"",
 			"An occultist can select a panoply anytime he selects a new implement school. To do so, he must already have learned to use the implement school of each implement within the panoply at least once. As with any other implement school, when an occultist learns to use a panoply, he gains access to the resonant power and base focus power, and he becomes able to learn the panoply's other focus powers. He also adds one spell of each spell level to his spell list, and these spells can be taken from any of the implement schools associated with the panoply. To use a panoply's resonant power or any of its focus powers, the occultist must select and invest mental focus into the associated implements that day. A single bearer must hold all the panoply's associated implements to gain the panoply's resonant power, and the occultist counts the total number of points of mental focus invested among all of the associated implements to determine the resonant power's effect. The occultist can expend points of mental focus from any of the associated implements to use the panoply's focus powers. Unlike for other implement schools, an occultist cannot select a panoply more than once.",
 			"",
 			"### Sacred Implements",
 			"",
-			"**Source** [Occult Origins pg. 15](source/occult_origins)  ",
+			"{SOURCE Occult Origins/15}  ",
 			"Outsiders and divine servants leave especially lasting impressions when they interact with the Material Plane, and many occultists seek out the resulting sacred implements to augment their existing powers. A sacred implement is always a specific kind of object, though not necessarily unique.",
 			"",
 			"An occultist can adopt a sacred implement whenever he gains access to an implement school. Once chosen, the sacred implement is permanent and grants the occultist access to a bonus focus power for that implement school, but causes the occultist to take a -1 penalty to his caster level when using the spells and associated implement powers of a school of magic opposed to that deity's portfolio. An occultist can use a sacred implement even if he doesn't worship the associated god.",
@@ -2105,7 +2105,7 @@
 		"description": [
 			"## Talents",
 			"",
-			"**Source** [Advanced Class Guide](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide}  ",
 			"At 3rd level and every 2 levels thereafter, an investigator gains an investigator talent. Except where otherwise noted, each investigator talent can only be selected once.",
 			"",
 			"Investigator talents marked with an asterisk (&ast;) add effects to an investigator's studied combat or studied strike. Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.",
@@ -2273,7 +2273,7 @@
 		"description": [
 			"## Ki Powers (Unchained)",
 			"",
-			"**Source** [Pathfinder Unchained](source/pathfinder_unchained)  ",
+			"{SOURCE Pathfinder Unchained}  ",
 			"At 4th level and every 2 levels thereafter, an unchained monk can select one ki power. These powers allow the monk to perform amazing feats of mystical power and acrobatic prowess by expending points from his ki pool. Once a ki power is selected, it cannot be changed. Some ki powers require the monk to be of a specific level or higher before they can be chosen. Unless otherwise noted, a monk cannot select an individual ki power more than once.",
 			"",
 			"**Abundant Step (Su)** ([Pathfinder Unchained pg. 16](source/pathfinder_unchained)) A monk with this ki power can slip magically between spaces, as if using the spell [dimension door](spell/dimension_door). Using this ability is a move action that consumes 2 points from his ki pool. The monk's caster level for this effect is equal to his monk level. He cannot take other creatures with him when he uses this ability. A monk must be at least 8th level before selecting this ki power.",
@@ -2379,7 +2379,7 @@
 		"description": [
 			"## Legendary Spirits",
 			"",
-			"**Source:** [Occult Realms](source/occult_realms)  ",
+			"{SOURCE Occult Realms}  ",
 			"The spirits a medium can channel draw their power both from the tales told about them and from their own souls, which echo with the remarkable deeds they performed in life. All spirits have stories-and some arise from people whose deeds shook the world and whose testaments have endured throughout the ages. These beings are legendary spirits, and they possess great power they can share with mediums who gain their favor.",
 			"",
 			"Attaining the ability to channel a legendary spirit involves traveling to a certain location or performing a certain deed, swearing an oath, performing a ritual, and succeeding at an ability check. The type of check depends on the spirit, but the DC is always equal to 10 + 1/2 the medium's level. If the medium breaks the oath, the spirit will no longer answer when he calls. If the medium attempts to call another spirit of the legendary spirit's legend, the legendary spirit similarly departs forever.",
@@ -2433,7 +2433,7 @@
 		"description": [
 			"## Magus Arcana",
 			"",
-			"**Source** [Ultimate Magic](source/ultimate_magic)  ",
+			"{SOURCE Ultimate Magic}  ",
 			"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the magus spell list unless otherwise noted.",
 			"",
 			"{table0}"
@@ -2533,7 +2533,7 @@
 		"description": [
 			"## Major Hexes",
 			"",
-			"**Source:** [Advanced Player's Guide](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide}  ",
 			"Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.",
 			"",
 			"---",
@@ -2611,7 +2611,7 @@
 		"description": [
 			"## Major Phrenic Amplifications",
 			"",
-			"**Source** [Occult Adventures](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures}  ",
 			"At 11th level and every 4 levels thereafter, a psychic can choose one of the following major amplifications in place of a phrenic amplification.",
 			"",
 			"---",
@@ -2646,7 +2646,7 @@
 		"description": [
 			"## Masterful Tricks",
 			"",
-			"**Source:** [Occult Adventures](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures}  ",
 			"At 12th level, a mesmerist can choose one of the following masterful tricks in place of a mesmerist trick. He gains an additional masterful trick every 2 levels thereafter. Using a masterful trick consumes two uses of the mesmerist trick class feature instead of one.",
 			"",
 			"**Allay Pain** ([Occult Realms pg. 16](source/occult_realms)): The subject of this trick gains DR 15/- against one attack that deals nonlethal damage. The mesmerist can trigger this trick whenever the subject is hit with an attack that deals nonlethal damage.",
@@ -2751,7 +2751,7 @@
 		"description": [
 			"## Mercies",
 			"",
-			"**Source** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook}  ",
 			"At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.",
 			"",
 			"### 3rd-Level Mercies",
@@ -2845,7 +2845,7 @@
 		"description": [
 			"## Mysteries",
 			"",
-			"**Source** [Advanced Player's Guide](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide}  ",
 			"Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier.",
 			"",
 			"| Mystery | Deities |",
@@ -2955,7 +2955,7 @@
 		"description": [
 			"## Ninja Tricks",
 			"",
-			"**Source** [Ultimate Combat](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Combat}  ",
 			"As a ninja continues her training, she learns a number of tricks that allow her to confuse her foes and grant her supernatural abilities. Starting at 2nd level, a ninja gains one ninja trick. She gains one additional ninja trick for every 2 levels attained after 2nd. Unless otherwise noted, a ninja cannot select an individual ninja trick more than once.",
 			"",
 			"Tricks marked with an asterisk (&ast;) add effects to a ninja's sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",

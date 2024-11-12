@@ -5,7 +5,7 @@
 		"description": [
 			"## Aquakinetcist",
 			"",
-			"**Source** [Aquatic Adventures pg. 50](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/50}  ",
 			"While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to their determination to explore the world beneath the waves.",
 			"",
 			"**Aquatic Focus:** An aquakineticist must choose water as her primary element and for both expanded elements, and must choose water blast as her first simple blast.",
@@ -35,7 +35,7 @@
 		"description": [
 			"## Arakineticist",
 			"",
-			"**Source** [Blood of the Coven pg. 22](source/blood_of_the_coven)  ",
+			"{SOURCE Blood of the Coven/22}  ",
 			"Those of strong will who live under a dark curse long enough might learn to control and channel the corrupt energy afflicting them. Changelings who resist the call of their hag mothers are especially given to the arts of the arakineticist.",
 			"",
 			"**Living Curse:** An arakineticist's curse lives within her, granting her dark powers. She must choose void as her primary element and negative blast as her first simple blast.",
@@ -59,7 +59,7 @@
 		"description": [
 			"## Blightburner",
 			"",
-			"**Source** [Heroes of the Darklands pg. 25](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/25}  ",
 			"Darklands geokineticists sometimes exhibit supernatural powers associated with blightburn crystals. Blightburner kineticists harness this radioactivity in pyrotechnic displays, an unusual feat for those connected to the element of earth.",
 			"",
 			"**Earth Focus:** A blightburner must choose earth as her elemental focus.",
@@ -95,7 +95,7 @@
 		"description": [
 			"## Blighted Defiler",
 			"",
-			"**Source** [Ultimate Wilderness pg. 62](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/62}  ",
 			"A few kineticists have developed the ability to steal the life force from the surrounding land in order to infuse themselves with unnatural strength beyond their bodies' normal capabilities.",
 			"",
 			"**Alignment:** Blighted defilers must be evil in order to use steal power, since defiling the land and reaping the vulnerable for power is a particularly vile act. Nonevil blighted defilers can continue to gain kineticist levels and use their other abilities.",
@@ -139,7 +139,7 @@
 		"description": [
 			"## Blood Kineticist",
 			"",
-			"**Source** [Occult Adventures pg. 88](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/88}  ",
 			"To a blood kineticist, the water in a creature's blood is just like any other sort, and she uses that knowledge to brutal ends.",
 			"",
 			"**Blood Focus (Ex):** A blood kineticist must choose water as her primary element and must choose water blast as her first simple blast. All of her infusions granted by this archetype work only on targets with blood and automatically fail if the target is immune to bleed damage.",
@@ -167,7 +167,7 @@
 		"description": [
 			"## Cinderlands Adept",
 			"",
-			"**Source** [Wilderness Origins pg. 28](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/28}  ",
 			"Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their will. These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.",
 			"",
 			"**Class Skills:** A Cinderlands adept gains Handle Animal and Ride as class skills, but does not gain Stealth and Use Magic Device as class skills.",
@@ -193,7 +193,7 @@
 		"description": [
 			"## Dark Elementalist",
 			"",
-			"**Source** [Horror Adventures pg. 56](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/56}  ",
 			"Some kineticists who are loathe to suffer the consequences of channeling their power study the darkest esoteric energies of the planes and use souls to fuel their occult might. The spiritual tortures these dark elementalists inflict upon their victims' souls are horrifically selfish acts on par with the actions of daemons.",
 			"",
 			"**Alignment:** Since harming souls is a wicked act, a dark elementalist must be of an evil alignment. If she becomes nonevil, she can't use any of her dark elementalist abilities other than dark studies, though she can still use her other kineticist class features.",
@@ -219,7 +219,7 @@
 		"description": [
 			"## Elemental Annihilator",
 			"",
-			"**Source** [Occult Adventures pg. 89](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/89}  ",
 			"For some kineticists, nothing in life is as sweet as destruction and pain. Elemental annihilators pursue only uses of their powers that harm others.",
 			"",
 			"**Devastating Infusion (Su):** At 1st level, an elemental annihilator can either shoot her kinetic blast at a target within 30 feet or make a single melee attack as if she were using kinetic blade as an attack action. For this attack, the elemental annihilator's base attack bonus from her kineticist levels is equal to her full kineticist level. A devastating infusion always deals an amount of damage equal to 1d8 + the elemental annihilator's Constitution modifier, regardless of the annihilator's class level or use of composite blasts. When making a melee attack with devastating infusion, the elemental annihilator doesn't provoke attacks of opportunity, and if she uses two hands, the attack's damage is equal to 1d8 + 1-1/2 times her Constitution modifier. This is a 1st-level form infusion that costs 0 points of burn and can be used with any physical blast (but not energy blasts). Unlike with kinetic blade, the elemental annihilator can use [Vital Strike](feat/vital_strike) with devastating infusion. The damage bonus from elemental overflow doesn't apply to devastating infusion's damage rolls. This ability replaces the 1st-level infusion and the basic utility wild talent normally granted by selecting an element.",
@@ -245,7 +245,7 @@
 		"description": [
 			"## Elemental Ascetic",
 			"",
-			"**Source** [Occult Adventures pg. 90](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/90}  ",
 			"Combining the elemental powers of a kineticist with the rigid physical discipline of a monk, an elemental ascetic channels his powers through his body to enhance himself in combat.",
 			"",
 			"**Elemental Flurry (Su):** At 1st level, an elemental ascetic gains [Improved Unarmed Strike](feat/improved_unarmed_strike) as a bonus feat. He gains the kinetic fist form infusion and it costs 0 points of burn instead of 1 point of burn. When using the kinetic fist form infusion with a full attack, he can make a flurry of blows as the monk class feature. He must use only his fists to make this flurry, no matter what other abilities he possesses. Like a monk, he can use this ability only when unarmored, not using a shield, and unencumbered. He can't use his kinetic blast without a form infusion, nor can he ever use his kinetic blast with the chain, extended range, extreme range, foe throw, flurry of blasts, many throw, or snake form infusions, or with any other form infusion that requires a ranged attack roll or ranged touch attack roll. This ability alters kinetic blast and replaces elemental overflow.",
@@ -263,7 +263,7 @@
 		"description": [
 			"## Elemental Purist",
 			"",
-			"**Source** [Planes of Power pg. 7](source/planes_of_power)  ",
+			"{SOURCE Planes of Power/7}  ",
 			"An elemental purist spurns all elements that are not her own, for utter devotion can allow one to accomplish even seemingly impossible heroics.",
 			"",
 			"**Limited Buffer (Su):** An elemental purist does not gain internal buffer at 6th level. She instead gains internal buffer at 11th level and treats her kineticist level as 5 lower for the purpose of the ability.",
@@ -283,7 +283,7 @@
 		"description": [
 			"## Elysiokineticist",
 			"",
-			"**Source** [People of the Wastes pg. 18](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/18}  ",
 			"Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their abilities to the riotous wilderness of the plane known as Elysium. Many such kineticists vow to fight against evil planar intrusions into the Material Plane, particularly the Worldwound.",
 			"",
 			"**Elysium's Soul:** An elysiokineticist must be chaotic good, and she has alignment auras of chaotic and good as if she were a chaotic good outsider with a number of Hit Dice equal to her kineticist level. She must choose wood as her primary element and positive blast as her first simple blast. At 7th level, she gains verdant blast and wood blast, as well as a 3rd-level or lower wild talent of her choice. At 15th level, she gains a 7th-level wild talent of her choice. She gains Heal and Knowledge (religion) as class skills but does not gain Handle Animal and Knowledge (nature) as class skills.",
@@ -311,7 +311,7 @@
 		"description": [
 			"## Ioun Kineticist",
 			"",
-			"**Source** [Blood of the Ancients pg. 10](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/10}  ",
 			"Among the greatest technologies to come from Azlant are ioun stones, small crystalline minerals imbued with magical energies that modern scholars still struggle to dissect. Some kineticists dedicate themselves to unlocking ioun stones' cosmic secrets and seemingly limitless potential.",
 			"",
 			"**Ioun Focus:** An ioun kineticist must choose aether as her elemental focus. She cannot select disintegrating infusion, foe throw, or force hook as infusions, nor can she select aether puppet, telekinetic finesse, telekinetic haul, or telekinetic invisibility as wild talents. She instead treats the following infusions and wild talents as though they were part of the aether element cyclone, fragmentation, jagged flesh, and rare metal infusion. These infusions can be applied to the ioun kineticist's telekinetic blast and Azlanti composite blast (see below).",
@@ -347,7 +347,7 @@
 		"description": [
 			"## Kinetic Chirurgeon",
 			"",
-			"**Source** [Occult Adventures pg. 90](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/90}  ",
 			"While any hydrokineticist or telekineticist can learn the rudiments of healing, some kineticists are virtuosos of the curative arts.",
 			"",
 			"**Kinetic Chirurgery (Su):** A kinetic chirurgeon must select either aether or water as her primary element. She gains kinetic healer as a bonus wild talent at 1st level. At 3rd level and every 2 levels thereafter, the kinetic chirurgeon can select any one paladin mercy that a paladin of that level could select. Each time she uses kinetic healer, she can apply one of these mercies to the target of the healing. A kinetic chirurgeon can never use infusions. This ability replaces infusions.",
@@ -363,7 +363,7 @@
 		"description": [
 			"## Kinetic Knight",
 			"",
-			"**Source** [Psychic Anthology pg. 25](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology/25}  ",
 			"A kinetic knight dons armor and wields a blade of elemental energy. The Phoenix Kindred counted many of these resolute warriors among their number, combining the Recursion Tablets' secrets with a warrior's ways. Today, most remaining Tian kinetic knights follow the philosophy of ichimeiyo. Kinetic knights are rarer in the Inner Sea region, but not unknown; many realize their elemental powers while training for battle.",
 			"",
 			"**Courtly:** The kinetic knight adds Diplomacy and Sense Motive to her list of class skills instead of Acrobatics and Stealth.",
@@ -393,7 +393,7 @@
 		"description": [
 			"## Leshykineticist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 23](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/23}  ",
 			"Of all those who pursue the path of a kineticist, only leshykineticists are both made of plant matter and born of nature spirits. These curious creatures wield ancient powers unknown to any other kineticists.",
 			"",
 			"**Leshy Element:** A leshykineticist must select the [wood element](ability/elements) as her primary element and for both her expanded elements. She must choose wood blast as her first simple blast and positive blast as her second simple blast. At 6th level, she gains green tongue as a bonus utility wild talent, ignoring its prerequisites. At 7th level, when she first gains positive blast, she gains kinetic healer and the photokinetic infusion instead of the extra wild talent of 3rd level or lower for expanding in the same element. Her kinetic healer wild talent restores 1 extra hit point per die when healing plant creatures. At 9th level, she gains an extra wild talent of 3rd level or lower of her choice. At 10th level, she gains greater green tongue as a bonus utility wild talent, ignoring its prerequisites.",
@@ -419,7 +419,7 @@
 		"description": [
 			"## Overwhelming Soul",
 			"",
-			"**Source** [Occult Adventures pg. 91](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/91}  ",
 			"Some kineticists have such a powerful personality that they can seize control of their element with their minds alone, without endangering their bodies.",
 			"",
 			"**Mind Over Matter (Ex):** An overwhelming soul uses her Charisma modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitution-based wild talents, the duration of wild talents with a Constitution-based duration, her bonus on concentration checks for wild talents, and the other Constitution-based effects of all her wild talents. She adds Bluff and Diplomacy to her list of kineticist class skills. This ability alters the kineticist's class skills and the key ability score of wild talents.",
@@ -435,7 +435,7 @@
 		"description": [
 			"## Psammokinetic",
 			"",
-			"**Source** [Heroes from the Fringe pg. 6](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/6}  ",
 			"Psammokinetics are ascetic kineticists who consider the harsh nature of the burning deserts of Osirion to be a tempering fire that can purify all their imperfections. Trained by the Pahmet dwarves, who also make up the majority of their numbers, these kineticists seek to master the powers of sand and wind while focusing on self-improvement.",
 			"",
 			"**Alignment:** A psammokinetic kineticist must be lawful in alignment. If the psammokinetic ever becomes nonlawful, she cannot gain any additional levels with this archetype and loses access to the ki pool class feature granted by this archetype.",
@@ -477,7 +477,7 @@
 		"description": [
 			"## Psychokineticist",
 			"",
-			"**Source** [Horror Adventures pg. 56](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/56}  ",
 			"While most kineticists channel elemental power through their bodies, rare kineticists, such as elemental ascetics, overwhelming souls, and psychokineticists channel such power through their minds. Psychokineticists lack an overwhelming soul's strong spirit, and so this energy ravages their minds but unleashes power locked in their ruptured emotions. Sometimes a psychokineticist inadvertently unleashes his power when he experiences an outburst of strong emotion, potentially making a psychokineticist an outcast or even an accidental killer.",
 			"",
 			"**Emotional Intensity (Ex):** A psychokineticist uses his Wisdom modifier instead of his Constitution modifier to determine his damage with wild talents, the DCs of Constitution-based wild talents, the durations of wild talents with Constitution-based durations, his bonus on concentration checks for wild talents, and other Constitution-based effects of all his wild talents. He can't use any of his wild talents whenever he would be unable to use a spell with an [emotion component](rule/components_oa), and if he ever gains immunity to charm, compulsion, emotion effects (even if such immunity extends only to a subcategory of these effects like fear effects or compulsion effects from creatures of certain alignments), he loses all his kineticist abilities. This includes effects that he previously activated that normally last until the next time his burn is removed, like elemental defenses, though he still keeps all his penalties from burn. He can always choose to ignore such immunities when he would normally gain them, even if they are granted by another class feature (such as the paladin's aura of courage), but once he decides whether or not to ignore an immunity he would have gained, the choice cannot be changed.A psychokineticist adds Sense Motive to his list of class skills and gains Psychic Sensitivity as a bonus feat.",
@@ -499,7 +499,7 @@
 		"description": [
 			"## Terrakineticist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 63](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/63}  ",
 			"Terrakineticists have a stunted ability that allows them to access the Elemental Planes, but they've learned how to turn this limited talent into an incredible strength by tapping into the ambient elemental nature of the land surrounding them.",
 			"",
 			"**Terrakinesis:** Whenever a terrakineticist gains a wild talent that isn't a universal talent, she chooses one wild talent of the appropriate level from each of the six elements (aether, air, fire, earth, water, and wood). She can use wild talents of the same element that she chose in this way to meet prerequisites for these wild talents. Instead of gaining one kineticist blast, a terrakineticist chooses one simple blast from each element that has more than one simple blast.",

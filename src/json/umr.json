@@ -12,7 +12,7 @@
 		"description": [
 			"## Curse (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through [remove curse](spell/remove_curse) and similar effects.",
 			"",
 			"**Format:** Curse Name (Su) Slam-contact; save Will DC 14, frequency 1/day, effect 1d4 Str drain  ",
@@ -25,7 +25,7 @@
 		"description": [
 			"## Hold Breath (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 294](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/294}  ",
 			"The creature can hold its breath for a number of minutes equal to 6 &times; its Constitution score before it risks drowning.",
 			"",
 			"**Format:** hold breath  ",
@@ -38,7 +38,7 @@
 		"description": [
 			"## Telepathy (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"A creature with this ability can mentally communicate with any other creature within a certain range (specified in the creature's entry, usually 100 feet) that has a language. It is possible to address multiple creatures at once telepathically, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as simultaneously speaking and listening to multiple people at the same time.",
 			"",
 			"**Format:** telepathy 100 ft.  ",
@@ -51,7 +51,7 @@
 		"description": [
 			"## Sound Mimicry (Ex)",
 			"",
-			"**Source** [Bestiary 4 pg. 299](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/299}  ",
 			"The creature perfectly imitates certain sounds or even specific voices. The creature attempts a Bluff check opposed by the listener's Sense Motive check to recognize the mimicry, although if the listener isn't familiar with the person or type of creatures mimicked, it takes a -8 penalty on its Sense Motive check. The creature has a +8 racial bonus on its Bluff check to mimic sounds (including accents and speech patterns, if a voice mimic) it has listened to for at least 10 minutes. The creature cannot duplicate the effects of magical abilities (such as [bardic performance](class/bard) or a [harpy's captivating song](monster/harpy)), though it may be able to mimic the sound of those abilities. This ability does not allow the creature to speak or understand languages it doesn't know.",
 			"",
 			"**Format:** sound mimicry (voices)  ",
@@ -64,7 +64,7 @@
 		"description": [
 			"## Amorphous (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"The creature is malleable. It is immune to precision damage (like sneak attacks) and critical hits.",
 			"",
 			"**Format:** amorphous  ",
@@ -77,7 +77,7 @@
 		"description": [
 			"## Rock Catching (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"The creature (which must be at least Large) can catch Small, Medium, or Large rocks (or similar projectiles). Once per round, a creature that would normally be hit by a rock can attempt a Reflex save to catch it as a free action. The DC is 15 for a Small rock, 20 for a Medium rock, and 25 for a Large rock. (If the projectile provides a magical bonus on attack rolls, the DC increases by that amount.) The creature must be aware of the attack in order to use rock catching.",
 			"",
 			"**Format:** rock catching  ",
@@ -91,7 +91,7 @@
 		"description": [
 			"## Simple Divine Spellcasting [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"The creature gains the ability to cast spells from the [cleric](main/spells_cleric) or [druid](main/spells_druid) spell list. Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses its Wisdom or Charisma (whichever is higher) to determine its spell DCs.",
 			"",
 			"**Format:** simple divine spellcasting  ",
@@ -104,7 +104,7 @@
 		"description": [
 			"## Darkvision (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 292](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/292}  ",
 			"A creature with darkvision can see in total darkness, usually to a range of 60 feet. Within this range, the creature can see as clearly as a sighted creature could see in an area of bright light. Darkvision is black and white only but otherwise like normal sight.",
 			"",
 			"**Format:** darkvision 60 ft.  ",
@@ -117,7 +117,7 @@
 		"description": [
 			"## Pounce (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"When a creature with this special attack charges, it can make a full attack (including rake attacks if the creature also has the rake ability).",
 			"",
 			"**Format:** pounce  ",
@@ -131,7 +131,7 @@
 		"description": [
 			"## Sand Glide (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"This ability functions like the [earth elemental's earth glide ability](family/earth_elemental), but works only on sand, dirt, and other fine-grained solid matter. The creature's speed using sand glide as the same as its base speed.",
 			"",
 			"**Format:** sand glide  ",
@@ -144,7 +144,7 @@
 		"description": [
 			"## Multiweapon Mastery (Ex)",
 			"",
-			"**Source** [Bestiary 3 pg. 297](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/297}  ",
 			"The creature never takes penalties on its attack rolls when fighting with multiple weapons.",
 			"",
 			"**Format:** multiweapon mastery  ",
@@ -158,7 +158,7 @@
 		"description": [
 			"## Powerful Blows (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The specified attack adds 1-1/2 times the creature's Strength bonus to its damage rolls instead of its normal Strength bonus or half its Strength bonus.",
 			"",
 			"**Format:** powerful blows (slam)  ",
@@ -171,7 +171,7 @@
 		"description": [
 			"## Push (Ex)",
 			"",
-			"**Source** [Bestiary 4 pg. 298](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/298}  ",
 			"A creature with the push ability can choose to attempt a free combat maneuver check with a certain successful attack (often a slam attack). If successful, this check pushes a creature directly away as with a bull rush, but the distance moved is set by this ability. The type of attack that causes the push and the distance pushed are included in the creature's description. This ability only works on creatures of a size equal to or smaller than the pushing creature. Creatures pushed in this way do not provoke attacks of opportunity and stop if the push would move them into a solid object or creature.",
 			"",
 			"**Format:** push (slam, 10 feet)  ",
@@ -184,7 +184,7 @@
 		"description": [
 			"## Energy Drain (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 292](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/292}  ",
 			"This attack happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more negative levels (the creature's description specifies how many). If the creature confirms a critical hit with an attack that includes energy drain, it inflicts twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it inflicts on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell such as [restoration](spell/restoration). If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC = 10 + 1/2 draining creature's racial HD + draining creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.",
 			"",
 			"**Format:** energy drain (2 levels, DC 18)  ",
@@ -197,7 +197,7 @@
 		"description": [
 			"## Bleed (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"A creature with this ability causes wounds that continue to bleed, dealing additional damage each round at the start of the affected creature's turn. This bleeding can be stopped with a successful DC 15 Heal skill check or through the application of any magical healing. The amount of damage each round is specified in the creature's entry.",
 			"",
 			"**Format:** bleed (2d6)  ",
@@ -210,7 +210,7 @@
 		"description": [
 			"## Undead Traits (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 301](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/301}  ",
 			"Undead are immune to death effects, disease, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). Undead are not subject to ability drain, energy drain, or nonlethal damage. Undead are immune to damage or penalties to their physical ability scores (Strength, Dexterity, and Constitution), as well as to fatigue and exhaustion effects. Undead are not at risk of death from massive damage.",
 			"",
 			"**Format:** undead traits  ",
@@ -223,7 +223,7 @@
 		"description": [
 			"## Amphibious (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"Creatures with this special quality have the aquatic subtype, but they can survive indefinitely on land.",
 			"",
 			"**Format:** amphibious  ",
@@ -236,7 +236,7 @@
 		"description": [
 			"## Sunlight Powerlessness (Ex)",
 			"",
-			"**Source** [Bestiary 4 pg. 300](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/300}  ",
 			"If the creature is in sunlight (but not in an area of [daylight](spell/daylight) or similar spells), it cannot attack and is staggered.",
 			"",
 			"**Format:** sunlight powerlessness  ",
@@ -249,7 +249,7 @@
 		"description": [
 			"## Pull (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"A creature with this ability can choose to attempt a free combat maneuver check with a successful attack. If successful, this check pulls a creature closer. The distance pulled is set by this ability. The type of attack that causes the pull and the distance pulled are included in the creature's description. This ability works only on creatures of a size equal to or smaller than the pulling creature. Creatures pulled in this way do not provoke attacks of opportunity and stop if the pull would move them into a solid object or creature.",
 			"",
 			"**Format:** pull (tentacle, 5 feet)  ",
@@ -263,7 +263,7 @@
 		"description": [
 			"## X-Ray Vision (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"The monster can see through solid matter as if wearing a [ring of x-ray vision](magic-ring/ring_of_x-ray_vision). This is as exhausting as if the monster were actually using the ring.",
 			"",
 			"**Format:** x-ray vision  ",
@@ -276,7 +276,7 @@
 		"description": [
 			"## Earth Glide (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 292](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/292}  ",
 			"When the creature burrows, it can pass through stone, dirt, or almost any other nonmetal earth as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A [move earth](spell/move_earth) spell cast on an area containing the burrowing creature flings it back 30 feet, stunning it for 1 round unless it succeeds at a DC 15 Fortitude save.",
 			"",
 			"**Format:** earth glide  ",
@@ -290,7 +290,7 @@
 		"description": [
 			"## Feral Savagery (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"Under the circumstances listed in the monster's stat block-such as when it makes a full attack or a rend attack-it can immediately attempt an additional attack against an opponent. This attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. This additional attack doesn't stack with similar means of gaining additional attacks, such as the haste spell or a speed weapon. This ability doesn't grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.",
 			"",
 			"**Format:** feral savagery (full attack)  ",
@@ -303,7 +303,7 @@
 		"description": [
 			"## Light Sensitivity (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 295](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/295}  ",
 			"The creature is dazzled in areas of bright sunlight or within the radius of a [daylight](spell/daylight) spell.",
 			"",
 			"**Format:** light sensitivity  ",
@@ -316,7 +316,7 @@
 		"description": [
 			"## Blindsense (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"A creature with blindsense notices things it cannot see. The creature usually does not need to succeed at Perception checks to pinpoint the location of a creature within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature with blindsense cannot see still has total concealment from the creature, and the creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.",
 			"",
 			"**Format:** blindsense 60 ft.  ",
@@ -329,7 +329,7 @@
 		"description": [
 			"## Formian Traits (Ex or Su)",
 			"",
-			"**Source** [Bestiary 4 pg. 294](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/294}  ",
 			"Formians are a spacefaring race of insectlike creatures from a forest world that aggressively colonize other worlds. A formian possesses the following traits (unless otherwise noted in a creature's entry).",
 			"",
 			"- Darkvision 60 feet and blindsense 30 feet.",
@@ -345,7 +345,7 @@
 		"description": [
 			"## Damage Reduction (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"The creature ignores damage from most weapons and natural attacks. Wounds heal immediately, or the weapon bounces off harmlessly (in either case, the opponent knows the attack was ineffective). The creature takes normal damage from energy attacks (even nonmagical ones), spells, spell-like abilities, and supernatural abilities. A certain kind of weapon can sometimes damage the creature normally, as noted below.",
 			"",
 			"The entry indicates the amount of damage ignored (usually 5 to 15 points) and the type of weapon that negates the ability. Some monsters are vulnerable to bludgeoning, piercing, or slashing damage. Others are vulnerable to materials, such as adamantine, cold iron, or silver. Attacks from weapons that are not of the correct type or made of the correct material have their damage reduced, although a high enhancement bonus can overcome some forms of damage reduction.",
@@ -373,7 +373,7 @@
 		"description": [
 			"## Mythic Magic (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"Up to three times per day, when the creature casts a spell, it can cast the mythic version instead (as with all mythic spells, the creature must expend mythic power to cast a mythic spell in this way).",
 			"",
 			"**Format:** mythic magic 3/day  ",
@@ -387,7 +387,7 @@
 		"description": [
 			"## Dual Initiative (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a [summon monster](spell/summon_monster_1) spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
 			"",
 			"**Format:** 21  ",
@@ -400,7 +400,7 @@
 		"description": [
 			"## Web (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 301](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/301}  ",
 			"The creature uses webs to support themselves and up to one additional creature of the same size or smaller. Such creatures can throw a web up to eight times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and it is effective against targets up to one size category larger than the web spinner. An entangled creature can escape with a successful Escape Artist check or burst the web with a successful Strength check. Both are standard actions with a DC equal to 10 + 1/2 the creature's HD + the creature's Constitution modifier. Creatures caught in a web take a -4 penalty to burst free from the web.",
 			"",
 			"Web spinners can create sheets of sticky webbing up to three times their size. They usually position these sheets to snare flying creatures, but they can also try to trap prey on the ground. Approaching creatures must succeed at a DC 20 Perception check to notice a web; otherwise, they stumble into it and become trapped as though by a successful web attack. A trapped creature gains a +5 bonus on attempts to escape or burst the webbing if it can walk on or grab something while pulling free. Each 5-foot-square section of web has a number of hit points equal to the Hit Dice of the creature that created it and DR 5/-.",
@@ -418,7 +418,7 @@
 		"description": [
 			"## Block Attacks (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 226](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/226}  ",
 			"Once per round, when the creature is hit by a melee or ranged attack, it can attempt a melee attack using its highest attack bonus. If this result exceeds the result from the attack against it, the creature is unaffected by the attack (as if the attack had missed).",
 			"",
 			"**Format:** block attacks  ",
@@ -431,7 +431,7 @@
 		"description": [
 			"## Grab (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 294](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/294}  ",
 			"If the creature hits with the indicated attack, it deals the normal amount of damage and tries to start a grapple as a free action without provoking an attack of opportunity. Unless otherwise noted, grab works only against opponents the same size category as the creature or smaller. The creature has the option to conduct the grapple normally or simply use the part of its body it used in the grab to hold the opponent. If it chooses to do the latter, it takes a -20 penalty on its combat maneuver check to start and maintain the grapple, but does not gain the grappled condition itself. A successful hold does not deal any extra damage unless the creature also has the constrict special attack. If the creature does not constrict, each grapple combat maneuver check it succeeds at during successive rounds automatically deals the damage indicated for the attack that established the hold. Otherwise, it deals constrict and grapple damage (the amount is given in the creature's descriptive text).",
 			"",
 			"Creatures with the grab special attack receive a +4 bonus on combat maneuver checks to start and maintain a grapple.",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Plantbringer (Su) [Mythic]",
 			"",
-			"**Source** [Bestiary 4 pg. 297](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/297}  ",
 			"All plants within a 1-mile radius of the creature grow at double their normal rate and don't suffer from any diseases or maladies. Allied plant creatures within 30 feet of the creature gain fast healing equal to the creature's mythic rank. If the creature uses [plant shape](spell/plant_shape_1) or wild shape to take the form of a plant, it gains this fast healing in plant form.",
 			"",
 			"**Format:** plantbringer  ",
@@ -460,7 +460,7 @@
 		"description": [
 			"## Entrap (Ex or Su)",
 			"",
-			"**Source** [Bestiary 3 pg. 294](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/294}  ",
 			"The creature has an ability that restricts another creature's movement, usually with a physical attack such as ice, lava, mud, or webs. The target of an entrap attack must succeed at a Fortitude save or become entangled for the listed duration. If a target is already entangled by this ability, a second entrap attack means the target must succeed at a Fortitude save or become helpless for the listed duration. The save DCs are Constitution-based. A target made helpless by this ability is conscious but can take no physical actions (except attempting to break free) until the entrapping material is removed. The target can use spells with only verbal components or spell-like abilities if it succeeds at a DC 20 concentration check. An entangled creature can attempt a Strength check (at the same DC as the entrap saving throw DC) as a full-round action to break free; the DC for a helpless creature is 5 greater. Destroying the entrapping material frees the creature.",
 			"",
 			"**Format:** entrap (DC 13, 1d10 minutes, hardness 5, hp 10);  ",
@@ -473,7 +473,7 @@
 		"description": [
 			"## Construct Traits (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"Constructs are immune to death effects, disease, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). Constructs are not subject to ability damage, ability drain, energy drain, exhaustion, fatigue, or nonlethal damage. Constructs are not at risk of death from taking massive damage.",
 			"",
 			"**Format:** construct traits  ",
@@ -487,7 +487,7 @@
 		"description": [
 			"## Amazing Initiative (Ex) [Mythic]",
 			"",
-			"**Source** [Bestiary 4 pg. 290](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/290}  ",
 			"The creature has a bonus on initiative checks equal to its mythic rank. As a free action on its turn, it can expend one use of mythic power to take an additional standard action during that turn. This additional standard action can't be used to cast a spell. It can't gain an extra action in this way more than once per round.",
 			"",
 			"**Format:** amazing initiative  ",
@@ -500,7 +500,7 @@
 		"description": [
 			"## Psychic Magic (Sp)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"A creature with this ability can use the power of its mind to cast certain spells. Each spell cast using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can cast any of the spells listed in this entry as long as it has enough psychic energy remaining to pay the spell's PE cost. The DC for any of these spells is equal to 10 + the amount of psychic energy used to cast the spell + the creature's Charisma or Intelligence modifier (whichever is higher). A creature that gains access to [undercast spells](rule/undercasting_spells) via this ability can cast an undercast version of the spell by spending 1 PE fewer for each level lower that the spell is cast. A psychic magic spell with a PE cost of 0 can be cast any number of times, and can be cast even if the creature has 0 PE remaining. The psychic magic granted by this ability has the same thought and emotion components as psychic spells. The monster can apply metamagic feats to these spells by spending an amount of additional PE equal to the level increase of the metamagic feat and by increasing the casting time as normal for spontaneously casting a metamagic spell. Because this ability grants psychic spellcasting, it also allows the creature to use [occult skill unlocks](rule/occult_rules).",
 			"",
 			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-[charm person](spell/charm_person) (1 PE, DC 14), [disguise self](spell/disguise_self) (2 PE), [mind thrust III](spell/mind_thrust_3) (3 PE, DC 16), [tower of iron will I](spell/tower_of_iron_will_1) (5 PE)  ",
@@ -513,7 +513,7 @@
 		"description": [
 			"## Fast Swallow (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"The creature swallow whole as a free action at any time during its turn, not just at the start of its turn.",
 			"",
 			"**Format:** fast swallow  ",
@@ -527,7 +527,7 @@
 		"description": [
 			"## Dragon Blood (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 226](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/226}  ",
 			"The mythic dragon's blood and other fluids are infused with acid, cold, electricity, or fire, matching the dragon's breath weapon energy type. Every time the dragon is damaged by a piercing or slashing weapon, the attacking creature takes energy damage according to Table 6-6: Dragon Blood Damage (or double damage if the attack is a critical hit). Using a reach weapon does not endanger the attacker in this way. If the dragon has the swallow whole ability, it adds this damage to its swallow whole damage.",
 			"",
 			"#### Table 6-6: Dragon Blood Damage",
@@ -551,7 +551,7 @@
 		"description": [
 			"## Simple Arcane Spellcasting [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"The creature gains the ability to cast spells from the [sorcerer/wizard spell list](main/spells_wizard). Select a number of spells with total spell levels equal to twice the creature's CR. No spell for this ability should have a level higher than 1 + 1/2 the creature's CR. A 0-level spell counts as 1/2 spell level toward this total. The creature can cast each of these spells once per day. Its caster level is equal to its Hit Dice. It uses the higher of its Intelligence or Charisma modifiers to determine its spell DCs.",
 			"",
 			"**Format:** simple arcane spellcasting  ",
@@ -564,7 +564,7 @@
 		"description": [
 			"## Archdevil Traits (Ex, Sp, or Su)",
 			"",
-			"**Source** [Bestiary 6 pg. 290](source/bestiary_6)  ",
+			"{SOURCE Bestiary 6/290}  ",
 			"An archdevil rules a domain in Hell. Archdevils are lawful evil outsiders with a minimum CR of 26. Archdevils share the following traits and have the devil subtype (unless otherwise noted in a creature's entry).",
 			"",
 			"- An archdevil can grant spells as if it were a deity. Each archdevil has a favored weapon and grants the Evil and Law domains, plus two other domains and four subdomains.",
@@ -585,7 +585,7 @@
 		"description": [
 			"## Paralysis (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 296](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/296}  ",
 			"Paralysis renders the victim immobile. Paralyzed creatures cannot move, speak, or take any physical actions. The creature is rooted to the spot, frozen and helpless. Paralysis works on the body, and a character can usually attempt to resist it with a Fortitude saving throw (DC = 10 + 1/2 the paralyzing creature's racial HD + that creature's Constitution modifier; the DC is given in the creature's description). Unlike hold person and similar effects, a paralysis effect does not allow a new save each round. A winged creature flying in the air at the time that it is paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown. The duration of the paralysis varies and is included in the creature's description.",
 			"",
 			"**Format:** paralysis (1d4 rounds, DC 18)  ",
@@ -598,7 +598,7 @@
 		"description": [
 			"## Frightful Presence (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"This special quality makes a creature's very presence unsettling to foes. Activating this ability is a free action that is usually part of an attack or charge. Opponents within range who witness the action may become frightened or shaken. The range is usually 30 feet, and the duration is usually 5d6 rounds. This ability affects only opponents with fewer Hit Dice or levels than the creature has. An affected opponent can resist the effects with a successful Will save (DC = 10 + 1/2 frightful creature's racial HD + that frightful creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a failed save, the opponent is shaken, or panicked if it has 4 Hit Dice or fewer. An opponent that succeeds at the saving throw is immune to that same creature's frightful presence for 24 hours. Frightful presence is a mind-affecting fear effect.",
 			"",
 			"**Format:** frightful presence (60 ft., DC 21)  ",
@@ -611,7 +611,7 @@
 		"description": [
 			"## Blood Rage (Ex)",
 			"",
-			"**Source** [Bestiary 4 pg. 290](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/290}  ",
 			"When the creature takes damage in combat, on its next turn it can fly into a rage as a free action. It gains +2 Constitution and +2 Strength, but takes a -2 penalty to its AC. The rage lasts as long as the battle or 1 minute, whichever is shorter. It cannot end its rage voluntarily.",
 			"",
 			"**Format:** blood rage  ",
@@ -624,7 +624,7 @@
 		"description": [
 			"## Light Blindness (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 295](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/295}  ",
 			"Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the [daylight](spell/daylight) spell. Such creatures are dazzled as long as they remain in areas of bright light.",
 			"",
 			"**Format:** light blindness  ",
@@ -637,7 +637,7 @@
 		"description": [
 			"## Spell Resistance (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/299}  ",
 			"A creature with spell resistance can avoid the effects of spells and spell-like abilities that directly affect it. To determine if a spell or spell-like ability works against a creature with spell resistance, the caster must attempt a caster level check (1d20 + caster level). If the result equals or exceeds the creature's spell resistance, the spell works normally, although the creature is still allowed a saving throw.",
 			"",
 			"**Format:** SR 18  ",
@@ -650,7 +650,7 @@
 		"description": [
 			"## Fear (Su or Sp)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"Fear attacks can have various effects.",
 			"",
 			"Fear Aura (Su) The use of this ability is a free action. The aura can freeze an opponent (as in the case of a [mummy's despair](monster/mummy)) or function like the [fear](spell/fear) spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.",
@@ -667,7 +667,7 @@
 		"description": [
 			"## Empyreal Lord Traits (Ex, Sp, or Su)",
 			"",
-			"**Source** [Bestiary 4 pg. 293](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/293}  ",
 			"Empyreal lords are the greatest members of the agathion, angel, archon, and azata races. All empyreal lords are good outsiders that are, at a minimum, CR 21 (most are at least CR 26 or higher). Empyreal lords have a particular suite of traits (unless otherwise noted in an empyreal lord's entry) as summarized here.",
 			"",
 			"- Agathion, angel, archon, or azata energy resistances are increased to 30.",
@@ -687,7 +687,7 @@
 		"description": [
 			"## Engulf (Ex)",
 			"",
-			"**Source** [Bestiary 4 pg. 293](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/293}  ",
 			"The creature can engulf creatures in its path as part of a standard action. It cannot make other attacks during a round in which it engulfs. The creature merely has to move over its opponents, affecting as many as it can cover. Targeted creatures can make attacks of opportunity against the creature, but if they do so, they are not entitled to a saving throw against the engulf attack. Those who do not attempt attacks of opportunity can attempt a Reflex save to avoid being engulfed-on a success, they are pushed back or aside (target's choice) as the creature moves forward. Engulfed opponents gain the pinned condition, are in danger of suffocating, are trapped within the creature's body until they are no longer pinned, and may be subject to other special attacks from the creature. The save DC is Strength-based.",
 			"",
 			"**Format:** engulf (DC 12, 1d6 acid and paralysis)  ",
@@ -700,7 +700,7 @@
 		"description": [
 			"## Blindsight (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or echolocation, a creature with blindsight can maneuver and fight as well as a sighted creature. Invisibility, darkness, and most kinds of concealment are irrelevant, though a creature with blindsight must have line of effect to an object or another creature to discern that object or creature. The ability's range is specified in the creature's descriptive text. The creature usually does not need to succeed at Perception checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the creature doesn't need to do anything to use it. Some forms of blindsight, however, must be triggered as a free action. If so, this is noted in the creature's description. If a creature must trigger its blindsight ability, it gains the benefits of blindsight only during its turn.",
 			"",
 			"**Format:** blindsight 60 ft.  ",
@@ -713,7 +713,7 @@
 		"description": [
 			"## Vulnerabilities (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 301](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/301}  ",
 			"A creature with a vulnerability takes half again as much damage (+50%) from a specific energy type, regardless of whether a saving throw is allowed or the save is a success or failure. Creatures with a vulnerability that is not an energy type instead take a -4 penalty on saves against spells and effects that cause or use the listed vulnerability (such as spells with the light descriptor). Some creatures might suffer additional effects, as noted in their descriptions.",
 			"",
 			"**Format:** vulnerable to fire  ",
@@ -726,7 +726,7 @@
 		"description": [
 			"## Strangle (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"An opponent grappled by the creature cannot speak or cast spells with verbal components.",
 			"",
 			"**Format:** strangle  ",
@@ -739,7 +739,7 @@
 		"description": [
 			"## Low-Light Vision (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 295](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/295}  ",
 			"A creature with low-light vision can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of dim light. It retains the ability to distinguish color and detail under these conditions.",
 			"",
 			"**Format:** low-light vision  ",
@@ -753,7 +753,7 @@
 		"description": [
 			"## Lingering Breath (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The creature can expend one use of mythic power as a free action when it uses its breath weapon to make the area radiate energy damage (of the same type as the breath weapon) for 1 round per mythic rank. Any creature in, entering, or passing through the breath weapon's area during this duration takes damage according to the creature's size. This ability has no effect on breath weapons that do not deal energy damage.",
 			"",
 			"#### Table 3-1: Lingering Breath Damage",
@@ -776,7 +776,7 @@
 		"description": [
 			"## Rend (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"If it hits with two or more natural attacks in 1 round, a creature with the rend special attack can cause tremendous damage by latching on to the opponent's body and tearing flesh. This attack deals an additional amount of damage, but no more than once per round. The type of attacks that must hit and the additional damage are included in the creature's description. The additional damage is usually equal to the damage caused by one of the attacks plus 1-1/2 times the creature's Strength bonus.",
 			"",
 			"**Format:** rend (2 claws, 1d8+9)  ",
@@ -789,7 +789,7 @@
 		"description": [
 			"## Channel Resistance (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"A creature with this special quality (usually an undead) is less easily affected by channel energy. A creature with channel resistance adds its listed bonus on saves to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the [Command Undead](feat/command_undead) feat).",
 			"",
 			"**Format:** channel resistance +4  ",
@@ -802,7 +802,7 @@
 		"description": [
 			"## Scent (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"This special sense allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights.",
 			"",
 			"The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or [troglodyte stench](monster/troglodyte), can be detected at triple the normal range.",
@@ -821,7 +821,7 @@
 		"description": [
 			"## See in Darkness (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/299}  ",
 			"The creature can see perfectly in darkness of any kind, including that created by [deeper darkness](spell/deeper_darkness).",
 			"",
 			"**Format:** see in darkness  ",
@@ -834,7 +834,7 @@
 		"description": [
 			"## Lycanthropic Empathy (Ex)",
 			"",
-			"**Source** [Bestiary 2 pg. 298](source/bestiary_2)  ",
+			"{SOURCE Bestiary 2/298}  ",
 			"In any form, natural lycanthropes can communicate and empathize with animals related to their animal form. They can use Diplomacy to alter such an animal's attitude, and when so doing gain a +4 racial bonus on the check. Afflicted lycanthropes only gain this ability in animal or hybrid form.",
 			"",
 			"**Format:** lycanthropic empathy (bears and dire bears)  ",
@@ -847,7 +847,7 @@
 		"description": [
 			"## Hardness (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 294](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/294}  ",
 			"When a creature with hardness takes damage, subtract its hardness from the damage. Only damage in excess of its hardness is subtracted from its hit points. A creature with hardness doesn't further reduce damage from energy attacks, ranged attacks, or other types of attacks as objects typically do. Adamantine weapons bypass hardness of 20 or less.",
 			"",
 			"**Format:** hardness 10  ",
@@ -860,7 +860,7 @@
 		"description": [
 			"## Compression (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"The creature can move through an area as small as one-quarter its space without squeezing, or one-eighth its space when squeezing.",
 			"",
 			"**Format:** compression  ",
@@ -873,7 +873,7 @@
 		"description": [
 			"## Emotion Aura (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 292](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/292}  ",
 			"A creature with this ability surrounds itself with an area of swirling, chaotic emotions. These emotions make it difficult for spellcasters to cast spells with the [emotion component](rule/components_oa). Living creatures within 30 feet must succeed at a concentration check (DC = 10 + 1/2 the HD of the creature with an emotion aura + that creature's Charisma modifier) to cast a spell with an emotion component. Failing this check causes the spell to be lost with no effect. In addition, any spellcaster casting spells with the emotion or fear descriptor on targets inside this aura must succeed at this check or the spell fails to affect targets within the aura (although others outside the area are affected as normal). Creatures with this ability are immune to its effects and can cast spells normally.",
 			"",
 			"**Format:** emotion (DC 17)  ",
@@ -887,7 +887,7 @@
 		"description": [
 			"## Unstoppable (Ex) [Mythic]",
 			"",
-			"**Source** [Bestiary 4 pg. 301](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/301}  ",
 			"The creature can expend one use of mythic power as a free action to immediately end any one of the following conditions currently affecting it: bleed, blind, confused, cowering, dazed, dazzled, deafened, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed, shaken, sickened, staggered, or stunned. All other conditions and effects remain, even those resulting from the same spell or effect that caused the selected condition. It can use this ability at the start of its turn even if a condition would prevent it from acting.",
 			"",
 			"**Format:** unstoppable  ",
@@ -901,7 +901,7 @@
 		"description": [
 			"## Steal (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"The creature can attempt a [steal combat maneuver check](rule/steal) against its opponent as a free action without provoking attacks of opportunity if it hits with the specified attack.",
 			"",
 			"**Format:** steal  ",
@@ -914,7 +914,7 @@
 		"description": [
 			"## Capsize (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"A creature with this special quality can attempt to capsize a boat or a ship by ramming it as a charge attack and attempting a combat maneuver check. The DC of this check is 25 or the result of the captain's Profession (sailor) check, whichever is higher. For each size category the ship is larger than the creature attempting to capsize it, the creature attempting to capsize the ship takes a cumulative -10 penalty on its combat maneuver check.",
 			"",
 			"**Format:** capsize  ",
@@ -927,7 +927,7 @@
 		"description": [
 			"## Plant Traits (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, polymorph, sleep, and stun.",
 			"",
 			"**Format:** plant traits  ",
@@ -940,7 +940,7 @@
 		"description": [
 			"## Whirlwind (Su)",
 			"",
-			"**Source** [Bestiary 3 pg. 301](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/301}  ",
 			"Some creatures can transform themselves into whirlwinds and remain in that form for up to 1 round for every 2 HD they have. If the creature has a fly speed, it can continue to fly at that same speed while in whirlwind form, otherwise it gains a fly speed equal to its base land speed (average maneuverability) while in whirlwind form.",
 			"",
 			"The whirlwind is always 5 feet wide at its base, but its height and width at the top vary from creature to creature (minimum 10 feet high). A whirlwind's width at its peak is always equal to half of its height. The creature controls the exact height, but it must be at least 10 feet high.",
@@ -965,7 +965,7 @@
 		"description": [
 			"## Incorporeal (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 294](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/294}  ",
 			"An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source. Although it is not a magical attack, holy water can affect incorporeal undead. Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature (except for channel energy). Force spells and effects, such as from a [magic missile](spell/magic_missile), affect an incorporeal creature normally.",
 			"",
 			"An incorporeal creature has no natural armor bonus, but it has a deflection bonus equal to its Charisma bonus (always at least +1, even if the creature's Charisma score does not normally provide a bonus).",
@@ -986,7 +986,7 @@
 		"description": [
 			"## Breath Weapon (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"Some creatures can exhale a cloud, cone, or line of magical effects. A breath weapon usually deals damage and is often based on some type of energy. Breath weapons allow a Reflex save for half damage (DC = 10 + 1/2 breathing creature's racial HD + breathing creature's Constitution modifier; the exact DC is given in the creature's descriptive text). A creature is immune to its own breath weapon unless otherwise noted. Some breath weapons allow a Fortitude save or a Will save instead of a Reflex save. Each breath weapon also includes notes on how often it can be used.",
 			"",
 			"**Format:** breath weapon (60-ft. cone, 8d6 fire damage, Reflex DC 20 for half, usable every 1d4 rounds)  ",
@@ -999,7 +999,7 @@
 		"description": [
 			"## Burn (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"The creature deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage for an additional 1d4 rounds at the start of its turn (DC = 10 + 1/2 burning creature's racial HD + burning creature's Constitution modifier). A creature suffering from this effect can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit a burning creature with natural weapons or unarmed attacks take fire damage as though hit by the burning creature and must succeed at a Reflex save to avoid [catching on fire](rule/catching_on_fire).",
 			"",
 			"**Format:** burn (2d6, DC 15)  ",
@@ -1015,7 +1015,7 @@
 		"description": [
 			"## Natural Attacks",
 			"",
-			"**Source** [Bestiary 5 pg. 296](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/296}  ",
 			"Most creatures have natural attacks (attacks made without a weapon). These attacks can be primary or secondary attacks. Primary attacks are made using the creature's full base attack bonus and add the creature's full Strength bonus to damage rolls. Secondary attacks are made using the creature's base attack bonus - 5 and add only 1/2 the creature's Strength bonus to damage rolls. If a creature has only one natural attack, it is always made using the creature's full base attack bonus and adds 1-1/2 times the creature's Strength bonus to damage rolls. This increase does not apply if the creature has multiple attacks but takes only one. If a creature has only one type of attack, but has multiple attacks per round, that attack is treated as a primary attack, regardless of its type. Table 3-1 lists some of the most common types of natural attacks and their classifications.",
 			"",
 			"Some creatures treat one or more of their attacks differently, such as dragons, which always add 1-1/2 times their Strength bonus to damage rolls with their bite attack. These exceptions are noted in the creature's description.",
@@ -1053,7 +1053,7 @@
 		"description": [
 			"## Spell-Like Abilities (Sp)",
 			"",
-			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/299}  ",
 			"Spell-like abilities are magical and work just like spells (though they are not spells and so have no verbal, somatic, focus, or material components). They go away in an [antimagic field](spell/antimagic_field) and are subject to spell resistance if the spell the ability is based on would be subject to spell resistance.",
 			"",
 			"A spell-like ability usually has a limit on how often it can be used. A constant spell-like ability or one that can be used at will has no use limit. Reactivating a constant spell-like ability is a swift action. Using all other spell-like abilities is a standard action unless noted otherwise, and doing so provokes attacks of opportunity. It is possible to attempt a concentration check to use a spell-like ability defensively and avoid provoking attacks of opportunity, just as when casting a spell. A spell-like ability can be disrupted just as a spell can be. Spell-like abilities cannot be used to counterspell, nor can they be counterspelled.",
@@ -1072,7 +1072,7 @@
 		"description": [
 			"## Jet (Ex)",
 			"",
-			"**Source** [Bestiary 3 pg. 296](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/296}  ",
 			"The creature can swim backward as a full-round action at the listed speed. It must move in a straight line while jetting, and does not provoke attacks of opportunity when it does so.",
 			"",
 			"**Format:** jet (200 ft.)  ",
@@ -1085,7 +1085,7 @@
 		"description": [
 			"## Thoughtsense (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"Creatures with this ability automatically detect and locate conscious creatures within the specified range (usually 60 feet). This ability functions similarly to blindsight. [Nondetection](spell/nondetection), [mind blank](spell/mind_blank), and similar effects can block thoughtsense. Thoughtsense can distinguish between sentient (Intelligence 3 or greater) and nonsentient (Intelligence 1-2) creatures, but otherwise provides no information about the creatures it detects.",
 			"",
 			"**Format:** thoughtsense 60 ft.  ",
@@ -1098,7 +1098,7 @@
 		"description": [
 			"## Rake (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"A creature with this special attack gains extra natural attacks under certain conditions, typically when it grapples its foe. In addition to the options available to all grapplers, a monster with the rake ability gains two free claw attacks that it can use only against a grappled foe. The bonus and damage caused by these attacks are included in the creature's description. A monster with the rake ability must begin its turn already grappling to use its rake-it can't begin a grapple and rake in the same turn.",
 			"",
 			"**Format:** rake (2 claws +8, 1d4+2)  ",
@@ -1111,7 +1111,7 @@
 		"description": [
 			"## Horseman Traits (Ex, Sp, or Su)",
 			"",
-			"**Source** [Bestiary 6 pg. 294](source/bestiary_6)  ",
+			"{SOURCE Bestiary 6/294}  ",
 			"A Horseman is a powerful, unique [daemon](family/daemon) that rules a major portion of Abaddon and personifies Death, Famine, Pestilence, or War. All Horsemen are evil outsiders that are, at a minimum, CR 27. Horsemen have a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.",
 			"",
 			"- A Horseman can grant spells to its worshipers as if it were a deity. A Horseman's domains are Evil and three other domains and four subdomains relevant to its theme and interests. Like a deity, a Horseman has a favored weapon.",
@@ -1132,7 +1132,7 @@
 		"description": [
 			"## Dragon Fury (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"If a mythic dragon confirms a critical hit with a natural weapon, it adds its dragon blood damage to the damage dealt by the natural attack.",
 			"",
 			"**Format:** dragon fury (1d6 fire)  ",
@@ -1145,7 +1145,7 @@
 		"description": [
 			"## Water Dependency (Ex)",
 			"",
-			"**Source** [Bestiary 4 pg. 301](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/301}  ",
 			"A creature with this special ability can survive out of water for 1 minute per point of Constitution. Beyond this limit, this creature runs the risk of suffocation, as if it were drowning.",
 			"",
 			"**Format:** water dependency  ",
@@ -1159,7 +1159,7 @@
 		"description": [
 			"## Mythic Power (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The mythic monster can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. Each day, it can expend a number of uses of mythic power equal to its mythic rank. This amount is its maximum amount of mythic power. If an ability allows it to regain mythic power, it can never gain more than this amount. The monster automatically has the [surge](umr/surge) ability and can use this mythic power to activate it. It may have other abilities that rely on mythic power. (See the [Mythic Rules](rule/mythic_rules) for more information.)",
 			"",
 			"**Format:** mythic power (3/day, surge +1d6)  ",
@@ -1172,7 +1172,7 @@
 		"description": [
 			"## Ooze Traits (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 296](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/296}  ",
 			"Oozes are immune to critical hits, flanking, precision damage, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, polymorph, sleep, stun, and visual effects.",
 			"",
 			"**Format:** ooze traits  ",
@@ -1185,7 +1185,7 @@
 		"description": [
 			"## Psychopomp Usher Traits",
 			"",
-			"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 81](source/pathfinder_143_borne_by_the_suns_grace)  ",
+			"{SOURCE Pathfinder #143: Borne by the Sun's Grace/81}  ",
 			"An usher rules a domain in the Boneyard. Ushers are neutral outsiders with a minimum CR of 25. Ushers share the following traits and have the [psychopomp](subtype/psychopomp) subtype unless otherwise noted.",
 			"",
 			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the [ghost touch](magic-enhancement/ghost_touch_weapon) special ability for the purpose of overcoming damage resistance and immunities.",
@@ -1209,7 +1209,7 @@
 		"description": [
 			"## Rock Throwing (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"This creature has a +1 racial bonus on attack rolls with thrown rocks. It can hurl rocks up to two categories smaller than its size. A \"rock\" is any large, bulky, and relatively regularly shaped object made of any material with a hardness of at least 5. The creature can hurl the rock up to five range increments. The size of the range increment varies with the creature. Damage from a thrown rock is generally twice the creature's base slam damage plus 1-1/2 times its Strength bonus.",
 			"",
 			"**Format:** rock throwing (120 ft.)  ",
@@ -1222,7 +1222,7 @@
 		"description": [
 			"## Spells",
 			"",
-			"**Source** [Bestiary 5 pg. 299](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/299}  ",
 			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](ability/sorcerer_bloodlines)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10th-level sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
 		]
 	},
@@ -1232,7 +1232,7 @@
 		"description": [
 			"## Freeze (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"The creature can hold itself so still it appears to be an inanimate object of the appropriate shape (a statue, a patch of fungus, or the like). The creature can take 20 on Stealth checks to hide in plain sight as this kind of inanimate object.",
 			"",
 			"**Format:** freeze  ",
@@ -1245,7 +1245,7 @@
 		"description": [
 			"## Swallow Whole (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"If a creature with this special attack begins its turn with an opponent grappled in its mouth (see [Grab](umr/grab)), it can attempt a new combat maneuver check (as though attempting to pin the opponent). If it succeeds, it swallows its prey, and the opponent takes bite damage. Unless otherwise noted, the opponent must be at least one size category smaller than the swallowing creature. Being swallowed causes a creature to take damage each round. The amount and type of damage vary and are given in the creature's statistics. A swallowed creature keeps the grappled condition, while the creature that did the swallowing does not. A swallowed creature can try to cut its way free with any light slashing or piercing weapon (the amount of damage required for the creature to cut itself free is equal to 1/10 the creature's total hit points), or it can just try to escape the grapple. The Armor Class of the interior of a creature that swallows whole is normally 10 + 1/2 its natural armor bonus, with no modifiers for size or Dexterity. If a swallowed creature cuts its way out, the swallowing creature cannot use swallow whole again until the damage is healed. If the swallowed creature escapes the grapple, it ends up back in the attacker's mouth, where it may be bitten or swallowed again.",
 			"",
 			"**Format:** swallow whole (5d6 acid damage, AC 15, 18 hp);  ",
@@ -1259,7 +1259,7 @@
 		"description": [
 			"## Dragon Cantrips (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"If the mythic dragon is able to cast arcane spells, it automatically knows all cantrips for its equivalent spellcasting class and can cast them at will.",
 			"",
 			"**Format:** dragon cantrips  ",
@@ -1272,7 +1272,7 @@
 		"description": [
 			"## Split (Ex)",
 			"",
-			"**Source** [Bestiary 3 pg. 299](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/299}  ",
 			"The creature splits into two identical copies of itself if subject to certain attacks or effects. Each copy has half the original's current hit points (rounded down). A creature reduced below the listed hit points cannot be further split and can be killed normally.",
 			"",
 			"**Format:** split (piercing and slashing, 10 hp)  ",
@@ -1285,7 +1285,7 @@
 		"description": [
 			"## Natural Invisibility (Ex or Su)",
 			"",
-			"**Source** [Bestiary 4 pg. 297](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/297}  ",
 			"This ability is constant-the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the [invisibility purge](spell/invisibility_purge) spell.",
 			"",
 			"**Format:** natural invisibility  ",
@@ -1298,7 +1298,7 @@
 		"description": [
 			"## Greensight (Su)",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The monster can see through thick plant matter as though it were transparent, usually with a range of 60 feet. Greenery, leaves, undergrowth, and vines offer no concealment to the monster's sight, though solid wood still blocks its line of sight.",
 			"",
 			"**Format:** greensight 60 ft.  ",
@@ -1311,7 +1311,7 @@
 		"description": [
 			"## Water Breathing (Ex)",
 			"",
-			"**Source** [Bestiary 3 pg. 301](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/301}  ",
 			"A creature with this special ability can breathe underwater indefinitely. It can freely use any breath weapon, spells, or other abilities while submerged.",
 			"",
 			"**Format:** water breathing  ",
@@ -1325,7 +1325,7 @@
 		"description": [
 			"## Second Save (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"Whenever the creature fails a saving throw against an effect with a duration greater than 1 round, it can keep trying to shake off the effect. At the start of its turn, if it's still affected, it can attempt the save one more time as a free action. If this save succeeds, the effect affects the creature as if it had succeeded at its initial saving throw. If the effect already allows another saving throw on a later turn to break the effect (such as for hold monster), this ability is in addition to the extra saving throw from the effect.",
 			"",
 			"**Format:** second save  ",
@@ -1338,7 +1338,7 @@
 		"description": [
 			"## Tremorsense (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 301](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/301}  ",
 			"The creature is sensitive to vibrations in the ground and can automatically pinpoint the location of anything that is in contact with the ground. Aquatic creatures with tremorsense can also sense the location of creatures moving through water. The ability's range is specified in the creature's descriptive text.",
 			"",
 			"**Format:** tremorsense 60 ft.  ",
@@ -1351,7 +1351,7 @@
 		"description": [
 			"## Regeneration (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"A creature with this ability is difficult to kill. Creatures with regeneration heal damage to themselves at a fixed rate, as with fast healing, but they can't die as long as their regeneration is still functioning (although creatures with regeneration still fall unconscious when their hit points are below 0). Certain damage types, typically acid and fire, cause a creature's regeneration to stop functioning on the round following the attack. During this round, the creature does not heal any damage and can die normally. The creature's descriptive text describes the types of damage that cause the regeneration to cease functioning.",
 			"",
 			"Attacks that don't deal hit point damage are not healed by regeneration. Regeneration also does not restore hit points lost from starvation, suffocation, or thirst. Regenerating creatures can regrow lost portions of their bodies and can reattach severed limbs or body parts if they are brought together within 1 hour of severing. Severed parts that are not reattached wither and die normally.",
@@ -1368,7 +1368,7 @@
 		"description": [
 			"## Curse of Lycanthropy (Su)",
 			"",
-			"**Source** [Bestiary 4 pg. 291](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/291}  ",
 			"A natural lycanthrope's bite attack in animal or hybrid form infects a humanoid target with lycanthropy (Fortitude DC 15 negates). If the victim's size is not within one size category of the lycanthrope's size, this ability has no effect.",
 			"",
 			"**Format:** curse of lycanthropy  ",
@@ -1381,7 +1381,7 @@
 		"description": [
 			"## Keen Scent (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 295](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/295}  ",
 			"The creature can notice other creatures by scent in a 180-foot radius underwater and can detect blood in the water at ranges of up to 1 mile.",
 			"",
 			"**Format:** keen scent  ",
@@ -1394,7 +1394,7 @@
 		"description": [
 			"## Unnatural Aura (Su)",
 			"",
-			"**Source** [Bestiary 4 pg. 301](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/301}  ",
 			"Animals do not willingly approach the creature unless the animal's master succeeds at a DC 25 Handle Animal, Ride, or wild empathy check.",
 			"",
 			"**Format:** unnatural aura (30 ft.)  ",
@@ -1407,7 +1407,7 @@
 		"description": [
 			"## Lifesense (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 295](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/295}  ",
 			"The creature notices and locates living creatures within 60 feet, as if it had [blindsight](umr/blindsight).",
 			"",
 			"**Format:** lifesense  ",
@@ -1420,13 +1420,13 @@
 		"description": [
 			"## Trample (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"As a full-round action, a creature with the trample ability can attempt to overrun any creature that is at least one size category smaller than itself. This works just like the overrun combat maneuver, but the trampling creature does not need to attempt a check; it merely has to move over opponents in its path. Targets of a trample take an amount of damage equal to the trampling creature's slam damage + 1-1/2 times its Strength modifier. Targets of a trample can make an attack of opportunity, but at a -4 penalty. If a target forgoes an attack of opportunity, it can attempt a Reflex save to avoid the trampling creature and take half damage. The save DC against a creature's trample attack is 10 + 1/2 the creature's HD + the creature's Strength modifier (the exact DC is given in the creature's descriptive text). A trampling creature can only deal its trampling damage to each target once per round, no matter how many times its movement takes it over a target creature. A trampling creature can move up to twice its land speed as part of the trample.",
 			"",
 			"**Format:** trample (2d6+9, DC 20)  ",
 			"**Location:** Special Attacks.",
 			"",
-			"**Source** [Pathfinder RPG Bestiary pg. 174](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary/174}  ",
 			"A stampede occurs if three or more creatures with stampede make a trample attack while remaining adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller, and the trample's save DC increases by +2."
 		]
 	},
@@ -1437,7 +1437,7 @@
 		"description": [
 			"## Recuperation (Ex) [Mythic]",
 			"",
-			"**Source** [Bestiary 4 pg. 298](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/298}  ",
 			"The creature is restored to full hit points after 8 hours of rest so long as it isn't dead. In addition, by expending one use of mythic power and resting for 1 hour, it regains a number of hit points equal to half its full hit points (up to a maximum of its full hit points) and regain the use of any class features that are limited to a certain number of uses per day (such as barbarian rage, bardic performance, spells per day, and so on). This rest is treated as 8 hours of sleep for such abilities. This rest doesn't refresh uses of mythic power or any mythic abilities that are limited to a number of times per day.",
 			"",
 			"**Format:** recuperation  ",
@@ -1450,7 +1450,7 @@
 		"description": [
 			"## Fortification (Ex)",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing [moderate fortification](magic-enhancement/moderate_fortification) armor.",
 			"",
 			"**Format:** fortification (50%)  ",
@@ -1464,7 +1464,7 @@
 		"description": [
 			"## Poisonous Blood (Ex) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"Any creature that confirms a critical hit against the monster with a piercing or slashing melee weapon is sprayed with poison. (Melee weapons with reach don't endanger their users in this way.) The type of poison depends on the monster. Unless otherwise stated, this poison uses the poison's normal DC, though some monsters might have a poison DC that is not Constitution-based.",
 			"",
 			"**Format:** poisonous blood (dragon bile)  ",
@@ -1478,7 +1478,7 @@
 		"description": [
 			"## Mythic Immortality (Su) [Mythic]",
 			"",
-			"**Source** [Bestiary 4 pg. 296](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/296}  ",
 			"If the creature is killed, it returns to life 24 hours later, regardless of the condition of its body or the means by which it was killed. When it returns to life, it isn't treated as if it had rested, and doesn't regain the use of abilities that are restored with rest until it next rests. This ability doesn't apply if the creature is killed by a coup de grace or critical hit performed by either a mythic creature (or creature of even greater power) or a non-mythic creature wielding a weapon capable of bypassing epic damage reduction. If the creature is 10th mythic rank, it can be killed only by a coup de grace or critical hit made with an artifact. (This ability is called \"immortal\" in *Mythic Adventures*.)",
 			"",
 			"**Format:** mythic immortality  ",
@@ -1491,7 +1491,7 @@
 		"description": [
 			"## Smother (Ex)",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"If the creature's grappled opponent is holding its breath, the monster can force that opponent to expel or consume some of its breath, or can otherwise reduce the time remaining until the target has to attempt checks to avoid [suffocation](rule/suffocation).",
 			"",
 			"If the monster succeeds at a grapple check against the opponent, the remaining duration for which the opponent can hold its breath decreases by 1d6 rounds. If this reduces the remaining time that the creature can hold its breath to 0 rounds or fewer, the DCs of its suffocation checks increase by 5. For example, if the monster is grappling a creature that has 10 rounds remaining before it has to attempt suffocation checks, a successful grapple check reduces that duration by 1d6 rounds.",
@@ -1509,7 +1509,7 @@
 		"description": [
 			"## Surge (Su) [Mythic]",
 			"",
-			"**Source** [Mythic Adventures pg. 228](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/228}  ",
 			"The monster can call upon its mythic power to overcome difficult challenges. It can expend one use of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the d20 roll. Using this ability is an immediate action taken after the original roll is made and the results are revealed. The bonus die gained by using this ability increases to 1d8 at 4th rank, 1d10 at 7th rank, and 1d12 at 10th rank. The monster can use this ability even if it's mindless or of animal-level intelligence. (See the [Mythic Rules](rule/mythic_rules) for more information.)",
 			"",
 			"Surge doesn't have a separate entry in the monster stat block-the surge die is listed in the mythic power ability."
@@ -1521,7 +1521,7 @@
 		"description": [
 			"## Change Shape (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"The creature has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form unless noted otherwise. This ability functions as a [polymorph spell](spelldef/polymorph), the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.",
 			"",
 			"**Format:** change shape (wolf; [beast shape I](spell/beast_shape_1))  ",
@@ -1534,7 +1534,7 @@
 		"description": [
 			"## Fast Healing (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"The creature regains hit points swiftly, usually 1 or more per round, as given in the creature's entry. Except as noted below, fast healing is just like natural healing. Fast healing does not restore hit points lost from starvation, suffocation, or thirst, nor does it allow a creature to regrow lost body parts. Unless otherwise stated, it does not allow lost body parts to be reattached. Fast healing continues to function (even at negative hit points) until a creature dies, at which point the effects of fast healing end immediately.",
 			"",
 			"**Format:** fast healing 5  ",
@@ -1547,7 +1547,7 @@
 		"description": [
 			"## Constrict (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 291](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/291}  ",
 			"A creature with this special attack can crush an opponent when it makes a successful grapple check, dealing bludgeoning damage in addition to any other effects caused by a successful check, including additional damage. The amount of damage is given in the creature's entry and is typically equal to the amount of damage caused by the creature's melee attack.",
 			"",
 			"**Format:** constrict (1d8+6)  ",
@@ -1561,7 +1561,7 @@
 		"description": [
 			"## Display of Strength (Su) [Mythic]",
 			"",
-			"**Source** [Bestiary 4 pg. 292](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/292}  ",
 			"As a free action, the creature can expend one use of mythic power to attempt a feat of Strength, gaining a +20 circumstance bonus on one Strength-based skill check or Strength ability check. Alternatively, the creature can use this ability to apply a +20 circumstance bonus to its Strength score for a number of hours equal to its mythic rank for the purpose of determining its carrying capacity.",
 			"",
 			"**Format:** display of strength  ",
@@ -1574,7 +1574,7 @@
 		"description": [
 			"## Disease (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 292](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/292}  ",
 			"A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fortitude save (DC = 10 + 1/2 infecting creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Diseases can be removed through remove disease and similar effects.",
 			"",
 			"**Format:** Disease Name (Ex or Su) Bite-injury; save Fort DC 15, onset 1d3 days, frequency 1/day, effect 1 Con damage, cure 2 consecutive saves  ",
@@ -1587,7 +1587,7 @@
 		"description": [
 			"## Blood Drain (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"The creature drains blood at the end of its turn if it grapples a foe, dealing Constitution damage.",
 			"",
 			"**Format:** blood drain (1d2 Con)  ",
@@ -1600,7 +1600,7 @@
 		"description": [
 			"## No Breath (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 296](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/296}  ",
 			"The monster does not breathe and is immune to effects that require breathing (such as inhaled poison). This does not give it immunity to cloud or gas attacks that do not require breathing.",
 			"",
 			"**Format:** no breath  ",
@@ -1613,7 +1613,7 @@
 		"description": [
 			"## Mistsight (Ex)",
 			"",
-			"**Source** [Mythic Adventures pg. 227](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/227}  ",
 			"The monster can see through fog, mist, murky water, and smoke as if they were perfectly clear, ignoring the miss chance for these obstructions, up to its normal range of vision.",
 			"",
 			"**Format:** mistsight  ",
@@ -1626,7 +1626,7 @@
 		"description": [
 			"## Ferocity (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"The creature remains conscious and can continue fighting even if its hit point total is below 0. The creature is still staggered and loses 1 hit point each round. A creature with ferocity still dies when its hit point total reaches a negative amount equal to its Constitution score.",
 			"",
 			"**Format:** ferocity  ",
@@ -1639,7 +1639,7 @@
 		"description": [
 			"## Psychic Resilience (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"Creatures with this ability are resistant to the effects of many psychic spells. They gain a +4 bonus on saving throws against all psychic spells.",
 			"",
 			"**Format:** +4 vs. psychic spells  ",
@@ -1652,7 +1652,7 @@
 		"description": [
 			"## Mental Static Aura (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 295](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/295}  ",
 			"A creature with this ability creates a field around itself that makes concentrating difficult for those without this ability. Living creatures within 30 feet must succeed at a concentration check (DC = 10 + 1/2 the HD of the creature with the mental static aura + that creature's Charisma modifier) to cast a spell with a [thought component](rule/components_oa). Failing this check causes the spell to be lost with no effect. In addition, all spellcasters must attempt this check at the start of their turns if they are concentrating on an active spell or effect. Failing it means that they cease concentrating on the spell or effect. Creatures with this ability are immune to its effects and can cast spells normally.",
 			"",
 			"**Format:** mental static (DC 18)  ",
@@ -1665,7 +1665,7 @@
 		"description": [
 			"## Ability Damage and Drain (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"Some attacks or special abilities cause ability damage or drain. While ability damage can be healed naturally, ability drain is permanent and can be restored only through magic.",
 			"",
 			"**Format:** 1d4 Str drain  ",
@@ -1678,7 +1678,7 @@
 		"description": [
 			"## All-Around Vision (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"The creature sees in all directions at once. It cannot be flanked.",
 			"",
 			"**Format:** all-around vision  ",
@@ -1691,7 +1691,7 @@
 		"description": [
 			"## Trip (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 301](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/301}  ",
 			"A creature with the trip special attack can attempt to trip its opponent as a free action without provoking an attack of opportunity if it hits with the specified attack. If the attempt fails, the creature is not tripped in return.",
 			"",
 			"**Format:** trip (bite)  ",
@@ -1704,7 +1704,7 @@
 		"description": [
 			"## Daemonic Harbinger Traits (Su)",
 			"",
-			"**Source** [Inner Sea Bestiary pg. 62](source/inner_sea_bestiary)  ",
+			"{SOURCE Inner Sea Bestiary/62}  ",
 			"A daemonic harbinger is a powerful [daemon](family/daemon) that has not yet made the full transition from unique daemon to a horseman. It possesses several traits, as summarized here.",
 			"",
 			"- Immunity to acid, charm and compulsion effects, death effects, disease, and poison.",
@@ -1723,7 +1723,7 @@
 		"description": [
 			"## Demon Lord Traits (Ex, Sp, or Su)",
 			"",
-			"**Source** [Bestiary 4 pg. 292](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4/292}  ",
 			"A demon lord is a powerful, unique demon that rules a layer of the Abyss. All demon lords are chaotic evil outsiders that are, at a minimum, CR 26. Demon lords have a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.",
 			"",
 			"- A demon lord can grant spells to its worshipers as if it were a deity. A demon lord's domains are Chaos, Evil, and two other domains relevant to its theme and interests. Like a deity, a demon lord has a favored weapon.",
@@ -1743,7 +1743,7 @@
 		"description": [
 			"## Qlippoth Lord Traits (Ex, Sp, or Su)",
 			"",
-			"**Source** [Bestiary 6 pg. 297](source/bestiary_6)  ",
+			"{SOURCE Bestiary 6/297}  ",
 			"A qlippoth lord is a powerful, unique qlippoth that once ruled a region of the Abyss but has been forced to retreat to forgotten corners of reality deep in the Abyss. At the dawn of creation, qlippoth lords were powerful creatures, perhaps even on par with deities, but today they have dwindled to a pale shadow of that power. Still, they remain potent dangers to mortal life in the rare instances when they are encountered. All qlippoth lords are chaotic evil qlippoth in the range of CR 21 to CR 25. Qlippoth lords have a particular suite of traits (unless otherwise noted in a creature's entry), as summarized here.",
 			"",
 			"- A qlippoth lord can grant spells to its worshipers as if it were a deity. A qlippoth lord's domains are Chaotic and Evil, plus two other domains and four subdomains relevant to its theme and interests. Like a deity, a qlippoth lord has a favored weapon.",
@@ -1762,7 +1762,7 @@
 		"description": [
 			"## Powerful Charge (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"When a creature with this special attack charges, its attack deals extra damage in addition to the normal benefits and hazards of a charge. The attack and the damage from the attack are given in the creature's description.",
 			"",
 			"**Format:** powerful charge (gore, 4d8+24)  ",
@@ -1775,7 +1775,7 @@
 		"description": [
 			"## Stench (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"A creature with the stench special ability secretes an oily chemical that other creatures find offensive. All living creatures (except those with the stench special ability) within 30 feet must succeed at a Fortitude save or be sickened (DC = 10 + 1/2 the racial HD of the creature with stench + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text) . The duration of the sickened condition is given in the creature's descriptive text. Creatures that successfully save cannot be affected by the same creature's stench for 24 hours. A [delay poison](spell/delay_poison) or [neutralize poison](spell/neutralize_poison) spell removes the effect from the sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws.",
 			"",
 			"**Format:** stench (DC 15, 10 rounds)  ",
@@ -1788,7 +1788,7 @@
 		"description": [
 			"## Summon (Sp)",
 			"",
-			"**Source** [Bestiary 5 pg. 300](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/300}  ",
 			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a [summon monster](spell/summon_monster_1) spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, concentration checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
 			"",
 			"**Format:** 1/day-summon (level 4, 1 [hezrou](monster/hezrou) 35%)  ",
@@ -1801,7 +1801,7 @@
 		"description": [
 			"## Flight (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"The creature can cease or resume flight as a free action. If the ability is supernatural, it becomes ineffective in an antimagic field, and the creature loses its ability to fly for as long as the antimagic effect persists.",
 			"",
 			"**Format:** fly 30 ft. (average)  ",
@@ -1814,7 +1814,7 @@
 		"description": [
 			"## Resistance (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 298](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/298}  ",
 			"A creature with this special quality ignores some damage of the indicated type each time it takes damage of that kind (commonly acid, cold, electricity, or fire). The entry indicates the amount and type of damage ignored.",
 			"",
 			"**Format:** Resist acid 10  ",
@@ -1827,7 +1827,7 @@
 		"description": [
 			"## Immunity (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 294](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/294}  ",
 			"A creature with immunities takes no damage from listed sources. Immunities can also apply to afflictions, conditions, spells (based on level, save type, or school), and other effects. A creature does not suffer any secondary effects that would normally be triggered by an effect it is immune to.",
 			"",
 			"**Format:** Immune acid, fire, paralysis  ",
@@ -1840,7 +1840,7 @@
 		"description": [
 			"## Poison (Ex or Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 297](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/297}  ",
 			"A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fortitude save (DC = 10 + 1/2 poisoning creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through [neutralize poison](spell/neutralize_poison) and similar effects.",
 			"",
 			"**Format:** Poison Name (Ex) Sting-injury; save Fort DC 22, frequency 1/round for 6 rounds, effect 1d4 Con damage, cure 2 consecutive saves  ",
@@ -1853,7 +1853,7 @@
 		"description": [
 			"## Undersized Weapons (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 301](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/301}  ",
 			"The creature uses manufactured weapons as if it were one size category smaller it is.",
 			"",
 			"**Format:** undersized weapons  ",
@@ -1866,7 +1866,7 @@
 		"description": [
 			"## Gaze (Su)",
 			"",
-			"**Source** [Bestiary 5 pg. 293](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/293}  ",
 			"This attack takes effect when foes look at the attacking creature's eyes. The attack can have any sort of effect; charm, death, and petrification are common. The typical range is 30 feet, but check the creature's entry for details. The type of saving throw for a gaze attack varies, but it is usually a Will or Fortitude save (DC = 10 + 1/2 the gazing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's text). A successful saving throw negates the effect. A monster's gaze attack is described in abbreviated form in its description. Each opponent within range of a gaze attack must attempt a saving throw each round at the beginning of her turn in the initiative order. Only looking directly at a creature with a gaze attack leaves an opponent vulnerable. Opponents can avoid the need to attempt the save by not looking at the creature, in one of two ways.",
 			"",
 			"Averting Eyes: The opponent avoids looking at the creature's face, instead looking at its body, watching its shadow, tracking it in a reflective surface, etc. Each round, the opponent has a 50% chance to avoid having to attempt a saving throw against the gaze attack. The creature with the gaze attack, however, gains concealment against that opponent.",
@@ -1887,7 +1887,7 @@
 		"description": [
 			"## Attach (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 290](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/290}  ",
 			"The creature latches on when it hits with the listed attack. The creature is grappled, but the target is not. The target can attack or grapple the creature as normal, or it can break the attachment with a successful grapple or Escape Artist check.",
 			"",
 			"**Format:** attach  ",
@@ -1900,7 +1900,7 @@
 		"description": [
 			"## Distraction (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 292](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/292}  ",
 			"A creature with this ability can nauseate creatures it damages. Any living creature that takes damage from a creature with the distraction ability is nauseated for 1 round; a Fortitude save (DC = 10 + 1/2 creature's HD + creature's Constitution modifier) negates the effect.",
 			"",
 			"**Format:** distraction (DC 14)  ",
@@ -1913,7 +1913,7 @@
 		"description": [
 			"## Negative Energy Affinity (Ex)",
 			"",
-			"**Source** [Bestiary 5 pg. 296](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5/296}  ",
 			"The creature is alive but reacts to positive and negative energy as if it were undead; positive energy harms it, negative energy heals it.",
 			"",
 			"**Format:** negative energy affinity  ",
@@ -1926,7 +1926,7 @@
 		"description": [
 			"## Heat (Ex)",
 			"",
-			"**Source** [Bestiary 3 pg. 296](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3/296}  ",
 			"The creature generates so much heat that its mere touch deals additional fire damage. The creature's metallic melee weapons also conduct this heat.",
 			"",
 			"**Format:** heat (1d6 fire)  ",

@@ -5,7 +5,7 @@
 		"description": [
 			"## Aromaphile",
 			"",
-			"**Source** [Ultimate Wilderness pg. 18](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/18}  ",
 			"Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology.",
 			"",
 			"**Hypnotic Aroma (Su):** As a swift action, an aromaphile can use unique aspects of ghoran biology to release intoxicating aromas in a 10-foot-radius burst centered on him. All creatures within this area, as well as creatures with scent within 30 feet, take a -2 penalty on Will saving throws. This penalty becomes -3 at 8th level. The aroma hovers around the aromaphile, moving with him, and lasts for 1 minute. The hypnotic aroma must be inhaled to be effective, and creatures that choose to hold their breath, do not breathe, or are immune to inhaled poisons are immune to its effect.",
@@ -29,7 +29,7 @@
 		"description": [
 			"## Autohypnotist",
 			"",
-			"**Source** [Psychic Anthology pg. 17](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology/17}  ",
 			"An autohypnotist has incredibly powerful psychic abilities that he can't entirely control. As a result, maintaining his powers against an opponent hinders him as much as his target.",
 			"",
 			"**Autohypnosis (Su):** At 1st level, an autohypnotist has mastered techniques that make his hypnotic stare ability more potent, but at a terrible cost-the autohypnotist succumbs to his own power when he uses it. Whenever the autohypnotist focuses his stare on an opponent, the penalties that opponent takes from the hypnotic stare (as well as any bold stare improvements or stare feats that the autohypnotist has) increase by 1. However, the autohypnotist takes the same penalties as his target while focusing his stare, including those of any bold stare improvements he has.",
@@ -49,7 +49,7 @@
 		"description": [
 			"## Chart Caster",
 			"",
-			"**Source** [Blood of the Ancients pg. 8](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/8}  ",
 			"Lirgeni astrologists would divine their futures by consulting star charts, but some had no talent for astrology and simply faked their results. When prophecy died with Aroden, a few Lirgeni survivors continued with this \"reliable\" method.",
 			"",
 			"**Class Skills:** A chart caster adds Knowledge (nature) and Knowledge (planes) to his list of class skills.",
@@ -75,7 +75,7 @@
 		"description": [
 			"## Cult Master",
 			"",
-			"**Source** [Occult Adventures pg. 96](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/96}  ",
 			"The leaders of some cults are simply charlatans, bathing in the adulation of their followers. Others believe themselves to be truly in touch with an unknown power, bringing their unique messages to those willing to follow and obey them.",
 			"",
 			"**Insidious Personality (Ex):** A cult master adds 1/2 his class level (minimum 1) as a bonus on all Diplomacy checks. This ability replaces consummate liar.",
@@ -113,7 +113,7 @@
 		"description": [
 			"## Dreamstalker",
 			"",
-			"**Source** [Horror Adventures pg. 60](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/60}  ",
 			"Many mesmerists concentrate their studies on conscious, rational thought, but dreamstalkers instead delve into the unleashed unconscious mind that wanders free in dreams.",
 			"",
 			"**Dreams of Pain:** A dreamstalker's painful stare deals nonlethal damage. This ability alters painful stare.",
@@ -147,7 +147,7 @@
 		"description": [
 			"## Enigma",
 			"",
-			"**Source** [Ultimate Intrigue pg. 36](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/36}  ",
 			"An enigma spends his life dedicated to developing psychic abilities that allow him to operate unnoticed. While the target of a mesmerist's hypnotic stare might not realize that the mesmerist is the source of the strange thoughts invading his mind, an enigma takes that mental obfuscation to a more extreme level. Enigmas often end up serving as master spies and infiltration experts.",
 			"",
 			"**Solipsism (Su):** At 1st level, whenever the enigma uses hypnotic stare on a creature, instead of applying a penalty on the creature's saving throws, the enigma begins to fade from the creature's view. Until the enigma's next turn, the enigma gains the effects of concealment against that creature (unless it can see invisible creatures). Starting on the enigma's next turn, he gains the effect of invisibility against that creature. These effects last as long as the enigma continues to use his hypnotic stare, but if he takes an action that would end invisibility, it ends his hypnotic stare immediately. The enigma can reinstate this effect whenever he wishes, but each time it begins with 1 round of concealment. At 8th level, attacks that would end invisibility do not end the enigma's hypnotic stare, and after 1 round of concealment, he gains the benefits of greater invisibility against the target of his stare. For the purpose of bold stare improvements, the enigma's hypnotic stare always has a penalty of -1.",
@@ -185,7 +185,7 @@
 		"description": [
 			"## Eyebiter",
 			"",
-			"**Source** [Ultimate Intrigue pg. 36](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/36}  ",
 			"Mesmerists focus their abilities through the eyes, drawing forth their power as the windows to the mind and soul. Eyebiters take this a step further. An eyebiter's eyes become so infused with psychic might that they can leave the eyebiter's body and move about on their own.",
 			"",
 			"**Eyeball Familiar (Ex):** An eyebiter imbues one of his eyes with limited sentience, so that he can pluck it out and allow it to move on its own. The eyeball familiar functions similarly to the tumor familiar alchemist discovery except as follows. The eyeball familiar does not have fast healing. The eyeball familiar doesn't resemble an animal, and its size is Fine for a Medium or smaller eyebiter (or one size category larger for every size category the eyebiter is larger than Medium). It has a fly speed of 20 feet (perfect maneuverability) and no physical attacks (though it can still deliver touch spells once the eyebiter has reached 3rd level). The eyeball has a Strength score of 1, a Dexterity score of 12, and a Constitution score of 10. It has no set Hit Die, base saves, or skill ranks of its own, though it uses its master's when a familiar normally would. It doesn't grant its master any familiar bonus, nor can it ever be an improved familiar.",
@@ -221,7 +221,7 @@
 		"description": [
 			"## Fey Trickster",
 			"",
-			"**Source** [Ultimate Intrigue pg. 37](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/37}  ",
 			"Most mesmerists draw psychic power from the Astral Plane, but a few gain their powers in an unusual way: from a brush with the fey. Prisoner-guests of the fey, these souls find themselves changed when they return to the mortal world, infused with the eldritch energy of their former hosts.",
 			"",
 			"**Class Skills:** A fey trickster adds Handle Animal, Knowledge (nature), and Survival to her list of class skills, instead of Appraise, Knowledge (dungeoneering), and Profession.",
@@ -263,7 +263,7 @@
 		"description": [
 			"## Gaslighter",
 			"",
-			"**Source** [Horror Adventures pg. 60](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/60}  ",
 			"A gaslighter takes joy in others' suffering, delighting in driving them to madness.",
 			"",
 			"**Alignment:** A gaslighter must be of an evil alignment. A gaslighter who becomes nonevil cannot gain new levels as a mesmerist but retains all his class abilities.",
@@ -295,7 +295,7 @@
 		"description": [
 			"## Hate-Monger",
 			"",
-			"**Source** [Horror Adventures pg. 61](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/61}  ",
 			"Hate-mongers are xenophobic and judgmental rabblerousers who whip up mobs against enemies real or imagined.",
 			"",
 			"**Alignment:** A hate-monger must be of a nongood alignment. A hate-monger who becomes good cannot gain new levels as a mesmerist but retains all his class abilities.",
@@ -327,7 +327,7 @@
 		"description": [
 			"## Material Manipulator",
 			"",
-			"**Source** [Psychic Anthology pg. 18](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology/18}  ",
 			"Rather than waste time limiting himself to ruling minds, a material manipulator forces his whims upon reality and uses his magic to ensure that those around him comply with his demands.",
 			"",
 			"**Manipulator Spells:** A material manipulator casts psychic spells drawn from the mesmerist spell list and augmented by a select list of sorcerer/wizard spells. All illusion (glamer), illusion (shadow), and transmutation spells of 6th level and lower are considered to be part of the material manipulator's spell list. These are psychic spells.",
@@ -351,7 +351,7 @@
 		"description": [
 			"## Mindwyrm Mesmer",
 			"",
-			"**Source** [Legacy of Dragons pg. 13](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/13}  ",
 			"While most mesmerists are subtle and manipulative schemers, mindwyrm mesmers emulate the confidence, swagger, and fear inspired by dragons to bully and browbeat others into obedience. These dragon-inspired psychic magic-users typically employ draconic imagery in their dress and the manifestations of their powers.",
 			"",
 			"**Innate Coercion:** At 1st level, a mindwyrm mesmer gains a bonus equal to 1/2 his mesmerist level (minimum 1) on Intimidate checks. In addition, a mindwyrm mesmer never takes penalties on Intimidate checks for being smaller than his target.",
@@ -377,7 +377,7 @@
 		"description": [
 			"## Projectionist",
 			"",
-			"**Source** [Psychic Anthology pg. 18](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology/18}  ",
 			"Not content to simply command others from afar, a projectionist is able to use his mesmerizing powers to utterly dominate other creatures and objects by projecting his spirit from his body.",
 			"",
 			"**Spells:** A projectionist's psychic powers manifest in an almost predictable manner, making them less versatile than other spellcasters. At each of the indicated levels, a projectionist must choose the indicated spell to learn-he cannot choose other spells. The spells that a projectionist must learn (and the level at which he must choose them) are enter image(4th), lesser object possession (7th), riding possession (10th), object possession (13th), and greater object possession (16th). The projectionist adds greater object possession to his spell list as a 6th-level spell.",
@@ -401,7 +401,7 @@
 		"description": [
 			"## Spirit Walker",
 			"",
-			"**Source** [Occult Adventures pg. 97](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/97}  ",
 			"Some mesmerists specialize in dominating and controlling undead rather than the living.",
 			"",
 			"**Spells:** A spirit walker adds additional spells to his spell list at the spell levels indicated: hide from undead (1st), command undead (2nd), halt undead (3rd), and speak with haunt (4th). He can choose these as spells known, but doesn't gain them automatically. This ability alters the mesmerist's spell list.",
@@ -421,7 +421,7 @@
 		"description": [
 			"## Thought Eater",
 			"",
-			"**Source** [Ultimate Intrigue pg. 38](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/38}  ",
 			"Mesmerists that learn to pierce deep into the minds of their victims are known as thought eaters, dangerous individuals capable of devouring thoughts and assuming the knowledge those notions represent for themselves.",
 			"",
 			"**Assume Identity (Su):** When a thought eater targets a creature with his hypnotic stare ability, the thought eater gains a bonus on Disguise checks to appear as that creature. This bonus is equal to the thought eater's mesmerist level, and lasts for 24 hours, or until he uses his hypnotic stare ability on a different creature.",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Toxitician",
 			"",
-			"**Source** [Occult Adventures pg. 98](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/98}  ",
 			"Toxiticians forgo the mesmerist's stare, instead combining their psychic power with their alchemical knowledge to craft injections that torment their foes and bolster themselves and their allies.",
 			"",
 			"**Deft Fingers (Ex):** A toxitician adds 1/2 his class level (minimum 1) as a bonus on all Sleight of Hands checks. This ability replaces consummate liar.",
@@ -491,7 +491,7 @@
 		"description": [
 			"## Umbral Mesmerist",
 			"",
-			"**Source** [Occult Realms pg. 16](source/occult_realms)  ",
+			"{SOURCE Occult Realms/16}  ",
 			"Trained in secret, umbral mesmerists are clandestine weapons who spend years learning how to shape terrifying creatures from the inky darkness in which they revel.",
 			"",
 			"**Diminished Spellcasting:** An umbral mesmerist can cast one fewer spell of each level than normal. If this reduces the number of spells for a level to 0, he can cast spells of that level only if his Charisma score allows bonus spells of that level. This ability alters the mesmerist's spellcasting.",
@@ -513,7 +513,7 @@
 		"description": [
 			"## Vexing Daredevil",
 			"",
-			"**Source** [Occult Adventures pg. 98](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/98}  ",
 			"Vexing daredevils train their psychic powers for combat, specializing in momentarily blinding and confusing their foes with sudden feints and tricks.",
 			"",
 			"**Class Skills:** A vexing daredevil adds Acrobatics (Dex) to her list of class skills. This alters the mesmerist's class skills.",
@@ -549,7 +549,7 @@
 		"description": [
 			"## Vexing Trickster",
 			"",
-			"**Source** [Psychic Anthology pg. 19](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology/19}  ",
 			"While many mesmerists are called to embrace the art of deception, using their mind-binding powers to make their foes believe that even the most outrageous realities are actually true, others indulge in the various hijinks their power enables. These mesmerists are known as vexing tricksters.",
 			"",
 			"**Consummate Trickster (Ex):** A vexing trickster gains a +1 bonus on Bluff, Disguise, Sleight of Hand, and Stealth checks. This bonus increases by 1 at 4th level and every 3 mesmerist levels thereafter (maximum +6).",
@@ -575,7 +575,7 @@
 		"description": [
 			"## Vizier",
 			"",
-			"**Source** [Ultimate Intrigue pg. 38](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/38}  ",
 			"While many mesmerists focus on beguiling their foes or taking overt control of others with their mental powers, viziers carve out a subtler niche for themselves as advisors. An adventuring vizier is delighted that enemies focus on the raging barbarian or spell-slinging wizard first, not realizing the threat posed by the vizier until it's too late.",
 			"",
 			"**Insidious Influence (Su):** A vizier subtly influences his allies and others who trust him, making it more likely they will follow his suggestions. Allies with mesmerist tricks implanted by the vizier take penalties on Will saves made to resist the vizier's abilities and spells, and on Diplomacy, Intimidate, Sense Motive checks attempted against the vizier. This penalty equals that imposed by the vizier's hypnotic stare. If the vizier uses his hypnotic stare against such an ally, these penalties stack.",
@@ -597,7 +597,7 @@
 		"description": [
 			"## Vox",
 			"",
-			"**Source** [Ultimate Intrigue pg. 39](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/39}  ",
 			"Most mesmerists practice their mental manipulation through their entrancing gaze, but others have learned to practice their skill through the lilt and intonation of their voice. From sibilant whispers to overwhelming imprecations that resonate with the force of pure will, a vox unleashes the power of his mind with every silken syllable and shattering shout.",
 			"",
 			"**Spells:** A vox adds the following spells to his class list: 1st-ear-piercing scream; 2nd-cacophonous call, disrupt silence, distracting cacophony, piercing shriek, sonic scream; 4th-shout, sonic thrust, wall of sound; 5th-cacophonous call (mass) , echolocation, resonating word; 6th-magnifying chime, shout (greater), sonic form. Unlike most psychic spells, a vox's mesmerist spells use both thought and verbal components; like a bard, a vox cannot remove the verbal components of his spells.",

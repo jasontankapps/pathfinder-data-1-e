@@ -2918,32 +2918,32 @@
 			[
 				"### Tools",
 				"",
-				"***Description Source:*** [Ultimate Equipment pg. 102](source/ultimate_equipment)  ",
+				"***Source:*** [Ultimate Equipment pg. 102](source/ultimate_equipment)  ",
 				"Alchemical tools are adventuring items that can prove extremely useful in a variety of situations, including battles, dungeon-delving, or crafting other alchemical items",
 				"",
 				"### Reagents",
 				"",
-				"**Description Source:** [Adventurer's Armory](source/adventurers_armory)  ",
+				"**Source:** [Adventurer's Armory](source/adventurers_armory)  ",
 				"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
 				"",
-				"**Description Source:** [Alchemy Manual](source/alchemy_manual)  ",
+				"**Source:** [Alchemy Manual](source/alchemy_manual)  ",
 				"Alchemical reagents are purified through long processes from their raw states for use in alchemical recipes. They may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use.",
 				"",
 				"### Remedies",
 				"",
-				"**Description Source:** [Ultimate Equipment pg. 100](source/ultimate_equipment)  ",
+				"**Source:** [Ultimate Equipment pg. 100](source/ultimate_equipment)  ",
 				"Alchemical remedies are substances used to overcome a negative condition or ward against a specific kind of attack. You use most remedies by drinking them or applying them to your skin or clothing. ",
 				"",
 				"### Tinctures",
 				"",
-				"**Description Source:*** [Potions and Poisons pg. 22](source/potions_and_poisons)  ",
+				"**Source:*** [Potions and Poisons pg. 22](source/potions_and_poisons)  ",
 				"Tinctures are alchemical remedies consisting of reagents dissolved in an alcoholic solution. These mixtures produce potent effects beyond those of an ordinary alchemical concoction (see below), but the increased benefits are not without cost. In addition to requiring more expensive components, tinctures tend to cause harmful effects upon being imbibed.",
 				"",
 				"Drawing and drinking a tincture follows the same rules as drawing and drinking a potion.",
 				"",
 				"### Concoctions",
 				"",
-				"**Description Source:** [Adventurer's Armory 2](source/adventurers_armory_2)  ",
+				"**Source:** [Adventurer's Armory 2](source/adventurers_armory_2)  ",
 				"Some alchemical creations are less stable than others. Concoctions are notorious for their side effects and for their dangerous unpredictability when mixed together.",
 				"",
 				"All concoctions last for 1 hour, even if their benefits are expended before then. Drinking a second concoction before this duration expires causes unpredictable effects as their unstable alchemical compounds mix inside the body. To determine the effects of admixture, roll on the Concoction Miscibility Table. For each additional concoction consumed before the initial duration expires, rolls on the Concoction Miscibility Table take a cumulative -10% penalty. Mixing concoctions outside the body ruins both substances' potency. All concoctions have a Craft DC of 15.",
@@ -3420,7 +3420,7 @@
 		"description": [
 			[ "[Jump to the table](#wenhancetables)" ],
 			[
-				"**Description Source** [Adventurer's Armory 2](source/adventurers_armory_2)  ",
+				"**Source** [Adventurer's Armory 2](source/adventurers_armory_2)  ",
 				"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
 				"",
 				"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type."
@@ -3460,7 +3460,7 @@
 			[ "[Jump to the table](#materialstable)" ],
 			[ "[Jump to primitive materials](#primitives)" ],
 			[
-				"**Description Source:** [Ultimate Equipment](source/ultimate_equipment)  ",
+				"**Source:** [Ultimate Equipment](source/ultimate_equipment)  ",
 				"Weapons and armor can be crafted using materials that have innate special properties. If you make a suit of armor or a weapon out of more than one special material, you get the benefit of only the most prevalent material. However, you can build a double weapon with each head made of a different special material.",
 				"",
 				"Each of the special materials described below has a definite game effect. Some creatures have damage reduction that makes them resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular material. Characters may choose to carry several different types of weapons, depending upon the types of creatures they most commonly encounter.",
@@ -3627,7 +3627,7 @@
 		"description": [
 			[ "[Jump to the table](#poisonstable)" ],
 			[
-				"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
+				"**Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
 				"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 				"",
 				"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)  ",
@@ -3806,7 +3806,7 @@
 		"description": [
 			[ "[Jump to the table](#spellbookstable)" ],
 			[
-				"**Description Source:** [Ultimate Magic](source/ultimate_magic)  ",
+				"**Source:** [Ultimate Magic](source/ultimate_magic)  ",
 				"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
 				"",
 				"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
@@ -3825,7 +3825,7 @@
 			],
 			"# Transcribing Spellbook Preparation Rituals",
 			[
-				"**Description Source:** [Arcane Anthology](source/arcane_anthology)  ",
+				"**Source:** [Arcane Anthology](source/arcane_anthology)  ",
 				"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the [Scribe Scroll](feat/scribe_scroll) feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of [Scribe Scroll](feat/scribe_scroll), you must have [Brew Potion](feat/brew_potion). A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit."
 			],
 			"# Prayer Book and Meditation Book Rituals",

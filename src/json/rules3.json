@@ -3,7 +3,7 @@
 		"name": "Mastering Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 124](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/124}",
 			"",
 			"Combat is more than just knowing how to swing a sword without cutting yourself. To some, it is a means to an end, a regrettable necessity when all other options have failed, and a tool that is to be set down the moment it's not absolutely needed. To others, it is a panacea and a way of life-a means of solving any problem, and of proving one's worth by standing tall against one's fellows and the harsh denizens of an uncaring universe. In the hands of a skilled warrior, a sword is no longer simply a sharpened length of steel, and even a club is more than just a broken branch. These objects become instruments of a serious and sometimes brutal art, one whose practitioners are every bit as skilled in their artistry as the greatest bards. Many such acolytes of battle might say that theirs is the only art worth pursuing, as it's the sole one by which the artist not only inspires respect, but commands it. Combat is civilization's oldest trade and form of expression, and no matter how far we've come since the first days of stones and sticks, it continues to shape the events that define us. A civilized society may claim to abhor bloodshed, but it's that same bloodshed-or its threat-that watches over us and gives us the freedom to maintain such ideals.",
 			"",
@@ -40,7 +40,7 @@
 		"name": "Firearms",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 135](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/135}",
 			"",
 			"Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols alongside their swords, and it's hard to imagine a pirate ship without cannons blazing. These authors likely included guns because they are exciting, but also because the guns they chose were primitive ones-relatively unpredictable weapons, prone to misfire and malfunction. This made firearms excellent storytelling devices. Such weapons could cause hero or villain to falter or triumph, changing the action within the tale in a flash or a fizzle. Still, a firearm remains an ominous and terrible weapon in the hands of a skilled gunman.",
 			"",
@@ -66,7 +66,7 @@
 		"name": "Firearms in Your Campaign",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 135](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/135}",
 			"",
 			"Firearms and gunslingers are not for every campaign, and even if you are excited about introducing firearms into your campaign, you should still make a decision about how commonplace they are. The following are broad categories of firearm rarity and the rules that govern them. Pathfinder's world of Golarion uses the rules for emerging guns, which is also the default category of gun rarity detailed in this Pathfinder RPG supplement.",
 			"",
@@ -95,7 +95,7 @@
 		"name": "Firearm Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 135](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/135}",
 			"",
 			"Firearms work differently from other ranged projectile weapons-they instead use the following rules.",
 			"",
@@ -158,7 +158,7 @@
 		"name": "Firearm Description",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 137](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/137}",
 			"",
 			"There are two general categories of firearms: early and advanced.",
 			"",
@@ -193,7 +193,7 @@
 		"name": "Duels",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 150](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/150}",
 			"",
 			"There is no form of combat more civilized than the duel. Be it with steel or spells, duels are used to settle disputes in situations where a chaotic melee would be disruptive or even illegal. Although duels are often considered honorable, this does not necessarily make them any less deadly. Duels often permit combatants to engage in more even fights than the fracas of the battlefield, allowing the true skill, power, and wit of each to determine the victor."
 		],
@@ -222,7 +222,7 @@
 		"name": "Starting a Duel",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 150](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/150}",
 			"",
 			"A duel is a form of combat, but unlike ordinary combat, the participants must all agree to willingly enter the duel and abide by its rules. If either side breaks the rules, that side is considered the loser of the duel, regardless of any other outcome, and if its members continue aggressive action, the fight continues using the standard rules for combat.",
 			"",
@@ -254,7 +254,7 @@
 		"name": "Duel Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 150](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/150}",
 			"",
 			"A duel functions much like ordinary combat, with a few notable exceptions.",
 			"",
@@ -286,7 +286,7 @@
 		"name": "Dueling Counter",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 151](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/151}",
 			"",
 			"Each participant in a duel can take a special action called a dueling counter. A dueling counter is similar to a counterspell, but is easier to use.",
 			"",
@@ -325,7 +325,7 @@
 		"name": "Dueling Dodge",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 151](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/151}",
 			"",
 			"Each participant in a duel can take a special action called a dueling dodge. This special maneuver gives a duelist a temporary bonus to his AC and on Reflex saves, but leaves him vulnerable to other attacks until the start of his next turn.",
 			"",
@@ -353,7 +353,7 @@
 		"name": "Dueling Parry",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 152](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/152}",
 			"",
 			"Each participant in a duel can take a special action called a dueling parry. This special action allows the duelist to deflect a blow from a melee or ranged attack directed at her. A dueling parry cannot deflect spell or firearm ranged attacks.",
 			"",
@@ -381,7 +381,7 @@
 		"name": "Dueling Resolve",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 152](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/152}",
 			"",
 			"Once per duel, a character can use a special action called dueling resolve. This special action allows a duelist to keep on fighting despite a crippling spell or terrible injury.",
 			"",
@@ -409,7 +409,7 @@
 		"name": "Duels and Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 152](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/152}",
 			"",
 			"If you are using the duel rules within a [performance combat](rule/performance_combat), successfully performing a dueling counter, dueling dodge, or dueling resolve all allow the combatant to make a performance combat check as a free action. Since the dueling counter, dueling dodge, and dueling resolve action are all immediate actions, and are usually not done on the character's turn, this means that the combatant using one of these dueling actions must spend a victory point to make the performance combat check (not an action)."
 		],
@@ -433,7 +433,7 @@
 		"name": "Duel Results",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 152](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/152}",
 			"",
 			"While duels can be treated as another form of combat, they are usually undertaken to resolve a dispute between colleagues or rivals and are not usually intended to end in death. As a result, duels are usually fought with a specific prize in mind.",
 			"",
@@ -463,7 +463,7 @@
 		"name": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 153](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/153}",
 			"",
 			"Not every fight is for survival. Combatants sometimes find themselves in contests where the crowd's reaction is at least as important as the outcome of the fight itself. Whether a bar brawl with the goal of rousing the local populace to rise up against a band of bullies or a sun-drenched and bloody gladiatorial contest where life and death actually hinge on the favor of the crowd, performance combats are fights in which showmanship and flair can be more important than ruthless fighting efficiency.",
 			"",
@@ -492,7 +492,7 @@
 		"name": "Types of Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 153](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/153}",
 			"",
 			"When creating a performance combat, it is important to determine the goals and rules of that combat. The following are the major examples of performance combat, but you should feel free to mix and match some of these general categories to create a performance combat that fits the story of your campaign.",
 			"",
@@ -525,7 +525,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 153](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/153}",
 			"",
 			"While combatants do the actual fighting in performance combat, the crowd remains an active participant in these bouts. The audience can bolster or demoralize the competitors with their enthusiasm or scorn for what they see on the battlefield, with serious results.",
 			"",
@@ -568,7 +568,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 154](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/154}",
 			"",
 			"The first thing a GM must do in a performance combat is determine the crowd's starting attitude. Typically a crowd starts out with an indifferent attitude toward each side, but it could start with an attitude that's a step higher or lower based on other circumstances. Favored champions of a fighting pit or a city may start at a higher attitude step, while outsiders, prisoners of war, or criminals may start at a lower attitude step. If you are running a series of combats, a crowd may start with a higher or lower starting attitude based on a combatant's or a group of combatants' performance in the last bout, which is determined by the number of victory points the individual or group has (see [Serialized Performance Combats](rule/serialized_performance_combat))."
 		],
@@ -590,7 +590,7 @@
 		"name": "Performance Combat Check",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 154](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/154}",
 			"",
 			"Whenever a combatant has a chance to affect the crowd's attitude, she makes a performance combat check. The check is a Charisma ability check modified by the base attack bonus of the character plus any ranks the character has in Perform (act), Perform (comedy), or Perform (dance), whichever is highest. Making a performance combat check is usually a swift action, triggered when a combatant performs a trigger action (see [Affecting the Crowd's Attitude](rule/affecting_the_crowds_attitude)).",
 			"",
@@ -636,7 +636,7 @@
 		"name": "Performance Combat Check DC",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 154](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/154}",
 			"",
 			"The performance combat check's DC is based on a number of factors, including the starting or current attitude of the crowd, the size of the crowd, and the number of creatures participating in the performance combat. The base DC of the performance combat check is determined by the current attitude of the crowd toward the side of combat.",
 			"",
@@ -711,7 +711,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 156](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/156}",
 			"",
 			"For a combatant to affect the crowd's reaction in some way, he must usually accomplish some visible combat display that has a chance of motivating the crowd toward a new attitude. If the crowd cannot see the combatant (because of total concealment, invisibility, improved cover, or total cover), he cannot affect the crowd's attitude in any way, but concealment and lesser forms of cover do not affect a combatant's ability to affect the crowd.",
 			"",
@@ -748,7 +748,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 156](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/156}",
 			"",
 			"The following triggers allow a character participating in a performance combat to make a performance combat check as a swift action. A character can always opt not to make a performance combat check that requires a swift action. Some feats, called performance feats, allow a character to perform other actions as part of the performance combat check.",
 			"",
@@ -786,7 +786,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 156](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/156}",
 			"",
 			"The following triggers allow a combatant to make a performance combat check as a free action or an immediate action. A combatant may also opt to make any of these performance combat checks as a swift action instead, and gains the benefit of performance feats when he does so. A combatant can always opt to not make a performance combat check that requires a free action or immediate action. A combatant can also spend a victory point to make any one of these performance combat checks as a free action taken when it is not the combatant's turn, which allows the combatant to make one of these performance combat checks without spending an immediate action.",
 			"",
@@ -818,7 +818,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/157}",
 			"",
 			"The following performance combat checks must be attempted whenever possible. These checks don't improve a crowd's attitude, and the combatant gains no benefit from performance feats with these checks. Failing them typically has a detrimental effect on a crowd's attitude. If the crowd cannot see the action that triggered these checks, the combatant who performed it does not need to make the check. Making a performance check for one of these triggers is not an action.",
 			"",
@@ -848,7 +848,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/157}",
 			"",
 			"When a side is benefiting from a helpful crowd reaction and succeeds at a performance combat check, that side gains a victory point. Victory points are kept in a pool, and can be spent by anyone on a given side of a performance combat at any time during the performance combat, as long as no one on the side objects to the use of the victory point. Victory points can be spent during a performance combat in the following ways. Spending a victory point is not an action.",
 			"",
@@ -880,7 +880,7 @@
 		"subtitle": "Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/157}",
 			"",
 			"When the performance combat is concluded, the side with the highest attitude wins over the crowd. In the case of a tie, use victory points to determine the winner. If the bout is still a tie, that performance combat is a tie."
 		],
@@ -903,7 +903,7 @@
 		"name": "Serialized Performance Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 157](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/157}",
 			"",
 			"If you are running a series of performance combats as part of your campaign, successes and failures for each performance combat can affect the starting attitude of the crowd in future performance combats in the series, both negatively and positively.",
 			"",
@@ -930,7 +930,7 @@
 		"name": "Siege Engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 158](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/158}",
 			"",
 			"A classic trope of fantasy warfare is the storming of a castle or other large fortification. Whether the PCs are leading a brave and desperate defense of a lonely bastion against an overwhelming army of darkness, or overseeing the fight to overthrow an evil ruler and cast down his mighty fortress, a fight along the battlements can fire the imagination of a jaded player who has grown bored with one-on-one hacking. While historical sieges often depended more on disease and starvation for victory than anything else, the thrill for players is likely to come more from bombardment and assault with an array of siege engines, and countering the massive engines of their enemies with their own.",
 			"",
@@ -956,7 +956,7 @@
 		"name": "Siege Engine Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 158](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/158}",
 			"",
 			"All siege engines are at least size Large devices and often much larger. Unless stated otherwise in an individual siege engine description, all siege engines use the following rules.",
 			"",
@@ -1014,7 +1014,7 @@
 		"name": "Siege Engine Qualities",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 159](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/159}",
 			"",
 			"The following are the various entries on the [equipment tables for siege engines.](main/equipment_siegeengines) While ranged siege engines use most of these entries, close-assault siege engines only use some of them.",
 			"",
@@ -1090,7 +1090,7 @@
 		"name": "Structure Hardness and Hit Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 166](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/166}",
 			"",
 			"While armies can use siege weapons against troops, usually the goal of a siege engine is to demoralize foes and pound their structures to rubble. The following rules give the statistics for various buildings and barriers that are often the targets of siege engine attacks. They are split up into three different categories: buildings, gates, and walls.",
 			"",
@@ -1118,7 +1118,7 @@
 		"tags": "hardness siege engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 167](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/167}",
 			"",
 			"Buildings are sizable structures with many hit points and very poor ACs (a Large building is AC 4, a Huge building is AC 3, and a Gargantuan or larger building is AC 0). When a building is reduced to half its hit points, it is broken-it still stands, but only partially. It can be easily entered, and for all intents and purposes it has been breached. Reducing a building to 0 hit points completely destroys that building. Creatures inside the building suffer the effects of a cave-in.",
 			"",
@@ -1153,7 +1153,7 @@
 		"tags": "hardness siege engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 167](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/167}",
 			"",
 			"Gates serve as the entrances and exits to fortified structures, and are typically the weakest spots in any fortification's defenses. Gates are at least Large, but can be as large as Colossal. It typically takes three full-round actions to open or close a Large gate (up to three creatures can work together to close a Large gate as a full-round action), and larger gates typically take at least a minute to close or open. Gates have ACs based on their size (a Large gate is AC 4, a Huge gate is AC 3, and a Gargantuan or larger gate is AC 0).",
 			"",
@@ -1190,7 +1190,7 @@
 		"tags": "hardness siege engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 167](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/167}",
 			"",
 			"The walls that guard castles and cities are sturdy fortifications, usually constructed in a series of 5-foot squares. A square of wall has an AC of 5, and hardness and hit points equal to its type.",
 			"",
@@ -1223,7 +1223,7 @@
 		"name": "Mastering Magic",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 92](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/92}",
 			"",
 			"Anyone can be a spellcaster. If you can crack open a book and knuckle down in your studies, you can probably become a passable wizard. If you can devote yourself in body and soul to a god-and why wouldn't you, when there's such a variety to choose from-?you may find yourself endowed with magical powers simply for having faith in your god's (and your own) righteousness. Oracles are chosen without their consent, far-roving rangers pick up magical tricks and traps, druids channel the will of nature, sorcerers get their abilities as dubious presents from philandering ancestors, and bards find magical inspiration in performance and art. Magic is everywhere in the Pathfinder Roleplaying Game, and many of the movers and shakers in towns and cities of any significant size have a spell or two up their sleeves.",
 			"",
@@ -1261,7 +1261,7 @@
 		"name": "Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 94](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/94}",
 			"",
 			"Spellblights are rare and unusual magical conditions that uniquely affect spellcasters, including creatures that use spell-like abilities. Spellblights are curses, some functioning continuously and others manifesting only when the afflicted creature attempts to cast a spell or use a spell-like ability. A creature that lacks the ability to cast spells or use spell-like abilities cannot usually be afflicted by a spellblight.",
 			"",
@@ -1289,7 +1289,7 @@
 		"name": "Gaining Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 94](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/94}",
 			"",
 			"There are many ways a spellcaster can become afflicted with a spellblight. These conditions can be gained by way of a [bestow curse](spell/bestow_curse) or [major curse](spell/major_curse) spell, as well as spontaneously with a number of unusual circumstances, many of which are detailed below.",
 			"",
@@ -1313,7 +1313,7 @@
 		"name": "Optional Ways to Acquire Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 94](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/94}",
 			"",
 			"GMs may choose to include the following methods of acquiring spellblights.",
 			"",
@@ -1345,7 +1345,7 @@
 		"name": "Removing Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 94](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/94}",
 			"",
 			"While the most severe symptoms of a spellblight may manifest only episodically, the condition is often tenacious and difficult to remove. Each spellblight lists conditions for its removal, and can also be removed as if it were a curse (with remove curse, break enchantment, and so on). The caster level check DC to remove a minor spellblights is 20; the DC to remove a major spellblight is 30. The DC to remove the spellblight is reduced by 1 with each day that passes (minimum DC 10). Using anything other than a curse-removing spell to remove a spellblight imposes a -5 penalty on the caster level check. Any spellblight can be removed automatically, without a caster level check, with mage's disjunction, miracle, or wish. When called to randomly determine a spellblight, roll on the appropriate table.",
 			"",
@@ -1395,7 +1395,7 @@
 		"name": "Description of Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 95](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/95}",
 			"",
 			"The following section details spellblights, split up based on their severity and featuring descriptions of effects and special methods to end those effects. Note that some of the effects of spellblights can be somewhat beneficial. Crafty spellcasters can make the best of even the worst situations, and the beneficial effects of any spellblights represent this. If a spellblight calls for a concentration check based on the level of the effect, and the caster is using a spell-like ability that doesn't have an effective level, use half the caster level of the spell-like ability instead."
 		],
@@ -1420,7 +1420,7 @@
 		"name": "Minor Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 95](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/95}",
 			"",
 			"The following is a list and descriptions of many of the most common minor spellblights.",
 			"",
@@ -1480,7 +1480,7 @@
 		"name": "Major Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 96](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/96}",
 			"",
 			"The following list details some of the most common major spellblights.",
 			"",
@@ -1541,7 +1541,7 @@
 		"subtitle": "Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 98](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/98}",
 			"",
 			"A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of the spellblight conditions above offer advantages under the right conditions, at the GM's discretion, the [standard conditions](rule/conditions) can provide benefits as well. If the following material gives a spell failure chance, this is in addition to other rolls to succeed at casting (such as caster level checks and arcane spell failure from armor) and is resolved after those rolls.",
 			"",
@@ -1585,7 +1585,7 @@
 		"name": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 99](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/99}",
 			"",
 			"Spellcasters are no strangers to battle, but there's a difference between the chaos of a huge melee, with dozens of feral monsters seeking to tear the caster limb from limb, and a more civilized duel between rivals seeking to settle a dispute. Make no mistake, these duels can be just as deadly, but the rules surrounding them make for a different style of combat-one in which both combatants can attack and defend with ease, allowing the true skill and power of each to determine the victor."
 		],
@@ -1612,7 +1612,7 @@
 		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 99](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/99}",
 			"",
 			"A spell duel is a form of combat, but unlike ordinary combat, the participants must all agree to willingly enter the duel and abide by its rules. If either side breaks the rules, it is considered the loser of the duel, regardless of any other outcome, and if its members continue aggressive action, the fight returns to the standard rules for combat.",
 			"",
@@ -1640,7 +1640,7 @@
 		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 99](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/99}",
 			"",
 			"A duel functions much like ordinary combat, with a few notable exceptions that make for a more exciting and challenging encounter.",
 			"",
@@ -1669,7 +1669,7 @@
 		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 100](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/100}",
 			"",
 			"Each participant in a duel can take a special action once per round called a dueling counter. A dueling counter is similar to a counterspell, but is easier to use.",
 			"",
@@ -1705,7 +1705,7 @@
 		"subtitle": "Spell Duels",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 100](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/100}",
 			"",
 			"While duels can be treated as another form of combat, they are usually done to resolve a dispute between colleagues or rivals and are not usually intended to end in death. As a result, duels are usually fought with a specific prize in mind. Arcane academies are known for having duels to assign important faculty positions and as competitions between students for valuable prizes. In some places, magical duels of this kind are so common that special areas are constructed specifically for duels. Such dueling yards are sometimes made with special magic that can be activated for dueling competitions, converting all damage to nonlethal damage and preventing or reversing magic that instantly slays a foe or does permanent harm. That is not to say that accidents don't happen, and more than one student has lost a limb or even her life while on such \"safe\" fields.",
 			"",
@@ -1727,7 +1727,7 @@
 		"name": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/101}",
 			"",
 			"One of the most potent tools a spellcasters can wield is the command of summoned creatures; the most powerful of these spells call forth allies mightier than mere flesh, reaching from the depths of Hell to the peaks of Heaven, and even stranger places beyond the pale. When reaching for knowledge and forces from other planes, a spellcaster must have control over the strengths and weaknesses of their targets, or face doom far worse than any that might be visited upon them in the Material Plane. A spellcaster wishing to bind such creatures who cannot play to the desires of his summoned captive will surely lose control, and may find himself torn from his reality as a plaything of the multiverse's cruelest tormentors."
 		],
@@ -1754,7 +1754,7 @@
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/101}",
 			"",
 			"The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is [planar ally](spell/planar_ally); wizard, sorcerers, and summoners rely primarily on [planar binding](spell/planar_binding) (or [summon monster](spell/summon_monster_1), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains."
 		],
@@ -1779,7 +1779,7 @@
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/101}",
 			"",
 			"Clerics and oracles find the job of summoning and binding outsiders much easier than arcane spellcasters do. A cleric calls upon her deity to send a like-minded creature by way of one of the [planar ally](spell/planar_ally) spells. That outsider is in the service of the god, and its desires almost always align with the cleric's goals, or at least run in parallel with them.",
 			"",
@@ -1801,7 +1801,7 @@
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/101}",
 			"",
 			"The arcane method for binding outsiders is more difficult. First, a binder must create a trap, a [magic circle](spell/magic_circle_against_evil) focused inward. Typically the circle is outlined in a substance that is anathema to the outsider he wishes to summon. He must protect this circle against any sort of disruption, for even the smallest variation in its energies opens the circle and allows the escape of the creature he has summoned. It is for this reason that most binders' lairs are in high towers or deep dungeons, far from wind or pests.",
 			"",
@@ -1827,7 +1827,7 @@
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 101](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/101}",
 			"",
 			"There is one method of outsider coercion that helps guarantee that a binder can bargain from a position of relative security. Many spellcasters believe that a true name is inscribed on the essence of every creature, a secret word that describes it so perfectly and utterly that to speak the name is to define the being. For mortals, this name is buried in the soul, hidden away from prying and dangerous eyes. Outsiders' true names take the form of sigils carved upon their very essence. In Hell, these sigils change as the devil changes in stature, and some that may once have held power over certain devils have become outdated. It is said that some outsiders have assumed names and that they use the aliases to lure foolish mortals into using for summoning; the outsider pretends to be under the control of the binder, but merely bides its time before it strikes.",
 			"",
@@ -1856,7 +1856,7 @@
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 102](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/102}",
 			"",
 			"All outsiders love that which makes them strong. They seek to promote those qualities that offer them the greatest power, and covet their own survival. As beings-some might even call them concepts-of thought, will, and power, outsiders reward those who help them make their core concepts immortal. In short:",
 			"",
@@ -1895,7 +1895,7 @@
 		"subtitle": "Binding Outsiders",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 102](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/102}",
 			"",
 			"All outsiders have vulnerabilities, and those who deal with them must know what these vulnerabilities are. Some binders even use weapons composed of anathematic substances to create or draw their magic circles, or may even grind such valuable weapons up to create the powder to make the circles.",
 			"",
@@ -1929,7 +1929,7 @@
 		"name": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 103](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/103}",
 			"",
 			"The following sections give a general overview of the major outsider classifications, examples for each category (and their spell resistance, if any), their interests, their vulnerabilities, and what substances they dislike."
 		],
@@ -1965,7 +1965,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 103](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/103}",
 			"",
 			"Alien, unemotional, and distant, aeons are difficult to deal with because of their strange form of communication, known as envisaging, in which they employ mental imagery and sounds instead of the symbolism of speech or writing to communicate their goals. Furthermore, aeons are often unyielding in their dichotomies, and are not swayed by argument or emotion toward any end. A spellcaster who binds an aeon had better hope his goals are in concert with those of the strange outsider, because that is the only way an aeon will offer its aid.",
 			"",
@@ -2008,7 +2008,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 103](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/103}",
 			"",
 			"Creatures of good with little regard for the cosmic struggles of law against chaos, agathions take on bestial aspects that reflect both their nature and their goals as negotiators and meddlers for the cause of good. When bound, they often bargain for terms for their service and release in good faith with good-aligned binders, but attempt to trick and coerce evil-aligned ones.",
 			"",
@@ -2055,7 +2055,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 104](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/104}",
 			"",
 			"All angels have numerous immunities and damage resistances, allowing them to travel across many planes of the multiverse without fear of damage. Interestingly, they can still take damage from poison, but they are strong enough to withstand most ill effects and punish those who would inflict such treacherous pain on them. They are exceptionally vulnerable to unholy weapons; solars are also vulnerable to epic-strength weapons and artifacts. Angels' protective auras grant them protection against attacks made or effects created by evil creatures, as well as protecting those creatures around them. Any mortals who wish to deal with angels should be armed with humility and knowledge.",
 			"",
@@ -2100,7 +2100,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 104](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/104}",
 			"",
 			"As creatures of law and good, archons seek order, justice, and the protection of the weak against the depredations of the strong. They believe in transformation from within, whether through wholesale, systematic change of governance or personal epiphany.",
 			"",
@@ -2143,7 +2143,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 105](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/105}",
 			"",
 			"Those who follow the precepts of freedom, individuality, and goodness find that summoning azatas is the best course in finding extraplanar allies. Few azatas agree on the particulars of specific issues, but they are determined to see evil's defeat. Azatas are whimsical but determined, and recognize that the best way to bring good to the multiverse is not by enforcing their desires, but by example and word.",
 			"",
@@ -2188,7 +2188,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 105](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/105}",
 			"",
 			"All daemons have a common goal: bringing death, destruction, and pain to mortals. They eat souls, and stop at nothing to sate their hunger for them. Daemons are not to be trifled with. The greater lords of the daemons' the deacons and the Four Horsemen themselves-are almost never summoned. Whether this is because they force others to arrive in their place, or because they have somehow anchored themselves to the plane of Abaddon, none can say with certainty.",
 			"",
@@ -2243,7 +2243,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 106](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/106}",
 			"",
 			"The great weakness of demons is a holy or other good weapon. Such weapons overcome every demon's natural resistances, and are one of the few types of weapons that all demons fear equally. When dealing with demons, it is best to remember that they abide by no contract other than power, and displaying power-or at least hints of it-is key to keeping them under control. Their [magic circle](spell/magic_circle_against_evil) is made of powdered cold iron.",
 			"",
@@ -2308,7 +2308,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 107](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/107}",
 			"",
 			"Devils regard both holy items and silver as deadly substances, and instinctively shy away from contact with such items. Even those for whom silver presents no danger avoid its touch whenever possible. Binders who want to deal with infernal outsiders as putative allies keep these substances at least 60 feet from the summoning circle; however, if they wish to threaten their infernal subjects, they keep them close at hand. The powdered silver used to create the [magic circle](spell/magic_circle_against_evil) is a warning and a trap, but it is not an overt threat-summoned devils recognize it as part of the procedure to call them to the Material Plane. Note that even silver candlesticks or bells can be used as weapons of opportunity, but the best defense, should the wizard choose to display force, is a weapon bonded with alchemical silver.",
 			"",
@@ -2371,7 +2371,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 108](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/108}",
 			"",
 			"True elementals are simple creatures, thriving spirits animating bodies of pure elemental matter. They regard their lives as an eternal struggle to best themselves and each other. Each elemental type is uniquely suited to adapting to conditions on its particular plane, and is arrogant about its powers when surrounded by its element... and uniquely frightened and cowed when shown a greater power or encased in an element not its own. Most elementals do not bargain for favors-they respect only strength. Genies are the more human-like denizens of the elemental planes, both in shape and mentality. They consider themselves physically and culturally superior to true elementals.",
 			"",
@@ -2444,7 +2444,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 109](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/109}",
 			"",
 			"Originally created by the [axiomites](monster/axiomite) as an unflinching army to fight the chaotic proteans, inevitables used to fight an explicit war against those creatures but now wage an indirect war against them. Most inevitables fight this war by tracking down and rectifying egregious violations of law. Incorruptible in its mission, when bound by a being who wishes to subvert it, an inevitable often waits the binder out. Inevitables simply refuse to deal with binders who wish to use them against their designed and decreed purpose.",
 			"",
@@ -2485,7 +2485,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 110](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/110}",
 			"",
 			"Slithering creatures of pure chaos, proteans claim they were the masters of the multiverse before the first gods created the other planes from the pure chaos of the primeval beginnings. They seek to tear down the multiverse and restore it to its original chaotic form. Bound proteans seek to find a way to achieve this goal even when bargaining with those who dare summon and bind them.",
 			"",
@@ -2526,7 +2526,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 110](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/110}",
 			"",
 			"Only the most insane or desperate spellcasters dare to call and bind a qlippoth. The qlippoth's unpredictable nature, horrific appearance, and hatred for all mortal life make them some of the most dangerous outsiders to summon. They were once rulers of the Abyss, but were overthrown when the souls of mortal sinners arrived and transformed into the first demons. While qlippoth may bargain with mortal spellcasters, they don't feel bound to follow such agreements, and often blatantly disregard the orders of their binders, no matter the consequences.",
 			"",
@@ -2573,7 +2573,7 @@
 		"subtitle": "Outsider Categories",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 110](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/110}",
 			"",
 			"While the groups above detail all the major types of outsiders, the Great Beyond is called great for a reason, and there are countless other outsiders that a potential binder can call. In theory, any outsider can be called and a binder can attempt to press that creature into service, though the proper strategy for doing so is contingent on the abilities, desires, and goals of the particular outsider.",
 			"",
@@ -2605,7 +2605,7 @@
 		"name": "Building and Modifying Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 111](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/111}",
 			"",
 			"The [Craft Construct](feat/craft_construct) feat allows a spellcaster to create all manner of permanent constructs in a process much like magic item creation. Each construct has a purchase price and a crafting cost, along with a list of requirements and the skills used to create them. Some require special materials in addition to the cost for basic crafting supplies, generally for the construct's body. Special material costs increase both the purchase price and the crafting cost of the construct. The DC to craft a construct is 5 + the default caster level of the construct, just like for a magic item. Like when crafting magic items, a creator with a sufficiently high skill bonus may ignore these requirements. Each missing requirement increases the Craft DC by 5. Regardless, the creator must meet all item creation feats and minimum caster level requirements. Crafting a construct takes 1 day per 1,000 gp in the item's base price, excluding any special material costs. This process is identical to the process for crafting a magic item, including the rules for accelerating creation and handling interruptions."
 		],
@@ -2632,7 +2632,7 @@
 		"name": "Animated Objects",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 111](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/111}",
 			"",
 			"Not all constructs are built with the [Craft Construct](feat/craft_construct) feat. Spells like [animate objects](spell/animate_objects) allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.",
 			"",
@@ -2655,7 +2655,7 @@
 		"name": "New Animated Object Abilities",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 111](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/111}",
 			"",
 			"The following are new abilities that can be applied to animated objects, whether created by the animate objects spell or with the [Craft Constructs](feat/craft_construct) feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the [Animated Object monster entry](monster/animated_object).",
 			"",
@@ -2690,7 +2690,7 @@
 		"name": "Building New Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 111](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/111}",
 			"",
 			"Constructs typically have no Intelligence score, an average Wisdom score, and a Charisma of 1. Their dexterity is usually poor to average, though exceptionally nimble constructs do exist. Nearly all constructs of size Medium or larger have high Strength scores; constructs never have a Constitution score.",
 			"",
@@ -2714,7 +2714,7 @@
 		"name": "Pricing a New Construct",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 112](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/112}",
 			"",
 			"This section provides guidelines for those seeking to calculate the costs of crafting their own constructs. As a rough guideline, a construct's price is equal to its challenge rating squared, then multiplied by 500 gp. Constructs with a fractional CR rating base their price on that fraction of 500 gp. For example, a CR 1/2 construct has a price of 250 gp. The cost of magical supplies for the [Craft Construct](feat/craft_construct) feat is half this price, with the construct taking 1 day to create per 1,000 gp of the construct's base price. Some constructs, particularly golems, have additional raw material costs that must be paid in full, regardless of whether the creator possesses the [Craft Construct](feat/craft_construct) feat. Raw materials typically cost somewhere between 5% and 10% of the construct's base price.",
 			"",
@@ -2740,7 +2740,7 @@
 		"name": "Repairing Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/113}",
 			"",
 			"Even with the best of care, most constructs will eventually become damaged. Unless a construct suffers some sort of structural damage that radically alters its physical form, the construct continues to function at its full efficiency, and only falls apart once reduced to 0 hit points. Ideally, however, a construct should see some repair before it reaches that point. The [make whole](spell/make_whole) or [rapid repair](spell/rapid_repair) spells provide the easiest way to keep a construct in good condition. Both spells repair damaged constructs, even magic-immune ones like golems.",
 			"",
@@ -2765,7 +2765,7 @@
 		"name": "Construct Modifications",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/113}",
 			"",
 			"Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or non-functioning.",
 			"",
@@ -2795,7 +2795,7 @@
 		"subtitle": "Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 113](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/113}",
 			"",
 			"These modifications are used to alter a construct's basic properties: Armor Class, Hit Dice, and weaponry.",
 			"",
@@ -2823,7 +2823,7 @@
 		"subtitle": "Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 114](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/114}",
 			"",
 			"These modifications represent more complex changes to the structure and function of the construct. The cost is equivalent to the minimum level to cast the spell &times; the spell level &times; 250 gp."
 		],
@@ -2842,7 +2842,7 @@
 		"name": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/128}",
 			"",
 			"Designing spells for the Pathfinder Roleplaying Game is a complex task that is part art, part science. This section describes what you need to think about when designing balanced, playable spells for your campaign.",
 			"",
@@ -2892,7 +2892,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 128](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/128}",
 			"",
 			"It is essential for you to understand the terminology used in the game to describe spells and the effects they can create. Before designing a new spell, familiarize yourself with [the magic rules](rule/magic). In particular, be sure you understand the various [schools and subschools](rule/school_subschool) and the [spell stat block categories](rule/spell_descriptions) (components, range, and so on).",
 			"",
@@ -2949,7 +2949,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/129}",
 			"",
 			"One of the easiest ways to measure an offensive spell's power is to look at how much damage it does. Offensive spells are the easiest spells to design in the game, and there are dozens of examples of them in the Core Rulebook. A typical damage spell deals 1 die of damage (typically a d6) per caster level for an arcane spell (for example, [shocking grasp](spell/shocking_grasp) or [fireball](spell/fireball)), or 1 die of damage (typically a d6, but sometimes a d8) per two caster levels for a divine spell (for example, [searing light](spell/searing_light)).",
 			"",
@@ -3015,7 +3015,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 129](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/129}",
 			"",
 			"The simplest spells only affect one target, whether that target is a creature, an object, or just the caster. Technically, a spell that only affects the caster (with a range of \"personal\" and target of \"you\") is slightly weaker than one with a target of \"one creature,\" because being able to cast the spell on anyone makes it more versatile and thus more powerful. However, the slight decrease in power from making a spell \"caster-only\" should not be used to justify designing the spell at a lower level. In most cases, the caster-only spells are designed that way either because they've always worked that way, or because they provide a bonus that is unique and advantageous for that class, but that could get out of hand if you allowed anyone to get the benefit of the spell by casting it on them or drinking a potion of that spell; these spells should remain caster-only, but you should examine their power level as if you could cast them on anyone.",
 			"",
@@ -3045,7 +3045,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 130](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/130}",
 			"",
 			"Spell range plays a significant part in the power of a spell. Requiring the caster to touch a target with a hostile spell means the caster is in or very close to melee combat, and is risking retaliation from enemies and attacks of opportunity from threatening opponents. Similarly, while close-range spells give the caster a little more breathing room, a hostile target is generally within the range of a single move or a charge, allowing an opponent to close and attack the caster-even at caster level 14, a close-range spell only reaches 60 feet.",
 			"",
@@ -3079,7 +3079,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 131](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/131}",
 			"",
 			"Most spells that directly affect creatures with a magical effect should allow a saving throw. Spells that create nonmagical materials that then strike or impede creatures (such as [ice storm](spell/ice_storm) and [sleet storm](spell/sleet_storm)) do not normally require a saving throw.",
 			"",
@@ -3121,7 +3121,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 132](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/132}",
 			"",
 			"Whether or not spell resistance applies to a spell depends mostly on whether or not it is an instantaneous or ongoing magical effect. Spell resistance applies to instantaneous magical effects (such as [fireball](spell/fireball)) and ongoing magical effects (such as [wall of fire](spell/wall_of_fire)), but not to nonmagical effects or spells that create nonmagical effects, whether instantaneous or ongoing. For example, [wall of stone](spell/wall_of_stone) conjures an instantaneous wall of stone that cannot be dispelled; spell resistance doesn't help you walk through the spell's wall any more than it would if you tried to walk through a mortared stone wall in a castle-neither wall is magical, and both walls remain there even if you use [dispel magic](spell/dispel_magic) or [antimagic field](spell/antimagic_field) on them.",
 			"",
@@ -3155,7 +3155,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 132](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/132}",
 			"",
 			"Almost all spells meant to be cast in combat should have a casting time of 1 standard action. Avoid the temptation to invent spells with a casting time of 1 move action, 1 swift action, or 1 immediate action, as that's just a cheesy way for spellcasters to be able to cast two spells in 1 round, and there's already a mechanism for that: the [Quicken Spell](feat/quicken_spell) feat. Making combat spells with faster casting times devalues the [Quicken Spell](feat/quicken_spell) feat; even if you design the spell to be similar to a quickened spell, including the +4 level boost, it steals from casters who actually learn that feat, and your spell would become a common combo for high-level casters who can afford extra spells of that level. For example, if you create a 5th-level quickened [magic missile](spell/magic_missile) spell that acts just like a [magic missile](spell/magic_missile) spell with the [Quicken Spell](feat/quicken_spell) feat, any 14th-level wizard (who has at least three 5th-level spells available) is going to be tempted to learn this spell just because it allows him to add 5d4+5 extra points of damage to any high-level combat spell he casts, which is a way to get around the spell-damage cap. Furthermore, allowing spellcasters to routinely cast two spells per round means they tend to use up their spells more quickly and push their allies to camp and rest rather than continue exploring.",
 			"",
@@ -3185,7 +3185,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 133](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/133}",
 			"",
 			"For the most part, a spell's components have very little to do with its overall power level unless it requires a costly focus or material component or has no component at all. Most spells in the Core Rulebook have verbal and somatic components, and new spells should follow this trend.",
 			"",
@@ -3221,7 +3221,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 133](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/133}",
 			"",
 			"In terms of balancing the power of a spell, its ***school*** isn't very important-a 6th-level conjuration attack spell should be about as powerful as a 6th-level evocation attack spell. Deciding on the spell's school is really about choosing what best fits the theme and effect of the spell. Spells that deal energy damage to an area are usually conjuration or evocation spells. Spells that call, summon, or create physical objects or creatures are usually conjuration spells, while those that create things made of energy or force are usually evocation spells. Spells that affect minds are usually enchantment spells, unless they cause fear or affect undead, in which case they're necromancy spells.",
 			"",
@@ -3299,7 +3299,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 134](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/134}",
 			"",
 			"There are many types of bonuses in the game. It's tempting to look at that list of bonuses, find \"holes\" in the spell list that don't have spells for certain bonus types, and create a new spell that adds one of those unused bonus types to your favorite statistic or roll. Resist this temptation. Not all bonus types are equal within the game, and many bonus types are only meant for certain things. See Table 2-7: Bonus Types and Effects.",
 			"",
@@ -3349,7 +3349,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 134](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/134}",
 			"",
 			"The description is the meat of the spell, and what you put here is the most important information of all.",
 			"",
@@ -3383,7 +3383,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 135](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/135}",
 			"",
 			"When it comes to attack spells, there is a clear hierarchy of what kinds of effects are better than others. Here are the attack effects in order of best effect to worst, assuming all other factors (specific immunities, number of targets affected, and so on) are equal.",
 			"",
@@ -3421,7 +3421,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 135](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/135}",
 			"",
 			"Depletable statistics are any values in a creature or object's stat block that can be reduced by some form of attack and that can neutralize, kill, or destroy the creature or object when they reach a low value (typically 0). Hit points, ability scores, and levels are all depletable statistics-a creature falls unconscious below 0 hit points and eventually dies; objects, undead, and constructs are destroyed at 0 hit points; creatures are made helpless or killed by bringing an ability score to 0; creatures die when their negative levels equal their total Hit Dice. Many magical attacks and most nonmagical attacks reduce a target's depletable statistics in some way, eventually defeating the target.",
 			"",
@@ -3449,7 +3449,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 136](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/136}",
 			"",
 			"A spell that gives the caster a choice of multiple options should be weaker overall than a spell that only does one thing. First, a spell that is good at two things is much better than a spell that is good at one thing, so you should reduce the power of the former spell so the two spells remain about equal. Second, because bards, oracles, and sorcerers can only learn a limited number of spells, a spell that can do multiple things is often a better choice for them because it's almost like learning multiple spells.",
 			"",
@@ -3483,7 +3483,7 @@
 		"subtitle": "Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 138](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/138}",
 			"",
 			"Some spells in the Core Rulebook are clearly the best of their spell level. Other spells are perfect examples of what a spell of that level or purpose should be able to do. These are \"benchmark\" spells, and when designing a new spell you should always compare your spell to the benchmark spells. If your spell is better than the benchmark spell, you should reduce its power or increase its spell level. The following is a list of benchmark spells by sorcerer/wizard spell level, with explanations of why they are benchmarks. If you create a spell and it's better than a comparable benchmark spell, your spell is too powerful."
 		],
@@ -3518,7 +3518,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 138](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/138}",
 			"",
 			"[Burning Hands](spell/burning_hands): This is the benchmark for 1st-level area attack spells. It is even better than sleep because it can affect up to six squares (sleep only affects 4 Hit Dice, which means up to 4 creatures) and affects mindless creatures and undead.",
 			"",
@@ -3547,7 +3547,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 138](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/138}",
 			"",
 			"[Invisibility](spell/invisibility): This is one of the best spells in the game, and is only improved on by [greater invisibility](spell/greater_invisibility) getting rid of the breaks-on-attack aspect. This spell is great for scouting, great in combat to set up attacks, and great for healers (as healing doesn't end the spell).",
 			"",
@@ -3578,7 +3578,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Dispel Magic](spell/dispel_magic): This spell sets the standard for negating other magic without a specific counter.",
 			"",
@@ -3617,7 +3617,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Dimension Door](spell/dimension_door): This is the lowest-level spell that lets you teleport; it has a limited range and disorients you until your next turn.",
 			"",
@@ -3648,7 +3648,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Cloudkill](spell/cloudkill): This spell is key because it automatically kills weak creatures, deals poison damage each round to stronger creatures in the area, persists for several rounds, and moves.",
 			"",
@@ -3681,7 +3681,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Contingency](spell/contingency): This spell lets the caster set up conditions to trigger another spell effect, whether something direct such as a protective spell or something paranoid like an escape-teleport. In many ways it models what an immediate-action [Quicken Spell](feat/quicken_spell) feat would be like. Because it lasts 1 day per level, the caster can prepare the contingency on one day and adventure the next day with a full allotment of spells.",
 			"",
@@ -3710,7 +3710,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Limited Wish](spell/limited_wish): This powerful spell lets the caster pick effects from countless available lower-levels spells at the time of casting, even those from different class lists."
 		],
@@ -3737,7 +3737,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Clone](spell/clone): This spell is the key to arcane immortality-it acts like [contingency](spell/contingency) plus [raise dead](spell/raise_dead) but costs fewer gp, and it can save characters even if all of them die unexpectedly.",
 			"",
@@ -3768,7 +3768,7 @@
 		"subtitle": "Benchmarks for Designing Spells",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Source** [Ultimate Magic pg. 139](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic/139}",
 			"",
 			"[Gate](spell/gate): This powerful spell combines all of the planar ally/planar binding effects and can be used to transport many creatures between planes.",
 			"",
@@ -3798,7 +3798,7 @@
 		"name": "Primal Magic",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"**Source** [Inner Sea Magic pg. 12](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/12}  ",
 			"In its raw form, magic is not an ordered force - it is the all-encompassing chaos of possibility. The same energies that can be shaped to create explosive fireballs, raise the dead, divine the future, heal the sick, and summon demons can do that and more without the direction of skilled spellcasters. Normally, this unfocused magical potential does not exist in reality; it lies beyond reality, where it waits to be tapped. Where exactly magic comes from remains a lively debate today, but when magic is unleashed without any attempt to focus it-when it leaks into the world in its raw form-the result is known as primal magic.",
 			"",
 			"In some realms, particularly in planes like the Maelstrom or the Abyss in the Great Beyond, magic is left to indulge in its raw chaos as it wishes-here, primal magic is often called \"wild magic.\" On the Material Plane, the world feels the touch of primal magic when the laws of reality themselves have been damaged. Here, magic flows in unpredictable tides and currents. At one moment, a region might function normally while at another, magic won't function at all. Usually, though, primal magic holds sway.",
@@ -4245,7 +4245,7 @@
 		"name": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 170](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/170}",
 			"",
 			"In the Pathfinder Roleplaying Game, low-level characters do most of their traveling on their own two feet. At higher levels, magical travel becomes a common occurrence, as does travel by horseback, atop animal companions, or via more exotic mounts. Every so often, travel may involve a vehicle of some sort-the wagons of a caravan, a windtossed galley, some fantastic form of aerial transport, or even a planes-hopping device. If you like your games with a dose of weird, such vehicles may be as strange as a crashed space vessel. Whatever the case, vehicles in the Pathfinder RPG are often treated as either mobile terrain or adventure sites in their own right.",
 			"",
@@ -4270,7 +4270,7 @@
 		"name": "Vehicle Basics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 170](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/170}",
 			"",
 			"What follow are the basic rules for using vehicles in the Pathfinder Roleplaying Game. They give an overview of the rules that all vehicles use.",
 			"",
@@ -4300,7 +4300,7 @@
 		"name": "Full Vehicle Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 170](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/170}",
 			"",
 			"The basic rules give a general idea of how vehicles act in the structure of the combat round, and how they are different than creatures. The following sections go into greater depth about running vehicles in combat."
 		],
@@ -4333,7 +4333,7 @@
 		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 170](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/170}",
 			"",
 			"A vehicle is a special movable object that requires two things to keep it moving-a driver and a method of propulsion. A ***driver*** is a creature with an Intelligence score of 3 or more who is physically able to use the vehicle's driving mechanism. In other words, the creature needs to be the correct size and have the correct anatomy to use whatever tool is used to drive the vehicle. Sometimes a driving mechanism may have its own requirements for use. The driver uses that mechanism and her skill (or her Wisdom) to control the vehicle. Without a driver, a vehicle will not move or will continue moving in a straight line, depending on the vehicle's state when it becomes driverless.",
 			"",
@@ -4363,7 +4363,7 @@
 		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 171](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/171}",
 			"",
 			"Every vehicle has a method of propulsion. Creatures pull chariots and wagons. Boats and ships are propelled by water currents, wind, muscle, or all three forces. Fantastical airships are held aloft by a variety of propulsion sources, both magical and mundane. The method of propulsion typically affects the speed and maneuverability of a vehicle, but more importantly, a vehicle's propulsion determines the required skill needed to control a vehicle. The following are the general methods of vehicle propulsion, along with what skills are typically needed to drive such vehicles.",
 			"",
@@ -4426,7 +4426,7 @@
 		"name": "Vehicle Size and Space",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 172](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/172}",
 			"",
 			"Vehicles have sizes and spaces different from creature sizes and spaces. Many vehicles are long and thin rather than taking up a space of an equal number of squares per side like creatures do. A wagon, for instance, may take up a 10-by-10-foot square, or may be 10 feet wide and 15 feet or more long. Often one of the shorter sides of the vehicle serves as a vehicle's forward facing.",
 			"",
@@ -4464,7 +4464,7 @@
 		"name": "Vehicle Facing and Movement",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 172](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/172}",
 			"",
 			"Vehicles do not move like creatures, even when they use creatures as propulsion. They tend to move in the direction of their forward facing, and do so quickly.",
 			"",
@@ -4495,7 +4495,7 @@
 		"name": "Driving Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 173](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/173}",
 			"",
 			"Controlling a vehicle takes common sense, awareness, intuition, and often some amount of skill in its method of propulsion. In the case of muscle propulsion, it is about guiding the creatures to move the vehicle. In the case of current propulsion, it is about using the current and tools like sails, oars, or a rudder to move the vehicle. With magic, it is typically about understanding the magic device that powers the propulsion and using the device properly.",
 			"",
@@ -4543,7 +4543,7 @@
 		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"The rules for turning a vehicle are a simple way of getting vehicles to turn on a grid, but when a vehicle turns, it doesn't do so sharply, even when powered by magic; vehicles rarely make turns evenly. If this simple system involves too much abstraction, you can have vehicles make wide turns.",
 			"",
@@ -4574,7 +4574,7 @@
 		"name": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"A vehicle in combat can become a target for attacks and can affect combatants with special vehicular maneuvers. The following are the rules for how a vehicle acts in the combat round."
 		],
@@ -4609,7 +4609,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"### Initiative",
 			"",
@@ -4650,7 +4650,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"### Threatening",
 			"",
@@ -4681,7 +4681,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character's height from the ground. Increase the DC of the Acrobatics check by 5 for every 30 feet of the vehicle's current speed. If the jumping creature is on a moving vehicle, calculate the increase in the Acrobatics skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.",
 			"",
@@ -4710,7 +4710,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is within the driving space of the vehicle and makes a driving check as a free action. The vehicle's driver can always give over control to another adjacent creature that is within the driving space of the vehicle as a free action. When a new creature becomes the driver, the vehicle moves on the new driver's turn, but not on the new driver's first turn after taking control of the vehicle.",
 			"",
@@ -4737,7 +4737,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"A vehicle has a base Armor Class based on its size and other defenses the vehicle has. To calculate the vehicle's actual AC, add the current driver's driving skill modifier (or Wisdom modifier, if it is using that ability to drive the vehicle) to the vehicle's base AC. Touch attacks against a vehicle ignore its driver's driving skill or ability modifier; thus a vehicle's base AC is its touch AC. A vehicle is never considered flat-footed.",
 			"",
@@ -4791,7 +4791,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"Vehicles typically don't have attacks, though some can be fitted with siege weapons. A vehicle can make, and is often required to make, a vehicular bull rush, vehicular overrun, or ramming maneuver as part of its movement. Unlike creatures, a vehicle can enter the space of creatures or objects smaller than it, and when it does, it makes either a vehicular overrun or vehicular bull rush. When a vehicle hits a creature or a vehicle that is its size or larger, or it hits a solid object (a wall or structure that is immobile and has a hardness of 5 or more), it makes a ramming maneuver.",
 			"",
@@ -4868,7 +4868,7 @@
 		"subtitle": "Vehicles in Combat",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 174](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/174}",
 			"",
 			"### Damaging a Vehicle",
 			"",
@@ -4925,7 +4925,7 @@
 		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 176](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/176}",
 			"",
 			"Squares of propulsion devices have their own statistics, separate from the vehicle's. Use the following rules to determine those statistics.",
 			"",
@@ -4970,7 +4970,7 @@
 		"subtitle": "Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 177](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/177}",
 			"",
 			"The following are some of the typical driving devices for vehicles, plus their usual Armor Class, hit points, and hardness. A broken driving device increases the driving check of the vehicle by 10. When a driving device is destroyed, a vehicle cannot be driven until the driving device is repaired.",
 			"",
@@ -5004,7 +5004,7 @@
 		"name": "Vehicle Statistics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 180](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/180}",
 			"",
 			"Below are explanations of some of the traits noted in vehicle statistics. If information for a given category is not listed in a given stat block, it is not applicable.",
 			"",
@@ -5061,7 +5061,7 @@
 		"name": "Land Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 181](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/181}",
 			"",
 			"Land vehicles carry occupants and cargo over hard earth or similar terrain. They are typically propelled by muscle, but can be moved by a variety of propulsion methods. The following are the most common types of land vehicles, including all land vehicles that characters can purchase in the Core Rulebook."
 		],
@@ -5588,7 +5588,7 @@
 		"name": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Water vehicles move across bodies of water, whether as small as a river or as large as an ocean. They are typically propelled by muscle or sail, but can be moved by a variety of propulsion methods. The following are the most common types of water vehicles, including all water vehicles that characters can purchase in the Core Rulebook.",
 			"",
@@ -5626,7 +5626,7 @@
 		"name": "Galley",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Colossal water vehicle  ",
 			"**Squares** 104 (20 ft. by 130 ft.); **Cost** 10,000 gp",
@@ -5675,7 +5675,7 @@
 		"subtitle": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Colossal water vehicle  ",
 			"**Squares** 40 (20 ft. by 50 ft.); **Cost** 13,000 gp",
@@ -5723,7 +5723,7 @@
 		"subtitle": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Colossal water vehicle  ",
 			"**Squares** 45 (15 ft. by 75 ft.); **Cost** 10,000 gp",
@@ -5771,7 +5771,7 @@
 		"subtitle": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Large water vehicle  ",
 			"**Squares** 3 (5 ft. by 15 ft.); **Cost** 50 gp",
@@ -5818,7 +5818,7 @@
 		"subtitle": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Colossal water vehicle  ",
 			"**Squares** 60 (20 ft. by 75 ft.); **Cost** 10,000 gp",
@@ -5867,7 +5867,7 @@
 		"subtitle": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 184](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/184}",
 			"",
 			"Colossal water vehicle  ",
 			"**Squares** 80 (20 ft. by 100 ft.); **Cost** 25,000 gp",
@@ -5915,7 +5915,7 @@
 		"name": "Air Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Source** [Ultimate Combat pg. 186](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/186}",
 			"",
 			"Air vehicles fly through the air. They are usually propelled by air currents, alchemical engines, magic, or in the case of larger air vehicles, a mix of air currents and alchemical engines or magic. Airships, because of their nature, travel though all three dimensions instead of two. When they ascend, they must do so at half their current speed. When air vehicles descend, they can (but do not have to) move at double their current speed. After the ascent or descent, treat the vehicle's current speed as it was before making the ascent or descent.",
 			"",

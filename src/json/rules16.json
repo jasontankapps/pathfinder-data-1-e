@@ -3,7 +3,7 @@
 		"name": "Horror Rules",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 8](source/horror_adventures)",
+			"{SOURCE Horror Adventures/8}",
 			"",
 			"The elements of a horror game might be gruesome, dreary, unnatural, or frightful, but they have the biggest impact if the players aren't quite expecting them. The rules in this section support some tried-and-true elements of horror that need new rules elements to be fully realized for a horror campaign. Though these rules are a good start for a GM running a horror campaign, it is equally important to set the right tone with how they're used.",
 			"",
@@ -65,7 +65,7 @@
 		"name": "Horror Characters",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 8](source/horror_adventures)",
+			"{SOURCE Horror Adventures/8}",
 			"",
 			"The life of an adventurer has never been safe or comfortable. Terrible dangers lurk around every corner and the threat of death is a constant companion. Despite such grim realities, far more horrifying fates await those who find themselves facing off against true darkness: nightmares that thirst for the tears of the innocent and hunger for the flesh of the living. Adventurers who find themselves in a horror game must be prepared to face terror, madness, and threats to their very souls."
 		],
@@ -91,7 +91,7 @@
 		"name": "Playing a Horror Hero",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 8](source/horror_adventures)",
+			"{SOURCE Horror Adventures/8}",
 			"",
 			"To run an effective horror-themed adventure, the GM has to think about her game in a different light. In the same way, to get the most out of their characters, players in a horror game should consider their characters anew. This section is aimed at the player, and provides tips on how to create suitable characters for horror-themed Pathfinder RPG adventures. It also touches on how you, as a player, can participate in horror-themed games in ways that make the story more unnerving for everyone at the game table."
 		],
@@ -114,7 +114,7 @@
 		"name": "Participating in Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 8](source/horror_adventures)",
+			"{SOURCE Horror Adventures/8}",
 			"",
 			"First and foremost, understand that horror games are meant to be creepy. If you don't want to risk being actually frightened, you don't have to play. If you do want to play, make sure you're familiar with the [Horror Games and Consent](rule/horror_games_and_consent) section.",
 			"",
@@ -139,7 +139,7 @@
 		"name": "Building Horror Characters",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 8](source/horror_adventures)",
+			"{SOURCE Horror Adventures/8}",
 			"",
 			"Characters in horror-themed campaigns are usually no less skilled or powerful than those in other Pathfinder RPG campaigns. The GM might also have special guidelines or expectations for the game's characters-particularly in the cases of supposedly fearless classes, like [paladins](class/paladin)-so make sure that you and she are on the same page regarding character creation before you get to work.",
 			"",
@@ -165,7 +165,7 @@
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 9](source/horror_adventures)",
+			"{SOURCE Horror Adventures/9}",
 			"",
 			"Characters who aren't afraid of anything-or who are incapable of emotion-are the worst characters to play in a horror adventure. If the slasher bursts onto the scene and no one's startled or frightened, that's a bad sign for a horror game. Fight-or-flight responses, instant reactions, and expressions of revulsion are key components of a terrifying scene. In horror adventures, it is the GM's job to set up grim scenarios, and it is part of your job to consider how your character would actually react to these situations.",
 			"",
@@ -207,7 +207,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 9](source/horror_adventures)",
+			"{SOURCE Horror Adventures/9}",
 			"",
 			"When your character confronts a shocking scene, ask yourself what your character would do, what you would want to do, and what you would really do. These questions often have different answers. Let those answers influence how you react. Alternatively, you might hang on to the first thing that comes to mind, emulating more instinctual reactions to horror. Frightened or distraught people don't make the best decisions, so don't be afraid to make a snap judgment, act rashly, or react without consulting the group. In any case, your choice of action should usually be whatever you think will be the most fun or interesting for the entire group."
 		],
@@ -231,7 +231,7 @@
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 9](source/horror_adventures)",
+			"{SOURCE Horror Adventures/9}",
 			"",
 			"Sometimes, your choices might mean playing along with the GM. The GM is not your opponent-she's the conductor of a symphony in which you're a star performer. If she seems to be hinting hard toward a course of action, consider going along with it or mentioning to the whole group why you don't want to. The GM might also use any number of \"special effects\" during a horror game, such as providing certain characters with information only they know or asking to roll your dice for you in a specific situation. If that happens, oblige your GM. It could mean nothing or it could portend terrible things, but whatever the case, your GM isn't trying to cheat you. You're all just trying to make the game more fun."
 		],
@@ -255,7 +255,7 @@
 		"tags": "fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 9](source/horror_adventures)",
+			"{SOURCE Horror Adventures/9}",
 			"",
 			"The GM is telling a story and wants to include you in it. Consider including one or more of the following aspects and let your GM know so she can work them into her stories.",
 			"",
@@ -295,7 +295,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 10](source/horror_adventures)",
+			"{SOURCE Horror Adventures/10}",
 			"",
 			"In a game where terrible things lurk in the darkness and horrors crawl forth from nightmares to plague the living, the rules for fear are an important part of play. To help bring an appropriate atmosphere to the table, the following rules broaden the levels of fear and allow fear to have a greater impact on your character and the story."
 		],
@@ -327,7 +327,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 10](source/horror_adventures)",
+			"{SOURCE Horror Adventures/10}",
 			"",
 			"The existing rules for fear offer three levels of fear, each one represented by a condition: shaken, frightened, and panicked. The following system expands the various states of fear into seven levels, divided into two groups (lesser fear and greater fear). The three levels of lesser fear - spooked, shaken, and scared - cause you to take penalties, but you are still ultimately in control. The four levels of greater fear - frightened, panicked, terrified, and horrified - cause you to progressively lose control of your character.",
 			"",
@@ -356,7 +356,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 10](source/horror_adventures)",
+			"{SOURCE Horror Adventures/10}",
 			"",
 			"Fear begins as a shiver down your spine, but soon grows.",
 			"",
@@ -382,7 +382,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 10](source/horror_adventures)",
+			"{SOURCE Horror Adventures/10}",
 			"",
 			"At these levels, your fear begins to overwhelm you.",
 			"",
@@ -417,7 +417,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 10](source/horror_adventures)",
+			"{SOURCE Horror Adventures/10}",
 			"",
 			"Using this system can make the tracking of your overall fear level a bit more complicated. Track each fear effect separately, evaluating your current fear level whenever an effect is added or removed, starting with the most severe effect and adding levels on top of that for each new effect. Remember that lesser fear effects cannot add up to a greater fear effect, regardless of their number, and the staggered condition that can result from being scared and then suffering another lesser fear effect applies at the moment when the new fear effect begins (not when it expires).",
 			"",
@@ -440,7 +440,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 11](source/horror_adventures)",
+			"{SOURCE Horror Adventures/11}",
 			"",
 			"This revised fear system is meant to work seamlessly with the existing rules for fear, so GMs should use this system as an opportunity to add new fear effects to their games, including those derived from the environment and various situations. For example, entering an abandoned asylum during a moonless night might cause all the characters to gain the spooked condition, while discovering a cabinet filled with gnawed bones might cause a character to become scared for 1 minute after a failing a Will save. GMs not using this system should use the next-lower condition from the Core Rulebook if one of the new conditions appears, so anything that would normally inflict the spooked condition has no effect, scared becomes shaken, and terrified or horrified become panicked"
 		],
@@ -461,7 +461,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 11](source/horror_adventures)",
+			"{SOURCE Horror Adventures/11}",
 			"",
 			"A number of creatures and characters are immune to fear. While that is fine for most fantasy adventure campaigns, it can prove problematic for horror-themed campaigns. GMs running such games should consider changing fear immunity to a form of resistance. Creatures and characters with fear resistance track their fear levels as normal, but they take the penalties of the fear level two steps lower than their actual level (thus, they suffer no effect at all unless they are at least scared). Furthermore, effects that normally cause a character to become spooked or shaken don't increase such a character's fear to a higher level."
 		],
@@ -482,7 +482,7 @@
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 12](source/horror_adventures)",
+			"{SOURCE Horror Adventures/12}",
 			"",
 			"An abundance of horrors can scar a being. Wounds and fatigue can ravage the flesh. Poisons and venoms can putrefy a creature from within. Curses and hexes can assault the body and soul through supernatural means. But of all the horrors a hero might face, few are as debilitating or insidious as those that assault her sanity.",
 			"",
@@ -517,7 +517,7 @@
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 12](source/horror_adventures)",
+			"{SOURCE Horror Adventures/12}",
 			"",
 			"Each creature has a sanity score, along with a sanity edge and a sanity threshold. These values depend on the creature's current ability scores and ability damage. Increases and penalties to ability scores (even temporary increases and penalties) adjust these numbers. Each discrete instance in which a creature takes 1 or more points of sanity damage is called a sanity attack, regardless of what caused the sanity damage.",
 			"",
@@ -547,7 +547,7 @@
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 12](source/horror_adventures)",
+			"{SOURCE Horror Adventures/12}",
 			"",
 			"When you experience a potential sanity attack, you must typically succeed at a Will saving throw to shake off or reduce the sanity attack's damage. Whether this saving throw is successful or not, if the sanity damage from a single sanity attack is equal to or greater than your sanity threshold, you gain a [madness](rule/madness) with a potency based on the relation between your total sanity damage accrued and your sanity edge (lesser if the total sanity damage is below your sanity edge, greater otherwise). In most cases, GMs should choose a madness that reflects the horror faced or your deep fears and potential mental breaking points rather than rolling on tables. For instance, if you gain a lesser madness due to an encounter with a [mummy](monster/mummy) or some other undead that features a fear effect, it might make sense to choose the [phobia](madness/phobia) madness. If you already suffer from [delirium](madness/delirium) and gain a greater madness, it might make sense for that madness to be increased to [schizophrenia](madness/schizophrenia). However, when a random madness is appropriate, the GM can generate one by rolling on Table 5-1 (for a lesser madness) or Table 5-2 (for a greater madness).",
 			"",
@@ -587,7 +587,7 @@
 		"tags": "horror fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 13](source/horror_adventures)",
+			"{SOURCE Horror Adventures/13}",
 			"",
 			"Sanity damage can be reduced in a number of ways. The first is with time and rest. For every 7 full days of uninterrupted rest, you can reduce the sanity damage you have taken by amount of equal to your Charisma modifier (minimum 1). Instead of relying on your own strength of personality to reduce the effects of sanity damage, you can seek out a single confidante, mentor, priest, or other advisor. You must meet with that person regularly (at least 8 hours per day) and gain guidance during the 7 days of rest. At the end of the rest period, the ally can attempt a Wisdom or Intelligence check (whichever score is higher) with a DC of 15 if your sanity damage is below your sanity edge or 20 otherwise. If the ally succeeds at this check, you can add the ally's Wisdom or Intelligence modifier (whichever is higher) to the amount of sanity damage you remove.",
 			"",
@@ -613,7 +613,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 14](source/horror_adventures)",
+			"{SOURCE Horror Adventures/14}",
 			"",
 			"Even the most pure creature can succumb to tides of darkness. What begins as a minor malady or errant idea can grow into something malignant-a spreading corruption that can obscure your morals, cloud your judgment, and ultimately devour your soul. There are a number of different types of corruptions, from the hunger of vampirism to the horrifying transformation of the promethean. Living with a corruption is often a terrifying experience, but also offers the temptation of dark gifts. Hosts sometimes choose not to fight the corruption, but rather accept it and allow it to progress. These unfortunate folk either succumb to lust for the corruption's power or attempt to control the stain of corruption and use its gifts for some greater good.",
 			"",
@@ -650,7 +650,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 14](source/horror_adventures)",
+			"{SOURCE Horror Adventures/14}",
 			"",
 			"A short list of terms related to corruptions follows.",
 			"",
@@ -686,7 +686,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 14](source/horror_adventures)",
+			"{SOURCE Horror Adventures/14}",
 			"",
 			"The catalyst section of each corruption offers a number of possible methods for contracting that corruption. Once you contract a corruption, you immediately gain a manifestation. Your manifestation level becomes 1, and your number of manifestations and your manifestation level can increase as described in [Manifestation Level](rule/manifestation_level). You also draw closer to losing your soul, as represented by your corruption stage. This is described under [The Corruption's Progress](rule/the_corruptions_progress).",
 			"",
@@ -711,7 +711,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 14](source/horror_adventures)",
+			"{SOURCE Horror Adventures/14}",
 			"",
 			"You gain a manifestation of your curse when you first contract a corruption, and gain more at later levels. Each manifestation includes both a gift and a stain (though campaign variants can change how you acquire these gifts and stains as described in the Variants section below). Many manifestations have prerequisites that limit them to characters farther along in their corruptions. A prerequisite marked with an asterisk (&ast;) is another manifestation in the same section.",
 			"",
@@ -736,7 +736,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 14](source/horror_adventures)",
+			"{SOURCE Horror Adventures/14}",
 			"",
 			"A corruption's gift and stain don't have to manifest together. Your GM can use the following variants to alter how gifts and stains are gained.",
 			"",
@@ -758,7 +758,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 15](source/horror_adventures)",
+			"{SOURCE Horror Adventures/15}",
 			"",
 			"Each creature with a corruption has a manifestation level, which is normally equal to the number of manifestations the corrupted creature has (see [Variants](rule/corruption_variants) for exceptions). Sometimes gifts and stains become more extreme as a creature's manifestation level increases.",
 			"",
@@ -784,7 +784,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 15](source/horror_adventures)",
+			"{SOURCE Horror Adventures/15}",
 			"",
 			"Every corruption has an associated saving throw. Each time you fail it, your corruption progresses to the next corruption stage. Each stage causes a more significant change within you, until you become completely irredeemable at corruption stage 3. When you gain a corruption, you begin at what is effectively stage 0, with no direct penalties. You must attempt a saving throw when you are being pulled toward darkness, and these saves are usually spread over a long period of time (often weeks or months). As such, abilities that allow or force rerolls (or rolling twice and taking the higher or lower result) can never be used on these saving throws, and temporary bonuses don't apply on the progression saving throw, even if they are long-lasting."
 		],
@@ -806,7 +806,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 138](source/horror_adventures)",
+			"{SOURCE Horror Adventures/138}",
 			"",
 			"Curses are among the oldest and most deeply feared types of magic. They linger far beyond the original malicious words or grave deeds that spawned them. Although the most well-known and easily broken types of curses are spells, others are afflictions, from the notorious curse of lycanthropy to foul mummy rot and the esoteric death curse of the linnorm. All the new curses presented in this section are [afflictions](rule/afflictions) and share certain features as a result.",
 			"",
@@ -842,7 +842,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 138](source/horror_adventures)",
+			"{SOURCE Horror Adventures/138}",
 			"",
 			"Curses can afflict characters in a variety of ways, but because they are perniciously difficult to remove, the tone of the game can shift if they appear often. Most curses-especially those that require more than a simple [remove curse](spell/remove_curse) spell to eliminate-should be used to add a significant and memorable challenge or as a consequence for a momentous choice. A relentless torrent of curses reduces their mystique while dramatically hampering a party's effectiveness, potentially removing the PCs' ability to deal with encounters of appropriate Challenge Ratings."
 		],
@@ -865,7 +865,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 138](source/horror_adventures)",
+			"{SOURCE Horror Adventures/138}",
 			"",
 			"Many spells can place curses on unfortunate victims. Their effects are usually simple and can be ended with the right spell (but never [dispel magic](spell/dispel_magic)). All curse spells have the curse descriptor. The most well-known is [bestow curse](spell/bestow_curse), which allows the caster to invent her own effect in line with the listed options (no worse than a 50% chance of losing actions, a -4 penalty on checks, or a -6 penalty to an ability score). Effects in line with that power level include the following, though ultimately they are limited only by the caster's imagination and the GM's discretion.",
 			"",
@@ -901,7 +901,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 140](source/horror_adventures)",
+			"{SOURCE Horror Adventures/140}",
 			"",
 			"Curses needn't be limited to the effects listed under [Afflictions](rule/afflictions). When designing a new curse, though, be careful not to go too far. A devastating curse can have consequences as serious as dying or being turned to stone. Certainly, horrific curses that promise immediate and inescapable doom have their place, but curses that can be endured for a time bring far more horror to the table, as struggling under the curse can lead to more tension than instant death would bring, while surviving and escaping such a curse can become an adventure all its own. Consider these guidelines when creating a curse.",
 			"",
@@ -937,7 +937,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 140](source/horror_adventures)",
+			"{SOURCE Horror Adventures/140}",
 			"",
 			"Curses can have a wide range of effects, which is something to keep in mind when designing a new curse. They may trigger only intermittently, apply a constant penalty, or grow worse with time. In addition, curses can function exclusively using game mechanics, or incorporate roleplaying considerations.",
 			"",
@@ -966,7 +966,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 141](source/horror_adventures)",
+			"{SOURCE Horror Adventures/141}",
 			"",
 			"The most conventional way to rid a victim of a curse is the spell [remove curse](spell/remove_curse), occasionally with the aid of other or more powerful magic. When making a new curse, especially one with a strong story background, consider novel ways to remove the curse beyond just casting a spell, as with the spell [conditional curse](spell/conditional_curse). Robbers might be cursed until they return every ill-gotten coin, while a haughty aristocrat might suffer until she cleans the feet of a dozen beggars. In these cases, it's best to make the victim vaguely aware of how to end his torment, but let him discover the specific details on his own through either research or trial and error. Curses with story-based remedies are often hard to break with [remove curse](spell/remove_curse) and [break enchantment](spell/break_enchantment). Increase the DC for removal by 2, 5, or even 10 based on the power of the curse. Particularly powerful curses resist [remove curse](spell/remove_curse) and [break enchantment](spell/break_enchantment) entirely, requiring either specific conditions for removal or the application of [limited wish](spell/limited_wish), [miracle](spell/miracle), or [wish](spell/wish).",
 			"",
@@ -990,7 +990,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 141](source/horror_adventures)",
+			"{SOURCE Horror Adventures/141}",
 			"",
 			"Should a curse seem impossible to end by either normal or conditional means, the accursed might take desperate measures for even temporary relief from their suffering. Many such methods are dire enough that creatures may consider them worse than simply being cursed.",
 			"",
@@ -1017,7 +1017,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 142](source/horror_adventures)",
+			"{SOURCE Horror Adventures/142}",
 			"",
 			"Cursed items most commonly result from something going horribly wrong during the creation of a normal magic item. However, it is also possible for such items to carry a curse to punish a death or to be the result of intentional malice. Cursed items are often most pernicious and difficult to thwart when created to hurt a particular foe."
 		],
@@ -1041,7 +1041,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 142](source/horror_adventures)",
+			"{SOURCE Horror Adventures/142}",
 			"",
 			"A creature can intentionally craft a cursed item-except unique cursed items and items with opposite effects-in the same manner as the item it resembles in most respects. Crafting a cursed item has the same requirements and calls for the same skill checks as for the normal item, but in addition, intentionally cursed items require [bestow curse](spell/bestow_curse) or [major curse](spell/major_curse). Crafting cursed items that pervert normal items usually has the same cost as for the fully functional versions, though with the exceptions below. However, as with all magic item price guidelines, the discounts below should be used only as a starting point for determining a cursed item's final price, and the particulars of a given situation will likely require ad hoc adjustments beyond the advice below.",
 			"",
@@ -1070,7 +1070,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 143](source/horror_adventures)",
+			"{SOURCE Horror Adventures/143}",
 			"",
 			"Cursed land is a region marked by divine judgment, scarred by a great tragedy, or wounded by intentional malice. Common causes of such a regional curse include undead hauntings in the area, a grave transgression by the inhabitants that offends a powerful spirit or god, and large-scale killing or destruction that demands justice. They can also be artificially created with spells, such as [curse of night](spell/curse_of_night), [curse of fell seasons](spell/curse_of_fell_seasons), and the [curse terrain](spell/curse_terrain) spells. A regional curse has an area in addition to the features all curses have. All regional curses have a DC for the purpose of removing the curse, but many of their effects allow no saving throw. When casting [remove curse](spell/remove_curse) to remove a regional curse, the caster treats the land as an object and typically needs to be at the center of the emanation or at some other location closely tied to the curse.",
 			"",
@@ -1095,7 +1095,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 143](source/horror_adventures)",
+			"{SOURCE Horror Adventures/143}",
 			"",
 			"Some curses function in an unusual fashion compared to others. The following section presents several templates that can be applied to any curse to represent variants of that curse. These templates function similarly to templates that can be applied to creatures, and you could potentially apply several templates to the same curse to create a truly horrifying effect.",
 			"",
@@ -1143,7 +1143,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 146](source/horror_adventures)",
+			"{SOURCE Horror Adventures/146}",
 			"",
 			"Diseases hold great potential for horror. They often strike at abilities or traits people value dearly but take for granted. They can leave victims unable to walk or speak, radically change a person's appearance, and, of course, claim lives. They are impossible to see with the naked eye, and for most of human history, they were poorly understood. Perhaps worst of all, for adventurers, they cannot be fought in the traditional sense and are completely impervious to violence or reason.",
 			"",
@@ -1175,7 +1175,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 146](source/horror_adventures)",
+			"{SOURCE Horror Adventures/146}",
 			"",
 			"Not all strains of the same disease are identical. Diseases mutate and change over time, so the PCs may encounter local strains of devil chills, filth fever, and other diseases that are different from those with which they're familiar. These different strains might be particularly fast-acting, easier to spread, resistant to treatment, or otherwise improved over the default version of the disease. The following section presents several templates that can be applied to any disease to represent more dangerous strains. These templates function similarly to creature templates, and several templates can be applied to the same disease to create a truly horrifying plague. The special properties of a disease with a template are difficult to predict without special training. Unless a character spends at least an hour examining the disease and its victims and then succeeds at a Heal check (DC = the disease's save DC + 10), she identifies the disease as its more common variant, without realizing the differences.",
 			"",
@@ -1264,7 +1264,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 148](source/horror_adventures)",
+			"{SOURCE Horror Adventures/148}",
 			"",
 			"The following diseases blend the [traditional style of diseases](rule/afflictions) found in the Pathfinder RPG Core Rulebook with the [disease progressions](rule/diseases_and_poisons). Each of these diseases progresses through a series of stages, from carrier to terminal, and each stage comes with its own horrifying symptoms. The DC listed for each disease is a baseline for the most common form of the disease, but higher-DC strains of these diseases exist, especially in the vicinity of disease-bearing monsters and plague-worshiping cultists.",
 			"",
@@ -1397,7 +1397,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 152](source/horror_adventures)",
+			"{SOURCE Horror Adventures/152}",
 			"",
 			"While many Pathfinder campaigns tend to fixate on the monsters and NPCs that directly oppose the PCs, in a horror game, it's important to give the environment, atmosphere, and ambience equal billing. An appropriate environment can lead to a much deeper sense of horror and a more memorable session, since creatures are something the PCs usually fight and defeat directly, while the environment is pervasive and unstoppable. Use the following horrific locations, hazards, domains, and nightmare dreamscapes to build the tension and increase the growing dread the players feel."
 		],
@@ -1429,7 +1429,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 152](source/horror_adventures)",
+			"{SOURCE Horror Adventures/152}",
 			"",
 			"The following locations have particular features that fit well in the context of a horror game, such as minor unusual magic or creepy special effects. Though they might not be directly threatening like the hazards in the next section (and thus don't possess their own CR), they nonetheless add an ambience of horror and a sense of unease to the game, and sometimes make the journey through the surrounding area much less pleasant.",
 			"",
@@ -1471,7 +1471,7 @@
 		"name": "Horror Hazards",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 154](source/horror_adventures)",
+			"{SOURCE Horror Adventures/154}",
 			"",
 			"The following hazards help build an atmosphere of horror and dread when used separately, but can also be combined with creatures to create truly frightening and memorable encounters (for instance, consider a battle with ogres within an animating fog, such that each ogre that dies rises again as a zombie).",
 			"",
@@ -1554,7 +1554,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 159](source/horror_adventures)",
+			"{SOURCE Horror Adventures/159}",
 			"",
 			"Some powerful creatures are so corrupted that their malignancy creeps into the land around them, establishing dangerous domains of evil over which they rule. And though some vile lords find themselves trapped within these cursed realms, they also become capable of exerting tremendous influence over the atmosphere and composition of their domains, such that their lands grow to reflect their dark moods and deeds. These dark rulers are described in the [dread lord template](template/dread_lord).",
 			"",
@@ -1585,7 +1585,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 160](source/horror_adventures)",
+			"{SOURCE Horror Adventures/160}",
 			"",
 			"When created, a domain of evil warps reality around it into a foul reflection of its master, with a radius of 5 miles for every Hit Die of its new lord (see the [dread lord template](template/dread_lord)). This radius usually centers on an ancient ancestral manse or cursed cairn that housed the dread lord's family or was the scene of a tragedy that led to the domain's creation. Though domains of evil are still located on their original plane (usually the Material Plane), with all the terrain, weather, flora, fauna, structures, and features normal to the area where they were created, their special natures cause them to have [planar traits](rule/planar_traits) that alter their physical and magical properties, as well as some features exclusive to them. Domains of evil have the following features, as befits the horrible creatures that preside over these realms.",
 			"",
@@ -1617,7 +1617,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 161](source/horror_adventures)",
+			"{SOURCE Horror Adventures/161}",
 			"",
 			"Though many dread lords so embrace their inherent evil that they slowly corrupt the lands around them, others perform deeds so horrendous that gods, the universe, fate, or another powerful force curses them to internal imprisonment in a domain. There is no escape for a cursed lord, who is continuously subject to living and spectral reminders of the tragic misdeeds that trapped him (see the [cursed lord template](template/cursed_lord)). These realms have all the qualities of domains of evil, with the following additional traits.",
 			"",
@@ -1643,7 +1643,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 162](source/horror_adventures)",
+			"{SOURCE Horror Adventures/162}",
 			"",
 			"The following section provides guidelines for creating nightmare dreamscapes: realms of fear and horror within the [Dimension of Dreams](rule/dimension_of_dreams). A nightmare typically has a goal, which the dreamer can complete within the nightmare dreamscape to win freedom from it, and features, which represent the ways in which the dreamer's fears manifest. A nightmare's goal and features might come entirely from the dreamer's own mind or be chosen by the creator of a supernatural effect."
 		],
@@ -1670,7 +1670,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 162](source/horror_adventures)",
+			"{SOURCE Horror Adventures/162}",
 			"",
 			"Most commonly, nightmares come not from an outside source, but solely from the dreamer's mind. Whenever a creature sleeps, if it experienced any of the following events since the last time it slept, there is a 20% chance it has a naturally occurring nightmare: being reduced to 0 or fewer hit points, being frightened or panicked, being shaken for more than 1 minute, or taking 1 or more points of Wisdom damage or drain. If a campaign uses the [sanity rules](rule/sanity), taking sanity damage also counts.",
 			"",
@@ -1713,7 +1713,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 163](source/horror_adventures)",
+			"{SOURCE Horror Adventures/163}",
 			"",
 			"A supernatural nightmare is similar to a naturally occurring nightmare, but is created deliberately by a malevolent entity. This entity chooses the gravity, size, and shape of the dreamscape, and can also determine the dreamscape's goal and features; the goal must be reasonably accomplished, subject to the GM's discretion. Some supernatural nightmares impose penalties if the goal of the nightmare is not completed, with the most dire cases allowing for death in the dreamscape to cause death in the waking world.",
 			"",
@@ -1737,7 +1737,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 163](source/horror_adventures)",
+			"{SOURCE Horror Adventures/163}",
 			"",
 			"Each nightmare dreamscape has a particular action that can be completed to allow the dreamer to escape the nightmare. This goal may or may not be immediately obvious. If the dreamer is unable to complete the goal in a reasonable period of time (as determined by the GM), the nightmare is considered to have bested the dreamer. The dreamer suffers no ill effects when defeated by a naturally occurring nightmare; however, there might be penalties if the dreamer fails to achieve a supernatural nightmare's goal. The GM can choose a goal or determine one randomly using the table below.",
 			"",
@@ -1771,7 +1771,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 163](source/horror_adventures)",
+			"{SOURCE Horror Adventures/163}",
 			"",
 			"Each nightmare has one or more nightmare features, which complicate the nightmare in some fashion. For naturally occurring nightmares, roll twice on the table below or simply select which nightmare features to use.",
 			"",
@@ -1815,7 +1815,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 164](source/horror_adventures)",
+			"{SOURCE Horror Adventures/164}",
 			"",
 			"While the pain of physical torture and of a ghoul stripping flesh from the bones of its alive-but-paralyzed prey are horrible ends, few fates are as ghastly as the dire transformations made by the fleshwarper. Fleshwarping is the general term for two main magical and alchemical practices: \"true fleshwarping\" and fleshcrafting. It is also used to describe transformative mutations caused by exposure to polluted alchemy labs, magical radiation, or either cursed or corrupted magic, which are properly known as fleshwarp mutations.",
 			"",
@@ -1850,7 +1850,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 164](source/horror_adventures)",
+			"{SOURCE Horror Adventures/164}",
 			"",
 			"Willfully transforming one creature into another through magical and alchemical processes is a terrifying technique performed by the most cruel and vicious of creatures. Power-hungry necromancers, heartless alchemists, demon worshipers, [aboleths](monster/aboleth), and the [drow](race/drow) are some of the best-known practitioners of this foul art, using dark knowledge and secret formulas to flay the creature's flesh and twist them into amalgamated forms.",
 			"",
@@ -1906,7 +1906,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 165](source/horror_adventures)",
+			"{SOURCE Horror Adventures/165}",
 			"",
 			"Fleshcrafting involves the same processes and applications as true fleshwarping, but is used to modify only a single portion of a living creature. Fleshcrafts are living pieces of tissue that can be attached to any corporeal, living creature via a graft or grown by a consumed elixir. Once attached, a fleshcraft immediately begins functioning and grants its listed abilities to the grafted creature. While a fleshcraft is partially magical in genesis, it doesn't radiate magic or have a caster level, regardless of whether it has been grafted to the subject or supplied via an elixir.",
 			"",
@@ -1946,7 +1946,7 @@
 		"tags": "horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 170](source/horror_adventures)",
+			"{SOURCE Horror Adventures/170}",
 			"",
 			"Not all fleshwarping is intentional. On occasion, creatures are exposed to environmental hazards that replicate the adverse results of fleshwarping with less grace and precision than the alchemical and magical process of true fleshwarping. Areas of intense magical radiation, alchemical pollution, wild magic, and corrupted ley lines all might cause spontaneous fleshwarp mutations, and in the presence of supremely alien creatures such as the [Great Old Ones](family/great_old_one), the laws of reality can break down and sometimes create a similar effect, resulting in severe mutation and disfigurement.",
 			"",
@@ -2026,7 +2026,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 182](source/horror_adventures)",
+			"{SOURCE Horror Adventures/182}",
 			"",
 			"Fractures, cuts, and abrasions wound the body, but madness undermines the mind, spirit, and personality. Suffering from madness can be terrifying, causing those afflicted to act contrary to their desires or reason.",
 			"",
@@ -2087,7 +2087,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 182](source/horror_adventures)",
+			"{SOURCE Horror Adventures/182}",
 			"",
 			"Madnesses are formatted in the same way as other [afflictions](rule/afflictions), with the following changes.",
 			"",
@@ -2115,7 +2115,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 182](source/horror_adventures)",
+			"{SOURCE Horror Adventures/182}",
 			"",
 			"Each madness has a DC representing its strength. Among other things, that DC specifies the saving throw the afflicted character must succeed at to recover from the madness. Recovering from a madness without magical aid is a lengthy process requiring significant rest. After 7 consecutive days of uninterrupted rest, the afflicted character can attempt a Will save against the madness's current DC. If she succeeds, the DC is reduced by a number of points equal to 1/2 the character's Charisma modifier (minimum 1). Instead of relying on her own strength of personality to reduce the effects of madness, a character can also seek out a single confidante, priest, or other advisor. The recovering character must meet with that person regularly (at least 8 hours each day) and gain guidance during the 7 days of rest. At the end of the rest period, the ally can attempt a Wisdom or Intelligence check (whichever is higher) with a DC of 15 for a lesser madness or a DC of 20 for a greater madness. On a success, the recovering character can reduce the madness's DC by 1/2 the ally's Wisdom or Intelligence modifier (whichever is higher, minimum 1) in addition to the decrease for resting. The character suffers the madness's effect until the DC is reduced to 0.",
 			"",
@@ -2137,7 +2137,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 185](source/horror_adventures)",
+			"{SOURCE Horror Adventures/185}",
 			"",
 			"[Lesser restoration](spell/lesser_restoration) has no effect on insanity, but under these rules it can be used to treat lesser madnesses. Conversely, [greater restoration](spell/greater_restoration), [heal](spell/heal), and [psychic surgery](spell/psychic_surgery) have reduced effects against greater madnesses in this system compared to in the previous books. This allows madnesses to play a larger part at both higher and lower levels in horror games, or any other game featuring psychological threats. If you want to feature the madnesses as afflictions that are simple to remove for high-level spellcasters while outside the reach of anyone else - as per the more baseline Pathfinder RPG experience - assume lesser madnesses are not affected by [lesser restoration](spell/lesser_restoration), and [greater restoration](spell/greater_restoration), [heal](spell/heal), and [psychic surgery](spell/psychic_surgery) remove all madnesses, whether lesser or greater."
 		],
@@ -2156,7 +2156,7 @@
 		"name": "Running Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 190](source/horror_adventures)",
+			"{SOURCE Horror Adventures/190}",
 			"",
 			"Game Masters don't have to run a horror-themed Pathfinder adventure differently from how they would any other adventure-but they can. Before running a horror adventure, though, the GM should consider a basic question: Who is she trying to scare? That might seem obvious, but horror adventures are about fear, so the GM needs to understand the nature of that fear.",
 			"",
@@ -2199,7 +2199,7 @@
 		"name": "Horror Versus Heroism",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 190](source/horror_adventures)",
+			"{SOURCE Horror Adventures/190}",
 			"",
 			"Especially if a GM has run frightening adventures using other roleplaying games, she should understand that the Pathfinder Roleplaying Game is not designed with horror in mind. The Pathfinder RPG is a game of heroic adventure where the characters gradually become more powerful than they were at the game's outset-by accumulating special abilities, treasure, and so on. In most games designed to tell frightening tales, however, the characters instead begin play on a downward trajectory toward corruption, insanity, or death. Yet using this section's techniques doesn't mean transforming the Pathfinder RPG into an entirely different game.",
 			"",
@@ -2225,7 +2225,7 @@
 		"name": "Horror Games and Consent",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 190](source/horror_adventures)",
+			"{SOURCE Horror Adventures/190}",
 			"",
 			"If the story's objective is to unsettle the players rather than their characters, the GM needs something before even starting to seriously think about running such an adventure: the players' consent. Players should understand what it might mean to participate in a horror adventure. Knowing that the game is intended to be creepy is not enough-in the same way that some filmgoers might be on board to see a horror movie aimed at teenage audiences but not one exclusively for adults.",
 			"",
@@ -2256,7 +2256,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 191](source/horror_adventures)",
+			"{SOURCE Horror Adventures/191}",
 			"",
 			"The Pathfinder RPG styles itself as a fantasy RPG, not as a horror RPG. Horror adventures often feature unsettling content, and while many players enjoy exploring macabre places, that is not universally true. It is part of your responsibility to make sure your players know that the game will feature frightening elements and give them a sense of what themes to expect. If players express discomfort or concern, change or remove the objectionable aspects or, if necessary, invite the player to participate in a different game.",
 			"",
@@ -2282,7 +2282,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 191](source/horror_adventures)",
+			"{SOURCE Horror Adventures/191}",
 			"",
 			"The Pathfinder RPG is a storytelling game, and as with stories in any medium, sometimes the tale ventures into dark places. If you are a participant in a game that makes you feel uncomfortable or threatened, you can stop playing at any time. You don't have to endure a game that unsettles you in a way you don't enjoy. If that occurs, it's entirely acceptable to leave the game and remove yourself to a safe space.",
 			"",
@@ -2309,7 +2309,7 @@
 		"name": "Horror Subgenres",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 191](source/horror_adventures)",
+			"{SOURCE Horror Adventures/191}",
 			"",
 			"Horror stories are not all alike, and neither are all horror adventures. In fiction and film, horror is divided into numerous subgenres. This section introduces just a few of those subgenres to help the GM choose the type of horror story she wants to tell and create adventures that match. While nowhere near a complete listing, the following horror subgenres have been singled out either because they translate easily into Pathfinder RPG adventures or they are particularly challenging to translate and often need more advice than usual to succeed.",
 			"",
@@ -2352,7 +2352,7 @@
 		"name": "Body Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 192](source/horror_adventures)",
+			"{SOURCE Horror Adventures/192}",
 			"",
 			"The body is a frail, little-understood thing that might betray its host-consciousness at any moment. This visceral subgenre concerns itself with the organic terror of the flesh, including disease, physical corruption, and transformation. At its basest level, body horror is the revulsion felt upon hearing a bone break or seeing a joint violently bend in the wrong direction. Elaborated upon, it's the terror of becoming physically monstrous and the awfulness that might hide within.",
 			"",
@@ -2388,7 +2388,7 @@
 		"name": "Cosmic Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 192](source/horror_adventures)",
+			"{SOURCE Horror Adventures/192}",
 			"",
 			"Often called cosmicism or Lovecraftian horror, stories in this subgenre involve the realization that humanity and all its struggles are insignificant amid the greater workings of the universe. Such plots typically involve revelations of the truth that shelters the limited, shared lie society calls reality. The forces beyond this veil are fundamentally unfathomable, indifferent, and dangerous. Brushes with these powers typically scar a character, resulting in death, insanity, or understandings that make her an outcast from society. Ignorance and willful delusion then become virtues, shields that protect a fragile narrative from the truth of a vast, apathetic cosmos.",
 			"",
@@ -2423,7 +2423,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 194](source/horror_adventures)",
+			"{SOURCE Horror Adventures/194}",
 			"",
 			"As its name implies, dark fantasy isn't a subgenre of horror but rather a fantasy subgenre that relies on horror themes. Dark fantasies typically involve the same tropes as fantasy tales-swords, castles, magic, heroics-but viewed through a grim lens. Deadliness, despair, and the macabre are common here, elements that threaten innocents with forces beyond their power to understand or overcome.",
 			"",
@@ -2456,7 +2456,7 @@
 		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 194](source/horror_adventures)",
+			"{SOURCE Horror Adventures/194}",
 			"",
 			"These stories feature ghosts-whether they're actual spirits or the characters simply believe in those spirits. Usually relatively short tales, stories in this subgenre focus on wayward souls and the tragic events that keep them from passing on. They usually feature a haunted place-such as the archetypical haunted house-but this might be any location, object, person, or other element that is somehow tied to the spirit's unfortunate past. The protagonists of a ghost story tend to be latecomers to the tragedy. By entering the zone of spiritual fallout, they either embroil themselves in healing residual scars or try to escape before becoming the next victims.",
 			"",
@@ -2492,7 +2492,7 @@
 		"name": "Gothic Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 195](source/horror_adventures)",
+			"{SOURCE Horror Adventures/195}",
 			"",
 			"Gothic horrors exude atmosphere and portent. This is the subgenre of The Castle of Otranto, The Raven, and Dracula. Lightning-illuminated castles, baroque cathedrals, tortured minds, and unquiet souls fill these stories, every element fostering moodiness and presaging dooms-often through ornate description. While gothic horror regularly focuses on darkness, decay, fallen grandeur, and the wages of sin, it can also be rich with romance and bravery, making it well suited to Pathfinder adventures.",
 			"",
@@ -2526,7 +2526,7 @@
 		"name": "Psychological Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 196](source/horror_adventures)",
+			"{SOURCE Horror Adventures/196}",
 			"",
 			"As a counterpoint to body horror, the psychological horror subgenre plays upon the fears and uncertainties rooted deep within the mind. The possibility of becoming detached from reality, plots to drive people mad, and the menace of taboo urges all fill the surreal world of psychological horror. While these stories might involve supernatural elements, it's often difficult for characters to be sure whether such menaces are real or entirely within their heads.",
 			"",
@@ -2560,7 +2560,7 @@
 		"name": "Slasher Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 197](source/horror_adventures)",
+			"{SOURCE Horror Adventures/197}",
 			"",
 			"Violent stories that pit relentless murderers against defenseless victims, slasher horror is the home of some of film's most brutal killers. These tales typically follow the rampage of a single weapon-wielding psychopath and his targets' desperate attempts to survive. The slasher is usually more than a normal person, possessing a drive or fortitude that makes him more akin to a deadly force of nature. Only bravery and cunning hold any hope of defeating the slasher, and even then, usually only after he has spilled seas of blood.",
 			"",
@@ -2600,7 +2600,7 @@
 		"name": "Creating Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 198](source/horror_adventures)",
+			"{SOURCE Horror Adventures/198}",
 			"",
 			"Typically, when creating a Pathfinder adventure, a GM begins with nothing more than the kernel of an idea-a setting she wants to explore, a monster she wants to use, or a scheme on which she'd like to elaborate. This basic idea provides the framework upon which she hangs the other elements of the story. A GM can create a horror adventure in the same manner.",
 			"",
@@ -2634,7 +2634,7 @@
 		"subtitle": "Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 198](source/horror_adventures)",
+			"{SOURCE Horror Adventures/198}",
 			"",
 			"Through the entire adventure design process, GMs should keep in mind that they're not writing a horror novel or screenplay-they're writing a horror RPG adventure. It's easy to get distracted by nuanced lore and charismatic villains, but all GMs should remember that the PCs are the stars of the story and ultimately the most important characters. Along with this, remember that Pathfinder characters have a variety of magic and other options that might allow them to make things that frighten everyday people meaningless or that instantly reveal any secrets. Therefore, it's important for GMs to know characters' strengths as much as their weaknesses and customize the adventure to play upon what they fear most (see [Choose the Terror](rule/choose_the_terror) for more details). These powers might be daunting in their effects or variety, but each ability might provide a new way to reveal terrors."
 		],
@@ -2657,7 +2657,7 @@
 		"subtitle": "Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 198](source/horror_adventures)",
+			"{SOURCE Horror Adventures/198}",
 			"",
 			"Once a GM has decided to create a frightening adventure, what sort of terror should be included? As explained in the discussion of horror subgenres, there are many types of horror. A GM should be able to boil her horror story down to something basic, perhaps even a singular fear. This might be as primal as a fear of spiders or of losing one's teeth, or it could be more sophisticated, like the fear of abandonment or mechanical disasters. Once the GM has chosen a fear, then she can choose an avatar or incarnation of that fear. This might be a monster, person, or other threat that embodies that fear and proliferates it. For example, nothing exploits a fear of spiders quite like giant spiders or spider swarms, while representing the fear of abandonment might require a creature like an [attic whisperer](monster/attic_whisperer) or the spirit of a bitter old man who waits for death but can't be convinced that he's dead. This avatar can be anything a GM wants. Feel free to make it more terrifying or unnatural if that helps-the giant spiders could actually be scheming [Leng spiders](monster/leng_spider), or the attic whisperer might control an army of animated dolls. This can work as mere flavor, or a GM might search out rules (or designs of her own) to back it up. Remember that the chosen threat might not need to be a literal embodiment; for instance, a fear of alien abductions and experimentation is literally embodied by [grays](monster/gray) but also metaphorically embodied by [derros](monster/derro)."
 		],
@@ -2680,7 +2680,7 @@
 		"subtitle": "Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 198](source/horror_adventures)",
+			"{SOURCE Horror Adventures/198}",
 			"",
 			"Once the incarnation of a fear is chosen, the GM can then support it with surroundings and allies that evoke the same theme. Horror often takes place at night since the dark holds the promise of lurking threats, but a horror tale might take place anytime or anywhere with a disturbing atmosphere that reinforces the chosen menace. For example, the [tooth fairies](monster/tooth_fairy) that embody the fear of loosing teeth might have created an underground hive constructed from billions of molars, and a mechanical terror could unfold in a half-functioning clock tower. Whatever the choice, it should provide challenges for the characters to overcome, as this - or another later setting - will likely become a sort of dungeon to explore.",
 			"",
@@ -2705,7 +2705,7 @@
 		"subtitle": "Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 199](source/horror_adventures)",
+			"{SOURCE Horror Adventures/199}",
 			"",
 			"While the Pathfinder rules present a finite number of statistics and rules options, how a GM pieces them together allows for infinite scenarios. In the case of horror adventures, this also means infinite opportunities to shock even the most jaded, rules-obsessed players. Opportunities abound in adventures to surprise the characters by revealing terrible secrets or presenting images that make them realize things are far worse than expected. For example, perhaps the PCs find a life-sized mother doll among the [attic whisperer's](monster/attic_whisperer) collection, one that's tending to a mewling newborn. Or maybe the automatic clockwinder at the top of the clock tower is rebuilding the interior to account for a thirteenth hour that occurs only once every eon.",
 			"",
@@ -2736,7 +2736,7 @@
 		"subtitle": "Horror Adventures",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 199](source/horror_adventures)",
+			"{SOURCE Horror Adventures/199}",
 			"",
 			"In most Pathfinder adventures, the PCs are destined to succeed. When running a horror adventure, that doesn't necessarily mean it should be more challenging, and it certainly shouldn't be a guaranteed total party kill. Most of the time, a GM wants the PCs to be unsettled by the story instead of their die rolls, so she should plan for the PCs' success; many adventures have horrific consequences for failure, but in a horror adventure, consider the various ways that success, too, could have horrific consequences.",
 			"",
@@ -2764,7 +2764,7 @@
 		"name": "Horror Storytelling",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 200](source/horror_adventures)",
+			"{SOURCE Horror Adventures/200}",
 			"",
 			"The promise of fear is often obvious from the first glimpse of a horror film or story, as subtly abnormal choices in the ambience set the mood for terror. Horror adventures should feel much the same. More so than other Pathfinder RPG adventures, these rely on the creation of the atmosphere, the mood that surrounds the game. Atmosphere can mean the difference between a normal session and a truly frightening experience. This section focuses on gameplay techniques and storytelling special effects aimed at creating a moodier, more disturbing atmosphere. These suggestions step beyond game rules, and the advice herein can help GMs deftly defy the expectations of both the characters and their players.",
 			"",
@@ -2820,7 +2820,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 201](source/horror_adventures)",
+			"{SOURCE Horror Adventures/201}",
 			"",
 			"There's no one route to telling a good horror story, nor is there just one way to run a great horror adventure. GMs can take a three-pronged approach to unsettling the PCs.",
 			"",
@@ -2851,7 +2851,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 201](source/horror_adventures)",
+			"{SOURCE Horror Adventures/201}",
 			"",
 			"Numerous guides, stories, and films exist that can help GMs tell a better horror story. However, few explicitly help a GM run better horror adventures. Telling a great story is only part of a horror adventure. The GM still runs a Pathfinder game, and unlike most horror stories, this means the players are not just her audience but also the stars of her story. While she wants to terrify the characters, she wants to give the players the opportunity to dread something as well-to share a sympathetic sort of fear with their characters. While the game's atmosphere can contribute to players' fear, a GM can also subtly alter the roleplaying game experience to sow suspicion and dismay. The following techniques are essentially GM special effects and are best used sparingly."
 		],
@@ -2876,7 +2876,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 201](source/horror_adventures)",
+			"{SOURCE Horror Adventures/201}",
 			"",
 			"Players occasionally learn things at different times or find themselves in cahoots with the GM regarding some larger plot. Rather than trying to hide that one player has secret information, consider broadcasting it. As soon as the players know they don't share an even footing, matters of trust and suspicion become a choice rather than a foregone conclusion. Consider the following techniques to build suspicion between players.",
 			"",
@@ -2909,7 +2909,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 202](source/horror_adventures)",
+			"{SOURCE Horror Adventures/202}",
 			"",
 			"Much of the structure of a Pathfinder game can seem like a foregone conclusion. But in a horror game, nothing need be sacred. Consider manipulating the fundamental activities of the game to keep the players off guard.",
 			"",
@@ -2940,7 +2940,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 202](source/horror_adventures)",
+			"{SOURCE Horror Adventures/202}",
 			"",
 			"The PCs should never feel like they're entirely in control in a horror game. Just as their characters should feel unsure about what's going to happen, the players should experience their own uncertainty. Whether in a GM's storytelling or how she runs encounters, the following techniques can help add tension to a game.",
 			"",
@@ -2977,7 +2977,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 203](source/horror_adventures)",
+			"{SOURCE Horror Adventures/203}",
 			"",
 			"Sometimes characters die. That's not fun for anyone, though-especially if the GM has spent a considerable amount of time on a story that now might never take shape. While players should feel like doom looms around the next corner, the threat of death and the idea of defeat are far more useful than actually killing off the entire group. Few GMs are above fudging a die roll, having a foe die suddenly, or having villains start taking prisoners if bad rolls turn an encounter against the players. Total party kills should be reserved for when they make the best stories, like at the hands of a truly terrible foe.",
 			"",
@@ -3010,7 +3010,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 203](source/horror_adventures)",
+			"{SOURCE Horror Adventures/203}",
 			"",
 			"Pathfinder is not a game anyone wins, but it's not uncommon for players to want to overcome challenges in an exceptional fashion or with the minimum expenditure of resources. That means that some players view time spent indulging in terrified reactions and unheroic roleplaying as a waste of time-particularly when such roleplaying arises during combat encounters. If a GM wants her players to care about and emphasize not just roleplaying but also reacting to horror, it's up to her to encourage it-or at least not to penalize it. To incentivize her players into displaying frightened reactions, she can point them toward the [Playing a Horror Hero](rule/playing_a_horror_hero) discussion, and consider employing the following techniques.",
 			"",
@@ -3039,7 +3039,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
+			"{SOURCE Horror Adventures/204}",
 			"",
 			"Some GMs make the mistake of thinking that if a frightening gimmick works for a haunted house or campfire story, then it will work for their horror adventures. Such is rarely the case. At best, overdoing it on artificial, half-creepy tricks can break the atmosphere and distract from the game. At worst, they become jokes or can upset players. As a rule, a GM should keep a horror game on the game table. Here are a few gimmicks to absolutely avoid.",
 			"",
@@ -3072,7 +3072,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
+			"{SOURCE Horror Adventures/204}",
 			"",
 			"An adventure might be a masterpiece of terror, but if it's being played on a sunny day with people laughing in the background, the players still might not be able to feel the mood. The surroundings can be a GM's greatest ally in telling a truly effective horror tale, but they might also work against her entirely. Consider the game space as a stage. This section includes ways that a GM might manipulate that performance space to create an atmosphere perfect for horror adventures."
 		],
@@ -3103,7 +3103,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
+			"{SOURCE Horror Adventures/204}",
 			"",
 			"Since playing Pathfinder can take up a considerable area, the size of which is often limited by any number of practical constraints, game space can be one of the most difficult environmental factors to influence. If the GM has a choice, though, she can seek a quiet place where interruptions will be few-traffic and background noise can negatively impact the atmosphere being created. If she has to share a space, it might help for the GM to tell non-players that she's running a game and would appreciate not being interrupted, or she might schedule a time when disturbances will be limited. While a GM might consider running the game outside or in creepy surroundings like a crypt or cabin in the woods, keep in mind that such a venue could be distracting in itself and is probably more trouble than it's worth."
 		],
@@ -3125,7 +3125,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
+			"{SOURCE Horror Adventures/204}",
 			"",
 			"Dimming the lights can go a long way in creating a moodier environment. Shadows add an air of the unknown, and cause everyday distractions to fade away. Make sure that the players can see, though-there's a lot of reading and page referencing in Pathfinder that GMs don't want to turn into a chore. A room with lights on a dimmer switch works well, as does turning off overhead lighting and moving a single-bulb lamp into the room. Candles and non-electric lamps typically prove distracting and troublesome, if not outright hazardous. While rooms with natural lighting can create issues during the day, at night, the dark can make them prime game spaces."
 		],
@@ -3147,7 +3147,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 204](source/horror_adventures)",
+			"{SOURCE Horror Adventures/204}",
 			"",
 			"Used well, music can be a powerful tool for creating atmosphere. Handled poorly, it can be a major distraction that irreparably warps, or even completely ruins, a game's mood. When a GM uses music in her horror game, the goal is to create a subtle but ever-present auditory undercurrent that reinforces her descriptions of settings and events. The music fills in gaps in the action with content that supports the story's atmosphere. Often breaks in play get filled in with distractions, but effective musical choices can counter that. Consider the following tips when selecting music to include in a horror adventure.",
 			"",
@@ -3181,7 +3181,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 205](source/horror_adventures)",
+			"{SOURCE Horror Adventures/205}",
 			"",
 			"Portable games, social media, and other hobbies vie for everyone's attention. A GM, though, is the arbiter of the rules, both those in the game books and in her own house rules. Consider setting a simple house rule: When at the game table, the group is playing Pathfinder- and nothing else. Phones are away, computers are off, other hobbies and distractions-even RPG-related ones like painting miniatures-are set aside. The GM might expand this to most food and drink as well since eating and the presence of food containers undermine immersion.",
 			"",
@@ -3207,7 +3207,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 206](source/horror_adventures)",
+			"{SOURCE Horror Adventures/206}",
 			"",
 			"It's impossible to predict every character action, and Game Masters often have to improvise when a party follows an unanticipated plot thread. While GMs can cultivate the ability to remain flexible in the face of unpredictability, coming up with new plot elements on the fly is only one challenge. Creating and employing new rules without any preparation is another one entirely. In the context of a horror adventure, such rules improvisation is not only useful, but all the more critical, as interruptions and page flipping can ruin a scene's atmosphere, while a quick improvised decision can keep the tension intact.",
 			"",
@@ -3252,7 +3252,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 206](source/horror_adventures)",
+			"{SOURCE Horror Adventures/206}",
 			"",
 			"A character wakes up in a claustrophobic space, walls barely a hand's breadth above his face and to either side. The air is already growing sour, and his increasing heart rate and frantic breathing aren't helping the situation. There's only one thing to do: he has to escape.",
 			"",
@@ -3284,7 +3284,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 207](source/horror_adventures)",
+			"{SOURCE Horror Adventures/207}",
 			"",
 			"Public burning tops the list of preferred ways to dispose of witches, heretics, and undesirables of all sorts.",
 			"",
@@ -3314,7 +3314,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 207](source/horror_adventures)",
+			"{SOURCE Horror Adventures/207}",
 			"",
 			"The fire in the tavern has gotten out of control, the ancient fortress is falling apart, the villain's death causes his dark castle to collapse into the darkness below, or the powers holding together the alien sanctum have failed and are tearing the place apart. Is there any hope of escape, or will the PCs find themselves just another group of casualties in this catastrophe?",
 			"",
@@ -3358,7 +3358,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 208](source/horror_adventures)",
+			"{SOURCE Horror Adventures/208}",
 			"",
 			"Simple and relatively clean, execution by guillotine proves as humane as it is grisly. But when the PCs need to prevent such an execution, the rules and timing become more important.",
 			"",
@@ -3388,7 +3388,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 209](source/horror_adventures)",
+			"{SOURCE Horror Adventures/209}",
 			"",
 			"Whether by the snapping of a neck or lengthy strangulation, hanging is a time-tested form of execution, and stories abound of heroes rescuing a victim in the nick of time.",
 			"",
@@ -3420,7 +3420,7 @@
 		"subtitle": "Horror, Gamemastery",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"**Source** [Horror Adventures pg. 209](source/horror_adventures)",
+			"{SOURCE Horror Adventures/209}",
 			"",
 			"Be it a misbehaving reflection, a whispering taxidermy, or a leering portrait, sometimes the most minor supernatural effect-noticeable as the subtlest feeling of wrongness-proves the most unsettling.",
 			"",
@@ -4079,7 +4079,7 @@
 		"name": "Affiliations",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
-			"**Source** [Adventurer's Guide pg. 5](source/adventurers_guide)",
+			"{SOURCE Adventurer's Guide/5}",
 			"",
 			"Affiliation with a group means that a character has proven to be an ally with the group's interests at heart and is trusted to be a caretaker for that group's secrets.",
 			"",
@@ -5086,7 +5086,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Faction Guide" ],
 		"description": [
-			"**Source** [Faction Guide pg. 2](source/faction_guide)",
+			"{SOURCE Faction Guide/2}",
 			"",
 			"Prepare for your PCs to step into a larger world. In the classic roleplaying tradition, the PCs are independent heroes, and though they may undertake missions for powerful patrons, their association is usually temporary, with no long-term benefits. This book is about something different.",
 			"",
@@ -5133,7 +5133,7 @@
 		"name": "Faction Basics",
 		"sources": [ "Faction Guide" ],
 		"description": [
-			"**Source** [Faction Guide pg. 3](source/faction_guide)",
+			"{SOURCE Faction Guide/3}",
 			"",
 			"PCs improve their standing within their faction by succeeding in missions relating to or coming from a faction. In a given adventure, or even in between adventures, you should think about the factions the characters in the party have chosen to represent. Their factions might ask them to assassinate a crime lord, protect an innocent merchant caught in a crossfire, save a kidnapped child, hand off an important letter, foil an assassination, recover a specific stolen relic, or locate a letter of marque. Whatever the mission, a positive outcome earns the character a **Prestige Award (PA).**",
 			"",
@@ -5165,7 +5165,7 @@
 		"tags": "TPA CPA total prestige award current prestige award",
 		"sources": [ "Faction Guide" ],
 		"description": [
-			"**Source** [Faction Guide pg. 3](source/faction_guide)",
+			"{SOURCE Faction Guide/3}",
 			"",
 			"A character's ***Prestige Award (PA)*** is an abstract way to track his growing renown and reputation within a faction.",
 			"",
@@ -5234,7 +5234,7 @@
 		"name": "Faction List",
 		"sources": [ "Faction Guide" ],
 		"description": [
-			"**Source** [Faction Guide pg. 5](source/faction_guide)",
+			"{SOURCE Faction Guide/5}",
 			"",
 			"Following a brief overview of the faction, each entry explains the goals and the general alignment of the group; PCs who are part of the faction need not match this alignment precisely, but it serves as a guide to the faction's general attitudes and values. To help guide players, for each faction there is a list of character classes that are best and least suited to membership and advancement. These are by no means hard rules; if an assassin wants to join a group of holy crusaders, it can be done, but she is going to have a harder time achieving the faction's goals than a paladin would. Each faction provides a description of special resources available within the faction - not only material goods and services, but also unique feats, spells, equipment, and magical items only available to faction members, as well as titles, honors, privileges, and opportunities that can be accessed by gaining prestige in the faction.",
 			"",
@@ -5980,7 +5980,7 @@
 		"name": "Standard Faction Costs",
 		"sources": [ "Faction Guide" ],
 		"description": [
-			"**Source** [Faction Guide pg. 54](source/faction_guide)",
+			"{SOURCE Faction Guide/54}",
 			"",
 			"### Total Prestige Award and Item Purchases",
 			"",

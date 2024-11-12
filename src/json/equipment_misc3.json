@@ -4,7 +4,7 @@
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Planar traveler's kit",
-			"**Source** [Demon Hunter's Handbook pg. 7](source/demon_hunters_handbook)  ",
+			"{SOURCE Demon Hunter's Handbook/7}  ",
 			"**Price** 350 gp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -16,7 +16,7 @@
 		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
 		"description": [
 			"## Pnakotic record",
-			"**Source** [Pathfinder #112: The Whisper Out of Time pg. 73](source/pathfinder_112_the_whisper_out_of_time)  ",
+			"{SOURCE Pathfinder #112: The Whisper Out of Time/73}  ",
 			"**Price** 2,000 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -28,7 +28,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Pocket watch",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 250 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -40,7 +40,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Poh armor",
-			"**Source** [Merchant's Manifest pg. 24](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/24}  ",
 			"**Price** 500 gp; **Weight** 65 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -54,7 +54,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Poison belcher",
-			"**Source** [Alchemy Manual pg. 6](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/6}  ",
 			"**Price** 50 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
@@ -66,7 +66,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Poison caps",
-			"**Source** [Animal Archive pg. 12](source/animal_archive)  ",
+			"{SOURCE Animal Archive/12}  ",
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Animal Gear",
 			"",
@@ -78,7 +78,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Poison diffuser",
-			"**Source** [Alchemy Manual pg. 9](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/9}  ",
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -95,7 +95,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Poison frog",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -107,7 +107,7 @@
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Poison latch needle",
-			"**Source** [Black Markets pg. 21](source/black_markets)  ",
+			"{SOURCE Black Markets/21}  ",
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -127,7 +127,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Poison lip paint",
-			"**Source** [Ultimate Intrigue pg. 233](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/233}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -139,7 +139,7 @@
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Poison sealant",
-			"**Source** [Aquatic Adventures pg. 56](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/56}  ",
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -151,7 +151,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Poison sponge",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/27}  ",
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -163,7 +163,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Poison tattoo",
-			"**Source** [Advanced Race Guide pg. 209](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/209}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -178,7 +178,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Poison ward salve",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 15 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -193,7 +193,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Poisoned locket",
-			"**Source** [Potions and Poisons pg. 29](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/29}  ",
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Tools",
 			"",
@@ -205,7 +205,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Poisoned quill",
-			"**Source** [Potions and Poisons pg. 29](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/29}  ",
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Tools",
 			"",
@@ -217,7 +217,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Poisoner's goblet",
-			"**Source** [Potions and Poisons pg. 29](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/29}  ",
 			"**Price** 100 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -229,7 +229,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Poisoning sheath",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -244,7 +244,7 @@
 		],
 		"description": [
 			"## Pole",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 5 cp; **Weight** 8 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -256,7 +256,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Polo gear",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/92}  ",
 			"**Price** 5 sp; **Weight** 5 lbs.  ",
 			"**Category** Entertainment",
 			"",
@@ -268,7 +268,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Pomander",
-			"**Source** [Dungeoneer's Handbook pg. 24](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/24}  ",
 			"**Price** 12 gp (merchant's), 225 gp (noble's); **Weight** 1/2 lb. (merchant's), 1/2 lb. (noble's)",
 			"",
 			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that nauseate or sicken, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
@@ -286,7 +286,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Poncho",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/89}  ",
 			"**Price** 5 sp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -298,7 +298,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Porcupine",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -314,7 +314,7 @@
 		],
 		"description": [
 			"## Portable alchemist's lab",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/77;Adventurer's Armory/19;Advanced Player's Guide/184}  ",
 			"**Price** 75 gp; **Weight** 20 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -326,7 +326,7 @@
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Portable altar (masterwork)",
-			"**Source** [Demon Hunter's Handbook pg. 18](source/demon_hunters_handbook)  ",
+			"{SOURCE Demon Hunter's Handbook/18}  ",
 			"**Price** 400 gp; **Weight** 40 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -348,7 +348,7 @@
 		],
 		"description": [
 			"## Portable altar",
-			"**Source** [Demon Hunter's Handbook pg. 18](source/demon_hunters_handbook), [Adventurer's Armory pg. 19](source/adventurers_armory), [Ultimate Equipment pg. 77](source/ultimate_equipment)  ",
+			"{SOURCE Demon Hunter's Handbook/18;Adventurer's Armory/19;Ultimate Equipment/77}  ",
 			"**Price** 250 gp; **Weight** 40 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -360,7 +360,7 @@
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Portable bolt trap",
-			"**Source** [Ranged Tactics Toolbox pg. 21](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/21}  ",
 			"**Price** 125 gp; **Weight** 9 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -378,7 +378,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Portable bridge",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 200 gp; **Weight** 60 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -390,7 +390,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Portable prison",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 200 gp; **Weight** 300 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -405,7 +405,7 @@
 		],
 		"description": [
 			"## Portable ram",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 10 gp; **Weight** 20 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -417,7 +417,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Portable solarium",
-			"**Source** [Occult Adventures pg. 249](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/249}  ",
 			"**Price** 800 gp; **Weight** 35 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -429,7 +429,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Portable sweat lodge",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 25 gp; **Weight** 25 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -441,7 +441,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Portable terrarium",
-			"**Source** [Adventurer's Armory 2 pg. 16](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/16}  ",
 			"**Price** 100 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -456,7 +456,7 @@
 		],
 		"description": [
 			"## Portrait book",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/77;Advanced Player's Guide/185}  ",
 			"**Price** 10 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -468,7 +468,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pot",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)",
 			"",
 			"This 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
@@ -479,7 +479,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Pot (iron)",
-			"**Source** [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/158}  ",
 			"**Price** 8 sp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -496,7 +496,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Potion sponge",
-			"**Source** [Advanced Race Guide pg. 177](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/177}  ",
 			"**Price** 2 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -511,7 +511,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Pouch, belt (empty)",
-			"**Source** [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -523,7 +523,7 @@
 		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
 			"## Powder ball",
-			"**Source** [Castles of the Inner Sea pg. 39](source/castles_of_the_inner_sea)  ",
+			"{SOURCE Castles of the Inner Sea/39}  ",
 			"**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)",
 			"",
 			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius burst (DC 15 for half). A powder ball explodes in this way three times-the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
@@ -543,7 +543,7 @@
 		],
 		"description": [
 			"## Powder horn",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Ultimate Combat pg. 141](source/ultimate_combat), [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Ultimate Combat/141;Inner Sea World Guide/293}  ",
 			"**Price** 3 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -560,7 +560,7 @@
 		],
 		"description": [
 			"## Powder",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Pathfinder Society Field Guide pg. 48](source/pathfinder_society_field_guide), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Pathfinder Society Field Guide/48;Advanced Player's Guide/183}  ",
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -572,7 +572,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Powdered milk",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -584,7 +584,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Practice straitjacket",
-			"**Source** [Adventurer's Armory 2 pg. 14](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/14}  ",
 			"**Price** 100 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -596,7 +596,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Premium hookah",
-			"**Source** [Alchemy Manual pg. 18](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/18}  ",
 			"**Price** 1,000 gp; **Weight** 15 lbs.  ",
 			"**Category** Black Market",
 			"",
@@ -608,7 +608,7 @@
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Pressure pill",
-			"**Source** [Aquatic Adventures pg. 56](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/56}  ",
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -620,7 +620,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Printing press (1-page)",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 250 gp; **Weight** 150 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -635,7 +635,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Prismatic crystal",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 30 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -647,7 +647,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Privacy shelter",
-			"**Source** [Ultimate Wilderness pg. 244](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/244}  ",
 			"**Price** 5 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -659,7 +659,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Prognostication manual",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 30 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -677,7 +677,7 @@
 		],
 		"description": [
 			"## Prosthetic",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/57;Pirates of the Inner Sea/21;Adventurer's Armory/19}  ",
 			"**Price** 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg); **Weight** 3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)",
 			"",
 			"People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more. Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds."
@@ -715,7 +715,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Prowler's palliative",
-			"**Source** [Potions and Poisons pg. 23](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/23}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
@@ -733,7 +733,7 @@
 		],
 		"description": [
 			"## Pseudodragon",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 200 gp; **Weight** 7 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -745,7 +745,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychic's kit",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 35 gp; **Weight** 27 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -757,7 +757,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychometrist's gloves",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -769,7 +769,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Pteranodon",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 750 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -781,7 +781,7 @@
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Pull-cord grenade",
-			"**Source** [Black Markets pg. 21](source/black_markets)  ",
+			"{SOURCE Black Markets/21}  ",
 			"**Price** 150 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -802,7 +802,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pulque",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 1 sp (cup), 4 sp (wineskin); **Weight** 1/2 lb. (cup), 2 lbs. (wineskin)",
 			"",
 			"This nutritious milk-colored alcoholic beverage is fermented from the heart of the agave or century plant."
@@ -818,7 +818,7 @@
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Pump organ",
-			"**Source** [Haunted Heroes Handbook pg. 11](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/11}  ",
 			"**Price** 2,000 gp; **Weight** 100 lbs.  ",
 			"**Category** Black Market",
 			"",
@@ -830,7 +830,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Pump water canister",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 75 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -842,7 +842,7 @@
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Purification pellet",
-			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/28}  ",
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -857,7 +857,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Purity test",
-			"**Source** [Alchemy Manual pg. 18](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/18}  ",
 			"**Price** 10 gp; **Weight** 2 lbs.  ",
 			"**Category** Black Market",
 			"",
@@ -872,7 +872,7 @@
 		],
 		"description": [
 			"## Puzzle box",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/92;Adventurer's Armory/19}  ",
 			"**Price** 1 gp-1,000 gp; **Weight** 1 lb.-5 lbs.  ",
 			"**Category** Entertainment",
 			"",
@@ -884,7 +884,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Puzzle heel",
-			"**Source** [Ultimate Intrigue pg. 234](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** varies; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -902,7 +902,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Pyramid buster's kit",
-			"**Source** [Undead Slayer's Handbook pg. 9](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/9}  ",
 			"**Price** 310 gp; **Weight** 8 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -914,7 +914,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Pyrography kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -926,7 +926,7 @@
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Qadiran saddle",
-			"**Source** [Qadira, Jewel of the East pg. 57](source/qadira_jewel_of_the_east)  ",
+			"{SOURCE Qadira, Jewel of the East/57}  ",
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -938,7 +938,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Questing knight package",
-			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/5}  ",
 			"**Price** 1000 gp; **Weight** 127 1/2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -960,7 +960,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Quick-change outfit",
-			"**Source** [Ultimate Intrigue pg. 234](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** varies; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -975,7 +975,7 @@
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Quick-pack table",
-			"**Source** [Villain Codex pg. 236](source/villain_codex)  ",
+			"{SOURCE Villain Codex/236}  ",
 			"**Price** 5 gp; **Weight** 20 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -992,7 +992,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Quick-step concoction",
-			"**Source** [Adventurer's Armory 2 pg. 27](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/27}  ",
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
@@ -1007,7 +1007,7 @@
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Quicksilver barometer",
-			"**Source** [Haunted Heroes Handbook pg. 13](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/13}  ",
 			"**Price** 400 gp; **Weight** 12 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1019,7 +1019,7 @@
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
 			"## Quieting needles",
-			"**Source** [Pathfinder #29: Mother of Flies pg. 12](source/pathfinder_29_mother_of_flies)  ",
+			"{SOURCE Pathfinder #29: Mother of Flies/12}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -1041,7 +1041,7 @@
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Quintain",
-			"**Source** [Martial Arts Handbook pg. 31](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/31}  ",
 			"**Price** 40 gp; **Weight** 30 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -1053,7 +1053,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rabbit",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 2 gp; **Weight** 3 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -1065,7 +1065,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Raccoon",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 5 gp; **Weight** 7 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -1077,7 +1077,7 @@
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Rack",
-			"**Source** [Horror Adventures pg. 212](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/212}  ",
 			"**Price** 300 gp; **Weight** 500 lbs.  ",
 			"**Category** Torture Implements",
 			"",
@@ -1089,7 +1089,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Raft",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/87}  ",
 			"**Price** -; **Price of Passage** (per mile) 1 cp  ",
 			"**Category** Transport, Sea",
 			"",
@@ -1106,7 +1106,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Rager's aid",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -1121,7 +1121,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Rake's friend",
-			"**Source** [Ultimate Intrigue pg. 236](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/236}  ",
 			"**Price** 120 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1136,7 +1136,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Ram",
-			"**Source** [Animal Archive](source/animal_archive)  ",
+			"{SOURCE Animal Archive}  ",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
 		]
@@ -1154,7 +1154,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ranger's kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 9 gp; **Weight** 28 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -1166,7 +1166,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Rat",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 1 gp (blue), 1 cp (common); **Weight** 1 lb. (blue), 1 lb. (common)",
 			"",
 			"These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent familiars."
@@ -1185,7 +1185,7 @@
 		],
 		"description": [
 			"## Rat (dire)",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 5 gp; **Weight** 50 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -1197,7 +1197,7 @@
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Rat cage",
-			"**Source** [Horror Adventures pg. 212](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/212}  ",
 			"**Price** 5 gp; **Weight** 15 lbs.  ",
 			"**Category** Torture Implements",
 			"",
@@ -1209,7 +1209,7 @@
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Rations, space (per day)",
-			"**Source** [People of the Stars pg. 19](source/people_of_the_stars)  ",
+			"{SOURCE People of the Stars/19}  ",
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -1224,7 +1224,7 @@
 		],
 		"description": [
 			"## Raven",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 2 gp; **Weight** 3 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -1236,7 +1236,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Reagent extractor",
-			"**Source** [Merchant's Manifest pg. 17](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/17}  ",
 			"**Price** 1,000 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -1248,7 +1248,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Reagent paper",
-			"**Source** [Advanced Class Guide pg. 208](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/208}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1263,7 +1263,7 @@
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Reanimating fluid",
-			"**Source** [Horror Adventures pg. 213](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/213}  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1278,7 +1278,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Red flame torch",
-			"**Source** [Ultimate Wilderness pg. 246](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/246}  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1290,7 +1290,7 @@
 		"sources": [ "People of the North" ],
 		"description": [
 			"## Reindeer",
-			"**Source** [People of the North pg. 28](source/people_of_the_north)  ",
+			"{SOURCE People of the North/28}  ",
 			"**Price** 75 gp; **Weight** 450 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -1302,7 +1302,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Remora pad",
-			"**Source** [Merchant's Manifest pg. 6](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/6}  ",
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1318,7 +1318,7 @@
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Repellent salts",
-			"**Source** [Haunted Heroes Handbook pg. 13](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/13}  ",
 			"**Price** 100 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1330,7 +1330,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Retort",
-			"**Source** [Alchemy Manual pg. 5](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/5}  ",
 			"**Price** 2 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1342,7 +1342,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Reversible cloak",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/89}  ",
 			"**Price** 2 sp-100 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -1354,7 +1354,7 @@
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Rhinarium paste",
-			"**Source** [Monster Codex pg. 177](source/monster_codex)  ",
+			"{SOURCE Monster Codex/177}  ",
 			"**Price** 75 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1369,7 +1369,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Rhinoceros",
-			"**Source** [Animal Archive](source/animal_archive)  ",
+			"{SOURCE Animal Archive}  ",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
 		]
@@ -1391,7 +1391,7 @@
 		],
 		"description": [
 			"## Rice paper (sheet)",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 183](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/57;Advanced Player's Guide/183;Adventurer's Armory/19}  ",
 			"**Price** 5 cp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1403,7 +1403,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Riding bee",
-			"**Source** [Ultimate Wilderness pg. 12](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/12}  ",
 			"**Price** 12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker); **Weight** 140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)",
 			"",
 			"Gathlains have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva."
@@ -1438,7 +1438,7 @@
 		],
 		"description": [
 			"## Riding kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Pathfinder Society Field Guide pg. 47](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Pathfinder Society Field Guide/47}  ",
 			"**Price** 16 gp (common), 36 gp (exotic mount); **Weight** 54 lbs. (common), 59 lbs. (exotic mount)",
 			"",
 			"This kit includes a bit and bridle, a saddle, a saddle blanket, saddlebags, and 2 days' worth of feed for a mount. The weight can be lightened 10 pounds by discarding the feed."
@@ -1457,7 +1457,7 @@
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Riding rat",
-			"**Source** [Monster Codex pg. 177](source/monster_codex)  ",
+			"{SOURCE Monster Codex/177}  ",
 			"**Price** 75 gp (combat trained), 50 gp (common); **Weight** 50 lbs. (combat trained), 50 lbs. (common)",
 			"",
 			"Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the ratfolk bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a dire rat with the giant simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount."
@@ -1473,7 +1473,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ritual bell",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1485,7 +1485,7 @@
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Ritual disk",
-			"**Source** [Disciple's Doctrine pg. 28](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/28}  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -1500,7 +1500,7 @@
 		],
 		"description": [
 			"## Road or gate toll",
-			"**Source** [Ultimate Equipment pg. 99](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/99;PRPG Core Rulebook/159}  ",
 			"**Price** 1 cp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
@@ -1512,7 +1512,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Roar cord",
-			"**Source** [Advanced Race Guide pg. 66](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/66}  ",
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -1524,7 +1524,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Roc",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 10,800 gp (combat-trained), 7,200 gp (common); **Weight** - (combat-trained), - (common)",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
@@ -1543,7 +1543,7 @@
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Rockshard canister",
-			"**Source** [Melee Tactics Toolbox pg. 21](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/21}  ",
 			"**Price** 50 gp; **Weight** 25 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1557,7 +1557,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rogue's kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 50 gp; **Weight** 37 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -1572,7 +1572,7 @@
 		],
 		"description": [
 			"## Rope (50 ft.)",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1587,7 +1587,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Rope recaller",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/13}  ",
 			"**Price** 250 gp; **Weight** 30 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1599,7 +1599,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Roperunner",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 50 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -1611,7 +1611,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rounders gear",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/92}  ",
 			"**Price** 1 sp; **Weight** 1/2 lb.  ",
 			"**Category** Entertainment",
 			"",
@@ -1626,7 +1626,7 @@
 		],
 		"description": [
 			"## Rowboat",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159}  ",
 			"**Price** 50 gp; **Price of Passage** (per mile) 2 cp  ",
 			"**Category** Transport, Sea",
 			"",
@@ -1650,14 +1650,14 @@
 		],
 		"description": [
 			"## Royal outfit",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/89;PRPG Core Rulebook/159}  ",
 			"**Price** 200 gp; **Weight** 15 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance. A royal outfit is rarely designed for regular wear or inclement weather-or even for donning unaided-as it's presumed that anyone who might be wearing it has plenty of servants to take care of his or her every need. This outfit includes only the clothing, not a royal scepter, crown, ring, or other regal accoutrements.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -1684,7 +1684,7 @@
 		],
 		"description": [
 			"## Rumboozle (cup)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/95;Adventurer's Armory/19}  ",
 			"**Price** 1 sp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -1696,7 +1696,7 @@
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Rust repellent",
-			"**Source** [Cohorts and Companions pg. 17](source/cohorts_and_companions)  ",
+			"{SOURCE Cohorts and Companions/17}  ",
 			"**Price** 25 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -1708,7 +1708,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rusting powder",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/103}  ",
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1728,7 +1728,7 @@
 		],
 		"description": [
 			"## Sack",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 1 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1743,7 +1743,7 @@
 		],
 		"description": [
 			"## Saddle",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159}  ",
 			"**Price** 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military), 5 gp (pack), 10 gp (riding); **Weight** 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)",
 			"",
 			"Saddles are used to support a rider or supplies on a mount.",
@@ -1805,7 +1805,7 @@
 		],
 		"description": [
 			"## Saddlebags",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159}  ",
 			"**Price** 4 gp; **Weight** 8 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -1820,7 +1820,7 @@
 		],
 		"description": [
 			"## Sailing ship",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159}  ",
 			"**Price** 10,000 gp; **Price of Passage** (per mile) 2 sp  ",
 			"**Category** Transport, Sea",
 			"",
@@ -1840,7 +1840,7 @@
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Salt tablets (10)",
-			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/28}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -1858,7 +1858,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Samsaran life wheel",
-			"**Source** [Advanced Race Guide pg. 199](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/199}  ",
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
@@ -1870,7 +1870,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Sanctified rings (pair)",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/25}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -1883,7 +1883,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Sangwine",
-			"**Source** [Merchant's Manifest pg. 8](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/8}  ",
 			"**Price** 200 gp; **Weight** 2 lbs.  ",
 			"**Category** Food/Drink",
 			"",
@@ -1899,7 +1899,7 @@
 		],
 		"description": [
 			"## Saw",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 185](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/185}  ",
 			"**Price** 4 cp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -1918,7 +1918,7 @@
 		],
 		"description": [
 			"## Scarf",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Adventurer's Armory pg. 19](source/adventurers_armory), [Pathfinder Campaign Setting pg. 213](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_players_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide)  ",
+			"{SOURCE Ultimate Equipment/89;Varisia, Birthplace of Legends/15;Adventurer's Armory/19;Pathfinder Campaign Setting/213;Curse of the Crimson Throne Player's Guide/12;Rise of the Runelords Player's Guide/11}  ",
 			"**Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)",
 			"",
 			"An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check."
@@ -1945,7 +1945,7 @@
 		],
 		"description": [
 			"## Scarf",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends)  ",
+			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19;Varisia, Birthplace of Legends/15}  ",
 			"**Price** 1 sp-5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -1957,7 +1957,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Scarsalve",
-			"**Source** [Adventurer's Guide pg. 84](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/84}  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -1969,7 +1969,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Scavenger beetle colony",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 3 gp; **Weight** 1 lb.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -1981,7 +1981,7 @@
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Scent blocker",
-			"**Source** [Heroes of the Wild pg. 9](source/heroes_of_the_wild)  ",
+			"{SOURCE Heroes of the Wild/9}  ",
 			"**Price** 80 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -1999,7 +1999,7 @@
 		],
 		"description": [
 			"## Scent cloak",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/103;Adventurer's Armory/19}  ",
 			"**Price** 20 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2014,7 +2014,7 @@
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Scent salts",
-			"**Source** [Aquatic Adventures pg. 56](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/56}  ",
 			"**Price** 1 sp; **Weight** -  ",
 			"**Category** Entertainment",
 			"",
@@ -2026,7 +2026,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Scentbane incense",
-			"**Source** [Advanced Race Guide pg. 37](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/37}  ",
 			"**Price** 80 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2045,14 +2045,14 @@
 		],
 		"description": [
 			"## Scholar's outfit",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/89;PRPG Core Rulebook/159}  ",
 			"**Price** 5 gp; **Weight** 6 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"Perfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -2076,7 +2076,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scorpion (greensting)",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 15 gp; **Weight** 9 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2088,7 +2088,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scribe",
-			"**Source** [Ultimate Equipment pg. 99](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/99}  ",
 			"**Price** 10 gp (map), 1 gp (text); **Weight** - (map), - (text)",
 			"",
 			"A scribe is a literate person with clear handwriting who can take dictation or transcribe text documents. You must provide ink and writing materials, though the scribe can acquire these for you at half price. Scribes cannot copy magical writing. A scribe who can accurately copy a map is rare and demands a higher wage. The listed price is per day."
@@ -2104,7 +2104,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scrivener's kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
@@ -2116,7 +2116,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Scroll belt",
-			"**Source** [Ultimate Intrigue pg. 234](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** 3 sp; **Weight** varies  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2128,7 +2128,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scroll box",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2145,7 +2145,7 @@
 		],
 		"description": [
 			"## Scroll case",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158;Adventurer's Armory/19;Advanced Player's Guide/183}  ",
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2157,7 +2157,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Scroll case, spring loaded",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/13}  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2169,7 +2169,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Sea krait",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2181,7 +2181,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Seal",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 45 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2196,7 +2196,7 @@
 		],
 		"description": [
 			"## Sealing wax",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2208,7 +2208,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sealord wine (bottle)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 15 gp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -2220,7 +2220,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Seance kit",
-			"**Source** [Undead Slayer's Handbook pg. 13](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/13}  ",
 			"**Price** 290 gp; **Weight** 12 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2232,7 +2232,7 @@
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
 		"description": [
 			"## Second-story harness",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 65](source/pathfinder_61_shards_of_sin)  ",
+			"{SOURCE Pathfinder #61: Shards of Sin/65}  ",
 			"**Price** 55 gp; **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2247,7 +2247,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Seeing Slime",
-			"**Source** [Ultimate Wilderness pg. 155](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/155}  ",
 			"**Price** 160 gp; **Weight** -  ",
 			"**Category** Herbs  ",
 			"**Gather** DC 19; **Yield** 1 dose  ",
@@ -2263,7 +2263,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Semblance transfusion",
-			"**Source** [Alchemy Manual pg. 15](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/15}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -2278,7 +2278,7 @@
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sentry mannequin (masterwork)",
-			"**Source** [Ranged Tactics Toolbox pg. 21](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/21}  ",
 			"**Price** 80 gp; **Weight** 35 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -2290,7 +2290,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sentry mannequin",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 30 gp; **Weight** 35 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2302,7 +2302,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sentry seeds",
-			"**Source** [Ultimate Intrigue pg. 234](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** 7 gp; **Weight** 1/2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2314,7 +2314,7 @@
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Serpent line",
-			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/28}  ",
 			"**Price** 12 gp; **Weight** 5 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2329,7 +2329,7 @@
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Serrated caltrops",
-			"**Source** [Dirty Tactics Toolbox pg. 21](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/21}  ",
 			"**Price** 451 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2344,7 +2344,7 @@
 		],
 		"description": [
 			"## Sewing needle",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 5 sp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2361,7 +2361,7 @@
 		],
 		"description": [
 			"## Sextant",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 185](source/advanced_players_guide), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/185;Pirates of the Inner Sea/21}  ",
 			"**Price** 500 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2373,7 +2373,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shadow stencil set",
-			"**Source** [Advanced Race Guide pg. 211](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/211}  ",
 			"**Price** 30 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -2385,7 +2385,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Shadowy stalker package",
-			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/5}  ",
 			"**Price** 1000 gp; **Weight** 63 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2407,7 +2407,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Shaman's kit",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 15 gp; **Weight** 44 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2419,7 +2419,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Shaman's paint",
-			"**Source** [Alchemy Manual pg. 7](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/7}  ",
 			"**Price** 90 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2434,7 +2434,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Shark",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 325 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2449,7 +2449,7 @@
 		],
 		"description": [
 			"## Shaving kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19}  ",
 			"**Price** 15 sp; **Weight** 1/2 lb.  ",
 			"**Category** Kits",
 			"",
@@ -2461,7 +2461,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Shears",
-			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/17}  ",
 			"**Price** 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small); **Weight** 8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)",
 			"",
 			"Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a spring to allow the jaws to open again after closing. Small shears can be used in one hand and are often used to trim hair, cut cloth, or perform other delicate cutting work. Lopping shears are 3 feet long and must be used in two hands; they are commonly used by farmers or gardeners to cut hedges and branches.",
@@ -2484,7 +2484,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sheep",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [Ultimate Equipment pg. 93](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/81;Ultimate Equipment/93}  ",
 			"**Price** 2-20 gp; **Weight** 150 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2496,7 +2496,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Sherrif's whistle",
-			"**Source** [Advanced Race Guide pg. 37](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/37}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2511,7 +2511,7 @@
 		],
 		"description": [
 			"## Shield sconce",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19}  ",
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2523,7 +2523,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Shinobi shozoku",
-			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/28}  ",
 			"**Price** 50 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2535,7 +2535,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ship's boat",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/87}  ",
 			"**Price** 500 gp; **Price of Passage** (per mile) 2 cp  ",
 			"**Category** Transport, Sea",
 			"",
@@ -2552,7 +2552,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Ship's passage",
-			"**Source** [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/159}  ",
 			"**Price** -; **Price of Passage** (per mile) 1 sp  ",
 			"**Category** Transport, Sea",
 			"",
@@ -2564,7 +2564,7 @@
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Shoddy item",
-			"**Source** [Villain Codex pg. 116](source/villain_codex)  ",
+			"{SOURCE Villain Codex/116}  ",
 			"**Price** varies; **Weight** varies  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2583,7 +2583,7 @@
 		],
 		"description": [
 			"## Shovel",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
+			"{SOURCE Ultimate Equipment/57;Pathfinder #51: The Hungry Storm/67}  ",
 			"**Price** 2 gp (common), 10 gp (folding); **Weight** 8 lbs. (common), 12 lbs. (folding)",
 			"",
 			"This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size.",
@@ -2604,7 +2604,7 @@
 		],
 		"description": [
 			"## Shovel, common",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Adventurer's Armory/19;PRPG Core Rulebook/158}  ",
 			"**Price** 2 cp; **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2619,7 +2619,7 @@
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Shrapnel caltrops",
-			"**Source** [Dirty Tactics Toolbox pg. 21](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/21}  ",
 			"**Price** 401 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2631,7 +2631,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Shrieking paste",
-			"**Source** [Dungeoneer's Handbook pg. 27](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/27}  ",
 			"**Price** 35 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2650,7 +2650,7 @@
 		],
 		"description": [
 			"## Signal horn",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/183}  ",
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2662,7 +2662,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Signal kite kit",
-			"**Source** [Advanced Race Guide pg. 165](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/165}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Entertainment",
 			"",
@@ -2677,7 +2677,7 @@
 		],
 		"description": [
 			"## Signet ring",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2693,7 +2693,7 @@
 		],
 		"description": [
 			"## Poison pill signet ring",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 181](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/181}  ",
 			"**Price** +20 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2705,7 +2705,7 @@
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"## Signifer mask",
-			"**Source** [Path of the Hellknight pg. 63](source/path_of_the_hellknight)  ",
+			"{SOURCE Path of the Hellknight/63}  ",
 			"**Price** 75 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2717,7 +2717,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Signifier mask",
-			"**Source** [Adventurer's Guide pg. 97](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/97}  ",
 			"**Price** 75 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2731,7 +2731,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Silence dust",
-			"**Source** [Alchemy Manual pg. 15](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/15}  ",
 			"**Price** 60 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2746,7 +2746,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Silent piton",
-			"**Source** [Ultimate Wilderness pg. 244](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/244}  ",
 			"**Price** 5 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2758,7 +2758,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Silk kimono",
-			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/28}  ",
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2773,7 +2773,7 @@
 		],
 		"description": [
 			"## Silk rope (50 ft.)",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2788,7 +2788,7 @@
 		"sources": [ "Blood of the Moon" ],
 		"description": [
 			"## Silver drops",
-			"**Source** [Blood of the Moon pg. 30](source/blood_of_the_moon)  ",
+			"{SOURCE Blood of the Moon/30}  ",
 			"**Price** 180 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2803,7 +2803,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Singer's solution",
-			"**Source** [Ultimate Intrigue pg. 236](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/236}  ",
 			"**Price** 120 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -2818,7 +2818,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Siphon ray",
-			"**Source** [Merchant's Manifest pg. 6](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/6}  ",
 			"**Price** 5 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2832,7 +2832,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Skald's kit",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 37 gp; **Weight** 47-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2844,7 +2844,7 @@
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Skates",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
+			"{SOURCE Pathfinder #51: The Hungry Storm/67}  ",
 			"**Price** 10 gp; **Weight** 3 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2859,7 +2859,7 @@
 		],
 		"description": [
 			"## Skeleton key",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19}  ",
 			"**Price** 85 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -2871,7 +2871,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Skeleton slayer's kit",
-			"**Source** [Undead Slayer's Handbook pg. 15](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/15}  ",
 			"**Price** 120 gp; **Weight** 32 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2883,7 +2883,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Skillet",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)",
 			"",
 			"This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it."
@@ -2899,7 +2899,7 @@
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Skis and poles",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
+			"{SOURCE Pathfinder #51: The Hungry Storm/67}  ",
 			"**Price** 15 gp; **Weight** 6 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -2911,7 +2911,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Skis",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/89}  ",
 			"**Price** 5 gp; **Weight** 20 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -2923,7 +2923,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Skunk",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 10 gp; **Weight** 10 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -2935,7 +2935,7 @@
 		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
 			"## Sky mine",
-			"**Source** [Castles of the Inner Sea pg. 40](source/castles_of_the_inner_sea)  ",
+			"{SOURCE Castles of the Inner Sea/40}  ",
 			"**Price** 1,000 gp; **Weight** 500 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -2947,7 +2947,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Slave",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp (specialized); **Weight** 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)",
 			"",
 			"Sentient creatures sold to perform a multitude of tasks all fall under the category of slaves. Most slaves are kept to do menial jobs, but sometimes slaves perform specialized tasks such as spellcasting or teaching. Slaves vary in quality; the price may be half as much for old or infirm slaves, or several times more for healthy, attractive specimens."
@@ -2981,7 +2981,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Slayer's kit",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 22 gp; **Weight** 43-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -2993,7 +2993,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Sled",
-			"**Source** [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/159}  ",
 			"**Price** 20 gp; **Price of Passage** (per mile) -  ",
 			"**Category** Transport, Land",
 			"",
@@ -3013,7 +3013,7 @@
 		],
 		"description": [
 			"## Sledge",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3025,7 +3025,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sleeve holster",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -3037,7 +3037,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sleigh",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/87}  ",
 			"**Price** 100 gp; **Price of Passage** (per mile) 2 cp  ",
 			"**Category** Transport, Land",
 			"",
@@ -3054,7 +3054,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Slow-heart concoction",
-			"**Source** [Adventurer's Armory 2 pg. 27](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/27}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
@@ -3072,7 +3072,7 @@
 		],
 		"description": [
 			"## Smelling salts",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/101;Advanced Player's Guide/184}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -3087,7 +3087,7 @@
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
 			"## Smoke Bomb",
-			"**Source** [Curse of the Crimson Throne pg. 432](source/curse_of_the_crimson_throne)  ",
+			"{SOURCE Curse of the Crimson Throne/432}  ",
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3102,7 +3102,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Smoke cover",
-			"**Source** [Dragonslayer's Handbook pg. 26](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/26}  ",
 			"**Price** 75 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3122,7 +3122,7 @@
 		],
 		"description": [
 			"## Smoke pellet",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/103;Advanced Player's Guide/184;Adventurer's Armory/19}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3137,7 +3137,7 @@
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Smoke signal",
-			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/28}  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3155,7 +3155,7 @@
 		],
 		"description": [
 			"## Smoked goggles",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Advanced Player's Guide/183}  ",
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3171,7 +3171,7 @@
 		],
 		"description": [
 			"## Smokestick",
-			"**Source** [Alchemy Manual pg. 30](source/alchemy_manual), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook), [Ultimate Equipment pg. 103](source/ultimate_equipment)  ",
+			"{SOURCE Alchemy Manual/30;PRPG Core Rulebook/158;Ultimate Equipment/103}  ",
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3186,7 +3186,7 @@
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Smuggler's wagon",
-			"**Source** [Villain Codex pg. 116](source/villain_codex)  ",
+			"{SOURCE Villain Codex/116}  ",
 			"**Price** varies; **Price of Passage** (per mile) varies  ",
 			"**Category** Transport, Land",
 			"",
@@ -3207,7 +3207,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Snail kite",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 18 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3222,7 +3222,7 @@
 		],
 		"description": [
 			"## Snake (constrictor)",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 5 gp; **Weight** 60 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3237,7 +3237,7 @@
 		],
 		"description": [
 			"## Snake (viper)",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 5 gp; **Weight** 10 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3249,7 +3249,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Snake oil",
-			"**Source** [Occult Adventures pg. 252](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/252}  ",
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3270,7 +3270,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Snake-tongue concoction",
-			"**Source** [Adventurer's Armory 2 pg. 27](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/27}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
@@ -3285,7 +3285,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Snapping turtle",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3297,7 +3297,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Snorkel",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 5 sp (common), 5 gp (masterwork); **Weight** - (common), - (masterwork)",
 			"",
 			"This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a move action and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.",
@@ -3315,7 +3315,7 @@
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Snow goggles",
-			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm)  ",
+			"{SOURCE Pathfinder #51: The Hungry Storm/67}  ",
 			"**Price** 12 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -3332,7 +3332,7 @@
 		],
 		"description": [
 			"## Snowshoes",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_51_the_hungry_storm), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 185](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/89;Pathfinder #51: The Hungry Storm/67;Adventurer's Armory/19;Advanced Player's Guide/185}  ",
 			"**Price** 5 gp; **Weight** 4 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -3344,7 +3344,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Snuffbox",
-			"**Source** [Advanced Class Guide pg. 205](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/205}  ",
 			"**Price** 25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood); **Weight** - (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)",
 			"",
 			"This tiny, ornamented box's hinged lid latches in place to form a tight seal. The box is used to hold various snuffs, powders, tobacco, and similar substances. The box can be made from any number of materials, from wood to ivory to precious metals inlaid with gemstone."
@@ -3369,7 +3369,7 @@
 		],
 		"description": [
 			"## Soap",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19;PRPG Core Rulebook/158}  ",
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3381,7 +3381,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Softpaw boots",
-			"**Source** [Advanced Race Guide pg. 93](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/93}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -3393,7 +3393,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Soldier's uniform",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/89}  ",
 			"**Price** 1 gp; **Weight** 5 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -3405,7 +3405,7 @@
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Songs of Shazathared",
-			"**Source** [Lost Treasures pg. 54](source/lost_treasures)  ",
+			"{SOURCE Lost Treasures/54}  ",
 			"**Price** 11,000 gp; **Weight** 4 lbs.  ",
 			"**Category** Black Market",
 			"",
@@ -3422,7 +3422,7 @@
 		],
 		"description": [
 			"## Soothe syrup",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/101;Advanced Player's Guide/184}  ",
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -3437,7 +3437,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Sorcerer's kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/57}  ",
 			"**Price** 8 gp; **Weight** 19 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3449,7 +3449,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Sorcerer's spirits",
-			"**Source** [Potions and Poisons pg. 23](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/23}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
@@ -3464,7 +3464,7 @@
 		"sources": [ "Inner Sea Temples" ],
 		"description": [
 			"## Soul candle",
-			"**Source** [Inner Sea Temples pg. 42](source/inner_sea_temples)  ",
+			"{SOURCE Inner Sea Temples/42}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3476,7 +3476,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Soul stimulant",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/101}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -3494,7 +3494,7 @@
 		],
 		"description": [
 			"## Sparkle smoke",
-			"**Source** [Adventurer's Guide pg. 45](source/adventurers_guide), [Pathfinder #106: For Queen and Empire pg. 75](source/pathfinder_106_for_queen_and_empire)  ",
+			"{SOURCE Adventurer's Guide/45;Pathfinder #106: For Queen and Empire/75}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3509,7 +3509,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sparring gear",
-			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/20}  ",
 			"**Price** 35 gp; **Weight** 15 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -3521,7 +3521,7 @@
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Speaking trumpet",
-			"**Source** [Ranged Tactics Toolbox pg. 21](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/21}  ",
 			"**Price** 6 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -3533,7 +3533,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Spear-thrower",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3548,7 +3548,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Speech resin",
-			"**Source** [Ultimate Intrigue pg. 236](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/236}  ",
 			"**Price** 410 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3563,7 +3563,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Speed sheath",
-			"**Source** [Ultimate Wilderness pg. 244](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/244}  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -3578,7 +3578,7 @@
 		],
 		"description": [
 			"## Spell component pouch",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158}  ",
 			"**Price** 5 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -3593,7 +3593,7 @@
 		],
 		"description": [
 			"## Spellbook",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158}  ",
 			"**Price** 15 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -3610,7 +3610,7 @@
 		],
 		"description": [
 			"## Spellcasting",
-			"**Source** [Ultimate Equipment pg. 99](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/99;PRPG Core Rulebook/159}  ",
 			"**Price** caster level &times; spell level &times; 10 gp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
@@ -3658,7 +3658,7 @@
 		],
 		"description": [
 			"## Spelunking kit",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Pathfinder Society Field Guide pg. 47](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Ultimate Equipment/57;Pathfinder Society Field Guide/47}  ",
 			"**Price** 174 gp; **Weight** 32 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3670,7 +3670,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sphere-song concoction",
-			"**Source** [Adventurer's Armory 2 pg. 27](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/27}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
@@ -3685,7 +3685,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Spider sac",
-			"**Source** [Advanced Race Guide pg. 105](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/105}  ",
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3700,7 +3700,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spider",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 25 gp; **Weight** 8 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3715,7 +3715,7 @@
 		],
 		"description": [
 			"## Spider's silk rope (50 ft.)",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/58;Advanced Player's Guide/183}  ",
 			"**Price** 100 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3730,7 +3730,7 @@
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Spiderdraw",
-			"**Source** [Monster Codex pg. 33](source/monster_codex)  ",
+			"{SOURCE Monster Codex/33}  ",
 			"**Price** 40 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3749,7 +3749,7 @@
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Spike hilt",
-			"**Source** [Dirty Tactics Toolbox pg. 21](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/21}  ",
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3761,7 +3761,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Spiked focus ward",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/25}  ",
 			"**Price** 100 gp; **Weight** 2 lbs.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -3774,7 +3774,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Spinosaurus",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 11,000 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3786,7 +3786,7 @@
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Spirit compass",
-			"**Source** [Haunted Heroes Handbook pg. 13](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/13}  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3798,7 +3798,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Spirit of glass",
-			"**Source** [Alchemy Manual pg. 9](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/9}  ",
 			"**Price** 35 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3813,7 +3813,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Spirit offerings",
-			"**Source** [Merchant's Manifest pg. 23](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/23}  ",
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3825,7 +3825,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Spirit trumpet",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3837,7 +3837,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Spirit-vision ink",
-			"**Source** [Adventurer's Armory 2 pg. 28](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/28}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3855,7 +3855,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Spiritbane spike",
-			"**Source** [Undead Slayer's Handbook pg. 13](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/13}  ",
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -3870,7 +3870,7 @@
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Spiritual leader's vestments",
-			"**Source** [Disciple's Doctrine pg. 28](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/28}  ",
 			"**Price** 100 gp; **Weight** 8 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -3882,7 +3882,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Spiritualist's kit",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 50 gp; **Weight** 34 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3894,7 +3894,7 @@
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Sponge suit",
-			"**Source** [Blood of the Sea pg. 19](source/blood_of_the_sea)  ",
+			"{SOURCE Blood of the Sea/19}  ",
 			"**Price** 30 gp; **Weight** 2 lbs. (or 10 lbs.)  ",
 			"**Category** Clothing",
 			"",
@@ -3910,7 +3910,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Spotlight",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/27}  ",
 			"**Price** 75 gp; **Weight** 18 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3922,7 +3922,7 @@
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Spy's kit",
-			"**Source** [Heroes of the Streets pg. 13](source/heroes_of_the_streets)  ",
+			"{SOURCE Heroes of the Streets/13}  ",
 			"**Price** 140 gp; **Weight** 12-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3934,7 +3934,7 @@
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Spycatcher's kit",
-			"**Source** [Heroes of the Streets pg. 13](source/heroes_of_the_streets)  ",
+			"{SOURCE Heroes of the Streets/13}  ",
 			"**Price** 260 gp; **Weight** 7-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -3946,7 +3946,7 @@
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Spyglass (masterwork)",
-			"**Source** [Ranged Tactics Toolbox pg. 21](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/21}  ",
 			"**Price** 4,000 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3961,7 +3961,7 @@
 		],
 		"description": [
 			"## Spyglass",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158}  ",
 			"**Price** 1,000 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3973,7 +3973,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Squid",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -3989,14 +3989,14 @@
 		],
 		"description": [
 			"## Squire's outfit",
-			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/20}  ",
 			"**Price** 5 gp; **Weight** 8 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"This outfit includes heavy woolen pants, a tunic, leather boots, a belt, sturdy gloves, a cap, and a heavy tabard bearing the colors or sigil of a noble house or organization. Many organizations provide new squires this outfit for free, with the expectation they wear it during their duties.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -4020,7 +4020,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Squirrel",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 1 gp (common), 20 gp (flying); **Weight** 2 lbs. (common), 1 lb. (flying)",
 			"",
 			"These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds, and vegetation. Squirrels have the same statistics as rats.",
@@ -4041,7 +4041,7 @@
 		],
 		"description": [
 			"## Stabling (per day)",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159}  ",
 			"**Price** 5 sp; **Weight** -  ",
 			"**Category** Animal Gear",
 			"",
@@ -4053,7 +4053,7 @@
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"## Stagnant fog sack",
-			"**Source** [Blood of the Elements pg. 19](source/blood_of_the_elements)  ",
+			"{SOURCE Blood of the Elements/19}  ",
 			"**Price** 80 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4068,7 +4068,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Stalker's oil",
-			"**Source** [Potions and Poisons pg. 29](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/29}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4080,7 +4080,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Star charts",
-			"**Source** [Advanced Race Guide pg. 46](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/46}  ",
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
@@ -4092,7 +4092,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Starlight juice",
-			"**Source** [Potions and Poisons pg. 23](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/23}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
@@ -4107,7 +4107,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Static wool",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/27}  ",
 			"**Price** 100 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4122,7 +4122,7 @@
 		],
 		"description": [
 			"## Stationery",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4134,7 +4134,7 @@
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Statue disguise kit",
-			"**Source** [Heroes of the Streets pg. 13](source/heroes_of_the_streets)  ",
+			"{SOURCE Heroes of the Streets/13}  ",
 			"**Price** 50 gp; **Weight** 8 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4146,7 +4146,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Stegosaurus",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 4,200 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -4158,7 +4158,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Stiletto boots",
-			"**Source** [Adventurer's Armory 2 pg. 20](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/20}  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -4170,7 +4170,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stillgut (vial)",
-			"**Source** [Advanced Race Guide pg. 118](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/118}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4185,7 +4185,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Stilts",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 2 sp (common), 5 gp (masterwork); **Weight** 10 lbs. (common), 10 lbs. (masterwork)",
 			"",
 			"This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area. Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a move action, or as a free action with a successful DC 10 Acrobatics check.",
@@ -4207,7 +4207,7 @@
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Stinging whip",
-			"**Source** [Faiths of Balance pg. 25](source/faiths_of_balance)  ",
+			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 50 gp; **Weight** 5 lbs.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Calistria",
@@ -4220,7 +4220,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Stingray",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 18 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -4232,7 +4232,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stink ink (arcane)",
-			"**Source** [Advanced Race Guide pg. 154](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/154}  ",
 			"**Price** special; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4244,7 +4244,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stink ink (common)",
-			"**Source** [Advanced Race Guide pg. 154](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/154}  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4262,7 +4262,7 @@
 		],
 		"description": [
 			"## Stirge",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -4274,7 +4274,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stonechipper salve",
-			"**Source** [Advanced Race Guide pg. 147](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/147}  ",
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4289,7 +4289,7 @@
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Storm glass",
-			"**Source** [Haunted Heroes Handbook pg. 13](source/haunted_heroes_handbook)  ",
+			"{SOURCE Haunted Heroes Handbook/13}  ",
 			"**Price** 80 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4301,7 +4301,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Stout solution",
-			"**Source** [Potions and Poisons pg. 23](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/23}  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
@@ -4319,7 +4319,7 @@
 		],
 		"description": [
 			"## Stove can",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4331,7 +4331,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Straitjacket",
-			"**Source** [Occult Adventures pg. 250](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)",
 			"",
 			"Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5. A creature wearing a straitjacket gains the grappled condition, except it is able to move. Escaping from the straitjacket requires a successful DC 28 Escape Artist check (DC 30 for a masterwork straitjacket.)"
@@ -4347,7 +4347,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Street meat",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -4359,7 +4359,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Stretch cords",
-			"**Source** [Ultimate Wilderness pg. 244](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/244}  ",
 			"**Price** 5 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4374,7 +4374,7 @@
 		],
 		"description": [
 			"## Stretcher",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/77;Adventurer's Armory/19}  ",
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4391,7 +4391,7 @@
 		],
 		"description": [
 			"## String or twine (50 ft.)",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Pathfinder Society Field Guide pg. 48](source/pathfinder_society_field_guide), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19;Pathfinder Society Field Guide/48;Advanced Player's Guide/183}  ",
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4406,7 +4406,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Subversive vest",
-			"**Source** [Ultimate Intrigue pg. 234](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** 45 gp (vest), 90 gp (vestment); **Weight** 1 lb. (vest), 2 lbs. (vestment)",
 			"",
 			"Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding thieves' tools. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal thieves' tools within a subversive vest.",
@@ -4424,7 +4424,7 @@
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Sucker's barrel",
-			"**Source** [Villain Codex pg. 117](source/villain_codex)  ",
+			"{SOURCE Villain Codex/117}  ",
 			"**Price** 4 gp; **Weight** 35 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4436,7 +4436,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sugar glass bottle",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Tools",
 			"",
@@ -4448,7 +4448,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Summoner's kit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 8 gp; **Weight** 19 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -4460,7 +4460,7 @@
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Sun cinder",
-			"**Source** [Demon Hunter's Handbook pg. 19](source/demon_hunters_handbook)  ",
+			"{SOURCE Demon Hunter's Handbook/19}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4475,7 +4475,7 @@
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Sun cream",
-			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/28}  ",
 			"**Price** 10 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4490,7 +4490,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Sunblock kohl",
-			"**Source** [Adventurer's Guide pg. 15](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/15}  ",
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -4502,7 +4502,7 @@
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Sunderblock",
-			"**Source** [Melee Tactics Toolbox pg. 21](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/21}  ",
 			"**Price** 35 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4514,7 +4514,7 @@
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Sundered mask",
-			"**Source** [Faiths of Balance pg. 25](source/faiths_of_balance)  ",
+			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 250 gp; **Weight** 1 lb.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Nethys",
@@ -4531,7 +4531,7 @@
 		],
 		"description": [
 			"## Sunrod",
-			"**Source** [Alchemy Manual pg. 30](source/alchemy_manual), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook), [Ultimate Equipment pg. 103](source/ultimate_equipment)  ",
+			"{SOURCE Alchemy Manual/30;PRPG Core Rulebook/158;Ultimate Equipment/103}  ",
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4546,7 +4546,7 @@
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Sunsoil",
-			"**Source** [Heroes of the Darklands pg. 31](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/31}  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4558,7 +4558,7 @@
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Surefoot training blocks",
-			"**Source** [Melee Tactics Toolbox pg. 21](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/21}  ",
 			"**Price** 50 gp; **Weight** 25 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4572,7 +4572,7 @@
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Sureseal bladder",
-			"**Source** [Aquatic Adventures pg. 56](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/56}  ",
 			"**Price** 1 sp (mundane), 8 gp (potion); **Weight** 1 lb. (mundane), - (potion)",
 			"",
 			"While potion sponges are a reasonable enough method for air-breathers like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with. A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal. The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a standard action just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
@@ -4588,7 +4588,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Surge syrup",
-			"**Source** [Alchemy Manual pg. 27](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/27}  ",
 			"**Price** 80 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4607,7 +4607,7 @@
 		],
 		"description": [
 			"## Surgeon's tools",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Pathfinder #8: Seven Days to the Grave pg. 61](source/pathfinder_8_seven_days_to_the_grave), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/77;Pathfinder #8: Seven Days to the Grave/61;Adventurer's Armory/19}  ",
 			"**Price** 20 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4619,7 +4619,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Surgical jelly",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/24}  ",
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4634,7 +4634,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Survival kit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 4 lbs. (common), 5 lbs. (masterwork)",
 			"",
 			"A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a flint and steel, a mess kit, two waterskins (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.",
@@ -4655,7 +4655,7 @@
 		],
 		"description": [
 			"## Swarmsuit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/58;Advanced Player's Guide/183}  ",
 			"**Price** 20 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4667,7 +4667,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Swashbuckler's kit",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 9 gp; **Weight** 42 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -4679,7 +4679,7 @@
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Sweet Rest",
-			"**Source** [Pathfinder #139: The Dead Road pg. 63](source/pathfinder_139_the_dead_road)  ",
+			"{SOURCE Pathfinder #139: The Dead Road/63}  ",
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4694,7 +4694,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Swift hands tonic",
-			"**Source** [Ultimate Intrigue pg. 236](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/236}  ",
 			"**Price** 250 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -4709,7 +4709,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Swim fins",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 1 sp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4721,7 +4721,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Sylirican lemons",
-			"**Source** [Merchant's Manifest pg. 6](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/6}  ",
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -4736,7 +4736,7 @@
 		],
 		"description": [
 			"## Symptom kit",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/77;Advanced Player's Guide/185}  ",
 			"**Price** 25 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -4748,7 +4748,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Synthetic mumia",
-			"**Source** [Undead Slayer's Handbook pg. 9](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/9}  ",
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4770,7 +4770,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tabard",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/89}  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -4782,7 +4782,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Talking board",
-			"**Source** [Occult Adventures pg. 251](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/251}  ",
 			"**Price** 15 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4805,7 +4805,7 @@
 		],
 		"description": [
 			"## Tattoo",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 183](source/advanced_players_guide), [Pirates of the Inner Sea pg. 21](source/pirates_of_the_inner_sea)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19;Advanced Player's Guide/183;Pirates of the Inner Sea/21}  ",
 			"**Price** 1 cp-20 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4817,7 +4817,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Taxidermy tools",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/27}  ",
 			"**Price** 80 gp; **Weight** 10 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -4832,7 +4832,7 @@
 		],
 		"description": [
 			"## Tea",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/95;Adventurer's Armory/19}  ",
 			"**Price** 4 cp (ceremonial, cup), 2 cp (cup); **Weight** 1/2 lb. (ceremonial, cup), 1/2 lb. (cup)",
 			"",
 			"A popular beverage in many regions, tea may be green or black, depending on when the leaves are picked and how they are prepared. It may be served unadorned, or with milk, sugar, lemon, or spices."
@@ -4854,7 +4854,7 @@
 		],
 		"description": [
 			"## Tea ceremony set",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/95;Adventurer's Armory/19}  ",
 			"**Price** 25 gp; **Weight** 5 lbs.  ",
 			"**Category** Food/Drink",
 			"",
@@ -4866,7 +4866,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Tea of transference",
-			"**Source** [Alchemy Manual pg. 25](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/25}  ",
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -4881,7 +4881,7 @@
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Tea, kelp",
-			"**Source** [Blood of the Sea pg. 19](source/blood_of_the_sea)  ",
+			"{SOURCE Blood of the Sea/19}  ",
 			"**Price** 3 sp; **Weight** -  ",
 			"**Category** Food/Drink",
 			"",
@@ -4893,7 +4893,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Teaching staff",
-			"**Source** [Adventurer's Armory pg. 25](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/25}  ",
 			"**Price** 75 gp; **Weight** 5 lbs.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -4906,7 +4906,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Teapot",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4918,7 +4918,7 @@
 		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"## Tears of Razmir",
-			"**Source** [Inner Sea World Guide pg. 293](source/inner_sea_world_guide)  ",
+			"{SOURCE Inner Sea World Guide/293}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -4934,7 +4934,7 @@
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Telescope",
-			"**Source** [People of the Stars pg. 27](source/people_of_the_stars)  ",
+			"{SOURCE People of the Stars/27}  ",
 			"**Price** 2,000 gp (&times;10), 8,000 gp (&times;250), 4,000 gp (&times;50); **Weight** 12 lbs. (&times;10), 44 lbs. (&times;250), 23 lbs. (&times;50)",
 			"",
 			"This basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus on Perception checks to discern celestial bodies and on Knowledge (geography) checks to learn about the planets when used at night.",
@@ -4972,7 +4972,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tennis gear",
-			"**Source** [Ultimate Equipment pg. 92](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/92}  ",
 			"**Price** 3 sp; **Weight** 3 lbs.  ",
 			"**Category** Entertainment",
 			"",
@@ -4988,7 +4988,7 @@
 		],
 		"description": [
 			"## Tent",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [Advanced Player's Guide pg. 183](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19;Advanced Player's Guide/183}  ",
 			"**Price** 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); **Weight** 40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)",
 			"",
 			"Tents come in a variety of sizes and accommodate between one and 10 people. A small tent holds one Medium creature and takes 20 minutes to assemble, a medium tent holds two creatures and takes 30 minutes, a large tent holds four creatures and takes 45 minutes, and a pavilion holds 10 creatures and takes 90 minutes (two Small creatures count as a Medium creature, and one Large creature counts as two Medium creatures). Pavilion tents are large enough to accommodate a small fire in the center. Packing up a tent takes half as long as assembling it."
@@ -5026,7 +5026,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tent cover",
-			"**Source** [Ultimate Wilderness pg. 244](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/244}  ",
 			"**Price** 15 gp; **Weight** 15 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5038,7 +5038,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Tent",
-			"**Source** [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE PRPG Core Rulebook/158}  ",
 			"**Price** 10 gp; **Weight** 20 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5050,7 +5050,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Tent, hanging",
-			"**Source** [Advanced Race Guide pg. 27](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/27}  ",
 			"**Price** 20 gp; **Weight** 15 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5062,7 +5062,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Tepache (cup)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 5 cp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -5074,7 +5074,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Terror kite",
-			"**Source** [Advanced Race Guide pg. 165](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/165}  ",
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Entertainment",
 			"",
@@ -5086,7 +5086,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## The Prophecies of Kalistrade",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 75 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -5098,7 +5098,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Thermometer",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -5110,7 +5110,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Thief trainer",
-			"**Source** [Adventurer's Armory 2 pg. 14](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/14}  ",
 			"**Price** 200 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -5122,7 +5122,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Thieves' ring",
-			"**Source** [Dungeoneer's Handbook pg. 25](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/25}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tools",
 			"",
@@ -5134,7 +5134,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Thieves' tool extenders",
-			"**Source** [Dungeoneer's Handbook pg. 25](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/25}  ",
 			"**Price** 70 gp (common), 820 gp (mithral); **Weight** 3 lbs. (common), 1 1/2 lbs. (mithral)",
 			"",
 			"These long-reaching extenders can be attached to or detached from thieves' tools as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
@@ -5153,7 +5153,7 @@
 		],
 		"description": [
 			"## Thieves' tools",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/77;PRPG Core Rulebook/158}  ",
 			"**Price** 30 gp (common), 100 gp (masterwork); **Weight** 1 lb. (common), 2 lbs. (masterwork)",
 			"",
 			"This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.",
@@ -5174,7 +5174,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Thinker's tipple",
-			"**Source** [Potions and Poisons pg. 23](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/23}  ",
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
@@ -5189,7 +5189,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Thrush",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 1 sp; **Weight** 7 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5201,7 +5201,7 @@
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Thumbscrews",
-			"**Source** [Horror Adventures pg. 212](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/212}  ",
 			"**Price** 15 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)",
 			"",
 			"Both a torture and restraining device, this small, metal armature consists of two parallel, spikestudded bars that close together as the user tightens the frame's screws, crushing a victim's thumbs between them. A victim restrained by a thumbscrew is able to move but can't effectively wield weapons, hold items, or perform any actions or skill checks that require manual dexterity, taking a -5 penalty on all such actions and dealing 1d6 points of nonlethal damage to himself with each attempt (this doesn't include Escape Artist attempts to escape the thumbscrew). Spellcasters bound by thumbscrews are unable to cast spells with somatic components.",
@@ -5219,7 +5219,7 @@
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"## Thunder kettle",
-			"**Source** [Blood of the Elements pg. 19](source/blood_of_the_elements)  ",
+			"{SOURCE Blood of the Elements/19}  ",
 			"**Price** 275 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5238,7 +5238,7 @@
 		],
 		"description": [
 			"## Thurible",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Pathfinder #8: Seven Days to the Grave pg. 61](source/pathfinder_8_seven_days_to_the_grave), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Pathfinder #8: Seven Days to the Grave/61;Adventurer's Armory/19}  ",
 			"**Price** 50 gp; **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5250,7 +5250,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Thylacine",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 18 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5262,7 +5262,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Tiger",
-			"**Source** [Animal Archive](source/animal_archive)  ",
+			"{SOURCE Animal Archive}  ",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
 		]
@@ -5283,7 +5283,7 @@
 		],
 		"description": [
 			"## Tiller's gum",
-			"**Source** [Adventurer's Guide pg. 45](source/adventurers_guide), [Pathfinder #106: For Queen and Empire pg. 75](source/pathfinder_106_for_queen_and_empire)  ",
+			"{SOURCE Adventurer's Guide/45;Pathfinder #106: For Queen and Empire/75}  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5302,7 +5302,7 @@
 		],
 		"description": [
 			"## Tindertwig",
-			"**Source** [Alchemy Manual pg. 30](source/alchemy_manual), [Ultimate Equipment pg. 103](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Alchemy Manual/30;Ultimate Equipment/103;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5317,7 +5317,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Tinker's cap",
-			"**Source** [Dungeoneer's Handbook pg. 25](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/25}  ",
 			"**Price** 200 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -5329,7 +5329,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Titan's tonic",
-			"**Source** [Potions and Poisons pg. 23](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/23}  ",
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
@@ -5344,7 +5344,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Toad (vision)",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 10 gp; **Weight** 5 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5359,7 +5359,7 @@
 		],
 		"description": [
 			"## Toad",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 2 cp; **Weight** 7 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5371,7 +5371,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Tobacco",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Black Market",
 			"",
@@ -5383,7 +5383,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tome of epics",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 50 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -5398,7 +5398,7 @@
 		],
 		"description": [
 			"## Torch",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158}  ",
 			"**Price** 1 cp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5410,7 +5410,7 @@
 		"sources": [ "Goblins of Golarion" ],
 		"description": [
 			"## Tossglove",
-			"**Source** [Goblins of Golarion pg. 12](source/goblins_of_golarion)  ",
+			"{SOURCE Goblins of Golarion/12}  ",
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -5422,7 +5422,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Toucan",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5434,7 +5434,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Toxic censer",
-			"**Source** [Potions and Poisons pg. 29](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/29}  ",
 			"**Price** 115 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -5446,7 +5446,7 @@
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Track-obscuring soles",
-			"**Source** [Heroes of the Wild pg. 9](source/heroes_of_the_wild)  ",
+			"{SOURCE Heroes of the Wild/9}  ",
 			"**Price** 8 gp; **Weight** 1/2 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -5461,7 +5461,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Tracker's kit",
-			"**Source** [Dragonslayer's Handbook pg. 7](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/7}  ",
 			"**Price** 563 gp; **Weight** 33 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5473,7 +5473,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tracker's snuff",
-			"**Source** [Advanced Class Guide pg. 208](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/208}  ",
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5488,7 +5488,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Tracking powder",
-			"**Source** [Advanced Class Guide pg. 208](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/208}  ",
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5506,7 +5506,7 @@
 		],
 		"description": [
 			"## Trail rations",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/95;PRPG Core Rulebook/158}  ",
 			"**Price** 5 sp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -5518,7 +5518,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Trailscent kit",
-			"**Source** [Advanced Race Guide pg. 93](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/93}  ",
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5533,7 +5533,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Training harness",
-			"**Source** [Advanced Race Guide pg. 76](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/76}  ",
 			"**Price** 10 gp; **Weight** 10 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -5545,7 +5545,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Training sleeve",
-			"**Source** [Animal Archive pg. 12](source/animal_archive)  ",
+			"{SOURCE Animal Archive/12}  ",
 			"**Price** 100 gp; **Weight** 5 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -5557,7 +5557,7 @@
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Trapped item",
-			"**Source** [Kobolds of Golarion pg. 28](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/28}  ",
 			"**Price** 50 gp (trapped disguise kit), 40 gp (trapped scroll case); **Weight** 8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)",
 			"",
 			"Kobold artisans are constantly looking for new ways to increase the effectiveness of their traps, all while decreasing their setup time. To fit these two needs, kobold inventors have created a series of small and easy-to-use trapped items. These replica items have traps built into them, and can be armed in a standard action. They're self-contained, single-use, and as easily transportable as the items they mimic.",
@@ -5589,7 +5589,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Trapper's kit",
-			"**Source** [Dungeoneer's Handbook pg. 7](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/7}  ",
 			"**Price** 263 gp; **Weight** 90 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5601,7 +5601,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Travel cake mix",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -5613,7 +5613,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Traveler's dictionary",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 50 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5625,7 +5625,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Traveler's hookah",
-			"**Source** [Alchemy Manual pg. 18](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/18}  ",
 			"**Price** 1,500 gp; **Weight** 4 lbs.  ",
 			"**Category** Black Market",
 			"",
@@ -5641,14 +5641,14 @@
 		],
 		"description": [
 			"## Traveler's outfit",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/89;PRPG Core Rulebook/159}  ",
 			"**Price** 1 gp; **Weight** 5 lbs.  ",
 			"**Category** Clothing",
 			"",
 			"This set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.",
 			"",
 			"**Tear-away clothing**  ",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -5672,7 +5672,7 @@
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Traveler's pocket watch",
-			"**Source** [People of the Stars pg. 19](source/people_of_the_stars)  ",
+			"{SOURCE People of the Stars/19}  ",
 			"**Price** 1,000 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -5684,7 +5684,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Traveling bee hive",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 10 gp; **Weight** 10 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -5698,7 +5698,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Traveling formula book",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/77}  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -5710,7 +5710,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Traveling garden",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 200 gp; **Weight** 500 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5726,7 +5726,7 @@
 		],
 		"description": [
 			"## Traveling spellbook",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment), [Advanced Player's Guide pg. 185](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/77;Advanced Player's Guide/185;Adventurer's Armory/19}  ",
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -5741,7 +5741,7 @@
 		],
 		"description": [
 			"## Treasure chest",
-			"**Source** [Adventurer's Armory 2 pg. 12](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/12}  ",
 			"**Price** 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small); **Weight** 50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)",
 			"",
 			"A treasure chest is a common wooden chest treated with resin to make the wood water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure chest for extra reinforcement, and the lock is also typically made of bronze. A treasure chest uses the statistics of an ordinary wooden chest, but its hit points increase by 25% and its break DC increases by 2. Treasure chests are waterproof and withstand being buried better than ordinary chests"
@@ -5773,7 +5773,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Trekking pole",
-			"**Source** [Ultimate Wilderness pg. 244](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/244}  ",
 			"**Price** 15 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -5785,7 +5785,7 @@
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Trephine",
-			"**Source** [Horror Adventures pg. 212](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/212}  ",
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Torture Implements",
 			"",
@@ -5797,7 +5797,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Trespasser's boot",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 8 sp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -5814,7 +5814,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Tribal standard",
-			"**Source** [Advanced Race Guide pg. 141](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/141}  ",
 			"**Price** 50 gp; **Weight** 20 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -5826,7 +5826,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Triceratops",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 5,600 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5838,7 +5838,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Trickster's kit",
-			"**Source** [Dragonslayer's Handbook pg. 7](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/7}  ",
 			"**Price** 474 gp; **Weight** 23 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5850,7 +5850,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Troll oil",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/101}  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -5865,7 +5865,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Troll slayer's kit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 30 gp; **Weight** 17 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5880,7 +5880,7 @@
 		],
 		"description": [
 			"## Troll styptic",
-			"**Source** [Adventurer's Armory 2 pg. 24](source/adventurers_armory_2), [Seekers of Secrets pg. 43](source/seekers_of_secrets)  ",
+			"{SOURCE Adventurer's Armory 2/24;Seekers of Secrets/43}  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -5895,7 +5895,7 @@
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Tropical kit",
-			"**Source** [Heroes of the Wild pg. 9](source/heroes_of_the_wild)  ",
+			"{SOURCE Heroes of the Wild/9}  ",
 			"**Price** 120 gp; **Weight** 6 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5907,7 +5907,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Tunnel creeper",
-			"**Source** [Alchemy Manual pg. 11](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/11}  ",
 			"**Price** 280 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -5922,7 +5922,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Turtle",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/80}  ",
 			"**Price** 3 gp; **Weight** 4 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5934,7 +5934,7 @@
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Tusk blades",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/39}  ",
 			"**Price** 50 gp; **Weight** 10 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -5946,7 +5946,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Twitch tonic",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/101}  ",
 			"**Price** 45 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -5961,7 +5961,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Tylosaurus",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 4,000 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5973,7 +5973,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Tyrannosaurus",
-			"**Source** [Animal Archive pg. 14](source/animal_archive)  ",
+			"{SOURCE Animal Archive/14}  ",
 			"**Price** 8,100 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -5985,7 +5985,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Undead slayer's kit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 402 gp; **Weight** 7 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -5997,7 +5997,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Undead survivor's kit",
-			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/17}  ",
 			"**Price** 900 gp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -6009,7 +6009,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Undeath aid kit",
-			"**Source** [Undead Slayer's Handbook pg. 9](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/9}  ",
 			"**Price** 500 gp; **Weight** 1/2 lb.  ",
 			"**Category** Kits",
 			"",
@@ -6021,7 +6021,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Underground survival kit",
-			"**Source** [Adventurer's Armory 2 pg. 17](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/17}  ",
 			"**Price** 644 gp; **Weight** 30 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -6033,7 +6033,7 @@
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Underwater compass",
-			"**Source** [Blood of the Sea pg. 19](source/blood_of_the_sea)  ",
+			"{SOURCE Blood of the Sea/19}  ",
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6045,7 +6045,7 @@
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Underwater goggles",
-			"**Source** [Aquatic Adventures pg. 57](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/57}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6057,7 +6057,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Unstable accelerant",
-			"**Source** [Advanced Race Guide pg. 123](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/123}  ",
 			"**Price** 50 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6072,7 +6072,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Valet",
-			"**Source** [Ultimate Equipment pg. 99](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/99}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
@@ -6084,7 +6084,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Vampire slayer's kit",
-			"**Source** [Advanced Race Guide pg. 99](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/99}  ",
 			"**Price** 500 gp; **Weight** 8 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -6096,7 +6096,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vapors of easy breath",
-			"**Source** [Alchemy Manual pg. 25](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/25}  ",
 			"**Price** 75 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -6115,7 +6115,7 @@
 		],
 		"description": [
 			"## Varisian idol",
-			"**Source** [Varisia, Birthplace of Legends pg. 15](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Curse of the Crimson Throne Player's Guide pg. 12](source/curse_of_the_crimson_throne_players_guide)  ",
+			"{SOURCE Varisia, Birthplace of Legends/15;Rise of the Runelords Player's Guide/11;Curse of the Crimson Throne Player's Guide/12}  ",
 			"**Price** 75 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6143,7 +6143,7 @@
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Vault altimeter",
-			"**Source** [Heroes of the Darklands pg. 20](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/20}  ",
 			"**Price** 10 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6155,7 +6155,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vector ink",
-			"**Source** [Alchemy Manual pg. 9](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/9}  ",
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6173,7 +6173,7 @@
 		],
 		"description": [
 			"## Veil",
-			"**Source** [Heroes of the High Court pg. 28](source/heroes_of_the_high_court), [People of the Sands pg. 29](source/people_of_the_sands)  ",
+			"{SOURCE Heroes of the High Court/28;People of the Sands/29}  ",
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
@@ -6185,7 +6185,7 @@
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Venom trap",
-			"**Source** [Dirty Tactics Toolbox pg. 21](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/21}  ",
 			"**Price** 300 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6203,7 +6203,7 @@
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Venombane lozenges",
-			"**Source** [Potions and Poisons pg. 31](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/31}  ",
 			"**Price** 35 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -6215,7 +6215,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ventriloquist's dummy",
-			"**Source** [Occult Adventures pg. 251](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/251}  ",
 			"**Price** 100 gp; **Weight** 7 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6230,7 +6230,7 @@
 		],
 		"description": [
 			"## Vermin repellent",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/101;Adventurer's Armory/19}  ",
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -6247,7 +6247,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Vest",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 1 sp-50 gp; **Weight** 1/2 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -6259,7 +6259,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Veterinarian's kit",
-			"**Source** [Ultimate Equipment pg. 77](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/77}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
@@ -6274,7 +6274,7 @@
 		],
 		"description": [
 			"## Vial",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6286,7 +6286,7 @@
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Vigil cap",
-			"**Source** [Dungeoneer's Handbook pg. 25](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/25}  ",
 			"**Price** 400 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -6302,7 +6302,7 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vigilante's kit",
-			"**Source** [Ultimate Intrigue pg. 234](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** 8 gp; **Weight** 22 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6314,7 +6314,7 @@
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Vine tube",
-			"**Source** [Legacy of the First World pg. 7](source/legacy_of_the_first_world)  ",
+			"{SOURCE Legacy of the First World/7}  ",
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6329,7 +6329,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vivifying moxibustion needles",
-			"**Source** [Alchemy Manual pg. 25](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/25}  ",
 			"**Price** 85 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -6344,7 +6344,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Vomit capsule",
-			"**Source** [Advanced Class Guide pg. 208](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/208}  ",
 			"**Price** 12 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6359,7 +6359,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Vulture",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -6371,7 +6371,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wading boots",
-			"**Source** [Ultimate Wilderness pg. 245](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/245}  ",
 			"**Price** 50 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -6383,7 +6383,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Waffle iron",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 1 gp (common), 2,501 gp (mithral); **Weight** 5 lbs. (common), 2-1/2 lbs. (mithral)",
 			"",
 			"This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pattern. As with other mithral cookware, food rarely sticks to a mithral waffle iron."
@@ -6399,7 +6399,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wagon",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/87}  ",
 			"**Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Weight** 3 cp (heavy), 2 cp (light), 2 cp (medium)",
 			"",
 			"This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.",
@@ -6434,7 +6434,7 @@
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Wall hook",
-			"**Source** [Blood of the Sea pg. 19](source/blood_of_the_sea)  ",
+			"{SOURCE Blood of the Sea/19}  ",
 			"**Price** 2 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6449,7 +6449,7 @@
 		],
 		"description": [
 			"## Wandermeal (per day)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/95;Adventurer's Armory/19}  ",
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -6461,7 +6461,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## War spirit pouch",
-			"**Source** [Advanced Race Guide pg. 141](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/141}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -6476,7 +6476,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Warding ash",
-			"**Source** [Undead Slayer's Handbook pg. 15](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/15}  ",
 			"**Price** 100 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6491,7 +6491,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Warka jar",
-			"**Source** [Merchant's Manifest pg. 26](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/26}  ",
 			"**Price** 2 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6503,7 +6503,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Warpriest's kit",
-			"**Source** [Advanced Class Guide pg. 206](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/206}  ",
 			"**Price** 16 gp; **Weight** 31 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -6518,7 +6518,7 @@
 		],
 		"description": [
 			"## Warship",
-			"**Source** [Ultimate Equipment pg. 87](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/87;PRPG Core Rulebook/159}  ",
 			"**Price** 25,000 gp; **Price of Passage** (per mile) 2 sp  ",
 			"**Category** Transport, Sea",
 			"",
@@ -6538,7 +6538,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Wasp metheglin",
-			"**Source** [Merchant's Manifest pg. 4](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/4}  ",
 			"**Price** 400 gp; **Weight** 2 lbs.  ",
 			"**Category** Food/Drink",
 			"",
@@ -6550,7 +6550,7 @@
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Waspguts",
-			"**Source** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/50}  ",
 			"**Price** 100 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6565,7 +6565,7 @@
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Waster",
-			"**Source** [Melee Tactics Toolbox pg. 21](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/21}  ",
 			"**Price** 1 gp; **Weight** varies  ",
 			"**Category** Tools",
 			"",
@@ -6579,7 +6579,7 @@
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Watchman's kit",
-			"**Source** [Heroes of the Streets pg. 13](source/heroes_of_the_streets)  ",
+			"{SOURCE Heroes of the Streets/13}  ",
 			"**Price** 3 gp; **Weight** 10 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -6594,7 +6594,7 @@
 		],
 		"description": [
 			"## Water clock",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158}  ",
 			"**Price** 1,000 gp; **Weight** 200 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6609,7 +6609,7 @@
 		],
 		"description": [
 			"## Water purification sponge",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/103;Adventurer's Armory/19}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6627,7 +6627,7 @@
 		],
 		"description": [
 			"## Waterproof bag",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
 			"**Price** 5 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6642,7 +6642,7 @@
 		],
 		"description": [
 			"## Waterproof lantern",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6687,7 +6687,7 @@
 		],
 		"description": [
 			"## Waterskin",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6702,7 +6702,7 @@
 		],
 		"description": [
 			"## Wax key blank",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
 			"**Price** 15 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6717,7 +6717,7 @@
 		],
 		"description": [
 			"## Weapon blanch",
-			"**Source** [Ultimate Equipment pg. 103](source/ultimate_equipment), [Advanced Player's Guide pg. 184](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/103;Advanced Player's Guide/184}  ",
 			"**Price** 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver); **Weight** 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)",
 			"",
 			"These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.",
@@ -6739,7 +6739,7 @@
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Weapon blanch (ghost salt)",
-			"**Source** [Pathfinder Society Field Guide pg. 48](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Pathfinder Society Field Guide/48}  ",
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
@@ -6763,7 +6763,7 @@
 		],
 		"description": [
 			"## Weapon cord",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Advanced Player's Guide pg. 183](source/advanced_players_guide), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Advanced Player's Guide/183;Adventurer's Armory/19}  ",
 			"**Price** 1 sp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6778,7 +6778,7 @@
 		],
 		"description": [
 			"## Weasel",
-			"**Source** [Ultimate Equipment pg. 80](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/80;Adventurer's Armory/19}  ",
 			"**Price** 2 gp; **Weight** 8 oz.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -6790,7 +6790,7 @@
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Wet suit",
-			"**Source** [Aquatic Adventures pg. 57](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/57}  ",
 			"**Price** 8 gp; **Weight** 4 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -6802,7 +6802,7 @@
 		"sources": [ "People of the North" ],
 		"description": [
 			"## Whale oil",
-			"**Source** [People of the North pg. 28](source/people_of_the_north)  ",
+			"{SOURCE People of the North/28}  ",
 			"**Price** 2 sp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6814,7 +6814,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Whale",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 10,000 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -6826,7 +6826,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wheelchair",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/13}  ",
 			"**Price** 20 gp; **Weight** 25 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6838,7 +6838,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Whet bone",
-			"**Source** [Animal Archive pg. 12](source/animal_archive)  ",
+			"{SOURCE Animal Archive/12}  ",
 			"**Price** 1 sp; **Weight** 2 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -6854,7 +6854,7 @@
 		],
 		"description": [
 			"## Whetstone",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19;PRPG Core Rulebook/158}  ",
 			"**Price** 2 cp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6866,7 +6866,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Whip, training",
-			"**Source** [Advanced Race Guide pg. 76](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/76}  ",
 			"**Price** 5 gp; **Weight** 2 lbs.  ",
 			"**Category** Animal Gear",
 			"",
@@ -6878,7 +6878,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Whiskey (cup)",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 1 sp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -6895,7 +6895,7 @@
 		],
 		"description": [
 			"## Whistle",
-			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Advanced Player's Guide pg. 183](source/advanced_players_guide), [PRPG Core Rulebook pg. 158](source/prpg_core_rulebook), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/57;Advanced Player's Guide/183;PRPG Core Rulebook/158;Adventurer's Armory/19}  ",
 			"**Price** 8 sp (signal), 9 sp (silent); **Weight** - (signal), - (silent)",
 			"",
 			"With a DC 5 Perform (wind instruments) check, you can use a whistle to signal the same sorts of situations as signal horns. A whistle's piercing report can be clearly heard (Perception DC 0) up to a quarter-mile away. For each quarter-mile beyond, Perception checks to hear a whistle take a -2 penalty. Silent whistles that only animals and other creatures with keen hearing can hear also exist."
@@ -6918,7 +6918,7 @@
 		],
 		"description": [
 			"## Wig",
-			"**Source** [Ultimate Equipment pg. 89](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
 			"**Price** 5 gp-500 gp; **Weight** 1/2 lb.-4 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -6930,7 +6930,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wild-blood concoction",
-			"**Source** [Adventurer's Armory 2 pg. 27](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/27}  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
@@ -6945,7 +6945,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wilderness wanderer package",
-			"**Source** [Adventurer's Armory 2 pg. 5](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/5}  ",
 			"**Price** 1000 gp; **Weight** 108 1/2 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -6967,7 +6967,7 @@
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Wind chime",
-			"**Source** [Occult Adventures pg. 251](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/251}  ",
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -6979,7 +6979,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wind platform",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/27}  ",
 			"**Price** 5,000 gp; **Weight** 1,600 lbs.  ",
 			"**Category** Transport, Air",
 			"",
@@ -6997,7 +6997,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Windup music box",
-			"**Source** [Ultimate Wilderness pg. 245](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/245}  ",
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7012,7 +7012,7 @@
 		],
 		"description": [
 			"## Wine",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/95;PRPG Core Rulebook/159}  ",
 			"**Price** 2 sp (common, pitcher), 10 gp (fine, bottle); **Weight** 6 lbs. (common, pitcher), 1-1/2 lbs. (fine, bottle)",
 			"",
 			"Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even rice (sake). The lower listed price is for unremarkable common wine and the higher is for significantly finer wine, though wine from certain vintners (and specific years) may fetch much higher prices. In colder climates, wine is often mulled with fruit, spices, honey, and almonds and served as a warming beverage during the winter."
@@ -7031,7 +7031,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wing cloak",
-			"**Source** [Advanced Race Guide pg. 159](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/159}  ",
 			"**Price** 1,200 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
@@ -7043,7 +7043,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wing hobble",
-			"**Source** [Dragonslayer's Handbook pg. 27](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/27}  ",
 			"**Price** 75 gp; **Weight** 1-20 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7055,7 +7055,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wing hooks",
-			"**Source** [Ultimate Wilderness pg. 13](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/13}  ",
 			"**Price** 150 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
@@ -7067,7 +7067,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wing oil",
-			"**Source** [Advanced Race Guide pg. 165](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/165}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -7082,7 +7082,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Wing sheaths",
-			"**Source** [Adventurer's Armory 2 pg. 13](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/13}  ",
 			"**Price** 10 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7094,7 +7094,7 @@
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Wing staff",
-			"**Source** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/50}  ",
 			"**Price** 1,000 gp; **Weight** 6 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7106,7 +7106,7 @@
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Winged fetish",
-			"**Source** [Faiths of Balance pg. 25](source/faiths_of_balance)  ",
+			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Pharasma",
@@ -7122,7 +7122,7 @@
 		],
 		"description": [
 			"## Winterbite",
-			"**Source** [Ultimate Wilderness pg. 155](source/ultimate_wilderness), [Heroes of the Wild pg. 10](source/heroes_of_the_wild)  ",
+			"{SOURCE Ultimate Wilderness/155;Heroes of the Wild/10}  ",
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Herbs  ",
 			"**Gather** DC 11; **Yield** 1d4 doses  ",
@@ -7138,7 +7138,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wire saw",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 150 gp (adamantine), 30 gp (common); **Weight** - (adamantine), - (common)",
 			"",
 			"This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with hardness 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).",
@@ -7156,7 +7156,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wire",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7174,7 +7174,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wismuth salix",
-			"**Source** [Ultimate Equipment pg. 101](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/101}  ",
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -7189,7 +7189,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Witch's kit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 21 gp; **Weight** 21 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -7201,7 +7201,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wizard's kit",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 21 gp; **Weight** 21 lbs.  ",
 			"**Category** Kits",
 			"",
@@ -7213,7 +7213,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Woad painting",
-			"**Source** [Advanced Class Guide pg. 208](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/208}  ",
 			"**Price** 300 gp (kit), 60 gp (paint, 1 block); **Weight** 1 lb. (kit), - (paint, 1 block)",
 			"",
 			"Though associated with the woad plant, the alchemical ingredients of this blue paste can vary considerably. When preparing a spell, you can grind the spell's material components and mix them into this paste to paint the components directly onto your flesh, allowing you to cast that spell as if you had applied Eschew Materials. Additionally, by painting complex woad designs that symbolize gestures for 10 minutes and succeeding at a Spellcraft check with a DC equal to 15 + the spell level, you can also cast the spell as if you had applied Still Spell. You can have only one spell painted on you in this way at a time, and if you cast the prepared spell or the paint is removed for any reason, the effects of the woad paint are spent.",
@@ -7237,7 +7237,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Wolf",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -7249,7 +7249,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Wolfsbane",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 5 sp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
@@ -7261,7 +7261,7 @@
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Wolverine",
-			"**Source** [Animal Archive pg. 15](source/animal_archive)  ",
+			"{SOURCE Animal Archive/15}  ",
 			"**Price** 125 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -7273,7 +7273,7 @@
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Woolly mammoth",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/39}  ",
 			"**Price** 4,500 gp (combat-trained), 3,000 gp (normal); **Weight** 6 tons (combat-trained), 6 tons (normal)",
 			"",
 			"Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
@@ -7295,7 +7295,7 @@
 		],
 		"description": [
 			"## Woolly rhinoceros",
-			"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source/belkzen_hold_of_the_orc_hordes)  ",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/39}  ",
 			"**Price** 3,000 gp (combat-trained), 2,000 gp (common), 2,000 gp (normal); **Weight** 3 tons (combat-trained), - (common), 3 tons (normal)",
 			"",
 			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
@@ -7322,7 +7322,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Wrangler's gloves",
-			"**Source** [Monster Hunter's Handbook pg. 27](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/27}  ",
 			"**Price** 20 gp; **Weight** 6 lbs.  ",
 			"**Category** Clothing",
 			"",
@@ -7334,7 +7334,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Wrist sheath (spring loaded)",
-			"**Source** [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Adventurer's Armory/19}  ",
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7349,7 +7349,7 @@
 		],
 		"description": [
 			"## Wrist sheath",
-			"**Source** [Ultimate Equipment pg. 58](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -7361,7 +7361,7 @@
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wyrm pesh",
-			"**Source** [Dragonslayer's Handbook pg. 19](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/19}  ",
 			"**Price** 500 gp; **Weight** -  ",
 			"**Category** Dragoncraft",
 			"",
@@ -7381,7 +7381,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Wyrm's breath bitter",
-			"**Source** [Alchemy Manual pg. 13](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/13}  ",
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
@@ -7396,7 +7396,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Yak",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/81}  ",
 			"**Price** 24 gp; **Weight** 1,000 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
@@ -7408,7 +7408,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Yenchaburian hybrid",
-			"**Source** [Merchant's Manifest pg. 27](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/27}  ",
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Food/Drink",
 			"",
@@ -7420,7 +7420,7 @@
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Yogurt",
-			"**Source** [Ultimate Equipment pg. 95](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/95}  ",
 			"**Price** 1 sp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
@@ -7432,7 +7432,7 @@
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Zip-line hook",
-			"**Source** [Villain Codex pg. 128](source/villain_codex)  ",
+			"{SOURCE Villain Codex/128}  ",
 			"**Price** 55 gp (masterwork), 5 gp (normal); **Weight** 1 lb. (masterwork), 1 lb. (normal)",
 			"",
 			"This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked onto a rope or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a move action instead of climbing at her normal speed, but the user must take at least one move action doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 Climb check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.",
@@ -7458,7 +7458,7 @@
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Zombie slayer's kit",
-			"**Source** [Undead Slayer's Handbook pg. 15](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/15}  ",
 			"**Price** 170 gp; **Weight** 31 lbs.  ",
 			"**Category** Kits",
 			"",

@@ -14,7 +14,7 @@
 		"description": [
 			"## Ear Seekers",
 			"",
-			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)  ",
+			"{SOURCE GameMastery Guide/244}  ",
 			"**Type** infestation; **Save** Fortitude DC 15  ",
 			"**Onset** 4d6 hours; **Frequency** 1/hour  ",
 			"**Effect** 1d6 Con damage",
@@ -28,7 +28,7 @@
 		"description": [
 			"## Fractal Etch",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/24}  ",
 			"**Type** infestation, nanite, injury; **Fortitude Save* DC 15  ",
 			"**Onset** 1 week; **Frequency** 1/day  ",
 			"**Effect** 1 negative level. Such negative levels never become permanent, but as long as the victim remains infested, they cannot be removed. A creature that dies from this sickness cannot rise as undead.  ",
@@ -43,7 +43,7 @@
 		"description": [
 			"## Rot Grubs",
 			"",
-			"**Source** [GameMastery Guide pg. 244](source/gamemastery_guide)  ",
+			"{SOURCE GameMastery Guide/244}  ",
 			"**Type** infestation; **Save** Fortitude DC 17  ",
 			"**Onset** immediate; **Frequency** 1/round  ",
 			"**Effect** 1d2 Con damage per grub",
@@ -61,7 +61,7 @@
 		"description": [
 			"## Soldier's Peace",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 24](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/24}  ",
 			"**Type** infestation, nanite, injury; **Fortitude Save* DC 15  ",
 			"**Onset** 1 day; **Frequency** special, maximum once per round  ",
 			"**Effect** If the victim damages or attempts to damage another creature, even by accident, she must succeed at a saving throw or be nauseated with excruciating pain for 1 round, then sickened for 1d4 additional rounds. A successful saving throw eliminates the nausea and reduces the sickened effect to 1 round. Sufficiently violent thoughts (GM's discretion) require a saving throw as well. The nanites make no allowances for harming unintelligent or nonliving creatures, but do allow the destruction of objects. If the victim doesn't notice she hurt a creature (such as stepping on an ant), no ill effects occur.  ",
@@ -76,7 +76,7 @@
 		"description": [
 			"## Thought Crawlers",
 			"",
-			"**Source** [Numeria, Land of Fallen Stars pg. 25](source/numeria_land_of_fallen_stars)  ",
+			"{SOURCE Numeria, Land of Fallen Stars/25}  ",
 			"**Type** infestation, nanite, injury; **Fortitude Save* DC 16  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
 			"**Effect** 1d2 Intelligence and 1d2 Wisdom damage; see below  ",

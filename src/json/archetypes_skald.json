@@ -5,7 +5,7 @@
 		"description": [
 			"## Augur",
 			"",
-			"**Source** [Arcane Anthology pg. 25](source/arcane_anthology)  ",
+			"{SOURCE Arcane Anthology/25}  ",
 			"Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history. Most historians find it more likely that a Bekyar skald spent time in Nex, was exposed to the idea of divination as a tool of war from a copy of Cold Irony, and fabricated tales of how that knowledge came to be in his hands.",
 			"",
 			"**Monster Insight (Ex):** At 2nd level, the augur applies his Charisma modifier in addition to his Intelligence modifier when attempting Knowledge checks to identify the abilities and weaknesses of creatures. Monster insight counts as the monster lore class feature for prerequisites. This ability replaces well-versed.",
@@ -21,7 +21,7 @@
 		"description": [
 			"## Bacchanal",
 			"",
-			"**Source** [Ultimate Wilderness pg. 84](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/84}  ",
 			"Bacchanals are skalds who use ecstatic dancing and ribald songs to influence the primal instincts of listeners. To these skalds, the passionate frenzy of a celebration or feast shares many features with the violence of combat, and several of their talents blur the line between festival and battle in dramatic ways.",
 			"",
 			"**Fermented Fruit (Sp):** A bacchanal adds goodberry to his list of 1st-level skald spells known. In addition, he can cast it as a spell-like ability once per day. When he casts goodberry as a spell or spell-like ability, the targeted berries ferment; this causes each berry to act as a serving of an alcoholic beverage. A creature that eats a fermented berry does not gain a meal's nourishment, but it is cured of 1 point of damage and becomes slightly foolhardy as if tipsy, gaining a +1 bonus on saves against fear effects for 1 minute after eating the berry.",
@@ -53,7 +53,7 @@
 		"description": [
 			"## Battle Scion",
 			"",
-			"**Source** [Ultimate Intrigue pg. 48](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/48}  ",
 			"The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess. She is a warrior-poet, as skilled with her words as she is with blades. Battle scions sometimes rule as queens over courts of brave knights who scour the world championing bold quests.",
 			"",
 			"**Courtly Presence (Ex):** At 1st level, a battle scion's bearing radiates command and presence, allowing her to tower over her opponents in social situations. The battle scion adds 1/2 her character level to Intimidate checks, and she starts any verbal duel with an extra edge that she can use for the presence tactic so long as she is not at a significant or extreme disadvantage in the duel. However, her bardic knowledge ability applies to only Knowledge (geography), Knowledge (history), Knowledge (local), and Knowledge (nobility).",
@@ -83,7 +83,7 @@
 		"description": [
 			"## Bekyar Demon Dancer",
 			"",
-			"**Source** [Advanced Class Origins pg. 18](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/18}  ",
 			"While the twisted power of the demon-worshiping Bekyar's skalds is great, it comes at a terrible price.",
 			"",
 			"**Skills:** A Bekyar demon dancer gains Perform (dance) as a class skill.",
@@ -103,7 +103,7 @@
 		"description": [
 			"## Belkzen War Drummer",
 			"",
-			"**Source** [Advanced Class Origins pg. 19](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/19}  ",
 			"These fierce drummers are equally adept at tapping out a driving rhythm and rapping enemies upside the head with the same massive clubs they use to beat the crude hidecovered drums they carry into battle.",
 			"",
 			"**Weapon Proficiency:** A war drummer is proficient with all simple weapons and the greatclub.",
@@ -125,7 +125,7 @@
 		"description": [
 			"## Boaster",
 			"",
-			"**Source** [Ultimate Wilderness pg. 84](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/84}  ",
 			"Boasters use incredible tales and claims to challenge themselves and their allies to accomplish remarkable feats. With a properly delivered boast, a boaster can inspire listeners to attempt, and more often than not, succeed at stunts or tasks they may not have realized they were capable of doing.",
 			"",
 			"**Endurance:** The boaster gains [Endurance](feat/endurance) as a bonus feat.",
@@ -163,7 +163,7 @@
 		"description": [
 			"## Bold Schemer",
 			"",
-			"**Source** [Ultimate Intrigue pg. 48](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/48}  ",
 			"The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways, often through infiltration and deception. If raw force of arms is insufficient, she improvises ways to pull victory from the jaws of defeat.",
 			"",
 			"**Skills:** A bold schemer gains Disable Device, Sleight of Hand, and Stealth as class skills, instead of Knowledge (arcana), Knowledge (dungeoneering), and Knowledge (planes). Her bardic knowledge does not apply to those skills.",
@@ -189,7 +189,7 @@
 		"description": [
 			"## Court Poet",
 			"",
-			"**Source** [Heroes of the High Court pg. 6](source/heroes_of_the_high_court)  ",
+			"{SOURCE Heroes of the High Court/6}  ",
 			"Many courts are places of artistic refinement, attracting those performers who wish to revel in an aristocratic art scene. Such artists may aim to become a darling of the court, focusing on the aesthetic requirements of a particular tradition as well as learning details about that court's history and culture. Court poets elevate the skald's love of history and poetry to an aristocratic ideal, captivating courts with complicated poetic traditions and inspiring others with their craft. Some court poets go on to create their own works, weaving their magic and force of personality into their unique performances.",
 			"",
 			"**Raging Song (Su):** A court poet gains the following raging songs, allowing her to use oratory, music, and other performances to elevate the aesthetic sensibilities of her allies.",
@@ -213,7 +213,7 @@
 		"description": [
 			"## Dragon Skald",
 			"",
-			"**Source** [Advanced Class Origins pg. 19](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/19}  ",
 			"The Ulfen prize skalds on sea raids and linnorm hunts. Dragon skald performances involve song, whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to whistle up a wind or sing away the mists on the morning of a momentous raid.",
 			"",
 			"**Wind Whistler (Su):** At 1st level, a dragon skald adds alter winds, fog cloud, and obscuring mist to his class spell list, at the same levels the wizard gains them. He still must add these spells to his spells known as normal. This ability replaces Scribe Scroll.",
@@ -233,7 +233,7 @@
 		"description": [
 			"## Elegist",
 			"",
-			"**Source** [Pathfinder: Spiral of Bones #4 pg. 29](source/pathfinder_spiral_of_bones_4)  ",
+			"{SOURCE Pathfinder Spiral of Bones #4/29}  ",
 			"Some skalds internalize the saddest and must mournful of stories, so much that they are able to manifest the emotions caused by these tales in physical form. These spirits are able to inflict the misery onto the elegist's enemies.",
 			"",
 			"**Melancholic Apparition (Su):** By using music, oration, and similar performances, an elegist can call forth a physical manifestation of the sorrow of his tales. This functions as a spiritualist's phantom with the despair focus. He can manifest his melancholic apparition as a standard action and dismiss it as a free action. The phantom appears adjacent to the skatd and can act immediately. The melancholic apparition is immediately dismissed if the elegist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round to maintain the performance that keeps the phantom manifested. At 1st level, an elegist can keep his apparition manifested for a total number of rounds each day equal to 3 + his Charisma modifier. For each skald level beyond 1st, he can manifest his apparition 2 additional rounds per day.",
@@ -259,7 +259,7 @@
 		"description": [
 			"## Fated Champion",
 			"",
-			"**Source** [Advanced Class Guide pg. 114](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/114}  ",
 			"Many cultures see fate as a limit that is both stifling and unwanted, regardless of the destiny that lurks in the days and years ahead. Among cultures where skalds are the keepers of lore and wisdom, there are those who learn to read the winds of fate and take up the mantle of the fated champion, knowing and embracing their destined paths with strength borne of conviction.",
 			"",
 			"**Watcher of the Weave (Ex):** At 2nd level, a fated champion learns to see the tapestry of events moments before it is woven. He gains an insight bonus on initiative checks equal to 1/2 his skald level. This ability replaces well-versed.",
@@ -279,7 +279,7 @@
 		"description": [
 			"## Herald of the Horn",
 			"",
-			"**Source** [Advanced Class Guide pg. 115](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/115}  ",
 			"Even the loudest voice can often times be drowned out by the din of battle. Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his raging song with thunderous blasts, which can bolster allies or shatter castle walls.",
 			"",
 			"**Arcane Bond (Ex):** At 1st level, a herald of the horn forms a powerful bond with a horn (musical instrument). This functions like an arcane bloodline sorcerer's arcane bond with an object. Like a weapon, wand, or staff, the horn must be held in one hand when the herald of the horn casts skald spells. This ability replaces Scribe Scroll.",
@@ -299,7 +299,7 @@
 		"description": [
 			"## Hunt Caller",
 			"",
-			"**Source** [Ultimate Wilderness pg. 85](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/85}  ",
 			"Hunt callers are skalds whose songs draw their allies into the animal world. They can invoke the inner beasts of those who observe their supernatural performances-a talent that causes many to mistake the hunt caller and her allies for lycanthropes or other shapechanging creatures.",
 			"",
 			"**Raging Song (Su):** A hunt caller gains access to the following raging songs.",
@@ -331,7 +331,7 @@
 		"description": [
 			"## Instigator",
 			"",
-			"**Source** [Ultimate Intrigue pg. 49](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/49}  ",
 			"The instigator influences the will of the people, turning them toward his own purposes. Regardless of whether what the instigator says is true or not, he inflames emotions in others and suspends their reason. Instigators are often revolutionaries, political or otherwise, but they might also be warmongering firebrands or wicked souls who spread prejudice against others.",
 			"",
 			"**Raging Song (Su):** An instigator gains the following raging songs.",
@@ -357,7 +357,7 @@
 		"description": [
 			"## Red Tongue",
 			"",
-			"**Source** [Blood of the Beast pg. 26](source/blood_of_the_beast)  ",
+			"{SOURCE Blood of the Beast/26}  ",
 			"In the young tengu nation of Kwanlai, politicos argue endlessly over how best to rule and guide a people who have been parasites and vassals to other nations for millennia. The tengu tendency toward dramatic flourishes and rhetoric only complicates this debate, creating an environment in which political clubs led by hot-blooded firebrands-referred to as red tongues in polite company-dominate the political scene by swaying emotions in the moment and wielding magic in the shadows. Many political debates in Hisuikarasu end in violent brawls or daring duels.",
 			"",
 			"**Great Orator:** A red tongue can activate his raging song performances only by using the Perform (oratory) skill. He must select Perform (oratory) as his versatile performance choice at 2nd level.",
@@ -383,7 +383,7 @@
 		"description": [
 			"## Serpent Herald",
 			"",
-			"**Source** [Legacy of the First World pg. 28](source/legacy_of_the_first_world)  ",
+			"{SOURCE Legacy of the First World/28}  ",
 			"Warrior bands devoted to Ragadahn are often led by a serpent herald, whose deep roars shake the earth itself. Rumors tell of waves of snakes slithering forth from their nests in awe as these bellowing commanders take on serpentine features.",
 			"",
 			"**Serpentine Rage (Su):** At 3rd level, a serpent herald can call down Ragadahn's features onto his allies. Allies affected by the serpent herald's inspired rage ability gain a serpentine aspect of the serpent herald's choice (all affected allies gain the same aspect). The serpent herald may choose from the following aspects: movement (+8 competence bonus on Climb and Swim checks, and targets can take 10 on these checks even when rushed or threatened), scales (+2 natural armor bonus), senses (low-light vision and scent), or a natural bite attack (1d4 damage for a Medium creature plus poison [bite-injury; save Fortitude DC 10 + half the serpent herald's class level + his Constitution modifier; frequency 1/round for 6 rounds; effect 1 Constitution damage, cure 1 save]). This is a polymorph effect; a creature under another polymorph effect, such as wild shape, does not gain the aspect. If the serpent herald grants one of these aspects to himself, he also gains the ability to speak with animals (reptiles and creatures with the aquatic subtype only) for as long as he has the aspect. The serpent herald must have the inspired rage raging song to use this ability.",
@@ -407,7 +407,7 @@
 		"description": [
 			"## Spell Warrior",
 			"",
-			"**Source** [Advanced Class Guide pg. 116](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/116}  ",
 			"The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies. With a clash of bracers and a sonorous chant, the Spell Warrior's song reaches out to touch the weapons of his allies, lending them arcane power. While his song does not inspire rage, he can use the power of his music to enchant the weapons of his allies and counter the spells of his foes.",
 			"",
 			"**Improved Counterspell:** At 1st level, the spell warrior receives the [Improved Counterspell](feat/improved_counterspell) feat as a bonus feat. This ability replaces Scribe Scroll.",
@@ -441,7 +441,7 @@
 		"description": [
 			"## Sunsinger",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 33](source/qadira_jewel_of_the_east)  ",
+			"{SOURCE Qadira, Jewel of the East/33}  ",
 			"Qadiran sunsingers are particularly religious skalds of Sarenrae who call down their goddess's glory to fill soldiers with fire.",
 			"",
 			"**Alignment:** A sunsinger skald must be lawful good, neutral good, or neutral, and must worship Sarenrae.",
@@ -463,7 +463,7 @@
 		"description": [
 			"## Totem Channeler",
 			"",
-			"**Source** [Disciple's Doctrine pg. 24](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/24}  ",
 			"Some Shoanti skalds discover deeper truths in their tribes' totems. These skalds, known as totem channelers, learn how to share the totems' gifts with their allies in the heat of battle.",
 			"",
 			"**Totemic Versatility (Ex):** When a totem channeler learns a new rage power, he can select from more than one group of totem rage powers, even though he normally could not do so. Totem rage powers grant benefits related to a theme, are organized in groups of three, and usually have the word \"totem\" in their name. When the totem channeler starts an inspired rage raging song, he can add totem rage powers from only one group at a time. He can change the group of added totem rage powers by ending the current inspired rage and starting a new one.",
@@ -485,7 +485,7 @@
 		"description": [
 			"## Totemic Skald",
 			"",
-			"**Source** [Advanced Class Guide pg. 117](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/117}  ",
 			"The totemic skald forms a close connection to an animal totem. Through the power of this mystical ally, the skald can change shapes, assuming its form as his own. Additionally, the totem animal grants the skald a measure of its spiritual power that he can share with his allies.",
 			"",
 			"**Totem (Su):** At 3rd level, the totemic skald chooses one animal from the hunter's [animal focus list](ability/animal_foci). Once selected, this choice cannot be changed. This animal becomes the skald's personal totem animal and influences his later abilities. He gains the following rage power.",
@@ -511,7 +511,7 @@
 		"description": [
 			"## Twilight Speaker",
 			"",
-			"**Source** [Heroes from the Fringe pg. 12](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/12}  ",
 			"From the extraordinarily reclusive Snowcaster elves come the twilight speakers, who consider it a sacred duty to seek out and befriend non-elven communities. These elves travel among outsiders as envoys, diplomats, traders, and even spies as events demand. Deeply devoted to the elven goddess Findeladlara, twilight speakers wander far and wide, vigilant for threats to their homes and their people.",
 			"",
 			"Twilight speaker is a skald archetype that is available only to elves.",
@@ -551,7 +551,7 @@
 		"description": [
 			"## Undying Word",
 			"",
-			"**Source** [People of the Wastes pg. 5](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/5}  ",
 			"Some who have survived the Mana Wastes cannot accept defeat, and those who have learned to speak the undying word can lend others the strength to endure.",
 			"",
 			"**Bonus Feat:** At 1st level and every 6 skald levels thereafter, an undying word gains a bonus feat in addition to those gained from normal advancement. He must meet the prerequisites for the feat, and it must include [Endurance](feat/endurance) as a prerequisite or be selected from the following list: [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), or [Improved Great Fortitude](feat/improved_great_fortitude).",
@@ -583,7 +583,7 @@
 		"description": [
 			"## Urban Skald",
 			"",
-			"**Source** [Heroes of the Streets pg. 25](source/heroes_of_the_streets)  ",
+			"{SOURCE Heroes of the Streets/25}  ",
 			"The urban skald finds that challenging and mocking foes is sometimes more effective than inspiring uncontrolled rage in a city.",
 			"",
 			"**Weapon and Armor Proficiency:** An urban skald is not proficient with medium armor. This ability modifies the skald's weapon and armor proficiencies.",
@@ -609,7 +609,7 @@
 		"description": [
 			"## War Painter",
 			"",
-			"**Source** [Blood of the Beast pg. 10](source/blood_of_the_beast)  ",
+			"{SOURCE Blood of the Beast/10}  ",
 			"The gripplis of the Valashmai Jungle exhibit savage strength for their size-attributed in part to the frightful magical pigments applied to their skin by the tribes' mystical lore keepers.",
 			"",
 			"**Furious Paint (Su):** By spending 10 minutes preparing and applying special paints to his or an ally's skin, a war painter can create patterns that store the effects of one of his raging songs. The war painter must expend 1 or more rounds of his raging song class ability while anointing the ally, and the paint retains its potency until the war painter recovers his daily uses of raging song. The ally can activate the paint as a move action, gaining the benefits of the raging song, including any rage powers as appropriate. This effect lasts a number of rounds equal to the rounds of raging song the war painter expended + the war painter's ranks in Craft (calligraphy, paintings, or tattoos)-but no more than double the number of rounds of raging song expended. By halving the remaining number of rounds of raging song, an ally can suspend the paint's effects as a free action and activate the paint again later as a move action.",
@@ -635,7 +635,7 @@
 		"description": [
 			"## Warlord",
 			"",
-			"**Source** [Ultimate Intrigue pg. 49](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/49}  ",
 			"The warlord wields his force of personality like a weapon, intimidating his allies and ensuring that his followers heed his commands. The warlord doesn't inspire his followers so much as instill fear in them. Always watching his foes for moments of vulnerability, the warlord seeks to exploit his enemies' weaknesses to gain victory.",
 			"",
 			"**Intimidating Prowess:** A warlord gains [Intimidating Prowess](feat/intimidating_prowess) as a bonus feat.",
@@ -667,7 +667,7 @@
 		"description": [
 			"## Wyrm Singer",
 			"",
-			"**Source** [Legacy of Dragons pg. 14](source/legacy_of_dragons)  ",
+			"{SOURCE Legacy of Dragons/14}  ",
 			"Wyrm singers spin fragments of the story of the ongoing struggle between noble Apsu and wicked Dahak.",
 			"",
 			"**Wyrm Song (Su):** A wyrm singer gains the following raging songs.",

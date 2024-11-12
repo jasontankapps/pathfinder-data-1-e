@@ -16,7 +16,7 @@
 		],
 		"description": [
 			"## Barding",
-			"**Source** [Ultimate Equipment pg. 81](source/ultimate_equipment), [PRPG Core Rulebook pg. 159](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/81;PRPG Core Rulebook/159}  ",
 			"**Price** &times;4 (Large creature), &times;2 (Medium creature); **Weight** &times;2 (Large creature), &times;1 (Medium creature)",
 			"",
 			"Barding is a type of armor that covers the head, neck, chest, body, and possibly legs of a horse or other mount. Barding made of medium or heavy armor provides better protection than light barding, but at the expense of speed. Barding can be made of any armor type.",
@@ -44,7 +44,7 @@
 		],
 		"description": [
 			"## Armored kilt",
-			"**Source** [Adventurer's Armory pg. 18](source/adventurers_armory), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting)  ",
+			"{SOURCE Adventurer's Armory/18;Pathfinder Campaign Setting/211}  ",
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** +6; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.",
@@ -60,7 +60,7 @@
 		],
 		"description": [
 			"## Haramaki",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.",
@@ -73,7 +73,7 @@
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Martial arts training gear",
-			"**Source** [Merchant's Manifest pg. 11](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/11}  ",
 			"**Cost** 45 gp **Weight** 5 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.",
@@ -89,7 +89,7 @@
 		],
 		"description": [
 			"## Padded",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 5 gp **Weight** 10 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.",
@@ -105,7 +105,7 @@
 		],
 		"description": [
 			"## Quilted cloth",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 100 gp **Weight** 15 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.",
@@ -118,7 +118,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Reinforced tunic",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 1 gp **Weight** 5 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** +5; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.",
@@ -134,7 +134,7 @@
 		],
 		"description": [
 			"## Silken ceremonial",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 129](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/129}  ",
 			"**Cost** 30 gp **Weight** 4 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.",
@@ -150,7 +150,7 @@
 		],
 		"description": [
 			"## Lamellar cuirass",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 15 gp **Weight** 8 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** +4; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.",
@@ -166,7 +166,7 @@
 		],
 		"description": [
 			"## Leather",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 10 gp **Weight** 15 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** +6; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.",
@@ -183,7 +183,7 @@
 		],
 		"description": [
 			"## Rosewood armor",
-			"**Source** [Adventurer's Armory pg. 18](source/adventurers_armory), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting), [Conquest of Bloodsworn Vale pg. 32](source/conquest_of_bloodsworn_vale)  ",
+			"{SOURCE Adventurer's Armory/18;Pathfinder Campaign Setting/211;Conquest of Bloodsworn Vale/32}  ",
 			"**Cost** 50 gp **Weight** 15 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** +6; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.",
@@ -196,7 +196,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Varisian dancing scarves",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 150 gp **Weight** 8 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** &mdash;%; **Speed** 30 ft./20 ft.",
@@ -212,7 +212,7 @@
 		],
 		"description": [
 			"## Hellknight leather",
-			"**Source** [Adventurer's Guide pg. 96](source/adventurers_guide), [Path of the Hellknight pg. 63](source/path_of_the_hellknight)  ",
+			"{SOURCE Adventurer's Guide/96;Path of the Hellknight/63}  ",
 			"**Cost** 30 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -229,7 +229,7 @@
 		],
 		"description": [
 			"## Hide shirt",
-			"**Source** [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide)  ",
+			"{SOURCE Varisia, Birthplace of Legends/14;Rise of the Runelords Player's Guide/11;Curse of the Crimson Throne Player's Guide/13}  ",
 			"**Cost** 20 gp **Weight** 18 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +4; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -247,7 +247,7 @@
 		],
 		"description": [
 			"## Leaf armor",
-			"**Source** [Inner Sea World Guide pg. 291](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurers_armory), [Gallery of Evil pg. 31](source/gallery_of_evil), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting)  ",
+			"{SOURCE Inner Sea World Guide/291;Adventurer's Armory/18;Gallery of Evil/31;Pathfinder Campaign Setting/211}  ",
 			"**Cost** 500 gp **Weight** 20 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** 0  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -263,7 +263,7 @@
 		],
 		"description": [
 			"## Parade",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/9;Adventurer's Armory/5}  ",
 			"**Cost** 25 gp **Weight** 20 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -276,7 +276,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Spider-silk bodysuit",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 850 gp **Weight** 4 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +6; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.",
@@ -295,7 +295,7 @@
 		],
 		"description": [
 			"## Studded leather",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 25 gp **Weight** 20 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -311,7 +311,7 @@
 		],
 		"description": [
 			"## Wooden",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 20 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +3; **Max Dex Bonus** +3; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.",
@@ -327,7 +327,7 @@
 		],
 		"description": [
 			"## Chain shirt",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 100 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +4; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.",
@@ -343,7 +343,7 @@
 		],
 		"description": [
 			"## Lamellar (leather)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 60 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.",
@@ -359,7 +359,7 @@
 		],
 		"description": [
 			"## Armored coat",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 50 gp **Weight** 20 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.",
@@ -372,7 +372,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Chain coat",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 75 gp **Weight** 40 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +5; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.",
@@ -385,7 +385,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Erutaki coat",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 80 gp **Weight** 24 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.",
@@ -401,7 +401,7 @@
 		],
 		"description": [
 			"## Hide",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 15 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +4; **Armor Check Penalty** -3  ",
 			"**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.",
@@ -417,7 +417,7 @@
 		],
 		"description": [
 			"## Do-maru",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 200 gp **Weight** 30 lbs.  ",
 			"**Armor Bonus** +5; **Max Dex Bonus** +4; **Armor Check Penalty** -4  ",
 			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.",
@@ -436,7 +436,7 @@
 		],
 		"description": [
 			"## Kikko",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 250 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +5; **Max Dex Bonus** +4; **Armor Check Penalty** -3  ",
 			"**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.",
@@ -452,7 +452,7 @@
 		],
 		"description": [
 			"## Lamellar (horn)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 100 gp **Weight** 30 lbs.  ",
 			"**Armor Bonus** +5; **Max Dex Bonus** +3; **Armor Check Penalty** -4  ",
 			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.",
@@ -468,7 +468,7 @@
 		],
 		"description": [
 			"## Scale mail",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 50 gp **Weight** 30 lbs.  ",
 			"**Armor Bonus** +5; **Max Dex Bonus** +3; **Armor Check Penalty** -4  ",
 			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.",
@@ -484,7 +484,7 @@
 		],
 		"description": [
 			"## Agile breastplate",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 400 gp **Weight** 25 lbs.  ",
 			"**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -4  ",
 			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.",
@@ -500,7 +500,7 @@
 		],
 		"description": [
 			"## Breastplate",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 200 gp **Weight** 30 lbs.  ",
 			"**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -4  ",
 			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.",
@@ -516,7 +516,7 @@
 		],
 		"description": [
 			"## Chainmail",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 150 gp **Weight** 40 lbs.  ",
 			"**Armor Bonus** +6; **Max Dex Bonus** +2; **Armor Check Penalty** -5  ",
 			"**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.",
@@ -532,7 +532,7 @@
 		],
 		"description": [
 			"## Four-mirror",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 125 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +6; **Max Dex Bonus** +2; **Armor Check Penalty** -5  ",
 			"**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.",
@@ -551,7 +551,7 @@
 		],
 		"description": [
 			"## Lamellar (steel)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 150 gp **Weight** 35 lbs.  ",
 			"**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -5  ",
 			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.",
@@ -567,7 +567,7 @@
 		],
 		"description": [
 			"## Mountain pattern",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 250 gp **Weight** 40 lbs.  ",
 			"**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -4  ",
 			"**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.",
@@ -583,7 +583,7 @@
 		],
 		"description": [
 			"## Banded mail",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 250 gp **Weight** 35 lbs.  ",
 			"**Armor Bonus** +7; **Max Dex Bonus** +1; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -600,7 +600,7 @@
 		],
 		"description": [
 			"## Field plate",
-			"**Source** [Inner Sea World Guide pg. 291](source/inner_sea_world_guide), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting), [Adventurer's Armory pg. 18](source/adventurers_armory)  ",
+			"{SOURCE Inner Sea World Guide/291;Pathfinder Campaign Setting/211;Adventurer's Armory/18}  ",
 			"**Cost** 1,200 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +7; **Max Dex Bonus** +1; **Armor Check Penalty** -5  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -616,7 +616,7 @@
 		],
 		"description": [
 			"## Kusari gusoku",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 350 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +7; **Max Dex Bonus** +1; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -632,7 +632,7 @@
 		],
 		"description": [
 			"## Lamellar (iron)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 200 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +7; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -648,7 +648,7 @@
 		],
 		"description": [
 			"## Splint mail",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 200 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +7; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -664,7 +664,7 @@
 		],
 		"description": [
 			"## Tatami-do",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 129](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/129}  ",
 			"**Cost** 1,000 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +7; **Max Dex Bonus** +3; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -683,7 +683,7 @@
 		],
 		"description": [
 			"## Agile half-plate",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 850 gp **Weight** 55 lbs.  ",
 			"**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -699,7 +699,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Alkenstar fortress plate",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 2,100 gp **Weight** 75 lbs.  ",
 			"**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -715,7 +715,7 @@
 		],
 		"description": [
 			"## Half-plate",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 600 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -734,7 +734,7 @@
 		],
 		"description": [
 			"## Hellknight half-plate",
-			"**Source** [Adventurer's Guide pg. 96](source/adventurers_guide), [Path of the Hellknight pg. 63](source/path_of_the_hellknight)  ",
+			"{SOURCE Adventurer's Guide/96;Path of the Hellknight/63}  ",
 			"**Cost** 850 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -753,7 +753,7 @@
 		],
 		"description": [
 			"## Lamellar (stone)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 500 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7  ",
 			"**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.",
@@ -769,7 +769,7 @@
 		],
 		"description": [
 			"## O-yoroi",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Ultimate Combat pg. 128](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/9;Ultimate Combat/128}  ",
 			"**Cost** 1,700 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +8; **Max Dex Bonus** +2; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -788,7 +788,7 @@
 		],
 		"description": [
 			"## Full plate",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 1,500 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -801,7 +801,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Gray maiden plate",
-			"**Source** [Adventurer's Guide pg. 84](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/84}  ",
 			"**Cost** 1,500 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -817,7 +817,7 @@
 		],
 		"description": [
 			"## Hellknight plate",
-			"**Source** [Adventurer's Guide pg. 97](source/adventurers_guide), [Inner Sea World Guide pg. 291](source/inner_sea_world_guide)  ",
+			"{SOURCE Adventurer's Guide/97;Inner Sea World Guide/291}  ",
 			"**Cost** 2,000 gp **Weight** 50 lbs.  ",
 			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.",
@@ -835,7 +835,7 @@
 		],
 		"description": [
 			"## Stoneplate",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Inner Sea World Guide pg. 291](source/inner_sea_world_guide), [Adventurer's Armory pg. 19](source/adventurers_armory), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting)  ",
+			"{SOURCE Ultimate Equipment/9;Inner Sea World Guide/291;Adventurer's Armory/19;Pathfinder Campaign Setting/211}  ",
 			"**Cost** 1,800 gp **Weight** 75 lbs.  ",
 			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6  ",
 			"**Arcane Spell Failure Chance** 35%; **Speed** 15 ft./10 ft.",
@@ -851,7 +851,7 @@
 		],
 		"description": [
 			"## Buckler",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 5 gp **Weight** 5 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -872,7 +872,7 @@
 		],
 		"description": [
 			"## Klar",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Varisia, Birthplace of Legends pg. 14](source/varisia_birthplace_of_legends), [Pathfinder Campaign Setting pg. 211](source/pathfinder_campaign_setting), [Curse of the Crimson Throne Player's Guide pg. 13](source/curse_of_the_crimson_throne_players_guide), [Rise of the Runelords Player's Guide pg. 11](source/rise_of_the_runelords_players_guide), [Inner Sea World Guide pg. 291](source/inner_sea_world_guide), [Adventurer's Armory pg. 18](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/9;Varisia, Birthplace of Legends/14;Pathfinder Campaign Setting/211;Curse of the Crimson Throne Player's Guide/13;Rise of the Runelords Player's Guide/11;Inner Sea World Guide/291;Adventurer's Armory/18}  ",
 			"**Cost** 12 gp **Weight** 6 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -892,7 +892,7 @@
 		],
 		"description": [
 			"## Light steel shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 9 gp **Weight** 6 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -914,7 +914,7 @@
 		],
 		"description": [
 			"## Light steel quickdraw shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 59 gp **Weight** 7 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -936,7 +936,7 @@
 		],
 		"description": [
 			"## Light wooden shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 3 gp **Weight** 5 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -958,7 +958,7 @@
 		],
 		"description": [
 			"## Light wooden quickdraw shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Advanced Player's Guide pg. 179](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Advanced Player's Guide/179}  ",
 			"**Cost** 53 gp **Weight** 6 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -981,7 +981,7 @@
 		],
 		"description": [
 			"## Madu shield (leather)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Adventurer's Armory pg. 5](source/adventurers_armory), [Legacy of Fire Player's Guide pg. 22](source/legacy_of_fire_players_guide)  ",
+			"{SOURCE Ultimate Equipment/9;Adventurer's Armory/5;Legacy of Fire Player's Guide/22}  ",
 			"**Cost** 40 gp **Weight** 5 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -1004,7 +1004,7 @@
 		],
 		"description": [
 			"## Madu shield (steel)",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [Legacy of Fire Player's Guide pg. 22](source/legacy_of_fire_players_guide), [Adventurer's Armory pg. 5](source/adventurers_armory)  ",
+			"{SOURCE Ultimate Equipment/9;Legacy of Fire Player's Guide/22;Adventurer's Armory/5}  ",
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 5%",
@@ -1023,7 +1023,7 @@
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Poisoner's Buckler",
-			"**Source** [Heroes from the Fringe pg. 23](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/23}  ",
 			"**Cost** 1,505 gp **Weight** 3 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** &mdash;  ",
 			"**Arcane Spell Failure Chance** &mdash;%",
@@ -1036,7 +1036,7 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## War-shield, dwarven",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/6}  ",
 			"**Cost** 50 gp **Weight** 8 lbs.  ",
 			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1  ",
 			"**Arcane Spell Failure Chance** 20%",
@@ -1060,7 +1060,7 @@
 		],
 		"description": [
 			"## Heavy steel shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 20 gp **Weight** 15 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 15%",
@@ -1082,7 +1082,7 @@
 		],
 		"description": [
 			"## Heavy wooden shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 7 gp **Weight** 10 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
 			"**Arcane Spell Failure Chance** 15%",
@@ -1104,7 +1104,7 @@
 		],
 		"description": [
 			"## Snarlshield, steel",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)  ",
+			"{SOURCE Adventurer's Armory 2/6;Gnomes of Golarion/22}  ",
 			"**Cost** 50 gp **Weight** 20 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -3  ",
 			"**Arcane Spell Failure Chance** 15%",
@@ -1123,7 +1123,7 @@
 		],
 		"description": [
 			"## Snarlshield, wooden",
-			"**Source** [Adventurer's Armory 2 pg. 6](source/adventurers_armory_2), [Gnomes of Golarion pg. 22](source/gnomes_of_golarion)  ",
+			"{SOURCE Adventurer's Armory 2/6;Gnomes of Golarion/22}  ",
 			"**Cost** 37 gp **Weight** 15 lbs.  ",
 			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -3  ",
 			"**Arcane Spell Failure Chance** 15%",
@@ -1142,7 +1142,7 @@
 		],
 		"description": [
 			"## Tower shield",
-			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/9;PRPG Core Rulebook/151}  ",
 			"**Cost** 30 gp **Weight** 45 lbs.  ",
 			"**Armor Bonus** +4; **Max Dex Bonus** +2; **Armor Check Penalty** -10  ",
 			"**Arcane Spell Failure Chance** 50%",

@@ -14,7 +14,7 @@
 		"description": [
 			"## Ancients' Flight (Oratory)",
 			"",
-			"**Sources** [Dragonslayer's Handbook](source/dragonslayers_handbook)",
+			"{SOURCE Dragonslayer's Handbook}",
 			"",
 			"You compel dragons to recite an epic poem telling the story of their race's creation.",
 			"",
@@ -33,7 +33,7 @@
 		"description": [
 			"## Anthem of Pageantry (String, Wind)",
 			"",
-			"**Sources** [Heroes of the High Court](source/heroes_of_the_high_court)",
+			"{SOURCE Heroes of the High Court}",
 			"",
 			"This lengthy piece gradually increases in power and gravity, conjuring magnificent furnishings and outfits out of thin air.",
 			"",
@@ -52,7 +52,7 @@
 		"description": [
 			"## Arrowsong's Lament (Oratory)",
 			"",
-			"**Sources** [Arcane Anthology](source/arcane_anthology)",
+			"{SOURCE Arcane Anthology}",
 			"",
 			"This collection of brooding poetry, all in pentatonic verse, expresses Arrowsong's frustration over her overbearing parents' desire for her to become a spellcaster. Her in-depth analysis of their struggles and failings provides great insight into reading and memorizing spells from a spellbook.",
 			"",
@@ -75,7 +75,7 @@
 		"description": [
 			"## At the Heart of It All (String, Wind)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your song pierces to the heart of a creature's identity, weakening it against you.",
 			"",
@@ -96,7 +96,7 @@
 		"description": [
 			"## Ballad of the Homesick Wanderer",
 			"",
-			"**Sources** [Monster Summoner's Handbook](source/monster_summoners_handbook)",
+			"{SOURCE Monster Summoner's Handbook}",
 			"",
 			"This poem of sadness and longing was developed by a Riftwarden bard seeking a way to fight summoned creatures without violence. Its otherworldly lyrics drive outsiders to return to their planes of origin.",
 			"",
@@ -115,7 +115,7 @@
 		"description": [
 			"## Ballad of the Warding Princess (Oratory, Sing)",
 			"",
-			"**Sources** [Lost Treasures](source/lost_treasures)",
+			"{SOURCE Lost Treasures}",
 			"",
 			"The words of your poem weave around your allies and deflect attacks.",
 			"",
@@ -136,7 +136,7 @@
 		"description": [
 			"## Banshee's Requiem (Sing)",
 			"",
-			"**Sources** [Horror Realms](source/horror_realms)",
+			"{SOURCE Horror Realms}",
 			"",
 			"By filling your performance with the mournful angst of a lost love, your song evokes the inexorable pull of the grave upon every living thing.",
 			"",
@@ -155,7 +155,7 @@
 		"description": [
 			"## Battle Song of the People's Revolt",
 			"",
-			"**Sources** [Melee Tactics Toolbox](source/melee_tactics_toolbox)",
+			"{SOURCE Melee Tactics Toolbox}",
 			"",
 			"This song for fife and drum is found in many folios filled with music intended to unite the people of Andoran in their secession from Cheliax.",
 			"",
@@ -175,7 +175,7 @@
 		"description": [
 			"## Blazing Rondo (Oratory, Percussion)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
+			"{SOURCE Elemental Master's Handbook}",
 			"",
 			"Thundering rhythms quicken your allies' movements, but the effort of keeping up with the beat is wearying.",
 			"",
@@ -194,7 +194,7 @@
 		"description": [
 			"## Clamor of the Heavens (Percussion, Sing)",
 			"",
-			"**Sources** [Champions of Purity](source/champions_of_purity)",
+			"{SOURCE Champions of Purity}",
 			"",
 			"This confusing dirge of melody and counter-melody was composed for choirs celebrating the various martyrs of Ragathiel. It is intended to praise and magnify the glory of the empyreal lord, but to the uninitiated it sounds like a battle hymn. In fact, in Varisia, this is what the song has become to many.",
 			"",
@@ -213,7 +213,7 @@
 		"description": [
 			"## Dance of Captivating Desire (Dance)",
 			"",
-			"**Sources** [Elemental Master's Handbook](source/elemental_masters_handbook)",
+			"{SOURCE Elemental Master's Handbook}",
 			"",
 			"A creation of Calistria's priesthood, this swaying, sensuous dance fans the fires of lust.",
 			"",
@@ -232,7 +232,7 @@
 		"description": [
 			"## Death of Heroes (Oratory, Sing)",
 			"",
-			"**Sources** [Blood of the Ancients](source/blood_of_the_ancients)",
+			"{SOURCE Blood of the Ancients}",
 			"",
 			"You speak of the Worldwound's horrors, retelling tales of helpless warriors watching their loved ones die.",
 			"",
@@ -251,7 +251,7 @@
 		"description": [
 			"## Dirge of the Torn Sail (Sing, String)",
 			"",
-			"**Sources** [Blood of the Sea](source/blood_of_the_sea)",
+			"{SOURCE Blood of the Sea}",
 			"",
 			"Your ominous refrain warns away those who would trespass in your domain.",
 			"",
@@ -270,7 +270,7 @@
 		"description": [
 			"## Endless Waltz of the Eldest (Dance, String)",
 			"",
-			"**Sources** [Healer's Handbook](source/healers_handbook)",
+			"{SOURCE Healer's Handbook}",
 			"",
 			"This elegant but dizzyingly fast gnome waltz calls for rapidly changing roles inspired by the many faces that the legendary Eldest of the First World wear.",
 			"",
@@ -289,7 +289,7 @@
 		"description": [
 			"## Exhilarating Prayer of Grace (Dance)",
 			"",
-			"**Sources** [Divine Anthology](source/divine_anthology)",
+			"{SOURCE Divine Anthology}",
 			"",
 			"You lead your audience through a series of stretches and exercises designed to warm the muscles and increase blood circulation.",
 			"",
@@ -308,7 +308,7 @@
 		"description": [
 			"## Fafnheir and the First King (String, Wind)",
 			"",
-			"**Sources** [Dragonslayer's Handbook](source/dragonslayers_handbook)",
+			"{SOURCE Dragonslayer's Handbook}",
 			"",
 			"You affect the mood of listeners by celebrating the defeat of the First Linnorm King at the claws of Fafnheir, the Father of All Linnorms.",
 			"",
@@ -331,7 +331,7 @@
 		"description": [
 			"## Findelalara's Refuge (Dance, Oratory)",
 			"",
-			"**Sources** [Heroes from the Fringe](source/heroes_from_the_fringe)",
+			"{SOURCE Heroes from the Fringe}",
 			"",
 			"Praying to the Guiding Hand for assistance, you invoke shelter from ice and snow.",
 			"",
@@ -350,7 +350,7 @@
 		"description": [
 			"## Fugue de Rue d'Auseil",
 			"",
-			"**Sources** [Pathfinder #114: Black Stars Beckon](source/pathfinder_114_black_stars_beckon)",
+			"{SOURCE Pathfinder #114: Black Stars Beckon}",
 			"",
 			"Your music provides a bastion that hedges out horrors and fiends.",
 			"",
@@ -371,7 +371,7 @@
 		"description": [
 			"## Hymn of Restorative Harmonics (Sing, Wind)",
 			"",
-			"**Sources** [Divine Anthology](source/divine_anthology)",
+			"{SOURCE Divine Anthology}",
 			"",
 			"You perform a song of such beauty that it touches the soul of any who hear it, allowing them to recover from any adverse conditions.",
 			"",
@@ -392,7 +392,7 @@
 		"description": [
 			"## Hymn of Sacred Lands (Oratory, Sing)",
 			"",
-			"**Sources** [Heroes from the Fringe](source/heroes_from_the_fringe)",
+			"{SOURCE Heroes from the Fringe}",
 			"",
 			"You cherish and love your home with such strength that your words weave protective magic around your dwelling.",
 			"",
@@ -411,7 +411,7 @@
 		"description": [
 			"## Illusion's Decree (Comedy, Oratory)",
 			"",
-			"**Sources** [The Harrow Handbook](source/the_harrow_handbook)",
+			"{SOURCE The Harrow Handbook}",
 			"",
 			"These stories of wiliness and mystery inspire listeners to see through deceptions.",
 			"",
@@ -430,7 +430,7 @@
 		"description": [
 			"## Kaminari Drums (Percussion)",
 			"",
-			"**Sources** [Disciple's Doctrine](source/disciples_doctrine)",
+			"{SOURCE Disciple's Doctrine}",
 			"",
 			"You beat a thunderous cacophony that strikes your foes with the fury of the kami of storms.",
 			"",
@@ -449,7 +449,7 @@
 		"description": [
 			"## Legato Piece on the Infernal Bargain (String)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your skilled playing can conjure up supernatural servants.",
 			"",
@@ -470,7 +470,7 @@
 		"description": [
 			"## Life Budding in Salted Earth (Sing, String, Wind)",
 			"",
-			"**Sources** [Champions of Purity](source/champions_of_purity)",
+			"{SOURCE Champions of Purity}",
 			"",
 			"This delicate tune suggests the determined sprouting of seedlings through barren, rocky soil. Both its motif and effects are popular in Rahadoum, where the tune is also known as \"Spring Inside.\"",
 			"",
@@ -490,7 +490,7 @@
 		"description": [
 			"## Lingering Leitmotif (Oratory, Sing)",
 			"",
-			"**Sources** [Merchant's Manifest](source/merchants_manifest)",
+			"{SOURCE Merchant's Manifest}",
 			"",
 			"Your clever turn of words or catchy musical jingle sticks in people's heads long after they have heard it.",
 			"",
@@ -509,7 +509,7 @@
 		"description": [
 			"## Melody of Frightful Death (String)",
 			"",
-			"**Sources** [Blood of Fiends](source/blood_of_fiends)",
+			"{SOURCE Blood of Fiends}",
 			"",
 			"The pain and horror of the Abyss shrieks through your instrument to make a listener experience the death she dreads most.",
 			"",
@@ -530,7 +530,7 @@
 		"description": [
 			"## Melody of Surrender (Sing, Wind)",
 			"",
-			"**Sources** [Heroes of the High Court](source/heroes_of_the_high_court)",
+			"{SOURCE Heroes of the High Court}",
 			"",
 			"This gentle, relaxing tune makes its listeners calm and receptive.",
 			"",
@@ -551,7 +551,7 @@
 		"description": [
 			"## Minuet of the Midnight Ivy (Dance)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your winding, twisting dance is helpful in dodging obstacles and climbing.",
 			"",
@@ -570,7 +570,7 @@
 		"description": [
 			"## Music Beyond the Spheres (Dance, Sing, String)",
 			"",
-			"**Sources** [Horror Realms](source/horror_realms)",
+			"{SOURCE Horror Realms}",
 			"",
 			"You use your own life force to create a phantasmagorical impression of eldritch vibrations with your wild, flailing dance and erratic tones. The performance unravels and remakes the fabric of reality around you according to your designs.",
 			"",
@@ -589,7 +589,7 @@
 		"description": [
 			"## Night Queen's Fury (Act, Oratory)",
 			"",
-			"**Sources** [Distant Realms](source/distant_realms)",
+			"{SOURCE Distant Realms}",
 			"",
 			"You lay a curse on those who have wronged you.",
 			"",
@@ -610,7 +610,7 @@
 		"description": [
 			"## Pageant of the Peacock (Act, Dance)",
 			"",
-			"**Sources** [Dragonslayer's Handbook](source/dragonslayers_handbook)",
+			"{SOURCE Dragonslayer's Handbook}",
 			"",
 			"Your elegant movements cause you to seem to be more than you are.",
 			"",
@@ -629,7 +629,7 @@
 		"description": [
 			"## Pallavi of Nirvana's Blossoming (Dance)",
 			"",
-			"**Sources** [Blood of Angels](source/blood_of_angels)",
+			"{SOURCE Blood of Angels}",
 			"",
 			"The divine sunlight caused by this dance banishes darkness and causes flowers to bloom.",
 			"",
@@ -652,7 +652,7 @@
 		"description": [
 			"## Ragadahn's Raqs Beledi (Dance)",
 			"",
-			"**Sources** [Legacy of the First World](source/legacy_of_the_first_world)",
+			"{SOURCE Legacy of the First World}",
 			"",
 			"Your expressive dance makes your allies much more limber.",
 			"",
@@ -671,7 +671,7 @@
 		"description": [
 			"## Ragadahn's Spiraling Ascent (Act, Dance)",
 			"",
-			"**Sources** [Legacy of the First World](source/legacy_of_the_first_world)",
+			"{SOURCE Legacy of the First World}",
 			"",
 			"You can hurl your allies into battle by directing swift winds.",
 			"",
@@ -690,7 +690,7 @@
 		"description": [
 			"## Rat Quadrille (Percussion, Sing)",
 			"",
-			"**Sources** [Magical Marketplace](source/magical_marketplace)",
+			"{SOURCE Magical Marketplace}",
 			"",
 			"This repetitive, distracting melody wears down foes.",
 			"",
@@ -709,7 +709,7 @@
 		"description": [
 			"## Relentless Reprise (Keyboard, Sing, String, Wind)",
 			"",
-			"**Sources** [Horror Realms](source/horror_realms)",
+			"{SOURCE Horror Realms}",
 			"",
 			"Your song replays endlessly in your target's mind, sapping resolve and sanity.",
 			"",
@@ -728,7 +728,7 @@
 		"description": [
 			"## Rondeau of Heavenly Order (Sing)",
 			"",
-			"**Sources** [Blood of Angels](source/blood_of_angels)",
+			"{SOURCE Blood of Angels}",
 			"",
 			"Your carefully structured song imposes rigid order on your listeners.",
 			"",
@@ -747,7 +747,7 @@
 		"description": [
 			"## Song of Extinction (Sing, String, Wind)",
 			"",
-			"**Sources** [Artifacts and Legends](source/artifacts_and_legends)",
+			"{SOURCE Artifacts and Legends}",
 			"",
 			"**Note:** This masterpiece can only be learned from the [Song of Extinction (Music Box)](magic-artifact/song_of_extinction_music_box) artifact.",
 			"",
@@ -768,7 +768,7 @@
 		"description": [
 			"## Song of Sarkoris (Oratory, Sing)",
 			"",
-			"**Sources** [Blood of the Ancients](source/blood_of_the_ancients)",
+			"{SOURCE Blood of the Ancients}",
 			"",
 			"You recite inspirational lines from this epic poem commemorating the final stand at Storasta, keeping defiance alive even in the face of certain death.",
 			"",
@@ -787,7 +787,7 @@
 		"description": [
 			"## Song of the Stonebearers (Percussion, Sing)",
 			"",
-			"**Sources** [Merchant's Manifest](source/merchants_manifest)",
+			"{SOURCE Merchant's Manifest}",
 			"",
 			"This working song consists of a strong rhythm and boneshaking drum beats.",
 			"",
@@ -806,7 +806,7 @@
 		"description": [
 			"## Spirit of the Horse (Strings)",
 			"",
-			"**Sources** [Disciple's Doctrine](source/disciples_doctrine)",
+			"{SOURCE Disciple's Doctrine}",
 			"",
 			"This mournful song, which is typically played upon a traditional instrument known as a morin khuur, empowers animal companions.",
 			"",
@@ -825,7 +825,7 @@
 		"description": [
 			"## Stirring Discourse of the Mind (Oratory)",
 			"",
-			"**Sources** [Divine Anthology](source/divine_anthology)",
+			"{SOURCE Divine Anthology}",
 			"",
 			"You lecture your audience on the merits of studious endeavors and inspire them with new insights into the subject matter. As a result of your discourse, those who listen become more receptive to knowledge.",
 			"",
@@ -844,7 +844,7 @@
 		"description": [
 			"## Stone Face (Comedy, Oratory)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your antics can soften even the hardest visage.",
 			"",
@@ -863,7 +863,7 @@
 		"description": [
 			"## Symphony of Sylandurla's Ascent (Percussion, Wind)",
 			"",
-			"**Sources** [Healer's Handbook](source/healers_handbook)",
+			"{SOURCE Healer's Handbook}",
 			"",
 			"This elaborate arrangement for traditional elven instruments evokes Sylandurla's heroic climb up the spire from the planar city of Axis to the Boneyard, where it's said that she sang 8,008 tales to win elves their immunity to magical sleep.",
 			"",
@@ -882,7 +882,7 @@
 		"description": [
 			"## Symphony of the Dark Prince (Sing)",
 			"",
-			"**Sources** [Distant Realms](source/distant_realms)",
+			"{SOURCE Distant Realms}",
 			"",
 			"You contort your vocal cords to produce an eerie, melodious song about the wonders of Dispater's court.",
 			"",
@@ -901,7 +901,7 @@
 		"description": [
 			"## Symphony of the Elysian Heart (Keyboard, Wind)",
 			"",
-			"**Sources** [Blood of Angels](source/blood_of_angels)",
+			"{SOURCE Blood of Angels}",
 			"",
 			"You spark notes of joy and freedom in your listeners.",
 			"",
@@ -920,7 +920,7 @@
 		"description": [
 			"## Tales of Twisting Steel (Act, Oratory)",
 			"",
-			"**Sources** [The Harrow Handbook](source/the_harrow_handbook)",
+			"{SOURCE The Harrow Handbook}",
 			"",
 			"This medley of tales inspires listeners to new heights of bravery and self sacrifice.",
 			"",
@@ -939,7 +939,7 @@
 		"description": [
 			"## The Bear's Jig (String, Wing)",
 			"",
-			"**Sources** [People of the River](source/people_of_the_river)",
+			"{SOURCE People of the River}",
 			"",
 			"Your music makes animals act like people.",
 			"",
@@ -958,7 +958,7 @@
 		"description": [
 			"## The Canticle of Joy (Sing)",
 			"",
-			"**Sources** [Bastards of Golarion](source/bastards_of_golarion)",
+			"{SOURCE Bastards of Golarion}",
 			"",
 			"Your haunting melody is capable of shattering the very minds of those who hear it.",
 			"",
@@ -977,7 +977,7 @@
 		"description": [
 			"## The Cat-Step (Dance)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your agile dancing allows you and others to fall safely and land gracefully.",
 			"",
@@ -996,7 +996,7 @@
 		"description": [
 			"## The Dance of 23 Steps (Dance)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"This complex dance makes you difficult to strike.",
 			"",
@@ -1015,7 +1015,7 @@
 		"description": [
 			"## The Dance of Kindled Desires (Dance)",
 			"",
-			"**Sources** [Blood of Fiends](source/blood_of_fiends)",
+			"{SOURCE Blood of Fiends}",
 			"",
 			"Each sway and shake of your hips calls up another temptation from the depths of Hell until your spectator, hapless and drooling, finally succumbs and freely offers up his life, honor, or very soul for just a taste of what you have proffered.",
 			"",
@@ -1034,7 +1034,7 @@
 		"description": [
 			"## The Depths of the Mountain (Percussion, Wind)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your drumming skills can break solid rock.",
 			"",
@@ -1069,7 +1069,7 @@
 		"description": [
 			"## The Dumbshow of Gorroc (Act, Comedy)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your acting conjures hellfire and salt to destroy plants.",
 			"",
@@ -1088,7 +1088,7 @@
 		"description": [
 			"## The House of Imaginary Walls (Act)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"You can trap opponents with the power of your acting.",
 			"",
@@ -1109,7 +1109,7 @@
 		"description": [
 			"## The Lullaby of Ember the Ancient (Sing)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"You can put powerful creatures to sleep with the power of your song.",
 			"",
@@ -1128,7 +1128,7 @@
 		"description": [
 			"## The Quickening Pulse (Percussion, Wind)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your driving notes cause unnatural heart rates in your opponents.",
 			"",
@@ -1149,7 +1149,7 @@
 		"description": [
 			"## The Requiem of the Fallen Priest-King (Oratory, Sing)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your performance reveals ways to cheat time itself.",
 			"",
@@ -1172,7 +1172,7 @@
 		"description": [
 			"## The Rheumy Refrain (Sing)",
 			"",
-			"**Sources** [Blood of Fiends](source/blood_of_fiends)",
+			"{SOURCE Blood of Fiends}",
 			"",
 			"Your strange melody of hacking gasps and pained wheezes draws upon the dark powers of Abaddon to fill a witness with debilitating and distracting phlegm.",
 			"",
@@ -1191,7 +1191,7 @@
 		"description": [
 			"## The Sea Is Now My Sky (Sing, String)",
 			"",
-			"**Sources** [Blood of the Sea](source/blood_of_the_sea)",
+			"{SOURCE Blood of the Sea}",
 			"",
 			"Your thrilling tune causes you and your allies to fly through the water as easily as a bird soars through the air.",
 			"",
@@ -1210,7 +1210,7 @@
 		"description": [
 			"## The Tragedy of False Hope (Oratory, Sing)",
 			"",
-			"**Sources** [Blood of the Ancients](source/blood_of_the_ancients)",
+			"{SOURCE Blood of the Ancients}",
 			"",
 			"You remind those around you of the mystic's warning and how danger was ignored in expectation of Aroden's return.",
 			"",
@@ -1229,7 +1229,7 @@
 		"description": [
 			"## The Waning Bolero (Dance)",
 			"",
-			"**Sources** [Pathfinder #134: It Came from Hollow Mountain](source/pathfinder_134_it_came_from_hollow_mountain)",
+			"{SOURCE Pathfinder #134: It Came from Hollow Mountain}",
 			"",
 			"Your deliberate dancing causes your foes' steps to fall in time to your own.",
 			"",
@@ -1250,7 +1250,7 @@
 		"description": [
 			"## The Winds of the Five Heavens (Act, Oratory)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"You control the wind by telling a tale demonstrating the hubris of mortals.",
 			"",
@@ -1269,7 +1269,7 @@
 		"description": [
 			"## Toccata and Fugue of the Danse Macabre (Keyboard, Wind)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your spooky music blurs the boundaries between life and death, confusing the senses of undead creatures.",
 			"",
@@ -1290,7 +1290,7 @@
 		"description": [
 			"## Triple Time (Percussion, String, Wind)",
 			"",
-			"**Sources** [Ultimate Magic](source/ultimate_magic)",
+			"{SOURCE Ultimate Magic}",
 			"",
 			"Your lively cadence puts a spring in the step of weary marchers.",
 			"",
@@ -1309,7 +1309,7 @@
 		"description": [
 			"## Vindictive Soliloquy (Act, Oratory, Sing)",
 			"",
-			"**Sources** [Magical Marketplace](source/magical_marketplace)",
+			"{SOURCE Magical Marketplace}",
 			"",
 			"Your bombastic speech creates booming reverberations of sound.",
 			"",
@@ -1330,7 +1330,7 @@
 		"description": [
 			"## Wildsoul Aria (Sing, Wind)",
 			"",
-			"**Sources** [Heroes from the Fringe](source/heroes_from_the_fringe)",
+			"{SOURCE Heroes from the Fringe}",
 			"",
 			"Channeling the mysterious power of the First World, you grant the listener the gift-or curse-of an animal's shape.",
 			"",
@@ -1349,7 +1349,7 @@
 		"description": [
 			"## Wise King's Saga (Oratory, Sing)",
 			"",
-			"**Sources** [Heroes of the High Court](source/heroes_of_the_high_court)",
+			"{SOURCE Heroes of the High Court}",
 			"",
 			"Your saga magically weaves the counsel of sagacious ancestors into the telling.",
 			"",

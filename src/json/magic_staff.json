@@ -14,7 +14,7 @@
 		"description": [
 			"## Staff of Blessed Relief",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/195}  ",
 			"**Aura** faint conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 7,200 gp; **Weight** 5 lbs.",
 			"",
@@ -35,7 +35,7 @@
 		"description": [
 			"## Staff of Minor Arcana",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/198}  ",
 			"**Aura** moderate abjuration and evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.",
 			"",
@@ -55,7 +55,7 @@
 		"description": [
 			"## Staff of Tricks",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/203}  ",
 			"**Aura** moderate illusion; **CL** 8th  ",
 			"**Slot** none; **Price** 8,800 gp; **Weight** 3 lbs.",
 			"",
@@ -77,7 +77,7 @@
 		"description": [
 			"## Staff of the Scout",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/202}  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 9,600 gp; **Weight** 4 lbs.",
 			"",
@@ -98,7 +98,7 @@
 		"description": [
 			"## Monstrification Staff",
 			"",
-			"**Source** [Advanced Class Guide pg. 221](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/221}  ",
 			"**Aura** faint transmutation (polymorph); **CL** 8th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.",
 			"",
@@ -118,7 +118,7 @@
 		"description": [
 			"## Gravedigger's Spade",
 			"",
-			"**Source** [Advanced Class Guide pg. 221](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/221}  ",
 			"**Aura** moderate conjuration and evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 12,150 gp; **Weight** 4 lbs.",
 			"",
@@ -139,7 +139,7 @@
 		"description": [
 			"## Spark Staff",
 			"",
-			"**Source** [Advanced Class Guide pg. 221](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/221}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 12,650 gp; **Weight** 2 lbs.",
 			"",
@@ -160,7 +160,7 @@
 		"description": [
 			"## Ember Staff",
 			"",
-			"**Source** [Advanced Class Guide pg. 221](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/221}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 13,100 gp; **Weight** 3 lbs.",
 			"",
@@ -183,7 +183,7 @@
 		"description": [
 			"## Staff of Eidolons",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/196}  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 14,400 gp; **Weight** 5 lbs.",
 			"",
@@ -207,7 +207,7 @@
 		"description": [
 			"## Staff of Understanding",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Pathfinder Society Field Guide pg. 54](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Ultimate Equipment/203;Pathfinder Society Field Guide/54}  ",
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** none; **Price** 14,400 gp; **Weight** 5 lbs.",
 			"",
@@ -228,7 +228,7 @@
 		"description": [
 			"## Staff of Accompaniment",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate evocation and transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 14,800 gp; **Weight** 5 lbs.",
 			"",
@@ -249,7 +249,7 @@
 		"description": [
 			"## Crook of Cildhureen",
 			"",
-			"**Source** [Realm of the Fellnight Queen pg. 29](source/realm_of_the_fellnight_queen)  ",
+			"{SOURCE Realm of the Fellnight Queen/29}  ",
 			"**Aura** moderate illusion; **CL** 9th  ",
 			"**Slot** none; **Price** 16,800 gp; **Weight** 4 lbs.",
 			"",
@@ -275,7 +275,7 @@
 		"description": [
 			"## Staff of Charming",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [PRPG Core Rulebook pg. 492](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/195;PRPG Core Rulebook/492}  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** 17,600 gp; **Weight** 5 lbs.",
 			"",
@@ -298,7 +298,7 @@
 		"description": [
 			"## Staff of Fire",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 18,950 gp; **Weight** 5 lbs.",
 			"",
@@ -319,7 +319,7 @@
 		"description": [
 			"## Staff of Belittling",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
@@ -344,7 +344,7 @@
 		"description": [
 			"## Staff of Courage",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Pathfinder Society Field Guide pg. 54](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Ultimate Equipment/195;Pathfinder Society Field Guide/54}  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -366,7 +366,7 @@
 		"description": [
 			"## Staff of Feast and Famine",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/197}  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -389,7 +389,7 @@
 		"description": [
 			"## Staff of Internal Assault",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayers_handbook)",
+			"{SOURCE Dragonslayer's Handbook/31}",
 			"",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
@@ -414,7 +414,7 @@
 		"description": [
 			"## Staff of Rigor",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/298}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -437,7 +437,7 @@
 		"description": [
 			"## Shory Acolyte's Staff",
 			"",
-			"**Source** [Advanced Class Origins pg. 29](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/29}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 21,600 gp; **Weight** 1 lb.",
 			"",
@@ -458,7 +458,7 @@
 		"description": [
 			"## Cephalopod Staff",
 			"",
-			"**Source** [Horror Adventures pg. 217](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/217}  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 22,800 gp; **Weight** 4 lbs.",
 			"",
@@ -484,7 +484,7 @@
 		"description": [
 			"## Staff of Swarming Insects",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [PRPG Core Rulebook pg. 495](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/201;PRPG Core Rulebook/495}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 22,800 gp; **Weight** 5 lbs.",
 			"",
@@ -504,7 +504,7 @@
 		"description": [
 			"## Staff of Authority",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 23,000 gp; **Weight** 5 lbs.",
 			"",
@@ -528,7 +528,7 @@
 		"description": [
 			"## Staff of Radiance",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Pathfinder Society Field Guide pg. 54](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Ultimate Equipment/200;Pathfinder Society Field Guide/54}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 23,200 gp; **Weight** 5 lbs.",
 			"",
@@ -549,7 +549,7 @@
 		"description": [
 			"## Zenj Totem Staff",
 			"",
-			"**Source** [Advanced Class Origins pg. 29](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/29}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 24,800 gp; **Weight** 2 lbs.",
 			"",
@@ -578,7 +578,7 @@
 		"description": [
 			"## Staff of Size Alteration",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [PRPG Core Rulebook pg. 495](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/200;PRPG Core Rulebook/495}  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 26,150 gp; **Weight** 5 lbs.",
 			"",
@@ -601,7 +601,7 @@
 		"description": [
 			"## Staff of Curchanus",
 			"",
-			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 77](source/pathfinder_122_into_the_shattered_continent)  ",
+			"{SOURCE Pathfinder #122: Into the Shattered Continent/77}  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 26,600 gp; **Weight** 5 lbs.",
 			"",
@@ -629,7 +629,7 @@
 		"description": [
 			"## Staff of Journeys",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/198;Advanced Player's Guide/297}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 27,200 gp; **Weight** 5 lbs.",
 			"",
@@ -652,7 +652,7 @@
 		"description": [
 			"## Staff of Acid",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 28,600 gp; **Weight** 5 lbs.",
 			"",
@@ -673,7 +673,7 @@
 		"description": [
 			"## Chaotic Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 192](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/192}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -695,7 +695,7 @@
 		"description": [
 			"## Holy Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 193](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/193}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -717,7 +717,7 @@
 		"description": [
 			"## Lawful Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -742,7 +742,7 @@
 		"description": [
 			"## Staff of Healing",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -764,7 +764,7 @@
 		"description": [
 			"## Unholy Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/203}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -786,7 +786,7 @@
 		"description": [
 			"## Hungering Staff",
 			"",
-			"**Source** [Horror Adventures pg. 217](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/217}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 4 lbs.",
 			"",
@@ -811,7 +811,7 @@
 		"description": [
 			"## Staff of the Master",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/202}  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 5 lbs.",
 			"",
@@ -834,7 +834,7 @@
 		"description": [
 			"## Staff of Spiders",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/201}  ",
 			"**Aura** moderate conjuratio and transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 30,200 gp; **Weight** 5 lbs.",
 			"",
@@ -855,7 +855,7 @@
 		"description": [
 			"## Oaken Staff",
 			"",
-			"**Source** [Heroes of the Wild pg. 29](source/heroes_of_the_wild)  ",
+			"{SOURCE Heroes of the Wild/29}  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 31,800 gp; **Weight** 4 lbs.",
 			"",
@@ -878,7 +878,7 @@
 		"description": [
 			"## Staff of Electricity",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/196}  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Price** 31,900 gp; **Weight** 5 lbs.",
 			"",
@@ -899,7 +899,7 @@
 		"description": [
 			"## Heretic's Bane",
 			"",
-			"**Source** [Ultimate Equipment pg. 193](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/193}  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.",
 			"",
@@ -921,7 +921,7 @@
 		"description": [
 			"## Many-Eyed Staff",
 			"",
-			"**Source** [Horror Adventures pg. 217](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/217}  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.",
 			"",
@@ -947,7 +947,7 @@
 		"description": [
 			"## Musical Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.",
 			"",
@@ -974,7 +974,7 @@
 		"description": [
 			"## Staff of Souls",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/201;Advanced Player's Guide/298}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 32,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1000,7 +1000,7 @@
 		"description": [
 			"## Staff of Toxins",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/202;Advanced Player's Guide/298}  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 34,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1023,7 +1023,7 @@
 		"description": [
 			"## Staff of Shrieking",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/298}  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1044,7 +1044,7 @@
 		"description": [
 			"## Staff of the Avenger",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/201}  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 37,310 gp; **Weight** 5 lbs.",
 			"",
@@ -1066,7 +1066,7 @@
 		"description": [
 			"## Staff of Aspects",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/194}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 37,600 gp; **Weight** 5 lbs.",
 			"",
@@ -1088,7 +1088,7 @@
 		"description": [
 			"## Staff of the Prime Mover",
 			"",
-			"**Source** [Down the Blighted Path pg. 63](source/down_the_blighted_path)  ",
+			"{SOURCE Down the Blighted Path/63}  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 38,300 gp; **Weight** 2 lbs.",
 			"",
@@ -1117,7 +1117,7 @@
 		"description": [
 			"## Staff of Spirit-Talking",
 			"",
-			"**Source** [Sargava, the Lost Colony pg. 29](source/sargava_the_lost_colony)  ",
+			"{SOURCE Sargava, the Lost Colony/29}  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 39,050 gp; **Weight** 5 lbs.",
 			"",
@@ -1146,7 +1146,7 @@
 		"description": [
 			"## Staff of Stealth",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/201;Advanced Player's Guide/298}  ",
 			"**Aura** moderate illusion; **CL** 8th  ",
 			"**Slot** none; **Price** 39,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1171,7 +1171,7 @@
 		"description": [
 			"## Staff of Frost",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 41,400 gp; **Weight** 5 lbs.",
 			"",
@@ -1195,7 +1195,7 @@
 		"description": [
 			"## Staff of Bolstering",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/195;Advanced Player's Guide/296}  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 41,600 gp; **Weight** 5 lbs.",
 			"",
@@ -1217,7 +1217,7 @@
 		"description": [
 			"## Spherewalker's Staff",
 			"",
-			"**Source** [Pathfinder #75: Demon's Heresy pg. 63](source/pathfinder_75_demons_heresy)  ",
+			"{SOURCE Pathfinder #75: Demon's Heresy/63}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 43,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1243,7 +1243,7 @@
 		"description": [
 			"## Staff of Curses",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/195}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1267,7 +1267,7 @@
 		"description": [
 			"## Staff of the Dark Tapestry",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 63](source/pathfinder_88_valley_of_the_brain_collectors)  ",
+			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/63}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1292,7 +1292,7 @@
 		"description": [
 			"## Staff of Fortune",
 			"",
-			"**Source** [Advanced Player's Guide pg. 325](source/advanced_players_guide)  ",
+			"{SOURCE Advanced Player's Guide/325}  ",
 			"**Aura** evocation (moderate); **CL** 9th  ",
 			"**Slot** none; **Price** 44,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1312,7 +1312,7 @@
 		"description": [
 			"## Staff of Dark Flame",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/196}  ",
 			"**Aura** moderate evocation and necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 47,000 gp; **Weight** 4 lbs.",
 			"",
@@ -1338,7 +1338,7 @@
 		"description": [
 			"## Staff of Performance",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/199;Advanced Player's Guide/297}  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 48,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1363,7 +1363,7 @@
 		"description": [
 			"## Animate Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 192](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/192}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 49,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1386,7 +1386,7 @@
 		"description": [
 			"## Staff of Hunting",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 31](source/dragonslayers_handbook)",
+			"{SOURCE Dragonslayer's Handbook/31}",
 			"",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 51,000 gp; **Weight** 5 lbs.",
@@ -1412,7 +1412,7 @@
 		"description": [
 			"## Staff of Revelations",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/297}  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 51,008 gp; **Weight** 5 lbs.",
 			"",
@@ -1437,7 +1437,7 @@
 		"description": [
 			"## Staff of Illumination",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** none; **Price** 51,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1459,7 +1459,7 @@
 		"description": [
 			"## Staff of the Freed Man",
 			"",
-			"**Source** [Champions of Purity pg. 31](source/champions_of_purity)",
+			"{SOURCE Champions of Purity/31}",
 			"",
 			"**Aura** moderate varies; **CL** 17th  ",
 			"**Slot** none; **Price** 51,688 gp; **Weight** 5 lbs.",
@@ -1482,7 +1482,7 @@
 		"description": [
 			"## Doomsday Staff",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 60](source/pathfinder_64_beyond_the_doomsday_door)  ",
+			"{SOURCE Pathfinder #64: Beyond the Doomsday Door/60}  ",
 			"**Aura** strong varied; **CL** 13th  ",
 			"**Slot** none; **Price** 52,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1508,7 +1508,7 @@
 		"description": [
 			"## Staff of Obstacles",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/199;Advanced Player's Guide/297}  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 52,850 gp; **Weight** 5 lbs.",
 			"",
@@ -1536,7 +1536,7 @@
 		"description": [
 			"## Staff of Heaven and Earth",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Pathfinder #4: Fortress of the Stone Giants pg. 23](source/pathfinder_4_fortress_of_the_stone_giants), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"{SOURCE Ultimate Equipment/197;Pathfinder #4: Fortress of the Stone Giants/23;Rise of the Runelords Anniversary Edition/427}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1559,7 +1559,7 @@
 		"description": [
 			"## Staff of Travel",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/203}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 54,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1585,7 +1585,7 @@
 		"description": [
 			"## Staff of Hoarding",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/197;Advanced Player's Guide/297}  ",
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** none; **Price** 55,866 gp; **Weight** 5 lbs.",
 			"",
@@ -1608,7 +1608,7 @@
 		"description": [
 			"## Crook of Unseen Forces",
 			"",
-			"**Source** [Down the Blighted Path pg. 60](source/down_the_blighted_path)  ",
+			"{SOURCE Down the Blighted Path/60}  ",
 			"**Aura** strong conjuration and evocation; **CL** 12th  ",
 			"**Slot** none; **Price** 56,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1636,7 +1636,7 @@
 		"description": [
 			"## Staff of Cackling Wrath",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/195;Advanced Player's Guide/296}  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 56,700 gp; **Weight** 5 lbs.",
 			"",
@@ -1664,7 +1664,7 @@
 		"description": [
 			"## Staff of Traps",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/203;Advanced Player's Guide/299}  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 56,925 gp; **Weight** 5 lbs.",
 			"",
@@ -1691,7 +1691,7 @@
 		"description": [
 			"## Staff of Many Rays",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Advanced Player's Guide pg. 297](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/198;Advanced Player's Guide/297}  ",
 			"**Aura** moderate evocation and necromancy; **CL** 11th  ",
 			"**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1714,7 +1714,7 @@
 		"description": [
 			"## Staff of Speaking",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/201}  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1741,7 +1741,7 @@
 		"description": [
 			"## Staff of Mithral Might",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [Pathfinder #5: Sins of the Saviors pg. 36](source/pathfinder_5_sins_of_the_saviors), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"{SOURCE Ultimate Equipment/198;Pathfinder #5: Sins of the Saviors/36;Rise of the Runelords Anniversary Edition/427}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 58,000 gp; **Weight** 7 lbs.",
 			"",
@@ -1763,7 +1763,7 @@
 		"description": [
 			"## Staff of Wings",
 			"",
-			"**Source** [Chronicle of the Righteous pg. 53](source/chronicle_of_the_righteous)",
+			"{SOURCE Chronicle of the Righteous/53}",
 			"",
 			"**Aura** strong illusion and transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 59,400 gp; **Weight** 5 lbs.",
@@ -1788,7 +1788,7 @@
 		"description": [
 			"## Staff of Defense",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment), [PRPG Core Rulebook pg. 492](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/492}  ",
 			"**Aura** strong abjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1810,7 +1810,7 @@
 		"description": [
 			"## Staff of Stoneweaving",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 67](source/pathfinder_34_blood_for_blood)  ",
+			"{SOURCE Pathfinder #34: Blood for Blood/67}  ",
 			"**Aura** strong abjuration and transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 63,180 gp; **Weight** 5 lbs.",
 			"",
@@ -1835,7 +1835,7 @@
 		"description": [
 			"## Staff of the Planes",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/202}  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 63,960 gp; **Weight** 5 lbs.",
 			"",
@@ -1862,7 +1862,7 @@
 		"description": [
 			"## Staff of Hungry Shadows",
 			"",
-			"**Source** [Ultimate Equipment pg. 197](source/ultimate_equipment), [Pathfinder #5: Sins of the Saviors pg. 32](source/pathfinder_5_sins_of_the_saviors), [Rise of the Runelords Anniversary Edition pg. 427](source/rise_of_the_runelords_anniversary_edition)  ",
+			"{SOURCE Ultimate Equipment/197;Pathfinder #5: Sins of the Saviors/32;Rise of the Runelords Anniversary Edition/427}  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 69,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1886,7 +1886,7 @@
 		"description": [
 			"## Quiema's Branch",
 			"",
-			"**Source** [Pathfinder #34: Blood for Blood pg. 69](source/pathfinder_34_blood_for_blood)  ",
+			"{SOURCE Pathfinder #34: Blood for Blood/69}  ",
 			"**Aura** strong abjuration, conjuration, and transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 72,750 gp; **Weight** 2 lbs.",
 			"",
@@ -1909,7 +1909,7 @@
 		"description": [
 			"## Dragon Staff",
 			"",
-			"**Source** [Ultimate Equipment pg. 192](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/192}  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 81,000 gp; **Weight** 7 lbs.",
 			"",
@@ -1936,7 +1936,7 @@
 		"description": [
 			"## Staff of Slumber",
 			"",
-			"**Source** [Ultimate Equipment pg. 200](source/ultimate_equipment), [Advanced Player's Guide pg. 298](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/298}  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 81,766 gp; **Weight** 5 lbs.",
 			"",
@@ -1963,7 +1963,7 @@
 		"description": [
 			"## Staff of Abjuration",
 			"",
-			"**Source** [Ultimate Equipment pg. 194](source/ultimate_equipment), [PRPG Core Rulebook pg. 492](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/194;PRPG Core Rulebook/492}  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1990,7 +1990,7 @@
 		"description": [
 			"## Staff of Conjuration",
 			"",
-			"**Source** [Ultimate Equipment pg. 195](source/ultimate_equipment), [PRPG Core Rulebook pg. 492](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/195;PRPG Core Rulebook/492}  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2017,7 +2017,7 @@
 		"description": [
 			"## Staff of Divination",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment), [PRPG Core Rulebook pg. 293](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/293}  ",
 			"**Aura** strong divination; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2044,7 +2044,7 @@
 		"description": [
 			"## Staff of Enchantment",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment), [PRPG Core Rulebook pg. 493](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/493}  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2071,7 +2071,7 @@
 		"description": [
 			"## Staff of Evocation",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment), [PRPG Core Rulebook pg. 493](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/493}  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2098,7 +2098,7 @@
 		"description": [
 			"## Staff of Illusion",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494}  ",
 			"**Aura** strong illusion; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2125,7 +2125,7 @@
 		"description": [
 			"## Staff of Necromancy",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494}  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2152,7 +2152,7 @@
 		"description": [
 			"## Staff of Transmutation",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment), [PRPG Core Rulebook pg. 495](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/202;PRPG Core Rulebook/495}  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"## Staff of Weather",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/203;Advanced Player's Guide/299}  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 84,066 gp; **Weight** 5 lbs.",
 			"",
@@ -2206,7 +2206,7 @@
 		"description": [
 			"## Staff of Earth and Stone",
 			"",
-			"**Source** [Ultimate Equipment pg. 196](source/ultimate_equipment), [PRPG Core Rulebook pg. 492](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/492}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 85,800 gp; **Weight** 5 lbs.",
 			"",
@@ -2229,7 +2229,7 @@
 		"description": [
 			"## Staff of Vision",
 			"",
-			"**Source** [Ultimate Equipment pg. 203](source/ultimate_equipment), [Advanced Player's Guide pg. 299](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/203;Advanced Player's Guide/299}  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 86,666 gp; **Weight** 5 lbs.",
 			"",
@@ -2253,7 +2253,7 @@
 		"description": [
 			"## Staff of Waves",
 			"",
-			"**Source** [Aquatic Adventures pg. 63](source/aquatic_adventures)  ",
+			"{SOURCE Aquatic Adventures/63}  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 90,300 gp; **Weight** 5 lbs.",
 			"",
@@ -2279,7 +2279,7 @@
 		"description": [
 			"## Staff of the Woodlands",
 			"",
-			"**Source** [Ultimate Equipment pg. 202](source/ultimate_equipment), [PRPG Core Rulebook pg. 496](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/202;PRPG Core Rulebook/496}  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 100,400 gp; **Weight** 5 lbs.",
 			"",
@@ -2308,7 +2308,7 @@
 		"description": [
 			"## Staff of Life",
 			"",
-			"**Source** [Ultimate Equipment pg. 198](source/ultimate_equipment), [PRPG Core Rulebook pg. 494](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494}  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 109,400 gp; **Weight** 5 lbs.",
 			"",
@@ -2328,7 +2328,7 @@
 		"description": [
 			"## Staff of Nethys",
 			"",
-			"**Source** [Divine Anthology pg. 4](source/divine_anthology)  ",
+			"{SOURCE Divine Anthology/4}  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 131,550 gp; **Weight** 5 lbs.",
 			"",
@@ -2354,7 +2354,7 @@
 		"description": [
 			"## Staff of One Hundred Hands",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/199}  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** none; **Price** 180,200 gp; **Weight** 5 lbs.",
 			"",
@@ -2379,7 +2379,7 @@
 		"description": [
 			"## Vril Staff",
 			"",
-			"**Source** [Occult Adventures pg. 255](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/255}  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2411,7 +2411,7 @@
 		"description": [
 			"## Staff of Passage",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [PRPG Core Rulebook pg. 495](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/199;PRPG Core Rulebook/495}  ",
 			"**Aura** strong varies; **CL** 17th  ",
 			"**Slot** none; **Price** 206,900 gp; **Weight** 5 lbs.",
 			"",
@@ -2434,7 +2434,7 @@
 		"description": [
 			"## Staff of the Hierophant",
 			"",
-			"**Source** [Ultimate Equipment pg. 201](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/201}  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 220,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2466,7 +2466,7 @@
 		"description": [
 			"## Winter's Reach",
 			"",
-			"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 63](source/pathfinder_72_the_witch_queens_revenge)",
+			"{SOURCE Pathfinder #72: The Witch Queen's Revenge/63}",
 			"",
 			"**Aura** strong evocation and transmutation; **CL** 19th  ",
 			"**Slot** none; **Price** 228,000 gp; **Weight** 5 lbs.",
@@ -2497,7 +2497,7 @@
 		"description": [
 			"## Staff of Power",
 			"",
-			"**Source** [Ultimate Equipment pg. 199](source/ultimate_equipment), [PRPG Core Rulebook pg. 495](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/199;PRPG Core Rulebook/495}  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 235,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2531,7 +2531,7 @@
 		"description": [
 			"## Lasirro's Staff",
 			"",
-			"**Source** [Lost Treasures pg. 38](source/lost_treasures)  ",
+			"{SOURCE Lost Treasures/38}  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 240,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2563,7 +2563,7 @@
 		"description": [
 			"## Staff of Magical Decline",
 			"",
-			"**Source** [Horror Adventures pg. 143](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/143}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Weight** 5 lbs.",
 			"",
@@ -2582,7 +2582,7 @@
 		"description": [
 			"## Staff of Occasional Wonder",
 			"",
-			"**Source** [Ultimate Equipment pg. 351](source/ultimate_equipment)",
+			"{SOURCE Ultimate Equipment/351}",
 			"",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Weight** 4 lbs.",

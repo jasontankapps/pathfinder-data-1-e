@@ -4,7 +4,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 134](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/134}",
 			"",
 			"This section presents a variety of small tweaks for your campaign, each one focused on giving life to moments and depth to activities in your game. You can use these systems individually or mix and match them together to taste.",
 			"",
@@ -69,7 +69,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 136](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/136}",
 			"",
 			"Over time, a character might become disillusioned and drift toward a different alignment. This section describes an optional system for tracking incremental changes to a character's alignment.",
 			"",
@@ -125,7 +125,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/138}",
 			"",
 			"An item is worth only what someone will pay for it. To an art collector, a canvas covered in daubs of random paint may be a masterpiece; a priestess might believe a weathered jawbone is a holy relic of a saint. The rules presented here offer you a way of playing through the process of selling off goods brought up from a crypt, liberated from a baron's bedchamber, or plundered from a dragon's vault. They also enable players to establish contacts with local fences, launderers, antiquarians, and obsessive collectors.",
 			"",
@@ -160,7 +160,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/138}",
 			"",
 			"[In general, a character can sell an item for half its listed price](rule/wealth_and_money). This keeps players from getting bogged down in bargaining with NPCs over 10 gp on a 10,000 gp item, and maintains game balance by not allowing players to use bargaining to exceed the [Wealth by Level](rule/placing_treasure) guidelines by buying low and selling high. The \"sell for half\" rule allows a fair price for standard items in normal circumstances.",
 			"",
@@ -187,7 +187,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 138](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/138}",
 			"",
 			"### Step 1: Seller Sets the Asking Price",
 			"",
@@ -245,7 +245,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/139}",
 			"",
 			"Orshok has a jeweled idol worth 1,800 gp he mistakenly appraised at 2,000 gp. He tries to sell it to an art collector at an *Asking Price* of 2,200 gp, knowing the collector will counter with a lower price. The collector succeeds at her Appraise check and realizes the idol's actual value. The collector attempts a Bluff check against Orshok's Sense Motive check and succeeds by 1, so her *Undercut Percentage* is 3% (base 2% plus 1% for exceeding the check by 1). Because the collector thinks the idol is worth less than Orshok's price, her *Initial Offer* is 6% less than her estimate of the value (1,692 gp) and her *Final Offer* is 3% less than her estimate (1,746 gp). When she makes her *Initial Offer,* Orshok counters with a price of 2,000 gp. This is higher than the collector's *Final Offer,* so Orshok attempts a Diplomacy check whose DC equals 25 + the buyer's Charisma modifier to keep the buyer's interest. He succeeds at the check, so the buyer counteroffers 1,740 gp (between her *Initial* and *Final Offers*). Orshok doesn't think the collector will go much higher, and decides to find another buyer.",
 			"",
@@ -267,7 +267,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 139](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/139}",
 			"",
 			"### Using Magic to Bargain",
 			"",
@@ -300,7 +300,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 140](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/140}",
 			"",
 			"In a typical campaign, each player controls one character. However, there are several ways for you to temporarily or permanently gain the assistance of a companion, such as an animal companion, a cohort, an eidolon, or a familiar. The combat advantages of controlling a second creature are obvious, but having a companion also has drawbacks and requires an understanding of both your role and the GM's in determining the creature's actions. This section addresses common issues for companions and the characters who use them."
 		],
@@ -325,7 +325,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 140](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/140}",
 			"",
 			"How a companion works depends on the campaign as well as the companion's nature, intelligence, and abilities. In some cases, the rules do not specify whether you or the GM controls the companion. If you're entirely in control, the companion acts like a subsidiary PC, doing exactly what you want just like a true PC. If the GM is control, you can make suggestions or attempt to influence the companion, but the GM determines whether the creature is willing or able to attempt what you want."
 		],
@@ -351,7 +351,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 140](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/140}",
 			"",
 			"Whether you or the GM controls a particular companion depends largely on the creature's intelligence and level of independence from you.",
 			"",
@@ -384,7 +384,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 141](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/141}",
 			"",
 			"The GM should keep in mind several factors when it comes to companions, whether handling them as suggested above or altering the balance to give you more or less control.",
 			"",
@@ -413,7 +413,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 142](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/142}",
 			"",
 			"Another issue is who gets to control the companion's advancement. Animal companions, eidolons, and cohorts all advance much like PCs, making choices about feats, skills, special abilities, and (in the case of cohorts) class levels. Whoever controls the companion's actions also makes decisions about its advancement, but there is more of a shared role between you and the GM for some types of companions.",
 			"",
@@ -463,7 +463,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 143](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/143}",
 			"",
 			"Increasing an animal's Intelligence to 3 or higher means it is smart enough to understand a language. However, unless an [awaken](spell/awaken) spell is used, the animal doesn't automatically and instantly learn a language, any more than a human child does. The animal must be taught a language, usually over the course of months, giving it the understanding of the meaning of words and sentences beyond its trained responses to commands like \"attack\" and \"defend.\"",
 			"",
@@ -491,7 +491,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 143](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/143}",
 			"",
 			"### Remembering Companions",
 			"",
@@ -533,7 +533,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 144](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/144}",
 			"",
 			"Having a companion in the party is an incredible opportunity for the GM to introduce plot elements into a campaign - and more interesting plots than \"the companion has been kidnapped!\" The players have a general idea about their characters' pre-adventurer histories, but a companion is a bit of a mystery. What did it do before it met you? What is its motivation for joining the adventuring party? What are its goals? What does it do when you aren't around?"
 		],
@@ -562,7 +562,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 144](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/144}",
 			"",
 			"Unless you raised your animal companion from birth, it has its own history and secrets that are likely important and could surprise you. A druid's wolf companion might have been saved by a famous ranger, fought in an orc tribe's arena, or escaped a wizard's experimental lab. What happens when that wolf recognizes that helpful ranger, savage orc, or mad wizard? Is the wolf aggressive when the druid isn't around? Does it have behavior quirks like not letting anyone touch the druid when she's sleeping, even allies trying to wake her? What if the companion was once a humanoid, but was cursed or polymorphed into a different shape and lost its memory about its original identity? What if another druid previously cast [awaken](spell/awaken) on it, and it has been pretending to be a common animal so it can watch over or spy on a PC? The answers to these questions are the seeds to side plots or entire adventures.",
 			"",
@@ -586,7 +586,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 145](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/145}",
 			"",
 			"A cohort could have a former life as a criminal that she abandoned after being inspired by your heroic deeds. Just like a PC, a cohort has family and friends, with hopes and concerns for those people. The cohort might be a target for your enemies who are unwilling or unable to strike directly at you (though be careful to avoid making the cohort become a liability or look incompetent). A cohort who is critically injured by a monster might develop a fear about that kind of monster and avoid attacking it. She may have secret vices or virtues that become more prominent over time and can directly affect her relationship with you. If the cohort has an animal companion, you might also suffer some indirect repercussions for the animal's behavior or reputation."
 		],
@@ -608,7 +608,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 145](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/145}",
 			"",
 			"An eidolon has the same mystery as a cohort, except its origins are far weirder. It might have been linked to another summoner before its bond with you. It might be a natural creature altered by planar energies and banished to a far realm, or a former adventurer lost in a disastrous mission to an unknown plane. If it resembles a more conventional planar monster (such as an archon, a dretch, or an elemental), it might have been accidentally summoned or called by a sloppy spellcaster and could have some familiarity with other people in the world. Though an eidolon's soul is strongly tied to its summoner, it has an existence in another world when it is away, and in that world it might be a bully, champion, or slave. How it reacts to things during its limited time on the Material Plane is influenced by its unknown past and secret life.",
 			"",
@@ -632,7 +632,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 146](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/146}",
 			"",
 			"Plot hooks for familiars are similar to those for animal companions, as they can have the same unknown backgrounds and instinctive reactions to people they knew when they were just common animals. Fortunately, familiars are usually small creatures that can easily pass for common pets as long as they don't do anything that reveals their unusual intelligence. Most townsfolk aren't averse to a common cat, a trained hawk, or even a snake, though innkeepers and merchants might ask that such animals be kept in a cage to prevent them from getting loose and causing any damage.",
 			"",
@@ -656,7 +656,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 146](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/146}",
 			"",
 			"A follower should be more than an acquaintance or an employee. A follower is devoted to you in the same way a cohort is, but has fewer resources at his disposal and in most cases isn't an adventurer. The follower sees you as a hero or celebrity: someone to emulate. Though it's easy to treat followers as a single, nameless group, a smart player realizes that they don't have to group together. Followers can be spread out over multiple settlements and have multiple roles. For example, if you have a [Leadership](feat/leadership) score of 10, you can have five 1st-level followers: a city guard in the capital, an acolyte at the high temple, an informant in the thieves' guild, an adept in a frontier village, and a strange child saved from a goblin's hunger. Gaining followers is an opportunity for you to look back over your adventuring career, recall important or noteworthy NPCs, and solidify the bonds between those NPCs and you.",
 			"",
@@ -686,7 +686,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 147](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/147}",
 			"",
 			"Adventuring is a dangerous career, and sometimes an animal companion, cohort, or familiar dies or is lost. A change in your alignment or religion might drive away your cohort, or the cohort's role in the story might end based on discussion between you and the GM. An extended voyage in a dangerous environment might convince a druid to free a trusted companion that would otherwise suffer and die if forced to travel (such as a polar bear in the desert). A ranger might discover a rare specimen of a favorite type of creature and want to claim it as his own in order to protect it from poachers. Regardless of the cause, when a companion dies or is lost, you need to replace it. This creates an opportunity for roleplaying."
 		],
@@ -712,7 +712,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 147](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/147}",
 			"",
 			"A lost animal companion, cohort, familiar, or follower can be raised or resurrected with spells such as [raise dead](spell/raise_dead), [raise animal companion](spell/raise_animal_companion), [resurrection](spell/resurrection), or [true resurrection](spell/true_resurrection). For a cohort or follower with character levels, these kinds of spells give the character one or more negative levels - a price worth paying if the alternative is death. Creatures with no character levels (such as animal companions and familiars) count as 1st level for the purpose of these spells, and therefore they take Constitution drain instead of negative levels. A nonsentient companion is assumed to be willing to return to life unless you were cruel to it or directly responsible for its death.",
 			"",
@@ -735,7 +735,7 @@
 		"subtitle": "Companions, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 147](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/147}",
 			"",
 			"In some cases, replacing an animal companion or familiar can be as easy as purchasing an animal of the desired type and declaring it your new companion. [Attuning a familiar to its new master](class/wizard) requires a ritual. [Choosing an animal companion](class/druid) requires 24 hours of prayer. The ceremony can also be used to attract and bond with an animal appropriate to the local environment. However, you might want to wait for the campaign to present an appropriate companion, such as an animal you rescue from a cruel enemy that you tame with the ritual or ceremony. In terms of game mechanics, there is no difference between any of these options, and you should work with the GM to find a replacement method that is appropriate to the campaign.",
 			"",
@@ -756,7 +756,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 148](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/148}",
 			"",
 			"A contact is a unique NPC with useful skills or powerful connections. You can call upon contacts for aid to accomplish specialized tasks without getting directly involved. A low-level contact can dig up a local rumor, tell you where to find a good meal, or impart basic knowledge. However, as you earn more of a contact's trust, he might perform greater tasks with greater personal risk, such as helping you track down an adversary, bailing you out of jail, or loaning you a magic item.",
 			"",
@@ -796,7 +796,7 @@
 		"subtitle": "Contacts, Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 148](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/148}",
 			"",
 			"In order for you to secure a reliable contact, you must establish and maintain the contact's trust. A new contact won't typically reveal the full extent of his abilities or covert affiliations. For example, your childhood friend might have close ties with a political organization, thieves' guild, or street gang, but may keep this information secret to protect himself and you. At some point, the friend reveals this connection and becomes a contact for you. As the contact's trust increases, he becomes more willing to perform or secure various services for you, provided those services remain within his means.",
 			"",
@@ -832,7 +832,7 @@
 		"subtitle": "Contacts, Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 148](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/148}",
 			"",
 			"**Risk** represents the potential danger of various tasks. Like a Trust score, Risk is measured on a scale of 1 to 5, with 1 representing little or no risk and 5 representing serious danger. Each level of risk includes the typical drawback or punishment the contact suffers if he critically fails at a risky task (see [Negotiation Checks](rule/negotiation_checks)).",
 			"",
@@ -876,7 +876,7 @@
 		"subtitle": "Contacts, Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 150](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/150}",
 			"",
 			"To use a contact, you must first determine the contact's willingness to help you. Compare the task's Risk score to the contact's Trust score.",
 			"",
@@ -918,7 +918,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 151](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/151}",
 			"",
 			"The GM may allow you to begin the campaign with one contact (typically with a Trust score of 2 or 3), but otherwise you gain contacts through roleplaying over the course of an entire campaign. To gain a new contact, you must first establish the NPC's trust through repeated positive interactions or a single profound one.",
 			"",
@@ -958,7 +958,7 @@
 		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 151](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/151}",
 			"",
 			"Contacts are as diverse and complicated as society itself. Simple contacts only provide you with basic information, such as which roads have fewer bandits or which wells have the cleanest water. Contacts with greater experience, power, and influence are capable of providing more advanced aid. A politician's scribe might leak information or alter an important document, and a high-ranking church official might lend you a sacred relic. Because of this diversity, associating with certain types of contacts creates greater risk for you than associating with others. A conversation with a local miller or lumberjack attracts far less attention than a conversation with the sister of a powerful guildmaster or multiple visits to the grand vizier's chambers. Likewise, asking a notorious assassin to see whether an ailing wizard friend is recovering may be construed as a threat, asking a crazed wizard contact for local rumors is more likely to reflect poorly on you than asking a popular bard, and keeping company with criminals, outcasts, or other shady characters might implicate some amount of guilt by association in the eyes of local authorities.",
 			"",
@@ -1030,7 +1030,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/154}",
 			"",
 			"Exploration is the epitome of adventuring. An explorer strikes out into the uncharted wild to pursue fortune and glory, facing off against a world of unknown perils that can strike at any time. Beyond the protection of civilization, death can come at the hands of bandit attacks, encounters with feral beasts, and the uncaring whims of the environment. For those brave enough, exploration offers its own kind of reward: the ability to look back on the long road traveled, to recount the many obstacles that were struggled through, and to mark the discoveries made along the way as yours. The summit of every mountain climbed and the length of every trail forged is a victory for the traveler - a chance to look at the world she is conquering.",
 			"",
@@ -1071,7 +1071,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/154}",
 			"",
 			"These exploration rules can work well in a sandbox-style game. Essentially, a sandbox campaign provides many different locations on the map where the PCs are offered tasks to resolve, and locations where the tasks can be executed. (Each task might or might not take place in the same locations it was offered.) A task can be as simple as clearing evil monsters from a patch of forest or as complicated as helping a fledgling kingdom acquire resources in its back country.",
 			"",
@@ -1103,7 +1103,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/154}",
 			"",
 			"Each hex on the map is 12 miles across from corner to corner, representing an area just under 95 square miles. The hexes are used to track the party's movement while exploring, and as a means to help define the extent of different types of terrain. The exploration rates presented in these rules differ from the travel rates found in the Core Rulebook, since characters are also assumed to be taking time to fully explore each area they enter, which takes a great deal longer than simply walking through it.",
 			"",
@@ -1158,7 +1158,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/154}",
 			"",
 			"Whenever a hex is explored fully, the party earns 100 XP for the effort. Some modifiers can add to this amount. The party gains an additional 25 XP after fully exploring a hex that contains either difficult terrain or a hazard. You might decide that some hexes are more dangerous, especially in a higher-level campaign, and award the party more XP per hex (perhaps up to 500 XP for especially hostile areas)."
 		],
@@ -1185,7 +1185,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 154](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/154}",
 			"",
 			"When the players ask what they find while exploring a hex, the answer should never be \"nothing.\" Even in the simplest field of wheat, offer a bit of detail-something compelling to help flesh out the world. The foundation of a long-forgotten village or a set of standing stones built to honor a lost god can be hints about that area's history. **Table 7-56: Things Found on the Roadside** and **Table 7-58: Scenic Spots** list [many examples](rule/wilderness_toolbox) of interesting features you can use to fill in details.",
 			"",
@@ -1216,7 +1216,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 155](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/155}",
 			"",
 			"While moving through the wilderness, there is the possibility of adventurers losing track of where they're going. The lack of a clear path, coupled with low visibility due to terrain or weather, can cause explorers to head in the wrong direction. Anytime the characters move through marshes or forests, or have reduced visibility from the effects of any modifiers, they have a chance of becoming lost.",
 			"",
@@ -1245,7 +1245,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 155](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/155}",
 			"",
 			"Natural disasters can occur anywhere. Untamed regions are often home to a wide variety of monsters. You can instill a bit of additional danger into your exploration sessions by including random encounters, whether they take the form of natural hazards or monsters that dwell in the terrain.",
 			"",
@@ -1280,7 +1280,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 156](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/156}",
 			"",
 			"A specific, planned encounter for a hex does not have to be especially complicated. It can be as simple as a quick meeting with an explorer who can sell the PCs some necessary supplies or the discovery of a monster lair that hints at a greater threat. A good rule when determining the number of planned encounters to prepare is to have at least one for each character in the party. That way, you can tailor encounters to allow each character to take the spotlight without having to populate every single hex on the map one by one.",
 			"",
@@ -1313,7 +1313,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 156](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/156}",
 			"",
 			"For simplicity's sake, a hex is categorized by its primary terrain: desert, forest, hill, marsh, mountain, plain, settlement, or water. The terrain doesn't have to be uniform within that hex - the border between a forest hex and plain hex might be a gradual thinning of the trees or the sudden edge of a heavy forest. A hex might have a river running through it, a large rock outcropping, a barren patch from a fire, and so on. The hexes are abstractions to make travel and encounters easier, not a way to reduce the campaign map to a simple board game.",
 			"",
@@ -1354,7 +1354,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 156](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/156}",
 			"",
 			"A [desert](rule/desert_terrain) is any sort of terrain that receives very little rainfall. It can be warm, temperate, or cold.",
 			"",
@@ -1396,7 +1396,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/157}",
 			"",
 			"A normal [forest](rule/forest_terrain) hex can be any sort of common forest: sparse patches of trees in the lowlands, thickly needled pines of the taiga, a lush tropical jungle, or even an ancient fruit tree grove turned overgrown and wild.",
 			"",
@@ -1432,7 +1432,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/157}",
 			"",
 			"A hill is lower and less steep than a mountain. [Hills](rule/hills_terrain) are often transitional terrain between mountains and plains.",
 			"",
@@ -1468,7 +1468,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/157}",
 			"",
 			"[Marshes, swamps, and bogs](rule/marsh_terrain) are challenging ground to traverse. Survival check DCs to avoid getting lost increase by 1 in a marsh hex.",
 			"",
@@ -1504,7 +1504,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/157}",
 			"",
 			"[Mountains](rule/mountain_terrain) form long barriers across the landscape that greatly impede the movement of travelers.",
 			"",
@@ -1540,7 +1540,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 157](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/157}",
 			"",
 			"[Plains](rule/plains_terrain) can be fields of high grasses, permanently frozen tundra, or flat badlands.",
 			"",
@@ -1576,7 +1576,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/158}",
 			"",
 			"Normal settlement hexes are small villages or military encampments. Settlements usually appear with another terrain type they're built upon. Frequently used trails or even simple roads reduce travel time through the hex by 25-50% depending on the terrain type for that hex.",
 			"",
@@ -1612,7 +1612,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/158}",
 			"",
 			"Whether a river, lake, or ocean, this type of hex is [predominantly water](rule/aquatic_terrain). If the PCs lack swim speeds or boats, it is best to treat lakes and oceans as obstacles for the PCs to travel around rather than through. Treat the shores of the water hex as the adjacent terrain type.",
 			"",
@@ -1648,7 +1648,7 @@
 		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/158}",
 			"",
 			"Not everyone has the time to create a detailed map to use in-game. An example map has been provided [in the physical book] to photocopy and easily drop into play, but you and your players can also use the following rules to create a whole new map randomly during play. This can empower your players to discover the unexplored world around them. The options presented below are intentionally designed to be generic types of temperate terrain; adjust them for your own game. In a frozen wasteland, plain hexes could represent great expanses of icy ground, while in an arid climate they could represent massive alkali flats. Use these examples as a springboard to create a unique campaign of exploration.",
 			"",
@@ -1701,7 +1701,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 158](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/158}",
 			"",
 			"Hazards are dangerous obstacles or events relevant to a hex's terrain type. They represent the natural disasters, harsh weather, and bad luck that can befall an expedition, and are included to liven up the PCs' journey as they explore the world. In addition to these hazards, you might use an [environmental danger that's suitable to the current terrain](rule/wilderness). After the effects of a hazard have been resolved, treat the hex as a standard example of that terrain.",
 			"",
@@ -1756,7 +1756,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 160](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/160}",
 			"",
 			"Beyond life and death, beyond good and evil, there is honor. It is the abode of the eternal, which none can take but which can be destroyed through a single rash act. It is a measure of one's place within a society, a status known to all and sought by many. Whether in a samurai culture, the frozen viking wastes of the northlands, or the dizzying court intrigues of a byzantine kingdom, honor provides an anchor and stable foundations for your life's work. If you lack honor, others view you as faithless, untrustworthy, disloyal, and unfair. Honor influences reputation, status, and legend, but transcends them all.",
 			"",
@@ -1797,7 +1797,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 160](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/160}",
 			"",
 			"Honor is represented by points on a scale from 0 to 100. A score of 0 represents a person who is seen as completely untrustworthy, willing to sacrifice anything and anyone for even a momentary gain. A score of 100 represents a person of legendary stature whose reputation is without blemish. Honor is not a measurement of alignment, fame, or goodwill so much as a gauge of loyalty, trustworthiness, and fairness; one could be a kindhearted-but-flighty shogun with 0 honor points, or a cruel-but-stalwart monk with 100 honor points.",
 			"",
@@ -1822,7 +1822,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/161}",
 			"",
 			"You gain and lose honor points through events. Some events affect all PCs in the party (such as destroying a demon that's attacking a village), and others only affect you (such as losing a duel against a less honorable rival). Most of these events require witnesses who spread the word of what happened; if nobody outside sees the event, and nobody in the party speaks of it, it has no effect on your honor. The GM may decide that a delay of 1d6 days or more is appropriate for a change in honor, reflecting the time needed for news to travel.",
 			"",
@@ -1879,7 +1879,7 @@
 		"subtitle": "Honor, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 162](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/162}",
 			"",
 			"These events apply to a chivalric or Arthurian knight's code.",
 			"",
@@ -1925,7 +1925,7 @@
 		"subtitle": "Honor, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 162](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/162}",
 			"",
 			"These events apply to a criminal code such as that used by a thieves' guild or ninja clan.",
 			"",
@@ -1973,7 +1973,7 @@
 		"subtitle": "Honor, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 162](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/162}",
 			"",
 			"These events apply to cultures favoring political intrigue, espionage, and diplomacy.",
 			"",
@@ -2026,7 +2026,7 @@
 		"subtitle": "Honor, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 163](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/163}",
 			"",
 			"These events apply to a samurai code.",
 			"",
@@ -2073,7 +2073,7 @@
 		"subtitle": "Honor, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 163](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/163}",
 			"",
 			"These events apply to nomadic or tribal societies.",
 			"",
@@ -2120,7 +2120,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/161}",
 			"",
 			"You can spend honor points once per game session to gain a temporary advantage for yourself, such as a gift, loan, or introduction to an important person. Each expenditure reduces your honor score by an amount determined by the GM. If you try to spend honor points for an advantage that costs more points than you currently have, your honor score is reduced to 0 and you don't gain the advantage - by reaching too high, you lose honor and gain nothing. Examples of honor point expenditures include the following.",
 			"",
@@ -2156,7 +2156,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 161](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/161}",
 			"",
 			"If your honor score reaches 0, you take a -2 penalty on Will saving throws and Charisma-based checks, representing your sense of shame. If you are part of an honor-bound institution, your lack of honor may bring shame upon the institution, and cause its leaders to punish you.",
 			"",
@@ -2179,7 +2179,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 164](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/164}",
 			"",
 			"From the lowly copper piece to treasure chests bulging with precious gemstones, the anchor of most parties is treasure. But what is the purpose of a PC collecting this money if not to better her life? Once she's acquired it, shouldn't she put it to work for her? After all, adventuring is not a certain prospect; investments are a much safer bet, and the return they offer on the money invested comes without all the dangers involved in adventuring.",
 			"",
@@ -2214,7 +2214,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 164](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/164}",
 			"",
 			"When a PC decides to invest, ask the player how much money the PC provides for the investment. This is the seed money, and has a direct effect on how much money the investment earns each year (see below).",
 			"",
@@ -2271,7 +2271,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 165](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/165}",
 			"",
 			"The list of investments provided is not meant to be exhaustive; NPC ingenuity could open up all sorts of investments. Some research on medieval and Renaissance technology reveals many ideas the people of those times used to make their lives easier, and some of those ideas can easily become an investment opportunity for the PCs. This section details how particular investments might serve as plot hooks for the PCs involved.",
 			"",
@@ -2316,7 +2316,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 166](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/166}",
 			"",
 			"A hero doesn't just blink into existence the moment you fill out a character sheet; he came from somewhere. For most characters, that means he has or had a family: a mother and father, who in turn had mothers and fathers of their own, and so on, stretching back into the past in a chain of ancestry. This is the character's lineage, and it shapes and defines the character, whether he's consciously aware of it or not. Some lineages are more complex than others - adoption, sorcerer bloodlines, and reincarnation are a few examples - but the idea of family is still important beyond immediate blood ties. Whatever form this lineage takes, it has a profound effect on the character's life, story, and role in the campaign."
 		],
@@ -2344,7 +2344,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 166](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/166}",
 			"",
 			"The most obvious manifestation of your character's lineage is his still-living relatives. Many of these NPCs have been with the character since birth, and helped shape him into the person he is today. A character's family is an extension of that character's backstory, and so you should ultimately have the final say over its size and nature. The GM should only intervene when your desired family would disrupt the campaign in some way or give you an unfair advantage. For the same reason, the GM should avoid introducing new members to your character's family after the campaign begins, unless the circumstances of the story (such as marriage or pregnancy) demand it.",
 			"",
@@ -2377,7 +2377,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 166](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/166}",
 			"",
 			"Of course, not all families get along. Past trauma, such as abuse or neglect, can shatter bonds, poisoning what should be healthy relationships. Politics and religion also drive wedges between relatives, turning brother against brother and mother against daughter. Sometimes a simple clash of personalities is enough to turn one family member away. Because of reasons like these, some family members begin with a worse attitude toward your PC than the above guidelines suggest. Most such relatives will be unfriendly to the PC at worst, though hostile relatives are possible in extreme cases.",
 			"",
@@ -2406,7 +2406,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 167](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/167}",
 			"",
 			"You can create and describe the individual members of your character's family using rules in [Non-Player Characters](rule/non-player_characters) and the guidelines earlier in this section, but a true family is more than a collection of NPCs with the same surname. Families have traditions, values, and a shared folklore that sets them apart, even from other groups in the same culture. When developing your character's family, you should consider what makes that family unique.",
 			"",
@@ -2433,7 +2433,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 167](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/167}",
 			"",
 			"While creating and developing a character's family is largely your responsibility, it's up to the GM to determine how large a role that family plays in the campaign. The family's role might be limited to that of a background element, serving only to flesh out your character concept, or it could play a pivotal role in the campaign's story, tying the character directly to the plot and motivating her from adventure to adventure. Creating a family for your character helps establish an emotional connection with the campaign setting, and the GM should encourage this by giving your family some measure of in-game relevance. Yet placing too much emphasis on one character's family gives that player undue influence over the campaign, and unless the rest of the party is composed of playing members of the same family, the other players could feel underrepresented.",
 			"",
@@ -2460,7 +2460,7 @@
 		"subtitle": "Family, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/168}",
 			"",
 			"Unless your character's family is astonishingly poor, they should be able to provide the PC and her allies with simple, mundane aid. This might mean a decent meal, a clean set of clothes, a roof for the night, or a few extra hands for some manual labor. Beyond this, what sort of aid the family provides depends on the family's interests and skills. A family of artisans might offer to craft a nonmagical piece of equipment, or lend tools and equipment related to their trade. A family of musicians might help you make contact with an influential noble patron, or throw a party for your friends and allies after a great victory.",
 			"",
@@ -2491,7 +2491,7 @@
 		"subtitle": "Family, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/168}",
 			"",
 			"The GM may decide that your character inherits something of value from a deceased relative. This may be as innocuous as a village farm or a house in the city, an adventurer's heirloom such as a masterwork rapier or [ring of protection +1](magic-ring/ring_of_protection_1), or something cryptic and unnerving like a glowing frog idol or a skull that whispers secrets.",
 			"",
@@ -2522,7 +2522,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 168](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/168}",
 			"",
 			"Villainous relatives are everywhere in popular fiction, and for good reason - confronting the \"black sheep\" of the family, whether over bad politics, stealing from the family business, or dangerous criminal acts carries a lot of dramatic tension, and the fallout from this sort of storyline can impact the entire family for generations. Having a friendly family member turn out to be the villain is just as effective as having a retired PC become a villain (see [Retirement](rule/retirement)). The GM should use this as a plot device sparingly-turning relatives into villains is predictable, can negatively impact your perception of your character's family, and might focus the campaign too much on one player.",
 			"",
@@ -2553,7 +2553,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 169](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/169}",
 			"",
 			"When a GM kills your PC's family members, it carries just as much risk as using your PC's family members as villains, and yields far fewer benefits. The death of a loved one at an enemy's hand can certainly provide an emotional kick to the campaign, and help characterize a villain as a truly loathsome individual. However, the unforeseen death of a beloved family member can just as easily prove jarring or traumatic if you are heavily invested in your character's family's well-being. If the GM believes it is necessary to place your character's family in peril, you should have a fair opportunity to defend or save them, or at least to distract the one responsible long enough for your family to get to safety."
 		],
@@ -2578,7 +2578,7 @@
 		"subtitle": "Family, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 169](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/169}",
 			"",
 			"Your character's deceased family members can have just as strong an influence over the campaign as you do. Lineages vary widely; one character might be descended from an ancient line of kings, and another could be the child of an infamous thief. Rather than simply granting your character benefits or drawbacks based on her ancestors, your character's legacy should be used to provide hooks for further adventures and quests.",
 			"",
@@ -2607,7 +2607,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/170}",
 			"",
 			"If you have [item creation feats](main/feats_metamagic) (or access to those feats from cohorts or other NPCs), you might want to use time between adventures to craft magic items, either to create new items from scratch or add abilities to existing items. If the desired item is something out of the Pathfinder RPG Core Rulebook and you have the appropriate feats, the GM's role is mainly to approve or disapprove the creation of the item (for example, if the GM has decided that the desired item is rare, requires exotic ingredients, or is illegal or forbidden where the downtime takes place). If there is a chance for you to accidentally create a cursed item by failing the skill check by 5 or more, the GM should roll the check in secret so you don't know whether or not the item is cursed.",
 			"",
@@ -2646,7 +2646,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/170}",
 			"",
 			"The correct way to price an item is by comparing its abilities to similar items in the Core Rulebook (see [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values)), and only if there are no similar items should you use the pricing formulas to determine an approximate price for the item. If you discover a loophole that allows an item to have an ability for a much lower price than is given for a comparable item in the Core Rulebook, the GM should require using the price of the Core Rulebook item, as that is the standard cost for such an effect. Most of these loopholes stem from trying to get unlimited uses per day of a spell effect from the \"command word\" or \"use-activated or continuous\" lines of the table in [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values).",
 			"",
@@ -2677,7 +2677,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/170}",
 			"",
 			"If you need another character to supply one of an item's requirements (such as if you're a wizard creating an item with a divine spell), both you and the other character must be present for the entire duration of the crafting process. If the GM is using the [downtime system](rule/downtime), both you and the other character must use downtime at the same time for this purpose. Only you make the skill check to complete the item - or, if there is a chance of creating a cursed item, the GM makes the check in secret.",
 			"",
@@ -2704,7 +2704,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 170](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/170}",
 			"",
 			"Adding more magic to an existing item can be quite simple or very math-intensive. If the item's current and proposed abilities follow the normal pricing rules (particularly with weapons, armor, and shields), adding the new abilities is a matter of [subtracting the old price from the new price](rule/adding_new_abilities) and determining how many days of crafting it takes to make up the difference.",
 			"",
@@ -2741,7 +2741,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 171](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/171}",
 			"",
 			"The Core Rulebook doesn't allow item creation feats to recharge charged items such as wands. This is because wands are the most cost-effective form of expendable spellcasting in the game (the minimum price is 15 gp per charge, as compared to a minimum price of 25 gp per use for a scroll or 50 gp per use for a potion). Allowing wand recharging devalues scrolls and potions in the game, especially as using a wand does not provoke attacks of opportunity. A wand's lower price increment would also mean that partially recharging the wand is easily done with a short downtime period (10 charges per day for a 2nd-level wand, 4 per day for a 3rd-level wand, and 2 per day for a 4th-level wand), making the wand even more useful and cost-effective.",
 			"",
@@ -2768,7 +2768,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 172](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/172}",
 			"",
 			"The Core Rulebook doesn't allow item creation feats to alter the physical nature of an item, its default size, its shape, or its magical properties. For example, there is no mechanism for using crafting feats to change a steel +1 longsword into an adamantine +1 longsword, a Large +1 chain shirt into a Medium +1 chain shirt, [boots of speed](magic-wondrous/boots_of_speed) into an amulet of speed, or a +1 [unholy](magic-enhancement/unholy) longsword into a +1 [flaming](magic-enhancement/flaming) [shock](magic-enhancement/shock) longsword. Many GMs might decide that these kinds of transformations are impossible, beyond the scope of mortals, or not as cost-efficient as crafting a new item from scratch. Others might allow these sorts of transformations for free or a small surcharge. Keep in mind the following warnings.",
 			"",
@@ -2805,7 +2805,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/173}",
 			"",
 			"You can take advantage of the item creation rules to handcraft most or all of your magic items. Because you've spent gp equal to only half the price of these items, you could end up with more gear than what the [Character Wealth by Level](rule/placing_treasure) table suggests for you. This is especially the case if you're a new character starting above 1st level or one with the versatile [Craft Wondrous Item](feat/craft_wondrous_item) feat. With these advantages, you can carefully craft optimized gear rather than acquiring GM-selected gear over the course of a campaign. For example, a newly created 4th-level character should have about 6,000 gp worth of gear, but you can craft up to 12,000 gp worth of gear with that much gold, all of it taking place before the character enters the campaign, making the time-cost of crafting irrelevant.",
 			"",
@@ -2836,7 +2836,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/173}",
 			"",
 			"The expectation in a standard campaign is that the PCs go on quests to fighting monsters and collect treasure. In other words, you aren't supposed to stay at home, work at day jobs, and earn wages instead of adventuring. The game mechanics reinforce this by only allowing you to sell items for half their normal price because it assumes selling them to an NPC shopkeeper, so even if you craft a [bag of holding](magic-wondrous/bag_of_holding_type_1), you can't sell it yourself for full price because you don't have your own store to sell it in. This prevents you from profiting by crafting an item (and paying half the price to do so) and selling it for the full market price.",
 			"",
@@ -2871,7 +2871,7 @@
 		"subtitle": "Magic Item Creation, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 173](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/173}",
 			"",
 			"Fantasy and myth are rife with exotic materials used to create magic items: meteoric iron, unicorn horn, dragon blood, vampire ichor, and so on. The item creation system in the Core Rulebook is very abstract, however, and most item creation is just a matter of spending gold in town for the necessary supplies that are never quantified or described. This section provides details on incorporating talismanic components into a campaign, the effect they have on treasure hoards, examples of many talismanic components, and the sorts of items they are used for.",
 			"",
@@ -2904,7 +2904,7 @@
 		"subtitle": "Talismanic Components, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/174}",
 			"",
 			"You spend talismanic components exactly like gp for the purpose of crafting magic items, and they're destroyed as part of the item's creation or incorporated into the item. Once used, they're expended and can't be used again. Talismanic components don't change the crafting time, DC, or any other aspects of creating a magic item; they are just a substitute for the gp cost to craft it.",
 			"",
@@ -2930,7 +2930,7 @@
 		"subtitle": "Talismanic Components, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/174}",
 			"",
 			"The GM might decide that some or all magic item creation requires talismanic components. These components could be available for purchase in civilized areas, or could be acquired only by hunting specific creatures or searching in remote locations. Some components might be illegal in some cities or countries and found only on the black market there. In this way, the GM can set different controls on item creation and create adventure opportunities for crafting-oriented PCs. For example, if crafting an anarchic weapon requires the blood of a powerful demon, you can try to acquire some demon blood in town, arousing suspicion as to why you need such a foul substance, or you can travel to a location where demons are known to dwell and try to kill one - or maybe even bargain - for its blood."
 		],
@@ -2952,7 +2952,7 @@
 		"subtitle": "Talismanic Components, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/174}",
 			"",
 			"Talismanic components are [trade goods](rule/wealth_and_money) just like gems, wheat, spices, or cloth. Under normal circumstances, you can acquire these materials at the listed cost or sell what you find in a treasure hoard at the listed cost. For example, 500 gp worth of dragon heartblood costs 500 gp in a city, and if you take a flask of dragon heartblood worth 500 gp as your share of treasure, you can sell it in town for 500 gp. If there is a surplus or shortage of a particular component, the price could go up or down, or merchants might be more inclined to [bargain over the price](rule/bargaining) to try to get a better deal.",
 			"",
@@ -2980,7 +2980,7 @@
 		"subtitle": "Talismanic Components, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 174](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/174}",
 			"",
 			"This section lists conventional and commonly known talismanic components. GMs should invent many other strange and mythical components such as \"the first scent of the day\" or \"the sound of a cat's footfall,\" especially for very powerful items. Note that the substances don't necessarily have identical values per unit; dragon heartblood might be worth 10 gp per drop, mithral crystals worth 10 gp per pound, and the hands of murderers worth 10 gp each.",
 			"",
@@ -3050,7 +3050,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 176](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/176}",
 			"",
 			"No villain ever seems to understand that when he threatens a hero's family, things go south for him. After all, nothing gives the beleaguered champion one last surge of strength like the sight of a loved one in peril. Relationships are the cornerstone of all that heroes are and can be.",
 			"",
@@ -3089,7 +3089,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 176](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/176}",
 			"",
 			"Your ***Relationship Level*** with an NPC is based on your ***Relationship Score,*** which can increase in play (see Growing Relationships). You gain new benefits when an NPC's relationship with you progresses to a new level.",
 			"",
@@ -3129,7 +3129,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/177}",
 			"",
 			"You can change your Relationship Score with an NPC in the following ways.",
 			"",
@@ -3164,7 +3164,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/177}",
 			"",
 			"If you want to deliberately change a relationship from friendly to competitive, you can do so by insulting or rejecting the NPC. This also automatically reduces your Relationship Score with that NPC by half.",
 			"",
@@ -3187,7 +3187,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/177}",
 			"",
 			"Listed below are some of the familial relationships likely to be significant to a character, as well as adventure hooks, roleplaying advice, and ways to make the relationship grow over time."
 		],
@@ -3214,7 +3214,7 @@
 		"subtitle": "Relationships, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 177](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/177}",
 			"",
 			"Whether a progenitor or a parental figure (like a mentor or teacher), a parent often embodies the sense of debt and responsibility a character has for his origins and past.",
 			"",
@@ -3246,7 +3246,7 @@
 		"subtitle": "Relationships, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 178](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/178}",
 			"",
 			"Sibling relationships have been the basis of folklore and mythology for ages, and for good reason. Unlike a parent, a sibling is your direct peer, a living mirror who forces you to confront your past deeds and future potential.",
 			"",
@@ -3280,7 +3280,7 @@
 		"subtitle": "Relationships, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 178](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/178}",
 			"",
 			"A childhood rival might be someone who used to bully you, an apprentice of the same mentor who competed against you for privileges, or a contemporary in your field who resented your opportunities or scoffed at your inferior birth status. This rival might openly hate you, pretend to like you while plotting your downfall, or respect you but have goals that conflict with yours. Backstabbing, cliques, peer pressure, and rumors are her weapons - the rival is someone who has known you for a long time and knows what buttons to push to annoy or distract you.",
 			"",
@@ -3316,7 +3316,7 @@
 		"subtitle": "Relationships, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 179](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/179}",
 			"",
 			"Romantic entanglements can be the stuff of roleplaying dreams. They add drama, tension, and excitement, and can raise the campaign stakes to unprecedented levels. Perhaps the most important facet of your relationship with your spouse hinges on how the two of you met. Furthermore, your spouse's role in the campaign affects you and the other PCs. When your paladin falls in love with the party cleric, marriage might not adversely affect the group dynamic - but if you marry the innkeeper in your favorite town, it could lead to a sedentary lifestyle and a divided loyalty between your fellow adventurers and your spouse's community.",
 			"",
@@ -3348,7 +3348,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 180](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/180}",
 			"",
 			"Though some heroes content themselves with living off the spoils of their exploits or cloaking themselves in humility, others seek to live forever through the sagas and songs of their epic deeds. History measures a hero's success by tales of triumph and bravery that are retold down the ages. A hero with no one to tell her story quickly fades into obscurity along with her unsung accomplishments. How others tell of a hero's deeds becomes the weight by which she is measured, sculpting both her identity and reputation.",
 			"",
@@ -3388,7 +3388,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 181](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/181}",
 			"",
 			"You begin play with a Fame equal to your character level + your Charisma modifier. Your Fame ranges from -100 to 100, with 0 representing a lack of any notoriety. Through the course of the campaign, your words and deeds help you build a reputation. Though an adventurer performs many deeds, not all are significant enough to warrant a change in Fame. If possible, the GM should stick to those deeds that directly affect the story or campaign and not reward points for minor victories. The significance of specific deeds should generally be left up to the GM, though Table 3-5 details some specific examples.",
 			"",
@@ -3474,7 +3474,7 @@
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 181](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/181}",
 			"",
 			"Your reputation travels only as far as the tales of your deeds. Even if you are a great hero in your homeland, when traveling elsewhere you will soon discover that your reputation diminishes until you eventually reach regions where you are completely unrecognized. The greater your reputation, the farther it travels and the broader your Sphere of Influence.",
 			"",
@@ -3516,7 +3516,7 @@
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/182}",
 			"",
 			"Prestige Points represent your ability to leverage your Fame. You earn Prestige Points (PP) by completing objectives during the course of play. The GM decides which deeds, goals, or story elements are most important and awards players for completing them accordingly. Each time your Fame increases, you also gain 1 Prestige Point. In a typical campaign, you should gain approximately 4 to 6 Prestige Points per character level. Your current Prestige Points can never exceed your Fame. You can't share Prestige Points with other characters; only the character who earned them can spend them. Most of the time, you spend points on rewards: titles, temporary abilities, or bonuses on tasks associated with your interests.",
 			"",
@@ -3554,7 +3554,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/182}",
 			"",
 			"This is the starting Fame for a new 1st-level adventurer.",
 			"",
@@ -3584,7 +3584,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 182](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/182}",
 			"",
 			"This is the typical Fame of a character who has completed a couple of adventures.",
 			"",
@@ -3616,7 +3616,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 183](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/183}",
 			"",
 			"This is the typical Fame of an adventurer who has completed several adventures and whom the public is starting to take notice of.",
 			"",
@@ -3660,7 +3660,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 183](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/183}",
 			"",
 			"This is the Fame of a successful adventurer whose exploits have made her a local hero.",
 			"",
@@ -3696,7 +3696,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 184](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/184}",
 			"",
 			"This is the Fame of an adventurer who has achieved celebrity status.",
 			"",
@@ -3726,7 +3726,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 184](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/184}",
 			"",
 			"At this Fame level and higher, the character is idolized and easily recognized for his or her achievements.",
 			"",
@@ -3754,7 +3754,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 185](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/185}",
 			"",
 			"Sometimes situations should take into account the Fame values of multiple characters. This usually occurs when all the PCs continually operate as a single entity, such as King Arthur's Knights of the Round Table, Robin Hood's Merry Men, or Captain Kidd's pirate crew. Instead of the fame of individuals contributing to the fame of a group, the group's fame is independent of its members (a group may start in the first category and evolve into the second as it gains more members and the founders take a less direct role in its activities). A group like this develops its own Fame; if you are a member of that group, you use its Fame instead your own. If you and your allies are part of such a group, the Fame rules work the same, except the GM only tracks one Fame value for the entire group instead of individual values for each PC; each character's actions that would increase or decrease the Fame contribute to that score. You still gain and spend your own Prestige Points, but use the group's Fame for everything else."
 		],
@@ -3777,7 +3777,7 @@
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 185](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/185}",
 			"",
 			"Throughout the course of your adventuring career, your public persona and your true personality might drift begin to drift apart or become notably disparate. When this occurs, you may change your name and adopt an alter ego or alias in order to rid yourself of your prior reputation. In this case, your Fame and Prestige Points remain with your former name, allowing you to shed your former life and start a new one.",
 			"",
@@ -3803,7 +3803,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/186}",
 			"",
 			"Every hero's journey comes to an end. Ideally this happens at the conclusion of the campaign, but not every hero makes it that far. Some are crippled in battle, killed without the possibility of resurrection, or altered beyond recognition by foul magic. Others lose the will to adventure or their motives for adventuring become irrelevant. Characters can also fall by the wayside for out-of-game reasons, such as a player's schedule changing and preventing participation or the player losing interest in playing the character or the game.",
 			"",
@@ -3832,7 +3832,7 @@
 		"subtitle": "Retirement, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/186}",
 			"",
 			"When most people think of retired adventurers, they think of the explorer-turned-tavern owner or the seasoned veteran who now patrols the streets as sheriff. These are characters who turned away from excitement and danger to live simpler, safer lives within the confines of civilization. This is an excellent option for PCs who have strong ties to a particular settlement or who possess skills or abilities that would be of use in the world outside the dungeon. If you're interested in having your PC retire this way, work with the GM to determine what sort of occupation your character can pursue and what location in the campaign world is best for that role.",
 			"",
@@ -3854,7 +3854,7 @@
 		"subtitle": "Retirement, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/186}",
 			"",
 			"You need to consider your retired PC's relationship with the remaining PCs, including your new character if you have one. If your PC left on good terms, the party members now have a friendly contact to call upon for advice or assistance. The retired PC can also serve as a convenient mouthpiece when the GM needs to relay plot-relevant information to the players. However, the GM should take care not to let your retired PC have too much of an active role in the campaign - the point of retiring is to retire, and if your old character is involved almost as much as your current character that means you're getting twice as much time in the spotlight as the other players.",
 			"",
@@ -3876,7 +3876,7 @@
 		"subtitle": "Retirement, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 186](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/186}",
 			"",
 			"A character that stops being a PC doesn't have to quit adventuring; that PC just isn't part of the main adventuring party anymore. A devout mystic might leave the group to undertake a sacred pilgrimage for her church, or a savage warrior may return to her homeland to defend her tribe from foreign invaders. This type of retirement works best for an individualistic character or one whose adventuring motives are independent of the group's overall goals. The ex-PC may not have a direct role to play in the group's future efforts, but that doesn't mean she can't continue to influence the campaign.",
 			"",
@@ -3902,7 +3902,7 @@
 		"subtitle": "Retirement, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 187](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/187}",
 			"",
 			"Not all retired characters work to aid the PCs. Your character might harbor some grudge against her old teammates or even outright turn against them given the proper impetus, especially if there were personality conflicts in the group. Foes who were once friends make dangerous opponents, since they know the party's weaknesses. Using former PCs as campaign villains has two great advantages. First, the GM saves time by having a character sheet that is generally a little more powerful than a standard NPC of the same level. Second, the PC-turned-villain instantly engages the players' emotions. However, the latter reason is exactly why the GM should be careful using ex-PCs as villains. Repeated betrayals lose their potency quickly, and might leave players feeling jaded, cynical, or suspicious of any new PC who joins the group. The GM should have the permission of the retired PC's player (obtained discreetly, so as to not spoil the surprise), as many players won't like seeing their heroes turned into villains. Of course, it is also possible for the GM to coordinate with a player to introduce a new PC that they both want to turn into a villain after he spends a stint in the party.",
 			"",
@@ -3927,7 +3927,7 @@
 		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 188](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/188}",
 			"",
 			"If you are unsatisfied with a feat, skill, archetype, or class ability you chose, you may spend time in intense training to trade the old ability for a new one. Though it is time-consuming and expensive, this allows you to alter aspects of your character without extreme magic or a traumatic event.",
 			"",
@@ -3968,7 +3968,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 188](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/188}",
 			"",
 			"You may retrain an ability score increase gained at level 4, 8, 12, 16, or 20. This takes 5 days. At the end of the training period, remove the +1 bonus from the original ability score and add it to a different ability score. If this retraining means you no longer qualify for a feat, prestige class, or other ability you have, you can't use that feat, prestige class, or ability until you meet the qualifications again. (You can retrain that feat, prestige class, or other ability separately.)"
 		],
@@ -3994,7 +3994,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 189](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/189}",
 			"",
 			"You can use the retraining rules to acquire an archetype for your class or abandon an archetype you have.",
 			"",
@@ -4030,7 +4030,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 189](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/189}",
 			"",
 			"Many choices you make about your class features can be retrained. It takes 5 days to retrain one class feature. Training requires spending time with a character of your class whose class level is at least 1 higher than yours and who has the class feature you want. For example, if you are a 5th-level illusionist wizard and want to become a necromancer, you must train with a necromancer of at least 6th level.",
 			"",
@@ -4140,7 +4140,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 190](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/190}",
 			"",
 			"One of the most critical choices you can make about your character is what class to choose when you gain a level.",
 			"",
@@ -4218,7 +4218,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/191}",
 			"",
 			"You may change one feat to another through retraining. Retraining a feat takes 5 days with a character who has the feat you want. The old feat can't be one you used as a prerequisite for a feat, class feature, archetype, prestige class, or other ability. If the old feat is a bonus feat granted by a class feature, you must replace it with a feat that you could choose using that class feature.",
 			"",
@@ -4246,7 +4246,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/191}",
 			"",
 			"Sometimes the dice aren't in your favor when you gain a level and the hit points you roll are especially low. Unlike retraining other character abilities, retraining hit points doesn't involve replacing an existing ability with a new one, it just increases your maximum hit points.",
 			"",
@@ -4276,7 +4276,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/191}",
 			"",
 			"You can spend time to learn an additional language. It takes 20 days of training to gain a bonus language, and these days need not be consecutive. Each language requires a trainer who shares a language with you and knows the language you want to learn, or a book written in a language you know that explains the basics of the language you want to learn.",
 			"",
@@ -4304,7 +4304,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/191}",
 			"",
 			"If your campaign uses alternate racial traits, you can retrain a racial trait. This takes 20 non-consecutive days and requires a trainer with the racial trait you want. The replacement trait must be an appropriate one from your racial list. The old and new racial traits must replace the same standard racial trait. For example, the [magic resistant and stubborn alternate dwarven traits replace the hardy standard trait](race/dwarf), so you can retrain one of those for the other."
 		],
@@ -4330,7 +4330,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/191}",
 			"",
 			"You can retrain skill ranks you have assigned to skills. Retraining skill ranks takes 5 days. When the training period ends, reassign a number of skill ranks up to your Intelligence bonus (minimum 1), removing them from your existing skill (or skills) and adding them to a different skill (or skills).",
 			"",
@@ -4358,7 +4358,7 @@
 		"subtitle": "Retraining, Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 191](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/191}",
 			"",
 			"If you are a spontaneous spellcaster (such as a bard, oracle, sorcerer, or summoner), you can retrain a spell known. This retraining takes 2 days per spell level of the new spell (or 1 day in the case of a cantrip or orison) and requires a trainer who can cast the spell you want. The trainer must cast the same kind of spells as you do (arcane or divine).",
 			"",
@@ -4386,7 +4386,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 192](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/192}",
 			"",
 			"Even a moderately successful adventurer commands wealth and personal power beyond the means of most normal people in the world. While the common folk adore their heroes and the small-minded envy them, the authorities take a more pragmatic view: How can they and their jurisdictions financially benefit from these adventurers? In the greater campaign, as the PCs advance in stature, they gain the notice of such authorities, who seek a share of the PCs' rewards in the form of taxes. They claim material goods, utilize the PCs' talents in day-to-day life, or even enlist the PCs' services as adventurers. These people see this attention and service as their due for giving adventurers safe haven between quests and, at least in theory, protecting the PCs from the depredations of robbers and swindlers.",
 			"",
@@ -4426,7 +4426,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 192](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/192}",
 			"",
 			"Though many taxes come in the form of financial transactions, some collectors are willing to substitute material goods, favors, or services for coin.",
 			"",
@@ -4452,7 +4452,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 192](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/192}",
 			"",
 			"PCs are more useful for the deeds they can accomplish than for any material wealth they might possess. Even low-level adventurers possess talents in excess of the typical populace, and high-level adventures can shake the pillars of the world.",
 			"",
@@ -4488,7 +4488,7 @@
 		"subtitle": "Taxes, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 193](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/193}",
 			"",
 			"Forcing taxes on adventurers carries a certain amount of risk. Low-level PCs who avoid paying taxes likely face arrest, heavy fines, and possibly imprisonment if caught. Of course, they might be able to perform a suitable service in lieu of punishment. For mid-level PCs, indirect consequences are more effective than attempts to arrest them (unless the authorities have enough resources and ability that they stand a reasonable chance of capturing and holding the PCs) - local businesses may refuse to serve them, the thieves' guild might be given permission to rob them, city guards may ignore their calls for help, and so on.",
 			"",
@@ -4510,7 +4510,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 194](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/194}",
 			"",
 			"Not all fantasy characters have the luxury of waiting until adulthood to begin their adventuring careers-take Arya Stark, Sabriel the Abhorsen, the Pevensie siblings, and Harry Potter, for example. The dangers of fantasy worlds don't discriminate between the ages of those they threaten. Even the infant Hercules had to strangle the serpents Hera sent to kill him in his crib. But though they're often underestimated, such youths are rarely the ready victims they're often treated as. By default, newly made characters are adults, their ages randomly assigned or at least influenced by [Table 7-1: Random Starting Ages](rule/age). However, should you wish to play a young prodigy getting an early start on her legend, the rules here detail how to bring such a character to life."
 		],
@@ -4542,7 +4542,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 194](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/194}",
 			"",
 			"Young characters are essentially normal characters with an age category younger than any presented in the Core Rulebook. Characters of this age category are able and intelligent, curious and talented, but not yet experienced or worldly. They are on the threshold of great things, but still a step away. This youthfulness is represented in three ways: ability score adjustments, restrictions to available classes, and slower trait acquisition.",
 			"",
@@ -4585,7 +4585,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 194](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/194}",
 			"",
 			"Unlike higher age categories, there are two common ways a young character might advance into adulthood.",
 			"",
@@ -4611,7 +4611,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"**Source** [Ultimate Campaign pg. 195](source/ultimate_campaign)",
+			"{SOURCE Ultimate Campaign/195}",
 			"",
 			"You might choose to play a young character to gain insight into your PC's life or indulge a character concept you haven't tried. A GM might start your campaign at a young age to mimic adventures common in young adult fiction, video games, superhero teams from comics, and various other media. If you are thinking about playing a young character, consider the following points. The GM planning for this should be aware of and have methods of addressing each topic.",
 			"",
@@ -4638,7 +4638,7 @@
 		"name": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 5](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/5}",
 			"",
 			"The best known and most direct form of diabolical corruption, infernal contracts form a binding tie between a devil and a mortal. Such contracts take a variety of forms, typically parodying the laws and terminology of the mortal's society. An infernal contract takes the form of an offer, usually for extravagant goods or seemingly impossible services, presented by a devil to a mortal who has summoned it for exactly such a purpose. These contracts are exceptionally powerful and can alter lives-or even reality-in diverse ways for those who agree to sign such hellish documents. In return for fulfilling the terms of the contract, the devil receives the mortal's soul when the signer dies or at whatever time the contract specifies. While a mortal's soul is nearly always the target of such contracts, oftentimes devils occlude their desires, either within confusing legalese, sub-articles, and addenda, or by tailoring their fulfillment of the contract to provide the contractee with the means to damn himself. Thus, some infernal contracts are simple accounts of a blasphemous exchange, while others are rambling documents cloaking diabolical intentions. While more complex agreements are better at hiding a devil's desires, they might offer clever mortals opportunities to escape damnation.",
 			"",
@@ -4680,7 +4680,7 @@
 		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 202](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/202}",
 			"",
 			"Before exploring the intricacies of the infernal contract, it should be noted that other fiends are often willing to enter into contracts with mortals as well. Lawful evil fiends are generally the most trustworthy in this regard. Neutral evil fiends usually honor a contract as long as they get something out of the bargain or feel like they come out ahead, while chaotic evil fiends will almost always look to cheat or blatantly disregard the wording of a contract. All contracts with non-devil fiends carry with them a markedly increased level of risk to the mortal, and in many cases, the only possible outcome of such a foolish endeavor is the forfeiture of the mortal's soul-yet there are always extenuating circumstances that make the forging of such a risky contract a viable (or perhaps the only) option. For example, a king might agree to sign a contract with a powerful demon, knowing full well that the demon will break the contract, yet if signing the contract can buy even a few extra hours for a group of adventurers to attempt a desperate gambit to save the kingdom, such a sacrifice may be worth it in the end. How a non-devil fiend honors a contract is generally left up to the GM, but the basic mechanics work as for infernal contracts."
 		],
@@ -4702,7 +4702,7 @@
 		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 203](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/203}",
 			"",
 			"Not every devil is interested in entering into a contract. Most devils focus their energies on fulfilling orders from diabolical superiors, and others simply prefer not to waste time negotiating with mortals. If a remarkable mortal presents herself, though, a devil might be convinced to enter into a bargain.",
 			"",
@@ -4734,7 +4734,7 @@
 		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 203](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/203}",
 			"",
 			"Once terms have been agreed to, a devil has to create the infernal contract. Contract devils have the easiest time of this, making use of their infernal contract ability to instantly generate such a document. Devils of demigod-level power can likewise instantly call tailor-made infernal contracts into being as though they also had the infernal contract ability, though the effects they can create prove more potent and variable. Other devils can also produce infernal contracts but might have to employ less immediate techniques.",
 			"",
@@ -4760,7 +4760,7 @@
 		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 203](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/203}",
 			"",
 			"An infernal contract is a baffling linguistic labyrinth, rife with eons-old legalese, otherworldly citations, and near-endless clauses and counter-clauses. One might consist of single scroll covered in fine handwriting, while another might consist of volumes of printed text bound in sable.",
 			"",
@@ -4790,7 +4790,7 @@
 		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 204](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/204}",
 			"",
 			"The easiest way to avoid the consequences of an unfavorable infernal contract is simply not to sign one. If that isn't an option, thoroughly researching the contract and learning of dangerous provisos and potential loopholes can mean the difference between life and damnation.",
 			"",
@@ -4820,7 +4820,7 @@
 		"subtitle": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"**Source** [Book of the Damned pg. 205](source/book_of_the_damned)",
+			"{SOURCE Book of the Damned/205}",
 			"",
 			"Though the denizens of Hell share many goals, their schemes are far from uniform. The infernal contracts they create vary widely in cost, effect, terms, and methods of escape. The following are contracts common to some of Hell's bestknown inhabitants. Most reflect the power, influence, and predilections of the devil offering the contract. However, GMs should feel free to use these examples as guidelines for creating their own custom infernal contracts. Complexity, kp, and Research checks are further detailed under [Researching Contracts](rule/researching_contracts).",
 			"",
@@ -4988,7 +4988,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/410}",
 			"",
 			"Of all the strange places that an adventurer might explore, none is deadlier than the dungeon. These labyrinths, full of deadly traps, hungry monsters, and priceless treasure, test every skill a character possesses. These rules can apply to dungeons of any type, from the wreck of a sunken ship to a vast cave complex."
 		],
@@ -5012,7 +5012,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/410}",
 			"",
 			"The four basic dungeon types are defined by their current status. Many dungeons are variations on these basic types or combinations of more than one of them. Sometimes old dungeons are used again and again by different inhabitants for different purposes.",
 			"",
@@ -5046,7 +5046,7 @@
 		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/410}",
 			"",
 			"The following rules cover the basics of terrain that can be found in a dungeon."
 		],
@@ -5073,7 +5073,7 @@
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 410](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/410}",
 			"",
 			"Masonry walls-stones piled on top of each other, usually but not always held in place with mortar-often divide dungeons into corridors and chambers. Dungeon walls can also be hewn from solid rock, leaving them with a rough, chiseled look. Still other dungeon walls can be the smooth, unblemished stone of a naturally occurring cave. Dungeon walls are difficult to break down or through, but they're generally easy to climb.",
 			"",
@@ -5135,7 +5135,7 @@
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 411](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/411}",
 			"",
 			"As with walls, dungeon floors come in many types.",
 			"",
@@ -5187,7 +5187,7 @@
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 412](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/412}",
 			"",
 			"Doors in dungeons are much more than mere entrances and exits. Often they can be encounters all by themselves. Dungeon doors come in three basic types: wooden, stone, and iron.",
 			"",
@@ -5275,7 +5275,7 @@
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/415}",
 			"",
 			"Stone walls, iron walls, and iron doors are usually thick enough to block most detect spells, such as detect thoughts. Wooden walls, wooden doors, and stone doors are usually not thick enough to do so. A secret stone door built into a wall and as thick as the wall itself (at least 1 foot) does block most detect spells."
 		],
@@ -5299,7 +5299,7 @@
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/415}",
 			"",
 			"Stairs are the most common means of traveling up and down within a dungeon. A character can move up or down stairs as part of their movement without penalty, but they cannot run on them. Increase the DC of any Acrobatics skill check made on stairs by 4. Some stairs are particularly steep and are treated as difficult terrain."
 		],
@@ -5323,7 +5323,7 @@
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/415}",
 			"",
 			"**CR 8**",
 			"",
@@ -5358,7 +5358,7 @@
 		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 415](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/415}",
 			"",
 			"In a dungeon's damp, dark recesses, molds and fungi thrive. For purposes of spells and other special effects, all slimes, molds, and fungi are treated as plants. Like traps, dangerous slimes and molds have CRs, and characters earn XP for encountering them.",
 			"",
@@ -5397,7 +5397,7 @@
 		"name": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 416](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/416}",
 			"",
 			"Traps are a common danger in dungeon environments. From gouts of white-hot flame to hails of poisoned darts, traps can serve to protect valuable treasure or stop intruders from proceeding."
 		],
@@ -5422,7 +5422,7 @@
 		"name": "Elements of a Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 416](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/416}",
 			"",
 			"All traps-mechanical or magical-have the following elements: CR, type, Perception DC, Disable Device DC, trigger, reset, and effect. Some traps might also include optional elements, such as poison or a bypass. These characteristics are described below."
 		],
@@ -5452,7 +5452,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 416](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/416}",
 			"",
 			"A trap can be either mechanical or magical in nature.",
 			"",
@@ -5491,7 +5491,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/417}",
 			"",
 			"The builder sets the Perception and Disable Device DCs for a mechanical trap. For a magic trap, the values depend on the highest-level spell used.",
 			"",
@@ -5520,7 +5520,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/417}",
 			"",
 			"A trap's trigger determines how it is sprung.",
 			"",
@@ -5569,7 +5569,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/417}",
 			"",
 			"Unless otherwise stated, most traps have a duration of instantaneous; once triggered, they have their effect and then stop functioning. Some traps have a duration measured in rounds. Such traps continue to have their listed effect each round at the top of the initiative order (or whenever they were activated, if they were triggered during combat)."
 		],
@@ -5594,7 +5594,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 417](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/417}",
 			"",
 			"A reset element is the set of conditions under which a trap becomes ready to trigger again. Resetting a trap usually takes only a minute or so. For a trap with a more difficult reset method, you should set the time and labor required.",
 			"",
@@ -5661,7 +5661,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 418](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/418}",
 			"",
 			"If the builder of a trap wants to be able to move past the trap after it is created or placed, it's a good idea to build in a bypass mechanism: something that temporarily disarms the trap. Bypass elements are typically used only with mechanical traps; spell traps usually have built-in allowances for the caster to bypass them.",
 			"",
@@ -5692,7 +5692,7 @@
 		"subtitle": "Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 418](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/418}",
 			"",
 			"The effect of a trap is what happens to those who spring it. This often takes the form of either damage or a spell effect, but some traps have special effects. A trap usually either makes an attack roll or forces a saving throw to avoid it. Occasionally a trap uses both of these options, or neither (see [Never Miss](rule/miscellaneous_trap_features)).",
 			"",
@@ -5744,7 +5744,7 @@
 		"name": "Miscellaneous Trap Features",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 419](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/419}",
 			"",
 			"Some traps include optional features that can make them considerably more deadly. The most common features are discussed below.",
 			"",
@@ -5788,7 +5788,7 @@
 		"name": "Sample Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 420](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/420}",
 			"",
 			"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters.",
 			"",
@@ -5868,7 +5868,7 @@
 		"name": "Designing a Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 423](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/423}",
 			"",
 			"Designing new traps is a simple process. Start by deciding what type of trap you want to create.",
 			"",
@@ -5960,7 +5960,7 @@
 		"name": "Challenge Rating of a Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 423](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/423}",
 			"",
 			"To calculate the Challenge Rating of a trap, add all the CR modifiers (see [Table 13-3 or Table 13-4](rule/designing_a_trap)) to the base CR for the trap type.",
 			"",
@@ -5995,7 +5995,7 @@
 		"name": "Mechanical Trap Cost",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 423](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/423}",
 			"",
 			"The cost of a mechanical trap is 1,000 gp &times; the trap's Challenge Rating. If the trap uses spells in its trigger or reset, add those costs separately. If the trap cannot be reset, divide the cost in half. If the trap has an automatic reset, increase the cost by half (+50%). Particularly simple traps, such as pit traps, might have a greatly reduced cost, subject to GM discretion. Such traps might cost as little as 250 gp &times; the trap's Challenge Rating.",
 			"",
@@ -6020,7 +6020,7 @@
 		"name": "Magic Device Trap Cost",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 423](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/423}",
 			"",
 			"Building a magic device trap involves the expenditure of gp and requires the services of a spellcaster. Table 13-5 summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except alarm, which is free unless it must be cast by an NPC).",
 			"",
@@ -6055,7 +6055,7 @@
 		"name": "Spell Trap Cost",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 423](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/423}",
 			"",
 			"A spell trap has a cost only if the builder must hire an NPC spellcaster to cast it."
 		],
@@ -6076,7 +6076,7 @@
 		"name": "Craft DCs for Mechanical Traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 423](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/423}",
 			"",
 			"Once you know the Challenge Rating of a trap, determine the Craft (traps) DC by referring to the values and modifiers given on Table 13-6.",
 			"",
@@ -6115,7 +6115,7 @@
 		"name": "Wilderness Traps",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"**Source** [Ultimate Wilderness pg. 172](source/ultimate_wilderness)",
+			"{SOURCE Ultimate Wilderness/172}",
 			"",
 			"Skilled survivalists and trappers are adept at fashioning effective, if simple, traps from humble materials. A wilderness trap has an associated terrain wherein the raw materials for the trap are commonplace. Within these associated terrains, the base cost of each trap is calculated in sp rather than gp. Wilderness traps always have a CR of 5 or lower.",
 			"",

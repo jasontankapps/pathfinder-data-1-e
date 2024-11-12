@@ -5,7 +5,7 @@
 		"description": [
 			"## Battle Dancer",
 			"",
-			"**Source** [Martial Arts Handbook pg. 4](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/4}  ",
 			"Originating among the Mwangi tribes of Sargava, battle dancers practice a martial art that emphasizes constant motion, hiding their training from colonial oppressors by presenting it as an acrobatic dance. Sargava's alliance with the Shackles has led to a proliferation of the art there, and battle dancers are often found among Mwangi-descended pirates.",
 			"",
 			"**Class Skills:** A battle dancer gains Perform (all) as a class skill instead of Knowledge (dungeoneering).",
@@ -39,7 +39,7 @@
 		"description": [
 			"## Bouncer",
 			"",
-			"**Source** [Inner Sea Taverns pg. 58](source/inner_sea_taverns)  ",
+			"{SOURCE Inner Sea Taverns/58}  ",
 			"Some taverns employ bouncers to keep out undesirables or for when their customers get too rowdy.",
 			"",
 			"**Crowd Control (Ex):** When in a bar fight, a bouncer has her tenacity reduced by the crowd at the end of a round by the minimum possible amount. In addition, when she takes the mix it up action, she reduces the tenacity of the crowd by an additional amount equal to her brawler level.",
@@ -65,7 +65,7 @@
 		"description": [
 			"## Constructed Pugilist",
 			"",
-			"**Source** [People of the Wastes pg. 8](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/8}  ",
 			"Mutants whose mutations make using standard weapons or other gear difficult sometimes attach mechanical prostheses to their existing limbs. Many develop combat skills that use their prostheses so they always have a weapon at hand. Over time, these brawlers customize their mechanical limbs, adding additional weaponry and other mechanisms.",
 			"",
 			"**Class Skills:** A constructed pugilist gains Craft (weapons) as a class skill.",
@@ -105,7 +105,7 @@
 		"description": [
 			"## Exemplar",
 			"",
-			"**Source** [Advanced Class Guide pg. 86](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/86}  ",
 			"A versatile soldier who inspires her companions with her fighting prowess, an exemplar is at home on the front lines of battles anywhere.",
 			"",
 			"**Call to Arms (Ex):** At 1st level, an exemplar can expend a use of martial flexibility to rouse her allies into action. All allies within 30 feet are no longer flat-footed, even if they are surprised. Using this ability is a move action. At 6th level, the exemplar can use it as a swift action instead. At 10th level, she can use it as a free action. At 12th level, she can use it as an immediate action. This ability replaces unarmed strike and close weapon mastery.",
@@ -121,7 +121,7 @@
 		"description": [
 			"## Feral Striker",
 			"",
-			"**Source** [Ultimate Wilderness pg. 42](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/42}  ",
 			"A feral striker taps into a reservoir of druidic power hidden inside herself, allowing her to take animalistic characteristics.",
 			"",
 			"**Feral Aspect (Su):** This functions as the shifter aspect class feature of the [shifter](class/shifter), except the feral striker can choose only from the bear, bull, falcon, snake, stag, tiger, and wolf aspects. She has access to only the minor versions all these aspects.",
@@ -143,7 +143,7 @@
 		"description": [
 			"## Hinyasi",
 			"",
-			"**Source** [Blood of the Ancients pg. 9](source/blood_of_the_ancients)  ",
+			"{SOURCE Blood of the Ancients/9}  ",
 			"After Yamasa seceded from Lirgen, their elite combatants formed a military caste, called hinyasi, who protected Yamasa for centuries. Their martial traditions were centered on the use of farming tools and on other improvised weapons.",
 			"",
 			"**Humble Beginnings (Ex):** A hinyasi gains her choice of [Catch Off-Guard](feat/catch_off-guard) or [Throw Anything](feat/throw_anything) as a bonus feat. She is not proficient with shields.",
@@ -171,7 +171,7 @@
 		"description": [
 			"## Living Avalanche",
 			"",
-			"**Source** [Ultimate Wilderness pg. 42](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/42}  ",
 			"When a living avalanche is on the move, no one can stand in her way.",
 			"",
 			"**Earth Discipline (Ex):** At 2nd level, a living avalanche gains [Improved Overrun](feat/improved_overrun) as a bonus feat, even if she doesn't meet the prerequisites. At 5th level, she gains [Improved Bull Rush](feat/improved_bull_rush) as a bonus feat, even if she doesn't meet the prerequisites.",
@@ -207,7 +207,7 @@
 		"description": [
 			"## Mutagenic Mauler",
 			"",
-			"**Source** [Advanced Class Guide pg. 86](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/86}  ",
 			"Not content with perfecting her body with natural methods, a mutagenic mauler resorts to alchemy to unlock the primal beast within.",
 			"",
 			"**Mutagen (Su):** At 1st level, a mutagenic mauler discovers how to create a mutagen that she can imbibe in order to heighten her physical prowess, though at the cost of her personality. This functions as an [alchemist's mutagen](class/alchemist) and uses the brawler's class level as her alchemist level for this ability (alchemist levels stack with brawler levels for determining the effect of this ability). A mutagenic mauler counts as an alchemist for the purpose of imbibing a mutagen prepared by someone else.",
@@ -225,7 +225,7 @@
 		"description": [
 			"## Shield Champion",
 			"",
-			"**Source** [Advanced Class Guide pg. 86](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/86}  ",
 			"Stalwart in battle, a shield champion has perfected an entire martial discipline relying on only her hand-to-hand fighting skills and her ever-present shield. What she forgoes in weapon versatility and improved combat maneuvering, she makes up for in her ability to turn her defense into a weapon.",
 			"",
 			"**Weapon and Armor Proficiency:** A shield champion is proficient with all simple weapons and with shields as weapons. She is also proficient with light armor, and with bucklers, light shields, and heavy shields. This replaces the brawler's weapon and armor proficiencies.",
@@ -251,7 +251,7 @@
 		"description": [
 			"## Snakebite Striker",
 			"",
-			"**Source** [Advanced Class Guide pg. 88](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/88}  ",
 			"With her lightning quickness and guile, a snakebite striker keeps her foes' attention focused on her, because any one of her feints might be an actual attack. By giving up some of a brawler's versatility, she increases her damage potential and exposes opponents to deadly and unexpected strikes.",
 			"",
 			"**Class Skills:** The snakebite striker gains Bluff and Stealth as class skills, but does not gain Intimidate as a class skill.",
@@ -269,7 +269,7 @@
 		"description": [
 			"## Steel-Breaker",
 			"",
-			"**Source** [Advanced Class Guide pg. 88](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/88}  ",
 			"The steel-breaker studies destruction and practices it as an art form. She knows every defense has a breaking point, and can shatter those defenses with carefully planned strikes.",
 			"",
 			"**Class Skills:** The steel-breaker gains Knowledge (engineering) as a class skill, and does not gain Knowledge (dungeoneering) as a class skill.",
@@ -287,7 +287,7 @@
 		"description": [
 			"## Strangler",
 			"",
-			"**Source** [Advanced Class Guide pg. 88](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/88}  ",
 			"A strangler is trained to choke the life out of her victims with her vise-like grip. Some stranglers are self-taught and are little more than brutish murderers, unhinged sociopaths, or opportunistic alley-bashers. Others are members of murder cults or specialized schools of assassination, trained since the cradle to kill with their bare hands.",
 			"",
 			"**Class Skills:** A strangler gains Stealth as a class skill.",
@@ -307,7 +307,7 @@
 		"description": [
 			"## Strong-Side Boxer",
 			"",
-			"**Source** [Martial Arts Handbook pg. 16](source/martial_arts_handbook)  ",
+			"{SOURCE Martial Arts Handbook/16}  ",
 			"A strong-side boxer employs a unique fighting style that incorporates a rope or cord wound around her hand. The wrapped hand is known as the strong side. The other hand is kept free to deflect blows, and is known as the shield. The Zenj people of the Mwangi Expanse, who gather for large boxing tournaments, developed this style for their competitions. Many guests and visitors have witnessed these tournaments over the years, and as a result, the style has spread throughout Golarion.",
 			"",
 			"**Shield-Hand (Ex):** A strong-side boxer can use her off hand as if it were a buckler, gaining a +1 natural armor bonus to her AC as long as she does not use her off hand to make attacks. At 5th level and every 5 levels thereafter, this bonus increases by 1, to a maximum of +5 at 20th level. While using her off hand in this manner, the strong-side boxer treats that hand as a buckler for the purposes of other feats and abilities (though she is also considered to have a free hand).",
@@ -329,7 +329,7 @@
 		"description": [
 			"## Turfer",
 			"",
-			"**Source** [Ultimate Wilderness pg. 42](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/42}  ",
 			"A turfer has a mastery over particular types of terrain.",
 			"",
 			"**Favored Turf (Ex):** At 3rd level, a turfer chooses a type of terrain from the [ranger's favored terrain list](class/ranger). When in that type of terrain, she gains a bonus on initiative checks and a bonus on combat maneuver checks and to CMD.",
@@ -349,7 +349,7 @@
 		"description": [
 			"## Ulfen Beast-Wrestler",
 			"",
-			"**Source** [Advanced Class Origins pg. 10](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/10}  ",
 			"For these mighty grapplers, wrestling normal opponents has lost its challenge-they seek greater targets for glory. Ulfen beast-wrestlers challenge trolls to unarmed combat, and the greatest seek out the great linnorm their lands are known for and wrestle these primeval dragons into submission.",
 			"",
 			"**Beast Training (Ex):** At 3rd level, an Ulfen beast-wrestler selects a creature type from the [Ranger Favored Enemies table](class/ranger). The only humanoid subtype the beast-wrestler can select is giant. She gains a +2 bonus on combat maneuver checks and to her CMD against creatures of the type she selected.",
@@ -365,7 +365,7 @@
 		"description": [
 			"## Venomfist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 43](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/43}  ",
 			"Thanks to alchemical experiments and rigorous study of venomous creatures, a venomfist has toxic unarmed strikes.",
 			"",
 			"**Venomous Strike (Ex):** A venomfist's unarmed strikes deal damage as a creature one size category smaller (1d4 at first level for Medium venomfists). If she hits with her first unarmed strike in a round, the target must succeed at a Fortitude saving throw (DC = 10 + half the venomfist's brawler level + her Constitution modifier) or take an additional amount of damage equal to the venomfist's Constitution modifier. The venomfist is immune to this toxin.",
@@ -389,7 +389,7 @@
 		"description": [
 			"## Verdant Grappler",
 			"",
-			"**Source** [Ultimate Wilderness pg. 43](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/43}  ",
 			"By accepting spirits of nature into her soul, a verdant grappler can entangle her foes with tangled undergrowth.",
 			"",
 			"**Green Grasp (Su):** At 2nd level, a verdant grappler gains [Improved Grapple](feat/improved_grapple) as a bonus feat. At 3rd level, she must choose grapple as her first combat maneuver for maneuver training. When she pins a creature, she can cause roots and vines to burst from the ground (no matter the surrounding terrain), allowing the verdant grappler to attempt to tie up the creature without needing to retrieve rope or use a hand to hold the rope; as usual, a tied-up creature is pinned and not helpless. The verdant grappler must remain within 30 feet of the tied-up creature, or the vines automatically release it. She can tie up only one creature at a time with green grasp.",
@@ -411,7 +411,7 @@
 		"description": [
 			"## Wild Child",
 			"",
-			"**Source** [Advanced Class Guide pg. 89](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/89}  ",
 			"The wild child works with his sworn animal friend to conquer the challenges that lay before them. This kinship could come from being lost in the wilderness and raised by animals or growing up with an exotic pet.",
 			"",
 			"**Class Skills:** A wild child gains Heal as a class skill.",
@@ -431,7 +431,7 @@
 		"description": [
 			"## Winding Path Renegade",
 			"",
-			"**Source** [Adventurer's Guide pg. 105](source/adventurers_guide), [Advanced Class Origins pg. 11](source/advanced_class_origins)  ",
+			"{SOURCE Adventurer's Guide/105;Advanced Class Origins/11}  ",
 			"In the sacred text Unbinding the Fetters, Irori teaches that the path to transcendence can be straight or twisted. Those who follow the straight path adhere to the traditions and techniques perfected by others who have traveled before them, while those who seek the twisted path abandon tradition and follow their own unique routes to self-perfection. Both paths can lead to the same place, but those who follow the twisted path must take care to not lose their way.",
 			"",
 			"Winding path renegades epitomize those who have chosen the twisted path. These brawlers initially studied at the [Houses of Perfection](rule/aff_monasteries) in Jalmeray, but while they grasped the mechanical aspects of the forms, they lacked the mental discipline required by the masters of the school. Thus, they have withdrawn from their monasteries-some peacefully, some not-to find their own paths.",

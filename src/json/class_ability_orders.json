@@ -14,7 +14,7 @@
 		"description": [
 			"## Order of the Asp",
 			"",
-			"**Source** [Adventurer's Guide pg. 34](source/adventurers_guide)",
+			"{SOURCE Adventurer's Guide/34}",
 			"",
 			"Cavaliers belonging to the order of the asp belong to a cutthroat group where ruthless pragmatism and underhanded dealing are the keys to moving up the chain of command. They tend to be brutal, self-centered leaders who reap confidence from their subordinates' misery.",
 			"",
@@ -39,7 +39,7 @@
 		"description": [
 			"## Order of the Beast (ACG)",
 			"",
-			"**Source** [Advanced Class Guide pg. 90](source/advanced_class_guide)",
+			"{SOURCE Advanced Class Guide/90}",
 			"",
 			"A cavalier who belongs to this order serves nature in all its forms. These cavaliers believe that animals make the most loyal companions, and keep close to woodland creatures.",
 			"",
@@ -64,7 +64,7 @@
 		"description": [
 			"## Order of the Beast (ISC)",
 			"",
-			"**Source** [Inner Sea Combat pg. 30](source/inner_sea_combat)",
+			"{SOURCE Inner Sea Combat/30}",
 			"",
 			"A cavalier belonging to this order seeks only destruction and chaos. Cavaliers of the order of the beast revel in destruction, and go out of their way to cause as much mayhem and disorder as possible. While some celebrate war and a victory well fought, an order of the beast cavalier fights only to taste the blood of his dying foe. Members of this order are often insane, and may venerate [Rovagug](faith/rovagug) or the elder gods and Great Old Ones of the Dark Tapestry. There are no colleges or universities where an aspiring cavalier can learn the ways of the order of the beast; it is a corruption of the other cavalier orders, and its secrets are whispered in the dreams of unbalanced youths by dark beings and passed down in forbidden rituals.",
 			"",
@@ -91,7 +91,7 @@
 		"description": [
 			"## Order of the Blossom",
 			"",
-			"**Source** [Legacy of the First World pg. 27](source/legacy_of_the_first_world)",
+			"{SOURCE Legacy of the First World/27}",
 			"",
 			"Cavaliers of the order of the blossom dedicate their lives to protecting fey, especially those visiting the Material Plane from the First World. These cavaliers might be fey themselves, but even if they aren't, they exhibit the same whimsy and occasionally cruel sense of humor typical of most denizens of the First World.",
 			"",
@@ -116,7 +116,7 @@
 		"description": [
 			"## Order of the Blue Rose",
 			"",
-			"**Source** [Ultimate Combat pg. 34](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/34}",
 			"",
 			"The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves.",
 			"",
@@ -141,7 +141,7 @@
 		"description": [
 			"## Order of the Cockatrice",
 			"",
-			"**Source** [Advanced Player's Guide pg. 34](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/34}",
 			"",
 			"A cavalier who belongs to this order serves only himself, working to further his own aims and increase his own prestige. Cavaliers of this order tend to be selfish and concerned only with personal goals and objectives.",
 			"",
@@ -166,7 +166,7 @@
 		"description": [
 			"## Order of the Dragon",
 			"",
-			"**Source** [Advanced Player's Guide pg. 35](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/35}",
 			"",
 			"Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in loyalty and friendship, and are willing to lay down their lives to protect their allies.",
 			"",
@@ -191,7 +191,7 @@
 		"description": [
 			"## Order of the Eastern Star",
 			"",
-			"**Source** [Occult Adventures pg. 116](source/occult_adventures)",
+			"{SOURCE Occult Adventures/116}",
 			"",
 			"This cavalier order exists to keep dangerous secrets hidden from the world and secretly protect the world against unimaginable threats from beyond the mortal realms. These cavaliers scout and observe, concerning themselves not with the trivial pursuit of morality, but rather with ensuring the survival of society itself.",
 			"",
@@ -218,7 +218,7 @@
 		"description": [
 			"## Order of the Eclipse",
 			"",
-			"**Source** [Distant Shores pg. 32](source/distant_shores)",
+			"{SOURCE Distant Shores/32}",
 			"",
 			"Hobgoblins have long taken advantage of the tactical edge darkvision gives them when fighting in darkness, particularly against elves, humans, and samsarans. As the ruling class of Kaoling, hobgoblin samurai have adopted the benefit of darkness as a spiritual alliance that forms a guiding principle in not only how they fight, but every aspect of their lives. This has given rise to the order of the eclipse, a respected samurai order devoted to darkness itself. Although the order is not officially restricted to hobgoblins, its edicts make it difficult for any samurai without darkvision to operate in its ranks.",
 			"",
@@ -243,7 +243,7 @@
 		"description": [
 			"## Order of the Eel",
 			"",
-			"**Source** [Blood of the Sea pg. 24](source/blood_of_the_sea)",
+			"{SOURCE Blood of the Sea/24}",
 			"",
 			"Cavaliers who join the order of the eel believe communication and negotiation are the true paths to greatness and success for all. They seek out new individuals to befriend, offer their services as guides or mercenaries, and negotiate the terms of mutually beneficial arrangements. Locathah eel riders were the founders of the order of the eel, but other aquatic races have since joined. Even a few land-dwelling cavaliers along the coastline have pledged themselves to this order of diplomats and negotiators.",
 			"",
@@ -268,7 +268,7 @@
 		"description": [
 			"## Order of the Ennead Star",
 			"",
-			"**Source** [Path of the Hellknight pg. 58](source/path_of_the_hellknight)",
+			"{SOURCE Path of the Hellknight/58}",
 			"",
 			"Cavaliers belonging to this order have joined the [Hellknight](rule/aff_lawknights) crusade against chaos, adopting a life of ironclad discipline and swearing to thwart disorder by any means. Through intimidation and strength of arms, these severe warriors embody the grim fist of law, pursuing and crushing disorder wherever it festers. Many strike out from one of the Hellknights' stark, black citadels. Others roam between cities and villages, serving as judges and emissaries of a harsh vision of justice (see the [circuit judge cavalier archetype](archetype-cavalier/circuit_judge)). Like other Hellknights, most members of this order begin their service by undergoing training at a Hellknight citadel or instruction from a true Hellknight. Most eventually pursue levels in the [Hellknight](prestigeclass/hellknight) prestige class, looking ahead to the day when they will face their lethal test against the forces of Hell. Until then, members of the order of the Ennead Star are typically Hellknight armigers or other initiates with dispensation to quest and quell disorder wherever they might find it. Regardless of his own goals, each cavalier is associated with a specific group of Hellknights and rigidly follows its unbending strictures. Members of the order of the Ennead Star are most commonly found in the lands of Absalom, Cheliax, Isger, Rahadoum, and Varisia, but the cavaliers' goals might take members anywhere across the Inner Sea region.",
 			"",
@@ -293,7 +293,7 @@
 		"description": [
 			"## Order of the First Law",
 			"",
-			"**Source** [People of the Sands pg. 21](source/people_of_the_sands)",
+			"{SOURCE People of the Sands/21}",
 			"",
 			"Cavaliers belonging to the order of the First Law are dedicated to hunting down anyone practicing, preaching, or otherwise facilitating religion in Rahadoum.",
 			"",
@@ -318,7 +318,7 @@
 		"description": [
 			"## Order of the Flame",
 			"",
-			"**Source** [Blood of the Elements pg. 7](source/blood_of_the_elements)",
+			"{SOURCE Blood of the Elements/7}",
 			"",
 			"A cavalier of the order of the flame devotes his life to the pursuit of personal glory. Even if such pursuit puts his own life on the line, the cavalier pursues legendary status and the fame and glory associated with such renown.",
 			"",
@@ -346,7 +346,7 @@
 		"description": [
 			"## Order of the Green",
 			"",
-			"**Source** [Ultimate Wilderness pg. 44](source/ultimate_wilderness), [Heroes of the Wild pg. 13](source/heroes_of_the_wild)",
+			"{SOURCE Ultimate Wilderness/44;Heroes of the Wild/13}",
 			"",
 			"Cavaliers of the order of the Green are dedicated to protecting wild places and creatures, embracing the [Green Faith](faith/green_faith) in all its glory and natural wonder.",
 			"",
@@ -371,7 +371,7 @@
 		"description": [
 			"## Order of the Guard",
 			"",
-			"**Source** [Inner Sea Combat pg. 30](source/inner_sea_combat)",
+			"{SOURCE Inner Sea Combat/30}",
 			"",
 			"Cavaliers who join the order of the guard dedicate themselves to the staunch and unyielding protection of a specific person or object-generally one they have been hired to protect. Members of the order of the guard are often mercenaries, offering their valuable services for a fee to those who wish to protect their investments; this is especially in Druma, where many cavaliers belong to the illustrious and steadfast Blackjackets of the Mercenary League. An order of the guard cavalier can offer his services to a cause in which he believes without accepting a monetary payment, though the cavalier's protection must come at some price, be it a favor, the release of knowledge, or other intangible trade. A tenet of the order is that the high level of protection the order strives for is only obtainable if the protector invests something of himself in the task and stands to lose something valuable should he fail.",
 			"",
@@ -396,7 +396,7 @@
 		"description": [
 			"## Order of the Hammer",
 			"",
-			"**Source** [The Harrow Handbook pg. 18](source/the_harrow_handbook)",
+			"{SOURCE The Harrow Handbook/18}",
 			"",
 			"Cavaliers of the order of the hammer respect might over all, and believe that those who prove their strength have earned the right to make decisions for the weak. When the cavalier's own goals conflict with those of a mighty ruler, the cavalier must prove that her own strength and ideals are superior.",
 			"",
@@ -421,7 +421,7 @@
 		"description": [
 			"## Order of the Hero",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 13](source/monster_hunters_handbook)",
+			"{SOURCE Monster Hunter's Handbook/13}",
 			"",
 			"A cavalier belonging to this order specializes in hunting down large monsters and protecting communities from them. Cavaliers of this order tend to value bravery, dedication, and single-minded determination.",
 			"",
@@ -446,7 +446,7 @@
 		"description": [
 			"## Order of the Land",
 			"",
-			"**Source** [Knights of the Inner Sea pg. 24](source/knights_of_the_inner_sea)",
+			"{SOURCE Knights of the Inner Sea/24}",
 			"",
 			"There are some cavaliers who dedicate themselves to the land and the people who inhabit the rural areas between urban centers. These cavaliers often lead untrained militias of revolutionaries in backwoods towns, fighting against oppressive governments or the savage elements that threaten citizens in their daily lives. Self-reliance and the ability to make do with sparse resources are hallmarks of a cavalier who follows the order of the land.",
 			"",
@@ -471,7 +471,7 @@
 		"description": [
 			"## Order of the Lion",
 			"",
-			"**Source** [Advanced Player's Guide pg. 36](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/36}",
 			"",
 			"A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing to go any length to ensure the safety of their lord and his domain.",
 			"",
@@ -496,7 +496,7 @@
 		"description": [
 			"## Order of the Monument",
 			"",
-			"**Source** [Disciple's Doctrine pg. 15](source/disciples_doctrine)",
+			"{SOURCE Disciple's Doctrine/15}",
 			"",
 			"Cavaliers who join the order of the monument dedicate themselves to the protection and service of a particular city or settlement and often follow or respect the faiths of their home locale. Cavaliers belonging to this order hold themselves to their city's laws and customs even when traveling abroad.",
 			"",
@@ -521,7 +521,7 @@
 		"description": [
 			"## Order of the Paw",
 			"",
-			"**Source** [Advanced Race Guide pg. 64](source/advanced_race_guide)",
+			"{SOURCE Advanced Race Guide/64}",
 			"",
 			"Only dog- or wolf-riding halflings are eligible to join this order of cavaliers. When they do, they pledge to defend halflings, halfling settlements, and other innocent folks by patrolling the wilderness and seeking out possible threats to both individuals and whole communities. These cavaliers hunt down potential danger with a ruthless efficiency and determination that non-halflings find surprising and even somewhat alarming.",
 			"",
@@ -546,7 +546,7 @@
 		"description": [
 			"## Order of the Penitent",
 			"",
-			"**Source** [Knights of the Inner Sea pg. 24](source/knights_of_the_inner_sea)",
+			"{SOURCE Knights of the Inner Sea/24}",
 			"",
 			"Not all knights begin their careers as nobles' children or as squires. Some start out as thieves, murderers, or cheats, and only after they see the suffering caused by their crimes do they dedicate themselves to honorable service. Cavaliers who follow this order seek to make up for the crimes they've committed in the past, and do whatever they can to restore their tainted honor.",
 			"",
@@ -571,7 +571,7 @@
 		"description": [
 			"## Order of the Reins",
 			"",
-			"**Source** [Merchant's Manifest pg. 31](source/merchants_manifest)",
+			"{SOURCE Merchant's Manifest/31}",
 			"",
 			"The cavaliers of the order of the reins hold a strong rapport not just with their mounts, but with all tamed and domesticated animals on Golarion. From camels and horses to teams of sled dogs, these cavaliers hold themselves honor-bound to protect these creatures for their labor and loyalty. Cavaliers of the order of the reins often serve as the commanders of caravans or other expeditions, using their unique skills to ensure that the caravan and its wares safely reach their intended markets.",
 			"",
@@ -596,7 +596,7 @@
 		"description": [
 			"## Order of the Saddle",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 43](source/qadira_jewel_of_the_east)",
+			"{SOURCE Qadira, Jewel of the East/43}",
 			"",
 			"Cavaliers of the order of the saddle have pledged themselves to the pursuit of perfect partnership between rider and mount. This order holds that the balance found when such a partnership is achieved contains the seeds of a better self, a better relationship with one's community, and a better sense of how to keep the world itself healthy.",
 			"",
@@ -623,7 +623,7 @@
 		"description": [
 			"## Order of the Scales",
 			"",
-			"**Source** [Champions of Balance pg. 22](source/champions_of_balance)",
+			"{SOURCE Champions of Balance/22}",
 			"",
 			"Members of this cavalier order serve the cause of legal integrity. Many order of the scales cavaliers track down and apprehend fleeing lawbreakers so that these vagrants may answer for their crimes and make good on their debts. They often serve as judges or stakeholders, and work to ensure that wherever a bargain is made-whether it is monetary, a life debt, or an oath to be upheld-both ends make good on their promises.",
 			"",
@@ -648,7 +648,7 @@
 		"description": [
 			"## Order of the Seal",
 			"",
-			"**Source** [Ultimate Combat pg. 34](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/34}",
 			"",
 			"Cavaliers of the order of the seal are a secretive order, each charged with the protection of a specific object (such as a dangerous magic item), place (a lost temple), or secret (that a certain peasant is actually the last descendant of the royal line). Such cavaliers are the defenders of ancient traditions or the servants of rulers with important secrets to hide, sometimes having to search out such secrets in order to properly protect and preserve them.",
 			"",
@@ -673,7 +673,7 @@
 		"description": [
 			"## Order of the Shield",
 			"",
-			"**Source** [Advanced Player's Guide pg. 36](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/36}",
 			"",
 			"Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. These cavaliers stand before the tide, protecting the innocent from roving marauders and hungry monsters.",
 			"",
@@ -698,7 +698,7 @@
 		"description": [
 			"## Order of the Shroud",
 			"",
-			"**Source** [Occult Adventures pg. 117](source/occult_adventures)",
+			"{SOURCE Occult Adventures/117}",
 			"",
 			"Cavaliers of this order seek out and destroy undead and those who harbor or create them. They scour old crypts, graveyards, and battlefields to bring eternal rest.",
 			"",
@@ -723,7 +723,7 @@
 		"description": [
 			"## Order of the Songbird",
 			"",
-			"**Source** [Heroes from the Fringe pg. 14](source/heroes_from_the_fringe)",
+			"{SOURCE Heroes from the Fringe/14}",
 			"",
 			"Samurai of the order of the songbird are artists, scholars, and poets. They treat battle as a beautiful art form; many of these samurai seek pacifistic means of defeating their foes. Even samurai of this order who kill their opponents do so with respect, considering such a fight to be an act of poetic tragedy. These samurai are most common in lands where beauty is treasured, such as Hwanggot, Jinin, and Tianjing.",
 			"",
@@ -748,7 +748,7 @@
 		"description": [
 			"## Order of the Staff",
 			"",
-			"**Source** [Knights of the Inner Sea pg. 24](source/knights_of_the_inner_sea)",
+			"{SOURCE Knights of the Inner Sea/24}",
 			"",
 			"Cavaliers belonging to the order of the staff dedicate their lives to guarding and assisting spellcasters, especially wizards and druids, and to overcoming those who seek to destroy items and locations of magical import.",
 			"",
@@ -773,7 +773,7 @@
 		"description": [
 			"## Order of the Star",
 			"",
-			"**Source** [Advanced Player's Guide pg. 37](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/37}",
 			"",
 			"Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and guides of the religion that they serve. When a cavalier joins this order, he should select a single religion to serve.",
 			"",
@@ -798,7 +798,7 @@
 		"description": [
 			"## Order of the Sword",
 			"",
-			"**Source** [Advanced Player's Guide pg. 37](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/37}",
 			"",
 			"Cavaliers who join the order of the sword dedicate their lives to the code of chivalry, living a life of honor, valor, and fairness. Cavaliers of this order tend to swear service to a lord or a lady. Of all the orders, the order of the sword is perhaps the broadest in terms of its focus and ideals.",
 			"",
@@ -823,7 +823,7 @@
 		"description": [
 			"## Order of the Tome",
 			"",
-			"**Source** [Ultimate Combat pg. 35](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/35}",
 			"",
 			"Knowledge is the stepping stone of both truth and power. The members of this order devote themselves to the preservation of knowledge. Most would protect written knowledge at all costs, but there are members that believe there is such thing as knowledge too dangerous to be allowed to exist, and seek to destroy it.",
 			"",
@@ -848,7 +848,7 @@
 		"description": [
 			"## Order of the Warrior",
 			"",
-			"**Source** [Ultimate Combat pg. 21](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/21}",
 			"",
 			"Most samurai swear themselves to the code of the warrior, which emphasizes duty, honor, loyalty, and obedience. This code extends not only to the samurai's lord and master, but also to his comrades and family. Samurai who follow the order of the warrior are among the most trusted and feared warriors in the land.",
 			"",
@@ -873,7 +873,7 @@
 		"description": [
 			"## Order of the Waves",
 			"",
-			"**Source** [Aquatic Adventures pg. 53](source/aquatic_adventures)",
+			"{SOURCE Aquatic Adventures/53}",
 			"",
 			"Cavaliers of the order of the waves explore the secrets under the sea.",
 			"",
@@ -898,7 +898,7 @@
 		"description": [
 			"## Order of the Whip",
 			"",
-			"**Source** [Villain Codex pg. 20](source/villain_codex)",
+			"{SOURCE Villain Codex/20}",
 			"",
 			"A cavalier who belongs to this order has pledged himself to cruelty and malice, serving only those who grant him free rein to cause suffering. Cavaliers of this order inflict pain upon those they engage and capture those who submit.",
 			"",
@@ -923,7 +923,7 @@
 		"description": [
 			"## Order of Vengeance",
 			"",
-			"**Source** [People of the River pg. 10](source/people_of_the_river)",
+			"{SOURCE People of the River/10}",
 			"",
 			"Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed them.",
 			"",
@@ -948,7 +948,7 @@
 		"description": [
 			"## Ronin",
 			"",
-			"**Source** [Ultimate Combat pg. 21](source/ultimate_combat)",
+			"{SOURCE Ultimate Combat/21}",
 			"",
 			"While most samurai belong to the order of the warrior, dedicating their considerable skills to the service of a lord, land, and people, some find themselves without a master, either as a result of disgrace or death, or occasionally by choice. Known as ronin, these samurai wander the lands, serving their own code of ideals. While ronin are significantly freer to do as they please, they do not receive the same respect and support that a more dedicated samurai can count on. Note that cavaliers can select this order, but they are typically called knights errant instead of ronin.",
 			"",

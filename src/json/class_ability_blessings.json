@@ -14,7 +14,7 @@
 		"description": [
 			"## Air",
 			"",
-			"**Source** [Advanced Class Guide pg. 63](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/63}  ",
 			"**Deities:** Gozreh, Shelyn",
 			"",
 			"**Zephyr's Gift (minor):** At 1st level, you can touch any one ranged weapon and enhance it with the quality of air. For 1 minute, any attacks made with the weapon take no penalties due to range. In addition, making a ranged attack with this weapon doesn't provoke an attack of opportunity.",
@@ -28,7 +28,7 @@
 		"description": [
 			"## Animal",
 			"",
-			"**Source** [Advanced Class Guide pg. 63](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/63}  ",
 			"**Deities:** Erastil, Gozreh",
 			"",
 			"**Animal Fury (minor):** At 1st level, you can touch one ally and grant it feral features. The ally gains 2 claw attacks that each deal 1d6 points of damage if the ally is Medium or 1d4 if it's Small, or 1 bite attack that deals 1d8 points of damage if the ally is Medium or 1d6 if it's Small. These are primary natural attacks that replace any similar primary natural attacks the ally might have. This effect lasts for 1 minute.",
@@ -42,7 +42,7 @@
 		"description": [
 			"## Artifice",
 			"",
-			"**Source** [Advanced Class Guide pg. 64](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/64}  ",
 			"**Deities:** Torag",
 			"",
 			"**Crafter's Wrath (minor):** At 1st level, you can touch one melee weapon and grant it greater power to harm and destroy crafted objects. For 1 minute, whenever this weapon deals damage to constructs or objects, it bypasses hardness and damage reduction.",
@@ -56,7 +56,7 @@
 		"description": [
 			"## Chaos",
 			"",
-			"**Source** [Advanced Class Guide pg. 64](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/64}  ",
 			"**Deities:** Calistria, Cayden Cailean, Desna, Gorum, Lamashtu, Rovagug",
 			"",
 			"**Anarchic Strike (minor):** At 1st level, you can touch one weapon and grant it a chaotic blessing. For 1 minute, this weapon glows yellow or purple and deals an additional 1d6 points of damage against lawful creatures. During this time, it's treated as chaotic for the purposes of overcoming damage reduction. This blessing's additional damage doesn't stack with the additional damage from the anarchic weapon special ability.",
@@ -70,7 +70,7 @@
 		"description": [
 			"## Charm",
 			"",
-			"**Source** [Advanced Class Guide pg. 64](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/64}  ",
 			"**Deities:** Calistria, Cayden Cailean, Norgorber, Shelyn",
 			"",
 			"**Charming Presence (minor):** At 1st level, you can touch an ally and grant an entrancing blessing. For 1 minute, the ally becomes mesmerizing to her opponents, filling them with either abject admiration or paralyzing fear. This effect functions as sanctuary, except if the ally attacks an opponent, the effect ends with respect to only that opponent. This is a mind-affecting effect.",
@@ -87,7 +87,7 @@
 		"description": [
 			"## Community",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Erastil",
 			"",
 			"**Communal Aid (minor):** At 1st level, you can touch an ally and grant it the blessing of community. For the next minute, whenever that ally uses the aid another action, the bonus granted increases to +4. You can instead use this ability on yourself as a swift action.",
@@ -96,7 +96,7 @@
 			"",
 			"### Cooperation",
 			"",
-			"**Source** [Healer's Handbook pg. 13](source/healers_handbook)  ",
+			"{SOURCE Healer's Handbook/13}  ",
 			"",
 			"**Replacement Blessing:** The following minor blessing replaces the communal aid ability of the Community blessing.",
 			"",
@@ -109,7 +109,7 @@
 		"description": [
 			"## Curse",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 22](source/magic_tactics_toolbox)  ",
+			"{SOURCE Magic Tactics Toolbox/22}  ",
 			"**Deities:** Andirifkhu, Calistria, Desna, Graffiacane, Magdh",
 			"",
 			"**Hexing Attack (minor):** You can touch one weapon and enhance it to inflict a minor curse on the next target it strikes. The struck target must succeed at a Will saving throw or take a -2 penalty on attack rolls, saving throws, skill checks, or ability checks (warpriest's choice) for 1 minute.",
@@ -123,7 +123,7 @@
 		"description": [
 			"## Darkness",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Zon-Kuthon",
 			"",
 			"**Enshrouding Darkness (minor):** At 1st level, you can touch an ally and bestow a darkness blessing. For 1 minute, the ally becomes enshrouded in shadows while in combat, granting it concealment (20%). Creatures that are normally able to see in supernatural darkness ignore this concealment.",
@@ -137,7 +137,7 @@
 		"description": [
 			"## Death",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Norgorber, Pharasma, Urgathoa, Zon-Kuthon",
 			"",
 			"**From the Grave (minor):** At 1st level, you can take on a corpse-like visage for 1 minute, making you more intimidating and giving you undead-like protection from harm. You gain a +4 bonus on Disguise checks to resemble an undead creature and on Intimidate checks, as well as a +2 profane bonus on saving throws against disease, mind-affecting effects, paralysis, poison, and stun.",
@@ -151,7 +151,7 @@
 		"description": [
 			"## Destruction",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Gorum, Nethys, Rovagug, Zon-Kuthon",
 			"",
 			"**Destructive Attacks (minor):** At 1st level, you can touch an ally and bless it with the power of destruction. For 1 minute, the ally gains a morale bonus on weapon damage rolls equal to half your level (minimum 1).",
@@ -165,7 +165,7 @@
 		"description": [
 			"## Earth",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Abadar, Torag",
 			"",
 			"**Acid Strike (minor):** At 1st level, you can touch one weapon and enhance it with acidic potency. For 1 minute, this weapon emits acrid fumes that deal an additional 1d4 points of acid damage with each strike. This additional damage doesn't stack with the additional damage from the corrosive weapon special ability.",
@@ -179,7 +179,7 @@
 		"description": [
 			"## Earthquake",
 			"",
-			"**Source** [Ultimate Wilderness pg. 97](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/97}  ",
 			"**Deities:** Evil deities that offer the Earth blessing or nonevil deities with disasters in their portfolios",
 			"",
 			"**Stone's Base (minor):** You can touch an ally to bless it with the stalwart resilience of stone. For 1 minute, the creature gains a +4 bonus to its CMD against maneuvers that would move the ally or knock it prone.",
@@ -193,7 +193,7 @@
 		"description": [
 			"## Evil",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Asmodeus, Lamashtu, Norgorber, Rovagug, Urgathoa, Zon-Kuthon",
 			"",
 			"**Unholy Strike (minor):** At 1st level, you can touch one weapon and give it an evil blessing. For 1 minute, this weapon takes on a black, orange, or violet cast and deals an additional 1d6 points of damage against good creatures. During this time, it's treated as evil for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the unholy weapon special ability.",
@@ -207,7 +207,7 @@
 		"description": [
 			"## Fire",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Asmodeus, Sarenrae",
 			"",
 			"**Fire Strike (minor):** At 1st level, you can touch one weapon and enhance it with the grandeur of fire. For 1 minute, this weapon glows red-hot and deals an additional 1d4 points of fire damage with each hit. This additional damage doesn't stack with the additional damage from the flaming or flaming burst weapon special abilities.",
@@ -221,7 +221,7 @@
 		"description": [
 			"## Flood",
 			"",
-			"**Source** [Ultimate Wilderness pg. 97](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/97}  ",
 			"**Deities:** Evil deities that offer the Water blessing or nonevil deities with disasters in their portfolios",
 			"",
 			"**Lasting Breath (minor):** You can touch an ally to bless it with an extra reserve of breath. For 1 minute, while the ally holds its breath, standard and full-round actions don't decrease the number of rounds the ally can hold its breath.",
@@ -235,7 +235,7 @@
 		"description": [
 			"## Glory",
 			"",
-			"**Source** [Advanced Class Guide pg. 65](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/65}  ",
 			"**Deities:** Gorum, Iomedae, Sarenrae",
 			"",
 			"**Glorious Presence (minor):** At 1st level, you can touch an ally and grant it a glorious blessing. For 1 minute, the ally becomes mesmerizing to her foes. This functions as sanctuary, except if the ally attacks an opponent, this effect ends with respect to only that opponent. This is a mind-affecting effect.",
@@ -249,7 +249,7 @@
 		"description": [
 			"## Godclaw",
 			"",
-			"**Source** [Disciple's Doctrine pg. 14](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/14}  ",
 			"**Deities:** Abadar, Asmodeus, Iomedae, Irori, Torag",
 			"",
 			"**Command Obedience (minor):** You can touch an ally and say a quick word to remind her of her obligations, granting her a new saving throw against each enchantment effect that currently affects her. If the saving throw is successful, the enchantment effect immediately ends. This power affects only effects that allow a saving throw.",
@@ -263,7 +263,7 @@
 		"description": [
 			"## Good",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Cayden Cailean, Desna, Erastil, Iomedae, Sarenrae, Shelyn, Torag",
 			"",
 			"**Holy Strike (minor):** At 1st level, you can touch one weapon and bless it with the power of purity and goodness. For 1 minute, this weapon glows green, white, or yellow-gold and deals an additional 1d6 points of damage against evil creatures. During this time, it's treated as good for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the holy weapon special ability.",
@@ -280,7 +280,7 @@
 		"description": [
 			"## Healing",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Irori, Pharasma, Sarenrae",
 			"",
 			"**Powerful Healer (minor):** At 1st level, you can add power to a cure spell as you cast it. As a swift action, you can treat any cure spell as if it were empowered (as the Empower Spell feat), causing it to heal 50% more damage (or deal 50% more damage if used against undead). This ability doesn't stack with itself or the Empower Spell feat.",
@@ -289,7 +289,7 @@
 			"",
 			"### Restoration",
 			"",
-			"**Source** [Healer's Handbook pg. 13](source/healers_handbook)",
+			"{SOURCE Healer's Handbook/13}",
 			"",
 			"**Replacement Blessing:** The following minor blessing replaces the powerful healer ability of the Healing blessing.",
 			"",
@@ -297,7 +297,7 @@
 			"",
 			"### Resurrection",
 			"",
-			"**Source** [Healer's Handbook pg. 13](source/healers_handbook)",
+			"{SOURCE Healer's Handbook/13}",
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the fast healing ability of the Healing blessing.",
 			"",
@@ -310,7 +310,7 @@
 		"description": [
 			"## Knowledge",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Calistria, Irori, Nethys, Norgorber, Pharasma",
 			"",
 			"**Lore Keeper (minor):** At 1st level, you can touch a creature to learn about its abilities and weaknesses. With a successful touch attack, you gain information as if your result on the appropriate Knowledge skill check were equal to 15 + your warpriest level + your Wisdom modifier.",
@@ -324,7 +324,7 @@
 		"description": [
 			"## Law",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Abadar, Asmodeus, Erastil, Iomedae, Irori, Torag, Zon-Kuthon",
 			"",
 			"**Axiomatic Strike (minor):** At 1st level, you can touch one weapon and enhance it with the essence of law. For 1 minute, this weapon glows blue, pale yellow, or white and deals an additional 1d6 points of damage against chaotic creatures. During this time, it's treated as lawful for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the axiomatic weapon special ability.",
@@ -341,7 +341,7 @@
 		"description": [
 			"## Liberation",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Desna",
 			"",
 			"**Liberation (minor):** At 1st level, for 1 round as a swift action, you can ignore impediments to your mobility and effects that cause paralysis (as freedom of movement). You can activate this blessing even if you're otherwise unable to take actions, but not if you're unconscious.",
@@ -350,7 +350,7 @@
 			"",
 			"### Freedom",
 			"",
-			"**Source** [Healer's Handbook pg. 13](source/healers_handbook)",
+			"{SOURCE Healer's Handbook/13}",
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the freedom's shout ability of the Liberation blessing.",
 			"",
@@ -363,7 +363,7 @@
 		"description": [
 			"## Luck",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Calistria, Desna, Shelyn",
 			"",
 			"**Lucky Presence (minor):** At 1st level, you can touch an ally and grant it a lucky presence. The target of this luck can call upon it to roll any one ability check, attack roll, saving throw, or skill check twice and take the better result. The decision to use this ability must be made before the roll is made. Once used, or once 1 minute passes, the effect ends.",
@@ -377,7 +377,7 @@
 		"description": [
 			"## Madness",
 			"",
-			"**Source** [Advanced Class Guide pg. 66](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** Lamashtu",
 			"",
 			"**Madness Supremacy (minor):** At 1st level, as a swift action you can target a creature within 30 feet that has the cowering, frightened, panicked, or paralyzed condition. That condition is suspended for 1 round, and the chosen creature gains the confused condition instead. The confused creature rerolls any result other than \"attack self - or -attack nearest creature.\" The round spent confused counts toward the duration of the suspended effect. At the end of the confused round, the suspended condition resumes.",
@@ -391,7 +391,7 @@
 		"description": [
 			"## Magic",
 			"",
-			"**Source** [Advanced Class Guide pg. 67](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/67}  ",
 			"**Deities:** Asmodeus, Nethys, Urgathoa",
 			"",
 			"**Hand of the Acolyte (minor):** At 1st level, you can cause your melee weapon to fly from your grasp and strike an opponent, then instantly return to you. You can make a single attack using a melee weapon at a range of 30 feet. This attack is treated as a ranged attack with a thrown weapon, except that you add your Wisdom modifier to the attack roll instead of your Dexterity modifier (you still add your Strength modifier to the damage roll as normal). This ability cannot be used to perform a combat maneuver.",
@@ -408,7 +408,7 @@
 		"description": [
 			"## Nobility",
 			"",
-			"**Source** [Advanced Class Guide pg. 67](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/67}  ",
 			"**Deities:** Abadar",
 			"",
 			"**Inspiring Word (minor):** At 1st level, you can speak a few words to a creature within 30 feet that fill them with inspiration. You can grant that creature a +2 morale bonus on attack rolls, ability checks, skill checks, or saving throws (your choice). This effect lasts for 1 minute.",
@@ -417,7 +417,7 @@
 			"",
 			"### Martyr",
 			"",
-			"**Source** [Healer's Handbook pg. 13](source/healers_handbook)",
+			"{SOURCE Healer's Handbook/13}",
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the lead by example ability of the Nobility blessing.",
 			"",
@@ -430,7 +430,7 @@
 		"description": [
 			"## Plant",
 			"",
-			"**Source** [Advanced Class Guide pg. 67](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/67}  ",
 			"**Deities:** Erastil, Gozreh",
 			"",
 			"**Creeping Vines (minor):** At 1st level, upon hitting with a melee attack, as a swift action you cause the creature you hit to sprout entangling vines that attempt to hold it in place, entangling it for 1 round (Reflex negates).",
@@ -444,7 +444,7 @@
 		"description": [
 			"## Protection",
 			"",
-			"**Source** [Advanced Class Guide pg. 67](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/67}  ",
 			"**Deities:** Abadar, Nethys, Shelyn, Torag",
 			"",
 			"**Increased Defense (minor):** At 1st level, you can gain a +1 sacred bonus on saving throws and a +1 sacred bonus to AC for 1 minute. The bonus increases to +2 at 10th level and +3 at 20th level.",
@@ -458,7 +458,7 @@
 		"description": [
 			"## Repose",
 			"",
-			"**Source** [Advanced Class Guide pg. 67](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/67}  ",
 			"**Deities:** Pharasma",
 			"",
 			"**Gentle Rest (minor):** At 1st level, you can fill a living creature with lethargy by hitting it with a melee touch attack, causing it to become staggered for 1 round. If the target is already staggered, it falls asleep for 1 round instead. An undead creature that's touched is staggered for a number of rounds equal to your Wisdom modifier (minimum 1).",
@@ -472,7 +472,7 @@
 		"description": [
 			"## Rune",
 			"",
-			"**Source** [Advanced Class Guide pg. 67](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/67}  ",
 			"**Deities:** Irori, Nethys",
 			"",
 			"**Blast Rune (minor):** At 1st level, you can create a blast rune in any adjacent square. Any creature entering this square takes an amount of damage equal to 1d6 + 1/2 your warpriest level. This rune deals either acid, cold, electricity, or fire damage, designated when you create the rune. The rune is invisible, and lasts a number of rounds equal to your warpriest level or until discharged. You cannot create a blast rune in a square occupied by another creature. This rune counts as a 1st-level spell for the purposes of dispelling. It can be discovered with a successful DC 26 Perception skill check and disarmed with a successful DC 26 Disable Device skill check.",
@@ -486,7 +486,7 @@
 		"description": [
 			"## Scalykind",
 			"",
-			"**Source** [Advanced Class Origins pg. 25](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/25}  ",
 			"**Deities:** Apsu, Dahak, Ragadahn, Ydersius",
 			"",
 			"**Scaly Touch (minor):** At 1st level, you can touch an ally as a standard action to grant it reptilian scales. For 1 minute, the ally gains a +1 enhancement bonus to its natural armor. At 5th level and every 5 levels thereafter, this bonus increases by 1 (to a maximum of +5 at 20th level).",
@@ -500,7 +500,7 @@
 		"description": [
 			"## Shadow",
 			"",
-			"**Source** [Blood of Shadows pg. 17](source/blood_of_shadows)  ",
+			"{SOURCE Blood of Shadows/17}  ",
 			"**Deities:** Nocticula, Norgorber, Zon-Kuthon",
 			"",
 			"**Flicker of Shadows (minor):** At 1st level, you can cause a weapon you touch to warp and become insubstantial for a split second before an attack. The first attack made with this weapon each round ignores any shield bonus to Armor Class, as well as bonuses from cover. Total cover still provides a creature its full benefit. This effect lasts for 1 minute.",
@@ -514,7 +514,7 @@
 		"description": [
 			"## Strength",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Cayden Cailean, Gorum, Irori, Lamashtu, Urgathoa",
 			"",
 			"**Strength Surge (minor):** At 1st level, as a swift action you can focus your own strength. You gain an enhancement bonus equal to 1/2 your warpriest level (minimum +1) on melee attack rolls, combat maneuver checks that rely on Strength, Strength-based skills, and Strength checks for 1 round.",
@@ -528,7 +528,7 @@
 		"description": [
 			"## Sun",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Iomedae, Sarenrae",
 			"",
 			"**Blinding Strike (minor):** At 1st level, you can create a flash of sunlight in the eyes of one of your opponents. The target is blinded for 1 round. If it succeeds at a Reflex saving throw, it's instead dazzled for 1 round. Creatures with light blindness or light sensitivity take a -4 penalty on this saving throw. This is a light effect. Sightless creatures are unaffected by this ability.",
@@ -542,7 +542,7 @@
 		"description": [
 			"## Tornado",
 			"",
-			"**Source** [Ultimate Wilderness pg. 97](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/97}  ",
 			"**Deities:** Evil deities that offer the Air blessing or nonevil deities with disasters in their portfolios",
 			"",
 			"**Dust Devil (minor):** When you hit with a weapon attack, you can use a swift action to cause a sudden burst of wind and debris to swirl around your target. The target is dazzled for 1 minute.",
@@ -556,7 +556,7 @@
 		"description": [
 			"## Travel",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Abadar, Cayden Cailean, Desna",
 			"",
 			"**Agile Feet (minor):** At 1st level, as a swift action you gain increased mobility. For 1 round, you ignore all difficult terrain (including magical terrain) and take no penalties for moving through it.",
@@ -570,7 +570,7 @@
 		"description": [
 			"## Trickery",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Asmodeus, Calistria, Lamashtu, Norgorber",
 			"",
 			"**Double (minor):** At 1st level, as a move action you can create an illusory double of yourself. This double functions as a single mirror image, and lasts for a number of rounds equal to your warpriest level, or until the illusory duplicate is dispelled or destroyed. You can have no more than one double at a time. The double created by this ability doesn't stack with the additional images from the mirror image spell.",
@@ -584,7 +584,7 @@
 		"description": [
 			"## Void",
 			"",
-			"**Source** [Advanced Class Origins pg. 25](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/25}  ",
 			"**Deities:** Great Old Ones, Groetus",
 			"",
 			"**Airless Touch (minor):** At 1st level, with a successful melee touch attack you can steal the breath from an opponent's lungs, leaving it unable to speak, use breath weapons, cast spells with verbal components, or do anything else requiring breath for 1 round. If the target fails at a Fortitude saving throw, it's also staggered for 1 round as it catches its breath. If the target was attempting to hold its breath, it can no longer do so: it must breathe on its turn or risk suffocation and unconsciousness. Creatures that don't need to breathe are unaffected. Regardless of whether it succeeds at its saving throw, the target is immune to further uses of your airless touch for 24 hours.",
@@ -598,7 +598,7 @@
 		"description": [
 			"## War",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Gorum, Iomedae, Rovagug, Urgathoa",
 			"",
 			"**War Mind (minor):** At 1st level, you can touch an ally and grant it a tactical advantage for 1 minute. At the start of its turn each round, it can select one of the following bonuses: +10 feet to base land speed, +1 dodge bonus to AC, +1 insight bonus on attack rolls, or a +1 luck bonus on saving throws. Each bonus selected lasts for 1 round.",
@@ -612,7 +612,7 @@
 		"description": [
 			"## Water",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Gozreh, Pharasma",
 			"",
 			"**Ice Strike (minor):** At 1st level, you can touch one weapon and enhance it with the power of water. For 1 minute, this weapon glows with a blue-white chill and deals an additional 1d4 points of cold damage with each strike. This additional damage doesn't stack with the additional damage from the frost or icy burst weapon special abilities.",
@@ -626,7 +626,7 @@
 		"description": [
 			"## Weather",
 			"",
-			"**Source** [Advanced Class Guide pg. 68](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** Gozreh, Rovagug",
 			"",
 			"**Storm Strike (minor):** At 1st level, you can touch one weapon and grant it a blessing of stormy weather. For 1 minute, this weapon glows with blue or yellow sparks and deals an additional 1d4 points of electricity damage with each hit. This additional damage doesn't stack with the additional damage from the shock or shocking burst weapon special abilities.",
@@ -640,7 +640,7 @@
 		"description": [
 			"## Wildfire",
 			"",
-			"**Source** [Ultimate Wilderness pg. 97](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/97}  ",
 			"**Deities:** Evil deities that offer the Fire blessing or nonevil deities with disasters in their portfolios",
 			"",
 			"**Leaping Flames (minor):** You touch an ally to bless it with the speed of a wildfire for 1 minute. The ally gains a +10-foot enhancement bonus to its base speed, and the ally gains a +1 dodge bonus to its AC against attacks of opportunity.",

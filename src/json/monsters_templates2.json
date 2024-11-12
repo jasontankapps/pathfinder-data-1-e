@@ -5,7 +5,7 @@
 		"description": [
 			"## Lycanthropic Creature (CR +1)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -23,7 +23,7 @@
 		"description": [
 			"## Mana Wastes Mutant (CR +1)",
 			"",
-			"**Source** [Inner Sea Bestiary](source/inner_sea_bestiary)  ",
+			"{SOURCE Inner Sea Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -90,7 +90,7 @@
 		"description": [
 			"## Man-Eating Animal (CR +1, +2, or +3)",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor](source/pathfinder_74_sword_of_valor)  ",
+			"{SOURCE Pathfinder #74: Sword of Valor}  ",
 			"**Acquired/Inherited Template** Both  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -145,7 +145,7 @@
 		"description": [
 			"## Mongrel Giant (CR +1)",
 			"",
-			"**Source** [Bestiary 6](source/bestiary_6)  ",
+			"{SOURCE Bestiary 6}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -221,7 +221,7 @@
 		"description": [
 			"## Monk (CR +2 or +3)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -239,7 +239,7 @@
 		"description": [
 			"## Mummified Animal (CR +1)",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands](source/pathfinder_81_shifting_sands)  ",
+			"{SOURCE Pathfinder #81: Shifting Sands}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -268,7 +268,7 @@
 		"description": [
 			"## Mummified Creature (CR +1 or +2)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -316,7 +316,7 @@
 			"",
 			"### Variant Mummy Special Abilities",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 71](source/pathfinder_81_shifting_sands)",
+			"{SOURCE Pathfinder #81: Shifting Sands/71}",
 			"",
 			"The abilities of a mummy reflect the circumstances of its creation. Mummies that arise from traditionally embalmed corpses usually exhibit standard abilities; those arising from natural mummification or more exotic embalming rituals may not.",
 			"",
@@ -371,7 +371,7 @@
 		"description": [
 			"## Mummy Lord (CR +2)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -425,7 +425,7 @@
 		"description": [
 			"## Mutant (CR +1)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -521,7 +521,7 @@
 		"description": [
 			"## Mutant Goblin (CR +1)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -550,7 +550,7 @@
 		"description": [
 			"## Mythic Skeleton (CR Varies)",
 			"",
-			"**Source** [Mythic Adventures](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -590,7 +590,7 @@
 		"description": [
 			"## Mythic Vampire (CR Varies)",
 			"",
-			"**Source** [Mythic Adventures pg. 220](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/220}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -652,7 +652,7 @@
 		"description": [
 			"## Nightmare Creature (CR +1)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Both  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -711,7 +711,7 @@
 		"description": [
 			"## Nosferatu (CR +2)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -772,7 +772,7 @@
 		"description": [
 			"## Ogrekin",
 			"",
-			"**Source** [Bestiary 2 pg. 204](source/bestiary_2)  ",
+			"{SOURCE Bestiary 2/204}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -814,7 +814,7 @@
 			"",
 			"#### Additional Deformities",
 			"",
-			"**Source** [Inner Sea Monster Codex pg. 47](source/inner_sea_monster_codex)",
+			"{SOURCE Inner Sea Monster Codex/47}",
 			"",
 			"All ogrekin have distinct deformities as a result of their incessant inbreeding and the partially incompatible genetics between ogres and other humanoid races. In addition to the deformities available above, ogrekin can have any of the new deformities presented below.",
 			"",
@@ -869,7 +869,7 @@
 		"description": [
 			"## Paladin (CR +2 or +3)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -887,7 +887,7 @@
 		"description": [
 			"## Pallid Vector (CR +2)",
 			"",
-			"**Source** [Villain Codex](source/villain_codex)  ",
+			"{SOURCE Villain Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -919,7 +919,7 @@
 		"description": [
 			"## Penanggalen (CR +1)",
 			"",
-			"**Source** [Bestiary 3](source/bestiary_3)  ",
+			"{SOURCE Bestiary 3}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -966,7 +966,7 @@
 		"description": [
 			"## Petitioner (CR - CR is 1)",
 			"",
-			"**Source** [Bestiary 2](source/bestiary_2)  ",
+			"{SOURCE Bestiary 2}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1013,7 +1013,7 @@
 		"description": [
 			"## Pickin Ogre (CR +0)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1031,7 +1031,7 @@
 		"description": [
 			"## Plagued Beast (CR +1)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1067,7 +1067,7 @@
 		"description": [
 			"## Pod-Spawned (CR +0, -1, or -2)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1098,7 +1098,7 @@
 		"description": [
 			"## Possessed Creature (CR +1)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1116,7 +1116,7 @@
 		"description": [
 			"## Prana Ghost (CR +1)",
 			"",
-			"**Source** [Occult Bestiary](source/occult_bestiary)  ",
+			"{SOURCE Occult Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1176,7 +1176,7 @@
 		"description": [
 			"## Primordial (CR +0 or +1)",
 			"",
-			"**Source** [Monster Summoner's Handbook](source/monster_summoners_handbook)  ",
+			"{SOURCE Monster Summoner's Handbook}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Versatile Summon Monster or Versatile Summon Nature's Ally",
@@ -1198,7 +1198,7 @@
 		"description": [
 			"## Promethean Creature (CR +1)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1216,7 +1216,7 @@
 		"description": [
 			"## Prophecy-Addled Creature (CR +1)",
 			"",
-			"**Source** [Pathfinder #125: Tower of the Drowned Dead](source/pathfinder_125_tower_of_the_drowned_dead)  ",
+			"{SOURCE Pathfinder #125: Tower of the Drowned Dead}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1235,7 +1235,7 @@
 		"description": [
 			"## Psychic Lich (CR +2)",
 			"",
-			"**Source** [Occult Bestiary](source/occult_bestiary)  ",
+			"{SOURCE Occult Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1295,7 +1295,7 @@
 		"description": [
 			"## Psychic Vampire (CR +2)",
 			"",
-			"**Source** [Occult Bestiary](source/occult_bestiary)  ",
+			"{SOURCE Occult Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1364,7 +1364,7 @@
 		"description": [
 			"## Psychoplasmic (CR +1)",
 			"",
-			"**Source** [Occult Bestiary](source/occult_bestiary)  ",
+			"{SOURCE Occult Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1426,7 +1426,7 @@
 		"description": [
 			"## Radiant Creature (CR +1)",
 			"",
-			"**Source** [Planar Adventures](source/planar_adventures)  ",
+			"{SOURCE Planar Adventures}  ",
 			"**Acquired/Inherited Template** Both  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1446,7 +1446,7 @@
 		"description": [
 			"## Rampant (CR +1)",
 			"",
-			"**Source** [Pathfinder #142: Gardens of Gallowspire](source/pathfinder_142_gardens_of_gallowspire)  ",
+			"{SOURCE Pathfinder #142: Gardens of Gallowspire}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1478,7 +1478,7 @@
 		"description": [
 			"## Ranger (CR +1 or +2)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1499,7 +1499,7 @@
 		"description": [
 			"## Ravener (CR +2)",
 			"",
-			"**Source** [Bestiary 2](source/bestiary_2)  ",
+			"{SOURCE Bestiary 2}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1533,7 +1533,7 @@
 			"",
 			"### Variants",
 			"",
-			"**Source** [Undead Revisited pg. 43](source/undead_revisited)  ",
+			"{SOURCE Undead Revisited/43}  ",
 			"The process by which a dragon becomes a ravener typically involves recruiting dark powers and undertaking necromantic rituals. Some of these rituals incorporate unusual stages that can alter the resulting ravener's powers. Two example alternative rituals are presented below-others might well exist in forbidden texts.",
 			"",
 			"**Nightmare Ravener (+0 CR):** Driven by fear of death in life, this ravener feeds upon the fear of others in death. The ritual to become a nightmare ravener requires bargaining with powerful entities from the nightmare dimension of Leng or with deities of nightmares like [Lamashtu](faith/lamashtu). Unlike normal raveners, nightmare raveners do not inflict negative levels on a critical hit, though they keep their increased threat range. Nightmare raveners instead gain the deadly terror special attack.",
@@ -1551,7 +1551,7 @@
 		"description": [
 			"## Recycled Construct (CR -1)",
 			"",
-			"**Source** [Construct Handbook](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1609,7 +1609,7 @@
 		"description": [
 			"## Resolute (CR +0 or +1)",
 			"",
-			"**Source** [Bestiary 2](source/bestiary_2)  ",
+			"{SOURCE Bestiary 2}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",
@@ -1633,7 +1633,7 @@
 		"description": [
 			"## Rogue (CR +1 or +2)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -1651,7 +1651,7 @@
 		"description": [
 			"## Runeplated Construct (CR +1)",
 			"",
-			"**Source** [Construct Handbook](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook}  ",
 			"**Acquired/Inherited Template** Both  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1727,7 +1727,7 @@
 		"description": [
 			"## Runeslave (CR +1)",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition](source/rise_of_the_runelords_anniversary_edition)  ",
+			"{SOURCE Rise of the Runelords Anniversary Edition}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1775,7 +1775,7 @@
 		"description": [
 			"## Runewarped Creature (CR +1)",
 			"",
-			"**Source** [Return of the Runelords Players Guide](source/return_of_the_runelords_players_guide)  ",
+			"{SOURCE Return of the Runelords Players Guide}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1821,7 +1821,7 @@
 		"description": [
 			"## Sea-Sworn (CR +1)",
 			"",
-			"**Source** [Treasure of Chimera Cove](source/treasure_of_chimera_cove)  ",
+			"{SOURCE Treasure of Chimera Cove}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** Yes",
@@ -1879,7 +1879,7 @@
 		"description": [
 			"## Seeded (CR +1)",
 			"",
-			"**Source** [Pathfinder #113: What Grows Within](source/pathfinder_113_what_grows_within)  ",
+			"{SOURCE Pathfinder #113: What Grows Within}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1935,7 +1935,7 @@
 		"description": [
 			"## Shadow (CR +1)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -1965,7 +1965,7 @@
 		"description": [
 			"## Shadow Animal (CR +1 or +2)",
 			"",
-			"**Source** [Nidal, Land of Shadows](source/nidal_land_of_shadows)  ",
+			"{SOURCE Nidal, Land of Shadows}  ",
 			"**Acquired/Inherited Template** Both  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2039,7 +2039,7 @@
 		"description": [
 			"## Shadow Creature (CR +1)",
 			"",
-			"**Source** [Advanced Race Guide](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** Yes",
@@ -2058,7 +2058,7 @@
 		"description": [
 			"## Shadow Lord (CR +2)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2104,7 +2104,7 @@
 		"description": [
 			"## Shadowbound Creature (CR +1)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -2122,7 +2122,7 @@
 		"description": [
 			"## Shadowfire Creature (CR +1)",
 			"",
-			"**Source** [The Emerald Spire Superdungeon](source/the_emerald_spire_superdungeon)  ",
+			"{SOURCE The Emerald Spire Superdungeon}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2156,7 +2156,7 @@
 		"description": [
 			"## Shaggra Ogre (CR +1)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -2174,7 +2174,7 @@
 		"description": [
 			"## Siabrae (CR +2)",
 			"",
-			"**Source** [Bestiary 6](source/bestiary_6)  ",
+			"{SOURCE Bestiary 6}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2222,7 +2222,7 @@
 		"description": [
 			"## Silverblood Lycanthrope (CR +2)",
 			"",
-			"**Source** [Andoran, Birthplace of Freedom](source/andoran_birthplace_of_freedom)  ",
+			"{SOURCE Andoran, Birthplace of Freedom}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2269,7 +2269,7 @@
 		"description": [
 			"## Skeletal Champion (CR +1)",
 			"",
-			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2306,7 +2306,7 @@
 			"",
 			"### Gallowdead",
 			"",
-			"**Source** [Dungeons of Golarion](source/dungeons_of_golarion)  ",
+			"{SOURCE Dungeons of Golarion}  ",
 			"Although nearly every variety of undead can be found within Gallowspire, a number of unique creatures, such as the gallowdead, can be found here as well. These undead are made from the corpses of those left to hang and rot on the tower's outer walls. Their proximity to the Whispering Tyrant and his incomprehensible power grants foul unlife and eldritch power. Similar in appearance to ordinary skeletons, gallowdead are marked by the large hook that pierces the chest of each, attached to a long chain that drags behind. These undead creatures can be found wandering both outside the dungeon and within, totally subservient to the Whispering Tyrant's foul will.",
 			"",
 			"A more powerful variant of the skeletal champion template, gallowdead were powerful humanoids in life, and retain much of the power they possessed as mortals in undeath. In addition to the standard bonuses and abilities granted by the skeletal champion template, a gallowdead has the following features.",
@@ -2333,7 +2333,7 @@
 		"description": [
 			"## Skeleton (CR - Depends on Base Creature)",
 			"",
-			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2446,7 +2446,7 @@
 			"",
 			"### Faces of Death",
 			"",
-			"**Source** [Classic Horrors Revisited pg. 54](source/classic_horrors_revisited)  ",
+			"{SOURCE Classic Horrors Revisited/54}  ",
 			"The simple, tottering skeleton and mindless, shambling zombie are the stereotypical image of the walking dead, but these undead horrors come in highly variable forms. Bloody skeletons, burning skeletons, fast zombies, plague zombies, and deadly intelligent skeletal champions are the best-known variants, but the walking dead are a diverse lot, and many more varieties might stalk moonlit graveyards and haunted crypts, each possessing its own strange and unique abilities. Although some common forms are listed below, in many cases these variant abilities may be applied to either skeletons or zombies, unless common sense dictates otherwise (such as a gasburst skeleton). Likewise, except as noted, the following variations can be stacked with one another-it's possible to have an exploding acid skeleton, for example.",
 			"",
 			"**Acid Skeleton:** The bones of an acid skeleton constantly ooze caustic acid. An acid skeleton's melee attacks deal an additional 1d6 points of acid damage, and anyone striking an acid skeleton with an unarmed strike or natural attack takes 1d6 points of acid damage. Acid skeletons lose their immunity to cold but gain immunity to acid. An acid skeleton's Charisma is 12. Other energy types, such as electric skeletons or frost skeletons, can be applied in a similar fashion. (CR +1)",
@@ -2470,7 +2470,7 @@
 		"description": [
 			"## Sorcerer (CR +1, +2 or +3)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -2502,7 +2502,7 @@
 		"description": [
 			"## Soulbound Construct (CR +1 or +2)",
 			"",
-			"**Source** [Construct Handbook](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2570,7 +2570,7 @@
 		"description": [
 			"## Spore Zombie (CR +1)",
 			"",
-			"**Source** [Bestiary 6](source/bestiary_6)  ",
+			"{SOURCE Bestiary 6}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2616,7 +2616,7 @@
 		"description": [
 			"## Steam-Powered Construct (CR +2)",
 			"",
-			"**Source** [Construct Handbook](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2672,7 +2672,7 @@
 		"description": [
 			"## Sunbaked Zombie (CR - Depends on Base Creature)",
 			"",
-			"**Source** [Pathfinder #80: Empty Graves](source/pathfinder_80_empty_graves)  ",
+			"{SOURCE Pathfinder #80: Empty Graves}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2757,7 +2757,7 @@
 		"description": [
 			"## Taxidermic Creature (CR - Depends on Base Creature)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2853,7 +2853,7 @@
 		"description": [
 			"## Terror Creature (CR +0)",
 			"",
-			"**Source** [City of Golden Death](source/city_of_golden_death)  ",
+			"{SOURCE City of Golden Death}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",
@@ -2869,7 +2869,7 @@
 		"description": [
 			"## Thicken Ogre (CR +0)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -2887,7 +2887,7 @@
 		"description": [
 			"## Trompe l'Oeil (CR +1)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2934,7 +2934,7 @@
 		"description": [
 			"## Tsukumogami (CR +2)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -2978,7 +2978,7 @@
 		"description": [
 			"## Tulpa (CR +2)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3024,7 +3024,7 @@
 		"description": [
 			"## Unknown (CR +2)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3080,7 +3080,7 @@
 		"description": [
 			"## Vahana (CR +2)",
 			"",
-			"**Source** [Bestiary 5](source/bestiary_5)  ",
+			"{SOURCE Bestiary 5}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3120,7 +3120,7 @@
 		"description": [
 			"## Vampire (CR +2)",
 			"",
-			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3193,7 +3193,7 @@
 			"",
 			"### Vampire Templates",
 			"",
-			"**Source** [Monster Codex pg. 236](source/monster_codex)",
+			"{SOURCE Monster Codex/236}",
 			"",
 			"Game statistics for vampires are created by using vampire templates. Each template creates a different kind of vampire. Other types of vampire exist, some of them arising from rare or even unique circumstances, but the following are the most notable types.",
 			"",
@@ -3205,7 +3205,7 @@
 			"",
 			"### Vampire Minion Simple Templates",
 			"",
-			"**Source** [Monster Codex pg. 236](source/monster_codex)",
+			"{SOURCE Monster Codex/236}",
 			"",
 			"Vampires can change mortals that they frequently come into contact with. The following templates are indicative of such phenomena, and are available to creatures associated with or victims of vampires.",
 			"",
@@ -3230,7 +3230,7 @@
 			"",
 			"#### Variant Vampiric Abilities",
 			"",
-			"**Source** [Classic Horrors Revisited pg. 50](source/classic_horrors_revisited)  ",
+			"{SOURCE Classic Horrors Revisited/50}  ",
 			"Just as various breeds of vampires exist, so too does diversity exist within regional or otherwise related groups of such undead.",
 			"",
 			"**Ancient Youth (Su):** A vampire with this ability transformed into one of the undead at a very young age, and has been trapped within an adolescent body for an existence possibly measuring in centuries. Vampires with this ability are size Small and gain a +4 bonus on all Bluff checks. (+0 CR)",
@@ -3250,7 +3250,7 @@
 		"description": [
 			"## Vampire Spawn (CR +1)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3287,7 +3287,7 @@
 		"description": [
 			"## Vampiric Creature (CR +1)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -3305,7 +3305,7 @@
 		"description": [
 			"## Vetala (CR +2)",
 			"",
-			"**Source** [Inner Sea Bestiary](source/inner_sea_bestiary)  ",
+			"{SOURCE Inner Sea Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3361,7 +3361,7 @@
 		"description": [
 			"## Waxwork (CR - Depends on Base Creature)",
 			"",
-			"**Source** [Horror Adventures](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3474,7 +3474,7 @@
 		"description": [
 			"## Winter Fey (CR +1)",
 			"",
-			"**Source** [Pathfinder #68: The Shackled Hut](source/pathfinder_68_the_shackled_hut)  ",
+			"{SOURCE Pathfinder #68: The Shackled Hut}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** Yes",
@@ -3503,7 +3503,7 @@
 		"description": [
 			"## Winter-Touched Fey (CR +0)",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer](source/pathfinder_67_the_snows_of_summer)  ",
+			"{SOURCE Pathfinder #67: The Snows of Summer}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",
@@ -3526,7 +3526,7 @@
 		"description": [
 			"## Wizard (CR +1 +2 or +3)",
 			"",
-			"**Source** [Monster Codex](source/monster_codex)  ",
+			"{SOURCE Monster Codex}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -3558,7 +3558,7 @@
 		"description": [
 			"## Worm that Walks (CR +2)",
 			"",
-			"**Source** [Bestiary 2](source/bestiary_2)  ",
+			"{SOURCE Bestiary 2}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3624,7 +3624,7 @@
 		"description": [
 			"## Young (CR -1)",
 			"",
-			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** No",
@@ -3646,7 +3646,7 @@
 		"description": [
 			"## Zombie (CR - Varies)",
 			"",
-			"**Source** [Pathfinder RPG Bestiary](source/pathfinder_rpg_bestiary)  ",
+			"{SOURCE Pathfinder RPG Bestiary}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
@@ -3767,7 +3767,7 @@
 			"",
 			"#### Zombies of the Yellow Mire",
 			"",
-			"**Source** [Horror Realms p. 33](source/horror_realms)",
+			"{SOURCE Horror Realms/33}",
 			"",
 			"The yellow musk zombies born in Yellow Mire may be familiar to adventurers who have encountered yellow musk creepers in the past, but the abominable flora of Golden Garden are an altogether separate horror. Below are three of the most common varieties of yellow musk zombies that arise from Golden Garden, which otherwise share statistics with typical yellow musk zombies.",
 			"",
@@ -3787,7 +3787,7 @@
 			"",
 			"### Faces of Death",
 			"",
-			"**Source** [Classic Horrors Revisited pg. 25](source/classic_horrors_revisited)  ",
+			"{SOURCE Classic Horrors Revisited/25}  ",
 			"The simple, tottering skeleton and mindless, shambling zombie are the stereotypical image of the walking dead, but these undead horrors come in highly variable forms. Bloody skeletons, burning skeletons, fast zombies, plague zombies, and deadly intelligent skeletal champions are the best-known variants, but the walking dead are a diverse lot, and many more varieties might stalk moonlit graveyards and haunted crypts, each possessing its own strange and unique abilities. Although some common forms are listed below, in many cases these variant abilities may be applied to either skeletons or zombies, unless common sense dictates otherwise (such as a gasburst skeleton). Likewise, except as noted, the following variations can be stacked with one another-it's possible to have an exploding acid skeleton, for example.",
 			"",
 			"**Alchemical Zombie:** This zombie has been created through alchemical processes rather than necromantic magic. As such, positive energy has less effect on it, giving it channel resistance +2. Its alchemically treated flesh is also more resistant to damage, granting it an additional +2 bonus to its natural Armor Class above that which it gains based on its size. (CR +1)",
@@ -3813,7 +3813,7 @@
 		"description": [
 			"## Zombie Lord (CR +1)",
 			"",
-			"**Source** [Bestiary 4](source/bestiary_4)  ",
+			"{SOURCE Bestiary 4}  ",
 			"**Acquired/Inherited Template** Acquired  ",
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",

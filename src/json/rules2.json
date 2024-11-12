@@ -3,7 +3,7 @@
 		"name": "How Combat Works",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/178}",
 			"",
 			"Combat is cyclical; everybody acts in turn in a regular cycle of rounds. Combat follows this sequence:",
 			"",
@@ -40,7 +40,7 @@
 		"name": "The Combat Round",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/178}",
 			"",
 			"Each round represents 6 seconds in the game world; there are 10 rounds in a minute of combat. A round normally allows each character involved in a combat situation to act.",
 			"",
@@ -64,7 +64,7 @@
 		"tags": "flat-footed",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/178}",
 			"",
 			"At the start of a battle, each combatant makes an initiative check. An initiative check is a Dexterity check. Each character applies his or her Dexterity modifier to the roll, as well as other modifiers from feats, spells, and other effects. Characters act in order, counting down from the highest result to the lowest. In every round that follows, the characters act in the same order (unless a character takes an action that results in his or her initiative changing; see Special Initiative Actions).",
 			"",
@@ -90,7 +90,7 @@
 		"tags": "surprise round",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/178}",
 			"",
 			"When a combat starts, if you are not aware of your opponents and they are aware of you, you're surprised.",
 			"",
@@ -116,7 +116,7 @@
 		"name": "Combat Statistics",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/178}",
 			"",
 			"This section summarizes the statistics that determine success in combat, then details how to use them."
 		],
@@ -148,7 +148,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 178](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/178}",
 			"",
 			"An attack roll represents your attempt to strike your opponent on your turn in a round. When you make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to this roll.) If your result equals or beats the target's Armor Class, you hit and deal damage.",
 			"",
@@ -182,7 +182,7 @@
 		"tags": "dexterity bonus enhancement bonus deflection bonus natural armor bonus dodge bonus size modifier incorporeal touch attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/179}",
 			"",
 			"Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:",
 			"",
@@ -243,7 +243,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/179}",
 			"",
 			"If your attack succeeds, you deal damage. The type of weapon used determines the amount of damage you deal. Damage reduces a target's current hit points.",
 			"",
@@ -282,7 +282,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 179](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/179}",
 			"",
 			"When your hit point total reaches 0, you're [disabled](rule/disabled_0_hit_points). When it reaches -1, you're [dying](rule/dying_negative_hit_points). When it gets to a negative amount equal to your Constitution score, you're [dead](rule/dead)."
 		],
@@ -305,7 +305,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 180](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/180}",
 			"",
 			"Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity (AoO). See the Attacks of Opportunity diagram [in the physical book, page 181] for an example of how they work.",
 			"",
@@ -366,7 +366,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 180](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/180}",
 			"",
 			"Your speed tells you how far you can move in a round and still do something, such as attack or cast a spell. Your speed depends mostly on your size and your armor. Dwarves, gnomes, and halflings have a speed of 20 feet (4 squares), or 15 feet (3 squares) when wearing medium or heavy armor (except for dwarves, who move 20 feet in any armor).",
 			"",
@@ -393,7 +393,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 180](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/180}",
 			"",
 			"Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class and level, and an associated ability score. Your saving throw modifier is:",
 			"",
@@ -429,7 +429,7 @@
 		"name": "Actions in Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 181](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/181}",
 			"",
 			"During one turn, there are a wide variety of actions that your character can perform, from swinging a sword to casting a spell.",
 			"",
@@ -489,7 +489,7 @@
 		"name": "Standard Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 182](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/182}",
 			"",
 			"Most of the common actions characters take, aside from movement, fall into the realm of standard actions.",
 			"",
@@ -546,7 +546,7 @@
 		"name": "Attack",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 182](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/182}",
 			"",
 			"Making an attack is a standard action.",
 			"",
@@ -613,7 +613,7 @@
 		"name": "Activate Magic Item",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 183](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/183}",
 			"",
 			"Many magic items don't need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action.",
 			"",
@@ -639,7 +639,7 @@
 		"tags": "holding the charge ranged touch spells concentration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 183](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/183}",
 			"",
 			"Most spells require 1 standard action to cast. You can cast such a spell either before or after you take a move action.",
 			"",
@@ -688,7 +688,7 @@
 		"name": "Use Special Ability",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 186](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/186}",
 			"",
 			"Using a special ability is usually a standard action, but whether it is a standard action, a full-round action, or not an action at all is defined by the ability.",
 			"",
@@ -717,7 +717,7 @@
 		"name": "Other Standard Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 185](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/185}",
 			"",
 			"The ***start full-round action*** standard action lets you start undertaking a full-round action, which you can complete in the following round by using another standard action (***complete full-round action***). You can't use this action to start or complete a full attack, charge, run, or withdraw.",
 			"",
@@ -740,7 +740,7 @@
 		"name": "Move Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 186](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/186}",
 			"",
 			"With the exception of specific movement-related skills, most move actions don't require a check.",
 			"",
@@ -787,7 +787,7 @@
 		"name": "Move",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 186](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/186}",
 			"",
 			"The simplest move action is moving your speed. If you take this kind of move action during your turn, you can't also take a 5-foot step.",
 			"",
@@ -814,7 +814,7 @@
 		"name": "Draw or Sheathe a Weapon",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 186](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/186}",
 			"",
 			"Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand, requires a move action. This action also applies to weapon-like objects carried in easy reach, such as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach, treat this action as retrieving a stored item.",
 			"",
@@ -839,7 +839,7 @@
 		"name": "Mount/Dismount a Steed",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/187}",
 			"",
 			"Mounting or dismounting a steed requires a move action.",
 			"",
@@ -862,7 +862,7 @@
 		"name": "Ready or Drop a Shield",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/187}",
 			"",
 			"Strapping a shield to your arm to gain its shield bonus to your AC, or unstrapping and dropping a shield so you can use your shield hand for another purpose, requires a move action. If you have a base attack bonus of +1 or higher, you can ready or drop a shield as a free action combined with a regular move. Dropping a carried (but not worn) shield is a free action."
 		],
@@ -884,7 +884,7 @@
 		"tags": "manipulating an item stand up from prone direct spell redirect spell",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/187}",
 			"",
 			"Moving or manipulating an item is usually a move action. This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in [the table here](rule/move_actions).",
 			"",
@@ -909,7 +909,7 @@
 		"name": "Full-Round Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/187}",
 			"",
 			"A full-round action requires an entire round to complete. Thus, it can't be coupled with a standard or a move action, though if it does not involve moving any distance, you can take a 5-foot step.",
 			"",
@@ -956,7 +956,7 @@
 		"name": "Full Attack",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/187}",
 			"",
 			"If you get more than one attack per round because your base attack bonus is high enough, because you fight with two weapons or a double weapon, or for some special reason, you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.",
 			"",
@@ -986,7 +986,7 @@
 		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 187](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/187}",
 			"",
 			"A spell that takes one round to cast is a full-round action. It comes into effect just before the beginning of your turn in the round after you began casting the spell. You then act normally after the spell is completed.",
 			"",
@@ -1018,7 +1018,7 @@
 		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/188}",
 			"",
 			"You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any Dexterity bonus to AC unless you have the [Run](feat/run) feat.",
 			"",
@@ -1046,7 +1046,7 @@
 		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/188}",
 			"",
 			"Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double your speed. The square you start out in is not considered threatened by any opponent you can see, and therefore visible enemies do not get attacks of opportunity against you when you move from that square. Invisible enemies still get attacks of opportunity against you, and you can't withdraw from combat if you're blinded. You can't take a 5-foot step during the same round in which you withdraw.",
 			"",
@@ -1076,7 +1076,7 @@
 		"tags": "Move 5 Feet through Difficult Terrain Use Special Ability",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/188}",
 			"",
 			"In some situations, your movement may be so hampered that you don't have sufficient speed even to move 5 feet (a single square). In such a case, you may spend a full-round action to ***move 5 feet*** (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it's not, and thus it provokes attacks of opportunity normally.",
 			"",
@@ -1099,7 +1099,7 @@
 		"name": "Free Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/188}",
 			"",
 			"Free actions don't take any time at all, though there may be limits to the number of free actions you can perform in a turn. Free actions rarely incur attacks of opportunity. Some common free actions are described below.",
 			"",
@@ -1132,7 +1132,7 @@
 		"name": "Swift and Immediate Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 188](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/188}",
 			"",
 			"A ***swift action*** consumes a very small amount of time, but represents a larger expenditure of effort than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. You can, however, perform only one single swift action per turn, regardless of what other actions you take. You can take a swift action anytime you would normally be allowed to take a free action. Swift actions usually involve spellcasting, activating a feat, or the activation of magic items.",
 			"",
@@ -1170,7 +1170,7 @@
 		"tags": "delay take 5-foot step perform combat maneuver use feat use skill",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/189}",
 			"",
 			"The following actions take a variable amount of time to accomplish or otherwise work differently than other actions.",
 			"",
@@ -1210,7 +1210,7 @@
 		"name": "Take 5-Foot Step",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/189}",
 			"",
 			"You can move 5 feet in any round when you don't perform any other kind of movement. Taking this ***5-foot step*** never provokes an attack of opportunity. You can't take more than one 5-foot step in a round, and you can't take a 5-foot step in the same round that you move any distance. You can take a 5-foot step before, during, or after your other actions in the round.",
 			"",
@@ -1234,7 +1234,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/189}",
 			"",
 			"Your hit points measure how hard you are to kill. No matter how many hit points you lose, your character isn't hindered in any way until your hit points drop to 0 or lower."
 		],
@@ -1267,7 +1267,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/189}",
 			"",
 			"The most common way that your character gets hurt is to take lethal damage and lose hit points.",
 			"",
@@ -1301,7 +1301,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/189}",
 			"",
 			"When your current hit point total drops to exactly 0, you are disabled.",
 			"",
@@ -1331,7 +1331,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 189](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/189}",
 			"",
 			"If your hit point total is negative, but not equal to or greater than your Constitution score, you're dying.",
 			"",
@@ -1359,7 +1359,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 190](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/190}",
 			"",
 			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to massive damage, he's dead. A character can also die from taking [ability damage](rule/ability_score_damage_penalty_and_drain) or suffering an ability drain that reduces his Constitution score to 0.",
 			"",
@@ -1385,7 +1385,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 190](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/190}",
 			"",
 			"On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become stable. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. An unconscious or dying character cannot use any special action that changes the initiative count on which his action occurs.",
 			"",
@@ -1421,7 +1421,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 191](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/191}",
 			"",
 			"After taking damage, you can recover hit points through natural healing or through magical healing. In any case, you can't regain hit points past your full normal hit point total.",
 			"",
@@ -1455,7 +1455,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 191](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/191}",
 			"",
 			"Certain effects give a character temporary hit points. These hit points are in addition to the character's current hit point total and any damage taken by the character is subtracted from these hit points first. Any damage in excess of a character's temporary hit points is applied to his current hit points as normal. If the effect that grants the temporary hit points ends or is dispelled, any remaining temporary hit points go away. The damage they sustained is not transferred to the character's current hit points.",
 			"",
@@ -1483,7 +1483,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 191](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/191}",
 			"",
 			"Nonlethal damage represents harm to a character that is not life-threatening. Unlike normal damage, nonlethal damage is healed quickly with rest.",
 			"",
@@ -1522,7 +1522,7 @@
 		"tags": "tactical movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/192}",
 			"",
 			"Your speed is determined by your race and your armor (see Table 8-3). Your speed while unarmored is your base land speed.",
 			"",
@@ -1571,7 +1571,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 192](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/192}",
 			"",
 			"As a general rule, distance is measured assuming that 1 square equals 5 feet.",
 			"",
@@ -1597,7 +1597,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 193](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/193}",
 			"",
 			"You can move through an unoccupied square without difficulty in most circumstances. Difficult terrain and a number of spell effects might hamper your movement through open spaces.",
 			"",
@@ -1635,7 +1635,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 193](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/193}",
 			"",
 			"From tangled plants to broken stone, there are a number of terrain features that can affect your movement.",
 			"",
@@ -1675,7 +1675,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 194](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/194}",
 			"",
 			"These rules cover special movement situations.",
 			"",
@@ -1702,7 +1702,7 @@
 		"name": "Big and Little Creatures in Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 194](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/194}",
 			"",
 			"Creatures smaller than Small or larger than Medium have special rules relating to position.",
 			"",
@@ -1754,7 +1754,7 @@
 		"name": "Combat Modifiers",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 195](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/195}",
 			"",
 			"A number of factors and conditions can influence an attack roll. Many of these situations grant a bonus or penalty on attack rolls or to a defender's Armor Class.",
 			"",
@@ -1821,7 +1821,7 @@
 		"tags": "soft cover partial cover total cover improved cover",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 195](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/195}",
 			"",
 			"To determine whether your target has cover from your ranged attack, choose a corner of your square. If any line from this corner to any corner of the target's square passes through a square or border that blocks line of effect or provides cover, or through a square occupied by a creature, the target has cover (+4 to AC).",
 			"",
@@ -1861,7 +1861,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 196](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/196}",
 			"",
 			"To determine whether your target has concealment from your ranged attack, choose a corner of your square. If any line from this corner to any corner of the target's square passes through a square or border that provides concealment, the target has concealment.",
 			"",
@@ -1897,7 +1897,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/197}",
 			"",
 			"When making a melee attack, you get a +2 flanking bonus if your opponent is threatened by another enemy character or creature on its opposite border or opposite corner.",
 			"",
@@ -1926,7 +1926,7 @@
 		"tags": "coup de grace",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/197}",
 			"",
 			"A helpless opponent is someone who is bound, sleeping, paralyzed, unconscious, or otherwise at your mercy.",
 			"",
@@ -1956,7 +1956,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/197}",
 			"",
 			"This section discusses all of the various standard maneuvers you can perform during combat other than normal attacks, casting spells, or using other class abilities. Some of these special attacks can be made as part of another action (such as an attack) or as a attack of opportunity."
 		],
@@ -1988,7 +1988,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 197](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/197}",
 			"",
 			"In melee combat, you can help a friend attack or defend by distracting or interfering with an opponent. If you're in position to make a melee attack on an opponent that is engaging a friend in melee combat, you can attempt to aid your friend as a standard action. You make an attack roll against AC 10. If you succeed, your friend gains either a +2 bonus on his next attack roll against that opponent or a +2 bonus to AC against that opponent's next attack (your choice), as long as that attack comes before the beginning of your next turn. Multiple characters can aid the same friend, and similar bonuses stack.",
 			"",
@@ -2013,7 +2013,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 198](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/198}",
 			"",
 			"Charging is a special full-round action that allows you to move up to twice your speed and attack during the action. Charging, however, carries tight restrictions on how you can move.",
 			"",
@@ -2052,7 +2052,7 @@
 		"tags": "CMB CMD combat maneuver bonus combat maneuver defense",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 198](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/198}",
 			"",
 			"During combat, you can attempt to perform a number of maneuvers that can hinder or even cripple your foe, including bull rush, disarm, grapple, overrun, sunder, and trip. Although these maneuvers have vastly different results, they all use a similar mechanic to determine success.",
 			"",
@@ -2117,7 +2117,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/199}",
 			"",
 			"You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the [Improved Bull Rush](feat/improved_bull_rush) feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2148,7 +2148,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 321](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/321}",
 			"",
 			"You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the [Improved Dirty Trick](feat/improved_dirty_trick) feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2177,7 +2177,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/199}",
 			"",
 			"You can attempt to disarm your opponent in place of a melee attack. If you do not have the [Improved Disarm](feat/improved_disarm) feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a -4 penalty on the attack.",
 			"",
@@ -2206,7 +2206,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 321](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/321}",
 			"",
 			"You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the [Improved Drag](feat/improved_drag) feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2239,7 +2239,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 199](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/199}",
 			"",
 			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have [Improved Grapple](feat/improved_grapple), grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the [grappled condition](rule/conditions). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
 			"",
@@ -2278,7 +2278,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/201}",
 			"",
 			"As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the [Improved Overrun](feat/improved_overrun) feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.",
 			"",
@@ -2307,7 +2307,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 322](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/322}",
 			"",
 			"You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the [Improved Reposition](feat/improved_reposition) feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or [wall of fire](spell/wall_of_fire).",
 			"",
@@ -2338,7 +2338,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"**Source** [Advanced Player's Guide pg. 322](source/advanced_players_guide)",
+			"{SOURCE Advanced Player's Guide/322}",
 			"",
 			"You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver-you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the [Improved Steal](feat/improved_steal) feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2369,7 +2369,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/201}",
 			"",
 			"You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the [Improved Sunder](feat/improved_sunder) feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2398,7 +2398,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/201}",
 			"",
 			"You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the [Improved Trip](feat/improved_trip) feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.",
 			"",
@@ -2427,7 +2427,7 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/201}",
 			"",
 			"Feinting is a standard action. To feint, make a Bluff skill check. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. If successful, the next melee attack you make against the target does not allow him to use his Dexterity bonus to AC (if any). This attack must be made on or before your next turn.",
 			"",
@@ -2453,7 +2453,7 @@
 		"name": "Mounted Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 201](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/201}",
 			"",
 			"These rules cover being mounted on a horse in combat but can also be applied to more unusual steeds, such as a griffon or dragon.",
 			"",
@@ -2494,7 +2494,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/202}",
 			"",
 			"A splash weapon is a ranged weapon that breaks on impact, splashing or scattering its contents over its target and nearby creatures or objects. To attack with a splash weapon, make a ranged touch attack against the target. Thrown splash weapons require no weapon proficiency, so you don't take the -4 nonproficiency penalty. A hit deals direct hit damage to the target and splash damage to all creatures within 5 feet of the target. If the target is Large or larger, you choose one of its squares and the splash damage affects creatures within 5 feet of that square. Splash weapons cannot deal precision-based damage (such as sneak attack).",
 			"",
@@ -2521,7 +2521,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 202](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/202}",
 			"",
 			"If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the [Two-Weapon Fighting](feat/two-weapon_fighting) feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.",
 			"",
@@ -2559,7 +2559,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 203](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/203}",
 			"",
 			"By choosing to delay, you take no action and then act normally on whatever initiative count you decide to act. When you delay, you voluntarily reduce your own initiative result for the rest of the combat. When your new, lower initiative count comes up later in the same round, you can act normally. You can specify this new initiative result or just wait until some time later in the round and act then, thus fixing your new initiative count at that point.",
 			"",
@@ -2585,7 +2585,7 @@
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 203](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/203}",
 			"",
 			"The ready action lets you prepare to take an action later, after your turn is over but before your next one has begun. Readying is a standard action. It does not provoke an attack of opportunity (though the action that you ready might do so).",
 			"",
@@ -2619,7 +2619,7 @@
 			"Ultimate Equipment"
 		],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 565](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/565}",
 			"",
 			"If more than one condition affects a character, apply them all. If effects can't combine, apply the most severe effect."
 		],
@@ -3219,7 +3219,7 @@
 		"name": "Special Abilities",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 554](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/554}",
 			"",
 			"The following special abilities include rules commonly used by a number of creatures, spells, and traps.",
 			"",
@@ -3283,7 +3283,7 @@
 		"name": "Ability Score Bonuses",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 554](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/554}",
 			"",
 			"Some spells and abilities increase your ability scores. Ability score increases with a duration of 1 day or less give only temporary bonuses. For every two points of increase to a single ability, apply a +1 bonus to the skills and statistics listed with the relevant ability.",
 			"",
@@ -3329,7 +3329,7 @@
 		"name": "Ability Score Damage, Penalty, and Drain",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 555](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/555}",
 			"",
 			"Diseases, poisons, spells, and other abilities can all deal damage directly to your ability scores. This damage does not actually reduce an ability, but it does apply a penalty to the skills and statistics that are based on that ability.",
 			"",
@@ -3379,7 +3379,7 @@
 		"name": "Afflictions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 555](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/555}",
 			"",
 			"From curses to poisons to diseases, there are a number of afflictions that can affect a creature. While each of these afflictions has a different effect, they all function using the same basic system. All afflictions grant a saving throw when they are contracted. If successful, the creature does not suffer from the affliction and does not need to make any further rolls. If the saving throw is Table must deal with its effects.",
 			"",
@@ -3439,7 +3439,7 @@
 		"name": "Curses",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 556](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/556}",
 			"",
 			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as remove curse and break enchantment. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
 			"",
@@ -3497,7 +3497,7 @@
 		"name": "Diseases",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/557}",
 			"",
 			"From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as remove disease.",
 			"",
@@ -3582,7 +3582,7 @@
 			"Numeria, Land of Fallen Stars"
 		],
 		"description": [
-			"**Source** [GameMastery Guide pg. 245](source/gamemastery_guide)",
+			"{SOURCE GameMastery Guide/245}",
 			"",
 			"Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a [remove disease](spell/remove_disease) spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. Infestations can afflict [androids](race/android) despite their artificial nature and immunity to disease, but they can't afflict nonliving creatures such as undead.",
 			"",
@@ -3621,7 +3621,7 @@
 		"name": "Poison",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 557](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/557}",
 			"",
 			"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 			"",
@@ -3657,7 +3657,7 @@
 		"name": "Blindsight and Blindsense",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/560}",
 			"",
 			"Some creatures possess ***blindsight,*** the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and concealment (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
 			"",
@@ -3698,7 +3698,7 @@
 		"name": "Channel Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 561](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/561}",
 			"",
 			"Creatures with channel resistance gain a bonus on Will saves made against channeled energy. They add their bonus to any Will saves made to halve the damage and resist the effect."
 		],
@@ -3730,7 +3730,7 @@
 		"name": "Charm and Compulsion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 561](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/561}",
 			"",
 			"Many abilities and spells can cloud the minds of characters and monsters, leaving them unable to tell friend from foe-or worse yet, deceiving them into thinking that their former friends are now their worst enemies. Two general types of enchantments affect characters and creatures: charms and compulsions.",
 			"",
@@ -3776,7 +3776,7 @@
 		"name": "Damage Reduction",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 561](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/561}",
 			"",
 			"Some magic creatures have the supernatural ability to instantly heal damage from weapons or ignore blows altogether as though they were invulnerable.",
 			"",
@@ -3834,7 +3834,7 @@
 		"name": "Darkvision",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 562](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/562}",
 			"",
 			"Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black-and-white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise-invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision."
 		],
@@ -3866,7 +3866,7 @@
 		"name": "Death Attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 562](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/562}",
 			"",
 			"In most cases, a death attack allows the victim a Fortitude save to avoid the effect, but if the save fails, the creature takes a large amount of damage, which might cause it to die instantly.",
 			"",
@@ -3903,7 +3903,7 @@
 		"name": "Energy Drain and Negative Levels",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 562](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/562}",
 			"",
 			"Some spells and a number of undead creatures have the ability to drain away life and energy; this dreadful attack results in \"negative levels.\" These cause a character to take a number of penalties.",
 			"",
@@ -3942,7 +3942,7 @@
 		"tags": "energy resistance energy vulnerability",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 563](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/563}",
 			"",
 			"A creature with ***energy immunity*** never takes damage from that energy type. ***Vulnerability*** means the creature takes half again as much (+50%) damage as normal from that energy type, regardless of whether a saving throw is allowed or if the save is a success or failure.",
 			"",
@@ -3980,7 +3980,7 @@
 		"name": "Fear",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 564](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/564}",
 			"",
 			"Spells, magic items, and certain monsters can affect characters with fear. In most cases, the character makes a Will saving throw to resist this effect, and a failed roll means that the character is shaken, frightened, or panicked.",
 			"",
@@ -4020,7 +4020,7 @@
 		"name": "Invisibility",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 564](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/564}",
 			"",
 			"The ability to move about unseen is not foolproof. While they can't be seen, invisible creatures can be heard, smelled, or felt.",
 			"",
@@ -4100,7 +4100,7 @@
 		"name": "Low-Light Vision",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 565](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/565}",
 			"",
 			"Characters with low-light vision have eyes that are so sensitive to light that they can see twice as far as normal in dim light. Low-light vision is color vision. A spellcaster with low-light vision can read a scroll as long as even the tiniest candle flame is next to him as a source of light. Characters with low-light vision can see outdoors on a moonlit night as well as they can during the day."
 		],
@@ -4132,7 +4132,7 @@
 		"name": "Paralysis",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 565](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/565}",
 			"",
 			"Some monsters and spells have the supernatural or spell-like ability to paralyze their victims, immobilizing them through magical means. Paralysis from poison is discussed in the Afflictions section.",
 			"",
@@ -4168,7 +4168,7 @@
 		"name": "Scent",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 565](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/565}",
 			"",
 			"This extraordinary ability lets a creature detect approaching enemies, sniff out hidden foes, and track by sense of smell.",
 			"",
@@ -4212,7 +4212,7 @@
 		"name": "Spell Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 565](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/565}",
 			"",
 			"Spell resistance is the extraordinary ability to avoid being affected by spells. Some spells also grant spell resistance.",
 			"",
@@ -4260,7 +4260,7 @@
 		"name": "When Spell Resistance Applies",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 566](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/566}",
 			"",
 			"Each spell includes an entry that indicates whether spell resistance applies to the spell. In general, whether spell resistance applies depends on what the spell does.",
 			"",
@@ -4294,7 +4294,7 @@
 		"name": "Successful Spell Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"**Source** [PRPG Core Rulebook pg. 567](source/prpg_core_rulebook)",
+			"{SOURCE PRPG Core Rulebook/567}",
 			"",
 			"Spell resistance prevents a spell or a spell-like ability from affecting or harming the resistant creature, but it never removes a magical effect from another creature or negates a spell's effect on another creature. Spell resistance prevents a spell from disrupting another spell.",
 			"",
@@ -4315,7 +4315,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 160](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/160}",
 			"",
 			"Typically, player characters find themselves buying and selling magic items as they gain levels to keep up with the increasing threats they face. Items come and go from each character's inventory with such frequency that they hardly have the chance to impact the game's story. Scaling items, however, increase in power along with the characters who carry them, allowing an old and cherished item to develop and retain its utility rather than being sold and forgotten.",
 			"",
@@ -4370,7 +4370,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 160](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/160}",
 			"",
 			"Since scaling items improve as characters level up, they effectively add wealth to their owners over time. To balance this out, the Game Master should reduce treasure awards in proportion to how many scaling items the party has. This can be done per character or for the whole group, as described below. Note that the original level and price of a scaling item don't matter once the character's level exceeds the minimum caster level of the item, since the item accrues value based on its category (bauble, prize, or wonder), not on its original price. The adjustments to treasure awards are the same for all items in a category.",
 			"",
@@ -4428,7 +4428,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/161}",
 			"",
 			"Many scaling items unlock new powers all the way up to 20th level. Others reach the caps on their abilities at lower levels. Once an item reaches the level of its most powerful ability, stop adjusting treasure for that item. At that point, the scaling item is considered fully \"paid for.\""
 		],
@@ -4448,7 +4448,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/161}",
 			"",
 			"If a PC receives a scaling item of a caster level lower than her character level, she effectively receives an item that's worth more than the price listed in the stat block. Reference [Table 4-13: Value of Scaling Items](rule/adjusting_treasure) and use the PC's level to estimate how much the item is really worth to that PC, and use that purchase price as its treasure value. Giving an item with a caster level higher than the character's level doesn't present the same problems; it just means the PC won't be unlocking the item's higher-level powers for some time. Don't reduce treasure for such an item until the PC's level exceeds the item's caster level."
 		],
@@ -4468,7 +4468,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/161}",
 			"",
 			"Selling a scaling item presents a tricky balance proposition. Such an item is worth more to a higher-level buyer, and a high-level seller has spent more effective wealth acquiring and keeping the item. The maximum amount a PC can get for a scaling item is half the value (as normal for selling magic items) listed on Table 4-13 for the item's category and the PC's current level. To get this amount, the PC must find a motivated buyer of her level or higher, which may involve considerable time and effort. If the PC must sell in a hurry, she might get 25% of the listed value, or even less. A PC can't sell a scaling item for more than 50% of the item's value for her current level, even if she sells it to a higher-level NPC."
 		],
@@ -4491,7 +4491,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/161}",
 			"",
 			"Scaling items must be crafted at their highest level of power, with a cost determined by referencing [Table 4-13](rule/adjusting_treasure). Start with the value listed on the table for the item's category and its highest-level ability. Divide this by 2 to get the crafting cost, and add the value of any nonmagical armor or weapon component. The crafting cost is always much higher than the market price of a scaling item, since the crafting cost is based on the full set of abilities but the market price is based on the minimum caster level. When a PC crafts a scaling item, he doesn't need to pay any further cost in reduced treasure for keeping the item, because the full value of the item has already been accounted for. When setting the DC for crafting a scaling item, use the item's highest-level ability instead of its base caster level."
 		],
@@ -4514,7 +4514,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 161](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/161}",
 			"",
 			"To determine the price when creating a new scaling item, determine the cost of the base item without any of the level-based upgrades, and increase that price based on each additional ability as described below.",
 			"",
@@ -4576,7 +4576,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"A GM can include specific scaling items as individual pieces of treasure even if she isn't using the scaling items system in her game. The base item can be used without any of the higher-level upgrades, or the GM can pick a higher level and create an individual item that has the base abilities plus one or more unlocked levels. She should use the standard price for that level of scaling item, as described on [Table 4-13](rule/adjusting_treasure)",
 			"",
@@ -4601,7 +4601,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 162](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/162}",
 			"",
 			"The following scaling items include several examples of wonders, prizes, and baubles."
 		],
@@ -4632,7 +4632,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 162](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/162}",
 			"",
 			"The following section includes armor and shields with unusual powers and magical abilities. Magic armor can have abilities that need to be activated to function or powers that work passively and constantly.",
 			"",
@@ -4729,7 +4729,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"The subtopics include weapons with unusual powers and magical abilities. Magic weapons can have abilities that need to be activated to function or powers that work passively and constantly."
 		],
@@ -4760,7 +4760,7 @@
 		"subtitle": "Scaling Magic Weapons, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"**Slot** none; CL 4th; **Weight** 1/10 lb.  ",
 			"**Aura** faint transmutation; **Price** 305 gp; **Scaling** bauble",
@@ -4807,7 +4807,7 @@
 		"subtitle": "Scaling Magic Weapons, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"**Slot** none; CL 6th; **Weight** 4 lbs.  ",
 			"**Aura** moderate transmutation; **Price** 2,650 gp; **Scaling** prize",
@@ -4846,7 +4846,7 @@
 		"subtitle": "Scaling Magic Weapons, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"**Slot** none; CL 6th; **Weight** 4 lbs.  ",
 			"**Aura** moderate abjuration [good]; **Price** 4,800 gp; **Scaling** wonder",
@@ -4889,7 +4889,7 @@
 		"subtitle": "Scaling Magic Weapons, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"**Slot** none; CL 6th; **Weight** 6 lbs.  ",
 			"**Aura** moderate divination; **Price** 2,650 gp; **Scaling** prize",
@@ -4928,7 +4928,7 @@
 		"subtitle": "Scaling Magic Weapons, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 163](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/163}",
 			"",
 			"**Slot** none; CL 6th; **Weight** 2 lbs.  ",
 			"**Aura** moderate necromancy; **Price** 4,800 gp; **Scaling** wonder",
@@ -4977,7 +4977,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"Rings bestow magical powers upon their wearers. Anyone can use a ring, but a character can gain the benefits of only two magic rings at a time."
 		],
@@ -5010,7 +5010,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 10th; **Weight** -  ",
 			"**Aura** moderate evocation; **Price** 10,800 gp; **Scaling** prize",
@@ -5051,7 +5051,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 9th; **Weight** -  ",
 			"**Aura** moderate abjuration; **Price** 6,000 gp; **Scaling** prize",
@@ -5094,7 +5094,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 9th; **Weight** -  ",
 			"**Aura** moderate abjuration; **Price** 6,000 gp; **Scaling** prize",
@@ -5137,7 +5137,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 9th; **Weight** -  ",
 			"**Aura** moderate abjuration; **Price** 6,000 gp; **Scaling** prize",
@@ -5180,7 +5180,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 9th; **Weight** -  ",
 			"**Aura** moderate abjuration; **Price** 6,000 gp; **Scaling** prize",
@@ -5223,7 +5223,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 6th; **Weight** -  ",
 			"**Aura** moderate conjuration; **Price** 4,800 gp; **Scaling** wonder",
@@ -5270,7 +5270,7 @@
 		"subtitle": "Scaling Rings, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 165](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/165}",
 			"",
 			"**Slot** ring; CL 4th; **Weight** -  ",
 			"**Aura** faint illusion; **Price** 1,080 gp; **Scaling** prize",
@@ -5315,7 +5315,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 167](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/167}",
 			"",
 			"Rods are scepterlike devices that have unique magical powers and usually do not have any charges. Anyone can use a rod.",
 			"",
@@ -5383,7 +5383,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"A staff is a long shaft that stores several spells. Staves usually hold spells grouped by a theme and sometimes possess other abilities that they grant to the wielder. A staff has 10 charges when created but can be recharged by a spellcaster with the appropriate spells.",
 			"",
@@ -5466,7 +5466,7 @@
 		"subtitle": "Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"Wondrous items are diverse. Some must be worn in a specific magic item slot in order to work, while others must merely be possessed and used. \"Wondrous item\" is a catchall category for anything that doesn't fall into other groups, such as weapons, staves, and so on. Anyone can use a wondrous item, unless the item specifies otherwise. There are two main categories of wondrous items: slotted and slotless. Slotted items take up a magic item slot, and must be worn by those who want to benefit from them."
 		],
@@ -5528,7 +5528,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** shoulders; CL 4th; **Weight** 1 lb.  ",
 			"**Aura** faint transmutation; **Price** 900 gp; **Scaling** prize",
@@ -5604,7 +5604,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 10th; **Weight** 15 lbs.  ",
 			"**Aura** moderate transmutation; **Price** 3,100 gp; **Scaling** bauble",
@@ -5674,7 +5674,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"### Bat Cloak",
 			"",
@@ -5754,7 +5754,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 7th; **Weight** 1 lb.  ",
 			"**Aura** moderate conjuration; **Price** 3,600 gp; **Scaling** prize",
@@ -5828,7 +5828,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** feet; CL 9th; **Weight** 1 lb.  ",
 			"**Aura** moderate divination; **Price** 2,650 gp; **Scaling** bauble",
@@ -5896,7 +5896,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** feet; CL 10th; **Weight** 1 lb.  ",
 			"**Aura** moderate transmutation; **Price** 3,100 gp; **Scaling** bauble",
@@ -5968,7 +5968,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** wrists; CL 4th; **Weight** -  ",
 			"**Aura** faint enchantment; **Price** 480 gp; **Scaling** bauble",
@@ -6036,7 +6036,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** feet; CL 8th; **Weight** 6 lbs.  ",
 			"**Aura** moderate transmutation; **Price** 5,814 gp; **Scaling** wonder",
@@ -6108,7 +6108,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** shoulders; CL 12th; **Weight** 1 lb.  ",
 			"**Aura** strong transmutation; **Price** 5,400 gp; **Scaling** bauble",
@@ -6178,7 +6178,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** belt; CL 8th; **Weight** 1 lb.  ",
 			"**Aura** moderate transmutation; **Price** 5,000 gp; **Scaling** prize",
@@ -6248,7 +6248,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** head; CL 3rd; **Weight** -  ",
 			"**Aura** faint conjuration; **Price** 1,000 gp; **Scaling** wonder",
@@ -6328,7 +6328,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** body; CL 12th; **Weight** 1 lb.  ",
 			"**Aura** strong transmutation; **Price** 38,000 gp; **Scaling** wonder",
@@ -6400,7 +6400,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 4th; **Weight** -  ",
 			"**Aura** faint conjuration; **Price** 2,650 gp; **Scaling** bauble",
@@ -6474,7 +6474,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** body; CL 8th; **Weight** 6 lbs.  ",
 			"**Aura** moderate necromancy; **Price** 5,000 gp; **Scaling** prize",
@@ -6546,7 +6546,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 4th; **Weight** -  ",
 			"**Aura** faint conjuration and divination; **Price** 2,650 gp; **Scaling** bauble",
@@ -6620,7 +6620,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** wrists; CL 8th; **Weight** 2 lbs.  ",
 			"**Aura** moderate evocation; **Price** 5,950 gp; **Scaling** prize",
@@ -6690,7 +6690,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** hands; CL 7th; **Weight** 4 lbs.  ",
 			"**Aura** moderate abjuration; **Price** 3,750 gp; **Scaling** prize",
@@ -6768,7 +6768,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** belt; CL 5th; **Weight** 1 lb.  ",
 			"**Aura** faint conjuration; **Price** 710 gp; **Scaling** bauble",
@@ -6844,7 +6844,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** hands; CL 5th; **Weight** 2 lbs.  ",
 			"**Aura** faint evocation; **Price** 1,882 gp; **Scaling** prize",
@@ -6918,7 +6918,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** neck; CL 8th; **Weight** 2 lbs.  ",
 			"**Aura** moderate enchantment; **Price** 5,000 gp; **Scaling** prize",
@@ -6988,7 +6988,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** hands; CL 8th; **Weight** 1 lb.  ",
 			"**Aura** moderate transmutation; **Price** 5,400 gp; **Scaling** prize",
@@ -7060,7 +7060,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** neck; CL 9th; **Weight** -  ",
 			"**Aura** moderate transmutation; **Price** 14,000 gp; **Scaling** wonder",
@@ -7134,7 +7134,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 8th; **Weight** 40 lbs.  ",
 			"**Aura** moderate abjuration; **Price** 6,000 gp; **Scaling** prize",
@@ -7206,7 +7206,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** neck; CL 4th; **Weight** -  ",
 			"**Aura** faint evocation; **Price** 1,000 gp; **Scaling** prize",
@@ -7278,7 +7278,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** headband; CL 8th; **Weight** 1 lb.  ",
 			"**Aura** moderate necromancy; **Price** 2,000 gp; **Scaling** bauble",
@@ -7346,7 +7346,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** head; CL 6th; **Weight** 1 lb.  ",
 			"**Aura** moderate divination; **Price** 2,500 gp; **Scaling** prize",
@@ -7420,7 +7420,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** neck; CL 10th; **Weight** -  ",
 			"**Aura** moderate evocation; **Price** 9,300 gp; **Scaling** prize",
@@ -7492,7 +7492,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 5th; **Weight** -  ",
 			"**Aura** faint transmutation; **Price** 1,575 gp; **Scaling** prize",
@@ -7570,7 +7570,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 1st; **Weight** 1 lb.  ",
 			"**Aura** faint transmutation; **Price** 15 gp; **Scaling** bauble",
@@ -7648,7 +7648,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** body; CL 6th; **Weight** 1 lb.  ",
 			"**Aura** moderate transmutation; **Price** 4,800 gp; **Scaling** wonder",
@@ -7726,7 +7726,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** eyes; CL 7th; **Weight** -  ",
 			"**Aura** moderate divination; **Price** 3,600 gp; **Scaling** prize",
@@ -7796,7 +7796,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** eyes; CL 11th; **Weight** -  ",
 			"**Aura** moderate divination; **Price** 14,400 gp; **Scaling** prize",
@@ -7866,7 +7866,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 7th; **Weight** 1 lb.  ",
 			"**Aura** moderate divination; **Price** 1,250 gp; **Scaling** bauble",
@@ -7938,7 +7938,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** none; CL 4th; **Weight** 1/2 lb.  ",
 			"**Aura** faint (many schools); **Price** 900 gp; **Scaling** prize",
@@ -8012,7 +8012,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** chest; CL 6th; **Weight** 4 lbs.  ",
 			"**Aura** moderate transmutation; **Price** 2,400 gp; **Scaling** prize",
@@ -8086,7 +8086,7 @@
 		"subtitle": "Scaling Wondrous Items, Unchained",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"**Source** [Pathfinder Unchained pg. 168](source/pathfinder_unchained)",
+			"{SOURCE Pathfinder Unchained/168}",
 			"",
 			"**Slot** chest; CL 9th; **Weight** 1 lb.  ",
 			"**Aura** moderate abjuration; **Price** 8,000 gp; **Scaling** prize",
@@ -8155,7 +8155,7 @@
 		"name": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_128_songbird_scion_saboteur)",
+			"{SOURCE Pathfinder #128: Songbird, Scion, Saboteur/77}",
 			"",
 			"This article introduces relics: magic items that grow in power the more they are used in the pursuit of a specific cause. Each relic was once a typical magic item that played a central role in a massively important event, increasing dramatically in potency as it drew power from its shaping of fate. Relics occupy a space somewhere between normal magic items and artifacts. Unlike most magic items, relics can't be crafted. Unlike artifacts, however, they can be destroyed normally. Eventually, these extra-powerful items are misplaced, forgotten, or ignored, and their power wanes as a result-though it is not entirely lost.",
 			"",
@@ -8188,7 +8188,7 @@
 		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_128_songbird_scion_saboteur)",
+			"{SOURCE Pathfinder #128: Songbird, Scion, Saboteur/77}",
 			"",
 			"As she adventures, the wielder of a relic might achieve great deeds, called triumphs, tied to the item's associated cause, which she can apply to the relic to increase its power. Each volume of the War for the Crown Adventure Path indicates which deeds qualify as a triumph for the relics of old Taldor. Each PC involved in achieving a triumph can apply that triumph to up to one of her carried relics, unlocking the next set of abilities for that item.",
 			"",
@@ -8212,7 +8212,7 @@
 		"name": "Relics In Your Own Campaign",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_128_songbird_scion_saboteur)",
+			"{SOURCE Pathfinder #128: Songbird, Scion, Saboteur/77}",
 			"",
 			"To implement relics in your own game, you can use the Taldan items presented here, adjusting their themes and details as necessary. Alternatively, you can adapt [scaling items from Pathfinder RPG Pathfinder Unchained](rule/scaling_items) or create your own items to suit your needs.",
 			"",
@@ -8235,7 +8235,7 @@
 		"subtitle": "Relics",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
-			"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 78](source/pathfinder_128_songbird_scion_saboteur)",
+			"{SOURCE Pathfinder #128: Songbird, Scion, Saboteur/78}",
 			"",
 			"Relics work much like [scaling items](rule/scaling_items), with the exceptions that they don't cost a share of your treasure and they scale up due to story events rather than at certain levels. This makes it easy to adapt the scaling items from that book to use as relics, either to replace ones listed here that don't suit your group in War for the Crown or to use in a different campaign. Doing so requires the following adjustments, in addition to adding thematic background elements to the items to tie them to the triumphs of your game.",
 			"",

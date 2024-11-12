@@ -5,7 +5,7 @@
 		"description": [
 			"## Amnesiac",
 			"",
-			"**Source** [Occult Adventures pg. 104](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/104}  ",
 			"The amnesiac once possessed great psychic power, but mental blocks-resulting from either a traumatic event or intentional implantation-have caused her to forget what she knew before. The amnesiac's struggle to control her psychic magic leads to wild and unpredictable results.",
 			"",
 			"**Repressed Memories:** All the amnesiac's older memories have been deeply hidden, as though she had been affected by multiple repress memory spells. She isn't prevented from remembering things that happen over the course of a game, but might be forgetful. If the amnesiac's memories are ever restored, she loses this archetype and reverts to a standard psychic.",
@@ -32,7 +32,7 @@
 		"description": [
 			"## Esoteric Starseeker",
 			"",
-			"**Source** [Wilderness Origins pg. 30](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/30}  ",
 			"The celestial bodies travel through the sky in fixed patterns, and knowledgeable astrologers rely on these stellar constants to make accurate predictions, but the constellations can also be a source of power. An esoteric starseeker is a psychic who focuses her studies on uncovering the secrets of the sky and the constellations of the Cosmic Caravan, able to read the stars as well as she can read minds.",
 			"",
 			"**Written in the Stars:** An esoteric starseeker can spend 1 hour each night in quiet contemplation of the stars to attune herself to a constellation of the Cosmic Caravan, gaining knowledge of new spells from it. She gains one bonus constellation spell slot for each spell level she can cast, and she can prepare a spell associated with her attuned constellation into that slot. At 11th level, she can attune herself to two constellations, choosing between the spells offered by both constellations when she prepares her constellation spells. Whenever she attunes herself to a constellation, the esoteric starseeker must also weaken her connection to one school of magic of her choice, increasing the casting time for all spells of that school to a full-round action or an additional full-round action, as though she were using a metamagic feat. She can change her attuned constellations and her weakened school each day when she prepares her constellation spells. The Cosmic Caravan and their associated spells are as follows.",
@@ -74,7 +74,7 @@
 		"description": [
 			"## Formless Adept",
 			"",
-			"**Source** [Occult Adventures pg. 104](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/104}  ",
 			"Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh and empower their spellcasting. They learn to assume increasingly insubstantial forms until they become like living ghosts.",
 			"",
 			"**Phrenic Charisma:** A formless adept uses his Charisma modifier to determine the number of points in his phrenic pool. This ability alters phrenic pool.",
@@ -104,7 +104,7 @@
 		"description": [
 			"## Magaambyan Telepath",
 			"",
-			"**Source** [Wilderness Origins pg. 27](source/wilderness_origins)  ",
+			"{SOURCE Wilderness Origins/27}  ",
 			"While most students of the [Magaambya](rule/aff_i_school) in the Mwangi Expanse focus on the blending of arcane and divine magic, followers of Old-Mage Jatembe's more esoteric wisdom instead focus on the occult connection between all living creatures and the resonance between the natural and supernatural world. These Magaambyan telepaths hone their mental abilities to detect such spiritual and eldritch bonds, and attempt to commune with the mind of the jungle or the hearts of its wild inhabitants. Whether seeking information that only nature knows or attempting to impose their will upon the natural world, these psychics employ techniques that few outside of the Magaambya understand.",
 			"",
 			"**Primal Spells:** A Magaambyan telepath adds one 1st-level spell from the [druid](main/spells_druid) spell list to the psychic spell list and her spells known. Each time a Magaambyan telepath gains the ability to cast a new level of spell, she can add one spell of that level from the druid spell list to both the psychic spell list and her spells known. She casts these spells as psychic spells, and once the spells are selected these choices cannot be changed.",
@@ -132,7 +132,7 @@
 		"description": [
 			"## Mutation Mind",
 			"",
-			"**Source** [Occult Adventures pg. 105](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/105}  ",
 			"Exposure to unintended spell effects, curses, or sources of radiation cause some to manifest psychic powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress, and she risks losing control if she pushes too far.",
 			"",
 			"**Physical Mutation (Su):** A mutation mind's psychic powers warp her body, allowing her to physically mutate herself as a swift action, which grants her a +4 enhancement bonus to Strength and a -2 penalty to Intelligence. At 12th level, the bonus to Strength increases to +6. A mutation mind can assume her physically mutated form for a number of minutes per day equal to her psychic level. The minutes don't have to be used consecutively, but must be used in 1-minute increments. When the duration runs out, the mutation mind can spend 1 point from her phrenic pool to extend the duration by 1 round. She can continue extending it in this way until she runs out of points. After the mutation ends, the mutation mind is fatigued and can't activate a physical mutation again for 1 round. Turning back to normal before the end of a 1-minute increment takes a standard action. This ability replaces the 1st-level phrenic amplification.",
@@ -186,7 +186,7 @@
 		"description": [
 			"## Psychic Duelist",
 			"",
-			"**Source** [Occult Adventures pg. 107](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/107}  ",
 			"Psychic duelists hone their mental powers for combat, much as warriors do with their blades. They specialize in psychic duels, perfecting their thought-form creatures into mighty weapons.",
 			"",
 			"**Psychic Duel Acumen (Ex):** At 4th level, a psychic duelist adds instigate psychic duel to her list of spells known, and the save DC of any instigate psychic duel spell she casts increases by 1. Beginning at 6th level, she can also expend any unused psychic spell slot of 3rd level or higher to cast instigate psychic duel. If she does so, she uses the level of the spell slot expended to determine the Will save DC. In addition, when the psychic duelist sacrifices points from her phrenic pool to generate manifestation points for an offensive manifestation, she uses d8s for damage dice instead of d4s. This ability replaces the 4th-level discipline spell.",
@@ -214,7 +214,7 @@
 		"description": [
 			"## Psychic Marauder",
 			"",
-			"**Source** [Heroes of the Darklands pg. 22](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/22}  ",
 			"When one encounters aberrant creatures, it can unlock psychic potential within a person, though this experience is traumatic for those who endure it. The psychic marauder's powers come hand in hand with madness, either from exposure to alien psyches or from terrifying glimpses into the cosmos that the psychic can't suppress. But she does not crumble under the strain of this insanity; instead, she cordons it off to use as a shield against other psychic intrusions and harnesses it to unleash it upon the world around her.",
 			"",
 			"Psychic marauders in Orv have often been corrupted by the influence of aboleths or neothelids.",
@@ -248,7 +248,7 @@
 		"description": [
 			"## Terror Weaver",
 			"",
-			"**Source** [Heroes from the Fringe pg. 26](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/26}  ",
 			"A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by generations of exposure to a specific combination of mind-altering fungi and radiation. Powerful half-orc manipulators often rule smaller Darklands tribes from the shadows, but with few orcs able to match their mental acuity, their only limit is their own ambition.",
 			"",
 			"**Manipulation (Sp):** At 2nd level, a terror weaver can cast charm person once per day as a spell-like ability. He can also expend any unused spell slot of 1st level or higher to cast charm person. If he does so, he uses the level of the spell slot expended to determine the save DC. When a terror weaver gains this ability, if he already knows charm person, he can learn a different 1st-level spell in place of charm person, losing the old spell in exchange for the new one.",

@@ -5,7 +5,7 @@
 		"description": [
 			"## Amulet of Elemental Strife",
 			"",
-			"**Source** [Ultimate Equipment pg. 254](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/254}  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 4,000 gp; **Weight** 1 lb.",
 			"",
@@ -24,7 +24,7 @@
 		"description": [
 			"## Crepuscular Trinket",
 			"",
-			"**Source** [Planar Adventures pg. 53](source/planar_adventures)  ",
+			"{SOURCE Planar Adventures/53}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 4,000 gp; **Weight** -;",
 			"",
@@ -41,7 +41,7 @@
 		"description": [
 			"## Pendant of the Souk",
 			"",
-			"**Source** [Pathfinder #61: Shards of Sin pg. 65](source/pathfinder_61_shards_of_sin)  ",
+			"{SOURCE Pathfinder #61: Shards of Sin/65}  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** neck; **Price** 4,000 gp; **Weight** -;",
 			"",
@@ -60,7 +60,7 @@
 		"description": [
 			"## Righteous Fist Amulet",
 			"",
-			"**Source** [Ultimate Equipment pg. 261](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/261}  ",
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** neck; **Price** 4,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -77,7 +77,7 @@
 		"description": [
 			"## Talisman of Beast Training",
 			"",
-			"**Source** [Quests and Campaigns pg. 31](source/quests_and_campaigns)  ",
+			"{SOURCE Quests and Campaigns/31}  ",
 			"**Aura** faint enchantment; **CL** 1st  ",
 			"**Slot** neck; **Price** 4,000 gp; **Weight** -;",
 			"",
@@ -97,7 +97,7 @@
 		"description": [
 			"## Shad'gorum Nugget",
 			"",
-			"**Source** [Inner Sea Gods pg. 269](source/inner_sea_gods), [Gods and Magic pg. 60](source/gods_and_magic)  ",
+			"{SOURCE Inner Sea Gods/269;Gods and Magic/60}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck; **Price** 4,200 gp; **Weight** 5 lbs.",
 			"",
@@ -119,7 +119,7 @@
 		"description": [
 			"## Stinging Stiletto",
 			"",
-			"**Source** [Inner Sea Gods pg. 270](source/inner_sea_gods), [Gods and Magic pg. 60](source/gods_and_magic)  ",
+			"{SOURCE Inner Sea Gods/270;Gods and Magic/60}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** neck, ring, or none; **Price** 4,500 gp; **Weight** -;",
 			"",
@@ -138,7 +138,7 @@
 		"description": [
 			"## Amulet of Dragon's Breath",
 			"",
-			"**Source** [Pathfinder #70: The Frozen Stars pg. 62](source/pathfinder_70_the_frozen_stars)  ",
+			"{SOURCE Pathfinder #70: The Frozen Stars/62}  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** neck; **Price** 4,800 gp; **Weight** -;",
 			"",
@@ -158,7 +158,7 @@
 		"description": [
 			"## Bloodlink",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 52](source/inner_sea_intrigue), [Pathfinder #16: Endless Night pg. 11](source/pathfinder_16_endless_night)  ",
+			"{SOURCE Inner Sea Intrigue/52;Pathfinder #16: Endless Night/11}  ",
 			"**Aura** faint evocation and illusion; **CL** 3rd  ",
 			"**Slot** neck; **Price** 4,800 gp; **Weight** -;",
 			"",
@@ -175,7 +175,7 @@
 		"description": [
 			"## Thundering Collar",
 			"",
-			"**Source** [Inner Sea Temples pg. 22](source/inner_sea_temples)  ",
+			"{SOURCE Inner Sea Temples/22}  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** neck; **Price** 4,800 gp; **Weight** 1 lb.",
 			"",
@@ -192,7 +192,7 @@
 		"description": [
 			"## Amulet of Uncanny Defense",
 			"",
-			"**Source** [Advanced Class Guide pg. 225](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/225}  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 5,000 gp; **Weight** -;",
 			"",
@@ -209,7 +209,7 @@
 		"description": [
 			"## Best Friend Pendant",
 			"",
-			"**Source** [Ultimate Intrigue pg. 243](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/243}  ",
 			"**Aura** faint conjuration and transmutation; **CL** 5th  ",
 			"**Slot** neck; **Price** 5,000 gp; **Weight** -;",
 			"",
@@ -228,7 +228,7 @@
 		"description": [
 			"## Charm of Fate",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 55](source/pathfinder_39_the_city_of_seven_spears)  ",
+			"{SOURCE Pathfinder #39: The City of Seven Spears/55}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 5,000 gp; **Weight** -;",
 			"",
@@ -245,7 +245,7 @@
 		"description": [
 			"## Collar of Obedience",
 			"",
-			"**Source** [Animal Archive pg. 26](source/animal_archive)  ",
+			"{SOURCE Animal Archive/26}  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** neck; **Price** 5,000 gp; **Weight** 3 lbs.",
 			"",
@@ -264,7 +264,7 @@
 		"description": [
 			"## Deathbalm Talisman",
 			"",
-			"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 62](source/pathfinder_62_curse_of_the_ladys_light)  ",
+			"{SOURCE Pathfinder #62: Curse of the Lady's Light/62}  ",
 			"**Aura** moderate conjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
@@ -281,7 +281,7 @@
 		"description": [
 			"## Forbearer's Grace",
 			"",
-			"**Source** [Potions and Poisons pg. 30](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/30}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 5,400 gp; **Weight** -;",
 			"",
@@ -298,7 +298,7 @@
 		"description": [
 			"## Ghoul Stone",
 			"",
-			"**Source** [Lost Treasures pg. 33](source/lost_treasures)  ",
+			"{SOURCE Lost Treasures/33}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** neck; **Price** 5,400 gp; **Weight** 1 lb.",
 			"",
@@ -315,7 +315,7 @@
 		"description": [
 			"## Stormlure",
 			"",
-			"**Source** [Ultimate Equipment pg. 261](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/261}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** neck; **Price** 5,400 gp; **Weight** -;",
 			"",
@@ -332,7 +332,7 @@
 		"description": [
 			"## Sun Falcon Pectoral",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_81_shifting_sands)  ",
+			"{SOURCE Pathfinder #81: Shifting Sands/59}  ",
 			"**Aura** faint evocation [light]; **CL** 5th  ",
 			"**Slot** neck; **Price** 5,400 gp; **Weight** 3 lbs.",
 			"",
@@ -356,7 +356,7 @@
 		"description": [
 			"## Talisman of Soul-Eating",
 			"",
-			"**Source** [Book of the Damned pg. 197](source/book_of_the_damned), [Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 41](source/book_of_the_damned_-_volume_3_horsemen_of_the_apocalypse)  ",
+			"{SOURCE Book of the Damned/197;Book of the Damned - Volume 3: Horsemen of the Apocalypse/41}  ",
 			"**Aura** faint necromancy [evil]; **CL** 5th  ",
 			"**Slot** neck; **Price** 5,400 gp; **Weight** 3 lbs.",
 			"",
@@ -376,7 +376,7 @@
 		"description": [
 			"## Amulet of Courage",
 			"",
-			"**Source** [Divine Anthology pg. 8](source/divine_anthology)  ",
+			"{SOURCE Divine Anthology/8}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** -;",
 			"",
@@ -393,7 +393,7 @@
 		"description": [
 			"## Burrower's Bridle",
 			"",
-			"**Source** [People of the Sands pg. 29](source/people_of_the_sands)  ",
+			"{SOURCE People of the Sands/29}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** 2 lbs.",
 			"",
@@ -410,7 +410,7 @@
 		"description": [
 			"## Necklace of Beast's Might",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 29](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/29}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** neck; **Price** 6,000 gp (Eyes), 8,000 gp (Hair), 8,000 gp (Horn), 9,000 gp (Claws), 9,000 gp (Scales), 12,000 gp (Bones), 12,000 gp (Teeth); **Weight** -;",
 			"",
@@ -441,7 +441,7 @@
 		"description": [
 			"## Feychild Necklace",
 			"",
-			"**Source** [Ultimate Equipment pg. 258](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/258}  ",
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -458,7 +458,7 @@
 		"description": [
 			"## Pain Ward of the Ostiarius",
 			"",
-			"**Source** [Horror Adventures pg. 222](source/horror_adventures)  ",
+			"{SOURCE Horror Adventures/222}  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -477,7 +477,7 @@
 		"description": [
 			"## Torc of the Primal Song",
 			"",
-			"**Source** [Advanced Class Guide pg. 237](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/237}  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** 4 lbs.",
 			"",
@@ -497,7 +497,7 @@
 		"description": [
 			"## True Love Locket",
 			"",
-			"**Source** [Pathfinder #92: The Hill Giant's Pledge pg. 19](source/pathfinder_92_the_hill_giants_pledge), [Pathfinder #91: Battle of Bloodmarch Hills pg. 61](source/pathfinder_91_battle_of_bloodmarch_hills)  ",
+			"{SOURCE Pathfinder #92: The Hill Giant's Pledge/19;Pathfinder #91: Battle of Bloodmarch Hills/61}  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** -;",
 			"",
@@ -514,7 +514,7 @@
 		"description": [
 			"## Amulet of the True Form",
 			"",
-			"**Source** [Blood of the Moon pg. 30](source/blood_of_the_moon)  ",
+			"{SOURCE Blood of the Moon/30}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 6,500 gp; **Weight** -;",
 			"",
@@ -531,7 +531,7 @@
 		"description": [
 			"## Gorget of Umbral Hunger",
 			"",
-			"**Source** [Merchant's Manifest pg. 15](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/15}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 6,500 gp; **Weight** -;",
 			"",
@@ -548,7 +548,7 @@
 		"description": [
 			"## Oakstewards' Favor",
 			"",
-			"**Source** [People of the River pg. 29](source/people_of_the_river)  ",
+			"{SOURCE People of the River/29}  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** neck; **Price** 6,550 gp; **Weight** -;",
 			"",
@@ -567,7 +567,7 @@
 		"description": [
 			"## Carcanet of Detention",
 			"",
-			"**Source** [Ultimate Equipment pg. 257](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/257}  ",
 			"**Aura** faint conjuration; **CL** 4th  ",
 			"**Slot** neck; **Price** 7,200 gp; **Weight** -;",
 			"",
@@ -584,7 +584,7 @@
 		"description": [
 			"## Medalion of Sar-Gorog",
 			"",
-			"**Source** [Heaven Unleashed pg. 55](source/heaven_unleashed)  ",
+			"{SOURCE Heaven Unleashed/55}  ",
 			"**Aura** strong evil; **CL**  ",
 			"**Slot** neck; **Price** 7,500 gp; **Weight** -;",
 			"",
@@ -607,7 +607,7 @@
 		"description": [
 			"## Periapt of Health",
 			"",
-			"**Source** [Ultimate Equipment pg. 260](source/ultimate_equipment), [PRPG Core Rulebook pg. 525](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/260;PRPG Core Rulebook/525}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 7,500 gp; **Weight** -;",
 			"",
@@ -624,7 +624,7 @@
 		"description": [
 			"## Spell-Sharing Collar",
 			"",
-			"**Source** [Familiar Folio pg. 21](source/familiar_folio)  ",
+			"{SOURCE Familiar Folio/21}  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** neck; **Price** 7,500 gp; **Weight** 1 lb.",
 			"",
@@ -646,7 +646,7 @@
 		"description": [
 			"## Amulet of Proof against Petrification",
 			"",
-			"**Source** [Ultimate Equipment pg. 256](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/256}  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -663,7 +663,7 @@
 		"description": [
 			"## Nursing Necklace",
 			"",
-			"**Source** [Healer's Handbook pg. 29](source/healers_handbook)  ",
+			"{SOURCE Healer's Handbook/29}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** neck; **Price** 8,000 gp (Ant), 8,000 gp (Centipede), 8,000 gp (Spider), 10,000 gp (Leech), 10,000 gp (Mosquito); **Weight** -;",
 			"",
@@ -692,7 +692,7 @@
 		"description": [
 			"## Apollyon Clasp",
 			"",
-			"**Source** [Pathfinder: Spiral of Bones #5 pg. 29](source/pathfinder_spiral_of_bones_5)  ",
+			"{SOURCE Pathfinder Spiral of Bones #5/29}  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -709,7 +709,7 @@
 		"description": [
 			"## Azata's Whimsy",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 28](source/demon_hunters_handbook)  ",
+			"{SOURCE Demon Hunter's Handbook/28}  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -733,7 +733,7 @@
 		"description": [
 			"## Blessed Keepsake",
 			"",
-			"**Source** [Inner Sea Gods pg. 261](source/inner_sea_gods)  ",
+			"{SOURCE Inner Sea Gods/261}  ",
 			"**Aura** faint abjuration and divination; **CL** 1st  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -758,7 +758,7 @@
 		"description": [
 			"## Choker of the Queen Bee",
 			"",
-			"**Source** [Seers of the Drowned City pg. 53](source/seers_of_the_drowned_city)  ",
+			"{SOURCE Seers of the Drowned City/53}  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -781,7 +781,7 @@
 		"description": [
 			"## Choker of the Siphoning Scorpion",
 			"",
-			"**Source** [Daughters of Fury pg. 57](source/daughters_of_fury)  ",
+			"{SOURCE Daughters of Fury/57}  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -800,7 +800,7 @@
 		"description": [
 			"## Everwake Amulet",
 			"",
-			"**Source** [Ultimate Equipment pg. 257](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/257}  ",
 			"**Aura** faint conjuration; **CL** 2nd  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -817,7 +817,7 @@
 		"description": [
 			"## Gravewatch Pendant",
 			"",
-			"**Source** [Ultimate Equipment pg. 258](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/258}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -841,7 +841,7 @@
 		"description": [
 			"## Hand of Glory",
 			"",
-			"**Source** [Ultimate Equipment pg. 259](source/ultimate_equipment), [PRPG Core Rulebook pg. 516](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/259;PRPG Core Rulebook/516}  ",
 			"**Aura** faint varied; **CL** 5th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 2 lbs.",
 			"",
@@ -858,7 +858,7 @@
 		"description": [
 			"## Amulet of the Spirits",
 			"",
-			"**Source** [Advanced Class Guide pg. 224](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/224}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** neck; **Price** 8,000 gp (Heavens), 8,000 gp (Wind), 10,000 gp (Flame), 10,000 gp (Stone), 10,000 gp (Waves), 12,000 gp (Battle), 12,000 gp (Bones), 12,000 gp (Life); **Weight** 1 lb.",
 			"",
@@ -895,7 +895,7 @@
 		"description": [
 			"## Periapt of Proof Against Paralysis",
 			"",
-			"**Source** [Potions and Poisons pg. 31](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/31}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** -;",
 			"",
@@ -912,7 +912,7 @@
 		"description": [
 			"## Periapt of Temporary Familiar",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoners_handbook)  ",
+			"{SOURCE Monster Summoner's Handbook/20}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -929,7 +929,7 @@
 		"description": [
 			"## Propitious Metumbe",
 			"",
-			"**Source** [Faiths and Philosophies pg. 31](source/faiths_and_philosophies)  ",
+			"{SOURCE Faiths and Philosophies/31}  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -952,7 +952,7 @@
 		"description": [
 			"## Torc of Bloody Rage",
 			"",
-			"**Source** [Advanced Class Guide pg. 237](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/237}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -972,7 +972,7 @@
 		"description": [
 			"## Torc of Lionheart Fury",
 			"",
-			"**Source** [Ultimate Equipment pg. 261](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/261;Advanced Player's Guide/310}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
@@ -993,7 +993,7 @@
 		"description": [
 			"## Amulet of Hidden Light",
 			"",
-			"**Source** [Advanced Race Guide pg. 112](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/112}  ",
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -1010,7 +1010,7 @@
 		"description": [
 			"## Amulet of Hidden Strength",
 			"",
-			"**Source** [Ultimate Equipment pg. 254](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/254}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -1027,7 +1027,7 @@
 		"description": [
 			"## Best Friend Pendant, Greater",
 			"",
-			"**Source** [Ultimate Intrigue pg. 243](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/243}  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -1051,7 +1051,7 @@
 		"description": [
 			"## Darksire Amulet",
 			"",
-			"**Source** [Advanced Race Guide pg. 173](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/173}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** 1 lb.",
 			"",
@@ -1068,7 +1068,7 @@
 		"description": [
 			"## Doomsday Key",
 			"",
-			"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 60](source/pathfinder_64_beyond_the_doomsday_door)  ",
+			"{SOURCE Pathfinder #64: Beyond the Doomsday Door/60}  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** neck (but see text); **Price** 9,000 gp; **Weight** 1 lb.",
 			"",
@@ -1090,7 +1090,7 @@
 		"description": [
 			"## Necklace of Adaptation",
 			"",
-			"**Source** [Ultimate Equipment pg. 259](source/ultimate_equipment), [PRPG Core Rulebook pg. 524](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/259;PRPG Core Rulebook/524}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** 1 lb.",
 			"",
@@ -1111,7 +1111,7 @@
 		"description": [
 			"## Scarf of Glorious Histories (Varisian)",
 			"",
-			"**Source** [Inner Sea Races pg. 233](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/233}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -1135,7 +1135,7 @@
 		"description": [
 			"## Shark Tooth Amulet",
 			"",
-			"**Source** [Advanced Race Guide pg. 178](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/178}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** -;",
 			"",
@@ -1152,7 +1152,7 @@
 		"description": [
 			"## Torc of Enmity",
 			"",
-			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 22](source/pathfinder_94_ice_tomb_of_the_giant_queen)  ",
+			"{SOURCE Pathfinder #94: Ice Tomb of the Giant Queen/22}  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** neck; **Price** 9,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1171,7 +1171,7 @@
 		"description": [
 			"## Amulet of Eldest's Blessing (Gnome)",
 			"",
-			"**Source** [Inner Sea Races pg. 228](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/228}  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1196,7 +1196,7 @@
 		"description": [
 			"## Amulet of Spell Cunning",
 			"",
-			"**Source** [Ultimate Equipment pg. 256](source/ultimate_equipment), [Advanced Player's Guide pg. 30](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/256;Advanced Player's Guide/30}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1213,7 +1213,7 @@
 		"description": [
 			"## Amulet of Water Parting",
 			"",
-			"**Source** [Merchant's Manifest pg. 9](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/9}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -1230,7 +1230,7 @@
 		"description": [
 			"## Amulet of Wind Defiance",
 			"",
-			"**Source** [Pathfinder #112: The Whisper Out of Time pg. 73](source/pathfinder_112_the_whisper_out_of_time)  ",
+			"{SOURCE Pathfinder #112: The Whisper Out of Time/73}  ",
 			"**Aura** moderate transmutation [air]; **CL** 9th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -1247,7 +1247,7 @@
 		"description": [
 			"## Collar of the True Companion",
 			"",
-			"**Source** [Ultimate Equipment pg. 257](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/257}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1268,7 +1268,7 @@
 		"description": [
 			"## Amulet of the Blooded",
 			"",
-			"**Source** [Advanced Class Guide pg. 222](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/222}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** neck; **Price** 10,000 gp (Destined), 10,000 gp (Fey), 12,000 gp (Abyssal), 12,000 gp (Accursed), 12,000 gp (Celestial), 12,000 gp (Draconic), 12,000 gp (Elemental), 12,000 gp (Infernal), 12,000 gp (Undead), 15,000 gp (Aberrant); **Weight** 1 lb.",
 			"",
@@ -1319,7 +1319,7 @@
 		"description": [
 			"## Eye of the Overwatched",
 			"",
-			"**Source** [Occult Realms pg. 6](source/occult_realms)  ",
+			"{SOURCE Occult Realms/6}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1350,7 +1350,7 @@
 		"description": [
 			"## Frost Fist Amulet",
 			"",
-			"**Source** [Ultimate Equipment pg. 258](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/258}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1367,7 +1367,7 @@
 		"description": [
 			"## Golden Holy Symbol",
 			"",
-			"**Source** [Mythic Adventures pg. 152](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/152}  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
 			"",
@@ -1386,7 +1386,7 @@
 		"description": [
 			"## Hexing Runes",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 30](source/dragonslayers_handbook)  ",
+			"{SOURCE Dragonslayer's Handbook/30}  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -1407,7 +1407,7 @@
 		"description": [
 			"## Locket of True and False Friends (Half-Elf)",
 			"",
-			"**Source** [Inner Sea Races pg. 232](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/232}  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -1431,7 +1431,7 @@
 		"description": [
 			"## Necklace of Air Adaptation",
 			"",
-			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 29](source/pathfinder_122_into_the_shattered_continent)  ",
+			"{SOURCE Pathfinder #122: Into the Shattered Continent/29}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -1456,7 +1456,7 @@
 		"description": [
 			"## Vishkanya Periapt",
 			"",
-			"**Source** [Villain Codex pg. 225](source/villain_codex)  ",
+			"{SOURCE Villain Codex/225}  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
@@ -1479,7 +1479,7 @@
 		"description": [
 			"## Beguiling Bangles",
 			"",
-			"**Source** [Faction Guide pg. 58](source/faction_guide)  ",
+			"{SOURCE Faction Guide/58}  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** neck; **Price** 11,000 gp; **Weight** -;",
 			"",
@@ -1506,7 +1506,7 @@
 		"description": [
 			"## Amulet of Channeled Life",
 			"",
-			"**Source** [Advanced Race Guide pg. 100](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/100}  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -1525,7 +1525,7 @@
 		"description": [
 			"## Amulet of Euphoric Healing",
 			"",
-			"**Source** [Champions of Corruption pg. 30](source/champions_of_corruption)  ",
+			"{SOURCE Champions of Corruption/30}  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
@@ -1562,7 +1562,7 @@
 		"description": [
 			"## Crest of the Fallen",
 			"",
-			"**Source** [Daughters of Fury pg. 58](source/daughters_of_fury)  ",
+			"{SOURCE Daughters of Fury/58}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** -;",
 			"",
@@ -1588,7 +1588,7 @@
 		"description": [
 			"## Crystal of Healing Hands",
 			"",
-			"**Source** [Ultimate Equipment pg. 257](source/ultimate_equipment), [Advanced Player's Guide pg. 303](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/257;Advanced Player's Guide/303}  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
@@ -1613,7 +1613,7 @@
 		"description": [
 			"## Emblem of Lost Lives",
 			"",
-			"**Source** [Disciple's Doctrine pg. 29](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/29}  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** -;",
 			"",
@@ -1630,7 +1630,7 @@
 		"description": [
 			"## Guardian Gorget",
 			"",
-			"**Source** [Ultimate Equipment pg. 258](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/258}  ",
 			"**Aura** strong abjuration and conjuration; **CL** 13th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
@@ -1647,7 +1647,7 @@
 		"description": [
 			"## Indomitable Jewel",
 			"",
-			"**Source** [Occult Adventures pg. 259](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/259}  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
@@ -1675,7 +1675,7 @@
 		"description": [
 			"## Medallion of Thoughts",
 			"",
-			"**Source** [Ultimate Equipment pg. 259](source/ultimate_equipment), [PRPG Core Rulebook pg. 523](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/259;PRPG Core Rulebook/523}  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** -;",
 			"",
@@ -1692,7 +1692,7 @@
 		"description": [
 			"## Monkey's Paw",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_39_the_city_of_seven_spears)  ",
+			"{SOURCE Pathfinder #39: The City of Seven Spears/56}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** -;",
 			"",
@@ -1709,7 +1709,7 @@
 		"description": [
 			"## Periapt of Protection from Curses",
 			"",
-			"**Source** [Ultimate Equipment pg. 260](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/260}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** -;",
 			"",
@@ -1726,7 +1726,7 @@
 		"description": [
 			"## Scarab of Mummy Defense",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_81_shifting_sands)  ",
+			"{SOURCE Pathfinder #81: Shifting Sands/59}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** -;",
 			"",
@@ -1743,7 +1743,7 @@
 		"description": [
 			"## Talisman of the Orc Mother's Fury",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 59](source/pathfinder_27_what_lies_in_dust)  ",
+			"{SOURCE Pathfinder #27: What Lies in Dust/59}  ",
 			"**Aura** faint conjuration; **CL** 4th  ",
 			"**Slot** neck; **Price** 12,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1772,7 +1772,7 @@
 		"description": [
 			"## Forge Fist Amulet",
 			"",
-			"**Source** [Ultimate Equipment pg. 258](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/258}  ",
 			"**Aura** faint evocation; **CL** 6th  ",
 			"**Slot** neck; **Price** 13,000 gp; **Weight** 1 lb.",
 			"",
@@ -1789,7 +1789,7 @@
 		"description": [
 			"## Guiding Scarab",
 			"",
-			"**Source** [Ultimate Wilderness pg. 251](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/251}  ",
 			"**Aura** strong divination; **CL** 12th  ",
 			"**Slot** neck; **Price** 13,000 gp; **Weight** -;",
 			"",
@@ -1808,7 +1808,7 @@
 		"description": [
 			"## Collar of Unliving Servitude",
 			"",
-			"**Source** [Champions of Corruption pg. 30](source/champions_of_corruption)  ",
+			"{SOURCE Champions of Corruption/30}  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** neck; **Price** 14,000 gp; **Weight** 1 lb.",
 			"",
@@ -1825,7 +1825,7 @@
 		"description": [
 			"## Dire Collar, Greater",
 			"",
-			"**Source** [Advanced Class Guide pg. 229](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/229}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** neck; **Price** 14,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1845,7 +1845,7 @@
 		"description": [
 			"## Fangwood Clasp",
 			"",
-			"**Source** [Advanced Class Origins pg. 28](source/advanced_class_origins)  ",
+			"{SOURCE Advanced Class Origins/28}  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** neck; **Price** 14,000 gp; **Weight** 1 lb.",
 			"",
@@ -1869,7 +1869,7 @@
 		"description": [
 			"## Amulet of the Abyss",
 			"",
-			"**Source** [Book of the Damned pg. 195](source/book_of_the_damned), [Book of the Damned - Volume 2: Lords of Chaos pg. 49](source/book_of_the_damned_-_volume_2_lords_of_chaos)  ",
+			"{SOURCE Book of the Damned/195;Book of the Damned - Volume 2: Lords of Chaos/49}  ",
 			"**Aura** faint conjuration [chaotic, evil]; **CL** 5th  ",
 			"**Slot** neck; **Price** 15,000 gp; **Weight** -;",
 			"",
@@ -1886,7 +1886,7 @@
 		"description": [
 			"## Amulet of Undead Persuasion (Dhampir)",
 			"",
-			"**Source** [Inner Sea Races pg. 228](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/228}  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** neck; **Price** 15,000 gp; **Weight** 1 lb.",
 			"",
@@ -1908,7 +1908,7 @@
 		"description": [
 			"## Gorget of Living Whispers",
 			"",
-			"**Source** [Tears at Bitter Manor pg. 54](source/tears_at_bitter_manor)  ",
+			"{SOURCE Tears at Bitter Manor/54}  ",
 			"**Aura** moderate conjuration and enchantment; **CL** 9th  ",
 			"**Slot** neck; **Price** 15,000 gp; **Weight** -;",
 			"",
@@ -1928,7 +1928,7 @@
 		"description": [
 			"## Periapt of Wound Closure",
 			"",
-			"**Source** [Ultimate Equipment pg. 261](source/ultimate_equipment), [PRPG Core Rulebook pg. 525](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/261;PRPG Core Rulebook/525}  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** neck; **Price** 15,000 gp; **Weight** -;",
 			"",
@@ -1948,7 +1948,7 @@
 		"description": [
 			"## Necklace of Ki Serenity",
 			"",
-			"**Source** [Ultimate Equipment pg. 260](source/ultimate_equipment), [Advanced Player's Guide pg. 308](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/260;Advanced Player's Guide/308}  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** neck; **Price** 16,000 gp; **Weight** -;",
 			"",
@@ -1965,7 +1965,7 @@
 		"description": [
 			"## Saffron Slave Collar",
 			"",
-			"**Source** [Ships of the Inner Sea pg. 11](source/ships_of_the_inner_sea)  ",
+			"{SOURCE Ships of the Inner Sea/11}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** neck; **Price** 16,000 gp; **Weight** 2 lbs.",
 			"",
@@ -1982,7 +1982,7 @@
 		"description": [
 			"## Serpentine Choker",
 			"",
-			"**Source** [Monster Codex pg. 201](source/monster_codex)  ",
+			"{SOURCE Monster Codex/201}  ",
 			"**Aura** moderate enchantment and necromancy; **CL** 11th  ",
 			"**Slot** neck; **Price** 16,000 gp; **Weight** -;",
 			"",
@@ -2001,7 +2001,7 @@
 		"description": [
 			"## Eye of Brokerage",
 			"",
-			"**Source** [Champions of Balance pg. 28](source/champions_of_balance)  ",
+			"{SOURCE Champions of Balance/28}  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** neck; **Price** 16,550 gp; **Weight** 1/2 lb.",
 			"",
@@ -2018,7 +2018,7 @@
 		"description": [
 			"## Brooch of Amber Sparks",
 			"",
-			"**Source** [Ultimate Equipment pg. 256](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/256}  ",
 			"**Aura** faint abjuration and evocation; **CL** 5th  ",
 			"**Slot** neck; **Price** 16,800 gp; **Weight** 1 lb.",
 			"",
@@ -2035,7 +2035,7 @@
 		"description": [
 			"## Roc Rider Badge",
 			"",
-			"**Source** [Pathfinder #96: Shadow of the Storm Tyrant pg. 53](source/pathfinder_96_shadow_of_the_storm_tyrant)  ",
+			"{SOURCE Pathfinder #96: Shadow of the Storm Tyrant/53}  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** neck; **Price** 17,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2052,7 +2052,7 @@
 		"description": [
 			"## Symbol of Sanguine Protection",
 			"",
-			"**Source** [Ultimate Equipment pg. 261](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/261}  ",
 			"**Aura** faint transmutation; **CL** 6th  ",
 			"**Slot** neck; **Price** 17,500 gp; **Weight** 1 lb.",
 			"",
@@ -2071,7 +2071,7 @@
 		"description": [
 			"## Gallows Rope",
 			"",
-			"**Source** [Mythic Adventures pg. 151](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/151}  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** neck; **Price** 18,000 gp; **Weight** 4 lbs.",
 			"",
@@ -2088,7 +2088,7 @@
 		"description": [
 			"## Beast Talisman",
 			"",
-			"**Source** [People of the Wastes pg. 30](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/30}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** neck; **Price** 18,900 gp; **Weight** -;",
 			"",
@@ -2105,7 +2105,7 @@
 		"description": [
 			"## Ampoule of False Blood",
 			"",
-			"**Source** [Ultimate Equipment pg. 254](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/254}  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** -;",
 			"",
@@ -2129,7 +2129,7 @@
 		"description": [
 			"## Amulet of Magecraft",
 			"",
-			"**Source** [Ultimate Equipment pg. 255](source/ultimate_equipment), [Advanced Player's Guide pg. 300](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/255;Advanced Player's Guide/300}  ",
 			"**Aura** moderate universal; **CL** 9th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** 2 lbs.",
 			"",
@@ -2149,7 +2149,7 @@
 		"description": [
 			"## Charm of Aluum Control",
 			"",
-			"**Source** [Inner Sea World Guide pg. 298](source/inner_sea_world_guide), [Dark Markets - A Guide to Katapesh pg. 59](source/dark_markets_-_a_guide_to_katapesh)  ",
+			"{SOURCE Inner Sea World Guide/298;Dark Markets - A Guide to Katapesh/59}  ",
 			"**Aura** moderate transmutation; **CL** 20th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** -;",
 			"",
@@ -2166,7 +2166,7 @@
 		"description": [
 			"## Dragonfoe Amulet",
 			"",
-			"**Source** [Ultimate Equipment pg. 257](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/257}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** 1 lb.",
 			"",
@@ -2185,7 +2185,7 @@
 		"description": [
 			"## Halflight Charm (Greater)",
 			"",
-			"**Source** [Pathfinder #63: The Asylum Stone pg. 58](source/pathfinder_63_the_asylum_stone)  ",
+			"{SOURCE Pathfinder #63: The Asylum Stone/58}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** -;",
 			"",
@@ -2207,7 +2207,7 @@
 		"description": [
 			"## Noose of Terminal Embrace",
 			"",
-			"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 63](source/pathfinder_77_herald_of_the_ivory_labyrinth)  ",
+			"{SOURCE Pathfinder #77: Herald of the Ivory Labyrinth/63}  ",
 			"**Aura** strong conjuration and transmutation; **CL** 15th  ",
 			"**Slot** neck; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2228,7 +2228,7 @@
 		"description": [
 			"## Hand of Abendego",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 56](source/pathfinder_27_what_lies_in_dust)  ",
+			"{SOURCE Pathfinder #27: What Lies in Dust/56}  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** neck; **Price** 20,258 gp; **Weight** 2 lbs.",
 			"",
@@ -2245,7 +2245,7 @@
 		"description": [
 			"## Amulet of Grasping Souls",
 			"",
-			"**Source** [Tears at Bitter Manor pg. 54](source/tears_at_bitter_manor)  ",
+			"{SOURCE Tears at Bitter Manor/54}  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** neck; **Price** 21,000 gp; **Weight** -;",
 			"",
@@ -2264,7 +2264,7 @@
 		"description": [
 			"## Amulet of Spell Mastery",
 			"",
-			"**Source** [Ultimate Equipment pg. 256](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/256}  ",
 			"**Aura** strong transmutation; **CL** 11th  ",
 			"**Slot** neck; **Price** 22,000 gp; **Weight** 1 lb.",
 			"",
@@ -2281,7 +2281,7 @@
 		"description": [
 			"## Eye of Horus Amulet",
 			"",
-			"**Source** [Pathfinder #82: Secrets of the Sphinx pg. 62](source/pathfinder_82_secrets_of_the_sphinx)  ",
+			"{SOURCE Pathfinder #82: Secrets of the Sphinx/62}  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 23,000 gp; **Weight** -;",
 			"",
@@ -2302,7 +2302,7 @@
 		"description": [
 			"## Cartouche of Distinctive Warding",
 			"",
-			"**Source** [Pathfinder #84: Pyramid of the Sky Pharaoh pg. 60](source/pathfinder_84_pyramid_of_the_sky_pharaoh)  ",
+			"{SOURCE Pathfinder #84: Pyramid of the Sky Pharaoh/60}  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** neck; **Price** 24,000 gp; **Weight** -;",
 			"",
@@ -2325,7 +2325,7 @@
 		"description": [
 			"## Cloud Engineer Badge",
 			"",
-			"**Source** [Pathfinder #96: Shadow of the Storm Tyrant pg. 28](source/pathfinder_96_shadow_of_the_storm_tyrant)  ",
+			"{SOURCE Pathfinder #96: Shadow of the Storm Tyrant/28}  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** neck; **Price** 24,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2342,7 +2342,7 @@
 		"description": [
 			"## Amulet of Primal Mastery",
 			"",
-			"**Source** [Wardens of the Reborn Forge pg. 38](source/wardens_of_the_reborn_forge)  ",
+			"{SOURCE Wardens of the Reborn Forge/38}  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** neck; **Price** 24,200 gp; **Weight** -;",
 			"",
@@ -2359,7 +2359,7 @@
 		"description": [
 			"## Slave Collar",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 63](source/pathfinder_65_into_the_nightmare_rift)  ",
+			"{SOURCE Pathfinder #65: Into the Nightmare Rift/63}  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** neck; **Price** 25,000 gp; **Weight** 1 lb.",
 			"",
@@ -2376,7 +2376,7 @@
 		"description": [
 			"## Hand of Stone",
 			"",
-			"**Source** [Ultimate Equipment pg. 259](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/259}  ",
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** neck; **Price** 27,000 gp; **Weight** 2 lbs.",
 			"",
@@ -2396,7 +2396,7 @@
 		"description": [
 			"## Periapt of Proof against Poison",
 			"",
-			"**Source** [Ultimate Equipment pg. 260](source/ultimate_equipment), [PRPG Core Rulebook pg. 525](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/260;PRPG Core Rulebook/525}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 27,000 gp; **Weight** -;",
 			"",
@@ -2413,7 +2413,7 @@
 		"description": [
 			"## Amulet of Quaking Strikes",
 			"",
-			"**Source** [Melee Tactics Toolbox pg. 28](source/melee_tactics_toolbox)  ",
+			"{SOURCE Melee Tactics Toolbox/28}  ",
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** neck; **Price** 28,000 gp; **Weight** -;",
 			"",
@@ -2430,7 +2430,7 @@
 		"description": [
 			"## Mothman Memento",
 			"",
-			"**Source** [Mystery Monsters Revisited pg. 31](source/mystery_monsters_revisited)  ",
+			"{SOURCE Mystery Monsters Revisited/31}  ",
 			"**Aura** strong enchantment, illusion, and necromancy; **CL** 12th  ",
 			"**Slot** neck; **Price** 28,800 gp; **Weight** -;",
 			"",
@@ -2449,7 +2449,7 @@
 		"description": [
 			"## Medallion of Demonic Disruption",
 			"",
-			"**Source** [People of the Wastes pg. 30](source/people_of_the_wastes)  ",
+			"{SOURCE People of the Wastes/30}  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** neck; **Price** 32,000 gp; **Weight** 1 lb.",
 			"",
@@ -2466,7 +2466,7 @@
 		"description": [
 			"## Periapt of Utter Devotion",
 			"",
-			"**Source** [Villain Codex pg. 213](source/villain_codex)  ",
+			"{SOURCE Villain Codex/213}  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** neck; **Price** 33,000 gp; **Weight** -;",
 			"",
@@ -2483,7 +2483,7 @@
 		"description": [
 			"## Masters' Call",
 			"",
-			"**Source** [Inner Sea Monster Codex pg. 29](source/inner_sea_monster_codex)  ",
+			"{SOURCE Inner Sea Monster Codex/29}  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** neck; **Price** 34,000 gp; **Weight** -;",
 			"",
@@ -2505,7 +2505,7 @@
 		"description": [
 			"## Amulet of Proof against Detection and Location",
 			"",
-			"**Source** [Ultimate Equipment pg. 256](source/ultimate_equipment), [PRPG Core Rulebook pg. 500](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/256;PRPG Core Rulebook/500}  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 35,000 gp; **Weight** -;",
 			"",
@@ -2522,7 +2522,7 @@
 		"description": [
 			"## Necklace of Spectral Strikes",
 			"",
-			"**Source** [Mythic Adventures pg. 154](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/154}  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** neck; **Price** 35,500 gp; **Weight** -;",
 			"",
@@ -2541,7 +2541,7 @@
 		"description": [
 			"## Amulet of the Storm",
 			"",
-			"**Source** [Adventurer's Guide pg. 184](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/184}  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** neck; **Price** 36,000 gp; **Weight** -;",
 			"",
@@ -2562,7 +2562,7 @@
 		"description": [
 			"## Necklace of Lovelies",
 			"",
-			"**Source** [Pathfinder #36: Sound of a Thousand Screams pg. 21](source/pathfinder_36_sound_of_a_thousand_screams)  ",
+			"{SOURCE Pathfinder #36: Sound of a Thousand Screams/21}  ",
 			"**Aura** abjuration (evil); **CL** 17th  ",
 			"**Slot** neck; **Price** 36,000 gp; **Weight** 4 lbs.",
 			"",
@@ -2586,7 +2586,7 @@
 		"description": [
 			"## Scarab of Protection",
 			"",
-			"**Source** [Ultimate Equipment pg. 261](source/ultimate_equipment), [PRPG Core Rulebook pg. 529](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/261;PRPG Core Rulebook/529}  ",
 			"**Aura** strong abjuration and necromancy; **CL** 18th  ",
 			"**Slot** neck; **Price** 38,000 gp; **Weight** -;",
 			"",
@@ -2605,7 +2605,7 @@
 		"description": [
 			"## Rimeheart Amulet",
 			"",
-			"**Source** [Ships of the Inner Sea pg. 45](source/ships_of_the_inner_sea)  ",
+			"{SOURCE Ships of the Inner Sea/45}  ",
 			"**Aura** strong abjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 40,000 gp; **Weight** -;",
 			"",
@@ -2622,7 +2622,7 @@
 		"description": [
 			"## Necklace of Netted Stars",
 			"",
-			"**Source** [Ultimate Equipment pg. 260](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/260}  ",
 			"**Aura** strong illusion and transmutation; **CL** 12th  ",
 			"**Slot** neck; **Price** 42,000 gp; **Weight** -;",
 			"",
@@ -2641,7 +2641,7 @@
 		"description": [
 			"## Amulet of Radiation Absorption",
 			"",
-			"**Source** [Heroes of the Darklands pg. 30](source/heroes_of_the_darklands)  ",
+			"{SOURCE Heroes of the Darklands/30}  ",
 			"**Aura** moderate abjuration and conjuration; **CL** 10th  ",
 			"**Slot** neck; **Price** 45,000 gp; **Weight** 1 lb.",
 			"",
@@ -2666,7 +2666,7 @@
 		"description": [
 			"## Iron Collar of the Unbound Coven",
 			"",
-			"**Source** [Advanced Class Guide pg. 231](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/231}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** neck; **Price** 46,000 gp; **Weight** 2 lbs.",
 			"",
@@ -2689,7 +2689,7 @@
 		"description": [
 			"## Iron Road",
 			"",
-			"**Source** [Lost Treasures pg. 35](source/lost_treasures)  ",
+			"{SOURCE Lost Treasures/35}  ",
 			"**Aura** strong conjuration; **CL** 18th  ",
 			"**Slot** neck; **Price** 50,000 gp; **Weight** -;",
 			"",
@@ -2710,7 +2710,7 @@
 		"description": [
 			"## Star Cinder",
 			"",
-			"**Source** [Daughters of Fury pg. 63](source/daughters_of_fury)  ",
+			"{SOURCE Daughters of Fury/63}  ",
 			"**Aura** strong abjuration; **CL** 12th  ",
 			"**Slot** neck; **Price** 50,000 gp; **Weight** 4 lbs.",
 			"",
@@ -2729,7 +2729,7 @@
 		"description": [
 			"## Zoic of the Primeval",
 			"",
-			"**Source** [Lost Treasures pg. 63](source/lost_treasures)  ",
+			"{SOURCE Lost Treasures/63}  ",
 			"**Aura** strong enchantment (compulsion); **CL** 17th  ",
 			"**Slot** neck; **Price** 50,000 gp; **Weight** 1 lb.",
 			"",
@@ -2748,7 +2748,7 @@
 		"description": [
 			"## Agent's Clasp (Taldan)",
 			"",
-			"**Source** [Inner Sea Races pg. 228](source/inner_sea_races)  ",
+			"{SOURCE Inner Sea Races/228}  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** neck; **Price** 60,000 gp; **Weight** -;",
 			"",
@@ -2772,7 +2772,7 @@
 		"description": [
 			"## Torc of Truespeech",
 			"",
-			"**Source** [Mythic Adventures pg. 157](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/157}  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** neck; **Price** 60,000 gp; **Weight** 2 lbs.",
 			"",
@@ -2789,7 +2789,7 @@
 		"description": [
 			"## Sanguine Talisman of Sheel Leroung",
 			"",
-			"**Source** [Hell Unleashed pg. 45](source/hell_unleashed)  ",
+			"{SOURCE Hell Unleashed/45}  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** neck; **Price** 67,500 gp; **Weight** -;",
 			"",
@@ -2806,7 +2806,7 @@
 		"description": [
 			"## Whispering Amulet",
 			"",
-			"**Source** [Demons Revisited pg. 18](source/demons_revisited)  ",
+			"{SOURCE Demons Revisited/18}  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** neck; **Price** 70,000 gp; **Weight** -;",
 			"",
@@ -2823,7 +2823,7 @@
 		"description": [
 			"## Shrunken Head",
 			"",
-			"**Source** [Occult Adventures pg. 262](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/262}  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** none or neck; **Price** 90,000 gp; **Weight** 1 lb.",
 			"",
@@ -2842,7 +2842,7 @@
 		"description": [
 			"## Phlegmatic Talisman",
 			"",
-			"**Source** [Pathfinder #105: The Inferno Gate pg. 23](source/pathfinder_105_the_inferno_gate)  ",
+			"{SOURCE Pathfinder #105: The Inferno Gate/23}  ",
 			"**Aura** strong conjuration; **CL** 12th  ",
 			"**Slot** neck; **Price** 96,000 gp; **Weight** -;",
 			"",
@@ -2865,7 +2865,7 @@
 		"description": [
 			"## Choker of the Rough Beast",
 			"",
-			"**Source** [Inner Sea Combat pg. 58](source/inner_sea_combat)  ",
+			"{SOURCE Inner Sea Combat/58}  ",
 			"**Aura** strong abjuration and conjuration; **CL** 20th  ",
 			"**Slot** neck; **Price** 100,000 gp; **Weight** 1 lb.",
 			"",
@@ -2889,7 +2889,7 @@
 		"description": [
 			"## Amulet of the Planes",
 			"",
-			"**Source** [Ultimate Equipment pg. 256](source/ultimate_equipment), [PRPG Core Rulebook pg. 500](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/256;PRPG Core Rulebook/500}  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** neck; **Price** 120,000 gp; **Weight** -;",
 			"",
@@ -2906,7 +2906,7 @@
 		"description": [
 			"## Necklace of Ensured Return",
 			"",
-			"**Source** [Merchant's Manifest pg. 19](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/19}  ",
 			"**Aura** strong necromancy; **CL** 18th  ",
 			"**Slot** neck; **Price** 120,000 gp; **Weight** 1 lb.",
 			"",
@@ -2927,7 +2927,7 @@
 		"description": [
 			"## Necklace of Construct Aversion",
 			"",
-			"**Source** [Construct Handbook pg. 19](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/19}  ",
 			"**Aura** moderate divination and enchantment; **CL** 11th  ",
 			"**Slot** neck; **Price** 132,000 gp; **Weight** 1 lb.",
 			"",
@@ -2947,7 +2947,7 @@
 		"description": [
 			"## Hex Nail",
 			"",
-			"**Source** [Reign of Winter Player's Guide pg. 6](source/reign_of_winter_players_guide), [People of the North pg. 29](source/people_of_the_north)  ",
+			"{SOURCE Reign of Winter Player's Guide/6;People of the North/29}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 20 gp; **Weight** -;",
 			"",
@@ -2964,7 +2964,7 @@
 		"description": [
 			"## Riffle Scroll",
 			"",
-			"**Source** [Inner Sea Magic pg. 14](source/inner_sea_magic)  ",
+			"{SOURCE Inner Sea Magic/14}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 25 gp (Cantrip), 150 gp (1st-level Spell), 375 gp (2nd-Level Spell), 700 gp (3rd-Level Spell), 1,125 gp (4th-Level Spell), 1,650 gp (5th-Level Spell), 2,275 gp (6th-Level Spell), 3,000 gp (7th-Level Spell), 3,825 gp (8th-Level Spell); **Weight** 1 lb.",
 			"",
@@ -2991,7 +2991,7 @@
 		"description": [
 			"## Caltrop Bead",
 			"",
-			"**Source** [Demon Hunter's Handbook pg. 28](source/demon_hunters_handbook)  ",
+			"{SOURCE Demon Hunter's Handbook/28}  ",
 			"**Aura** faint conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 40 gp (Iron), 80 gp (Cold Iron); **Weight** 2 lbs.",
 			"",
@@ -3014,7 +3014,7 @@
 		"description": [
 			"## Feather Tokens",
 			"",
-			"**Source** [Ultimate Equipment pg. 297](source/ultimate_equipment), [PRPG Core Rulebook pg. 512](source/prpg_core_rulebook), [Andoran, Spirit of Liberty pg. 26](source/andoran_spirit_of_liberty), [Inner Sea Combat pg. 59](source/inner_sea_combat), [Pathfinder Society Primer pg. 24](source/pathfinder_society_primer)  ",
+			"{SOURCE Ultimate Equipment/297;PRPG Core Rulebook/512;Andoran, Spirit of Liberty/26;Inner Sea Combat/59;Pathfinder Society Primer/24}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** -; **Price** 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp (Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower); **Weight** 1 lb.",
 			"",
@@ -3063,7 +3063,7 @@
 		"description": [
 			"## Truecolor Dye",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 34](source/pathfinder_27_what_lies_in_dust)  ",
+			"{SOURCE Pathfinder #27: What Lies in Dust/34}  ",
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 50 gp; **Weight** -;",
 			"",
@@ -3087,7 +3087,7 @@
 		"description": [
 			"## Universal Solvent",
 			"",
-			"**Source** [Ultimate Equipment pg. 324](source/ultimate_equipment), [PRPG Core Rulebook pg. 532](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/324;PRPG Core Rulebook/532}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 50 gp; **Weight** -;",
 			"",
@@ -3104,7 +3104,7 @@
 		"description": [
 			"## Wound Paste",
 			"",
-			"**Source** [Advanced Race Guide pg. 125](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/125}  ",
 			"**Aura** faint conjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 50 gp; **Weight** 1/2 lb.",
 			"",
@@ -3121,7 +3121,7 @@
 		"description": [
 			"## Devil's Spit",
 			"",
-			"**Source** [Villain Codex pg. 92](source/villain_codex)  ",
+			"{SOURCE Villain Codex/92}  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 60 gp; **Weight** -;",
 			"",
@@ -3143,7 +3143,7 @@
 		"description": [
 			"## Ioun Torch",
 			"",
-			"**Source** [Ultimate Equipment pg. 305](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/305;Advanced Player's Guide/306}  ",
 			"**Aura** strong universal; **CL** 12th  ",
 			"**Slot** none; **Price** 75 gp; **Weight** -;",
 			"",
@@ -3167,7 +3167,7 @@
 		"description": [
 			"## Raucous Canard",
 			"",
-			"**Source** [Ultimate Intrigue pg. 251](source/ultimate_intrigue), [Taldor, Echoes of Glory pg. 27](source/taldor_echoes_of_glory)  ",
+			"{SOURCE Ultimate Intrigue/251;Taldor, Echoes of Glory/27}  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 100 gp; **Weight** -;",
 			"",
@@ -3184,7 +3184,7 @@
 		"description": [
 			"## Stubborn Nail",
 			"",
-			"**Source** [Ultimate Equipment pg. 322](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/322}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 100 gp; **Weight** 1/2 lb.",
 			"",
@@ -3204,7 +3204,7 @@
 		"description": [
 			"## War Paint of the Terrible Visage",
 			"",
-			"**Source** [Ultimate Equipment pg. 324](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/324;Advanced Player's Guide/310}  ",
 			"**Aura** faint necromancy; **CL** 1st  ",
 			"**Slot** none; **Price** 100 gp; **Weight** -;",
 			"",
@@ -3221,7 +3221,7 @@
 		"description": [
 			"## Glittering Trinket",
 			"",
-			"**Source** [Ultimate Intrigue pg. 247](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/247}  ",
 			"**Aura** faint illusion; **CL** 1st  ",
 			"**Slot** none; **Price** 120 gp; **Weight** 1/2 lb.",
 			"",
@@ -3245,7 +3245,7 @@
 		"description": [
 			"## Brastlewark Brew",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 52](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/52}  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** none; **Price** 150 gp; **Weight** 1 lb.",
 			"",
@@ -3262,7 +3262,7 @@
 		"description": [
 			"## Elixir of Last Will",
 			"",
-			"**Source** [Tears at Bitter Manor pg. 54](source/tears_at_bitter_manor)  ",
+			"{SOURCE Tears at Bitter Manor/54}  ",
 			"**Aura** faint necromancy; **CL** 1st  ",
 			"**Slot** none; **Price** 150 gp; **Weight** -;",
 			"",
@@ -3284,7 +3284,7 @@
 		"description": [
 			"## Elixir of Love",
 			"",
-			"**Source** [Ultimate Equipment pg. 295](source/ultimate_equipment), [PRPG Core Rulebook pg. 511](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/295;PRPG Core Rulebook/511}  ",
 			"**Aura** faint enchantment; **CL** 4th  ",
 			"**Slot** none; **Price** 150 gp; **Weight** -;",
 			"",
@@ -3301,7 +3301,7 @@
 		"description": [
 			"## Elixir of Repression",
 			"",
-			"**Source** [Champions of Corruption pg. 31](source/champions_of_corruption)  ",
+			"{SOURCE Champions of Corruption/31}  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** none; **Price** 150 gp; **Weight** -;",
 			"",
@@ -3318,7 +3318,7 @@
 		"description": [
 			"## Lady's Mercy",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_139_the_dead_road)  ",
+			"{SOURCE Pathfinder #139: The Dead Road/64}  ",
 			"**Aura** faint conjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 150 gp; **Weight** -;",
 			"",
@@ -3342,7 +3342,7 @@
 		"description": [
 			"## Unguent of Timelessness",
 			"",
-			"**Source** [Ultimate Equipment pg. 324](source/ultimate_equipment), [PRPG Core Rulebook pg. 531](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/324;PRPG Core Rulebook/531}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 150 gp; **Weight** -;",
 			"",
@@ -3362,7 +3362,7 @@
 		"description": [
 			"## Bottled Sunlight",
 			"",
-			"**Source** [Ultimate Wilderness pg. 25](source/ultimate_wilderness), [Heroes of the Darklands pg. 10](source/heroes_of_the_darklands)  ",
+			"{SOURCE Ultimate Wilderness/25;Heroes of the Darklands/10}  ",
 			"**Aura** faint evocation; **CL** 1st  ",
 			"**Slot** none; **Price** 200 gp; **Weight** -;",
 			"",
@@ -3383,7 +3383,7 @@
 		"description": [
 			"## Formula Alembic",
 			"",
-			"**Source** [Ultimate Equipment pg. 299](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/299}  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 200 gp; **Weight** 2 lbs.",
 			"",
@@ -3402,7 +3402,7 @@
 		"description": [
 			"## Hybridization Funnel",
 			"",
-			"**Source** [Ultimate Equipment pg. 304](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/304}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 200 gp; **Weight** 2 lbs.",
 			"",
@@ -3426,7 +3426,7 @@
 		"description": [
 			"## Soul Soap",
 			"",
-			"**Source** [Ultimate Equipment pg. 320](source/ultimate_equipment), [Advanced Player's Guide pg. 309](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/320;Advanced Player's Guide/309}  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 200 gp; **Weight** 2 lbs.",
 			"",
@@ -3443,7 +3443,7 @@
 		"description": [
 			"## Trollbane Blanch",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 29](source/giant_hunters_handbook)  ",
+			"{SOURCE Giant Hunter's Handbook/29}  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 200 gp; **Weight** -;",
 			"",
@@ -3460,7 +3460,7 @@
 		"description": [
 			"## Clandestine Voucher",
 			"",
-			"**Source** [Villain Codex pg. 225](source/villain_codex)  ",
+			"{SOURCE Villain Codex/225}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3481,7 +3481,7 @@
 		"description": [
 			"## Corpse Puppet",
 			"",
-			"**Source** [Blood of the Moon pg. 31](source/blood_of_the_moon)  ",
+			"{SOURCE Blood of the Moon/31}  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3498,7 +3498,7 @@
 		"description": [
 			"## Dust of Hex Hiding",
 			"",
-			"**Source** [Adventurer's Guide pg. 36](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/36}  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3520,7 +3520,7 @@
 		"description": [
 			"## Dust of Tracelessness",
 			"",
-			"**Source** [Ultimate Equipment pg. 294](source/ultimate_equipment), [PRPG Core Rulebook pg. 510](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/294;PRPG Core Rulebook/510}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3542,7 +3542,7 @@
 		"description": [
 			"## Elixir of Hiding",
 			"",
-			"**Source** [Ultimate Equipment pg. 295](source/ultimate_equipment), [PRPG Core Rulebook pg. 511](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/295;PRPG Core Rulebook/511}  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3562,7 +3562,7 @@
 		"description": [
 			"## Elixir of Swimming",
 			"",
-			"**Source** [Ultimate Equipment pg. 295](source/ultimate_equipment), [PRPG Core Rulebook pg. 511](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/295;PRPG Core Rulebook/511}  ",
 			"**Aura** faint transmutation; **CL** 2nd  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3579,7 +3579,7 @@
 		"description": [
 			"## Elixir of the Thundering Voice",
 			"",
-			"**Source** [Advanced Class Guide pg. 229](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/229}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3599,7 +3599,7 @@
 		"description": [
 			"## Elixir of Tumbling",
 			"",
-			"**Source** [Ultimate Equipment pg. 295](source/ultimate_equipment), [PRPG Core Rulebook pg. 512](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/295;PRPG Core Rulebook/512}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3619,7 +3619,7 @@
 		"description": [
 			"## Elixir of Vision",
 			"",
-			"**Source** [Ultimate Equipment pg. 295](source/ultimate_equipment), [PRPG Core Rulebook pg. 512](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/295;PRPG Core Rulebook/512}  ",
 			"**Aura** faint divination; **CL** 2nd  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3636,7 +3636,7 @@
 		"description": [
 			"## Gourd of Fire Burping",
 			"",
-			"**Source** [We Be Goblins Too! pg. 12](source/we_be_goblins_too)  ",
+			"{SOURCE We Be Goblins Too!/12}  ",
 			"**Aura** faint evocation; **CL** 4th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3653,7 +3653,7 @@
 		"description": [
 			"## Nightdrops",
 			"",
-			"**Source** [Ultimate Equipment pg. 312](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/312}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3670,7 +3670,7 @@
 		"description": [
 			"## Nightmare Tears",
 			"",
-			"**Source** [Lost Cities of Golarion pg. 62](source/lost_cities_of_golarion)  ",
+			"{SOURCE Lost Cities of Golarion/62}  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3692,7 +3692,7 @@
 		"description": [
 			"## Oil of Silence",
 			"",
-			"**Source** [Ultimate Equipment pg. 313](source/ultimate_equipment), [Ultimate Combat pg. 143](source/ultimate_combat)  ",
+			"{SOURCE Ultimate Equipment/313;Ultimate Combat/143}  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3709,7 +3709,7 @@
 		"description": [
 			"## Palelight Torch",
 			"",
-			"**Source** [Blood of Shadows pg. 21](source/blood_of_shadows)  ",
+			"{SOURCE Blood of Shadows/21}  ",
 			"**Aura** faint evocation; **CL** 2nd  ",
 			"**Slot** none; **Price** 250 gp; **Weight** 1 lb.",
 			"",
@@ -3726,7 +3726,7 @@
 		"description": [
 			"## Platter of Exquisite Feasting",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 55](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/55}  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 250 gp; **Weight** 1 lb.",
 			"",
@@ -3746,7 +3746,7 @@
 		"description": [
 			"## Silversheen",
 			"",
-			"**Source** [Ultimate Equipment pg. 319](source/ultimate_equipment), [PRPG Core Rulebook pg. 529](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/319;PRPG Core Rulebook/529}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
@@ -3763,7 +3763,7 @@
 		"description": [
 			"## Traveler's Any-Tool",
 			"",
-			"**Source** [Ultimate Equipment pg. 323](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/323}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** 2 lbs.",
 			"",
@@ -3788,7 +3788,7 @@
 		"description": [
 			"## Accent Pill",
 			"",
-			"**Source** [Ultimate Intrigue pg. 243](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/243}  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 300 gp; **Weight** -;",
 			"",
@@ -3812,7 +3812,7 @@
 		"description": [
 			"## Bottle of Messages",
 			"",
-			"**Source** [Ultimate Equipment pg. 284](source/ultimate_equipment), [Advanced Player's Guide pg. 300](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/284;Advanced Player's Guide/300}  ",
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** none; **Price** 300 gp; **Weight** 1 lb.",
 			"",
@@ -3829,7 +3829,7 @@
 		"description": [
 			"## Caber Twig",
 			"",
-			"**Source** [Seers of the Drowned City pg. 52](source/seers_of_the_drowned_city)  ",
+			"{SOURCE Seers of the Drowned City/52}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 300 gp; **Weight** 4 lbs.",
 			"",
@@ -3854,7 +3854,7 @@
 		"description": [
 			"## Escape Dust",
 			"",
-			"**Source** [Advanced Race Guide pg. 67](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/67}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 300 gp; **Weight** -;",
 			"",
@@ -3871,7 +3871,7 @@
 		"description": [
 			"## Jumping Cinder",
 			"",
-			"**Source** [Goblins of Golarion pg. 29](source/goblins_of_golarion)  ",
+			"{SOURCE Goblins of Golarion/29}  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 300 gp; **Weight** 1 lb.",
 			"",
@@ -3888,7 +3888,7 @@
 		"description": [
 			"## Root of the World Tree",
 			"",
-			"**Source** [Mythic Adventures pg. 156](source/mythic_adventures)  ",
+			"{SOURCE Mythic Adventures/156}  ",
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 300 gp (Lesser), 1,000 gp (Normal), 2,500 gp (Greater); **Weight** -;",
 			"",
@@ -3908,7 +3908,7 @@
 		"description": [
 			"## Origami Swarm",
 			"",
-			"**Source** [Ultimate Equipment pg. 314](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/314}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 300 gp; **Weight** -;",
 			"",
@@ -3925,7 +3925,7 @@
 		"description": [
 			"## Shrinking Berries",
 			"",
-			"**Source** [Ultimate Wilderness pg. 25](source/ultimate_wilderness)  ",
+			"{SOURCE Ultimate Wilderness/25}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 300 gp; **Weight** -;",
 			"",
@@ -3942,7 +3942,7 @@
 		"description": [
 			"## Trapped Beverage",
 			"",
-			"**Source** [Kobolds of Golarion pg. 31](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/31}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 300 gp; **Weight** 2 lbs.",
 			"",
@@ -3959,7 +3959,7 @@
 		"description": [
 			"## Unguent of Revivification",
 			"",
-			"**Source** [Inner Sea World Guide pg. 299](source/inner_sea_world_guide)  ",
+			"{SOURCE Inner Sea World Guide/299}  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 300 gp; **Weight** 1 lb.",
 			"",
@@ -3976,7 +3976,7 @@
 		"description": [
 			"## Stunstone",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 57](source/pathfinder_39_the_city_of_seven_spears)  ",
+			"{SOURCE Pathfinder #39: The City of Seven Spears/57}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 350 gp; **Weight** 1 lb.",
 			"",
@@ -4000,7 +4000,7 @@
 		"description": [
 			"## False Coin",
 			"",
-			"**Source** [Occult Adventures pg. 257](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/257}  ",
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 375 gp; **Weight** -;",
 			"",
@@ -4019,7 +4019,7 @@
 		"description": [
 			"## Alluring Golden Apple",
 			"",
-			"**Source** [Ultimate Equipment pg. 276](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/276}  ",
 			"**Aura** faint enchantment; **CL** 4th  ",
 			"**Slot** none; **Price** 400 gp; **Weight** 1 lb.",
 			"",
@@ -4040,7 +4040,7 @@
 		"description": [
 			"## Erasing Book",
 			"",
-			"**Source** [Villain Codex pg. 45](source/villain_codex)  ",
+			"{SOURCE Villain Codex/45}  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 400 gp; **Weight** 3 lbs.",
 			"",
@@ -4057,7 +4057,7 @@
 		"description": [
 			"## Haunt Siphon",
 			"",
-			"**Source** [Pathfinder #43: Haunting of Harrowstone pg. 19](source/pathfinder_43_haunting_of_harrowstone)  ",
+			"{SOURCE Pathfinder #43: Haunting of Harrowstone/19}  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 400 gp; **Weight** 1 lb.",
 			"",
@@ -4081,7 +4081,7 @@
 		"description": [
 			"## Key of Lock Jamming",
 			"",
-			"**Source** [Ultimate Equipment pg. 307](source/ultimate_equipment), [Advanced Player's Guide pg. 306](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/307;Advanced Player's Guide/306}  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 400 gp; **Weight** 1/2 lb.",
 			"",
@@ -4098,7 +4098,7 @@
 		"description": [
 			"## Toothpick of Pyrotechnics",
 			"",
-			"**Source** [Advanced Class Guide pg. 236](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/236}  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 400 gp; **Weight** -;",
 			"",
@@ -4119,7 +4119,7 @@
 		"description": [
 			"## Conquering Brand",
 			"",
-			"**Source** [Path of the Hellknight pg. 33](source/path_of_the_hellknight)  ",
+			"{SOURCE Path of the Hellknight/33}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 420 gp (Conformity), 2,820 gp (Hobbling), 10,020 gp (Lesser Geas), 14,420 gp (Subjugation), 14,420 gp (Tracking), 18,020 gp (Justice), 26,420 gp (Geas); **Weight** 5 lbs.",
 			"",
@@ -4172,7 +4172,7 @@
 		"description": [
 			"## Displacing Stone",
 			"",
-			"**Source** [Kobolds of Golarion pg. 30](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/30}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 430 gp; **Weight** -;",
 			"",
@@ -4189,7 +4189,7 @@
 		"description": [
 			"## Dimensional Acid",
 			"",
-			"**Source** [Champions of Balance pg. 28](source/champions_of_balance)  ",
+			"{SOURCE Champions of Balance/28}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 450 gp (Basic Pit), 1,000 gp (Jagged Pit), 1,750 gp (Corrosive Pit), 2,700 gp (Living Pit); **Weight** 1 lb.",
 			"",
@@ -4216,7 +4216,7 @@
 		"description": [
 			"## Elixir of Agility",
 			"",
-			"**Source** [Potions and Poisons pg. 20](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/20}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 450 gp; **Weight** -;",
 			"",
@@ -4237,7 +4237,7 @@
 		"description": [
 			"## Nesa's Coin",
 			"",
-			"**Source** [Gnomes of Golarion pg. 29](source/gnomes_of_golarion)  ",
+			"{SOURCE Gnomes of Golarion/29}  ",
 			"**Aura** weak divination; **CL** 1st  ",
 			"**Slot** none; **Price** 450 gp; **Weight** -;",
 			"",
@@ -4258,7 +4258,7 @@
 		"description": [
 			"## Guiding Vellum",
 			"",
-			"**Source** [Faction Guide pg. 59](source/faction_guide)  ",
+			"{SOURCE Faction Guide/59}  ",
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** none; **Price** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th); **Weight** 1/2 lb.",
 			"",
@@ -4309,7 +4309,7 @@
 		"description": [
 			"## Animated Portrait",
 			"",
-			"**Source** [Ultimate Equipment pg. 276](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/276}  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 10 lbs.",
 			"",
@@ -4326,7 +4326,7 @@
 		"description": [
 			"## Arrow of Latching",
 			"",
-			"**Source** [Villain Codex pg. 128](source/villain_codex)  ",
+			"{SOURCE Villain Codex/128}  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1/10 lb.",
 			"",
@@ -4347,7 +4347,7 @@
 		"description": [
 			"## Bilious Bottle",
 			"",
-			"**Source** [Pathfinder #73: The Worldwound Incursion pg. 64](source/pathfinder_73_the_worldwound_incursion)  ",
+			"{SOURCE Pathfinder #73: The Worldwound Incursion/64}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 2 lbs.",
 			"",
@@ -4375,7 +4375,7 @@
 		"description": [
 			"## Bottled Misfortune",
 			"",
-			"**Source** [Ultimate Equipment pg. 285](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/285}  ",
 			"**Aura** moderate necromancy; **CL** 10th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4396,7 +4396,7 @@
 		"description": [
 			"## Clockwork Key (Abadar)",
 			"",
-			"**Source** [Faiths of Balance pg. 26](source/faiths_of_balance)  ",
+			"{SOURCE Faiths of Balance/26}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4416,7 +4416,7 @@
 		"description": [
 			"## Dweomer's Essence",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 52](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Pathfinder Society Field Guide/52}  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4433,7 +4433,7 @@
 		"description": [
 			"## Elixir of Amnesia",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 53](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/53}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4453,7 +4453,7 @@
 		"description": [
 			"## Elixir of Truth",
 			"",
-			"**Source** [Ultimate Equipment pg. 295](source/ultimate_equipment), [PRPG Core Rulebook pg. 512](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/295;PRPG Core Rulebook/512}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4470,7 +4470,7 @@
 		"description": [
 			"## Ironmorph Dust",
 			"",
-			"**Source** [Daughters of Fury pg. 61](source/daughters_of_fury)  ",
+			"{SOURCE Daughters of Fury/61}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4491,7 +4491,7 @@
 		"description": [
 			"## Replenishing Aquarium Ball",
 			"",
-			"**Source** [Familiar Folio pg. 21](source/familiar_folio)  ",
+			"{SOURCE Familiar Folio/21}  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 500 gp (Lesser), 2,000 gp (Standard), 4,000 gp (Greater); **Weight** 20 lbs.",
 			"",
@@ -4531,7 +4531,7 @@
 		"description": [
 			"## Mundanity Grease",
 			"",
-			"**Source** [Familiar Folio pg. 21](source/familiar_folio)  ",
+			"{SOURCE Familiar Folio/21}  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4550,7 +4550,7 @@
 		"description": [
 			"## Nest Revealer",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 29](source/monster_hunters_handbook)  ",
+			"{SOURCE Monster Hunter's Handbook/29}  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4567,7 +4567,7 @@
 		"description": [
 			"## Orbicular Sac",
 			"",
-			"**Source** [Magical Marketplace pg. 13](source/magical_marketplace)  ",
+			"{SOURCE Magical Marketplace/13}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4584,7 +4584,7 @@
 		"description": [
 			"## Planar Strap",
 			"",
-			"**Source** [Planar Adventures pg. 55](source/planar_adventures)  ",
+			"{SOURCE Planar Adventures/55}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4601,7 +4601,7 @@
 		"description": [
 			"## Pliability Elixir",
 			"",
-			"**Source** [Villain Codex pg. 45](source/villain_codex)  ",
+			"{SOURCE Villain Codex/45}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4622,7 +4622,7 @@
 		"description": [
 			"## Recondite Holy Symbol",
 			"",
-			"**Source** [Black Markets pg. 23](source/black_markets)  ",
+			"{SOURCE Black Markets/23}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4639,7 +4639,7 @@
 		"description": [
 			"## Scabbard of Honing",
 			"",
-			"**Source** [Ultimate Equipment pg. 318](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/318}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4656,7 +4656,7 @@
 		"description": [
 			"## Scrap Collector's Strap",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurers_armory_2)  ",
+			"{SOURCE Adventurer's Armory 2/23}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4673,7 +4673,7 @@
 		"description": [
 			"## Sinner's Wage",
 			"",
-			"**Source** [Champions of Corruption pg. 31](source/champions_of_corruption)  ",
+			"{SOURCE Champions of Corruption/31}  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** -;",
 			"",
@@ -4694,7 +4694,7 @@
 		"description": [
 			"## Waxen Image",
 			"",
-			"**Source** [Occult Adventures pg. 265](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/265}  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1/2 lb.",
 			"",
@@ -4721,7 +4721,7 @@
 		"description": [
 			"## Wayfinder",
 			"",
-			"**Source** [Ruins of Azlant Player's Guide pg. 11](source/ruins_of_azlant_players_guide), [Pathfinder #2: The Skinsaw Murders pg. 77](source/pathfinder_2_the_skinsaw_murders), [Pathfinder Campaign Setting pg. 195](source/pathfinder_campaign_setting), [Seekers of Secrets pg. 50](source/seekers_of_secrets), [Inner Sea World Guide pg. 299](source/inner_sea_world_guide), [Shattered Star Player's Guide pg. 11](source/shattered_star_players_guide), [Adventurer's Guide pg. 148](source/adventurers_guide)  ",
+			"{SOURCE Ruins of Azlant Player's Guide/11;Pathfinder #2: The Skinsaw Murders/77;Pathfinder Campaign Setting/195;Seekers of Secrets/50;Inner Sea World Guide/299;Shattered Star Player's Guide/11;Adventurer's Guide/148}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
@@ -4742,7 +4742,7 @@
 		"description": [
 			"## Seer's Tea",
 			"",
-			"**Source** [Ultimate Equipment pg. 319](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/319}  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 550 gp; **Weight** -;",
 			"",
@@ -4761,7 +4761,7 @@
 		"description": [
 			"## Abjurant Salt",
 			"",
-			"**Source** [Ultimate Equipment pg. 276](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/276}  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 600 gp; **Weight** 1 lb.",
 			"",
@@ -4778,7 +4778,7 @@
 		"description": [
 			"## Arrow Magnet",
 			"",
-			"**Source** [Ultimate Equipment pg. 281](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/281}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4795,7 +4795,7 @@
 		"description": [
 			"## Bottled Cloud",
 			"",
-			"**Source** [Seers of the Drowned City pg. 52](source/seers_of_the_drowned_city)  ",
+			"{SOURCE Seers of the Drowned City/52}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4818,7 +4818,7 @@
 		"description": [
 			"## Cathedral Pit Stone",
 			"",
-			"**Source** [Merchant's Manifest pg. 5](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/5}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4835,7 +4835,7 @@
 		"description": [
 			"## Dream Journal of the Pallid Seer",
 			"",
-			"**Source** [Pathfinder #27: What Lies in Dust pg. 57](source/pathfinder_27_what_lies_in_dust)  ",
+			"{SOURCE Pathfinder #27: What Lies in Dust/57}  ",
 			"**Aura** no aura (or faint divination); **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** 2 lbs.",
 			"",
@@ -4856,7 +4856,7 @@
 		"description": [
 			"## Dust of Darkness",
 			"",
-			"**Source** [Ultimate Equipment pg. 293](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/293}  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4873,7 +4873,7 @@
 		"description": [
 			"## Elixir of Oppression",
 			"",
-			"**Source** [Monster Codex pg. 21](source/monster_codex)  ",
+			"{SOURCE Monster Codex/21}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4892,7 +4892,7 @@
 		"description": [
 			"## Evidentiary Dust",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 28](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/28}  ",
 			"**Aura** faint divination; **CL** 4th  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4911,7 +4911,7 @@
 		"description": [
 			"## Horror Dust",
 			"",
-			"**Source** [Monster Codex pg. 21](source/monster_codex)  ",
+			"{SOURCE Monster Codex/21}  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4928,7 +4928,7 @@
 		"description": [
 			"## Jar of Mottled Clay",
 			"",
-			"**Source** [Daughters of Fury pg. 61](source/daughters_of_fury)  ",
+			"{SOURCE Daughters of Fury/61}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** 1 lb.",
 			"",
@@ -4951,7 +4951,7 @@
 		"description": [
 			"## Perfect Tuning Fork",
 			"",
-			"**Source** [Inner Sea Gods pg. 267](source/inner_sea_gods)  ",
+			"{SOURCE Inner Sea Gods/267}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4968,7 +4968,7 @@
 		"description": [
 			"## Spire Transport Token",
 			"",
-			"**Source** [The Emerald Spire Superdungeon pg. 20](source/the_emerald_spire_superdungeon)  ",
+			"{SOURCE The Emerald Spire Superdungeon/20}  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -4985,7 +4985,7 @@
 		"description": [
 			"## Storyteller's Dust",
 			"",
-			"**Source** [Advanced Class Guide pg. 236](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/236}  ",
 			"**Aura** faint illusion; **CL** 2nd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -5006,7 +5006,7 @@
 		"description": [
 			"## Wanderlust Map",
 			"",
-			"**Source** [Heroes from the Fringe pg. 29](source/heroes_from_the_fringe)  ",
+			"{SOURCE Heroes from the Fringe/29}  ",
 			"**Aura** faint divination and transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 600 gp; **Weight** -;",
 			"",
@@ -5023,7 +5023,7 @@
 		"description": [
 			"## Exorcist Ofuda",
 			"",
-			"**Source** [Merchant's Manifest pg. 24](source/merchants_manifest)  ",
+			"{SOURCE Merchant's Manifest/24}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 650 gp; **Weight** -;",
 			"",
@@ -5040,7 +5040,7 @@
 		"description": [
 			"## Poltergeist Knot",
 			"",
-			"**Source** [Daughters of Fury pg. 62](source/daughters_of_fury)  ",
+			"{SOURCE Daughters of Fury/62}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 650 gp; **Weight** 1/2 lb.",
 			"",
@@ -5107,7 +5107,7 @@
 		"description": [
 			"## Focusing Flask",
 			"",
-			"**Source** [Alchemy Manual pg. 16](source/alchemy_manual)  ",
+			"{SOURCE Alchemy Manual/16}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 700 gp; **Weight** 1 lb.",
 			"",
@@ -5124,7 +5124,7 @@
 		"description": [
 			"## Globe of Moonlight",
 			"",
-			"**Source** [Blood of the Moon pg. 31](source/blood_of_the_moon)  ",
+			"{SOURCE Blood of the Moon/31}  ",
 			"**Aura** moderate enchantment and evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 700 gp; **Weight** 1 lb.",
 			"",
@@ -5141,7 +5141,7 @@
 		"description": [
 			"## Poison Popcushion",
 			"",
-			"**Source** [Magical Marketplace pg. 13](source/magical_marketplace)  ",
+			"{SOURCE Magical Marketplace/13}  ",
 			"**Aura** faint conjuration (creation); **CL** 3rd  ",
 			"**Slot** none; **Price** 700 gp; **Weight** 2 lbs.",
 			"",
@@ -5158,7 +5158,7 @@
 		"description": [
 			"## Pyre Salt",
 			"",
-			"**Source** [Path of the Hellknight pg. 39](source/path_of_the_hellknight)  ",
+			"{SOURCE Path of the Hellknight/39}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 700 gp; **Weight** -;",
 			"",
@@ -5177,7 +5177,7 @@
 		"description": [
 			"## Swarm Bullet",
 			"",
-			"**Source** [Ranged Tactics Toolbox pg. 29](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/29}  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 700 gp; **Weight** -;",
 			"",
@@ -5197,7 +5197,7 @@
 		"description": [
 			"## Campfire Bead",
 			"",
-			"**Source** [Ultimate Equipment pg. 286](source/ultimate_equipment), [Advanced Player's Guide pg. 302](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/286;Advanced Player's Guide/302}  ",
 			"**Aura** faint evocation; **CL** 1st  ",
 			"**Slot** none; **Price** 720 gp; **Weight** -;",
 			"",
@@ -5214,7 +5214,7 @@
 		"description": [
 			"## Kitharodian Pen",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 54](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/54}  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 720 gp; **Weight** -;",
 			"",
@@ -5231,7 +5231,7 @@
 		"description": [
 			"## Kitsune Star Gem",
 			"",
-			"**Source** [Advanced Race Guide pg. 193](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/193}  ",
 			"**Aura** faint transmutation; **CL** 1st (1st), 3rd (2nd), or 5th (3rd)  ",
 			"**Slot** none; **Price** 750 gp (1st), 3,000 gp (2nd), 6,750 gp (3rd); **Weight** -;",
 			"",
@@ -5256,7 +5256,7 @@
 		"description": [
 			"## Archon's Torch",
 			"",
-			"**Source** [Ultimate Equipment pg. 281](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/281}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
 			"",
@@ -5273,7 +5273,7 @@
 		"description": [
 			"## Aspis Badge of Last Resort",
 			"",
-			"**Source** [Adventurer's Guide pg. 36](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/36}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5300,7 +5300,7 @@
 		"description": [
 			"## Assassin's Dust",
 			"",
-			"**Source** [Advanced Class Guide pg. 226](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/226}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5317,7 +5317,7 @@
 		"description": [
 			"## Bottle of Shifting Sand",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 58](source/pathfinder_81_shifting_sands)  ",
+			"{SOURCE Pathfinder #81: Shifting Sands/58}  ",
 			"**Aura** faint transmutation [earth]; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
 			"",
@@ -5336,7 +5336,7 @@
 		"description": [
 			"## Charmer's Kiss",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 53](source/inner_sea_intrigue)  ",
+			"{SOURCE Inner Sea Intrigue/53}  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5353,7 +5353,7 @@
 		"description": [
 			"## Fugitive's Grenade",
 			"",
-			"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 60](source/pathfinder_50_night_of_frozen_shadows)  ",
+			"{SOURCE Pathfinder #50: Night of Frozen Shadows/60}  ",
 			"**Aura** faint conjuration and transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -",
 			"",
@@ -5373,7 +5373,7 @@
 		"description": [
 			"## Greensurge Bomb",
 			"",
-			"**Source** [Ultimate Wilderness pg. 251](source/ultimate_wilderness), [Heroes of the Wild pg. 28](source/heroes_of_the_wild)  ",
+			"{SOURCE Ultimate Wilderness/251;Heroes of the Wild/28}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
 			"",
@@ -5390,7 +5390,7 @@
 		"description": [
 			"## Honeytongue Elixir",
 			"",
-			"**Source** [Pathfinder Society Primer pg. 24](source/pathfinder_society_primer)  ",
+			"{SOURCE Pathfinder Society Primer/24}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
 			"",
@@ -5409,7 +5409,7 @@
 		"description": [
 			"## Iron Rope",
 			"",
-			"**Source** [Ultimate Equipment pg. 306](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/306}  ",
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
 			"",
@@ -5426,7 +5426,7 @@
 		"description": [
 			"## Book of Extended Summoning",
 			"",
-			"**Source** [Ultimate Equipment pg. 283](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/283}  ",
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 750 gp (Lesser), 2,750 gp (Normal), 6,126 gp (Greater); **Weight** 1 lb.",
 			"",
@@ -5460,7 +5460,7 @@
 		"description": [
 			"## Levitating Land Mine",
 			"",
-			"**Source** [Kobolds of Golarion pg. 31](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/31}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 3 lbs.",
 			"",
@@ -5479,7 +5479,7 @@
 		"description": [
 			"## Machinebane Oil",
 			"",
-			"**Source** [Construct Handbook pg. 19](source/construct_handbook)  ",
+			"{SOURCE Construct Handbook/19}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
 			"",
@@ -5499,7 +5499,7 @@
 		"description": [
 			"## Polish of Inconspicuous Armor",
 			"",
-			"**Source** [Ultimate Intrigue pg. 250](source/ultimate_intrigue), [Pathfinder Society Primer pg. 25](source/pathfinder_society_primer)  ",
+			"{SOURCE Ultimate Intrigue/250;Pathfinder Society Primer/25}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
 			"",
@@ -5516,7 +5516,7 @@
 		"description": [
 			"## Skill Slug",
 			"",
-			"**Source** [Pathfinder: Goblins #1 pg. 29](source/pathfinder_goblins_1)  ",
+			"{SOURCE Pathfinder Goblins #1/29}  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5533,7 +5533,7 @@
 		"description": [
 			"## Snapleaf",
 			"",
-			"**Source** [Ultimate Equipment pg. 319](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/319}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5550,7 +5550,7 @@
 		"description": [
 			"## Spiteful Cookie",
 			"",
-			"**Source** [Pathfinder #67: The Snows of Summer pg. 61](source/pathfinder_67_the_snows_of_summer)  ",
+			"{SOURCE Pathfinder #67: The Snows of Summer/61}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5567,7 +5567,7 @@
 		"description": [
 			"## Stalagmite Seed",
 			"",
-			"**Source** [Magical Marketplace pg. 29](source/magical_marketplace)  ",
+			"{SOURCE Magical Marketplace/29}  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
 			"",
@@ -5586,7 +5586,7 @@
 		"description": [
 			"## Thoqqua Snake",
 			"",
-			"**Source** [Magical Marketplace pg. 21](source/magical_marketplace)  ",
+			"{SOURCE Magical Marketplace/21}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
@@ -5603,7 +5603,7 @@
 		"description": [
 			"## Trapped Puzzle Box",
 			"",
-			"**Source** [Kobolds of Golarion pg. 31](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/31}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
 			"",
@@ -5620,7 +5620,7 @@
 		"description": [
 			"## Bottled Yeti Fur",
 			"",
-			"**Source** [Ultimate Equipment pg. 285](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/285}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5640,7 +5640,7 @@
 		"description": [
 			"## Defoliant Polish",
 			"",
-			"**Source** [Ultimate Equipment pg. 291](source/ultimate_equipment), [Advanced Player's Guide pg. 304](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/291;Advanced Player's Guide/304}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5660,7 +5660,7 @@
 		"description": [
 			"## Dust of Emulation",
 			"",
-			"**Source** [Ultimate Equipment pg. 293](source/ultimate_equipment), [Advanced Player's Guide pg. 304](source/advanced_players_guide)  ",
+			"{SOURCE Ultimate Equipment/293;Advanced Player's Guide/304}  ",
 			"**Aura** faint illusion; **CL** 1st  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5677,7 +5677,7 @@
 		"description": [
 			"## Fiery Maw Elixir",
 			"",
-			"**Source** [Potions and Poisons pg. 20](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/20}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5694,7 +5694,7 @@
 		"description": [
 			"## Infiltrator's Onyx",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 28](source/undead_slayers_handbook)  ",
+			"{SOURCE Undead Slayer's Handbook/28}  ",
 			"**Aura** faint divination and none (see text); **CL** 5th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5715,7 +5715,7 @@
 		"description": [
 			"## Jar of Lightning",
 			"",
-			"**Source** [Adventurer's Guide pg. 185](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/185}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** 1 lb.",
 			"",
@@ -5736,7 +5736,7 @@
 		"description": [
 			"## Leshy Mulch Manual",
 			"",
-			"**Source** [Faiths and Philosophies pg. 30](source/faiths_and_philosophies)  ",
+			"{SOURCE Faiths and Philosophies/30}  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 800 gp (Leaf Leshy), 1,125 gp (Gourd Leshy), 1,875 gp (Fungus Leshy), 3,600 gp (Seaweed Leshy); **Weight** 5 lbs.",
 			"",
@@ -5765,7 +5765,7 @@
 		"description": [
 			"## Ranged Piton",
 			"",
-			"**Source** [Ranged Tactics Toolbox pg. 28](source/ranged_tactics_toolbox)  ",
+			"{SOURCE Ranged Tactics Toolbox/28}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** 1 lb.",
 			"",
@@ -5782,7 +5782,7 @@
 		"description": [
 			"## Shadow Hand Smoke Pellet",
 			"",
-			"**Source** [Ultimate Intrigue pg. 251](source/ultimate_intrigue)  ",
+			"{SOURCE Ultimate Intrigue/251}  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5799,7 +5799,7 @@
 		"description": [
 			"## Spirit Revivification Incense",
 			"",
-			"**Source** [Occult Adventures pg. 263](source/occult_adventures)  ",
+			"{SOURCE Occult Adventures/263}  ",
 			"**Aura** moderate necromancy; **CL** 11th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** -;",
 			"",
@@ -5816,7 +5816,7 @@
 		"description": [
 			"## Steadfast Gut-Stone",
 			"",
-			"**Source** [Ultimate Equipment pg. 320](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/320}  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 800 gp; **Weight** 2 lbs.",
 			"",
@@ -5843,7 +5843,7 @@
 		"description": [
 			"## Dust of Dryness",
 			"",
-			"**Source** [Ultimate Equipment pg. 293](source/ultimate_equipment), [PRPG Core Rulebook pg. 510](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/293;PRPG Core Rulebook/510}  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 850 gp; **Weight** -;",
 			"",
@@ -5862,7 +5862,7 @@
 		"description": [
 			"## Luminous Facet",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 29](source/dungeoneers_handbook)  ",
+			"{SOURCE Dungeoneer's Handbook/29}  ",
 			"**Aura** faint evocation [light]; **CL** 3rd  ",
 			"**Slot** none; **Price** 850 gp; **Weight** 3 lbs.",
 			"",
@@ -5883,7 +5883,7 @@
 		"description": [
 			"## Scarecrow Lure",
 			"",
-			"**Source** [Kobolds of Golarion pg. 31](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/31}  ",
 			"**Aura** faint illusion and transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 850 gp; **Weight** 40 lbs.",
 			"",
@@ -5900,7 +5900,7 @@
 		"description": [
 			"## Trapped Sword",
 			"",
-			"**Source** [Kobolds of Golarion pg. 31](source/kobolds_of_golarion)  ",
+			"{SOURCE Kobolds of Golarion/31}  ",
 			"**Aura** faint evocation; **CL** 1st  ",
 			"**Slot** none; **Price** 850 gp; **Weight** 4 lbs.",
 			"",
@@ -5920,7 +5920,7 @@
 		"description": [
 			"## Shoanti War Paint",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 436](source/curse_of_the_crimson_throne), [Pathfinder #10: A History of Ashes pg. 14](source/pathfinder_10_a_history_of_ashes)  ",
+			"{SOURCE Curse of the Crimson Throne/436;Pathfinder #10: A History of Ashes/14}  ",
 			"**Aura** moderate (school varies); **CL** 7th  ",
 			"**Slot** none; **Price** 900 gp (Blue), 900 gp (Green), 900 gp (Orange), 900 gp (Red), 900 gp (Silver), 900 gp (Yellow), 1,800 gp (Black), 1,800 gp (White); **Weight** -;",
 			"",
@@ -5946,7 +5946,7 @@
 		"description": [
 			"## Bottled Scream",
 			"",
-			"**Source** [Advanced Class Guide pg. 227](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/227}  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.",
 			"",
@@ -5963,7 +5963,7 @@
 		"description": [
 			"## Deadly Draught",
 			"",
-			"**Source** [Blood of the Night pg. 31](source/blood_of_the_night)  ",
+			"{SOURCE Blood of the Night/31}  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Price** 900 gp; **Weight** -;",
 			"",
@@ -5980,7 +5980,7 @@
 		"description": [
 			"## Elemental Storing Stone",
 			"",
-			"**Source** [Magical Marketplace pg. 19](source/magical_marketplace)  ",
+			"{SOURCE Magical Marketplace/19}  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.",
 			"",
@@ -5997,7 +5997,7 @@
 		"description": [
 			"## Elixir of Forceful Exhalation",
 			"",
-			"**Source** [Advanced Race Guide pg. 160](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/160}  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 900 gp; **Weight** 1 lb.",
 			"",
@@ -6018,7 +6018,7 @@
 		"description": [
 			"## Healer's Aid",
 			"",
-			"**Source** [Potions and Poisons pg. 20](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/20}  ",
 			"**Aura** faint evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 900 gp; **Weight** -;",
 			"",
@@ -6038,7 +6038,7 @@
 		"description": [
 			"## Murderer's Silence",
 			"",
-			"**Source** [Ultimate Intrigue pg. 249](source/ultimate_intrigue), [Magical Marketplace pg. 25](source/magical_marketplace)  ",
+			"{SOURCE Ultimate Intrigue/249;Magical Marketplace/25}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 900 gp; **Weight** 1 lb.",
 			"",
@@ -6055,7 +6055,7 @@
 		"description": [
 			"## Oozeclot Unguent",
 			"",
-			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 10](source/pathfinder_134_it_came_from_hollow_mountain)  ",
+			"{SOURCE Pathfinder #134: It Came from Hollow Mountain/10}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 900 gp; **Weight** -;",
 			"",
@@ -6080,7 +6080,7 @@
 		"description": [
 			"## Saline Purge",
 			"",
-			"**Source** [Magical Marketplace pg. 9](source/magical_marketplace)  ",
+			"{SOURCE Magical Marketplace/9}  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.",
 			"",
@@ -6101,7 +6101,7 @@
 		"description": [
 			"## Smoke bomb of Forgetfulness",
 			"",
-			"**Source** [Villain Codex pg. 225](source/villain_codex)  ",
+			"{SOURCE Villain Codex/225}  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 900 gp; **Weight** -;",
 			"",
@@ -6122,7 +6122,7 @@
 		"description": [
 			"## Steelsheen Elixir",
 			"",
-			"**Source** [Potions and Poisons pg. 20](source/potions_and_poisons)  ",
+			"{SOURCE Potions and Poisons/20}  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** none; **Price** 900 gp; **Weight** -;",
 			"",
@@ -6151,7 +6151,7 @@
 		"description": [
 			"## Boro Bead",
 			"",
-			"**Source** [Ultimate Equipment pg. 284](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/284}  ",
 			"**Aura** strong transmutation; **CL** 16th  ",
 			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th); **Weight** -;",
 			"",
@@ -6191,7 +6191,7 @@
 		"description": [
 			"## Pearl of Power",
 			"",
-			"**Source** [Ultimate Equipment pg. 315](source/ultimate_equipment), [PRPG Core Rulebook pg. 525](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/315;PRPG Core Rulebook/525}  ",
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 70,000 gp (Two Spells), 81,000 gp (9th); **Weight** -;",
 			"",
@@ -6248,7 +6248,7 @@
 		"description": [
 			"## Preserving Flask",
 			"",
-			"**Source** [Ultimate Equipment pg. 316](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/316}  ",
 			"**Aura** strong abjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th); **Weight** -;",
 			"",
@@ -6285,7 +6285,7 @@
 		"description": [
 			"## Page of Spell Knowledge",
 			"",
-			"**Source** [Ultimate Equipment pg. 314](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/314}  ",
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** -;",
 			"",
@@ -6334,7 +6334,7 @@
 		"description": [
 			"## Spell Lattice",
 			"",
-			"**Source** [Advanced Class Guide pg. 235](source/advanced_class_guide)  ",
+			"{SOURCE Advanced Class Guide/235}  ",
 			"**Aura** varies (see text); **CL** 17th  ",
 			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** 1 lb.",
 			"",
@@ -6385,7 +6385,7 @@
 		"description": [
 			"## Shard of Psychic Power",
 			"",
-			"**Source** [Psychic Anthology pg. 9](source/psychic_anthology)  ",
+			"{SOURCE Psychic Anthology/9}  ",
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** none; **Price** 1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp (4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp (8th-level), 81,000 gp (9th-level); **Weight** -;",
 			"",
@@ -6461,7 +6461,7 @@
 		"description": [
 			"## Anatomy Doll",
 			"",
-			"**Source** [Ultimate Equipment pg. 276](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/276}  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
 			"",
@@ -6478,7 +6478,7 @@
 		"description": [
 			"## Bag of Holding, Minor",
 			"",
-			"**Source** [Classic Treasures Revisited pg. 8](source/classic_treasures_revisited)  ",
+			"{SOURCE Classic Treasures Revisited/8}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 3 lbs.",
 			"",
@@ -6498,7 +6498,7 @@
 		"description": [
 			"## Bead of Newt Prevention",
 			"",
-			"**Source** [Ultimate Equipment pg. 282](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/282}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6515,7 +6515,7 @@
 		"description": [
 			"## Beast-bond Brand",
 			"",
-			"**Source** [Ultimate Equipment pg. 282](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/282}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6537,7 +6537,7 @@
 		"description": [
 			"## Bloodbrew Elixir",
 			"",
-			"**Source** [Pathfinder #47: Ashes at Dawn pg. 35](source/pathfinder_47_ashes_at_dawn)  ",
+			"{SOURCE Pathfinder #47: Ashes at Dawn/35}  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6558,7 +6558,7 @@
 		"description": [
 			"## Bookplate of Recall",
 			"",
-			"**Source** [Ultimate Equipment pg. 284](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/284}  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6575,7 +6575,7 @@
 		"description": [
 			"## Burdenstone",
 			"",
-			"**Source** [Dirty Tactics Toolbox pg. 26](source/dirty_tactics_toolbox)  ",
+			"{SOURCE Dirty Tactics Toolbox/26}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6596,7 +6596,7 @@
 		"description": [
 			"## Concealing Pocket",
 			"",
-			"**Source** [Ultimate Equipment pg. 289](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/289}  ",
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6616,7 +6616,7 @@
 		"description": [
 			"## Death's Head Coffer",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 433](source/curse_of_the_crimson_throne), [Pathfinder #8: Seven Days to the Grave pg. 32](source/pathfinder_8_seven_days_to_the_grave)  ",
+			"{SOURCE Curse of the Crimson Throne/433;Pathfinder #8: Seven Days to the Grave/32}  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.",
 			"",
@@ -6637,7 +6637,7 @@
 		"description": [
 			"## Dowsing Syrup",
 			"",
-			"**Source** [Ultimate Equipment pg. 292](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/292}  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -6654,7 +6654,7 @@
 		"description": [
 			"## Elixir of Spirit Sight",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 55](source/pathfinder_39_the_city_of_seven_spears)  ",
+			"{SOURCE Pathfinder #39: The City of Seven Spears/55}  ",
 			"**Aura** faint divination and transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6671,7 +6671,7 @@
 		"description": [
 			"## Metamagic Gem",
 			"",
-			"**Source** [Rival Guide pg. 11](source/rival_guide)  ",
+			"{SOURCE Rival Guide/11}  ",
 			"**Aura** strong (no school); **CL** 11th  ",
 			"**Slot** none; **Price** 1,000 gp (Enlarging Amethyst), 1,000 gp (Extending Garnet), 1,000 gp (Silent Spinel), 1,000 gp (Still Amber), 2,000 gp (Empowering Topaz), 4,000 gp (Maximizing Sapphire), 4,000 gp (Widening Emerald), 8,000 gp (Quickening Diamond); **Weight** -;",
 			"",
@@ -6698,7 +6698,7 @@
 		"description": [
 			"## Firefoot Powder",
 			"",
-			"**Source** [Rival Guide pg. 17](source/rival_guide)  ",
+			"{SOURCE Rival Guide/17}  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6717,7 +6717,7 @@
 		"description": [
 			"## Fortifying Stone",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 52](source/pathfinder_society_field_guide)  ",
+			"{SOURCE Pathfinder Society Field Guide/52}  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6734,7 +6734,7 @@
 		"description": [
 			"## Godstar",
 			"",
-			"**Source** [Disciple's Doctrine pg. 29](source/disciples_doctrine)  ",
+			"{SOURCE Disciple's Doctrine/29}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.",
 			"",
@@ -6763,7 +6763,7 @@
 		"description": [
 			"## Incense of Transcendence",
 			"",
-			"**Source** [Ultimate Equipment pg. 304](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/304}  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
 			"",
@@ -6782,7 +6782,7 @@
 		"description": [
 			"## Iron Lord's Transforming Slivers",
 			"",
-			"**Source** [Inner Sea Gods pg. 266](source/inner_sea_gods)  ",
+			"{SOURCE Inner Sea Gods/266}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.",
 			"",
@@ -6811,7 +6811,7 @@
 		"description": [
 			"## Lantern of Hidden Light",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source/adventurers_guide)  ",
+			"{SOURCE Adventurer's Guide/115}  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.",
 			"",
@@ -6828,7 +6828,7 @@
 		"description": [
 			"## Neverspill Goblet",
 			"",
-			"**Source** [Inner Sea Temples pg. 22](source/inner_sea_temples)  ",
+			"{SOURCE Inner Sea Temples/22}  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
 			"",
@@ -6859,7 +6859,7 @@
 		"description": [
 			"## Pathfinder Pouch",
 			"",
-			"**Source** [Seekers of Secrets pg. 56](source/seekers_of_secrets)  ",
+			"{SOURCE Seekers of Secrets/56}  ",
 			"**Aura** none; **CL** 9th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
 			"",
@@ -6878,7 +6878,7 @@
 		"description": [
 			"## Pyxes of Redirected Focus",
 			"",
-			"**Source** [Ultimate Equipment pg. 317](source/ultimate_equipment)  ",
+			"{SOURCE Ultimate Equipment/317}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6895,7 +6895,7 @@
 		"description": [
 			"## Quill of Verification",
 			"",
-			"**Source** [Villain Codex pg. 45](source/villain_codex)  ",
+			"{SOURCE Villain Codex/45}  ",
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6915,7 +6915,7 @@
 		"description": [
 			"## Salve of Slipperiness",
 			"",
-			"**Source** [Ultimate Equipment pg. 318](source/ultimate_equipment), [PRPG Core Rulebook pg. 529](source/prpg_core_rulebook)  ",
+			"{SOURCE Ultimate Equipment/318;PRPG Core Rulebook/529}  ",
 			"**Aura** moderate conjuration; **CL** 6th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
@@ -6942,7 +6942,7 @@
 		"description": [
 			"## Solidsmoke Pipeweed",
 			"",
-			"**Source** [Advanced Race Guide pg. 67](source/advanced_race_guide)  ",
+			"{SOURCE Advanced Race Guide/67}  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
 			"",
