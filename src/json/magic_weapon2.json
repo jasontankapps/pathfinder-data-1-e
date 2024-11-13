@@ -13,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), force punch, shield, [summon monster I](spell/summon_monster_1); **Price** 9,805 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, force punch, shield, [summon monster I](spell/summon_monster_1); **Price** 9,805 gp"
 		]
 	},
 	"dinosaur_killer": {
@@ -37,7 +37,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), weapon of awe, creator must use the weapon to slay a member of the attuned religion; **Price** 9,818 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, weapon of awe, creator must use the weapon to slay a member of the attuned religion; **Price** 9,818 gp"
 		]
 	},
 	"bow_of_erastil": {
@@ -54,7 +54,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), clairaudience/clairvoyance, haste; **Price** 19,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, clairaudience/clairvoyance, haste; **Price** 19,500 gp"
 		]
 	},
 	"skirmishing_spear": {
@@ -67,11 +67,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 19,502 gp; **Weight** 6 lbs.",
 			"",
-			"When thrown, this +1 returning spear is considered a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the wielder can, as an immediate action, expend one use of mythic power to teleport to an unoccupied space adjacent to the creature struck. This effect is treated as [dimension door](spell/dimension_door), except the wielder can act after teleporting. The spear comes back to its wielder's hand when he appears. If he hadn't taken a move action prior to throwing the spear, he can continue a full attack with the spear.",
+			"When thrown, this +1 returning spear is considered a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the wielder can, as an immediate action, expend one use of mythic power to teleport to an unoccupied space adjacent to the creature struck. This effect is treated as {spell/dimension door}, except the wielder can act after teleporting. The spear comes back to its wielder's hand when he appears. If he hadn't taken a move action prior to throwing the spear, he can continue a full attack with the spear.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), dimension door, telekinesis; **Price** 9,902 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, dimension door, telekinesis; **Price** 9,902 gp"
 		]
 	},
 	"talon_sword_normal": {
@@ -88,7 +88,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor (talonstrike), shield or shield of faith, shield other; **Price** 10,015 gp (19,615 for talonstrike)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimensional anchor (talonstrike), shield or shield of faith, shield other; **Price** 10,015 gp (19,615 for talonstrike)"
 		]
 	},
 	"harbingers_scythe": {
@@ -105,7 +105,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enervation](spell/enervation); **Price** 9,918 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enervation}; **Price** 9,918 gp"
 		]
 	},
 	"shadowbound_chains": {
@@ -124,7 +124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shadow conjuration; **Price** 11,125 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shadow conjuration; **Price** 11,125 gp"
 		]
 	},
 	"shieldmarshals_pistol": {
@@ -141,7 +141,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chosen grit feat, share memory; **Price** 11,050 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, chosen grit feat, share memory; **Price** 11,050 gp"
 		]
 	},
 	"doubleshot_pepperbox": {
@@ -158,7 +158,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Rapid Shot](feat/rapid_shot), blindness/deafness, haste; **Price** 11,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Rapid Shot}, blindness/deafness, haste; **Price** 11,800 gp"
 		]
 	},
 	"firedrake_pistol": {
@@ -175,7 +175,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), burning hands, fireball; **Price** 10,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, burning hands, fireball; **Price** 10,800 gp"
 		]
 	},
 	"ricochet_hammer": {
@@ -195,7 +195,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), telekinesis; **Price** 20,301 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, telekinesis; **Price** 20,301 gp"
 		]
 	},
 	"shields_bane_ulfen": {
@@ -214,7 +214,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shatter, true strike, creator must be an Ulfen; **Price** 10,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shatter, true strike, creator must be an Ulfen; **Price** 10,310 gp"
 		]
 	},
 	"shields_bane": {
@@ -234,7 +234,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), good hope, true strike; **Price** 10,315 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, good hope, true strike; **Price** 10,315 gp"
 		]
 	},
 	"crystalline_starknife": {
@@ -251,7 +251,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, shatter; **Price** 10,324 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, daylight, shatter; **Price** 10,324 gp"
 		]
 	},
 	"earthcracker": {
@@ -268,7 +268,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, stone shape; **Price** 28,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blindness/deafness, stone shape; **Price** 28,300 gp"
 		]
 	},
 	"dueling_bokken_tengu": {
@@ -287,7 +287,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, creator must be a tengu; **Price** 10,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, keen edge, creator must be a tengu; **Price** 10,350 gp"
 		]
 	},
 	"dueling_bokken": {
@@ -309,7 +309,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flame strike, caster level 6th; **Price** 10,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, flame strike, caster level 6th; **Price** 10,350 gp"
 		]
 	},
 	"flame_tongue": {
@@ -329,7 +329,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), scorching ray and fireball, flame blade, or flame strike; **Price** 10,515 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, scorching ray and fireball, flame blade, or flame strike; **Price** 10,515 gp"
 		]
 	},
 	"scoundrels_sword_cane": {
@@ -342,13 +342,13 @@
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** none; **Price** 20,925 gp; **Weight** 4 lbs.",
 			"",
-			"A skull and partial backbone carved from ivory top this +2 sword cane, and gray sharkskin covers its wooden scabbard. The wielder can use the [Weapon Finesse](feat/weapon_finesse) feat to apply her Dexterity modifier instead of her Strength modifier to attack rolls with a scoundrel's sword cane sized for her, even though it isn't a light weapon.",
+			"A skull and partial backbone carved from ivory top this +2 sword cane, and gray sharkskin covers its wooden scabbard. The wielder can use the {feat/Weapon Finesse} feat to apply her Dexterity modifier instead of her Strength modifier to attack rolls with a scoundrel's sword cane sized for her, even though it isn't a light weapon.",
 			"",
 			"The eyes of the skull atop the scoundrel's sword cane constantly enhance the wielder's awareness, granting the wielder a +5 competence bonus on Perception checks. In addition, once per day, the wielder can concentrate while holding the cane to see through the skull's eyes as if they were her own. In effect, the scoundrel's sword cane can be used as a periscope, allowing the wielder to safely peer over obstacles or around corners. If the wielder has total concealment from an observed creature except for the end of the cane, the wielder uses the skull's Diminutive size modifier for her Stealth check instead of her own size modifier.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), arcane eye, obscure object; **Price** 10,635 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, arcane eye, obscure object; **Price** 10,635 gp"
 		]
 	},
 	"arrow_slicer": {
@@ -367,7 +367,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), faerie fire, wind wall; **Price** 10,810 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, faerie fire, wind wall; **Price** 10,810 gp"
 		]
 	},
 	"sparkwake_starknife": {
@@ -387,7 +387,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt; **Price** 10,824 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, lightning bolt; **Price** 10,824 gp"
 		]
 	},
 	"starknife_of_the_void": {
@@ -406,7 +406,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, telekinesis; **Price** 10,824 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blindness/deafness, telekinesis; **Price** 10,824 gp"
 		]
 	},
 	"cornerstone_crossbow": {
@@ -423,7 +423,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate, true seeing; **Price** 10,835 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, levitate, true seeing; **Price** 10,835 gp"
 		]
 	},
 	"bone_bearers_cutter": {
@@ -440,7 +440,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, crafter's fortune, howling agony; **Price** 11,052 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, crafter's fortune, howling agony; **Price** 11,052 gp"
 		]
 	},
 	"rostland_edge": {
@@ -460,7 +460,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, fabricate, fireball, make whole; **Price** 11,070 gp"
+			"**Requirements** {feat/Combat Reflexes}, {feat/Craft Magic Arms and Armor}, cat's grace, fabricate, fireball, make whole; **Price** 11,070 gp"
 		]
 	},
 	"luck_blade_0_wishes": {
@@ -480,7 +480,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), miracle or wish; **Price** 11,185 gp (0 wishes), 43,835 gp (1 wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, miracle or wish; **Price** 11,185 gp (0 wishes), 43,835 gp (1 wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)"
 		]
 	},
 	"leviathans_terror": {
@@ -493,13 +493,13 @@
 			"**Aura** faint evocation and necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 22,105 gp; **Weight** 16 lbs.",
 			"",
-			"This +2 [ominous](magic-enhancement/ominous) harpoon is carved from a bleached whale bone and bound with the spirit of an ancient beast that rumbles with a low, mournful call each time the barbed tip strikes. Holding the weapon fills the wielder with the nerve to face even the most imposing foes, granting her a +2 morale bonus on saving throws against the [frightful presence](umr/frightful_presence) universal monster ability. She does not take the usual -4 penalty to use the Intimidate skill on a target larger than her as long as she carries the leviathan's terror on her person.",
+			"This +2 {magic-enhancement/ominous} harpoon is carved from a bleached whale bone and bound with the spirit of an ancient beast that rumbles with a low, mournful call each time the barbed tip strikes. Holding the weapon fills the wielder with the nerve to face even the most imposing foes, granting her a +2 morale bonus on saving throws against the {umr/frightful presence} universal monster ability. She does not take the usual -4 penalty to use the Intimidate skill on a target larger than her as long as she carries the leviathan's terror on her person.",
 			"",
 			"Three times per day, the wielder of a leviathan's terror can call on the spirit in the weapon to enlarge her musculature, drain the color from her skin, and turn her exhalations to rolling fog for a 1-minute period. During this time, once as a standard action, she can attempt an Intimidate check to demoralize all enemies that are at least one size category larger than her within a 30-foot radius. During this period, the wielder also gains a +1 size bonus on combat maneuver checks and to CMD and is treated as one size category larger for the purposes of determining the effects of attacks and abilities that limit their use on larger creatures (such as tripping creatures of a larger size category or for determining what creatures can be targeted by the grab ability), although her actual size category does not change.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person), [scare](spell/scare); **Price** 11,705 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enlarge person}, {spell/scare}; **Price** 11,705 gp"
 		]
 	},
 	"sadists_lash": {
@@ -519,7 +519,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dominate person; **Price** 11,301 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dominate person; **Price** 11,301 gp"
 		]
 	},
 	"rabbits_blade": {
@@ -536,7 +536,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cleave](feat/cleave), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Great Cleave](feat/great_cleave), divine power; **Price** 11,307 gp"
+			"**Requirements** {feat/Cleave}, {feat/Craft Magic Arms and Armor}, {feat/Great Cleave}, divine power; **Price** 11,307 gp"
 		]
 	},
 	"sword_of_subtlety": {
@@ -556,7 +556,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blur; **Price** 11,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blur; **Price** 11,310 gp"
 		]
 	},
 	"erratic_blade": {
@@ -573,7 +573,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), antimagic field, major creation; **Price** 11,315 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, antimagic field, major creation; **Price** 11,315 gp"
 		]
 	},
 	"sword_of_the_planes": {
@@ -593,7 +593,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), plane shift; **Price** 11,315 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, plane shift; **Price** 11,315 gp"
 		]
 	},
 	"hooked_massacre": {
@@ -612,7 +612,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Combat Expertise](feat/combat_expertise), [Improved Drag](feat/improved_drag), [Improved Reposition](feat/improved_reposition), haste; **Price** 11,325 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Combat Expertise}, {feat/Improved Drag}, {feat/Improved Reposition}, haste; **Price** 11,325 gp"
 		]
 	},
 	"fanged_falchion": {
@@ -634,7 +634,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), harm, unholy blight, creator must be evil; **Price** 11,375 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, harm, unholy blight, creator must be evil; **Price** 11,375 gp"
 		]
 	},
 	"felhart": {
@@ -653,7 +653,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), true strike; **Price** 11,187 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, true strike; **Price** 11,187 gp"
 		]
 	},
 	"knight-captains_lance": {
@@ -670,7 +670,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), divine favor; **Price** 11,510 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, divine favor; **Price** 11,510 gp"
 		]
 	},
 	"knight_captains_lance": {
@@ -690,7 +690,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disintegrate, plane shift; **Price** 13,002 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disintegrate, plane shift; **Price** 13,002 gp"
 		]
 	},
 	"nine_lives_stealer": {
@@ -710,7 +710,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), finger of death; **Price** 11,528 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, finger of death; **Price** 11,528 gp"
 		]
 	},
 	"bloodstone_impaler": {
@@ -727,7 +727,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flesh to stone, keen edge; **Price** 18,802 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, flesh to stone, keen edge; **Price** 18,802 gp"
 		]
 	},
 	"goreclaw_of_thercerrod": {
@@ -746,7 +746,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, greater magic fang; **Price** 11,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, greater magic fang; **Price** 11,500 gp"
 		]
 	},
 	"undercutting_axe": {
@@ -766,7 +766,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Maximize Spell, ray of enfeeblement, [summon monster I](spell/summon_monster_1); **Price** 11,810 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Maximize Spell, ray of enfeeblement, [summon monster I](spell/summon_monster_1); **Price** 11,810 gp"
 		]
 	},
 	"sword_of_tempests": {
@@ -783,7 +783,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** 11,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** 11,815 gp"
 		]
 	},
 	"risen_blade": {
@@ -804,7 +804,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), flame strike, creator must be a 9th-level cleric capable of channeling positive energy; **Price** 11,820 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, flame strike, creator must be a 9th-level cleric capable of channeling positive energy; **Price** 11,820 gp"
 		]
 	},
 	"monastic_warden": {
@@ -826,7 +826,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), arrow of law; **Price** 11,930 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, arrow of law; **Price** 11,930 gp"
 		]
 	},
 	"chupar_pick": {
@@ -843,7 +843,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, haste, one chupacabra fang; **Price** 12,304 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, haste, one chupacabra fang; **Price** 12,304 gp"
 		]
 	},
 	"flaying_halberd": {
@@ -860,7 +860,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, inflict critical wounds; **Price** 12,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, inflict critical wounds; **Price** 12,310 gp"
 		]
 	},
 	"emerald-eyed_blade": {
@@ -877,7 +877,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse; **Price** 21,315 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, bestow curse; **Price** 21,315 gp"
 		]
 	},
 	"emerald_eyed_blade": {
@@ -899,7 +899,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), greater magic weapon, keen edge, telekinesis; **Price** 12,502 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, greater magic weapon, keen edge, telekinesis; **Price** 12,502 gp"
 		]
 	},
 	"frost-thunder_hammer": {
@@ -918,7 +918,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), icy prison; **Price** 12,424 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, icy prison; **Price** 12,424 gp"
 		]
 	},
 	"frost_thunder_hammer": {
@@ -940,7 +940,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds, plane shift, [summon monster I](spell/summon_monster_1), creator must be a worshiper of Pharasma; **Price** 12,621 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cure light wounds, plane shift, [summon monster I](spell/summon_monster_1), creator must be a worshiper of Pharasma; **Price** 12,621 gp"
 		]
 	},
 	"spirit_caller": {
@@ -957,7 +957,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic jar, plane shift; **Price** 12,802 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, magic jar, plane shift; **Price** 12,802 gp"
 		]
 	},
 	"slavers_cane": {
@@ -974,7 +974,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Enlarge Spell, resilient sphere; **Price** 12,805 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Enlarge Spell, resilient sphere; **Price** 12,805 gp"
 		]
 	},
 	"dwarfbond_hammer": {
@@ -991,7 +991,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a dwarf of at least 7th level; **Price** 12,812 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a dwarf of at least 7th level; **Price** 12,812 gp"
 		]
 	},
 	"screaming_blade": {
@@ -1012,7 +1012,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sound burst, creator must be evil and torture a sentient creature during creation; **Price** 12,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, sound burst, creator must be evil and torture a sentient creature during creation; **Price** 12,815 gp"
 		]
 	},
 	"red_crusaders_quill": {
@@ -1027,11 +1027,11 @@
 			"",
 			"An artful rapier with a lotus petal guard, this magnificent weapon dedicated to Arazni's former incarnation is useful to warriors and artists alike.",
 			"",
-			"The tip of this narrow +3 rapier can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an [arcane mark](spell/arcane_mark) on the creature. Once per month, the wielder can instead inscribe a [mark of justice](spell/mark_of_justice); this mark ends immediately if the wielder inscribes another [mark of justice](spell/mark_of_justice) with the Red Crusader's quill.",
+			"The tip of this narrow +3 rapier can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an {spell/arcane mark} on the creature. Once per month, the wielder can instead inscribe a {spell/mark of justice}; this mark ends immediately if the wielder inscribes another {spell/mark of justice} with the Red Crusader's quill.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [arcane mark](spell/arcane_mark), [mark of justice](spell/mark_of_justice), creator must worship [Arazni](faith/arazni); **Price** 12,820 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/arcane mark}, {spell/mark of justice}, creator must worship {faith/Arazni}; **Price** 12,820 gp"
 		]
 	},
 	"oathbow": {
@@ -1053,7 +1053,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be an elf; **Price** 13,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be an elf; **Price** 13,100 gp"
 		]
 	},
 	"frozen_crossbow": {
@@ -1070,7 +1070,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, icicle dagger; **Price** 13,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, freedom of movement, icicle dagger; **Price** 13,200 gp"
 		]
 	},
 	"sword_of_life_stealing": {
@@ -1090,7 +1090,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation; **Price** 13,015 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, enervation; **Price** 13,015 gp"
 		]
 	},
 	"daikyu_of_commanding_presence": {
@@ -1109,7 +1109,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, daylight, heroism, true seeing; **Price** 13,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, daylight, heroism, true seeing; **Price** 13,200 gp"
 		]
 	},
 	"shard_of_winter": {
@@ -1126,7 +1126,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ice storm, telepathic bond, creator must be a winter witch; **Price** 13,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, ice storm, telepathic bond, creator must be a winter witch; **Price** 13,302 gp"
 		]
 	},
 	"density_hammer": {
@@ -1143,7 +1143,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stone to flesh; **Price** 12,340 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, stone to flesh; **Price** 12,340 gp"
 		]
 	},
 	"calistrian_kiss": {
@@ -1162,7 +1162,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, pernicious poison; **Price** 13,380 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, death knell, pernicious poison; **Price** 13,380 gp"
 		]
 	},
 	"dakaks_tusks": {
@@ -1181,7 +1181,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, enervation; **Price** 13,616 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, enervation; **Price** 13,616 gp"
 		]
 	},
 	"shatterstone_hammer": {
@@ -1198,7 +1198,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shatter, slow; **Price** 13,512 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shatter, slow; **Price** 13,512 gp"
 		]
 	},
 	"angelfall_bow": {
@@ -1219,7 +1219,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dust of twilight, thundering drums; **Price** 13,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, dust of twilight, thundering drums; **Price** 13,750 gp"
 		]
 	},
 	"scimitar_of_the_striking_wing": {
@@ -1236,7 +1236,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), feather fall, fly; **Price** 13,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, feather fall, fly; **Price** 13,500 gp"
 		]
 	},
 	"mount-splitting_pick_dwarf": {
@@ -1255,7 +1255,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), soften earth and stone, creator must be a dwarf; **Price** 15,508 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, soften earth and stone, creator must be a dwarf; **Price** 15,508 gp"
 		]
 	},
 	"mount_splitting_pick": {
@@ -1279,7 +1279,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), aid, break enchantment; **Price** 15,015 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, aid, break enchantment; **Price** 15,015 gp"
 		]
 	},
 	"marrowcracker": {
@@ -1296,7 +1296,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), calcific touch, divine power, ray of enfeeblement; **Price** 14,312 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, calcific touch, divine power, ray of enfeeblement; **Price** 14,312 gp"
 		]
 	},
 	"the_thundering_blade_of_the_house_of_sugimatu": {
@@ -1317,7 +1317,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, shout; **Price** 14,375 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blindness/deafness, shout; **Price** 14,375 gp"
 		]
 	},
 	"vaultbow": {
@@ -1349,7 +1349,7 @@
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 28,800 gp; **Weight** 4 lbs.",
 			"",
-			"This broad-bladed +1 ghost touch [nine-ring broadsword](equipment-weapon/nine-ring_broadsword) is crafted of silvery-gray steel, with nine golden rings threaded through its spine that glow with magical power. Streamers of blue and purple silk hang from the sword's pommel.",
+			"This broad-bladed +1 ghost touch {equipment-weapon/nine-ring broadsword} is crafted of silvery-gray steel, with nine golden rings threaded through its spine that glow with magical power. Streamers of blue and purple silk hang from the sword's pommel.",
 			"",
 			"The nine-fold spirit sword has 9 charges, represented by its nine rings. As a swift action, the wielder can discharge the energy in these rings to create one of three effects.",
 			"",
@@ -1363,7 +1363,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel evil, disrupting weapon, plane shift, [summon monster I](spell/summon_monster_1); **Price** 14,560 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dispel evil, disrupting weapon, plane shift, [summon monster I](spell/summon_monster_1); **Price** 14,560 gp"
 		]
 	},
 	"nine_fold_spirit_sword": {
@@ -1383,7 +1383,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), levitate, permanency, shrink item, web; **Price** 14,470 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, levitate, permanency, shrink item, web; **Price** 14,470 gp"
 		]
 	},
 	"tenacious_atlatl_dart": {
@@ -1400,7 +1400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, telekinesis; **Price** 14,701 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dispel magic, telekinesis; **Price** 14,701 gp"
 		]
 	},
 	"crowcaller": {
@@ -1417,7 +1417,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, speak with dead; **Price** 14,710 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, keen edge, speak with dead; **Price** 14,710 gp"
 		]
 	},
 	"dragonmaw_nunchaku": {
@@ -1436,7 +1436,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blade barrier, confusion; **Price** 15,102 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blade barrier, confusion; **Price** 15,102 gp"
 		]
 	},
 	"hearthhammer": {
@@ -1453,7 +1453,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fabricate; **Price** 16,506 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fabricate; **Price** 16,506 gp"
 		]
 	},
 	"gauntlets_of_skill_at_arms": {
@@ -1470,7 +1470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be an elf; **Price** 15,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be an elf; **Price** 15,302 gp"
 		]
 	},
 	"devil_catcher": {
@@ -1487,7 +1487,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, invisibility purge; **Price** 15,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimensional anchor, invisibility purge; **Price** 15,320 gp"
 		]
 	},
 	"rapier_of_battlefield_movement": {
@@ -1504,7 +1504,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, creator must have 10 ranks in Craft (weapons); **Price** 15,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, freedom of movement, creator must have 10 ranks in Craft (weapons); **Price** 15,350 gp"
 		]
 	},
 	"wandering_punishment": {
@@ -1517,13 +1517,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 30,320 gp; **Weight** 10 lbs.",
 			"",
-			"The oni of Chu Ye grant these +3 tetsubos to loyal human servants, who use them to enforce the oni's will throughout the nation in spite of the Steel Dictate limiting their involvement. The wielder of a wandering punishment can, as a standard action, assume the appearance of an oni of her size as though under the effects of [alter self](spell/alter_self). This transformation does not affect her ability scores and lasts as long as the weapon is held in one or both hands. Once per day, the wielder can also grow in stature as per [enlarge person](spell/enlarge_person), taking on the form of a larger oni in the process. This growth lasts 10 minutes or until the wielder drops the wandering punishment.",
+			"The oni of Chu Ye grant these +3 tetsubos to loyal human servants, who use them to enforce the oni's will throughout the nation in spite of the Steel Dictate limiting their involvement. The wielder of a wandering punishment can, as a standard action, assume the appearance of an oni of her size as though under the effects of {spell/alter self}. This transformation does not affect her ability scores and lasts as long as the weapon is held in one or both hands. Once per day, the wielder can also grow in stature as per {spell/enlarge person}, taking on the form of a larger oni in the process. This growth lasts 10 minutes or until the wielder drops the wandering punishment.",
 			"",
 			"Once per day while enlarged, the wielder can deliver an awesome blow. As a standard action, the wielder can attempt a free bull rush combat maneuver check as part of a standard attack with a wandering punishment. She can't move with her target if this combat maneuver succeeds.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1); **Price** 15,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1); **Price** 15,160 gp"
 		]
 	},
 	"starbow": {
@@ -1540,7 +1540,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), searing light, warp wood; **Price** 15,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, searing light, warp wood; **Price** 15,400 gp"
 		]
 	},
 	"pale_maiden_0_wishes": {
@@ -1557,7 +1557,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), miracle or wish; **Price** 16,190 gp (0 wishes), 48,840 gp (1 wish), 81,490 gp (2 wishes), 114,140 gp (3 wishes)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, miracle or wish; **Price** 16,190 gp (0 wishes), 48,840 gp (1 wish), 81,490 gp (2 wishes), 114,140 gp (3 wishes)"
 		]
 	},
 	"mokele-mbembe_tail_whip": {
@@ -1574,7 +1574,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shout; **Price** 16,301 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shout; **Price** 16,301 gp"
 		]
 	},
 	"mokele_mbembe_tail_whip": {
@@ -1590,11 +1590,11 @@
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** none; **Price** 32,310 gp; **Weight** 2 lbs.",
 			"",
-			"An unnaturally cold, razor-thin blade of magically-hardened ice juts from the pommel of this +1 [frost](magic-enhancement/frost) [keen](magic-enhancement/keen) short sword. On a confirmed critical hit, an ice shard breaks off into the wound and inflicts numbing cold. For the next 5 rounds, the victim takes 2 points of cold damage and is staggered for that round if he takes this damage. This is a bleed effect. The shard can be removed as a standard action with a successful DC 15 Heal check or with the application of any magical healing, and is destroyed instantly if the victim takes at least 5 points of fire damage from any attack. The shard lasts for only 1 round when inflicted on a creature with the fire subtype. A blade of the ice stalker can implant an ice shard once per minute.",
+			"An unnaturally cold, razor-thin blade of magically-hardened ice juts from the pommel of this +1 {magic-enhancement/frost} {magic-enhancement/keen} short sword. On a confirmed critical hit, an ice shard breaks off into the wound and inflicts numbing cold. For the next 5 rounds, the victim takes 2 points of cold damage and is staggered for that round if he takes this damage. This is a bleed effect. The shard can be removed as a standard action with a successful DC 15 Heal check or with the application of any magical healing, and is destroyed instantly if the victim takes at least 5 points of fire damage from any attack. The shard lasts for only 1 round when inflicted on a creature with the fire subtype. A blade of the ice stalker can implant an ice shard once per minute.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](spell/bleed), [chill metal](spell/chill_metal), [keen edge](spell/keen_edge); **Price** 16,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}, {spell/chill metal}, {spell/keen edge}; **Price** 16,310 gp"
 		]
 	},
 	"dragons_tail": {
@@ -1611,7 +1611,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resonating word, [summon monster I](spell/summon_monster_1); **Price** 16,155 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, resonating word, [summon monster I](spell/summon_monster_1); **Price** 16,155 gp"
 		]
 	},
 	"mammoth_lance": {
@@ -1633,7 +1633,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animal growth, bull's strength; **Price** 16,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animal growth, bull's strength; **Price** 16,310 gp"
 		]
 	},
 	"serpent-necked_flail": {
@@ -1650,7 +1650,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste; **Price** 16,165 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, haste; **Price** 16,165 gp"
 		]
 	},
 	"serpent_necked_flail": {
@@ -1672,7 +1672,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sanctuary, creator must be a Taldan; **Price** 16,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, sanctuary, creator must be a Taldan; **Price** 16,320 gp"
 		]
 	},
 	"gentlemans_foil": {
@@ -1692,7 +1692,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, creator must be good; **Price** 16,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, holy smite, creator must be good; **Price** 16,350 gp"
 		]
 	},
 	"crossbow_of_retribution": {
@@ -1709,7 +1709,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), retribution, [summon monster I](spell/summon_monster_1), true seeing; **Price** 16,700 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, retribution, [summon monster I](spell/summon_monster_1), true seeing; **Price** 16,700 gp"
 		]
 	},
 	"murderers_machete": {
@@ -1728,7 +1728,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 16,590 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 16,590 gp"
 		]
 	},
 	"fire_goddesss_blade": {
@@ -1747,7 +1747,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), flame blade, greater magic weapon; **Price** 16,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, flame blade, greater magic weapon; **Price** 16,815 gp"
 		]
 	},
 	"maxim_of_suppressive_fire": {
@@ -1764,7 +1764,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), phase door; **Price** 17,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, phase door; **Price** 17,800 gp"
 		]
 	},
 	"talonstrike_sword": {
@@ -1781,7 +1781,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, shield or shield of faith; **Price** 18,435 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimensional anchor, shield or shield of faith; **Price** 18,435 gp"
 		]
 	},
 	"cutthroats_apprentice": {
@@ -1794,11 +1794,11 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 33,910 gp; **Weight** 2 lbs.",
 			"",
-			"This simply made +1 dancing shortsword leaps to hand at the slightest touch. It can be drawn as a free action as though using the [Quick Draw](feat/quick_draw) feat. The cutthroat's apprentice dances for 8 rounds instead of 4 when activated, but can only dance twice per day. When dancing and attacking a creature, it moves into the target's space and provides the person who activated it (but no other creatures) with flanking during his turn if he attacks the same target in melee. Once the sword's activator completes his turn, the sword moves back to her space. If directed to attack multiple creatures in the same turn, the cutthroat's apprentice provides a flank against only the last creature attacked.",
+			"This simply made +1 dancing shortsword leaps to hand at the slightest touch. It can be drawn as a free action as though using the {feat/Quick Draw} feat. The cutthroat's apprentice dances for 8 rounds instead of 4 when activated, but can only dance twice per day. When dancing and attacking a creature, it moves into the target's space and provides the person who activated it (but no other creatures) with flanking during his turn if he attacks the same target in melee. Once the sword's activator completes his turn, the sword moves back to her space. If directed to attack multiple creatures in the same turn, the cutthroat's apprentice provides a flank against only the last creature attacked.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, unwitting ally; **Price** 17,110 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects, unwitting ally; **Price** 17,110 gp"
 		]
 	},
 	"wolflords_fang": {
@@ -1811,13 +1811,13 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 34,335 gp; **Weight** 6 lbs.",
 			"",
-			"This +2 [huntsman](magic-enhancement/huntsman) bastard sword has a grip bound in leather and trimmed with fur. Once per round when the wielder strikes a target with the sword, he can allow an ally of his choice to perform a trip combat maneuver against the target as an immediate action, provided the ally is adjacent to the target struck. This trip attempt doesn't provoke attacks of opportunity. If the attempt fails, the wielder's ally is not tripped in return.",
+			"This +2 {magic-enhancement/huntsman} bastard sword has a grip bound in leather and trimmed with fur. Once per round when the wielder strikes a target with the sword, he can allow an ally of his choice to perform a trip combat maneuver against the target as an immediate action, provided the ally is adjacent to the target struck. This trip attempt doesn't provoke attacks of opportunity. If the attempt fails, the wielder's ally is not tripped in return.",
 			"",
 			"As a standard action on command three times per day, the wielder can unleash a spine-chilling howl. When he does so, he attempts a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. Allies within 30 feet can join the howl as an immediate action to aid the wielder's Intimidate check, granting a +2 bonus to the wielder's check for each ally who succeeds at a DC 10 Intimidate check. Allies who howl can also immediately take a 5-foot step. This movement does not count against their ability to move or take a 5-foot step earlier or later in the round.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aspect of the wolf](spell/aspect_of_the_wolf), [detect animals or plants](spell/detect_animals_or_plants); **Price** 17,335 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aspect of the wolf}, {spell/detect animals or plants}; **Price** 17,335 gp"
 		]
 	},
 	"quarterstaff_of_contemplation": {
@@ -1836,7 +1836,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a 7th-level monk; **Price** 17,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a 7th-level monk; **Price** 17,550 gp"
 		]
 	},
 	"withershot": {
@@ -1853,7 +1853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning, contagion; **Price** 17,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, call lightning, contagion; **Price** 17,400 gp"
 		]
 	},
 	"errani_kamaki_gillmen": {
@@ -1872,7 +1872,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, warp wood, creator must be a gillman; **Price** 17,655 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, warp wood, creator must be a gillman; **Price** 17,655 gp"
 		]
 	},
 	"errani_kamaki": {
@@ -1894,7 +1894,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature, returning weapon, creator must be a Mwangi; **Price** 17,804 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, locate creature, returning weapon, creator must be a Mwangi; **Price** 17,804 gp"
 		]
 	},
 	"hunters_mambele": {
@@ -1914,7 +1914,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heal, plane shift; **Price** 17,812 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, heal, plane shift; **Price** 17,812 gp"
 		]
 	},
 	"scalerazor_azlanti": {
@@ -1933,7 +1933,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from evil](spell/protection_from_evil), [summon monster I](spell/summon_monster_1), creator must be an Azlanti; **Price** 17,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/protection from evil}, [summon monster I](spell/summon_monster_1), creator must be an Azlanti; **Price** 17,815 gp"
 		]
 	},
 	"scalerazor": {
@@ -1953,7 +1953,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, daze; **Price** 17,820 gp"
+			"**Requirements** {feat/Combat Reflexes}, {feat/Craft Magic Arms and Armor}, cat's grace, daze; **Price** 17,820 gp"
 		]
 	},
 	"enervative_shadowcraft_weapon": {
@@ -1970,7 +1970,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation, major creation, shadow weapon; **Price** 18,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, enervation, major creation, shadow weapon; **Price** 18,000 gp"
 		]
 	},
 	"minds_eye_blade": {
@@ -1989,7 +1989,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mind probe; **Price** 18,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, mind probe; **Price** 18,302 gp"
 		]
 	},
 	"channelers_aspergillum": {
@@ -2010,7 +2010,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mass cure light wounds, mass inflict light wounds, creator must be able to channel energy; **Price** 18,305 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, mass cure light wounds, mass inflict light wounds, creator must be able to channel energy; **Price** 18,305 gp"
 		]
 	},
 	"avalanche_sling_staff": {
@@ -2027,7 +2027,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stone call; **Price** 18,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, stone call; **Price** 18,320 gp"
 		]
 	},
 	"hunters_starknife": {
@@ -2044,7 +2044,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, faerie fire; **Price** 18,324 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, faerie fire; **Price** 18,324 gp"
 		]
 	},
 	"seraphic_pistol": {
@@ -2061,7 +2061,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), versatile weapon; **Price** 19,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, versatile weapon; **Price** 19,800 gp"
 		]
 	},
 	"brutal_axe": {
@@ -2074,13 +2074,13 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 38,000 gp; **Weight** 12 lbs.",
 			"",
-			"The haft of this +1 adamantine greataxe is carved from the limb of a treant slain by fire. While wielding this axe, a creature is considered to have the [Improved Sunder](feat/improved_sunder) feat. It also deals an additional 1d12 points of damage when used to sunder. If the wielder already has Improved Sunder, the axe grants [Greater Sunder](feat/greater_sunder); and if the wielder already has Greater Sunder, it instead provides a further +2 bonus on sunder combat maneuver checks.",
+			"The haft of this +1 adamantine greataxe is carved from the limb of a treant slain by fire. While wielding this axe, a creature is considered to have the {feat/Improved Sunder} feat. It also deals an additional 1d12 points of damage when used to sunder. If the wielder already has Improved Sunder, the axe grants {feat/Greater Sunder}; and if the wielder already has Greater Sunder, it instead provides a further +2 bonus on sunder combat maneuver checks.",
 			"",
 			"As an immediate action after making a successful attack with the axe, the wielder can expend one use of mythic power to make a combat maneuver check to sunder a single item being used by the creature he just successfully attacked. This sunder attempt deals double damage and uses the wielder's full base attack bonus. If the item is destroyed by this sunder attempt, no excess damage is applied to the item's wielder or other items.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), bull's strength, ironwood; **Price** 12,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, bull's strength, ironwood; **Price** 12,320 gp"
 		]
 	},
 	"savage_sting": {
@@ -2097,7 +2097,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison, true seeing; **Price** 19,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, poison, true seeing; **Price** 19,302 gp"
 		]
 	},
 	"chaos_hammer": {
@@ -2114,7 +2114,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), align weapon, chaos hammer, creator must be chaotic; **Price** 19,312 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, align weapon, chaos hammer, creator must be chaotic; **Price** 19,312 gp"
 		]
 	},
 	"silent_sentry_crossbow": {
@@ -2133,7 +2133,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), alarm, minor creation, silence; **Price** 19,335 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, alarm, minor creation, silence; **Price** 19,335 gp"
 		]
 	},
 	"banshees_howl": {
@@ -2154,7 +2154,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), crushing despair, wail of the banshee; **Price** 19,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, crushing despair, wail of the banshee; **Price** 19,400 gp"
 		]
 	},
 	"mace_of_terror": {
@@ -2174,7 +2174,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear; **Price** 19,432 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fear; **Price** 19,432 gp"
 		]
 	},
 	"talon_sword_talonstrike": {
@@ -2198,7 +2198,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear, scorching ray, unholy blight; **Price** 19,805 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fear, scorching ray, unholy blight; **Price** 19,805 gp"
 		]
 	},
 	"ice_fang": {
@@ -2217,7 +2217,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), endure elements, ice storm, shrink item; **Price** 19,915 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, endure elements, ice storm, shrink item; **Price** 19,915 gp"
 		]
 	},
 	"dragons_doom": {
@@ -2234,7 +2234,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), discern location, light, [summon monster I](spell/summon_monster_1); **Price** 20,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, discern location, light, [summon monster I](spell/summon_monster_1); **Price** 20,310 gp"
 		]
 	},
 	"frostblood_axe": {
@@ -2251,7 +2251,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bleed, bless, chill metal, death knell, divine favor; **Price** 20,310 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, bleed, bless, chill metal, death knell, divine favor; **Price** 20,310 gp"
 		]
 	},
 	"life_drinker": {
@@ -2273,7 +2273,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation; **Price** 20,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, enervation; **Price** 20,320 gp"
 		]
 	},
 	"trailwalker": {
@@ -2286,13 +2286,13 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 40,372 gp; **Weight** 2 lbs.",
 			"",
-			"This +1 mithral [bladed scarf](equipment-weapon/bladed_scarf) is unusually long and ornate, patched and expanded over several generations into a garish collection of colors and stitching in the shapes of Varisian names and stylized map icons. Because of its extra length and magically enhanced balance and accuracy, when the wielder makes a full attack with Trailwalker, he can strike foes with it as if the item had the reach quality and still attack opponents adjacent to the wielder. This doesn't expand the wielder's reach for any attacks beyond those made as part of the full attack (such as attacks of opportunity).",
+			"This +1 mithral {equipment-weapon/bladed scarf} is unusually long and ornate, patched and expanded over several generations into a garish collection of colors and stitching in the shapes of Varisian names and stylized map icons. Because of its extra length and magically enhanced balance and accuracy, when the wielder makes a full attack with Trailwalker, he can strike foes with it as if the item had the reach quality and still attack opponents adjacent to the wielder. This doesn't expand the wielder's reach for any attacks beyond those made as part of the full attack (such as attacks of opportunity).",
 			"",
-			"Once per day as a standard action, Trailwalker's wielder can whirl the scarf through the air and teleport as though using [dimension door](spell/dimension_door). The wielder can't transport other creatures with this ability. If this ability is used to take the wielder from one spot on a road or trail to another spot on that or a connected road or trail (even if the connection is lengthy or indirect), this is a move action instead.",
+			"Once per day as a standard action, Trailwalker's wielder can whirl the scarf through the air and teleport as though using {spell/dimension door}. The wielder can't transport other creatures with this ability. If this ability is used to take the wielder from one spot on a road or trail to another spot on that or a connected road or trail (even if the connection is lengthy or indirect), this is a move action instead.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimension door; **Price** 20,842 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimension door; **Price** 20,842 gp"
 		]
 	},
 	"valors_minion": {
@@ -2309,7 +2309,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite; **Price** 20,168 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, holy smite; **Price** 20,168 gp"
 		]
 	},
 	"shade_bow": {
@@ -2326,7 +2326,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invisibility, creator must have 4 ranks in Stealth; **Price** 20,935 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, invisibility, creator must have 4 ranks in Stealth; **Price** 20,935 gp"
 		]
 	},
 	"infecting_spike": {
@@ -2347,7 +2347,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion; **Price** 21,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, contagion; **Price** 21,350 gp"
 		]
 	},
 	"staff_of_the_hooded_cobra": {
@@ -2364,7 +2364,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison, shield of faith; **Price** 21,360 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, poison, shield of faith; **Price** 21,360 gp"
 		]
 	},
 	"summoners_sorrow": {
@@ -2383,7 +2383,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dismissal, dispel magic; **Price** 21,566 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dismissal, dispel magic; **Price** 21,566 gp"
 		]
 	},
 	"jackals_blade": {
@@ -2400,7 +2400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bane, unholy blight; **Price** 22,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bane, unholy blight; **Price** 22,875 gp"
 		]
 	},
 	"feast_of_rats": {
@@ -2419,7 +2419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Create Reliquary Arms and Shields, deeper darkness, fog cloud, major creation, shadow weapon; **Price** 22,712 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Create Reliquary Arms and Shields, deeper darkness, fog cloud, major creation, shadow weapon; **Price** 22,712 gp"
 		]
 	},
 	"axe_of_forced_life": {
@@ -2438,7 +2438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), breath of life, dispel evil; **Price** 22,810 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, breath of life, dispel evil; **Price** 22,810 gp"
 		]
 	},
 	"crusaders_longsword": {
@@ -2455,7 +2455,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, [summon monster I](spell/summon_monster_1), creator must worship Iomedae, creator must be a paladin or a warpriest; **Price** 23,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, holy smite, [summon monster I](spell/summon_monster_1), creator must worship Iomedae, creator must be a paladin or a warpriest; **Price** 23,815 gp"
 		]
 	},
 	"sylvan_scimitar": {
@@ -2471,11 +2471,11 @@
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Price** 47,315 gp; **Weight** 4 lbs.",
 			"",
-			"When used outdoors in a temperate climate, this +3 scimitar grants its wielder the use of the [Cleave](feat/cleave) feat and deals an extra 1d6 points of damage.",
+			"When used outdoors in a temperate climate, this +3 scimitar grants its wielder the use of the {feat/Cleave} feat and deals an extra 1d6 points of damage.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), divine power or creator must be a 7th-level druid; **Price** 23,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, divine power or creator must be a 7th-level druid; **Price** 23,815 gp"
 		]
 	},
 	"spirit_blade": {
@@ -2495,7 +2495,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, plane shift, creator must be 9th level; **Price** 24,402 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dispel magic, plane shift, creator must be 9th level; **Price** 24,402 gp"
 		]
 	},
 	"chadas_harpoon": {
@@ -2510,11 +2510,11 @@
 			"",
 			"This +2 keen returning spear is adorned with feathers and fur, as well as with a bright steel chain that trails down from the top of its haft.",
 			"",
-			"On a critical hit, Chada's harpoon lodges into the target's flesh or armor, and the wielder can choose to [pull](umr/pull) the target toward him, reeling the victim in by use of the magically extended chain. This functions as the [pull](umr/pull) universal monster ability with the following exceptions. Compare the initial attack roll (instead of a new CMB check) to the target's CMD to determine success. Success pulls the target 20 feet closer to the wielder. The wielder can make additional attack rolls each round (instead of new CMB checks) to pull the victim closer. Unlike the normal pull ability, Chada's harpoon can pull creatures of any size. Once the target is pulled adjacent to the wielder, the bull rush ends.",
+			"On a critical hit, Chada's harpoon lodges into the target's flesh or armor, and the wielder can choose to {umr/pull} the target toward him, reeling the victim in by use of the magically extended chain. This functions as the {umr/pull} universal monster ability with the following exceptions. Compare the initial attack roll (instead of a new CMB check) to the target's CMD to determine success. Success pulls the target 20 feet closer to the wielder. The wielder can make additional attack rolls each round (instead of new CMB checks) to pull the victim closer. Unlike the normal pull ability, Chada's harpoon can pull creatures of any size. Once the target is pulled adjacent to the wielder, the bull rush ends.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, telekinesis; **Price** 25,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, keen edge, telekinesis; **Price** 25,302 gp"
 		]
 	},
 	"heartswood_spear": {
@@ -2531,7 +2531,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heal, summon monster; **Price** 25,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, heal, summon monster; **Price** 25,302 gp"
 		]
 	},
 	"traitors_blade": {
@@ -2551,7 +2551,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, charm monster, inflict moderate wounds; **Price** 25,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, charm monster, inflict moderate wounds; **Price** 25,302 gp"
 		]
 	},
 	"mace_of_keys": {
@@ -2590,7 +2590,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), harm; **Price** 25,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, harm; **Price** 25,320 gp"
 		]
 	},
 	"sun_blade": {
@@ -2606,7 +2606,7 @@
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 50,335 gp; **Weight** 2 lbs.",
 			"",
-			"This sword is the size of a bastard sword. However, a sun blade is wielded as if it were a short sword with respect to weight and ease of use. In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword. Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, [Weapon Focus](feat/weapon_focus) and [Weapon Specialization](feat/weapon_specialization) in short sword and bastard sword apply equally, but the benefits of those feats do not stack.",
+			"This sword is the size of a bastard sword. However, a sun blade is wielded as if it were a short sword with respect to weight and ease of use. In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword. Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, {feat/Weapon Focus} and {feat/Weapon Specialization} in short sword and bastard sword apply equally, but the benefits of those feats do not stack.",
 			"",
 			"In normal combat, the glowing golden blade of the weapon is equal to a +2 bastard sword. Against evil creatures, its enhancement bonus is +4. Against Negative Energy Plane creatures or undead creatures, the sword deals double damage (and &times;3 on a critical hit instead of the usual &times;2).",
 			"",
@@ -2614,7 +2614,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, creator must be good; **Price** 25,335 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, daylight, creator must be good; **Price** 25,335 gp"
 		]
 	},
 	"storvals_thunder_shoanti": {
@@ -2633,7 +2633,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt, sound burst, creator must be a Shoanti; **Price** 25,340 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, lightning bolt, sound burst, creator must be a Shoanti; **Price** 25,340 gp"
 		]
 	},
 	"storvals_thunder": {
@@ -2655,7 +2655,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), antimagic field, creator must be a Kellid; **Price** 25,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, antimagic field, creator must be a Kellid; **Price** 25,350 gp"
 		]
 	},
 	"true_warriors_blade": {
@@ -2675,7 +2675,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), flame strike, scorching ray; **Price** 25,375 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, flame strike, scorching ray; **Price** 25,375 gp"
 		]
 	},
 	"enervating_pistol": {
@@ -2692,7 +2692,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/ clairvoyance, finger of death, enervation, mending; **Price** 26,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, clairaudience/ clairvoyance, finger of death, enervation, mending; **Price** 26,300 gp"
 		]
 	},
 	"blade_of_the_rising_sun": {
@@ -2713,7 +2713,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, daylight, flare, miracle, sunburst; **Price** 28,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blindness/deafness, daylight, flare, miracle, sunburst; **Price** 28,100 gp"
 		]
 	},
 	"rotcarver": {
@@ -2726,11 +2726,11 @@
 			"**Aura** strong conjuration and necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 52,118 gp; **Weight** 10 lbs.",
 			"",
-			"Though largely constructed in the image of Deskari's own terrible scythe, Riftcarver, these +3 scythes bear tiny cracks and etchings that, upon close examination, make the weapons appear like they're constructed of minute petrified maggots. Once per day, upon scoring a successful critical hit with a Rotcarver, the wielder can animate part of the blade as a rot grub that immediately attempts to burrow into to the victim struck. The victim must succeed at a DC 15 Reflex save to avoid the grub; otherwise, it is affected as per the description of [rot grubs](infestation/rot_grubs). Additionally, once per week, the Rotcarver's wielder can transform it into a swarm of [rot grubs](monster/rot_grub_swarm). The swarm obeys the wielder's commands for 13 rounds before turning back into a weapon. If the swarm is destroyed, it immediately reverts back to a weapon, which is undamaged. The wielder takes no ill effects from a swarm under his control.",
+			"Though largely constructed in the image of Deskari's own terrible scythe, Riftcarver, these +3 scythes bear tiny cracks and etchings that, upon close examination, make the weapons appear like they're constructed of minute petrified maggots. Once per day, upon scoring a successful critical hit with a Rotcarver, the wielder can animate part of the blade as a rot grub that immediately attempts to burrow into to the victim struck. The victim must succeed at a DC 15 Reflex save to avoid the grub; otherwise, it is affected as per the description of {infestation/rot grubs}. Additionally, once per week, the Rotcarver's wielder can transform it into a swarm of [rot grubs](monster/rot_grub_swarm). The swarm obeys the wielder's commands for 13 rounds before turning back into a weapon. If the swarm is destroyed, it immediately reverts back to a weapon, which is undamaged. The wielder takes no ill effects from a swarm under his control.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion, [summon monster VII](spell/summon_monster_7); **Price** 26,218 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, contagion, [summon monster VII](spell/summon_monster_7); **Price** 26,218 gp"
 		]
 	},
 	"rythius_the_kyton_scourge": {
@@ -2749,7 +2749,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, holy smite, creator must be good; **Price** 26,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimensional anchor, holy smite, creator must be good; **Price** 26,650 gp"
 		]
 	},
 	"farspear": {
@@ -2762,11 +2762,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 53,801 gp; **Weight** 3 lbs.",
 			"",
-			"This +2 elysian bronze spear is capable of warping space to strike faraway targets as if they stood within arm's reach. As a standard action, the farspear's wielder can make a single melee attack against a creature within 60 feet as though it were within his melee reach. Cover and concealment apply as if making a ranged attack. The wielder can use any [Vital Strike](feat/vital_strike) feat he has as part of this melee attack. The Spiresworn based these weapons upon the legendary Azlanti farspears, artifacts created by the warrior goddess Acavna that allowed wielders to strike from leagues away.",
+			"This +2 elysian bronze spear is capable of warping space to strike faraway targets as if they stood within arm's reach. As a standard action, the farspear's wielder can make a single melee attack against a creature within 60 feet as though it were within his melee reach. Cover and concealment apply as if making a ranged attack. The wielder can use any {feat/Vital Strike} feat he has as part of this melee attack. The Spiresworn based these weapons upon the legendary Azlanti farspears, artifacts created by the warrior goddess Acavna that allowed wielders to strike from leagues away.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dimension door](spell/dimension_door); **Price** 27,551 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dimension door}; **Price** 27,551 gp"
 		]
 	},
 	"windreaders_bow": {
@@ -2783,7 +2783,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, locate creature, warp wood; **Price** 27,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, locate creature, warp wood; **Price** 27,400 gp"
 		]
 	},
 	"frost_brand": {
@@ -2805,7 +2805,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, ice storm, protection from energy; **Price** 27,375 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dispel magic, ice storm, protection from energy; **Price** 27,375 gp"
 		]
 	},
 	"stalkers_crossbow": {
@@ -2822,7 +2822,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), locate creature, [summon monster I](spell/summon_monster_1), true seeing; **Price** 27,535 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, locate creature, [summon monster I](spell/summon_monster_1), true seeing; **Price** 27,535 gp"
 		]
 	},
 	"pactseekers_blade": {
@@ -2839,7 +2839,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cause fear, death knell, symbol of pain; **Price** 27,830 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cause fear, death knell, symbol of pain; **Price** 27,830 gp"
 		]
 	},
 	"snakebite": {
@@ -2856,7 +2856,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, pernicious poison; **Price** 28,660 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, pernicious poison; **Price** 28,660 gp"
 		]
 	},
 	"talmandor_blade": {
@@ -2873,7 +2873,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), darkvision, holy smite, stone to flesh, creator must be good; **Price** 29,465 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, darkvision, holy smite, stone to flesh, creator must be good; **Price** 29,465 gp"
 		]
 	},
 	"depth_charger": {
@@ -2892,7 +2892,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Gunsmithing](feat/gunsmithing), air bubble, mending, [summon monster I](spell/summon_monster_1), water breathing; **Price** 30,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Gunsmithing}, air bubble, mending, [summon monster I](spell/summon_monster_1), water breathing; **Price** 30,550 gp"
 		]
 	},
 	"thorn_bow": {
@@ -2909,7 +2909,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), instant enemy, wall of thorns; **Price** 30,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, instant enemy, wall of thorns; **Price** 30,200 gp"
 		]
 	},
 	"torment_of_the_midnight_lord": {
@@ -2928,7 +2928,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Create Reliquary Arms and Shields, major creation, shadow weapon, symbol of pain; **Price** 30,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Create Reliquary Arms and Shields, major creation, shadow weapon, symbol of pain; **Price** 30,000 gp"
 		]
 	},
 	"hateful_sting": {
@@ -2945,7 +2945,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, summon swarm; **Price** 30,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects, summon swarm; **Price** 30,302 gp"
 		]
 	},
 	"dwarven_thrower": {
@@ -2965,7 +2965,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a dwarf of at least 10th level; **Price** 30,312 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a dwarf of at least 10th level; **Price** 30,312 gp"
 		]
 	},
 	"clever_sling_staff_halfling": {
@@ -2984,7 +2984,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste, true seeing, creator must be a halfling; **Price** 30,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, haste, true seeing, creator must be a halfling; **Price** 30,320 gp"
 		]
 	},
 	"clever_sling_staff": {
@@ -3006,7 +3006,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, inflict serious wounds; **Price** 30,552 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, inflict serious wounds; **Price** 30,552 gp"
 		]
 	},
 	"earth_breaker_of_righted_injustice": {
@@ -3023,7 +3023,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); chaos hammer; fireball, flame blade, or flame strike; creator must be chaotic; **Price** 30,840 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}; chaos hammer; fireball, flame blade, or flame strike; creator must be chaotic; **Price** 30,840 gp"
 		]
 	},
 	"warbringer": {
@@ -3040,7 +3040,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, murderous command, rage; **Price** 30,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, keen edge, murderous command, rage; **Price** 30,875 gp"
 		]
 	},
 	"skulking_snipers_blowgun": {
@@ -3057,7 +3057,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clairaudience/clairvoyance, greater invisibility, silence; **Price** 31,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, clairaudience/clairvoyance, greater invisibility, silence; **Price** 31,302 gp"
 		]
 	},
 	"luck_blade_1_wish": {
@@ -3082,7 +3082,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deathwatch, good hope, heal, threefold aspect; **Price** 31,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, deathwatch, good hope, heal, threefold aspect; **Price** 31,800 gp"
 		]
 	},
 	"blancher": {
@@ -3099,7 +3099,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, bleed; **Price** 33,312 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bestow curse, bleed; **Price** 33,312 gp"
 		]
 	},
 	"molvenn": {
@@ -3118,7 +3118,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blindness/deafness, rage; **Price** 31,812 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blindness/deafness, rage; **Price** 31,812 gp"
 		]
 	},
 	"guarding_blade": {
@@ -3138,7 +3138,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, mage's faithful hound; **Price** 32,810 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects, mage's faithful hound; **Price** 32,810 gp"
 		]
 	},
 	"crimson_bluff": {
@@ -3160,7 +3160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be an 11th-level cleric of Achaekek or be able to cast haste, mirror image, and mislead; **Price** 32,955 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be an 11th-level cleric of Achaekek or be able to cast haste, mirror image, and mislead; **Price** 32,955 gp"
 		]
 	},
 	"devils_key": {
@@ -3177,7 +3177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), consecrate, holy smite, plane shift, creator must be good; **Price** 33,533 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, consecrate, holy smite, plane shift, creator must be good; **Price** 33,533 gp"
 		]
 	},
 	"karusetsu_the_cutting_light": {
@@ -3194,7 +3194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mage's sword, searing light; **Price** 33,930 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, mage's sword, searing light; **Price** 33,930 gp"
 		]
 	},
 	"seaspike": {
@@ -3209,15 +3209,15 @@
 			"",
 			"This elegant, short-hafted spear has a razor-sharp head carved from a single piece of ivory. A twisting ring of ivory and jade tentacles hovers and slowly rotates just beneath the spearhead. Along the walnut haft sparkle tiny chips of peridot, each the size of a pinhead. Seaspike is a [+3 aberration bane shortspear](magic-enhancement/bane) with three special properties.",
 			"",
-			"First, the wielder of Seaspike can cast [fire shield](spell/fire_shield) (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater.",
+			"First, the wielder of Seaspike can cast {spell/fire shield} (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater.",
 			"",
 			"Second, Seaspike grants its wielder a swim speed of 30 feet when held. If the wielder already has a swim speed, Seaspike increases the swim speed by 10 feet.",
 			"",
-			"Third, Seaspike is treated as a light weapon for purposes of the [Weapon Finesse](feat/weapon_finesse) feat and other similar abilities.",
+			"Third, Seaspike is treated as a light weapon for purposes of the {feat/Weapon Finesse} feat and other similar abilities.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Weapon, [fire shield](spell/fire_shield), [magic weapon](spell/magic_weapon), creator must have the [Weapon Finesse](feat/weapon_finesse) feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
+			"**Requirements** Craft Weapon, {spell/fire shield}, {spell/magic weapon}, creator must have the {feat/Weapon Finesse} feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
 		]
 	},
 	"spellbreaker": {
@@ -3234,7 +3234,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), antimagic field; **Price** 36,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, antimagic field; **Price** 36,100 gp"
 		]
 	},
 	"pale_maiden_1_wish": {
@@ -3256,7 +3256,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reloading hands; **Price** 37,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, reloading hands; **Price** 37,300 gp"
 		]
 	},
 	"executioners_hand": {
@@ -3273,7 +3273,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), circle of death, keen edge; **Price** 30,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, circle of death, keen edge; **Price** 30,000 gp"
 		]
 	},
 	"spiteful_scimitar": {
@@ -3290,7 +3290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cause fear, death knell, rage, sickening entanglement; **Price** 37,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cause fear, death knell, rage, sickening entanglement; **Price** 37,815 gp"
 		]
 	},
 	"blade_of_the_sword-saint": {
@@ -3305,11 +3305,11 @@
 			"",
 			"This exquisitely forged katana is the result of painstaking attention and craftsmanship by one who is dedicated to mastering swordplay in its highest form.",
 			"",
-			"A blade of the sword-saint is a +3 ki intensifying katana. In the hands of a monk, it becomes an instrument of deadly utility. In addition to its more common properties, this weapon can be employed as though the wielder were unarmed: the wielder benefits from feats such as [Deflect Arrows](feat/deflect_arrows) or [Snatch Arrows](feat/snatch_arrows) (although he can redirect attacks but not catch them if he has no hands free), and a monk treats the blade as a monk weapon for use in his flurry of blows.",
+			"A blade of the sword-saint is a +3 ki intensifying katana. In the hands of a monk, it becomes an instrument of deadly utility. In addition to its more common properties, this weapon can be employed as though the wielder were unarmed: the wielder benefits from feats such as {feat/Deflect Arrows} or {feat/Snatch Arrows} (although he can redirect attacks but not catch them if he has no hands free), and a monk treats the blade as a monk weapon for use in his flurry of blows.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a monk; **Price** 37,850 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a monk; **Price** 37,850 gp"
 		]
 	},
 	"blade_of_the_sword_saint": {
@@ -3325,11 +3325,11 @@
 			"**Aura** strong divination; **CL** 13th  ",
 			"**Slot** none; **Price** 75,815 gp; **Weight** 4 lbs.",
 			"",
-			"This curved blade of golden metal, a +1 keen heartseeking spellstealing scimitar, is the bane of spellcasters. Inscribed with flowing magical script that purports to reveal the inner secrets of magic, the scimitar of the spellthief grants the wielder a +2 bonus on Spellcraft and Use Magic Device checks. The scimitar also reveals magical auras by touch; this functions as [detect magic](spell/detect_magic) but affects only a single object or creature at a time, which must be touched with the blade while the wielder concentrates on detection, and the magical auras revealed are clearly visible to all.",
+			"This curved blade of golden metal, a +1 keen heartseeking spellstealing scimitar, is the bane of spellcasters. Inscribed with flowing magical script that purports to reveal the inner secrets of magic, the scimitar of the spellthief grants the wielder a +2 bonus on Spellcraft and Use Magic Device checks. The scimitar also reveals magical auras by touch; this functions as {spell/detect magic} but affects only a single object or creature at a time, which must be touched with the blade while the wielder concentrates on detection, and the magical auras revealed are clearly visible to all.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death knell, greater arcane sight, keen edge, limited wish; **Price** 37,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, death knell, greater arcane sight, keen edge, limited wish; **Price** 37,815 gp"
 		]
 	},
 	"murderers_machete_greater": {
@@ -3346,7 +3346,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 39,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 39,310 gp"
 		]
 	},
 	"greater_murderers_machete": {
@@ -3366,7 +3366,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, keen edge, ray of enfeeblement; **Price** 39,702 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, keen edge, ray of enfeeblement; **Price** 39,702 gp"
 		]
 	},
 	"hammer_of_seismic_assault": {
@@ -3383,7 +3383,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), earthquake, lead blades; **Price** 40,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, earthquake, lead blades; **Price** 40,000 gp"
 		]
 	},
 	"reavers_scythe": {
@@ -3400,7 +3400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), keen edge, malediction, unholy blight; **Price** 40,318 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, keen edge, malediction, unholy blight; **Price** 40,318 gp"
 		]
 	},
 	"cerebrum_drill": {
@@ -3413,7 +3413,7 @@
 			"**Aura** strong abjuration and conjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.",
 			"",
-			"This +3 [aberration-bane](magic-enhancement/bane) [conserving](magic-enhancement/conserving) heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by [calm emotions](spell/calm_emotions) (Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4.",
+			"This +3 [aberration-bane](magic-enhancement/bane) {magic-enhancement/conserving} heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by {spell/calm emotions} (Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4.",
 			"",
 			"Up to three times per day as a swift action, the wielder can modify a loaded bolt into a brain-boring shot. These shots are not replenished by the conserving property of the weapon and are destroyed on impact or miss.",
 			"",
@@ -3421,7 +3421,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break enchantment](spell/break_enchantment), [calm emotions](spell/calm_emotions), [mind fog](spell/mind_fog); **Price** 41,175 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/break enchantment}, {spell/calm emotions}, {spell/mind fog}; **Price** 41,175 gp"
 		]
 	},
 	"shockwave_blunderbuss": {
@@ -3438,7 +3438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), reverse gravity, shout; **Price** 44,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, reverse gravity, shout; **Price** 44,800 gp"
 		]
 	},
 	"rixbrand": {
@@ -3462,7 +3462,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, [summon monster I](spell/summon_monster_1); **Price** 45,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, [summon monster I](spell/summon_monster_1); **Price** 45,000 gp"
 		]
 	},
 	"ikarikurusai_the_raging_cyclone": {
@@ -3479,7 +3479,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning or lightning bolt, chain lightning, resist energy; **Price** 45,308 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, call lightning or lightning bolt, chain lightning, resist energy; **Price** 45,308 gp"
 		]
 	},
 	"boneshaking_cleaver": {
@@ -3496,7 +3496,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, unholy blight; **Price** 45,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bestow curse, unholy blight; **Price** 45,320 gp"
 		]
 	},
 	"iron_lash": {
@@ -3515,7 +3515,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), finger of death, unholy blight, creator must be chaotic evil; **Price** 45,335 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, finger of death, unholy blight, creator must be chaotic evil; **Price** 45,335 gp"
 		]
 	},
 	"demonsorrow_curve_blade": {
@@ -3532,7 +3532,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, holy smite, [summon monster I](spell/summon_monster_1); **Price** 46,460 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimensional anchor, holy smite, [summon monster I](spell/summon_monster_1); **Price** 46,460 gp"
 		]
 	},
 	"void_scythe": {
@@ -3551,7 +3551,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disintegrate, enervation; **Price** 47,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disintegrate, enervation; **Price** 47,815 gp"
 		]
 	},
 	"shadow_spike": {
@@ -3566,11 +3566,11 @@
 			"",
 			"This +2/+2 cruel quarterstaff is made of polished ebony, and features a blackened metal spike on its bottom end. As a standard action, the wielder can drive the spike into the ground on either the Material Plane or the Shadow Plane, creating a rift merging those two planes. This rift is 30 feet in diameter, lasts for 1 minute, and can be created once per day. If the creature that drives the shadow spike into the ground expends one use of mythic power when doing so, the effect lasts until the shadow spike is pulled out of the ground (which takes a standard action).",
 			"",
-			"The rift's area acts as the deeper darkness spell. Spells with the darkness or shadow descriptors cast within the rift have +1 caster level, and are affected as if cast with the [Extend Spell](feat/extend_spell) feat. As a standard action, any mythic creature within the area can expend three uses of mythic power to plane shift to the Shadow Plane (if on the Material Plane) or to the Material Plane (if on the Shadow Plane). If a mythic creature plane shifts while holding the shadow spike, the weapon teleports with that creature, ending the effect.",
+			"The rift's area acts as the deeper darkness spell. Spells with the darkness or shadow descriptors cast within the rift have +1 caster level, and are affected as if cast with the {feat/Extend Spell} feat. As a standard action, any mythic creature within the area can expend three uses of mythic power to plane shift to the Shadow Plane (if on the Material Plane) or to the Material Plane (if on the Shadow Plane). If a mythic creature plane shifts while holding the shadow spike, the weapon teleports with that creature, ending the effect.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), cause fear, death knell, deeper darkness, plane shift; **Price** 48,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, cause fear, death knell, deeper darkness, plane shift; **Price** 48,600 gp"
 		]
 	},
 	"gun_with_no_name": {
@@ -3587,7 +3587,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), divine favor, nondetection; **Price** 50,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, divine favor, nondetection; **Price** 50,800 gp"
 		]
 	},
 	"stormcaller": {
@@ -3606,7 +3606,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Mythic Crafter](feat/mythic_crafter), call lightning, control weather; **Price** 49,302 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, call lightning, control weather; **Price** 49,302 gp"
 		]
 	},
 	"labrys_of_the_stone_idol": {
@@ -3623,7 +3623,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, earthquake, [giant form I](spell/giant_form_1), lead blades, shrink item; **Price** 49,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, earthquake, [giant form I](spell/giant_form_1), lead blades, shrink item; **Price** 49,320 gp"
 		]
 	},
 	"luck_blade_2_wishes": {
@@ -3650,7 +3650,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), shadow walk, shadow weapon; **Price** 51,632 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, shadow walk, shadow weapon; **Price** 51,632 gp"
 		]
 	},
 	"trident_of_the_storm_captain": {
@@ -3669,7 +3669,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning, control weather, greater magic fang, vortex; **Price** 54,990 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, call lightning, control weather, greater magic fang, vortex; **Price** 54,990 gp"
 		]
 	},
 	"pale_maiden_2_wishes": {
@@ -3691,7 +3691,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse and fireball, flame blade, or flame strike; **Price** 60,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bestow curse and fireball, flame blade, or flame strike; **Price** 60,302 gp"
 		]
 	},
 	"holy_avenger": {
@@ -3713,7 +3713,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy aura, creator must be good; **Price** 60,630 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, holy aura, creator must be good; **Price** 60,630 gp"
 		]
 	},
 	"bastards_sting": {
@@ -3732,7 +3732,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), unholy aura, unholy blight, creator must be evil; **Price** 63,035 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, unholy aura, unholy blight, creator must be evil; **Price** 63,035 gp"
 		]
 	},
 	"frostkiss_whip": {
@@ -3749,7 +3749,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chill metal or ice storm; horrid wilting, keen edge; **Price** 64,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, chill metal or ice storm; horrid wilting, keen edge; **Price** 64,300 gp"
 		]
 	},
 	"luck_blade_3_wishes": {
@@ -3778,7 +3778,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), enervation, keen edge, symbol of death; **Price** 75,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, enervation, keen edge, symbol of death; **Price** 75,000 gp"
 		]
 	},
 	"jorngarls_harm": {
@@ -3795,7 +3795,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), circle of death, enervation, keen edge; **Price** 75,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, circle of death, enervation, keen edge; **Price** 75,320 gp"
 		]
 	},
 	"sword_of_inner_fire": {
@@ -3814,7 +3814,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), flame strike, gaseous form, instant summons, shield of faith; **Price** 75,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, flame strike, gaseous form, instant summons, shield of faith; **Price** 75,815 gp"
 		]
 	},
 	"pale_maiden_3_wishes": {
@@ -3838,7 +3838,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, keen edge, plane shift; **Price** 100,315 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects, keen edge, plane shift; **Price** 100,315 gp"
 		]
 	},
 	"arrow_splitter": {
@@ -3855,7 +3855,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ricochet shot, sonic thrust; **Price** 90,375 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, ricochet shot, sonic thrust; **Price** 90,375 gp"
 		]
 	},
 	"mournful_razor": {
@@ -3872,7 +3872,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, circle of death, keen edge; **Price** 91,308 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bestow curse, circle of death, keen edge; **Price** 91,308 gp"
 		]
 	},
 	"sirocco_cannon": {
@@ -3889,7 +3889,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning or lightning bolt, sirocco; **Price** 95,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, call lightning or lightning bolt, sirocco; **Price** 95,400 gp"
 		]
 	},
 	"sacred_avenger": {
@@ -3908,7 +3908,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), gaseous form, greater dispel magic, holy aura, creator must be good; **Price** 102,630 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, gaseous form, greater dispel magic, holy aura, creator must be good; **Price** 102,630 gp"
 		]
 	},
 	"scimitar_of_deliverance": {
@@ -3923,18 +3923,18 @@
 			"",
 			"The hilt of this +1 adamantine scimitar has a gritty texture, as if sprinkled with invisible grains of sand. A favorite weapon among the Templars of the Five Winds during their struggle against the genie binder Kinroth, in the hands of a mighty warrior this blade can cut through spell and shackle alike. After the Templars defeated the efreeti Jhavhul in 4300 ar, their [djinni](monster/genie_djinni) leader, Nefeshti, passed the blade to a group of worthy adventurers, though what happened to the blade afterward has been lost to history.",
 			"",
-			"When the wielder of the scimitar of deliverance hits a target with a melee attack, as a free action she can attempt to identify any abjuration spells currently effecting the target as if she had studied it for 3 rounds using [detect magic](spell/detect_magic).",
+			"When the wielder of the scimitar of deliverance hits a target with a melee attack, as a free action she can attempt to identify any abjuration spells currently effecting the target as if she had studied it for 3 rounds using {spell/detect magic}.",
 			"",
-			"7th Level: The scimitar of deliverance acts as a +2 [keen](magic-enhancement/keen) adamantine scimitar.",
+			"7th Level: The scimitar of deliverance acts as a +2 {magic-enhancement/keen} adamantine scimitar.",
 			"",
 			"11th Level: As a full-round action, the wielder can flourish the scimitar of deliverance. All creatures within 60 feet who see the display can immediately attempt a new saving throw with a +4 morale bonus against any effect they are under that causes the confused, frightened, panicked, paralyzed, shaken, or staggered condition.",
 			"",
 			"15th Level: The scimitar of deliverance acts as a +4 keen adamantine scimitar.",
 			"",
-			"19th Level: Once per round when the wielder confirms a critical hit against a target with the scimitar of deliverance, the foe is targeted by a [greater dispel magic](spell/greater_dispel_magic) spell, with a caster level equal to the wielder's character level.",
+			"19th Level: Once per round when the wielder confirms a critical hit against a target with the scimitar of deliverance, the foe is targeted by a {spell/greater dispel magic} spell, with a caster level equal to the wielder's character level.",
 			"",
 			"**Goal:** The bearer must free at least 50 creatures from captivity, slavery, or unlawful imprisonment.  ",
-			"**Reward:** As an immediate action a number of times per day equal to his character level, the wielder can use [liberating command](spell/liberating_command) as a spell-like ability."
+			"**Reward:** As an immediate action a number of times per day equal to his character level, the wielder can use {spell/liberating command} as a spell-like ability."
 		]
 	},
 	"clarity": {
@@ -3951,7 +3951,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, remove fear; **Price** 10,665 gp",
+			"{feat/Craft Magic Arms and Armor}, holy smite, remove fear; **Price** 10,665 gp",
 			"",
 			"### Statistics",
 			"",
@@ -3971,9 +3971,9 @@
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 23,335 gp; **Weight** 6 lbs.",
 			"",
-			"Ukwar is a +1 [conductive](magic-enhancement/conductive) battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a [fext](monster/fext), Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
+			"Ukwar is a +1 {magic-enhancement/conductive} battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a {monster/fext}, Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
 			"",
-			"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast [rage](spell/rage) once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit-she can be convinced to cast [rage](spell/rage) on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
+			"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast {spell/rage} once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit-she can be convinced to cast {spell/rage} on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
 			"",
 			"Ukwar's special purpose is to lift Scarwall's curse, and as long as her wielder is engaged in this quest and is within Scarwall, the weapon functions as a +1 conductive undead-bane battleaxe. If Scarwall's curse is lifted, Ukwar's spirit leaves the axe behind, and this weapon returns to being an unintelligent +1 conductive battleaxe.",
 			"",
@@ -3981,7 +3981,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage), [spectral hand](spell/spectral_hand), [summon monster I](spell/summon_monster_1); **Price** 14,335 gp",
+			"{feat/Craft Magic Arms and Armor}, {spell/rage}, {spell/spectral hand}, [summon monster I](spell/summon_monster_1); **Price** 14,335 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4010,7 +4010,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bless weapon, lesser restoration, [summon monster I](spell/summon_monster_1); **Price** 14,357 gp",
+			"{feat/Craft Magic Arms and Armor}, bless weapon, lesser restoration, [summon monster I](spell/summon_monster_1); **Price** 14,357 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4036,7 +4036,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), major creation, planar binding; **Price** 22,908 gp",
+			"{feat/Craft Magic Arms and Armor}, major creation, planar binding; **Price** 22,908 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4060,7 +4060,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), detect aberration, [summon monster I](spell/summon_monster_1); **Price** 24,435 gp",
+			"{feat/Craft Magic Arms and Armor}, detect aberration, [summon monster I](spell/summon_monster_1); **Price** 24,435 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4088,7 +4088,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Heroic Defiance](feat/heroic_defiance), break enchantment, stabilize; **Price** 40,600 gp",
+			"{feat/Craft Magic Arms and Armor}, {feat/Heroic Defiance}, break enchantment, stabilize; **Price** 40,600 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4116,7 +4116,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor); [summon monster IV](spell/summon_monster_4); **Price** 27,262 gp",
+			"{feat/Craft Magic Arms and Armor}; [summon monster IV](spell/summon_monster_4); **Price** 27,262 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4145,7 +4145,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), call lightning, the willing service of one Huge lighting elemental for at least 100 years; **Price** 27,300 gp",
+			"{feat/Craft Magic Arms and Armor}, call lightning, the willing service of one Huge lighting elemental for at least 100 years; **Price** 27,300 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4175,7 +4175,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic aura, major creation, [summon monster I](spell/summon_monster_1), teleport, creator must have at least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive; **Price** 25,562 gp",
+			"{feat/Craft Magic Arms and Armor}, magic aura, major creation, [summon monster I](spell/summon_monster_1), teleport, creator must have at least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive; **Price** 25,562 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4199,7 +4199,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dispel magic, earthquake, invisibility purge, [summon monster I](spell/summon_monster_1); **Price** 46,012 gp",
+			"{feat/Craft Magic Arms and Armor}, dispel magic, earthquake, invisibility purge, [summon monster I](spell/summon_monster_1); **Price** 46,012 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4225,7 +4225,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death ward, heal, remove paralysis; **Price** 52,408 gp",
+			"{feat/Craft Magic Arms and Armor}, death ward, heal, remove paralysis; **Price** 52,408 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4339,7 +4339,7 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Weight** 6 lbs.",
 			"",
-			"This vicious-looking +2 battleaxe grants its wielder the [Great Cleave](feat/great_cleave) feat. But when using this feat, the wielder makes an additional attack against a random adjacent creature instead of choosing which creature to attack. When determining which creature is attacked, the wielder always counts himself as a possible target, even if he is not adjacent to the target. The wielder of a biting battleaxe must always uses it as his primary weapon and must use Great Cleave at every opportunity until subject to a remove curse spell or similar effect.",
+			"This vicious-looking +2 battleaxe grants its wielder the {feat/Great Cleave} feat. But when using this feat, the wielder makes an additional attack against a random adjacent creature instead of choosing which creature to attack. When determining which creature is attacked, the wielder always counts himself as a possible target, even if he is not adjacent to the target. The wielder of a biting battleaxe must always uses it as his primary weapon and must use Great Cleave at every opportunity until subject to a remove curse spell or similar effect.",
 			"",
 			"### Construction",
 			"",

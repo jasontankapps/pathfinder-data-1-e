@@ -15,7 +15,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, bane; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, resistance, bane; **Cost** 250 gp"
 		]
 	},
 	"ganji_doll": {
@@ -42,7 +42,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
 		]
 	},
 	"ganji_doll_greater": {
@@ -72,7 +72,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, suggestion, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, suggestion, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
 		]
 	},
 	"greater_ganji_doll": {
@@ -90,13 +90,13 @@
 			"",
 			"### Description",
 			"",
-			"Salt, chalk, and powdered bone goes into the creation of this thick powder. When it is smeared over the face of a willing or helpless humanoid, the victim is affected as per the spell dominate person. The victim receives a save against the powder's effect, but makes it at a -2 penalty. Those who fail the save are affected by the spell and are under the control of the powder's creator (not necessarily the powder's user). In addition, the victim cannot articulate beyond making a low moaning, and takes on a death-like pallor, appearing to be a zombie. Spells like [detect undead](spell/detect_undead) or a minute of uninterrupted examination followed by a DC 20 Heal check reveal that the victim is not actually undead.",
+			"Salt, chalk, and powdered bone goes into the creation of this thick powder. When it is smeared over the face of a willing or helpless humanoid, the victim is affected as per the spell dominate person. The victim receives a save against the powder's effect, but makes it at a -2 penalty. Those who fail the save are affected by the spell and are under the control of the powder's creator (not necessarily the powder's user). In addition, the victim cannot articulate beyond making a low moaning, and takes on a death-like pallor, appearing to be a zombie. Spells like {spell/detect undead} or a minute of uninterrupted examination followed by a DC 20 Heal check reveal that the victim is not actually undead.",
 			"",
 			"Creating a batch of laubo powder provides enough for 3 uses.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dominate person, disguise self; **Cost** 1,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, dominate person, disguise self; **Cost** 1,400 gp"
 		]
 	},
 	"spirit_tear": {
@@ -115,7 +115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), see invisibility; **Cost** 900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, see invisibility; **Cost** 900 gp"
 		]
 	}
 }

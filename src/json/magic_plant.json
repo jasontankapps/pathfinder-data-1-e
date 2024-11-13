@@ -15,7 +15,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), entangle, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, entangle, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
 		]
 	},
 	"tree_of_knowledge": {
@@ -34,7 +34,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), augury, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, augury, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
 		]
 	},
 	"restful_birch": {
@@ -55,7 +55,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), sleep, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, sleep, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
 		]
 	},
 	"fireapple_tree": {
@@ -74,7 +74,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), fireball, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, fireball, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
 		]
 	},
 	"cleanthistle": {
@@ -87,13 +87,13 @@
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 7,200 gp; **Weight** 50 lbs.",
 			"",
-			"The needles of this bitter, black herb grow in Numeria and are used to alleviate the effects of radiation poisoning. A creature that drinks tea made from the needles of cleanthistle is affected by a [neutralize poison](spell/neutralize_poison) effect (CL 9th) except that the effect can neutralize only the oldest poison affecting the creature.",
+			"The needles of this bitter, black herb grow in Numeria and are used to alleviate the effects of radiation poisoning. A creature that drinks tea made from the needles of cleanthistle is affected by a {spell/neutralize poison} effect (CL 9th) except that the effect can neutralize only the oldest poison affecting the creature.",
 			"",
 			"A cleanthistle stalk has a single 26-week growing period, through spring and summer. During this period, enough needles for a single dose of tea regrow 4 days after being harvested. The needles remain potent enough to brew for 1 week after being harvested.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [neutralize poison](spell/neutralize_poison), cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, {spell/neutralize poison}, cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
 		]
 	},
 	"goodberry_bush": {
@@ -112,7 +112,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), goodberry, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, goodberry, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
 		]
 	},
 	"salvation_cactus": {
@@ -131,7 +131,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), cure light wounds, lesser restoration, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, cure light wounds, lesser restoration, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
 		]
 	},
 	"palm_of_decadent_feasts": {
@@ -150,7 +150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), heroes' feast, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, heroes' feast, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
 		]
 	},
 	"breezeblown_dandelion": {
@@ -169,7 +169,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants)s, glide; **Cost** 5,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}s, glide; **Cost** 5,000 gp"
 		]
 	},
 	"ghostblossom": {
@@ -188,7 +188,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, {spell/rage}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
 		]
 	},
 	"acidic_lemon_tree": {
@@ -207,7 +207,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), acid arrow, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, acid arrow, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"altitude_fern": {
@@ -226,7 +226,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), endure elements, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, endure elements, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"helping_hands_vine": {
@@ -245,7 +245,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), feather fall, spider climb, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, feather fall, spider climb, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"sheltershrub": {
@@ -264,7 +264,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), endure elements, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, endure elements, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"gravebane_petals": {
@@ -277,13 +277,13 @@
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 50 lbs.",
 			"",
-			"When packed tightly within the mouth of a corpse or undead creature, the deep red petals of the gravebane flower prevent any decay, as if the corpse were under the effects of [gentle repose](spell/gentle_repose), and they completely mask any stench with a sickly sweet fragrance. These effects persist for 1 month.",
+			"When packed tightly within the mouth of a corpse or undead creature, the deep red petals of the gravebane flower prevent any decay, as if the corpse were under the effects of {spell/gentle repose}, and they completely mask any stench with a sickly sweet fragrance. These effects persist for 1 month.",
 			"",
 			"A single bush grows one new flower each day, and it takes 1 month to accumulate enough gravebane petals to preserve a single corpse. The plant has a 52-week growing period.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [rage](spell/rage), cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, {spell/rage}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
 		]
 	},
 	"tree_of_woe": {
@@ -302,7 +302,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), charm monster, zone of truth, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, charm monster, zone of truth, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
 		]
 	},
 	"ambrosial_lotus": {
@@ -315,13 +315,13 @@
 			"**Aura** strong enchantment; **CL** 12th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 50 lbs.",
 			"",
-			"A creature who consumes an ambrosial lotus must succeed at a DC 17 Will save or be overtaken by such a state of total bliss so as to be almost oblivious to the world around him. The creature's Intelligence and Charisma scores drop to 1, and the creature can no longer cast spells, understand language, or communicate. These effects are permanent unless removed with a [heal](spell/heal), [limited wish](spell/limited_wish), [miracle](spell/miracle), or [wish](spell/wish) spell.",
+			"A creature who consumes an ambrosial lotus must succeed at a DC 17 Will save or be overtaken by such a state of total bliss so as to be almost oblivious to the world around him. The creature's Intelligence and Charisma scores drop to 1, and the creature can no longer cast spells, understand language, or communicate. These effects are permanent unless removed with a {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell.",
 			"",
 			"An ambrosial lotus stalk grows one flower per day during its 13-week growing period in spring.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), [feeblemind](spell/feeblemind), cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, {spell/feeblemind}, cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
 		]
 	},
 	"fishweed": {
@@ -340,7 +340,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), water breathing, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, water breathing, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
 		]
 	},
 	"waterwalk_reeds": {
@@ -359,7 +359,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), water walk, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, water walk, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
 		]
 	},
 	"portal_oak": {
@@ -378,7 +378,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), tree stride, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, tree stride, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
 		]
 	},
 	"poison_siphon_tree": {
@@ -397,7 +397,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Cultivate Magic Plants](feat/cultivate_magic_plants), neutralize poison, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, neutralize poison, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
 		]
 	}
 }

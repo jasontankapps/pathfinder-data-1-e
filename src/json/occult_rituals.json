@@ -19,7 +19,7 @@
 			"",
 			"### Effect",
 			"",
-			"By repairing damaged magical runes and realigning the energies based on the gate's planetary position, the caster reactivates a dormant aiudara. A reactivated gate automatically reconnects with its linked twin, acting as a two-way [gate](spell/gate) (as per the spell) between the locations. The caster knows the gate's password-which might be anything from an Elven phrase to a song's refrain to a spell-from the research required to learn this ritual. All other creatures who use this gate must also know the password to access the gate's magic after it has been reactivated.",
+			"By repairing damaged magical runes and realigning the energies based on the gate's planetary position, the caster reactivates a dormant aiudara. A reactivated gate automatically reconnects with its linked twin, acting as a two-way {spell/gate} (as per the spell) between the locations. The caster knows the gate's password-which might be anything from an Elven phrase to a song's refrain to a spell-from the research required to learn this ritual. All other creatures who use this gate must also know the password to access the gate's magic after it has been reactivated.",
 			"",
 			"### Aiudara",
 			"",
@@ -78,11 +78,11 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude negates; **SR** yes  ",
 			"**Backlash** All casters suffer 1 temporary negative level and become exhausted.  ",
-			"**Failure** The primary caster gains the mind and body of a Tiny animal, as if she failed both saves against [baleful polymorph](spell/baleful_polymorph).",
+			"**Failure** The primary caster gains the mind and body of a Tiny animal, as if she failed both saves against {spell/baleful polymorph}.",
 			"",
 			"### Effect",
 			"",
-			"The primary caster lights a bonfire surrounded with incense, steps into the fire, places the crown upon his brow, and lets forth a primal howl. Ghostly images of beasts swirl through the air as the casters join in a spectral hunt. As the ritual progresses, all humanoids in the ritual's area of effect, including the casters, regress in appearance to resemble their primal animalistic ancestors. Initially, these features have no mechanical effects, and they disappear if the ritual fails. If the ritual succeeds, the casters and those who succeed at a Fortitude save return to normal, while all other humanoids regress further. They gain a +4 size bonus to Strength, a +4 natural armor bonus to AC, and a bite attack (if they already had one, it counts as if they were one size larger). If their Intelligence is greater than 2, it becomes 2, and they can't cast spells, use other special abilities that require Intelligence, speak, and wield manufactured weapons. The only skill checks they can attempt are Acrobatics, Climb, Fly, Perception, Stealth, and Swim. The effects on a creature can be removed with [break enchantment](spell/break_enchantment), [limited wish](spell/limited_wish), [miracle](spell/miracle), [remove curse](spell/remove_curse), or [wish](spell/wish). Removing the penalties also removes the benefits."
+			"The primary caster lights a bonfire surrounded with incense, steps into the fire, places the crown upon his brow, and lets forth a primal howl. Ghostly images of beasts swirl through the air as the casters join in a spectral hunt. As the ritual progresses, all humanoids in the ritual's area of effect, including the casters, regress in appearance to resemble their primal animalistic ancestors. Initially, these features have no mechanical effects, and they disappear if the ritual fails. If the ritual succeeds, the casters and those who succeed at a Fortitude save return to normal, while all other humanoids regress further. They gain a +4 size bonus to Strength, a +4 natural armor bonus to AC, and a bite attack (if they already had one, it counts as if they were one size larger). If their Intelligence is greater than 2, it becomes 2, and they can't cast spells, use other special abilities that require Intelligence, speak, and wield manufactured weapons. The only skill checks they can attempt are Acrobatics, Climb, Fly, Perception, Stealth, and Swim. The effects on a creature can be removed with {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}. Removing the penalties also removes the benefits."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -102,7 +102,7 @@
 			"**Duration** 8 hours  ",
 			"**Saving Throw** Will negates (harmless, object); **SR** yes (harmless, object)  ",
 			"**Backlash** The caster takes 4d6 points of damage.  ",
-			"**Failure** The target door swings open and cannot be closed by the caster by any means short of a [limited wish](spell/limited_wish) for 24 hours.",
+			"**Failure** The target door swings open and cannot be closed by the caster by any means short of a {spell/limited wish} for 24 hours.",
 			"",
 			"### Effect",
 			"",
@@ -122,7 +122,7 @@
 			"**Components** V, S, M (rare incenses and expensive phosphorescent inks used to scribe a conjuring diagram, collectively worth 25,000 gp, or the sacrifice of a sapient good-aligned creature of CR 15 or higher), SC (up to the Charisma modifier of the primary caster)  ",
 			"**Skill Checks** Craft (armor, clockwork, or weapons) DC 28, 2 successes; Knowledge (arcana) DC 28, 2 successes; Knowledge (planes) DC 28, 2 successes; Perception DC 28 2 successes  ",
 			"**Range** 5 ft.  ",
-			"**Effect** one summoned [retriever](monster/retriever)  ",
+			"**Effect** one summoned {monster/retriever}  ",
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** All casters take 2d6 points of damage.  ",
@@ -130,7 +130,7 @@
 			"",
 			"### Effect",
 			"",
-			"The caster lights the rare incense and then scribes a complex conjuring diagram on the floor using glowing inks, then must focus on the runes to look through reality into the Abyss while reciting the methods by which a [retriever](monster/retriever) can be shaped into being from raw Abyssal quintessence. If the ritual is successful, a retriever is conjured at the caster's location. The retriever is loyal to the caster but will perform only one service before it vanishes back to the Abyss. If the service takes longer to perform than a number of years equal to the primary caster's level, the retriever vanishes at the end of this duration, even if its service is not yet complete."
+			"The caster lights the rare incense and then scribes a complex conjuring diagram on the floor using glowing inks, then must focus on the runes to look through reality into the Abyss while reciting the methods by which a {monster/retriever} can be shaped into being from raw Abyssal quintessence. If the ritual is successful, a retriever is conjured at the caster's location. The retriever is loyal to the caster but will perform only one service before it vanishes back to the Abyss. If the service takes longer to perform than a number of years equal to the primary caster's level, the retriever vanishes at the end of this duration, even if its service is not yet complete."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -161,7 +161,7 @@
 			"",
 			"An incorporeal caster has no body and can't use this ritual, and the same holds true for any non-undead creature that never ages, such as a construct.",
 			"",
-			"The caster receives a +5 competence bonus on Charisma-based skill checks other than Use Magic Device. Additionally, whenever she uses an illusion spell or similar effect that makes her appear as someone or something she is not (including [disguise self](spell/disguise_self), [appearance of life](spell/appearance_of_life), [greater appearance of life](spell/greater_appearance_of_life), or [veil](spell/veil), but not [invisibility](spell/invisibility), [displacement](spell/displacement), or [mirror image](spell/mirror_image)), creatures take a -10 penalty on saving throws to disbelieve the illusion, and divination magic that would normally allow creatures to see through illusions (such as [true seeing](spell/true_seeing)) fails to do so for this illusion. If the illusion that changes her appearance causes a negative effect on any creatures that fail their saving throw to disbelieve, the saving throw penalty does not apply."
+			"The caster receives a +5 competence bonus on Charisma-based skill checks other than Use Magic Device. Additionally, whenever she uses an illusion spell or similar effect that makes her appear as someone or something she is not (including {spell/disguise self}, {spell/appearance of life}, {spell/greater appearance of life}, or {spell/veil}, but not {spell/invisibility}, {spell/displacement}, or {spell/mirror image}), creatures take a -10 penalty on saving throws to disbelieve the illusion, and divination magic that would normally allow creatures to see through illusions (such as {spell/true seeing}) fails to do so for this illusion. If the illusion that changes her appearance causes a negative effect on any creatures that fail their saving throw to disbelieve, the saving throw penalty does not apply."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -180,7 +180,7 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 2d6 points of damage and becomes exhausted.  ",
-			"**Failure** An [animate dream](monster/animate_dream) appears at the site of the ritual and attacks the casters. At the GM's discretion, the animate dream may have the advanced template, be accompanied by fellow animate dreams, or both.",
+			"**Failure** An {monster/animate dream} appears at the site of the ritual and attacks the casters. At the GM's discretion, the animate dream may have the advanced template, be accompanied by fellow animate dreams, or both.",
 			"",
 			"### Effect",
 			"",
@@ -205,11 +205,11 @@
 			"**Duration** 1 hour/character level of the primary caster  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 4d6 points of damage and becomes exhausted.  ",
-			"**Failure** A shade of one of the primary caster's past lives manifests and attacks the casters. This shade functions as an [animus shade](template/animus_shade) of the primary caster.",
+			"**Failure** A shade of one of the primary caster's past lives manifests and attacks the casters. This shade functions as an {template/animus shade} of the primary caster.",
 			"",
 			"### Effect",
 			"",
-			"The primary caster channels the experiences of her previous lives into a vessel of her current life, gaining meaningful insight from her forgotten past. The breath of forgotten life ritual must be cast within a location of great significance to the primary caster, such as her childhood home or marriage shrine. The primary caster meditates on her current life by focusing on the mirror and recalling her past deeds in reverse chronological order, while any secondary casters act out the scenes she describes. After the casting time, the primary caster's reflection in the mirror changes to an image of one of her past forms. This image describes its own deeds, which are relevant to the primary caster's immediate future and grant her a +2 insight bonus to her Armor Class and on initiative checks for the ritual's duration. The primary caster also gains the ability to cast [legend lore](spell/legend_lore) as a spell-like ability once within the following week."
+			"The primary caster channels the experiences of her previous lives into a vessel of her current life, gaining meaningful insight from her forgotten past. The breath of forgotten life ritual must be cast within a location of great significance to the primary caster, such as her childhood home or marriage shrine. The primary caster meditates on her current life by focusing on the mirror and recalling her past deeds in reverse chronological order, while any secondary casters act out the scenes she describes. After the casting time, the primary caster's reflection in the mirror changes to an image of one of her past forms. This image describes its own deeds, which are relevant to the primary caster's immediate future and grant her a +2 insight bonus to her Armor Class and on initiative checks for the ritual's duration. The primary caster also gains the ability to cast {spell/legend lore} as a spell-like ability once within the following week."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -253,11 +253,11 @@
 			"**Duration** 10 minutes/character level of the primary caster; see text  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 1 permanent negative level.  ",
-			"**Failure** All casters must succeed at a Will saving throw (DC = 19 + primary caster's Charisma modifier) or be transported to a random location on the Shadow Plane, as per [plane shift](spell/plane_shift).",
+			"**Failure** All casters must succeed at a Will saving throw (DC = 19 + primary caster's Charisma modifier) or be transported to a random location on the Shadow Plane, as per {spell/plane shift}.",
 			"",
 			"### Effect",
 			"",
-			"This ritual must be cast on the Material Plane. The primary caster begins the ritual by delineating the boundaries of the area to be affected using the black diamond dust. The casters link hands and chant verses from Zon-Kuthon's holy book, Umbral Leaves. Upon the ritual's completion, magical darkness fills the designated area as the Material Plane and Shadow Plane blend together there. The affected area thereafter exists simultaneously on both planes, becoming an amalgam of the two. A thin layer of impenetrable darkness surrounds the affected area, so it is impossible to see beyond the area's boundaries into either plane. Colors appear faded in the area, but not completely black and white as on the Shadow Plane. The area has the enhanced magic and impeded magic traits of the [Shadow Plane](rule/shadow_plane), but all other planar traits correspond to those of the Material Plane. As long as the primary caster remains within range of the designated area, this effect lasts for up to 10 minutes per character level of the primary caster, but if the primary caster ever moves beyond the range, the effect immediately ends.",
+			"This ritual must be cast on the Material Plane. The primary caster begins the ritual by delineating the boundaries of the area to be affected using the black diamond dust. The casters link hands and chant verses from Zon-Kuthon's holy book, Umbral Leaves. Upon the ritual's completion, magical darkness fills the designated area as the Material Plane and Shadow Plane blend together there. The affected area thereafter exists simultaneously on both planes, becoming an amalgam of the two. A thin layer of impenetrable darkness surrounds the affected area, so it is impossible to see beyond the area's boundaries into either plane. Colors appear faded in the area, but not completely black and white as on the Shadow Plane. The area has the enhanced magic and impeded magic traits of the {rule/Shadow Plane}, but all other planar traits correspond to those of the Material Plane. As long as the primary caster remains within range of the designated area, this effect lasts for up to 10 minutes per character level of the primary caster, but if the primary caster ever moves beyond the range, the effect immediately ends.",
 			"",
 			"Any creature that enters the affected area remains on the same plane as before but can interact with creatures on the other plane as though they were on the same plane. While casting this ritual, the primary caster can set a condition that allows creatures to cross over from the Shadow Plane to the Material Plane or vice versa. This condition can be a password, a specific action that a creature must take (such as stepping through a mirror), or a specific type of item that a creature must carry in order to cross over. Alternatively, the primary caster can grant a creature passage between the two planes as a standard action. If the primary caster does not set a condition or grant passage, creatures cannot cross between the two planes."
 		],
@@ -278,12 +278,12 @@
 			"**Target** one helpless creature/character level of the primary caster, no two of which can be more than 30 ft. apart  ",
 			"**Duration** 1 hour/character level of the primary caster  ",
 			"**Saving Throw** Will partial, see text; **SR** yes  ",
-			"**Backlash** All casters are cursed with insatiable hunger, as per a permanent [feast of ashes](spell/feast_of_ashes). This curse effect is negated for a caster if he consumes the fresh flesh or blood of any target within the duration. [Remove curse](spell/remove_curse) and similar effects can also remove the curse, but only after the ritual's duration expires.  ",
-			"**Failure** Consumption of a target's flesh or blood does not negate the backlash curse. For 1 hour, each target is affected by [freedom of movement](spell/freedom_of_movement). Each caster is shaken and sickened.",
+			"**Backlash** All casters are cursed with insatiable hunger, as per a permanent {spell/feast of ashes}. This curse effect is negated for a caster if he consumes the fresh flesh or blood of any target within the duration. {spell/Remove curse} and similar effects can also remove the curse, but only after the ritual's duration expires.  ",
+			"**Failure** Consumption of a target's flesh or blood does not negate the backlash curse. For 1 hour, each target is affected by {spell/freedom of movement}. Each caster is shaken and sickened.",
 			"",
 			"### Effect",
 			"",
-			"The primary caster starts this ritual by placing one live mouse per target into the golden cage. When all the mice are caged, she then places the cat figurine within the cage. If the ritual succeeds, the figurine animates for a short period, during which it kills each of the caged mice. As each mouse is killed, the head of a target is transformed into a mouse head of a suitable size for the ritual's duration. Each target gains low-light vision and scent but loses the ability to speak (and thus the ability to complete verbal spell components, speak command words, and activate spell completion and spell trigger items). Any polymorph effects on the target are automatically dispelled, and for the duration of the ritual's effect, a target cannot use other polymorph spells or effects to assume a new form. In addition, while so transformed, a target must attempt a Will save whenever she encounters a cat, catlike creature, or creature in a cat mask; if she fails, she is affected as per [fear](spell/fear). If she succeeds, the target becomes immune to this effect with respect to that particular feline only.",
+			"The primary caster starts this ritual by placing one live mouse per target into the golden cage. When all the mice are caged, she then places the cat figurine within the cage. If the ritual succeeds, the figurine animates for a short period, during which it kills each of the caged mice. As each mouse is killed, the head of a target is transformed into a mouse head of a suitable size for the ritual's duration. Each target gains low-light vision and scent but loses the ability to speak (and thus the ability to complete verbal spell components, speak command words, and activate spell completion and spell trigger items). Any polymorph effects on the target are automatically dispelled, and for the duration of the ritual's effect, a target cannot use other polymorph spells or effects to assume a new form. In addition, while so transformed, a target must attempt a Will save whenever she encounters a cat, catlike creature, or creature in a cat mask; if she fails, she is affected as per {spell/fear}. If she succeeds, the target becomes immune to this effect with respect to that particular feline only.",
 			"",
 			"Finally, if a target moves farther than 1 mile from the cage per 5,000 gp of the cage's value, it takes 1d6 points of nonlethal damage each round it remains beyond that range. This effect is negated if the cage is destroyed or moved more than 100 feet from its location at the ritual's beginning.",
 			"",
@@ -341,7 +341,7 @@
 			"",
 			"### Effect",
 			"",
-			"The ritual requires the casters to fill a pool with the required water and diamond dust, then restrain a number of Medium humanoid bodies in the pool. The total number of bodies must equal the number of [sinspawn](monster/sinspawn) to be created (two Small humanoids count as one Medium humanoid, and one Large or larger humanoid counts as four Medium ones), and the bodies can have been dead for no more than 8 hours. At least seven casters, which must include the primary caster, stand at equidistant points around the pool to invest the pool with the sinfulness of the gem-bound creature's soul. Upon successful completion of the ritual, the gem dissolves, the bodies melt into slurry, and a number of sinspawn associated with the sin that corresponds most closely with the soul of the creature bound within the gem (envy, greed, gluttony, lust, pride, sloth, or wrath) form out of the churning mass. Sinspawn created in this way are free willed but are initially well disposed toward the primary caster."
+			"The ritual requires the casters to fill a pool with the required water and diamond dust, then restrain a number of Medium humanoid bodies in the pool. The total number of bodies must equal the number of {monster/sinspawn} to be created (two Small humanoids count as one Medium humanoid, and one Large or larger humanoid counts as four Medium ones), and the bodies can have been dead for no more than 8 hours. At least seven casters, which must include the primary caster, stand at equidistant points around the pool to invest the pool with the sinfulness of the gem-bound creature's soul. Upon successful completion of the ritual, the gem dissolves, the bodies melt into slurry, and a number of sinspawn associated with the sin that corresponds most closely with the soul of the creature bound within the gem (envy, greed, gluttony, lust, pride, sloth, or wrath) form out of the churning mass. Sinspawn created in this way are free willed but are initially well disposed toward the primary caster."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -361,13 +361,13 @@
 			"**Duration** 1 day (D)  ",
 			"**Saving Throw** Will negates (harmless); **SR** yes (harmless)  ",
 			"**Backlash** The primary caster takes 2d6 points of damage and all casters are exhausted.  ",
-			"**Failure** All casters cannot be targeted by any beneficial spells from the conjuration (healing) school (such as [cure light wounds](spell/cure_light_wounds)) and cannot touch a scimitar for 1 year (this is a curse effect, and can be removed with [remove curse](spell/remove_curse) or similar effects).",
+			"**Failure** All casters cannot be targeted by any beneficial spells from the conjuration (healing) school (such as {spell/cure light wounds}) and cannot touch a scimitar for 1 year (this is a curse effect, and can be removed with {spell/remove curse} or similar effects).",
 			"",
 			"### Effect",
 			"",
 			"This ritual must be cast at dawn beneath the open sky on the Material Plane. The ritual must be performed at a site of Sarenite worship (such as a dervish house, shrine, or temple of Sarenrae) that has hosted active worship services for at least 52 consecutive weeks. The primary caster holds aloft the rose-gold scimitar, and the secondary casters stand around him and begin spinning in place. The primary caster recites 23 verses from Sarenrae's holy text, The Birth of Light and Truth, taking a sip from the [potion of cat's grace](spell/cats_grace) between each stanza. After the last verse is completed, the secondary casters whirl around the primary caster, each anointing the rose-gold scimitar with blessed sunflower seed oil. Upon the successful completion of the ritual, all the casters are filled with the spirits of dervish heroes, becoming faster, stronger, tougher, and more skilled in combat. Each caster gains a +4 enhancement bonus to Strength, Dexterity, and Constitution; a +2 dodge bonus to AC; and a +2 sacred bonus on all saving throws. The caster's base attack bonus is equal his character level (which may give the caster multiple attacks). If the caster's base attack bonus is already equal to his character level, he gains one additional attack at his highest base attack bonus when making a full-attack action. In addition, any scimitar wielded by a caster is treated as if it has the keen weapon special ability. In exchange, each caster temporarily loses his ability to cast spells, save for those from the conjuration (healing) school.",
 			"",
-			"Finally, once during the duration of the ritual, each caster can activate a whirling dance on the battlefield as a standard action. While dancing, the caster gains the effects of a [displacement](spell/displacement) spell and can use the [Spring Attack](feat/spring_attack) and [Whirlwind Attack](feat/whirlwind_attack) feats as if he possessed them without meeting their prerequisites. This dance is a supernatural effect and lasts a number of rounds equal to the primary caster's character level.",
+			"Finally, once during the duration of the ritual, each caster can activate a whirling dance on the battlefield as a standard action. While dancing, the caster gains the effects of a {spell/displacement} spell and can use the {feat/Spring Attack} and {feat/Whirlwind Attack} feats as if he possessed them without meeting their prerequisites. This dance is a supernatural effect and lasts a number of rounds equal to the primary caster's character level.",
 			"",
 			"Each caster of the ritual can individually choose to dismiss the ritual's effects for himself."
 		],
@@ -385,15 +385,15 @@
 			"**Components** V, S, M (black diamond worth 25,000 gp), F (a forked metal rod attuned to the destination plane, as that used for plane shift), SC (at least 6, up to 12)  ",
 			"**Skill Checks** Knowledge (planes) DC 26, 4 successes; Knowledge (religion) DC 26, 3 successes; Spellcraft DC 26, 2 successes  ",
 			"**Range** touch  ",
-			"**Target** one helpless creature or soul (such as a soul imprisoned by [soul bind](spell/soul_bind) or [trap the soul](spell/trap_the_soul))  ",
+			"**Target** one helpless creature or soul (such as a soul imprisoned by {spell/soul bind} or {spell/trap the soul})  ",
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
-			"**Backlash** For 1 week following the performance of the ritual, every [psychopomp](family/psychopomp) within 10 miles of a caster knows the distance and direction to that caster and is aware that the caster was involved in a ritual to thwart a soul's natural progression.  ",
-			"**Failure** A helpless creature is automatically freed and whisked away to a place it considers familiar and safe, as [word of recall](spell/word_of_recall). An imprisoned soul is automatically freed. In addition, a [memitim psychopomp](monster/memitim) appears adjacent to each caster and attacks the caster to the best of its ability. The memitim disappears once its designated caster is slain or after 10 minutes, whichever comes first.",
+			"**Backlash** For 1 week following the performance of the ritual, every {family/psychopomp} within 10 miles of a caster knows the distance and direction to that caster and is aware that the caster was involved in a ritual to thwart a soul's natural progression.  ",
+			"**Failure** A helpless creature is automatically freed and whisked away to a place it considers familiar and safe, as {spell/word of recall}. An imprisoned soul is automatically freed. In addition, a [memitim psychopomp](monster/memitim) appears adjacent to each caster and attacks the caster to the best of its ability. The memitim disappears once its designated caster is slain or after 10 minutes, whichever comes first.",
 			"",
 			"### Effect",
 			"",
-			"This powerful ritual attempts to shunt the target's soul to a plane determined during the preparation for the ritual. A key component of the ritual is a forked rod, just like that used for a [plane shift](spell/plane_shift) spell. Any other device suitable for use as a focus component for [plane shift](spell/plane_shift) is also suitable for use with this ritual. The casters form a circle around the target, each touching the shoulder of the caster to his left to form a ring representing the multiverse as a whole. The primary caster stands inside this ring with the target, holding the diamond in one hand and the forked rod in the other. As the casters chant, the primary caster walks around the target in a circle. At the conclusion of the ritual, the primary caster touches the forked rod to the black diamond, which shatters. If the ritual is performed successfully, the target's soul is immediately sent to the designated plane and manifests there as a [petitioner](template/petitioner) or another appropriate outsider, just as if the designated plane were the soul's appropriate reward and regardless of the soul's actual alignment or outlook. If the target is a helpless creature, it is slain by this effect (no save). If the target is a soul trapped inside an object, the object is emptied when the soul departs to its designated destination.",
+			"This powerful ritual attempts to shunt the target's soul to a plane determined during the preparation for the ritual. A key component of the ritual is a forked rod, just like that used for a {spell/plane shift} spell. Any other device suitable for use as a focus component for {spell/plane shift} is also suitable for use with this ritual. The casters form a circle around the target, each touching the shoulder of the caster to his left to form a ring representing the multiverse as a whole. The primary caster stands inside this ring with the target, holding the diamond in one hand and the forked rod in the other. As the casters chant, the primary caster walks around the target in a circle. At the conclusion of the ritual, the primary caster touches the forked rod to the black diamond, which shatters. If the ritual is performed successfully, the target's soul is immediately sent to the designated plane and manifests there as a {template/petitioner} or another appropriate outsider, just as if the designated plane were the soul's appropriate reward and regardless of the soul's actual alignment or outlook. If the target is a helpless creature, it is slain by this effect (no save). If the target is a soul trapped inside an object, the object is emptied when the soul departs to its designated destination.",
 			"",
 			"As this ritual bypasses the soul's judgment and natural passage to the afterlife, it is considered anathema to the [psychopomps](family/psychopomp). Agents of the psychopomp ushers actively attempt to suppress knowledge of this ritual wherever they find it, but the psychopomps' enemies-such as [daemons](family/daemon) and [sahkils](family/sahkil)-work hard to disseminate knowledge of the ritual to inquisitive mortals."
 		],
@@ -421,9 +421,9 @@
 			"",
 			"The primary caster marks an enclosed space upon the ground with a material that is anathema to a specific type of creature that the caster wishes to keep at bay; typically, this ritual is used against specific outsider subtypes and undead creatures. Typical materials (and a list of creatures affected by those materials) include cold iron powder (daemons, demons, and fey), mithral or silver powder (devils and lycanthropes), oil mixed with sulfur (agathions, angels, archons, and azatas), and salt (undead and outsiders with the incorporeal subtype). At the GM's decision, additional materials may be available for use against other creatures. The area to be affected must be enclosed, with no gaps in the material's outline.",
 			"",
-			"If the ritual is successful, creatures to whom the used material is anathema cannot enter or exit the warded area, much as if the area were under the effects of an outward facing magic circle effect against those creatures. Those creatures cannot cross the area's boundaries or exit it by any means, including via extradimensional travel ([astral projection](spell/astral_projection), [blink](spell/blink), [dimension door](spell/dimension_door), [etherealness](spell/etherealness), [gate](spell/gate), [plane shift](spell/plane_shift), [shadow walk](spell/shadow_walk), [teleport](spell/teleport), [wind walk](spell/wind_walk), or similar means), and they cannot reach across the area's boundaries with melee attacks (even those with greater than 5 feet of reach). Incorporeal creatures cannot enter or pass through solid objects into or out of a warded area. An affected creature can make physical ranged attacks at targets within the earthbound ward, but the ward blocks line of effect (but not line of sight) for spells. Flight allows a creature to pass over earthbound wards, but it cannot approach closer than 10 feet off the ground within the area outlined by the ward. A flying creature that falls or otherwise attempts to land in the area is instead shunted to the closest available area just outside of the earthbound ward's area of effect and is knocked prone.",
+			"If the ritual is successful, creatures to whom the used material is anathema cannot enter or exit the warded area, much as if the area were under the effects of an outward facing magic circle effect against those creatures. Those creatures cannot cross the area's boundaries or exit it by any means, including via extradimensional travel ({spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/etherealness}, {spell/gate}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, {spell/wind walk}, or similar means), and they cannot reach across the area's boundaries with melee attacks (even those with greater than 5 feet of reach). Incorporeal creatures cannot enter or pass through solid objects into or out of a warded area. An affected creature can make physical ranged attacks at targets within the earthbound ward, but the ward blocks line of effect (but not line of sight) for spells. Flight allows a creature to pass over earthbound wards, but it cannot approach closer than 10 feet off the ground within the area outlined by the ward. A flying creature that falls or otherwise attempts to land in the area is instead shunted to the closest available area just outside of the earthbound ward's area of effect and is knocked prone.",
 			"",
-			"If the markings used to create an earthbound ward are disturbed or defaced, the effects of the ritual immediately cease. Physical efforts (such as scratching, erasing, or otherwise breaking or damaging the materials), spells, spell-like abilities, and supernatural abilities used by a creature for whom the material is anathema cannot target the markings. Such creatures can damage the markings as a consequence of those abilities, so long as the markings aren't directly targeted. For example, such a creature can use [earthquake](spell/earthquake) to disturb an earthbound ward set against it because the spell targets an area, not the markings itself. The ritual's magic prevents minor effects from disrupting the wards, although severe or stronger winds can do so."
+			"If the markings used to create an earthbound ward are disturbed or defaced, the effects of the ritual immediately cease. Physical efforts (such as scratching, erasing, or otherwise breaking or damaging the materials), spells, spell-like abilities, and supernatural abilities used by a creature for whom the material is anathema cannot target the markings. Such creatures can damage the markings as a consequence of those abilities, so long as the markings aren't directly targeted. For example, such a creature can use {spell/earthquake} to disturb an earthbound ward set against it because the spell targets an area, not the markings itself. The ritual's magic prevents minor effects from disrupting the wards, although severe or stronger winds can do so."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -475,9 +475,9 @@
 			"",
 			"### Effect",
 			"",
-			"This ritual requires the casters to create a large magic circle outlined with the silver powder and shaped with the focus stylus. The circle must be painstakingly molded to attune it to the alignment targeted (chaos, evil, good, or law), which is chosen during the time of creation. The ritual gains the descriptor of the alignment selected. Once the circle is complete, it becomes invisible to all but the casters of the ritual or to creatures with [see invisibility](spell/see_invisibility), [true seeing](spell/true_seeing), or some other method of seeing invisible objects.",
+			"This ritual requires the casters to create a large magic circle outlined with the silver powder and shaped with the focus stylus. The circle must be painstakingly molded to attune it to the alignment targeted (chaos, evil, good, or law), which is chosen during the time of creation. The ritual gains the descriptor of the alignment selected. Once the circle is complete, it becomes invisible to all but the casters of the ritual or to creatures with {spell/see invisibility}, {spell/true seeing}, or some other method of seeing invisible objects.",
 			"",
-			"Once the circle is complete, it can be used to trap an outsider whose subtype matches the chosen alignment, as if it were an inward-focused magic circle spell of the appropriate type (thus, an ensnaring circle attuned to evil acts like an inward-focused [magic circle against evil](spell/magic_circle_against_evil)). For an outsider to be trapped in this manner, the entire space of the outsider must be within the circle, at which point the primary caster can activate the circle as an immediate action. The primary caster must be within 100 feet of the circle and be able to see it and the outsider he wishes to trap in order to activate the circle. It is possible to trap multiple outsiders of the appropriate subtype in the circle if more than one are in the circle when it is activated. However, if any such outsider is not completely within the circle, it is not caught within the circle's confines and is free to disrupt the circle as described in the [magic circle against evil](spell/magic_circle_against_evil) spell description.",
+			"Once the circle is complete, it can be used to trap an outsider whose subtype matches the chosen alignment, as if it were an inward-focused magic circle spell of the appropriate type (thus, an ensnaring circle attuned to evil acts like an inward-focused {spell/magic circle against evil}). For an outsider to be trapped in this manner, the entire space of the outsider must be within the circle, at which point the primary caster can activate the circle as an immediate action. The primary caster must be within 100 feet of the circle and be able to see it and the outsider he wishes to trap in order to activate the circle. It is possible to trap multiple outsiders of the appropriate subtype in the circle if more than one are in the circle when it is activated. However, if any such outsider is not completely within the circle, it is not caught within the circle's confines and is free to disrupt the circle as described in the {spell/magic circle against evil} spell description.",
 			"",
 			"As with a magic circle, the trapped outsider cannot cross the circle's boundaries or reach over or beyond the boundaries, nor can it disrupt the circle either directly or indirectly, though it can make ranged attacks beyond the circle's boundaries. If the outsider has spell resistance, it can test the trap once per day. If the primary caster fails to overcome the outsider's spell resistance, the circle is disrupted and the outsider is freed from the circle's restraints. An outsider capable of any form of dimensional travel can simply leave the circle using such an ability.",
 			"",
@@ -501,7 +501,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** All casters are exhausted.  ",
-			"**Failure** The primary caster, as well as any secondary caster who failed a skill check, is blinded, deafened, and rendered speechless. This is a curse effect that can be removed with [remove curse](spell/remove_curse) and similar effects.",
+			"**Failure** The primary caster, as well as any secondary caster who failed a skill check, is blinded, deafened, and rendered speechless. This is a curse effect that can be removed with {spell/remove curse} and similar effects.",
 			"",
 			"### Effect",
 			"",
@@ -509,7 +509,7 @@
 			"",
 			"The primary caster begins by describing the nature of the society and requirements of membership, seeking indications of understanding and acceptance by the initiate throughout. The primary caster acknowledges any society leaders who are present and invites them to reject the initiate if they choose. If no leaders are present, the primary caster looks for other signs of symbolic rejection, and if any are perceived, the primary caster can cancel the ritual before attempting the required skill checks. If this occurs, all casters suffer the backlash, but there is no failure effect.",
 			"",
-			"If the ritual continues, the initiate must attempt either the Stealth or Perception check as a test. If the initiate fails this, the ritual fails regardless of the number of other successes, but if the ritual would otherwise succeed, only the initiate suffers the failure effect. Finally, the primary caster collects the initiate's blood into an appropriate receptacle and immerses a membership token in the blood while the initiate speaks the oaths of membership. When the initiate finishes the final oath, the ritual is complete and the backlash occurs. If the ritual is successful, each caster other than the initiate immediately knows who and what the initiate is, as per [blood biography](spell/blood_biography), as well as any lies the initiate deliberately and knowingly spoke during the ceremony, as per [discern lies](spell/discern_lies). If no falsehood is revealed, the initiation succeeds and the membership token is attuned to the new member. Thereafter, when worn or carried by the member, the token grants a +5 competence bonus on Bluff checks to pass secret messages to members of the organization and a +5 competence bonus on Sense Motive checks to receive secret messages from members of the organization, in addition to any other properties the token has."
+			"If the ritual continues, the initiate must attempt either the Stealth or Perception check as a test. If the initiate fails this, the ritual fails regardless of the number of other successes, but if the ritual would otherwise succeed, only the initiate suffers the failure effect. Finally, the primary caster collects the initiate's blood into an appropriate receptacle and immerses a membership token in the blood while the initiate speaks the oaths of membership. When the initiate finishes the final oath, the ritual is complete and the backlash occurs. If the ritual is successful, each caster other than the initiate immediately knows who and what the initiate is, as per {spell/blood biography}, as well as any lies the initiate deliberately and knowingly spoke during the ceremony, as per {spell/discern lies}. If no falsehood is revealed, the initiation succeeds and the membership token is attuned to the new member. Thereafter, when worn or carried by the member, the token grants a +5 competence bonus on Bluff checks to pass secret messages to members of the organization and a +5 competence bonus on Sense Motive checks to receive secret messages from members of the organization, in addition to any other properties the token has."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -556,7 +556,7 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** All secondary casters take 20d6 points of damage. Those slain are reduced to dust.  ",
-			"**Failure** The primary caster becomes a [forsaken lich](monster/forsaken_lich), doomed to inevitable destruction in 1d10 days.",
+			"**Failure** The primary caster becomes a {monster/forsaken lich}, doomed to inevitable destruction in 1d10 days.",
 			"",
 			"### Effect",
 			"",
@@ -575,7 +575,7 @@
 			"{SOURCE Occult Adventures/211}  ",
 			"**School** evocation; **Level** 5  ",
 			"**Casting Time** 50 minutes  ",
-			"**Components** V, S, M (a dollop of ectoplasm and paste extracted from ground lotus root worth 500 gp), F (an obsidian dagger with at least a +2 enhancement bonus and the [ghost touch](magic-enhancement/ghost_touch_weapon) special weapon ability, worth at least 18,301 gp)  ",
+			"**Components** V, S, M (a dollop of ectoplasm and paste extracted from ground lotus root worth 500 gp), F (an obsidian dagger with at least a +2 enhancement bonus and the {magic-enhancement/ghost touch} special weapon ability, worth at least 18,301 gp)  ",
 			"**Skill Checks** Knowledge (planes) DC 29, 3 successes; Knowledge (geography) DC 29, 2 successes  ",
 			"**Range** touch  ",
 			"**Effect** a rip between the Material Plane and the Ethereal Plane  ",
@@ -614,7 +614,7 @@
 			"",
 			"The caster reads aloud from her chosen lexicon while standing amid a circle of candles, reciting passages that fill her with dedication and conviction. Upon the completion of the ritual's casting time, she steps into the target haunt's area, causing her to forge a psychic connection with the haunt that pulls her mind into a [binary mindscape](rule/binary_mindscapes) of the haunt's creation and that is strongly reminiscent of the haunt's anguish and themed along the lines of the haunt's destruction method.",
 			"",
-			"This ritual allows the caster to instigate a [psychic duel](rule/psychic_duels) with the target haunt, functioning like [instigate psychic duel](spell/instigate_psychic_duel). Unlike with instigating a duel with another creature, a haunt remains responsive in the real world during the psychic duel; it is able to act during its normal initiative. The haunt counts as a psychic spellcaster with a caster level equal to the haunt's caster level for all purposes and can generate an unlimited number of manifestation points, though it can spend only a number of manifestation points equal to 1/2 its caster level (minimum 1st) per psychic manifestation. In the mindscape, the haunt's saving throw bonuses are equal to its CR + 2, and its melee and ranged attack bonuses are equal to 1-1/2 its CR + 2. In addition, the haunt has an amount of temporary hit points equal to its normal hit point total. If these temporary hit points are reduced to 0, the haunt is destroyed as if its specific destruction action had been performed."
+			"This ritual allows the caster to instigate a [psychic duel](rule/psychic_duels) with the target haunt, functioning like {spell/instigate psychic duel}. Unlike with instigating a duel with another creature, a haunt remains responsive in the real world during the psychic duel; it is able to act during its normal initiative. The haunt counts as a psychic spellcaster with a caster level equal to the haunt's caster level for all purposes and can generate an unlimited number of manifestation points, though it can spend only a number of manifestation points equal to 1/2 its caster level (minimum 1st) per psychic manifestation. In the mindscape, the haunt's saving throw bonuses are equal to its CR + 2, and its melee and ranged attack bonuses are equal to 1-1/2 its CR + 2. In addition, the haunt has an amount of temporary hit points equal to its normal hit point total. If these temporary hit points are reduced to 0, the haunt is destroyed as if its specific destruction action had been performed."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -687,13 +687,13 @@
 			"**Duration** 1 week  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The caster takes a -4 penalty on Will saves for the next 24 hours.  ",
-			"**Failure** The caster gains 1 permanent negative level and must succeed at a Will saving throw (DC = 16 + caster's Charisma bonus) or be transported to a random location in Abaddon, the Abyss, or Hell (based on the ritual), as per [plane shift](spell/plane_shift).",
+			"**Failure** The caster gains 1 permanent negative level and must succeed at a Will saving throw (DC = 16 + caster's Charisma bonus) or be transported to a random location in Abaddon, the Abyss, or Hell (based on the ritual), as per {spell/plane shift}.",
 			"",
 			"### Effect",
 			"",
 			"A solitary ritual, the rite of fiendish transformation must take place in an area bereft of light, save for that of a single candle. The candle is centered on a circular sigil crafted out of powdered obsidian and lined with unholy water. As the ritual commences, the caster holds aloft the severed head of a good outsider, through which a fiendish patron speaks. The circle channels the patron into the head without summoning its full presence, and the primary caster can choose which evil plane the creature comes from (Abaddon, the Abyss, or Hell).",
 			"",
-			"A grueling negotiation determines whether the ritual succeeds or fails. Success imparts the [half-fiend](template/half-fiend) template to the primary caster for 1 week, while simultaneously damning the soul of the primary caster to the plane he has contacted."
+			"A grueling negotiation determines whether the ritual succeeds or fails. Success imparts the {template/half-fiend} template to the primary caster for 1 week, while simultaneously damning the soul of the primary caster to the plane he has contacted."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -719,7 +719,7 @@
 			"",
 			"The first ritual is the simplest and requires nothing more than for the caster's alignment to become lawful evil, neutral evil, or chaotic evil (depending on the type of fiend the user wishes to transform into). To prepare for this ritual, the caster must undertake acts of a vile and destructive nature over the course of a year. The caster consigns her soul to Abaddon, the Abyss, or Hell even if she never finishes the subsequent rituals. The caster must select a powerful fiend at this point to serve as a demonic patron. The acts the caster must undertake can vary, but they should be of a nature that represents and honors the areas of interest of her chosen demonic patron-these acts are intended to attract the patron's attention, after all. Even casters who begin the transformation ritual with an evil alignment must undergo this stage of the ritual, if only to select a fiendish patron.",
 			"",
-			"On the day precisely 1 year after she began these evil acts, she must perform the 4-hour first apotheosis ritual to properly devote her previous year in the name of her chosen patron. Once she successfully completes the first apotheosis, she becomes eligible to undertake the [second apotheosis](spell/second_apotheosis)."
+			"On the day precisely 1 year after she began these evil acts, she must perform the 4-hour first apotheosis ritual to properly devote her previous year in the name of her chosen patron. Once she successfully completes the first apotheosis, she becomes eligible to undertake the {spell/second apotheosis}."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -739,13 +739,13 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates (see text); **SR** yes  ",
 			"**Backlash** All casters become exhausted and gain 1 temporary negative level.  ",
-			"**Failure** All creatures that would have been targeted by the ritual gain the benefits of [spell resistance](spell/spell_resistance) (CL = primary caster's Hit Dice) against the primary and secondary casters of the ritual until the next full moon.",
+			"**Failure** All creatures that would have been targeted by the ritual gain the benefits of {spell/spell resistance} (CL = primary caster's Hit Dice) against the primary and secondary casters of the ritual until the next full moon.",
 			"",
 			"### Effect",
 			"",
-			"This ritual inflicts a terrible curse upon an entire family line. The casters use a sample of the victim's hair or blood to infuse a ruby with dark magic and a shred of their target's soul. If successful, the ritual functions as [bestow curse](spell/bestow_curse), affecting the primary target, as well as the primary target's siblings, children, grandchildren, parents, and grandparents, no matter their location. Each target can resist the curse with a successful Will saving throw; success means the negative effects of the curse do not affect that individual, though they may still pass the curse on to their descendants. Children born into the curse manifest its effects and attempt their saving throws upon reaching maturity.",
+			"This ritual inflicts a terrible curse upon an entire family line. The casters use a sample of the victim's hair or blood to infuse a ruby with dark magic and a shred of their target's soul. If successful, the ritual functions as {spell/bestow curse}, affecting the primary target, as well as the primary target's siblings, children, grandchildren, parents, and grandparents, no matter their location. Each target can resist the curse with a successful Will saving throw; success means the negative effects of the curse do not affect that individual, though they may still pass the curse on to their descendants. Children born into the curse manifest its effects and attempt their saving throws upon reaching maturity.",
 			"",
-			"By increasing the skill check DCs by 2, the ritual can be modified to instead affect the primary target and the primary target's children, grandchildren, and two additional generations of descendants beyond. When cast, the ritual must specify a single condition any member of the family can fulfill to destroy the curse; this condition must be possible, however unlikely, though victims of the curse do not automatically know what condition or actions might destroy the magic. The curse remains empowered by the gem originally used as the ritual focus. Should the focusing gem be destroyed, the curse ends immediately. As such, most covens take great care in hiding and defending the focusing gems of their victims. An individual can be freed from the five-generations curse with a [break enchantment](spell/break_enchantment) or [remove curse](spell/remove_curse) spell cast by a spellcaster whose caster level is higher than the primary ritual caster's Hit Dice, and the curse can be removed from an entire line with a [miracle](spell/miracle) or [wish](spell/wish) spell."
+			"By increasing the skill check DCs by 2, the ritual can be modified to instead affect the primary target and the primary target's children, grandchildren, and two additional generations of descendants beyond. When cast, the ritual must specify a single condition any member of the family can fulfill to destroy the curse; this condition must be possible, however unlikely, though victims of the curse do not automatically know what condition or actions might destroy the magic. The curse remains empowered by the gem originally used as the ritual focus. Should the focusing gem be destroyed, the curse ends immediately. As such, most covens take great care in hiding and defending the focusing gems of their victims. An individual can be freed from the five-generations curse with a {spell/break enchantment} or {spell/remove curse} spell cast by a spellcaster whose caster level is higher than the primary ritual caster's Hit Dice, and the curse can be removed from an entire line with a {spell/miracle} or {spell/wish} spell."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -764,11 +764,11 @@
 			"**Area** 5-square-mile area of appropriate terrain; see text  ",
 			"**Duration** instantaneous  ",
 			"**Backlash** All casters take 6d6 points of damage and are exhausted.  ",
-			"**Failure** The primary caster takes 15d6 points of damage (no save). If slain by this damage, the primary caster is reduced to a pile of rotten sludge, and can be restored only by [true resurrection](spell/true_resurrection) or greater magic.",
+			"**Failure** The primary caster takes 15d6 points of damage (no save). If slain by this damage, the primary caster is reduced to a pile of rotten sludge, and can be restored only by {spell/true resurrection} or greater magic.",
 			"",
 			"### Effect",
 			"",
-			"The primary caster leads a grueling session of incantations and feats of physical prowess throughout a specific type of terrain. Example terrain types include (but are not limited to) cave, desert, forest, mountain, sewer, swamp, or tundra. This ritual corrupts the affected area, summoning forth a [blight](family/blight) associated with the terrain as well as turning the affected area into the blight's cursed domain. The DC for skill checks associated with this ritual is 24 plus the CR of the associated blight (for example, DC 37 for a [desert blight](monster/desert_blight), DC 40 for a [tundra blight](monster/tundra_blight), and so on). During the ritual's enactment, the primary caster guides any secondary casters through the terrain, defiling the area with blasphemous words from a long-extinct, primordial language. A bone altar, often assembled from sacrificed animals or humanoids, must stand at the center of the area to be affected, and is the starting and ending point of the ritual. Once the surrounding area is suitably prepared, the primary caster deposits the preserved hearts into the altar. If the ritual is successful, the associated blight bubbles forth from within the altar, formed from the alchemical soup that the altar contains.",
+			"The primary caster leads a grueling session of incantations and feats of physical prowess throughout a specific type of terrain. Example terrain types include (but are not limited to) cave, desert, forest, mountain, sewer, swamp, or tundra. This ritual corrupts the affected area, summoning forth a {family/blight} associated with the terrain as well as turning the affected area into the blight's cursed domain. The DC for skill checks associated with this ritual is 24 plus the CR of the associated blight (for example, DC 37 for a {monster/desert blight}, DC 40 for a {monster/tundra blight}, and so on). During the ritual's enactment, the primary caster guides any secondary casters through the terrain, defiling the area with blasphemous words from a long-extinct, primordial language. A bone altar, often assembled from sacrificed animals or humanoids, must stand at the center of the area to be affected, and is the starting and ending point of the ritual. Once the surrounding area is suitably prepared, the primary caster deposits the preserved hearts into the altar. If the ritual is successful, the associated blight bubbles forth from within the altar, formed from the alchemical soup that the altar contains.",
 			"",
 			"This ritual provides no protection against the formed blight, and it's likely that the blight's first action is to attack the primary and secondary casters. Luckily for the primary caster, blights created in this manner have a penchant for consuming the secondary casters first, giving ample time for the primary caster to escape."
 		],
@@ -794,7 +794,7 @@
 			"",
 			"### Effect",
 			"",
-			"For those who wish to go further than merely becoming a half-fiend, a fourth ritual exists. The primary caster's fiendish lord grants no vision or advice to begin this ritual-the primary caster must take it upon herself to honor her patron in a manner appropriate to that fiend's interests and areas of concern. Once every year, on the anniversary of the day the primary caster completed the third apotheosis, she can perform a special ceremony that recounts her accomplishments over the past year and culminates in a significant sacrifice (usually consisting of the sacrifice of an important member of an enemy faith, or of a lawful or good outsider; in either case, the sacrifice must be at least CR 9). If this ritual is a success, the primary caster transforms into a full-fledged fiend: she loses all benefits of her previous race and the half-fiend template but can immediately apply all of her class levels to her new fiendish race (for example, a human [fighter](class/fighter) 10 could become a [vrock](monster/vrock) fighter 10). The type of fiend that she transforms into depends on both the nature of her chosen fiendish patron and the GM's discretion, but it should generally not have a total number of Hit Dice more than twice her original Hit Dice. The primary caster generally gets only one chance at the fourth apotheosis, for failure results in her death; however, should she be restored to life, she can attempt the fourth apotheosis again."
+			"For those who wish to go further than merely becoming a half-fiend, a fourth ritual exists. The primary caster's fiendish lord grants no vision or advice to begin this ritual-the primary caster must take it upon herself to honor her patron in a manner appropriate to that fiend's interests and areas of concern. Once every year, on the anniversary of the day the primary caster completed the third apotheosis, she can perform a special ceremony that recounts her accomplishments over the past year and culminates in a significant sacrifice (usually consisting of the sacrifice of an important member of an enemy faith, or of a lawful or good outsider; in either case, the sacrifice must be at least CR 9). If this ritual is a success, the primary caster transforms into a full-fledged fiend: she loses all benefits of her previous race and the half-fiend template but can immediately apply all of her class levels to her new fiendish race (for example, a human {class/fighter} 10 could become a {monster/vrock} fighter 10). The type of fiend that she transforms into depends on both the nature of her chosen fiendish patron and the GM's discretion, but it should generally not have a total number of Hit Dice more than twice her original Hit Dice. The primary caster generally gets only one chance at the fourth apotheosis, for failure results in her death; however, should she be restored to life, she can attempt the fourth apotheosis again."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -814,11 +814,11 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** Will negates; **SR** yes  ",
 			"**Backlash** The primary caster can't form short-term memories for the next 24 hours.  ",
-			"**Failure** The primary caster must succeed at a Will save or suffer the effects of the [amnesia](madness/amnesia) greater madness. The amnesia lasts until removed, but can't be removed, even by magic, until 2d6 days have passed.",
+			"**Failure** The primary caster must succeed at a Will save or suffer the effects of the {madness/amnesia} greater madness. The amnesia lasts until removed, but can't be removed, even by magic, until 2d6 days have passed.",
 			"",
 			"### Effect",
 			"",
-			"The casters weave the target's name into a chant of nonsense rhyming stories for 6 hours, as they slowly extract the target's memories into the urn as a purple mist. The target loses all but the first class level she ever gained (if any; this ritual doesn't affect racial hit dice), immediately reducing or removing all level-dependent abilities as if the target were a 1st-level character. In addition to the loss of her class levels, the target suffers from total amnesia of the time in which she accrued those levels. The target can gain experience and accrue new levels, though she must adhere to all the same decisions she made previously with her missing levels (class, archetype, skills, feats, and so on), even if she can't explain why she now makes such decisions. In some cases, she might do so without meeting the requirements, such as if her amnesia blocked an alignment change and she gained levels in a class with an alignment restriction she no longer met; in this case, she would gain the abilities but retain only those she would have as an ex-member of the class. The rule that she must adhere to all previous decisions has one exception: if the target is a [psychic](class/psychic), she can gain the amnesiac archetype as long as she could otherwise take it.",
+			"The casters weave the target's name into a chant of nonsense rhyming stories for 6 hours, as they slowly extract the target's memories into the urn as a purple mist. The target loses all but the first class level she ever gained (if any; this ritual doesn't affect racial hit dice), immediately reducing or removing all level-dependent abilities as if the target were a 1st-level character. In addition to the loss of her class levels, the target suffers from total amnesia of the time in which she accrued those levels. The target can gain experience and accrue new levels, though she must adhere to all the same decisions she made previously with her missing levels (class, archetype, skills, feats, and so on), even if she can't explain why she now makes such decisions. In some cases, she might do so without meeting the requirements, such as if her amnesia blocked an alignment change and she gained levels in a class with an alignment restriction she no longer met; in this case, she would gain the abilities but retain only those she would have as an ex-member of the class. The rule that she must adhere to all previous decisions has one exception: if the target is a {class/psychic}, she can gain the amnesiac archetype as long as she could otherwise take it.",
 			"",
 			"Destroying the receptacle instantly returns the lost levels to the target and reverses any amnesia. If the target became an amnesiac psychic, she loses the archetype as normal."
 		],
@@ -844,9 +844,9 @@
 			"",
 			"### Effect",
 			"",
-			"This ritual allows an established coven to induct a new member, allowing the coven to increase in size beyond the usual limit of three members. The newcomer must be a creature that could normally join a coven, such as a hag or a witch with the coven hex. Under the shadow of the new moon, the entire coven and the prospective member must prepare a bowl of rich red wine as they dance and chant, with each member adding handfuls of rare and expensive herbs. At midnight, the coven consumes the wine together. If the ritual is a success, the newcomer becomes a full member of the coven; see the details of forming a coven under the monster entry for a [green hag](monster/green_hag). Every additional coven member above four increases the ritual skill check DCs by 2. No coven can be larger than 13 members.",
+			"This ritual allows an established coven to induct a new member, allowing the coven to increase in size beyond the usual limit of three members. The newcomer must be a creature that could normally join a coven, such as a hag or a witch with the coven hex. Under the shadow of the new moon, the entire coven and the prospective member must prepare a bowl of rich red wine as they dance and chant, with each member adding handfuls of rare and expensive herbs. At midnight, the coven consumes the wine together. If the ritual is a success, the newcomer becomes a full member of the coven; see the details of forming a coven under the monster entry for a {monster/green hag}. Every additional coven member above four increases the ritual skill check DCs by 2. No coven can be larger than 13 members.",
 			"",
-			"Any three coven members can participate together to cast coven spells, as normal. Each additional coven member participating in a coven spell beyond the minimum requirement for a given spell increases the effective caster level of that spell by 1, to a maximum of CL 20th. Every two coven members participating in a coven spell beyond the minimum requirement also increase the saving throw DC by 1. When a coven reaches seven members, it gains the following new spells, which require all seven participants acting in concert to cast: [create undead](spell/create_undead), [dominate person](spell/dominate_person) (DC 18), [epidemic](spell/epidemic) (DC 19), [fairy ring retreat](spell/fairy_ring_retreat), [major curse](spell/major_curse) (DC 18), [magic jar](spell/magic_jar) (DC 18), and [prying eyes](spell/prying_eyes). When a coven reaches 13 members, it gains the following new spells, which require 13 participants acting in concert to cast: [create greater undead](spell/create_greater_undead), [cursed earth](spell/cursed_earth) (DC 22), [dominate monster](spell/dominate_monster) (DC 22), [greater prying eyes](spell/greater_prying_eyes), and [wail of the banshee](spell/wail_of_the_banshee) (DC 22)."
+			"Any three coven members can participate together to cast coven spells, as normal. Each additional coven member participating in a coven spell beyond the minimum requirement for a given spell increases the effective caster level of that spell by 1, to a maximum of CL 20th. Every two coven members participating in a coven spell beyond the minimum requirement also increase the saving throw DC by 1. When a coven reaches seven members, it gains the following new spells, which require all seven participants acting in concert to cast: {spell/create undead}, {spell/dominate person} (DC 18), {spell/epidemic} (DC 19), {spell/fairy ring retreat}, {spell/major curse} (DC 18), {spell/magic jar} (DC 18), and {spell/prying eyes}. When a coven reaches 13 members, it gains the following new spells, which require 13 participants acting in concert to cast: {spell/create greater undead}, {spell/cursed earth} (DC 22), {spell/dominate monster} (DC 22), {spell/greater prying eyes}, and {spell/wail of the banshee} (DC 22)."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -868,7 +868,7 @@
 			"",
 			"### Effect",
 			"",
-			"This ritual is used to create a loyal servant and spy for the coven: a [hag eye ooze](monster/hag_eye_ooze). Before the ritual can begin, the primary caster must spend 2 weeks carefully preparing an alchemical stew of animal organs, poisonous plants, and potent liquors."
+			"This ritual is used to create a loyal servant and spy for the coven: a {monster/hag eye ooze}. Before the ritual can begin, the primary caster must spend 2 weeks carefully preparing an alchemical stew of animal organs, poisonous plants, and potent liquors."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -892,7 +892,7 @@
 			"",
 			"### Effect",
 			"",
-			"At the completion of this ritual, one of the casters is selected as the target for the effect. The selected caster gains the ability to cast [commune with nature](spell/commune_with_nature) as a spell-like ability once over the course of the next 30 days, and the ability to cast [plant growth](spell/plant_growth) (enrichment only) five times over the course of the next 30 days. The caster level for these effects is equal to the character level of the primary caster. In addition, all casters who celebrate the festival gain a +1 morale bonus on Diplomacy checks for 48 hours."
+			"At the completion of this ritual, one of the casters is selected as the target for the effect. The selected caster gains the ability to cast {spell/commune with nature} as a spell-like ability once over the course of the next 30 days, and the ability to cast {spell/plant growth} (enrichment only) five times over the course of the next 30 days. The caster level for these effects is equal to the character level of the primary caster. In addition, all casters who celebrate the festival gain a +1 morale bonus on Diplomacy checks for 48 hours."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -916,7 +916,7 @@
 			"",
 			"### Effect",
 			"",
-			"Formulated and perfected by the [Whispering Way's](rule/f_gravepath) most twisted minds, this ritual allows the caster to perform a number of fell rites that thoroughly defile the metaphysical soul of a specific haunt or incorporeal creature, causing its essence to coalesce into a refined ectoplasmic material that can be used to craft especially powerful magic items and artifacts. Before she can begin casting this ritual, the primary caster must draw necromantic sigils around the area to be affected and adorn them with candles, a 12-hour process. Each secondary caster participating in the ritual reduces this time by 1 hour, to a minimum of 1 hour. During the ritual, one specific incorporeal undead creature or haunt must be present within the affected area for its entire casting time. Upon completing the ritual, the primary caster can harvest material components from the specific creature or haunt as if she had the [Haunt Scavenger](feat/haunt_scavenger) feat, though the creature or haunt need not be destroyed or neutralized. If she already has this feat, she gains a +20 competence bonus on skill checks to harvest material components from the specific creature or haunt and the gp value of those components doubles. This process doesn't destroy or neutralize the creature or haunt, and can be used on a specific creature or haunt only once per month."
+			"Formulated and perfected by the [Whispering Way's](rule/f_gravepath) most twisted minds, this ritual allows the caster to perform a number of fell rites that thoroughly defile the metaphysical soul of a specific haunt or incorporeal creature, causing its essence to coalesce into a refined ectoplasmic material that can be used to craft especially powerful magic items and artifacts. Before she can begin casting this ritual, the primary caster must draw necromantic sigils around the area to be affected and adorn them with candles, a 12-hour process. Each secondary caster participating in the ritual reduces this time by 1 hour, to a minimum of 1 hour. During the ritual, one specific incorporeal undead creature or haunt must be present within the affected area for its entire casting time. Upon completing the ritual, the primary caster can harvest material components from the specific creature or haunt as if she had the {feat/Haunt Scavenger} feat, though the creature or haunt need not be destroyed or neutralized. If she already has this feat, she gains a +20 competence bonus on skill checks to harvest material components from the specific creature or haunt and the gp value of those components doubles. This process doesn't destroy or neutralize the creature or haunt, and can be used on a specific creature or haunt only once per month."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -942,7 +942,7 @@
 			"",
 			"This ritual must be performed within 60 feet of a haunt. The primary caster rings the silver bell using an object associated with the haunt's origin or source of power. Once this is done, the primary caster draws an intricate circle adorned with occult symbols around a plate bearing the small, salted pastry.",
 			"",
-			"If the incantation is successful, the haunt's spirit enters into the pastry (making the haunt inert for the duration of the ritual) and one of the casters must eat the pastry before the next hour or the ritual ends. Failure to do so allows the haunt to go free and increases any DCs of the haunt's effects by 4 and grants a +4 bonus on attack rolls made by the haunt for 24 hours. Once a caster eats the pastry, the spirit of the haunt speaks through the individual who ate the pastry, and is required to truthfully answer 10 questions (1 question per round) before departing, though since the haunt is an emotional echo, the answers may be brief, cryptic, or repetitive, as with [speak with dead](spell/speak_with_dead). Once the 10 questions are answered or the spell is dismissed, the haunt can manifest as normal."
+			"If the incantation is successful, the haunt's spirit enters into the pastry (making the haunt inert for the duration of the ritual) and one of the casters must eat the pastry before the next hour or the ritual ends. Failure to do so allows the haunt to go free and increases any DCs of the haunt's effects by 4 and grants a +4 bonus on attack rolls made by the haunt for 24 hours. Once a caster eats the pastry, the spirit of the haunt speaks through the individual who ate the pastry, and is required to truthfully answer 10 questions (1 question per round) before departing, though since the haunt is an emotional echo, the answers may be brief, cryptic, or repetitive, as with {spell/speak with dead}. Once the 10 questions are answered or the spell is dismissed, the haunt can manifest as normal."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -991,7 +991,7 @@
 			"",
 			"### Effect",
 			"",
-			"The ritual allows the primary caster to inhabit the body of a [rune giant](monster/rune_giant) that she knows firsthand as if using [possession](spell/possession). The rune giant must be within 100 miles per character level of the primary caster when the ritual is complete. The rune giant receives no save against this effect. Unlike [possession](spell/possession), the primary caster can use all of her own abilities as well as the rune giant's abilities while possessing the rune giant, and the primary caster can choose to use either her own or the rune giant's base attack bonus or base save bonuses. While the primary caster inhabits the rune giant, the rune giant gains 5 bonus hit points per character level of the primary caster."
+			"The ritual allows the primary caster to inhabit the body of a {monster/rune giant} that she knows firsthand as if using {spell/possession}. The rune giant must be within 100 miles per character level of the primary caster when the ritual is complete. The rune giant receives no save against this effect. Unlike {spell/possession}, the primary caster can use all of her own abilities as well as the rune giant's abilities while possessing the rune giant, and the primary caster can choose to use either her own or the rune giant's base attack bonus or base save bonuses. While the primary caster inhabits the rune giant, the rune giant gains 5 bonus hit points per character level of the primary caster."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1011,11 +1011,11 @@
 			"**Duration** 1 hour  ",
 			"**Saving Throw** none; **SR** yes  ",
 			"**Backlash** All casters take 4d6 points of damage.  ",
-			"**Failure** The primary caster is exhausted and the target gains the benefit of a [magic circle against law](spell/magic_circle_against_law) effect (CL equal to the primary caster's character level) for 1 hour.",
+			"**Failure** The primary caster is exhausted and the target gains the benefit of a {spell/magic circle against law} effect (CL equal to the primary caster's character level) for 1 hour.",
 			"",
 			"### Effect",
 			"",
-			"The caster carefully places the four cogs around the target and traces chalk lines connecting them. As the chalk lines must be as close to perfectly square as possible, the caster typically uses a guide or straight edge to draw the lines, although these components aren't strictly necessary if the caster can draw the lines freehand with exceptional precision. As the caster recites certain mathematical formulae, the cogs slide slowly along the chalk lines and closer to the target, redrawing the chalk lines across the floor as they move. As the cogs approach the target, the target's skin and clothing become more metallic-looking, and the target's gaps and joints appear to contain rapidly whirring clockwork mechanisms, as though the target were a quasi-mechanical creature like an [inevitable](family/inevitable). If the ritual is successful, the target is infused with the essence of Axis and can act only with rigid precision. The first ability check, attack roll, caster level check, saving throw, or skill check the target makes each round throughout the ritual's duration is automatically treated as though the natural d20 roll resulted in an 11. When the duration ends, the target's appearance returns to normal."
+			"The caster carefully places the four cogs around the target and traces chalk lines connecting them. As the chalk lines must be as close to perfectly square as possible, the caster typically uses a guide or straight edge to draw the lines, although these components aren't strictly necessary if the caster can draw the lines freehand with exceptional precision. As the caster recites certain mathematical formulae, the cogs slide slowly along the chalk lines and closer to the target, redrawing the chalk lines across the floor as they move. As the cogs approach the target, the target's skin and clothing become more metallic-looking, and the target's gaps and joints appear to contain rapidly whirring clockwork mechanisms, as though the target were a quasi-mechanical creature like an {family/inevitable}. If the ritual is successful, the target is infused with the essence of Axis and can act only with rigid precision. The first ability check, attack roll, caster level check, saving throw, or skill check the target makes each round throughout the ritual's duration is automatically treated as though the natural d20 roll resulted in an 11. When the duration ends, the target's appearance returns to normal."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1039,7 +1039,7 @@
 			"",
 			"### Effect",
 			"",
-			"As the primary caster traces warped runes in the air, this ritual twists and reshapes the target giant with arcane energies and etches runes into the giant's flesh. This agonizing process deals the giant 1d6 points of damage per character level of the primary caster. Upon completion of the ritual, the giant must succeed at Fortitude save or be transformed into an [inverted giant](monster/inverted_giant). If the giant succeeds at the save, it takes a cumulative -2 penalty on its Fortitude saves against this ritual for the next week."
+			"As the primary caster traces warped runes in the air, this ritual twists and reshapes the target giant with arcane energies and etches runes into the giant's flesh. This agonizing process deals the giant 1d6 points of damage per character level of the primary caster. Upon completion of the ritual, the giant must succeed at Fortitude save or be transformed into an {monster/inverted giant}. If the giant succeeds at the save, it takes a cumulative -2 penalty on its Fortitude saves against this ritual for the next week."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1063,7 +1063,7 @@
 			"",
 			"### Effect",
 			"",
-			"The caster begins by rolling the marble around the target object, tracing complex occult patterns. The caster then touches the iron key to the target object four times. The caster repeats the process of rolling the marble and touching the key to the target object three more times, though with each iteration, the marble becomes harder and harder to move, as if it were being pushed through thickening cement. Upon successful completion of the ritual, the marble disappears, and a small, invisible sphere of force surrounds the target object. Any creature holding the iron key used as the focus can pick up and move the target object. Any other creature attempting to touch the target object meets a solid, immovable surface similar to a [wall of force](spell/wall_of_force). The protective sphere dissipates after 1 month, but it ends immediately if a creature holding the iron key taps it to the object four times in quick succession."
+			"The caster begins by rolling the marble around the target object, tracing complex occult patterns. The caster then touches the iron key to the target object four times. The caster repeats the process of rolling the marble and touching the key to the target object three more times, though with each iteration, the marble becomes harder and harder to move, as if it were being pushed through thickening cement. Upon successful completion of the ritual, the marble disappears, and a small, invisible sphere of force surrounds the target object. Any creature holding the iron key used as the focus can pick up and move the target object. Any other creature attempting to touch the target object meets a solid, immovable surface similar to a {spell/wall of force}. The protective sphere dissipates after 1 month, but it ends immediately if a creature holding the iron key taps it to the object four times in quick succession."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1097,7 +1097,7 @@
 			"",
 			"A nemesis creature always knows its victim's location, but it must travel to the victim under its own power (or its creator's power). A victim can conceal itself from the nemesis creature's senses for 24 hours by succeeding at a Will saving throw each day at dawn. Should the nemesis creature be discovered and slain, its spirit returns to the depiction used to conjure it, where it re-forms after 1d4 days per Hit Die. Once re-formed, the nemesis creature emerges from its depiction to resume its campaign of subterfuge. The curse bestowed by this spell cannot be dispelled, but it can be removed with a miracle or wish spell. If the depiction of the nemesis creature is destroyed or if it is targeted with a remove curse or break enchantment spell, the nemesis creature is immediately destroyed and the curse ends.",
 			"",
-			"The following creatures can be summoned as nemesis creatures: [allip](monster/allip), [gremlin](family/gremlin) (any), [hell hound](monster/hell_hound), [imp](monster/imp), [lovelorn](monster/lovelorn), [poltergeist](monster/poltergeist), [quasit](monster/quasit), or [tooth fairy](monster/tooth_fairy)."
+			"The following creatures can be summoned as nemesis creatures: {monster/allip}, {family/gremlin} (any), {monster/hell hound}, {monster/imp}, {monster/lovelorn}, {monster/poltergeist}, {monster/quasit}, or {monster/tooth fairy}."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1121,9 +1121,9 @@
 			"",
 			"### Effect",
 			"",
-			"The rituals of lost Sarkoris summoned and put to use many of their myriad \"gods,\" including conjuring powerful spirits into a clan's soldiers to invest them with bravery and divine grace in an upcoming battle. In this ritual, after an hour of chanting, calling down a spirit, and begging and forcing its service, the primary caster moves among those to be invested with the spirit's power, anointing the participants' foreheads with blood. The ritual infuses each anointed warrior with inhuman passion and courage, granting a +2 morale bonus on attack rolls, saving throws, and skill checks, as well as a +4 morale bonus on saves against fear effects, but also renders them vulnerable to spells that forbid outsiders or deal additional damage against creatures of the outsider type (such as [magic circle against chaos](spell/magic_circle_against_chaos) and [chaos hammer](spell/chaos_hammer)). A target of this spell does not become an outsider; it simply gains a temporary vulnerability to these effects.",
+			"The rituals of lost Sarkoris summoned and put to use many of their myriad \"gods,\" including conjuring powerful spirits into a clan's soldiers to invest them with bravery and divine grace in an upcoming battle. In this ritual, after an hour of chanting, calling down a spirit, and begging and forcing its service, the primary caster moves among those to be invested with the spirit's power, anointing the participants' foreheads with blood. The ritual infuses each anointed warrior with inhuman passion and courage, granting a +2 morale bonus on attack rolls, saving throws, and skill checks, as well as a +4 morale bonus on saves against fear effects, but also renders them vulnerable to spells that forbid outsiders or deal additional damage against creatures of the outsider type (such as {spell/magic circle against chaos} and {spell/chaos hammer}). A target of this spell does not become an outsider; it simply gains a temporary vulnerability to these effects.",
 			"",
-			"To maintain this spell's magic, the primary caster must host the \"god\" invoked within her body for the duration of the spell. The outsider scuttles beneath her flesh, causing intense pain and distraction; each round, she has a 50% chance of being dazed by the pain. When the spell's duration expires, the primary caster can eject her parasitic \"god\" back to its home plane with a successful Will saving throw. On a failed save, the spirit remains and continues to inflict debilitating pain until banished via [break enchantment](spell/break_enchantment), [dismissal](spell/dismissal), [limited wish](spell/limited_wish), [miracle](spell/miracle), [remove curse](spell/remove_curse), or [wish](spell/wish). Banishing the spirit early immediately ends the ritual's effect."
+			"To maintain this spell's magic, the primary caster must host the \"god\" invoked within her body for the duration of the spell. The outsider scuttles beneath her flesh, causing intense pain and distraction; each round, she has a 50% chance of being dazed by the pain. When the spell's duration expires, the primary caster can eject her parasitic \"god\" back to its home plane with a successful Will saving throw. On a failed save, the spirit remains and continues to inflict debilitating pain until banished via {spell/break enchantment}, {spell/dismissal}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}. Banishing the spirit early immediately ends the ritual's effect."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1143,7 +1143,7 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** Will disbelief (if interacted with); **SR** no  ",
 			"**Backlash** The primary caster gains 1 temporary negative level.  ",
-			"**Failure** All casters gain 2 temporary negative levels and are permanently blinded (the blindness is a curse effect, and it can be removed with [remove curse](spell/remove_curse) and similar effects).",
+			"**Failure** All casters gain 2 temporary negative levels and are permanently blinded (the blindness is a curse effect, and it can be removed with {spell/remove curse} and similar effects).",
 			"",
 			"### Effect",
 			"",
@@ -1162,7 +1162,7 @@
 			"{SOURCE Book of the Damned/193}  ",
 			"**School** divination; **Level** 9  ",
 			"**Casting Time** 90 minutes  ",
-			"**Components** S, F (the complete [Book of the Damned](magic-artifact/book_of_the_damned) or the [diabolic Book of the Damned](magic-artifact/book_of_the_damned_diabolic))  ",
+			"**Components** S, F (the complete {magic-artifact/Book of the Damned} or the [diabolic Book of the Damned](magic-artifact/book_of_the_damned_diabolic))  ",
 			"**Skill Checks** Knowledge (planes) DC 33, 3 successes; Linguistics DC 33, 4 successes; Perception DC 33, 2 successes (these checks take a -4 penalty if the diabolic Book of the Damned is used as the ritual's focus)  ",
 			"**Range** touch  ",
 			"**Duration** instantaneous  ",
@@ -1215,7 +1215,7 @@
 			"**Duration** 1 hour/character level of the primary caster  ",
 			"**Saving Throw** Fortitude negates (object); **SR** no  ",
 			"**Backlash** All casters take 4d6 points of damage.  ",
-			"**Failure** All nonmagical plants within a 100-foot radius of the primary caster wither and die, and casters suffer [horrid wilting](spell/horrid_wilting) (no save), using the character level of the primary caster as the caster level.",
+			"**Failure** All nonmagical plants within a 100-foot radius of the primary caster wither and die, and casters suffer {spell/horrid wilting} (no save), using the character level of the primary caster as the caster level.",
 			"",
 			"### Effect",
 			"",
@@ -1266,7 +1266,7 @@
 			"{SOURCE Bestiary 6/207}  ",
 			"**School** conjuration (healing); **Level** 9  ",
 			"**Casting Time** 90 minutes  ",
-			"**Components** V, S, M (a gallon of blood harvested from an [ouroboros](monster/ouroboros) within the previous month), SC (up to 8)  ",
+			"**Components** V, S, M (a gallon of blood harvested from an {monster/ouroboros} within the previous month), SC (up to 8)  ",
 			"**Skill Checks** Heal DC 34, 4 successes; Knowledge (arcana) DC 34, 3 successes; Knowledge (planes) DC 34, 2 successes  ",
 			"**Range** touch  ",
 			"**Target** one dead creature  ",
@@ -1277,7 +1277,7 @@
 			"",
 			"### Effect",
 			"",
-			"The caster uses the ouroboros blood to paint complex mathematical equations on the ground surrounding a dead body (or if lacking a body, in the area where the body was slain). Upon the ritual's completion, the dead body is restored to life, as per [true resurrection](spell/true_resurrection). Unlike that spell's limitation, there is no limit as to how long the body has been dead before it can be restored to life in this manner, but bodies whose souls have been judged and sent on to the afterlife (GM's discretion) cannot be restored to life via this ritual. A creature can be restored to life via an ouroboros blood ritual only once through all time."
+			"The caster uses the ouroboros blood to paint complex mathematical equations on the ground surrounding a dead body (or if lacking a body, in the area where the body was slain). Upon the ritual's completion, the dead body is restored to life, as per {spell/true resurrection}. Unlike that spell's limitation, there is no limit as to how long the body has been dead before it can be restored to life in this manner, but bodies whose souls have been judged and sent on to the afterlife (GM's discretion) cannot be restored to life via this ritual. A creature can be restored to life via an ouroboros blood ritual only once through all time."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1296,13 +1296,13 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster is staggered for the next 24 hours.  ",
-			"**Failure** The primary caster is affected by [slay living](spell/slay_living) (using the ritual's save DC and caster level).",
+			"**Failure** The primary caster is affected by {spell/slay living} (using the ritual's save DC and caster level).",
 			"",
 			"### Effect",
 			"",
 			"The caster prepares a ritual site no more than 100 feet long by 100 feet wide by 20 feet high, including sigils that prevent souls from escaping the perimeter. At the culmination of the ritual, the caster forces two spiritually close humanoid creatures experiencing a transitional state of their lives into ritual combat to the death. Among most humanoids, only teenage twins (fraternal or identical) young enough that they haven't gained a level in a PC class can be targets of this ritual; other pairings work only at the GM's discretion. One of the targets must slay the other with the ceremonial dagger focus for the ritual to succeed; even if all the checks succeed, if either target leaves the area while the other lives, or if someone else slays one of the targets, the ritual counts as a failure, and the primary caster suffers the failure effects.",
 			"",
-			"If the ritual succeeds, the soul of the creature slain by the ritual dagger is trapped within the ritual site. The surviving target has a choice either to allow the soul into her body, or to bar it from doing so. If the surviving target allows the soul inside her, she becomes a [spiritualist](class/spiritualist), with the slain target as her phantom. If the surviving target chooses not to allow the spirit entry, it instead becomes an [unfettered phantom](monster/unfettered_phantom) and eventually a malevolent [ghost](template/ghost), haunting the ritual site. This ghost cannot directly attack the surviving target, but in order to overcome its rejuvenation, someone must provide proof of the surviving target's death (false evidence is not sufficient; that target must actually be dead)."
+			"If the ritual succeeds, the soul of the creature slain by the ritual dagger is trapped within the ritual site. The surviving target has a choice either to allow the soul into her body, or to bar it from doing so. If the surviving target allows the soul inside her, she becomes a {class/spiritualist}, with the slain target as her phantom. If the surviving target chooses not to allow the spirit entry, it instead becomes an {monster/unfettered phantom} and eventually a malevolent {template/ghost}, haunting the ritual site. This ghost cannot directly attack the surviving target, but in order to overcome its rejuvenation, someone must provide proof of the surviving target's death (false evidence is not sufficient; that target must actually be dead)."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1326,7 +1326,7 @@
 			"",
 			"### Effect",
 			"",
-			"The primary caster begins by using a peacock feather to dust a circle of crushed malachite around a building or sacred site and calls forth hushed whispers-the murmuring chastisement of the secretive Peacock Spirit-to blot out invasive magics that overhear or reveal secrets. Anyone attempting to cast a divination or enchantment spell or spell-like ability that detects thoughts or compels the truth within the area of effect, or that targets the area of effect with a remote sensing spell such as [scrying](spell/scrying), must first make a successful Will save. Failure indicates the spell is lost and the effect's caster takes 1d6+8 points of damage as the Peacock Spirit turns the invasive magic back upon her. Success indicates the effect occurs normally. A caster who successfully saves is unaffected further by the Peacock Spirit's Tranquil Roar ritual for 24 hours or until she leaves and reenter the area of effect."
+			"The primary caster begins by using a peacock feather to dust a circle of crushed malachite around a building or sacred site and calls forth hushed whispers-the murmuring chastisement of the secretive Peacock Spirit-to blot out invasive magics that overhear or reveal secrets. Anyone attempting to cast a divination or enchantment spell or spell-like ability that detects thoughts or compels the truth within the area of effect, or that targets the area of effect with a remote sensing spell such as {spell/scrying}, must first make a successful Will save. Failure indicates the spell is lost and the effect's caster takes 1d6+8 points of damage as the Peacock Spirit turns the invasive magic back upon her. Success indicates the effect occurs normally. A caster who successfully saves is unaffected further by the Peacock Spirit's Tranquil Roar ritual for 24 hours or until she leaves and reenter the area of effect."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1363,14 +1363,14 @@
 			"{SOURCE Book of the Damned/187}  ",
 			"**School** transmutation; **Level** 9  ",
 			"**Casting Time** 90 minutes  ",
-			"**Components** V, S, M (9 doses of holy water), F (the complete [Book of the Damned](magic-artifact/book_of_the_damned)  ",
+			"**Components** V, S, M (9 doses of holy water), F (the complete {magic-artifact/Book of the Damned}  ",
 			"**Skill Checks** Craft (books) DC 35, 3 successes; Knowledge (planes) DC 35, 3 successes; Spellcraft DC 35, 3 successes  ",
 			"**Range** touch  ",
 			"**Target** the complete Book of the Damned  ",
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The caster becomes exhausted.  ",
-			"**Failure** The caster is drawn into the Book of the Damned's demiplane and affected by [feeblemind](spell/feeblemind) (CL 20th); the Book of the Damned is transported to a random location on a random Material Plane world.",
+			"**Failure** The caster is drawn into the Book of the Damned's demiplane and affected by {spell/feeblemind} (CL 20th); the Book of the Damned is transported to a random location on a random Material Plane world.",
 			"",
 			"### Effect",
 			"",
@@ -1394,7 +1394,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster is exhausted.  ",
-			"**Failure** For a period of 1 month, none of the casters can be targeted by divine magic that draws its power from the deity previously tied to the altar. (This is a curse effect, and can be removed with [remove curse](spell/remove_curse) and similar effects.)",
+			"**Failure** For a period of 1 month, none of the casters can be targeted by divine magic that draws its power from the deity previously tied to the altar. (This is a curse effect, and can be removed with {spell/remove curse} and similar effects.)",
 			"",
 			"### Effect",
 			"",
@@ -1427,9 +1427,9 @@
 			"",
 			"Alarm: If a living creature that was not within the area at the time of the ritual's completion crosses into the affected area, an audible alarm sounds. The alarm lasts for 2 rounds and is sufficient to wake any creature resting in the campsite.",
 			"",
-			"Defensive Ring: The outermost 5 feet of the area take on a roughened texture, counting as [caltrops](equipment-misc/caltrops) for any creature not within the area of the ritual when the ritual was cast.",
+			"Defensive Ring: The outermost 5 feet of the area take on a roughened texture, counting as {equipment-misc/caltrops} for any creature not within the area of the ritual when the ritual was cast.",
 			"",
-			"Shelter: Creatures within the area of the ritual gain the benefits of [endure elements](spell/endure_elements) (CL = character level of the primary caster). They also gain a +4 circumstance bonus on saving throws against weather effects."
+			"Shelter: Creatures within the area of the ritual gain the benefits of {spell/endure elements} (CL = character level of the primary caster). They also gain a +4 circumstance bonus on saving throws against weather effects."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1453,7 +1453,7 @@
 			"",
 			"### Effect",
 			"",
-			"Numerous variants of this ritual exist, though the intent is always the same: to lull the rage within a gigantic, rampaging threat. The target is usually a unique creature with a specific Perform check is required to affect it. For example, returning [King Mogaru](monster/king_mogaru) to dormancy requires a successful Perform (sing) check as part of this ritual. Other creatures' requirements are left to the GM's discretion.",
+			"Numerous variants of this ritual exist, though the intent is always the same: to lull the rage within a gigantic, rampaging threat. The target is usually a unique creature with a specific Perform check is required to affect it. For example, returning {monster/King Mogaru} to dormancy requires a successful Perform (sing) check as part of this ritual. Other creatures' requirements are left to the GM's discretion.",
 			"",
 			"The successful completion of this extensive ritual forces the target, which must be a Colossal creature with at least 20 HD, to attempt a Will save. On a failed save, the affected creature stops its current actions and retreats away from civilization for a period of no less than 1 year. Should the target succeed at this save, the ritual fails and its failure effect occurs immediately. Creatures with the kaiju subtype cannot use their recovery ability to attempt a new saving throw against this ritual's effect. If a creature affected by this ritual is attacked and damaged, the effects of return to dormancy immediately end and the ritual's failure effect takes place."
 		],
@@ -1502,7 +1502,7 @@
 			"",
 			"### Effect",
 			"",
-			"The ritual allows the primary caster to observe an area at any distance, as per [scrying](spell/scrying), except that the sensor created for this scrying effect is an enormous visible image of the primary caster in the air above the area (even if the area viewed is indoors or underground) that cannot be dispelled. This image can take any form that the primary caster desires, such as an exact replica or a shape formed from shadows or clouds, but the image is always recognizable as the primary caster. The primary caster can speak to any creatures in the area with a loud voice that emanates from the image. The following spells function reliably through the sensor: [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), [detect thoughts](spell/detect_thoughts), [message](spell/message), [read magic](spell/read_magic), [tongues](spell/tongues), and [true seeing](spell/true_seeing). Any other spell requires a successful concentration check to function through the image (DC = 20 + double the level of the spell); on a failure, the spell is lost."
+			"The ritual allows the primary caster to observe an area at any distance, as per {spell/scrying}, except that the sensor created for this scrying effect is an enormous visible image of the primary caster in the air above the area (even if the area viewed is indoors or underground) that cannot be dispelled. This image can take any form that the primary caster desires, such as an exact replica or a shape formed from shadows or clouds, but the image is always recognizable as the primary caster. The primary caster can speak to any creatures in the area with a loud voice that emanates from the image. The following spells function reliably through the sensor: {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, {spell/detect magic}, {spell/detect thoughts}, {spell/message}, {spell/read magic}, {spell/tongues}, and {spell/true seeing}. Any other spell requires a successful concentration check to function through the image (DC = 20 + double the level of the spell); on a failure, the spell is lost."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1522,11 +1522,11 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** All secondary casters take 2d6 points of damage.  ",
-			"**Failure** The primary caster is stunned for 1d6 rounds (no save). The targeted corpse is immediately revived, as if via the spell [resurrection](spell/resurrection).",
+			"**Failure** The primary caster is stunned for 1d6 rounds (no save). The targeted corpse is immediately revived, as if via the spell {spell/resurrection}.",
 			"",
 			"### Effect",
 			"",
-			"This ritual requires the intact corpse of a target slain by the primary caster, who must possess at least 5 levels in the [Red Mantis assassin](prestigeclass/red_mantis_assassin) prestige class. Each of the secondary casters must possess exactly 1 level in the Red Mantis assassin prestige class. During the ritual, the primary caster reveals meticulous details about the victim's demise to the secondary casters, describing in anatomical detail the damage done to the individual and pointing out visual cues on the corpse, all while connecting the methods of execution to the teachings of the mantis god [Achaekek](faith/achaekek), patron of the assassin order. During the ritual, the secondary casters must use a giant mantis claw to draw blood from themselves in a place where the corpse was damaged; in the case of poisons and similar effects, the location can be symbolic. If the corpse took damage in many different locations, the secondary casters must draw blood from themselves in the place where the victim sustained the most damage.",
+			"This ritual requires the intact corpse of a target slain by the primary caster, who must possess at least 5 levels in the {prestigeclass/Red Mantis assassin} prestige class. Each of the secondary casters must possess exactly 1 level in the Red Mantis assassin prestige class. During the ritual, the primary caster reveals meticulous details about the victim's demise to the secondary casters, describing in anatomical detail the damage done to the individual and pointing out visual cues on the corpse, all while connecting the methods of execution to the teachings of the mantis god {faith/Achaekek}, patron of the assassin order. During the ritual, the secondary casters must use a giant mantis claw to draw blood from themselves in a place where the corpse was damaged; in the case of poisons and similar effects, the location can be symbolic. If the corpse took damage in many different locations, the secondary casters must draw blood from themselves in the place where the victim sustained the most damage.",
 			"",
 			"If the ritual is successful, the secondary casters gain an intrinsic link to the deceased individual; from that moment on, the secondary casters know if the assassinated creature is returned to life, as per the Red Mantis assassin resurrection sense class ability. An assassinated body used in a failed scarlet vigil occult ritual cannot subsequently be used in another such ritual. Since failing to correctly perform this ritual unravels the primary caster's assassination and puts all casters at risk, high-level [Red Mantis](rule/aff_assassins) members choose their secondary casters carefully, sometimes watching them for months to determine whether they are worthy of participating, as well as seeking guidance from senior leadership and Achaekek concerning which novices are the best choices."
 		],
@@ -1551,9 +1551,9 @@
 			"",
 			"### Effect",
 			"",
-			"Designed to create a Jistkan construct that is considered in many ways a precursor to early golems, this ritual uses hours of laborious calculations, recitation, and focus to bind an elemental outsider (a creature with the elemental subtype or a genie) into an inscribed bronze seal, harnessing the outsider's vibrant life force to animate an object. The seal must already be affixed to the object to be animated (usually a mannequin or statue), and the outsider must be available within the ritual area and contained (via [binding](spell/binding), a [magic circle](spell/magic_circle_against_evil), or similar magic). Upon successful completion of the ritual, the outsider is bound to loyal service within the seal for a year and a day, losing access to most of its powers and memories and treating the object to which the seal is affixed as its new body. Such animated servitors were most often used as guardians or bodyguards, but also sometimes served as assassins.",
+			"Designed to create a Jistkan construct that is considered in many ways a precursor to early golems, this ritual uses hours of laborious calculations, recitation, and focus to bind an elemental outsider (a creature with the elemental subtype or a genie) into an inscribed bronze seal, harnessing the outsider's vibrant life force to animate an object. The seal must already be affixed to the object to be animated (usually a mannequin or statue), and the outsider must be available within the ritual area and contained (via {spell/binding}, a [magic circle](spell/magic_circle_against_evil), or similar magic). Upon successful completion of the ritual, the outsider is bound to loyal service within the seal for a year and a day, losing access to most of its powers and memories and treating the object to which the seal is affixed as its new body. Such animated servitors were most often used as guardians or bodyguards, but also sometimes served as assassins.",
 			"",
-			"This seal can be used as is to create an [animated object](monster/animated_object) or combined with the [Craft Construct](feat/craft_construct) feat; the seal replaces any spell requirements in a construct's creation, but not the time investment or material cost. Because the ritual suppresses much of the outsider's power and free will, the outsider to be bound must have twice the Hit Dice of the construct to be created. After 1 year, the construct becomes inert, but it can be reanimated by performing the ritual again at no additional cost beyond preparing a new seal."
+			"This seal can be used as is to create an {monster/animated object} or combined with the {feat/Craft Construct} feat; the seal replaces any spell requirements in a construct's creation, but not the time investment or material cost. Because the ritual suppresses much of the outsider's power and free will, the outsider to be bound must have twice the Hit Dice of the construct to be created. After 1 year, the construct becomes inert, but it can be reanimated by performing the ritual again at no additional cost beyond preparing a new seal."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1577,7 +1577,7 @@
 			"",
 			"### Effect",
 			"",
-			"Preparation for the second apotheosis requires many more months of debased acts and vile plots, but at some point during this second year, the caster must contact her chosen fiendish patron, via either [commune](spell/commune) or [contact other plane](spell/contact_other_plane). A trusted minion or ally can cast this spell on the caster's behalf; it's common for a spellcaster to gain a [cacodaemon](monster/cacodaemon), [imp](monster/imp), or [quasit](monster/quasit) familiar so that it can use its [commune](spell/commune) spell-like ability for this purpose. Once contact is made, the patron must be told of the caster's desire to become a fiend; during this time, the [commune](spell/commune) or [contact other plane](spell/contact_other_plane) spell cannot be used to ask any other questions. At any point thereafter but before a year has passed, the caster must offer a significant sacrifice to her fiendish patron as a burned offering in a temple consecrated to the fiend. This offering can be either living or dead, but the burned offering must be of someone who is related to the caster by blood or family (such as a spouse or an adopted parent or child) and the caster and the offering must once have shared a positive emotional connection such as love or pride. If this ritual fails, the caster can try again, although the number of attempts she can make is limited in that each new attempt requires a burned offering of a different relative. Once the second apotheosis is successful, part of the caster's body transforms into something fiendish as proof of her patron's favor. Use the various [fleshcraft](main/magic_misc) grafts to model these partial transformations; the specific transformation granted is up to the GM, but typical results include claw gauntlet or wings of darkness. Once the caster successfully completes the second apotheosis, she becomes eligible to undertake the [third apotheosis](spell/third_apotheosis)."
+			"Preparation for the second apotheosis requires many more months of debased acts and vile plots, but at some point during this second year, the caster must contact her chosen fiendish patron, via either {spell/commune} or {spell/contact other plane}. A trusted minion or ally can cast this spell on the caster's behalf; it's common for a spellcaster to gain a {monster/cacodaemon}, {monster/imp}, or {monster/quasit} familiar so that it can use its {spell/commune} spell-like ability for this purpose. Once contact is made, the patron must be told of the caster's desire to become a fiend; during this time, the {spell/commune} or {spell/contact other plane} spell cannot be used to ask any other questions. At any point thereafter but before a year has passed, the caster must offer a significant sacrifice to her fiendish patron as a burned offering in a temple consecrated to the fiend. This offering can be either living or dead, but the burned offering must be of someone who is related to the caster by blood or family (such as a spouse or an adopted parent or child) and the caster and the offering must once have shared a positive emotional connection such as love or pride. If this ritual fails, the caster can try again, although the number of attempts she can make is limited in that each new attempt requires a burned offering of a different relative. Once the second apotheosis is successful, part of the caster's body transforms into something fiendish as proof of her patron's favor. Use the various [fleshcraft](main/magic_misc) grafts to model these partial transformations; the specific transformation granted is up to the GM, but typical results include claw gauntlet or wings of darkness. Once the caster successfully completes the second apotheosis, she becomes eligible to undertake the {spell/third apotheosis}."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1597,7 +1597,7 @@
 			"**Duration** 10 minutes/character level of the primary caster; see text  ",
 			"**Saving Throw** Will negates (harmless); **SR** no  ",
 			"**Backlash** The primary caster's movement speeds are all reduced by 15 feet, to a minimum of 5 feet, for the next 24 hours.  ",
-			"**Failure** The target and primary caster have their vision permanently reversed, so the primary caster sees only what the target sees and vice versa. This effect can be removed only by [greater restoration](spell/greater_restoration), [limited wish](spell/limited_wish), [miracle](spell/miracle), or [wish](spell/wish).",
+			"**Failure** The target and primary caster have their vision permanently reversed, so the primary caster sees only what the target sees and vice versa. This effect can be removed only by {spell/greater restoration}, {spell/limited wish}, {spell/miracle}, or {spell/wish}.",
 			"",
 			"### Effect",
 			"",
@@ -1629,7 +1629,7 @@
 			"",
 			"The casters grind the organs into paste and use it to paint their lips and tongue. Anointed by madness, they chant profane blasphemies into the focus brain, causing it to throb and glow. The primary caster releases this energy as a foul sludge, which trickles onto the other focus before seeping into the paper or paint. A successful ritual corrupts the targeted piece of art, planting a metaphysical seed into it, which propagates itself into any copies of the work later created based on the corrupted original; this includes book copies or matched painting duplicates, but not art, literature, or music that is merely derivative. A living creature subjected to the seeded piece of art, typically by hearing or seeing it, must succeed at a Will save or be afflicted by the seed (SR applies).",
 			"",
-			"By default, the seed causes [insanity](spell/insanity) or a [madness](rule/madness), but numerous types of seeds exist, from different variants on this ritual with slightly different components, foci, and ritual DC. A few examples include becoming blind or deaf, contracting a disease, or rising as a [zombie](template/zombie) after death."
+			"By default, the seed causes {spell/insanity} or a {rule/madness}, but numerous types of seeds exist, from different variants on this ritual with slightly different components, foci, and ritual DC. A few examples include becoming blind or deaf, contracting a disease, or rising as a {template/zombie} after death."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1646,8 +1646,8 @@
 			"**Skill Checks** Knowledge (arcana) DC 31, 3 successes; Knowledge (planes) DC 31, 3 successes  ",
 			"**Range** primary caster  ",
 			"**Duration** 1 hour/character level of the primary caster  ",
-			"**Backlash** The primary caster is rendered speechless for 1 week (if the ritual fails, this duration begins after the end of the [feeblemind](spell/feeblemind) effect).  ",
-			"**Failure** The primary caster's Intelligence and Charisma scores drop to 1 and she gains the other effects of a [feeblemind](spell/feeblemind) spell for 24 hours.",
+			"**Backlash** The primary caster is rendered speechless for 1 week (if the ritual fails, this duration begins after the end of the {spell/feeblemind} effect).  ",
+			"**Failure** The primary caster's Intelligence and Charisma scores drop to 1 and she gains the other effects of a {spell/feeblemind} spell for 24 hours.",
 			"",
 			"### Effect",
 			"",
@@ -1671,15 +1671,15 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates, see text; **SR** no  ",
 			"**Backlash** All casters take 3d6 points of damage and are sickened for 1 hour.  ",
-			"**Failure** The primary caster requires twice as much food and water as a normal creature of its species for 1 year (this is a curse effect, and it can be removed with [remove curse](spell/remove_curse) and similar effects).",
+			"**Failure** The primary caster requires twice as much food and water as a normal creature of its species for 1 year (this is a curse effect, and it can be removed with {spell/remove curse} and similar effects).",
 			"",
 			"### Effect",
 			"",
 			"By reciting false litanies associated with the various deities represented among the holy symbol foci, the primary caster shakes the unseen spiritual pillars of the mortal world. This ritual has no visible effect to mortal eyes, but it creates a powerful rending cut in the world of spirits. By successfully completing this ritual, the caster can achieve one of two goals: severing a kami from its ward, or untethering a bound companion.",
 			"",
-			"Sever Kami Ward: Successfully completing the ritual forces the ward's [kami](family/kami) to attempt a Will save (use the kami's Will save in the case of targeting its ward). On a failed save, the kami loses its connection with its ward. This functions as if the kami's ward were destroyed: the kami cannot merge with its ward, it loses its fast healing, and it is permanently sickened. Many kami suffering from this cruel fate transform into malicious oni.",
+			"Sever Kami Ward: Successfully completing the ritual forces the ward's {family/kami} to attempt a Will save (use the kami's Will save in the case of targeting its ward). On a failed save, the kami loses its connection with its ward. This functions as if the kami's ward were destroyed: the kami cannot merge with its ward, it loses its fast healing, and it is permanently sickened. Many kami suffering from this cruel fate transform into malicious oni.",
 			"",
-			"Untether Companion: Successfully completing the ritual forces the creature whose animal or spiritual companion, such as an eidolon or phantom, was targeted to attempt a Will save. Failing this save causes the creature to lose its bond with the targeted animal companion or spirit. An animal companion severed in this manner retains its abilities and statistics, but it gains an intense loathing for its former master. In the case of eidolons or phantoms, the severed companion gains the [unfettered eidolon](monster/unfettered_eidolon) template or becomes an [unfettered phantom](monster/unfettered_phantom) with the appropriate Hit Dice. For creatures with animal companions, this functions as if the creature's companion had been slain, allowing the target to gain a new companion. For creatures with bonded spirits (such as [spiritualists](class/spiritualist)), the means of gaining a new companion are left to the GM's discretion."
+			"Untether Companion: Successfully completing the ritual forces the creature whose animal or spiritual companion, such as an eidolon or phantom, was targeted to attempt a Will save. Failing this save causes the creature to lose its bond with the targeted animal companion or spirit. An animal companion severed in this manner retains its abilities and statistics, but it gains an intense loathing for its former master. In the case of eidolons or phantoms, the severed companion gains the {monster/unfettered eidolon} template or becomes an {monster/unfettered phantom} with the appropriate Hit Dice. For creatures with animal companions, this functions as if the creature's companion had been slain, allowing the target to gain a new companion. For creatures with bonded spirits (such as [spiritualists](class/spiritualist)), the means of gaining a new companion are left to the GM's discretion."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1699,11 +1699,11 @@
 			"**Duration** 1 day (D)  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 2d6 points of damage and becomes exhausted. The secondary casters become fatigued.  ",
-			"**Failure** A [zuishin](monster/zuishin) appears and attacks all of the casters until the zuishin or the casters are destroyed. Afterward, all kami completely ignore the casters for 1 year and will not answer to any ritual in which any of those casters are involved.",
+			"**Failure** A {monster/zuishin} appears and attacks all of the casters until the zuishin or the casters are destroyed. Afterward, all kami completely ignore the casters for 1 year and will not answer to any ritual in which any of those casters are involved.",
 			"",
 			"### Effect",
 			"",
-			"The primary caster appeals to a local kami to ask for assistance in battle. The casters must assemble a shrine within 100 feet of the kami's ward. Once the ritual begins, the casters each utter a unique prayer to the kami, complete with devotionals and explanations about why the kami's help is needed. If the casting is successful, the kami manifests (as per [summon monster V](spell/summon_monster_5)) and fights alongside the casters. This kami uses the statistics for a [kodama](monster/kodama) and refuses to move farther than 1 mile from its ward."
+			"The primary caster appeals to a local kami to ask for assistance in battle. The casters must assemble a shrine within 100 feet of the kami's ward. Once the ritual begins, the casters each utter a unique prayer to the kami, complete with devotionals and explanations about why the kami's help is needed. If the casting is successful, the kami manifests (as per [summon monster V](spell/summon_monster_5)) and fights alongside the casters. This kami uses the statistics for a {monster/kodama} and refuses to move farther than 1 mile from its ward."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1723,7 +1723,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **SR** no  ",
 			"**Backlash** The primary and secondary casters each gain 1 temporary negative level.  ",
-			"**Failure** The primary and secondary casters become staggered for 10 minutes. Unless the ritual was performed in an area that bars dimensional travel, this feedback draws the attention of a [psychopomp](family/psychopomp) or psychopomps of a total CR equal to the CR of the creature whose soul the casters were attempting to trap, and the magical feedback allows the psychopomps to manifest at the location of the ritual to punish the casters for meddling with souls.",
+			"**Failure** The primary and secondary casters become staggered for 10 minutes. Unless the ritual was performed in an area that bars dimensional travel, this feedback draws the attention of a {family/psychopomp} or psychopomps of a total CR equal to the CR of the creature whose soul the casters were attempting to trap, and the magical feedback allows the psychopomps to manifest at the location of the ritual to punish the casters for meddling with souls.",
 			"",
 			"### Effect",
 			"",
@@ -1765,7 +1765,7 @@
 			"",
 			"The primary caster sits upon the onyx throne, invoking ancient rites blaspheming against the light of the sun. The secondary casters offer up prayers to the gods of darkness. In turn, each of the secondary casters consumes one of the ioun stone shards, which induces a state of catatonia for 1 hour. Throughout the ritual's casting, a localized partial solar eclipse marks the location of the throne with an obvious pillar of darkness from above, easily noticed by creatures throughout the ritual's area.",
 			"",
-			"If the ritual is successful, the area is draped in a curtain of eternal darkness, removing sunlight from the area. Illumination in the area can never be brighter than dim light, and only a [miracle](spell/miracle) or [wish](spell/wish) can even temporarily alleviate this restriction (though direct intervention of a deity can end the ritual's effect). Any light beyond dim light that would touch the area is instead transported into the ioun stone shards consumed by the secondary casters, making the secondary casters' entire bodies glow. Any object with a light spell having its light thus dimmed by the ritual counts as a part of the secondary casters' bodies for the purpose of a connection for spells like [scrying](spell/scrying). Collecting these ioun stone shards then piecing them back together while within the affected area ends the effects of this ritual."
+			"If the ritual is successful, the area is draped in a curtain of eternal darkness, removing sunlight from the area. Illumination in the area can never be brighter than dim light, and only a {spell/miracle} or {spell/wish} can even temporarily alleviate this restriction (though direct intervention of a deity can end the ritual's effect). Any light beyond dim light that would touch the area is instead transported into the ioun stone shards consumed by the secondary casters, making the secondary casters' entire bodies glow. Any object with a light spell having its light thus dimmed by the ritual counts as a part of the secondary casters' bodies for the purpose of a connection for spells like {spell/scrying}. Collecting these ioun stone shards then piecing them back together while within the affected area ends the effects of this ritual."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1793,9 +1793,9 @@
 			"",
 			"As the chants reach their peak, and assuming the casters successfully perform the ritual, a burst of blue-green energy issues forth from the primary caster, engulfing the secondary casters. At this moment, the primary caster must decide whether to use the successful ritual to travel to the Temple of the Peacock Spirit or to infuse the energies into one of the secondary casters to grant them the viridian escape.",
 			"",
-			"**Temple Travel:** If the primary caster chooses this option, he and all of the secondary casters are teleported, as if via [word of recall](spell/word_of_recall), to area B1 of the Cloister of Cerulean Languor. Characters unable to fit in that area are left behind, as chosen by the primary caster. A creature can benefit from this effect as many times as it participates in a successful ritual.",
+			"**Temple Travel:** If the primary caster chooses this option, he and all of the secondary casters are teleported, as if via {spell/word of recall}, to area B1 of the Cloister of Cerulean Languor. Characters unable to fit in that area are left behind, as chosen by the primary caster. A creature can benefit from this effect as many times as it participates in a successful ritual.",
 			"",
-			"**Viridian Escape:** The imbued secondary caster can use [word of recall](spell/word_of_recall) once as a swift action. When she activates this ability, she vanishes in a puff of bright blue-green smoke and reappears at the location at which she was imbued with this effect. A creature can be granted the viridian escape only once in its lifetime."
+			"**Viridian Escape:** The imbued secondary caster can use {spell/word of recall} once as a swift action. When she activates this ability, she vanishes in a puff of bright blue-green smoke and reappears at the location at which she was imbued with this effect. A creature can be granted the viridian escape only once in its lifetime."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1819,7 +1819,7 @@
 			"",
 			"### Effect",
 			"",
-			"At some point after the primary caster contacts her fiendish patron (typically after she succeeds at the [second ritual](spell/second_apotheosis), but sometimes before), the fiend sends the primary caster a vision of a task she must complete (such as freeing a bound evil outsider from a Material Plane prison or assassinating a powerful cleric of a good-aligned religion). This task is typically one of significance to the fiend, and in many cases it is one that the primary caster has no hope of completing until she grows more powerful. There is no time limit for how long the primary caster has to complete this task, but she must perform weekly devotions to her fiendish patron in the intervening time in the form of regular worship and continued atrocities in the fiend's name. Additional burned offerings to the demon, assaults on innocents, and betrayals of allies are popular choices. Once the assigned task is completed, the primary caster can perform the third apotheosis. Unlike the first and second rituals, the third apotheosis allows for the use of secondary casters, yet it carries a much greater risk for failure. If the primary caster succeeds, she permanently gains the [half-fiend template](template/half-fiend) and becomes eligible to undertake the [fourth apotheosis](spell/fourth_apotheosis)."
+			"At some point after the primary caster contacts her fiendish patron (typically after she succeeds at the [second ritual](spell/second_apotheosis), but sometimes before), the fiend sends the primary caster a vision of a task she must complete (such as freeing a bound evil outsider from a Material Plane prison or assassinating a powerful cleric of a good-aligned religion). This task is typically one of significance to the fiend, and in many cases it is one that the primary caster has no hope of completing until she grows more powerful. There is no time limit for how long the primary caster has to complete this task, but she must perform weekly devotions to her fiendish patron in the intervening time in the form of regular worship and continued atrocities in the fiend's name. Additional burned offerings to the demon, assaults on innocents, and betrayals of allies are popular choices. Once the assigned task is completed, the primary caster can perform the third apotheosis. Unlike the first and second rituals, the third apotheosis allows for the use of secondary casters, yet it carries a much greater risk for failure. If the primary caster succeeds, she permanently gains the [half-fiend template](template/half-fiend) and becomes eligible to undertake the {spell/fourth apotheosis}."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1858,7 +1858,7 @@
 			"{SOURCE Concordance of Rivals/47}  ",
 			"**School** transmutation; **Level** 5  ",
 			"**Casting Time** 50 minutes  ",
-			"**Components** V, S, F (a [chaos emerald](magic-wondrous/chaos_emerald)), SC (up to the Charisma modifier of the primary caster)  ",
+			"**Components** V, S, F (a {magic-wondrous/chaos emerald}), SC (up to the Charisma modifier of the primary caster)  ",
 			"**Skill Checks** Knowledge (planes) DC 32, 2 successes; Sleight of Hand DC 32, 1 success; Use Magic Device DC 32, 2 successes  ",
 			"**Range** primary caster  ",
 			"**Duration** 1 hour/character level of the primary caster (D)  ",
@@ -1867,7 +1867,7 @@
 			"",
 			"### Effect",
 			"",
-			"The primary caster juggles the [chaos emerald](magic-wondrous/chaos_emerald) back and forth between his hands, under his clothing, and between any secondary casters involved in the ritual. As the ritual progresses, the primary caster's actions with the chaos emerald become increasingly improbable (putting it into his mouth and pulling it out of his ear, for example, or placing it into the cupped hands of one secondary caster and removing it from the cupped hands of a different secondary caster). If the ritual is successful, the chaos emerald disappears entirely, and the primary caster gains the ability to inflict warpwaves like a [protean](family/protean) for the ritual's duration. The primary caster can inflict a warpwave on a creature within 100 feet as a standard action. The target can negate the effects of the warpwave with a successful Fortitude save (DC 10 + half the primary caster's character level + the primary caster's Charisma modifier). When the duration expires, the chaos emerald reappears in the primary caster's possession-usually in a hidden place, such as the bottom of a backpack or inside a hat."
+			"The primary caster juggles the {magic-wondrous/chaos emerald} back and forth between his hands, under his clothing, and between any secondary casters involved in the ritual. As the ritual progresses, the primary caster's actions with the chaos emerald become increasingly improbable (putting it into his mouth and pulling it out of his ear, for example, or placing it into the cupped hands of one secondary caster and removing it from the cupped hands of a different secondary caster). If the ritual is successful, the chaos emerald disappears entirely, and the primary caster gains the ability to inflict warpwaves like a {family/protean} for the ritual's duration. The primary caster can inflict a warpwave on a creature within 100 feet as a standard action. The target can negate the effects of the warpwave with a successful Fortitude save (DC 10 + half the primary caster's character level + the primary caster's Charisma modifier). When the duration expires, the chaos emerald reappears in the primary caster's possession-usually in a hidden place, such as the bottom of a backpack or inside a hat."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1917,7 +1917,7 @@
 			"",
 			"As the ritual begins, the secondary casters each hold one end of their golden threads while the other is tied to the doll. The secondary casters stretch both arms out toward each other and rhythmically chant their common values (this often involves cult or guild members repeating membership vows). The primary caster ties the doll to her wrist with her golden thread. She then approaches each of the secondary casters in turn and touches them on the forehead with the focus doll. Unlike with normal occult rituals, adding more than four secondary casters does not increase the bonus those casters provide to the ritual's required skill checks.",
 			"",
-			"Upon successful completion of the ritual, each caster's golden thread snaps. One half of each snapped thread melds into the caster and the other half melds into the focus doll (which can't be used as a focus for this ritual again until the duration expires). Each caster gains the effects of a [status](spell/status) spell in regard to each other caster. Additionally, whenever any caster is wounded, unconscious (except for normal sleeping), dying, or poisoned, any of the casters can, as a free action, use [greater teleport](spell/greater_teleport) to travel to that individual as long as they are on the same plane. If the destination caster is in combat, any teleporting casters roll and enter initiative on the next round, unless they have some other reason to be ready to enter the fray sooner (for example, if they were [scrying](spell/scrying) on the destination caster). A caster can [greater teleport](spell/greater_teleport) via this ritual up to once per day."
+			"Upon successful completion of the ritual, each caster's golden thread snaps. One half of each snapped thread melds into the caster and the other half melds into the focus doll (which can't be used as a focus for this ritual again until the duration expires). Each caster gains the effects of a {spell/status} spell in regard to each other caster. Additionally, whenever any caster is wounded, unconscious (except for normal sleeping), dying, or poisoned, any of the casters can, as a free action, use {spell/greater teleport} to travel to that individual as long as they are on the same plane. If the destination caster is in combat, any teleporting casters roll and enter initiative on the next round, unless they have some other reason to be ready to enter the fray sooner (for example, if they were {spell/scrying} on the destination caster). A caster can {spell/greater teleport} via this ritual up to once per day."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1936,7 +1936,7 @@
 			"**Duration** concentration of the primary caster  ",
 			"**Saving Throw** Will negates; **SR** no  ",
 			"**Backlash** All casters are exhausted and gain 1 temporary negative level (DC = 16 + the primary caster's Charisma bonus to remove the condition after the first day).  ",
-			"**Failure** The primary caster is immediately afflicted with [possession](spell/possession)). This persists for the following 24 hours.",
+			"**Failure** The primary caster is immediately afflicted with {spell/possession}). This persists for the following 24 hours.",
 			"",
 			"### Effect",
 			"",
@@ -1962,7 +1962,7 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** Will disbelief (if interacted with); **SR** no  ",
 			"**Backlash** The primary caster takes 1 permanent negative level.  ",
-			"**Failure** All casters cannot be targeted by any beneficial glamer effects (such as [invisibility](spell/invisibility)) for 1 year (this is a curse effect, and can be removed with [remove curse](spell/remove_curse) and similar effects).",
+			"**Failure** All casters cannot be targeted by any beneficial glamer effects (such as {spell/invisibility}) for 1 year (this is a curse effect, and can be removed with {spell/remove curse} and similar effects).",
 			"",
 			"### Effect",
 			"",
@@ -1992,7 +1992,7 @@
 			"",
 			"### Effect",
 			"",
-			"The caster rouses the lingering consciousness of a neutralized haunt. Upon the ritual's completion, a spirit resembling the entity that empowered the haunt manifests before the caster and scrawls a message of 25 words or less onto the provided parchment, using the caster's blood. This message provides a cryptic clue regarding how to permanently destroy the haunt, acting much like the information granted by a [divination](spell/divination) spell, except that there is no chance that the information will be incorrect because the haunt hopes to end its suffering."
+			"The caster rouses the lingering consciousness of a neutralized haunt. Upon the ritual's completion, a spirit resembling the entity that empowered the haunt manifests before the caster and scrawls a message of 25 words or less onto the provided parchment, using the caster's blood. This message provides a cryptic clue regarding how to permanently destroy the haunt, acting much like the information granted by a {spell/divination} spell, except that there is no chance that the information will be incorrect because the haunt hopes to end its suffering."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -2018,7 +2018,7 @@
 			"",
 			"The primary caster begins the ritual by placing the focus in a pool of water that measures at least 30 feet long, 30 feet wide, and 50 feet deep. After this is done, the secondary casters surround the pool and perform ceremonial chants and wild supplications to the Drowned God, while the primary caster whispers the horrifying truths of Tychilarius into the target's ear. The unspeakable horror and veracity of the whispers create a stronger bond between the target and the Drowned God. The ritual casters then place the target inside the pool.",
 			"",
-			"If the ritual succeeds, the vast and alien mind of Tychilarius overwhelms the target. The Drowned God immediately and hideously transforms the target's body and irrevocably destroys it, replacing the gory remains with the writhing form of [Tychilarius](monster/tychilarius), now freed from its prison and unleashed to wreak the destruction it craved so hungrily, and for so long, in its unknown prison. The target is annihilated and can be restored to life only with a [miracle](spell/miracle) or [wish](spell/wish) spell."
+			"If the ritual succeeds, the vast and alien mind of Tychilarius overwhelms the target. The Drowned God immediately and hideously transforms the target's body and irrevocably destroys it, replacing the gory remains with the writhing form of {monster/Tychilarius}, now freed from its prison and unleashed to wreak the destruction it craved so hungrily, and for so long, in its unknown prison. The target is annihilated and can be restored to life only with a {spell/miracle} or {spell/wish} spell."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -2056,7 +2056,7 @@
 			"{SOURCE Bestiary 6/250}  ",
 			"**School** necromancy [evil]; **Level** 9  ",
 			"**Casting Time** 9 hours (only during the new moon)  ",
-			"**Components** V, S, F (ring of standing stones empowered with necromancy that cost 25,000 gp to create via [Craft Wondrous Item](feat/craft_wondrous_item)), sacrifice (18 living intelligent beings of the same type as the caster, sacrificed every 30 minutes during the ritual's casting time)  ",
+			"**Components** V, S, F (ring of standing stones empowered with necromancy that cost 25,000 gp to create via {feat/Craft Wondrous Item}), sacrifice (18 living intelligent beings of the same type as the caster, sacrificed every 30 minutes during the ritual's casting time)  ",
 			"**Skill Checks** Intimidate DC 31, 2 successes; Knowledge (nature) DC 31, 3 successes; Knowledge (religion) DC 31, 4 successes  ",
 			"**Range** touch  ",
 			"**Target** caster  ",
@@ -2068,7 +2068,7 @@
 			"",
 			"### Effect",
 			"",
-			"After sacrificing 18 lives (traditionally, these lives are those of unwilling druids who would have tried to stand against the blasphemy the caster is attempting), the caster sacrifices himself and immediately rises from death as a [siabrae](monster/siabrae)."
+			"After sacrificing 18 lives (traditionally, these lives are those of unwilling druids who would have tried to stand against the blasphemy the caster is attempting), the caster sacrifices himself and immediately rises from death as a {monster/siabrae}."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -2088,7 +2088,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 1 permanent negative level.  ",
-			"**Failure** All casters take 6d6 points of damage and are exhausted. The primary caster is the target of a [flesh to stone](spell/flesh_to_stone) spell (DC = 16 + the primary caster's Charisma bonus) but instead of stone the spell turns the caster into the resource used in the material component.",
+			"**Failure** All casters take 6d6 points of damage and are exhausted. The primary caster is the target of a {spell/flesh to stone} spell (DC = 16 + the primary caster's Charisma bonus) but instead of stone the spell turns the caster into the resource used in the material component.",
 			"",
 			"### Effect",
 			"",

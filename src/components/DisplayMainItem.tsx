@@ -8,6 +8,7 @@ import { goTo } from '../store/historySlice';
 import { useAppDispatch } from '../store/hooks';
 import Link from './Link';
 import DisplayTable from './DisplayTable';
+import convertLinks from './convertLinks';
 
 export interface DisplayMainItemProps {
 	description: (string | string[])[]
@@ -271,15 +272,15 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], s
 	const components = useMemo(() => makeComponents(tables, prefixId), [tables, prefixId]);
 	const basicComponents = useMemo(() => makeBasicComponents(tables, prefixId), [tables, prefixId]);
 	const baseClass = "mainItem" + (singleTable ? " singleTable" : "");
-	return description.map((line, i) => {
-		if(typeof line === "string") {
+	return description.map((unit, i) => {
+		if(typeof unit === "string") {
 			// This section covers things like "## main/link Linktext"
 			return (
 				<Markdown
 					key={`mainItem-${i}`}
 					remarkPlugins={plugins}
 					components={components}
-				>{line}</Markdown>
+				>{unit}</Markdown>
 			);
 		}
 		// This section covers the "normal" markdown text sections
@@ -288,7 +289,7 @@ const DisplayMainItem: FC<DisplayMainItemProps> = ({ description, tables = [], s
 				<Markdown
 					remarkPlugins={plugins}
 					components={basicComponents}
-				>{line.join("\n")}</Markdown>
+				>{convertLinks(unit)}</Markdown>
 			</IonLabel></IonItem>
 		);
 	});

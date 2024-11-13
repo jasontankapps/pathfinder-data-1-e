@@ -13,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, status; **Cost** 300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, status; **Cost** 300 gp"
 		]
 	},
 	"paper_flower": {
@@ -30,7 +30,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), sanctuary, status; **Cost** 400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, sanctuary, status; **Cost** 400 gp"
 		]
 	},
 	"lucky_button": {
@@ -47,7 +47,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), guidance, status; **Cost** 600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, guidance, status; **Cost** 600 gp"
 		]
 	},
 	"laurel_of_the_champion": {
@@ -64,7 +64,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, status; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, status; **Cost** 1,000 gp"
 		]
 	},
 	"token_of_gallantry": {
@@ -81,7 +81,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), align weapon, status; **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, align weapon, status; **Cost** 1,200 gp"
 		]
 	}
 }

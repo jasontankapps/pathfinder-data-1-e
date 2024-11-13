@@ -40,7 +40,7 @@
 			"",
 			"**Str** 25, **Dex** 16, **Con**: 22, **Int** 16, **Wis** 25, **Cha**, 22  ",
 			"**Base Atk** +19; **CMB** +27; **CMD** 40  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Hover](feat/hover), [Improved Critical (claw)](feat/improved_critical), [Intimidating Prowess](feat/intimidating_prowess), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (fireball)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Wingover](feat/wingover)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Hover}, [Improved Critical (claw)](feat/improved_critical), {feat/Intimidating Prowess}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (fireball)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Wingover}  ",
 			"**Skills** Bluff +28, Fly +19, Intimidate +35, Knowledge (arcana, planes) +25, Perception +37, Sense Motive +29, Spellcraft +25, Stealth +21; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal; telepathy 100 ft.; truespeech",
 			"",
@@ -58,7 +58,7 @@
 			"",
 			"Ghalzarokhs, or tyranny demons, act as commanders of Abyssal forces. These demons are formed from the souls of petty tyrants and would-be dictators. Notoriously egotistical and prone to lashing out, a ghalzarokh keeps its minions in line through fear of its cruel whims.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"ghalzarokh": { "copyof": "demon_ghalzarokh" },
@@ -103,7 +103,7 @@
 			"",
 			"**Str** 24, **Dex** 19, **Con**: 24, **Int** 13, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +11; **CMB** +19 (+23 trip); **CMD** 35 (37 vs. trip)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Greater Trip](feat/greater_trip), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Greater Trip}, {feat/Improved Initiative}, {feat/Improved Trip}, {feat/Lightning Reflexes}  ",
 			"**Skills** Fly +20, Knowledge (dungeoneering) +15, Knowledge (planes) +15, Perception +25, Sense Motive +17, Stealth +14, Survival +17; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** tumors",
@@ -116,7 +116,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Disease (Ex)** Any weapon a gibrileth wields becomes a vector for spreading the demonplague. A creature bitten by a gibrileth or damaged by a weapon it wields is exposed to this virulent disease. A successful DC 22 Fortitude save is needed to resist this creature's particular strain of [demonplague](disease/demonplague). The save DC is Constitution-based.",
+			"**Disease (Ex)** Any weapon a gibrileth wields becomes a vector for spreading the demonplague. A creature bitten by a gibrileth or damaged by a weapon it wields is exposed to this virulent disease. A successful DC 22 Fortitude save is needed to resist this creature's particular strain of {disease/demonplague}. The save DC is Constitution-based.",
 			"",
 			"**Tumors (Su)** As a swift action, a gibrileth can rip a grapefruit-sized tumor from its body with one of its many arms and throw it as a splash weapon with a range increment of 20 feet. A direct hit deals 2d6 points of acid damage, and deals 1d4 points of acid splash damage to all creatures within 5 feet of the target. A creature can avoid the splash damage with a successful DC 22 Reflex save. The save DC is Constitution-based.",
 			"",
@@ -128,7 +128,7 @@
 			"",
 			"A gibrileth is approximately 10 feet in diameter, with a wingspan of 16 feet. These foul, bloated demons typically weigh about 2,400 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"gibrileth": { "copyof": "demon_gibrileth" },
@@ -170,7 +170,7 @@
 			"",
 			"**Str** 31, **Dex** 11, **Con**: 31, **Int** 16, **Wis** 16, **Cha**, 20  ",
 			"**Base Atk** +12; **CMB** +24; **CMD** 34  ",
-			"**Feats** [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Critical (pincer)](feat/improved_critical), [Persuasive](feat/persuasive), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Cleave}, {feat/Great Cleave}, [Improved Critical (pincer)](feat/improved_critical), {feat/Persuasive}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Bluff +28, Diplomacy +22, Intimidate +22, Knowledge (history) +18, Knowledge (local) +18, Perception +26, Sense Motive +18, Stealth +7, Use Magic Device +17; **Racial Modifiers** +8 Bluff, +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -186,7 +186,7 @@
 			"",
 			"A glabrezu stands 18 feet tall and weighs just over 6,000 pounds. These treacherous demons form from the souls of the treasonous, the false, and the subversive-souls of mortals who, in life, bore false witness or used treachery and deceit to ruin the lives of others.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"glabrezu": { "copyof": "demon_glabrezu" },
@@ -231,7 +231,7 @@
 			"",
 			"**Str** 16, **Dex** 19, **Con**: 14, **Int** 12, **Wis** 11, **Cha**, 15  ",
 			"**Base Atk** +5; **CMB** +8; **CMD** 22  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Weapon Finesse](feat/weapon_finesse)[^B], [Wingover](feat/wingover)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Hover}, {feat/Weapon Finesse}[^B], {feat/Wingover}  ",
 			"**Skills** Acrobatics +12, Escape Artist +12, Fly +20, Intimidate +10, Knowledge (planes) +9, Perception +8, Stealth +12  ",
 			"**Languages** Abyssal, Celestial, Draconic, telepathy 100 ft.",
 			"",
@@ -263,7 +263,7 @@
 			"",
 			"Due to the nature of their origin, halas are highly possessive. A hala will often refer to the storm clouds they marshal as \"my storm.\" A hala is predisposed to grab any item it finds particularly desirable, and will actively pillage regions that its storm passes over. The desire to take from others remains so prevalent in the hala's nature that it often carries large sacks in which to place all the items it takes during its flights. Bags of holding or handy haversacks are highly prized possessions to a hala, as it allows it to pillage even more items. Halas are voracious, with large mouths that open nearly ear-to-ear. Edible items they find in their pillaging are often consumed immediately. This includes a particular appetite for children and other Small humanoids.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Habitat",
 			"",
@@ -315,7 +315,7 @@
 			"",
 			"**Str** 27, **Dex** 11, **Con**: 29, **Int** 14, **Wis** 14, **Cha**, 18  ",
 			"**Base Atk** +10; **CMB** +19 (+23 grapple); **CMD** 29  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Cleave}, {feat/Great Cleave}, {feat/Improved Initiative}, {feat/Power Attack}  ",
 			"**Skills** Climb +21, Escape Artist +10, Intimidate +14, Knowledge (arcana) +15, Perception +23, Spellcraft +15, Stealth +9, Swim +29; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** amphibious",
@@ -338,7 +338,7 @@
 			"",
 			"These monstrous and bestial creatures form from the souls of evil mortals who poisoned themselves, their kin, or their surroundings, such as drug addicts, assassins, and alchemists who cared not how their experiments polluted the environment.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"hezrou": { "copyof": "demon_hezrou" },
@@ -381,7 +381,7 @@
 			"",
 			"**Str** 20, **Dex** 15, **Con**: 18, **Int** 16, **Wis** 15, **Cha**, 21  ",
 			"**Base Atk** +8; **CMB** +13; **CMD** 25  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +6, Bluff +16, Diplomacy +16, Escape Artist +6, Fly +13, Intimidate +24, Knowledge (planes) +14, Perception +21, Sense Motive +13, Spellcraft +11, Stealth +11; **Racial Modifiers** +8 Intimidate, +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common; telepathy 100 ft., tongues  ",
 			"**SQ** change shape (Small or Medium humanoid; alter self)",
@@ -404,7 +404,7 @@
 			"",
 			"Like succubi, incubi form from the chaotic evil souls of particularly lustful and rapacious mortals. Yet whereas succubi are subtle and methodical about using their charms to cause ruin, the typical incubus is forthright and forceful about his insatiable desires.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"incubus": { "copyof": "demon_incubus" },
@@ -447,7 +447,7 @@
 			"",
 			"**Str** 22, **Dex** 13, **Con**: 24, **Int** 15, **Wis** 17, **Cha**, 16  ",
 			"**Base Atk** +10; **CMB** +16 (+22 disarm); **CMD** 27  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Improved Bull Rush](feat/improved_bull_rush), [Improved Disarm](feat/improved_disarm), [Improved Trip](feat/improved_trip), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Improved Bull Rush}, {feat/Improved Disarm}, {feat/Improved Trip}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +14, Climb +19, Intimidate +16, Knowledge (planes) +15, Perception +24, Sense Motive +16, Stealth +14, Use Magic Device +16; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic; telepathy 100 ft.",
 			"",
@@ -469,7 +469,7 @@
 			"",
 			"A kalavakus is 7 feet tall and weighs 450 pounds. They form from the souls of evil mortals who were slavers in their mortal lives.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"kalavakus": { "copyof": "demon_kalavakus" },
@@ -514,7 +514,7 @@
 			"",
 			"**Str** 31, **Dex** 20, **Con**: 28, **Int** 17, **Wis** 21, **Cha**, 22  ",
 			"**Base Atk** +21; **CMB** +31 (+35 sunder); **CMD** 46 (48 vs. sunder)  ",
-			"**Feats** [Dimensional Agility](feat/dimensional_agility), [Dimensional Assault](feat/dimensional_assault), [Dimensional Dervish](feat/dimensional_dervish), [Dimensional Maneuvers](feat/dimensional_maneuvers), [Dimensional Savant](feat/dimensional_savant), [Empower Spell-Like Ability (disintegrate)](feat/empower_spell-like_ability), [Greater Sunder](feat/greater_sunder), [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Dimensional Agility}, {feat/Dimensional Assault}, {feat/Dimensional Dervish}, {feat/Dimensional Maneuvers}, {feat/Dimensional Savant}, [Empower Spell-Like Ability (disintegrate)](feat/empower_spell-like_ability), {feat/Greater Sunder}, [Improved Critical (claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Power Attack}  ",
 			"**Skills** Bluff +30, Disable Device +29, Fly +29, Knowledge (arcana) +27, Knowledge (planes) +31, Perception +37, Sense Motive +29, Spellcraft +27, Use Magic Device +30; **Racial Modifiers** +4 Knowledge (planes), +8 Perception  ",
 			"**Languages** Abyssal, Aklo, Celestial, Common; telepathy 100 ft.  ",
 			"**SQ** teleportation disruption, warp sense",
@@ -541,7 +541,7 @@
 			"",
 			"Katpaskirs are a pox and pestilence upon not just the world, but reality itself. Just as bugs burrow into unwatched crevices, katpaskirs pry their way into other realms and dimensions. They gnaw and scratch and grind away at the edges of the universe, the planar junctures where the folds of creation bend in upon themselves. They have an uncanny sense for finding natural rifts, portals, and convergences, and they seek ever for ways to expand and untether these natural gates. By setting them loose to drift across the world, they unhinge the orderly substrate of the multiverse, casting all into primordial chaos as the planes unravel. Their voices are strange and echoing, like several voices sounding together, each distorted and cacophonous and rising and falling asynchronously in pitch and volume. When not actively engaged in a task, katpaskirs tend to stand perfectly still, with the exception of its insectlike limbs, which rhythmically stroke the air in front of them. When other creature come near-or if some teleporting creature triggers the demon's warp sense special ability-it snaps out of this self-imposed stasis, ready to attack. Katpaskirs are a little over 7 feet tall and weigh just less than 600 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Ecology",
 			"",
@@ -598,7 +598,7 @@
 			"",
 			"**Str** 22, **Dex** 11, **Con**: 20, **Int** 7, **Wis** 19, **Cha**, 16  ",
 			"**Base Atk** +11; **CMB** +18 (+22 grapple); **CMD** 28  ",
-			"**Feats** [Improved Critical (claw)](feat/improved_critical), [Improved Critical (sting)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (unnatural lust)](feat/quicken_spell-like_ability)  ",
+			"**Feats** [Improved Critical (claw)](feat/improved_critical), [Improved Critical (sting)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (unnatural lust)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Handle Animal +17, Intimidate +17, Perception +18, Stealth +10  ",
 			"**Languages** Abyssal, Celestial, Draconic; speak with animals, telepathy 100 ft.  ",
 			"**SQ** change shape (beast shape II, Medium or Large animal), swift transformation",
@@ -623,7 +623,7 @@
 			"",
 			"Kithangians, also known as beast demons, are reprehensible monstrosities born from the souls of those who abused and tormented animals in life. Universally male, the sudden spread of fiendish elements through within an area's fauna is a sure indication of a kithangian's presence in a region. The fact that most creatures that birth litters of young with the half-fiendish template die in the process is of little concern to the kithangian, for it merely moves on to new hunting grounds when uncorrupted animal victims grow too rare.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"kithangian": { "copyof": "demon_kithangian" },
@@ -660,7 +660,7 @@
 			"",
 			"**Str** 11, **Dex** 10, **Con**: 13, **Int** 10, **Wis** 11, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 12  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Toughness}  ",
 			"**Skills** Intimidate +2, Knowledge (planes) +5, Perception +5, Sense Motive +5, Stealth +5, Survival +2  ",
 			"**Languages** Abyssal",
 			"",
@@ -670,7 +670,7 @@
 			"",
 			"The economy of the Abyss varies from realm to realm, but in every corner larvae are valued commodities: as food, as components for ceremonies and sorcery, and as playthings for the despicable population. So coveted are these foul creatures that some enterprising denizens create vile farms where larvae are corralled like cattle, fed on the various filth in the Abyss, and \"nurtured\" until they have achieved particular states of \"ripeness\" that appeal to the various depraved tastes of various fiends, evil magic-users, and worse. Other larvae are raised through grueling processes into exacting forms of designed demonic life, tended with the careful ministrations of Abyssal artisans. These malign sculptors blend the cultivation of specific degraded and evil qualities with bizarre surgical magic to produce demons that suit the needs and desires of their specialized clientele.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"larva": { "copyof": "demon_larva" },
@@ -717,7 +717,7 @@
 			"",
 			"**Str** 27, **Dex** 20, **Con**: 30, **Int** 21, **Wis** 23, **Cha**, 26  ",
 			"**Base Atk** +17; **CMB** +25; **CMD** 49  ",
-			"**Feats** [Critical Focus](feat/critical_focus), [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Improved Critical (claw)](feat/improved_critical), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (charm monster)](feat/quicken_spell-like_ability), [Spring Attack](feat/spring_attack), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Critical Focus}, {feat/Deceitful}, {feat/Dodge}, [Improved Critical (claw)](feat/improved_critical), {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (charm monster)](feat/quicken_spell-like_ability), {feat/Spring Attack}, {feat/Staggering Critical}  ",
 			"**Skills** Acrobatics +25, Bluff +40, Diplomacy +28, Disguise +29, Fly +37, Intimidate +25, Knowledge (local, nobility) +25, Knowledge (religion) +22, Perception +34, Sense Motive +26; **Racial Modifiers** +8 Bluff, +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.; tongues  ",
 			"**SQ** change shape (Small or Medium humanoid; alter self), profane wishcraft",
@@ -761,7 +761,7 @@
 			"",
 			"Lilitus typically stand 6 to 6-1/2 feet tall and weigh 130 to 150 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"lilitu": { "copyof": "demon_lilitu" },
@@ -804,7 +804,7 @@
 			"",
 			"**Str** 25, **Dex** 19, **Con**: 32, **Int** 18, **Wis** 18, **Cha**, 25  ",
 			"**Base Atk** +16; **CMB** +24 (+28 grapple); **CMD** 42 (can't be tripped)  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Critical (longsword)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Power Attack](feat/power_attack), [Weapon Focus (longsword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, [Improved Critical (longsword)](feat/improved_critical), {feat/Improved Disarm}, {feat/Power Attack}, [Weapon Focus (longsword)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +23, Bluff +26, Diplomacy +26, Fly +18, Intimidate +26, Knowledge (engineering) +20, Perception +31, Sense Motive +23, Stealth +19, Use Magic Device +26; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -828,7 +828,7 @@
 			"",
 			"A marilith is 6 to 9 feet tall and measures 20 feet from head to tail tip. It weighs 4,000 pounds. Only the most arrogant and proud evil souls, typically those of cruel kings, sadistic generals, and exceptionally violent warlords, can trigger the manifestation of a marilith.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"marilith": { "copyof": "demon_marilith" },
@@ -868,7 +868,7 @@
 			"",
 			"**Str** 22, **Dex** 17, **Con**: 22, **Int** 15, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +9; **CMB** +15; **CMD** 29  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Expertise}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +15, Fly +15, Knowledge (arcana) +14, Knowledge (planes) +14, Perception +23, Sense Motive +15, Stealth +15 (+23 in shadowy conditions), Survival +15; **Racial Modifiers** +8 Perception, +8 Stealth in shadowy areas  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -888,7 +888,7 @@
 			"",
 			"Nabasus are birthed directly into the Material Plane from the Abyss, where they feed on innocent souls to mature. Only when finally sated can a nabasu return to the Abyss. Rumor holds that even then the nabasu's lifecycle does not change, and that further developments await them as they continue to grow. These vile demons form from the souls of evil gluttons, particularly from cannibals, blood-drinkers, and those who prefer the tang of undead flesh.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"nabasu": { "copyof": "demon_nabasu" },
@@ -930,7 +930,7 @@
 			"",
 			"**Str** 32, **Dex** 13, **Con**: 29, **Int** 23, **Wis** 22, **Cha**, 20  ",
 			"**Base Atk** +14; **CMB** +27; **CMD** 42  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Bluff +22, Diplomacy +22, Fly +10, Intimidate +19, Knowledge (arcana) +23, Knowledge (planes) +23, Knowledge (any one other) +20, Perception +31, Sense Motive +23, Spellcraft +23, Stealth +10, Use Magic Device +22; Racial Modifier +8 on Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -950,7 +950,7 @@
 			"",
 			"Nalfeshnees stand 20 feet tall and weigh 8,000 pounds. They form from the souls of greedy or avaricious evil mortals, particularly those who ruled over empires of slavery, theft, banditry, and more violent vices.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"nalfeshnee": { "copyof": "demon_nalfeshnee" },
@@ -995,7 +995,7 @@
 			"",
 			"**Str** 26, **Dex** 25, **Con**: 24, **Int** 15, **Wis** 19, **Cha**, 18  ",
 			"**Base Atk** +13; **CMB** +21; **CMD** 39 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Spring Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +23 (+27 jump), Climb +32, Escape Artist +23, Knowledge (dungeoneering) +18, Knowledge (planes) +18, Perception +28, Sense Motive +20, Stealth +23 (+33 when submerged), Swim +32; **Racial Modifiers** +16 Escape Artist, +8 Perception, +10 Stealth when submerged  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** amorphous, amphibious, compression",
@@ -1020,7 +1020,7 @@
 			"",
 			"A typical omox stands 7 feet tall and weighs 1,200 pounds. They form from the souls of those who destroyed beautiful things in life, or who befouled and desecrated objects of purity.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"omox": { "copyof": "demon_omox" },
@@ -1064,7 +1064,7 @@
 			"",
 			"**Str** 14, **Dex** 25, **Con**: 24, **Int** 21, **Wis** 24, **Cha**, 23  ",
 			"**Base Atk** +14; **CMB** +16; **CMD** 38  ",
-			"**Feats** [Dodge](feat/dodge), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Quicken Spell-Like Ability (invisibility)](feat/quicken_spell-like_ability), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Dodge}, {feat/Lightning Stance}, {feat/Mobility}, [Quicken Spell-Like Ability (invisibility)](feat/quicken_spell-like_ability), {feat/Spring Attack}, {feat/Weapon Finesse}, {feat/Wind Stance}  ",
 			"**Skills** Acrobatics +21, Bluff +23, Diplomacy +23, Fly +32, Knowledge (arcana, planes) +22, Perception +32, Sense Motive +32, Spellcraft +22, Stealth +28, Use Magic Device +23; **Racial Modifiers** +8 Perception, +4 Stealth  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 300 ft.",
 			"",
@@ -1101,7 +1101,7 @@
 			"",
 			"An encounter with an oolioddroo can be rather complex due to the nature of the creature's special abilities' especially if a PC is its intended victim. If an oolioddroo attempts to seize control of a lone PC, one tricky tactic is to simply ask the character's player to attempt all the necessary rolls and checks beforehand. Typically, one of these demons attempts to implant eggs in a character who is alone or asleep, in which case that character can attempt a Perception check (at a -10 penalty if the character is sleeping) and a saving throw against the modify memory spell-if both fail, the implanted egg hatches without the player noticing. Thereafter, the source of the strange voices and compulsions in the character's mind, as well as the source of the periodic suggestions and other magical attacks, can be as frighteningly mysterious to the player as they are to the character. Of course, the GM should take care not to go too far with this-and if a PC or an ally uses detect evil, for example, she might guess that something is afoot when a normally nonevil PC radiates an unexpected aura.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"oolioddroo": { "copyof": "demon_oolioddroo" },
@@ -1148,7 +1148,7 @@
 			"",
 			"**Str** 27, **Dex** 16, **Con**: 29, **Int** 18, **Wis** 18, **Cha**, 19  ",
 			"**Base Atk** +14; **CMB** +23; **CMD** 36  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Critical (spear)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Vital Strike](feat/vital_strike), [Weapon Focus (spear)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, [Improved Critical (spear)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Vital Strike}, [Weapon Focus (spear)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +20 (+24 when jumping), Bluff +21, Climb +33, Intimidate +21, Knowledge (local) +18, Knowledge (nature) +18, Knowledge (planes) +21, Perception +21, Stealth +16, Survival +21  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** dreamwalker",
@@ -1161,7 +1161,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Chain-Spear (Ex)** A painajai can hurl its spear at a target within 50 feet with no range penalty. If the attack hits, the painajai can immediately yank the chain to attempt a reposition or trip combat maneuver check against the target. The painajai is considered to have the [Improved Reposition](feat/improved_reposition) and [Improved Trip](feat/improved_trip) feats when performing these maneuvers with its spear only. A reposition combat maneuver performed in this way can only move the target closer to the painajai. The painajai can recover its spear as a swift action.",
+			"**Chain-Spear (Ex)** A painajai can hurl its spear at a target within 50 feet with no range penalty. If the attack hits, the painajai can immediately yank the chain to attempt a reposition or trip combat maneuver check against the target. The painajai is considered to have the {feat/Improved Reposition} and {feat/Improved Trip} feats when performing these maneuvers with its spear only. A reposition combat maneuver performed in this way can only move the target closer to the painajai. The painajai can recover its spear as a swift action.",
 			"",
 			"**Dreamwalker (Su)** A painajai can travel between the Abyss and the Dimension of Dreams at will, as per dream travel, except that it cannot enter any other planes or take other creatures with it.",
 			"",
@@ -1171,7 +1171,7 @@
 			"",
 			"Painajais stand 10 feet tall and weigh about 800 pounds. These demons form from the souls of mortals whose cruel deeds have caused nightmares in other people.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"painajai": { "copyof": "demon_painajai" },
@@ -1211,7 +1211,7 @@
 			"",
 			"**Str** 8, **Dex** 14, **Con**: 11, **Int** 11, **Wis** 12, **Cha**, 11  ",
 			"**Base Atk** +3; **CMB** +0; **CMD** 12  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +6, Fly +20, Intimidate +6, Knowledge (planes) +6, Perception +7, Stealth +16  ",
 			"**Languages** Abyssal, Common; telepathy (touch)  ",
 			"**SQ** change shape (2 of the following forms: bat, Small centipede, toad, or wolf; polymorph)",
@@ -1236,7 +1236,7 @@
 			"",
 			"Rarely, a quasit elects to ignore its master's death and instead remains on the Material Plane to seek other ways to entertain itself-usually settling in an urban area where there are plenty of folk to torment.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"quasit": { "copyof": "demon_quasit" },
@@ -1279,7 +1279,7 @@
 			"",
 			"**Str** 17, **Dex** 14, **Con**: 15, **Int** 8, **Wis** 5, **Cha**, 6  ",
 			"**Base Atk** +5; **CMB** +8; **CMD** 20  ",
-			"**Feats** [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (halberd)](feat/weapon_focus)  ",
+			"**Feats** {feat/Iron Will}, {feat/Power Attack}, [Weapon Focus (halberd)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +10 (+18 jumping), Climb +11, Intimidate +6, Perception +13, Survival +2; **Racial Modifiers** +8 Acrobatics when jumping, +8 Perception  ",
 			"**Languages** Abyssal; telepathy 100 ft., tongues",
 			"",
@@ -1305,7 +1305,7 @@
 			"",
 			"A schir set loose upon the Material Plane quickly seeks to set itself up as a leader of its own army-often, schirs seek out tribes of savage humanoids and attempt to replace the current leaders. They are particularly fond of infiltrating gnoll tribes.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"schir": { "copyof": "demon_schir" },
@@ -1351,7 +1351,7 @@
 			"",
 			"**Str** 26, **Dex** 23, **Con**: 28, **Int** 16, **Wis** 19, **Cha**, 21  ",
 			"**Base Atk** +15; **CMB** +21 (+25 grapple); **CMD** 41  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Critical (scimitar)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Weapon Focus (scimitar)](feat/weapon_focus)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, [Improved Critical (scimitar)](feat/improved_critical), {feat/Improved Initiative}, {feat/Multiattack}, {feat/Power Attack}, [Weapon Focus (scimitar)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +24 (+32 when jumping), Bluff +23, Fly +24, Intimidate +23, Knowledge (planes) +21, Knowledge (religion) +21, Perception +30, Sense Motive +22, Stealth +24; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -1375,7 +1375,7 @@
 			"",
 			"Seraptis demons form from souls of those who inspired widespread despair or destruction by committing suicide.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"seraptis": { "copyof": "demon_seraptis" },
@@ -1420,7 +1420,7 @@
 			"",
 			"**Str** 25, **Dex** 25, **Con**: 26, **Int** 18, **Wis** 20, **Cha**, 21  ",
 			"**Base Atk** +11; **CMB** +18; **CMD** 36  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Deceitful}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Iron Will}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Bluff +23, Diplomacy +19, Disguise +14, Fly +21, Knowledge (planes) +16, Knowledge (religion) +16, Perception +27, Sense Motive +19, Sleight of Hand +18, Stealth +21, Use Magic Device +19; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic; telepathy 100 ft.  ",
 			"**SQ** change shape (Medium or Large humanoid; alter self), subtle magic, trophy taker",
@@ -1447,7 +1447,7 @@
 			"",
 			"A shachath's duplicitous nature is reflected in its physical form. It is literally two-faced, and sees and speaks easily from either side of its skull. One face is angelic and the other horrific, but a shachath is a single being of pure malevolence. Shachaths are concerned with the destruction of mortal faith in anything, and are most often found in the service of Baphomet, Pazuzu, Sif kesh, or Socothbenoth. A typical shachath is 7-1/2 feet tall and weighs 320 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Ecology",
 			"",
@@ -1496,7 +1496,7 @@
 			"",
 			"**Str** -, **Dex** 18, **Con**: 17, **Int** 14, **Wis** 14, **Cha**, 19  ",
 			"**Base Atk** +7; **CMB** +11; **CMD** 25  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Acrobatics +14, Bluff +14, Fly +22, Knowledge (local) +12, Knowledge (planes) +12, Perception +20, Sense Motive +12, Stealth +14; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Common; telepathy 100 ft.",
 			"",
@@ -1520,7 +1520,7 @@
 			"",
 			"Unlike many demons, shadow demons are incorporeal. When a particularly envious and evil mortal soul is pulled into the Abyss, it is transformed, split apart, and combined with other souls until what emerges is little more than jealous malevolence without the impediment of a physical body.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"shadow_demon": { "copyof": "demon_shadow_demon" },
@@ -1566,7 +1566,7 @@
 			"",
 			"**Str** 35, **Dex** 19, **Con**: 29, **Int** 10, **Wis** 26, **Cha**, 16  ",
 			"**Base Atk** +17; **CMB** +33; **CMD** 48  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Bull Rush](feat/improved_bull_rush), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Bull Rush}, {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, {feat/Multiattack}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Bluff +23, Climb +20, Fly +2, Heal +28, Intimidate +23, Knowledge (religion) +20, Perception +36, Sense Motive +28; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -1588,7 +1588,7 @@
 			"",
 			"A shemhazian stands 35 feet tall and weighs 12,000 pounds. They form from the sinful souls of torturers and those who enjoyed mutilating living victims to death.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"shemhazian": { "copyof": "demon_shemhazian" },
@@ -1628,7 +1628,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 20, **Int** 18, **Wis** 14, **Cha**, 27  ",
 			"**Base Atk** +8; **CMB** +11; **CMD** 22  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Reflexes](feat/combat_reflexes), [Iron Will](feat/iron_will), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Reflexes}, {feat/Iron Will}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +27, Diplomacy +19, Disguise +19, Escape Artist +11, Fly +14, Intimidate +16, Knowledge (local) +15, Perception +21, Sense Motive +13, Stealth +14; **Racial Modifiers** +8 Bluff, +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic; tongues, telepathy 100 ft.  ",
 			"**SQ** change shape (alter self, Small or Medium humanoid)",
@@ -1649,7 +1649,7 @@
 			"",
 			"Among the demon hordes, a succubus can often rise to incredible heights of power through her manipulations and sensual charms, and many a demonic war has raged due to the subtle machinations of such creatures. A succubus is formed from the souls of particularly lustful and rapacious evil mortals.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"succubus": { "copyof": "demon_succubus" },
@@ -1693,7 +1693,7 @@
 			"",
 			"**Str** 11, **Dex** 16, **Con**: 14, **Int** 13, **Wis** 11, **Cha**, 12  ",
 			"**Base Atk** +5; **CMB** +4; **CMD** 17  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Handle Animal +9, Intimidate +9, Knowledge (arcana) +9, Knowledge (planes) +9, Perception +8, Ride +11, Stealth +15  ",
 			"**Languages** Abyssal, Goblin, Gnoll, Orc; speak with animals, telepathy 100 ft.  ",
 			"**SQ** eyeless, witchcraft",
@@ -1724,7 +1724,7 @@
 			"",
 			"Small and slight, most swaithes stand about 3-1/2 feet tall and weigh 50 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"swaithe": { "copyof": "demon_swaithe" },
@@ -1768,7 +1768,7 @@
 			"",
 			"**Str** 19, **Dex** 15, **Con**: 17, **Int** 8, **Wis** 10, **Cha**, 14  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 22  ",
-			"**Feats** [Double Slice](feat/double_slice), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (two-bladed sword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Double Slice}, {feat/Two-Weapon Fighting}, [Weapon Focus (two-bladed sword)](feat/weapon_focus)  ",
 			"**Skills** Bluff +11, Craft (weapons) +4, Craft (armor) +4, Disguise +8, Intimidate +8, Perception +13, Profession (soldier) +9; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic; telepathy 100 ft.",
 			"",
@@ -1790,7 +1790,7 @@
 			"",
 			"Able to take the shape of rank-and-file soldiers and infect military ranks like a cancer, thoxels-also known as insubordination demons-spend every drop of their malice to break down the cooperative spirit of those who fight together. Among mortal soldiers, thoxels whisper disparaging words about commanders, talk in hushed tones about the danger of upcoming battles, or belittle other soldiers' accomplishments. Many great battles are said to have been lost because of the presence of these subtle but murderous demons within an army's ranks. They represent a passion to kill as they please without caring about order, control, or their allies. Despite their skill at martial exploits, thoxels are lazy and untrustworthy creatures. Thoxel demons are 6 feet tall and weigh 200 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Ecology",
 			"",
@@ -1851,7 +1851,7 @@
 			"",
 			"**Str** 30, **Dex** 11, **Con**: 26, **Int** 7, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +17; **CMB** +31 (+35 overrun, +35 sunder); **CMD** 43 (45 vs. overrun, 45 vs. sunder)  ",
-			"**Feats** [Charge Through](feat/charge_through), [Greater Overrun](feat/greater_overrun), [Greater Sunder](feat/greater_sunder), [Improved Critical (slams)](feat/improved_critical), [Improved Overrun](feat/improved_overrun), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Sundering Strike](feat/sundering_strike), [Weapon Focus (slams)](feat/weapon_focus)  ",
+			"**Feats** {feat/Charge Through}, {feat/Greater Overrun}, {feat/Greater Sunder}, [Improved Critical (slams)](feat/improved_critical), {feat/Improved Overrun}, {feat/Improved Sunder}, {feat/Power Attack}, {feat/Sundering Strike}, [Weapon Focus (slams)](feat/weapon_focus)  ",
 			"**Skills** Climb +28, Intimidate +22, Knowledge (engineering) +18, Perception +30, Swim +23; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic",
 			"",
@@ -1875,7 +1875,7 @@
 			"",
 			"Ulkreths are among the mightiest servants of the demon lord Xoveron, the Horned Prince of gargoyles and lord of ruination. They exist solely to destroy, carrying out his will of devastation to cities and civilization throughout the planes, tearing down monuments and buildings in the name of their unholy patron. Ulkreths are 25 feet tall and weigh 10 tons.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Ecology",
 			"",
@@ -1938,7 +1938,7 @@
 			"",
 			"**Str** 32, **Dex** 14, **Con**: 33, **Int** 18, **Wis** 21, **Cha**, 23  ",
 			"**Base Atk** +18; **CMB** +31 (+33 bull rush); **CMD** 47 (49 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Iron Will](feat/improved_iron_will), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (enervation)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, {feat/Improved Iron Will}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Power Attack}, [Quicken Spell-Like Ability (enervation)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Bluff +27, Fly +16, Intimidate +27, Knowledge (arcana, planes) +25, Perception +34, Sense Motive +26, Spellcraft +25, Stealth +20, Swim +26; **Racial Modifiers** +8 Perception, +8 Stealth  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -1970,7 +1970,7 @@
 			"",
 			"Though originally created to serve as living weapons of war, the vavakias have long since established their own presence as Abyssal warlords and conquerors. While some pledge their service to powerful demon lords, most vavakias rule small empires of their own in the Abyss, typically in remote corners infested with jungles, swamps, and other primeval terrains.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"vavakia": { "copyof": "demon_vavakia" },
@@ -2013,7 +2013,7 @@
 			"",
 			"**Str** 15, **Dex** 9, **Con**: 14, **Int** 12, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 15  ",
-			"**Feats** [Deceitful](feat/deceitful), [Great Fortitude](feat/great_fortitude)  ",
+			"**Feats** {feat/Deceitful}, {feat/Great Fortitude}  ",
 			"**Skills** Bluff +10, Disguise +10 (+18 when inhabiting a corpse), Escape Artist +6 (+14 when not inhabiting a corpse), Knowledge (religion) +8, Perception +8, Sense Motive +8, Use Magic Device +8; **Racial Modifiers** +8 Disguise when inhabiting a corpse, +8 Escape Artist when not inhabiting a corpse  ",
 			"**Languages** Abyssal, Common; telepathy 100 ft.",
 			"",
@@ -2039,7 +2039,7 @@
 			"",
 			"Outside of a host body, a vermlek appears as a worm with four long tails, each of which ends in a tangle of filaments. In this form, the demon is 7 feet long and weighs 90 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"vermlek": { "copyof": "demon_vermlek" },
@@ -2083,7 +2083,7 @@
 			"",
 			"**Str** 22, **Dex** 19, **Con**: 24, **Int** 23, **Wis** 16, **Cha**, 23  ",
 			"**Base Atk** +18; **CMB** +24; **CMD** 38  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Deceitful](feat/deceitful), [Greater Vital Strike](feat/greater_vital_strike), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Persuasive](feat/persuasive), [Quicken Spell-Like Ability (dominate person)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Deceitful}, {feat/Greater Vital Strike}, {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Persuasive}, [Quicken Spell-Like Ability (dominate person)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Bluff +31, Craft (sculpture, stonemasonry) +18, Diplomacy +31, Disguise +31, Intimidate +31, Knowledge (engineering, history, local, nobility, religion) +15, Perception +36, Perform (oratory) +15, Sense Motive +28, Spellcraft +16, Stealth +25, Use Magic Device +14; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; can't speak, telepathy 100 ft.  ",
 			"**SQ** change shape (Medium humanoid; polymorph), no breath",
@@ -2108,7 +2108,7 @@
 			"",
 			"Vilsteth demons, also known as corruption demons, are calved from the essence of the demon lord Baphomet's realm of the Ivory Labyrinth. Vilsteths form from the souls of corrupt and deceitful politicians, priests, and power brokers-those who in life abused and misused whatever ephemeral power they wielded. The defining sin of these souls was pride, fueled by vanity and a desire for adulation and ever-greater authority to be wielded in whatever selfish way they saw fit, coupled with a furious envy of anyone more beloved, respected, or feared than they. Vilsteths epitomize these traits, and can often be found lurking in monuments dedicated to important political figures or disguised within statues of prominent saints and heroes. In their natural form, vilsteths are over 7 feet tall and weigh 400 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Ecology",
 			"",
@@ -2160,7 +2160,7 @@
 			"",
 			"**Str** 21, **Dex** 15, **Con**: 25, **Int** 14, **Wis** 16, **Cha**, 16  ",
 			"**Base Atk** +9; **CMB** +15; **CMD** 27  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}  ",
 			"**Skills** Fly +12, Intimidate +15, Knowledge (planes) +14, Perception +23, Sense Motive +15, Spellcraft +14, Stealth +10, Survival +15; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common; telepathy 100 ft.",
 			"",
@@ -2184,7 +2184,7 @@
 			"",
 			"A typical vrock stands 8 feet tall and weighs 400 pounds. Vrocks generally form from the evil souls of hateful and wrathful mortals, particularly those who were career criminals, mercenaries, or assassins.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"vrock": { "copyof": "demon_vrock" },
@@ -2229,7 +2229,7 @@
 			"",
 			"**Str** 30, **Dex** 23, **Con**: 35, **Int** 22, **Wis** 23, **Cha**, 26  ",
 			"**Base Atk** +19; **CMB** +30; **CMD** 47  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (enervation)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Expertise}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (enervation)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +25 (+29 jump), Bluff +30, Fly +34, Intimidate +27, Knowledge (arcana) +25, Knowledge (planes) +28, Perception +36, Sense Motive +28, Spellcraft +25, Stealth +24 (+32 in shadowy areas), Survival +25, Use Magic Device +27; **Racial Modifiers** +8 Perception, +8 Stealth in shadowy areas  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -2253,7 +2253,7 @@
 			"",
 			"A vrolikai is 14 feet tall but weighs only 500 pounds. Unlike other demons, it does not form from a sinful soul-it instead manifests from a nabasu demon that returns to the Abyss after growing to maturity on the Material Plane. Not all nabasus survive this transformation, but those who do become powerful indeed-vrolikai usually rule large regions of unclaimed Abyssal land, and often serve as assassins or ambassadors to demon lords in need of an agent in a distant realm.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"vrolikai": { "copyof": "demon_vrolikai" },
@@ -2299,7 +2299,7 @@
 			"",
 			"**Str** 20, **Dex** 14, **Con**: 19, **Int** 9, **Wis** 13, **Cha**, 16  ",
 			"**Base Atk** +8; **CMB** +13; **CMD** 26  ",
-			"**Feats** [Cleave](feat/cleave), [Dodge](feat/dodge), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Dodge}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +11, Bluff +12, Climb +14, Intimidate +10, Knowledge (planes) +8, Perception +10, Stealth +11  ",
 			"**Languages** Abyssal, Celestial, Draconic, Gnoll; telepathy 100 ft.",
 			"",
@@ -2321,7 +2321,7 @@
 			"",
 			"Terrifying predators, yaenits' deceptively stooped and gangly physiques belie the 300 pounds of knotted and powerful muscle tied to their solid black bones. A yaenit is 6-1/2 feet tall.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"yaenit": { "copyof": "demon_yaenit" },
@@ -2364,7 +2364,7 @@
 			"",
 			"**Str** 14, **Dex** 18, **Con**: 19, **Int** 18, **Wis** 17, **Cha**, 21  ",
 			"**Base Atk** +10; **CMB** +12; **CMD** 27  ",
-			"**Feats** [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Mobility](feat/mobility), [Persuasive](feat/persuasive), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Deceitful}, {feat/Dodge}, {feat/Mobility}, {feat/Persuasive}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +22, Diplomacy +7, Disable Device +14, Disguise +12 (+16 as humanoid), Intimidate +12, Knowledge (any one) +17, Perception +16, Profession (sailor) +8, Sense Motive +16, Sleight of Hand +17, Spellcraft +12, Stealth +17, Use Magic Device +18; **Racial Modifiers** +4 Disguise when disguised as a Medium humanoid  ",
 			"**Languages** Aklo; tongues",
 			"",
@@ -2428,7 +2428,7 @@
 			"",
 			"**Str** 21, **Dex** 16, **Con**: 17, **Int** 9, **Wis** 12, **Cha**, 10  ",
 			"**Base Atk** +7; **CMB** +13; **CMD** 26  ",
-			"**Feats** [Acrobatic](feat/acrobatic), [Combat Reflexes](feat/combat_reflexes), [Iron Will](feat/iron_will), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Acrobatic}, {feat/Combat Reflexes}, {feat/Iron Will}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +12, Climb +13, Fly +9, Perception +14  ",
 			"**Languages** Auran, Common  ",
 			"**SQ** booming voice",
@@ -2495,7 +2495,7 @@
 			"",
 			"**Str** 11, **Dex** 15, **Con**: 18, **Int** 10, **Wis** 5, **Cha**, 16  ",
 			"**Base Atk** +2; **CMB** +1; **CMD** 13  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Weapon Finesse}  ",
 			"**Skills** Perception +0, Stealth +9  ",
 			"**Languages** Aklo, Undercommon  ",
 			"**SQ** madness, poison use",
@@ -2563,7 +2563,7 @@
 			"",
 			"**Str** 15, **Dex** 18, **Con**: 16, **Int** 10, **Wis** 9, **Cha**, 18  ",
 			"**Base Atk** +7; **CMB** +8; **CMD** 22  ",
-			"**Feats** [Dazzling Display](feat/dazzling_display), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Sap Adept](feat/sap_adept), [Sap Master](feat/sap_master), [Weapon Focus (sap)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dazzling Display}, {feat/Point-Blank Shot}, {feat/Precise Shot}, {feat/Rapid Shot}, {feat/Sap Adept}, {feat/Sap Master}, [Weapon Focus (sap)](feat/weapon_focus)  ",
 			"**Skills** Bluff +14, Climb +11, Disable Device +16, Disguise +13, Intimidate +14, Knowledge (local) +7, Perception +11, Stealth +16, Use Magic Device +16  ",
 			"**Languages** Aklo, Undercommon  ",
 			"**SQ** madness, poison use, rogue talents (combat trick, surprise attack, weapon training), trapfinding +3  ",
@@ -2624,7 +2624,7 @@
 			"",
 			"**Str** 11, **Dex** 19, **Con**: 16, **Int** 12, **Wis** 7, **Cha**, 20  ",
 			"**Base Atk** +3; **CMB** +2; **CMD** 17  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Extra Performance](feat/extra_performance)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Dodge}, {feat/Extra Performance}  ",
 			"**Skills** Acrobatics +8 (+4 when jumping), Bluff +12, Disguise +10, Escape Artist +7, Knowledge (geography) +6, Knowledge (local) +6, Linguistics +5, Perception +2, Perform (oratory) +13, Stealth +12, Use Magic Device +11  ",
 			"**Languages** Aklo, Common, Undercommon  ",
 			"**SQ** bardic knowledge +1, madness, poison use, versatile performance (oratory)  ",
@@ -2682,7 +2682,7 @@
 			"",
 			"**Str** 15, **Dex** 17, **Con**: 16, **Int** 16, **Wis** 5, **Cha**, 16  ",
 			"**Base Atk** +5; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Weapon Finesse}  ",
 			"**Skills** Craft (alchemy) +13, Knowledge (arcana) +10, Perception +4, Spellcraft +10, Stealth +14  ",
 			"**Languages** Aklo, Undercommon  ",
 			"**SQ** psychic incoherence",
@@ -2747,7 +2747,7 @@
 			"",
 			"**Str** 15, **Dex** 17, **Con**: 22, **Int** 13, **Wis** 5, **Cha**, 14  ",
 			"**Base Atk** +6; **CMB** +7 (+11 trip); **CMD** 20 (22 vs. trip)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Greater Trip](feat/greater_trip), [Improved Trip](feat/improved_trip), [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Greater Trip}, {feat/Improved Trip}, {feat/Two-Weapon Fighting}  ",
 			"**Skills** Acrobatics +6 (+2 when jumping), Bluff +9, Climb +5, Disguise +6, Intimidate +8, Knowledge (local) +8, Perception +7, Sense Motive +5, Stealth +10, Survival +7  ",
 			"**Languages** Aklo, Common, Undercommon  ",
 			"**SQ** favored terrain (urban +2), madness, poison use, slayer talents (slowing strike, terrain mastery), track +2  ",
@@ -2808,7 +2808,7 @@
 			"",
 			"**Str** 15, **Dex** 17, **Con**: 18, **Int** 18, **Wis** 7, **Cha**, 14  ",
 			"**Base Atk** +10; **CMB** +11; **CMD** 26  ",
-			"**Feats** [Alertness](feat/alertness), [Brew Potion](feat/brew_potion), [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Throw Anything](feat/throw_anything), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Alertness}, {feat/Brew Potion}, {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Throw Anything}, {feat/Toughness}  ",
 			"**Skills** Bluff +13, Craft (alchemy) +17, Disable Device +15, Heal +2, Knowledge (arcana) +12, Knowledge (nature) +18, Perception +11, Sense Motive +12, Sleight of Hand +15, Spellcraft +21, Stealth +16, Use Magic Device +11  ",
 			"**Languages** Abyssal, Aklo, Common, Dwarven, Goblin, Undercommon  ",
 			"**SQ** alchemy (alchemy crafting +11, identify potions), cruel anatomist, mutagen (+4/-2, +2 natural, 110 minutes), discoveries (infusion, monstrous graft [arm], monstrous graft [leg &times;2], sleeper agent), madness, poison use, swift alchemy, swift poisoning, torturer's eye, torturous transformation  ",
@@ -2963,7 +2963,7 @@
 			"",
 			"**Str** 23, **Dex** 17, **Con**: -, **Int** 12, **Wis** 14, **Cha**, 19  ",
 			"**Base Atk** +7; **CMB** +13; **CMD** 27  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Mobility}  ",
 			"**Skills** Climb +19, Intimidate +17, Knowledge (religion) +14, Perception +15, Stealth +16  ",
 			"**Languages** Common, Necril",
 			"",
@@ -3017,7 +3017,7 @@
 			"",
 			"**Str** 18, **Dex** 13, **Con**: 16, **Int** 13, **Wis** 18, **Cha**, 13  ",
 			"**Base Atk** +9; **CMB** +14; **CMD** 26  ",
-			"**Feats** [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Vital Strike}  ",
 			"**Skills** Climb +19, Perception +27, Sense Motive +16, Stealth +12, Survival +19; **Racial Modifiers** +8 Perception (hearing only)  ",
 			"**Languages** Common (cannot speak)",
 			"",
@@ -3076,7 +3076,7 @@
 			"",
 			"**Str** 31, **Dex** 17, **Con**: 16, **Int** 2, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +18; **CMD** 31  ",
-			"**Feats** [Dazzling Display](feat/dazzling_display), [Improved Initiative](feat/improved_initiative), [Intimidating Prowess](feat/intimidating_prowess), [Power Attack](feat/power_attack), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dazzling Display}, {feat/Improved Initiative}, {feat/Intimidating Prowess}, {feat/Power Attack}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +13, Climb +14, Intimidate +13, Perception +8; **Racial Modifiers** +4 Acrobatics, +4 Climb",
 			"",
 			"#### Ecology",
@@ -3135,7 +3135,7 @@
 			"",
 			"**Str** 13, **Dex** 10, **Con**: 11, **Int** 14, **Wis** 13, **Cha**, 14  ",
 			"**Base Atk** +6; **CMB** +7; **CMD** 17  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Improved Initiative}, {feat/Iron Will}  ",
 			"**Skills** Bluff +15, Climb +9, Diplomacy +15, Intimidate +11, Knowledge (local) +11, Knowledge (planes) +11, Knowledge (religion) +11, Perception +10, Sense Motive +10, Swim +9; **Racial Modifiers** +4 Bluff, +4 Diplomacy  ",
 			"**Languages** Celestial, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** change shape (any Medium humanoid or Medium amphisbaena; alter self or beast shape III)",
@@ -3162,7 +3162,7 @@
 			"",
 			"In his true form, a hesperian looks like a devilishly handsome human male with devilish horns, a forked tongue, and eyes reminiscent of snake's, but he can make himself a perfect imitation of any humanoid or even take the form of a long snake with a head on each end. Hesperians stand just under 7 feet tall and weigh approximately 180 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"hesperian": { "copyof": "devil_accomplice_devil_hesperian" },
@@ -3205,7 +3205,7 @@
 			"",
 			"**Str** 11, **Dex** 18, **Con**: 14, **Int** 9, **Wis** 15, **Cha**, 12  ",
 			"**Base Atk** +4; **CMB** +3; **CMD** 17  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Bluff +8, Fly +21, Knowledge (planes) +6, Perception +9, Stealth +15  ",
 			"**Languages** Celestial, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** infernal eye",
@@ -3232,7 +3232,7 @@
 			"",
 			"These lesser devils stand just over 2 feet tall and rarely weigh more than 25 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"zebub": { "copyof": "devil_accuser_devil_zebub" },
@@ -3276,7 +3276,7 @@
 			"",
 			"**Str** 34, **Dex** 25, **Con**: 30, **Int** 23, **Wis** 25, **Cha**, 24  ",
 			"**Base Atk** +18; **CMB** +32; **CMD** 49 (53 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Flyby Attack](feat/flyby_attack), [Greater Bull Rush](feat/greater_bull_rush), [Hover](feat/hover), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Flyby Attack}, {feat/Greater Bull Rush}, {feat/Hover}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Multiattack}, {feat/Power Attack}, {feat/Toughness}  ",
 			"**Skills** Bluff +28, Diplomacy +28, Escape Artist +25, Fly +24, Intimidate +28, Knowledge (arcana) +27, Knowledge (planes) +27, Knowledge (religion) +27, Perception +28, Sense Motive +28, Spellcraft +24, Stealth +20  ",
 			"**Languages** Abyssal, Aklo, Celestial, Common, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** devil mark, false divinity",
@@ -3309,7 +3309,7 @@
 			"",
 			"No two advodazas look exactly alike, each embodying the powers and concerns that saw it worshiped in ages past and subsequently anthropomorphized as a monstrous being. Typically, this results in quadrupedal, half-bestial shapes bristling with terrible wings, hooves, claws, and fangs. Universally, though, they bear the broken remnants of their fallen faith, usually in the form of cracked idols worn like armor, profane talismans crafted into jewelry, or fearful totems wielded like massive weapons. Despite their range of appearances, all advodazas possess the same core abilities, though some particularly ancient or powerful fiends possess unique abilities. Most advodazas stand 18 feet tall and weigh nearly 9 tons.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"advodaza": { "copyof": "devil_advodaza" },
@@ -3354,7 +3354,7 @@
 			"",
 			"**Str** 28, **Dex** 31, **Con**: 28, **Int** 21, **Wis** 24, **Cha**, 28  ",
 			"**Base Atk** +18; **CMB** +28; **CMD** 47  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Critical (claw)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Expertise}, {feat/Combat Reflexes}, [Improved Critical (claw)](feat/improved_critical), {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Persuasive}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +28, Bluff +30, Diplomacy +34, Disguise +27, Fly +18, Intimidate +34, Knowledge (history, planes, religion) +26, Perception +28, Sense Motive +28, Stealth +36  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic, Infernal; indomitable oration, telepathy 100 ft.  ",
 			"**SQ** armor bond, evangelization, indomitable oration, malleable form",
@@ -3391,7 +3391,7 @@
 			"",
 			"Preferring to operate alone, these poison-tongued devils rarely work with others of their kind, even though their status affords them control over their lesser brethren. They find that their arguments benefit from a single voice, and that their endeavors are complicated by even the most obedient minions. They bow to Hell's hierarchy, however, and serve if compelled to do so. Pit fiends and infernal dukes sometimes utilize deimaviggas as personal majordomos, spies, and spreaders of dissension, though even among devilkind these enigmatic fiends are considered particularly unnerving.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"deimavigga": { "copyof": "devil_apostate_devil_deimavigga" },
@@ -3431,7 +3431,7 @@
 			"",
 			"**Str** 23, **Dex** 23, **Con**: 22, **Int** 12, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +12; **CMB** +18 (+22 grapple); **CMD** 34  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Improved Critical (claws)](feat/improved_critical), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Alertness}, {feat/Cleave}, {feat/Combat Reflexes}, [Improved Critical (claws)](feat/improved_critical), {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +15, Diplomacy +13, Intimidate +19, Knowledge (planes) +16, Perception +21, Sense Motive +21, Spellcraft +12, Stealth +13, Survival +14  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -3457,7 +3457,7 @@
 			"",
 			"Hamatulas are collectors and organizers, and are favorite allies of greedy summoners as they often bring with them tempting treasures from Hell's vaults or know the paths to deadly riches. Left to their own devices, the lairs of these devils often bear the pierced trophies of their past victims, hung like perverse bug collections on bloodied walls. Most barbed devils stand upward of 7 feet tall and weigh 300 pounds, though their leanly muscled bodies appear much larger due to the constantly growing and adjusting spines that protrude from their razor-sharp bodies.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"hamatula": { "copyof": "devil_barbed_devil_hamatula" },
@@ -3498,7 +3498,7 @@
 			"",
 			"**Str** 19, **Dex** 15, **Con**: 19, **Int** 6, **Wis** 12, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 22  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Weapon Focus (glaive)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Power Attack}, [Weapon Focus (glaive)](feat/weapon_focus)  ",
 			"**Skills** Climb +13, Intimidate +7, Perception +10, Sense Motive +6, Stealth +11  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -3522,7 +3522,7 @@
 			"",
 			"At attention, bearded devils stand over 6 feet tall (though their squatting battle stances often make them appear shorter) and weigh upward of 200 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"barbazu": { "copyof": "devil_bearded_devil_barbazu" },
@@ -3568,7 +3568,7 @@
 			"",
 			"**Str** 24, **Dex** 23, **Con**: 25, **Int** 25, **Wis** 26, **Cha**, 24  ",
 			"**Base Atk** +17; **CMB** +25 (+29 grapple); **CMD** 41 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Greater Disarm](feat/greater_disarm), [Greater Trip](feat/greater_trip), [Improved Critical (tongue)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Greater Disarm}, {feat/Greater Trip}, [Improved Critical (tongue)](feat/improved_critical), {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Improved Trip}, {feat/Iron Will}  ",
 			"**Skills** Appraise +24, Bluff +27, Diplomacy +27, Fly +32, Intimidate +24, Knowledge (arcana, local, nobility, and planes) +27, Perception +28, Sense Motive +28, Spellcraft +24, Stealth +22  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -3588,7 +3588,7 @@
 			"",
 			"A bdellavritra's voice can emanate from its worm-like maw, from any of its human-like mouths, or from all four at once, as it desires. Each mouth has its own distinct voice, often pleasing to the human ear. Bdellavritras typically reach lengths of 16 feet from worm-mouth to human heads, and weigh 3,000 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"bdellavritra": { "copyof": "devil_belier_devil_bdellavritra" },
@@ -3631,7 +3631,7 @@
 			"",
 			"**Str** 21, **Dex** 21, **Con**: 20, **Int** 16, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +10; **CMB** +16; **CMD** 31  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Quicken Spell-Like Ability (invisibility)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Iron Will}, [Quicken Spell-Like Ability (invisibility)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Bluff +17, Diplomacy +17, Fly +21, Intimidate +17, Knowledge (planes) +16, Perception +19, Sense Motive +19, Spellcraft +16, Stealth +14  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -3653,7 +3653,7 @@
 			"",
 			"Osyluths tower over lesser devils at 9 feet tall-though their tails and fearsome but useless wings make them appear much larger-and weigh upward of 400 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"osyluth": { "copyof": "devil_bone_devil_osyluth" },
@@ -3702,7 +3702,7 @@
 			"",
 			"**Str** 11, **Dex** 22, **Con**: 19, **Int** 22, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +10; **CMB** +10; **CMD** 32  ",
-			"**Feats** [Dodge](feat/dodge), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Scribe Scroll](feat/scribe_scroll), [Weapon Finesse](feat/weapon_finesse), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Dodge}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Scribe Scroll}, {feat/Weapon Finesse}, {feat/Wind Stance}  ",
 			"**Skills** Appraise +16, Bluff +18, Diplomacy +18, Disguise +18, Fly +14, Knowledge (arcana) +19, Knowledge (planes) +19, Knowledge (religion) +19, Perception +17, Sense Motive +17, Sleight of Hand +16, Spellcraft +16, Stealth +19  ",
 			"**Languages** Aklo, Celestial, Common, Draconic, Infernal, Undercommon; telepathy 100 ft.  ",
 			"**SQ** infernal arcana, scroll mastery, witch token",
@@ -3719,13 +3719,13 @@
 			"",
 			"**Infernal Arcana (Su)** Once per day, after spending a minute whispering strange formulas and cosmic truths, an uniila can grant an adjacent mortal spellcaster additional profane insight into the ways of magic. This counts as a bonus spell prepared or spell per day of 6th level or lower, which is immediately accessible by the target in addition to all its regular spells. The uniila chooses what spell to grant the target. It need not be a spell already known by the target, though it must be of 6th level or lower and of a level he can cast or from his class's spell list. This spell remains available to the target for 24 hours. The spell can be any arcane or divine spell. An uniila can never use this ability on herself or non-mortal targets. ",
 			"",
-			"Once a target chooses to make use of this spell, it is cast at the uniila's caster level (typically 8th) and is treated as having the evil subtype. In addition, as the uniila chooses, she may spontaneously add the effects of any metamagic feat to the spell (without the spell being treated as though it were of an increased spell level). Typically, uniilas use this ability to compel magic users to rely on them for more powerful magic, though they might also use effects like [Widen Spell](feat/widen_spell) to affect unintended targets.",
+			"Once a target chooses to make use of this spell, it is cast at the uniila's caster level (typically 8th) and is treated as having the evil subtype. In addition, as the uniila chooses, she may spontaneously add the effects of any metamagic feat to the spell (without the spell being treated as though it were of an increased spell level). Typically, uniilas use this ability to compel magic users to rely on them for more powerful magic, though they might also use effects like {feat/Widen Spell} to affect unintended targets.",
 			"",
-			"**Scroll Mastery (Su)** All uniilas possess [Scribe Scroll](feat/scribe_scroll) as a bonus feat. An uniila is treated as knowing all spells of 6th level or lower in the Pathfinder RPG Core Rulebook and can create scrolls of any of those spells. Whether an uniila knows rarer magic is decided by the GM.",
+			"**Scroll Mastery (Su)** All uniilas possess {feat/Scribe Scroll} as a bonus feat. An uniila is treated as knowing all spells of 6th level or lower in the Pathfinder RPG Core Rulebook and can create scrolls of any of those spells. Whether an uniila knows rarer magic is decided by the GM.",
 			"",
 			"**Summon Devil (Su)** Once per day, an uniila can attempt to summon 2d4 imps with a 55% chance of success. This ability is the equivalent of a 4th-level spell.",
 			"",
-			"**Witch Token (Su)** By spending an hour in concentration, an uniila can create a token of arcane power. This token may take any form that takes up an item slot, and typically appears as a subtly fiendish ring, amulet, or similar piece of jewelry. While it is worn by a mortal, all of the DCs of any spells the wearer casts increase by +1 (this effect stacks with [Spell Focus](feat/spell_focus)). However, while wearing a witch token, the bearer takes a -5 penalty on all saves made to resist spells and effects cast by the token's creation. Also, while the token is being worn, the uniila can effectively scry through the token at will and without the wearer's knowledge as long as he remains on the same plane. Spells and effects that typically bar or confound scry also affect the witch token. ",
+			"**Witch Token (Su)** By spending an hour in concentration, an uniila can create a token of arcane power. This token may take any form that takes up an item slot, and typically appears as a subtly fiendish ring, amulet, or similar piece of jewelry. While it is worn by a mortal, all of the DCs of any spells the wearer casts increase by +1 (this effect stacks with {feat/Spell Focus}). However, while wearing a witch token, the bearer takes a -5 penalty on all saves made to resist spells and effects cast by the token's creation. Also, while the token is being worn, the uniila can effectively scry through the token at will and without the wearer's knowledge as long as he remains on the same plane. Spells and effects that typically bar or confound scry also affect the witch token. ",
 			"",
 			"As a standard action, an uniila can cause her witch token to erupt in a burst of destructive magic that deals 10d6 points of damage to the wearer. An uniila can only ever have one witch token in existence at a time and must destroy a previously created token before creating a new one. The damage of this effect is based on the uniila's Hit Dice. ",
 			"",
@@ -3739,7 +3739,7 @@
 			"",
 			"Uniilas eagerly seek passage to the Material Plane and as such welcome summons by mortal casters. Whether to experiment with spells, seek out new magic, or corrupt mortals with their knowledge, what plots an uniila holds often prove inscrutable and of secondary interest to a summoner. Tempering their desire to reach the mortal plane, an uniila's vanity prevents it from serving a witless or hopeless summoner. Thus, uniilas turn the act of summoning about on those who call upon them via a planar binding spell, requesting that such mortals demonstrate their spellcasting prowess. If the mortal effectively casts a spell the uniila does not know (not one of those spells she possesses as a sorcerer spell or spell-like ability), or performs a spell of 5th-level or higher, the caster gains a +2 bonus on the opposed Charisma check made to bind the devil. Occasionally, an uniila purposefully remains to serve an inferior spellcaster, or one that fails his opposed Charisma check. Granting the inept tools they should never possess amuses the devils, and even the most incompetent \"masters\" might prove useful in seeking out components of an uniila's ongoing projects in Hell.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"uniila": { "copyof": "devil_cabal_devil_uniila" },
@@ -3782,7 +3782,7 @@
 			"",
 			"**Str** 27, **Dex** 7, **Con**: 24, **Int** 8, **Wis** 9, **Cha**, 15  ",
 			"**Base Atk** +10; **CMB** +20; **CMD** 28  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Power Attack](feat/power_attack), [Throw Anything](feat/throw_anything), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Power Attack}, {feat/Throw Anything}, {feat/Vital Strike}  ",
 			"**Skills** Climb +21, Escape Artist +8, Intimidate +15, Knowledge (planes) +12, Survival +12  ",
 			"**SQ** corrupt fire, infernal bondage",
 			"",
@@ -3808,7 +3808,7 @@
 			"",
 			"Standing over 20 feet tall, chortovs are mountains of flesh, muscle, and flame. Each weighing upward of 5 tons, these devils bear plates and bands of diabolical armor that serve as physical manifestations of the infernal sorceries that bind them as eternal slaves to Hell. Each chortov's armor is unique, often bearing images of the vaguely remembered torments their constituent souls once suffered. Their bodies, too, bear incongruities uncommon in other diabolical races, harkening toward the lawless natures of the soul-stuff from which these terrors are sculpted.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"chortov": { "copyof": "devil_chortov" },
@@ -3854,7 +3854,7 @@
 			"",
 			"**Str** 17, **Dex** 25, **Con**: 20, **Int** 24, **Wis** 23, **Cha**, 22  ",
 			"**Base Atk** +13; **CMB** +16; **CMD** 34  ",
-			"**Feats** [Alertness](feat/alertness), [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Persuasive](feat/persuasive)  ",
+			"**Feats** {feat/Alertness}, {feat/Deceitful}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Mobility}, {feat/Persuasive}  ",
 			"**Skills** Bluff +26, Diplomacy +26, Disguise +8, Intimidate +26, Knowledge (arcana) +23, Knowledge (nobility) +20, Knowledge (planes) +23, Knowledge (religion) +23, Linguistics +20, Perception +26, Profession (scribe) +19, Sense Motive +26, Sleight of Hand +20, Spellcraft +20  ",
 			"**Languages** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gnome, Goblin, Gnoll, Halfling, Ignan, Infernal, Orc, Sylvan, Terran, Undercommon; telepathy 100 ft., tongues  ",
 			"**SQ** infernal contract, infernal investment",
@@ -3897,7 +3897,7 @@
 			"",
 			"Alternatively, a second mortal might be allowed to adopt the terms of a contract-with its soul replacing that of the original contract signer after death. The mortal who seeks to pay the debt of another must contact the contract devil who holds the relevant contract. The contract devil has a choice of whether or not to allow one mortal to pay another's debt, but values religious and good-aligned souls over others. Shrewd manipulators, contract devils often only agree to allow one mortal to pay another's debt in return for some service or proof of worth. If a contract devil agrees to accept another soul in payment, the original contract signer retains all of the benefits of the contract, but is released from damnation and may be resurrected as normal. The new signer, however, receives no benefits, cannot be returned to life upon dying, and spends an eternity in Hell after death.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"phistophilus": { "copyof": "devil_contract_devil_phistophilus" },
@@ -3943,7 +3943,7 @@
 			"",
 			"**Str** 8, **Dex** 18, **Con**: 12, **Int** 13, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +6; **CMB** +4; **CMD** 19  ",
-			"**Feats** [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Initiative}  ",
 			"**Skills** Bluff +12, Fly +23, Intimidate +12, Perception +11, Sense Motive +11, Spellcraft +10, Stealth +17  ",
 			"**Languages** Infernal; telepathy 100 ft.  ",
 			"**SQ** broken curses, infernal bond",
@@ -3968,7 +3968,7 @@
 			"",
 			"A curse devil is 4 feet tall and weighs 80 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"phiam": { "copyof": "devil_curse_devil_phiam" },
@@ -4016,7 +4016,7 @@
 			"",
 			"**Str** 20, **Dex** 25, **Con**: 23, **Int** 16, **Wis** 20, **Cha**, 19  ",
 			"**Base Atk** +9; **CMB** +17; **CMD** 33 (can't be tripped)  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Weapon Finesse](feat/weapon_finesse), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Weapon Finesse}, {feat/Wind Stance}  ",
 			"**Skills** Bluff +16, Diplomacy +16, Fly +5, Intimidate +16, Knowledge (nature) +15, Knowledge (planes) +15, Perception +17, Sense Motive +17, Stealth +15, Swim +25  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4038,7 +4038,7 @@
 			"",
 			"Called sarglagons in their Infernal tongue, drowning devils take great pride in being the best-adapted guardians of Hell's waterways, and are among the few fiends who travel the seas and rivers of the multiverse as part of larger infernal plots. Even in the air or on the ground, a drowning devil moves with a haunting litheness as though it were swimming. A typical drowning devil weighs 600 pounds, and can exceed 15 feet from head to tail.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"sarglagon": { "copyof": "devil_drowning_devil_sarglagon" },
@@ -4079,7 +4079,7 @@
 			"",
 			"**Str** 20, **Dex** 23, **Con**: 21, **Int** 14, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +9; **CMB** +14; **CMD** 31  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge)[^B], [Mobility](feat/mobility)[^B], [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Shot on the Run](feat/shot_on_the_run)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}[^B], {feat/Mobility}[^B], {feat/Point-Blank Shot}, {feat/Precise Shot}, {feat/Rapid Shot}, {feat/Shot on the Run}  ",
 			"**Skills** Acrobatics +18, Bluff +17, Diplomacy +14, Escape Artist +12, Fly +19, Intimidate +17, Knowledge (planes) +8, Knowledge (religion) +8, Perception +16, Sense Motive +10, Stealth +15  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4101,7 +4101,7 @@
 			"",
 			"Most erinyes stand just under 6 feet tall and weigh approximately 140 pounds, even with their black-feathered wings that stretch over 10 feet wide.",
 			"",
-			"**Family:** [Devil](family/devil)",
+			"**Family:** {family/Devil}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -4145,7 +4145,7 @@
 			"",
 			"**Str** 25, **Dex** 23, **Con**: 24, **Int** 14, **Wis** 23, **Cha**, 24  ",
 			"**Base Atk** +12; **CMB** +19 (+21 bull rush, sunder); **CMD** 35 (37 vs. bull rush or sunder)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Improved Sunder}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +18, Fly +22, Intimidate +22, Knowledge (planes) +17, Perception +21, Sense Motive +21, Stealth +18, Swim +19  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4163,7 +4163,7 @@
 			"",
 			"Rare but long-existing members of devilkind, munagolas are the result of the single-minded ambition of Eiseth, the Erinyes Queen and Hell's Valkyrie. Shortly after she established her realm in Dis, Eiseth set about creating an army worthy of her rage and might. The result of fleshwarping and infernal tinkering that defies even the archdevils' scrutiny, munagolas combine the aerial strength and craftiness of erinyes with the sheer brute force of barbed devils, bone devils, and even pit fiends. It takes centuries to create one munagola from a progenitor erinyes, but once she's transformed, the devil is even stronger, more furious, and more determined to conquer Hell on Eiseth's behalf than ever before.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"munagola": { "copyof": "devil_executioner_devil_munagola" },
@@ -4208,7 +4208,7 @@
 			"",
 			"**Str** 16, **Dex** 13, **Con**: 17, **Int** 14, **Wis** 10, **Cha**, 19  ",
 			"**Base Atk** +5; **CMB** +8; **CMD** 19  ",
-			"**Feats** [Alertness](feat/alertness), [Deft Hands](feat/deft_hands), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Alertness}, {feat/Deft Hands}, {feat/Iron Will}  ",
 			"**Skills** Appraise +10, Bluff +12, Diplomacy +9, Intimidate +12, Perception +10, Profession (gambler) +8, Sense Motive +10, Sleight of Hand +11  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** change shape (any Small or Medium humanoid; alter self)",
@@ -4239,7 +4239,7 @@
 			"",
 			"Perhaps to avoid this destructive wrath, many gambling devils are overly eager to gain the Ardent Prince's approval. Those that enjoy Mammon's highest favor sometimes serve as the archdevil's bookkeepers. They are particularly useful in roles where the amount owed Erebus, or Hell in general, is in dispute. In addition to their meticulous accounting skills, magadazes' luck and skills ensure that Hell ends up on the winning side of almost any monetary arrangements. This role seems to suit many gambling devils well, as it allows them to manipulate money and debts while staying in Mammon's good graces.",
 			"",
-			"**Family:** [Devil](family/devil)",
+			"**Family:** {family/Devil}",
 			"",
 			"### Habitat",
 			"",
@@ -4295,7 +4295,7 @@
 			"",
 			"**Str** 24, **Dex** 25, **Con**: 25, **Int** 22, **Wis** 21, **Cha**, 20  ",
 			"**Base Atk** +15; **CMB** +22 (+26 grapple); **CMD** 39 (can't be tripped)  ",
-			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Multiattack](feat/multiattack), [Nimble Moves](feat/nimble_moves), [Strike Back](feat/strike_back)  ",
+			"**Feats** {feat/Acrobatic Steps}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Improved Trip}, {feat/Multiattack}, {feat/Nimble Moves}, {feat/Strike Back}  ",
 			"**Skills** Acrobatics +25 (+29 jump), Bluff +23, Diplomacy +23, Disguise +23, Escape Artist +22, Fly +14, Knowledge (arcana) +21, Knowledge (planes) +24, Perception +23, Perform (sing) +23, Sense Motive +23, Spellcraft +21, Stealth +25  ",
 			"**Languages** Celestial, Common, Draconic, Infernal, telepathy 100 ft.  ",
 			"**SQ** agile grappler",
@@ -4318,7 +4318,7 @@
 			"",
 			"As greater devils, gylous can command many lesser devils, yet harbor an exclusive favoritism for erinyes. A gylou weighs 160 pounds and stands stiffly at 5-1/2 feet-though many wear their head-sprouting tentacles in tall, elaborate coiffures.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"gylou": { "copyof": "devil_handmaiden_devil_gylou" },
@@ -4365,7 +4365,7 @@
 			"",
 			"**Str** 24, **Dex** 8, **Con**: 24, **Int** 22, **Wis** 21, **Cha**, 20  ",
 			"**Base Atk** +13; **CMB** +22; **CMD** 41  ",
-			"**Feats** [Diehard](feat/diehard), [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Persuasive](feat/persuasive), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Diehard}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Persuasive}, {feat/Toughness}  ",
 			"**Skills** Bluff +21, Diplomacy +25, Fly +12, Intimidate +25, Knowledge (arcana, planes, religion) +22, Knowledge (history) +19, Perception +21, Perform (oratory) +18, Profession (librarian) +12, Sense Motive +21, Spellcraft +22  ",
 			"**Languages** Abyssal, Celestial, Draconic, Infernal  ",
 			"**SQ** corpulence",
@@ -4390,7 +4390,7 @@
 			"",
 			"Ayngavhauls are roughly ovular in form, about 10 feet tall with their rolls of wet gristle spreading 13 feet wide.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"ayngavhaul": { "copyof": "devil_heresy_devil_ayngavhaul" },
@@ -4432,7 +4432,7 @@
 			"",
 			"**Str** 31, **Dex** 27, **Con**: 28, **Int** 14, **Wis** 22, **Cha**, 23  ",
 			"**Base Atk** +15; **CMB** +26; **CMD** 44  ",
-			"**Feats** [Improved Bull Rush](feat/improved_bull_rush), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (spiked chain)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Bull Rush}, {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Multiattack}, {feat/Power Attack}, {feat/Vital Strike}, [Weapon Focus (spiked chain)](feat/weapon_focus)  ",
 			"**Skills** Bluff +24, Diplomacy +21, Fly +15, Intimidate +24, Knowledge (planes) +20, Perception +24, Sense Motive +21, Spellcraft +20, Stealth +22  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4454,7 +4454,7 @@
 			"",
 			"A typical horned devil rises to a hulking 9 feet tall, bears 14-foot-wide wings, and weighs 700 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"cornugon": { "copyof": "devil_horned_devil_cornugon" },
@@ -4499,7 +4499,7 @@
 			"",
 			"**Str** 18, **Dex** 19, **Con**: 16, **Int** 10, **Wis** 12, **Cha**, 11  ",
 			"**Base Atk** +7; **CMB** +11; **CMD** 26  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Hover](feat/hover), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Hover}, {feat/Mobility}  ",
 			"**Skills** Acrobatics +14 (+10 when jumping), Escape Artist +14, Fly +14, Intimidate +10, Perception +11, Stealth +14  ",
 			"**Languages** Celestial, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** master grappler, shared senses",
@@ -4524,7 +4524,7 @@
 			"",
 			"Magaavs stand 5-1/2 feet tall and weigh 150 pounds, with wingspans reaching 10 feet across. Their fetid breath draws flies that swarm over their bodies.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"host_devil_greater_magaav": { "copyof": "devil_host_devil_greater_magaav" },
@@ -4566,7 +4566,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 14, **Int** 7, **Wis** 9, **Cha**, 8  ",
 			"**Base Atk** +4; **CMB** +4; **CMD** 18  ",
-			"**Feats** [Dodge](feat/dodge), [Hover](feat/hover)  ",
+			"**Feats** {feat/Dodge}, {feat/Hover}  ",
 			"**Skills** Acrobatics +9, Escape Artist +9, Fly +11, Perception +6, Stealth +13  ",
 			"**Languages** Infernal; telepathy 100 ft.  ",
 			"**SQ** superior grappler, shared senses, swarming",
@@ -4595,7 +4595,7 @@
 			"",
 			"Gaavs stand 4 feet tall and weigh approximately 110 pounds, their wingspans stretching to just over 6 feet wide. Magaavs stand 5-1/2 feet tall and weigh 150 pounds, with wingspans reaching 10 feet across.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"host_devil_lesser_gaav": { "copyof": "devil_host_devil_lesser_gaav" },
@@ -4637,7 +4637,7 @@
 			"",
 			"**Str** 23, **Dex** 21, **Con**: 22, **Int** 25, **Wis** 22, **Cha**, 20  ",
 			"**Base Atk** +14; **CMB** +21; **CMD** 36  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (spear)](feat/weapon_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Cleave}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, [Weapon Focus (spear)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +22, Bluff +22, Diplomacy +22, Fly +13, Intimidate +19, Knowledge (planes) +24, Knowledge (any three others) +21, Perception +27, Sense Motive +27, Spellcraft +21, Stealth +18, Survival +23  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4659,7 +4659,7 @@
 			"",
 			"Gelugons stand at 12 feet tall, and weigh approximately 700 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"gelugon": { "copyof": "devil_ice_devil_gelugon" },
@@ -4705,7 +4705,7 @@
 			"",
 			"**Str** 34, **Dex** 26, **Con**: 35, **Int** 24, **Wis** 23, **Cha**, 24  ",
 			"**Base Atk** +18; **CMB** +31; **CMD** 49  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Blinding Critical](feat/blinding_critical), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Stand Still](feat/stand_still)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Blinding Critical}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Iron Will}, {feat/Multiattack}, {feat/Power Attack}, {feat/Stand Still}  ",
 			"**Skills** Bluff +28, Diplomacy +28, Disable Device +26, Fly +31, Intimidate +28, Knowledge (arcana, nobility) +25, Knowledge (engineering, planes) +28, Perception +27, Sense Motive +27, Spellcraft +28, Stealth +25  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -4725,7 +4725,7 @@
 			"",
 			"Immolation devils stand just over 10 feet tall, with wingspans nearing 20 feet, and weigh 900 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"puragaus": { "copyof": "devil_immolation_devil_puragaus" },
@@ -4767,7 +4767,7 @@
 			"",
 			"**Str** 10, **Dex** 17, **Con**: 10, **Int** 13, **Wis** 12, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +1; **CMD** 15  ",
-			"**Feats** [Dodge](feat/dodge), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Dodge}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +9, Bluff +8, Fly +21, Knowledge (arcana) +7, Knowledge (planes) +7, Perception +7, Spellcraft +7  ",
 			"**Languages** Common, Infernal  ",
 			"**SQ** change shape (boar, giant spider, rat, or raven, beast shape I)",
@@ -4792,7 +4792,7 @@
 			"",
 			"Unlike most devils, imps often find themselves free and alone on the Material Plane, particularly after they've been summoned to serve as familiars and their masters have perished (often indirectly due to the machinations of the imp itself). With no way to return home, these imps, freed of their bonds to arcane masters, can become dangerous pests or even leaders of small tribes of savage humanoids like goblins or kobolds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"imp": { "copyof": "devil_imp" },
@@ -4840,7 +4840,7 @@
 			"",
 			"Although among the most loathsome creatures in existence, lemures serve a vital role in Hell's perverse ecology. When at the end of a mortal life a creature's soul is damned-whether because it revered diabolical forces or failed in the worship of another deity-it joins the masses of suffering souls filling the plains of Avernus, Hell's first layer. Here a soul's torments begin as lesser devils marshal it along with similar spirits in preparation for a long, perilous journey to one of Hell's deeper layers-typically one suited to the punishments appropriate to the soul's crimes, or merely the domain of a devil who has need for slaves. Upon reaching the realm of their damnation, souls face untold lifetimes of torment at the hands of devils, other fiendish beings, and the deadly machinations of Hell itself. As the formerly mortal essences slowly go mad, they forget their lives, grow bestial, and eventually become little more than automatons of fear and hatred. After ages of such existence, the cruel processes of Hell either utterly annihilate the soul or-in the cases of the most profane spirits-reconsecrate such forsaken beings into lemures, the building blocks of devils, unthinking waves of filth and diabolical flesh. Such repulsive beings assemble in vast mobs, waves of putrescence thousands upon thousands strong. Greater devils can spot the most corrupt of these fiends and, either through mysterious tortures or the powers of Hell itself, reshape them into true devils, newly born and ready to obediently serve in the legions of the damned.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"lemure": { "copyof": "devil_lemure" },
@@ -4885,7 +4885,7 @@
 			"",
 			"**Str** 18, **Dex** 18, **Con**: 18, **Int** 17, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 24  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Power Attack}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Bluff +12, Diplomacy +12, Knowledge (religion) +11, Knowledge (planes) +16, Knowledge (all others) +8, Perception +11, Sense Motive +11, Spellcraft +12, Stealth +13, Use Magic Device +9; **Racial Modifiers** +4 Knowledge  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** easily forgotten",
@@ -4910,7 +4910,7 @@
 			"",
 			"A mnemor devil stands approximately 6 feet tall and weighs 170 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"mnemor": { "copyof": "devil_mnemor" },
@@ -4954,7 +4954,7 @@
 			"",
 			"**Str** 34, **Dex** 25, **Con**: 30, **Int** 23, **Wis** 25, **Cha**, 24  ",
 			"**Base Atk** +18; **CMB** +32 (+36 bull rush); **CMD** 49 (51 vs. bull rush, 53 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Flyby Attack](feat/flyby_attack), [Greater Bull Rush](feat/greater_bull_rush), [Hover](feat/hover), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Flyby Attack}, {feat/Greater Bull Rush}, {feat/Hover}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Multiattack}, {feat/Power Attack}, {feat/Toughness}  ",
 			"**Skills** Acrobatics +25 (+29 when jumping), Bluff +28, Diplomacy +28, Fly +24, Intimidate +28, Knowledge (arcana, planes, religion) +27, Perception +28, Sense Motive +28, Spellcraft +24, Stealth +20; Racial Modifier +4 Acrobatics when jumping  ",
 			"**Languages** Abyssal, Aklo, Celestial, Common, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** devil mark, false divinity (Trickery)",
@@ -4994,7 +4994,7 @@
 			"",
 			"Most advodazas stand about 18 feet tall and weigh approximately 9 tons.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"nemesis_devil": { "copyof": "devil_nemesis_devil_advodaza" },
@@ -5045,7 +5045,7 @@
 			"",
 			"These mindless drones rank even lower than lemures and serve as little more than mindless sword fodder for their betters. The devils are almost like constructs in their mindlessness, and cannot be communicated with-they raise their spears and attack any non-devil on sight.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"nupperibo": { "copyof": "devil_nupperibo" },
@@ -5088,7 +5088,7 @@
 			"",
 			"**Str** 37, **Dex** 29, **Con**: 35, **Int** 26, **Wis** 30, **Cha**, 26  ",
 			"**Base Atk** +20; **CMB** +34 (+38 grapple); **CMD** 53  ",
-			"**Feats** [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (fireball)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Cleave}, {feat/Great Cleave}, {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-Like Ability (fireball)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Appraise +17, Bluff +31, Diplomacy +31, Disguise +27, Fly +30, Intimidate +31, Knowledge (arcana) +28, Knowledge (planes) +31, Knowledge (religion) +31, Perception +33, Sense Motive +33, Spellcraft +31, Stealth +28, Survival +22, Use Magic Device +28  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -5124,7 +5124,7 @@
 			"",
 			"Hellfire Breath (Su): The pit fiend gains a devastating breath weapon that it can use once every 1d4 rounds. This breath weapon is a 60-foot cone of fire (10d10 fire damage and 10d10 unholy damage as per flame strike, successful Reflex save [DC 10 + 1/2 the pit fiend's racial HD + the pit fiend's Constitution modifier] half).",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"pit_fiend": { "copyof": "devil_pit_fiend" },
@@ -5166,7 +5166,7 @@
 			"",
 			"**Str** -, **Dex** 26, **Con**: 24, **Int** 17, **Wis** 20, **Cha**, 20  ",
 			"**Base Atk** +15; **CMB** +23; **CMD** 39  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Stand Still](feat/stand_still)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Stand Still}  ",
 			"**Skills** Acrobatics +26, Bluff +23, Diplomacy +23, Disable Device +26, Fly +16, Intimidate +23, Knowledge (planes) +21, Perception +27, Sense Motive +27, Stealth +26  ",
 			"**Languages** Aklo, Common, Infernal  ",
 			"**SQ** nourished by negativity, otherworldly",
@@ -5199,7 +5199,7 @@
 			"",
 			"Two breeds of gidim exist, lesser possession devils and greater. Both appear nearly identical, but greater possession devils are created from spirits of extraordinary, near-legendary evil beings. These foulest of souls are granted even more powerful diabolical abilities and are often loosed by their infernal masters to torment, unhinge, and ultimately destroy the mortal enemies of Hell. Lesser possession devils are typically left to their own devices, using their abilities to sow fear, torment innocents, spread mistrust, and ruin lives.",
 			"",
-			"**Family:** [Devil](family/devil)",
+			"**Family:** {family/Devil}",
 			"",
 			"[^D]: causes dread (see special abilities)"
 		]
@@ -5247,7 +5247,7 @@
 			"",
 			"**Str** -, **Dex** 16, **Con**: 16, **Int** 15, **Wis** 17, **Cha**, 17  ",
 			"**Base Atk** +7; **CMB** +10; **CMD** 24  ",
-			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Alertness}, {feat/Dodge}, {feat/Iron Will}, {feat/Lightning Reflexes}  ",
 			"**Skills** Acrobatics +13, Bluff +13, Disable Device +13, Fly +11, Intimidate +13, Knowledge (planes) +12, Perception +15, Sense Motive +15, Stealth +13  ",
 			"**Languages** Aklo, Common, Infernal  ",
 			"**SQ** nourished by negativity, otherworldly",
@@ -5280,7 +5280,7 @@
 			"",
 			"Two breeds of gidim exist, lesser possession devils and greater. Both appear nearly identical, but greater possession devils are created from spirits of extraordinary, near-legendary evil beings. These foulest of souls are granted even more powerful diabolical abilities and are often loosed by their infernal masters to torment, unhinge, and ultimately destroy the mortal enemies of Hell. Lesser possession devils are typically left to their own devices, using their abilities to sow fear, torment innocents, spread mistrust, and ruin lives.",
 			"",
-			"**Family:** [Devil](family/devil)",
+			"**Family:** {family/Devil}",
 			"",
 			"[^D]: causes dread (see special abilities)"
 		]
@@ -5329,7 +5329,7 @@
 			"",
 			"**Str** 23, **Dex** 20, **Con**: 24, **Int** 18, **Wis** 19, **Cha**, 21  ",
 			"**Base Atk** +13; **CMB** +19 (+23 sunder); **CMD** 34 (36 vs. sunder)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Greater Sunder](feat/greater_sunder), [Improved Critical (wing)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Infernal Legist](feat/infernal_legist), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Greater Sunder}, [Improved Critical (wing)](feat/improved_critical), {feat/Improved Sunder}, {feat/Infernal Legist}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Bluff +21, Disable Device +21, Fly +25, Intimidate +21, Knowledge (engineering) +20, Knowledge (history) +17, Knowledge (planes) +20, Perception +20, Profession (architect) +20, Sense Motive +20  ",
 			"**Languages** Celestial, Draconic, Infernal, Terran; telepathy 100 ft.  ",
 			"**SQ** slashing wings",
@@ -5350,7 +5350,7 @@
 			"",
 			"**Metallic (Ex)** A rust devil's iron flesh makes it susceptible to rust attacks, such as those by a rust monster or a rusting grasp spell.",
 			"",
-			"**Slashing Wings (Ex)** A rust devil's wing attacks are primary attacks (except when it wields a manufactured weapon), and threaten a critical hit on a 19-20; most rust devils enhance this range to 17-20 with the [Improved Critical](feat/improved_critical) feat.",
+			"**Slashing Wings (Ex)** A rust devil's wing attacks are primary attacks (except when it wields a manufactured weapon), and threaten a critical hit on a 19-20; most rust devils enhance this range to 17-20 with the {feat/Improved Critical} feat.",
 			"",
 			"**Vainglorious Whispers (Su)** As a swift action, a rust devil can plant seeds of delusional pride in an adjacent target's mind by whispering to it. The target can resist the influence of these whispers with a successful DC 21 Will saving throw. On a failed save, the victim becomes overly confident in its abilities while in fact becoming less accomplished overall. The victim gains a +4 morale bonus on saving throws against fear effects but takes a -4 penalty on all attack rolls, weapon damage rolls, caster level checks, and skill checks. The victim cannot use the withdraw action, fight defensively, cast spells defensively, take the total defense action, or use healing magic or effects on itself. It can still accept healing from other sources, but must attempt saving throws to resist the effect if allowed. This is a mind-affecting, sonic, language-dependent effect, and the save DC is Charisma-based.",
 			"",
@@ -5358,11 +5358,11 @@
 			"",
 			"A rust devil lives to sow the seeds of complacency, pride, and callous cynicism in the hearts of mortals. Also known as ferrugons, rust devils rarely attack first except when rising to defend buildings or other objects they have taken it upon themselves to protect. Rather than resorting to bloodshed, a rust devil instead seeks to bolster a mortal's pride and to convince him to undertake works of art, construction, or craft that are likely well beyond the mortal's skill. Nothing pleases a rust devil more than to see a mortal attempt something grand, fail spectacularly, and fall into a morass of depression, self-loathing, and jealousy for the rest of his life.",
 			"",
-			"In combat, a rust devil uses walls of iron to shape the battlefield to its advantage, and prefers to remain adjacent to foes so it can make full attacks on them and whisper in their ears. Against foes who wield weapons, rust devils almost always use [Greater Sunder](feat/greater_sunder) to damage weapons and foes alike. If faced with foes of particularly striking appearances (often those with a Charisma score of 15 or higher), a rust devil is likely to use its flesh to iron spell-like ability, then cast shrink item on the resulting statue to keep it as a decoration for its lair.",
+			"In combat, a rust devil uses walls of iron to shape the battlefield to its advantage, and prefers to remain adjacent to foes so it can make full attacks on them and whisper in their ears. Against foes who wield weapons, rust devils almost always use {feat/Greater Sunder} to damage weapons and foes alike. If faced with foes of particularly striking appearances (often those with a Charisma score of 15 or higher), a rust devil is likely to use its flesh to iron spell-like ability, then cast shrink item on the resulting statue to keep it as a decoration for its lair.",
 			"",
 			"A rust devil stands only 5 feet tall but weighs 900 pounds, because of its supernaturally dense metallic flesh.",
 			"",
-			"**Family:** [Devil](family/devil)",
+			"**Family:** {family/Devil}",
 			"",
 			"### Ecology",
 			"",
@@ -5374,7 +5374,7 @@
 			"",
 			"### Bloodbond Insights",
 			"",
-			"Rust devils are particularly fond of forging [infernal contracts](rule/infernal_contracts) that encourage mortals to attempt hubristic and difficult feats of art or architecture. For every mortal who accepts such a contract and crafts a masterpiece, dozens fail to achieve success and spiral into self-loathing and jealousy, priming their immortal souls for damnation in hellfire.",
+			"Rust devils are particularly fond of forging {rule/infernal contracts} that encourage mortals to attempt hubristic and difficult feats of art or architecture. For every mortal who accepts such a contract and crafts a masterpiece, dozens fail to achieve success and spiral into self-loathing and jealousy, priming their immortal souls for damnation in hellfire.",
 			"",
 			"### Bloodbond Insight - CR 12",
 			"",
@@ -5425,7 +5425,7 @@
 			"",
 			"**Str** 18, **Dex** 22, **Con**: 17, **Int** 15, **Wis** 19, **Cha**, 18  ",
 			"**Base Atk** +9; **CMB** +13; **CMD** 30  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Critical (dagger)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Dodge}, [Improved Critical (dagger)](feat/improved_critical), {feat/Improved Initiative}, {feat/Mobility}, {feat/Wind Stance}  ",
 			"**Skills** Acrobatics +15, Disable Device +18, Disguise +16, Escape Artist +18, Knowledge (local) +11, Sense Motive +16, Sleight of Hand +18, Stealth +18  ",
 			"**Languages** Celestial, Common, Infernal; telepathy 100 ft.  ",
 			"**Gear** +1 dagger",
@@ -5462,7 +5462,7 @@
 			"",
 			"Once a salikotal has agreed to perform a murder for its summoner, it explains the signature vengeances its kind can inflict upon a victim and offers to exact one upon its summoner's victim for an associated price. The devil requests 1,000 gp for every Hit Die its target possesses (intrinsically gauging its victim's prowess), to be paid entirely in one of three types of gemstones: ruby for fideicide, onyx for necrocide, and jacyinth for omnicide. Salikotals prove exceedingly particular in these payments, and if a summoner cannot pay the price in the type of gem requested, the devil refuses to exact one of its vengeances. If the summoner tries to force a salikotal to use one of its vengeances, the devil takes offense and all of the summoner's Charisma-related interactions with it in the future take a -2 penalty.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"salikotal": { "copyof": "devil_salikotal" },
@@ -5506,7 +5506,7 @@
 			"",
 			"**Str** 24, **Dex** 20, **Con**: 21, **Int** 14, **Wis** 15, **Cha**, 19  ",
 			"**Base Atk** +8; **CMB** +15; **CMD** 30  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Improved Critical (claw)](feat/improved_critical), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, [Improved Critical (claw)](feat/improved_critical), {feat/Power Attack}  ",
 			"**Skills** Bluff +15, Diplomacy +11, Disguise +11, Intimidate +15, Knowledge (local) +10, Knowledge (nobility) +13, Knowledge (planes) +13, Perception +13, Sense Motive +13  ",
 			"**Languages** Celestial, Common, Infernal; telepathy 100 ft.  ",
 			"**SQ** change shape (Small or Medium humanoid, alter self), taint bloodline",
@@ -5529,7 +5529,7 @@
 			"",
 			"A typical sire devil is 7 feet tall and weighs 250 pounds.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"patraavex": { "copyof": "devil_sire_devil_patraavex" },
@@ -5570,7 +5570,7 @@
 			"",
 			"**Str** 9, **Dex** 19, **Con**: 13, **Int** 13, **Wis** 16, **Cha**, 13  ",
 			"**Base Atk** +5; **CMB** +3; **CMD** 17  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Throw Anything}  ",
 			"**Skills** Acrobatics +12, Appraise +9, Bluff +9, Climb +7, Craft (any) +9, Knowledge (arcana) +9, Stealth +16  ",
 			"**Languages** Celestial, Common, Infernal; telepathy 100 ft.  ",
 			"**SQ** fire leap",
@@ -5607,7 +5607,7 @@
 			"",
 			"In addition, ukobachs who know and favor their summoner sometimes bring gifts with them from Hell. While on the surface such boons might seem like blessings, they are always carefully selected by an ukobach and meant to encourage a summoner toward a destructive end. Commonly, such infernal gifts take the form of fireworks and explosives-especially in lands where such creations are uncommon-inscrutable blueprints or formulas for fiendish devices or magic items, or powerfully volatile alchemical reagents.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"ukobach": { "copyof": "devil_tinder_devil_ukobach" },
@@ -5646,14 +5646,14 @@
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** merciless blow, Trample (1d8+7, DC 19)  ",
 			"**Spell-Like Abilities** (CL 12th; concentration +14)  ",
-			"*At will*-[greater teleport](spell/greater_teleport) (self plus 50 lbs. of objects only)  ",
-			"*1/day*-summon (level 4, 1d4 [lemure](monster/lemure) or 1 [bearded devil](monster/bearded_devil) 40%)",
+			"*At will*-{spell/greater teleport} (self plus 50 lbs. of objects only)  ",
+			"*1/day*-summon (level 4, 1d4 {monster/lemure} or 1 {monster/bearded devil} 40%)",
 			"",
 			"#### Statistics",
 			"",
 			"**Str** 20, **Dex** 17, **Con**: 19, **Int** 14, **Wis** 16, **Cha**, 15  ",
 			"**Base Atk** +8; **CMB** +14; **CMD** 27 (31 vs. bull rush and trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Toughness}  ",
 			"**Skills** Acrobatics +14, Bluff +13, Climb +17, Craft (weapons) +9, Intimidate +13, Knowledge (dungeoneering, engineering) +9, Knowledge (planes) +13, Perception +16, Stealth +12 (+18 among metal objects or debris); **Racial Modifiers** +2 Perception, +2 Stealth (+8 Stealth among metal objects or debris)  ",
 			"**Languages** Celestial, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** hellstrider, phalanx, stability",
@@ -5668,7 +5668,7 @@
 			"",
 			"**Construct Form (Su)** Despite being true devils, levalochs possess a number of immunities common to constructs, including immunity to ability damage, ability drain, death effects, death from massive damage, disease, energy drain, exhaustion, fatigue, necromancy effects, nonlethal damage, paralysis, sleep effects, and stunning. Upon being reduced to 0 hit points, they are immediately destroyed.",
 			"",
-			"**Hellstrider (Su)** A levaloch is not impeded by difficult terrain, and can move or [Charge Through](feat/charge_through) such squares as normal. It can also cross areas covered with dangerous impediments (such as caltrops or thorns) without being damaged or hindered. The creature's legs are immune to acid and cold, allowing it to cross even rivers of acid without being damaged or hindered as long as the hazard is fewer than 4 feet deep. This ability does not protect a levaloch against magical hindrances like black tentacles, web, or similar spells.",
+			"**Hellstrider (Su)** A levaloch is not impeded by difficult terrain, and can move or {feat/Charge Through} such squares as normal. It can also cross areas covered with dangerous impediments (such as caltrops or thorns) without being damaged or hindered. The creature's legs are immune to acid and cold, allowing it to cross even rivers of acid without being damaged or hindered as long as the hazard is fewer than 4 feet deep. This ability does not protect a levaloch against magical hindrances like black tentacles, web, or similar spells.",
 			"",
 			"**Merciless Blow (Su)** Any trident attack a levaloch makes against entangled creatures deals an Extra 2d6 points of damage.",
 			"",
@@ -5680,7 +5680,7 @@
 			"",
 			"Fearsome giants of steel and blades, levalochs serve the armies of Hell as potent warriors and tenacious hunters. They stand just over 10 feet tall and weigh 1 ton.",
 			"",
-			"**Family:** [Devil](family/devil)"
+			"**Family:** {family/Devil}"
 		]
 	},
 	"levaloch": { "copyof": "devil_warmonger_devil_levaloch" },
@@ -5721,7 +5721,7 @@
 			"",
 			"**Str** 17, **Dex** 17, **Con**: 16, **Int** 3, **Wis** 12, **Cha**, 8  ",
 			"**Base Atk** +5; **CMB** +9 (+13 grapple); **CMD** 22 (can't be tripped)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Power Attack}  ",
 			"**Skills** Escape Artist +5, Perception +5, Stealth +3, Swim +15  ",
 			"**Languages** Abyssal, Aquan, Common  ",
 			"**SQ** water dependency",
@@ -5789,7 +5789,7 @@
 			"",
 			"**Str** 28, **Dex** 16, **Con**: -, **Int** 19, **Wis** 16, **Cha**, 21  ",
 			"**Base Atk** +10; **CMB** +20; **CMD** 33  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Cleave}, {feat/Combat Casting}, {feat/Combat Expertise}, {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Power Attack}  ",
 			"**Skills** Bluff +19, Diplomacy +14, Fly +19, Intimidate +19, Knowledge (arcana) +21, Knowledge (planes) +18, Perception +20, Sense Motive +17, Spellcraft +21, Stealth +6  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 100 ft.",
 			"",
@@ -5813,13 +5813,13 @@
 			"",
 			"**Source** [Undead Revisited pg. 13](source/undead_revisited) When a devourer manifests, it undergoes a dramatic transformation-one more invasive and overwhelming than those most undead transformations involve. The devourer's body and mind are reshaped and reformed by the alien influences that created it, and what remains of the source is often so fragmentary so as to constitute little more than a characteristic turn of phrase or a dreamlike memory of a life spent elsewhere.",
 			"",
-			"Sometimes, however, a devourer retains a bit more of its previous personality-when this occurs, the remnants often take the form of unusual spell-like abilities. This might be a single ability-a trade of [contagion](spell/contagion) for [bestow curse](spell/bestow_curse), for example-but if the original creature was a powerful devil, daemon, or demon, these variant spell-like abilities can be quite different.",
+			"Sometimes, however, a devourer retains a bit more of its previous personality-when this occurs, the remnants often take the form of unusual spell-like abilities. This might be a single ability-a trade of {spell/contagion} for {spell/bestow curse}, for example-but if the original creature was a powerful devil, daemon, or demon, these variant spell-like abilities can be quite different.",
 			"",
-			"**Former Devils:** A devourer formed from a powerful devil sometimes has a suite of spell-like abilities that focuses more on the deception and control of living creatures. These devourers are always lawful evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [alter self](spell/alter_self), [beast shape I](spell/beast_shape_1), [charm monster](spell/charm_monster), [charm person](spell/charm_person), [detect thoughts](spell/detect_thoughts), [invisibility](spell/invisibility), [lesser geas](spell/lesser_geas), [lesser planar ally](spell/lesser_planar_ally), [mass suggestion](spell/mass_suggestion), [scrying](spell/scrying), [secret page](spell/secret_page), [suggestion](spell/suggestion), and [summon monster VII](spell/summon_monster_7).",
+			"**Former Devils:** A devourer formed from a powerful devil sometimes has a suite of spell-like abilities that focuses more on the deception and control of living creatures. These devourers are always lawful evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: {spell/alter self}, {spell/beast shape I}, {spell/charm monster}, {spell/charm person}, {spell/detect thoughts}, {spell/invisibility}, {spell/lesser geas}, {spell/lesser planar ally}, {spell/mass suggestion}, {spell/scrying}, {spell/secret page}, {spell/suggestion}, and [summon monster VII](spell/summon_monster_7).",
 			"",
-			"**Former Daemons:** A devourer formed from a powerful daemon sometimes has a suite of spell-like abilities that focuses more on the destruction of living creatures and spreading fear and horror. These devourers are always neutral evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [animate dead](spell/animate_dead), [contagion](spell/contagion), [crushing despair](spell/crushing_despair), [death knell](spell/death_knell), [desecrate](spell/desecrate), [destruction](spell/destruction), [doom](spell/doom), [fear](spell/fear), [harm](spell/harm), [inflict serious wounds](spell/inflict_serious_wounds), [phantasmal killer](spell/phantasmal_killer), [spectral hand](spell/spectral_hand), and [vampiric touch](spell/vampiric_touch).",
+			"**Former Daemons:** A devourer formed from a powerful daemon sometimes has a suite of spell-like abilities that focuses more on the destruction of living creatures and spreading fear and horror. These devourers are always neutral evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: {spell/animate dead}, {spell/contagion}, {spell/crushing despair}, {spell/death knell}, {spell/desecrate}, {spell/destruction}, {spell/doom}, {spell/fear}, {spell/harm}, {spell/inflict serious wounds}, {spell/phantasmal killer}, {spell/spectral hand}, and {spell/vampiric touch}.",
 			"",
-			"**Former Demons:** A devourer formed from a powerful demon sometimes has a suite of spell-like abilities that focuses more on destruction and devastation. These devourers are always chaotic evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [acid arrow](spell/acid_arrow), [black tentacles](spell/black_tentacles), [chaos hammer](spell/chaos_hammer), [disintegrate](spell/disintegrate), [earthquake](spell/earthquake), [fireball](spell/fireball), [ice storm](spell/ice_storm), [lightning bolt](spell/lightning_bolt), [magic missile](spell/magic_missile), [phantasmal killer](spell/phantasmal_killer), [scorching ray](spell/scorching_ray), [shatter](spell/shatter), and [vampiric touch](spell/vampiric_touch)."
+			"**Former Demons:** A devourer formed from a powerful demon sometimes has a suite of spell-like abilities that focuses more on destruction and devastation. These devourers are always chaotic evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: {spell/acid arrow}, {spell/black tentacles}, {spell/chaos hammer}, {spell/disintegrate}, {spell/earthquake}, {spell/fireball}, {spell/ice storm}, {spell/lightning bolt}, {spell/magic missile}, {spell/phantasmal killer}, {spell/scorching ray}, {spell/shatter}, and {spell/vampiric touch}."
 		]
 	},
 	"dhampir": {
@@ -5856,7 +5856,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 10, **Int** 10, **Wis** 8, **Cha**, 16  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 15  ",
-			"**Feats** [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Toughness}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +5, Intimidate +7, Perception +1, Ride +5, Survival +3; **Racial Modifiers** +2 Bluff, +2 Perception  ",
 			"**Languages** Common",
 			"",
@@ -5919,7 +5919,7 @@
 			"",
 			"**Str** 18, **Dex** 20, **Con**: 15, **Int** 2, **Wis** 13, **Cha**, 7  ",
 			"**Base Atk** +3; **CMB** +7; **CMD** 22 (26 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Improved Initiative}, [Skill Focus (Stealth)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +9, Climb +12, Perception +5, Stealth +14",
 			"",
 			"#### Ecology",
@@ -5982,7 +5982,7 @@
 			"",
 			"**Str** 21, **Dex** 16, **Con**: 20, **Int** 7, **Wis** 14, **Cha**, 13  ",
 			"**Base Atk** +9; **CMB** +14 (+18 grapple); **CMD** 27  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Lunge}, {feat/Vital Strike}  ",
 			"**Skills** Knowledge (planes) +18, Perception +14, Sense Motive +14, Stealth +15; **Racial Modifiers** +8 Knowledge (planes)  ",
 			"**Languages** Aklo",
 			"",
@@ -6044,7 +6044,7 @@
 			"",
 			"**Str** 26, **Dex** 13, **Con**: 19, **Int** 2, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +8; **CMB** +18; **CMD** 29  ",
-			"**Feats** [Alertness](feat/alertness), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Nimble Moves](feat/nimble_moves), [Run](feat/run)  ",
+			"**Feats** {feat/Alertness}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Nimble Moves}, {feat/Run}  ",
 			"**Skills** Perception +28; **Racial Modifiers** +8 Perception",
 			"",
 			"#### Ecology",
@@ -6057,7 +6057,7 @@
 			"",
 			"A huge, swift hunter, the allosaurus measures 30 feet in length and weighs 10,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"allosaurus": { "copyof": "dinosaur_allosaurus" },
@@ -6096,7 +6096,7 @@
 			"",
 			"**Str** 27, **Dex** 14, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +16; **CMD** 28 (32 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (tail slap)](feat/weapon_focus)  ",
+			"**Feats** {feat/Endurance}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, [Weapon Focus (tail slap)](feat/weapon_focus)  ",
 			"**Skills** Perception +8, Stealth +2 (+10 in vegetation); **Racial Modifiers** +8 Stealth in vegetation",
 			"",
 			"#### Ecology",
@@ -6109,7 +6109,7 @@
 			"",
 			"The amargasaurus is a relatively small sauropod noted for the two rows of skin-covered spines that adorn its neck.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"amargasaurus": { "copyof": "dinosaur_amargasaurus" },
@@ -6144,7 +6144,7 @@
 			"",
 			"**Str** 27, **Dex** 10, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 8  ",
 			"**Base Atk** +7; **CMB** +17; **CMD** 27 (31 vs. trip)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), [Weapon Focus (tail)](feat/weapon_focus)  ",
+			"**Feats** {feat/Great Fortitude}, {feat/Improved Bull Rush}, {feat/Improved Overrun}, {feat/Power Attack}, [Weapon Focus (tail)](feat/weapon_focus)  ",
 			"**Skills** Perception +14",
 			"",
 			"#### Ecology",
@@ -6161,7 +6161,7 @@
 			"",
 			"The ankylosaurus is a powerful, squat dinosaur more than capable of defending itself against enemies. Its back is heavily armored with thick bony plates and spikes. A solid blow from an ankylosaurus's tail can leave most creatures stunned long enough for the armored dinosaur to make good an escape, although once confronted, most ankylosauruses are too ill-tempered and stubborn to flee. Instead, they stand their ground and use their tails to great effect in battle. An ankylosaurus is 30 feet long and weighs 6,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"ankylosaurus": { "copyof": "dinosaur_ankylosaurus" },
@@ -6197,7 +6197,7 @@
 			"",
 			"**Str** 37, **Dex** 10, **Con**: 21, **Int** 2, **Wis** 13, **Cha**, 10  ",
 			"**Base Atk** +13; **CMB** +30; **CMD** 40 (44 vs. trip)  ",
-			"**Feats** [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Great Fortitude](feat/great_fortitude), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (tail)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Great Cleave}, {feat/Great Fortitude}, {feat/Greater Overrun}, {feat/Improved Bull Rush}, {feat/Iron Will}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (tail)](feat/weapon_focus)  ",
 			"**Skills** Perception +28",
 			"",
 			"#### Ecology",
@@ -6210,7 +6210,7 @@
 			"",
 			"A brachiosaurus is 80 feet long and weighs 32 tons.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"brachiosaurus": { "copyof": "dinosaur_brachiosaurus" },
@@ -6250,7 +6250,7 @@
 			"",
 			"**Str** 24, **Dex** 15, **Con**: 15, **Int** 2, **Wis** 11, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +14; **CMD** 26  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Run](feat/run), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Iron Will}, {feat/Run}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Perception +7, Stealth +12; **Racial Modifiers** +4 Stealth",
 			"",
 			"#### Ecology",
@@ -6263,7 +6263,7 @@
 			"",
 			"Although a ceratosaurus's horn is mainly for courtship displays, its jaws are extremely deadly. A ceratosaurus stands 10 feet high and can grow up to 18 feet long and 1,600 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"ceratosaurus": { "copyof": "dinosaur_ceratosaurus" },
@@ -6301,7 +6301,7 @@
 			"",
 			"**Str** 8, **Dex** 15, **Con**: 14, **Int** 2, **Wis** 11, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 9  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Perception +4, Swim +10",
 			"",
 			"#### Ecology",
@@ -6320,7 +6320,7 @@
 			"",
 			"These dinosaurs can serve spellcasters as a familiar. A compsognathus familiar grants its master a +4 bonus on Initiative checks.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"compsognathus": { "copyof": "dinosaur_compsognathus" },
@@ -6355,7 +6355,7 @@
 			"",
 			"**Str** 15, **Dex** 15, **Con**: 19, **Int** 2, **Wis** 12, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 17  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Run](feat/run)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Run}  ",
 			"**Skills** Acrobatics +10 (+22 jump), Perception +14, Stealth +15; **Racial Modifiers** +8 Acrobatics, +8 Perception, +8 Stealth",
 			"",
 			"#### Ecology",
@@ -6370,7 +6370,7 @@
 			"",
 			"You can apply the young simple template to create statistics for smaller, more agile velociraptors. Conversely, you can either increase the deinonychus to Large size and its Hit Dice to 8 or simply apply the giant and advanced simple templates to create a formidable megaraptor.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"deinonychus": { "copyof": "dinosaur_deinonychus" },
@@ -6409,7 +6409,7 @@
 			"",
 			"**Str** 20, **Dex** 15, **Con**: 18, **Int** 1, **Wis** 12, **Cha**, 3  ",
 			"**Base Atk** +3; **CMB** +9; **CMD** 21 (25 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +6, Stealth +3",
 			"",
 			"#### Ecology",
@@ -6428,7 +6428,7 @@
 			"",
 			"A fully grown adult dimetrodon can reach a length of up to 15 feet and weigh upward of 2,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"dimetrodon": { "copyof": "dinosaur_dimetrodon" },
@@ -6467,7 +6467,7 @@
 			"",
 			"**Str** 15, **Dex** 17, **Con**: 12, **Int** 2, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +1; **CMB** +3; **CMD** 16  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack)  ",
+			"**Feats** {feat/Flyby Attack}  ",
 			"**Skills** Fly +7, Perception +5",
 			"",
 			"#### Ecology",
@@ -6488,7 +6488,7 @@
 			"",
 			"A dimorphodon's wingspan is between 4 and 5 feet long.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"dimorphodon": { "copyof": "dinosaur_dimorphodon" },
@@ -6527,7 +6527,7 @@
 			"",
 			"**Str** 40, **Dex** 14, **Con**: 21, **Int** 2, **Wis** 17, **Cha**, 11  ",
 			"**Base Atk** +15; **CMB** +38 (+40 bull rush); **CMD** 50 (52 vs. bull rush, 54 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (tail lash)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Improved Bull Rush}, [Improved Critical (tail lash)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), {feat/Staggering Critical}  ",
 			"**Skills** Perception +32",
 			"",
 			"#### Ecology",
@@ -6544,7 +6544,7 @@
 			"",
 			"The diplodocus is one of the longest dinosaurs, capable of reaching lengths of 100 feet or more. Much of this length is taken up by the diplodocus's tremendously powerful whiplike tail, a devastating weapon capable of striking at a considerable range.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"diplodocus": { "copyof": "dinosaur_diplodocus" },
@@ -6579,7 +6579,7 @@
 			"",
 			"**Str** 26, **Dex** 15, **Con**: 20, **Int** 2, **Wis** 13, **Cha**, 9  ",
 			"**Base Atk** +7; **CMB** +17; **CMD** 30 (34 vs. trip)  ",
-			"**Feats** [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Dodge}, {feat/Great Fortitude}, {feat/Iron Will}, {feat/Mobility}, {feat/Toughness}  ",
 			"**Skills** Perception +14, Swim +16",
 			"",
 			"#### Ecology",
@@ -6592,7 +6592,7 @@
 			"",
 			"The sleek elasmosaurus is a long-necked, aquatic reptile. Although not technically a dinosaur, they and their kind are often found hunting in oceans and lakes in areas where dinosaurs are more common. You can create statistics for smaller, similar aquatic reptiles (such as the pleisosaurus) by applying the young simple template to the statistics presented above. An elasmosaurus is 45 feet long and weighs 4,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"elasmosaurus": { "copyof": "dinosaur_elasmosaurus" },
@@ -6631,7 +6631,7 @@
 			"",
 			"**Str** 42, **Dex** 11, **Con**: 21, **Int** 2, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +15; **CMB** +39; **CMD** 49  ",
-			"**Feats** [Cleave](feat/cleave), [Critical Focus](feat/critical_focus), [Diehard](feat/diehard), [Endurance](feat/endurance), [Great Cleave](feat/great_cleave), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Run](feat/run), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Cleave}, {feat/Critical Focus}, {feat/Diehard}, {feat/Endurance}, {feat/Great Cleave}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, {feat/Run}, {feat/Staggering Critical}  ",
 			"**Skills** Perception +26",
 			"",
 			"#### Ecology",
@@ -6644,7 +6644,7 @@
 			"",
 			"The giganotosaurus is an apex predator that measures 60 feet long and weighs 35,000 pounds",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"giganotosaurus": { "copyof": "dinosaur_giganotosaurus" },
@@ -6683,7 +6683,7 @@
 			"",
 			"**Str** 27, **Dex** 14, **Con**: 19, **Int** 2, **Wis** 12, **Cha**, 7  ",
 			"**Base Atk** +6; **CMB** +16; **CMD** 28 (32 vs. trip)  ",
-			"**Feats** [Power Attack](feat/power_attack), [Run](feat/run), [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Power Attack}, {feat/Run}, [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Perception +12, Stealth +4",
 			"",
 			"#### Ecology",
@@ -6702,7 +6702,7 @@
 			"",
 			"Although iguanodons are herbivores, they are notoriously quick to anger. Their thumb spikes make their claws particularly devastating weapons-a well-placed blow from one of these claws can turn a hungry predator into a cowering beast with one swift strike. Iguanodons are 30 feet long and weigh 6,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"iguanodon": { "copyof": "dinosaur_iguanodon" },
@@ -6742,7 +6742,7 @@
 			"",
 			"**Str** 25, **Dex** 14, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 10  ",
 			"**Base Atk** +5; **CMB** +13 (+15 overrun); **CMD** 25 (27 vs. overrun, 29 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), [Weapon Focus (tail)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Improved Overrun}, {feat/Power Attack}, [Weapon Focus (tail)](feat/weapon_focus)  ",
 			"**Skills** Perception +11",
 			"",
 			"#### Ecology",
@@ -6761,7 +6761,7 @@
 			"",
 			"The kentrosaurus is a smaller relative of the stegosaurus, but features large bony spikes on its shoulders. A typical kentrosaurus measures 15 feet long and weighs 2,000 pounds.",
 			"",
-			"**Family:** [Dinosaur](family/dinosaur)"
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"kentrosaurus": { "copyof": "dinosaur_kentrosaurus" }

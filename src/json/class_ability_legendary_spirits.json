@@ -11,7 +11,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Thrune, you must vow to fight against chaos wherever you see it.",
 			"",
-			"**Dynamic Decree (Lesser, Su):** Thrune always grants the following spells of each level: 0-[bleed](spell/bleed), 1st-[bane](spell/bane), 2nd-[enthrall](spell/enthrall), 3rd-[agonize](spell/agonize), 4th-[greater infernal healing](spell/greater_infernal_healing), 5th-[true seeing](spell/true_seeing), 6th-[banishment](spell/banishment). This ability alters divine surge.",
+			"**Dynamic Decree (Lesser, Su):** Thrune always grants the following spells of each level: 0-{spell/bleed}, 1st-{spell/bane}, 2nd-{spell/enthrall}, 3rd-{spell/agonize}, 4th-{spell/greater infernal healing}, 5th-{spell/true seeing}, 6th-{spell/banishment}. This ability alters divine surge.",
 			"",
 			"**Supernatural Aid (Greater, Su):** Once per day, you can call an outsider with a number of Hit Dice equal to or less than yours (maximum 18 HD) as if casting the appropriate planar ally spell. You do not need to pay the material component required to cast the spell, but you still must bargain with and pay the outsider for its services. This ability replaces overflowing grace."
 		]
@@ -79,7 +79,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Azghaad, you must embrace any opportunity to spread the legend of past or former Osirian greatness, even if doing so would be disadvantageous.",
 			"",
-			"**All-Seeing Eye (Greater, Su):** While your eyes aren't literally all-seeing, you can keep track of all your allies with ease. You can shift your senses to any ally who was present for your seance as a move action, as if you had the [witness](spell/witness) spell active on all of them at all times. This replaces decisive strike."
+			"**All-Seeing Eye (Greater, Su):** While your eyes aren't literally all-seeing, you can keep track of all your allies with ease. You can shift your senses to any ally who was present for your seance as a move action, as if you had the {spell/witness} spell active on all of them at all times. This replaces decisive strike."
 		]
 	},
 	"beldam_i": {
@@ -95,7 +95,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Beldam, you must embrace every opportunity to pull a prank or make a jest, but never at your own expense.",
 			"",
-			"**Princely Humor (Lesser, Su):** You gain [Improved Dirty Trick](feat/improved_dirty_trick) and [Improved Feint](feat/improved_feint) as bonus feats. When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with hideous laughter (DC = 10 + 1/2 your medium level + your Charisma modifier) as a free action that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.",
+			"**Princely Humor (Lesser, Su):** You gain {feat/Improved Dirty Trick} and {feat/Improved Feint} as bonus feats. When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with hideous laughter (DC = 10 + 1/2 your medium level + your Charisma modifier) as a free action that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.",
 			"",
 			"**Atrocious Gift (Greater, Su):** You can allow Beldam to gain 1 point of influence over you to make a melee touch attack against another creature as a standard action. If you hit, you can transfer one disease or poison from yourself to the touched creature. You are immediately cured of the disease or poison and the target must attempt a saving throw against the transferred affliction (at the affliction's save DC) or suffer its effect or initial effect immediately. The target then continues to suffer from the affliction's normal effects thereafter."
 		]
@@ -213,7 +213,7 @@
 			"",
 			"**Conqueror's Weapons (Lesser, Su):** You are considered proficient with the weapon types you gathered in order to gain favor with this spirit (such as longswords or hand crossbows).",
 			"",
-			"**Conquered Blades (Greater, Su):** You gain [Improved Critical](feat/improved_critical) with the weapon types you gathered to gain favor with this spirit. In addition, your attacks with such weapons ignore up to 5 points of damage reduction, except for damage reduction without a type (such as DR 10/-)."
+			"**Conquered Blades (Greater, Su):** You gain {feat/Improved Critical} with the weapon types you gathered to gain favor with this spirit. In addition, your attacks with such weapons ignore up to 5 points of damage reduction, except for damage reduction without a type (such as DR 10/-)."
 		]
 	},
 	"heretic": {
@@ -233,7 +233,7 @@
 			"",
 			"**Favored Locations:** Hidden shrines, repositories of dark knowledge, sacrificial altars, temples.",
 			"",
-			"**Heresy (Lesser, Su):** This functions as the divine surge lesser spirit power but you gain the following inquisitor spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-[guidance](spell/guidance); 1st-[divine favor](spell/divine_favor); 2nd-[castigate](spell/castigate); 3rd-[terrible remorse](spell/terrible_remorse); 4th-[reprobation](spell/reprobation); 5th-[mass castigate](spell/mass_castigate); 6th-[overwhelming presence](spell/overwhelming_presence). Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.",
+			"**Heresy (Lesser, Su):** This functions as the divine surge lesser spirit power but you gain the following inquisitor spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-{spell/guidance}; 1st-{spell/divine favor}; 2nd-{spell/castigate}; 3rd-{spell/terrible remorse}; 4th-{spell/reprobation}; 5th-{spell/mass castigate}; 6th-{spell/overwhelming presence}. Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.",
 			"",
 			"**False Front (Intermediate, Su):** You gain the effects of the energy font intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always channel positive energy and add cure spells.",
 			"",
@@ -279,7 +279,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling the Lich, you must not use beneficial spells on living creatures (except yourself if you are a living creature).",
 			"",
-			"**Necromantic Arcana (Lesser, Su):** This functions as the archmage arcana lesser spirit power, except you gain the following spells at the indicated spell levels (even if they are not the usual spell levels for the sorcerer/wizard spell list), instead of selecting them each day: 0-[bleed](spell/bleed); 1st-[chill touch](spell/chill_touch); 2nd-[command undead](spell/command_undead); 3rd-[animate dead](spell/animate_dead); 4th-[enervation](spell/enervation); 5th-[magic jar](spell/magic_jar); 6th-[create greater undead](spell/create_greater_undead).",
+			"**Necromantic Arcana (Lesser, Su):** This functions as the archmage arcana lesser spirit power, except you gain the following spells at the indicated spell levels (even if they are not the usual spell levels for the sorcerer/wizard spell list), instead of selecting them each day: 0-{spell/bleed}; 1st-{spell/chill touch}; 2nd-{spell/command undead}; 3rd-{spell/animate dead}; 4th-{spell/enervation}; 5th-{spell/magic jar}; 6th-{spell/create greater undead}.",
 			"",
 			"**Lesser Lichdom (Greater, Su):** In order to benefit from this power, you must have a proto-phylactery that costs you 10,000 gp to create (if you continue with the process of lichdom, you can upgrade this to a true phylactery by paying the difference in cost). If you die while channeling the Lich, you return from the dead in 1d10 days, reforming around the proto-phylactery and gaining 1 permanent negative level (as if subject to the resurrection spell). This process consumes the proto-phylactery. If you are already a lich, you can instead create a backup phylactery for 10,000 gp, at which you reform if your normal phylactery is destroyed. This consumes the backup phylactery."
 		]
@@ -329,7 +329,7 @@
 			"",
 			"**Taboos:** Choose one: You eschew all faith in the divine, so you must not be the willing target of divine spells or abilities and you must attempt a Will saving throw against even harmless divine spells and abilities; you must not pass up the opportunity to learn something new and significant (a non-trivial piece of information with a Knowledge check of DC 20 or higher) when that opportunity is directly present; you must use your own magical solution to a challenge if you can, even if a mundane solution that would require fewer resources is available.",
 			"",
-			"**Nex's Arcana (Lesser, Su):** Rather than your normal spells per day for your medium level, you gain the spells per day from Table 1-4: [Mesmerist](class/mesmerist). For each level of spell you can now cast (including level 0), each time you channel Nex's spirit, select a single spell from the sorcerer/wizard spell list of that level to add to your medium spell list and spells known until you lose contact with Nex. When you cast these spells, they count as arcane (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components. Because of Nex's hatred of Geb, these spells can't be of the necromancy school.",
+			"**Nex's Arcana (Lesser, Su):** Rather than your normal spells per day for your medium level, you gain the spells per day from Table 1-4: {class/Mesmerist}. For each level of spell you can now cast (including level 0), each time you channel Nex's spirit, select a single spell from the sorcerer/wizard spell list of that level to add to your medium spell list and spells known until you lose contact with Nex. When you cast these spells, they count as arcane (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components. Because of Nex's hatred of Geb, these spells can't be of the necromancy school.",
 			"",
 			"**Project Servitor (Intermediate, Su):** You can create projections of the creatures trapped in the Spire of Nex, just as Nex did during his siege of Absalom. You can expend a spell slot to cast shadow conjuration, mimicking a summon monster or summon nature's ally spell of the spell slot's level (or that spell slot's level + 1 for 5th- and 6th-level slots). These shadows are 10% real per level of the spell slot expended. If you allow Nex to gain 1 point of influence over you, double the reality percentage (to a maximum of 100%; if the result would be greater than 100%, the creature or creatures instead gain the advanced template).",
 			"",
@@ -371,7 +371,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Savith, you must never coat any of your natural or manufactured weapons in poison, nor can you ever dose an enemy with any type of poison.",
 			"",
-			"**Azlanti Heroics (Lesser, Su):** Savith grants a +1 bonus on all attack rolls when you are wielding a greatsword in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: [Disruptive](feat/disruptive), [Greater Weapon Focus](feat/greater_weapon_focus) (greatsword), [Greater Weapon Specialization](feat/greater_weapon_specialization) (greatsword), [Weapon Focus](feat/weapon_focus) (greatsword), [Weapon Specialization](feat/weapon_specialization) (greatsword), and [Spellbreaker](feat/spellbreaker). This ability alters champion's prowess and legendary champion.",
+			"**Azlanti Heroics (Lesser, Su):** Savith grants a +1 bonus on all attack rolls when you are wielding a greatsword in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: {feat/Disruptive}, {feat/Greater Weapon Focus} (greatsword), {feat/Greater Weapon Specialization} (greatsword), {feat/Weapon Focus} (greatsword), {feat/Weapon Specialization} (greatsword), and {feat/Spellbreaker}. This ability alters champion's prowess and legendary champion.",
 			"",
 			"**Toe to Toe (Intermediate, Sp):** When you are in melee combat with a creature that is at least one size category larger than you, if none of your allies are flanking it, you can spend a swift action to increase your own size as if through enlarge person, gaining all the effects of that spell. This does not provoke attacks of opportunity, and the effect lasts as long as you are in melee with that creature or until it is dead."
 		]
@@ -407,7 +407,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Sulesh, you must not suffer the presence of a rival's summoned creatures and must target them if possible during combat, even if doing so would be disadvantageous to your allies.",
 			"",
-			"**Sulesh's Spells (Lesser, Su):** Sulesh always grants [summon monster I-VI](spell/summon_monster_6), plus the cantrip [detect magic](spell/detect_magic). This ability alters archmage arcana.",
+			"**Sulesh's Spells (Lesser, Su):** Sulesh always grants [summon monster I-VI](spell/summon_monster_6), plus the cantrip {spell/detect magic}. This ability alters archmage arcana.",
 			"",
 			"**Master Summoner (Intermediate, Su):** A number of times per day equal to 1/2 your medium level (minimum 1), you can cast any summon monster spell as a standard action instead of a full-round action. Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a summon monster spell 1 level higher than the highest one you can cast. This ability replaces arcane surge."
 		]
@@ -481,7 +481,7 @@
 			"",
 			"**No Mercy (Lesser, Su):** You can use spirit surge on your own attack rolls or those of allies within 30 feet who participated in your seance, as long as you have line of sight and line of effect. You can also use your spirit surge when an enemy takes an action that would provoke an attack of opportunity from you or such an ally who threatens that enemy. If you do so, you or an ally of your choice who threatens that enemy can make an attack of opportunity and add your spirit surge, and that attack of opportunity does not count against your normal limit for the round or your ally's. When you use a spirit surge on an attack roll and the attack hits, the spirit surge benefit also applies to the damage roll.",
 			"",
-			"**Warmonger's Way (Intermediate, Su):** Add the following spells of spell levels you can currently cast to your list of spells known of those levels: 1st-[command](spell/command), [murderous command](spell/murderous_command); 2nd-[rage](spell/rage), [tactical acumen](spell/tactical_acumen); 3rd-[confusion](spell/confusion), [fear](spell/fear); 4th-[battlemind link](spell/battlemind_link), [song of discord](spell/song_of_discord). You can also use your spirit surge on concentration and caster level checks when you cast these spells.",
+			"**Warmonger's Way (Intermediate, Su):** Add the following spells of spell levels you can currently cast to your list of spells known of those levels: 1st-{spell/command}, {spell/murderous command}; 2nd-{spell/rage}, {spell/tactical acumen}; 3rd-{spell/confusion}, {spell/fear}; 4th-{spell/battlemind link}, {spell/song of discord}. You can also use your spirit surge on concentration and caster level checks when you cast these spells.",
 			"",
 			"**Inspiring Call (Greater, Su):** You gain the marshal's intermediate spirit power of the same name, but you can activate it as a move action. This improves to a swift action if you have the legendary marshal legendary spirit power."
 		]

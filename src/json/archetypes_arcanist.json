@@ -14,7 +14,7 @@
 			"",
 			"This replaces the arcane exploit gained at 1st level.",
 			"",
-			"**Wind's Embrace (Su):** At 5th level, an aeromancer can expend 2 points from her arcane reservoir to call upon the winds to gently carry her through the air while protecting her from harm. She is affected as though by the spell [air walk](spell/air_walk) and is surrounded by protective winds that function similarly to a [wind wall](spell/wind_wall) spell, except the effect surrounds only the aeromancer and moves with her wherever she goes. Both of these effects last for 1 minute.",
+			"**Wind's Embrace (Su):** At 5th level, an aeromancer can expend 2 points from her arcane reservoir to call upon the winds to gently carry her through the air while protecting her from harm. She is affected as though by the spell {spell/air walk} and is surrounded by protective winds that function similarly to a {spell/wind wall} spell, except the effect surrounds only the aeromancer and moves with her wherever she goes. Both of these effects last for 1 minute.",
 			"",
 			"This replaces the arcane exploit gained at 5th level.",
 			"",
@@ -32,7 +32,7 @@
 			"{SOURCE Construct Handbook/10}  ",
 			"All constructs are animated by magic in some capacity. Arcane tinkerers use their knowledge and understanding of magic to disrupt or even destroy constructs.",
 			"",
-			"**Manipulate Construct (Su):** An arcane tinkerer can turn the animating magic of a construct against itself. As a standard action, she can expend 1 point from her arcane reservoir to impose a -1 penalty on a single construct's attack and damage rolls for 1 round. The target can attempt a Will save to negate this effect (DC = 10 + half the arcane tinkerer's level + the arcane tinkerer's Charisma modifier). At 7th level, instead of gaining an arcanist exploit, an arcane tinkerer can improve her manipulate construct ability to instead affect a construct with [slow](spell/slow) for 1 round. At 13th level, if the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become helpless for 1 round.",
+			"**Manipulate Construct (Su):** An arcane tinkerer can turn the animating magic of a construct against itself. As a standard action, she can expend 1 point from her arcane reservoir to impose a -1 penalty on a single construct's attack and damage rolls for 1 round. The target can attempt a Will save to negate this effect (DC = 10 + half the arcane tinkerer's level + the arcane tinkerer's Charisma modifier). At 7th level, instead of gaining an arcanist exploit, an arcane tinkerer can improve her manipulate construct ability to instead affect a construct with {spell/slow} for 1 round. At 13th level, if the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become helpless for 1 round.",
 			"",
 			"This replaces the arcanist exploit gained at 1st level.",
 			"",
@@ -58,13 +58,13 @@
 			"",
 			"**Eldritch Blade:** A blade adept with this exploit uses her caster level instead of her class level for the purpose of advancing her bonded sword's powers.",
 			"",
-			"**Magus Arcana:** A blade adept can select any of the following [magus arcana](ability/magus_arcana), using her arcane reservoir in place of the magus's arcane pool: arcane accuracy, close range, critical strike, dispelling strike, and hasted assault. The blade adept treats her arcanist level as her magus level when determining the effects of magus arcana and when specific arcana are available. A blade adept can take this exploit multiple times. Each time it is taken, it applies to a different magus arcana.",
+			"**Magus Arcana:** A blade adept can select any of the following {ability/magus arcana}, using her arcane reservoir in place of the magus's arcane pool: arcane accuracy, close range, critical strike, dispelling strike, and hasted assault. The blade adept treats her arcanist level as her magus level when determining the effects of magus arcana and when specific arcana are available. A blade adept can take this exploit multiple times. Each time it is taken, it applies to a different magus arcana.",
 			"",
 			"**Spell Strike (Su):** The blade adept can deliver touch spells with her bonded weapon. This works as the magus ability of the same name.",
 			"",
-			"**Student of the Blade (Ex):** A blade adept can choose from any of the following bonus feats: [Arcane Strike](feat/arcane_strike), [Weapon Finesse](feat/weapon_finesse), and [Weapon Focus (in the weapon she is bonded to)](feat/weapon_focus). This exploit can be taken multiple times. Each time it is taken, it applies to a different feat.",
+			"**Student of the Blade (Ex):** A blade adept can choose from any of the following bonus feats: {feat/Arcane Strike}, {feat/Weapon Finesse}, and [Weapon Focus (in the weapon she is bonded to)](feat/weapon_focus). This exploit can be taken multiple times. Each time it is taken, it applies to a different feat.",
 			"",
-			"**Weapon Specialization (Ex):** The arcanist gains [Weapon Specialization](feat/weapon_specialization) with her chosen weapon as a bonus feat. The blade adept does not need to meet the prerequisites for this feat, but must have the [Weapon Focus](feat/weapon_focus) feat with her chosen weapon to select this exploit. The arcanist must be at least 5th level to select this exploit."
+			"**Weapon Specialization (Ex):** The arcanist gains {feat/Weapon Specialization} with her chosen weapon as a bonus feat. The blade adept does not need to meet the prerequisites for this feat, but must have the {feat/Weapon Focus} feat with her chosen weapon to select this exploit. The arcanist must be at least 5th level to select this exploit."
 		]
 	},
 	"blood_arcanist": {
@@ -96,7 +96,7 @@
 			"",
 			"**Share Transmutation (Su):** At 9th level, the brown-fur transmuter can target others with her transmutation spells. A brown-fur transmuter can expend 1 point from her arcane reservoir to change any transmutation spell with a range of personal to a range of touch. Such a spell automatically fails on unwilling creatures. This ability replaces the arcanist exploit gained at 9th level.",
 			"",
-			"**Transmutation Supremacy (Su):** At 20th level, the brown-fur transmuter learns to fully master the power of transmutation. Whenever she casts a transmutation spell, it is treated as it were affected by the [Extend Spell](feat/extend_spell) feat without altering the casting time or slot used. (She cannot then alter its duration again with the [Extend Spell](feat/extend_spell) feat). Whenever she uses her powerful change ability, the bonus increases by 4 instead of 2. Her share transmutation ability can now target a willing creature within 30 feet. This ability replaces magical supremacy."
+			"**Transmutation Supremacy (Su):** At 20th level, the brown-fur transmuter learns to fully master the power of transmutation. Whenever she casts a transmutation spell, it is treated as it were affected by the {feat/Extend Spell} feat without altering the casting time or slot used. (She cannot then alter its duration again with the {feat/Extend Spell} feat). Whenever she uses her powerful change ability, the bonus increases by 4 instead of 2. Her share transmutation ability can now target a willing creature within 30 feet. This ability replaces magical supremacy."
 		]
 	},
 	"eldritch_font": {
@@ -148,7 +148,7 @@
 			"{SOURCE Occult Origins/22}  ",
 			"Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the intellectual study of the region's supernatural quirks and hidden history, and embraces the use of the harrow deck to examine the world's occult mysteries. *(This archetype is intended for use with the Pathfinder Cards: Deluxe Harrow Deck. If you don't have access to that product, roll 1d6 to determine a drawn card's suit: 1 = hammers, 2 = keys, 3 = shields, 4 = books, 5 = stars, and 6 = crowns.)*",
 			"",
-			"**Psychic Reader (Ex):** A Harrowed Society student gains [Psychic Sensitivity](feat/psychic_sensitivity) as a bonus feat and adds Diplomacy, Perception, and Sense Motive to her list of class skills. This ability replaces the 1st-level arcanist exploit.",
+			"**Psychic Reader (Ex):** A Harrowed Society student gains {feat/Psychic Sensitivity} as a bonus feat and adds Diplomacy, Perception, and Sense Motive to her list of class skills. This ability replaces the 1st-level arcanist exploit.",
 			"",
 			"**Harrow Reservoir (Ex):** Once per day, a Harrowed Society student can perform a harrow reading as a 5-minute ritual. She decides which suit most closely aligns with her task at hand and deals a nine-card spread. Each time that suit appears in her spread, she adds 1 point to her arcane reservoir, to a maximum of 1 point per 2 arcanist levels. Points gained in excess of her reservoir's maximum are lost. The Harrowed Society student can perform this reading one additional time per day at 8th level and at 16th level. This ability replaces consume spells.",
 			"",
@@ -181,7 +181,7 @@
 			"## Magaambyan Initiate",
 			"",
 			"{SOURCE Adventurer's Guide/122;Arcane Anthology/16}  ",
-			"Aspiring students of the [Magaambya](rule/aff_beast_riders) often spend decades researching arcane magic while learning to follow in the footsteps of the academy's founder, Old-Mage Jatembe. Those particularly gifted in the art of sculpting spells are sometimes schooled privately in the art of traditional, esoteric, and righteous spells, in the hope that such knowledge will pave the way for the initiate's acceptance into the school proper as a [Magaambyan arcanist](prestigeclass/magaambyan_arcanist).",
+			"Aspiring students of the [Magaambya](rule/aff_beast_riders) often spend decades researching arcane magic while learning to follow in the footsteps of the academy's founder, Old-Mage Jatembe. Those particularly gifted in the art of sculpting spells are sometimes schooled privately in the art of traditional, esoteric, and righteous spells, in the hope that such knowledge will pave the way for the initiate's acceptance into the school proper as a {prestigeclass/Magaambyan arcanist}.",
 			"",
 			"But many initiates find themselves overwhelmed by the extensive training and end up leaving the Magaambya before completing their studies. These spellcasters retain many of the Magaambya's techniques and philosophical bents, but are not considered to be graduates of the school. Yet they are still respected and valued, for the Magaambya's staff fully understand that its teachings and the scholastic, often hermetic lifestyle required to master the techniques are not to everyone's tastes. For the teachers of the Magaambya, there are no truly failed students save those who abandon their philosophy and succumb to the lure of cruelty and evil.",
 			"",
@@ -191,15 +191,15 @@
 			"",
 			"This alters the arcanist's alignment.",
 			"",
-			"**Aura of Good (Ex):** A Magaambyan arcanist radiates an aura of good as if she were a cleric of a level equal to her class level (see the [detect good](spell/detect_good) spell).",
+			"**Aura of Good (Ex):** A Magaambyan arcanist radiates an aura of good as if she were a cleric of a level equal to her class level (see the {spell/detect good} spell).",
 			"",
 			"**Halcyon Spell Lore (Su):** A Magaambyan initiate's studies of the philanthropic teachings of Old-Mage Jatembe allow her to cast a limited number of spells per day beyond those she could normally prepare ahead of time. At each class level, she chooses one spell from the druid spell list or one spell with the good descriptor from the cleric spell list. The spell must be of a spell level that she can cast, and cannot be a spell that already appears on her arcanist spell list. A Magaambyan initiate can cast a spell that she has chosen with this ability as if it were on her spell list and prepared by expending a number of points from her arcane reservoir equal to half the spell's level (minimum 1) and expending a spell slot of the spell's level. At 4th level and every 2 levels thereafter, a Magaambyan initiate can choose to lose a spell that she has chosen with this ability in exchange for a new spell of the same spell level that meets the same requirements.",
 			"",
 			"This ability replaces the arcanist exploits gained at 1st, 9th, and 17th levels.",
 			"",
-			"**Spell Mastery:** At 5th level, a Magaambyan initiate gains [Spell Mastery](feat/spell_mastery) as a bonus feat. Her arcanist levels count as wizard levels for the purpose of satisfying feat prerequisites, both when selecting this bonus feat and when selecting feats gained from character advancement. If she uses her arcanist level to satisfy the prerequisites for [Spell Mastery](feat/spell_mastery), she can prepare spells selected with this feat as arcanist spells without referring to a spellbook, but not as wizard spells. The Magaambyan initiate can also select [Spell Mastery](feat/spell_mastery) as a feat gained from character advancement, allowing her to select the feat multiple times.",
+			"**Spell Mastery:** At 5th level, a Magaambyan initiate gains {feat/Spell Mastery} as a bonus feat. Her arcanist levels count as wizard levels for the purpose of satisfying feat prerequisites, both when selecting this bonus feat and when selecting feats gained from character advancement. If she uses her arcanist level to satisfy the prerequisites for {feat/Spell Mastery}, she can prepare spells selected with this feat as arcanist spells without referring to a spellbook, but not as wizard spells. The Magaambyan initiate can also select {feat/Spell Mastery} as a feat gained from character advancement, allowing her to select the feat multiple times.",
 			"",
-			"In addition, if the Magaambyan initiate gains levels in the [Magaambyan arcanist](prestigeclass/magaambyan_arcanist) prestige class, her prestige class levels stack with her arcanist levels when determining the number of points in her arcane reservoir (though not the effectiveness of arcane exploits based on class level). A Magaambyan initiate who takes levels in Magaambyan arcanist and gains the spontaneous spell mastery class feature can use that ability to instantly lose one of her prepared spells and immediately prepare a different arcanist spell of the same level or lower that she has mastered with [Spell Mastery](feat/spell_mastery), rather than spontaneous spell mastery's normal effect. She is still limited to the same number of times per day she can use spontaneous spell mastery.",
+			"In addition, if the Magaambyan initiate gains levels in the {prestigeclass/Magaambyan arcanist} prestige class, her prestige class levels stack with her arcanist levels when determining the number of points in her arcane reservoir (though not the effectiveness of arcane exploits based on class level). A Magaambyan initiate who takes levels in Magaambyan arcanist and gains the spontaneous spell mastery class feature can use that ability to instantly lose one of her prepared spells and immediately prepare a different arcanist spell of the same level or lower that she has mastered with {feat/Spell Mastery}, rather than spontaneous spell mastery's normal effect. She is still limited to the same number of times per day she can use spontaneous spell mastery.",
 			"",
 			"This ability replaces the arcanist exploit gained at 5th level."
 		]
@@ -213,11 +213,11 @@
 			"{SOURCE Advanced Class Guide/78}  ",
 			"Not all arcanists peer inward to discern the deepest secrets of magic. Some look outward, connecting with extraplanar creatures and bartering for secrets, power, and favor.",
 			"",
-			"**Planar Spells:** An occultist adds all [planar ally](spell/planar_ally) spells to her spell list (using her arcanist level as the cleric level), and treats [plane shift](spell/plane_shift) as a 5th-level arcanist spell.",
+			"**Planar Spells:** An occultist adds all {spell/planar ally} spells to her spell list (using her arcanist level as the cleric level), and treats {spell/plane shift} as a 5th-level arcanist spell.",
 			"",
 			"**Conjurer's Focus (Sp):** An occultist can spend 1 point from her arcane reservoir to cast [summon monster I](spell/summon_monster_1). She can cast this spell as a standard action and the summoned creatures remain for 1 minute per level (instead of 1 round per level). At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing her to summon more powerful creatures (to a maximum of [summon monster IX](spell/summon_monster_9) at 17th level), at the cost of an additional point from her arcane spell reserve per spell level. An occultist cannot have more than one [summon monster](spell/summon_monster_1) spell active in this way at one time. If this ability is used again, any existing [summon monster](spell/summon_monster_1) immediately ends. This ability replaces the arcanist exploit gained at 1st level.",
 			"",
-			"**Planar Contact (Sp):** At 7th level, an occultist can cast [augury](spell/augury) once per day and [contact other plane](spell/contact_other_plane) once per week, using her arcanist level as her caster level. This ability replaces the arcanist exploit gained at 7th level.",
+			"**Planar Contact (Sp):** At 7th level, an occultist can cast {spell/augury} once per day and {spell/contact other plane} once per week, using her arcanist level as her caster level. This ability replaces the arcanist exploit gained at 7th level.",
 			"",
 			"**Perfect Summoner:** At 20th level, an occultist can use her conjurer's focus without spending points from her arcane reservoir, and the creatures summoned last until dismissed. This ability replaces magical supremacy."
 		]
@@ -287,7 +287,7 @@
 			"{SOURCE Advanced Class Guide/79}  ",
 			"Some arcanists store their spells as whispered secrets within familiars instead of on paper.",
 			"",
-			"**Familiar:** An unlettered arcanist does not keep a spellbook. Instead, she gains a familiar in which she stores her spells as a [witch](class/witch) does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead. This ability replaces spellbooks.",
+			"**Familiar:** An unlettered arcanist does not keep a spellbook. Instead, she gains a familiar in which she stores her spells as a {class/witch} does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead. This ability replaces spellbooks.",
 			"",
 			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the [witch spell list](main/spells_witch) instead of the [wizard/sorcerer spell list](main/spells_wizard). This ability alters the spells class feature."
 		]
@@ -301,11 +301,11 @@
 			"{SOURCE Advanced Class Guide/79}  ",
 			"A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.",
 			"",
-			"**Spontaneous Healing (Su):** At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a cure spell (any spell with \"cure\" in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast [breath of life](spell/breath_of_life). This ability replaces the arcanist exploits gained at 1st and 9th levels.",
+			"**Spontaneous Healing (Su):** At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a cure spell (any spell with \"cure\" in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast {spell/breath of life}. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
 			"",
 			"**Greater Exploit:** At 11th level, a white mage can select the following greater exploit.",
 			"",
-			"**Fast Healing (Su):** A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd level to grant her allies the fast healing ability. Allies within 30 feet gain [fast healing](umr/fast_healing) equal to 1/2 the level of the spell slot sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1)."
+			"**Fast Healing (Su):** A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd level to grant her allies the fast healing ability. Allies within 30 feet gain {umr/fast healing} equal to 1/2 the level of the spell slot sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1)."
 		]
 	}
 }

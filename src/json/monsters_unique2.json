@@ -38,7 +38,7 @@
 			"",
 			"**Str** 40, **Dex** 27, **Con**: 42, **Int** 22, **Wis** 30, **Cha**, 27  ",
 			"**Base Atk** +30; **CMB** +46 (+50 bull rush, grapple, or overrun); **CMD** 74 (76 vs. bull rush or overrun, 78 vs. trip)  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Bull Rush](feat/greater_bull_rush), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Critical (sting)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Overrun](feat/improved_overrun), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Bull Rush}, {feat/Greater Overrun}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Critical (sting)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Overrun}, {feat/Iron Will}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Knowledge (arcana, history, nature, religion) +36, Perception +43, Spellcraft +36, Stealth +37, Swim +56  ",
 			"**Languages** Aklo, Aquan, Draconic; telepathy 100 ft.  ",
 			"**SQ** amphibious, otherworldly insight",
@@ -81,7 +81,7 @@
 			"",
 			"Bokrug's cult is associated with revenge, storms, and water, and its sacred symbol is a green lizard with a long, coiling tail-an image of Bokrug himself. His greatest shrines feature unusually realistic statues of his form, statues the cult maintains Bokrug can see out of and even animate from his distant lair to take sacrifices. Bokrug's clerics have access to the domains of Chaos, Destruction, Water, and Weather, and to the subdomains of Catastrophe, Oceans, Rage, and Storms. The Water Lizard's favored weapon is the ranseur; his followers often forge their ranseurs' blades to resemble the Great Old One's stingered tail.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"bokrug": { "copyof": "great_old_one_bokrug" },
@@ -124,7 +124,7 @@
 			"",
 			"**Str** 56, **Dex** 21, **Con**: 45, **Int** 31, **Wis** 36, **Cha**, 34  ",
 			"**Base Atk** +27; **CMB** +58 (+60 bull rush, +62 grapple or sunder); **CMD** 97 (99 vs. bull rush or sunder)  ",
-			"**Feats** [Ability Focus (nightmare)](feat/ability_focus), [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Craft Wondrous Item](feat/craft_wondrous_item), [Critical Focus](feat/critical_focus), [Flyby Attack](feat/flyby_attack), [Greater Sunder](feat/greater_sunder), [Greater Vital Strike](feat/greater_vital_strike), [Hover](feat/hover), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (claw)](feat/improved_critical), [Improved Critical (tentacle)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Ability Focus (nightmare)](feat/ability_focus), {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Craft Wondrous Item}, {feat/Critical Focus}, {feat/Flyby Attack}, {feat/Greater Sunder}, {feat/Greater Vital Strike}, {feat/Hover}, {feat/Improved Bull Rush}, [Improved Critical (claw)](feat/improved_critical), [Improved Critical (tentacle)](feat/improved_critical), {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Fly +36, Knowledge (arcana) +49, Knowledge (dungeoneering, engineering, geography, history, nature, planes, religion) +46, Perception +52, Sense Motive +49, Spellcraft +49, Swim +70, Use Magic Device +48  ",
 			"**Languages** Aklo; telepathy 300 ft.  ",
 			"**SQ** compression, greater starflight, otherworldly insight",
@@ -163,7 +163,7 @@
 			"",
 			"Cthulhu's cult is associated with cataclysms, dreams, and the stars, and his sacred symbol is a complex rune surrounding an open eye. Cthulhu's temples are monolithic structures of a stark and cyclopean architectural style, but most of his faithful lack the resources to build such temples and instead make do with what they can, hiding away personal shrines in underground chambers or in shacks or glades in the remote wilderness. Cthulhu's clerics have access to the domains of Chaos, Evil, Madness, and Void, and to the subdomains of Dark Tapestry, Insanity, Nightmare, and Stars. His favored weapon is the dagger-often one with a curving blade.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"cthulhu": { "copyof": "great_old_one_cthulhu" },
@@ -209,7 +209,7 @@
 			"",
 			"**Str** 52, **Dex** 33, **Con**: 43, **Int** 29, **Wis** 32, **Cha**, 30  ",
 			"**Base Atk** +26; **CMB** +55 (+57 bull rush, +57 sunder); **CMD** 87 (89 vs. bull rush, 89 vs. sunder, can't be tripped)  ",
-			"**Feats** [Ability Focus (unspeakable presence)](feat/ability_focus), [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (tentacle)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** [Ability Focus (unspeakable presence)](feat/ability_focus), {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (tentacle)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Lightning Reflexes}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Climb +59, Intimidate +48, Knowledge (arcana) +47, Knowledge (dungeoneering, geography, nature, planes, religion) +44, Perception +49, Sense Motive +46, Spellcraft +47, Swim +67, Use Magic Device +45  ",
 			"**Languages** Aklo, Aquan, Undercommon; telepathy 300 ft.  ",
 			"**SQ** compression, Great Old One traits, otherworldly insight",
@@ -244,7 +244,7 @@
 			"",
 			"Few humans worship Ghatanothoa, but certain sects of mi-go have long revered this Great Old One. His temples are typically stone buildings on remote, desolate islands. Ghatanothoa grants access to the domains of Destruction, Evil, Madness, and Water and to the subdomains of Catastrophe, Insanity, Nightmare, and Oceans. His favored weapon is the morningstar.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"ghatanothoa": { "copyof": "great_old_one_ghatanothoa" },
@@ -287,7 +287,7 @@
 			"",
 			"**Str** 24, **Dex** 43, **Con**: 44, **Int** 35, **Wis** 31, **Cha**, 36  ",
 			"**Base Atk** +25; **CMB** +41; **CMD** 69 (can't be tripped)  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Greater Feint](feat/greater_feint), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (tattered lash)](feat/improved_critical), [Improved Feint](feat/improved_feint), [Improved Vital Strike](feat/improved_vital_strike), [Mobility](feat/mobility), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), [Spring Attack](feat/spring_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike), [Weapon Finesse](feat/weapon_finesse), [Whirlwind Attack](feat/whirlwind_attack)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Greater Feint}, {feat/Greater Vital Strike}, [Improved Critical (tattered lash)](feat/improved_critical), {feat/Improved Feint}, {feat/Improved Vital Strike}, {feat/Mobility}, [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), {feat/Spring Attack}, {feat/Staggering Critical}, {feat/Vital Strike}, {feat/Weapon Finesse}, {feat/Whirlwind Attack}  ",
 			"**Skills** Acrobatics +53 (+73 when jumping), Bluff +47, Disguise +47, Intimidate +50, Knowledge (arcana, geography, history, local) +46, Knowledge (nobility) +49, Perception +47, Perform (act) +47, Sense Motive +44, Sleight of Hand +50, Spellcraft +49, Stealth +53, Use Magic Device +47; **Racial Modifiers** +20 Acrobatics when jumping  ",
 			"**Languages** Aklo; telepathy 100 ft., tongues  ",
 			"**SQ** otherworldly insight",
@@ -324,7 +324,7 @@
 			"",
 			"Hastur's cult is associated with decadence, disorder, and nihilism, and its symbol is the Yellow Sign. The least varieties of these symbols are nonmagical-and somewhat inaccurate-representations of the sigil, though the more powerful cults possess methods by which they can craft fully functional Yellow Signs. Unlike those created by Hastur, a cult-created Yellow Sign can be resisted with a successful DC 23 Will save (as if it were a 9th-level spell). Hastur's clerics have access to the domains of Chaos, Evil, Rune, and Void, and to the subdomains of Dark Tapestry, Language, Stars, and Wards. Hastur's favored weapon is the rapier.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"hastur": { "copyof": "great_old_one_hastur" },
@@ -372,7 +372,7 @@
 			"",
 			"**Str** 46, **Dex** 31, **Con**: 42, **Int** 29, **Wis** 31, **Cha**, 30  ",
 			"**Base Atk** +32; **CMB** +54 (+58 bull rush); **CMD** 95 (97 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Blinding Critical](feat/blinding_critical), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Critical (wind blast)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind, gust of wind)](feat/quicken_spell-like_ability), [Spring Attack](feat/spring_attack)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Blinding Critical}, {feat/Critical Focus}, {feat/Dodge}, {feat/Greater Bull Rush}, {feat/Improved Bull Rush}, [Improved Critical (slam)](feat/improved_critical), [Improved Critical (wind blast)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Lightning Reflexes}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind, gust of wind)](feat/quicken_spell-like_ability), {feat/Spring Attack}  ",
 			"**Skills** Acrobatics +42, Knowledge (arcana, geography, history, nature, planes, religion) +41, Perception +45, Sense Motive +42, Spellcraft +41, Stealth +33, Survival +45, Use Magic Device +42  ",
 			"**Languages** Aklo, Aquan, Giant; telepathy 100 ft.  ",
 			"**SQ** otherworldly insight, wind walk",
@@ -417,7 +417,7 @@
 			"",
 			"Ithaqua is worshiped in arctic regions, primarily by cannibal tribes, giants, and wendigos. Those who fear starvation or the loss of morality might offer sacrifices to him out of fear-such sacrifices are traditionally performed by leaving a body draped in the highest possible boughs of a pine tree. Worship of the Wind-Walker below the arctic circle is rare, but not unheard of.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"ithaqua": { "copyof": "great_old_one_ithaqua" },
@@ -445,7 +445,7 @@
 			"**AC** 43, touch 13, flat-footed 42 (+1 Dex, +10 insight, +30 natural, -8 size)  ",
 			"**hp** 592 (32d8+448); regeneration 20 (electricity, see below)  ",
 			"**Fort** +24, **Ref** +13, **Will** +28  ",
-			"**Defensive Abilities** earthen regeneration, insanity (DC 35); **DR** 15/epic and good; **Immune** ability damage, ability drain, aging, cold, death effects, disease, energy drain, fire, mind-affecting effects, paralysis, petrification, [plane shift](spell/plane_shift); **Resist** acid 30, electricity 30, sonic 10; **SR** 37",
+			"**Defensive Abilities** earthen regeneration, insanity (DC 35); **DR** 15/epic and good; **Immune** ability damage, ability drain, aging, cold, death effects, disease, energy drain, fire, mind-affecting effects, paralysis, petrification, {spell/plane shift}; **Resist** acid 30, electricity 30, sonic 10; **SR** 37",
 			"",
 			"#### Offense",
 			"",
@@ -462,7 +462,7 @@
 			"",
 			"**Str** 42, **Dex** 13, **Con**: 38, **Int** 28, **Wis** 31, **Cha**, 29  ",
 			"**Base Atk** +24; **CMB** +48 (+52 bull rush); **CMD** 69 (71 vs. bull rush, can't be tripped)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Bull Rush](feat/greater_bull_rush), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), [Stunning Critical](feat/stunning_critical), [Vital Strike](feat/vital_strike), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Bull Rush}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Lightning Reflexes}, {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), {feat/Stunning Critical}, {feat/Vital Strike}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Climb +51, Intimidate +44, Knowledge (arcana, geography, history, local, nature, planes) +41, Perception +45, Sense Motive +42, Stealth +20, Survival +45, Swim +51  ",
 			"**Languages** Aklo, Ignan, Terran; telepathy (100 ft.)  ",
 			"**SQ** massive, otherworldly insight",
@@ -479,15 +479,15 @@
 			"",
 			"**Earthen Regeneration (Ex)** Mhar's regeneration functions only while it is burrowing, submerged in lava, or otherwise underground. The regeneration continues for 1 minute after it emerges aboveground. If Mhar's regeneration is stopped, the regeneration automatically resumes when Mhar burrows or enters lava.",
 			"",
-			"**Immortality (Ex)** If Mhar is slain, it explodes violently, spraying earth and lava in all directions. Creatures within 30 feet of Mhar take 30d6 points of bludgeoning damage and 30d6 points of fire damage. A creature can attempt a DC 40 Reflex save for half damage. Mhar manifests again 1 year later in the same area, restored to life via [true resurrection](spell/true_resurrection).",
+			"**Immortality (Ex)** If Mhar is slain, it explodes violently, spraying earth and lava in all directions. Creatures within 30 feet of Mhar take 30d6 points of bludgeoning damage and 30d6 points of fire damage. A creature can attempt a DC 40 Reflex save for half damage. Mhar manifests again 1 year later in the same area, restored to life via {spell/true resurrection}.",
 			"",
 			"**Massive (Ex)** Due to Mhar's tremendous size, it treats uneven ground and other terrain features that form difficult terrain as normal terrain, though areas of forest or significant settlements are still considered difficult terrain to Mhar. A Huge or smaller creature can move through any square occupied by Mhar, and vice versa. Mhar can make attacks of opportunity only against foes that are Huge or larger, and can be flanked only by Huge or larger foes. Mhar gains a bonus for being on higher ground only if its entire space is on higher ground than that of its target. It's possible for a Huge or smaller creature to climb Mhar-this generally requires a successful DC 30 Climb check, and unlike the normal rules regarding Mhar and attacks of opportunity, a Small or larger creature that climbs on its body provokes an attack of opportunity from Mhar. Any creature that climbs on Mhar is treated as if it is totally immersed in [lava](rule/volcanoes).",
 			"",
-			"**Taphophobic Dreams (Su)** When Mhar uses its [nightmare](spell/nightmare) spell-like ability on a creature within 5 feet of earth or worked stone, it also afflicts that creature with terrifying dreams of an immense presence surging through the ground, ominously circling the target and threatening to pull it under. In addition to the effects of [nightmare](spell/nightmare), the target must also succeed at a DC 35 Will save or be unwilling to approach within 5 feet of any amount of earth or stone and, if within such an area, compelled to leave it immediately. The creature is profoundly uncomfortable in such an area, reducing its Dexterity score to 1. This is a mind-affecting curse effect. The save DC is Charisma-based.",
+			"**Taphophobic Dreams (Su)** When Mhar uses its {spell/nightmare} spell-like ability on a creature within 5 feet of earth or worked stone, it also afflicts that creature with terrifying dreams of an immense presence surging through the ground, ominously circling the target and threatening to pull it under. In addition to the effects of {spell/nightmare}, the target must also succeed at a DC 35 Will save or be unwilling to approach within 5 feet of any amount of earth or stone and, if within such an area, compelled to leave it immediately. The creature is profoundly uncomfortable in such an area, reducing its Dexterity score to 1. This is a mind-affecting curse effect. The save DC is Charisma-based.",
 			"",
 			"**Unspeakable Presence (Su)** Failing a DC 35 Will save against Mhar's unspeakable presence causes the victim to experience the crushing entombment of earth and lose the ability to breathe as long as it remains within the area of effect. The save DC is Charisma-based.",
 			"",
-			"**Volcanic Tempest (Ex)** Once every 1d6 rounds, Mhar can spew a torrential rain of lava, fire, and caustic ash as a full-round action. All creatures within 60 feet of Mhar take 8d6 points of bludgeoning damage and 8d6 points of fire damage (DC 40 Reflex half). In addition, the ground within 60 feet of Mhar when it uses this ability becomes covered in a thin layer of lava. Any creature that ends its turn within this lava takes 20d6 points of fire damage. The lava cools after 1 minute. Finally, the area within 60 feet of Mhar when it uses this ability fills with deadly ash that functions as [stinking cloud](spell/stinking_cloud) (Fortitude DC 40 negates). This ash disperses naturally after 1 minute. The save DCs are Constitution-based.",
+			"**Volcanic Tempest (Ex)** Once every 1d6 rounds, Mhar can spew a torrential rain of lava, fire, and caustic ash as a full-round action. All creatures within 60 feet of Mhar take 8d6 points of bludgeoning damage and 8d6 points of fire damage (DC 40 Reflex half). In addition, the ground within 60 feet of Mhar when it uses this ability becomes covered in a thin layer of lava. Any creature that ends its turn within this lava takes 20d6 points of fire damage. The lava cools after 1 minute. Finally, the area within 60 feet of Mhar when it uses this ability fills with deadly ash that functions as {spell/stinking cloud} (Fortitude DC 40 negates). This ash disperses naturally after 1 minute. The save DCs are Constitution-based.",
 			"",
 			"#### Description",
 			"",
@@ -499,7 +499,7 @@
 			"",
 			"Mhar seeks to break free from beneath Golarion's crust and destroy the world, then use the magma as a focus to open a breach to the Plane of Fire and flood the entire Material Plane with lava. Once all of reality is a mass of fire and destruction, Mhar can finally find peace.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"mhar": { "copyof": "great_old_one_mhar" },
@@ -545,7 +545,7 @@
 			"",
 			"**Str** -, **Dex** 40, **Con**: 44, **Int** 33, **Wis** 34, **Cha**, 37  ",
 			"**Base Atk** +26; **CMB** +45 (+49 disarm); **CMD** 81 (83 vs. disarm)  ",
-			"**Feats** [Ability Focus (slay living)](feat/ability_focus), [Blinding Critical](feat/blinding_critical), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Greater Disarm](feat/greater_disarm), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (tentacle)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Mobility](feat/mobility), [Quicken Spell-Like Ability (deeper darkness, feeblemind, slay living)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** [Ability Focus (slay living)](feat/ability_focus), {feat/Blinding Critical}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Greater Disarm}, {feat/Greater Vital Strike}, [Improved Critical (tentacle)](feat/improved_critical), {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Mobility}, [Quicken Spell-Like Ability (deeper darkness, feeblemind, slay living)](feat/quicken_spell-like_ability), {feat/Vital Strike}, [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +53, Bluff +48, Diplomacy +48, Fly +55, Knowledge (arcana) +46, Knowledge (geography) +46, Knowledge (history) +46, Knowledge (local) +46, Knowledge (nobility) +46, Knowledge (religion) +49, Perception +50, Sense Motive +47, Spellcraft +49, Stealth +41, Use Magic Device +48  ",
 			"**Languages** Aklo, Necril, speak with dead; telepathy 300 ft.  ",
 			"**SQ** no breath",
@@ -586,7 +586,7 @@
 			"",
 			"Mordiggian's worshipers venerate him as a death god, and his worship is openly allowed in some cities. In these cases, his temple also serves to dispose of all of the city's dead, yet the faithful's exact method for dealing with corpses is subject to fearful whispers among the nonbelievers. His temples consist of either underground vaults hidden below graveyards or towering cathedrallike structures containing mazes of rooms. Mordiggian grants access to the domains of Chaos, Darkness, Death, and Evil, and to the subdomains of Entropy, Loss, Night, and Undead. His favored weapon is the scimitar.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"mordiggian": { "copyof": "great_old_one_mordiggian" },
@@ -632,7 +632,7 @@
 			"",
 			"**Str** 46, **Dex** 30, **Con**: 43, **Int** 29, **Wis** 32, **Cha**, 29  ",
 			"**Base Atk** +24; **CMB** +43 (+47 grapple); **CMD** 74 (82 vs. trip)  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (bite, claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind, flesh to stone)](feat/quicken_spell-like_ability) [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Greater Vital Strike}, [Improved Critical (bite, claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind, flesh to stone)](feat/quicken_spell-like_ability) {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +46, Knowledge (arcana, dungeoneering, geography, history, nature, religion) +42, Perception +47, Sense Motive +44, Spellcraft +45, Stealth +42, Swim +62, Use Magic Device +42  ",
 			"**Languages** Aklo; telepathy 300 ft.  ",
 			"**SQ** always watching, amphibious, compression, eternal statue, otherworldly insight",
@@ -671,7 +671,7 @@
 			"",
 			"Rhan-Tegoth's clerics have access to the domains of Chaos, Evil, Repose, and Void, and to the subdomains of Ancestors, Dark Tapestry, Entropy, and Stars. His favored weapon is the sickle.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)",
+			"**Family:** {family/Great Old One}",
 			"",
 			"[^M]: mythic spell"
 		]
@@ -720,7 +720,7 @@
 			"",
 			"**Str** 44, **Dex** 36, **Con**: 43, **Int** 35, **Wis** 32, **Cha**, 35  ",
 			"**Base Atk** +35; **CMB** +53; **CMD** 91 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Greater Disarm](feat/greater_disarm), [Greater Sunder](feat/greater_sunder), [Improved Critical (tentacle)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Mobility](feat/mobility), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (disintegrate, feeblemind, mislead)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Greater Disarm}, {feat/Greater Sunder}, [Improved Critical (tentacle)](feat/improved_critical), {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Mobility}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-Like Ability (disintegrate, feeblemind, mislead)](feat/quicken_spell-like_ability), {feat/Staggering Critical}  ",
 			"**Skills** Acrobatics +48, Bluff +50, Diplomacy +47, Disguise +47, Fly +57, Intimidate +47, Knowledge (arcana, engineering, geography, history, nature, religion) +47, Knowledge (planes) +50, Perception +49, Sense Motive +49, Spellcraft +47, Stealth +47, Use Magic Device +47  ",
 			"**Languages** Aklo; telepathy 1 mile; tongues  ",
 			"**SQ** otherworldly insight",
@@ -761,7 +761,7 @@
 			"",
 			"Tawil at-Umr's symbol is a black spiral inside of a hexagon, and his favored weapon is the dagger. The Great Old One grants access to the domains of Chaos, Knowledge, Travel, and Void, and to the subdomains of Dark Tapestry, Exploration, Night, and Stars.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)",
+			"**Family:** {family/Great Old One}",
 			"",
 			"[^M]: mythic spell"
 		]
@@ -820,7 +820,7 @@
 			"",
 			"**Str** 48, **Dex** 33, **Con**: 46, **Int** 31, **Wis** 32, **Cha**, 35  ",
 			"**Base Atk** +24; **CMB** +44 (+48 sunder); **CMD** 75 (77 vs. sunder)  ",
-			"**Feats** [Arcane Strike](feat/arcane_strike), [Blinding Critical](feat/blinding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Empower Spell](feat/empower_spell), [Eschew Materials](feat/eschew_materials), [Greater Sunder](feat/greater_sunder), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell](feat/quicken_spell), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Arcane Strike}, {feat/Blinding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Empower Spell}, {feat/Eschew Materials}, {feat/Greater Sunder}, {feat/Greater Vital Strike}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Quicken Spell}, [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Bluff +45, Fly +45, Intimidate +48, Knowledge (arcana) +46, Knowledge (dungeoneering, geography, history, nature, religion) +43, Perception +47, Sense Motive +44, Spellcraft +46, Stealth +43, Use Magic Device +45  ",
 			"**Languages** Aklo; telepathy 300 ft.; tongues  ",
 			"**SQ** adaptive spellcasting, item creation, powerful blows",
@@ -863,7 +863,7 @@
 			"",
 			"Tsathoggua's worshipers often venerate him as a god of magic. They rarely gather in large groups, with most of his cultists being loners or outcasts who dwell at the fringes of society or in the wilderness. The presence of well-preserved Tsathogguan temples on many worlds suggests that at one point in the distant past, his followers were both more plentiful and more willing to work in larger groups, but today these temples lie abandoned save by monsters, the Great Old One's spawn, and a handful of clerics (or just a lone devoted and powerful priest). Tsathoggua grants access to the domains of Chaos, Evil, Knowledge, and Magic and to the subdomains of Arcane, Divine, Thought, and Whimsy. Tsathoggua's favored weapon is the short sword.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"tsathoggua": { "copyof": "great_old_one_tsathoggua" },
@@ -909,7 +909,7 @@
 			"",
 			"**Str** 36, **Dex** 30, **Con**: 45, **Int** 19, **Wis** 28, **Cha**, 25  ",
 			"**Base Atk** +21; **CMB** +38; **CMD** 68  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (tentacle)](feat/improved_critical), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind, wither limb)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Vital Strike}, [Improved Critical (tentacle)](feat/improved_critical), [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind, wither limb)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Climb +21, Knowledge (arcana) +18, Knowledge (geography) +18, Knowledge (nature) +32, Knowledge (religion) +32, Perception +40, Spellcraft +32, Swim +52  ",
 			"**Languages** Aklo; telepathy 100 ft.  ",
 			"**SQ** amphibious, compression, contagious lore, no breath, powerful tentacles",
@@ -930,7 +930,7 @@
 			"",
 			"**Great Old One Traits (Ex)** Rules for Xhamen-Dor's Great Old One traits like immortality, insanity, its mythic abilities, otherworldly insight, and the base rules for unspeakable presence can be found [here](subtype/great_old_one).",
 			"",
-			"**Immortality (Ex)** If Xhamen-Dor is slain, its body collapses into a reeking pile of fungus, hair, and bones. The core of its being compresses down to a tiny blot of incorporeal fungal matter that is immediately expelled from the core of its mass and hurled out into the depths of space. All creatures within 120 feet of Xhamen-Dor when this occurs must succeed at a DC 31 Fortitude saving throw or take 2d6 points of Charisma drain as portions of their sanity and souls are pulled along with the blot. Xhamen-Dor's remains animate as a unique undead creature known as a [seeded](template/seeded) 24 hours after this event, but this is merely an echo of the Great Old One. Xhamen-Dor is reborn again when one of two events occur: the blot fired into space impacts a planet, or one of its surviving seeded returns to Carcosa and resurrects as the Great Old One. If the former, it can be centuries or even eons before Xhamen-Dor awakens again, but if the latter, the Great Old One can return within a matter of months or less. The save DC is Charisma-based.",
+			"**Immortality (Ex)** If Xhamen-Dor is slain, its body collapses into a reeking pile of fungus, hair, and bones. The core of its being compresses down to a tiny blot of incorporeal fungal matter that is immediately expelled from the core of its mass and hurled out into the depths of space. All creatures within 120 feet of Xhamen-Dor when this occurs must succeed at a DC 31 Fortitude saving throw or take 2d6 points of Charisma drain as portions of their sanity and souls are pulled along with the blot. Xhamen-Dor's remains animate as a unique undead creature known as a {template/seeded} 24 hours after this event, but this is merely an echo of the Great Old One. Xhamen-Dor is reborn again when one of two events occur: the blot fired into space impacts a planet, or one of its surviving seeded returns to Carcosa and resurrects as the Great Old One. If the former, it can be centuries or even eons before Xhamen-Dor awakens again, but if the latter, the Great Old One can return within a matter of months or less. The save DC is Charisma-based.",
 			"",
 			"**Infected Dreams (Su)** Any knowledgeable creature that has succumbed to the yearly 1% chance of Xhamen-Dor's contagious lore ability or whose Strength score has been drained to 0 by dread decay can be targeted by the Great Old One's nightmare spell-like ability, regardless of the distance between the creature and Xhamen-Dor. In order to use infected dreams against a target, Xhamen-Dor must successfully affect that target with its nightmare spell-like ability. If the victim fails its saving throw against the nightmare, it becomes infected with the following virulent fungal blight.",
 			"",
@@ -950,7 +950,7 @@
 			"",
 			"Xhamen-Dor's cult is unusual in that once it becomes active, it spreads slowly until it reaches a tipping point. Then, its seeded minions quickly overtake entire populations. In most worlds where it is worshiped, its cult is small in number and isolated. Xhamen-Dor's places of worship are found in sewers, graveyards, and other shunned places within civilized realms, but in ruined cities they can expand to encompass multiple buildings. Xhamen-Dor grants access to the domains of Death, Evil, Plant, and Trickery and to the subdomains of Decay, Deception, Murder, and Undead. Its favored weapon is the spear.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)"
+			"**Family:** {family/Great Old One}"
 		]
 	},
 	"xhamen-dor": { "copyof": "great_old_one_xhamen-dor" },
@@ -997,7 +997,7 @@
 			"",
 			"**Str** 38, **Dex** 33, **Con**: 41, **Int** 30, **Wis** 33, **Cha**, 30  ",
 			"**Base Atk** +31; **CMB** +46 (+50 sunder); **CMD** 77 (79 vs. sunder)  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Great Fortitude](feat/great_fortitude), [Greater Sunder](feat/greater_sunder), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (bite, claw, tail slap)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind, poison)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Great Fortitude}, {feat/Greater Sunder}, {feat/Greater Vital Strike}, [Improved Critical (bite, claw, tail slap)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Power Attack}, [Quicken Spell-Like Ability (feeblemind, poison)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +42, Climb +56, Handle Animal +41, Heal +42, Intimidate +44, Knowledge (nature, religion) +41, Perception +45, Sense Motive +42, Spellcraft +41, Stealth +41, Survival +45, Swim +56, Use Magic Device +41  ",
 			"**Languages** Aklo, Common, Draconic, Undercommon; speak with animals (reptiles only); telepathy 100 ft.  ",
 			"**SQ** change shape (any serpentine form; shapechange), devastating, otherworldly insight",
@@ -1034,7 +1034,7 @@
 			"",
 			"Yig's clerics have access to the domains of Chaos, Community, Protection, and Scalykind, and to the subdomains of Defense, Dragon, Revelry, and Venom. His favored weapon is the punching dagger.",
 			"",
-			"**Family:** [Great Old One](family/great_old_one)",
+			"**Family:** {family/Great Old One}",
 			"",
 			"[^M]: mythic spell"
 		]
@@ -1073,7 +1073,7 @@
 			"",
 			"**Str** 22, **Dex** 19, **Con**: 22, **Int** 16, **Wis** 11, **Cha**, 13  ",
 			"**Base Atk** +7; **CMB** +13; **CMD** 27  ",
-			"**Feats** [Cleave](feat/cleave), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Step Up](feat/step_up), [Toughness](feat/toughness), [Vital Strike](feat/vital_strike), [Weapon Focus (scythe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Step Up}, {feat/Toughness}, {feat/Vital Strike}, [Weapon Focus (scythe)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +21 (+33 when jumping), Bluff +18, Climb +23, Escape Artist +21, Intimidate +15, Knowledge (nature) +20, Perception +17, Sense Motive +17, Stealth +21; **Racial Modifiers** +12 Acrobatics when jumping  ",
 			"**Languages** Aklo, Common, Giant, Sylvan  ",
 			"**SQ** boot stomp, heavy weapons, red cap  ",
@@ -1126,7 +1126,7 @@
 			"",
 			"**Str** -, **Dex** 27, **Con**: 22, **Int** 31, **Wis** 20, **Cha**, 27  ",
 			"**Base Atk** +17; **CMB** +25; **CMD** 44  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Command Undead](feat/command_undead), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Greater Spell Penetration](feat/greater_spell_penetration), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Spell Penetration](feat/spell_penetration)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Command Undead}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Greater Spell Penetration}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Spell Penetration}  ",
 			"**Skills** Craft (alchemy) +30, Diplomacy +25, Fly +36, Heal +22, Intimidate +25, Knowledge (arcana, planes, religion) +30, Knowledge (history) +27, Linguistics +27, Perception +25, Perform (sing) +25, Sense Motive +25, Spellcraft +30, Stealth +28, Use Magic Device +28  ",
 			"**Languages** Abyssal, Ancient Osiriani, Celestial, Common, Draconic, Infernal, Protean; telepathy 100 ft.  ",
 			"**SQ** change shape (corporeal form)",
@@ -1153,7 +1153,7 @@
 			"",
 			"In its natural, incorporeal form, Nethys's herald is a storm of magic, immediately recognizable as a creature of the arcane and divine. It rises just over 7 feet tall, and has a habit of floating a few inches above the ground instead of walking.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"arcanotheign": { "copyof": "herald_arcanotheign" },
@@ -1197,7 +1197,7 @@
 			"",
 			"**Str** 26, **Dex** 22, **Con**: 25, **Int** 26, **Wis** 19, **Cha**, 25  ",
 			"**Base Atk** +16; **CMB** +24 (+28 grapple); **CMD** 40  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Persuasive](feat/persuasive)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Deceitful}, {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Persuasive}  ",
 			"**Skills** Acrobatics +22, Bluff +30, Diplomacy +38, Disguise +30, Fly +14, Intimidate +38, Knowledge (arcana) +24, Knowledge (history, nobility) +16, Knowledge (planes) +27, Perception +23, Perform (oratory) +23, Sense Motive +23, Sleight of Hand +22, Spellcraft +27, Stealth +25; **Racial Modifiers** +8 Diplomacy, +8 Intimidate  ",
 			"**Languages** Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Elven, Giant, Infernal, Undercommon; tongues, telepathy 100 ft.  ",
 			"**SQ** veil of forms",
@@ -1220,7 +1220,7 @@
 			"",
 			"An infernal paradox at once wondrous and terrifying, tempting and blasphemous, Basileus serves as the herald of Asmodeus and the harbinger of Hell's will. Few who have met him survive the experience unchanged, for he is the very word of Hell.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"basileus": { "copyof": "herald_basileus" },
@@ -1265,7 +1265,7 @@
 			"",
 			"**Str** 18, **Dex** 17, **Con**: 24, **Int** 17, **Wis** 16, **Cha**, 22  ",
 			"**Base Atk** +18; **CMB** +23 (+25 sunder); **CMD** 39 (41 vs. sunder, can't be tripped)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Improved Critical (heavy flail)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Weapon Focus (heavy flail)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Combat Expertise}, {feat/Dodge}, [Improved Critical (heavy flail)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Sunder}, {feat/Iron Will}, [Weapon Focus (heavy flail)](feat/weapon_focus)  ",
 			"**Skills** Disable Device +18, Fly +16, Intimidate +24, Knowledge (geography) +18, Knowledge (history) +21, Knowledge (religion) +21, Perception +21, Sense Motive +21, Spellcraft +18, Stealth +17, Use Magic Device +24; **Racial Modifiers** +4 Acrobatics when jumping  ",
 			"**Languages** Aklo, Ancient Osiriani, Azlanti, Common, Cyclops, Draconic, Orvian; telepathy 100 ft.  ",
 			"**SQ** madness, no breath",
@@ -1304,7 +1304,7 @@
 			"",
 			"When not serving Groetus or called by the faithful to perform a specific task, the herald flies over the surface of Groetus's moon, pausing to alter parts of the writing on the surface or draw runes on a blank area untouched by the god's madness. Sometimes it can be seen curled up there on the moon or reclining somewhere on the Astral Plane as if sleeping, though the eerie being is clearly not at rest. It makes no gestures of friendship or comradeship toward other divine servants of Groetus, though it accepts their presence (and their insanity) as if used to them. On one occasion, it absorbed a servitor into itself, inhaling the creature like smoke, then expelling it a year later with no explanation or apparent harm to the creature.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"ends_voice": { "copyof": "herald_ends_voice" },
@@ -1350,7 +1350,7 @@
 			"",
 			"**Str** 20, **Dex** 19, **Con**: 22, **Int** 17, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +17; **CMB** +23 (+25 dirty trick, +25 drag); **CMD** 37 (39 vs. dirty trick, 39 vs. drag)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Critical (heavy pick)](feat/improved_critical), [Improved Dirty Trick](feat/improved_dirty_trick), [Improved Drag](feat/improved_drag), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (heavy pick)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, [Improved Critical (heavy pick)](feat/improved_critical), {feat/Improved Dirty Trick}, {feat/Improved Drag}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Vital Strike}, [Weapon Focus (heavy pick)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +21, Bluff +24, Fly +2, Handle Animal +15, Intimidate +21, Knowledge (history) +15, Knowledge (planes) +15, Knowledge (religion) +23, Perception +23, Perform (dance) +12, Sleight of Hand +24, Stealth +20  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 60 ft.  ",
 			"**SQ** change shape (human; alter self)",
@@ -1385,7 +1385,7 @@
 			"",
 			"While Gravedragger's physical body appears to be composed of nonliving materials, he's a living creature and this appearance is only his outer \"skin.\" When damaged, he bleeds red blood, pungent yellow bile, and-if the wound is large enough-dismembered humanoid body parts such as hands, limbs, and heads. As he doesn't eat, these parts are probably physical manifestations of the countless lives he has taken in the name of Zyphus. Immortal and able to recover from severe wounds, he would rather escape a fight than allow himself to die, for he has felt death as a mortal and has no desire to repeat the experience.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"### Habitat",
 			"",
@@ -1438,7 +1438,7 @@
 			"",
 			"**Str** 29, **Dex** 17, **Con**: 27, **Int** 14, **Wis** 16, **Cha**, 16  ",
 			"**Base Atk** +16; **CMB** +26; **CMD** 40  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Dodge](feat/dodge), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Power Attack](feat/power_attack), [Precise Shot](feat/precise_shot), [Quick Draw](feat/quick_draw)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Cleave}, {feat/Dodge}, {feat/Iron Will}, {feat/Point-Blank Shot}, {feat/Power Attack}, {feat/Precise Shot}, {feat/Quick Draw}  ",
 			"**Skills** Climb +15, Craft (stonemasonry, weapons) +15, Diplomacy +15, Intimidate +22, Knowledge (dungeoneering, history, planes, religion) +12, Perception +21, Perform (sing) +12, Sense Motive +16, Stealth +17 (+25 in rocky terrain); **Racial Modifiers** +8 Stealth in rocky terrain  ",
 			"**Languages** Common, Giant, Infernal  ",
 			"**SQ** stone giant blood, summon boulders",
@@ -1473,7 +1473,7 @@
 			"",
 			"As with mortal stone giants, Iuu's flesh appears to be made of rock, but he is a creature of flesh and blood. His flesh is much harder than normal stone, but when injured, he bleeds red. Having already lived a full mortal life once, he doesn't fear death, especially if his dying better serves Minderhal or the stone giant race as a whole. At worst, he would experience regret that he would not share another song or teach another student about the traditional ways of giantkind.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"### Habitat",
 			"",
@@ -1529,7 +1529,7 @@
 			"",
 			"**Str** 25, **Dex** 21, **Con**: 22, **Int** 22, **Wis** 24, **Cha**, 23  ",
 			"**Base Atk** +18; **CMB** +26; **CMD** 41  ",
-			"**Feats** [Cleave](feat/cleave), [Improved Initiative](feat/improved_initiative), [Improved Shield Bash](feat/improved_shield_bash), [Power Attack](feat/power_attack), [Shield Master](feat/shield_master), [Shield Slam](feat/shield_slam), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (longsword)](feat/weapon_focus), [Weapon Focus (heavy shield)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Improved Initiative}, {feat/Improved Shield Bash}, {feat/Power Attack}, {feat/Shield Master}, {feat/Shield Slam}, {feat/Two-Weapon Fighting}, [Weapon Focus (longsword)](feat/weapon_focus), [Weapon Focus (heavy shield)](feat/weapon_focus)  ",
 			"**Skills** Craft (weapons) +27, Diplomacy +15, Fly +6, Heal +16, Intimidate +27, Knowledge (arcana) +24, Knowledge (history) +24, Knowledge (nobility) +27, Knowledge (planes) +27, Knowledge (religion) +27, Perception +28, Sense Motive +28, Spellcraft +27, Swim +24  ",
 			"**Languages** Celestial, Common, Draconic, Infernal; truespeech  ",
 			"**SQ** divine trigger, lay on hands (15/day, 9d6 hit points, as an 18th-level paladin)",
@@ -1550,7 +1550,7 @@
 			"",
 			"The Hand of the Inheritor is a warrior angel, always ready to answer Iomedae's call whenever she must directly intervene on Golarion. With his angelic speed and might, he leads the charge when the Inheritor's celestial armies must go to war. A veteran of countless sorties into the Abyss, the Hand fights with a song of battle on his lips and unbreakable courage in his heart. The Hand stands 9 feet tall and weighs 900 pounds.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"hand_of_the_inheritor": { "copyof": "herald_hand_of_the_inheritor" },
@@ -1593,7 +1593,7 @@
 			"",
 			"**Str** 29, **Dex** 19, **Con**: -, **Int** 21, **Wis** 18, **Cha**, 16  ",
 			"**Base Atk** +18; **CMB** +28; **CMD** 42 (50 vs. trip)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Gunsmithing](feat/gunsmithing), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Stand Still](feat/stand_still), [Toughness](feat/toughness), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Great Fortitude}, {feat/Gunsmithing}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Stand Still}, {feat/Toughness}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Climb +18, Craft (any one) +23, Disable Device +22, Knowledge (engineering) +23, Knowledge (religion) +23, Perception +22, Sense Motive +13, Spellcraft +22, Use Magic Device +12  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic, Infernal  ",
 			"**SQ** always armed, change size, create soldiers, double damage against objects, emissary, integrated masterwork tools, master of crafting",
@@ -1636,7 +1636,7 @@
 			"",
 			"Latten Mechanism has a fondness for small clockwork objects and wind-up toys, such as rolling carts, hopping animals, and music boxes. It collects these treasures much the way noble's child might collect elaborate dolls. A priest who offers such a thing as part of a payment when the herald is called is likely to gain the herald's support, especially if the device features a clever mechanism, such as a dragon toy that utilizes a smokestick to create a miniature breath weapon, or a mechanical spider that utilizes a tanglefoot bag to catch bugs with tiny bursts of sticky webbing.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"### Habitat",
 			"",
@@ -1687,7 +1687,7 @@
 			"",
 			"**Str** 33, **Dex** 25, **Con**: -, **Int** 21, **Wis** 20, **Cha**, 22  ",
 			"**Base Atk** +15; **CMB** +27 (+31 grapple); **CMD** 44 (can't be tripped)  ",
-			"**Feats** [Cleave](feat/cleave), [Command Undead](feat/command_undead), [Critical Focus](feat/critical_focus), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Improved Iron Will](feat/improved_iron_will), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Stunning Critical](feat/stunning_critical)[^B], [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Cleave}, {feat/Command Undead}, {feat/Critical Focus}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}[^B], {feat/Improved Iron Will}, {feat/Improved Lightning Reflexes}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Stunning Critical}[^B], {feat/Toughness}  ",
 			"**Skills** Acrobatics +27 (+19 jump), Fly +28, Intimidate +29, Knowledge (planes) +25, Knowledge (religion) +28, Perception +28, Profession (cook) +25, Sense Motive +28, Stealth +26  ",
 			"**SQ** deathless, true herald",
 			"",
@@ -1719,7 +1719,7 @@
 			"",
 			"Although the Maw normally appears as a bare skull, it sometimes covers itself with its swarms. Whether this is out of a morbid sense of humor or an attempt to remember an old sensation from its life is unknown. It has confirmed that it was once a devourer, and before that a living creature, but it does not give further details.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1766,7 +1766,7 @@
 			"",
 			"**Str** 28, **Dex** 35, **Con**: 22, **Int** 15, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +17; **CMB** +28 (+30 bull rush); **CMD** 51 (53 vs. bull rush)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)[^B], [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)[^B]  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Bull Rush}, [Improved Critical (slam)](feat/improved_critical), {feat/Improved Initiative}[^B], {feat/Iron Will}, {feat/Mobility}, {feat/Power Attack}, {feat/Weapon Finesse}[^B]  ",
 			"**Skills** Acrobatics +29, Escape Artist +32, Fly +27, Knowledge (nature, religion) +22, Knowledge (planes) +13, Perception +22, Sense Motive +14, Stealth +24, Survival +11, Swim +17  ",
 			"**Languages** Aquan, Auran, Common, Druidic, Ignan, Sylvan, Terran  ",
 			"**SQ** change shape (air or water elemental; elemental body IV)",
@@ -1795,7 +1795,7 @@
 			"",
 			"The Herald of Gozreh rises to nearly 25 feet in height, and its changeable form usually weighs approximately 1 ton.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1841,7 +1841,7 @@
 			"",
 			"**Str** 25, **Dex** 16, **Con**: 20, **Int** 18, **Wis** 21, **Cha**, 23  ",
 			"**Base Atk** +19; **CMB** +26 (+28 disarm); **CMD** 49 (51 vs. disarm)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Spell Penetration](feat/spell_penetration)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Combat Expertise}, {feat/Dodge}, {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Spell Penetration}  ",
 			"**Skills** Bluff +19, Diplomacy +16, Fly +15, Handle Animal +16, Heal +27, Intimidate +28, Knowledge (history, planes, religion) +26, Knowledge (nature) +13, Perception +27, Sense Motive +27, Stealth +15  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic, Infernal  ",
 			"**SQ** change shape (incorporeal form), spirit touch",
@@ -1864,7 +1864,7 @@
 			"",
 			"The Steward of the Skein is Pharasma's foremost agent, a mighty warrior sent to restore the balance of fate, announce auspicious births or deaths, or stem a rising tide of undeath. She often appears as an incorporeal shade, making a pronouncement and then fading away, though countless creatures over the eons have fallen under her armored fists. She stands about 7 feet tall but weighs a mere 200 pounds.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"steward_of_the_skein": { "copyof": "herald_steward_of_the_skein" },
@@ -1910,7 +1910,7 @@
 			"",
 			"**Str** 24, **Dex** 19, **Con**: 24, **Int** 19, **Wis** 23, **Cha**, 22  ",
 			"**Base Atk** +15; **CMB** +23; **CMD** 37  ",
-			"**Feats** [Double Slice](feat/double_slice), [Great Fortitude](feat/great_fortitude), [Greater Two-Weapon Fighting](feat/greater_two-weapon_fighting), [Improved Initiative](feat/improved_initiative), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Iron Will](feat/iron_will), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (scimitar)](feat/weapon_focus)  ",
+			"**Feats** {feat/Double Slice}, {feat/Great Fortitude}, {feat/Greater Two-Weapon Fighting}, {feat/Improved Initiative}, {feat/Improved Two-Weapon Fighting}, {feat/Iron Will}, {feat/Two-Weapon Fighting}, [Weapon Focus (scimitar)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +19, Diplomacy +24, Fly +6, Heal +21, Intimidate +24, Knowledge (history, planes, religion) +22, Perception +24, Sense Motive +24, Stealth +18  ",
 			"**Languages** Celestial, Common; truespeech  ",
 			"**SQ** divine trigger, change shape (Small or Medium humanoid or elemental, alter self or elemental body II)",
@@ -1933,7 +1933,7 @@
 			"",
 			"Sunlord Thalachos is Sarenrae's favorite angel, serving as her liaison to the mortal world, the hosts of astral devas, and the ranks of other celestial rulers. He is the champion of the Dawnflower and her favorite weapon against the spawn of Rovagug. The herald stands 8 feet tall and weighs 350 pounds.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"sunlord_thalachos": { "copyof": "herald_sunlord_thalachos" },
@@ -1975,7 +1975,7 @@
 			"",
 			"**Str** 41, **Dex** 16, **Con**: 34, **Int** 3, **Wis** 15, **Cha**, 14  ",
 			"**Base Atk** +30; **CMB** +53 (+57 grapple); **CMD** 66  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Blind-Fight](feat/blind-fight), [Bleeding Critical](feat/bleeding_critical), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Great Cleave](feat/great_cleave), [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Run](feat/run), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Blind-Fight}, {feat/Bleeding Critical}, {feat/Cleave}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Great Cleave}, {feat/Great Fortitude}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Run}, {feat/Staggering Critical}  ",
 			"**Skills** Acrobatics +3 (+43 when jumping), Perception +43; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Aklo (can't speak)  ",
 			"**SQ** carapace, hibernation, powerful leaper, unstoppable force",
@@ -2002,7 +2002,7 @@
 			"",
 			"The statistics presented here for the Tarrasque differ slightly from those in the Bestiary-this version more accurately represents the Tarrasque as the mightiest of Rovagug's spawn.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"tarrasque": { "copyof": "herald_tarrasque" },
@@ -2047,7 +2047,7 @@
 			"",
 			"**Str** 24, **Dex** 26, **Con**: 22, **Int** 21, **Wis** 18, **Cha**, 24  ",
 			"**Base Atk** +17; **CMB** +25; **CMD** 51  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Hover}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}  ",
 			"**Skills** Acrobatics +28, Bluff +27, Diplomacy +24, Disguise +17, Fly +10, Heal +11, Intimidate +18, Knowledge (local, religion) +12, Knowledge (planes) +15, Perception +24, Perform (dance) +24, Profession (courtesan) +12, Sense Motive +24, Sleight of Hand +28, Stealth +24  ",
 			"**Languages** Auran, Celestial, Common, Draconic, Infernal; tongues  ",
 			"**SQ** change shape (female elf, half-elf, or human from Medium to Huge size; alter self or giant form II)",
@@ -2072,7 +2072,7 @@
 			"",
 			"Cayden Cailean's herald Thais is a personification of freedom and courage. She typically appears as a 15-foot-tall, angelic woman, but can change her size to be anywhere from 4 feet to 32 feet tall. She is always portrayed carrying her signature weapon, a crystalline halberd called Tyranny's Foil borrowed from Milani's armory. Three times per day as a standard action, she can use the weapon to open all nonmagical doors and break all nonmagical chains within 30 feet.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"thais": { "copyof": "herald_thais" },
@@ -2117,7 +2117,7 @@
 			"",
 			"**Str** 32, **Dex** 13, **Con**: 28, **Int** 10, **Wis** 15, **Cha**, 13  ",
 			"**Base Atk** +18; **CMB** +30 (+32 bull rush or overrun); **CMD** 41 (43 vs. bull rush or overrun)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Cleave}, {feat/Combat Reflexes}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Improved Overrun}, {feat/Power Attack}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +22, Climb +32, Intimidate +22, Knowledge (history) +21, Perception +23, Sense Motive +23  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal, Protean  ",
 			"**SQ** change shape (swarm form; see below), lord of battle, no breath",
@@ -2148,7 +2148,7 @@
 			"",
 			"The appearance of the First Blade transforms to match a style of armor that's impressive to those it will be facing in battle. Regardless of its form, it typically stands about 15 feet tall and weighs nearly 5 tons.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_first_blade": { "copyof": "herald_the_first_blade" },
@@ -2185,7 +2185,7 @@
 			"",
 			"**Str** 32, **Dex** 9, **Con**: -, **Int** 15, **Wis** 14, **Cha**, 13  ",
 			"**Base Atk** +18; **CMB** +31 (+33 bull rush); **CMD** 40 (46 vs. bull rush, 44 vs. trip)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Stand Still](feat/stand_still), [Throw Anything](feat/throw_anything), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Stand Still}, {feat/Throw Anything}, {feat/Toughness}  ",
 			"**Skills** Knowledge (dungeoneering, engineering, history, local, nature, religion) +11, Perception +20  ",
 			"**Languages** Celestial, Dwarven, Ignan, Terran  ",
 			"**SQ** ablative adaptation, defender's shield, dwarf traits (defensive training, hardy, hatred, stability, stonecunning, weapon familiarity)  ",
@@ -2213,7 +2213,7 @@
 			"",
 			"The Grand Defender is a powerful golem-like tomb that serves as the communal body and resting place of Torag's greatest dwarven heroes. It stands 18 feet tall and weighs approximately 10 tons.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_grand_defender": { "copyof": "herald_the_grand_defender" },
@@ -2258,7 +2258,7 @@
 			"",
 			"**Str** 39, **Dex** 14, **Con**: 25, **Int** 10, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +18; **CMB** +40 (+44 bull rush); **CMD** 53 (55 vs. bull rush, 57 vs. trip)  ",
-			"**Feats** [Dodge](feat/dodge), [Endurance](feat/endurance), [Greater Bull Rush](feat/greater_bull_rush), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (gore)](feat/improved_critical), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Run](feat/run), [Weapon Focus (gore)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dodge}, {feat/Endurance}, {feat/Greater Bull Rush}, {feat/Improved Bull Rush}, [Improved Critical (gore)](feat/improved_critical), {feat/Mobility}, {feat/Power Attack}, {feat/Run}, [Weapon Focus (gore)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +11, Handle Animal +13, Intimidate +19, Knowledge (nature) +12, Perception +22, Sense Motive +13, Stealth +7 (+15 in forests), Survival +13, Swim +26; **Racial Modifiers** +8 Stealth in forests  ",
 			"**Languages** Celestial, Common, Druidic, Sylvan (can't speak any language)  ",
 			"**SQ** bugle, cascade of spears",
@@ -2283,7 +2283,7 @@
 			"",
 			"Erastil's herald is rarely seen more than once in a given generation, and only when a settlement is in mortal danger. All good creatures of the forest recognize its near-divinity and come when they hear its bugling call. Other than its mighty summons, it does not speak to humanoids. It stands 60 feet tall and weighs approximately 140 tons.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_grim_white_stag": { "copyof": "herald_the_grim_white_stag" },
@@ -2325,7 +2325,7 @@
 			"",
 			"**Str** 28, **Dex** 20, **Con**: 26, **Int** 18, **Wis** 18, **Cha**, 20  ",
 			"**Base Atk** +15; **CMB** +25; **CMD** 40 (48 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Step Up](feat/step_up), [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (sting)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Hover}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Step Up}, [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (sting)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +20, Bluff +23, Climb +17, Diplomacy +23, Fly -1, Heal +11, Intimidate +23, Knowledge (history, planes) +15, Knowledge (nature) +12, Perception +22, Perform (dance) +12, Sense Motive +22, Spellcraft +14, Stealth +19  ",
 			"**Languages** Abyssal, Common, Elven; telepathy 100 ft.  ",
 			"**SQ** change shape (elf, wasp, or giant wasp; alter self or vermin shape II)",
@@ -2350,7 +2350,7 @@
 			"",
 			"The Menotherian is a personification of lust and vengeance. Bereft of morals, she seduces, tricks, or murders any creature necessary to complete whatever mission Calistria sends her to upon. The herald stands 14 feet tall, has a wingspan nearing 30 feet, and weighs 1,400 pounds.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_menotherian": { "copyof": "herald_the_menotherian" },
@@ -2394,7 +2394,7 @@
 			"",
 			"**Str** 20, **Dex** 31, **Con**: 20, **Int** 21, **Wis** 31, **Cha**, 22  ",
 			"**Base Atk** +17; **CMB** +27 (+29 disarm, +31 grapple, +29 trip); **CMD** 57 (59 vs. disarm, 59 vs. grapple, 59 vs. trip)  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Greater Grapple](feat/greater_grapple), [Improved Disarm](feat/improved_disarm), [Improved Grapple](feat/improved_grapple), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike)[^B], [Mobility](feat/mobility), [Stunning Fist](feat/stunning_fist)[^B], [Weapon Finesse](feat/weapon_finesse)[^B], [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Expertise}, {feat/Dodge}, {feat/Greater Grapple}, {feat/Improved Disarm}, {feat/Improved Grapple}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}[^B], {feat/Mobility}, {feat/Stunning Fist}[^B], {feat/Weapon Finesse}[^B], {feat/Wind Stance}  ",
 			"**Skills** Acrobatics +30 (+66 when jumping), Climb +13, Diplomacy +23, Handle Animal +14, Heal +22, Knowledge (history) +22, Knowledge (religion) +13, Perception +30, Perform (string) +23, Ride +27, Sense Motive +30, Sleight of Hand +30, Stealth +30, Swim +25  ",
 			"**Languages** Common, Tien, Vudrani; telepathy 100 ft.  ",
 			"**SQ** monk abilities",
@@ -2417,7 +2417,7 @@
 			"",
 			"When not acting on Irori's behalf, the Herald of Irori keeps busy with tending to animals, planting gardens, meditating, practicing martial arts forms, swimming, and quipping with students. The Herald of Irori stands just over 5 feet tall and weighs about 120 pounds.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2460,7 +2460,7 @@
 			"",
 			"**Str** 18, **Dex** 19, **Con**: 22, **Int** 19, **Wis** 22, **Cha**, 23  ",
 			"**Base Atk** +16; **CMB** +21 (+23 sunder); **CMD** 42 (44 vs. sunder)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder)[^B], [Iron Will](feat/iron_will)[^B], [Mobility](feat/mobility), [Skill Focus (Perception)](feat/skill_focus), [Step Up](feat/step_up), [Weapon Focus (glaive)](feat/weapon_focus), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Dodge}, {feat/Improved Iron Will}, {feat/Improved Sunder}[^B], {feat/Iron Will}[^B], {feat/Mobility}, [Skill Focus (Perception)](feat/skill_focus), {feat/Step Up}, [Weapon Focus (glaive)](feat/weapon_focus), {feat/Wind Stance}  ",
 			"**Skills** Acrobatics +12, Bluff +17, Diplomacy +17, Disguise +14, Fly +17, Handle Animal +14, Heal +14, Intimidate +17, Knowledge (religion) +12, Perception +31, Perform (dance) +22, Sense Motive +25, Spellcraft +20, Stealth +19, Use Magic Device +14  ",
 			"**Languages** Auran, Celestial, Common, Ignan, Shadowtongue  ",
 			"**SQ** inspiration, unearthly grace, change shape (Small or Medium humanoid; alter self)",
@@ -2485,7 +2485,7 @@
 			"",
 			"The Spirit of Adoration is a personification of resolute love, whose power lifts the heaviest heart and overcomes all obstacles. Her true form is that of a 10-foot-tall, angel-winged woman dressed in flowing clothes and bearing a shining steel glaive.",
 			"",
-			"**Family:** [Herald](family/herald)",
+			"**Family:** {family/Herald}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2531,7 +2531,7 @@
 			"",
 			"**Str** 16, **Dex** 35, **Con**: 24, **Int** 13, **Wis** 15, **Cha**, 14  ",
 			"**Base Atk** +17; **CMB** +20; **CMD** 43  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Dodge](feat/dodge), [Greater Feint](feat/greater_feint), [Improved Feint](feat/improved_feint), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Scorpion Style](feat/scorpion_style), [Spring Attack](feat/spring_attack), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Deflect Arrows}, {feat/Dodge}, {feat/Greater Feint}, {feat/Improved Feint}, {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Mobility}, {feat/Scorpion Style}, {feat/Spring Attack}, {feat/Two-Weapon Fighting}, {feat/Weapon Finesse}  ",
 			"**Skills** Appraise +12, Bluff +22, Climb +11, Craft (alchemy) +13, Knowledge (arcana, nature) +10, Knowledge (local) +13, Knowledge (planes) +12, Knowledge (religion) +9, Perception +26, Sense Motive +13, Stealth +32; **Racial Modifiers** +8 Bluff, +4 Perception  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal, Protean; telepathy 100 ft.  ",
 			"**SQ** change shape (Huge scorpion or scorpion-tailed human; shapechange), murderer's reward",
@@ -2558,7 +2558,7 @@
 			"",
 			"The Stabbing Beast is the herald of Norgorber, the god of greed, murder, secrets, and poison. It is an incredibly dangerous predator that uses its keen intellect and deadly poison to stalk and kill its prey. Its natural form is that of a huge scorpion, but it can also assume an armored humanoid shape suitable for stealth or interacting with Norgorber's followers. Though its main purpose for coming to Golarion is to kill, it has also been called to aid great thefts and bury terrible secrets.",
 			"",
-			"**Family:** [Herald](family/herald)"
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_stabbing_beast": { "copyof": "herald_the_stabbing_beast" },
@@ -2601,7 +2601,7 @@
 			"",
 			"**Str** 42, **Dex** 27, **Con**: 40, **Int** 31, **Wis** 32, **Cha**, 33  ",
 			"**Base Atk** +35; **CMB** +51; **CMD** 86  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Deadly Aim](feat/deadly_aim), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Critical (scythe)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Mounted Archery](feat/mounted_archery), [Mounted Combat](feat/mounted_combat), [Point-Blank Shot](feat/point-blank_shot), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (epidemic, plague storm)](feat/quicken_spell-like_ability) [Ride-By Attack](feat/ride-by_attack), [Sickening Critical](feat/sickening_critical), [Spirited Charge](feat/spirited_charge)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Deadly Aim}, {feat/Dodge}, {feat/Flyby Attack}, [Improved Critical (scythe)](feat/improved_critical), {feat/Improved Initiative}, {feat/Mobility}, {feat/Mounted Archery}, {feat/Mounted Combat}, {feat/Point-Blank Shot}, {feat/Power Attack}, [Quicken Spell-Like Ability (epidemic, plague storm)](feat/quicken_spell-like_ability) {feat/Ride-By Attack}, {feat/Sickening Critical}, {feat/Spirited Charge}  ",
 			"**Skills** Acrobatics +43, Bluff +49, Diplomacy +46, Fly +50, Intimidate +49, Knowledge (arcana, engineering, history, religion) +45, Knowledge (planes) +48, Perception +49, Ride +46, Sense Motive +49, Spellcraft +48, Stealth +46, Use Magic Device +49  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 300 ft.  ",
 			"**SQ** Horseman traits",
@@ -2636,7 +2636,7 @@
 			"",
 			"Apollyon is worshiped by those who carry, suffer from, or use disease, including neutral evil druids, vengeful lepers, wererats and the like. Apollyon also commands the allegiance of a significant portion of the daemon-worshiping urdefhan race. The Prince of Plagues is served by leukodaemons, his deacon servitor race, as well as astradaemons, diseased undead, monstrous rats, nuckelavees, otyughs, piscodaemons, and all manner of vermin. His unholy symbol is a yellow scythe, and the scythe is also his favored weapon. He grants access to the domains of Air, Darkness, Destruction, and Evil, and to the subdomains of Catastrophe, Daemon, Loss, and Night.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"**Family:** {family/Horsemen of the Apocalypse}",
 			"",
 			"[^M]: Apollyon can use this ability's mythic version in his realm."
 		]
@@ -2682,7 +2682,7 @@
 			"",
 			"**Str** 40, **Dex** 27, **Con**: 42, **Int** 35, **Wis** 32, **Cha**, 35  ",
 			"**Base Atk** +36; **CMB** +51 (+55 bull rush); **CMD** 89 (91 vs. bull rush)  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Double Slice](feat/double_slice), [Greater Bull Rush](feat/greater_bull_rush), [Greater Two-Weapon Fighting](feat/greater_two-weapon_fighting), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (quarterstaff)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Mounted Combat](feat/mounted_combat), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (circle of death, telekinesis)](feat/quicken_spell-like_ability) [Ride-By Attack](feat/ride-by_attack), [Spirited Charge](feat/spirited_charge), [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
+			"**Feats** {feat/Blinding Critical}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Double Slice}, {feat/Greater Bull Rush}, {feat/Greater Two-Weapon Fighting}, {feat/Improved Bull Rush}, [Improved Critical (quarterstaff)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Two-Weapon Fighting}, {feat/Mounted Combat}, {feat/Power Attack}, [Quicken Spell-Like Ability (circle of death, telekinesis)](feat/quicken_spell-like_ability) {feat/Ride-By Attack}, {feat/Spirited Charge}, {feat/Two-Weapon Fighting}  ",
 			"**Skills** Acrobatics +44, Bluff +51, Diplomacy +48, Intimidate +48, Knowledge (arcana, engineering, geography, history, religion) +48, Knowledge (planes) +51, Perception +50, Profession (sailor) +50, Ride +47, Sense Motive +50, Spellcraft +51, Stealth +47, Swim +59, Use Magic Device +51  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 300 ft.  ",
 			"**SQ** craft item, Horseman traits, reach of the Styx, transform mount",
@@ -2723,7 +2723,7 @@
 			"",
 			"Charon is worshiped by ferrymen and -women, grave robbers, undertakers, the undead, and so very many doomed and damned would-be immortals. The Horseman of Death is served by thanadaemons, his deacon servitor race, along with fiendish krakens, grim reapers, hags, hydrodaemons, river monsters, and numerous varieties of undead. Charon's unholy symbol is a skull with coins over its eye sockets, and the quarterstaff is his favored weapon. He grants access to the domains of Death, Evil, Knowledge, and Water, and to the subdomains of Daemon, Ice, Memory, and Undead.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"**Family:** {family/Horsemen of the Apocalypse}",
 			"",
 			"[^M]: Charon can use this ability's mythic version in his realm"
 		]
@@ -2767,7 +2767,7 @@
 			"",
 			"**Str** 46, **Dex** 29, **Con**: 40, **Int** 29, **Wis** 30, **Cha**, 31  ",
 			"**Base Atk** +33; **CMB** +51; **CMD** 86  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Critical Mastery](feat/critical_mastery), [Flyby Attack](feat/flyby_attack), [Greater Weapon Focus (greatsword)](feat/greater_weapon_focus), [Greater Weapon Specialization (greatsword)](feat/greater_weapon_specialization), [Improved Critical (greatsword)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mounted Combat](feat/mounted_combat), [Quicken Spell-Like Ability (telekinesis)](feat/quicken_spell-like_ability), [Ride-By Attack](feat/ride-by_attack), [Spirited Charge](feat/spirited_charge), [Staggering Critical](feat/staggering_critical), [Weapon Focus (greatsword)](feat/weapon_focus), [Weapon Specialization (greatsword)](feat/weapon_specialization)  ",
+			"**Feats** {feat/Blinding Critical}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Critical Mastery}, {feat/Flyby Attack}, [Greater Weapon Focus (greatsword)](feat/greater_weapon_focus), [Greater Weapon Specialization (greatsword)](feat/greater_weapon_specialization), [Improved Critical (greatsword)](feat/improved_critical), {feat/Improved Initiative}, {feat/Mounted Combat}, [Quicken Spell-Like Ability (telekinesis)](feat/quicken_spell-like_ability), {feat/Ride-By Attack}, {feat/Spirited Charge}, {feat/Staggering Critical}, [Weapon Focus (greatsword)](feat/weapon_focus), [Weapon Specialization (greatsword)](feat/weapon_specialization)  ",
 			"**Skills** Acrobatics +45, Bluff +46, Fly +49, Intimidate +46, Knowledge (arcana, engineering, history, religion) +42, Knowledge (planes) +45, Perception +46, Ride +45, Sense Motive +46, Spellcraft +42, Stealth +45, Use Magic Device +46  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 300 ft.  ",
 			"**SQ** corrupted flames, Horseman traits, warmonger",
@@ -2802,7 +2802,7 @@
 			"",
 			"Szuriel is worshiped by those associated with every facet of war, including everything leading up to it and arising in its bloody wake. Arms dealers, looters, mercenaries, soldiers, and warlords worship the Angel of Desolation. Szuriel also holds the allegiance of a significant number of the daemon-worshiping and daemon-created urdefhan race. The Seraph of Devastation is served by her deacon race of purrodaemons as well as carrion eaters, obcisidaemons, undead soldiers, war beasts, and warswornB4. Szuriel's unholy symbol is a pale hand and black sword, and the greatsword is her favored weapon. She grants access to the domains of Evil, Fire, Strength, and War, and to the subdomains of Blood, Daemon, Ferocity, and Tactics.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"**Family:** {family/Horsemen of the Apocalypse}",
 			"",
 			"[^M]: Szuriel can use this ability's mythic version in her realm."
 		]
@@ -2846,7 +2846,7 @@
 			"",
 			"**Str** 38, **Dex** 29, **Con**: 40, **Int** 31, **Wis** 32, **Cha**, 31  ",
 			"**Base Atk** +32; **CMB** +46 (+48 trip); **CMD** 81 (83 vs. trip)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (bite, claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Improved Vital Strike](feat/improved_vital_strike), [Mounted Combat](feat/mounted_combat), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (hunger for flesh)](feat/quicken_spell-like_ability), [Ride-By Attack](feat/ride-by_attack), [Spirited Charge](feat/spirited_charge), [Tiring Critical](feat/tiring_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Vital Strike}, [Improved Critical (bite, claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Trip}, {feat/Improved Vital Strike}, {feat/Mounted Combat}, {feat/Power Attack}, [Quicken Spell-Like Ability (hunger for flesh)](feat/quicken_spell-like_ability), {feat/Ride-By Attack}, {feat/Spirited Charge}, {feat/Tiring Critical}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +41, Bluff +45, Fly +44, Intimidate +45, Knowledge (arcana, dungeoneering, engineering, history, religion) +42, Knowledge (planes) +45, Perception +46, Ride +44, Sense Motive +46, Spellcraft +45, Stealth +44, Use Magic Device +45  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 300 ft.  ",
 			"**SQ** Horseman traits",
@@ -2883,7 +2883,7 @@
 			"",
 			"Trelmarixian's unholy symbol is a jackal skull viewed from the side as it clutches a solar eclipse in its jaws, and the spiked gauntlet is his favored weapon. He grants access to the domains of Earth, Evil, Madness, and Weather, and to the subdomains of Daemon, Decay, Insanity, and Seasons.",
 			"",
-			"**Family:** [Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse)",
+			"**Family:** {family/Horsemen of the Apocalypse}",
 			"",
 			"[^M]: Trelmarixian can use this ability's mythic version in his realm."
 		]
@@ -2938,7 +2938,7 @@
 			"",
 			"**Str** -, **Dex** 22, **Con**: 22, **Int** 14, **Wis** 20, **Cha**, 26  ",
 			"**Base Atk** +18; **CMB** +24; **CMD** 44  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Expertise](feat/combat_expertise), [Demonic Obedience](feat/demonic_obedience), [Dodge](feat/dodge), [Eschew Materials](feat/eschew_materials), [Improved Possession](feat/improved_possession), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Quicken Spell](feat/quicken_spell), [Spring Attack](feat/spring_attack), [Toughness](feat/toughness), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Expertise}, {feat/Demonic Obedience}, {feat/Dodge}, {feat/Eschew Materials}, {feat/Improved Possession}, {feat/Lightning Stance}, {feat/Mobility}, {feat/Quicken Spell}, {feat/Spring Attack}, {feat/Toughness}, {feat/Wind Stance}  ",
 			"**Skills** Bluff +33, Diplomacy +33, Fly +32, Knowledge (planes) +20, Knowledge (religion) +17, Perception +31, Sense Motive +23  ",
 			"**Languages** Abyssal, Draconic; telepathy 100 ft.  ",
 			"**SQ** eyes of darkness (7 rounds/day)  ",
@@ -3000,7 +3000,7 @@
 			"",
 			"**Str** 37, **Dex** 24, **Con**: 34, **Int** 12, **Wis** 18, **Cha**, 18  ",
 			"**Base Atk** +22; **CMB** +36 (+38 bull rush); **CMD** 58 (60 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Deadly Aim](feat/deadly_aim), [Endurance](feat/endurance), [Exotic Weapon Proficiency (bastard sword)](feat/exotic_weapon_proficiency), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bastard sword)](feat/improved_critical), [Improved Critical (composite longbow)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Precise Shot](feat/improved_precise_shot), [Iron Will](feat/iron_will), [Leadership](feat/leadership), [Lightning Reflexes](feat/lightning_reflexes), [Pinpoint Targeting](feat/pinpoint_targeting), [Point-Blank Shot](feat/point-blank_shot), [Power Attack](feat/power_attack), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Deadly Aim}, {feat/Endurance}, [Exotic Weapon Proficiency (bastard sword)](feat/exotic_weapon_proficiency), {feat/Improved Bull Rush}, [Improved Critical (bastard sword)](feat/improved_critical), [Improved Critical (composite longbow)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Precise Shot}, {feat/Iron Will}, {feat/Leadership}, {feat/Lightning Reflexes}, {feat/Pinpoint Targeting}, {feat/Point-Blank Shot}, {feat/Power Attack}, {feat/Precise Shot}, {feat/Rapid Shot}  ",
 			"**Skills** Intimidate +33, Knowledge (geography, nature) +13, Perception +33, Sense Motive +14, Stealth +25 (+29 in snow), Survival +33; **Racial Modifiers** +4 Stealth in snow  ",
 			"**Languages** Common, Giant, Hallit  ",
 			"**SQ** additional order, amazing initiative, camouflage, evasion, exceptional wealth, favored terrain (cold +4, mountain +2), hunter's bond (companions), pierce the darkness, quarry, recuperation, swift tracker, track +6, wild empathy +16, woodland stride  ",
@@ -3060,7 +3060,7 @@
 			"",
 			"**Str** 44, **Dex** 25, **Con**: 41, **Int** 3, **Wis** 29, **Cha**, 25  ",
 			"**Base Atk** +32; **CMB** +57 (+61 bull rush); **CMD** 74 (76 vs. bull rush)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Bull Rush](feat/greater_bull_rush), [Greater Vital Strike](feat/greater_vital_strike), [Hover](feat/hover), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (tail slap)](feat/improved_critical), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike), [Wingover](feat/wingover)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Bull Rush}, {feat/Greater Vital Strike}, {feat/Hover}, {feat/Improved Bull Rush}, [Improved Critical (tail slap)](feat/improved_critical), [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Vital Strike}, {feat/Wingover}  ",
 			"**Skills** Fly +24, Perception +38; **Racial Modifiers** +16 Perception  ",
 			"**Languages** Auran (can't speak)  ",
 			"**SQ** massive, storm flier",
@@ -3101,7 +3101,7 @@
 			"",
 			"Agyra has a particular hatred of the kaiju Mogaru, and often leaves her volcanic lair to fly west to the remote jungle lake that serves as Mogaru's home to clash with her nemesis. Mogaru's penchant for attacking coastal cities often results in a devastating escalation when Agyra arrives to do battle with the land-bound kaiju. Sometimes, methods of conjuring Agyra are used to deliberately lure the kaiju to a city besieged by Mogaru, but just as often her arrival seems to be driven by self-interest. Agyra typically manages to weaken Mogaru enough to drive him off, but is often slain herself in these battles, resurrecting and returning to her home at the same time Mogaru returns to his. The nature of this rivalry is unclear, but kaiju scholars believe that the two monsters have been enemies for longer than humanity has existed.",
 			"",
-			"**Family:** [Kaiju](family/kaiju)"
+			"**Family:** {family/Kaiju}"
 		]
 	},
 	"agyra": { "copyof": "kaiju_agyra" },
@@ -3138,7 +3138,7 @@
 			"",
 			"**Str** 47, **Dex** 20, **Con**: 40, **Int** 3, **Wis** 26, **Cha**, 23  ",
 			"**Base Atk** +30; **CMB** +56 (+60 bull rush, +60 grapple); **CMD** 71 (73 vs. bull rush, 83 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Bull Rush](feat/greater_bull_rush), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (claw)](feat/improved_critical), [Improved Critical (sting)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Bull Rush}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (claw)](feat/improved_critical), [Improved Critical (sting)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Lightning Reflexes}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Climb +31, Perception +37, Stealth +2 (+32 when burrowing); **Racial Modifiers** +16 Perception, +30 Stealth when burrowing  ",
 			"**Languages** Terran (can't speak)  ",
 			"**SQ** massive, no breath",
@@ -3171,7 +3171,7 @@
 			"",
 			"Bezravnis doesn't seem to be particularly vexed by the presence of other kaiju, and ignores them unless it is attacked first. Once attacked, however, the Inferno Below becomes singularly focused and deviates from its path to fight the target creature as long as it remains visible or alive. Smaller foes can sometimes distract the kaiju from its path in this manner if they can deal enough damage upon the creature to bait it into directing its furious rage on them.",
 			"",
-			"**Family:** [Kaiju](family/kaiju)"
+			"**Family:** {family/Kaiju}"
 		]
 	},
 	"bezravnis": { "copyof": "kaiju_bezravnis" },
@@ -3210,7 +3210,7 @@
 			"",
 			"**Str** 50, **Dex** 21, **Con**: 41, **Int** 3, **Wis** 30, **Cha**, 26  ",
 			"**Base Atk** +34; **CMB** +62 (+66 bull rush, +66 grapple, +66 sunder); **CMD** 79 (81 vs. bull rush, 81 vs. sunder)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Bull Rush](feat/greater_bull_rush), [Greater Sunder](feat/greater_sunder), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Bull Rush}, {feat/Greater Sunder}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Multiattack}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Perception +45, Swim +49; **Racial Modifiers** +16 Perception  ",
 			"**Languages** Aquan (can't speak)  ",
 			"**SQ** massive",
@@ -3245,7 +3245,7 @@
 			"",
 			"Mogaru stands 140 feet high and weighs 20,000 tons, and is nearly 300 feet long from nose to tail.",
 			"",
-			"**Family:** [Kaiju](family/kaiju)"
+			"**Family:** {family/Kaiju}"
 		]
 	},
 	"mogaru": { "copyof": "kaiju_mogaru" },
@@ -3287,7 +3287,7 @@
 			"",
 			"**Str** 48, **Dex** 37, **Con**: 42, **Int** 3, **Wis** 30, **Cha**, 29  ",
 			"**Base Atk** +35; **CMB** +62 (+66 bull rush); **CMD** 86 (88 vs. bull rush, can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Greater Bull Rush](feat/greater_bull_rush), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite, tail slap, wing)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lunge](feat/lunge), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Greater Bull Rush}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (bite, tail slap, wing)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lunge}, {feat/Multiattack}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Fly +34, Perception +34; **Racial Modifiers** +16 Perception  ",
 			"**Languages** Ignan (can't speak)  ",
 			"**SQ** devastating, massive, powerful blows (tail slap)",
@@ -3326,7 +3326,7 @@
 			"",
 			"Varklops has a particularly strong hatred of King Mogaru, as this kaiju alone can resist Varklops's rage. The reasons for this immunity are unknown, but certainly Mogaru matches Varklops's hatred, and battles between the two kaiju are the stuff of legend. Varklops is 200 feet long and weighs 16,000 tons.",
 			"",
-			"**Family:** [Kaiju](family/kaiju)"
+			"**Family:** {family/Kaiju}"
 		]
 	},
 	"varklops": { "copyof": "kaiju_varklops" },
@@ -3367,7 +3367,7 @@
 			"",
 			"**Str** 52, **Dex** 31, **Con**: 42, **Int** 3, **Wis** 32, **Cha**, 27  ",
 			"**Base Atk** +26; **CMB** +55 (+59 bull rush); **CMD** 76 (78 vs. bull rush, can't be tripped)  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Greater Bull Rush](feat/greater_bull_rush), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (tentacle)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blinding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, {feat/Greater Bull Rush}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (tentacle)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Lightning Reflexes}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Lunge}, {feat/Mobility}, {feat/Power Attack}, {feat/Vital Strike}, [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Climb +44, Perception +32, Swim +47; **Racial Modifiers** +16 Perception  ",
 			"**Languages** Aquan (can't speak)  ",
 			"**SQ** massive",
@@ -3408,7 +3408,7 @@
 			"",
 			"Queen Vorgozen is an immense mound of protoplasm nearly 80 feet in diameter. She weighs 24,000 tons.",
 			"",
-			"**Family:** [Kaiju](family/kaiju)"
+			"**Family:** {family/Kaiju}"
 		]
 	},
 	"vorgozen": { "copyof": "kaiju_vorgozen" },
@@ -3448,7 +3448,7 @@
 			"",
 			"**Str** 46, **Dex** 29, **Con**: 38, **Int** 3, **Wis** 26, **Cha**, 21  ",
 			"**Base Atk** +29; **CMB** +55 (+59 overrun); **CMD** 75 (77 vs. overrun, can't be tripped)  ",
-			"**Feats** [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Greater Overrun](feat/greater_overrun), [Improved Critical (bite, slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Overrun](feat/improved_overrun), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike), [Wingover](feat/wingover)  ",
+			"**Feats** {feat/Critical Focus}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Greater Overrun}, [Improved Critical (bite, slam)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Overrun}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Vital Strike}, {feat/Wingover}  ",
 			"**Skills** Fly +32, Perception +28, Swim +26; **Racial Modifiers** +16 Perception  ",
 			"**Languages** Auran (can't speak)  ",
 			"**SQ** massive, no breath, powerful blows (bite, slam), starflight",
@@ -3487,7 +3487,7 @@
 			"",
 			"Yarthoon is 250 feet long from head to tail and weighs 14,000 tons.",
 			"",
-			"**Family:** [Kaiju](family/kaiju)"
+			"**Family:** {family/Kaiju}"
 		]
 	},
 	"yarthoon": { "copyof": "kaiju_yarthoon" },
@@ -3528,7 +3528,7 @@
 			"",
 			"**Str** 21, **Dex** 20, **Con**: 20, **Int** 13, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +6; **CMB** +12; **CMD** 29 (33 vs. trip)  ",
-			"**Feats** [Dodge](feat/dodge), [Lightning Reflexes](feat/lightning_reflexes), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Dodge}, {feat/Lightning Reflexes}, {feat/Lightning Stance}, {feat/Mobility}, {feat/Spring Attack}, {feat/Wind Stance}  ",
 			"**Skills** Acrobatics +20 (+28 when jumping), Escape Artist +20, Intimidate +16, Knowledge (nature) +16, Perception +17, Stealth +16, Swim +28  ",
 			"**Languages** Aklo, Common, Sylvan  ",
 			"**SQ** amphibious, undersized weapons  ",
@@ -3595,7 +3595,7 @@
 			"",
 			"**Str** 25, **Dex** 23, **Con**: 34, **Int** 20, **Wis** 20, **Cha**, 30  ",
 			"**Base Atk** +19; **CMB** +27 (+31 disarm, +31 trip); **CMD** 49 (51 vs. disarm, can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Critical Focus](feat/critical_focus), [Eschew Materials](feat/eschew_materials), [Greater Disarm](feat/greater_disarm), [Greater Trip](feat/greater_trip), [Improved Critical (heavy flail)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Improved Trip](feat/improved_trip), [Multiweapon Defense](feat/multiweapon_defense), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Toughness](feat/toughness), [Weapon Focus (heavy flail)](feat/weapon_focus), [Weapon Focus (flail)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Critical Focus}, {feat/Eschew Materials}, {feat/Greater Disarm}, {feat/Greater Trip}, [Improved Critical (heavy flail)](feat/improved_critical), {feat/Improved Disarm}, {feat/Improved Trip}, {feat/Multiweapon Defense}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Toughness}, [Weapon Focus (heavy flail)](feat/weapon_focus), [Weapon Focus (flail)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +32, Bluff +36, Diplomacy +36, Fly +30, Intimidate +36, Knowledge (engineering) +26, Knowledge (religion) +31, Perception +39, Sense Motive +31, Stealth +28  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** bloodline arcana (corporeal undead affected by humanoid-affecting spells)  ",
@@ -3657,7 +3657,7 @@
 			"",
 			"**Str** 8, **Dex** 24, **Con**: 18, **Int** 18, **Wis** 20, **Cha**, 30  ",
 			"**Base Atk** +10; **CMB** +17; **CMD** 37  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Casting](feat/combat_casting), [Command Undead](feat/command_undead), [Dodge](feat/dodge), [Extra Revelation](feat/extra_revelation), [Improved Channel](feat/improved_channel), [Skill Focus (Heal)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Casting}, {feat/Command Undead}, {feat/Dodge}, {feat/Extra Revelation}, {feat/Improved Channel}, [Skill Focus (Heal)](feat/skill_focus), {feat/Toughness}, {feat/Weapon Finesse}  ",
 			"**Skills** Climb +7, Diplomacy +29, Escape Artist +26, Handle Animal +26, Heal +30, Knowledge (nature) +23, Perception +24, Sense Motive +24, Stealth +26, Swim +18  ",
 			"**Languages** Aklo, Celestial, Common, Elven, Polyglot, Sylvan  ",
 			"**SQ** inspiration, oracle's curse (clouded vision), revelations (armor of bones, near death, undead servitude, voice of the grave), unearthly grace, wild empathy +24  ",
@@ -3726,7 +3726,7 @@
 			"",
 			"**Str** 13, **Dex** 21, **Con**: -, **Int** 17, **Wis** 32, **Cha**, 31  ",
 			"**Base Atk** +11; **CMB** +12; **CMD** 32  ",
-			"**Feats** [Accursed Critical](feat/accursed_critical), [Craft Wondrous Item](feat/craft_wondrous_item), [Demonic Obedience](feat/demonic_obedience), [Empower Spell](feat/empower_spell), [Eschew Materials](feat/eschew_materials), [Extra Channel](feat/extra_channel), [Improved Critical (ray)](feat/improved_critical), [Mythic Spell Lore](feat/mythic_spell_lore), [Spell Focus (necromancy)](feat/spell_focus), [Thanatopic Spell](feat/thanatopic_spell), [Toughness](feat/toughness), [Weapon Focus (ray)](feat/weapon_focus)  ",
+			"**Feats** {feat/Accursed Critical}, {feat/Craft Wondrous Item}, {feat/Demonic Obedience}, {feat/Empower Spell}, {feat/Eschew Materials}, {feat/Extra Channel}, [Improved Critical (ray)](feat/improved_critical), {feat/Mythic Spell Lore}, [Spell Focus (necromancy)](feat/spell_focus), {feat/Thanatopic Spell}, {feat/Toughness}, [Weapon Focus (ray)](feat/weapon_focus)  ",
 			"**Skills** Intimidate +32, Knowledge (arcana, planes, religion) +28, Spellcraft +28, Use Magic Device +24  ",
 			"**Languages** Common  ",
 			"**SQ** amazing initiative, aura, bloodline arcana (+1 caster level with necromancy spells), combined spells (5th), exceptional wealth, ghoulish apotheosis (+4 Charisma), mythic spellcasting, recuperation  ",
@@ -3742,7 +3742,7 @@
 			"",
 			"#### Description",
 			"",
-			"Kortash Khain is the high priest on Golarion of the demon lord [Kabriri](faith/kabriri), the Lord of Everglut. He rules as Priest-King of Nemret Noktoria, a city of bone-white towers where ghouls dwell. His city lies deep in the vaults of Sekamina in the Darklands below Osirion. Kabriri rules over the Abyssal city of Everglut, a cyclopean necropolis inhabited by ghouls and riddled with tunnels. All Kortash Khain's immortal thought is bent on replicating his master's dead city within the living world.",
+			"Kortash Khain is the high priest on Golarion of the demon lord {faith/Kabriri}, the Lord of Everglut. He rules as Priest-King of Nemret Noktoria, a city of bone-white towers where ghouls dwell. His city lies deep in the vaults of Sekamina in the Darklands below Osirion. Kabriri rules over the Abyssal city of Everglut, a cyclopean necropolis inhabited by ghouls and riddled with tunnels. All Kortash Khain's immortal thought is bent on replicating his master's dead city within the living world.",
 			"",
 			"Though Khain has sent ambassadors to Thuvia, Osirion, and their neighbors to conduct trade negotiations, thoughts of war, insurrection, and murder are never far from his mind. Much of his wrath has been turned against the nearby inhabitants of the Darklands-his purges have largely depopulated Sekamina in the vicinity of his city. A fortunate few are merely dead and devoured-all of the rest have been absorbed into Khain's ever-growing ghoul army.",
 			"",
@@ -3790,7 +3790,7 @@
 			"",
 			"**Str** 20, **Dex** 23, **Con**: 26, **Int** 31, **Wis** 20, **Cha**, 25  ",
 			"**Base Atk** +17; **CMB** +23 (+27 grapple); **CMD** 41 (can't be tripped)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Craft Wondrous Item](feat/craft_wondrous_item), [Great Fortitude](feat/great_fortitude), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Scribe Scroll](feat/scribe_scroll)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Craft Wondrous Item}, {feat/Great Fortitude}, {feat/Hover}, {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Scribe Scroll}  ",
 			"**Skills** Diplomacy +24, Escape Artist +23, Fly +21, Heal +22, Intimidate +24, Knowledge (arcana) +30, Knowledge (dungeoneering) +27, Knowledge (history) +27, Knowledge (planes) +30, Knowledge (religion) +27, Perception +25, Sense Motive +25, Spellcraft +30, Stealth +22, Swim +22, Use Magic Device +27  ",
 			"**Languages** Aklo, Azlanti, Draconic, Infernal, Terran, Thassilonian; telepathy 100 ft.  ",
 			"**SQ** change shape (human; alter self), feed, spell-like crafting",
@@ -3839,19 +3839,19 @@
 			"{SOURCE Pathfinder #137: The City Outside of Time/86}  ",
 			"**XP** 2,457,600  ",
 			"LE Colossal outsider (evil, extraplanar, kyton, lawful)  ",
-			"**Init** +17; **Senses** darkvision 60 ft., [discern lies](spell/discern_lies), low-light vision, see in darkness, [true seeing](spell/true_seeing); Perception +41",
+			"**Init** +17; **Senses** darkvision 60 ft., {spell/discern lies}, low-light vision, see in darkness, {spell/true seeing}; Perception +41",
 			"",
 			"#### Defense",
 			"",
 			"**AC** 46, touch 24, flat-footed 32 (+13 Dex, +1 dodge, +22 natural, +8 profane, -8 size)  ",
 			"**hp** 610 (33d10+429); regeneration 30 (deific or mythic)  ",
 			"**Fort** +31, **Ref** +24, **Will** +23  ",
-			"**Defensive Abilities** cloak of ice, [freedom of movement](spell/freedom_of_movement); **DR** 20/epic, good, and silver; **Immune** charm effects, cold, compulsion effects, fear effects, nonlethal damage, pain, petrification, poison; **Resist** acid 30, electricity 30; **SR** 37",
+			"**Defensive Abilities** cloak of ice, {spell/freedom of movement}; **DR** 20/epic, good, and silver; **Immune** charm effects, cold, compulsion effects, fear effects, nonlethal damage, pain, petrification, poison; **Resist** acid 30, electricity 30; **SR** 37",
 			"",
 			"#### Offense",
 			"",
 			"**Speed** 30 ft., fly 60 ft. (good)  ",
-			"**Melee** +5 [wounding](magic-enhancement/wounding) rapier +43/+38/+33/+28 (4d6+17/15-20)  ",
+			"**Melee** +5 {magic-enhancement/wounding} rapier +43/+38/+33/+28 (4d6+17/15-20)  ",
 			"**Ranged** +3 dagger +42/+37/+32/+27 (3d6+15/17-20)  ",
 			"**Space** 30 ft., **Reach** 30 ft.  ",
 			"**Special Attacks** bloody icicles, freezing blast, unnerving gaze (120 ft., DC 32)  ",
@@ -3866,10 +3866,10 @@
 			"",
 			"**Str** 34, **Dex** 37, **Con**: 36, **Int** 27, **Wis** 20, **Cha**, 23  ",
 			"**Base Atk** +33; **CMB** +53; **CMD** 85  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Improved Critical (dagger, rapier)](feat/improved_critical), [Improved Feint](feat/improved_feint), [Improved Initiative](feat/improved_initiative), [Point-Blank Shot](feat/point-blank_shot), [Power Attack](feat/power_attack), [Precise Shot](feat/precise_shot), [Quick Draw](feat/quick_draw), [Weapon Focus (dagger, rapier)](feat/weapon_focus)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Blind-Fight}, {feat/Cleave}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Dodge}, [Improved Critical (dagger, rapier)](feat/improved_critical), {feat/Improved Feint}, {feat/Improved Initiative}, {feat/Point-Blank Shot}, {feat/Power Attack}, {feat/Precise Shot}, {feat/Quick Draw}, [Weapon Focus (dagger, rapier)](feat/weapon_focus)  ",
 			"**Skills** Bluff +42, Diplomacy +42, Fly +45, Intimidate +42, Knowledge (planes, religion) +44, Perception +41, Sense Motive +41, Sleight of Hand +46, Spellcraft +41, Stealth +33, Survival +38, Swim +48, Use Magic Device +39  ",
 			"**Languages** Abyssal, Aklo, Celestial, Common, Infernal, Shadowtongue; telepathy 300 ft.  ",
-			"**SQ** change shape ([libitinarii](monster/libitinarii), [polymorph](spell/polymorph)), icy logic",
+			"**SQ** change shape ({monster/libitinarii}, {spell/polymorph}), icy logic",
 			"",
 			"#### Ecology",
 			"",
@@ -3879,13 +3879,13 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Bloody Icicles (Su)** Inkariax can use the icicles embedded in his flesh as melee or thrown ranged weapons. He can retrieve up to four of these icicles per round as a swift action. When wielded as a melee weapon, an icicle is considered a +5 [wounding](magic-enhancement/wounding) rapier. When wielded as thrown ranged weapons, the icicles are considered +3 daggers. Icicles Inkariax retrieves from his flesh are immediately replaced, and he has hundreds of icicles embedded in his flesh that he can use for this purpose.",
+			"**Bloody Icicles (Su)** Inkariax can use the icicles embedded in his flesh as melee or thrown ranged weapons. He can retrieve up to four of these icicles per round as a swift action. When wielded as a melee weapon, an icicle is considered a +5 {magic-enhancement/wounding} rapier. When wielded as thrown ranged weapons, the icicles are considered +3 daggers. Icicles Inkariax retrieves from his flesh are immediately replaced, and he has hundreds of icicles embedded in his flesh that he can use for this purpose.",
 			"",
 			"**Cloak of Ice (Su)** Inkariax is immune to cold damage as well as spells with the cold descriptor, and he always treats any difficult terrain that results from magical or mundane ice as normal terrain. He gains a profane bonus to his Armor Class equal to his Intelligence bonus.",
 			"",
-			"**Freezing Blast (Su)** Inkariax can harness the power of absolute zero and release it in a burst around him with but a thought. Inkariax can use this ability five times per day as a standard action that doesn't provoke attacks of opportunity. When he does, creatures within 30 feet of him take 6d6 points of cold damage and 6d6 points of piercing damage that counts as evil and magic for the purpose of bypassing damage reduction. A successful DC 29 Fortitude saving throw halves both the cold and piercing damage. Additionally, creatures that fail this save must immediately attempt a DC 29 Will save. Failing this second save means a creature has been frozen solid and has become a supernaturally frozen, mindless, inert statue and is considered petrified, per [flesh to stone](spell/flesh_to_stone) (if the creature isn't made of flesh, this secondary ability has no effect). The creature can't be turned back to flesh by casting [stone to flesh](spell/stone_to_flesh), but it can be restored via [break enchantment](spell/break_enchantment). If the creature is not restored after a number of hours equal to the creature's Hit Dice, the creature dies and remains a perpetually frozen statue; it can't be returned to life except by the express intervention of a deity. The save DCs are Constitution-based.",
+			"**Freezing Blast (Su)** Inkariax can harness the power of absolute zero and release it in a burst around him with but a thought. Inkariax can use this ability five times per day as a standard action that doesn't provoke attacks of opportunity. When he does, creatures within 30 feet of him take 6d6 points of cold damage and 6d6 points of piercing damage that counts as evil and magic for the purpose of bypassing damage reduction. A successful DC 29 Fortitude saving throw halves both the cold and piercing damage. Additionally, creatures that fail this save must immediately attempt a DC 29 Will save. Failing this second save means a creature has been frozen solid and has become a supernaturally frozen, mindless, inert statue and is considered petrified, per {spell/flesh to stone} (if the creature isn't made of flesh, this secondary ability has no effect). The creature can't be turned back to flesh by casting {spell/stone to flesh}, but it can be restored via {spell/break enchantment}. If the creature is not restored after a number of hours equal to the creature's Hit Dice, the creature dies and remains a perpetually frozen statue; it can't be returned to life except by the express intervention of a deity. The save DCs are Constitution-based.",
 			"",
-			"**Icy Logic (Su)** Inkariax has absolute, logical control over the essence of cold. The save DCs for his spell-like abilities are based on his Intelligence rather than his Charisma. Additionally, at will, he can dispel any ongoing effect with the cold descriptor. This functions as [greater dispel magic](spell/greater_dispel_magic), although Inkariax automatically succeeds at any required dispel checks.",
+			"**Icy Logic (Su)** Inkariax has absolute, logical control over the essence of cold. The save DCs for his spell-like abilities are based on his Intelligence rather than his Charisma. Additionally, at will, he can dispel any ongoing effect with the cold descriptor. This functions as {spell/greater dispel magic}, although Inkariax automatically succeeds at any required dispel checks.",
 			"",
 			"**Unnerving Gaze (Ex)** A creature that succumbs to Inkariax's unnerving gaze becomes stunned for 1d4 rounds as it becomes convinced that the demagogue's bloody icicles are working their way through its body, slowly transforming it into a frozen, blood-soaked exhibit in Inkariax's menagerie.",
 			"",
@@ -3893,7 +3893,7 @@
 			"",
 			"The kyton demagogue known as the White Death is an ancient, mysterious, and aloof figure who dwells on the Plane of Shadow and is cloaked in the flesh-piercing bloody icicles, some of which stitch his mouth closed. For millennia he has lurked in his realm of Frozen Tears, located atop a thick sheet of shadowy ice over a frigid sea.",
 			"",
-			"Inkariax sprang fully formed from the plane's essence eons ago, terrible in his perfection, with flesh sculpted of ice and unadulterated, if surprisingly refined, sadism. The demagogue spent untold ages wandering the cosmos looking for the perfect place to keep his collection of wickedly preserved innocents, leaving carnage and abandoned menageries of victims along the way. When he finally happened upon the wastes that would become the Frozen Tears, Inkariax felt a surging empathic link with [Doloras](faith/doloras), the Queen of the Night of dispassion, whom he believed freed the entire kyton species from Hell. He then began constructing an elaborate and terrible citadel and surrounding realm from the sheer evil of the landscape before him. The screams of the first victims of Inkariax and his kytons are said to be woven into the realm's fabric in such a way as to drive any creature fool enough to stumble upon them to heinous thought and deeds.",
+			"Inkariax sprang fully formed from the plane's essence eons ago, terrible in his perfection, with flesh sculpted of ice and unadulterated, if surprisingly refined, sadism. The demagogue spent untold ages wandering the cosmos looking for the perfect place to keep his collection of wickedly preserved innocents, leaving carnage and abandoned menageries of victims along the way. When he finally happened upon the wastes that would become the Frozen Tears, Inkariax felt a surging empathic link with {faith/Doloras}, the Queen of the Night of dispassion, whom he believed freed the entire kyton species from Hell. He then began constructing an elaborate and terrible citadel and surrounding realm from the sheer evil of the landscape before him. The screams of the first victims of Inkariax and his kytons are said to be woven into the realm's fabric in such a way as to drive any creature fool enough to stumble upon them to heinous thought and deeds.",
 			"",
 			"Shortly after he claimed the territory, the Queen of the Night appeared unbidden in Inkariax's nascent realm. She spoke not a word to Inkariax, whose lost voice is said to be so horrific that its throaty growl could end civilizations. Instead, she merely gave him a wan glance and gifted him tears harvested from her diadem-her symbol of power. These gifts Inkariax turned into the [pendants of the first tears](magic-artifact/pendant_of_the_first_tears). Doloras wordlessly left that day, but ever since, Inkariax has seen her as the perfect, like-minded ally, and he has spent millennia attempting to again catch her attention with monuments and havens for her worshippers in his realm. It is unclear whether Doloras is testing the demagogue, playing a long game to destroy him, or merely taking her time to ally with him, but the unholy churches of Inkariax and her worshippers are tightly connected.",
 			"",
@@ -3905,7 +3905,7 @@
 			"",
 			"Inkariax has a long-standing connection to the infernal demigoddess Doloras, even beyond the debt all velstracs owe to her for setting them free from Hell. Doloras visited Inkariax before he built his realm, and the demagogue named it for Doloras's gift of frozen tears from her crown. Indeed, Inkariax built much of his realm in honor of the demigoddess, and he strives to earn her further favor.",
 			"",
-			"**Family:** [Kyton Demagogue](family/kyton_demagogue)"
+			"**Family:** {family/Kyton Demagogue}"
 		]
 	},
 	"inkariax": { "copyof": "kyton_demagogue_inkariax" }

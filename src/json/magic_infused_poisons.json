@@ -16,7 +16,7 @@
 			"**Effect** 1d2 Con damage; **Cure** 1 save  ",
 			"**Spell Effect** disfiguring touch (Will DC 13)",
 			"",
-			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), disfiguring touch; **Cost** 270 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, disfiguring touch; **Cost** 270 gp"
 		]
 	},
 	"burning_heart": {
@@ -36,7 +36,7 @@
 			"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour; **Cure** 1 save  ",
 			"**Spell Effect** touch of combustion (Reflex DC 11)",
 			"",
-			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), touch of combustion; **Cost** 125 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, touch of combustion; **Cost** 125 gp"
 		]
 	},
 	"dust_of_eox": {
@@ -56,7 +56,7 @@
 			"**Effect** 1d3 Str damage; **Cure** 2 consecutive saves  ",
 			"**Spell Effect** dispel magic",
 			"",
-			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), dispel magic; **Cost** 775 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, dispel magic; **Cost** 775 gp"
 		]
 	},
 	"liquid_influence": {
@@ -76,7 +76,7 @@
 			"**Effect** 1d3 Wis damage; **Cure** 2 consecutive saves  ",
 			"**Spell Effect** suggestion (Will DC 14)",
 			"",
-			"**Requirements** [Brew Potion](feat/brew_potion), [Infuse Poison](feat/infuse_poison), suggestion; **Cost** 525 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, suggestion; **Cost** 525 gp"
 		]
 	}
 }

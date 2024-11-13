@@ -11,15 +11,15 @@
 			"**Slot** ring; **CL** 11th  ",
 			"**Weight** &mdash;",
 			"",
-			"Stylistic flourishes and a stout design suggest dwarves had a hand in forging this thick ring. The precise engineering of the small moving parts shows the fine artistry that went into creating the item. The ring features two carved symbols that flank a faceted onyx: one resembles the flag of Taldor, and the other depicts the eye of [Aroden](faith/aroden).",
+			"Stylistic flourishes and a stout design suggest dwarves had a hand in forging this thick ring. The precise engineering of the small moving parts shows the fine artistry that went into creating the item. The ring features two carved symbols that flank a faceted onyx: one resembles the flag of Taldor, and the other depicts the eye of {faith/Aroden}.",
 			"",
-			"Each of these three elements can be activated once per day to use a certain spell: the Taldan flag for [hold person](spell/hold_person) (DC = 13 + 1 per additional triumph attained), the eye of Aroden for [prayer](spell/prayer), and the onyx for [stone shape](spell/stone_shape).",
+			"Each of these three elements can be activated once per day to use a certain spell: the Taldan flag for {spell/hold person} (DC = 13 + 1 per additional triumph attained), the eye of Aroden for {spell/prayer}, and the onyx for {spell/stone shape}.",
 			"",
 			"Encircling the ring is a second metal band that rotates in place and is studded with a single diamond. If the diamond is aligned with one of the symbols, the wearer gains a +2 luck bonus on certain saving throws: saves against enchantment spells and spell-like abilities if aligned with the Taldan flag, against evil effects if aligned with the eye of Aroden, or against earth and poison effects if aligned with the onyx. Aligning the ring with a symbol is a full-round action.",
 			"",
-			"**First Triumph:** Each element can be activated one additional time each day to use a different spell: the Taldan flag for [sending](spell/sending), the eye of Aroden for [death ward](spell/death_ward), and the onyx for [wall of stone](spell/wall_of_stone).",
+			"**First Triumph:** Each element can be activated one additional time each day to use a different spell: the Taldan flag for {spell/sending}, the eye of Aroden for {spell/death ward}, and the onyx for {spell/wall of stone}.",
 			"",
-			"**Second Triumph:** Each element can be activated one additional time each day to use a different spell: the Taldan flag for [mass suggestion](spell/mass_suggestion), the eye of Aroden for [disrupting weapon](spell/disrupting_weapon), and the onyx for [transmute rock to mud](spell/transmute_rock_to_mud)."
+			"**Second Triumph:** Each element can be activated one additional time each day to use a different spell: the Taldan flag for {spell/mass suggestion}, the eye of Aroden for {spell/disrupting weapon}, and the onyx for {spell/transmute rock to mud}."
 		]
 	},
 	"belt_of_the_last_wall": {
@@ -42,7 +42,7 @@
 			"",
 			"**Task** To be worthy of this relic, you must successfully prevent an innocent from being slain by a creature whose CR is at least 3 greater than your total level or Hit Dice (whichever is higher). For this task, an innocent is any creature whose Hit Dice is equal to or less than half your Hit Dice. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
-			"**Benefit** The Belt of the Last Wall's enhancement bonus increases to +4, and the damage reduction it provides increases to DR 2/adamantine. In addition, whenever an ally within 60 feet is attacked, the wearer can rip a shield free from the belt as an immediate action to grant that ally the benefits of [shield other](spell/shield_other) for 1 minute. This ability can be used 3 times; to regain a use, the wearer must affix a new shield worth at least 50 gp to the Belt of the Last Wall. Only one shield can be affixed to the Belt of the Last Wall per day."
+			"**Benefit** The Belt of the Last Wall's enhancement bonus increases to +4, and the damage reduction it provides increases to DR 2/adamantine. In addition, whenever an ally within 60 feet is attacked, the wearer can rip a shield free from the belt as an immediate action to grant that ally the benefits of {spell/shield other} for 1 minute. This ability can be used 3 times; to regain a use, the wearer must affix a new shield worth at least 50 gp to the Belt of the Last Wall. Only one shield can be affixed to the Belt of the Last Wall per day."
 		]
 	},
 	"dignitys_barb": {
@@ -63,9 +63,9 @@
 			"",
 			"**First Triumph:** Dignity's Barb is a +1 darkwood light crossbow and reduces miss chances from concealment by 10%. In addition, once per day when the weapon threatens a critical hit, the wielder can roll twice to confirm the critical and take the better result.",
 			"",
-			"**Second Triumph:** Dignity's Barb is a +1 [seeking](magic-enhancement/seeking) darkwood light crossbow.",
+			"**Second Triumph:** Dignity's Barb is a +1 {magic-enhancement/seeking} darkwood light crossbow.",
 			"",
-			"**Third Triumph:** Dignity's Barb is a +2 seeking darkwood light crossbow. The wielder can use its ability to roll twice to confirm a critical hit twice per day (though he can use it only once on a given critical threat). In addition, the wielder can attempt a lucky shot to foil a ranged attack. Once per day when a ranged weapon attack targets a creature within 30 feet of the wielder, the wielder can shoot Dignity's Barb at the projectile as an immediate action. He rolls a ranged attack, and if the result exceeds the attacker's roll, that attack is negated. This ability can be used only if Dignity's Barb is loaded or if the wielder can use [Rapid Reload](feat/rapid_reload) or a similar ability.",
+			"**Third Triumph:** Dignity's Barb is a +2 seeking darkwood light crossbow. The wielder can use its ability to roll twice to confirm a critical hit twice per day (though he can use it only once on a given critical threat). In addition, the wielder can attempt a lucky shot to foil a ranged attack. Once per day when a ranged weapon attack targets a creature within 30 feet of the wielder, the wielder can shoot Dignity's Barb at the projectile as an immediate action. He rolls a ranged attack, and if the result exceeds the attacker's roll, that attack is negated. This ability can be used only if Dignity's Barb is loaded or if the wielder can use {feat/Rapid Reload} or a similar ability.",
 			"",
 			"**Fourth Triumph:** Dignity's Barb is a +3 seeking darkwood light crossbow. Its wielder can use its ability to roll twice to confirm a critical hit at will.",
 			"",
@@ -86,17 +86,17 @@
 			"",
 			"This golden ring appears pristine on the outside, but the inside shows centuries of wear, leaving the inner band perpetually polished to a lighter hue than that of the ring's outer surfaces. A family crest adorns the front, depicting olive branches encircling two crowns, seemingly indicating a house dedicated to ambassadorship and diplomacy.",
 			"",
-			"The ring grants its wearer a +2 competence bonus on Diplomacy, Linguistics, and Perform checks. Once per day, the wearer can speak a command word to transform her appearance and clothing, as per [disguise self](spell/disguise_self). The appearance of her clothing automatically matches the customs of the dominant culture around her, typically that of the local nobility or ruling class. Her physical features don't match those of the local people, but features that would make her stand out-such as elf ears in a settlement where no elves live-diminish. This lasts up to 24 hours but can be dismissed at any time. The caster level of any spell effect generated by the ring is 1 + 2 per triumph attained.",
+			"The ring grants its wearer a +2 competence bonus on Diplomacy, Linguistics, and Perform checks. Once per day, the wearer can speak a command word to transform her appearance and clothing, as per {spell/disguise self}. The appearance of her clothing automatically matches the customs of the dominant culture around her, typically that of the local nobility or ruling class. Her physical features don't match those of the local people, but features that would make her stand out-such as elf ears in a settlement where no elves live-diminish. This lasts up to 24 hours but can be dismissed at any time. The caster level of any spell effect generated by the ring is 1 + 2 per triumph attained.",
 			"",
-			"**First Triumph:** The ring can be activated to use [charm person](spell/charm_person) (DC = 15 + 1 per additional triumph attained) and [comprehend languages](spell/comprehend_languages), each once per day.",
+			"**First Triumph:** The ring can be activated to use {spell/charm person} (DC = 15 + 1 per additional triumph attained) and {spell/comprehend languages}, each once per day.",
 			"",
 			"**Second Triumph:** The ring's competence bonus on Diplomacy, Linguistics, and Perform check is +3. When the wearer activates the ring's disguise, she can read, speak, and understand the most common language in the area that she doesn't already know for as long as the duration persists.",
 			"",
-			"**Third Triumph:** The wearer can activate the ring to use [charm person](spell/charm_person) at will, though if a creature succeeds at its save, it can't be targeted again for 24 hours. The ring can also be activated to use [charm monster](spell/charm_monster) (DC = 20 + 1 per additional triumph attained) once per day.",
+			"**Third Triumph:** The wearer can activate the ring to use {spell/charm person} at will, though if a creature succeeds at its save, it can't be targeted again for 24 hours. The ring can also be activated to use {spell/charm monster} (DC = 20 + 1 per additional triumph attained) once per day.",
 			"",
 			"**Fourth Triumph:** The ring's competence bonus on Diplomacy, Linguistics, and Perform checks is +5.",
 			"",
-			"**Fifth Triumph:** The wearer can use [mass suggestion](spell/mass_suggestion) (DC 24) once per day."
+			"**Fifth Triumph:** The wearer can use {spell/mass suggestion} (DC 24) once per day."
 		]
 	},
 	"grace_of_the_last_azlanti": {
@@ -113,13 +113,13 @@
 			"",
 			"This illustrious pendant, forged from Elysian bronze, bears the likeness of a single closed and winged eye. The pendant is encrusted with hundreds of valuable gemstones that seem to twinkle even in the absence of light.",
 			"",
-			"Tethered to a simple leather cord, this Elysian bronze pendant resembles the holy symbol of [Aroden](faith/aroden), save that it bears the likeness of a closed eye surrounded by a halo of precious gems. In addition to functioning as a holy symbol of Aroden, the Grace of the Last Azlanti is imbued with the very essence of the human spirit. Once per day, the wearer can speak a command word to gain one of the following feats as a bonus feat for 1 hour: [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), or [Skill Focus](feat/skill_focus). If the wearer already has [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), or [Lightning Reflexes](feat/lightning_reflexes), she can instead gain the improved version of that feat. If the wearer already has the improved version of one of these feats, she can instead spend one daily use of the Grace of the Last Azlanti to regain her daily use of that feat.",
+			"Tethered to a simple leather cord, this Elysian bronze pendant resembles the holy symbol of {faith/Aroden}, save that it bears the likeness of a closed eye surrounded by a halo of precious gems. In addition to functioning as a holy symbol of Aroden, the Grace of the Last Azlanti is imbued with the very essence of the human spirit. Once per day, the wearer can speak a command word to gain one of the following feats as a bonus feat for 1 hour: {feat/Great Fortitude}, {feat/Iron Will}, {feat/Lightning Reflexes}, or {feat/Skill Focus}. If the wearer already has {feat/Great Fortitude}, {feat/Iron Will}, or {feat/Lightning Reflexes}, she can instead gain the improved version of that feat. If the wearer already has the improved version of one of these feats, she can instead spend one daily use of the Grace of the Last Azlanti to regain her daily use of that feat.",
 			"",
 			"### Worthiness",
 			"",
 			"**Task** To be worthy of this relic, you must accomplish an incredible deed with the express purpose of defending humanity from enslavement, harm, or a similar threat. For example, defeating a lieutenant of the [Whispering Tyrant](monster/the_whispering_tyrant) whose CR is equal to or greater than your level + 3 is an appropriate task. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
-			"**Benefit** The wearer can activate the amulet three times per day. She can activate the amulet before the duration expires to replace the previously selected feat with another choice. In addition, the wearer can select from more feats when using this ability, adding [Expanded Arcana](feat/expanded_arcana) to the list as well as all feats with \"Extra\" in their name - such as [Extra Channel](feat/extra_channel), [Extra Rage Power](feat/extra_rage_power), [Extra Rogue Talent](feat/extra_rogue_talent), and so on - that list as a prerequisite a class feature the wearer has. When conveying the benefits of a feat with \"Extra\" in its name, the duration of the amulet's effect is only 10 minutes."
+			"**Benefit** The wearer can activate the amulet three times per day. She can activate the amulet before the duration expires to replace the previously selected feat with another choice. In addition, the wearer can select from more feats when using this ability, adding {feat/Expanded Arcana} to the list as well as all feats with \"Extra\" in their name - such as {feat/Extra Channel}, {feat/Extra Rage Power}, {feat/Extra Rogue Talent}, and so on - that list as a prerequisite a class feature the wearer has. When conveying the benefits of a feat with \"Extra\" in its name, the duration of the amulet's effect is only 10 minutes."
 		]
 	},
 	"jalnesins_broken_bonds": {
@@ -142,7 +142,7 @@
 			"",
 			"**Task** To be worthy of this relic, you must free at least a dozen enslaved or unjustly imprisoned innocents. For the purpose of this task, an innocent is any creature who was imprisoned without due process or whom you have proven innocent of any crime. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
-			"**Benefit** The weapon gains the [holy](magic-enhancement/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
+			"**Benefit** The weapon gains the {magic-enhancement/holy} weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a {spell/handy grapnel} spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
 		]
 	},
 	"korianas_blade": {
@@ -159,7 +159,7 @@
 			"",
 			"When the brave knight-commander Koriana of Zimar fell within the ranks of the Fifth Army of Exploration, her remains were returned home-along with her sundered steel shield. Her brother Tadric, distraught, focused only on creating a fitting legacy for Koriana's daughter. Devoting himself to the study of metalcraft and magical crafting, he eventually turned a shard of his sister's shield into a protective longsword. Though records indicate that Tadric's niece took up the sword and joined the military, her full tale and the blade's fate were lost to history. Rumors that she went into clandestine service for the royal family still circulate.",
 			"",
-			"Koriana's Blade is a +2 [defending](magic-enhancement/defending) longsword. It's strangely curved, betraying its origins, and has five gemstones in its pommel. Four are broken, but the white gem in the center is intact. Once per day, the wielder can trigger this gemstone as an immediate action to absorb and negate all darts targeting her from a [magic missile](spell/magic_missile) spell.",
+			"Koriana's Blade is a +2 {magic-enhancement/defending} longsword. It's strangely curved, betraying its origins, and has five gemstones in its pommel. Four are broken, but the white gem in the center is intact. Once per day, the wielder can trigger this gemstone as an immediate action to absorb and negate all darts targeting her from a {spell/magic missile} spell.",
 			"",
 			"When the wielder transfers at least 1 point of the weapon's enhancement bonus to her AC using the defending special ability, she also chooses one creature other than herself within 10 feet to gain a +1 bonus to AC until the wielder's next turn. This bonus is always +1, regardless of how much of the weapon's bonus the wielder transfers to her AC.",
 			"",
@@ -186,7 +186,7 @@
 			"",
 			"The haft of this stout, ornate metal lance has an intricate pommel resembling a starburst. Affixed to its handle is a decorative counterweight engraved with the image of a Taldan knight kneeling in prayer.",
 			"",
-			"This +2 [glorious](magic-enhancement/glorious) lance bears intricate decoration identifying it as the weapon of Taldan royalty-specifically Grand Prince Cyricas, the Leaping Lion. A wielder who is proficient in both lances and longspears can wield the Lance of the Leaping Lion as either weapon; shifting between these uses is a swift action. In addition, whenever the wielder attempts an Acrobatics check to jump, she is always treated as having a running start.",
+			"This +2 {magic-enhancement/glorious} lance bears intricate decoration identifying it as the weapon of Taldan royalty-specifically Grand Prince Cyricas, the Leaping Lion. A wielder who is proficient in both lances and longspears can wield the Lance of the Leaping Lion as either weapon; shifting between these uses is a swift action. In addition, whenever the wielder attempts an Acrobatics check to jump, she is always treated as having a running start.",
 			"",
 			"### Worthiness",
 			"",
@@ -207,13 +207,13 @@
 			"**Slot** armor; **CL** 15th  ",
 			"**Weight** 50 lbs.",
 			"",
-			"This storied suit of +3 [rallying](magic-enhancement/rallying) full plate was worn by General Ovetrian over the course of many conquests. It was recorded that General Ovetrian wore this armor when he was a part of the Fifth Army of Exploration, where he led a group into the River Kingdoms and places east. Plated in platinum with a slight wave pattern, the armor's surface bears a resemblance to white fur. The armor's visor is fashioned to look like a male lion's maned head, and it is hinged so it can be either worn up or pulled down to protect the face. Stories of the general's battles claim that entire lines of soldiers fled from the general when he rode into battle.",
+			"This storied suit of +3 {magic-enhancement/rallying} full plate was worn by General Ovetrian over the course of many conquests. It was recorded that General Ovetrian wore this armor when he was a part of the Fifth Army of Exploration, where he led a group into the River Kingdoms and places east. Plated in platinum with a slight wave pattern, the armor's surface bears a resemblance to white fur. The armor's visor is fashioned to look like a male lion's maned head, and it is hinged so it can be either worn up or pulled down to protect the face. Stories of the general's battles claim that entire lines of soldiers fled from the general when he rode into battle.",
 			"",
-			"Once every 10 minutes, the armor's wearer can slam the helm's visor shut as a standard action, exposing the lion-shead design. When he does, he can attempt to demoralize all enemies within 30 feet, and he gains a competence bonus on his Intimidate check equal to the armor's enhancement bonus to AC. Once per day, instead of attempting to demoralize enemies, he can take this action to afflict all creatures within 30 feet with [fear](spell/fear) (DC = 20 + 1 per additional triumph attained).",
+			"Once every 10 minutes, the armor's wearer can slam the helm's visor shut as a standard action, exposing the lion-shead design. When he does, he can attempt to demoralize all enemies within 30 feet, and he gains a competence bonus on his Intimidate check equal to the armor's enhancement bonus to AC. Once per day, instead of attempting to demoralize enemies, he can take this action to afflict all creatures within 30 feet with {spell/fear} (DC = 20 + 1 per additional triumph attained).",
 			"",
-			"**First Triumph:** Ovetrian's Plate is +4 [rallying](magic-enhancement/rallying) full plate. A creature demoralized by the armor's ability is frightened for the first round of the effect's duration and is then shaken as normal for the rest of the duration (if any). Three times per day, the wearer of the armor can touch an adjacent ally as a standard action to affect that ally with either [break enchantment](spell/break_enchantment) or [greater heroism](spell/greater_heroism). This ability can't be used more than once every 10 minutes.",
+			"**First Triumph:** Ovetrian's Plate is +4 {magic-enhancement/rallying} full plate. A creature demoralized by the armor's ability is frightened for the first round of the effect's duration and is then shaken as normal for the rest of the duration (if any). Three times per day, the wearer of the armor can touch an adjacent ally as a standard action to affect that ally with either {spell/break enchantment} or {spell/greater heroism}. This ability can't be used more than once every 10 minutes.",
 			"",
-			"**Second Triumph:** Ovetrian's Plate is +5 [rallying](magic-enhancement/rallying) full plate. When the wearer uses the armor's ability to demoralize enemies, he gains a morale bonus on attack rolls and damage rolls equal to the number of creatures that were demoralized. He also gains damage reduction of the same amount, which can't be overcome. These effects last for 1 round, but if the wearer successfully hits a foe suffering from a fear effect, the duration is extended by 1 round."
+			"**Second Triumph:** Ovetrian's Plate is +5 {magic-enhancement/rallying} full plate. When the wearer uses the armor's ability to demoralize enemies, he gains a morale bonus on attack rolls and damage rolls equal to the number of creatures that were demoralized. He also gains damage reduction of the same amount, which can't be overcome. These effects last for 1 round, but if the wearer successfully hits a foe suffering from a fear effect, the duration is extended by 1 round."
 		]
 	},
 	"scions_dagger": {
@@ -230,15 +230,15 @@
 			"",
 			"This elegant, jeweled blade looks ornamental, but it is just as vicious as any weapon. A large black sapphire glitters in the dagger's pommel, and the delicate work along the blade's handle shows amazing artistry. The dagger was forged by Grand Prince Penticus IV to protect his son from a deal he struck with strange outsiders-trading his firstborn in order to win the crown. But Penticus V used the blade to take his own life, denying his father's benefactors their prize and securing the throne for his brother, Tralian V.",
 			"",
-			"Scion's Dagger is a +3 [ghost touch](magic-enhancement/ghost_touch_weapon) mithral dagger. As a full-round action, the dagger's owner can designate up to four willing creatures in her presence as her bodyguards. As a standard action, each of these creatures can determine the owner's location and condition, as per status, as long as the owner is holding the blade. The dagger's owner can change the designated bodyguards as a full-round action, with each chosen creature beyond four replacing a prior choice.",
+			"Scion's Dagger is a +3 {magic-enhancement/ghost touch} mithral dagger. As a full-round action, the dagger's owner can designate up to four willing creatures in her presence as her bodyguards. As a standard action, each of these creatures can determine the owner's location and condition, as per status, as long as the owner is holding the blade. The dagger's owner can change the designated bodyguards as a full-round action, with each chosen creature beyond four replacing a prior choice.",
 			"",
-			"If the owner of Scion's Dagger dies while carrying or wielding the blade, her body evaporates into smoke and her soul transfers into the black sapphire as per [soul bind](spell/soul_bind), except anyone holding the dagger can attempt to raise her as though they has access to her intact body. This effect fails if a soul already occupies the gem. Alternatively, a creature holding the dagger can instead speak a command word to release the trapped soul into the afterlife.",
+			"If the owner of Scion's Dagger dies while carrying or wielding the blade, her body evaporates into smoke and her soul transfers into the black sapphire as per {spell/soul bind}, except anyone holding the dagger can attempt to raise her as though they has access to her intact body. This effect fails if a soul already occupies the gem. Alternatively, a creature holding the dagger can instead speak a command word to release the trapped soul into the afterlife.",
 			"",
-			"**First Triumph:** Once per day, the dagger's wielder can teleport any number of her bodyguards to her location, as per [teleport](spell/teleport). They must be willing and within 100 miles, and when they arrive, they appear within 20 feet of the dagger's wielder in unoccupied spaces chosen by the GM.",
+			"**First Triumph:** Once per day, the dagger's wielder can teleport any number of her bodyguards to her location, as per {spell/teleport}. They must be willing and within 100 miles, and when they arrive, they appear within 20 feet of the dagger's wielder in unoccupied spaces chosen by the GM.",
 			"",
-			"**Second Triumph:** Scion's Dagger is a +4 [ghost touch](magic-enhancement/ghost_touch_weapon) mithral dagger. Once per day as a swift action, the wielder can gain DR 1/- and fast healing 3 for 1 minute.",
+			"**Second Triumph:** Scion's Dagger is a +4 {magic-enhancement/ghost touch} mithral dagger. Once per day as a swift action, the wielder can gain DR 1/- and fast healing 3 for 1 minute.",
 			"",
-			"**Third Triumph:** Scion's Dagger is a +5 [ghost touch](magic-enhancement/ghost_touch_weapon) mithral dagger. When the wielder hits a humanoid with the dagger, she can activate the dagger as an immediate action to use [dominate person](spell/dominate_person) on the creature (DC 23) with a duration of 1 round. After the domination ends, the target is immune to this effect for 24 hours."
+			"**Third Triumph:** Scion's Dagger is a +5 {magic-enhancement/ghost touch} mithral dagger. When the wielder hits a humanoid with the dagger, she can activate the dagger as an immediate action to use {spell/dominate person} on the creature (DC 23) with a duration of 1 round. After the domination ends, the target is immune to this effect for 24 hours."
 		]
 	},
 	"standard_of_conquest": {
@@ -259,11 +259,11 @@
 			"",
 			"Once per day when the wielder begins a charge action, the standard bearer can use a swift action to call for a battle charge, causing the speed increase from the standard to become 20 feet for 1 round. Any affected creature that charges during this round also ignores the penalty to AC from its charge.",
 			"",
-			"**First Triumph:** Once per day, the standard bearer can activate the banner to teleport himself and up to five allies who are within 10 feet of him. This functions as [dimension door](spell/dimension_door), and each transported creature must arrive within 10 feet of the standard of conquest.",
+			"**First Triumph:** Once per day, the standard bearer can activate the banner to teleport himself and up to five allies who are within 10 feet of him. This functions as {spell/dimension door}, and each transported creature must arrive within 10 feet of the standard of conquest.",
 			"",
 			"**Second Triumph:** When the standard bearer calls for a battle charge, each affected creature gains a fly speed of 30 feet for 1 minute. The standard bearer can call for a battle charge twice per day.",
 			"",
-			"**Third Triumph:** The standard bearer and allies within 60 feet who can see the standard gain a +1 morale bonus on attack rolls. When the standard bearer calls for a battle charge, each affected creature is also affected by [greater heroism](spell/greater_heroism) with a duration of 1 minute."
+			"**Third Triumph:** The standard bearer and allies within 60 feet who can see the standard gain a +1 morale bonus on attack rolls. When the standard bearer calls for a battle charge, each affected creature is also affected by {spell/greater heroism} with a duration of 1 minute."
 		]
 	},
 	"subtle_mask": {
@@ -280,15 +280,15 @@
 			"",
 			"Fashioned to surround the wearer's eyes and cover the forehead and cheekbones, this mask is made of porcelain inset with blue and green gems and decorated with golden filigree. When donned, the mask seems to disappear, leaving its golden patterns as tattoos on the wearer's face and coloring one of the wearer's eyes green and the other blue. The wearer can remove the mask normally, causing it to appear as a porcelain mask once again.",
 			"",
-			"The wearer gains a +2 competence bonus on Sense Motive checks and can use [comprehend languages](spell/comprehend_languages) once per day.",
+			"The wearer gains a +2 competence bonus on Sense Motive checks and can use {spell/comprehend languages} once per day.",
 			"",
-			"**First Triumph:** The wearer can mentally activate the mask as a swift action while conversing with someone or observing a conversation to use [detect thoughts](spell/detect_thoughts) (DC = 17 + 1 per additional triumph attained) on a single participant in the conversation. This requires spending the normal number of rounds to detect surface thoughts and can be used for a total of 9 rounds per day. These rounds don't need to be consecutive.",
+			"**First Triumph:** The wearer can mentally activate the mask as a swift action while conversing with someone or observing a conversation to use {spell/detect thoughts} (DC = 17 + 1 per additional triumph attained) on a single participant in the conversation. This requires spending the normal number of rounds to detect surface thoughts and can be used for a total of 9 rounds per day. These rounds don't need to be consecutive.",
 			"",
-			"**Second Triumph:** The mask grants the wearer a +2 enhancement bonus to Charisma. When the wearer mentally activates the mask, she also detects magical effects as if she were using [arcane sight](spell/arcane_sight) and concentrating on the creature. This happens automatically during the first round of concentration.",
+			"**Second Triumph:** The mask grants the wearer a +2 enhancement bonus to Charisma. When the wearer mentally activates the mask, she also detects magical effects as if she were using {spell/arcane sight} and concentrating on the creature. This happens automatically during the first round of concentration.",
 			"",
 			"**Third Triumph:** The mask's enhancement bonus to Charisma is +4.",
 			"",
-			"**Fourth Triumph:** The mask's enhancement bonus to Charisma is +6. When the wearer mentally activates the mask, she also detects whether the target is lying throughout the concentration, as per [discern lies](spell/discern_lies) (DC 22). Once per day, the wearer can speak a command word to use [true seeing](spell/true_seeing)."
+			"**Fourth Triumph:** The mask's enhancement bonus to Charisma is +6. When the wearer mentally activates the mask, she also detects whether the target is lying throughout the concentration, as per {spell/discern lies} (DC 22). Once per day, the wearer can speak a command word to use {spell/true seeing}."
 		]
 	},
 	"taldariss_bequeathal": {
@@ -305,13 +305,13 @@
 			"",
 			"This ramshackle suit of full plate looks cobbled together from old pieces scavenged from several suits of armor, each proudly displaying an insignia of the Taldan royal family. The armor shines with a glimmer of holy light.",
 			"",
-			"This suit of +2 mithral full plate is covered in dozens of markings representing Taldor's royal family, and it grants the wearer a relic reservoir of 1 point. By spending 1 point whenever she gains a morale bonus, the wearer can increase her morale bonus by 1 for the effect's duration (maximum 24 hours). The relic reservoir regains its points once per day when the wearer meditates in quiet contemplation for 1 hour, which can be done as part of an 8-hour rest. Taldaris's Bequeathal bestows 1 permanent negative level to any evil creature who attempts to wear it. The negative level remains as long as the armor is worn and disappears when the armor is removed. This negative level cannot be overcome in any way (including by [restoration](spell/restoration) spells) while the armor is worn.",
+			"This suit of +2 mithral full plate is covered in dozens of markings representing Taldor's royal family, and it grants the wearer a relic reservoir of 1 point. By spending 1 point whenever she gains a morale bonus, the wearer can increase her morale bonus by 1 for the effect's duration (maximum 24 hours). The relic reservoir regains its points once per day when the wearer meditates in quiet contemplation for 1 hour, which can be done as part of an 8-hour rest. Taldaris's Bequeathal bestows 1 permanent negative level to any evil creature who attempts to wear it. The negative level remains as long as the armor is worn and disappears when the armor is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
 			"",
 			"### Worthiness",
 			"",
 			"**Task** To be worthy of this relic, you must earn [Iomedae's](faith/iomedae) blessing by performing a miraculous act of heroic righteousness worthy of inclusion among the Acts of Iomedae, as determined by the GM, and you must perform this act while wearing the relic.",
 			"",
-			"**Benefit** The armor's enhancement bonus increases to +3, it gains the [determination](magic-enhancement/determination) armor special ability, and it gains the [defiant](magic-enhancement/defiant) armor special ability against evil dragons, evil outsiders, and evil undead. In addition, the number of points in the relic's reservoir increases to 3, and the wearer can spend 1 point as a standard action to transform into a [dire lion](monster/dire_lion), as [beast shape II](spell/beast_shape_2). This is a spell-like ability that uses the armor's caster level."
+			"**Benefit** The armor's enhancement bonus increases to +3, it gains the {magic-enhancement/determination} armor special ability, and it gains the {magic-enhancement/defiant} armor special ability against evil dragons, evil outsiders, and evil undead. In addition, the number of points in the relic's reservoir increases to 3, and the wearer can spend 1 point as a standard action to transform into a {monster/dire lion}, as {spell/beast shape II}. This is a spell-like ability that uses the armor's caster level."
 		]
 	}
 }

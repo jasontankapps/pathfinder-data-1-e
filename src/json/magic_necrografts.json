@@ -13,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, [undead anatomy II](spell/undead_anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, create undead, [undead anatomy II](spell/undead_anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
 		]
 	},
 	"gravespawn_gland": {
@@ -32,7 +32,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, inflict critical wounds, creator must have 11 ranks in Heal; **Cost** 3100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, animate dead, inflict critical wounds, creator must have 11 ranks in Heal; **Cost** 3100 gp"
 		]
 	},
 	"necrograft_arm": {
@@ -49,7 +49,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 6000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 6000 gp"
 		]
 	},
 	"necrograft_leg": {
@@ -66,7 +66,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 3200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 3200 gp"
 		]
 	},
 	"sallowflesh": {
@@ -83,7 +83,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), animate dead, hide from undead, creator must have 5 ranks in Heal; **Cost** 10000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, animate dead, hide from undead, creator must have 5 ranks in Heal; **Cost** 10000 gp"
 		]
 	},
 	"stranglers_tongue": {
@@ -100,7 +100,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead, hold person, creator must have 5 ranks in Heal; **Cost** 18000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, create undead, hold person, creator must have 5 ranks in Heal; **Cost** 18000 gp"
 		]
 	}
 }

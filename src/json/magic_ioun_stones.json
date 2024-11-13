@@ -35,7 +35,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 12 gp, 5 sp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 12 gp, 5 sp",
 			"",
 			"### Dull Gray Stone (Cracked) Ioun Stone",
 			"",
@@ -53,7 +53,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 12 gp, 5 sp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 12 gp, 5 sp",
 			"",
 			"### Dull Gray Stone (Normal) Ioun Stone",
 			"",
@@ -71,7 +71,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 12 gp, 5 sp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 12 gp, 5 sp"
 		]
 	},
 	"amethyst_pyramid": {
@@ -97,7 +97,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [hide from undead](spell/hide_from_undead), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hide from undead}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Amethyst Pyramid (Flawed) Ioun Stone",
 			"",
@@ -115,7 +115,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [hide from undead](spell/hide_from_undead), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hide from undead}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Amethyst Pyramid (Cracked) Ioun Stone",
 			"",
@@ -133,7 +133,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [hide from undead](spell/hide_from_undead), creator must be 12th level; **Cost** 75 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hide from undead}, creator must be 12th level; **Cost** 75 gp"
 		]
 	},
 	"gold_nodule": {
@@ -159,7 +159,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [tongues](spell/tongues), creator must be 12th level; **Cost** 2,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/tongues}, creator must be 12th level; **Cost** 2,500 gp",
 			"",
 			"### Gold Nodule (Flawed) Ioun Stone",
 			"",
@@ -177,7 +177,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [tongues](spell/tongues), creator must be 12th level; **Cost** 500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/tongues}, creator must be 12th level; **Cost** 500 gp",
 			"",
 			"### Gold Nodule (Cracked) Ioun Stone",
 			"",
@@ -195,7 +195,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [tongues](spell/tongues), creator must be 12th level; **Cost** 75 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/tongues}, creator must be 12th level; **Cost** 75 gp"
 		]
 	},
 	"deep_red_sphere": {
@@ -222,11 +222,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Improved Unarmed Strike](feat/improved_unarmed_strike).",
+			"{feat/Improved Unarmed Strike}.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Deep Red Sphere (Flawed) Ioun Stone",
 			"",
@@ -240,11 +240,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Improved Unarmed Strike](feat/improved_unarmed_strike).",
+			"{feat/Improved Unarmed Strike}.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Deep Red Sphere (Cracked) Ioun Stone",
 			"",
@@ -258,11 +258,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Improved Unarmed Strike](feat/improved_unarmed_strike).",
+			"{feat/Improved Unarmed Strike}.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"incandescent_blue_sphere": {
@@ -289,11 +289,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Blind-Fight](feat/blind-fight).",
+			"{feat/Blind-Fight}.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Incandescent Blue Sphere (Flawed) Ioun Stone",
 			"",
@@ -307,11 +307,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Blind-Fight](feat/blind-fight).",
+			"{feat/Blind-Fight}.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,600 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,600 gp",
 			"",
 			"### Incandescent Blue Sphere (Cracked) Ioun Stone",
 			"",
@@ -325,11 +325,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Blind-Fight](feat/blind-fight).",
+			"{feat/Blind-Fight}.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"mossy_disk": {
@@ -362,7 +362,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be 12th level; **Cost** 2,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, creator must be 12th level; **Cost** 2,500 gp",
 			"",
 			"### Mossy Disk (Flawed) Ioun Stone",
 			"",
@@ -380,7 +380,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be 12th level; **Cost** 800 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, creator must be 12th level; **Cost** 800 gp",
 			"",
 			"### Mossy Disk (Cracked) Ioun Stone",
 			"",
@@ -398,7 +398,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"pale_blue_rhomboid": {
@@ -429,7 +429,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Pale Blue Rhomboid (Flawed) Ioun Stone",
 			"",
@@ -447,7 +447,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Pale Blue Rhomboid (Cracked) Ioun Stone",
 			"",
@@ -465,7 +465,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"pale_ruby_trillian": {
@@ -491,7 +491,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 2,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, creator must be 12th level; **Cost** 2,500 gp",
 			"",
 			"### Pale Ruby Trillian (Flawed) Ioun Stone",
 			"",
@@ -509,7 +509,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 800 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, creator must be 12th level; **Cost** 800 gp",
 			"",
 			"### Pale Ruby Trillian (Cracked) Ioun Stone",
 			"",
@@ -527,7 +527,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"pink_and_green_sphere": {
@@ -558,7 +558,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Pink and Green Sphere (Flawed) Ioun Stone",
 			"",
@@ -576,7 +576,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Pink and Green Sphere (Cracked) Ioun Stone",
 			"",
@@ -594,7 +594,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"scarlet_and_blue_sphere": {
@@ -625,7 +625,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Scarlet and Blue Sphere (Flawed) Ioun Stone",
 			"",
@@ -643,7 +643,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Scarlet and Blue Sphere (Cracked) Ioun Stone",
 			"",
@@ -661,7 +661,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"turquoise_sphere": {
@@ -687,7 +687,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [charm animal](spell/charm_animal), [longstrider](spell/longstrider), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm animal}, {spell/longstrider}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Turquoise Sphere (Flawed) Ioun Stone",
 			"",
@@ -705,7 +705,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [charm animal](spell/charm_animal), [longstrider](spell/longstrider), creator must be 12th level; **Cost** 2,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm animal}, {spell/longstrider}, creator must be 12th level; **Cost** 2,500 gp",
 			"",
 			"### Turquoise Sphere (Cracked) Ioun Stone",
 			"",
@@ -723,7 +723,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [charm animal](spell/charm_animal), [longstrider](spell/longstrider), creator must be 12th level; **Cost** 100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm animal}, {spell/longstrider}, creator must be 12th level; **Cost** 100 gp"
 		]
 	},
 	"dark_blue_rhomboid": {
@@ -746,7 +746,7 @@
 			"",
 			"#### Description",
 			"",
-			"[Alertness](feat/alertness).",
+			"{feat/Alertness}.",
 			"",
 			"#### Resonance",
 			"",
@@ -754,7 +754,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Dark Blue Rhomboid (Cracked) Ioun Stone",
 			"",
@@ -772,7 +772,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 200 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 200 gp",
 			"",
 			"### Dark Blue Rhomboid (Flawed) Ioun Stone",
 			"",
@@ -790,7 +790,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 150 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 150 gp"
 		]
 	},
 	"mulberry_pentacle": {
@@ -816,7 +816,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](spell/eagles_splendor), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Mulberry Pentacle (Flawed) Ioun Stone",
 			"",
@@ -834,7 +834,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](spell/eagles_splendor), creator must be 12th level; **Cost** 4,350 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, creator must be 12th level; **Cost** 4,350 gp",
 			"",
 			"### Mulberry Pentacle (Cracked) Ioun Stone",
 			"",
@@ -852,7 +852,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](spell/eagles_splendor), creator must be 12th level; **Cost** 200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, creator must be 12th level; **Cost** 200 gp"
 		]
 	},
 	"vermilion_rhomboid": {
@@ -878,7 +878,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Vermilion Rhomboid (Flawed) Ioun Stone",
 			"",
@@ -896,7 +896,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Vermilion Rhomboid (Cracked) Ioun Stone",
 			"",
@@ -914,7 +914,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, creator must be 12th level; **Cost** 200 gp"
 		]
 	},
 	"agate_ellipsoid": {
@@ -940,7 +940,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [augury](spell/augury), creator must be 12th level; **Cost** 500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, creator must be 12th level; **Cost** 500 gp",
 			"",
 			"### Agate Ellipsoid (Flawed) Ioun Stone",
 			"",
@@ -958,7 +958,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [augury](spell/augury), creator must be 12th level; **Cost** 400 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, creator must be 12th level; **Cost** 400 gp",
 			"",
 			"### Agate Ellipsoid (Cracked) Ioun Stone",
 			"",
@@ -976,7 +976,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [augury](spell/augury), creator must be 12th level; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, creator must be 12th level; **Cost** 250 gp"
 		]
 	},
 	"dusty_rose_prism": {
@@ -1007,7 +1007,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 2,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 2,500 gp",
 			"",
 			"### Dusty Rose Prism (Flawed) Ioun Stone",
 			"",
@@ -1025,7 +1025,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 2,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 2,000 gp",
 			"",
 			"### Dusty Rose Prism (Cracked) Ioun Stone",
 			"",
@@ -1043,7 +1043,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 250 gp"
 		]
 	},
 	"iridescent_spindle": {
@@ -1074,7 +1074,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 9,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 9,000 gp",
 			"",
 			"### Iridescent Spindle (Flawed) Ioun Stone",
 			"",
@@ -1092,7 +1092,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 6,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 6,000 gp",
 			"",
 			"### Iridescent Spindle (Cracked) Ioun Stone",
 			"",
@@ -1110,7 +1110,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 250 gp"
 		]
 	},
 	"tourmaline_sphere": {
@@ -1143,7 +1143,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 500 gp",
 			"",
 			"### Tourmaline Sphere (Cracked) Ioun Stone",
 			"",
@@ -1161,7 +1161,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 400 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 400 gp",
 			"",
 			"### Tourmaline Sphere (Flawed) Ioun Stone",
 			"",
@@ -1179,7 +1179,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 300 gp"
 		]
 	},
 	"magenta_prism": {
@@ -1205,7 +1205,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), [eagle's splendor](spell/eagles_splendor), [fox's cunning](spell/foxs_cunning), [owl's wisdom](spell/owls_wisdom), creator must be 12th level; **Cost** 8,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}, {spell/eagle's splendor}, {spell/fox's cunning}, {spell/owl's wisdom}, creator must be 12th level; **Cost** 8,000 gp",
 			"",
 			"### Magenta Prism (Flawed) Ioun Stone",
 			"",
@@ -1223,7 +1223,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), [eagle's splendor](spell/eagles_splendor), [fox's cunning](spell/foxs_cunning), [owl's wisdom](spell/owls_wisdom), creator must be 12th level; **Cost** 6,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}, {spell/eagle's splendor}, {spell/fox's cunning}, {spell/owl's wisdom}, creator must be 12th level; **Cost** 6,000 gp",
 			"",
 			"### Magenta Prism (Cracked) Ioun Stone",
 			"",
@@ -1241,7 +1241,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), [eagle's splendor](spell/eagles_splendor), [fox's cunning](spell/foxs_cunning), [owl's wisdom](spell/owls_wisdom), creator must be 12th level; **Cost** 400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}, {spell/eagle's splendor}, {spell/fox's cunning}, {spell/owl's wisdom}, creator must be 12th level; **Cost** 400 gp"
 		]
 	},
 	"clear_spindle": {
@@ -1272,7 +1272,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 2,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 2,000 gp",
 			"",
 			"### Clear Spindle (Flawed) Ioun Stone",
 			"",
@@ -1290,7 +1290,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 2,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 2,000 gp",
 			"",
 			"### Clear Spindle (Cracked) Ioun Stone",
 			"",
@@ -1308,7 +1308,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 500 gp"
 		]
 	},
 	"nacreous_gray_sphere": {
@@ -1334,7 +1334,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Nacreous Gray Sphere (Cracked) Ioun Stone",
 			"",
@@ -1352,7 +1352,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 1,700 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 1,700 gp",
 			"",
 			"### Nacreous Gray Sphere (Flawed) Ioun Stone",
 			"",
@@ -1370,7 +1370,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 500 gp"
 		]
 	},
 	"orange_prism": {
@@ -1401,7 +1401,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 15,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 15,000 gp",
 			"",
 			"### Orange Prism (Flawed) Ioun Stone",
 			"",
@@ -1419,7 +1419,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 12,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 12,500 gp",
 			"",
 			"### Orange Prism (Cracked) Ioun Stone",
 			"",
@@ -1437,7 +1437,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 500 gp"
 		]
 	},
 	"pink_rhomboid": {
@@ -1468,7 +1468,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Pink Rhomboid (Flawed) Ioun Stone",
 			"",
@@ -1486,7 +1486,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Pink Rhomboid (Cracked) Ioun Stone",
 			"",
@@ -1496,7 +1496,7 @@
 			"",
 			"#### Description",
 			"",
-			"This stone grants a +4 competence bonus on one type of check affected by the [Endurance](feat/endurance) feat.",
+			"This stone grants a +4 competence bonus on one type of check affected by the {feat/Endurance} feat.",
 			"",
 			"#### Resonance",
 			"",
@@ -1504,7 +1504,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 700 gp"
 		]
 	},
 	"scarlet_and_green_cabochon": {
@@ -1522,7 +1522,7 @@
 			"",
 			"#### Description",
 			"",
-			"This stone grants you the [Endurance](feat/endurance) feat.",
+			"This stone grants you the {feat/Endurance} feat.",
 			"",
 			"#### Resonance",
 			"",
@@ -1530,7 +1530,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Scarlet and Green Cabochon (Flawed) Ioun Stone",
 			"",
@@ -1540,7 +1540,7 @@
 			"",
 			"#### Description",
 			"",
-			"This stone grants the wearer the [Endurance](feat/endurance) feat. Anything that would make the wearer fatigued instead makes him sickened. Anything that would make the wearer exhausted instead makes him nauseated.",
+			"This stone grants the wearer the {feat/Endurance} feat. Anything that would make the wearer fatigued instead makes him sickened. Anything that would make the wearer exhausted instead makes him nauseated.",
 			"",
 			"#### Resonance",
 			"",
@@ -1548,7 +1548,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Scarlet and Green Cabochon (Cracked) Ioun Stone",
 			"",
@@ -1558,7 +1558,7 @@
 			"",
 			"#### Description",
 			"",
-			"This stone grants a +4 bonus on one type of check affected by the [Endurance](feat/endurance) feat.",
+			"This stone grants a +4 bonus on one type of check affected by the {feat/Endurance} feat.",
 			"",
 			"#### Resonance",
 			"",
@@ -1566,7 +1566,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bull's strength](spell/bulls_strength), [cat's grace](spell/cats_grace), creator must be 12th level; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, creator must be 12th level; **Cost** 700 gp"
 		]
 	},
 	"gamboge_nodule": {
@@ -1592,7 +1592,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [neutralize poison](spell/neutralize_poison), creator must be 12th level; **Cost** 27,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, creator must be 12th level; **Cost** 27,000 gp",
 			"",
 			"### Gamboge Nodule (Flawed) Ioun Stone",
 			"",
@@ -1610,7 +1610,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [neutralize poison](spell/neutralize_poison), creator must be 12th level; **Cost** 20,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, creator must be 12th level; **Cost** 20,000 gp",
 			"",
 			"### Gamboge Nodule (Cracked) Ioun Stone",
 			"",
@@ -1628,7 +1628,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [neutralize poison](spell/neutralize_poison), creator must be 12th level; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, creator must be 12th level; **Cost** 750 gp"
 		]
 	},
 	"opalescent_white_pyramid": {
@@ -1650,11 +1650,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Weapon Focus](feat/weapon_focus) with the stone's keyed weapon.",
+			"{feat/Weapon Focus} with the stone's keyed weapon.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [transformation](spell/transformation) or proficiency in the appropriate weapon, creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/transformation} or proficiency in the appropriate weapon, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Opalescent White Pyramid (Flawed) Ioun Stone",
 			"",
@@ -1668,11 +1668,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Weapon Focus](feat/weapon_focus) with the stone's keyed weapon.",
+			"{feat/Weapon Focus} with the stone's keyed weapon.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [transformation](spell/transformation) or proficiency in the appropriate weapon, creator must be 12th level; **Cost** 1,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/transformation} or proficiency in the appropriate weapon, creator must be 12th level; **Cost** 1,500 gp",
 			"",
 			"### Opalescent White Pyramid (Cracked) Ioun Stone",
 			"",
@@ -1686,11 +1686,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Weapon Focus](feat/weapon_focus) with the stone's keyed weapon.",
+			"{feat/Weapon Focus} with the stone's keyed weapon.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [transformation](spell/transformation) or proficiency in the appropriate weapon, creator must be 12th level; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/transformation} or proficiency in the appropriate weapon, creator must be 12th level; **Cost** 750 gp"
 		]
 	},
 	"pale_orange_rhomboid": {
@@ -1716,7 +1716,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [magic jar](spell/magic_jar), creator must be 12th level; **Cost** 100,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic jar}, creator must be 12th level; **Cost** 100,000 gp",
 			"",
 			"### Pale Orange Rhomboid (Flawed) Ioun Stone",
 			"",
@@ -1734,7 +1734,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [magic jar](spell/magic_jar), creator must be 12th level; **Cost** 6,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic jar}, creator must be 12th level; **Cost** 6,000 gp",
 			"",
 			"### Pale Orange Rhomboid (Cracked) Ioun Stone",
 			"",
@@ -1752,7 +1752,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [magic jar](spell/magic_jar), creator must be 12th level; **Cost** 900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic jar}, creator must be 12th level; **Cost** 900 gp"
 		]
 	},
 	"emerald_ellipsoid": {
@@ -1778,7 +1778,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [false life](spell/false_life), creator must be 12th level; **Cost** 10,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/false life}, creator must be 12th level; **Cost** 10,000 gp",
 			"",
 			"### Emerald Ellipsoid (Flawed) Ioun Stone",
 			"",
@@ -1796,7 +1796,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [false life](spell/false_life), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/false life}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Emerald Ellipsoid (Cracked) Ioun Stone",
 			"",
@@ -1814,7 +1814,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [false life](spell/false_life), creator must be 12th level; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/false life}, creator must be 12th level; **Cost** 1,000 gp"
 		]
 	},
 	"vibrant_purple_prism": {
@@ -1846,7 +1846,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 18,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 18,000 gp",
 			"",
 			"### Vibrant Purple Prism (Normal) Ioun Stone",
 			"",
@@ -1864,7 +1864,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 18,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 18,000 gp",
 			"",
 			"### Vibrant Purple Prism (Cracked) Ioun Stone",
 			"",
@@ -1882,7 +1882,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,000 gp"
 		]
 	},
 	"pale_lavender_ellipsoid": {
@@ -1913,7 +1913,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 10,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 10,000 gp",
 			"",
 			"### Pale Lavender Ellipsoid (Flawed) Ioun Stone",
 			"",
@@ -1931,7 +1931,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 9,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 9,000 gp",
 			"",
 			"### Pale Lavender Ellipsoid (Cracked) Ioun Stone",
 			"",
@@ -1949,7 +1949,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,250 gp"
 		]
 	},
 	"brown_thorny": {
@@ -1973,11 +1973,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Brown Thorny (Flawed) Ioun Stone",
 			"",
@@ -1991,11 +1991,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,450 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,450 gp",
 			"",
 			"### Brown Thorny (Cracked) Ioun Stone",
 			"",
@@ -2009,11 +2009,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,600 gp"
 		]
 	},
 	"crimson_thorny": {
@@ -2037,11 +2037,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Crimson Thorny (Flawed) Ioun Stone",
 			"",
@@ -2055,11 +2055,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,450 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,450 gp",
 			"",
 			"### Crimson Thorny (Cracked) Ioun Stone",
 			"",
@@ -2073,11 +2073,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,600 gp"
 		]
 	},
 	"orange_thorny": {
@@ -2101,11 +2101,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Orange Thorny (Flawed) Ioun Stone",
 			"",
@@ -2119,11 +2119,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,450 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,450 gp",
 			"",
 			"### Orange Thorny (Cracked) Ioun Stone",
 			"",
@@ -2137,11 +2137,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,600 gp"
 		]
 	},
 	"silver_thorny": {
@@ -2165,11 +2165,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Silver Thorny (Flawed) Ioun Stone",
 			"",
@@ -2183,11 +2183,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,450 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,450 gp",
 			"",
 			"### Silver Thorny (Cracked) Ioun Stone",
 			"",
@@ -2201,11 +2201,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,600 gp"
 		]
 	},
 	"teal_thorny": {
@@ -2229,11 +2229,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Teal Thorny (Flawed) Ioun Stone",
 			"",
@@ -2247,11 +2247,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,450 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,450 gp",
 			"",
 			"### Teal Thorny (Cracked) Ioun Stone",
 			"",
@@ -2265,11 +2265,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,600 gp"
 		]
 	},
 	"violet_thorny": {
@@ -2293,11 +2293,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp",
 			"",
 			"### Violet Thorny (Flawed) Ioun Stone",
 			"",
@@ -2311,11 +2311,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 3,450 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 3,450 gp",
 			"",
 			"### Violet Thorny (Cracked) Ioun Stone",
 			"",
@@ -2329,11 +2329,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"Grants the bearer the benefit of either the [Acrobatic](feat/acrobatic) or the [Athletic](feat/athletic) feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
+			"Grants the bearer the benefit of either the {feat/Acrobatic} or the {feat/Athletic} feat. The feat varies by individual ioun stone, and each is equally likely (50% chance).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,600 gp"
 		]
 	},
 	"amber_spindle": {
@@ -2359,7 +2359,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [resistance](spell/resistance), creator must be 12th level; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator must be 12th level; **Cost** 5,000 gp",
 			"",
 			"### Amber Spindle (Flawed) Ioun Stone",
 			"",
@@ -2377,7 +2377,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [resistance](spell/resistance), creator must be 12th level; **Cost** 3,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator must be 12th level; **Cost** 3,000 gp",
 			"",
 			"### Amber Spindle (Cracked) Ioun Stone",
 			"",
@@ -2395,7 +2395,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [resistance](spell/resistance), creator must be 12th level; **Cost** 1,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator must be 12th level; **Cost** 1,700 gp"
 		]
 	},
 	"pearly_white_spindle": {
@@ -2426,7 +2426,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 10,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 10,000 gp",
 			"",
 			"### Pearly White Spindle (Flawed) Ioun Stone",
 			"",
@@ -2444,7 +2444,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 9,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 9,000 gp",
 			"",
 			"### Pearly White Spindle (Cracked) Ioun Stone",
 			"",
@@ -2462,7 +2462,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 1,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 1,700 gp"
 		]
 	},
 	"pale_green_prism": {
@@ -2493,7 +2493,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 15,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 15,000 gp",
 			"",
 			"### Pale Green Prism (Flawed) Ioun Stone",
 			"",
@@ -2511,7 +2511,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 14,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 14,000 gp",
 			"",
 			"### Pale Green Prism (Cracked) Ioun Stone",
 			"",
@@ -2529,7 +2529,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 2,000 gp"
 		]
 	},
 	"western_star": {
@@ -2551,7 +2551,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 2,000 gp"
 		]
 	},
 	"eastern_star": {
@@ -2576,7 +2576,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), comprehend languages; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, comprehend languages; **Cost** 3,000 gp"
 		]
 	},
 	"azure_briolette": {
@@ -2598,11 +2598,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the [grave words](spell/grave_words) spell, except that only the user can hear the corpse speak.",
+			"This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the {spell/grave words} spell, except that only the user can hear the corpse speak.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 7,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 7,500 gp",
 			"",
 			"### Azure Briolette (Cracked) Ioun Stone",
 			"",
@@ -2616,11 +2616,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the [grave words](spell/grave_words) spell, except that only the user can hear the corpse speak.",
+			"This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the {spell/grave words} spell, except that only the user can hear the corpse speak.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 7,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 7,000 gp",
 			"",
 			"### Azure Briolette (Flawed) Ioun Stone",
 			"",
@@ -2634,11 +2634,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the [grave words](spell/grave_words) spell, except that only the user can hear the corpse speak.",
+			"This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the {spell/grave words} spell, except that only the user can hear the corpse speak.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 4,000 gp"
 		]
 	},
 	"dark_green_rhomboid": {
@@ -2660,7 +2660,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect poison](spell/detect_poison), creator must be 12th level; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect poison}, creator must be 12th level; **Cost** 4,000 gp"
 		]
 	},
 	"southern_star": {
@@ -2686,7 +2686,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [touch of the sea](spell/touch_of_the_sea), creator must be at least 12th level; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/touch of the sea}, creator must be at least 12th level; **Cost** 4,000 gp"
 		]
 	},
 	"deep_brown_sphere": {
@@ -2708,7 +2708,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [discern location](spell/discern_location), creator must be 12th level; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/discern location}, creator must be 12th level; **Cost** 5,000 gp"
 		]
 	},
 	"lavender_and_green_ellipsoid": {
@@ -2739,7 +2739,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 20,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 20,000 gp",
 			"",
 			"### Lavender and Green Ellipsoid (Flawed) Ioun Stone",
 			"",
@@ -2757,7 +2757,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 18,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 18,000 gp",
 			"",
 			"### Lavender and Green Ellipsoid (Cracked) Ioun Stone",
 			"",
@@ -2775,7 +2775,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 5,000 gp"
 		]
 	},
 	"northern_star": {
@@ -2801,7 +2801,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [jump](spell/jump), creator must be at least 12th level; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/jump}, creator must be at least 12th level; **Cost** 5,000 gp"
 		]
 	},
 	"crimson_sphere": {
@@ -2827,7 +2827,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be 12th level; **Cost** 12,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, creator must be 12th level; **Cost** 12,000 gp",
 			"",
 			"### Crimson Sphere (Flawed) Ioun Stone",
 			"",
@@ -2845,7 +2845,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be 12th level; **Cost** 8,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, creator must be 12th level; **Cost** 8,000 gp",
 			"",
 			"### Crimson Sphere (Cracked) Ioun Stone",
 			"",
@@ -2863,7 +2863,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/foxs_cunning), creator must be 12th level; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, creator must be 12th level; **Cost** 6,000 gp"
 		]
 	},
 	"onyx_rhomboid": {
@@ -2885,11 +2885,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Virtue](spell/virtue) at will (self only).",
+			"{spell/Virtue} at will (self only).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 12,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 12,000 gp",
 			"",
 			"### Onyx Rhomboid (Flawed) Ioun Stone",
 			"",
@@ -2903,11 +2903,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Virtue](spell/virtue) at will (self only).",
+			"{spell/Virtue} at will (self only).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 8,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 8,000 gp",
 			"",
 			"### Onyx Rhomboid (Cracked) Ioun Stone",
 			"",
@@ -2921,11 +2921,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"[Virtue](spell/virtue) at will (self only).",
+			"{spell/Virtue} at will (self only).",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [bear's endurance](spell/bears_endurance), creator must be 12th level; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, creator must be 12th level; **Cost** 6,000 gp"
 		]
 	},
 	"silver_spindle": {
@@ -2951,7 +2951,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [imbue with spell ability](spell/imbue_with_spell_ability), creator must be 12th level; **Cost** 12,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/imbue with spell ability}, creator must be 12th level; **Cost** 12,000 gp",
 			"",
 			"### Silver Spindle (Flawed) Ioun Stone",
 			"",
@@ -2969,7 +2969,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [imbue with spell ability](spell/imbue_with_spell_ability), creator must be 12th level; **Cost** 8,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/imbue with spell ability}, creator must be 12th level; **Cost** 8,000 gp",
 			"",
 			"### Silver Spindle (Cracked) Ioun Stone",
 			"",
@@ -2987,7 +2987,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [imbue with spell ability](spell/imbue_with_spell_ability), creator must be 12th level; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/imbue with spell ability}, creator must be 12th level; **Cost** 6,000 gp"
 		]
 	},
 	"emerald_wedge": {
@@ -3009,7 +3009,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level.; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level.; **Cost** 16,000 gp"
 		]
 	},
 	"pearlescent_pyramid": {
@@ -3027,15 +3027,15 @@
 			"",
 			"#### Description",
 			"",
-			"This ioun stone resembles a small, pearl-white tetrahedron. This stone grants the [ghost touch](magic-enhancement/ghost_touch_weapon) special ability to the user's unarmed strikes and to melee weapons she wields. The user can also focus her gaze as a standard action and gain the benefits of [see invisibility](spell/see_invisibility) for 1 round. If the user is incorporeal, corporeal melee weapons she touches gain the ghost touch special ability, allowing her to pick up and use corporeal melee weapons as normal.",
+			"This ioun stone resembles a small, pearl-white tetrahedron. This stone grants the {magic-enhancement/ghost touch} special ability to the user's unarmed strikes and to melee weapons she wields. The user can also focus her gaze as a standard action and gain the benefits of {spell/see invisibility} for 1 round. If the user is incorporeal, corporeal melee weapons she touches gain the ghost touch special ability, allowing her to pick up and use corporeal melee weapons as normal.",
 			"",
 			"#### Resonance",
 			"",
-			"This stone grants the [ghost touch](magic-enhancement/ghost_touch_armor) special ability to normal or masterwork light armor the user has worn for at least 24 hours. This benefit lasts as long as the armor is in the user's possession.",
+			"This stone grants the {magic-enhancement/ghost touch} special ability to normal or masterwork light armor the user has worn for at least 24 hours. This benefit lasts as long as the armor is in the user's possession.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 24,000 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 24,000 gp",
 			"",
 			"### Pearlescent Pyramid (Flawed) Ioun Stone",
 			"",
@@ -3045,15 +3045,15 @@
 			"",
 			"#### Description",
 			"",
-			"This stone functions as normal, but it doesn't grant the user the benefits of [see invisibility](spell/see_invisibility).",
+			"This stone functions as normal, but it doesn't grant the user the benefits of {spell/see invisibility}.",
 			"",
 			"#### Resonance",
 			"",
-			"This stone grants the [ghost touch](magic-enhancement/ghost_touch_armor) special ability to normal or masterwork light armor the user has worn for at least 24 hours. This benefit lasts as long as the armor is in the user's possession.",
+			"This stone grants the {magic-enhancement/ghost touch} special ability to normal or masterwork light armor the user has worn for at least 24 hours. This benefit lasts as long as the armor is in the user's possession.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 22,500 gp",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 22,500 gp",
 			"",
 			"### Pearlescent Pyramid (Cracked) Ioun Stone",
 			"",
@@ -3067,11 +3067,11 @@
 			"",
 			"#### Resonance",
 			"",
-			"This stone grants the [ghost touch](magic-enhancement/ghost_touch_armor) special ability to normal or masterwork light armor the user has worn for at least 24 hours. This benefit lasts as long as the armor is in the user's possession.",
+			"This stone grants the {magic-enhancement/ghost touch} special ability to normal or masterwork light armor the user has worn for at least 24 hours. This benefit lasts as long as the armor is in the user's possession.",
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), creator must be 12th level; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 16,000 gp"
 		]
 	},
 	"sepia_ellipsoid": {
@@ -3095,7 +3095,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mage's disjunction](spell/mages_disjunction), [regenerate](spell/regenerate), [water breathing](spell/water_breathing), creator must be 12th level; **Cost** 34,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mage's disjunction}, {spell/regenerate}, {spell/water breathing}, creator must be 12th level; **Cost** 34,000 gp"
 		]
 	}
 }

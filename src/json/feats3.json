@@ -11,11 +11,11 @@
 			"{SOURCE Ultimate Combat/98}",
 			"",
 			"The spirit of the dragon wells up inside you and bursts forth in a mighty roar.  ",
-			"**Prerequisites:** Str 15, [Improved Unarmed Strike](feat/improved_unarmed_strike), [Dragon Style](feat/dragon_style), [Stunning Fist](feat/stunning_fist), Acrobatics 8 ranks.  ",
+			"**Prerequisites:** Str 15, {feat/Improved Unarmed Strike}, {feat/Dragon Style}, {feat/Stunning Fist}, Acrobatics 8 ranks.  ",
 			"**Benefit:** You gain one additional Stunning Fist attempt per day. While using Dragon Style, as a standard action you can expend two Stunning Fist attempts to unleash a concussive roar in a 15-foot cone. Creatures caught in the cone take your unarmed strike damage and become shaken for 1d4 rounds. A successful Will save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being shaken.  ",
 			"**Special:** If you have the Elemental Fist feat, you can expend a daily use of that feat to deal your Elemental Fist damage to those caught in the cone. This damage is not halved even on a save.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">Instead of spending two uses of Stunning Fist to unleash a concussive roar, you can spend one use of Stunning Fist and 5 stamina points to do so."
@@ -31,7 +31,7 @@
 			"",
 			"You instinctively channel your latent magical abilities through your firearm.  ",
 			"**Prerequisites:** Amateur Gunslinger feat or grit class feature, Spellcraft 5 ranks.  ",
-			"**Benefit:** As a swift action, you can spend 1 grit point to convert your gun's damage into acid, fire, electricity, or cold damage for 1 round. You can choose a different damage type each time you use this ability. This still counts as a ranged weapon attack for critical hit multipliers and abilities such as [Deadly Aim](feat/deadly_aim)."
+			"**Benefit:** As a swift action, you can spend 1 grit point to convert your gun's damage into acid, fire, electricity, or cold damage for 1 round. You can choose a different damage type each time you use this ability. This still counts as a ranged weapon attack for critical hit multipliers and abilities such as {feat/Deadly Aim}."
 		]
 	},
 	"dragon_style": {
@@ -46,11 +46,11 @@
 			"{SOURCE Ultimate Combat/98}",
 			"",
 			"You call upon the spirit of dragonkind, gaining greater resilience, mobility, and fierceness from the blessing of these great beings.  ",
-			"**Prerequisites:** Str 15, [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 3 ranks.  ",
+			"**Prerequisites:** Str 15, {feat/Improved Unarmed Strike}, Acrobatics 3 ranks.  ",
 			"**Benefit:** While using this style, you gain a +2 bonus on saving throws against sleep effects, paralysis effects, and stunning effects. You ignore difficult terrain when you charge, run, or withdraw. You can also charge through squares that contain allies. Further, you can add 1-1/2 times your Strength bonus on the damage roll for your first unarmed strike on a given round.  ",
 			"**Normal:** You cannot charge or run through difficult terrain, and you cannot charge through a square that contains an ally. With an unarmed strike, you usually add your Strength bonus on damage rolls.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">On your second and all subsequent unarmed strike attacks made in a round, you can spend 3 stamina points before making each attack to add 1-1/2 times your Strength modifier to that attack's damage roll."
@@ -104,8 +104,8 @@
 			"{SOURCE Martial Arts Handbook/14}",
 			"",
 			"You can fly short distances through the air.  ",
-			"**Prerequisites:** Dex 15, Wis 15, [Dragonfly Style](feat/dragonfly_style), [Dragonfly Wings](feat/dragonfly_wings), [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 10 ranks, Climb 10 ranks.  ",
-			"**Benefit:** While using [Dragonfly Style](feat/dragonfly_style) as the spell for 1 round. If you have not used your standard action after using Dragonfly Flight to make a high jump and start gliding, you can charge while gliding. This charge follows the rules for charging when you are only able to take a standard action."
+			"**Prerequisites:** Dex 15, Wis 15, {feat/Dragonfly Style}, {feat/Dragonfly Wings}, {feat/Improved Unarmed Strike}, Acrobatics 10 ranks, Climb 10 ranks.  ",
+			"**Benefit:** While using {feat/Dragonfly Style} as the spell for 1 round. If you have not used your standard action after using Dragonfly Flight to make a high jump and start gliding, you can charge while gliding. This charge follows the rules for charging when you are only able to take a standard action."
 		]
 	},
 	"dragonfly_style": {
@@ -117,7 +117,7 @@
 			"{SOURCE Martial Arts Handbook/14}",
 			"",
 			"You can leap off walls and objects to strike from above.  ",
-			"**Prerequisites:** Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 2 ranks, Climb 2 ranks.  ",
+			"**Prerequisites:** Wis 13, {feat/Improved Unarmed Strike}, Acrobatics 2 ranks, Climb 2 ranks.  ",
 			"**Benefit:** You add your Wisdom modifier to Acrobatics checks in addition to your Dexterity modifier. While using this style, when you are adjacent to a vertical surface or object capable of supporting your weight, such as a wall or a tree, you gain a +1 bonus on melee attack rolls against opponents your size or smaller, as if you were on higher ground."
 		]
 	},
@@ -130,8 +130,8 @@
 			"{SOURCE Martial Arts Handbook/14}",
 			"",
 			"You can jump off willing allies and unwilling opponents to attack creatures from above.  ",
-			"**Prerequisites:** Dex 15, Wis 15, [Dragonfly Style](feat/dragonfly_style), [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 5 ranks, Climb 5 ranks.  ",
-			"**Benefit:** While using [Dragonfly Style](feat/dragonfly_style), the bonus on your melee attacks increases to +2 and applies to opponents up to two size categories larger than you. In addition, you can substitute a creature your size or larger in place of a vertical surface. You can freely use a willing creature in such a manner, but using a hostile creature requires a successful Acrobatics check with a DC equal to the creature's CMD. If you fail this check by 5 or more, you provoke an attack of opportunity from the hostile creature."
+			"**Prerequisites:** Dex 15, Wis 15, {feat/Dragonfly Style}, {feat/Improved Unarmed Strike}, Acrobatics 5 ranks, Climb 5 ranks.  ",
+			"**Benefit:** While using {feat/Dragonfly Style}, the bonus on your melee attacks increases to +2 and applies to opponents up to two size categories larger than you. In addition, you can substitute a creature your size or larger in place of a vertical surface. You can freely use a willing creature in such a manner, but using a hostile creature requires a successful Acrobatics check with a DC equal to the creature's CMD. If you fail this check by 5 or more, you provoke an attack of opportunity from the hostile creature."
 		]
 	},
 	"dragonheart": {
@@ -190,10 +190,10 @@
 			"{SOURCE Advanced Class Guide/144}",
 			"",
 			"With a well-aimed strike, you cause your target to become fatigued or exhausted.  ",
-			"**Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
+			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
 			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Draining Strike forces a foe that was damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A defender who fails this saving throw is fatigued for 1 minute or until the foe is subject to any spell or effect that heals hit point damage. If you have a base attack bonus of +14 or higher, the target is exhausted for the same duration instead. You can attempt to use Draining Strike once per day for every 4 character levels you have, but you can use it no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">You can spend 5 stamina points to declare that you are using Draining Strike after you've hit with an unarmed strike attack."
@@ -211,10 +211,10 @@
 			"{SOURCE Ultimate Combat/98}",
 			"",
 			"Your skill with your weapon is obvious to enemies and onlookers alike.  ",
-			"**Prerequisites:** [Dazzling Display](feat/dazzling_display).  ",
+			"**Prerequisites:** {feat/Dazzling Display}.  ",
 			"**Benefit:** When you spend a swift action to make a performance check, you exude an aura of awe-inspiring skill. You gain a +2 bonus on your performance check, and gain a +2 bonus on all attack rolls and combat maneuver checks until the end of your next turn.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">When using this feat, you can spend 5 stamina points to also gain a +2 dodge bonus to AC until the end of your next turn."
@@ -229,8 +229,8 @@
 			"{SOURCE Martial Arts Handbook/22}",
 			"",
 			"Your brutal maneuvers shock any who would dare to stand against you.  ",
-			"**Prerequisites:** [Dazzling Display](feat/dazzling_display), [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Savage Slam](feat/savage_slam), [Weapon Focus](feat/weapon_focus).  ",
-			"**Benefit:** While you are using [Savage Slam](feat/savage_slam), if you succeed at your grapple combat maneuver check to knock the opponent prone, you can spend a swift action to attempt an Intimidate check to demoralize foes within 30 feet who could see your attack."
+			"**Prerequisites:** {feat/Dazzling Display}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Savage Slam}, {feat/Weapon Focus}.  ",
+			"**Benefit:** While you are using {feat/Savage Slam}, if you succeed at your grapple combat maneuver check to knock the opponent prone, you can spend a swift action to attempt an Intimidate check to demoralize foes within 30 feet who could see your attack."
 		]
 	},
 	"dreadful_carnage": {
@@ -246,10 +246,10 @@
 			"{SOURCE Advanced Player's Guide/158}",
 			"",
 			"Slaying an enemy demoralizes your other nearby foes.  ",
-			"**Prerequisites:** Str 15, [Power Attack](feat/power_attack), [Furious Focus](feat/furious_focus), base attack bonus +11.  ",
+			"**Prerequisites:** Str 15, {feat/Power Attack}, {feat/Furious Focus}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you reduce an enemy to 0 or fewer hit points, you can make an Intimidate check to demoralize all enemies within 30 feet as a free action. Enemies that cannot see both you and the enemy you reduced to 0 or fewer hit points are unaffected.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">When you reduce an enemy to 0 or fewer hit points, you can spend up to 6 stamina points to increase the radius of this feat's effect by 5 feet for each stamina point you spent (to a maximum of 60 feet).",
@@ -259,7 +259,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"Your kills are truly frightening to behold.  ",
-			"**Prerequisites:** [Dreadful Carnage](feat/dreadful_carnage).  ",
+			"**Prerequisites:** {feat/Dreadful Carnage}.  ",
 			"**Benefit:** When you use Dreadful Carnage, you affect non-mythic enemies within 60 feet in addition to all enemies within 30 feet. You can expend one use of mythic power before making the Intimidate check to cause enemies demoralized by Dreadful Carnage to become frightened instead of shaken, for the same duration as the normal shaken effect. While frightened by this ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks, and ability checks."
 		],
 		"has_mythic_version": true
@@ -286,7 +286,7 @@
 			"{SOURCE Plane-Hopper's Handbook/29}",
 			"",
 			"Your dreams are as vivid as your waking hours, and you can slip into a dreamlike state with no effort.  ",
-			"**Prerequisites:** Cha 17, [Lucid Dreamer](feat/lucid_dreamer), [Practiced Dreamer](feat/practiced_dreamer), Knowledge (planes) 10 ranks.  ",
+			"**Prerequisites:** Cha 17, {feat/Lucid Dreamer}, {feat/Practiced Dreamer}, Knowledge (planes) 10 ranks.  ",
 			"**Benefit:** Your experience in the Dimension of Dreams allows you to enter the demiplane with ease. You no longer have to attempt a Charisma check when entering the Dimension of Dreams to determine whether or not you are at a disadvantage, instead automatically arriving unhindered."
 		]
 	},
@@ -329,7 +329,7 @@
 			"",
 			"Your blood courses with power, granting you greater spell-like abilities.  ",
 			"**Prerequisites:** Able to use drow spell-like abilities, drow.  ",
-			"**Benefit:** You may use [detect magic](spell/detect_magic) as a spell-like ability at will, and add feather fall and levitate to the spell-like abilities that you may use once each per day. Your caster level is equal to your character level."
+			"**Benefit:** You may use {spell/detect magic} as a spell-like ability at will, and add feather fall and levitate to the spell-like abilities that you may use once each per day. Your caster level is equal to your character level."
 		]
 	},
 	"drow_spirit": {
@@ -384,7 +384,7 @@
 			"{SOURCE Inner Sea Gods/211;Faiths of Purity/24}",
 			"",
 			"You have learned how to fight effectively while drunk.  ",
-			"**Prerequisites:** [Endurance](feat/endurance), worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** {feat/Endurance}, worshiper of Cayden Cailean.  ",
 			"**Benefit:** When you drink a tankard of ale or strong alcohol, you take a -2 penalty on Reflex saving throws, but gain a number of temporary hit points equal to your character level, and gain a +2 alchemical bonus on Fortitude and Will saving throws. These bonuses last 1 hour or until the temporary hit points gained by this effect are lost, whichever occurs first. Regardless, the penalty lasts for a full hour."
 		]
 	},
@@ -439,8 +439,8 @@
 			"{SOURCE Wilderness Origins/10}",
 			"",
 			"You have learned secrets of woodworking from dryads.  ",
-			"**Prerequisites:** Cha 13, [gathlain](race/gathlain).  ",
-			"**Benefit:** You can cast [wood shape](spell/wood_shape) as a spell-like ability at will, but only on a piece of wood no larger than 1 pound. You gain a +4 bonus on Craft checks involving wood, and you are always treated as if you had masterwork artisan's woodworking tools when attempting such checks."
+			"**Prerequisites:** Cha 13, {race/gathlain}.  ",
+			"**Benefit:** You can cast {spell/wood shape} as a spell-like ability at will, but only on a piece of wood no larger than 1 pound. You gain a +4 bonus on Craft checks involving wood, and you are always treated as if you had masterwork artisan's woodworking tools when attempting such checks."
 		]
 	},
 	"dryads_attendant": {
@@ -452,9 +452,9 @@
 			"{SOURCE Wilderness Origins/10}",
 			"",
 			"Dryads trust you to bear their power and their bond.  ",
-			"**Prerequisites:** Cha 15, [Dryad's Apprentice](feat/dryads_apprentice).",
+			"**Prerequisites:** Cha 15, {feat/Dryad's Apprentice}.",
 			"",
-			"You can cast [meld into stone](spell/meld_into_stone) as a spell-like ability once per day with a caster level equal to your character level, except that you instead meld with wood. You can remain melded with the wood for up to 24 hours. If you meld with a [dryad's](monster/dryad) bonded tree, the dryad can treat you as her bonded tree for a number of days equal to your Charisma modifier (minimum 1) after you leave it; the dryad retains her bond to her tree during this time as well."
+			"You can cast {spell/meld into stone} as a spell-like ability once per day with a caster level equal to your character level, except that you instead meld with wood. You can remain melded with the wood for up to 24 hours. If you meld with a [dryad's](monster/dryad) bonded tree, the dryad can treat you as her bonded tree for a number of days equal to your Charisma modifier (minimum 1) after you leave it; the dryad retains her bond to her tree during this time as well."
 		]
 	},
 	"dual_enhancement": {
@@ -466,7 +466,7 @@
 			"{SOURCE Advanced Class Guide/145}",
 			"",
 			"You can enhance two weapons, or both ends of a double weapon, with a single act.  ",
-			"**Prerequisites:** [Two-Weapon Fighting](feat/two-weapon_fighting); divine bond (weapon) or sacred weapon class feature.  ",
+			"**Prerequisites:** {feat/Two-Weapon Fighting}; divine bond (weapon) or sacred weapon class feature.  ",
 			"**Benefit:** When you use divine bond or sacred weapon to improve your weapon, you can choose to enhance two weapons or both ends of a double weapon. All weapons affected must be in hand or otherwise wielded. Any enhancement bonus you add to one of your weapons gets added to both automatically, but weapon special abilities must be accounted for separately. For example, if you can enhance up to the equivalent of a +2 bonus, you could give both your weapons an additional +1 bonus and apply the keen special weapon ability to one of those weapons."
 		]
 	},
@@ -511,7 +511,7 @@
 			"{SOURCE Advanced Class Guide/145}",
 			"",
 			"You can use a simple cape to guard yourself and confound your foes.  ",
-			"**Prerequisites:** [Amateur Swashbuckler](feat/amateur_swashbuckler) or panache class feature; Dodge, Sleight of Hand 1 rank.  ",
+			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature; Dodge, Sleight of Hand 1 rank.  ",
 			"**Benefit:** As a move action, you can wrap a cape that you're wearing around your arm (removing it if necessary), and treat it as a buckler. If you are using the cape in this way, and an opponent misses you with a melee attack, as an immediate action you can spend 1 panache point to release your cape from your arm and entangle your foe in it. The foe can free it by using a full-round action to escape or by destroying the cape; a typical cape has hardness 1 and 3 hit points. You can use this feat with items similar in shape and weight to a cape, such as a cloak or a curtain."
 		]
 	},
@@ -528,10 +528,10 @@
 			"{SOURCE Adventurer's Guide/25;Inner Sea Combat/10}",
 			"",
 			"You have embraced the Roaring Falls method of Aldori swordplay, known for its elegant, sweeping strikes.  ",
-			"**Prerequisites:** [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Aldori Dueling Disciple}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +5.  ",
 			"**Benefit:** When you use an Aldori dueling sword to deal damage to a shaken, frightened, or panicked foe, you can add your Dexterity bonus to damage rolls instead of your Strength bonus. If you can already add your Dexterity bonus to damage rolls, you instead gain a +1 competence bonus on damage rolls made with an Aldori dueling sword. When you attempt a dueling parry during a duel, the penalty on your attack roll to parry is reduced from -5 to -3. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/24}",
 			">",
 			">When you hit a foe with a melee attack made using an Aldori dueling sword, you can spend 4 stamina points to treat that foe as being shaken for the purpose of gaining a bonus from Duelist of the Roaring Falls until the start of your next turn."
@@ -550,10 +550,10 @@
 			"{SOURCE Adventurer's Guide/25;Inner Sea Combat/10}",
 			"",
 			"You have embraced the Shrouded Lake style of Aldori swordplay, known for its circuitous footwork.  ",
-			"**Prerequisites:** [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Aldori Dueling Disciple}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +5.  ",
 			"**Benefit:** When attempting to bull rush or reposition a foe, you gain a +1 insight bonus on the combat maneuver check and a +4 dodge bonus to your AC against attacks of opportunity you provoke. You also gain a +1 insight bonus to your CMD against bull rush and reposition attempts. When you attempt a dueling dodge during a duel, your bonus to AC increases to +6. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/24}",
 			">",
 			">By spending 5 stamina points when you attempt a combat maneuver check with an Aldori dueling sword, you gain a +4 bonus to your AC against attacks made by that target until the beginning of your next turn."
@@ -581,7 +581,7 @@
 			"{SOURCE Weapon Master's Handbook/12}",
 			"",
 			"You can channel your hatred against many opponents.  ",
-			"**Prerequisites:** [Dwarven Hatred Style](feat/dwarven_hatred_style), [Dwarven Seething](feat/dwarven_seething), base attack bonus +7, defensive training and hatred racial traits, Medium size.  ",
+			"**Prerequisites:** {feat/Dwarven Hatred Style}, {feat/Dwarven Seething}, base attack bonus +7, defensive training and hatred racial traits, Medium size.  ",
 			"**Benefit:** When using Dwarven Seething, you can maintain bonuses from both your defensive training racial trait and hatred racial trait's against any number of opponents."
 		]
 	},
@@ -607,7 +607,7 @@
 			"{SOURCE Weapon Master's Handbook/12}",
 			"",
 			"Your hatred drives every swing of your weapon.  ",
-			"**Prerequisites:** [Dwarven Hatred Style](feat/dwarven_hatred_style), base attack bonus +5, defensive training and hatred racial traits, Medium size.  ",
+			"**Prerequisites:** {feat/Dwarven Hatred Style}, base attack bonus +5, defensive training and hatred racial traits, Medium size.  ",
 			"**Benefit:** While using Dwarven Hatred Style, when an opponent hits you with an attack (including a spell that requires an attack roll), you can apply your defensive training or your hatred racial trait bonus (your choice) against that target, regardless of the opponent's type or subtype, as an immediate action. This ability lasts until the opponent dies, the combat ends, you change styles, or you designate a different opponent with this ability, whichever occurs first."
 		]
 	},
@@ -673,7 +673,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"You eyesight rivals that of the most far-seeing raptors.  ",
-			"**Prerequisites:** [Eagle Eyes](feat/eagle_eyes).  ",
+			"**Prerequisites:** {feat/Eagle Eyes}.  ",
 			"**Benefit:** You ignore up to -10 in penalties due to distance on visual Perception checks, instead of the normal -5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round."
 		],
 		"has_mythic_version": true
@@ -725,7 +725,7 @@
 			"{SOURCE Adventurer's Guide/76;Andoran, Birthplace of Freedom/28}",
 			"",
 			"You are resolute in your opposition to slavery and oppression, and the very thought of mental control disgusts you.  ",
-			"**Prerequisites:** [Iron Will](feat/iron_will).  ",
+			"**Prerequisites:** {feat/Iron Will}.  ",
 			"**Benefit:** You receive a +1 bonus on saving throws against mind-affecting effects. When you succeed at such a saving throw, you gain a +2 morale bonus on all attack rolls, damage rolls, and saving throws against the source of that effect for a number of rounds equal to the spell's level, or if the effect is not a spell, for a number of rounds equal to one-third the Hit Dice of the creature that created the effect."
 		]
 	},
@@ -741,11 +741,11 @@
 			"{SOURCE Ultimate Combat/98}",
 			"",
 			"Even the greatest giants fear your technique.  ",
-			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, [Earth Child Style](feat/earth_child_style), [Earth Child Topple](feat/earth_child_topple), [Greater Trip](feat/greater_trip), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Stunning Fist](feat/stunning_fist), Acrobatics 9 ranks.  ",
+			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, {feat/Earth Child Style}, {feat/Earth Child Topple}, {feat/Greater Trip}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Stunning Fist}, Acrobatics 9 ranks.  ",
 			"**Benefit:** You can trip a creature of the giant subtype no matter its size. While you are using Earth Child Style, when a prone creature of the giant subtype stands up and provokes an attack of opportunity from you, if you make an unarmed strike, you can declare you are making a Stunning Fist attempt after the attack hits. You gain a +4 bonus to the DC of any Stunning Fist effect you deliver in this way.  ",
 			"**Normal:** You can only trip opponents who are one size category larger than you.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">You can spend 5 stamina points to use Stunning Fist without expending a normal use of Stunning Fist when a creature with the giant subtype provokes an attack of opportunity by standing up."
@@ -763,10 +763,10 @@
 			"{SOURCE Ultimate Combat/99}",
 			"",
 			"Your martial training makes you a dangerous and elusive target for giants.  ",
-			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 3 ranks.  ",
+			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, {feat/Improved Unarmed Strike}, Acrobatics 3 ranks.  ",
 			"**Benefit:** While using this style, your defensive training dodge bonus to AC increases to +6. Further, against creatures of the giant subtype, you can add your Wisdom bonus on your unarmed strike damage rolls.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
 			">",
 			">When you make a successful unarmed strike attack against a creature that has the giant subtype, you can spend up to 5 stamina points to gain a bonus on the damage roll equal to double the number of stamina points you spent."
@@ -784,11 +784,11 @@
 			"{SOURCE Ultimate Combat/99}",
 			"",
 			"Your mastery of balance and momentum allows you to bring down giants with your bare hands.  ",
-			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, [Earth Child Style](feat/earth_child_style), [Improved Trip](feat/improved_trip), [Improved Unarmed Strike](feat/improved_unarmed_strike), Acrobatics 6 ranks.  ",
+			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, {feat/Earth Child Style}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, Acrobatics 6 ranks.  ",
 			"**Benefit:** You can trip a creature of the giant subtype of up to Huge size. While using Earth Child Style, you add your Wisdom bonus on combat maneuver checks made to trip a creature of the giant subtype, as well as on attack rolls to confirm a critical hit against such a creature.  ",
 			"**Normal:** You can trip only those opponents that are one size category larger than you.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you trip a creature with the giant subtype, you can spend 3 stamina points to cause the creature to also take 2d6 points of falling damage."
@@ -995,10 +995,10 @@
 			"{SOURCE Ultimate Combat/99}",
 			"",
 			"Calling upon the burning spirits of incarnate flame, you can manipulate fire to protect yourself and immolate your foes.  ",
-			"**Prerequisites:** Con 15, Wis 15, [Efreeti Style](feat/efreeti_style), [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +11 or monk level 9th.  ",
+			"**Prerequisites:** Con 15, Wis 15, {feat/Efreeti Style}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +11 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Efreeti Style, you gain fire resistance equal to your base attack bonus or your monk level plus any base attack bonus gained from levels in classes other than monk, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take fire damage from your Elemental Fist attack must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or catch on fire.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When making an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid catching on fire by an amount equal to the number of stamina points you spent."
@@ -1016,10 +1016,10 @@
 			"{SOURCE Ultimate Combat/99}",
 			"",
 			"Your mastery of the unpredictable power of flames allows you to unleash scorching strikes that burn your enemies even when you fail to make contact.  ",
-			"**Prerequisites:** Con 13, Wis 15, [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +9 or monk level 5th.  ",
+			"**Prerequisites:** Con 13, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using this style and Elemental Fist to deal fire damage, you gain a bonus on fire damage rolls equal to your Wisdom bonus. Further, if your Elemental Fist melee attack misses while you are using it to deal fire damage, you still deal 1d6 points of fire damage to your target.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you make an Elemental Fist attack to deal fire damage, you can spend up to 5 stamina points. When you do, you deal an amount of additional fire damage equal to double the number of stamina points you spent."
@@ -1037,10 +1037,10 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"Your knowledge of the secrets of the burning wind and blazing sun allows you to collect flames into your hands and unleash them in a gout of elemental fire.  ",
-			"**Prerequisites:** Con 15, Wis 17, [Efreeti Style](feat/efreeti_style), [Efreeti Stance](feat/efreeti_stance), [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +13 or monk level 11th.  ",
+			"**Prerequisites:** Con 15, Wis 17, {feat/Efreeti Style}, {feat/Efreeti Stance}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +13 or monk level 11th.  ",
 			"**Benefit:** While using Efreeti Style, as a standard action, you can spend two Elemental Fist attempts to unleash a 15-foot cone-shaped burst of flame. Creatures caught in the cone take your unarmed strike damage plus the fire damage from your Elemental Fist and catch on fire. A successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from catching on fire.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">Instead of spending two uses of Elemental Fist to unleash a cone of flame, you can spend one use of Elemental Fist and 2 stamina points."
@@ -1082,7 +1082,7 @@
 			"{SOURCE Magic Tactics Toolbox/5}",
 			"",
 			"You make deadly strikes when magic cloaks your location.  ",
-			"**Prerequisites:** [Blind-Fight](feat/blind_fight), [Improved Initiative](feat/improved_initiative).  ",
+			"**Prerequisites:** {feat/Blind-Fight}, {feat/Improved Initiative}.  ",
 			"**Benefit:** Whenever you attack from total concealment provided by a magical source (such as the displacement or invisibility spells), the first attack roll you make each round that is a critical threat is automatically confirmed as a critical hit."
 		]
 	},
@@ -1101,7 +1101,7 @@
 			"**Prerequisites:** Str 15, natural weapons, base attack bonus +6.  ",
 			"**Benefit:** You natural weapons are considered both magic and silver for purpose of overcoming damage reduction.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">As long as you have 1 stamina point in your stamina pool, your claws are also considered to be cold iron weapons for the purpose of overcoming damage reduction."
@@ -1127,7 +1127,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"The blood of your sorcerous ancestor mingles with your mythic power to great effect.  ",
-			"**Prerequisites:** [Eldritch Heritage](feat/eldritch_heritage).  ",
+			"**Prerequisites:** {feat/Eldritch Heritage}.  ",
 			"**Benefit:** You gain sorcerer bloodline powers of the bloodline tied to Eldritch Heritage as if your sorcerer level were your character level - 2. For that bloodline's 1st-level bloodline power, use your full character level to determine its effect; for all other bloodline powers, treat your sorcerer level as your character level - 2."
 		],
 		"has_mythic_version": true
@@ -1157,7 +1157,7 @@
 			"{SOURCE Heroes of the Wild/19}",
 			"",
 			"The fury of lightning storms fuels you and your allies.  ",
-			"**Prerequisites:** [Arcane Strike](feat/arcane_strike), ability to cast a 1st-level or higher spell with the electricity descriptor.  ",
+			"**Prerequisites:** {feat/Arcane Strike}, ability to cast a 1st-level or higher spell with the electricity descriptor.  ",
 			"**Benefit:** If you ready an action to cast a 1st-level or higher spell with the electricity descriptor when an ally within 30 feet who has this feat casts a 1st-level or higher spell with the electricity descriptor, when you cast your spell both you and that ally gain the ability to have the next weapon attack you augment with the Arcane Strike feat deal an additional 1d4 points of electricity damage on a hit. These attacks must be made before the end of the next round."
 		]
 	},
@@ -1170,7 +1170,7 @@
 			"{SOURCE Blood of the Sea/10}",
 			"",
 			"You can establish an ongoing electrical charge between you and a target you have grabbed.  ",
-			"**Prerequisites:** Wis 17, [Electric Eel Shock](feat/electric_eel_shock), [Electric Eel Style](feat/electric_eel_style), [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +13 or monk level 9th.  ",
+			"**Prerequisites:** Wis 17, {feat/Electric Eel Shock}, {feat/Electric Eel Style}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +13 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. When you successfully grapple a creature, you may expend two uses of Elemental Fist as a swift action to set up an electric charge between yourself and the creature. If you do, the target takes electricity damage equal to 1d6 plus your Wisdom modifier each round you maintain the grapple. This damage ceases when you are no longer grappling the target."
 		]
 	},
@@ -1183,7 +1183,7 @@
 			"{SOURCE Blood of the Sea/10}",
 			"",
 			"You can stagger your opponents with jolts of electricity.  ",
-			"**Prerequisites:** Wis 15, [Electric Eel Style](feat/electric_eel_style), [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +11 or monk level 7th.  ",
+			"**Prerequisites:** Wis 15, {feat/Electric Eel Style}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +11 or monk level 7th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. Creatures that take electricity damage from your Elemental Fist attack must succeed at a Fortitude save (DC 10 + half your character level + your Wisdom modifier) or be staggered for 1 round. This also applies to creatures that take electricity damage from your Electric Eel Conduit feat while grappled."
 		]
 	},
@@ -1196,7 +1196,7 @@
 			"{SOURCE Blood of the Sea/11}",
 			"",
 			"You have learned how to harness electrical energy to momentarily disorient your foes.  ",
-			"**Prerequisites:** Wis 13, [Elemental Fist](feat/elemental_fist), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +9 or monk level 5th.  ",
+			"**Prerequisites:** Wis 13, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While you are in this style, your Elemental Fist attack deals electricity damage. When a creature takes electricity damage from your Elemental Fist attack, you gain a +4 bonus for 1 round on combat maneuver checks to grapple the creature."
 		]
 	},
@@ -1221,7 +1221,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your power over elemental beings is nearly absolute.  ",
-			"**Prerequisites:** [Elemental Channel](feat/elemental_channel).  ",
+			"**Prerequisites:** {feat/Elemental Channel}.  ",
 			"**Benefit:** Your Elemental Channel can affect any elemental subtype, not just the one you chose when you took Elemental Channel. Each time you use Elemental Channel, you must pick one elemental subtype before using the feat. You can expend one use of mythic power when you use Elemental Channel to choose a second elemental subtype to affect."
 		],
 		"has_mythic_version": true
@@ -1296,11 +1296,11 @@
 			"{SOURCE Advanced Player's Guide/158}",
 			"",
 			"You empower your strike with elemental energy  ",
-			"**Prerequisites:** Con 13, Wis 13, [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +8.  ",
+			"**Prerequisites:** Con 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
 			"**Benefit:** When you use Elemental Strike pick one of the following energy types: acid, cold, electricity, or fire. On a successful hit, the attack deals damage normally plus 1d6 points of damage of the chosen type. You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). You may attempt an elemental fist attack once per day for every four levels you have attained (see Special), and no more than once per round.  ",
 			"**Special:** A monk of the four winds receives Elemental Fist as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt an Elemental Fist attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">You can spend 5 stamina points to declare the use of Elemental Fist after making a successful attack roll.",
@@ -1310,7 +1310,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your ability to channel elemental power through your unarmed attacks is ferociously potent.  ",
-			"**Prerequisites:** [Elemental Fist](feat/elemental_fist).  ",
+			"**Prerequisites:** {feat/Elemental Fist}.  ",
 			"**Benefit:** The extra energy damage dealt by Elemental Fist increases to 1d8 points, and you gain additional uses of Elemental Fist per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your Elemental Fist to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of Elemental Fist, regardless of the number of attacks that you make in this fashion."
 		],
 		"has_mythic_version": true
@@ -1335,7 +1335,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your elemental spells are potent and effective.  ",
-			"**Prerequisites:** [Elemental Focus](feat/elemental_focus).  ",
+			"**Prerequisites:** {feat/Elemental Focus}.  ",
 			"**Benefit:** Choose an energy type in which you already have Elemental Focus. The increase to save DC provided by Elemental Focus and Greater Elemental Focus for spells of the selected energy type is 1 higher. When casting a spell with this energy type's descriptor, you can expend one use of mythic power as part of the casting to force the spell's targets to roll their saving throws twice, taking the lower result."
 		],
 		"has_mythic_version": true
@@ -1417,7 +1417,7 @@
 			"You draw upon your extraplanar heritage to imbue your weapons with elemental energies.  ",
 			"**Prerequisites:** Ifrit, oread, sylph, or undine.  ",
 			"**Benefit:** As a swift action, you can imbue your weapons with elemental energy. For 1 round, your weapons deal an additional 1 point of energy damage. The type of energy damage depends on your race: acid for oread, electricity for sylph, fire for ifrit, or cold for undine. For every 5 levels you possess, this bonus increases by 1, to a maximum of +5 at 20th level.  ",
-			"**Special:** You can use this feat instead of Arcane Strike to qualify for or attack with the [Deadly Dealer](feat/deadly_dealer) feat."
+			"**Special:** You can use this feat instead of Arcane Strike to qualify for or attack with the {feat/Deadly Dealer} feat."
 		]
 	},
 	"elemental_vigor": {
@@ -1442,7 +1442,7 @@
 			"{SOURCE Sargava, the Lost Colony/24}",
 			"",
 			"You deliver a crushing blow to downed enemies.  ",
-			"**Prerequisites:** Str 13, [Power Attack](feat/power_attack), [Improved Overrun](feat/improved_overrun), base attack bonus +1.  ",
+			"**Prerequisites:** Str 13, {feat/Power Attack}, {feat/Improved Overrun}, base attack bonus +1.  ",
 			"**Benefit:** When you overrun an opponent and your maneuver check exceeds your opponent's CMD by 5 or more, instead of moving through your opponent's space and knocking her prone, you may stop in the space directly in front of the opponent (or the nearest adjacent space) and make one attack with an unarmed strike or a natural weapon against that opponent as an immediate action.  ",
 			"**Normal:** When your overrun maneuver check exceeds your opponent's CMD by 5 or more, you move through the target's space and she is knocked prone."
 		]
@@ -1490,7 +1490,7 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"You can redirect an attack back at your assailant or into an adjacent enemy.  ",
-			"**Prerequisites:** Elusive target class feature, [Combat Expertise](feat/combat_expertise), [Improved Unarmed Strike](feat/improved_unarmed_strike), flowing monk level 12th.  ",
+			"**Prerequisites:** Elusive target class feature, {feat/Combat Expertise}, {feat/Improved Unarmed Strike}, flowing monk level 12th.  ",
 			"**Benefit:** When you successfully use your elusive target class feature to avoid taking damage, you can spend an immediate action and an additional point from your ki pool to redirect that attack back at your attacker or toward any other opponent adjacent to you and your attacker. This attack uses the same attack roll as the original attack, but it targets the opponent you choose."
 		]
 	},
@@ -1510,7 +1510,7 @@
 			"**Prerequisites:** Elf.  ",
 			"**Benefit:** If you miss due to concealment when making a ranged attack with a longbow or shortbow (including composite bows), you can reroll your miss chance roll one time to see if you actually hit.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">If you miss an attack with a longbow or shortbow due to concealment, you can spend 5 stamina points to automatically succeed at the miss chance reroll from this feat.",
@@ -1520,7 +1520,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your elven eyesight cuts though concealment.  ",
-			"**Prerequisites:** [Elven Accuracy](feat/elven_accuracy).  ",
+			"**Prerequisites:** {feat/Elven Accuracy}.  ",
 			"**Benefit:** When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per Elven Accuracy."
 		],
 		"has_mythic_version": true
@@ -1534,7 +1534,7 @@
 			"{SOURCE Weapon Master's Handbook/12}",
 			"",
 			"Your fighting style is enhanced by your keen intellect.  ",
-			"**Prerequisites:** Int 13, [Elven Battle Style](feat/elven_battle_style), [Elven Battle Training](feat/elven_battle_training), [Weapon Finesse](feat/weapon_finesse), base attack bonus +4, weapon familiarity racial trait.  ",
+			"**Prerequisites:** Int 13, {feat/Elven Battle Style}, {feat/Elven Battle Training}, {feat/Weapon Finesse}, base attack bonus +4, weapon familiarity racial trait.  ",
 			"**Benefit:** While using Elven Battle Style, you can add your Intelligence modifier to that weapon's damage (instead of any other ability bonus or modifier you can add to your weapon damage). The weapon must be one appropriate for your size."
 		]
 	},
@@ -1547,7 +1547,7 @@
 			"{SOURCE Weapon Master's Handbook/12}",
 			"",
 			"You wield traditional elven weapons with grace.  ",
-			"**Prerequisites:** [Elven Battle Training](feat/elven_battle_training), [Weapon Finesse](feat/weapon_finesse), base attack bonus +1, weapon familiarity racial trait.  ",
+			"**Prerequisites:** {feat/Elven Battle Training}, {feat/Weapon Finesse}, base attack bonus +1, weapon familiarity racial trait.  ",
 			"**Benefit:** While wielding a longsword, a rapier, or any melee weapon that has \"elven\" in its name, combat maneuver checks attempted with that weapon as attacks of opportunity don't themselves provoke attacks of opportunity."
 		]
 	},
@@ -1560,7 +1560,7 @@
 			"{SOURCE Weapon Master's Handbook/12}",
 			"",
 			"You rapidly counter enemy attacks.  ",
-			"**Prerequisites:** Int 13, [Elven Battle Focus](feat/elven_battle_focus), [Elven Battle Style](feat/elven_battle_style), [Elven Battle Training](feat/elven_battle_training), [Weapon Finesse](feat/weapon_finesse), base attack bonus +10, weapon familiarity racial trait.  ",
+			"**Prerequisites:** Int 13, {feat/Elven Battle Focus}, {feat/Elven Battle Style}, {feat/Elven Battle Training}, {feat/Weapon Finesse}, base attack bonus +10, weapon familiarity racial trait.  ",
 			"**Benefit:** While using Elven Battle Style, any opponent that makes an attack against you and misses while you are fighting defensively or using total defense or the Combat Expertise feat provokes an attack of opportunity from you. Even if you have Combat Reflexes, you can't benefit from this feat more than once per round."
 		]
 	},
@@ -1579,7 +1579,7 @@
 			"**Prerequisites:** Base attack bonus +1, elf.  ",
 			"**Benefit:** You have received special training with traditional elven weapons (longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word \"elven\" in its name). You receive a +2 bonus to your CMD against disarm and sunder maneuvers directed at one of these weapons you are wielding. In addition, if you are wielding one of these melee weapons, you may make an additional attack of opportunity each round (this bonus stacks with Combat Reflexes).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you are wielding a traditional elven weapon as defined in the feat, you can spend 5 stamina points to make one additional attack of opportunity with that weapon. This stacks with additional attacks of opportunity granted by this feat, Combat Reflexes, and similar abilities."
@@ -1768,7 +1768,7 @@
 			"{SOURCE Weapon Master's Handbook/14}",
 			"",
 			"You can apply your ranged fighting feats to melee attacks.  ",
-			"**Prerequisites:** [Empty Quiver Style](feat/empty_quiver_style), [Rapid Shot](feat/rapid_shot), [Stabbing Shot](feat/stabbing_shot), Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** {feat/Empty Quiver Style}, {feat/Rapid Shot}, {feat/Stabbing Shot}, Weapon Focus with the chosen weapon.  ",
 			"**Benefit:** While using Empty Quiver Style, you can apply any feats and class abilities you possess that modify your ranged attack rolls and damage rolls with the chosen weapon to melee attack rolls and damage rolls made with that weapon. Additionally, you are considered to be threatening the area around you as if you were wielding a melee weapon."
 		]
 	},
@@ -1781,7 +1781,7 @@
 			"{SOURCE Weapon Master's Handbook/14}",
 			"",
 			"You can use your ranged weapons to make melee attacks that keep foes at bay as you shoot them.  ",
-			"**Prerequisites:** [Empty Quiver Flexibility](feat/empty_quiver_flexibility), [Empty Quiver Style](feat/empty_quiver_style), [Rapid Shot](feat/rapid_shot), [Stabbing Shot](feat/stabbing_shot), Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** {feat/Empty Quiver Flexibility}, {feat/Empty Quiver Style}, {feat/Rapid Shot}, {feat/Stabbing Shot}, Weapon Focus with the chosen weapon.  ",
 			"**Benefit:** While using Empty Quiver Style or Stabbing Shot to make melee attacks with a ranged weapon, if you successfully hit a foe, any ranged attacks you make with the same weapon until the beginning of your next turn do not provoke attacks of opportunity from that foe.  ",
 			"**Special:** If you have the Rapid Reload feat in addition to this feat, your chosen weapon is a crossbow or firearm, that weapon is unloaded, and you successfully hit a foe in melee with it, you can automatically load it as a free action."
 		]
@@ -1848,7 +1848,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"Your endurance is truly beyond the pale.  ",
-			"**Prerequisites:** [Endurance](feat/endurance).  ",
+			"**Prerequisites:** {feat/Endurance}.  ",
 			"**Benefit:** The bonus on checks and saves from Endurance increases by half your tier. You take half the damage when you fail a check to avoid nonlethal damage from a forced march, starvation and thirst, hot or cold environments, or slow suffocation.",
 			"",
 			"You can sleep in heavy armor without becoming fatigued."
@@ -1880,8 +1880,8 @@
 			"{SOURCE Martial Arts Handbook/29}",
 			"",
 			"When you gather your might, it lasts long enough to improve your defenses and attacks of opportunity.  ",
-			"**Prerequisites:** [Gather Might](feat/gather_might).  ",
-			"**Benefit:** When you use [Gather Might](feat/gather_might), the ability score bonuses last until the beginning of your next turn."
+			"**Prerequisites:** {feat/Gather Might}.  ",
+			"**Benefit:** When you use {feat/Gather Might}, the ability score bonuses last until the beginning of your next turn."
 		]
 	},
 	"enemy_cult": {
@@ -1953,10 +1953,10 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"Your ranged attacks take advantage of the flanking maneuvers of allies.  ",
-			"**Prerequisites:** [Point-Blank Shot](feat/point_blank_shot), [Precise Shot](feat/precise_shot), one other teamwork feat.  ",
+			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, one other teamwork feat.  ",
 			"**Benefit:** You receive a +2 bonus on ranged attacks made against a foe flanked by 1 or more allies with this feat.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">Before making a ranged attack roll, you can spend 1 stamina point to gain the benefits of this feat against a target that is flanked by two or more allies, even if those allies don't have this feat."
@@ -1978,7 +1978,7 @@
 			"**Prerequisites:** Intimidate 1 rank.  ",
 			"**Benefit:** Whenever you deal nonlethal damage with a melee weapon, you can make an Intimidate check to demoralize your target as a free action. If you are successful, the target is shaken for a number of rounds equal to the damage dealt. If your attack was a critical hit, your target is frightened for 1 round with a successful Intimidate check, as well as being shaken for a number of rounds equal to the damage dealt.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you score a critical hit with a weapon dealing nonlethal damage, you can spend 5 stamina points to frighten the target for 1d4 rounds instead of 1 round."
@@ -1993,7 +1993,7 @@
 			"{SOURCE Horror Adventures/86}",
 			"",
 			"The repulsive horror of your smothering attack nearly incapacitates most foes.  ",
-			"**Prerequisites:** [Engulf Revulsion](feat/engulf_revulsion); [engulf](umr/engulf) or [smother](umr/smother) universal monster ability.  ",
+			"**Prerequisites:** {feat/Engulf Revulsion}; {umr/engulf} or {umr/smother} universal monster ability.  ",
 			"**Benefit:** When you successfully engulf or smother an opponent, successfully maintain a grapple combat maneuver on a smothered opponent, the opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) or become staggered for 1 round. This is a mind-affecting fear effect."
 		]
 	},
@@ -2006,7 +2006,7 @@
 			"{SOURCE Horror Adventures/86}",
 			"",
 			"The stomach-churning terror of your smothering attack leaves creatures sick and weakened.  ",
-			"**Prerequisites:** [Engulf](umr/engulf) or [smother](umr/smother) universal monster ability.  ",
+			"**Prerequisites:** {umr/Engulf} or {umr/smother} universal monster ability.  ",
 			"**Benefit:** When you successfully engulf or smother an opponent, or successfully maintain a grapple combat maneuver on an engulfed or smothered opponent, that opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) or become shaken for 1 round. This is a mind-affecting fear effect."
 		]
 	},
@@ -2045,7 +2045,7 @@
 			"{SOURCE Dragon Empires Primer/24}",
 			"",
 			"You enhance the force of your ki throws, enabling you to devastate your opponents as you slam them to the ground.  ",
-			"**Prerequisites:** Ki pool class feature, [Ki Throw](feat/ki_throw).  ",
+			"**Prerequisites:** Ki pool class feature, {feat/Ki Throw}.  ",
 			"**Benefit:** When using the Ki Throw feat, you can expend 1 ki point to amplify the force of your attack. If your ki throw succeeds, when the target hits the ground, it takes damage as if you had hit it with an unarmed strike."
 		]
 	},
@@ -2072,8 +2072,8 @@
 			"{SOURCE Heroes of the High Court/4}",
 			"",
 			"You to excel in a particular area thanks to your noble family's field of expertise.  ",
-			"**Prerequisites:** Cha 13, [Noble Scion](feat/noble_scion), Knowledge (nobility) 1 rank.  ",
-			"**Benefit:** You gain an additional benefit based on the flavor of your noble family chosen with the [Noble Scion](feat/noble_scion) feat.",
+			"**Prerequisites:** Cha 13, {feat/Noble Scion}, Knowledge (nobility) 1 rank.  ",
+			"**Benefit:** You gain an additional benefit based on the flavor of your noble family chosen with the {feat/Noble Scion} feat.",
 			"",
 			"Scion of the Arts: A number of times per day equal to your Charisma modifier, you can roll 2d20 for a Perform check and take the better result.",
 			"",
@@ -2108,7 +2108,7 @@
 			"{SOURCE Ultimate Intrigue/82}",
 			"",
 			"With a quip or a suggestive gesture, you send your enemy into a tizzy.  ",
-			"**Prerequisites:** Cha 13, [Persuasive](feat/persuasive), either [Amateur Swashbuckler](feat/amateur_swashbuckler) or the panache class feature.  ",
+			"**Prerequisites:** Cha 13, {feat/Persuasive}, either {feat/Amateur Swashbuckler} or the panache class feature.  ",
 			"**Benefit:** As a swift action, you can spend 1 panache point to enrage a creature with an Intelligence of 4 or more within 60 feet that can see or hear you. Attempt an Intimidate check as if to demoralize the creature. If you succeed, the creature takes a -2 penalty to its AC until it has made at least one attack against you (including area effects that include you) or until it can no longer see or hear you. You can have only one opponent enraged at you with this feat at a time, and once you've enraged a creature, you can't enrage it again for 24 hours."
 		]
 	},
@@ -2135,7 +2135,7 @@
 			"{SOURCE Ultimate Intrigue/82}",
 			"",
 			"Your critical hit allows you a chance to make your foes briefly see reason.  ",
-			"**Prerequisites:** Cha 15, [Call Truce](feat/call_truce), [Critical Focus](feat/critical_focus), [Persuasive](feat/persuasive), base attack bonus +11, Diplomacy 5 ranks.  ",
+			"**Prerequisites:** Cha 15, {feat/Call Truce}, {feat/Critical Focus}, {feat/Persuasive}, base attack bonus +11, Diplomacy 5 ranks.  ",
 			"**Benefit:** Whenever you confirm a critical hit, the shock of the attack momentarily opens an opportunity to end hostilities with a quick entreaty. As an immediate action immediately after confirming the critical hit, you can attempt a Diplomacy check to improve the target's attitude as though you had spent 1 full round using the Call Truce feat. All other conditions and limitations of the Call Truce feat apply."
 		]
 	},
@@ -2161,7 +2161,7 @@
 			"{SOURCE Plane-Hopper's Handbook/30}",
 			"",
 			"You are able to gain some abilities of a lucid dreamer while in your corporeal form.  ",
-			"**Prerequisites:** Cha 15, [Lucid Dreamer](feat/lucid_dreamer), Knowledge (planes) 5 ranks.  ",
+			"**Prerequisites:** Cha 15, {feat/Lucid Dreamer}, Knowledge (planes) 5 ranks.  ",
 			"**Benefit:** Once per day, when you are in the Dimension of Dreams in your physical body, you can attempt an impossible action as a standard action as though you were in a lucid body. No positive modifiers can be applied to this roll other than your Charisma modifier."
 		]
 	},
@@ -2252,7 +2252,7 @@
 			"",
 			"{SOURCE Adventurer's Armory 2/19}",
 			"",
-			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any musical instrument's uses and supplement the [Equipment Trick](feat/equipment_trick) feat. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.",
+			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any musical instrument's uses and supplement the {feat/Equipment Trick} feat. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.",
 			"",
 			"*Attention Grabber* (Perform 5 ranks, Bluff 5 ranks or bardic performance or raging song class feature): Your loud or discordant performance covers your allies' movements. Creatures within 30 feet of you that can hear you play an instrument take a -2 penalty on Perception checks, other than Perception checks made in response to your actions, for as long as you play.",
 			"",
@@ -2457,7 +2457,7 @@
 			"{SOURCE Martial Arts Handbook/27}",
 			"",
 			"With careful, repeated blows, you weaken your foe's defenses.  ",
-			"**Prerequisites:** [Weapon Focus](feat/weapon_focus) with bludgeoning weapon.  ",
+			"**Prerequisites:** {feat/Weapon Focus} with bludgeoning weapon.  ",
 			"**Benefit:** When you deal damage with a melee attack with a bludgeoning weapon to an opponent you have already damaged this round, you can also reduce the value of that target's damage reduction by 1 until the beginning of your next turn. This reduction stacks with itself."
 		]
 	},
@@ -2492,7 +2492,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You can cast even the most powerful spells without using material components.  ",
-			"**Prerequisites:** [Eschew Materials](feat/eschew_materials).  ",
+			"**Prerequisites:** {feat/Eschew Materials}.  ",
 			"**Benefit:** You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component."
 		],
 		"has_mythic_version": true
@@ -2547,7 +2547,7 @@
 			"{SOURCE Pathfinder Unchained/154}",
 			"",
 			"Scrying and other difficult divinations become more likely to get to the truth when you use verdant salts.  ",
-			"**Benefit:** When you cast a divination spell using verdant salts as an esoteric material component, you're more likely to get good information. You gain one of the following benefits, as appropriate to the spell: you increase the likelihood of a percentage-based divination to work correctly by 5% (giving a -5 penalty on the d% roll for [contact other plane](spell/contact_other_plane), for example), you gain a +2 competence bonus on Perception checks while perceiving through a divination (scrying) spell such as [scrying](spell/scrying), or you can ask one additional question (with [contact other plane](spell/contact_other_plane) or [speak with dead](spell/speak_with_dead)).",
+			"**Benefit:** When you cast a divination spell using verdant salts as an esoteric material component, you're more likely to get good information. You gain one of the following benefits, as appropriate to the spell: you increase the likelihood of a percentage-based divination to work correctly by 5% (giving a -5 penalty on the d% roll for {spell/contact other plane}, for example), you gain a +2 competence bonus on Perception checks while perceiving through a divination (scrying) spell such as {spell/scrying}, or you can ask one additional question (with {spell/contact other plane} or {spell/speak with dead}).",
 			"",
 			"When you gain verdant salts' greater component effect with a divination spell, increase the DC by an additional 1."
 		]
@@ -2690,7 +2690,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"The creatures you summon have evolved to have even greater abilities.  ",
-			"**Prerequisites:** [Augment Summoning](feat/augment_summoning), [Spell Focus (conjuration)](feat/spell_focus), ability to cast summon monster I.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, [Spell Focus (conjuration)](feat/spell_focus), ability to cast summon monster I.  ",
 			"**Benefit:** Each time you cast a summon monster spell, you can select a 1-point evolution other than pounce or reach from those available to a summoner's eidolon. Your summoned creature gains this evolution. The summoned creature must conform to any limitations of the evolution. (For instance, only a creature with a reach of 10 feet or more can have the pull evolution.) Evolutions that grant additional attacks or enhance existing attacks can be applied only to Medium or larger summoned creatures.",
 			"",
 			"If you summon more than one creature with a single spell, only one creature gains this evolution.  ",
@@ -2706,8 +2706,8 @@
 			"{SOURCE Distant Shores/63}",
 			"",
 			"You're always ready to lend your partner a hand.  ",
-			"**Prerequisites:** [Bonded Mind](feat/bonded_mind).  ",
-			"**Benefit:** When you successfully use the [Aid Another](rule/aid_another) action to assist an ally's skill check, and the ally also has this feat, the bonus is +4 instead of +2."
+			"**Prerequisites:** {feat/Bonded Mind}.  ",
+			"**Benefit:** When you successfully use the {rule/Aid Another} action to assist an ally's skill check, and the ally also has this feat, the bonus is +4 instead of +2."
 		]
 	},
 	"exceptional_pull": {
@@ -2719,7 +2719,7 @@
 			"{SOURCE Ranged Tactics Toolbox/10}",
 			"",
 			"You have mastered techniques to get the most out of composite bows.  ",
-			"**Prerequisites:** Dex 13, [Deadly Aim](feat/deadly_aim), base attack bonus +3.  ",
+			"**Prerequisites:** Dex 13, {feat/Deadly Aim}, base attack bonus +3.  ",
 			"**Benefit:** When you wield a ranged weapon that you are proficient with and that has a strength rating, add 2 to the weapon's strength rating. You don't take a penalty on attack rolls for having a Strength modifier lower than the strength rating of a weapon, provided you're proficient with that weapon."
 		]
 	},
@@ -2748,11 +2748,11 @@
 			"{SOURCE PRPG Core Rulebook/123}",
 			"",
 			"Your critical hits cause opponents to become exhausted.  ",
-			"**Prerequisites:** [Critical Focus](feat/critical_focus), [Tiring Critical](feat/tiring_critical), base attack bonus +15.  ",
+			"**Prerequisites:** {feat/Critical Focus}, {feat/Tiring Critical}, base attack bonus +15.  ",
 			"**Benefit:** When you score a critical hit on a foe, your target immediately becomes exhausted. This feat has no effect on exhausted creatures.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess the Critical Mastery feat.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you threaten a critical hit against an exhausted target and choose to use Exhausting Critical, you can spend up to 5 stamina points. If you do, you gain a +2 bonus on the confirmation roll for each stamina point you spent."
@@ -2780,7 +2780,7 @@
 			"{SOURCE Horror Adventures/87}",
 			"",
 			"Malevolent entities that seek to possess or dominate you are unaware of how far you will go to stop them.  ",
-			"**Prerequisites:** Con 15, [Clarity of Pain](feat/clarity_of_pain), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will).  ",
+			"**Prerequisites:** Con 15, {feat/Clarity of Pain}, {feat/Improved Iron Will}, {feat/Iron Will}.  ",
 			"**Benefit:** When you fail a saving throw to resist possession or a dominate spell, you can deal 4 points of Constitution damage to yourself and reroll your saving throw as an immediate action. You cannot reduce or negate this damage in any way, and the only way to heal the damage is through natural recovery; magical methods don't work. You must take the result of the second roll, even if it is worse. If you succeed at the second saving throw, you also become immune to that spell or ability from that creature for 24 hours. You must be wielding a lethal piercing or slashing weapon, or possess a claw natural attack or some way to draw such a weapon reactively without using your immediate action, to use this ability."
 		]
 	},
@@ -2793,7 +2793,7 @@
 			"{SOURCE Demon Hunter's Handbook/9}",
 			"",
 			"You've experienced the suffocating grip of demonic possession. The event left you emotionally scarred, but it also tempered your mind against the prying magic of evil enchantments.  ",
-			"**Prerequisites:** [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will).  ",
+			"**Prerequisites:** {feat/Improved Iron Will}, {feat/Iron Will}.  ",
 			"**Benefit:** If you use your Improved Iron Will feat to reroll a Will save against a compulsion effect and successfully save against the effect, the creature that created the effect (if it originated from a creature) takes 1d4 points of Wisdom damage."
 		]
 	},
@@ -2850,7 +2850,7 @@
 			"",
 			"Your magical arrows produce a wider range of powers.  ",
 			"**Prerequisites:** Enhance arrows class feature.  ",
-			"**Benefit:** You add [corrosive](magic-enhancement/corrosive) to the list of special properties you can grant your nonmagical arrows with your enhance arrows ability at 3rd level. At 5th level, you can add the [ghost touch](magic-enhancement/ghost_touch_weapon), [limning](magic-enhancement/limning), or [planar](magic-enhancement/planar) special ability instead of [distance](magic-enhancement/distance). At 7th level, you can add the corrosive burst special ability."
+			"**Benefit:** You add {magic-enhancement/corrosive} to the list of special properties you can grant your nonmagical arrows with your enhance arrows ability at 3rd level. At 5th level, you can add the {magic-enhancement/ghost touch}, {magic-enhancement/limning}, or {magic-enhancement/planar} special ability instead of {magic-enhancement/distance}. At 7th level, you can add the corrosive burst special ability."
 		]
 	},
 	"expanded_fiendish_resistance": {
@@ -2978,141 +2978,141 @@
 			"",
 			"### 1st Level",
 			"",
-			"- [Antelope](monster/antelope)[^T]",
-			"- [Baboon](monster/baboon)[^T]",
-			"- [Badger](monster/badger)[^T]",
-			"- [Great horned owl](monster/great_horned_owl)[^T]",
-			"- [Kangaroo](monster/kangaroo)[^T]",
-			"- [Snapping turtle](monster/snapping_turtle)[^T]",
-			"- [Stingray](monster/stingray)[^T]",
-			"- [Thylacine](monster/thylacine)[^T]",
-			"- [Trumpeter swan](monster/trumpeter_swan)[^T]",
-			"- [Vulture](monster/vulture)[^T]",
+			"- {monster/Antelope}[^T]",
+			"- {monster/Baboon}[^T]",
+			"- {monster/Badger}[^T]",
+			"- {monster/Great horned owl}[^T]",
+			"- {monster/Kangaroo}[^T]",
+			"- {monster/Snapping turtle}[^T]",
+			"- {monster/Stingray}[^T]",
+			"- {monster/Thylacine}[^T]",
+			"- {monster/Trumpeter swan}[^T]",
+			"- {monster/Vulture}[^T]",
 			"",
 			"### 2nd Level",
 			"",
-			"- [Camel](monster/camel)[^T]",
-			"- [Compsognathus](monster/compsognathus)[^T]",
-			"- [Dimorphodon](monster/dimorphodon)[^T]",
-			"- [Gar](monster/gar)[^T]",
-			"- [Giant gecko](monster/giant_gecko)[^T]",
-			"- [Giant tortoise](monster/giant_tortoise)[^T]",
-			"- [Giant weasel](monster/giant_weasel)[^T]",
-			"- [Manta ray](monster/manta_ray)[^T]",
-			"- [Ram](monster/ram)[^T]",
-			"- [Stag](monster/stag)[^T]",
+			"- {monster/Camel}[^T]",
+			"- {monster/Compsognathus}[^T]",
+			"- {monster/Dimorphodon}[^T]",
+			"- {monster/Gar}[^T]",
+			"- {monster/Giant gecko}[^T]",
+			"- {monster/Giant tortoise}[^T]",
+			"- {monster/Giant weasel}[^T]",
+			"- {monster/Manta ray}[^T]",
+			"- {monster/Ram}[^T]",
+			"- {monster/Stag}[^T]",
 			"",
 			"### 3rd Level",
 			"",
 			"- [Arbiter (inevitable)](monster/arbiter)",
 			"- [Augur (kyton)](monster/augur)",
-			"- [Axe beak](monster/axe_beak)[^T]",
-			"- [Azer](monster/azer)",
-			"- [Bull shark](monster/bull_shark)[^T]",
+			"- {monster/Axe beak}[^T]",
+			"- {monster/Azer}",
+			"- {monster/Bull shark}[^T]",
 			"- [Cacodaemon (daemon)](monster/cacodaemon)",
 			"- [Cassisian (angel)](monster/cassisian)",
 			"- [Cythnigot (qlippoth)](monster/cythnigot)",
-			"- [Dire badger](monster/dire_badger)[^T]",
+			"- {monster/Dire badger}[^T]",
 			"- [Doru (div)](monster/doru)",
 			"- [Foo dog](template/foo_creature)",
-			"- [Giant porcupine](monster/giant_porcupine)[^T]",
+			"- {monster/Giant porcupine}[^T]",
 			"- [Lyrakien (azata)](monster/lyrakien)",
 			"- [Paracletus (aeon)](monster/paracletus)",
 			"- [Silvanshee (agathion)](monster/silvanshee)",
-			"- [Thoqqua](monster/thoqqua)",
+			"- {monster/Thoqqua}",
 			"- [Tripurasura (asura)](monster/tripurasura)",
-			"- [Velociraptor](monster/velociraptor)",
+			"- {monster/Velociraptor}",
 			"- [Voidworm (protean)](monster/voidworm)",
 			"",
 			"### 4th Level",
 			"",
-			"- [Crysmal](monster/crysmal)",
-			"- [Dimetrodon](monster/dimetrodon)[^T]",
-			"- [Dire weasel](monster/dire_weasel)[^T]",
-			"- [D'ziriak](monster/dziriak)",
+			"- {monster/Crysmal}",
+			"- {monster/Dimetrodon}[^T]",
+			"- {monster/Dire weasel}[^T]",
+			"- {monster/D'ziriak}",
 			"- [Foo lion](template/foo_creature)",
-			"- [Giant seahorse](monster/giant_seahorse)[^T]",
-			"- [Giant skunk](monster/giant_skunk)[^T]",
-			"- [Giant vulture](monster/giant_vulture)[^T]",
-			"- [Giraffe](monster/giraffe)[^T]",
-			"- [Great white shark](monster/great_white_shark)[^T]",
-			"- [Howler](monster/howler)",
-			"- [Magmin](monster/magmin)",
-			"- [Megaloceros](monster/megaloceros)[^T]",
-			"- [Pachycephalosaurus](monster/pachycephalosaurus)[^T]",
-			"- [Parasaurolophus](monster/parasaurolophus)[^T]",
+			"- {monster/Giant seahorse}[^T]",
+			"- {monster/Giant skunk}[^T]",
+			"- {monster/Giant vulture}[^T]",
+			"- {monster/Giraffe}[^T]",
+			"- {monster/Great white shark}[^T]",
+			"- {monster/Howler}",
+			"- {monster/Magmin}",
+			"- {monster/Megaloceros}[^T]",
+			"- {monster/Pachycephalosaurus}[^T]",
+			"- {monster/Parasaurolophus}[^T]",
 			"- [Schir (demon)](monster/schir)",
 			"- [Vulnudaemon (daemon)](monster/vulnudaemon)",
 			"",
 			"### 5th Level",
 			"",
-			"- [Achaierai](monster/achaierai)",
-			"- [Archelon](monster/archelon)",
-			"- [Belker](monster/belker)",
-			"- [Cerberi](monster/cerberi)",
-			"- [Emperor cobra](monster/emperor_cobra)[^T]",
-			"- [Giant gar](monster/giant_gar)[^T]",
-			"- [Glyptodon](monster/glyptodon)[^T]",
-			"- [Hippopotamus](monster/hippopotamus)[^T]",
+			"- {monster/Achaierai}",
+			"- {monster/Archelon}",
+			"- {monster/Belker}",
+			"- {monster/Cerberi}",
+			"- {monster/Emperor cobra}[^T]",
+			"- {monster/Giant gar}[^T]",
+			"- {monster/Glyptodon}[^T]",
+			"- {monster/Hippopotamus}[^T]",
 			"- [Host devil](monster/greater_host_devil)",
-			"- [Hypnalis](monster/hypnalis)",
-			"- [Iguanodon](monster/iguanodon)[^T]",
+			"- {monster/Hypnalis}",
+			"- {monster/Iguanodon}[^T]",
 			"- [Incubus (demon)](monster/incubus)",
 			"- [Ceustodaemon (daemon)](monster/ceustodaemon)",
-			"- [Megatherium](monster/megatherium)[^T]",
-			"- [Mudlord](monster/mudlord)",
+			"- {monster/Megatherium}[^T]",
+			"- {monster/Mudlord}",
 			"- [Ostiarius (kyton)](monster/ostiarius)",
-			"- [Shadow mastiff](monster/shadow_mastiff)",
-			"- [Styracosaurus](monster/styracosaurus)",
-			"- [Tojanida](monster/tojanida)",
+			"- {monster/Shadow mastiff}",
+			"- {monster/Styracosaurus}",
+			"- {monster/Tojanida}",
 			"- [Vulpinal (agathion)](monster/vulpinal)",
 			"",
 			"### 6th Level",
 			"",
 			"- [Adhukait (asura)](monster/adhukait)",
-			"- [Allosaurus](monster/allosaurus)[^T]",
-			"- [Animate dream](monster/animate_dream)",
-			"- [Arsinoitherium](monster/arsinoitherium)[^T]",
-			"- [Axiomite](monster/axiomite)",
-			"- [Baluchitherium](monster/baluchitherium)[^T]",
-			"- [Hellcat](monster/hellcat)",
+			"- {monster/Allosaurus}[^T]",
+			"- {monster/Animate dream}",
+			"- {monster/Arsinoitherium}[^T]",
+			"- {monster/Axiomite}",
+			"- {monster/Baluchitherium}[^T]",
+			"- {monster/Hellcat}",
 			"- [Hydrodaemon (daemon)](monster/hydrodaemon)",
-			"- [Immense tortoise](monster/immense_tortoise)[^T]",
-			"- [Legion archon](monster/legion_archon)",
-			"- [Megalania](monster/megalania)[^T]",
-			"- [Mihstu](monster/mihstu)",
+			"- {monster/Immense tortoise}[^T]",
+			"- {monster/Legion archon}",
+			"- {monster/Megalania}[^T]",
+			"- {monster/Mihstu}",
 			"- [Naunet (protean)](monster/naunet)",
 			"- [Pairaka (div)](monster/pairaka)",
 			"- [Shoggti (qlippoth)](monster/shoggti)",
 			"- [Theletos (aeon)](monster/theletos)",
-			"- [Tylosaurus](monster/tylosaurus)",
+			"- {monster/Tylosaurus}",
 			"",
 			"### 7th Level",
 			"",
 			"- [Avoral (agathion)](monster/avoral)",
-			"- [Behemoth hippopotamus](monster/behemoth_hippopotamus)[^T]",
-			"- [Contract devil](monster/contract_devil)",
+			"- {monster/Behemoth hippopotamus}[^T]",
+			"- {monster/Contract devil}",
 			"- [Ghawwas (div)](monster/ghawwas)",
-			"- [Giant anaconda](monster/giant_anaconda)[^T]",
-			"- [Giant snapping turtle](monster/giant_snapping_turtle)[^T]",
+			"- {monster/Giant anaconda}[^T]",
+			"- {monster/Giant snapping turtle}[^T]",
 			"- [Kalavakus (demon)](monster/kalavakus)",
 			"- [Leukodaemon (daemon)](monster/leukodaemon)",
 			"- [Movanic deva (angel)](monster/movanic_deva)",
 			"- [Nyogoth (qlippoth)](monster/nyogoth)",
 			"- [Piscodaemon (daemon)](monster/piscodaemon)",
 			"- [Sacristan (kyton)](monster/sacristan)",
-			"- [Shield archon](monster/shield_archon)",
+			"- {monster/Shield archon}",
 			"- [Upasunda (asura)](monster/upasunda)",
-			"- [Whale](monster/whale)[^T]",
+			"- {monster/Whale}[^T]",
 			"",
 			"### 8th Level",
 			"",
 			"- [Aghasura (asura)](monster/aghasura)",
-			"- [Baregara](monster/baregara)",
-			"- [Basilosaurus](monster/basilosaurus)[^T]",
+			"- {monster/Baregara}",
+			"- {monster/Basilosaurus}[^T]",
 			"- [Chernobue (qlippoth)](monster/chernobue)",
 			"- [Coloxus (demon)](monster/coloxus)",
-			"- [Diplodocus](monster/diplodocus)[^T]",
+			"- {monster/Diplodocus}[^T]",
 			"- [Interlocutor (kyton)](monster/interlocutor)",
 			"- [Kolyarut (inevitable)](monster/kolyarut)",
 			"- [Leonal (agathion)](monster/leonal)",
@@ -3120,19 +3120,19 @@
 			"- [Monadic deva (angel)](monster/monadic_deva)",
 			"- [Omox (demon)](monster/omox)",
 			"- [Shira (div)](monster/shira)",
-			"- [Spinosaurus](monster/spinosaurus)[^T]",
+			"- {monster/Spinosaurus}[^T]",
 			"",
 			"### 9th Level",
 			"",
 			"- [Augnagar (qlippoth)](monster/augnagar)",
-			"- [Couatl](monster/couatl)",
-			"- [Great white whale](monster/great_white_whale)[^T]",
+			"- {monster/Couatl}",
+			"- {monster/Great white whale}[^T]",
 			"- [Sepid (div)](monster/sepid)",
-			"- [Storm giant](monster/storm_giant)",
-			"- [Tarry demodand](monster/tarry_demodand)",
-			"- [Valkyrie](monster/valkyrie)",
+			"- {monster/Storm giant}",
+			"- {monster/Tarry demodand}",
+			"- {monster/Valkyrie}",
 			"",
-			"[^T]: This creature is summoned with the [celestial](template/celestial) template if you are good and the [fiendish](template/fiendish) template if you are evil. If you are neutral, you can choose which template to apply to the creature. This summoned creature has an alignment that matches yours, regardless of its usual alignment. Summoning this creature makes the summoning spell's type match your alignment."
+			"[^T]: This creature is summoned with the {template/celestial} template if you are good and the {template/fiendish} template if you are evil. If you are neutral, you can choose which template to apply to the creature. This summoned creature has an alignment that matches yours, regardless of its usual alignment. Summoning this creature makes the summoning spell's type match your alignment."
 		]
 	},
 	"expansive_trap_ability": {
@@ -3348,7 +3348,7 @@
 			"{SOURCE Melee Tactics Toolbox/14}",
 			"",
 			"When you break a grapple, you can send your assailants flying away from you.  ",
-			"**Prerequisites:** Dex 13, Str 13, [Improved Grapple](feat/improved_grapple), [Improved Unarmed Strike](feat/improved_unarmed_strike).  ",
+			"**Prerequisites:** Dex 13, Str 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** When you succeed at a combat maneuver check to break a grapple, you can choose to throw back any enemies participating in the grapple who are up to one size category larger than you. Such foes are thrown 5 feet directly away from you and take an amount of nonlethal damage equal to that of your unarmed attack."
 		]
 	},
@@ -3361,9 +3361,9 @@
 			"{SOURCE Chronicle of Legends/8}",
 			"",
 			"You can channel magical power through your weapon to devastating effect.  ",
-			"**Prerequisites:** [Arcing Weapon](feat/arcing_weapon).",
+			"**Prerequisites:** {feat/Arcing Weapon}.",
 			"",
-			"As a standard action, you can cast a spell with an area of effect and a duration of instantaneous, such as [fireball](spell/fireball), and release it through your melee weapon as part of a melee attack. This functions as the [magus](class/magus) spellstrike ability, except the spell damage does not multiply on a critical hit, the spell effect is centered on you, and you are excluded from its effects."
+			"As a standard action, you can cast a spell with an area of effect and a duration of instantaneous, such as {spell/fireball}, and release it through your melee weapon as part of a melee attack. This functions as the {class/magus} spellstrike ability, except the spell damage does not multiply on a critical hit, the spell effect is centered on you, and you are excluded from its effects."
 		]
 	},
 	"expressionless": {
@@ -3375,7 +3375,7 @@
 			"{SOURCE Heroes of Golarion/6}",
 			"",
 			"Other races have difficulty reading your wooden features.  ",
-			"**Prerequisites:** [Wyrwood](race/wyrwood).  ",
+			"**Prerequisites:** {race/Wyrwood}.  ",
 			"**Benefit:** Your lack of emotion make it difficult for non-wyrwoods to relate to you. When dealing with any race other than your own, you gain a +2 bonus on Bluff checks. In addition, creatures of other races take a -2 penalty on Diplomacy and Sense Motive checks attempted against you."
 		]
 	},
@@ -3388,7 +3388,7 @@
 			"{SOURCE Ultimate Intrigue/82}",
 			"",
 			"You know how to move silently even while wearing some forms of armor.  ",
-			"**Prerequisites:** Dex 15, [Careful Sneak](feat/careful_sneak), Stealth 6 ranks.  ",
+			"**Prerequisites:** Dex 15, {feat/Careful Sneak}, Stealth 6 ranks.  ",
 			"**Benefit:** You do not apply the armor check penalty for light and medium armor on Stealth skill checks no matter how fast you move. You still cannot use Stealth while running or charging."
 		]
 	},
@@ -3445,7 +3445,7 @@
 			"You can bolster a trained ally's defenses by interposing your own armored body.  ",
 			"**Benefit:** If you are wearing medium or heavy armor and are adjacent to an ally who also has this feat, as a free action, you may give your ally a circumstance bonus to her AC equal to half the armor bonus provided by your armor. This bonus lasts for 1 round. During this round, you gain no bonus to your AC from your armor.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/20}",
 			">",
 			">You can spend 5 stamina points either to use this feat without losing your own armor bonus to AC, or to use this feat to grant the bonus to an ally."
@@ -3502,7 +3502,7 @@
 			"{SOURCE Blood of the Beast/28}",
 			"",
 			"You are able to glean insight from your momentary meditation for longer than most can.  ",
-			"**Prerequisites:** Wis 13, [Combat Meditation](feat/combat_meditation), [Meditation Master](feat/meditation_master), character level 9th.  ",
+			"**Prerequisites:** Wis 13, {feat/Combat Meditation}, {feat/Meditation Master}, character level 9th.  ",
 			"**Benefit:** Add your Wisdom bonus (if any) to the number of rounds that you gain the benefits of your meditation feats when using Combat Meditation."
 		]
 	},
@@ -3867,7 +3867,7 @@
 			"{SOURCE Advanced Class Guide/147}",
 			"",
 			"You are more able to draw upon inspiration than most.  ",
-			"**Prerequisites:** [Amateur Investigator](feat/amateur_investigator) or inspiration class feature.  ",
+			"**Prerequisites:** {feat/Amateur Investigator} or inspiration class feature.  ",
 			"**Benefit:** You gain three extra use per day of inspiration in your inspiration pool.  ",
 			"**Special:** If you have levels in the investigator class, you can take this feat multiple times. Each time you do, you gain three extra uses of inspiration per day."
 		]
@@ -4235,7 +4235,7 @@
 			"{SOURCE Pathfinder Unchained/113}",
 			"",
 			"You can push yourself to higher limits.  ",
-			"**Prerequisites:** [Combat Stamina](feat/combat_stamina), base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Combat Stamina}, base attack bonus +5.  ",
 			"**Benefit:** Your stamina pool increases by 3 points.  ",
 			"**Special:** You can select this feat up to three times. Each time you do, your stamina pool grows by 3 points."
 		]
@@ -4377,10 +4377,10 @@
 			"{SOURCE Advanced Class Guide/147}",
 			"",
 			"Your hatred of a particular type of creature has honed your killer instinct.  ",
-			"**Prerequisites:** [Seething Hatred](feat/seething_hatred), sneak attack +3d6, studied target class feature.  ",
+			"**Prerequisites:** {feat/Seething Hatred}, sneak attack +3d6, studied target class feature.  ",
 			"**Benefit:** When you succeed at a sneak attack against a creature you selected as the target of your Seething Hatred feat, you use d8s to roll sneak attack damage instead of d6s.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you succeed at a sneak attack against a creature that is not the target of your Seething Hatred feat, you can spend 5 stamina points to treat the creature as if it were the target of your Seething Hatred for that attack."
@@ -4395,7 +4395,7 @@
 			"{SOURCE Ultimate Intrigue/82}",
 			"",
 			"Your keen eyes help you find better deals on magical components for your spells.  ",
-			"**Prerequisites:** [Eschew Materials](feat/eschew_materials), Appraise 6 ranks, Spellcraft 6 ranks.  ",
+			"**Prerequisites:** {feat/Eschew Materials}, Appraise 6 ranks, Spellcraft 6 ranks.  ",
 			"**Benefit:** When in a large city or larger settlement, you can search the markets carefully for 4 hours in order to purchase material components for your spells at a 10% discount. You can purchase up to 1,000 gp worth of material components (which costs you 900 gp) each day. These cheaper components work perfectly well for their spells, but their resale value is also 10% less."
 		]
 	},
@@ -4412,7 +4412,7 @@
 			"",
 			"Your understanding of the esoteric teachings of the Arclords of Nex allows you to open an eldritch eye that grants you superior perception of the magical world.  ",
 			"**Prerequisites:** Knowledge (arcana) 4 ranks, ability to cast arcane spells.  ",
-			"**Benefit:** Once per day as a standard action, you can open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, during which time you cast all divination spells at +1 caster level (as long as you begin casting the spell before the eye closes), gain darkvision 60 feet, and can use [detect magic](spell/detect_magic) (as the spell of the same name). You gain a +8 bonus on Perception checks to notice invisible creatures while the eye is open as well."
+			"**Benefit:** Once per day as a standard action, you can open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, during which time you cast all divination spells at +1 caster level (as long as you begin casting the spell before the eye closes), gain darkvision 60 feet, and can use {spell/detect magic} (as the spell of the same name). You gain a +8 bonus on Perception checks to notice invisible creatures while the eye is open as well."
 		]
 	},
 	"eyes_of_judgment": {
@@ -4437,8 +4437,8 @@
 			"{SOURCE Pathfinder #132: The Six-Legend Soul/73}",
 			"",
 			"Through training and persistence inspired by the Great Purge of Stavian I, you have learned to detect the sources of divine magic in such effects' auras.  ",
-			"**Prerequisites:** Ability to cast [detect magic](spell/detect_magic) as a spell or spell-like ability.  ",
-			"**Benefit:** When you use [detect magic](spell/detect_magic) to determine the strength and location of the aura of a functioning spell, if that spell's caster used a holy symbol as a divine focus to cast the spell, you see a ghostly image of the deity's holy symbol as part of the spell's aura. Effects that block divination spells or effects also block the effects of this feat."
+			"**Prerequisites:** Ability to cast {spell/detect magic} as a spell or spell-like ability.  ",
+			"**Benefit:** When you use {spell/detect magic} to determine the strength and location of the aura of a functioning spell, if that spell's caster used a holy symbol as a divine focus to cast the spell, you see a ghostly image of the deity's holy symbol as part of the spell's aura. Effects that block divination spells or effects also block the effects of this feat."
 		]
 	},
 	"eyes_of_the_twilight": {
@@ -4450,7 +4450,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"Your eyes have grown accustomed to the half-light of dusk and dawn.  ",
-			"**Prerequisites:** [Sharp Senses](feat/sharp_senses), Perception 7 ranks, keen senses racial trait, low-light vision.  ",
+			"**Prerequisites:** {feat/Sharp Senses}, Perception 7 ranks, keen senses racial trait, low-light vision.  ",
 			"**Benefit:** Creatures within an area of dim light don't gain concealment from you. You're still effectively blinded in an area of darkness.  ",
 			"**Normal:** Creatures within an area of dim light gain concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness."
 		]
@@ -4500,7 +4500,7 @@
 			"**Prerequisites:** Nature Magic or the ability to cast druid or ranger spells; Vital Strike, Knowledge (nature) 5 ranks.  ",
 			"**Benefit:** When you use Vital Strike (or Improved Vital Strike or Greater Vital Strike), the creature you hit with the attack must succeed at a Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) or be illuminated as if by faerie fire for 1 minute. You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent."
@@ -4548,10 +4548,10 @@
 			"{SOURCE Adventurer's Guide/25;Inner Sea Combat/10}",
 			"",
 			"You have integrated both the Roaring Falls and Shrouded Lake techniques of Aldori swordplay into a seamless union.  ",
-			"**Prerequisites:** [Aldori Dueling Disciple](feat/aldori_dueling_disciple), [Duelist of the Roaring Falls](feat/duelist_of_the_roaring_falls), [Duelist of the Shrouded Lake](feat/duelist_of_the_shrouded_lake), [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +8.  ",
+			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Duelist of the Roaring Falls}, {feat/Duelist of the Shrouded Lake}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +8.  ",
 			"**Benefit:** When attacking a creature denied its Dexterity bonus to AC because of your successful feint, you increase the threat range of your Aldori dueling sword by 1 (typically to 18-20/&times;2), and gain a +2 bonus on attack rolls to confirm critical hits. After you make a dueling dodge or succeed at a dueling parry during a duel, you can make an attack of opportunity against the foe who attacked you if that foe is shaken, frightened, or panicked. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
 			">",
 			">By spending 4 stamina points, you gain the ability to attempt a dueling dodge or a dueling parry against attacks made by a shaken, frightened, or panicked opponent, even if you aren't participating in a duel."
@@ -4566,7 +4566,7 @@
 			"{SOURCE Inner Sea Magic/10}",
 			"",
 			"When using a magic item, you can trick onlookers into thinking you used spellcasting instead.  ",
-			"**Prerequisites:** [Magical Aptitude](feat/magical_aptitude), Bluff 1 rank, Sleight of Hand 1 rank.  ",
+			"**Prerequisites:** {feat/Magical Aptitude}, Bluff 1 rank, Sleight of Hand 1 rank.  ",
 			"**Benefit:** When you use a magic item or a spell-like ability to create a magical effect, you may add additional magic-seeming words and hand gestures to trick onlookers into believing you cast the spell yourself. If using an item that is recognizable as a magical implement (such as a wand or ring), you can trick viewers into thinking you are just using the item as a focus component. Onlookers who have no ranks in Spellcraft have no knowledge of what is genuine spellcasting, and automatically believe you are casting a spell.",
 			"",
 			"If an onlooker attempts a Spellcraft check to identify your \"casting,\" his check is opposed by your Bluff check. If he succeeds, he realizes the deception. If he fails, he believes you cast the spell. Regardless of the result of that opposed check, he uses the result of that Spellcraft check to identify the \"spell\" you cast, except the DC is 20 + the spell's level instead of 15 + the spell's level."
@@ -4598,10 +4598,10 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"When you make a ranged attack while threatened, you can fool your opponent into thinking he has an opening.  ",
-			"**Prerequisites:** Dex 13, [Dodge](feat/dodge), Close Quarters Thrower or Point-Blank Master, Weapon Focus with selected ranged weapon.  ",
+			"**Prerequisites:** Dex 13, {feat/Dodge}, Close Quarters Thrower or Point-Blank Master, Weapon Focus with selected ranged weapon.  ",
 			"**Benefit:** Choose a ranged weapon or a thrown weapon. When you make a ranged attack using that weapon, you can choose to provoke an attack of opportunity from one or more opponents who threaten you. You gain a +4 dodge bonus against such attacks. An opponent that makes such an attack and misses you loses his Dexterity bonus to AC against you until the end of your turn.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you use this feat, you can spend 5 stamina points to make an attack of opportunity against an opponent who misses you with the provoked attack (after it loses its Dexterity bonus to AC against you)."
@@ -4650,7 +4650,7 @@
 			"{SOURCE Familiar Folio/18}",
 			"",
 			"You have learned a ritual that allows you to gain a familiar.  ",
-			"**Prerequisites:** [Iron Will](feat/iron_will).  ",
+			"**Prerequisites:** {feat/Iron Will}.  ",
 			"**Benefit:** You gain a familiar, as the wizard arcane bond class feature. You do not gain the special ability the familiar normally grants its master, and the familiar does not gain the deliver touch spells, scry on familiar, share spells, speak with animals of its kind, or spell resistance special abilities. Otherwise, your total Hit Dice are used as your wizard level for determining the familiar's abilities.  ",
 			"**Special:** If you have (or later gain) levels in a class that grants a familiar, whenever you select a familiar, you can either base your familiar's abilities on your total Hit Dice per this feat (including the restrictions on its special abilities), or choose to apply only your levels in classes that grant a familiar (and thus gain all the special abilities that familiar would grant based on those class levels). You can never have more than one familiar."
 		]
@@ -4722,7 +4722,7 @@
 			"{SOURCE Pathfinder #139: The Dead Road/73}",
 			"",
 			"Your creator was an aide and bodyguard, and your memories are filled with the sight of that charge.  ",
-			"**Prerequisites:** [Shabti](race/shabti).  ",
+			"**Prerequisites:** {race/Shabti}.  ",
 			"**Benefit:** As a swift action, you can designate an adjacent ally as your charge. So long as you remain adjacent to that character, he benefits from your resistance to level drain and immunity to undeath racial traits. This ability applies even if one of you is killed, so long as you remain adjacent."
 		]
 	},
@@ -4738,7 +4738,7 @@
 			"{SOURCE Adventurer's Guide/84}",
 			"",
 			"Driven by your loyalty to a fallen queen, you can inspire your allies to brutal acts.  ",
-			"**Prerequisites:** [Bodyguard](feat/bodyguard), [Combat Reflexes](feat/combat_reflexes), Perform (oratory) 3 ranks, any evil alignment.  ",
+			"**Prerequisites:** {feat/Bodyguard}, {feat/Combat Reflexes}, Perform (oratory) 3 ranks, any evil alignment.  ",
 			"**Benefit:** Whenever an ally within 30 feet makes an attack, you can attempt a DC 10 Perform (oratory) check as an immediate action. If you are successful, the ally gains a +2 morale bonus on her attack roll. If an attack affected in this way would normally deal nonlethal damage, it deals lethal damage instead. This ability has no effect if your ally cannot hear you speak or understand your words."
 		]
 	},
@@ -4755,11 +4755,11 @@
 			"{SOURCE PRPG Core Rulebook/124}",
 			"",
 			"You are more accurate at longer ranges.  ",
-			"**Prerequisites:** [Point-Blank Shot](feat/point_blank_shot).  ",
+			"**Prerequisites:** {feat/Point-Blank Shot}.  ",
 			"**Benefit:** You only suffer a -1 penalty per full range increment between you and your target when using a ranged weapon.  ",
 			"**Normal:** You suffer a -2 penalty per full range increment between you and your target.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When making a single ranged attack as a standard action, you can spend 5 stamina points to ignore all range penalties on that attack.",
@@ -4769,7 +4769,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You make long-ranged attacks with remarkable accuracy.  ",
-			"**Prerequisites:** [Far Shot](feat/far_shot).  ",
+			"**Prerequisites:** {feat/Far Shot}.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn."
 		],
 		"has_mythic_version": true
@@ -4878,7 +4878,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You can soothe the emotions of wild beasts with nearly supernatural quickness.  ",
-			"**Prerequisites:** [Fast Empathy](feat/fast_empathy).  ",
+			"**Prerequisites:** {feat/Fast Empathy}.  ",
 			"**Benefit:** You can use wild empathy as a swift action."
 		],
 		"has_mythic_version": true
@@ -4892,7 +4892,7 @@
 			"{SOURCE Advanced Player's Guide/160}",
 			"",
 			"You benefit greatly from your healing, be it from spells or natural healing.  ",
-			"**Prerequisites:** Con 13, [Diehard](feat/diehard), [Endurance](feat/endurance).  ",
+			"**Prerequisites:** Con 13, {feat/Diehard}, {feat/Endurance}.  ",
 			"**Benefit:** When you regain hit points by resting or through magical healing, you recover additional hit points equal to half your Constitution modifier (minimum +1)."
 		]
 	},
@@ -4974,7 +4974,7 @@
 			"",
 			"Monkey: The animal companion's Climb bonus increases to +12.",
 			"",
-			"Mouse: The animal companion gains Improved Uncanny Dodge, as a [rogue](class/rogue) of its level.",
+			"Mouse: The animal companion gains Improved Uncanny Dodge, as a {class/rogue} of its level.",
 			"",
 			"Owl: The animal companion's Stealth bonus increases to +12.",
 			"",
@@ -5067,7 +5067,7 @@
 			"{SOURCE Horror Adventures/87}",
 			"",
 			"You eat the fear of others, freeing them from its effects.  ",
-			"**Prerequisites:** Cha 13, [Iron Will](feat/iron_will), have no immunity to fear effects.  ",
+			"**Prerequisites:** Cha 13, {feat/Iron Will}, have no immunity to fear effects.  ",
 			"**Benefit:** As a standard action, you can remove a fear effect from another creature by touching it. The fear effect is transferred from that creature to you, with the same remaining duration. If the fear effect has varying effects depending on the target (such as the effects of cause fear depending on the target's Hit Dice), it has the effect it had on the original creature or the effect it would have on you, whichever is more severe. When you choose to accept another creature's fear, you don't receive any saving throw, spell resistance, or other defenses you would normally have against the fear effect."
 		]
 	},
@@ -5138,7 +5138,7 @@
 			"{SOURCE Inner Sea Gods/212;Faiths of Corruption/24}",
 			"",
 			"When you slay enemies, you frighten other opponents.  ",
-			"**Prerequisites:** [Intimidating Prowess](feat/intimidating_prowess), worshiper of Lamashtu.  ",
+			"**Prerequisites:** {feat/Intimidating Prowess}, worshiper of Lamashtu.  ",
 			"**Benefit:** Upon reducing an enemy to 0 or fewer hit points, for the remaining duration of the combat encounter, you gain a +4 bonus on any Intimidate checks made to demoralize opponents who can see both you and the opponent you dropped."
 		]
 	},
@@ -5197,7 +5197,7 @@
 			"{SOURCE Ultimate Intrigue/82}",
 			"",
 			"You can fool others into believing you have ensorcelled them.  ",
-			"**Prerequisites:** [Deceitful](feat/deceitful), Bluff 5 ranks, Spellcraft 1 rank.  ",
+			"**Prerequisites:** {feat/Deceitful}, Bluff 5 ranks, Spellcraft 1 rank.  ",
 			"**Benefit:** As a standard action, you can feign placing a curse on a target. The target must attempt a Sense Motive or Spellcraft check (whichever skill that target has a higher bonus with) against a DC equal to 15 + your number of ranks in Bluff + your Charisma modifier, with a bonus on his skill check equal to any conditional bonus he has on saving throws against hexes or curses (like from the spell hex ward). If he fails, he becomes plagued by self-doubt and second-guesses himself. For his next two attack rolls, saving throws, skill checks, or ability checks, he rolls twice and takes the lower result; for every 5 ranks of Bluff you possess beyond 5, this ability affects an additional roll. This is a mind-affecting effect, and it doesn't work if the target is immune to curses. Once you attempt to feign putting a curse on a creature, you cannot do so again against the same creature for 24 hours, and if the target succeeds at detecting your ruse, he gains a +10 bonus against future attempts."
 		]
 	},
@@ -5210,10 +5210,10 @@
 			"{SOURCE Armor Master's Handbook/18}",
 			"",
 			"You use your shield to conceal your own body language and keep your attention focused.  ",
-			"**Prerequisites:** [Shield Focus](feat/shield_focus), base attack bonus +6 or fighter level 4th, Sense Motive 1 rank.  ",
+			"**Prerequisites:** {feat/Shield Focus}, base attack bonus +6 or fighter level 4th, Sense Motive 1 rank.  ",
 			"**Benefit:** You add your shield's bonus to AC to the DC of feint attempts against you.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/20}",
 			">",
 			">You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint against you in combat, and use the lower of the two results."
@@ -5234,7 +5234,7 @@
 			"**Prerequisites:** Bluff 1 rank.  ",
 			"**Benefit:** Whenever an ally who also has this feat successfully feints an opponent, that opponent also loses his Dexterity bonus to AC against the next attack you make against him before the end of the feinting ally's next turn.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When feinting an opponent, you can spend 5 stamina points to have that opponent lose its Dexterity bonus to AC against the next attack made by any of your allies. If the next ally to attack that opponent also has this feat, that ally's attacks do not count as the next attack for the purpose of this combat trick, allowing another ally to gain this benefit."
@@ -5249,7 +5249,7 @@
 			"{SOURCE Dragon Empires Primer/24}",
 			"",
 			"Your subtle flourishes mislead your enemy, tricking it into changing its footing.  ",
-			"**Prerequisites:** Dex 15, flurry of blows class feature, [Combat Expertise](feat/combat_expertise).  ",
+			"**Prerequisites:** Dex 15, flurry of blows class feature, {feat/Combat Expertise}.  ",
 			"**Benefit:** While using flurry of blows to make melee attacks, you can forgo your first attack to make a Bluff check to feint."
 		]
 	},
@@ -5278,10 +5278,10 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"Through the use of fluid contortions and manipulations of leverage, you can throw your opponent to the ground after escaping a grapple.  ",
-			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Trip](feat/improved_trip).  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}.  ",
 			"**Benefit:** When you break an opponent's grapple with a combat maneuver check or Escape Artist check, you can spend a swift action to make a trip attempt against that opponent.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action instead of a swift action."
@@ -5299,10 +5299,10 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"You commit all your focus to a devastating blow, trying to crush your opponent to the ground.  ",
-			"**Prerequisites:** Int 13, Str 13, [Combat Expertise](feat/combat_expertise), [Improved Trip](feat/improved_trip), [Power Attack](feat/power_attack), base attack bonus +6.  ",
+			"**Prerequisites:** Int 13, Str 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Power Attack}, base attack bonus +6.  ",
 			"**Benefit:** If you use the attack action to make a single melee attack at your highest base attack bonus while using Power Attack and you hit an opponent, you can spend a swift action to attempt a trip combat maneuver against that opponent.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action instead of a swift action."
@@ -5320,7 +5320,7 @@
 			"{SOURCE Ultimate Intrigue/83;Advanced Class Origins/27}",
 			"",
 			"Your dashing style and fluid rapier forms allow you to use agility rather than brute force to fell your foes.  ",
-			"**Prerequisites:** Dex 13, [Weapon Finesse](feat/weapon_finesse).  ",
+			"**Prerequisites:** Dex 13, {feat/Weapon Finesse}.  ",
 			"**Benefit:** When wielding a rapier one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The rapier must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or anytime another hand is otherwise occupied.",
 			"",
 			"In addition, if you have the panache class feature, you gain a +2 bonus to your CMD against attempts to disarm you of your rapier while you have at least 1 panache point."
@@ -5338,11 +5338,11 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"You were taught a style of martial arts that relies on the natural weapons from your racial ability or class feature.  ",
-			"**Prerequisites:** [Improved Unarmed Strike](feat/improved_unarmed_strike), Weapon Focus with selected natural weapon.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, Weapon Focus with selected natural weapon.  ",
 			"**Benefit:** Choose one of your natural weapons. While using the selected natural weapon, you can apply the effects of feats that have Improved Unarmed Strike as a prerequisite.  ",
 			"**Special:** If you are a monk, you can use the selected natural weapon with your flurry of blows class feature.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">At the start of your turn, you can spend any number of stamina points. Until the beginning of your next turn, for every 2 stamina points you spent this way, you can apply the effects of Feral Combat Training to a single natural weapon attack made with a natural weapon other than the weapon chosen with this feat."
@@ -5357,7 +5357,7 @@
 			"{SOURCE Ultimate Wilderness/218}",
 			"",
 			"The animal's grace and agility are honed for battle, making it a deadly combatant.  ",
-			"**Prerequisites:** [Weapon Finesse](feat/weapon_finesse), base attack bonus +3, animal companion.  ",
+			"**Prerequisites:** {feat/Weapon Finesse}, base attack bonus +3, animal companion.  ",
 			"**Benefit:** Choose one of the animal companion's natural attack. When the animal companion makes a melee attack with the chosen natural attack using its Dexterity bonus on attack rolls and its Strength bonus on damage rolls, it adds 1/4 of its Hit Dice as a bonus on damage rolls. This bonus damage doesn't increase or decrease based upon whether the natural attack is a primary or secondary natural attack.  ",
 			"**Special:** You can select this feat multiple times. Its effects don't stack. Each time you select this feat, choose a different natural attack to apply its benefit to."
 		]
@@ -5452,7 +5452,7 @@
 			"",
 			"Your orc heritage allows you to fight on.  ",
 			"**Prerequisites:** Con 13, half-orc, orc ferocity racial trait.  ",
-			"**Benefit:** You gain the [ferocity](umr/ferocity) universal monster ability, allowing you to continue fighting at negative hit points. When using this ability, you gain a +2 bonus on Intimidate checks.  ",
+			"**Benefit:** You gain the {umr/ferocity} universal monster ability, allowing you to continue fighting at negative hit points. When using this ability, you gain a +2 bonus on Intimidate checks.  ",
 			"**Normal:** A half-orc with the orc ferocity racial trait can fight for 1 more round after he is brought below 0 hit points."
 		]
 	},
@@ -5465,8 +5465,8 @@
 			"{SOURCE Advanced Race Guide/57}",
 			"",
 			"Your summoned creatures gain your ferocity.  ",
-			"**Prerequisites:** [Augment Summoning](feat/augment_summoning), half-orc or orc.  ",
-			"**Benefit:** Creatures you summon gain the [ferocity](umr/ferocity) universal monster ability."
+			"**Prerequisites:** {feat/Augment Summoning}, half-orc or orc.  ",
+			"**Benefit:** Creatures you summon gain the {umr/ferocity} universal monster ability."
 		]
 	},
 	"ferocious_tenacity": {
@@ -5488,7 +5488,7 @@
 			"For example, if you are raging, have a raging Constitution score of 18, are currently at 2 hit points, and take 20 hit points of damage from a hit (which is enough to bring you to -18 hit points, thereby killing you), you may spend 1 round of rage to reduce the damage by 1 hit point (leaving you perilously close to death at -17 hit points); if you spend 17 rounds of rage, you reduce the damage to 1 (the minimum), leaving you with 1 hit point.  ",
 			"**Note:** If this damage still makes you fall unconscious, your rage ends just like it normally would, lowering your Constitution to its normal value and reducing your hit point total as normal. Therefore, it is possible to use this feat to prevent yourself from instantly dying, yet you still die because your negative hit points exceed your normal Constitution score-take your normal Constitution into account when deciding how many rounds of rage to spend with this feat.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When using this feat, you can spend 2 stamina points in place of 1 round of rage to gain the same effects."
@@ -5503,7 +5503,7 @@
 			"{SOURCE Monster Codex/152}",
 			"",
 			"The rotting of your flesh has spread to your lungs and fills them with putrid fluids.  ",
-			"**Prerequisites:** Con 15, [Corrupted Flesh](feat/corrupted_flesh), 6 HD, ogre.  ",
+			"**Prerequisites:** Con 15, {feat/Corrupted Flesh}, 6 HD, ogre.  ",
 			"**Benefit:** You can exhale a 30-foot cone of vile-smelling, moist air mixed with phlegm and remnants of old meals. Creatures in the area must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Constitution modifier) or they are nauseated for 1d6 minutes. Affected creatures that spend a full-round action gasping for fresh air and scraping off your oral debris may attempt another save to overcome the effect. You can use this breath weapon twice per day, plus one additional time per day for every 6 HD you possess beyond 6."
 		]
 	},
@@ -5868,7 +5868,7 @@
 			"**Benefit:** You gain the constrict and grab special attacks. Your constrict attack deals damage equal to your unarmed strike or primary natural weapon melee attack. Further, you can grab and constrict opponents up to your size.  ",
 			"**Normal:** You can grab and constrict creatures one size smaller than you.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">You can spend 2 stamina points to grab a creature one size category larger than you."
@@ -5889,7 +5889,7 @@
 			"**Prerequisites:** Str 15, Int 3; naga, serpentfolk, or creature that has the constrict special attack; Final Embrace; base attack bonus +6.  ",
 			"**Benefit:** A creature that takes damage from your constrict attack is also shaken until the start of your next turn.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When a creature is damaged by your constrict ability, you can spend 5 stamina points to sicken that creature until the start of your next turn."
@@ -5910,7 +5910,7 @@
 			"**Prerequisites:** Str 17, Int 3; naga, serpentfolk, or creature that has the constrict special attack; Final Embrace; Final Embrace Horror; base attack bonus +9.  ",
 			"**Benefit:** Double the number of damage dice for your constrict special attack.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">Each time you constrict, you can spend 5 stamina points to triple the damage dice of your constrict ability instead of doubling them."
@@ -5925,7 +5925,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"You sense the minute imperfections in the otherwise ordered structure of your foes' weapons and armor.  ",
-			"**Prerequisites:** Str 13, [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), base attack bonus +1, Craft (armor or weapons) 5 ranks, aphorite.  ",
+			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, base attack bonus +1, Craft (armor or weapons) 5 ranks, aphorite.  ",
 			"**Benefit:** When performing a sunder combat maneuver, you ignore a number of points of hardness equal to your Intelligence modifier."
 		]
 	},
@@ -5959,7 +5959,7 @@
 			"Your blows set up your opponents for a devastating finish.  ",
 			"**Prerequisites:** Base attack bonus +11 or monk level 11th; at least one combination feat.",
 			"",
-			"The first time in a round you use a combination feat to apply a reduction or penalty to yourself or an enemy, you can double the feat's numerical modifier. For example, you can double the reduction granted by [Combat Rhythm](feat/combat_rhythm) to -2. This does not double any other effects of combination feats, such as damage."
+			"The first time in a round you use a combination feat to apply a reduction or penalty to yourself or an enemy, you can double the feat's numerical modifier. For example, you can double the reduction granted by {feat/Combat Rhythm} to -2. This does not double any other effects of combination feats, such as damage."
 		]
 	},
 	"fire_gods_blessing": {
@@ -5990,7 +5990,7 @@
 			"**Prerequisites:** Goblin.  ",
 			"**Benefit:** You can wield a torch as a weapon without taking the nonproficient penalty and gain a +1 bonus on attack rolls with melee weapons that deal fire damage.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When you hit with a torch attack, you can spend 1 stamina point. If you do, the fire damage dealt with that attack increases to 1d6 points of fire damage."
@@ -6020,7 +6020,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You masterfully weave the ancient melodies of fire into your spells.  ",
-			"**Prerequisites:** [Fire Music](feat/fire_music).  ",
+			"**Prerequisites:** {feat/Fire Music}.  ",
 			"**Benefit:** When you use Fire Music to change any of the damage dealt by a bard spell to fire damage, that damage ignores fire resistance up to your tier.",
 			"",
 			"If you cast summon monster as a bard spell and choose to give the summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance already granted by Fire Music) and add 1d4 points of fire damage to all of its natural attacks instead of the +1 fire damage normally granted by Fire Music. Creatures with the fire subtype also gain these benefits."
@@ -6076,8 +6076,8 @@
 			"{SOURCE Pathfinder #139: The Dead Road/73}",
 			"",
 			"Your creator was a soldier and person of war, and your memories are filled with the taste of blood.  ",
-			"**Prerequisites:** Character level 5th, [shabti](race/shabti).  ",
-			"**Benefit:** Once per day, you can cast [greater magic weapon](spell/greater_magic_weapon) as a spell-like ability. You gain a second daily use at 9th level, and a third at 15th level. Only you can benefit from this spell-like ability; anyone else who wields the enchanted weapon gains no benefit from the spell. The caster level for this ability is equal to your character level."
+			"**Prerequisites:** Character level 5th, {race/shabti}.  ",
+			"**Benefit:** Once per day, you can cast {spell/greater magic weapon} as a spell-like ability. You gain a second daily use at 9th level, and a third at 15th level. Only you can benefit from this spell-like ability; anyone else who wields the enchanted weapon gains no benefit from the spell. The caster level for this ability is equal to your character level."
 		]
 	},
 	"flagbearer": {
@@ -6096,7 +6096,7 @@
 			"**Prerequisites:** Cha 15.  ",
 			"**Benefit:** As long as you hold your clan, house, or party's flag, members of that allegiance within 30 feet who can see the flag (including yourself) gain a +1 morale bonus on attack rolls, weapon damage rolls, and saving throws against fear and charm effects. You must hold the flag in one hand in order to grant this bonus. If the standard is taken by the enemy or destroyed, this bonus becomes a penalty, affecting all creatures that the bonus previously affected for 1 hour (or until you reclaim the lost flag).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
 			">",
 			">Whenever you can see your flag but aren't holding it, you can spend 1 stamina point to gain the benefits of Flagbearer for 1 minute as if you were holding it."
@@ -6111,7 +6111,7 @@
 			"{SOURCE Inner Sea Gods/212}",
 			"",
 			"You have learned to ignore the effects of pain through long years of exposure to it.  ",
-			"**Prerequisites:** [Endurance](feat/endurance), character level 7th, worshiper of Zon-Kuthon.  ",
+			"**Prerequisites:** {feat/Endurance}, character level 7th, worshiper of Zon-Kuthon.  ",
 			"**Benefit:** You gain a +4 bonus on saving throws against pain effects. Also, you suffer no adverse effect when your nonlethal damage equals your current hit points, and you become staggered when your nonlethal damage exceeds your current hit points. You never fall unconscious due to nonlethal damage.  ",
 			"**Normal:** When your nonlethal damage equals your current hit points, you become staggered. When your nonlethal damage exceeds your current hit points, you fall unconscious."
 		]
@@ -6138,7 +6138,7 @@
 			"{SOURCE Advanced Race Guide/118}",
 			"",
 			"You have mastered fire magic and alchemy.  ",
-			"**Prerequisites:** [Fire Tamer](feat/fire_tamer), character level 5th, goblin.  ",
+			"**Prerequisites:** {feat/Fire Tamer}, character level 5th, goblin.  ",
 			"**Benefit:** You gain fire resistance 5. When casting spells with the fire descriptor or throwing alchemist bombs that deal fire damage, treat your caster level or alchemist level as if you were 1 level higher."
 		]
 	},
@@ -6169,7 +6169,7 @@
 			"Fighting multiple foes is easy for you.  ",
 			"**Benefit:** Whenever you hit an adjacent opponent with a melee attack, until the start of your next turn, that opponent does not gain any flanking bonus on attack rolls while it is flanking you and cannot deal sneak attack damage to you. It can still provide a flank for its allies.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
 			">",
 			">When using this feat, you can spend 5 stamina points. If you do, your target cannot flank with its allies against you until the start of your next turn."
@@ -6196,7 +6196,7 @@
 			"{SOURCE Dragonslayer's Handbook/25}",
 			"",
 			"Your critical hits weaken your opponents' defenses.  ",
-			"**Prerequisites:** [Critical Focus](feat/critical_focus), base attack bonus +11.  ",
+			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you score a critical hit, your opponent takes a -1 penalty to its natural armor bonus for the duration of the encounter. This penalty is cumulative, but cannot reduce an opponent's natural armor bonus below 0."
 		]
 	},
@@ -6220,7 +6220,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You're fantastically light on your feet.  ",
-			"**Prerequisites:** [Fleet](feat/fleet).  ",
+			"**Prerequisites:** {feat/Fleet}.  ",
 			"**Benefit:** Your base land speed increases by 5 feet, regardless of what armor you wear or whether you're encumbered. This bonus stacks with the bonus gained from Fleet.  ",
 			"**Special:** You can take this feat multiple times, but no more than the number of times you've taken non-mythic Fleet. The effects stack."
 		],
@@ -6248,7 +6248,7 @@
 			"{SOURCE Demons Revisited/8}",
 			"",
 			"Your slashing sneak attacks tend to slice away swaths of skin and natural armor.  ",
-			"**Prerequisites:** Sneak attack +3d6, bleeding sneak attack rogue trick or [bleed](umr/bleed) universal monster ability.  ",
+			"**Prerequisites:** Sneak attack +3d6, bleeding sneak attack rogue trick or {umr/bleed} universal monster ability.  ",
 			"**Benefit:** When you successfully inflict sneak attack damage on a foe with a slashing weapon, your attack doesn't go particularly deep, but you do carve away a significant portion of skin and flesh. If this sneak attack inflicts bleed damage, the victim of the sneak attack is sickened by the pain and has its natural armor bonus (if any) reduced by a number of points equal to the number of sneak attack dice you possess. These penalties persist as long as the bleed damage persists. Multiple strikes on the same foe do not stack the bleed damage, but the penalty to natural armor does stack, to a maximum penalty equal to the target's normal full natural armor score."
 		]
 	},
@@ -6262,7 +6262,7 @@
 			"",
 			"You can create creatures through an abominable alchemical process.  ",
 			"**Prerequisites:** Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.  ",
-			"**Benefit:** You can create fleshwarped creatures and [fleshcraft](main/magic_misc) grafts (see [Fleshwarping](rule/fleshwarping) for full details). A newly created fleshwarped creature has average hit points for its Hit Dice."
+			"**Benefit:** You can create fleshwarped creatures and [fleshcraft](main/magic_misc) grafts (see {rule/Fleshwarping} for full details). A newly created fleshwarped creature has average hit points for its Hit Dice."
 		]
 	},
 	"flexible_foe": {
@@ -6316,7 +6316,7 @@
 			"{SOURCE Advanced Class Guide/148}",
 			"",
 			"You have learned a trick that makes your spellcasting more flexible.  ",
-			"**Prerequisites:** [Spell Mastery](feat/spell_mastery), wizard level 1st.  ",
+			"**Prerequisites:** {feat/Spell Mastery}, wizard level 1st.  ",
 			"**Benefit:** When you prepare your spells each day, you can choose to keep a number of spell slots equal to your Intelligence modifier (minimum 1) flexibly prepared. Instead of preparing a single spell within each of these slots, you can partially prepare two spells. Anytime after you prepare these flexible slots, you can spend a full-round action to finalize one slot, choosing one of the two spells to be finished and fully prepared in that slot."
 		]
 	},
@@ -6330,7 +6330,7 @@
 			"",
 			"You can appear and disappear in the blink of an eye.  ",
 			"**Prerequisites:** Knowledge (planes) 9 ranks.  ",
-			"**Benefit:** You can use [dimension door](spell/dimension_door) as a spell-like ability with a caster level equal to your ranks in Knowledge (planes). You can't teleport a distance greater than twice your base speed in this way, and you must have both line of sight and line of effect to your destination.",
+			"**Benefit:** You can use {spell/dimension door} as a spell-like ability with a caster level equal to your ranks in Knowledge (planes). You can't teleport a distance greater than twice your base speed in this way, and you must have both line of sight and line of effect to your destination.",
 			"",
 			"You can use this feat's benefit once per day, plus an additional time per day for every 5 ranks you have in Knowledge (planes).  ",
 			"**Special:** A fighter with this feat treats Dimensional Agility and any feat that lists it as a prerequisite as though they were combat feats when selecting fighter bonus feats."
@@ -6358,7 +6358,7 @@
 			"{SOURCE Inner Sea Monster Codex/53}",
 			"",
 			"You can throw grappled enemies a short distance, turning them into makeshift missiles against their allies.  ",
-			"**Prerequisites:** [Flyby Attack](feat/flyby_attack), [Powerful Wings](feat/powerful_wings), [Snatch and Drop](feat/snatch_and_drop), [Throw Anything](feat/throw_anything).  ",
+			"**Prerequisites:** {feat/Flyby Attack}, {feat/Powerful Wings}, {feat/Snatch and Drop}, {feat/Throw Anything}.  ",
 			"**Benefit:** Whenever you successfully grapple an opponent using the Snatch and Drop feat, you can instead fling your victim at another target. You can throw a creature 10 feet, plus an additional 5 feet for every size category by which it is smaller than you. To strike another target, make a ranged touch attack. If you hit, the attack deals damage to both the creature flung and its intended target. This damage is equal to that of a slam attack of a creature two sizes larger than the creature being flung plus your Strength modifier. The flung creature lands prone in the nearest adjacent square to the target, and the target must succeed at a Reflex saving throw (DC = 10 + damage dealt) or also fall prone in its own square. You can't use this feat if the weight of the creature you intend to fling exceeds the amount you can carry as a heavy load.  ",
 			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
 		]
@@ -6372,7 +6372,7 @@
 			"{SOURCE Ultimate Wilderness/111}",
 			"",
 			"You hurl a weapon during your charge before drawing a new one to strike, enabling you to make another attack at the expense of the latter attack's accuracy.  ",
-			"**Prerequisites:** [Quick Draw](feat/quick_draw), base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Quick Draw}, base attack bonus +6.  ",
 			"**Benefit:** If you have a thrown weapon in hand when you begin charging, you can make a ranged attack with that weapon against the target of your charge at any point during your charge. You gain the +2 bonus for charging on the attack roll for this ranged attack. You can then immediately draw a melee weapon during your charge. You take a -5 penalty on the melee attack made at the end of the charge. When charging this way, you cannot use any effect that would grant you more than one attack at the end of your charge (such as pounce), nor can you use abilities that grant you other ranged attacks on a charge, such as the hurling charge rage power."
 		]
 	},
@@ -6427,7 +6427,7 @@
 			"{SOURCE Dirty Tactics Toolbox/13}",
 			"",
 			"You quickly bring down an off-balanced opponent.  ",
-			"**Prerequisites:** [Improved Overrun](feat/improved_overrun).  ",
+			"**Prerequisites:** {feat/Improved Overrun}.  ",
 			"**Benefit:** When attempting an overrun combat maneuver check against a flat-footed opponent, if the attempt knocks the creature prone, you can also fall prone in order to attempt a grapple combat maneuver check against the creature as a free action. Doing so does not provoke an attack of opportunity from the target of your grapple."
 		]
 	},
@@ -6479,7 +6479,7 @@
 			"{SOURCE Faiths and Philosophies/7}",
 			"",
 			"So certain is your disbelief in the authority of the gods that you can brush aside their spells without effort.  ",
-			"**Prerequisites:** [Divine Defiance](feat/divine_defiance).  ",
+			"**Prerequisites:** {feat/Divine Defiance}.  ",
 			"**Benefit:** You gain spell resistance equal to 11 + your character level. This spell resistance applies only against spells and spell-like abilities covered by the Divine Defiance feat. You can lower this resistance for 1 round as a standard action."
 		]
 	},
@@ -6497,7 +6497,7 @@
 			"Familiarity with the military traditions of your homeland inspires uncommon valor in you.  ",
 			"**Benefit:** You gain a +2 bonus on all saving throws against fear effects. Whenever a fear effect targets you and fails to affect you (either because of a successful saving throw or because of immunity to fear), you gain a +2 morale bonus on attack rolls, weapon damage rolls, and CMB checks against the creature that attempted to use the fear affect on you for 1 round.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
 			">",
 			">You can spend 2 stamina points in order to gain the benefit of Focused Discipline for 1 round as if you had been targeted by a fear effect that failed to affect you."
@@ -6603,7 +6603,7 @@
 			"{SOURCE Quests and Campaigns/26}",
 			"",
 			"Your attention to detail provides you with insights into how to more effectively and economically gain certain commodities.  ",
-			"**Prerequisites:** [Focused Worker](feat/focused_worker).  ",
+			"**Prerequisites:** {feat/Focused Worker}.  ",
 			"**Benefit:** You can spend a day of downtime to purchase one type of capital for half its normal cost. This capital must be the same as the focus capital you chose for the Focused Worker feat. However, the cost of the neglected capital, chosen as part of the same Focused Worker feat, increases by half again its normal amount. These changes in price apply to both the purchased cost and the earned cost of the affected forms of capital.  ",
 			"**Special:** You may take this feat twice, but only if you have also chosen the Focused Worker feat twice. This feat only affects one feat's focus capital. The second time you take this feat, choose the other focus capital from your Focused Worker feats."
 		]
@@ -6647,11 +6647,11 @@
 			"{SOURCE Advanced Player's Guide/160;Pathfinder Campaign Setting/89}",
 			"",
 			"Your anatomical insight adds deadliness to your shots.  ",
-			"**Prerequisites:** Int 13, [Point-Blank Shot](feat/point_blank_shot), [Precise Shot](feat/precise_shot).  ",
+			"**Prerequisites:** Int 13, {feat/Point-Blank Shot}, {feat/Precise Shot}.  ",
 			"**Benefit:** As a standard action, you may make an attack with a bow or crossbow and add your Intelligence modifier on the damage roll. You must be within 30 feet of your target to deal this extra damage. Creatures immune to critical hits and sneak attacks are immune to this extra damage.  ",
 			"**Special:** Starting at 2nd level, a ranger with the archery combat style may select Focused Shot as a combat style feat.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
 			">",
 			">You can spend 2 stamina points to make a Focused Shot attack against a target anywhere within your weapon's first range increment."
@@ -6736,7 +6736,7 @@
 			"{SOURCE Advanced Race Guide/124}",
 			"",
 			"You and your allies work together to shake off mental effects.  ",
-			"**Prerequisites:** [Hobgoblin Discipline](feat/hobgoblin_discipline), hobgoblin.  ",
+			"**Prerequisites:** {feat/Hobgoblin Discipline}, hobgoblin.  ",
 			"**Benefit:** An ally who also has this feat can deal damage to you in order to break an ongoing mind-affecting effect that allows a saving throw. The ally must cause at least 5 points of damage to you with an attack, spell, or other ability. You then reroll your saving throw, with a +1 bonus for every 5 additional points of damage the attack caused. If your save is successful, the mind-affecting effect ends. Only damage actually dealt counts for purposes of this feat; nonlethal damage and damage reduced or eliminated by damage reduction, resistances, and so on does not qualify."
 		]
 	},
@@ -6801,11 +6801,11 @@
 			"{SOURCE Advanced Player's Guide/160}",
 			"",
 			"You can repeatedly close the distance when foes try to move away, without impeding your normal movement.  ",
-			"**Prerequisites:** Dex 13, [Step Up](feat/step_up).  ",
+			"**Prerequisites:** Dex 13, {feat/Step Up}.  ",
 			"**Benefit:** When using the Step Up feat to follow an adjacent foe, you may move up to 10 feet. You may still take a 5-foot step during your next turn, and any movement you make using this feat does not subtract any distance from your movement during your next turn.  ",
 			"**Normal:** You can only take a 5-foot step to follow an opponent using Step Up.",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
 			">",
 			">When you use this feat to move, you can spend 2 stamina points to increase your movement to 15 feet."
@@ -6820,7 +6820,7 @@
 			"{SOURCE Martial Arts Handbook/22}",
 			"",
 			"You bat away an opponent's weapon, creating an opening for a punch or kick.  ",
-			"**Prerequisites:** Int 13, [Combat Expertise](feat/combat_expertise), [Improved Disarm](feat/improved_disarm), [Improved Unarmed Strike](feat/improved_unarmed_strike), base attack bonus +6 or monk level 6th.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Disarm}, {feat/Improved Unarmed Strike}, base attack bonus +6 or monk level 6th.  ",
 			"**Benefit:** Whenever you succeed at a combat maneuver check to disarm an opponent, you can spend a swift action to make an unarmed strike attack at your highest base attack bonus against the target you disarmed."
 		]
 	},
@@ -6849,7 +6849,7 @@
 			"{SOURCE Ultimate Intrigue/83}",
 			"",
 			"You can mislead magic items by virtue of your disguise.  ",
-			"**Prerequisites:** [Deceitful](feat/deceitful), Disguise 1 rank, Use Magic Device 1 rank.  ",
+			"**Prerequisites:** {feat/Deceitful}, Disguise 1 rank, Use Magic Device 1 rank.  ",
 			"**Benefit:** When you are in disguise as a member of a particular race or a person of a particular alignment, you can use your Disguise bonus instead of your Use Magic Device bonus to emulate that race and alignment for the purpose of attempting to activate a magic item."
 		]
 	},
@@ -6913,7 +6913,7 @@
 			"{SOURCE Adventurer's Guide/16}",
 			"",
 			"This animal's charges move its enemies.  ",
-			"**Prerequisites:** [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), animal companion.  ",
+			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Power Attack}, animal companion.  ",
 			"**Benefit:** Once per round when this animal companion hits an opponent with a charge attack, it can initiate a bull rush against that target as a free action. If it moves its full speed as part of the charge, it gains a +4 bonus on its combat maneuver check to resolve this bull rush."
 		]
 	},
@@ -7002,7 +7002,7 @@
 			"**Prerequisites:** Proficient with armor or shield.  ",
 			"**Benefit:** If an opponent scores a critical hit against you, you can turn the critical hit into a normal hit. If you do, either your armor or your shield gains the broken condition (your choice).",
 			"",
-			">**Combat Trick** (from the [Combat Stamina](feat/combat_stamina) feat)  ",
+			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
 			">",
 			">When you use this feat to negate a critical hit, you can spend 5 stamina points to give your armor or shield a 50% chance to avoid gaining the broken condition."
@@ -7017,7 +7017,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/69}",
 			"",
 			"Your great mass and vigor allows you to shrug off the effects of poison and fatigue.  ",
-			"**Prerequisites:** Con 14, [Great Fortitude](feat/great_fortitude), giant subtype.  ",
+			"**Prerequisites:** Con 14, {feat/Great Fortitude}, giant subtype.  ",
 			"**Benefit:** When you attempt a saving throw against a poison effect or an effect that inflicts the fatigued condition, roll twice and take the higher result."
 		]
 	}

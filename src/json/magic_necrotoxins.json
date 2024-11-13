@@ -17,7 +17,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), desecrate; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, desecrate; **Cost** 750 gp"
 		]
 	},
 	"ghost_syrup": {
@@ -38,7 +38,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ethereal jaunt, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, ethereal jaunt, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
 		]
 	},
 	"lazurite_flakes": {
@@ -59,7 +59,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, create undead; **Cost** 2,700 gp"
 		]
 	},
 	"memento_mori": {
@@ -80,7 +80,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), unhallow, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, unhallow, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
 		]
 	},
 	"quick_rot": {
@@ -97,11 +97,11 @@
 			"",
 			"**Type** poison, injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** 1d2 Con damage, and until the Con damage is healed, the victim gains the [stench](umr/stench) universal monster ability. The stench DC is equal to the poison's DC, and creatures who fail their saves are sickened for 1d6+4 minutes. The poisoned creature is not immune to its own stench; **Cure** 1 save",
+			"**Effect** 1d2 Con damage, and until the Con damage is healed, the victim gains the {umr/stench} universal monster ability. The stench DC is equal to the poison's DC, and creatures who fail their saves are sickened for 1d6+4 minutes. The poisoned creature is not immune to its own stench; **Cure** 1 save",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ghoul touch; **Cost** 225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, ghoul touch; **Cost** 225 gp"
 		]
 	},
 	"xensh_spores": {
@@ -122,7 +122,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [undead anatomy I](spell/undead_anatomy_1); **Cost** 225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, [undead anatomy I](spell/undead_anatomy_1); **Cost** 225 gp"
 		]
 	}
 }

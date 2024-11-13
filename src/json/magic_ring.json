@@ -27,7 +27,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), scrying, status; **Cost** 125 gp (prisoner's), 8,000 gp (jailer's)"
+			"**Requirements** {feat/Forge Ring}, scrying, status; **Cost** 125 gp (prisoner's), 8,000 gp (jailer's)"
 		]
 	},
 	"ironbound_ring_minion": {
@@ -44,7 +44,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), resistance, suggestion; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, resistance, suggestion; **Cost** 4,000 gp"
 		]
 	},
 	"fools_malady": {
@@ -63,7 +63,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), alter self; **Cost** 450 gp"
+			"**Requirements** {feat/Forge Ring}, alter self; **Cost** 450 gp"
 		]
 	},
 	"kyton_ring": {
@@ -80,7 +80,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), major creation; **Cost** 500 gp"
+			"**Requirements** {feat/Forge Ring}, major creation; **Cost** 500 gp"
 		]
 	},
 	"ring_of_arcane_signets": {
@@ -100,7 +100,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), arcane mark; **Cost** 500 gp"
+			"**Requirements** {feat/Forge Ring}, arcane mark; **Cost** 500 gp"
 		]
 	},
 	"ring_of_inurement": {
@@ -117,7 +117,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), endure elements, prestidigitation; **Cost** 500 gp"
+			"**Requirements** {feat/Forge Ring}, endure elements, prestidigitation; **Cost** 500 gp"
 		]
 	},
 	"ring_of_the_faithful_dead": {
@@ -134,7 +134,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), sanctify corpse; **Cost** 500 gp"
+			"**Requirements** {feat/Forge Ring}, sanctify corpse; **Cost** 500 gp"
 		]
 	},
 	"riverclub_ring": {
@@ -151,7 +151,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), icicle dagger; **Cost** 500 gp"
+			"**Requirements** {feat/Forge Ring}, icicle dagger; **Cost** 500 gp"
 		]
 	},
 	"ring_of_serene_contortions": {
@@ -168,7 +168,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), ghost sound, true strike, creator must have 5 ranks in Escape Artist; **Cost** 600 gp"
+			"**Requirements** {feat/Forge Ring}, ghost sound, true strike, creator must have 5 ranks in Escape Artist; **Cost** 600 gp"
 		]
 	},
 	"dark_life_ring": {
@@ -187,7 +187,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), death ward; **Cost** 625 gp"
+			"**Requirements** {feat/Forge Ring}, death ward; **Cost** 625 gp"
 		]
 	},
 	"ring_of_resistance_1": {
@@ -204,7 +204,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](spell/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** {feat/Forge Ring}, {spell/resistance}, creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		]
 	},
 	"deadeyes_spotter_ring": {
@@ -221,7 +221,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), animal messenger, creator must have 2 ranks in Perception and Survival; **Cost** 750 gp"
+			"**Requirements** {feat/Forge Ring}, animal messenger, creator must have 2 ranks in Perception and Survival; **Cost** 750 gp"
 		]
 	},
 	"ring_of_spell_knowledge_type_1": {
@@ -242,7 +242,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must be able to cast spells of the spell level to be granted; **Cost** 750 gp (type I), 3,000 gp (type II), 6,750 gp (type III), 12,000 gp (type IV)"
+			"**Requirements** {feat/Forge Ring}, creator must be able to cast spells of the spell level to be granted; **Cost** 750 gp (type I), 3,000 gp (type II), 6,750 gp (type III), 12,000 gp (type IV)"
 		]
 	},
 	"ring_of_balanced_grip": {
@@ -259,7 +259,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), masterwork transformation; **Cost** 800 gp"
+			"**Requirements** {feat/Forge Ring}, masterwork transformation; **Cost** 800 gp"
 		]
 	},
 	"ring_of_starlight": {
@@ -276,7 +276,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), dancing lights, faerie fire; **Cost** 800 gp"
+			"**Requirements** {feat/Forge Ring}, dancing lights, faerie fire; **Cost** 800 gp"
 		]
 	},
 	"ring_of_protection_1": {
@@ -296,7 +296,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), shield of faith, caster must be of a level at least three times higher than the bonus of the ring; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)"
+			"**Requirements** {feat/Forge Ring}, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)"
 		]
 	},
 	"bloodletting_thimble": {
@@ -316,7 +316,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), enthrall; **Cost** 1,000 gp"
+			"**Requirements** {feat/Forge Ring}, enthrall; **Cost** 1,000 gp"
 		]
 	},
 	"ring_of_lingering_blood_magic": {
@@ -333,7 +333,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Endurance](feat/endurance), [Extend Spell](feat/extend_spell), [Forge Ring](feat/forge_ring), creator must have the bloodrage class feature; **Cost** 1,000 gp"
+			"**Requirements** {feat/Endurance}, {feat/Extend Spell}, {feat/Forge Ring}, creator must have the bloodrage class feature; **Cost** 1,000 gp"
 		]
 	},
 	"ring_of_the_grasping_grave": {
@@ -350,7 +350,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), sculpt corpse; **Cost** 1,000 gp"
+			"**Requirements** {feat/Forge Ring}, sculpt corpse; **Cost** 1,000 gp"
 		]
 	},
 	"ring_of_feather_falling": {
@@ -370,7 +370,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), feather fall; **Cost** 1,100 gp"
+			"**Requirements** {feat/Forge Ring}, feather fall; **Cost** 1,100 gp"
 		]
 	},
 	"ring_of_climbing": {
@@ -390,7 +390,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 5 ranks in the Climb skill; **Cost** 1,250 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 5 ranks in the Climb skill; **Cost** 1,250 gp"
 		]
 	},
 	"ring_of_jumping": {
@@ -410,7 +410,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 5 ranks in Acrobatics; **Cost** 1,250 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 5 ranks in Acrobatics; **Cost** 1,250 gp"
 		]
 	},
 	"ring_of_sustenance": {
@@ -430,7 +430,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), create food and water; **Cost** 1,250 gp"
+			"**Requirements** {feat/Forge Ring}, create food and water; **Cost** 1,250 gp"
 		]
 	},
 	"ring_of_swimming": {
@@ -450,7 +450,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 5 ranks in Swim; **Cost** 1,250 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 5 ranks in Swim; **Cost** 1,250 gp"
 		]
 	},
 	"droskars_guiding_ring": {
@@ -470,7 +470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), charm person, fabricate; **Cost** 1,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, charm person, fabricate; **Cost** 1,300 gp"
 		]
 	},
 	"ring_of_natural_attunement_leshy": {
@@ -487,7 +487,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), plant growth, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 1,400 gp"
+			"**Requirements** {feat/Forge Ring}, plant growth, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 1,400 gp"
 		]
 	},
 	"knight-inheritors_ring": {
@@ -507,7 +507,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), bless weapon, prestidigitation, shield of faith, wartrain mount, creator must be at least 3rd level; **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, bless weapon, prestidigitation, shield of faith, wartrain mount, creator must be at least 3rd level; **Cost** 1,500 gp"
 		]
 	},
 	"knight_inheritors_ring": {
@@ -527,7 +527,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), arcane mark, shield of faith, wrath, creator must be at least 3rd level; **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, arcane mark, shield of faith, wrath, creator must be at least 3rd level; **Cost** 1,500 gp"
 		]
 	},
 	"ring_of_austere_majesty": {
@@ -544,7 +544,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), aphasia, eagle's splendor; **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, aphasia, eagle's splendor; **Cost** 1,500 gp"
 		]
 	},
 	"ring_of_ferocious_action": {
@@ -564,7 +564,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), haste, stabilize; **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, haste, stabilize; **Cost** 1,500 gp"
 		]
 	},
 	"ring_of_powerful_blood_magic": {
@@ -581,7 +581,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [Spell Focus](feat/spell_focus), creator must have the bloodrage class feature; **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Spell Focus}, creator must have the bloodrage class feature; **Cost** 1,500 gp"
 		]
 	},
 	"tyrants_friend": {
@@ -598,7 +598,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [detect poison](spell/detect_poison); **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/detect poison}; **Cost** 1,500 gp"
 		]
 	},
 	"ring_of_eloquence": {
@@ -617,7 +617,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), comprehend languages; **Cost** 1,750 gp"
+			"**Requirements** {feat/Forge Ring}, comprehend languages; **Cost** 1,750 gp"
 		]
 	},
 	"ring_of_stairs_and_stars": {
@@ -634,7 +634,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), feather fall, magic missile, silent image; **Cost** 1,910 gp"
+			"**Requirements** {feat/Forge Ring}, feather fall, magic missile, silent image; **Cost** 1,910 gp"
 		]
 	},
 	"ring_of_ancestral_blood_magic": {
@@ -651,7 +651,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Endurance](feat/endurance), [Extend Spell](feat/extend_spell), [Forge Ring](feat/forge_ring), creator must have the bloodrage class feature; **Cost** 2,000 gp"
+			"**Requirements** {feat/Endurance}, {feat/Extend Spell}, {feat/Forge Ring}, creator must have the bloodrage class feature; **Cost** 2,000 gp"
 		]
 	},
 	"ring_of_counterspells": {
@@ -671,7 +671,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), imbue with spell ability; **Cost** 2,000 gp"
+			"**Requirements** {feat/Forge Ring}, imbue with spell ability; **Cost** 2,000 gp"
 		]
 	},
 	"ring_of_planar_focus": {
@@ -690,7 +690,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), discern location; **Cost** 2,000 gp"
+			"**Requirements** {feat/Forge Ring}, discern location; **Cost** 2,000 gp"
 		]
 	},
 	"ring_of_seven_lovely_colors": {
@@ -703,11 +703,11 @@
 			"**Aura** faint abjuration and illusion; **CL** 7th  ",
 			"**Slot** ring; **Price** 4,000 gp; **Weight** -",
 			"",
-			"This golden ring, set with seven brightly colored gems, functions as a ring of protection +1. In addition, seven times per day, the wearer can use [beast shape IV](spell/beast_shape_4) to transform into a songbird for 10 minutes (use statistics for a raven).",
+			"This golden ring, set with seven brightly colored gems, functions as a ring of protection +1. In addition, seven times per day, the wearer can use {spell/beast shape IV} to transform into a songbird for 10 minutes (use statistics for a raven).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [beast shape IV](spell/beast_shape_4), shield of faith, creator must be at least 3rd level; **Cost** 2,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/beast shape IV}, shield of faith, creator must be at least 3rd level; **Cost** 2,000 gp"
 		]
 	},
 	"saltspray_ring": {
@@ -722,11 +722,11 @@
 			"",
 			"This mithral ring is engraved with a pattern of rolling waves that encircles the entire band. The saltspray ring is immune to rust, both from natural oxidation and rust caused by magical effects.",
 			"",
-			"Upon command, the ring causes a thick vapor to continuously surround its owner as per [obscuring mist](spell/obscuring_mist), except the mist has a 10-foot radius from the wearer and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all nonmagical fires within its area. Magical fires and creatures with the fire subtype are not dispelled or adversely affected by the mist, though such creatures find being in the fog to be an uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a standard action. The ring has no effect whatsoever underwater.",
+			"Upon command, the ring causes a thick vapor to continuously surround its owner as per {spell/obscuring mist}, except the mist has a 10-foot radius from the wearer and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all nonmagical fires within its area. Magical fires and creatures with the fire subtype are not dispelled or adversely affected by the mist, though such creatures find being in the fog to be an uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a standard action. The ring has no effect whatsoever underwater.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [obscuring mist](spell/obscuring_mist), [quench](spell/quench); **Cost** 2,250 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/obscuring mist}, {spell/quench}; **Cost** 2,250 gp"
 		]
 	},
 	"red_hound_ring": {
@@ -739,11 +739,11 @@
 			"**Aura** faint abjuration, conjuration, and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 4,700 gp; **Weight** -",
 			"",
-			"This white gold ring is engraved with the images of a mastiff and a thundercloud. It functions as a ring of protection +1. In addition, once per day, the wearer may use [summon monster I](spell/summon_monster_1) to summon a red mastiff (use statistics for a celestial dog). Additionally, once per day the wearer may use [beast shape I](spell/beast_shape_1) to transform into a Small red mastiff.",
+			"This white gold ring is engraved with the images of a mastiff and a thundercloud. It functions as a ring of protection +1. In addition, once per day, the wearer may use [summon monster I](spell/summon_monster_1) to summon a red mastiff (use statistics for a celestial dog). Additionally, once per day the wearer may use {spell/beast shape I} to transform into a Small red mastiff.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [beast shape I](spell/beast_shape_1), shield of faith, [summon monster I](spell/summon_monster_1), creator must be at least 3rd level; **Cost** 2,350 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/beast shape I}, shield of faith, [summon monster I](spell/summon_monster_1), creator must be at least 3rd level; **Cost** 2,350 gp"
 		]
 	},
 	"ring_of_delayed_doom_1_stone": {
@@ -760,7 +760,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), heal, time stop; **Cost** 22,500 gp"
+			"**Requirements** {feat/Forge Ring}, heal, time stop; **Cost** 22,500 gp"
 		]
 	},
 	"gluttonous_feasting_ring": {
@@ -777,7 +777,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), false life, purify food and drink; **Cost** 2,500 gp"
+			"**Requirements** {feat/Forge Ring}, false life, purify food and drink; **Cost** 2,500 gp"
 		]
 	},
 	"ring_of_maniacal_devices": {
@@ -797,7 +797,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), fox's cunning, creator must have 5 ranks in the relevant skill; **Cost** 2,500 gp"
+			"**Requirements** {feat/Forge Ring}, fox's cunning, creator must have 5 ranks in the relevant skill; **Cost** 2,500 gp"
 		]
 	},
 	"ring_of_rat_fangs": {
@@ -817,7 +817,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), magic fang, polymorph; **Cost** 2,500 gp"
+			"**Requirements** {feat/Forge Ring}, magic fang, polymorph; **Cost** 2,500 gp"
 		]
 	},
 	"glorious_flame_ring": {
@@ -836,7 +836,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Selective Channeling, elemental aura (fire), creator must be able to channel positive energy; **Cost** 2,700 gp"
+			"**Requirements** {feat/Forge Ring}, Selective Channeling, elemental aura (fire), creator must be able to channel positive energy; **Cost** 2,700 gp"
 		]
 	},
 	"ring_of_vengeful_blood_magic": {
@@ -853,7 +853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Forge Ring](feat/forge_ring), [Quicken Spell](feat/quicken_spell); **Cost** 17,500 gp"
+			"**Requirements** {feat/Combat Reflexes}, {feat/Forge Ring}, {feat/Quicken Spell}; **Cost** 17,500 gp"
 		]
 	},
 	"ring_of_resistance_2": {
@@ -875,7 +875,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), message; **Cost** 3,000 gp"
+			"**Requirements** {feat/Forge Ring}, message; **Cost** 3,000 gp"
 		]
 	},
 	"ring_of_far_strike": {
@@ -892,7 +892,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), mage hand, spectral hand; **Cost** 3,000 gp"
+			"**Requirements** {feat/Forge Ring}, mage hand, spectral hand; **Cost** 3,000 gp"
 		]
 	},
 	"ring_of_return": {
@@ -912,7 +912,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), greater teleport; **Cost** 3,000 gp"
+			"**Requirements** {feat/Forge Ring}, greater teleport; **Cost** 3,000 gp"
 		]
 	},
 	"ring_of_sacred_mistletoe": {
@@ -931,7 +931,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), pass without trace, shillelagh; **Cost** 3,000 gp"
+			"**Requirements** {feat/Forge Ring}, pass without trace, shillelagh; **Cost** 3,000 gp"
 		]
 	},
 	"ring_of_sundering_metals": {
@@ -948,7 +948,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), haste, magic weapon, stabilize; **Cost** 3,000 gp"
+			"**Requirements** {feat/Forge Ring}, haste, magic weapon, stabilize; **Cost** 3,000 gp"
 		]
 	},
 	"ring_of_swarming_stabs": {
@@ -968,7 +968,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), guidance, creator must be able to sneak attack; **Cost** 3,000 gp"
+			"**Requirements** {feat/Forge Ring}, guidance, creator must be able to sneak attack; **Cost** 3,000 gp"
 		]
 	},
 	"ring_of_spell_knowledge_type_2": {
@@ -990,7 +990,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), resistance, shield of faith, creator must have 5 ranks in Acrobatics, creator must be at least 3rd level; **Cost** 3,250 gp"
+			"**Requirements** {feat/Forge Ring}, resistance, shield of faith, creator must have 5 ranks in Acrobatics, creator must be at least 3rd level; **Cost** 3,250 gp"
 		]
 	},
 	"ring_of_grit_mastery": {
@@ -1013,7 +1013,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), anticipate peril, bullet shield, creator must have the grit class feature; **Cost** 3,420 gp"
+			"**Requirements** {feat/Forge Ring}, anticipate peril, bullet shield, creator must have the grit class feature; **Cost** 3,420 gp"
 		]
 	},
 	"ring_of_summoning_affinity_archon": {
@@ -1030,7 +1030,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be neutral good; **Cost** 3,500 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be neutral good; **Cost** 3,500 gp"
 		]
 	},
 	"ring_of_summoning_affinity_angel": {
@@ -1047,7 +1047,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be good; **Cost** 3,600 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be good; **Cost** 3,600 gp"
 		]
 	},
 	"ring_of_summoning_affinity_protean": {
@@ -1064,7 +1064,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be chaotic neutral; **Cost** 3,600 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be chaotic neutral; **Cost** 3,600 gp"
 		]
 	},
 	"ring_of_summoning_affinity_kyton": {
@@ -1081,7 +1081,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be lawful evil; **Cost** 3,650 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be lawful evil; **Cost** 3,650 gp"
 		]
 	},
 	"ring_of_summoning_affinity_asura": {
@@ -1098,7 +1098,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be lawful evil; **Cost** 3,800 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be lawful evil; **Cost** 3,800 gp"
 		]
 	},
 	"ring_of_summoning_affinity_psychopomp": {
@@ -1115,7 +1115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be neutral with no other alignment components; **Cost** 3,800 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be neutral with no other alignment components; **Cost** 3,800 gp"
 		]
 	},
 	"ring_of_summoning_affinity_agathion": {
@@ -1132,7 +1132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be neutral good; **Cost** 3,850 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be neutral good; **Cost** 3,850 gp"
 		]
 	},
 	"ring_of_culturemeld": {
@@ -1151,7 +1151,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), comprehend languages; **Cost** 3,900 gp"
+			"**Requirements** {feat/Forge Ring}, comprehend languages; **Cost** 3,900 gp"
 		]
 	},
 	"ring_of_natural_attunement_kami": {
@@ -1168,7 +1168,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), commune with nature, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 3,900 gp"
+			"**Requirements** {feat/Forge Ring}, commune with nature, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 3,900 gp"
 		]
 	},
 	"ring_of_summoning_affinity_aeon": {
@@ -1185,7 +1185,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be neutral with no other alignment components; **Cost** 3,900 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be neutral with no other alignment components; **Cost** 3,900 gp"
 		]
 	},
 	"ring_of_the_godless_1": {
@@ -1200,11 +1200,11 @@
 			"",
 			"These rings are said to have first been forged in Rahadoum by the Council of Elders to help root out the hidden faithful and other practitioners of the divine. A ring of the godless grants a luck bonus on saving throws against divine spells. This bonus does not apply to spell-like or supernatural abilities unless they are class abilities of a divine spellcasting class, such as channel energy or domain powers, or unless they are used by a creature that has been called, created, or summoned by divine magic. The wearer's spell resistance (if any) increases by an amount equal to the ring's luck bonus, though this increase applies only against divine spells (and spell-like abilities as described above).",
 			"",
-			"A ring of the godless also allows the wearer to use [detect magic](spell/detect_magic) at will, though it detects only divine magic. In addition, the wearer can use a specialized form of arcane sight a number of times per day equal to the ring's luck bonus. This ability can be activated as a swift action, its effect lasts until the end of the wearer's turn, and it detects only divine magic or divine spellcasting ability.",
+			"A ring of the godless also allows the wearer to use {spell/detect magic} at will, though it detects only divine magic. In addition, the wearer can use a specialized form of arcane sight a number of times per day equal to the ring's luck bonus. This ability can be activated as a swift action, its effect lasts until the end of the wearer's turn, and it detects only divine magic or divine spellcasting ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), arcane sight, [detect magic](spell/detect_magic), spell resistance, creator cannot be a divine spellcaster, creator must be of a level at least three times higher than the bonus of the ring; **Cost** 4,000 gp (+1), 8,500 gp (+2), 13,500 gp (+3), 19,000 gp (+4), 25,000 gp (+5)"
+			"**Requirements** {feat/Forge Ring}, arcane sight, {spell/detect magic}, spell resistance, creator cannot be a divine spellcaster, creator must be of a level at least three times higher than the bonus of the ring; **Cost** 4,000 gp (+1), 8,500 gp (+2), 13,500 gp (+3), 19,000 gp (+4), 25,000 gp (+5)"
 		]
 	},
 	"ring_of_protection_2": {
@@ -1231,7 +1231,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), create treasure map; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, create treasure map; **Cost** 4,000 gp"
 		]
 	},
 	"ironbound_ring_master": {
@@ -1256,7 +1256,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Heighten Spell, magic missile; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, Heighten Spell, magic missile; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_heroes": {
@@ -1273,7 +1273,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Luck of Heroes; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, Luck of Heroes; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_mind_shielding": {
@@ -1293,7 +1293,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), nondetection; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, nondetection; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_strength_sapping": {
@@ -1310,7 +1310,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), bull's strength, ray of enfeeblement; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, bull's strength, ray of enfeeblement; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_the_beast": {
@@ -1327,7 +1327,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), barkskin and either bear's endurance (ring of the relentless beast), bull's strength (ring of the savage beast), or cat's grace (ring of the swift beast); **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, barkskin and either bear's endurance (ring of the relentless beast), bull's strength (ring of the savage beast), or cat's grace (ring of the swift beast); **Cost** 4,000 gp"
 		]
 	},
 	"society_ring": {
@@ -1348,7 +1348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), alarm, hidden speech, invisibility, message, obscure object, status, creator must have at least 10 ranks in both Bluff and Sense Motive; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, alarm, hidden speech, invisibility, message, obscure object, status, creator must have at least 10 ranks in both Bluff and Sense Motive; **Cost** 4,000 gp"
 		]
 	},
 	"soultether_ring": {
@@ -1365,7 +1365,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring); soul bind or true resurrection; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}; soul bind or true resurrection; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_summoning_affinity_inevitable": {
@@ -1382,7 +1382,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be lawful neutral; **Cost** 4,050 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be lawful neutral; **Cost** 4,050 gp"
 		]
 	},
 	"band_of_toxic_nullification": {
@@ -1399,7 +1399,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), absorb toxicity; **Cost** 4,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, absorb toxicity; **Cost** 4,250 gp"
 		]
 	},
 	"contract_rings": {
@@ -1418,7 +1418,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), detect thoughts, lesser geas, share language; **Cost** 4,250 gp"
+			"**Requirements** {feat/Forge Ring}, detect thoughts, lesser geas, share language; **Cost** 4,250 gp"
 		]
 	},
 	"ring_of_force_shield": {
@@ -1438,7 +1438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), wall of force; **Cost** 4,250 gp"
+			"**Requirements** {feat/Forge Ring}, wall of force; **Cost** 4,250 gp"
 		]
 	},
 	"ring_of_summoning_affinity_qlippoth": {
@@ -1455,7 +1455,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be chaotic evil; **Cost** 4,300 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be chaotic evil; **Cost** 4,300 gp"
 		]
 	},
 	"ring_of_the_ram": {
@@ -1479,7 +1479,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), bull's strength, telekinesis; **Cost** 4,300 gp"
+			"**Requirements** {feat/Forge Ring}, bull's strength, telekinesis; **Cost** 4,300 gp"
 		]
 	},
 	"scholars_ring": {
@@ -1498,7 +1498,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), comprehend languages, legend lore; **Cost** 4,350 gp"
+			"**Requirements** {feat/Forge Ring}, comprehend languages, legend lore; **Cost** 4,350 gp"
 		]
 	},
 	"ring_of_protected_life": {
@@ -1515,7 +1515,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Selective Channeling, creator must have the channel energy class feature; **Cost** 4,500 gp"
+			"**Requirements** {feat/Forge Ring}, Selective Channeling, creator must have the channel energy class feature; **Cost** 4,500 gp"
 		]
 	},
 	"rings_of_friend-finding": {
@@ -1532,7 +1532,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), detect thoughts, status; **Cost** 4,500 gp"
+			"**Requirements** {feat/Forge Ring}, detect thoughts, status; **Cost** 4,500 gp"
 		]
 	},
 	"rings_of_friend_finding": {
@@ -1552,7 +1552,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be chaotic evil; **Cost** 4,550 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be chaotic evil; **Cost** 4,550 gp"
 		]
 	},
 	"band_of_efficacious_death": {
@@ -1569,7 +1569,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), pernicious poison; **Cost** 4,625 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, pernicious poison; **Cost** 4,625 gp"
 		]
 	},
 	"splendorous_ring": {
@@ -1589,7 +1589,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), eagle's splendor, hypnotic pattern, creator must be good-aligned; **Cost** 4,950 gp"
+			"**Requirements** {feat/Forge Ring}, eagle's splendor, hypnotic pattern, creator must be good-aligned; **Cost** 4,950 gp"
 		]
 	},
 	"ring_of_delayed_doom_2_stones": {
@@ -1610,13 +1610,13 @@
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** ring; **Price** 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior); **Weight** -",
 			"",
-			"A ring of revelation is a divine item attuned to a particular oracular mystery and containing a revelation associated with that mystery (see the [oracle](class/oracle) class description). While wearing the ring, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the ring, and must meet the level requirements (if any) of the revelation itself; for example, a ring of revelation (combat healer) is only usable by an oracle of at least 7th level with the battle mystery. If the oracle already has that revelation and the revelation gives an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. The ring has no effect if worn by a non-oracle, and Use Magic Device doesn't allow a character to gain a revelation from this ring.",
+			"A ring of revelation is a divine item attuned to a particular oracular mystery and containing a revelation associated with that mystery (see the {class/oracle} class description). While wearing the ring, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the ring, and must meet the level requirements (if any) of the revelation itself; for example, a ring of revelation (combat healer) is only usable by an oracle of at least 7th level with the battle mystery. If the oracle already has that revelation and the revelation gives an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. The ring has no effect if worn by a non-oracle, and Use Magic Device doesn't allow a character to gain a revelation from this ring.",
 			"",
 			"A lesser ring of revelation contains a revelation that has no level prerequisite or a prerequisite that is less than 6th level. A greater ring of revelation contains a revelation that requires the oracle to be 7th level or higher. A superior ring of revelation contains a revelation that requires the oracle to be 11th level or higher.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must be an oracle with the desired revelation; **Cost** 5,000 gp (lesser), 8,000 gp (greater), 12,000 gp (superior)"
+			"**Requirements** {feat/Forge Ring}, creator must be an oracle with the desired revelation; **Cost** 5,000 gp (lesser), 8,000 gp (greater), 12,000 gp (superior)"
 		]
 	},
 	"lesser_ring_of_revelation": {
@@ -1639,7 +1639,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 10 ranks in the Climb skill; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 10 ranks in the Climb skill; **Cost** 5,000 gp"
 		]
 	},
 	"improved_ring_of_climbing": {
@@ -1659,7 +1659,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), Heighten Spell, consecrate; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, Heighten Spell, consecrate; **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_foe_focus": {
@@ -1676,7 +1676,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), shield; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, shield; **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_jumping_improved": {
@@ -1696,7 +1696,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 10 ranks in Acrobatics; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 10 ranks in Acrobatics; **Cost** 5,000 gp"
 		]
 	},
 	"improved_ring_of_jumping": {
@@ -1720,7 +1720,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), ki leech, the creator must be able to use ki; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, ki leech, the creator must be able to use ki; **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_seven_virtues": {
@@ -1737,7 +1737,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [Self-Sufficient](feat/self-sufficient), endure elements; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Self-Sufficient}, endure elements; **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_swimming_improved": {
@@ -1757,7 +1757,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 10 ranks in Swim; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 10 ranks in Swim; **Cost** 5,000 gp"
 		]
 	},
 	"improved_ring_of_swimming": {
@@ -1777,7 +1777,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally or planar binding, creator must be neutral evil; **Cost** 5,300 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally or planar binding, creator must be neutral evil; **Cost** 5,300 gp"
 		]
 	},
 	"ring_of_animal_friendship": {
@@ -1797,7 +1797,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), charm animal; **Cost** 5,400 gp"
+			"**Requirements** {feat/Forge Ring}, charm animal; **Cost** 5,400 gp"
 		]
 	},
 	"ring_of_the_iron_skull": {
@@ -1814,7 +1814,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), blood biography, locate object; **Cost** 5,400 gp"
+			"**Requirements** {feat/Forge Ring}, blood biography, locate object; **Cost** 5,400 gp"
 		]
 	},
 	"ring_of_transposition": {
@@ -1827,11 +1827,11 @@
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 10,800 gp; **Weight** -",
 			"",
-			"On command, the wearer of this ring can touch it to another ring, magical or mundane, and bind it to the ring of transposition. Once per day, the wearer of the ring of transposition can speak a command word to exchange places with the creature wearing the bonded ring, which must be within 800 feet, as though using a [dimension door](spell/dimension_door) spell against a willing target. In the process, the ring of transposition trades places with the ring on the other creature's hand, and the bond between the rings is broken. The bonding property of the ring of transposition can be used as often as desired, breaking any existing bond each time it is used. An existing bond can be broken by a successful dispel check against the caster level of the ring.",
+			"On command, the wearer of this ring can touch it to another ring, magical or mundane, and bind it to the ring of transposition. Once per day, the wearer of the ring of transposition can speak a command word to exchange places with the creature wearing the bonded ring, which must be within 800 feet, as though using a {spell/dimension door} spell against a willing target. In the process, the ring of transposition trades places with the ring on the other creature's hand, and the bond between the rings is broken. The bonding property of the ring of transposition can be used as often as desired, breaking any existing bond each time it is used. An existing bond can be broken by a successful dispel check against the caster level of the ring.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), dimension door; **Cost** 5,400 gp"
+			"**Requirements** {feat/Forge Ring}, dimension door; **Cost** 5,400 gp"
 		]
 	},
 	"holdout_ring": {
@@ -1850,7 +1850,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), magic weapon, telekinesis, creator must meet the requirements for the ammunition special abilities that can be imbued by the ring; **Cost** 5,500 gp"
+			"**Requirements** {feat/Forge Ring}, magic weapon, telekinesis, creator must meet the requirements for the ammunition special abilities that can be imbued by the ring; **Cost** 5,500 gp"
 		]
 	},
 	"ring_of_tactical_precision": {
@@ -1867,7 +1867,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have 5 ranks of Profession (soldier) and at least one teamwork feat; **Cost** 5,500 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have 5 ranks of Profession (soldier) and at least one teamwork feat; **Cost** 5,500 gp"
 		]
 	},
 	"ring_of_the_sophisticate": {
@@ -1887,7 +1887,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), know direction, locate creature, locate object, creator must have at least 4 ranks in both Sense Motive and Knowledge (local); **Cost** 5,500 gp"
+			"**Requirements** {feat/Forge Ring}, know direction, locate creature, locate object, creator must have at least 4 ranks in both Sense Motive and Knowledge (local); **Cost** 5,500 gp"
 		]
 	},
 	"decoy_ring": {
@@ -1904,7 +1904,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), mislead; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, mislead; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_energy_resistance_minor": {
@@ -1926,7 +1926,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), resist energy; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)"
+			"**Requirements** {feat/Forge Ring}, resist energy; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)"
 		]
 	},
 	"minor_ring_of_energy_resistance": {
@@ -1950,7 +1950,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar binding; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, planar binding; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_craft_magic": {
@@ -1966,11 +1966,11 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
-			"A *ring of craft magic* always bears some sort of tool-like design in its craftsmanship. The wearer of the ring sees spells as similar to crafts, and vice versa. The wearer may make a [Craft](skill/craft) check in place of a Spellcraft check to identify an item that could be created with that Craft skill. The wearer may also expend a spell slot or prepared spell to gain an enhancement bonus equal to the level of the expended spell on a single Craft or [Profession](skill/profession) check (regardless of the amount of time needed to make the check).",
+			"A *ring of craft magic* always bears some sort of tool-like design in its craftsmanship. The wearer of the ring sees spells as similar to crafts, and vice versa. The wearer may make a {skill/Craft} check in place of a Spellcraft check to identify an item that could be created with that Craft skill. The wearer may also expend a spell slot or prepared spell to gain an enhancement bonus equal to the level of the expended spell on a single Craft or {skill/Profession} check (regardless of the amount of time needed to make the check).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), creator must have the obsession racial trait; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, creator must have the obsession racial trait; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_ectoplasmic_invigoration": {
@@ -1987,7 +1987,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), the creator must be able to summon an eidolon and have the maker's call class feature; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, the creator must be able to summon an eidolon and have the maker's call class feature; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_immolation": {
@@ -2003,11 +2003,11 @@
 			"**Aura** moderate evocation (fire); **CL** 10th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
-			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a [fire shield](spell/fire_shield) (warm) on himself. The wearer of a ring of immolation can activate a [fire shield](spell/fire_shield) on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per [fire shield](spell/fire_shield).",
+			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a {spell/fire shield} (warm) on himself. The wearer of a ring of immolation can activate a {spell/fire shield} on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per {spell/fire shield}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [fire shield](spell/fire_shield); **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/fire shield}; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_retreat": {
@@ -2024,7 +2024,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), word of recall; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, word of recall; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_the_troglodyte": {
@@ -2043,7 +2043,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), stinking cloud; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, stinking cloud; **Cost** 6,000 gp"
 		]
 	},
 	"steelhand_circle": {
@@ -2062,7 +2062,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), stone fist, stoneskin; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, stone fist, stoneskin; **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_chameleon_power": {
@@ -2082,7 +2082,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), disguise self, invisibility; **Cost** 6,350 gp"
+			"**Requirements** {feat/Forge Ring}, disguise self, invisibility; **Cost** 6,350 gp"
 		]
 	},
 	"ring_of_natural_attunement_drake": {
@@ -2099,7 +2099,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), greater magic fang, [summon nature's ally IV](spell/summon_natures_ally_4); **Cost** 6,440 gp"
+			"**Requirements** {feat/Forge Ring}, greater magic fang, [summon nature's ally IV](spell/summon_natures_ally_4); **Cost** 6,440 gp"
 		]
 	},
 	"ghost_battling_ring": {
@@ -2116,7 +2116,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), ghostly disguise, haste, sculpt corpse; **Cost** 6,500 gp"
+			"**Requirements** {feat/Forge Ring}, ghostly disguise, haste, sculpt corpse; **Cost** 6,500 gp"
 		]
 	},
 	"ring_of_resistance_3": {
@@ -2147,7 +2147,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), mass suggestion; **Cost** 7,750 gp"
+			"**Requirements** {feat/Forge Ring}, mass suggestion; **Cost** 7,750 gp"
 		]
 	},
 	"ring_of_the_sea_strider": {
@@ -2160,11 +2160,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 14,000 gp; **Weight** -",
 			"",
-			"This ring is made of a single piece of deep blue crystal. The ring grants its wearer a swim speed of 30 feet, as well as +8 racial bonus on swim checks for having a swim speed. Furthermore, once per day as a swift action, as long as the wearer is in contact with liquid, he can use [dimension door](spell/dimension_door) as the spell, but its starting and ending points must be connected by a contagious mass of liquid.",
+			"This ring is made of a single piece of deep blue crystal. The ring grants its wearer a swim speed of 30 feet, as well as +8 racial bonus on swim checks for having a swim speed. Furthermore, once per day as a swift action, as long as the wearer is in contact with liquid, he can use {spell/dimension door} as the spell, but its starting and ending points must be connected by a contagious mass of liquid.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), dimension door, touch of the sea; **Cost** 7,000 gp"
+			"**Requirements** {feat/Forge Ring}, dimension door, touch of the sea; **Cost** 7,000 gp"
 		]
 	},
 	"duxotars_signet": {
@@ -2181,7 +2181,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), eagle's splendor, magic mouth, shield of faith; **Cost** 7,750 gp"
+			"**Requirements** {feat/Forge Ring}, eagle's splendor, magic mouth, shield of faith; **Cost** 7,750 gp"
 		]
 	},
 	"ring_of_delayed_doom_3_stones": {
@@ -2209,7 +2209,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [beast shape I](spell/beast_shape_1), poison; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/beast shape I}, poison; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_adept_maneuvers": {
@@ -2230,7 +2230,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), ki leech, the creator must have the ki pool class feature; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, ki leech, the creator must have the ki pool class feature; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_resilience": {
@@ -2247,7 +2247,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), restoration, creator must be a grit or panache user; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, restoration, creator must be a grit or panache user; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_retribution": {
@@ -2267,7 +2267,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [Quicken Spell](feat/quicken_spell), fireball; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Quicken Spell}, fireball; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_the_cacodaemon": {
@@ -2280,11 +2280,11 @@
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
-			"Sculpted into the intricate form of a golden cacodaemon, this ring features a decorative wide-open mouth and can hold a soul gem braced between its horns. The ring allows its wearer to tap into the residual memories of the mangled soul it contains. Once per day, the wearer can interrogate the soul in the gem, as per [speak with dead](spell/speak_with_dead), except the soul answers telepathically. Once per day, the bearer can project the soul's last tormented moments before it was consumed and bound, creating a cone of terror as per [fear](spell/fear).",
+			"Sculpted into the intricate form of a golden cacodaemon, this ring features a decorative wide-open mouth and can hold a soul gem braced between its horns. The ring allows its wearer to tap into the residual memories of the mangled soul it contains. Once per day, the wearer can interrogate the soul in the gem, as per {spell/speak with dead}, except the soul answers telepathically. Once per day, the bearer can project the soul's last tormented moments before it was consumed and bound, creating a cone of terror as per {spell/fear}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fear, speak with dead; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, fear, speak with dead; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_water_walking": {
@@ -2304,7 +2304,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), water walk; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, water walk; **Cost** 7,500 gp"
 		]
 	},
 	"scavengers_ring": {
@@ -2321,7 +2321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), freedom of movement; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, freedom of movement; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_revelation_greater": {
@@ -2345,7 +2345,7 @@
 			"**Aura** moderate evocation [good]; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,000 gp; **Weight** -",
 			"",
-			"The surface of this silver ring never tarnishes, but when an evil creature is wearing it, its luster diminishes. Whenever the wearer takes the total defense action, he can activate the ring, creating a [magic circle against evil](spell/magic_circle_against_evil) effect centered on him. This effect lasts 10 rounds per day, though the rounds don't need to be spent consecutively. Once activated, the effect expends rounds until the user ends it as a move action or the rounds run out.",
+			"The surface of this silver ring never tarnishes, but when an evil creature is wearing it, its luster diminishes. Whenever the wearer takes the total defense action, he can activate the ring, creating a {spell/magic circle against evil} effect centered on him. This effect lasts 10 rounds per day, though the rounds don't need to be spent consecutively. Once activated, the effect expends rounds until the user ends it as a move action or the rounds run out.",
 			"",
 			"s a standard action while the magic circle is active, the wearer can release the protective circle's energy as a violent blast. This functions as holy smite centered on the wearer, but the wearer can exclude a 10-foot-radius area from the center of the affected area. Releasing the energy expends all the ring's remaining rounds and can be done only if at least 5 rounds remain.",
 			"",
@@ -2353,7 +2353,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), holy smite, [magic circle against evil](spell/magic_circle_against_evil); **Cost** 8,000 gp"
+			"**Requirements** {feat/Forge Ring}, holy smite, {spell/magic circle against evil}; **Cost** 8,000 gp"
 		]
 	},
 	"dungeon_ring_jailers": {
@@ -2378,7 +2378,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), resize item; **Cost** 8,000 gp"
+			"**Requirements** {feat/Forge Ring}, resize item; **Cost** 8,000 gp"
 		]
 	},
 	"sigil_of_kraggodan": {
@@ -2395,7 +2395,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), resist energy, sanctuary; **Cost** 8,000 gp"
+			"**Requirements** {feat/Forge Ring}, resist energy, sanctuary; **Cost** 8,000 gp"
 		]
 	},
 	"ring_of_entropy_and_order": {
@@ -2408,11 +2408,11 @@
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,200 gp; **Weight** -",
 			"",
-			"This gold ring resembles tiny angel wings folded around a clear crystal. Once per day, the wearer can target herself with a [protection from chaos](spell/protection_from_chaos) or [protection from law](spell/protection_from_law) effect that lasts for 10 minutes. However, if the wearer uses the ring of entropy and order to gain [protection from chaos](spell/protection_from_chaos) while on a plane with the mildly chaos-aligned or strongly chaos-aligned trait, or to gain [protection from law](spell/protection_from_law) while on a plane with the mildly law-aligned or strongly law-aligned trait, the effect instead lasts for 1 hour. If the wearer fails a saving throw against a charm or compulsion effect while on a plane with the mildly chaos-aligned, mildly law-aligned, strongly chaos-aligned, or strongly law-aligned traits, she can activate the effect as an immediate action.",
+			"This gold ring resembles tiny angel wings folded around a clear crystal. Once per day, the wearer can target herself with a {spell/protection from chaos} or {spell/protection from law} effect that lasts for 10 minutes. However, if the wearer uses the ring of entropy and order to gain {spell/protection from chaos} while on a plane with the mildly chaos-aligned or strongly chaos-aligned trait, or to gain {spell/protection from law} while on a plane with the mildly law-aligned or strongly law-aligned trait, the effect instead lasts for 1 hour. If the wearer fails a saving throw against a charm or compulsion effect while on a plane with the mildly chaos-aligned, mildly law-aligned, strongly chaos-aligned, or strongly law-aligned traits, she can activate the effect as an immediate action.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), contingency, [protection from chaos](spell/protection_from_chaos), [protection from law](spell/protection_from_law); **Cost** 8,100 gp"
+			"**Requirements** {feat/Forge Ring}, contingency, {spell/protection from chaos}, {spell/protection from law}; **Cost** 8,100 gp"
 		]
 	},
 	"ring_of_the_godless_2": {
@@ -2448,7 +2448,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), restoration; **Cost** 9,000 gp (minor), 21,000 gp (major), 33,000 gp (greater)"
+			"**Requirements** {feat/Forge Ring}, restoration; **Cost** 9,000 gp (minor), 21,000 gp (major), 33,000 gp (greater)"
 		]
 	},
 	"minor_ring_of_inner_fortitude": {
@@ -2471,7 +2471,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), imbue with spell ability; **Cost** 9,000 gp"
+			"**Requirements** {feat/Forge Ring}, imbue with spell ability; **Cost** 9,000 gp"
 		]
 	},
 	"minor_ring_of_spell_storing": {
@@ -2491,7 +2491,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), stone to flesh, stoneskin; **Cost** 9,000 gp"
+			"**Requirements** {feat/Forge Ring}, stone to flesh, stoneskin; **Cost** 9,000 gp"
 		]
 	},
 	"rings_of_bondage": {
@@ -2514,7 +2514,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), detect thoughts, lesser geas, sanctuary, share language, status; **Cost** 9,100 gp"
+			"**Requirements** {feat/Forge Ring}, detect thoughts, lesser geas, sanctuary, share language, status; **Cost** 9,100 gp"
 		]
 	},
 	"ring_of_energy_shroud": {
@@ -2531,7 +2531,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), elemental aura, resist energy; **Cost** 9,750 gp"
+			"**Requirements** {feat/Forge Ring}, elemental aura, resist energy; **Cost** 9,750 gp"
 		]
 	},
 	"ring_of_delayed_doom_4_stones": {
@@ -2553,7 +2553,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), imbue with spell ability; **Cost** 10,000 gp"
+			"**Requirements** {feat/Forge Ring}, imbue with spell ability; **Cost** 10,000 gp"
 		]
 	},
 	"ring_of_arcane_mastery": {
@@ -2574,7 +2574,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), imbue with spell ability, spell turning; **Cost** 10,000 gp"
+			"**Requirements** {feat/Forge Ring}, imbue with spell ability, spell turning; **Cost** 10,000 gp"
 		]
 	},
 	"ring_of_invisibility": {
@@ -2594,7 +2594,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), invisibility; **Cost** 10,000 gp"
+			"**Requirements** {feat/Forge Ring}, invisibility; **Cost** 10,000 gp"
 		]
 	},
 	"ring_of_phrenic_prowess": {
@@ -2615,7 +2615,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), spell turning, telepathic bond; **Cost** 10,000 gp"
+			"**Requirements** {feat/Forge Ring}, spell turning, telepathic bond; **Cost** 10,000 gp"
 		]
 	},
 	"ring_of_plagues": {
@@ -2634,7 +2634,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), contagion, major curse, spite; **Cost** 10,000 gp"
+			"**Requirements** {feat/Forge Ring}, contagion, major curse, spite; **Cost** 10,000 gp"
 		]
 	},
 	"ring_of_terrible_cost": {
@@ -2657,7 +2657,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), aid, resistance, vampiric touch; **Cost** 10,000 gp"
+			"**Requirements** {feat/Forge Ring}, aid, resistance, vampiric touch; **Cost** 10,000 gp"
 		]
 	},
 	"ring_of_wizardry_type_1": {
@@ -2677,7 +2677,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), limited wish; **Cost** 10,000 gp (type I), 20,000 gp (type II), 35,000 gp (type III), 50,000 gp (type IV)"
+			"**Requirements** {feat/Forge Ring}, limited wish; **Cost** 10,000 gp (type I), 20,000 gp (type II), 35,000 gp (type III), 50,000 gp (type IV)"
 		]
 	},
 	"ring_of_mysticism_type_1": {
@@ -2694,7 +2694,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), limited wish; **Cost** 10,000 gp (Type I), 20,000 gp (Type II), 35,000 gp (Type III), 50,000 gp (Type IV)"
+			"**Requirements** {feat/Forge Ring}, limited wish; **Cost** 10,000 gp (Type I), 20,000 gp (Type II), 35,000 gp (Type III), 50,000 gp (Type IV)"
 		]
 	},
 	"ring_of_resistance_4": {
@@ -2737,7 +2737,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), jump; **Cost** 12,500 gp"
+			"**Requirements** {feat/Forge Ring}, jump; **Cost** 12,500 gp"
 		]
 	},
 	"ring_of_x-ray_vision": {
@@ -2759,7 +2759,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), true seeing; **Cost** 12,500 gp"
+			"**Requirements** {feat/Forge Ring}, true seeing; **Cost** 12,500 gp"
 		]
 	},
 	"ring_of_x_ray_vision": {
@@ -2779,7 +2779,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), detect scrying, locate creature; **Cost** 12,600 gp"
+			"**Requirements** {feat/Forge Ring}, detect scrying, locate creature; **Cost** 12,600 gp"
 		]
 	},
 	"swarmwalkers_ring": {
@@ -2794,13 +2794,13 @@
 			"",
 			"This shining, ash-white ring of bone is crafted to look like countless interlocking rat fangs, set with a dozen dark, garnet eyes like those of albino sewer-hunters. The wearer of this ring can utter a command word to call forth 1d3 rat swarms within 40 feet. These swarms each act immediately and vanish after 7 rounds. They are independent and not under the wearer's control, though the wearer is immune to the effects and attacks of any swarm created through use of this ring.",
 			"",
-			"Alternatively, upon command, the ring's wearer can use [dimension door](spell/dimension_door). This magical transportation must begin and end in a square that includes a swarm summoned by use of this ring.",
+			"Alternatively, upon command, the ring's wearer can use {spell/dimension door}. This magical transportation must begin and end in a square that includes a swarm summoned by use of this ring.",
 			"",
 			"This ring's abilities can be used a total of three times per day, in any combination. An urban druid wearing this ring can gain one additional use per day by expending three daily uses of her wild shape ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), dimension door, summon swarm; **Cost** 13,000 gp"
+			"**Requirements** {feat/Forge Ring}, dimension door, summon swarm; **Cost** 13,000 gp"
 		]
 	},
 	"ring_of_the_godless_3": {
@@ -2825,7 +2825,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), blink; **Cost** 13,500 gp"
+			"**Requirements** {feat/Forge Ring}, blink; **Cost** 13,500 gp"
 		]
 	},
 	"ring_of_energy_resistance_major": {
@@ -2846,13 +2846,13 @@
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 28,500 gp; **Weight** -",
 			"",
-			"This ornate ring of sanctified silver is engraved with a golden signet that incorporates the holy symbol of the wearer's deity after being worn for 24 hours. The ring can be used to seal parchments or to mark any surface as the arcane mark spell at will. The wearer is marked as a scholarly leader of the faith and gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. If the wearer has the [Leadership](feat/leadership) feat, she may attract double the normal number of followers, and her followers' zealous devotion grants them a +4 morale bonus on Will saves against enchantment spells and effects.",
+			"This ornate ring of sanctified silver is engraved with a golden signet that incorporates the holy symbol of the wearer's deity after being worn for 24 hours. The ring can be used to seal parchments or to mark any surface as the arcane mark spell at will. The wearer is marked as a scholarly leader of the faith and gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. If the wearer has the {feat/Leadership} feat, she may attract double the normal number of followers, and her followers' zealous devotion grants them a +4 morale bonus on Will saves against enchantment spells and effects.",
 			"",
 			"Once per day, the wearer of the ring can use *prayer* and *enter image*, often using the latter power to speak and observe through portraits, statues, and even minted coinage bearing their likeness.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), arcane mark, enter image, enthrall, prayer, creator must have 5 ranks of Diplomacy and Knowledge (religion) and the ability to cast divine spells; **Cost** 14,250 gp"
+			"**Requirements** {feat/Forge Ring}, arcane mark, enter image, enthrall, prayer, creator must have 5 ranks of Diplomacy and Knowledge (religion) and the ability to cast divine spells; **Cost** 14,250 gp"
 		]
 	},
 	"ring_of_delayed_doom_6_stones": {
@@ -2876,7 +2876,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar ally, planar binding; **Cost** 15,000 gp"
+			"**Requirements** {feat/Forge Ring}, planar ally, planar binding; **Cost** 15,000 gp"
 		]
 	},
 	"planefarers_band": {
@@ -2901,7 +2901,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), planar adaptation; **Cost** 15,000 gp"
+			"**Requirements** {feat/Forge Ring}, planar adaptation; **Cost** 15,000 gp"
 		]
 	},
 	"ring_of_transcendent_spells": {
@@ -2922,7 +2922,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [Mythic Crafter](feat/mythic_crafter), limited wish, mnemonic enhancer; **Cost** 15,000 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Mythic Crafter}, limited wish, mnemonic enhancer; **Cost** 15,000 gp"
 		]
 	},
 	"rings_of_alien_geometries": {
@@ -2941,7 +2941,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [dimension door](spell/dimension_door), wall of force; **Cost** 15,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/dimension door}, wall of force; **Cost** 15,000 gp"
 		]
 	},
 	"ring_of_resumption": {
@@ -2960,7 +2960,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), regenerate; **Cost** 15,400 gp"
+			"**Requirements** {feat/Forge Ring}, regenerate; **Cost** 15,400 gp"
 		]
 	},
 	"ring_of_energy_dampening": {
@@ -2977,7 +2977,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [Mythic Crafter](feat/mythic_crafter), protection from energy, shield other; **Cost** 15,750 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Mythic Crafter}, protection from energy, shield other; **Cost** 15,750 gp"
 		]
 	},
 	"ring_of_protection_4": {
@@ -3004,7 +3004,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), break enchantment, spell resistance; **Cost** 16,250 gp"
+			"**Requirements** {feat/Forge Ring}, break enchantment, spell resistance; **Cost** 16,250 gp"
 		]
 	},
 	"ring_of_delayed_doom_7_stones": {
@@ -3031,7 +3031,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), endure elements, resistance, shield; **Cost** 17,500 gp"
+			"**Requirements** {feat/Forge Ring}, endure elements, resistance, shield; **Cost** 17,500 gp"
 		]
 	},
 	"ring_of_resistance_5": {
@@ -3066,7 +3066,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), freedom of movement; **Cost** 20,000 gp"
+			"**Requirements** {feat/Forge Ring}, freedom of movement; **Cost** 20,000 gp"
 		]
 	},
 	"ring_of_mysticism_type_2": {
@@ -3103,7 +3103,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), bestow curse, detect thoughts, geas/quest, sanctuary, share language, status; **Cost** 21,000 gp"
+			"**Requirements** {feat/Forge Ring}, bestow curse, detect thoughts, geas/quest, sanctuary, share language, status; **Cost** 21,000 gp"
 		]
 	},
 	"greater_rings_of_bondage": {
@@ -3139,7 +3139,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), heal, time stop; **Cost** 22,500 gp"
+			"**Requirements** {feat/Forge Ring}, heal, time stop; **Cost** 22,500 gp"
 		]
 	},
 	"ring_of_fear_reflection": {
@@ -3161,7 +3161,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), fear, remove fear, resistance; **Cost** 24,000 gp"
+			"**Requirements** {feat/Forge Ring}, fear, remove fear, resistance; **Cost** 24,000 gp"
 		]
 	},
 	"ring_of_protection_5": {
@@ -3187,13 +3187,13 @@
 			"**Aura** strong enchantment and evocation; **CL** 13th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
-			"This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by [shout](spell/shout) (Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the [inspire courage bardic performance](class/bard) as performed by a 7th-level bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance's effect.",
+			"This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by {spell/shout} (Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the [inspire courage bardic performance](class/bard) as performed by a 7th-level bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance's effect.",
 			"",
 			"In addition, the ring grants the wearer a +4 enhancement bonus to Charisma; treat this as a temporary ability bonus for the first 24 hours the ring is worn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [eagle's splendor](spell/eagles_splendor), [good hope](spell/good_hope), [shout](spell/shout); **Cost** 25,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/eagle's splendor}, {spell/good hope}, {spell/shout}; **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_friend_shield": {
@@ -3213,7 +3213,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), shield other; **Cost** 25,000 gp"
+			"**Requirements** {feat/Forge Ring}, shield other; **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_psychic_mastery": {
@@ -3230,7 +3230,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), limited wish; **Cost** 25,000 gp"
+			"**Requirements** {feat/Forge Ring}, limited wish; **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_shooting_stars": {
@@ -3253,7 +3253,7 @@
 			"- Ball lightning (special, once per night)",
 			"- Shooting stars (special, three per week)",
 			"",
-			"The first special function, ball lightning, releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble dancing lights, and the wearer controls them similarly (see the [dancing lights](spell/dancing_lights) spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.",
+			"The first special function, ball lightning, releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble dancing lights, and the wearer controls them similarly (see the {spell/dancing lights} spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.",
 			"",
 			"| Number of Balls | Damage per Ball |",
 			"| --- | --- |",
@@ -3277,7 +3277,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), faerie fire, fireball, light, lightning bolt; **Cost** 25,000 gp"
+			"**Requirements** {feat/Forge Ring}, faerie fire, fireball, light, lightning bolt; **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_spell_storing": {
@@ -3303,7 +3303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), imbue with spell ability; **Cost** 25,000 gp"
+			"**Requirements** {feat/Forge Ring}, imbue with spell ability; **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_continuation": {
@@ -3320,7 +3320,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), mnemonic enhancer; **Cost** 28,000 gp"
+			"**Requirements** {feat/Forge Ring}, mnemonic enhancer; **Cost** 28,000 gp"
 		]
 	},
 	"survivors_ring": {
@@ -3333,11 +3333,11 @@
 			"**Aura** strong illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 56,160 gp; **Weight** -",
 			"",
-			"This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and subject to an effect similar to mislead. Her illusory double appears to die or to take on the dying condition in her place, as appropriate for the negated effect. The wearer cannot control the double. In addition, the wearer can touch the ring's stone as a standard action once per day to use [dimension door](spell/dimension_door) but only while the ring's mislead effect is active.",
+			"This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and subject to an effect similar to mislead. Her illusory double appears to die or to take on the dying condition in her place, as appropriate for the negated effect. The wearer cannot control the double. In addition, the wearer can touch the ring's stone as a standard action once per day to use {spell/dimension door} but only while the ring's mislead effect is active.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), death ward, dimension door, mislead; **Cost** 25,080 gp"
+			"**Requirements** {feat/Forge Ring}, death ward, dimension door, mislead; **Cost** 25,080 gp"
 		]
 	},
 	"ring_of_inner_fortitude_greater": {
@@ -3367,7 +3367,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), speak with dead, spectral hand, plane shift; **Cost** 45,000 gp"
+			"**Requirements** {feat/Forge Ring}, speak with dead, spectral hand, plane shift; **Cost** 45,000 gp"
 		]
 	},
 	"ring_of_wizardry_type_3": {
@@ -3400,7 +3400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), telekinesis; **Cost** 37,500 gp"
+			"**Requirements** {feat/Forge Ring}, telekinesis; **Cost** 37,500 gp"
 		]
 	},
 	"ring_of_regeneration": {
@@ -3420,7 +3420,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), regenerate; **Cost** 45,000 gp"
+			"**Requirements** {feat/Forge Ring}, regenerate; **Cost** 45,000 gp"
 		]
 	},
 	"ring_of_spell_turning": {
@@ -3440,7 +3440,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), spell turning; **Cost** 50,000 gp"
+			"**Requirements** {feat/Forge Ring}, spell turning; **Cost** 50,000 gp"
 		]
 	},
 	"ring_of_mysticism_type_4": {
@@ -3476,7 +3476,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), alter self, gentle repose, lesser simulacrum; **Cost** 50,500 gp"
+			"**Requirements** {feat/Forge Ring}, alter self, gentle repose, lesser simulacrum; **Cost** 50,500 gp"
 		]
 	},
 	"ring_of_three_wishes": {
@@ -3496,7 +3496,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), miracle or wish; **Cost** 97,500 gp"
+			"**Requirements** {feat/Forge Ring}, miracle or wish; **Cost** 97,500 gp"
 		]
 	},
 	"ring_of_djinni_calling": {
@@ -3516,7 +3516,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), gate; **Cost** 62,500 gp"
+			"**Requirements** {feat/Forge Ring}, gate; **Cost** 62,500 gp"
 		]
 	},
 	"ring_of_the_recalled_soul": {
@@ -3529,7 +3529,7 @@
 			"**Aura** moderate illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 150,000 gp; **Weight** -",
 			"",
-			"The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell [mindscape door](spell/mindscape_door), but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the [detect mindscape](spell/detect_mindscape) spell.",
+			"The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell {spell/mindscape door}, but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the {spell/detect mindscape} spell.",
 			"",
 			"Once the ring's wearer has connected to the mindscape, he can open the door to that particular mindscape from anywhere on the same plane, so long as the mindscape still exists. Physical distance poses no barrier to the mindscape. Each time the ring's wearer opens the door to a mindscape he has previously visited, he can alter the designated creatures allowed to pass through the door as if he were opening the door for the first time.",
 			"",
@@ -3537,7 +3537,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [mindscape door](spell/mindscape_door); **Cost** 75,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/mindscape door}; **Cost** 75,000 gp"
 		]
 	},
 	"ring_of_the_hidden_psyche": {
@@ -3558,7 +3558,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), greater possession, magic aura, object possession, wish; **Cost** 80,000 gp"
+			"**Requirements** {feat/Forge Ring}, greater possession, magic aura, object possession, wish; **Cost** 80,000 gp"
 		]
 	},
 	"ring_of_splendid_security": {
@@ -3578,7 +3578,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [minor image](spell/minor_image), [resistance](spell/resistance), [shield](spell/shield) or [shield of faith](spell/shield_of_faith); **Cost** 90,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/minor image}, {spell/resistance}, {spell/shield} or {spell/shield of faith}; **Cost** 90,000 gp"
 		]
 	},
 	"ring_of_elemental_command": {
@@ -3659,7 +3659,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [summon monster VI](spell/summon_monster_6), all appropriate spells; **Cost** 100,000 gp"
+			"**Requirements** {feat/Forge Ring}, [summon monster VI](spell/summon_monster_6), all appropriate spells; **Cost** 100,000 gp"
 		]
 	},
 	"ring_of_spell_storing_major": {
@@ -3679,7 +3679,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), imbue with spell ability; **Cost** 100,000 gp"
+			"**Requirements** {feat/Forge Ring}, imbue with spell ability; **Cost** 100,000 gp"
 		]
 	},
 	"wary_ring": {
@@ -3696,7 +3696,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Forge Ring](feat/forge_ring), nondetection, read magic, timely inspiration; **Price** 7,300 gp",
+			"{feat/Forge Ring}, nondetection, read magic, timely inspiration; **Price** 7,300 gp",
 			"",
 			"### Statistics",
 			"",
@@ -3722,7 +3722,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Forge Ring](feat/forge_ring), charm monster, resist energy; **Price** 7,400 gp",
+			"{feat/Forge Ring}, charm monster, resist energy; **Price** 7,400 gp",
 			"",
 			"### Statistics",
 			"",
@@ -3757,7 +3757,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Forge Ring](feat/forge_ring), shield of faith, creator must be 15th level (or 9th level if the creator is a gnome); **Price** 58,250 gp",
+			"{feat/Forge Ring}, shield of faith, creator must be 15th level (or 9th level if the creator is a gnome); **Price** 58,250 gp",
 			"",
 			"### Statistics",
 			"",

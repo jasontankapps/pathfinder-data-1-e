@@ -14,7 +14,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** N/A  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp"
 		]
 	},
 	"antennae": {
@@ -35,7 +35,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 35,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 625 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 625 gp"
 		]
 	},
 	"blinding_spittle_glands": {
@@ -56,7 +56,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 1,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
 		]
 	},
 	"burrowing_claws": {
@@ -77,7 +77,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 11,250 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 250 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 250 gp"
 		]
 	},
 	"camouflage_flesh": {
@@ -95,7 +95,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 15,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 500 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 500 gp"
 		]
 	},
 	"carapace": {
@@ -116,7 +116,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 9,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 14 ranks; Heal DC 24; **Elixir Cost** 300 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 14 ranks; Heal DC 24; **Elixir Cost** 300 gp"
 		]
 	},
 	"cerebral_husk": {
@@ -134,7 +134,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 3.000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 12 ranks; Heal DC 22; **Elixir Cost** 250 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 12 ranks; Heal DC 22; **Elixir Cost** 250 gp"
 		]
 	},
 	"claw_gauntlet": {
@@ -152,7 +152,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 16,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 800 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 800 gp"
 		]
 	},
 	"darksight_eyes": {
@@ -165,12 +165,12 @@
 			"**Price** 6,000 gp; **Elixir Price** 300 gp  ",
 			"**Saving Throw DC** 15; **Slot** eyes; **Temporary Duration** 24 hours  ",
 			"Bulging eyes cover the subject's own, augmenting the existing organs. Fibrous nerve tissue grafts to the eyes, fusing them in place and linking the subject's vision to these new, bulbous appendages. The subject gains darkvision with a range of 60 feet.  ",
-			"**Penalty:** The subject gains [light blindness](umr/light_blindness).",
+			"**Penalty:** The subject gains {umr/light blindness}.",
 			"",
 			"### Creation Requirements",
 			"",
 			"**Cost** 3,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 150 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 150 gp"
 		]
 	},
 	"grasping_tendril": {
@@ -188,7 +188,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 11,250 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 250 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 250 gp"
 		]
 	},
 	"poison_fangs": {
@@ -209,7 +209,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 6,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
 		]
 	},
 	"retractable_spines": {
@@ -230,7 +230,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 12,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 325 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 325 gp"
 		]
 	},
 	"ring_of_eyes": {
@@ -248,7 +248,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** N/A  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 13 ranks; Heal DC 24; **Elixir Cost** 700 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 13 ranks; Heal DC 24; **Elixir Cost** 700 gp"
 		]
 	},
 	"shark_gills": {
@@ -266,7 +266,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 4,500 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 250 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 250 gp"
 		]
 	},
 	"stinging_tail": {
@@ -287,7 +287,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 6,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
 		]
 	},
 	"webbed_appendages": {
@@ -305,7 +305,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** N/A  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 16; **Elixir Cost** 150 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 8 ranks; Heal DC 16; **Elixir Cost** 150 gp"
 		]
 	},
 	"wings_of_darkness": {
@@ -323,7 +323,7 @@
 			"### Creation Requirements",
 			"",
 			"**Cost** 18,000 gp  ",
-			"[Fleshwarper](feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
+			"{feat/Fleshwarper}, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
 		]
 	}
 }

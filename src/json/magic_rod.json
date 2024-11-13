@@ -22,7 +22,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), threefold sight; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
+			"**Requirements** {feat/Craft Rod}, threefold sight; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
 		]
 	},
 	"lesser_rod_of_the_thriceborn": {
@@ -42,7 +42,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Augment Summoning](feat/augment_summoning), [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Augment Summoning}, [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_rod_of_giant_summoning": {
@@ -68,7 +68,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), animate rope, cat's grace; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Rod}, animate rope, cat's grace; **Cost** 1,600 gp"
 		]
 	},
 	"chastising_baton": {
@@ -85,7 +85,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), pain strike; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Rod}, pain strike; **Cost** 2,500 gp"
 		]
 	},
 	"immovable_rod": {
@@ -105,7 +105,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), levitate; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Rod}, levitate; **Cost** 2,500 gp"
 		]
 	},
 	"refocusing_rod": {
@@ -126,7 +126,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), creator must be a 10th-level occultist; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Rod}, creator must be a 10th-level occultist; **Cost** 2,500 gp"
 		]
 	},
 	"utilitarian_rod": {
@@ -163,7 +163,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), fabricate, polymorph any object; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Rod}, fabricate, polymorph any object; **Cost** 2,500 gp"
 		]
 	},
 	"recondite_rod_lesser": {
@@ -180,7 +180,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Empower Spell](feat/empower_spell), the creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Empower Spell}, the creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)"
 		]
 	},
 	"lesser_recondite_rod": {
@@ -200,7 +200,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), blindness/deafness, wall of force; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Rod}, blindness/deafness, wall of force; **Cost** 2,700 gp"
 		]
 	},
 	"rod_of_the_thriceborn_normal": {
@@ -225,7 +225,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), bestow curse; **Cost** 4,900 gp"
+			"**Requirements** {feat/Craft Rod}, bestow curse; **Cost** 4,900 gp"
 		]
 	},
 	"rod_of_mortared_walls": {
@@ -246,7 +246,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), soften earth and stone, wall of stone; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, soften earth and stone, wall of stone; **Cost** 4,000 gp"
 		]
 	},
 	"crypt_rod": {
@@ -263,7 +263,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [locate object](spell/locate_object); **Cost** 4,250 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/locate object}; **Cost** 4,250 gp"
 		]
 	},
 	"rod_of_ice": {
@@ -280,7 +280,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), cone of cold; **Cost** 4,250 gp"
+			"**Requirements** {feat/Craft Rod}, cone of cold; **Cost** 4,250 gp"
 		]
 	},
 	"inviolate_marker": {
@@ -299,7 +299,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), bestow curse, levitate, silent image; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Rod}, bestow curse, levitate, silent image; **Cost** 5,000 gp"
 		]
 	},
 	"rod_of_metal_and_mineral_detection": {
@@ -319,7 +319,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), locate object; **Cost** 5,250 gp"
+			"**Requirements** {feat/Craft Rod}, locate object; **Cost** 5,250 gp"
 		]
 	},
 	"rod_of_cancellation": {
@@ -339,7 +339,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), mage's disjunction; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Rod}, mage's disjunction; **Cost** 5,500 gp"
 		]
 	},
 	"rod_of_grasping_hexes": {
@@ -356,7 +356,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Reach Spell](feat/reach_spell), creator must possess the hex class feature; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Reach Spell}, creator must possess the hex class feature; **Cost** 5,500 gp"
 		]
 	},
 	"rod_of_interminable_hexes": {
@@ -373,7 +373,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Extend Spell](feat/extend_spell), creator must possess the hex class feature; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Extend Spell}, creator must possess the hex class feature; **Cost** 5,500 gp"
 		]
 	},
 	"rod_of_giant_summoning_normal": {
@@ -400,7 +400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), flame strike, true strike; **Cost** 5,525 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, flame strike, true strike; **Cost** 5,525 gp"
 		]
 	},
 	"conduit_rod": {
@@ -419,7 +419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [dimension door](spell/dimension_door), lightning bolt, resist energy; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/dimension door}, lightning bolt, resist energy; **Cost** 6,000 gp"
 		]
 	},
 	"grounding_rod": {
@@ -438,7 +438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), dispel magic, lightning bolt, resist energy; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Rod}, dispel magic, lightning bolt, resist energy; **Cost** 6,000 gp"
 		]
 	},
 	"rod_of_spellsight": {
@@ -455,7 +455,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), gust of wind, true seeing; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Rod}, gust of wind, true seeing; **Cost** 6,000 gp"
 		]
 	},
 	"rod_of_the_wayang": {
@@ -472,7 +472,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), shadow conjuration greater, shadow evocation greater; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Rod}, shadow conjuration greater, shadow evocation greater; **Cost** 6,000 gp"
 		]
 	},
 	"rod_of_wonder": {
@@ -517,7 +517,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), confusion, creator must be chaotic; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Rod}, confusion, creator must be chaotic; **Cost** 6,000 gp"
 		]
 	},
 	"rod_of_animal_training": {
@@ -534,7 +534,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), charm animal; **Cost** 6,150 gp"
+			"**Requirements** {feat/Craft Rod}, charm animal; **Cost** 6,150 gp"
 		]
 	},
 	"rod_of_subtle_menace": {
@@ -551,7 +551,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bane; **Cost** 6,152 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, bane; **Cost** 6,152 gp"
 		]
 	},
 	"rod_of_the_python": {
@@ -571,7 +571,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), baleful polymorph, creator must be good; **Cost** 6,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, baleful polymorph, creator must be good; **Cost** 6,500 gp"
 		]
 	},
 	"trap-stealers_rod": {
@@ -592,7 +592,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), create pit, knock, plane shift; **Cost** 6,750 gp"
+			"**Requirements** {feat/Craft Rod}, create pit, knock, plane shift; **Cost** 6,750 gp"
 		]
 	},
 	"trap_stealers_rod": {
@@ -617,7 +617,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), poison, resistance, creator must have 5 ranks in Sense Motive; **Cost** 7,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, poison, resistance, creator must have 5 ranks in Sense Motive; **Cost** 7,200 gp"
 		]
 	},
 	"rod_of_balance": {
@@ -636,7 +636,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), cat's grace, feather fall, jump; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Rod}, cat's grace, feather fall, jump; **Cost** 7,500 gp"
 		]
 	},
 	"rod_of_escape": {
@@ -655,7 +655,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), bull's strength, cat's grace, shatter; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Rod}, bull's strength, cat's grace, shatter; **Cost** 7,500 gp"
 		]
 	},
 	"rod_of_flame_extinguishing": {
@@ -683,7 +683,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), pyrotechnics; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Rod}, pyrotechnics; **Cost** 7,500 gp"
 		]
 	},
 	"rod_of_gripping_smoke": {
@@ -702,7 +702,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), solid fog, telekinesis; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Rod}, solid fog, telekinesis; **Cost** 7,500 gp"
 		]
 	},
 	"rod_of_ruin": {
@@ -719,7 +719,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), disintegrate; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Rod}, disintegrate; **Cost** 8,000 gp"
 		]
 	},
 	"sapling_rod": {
@@ -738,7 +738,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), cure moderate wounds, grove of respite, lesser restoration; **Cost** 8,325 gp"
+			"**Requirements** {feat/Craft Rod}, cure moderate wounds, grove of respite, lesser restoration; **Cost** 8,325 gp"
 		]
 	},
 	"scepter_of_divine_providence": {
@@ -755,7 +755,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Widen Spell](feat/widen_spell), creator must have the channel energy class feature; **Cost** 8,812 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Widen Spell}, creator must have the channel energy class feature; **Cost** 8,812 gp"
 		]
 	},
 	"rod_of_beguiling": {
@@ -774,7 +774,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), hypnosis; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Rod}, hypnosis; **Cost** 9,000 gp"
 		]
 	},
 	"rod_of_nettles": {
@@ -793,7 +793,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), plant growth, poison; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Rod}, plant growth, poison; **Cost** 9,000 gp"
 		]
 	},
 	"rod_of_tangling_ectoplasm": {
@@ -810,7 +810,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), ectoplasmic snare; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Rod}, ectoplasmic snare; **Cost** 9,000 gp"
 		]
 	},
 	"recondite_rod_normal": {
@@ -837,7 +837,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), water walk; **Cost** 13,312 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, water walk; **Cost** 13,312 gp"
 		]
 	},
 	"rod_of_the_viper": {
@@ -857,7 +857,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), poison, creator must be evil; **Cost** 9,500 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Craft Magic Arms and Armor}, poison, creator must be evil; **Cost** 9,500 gp"
 		]
 	},
 	"rod_of_the_thriceborn_greater": {
@@ -884,7 +884,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bestow curse; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, bestow curse; **Cost** 10,000 gp"
 		]
 	},
 	"rod_of_the_devoured_dawn": {
@@ -903,7 +903,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), darkvision, dispel magic, hypnotic pattern, secret chest; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, darkvision, dispel magic, hypnotic pattern, secret chest; **Cost** 10,000 gp"
 		]
 	},
 	"suzerain_scepter": {
@@ -916,11 +916,11 @@
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
-			"This ornately bejeweled baton confers the mark of rightful rulership on its bearer. The wielder of this scepter gains a +5 competence bonus on Knowledge (nobility) and Diplomacy checks. Furthermore, once per day, and on command, the wielder can affect up to seven living creatures with good hope, as the spell. If the wielder of a suzerain scepter has the [Leadership](feat/leadership) feat, she may attract double the normal number of followers for her Leadership score; however, if the rod is out of the wielder's possession for more than 1 week these extra followers leave. In addition, a suzerain scepter radiates a continuous bless effect that affects any cohort, follower, animal companion, familiar, special mount, or creature charmed or summoned by the wielder (but not called creatures or those under dominate or other compulsion effects). Whenever the wielder creates an effect that provides a morale bonus to such creatures (not including the scepter's bless effect), that bonus increases by 1.",
+			"This ornately bejeweled baton confers the mark of rightful rulership on its bearer. The wielder of this scepter gains a +5 competence bonus on Knowledge (nobility) and Diplomacy checks. Furthermore, once per day, and on command, the wielder can affect up to seven living creatures with good hope, as the spell. If the wielder of a suzerain scepter has the {feat/Leadership} feat, she may attract double the normal number of followers for her Leadership score; however, if the rod is out of the wielder's possession for more than 1 week these extra followers leave. In addition, a suzerain scepter radiates a continuous bless effect that affects any cohort, follower, animal companion, familiar, special mount, or creature charmed or summoned by the wielder (but not called creatures or those under dominate or other compulsion effects). Whenever the wielder creates an effect that provides a morale bonus to such creatures (not including the scepter's bless effect), that bonus increases by 1.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Leadership, bless, good hope, greater command, the creator must have the [Leadership](feat/leadership) feat; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Rod}, Leadership, bless, good hope, greater command, the creator must have the {feat/Leadership} feat; **Cost** 10,000 gp"
 		]
 	},
 	"fiery_nimbus_rod": {
@@ -939,7 +939,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), flame blade, flame strike or fireball, fairy fire; **Cost** 11,305 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, flame blade, flame strike or fireball, fairy fire; **Cost** 11,305 gp"
 		]
 	},
 	"rod_of_enemy_detection": {
@@ -959,7 +959,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), true seeing; **Cost** 23,500 gp"
+			"**Requirements** {feat/Craft Rod}, true seeing; **Cost** 23,500 gp"
 		]
 	},
 	"rod_of_giant_summoning_greater": {
@@ -984,7 +984,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), creator must be a 10th-level kineticist; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Rod}, creator must be a 10th-level kineticist; **Cost** 12,500 gp"
 		]
 	},
 	"rod_of_perilous_pits": {
@@ -1001,7 +1001,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), create pit, creator must be a caster of at least 12th level; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Rod}, create pit, creator must be a caster of at least 12th level; **Cost** 12,500 gp"
 		]
 	},
 	"rod_of_splendor": {
@@ -1027,7 +1027,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), eagle's splendor, fabricate, major creation; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Rod}, eagle's splendor, fabricate, major creation; **Cost** 12,500 gp"
 		]
 	},
 	"rod_of_the_alicorn": {
@@ -1044,7 +1044,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), cure light wounds, cure moderate wounds, neutralize poison, creator must be good-aligned; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Rod}, cure light wounds, cure moderate wounds, neutralize poison, creator must be good-aligned; **Cost** 12,500 gp"
 		]
 	},
 	"rod_of_withering": {
@@ -1064,7 +1064,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), contagion; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, contagion; **Cost** 12,500 gp"
 		]
 	},
 	"rod_of_vicious_ghosts": {
@@ -1081,7 +1081,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), ethereal jaunt; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Rod}, ethereal jaunt; **Cost** 13,000 gp"
 		]
 	},
 	"fossilizing_rod": {
@@ -1098,7 +1098,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), flesh to stone; **Cost** 13,200 gp"
+			"**Requirements** {feat/Craft Rod}, flesh to stone; **Cost** 13,200 gp"
 		]
 	},
 	"earthbind_rod": {
@@ -1118,7 +1118,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), stone shape; **Cost** 13,250 gp"
+			"**Requirements** {feat/Craft Rod}, stone shape; **Cost** 13,250 gp"
 		]
 	},
 	"pyroclastic_spike": {
@@ -1139,7 +1139,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), firefall; **Cost** 14,000 gp"
+			"**Requirements** {feat/Craft Rod}, firefall; **Cost** 14,000 gp"
 		]
 	},
 	"rod_of_the_aboleth": {
@@ -1160,7 +1160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), aboleth's lung, acid arrow, touch of the sea; **Cost** 29,000 gp"
+			"**Requirements** {feat/Craft Rod}, aboleth's lung, acid arrow, touch of the sea; **Cost** 29,000 gp"
 		]
 	},
 	"liberators_rod": {
@@ -1179,7 +1179,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), break enchantment, cast out, continual flame; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, break enchantment, cast out, continual flame; **Cost** 15,000 gp"
 		]
 	},
 	"rod_of_hindered_healing": {
@@ -1196,7 +1196,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), inflict critical wounds; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Rod}, inflict critical wounds; **Cost** 15,000 gp"
 		]
 	},
 	"witching_rod": {
@@ -1209,13 +1209,13 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 31,000 gp; **Weight** 1 lb.",
 			"",
-			"This especially powerful [dowsing rod](equipment-misc/dowsing_rod) is typically made of a branch from an ancient tree or shafts forged of rare metals. When used for the dowsing skill unlock in place of a mundane dowsing rod, a witching rod provides a +5 circumstance bonus on the Survival check.",
+			"This especially powerful {equipment-misc/dowsing rod} is typically made of a branch from an ancient tree or shafts forged of rare metals. When used for the dowsing skill unlock in place of a mundane dowsing rod, a witching rod provides a +5 circumstance bonus on the Survival check.",
 			"",
 			"A witching rod can not only detect bodies of water, grave sites, and metal deposits, but can also manipulate substances or souls related to them. The rod can produce the effects of control water, speak with dead (DC 14), or stone shape. Though this ability can typically be used only once per day, a wielder with the ability to use the dowsing occult skill unlock more than once per day can instead produce a spell effect one additional time per day for each additional use of dowsing she has. This doesn't require her to expend uses of dowsing. Only one creature can produce extra uses of the witching rod in this way each day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), control water, speak with dead, stone shape; **Cost** 16,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, control water, speak with dead, stone shape; **Cost** 16,500 gp"
 		]
 	},
 	"rod_of_voracious_hexes": {
@@ -1232,7 +1232,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Split Hex, creator must have the hex class feature; **Cost** 16,250 gp"
+			"**Requirements** {feat/Craft Rod}, Split Hex, creator must have the hex class feature; **Cost** 16,250 gp"
 		]
 	},
 	"rod_of_thunder_and_lightning": {
@@ -1258,7 +1258,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), lightning bolt, shout; **Cost** 16,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, lightning bolt, shout; **Cost** 16,500 gp"
 		]
 	},
 	"booming_scepter": {
@@ -1275,7 +1275,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), shout, ventriloquism; **Cost** 17,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, shout, ventriloquism; **Cost** 17,000 gp"
 		]
 	},
 	"rod_of_delumination": {
@@ -1294,7 +1294,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Snuffing Spell; **Cost** 17,500 gp"
+			"**Requirements** {feat/Craft Rod}, Snuffing Spell; **Cost** 17,500 gp"
 		]
 	},
 	"rod_of_negation": {
@@ -1314,7 +1314,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), dispel magic, limited wish or miracle; **Cost** 18,500 gp"
+			"**Requirements** {feat/Craft Rod}, dispel magic, limited wish or miracle; **Cost** 18,500 gp"
 		]
 	},
 	"rod_of_steadfast_resolve": {
@@ -1336,7 +1336,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), bless, calm emotion, creator must have the human subtype; **Cost** 19,305 gp"
+			"**Requirements** {feat/Craft Rod}, bless, calm emotion, creator must have the human subtype; **Cost** 19,305 gp"
 		]
 	},
 	"ivory_baton": {
@@ -1353,7 +1353,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), geas/quest, mass charm monster; **Cost** 21,000 gp"
+			"**Requirements** {feat/Craft Rod}, geas/quest, mass charm monster; **Cost** 21,000 gp"
 		]
 	},
 	"recondite_rod_greater": {
@@ -1380,7 +1380,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), fabricate, major creation; **Cost** 22,850 gp"
+			"**Requirements** {feat/Craft Rod}, fabricate, major creation; **Cost** 22,850 gp"
 		]
 	},
 	"fools_scepter": {
@@ -1401,7 +1401,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), ghost sound, hideous laughter, legend lore; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Rod}, ghost sound, hideous laughter, legend lore; **Cost** 25,000 gp"
 		]
 	},
 	"forked_rod": {
@@ -1414,11 +1414,11 @@
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.",
 			"",
-			"This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for [plane shift](spell/plane_shift), but the plane to which it is attuned to can be adjusted as a standard action-a forked rod can be attuned to any plane that a common tuning fork (see [plane shift](spell/plane_shift)) can be attuned to. Once per day, a forked rod can be used to cast [plane shift](spell/plane_shift) to the plane it is currently attuned to. Three times per day as a standard action, the user can attack a creature or object with a forked rod as if it were a +1 light mace. On a hit, the forked rod deals no damage, but affects the target with [dimensional anchor](spell/dimensional_anchor) for 9 minutes. As long as a target is affected in this way, the forked rod is inert and cannot be used to cast [plane shift](spell/plane_shift), as a focus for [plane shift](spell/plane_shift), or to affect another target with [dimensional anchor](spell/dimensional_anchor).",
+			"This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for {spell/plane shift}, but the plane to which it is attuned to can be adjusted as a standard action-a forked rod can be attuned to any plane that a common tuning fork (see {spell/plane shift}) can be attuned to. Once per day, a forked rod can be used to cast {spell/plane shift} to the plane it is currently attuned to. Three times per day as a standard action, the user can attack a creature or object with a forked rod as if it were a +1 light mace. On a hit, the forked rod deals no damage, but affects the target with {spell/dimensional anchor} for 9 minutes. As long as a target is affected in this way, the forked rod is inert and cannot be used to cast {spell/plane shift}, as a focus for {spell/plane shift}, or to affect another target with {spell/dimensional anchor}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), dimensional anchor, plane shift; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Rod}, dimensional anchor, plane shift; **Cost** 25,000 gp"
 		]
 	},
 	"rod_of_absorption": {
@@ -1444,7 +1444,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), spell turning; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Rod}, spell turning; **Cost** 25,000 gp"
 		]
 	},
 	"rod_of_flailing": {
@@ -1460,7 +1460,7 @@
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.",
 			"",
-			"Upon the command of its possessor, this rod activates, changing from a normal-seeming rod to a +3/+3 dire flail. The dire flail is a double weapon, which means that each of the weapon's heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a -2 penalty (as if she had the [Two-Weapon Fighting](feat/two-weapon_fighting) feat).",
+			"Upon the command of its possessor, this rod activates, changing from a normal-seeming rod to a +3/+3 dire flail. The dire flail is a double weapon, which means that each of the weapon's heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a -2 penalty (as if she had the {feat/Two-Weapon Fighting} feat).",
 			"",
 			"Once per day, the wielder can use a free action to cause the rod to grant her a +4 deflection bonus to AC and a +4 resistance bonus on saving throws for 10 minutes. The rod need not be in weapon form to grant this benefit.",
 			"",
@@ -1468,7 +1468,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bless; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, bless; **Cost** 25,000 gp"
 		]
 	},
 	"rod_of_potent_hexes": {
@@ -1485,7 +1485,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Maximize Spell](feat/maximize_spell), creator must possess the hex class feature; **Cost** 27,000 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Maximize Spell}, creator must possess the hex class feature; **Cost** 27,000 gp"
 		]
 	},
 	"gravitic_force_rod": {
@@ -1502,7 +1502,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), reverse gravity; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Rod}, reverse gravity; **Cost** 30,000 gp"
 		]
 	},
 	"rod_of_rulership": {
@@ -1522,7 +1522,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), mass charm monster; **Cost** 32,500 gp"
+			"**Requirements** {feat/Craft Rod}, mass charm monster; **Cost** 32,500 gp"
 		]
 	},
 	"rod_of_security": {
@@ -1544,7 +1544,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), gate; **Cost** 30,500 gp"
+			"**Requirements** {feat/Craft Rod}, gate; **Cost** 30,500 gp"
 		]
 	},
 	"rod_of_well-deserved_rest": {
@@ -1563,7 +1563,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), deep slumber, good hope, restful sleep, tiny hut; **Cost** 31,000 gp"
+			"**Requirements** {feat/Craft Rod}, deep slumber, good hope, restful sleep, tiny hut; **Cost** 31,000 gp"
 		]
 	},
 	"rod_of_well_deserved_rest": {
@@ -1586,7 +1586,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), deeper darkness, true seeing; **Cost** 32,305 gp"
+			"**Requirements** {feat/Craft Rod}, deeper darkness, true seeing; **Cost** 32,305 gp"
 		]
 	},
 	"rod_of_razors": {
@@ -1603,7 +1603,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), blade barrier, keen edge, shield, spiritual weapon; **Cost** 33,435 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, blade barrier, keen edge, shield, spiritual weapon; **Cost** 33,435 gp"
 		]
 	},
 	"rod_of_mind_mastery": {
@@ -1623,7 +1623,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), detect thoughts, discern lies, nondetection; **Cost** 33,500 gp"
+			"**Requirements** {feat/Craft Rod}, detect thoughts, discern lies, nondetection; **Cost** 33,500 gp"
 		]
 	},
 	"rod_of_lordly_might": {
@@ -1662,7 +1662,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bull's strength, fear, flame blade, hold person, inflict light wounds; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, bull's strength, fear, flame blade, hold person, inflict light wounds; **Cost** 35,000 gp"
 		]
 	},
 	"scepter_of_heaven": {
@@ -1687,7 +1687,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bless weapon, dispel evil, holy smite, holy sword, holy word, spear of purity, creator must be good; **Cost** 37,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, bless weapon, dispel evil, holy smite, holy sword, holy word, spear of purity, creator must be good; **Cost** 37,000 gp"
 		]
 	},
 	"rod_of_abrupt_hexes": {
@@ -1704,7 +1704,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Quicken Spell](feat/quicken_spell), creator must possess the hex class feature; **Cost** 37,750 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Quicken Spell}, creator must possess the hex class feature; **Cost** 37,750 gp"
 		]
 	},
 	"lava_rod": {
@@ -1721,7 +1721,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), delayed blast fireball; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Rod}, delayed blast fireball; **Cost** 40,000 gp"
 		]
 	},
 	"nightmare_rod": {
@@ -1742,7 +1742,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), fear, nightmare, phantasmal killer, remove fear; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Rod}, fear, nightmare, phantasmal killer, remove fear; **Cost** 40,000 gp"
 		]
 	},
 	"rod_of_dwarven_might": {
@@ -1767,7 +1767,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Rod](feat/craft_rod), bull's strength; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Rod}, bull's strength; **Cost** 40,000 gp"
 		]
 	},
 	"rod_of_revolution": {
@@ -1784,7 +1784,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), mass charm monster, rage; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Rod}, mass charm monster, rage; **Cost** 41,000 gp"
 		]
 	},
 	"rod_of_alertness": {
@@ -1800,13 +1800,13 @@
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** none; **Price** 85,000 gp; **Weight** 4 lbs.",
 			"",
-			"This rod is indistinguishable from a +1 light mace. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, it enables the wielder to use [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), discern lies, light, or see invisibility. Each different use is a standard action.",
+			"This rod is indistinguishable from a +1 light mace. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, it enables the wielder to use {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, {spell/detect magic}, discern lies, light, or see invisibility. Each different use is a standard action.",
 			"",
 			"If the head of a rod of alertness is planted in the ground and the possessor wills it to alertness (a standard action), the rod senses any creatures within 120 feet that intend to harm the possessor. At the same time, the rod creates the effect of a prayer spell upon all creatures friendly to the possessor in a 20-foot radius. Immediately thereafter, the rod sends forth a mental alert to these friendly creatures, warning them of any unfriendly creatures within the 120-foot radius. These effects last for 10 minutes, and the rod can perform this function once per day. Last, the rod can be used to simulate the casting of an animate objects spell, utilizing any 11 (or fewer) Small objects located roughly around the perimeter of a 5-foot-radius circle centered on the rod when planted in the ground. Objects remain animated for 11 rounds. The rod can perform this function once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), alarm, animate objects, [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), [detect magic](spell/detect_magic), discern lies, light, prayer, see invisibility; **Cost** 42,500 gp"
+			"**Requirements** {feat/Craft Rod}, alarm, animate objects, {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, {spell/detect magic}, discern lies, light, prayer, see invisibility; **Cost** 42,500 gp"
 		]
 	},
 	"dolorous_rod": {
@@ -1823,7 +1823,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Mythic Crafter](feat/mythic_crafter), bestow curse, crushing despair; **Cost** 60,000 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Mythic Crafter}, bestow curse, crushing despair; **Cost** 60,000 gp"
 		]
 	},
 	"hollow_rod": {
@@ -1840,7 +1840,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), creator must be a 10th-level kineticist; **Cost** 60,750 gp"
+			"**Requirements** {feat/Craft Rod}, creator must be a 10th-level kineticist; **Cost** 60,750 gp"
 		]
 	},
 	"caduceus_rod": {
@@ -1867,7 +1867,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), breath of life, deep slumber, heroism, universal formula, creator must have at least 10 ranks in Craft (alchemy); **Cost** 71,000 gp"
+			"**Requirements** {feat/Craft Rod}, breath of life, deep slumber, heroism, universal formula, creator must have at least 10 ranks in Craft (alchemy); **Cost** 71,000 gp"
 		]
 	},
 	"scepter_of_the_arclords": {
@@ -1896,7 +1896,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), limited wish, wish; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Rod}, limited wish, wish; **Cost** 100,000 gp"
 		]
 	},
 	"rod_of_metamagic_eclipsed_lesser": {
@@ -1909,11 +1909,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that alter how the spell raises or lowers the illumination level in their affected areas as though using the [Eclipsed Spell](feat/eclipsed_spell) feat.",
+			"The wielder can cast up to three spells per day that alter how the spell raises or lowers the illumination level in their affected areas as though using the {feat/Eclipsed Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Eclipsed Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Eclipsed Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
 	"lesser_eclipsed_rod_of_metamagic": {
@@ -1936,7 +1936,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Merciful Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Merciful Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
 	"lesser_merciful_rod_of_metamagic": {
@@ -1956,7 +1956,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
 	"lesser_murky_rod_of_metamagic": {
@@ -1976,7 +1976,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
 	"lesser_steam_rod_of_metamagic": {
@@ -1992,11 +1992,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that blast terrain as though using the [Apocalyptic Spell](feat/apocalyptic_spell) feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that blast terrain as though using the {feat/Apocalyptic Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Apocolyptic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Apocolyptic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_apocalyptic_rod_of_metamagic": {
@@ -2012,11 +2012,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that constrain the targets as though using the [Authoritative Spell](feat/authoritative_spell) feat",
+			"The wielder of this metamagic rod can cast up to three spells per day that constrain the targets as though using the {feat/Authoritative Spell} feat",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Authoritative Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Authoritative Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_authoritative_rod_of_metamagic": {
@@ -2032,11 +2032,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that enliven or pacify targets as though using the [Blissful Spell](feat/blissful_spell) feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that enliven or pacify targets as though using the {feat/Blissful Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Blissful Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Blissful Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_blissful_rod_of_metamagic": {
@@ -2055,11 +2055,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that bounce as though using the [Bouncing Spell](feat/bouncing_spell) feat.",
+			"The wielder can cast up to three spells per day that bounce as though using the {feat/Bouncing Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Bouncing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Bouncing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_bouncing_rod_of_metamagic": {
@@ -2075,11 +2075,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that condemn the targets as though using the [Crypt Spell](feat/crypt_spell) feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that condemn the targets as though using the {feat/Crypt Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Crypt Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Crypt Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_crypt_rod_of_metamagic": {
@@ -2098,11 +2098,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that are disruptive as though using the [Disruptive Spell](feat/disruptive_spell) feat.",
+			"The wielder can cast up to three spells per day that are disruptive as though using the {feat/Disruptive Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Disruptive Spell](feat/disruptive_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Disruptive Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_disruptive_rod_of_metamagic": {
@@ -2125,7 +2125,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Ectoplasmic Spell](feat/ectoplasmic_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Ectoplasmic Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_ectoplasmic_rod_of_metamagic": {
@@ -2148,7 +2148,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Elemental Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Elemental Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_elemental_rod_of_metamagic": {
@@ -2171,7 +2171,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Enlarge Spell](feat/enlarge_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Enlarge Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_enlarge_rod_of_metamagic": {
@@ -2194,7 +2194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Extend Spell](feat/extend_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Extend Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_extend_rod_of_metamagic": {
@@ -2214,7 +2214,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Flaring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Flaring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_flaring_rod_of_metamagic": {
@@ -2237,7 +2237,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Focused Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Focused Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_focused_rod_of_metamagic": {
@@ -2257,7 +2257,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Furious Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Furious Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		]
 	},
 	"lesser_furious_rod_of_metamagic": {
@@ -2280,7 +2280,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Intensified Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Intensified Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_intensified_rod_of_metamagic": {
@@ -2303,7 +2303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Lingering Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Lingering Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_lingering_rod_of_metamagic": {
@@ -2323,7 +2323,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Logical Spell](feat/logical_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Logical Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_logical_rod_of_metamagic": {
@@ -2343,7 +2343,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Piercing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Piercing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_piercing_rod_of_metamagic": {
@@ -2366,7 +2366,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Reach Spell](feat/reach_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Reach Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_reach_rod_of_metamagic": {
@@ -2386,7 +2386,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Rime Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Rime Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_rime_rod_of_metamagic": {
@@ -2406,7 +2406,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Scarring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Scarring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		]
 	},
 	"lesser_scarring_rod_of_metamagic": {
@@ -2429,7 +2429,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Selective Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Selective Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_selective_rod_of_metamagic": {
@@ -2452,7 +2452,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Silent Spell](feat/silent_spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Silent Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_silent_rod_of_metamagic": {
@@ -2472,7 +2472,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Stable Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Stable Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_stable_rod_of_metamagic": {
@@ -2492,7 +2492,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Toppling Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Toppling Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_toppling_rod_of_metamagic": {
@@ -2512,7 +2512,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Tumultuous Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Tumultuous Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_tumultuous_rod_of_metamagic": {
@@ -2567,7 +2567,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Burning Spell](feat/burning_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Burning Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_burning_rod_of_metamagic": {
@@ -2587,7 +2587,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Concussive Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Concussive Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_concussive_rod_of_metamagic": {
@@ -2610,7 +2610,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Empower Spell](feat/empower_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Empower Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_empower_rod_of_metamagic": {
@@ -2630,7 +2630,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Fearsome Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Fearsome Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_fearsome_rod_of_metamagic": {
@@ -2653,7 +2653,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Persistent Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Persistent Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_persistent_rod_of_metamagic": {
@@ -2676,7 +2676,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Sickening Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Sickening Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_sickening_rod_of_metamagic": {
@@ -2692,11 +2692,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that extinguish magical and nonmagical sources of light active on the target as though using the [Snuffing Spell](feat/snuffing_spell) feat.",
+			"The wielder can cast up to three spells per day that extinguish magical and nonmagical sources of light active on the target as though using the {feat/Snuffing Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Snuffing Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Snuffing Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_snuffing_rod_of_metamagic": {
@@ -2716,7 +2716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Stygian Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Stygian Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_stygian_rod_of_metamagic": {
@@ -2736,7 +2736,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Thanatopic Spell](feat/thanatopic_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Thanatopic Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_thanatopic_rod_of_metamagic": {
@@ -2756,7 +2756,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Threnodic Spell](feat/threnodic_spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Threnodic Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_threnodic_rod_of_metamagic": {
@@ -2779,7 +2779,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Thundering Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Thundering Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_thundering_rod_of_metamagic": {
@@ -2799,7 +2799,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Traumatic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Traumatic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_traumatic_rod_of_metamagic": {
@@ -3093,7 +3093,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Dazing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Dazing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_dazing_rod_of_metamagic": {
@@ -3113,7 +3113,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Echoing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Echoing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_echoing_rod_of_metamagic": {
@@ -3133,7 +3133,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), Familiar Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, Familiar Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_familiar_rod_of_metamagic": {
@@ -3156,7 +3156,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Maximize Spell](feat/maximize_spell); **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Maximize Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_maximize_rod_of_metamagic": {
@@ -3176,7 +3176,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Widen Spell](feat/widen_spell); **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Widen Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_widen_rod_of_metamagic": {
@@ -3539,11 +3539,11 @@
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 35,000 gp (lesser), 75,500 gp (normal), 170,000 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that are quickened as though using the [Quicken Spell](feat/quicken_spell) feat.",
+			"The wielder can cast up to three spells per day that are quickened as though using the {feat/Quicken Spell} feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](feat/craft_rod), [Quicken Spell](feat/quicken_spell); **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Quicken Spell}; **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
 		]
 	},
 	"lesser_quicken_rod_of_metamagic": {
@@ -3848,14 +3848,14 @@
 			"",
 			"This copper rod is made up of constantly grinding gearlike parts. It is believed that these rods may be some alternate or lesser form of harbinger archons. T he rod can take may useful forms, and after 24 hours in the possession of a lawful good creature, the wielder can command it to take the form of any tool, including a chime of opening. Very intelligent and witty, these rods communicate with their wielders in truespeech (see [archon subtype](subtype/archon)) or Celestial. Furthermore, the rod has the following powers.",
 			"",
-			"- Three times per day, on command, the rod's wielder can use [dimension door](spell/dimension_door), as the spell.",
+			"- Three times per day, on command, the rod's wielder can use {spell/dimension door}, as the spell.",
 			"- Once per day, on command, the rod can emit a blast of energy that deals 2d6 points of force damage to creatures adjacent to the wielder. A successful DC 12 Reflex save halves the damage. The wielder can choose to omit any target from this blast that it desires, damaging only the foes it chooses.",
 			"",
 			"The rod's purpose is to destroy or foil the plans of chaotic evil creatures.",
 			"",
 			"### Construction",
 			"",
-			"[Craft Rod](feat/craft_rod), dimension door, knock, explosive runes, creator must be lawful good; **Price** 22,100 gp",
+			"{feat/Craft Rod}, dimension door, knock, explosive runes, creator must be lawful good; **Price** 22,100 gp",
 			"",
 			"### Statistics",
 			"",
@@ -3882,9 +3882,9 @@
 			"",
 			"The rod can be used as a +1 light mace. On command, it transforms into a +1/+1 quarterstaff or back to its rod form.",
 			"",
-			"A metamagician's apprentice knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as [Silent Spell](feat/silent_spell) and [Empower Spell](feat/empower_spell)) and acts as a greater metamagic rod for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a metamagic rod) the wielder can use his own feats and the rod's on the same spell.",
+			"A metamagician's apprentice knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as {feat/Silent Spell} and {feat/Empower Spell}) and acts as a greater metamagic rod for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a metamagic rod) the wielder can use his own feats and the rod's on the same spell.",
 			"",
-			"The rod can use read magic and [detect magic](spell/detect_magic) at will. The metamagician's apprentice is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the explosive runes spell). The rod grants the wielder a +2 competence bonus on three Knowledge skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. Knowledge (arcana) is almost always one of these three skills.",
+			"The rod can use read magic and {spell/detect magic} at will. The metamagician's apprentice is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the explosive runes spell). The rod grants the wielder a +2 competence bonus on three Knowledge skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. Knowledge (arcana) is almost always one of these three skills.",
 			"",
 			"A typical rod of this type is lawful neutral, though rods with other alignments exist.",
 			"",
@@ -3892,7 +3892,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Rod](feat/craft_rod), the four metamagic feats the rod is to know; **Price** 47,105 gp",
+			"{feat/Craft Rod}, the four metamagic feats the rod is to know; **Price** 47,105 gp",
 			"",
 			"### Statistics",
 			"",

@@ -15,7 +15,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), blindness/deafness, charm person, doom, see invisibility; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, blindness/deafness, charm person, doom, see invisibility; **Cost** 3,500 gp"
 		]
 	},
 	"brazen_hooves": {
@@ -36,7 +36,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bull's strength, wall of fire; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, wall of fire; **Cost** 7,500 gp"
 		]
 	},
 	"crown_of_horns": {
@@ -55,7 +55,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape II](spell/beast_shape_2), [protection from law](spell/protection_from_law); **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/protection from law}; **Cost** 10,000 gp"
 		]
 	},
 	"demon_blood": {
@@ -77,7 +77,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), desecrate; **Cost** 400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, desecrate; **Cost** 400 gp"
 		]
 	},
 	"demon_heart": {
@@ -96,7 +96,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), remove fear, stabilize; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, remove fear, stabilize; **Cost** 3,000 gp"
 		]
 	},
 	"demon_senses": {
@@ -115,7 +115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), limited wish, regenerate; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, limited wish, regenerate; **Cost** 10,000 gp"
 		]
 	},
 	"demon_talon": {
@@ -134,7 +134,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), limited wish, regenerate; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, limited wish, regenerate; **Cost** 10,000 gp"
 		]
 	},
 	"demon_tongue": {
@@ -153,7 +153,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), detect poison, eagle's splendor; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, detect poison, eagle's splendor; **Cost** 5,000 gp"
 		]
 	},
 	"demonhide": {
@@ -172,7 +172,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), barkskin, delay poison, resist energy; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, barkskin, delay poison, resist energy; **Cost** 10,000 gp"
 		]
 	},
 	"splintered_mind": {
@@ -193,7 +193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), confusion, misdirection; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, confusion, misdirection; **Cost** 8,000 gp"
 		]
 	},
 	"wicked_wings": {
@@ -208,11 +208,11 @@
 			"",
 			"### Description",
 			"",
-			"These ragged wings may be birdlike with moldy feathers, or tattered and membranous like the wings of a bat. The recipient's shoulder blades and collarbones must be broken in order to attach the wicked wings-breaking them deals 2d4 points of Strength and Dexterity damage to the recipient and renders both arms useless until the ability damage heals. The recipient gains a fly speed equal to its normal land speed with average maneuverability. In addition, when not flying a creature with wicked wings is considered to have [Deflect Arrows](feat/deflect_arrows) as a bonus feat.",
+			"These ragged wings may be birdlike with moldy feathers, or tattered and membranous like the wings of a bat. The recipient's shoulder blades and collarbones must be broken in order to attach the wicked wings-breaking them deals 2d4 points of Strength and Dexterity damage to the recipient and renders both arms useless until the ability damage heals. The recipient gains a fly speed equal to its normal land speed with average maneuverability. In addition, when not flying a creature with wicked wings is considered to have {feat/Deflect Arrows} as a bonus feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [beast shape I](spell/beast_shape_1); **Cost** 27,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}; **Cost** 27,500 gp"
 		]
 	}
 }

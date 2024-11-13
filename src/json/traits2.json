@@ -94,7 +94,7 @@
 			"",
 			"Note that this trait works particularly well for paladins or other characters who wish to venerate lawful causes but still oppose the government. Your GM should be open to allowing lawful characters to perform actions out of character for someone of lawful alignment, provided the end goal is a new and better government for Kintargo, but with this feat, characters tied strongly to law (such as lawful clerics, monks, or paladins) can hide those ties in ways that help them perform as rebels without giving up their actual convictions.",
 			"",
-			"You're good at hiding your true colors and faith to avoid attracting the wrong kind of attention. You gain a +1 bonus on Disguise checks, and Disguise is always a class skill for you. In addition, when someone uses [detect good](spell/detect_good) or [detect law](spell/detect_law) on you, your effective Hit Dice are 4 lower than their actual total when someone discerns the strength of your aura. If you are a cleric, paladin, or similar divine spellcaster, you treat yourself as if you were a standard-aligned creature rather than a divine spellcaster for these purposes. This means that until you become 9th level, you won't radiate an aura of good or law at all when someone casts one of these detection spells. Finally, your internal convictions that you're on the actual right of law help bolster your mindset, and you gain a +1 trait bonus on all saving throws against mind-affecting effects."
+			"You're good at hiding your true colors and faith to avoid attracting the wrong kind of attention. You gain a +1 bonus on Disguise checks, and Disguise is always a class skill for you. In addition, when someone uses {spell/detect good} or {spell/detect law} on you, your effective Hit Dice are 4 lower than their actual total when someone discerns the strength of your aura. If you are a cleric, paladin, or similar divine spellcaster, you treat yourself as if you were a standard-aligned creature rather than a divine spellcaster for these purposes. This means that until you become 9th level, you won't radiate an aura of good or law at all when someone casts one of these detection spells. Finally, your internal convictions that you're on the actual right of law help bolster your mindset, and you gain a +1 trait bonus on all saving throws against mind-affecting effects."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -673,7 +673,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
 			"",
-			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend-or friends-have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the [Aid Another](rule/aid_another) action to help an ally, or whenever an ally [aids you](rule/aid_another_2) in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
+			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend-or friends-have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the {rule/Aid Another} action to help an ally, or whenever an ally [aids you](rule/aid_another_2) in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -724,7 +724,7 @@
 			"**Type:** Faction  ",
 			"**Faction:** Silver Crusade",
 			"",
-			"Your good-aligned spells are especially powerful, and they function at +1 caster level. This trait makes your aura more powerful (one step higher), as outlined in the [detect evil](spell/detect_evil) spell."
+			"Your good-aligned spells are especially powerful, and they function at +1 caster level. This trait makes your aura more powerful (one step higher), as outlined in the {spell/detect evil} spell."
 		],
 		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
@@ -753,7 +753,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Intrigued by the travels of one of your long-time acquaintances, you've convinced her to teach you one of the exotic languages she picked up in her journeys. Choose one of the following characters. You may select one of that character's languages as a bonus language. Additionally, you gain a +2 trait bonus on Bluff checks made to pass secret messages to the chosen character (see the description of the [Bluff](skill/bluff) skill).",
+			"Intrigued by the travels of one of your long-time acquaintances, you've convinced her to teach you one of the exotic languages she picked up in her journeys. Choose one of the following characters. You may select one of that character's languages as a bonus language. Additionally, you gain a +2 trait bonus on Bluff checks made to pass secret messages to the chosen character (see the description of the {skill/Bluff} skill).",
 			"",
 			"**NPC Choices:** Ameiko, Koya, Sandru, Shalelu.",
 			"",
@@ -1089,7 +1089,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
 			"",
-			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the [Catch Off-Guard](feat/catch_off-guard) or [Throw Anything](feat/throw_anything) feats, you still take penalties on these attack rolls as normal."
+			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the {feat/Catch Off-Guard} or {feat/Throw Anything} feats, you still take penalties on these attack rolls as normal."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -3079,7 +3079,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for [Iron Will](feat/iron_will) as the prerequisite for the [Familiar Bond](feat/familiar_bond) feat."
+			"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for {feat/Iron Will} as the prerequisite for the {feat/Familiar Bond} feat."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -5133,7 +5133,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
 			"",
-			"You have ties to a prominent local in the town of Torch-the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the [Technologist](feat/technologist) feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3."
+			"You have ties to a prominent local in the town of Torch-the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the {feat/Technologist} feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5353,7 +5353,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Grudinnar",
 			"",
-			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as [shield other](spell/shield_other)) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
+			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as {spell/shield other}) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -5513,7 +5513,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Changeling",
 			"",
-			"You possess natural magical ability. Select one of the following spells: [bleed](spell/bleed), [create water](spell/create_water), [dancing lights](spell/dancing_lights), [detect good](spell/detect_good), [ghost sound](spell/ghost_sound), [putrefy food and drink](spell/putrefy_food_and_drink). You can cast this spell three times per day as a spell-like ability."
+			"You possess natural magical ability. Select one of the following spells: {spell/bleed}, {spell/create water}, {spell/dancing lights}, {spell/detect good}, {spell/ghost sound}, {spell/putrefy food and drink}. You can cast this spell three times per day as a spell-like ability."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -6095,7 +6095,7 @@
 			"",
 			"When you awake with nothing but hazy memories, you begin carefully cataloging your thoughts to determine the reasons for your condition and where you might be. This comforts you, and you know deep down that you have always relied on your ordered mind and pragmatic approach to face challenges. You use this focus and sensibility to your advantage as you investigate your current dire situation.",
 			"",
-			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on concentration checks. In addition, choose one Knowledge skill. When [researching](rule/research), you are considered to have [Skill Focus](feat/skill_focus) for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
+			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on concentration checks. In addition, choose one Knowledge skill. When [researching](rule/research), you are considered to have {feat/Skill Focus} for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6264,7 +6264,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Chaldira",
 			"",
-			"You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having [Improved Dirty Trick](feat/improved_dirty_trick)), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite."
+			"You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having {feat/Improved Dirty Trick}), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -6769,7 +6769,7 @@
 			"",
 			"Whenever you found yourself involved in a group effort in the past, be it working with siblings to handle a family emergency, conspiring with friends to orchestrate a prank, or throwing in with coworkers to take care of an unanticipated complication at work, you tended to end up in a position of leadership. It might be unclear to you why this is the case, or you might deliberately seek out such positions, knowing you can organize any group to be something greater than the sum of its parts, but your knack for managing groups has always pushed you to the front of any operation you've found yourself a part of.",
 			"",
-			"You excel in the role of manager. You treat your Charisma score as if it were 14 (or 2 points higher than its actual score if your actual Charisma is already 14 or higher) for the purposes of determining how many teams you can manage in the rebellion, and for the purposes of determining the bonus you add to your managed teams' actions. In addition, you gain a +1 trait bonus to your Leadership score if you take the [Leadership](feat/leadership) feat."
+			"You excel in the role of manager. You treat your Charisma score as if it were 14 (or 2 points higher than its actual score if your actual Charisma is already 14 or higher) for the purposes of determining how many teams you can manage in the rebellion, and for the purposes of determining the bonus you add to your managed teams' actions. In addition, you gain a +1 trait bonus to your Leadership score if you take the {feat/Leadership} feat."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6835,7 +6835,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the [Leadership](feat/leadership) feat, you gain a +1 trait bonus to your Leadership score."
+			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the {feat/Leadership} feat, you gain a +1 trait bonus to your Leadership score."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -6977,7 +6977,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the [Diehard](feat/diehard) feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
+			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the {feat/Diehard} feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -7071,7 +7071,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kitsune",
 			"",
-			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the [Magical Tail](feat/magical_tail) feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his [Stunning Fist](feat/stunning_fist) feat for Magical Tail."
+			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the {feat/Magical Tail} feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his {feat/Stunning Fist} feat for Magical Tail."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -8030,7 +8030,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
 			"",
-			"Explore, report, and cooperate. This is the credo you've lived by since you've joined the [Pathfinder Society](rule/aff_scholars), and after hearing about the expedition to found Talmandor's Bounty you applied, eager to see the remains of Azlant. However, you quickly learned that the Bountiful Venture Company wasn't interested in involving the Pathfinder Society in the formation of the colony. This struck you as strange, because who else has as keen an understanding of some of the elements of ancient Azlant as the Pathfinder Society? Regardless, you went through the application process, making sure to highlight all of your applicable skills and experience while keeping your involvement in the Society to yourself. You were elated to receive notice that you were selected for the second wave of colonists bound for the broken continent of Azlant. You begin play with a standard [wayfinder](magic-wondrous/wayfinder) and you gain a +1 trait bonus on initiative checks."
+			"Explore, report, and cooperate. This is the credo you've lived by since you've joined the [Pathfinder Society](rule/aff_scholars), and after hearing about the expedition to found Talmandor's Bounty you applied, eager to see the remains of Azlant. However, you quickly learned that the Bountiful Venture Company wasn't interested in involving the Pathfinder Society in the formation of the colony. This struck you as strange, because who else has as keen an understanding of some of the elements of ancient Azlant as the Pathfinder Society? Regardless, you went through the application process, making sure to highlight all of your applicable skills and experience while keeping your involvement in the Society to yourself. You were elated to receive notice that you were selected for the second wave of colonists bound for the broken continent of Azlant. You begin play with a standard {magic-wondrous/wayfinder} and you gain a +1 trait bonus on initiative checks."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

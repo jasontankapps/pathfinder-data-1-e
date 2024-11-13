@@ -33,7 +33,7 @@
 			"",
 			"*Acid Splash (M)*: The spell lasts 1 round longer than normal.",
 			"",
-			"*Dispel Magic (M)*: Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using dispel magic, greater dispel magic, or some other spell that you can use for counterspelling (for example, if you have the [Improved Counterspell](feat/improved_counterspell) feat).",
+			"*Dispel Magic (M)*: Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using dispel magic, greater dispel magic, or some other spell that you can use for counterspelling (for example, if you have the {feat/Improved Counterspell} feat).",
 			"",
 			"*Grease (M)*: The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
 			"",
@@ -168,7 +168,7 @@
 			"",
 			"**Price** 40 gp; **Weight** -",
 			"",
-			"Weapons and armor aren't the only things [bladeguard](equipment-misc/bladeguard) protects.",
+			"Weapons and armor aren't the only things {equipment-misc/bladeguard} protects.",
 			"",
 			"### Power Component",
 			"",
@@ -301,7 +301,7 @@
 			"### Power Component",
 			"",
 			"**Doses** 1 (350 gp); **Spells** fire spells  ",
-			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the [Flaring Spell](feat/flaring_spell) metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage."
+			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the {feat/Flaring Spell} metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage."
 		]
 	},
 	"flash_powder": {
@@ -314,7 +314,7 @@
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
-			"Useful as a distraction, [flash powder](equipment-weapon/flash_powder) makes light-burst spells more dangerous.",
+			"Useful as a distraction, {equipment-weapon/flash powder} makes light-burst spells more dangerous.",
 			"",
 			"### Power Component",
 			"",
@@ -759,10 +759,10 @@
 			"| --- | --- |",
 			"| 1 | The spell fails and you are dazzled for 1d4 rounds. |",
 			"| 2 | The spell resolves normally. |",
-			"| 3 | The spell is affected as per the [Enlarge Spell](feat/enlarge_spell) metamagic feat. |",
-			"| 4 | The spell is affected as per the [Extend Spell](feat/extend_spell) metamagic feat. |",
-			"| 5 | The spell is affected as per the [Widen Spell](feat/widen_spell) metamagic feat. |",
-			"| 6 | The spell is affected as per the [Heighten Spell](feat/heighten_spell) metamagic feat, increasing the spell's level by 1. |"
+			"| 3 | The spell is affected as per the {feat/Enlarge Spell} metamagic feat. |",
+			"| 4 | The spell is affected as per the {feat/Extend Spell} metamagic feat. |",
+			"| 5 | The spell is affected as per the {feat/Widen Spell} metamagic feat. |",
+			"| 6 | The spell is affected as per the {feat/Heighten Spell} metamagic feat, increasing the spell's level by 1. |"
 		]
 	}
 }

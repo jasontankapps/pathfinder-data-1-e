@@ -22,7 +22,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [deadly juggernaut](spell/deadly_juggernaut); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/deadly juggernaut}; **Price** +1 bonus"
 		]
 	},
 	"balanced": {
@@ -42,7 +42,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resistance](spell/resistance); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resistance}; **Price** +1 bonus"
 		]
 	},
 	"benevolent": {
@@ -59,7 +59,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aid](spell/aid); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** +1 bonus"
 		]
 	},
 	"billowing": {
@@ -76,7 +76,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cushioning bands](spell/cushioning_bands), [feather fall](spell/feather_fall); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cushioning bands}, {spell/feather fall}; **Price** +1 bonus"
 		]
 	},
 	"bitter": {
@@ -98,7 +98,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stinking cloud](spell/stinking_cloud); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/stinking cloud}; **Price** +1 bonus"
 		]
 	},
 	"bolstering": {
@@ -115,7 +115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heroism}; **Price** +1 bonus"
 		]
 	},
 	"calming": {
@@ -132,7 +132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotions); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [calm emotion](spell/calm_emotions); **Price** +1 bonus"
 		]
 	},
 	"champion": {
@@ -152,7 +152,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from evil](spell/protection_from_evil); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/protection from evil}; **Price** +1 bonus"
 		]
 	},
 	"cocooning": {
@@ -169,7 +169,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [planar adaptation](spell/planar_adaptation); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/planar adaptation}; **Price** +1 bonus"
 		]
 	},
 	"crusading": {
@@ -186,7 +186,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [protection from evil](spell/protection_from_evil); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/protection from evil}; **Price** +1 bonus"
 		]
 	},
 	"dastard": {
@@ -206,7 +206,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from good](spell/protection_from_good); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/protection from good}; **Price** +1 bonus"
 		]
 	},
 	"deathless": {
@@ -223,7 +223,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [death ward](spell/death_ward); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/death ward}; **Price** +1 bonus"
 		]
 	},
 	"defiant": {
@@ -236,11 +236,11 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a bane weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/- against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the [magic vestment](spell/magic_vestment) spell). To randomly determine the armor or shield's designated foe, use the table for the [bane](magic-enhancement/bane) weapon special ability.",
+			"Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a bane weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/- against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the {spell/magic vestment} spell). To randomly determine the armor or shield's designated foe, use the table for the {magic-enhancement/bane} weapon special ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** +1 bonus"
 		]
 	},
 	"evolving": {
@@ -257,7 +257,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [evolution surge](spell/evolution_surge); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/evolution surge}; **Price** +1 bonus"
 		]
 	},
 	"fortification": {
@@ -274,7 +274,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** varies"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/limited wish} or {spell/miracle}; **Price** varies"
 		]
 	},
 	"fortification_light": {
@@ -298,7 +298,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [keen edge](spell/keen_edge); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/keen edge}; **Price** +1 bonus"
 		]
 	},
 	"impervious": {
@@ -315,7 +315,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fabricate](spell/fabricate), [make whole](spell/make_whole); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1 bonus"
 		]
 	},
 	"mirrored": {
@@ -332,7 +332,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell turning](spell/spell_turning); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spell turning}; **Price** +1 bonus"
 		]
 	},
 	"poisoning": {
@@ -349,7 +349,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [poison](spell/poison); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/poison}; **Price** +1 bonus"
 		]
 	},
 	"resonating": {
@@ -366,7 +366,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [lend power](rule/marshal_2) ability; **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, [lend power](rule/marshal_2) ability; **Price** +1 bonus"
 		]
 	},
 	"spell_storing": {
@@ -383,7 +383,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a caster of at least 12th level; **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** +1 bonus"
 		]
 	},
 	"spellsink": {
@@ -400,7 +400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dispel magic}; **Price** +1 bonus"
 		]
 	},
 	"stanching": {
@@ -417,7 +417,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stabilize](spell/stabilize), [cure critical wounds](spell/cure_critical_wounds) or [lesser restoration](spell/lesser_restoration); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/stabilize}, {spell/cure critical wounds} or {spell/lesser restoration}; **Price** +1 bonus"
 		]
 	},
 	"terrain-striding": {
@@ -434,7 +434,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resistance](spell/resistance); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resistance}; **Price** +1 bonus"
 		]
 	},
 	"terrain_striding": {
@@ -454,7 +454,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [find traps](spell/find_traps); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/find traps}; **Price** +1 bonus"
 		]
 	},
 	"vouchsafing": {
@@ -471,7 +471,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stoneskin](spell/stoneskin); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/stoneskin}; **Price** +1 bonus"
 		]
 	},
 	"warding": {
@@ -488,7 +488,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [atonement](spell/atonement); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/atonement}; **Price** +1 bonus"
 		]
 	},
 	"withstanding": {
@@ -505,7 +505,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [crushing despair](spell/crushing_despair); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/crushing despair}; **Price** +1 bonus"
 		]
 	},
 	"buoyant_light_armor": {
@@ -522,7 +522,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [water walk](spell/water_walk); **Price** 500 gp (light armor or shield), 1,000 gp (medium or heavy armor)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/water walk}; **Price** 500 gp (light armor or shield), 1,000 gp (medium or heavy armor)"
 		]
 	},
 	"cushioned": {
@@ -539,7 +539,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [feather fall](spell/feather_fall); **Price** 500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather fall}; **Price** 500 gp"
 		]
 	},
 	"buoyant_medium_heavy_armor": {
@@ -570,7 +570,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resize item](spell/resize_item); **Price** 1,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resize item}; **Price** 1,000 gp"
 		]
 	},
 	"poison-resistant": {
@@ -587,7 +587,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [neutralize poison](spell/neutralize_poison); **Price** +1,125 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/neutralize poison}; **Price** +1,125 gp"
 		]
 	},
 	"poison_resistant": {
@@ -606,11 +606,11 @@
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +2,700 gp; **Weight** -",
 			"",
-			"Upon command, a suit of glamered armor changes shape and appearance to assume the form of a normal set of clothing. The armor retains all its properties (including weight) when it is so disguised. Only a [true seeing](spell/true_seeing) spell or similar magic reveals the true nature of the armor when it is disguised.",
+			"Upon command, a suit of glamered armor changes shape and appearance to assume the form of a normal set of clothing. The armor retains all its properties (including weight) when it is so disguised. Only a {spell/true seeing} spell or similar magic reveals the true nature of the armor when it is disguised.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [disguise self](spell/disguise_self); **Price** +1,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}; **Price** +1,350 gp"
 		]
 	},
 	"mental_focus": {
@@ -627,7 +627,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), talismanic implement; **Price** 1,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, talismanic implement; **Price** 1,500 gp"
 		]
 	},
 	"aquadynamic": {
@@ -644,7 +644,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/freedom of movement}; **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
 		]
 	},
 	"jousting": {
@@ -664,7 +664,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must have 5 ranks in Ride; **Price** +1,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must have 5 ranks in Ride; **Price** +1,875 gp"
 		]
 	},
 	"shadow": {
@@ -684,7 +684,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** +1,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +1,875 gp"
 		]
 	},
 	"slick": {
@@ -704,7 +704,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease); **Price** +1,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +1,875 gp"
 		]
 	},
 	"adamant": {
@@ -721,7 +721,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mage armor](spell/mage_armor), [major creation](spell/major_creation); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mage armor}, {spell/major creation}; **Price** +2 bonus"
 		]
 	},
 	"bloodthirsty": {
@@ -738,7 +738,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rage}; **Price** +2 bonus"
 		]
 	},
 	"frosted": {
@@ -755,7 +755,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/chill metal}; **Price** +2 bonus"
 		]
 	},
 	"ghost_spike": {
@@ -772,7 +772,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spiritual weapon](spell/spiritual_weapon); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spiritual weapon}; **Price** +2 bonus"
 		]
 	},
 	"jarring": {
@@ -789,7 +789,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shatter](spell/shatter); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shatter}; **Price** +2 bonus"
 		]
 	},
 	"mind_buttressing": {
@@ -806,7 +806,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [protection from chaos/evil/good/law](spell/protection_from_evil); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [protection from chaos/evil/good/law](spell/protection_from_evil); **Price** +2 bonus"
 		]
 	},
 	"phantasmal": {
@@ -823,7 +823,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shadow projection](spell/shadow_projection); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shadow projection}; **Price** +2 bonus"
 		]
 	},
 	"rampaging": {
@@ -840,7 +840,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [feather step](spell/feather_step), [stone call](spell/stone_call); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather step}, {spell/stone call}; **Price** +2 bonus"
 		]
 	},
 	"shadow_blending": {
@@ -857,7 +857,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shadow walk](spell/shadow_walk); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shadow walk}; **Price** +2 bonus"
 		]
 	},
 	"spell_dodging": {
@@ -874,7 +874,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mage armor](spell/mage_armor); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mage armor}; **Price** +2 bonus"
 		]
 	},
 	"spell_resistance": {
@@ -894,7 +894,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell resistance](spell/spell_resistance); **Price** varies"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spell resistance}; **Price** varies"
 		]
 	},
 	"spell_resistance_13": {
@@ -919,7 +919,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [elemental aura](spell/elemental_aura); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/elemental aura}; **Price** +2 bonus"
 		]
 	},
 	"volcanic": {
@@ -936,7 +936,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [incendiary cloud](spell/incendiary_cloud); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/incendiary cloud}; **Price** +2 bonus"
 		]
 	},
 	"burdenless": {
@@ -953,7 +953,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [effortless armor](spell/effortless_armor); **Price** 2,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/effortless armor}; **Price** 2,000 gp"
 		]
 	},
 	"expeditious": {
@@ -970,7 +970,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [expeditious retreat](spell/expeditious_retreat); **Price** +2,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/expeditious retreat}; **Price** +2,000 gp"
 		]
 	},
 	"amorphous": {
@@ -987,7 +987,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fluid form](spell/fluid_form); **Price** 2,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fluid form}; **Price** 2,250 gp"
 		]
 	},
 	"restful": {
@@ -1004,7 +1004,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [nap stack](spell/nap_stack); **Price** 2,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/nap stack}; **Price** 2,250 gp"
 		]
 	},
 	"cloudburst": {
@@ -1021,7 +1021,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy), [shocking grasp](spell/shocking_grasp); **Price** +5,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}, {spell/shocking grasp}; **Price** +5,000 gp"
 		]
 	},
 	"comfort": {
@@ -1038,7 +1038,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [endure elements](spell/endure_elements), [prestidigitation](spell/prestidigitation); **Price** +2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/endure elements}, {spell/prestidigitation}; **Price** +2,500 gp"
 		]
 	},
 	"corsair": {
@@ -1055,7 +1055,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cat's grace](spell/cats_grace); **Price** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}; **Price** 2,500 gp"
 		]
 	},
 	"creeping": {
@@ -1072,7 +1072,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace), [invisibility](spell/invisibility); **Price** +2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}, {spell/invisibility}; **Price** +2,500 gp"
 		]
 	},
 	"deceiving": {
@@ -1085,11 +1085,11 @@
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Price** +5,000 gp; **Weight** -",
 			"",
-			"A suit of armor with this special ability alters the perceived aura of the wearer for the purpose of divination spells that reveal auras (such as [detect evil](spell/detect_evil)) to an aura decided when the armor is enchanted. The wearer always radiates this alternate alignment aura while wearing a suit of deceiving armor, and cannot suppress this effect. The wearer does not count as having this modified alignment for effects other than detection, such as smite, access to class abilities, and spells that have alternative effects based on a target's alignment. If the wearer is struck by an attack or effect that is more effective against evil-aligned creatures (such as smite, holy word, etc.), the attacker perceives the strike as being far more effective than it actually is. However, with a successful DC 20 Sense Motive check, the attacker realizes something is amiss with the attack.",
+			"A suit of armor with this special ability alters the perceived aura of the wearer for the purpose of divination spells that reveal auras (such as {spell/detect evil}) to an aura decided when the armor is enchanted. The wearer always radiates this alternate alignment aura while wearing a suit of deceiving armor, and cannot suppress this effect. The wearer does not count as having this modified alignment for effects other than detection, such as smite, access to class abilities, and spells that have alternative effects based on a target's alignment. If the wearer is struck by an attack or effect that is more effective against evil-aligned creatures (such as smite, holy word, etc.), the attacker perceives the strike as being far more effective than it actually is. However, with a successful DC 20 Sense Motive check, the attacker realizes something is amiss with the attack.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [nondetection](spell/nondetection), [unholy blight](spell/unholy_blight); **Price** +2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/nondetection}, {spell/unholy blight}; **Price** +2,500 gp"
 		]
 	},
 	"malevolent": {
@@ -1106,7 +1106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [desecrate](spell/desecrate), [doom](spell/doom); **Price** +2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/desecrate}, {spell/doom}; **Price** +2,500 gp"
 		]
 	},
 	"rallying": {
@@ -1123,7 +1123,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [remove fear](spell/remove_fear); **Price** +2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/remove fear}; **Price** +2,500 gp"
 		]
 	},
 	"spirit-bonded": {
@@ -1140,7 +1140,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [call spirit](spell/call_spirit); **Price** 3,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/call spirit}; **Price** 3,000 gp"
 		]
 	},
 	"spirit_bonded": {
@@ -1160,7 +1160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [knock](spell/knock); **Price** 3,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/knock}; **Price** 3,250 gp"
 		]
 	},
 	"adhesive": {
@@ -1177,7 +1177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength), [spider climb](spell/spider_climb); **Price** +3,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}, {spell/spider climb}; **Price** +3,500 gp"
 		]
 	},
 	"spiteful": {
@@ -1194,7 +1194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [haste](spell/haste); **Price** 3,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/haste}; **Price** 3,500 gp"
 		]
 	},
 	"hosteling": {
@@ -1217,7 +1217,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [secret chest](spell/secret_chest); **Price** +3,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/secret chest}; **Price** +3,750 gp"
 		]
 	},
 	"radiant": {
@@ -1234,7 +1234,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [daylight](spell/daylight); **Price** +3,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/daylight}; **Price** +3,750 gp"
 		]
 	},
 	"trackless": {
@@ -1251,7 +1251,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [pass without trace](spell/pass_without_trace); **Price** 3,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/pass without trace}; **Price** 3,750 gp"
 		]
 	},
 	"arrow-collecting": {
@@ -1268,7 +1268,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [entropic shield](spell/entropic_shield), [telekinesis](spell/telekinesis); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/entropic shield}, {spell/telekinesis}; **Price** +3 bonus"
 		]
 	},
 	"arrow_collecting": {
@@ -1288,7 +1288,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}; **Price** +3 bonus"
 		]
 	},
 	"cotraveling": {
@@ -1305,7 +1305,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/plane shift}; **Price** +3 bonus"
 		]
 	},
 	"fortification_moderate": {
@@ -1332,7 +1332,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [etherealness](spell/etherealness); **Price** +3 bonus",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/etherealness}; **Price** +3 bonus",
 			"",
 			"See also: [ghost touch weapon enhancement](magic-enhancement/ghost_touch_weapon)"
 		]
@@ -1357,7 +1357,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stoneskin](spell/stoneskin), [wish](spell/wish) or [miracle](spell/miracle); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/stoneskin}, {spell/wish} or {spell/miracle}; **Price** +3 bonus"
 		]
 	},
 	"sensing": {
@@ -1374,7 +1374,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true seeing](spell/true_seeing); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/true seeing}; **Price** +3 bonus"
 		]
 	},
 	"spell_resistance_15": {
@@ -1395,7 +1395,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enlarge person}; **Price** +3 bonus"
 		]
 	},
 	"wild": {
@@ -1415,7 +1415,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [baleful polymorph](spell/baleful_polymorph); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/baleful polymorph}; **Price** +3 bonus"
 		]
 	},
 	"phase_lurching": {
@@ -1432,7 +1432,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [phase door](spell/phase_door); **Price** 4,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/phase door}; **Price** 4,550 gp"
 		]
 	},
 	"delving": {
@@ -1452,7 +1452,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [soften earth and stone](spell/soften_earth_and_stone); **Price** +5,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/soften earth and stone}; **Price** +5,000 gp"
 		]
 	},
 	"putrid": {
@@ -1465,11 +1465,11 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** armor quality; **Price** +10,000 gp; **Weight** -",
 			"",
-			"Putrid armor gives off a revolting, stomach-twisting stench. Each living creatures within 10 feet of the wearer must succeed at a DC 14 Fortitude save or be sickened for 5 rounds. This is a poison effect. Creatures that successfully save cannot be affected by the same armor's stench for 24 hours. Creatures with the [stench](umr/stench) universal monster ability or immunity to poison are unaffected. The wearer of putrid armor is immune to his own stench, but not to stench-based effects from other sources. The stench can be suppressed or resumed on command, but it takes 1 minute for an active stench to dissipate. Dissipation time increases to 10 minutes in a closed area or if no wind is blowing, and decreases to 3 rounds in moderate wind or 1 round in strong wind.",
+			"Putrid armor gives off a revolting, stomach-twisting stench. Each living creatures within 10 feet of the wearer must succeed at a DC 14 Fortitude save or be sickened for 5 rounds. This is a poison effect. Creatures that successfully save cannot be affected by the same armor's stench for 24 hours. Creatures with the {umr/stench} universal monster ability or immunity to poison are unaffected. The wearer of putrid armor is immune to his own stench, but not to stench-based effects from other sources. The stench can be suppressed or resumed on command, but it takes 1 minute for an active stench to dissipate. Dissipation time increases to 10 minutes in a closed area or if no wind is blowing, and decreases to 3 rounds in moderate wind or 1 round in strong wind.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stinking cloud](spell/stinking_cloud); **Price** +5,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/stinking cloud}; **Price** +5,000 gp"
 		]
 	},
 	"harmonizing": {
@@ -1490,7 +1490,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major image](spell/major_image) or bardic performance; **Price** +7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major image} or bardic performance; **Price** +7,500 gp"
 		]
 	},
 	"improved_aquadynamic": {
@@ -1511,7 +1511,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fly](spell/fly); **Price** 7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fly}; **Price** 7,500 gp"
 		]
 	},
 	"shadow_improved": {
@@ -1531,7 +1531,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** +7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +7,500 gp"
 		]
 	},
 	"improved_shadow": {
@@ -1554,7 +1554,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease); **Price** +7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +7,500 gp"
 		]
 	},
 	"improved_slick": {
@@ -1574,7 +1574,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [delay poison](spell/delay_poison), [poison](spell/poison); **Price** 7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/delay poison}, {spell/poison}; **Price** 7,500 gp"
 		]
 	},
 	"venom_eating": {
@@ -1594,7 +1594,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [limited wish](spell/limited_wish) or [miracle](spell/miracle); **Price** +4 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/limited wish} or {spell/miracle}; **Price** +4 bonus"
 		]
 	},
 	"spell_resistance_17": {
@@ -1618,7 +1618,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** +9,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +9,000 gp"
 		]
 	},
 	"martyring": {
@@ -1635,7 +1635,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mass cure light wounds](spell/mass_cure_light_wounds); **Price** +9,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mass cure light wounds}; **Price** +9,000 gp"
 		]
 	},
 	"dread_wing": {
@@ -1652,7 +1652,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fly](spell/fly), [iron body](spell/iron_body); **Price** +5 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fly}, {spell/iron body}; **Price** +5 bonus"
 		]
 	},
 	"fortification_heavy": {
@@ -1680,7 +1680,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [breath of life](spell/breath_of_life), [shatter](spell/shatter); **Price** +5 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/breath of life}, {spell/shatter}; **Price** +5 bonus"
 		]
 	},
 	"righteous": {
@@ -1700,7 +1700,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might); **Price** +13,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/righteous might}; **Price** +13,500 gp"
 		]
 	},
 	"unbound": {
@@ -1717,7 +1717,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might), creator must be chaotic; **Price** +13,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/righteous might}, creator must be chaotic; **Price** +13,500 gp"
 		]
 	},
 	"unrighteous": {
@@ -1737,7 +1737,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might); **Price** +13,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/righteous might}; **Price** +13,500 gp"
 		]
 	},
 	"vigilant": {
@@ -1754,7 +1754,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [righteous might](spell/righteous_might), creator must be lawful; **Price** +13,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/righteous might}, creator must be lawful; **Price** +13,500 gp"
 		]
 	},
 	"determination": {
@@ -1774,7 +1774,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [breath of life](spell/breath_of_life); **Price** +15,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/breath of life}; **Price** +15,000 gp"
 		]
 	},
 	"greater_aquadynamic": {
@@ -1798,7 +1798,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** +16,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +16,875 gp"
 		]
 	},
 	"greater_shadow": {
@@ -1821,7 +1821,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease); **Price** +16,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +16,875 gp"
 		]
 	},
 	"greater_slick": {
@@ -1844,7 +1844,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** +21,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +21,000 gp"
 		]
 	},
 	"improved_energy_resistance": {
@@ -1867,7 +1867,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ethereal jaunt](spell/ethereal_jaunt); **Price** +24,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/ethereal jaunt}; **Price** +24,500 gp"
 		]
 	},
 	"undead_controlling": {
@@ -1887,7 +1887,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [control undead](spell/control_undead); **Price** +24,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/control undead}; **Price** +24,500 gp"
 		]
 	},
 	"energy_resistance_greater": {
@@ -1907,7 +1907,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** +33,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +33,000 gp"
 		]
 	},
 	"greater_energy_resistance": {
@@ -1930,7 +1930,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [entropic shield](spell/entropic_shield); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/entropic shield}; **Price** +1 bonus"
 		]
 	},
 	"assiduous": {
@@ -1947,7 +1947,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [lock gaze](spell/lock_gaze), [mirror polish](spell/mirror_polish); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/lock gaze}, {spell/mirror polish}; **Price** +1 bonus"
 		]
 	},
 	"bashing": {
@@ -1967,7 +1967,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}; **Price** +1 bonus"
 		]
 	},
 	"blinding": {
@@ -1987,7 +1987,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [searing light](spell/searing_light); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/searing light}; **Price** +1 bonus"
 		]
 	},
 	"clangorous": {
@@ -2004,7 +2004,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [deafness](spell/blindness_deafness), [sound burst](spell/sound_burst); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [deafness](spell/blindness_deafness), {spell/sound burst}; **Price** +1 bonus"
 		]
 	},
 	"folding": {
@@ -2021,7 +2021,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [instant summons](spell/instant_summons), [masterwork transformation](spell/masterwork_transformation); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/instant summons}, {spell/masterwork transformation}; **Price** +1 bonus"
 		]
 	},
 	"guarding": {
@@ -2038,7 +2038,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield other](spell/shield_other); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield other}; **Price** +1 bonus"
 		]
 	},
 	"heraldric": {
@@ -2055,7 +2055,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heroism}; **Price** +1 bonus"
 		]
 	},
 	"ramming": {
@@ -2072,7 +2072,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [force punch](spell/force_punch); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/force punch}; **Price** +1 bonus"
 		]
 	},
 	"rebounding": {
@@ -2089,7 +2089,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield](spell/shield); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield}; **Price** +1 bonus"
 		]
 	},
 	"singing": {
@@ -2106,7 +2106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [sound burst](spell/sound_burst); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/sound burst}; **Price** +1 bonus"
 		]
 	},
 	"spellrending": {
@@ -2123,7 +2123,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell absorption](spell/spell_absorption); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spell absorption}; **Price** +1 bonus"
 		]
 	},
 	"buoyant_shield": {
@@ -2148,7 +2148,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/animate objects}; **Price** +2 bonus"
 		]
 	},
 	"arrow_deflection": {
@@ -2164,11 +2164,11 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** shield quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"This shield protects the wielder as if he had the [Deflect Arrows](feat/deflect_arrows) feat. Once per round when he would normally be struck by a ranged weapon, he can make a DC 20 Reflex save. If the ranged weapon (or piece of ammunition) has an enhancement bonus, the DC increases by that amount. If he succeeds, the shield deflects the weapon. He must be aware of the attack and not flat-footed. Attempting to deflect a ranged weapon doesn't count as an action. Exceptional ranged weapons, such as boulders hurled by giants or acid arrows, can't be deflected.",
+			"This shield protects the wielder as if he had the {feat/Deflect Arrows} feat. Once per round when he would normally be struck by a ranged weapon, he can make a DC 20 Reflex save. If the ranged weapon (or piece of ammunition) has an enhancement bonus, the DC increases by that amount. If he succeeds, the shield deflects the weapon. He must be aware of the attack and not flat-footed. Attempting to deflect a ranged weapon doesn't count as an action. Exceptional ranged weapons, such as boulders hurled by giants or acid arrows, can't be deflected.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shield; **Price** +2 bonus"
 		]
 	},
 	"guarding_greater": {
@@ -2185,7 +2185,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield other](spell/shield_other); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield other}; **Price** +2 bonus"
 		]
 	},
 	"greater_guarding": {
@@ -2209,7 +2209,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [inflict critical wounds](spell/inflict_critical_wounds); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/inflict critical wounds}; **Price** +2 bonus"
 		]
 	},
 	"mastering": {
@@ -2222,11 +2222,11 @@
 			"**Aura** strong conjuration and transmutation; **CL** 13th  ",
 			"**Slot** shield quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"A character with the weapon training class feature who wields a mastering shield applies his highest weapon training bonus on attack rolls and damage rolls for shield bashes made with the shield. If the character already has weapon training with the close weapon group as his highest weapon mastery, he instead applies any of the following feats he has for other weapons to attacks performed with the shield: [Greater Weapon Focus](feat/greater_weapon_focus), [Greater Weapon Specialization](feat/greater_weapon_specialization), [Weapon Focus](feat/weapon_focus), and [Weapon Specialization](feat/weapon_specialization). A character with the weapon mastery class feature applies weapon mastery to attacks with a mastering shield. A character without weapon training gains no benefit.",
+			"A character with the weapon training class feature who wields a mastering shield applies his highest weapon training bonus on attack rolls and damage rolls for shield bashes made with the shield. If the character already has weapon training with the close weapon group as his highest weapon mastery, he instead applies any of the following feats he has for other weapons to attacks performed with the shield: {feat/Greater Weapon Focus}, {feat/Greater Weapon Specialization}, {feat/Weapon Focus}, and {feat/Weapon Specialization}. A character with the weapon mastery class feature applies weapon mastery to attacks with a mastering shield. A character without weapon training gains no benefit.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [transformation](spell/transformation); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/transformation}; **Price** +2 bonus"
 		]
 	},
 	"merging": {
@@ -2243,7 +2243,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [versatile weapon](spell/versatile_weapon); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/versatile weapon}; **Price** +2 bonus"
 		]
 	},
 	"weeping": {
@@ -2260,7 +2260,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [crushing despair](spell/crushing_despair); **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/crushing despair}; **Price** +2 bonus"
 		]
 	},
 	"wyrmsbreath": {
@@ -2277,7 +2277,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [burning hands](spell/burning_hands); **Price** +2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/burning hands}; **Price** +2,500 gp"
 		]
 	},
 	"deflecting": {
@@ -2294,7 +2294,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [deflection](spell/deflection); **Price** +3 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/deflection}; **Price** +3 bonus"
 		]
 	},
 	"bastion": {
@@ -2311,7 +2311,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mind blank](spell/mind_blank); **Price** +4 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mind blank}; **Price** +4 bonus"
 		]
 	},
 	"channeling": {
@@ -2328,7 +2328,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure](spell/cure_moderate_wounds)/[inflict moderate wounds](spell/inflict_moderate_wounds), creator must be able to channel energy; **Price** +9,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [cure](spell/cure_moderate_wounds)/{spell/inflict moderate wounds}, creator must be able to channel energy; **Price** +9,000 gp"
 		]
 	},
 	"reflecting": {
@@ -2348,7 +2348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spell turning](spell/spell_turning); **Price** +5 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spell turning}; **Price** +5 bonus"
 		]
 	},
 	"shrinking": {
@@ -2365,7 +2365,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shrink item](spell/shrink_item); **Price** +500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shrink item}; **Price** +500 gp"
 		]
 	},
 	"agile": {
@@ -2381,11 +2381,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"A character with [Weapon Finesse](feat/weapon_finesse) can apply her Dexterity modifier to damage rolls with an agile weapon in place of her Strength modifier. This modifier to damage is not increased for two-handed weapons, but is still reduced for off-hand weapons. This weapon special ability can be placed only on melee weapons usable with Weapon Finesse.",
+			"A character with {feat/Weapon Finesse} can apply her Dexterity modifier to damage rolls with an agile weapon in place of her Strength modifier. This modifier to damage is not increased for two-handed weapons, but is still reduced for off-hand weapons. This weapon special ability can be placed only on melee weapons usable with Weapon Finesse.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -"
 		]
 	},
 	"allying": {
@@ -2405,7 +2405,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic weapon](spell/magic_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/magic weapon}; **Price** -"
 		]
 	},
 	"answering": {
@@ -2422,7 +2422,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [good hope](spell/good_hope), creator must have the opportune parry and riposte deed; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/good hope}, creator must have the opportune parry and riposte deed; **Price** -"
 		]
 	},
 	"bane": {
@@ -2458,7 +2458,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
 		]
 	},
 	"benevolent_weapon": {
@@ -2475,7 +2475,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aid](spell/aid); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** -"
 		]
 	},
 	"bewildering": {
@@ -2492,7 +2492,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [confusion](spell/confusion); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/confusion}; **Price** -"
 		]
 	},
 	"blood-hunting": {
@@ -2523,7 +2523,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
 		]
 	},
 	"blood_hunting": {
@@ -2543,7 +2543,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [keen edge](spell/keen_edge), creator must have the raging song class feature; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/keen edge}, creator must have the raging song class feature; **Price** -"
 		]
 	},
 	"brawling_weapon": {
@@ -2560,7 +2560,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Trip](feat/improved_trip), [guidance](spell/guidance); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Improved Trip}, {spell/guidance}; **Price** -"
 		]
 	},
 	"breaking": {
@@ -2577,7 +2577,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break](spell/break) or [shatter](spell/shatter); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/break} or {spell/shatter}; **Price** -"
 		]
 	},
 	"called": {
@@ -2594,7 +2594,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [teleport](spell/teleport); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/teleport}; **Price** -"
 		]
 	},
 	"catalytic": {
@@ -2611,7 +2611,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [acid arrow](spell/acid_arrow); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/acid arrow}; **Price** -"
 		]
 	},
 	"compassionate": {
@@ -2628,7 +2628,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [stabilize](spell/stabilize); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/stabilize}; **Price** -"
 		]
 	},
 	"conductive": {
@@ -2648,7 +2648,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spectral hand](spell/spectral_hand); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spectral hand}; **Price** -"
 		]
 	},
 	"confounding": {
@@ -2665,7 +2665,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [eagle's splendor](spell/eagles_splendor); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/eagle's splendor}; **Price** -"
 		]
 	},
 	"corrosive": {
@@ -2685,7 +2685,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [acid arrow](spell/acid_arrow); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/acid arrow}; **Price** -"
 		]
 	},
 	"countering": {
@@ -2702,7 +2702,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Combat Reflexes](feat/combat_reflexes), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** -"
+			"**Requirements** {feat/Combat Reflexes}, {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -"
 		]
 	},
 	"courageous": {
@@ -2719,7 +2719,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism), [remove fear](spell/remove_fear); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heroism}, {spell/remove fear}; **Price** -"
 		]
 	},
 	"cruel": {
@@ -2739,7 +2739,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cause fear](spell/cause_fear), [death knell](spell/death_knell); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cause fear}, {spell/death knell}; **Price** -"
 		]
 	},
 	"cunning": {
@@ -2759,7 +2759,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true strike](spell/true_strike); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/true strike}; **Price** -"
 		]
 	},
 	"dazzling_radiance": {
@@ -2772,11 +2772,11 @@
 			"**Aura** moderate illusion; **CL** 7th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
-			"This special weapon ability can be placed on only melee weapons. When a character wielding a dazzling radiance weapon uses the [Dazzling Display](feat/dazzling_display) feat, the weapon flashes in a burst of bright color. All creatures within 15 feet of the wielder who can see the display must attempt a DC 17 Fortitude save. Those who fail are blinded for 2 rounds and dazzled for an additional 1d4 rounds; those who succeed are instead dazzled for 1d4 rounds.",
+			"This special weapon ability can be placed on only melee weapons. When a character wielding a dazzling radiance weapon uses the {feat/Dazzling Display} feat, the weapon flashes in a burst of bright color. All creatures within 15 feet of the wielder who can see the display must attempt a DC 17 Fortitude save. Those who fail are blinded for 2 rounds and dazzled for an additional 1d4 rounds; those who succeed are instead dazzled for 1d4 rounds.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [color spray](spell/color_spray); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/color spray}; **Price** -"
 		]
 	},
 	"deadly": {
@@ -2796,7 +2796,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [inflict light wounds](spell/inflict_light_wounds); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/inflict light wounds}; **Price** -"
 		]
 	},
 	"debilitating": {
@@ -2815,7 +2815,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bestow curse](spell/bestow_curse), creator must have 5 ranks in Heal; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bestow curse}, creator must have 5 ranks in Heal; **Price** -"
 		]
 	},
 	"deceptive": {
@@ -2832,7 +2832,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dazzling blade](spell/dazzling_blade); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dazzling blade}; **Price** -"
 		]
 	},
 	"defending": {
@@ -2852,7 +2852,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shield](spell/shield) or [shield of faith](spell/shield_of_faith); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield} or {spell/shield of faith}; **Price** -"
 		]
 	},
 	"disjoining": {
@@ -2869,7 +2869,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [mythic severance](spell/mythic_severance); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/mythic severance}; **Price** -"
 		]
 	},
 	"dispelling": {
@@ -2886,7 +2886,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic), creator must be a caster of at least 10th level; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dispel magic}, creator must be a caster of at least 10th level; **Price** -"
 		]
 	},
 	"distracting": {
@@ -2903,7 +2903,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [qualm](spell/qualm); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/qualm}; **Price** -"
 		]
 	},
 	"drowscourge": {
@@ -2916,11 +2916,11 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"Invented by the [Lantern Bearers](rule/aff_lights), this enhancement can be added to a magic weapon with at least a +1 bonus. Against driders and creatures with the drow subtype, the weapon's enhancement bonus is +1 better. The bearer is able to detect drow once per day (similar to [detect animals or plants](spell/detect_animals_or_plants)) and gain darkvision (as the spell) once per day.",
+			"Invented by the [Lantern Bearers](rule/aff_lights), this enhancement can be added to a magic weapon with at least a +1 bonus. Against driders and creatures with the drow subtype, the weapon's enhancement bonus is +1 better. The bearer is able to detect drow once per day (similar to {spell/detect animals or plants}) and gain darkvision (as the spell) once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [darkvision](spell/darkvision), [detect evil](spell/detect_evil), [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/darkvision}, {spell/detect evil}, [summon monster I](spell/summon_monster_1); **Price** -"
 		]
 	},
 	"dueling_psfg": {
@@ -2937,7 +2937,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -"
 		]
 	},
 	"dueling_pfsg": {
@@ -2959,7 +2959,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [vampiric touch](spell/vampiric_touch); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/vampiric touch}; **Price** -"
 		]
 	},
 	"fate_stealing": {
@@ -2981,7 +2981,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [align weapon](spell/align_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/align weapon}; **Price** -"
 		]
 	},
 	"flamboyant": {
@@ -3000,7 +3000,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism), creator must be a panache user; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heroism}, creator must be a panache user; **Price** -"
 		]
 	},
 	"flaming": {
@@ -3020,7 +3020,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [fireball](spell/fireball), [flame blade](spell/flame_blade), or [flame strike](spell/flame_strike); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor} and {spell/fireball}, {spell/flame blade}, or {spell/flame strike}; **Price** -"
 		]
 	},
 	"fortuitous": {
@@ -3037,7 +3037,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [haste](spell/haste); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/haste}; **Price** -"
 		]
 	},
 	"frost": {
@@ -3057,7 +3057,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal) or [ice storm](spell/ice_storm); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/chill metal} or {spell/ice storm}; **Price** -"
 		]
 	},
 	"furious": {
@@ -3077,7 +3077,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rage}; **Price** -"
 		]
 	},
 	"ghost_touch_weapon": {
@@ -3097,7 +3097,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** -",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/plane shift}; **Price** -",
 			"",
 			"See also: [ghost touch armor enhancement](magic-enhancement/ghost_touch_armor)"
 		]
@@ -3115,11 +3115,11 @@
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This weapon responds to channeled positive and negative energy. When the wielder spends a swift action to channel energy through the weapon, it ignites with a strange gray flame that sheds light as a torch, increases the weapon's enhancement bonus by +1, and deals +1d6 damage (as the divine power from [flame strike](spell/flame_strike)) to creatures struck by the weapon. This flame lasts for 1 round for every d6 of damage or healing the channeling normally provides. When charged with positive energy, the flame is a silvery gray, good creatures are immune to the weapon's extra damage, and the weapon counts as a good and silver weapon for the purpose of bypassing damage reduction. When charged with negative energy, the flame is an ashen gray, evil creatures are immune to the weapon's extra damage, and the weapon counts as an evil and cold iron weapon for the purpose of bypassing damage reduction. This special ability can only be placed on melee weapons.",
+			"This weapon responds to channeled positive and negative energy. When the wielder spends a swift action to channel energy through the weapon, it ignites with a strange gray flame that sheds light as a torch, increases the weapon's enhancement bonus by +1, and deals +1d6 damage (as the divine power from {spell/flame strike}) to creatures struck by the weapon. This flame lasts for 1 round for every d6 of damage or healing the channeling normally provides. When charged with positive energy, the flame is a silvery gray, good creatures are immune to the weapon's extra damage, and the weapon counts as a good and silver weapon for the purpose of bypassing damage reduction. When charged with negative energy, the flame is an ashen gray, evil creatures are immune to the weapon's extra damage, and the weapon counts as an evil and cold iron weapon for the purpose of bypassing damage reduction. This special ability can only be placed on melee weapons.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Channel Smite](feat/channel_smite), [align weapon](spell/align_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Channel Smite}, {spell/align weapon}; **Price** -"
 		]
 	},
 	"grounding": {
@@ -3136,7 +3136,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shocking grasp](spell/shocking_grasp); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shocking grasp}; **Price** -"
 		]
 	},
 	"growing": {
@@ -3153,7 +3153,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enlarge person}; **Price** -"
 		]
 	},
 	"guardian": {
@@ -3169,13 +3169,13 @@
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A guardian weapon allows the wielder to transfer some or all of the weapon's enhancement bonus to his saving throws as a bonus that stacks with all others. As a free action, the wielder chooses how to allocate the weapon's enhancement bonus at the start of his turn before using the weapon. The bonus on saving throws lasts until his next turn. Only the weapon's own enhancement bonus can be sacrificed, not any enhancement bonus provided by other effects such as a [greater magic weapon](spell/greater_magic_weapon) spell. However, the total of such effects is still diminished by the amount allocated to improving saving throws.",
+			"This special ability can only be placed on melee weapons. A guardian weapon allows the wielder to transfer some or all of the weapon's enhancement bonus to his saving throws as a bonus that stacks with all others. As a free action, the wielder chooses how to allocate the weapon's enhancement bonus at the start of his turn before using the weapon. The bonus on saving throws lasts until his next turn. Only the weapon's own enhancement bonus can be sacrificed, not any enhancement bonus provided by other effects such as a {spell/greater magic weapon} spell. However, the total of such effects is still diminished by the amount allocated to improving saving throws.",
 			"",
 			"If a weapon has both the defending and guardian abilities, allocating a single point of enhancement bonus increases either AC or saving throws, but not both.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resistance](spell/resistance); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resistance}; **Price** -"
 		]
 	},
 	"guided": {
@@ -3192,7 +3192,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spiritual weapon](spell/spiritual_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spiritual weapon}; **Price** -"
 		]
 	},
 	"heartseeker": {
@@ -3209,7 +3209,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [death knell](spell/death_knell); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/death knell}; **Price** -"
 		]
 	},
 	"huntsman": {
@@ -3229,7 +3229,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [detect animals or plants](spell/detect_animals_or_plants); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/detect animals or plants}; **Price** -"
 		]
 	},
 	"injecting": {
@@ -3246,7 +3246,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [delay poison](spell/delay_poison); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/delay poison}; **Price** -"
 		]
 	},
 	"inspired": {
@@ -3263,7 +3263,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [good hope](spell/good_hope); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/good hope}; **Price** -"
 		]
 	},
 	"jurist": {
@@ -3283,7 +3283,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [owl's wisdom](spell/owls_wisdom); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/owl's wisdom}; **Price** -"
 		]
 	},
 	"keen": {
@@ -3299,11 +3299,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This ability doubles the threat range of a weapon. Only piercing or slashing melee weapons can be keen. If you roll this special ability randomly for an inappropriate weapon, reroll. This benefit doesn't stack with any other effects that expand the threat range of a weapon (such as the keen edge spell or the [Improved Critical](feat/improved_critical) feat).",
+			"This ability doubles the threat range of a weapon. Only piercing or slashing melee weapons can be keen. If you roll this special ability randomly for an inappropriate weapon, reroll. This benefit doesn't stack with any other effects that expand the threat range of a weapon (such as the keen edge spell or the {feat/Improved Critical} feat).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [keen edge](spell/keen_edge); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/keen edge}; **Price** -"
 		]
 	},
 	"ki_focus": {
@@ -3319,11 +3319,11 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on melee weapons. The magic weapon serves as a channel for the wielder's ki, allowing her to use her special ki attacks through the weapon as if they were unarmed attacks. These attacks include the monk's ki strike, quivering palm, and the [Stunning Fist](feat/stunning_fist) feat (including any condition that the monk can apply using this feat).",
+			"This special ability can be placed only on melee weapons. The magic weapon serves as a channel for the wielder's ki, allowing her to use her special ki attacks through the weapon as if they were unarmed attacks. These attacks include the monk's ki strike, quivering palm, and the {feat/Stunning Fist} feat (including any condition that the monk can apply using this feat).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a monk; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a monk; **Price** -"
 		]
 	},
 	"kinslayer": {
@@ -3340,7 +3340,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [detect relations](spell/detect_relations); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/detect relations}; **Price** -"
 		]
 	},
 	"leveraging": {
@@ -3357,7 +3357,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enlarge person}; **Price** -"
 		]
 	},
 	"limning": {
@@ -3374,7 +3374,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [faerie fire](spell/faerie_fire); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/faerie fire}; **Price** -"
 		]
 	},
 	"menacing": {
@@ -3394,7 +3394,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [phantasmal killer](spell/phantasmal_killer); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/phantasmal killer}; **Price** -"
 		]
 	},
 	"merciful": {
@@ -3414,7 +3414,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure light wounds](spell/cure_light_wounds); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cure light wounds}; **Price** -"
 		]
 	},
 	"mighty_cleaving": {
@@ -3430,11 +3430,11 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A mighty cleaving weapon allows a wielder using the [Cleave](feat/cleave) feat to make one additional attack if the first attack hits, as long as the next foe is adjacent to the first and also within reach. This additional attack cannot be against the first foe.",
+			"This special ability can only be placed on melee weapons. A mighty cleaving weapon allows a wielder using the {feat/Cleave} feat to make one additional attack if the first attack hits, as long as the next foe is adjacent to the first and also within reach. This additional attack cannot be against the first foe.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [divine power](spell/divine_power); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/divine power}; **Price** -"
 		]
 	},
 	"mimetic": {
@@ -3451,7 +3451,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resist energy](spell/resist_energy); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** -"
 		]
 	},
 	"miserable": {
@@ -3468,7 +3468,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
 		]
 	},
 	"mythic_bane": {
@@ -3485,7 +3485,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [divine favor](spell/divine_favor); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/divine favor}; **Price** -"
 		]
 	},
 	"neutralizing": {
@@ -3502,7 +3502,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [purify food and drink](spell/purify_food_and_drink); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/purify food and drink}; **Price** -"
 		]
 	},
 	"ominous": {
@@ -3519,7 +3519,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [doom](spell/doom) or [scare](spell/scare); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/doom} or {spell/scare}; **Price** -"
 		]
 	},
 	"patriotic": {
@@ -3538,7 +3538,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
 		]
 	},
 	"pitfall": {
@@ -3555,7 +3555,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Initiative](feat/improved_initiative), [cat's grace](spell/cats_grace); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Improved Initiative}, {spell/cat's grace}; **Price** -"
 		]
 	},
 	"planar": {
@@ -3572,7 +3572,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [plane shift](spell/plane_shift); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/plane shift}; **Price** -"
 		]
 	},
 	"quenching": {
@@ -3589,7 +3589,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/chill metal}; **Price** -"
 		]
 	},
 	"rusting": {
@@ -3606,7 +3606,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rusting grasp](spell/rusting_grasp); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rusting grasp}; **Price** -"
 		]
 	},
 	"sacred": {
@@ -3625,7 +3625,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [imbue with spell ability](spell/imbue_with_spell_ability); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/imbue with spell ability}; **Price** -"
 		]
 	},
 	"sapping": {
@@ -3642,7 +3642,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [pain strike](spell/pain_strike), [touch of fatigue](spell/touch_of_fatigue); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/pain strike}, {spell/touch of fatigue}; **Price** -"
 		]
 	},
 	"seaborne": {
@@ -3659,7 +3659,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement), [touch of the sea](spell/touch_of_the_sea); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/freedom of movement}, {spell/touch of the sea}; **Price** -"
 		]
 	},
 	"shock": {
@@ -3679,7 +3679,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [call lightning](spell/call_lightning) or [lightning bolt](spell/lightning_bolt); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/call lightning} or {spell/lightning bolt}; **Price** -"
 		]
 	},
 	"skewering": {
@@ -3696,7 +3696,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [true strike](spell/true_strike); **Price** -"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/true strike}; **Price** -"
 		]
 	},
 	"slithering": {
@@ -3713,7 +3713,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fluid form](spell/fluid_form); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fluid form}; **Price** -"
 		]
 	},
 	"smashing": {
@@ -3730,7 +3730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}; **Price** -"
 		]
 	},
 	"spell_storing_weapon": {
@@ -3752,7 +3752,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a caster of at least 12th level; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** -"
 		]
 	},
 	"spirit-hunting": {
@@ -3782,7 +3782,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_natures_ally_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon nature's ally I](spell/summon_natures_ally_1); **Price** -"
 		]
 	},
 	"spirit_hunting": {
@@ -3802,7 +3802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Improved Steal](feat/improved_steal), [spider climb](spell/spider_climb); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Improved Steal}, {spell/spider climb}; **Price** -"
 		]
 	},
 	"summon_bane": {
@@ -3819,7 +3819,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** -"
 		]
 	},
 	"thawing": {
@@ -3836,7 +3836,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heat metal](spell/heat_metal); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heat metal}; **Price** -"
 		]
 	},
 	"throwing": {
@@ -3856,7 +3856,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic stone](spell/magic_stone); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/magic stone}; **Price** -"
 		]
 	},
 	"thundering": {
@@ -3876,7 +3876,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [blindness/deafness](spell/blindness_deafness); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [blindness/deafness](spell/blindness_deafness); **Price** -"
 		]
 	},
 	"training": {
@@ -3893,7 +3893,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic weapon](spell/magic_weapon), creator must have the chosen combat feat and its prerequisites; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/magic weapon}, creator must have the chosen combat feat and its prerequisites; **Price** -"
 		]
 	},
 	"unaligned": {
@@ -3906,11 +3906,11 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"Typically forged by aeons or other creatures that eschew commonly held structures of morality, unaligned weapons quell the effects of extreme alignments on the wielder. The wielder counts her Hit Dice as 4 lower than her actual total HD when someone attempts to detect her alignment using [detect chaos](spell/detect_chaos), [detect evil](spell/detect_evil), [detect good](spell/detect_good), [detect law](spell/detect_law), or similar spells or effects. Furthermore, if the wielder is an outsider and is targeted by a spell or effect with an alignment descriptor that deals additional damage to or has an additional effect on outsiders (such as [holy smite](spell/holy_smite)), she adds a bonus equal to the unaligned weapon's enhancement bonus on saving throws she attempts against that spell or effect. Finally, the wielder takes no penalties on her Charisma-, Intelligence-, or Wisdom-based checks from a plane's mildly aligned or strongly aligned traits, regardless of her actual alignment.",
+			"Typically forged by aeons or other creatures that eschew commonly held structures of morality, unaligned weapons quell the effects of extreme alignments on the wielder. The wielder counts her Hit Dice as 4 lower than her actual total HD when someone attempts to detect her alignment using {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, or similar spells or effects. Furthermore, if the wielder is an outsider and is targeted by a spell or effect with an alignment descriptor that deals additional damage to or has an additional effect on outsiders (such as {spell/holy smite}), she adds a bonus equal to the unaligned weapon's enhancement bonus on saving throws she attempts against that spell or effect. Finally, the wielder takes no penalties on her Charisma-, Intelligence-, or Wisdom-based checks from a plane's mildly aligned or strongly aligned traits, regardless of her actual alignment.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [undetectable alignment](spell/undetectable_alignment); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/undetectable alignment}; **Price** -"
 		]
 	},
 	"underwater": {
@@ -3927,7 +3927,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [freedom of movement](spell/freedom_of_movement); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/freedom of movement}; **Price** -"
 		]
 	},
 	"valiant": {
@@ -3944,7 +3944,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true strike](spell/true_strike); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/true strike}; **Price** -"
 		]
 	},
 	"vampiric": {
@@ -3966,7 +3966,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure moderate wounds](spell/cure_moderate_wounds), [inflict moderate wounds](spell/inflict_moderate_wounds), [vampiric touch](spell/vampiric_touch); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cure moderate wounds}, {spell/inflict moderate wounds}, {spell/vampiric touch}; **Price** -"
 		]
 	},
 	"vicious": {
@@ -3986,7 +3986,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enervation](spell/enervation); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enervation}; **Price** -"
 		]
 	},
 	"virulent": {
@@ -4003,7 +4003,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [pernicious poison](spell/pernicious_poison); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/pernicious poison}; **Price** -"
 		]
 	},
 	"prehensile": {
@@ -4020,7 +4020,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rope trick](spell/rope_trick); **Price** 1,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rope trick}; **Price** 1,250 gp"
 		]
 	},
 	"concealed_lesser": {
@@ -4037,7 +4037,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation) ; **Price** 1,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation} ; **Price** 1,500 gp"
 		]
 	},
 	"lesser_concealed": {
@@ -4057,7 +4057,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [fabricate](spell/fabricate), [make whole](spell/make_whole); **Price** +1,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1,500 gp"
 		]
 	},
 	"exclusionary": {
@@ -4074,7 +4074,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Selective Channeling](feat/selective_channeling), [sanctuary](spell/sanctuary); **Price** 1,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Selective Channeling}, {spell/sanctuary}; **Price** 1,875 gp"
 		]
 	},
 	"glamered_weapon": {
@@ -4091,7 +4091,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [disguise self](spell/disguise_self), [magic aura](spell/magic_aura); **Price** +2,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}, {spell/magic aura}; **Price** +2,000 gp"
 		]
 	},
 	"resizing": {
@@ -4108,7 +4108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [resize item](spell/resize_item); **Price** 2,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resize item}; **Price** 2,000 gp"
 		]
 	},
 	"sacrosanct": {
@@ -4127,7 +4127,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), the crafter must be able to channel energy; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, the crafter must be able to channel energy; **Price** -"
 		]
 	},
 	"sneaky": {
@@ -4144,7 +4144,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [doom](spell/doom); **Price** 2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/doom}; **Price** 2,500 gp"
 		]
 	},
 	"liberating_wmh": {
@@ -4161,7 +4161,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic), [freedom of movement](spell/freedom_of_movement); **Price** +3,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dispel magic}, {spell/freedom of movement}; **Price** +3,500 gp"
 		]
 	},
 	"concealed": {
@@ -4176,13 +4176,13 @@
 			"",
 			"This special ability can be placed only on a light or one-handed melee weapon. A concealed weapon alters its shape at its wielder's command, transforming into a non-weapon object of the wielder's choice. This object must be a mundane item whose size and shape is similar to that of the concealed weapon or smaller, and it must be sized for a creature of the same size as the weapon's intended wielder. For example, a Medium short sword can transform into a quill sized for a Medium creature, but it cannot transform into a saw sized for a Small creature. A concealed weapon cannot transform into a consumable item, and if its alternate form is that of a container, any contents stored within the concealed weapon's alternate form are ejected into the wielder's space when the weapon transforms back to its original form.",
 			"",
-			"While transformed, a concealed weapon doesn't register as magical, as per [magic aura](spell/magic_aura), though it retains the weight, hit points, and any hardness of its original form. A concealed weapon cannot assume the form of an object made from a special material (such as adamantine) unless it is already made of that material. For instance, a wooden club cannot transform into a mithral frying pan, but a mithral dagger can.",
+			"While transformed, a concealed weapon doesn't register as magical, as per {spell/magic aura}, though it retains the weight, hit points, and any hardness of its original form. A concealed weapon cannot assume the form of an object made from a special material (such as adamantine) unless it is already made of that material. For instance, a wooden club cannot transform into a mithral frying pan, but a mithral dagger can.",
 			"",
 			"Transforming a concealed weapon into a mundane form requires a standard action, while returning it to its weapon form requires a move action. This transformation lasts until it is changed back into its original form or has been left unattended for 8 hours, whichever comes sooner.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation) ; **Price** 3,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation} ; **Price** 3,750 gp"
 		]
 	},
 	"advancing_weapon": {
@@ -4199,7 +4199,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [feather step](spell/feather_step); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather step}; **Price** -"
 		]
 	},
 	"anarchic": {
@@ -4219,7 +4219,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chaos hammer](spell/chaos_hammer), creator must be chaotic; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/chaos hammer}, creator must be chaotic; **Price** -"
 		]
 	},
 	"anchoring": {
@@ -4236,7 +4236,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [levitate](spell/levitate); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/levitate}; **Price** -"
 		]
 	},
 	"axiomatic": {
@@ -4256,7 +4256,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [order's wrath](spell/orders_wrath), creator must be lawful; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/order's wrath}, creator must be lawful; **Price** -"
 		]
 	},
 	"burning": {
@@ -4277,7 +4277,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [elemental touch](spell/elemental_touch); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/elemental touch}; **Price** -"
 		]
 	},
 	"corrosive_burst": {
@@ -4299,7 +4299,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [acid arrow](spell/acid_arrow); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/acid arrow}; **Price** -"
 		]
 	},
 	"culling": {
@@ -4312,11 +4312,11 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on melee slashing weapons. When a culling weapon is used to make an attack using the [Cleave](feat/cleave) or [Great Cleave](feat/great_cleave) feat, it deals an additional 2d6 points of damage on both the initial attack and any additional attacks granted by [Cleave](feat/cleave) or [Great Cleave](feat/great_cleave). The weapon also applies the bonus 2d6 points of damage to successful attacks granted by use of the [Cleaving Finish](feat/cleaving_finish) and [Improved Cleaving Finish](feat/improved_cleaving_finish) feats.",
+			"This special ability can be placed only on melee slashing weapons. When a culling weapon is used to make an attack using the {feat/Cleave} or {feat/Great Cleave} feat, it deals an additional 2d6 points of damage on both the initial attack and any additional attacks granted by {feat/Cleave} or {feat/Great Cleave}. The weapon also applies the bonus 2d6 points of damage to successful attacks granted by use of the {feat/Cleaving Finish} and {feat/Improved Cleaving Finish} feats.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cleave, [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [divine favor](spell/divine_favor); **Price** -"
+			"**Requirements** Cleave, {feat/Craft Magic Arms and Armor}, {spell/divine favor}; **Price** -"
 		]
 	},
 	"defiant_weapon": {
@@ -4329,11 +4329,11 @@
 			"**Aura** strong abjuration; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A defiant weapon helps its wielder stay alive in desperate conditions. It stays in its wielder's hand even if she is panicked, stunned, or unconscious. She adds the weapon's enhancement bonus as a bonus on checks to stabilize when dying and on saving throws to end ongoing conditions such as disease, poison, and [hold person](spell/hold_person). If the wielder possesses [Heroic Defiance](feat/heroic_defiance), [Heroic Recovery](feat/heroic_recovery), [Improved Great Fortitude](feat/improved_great_fortitude), [Improved Iron Will](feat/improved_iron_will), or [Improved Lightning Reflexes](feat/improved_lightning_reflexes), she gains a number of additional daily uses equal to the weapon's enhancement bonus that can be used on any of these feats.",
+			"This special ability can only be placed on melee weapons. A defiant weapon helps its wielder stay alive in desperate conditions. It stays in its wielder's hand even if she is panicked, stunned, or unconscious. She adds the weapon's enhancement bonus as a bonus on checks to stabilize when dying and on saving throws to end ongoing conditions such as disease, poison, and {spell/hold person}. If the wielder possesses {feat/Heroic Defiance}, {feat/Heroic Recovery}, {feat/Improved Great Fortitude}, {feat/Improved Iron Will}, or {feat/Improved Lightning Reflexes}, she gains a number of additional daily uses equal to the weapon's enhancement bonus that can be used on any of these feats.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Heroic Defiance, [break enchantment](spell/break_enchantment), [stabilize](spell/stabilize); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Heroic Defiance, {spell/break enchantment}, {spell/stabilize}; **Price** -"
 		]
 	},
 	"dispelling_burst": {
@@ -4352,7 +4352,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater dispel magic](spell/greater_dispel_magic), creator must be a caster of at least 12th level; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater dispel magic}, creator must be a caster of at least 12th level; **Price** -"
 		]
 	},
 	"disruption": {
@@ -4372,7 +4372,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heal](spell/heal); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heal}; **Price** -"
 		]
 	},
 	"distracting_greater": {
@@ -4389,7 +4389,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [qualm](spell/qualm); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/qualm}; **Price** -"
 		]
 	},
 	"greater_distracting": {
@@ -4408,13 +4408,13 @@
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"A flaming burst weapon functions as a [flaming](magic-enhancement/flaming) weapon that also explodes with flame upon striking a successful critical hit. The fire does not harm the wielder. In addition to the extra fire damage from the flaming ability, a flaming burst weapon deals an extra 1d10 points of fire damage on a successful critical hit. If the weapon's critical multiplier is &times;3, add an extra 2d10 points of fire damage instead, and if the multiplier is &times;4, add an extra 3d10 points of fire damage.",
+			"A flaming burst weapon functions as a {magic-enhancement/flaming} weapon that also explodes with flame upon striking a successful critical hit. The fire does not harm the wielder. In addition to the extra fire damage from the flaming ability, a flaming burst weapon deals an extra 1d10 points of fire damage on a successful critical hit. If the weapon's critical multiplier is &times;3, add an extra 2d10 points of fire damage instead, and if the multiplier is &times;4, add an extra 3d10 points of fire damage.",
 			"",
 			"Even if the flaming ability is not active, the weapon still deals its extra fire damage on a successful critical hit.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) and [fireball](spell/fireball), [flame blade](spell/flame_blade), or [flame strike](spell/flame_strike); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor} and {spell/fireball}, {spell/flame blade}, or {spell/flame strike}; **Price** -"
 		]
 	},
 	"furyborn": {
@@ -4431,7 +4431,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rage}; **Price** -"
 		]
 	},
 	"fury-born": {
@@ -4448,7 +4448,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rage}; **Price** -"
 		]
 	},
 	"fury_born": {
@@ -4468,7 +4468,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [blindness/deafness](spell/blindness_deafness), [daylight](spell/daylight), flare; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [blindness/deafness](spell/blindness_deafness), {spell/daylight}, flare; **Price** -"
 		]
 	},
 	"harvesting": {
@@ -4487,7 +4487,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [steal power](spell/steal_power); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/steal power}; **Price** -"
 		]
 	},
 	"heretical": {
@@ -4504,7 +4504,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [align weapon](spell/align_weapon), [weapon of awe](spell/weapon_of_awe), creator must be a member of the attuned religion; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/align weapon}, {spell/weapon of awe}, creator must be a member of the attuned religion; **Price** -"
 		]
 	},
 	"holy": {
@@ -4524,7 +4524,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [holy smite](spell/holy_smite), creator must be good; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/holy smite}, creator must be good; **Price** -"
 		]
 	},
 	"icy_burst": {
@@ -4546,7 +4546,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [chill metal](spell/chill_metal) or [ice storm](spell/ice_storm); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/chill metal} or {spell/ice storm}; **Price** -"
 		]
 	},
 	"igniting": {
@@ -4563,7 +4563,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [flame blade](spell/flame_blade), [flame strike](spell/flame_strike), or [fireball](spell/fireball); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/flame blade}, {spell/flame strike}, or {spell/fireball}; **Price** -"
 		]
 	},
 	"impact": {
@@ -4576,11 +4576,11 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons that are not light weapons. An impact weapon delivers a potent kinetic jolt when it strikes, dealing damage as if the weapon were one size category larger. In addition, any bull rush combat maneuver the wielder attempts while wielding the weapon gains a bonus equal to the weapon's enhancement bonus; this includes all bull rush attempts, not only those in which a weapon is used, such as [Bull Rush Strike](feat/bull_rush_strike), [Shield Slam](feat/shield_slam), or [Unseat](feat/unseat).",
+			"This special ability can only be placed on melee weapons that are not light weapons. An impact weapon delivers a potent kinetic jolt when it strikes, dealing damage as if the weapon were one size category larger. In addition, any bull rush combat maneuver the wielder attempts while wielding the weapon gains a bonus equal to the weapon's enhancement bonus; this includes all bull rush attempts, not only those in which a weapon is used, such as {feat/Bull Rush Strike}, {feat/Shield Slam}, or {feat/Unseat}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bull's strength](spell/bulls_strength), [lead blades](spell/lead_blades), [righteous might](spell/righteous_might) or [giant form I](spell/giant_form_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}, {spell/lead blades}, {spell/righteous might} or [giant form I](spell/giant_form_1); **Price** -"
 		]
 	},
 	"invigorating": {
@@ -4597,7 +4597,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [good hope](spell/good_hope); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/good hope}; **Price** -"
 		]
 	},
 	"ki_intensifying": {
@@ -4610,7 +4610,7 @@
 			"**Aura** strong transmutation; **CL** 12th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"The weapon channels and amplifies the wielder's ki, allowing her to use her special ki attacks through the weapon as though they were unarmed attacks. These attacks include the monk's ki strike, quivering palm, and the [Stunning Fist](feat/stunning_fist) feat. The save DC for ki abilities used through the weapon increases by half the enhancement bonus of the weapon (minimum 1).",
+			"The weapon channels and amplifies the wielder's ki, allowing her to use her special ki attacks through the weapon as though they were unarmed attacks. These attacks include the monk's ki strike, quivering palm, and the {feat/Stunning Fist} feat. The save DC for ki abilities used through the weapon increases by half the enhancement bonus of the weapon (minimum 1).",
 			"",
 			"After a successful strike with a ki intensifying weapon, the wielder can spend 1 ki point as a swift action to perform a combat maneuver to bull rush, disarm, reposition, or trip as a free action without provoking attacks of opportunity. Any bonuses or penalties applicable to the weapon attack also apply to this combat maneuver check. The wielder cannot move from her space as a part of the chosen maneuver.",
 			"",
@@ -4618,7 +4618,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must be a monk; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a monk; **Price** -"
 		]
 	},
 	"legbreaker": {
@@ -4635,7 +4635,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [touch of gracelessness](spell/touch_of_gracelessness); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/touch of gracelessness}; **Price** -"
 		]
 	},
 	"liberating_ui": {
@@ -4652,7 +4652,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break enchantment](spell/break_enchantment), [greater dispel magic](spell/greater_dispel_magic); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/break enchantment}, {spell/greater dispel magic}; **Price** -"
 		]
 	},
 	"lifesurge": {
@@ -4667,11 +4667,11 @@
 			"",
 			"This special ability can only be placed on melee weapons. A lifesurge weapon boosts and sustains the wielder's life energy while he is in the throes of combat. The wielder gains a bonus on saving throws against necromantic effects-including the ability damage, ability drain, and energy drain powers of the undead-equal to the weapon's enhancement bonus. In addition, whenever the wielder receives temporary hit points from any source, he adds the weapon's enhancement bonus to these temporary hit points; this does not stack for temporary hit points from multiple sources, and these points are lost if the lifesurge weapon is not being wielded.",
 			"",
-			"In combat, the weapon's critical threat range is doubled abilities against undead; this does not stack with the keen special ability or [Improved Critical](feat/improved_critical). Whenever a lifesurge weapon confirms a critical hit against an undead creature, it erupts with 1d8 points of positive energy (2d8 for weapons with a critical multiplier of &times;3, 3d8 if it is &times;4); the wielder may choose to deal this as damage to an undead target or to absorb half this amount as healing, with the remaining positive energy dissipating.",
+			"In combat, the weapon's critical threat range is doubled abilities against undead; this does not stack with the keen special ability or {feat/Improved Critical}. Whenever a lifesurge weapon confirms a critical hit against an undead creature, it erupts with 1d8 points of positive energy (2d8 for weapons with a critical multiplier of &times;3, 3d8 if it is &times;4); the wielder may choose to deal this as damage to an undead target or to absorb half this amount as healing, with the remaining positive energy dissipating.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Channel Smite, cure serious wounds, [death ward](spell/death_ward), [disrupt undead](spell/disrupt_undead); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Channel Smite, cure serious wounds, {spell/death ward}, {spell/disrupt undead}; **Price** -"
 		]
 	},
 	"negating": {
@@ -4688,7 +4688,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel chaos, evil, good, or law](spell/dispel_evil); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [dispel chaos, evil, good, or law](spell/dispel_evil); **Price** -"
 		]
 	},
 	"obliviating": {
@@ -4705,7 +4705,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [modify memory](spell/modify_memory); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/modify memory}; **Price** -"
 		]
 	},
 	"peaceful": {
@@ -4722,7 +4722,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [calm emotion](spell/calm_emotions), [cure light wounds](spell/cure_light_wounds); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [calm emotion](spell/calm_emotions), {spell/cure light wounds}; **Price** -"
 		]
 	},
 	"phase_locking": {
@@ -4739,7 +4739,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dimensional anchor](spell/dimensional_anchor); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dimensional anchor}; **Price** -"
 		]
 	},
 	"planestriking": {
@@ -4756,7 +4756,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dismissal](spell/dismissal); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dismissal}; **Price** -"
 		]
 	},
 	"potent": {
@@ -4773,7 +4773,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [greater heroism](spell/greater_heroism), [greater magic weapon](spell/greater_magic_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/greater heroism}, {spell/greater magic weapon}; **Price** -"
 		]
 	},
 	"quaking": {
@@ -4790,7 +4790,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater thunderstomp](spell/greater_thunderstomp); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater thunderstomp}; **Price** -"
 		]
 	},
 	"runeforged": {
@@ -4818,7 +4818,7 @@
 			"",
 			"**Covetous/Charitable (opposes evocation):** A union of conjuration and abjuration magic, a covetous weapon functions as a bane weapon against evokers and creatures with the fire subtype. As long as the weapon is wielded, the wielder gains fire resistance 5.",
 			"",
-			"**Dominant/Commanding (opposes transmutation):** A union of enchantment and illusion magic, a dominant weapon functions as a bane weapon against transmuters and against creatures with the shapechanger subtype. As long as the weapon is carried, it can absorb up to three harmful transmutation effects (such as [baleful polymorph](spell/baleful_polymorph) or petrification) inflicted on the wielder per day.",
+			"**Dominant/Commanding (opposes transmutation):** A union of enchantment and illusion magic, a dominant weapon functions as a bane weapon against transmuters and against creatures with the shapechanger subtype. As long as the weapon is carried, it can absorb up to three harmful transmutation effects (such as {spell/baleful polymorph} or petrification) inflicted on the wielder per day.",
 			"",
 			"**Jealous/Trusting (opposes necromancy):** A union of abjuration and enchantment magic, a jealous weapon functions as a bane weapon against necromancers and against undead created by necromancy spells (not against self-manifested undead or undead created by the create spawn special ability). As long as the weapon is carried, it can absorb up to 3 negative levels inflicted on the wielder per day.",
 			"",
@@ -4849,7 +4849,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation}; **Price** -"
 		]
 	},
 	"shattering": {
@@ -4868,7 +4868,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break](spell/break) or [shatter](spell/shatter); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/break} or {spell/shatter}; **Price** -"
 		]
 	},
 	"shocking_burst": {
@@ -4890,7 +4890,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [call lightning](spell/call_lightning) or [lightning bolt](spell/lightning_bolt); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/call lightning} or {spell/lightning bolt}; **Price** -"
 		]
 	},
 	"silencing": {
@@ -4909,7 +4909,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [silence](spell/silence) ; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/silence} ; **Price** -"
 		]
 	},
 	"stalking": {
@@ -4928,7 +4928,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [hunter's eye](spell/hunters_eye), [true strike](spell/true_strike); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/hunter's eye}, {spell/true strike}; **Price** -"
 		]
 	},
 	"toxic": {
@@ -4945,7 +4945,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [accelerate poison](spell/accelerate_poison), [pernicious poison](spell/pernicious_poison); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/accelerate poison}, {spell/pernicious poison}; **Price** -"
 		]
 	},
 	"treasonous": {
@@ -4962,7 +4962,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster I](spell/summon_monster_1), [weapon of awe](spell/weapon_of_awe), creator must be a member of the attuned nationality; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1), {spell/weapon of awe}, creator must be a member of the attuned nationality; **Price** -"
 		]
 	},
 	"truthful": {
@@ -4981,7 +4981,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater dispel magic](spell/greater_dispel_magic), [true strike](spell/true_strike); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater dispel magic}, {spell/true strike}; **Price** -"
 		]
 	},
 	"unholy": {
@@ -5001,7 +5001,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [unholy blight](spell/unholy_blight), creator must be evil; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/unholy blight}, creator must be evil; **Price** -"
 		]
 	},
 	"unseen": {
@@ -5014,11 +5014,11 @@
 			"**Aura** moderate illusion; **CL** 7th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon. Upon command, an unseen weapon can be made invisible, including any scabbard, sheath, or similar accessory used to hold the weapon. A careful search will still reveal its presence, but purely visual examination will not. While invisible, an unseen weapon causes its wielder to take a -1 penalty on attack rolls unless she has the [Blind-Fight](feat/blind-fight) feat or is able to see invisible objects. On the first attack made with an unseen weapon during a combat, the defender is denied its Dexterity bonus to Armor Class unless it has the Blind-Fight feat, is able to see invisible objects, or is specifically aware that the wielder is using an unseen weapon. An unseen weapon is considered to have total concealment for attacks or effects directed at it, such as combat maneuver checks made to disarm, steal, or sunder it and [disintegrate](spell/disintegrate) or [rusting grasp](spell/rusting_grasp).",
+			"This special ability can be placed only on a melee weapon. Upon command, an unseen weapon can be made invisible, including any scabbard, sheath, or similar accessory used to hold the weapon. A careful search will still reveal its presence, but purely visual examination will not. While invisible, an unseen weapon causes its wielder to take a -1 penalty on attack rolls unless she has the {feat/Blind-Fight} feat or is able to see invisible objects. On the first attack made with an unseen weapon during a combat, the defender is denied its Dexterity bonus to Armor Class unless it has the Blind-Fight feat, is able to see invisible objects, or is specifically aware that the wielder is using an unseen weapon. An unseen weapon is considered to have total concealment for attacks or effects directed at it, such as combat maneuver checks made to disarm, steal, or sunder it and {spell/disintegrate} or {spell/rusting grasp}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater invisibility](spell/greater_invisibility); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater invisibility}; **Price** -"
 		]
 	},
 	"vampiric_greater": {
@@ -5035,7 +5035,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cure moderate wounds](spell/cure_moderate_wounds), [inflict moderate wounds](spell/inflict_moderate_wounds), [vampiric touch](spell/vampiric_touch); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cure moderate wounds}, {spell/inflict moderate wounds}, {spell/vampiric touch}; **Price** -"
 		]
 	},
 	"greater_vampiric": {
@@ -5058,7 +5058,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](spell/bleed); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}; **Price** -"
 		]
 	},
 	"transformative": {
@@ -5078,7 +5078,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [major creation](spell/major_creation); **Price** +5,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation}; **Price** +5,000 gp"
 		]
 	},
 	"dueling": {
@@ -5094,11 +5094,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +14,000 gp; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A dueling weapon (which must be a weapon that can be used with the [Weapon Finesse](feat/weapon_finesse) feat) gives the wielder a +4 enhancement bonus on initiative checks, provided the weapon is drawn and in hand when the Initiative check is made. It provides a +2 bonus on disarm checks and feint checks, a +2 bonus to CMD to resist disarm attempts, and a +2 to the DC to perform a feint against the wielder.",
+			"This special ability can only be placed on melee weapons. A dueling weapon (which must be a weapon that can be used with the {feat/Weapon Finesse} feat) gives the wielder a +4 enhancement bonus on initiative checks, provided the weapon is drawn and in hand when the Initiative check is made. It provides a +2 bonus on disarm checks and feint checks, a +2 bonus to CMD to resist disarm attempts, and a +2 to the DC to perform a feint against the wielder.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace); **Price** +7,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** +7,000 gp"
 		]
 	},
 	"transformative_greater": {
@@ -5115,7 +5115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [polymorph any object](spell/polymorph_any_object); **Price** 7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/polymorph any object}; **Price** 7,500 gp"
 		]
 	},
 	"greater_transformative": {
@@ -5135,7 +5135,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ray of exhaustion](spell/ray_of_exhaustion); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/ray of exhaustion}; **Price** -"
 		]
 	},
 	"flamboyant_greater": {
@@ -5152,7 +5152,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater heroism](spell/greater_heroism), creator must be a panache user; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater heroism}, creator must be a panache user; **Price** -"
 		]
 	},
 	"greater_flamboyant": {
@@ -5172,7 +5172,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](spell/bleed), [inflict serious wounds](spell/inflict_serious_wounds); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}, {spell/inflict serious wounds}; **Price** -"
 		]
 	},
 	"nullifying": {
@@ -5189,7 +5189,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [antimagic field](spell/antimagic_field); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/antimagic field}; **Price** -"
 		]
 	},
 	"redeemed": {
@@ -5206,7 +5206,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [consecrate](spell/consecrate), [holy smite](spell/holy_smite), creator must be good; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/consecrate}, {spell/holy smite}, creator must be good; **Price** -"
 		]
 	},
 	"repositioning": {
@@ -5223,7 +5223,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinesis](spell/telekinesis); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/telekinesis}; **Price** -"
 		]
 	},
 	"speed": {
@@ -5243,7 +5243,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [haste](spell/haste); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/haste}; **Price** -"
 		]
 	},
 	"spellstealing": {
@@ -5260,7 +5260,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater arcane sight](spell/greater_arcane_sight), [limited wish](spell/limited_wish); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater arcane sight}, {spell/limited wish}; **Price** -"
 		]
 	},
 	"umbral": {
@@ -5273,13 +5273,13 @@
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** +3 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon with a hilt or handle. An umbral weapon does not reflect any sources of ambient light and is perpetually cloaked in shadow. It is considered to have concealment for the purposes of attacks or effects directed at the weapon, such as combat maneuver checks made to disarm, steal or sunder it and [disintegrate](spell/disintegrate) or [rusting grasp](spell/rusting_grasp). The wielder gains darkvision 30 feet while grasping the hilt or handle of the weapon, even if the weapon is not drawn.",
+			"This special ability can be placed only on a melee weapon with a hilt or handle. An umbral weapon does not reflect any sources of ambient light and is perpetually cloaked in shadow. It is considered to have concealment for the purposes of attacks or effects directed at the weapon, such as combat maneuver checks made to disarm, steal or sunder it and {spell/disintegrate} or {spell/rusting grasp}. The wielder gains darkvision 30 feet while grasping the hilt or handle of the weapon, even if the weapon is not drawn.",
 			"",
 			"Upon command, an umbral weapon radiates darkness in a 20-foot radius, causing illumination in the area to drop by one step (from bright light to normal light, normal light to dim light, or dim light to darkness). Due to the darkvision granted by the weapon, the wielder's vision is not impaired by darkness created by an umbral weapon. The darkness shed by an umbral weapon is considered a 2nd-level spell effect for the purpose of comparing its effect to the effects of magical light sources. This darkness suppresses light spells, but can't be used to counter or dispel them. The weapon must be drawn and in the wielder's hand to radiate darkness. The darkness ends immediately if the weapon is dropped, disarmed, sheathed, or otherwise stowed.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [darkness](spell/darkness), [darkvision](spell/darkvision); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/darkness}, {spell/darkvision}; **Price** -"
 		]
 	},
 	"brilliant_energy": {
@@ -5299,7 +5299,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [gaseous form](spell/gaseous_form), [continual flame](spell/continual_flame); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/gaseous form}, {spell/continual flame}; **Price** -"
 		]
 	},
 	"dancing": {
@@ -5319,7 +5319,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/animate objects}; **Price** -"
 		]
 	},
 	"flying": {
@@ -5336,7 +5336,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate object](spell/animate_objects); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [animate object](spell/animate_objects); **Price** -"
 		]
 	},
 	"spell_siphon": {
@@ -5355,7 +5355,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater arcane sight](spell/greater_arcane_sight), [limited wish](spell/limited_wish); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater arcane sight}, {spell/limited wish}; **Price** -"
 		]
 	},
 	"vorpal": {
@@ -5375,7 +5375,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [circle of death](spell/circle_of_death), [keen edge](spell/keen_edge); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/circle of death}, {spell/keen edge}; **Price** -"
 		]
 	},
 	"adaptive": {
@@ -5392,7 +5392,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [warp wood](spell/warp_wood); **Price** +500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/warp wood}; **Price** +500 gp"
 		]
 	},
 	"dry_load": {
@@ -5416,7 +5416,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [air bubble](spell/air_bubble); **Price** +750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/air bubble}; **Price** +750 gp"
 		]
 	},
 	"sniping_normal": {
@@ -5433,7 +5433,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** 937 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** 937 gp"
 		]
 	},
 	"normal_sniping": {
@@ -5453,7 +5453,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [cat's grace](spell/cats_grace), [invisibility](spell/invisibility); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}, {spell/invisibility}; **Price** -"
 		]
 	},
 	"beaming": {
@@ -5470,7 +5470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [searing light](spell/searing_light); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/searing light}; **Price** -"
 		]
 	},
 	"clustershot": {
@@ -5483,11 +5483,11 @@
 			"**Aura** weak transmutation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"These arrows are inscribed with a spiral groove down the length of the haft and an eye-glyph on the head. They are designed to maintain accuracy when firing multiple arrows at the same time (such as with the [Manyshot](feat/manyshot) feat) by steering their paths toward the impact point of the first arrow. For a clustershot arrow to function, all arrows fired in the attack must have this property. If the first arrow can deal sneak attack damage or is a critical hit, the remaining arrows from that shot can deal half normal sneak attack damage, and if they critically hit deal half normal critical hit damage.",
+			"These arrows are inscribed with a spiral groove down the length of the haft and an eye-glyph on the head. They are designed to maintain accuracy when firing multiple arrows at the same time (such as with the {feat/Manyshot} feat) by steering their paths toward the impact point of the first arrow. For a clustershot arrow to function, all arrows fired in the attack must have this property. If the first arrow can deal sneak attack damage or is a critical hit, the remaining arrows from that shot can deal half normal sneak attack damage, and if they critically hit deal half normal critical hit damage.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic weapon](spell/magic_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/magic weapon}; **Price** -"
 		]
 	},
 	"conserving": {
@@ -5504,7 +5504,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [abundant ammunition](spell/abundant_ammunition), [dimension door](spell/dimension_door); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/abundant ammunition}, {spell/dimension door}; **Price** -"
 		]
 	},
 	"distance": {
@@ -5524,7 +5524,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [clairaudience/clairvoyance](spell/clairaudience_clairvoyance); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance); **Price** -"
 		]
 	},
 	"driving": {
@@ -5541,7 +5541,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinetic charge](spell/telekinetic_charge); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/telekinetic charge}; **Price** -"
 		]
 	},
 	"healers_sorrow": {
@@ -5558,7 +5558,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [death knell](spell/death_knell); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/death knell}; **Price** -"
 		]
 	},
 	"lucky": {
@@ -5578,7 +5578,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [heroism](spell/heroism), creator must be a grit user; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heroism}, creator must be a grit user; **Price** -"
 		]
 	},
 	"plummeting": {
@@ -5595,7 +5595,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bestow curse](spell/bestow_curse), [fly](spell/fly); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bestow curse}, {spell/fly}; **Price** -"
 		]
 	},
 	"reliable": {
@@ -5615,7 +5615,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [mending](spell/mending); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mending}; **Price** -"
 		]
 	},
 	"returning": {
@@ -5635,7 +5635,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [telekinesis](spell/telekinesis); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/telekinesis}; **Price** -"
 		]
 	},
 	"seeking": {
@@ -5655,7 +5655,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true seeing](spell/true_seeing); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/true seeing}; **Price** -"
 		]
 	},
 	"shadowshooting": {
@@ -5674,7 +5674,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [reloading hands](spell/reloading_hands), [shadow weapon](spell/shadow_weapon); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/reloading hands}, {spell/shadow weapon}; **Price** -"
 		]
 	},
 	"sparkfly_crystal_arrow": {
@@ -5691,7 +5691,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [faerie fire](spell/faerie_fire); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/faerie fire}; **Price** -"
 		]
 	},
 	"spell_hurling": {
@@ -5708,7 +5708,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [spectral hand](spell/spectral_hand), creator must have the spellstrike class feature; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/spectral hand}, creator must have the spellstrike class feature; **Price** -"
 		]
 	},
 	"veering": {
@@ -5725,7 +5725,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic missile](spell/magic_missile); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/magic missile}; **Price** -"
 		]
 	},
 	"phantom_ammunition": {
@@ -5744,7 +5744,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [disintegrate](spell/disintegrate), [make whole](spell/make_whole); **Price** 1,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disintegrate}, {spell/make whole}; **Price** 1,000 gp"
 		]
 	},
 	"sniping_improved": {
@@ -5761,7 +5761,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** 3,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** 3,750 gp"
 		]
 	},
 	"improved_sniping": {
@@ -5781,7 +5781,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [air bubble](spell/air_bubble); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/air bubble}; **Price** -"
 		]
 	},
 	"dazzling": {
@@ -5798,7 +5798,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [flare burst](spell/flare_burst); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/flare burst}; **Price** -"
 		]
 	},
 	"designating_lesser": {
@@ -5815,7 +5815,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [instant enemy](spell/instant_enemy); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/instant enemy}; **Price** -"
 		]
 	},
 	"lesser_designating": {
@@ -5837,7 +5837,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [minor creation](spell/minor_creation); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/minor creation}; **Price** -"
 		]
 	},
 	"glitterwake": {
@@ -5854,7 +5854,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [glitterdust](spell/glitterdust); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/glitterdust}; **Price** -"
 		]
 	},
 	"penetrating": {
@@ -5871,7 +5871,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [mirror strike](spell/mirror_strike); **Price** -"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mirror strike}; **Price** -"
 		]
 	},
 	"sniping": {
@@ -5888,7 +5888,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [longshot](spell/longshot); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/longshot}; **Price** -"
 		]
 	},
 	"sniping_greater": {
@@ -5905,7 +5905,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [invisibility](spell/invisibility), [silence](spell/silence); **Price** 8,437 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** 8,437 gp"
 		]
 	},
 	"greater_sniping": {
@@ -5928,7 +5928,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [greater heroism](spell/greater_heroism), creator must be a grit user; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater heroism}, creator must be a grit user; **Price** -"
 		]
 	},
 	"greater_lucky": {
@@ -5951,7 +5951,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [make whole](spell/make_whole); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/make whole}; **Price** -"
 		]
 	},
 	"greater_reliable": {
@@ -5971,7 +5971,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [shout](spell/shout); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shout}; **Price** -"
 		]
 	},
 	"tailwind": {
@@ -5988,7 +5988,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [gust of wind](spell/gust_of_wind); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/gust of wind}; **Price** -"
 		]
 	},
 	"designating_greater": {
@@ -6005,7 +6005,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [instant enemy](spell/instant_enemy); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/instant enemy}; **Price** -"
 		]
 	},
 	"greater_designating": {
@@ -6025,7 +6025,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bow spirit](spell/bow_spirit); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bow spirit}; **Price** -"
 		]
 	},
 	"second_chance": {
@@ -6042,7 +6042,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [ricochet shot](spell/ricochet_shot); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/ricochet shot}; **Price** -"
 		]
 	},
 	"heart-piercing": {
@@ -6059,7 +6059,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [finger of death](spell/finger_of_death), [keen edge](spell/keen_edge); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/finger of death}, {spell/keen edge}; **Price** -"
 		]
 	},
 	"heart_piercing": {
@@ -6075,11 +6075,11 @@
 			"**Aura** strong transmutation; **CL** 18th  ",
 			"**Slot** none; **Price** +5 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on ranged weapons. The wielder can make attacks of opportunity with an interfering weapon as if he threatened all spaces within the weapon's first range increment or 30 feet, whichever is closer. However, the wielder cannot make multiple ranged attacks of opportunity with an interfering weapon against a creature that moves out of multiple threatened spaces within range using a single move action, even if the wielder has [Combat Reflexes](feat/combat_reflexes) or other effects that allow multiple attacks of opportunity.",
+			"This special ability can be placed only on ranged weapons. The wielder can make attacks of opportunity with an interfering weapon as if he threatened all spaces within the weapon's first range increment or 30 feet, whichever is closer. However, the wielder cannot make multiple ranged attacks of opportunity with an interfering weapon against a creature that moves out of multiple threatened spaces within range using a single move action, even if the wielder has {feat/Combat Reflexes} or other effects that allow multiple attacks of opportunity.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [litany of warding](spell/litany_of_warding); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/litany of warding}; **Price** -"
 		]
 	}
 }

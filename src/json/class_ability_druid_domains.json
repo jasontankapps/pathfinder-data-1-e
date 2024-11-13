@@ -18,11 +18,11 @@
 			"",
 			"**Granted Powers:** You master the deeps of the sea, raging rivers, flowing falls, and relentless tides.",
 			"",
-			"**Sealord (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats to add to this ability, such as [Extra Channel](feat/extra_channel) and [Improved Channel](feat/improved_channel), but not feats that alter this ability, such as [Elemental Channel](feat/elemental_channel) and [Alignment Channel](feat/alignment_channel). The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
+			"**Sealord (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats to add to this ability, such as {feat/Extra Channel} and {feat/Improved Channel}, but not feats that alter this ability, such as {feat/Elemental Channel} and {feat/Alignment Channel}. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
 			"",
-			"**Seastrike (Su):** At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous freedom of movement. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a [returning](magic-enhancement/returning) weapon for that attack.",
+			"**Seastrike (Su):** At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous freedom of movement. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a {magic-enhancement/returning} weapon for that attack.",
 			"",
-			"**Domain Spells:** 1st-[hydraulic push](spell/hydraulic_push), 2nd-[slipstream](spell/slipstream), 3rd-[water breathing](spell/water_breathing), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[black tentacles](spell/black_tentacles), 6th-[freezing sphere](spell/freezing_sphere), 7th-[animal shapes](spell/animal_shapes) (aquatic creatures only), 8th-[seamantle](spell/seamantle), 9th-[tsunami](spell/tsunami)."
+			"**Domain Spells:** 1st-{spell/hydraulic push}, 2nd-{spell/slipstream}, 3rd-{spell/water breathing}, 4th-{spell/freedom of movement}, 5th-{spell/black tentacles}, 6th-{spell/freezing sphere}, 7th-{spell/animal shapes} (aquatic creatures only), 8th-{spell/seamantle}, 9th-{spell/tsunami}."
 		]
 	},
 	"arctic": {
@@ -35,11 +35,11 @@
 			"",
 			"**Granted Powers:** You master the might of the endless, snow-covered wastes beneath the midnight sun, where icy polar winds blow.",
 			"",
-			"**Call Cold (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats that add to this ability, such as [Extra Channel](feat/extra_channel) and [Improved Channel](feat/improved_channel), but not feats that alter this ability, such as [Elemental Channel](feat/elemental_channel) and [Alignment Channel](feat/alignment_channel). The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
+			"**Call Cold (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats that add to this ability, such as {feat/Extra Channel} and {feat/Improved Channel}, but not feats that alter this ability, such as {feat/Elemental Channel} and {feat/Alignment Channel}. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
 			"",
 			"**Banish Flame (Su):** At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the Turn Undead feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted dispel magic; at 12th level, this functions as targeted or area greater dispel magic instead of dispel magic.",
 			"",
-			"**Domain Spells:** 1st-[frostbite](spell/frostbite), 2nd-[aspect of the bear](spell/aspect_of_the_bear), 3rd-[sleet storm](spell/sleet_storm), 4th-[wall of ice](spell/wall_of_ice), 5th-[aspect of the wolf](spell/aspect_of_the_wolf), 6th-[freezing sphere](spell/freezing_sphere), 7th-[wind walk](spell/wind_walk), 8th-[polar ray](spell/polar_ray), 9th-[polar midnight](spell/polar_midnight)."
+			"**Domain Spells:** 1st-{spell/frostbite}, 2nd-{spell/aspect of the bear}, 3rd-{spell/sleet storm}, 4th-{spell/wall of ice}, 5th-{spell/aspect of the wolf}, 6th-{spell/freezing sphere}, 7th-{spell/wind walk}, 8th-{spell/polar ray}, 9th-{spell/polar midnight}."
 		]
 	},
 	"badlands": {
@@ -58,7 +58,7 @@
 			"",
 			"**Badlands Spirit (Su):** At 8th level, whenever you use wild shape to take on the form of an earth elemental, you also gain the following spell-like abilities, depending on your druid class level: geyser (8th); sirocco (12th), scouring winds (15th). Each spell-like ability is usable once per day.",
 			"",
-			"**Domain Spells:** 1st-[cloak of shade](spell/cloak_of_shade), 2nd-[feast of ashes](spell/feast_of_ashes), 3rd-[cloak of winds](spell/cloak_of_winds), 4th-[spike stones](spell/spike_stones), 5th-[wind blades](spell/wind_blades), 6th-[find the path](spell/find_the_path), 7th-[fire storm](spell/fire_storm), 8th-[earthquake](spell/earthquake), 9th-[storm of vengeance](spell/storm_of_vengeance)."
+			"**Domain Spells:** 1st-{spell/cloak of shade}, 2nd-{spell/feast of ashes}, 3rd-{spell/cloak of winds}, 4th-{spell/spike stones}, 5th-{spell/wind blades}, 6th-{spell/find the path}, 7th-{spell/fire storm}, 8th-{spell/earthquake}, 9th-{spell/storm of vengeance}."
 		]
 	},
 	"cave": {
@@ -75,7 +75,7 @@
 			"",
 			"**Tremorsense (Ex):** At 6th level, you gain tremorsense 30 feet. At 12th level, you gain tremorsense 60 feet.",
 			"",
-			"**Domain Spells:** 1st-[detect aberration](spell/detect_aberration), 2nd-[stone call](spell/stone_call), 3rd-[deeper darkness](spell/deeper_darkness), 4th-[echolocation](spell/echolocation), 5th-[wall of stone](spell/wall_of_stone), 6th-[conjure black pudding](spell/conjure_black_pudding), 7th-[statue](spell/statue) (looking like a stalagmite or stalactite), 8th-[earthquake](spell/earthquake), 9th-[imprisonment](spell/imprisonment)."
+			"**Domain Spells:** 1st-{spell/detect aberration}, 2nd-{spell/stone call}, 3rd-{spell/deeper darkness}, 4th-{spell/echolocation}, 5th-{spell/wall of stone}, 6th-{spell/conjure black pudding}, 7th-{spell/statue} (looking like a stalagmite or stalactite), 8th-{spell/earthquake}, 9th-{spell/imprisonment}."
 		]
 	},
 	"crocodile": {
@@ -94,7 +94,7 @@
 			"",
 			"**Ambush (Ex):** At 6th level, you gain sneak attack +1d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources. This sneak attack damage increases by +1d6 for every 5 druid levels you possess beyond 6th, to a maximum of +3d6 at 16th level.",
 			"",
-			"**Domain Spells:** 1st-[touch of the sea](spell/touch_of_the_sea), 2nd-[savage maw](spell/savage_maw), 3rd-[water walk](spell/water_walk), 4th-[strong jaw](spell/strong_jaw), 5th-[legend lore](spell/legend_lore), 6th-[mass owl's wisdom](spell/mass_owls_wisdom), 7th-[true seeing](spell/true_seeing), 8th-[mass heal](spell/mass_heal), 9th-[regenerate](spell/regenerate)."
+			"**Domain Spells:** 1st-{spell/touch of the sea}, 2nd-{spell/savage maw}, 3rd-{spell/water walk}, 4th-{spell/strong jaw}, 5th-{spell/legend lore}, 6th-{spell/mass owl's wisdom}, 7th-{spell/true seeing}, 8th-{spell/mass heal}, 9th-{spell/regenerate}."
 		]
 	},
 	"desert": {
@@ -111,7 +111,7 @@
 			"",
 			"**Servant of the Sands (Sp):** At 8th level, once per day, you may call upon the aid of a janni as if using lesser planar ally. At 12th level, you may call upon the aid of any type of common (non-noble) genie as if using planar ally. At 16th level, you may call upon the aid of a noble genie as if using greater planar ally. If you use this power while in desert terrain, you need not make an offering to call the creature(s), and the cost of any service is halved.",
 			"",
-			"**Domain Spells:** 1st-[cloak of shade](spell/cloak_of_shade), 2nd-[shifting sand](spell/shifting_sand), 3rd-[cup of dust](spell/cup_of_dust), 4th-[hallucinatory terrain](spell/hallucinatory_terrain), 5th-[transmute rock to mud](spell/transmute_rock_to_mud) (creates loose sand instead of mud), 6th-[sirocco](spell/sirocco), 7th-[sunbeam](spell/sunbeam), 8th-[sunburst](spell/sunburst), 9th-[horrid wilting](spell/horrid_wilting)."
+			"**Domain Spells:** 1st-{spell/cloak of shade}, 2nd-{spell/shifting sand}, 3rd-{spell/cup of dust}, 4th-{spell/hallucinatory terrain}, 5th-{spell/transmute rock to mud} (creates loose sand instead of mud), 6th-{spell/sirocco}, 7th-{spell/sunbeam}, 8th-{spell/sunburst}, 9th-{spell/horrid wilting}."
 		]
 	},
 	"eagle": {
@@ -130,7 +130,7 @@
 			"",
 			"**Aerial evasion (Ex):** At 6th level, you gain the evasion ability (as a rogue) when you are flying. At 12th level, you gain improved evasion while flying.",
 			"",
-			"**Domain Spells:** 1st-[aspect of the falcon](spell/aspect_of_the_falcon), 2nd-[eagle's splendor](spell/eagles_splendor), 3rd-[fly](spell/fly), 4th-[river of wind](spell/river_of_wind), 5th-[overland flight](spell/overland_flight), 6th-[eagle aerie](spell/eagle_aerie), 7th-[animal shapes](spell/animal_shapes) (birds only), 8th-[sunburst](spell/sunburst), 9th-[winds of vengeance](spell/winds_of_vengeance)."
+			"**Domain Spells:** 1st-{spell/aspect of the falcon}, 2nd-{spell/eagle's splendor}, 3rd-{spell/fly}, 4th-{spell/river of wind}, 5th-{spell/overland flight}, 6th-{spell/eagle aerie}, 7th-{spell/animal shapes} (birds only), 8th-{spell/sunburst}, 9th-{spell/winds of vengeance}."
 		]
 	},
 	"erosion": {
@@ -147,7 +147,7 @@
 			"",
 			"**Erosion Aura (Su):** At 8th level, you can project an aura of magically enhanced erosion as a standard action. Objects made primarily of metal or stone within this aura lose 10 points of hardness. Magic items retain a minimum hardness equal to twice their enhancement bonus and can attempt a Fortitude saving throw (DC = 10 + half your druid level + your Wisdom modifier) to negate this effect. A construct made primarily of metal or stone must succeed at a Fortitude save or lose all damage reduction and hardness for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Domain Spells:** 1st-[expeditious excavation](spell/expeditious_excavation), 2nd-[soften earth and stone](spell/soften_earth_and_stone), 3rd-[disable construct](spell/disable_construct), 4th-[rusting grasp](spell/rusting_grasp), 5th-[transmute rock to mud](spell/transmute_rock_to_mud), 6th-[sympathetic vibration](spell/sympathetic_vibration), 7th-[disintegrate](spell/disintegrate), 8th-[earthquake](spell/earthquake), 9th-[implosion](spell/implosion)."
+			"**Domain Spells:** 1st-{spell/expeditious excavation}, 2nd-{spell/soften earth and stone}, 3rd-{spell/disable construct}, 4th-{spell/rusting grasp}, 5th-{spell/transmute rock to mud}, 6th-{spell/sympathetic vibration}, 7th-{spell/disintegrate}, 8th-{spell/earthquake}, 9th-{spell/implosion}."
 		]
 	},
 	"frog": {
@@ -162,11 +162,11 @@
 			"",
 			"**Familiar:** You may gain a toad familiar. Your effective wizard level for this ability is equal to your druid level. Your druid level stacks with levels from other classes that grant familiars when determining the powers of your familiar.",
 			"",
-			"**Sticky Strike (Su):** As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the [pull](umr/pull) universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"**Sticky Strike (Su):** As a standard action, you can attempt a ranged touch attack with a sticky tendril against a target up to 15 feet away, then use the {umr/pull} universal monster ability to pull the target 5 feet toward you. You gain a bonus on the pull's combat maneuver check equal to 1/2 your druid level. If the target is larger than you, you may pull yourself 5 feet toward the target without making a check. The target can remove the tendril by making an opposed Strength check as a standard action, or by dealing enough slashing damage to the tendril (hit points equal to your druid level, Armor Class equal to your touch Armor Class). You can dissolve the tendril as a free action. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Webfoot (Ex):** At 6th level, you gain the amphibious special quality and a swim speed equal to your land speed. At 12th level, you gain a climb speed equal to your land speed.",
 			"",
-			"**Domain Spells:** 1st-[jump](spell/jump), 2nd-[delay poison](spell/delay_poison), 3rd-[lily pad stride](spell/lily_pad_stride), 4th-[shout](spell/shout), 5th-[blessing of the salamander](spell/blessing_of_the_salamander), 6th-[confusion](spell/confusion), 7th-[animal shapes](spell/animal_shapes) (amphibians only), 8th-[greater shout](spell/greater_shout), 9th-[summon froghemoth](spell/summon_froghemoth)."
+			"**Domain Spells:** 1st-{spell/jump}, 2nd-{spell/delay poison}, 3rd-{spell/lily pad stride}, 4th-{spell/shout}, 5th-{spell/blessing of the salamander}, 6th-{spell/confusion}, 7th-{spell/animal shapes} (amphibians only), 8th-{spell/greater shout}, 9th-{spell/summon froghemoth}."
 		]
 	},
 	"jungle": {
@@ -183,7 +183,7 @@
 			"",
 			"**Trap Sense (Ex):** At 3rd level, you gain the trap sense ability. This is identical to the rogue class ability. Your effective rogue level is equal to your druid level for the purpose of determining your trap sense bonus. Trap sense bonuses gained from multiple classes stack.",
 			"",
-			"**Domain Spells:** 1st-[glide](spell/glide), 2nd-[tar ball](spell/tar_ball), 3rd-[venomous bolt](spell/venomous_bolt), 4th-[arboreal hammer](spell/arboreal_hammer), 5th-[blessing of the salamander](spell/blessing_of_the_salamander), 6th-[swarm skin](spell/swarm_skin), 7th-[creeping doom](spell/creeping_doom), 8th-[wall of lava](spell/wall_of_lava), 9th-[shambler](spell/shambler)."
+			"**Domain Spells:** 1st-{spell/glide}, 2nd-{spell/tar ball}, 3rd-{spell/venomous bolt}, 4th-{spell/arboreal hammer}, 5th-{spell/blessing of the salamander}, 6th-{spell/swarm skin}, 7th-{spell/creeping doom}, 8th-{spell/wall of lava}, 9th-{spell/shambler}."
 		]
 	},
 	"monkey": {
@@ -202,7 +202,7 @@
 			"",
 			"**Ranged Legerdemain (Su):** At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.",
 			"",
-			"**Domain Spells:** 1st-[beguiling gift](spell/beguiling_gift), 2nd-[spider climb](spell/spider_climb), 3rd-[cacophonous call](spell/cacophonous_call), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[summon nature's ally V](spell/summon_natures_ally_5) (dire ape or girallon only), 6th-[confusion](spell/confusion), 7th-[animal shapes](spell/animal_shapes) (apes and monkeys only), 8th-[clenched fist](spell/clenched_fist), 9th-[foresight](spell/foresight)."
+			"**Domain Spells:** 1st-{spell/beguiling gift}, 2nd-{spell/spider climb}, 3rd-{spell/cacophonous call}, 4th-{spell/freedom of movement}, 5th-[summon nature's ally V](spell/summon_natures_ally_5) (dire ape or girallon only), 6th-{spell/confusion}, 7th-{spell/animal shapes} (apes and monkeys only), 8th-{spell/clenched fist}, 9th-{spell/foresight}."
 		]
 	},
 	"mountain": {
@@ -219,7 +219,7 @@
 			"",
 			"**Thin Air (Su):** At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are fatigued (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from altitude sickness, taking 1 point of ability damage to all ability scores. At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive.",
 			"",
-			"**Domain Spells:** 1st-[stone fist](spell/stone_fist), 2nd-[stone call](spell/stone_call), 3rd-[cloak of winds](spell/cloak_of_winds), 4th-[stoneskin](spell/stoneskin), 5th-[geyser](spell/geyser), 6th-[suffocation](spell/suffocation), 7th-[flesh to stone](spell/flesh_to_stone), 8th-[reverse gravity](spell/reverse_gravity), 9th-[clashing rocks](spell/clashing_rocks)."
+			"**Domain Spells:** 1st-{spell/stone fist}, 2nd-{spell/stone call}, 3rd-{spell/cloak of winds}, 4th-{spell/stoneskin}, 5th-{spell/geyser}, 6th-{spell/suffocation}, 7th-{spell/flesh to stone}, 8th-{spell/reverse gravity}, 9th-{spell/clashing rocks}."
 		]
 	},
 	"panther": {
@@ -236,7 +236,7 @@
 			"",
 			"**Move in Darkness (Ex):** At 8th level, in areas of normal or magical darkness, you gain a +2 bonus on Stealth skill checks and initiative checks for every 4 druid levels you possess, to a maximum bonus of +10 at 20th level.",
 			"",
-			"**Domain Spells:** 1st-[true strike](spell/true_strike), 2nd-[darkness](spell/darkness), 3rd-[deeper darkness](spell/deeper_darkness), 4th-[moonstruck](spell/moonstruck), 5th-[commune with nature](spell/commune_with_nature), 6th-[mislead](spell/mislead), 7th-[true seeing](spell/true_seeing), 8th-[nine lives](spell/nine_lives), 9th-[greater spell immunity](spell/greater_spell_immunity)."
+			"**Domain Spells:** 1st-{spell/true strike}, 2nd-{spell/darkness}, 3rd-{spell/deeper darkness}, 4th-{spell/moonstruck}, 5th-{spell/commune with nature}, 6th-{spell/mislead}, 7th-{spell/true seeing}, 8th-{spell/nine lives}, 9th-{spell/greater spell immunity}."
 		]
 	},
 	"plains": {
@@ -253,7 +253,7 @@
 			"",
 			"**Pounce (Ex):** At 6th level, you may use the pounce special attack once per day. You may pounce one additional time per day for every 3 levels after 6th.",
 			"",
-			"**Domain Spells:** 1st-[mount](spell/mount), 2nd-[chameleon stride](spell/chameleon_stride), 3rd-[haste](spell/haste), 4th-[aspect of the stag](spell/aspect_of_the_stag), 5th-[control winds](spell/control_winds), 6th-[find the path](spell/find_the_path), 7th-[whirlwind](spell/whirlwind), 8th-[animal shapes](spell/animal_shapes), 9th-[world wave](spell/world_wave)."
+			"**Domain Spells:** 1st-{spell/mount}, 2nd-{spell/chameleon stride}, 3rd-{spell/haste}, 4th-{spell/aspect of the stag}, 5th-{spell/control winds}, 6th-{spell/find the path}, 7th-{spell/whirlwind}, 8th-{spell/animal shapes}, 9th-{spell/world wave}."
 		]
 	},
 	"plane_of_air": {
@@ -272,7 +272,7 @@
 			"",
 			"**Alternatively, you can choose to gain a Small air elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar**.",
 			"",
-			"**Domain Spells:** 1st-[feather fall](spell/feather_fall), 2nd-[elemental speech](spell/elemental_speech), 3rd-[fly](spell/fly), 4th-[planar adaptation](spell/planar_adaptation), 5th-[overland flight](spell/overland_flight), 6th-[mass planar adaptation](spell/mass_planar_adaptation), 7th-[mass fly](spell/mass_fly), 8th-[mass invisibility](spell/mass_invisibility), 9th-[winds of vengeance](spell/winds_of_vengeance)."
+			"**Domain Spells:** 1st-{spell/feather fall}, 2nd-{spell/elemental speech}, 3rd-{spell/fly}, 4th-{spell/planar adaptation}, 5th-{spell/overland flight}, 6th-{spell/mass planar adaptation}, 7th-{spell/mass fly}, 8th-{spell/mass invisibility}, 9th-{spell/winds of vengeance}."
 		]
 	},
 	"plane_of_earth": {
@@ -287,11 +287,11 @@
 			"",
 			"**Spelunker (Su):** You ably clamber through underground areas. As a free action, you can ignore difficult terrain from stony surfaces, you take no penalties for squeezing through rocky areas, and you gain damage reduction 5/- against rocky hazards such as spike growth. This effect lasts for 1 round, and you can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**One with the Stone (Su):** At 8th level as a swift action, you gain the [earth glide](umr/earth_glide) universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability. You can use this ability for a number of rounds per day equal to your druid level, and these rounds don't need to be consecutive.",
+			"**One with the Stone (Su):** At 8th level as a swift action, you gain the {umr/earth glide} universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability. You can use this ability for a number of rounds per day equal to your druid level, and these rounds don't need to be consecutive.",
 			"",
 			"**Alternatively, you can choose to gain a Small earth elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar**.",
 			"",
-			"**Domain Spells:** 1st-[stone fist](spell/stone_fist), 2nd-[elemental speech](spell/elemental_speech), 3rd-[burrow](spell/burrow), 4th-[planar adaptation](spell/planar_adaptation), 5th-[passwall](spell/passwall), 6th-[mass planar adaptation](spell/mass_planar_adaptation), 7th-[stone to flesh](spell/stone_to_flesh), 8th-[repel metal or stone](spell/repel_metal_or_stone), 9th-[clashing rocks](spell/clashing_rocks)."
+			"**Domain Spells:** 1st-{spell/stone fist}, 2nd-{spell/elemental speech}, 3rd-{spell/burrow}, 4th-{spell/planar adaptation}, 5th-{spell/passwall}, 6th-{spell/mass planar adaptation}, 7th-{spell/stone to flesh}, 8th-{spell/repel metal or stone}, 9th-{spell/clashing rocks}."
 		]
 	},
 	"plane_of_fire": {
@@ -310,7 +310,7 @@
 			"",
 			"**Alternatively, you can choose to gain a Small fire elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar**.",
 			"",
-			"**Domain Spells:** 1st-[obscuring mist](spell/obscuring_mist) (creates smoke), 2nd-[elemental speech](spell/elemental_speech), 3rd-[ash storm](spell/ash_storm), 4th-[planar adaptation](spell/planar_adaptation), 5th-[scorching ash form](spell/scorching_ash_form), 6th-[mass planar adaptation](spell/mass_planar_adaptation), 7th-[delayed blast fireball](spell/delayed_blast_fireball), 8th-[destruction](spell/destruction), 9th-[fiery body](spell/fiery_body)."
+			"**Domain Spells:** 1st-{spell/obscuring mist} (creates smoke), 2nd-{spell/elemental speech}, 3rd-{spell/ash storm}, 4th-{spell/planar adaptation}, 5th-{spell/scorching ash form}, 6th-{spell/mass planar adaptation}, 7th-{spell/delayed blast fireball}, 8th-{spell/destruction}, 9th-{spell/fiery body}."
 		]
 	},
 	"plane_of_water": {
@@ -329,7 +329,7 @@
 			"",
 			"**Alternatively, you can choose to gain a Small water elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar**.",
 			"",
-			"**Domain Spells:** 1st-[touch of the sea](spell/touch_of_the_sea), 2nd-[elemental speech](spell/elemental_speech), 3rd-[water breathing](spell/water_breathing), 4th-[planar adaptation](spell/planar_adaptation), 5th-[solid fog](spell/solid_fog) (functions underwater), 6th-[mass planar adaptation](spell/mass_planar_adaptation), 7th-[fluid form](spell/fluid_form), 8th-[seamantle](spell/seamantle), 9th-[tsunami](spell/tsunami)."
+			"**Domain Spells:** 1st-{spell/touch of the sea}, 2nd-{spell/elemental speech}, 3rd-{spell/water breathing}, 4th-{spell/planar adaptation}, 5th-{spell/solid fog} (functions underwater), 6th-{spell/mass planar adaptation}, 7th-{spell/fluid form}, 8th-{spell/seamantle}, 9th-{spell/tsunami}."
 		]
 	},
 	"ruins": {
@@ -348,7 +348,7 @@
 			"",
 			"**Surefooted (Ex):** At 8th level, your speed is not reduced by difficult terrain unless the terrain has been magically manipulated to impede motion.",
 			"",
-			"**Domain Spells:** 1st-[magic stone](spell/magic_stone), 2nd-[stone call](spell/stone_call), 3rd-[meld into stone](spell/meld_into_stone), 4th-[rusting grasp](spell/rusting_grasp), 5th-[commune with nature](spell/commune_with_nature), 6th-[stone tell](spell/stone_tell), 7th-[statue](spell/statue), 8th-[earthquake](spell/earthquake), 9th-[clashing rocks](spell/clashing_rocks)."
+			"**Domain Spells:** 1st-{spell/magic stone}, 2nd-{spell/stone call}, 3rd-{spell/meld into stone}, 4th-{spell/rusting grasp}, 5th-{spell/commune with nature}, 6th-{spell/stone tell}, 7th-{spell/statue}, 8th-{spell/earthquake}, 9th-{spell/clashing rocks}."
 		]
 	},
 	"serpent": {
@@ -367,7 +367,7 @@
 			"",
 			"**Venom Immunity (Ex):** At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons. This replaces venom immunity.",
 			"",
-			"**Domain Spells:** 1st-[charm animal](spell/charm_animal), 2nd-[animal trance](spell/animal_trance), 3rd-[poison](spell/poison), 4th-[strong jaw](spell/strong_jaw), 5th-[snake staff](spell/snake_staff), 6th-[charm monster](spell/charm_monster), 7th-[animal shapes](spell/animal_shapes) (reptiles and snakes only), 8th-[scintillating pattern](spell/scintillating_pattern), 9th-[crushing hand](spell/crushing_hand)."
+			"**Domain Spells:** 1st-{spell/charm animal}, 2nd-{spell/animal trance}, 3rd-{spell/poison}, 4th-{spell/strong jaw}, 5th-{spell/snake staff}, 6th-{spell/charm monster}, 7th-{spell/animal shapes} (reptiles and snakes only), 8th-{spell/scintillating pattern}, 9th-{spell/crushing hand}."
 		]
 	},
 	"swamp": {
@@ -380,11 +380,11 @@
 			"",
 			"**Granted Powers:** The sour-sweet depths of bogs, marshes, and swamps are your places of power.",
 			"",
-			"**Natural Healing (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as [Extra Channel](feat/extra_channel), but not feats that alter this ability, such as [Elemental Channel](feat/elemental_channel) and [Alignment Channel](feat/alignment_channel).",
+			"**Natural Healing (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as {feat/Extra Channel}, but not feats that alter this ability, such as {feat/Elemental Channel} and {feat/Alignment Channel}.",
 			"",
 			"**Reed Hunter (Ex):** At 6th level, you gain blindsense 30 feet with respect to concealment and cover from fog, vegetation, or water. At 12th level, this improves to blindsight 30 feet with respect to these conditions.",
 			"",
-			"**Domain Spells:** 1st-[hydraulic push](spell/hydraulic_push), 2nd-[burst of nettles](spell/burst_of_nettles), 3rd-[lily pad stride](spell/lily_pad_stride), 4th-[cape of wasps](spell/cape_of_wasps), 5th-[insect plague](spell/insect_plague), 6th-[mass fester](spell/mass_fester), 7th-[animate plants](spell/animate_plants), 8th-[blood mist](spell/blood_mist), 9th-[shambler](spell/shambler)."
+			"**Domain Spells:** 1st-{spell/hydraulic push}, 2nd-{spell/burst of nettles}, 3rd-{spell/lily pad stride}, 4th-{spell/cape of wasps}, 5th-{spell/insect plague}, 6th-{spell/mass fester}, 7th-{spell/animate plants}, 8th-{spell/blood mist}, 9th-{spell/shambler}."
 		]
 	},
 	"the_uskbond": {
@@ -401,7 +401,7 @@
 			"",
 			"**Gruesome Display (Ex):** At 8th level, as a standard action you can alter your appearance in such intense, horrific ways that onlookers become nauseated. One creature you select within 30 feet who can see you must succeed at a Will save (DC = 10 + 1/2 your druid level + your Wisdom modifier) or be nauseated for a number of rounds equal to 1/2 your druid level. Every 2 levels beyond 8th, you can affect one additional creature, to a maximum of seven targets within 30 feet at 20th level. Each time you activate your gruesome display, you must affect at least one target, but you can choose to affect fewer targets than your maximum. Once you've targeted the maximum number of creatures granted by level (regardless of whether they successfully save to resist the effect or not), you cannot use gruesome display again for the remainder of the day. This is a mind-affecting fear effect.",
 			"",
-			"**Domain Spells:** 1st-[delay pain](spell/delay_pain), 2nd-[lesser curse terrain](spell/lesser_curse_terrain), 3rd-[excruciating deformation](spell/excruciating_deformation), 4th-[curse terrain](spell/curse_terrain), 5th-[symbol of pain](spell/symbol_of_pain), 6th-[greater curse terrain](spell/greater_curse_terrain), 7th-[verminous transformation](spell/verminous_transformation), 8th-[supreme curse terrain](spell/supreme_curse_terrain), 9th-[maze of madness and suffering](spell/maze_of_madness_and_suffering) (haunted forest only)."
+			"**Domain Spells:** 1st-{spell/delay pain}, 2nd-{spell/lesser curse terrain}, 3rd-{spell/excruciating deformation}, 4th-{spell/curse terrain}, 5th-{spell/symbol of pain}, 6th-{spell/greater curse terrain}, 7th-{spell/verminous transformation}, 8th-{spell/supreme curse terrain}, 9th-{spell/maze of madness and suffering} (haunted forest only)."
 		]
 	},
 	"vermin": {
@@ -421,7 +421,7 @@
 			"",
 			"**Sudden Sting (Su):** At 8th level, you can inflict a lingering, painful sting as a swift action that requires a successful melee touch attack. This sting deals 1d4 points of piercing damage plus 1 point for every 2 druid levels you have, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become staggered for 1 round. This is a pain effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Domain Spells:** 1st-[ant haul](spell/ant_haul), 2nd-[summon swarm](spell/summon_swarm), 3rd-[vermin shape I](spell/vermin_shape_i), 4th-[vermin shape II](spell/vermin_shape_ii), 5th-[insect plague](spell/insect_plague), 6th-[swarm skin](spell/swarm_skin), 7th-[creeping doom](spell/creeping_doom), 8th-[verminous transformation](spell/verminous_transformation), 9th-[summon nature's ally IX](spell/summon_natures_ally_9) (1d3 purple worms only)."
+			"**Domain Spells:** 1st-{spell/ant haul}, 2nd-{spell/summon swarm}, 3rd-{spell/vermin shape I}, 4th-{spell/vermin shape II}, 5th-{spell/insect plague}, 6th-{spell/swarm skin}, 7th-{spell/creeping doom}, 8th-{spell/verminous transformation}, 9th-[summon nature's ally IX](spell/summon_natures_ally_9) (1d3 purple worms only)."
 		]
 	},
 	"vulture": {
@@ -438,7 +438,7 @@
 			"",
 			"**Agent of Rebirth (Sp):** At 8th level, you may expend a quantity of special oils worth 1,000 gp to cast reincarnate as a spell-like ability usable once per day. Additionally, when using this ability or casting reincarnate as a prepared spell, you have some influence over the physical form that the reincarnated spirit will take. When rolling against the spell's incarnation table, you may roll twice and choose between the two results.",
 			"",
-			"**Domain Spells:** 1st-[deathwatch](spell/deathwatch), 2nd-[glide](spell/glide), 3rd-[death knell](spell/death_knell), 4th-[death ward](spell/death_ward), 5th-[breath of life](spell/breath_of_life), 6th-[circle of death](spell/circle_of_death), 7th-[resurrection](spell/resurrection), 8th-[finger of death](spell/finger_of_death), 9th-[winds of vengeance](spell/winds_of_vengeance)."
+			"**Domain Spells:** 1st-{spell/deathwatch}, 2nd-{spell/glide}, 3rd-{spell/death knell}, 4th-{spell/death ward}, 5th-{spell/breath of life}, 6th-{spell/circle of death}, 7th-{spell/resurrection}, 8th-{spell/finger of death}, 9th-{spell/winds of vengeance}."
 		]
 	},
 	"wolf": {
@@ -451,11 +451,11 @@
 			"",
 			"**Granted Powers:** You run with the pack and are the master of the cold hunt of your spirit totem.",
 			"",
-			"**Improved Trip:** You gain [Improved Trip](feat/improved_trip) as a bonus feat.",
+			"**Improved Trip:** You gain {feat/Improved Trip} as a bonus feat.",
 			"",
 			"**Pack Tactics (Ex):** At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Domain Spells:** 1st-[hunter's howl](spell/hunters_howl), 2nd-[bloodhound](spell/bloodhound), 3rd-[aspect of the wolf](spell/aspect_of_the_wolf), 4th-[strong jaw](spell/strong_jaw), 5th-[tireless pursuers](spell/tireless_pursuers), 6th-[find the path](spell/find_the_path), 7th-[animal shapes](spell/animal_shapes) (canines only), 8th-[phantasmal revenge](spell/phantasmal_revenge), 9th-[freedom](spell/freedom)."
+			"**Domain Spells:** 1st-{spell/hunter's howl}, 2nd-{spell/bloodhound}, 3rd-{spell/aspect of the wolf}, 4th-{spell/strong jaw}, 5th-{spell/tireless pursuers}, 6th-{spell/find the path}, 7th-{spell/animal shapes} (canines only), 8th-{spell/phantasmal revenge}, 9th-{spell/freedom}."
 		]
 	}
 }

@@ -12,7 +12,7 @@
 			"",
 			"### Description",
 			"",
-			"This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described in [Magic Armor](rule/magic_armor)."
+			"This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described in {rule/Magic Armor}."
 		]
 	},
 	"hit_dice_modification": {
@@ -94,7 +94,7 @@
 			"",
 			"### Description",
 			"",
-			"This modification allows a construct to cast a spell-like ability in a limited capacity. A spell-like ability chosen for this modification can be of any level, but it must be one that the construct's creator can cast. The construct can cast the selected spell-like ability once per day. Using this modification, a construct's creator can provide additional castings of the same spell-like ability by paying the cost for that spell multiple times. For example, a construct can gain the ability to cast [fireball](spell/fireball) three times per day if the creator pays for the cost of the spell-like ability three times. A construct's Hit Dice limit the total amount of spell-like abilities it can gain from this modification. A construct can gain only a number of spell levels through this modification up to a total equal to its Hit Dice. Following the above example, the construct requires at least 9 Hit Dice to cast [fireball](spell/fireball) three times per day. The cost for adding a spell like ability is equal to 3,000 gp per spell level of the spell. For the purposes of this cost, a 0-level spell has a spell level of 1/2."
+			"This modification allows a construct to cast a spell-like ability in a limited capacity. A spell-like ability chosen for this modification can be of any level, but it must be one that the construct's creator can cast. The construct can cast the selected spell-like ability once per day. Using this modification, a construct's creator can provide additional castings of the same spell-like ability by paying the cost for that spell multiple times. For example, a construct can gain the ability to cast {spell/fireball} three times per day if the creator pays for the cost of the spell-like ability three times. A construct's Hit Dice limit the total amount of spell-like abilities it can gain from this modification. A construct can gain only a number of spell levels through this modification up to a total equal to its Hit Dice. Following the above example, the construct requires at least 9 Hit Dice to cast {spell/fireball} three times per day. The cost for adding a spell like ability is equal to 3,000 gp per spell level of the spell. For the purposes of this cost, a 0-level spell has a spell level of 1/2."
 		]
 	},
 	"weapon_modification": {
@@ -110,7 +110,7 @@
 			"",
 			"### Description",
 			"",
-			"This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described in [Magic Weapons](rule/magic_weapons). Performing a weapon modification also requires the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) feat."
+			"This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described in {rule/Magic Weapons}. Performing a weapon modification also requires the {feat/Craft Magic Arms and Armor} feat."
 		]
 	},
 	"ability_score_increase": {
@@ -137,7 +137,7 @@
 			"",
 			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Complex; **Cost** 250 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](spell/alarm)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -153,7 +153,7 @@
 			"",
 			"{SOURCE Ultimate Magic/115}  ",
 			"**Type** Complex; **Cost** See below  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [shatter](spell/shatter), variable (see below)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/shatter}, variable (see below)  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -168,7 +168,7 @@
 			"",
 			"#### Modification",
 			"",
-			"Requirements [fireball](spell/fireball); Cost 1,200 gp",
+			"Requirements {spell/fireball}; Cost 1,200 gp",
 			"",
 			"### Firebomb Stash",
 			"",
@@ -176,7 +176,7 @@
 			"",
 			"#### Modification",
 			"",
-			"Requirements [fireball](spell/fireball); Cost 1,200 gp",
+			"Requirements {spell/fireball}; Cost 1,200 gp",
 			"",
 			"### Frost Mist Stash",
 			"",
@@ -184,7 +184,7 @@
 			"",
 			"#### Modification",
 			"",
-			"Requirements [cone of cold](spell/cone_of_cold); Cost 1,000 gp",
+			"Requirements {spell/cone of cold}; Cost 1,000 gp",
 			"",
 			"### Lightning Lash Stash",
 			"",
@@ -192,7 +192,7 @@
 			"",
 			"#### Modification",
 			"",
-			"Requirements [lightning bolt](spell/lightning_bolt); Cost 1,200 gp",
+			"Requirements {spell/lightning bolt}; Cost 1,200 gp",
 			"",
 			"### Willsap Gas Stash",
 			"",
@@ -200,7 +200,7 @@
 			"",
 			"#### Modification",
 			"",
-			"Requirements [stinking cloud](spell/stinking_cloud); Cost 2,000 gp"
+			"Requirements {spell/stinking cloud}; Cost 2,000 gp"
 		]
 	},
 	"corrosive_jet_stash_shatter_stash": {
@@ -223,7 +223,7 @@
 			"",
 			"{SOURCE Ultimate Magic/115}  ",
 			"**Type** Complex; **Cost** See below  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), variable (see below)  ",
+			"**Requirements** {feat/Craft Construct}, variable (see below)  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -244,7 +244,7 @@
 			"",
 			"#### Modification",
 			"",
-			"**Requirements** [symbol of pain](spell/symbol_of_pain); Cost 18,000 gp",
+			"**Requirements** {spell/symbol of pain}; Cost 18,000 gp",
 			"",
 			"### Rune of Imprisonment",
 			"",
@@ -258,7 +258,7 @@
 			"",
 			"#### Modification",
 			"",
-			"**Requirements** [trap the soul](spell/trap_the_soul), gem worth 20,000 gp to serve as the rune's focus; Cost 57,600 gp",
+			"**Requirements** {spell/trap the soul}, gem worth 20,000 gp to serve as the rune's focus; Cost 57,600 gp",
 			"",
 			"### Rune of Lightning",
 			"",
@@ -270,7 +270,7 @@
 			"",
 			"#### Modification",
 			"",
-			"**Requirements** [shocking grasp](spell/shocking_grasp); Cost 2,000 gp",
+			"**Requirements** {spell/shocking grasp}; Cost 2,000 gp",
 			"",
 			"### Rune of Shielding",
 			"",
@@ -282,7 +282,7 @@
 			"",
 			"#### Modification",
 			"",
-			"**Requirements** [shield](spell/shield); Cost 1,200 gp",
+			"**Requirements** {spell/shield}; Cost 1,200 gp",
 			"",
 			"### Rune of Terror",
 			"",
@@ -294,7 +294,7 @@
 			"",
 			"#### Modification",
 			"",
-			"**Requirements** [fear](spell/fear); Cost 11,200 gp"
+			"**Requirements** {spell/fear}; Cost 11,200 gp"
 		]
 	},
 	"self-repair": {
@@ -305,7 +305,7 @@
 			"",
 			"{SOURCE Construct Handbook/9}  ",
 			"**Type** Complex; **Cost** 1,500 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [make whole](spell/make_whole)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/make whole}  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
@@ -329,12 +329,12 @@
 			"",
 			"{SOURCE Construct Handbook/9}  ",
 			"**Type** Complex; **Cost** 3,570 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [fireball](spell/fireball)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/fireball}  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
 			"",
-			"This modification causes a construct to explode in a shower of razor-sharp scrap and debris when it is reduced to 0 or fewer hit points. All creatures within a 10-foot burst of the construct take a number of points of slashing damage equal to 1d6 times the construct's CR. A successful Reflex save (DC = 10 + half the construct's Hit Dice + the construct's Constitution modifier) halves this damage. If a construct already has a similar ability, such as the death burst of a [clockwork golem](monster/clockwork_golem), the DC of the ability instead increases by 4."
+			"This modification causes a construct to explode in a shower of razor-sharp scrap and debris when it is reduced to 0 or fewer hit points. All creatures within a 10-foot burst of the construct take a number of points of slashing damage equal to 1d6 times the construct's CR. A successful Reflex save (DC = 10 + half the construct's Hit Dice + the construct's Constitution modifier) halves this damage. If a construct already has a similar ability, such as the death burst of a {monster/clockwork golem}, the DC of the ability instead increases by 4."
 		]
 	},
 	"crafters_eyes": {
@@ -345,14 +345,14 @@
 			"",
 			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 8,000 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [scrying](spell/scrying)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/scrying}  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"The crafter gives her construct crystalline eyes that permit her to use a [scrying](spell/scrying) or [greater scrying](spell/greater_scrying) spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the [scrying](spell/scrying) or [greater scrying](spell/greater_scrying) spell. The cost of creating that focus is included in the cost of modifying the construct.",
+			"The crafter gives her construct crystalline eyes that permit her to use a {spell/scrying} or {spell/greater scrying} spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the {spell/scrying} or {spell/greater scrying} spell. The cost of creating that focus is included in the cost of modifying the construct.",
 			"",
-			"Unlike normal [scrying](spell/scrying) or [greater scrying](spell/greater_scrying), there is no chance of failure for viewing creatures though the sensor; the creator simply sees what the construct sees for the duration of the spell. Spells cast through the sensor still have the normal chance of operating through the construct's eyes."
+			"Unlike normal {spell/scrying} or {spell/greater scrying}, there is no chance of failure for viewing creatures though the sensor; the creator simply sees what the construct sees for the duration of the spell. Spells cast through the sensor still have the normal chance of operating through the construct's eyes."
 		]
 	},
 	"rune_of_terror_rune_carved": {
@@ -367,7 +367,7 @@
 			"",
 			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [mage's private sanctum](spell/mages_private_sanctum), Small or larger construct  ",
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/mage's private sanctum}, Small or larger construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -385,7 +385,7 @@
 			"",
 			"{SOURCE Construct Handbook/8}  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [secret chest](spell/secret_chest), Small or larger construct  ",
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/secret chest}, Small or larger construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -401,7 +401,7 @@
 			"",
 			"{SOURCE Construct Handbook/9}  ",
 			"**Type** Complex; **Cost** 16,500 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [telepathy](spell/telepathy)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/telepathy}  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -421,7 +421,7 @@
 			"",
 			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 22,750 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [regenerate](spell/regenerate)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/regenerate}  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
@@ -443,12 +443,12 @@
 			"",
 			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 27,000 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects), Small or Tiny construct  ",
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Magic Arms and Armor}, {spell/animate objects}, Small or Tiny construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification can be performed on a Small or Tiny construct, such as an [iron cobra](monster/iron_cobra) or a [homunculus](monster/homunculus). The creator modifies the construct such that she can slip it over her arm and control its actions as part of her own. The construct limb retains any melee attacks that the construct has, and the creator can use special attacks as if she were the construct (using the construct's attack statistics and effects), but treat the creator as the creature making attacks for the purpose of determining attacks of opportunity and other actions that could be triggered by an attack made by the creator.",
+			"This modification can be performed on a Small or Tiny construct, such as an {monster/iron cobra} or a {monster/homunculus}. The creator modifies the construct such that she can slip it over her arm and control its actions as part of her own. The construct limb retains any melee attacks that the construct has, and the creator can use special attacks as if she were the construct (using the construct's attack statistics and effects), but treat the creator as the creature making attacks for the purpose of determining attacks of opportunity and other actions that could be triggered by an attack made by the creator.",
 			"",
 			"The limb also provides the wearer with limited protection in combat, roughly equivalent to that of a heavy steel shield. The wearer is considered proficient in this shield. The wearer retains the remainder of her abilities.",
 			"",
@@ -463,7 +463,7 @@
 			"",
 			"{SOURCE Ultimate Magic/114}  ",
 			"**Type** Complex; **Cost** 35,000 gp  ",
-			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [animate objects](spell/animate_objects), the construct modified must be the same size as the creator  ",
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Magic Arms and Armor}, {spell/animate objects}, the construct modified must be the same size as the creator  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",

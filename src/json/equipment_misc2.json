@@ -1103,7 +1103,7 @@
 			"**Price** 670 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber. This kit includes 10 candles, three flasks of holy water, one potion of lesser restoration, a crowbar, a folding shovel, four sunrods, one [spiritbane spike](equipment-misc/spiritbane_spike), and a wooden holy symbol."
+			"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber. This kit includes 10 candles, three flasks of holy water, one potion of lesser restoration, a crowbar, a folding shovel, four sunrods, one {equipment-misc/spiritbane spike}, and a wooden holy symbol."
 		]
 	},
 	"ghost_ink": {
@@ -5505,7 +5505,7 @@
 			"**Price** 50 gp; **Weight** 8 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This item is based on [mithral horseshoes](equipment-misc/mithral_horseshoes), back-ported per the rules for [mithral](equipment-material/mithral)."
+			"This item is based on {equipment-misc/mithral horseshoes}, back-ported per the rules for {equipment-material/mithral}."
 		]
 	},
 	"mithral_manacles": {
@@ -6128,7 +6128,7 @@
 			"**Price** 7 sp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in Heal and the [Skill Focus](feat/skill_focus) (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in Heal and the {feat/Skill Focus} (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"nushadir": {
@@ -6351,7 +6351,7 @@
 			"{SOURCE Alchemy Manual/23}  ",
 			"**Price** 500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small); **Weight** 10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)",
 			"",
-			"These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically embedded with glass-fiber tubing designed to carry electrical charges to growing oozes. In order to craft an ooze creature using the [Craft Ooze](feat/craft_ooze) feat, a creator must have access to an oozing vat large enough to contain the created ooze."
+			"These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically embedded with glass-fiber tubing designed to carry electrical charges to growing oozes. In order to craft an ooze creature using the {feat/Craft Ooze} feat, a creator must have access to an oozing vat large enough to contain the created ooze."
 		]
 	},
 	"oozing_vat_huge": {
@@ -6489,7 +6489,7 @@
 			"**Price** 55 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
-			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a [city map](equipment-misc/city_map), and [fashionable accessories](equipment-misc/fashionable_accessories)."
+			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a {equipment-misc/city map}, and {equipment-misc/fashionable accessories}."
 		]
 	},
 	"out_of_towners_kit": {
@@ -6531,7 +6531,7 @@
 			"**Price** 24 gp; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to aurochs, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the docile special quality (see [horse](monster/horse)), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics."
+			"These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World. Their statistics are identical to aurochs, but they are immune to cold weather effects (though not severe cold and extreme cold effects). Domesticated musk oxen have the docile special quality (see {monster/horse}), and treat their gore attack as a secondary natural weapon. In the polar rim mountains of Tian Xia, yaks are used as pack animals and have identical statistics."
 		]
 	},
 	"pack_animal_ox": {
@@ -6607,7 +6607,7 @@
 			"**Price** 324 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like [plague powder](equipment-weapon/plague_powder) for [pallid gift](disease/pallid_gift) (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
+			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like {equipment-weapon/plague powder} for {disease/pallid gift} (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
 		]
 	},
 	"palm_paws": {

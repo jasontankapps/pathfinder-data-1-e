@@ -40,14 +40,14 @@
 		"name": "Arcane Dealer",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"**Arcane Dealer (Su)** ([The Harrow Handbook pg. 24](source/the_harrow_handbook)): The magus gains the [Deadly Dealer](feat/deadly_dealer) feat, even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The magus must use either [Arcane Strike](feat/arcane_strike) or his arcane pool to enhance the cards in order to use them as weapons. The magus must be at least 6th level before selecting this arcana."
+			"**Arcane Dealer (Su)** ([The Harrow Handbook pg. 24](source/the_harrow_handbook)): The magus gains the {feat/Deadly Dealer} feat, even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The magus must use either {feat/Arcane Strike} or his arcane pool to enhance the cards in order to use them as weapons. The magus must be at least 6th level before selecting this arcana."
 		]
 	},
 	"arcane_deed": {
 		"name": "Arcane Deed",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"**Arcane Deed (Ex)** ([Advanced Class Guide pg. 104](source/advanced_class_guide)): When a magus takes this arcana, he can pick any one deed from the swashbuckler class feature as long as that deed can be used by a swashbuckler of his magus level. The magus can use that deed by using points from his arcane pool as the panache points required for that deed. Even if he gains a panache pool through another means, the magus is not considered to have at least 1 point in his panache pool for the purpose of deeds selected with arcane deed, and his effective swashbuckler level for determining such a deed's effect is 0. A magus can take this arcana multiple times, each time gaining a new deed. The magus must have the [flamboyant arcana](magusarcana/flamboyant_arcana) to select this arcana."
+			"**Arcane Deed (Ex)** ([Advanced Class Guide pg. 104](source/advanced_class_guide)): When a magus takes this arcana, he can pick any one deed from the swashbuckler class feature as long as that deed can be used by a swashbuckler of his magus level. The magus can use that deed by using points from his arcane pool as the panache points required for that deed. Even if he gains a panache pool through another means, the magus is not considered to have at least 1 point in his panache pool for the purpose of deeds selected with arcane deed, and his effective swashbuckler level for determining such a deed's effect is 0. A magus can take this arcana multiple times, each time gaining a new deed. The magus must have the {magusarcana/flamboyant arcana} to select this arcana."
 		]
 	},
 	"arcane_edge": {
@@ -155,7 +155,7 @@
 		"name": "Disruptive",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Disruptive (Ex)** ([Ultimate Combat pg. 54](source/ultimate_combat)): The magus gains [Disruptive](feat/disruptive) as a bonus feat. The magus must be at least 6th level before selecting this arcana."
+			"**Disruptive (Ex)** ([Ultimate Combat pg. 54](source/ultimate_combat)): The magus gains {feat/Disruptive} as a bonus feat. The magus must be at least 6th level before selecting this arcana."
 		]
 	},
 	"distant_spellstrike": {
@@ -267,7 +267,7 @@
 		"name": "Pool Ray",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"**Pool Ray** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus can expend 1 point from his arcane pool as a standard action to infuse a ranged weapon with elemental power. As a free action while making an attack roll with the infused ranged weapon, after the attack roll has been made but before the results are revealed by the GM, the magus can release the charge and cause his attack to deal 1d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability). If he misses with this attack, the charge is lost and the effect is wasted. If the magus has the ranged spellstrike class feature (such as through the [myrmidarch](archetype-magus/myrmidarch) archetype), he can use this ability with ranged spellstrike to treat it as its own ranged touch attack. At 6th level and every 3 levels thereafter, the amount of damage dealt by this attack increases by 1d6."
+			"**Pool Ray** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus can expend 1 point from his arcane pool as a standard action to infuse a ranged weapon with elemental power. As a free action while making an attack roll with the infused ranged weapon, after the attack roll has been made but before the results are revealed by the GM, the magus can release the charge and cause his attack to deal 1d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability). If he misses with this attack, the charge is lost and the effect is wasted. If the magus has the ranged spellstrike class feature (such as through the {archetype-magus/myrmidarch} archetype), he can use this ability with ranged spellstrike to treat it as its own ranged touch attack. At 6th level and every 3 levels thereafter, the amount of damage dealt by this attack increases by 1d6."
 		]
 	},
 	"pool_strike": {
@@ -323,7 +323,7 @@
 		"name": "Rakshasa's Fortune",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"**Rakshasa's Fortune (Su)** ([The Harrow Handbook pg. 25](source/the_harrow_handbook)): Whenever the magus casts a spell of the polymorph subschool on himself, he can draw a card from a complete harrow deck he owns as a free action. If the card's alignment and the magus's alignment are a true match, the spell's duration is doubled and the magus can select two additional monster abilities granted by the polymorph spell (such as scent or grab for [beast shape II](spell/beast_shape_2)), even if the form assumed by the magus doesn't normally grant that ability. On a partial match, the magus can select an additional ability granted by the polymorph spell, even if the form assumed by the magus doesn't normally grant that ability. On an opposite match, the duration of the spell is halved and the magus must forgo one of the abilities granted by his form. The magus must be at least 9th level before selecting this arcana."
+			"**Rakshasa's Fortune (Su)** ([The Harrow Handbook pg. 25](source/the_harrow_handbook)): Whenever the magus casts a spell of the polymorph subschool on himself, he can draw a card from a complete harrow deck he owns as a free action. If the card's alignment and the magus's alignment are a true match, the spell's duration is doubled and the magus can select two additional monster abilities granted by the polymorph spell (such as scent or grab for {spell/beast shape II}), even if the form assumed by the magus doesn't normally grant that ability. On a partial match, the magus can select an additional ability granted by the polymorph spell, even if the form assumed by the magus doesn't normally grant that ability. On an opposite match, the duration of the spell is halved and the magus must forgo one of the abilities granted by his form. The magus must be at least 9th level before selecting this arcana."
 		]
 	},
 	"ranger_trap": {
@@ -414,7 +414,7 @@
 		"name": "Spell-Scars",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
-			"**Spell-Scars (Ex)** ([Blood of the Moon pg. 21](source/blood_of_the_moon)): The magus can use special scar-based tattoos called spell-scars on his skin to cast or prepare spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The magus can also prepare spells from his spell-scars without expending them, similar to a wizard using the [Spell Mastery](feat/spell_mastery) feat. The magus does not need to be able to see his spell-scar to use it. A magus has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the [Scribe Scroll](feat/scribe_scroll) feat)."
+			"**Spell-Scars (Ex)** ([Blood of the Moon pg. 21](source/blood_of_the_moon)): The magus can use special scar-based tattoos called spell-scars on his skin to cast or prepare spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The magus can also prepare spells from his spell-scars without expending them, similar to a wizard using the {feat/Spell Mastery} feat. The magus does not need to be able to see his spell-scar to use it. A magus has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the {feat/Scribe Scroll} feat)."
 		]
 	},
 	"still_magic": {

@@ -35,7 +35,7 @@
 			"",
 			"**Str** 26, **Dex** 11, **Con**: 19, **Int** 16, **Wis** 11, **Cha**, 16  ",
 			"**Base Atk** +10; **CMB** +19 (+21 bull rush); **CMD** 29 (31 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Deceitful](feat/deceitful), [Improved Bull Rush](feat/improved_bull_rush), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Deceitful}, {feat/Improved Bull Rush}, {feat/Iron Will}, {feat/Power Attack}, {feat/Throw Anything}  ",
 			"**Skills** Acrobatics +3, Bluff +21, Climb +25, Disguise +25, Escape Artist +17, Intimidate +20, Knowledge (local) +7, Perception +17, Stealth +11, Survival +8, Swim +15; **Racial Modifiers** +4 Disguise, +8 Escape Artist  ",
 			"**Languages** Aquan, Common  ",
 			"**SQ** change shape (Large humanoid, alter self), compression, faceless",
@@ -76,7 +76,7 @@
 			"",
 			"### Greater Faceless Hulks",
 			"",
-			"Known as ugoloroths among their own kind, the largest and most ancient faceless hulks serve as spies and infiltrators within the societies of the largest races of giantkind, including cloud giants, storm giants, and taiga giants. An ugoloroth is a faceless hulk with the advanced and giant creature simple templates. It gains [Combat Reflexes](feat/combat_reflexes) and [Greater Bull Rush](feat/greater_bull_rush) as bonus feats. It casts spell-like abilities as a 12th-level caster, and gains levitate and undetectable alignment as at-will spell-like abilities. When using its change shape ability, an ugoloroth can take the shape of any Huge humanoid. More so than their ugoroth kin, ugoloroths often take levels in classes such as barbarian, fighter, ranger, sorcerer, and witch to more easily pass as members of various giant races."
+			"Known as ugoloroths among their own kind, the largest and most ancient faceless hulks serve as spies and infiltrators within the societies of the largest races of giantkind, including cloud giants, storm giants, and taiga giants. An ugoloroth is a faceless hulk with the advanced and giant creature simple templates. It gains {feat/Combat Reflexes} and {feat/Greater Bull Rush} as bonus feats. It casts spell-like abilities as a 12th-level caster, and gains levitate and undetectable alignment as at-will spell-like abilities. When using its change shape ability, an ugoloroth can take the shape of any Huge humanoid. More so than their ugoroth kin, ugoloroths often take levels in classes such as barbarian, fighter, ranger, sorcerer, and witch to more easily pass as members of various giant races."
 		]
 	},
 	"ugoroth": { "copyof": "faceless_hulk_ugoroth" },
@@ -118,7 +118,7 @@
 			"",
 			"**Str** 18, **Dex** 17, **Con**: 18, **Int** 13, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +3; **CMB** +7 (+11 grapple); **CMD** 20  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Deceitful}, {feat/Improved Initiative}  ",
 			"**Skills** Bluff +10, Disguise +14 (+24 when using change shape), Escape Artist +19, Sleight of Hand +8, Stealth +11 Racial Modifiers +4 Disguise, +8 Escape Artist  ",
 			"**Languages** Aquan, Common; tongues  ",
 			"**SQ** change shape (Medium humanoid, alter self), compression, faceless",
@@ -178,7 +178,7 @@
 			"",
 			"**Str** 45, **Dex** 6, **Con**: 30, **Int** 4, **Wis** 11, **Cha**, 5  ",
 			"**Base Atk** +16; **CMB** +41; **CMD** 49  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Diehard](feat/diehard), [Endurance](feat/endurance), [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), [Improved Overrun](feat/improved_overrun), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Diehard}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Improved Bull Rush}, {feat/Improved Overrun}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Perception +19, Swim +25  ",
 			"**Languages** Aklo (can't speak)  ",
 			"**SQ** blind, hold breath",
@@ -258,7 +258,7 @@
 			"",
 			"**Str** 20, **Dex** 13, **Con**: 15, **Int** 6, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +5; **CMB** +10; **CMD** 24 (28 vs. trip)  ",
-			"**Feats** [Acrobatic](feat/acrobatic), [Cleave](feat/cleave), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Acrobatic}, {feat/Cleave}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +13, Perception +9, Stealth +6  ",
 			"**Languages** Common  ",
 			"**SQ** incredible balance",
@@ -317,7 +317,7 @@
 			"",
 			"**Str** 10, **Dex** 21, **Con**: 13, **Int** 2, **Wis** 17, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +5; **CMD** 15 (19 vs. trip)  ",
-			"**Feats** [Go Unnoticed](feat/go_unnoticed), [Mobility](feat/mobility)[^B], [Skill Focus (Perception)](feat/skill_focus), [Stealthy](feat/stealthy)[^B]  ",
+			"**Feats** {feat/Go Unnoticed}, {feat/Mobility}[^B], [Skill Focus (Perception)](feat/skill_focus), {feat/Stealthy}[^B]  ",
 			"**Skills** Acrobatics +5 (+17 when jumping), Climb +9, Escape Artist +7, Perception +10, Stealth +19, Survival +3 (+7 when tracking by scent); **Racial Modifiers** +4 Acrobatics when jumping, +4 Survival when tracking by scent  ",
 			"**SQ** fade away",
 			"",
@@ -369,7 +369,7 @@
 			"",
 			"**Str** 13, **Dex** 10, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +1; **CMB** +2; **CMD** 12 (16 vs. bull rush, 20 vs. trip)  ",
-			"**Feats** [Endurance](feat/endurance), [Nimble Moves](feat/nimble_moves)[^B]  ",
+			"**Feats** {feat/Endurance}, {feat/Nimble Moves}[^B]  ",
 			"**Skills** Perception +5, Survival +2 (+6 when tracking by scent); **Racial Modifiers** +4 Survival when tracking by scent  ",
 			"**SQ** sure-footed",
 			"",
@@ -383,7 +383,7 @@
 			"",
 			"**Stability (Ex)** While standing on the ground, faerie mounts gain a +4 racial bonus to their Combat Maneuver Defense against bull rush and trip combat maneuvers.",
 			"",
-			"**Sure-Footed (Ex)** As long as it is carrying no more than a light load, a faerie mount gains [Nimble Moves](feat/nimble_moves) as a bonus feat.",
+			"**Sure-Footed (Ex)** As long as it is carrying no more than a light load, a faerie mount gains {feat/Nimble Moves} as a bonus feat.",
 			"",
 			"#### Description",
 			"",
@@ -432,7 +432,7 @@
 			"",
 			"**Str** 45, **Dex** 30, **Con**: 36, **Int** 18, **Wis** 27, **Cha**, 29  ",
 			"**Base Atk** +27; **CMB** +52 (+56 grapple); **CMD** 72 (can't be tripped)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claws)](feat/improved_critical), [Improved Critical (gore)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (greater dispel magic)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claws)](feat/improved_critical), [Improved Critical (gore)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Power Attack}, [Quicken Spell-Like Ability (greater dispel magic)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Fly +32, Intimidate +39, Knowledge (arcana) +34, Knowledge (geography) +34, Knowledge (history) +34, Knowledge (nature) +34, Perception +46, Stealth +24, Swim +55, Use Magic Device +39; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Aklo, Common, Draconic, Skald, Sylvan",
 			"",
@@ -510,7 +510,7 @@
 			"",
 			"**Str** -, **Dex** 16, **Con**: -, **Int** 13, **Wis** 17, **Cha**, 18  ",
 			"**Base Atk** +8; **CMB** +15; **CMD** 25  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Deadly Aim](feat/deadly_aim), [Improved Shield Bash](feat/improved_shield_bash), [Shield Slam](feat/shield_slam), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (longsword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Deadly Aim}, {feat/Improved Shield Bash}, {feat/Shield Slam}, {feat/Two-Weapon Fighting}, [Weapon Focus (longsword)](feat/weapon_focus)  ",
 			"**Skills** Fly +15, Intimidate +18, Knowledge (religion) +10, Perception +17, Sense Motive +17, Survival +14  ",
 			"**SQ** Common",
 			"",
@@ -569,7 +569,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 10, **Int** 2, **Wis** 12, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +10, Fly +6  ",
 			"**SQ** weak flier",
 			"",
@@ -587,7 +587,7 @@
 			"",
 			"Archaeopteryxes are primitive birds. Instead of beaks, they have lizardlike heads with serrated teeth.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"archaeopteryx": { "copyof": "familiar_archaeopteryx" },
@@ -626,7 +626,7 @@
 			"",
 			"**Str** 3, **Dex** 16, **Con**: 9, **Int** 2, **Wis** 12, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 7 (11 vs. trip)  ",
-			"**Feats** [Run](feat/run)  ",
+			"**Feats** {feat/Run}  ",
 			"**Skills** Stealth +15 (+19 in snow); **Racial Modifiers** +4 Stealth in snow",
 			"",
 			"#### Ecology",
@@ -639,7 +639,7 @@
 			"",
 			"An arctic hare has adapted to life in cold environments but fares well in warmer climes.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"arctic_hare": { "copyof": "familiar_arctic_hare" },
@@ -693,7 +693,7 @@
 			"",
 			"Arctic terns are about 1 foot long and weigh about half a pound.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"arctic_tern": { "copyof": "familiar_arctic_tern" },
@@ -755,7 +755,7 @@
 			"",
 			"An armadillo is 2-1/2 feet long and weighs roughly 10 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"armadillo": { "copyof": "familiar_armadillo" },
@@ -788,7 +788,7 @@
 			"",
 			"**Str** 1, **Dex** 15, **Con**: 6, **Int** 2, **Wis** 14, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** -2; **CMD** 3  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Fly +16, Perception +6; **Racial Modifiers** +4 Perception",
 			"",
 			"#### Ecology",
@@ -801,7 +801,7 @@
 			"",
 			"Most bats are insectivores or fruit-eaters, but at least one species drinks blood.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"bat": { "copyof": "familiar_bat" },
@@ -839,7 +839,7 @@
 			"",
 			"**Str** 8, **Dex** 21, **Con**: 10, **Int** 2, **Wis** 13, **Cha**, 3  ",
 			"**Base Atk** +0; **CMB** +3 (+7 grapple); **CMD** 12 (can't be tripped)  ",
-			"**Feats** [Multiattack](feat/multiattack)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Multiattack}[^B], {feat/Weapon Finesse}  ",
 			"**Skills** Escape Artist +15, Stealth +25, Swim +13; **Racial Modifiers** +10 Escape Artist, +8 Stealth",
 			"",
 			"#### Ecology",
@@ -860,7 +860,7 @@
 			"",
 			"Blue-ringed octopuses are aquatic animals capable of a surprising amount of cunning. They cannot survive out of water.",
 			"",
-			"**Family:** [Familiar](family/familiar)",
+			"**Family:** {family/Familiar}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -913,7 +913,7 @@
 			"",
 			"Butterflies are delicate, brightly colored insects that feed on nectar and other sources of sugar. Moths have the same statistics as butterflies, though they tend to be active at night. The butterfly (or moth) presented here is a particularly large specimen with a wingspan of just over 6 inches, yet it is still completely harmless and awards no XP if slain.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"butterfly": { "copyof": "familiar_butterfly_moth" },
@@ -948,7 +948,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 8, **Int** 2, **Wis** 12, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +6, Perception +5, Stealth +14; **Racial Modifiers** +4 Climb, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -961,7 +961,7 @@
 			"",
 			"Cats typically weigh 5-15 pounds when fully grown.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"cat": { "copyof": "familiar_cat" },
@@ -1001,7 +1001,7 @@
 			"",
 			"**Str** 3, **Dex** 11, **Con**: 12, **Int** 2, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +0; **CMB** -2; **CMD** 4  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Fly -4, Perception +5",
 			"",
 			"#### Ecology",
@@ -1022,7 +1022,7 @@
 			"",
 			"A chicken is about 1 foot tall and weighs 5 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"chicken": { "copyof": "familiar_chicken" },
@@ -1075,7 +1075,7 @@
 			"",
 			"Cockroaches are hardy insects commonly viewed as pests-especially for being attracted to warm buildings and unattended food in urban areas. They are famously skittish, fleeing from larger creatures and sources of light.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"cockroach": { "copyof": "familiar_cockroach" },
@@ -1127,7 +1127,7 @@
 			"",
 			"Climbing ivy thrives in dense forests and urban landscapes, where it can easily relocate to maximize its exposure to the sun. Surprisingly fast for a plant, creeper ivy is territorial and lashes out at creatures that threaten or shade it. It also scavenges when the opportunity presents itself, sometimes drawing nutrition from carrion or even unguarded eggs.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"creeper_ivy": { "copyof": "familiar_creeper_ivy" },
@@ -1179,7 +1179,7 @@
 			"",
 			"These flightless birds typically inhabit isolated tropical islands and coastlines that are devoid of predators and other creatures that might kill them to use as a resource. Dodos' size and unfamiliarity with natural dangers contribute to a kind of boldness in their species-or what some would call stupidity-causing them to bumble into precarious situations and making them easy targets for other creatures that are on the prowl for a tasty meal. The birds can all too easily be caught and slain, and while their meat has a most unpleasant taste, few starving, shipwrecked sailors would turn such a providential meal down.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"dodo": { "copyof": "familiar_dodo" },
@@ -1227,7 +1227,7 @@
 			"",
 			"Donkey rats are brown or snowy white rodents the size of small dogs, with long legs and short, furry tails. These statistics can also be used for capybaras.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"donkey_rat": { "copyof": "familiar_donkey_rat" },
@@ -1283,7 +1283,7 @@
 			"",
 			"Dwarf caimans are a small species of crocodilian predators that live amid the fast-running streams of tropical rainforests and swamps. These patient predators sometimes lie in awkward positions for hours before they strike their prey, their mottled scales disguising them as floating wood.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"dwarf_caiman": { "copyof": "familiar_dwarf_caiman" },
@@ -1342,7 +1342,7 @@
 			"",
 			"A typical dweomer cap is about 1 foot wide and weighs around 2 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"dweomer_cap": { "copyof": "familiar_dweomer_cap" },
@@ -1381,7 +1381,7 @@
 			"",
 			"**Str** 2, **Dex** 14, **Con**: 8, **Int** 1, **Wis** 8, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** -2; **CMD** 4 (8 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Escape Artist +6, Stealth +18, Swim +10; **Racial Modifiers** +4 Escape Artist",
 			"",
 			"#### Ecology",
@@ -1400,7 +1400,7 @@
 			"",
 			"Fire salamanders are 6 to 10 inches long and weigh only 2 ounces.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"fire_salamander": { "copyof": "familiar_fire_salamander" },
@@ -1458,7 +1458,7 @@
 			"",
 			"The result of centuries of plant husbandry, flowering lattices are delicate networks of vines that form blossoming nets about 1 square foot in size. As many as 12 varieties of flower grow from an individual flowering lattice, with each bloom opening at different times of the year and hours of the day to ensure a nearly constant array of colorful petals. This plant's enthusiasts often incorporate the organism into their fashion, draping them over the shoulders like a stole or over the head as a hood. These lattices require regular care, surviving on their own only in regions with rich soil and ample pollinators.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"flowering_lattice": { "copyof": "familiar_flowering_lattice" },
@@ -1507,7 +1507,7 @@
 			"",
 			"These large bats are herbivorous and lack the echolocation abilities of their smaller kin, but are resistant to disease.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"flying_fox": { "copyof": "familiar_flying_fox" },
@@ -1543,7 +1543,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 8, **Int** 1, **Wis** 12, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Acrobatic](feat/acrobatic)[^B], [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Acrobatic}[^B], {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +16 (+12 when jumping), Climb +10, Fly +4; **Racial Modifiers** +12 Acrobatics, +8 Climb  ",
 			"**SQ** glide",
 			"",
@@ -1561,7 +1561,7 @@
 			"",
 			"Although not capable of actual flight, a flying squirrel possesses a furry membrane stretching between its wrists and ankles, allowing it to glide for long distances.",
 			"",
-			"**Family:** [Familiar](family/familiar)",
+			"**Family:** {family/Familiar}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1613,7 +1613,7 @@
 			"",
 			"This cunning yet wary animal pounces on live prey.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"fox": { "copyof": "familiar_fox" },
@@ -1669,7 +1669,7 @@
 			"",
 			"Giant isopods are carnivorous scavengers that scour the ocean's floor. They vaguely resemble the common wood louse in appearance, though they can grow to be up to 2-1/2 feet long and weigh nearly 4 pounds. Their unusual size and insectile appearance cause many humanoids to be wary of them, despite their relative harmlessness.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"giant_isopod": { "copyof": "familiar_giant_isopod" },
@@ -1725,7 +1725,7 @@
 			"",
 			"Giant tardigrades, sometimes referred to as water bears, are miniscule, eight-legged creatures that live in water but can survive almost anywhere. The giant tardigrade grows as large as 1 foot in length and feeds on patches of bacteria, fungus, and plant matter.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"giant_tardigrade": { "copyof": "familiar_giant_tardigrade" },
@@ -1761,7 +1761,7 @@
 			"",
 			"**Str** 12, **Dex** 13, **Con**: 12, **Int** 2, **Wis** 11, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 11 (15 vs. trip)  ",
-			"**Feats** [Nimble Moves](feat/nimble_moves)  ",
+			"**Feats** {feat/Nimble Moves}  ",
 			"**Skills** Acrobatics +1 (+5 when jumping), Climb +5, Survival +0 (+4 to find food); **Racial Modifiers** +4 Acrobatics when jumping, +4 Survival to find food",
 			"",
 			"#### Ecology",
@@ -1774,7 +1774,7 @@
 			"",
 			"Goats are often ill-tempered and stubborn, but they have an uncanny knack for finding food in the strangest of places and can digest almost anything.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"goat": { "copyof": "familiar_goat" },
@@ -1807,7 +1807,7 @@
 			"",
 			"**Str** 6, **Dex** 17, **Con**: 11, **Int** 2, **Wis** 14, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 9  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Fly +7, Perception +14; Racial Modifier +8 Perception",
 			"",
 			"#### Ecology",
@@ -1820,7 +1820,7 @@
 			"",
 			"Falconers prize these majestic birds as trained hunting companions if raised from chicks and properly instructed.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"hawk": { "copyof": "familiar_hawk" },
@@ -1856,7 +1856,7 @@
 			"",
 			"**Str** 1, **Dex** 16, **Con**: 6, **Int** 2, **Wis** 12, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 4 (8 vs. trip)  ",
-			"**Feats** [Athletic](feat/athletic)  ",
+			"**Feats** {feat/Athletic}  ",
 			"**Skills** Climb +5, Stealth +19, Swim +5",
 			"",
 			"#### Ecology",
@@ -1873,7 +1873,7 @@
 			"",
 			"Hedgehogs are spiny, insectivorous mammals. When threatened, a hedgehog rolls up into a spiny ball as a defense mechanism.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"hedgehog": { "copyof": "familiar_hedgehog" },
@@ -1912,7 +1912,7 @@
 			"",
 			"**Str** 1, **Dex** 12, **Con**: 8, **Int** 1, **Wis** 10, **Cha**, 3  ",
 			"**Base Atk** +0; **CMB** -3; **CMD** 2 (6 vs. trip)  ",
-			"**Feats** [Run](feat/run)  ",
+			"**Feats** {feat/Run}  ",
 			"**Skills** Stealth +17  ",
 			"**SQ** camouflage, puff up",
 			"",
@@ -1934,7 +1934,7 @@
 			"",
 			"Despite their sluggish, toad-like appearance, these creatures are reptiles with dry, spiny skin adapted to prevent water loss in their native desert environment. They are typically found sunning themselves on rocks during all but the hottest parts of the day, retreating beneath the shade of ridges or rocks when the sun is directly overhead. Their main method of defense is to avoid detection, but when their desert coloration fails to fool predators, they attempt to flee or use their other defensive methods, such as their unique ability to rupture blood vessels in their eyes so they can spray noxious blood at approaching predators. Due to their fierce defensive displays, horned lizards are often thought to be overly aggressive, though people who keep them as pets or familiars know that they can be affectionate creatures.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"horned_lizard": { "copyof": "familiar_horned_lizard" },
@@ -1972,7 +1972,7 @@
 			"",
 			"**Str** 1, **Dex** 17, **Con**: 10, **Int** -, **Wis** 10, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 6 (can't be tripped)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +11, Perception +4, Stealth +19; **Racial Modifiers** +4 Perception, +8 Stealth",
 			"",
 			"#### Ecology",
@@ -1989,7 +1989,7 @@
 			"",
 			"Multi-legged house centipedes can be found almost anywhere, and can have from 20 to more than 300 legs. Their bites are poisonous, and can daze the unwary.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"house_centipede": { "copyof": "familiar_house_centipede" },
@@ -2029,7 +2029,7 @@
 			"",
 			"**Str** 4, **Dex** 15, **Con**: -, **Int** 3, **Wis** 14, **Cha**, 5  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 9  ",
-			"**Feats** [Dodge](feat/dodge)  ",
+			"**Feats** {feat/Dodge}  ",
 			"**Skills** Fly +10  ",
 			"**Languages** Common (can't speak)  ",
 			"**SQ** ioun affinity, share iouns",
@@ -2052,7 +2052,7 @@
 			"",
 			"A typical ioun wyrd is roughly 2 feet in diameter and weighs between 15 and 20 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)",
+			"**Family:** {family/Familiar}",
 			"",
 			"### Construction",
 			"",
@@ -2098,7 +2098,7 @@
 			"",
 			"**Str** 1, **Dex** 16, **Con**: 8, **Int** 2, **Wis** 15, **Cha**, 3  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 4  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Acrobatics +11, Perception +6; **Racial Modifiers** +4 Acrobatics, +4 Perception",
 			"",
 			"#### Ecology",
@@ -2113,7 +2113,7 @@
 			"",
 			"A jerboa is 6 inches long, has a 1-foot-long tail, and weighs between 1 and 3 ounces.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"jerboa": { "copyof": "familiar_jerboa" },
@@ -2152,7 +2152,7 @@
 			"",
 			"**Str** 3, **Dex** 13, **Con**: 10, **Int** 2, **Wis** 8, **Cha**, 12  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Climb +4, Perception +3",
 			"",
 			"#### Ecology",
@@ -2171,7 +2171,7 @@
 			"",
 			"A kakapo is roughly 2 feet long from beak to tail tip and can weigh up to 9 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"kakapo": { "copyof": "familiar_kakapo" },
@@ -2226,7 +2226,7 @@
 			"",
 			"King crabs are small crustaceans with eight legs and two pincers or claws. Aquatic scavengers, crabs can also survive on land for some time, but must return to the water or suffocate.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"king_crab": { "copyof": "familiar_king_crab" },
@@ -2264,7 +2264,7 @@
 			"",
 			"**Str** 6, **Dex** 11, **Con**: 13, **Int** 2, **Wis** 9, **Cha**, 8  ",
 			"**Base Atk** +0; **CMB** -3; **CMD** 7 (11 vs. trip)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude)  ",
+			"**Feats** {feat/Great Fortitude}  ",
 			"**Skills** Climb +6, Perception +3",
 			"",
 			"#### Ecology",
@@ -2279,7 +2279,7 @@
 			"",
 			"A koala measures about 2-1/2 feet from tail to nose and can weigh up to 30 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"koala": { "copyof": "familiar_koala" },
@@ -2318,7 +2318,7 @@
 			"",
 			"**Str** 4, **Dex** 14, **Con**: 14, **Int** 1, **Wis** 12, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 7  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Stealth +14, Swim +5",
 			"",
 			"#### Ecology",
@@ -2333,7 +2333,7 @@
 			"",
 			"Lampreys can reach a length of up to 4 feet and weigh up to 5 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"lamprey": { "copyof": "familiar_lamprey" },
@@ -2372,7 +2372,7 @@
 			"",
 			"**Str** 1, **Dex** 12, **Con**: 6, **Int** 2, **Wis** 13, **Cha**, 4  ",
 			"**Base Atk** +0; **CMB** -3; **CMD** 2 (6 vs. trip)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude)  ",
+			"**Feats** {feat/Great Fortitude}  ",
 			"**Skills** Stealth +17",
 			"",
 			"#### Ecology",
@@ -2387,7 +2387,7 @@
 			"",
 			"Lemmings grow to be as large as 6 inches from their noses to their short tails.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"lemming": { "copyof": "familiar_lemming" },
@@ -2447,7 +2447,7 @@
 			"",
 			"Leopard slugs are about 6 inches long and weigh less than a pound.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"leopard_slug": { "copyof": "familiar_leopard_slug" },
@@ -2480,7 +2480,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 8, **Int** 1, **Wis** 12, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +10, Climb +10, Stealth +14; **Racial Modifiers** +8 Acrobatics",
 			"",
 			"#### Ecology",
@@ -2493,7 +2493,7 @@
 			"",
 			"Lizards can be found in any temperate or tropical climate. When confronted with predators, a lizard flees and hides.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"lizard": { "copyof": "familiar_lizard" },
@@ -2547,7 +2547,7 @@
 			"",
 			"A margay weighs around 8 pounds and may reach a length of 3-4 feet, nearly half of which is its tail.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"margay_cat": { "copyof": "familiar_margay_cat" },
@@ -2587,7 +2587,7 @@
 			"",
 			"**Str** 5, **Dex** 14, **Con**: 13, **Int** 2, **Wis** 13, **Cha**, 13  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 7 (11 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Stealth +14",
 			"",
 			"#### Ecology",
@@ -2608,7 +2608,7 @@
 			"",
 			"A meerkat weighs around 2 pounds and is about 1 foot tall when standing upright.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"meerkat": { "copyof": "familiar_meerkat" },
@@ -2662,7 +2662,7 @@
 			"",
 			"The typical mole is 6 inches long and weighs less than a pound.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"mole_uw": { "copyof": "familiar_mole_uw" },
@@ -2714,7 +2714,7 @@
 			"",
 			"Moles are small rodent mammals that live primarily in burrows underground. While many varieties of moles exist, most share common features that include subterranean habitats, poor eyesight, and the ability to dig long distances with their powerful forelimbs. The typical mole is 6 inches long and weighs less than a pound. These familiars are popular choices with ratfolk.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"mole_ff": { "copyof": "familiar_mole_ff" },
@@ -2747,7 +2747,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 10, **Int** 2, **Wis** 12, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +10, Climb +10, Perception +5; **Racial Modifiers** +8 Acrobatics",
 			"",
 			"#### Ecology",
@@ -2760,7 +2760,7 @@
 			"",
 			"Monkeys are highly social creatures. They spend the majority of their day searching for food.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"monkey": { "copyof": "familiar_monkey" },
@@ -2796,7 +2796,7 @@
 			"",
 			"**Str** 3, **Dex** 16, **Con**: 10, **Int** 2, **Wis** 13, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 7 (11 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Escape Artist +4, Swim +11",
 			"",
 			"#### Ecology",
@@ -2809,7 +2809,7 @@
 			"",
 			"Otters are curious and playful, and enjoy investigating new objects, sliding down wet rocks, and other simple games.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"otter": { "copyof": "familiar_otter" },
@@ -2842,7 +2842,7 @@
 			"",
 			"**Str** 6, **Dex** 17, **Con**: 11, **Int** 2, **Wis** 15, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 9  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Fly +7, Perception +10, Stealth +15; **Racial Modifiers** +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -2855,7 +2855,7 @@
 			"",
 			"Owls are nocturnal, rodent-eating birds that make very little noise in flight.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"owl": { "copyof": "familiar_owl" },
@@ -2893,7 +2893,7 @@
 			"",
 			"**Str** 7, **Dex** 12, **Con**: 10, **Int** 1, **Wis** 6, **Cha**, 13  ",
 			"**Base Atk** +0; **CMB** -3; **CMD** 8  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Fly -1  ",
 			"**SQ** drift",
 			"",
@@ -2915,7 +2915,7 @@
 			"",
 			"While the male variety is more commonly recognized, all peafowl have identical statistics. A typical peafowl is 3-1/2 feet tall and weighs about 10 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"peafowl": { "copyof": "familiar_peafowl" },
@@ -2976,7 +2976,7 @@
 			"",
 			"A penguin of the most common variety stands roughly 3 feet tall and weighs 70 pounds. Larger species of penguin can grow to heights of 4 feet and weigh as much as 100 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"penguin": { "copyof": "familiar_penguin" },
@@ -3037,7 +3037,7 @@
 			"",
 			"Petriferns reach a maximum height of 1 foot and weigh up to 3 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"petrifern": { "copyof": "familiar_petrifern" },
@@ -3073,7 +3073,7 @@
 			"",
 			"**Str** 11, **Dex** 12, **Con**: 15, **Int** 2, **Wis** 13, **Cha**, 4  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 10 (14 vs. trip)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude)  ",
+			"**Feats** {feat/Great Fortitude}  ",
 			"**Skills** Perception +5",
 			"",
 			"#### Ecology",
@@ -3086,7 +3086,7 @@
 			"",
 			"This clever, sociable animal may be trained to do many tasks.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"pig": { "copyof": "familiar_pig" },
@@ -3126,7 +3126,7 @@
 			"",
 			"**Str** 2, **Dex** 14, **Con**: 8, **Int** 2, **Wis** 13, **Cha**, 11  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Perception +0 (+4 underwater), Swim +14; **Racial Modifiers** +4 Perception underwater  ",
 			"**SQ** hold breath",
 			"",
@@ -3150,7 +3150,7 @@
 			"",
 			"The average platypus is roughly 1-1/2 feet long and weighs 3-1/2 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"platypus": { "copyof": "familiar_platypus" },
@@ -3187,7 +3187,7 @@
 			"",
 			"**Str** 8, **Dex** 17, **Con**: 11, **Int** 2, **Wis** 13, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** -2; **CMD** 11  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Perception +5, Swim +7  ",
 			"**SQ** hold breath",
 			"",
@@ -3201,7 +3201,7 @@
 			"",
 			"Popotos are the smallest species of dolphin known, and they generally swim in shallow waters near shorelines. Sometimes they manage to swim miles upriver when they hunt for fish, using echolocation to navigate through smaller channels. They are social hunters and traveling in small groups called pods, which normally contain three to five popotos. Like larger dolphins, popotos are popular with seafarers, who consider the creatures to be good luck and tell hopeful tales of popotos leading lost swimmers to shore and pods fighting off sharks that are much larger than the popotos themselves.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"popoto_dolphin": { "copyof": "familiar_popoto_dolphin" },
@@ -3240,7 +3240,7 @@
 			"",
 			"**Str** 2, **Dex** 14, **Con**: 7, **Int** 2, **Wis** 14, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Stealth +14 (+18 in snow); **Racial Modifiers** +4 Stealth in snow",
 			"",
 			"#### Ecology",
@@ -3255,7 +3255,7 @@
 			"",
 			"Ptarmigans are roughly a foot long from beak to tail and have a wingspan of twice that.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"ptarmigan": { "copyof": "familiar_ptarmigan" },
@@ -3295,7 +3295,7 @@
 			"",
 			"**Str** 4, **Dex** 14, **Con**: 15, **Int** 1, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 7  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Perception +5, Swim +5",
 			"",
 			"#### Ecology",
@@ -3316,7 +3316,7 @@
 			"",
 			"Pufferfish come in a variety of sizes and types, and most range from 6 inches to 2 feet in length and weigh between 5 and 30 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"pufferfish": { "copyof": "familiar_pufferfish" },
@@ -3370,7 +3370,7 @@
 			"",
 			"Puffins are about a foot long and weigh close to 1 pound.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"puffin": { "copyof": "familiar_puffin" },
@@ -3409,7 +3409,7 @@
 			"",
 			"**Str** 3, **Dex** 16, **Con**: 9, **Int** 2, **Wis** 12, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 7  ",
-			"**Feats** [Run](feat/run)  ",
+			"**Feats** {feat/Run}  ",
 			"**Skills** Acrobatics +0 (+8 when jumping), Stealth +15",
 			"",
 			"#### Ecology",
@@ -3424,7 +3424,7 @@
 			"",
 			"An average rabbit is between 8 and 20 inches long and weighs 1 to 4 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"rabbit": { "copyof": "familiar_rabbit" },
@@ -3460,7 +3460,7 @@
 			"",
 			"**Str** 8, **Dex** 15, **Con**: 11, **Int** 2, **Wis** 16, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 9 (13 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +10, Sleight of Hand +3",
 			"",
 			"#### Ecology",
@@ -3473,7 +3473,7 @@
 			"",
 			"Raccoons are inquisitive and cunning, and often have strangely humanoid mannerisms, like washing their food in streams.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"raccoon": { "copyof": "familiar_raccoon" },
@@ -3506,7 +3506,7 @@
 			"",
 			"**Str** 2, **Dex** 15, **Con**: 11, **Int** 2, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +10, Stealth +18, Swim +10; **Racial Modifiers** +4 Stealth",
 			"",
 			"#### Ecology",
@@ -3519,7 +3519,7 @@
 			"",
 			"Fecund and secretive, rats are omnivorous rodents that particularly thrive in urban areas.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"rat": { "copyof": "familiar_rat" },
@@ -3552,7 +3552,7 @@
 			"",
 			"**Str** 2, **Dex** 15, **Con**: 8, **Int** 2, **Wis** 15, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6  ",
-			"**Feats** [Skill Focus (Perception)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Perception)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Fly +6, Perception +6",
 			"",
 			"#### Ecology",
@@ -3565,7 +3565,7 @@
 			"",
 			"The raven is an omnivorous scavenger that eats carrion, insects, food waste, berries, and even small animals.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"raven": { "copyof": "familiar_raven" },
@@ -3623,7 +3623,7 @@
 			"",
 			"Unlike its harmless counterpart, a ravenous tumbleweed uproots itself when nutrients are scarce in order to hunt down live prey. These seasonally carnivorous plants gather into imposing drifts that wait for periods of high winds before overwhelming birds, rabbits, and even deer.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"ravenous_tumbleweed": { "copyof": "familiar_ravenous_tumbleweed" },
@@ -3662,7 +3662,7 @@
 			"",
 			"**Str** 5, **Dex** 15, **Con**: 11, **Int** -, **Wis** 10, **Cha**, 6  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 7  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)",
+			"**Feats** {feat/Weapon Finesse}",
 			"",
 			"#### Ecology",
 			"",
@@ -3680,7 +3680,7 @@
 			"",
 			"Razor ferns are ambulatory ambush predators with rigid leaf structures that can open painful wounds. Although they prefer to prey on small forest creatures, a razor fern won't hesitate to slash at a larger target while that creature sleeps or is otherwise distracted.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"razor_fern": { "copyof": "familiar_razor_fern" },
@@ -3716,7 +3716,7 @@
 			"",
 			"**Str** 8, **Dex** 16, **Con**: 11, **Int** 2, **Wis** 13, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 10  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +9, Climb +15, Perception +5; **Racial Modifiers** +6 Acrobatics, +4 Climb",
 			"",
 			"#### Ecology",
@@ -3729,7 +3729,7 @@
 			"",
 			"Red pandas are small, short-legged arboreal mammals known for their red-brown fur and climbing abilities.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"red_panda": { "copyof": "familiar_red_panda" },
@@ -3770,7 +3770,7 @@
 			"",
 			"**Str** 6, **Dex** 17, **Con**: 11, **Int** 2, **Wis** 14, **Cha**, 11  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 9  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Fly +11, Perception +6, Stealth +11",
 			"",
 			"#### Ecology",
@@ -3787,7 +3787,7 @@
 			"",
 			"Rhamphorhynchuses make excellent familiars for those spellcasters who are looking for quick and nimble minions. Although not dinosaurs themselves, these skittish pterosaurs are often found wheeling in the skies above dinosaur hunting grounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"rhamphorhynchus": { "copyof": "familiar_rhamphorhynchus" },
@@ -3846,7 +3846,7 @@
 			"",
 			"A sawleg locust is a larger variety of grasshopper that grows as large as 2 feet in length and feeds on a variety of plants. Periods of drought sometimes cause these locusts to gather in large groups, either to migrate to better feeding grounds or rarely to overpower and consume small animals.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"sawleg_locust": { "copyof": "familiar_sawleg_locust" },
@@ -3899,7 +3899,7 @@
 			"",
 			"Sleek-bodied aquatic mammals, seals spend the majority of their lives in the water, whether in the harbors of tropical ports or amid wandering icebergs. They prefer rocky beaches, upon which they rest and raise their young, and from which they dive to hunt fish, sea birds, squid, and other small aquatic creatures. They are well known for their vocal communications consisting of barks, grunts, and flipper slaps-a trait that causes many humanoids to remark on their intelligence and the ease with which they can be trained.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"seal": { "copyof": "familiar_seal" },
@@ -3938,7 +3938,7 @@
 			"",
 			"**Str** 6, **Dex** 14, **Con**: 10, **Int** -, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 8 (16 vs. trip)  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack)  ",
+			"**Feats** {feat/Flyby Attack}  ",
 			"**Skills** Fly +14",
 			"",
 			"#### Ecology",
@@ -3951,7 +3951,7 @@
 			"",
 			"Shimmerwing dragonflies are agile flying insects that prey on other flying creatures. With a wingspan of nearly 3 feet, these dragonflies can even capture and eat small birds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"shimmerwing_dragonfly": { "copyof": "familiar_shimmerwing_dragonfly" },
@@ -4000,7 +4000,7 @@
 			"",
 			"Sloths are tree-dwelling herbivores. They are known for their efficient metabolisms and slow movement.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"sloth": { "copyof": "familiar_sloth" },
@@ -4059,7 +4059,7 @@
 			"",
 			"Spiny starfish are marine invertebrates that wander the sea floor in search of mollusks and other slow-moving prey. Their tube feet afford them an excellent grip on their chosen food source, and they can famously expel their stomachs into subdued shellfish to digest their meals. An injured spiny starfish heals wounds quickly, even regrowing lost limbs over time.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"spiny_starfish": { "copyof": "familiar_spiny_starfish" },
@@ -4098,7 +4098,7 @@
 			"",
 			"**Str** 2, **Dex** 19, **Con**: 9, **Int** 2, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +8, Climb +12",
 			"",
 			"#### Ecology",
@@ -4113,7 +4113,7 @@
 			"",
 			"The average squirrel is roughly 1-1/2 feet long and weighs 1 pound.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"squirrel": { "copyof": "familiar_squirrel" },
@@ -4152,7 +4152,7 @@
 			"",
 			"**Str** 3, **Dex** 12, **Con**: 10, **Int** -, **Wis** 13, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
+			"**Feats** {feat/Weapon Finesse}[^B]  ",
 			"**Skills** Climb +4  ",
 			"**SQ** seal wound",
 			"",
@@ -4166,7 +4166,7 @@
 			"",
 			"**Blood Sense (Ex)** A suture vine can sense badly wounded creatures, including those at less than half their normal hit point total or suffering from bleed damage, as if it had the scent ability.",
 			"",
-			"**Seal Wound (Ex)** A suture vine instinctively latches on to a creature that suffers from bleed damage or is at less than half its normal hit point total. When it attempts to seal wounds in this way, it must make a normal vine attack but gains [attach](umr/attach) as per the universal monster rule. If it successfully attaches to the target (dealing damage as normal), any bleed damage currently suffered by the target immediately ends. The suture vine remains attached for 24 hours, gaining nutrients from sipping at the victim's blood but never enough to cause any further damage. The vine drops off automatically once a target has no hit point damage or 24 hours have passed, whichever comes first. A suture vine can seal wounds in this manner only once per day.",
+			"**Seal Wound (Ex)** A suture vine instinctively latches on to a creature that suffers from bleed damage or is at less than half its normal hit point total. When it attempts to seal wounds in this way, it must make a normal vine attack but gains {umr/attach} as per the universal monster rule. If it successfully attaches to the target (dealing damage as normal), any bleed damage currently suffered by the target immediately ends. The suture vine remains attached for 24 hours, gaining nutrients from sipping at the victim's blood but never enough to cause any further damage. The vine drops off automatically once a target has no hit point damage or 24 hours have passed, whichever comes first. A suture vine can seal wounds in this manner only once per day.",
 			"",
 			"**Vine (Ex)** A suture vine's vine attack is a primary natural attack that deals piercing and slashing damage.",
 			"",
@@ -4174,7 +4174,7 @@
 			"",
 			"Suture vines are thorny, symbiotic organisms that snag rides on wounded animals, seek out open wounds, and knit those injuries closed-all while absorbing fairly harmless amounts of blood. Local animals often recognize suture vines, both avoiding them as food and seeking them out when wounded. A suture vine that goes without feeding for a week or more sometimes resorts to ambushing small prey.",
 			"",
-			"**Family:** [Familiar](family/familiar)",
+			"**Family:** {family/Familiar}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -4214,7 +4214,7 @@
 			"",
 			"**Str** 3, **Dex** 16, **Con**: 10, **Int** 2, **Wis** 13, **Cha**, 7  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5 (9 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +7, Climb +8, Perception +5, Stealth +19; **Racial Modifiers** +4 Acrobatics, +4 Climb, +4 Perception  ",
 			"**SQ** tarsier's leap",
 			"",
@@ -4234,7 +4234,7 @@
 			"",
 			"The length of a tarsier from its head to the tip of its tail is about 1 to 1-1/2 feet, but when clinging to a tree, a tarsier appears to be about the size of a human's fist. A tarsier weighs about 4 ounces.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"tarsier": { "copyof": "familiar_tarsier" },
@@ -4283,7 +4283,7 @@
 			"",
 			"Thrushes are small, plump birds that eat fruit and insects. All thrushes are known for their beautiful songs, but thrush familiars are also capable of actual speech.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"thrush": { "copyof": "familiar_thrush" },
@@ -4328,7 +4328,7 @@
 			"",
 			"Toads are harmless, rough-skinned amphibians.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"toad": { "copyof": "familiar_toad" },
@@ -4365,7 +4365,7 @@
 			"",
 			"**Str** 7, **Dex** 15, **Con**: 12, **Int** -, **Wis** 11, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 8  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)[^B]  ",
+			"**Feats** {feat/Weapon Finesse}[^B]  ",
 			"**Skills** Perception +4, Swim +10; **Racial Modifiers** +4 Perception  ",
 			"**SQ** curl, water dependency",
 			"",
@@ -4383,7 +4383,7 @@
 			"",
 			"Ancient arthropods adapted to scavenging the ocean floor, trilobites have both resilient exteriors and keen senses honed for use in the lightless depths of the sea, and are known for curling into balls to protect themselves.",
 			"",
-			"**Family:** [Familiar](family/familiar)",
+			"**Family:** {family/Familiar}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -4421,7 +4421,7 @@
 			"",
 			"**Str** 2, **Dex** 13, **Con**: 12, **Int** 1, **Wis** 10, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5 (9 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +5 (+1 when jumping), Climb +9, Perception +4, Survival +4; **Racial Modifiers** -4 Acrobatics when jumping, +4 Perception, +4 Survival",
 			"",
 			"#### Ecology",
@@ -4433,7 +4433,7 @@
 			"",
 			"Tuataras are cousins to true lizards. They mostly live on primordial islands where mammals have never established a foothold.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"tuatara": { "copyof": "familiar_tuatara" },
@@ -4473,7 +4473,7 @@
 			"",
 			"**Str** 6, **Dex** 15, **Con**: 12, **Int** 2, **Wis** 13, **Cha**, 3  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 8  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Stealth +14, Swim +10",
 			"",
 			"#### Ecology",
@@ -4496,7 +4496,7 @@
 			"",
 			"A vampire squid can reach a total body length of up to 1 foot and weighs 1 pound.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"vampire_squid": { "copyof": "familiar_vampire_squid" },
@@ -4529,7 +4529,7 @@
 			"",
 			"**Str** 4, **Dex** 17, **Con**: 8, **Int** 1, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 8 (can't be tripped)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +11, Perception +9, Stealth +15, Swim +11; **Racial Modifiers** +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -4546,7 +4546,7 @@
 			"",
 			"Vipers are not particularly aggressive snakes, but their poisonous bite can be deadly.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"viper": { "copyof": "familiar_viper" },
@@ -4599,7 +4599,7 @@
 			"",
 			"A wallaby stands about 2 feet tall and weighs 20-40 pounds.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"wallaby": { "copyof": "familiar_wallaby" },
@@ -4632,7 +4632,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 10, **Int** 2, **Wis** 12, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +10, Climb +10, Escape Artist +3, Stealth +14; **Racial Modifiers** +4 Stealth, +8 Acrobatics",
 			"",
 			"#### Ecology",
@@ -4649,7 +4649,7 @@
 			"",
 			"Weasels are predators content with raiding chicken coops or attacking pets when they encounter civilization.",
 			"",
-			"**Family:** [Familiar](family/familiar)"
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"weasel": { "copyof": "familiar_weasel" },
@@ -4690,7 +4690,7 @@
 			"",
 			"**Str** 12, **Dex** 19, **Con**: 14, **Int** 13, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +5; **CMB** +5; **CMD** 19  ",
-			"**Feats** [Following Step](feat/following_step), [Improved Initiative](feat/improved_initiative), [Step Up](feat/step_up)  ",
+			"**Feats** {feat/Following Step}, {feat/Improved Initiative}, {feat/Step Up}  ",
 			"**Skills** Acrobatics +12, Bluff +11, Climb +9, Knowledge (local) +9, Knowledge (nobility) +9, Perception +10, Sense Motive +10, Stealth +16  ",
 			"**Languages** Abyssal, Common, Halfling, Undercommon  ",
 			"**SQ** puppet strings",
@@ -4703,7 +4703,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Aura of Revelation (Su)** A fantionette appears as an adult halfling or a human child (its choice) to all creatures outside of its aura. This is an illusion (glamer) effect that can be bypassed only by [true seeing](spell/true_seeing) or similar magic. A creature within a fantionette's aura that is studying or interacting with it can attempt a DC 15 Will save to perceive the outsider for what it truly is. A creature that succeeds at this save or that is attacked by a fantionette immediately sees the fantionette's true form for the next 24 hours, even while outside the aura. The save DC is Charisma-based.",
+			"**Aura of Revelation (Su)** A fantionette appears as an adult halfling or a human child (its choice) to all creatures outside of its aura. This is an illusion (glamer) effect that can be bypassed only by {spell/true seeing} or similar magic. A creature within a fantionette's aura that is studying or interacting with it can attempt a DC 15 Will save to perceive the outsider for what it truly is. A creature that succeeds at this save or that is attacked by a fantionette immediately sees the fantionette's true form for the next 24 hours, even while outside the aura. The save DC is Charisma-based.",
 			"",
 			"**Puppet Strings (Su)** Once per day as an immediate action, a fantionette can relinquish control of itself, letting a higher entity (presumably Thamir Gixx) gain control. When it does this, a fantionette can perform one of the following special actions.",
 			"",
@@ -4713,7 +4713,7 @@
 			"",
 			"#### Description",
 			"",
-			"A fantionette is a servitor outsider for the halfling deity [Thamir Gixx](faith/thamir_gixx). It embodies the halfling god's association with assassination and opportunity, presenting itself to loyal followers of the Silent Blade both as a powerful assassin and as impressive support for established murderers. When left to its own devices on the Material Plane, a fantionette is a terrifying stalker of halflings and humans alike, positioning itself among large groups of human children or halflings and selecting adult targets to murder based entirely on whim and opportunity.",
+			"A fantionette is a servitor outsider for the halfling deity {faith/Thamir Gixx}. It embodies the halfling god's association with assassination and opportunity, presenting itself to loyal followers of the Silent Blade both as a powerful assassin and as impressive support for established murderers. When left to its own devices on the Material Plane, a fantionette is a terrifying stalker of halflings and humans alike, positioning itself among large groups of human children or halflings and selecting adult targets to murder based entirely on whim and opportunity.",
 			"",
 			"A fantionette stands between 3 and 4 feet high and weighs about 70 pounds.",
 			"",
@@ -4725,7 +4725,7 @@
 			"",
 			"### Habitat",
 			"",
-			"First and foremost, fantionettes are servants of Thamir Gixx. Whether directly delivered by their god or summoned to the Material Plane by eager spellcasters using spells such as lesser planar ally, fantionettes seek only to spread the chaotic, murderous joy of their patron deity. Like their god, they also offer deference to the followers of Norgorber. Fantionettes are as likely to work alongside a worshiper of Thamir Gixx as they are to take on the role of plucky sidekick to a fanatical devotee of Norgorber. Of the divine servitor races, perhaps none are more closely aligned than fantionettes and their [karumzek](monster/karumzek) counterparts. Where fantionettes prefer the eventual chaos of revealing themselves to a target, karumzeks prefer to act entirely behind the scenes. The two outsiders complement each other well, as karumzeks provide alchemical tools and poisons to fantionettes operating in service to Norgorber as part of Thamir Gixx's service to that deity.",
+			"First and foremost, fantionettes are servants of Thamir Gixx. Whether directly delivered by their god or summoned to the Material Plane by eager spellcasters using spells such as lesser planar ally, fantionettes seek only to spread the chaotic, murderous joy of their patron deity. Like their god, they also offer deference to the followers of Norgorber. Fantionettes are as likely to work alongside a worshiper of Thamir Gixx as they are to take on the role of plucky sidekick to a fanatical devotee of Norgorber. Of the divine servitor races, perhaps none are more closely aligned than fantionettes and their {monster/karumzek} counterparts. Where fantionettes prefer the eventual chaos of revealing themselves to a target, karumzeks prefer to act entirely behind the scenes. The two outsiders complement each other well, as karumzeks provide alchemical tools and poisons to fantionettes operating in service to Norgorber as part of Thamir Gixx's service to that deity.",
 			"",
 			"A fantionette's patron will inevitably grow weary of its murderous presence and either destroy the outsider or release it into the wild. On their own, fantionettes often assist thieves and murderers-and disenfranchised halflings in particular-establish a violent reputation by grafting their own long trails of murder and theft that lead to these apprentices. In this way, Thamir Gixx's favored servitors create new worshipers for their patron deity, both by taking on new murderous servants and by using their own murderous actions to remind halfling communities of the presence of the Silent Blade.",
 			"",
@@ -4777,7 +4777,7 @@
 			"",
 			"**Str** 6, **Dex** 23, **Con**: 18, **Int** 19, **Wis** 22, **Cha**, 17  ",
 			"**Base Atk** +9; **CMB** +13; **CMD** 21  ",
-			"**Feats** [Augment Summoning](feat/augment_summoning), [Combat Casting](feat/combat_casting), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Skill Focus (Heal)](feat/skill_focus), [Spell Focus (conjuration)](feat/spell_focus), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (vines)](feat/weapon_focus)  ",
+			"**Feats** {feat/Augment Summoning}, {feat/Combat Casting}, {feat/Great Fortitude}, {feat/Improved Initiative}, [Skill Focus (Heal)](feat/skill_focus), [Spell Focus (conjuration)](feat/spell_focus), {feat/Toughness}, {feat/Weapon Finesse}, [Weapon Focus (vines)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +27, Craft (alchemy) +25, Escape Artist +27, Heal +30, Knowledge (arcana) +22, Knowledge (nature) +25, Perception +27, Sense Motive +27, Spellcraft +22, Survival +24  ",
 			"**Languages** Common, Sylvan  ",
 			"**SQ** bountiful basket, healer's blessing, sow corn",
@@ -4841,7 +4841,7 @@
 			"",
 			"**Str** 14, **Dex** 16, **Con**: 13, **Int** 11, **Wis** 14, **Cha**, 17  ",
 			"**Base Atk** +1; **CMB** +3; **CMD** 16  ",
-			"**Feats** [Point-Blank Shot](feat/point-blank_shot), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Point-Blank Shot}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +8, Bluff +9, Perception +8, Perform (wind) +11, Sense Motive +7, Stealth +9, Survival +4  ",
 			"**Languages** Common, Sylvan",
 			"",
@@ -4904,7 +4904,7 @@
 			"",
 			"**Str** 14, **Dex** 22, **Con**: 17, **Int** 11, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 22 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +17, Climb +21, Intimidate +10, Perception +12, Sense Motive +12, Stealth +17; **Racial Modifiers** +8 Climb  ",
 			"**Languages** Aklo, Undercommon",
 			"",
@@ -4968,7 +4968,7 @@
 			"",
 			"**Str** -, **Dex** 21, **Con**: 17, **Int** 12, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +12; **CMB** +18; **CMD** 37  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Lunge}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Bluff +19, Fly +26, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +22  ",
 			"**Languages** Common (can't speak); telepathy 100 ft.  ",
 			"**SQ** never far behind, prideful defense",
@@ -5030,7 +5030,7 @@
 			"",
 			"**Str** 24, **Dex** 15, **Con**: 20, **Int** 13, **Wis** 15, **Cha**, 14  ",
 			"**Base Atk** +10; **CMB** +19; **CMD** 31 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Critical (bite)](feat/improved_critical), [Intimidating Prowess](feat/intimidating_prowess), [Iron Will](feat/iron_will), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, [Improved Critical (bite)](feat/improved_critical), {feat/Intimidating Prowess}, {feat/Iron Will}, {feat/Vital Strike}  ",
 			"**Skills** Intimidate +19, Knowledge (religion) +11, Perception +20, Swim +15; **Racial Modifiers** +5 Perception  ",
 			"**Languages** Aklo, Aquan, Infernal",
 			"",
@@ -5094,7 +5094,7 @@
 			"",
 			"**Str** 16, **Dex** 10, **Con**: -, **Int** 8, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +3; **CMB** +6 (+8 bull rush); **CMD** 16 (18 vs. bull rush)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Improved Bull Rush}, {feat/Power Attack}  ",
 			"**Skills** Craft (any) +6, Intimidate +9, Perception +9  ",
 			"**Languages** Dwarven, Ignan",
 			"",
@@ -5151,7 +5151,7 @@
 			"",
 			"**Str** 27, **Dex** 18, **Con**: 20, **Int** 7, **Wis** 17, **Cha**, 8  ",
 			"**Base Atk** +13; **CMB** +22; **CMD** 37  ",
-			"**Feats** [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Intimidating Prowess](feat/intimidating_prowess), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Intimidating Prowess}, {feat/Mobility}, {feat/Power Attack}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Intimidate +16, Perception +17, Stealth +11 (+19 in swamps), Survival +18; **Racial Modifiers** +4 Perception, +8 Stealth in swamps, +4 Survival  ",
 			"**Languages** Sasquatch  ",
 			"**SQ** swamp stride, trophy hunter",
@@ -5208,7 +5208,7 @@
 			"",
 			"**Str** 26, **Dex** 7, **Con**: 20, **Int** 4, **Wis** 17, **Cha**, 7  ",
 			"**Base Atk** +19; **CMB** +29 (+31 bull rush); **CMD** 37 (39 vs. bull rush, 41 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Run](feat/run), [Stunning Assault](feat/stunning_assault), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Power Attack}, {feat/Run}, {feat/Stunning Assault}, {feat/Toughness}  ",
 			"**Skills** Acrobatics +10 (+18 when jumping), Climb +15, Perception +16; **Racial Modifiers** +8 Acrobatics when jumping, +4 Perception",
 			"",
 			"#### Ecology",
@@ -5289,7 +5289,7 @@
 			"",
 			"**Str** -, **Dex** 20, **Con**: -, **Int** 6, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +6; **CMB** +11; **CMD** 24  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Mobility}  ",
 			"**Skills** Fly +9, Perception +13, Stealth +17  ",
 			"**SQ** ghost touch",
 			"",
@@ -5415,7 +5415,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 14, **Int** 8, **Wis** 8, **Cha**, 14  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 14  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Appraise +3, Bluff +6, Diplomacy +6, Knowledge (local) +3, Knowledge (planes) +2, Perception +3, Sense Motive +3, Stealth +7; **Racial Modifiers** +2 Knowledge (planes), +2 Stealth  ",
 			"**Languages** Common  ",
 			"**SQ** trapfinding +1",
@@ -5487,7 +5487,7 @@
 			"",
 			"**Str** 25, **Dex** 18, **Con**: -, **Int** 13, **Wis** 15, **Cha**, 18  ",
 			"**Base Atk** +11; **CMB** +18; **CMD** 33  ",
-			"**Feats** [Cleave](feat/cleave), [Dodge](feat/dodge), [Great Cleave](feat/great_cleave), [Improved Critical (bastard sword)](feat/improved_critical), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Spring Attack](feat/spring_attack), [Weapon Focus (bastard sword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Dodge}, {feat/Great Cleave}, [Improved Critical (bastard sword)](feat/improved_critical), {feat/Mobility}, {feat/Power Attack}, {feat/Spring Attack}, [Weapon Focus (bastard sword)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +4, Disguise +15, Intimidate +20, Knowledge (engineering) +12, Knowledge (religion) +12, Perception +20, Sense Motive +9, Stealth +11  ",
 			"**Languages** Common, Infernal  ",
 			"**SQ** unkillable",
@@ -5545,7 +5545,7 @@
 			"",
 			"**Str** 15, **Dex** 19, **Con**: 15, **Int** 12, **Wis** 14, **Cha**, 14  ",
 			"**Base Atk** +2; **CMB** +4; **CMD** 18 (22 vs. trip)  ",
-			"**Feats** [Skill Focus (Bluff)](feat/skill_focus), [Toughness](feat/toughness)  ",
+			"**Feats** [Skill Focus (Bluff)](feat/skill_focus), {feat/Toughness}  ",
 			"**Skills** Acrobatics +10, Bluff +12, Climb +16, Knowledge (nature) +7, Perception +8, Sense Motive +8, Stealth +14  ",
 			"**Languages** Skald, Sylvan",
 			"",
@@ -5557,7 +5557,7 @@
 			"",
 			"#### Description",
 			"",
-			"The stats above are for a [wolverine](monster/wolverine) with the [fey animal](template/fey_animal) template."
+			"The stats above are for a {monster/wolverine} with the {template/fey animal} template."
 		]
 	},
 	"fiend-bred_animal_chelish_hell-bred_dog": {
@@ -5591,7 +5591,7 @@
 			"",
 			"**Str** 14, **Dex** 15, **Con**: 15, **Int** 2, **Wis** 10, **Cha**, 6  ",
 			"**Base Atk** +2; **CMB** +4; **CMD** 16 (20 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Skill Focus (Survival)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, [Skill Focus (Survival)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +6 (+10 when jumping), Perception +4, Stealth +6, Survival +3 (+7 tracking by scent); **Racial Modifiers** +4 Acrobatics when jumping, +4 Survival when tracking by scent  ",
 			"**SQ** hot climate adaptation",
 			"",
@@ -5613,7 +5613,7 @@
 			"",
 			"A Chelish hell-bred dog measures 2-1/2 feet at the withers and weighs 95 pounds. A well-trained young hellbred dog is worth 600 gp.",
 			"",
-			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
+			"**Family:** {family/Fiend Bred Animal}"
 		]
 	},
 	"chelish_hell-bred_dog": { "copyof": "fiend-bred_animal_chelish_hell-bred_dog" },
@@ -5650,7 +5650,7 @@
 			"",
 			"**Str** 12, **Dex** 15, **Con**: 13, **Int** 2, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +1; **CMB** +1 (+5 grapple); **CMD** 13 (17 vs. trip)  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Toughness}  ",
 			"**Skills** Acrobatics +10 (+14 when jumping), Perception +5, Stealth +10; **Racial Modifiers** +4 Acrobatics (+8 when jumping), +4 Stealth  ",
 			"**SQ** spiny tail",
 			"",
@@ -5674,7 +5674,7 @@
 			"",
 			"Quillcats are 3 feet long and weigh 60 pounds.",
 			"",
-			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)"
+			"**Family:** {family/Fiend Bred Animal}"
 		]
 	},
 	"quillcat": { "copyof": "fiend-bred_animal_quillcat" },
@@ -5710,7 +5710,7 @@
 			"",
 			"**Str** 17, **Dex** 14, **Con**: 17, **Int** 2, **Wis** 13, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +6; **CMD** 18 (22 vs. trip)  ",
-			"**Feats** [Intimidating Prowess](feat/intimidating_prowess), [Run](feat/run)[^B], [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Intimidating Prowess}, {feat/Run}[^B], [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Intimidate +4, Perception +5, Stealth +5  ",
 			"**SQ** docile, smoke resistance",
 			"",
@@ -5722,7 +5722,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Docile (Ex)** Unless specifically trained for combat (see the [Handle Animal](skill/handle_animal) skill), a stygian hot-blooded horse's hooves are treated as secondary attacks.",
+			"**Docile (Ex)** Unless specifically trained for combat (see the {skill/Handle Animal} skill), a stygian hot-blooded horse's hooves are treated as secondary attacks.",
 			"",
 			"**Shifting Trot (Ex)** When taking the withdraw action, a stygian hot-blooded horse treats the first 2 squares it leaves as not threatened by any opponent it can see.",
 			"",
@@ -5736,7 +5736,7 @@
 			"",
 			"Stygian hot-blooded horses stand 5 feet tall at the shoulder and weigh approximately 1,000 pounds.",
 			"",
-			"**Family:** [Fiend Bred Animal](family/fiend_bred_animal)",
+			"**Family:** {family/Fiend Bred Animal}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -5779,7 +5779,7 @@
 			"",
 			"**Str** 20, **Dex** 13, **Con**: 14, **Int** 15, **Wis** 13, **Cha**, 14  ",
 			"**Base Atk** +4; **CMB** +10; **CMD** 21  ",
-			"**Feats** [Deflect Arrows](feat/deflect_arrows), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Deflect Arrows}, {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Climb +12, Knowledge (nature) +6, Perception +8, Sense Motive +5, Stealth +1, Survival +8  ",
 			"**Languages** Common, Giant",
 			"",
@@ -5840,7 +5840,7 @@
 			"",
 			"**Str** 46, **Dex** 14, **Con**: 25, **Int** 6, **Wis** 27, **Cha**, 13  ",
 			"**Base Atk** +20; **CMB** +46 (+48 bull rush); **CMD** 58 (60 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Critical Focus](feat/critical_focus), [Diehard](feat/diehard), [Endurance](feat/endurance), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Critical Focus}, {feat/Diehard}, {feat/Endurance}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, {feat/Staggering Critical}  ",
 			"**Skills** Fly -1, Perception +16, Perform (sing) +6, Swim +26  ",
 			"**Languages** Aquan, Auran, Ignan, Terran (cannot speak)  ",
 			"**SQ** elemental heart, no breath",
@@ -5901,7 +5901,7 @@
 			"",
 			"**Str** 30, **Dex** 14, **Con**: 17, **Int** 1, **Wis** 13, **Cha**, 6  ",
 			"**Base Atk** +7; **CMB** +19 (+23 grab); **CMD** 31  ",
-			"**Feats** [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Skill Focus (Perception, Swim)](feat/skill_focus) [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, [Skill Focus (Perception, Swim)](feat/skill_focus) [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +15, Swim +30; **Racial Modifiers** +4 Perception",
 			"",
 			"#### Ecology",
@@ -5952,7 +5952,7 @@
 			"",
 			"**Str** 18, **Dex** 13, **Con**: 17, **Int** 1, **Wis** 14, **Cha**, 12  ",
 			"**Base Atk** +5; **CMB** +10; **CMD** 21 (can't be tripped)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Great Fortitude}, {feat/Improved Initiative}, [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Perception +5, Swim +14",
 			"",
 			"#### Ecology",
@@ -6106,7 +6106,7 @@
 			"",
 			"**Str** 12, **Dex** 15, **Con**: 18, **Int** 1, **Wis** 12, **Cha**, 11  ",
 			"**Base Atk** +1; **CMB** +1 (+5 grapple); **CMD** 12 (can't be tripped)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Escape Artist +6, Swim +14; **Racial Modifiers** +4 Escape Artist  ",
 			"**SQ** slime cloud",
 			"",
@@ -6161,7 +6161,7 @@
 			"",
 			"**Str** 16, **Dex** 8, **Con**: 14, **Int** 5, **Wis** 12, **Cha**, 8  ",
 			"**Base Atk** +4; **CMB** +8; **CMD** 17 (can't be tripped)  ",
-			"**Feats** [Power Attack](feat/power_attack), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Power Attack}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Climb +15, Perception +5, Stealth +0  ",
 			"**Languages** Flail Snail (sign language, slime writing, cannot speak)  ",
 			"**SQ** mucus, slime rope, suction",
@@ -6283,9 +6283,9 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 13, **Int** -, **Wis** 11, **Cha**, 6  ",
 			"**Base Atk** +3; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Dodge](feat/dodge)[^B]  ",
+			"**Feats** {feat/Dodge}[^B]  ",
 			"**Skills** Acrobatics +0 (+20 when jumping); **Racial Modifiers** +20 Acrobatics when jumping  ",
-			"**SQ** uncanny leap (see [giant flea](monster/giant_flea))",
+			"**SQ** uncanny leap (see {monster/giant flea})",
 			"",
 			"#### Ecology",
 			"",
@@ -6339,7 +6339,7 @@
 			"",
 			"**Str** 12, **Dex** 13, **Con**: 15, **Int** 6, **Wis** 11, **Cha**, 12  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 12  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Acrobatics +5, Escape Artist +5, Perception +4, Stealth +9  ",
 			"**Languages** Aklo",
 			"",
@@ -6403,7 +6403,7 @@
 			"",
 			"**Str** 2, **Dex** 13, **Con**: 15, **Int** 2, **Wis** 11, **Cha**, 2  ",
 			"**Base Atk** +2; **CMB** -; **CMD** -  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Perception +5, Stealth +13  ",
 			"**SQ** arcane bite",
 			"",
@@ -6470,7 +6470,7 @@
 			"",
 			"**Str** 15, **Dex** 15, **Con**: 18, **Int** 15, **Wis** 16, **Cha**, 16  ",
 			"**Base Atk** +6; **CMB** +9; **CMD** 21 (33 vs. trip)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Combat Casting](feat/combat_casting), [Weapon Focus (bite, mace)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Dodge}, {feat/Combat Casting}, [Weapon Focus (bite, mace)](feat/weapon_focus)  ",
 			"**Skills** Climb +22, Intimidate +15, Knowledge (arcana) +14, Perception +15, Spellcraft +14, Stealth +14; **Racial Modifiers** +4 Stealth  ",
 			"**Languages** Common, Elven, Undercommon  ",
 			"**SQ** undersized weapons",
@@ -6495,7 +6495,7 @@
 			"",
 			"Driders are sexually dimorphic. A female drider's lower spider body is sleek and graceful, often similar to a black widow's body, while its upper drow torso retains its alluring curves and beautiful face (with the exception of sharp, poisonous fangs). A male drider's lower body is bulky like a tarantula, while its upper body is wiry and bears a hideous face more spider than drow, complete with fanged mandibles.",
 			"",
-			"**Family:** [Fleshwarp](family/fleshwarp)"
+			"**Family:** {family/Fleshwarp}"
 		]
 	},
 	"drider": { "copyof": "fleshwarp_drider" },
@@ -6537,7 +6537,7 @@
 			"",
 			"**Str** 27, **Dex** 7, **Con**: 28, **Int** 4, **Wis** 7, **Cha**, 8  ",
 			"**Base Atk** +9; **CMB** +18 (+20 bull rush); **CMD** 26 (28 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Improved Bull Rush](feat/improved_bull_rush), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Improved Bull Rush}, {feat/Multiattack}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Climb +12, Perception +9, Stealth +0 (+4 when underground); **Racial Modifiers** +4 Stealth when underground  ",
 			"**Languages** Draconic",
 			"",
@@ -6561,7 +6561,7 @@
 			"",
 			"Troglodytes forced to undergo fleshwarping by the drow, ghonhatines harken to what troglodytes might have been in savage prehistory. They stand over 10 feet tall (hunched to about 8 feet) and weigh upward of 5,000 pounds.",
 			"",
-			"**Family:** [Fleshwarp](family/fleshwarp)"
+			"**Family:** {family/Fleshwarp}"
 		]
 	},
 	"ghonhatine": { "copyof": "fleshwarp_ghonhatine" },
@@ -6598,7 +6598,7 @@
 			"",
 			"**Str** 15, **Dex** 6, **Con**: 18, **Int** 1, **Wis** 8, **Cha**, 5  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 13 (can't be tripped)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Great Fortitude}, {feat/Improved Initiative}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Climb +10  ",
 			"**SQ** compression",
 			"",
@@ -6622,7 +6622,7 @@
 			"",
 			"Many fleshcrafters consider the grothlut a failure, as the transformation all but stamps out its human consciousness. Others disagree, arguing that warping the creature's mind makes it more useful, as its stupidity makes it pliable and easy to herd. The drow typically use grothluts only as guardians to slowly patrol the remote edges of their enclaves. Once in position, though, grothluts can be used as crude shock troops, unleashed to soften enemy forces before more valuable warriors wade in and cut down the enemies who have been nauseated by the grothluts' exploded organs and flesh.",
 			"",
-			"**Family:** [Fleshwarp](family/fleshwarp)"
+			"**Family:** {family/Fleshwarp}"
 		]
 	},
 	"grothlut": { "copyof": "fleshwarp_grothlut" },
@@ -6658,7 +6658,7 @@
 			"",
 			"**Str** 19, **Dex** 14, **Con**: 17, **Int** 6, **Wis** 11, **Cha**, 8  ",
 			"**Base Atk** +7; **CMB** +10; **CMD** 22  ",
-			"**Feats** [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Iron Will}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Perception +19, Stealth +25  ",
 			"**Languages** Undercommon, Vegepygmy (can't speak)",
 			"",
@@ -6680,7 +6680,7 @@
 			"",
 			"Though their sunken eyes and constant stream of acidic tears often make these creatures seem pitiful, they are fierce bundles of rage and self-hatred. The conditioning of the fleshwarpers causes them to attack and infect any enemy of the drow they come in contact with, but what's left of their consciousness rages against the mutated spores they carry. Worse still, many drow use these creatures to hunt down and even infect other tribes of vegepygmies.",
 			"",
-			"**Family:** [Fleshwarp](family/fleshwarp)"
+			"**Family:** {family/Fleshwarp}"
 		]
 	},
 	"halsora": { "copyof": "fleshwarp_halsora" },
@@ -6719,7 +6719,7 @@
 			"",
 			"**Str** 24, **Dex** 17, **Con**: 23, **Int** 8, **Wis** 14, **Cha**, 18  ",
 			"**Base Atk** +7; **CMB** +15; **CMD** 28 (32 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows), [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Deflect Arrows}, {feat/Improved Initiative}  ",
 			"**Skills** Climb +20, Perception +15, Stealth +12  ",
 			"**Languages** Elven (can't speak)",
 			"",
@@ -6743,7 +6743,7 @@
 			"",
 			"No two irnakurse look exactly the same-drow torturers take profane pride in sculpting their elven victims into unique masterpieces of agony-most stand between 8 and 9 feet tall and weigh upward of 300 pounds.",
 			"",
-			"**Family:** [Fleshwarp](family/fleshwarp)"
+			"**Family:** {family/Fleshwarp}"
 		]
 	},
 	"irnakurse": { "copyof": "fleshwarp_irnakurse" },
@@ -6785,7 +6785,7 @@
 			"",
 			"**Str** 23, **Dex** 17, **Con**: 18, **Int** 7, **Wis** 10, **Cha**, 16  ",
 			"**Base Atk** +5; **CMB** +12 (+14 overrun); **CMD** 25 (27 vs. overrun)  ",
-			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Improved Overrun](feat/improved_overrun), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Acrobatic Steps}, {feat/Improved Overrun}, {feat/Nimble Moves}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +8 (+12 when jumping), Climb +16, Perception +5, Stealth +6, Swim +8  ",
 			"**Languages** Orc",
 			"",
@@ -6811,7 +6811,7 @@
 			"",
 			"With the exception of the driders, the oronci are among the most useful of the obscenities produced by fleshwarping. They embody all the savage brutality of an orc warrior, but mounted centaurlike upon an even larger, more powerful frame. Being less intelligent than drow, oronci make better shock troopers and advance soldiers for drow armies than the dark elves themselves. Oronci who have escaped the slavery of the dark elves have become favored champions for certain clever orc chieftains. Some oronci even overcome their sensitivity to daylight given time, which makes them better suited to terrorize the surface lands.",
 			"",
-			"**Family:** [Fleshwarp](family/fleshwarp)"
+			"**Family:** {family/Fleshwarp}"
 		]
 	},
 	"oronci": { "copyof": "fleshwarp_oronci" },
@@ -6847,7 +6847,7 @@
 			"",
 			"**Str** 14, **Dex** 11, **Con**: -, **Int** 7, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +4; **CMB** +5; **CMD** 15  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Iron Will}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Perception +10, Stealth +13 (+17 in water), Swim +10; **Racial Modifiers** +4 Stealth in water  ",
 			"**Languages** Common (can't speak)  ",
 			"**SQ** discorporate",
@@ -6929,7 +6929,7 @@
 			"",
 			"**Str** 10, **Dex** 16, **Con**: 11, **Int** 10, **Wis** 14, **Cha**, 10  ",
 			"**Base Atk** +1; **CMB** +0; **CMD** 13  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Diplomacy +2, Fly +18, Perception +7, Sense Motive +3, Stealth +11  ",
 			"**Languages** Aklo, Common",
 			"",
@@ -6943,7 +6943,7 @@
 			"",
 			"**Acid Injection (Ex)** When a flumph strikes an opponent with its spikes, it injects a burning, irritating acid that deals 1d4 points of acid damage immediately and another 1d4 points of acid damage on the round after the attack. The target can end the acid's effects by submerging the wound in water for a round or by being treated with a DC 15 Heal check. A creature that grapples or swallows the flumph takes this acid damage automatically every round it maintains this contact with a living flumph.",
 			"",
-			"**Stench Spray (Ex)** A flumph can spray a 20-foot line of foul-smelling liquid once every 1d4 rounds. This spray functions like the [stench](umr/stench) universal monster ability, except it only affects creatures struck by the spray, which must make a DC 11 Fortitude save or be sickened for 5 rounds. The save DC is Constitution-based. Alternatively, the flumph can concentrate the spray on a single target within 5 feet. To use this version of its stench spray, the flumph must succeed at a ranged touch attack (+5 for most flumphs). If the target is hit, it must make a DC 11 Fortitude save or become nauseated for 5 rounds; otherwise, it is sickened for 5 rounds. The odor from this spray lingers in the area and on all creatures struck for 1d4 hours, and can be detected at a range of 100 feet (creatures with the scent ability can smell it at double this range).",
+			"**Stench Spray (Ex)** A flumph can spray a 20-foot line of foul-smelling liquid once every 1d4 rounds. This spray functions like the {umr/stench} universal monster ability, except it only affects creatures struck by the spray, which must make a DC 11 Fortitude save or be sickened for 5 rounds. The save DC is Constitution-based. Alternatively, the flumph can concentrate the spray on a single target within 5 feet. To use this version of its stench spray, the flumph must succeed at a ranged touch attack (+5 for most flumphs). If the target is hit, it must make a DC 11 Fortitude save or become nauseated for 5 rounds; otherwise, it is sickened for 5 rounds. The odor from this spray lingers in the area and on all creatures struck for 1d4 hours, and can be detected at a range of 100 feet (creatures with the scent ability can smell it at double this range).",
 			"",
 			"#### Description",
 			"",
@@ -6989,7 +6989,7 @@
 			"",
 			"**Str** -, **Dex** 28, **Con**: -, **Int** 18, **Wis** 20, **Cha**, 23  ",
 			"**Base Atk** +19; **CMB** +28; **CMD** 45  ",
-			"**Feats** [Ability Focus (time shift)](feat/ability_focus), [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Mobility](feat/mobility), [Quicken Spell-Like Ability (deja vu)](feat/quicken_spell-like_ability), [Stand Still](feat/stand_still)  ",
+			"**Feats** [Ability Focus (time shift)](feat/ability_focus), {feat/Alertness}, {feat/Combat Casting}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Hover}, {feat/Improved Initiative}, {feat/Lunge}, {feat/Mobility}, [Quicken Spell-Like Ability (deja vu)](feat/quicken_spell-like_ability), {feat/Stand Still}  ",
 			"**Skills** Acrobatics +25, Diplomacy +25, Fly +36, Intimidate +28, Knowledge (arcana) +23, Knowledge (dungeoneering, planes) +18, Knowledge (history) +24, Perception +37, Sense Motive +37, Spellcraft +23, Stealth +20  ",
 			"**Languages** Ancient Osiriani, Azlanti, Common, Cyclops, Thassilonian",
 			"",
@@ -7001,7 +7001,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Slow Aura (Su)** Fluxwraiths constantly emit a 30-foot-radius aura of temporal distortion. Any creature within this aura is affected as if by [slow](spell/slow), but it gets no saving throw. If a creature exits the radius, the effect ceases at the end of its turn. If the fluxwraith moves more than 30 feet away from an affected creature, the effect ends immediately for that creature. Creatures affected by [freedom](spell/freedom), [freedom of movement](spell/freedom_of_movement), or [haste](spell/haste) are unaffected by the slow aura.",
+			"**Slow Aura (Su)** Fluxwraiths constantly emit a 30-foot-radius aura of temporal distortion. Any creature within this aura is affected as if by {spell/slow}, but it gets no saving throw. If a creature exits the radius, the effect ceases at the end of its turn. If the fluxwraith moves more than 30 feet away from an affected creature, the effect ends immediately for that creature. Creatures affected by {spell/freedom}, {spell/freedom of movement}, or {spell/haste} are unaffected by the slow aura.",
 			"",
 			"**Temporal Madness (Su)** As a ranged touch attack with a range increment of 30 feet, a fluxwraith can grant a target a mind-shattering glimpse of its own existence as it appears to a time-displaced entity. The attack deals 1d6 points of Wisdom drain, although this drain is reduced to 1 point if the target succeeds at a DC 29 Will saving throw. This is a mind-affecting effect. The save DC is Charisma-based.",
 			"",
@@ -7072,7 +7072,7 @@
 			"",
 			"**Str** 28, **Dex** 15, **Con**: 24, **Int** 19, **Wis** 20, **Cha**, 21  ",
 			"**Base Atk** +13; **CMB** +24 (+28 grapple); **CMD** 42 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Critical (tentacle)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, [Improved Critical (tentacle)](feat/improved_critical), {feat/Improved Initiative}, {feat/Mobility}, {feat/Power Attack}, {feat/Vital Strike}, [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Fly +27, Knowledge (engineering) +22, Knowledge (history) +22, Knowledge (nature) +22, Perception +26, Spellcraft +25, Stealth +15, Use Magic Device +23  ",
 			"**Languages** Aklo",
 			"",
@@ -7145,7 +7145,7 @@
 			"",
 			"**Str** 24, **Dex** 14, **Con**: 25, **Int** 15, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +11; **CMB** +19; **CMD** 31  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Greater Sunder](feat/greater_sunder)[^B], [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Sunder](feat/improved_sunder)[^B], [Iron Will](feat/iron_will), [Quicken Spell-Like Ability (produce flame)](feat/quicken_spell-like_ability) [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Greater Sunder}[^B], {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Sunder}[^B], {feat/Iron Will}, [Quicken Spell-Like Ability (produce flame)](feat/quicken_spell-like_ability) {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +16 (+12 when jumping), Climb +21, Craft (traps) +16, Disable Device +16, Knowledge (dungeoneering) +16, Perception +15, Sense Motive +15, Stealth +12  ",
 			"**Languages** Common, Dwarven, Infernal, Terran",
 			"",
@@ -7159,7 +7159,7 @@
 			"",
 			"**Adamantine Bite (Ex)** A forgefiend's bite attacks are treated as adamantine for the purposes of overcoming damage reduction.",
 			"",
-			"**Rend Armor (Ex)** When a forgefiend hits with a bite attack, it chews any armor worn by the target-this grants the forgefiend a free sunder attempt against armor worn by the target if the victim fails a DC 22 Reflex save. A forgefiend also gains [Greater Sunder](feat/greater_sunder) and [Improved Sunder](feat/improved_sunder) as bonus feats. The save DC is Strength-based.",
+			"**Rend Armor (Ex)** When a forgefiend hits with a bite attack, it chews any armor worn by the target-this grants the forgefiend a free sunder attempt against armor worn by the target if the victim fails a DC 22 Reflex save. A forgefiend also gains {feat/Greater Sunder} and {feat/Improved Sunder} as bonus feats. The save DC is Strength-based.",
 			"",
 			"**Searing Spew (Su)** A forgefiend can belch forth a searing pile of slag from its body maw as a standard action once every 1d4 rounds. This blob of molten metal affects any 10-foot-square area adjacent to the forgefiend. Any creature in this area takes 14d6 points of fire damage (Reflex DC 22 halves). The slag quickly cools, forming a rugged pile of worthless scrap and misshapen metal that is treated as difficult terrain-this stuff crumbles to powder in 1 hour. The save DC is Constitution-based.",
 			"",
@@ -7207,7 +7207,7 @@
 			"",
 			"**Str** 12, **Dex** 15, **Con**: 12, **Int** 4, **Wis** 13, **Cha**, 9  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 15  ",
-			"**Feats** [Skill Focus (Perception)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Perception)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +9, Perception +11, Stealth +9  ",
 			"**Languages** Common, Sylvan",
 			"",
@@ -7274,7 +7274,7 @@
 			"",
 			"**Str** 20, **Dex** 19, **Con**: 20, **Int** 17, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +12; **CMB** +18; **CMD** 35 (39 vs. trip)  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Quick Draw](feat/quick_draw), [Spring Attack](feat/spring_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Dodge}, {feat/Improved Initiative}, {feat/Mobility}, {feat/Quick Draw}, {feat/Spring Attack}, {feat/Vital Strike}  ",
 			"**Skills** Climb +20, Diplomacy +15, Knowledge (arcana) +15, Perception +18 (+22 with hive mind), Sense Motive +15, Spellcraft +15, Stealth +15  ",
 			"**Languages** Common, telepathy 150 ft.  ",
 			"**SQ** formian traits, inspire hive, undersized weapons",
@@ -7303,7 +7303,7 @@
 			"",
 			"A myrmarch has an enlarged thorax and abdomen, which give it the same general size and weight as a large warhorse, though its upper body is not much larger than that of a formian warrior's. Myrmarchs stand about 8 feet high and weigh about 1,200 pounds.",
 			"",
-			"**Family:** [Formian](family/formian)"
+			"**Family:** {family/Formian}"
 		]
 	},
 	"formian_myrmarch": { "copyof": "formian_formian_myrmarch" },
@@ -7344,7 +7344,7 @@
 			"",
 			"**Str** 6, **Dex** 5, **Con**: 20, **Int** 19, **Wis** 18, **Cha**, 25  ",
 			"**Base Atk** +24; **CMB** +35; **CMD** 42 (50 vs. trip)  ",
-			"**Feats** [Alertness](feat/alertness), [Blind-Fight](feat/blind-fight), [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), [Empower Spell-Like Ability (cone of cold)](feat/empower_spell-like_ability), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Quicken Spell-Like Ability (magic missile)](feat/quicken_spell-like_ability) [Spell Penetration](feat/spell_penetration), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Combat Casting}, {feat/Craft Wondrous Item}, [Empower Spell-Like Ability (cone of cold)](feat/empower_spell-like_ability), {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, [Quicken Spell-Like Ability (magic missile)](feat/quicken_spell-like_ability) {feat/Spell Penetration}, {feat/Toughness}  ",
 			"**Skills** Diplomacy +31, Intimidate +34, Knowledge (arcana, nature) +28, Knowledge (dungeoneering, engineering, geography, local, planes) +12, Perception +35 (+39 with hive mind), Sense Motive +12, Spellcraft +28  ",
 			"**Languages** Common, Dwarven, Terran, Undercommon; telepathy 200 ft.  ",
 			"**SQ** formian traits, hive frenzy",
@@ -7365,7 +7365,7 @@
 			"",
 			"A formian queen is the embodiment of the hive and the key to its success, as a hive's fate is tied to her ability to both populate it and successfully guide it. The formian queen does this while her massive body is bound to a central chamber dedicated to her nearly constant egg laying. The queen's enormous abdomen squeezes out egg after egg as she meets with her myrmarchs to plan defense, strategy, and trade negotiations. While the queen may be sheltered, she is not blind. When necessary, she possesses the minds of her children to see for herself what occurs beyond her central chamber, and more active queens use this ability to confront intruders directly.",
 			"",
-			"**Family:** [Formian](family/formian)"
+			"**Family:** {family/Formian}"
 		]
 	},
 	"formian_queen": { "copyof": "formian_formian_queen" },
@@ -7409,7 +7409,7 @@
 			"",
 			"**Str** 17, **Dex** 14, **Con**: 16, **Int** 13, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +10; **CMB** +13; **CMD** 26 (30 vs. trip)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Point-Blank Shot](feat/point-blank_shot), [Quick Draw](feat/quick_draw), [Rapid Shot](feat/rapid_shot), [Spell Focus (enchantment)](feat/spell_focus)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Point-Blank Shot}, {feat/Quick Draw}, {feat/Rapid Shot}, [Spell Focus (enchantment)](feat/spell_focus)  ",
 			"**Skills** Appraise +6, Bluff +9, Climb +11, Craft (armor) +9, Diplomacy +14, Perception +16 (+20 with hive mind), Sense Motive +8, Spellcraft +6  ",
 			"**Languages** Common; telepathy 120 ft.  ",
 			"**SQ** formian traits, mental motivator (20 rounds/day)",
@@ -7438,7 +7438,7 @@
 			"",
 			"Two taskmasters might have a duel over promotions, a trade route, or an insult. These duels are rarely lethal for fear of weakening the hive, and taskmasters who are too aggressive attract the wrong kind of attention from the myrmarchs. Dueling victories are often recorded on taskmasters' carapaces alongside their other major accomplishments.",
 			"",
-			"**Family:** [Formian](family/formian)"
+			"**Family:** {family/Formian}"
 		]
 	},
 	"formian_taskmaster": { "copyof": "formian_formian_taskmaster" },
@@ -7475,7 +7475,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: 15, **Int** 11, **Wis** 10, **Cha**, 12  ",
 			"**Base Atk** +4; **CMB** +6 (+10 grapple); **CMD** 19 (23 vs. trip)  ",
-			"**Feats** [Skill Focus (Acrobatics)](feat/skill_focus), [Step Up](feat/step_up)  ",
+			"**Feats** [Skill Focus (Acrobatics)](feat/skill_focus), {feat/Step Up}  ",
 			"**Skills** Acrobatics +10 (+14 when jumping), Climb +8, Intimidate +8, Perception +7 (+11 with hive mind), Stealth +7  ",
 			"**Languages** Common; telepathy 60 ft.  ",
 			"**SQ** coordinate, formian traits",
@@ -7506,7 +7506,7 @@
 			"",
 			"Warriors mature quickly and have short life spans, becoming too infirm to fight around 15 years of age. Old warriors are expected to end their lives for the good of the hive, either by taking on a fatal mission or through voluntary starvation. A few of the most exceptional warriors receive permission to live out their remaining years as teachers and drill instructors, passing their skills on to new generations of formian warriors.",
 			"",
-			"**Family:** [Formian](family/formian)"
+			"**Family:** {family/Formian}"
 		]
 	},
 	"formian_warrior": { "copyof": "formian_formian_warrior" },
@@ -7541,7 +7541,7 @@
 			"",
 			"**Str** 13, **Dex** 10, **Con**: 13, **Int** 10, **Wis** 10, **Cha**, 9  ",
 			"**Base Atk** +1; **CMB** +1; **CMD** 11 (15 vs. trip)  ",
-			"**Feats** [Skill Focus](feat/skill_focus) (Profession [miner])  ",
+			"**Feats** {feat/Skill Focus} (Profession [miner])  ",
 			"**Skills** Climb +5, Knowledge (engineering) +4, Perception +4 (+8 with hive mind), Profession (miner) +7  ",
 			"**Languages** Common, telepathy 60 ft.  ",
 			"**SQ** able assistant, formian traits, peerless bearer",
@@ -7568,7 +7568,7 @@
 			"",
 			"Workers flee from combat unless they are ordered by a taskmaster or myrmarch to attack intruders. If a hive is invaded, formian workers might be used as diversions or to undermine or collapse tunnels on invading enemies. If forced into a direct fight, they usually spend most of their efforts assisting a warrior or myrmarch, though they make good use of mining picks or alchemist's fire if they are cornered.",
 			"",
-			"**Family:** [Formian](family/formian)"
+			"**Family:** {family/Formian}"
 		]
 	},
 	"formian_worker": { "copyof": "formian_formian_worker" },
@@ -7606,7 +7606,7 @@
 			"",
 			"**Str** 23, **Dex** 29, **Con**: 22, **Int** 15, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +9; **CMB** +17; **CMD** 36  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Power Attack](feat/power_attack), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Power Attack}, {feat/Weapon Finesse}, [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (tentacle)](feat/weapon_focus)  ",
 			"**Skills** Climb +20, Knowledge (religion) +14, Perception +13, Stealth +13, Swim +20  ",
 			"**Languages** Aklo  ",
 			"**SQ** compression, freeze, improved swallow whole, tentacles",
@@ -7629,7 +7629,7 @@
 			"",
 			"#### Description",
 			"",
-			"Oozes are much-feared denizens of the Darklands, yet many of them share characteristics that canny adventurers can exploit. The two best known are their mindlessness (a feature that lets an experienced adventurer manipulate the ooze in a battle, due to its inability to use tactics) and their lack of armor (a quality that allows for tactics like [Power Attack](feat/power_attack) to be used with abandon). However, those who stumble across one of the so-called formless spawn of Tsathoggua would do well to remember that not all oozes are mindless and easily hit in combat, for these deadly guardians prove quite cunning and display an alacrity that grants them incredible defenses against physical attacks.",
+			"Oozes are much-feared denizens of the Darklands, yet many of them share characteristics that canny adventurers can exploit. The two best known are their mindlessness (a feature that lets an experienced adventurer manipulate the ooze in a battle, due to its inability to use tactics) and their lack of armor (a quality that allows for tactics like {feat/Power Attack} to be used with abandon). However, those who stumble across one of the so-called formless spawn of Tsathoggua would do well to remember that not all oozes are mindless and easily hit in combat, for these deadly guardians prove quite cunning and display an alacrity that grants them incredible defenses against physical attacks.",
 			"",
 			"A formless spawn at rest resembles nothing more than a simple puddle of tar, oil, or another dark, thick liquid; once roused to attack, however, it could never be mistaken for anything other than a monstrous and malignant predator. The creature's outline changes constantly, shifting from serpentine to insectile to a truly shapeless mass-at times even approximating humanoid or other bestial shapes before collapsing in on itself a moment later. Always, the formless spawn sends forth a storm of tendrils that whip and writhe, blocking attacks and fouling attempts at combat maneuvers. The creatures can speak if they deign to, yet they rarely bother to do so with creatures that have fixed shapes-formless spawn consider talking to one's food a waste of time.",
 			"",
@@ -7683,7 +7683,7 @@
 			"",
 			"**Str** 10, **Dex** 13, **Con**: -, **Int** 11, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +4; **CMB** +4; **CMD** 15  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Point-Blank Shot}, {feat/Precise Shot}  ",
 			"**Skills** Knowledge (engineering) +3, Perception +7, Profession (soldier) +7  ",
 			"**Languages** Common, Jistka",
 			"",
@@ -7735,7 +7735,7 @@
 			"",
 			"**Str** 18, **Dex** 15, **Con**: -, **Int** 13, **Wis** 10, **Cha**, 11  ",
 			"**Base Atk** +5; **CMB** +9; **CMD** 21  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Two-Weapon Fighting}  ",
 			"**Skills** Climb +11, Disable Device +6, Knowledge (engineering) +8, Perception +10, Stealth +9  ",
 			"**Languages** Common, Jistka",
 			"",
@@ -7789,7 +7789,7 @@
 			"",
 			"**Str** 14, **Dex** 11, **Con**: -, **Int** 11, **Wis** 12, **Cha**, 11  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 15  ",
-			"**Feats** [Precise Strike](feat/precise_strike), [Shield Wall](feat/shield_wall)  ",
+			"**Feats** {feat/Precise Strike}, {feat/Shield Wall}  ",
 			"**Skills** Diplomacy +4, Intimidate +7, Perception +8, Profession (soldier) +5  ",
 			"**Languages** Common, Jistka  ",
 			"**SQ** undying loyalty",
@@ -7845,7 +7845,7 @@
 			"",
 			"**Str** 10, **Dex** 17, **Con**: 15, **Int** 12, **Wis** 14, **Cha**, 21  ",
 			"**Base Atk** +4; **CMB** +4; **CMD** 17  ",
-			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Weapon Finesse}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Bluff +17, Diplomacy +9, Knowledge (geography) +6, Knowledge (nature) +10, Perception +16, Perform (sing) +10, Perform (string) +21, Sense Motive +16, Sleight of Hand +10, Stealth +15, Swim +18; **Racial Modifiers** +4 Perform (string), +4 Swim  ",
 			"**Languages** Common, Sylvan  ",
 			"**SQ** amphibious, transparency, treasure form",
@@ -7966,7 +7966,7 @@
 			"",
 			"**Str** -, **Dex** 17, **Con**: -, **Int** 15, **Wis** 17, **Cha**, 16  ",
 			"**Base Atk** +6; **CMB** +6; **CMD** 21  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Blind-Fight}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Fly +11, Intimidate +13, Knowledge (history) +10, Knowledge (local) +13, Perception +17, Stealth +14, Survival +11  ",
 			"**Languages** Common, Goblin",
 			"",
@@ -8027,7 +8027,7 @@
 			"",
 			"**Str** 23, **Dex** 13, **Con**: 20, **Int** 1, **Wis** 10, **Cha**, 6  ",
 			"**Base Atk** +4; **CMB** +12; **CMD** 23 (27 vs. trip)  ",
-			"**Feats** [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Acrobatics)](feat/skill_focus)  ",
+			"**Feats** {feat/Iron Will}, {feat/Lightning Reflexes}, [Skill Focus (Acrobatics)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +12 (+20 jumping), Perception +10, Stealth +2, Swim +14; **Racial Modifiers** +4 Acrobatics (+12 jumping), +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -8078,7 +8078,7 @@
 			"",
 			"**Str** 15, **Dex** 13, **Con**: 16, **Int** 1, **Wis** 8, **Cha**, 6  ",
 			"**Base Atk** +1; **CMB** +3 (+7 grapple); **CMD** 14 (18 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Acrobatics +9 (+13 jumping), Perception +3, Stealth +5, Swim +10; **Racial Modifiers** +4 Acrobatics (+8 jumping), +4 Stealth",
 			"",
 			"#### Ecology",
@@ -8129,7 +8129,7 @@
 			"",
 			"**Str** 19, **Dex** 13, **Con**: 18, **Int** 1, **Wis** 10, **Cha**, 6  ",
 			"**Base Atk** +3; **CMB** +8 (+12 grapple); **CMD** 19 (23 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Acrobatics)](feat/skill_focus)  ",
+			"**Feats** {feat/Lightning Reflexes}, [Skill Focus (Acrobatics)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +12 (+20 when jumping), Climb +16, Perception +8, Stealth +5, Swim +12; **Racial Modifiers** +4 Acrobatics (+12 when jumping), +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -8179,7 +8179,7 @@
 			"",
 			"**Str** 2, **Dex** 12, **Con**: 11, **Int** 1, **Wis** 9, **Cha**, 10  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 5 (9 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +5 (+1 jumping), Perception +3, Stealth +13, Swim +9; **Racial Modifiers** +4 Acrobatics (+8 jumping), +4 Stealth",
 			"",
 			"#### Ecology",
@@ -8234,7 +8234,7 @@
 			"",
 			"**Str** 30, **Dex** 13, **Con**: 24, **Int** 2, **Wis** 13, **Cha**, 11  ",
 			"**Base Atk** +12; **CMB** +24 (+28 grapple); **CMD** 35  ",
-			"**Feats** [Cleave](feat/cleave), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Cleave}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Lunge}, {feat/Multiattack}, {feat/Power Attack}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Perception +16, Stealth +14 (+22 in marshes), Swim +18; **Racial Modifiers** +8 Perception, +8 Stealth in marshes",
 			"",
 			"#### Ecology",
@@ -8291,7 +8291,7 @@
 			"",
 			"**Str** 15, **Dex** 10, **Con**: 16, **Int** 11, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +1; **CMB** +3 (+5 disarm, grapple and steal); **CMD** 13  ",
-			"**Feats** [Power Attack](feat/power_attack), [Skill Focus (Intimidate)](feat/skill_focus)  ",
+			"**Feats** {feat/Power Attack}, [Skill Focus (Intimidate)](feat/skill_focus)  ",
 			"**Skills** Intimidate +4, Perception +5, Stealth +6 (+12 in forests); **Racial Modifiers** +2 Stealth (+6 in forests)  ",
 			"**Languages** Sylvan, Treant  ",
 			"**SQ** freeze",
@@ -8365,7 +8365,7 @@
 			"",
 			"**Str** 31, **Dex** 16, **Con**: 21, **Int** 2, **Wis** 16, **Cha**, 11  ",
 			"**Base Atk** +16; **CMB** +28; **CMD** 41 (can't be tripped)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus), [Stand Still](feat/stand_still), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), {feat/Stand Still}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +17, Stealth +6 (+14 in ice and snow); **Racial Modifiers** +8 Stealth in ice and snow  ",
 			"**SQ** cold",
 			"",
@@ -8428,7 +8428,7 @@
 			"",
 			"**Str** 26, **Dex** 12, **Con**: 22, **Int** 7, **Wis** 13, **Cha**, 15  ",
 			"**Base Atk** +12; **CMB** +19; **CMD** 30  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Diehard](feat/diehard), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Reflexes}, {feat/Diehard}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Lunge}, {feat/Power Attack}  ",
 			"**Skills** Perception +14, Sense Motive +3, Stealth +16 (+20 when underground); **Racial Modifiers** +4 Stealth when underground  ",
 			"**Languages** Abyssal, Sylvan  ",
 			"**SQ** change shape (Small fungus; tree shape)",
@@ -8507,7 +8507,7 @@
 			"",
 			"**Str** 14, **Dex** 20, **Con**: 15, **Int** 2, **Wis** 13, **Cha**, 7  ",
 			"**Base Atk** +3; **CMB** +4; **CMD** 19 (27 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Step Up](feat/step_up)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Step Up}  ",
 			"**Skills** Acrobatics +10 (+14 jumping), Climb +10, Perception +6; **Racial Modifiers** +14 on Acrobatics checks made to jump",
 			"",
 			"#### Ecology",
@@ -8575,7 +8575,7 @@
 			"",
 			"**Str** 21, **Dex** 17, **Con**: 21, **Int** 18, **Wis** 16, **Cha**, 24  ",
 			"**Base Atk** +9; **CMB** +14 (+18 grapple); **CMD** 27 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Skill Focus (Disguise)](feat/skill_focus)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Multiattack}, {feat/Power Attack}, [Skill Focus (Disguise)](feat/skill_focus)  ",
 			"**Skills** Bluff +22, Disguise +28, Knowledge (dungeoneering, planes) +10, Perception +18, Sense Motive +18, Use Magic Device +22  ",
 			"**Languages** Abyssal, Aklo, Common, Undercommon; telepathy 100 ft.; tongues  ",
 			"**SQ** plant empathy +23",
@@ -8648,7 +8648,7 @@
 			"",
 			"**Str** 22, **Dex** 21, **Con**: 18, **Int** 5, **Wis** 19, **Cha**, 12  ",
 			"**Base Atk** +18; **CMB** +26; **CMD** 41 (45 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Endurance](feat/endurance), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Run](feat/run), [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus), [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Endurance}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Run}, [Skill Focus (Perception)](feat/skill_focus), [Skill Focus (Stealth)](feat/skill_focus), {feat/Staggering Critical}  ",
 			"**Skills** Climb +23, Perception +16, Stealth +21; **Racial Modifiers** Stealth +12  ",
 			"**Languages** Sylvan (can't speak)",
 			"",

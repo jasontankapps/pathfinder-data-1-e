@@ -13,7 +13,7 @@
 			"## Curse (Su)",
 			"",
 			"{SOURCE Bestiary 5/291}  ",
-			"The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through [remove curse](spell/remove_curse) and similar effects.",
+			"The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through {spell/remove curse} and similar effects.",
 			"",
 			"**Format:** Curse Name (Su) Slam-contact; save Will DC 14, frequency 1/day, effect 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks."
@@ -185,7 +185,7 @@
 			"## Energy Drain (Su)",
 			"",
 			"{SOURCE Bestiary 5/292}  ",
-			"This attack happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more negative levels (the creature's description specifies how many). If the creature confirms a critical hit with an attack that includes energy drain, it inflicts twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it inflicts on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell such as [restoration](spell/restoration). If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC = 10 + 1/2 draining creature's racial HD + draining creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.",
+			"This attack happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more negative levels (the creature's description specifies how many). If the creature confirms a critical hit with an attack that includes energy drain, it inflicts twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it inflicts on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell such as {spell/restoration}. If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC = 10 + 1/2 draining creature's racial HD + draining creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.",
 			"",
 			"**Format:** energy drain (2 levels, DC 18)  ",
 			"**Location:** Special Attacks and individual attacks."
@@ -237,7 +237,7 @@
 			"## Sunlight Powerlessness (Ex)",
 			"",
 			"{SOURCE Bestiary 4/300}  ",
-			"If the creature is in sunlight (but not in an area of [daylight](spell/daylight) or similar spells), it cannot attack and is staggered.",
+			"If the creature is in sunlight (but not in an area of {spell/daylight} or similar spells), it cannot attack and is staggered.",
 			"",
 			"**Format:** sunlight powerlessness  ",
 			"**Location:** Weaknesses."
@@ -264,7 +264,7 @@
 			"## X-Ray Vision (Su) [Mythic]",
 			"",
 			"{SOURCE Mythic Adventures/228}  ",
-			"The monster can see through solid matter as if wearing a [ring of x-ray vision](magic-ring/ring_of_x-ray_vision). This is as exhausting as if the monster were actually using the ring.",
+			"The monster can see through solid matter as if wearing a {magic-ring/ring of x-ray vision}. This is as exhausting as if the monster were actually using the ring.",
 			"",
 			"**Format:** x-ray vision  ",
 			"**Location:** Senses."
@@ -277,7 +277,7 @@
 			"## Earth Glide (Ex)",
 			"",
 			"{SOURCE Bestiary 5/292}  ",
-			"When the creature burrows, it can pass through stone, dirt, or almost any other nonmetal earth as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A [move earth](spell/move_earth) spell cast on an area containing the burrowing creature flings it back 30 feet, stunning it for 1 round unless it succeeds at a DC 15 Fortitude save.",
+			"When the creature burrows, it can pass through stone, dirt, or almost any other nonmetal earth as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A {spell/move earth} spell cast on an area containing the burrowing creature flings it back 30 feet, stunning it for 1 round unless it succeeds at a DC 15 Fortitude save.",
 			"",
 			"**Format:** earth glide  ",
 			"**Location:** Speed."
@@ -304,7 +304,7 @@
 			"## Light Sensitivity (Ex)",
 			"",
 			"{SOURCE Bestiary 5/295}  ",
-			"The creature is dazzled in areas of bright sunlight or within the radius of a [daylight](spell/daylight) spell.",
+			"The creature is dazzled in areas of bright sunlight or within the radius of a {spell/daylight} spell.",
 			"",
 			"**Format:** light sensitivity  ",
 			"**Location:** Weaknesses."
@@ -501,9 +501,9 @@
 			"## Psychic Magic (Sp)",
 			"",
 			"{SOURCE Bestiary 5/297}  ",
-			"A creature with this ability can use the power of its mind to cast certain spells. Each spell cast using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can cast any of the spells listed in this entry as long as it has enough psychic energy remaining to pay the spell's PE cost. The DC for any of these spells is equal to 10 + the amount of psychic energy used to cast the spell + the creature's Charisma or Intelligence modifier (whichever is higher). A creature that gains access to [undercast spells](rule/undercasting_spells) via this ability can cast an undercast version of the spell by spending 1 PE fewer for each level lower that the spell is cast. A psychic magic spell with a PE cost of 0 can be cast any number of times, and can be cast even if the creature has 0 PE remaining. The psychic magic granted by this ability has the same thought and emotion components as psychic spells. The monster can apply metamagic feats to these spells by spending an amount of additional PE equal to the level increase of the metamagic feat and by increasing the casting time as normal for spontaneously casting a metamagic spell. Because this ability grants psychic spellcasting, it also allows the creature to use [occult skill unlocks](rule/occult_rules).",
+			"A creature with this ability can use the power of its mind to cast certain spells. Each spell cast using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can cast any of the spells listed in this entry as long as it has enough psychic energy remaining to pay the spell's PE cost. The DC for any of these spells is equal to 10 + the amount of psychic energy used to cast the spell + the creature's Charisma or Intelligence modifier (whichever is higher). A creature that gains access to [undercast spells](rule/undercasting_spells) via this ability can cast an undercast version of the spell by spending 1 PE fewer for each level lower that the spell is cast. A psychic magic spell with a PE cost of 0 can be cast any number of times, and can be cast even if the creature has 0 PE remaining. The psychic magic granted by this ability has the same thought and emotion components as psychic spells. The monster can apply metamagic feats to these spells by spending an amount of additional PE equal to the level increase of the metamagic feat and by increasing the casting time as normal for spontaneously casting a metamagic spell. Because this ability grants psychic spellcasting, it also allows the creature to use {rule/occult skill unlocks}.",
 			"",
-			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-[charm person](spell/charm_person) (1 PE, DC 14), [disguise self](spell/disguise_self) (2 PE), [mind thrust III](spell/mind_thrust_3) (3 PE, DC 16), [tower of iron will I](spell/tower_of_iron_will_1) (5 PE)  ",
+			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-{spell/charm person} (1 PE, DC 14), {spell/disguise self} (2 PE), [mind thrust III](spell/mind_thrust_3) (3 PE, DC 16), [tower of iron will I](spell/tower_of_iron_will_1) (5 PE)  ",
 			"**Location:** before Spell-Like Abilities."
 		]
 	},
@@ -570,12 +570,12 @@
 			"- An archdevil can grant spells as if it were a deity. Each archdevil has a favored weapon and grants the Evil and Law domains, plus two other domains and four subdomains.",
 			"- An archdevil's natural weapons, as well as any weapons it wields, are treated as epic, evil, and lawful for the purpose of overcoming damage reduction.",
 			"- Frightful Presence (Su): An archdevil can activate its frightful presence as a free action as part of any attack, special attack, or spell-like ability, or by speaking aloud.",
-			"- Infernal Resurrection (Ex): If an archdevil is killed, its body crumbles into ashes, leaving behind any gear it held or carried, while it is immediately restored to life (as per [true resurrection](spell/true_resurrection)) in a location of its choosing in its domain. An archdevil can't use this ability again for 1 year, and it avoids direct combat if possible until that year has passed. If slain again or killed by unusual methods (such as by a true deity or an artifact created for this purpose), an archdevil is slain forever. An archdevil who does not control a domain does not gain this ability (and is technically an infernal duke rather than a true archdevil).",
+			"- Infernal Resurrection (Ex): If an archdevil is killed, its body crumbles into ashes, leaving behind any gear it held or carried, while it is immediately restored to life (as per {spell/true resurrection}) in a location of its choosing in its domain. An archdevil can't use this ability again for 1 year, and it avoids direct combat if possible until that year has passed. If slain again or killed by unusual methods (such as by a true deity or an artifact created for this purpose), an archdevil is slain forever. An archdevil who does not control a domain does not gain this ability (and is technically an infernal duke rather than a true archdevil).",
 			"- Immunity to ability damage, ability drain, charm, compulsion, death effects, energy drain, and petrification.",
-			"- Language Mastery (Ex): An archdevil knows all languages, as though using a [tongues](spell/tongues) spell, although this ability is not supernatural and cannot be dispelled. Linguistics is always a class skill for an archdevil.",
+			"- Language Mastery (Ex): An archdevil knows all languages, as though using a {spell/tongues} spell, although this ability is not supernatural and cannot be dispelled. Linguistics is always a class skill for an archdevil.",
 			"- Regeneration (Ex): Only mythic damage or damage from a creature of equal or greater standing (such as another archdevil, deity, empyreal lord, Great Old One, Horseman, or qlippoth lord) interrupts an archdevil's regeneration.",
 			"- Resistance to acid 30 and cold 30.",
-			"- Summon Devils (Sp): Three times per day as a swift action, an archdevil can summon any devil or combination of devils whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
+			"- Summon Devils (Sp): Three times per day as a swift action, an archdevil can summon any devil or combination of devils whose total combined CR is 20 or lower. This otherwise works like the {umr/summon} universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
 		]
 	},
@@ -625,7 +625,7 @@
 			"## Light Blindness (Ex)",
 			"",
 			"{SOURCE Bestiary 5/295}  ",
-			"Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the [daylight](spell/daylight) spell. Such creatures are dazzled as long as they remain in areas of bright light.",
+			"Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the {spell/daylight} spell. Such creatures are dazzled as long as they remain in areas of bright light.",
 			"",
 			"**Format:** light blindness  ",
 			"**Location:** Weaknesses."
@@ -653,9 +653,9 @@
 			"{SOURCE Bestiary 5/293}  ",
 			"Fear attacks can have various effects.",
 			"",
-			"Fear Aura (Su) The use of this ability is a free action. The aura can freeze an opponent (as in the case of a [mummy's despair](monster/mummy)) or function like the [fear](spell/fear) spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.",
+			"Fear Aura (Su) The use of this ability is a free action. The aura can freeze an opponent (as in the case of a [mummy's despair](monster/mummy)) or function like the {spell/fear} spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.",
 			"",
-			"Fear Cone (Sp) and Ray (Su) These effects usually work like the [fear](spell/fear) spell. If a fear effect allows a saving throw, it is a Will save (DC = 10 + 1/2 the fearsome creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). All fear attacks are mind-affecting fear effects.",
+			"Fear Cone (Sp) and Ray (Su) These effects usually work like the {spell/fear} spell. If a fear effect allows a saving throw, it is a Will save (DC = 10 + 1/2 the fearsome creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). All fear attacks are mind-affecting fear effects.",
 			"",
 			"**Format:** fear aura (30 ft., DC 17) or fear cone (50 ft., DC 19)  ",
 			"**Location:** Aura or Special Attacks."
@@ -674,11 +674,11 @@
 			"- An empyreal lord can grant spells to its worshipers as if it were a deity. An empyreal lord's domains are Chaos (if chaotic), Good, Law (if lawful), and two other domains relevant to its theme and interests (or three other domains if it is neither chaotic nor lawful). Like a deity, an empyreal lord has a favored weapon.",
 			"- An empyreal lord's natural weapons and any weapons he or she wields are treated as epic and good for the purpose of overcoming damage reduction. If the empyreal lord is chaotic or lawful, these weapons also count as having that alignment for the purpose of overcoming damage reduction.",
 			"- Blindsense 60 feet.",
-			"- **Greater Teleport (Sp)** An empyreal lord can use [greater teleport](spell/greater_teleport) as a spell-like ability at will (caster level 20th).",
+			"- **Greater Teleport (Sp)** An empyreal lord can use {spell/greater teleport} as a spell-like ability at will (caster level 20th).",
 			"- Immunity to ability damage, ability drain, charm, compulsion, death effects, energy drain, and petrification.",
 			"- **Primal Aura (Su)** An aura of primeval power surrounds every empyreal lord. The effects of this aura are unique to each empyreal lord.",
 			"- **Regeneration (Ex)** Only mythic damage or damage from a creature of equal or greater power (such as a deity or demigod) interrupts an empyreal lord's regeneration.",
-			"- **Seed of Life (Sp)** An empyreal lord can touch a willing creature and imbue it with magical healing power. The target radiates an aura of good as if it were an outsider and gains a +2 insight bonus on all saving throws against negative energy and death effects. As a standard action, the target can release this energy, turning it inward as a [heal](spell/heal) spell targeting itself or outward as [mass cure serious wounds](spell/mass_cure_serious_wounds) on allies within 30 feet (caster level 15th). If not released, the energy dissipates harmlessly after 24 hours. The empyreal lord can use this ability 5 times per day, but only on other creatures."
+			"- **Seed of Life (Sp)** An empyreal lord can touch a willing creature and imbue it with magical healing power. The target radiates an aura of good as if it were an outsider and gains a +2 insight bonus on all saving throws against negative energy and death effects. As a standard action, the target can release this energy, turning it inward as a {spell/heal} spell targeting itself or outward as {spell/mass cure serious wounds} on allies within 30 feet (caster level 15th). If not released, the energy dissipates harmlessly after 24 hours. The empyreal lord can use this ability 5 times per day, but only on other creatures."
 		]
 	},
 	"engulf": {
@@ -790,7 +790,7 @@
 			"## Channel Resistance (Ex)",
 			"",
 			"{SOURCE Bestiary 5/291}  ",
-			"A creature with this special quality (usually an undead) is less easily affected by channel energy. A creature with channel resistance adds its listed bonus on saves to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the [Command Undead](feat/command_undead) feat).",
+			"A creature with this special quality (usually an undead) is less easily affected by channel energy. A creature with channel resistance adds its listed bonus on saves to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the {feat/Command Undead} feat).",
 			"",
 			"**Format:** channel resistance +4  ",
 			"**Location:** Defensive Abilities."
@@ -822,7 +822,7 @@
 			"## See in Darkness (Su)",
 			"",
 			"{SOURCE Bestiary 5/299}  ",
-			"The creature can see perfectly in darkness of any kind, including that created by [deeper darkness](spell/deeper_darkness).",
+			"The creature can see perfectly in darkness of any kind, including that created by {spell/deeper darkness}.",
 			"",
 			"**Format:** see in darkness  ",
 			"**Location:** Senses."
@@ -966,13 +966,13 @@
 			"## Incorporeal (Ex)",
 			"",
 			"{SOURCE Bestiary 5/294}  ",
-			"An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source. Although it is not a magical attack, holy water can affect incorporeal undead. Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature (except for channel energy). Force spells and effects, such as from a [magic missile](spell/magic_missile), affect an incorporeal creature normally.",
+			"An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source. Although it is not a magical attack, holy water can affect incorporeal undead. Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature (except for channel energy). Force spells and effects, such as from a {spell/magic missile}, affect an incorporeal creature normally.",
 			"",
 			"An incorporeal creature has no natural armor bonus, but it has a deflection bonus equal to its Charisma bonus (always at least +1, even if the creature's Charisma score does not normally provide a bonus).",
 			"",
 			"An incorporeal creature can enter or pass through solid objects, but must remain adjacent to the object's exterior, and so cannot pass entirely through an object whose space is larger than its own. It can sense the presence of creatures or objects within a square adjacent to its current location, but enemies have total concealment (50% miss chance) from an incorporeal creature that is inside an object. In order to see beyond the object it is in and attack normally, the incorporeal creature must emerge. An incorporeal creature inside an object has total cover, but when it attacks a creature outside the object it only has cover, so a creature outside with a readied action could strike at it as it attacks. An incorporeal creature cannot pass through a force effect.",
 			"",
-			"An incorporeal creature's attacks pass through (ignore) natural armor, armor, and shields, although deflection bonuses and force effects (such as [mage armor](spell/mage_armor)) work normally against it. Incorporeal creatures pass through and operate in water as easily as they do in air. Incorporeal creatures can't fall or take falling damage. They can't perform trip or grapple combat maneuvers, nor can they be tripped or grappled. In fact, they can't take any physical actions that would move or manipulate an opponent or its equipment, nor are they subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight.",
+			"An incorporeal creature's attacks pass through (ignore) natural armor, armor, and shields, although deflection bonuses and force effects (such as {spell/mage armor}) work normally against it. Incorporeal creatures pass through and operate in water as easily as they do in air. Incorporeal creatures can't fall or take falling damage. They can't perform trip or grapple combat maneuvers, nor can they be tripped or grappled. In fact, they can't take any physical actions that would move or manipulate an opponent or its equipment, nor are they subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight.",
 			"",
 			"An incorporeal creature moves silently and cannot be heard with Perception checks if it doesn't wish to be. It has no Strength score, so its Dexterity modifier applies to its melee attacks, ranged attacks, and CMB. Nonvisual senses, such as blindsight and scent, are either ineffective or only partly effective with regard to incorporeal creatures. Incorporeal creatures have an innate sense of direction and can move at full speed even when they cannot see.",
 			"",
@@ -1000,7 +1000,7 @@
 			"## Burn (Ex)",
 			"",
 			"{SOURCE Bestiary 5/291}  ",
-			"The creature deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage for an additional 1d4 rounds at the start of its turn (DC = 10 + 1/2 burning creature's racial HD + burning creature's Constitution modifier). A creature suffering from this effect can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit a burning creature with natural weapons or unarmed attacks take fire damage as though hit by the burning creature and must succeed at a Reflex save to avoid [catching on fire](rule/catching_on_fire).",
+			"The creature deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage for an additional 1d4 rounds at the start of its turn (DC = 10 + 1/2 burning creature's racial HD + burning creature's Constitution modifier). A creature suffering from this effect can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit a burning creature with natural weapons or unarmed attacks take fire damage as though hit by the burning creature and must succeed at a Reflex save to avoid {rule/catching on fire}.",
 			"",
 			"**Format:** burn (2d6, DC 15)  ",
 			"**Location:** Special Attacks and individual attacks."
@@ -1054,7 +1054,7 @@
 			"## Spell-Like Abilities (Sp)",
 			"",
 			"{SOURCE Bestiary 5/299}  ",
-			"Spell-like abilities are magical and work just like spells (though they are not spells and so have no verbal, somatic, focus, or material components). They go away in an [antimagic field](spell/antimagic_field) and are subject to spell resistance if the spell the ability is based on would be subject to spell resistance.",
+			"Spell-like abilities are magical and work just like spells (though they are not spells and so have no verbal, somatic, focus, or material components). They go away in an {spell/antimagic field} and are subject to spell resistance if the spell the ability is based on would be subject to spell resistance.",
 			"",
 			"A spell-like ability usually has a limit on how often it can be used. A constant spell-like ability or one that can be used at will has no use limit. Reactivating a constant spell-like ability is a swift action. Using all other spell-like abilities is a standard action unless noted otherwise, and doing so provokes attacks of opportunity. It is possible to attempt a concentration check to use a spell-like ability defensively and avoid provoking attacks of opportunity, just as when casting a spell. A spell-like ability can be disrupted just as a spell can be. Spell-like abilities cannot be used to counterspell, nor can they be counterspelled.",
 			"",
@@ -1062,7 +1062,7 @@
 			"",
 			"Some spell-like abilities duplicate spells that work differently when cast by characters of different classes. A monster's spell-like abilities are presumed to be the sorcerer/ wizard versions. If the spell in question is not a sorcerer/ wizard spell, then default to cleric, druid, bard, paladin, or ranger, in that order.",
 			"",
-			"**Format:** At will-[burning hands](spell/burning_hands) (DC 13)  ",
+			"**Format:** At will-{spell/burning hands} (DC 13)  ",
 			"**Location:** Spell-Like Abilities."
 		]
 	},
@@ -1086,7 +1086,7 @@
 			"## Thoughtsense (Su)",
 			"",
 			"{SOURCE Bestiary 5/300}  ",
-			"Creatures with this ability automatically detect and locate conscious creatures within the specified range (usually 60 feet). This ability functions similarly to blindsight. [Nondetection](spell/nondetection), [mind blank](spell/mind_blank), and similar effects can block thoughtsense. Thoughtsense can distinguish between sentient (Intelligence 3 or greater) and nonsentient (Intelligence 1-2) creatures, but otherwise provides no information about the creatures it detects.",
+			"Creatures with this ability automatically detect and locate conscious creatures within the specified range (usually 60 feet). This ability functions similarly to blindsight. {spell/Nondetection}, {spell/mind blank}, and similar effects can block thoughtsense. Thoughtsense can distinguish between sentient (Intelligence 3 or greater) and nonsentient (Intelligence 1-2) creatures, but otherwise provides no information about the creatures it detects.",
 			"",
 			"**Format:** thoughtsense 60 ft.  ",
 			"**Location:** Senses."
@@ -1112,16 +1112,16 @@
 			"## Horseman Traits (Ex, Sp, or Su)",
 			"",
 			"{SOURCE Bestiary 6/294}  ",
-			"A Horseman is a powerful, unique [daemon](family/daemon) that rules a major portion of Abaddon and personifies Death, Famine, Pestilence, or War. All Horsemen are evil outsiders that are, at a minimum, CR 27. Horsemen have a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.",
+			"A Horseman is a powerful, unique {family/daemon} that rules a major portion of Abaddon and personifies Death, Famine, Pestilence, or War. All Horsemen are evil outsiders that are, at a minimum, CR 27. Horsemen have a particular suite of traits (unless otherwise noted in a creature's entry) as summarized here.",
 			"",
 			"- A Horseman can grant spells to its worshipers as if it were a deity. A Horseman's domains are Evil and three other domains and four subdomains relevant to its theme and interests. Like a deity, a Horseman has a favored weapon.",
 			"- A Horseman's natural weapons, as well as any weapons it wields, are treated as epic and evil for the purpose of overcoming damage reduction.",
-			"- Apocalyptic Resurrection (Ex) If a Horseman is killed, its body withers away into rot and corruption, leaving behind any gear it held or carried, while it is immediately restored to life (as per [true resurrection](spell/true_resurrection)) in a location of its choice in its domain. A Horseman can't use this ability again for 1 year and avoids direct combat if possible until that year has passed. If slain again within 1 year or if killed by unusual methods (such as by a true deity, an artifact created for this purpose, or another Horseman), a Horseman is slain forever. When this occurs, the CRs of the three remaining Horsemen immediately increase by 1 (typically via gaining a few Hit Dice and perhaps increasing some ability scores by 2 to 4 points), while an entirely new Horseman ascends to the vacant role as a CR 27 demigod with its own unique abilities.",
+			"- Apocalyptic Resurrection (Ex) If a Horseman is killed, its body withers away into rot and corruption, leaving behind any gear it held or carried, while it is immediately restored to life (as per {spell/true resurrection}) in a location of its choice in its domain. A Horseman can't use this ability again for 1 year and avoids direct combat if possible until that year has passed. If slain again within 1 year or if killed by unusual methods (such as by a true deity, an artifact created for this purpose, or another Horseman), a Horseman is slain forever. When this occurs, the CRs of the three remaining Horsemen immediately increase by 1 (typically via gaining a few Hit Dice and perhaps increasing some ability scores by 2 to 4 points), while an entirely new Horseman ascends to the vacant role as a CR 27 demigod with its own unique abilities.",
 			"- Frightful Presence (Su) A Horseman can activate its frightful presence as a free action as part of any attack, spell-like ability, or special attack, or by speaking aloud.",
 			"- Immunity to ability damage, ability drain, acid, charm effects, compulsion effects, death effects, disease, energy drain, petrification, and poison.",
 			"- Regeneration (Ex) Only mythic damage or damage from a creature of equal or greater power (such as an archdevil, a deity, an empyreal lord, a Great Old One, a Horseman, or a qlippoth lord) interrupts a Horseman's regeneration.",
 			"- Resistance to cold 30, electricity 30, and fire 30.",
-			"- Summon Daemon (Sp) Three times per day as a swift action, a Horseman can summon any daemon or combination of daemons whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
+			"- Summon Daemon (Sp) Three times per day as a swift action, a Horseman can summon any daemon or combination of daemons whose total combined CR is 20 or lower. This otherwise works like the {umr/summon} universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
 		]
 	},
@@ -1160,7 +1160,7 @@
 			"## Mythic Power (Su) [Mythic]",
 			"",
 			"{SOURCE Mythic Adventures/227}  ",
-			"The mythic monster can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. Each day, it can expend a number of uses of mythic power equal to its mythic rank. This amount is its maximum amount of mythic power. If an ability allows it to regain mythic power, it can never gain more than this amount. The monster automatically has the [surge](umr/surge) ability and can use this mythic power to activate it. It may have other abilities that rely on mythic power. (See the [Mythic Rules](rule/mythic_rules) for more information.)",
+			"The mythic monster can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. Each day, it can expend a number of uses of mythic power equal to its mythic rank. This amount is its maximum amount of mythic power. If an ability allows it to regain mythic power, it can never gain more than this amount. The monster automatically has the {umr/surge} ability and can use this mythic power to activate it. It may have other abilities that rely on mythic power. (See the {rule/Mythic Rules} for more information.)",
 			"",
 			"**Format:** mythic power (3/day, surge +1d6)  ",
 			"**Location:** Special Attacks."
@@ -1186,21 +1186,21 @@
 			"## Psychopomp Usher Traits",
 			"",
 			"{SOURCE Pathfinder #143: Borne by the Sun's Grace/81}  ",
-			"An usher rules a domain in the Boneyard. Ushers are neutral outsiders with a minimum CR of 25. Ushers share the following traits and have the [psychopomp](subtype/psychopomp) subtype unless otherwise noted.",
+			"An usher rules a domain in the Boneyard. Ushers are neutral outsiders with a minimum CR of 25. Ushers share the following traits and have the {subtype/psychopomp} subtype unless otherwise noted.",
 			"",
-			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the [ghost touch](magic-enhancement/ghost_touch_weapon) special ability for the purpose of overcoming damage resistance and immunities.",
+			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the {magic-enhancement/ghost touch} special ability for the purpose of overcoming damage resistance and immunities.",
 			"- Immunity to ability damage, ability drain, charm, compulsion, death effects, energy drain, and petrification.",
 			"- Frightful Presence (Su): An usher can activate its frightful presence as a free action as part of any attack, special attack, spell-like ability, or by speaking aloud.",
-			"- Summon Psychopomps (Su): Three times per day as a swift action, an usher can summon a psychopomp or combination of psychopomps whose total combined CR is 20 or lower. This otherwise functions like the [summon](umr/summon) universal monster rule with 100% chance of success, and it counts as a 9th-level spell effect.",
-			"- Walk with Death (Su): Ushers share an intimate bond with [Pharasma](faith/pharasma), goddess of death, and they cannot be reduced below 0 hit points while in the Boneyard. Any usher killed beyond the Boneyard dissolves into mist and feathers, leaving behind any gear it carried, and it is immediately restored to life (as [true resurrection](spell/true_resurrection)) in a location of its choice within its domain. An usher can't use this ability again for 1 year.",
+			"- Summon Psychopomps (Su): Three times per day as a swift action, an usher can summon a psychopomp or combination of psychopomps whose total combined CR is 20 or lower. This otherwise functions like the {umr/summon} universal monster rule with 100% chance of success, and it counts as a 9th-level spell effect.",
+			"- Walk with Death (Su): Ushers share an intimate bond with {faith/Pharasma}, goddess of death, and they cannot be reduced below 0 hit points while in the Boneyard. Any usher killed beyond the Boneyard dissolves into mist and feathers, leaving behind any gear it carried, and it is immediately restored to life (as {spell/true resurrection}) in a location of its choice within its domain. An usher can't use this ability again for 1 year.",
 			"- Telepathy 300 feet.",
-			"- An usher can grant spells as if it were a deity. Each usher has a favored weapon and grants the [Repose](domain/repose) domain, plus three other domains and four subdomains.",
+			"- An usher can grant spells as if it were a deity. Each usher has a favored weapon and grants the {domain/Repose} domain, plus three other domains and four subdomains.",
 			"",
 			"In addition, a psychopomp usher gains the following powers while in its realm (their statistics do not include these abilities):",
 			"",
 			"- Heightened Awareness (Ex): An usher gains a +10 insight bonus on Sense Motive checks and initiative checks.",
 			"- Mythic: An usher functions as a 10th-rank mythic creature, including having the mythic power ability (10/day, surge +1d12). It can expend uses of mythic power to use the mythic versions of any spell-like ability denoted with a superscript \"M,\" as if the ability were a mythic spell.",
-			"- Spell-Like Abilities: At will-[discern location](spell/discern_location), [fabricate](spell/fabricate), [polymorph any object](spell/polymorph_any_object) (when used on objects or creatures that are native to the realm, the polymorph duration factor increases by 6), and [rest eternal](spell/rest_eternal); 1/day-[miracle](spell/miracle) (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), [true resurrection](spell/true_resurrection) (the usher can use [true resurrection](spell/true_resurrection) to restore slain outsiders to life)."
+			"- Spell-Like Abilities: At will-{spell/discern location}, {spell/fabricate}, {spell/polymorph any object} (when used on objects or creatures that are native to the realm, the polymorph duration factor increases by 6), and {spell/rest eternal}; 1/day-{spell/miracle} (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), {spell/true resurrection} (the usher can use {spell/true resurrection} to restore slain outsiders to life)."
 		]
 	},
 	"rock_throwing": {
@@ -1223,7 +1223,7 @@
 			"## Spells",
 			"",
 			"{SOURCE Bestiary 5/299}  ",
-			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as [incense of meditation](magic-wondrous/incense_of_meditation) or a [pearl of power](magic-wondrous/pearl_of_power)). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](ability/sorcerer_bloodlines)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a [spirit naga](monster/spirit_naga) who gains 3 sorcerer levels casts spells as a 10th-level sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
+			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as {magic-wondrous/incense of meditation} or a {magic-wondrous/pearl of power}). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](ability/sorcerer_bloodlines)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a {monster/spirit naga} who gains 3 sorcerer levels casts spells as a 10th-level sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
 		]
 	},
 	"freeze": {
@@ -1246,7 +1246,7 @@
 			"## Swallow Whole (Ex)",
 			"",
 			"{SOURCE Bestiary 5/300}  ",
-			"If a creature with this special attack begins its turn with an opponent grappled in its mouth (see [Grab](umr/grab)), it can attempt a new combat maneuver check (as though attempting to pin the opponent). If it succeeds, it swallows its prey, and the opponent takes bite damage. Unless otherwise noted, the opponent must be at least one size category smaller than the swallowing creature. Being swallowed causes a creature to take damage each round. The amount and type of damage vary and are given in the creature's statistics. A swallowed creature keeps the grappled condition, while the creature that did the swallowing does not. A swallowed creature can try to cut its way free with any light slashing or piercing weapon (the amount of damage required for the creature to cut itself free is equal to 1/10 the creature's total hit points), or it can just try to escape the grapple. The Armor Class of the interior of a creature that swallows whole is normally 10 + 1/2 its natural armor bonus, with no modifiers for size or Dexterity. If a swallowed creature cuts its way out, the swallowing creature cannot use swallow whole again until the damage is healed. If the swallowed creature escapes the grapple, it ends up back in the attacker's mouth, where it may be bitten or swallowed again.",
+			"If a creature with this special attack begins its turn with an opponent grappled in its mouth (see {umr/Grab}), it can attempt a new combat maneuver check (as though attempting to pin the opponent). If it succeeds, it swallows its prey, and the opponent takes bite damage. Unless otherwise noted, the opponent must be at least one size category smaller than the swallowing creature. Being swallowed causes a creature to take damage each round. The amount and type of damage vary and are given in the creature's statistics. A swallowed creature keeps the grappled condition, while the creature that did the swallowing does not. A swallowed creature can try to cut its way free with any light slashing or piercing weapon (the amount of damage required for the creature to cut itself free is equal to 1/10 the creature's total hit points), or it can just try to escape the grapple. The Armor Class of the interior of a creature that swallows whole is normally 10 + 1/2 its natural armor bonus, with no modifiers for size or Dexterity. If a swallowed creature cuts its way out, the swallowing creature cannot use swallow whole again until the damage is healed. If the swallowed creature escapes the grapple, it ends up back in the attacker's mouth, where it may be bitten or swallowed again.",
 			"",
 			"**Format:** swallow whole (5d6 acid damage, AC 15, 18 hp);  ",
 			"**Location:** Special Attacks."
@@ -1286,7 +1286,7 @@
 			"## Natural Invisibility (Ex or Su)",
 			"",
 			"{SOURCE Bestiary 4/297}  ",
-			"This ability is constant-the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the [invisibility purge](spell/invisibility_purge) spell.",
+			"This ability is constant-the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the {spell/invisibility purge} spell.",
 			"",
 			"**Format:** natural invisibility  ",
 			"**Location:** Defensive Abilities."
@@ -1408,7 +1408,7 @@
 			"## Lifesense (Su)",
 			"",
 			"{SOURCE Bestiary 5/295}  ",
-			"The creature notices and locates living creatures within 60 feet, as if it had [blindsight](umr/blindsight).",
+			"The creature notices and locates living creatures within 60 feet, as if it had {umr/blindsight}.",
 			"",
 			"**Format:** lifesense  ",
 			"**Location:** Senses."
@@ -1451,7 +1451,7 @@
 			"## Fortification (Ex)",
 			"",
 			"{SOURCE Mythic Adventures/227}  ",
-			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing [moderate fortification](magic-enhancement/moderate_fortification) armor.",
+			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing {magic-enhancement/moderate fortification} armor.",
 			"",
 			"**Format:** fortification (50%)  ",
 			"**Location:** Defensive Abilities."
@@ -1492,11 +1492,11 @@
 			"## Smother (Ex)",
 			"",
 			"{SOURCE Mythic Adventures/228}  ",
-			"If the creature's grappled opponent is holding its breath, the monster can force that opponent to expel or consume some of its breath, or can otherwise reduce the time remaining until the target has to attempt checks to avoid [suffocation](rule/suffocation).",
+			"If the creature's grappled opponent is holding its breath, the monster can force that opponent to expel or consume some of its breath, or can otherwise reduce the time remaining until the target has to attempt checks to avoid {rule/suffocation}.",
 			"",
 			"If the monster succeeds at a grapple check against the opponent, the remaining duration for which the opponent can hold its breath decreases by 1d6 rounds. If this reduces the remaining time that the creature can hold its breath to 0 rounds or fewer, the DCs of its suffocation checks increase by 5. For example, if the monster is grappling a creature that has 10 rounds remaining before it has to attempt suffocation checks, a successful grapple check reduces that duration by 1d6 rounds.",
 			"",
-			"If the monster has another ability (such as [constrict](umr/constrict)) that harms the opponent when it succeeds at a grapple check, it can automatically use the smother ability when it succeeds at the grapple check to use the other ability.",
+			"If the monster has another ability (such as {umr/constrict}) that harms the opponent when it succeeds at a grapple check, it can automatically use the smother ability when it succeeds at the grapple check to use the other ability.",
 			"",
 			"**Format:** smother  ",
 			"**Location:** Special Attacks."
@@ -1510,7 +1510,7 @@
 			"## Surge (Su) [Mythic]",
 			"",
 			"{SOURCE Mythic Adventures/228}  ",
-			"The monster can call upon its mythic power to overcome difficult challenges. It can expend one use of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the d20 roll. Using this ability is an immediate action taken after the original roll is made and the results are revealed. The bonus die gained by using this ability increases to 1d8 at 4th rank, 1d10 at 7th rank, and 1d12 at 10th rank. The monster can use this ability even if it's mindless or of animal-level intelligence. (See the [Mythic Rules](rule/mythic_rules) for more information.)",
+			"The monster can call upon its mythic power to overcome difficult challenges. It can expend one use of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the d20 roll. Using this ability is an immediate action taken after the original roll is made and the results are revealed. The bonus die gained by using this ability increases to 1d8 at 4th rank, 1d10 at 7th rank, and 1d12 at 10th rank. The monster can use this ability even if it's mindless or of animal-level intelligence. (See the {rule/Mythic Rules} for more information.)",
 			"",
 			"Surge doesn't have a separate entry in the monster stat block-the surge die is listed in the mythic power ability."
 		]
@@ -1524,7 +1524,7 @@
 			"{SOURCE Bestiary 5/291}  ",
 			"The creature has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form unless noted otherwise. This ability functions as a [polymorph spell](spelldef/polymorph), the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.",
 			"",
-			"**Format:** change shape (wolf; [beast shape I](spell/beast_shape_1))  ",
+			"**Format:** change shape (wolf; {spell/beast shape I})  ",
 			"**Location:** SQ, and in Special Abilities for creatures with a unique listing."
 		]
 	},
@@ -1705,7 +1705,7 @@
 			"## Daemonic Harbinger Traits (Su)",
 			"",
 			"{SOURCE Inner Sea Bestiary/62}  ",
-			"A daemonic harbinger is a powerful [daemon](family/daemon) that has not yet made the full transition from unique daemon to a horseman. It possesses several traits, as summarized here.",
+			"A daemonic harbinger is a powerful {family/daemon} that has not yet made the full transition from unique daemon to a horseman. It possesses several traits, as summarized here.",
 			"",
 			"- Immunity to acid, charm and compulsion effects, death effects, disease, and poison.",
 			"- Resistance to cold 30, electricity 30, and fire 30.",
@@ -1728,12 +1728,12 @@
 			"",
 			"- A demon lord can grant spells to its worshipers as if it were a deity. A demon lord's domains are Chaos, Evil, and two other domains relevant to its theme and interests. Like a deity, a demon lord has a favored weapon.",
 			"- A demon lord's natural weapons, as well as any weapons it wields, are treated as chaotic, epic, and evil for the purpose of overcoming damage reduction.",
-			"- **Abyssal Resurrection (Ex)** A demon lord rules an Abyssal realm, a vast world that not only serves as its home but provides it with power. If a demon lord is slain, its body rapidly melts into corruption (leaving behind any gear it held or carried), its soul returns to a hidden location within its realm, and it is immediately restored to life (as [true resurrection](spell/true_resurrection)) at that location. Once this occurs, a demon lord can't use this ability again until a full year has passed. A demon lord realizes it is vulnerable during this time and usually doesn't risk further battles for the remainder of that year, relying on the defenses of its realm and its legions of minions to protect it. A demon lord that is slain again during this year or is killed by unusual methods (such as by a true deity or an artifact created for this purpose) is slain forever-its remains appearing somewhere deep in the Abyss among other dead demon lords from the ages. A demon lord who does not control a domain does not gain this ability.",
+			"- **Abyssal Resurrection (Ex)** A demon lord rules an Abyssal realm, a vast world that not only serves as its home but provides it with power. If a demon lord is slain, its body rapidly melts into corruption (leaving behind any gear it held or carried), its soul returns to a hidden location within its realm, and it is immediately restored to life (as {spell/true resurrection}) at that location. Once this occurs, a demon lord can't use this ability again until a full year has passed. A demon lord realizes it is vulnerable during this time and usually doesn't risk further battles for the remainder of that year, relying on the defenses of its realm and its legions of minions to protect it. A demon lord that is slain again during this year or is killed by unusual methods (such as by a true deity or an artifact created for this purpose) is slain forever-its remains appearing somewhere deep in the Abyss among other dead demon lords from the ages. A demon lord who does not control a domain does not gain this ability.",
 			"- **Frightful Presence (Su)** A demon lord can activate its frightful presence as a free action as part of any attack, spell-like ability, special attack, or by speaking aloud.",
 			"- Immunity to ability damage, ability drain, charm effects, compulsion effects, death effects, energy drain, and petrification.",
 			"- **Regeneration (Ex)** Only epic and good damage, or damage from a creature of equal or greater power (such as an archdevil, deity, demon lord, or protean lord) interrupts a demon lord's regeneration.",
 			"- Resistance to acid 30, cold 30, and fire 30.",
-			"- **Summon Demons (Sp)** Three times per day as a swift action, a demon lord can summon any demon or combination of demons whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and counts as a 9th-level spell effect.",
+			"- **Summon Demons (Sp)** Three times per day as a swift action, a demon lord can summon any demon or combination of demons whose total combined CR is 20 or lower. This otherwise works like the {umr/summon} universal monster rule with a 100% chance of success, and counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
 		]
 	},
@@ -1752,7 +1752,7 @@
 			"- Immunity to cold, death effects, mind-affecting effects, and poison.",
 			"- Regeneration (Ex) Lawful damage interrupts a qlippoth lord's regeneration.",
 			"- Resistance to acid 30, electricity 30, and fire 30.",
-			"- Summon Qlippoth (Sp) Once per day as a standard action, a qlippoth lord can summon any combination of qlippoth whose total combined CR is 20 or lower. This otherwise works like the [summon](umr/summon) universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
+			"- Summon Qlippoth (Sp) Once per day as a standard action, a qlippoth lord can summon any combination of qlippoth whose total combined CR is 20 or lower. This otherwise works like the {umr/summon} universal monster rule with a 100% chance of success, and it counts as a 9th-level spell effect.",
 			"- Telepathy 300 feet."
 		]
 	},
@@ -1776,7 +1776,7 @@
 			"## Stench (Ex)",
 			"",
 			"{SOURCE Bestiary 5/300}  ",
-			"A creature with the stench special ability secretes an oily chemical that other creatures find offensive. All living creatures (except those with the stench special ability) within 30 feet must succeed at a Fortitude save or be sickened (DC = 10 + 1/2 the racial HD of the creature with stench + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text) . The duration of the sickened condition is given in the creature's descriptive text. Creatures that successfully save cannot be affected by the same creature's stench for 24 hours. A [delay poison](spell/delay_poison) or [neutralize poison](spell/neutralize_poison) spell removes the effect from the sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws.",
+			"A creature with the stench special ability secretes an oily chemical that other creatures find offensive. All living creatures (except those with the stench special ability) within 30 feet must succeed at a Fortitude save or be sickened (DC = 10 + 1/2 the racial HD of the creature with stench + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text) . The duration of the sickened condition is given in the creature's descriptive text. Creatures that successfully save cannot be affected by the same creature's stench for 24 hours. A {spell/delay poison} or {spell/neutralize poison} spell removes the effect from the sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws.",
 			"",
 			"**Format:** stench (DC 15, 10 rounds)  ",
 			"**Location:** Aura."
@@ -1791,7 +1791,7 @@
 			"{SOURCE Bestiary 5/300}  ",
 			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a [summon monster](spell/summon_monster_1) spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, concentration checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
 			"",
-			"**Format:** 1/day-summon (level 4, 1 [hezrou](monster/hezrou) 35%)  ",
+			"**Format:** 1/day-summon (level 4, 1 {monster/hezrou} 35%)  ",
 			"**Location:** Spell-Like Abilities."
 		]
 	},
@@ -1841,7 +1841,7 @@
 			"## Poison (Ex or Su)",
 			"",
 			"{SOURCE Bestiary 5/297}  ",
-			"A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fortitude save (DC = 10 + 1/2 poisoning creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through [neutralize poison](spell/neutralize_poison) and similar effects.",
+			"A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fortitude save (DC = 10 + 1/2 poisoning creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through {spell/neutralize poison} and similar effects.",
 			"",
 			"**Format:** Poison Name (Ex) Sting-injury; save Fort DC 22, frequency 1/round for 6 rounds, effect 1d4 Con damage, cure 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks."

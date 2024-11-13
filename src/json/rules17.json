@@ -95,7 +95,7 @@
 			"",
 			"Sometimes the command word to activate an item is written right on the item. Occasionally, it might be hidden within a pattern or design engraved on, carved into, or built into the item, or the item might bear a clue to the command word.",
 			"",
-			"The Knowledge (arcana) and Knowledge (history) skills might be useful in helping to identify command words or deciphering clues regarding them. A successful check against DC 30 is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide some insight into a clue. The spells [detect magic](spell/detect_magic), [identify](spell/identify), and [analyze dweomer](spell/analyze_dweomer) all reveal command words if the properties of the item are successfully identified.",
+			"The Knowledge (arcana) and Knowledge (history) skills might be useful in helping to identify command words or deciphering clues regarding them. A successful check against DC 30 is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide some insight into a clue. The spells {spell/detect magic}, {spell/identify}, and {spell/analyze dweomer} all reveal command words if the properties of the item are successfully identified.",
 			"",
 			"***Use Activated:*** This type of item simply has to be used in order to activate it. A character has to drink a potion, swing a sword, interpose a shield to deflect a blow in combat, look through a lens, sprinkle dust, wear a ring, or don a hat. Use activation is generally straightforward and self-explanatory.",
 			"",
@@ -426,7 +426,7 @@
 			"",
 			"Some individual items, notably those that just store spells, don't get full-blown descriptions. Reference the spell's description for details, modified by the form of the item (potion, scroll, wand, and so on). Assume that the spell is cast at the minimum level required to cast it. Items with full descriptions have their powers detailed, and each of the following topics is covered in notational form as part of its entry.",
 			"",
-			"***Aura:*** Most of the time, a detect magic spell reveals the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item's notational entry. See the [detect magic](spell/detect_magic) spell description for details.",
+			"***Aura:*** Most of the time, a detect magic spell reveals the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item's notational entry. See the {spell/detect magic} spell description for details.",
 			"",
 			"***Caster Level (CL):*** The next item in a notational entry gives the caster level of the item, indicating its relative power. The caster level determines the item's saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a dispel magic spell or similar situation.",
 			"",
@@ -492,7 +492,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/501}",
 			"",
-			"A number of spells and magic items utilize extradimensional spaces, such as [rope trick](spell/rope_trick), a [bag of holding](magic-wondrous/bag_of_holding_type_1), a [handy haversack](magic-wondrous/handy_haversack), and a [portable hole](magic-wondrous/portable_hole). These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a bag of holding is brought into a rope trick, the contents of the bag of holding become inaccessible until the bag of holding is taken outside the rope trick. The only exception to this is when a bag of holding and a portable hole interact, forming a rift to the [Astral Plane](rule/astral_plane), as noted in their descriptions."
+			"A number of spells and magic items utilize extradimensional spaces, such as {spell/rope trick}, a [bag of holding](magic-wondrous/bag_of_holding_type_1), a {magic-wondrous/handy haversack}, and a {magic-wondrous/portable hole}. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a bag of holding is brought into a rope trick, the contents of the bag of holding become inaccessible until the bag of holding is taken outside the rope trick. The only exception to this is when a bag of holding and a portable hole interact, forming a rift to the {rule/Astral Plane}, as noted in their descriptions."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -976,7 +976,7 @@
 			"",
 			"***Activation:*** Details relating to rod use vary from item to item. Unless noted otherwise, you must be holding a rod to use its abilities. See the individual descriptions for specifics.",
 			"",
-			"***Special Qualities:*** Roll d%. A 01 result indicates the rod is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](rule/intelligent_items)).",
+			"***Special Qualities:*** Roll d%. A 01 result indicates the rod is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see {rule/Intelligent Items}).",
 			"",
 			"Rods with charges can never be intelligent.",
 			"",
@@ -1299,7 +1299,7 @@
 			"",
 			"***Activation:*** Usually use-activated or command word, but details vary from item to item.",
 			"",
-			"***Special Qualities:*** Roll d%. An 01 result indicates the wondrous item is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. [Intelligent items](rule/intelligent_items) have extra abilities and sometimes extraordinary powers and special purposes.",
+			"***Special Qualities:*** Roll d%. An 01 result indicates the wondrous item is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. {rule/Intelligent items} have extra abilities and sometimes extraordinary powers and special purposes.",
 			"",
 			"Wondrous items with charges can never be intelligent."
 		],
@@ -2040,7 +2040,7 @@
 			"| 21-30 | Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) | +2 |",
 			"| 31-40 | Defeat/slay divine spellcasters (including divine entities and servitors) | +2 |",
 			"| 41-50 | Defeat/slay non-spellcasters | +2 |",
-			"| 51-55 | Defeat/slay a particular creature type (see the [bane](magic-enhancement/bane) special ability for choices) | +2 |",
+			"| 51-55 | Defeat/slay a particular creature type (see the {magic-enhancement/bane} special ability for choices) | +2 |",
 			"| 56-60 | Defeat/slay a particular race or kind of creature | +2 |",
 			"| 61-70 | Defend a particular race or kind of creature | +2 |",
 			"| 71-80 | Defeat/slay the servants of a specific deity | +2 |",
@@ -2075,7 +2075,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/535}",
 			"",
-			"A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see [Items Against Characters](rule/items_against_characters)). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score. See Table 15-26 for a list of dedicated powers.",
+			"A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see {rule/Items Against Characters}). The caster level for these effects is equal to the item's caster level. Save DCs are based on the item's highest mental ability score. See Table 15-26 for a list of dedicated powers.",
 			"",
 			"### Table 15-26",
 			"",
@@ -2252,9 +2252,9 @@
 			"| 76-90 | Completely different effect |",
 			"| 91-100 | Substitute [specific cursed item](main/magic_cursed) |",
 			"",
-			"***Delusion:*** The user believes the item is what it appears to be, yet it actually has no magical power other than to deceive. The user is mentally fooled into thinking the item is functioning and cannot be convinced otherwise without the casting of [remove curse](spell/remove_curse).",
+			"***Delusion:*** The user believes the item is what it appears to be, yet it actually has no magical power other than to deceive. The user is mentally fooled into thinking the item is functioning and cannot be convinced otherwise without the casting of {spell/remove curse}.",
 			"",
-			"***Opposite Effect or Target:*** These cursed items malfunction, so that either they do the opposite of what the creator intended, or they target the user instead of someone else. The interesting point to keep in mind here is that these items aren't always bad to have. Opposite-effect items include weapons that impose penalties on attack and damage rolls rather than bonuses. Just as a character shouldn't necessarily immediately know what the enhancement bonus of a non-cursed magic item is, she shouldn't immediately know that a weapon is cursed. Once she knows, however, the item can be discarded unless some sort of compulsion is placed upon it that compels the wielder to keep and use it. In such cases, a [remove curse](spell/remove_curse) spell is generally needed to get rid of the item.",
+			"***Opposite Effect or Target:*** These cursed items malfunction, so that either they do the opposite of what the creator intended, or they target the user instead of someone else. The interesting point to keep in mind here is that these items aren't always bad to have. Opposite-effect items include weapons that impose penalties on attack and damage rolls rather than bonuses. Just as a character shouldn't necessarily immediately know what the enhancement bonus of a non-cursed magic item is, she shouldn't immediately know that a weapon is cursed. Once she knows, however, the item can be discarded unless some sort of compulsion is placed upon it that compels the wielder to keep and use it. In such cases, a {spell/remove curse} spell is generally needed to get rid of the item.",
 			"",
 			"***Intermittent Functioning:*** The three varieties of intermittent functioning items all function perfectly as intended-at least some of the time. The three varieties are unreliable, dependent, and uncontrolled items.",
 			"",
@@ -2300,13 +2300,13 @@
 			"- Character must change her name to a specific name. The item only works for characters of that name.",
 			"- Character must add a specific class at the next opportunity if not of that class already.",
 			"- Character must have a minimum number of ranks in a particular skill.",
-			"- Character must sacrifice some part of her life energy (2 points of Constitution) one time. If the character gets the Constitution points back (such as from a [restoration](spell/restoration) spell), the item ceases functioning. (The item does not cease functioning if the character receives a Constitution increase caused by level gain, a [wish](spell/wish), or the use of a magic item.)",
+			"- Character must sacrifice some part of her life energy (2 points of Constitution) one time. If the character gets the Constitution points back (such as from a {spell/restoration} spell), the item ceases functioning. (The item does not cease functioning if the character receives a Constitution increase caused by level gain, a {spell/wish}, or the use of a magic item.)",
 			"- Item must be cleansed with holy water each day.",
 			"- Item must be used to kill a living creature each day.",
 			"- Item must be bathed in volcanic lava once per month.",
 			"- Item must be used at least once a day, or it won't function again for its current possessor.",
 			"- Item must draw blood when wielded (weapons only). It can't be put away or exchanged for another weapon until it has scored a hit.",
-			"- Item must have a particular spell cast upon it each day (such as [bless](spell/bless), [atonement](spell/atonement), or [animate objects](spell/animate_objects)).",
+			"- Item must have a particular spell cast upon it each day (such as {spell/bless}, {spell/atonement}, or {spell/animate objects}).",
 			"",
 			"Requirements are so dependent upon suitability to the item that they should never be determined randomly. An intelligent item with a requirement often imposes its requirement through its personality. If the requirement is not met, the item ceases to function. If it is met, usually the item functions for one day before the requirement must be met again (although some requirements are one time only, others monthly, and still others continuous).",
 			"",
@@ -2402,7 +2402,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/548}",
 			"",
-			"To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually Spellcraft, but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see [Cursed Items](rule/cursed_items) for more information).",
+			"To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually Spellcraft, but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see {rule/Cursed Items} for more information).",
 			"",
 			"Note that all items have prerequisites in their descriptions. These prerequisites must be met for the item to be created. Most of the time, they take the form of spells that must be known by the item's creator (although access through another magic item or spellcaster is allowed). The DC to create a magic item increases by +5 for each prerequisite the caster does not meet. The only exception to this is the requisite item creation feat, which is mandatory. In addition, you cannot create potions, spell-trigger, or spell-completion magic items without meeting their spell prerequisites.",
 			"",
@@ -2556,7 +2556,7 @@
 			"",
 			"Crafting magic armor requires one day for each 1,000 gp value of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor).",
+			"*Item Creation Feat Required:* {feat/Craft Magic Arms and Armor}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (armor)."
 		],
@@ -2599,7 +2599,7 @@
 			"",
 			"Crafting a magic weapon requires 1 day for each 1,000 gp value of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor).",
+			"*Item Creation Feat Required:* {feat/Craft Magic Arms and Armor}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (bows) (for magic bows and arrows), or Craft (weapons) (for all other weapons)."
 		],
@@ -2635,7 +2635,7 @@
 			"",
 			"Material components are consumed when he begins working, but a focus is not. (A focus used in brewing a potion can be reused.) The act of brewing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster's currently prepared spells, just as if it had been cast.) Brewing a potion requires 1 day.",
 			"",
-			"*Item Creation Feat Required:* [Brew Potion](feat/brew_potion).",
+			"*Item Creation Feat Required:* {feat/Brew Potion}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (alchemy)",
 			"",
@@ -2684,7 +2684,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/551}",
 			"",
-			"To create a magic ring, a character needs a heat source. He also needs a supply of materials, the most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is subsumed in the cost for creating the ring. Ring costs are difficult to determine. Refer to [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) and use the ring prices in the ring descriptions as a guideline. Creating a ring generally costs half the ring's market price.",
+			"To create a magic ring, a character needs a heat source. He also needs a supply of materials, the most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is subsumed in the cost for creating the ring. Ring costs are difficult to determine. Refer to {rule/Magic Item Gold Piece Values} and use the ring prices in the ring descriptions as a guideline. Creating a ring generally costs half the ring's market price.",
 			"",
 			"Rings that duplicate spells with costly material components add in the value of 50 &times; the spell's component cost. Having a spell with a costly component as a prerequisite does not automatically incur this cost. The act of working on the ring triggers the prepared spells, making them unavailable for casting during each day of the ring's creation. (That is, those spell slots are expended from the caster's currently prepared spells, just as if they had been cast.)",
 			"",
@@ -2692,7 +2692,7 @@
 			"",
 			"Forging a ring requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Forge Ring](feat/forge_ring).",
+			"*Item Creation Feat Required:* {feat/Forge Ring}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (jewelry)."
 		],
@@ -2722,7 +2722,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/552}",
 			"",
-			"To create a magic rod, a character needs a supply of materials, the most obvious being a rod or the pieces of the rod to be assembled. The cost for the materials is subsumed in the cost for creating the rod. Rod costs are difficult to determine. Refer to [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) and use the rod prices in the rod descriptions as a guideline. Creating a rod costs half the market value listed.",
+			"To create a magic rod, a character needs a supply of materials, the most obvious being a rod or the pieces of the rod to be assembled. The cost for the materials is subsumed in the cost for creating the rod. Rod costs are difficult to determine. Refer to {rule/Magic Item Gold Piece Values} and use the rod prices in the rod descriptions as a guideline. Creating a rod costs half the market value listed.",
 			"",
 			"If spells are involved in the prerequisites for making the rod, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the rod triggers the prepared spells, making them unavailable for casting during each day of the rod's creation. (That is, those spell slots are expended from the caster's currently prepared spells, just as if they had been cast.)",
 			"",
@@ -2730,7 +2730,7 @@
 			"",
 			"Crafting a rod requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Craft Rod](feat/craft_rod).",
+			"*Item Creation Feat Required:* {feat/Craft Rod}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Craft (weapons)."
 		],
@@ -2768,7 +2768,7 @@
 			"",
 			"Scribing a scroll requires 1 day per 1,000 gp of the base price. Although an individual scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.",
 			"",
-			"*Item Creation Feat Required:* [Scribe Scroll](feat/scribe_scroll).",
+			"*Item Creation Feat Required:* {feat/Scribe Scroll}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (calligraphy), or Profession (scribe).",
 			"",
@@ -2835,7 +2835,7 @@
 			"",
 			"Crafting a staff requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Craft Staff](feat/craft_staff).",
+			"*Item Creation Feat Required:* {feat/Craft Staff}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter)."
 		],
@@ -2871,7 +2871,7 @@
 			"",
 			"Crafting a wand requires 1 day per each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Craft Wand](feat/craft_wand).",
+			"*Item Creation Feat Required:* {feat/Craft Wand}.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter).",
 			"",
@@ -2921,7 +2921,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/553}",
 			"",
-			"To create a wondrous item, a character usually needs some sort of equipment or tools to work on the item. She also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Wondrous item costs are difficult to determine. Refer to [Magic Item Gold Piece Values](rule/magic_item_gold_piece_values) and use the item prices in the item descriptions as a guideline. Creating an item costs half the market value listed.",
+			"To create a wondrous item, a character usually needs some sort of equipment or tools to work on the item. She also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Wondrous item costs are difficult to determine. Refer to {rule/Magic Item Gold Piece Values} and use the item prices in the item descriptions as a guideline. Creating an item costs half the market value listed.",
 			"",
 			"If spells are involved in the prerequisites for making the item, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the item triggers the prepared spells, making them unavailable for casting during each day of the item's creation. (That is, those spell slots are expended from the caster's currently prepared spells, just as if they had been cast.)",
 			"",
@@ -2929,7 +2929,7 @@
 			"",
 			"Crafting a wondrous item requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* [Craft Wondrous Item](feat/craft_wondrous_item).",
+			"*Item Creation Feat Required:* {feat/Craft Wondrous Item}.",
 			"",
 			"*Skill Used In Creation:* Spellcraft or an applicable Craft or Profession skill check."
 		],
@@ -2965,7 +2965,7 @@
 			"",
 			"If the item is one that occupies a specific place on a character's body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her ring of protection +2, the cost of adding this ability is the same as for creating a ring of invisibility multiplied by 1.5.",
 			"",
-			">***Also See:*** [Upgrading Items](rule/upgrading_items)."
+			">***Also See:*** {rule/Upgrading Items}."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -3168,7 +3168,7 @@
 			"| Longship (sailed and rowed) | 3 miles | 72 miles |",
 			"| Galley (rowed and sailed) | 4 miles | 96 miles |",
 			"",
-			"[^1]: Quadrupeds, such as horses, can carry heavier load than characters can. See [Carrying Capacity](rule/carrying_capacity) for more information.",
+			"[^1]: Quadrupeds, such as horses, can carry heavier load than characters can. See {rule/Carrying Capacity} for more information.",
 			"[^2]: Rafts, barges, keelboats, and rowboats are most often used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, adding an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores."
 		],
 		"parent_topics": [
@@ -3215,7 +3215,7 @@
 			"",
 			"Dwarves and half-orcs have darkvision, but other races need light to see by. See Table 7-10 for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).",
 			"",
-			"In an area of ***bright light*** all characters can see clearly. Some creatures, such as those with [light sensitivity](umr/light_sensitivity) and [light blindness](umr/light_blindness), take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.",
+			"In an area of ***bright light*** all characters can see clearly. Some creatures, such as those with {umr/light sensitivity} and {umr/light blindness}, take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.",
 			"",
 			"***Normal light*** functions just like bright light, but characters with light sensitivity and light blindness do not take penalties. Areas of normal light include underneath a forest canopy during the day, within 20 feet of a torch, and inside the area of a light spell.",
 			"",
@@ -3238,10 +3238,10 @@
 			"| Lantern, hooded | 30 ft. | 60 ft. | 6 hr./pint |",
 			"| Sunrod | 30 ft. | 60 ft. | 6 hr. |",
 			"| Torch | 20 ft. | 40 ft. | 1 hr. |",
-			"| [Continual flame](spell/continual_flame) | 20 ft. | 40 ft. | Permanent |",
-			"| [Dancing lights](spell/dancing_lights) (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |",
-			"| [Daylight](spell/daylight) | 60 ft.[^2] | 120 ft. | 10 min./level |",
-			"| [Light](spell/light) | 20 ft. | 40 ft. | 10 min./level |",
+			"| {spell/Continual flame} | 20 ft. | 40 ft. | Permanent |",
+			"| {spell/Dancing lights} (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |",
+			"| {spell/Daylight} | 60 ft.[^2] | 120 ft. | 10 min./level |",
+			"| {spell/Light} | 20 ft. | 40 ft. | 10 min./level |",
 			"",
 			"[^1]: A candle does not provide normal illumination, only dim light.",
 			"[^2]: The light for a daylight spell is bright light."
@@ -3267,7 +3267,7 @@
 			"",
 			"### Smashing an Object",
 			"",
-			"Smashing a weapon or shield with a slashing or bludgeoning weapon is accomplished with the [sunder](rule/sunder) combat maneuver. Smashing an object is like sundering a weapon or shield, except that your combat maneuver check is opposed by the object's AC. Generally, you can smash an object only with a bludgeoning or slashing weapon.",
+			"Smashing a weapon or shield with a slashing or bludgeoning weapon is accomplished with the {rule/sunder} combat maneuver. Smashing an object is like sundering a weapon or shield, except that your combat maneuver check is opposed by the object's AC. Generally, you can smash an object only with a bludgeoning or slashing weapon.",
 			"",
 			"***Armor Class:*** Objects are easier to hit than creatures because they don't usually move, but many are tough enough to shrug off some damage from each blow. An object's Armor Class is equal to 10 + its size modifier (see Table 7-11) + its Dexterity modifier. An inanimate object has not only a Dexterity of 0 (-5 penalty to AC), but also an additional -2 penalty to its AC. Furthermore, if you take a full-round action to line up a shot, you get an automatic hit with a melee weapon and a +5 bonus on attack rolls with a ranged weapon.",
 			"",
@@ -3374,7 +3374,7 @@
 			"",
 			"Larger and smaller creatures get size bonuses and size penalties on Strength checks to break open doors as follows: Fine -16, Diminutive -12, Tiny -8, Small -4, Large +4, Huge +8, Gargantuan +12, Colossal +16.",
 			"",
-			"A [crowbar](equipment-misc/crowbar) or [portable ram](equipment-misc/portable_ram) improves a character's chance of breaking open a door.",
+			"A {equipment-misc/crowbar} or {equipment-misc/portable ram} improves a character's chance of breaking open a door.",
 			"",
 			"### Table 7-15: DCs to Break or Burst Items",
 			"",
@@ -3579,7 +3579,7 @@
 			"",
 			"***Specific Exceptions:*** Some spells can counter other specific spells, often those with diametrically opposed effects.",
 			"",
-			"***Dispel Magic as a Counterspell:*** You can usually use [dispel magic](spell/dispel_magic) to counterspell another spell being cast without needing to identify the spell being cast. Dispel magic doesn't always work as a counterspell (see the spell description)."
+			"***Dispel Magic as a Counterspell:*** You can usually use {spell/dispel magic} to counterspell another spell being cast without needing to identify the spell being cast. Dispel magic doesn't always work as a counterspell (see the spell description)."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -3666,9 +3666,9 @@
 			"",
 			"When a living creature dies, its soul departs its body, leaves the Material Plane, travels through the Astral Plane, and goes to abide on the plane where the creature's deity resides. If the creature did not worship a deity, its soul departs to the plane corresponding to its alignment. Bringing someone back from the dead involves magically retrieving his soul and returning it to his body.",
 			"",
-			"***Negative Levels:*** Any creature brought back to life usually gains one or more permanent [negative levels](rule/energy_drain_and_negative_levels). These levels apply a penalty to most rolls until removed through spells such as [restoration](spell/restoration). If the character was 1st level at the time of death, he loses 2 points of Constitution instead of gaining a negative level.",
+			"***Negative Levels:*** Any creature brought back to life usually gains one or more permanent [negative levels](rule/energy_drain_and_negative_levels). These levels apply a penalty to most rolls until removed through spells such as {spell/restoration}. If the character was 1st level at the time of death, he loses 2 points of Constitution instead of gaining a negative level.",
 			"",
-			"***Preventing Revivification:*** Enemies can take steps to make it more difficult for a character to be returned from the dead. Keeping the body prevents others from using [raise dead](spell/raise_dead) or [resurrection](spell/resurrection) to restore the slain character to life. Casting [trap the soul](spell/trap_the_soul) prevents any sort of revivification unless the soul is first released.",
+			"***Preventing Revivification:*** Enemies can take steps to make it more difficult for a character to be returned from the dead. Keeping the body prevents others from using {spell/raise dead} or {spell/resurrection} to restore the slain character to life. Casting {spell/trap the soul} prevents any sort of revivification unless the soul is first released.",
 			"",
 			"***Revivification Against One's Will:*** A soul can't be returned to life if it doesn't wish to be. A soul knows the name, alignment, and patron deity (if any) of the character attempting to revive it and may refuse to return on that basis."
 		],
@@ -3776,7 +3776,7 @@
 			"",
 			"Appearing on the same line as the school and subschool, when applicable, is a descriptor that further categorizes the spell in some way. Some spells have more than one descriptor.",
 			"",
-			"The descriptors are [acid](spelldef/acid), [air](spelldef/air), [chaotic](spelldef/chaotic), [cold](spelldef/cold), [curse](spelldef/curse), [darkness](spelldef/darkness), [death](spelldef/death), [disease](spelldef/disease), [draconic](spelldef/draconic), [earth](spelldef/earth), [electricity](spelldef/electricity), [emotion](spelldef/emotion), [evil](spelldef/evil), [fear](spelldef/fear), [fire](spelldef/fire), [force](spelldef/force), [good](spelldef/good), [language-dependent](spelldef/language-dependent), [lawful](spelldef/lawful), [light](spelldef/light), [meditative](spelldef/meditative), [mind-affecting](spelldef/mind-affecting), [pain](spelldef/pain), [poison](spelldef/poison), [ruse](spelldef/ruse), [shadow](spelldef/shadow_descriptor), [sonic](spelldef/sonic), and [water](spelldef/water).",
+			"The descriptors are {spelldef/acid}, {spelldef/air}, {spelldef/chaotic}, {spelldef/cold}, {spelldef/curse}, {spelldef/darkness}, {spelldef/death}, {spelldef/disease}, {spelldef/draconic}, {spelldef/earth}, {spelldef/electricity}, {spelldef/emotion}, {spelldef/evil}, {spelldef/fear}, {spelldef/fire}, {spelldef/force}, {spelldef/good}, {spelldef/language-dependent}, {spelldef/lawful}, {spelldef/light}, {spelldef/meditative}, {spelldef/mind-affecting}, {spelldef/pain}, {spelldef/poison}, {spelldef/ruse}, [shadow](spelldef/shadow_descriptor), {spelldef/sonic}, and {spelldef/water}.",
 			"",
 			"Most of these descriptors have no game effect by themselves, but they govern how the spell interacts with other spells, with special abilities, with unusual creatures, with alignment, and so on.",
 			"",
@@ -4314,7 +4314,7 @@
 			"",
 			"***Permanent:*** The energy remains as long as the effect does. This means the spell is vulnerable to dispel magic.",
 			"",
-			"***Concentration:*** The spell lasts as long as you concentrate on it. Concentrating to maintain a spell is a standard action that does not provoke attacks of opportunity. Anything that could break your concentration when casting a spell can also break your [concentration](rule/concentration) while you're maintaining one, causing the spell to end.",
+			"***Concentration:*** The spell lasts as long as you concentrate on it. Concentrating to maintain a spell is a standard action that does not provoke attacks of opportunity. Anything that could break your concentration when casting a spell can also break your {rule/concentration} while you're maintaining one, causing the spell to end.",
 			"",
 			"You can't cast a spell while concentrating on another one. Some spells last for a short time after you cease concentrating.",
 			"",
@@ -4574,7 +4574,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/219}",
 			"",
-			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see [Arcane Magical Writing](rule/arcane_magical_writing)). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
+			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see {rule/Arcane Magical Writing}). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -4600,11 +4600,11 @@
 			"",
 			"***Spells Gained at a New Level:*** Wizards perform a certain amount of spell research between adventures. Each time a character attains a new wizard level, he gains two spells of his choice to add to his spellbook. The two free spells must be of spell levels he can cast.",
 			"",
-			"***Spells Copied from Another's Spellbook or a Scroll:*** A wizard can also add a spell to his book whenever he encounters one on a magic scroll or in another wizard's spellbook. No matter what the spell's source, the wizard must first decipher the magical writing (see [Arcane Magical Writing](rule/arcane_magical_writing)). Next, he must spend 1 hour studying the spell. At the end of the hour, he must make a Spellcraft check (DC 15 + spell's level). A wizard who has specialized in a school of spells gains a +2 bonus on the Spellcraft check if the new spell is from his specialty school. If the check succeeds, the wizard understands the spell and can copy it into his spellbook (see [Writing a New Spell into a Spellbook](rule/writing_a_new_spell_into_a_spellbook)). The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment.",
+			"***Spells Copied from Another's Spellbook or a Scroll:*** A wizard can also add a spell to his book whenever he encounters one on a magic scroll or in another wizard's spellbook. No matter what the spell's source, the wizard must first decipher the magical writing (see {rule/Arcane Magical Writing}). Next, he must spend 1 hour studying the spell. At the end of the hour, he must make a Spellcraft check (DC 15 + spell's level). A wizard who has specialized in a school of spells gains a +2 bonus on the Spellcraft check if the new spell is from his specialty school. If the check succeeds, the wizard understands the spell and can copy it into his spellbook (see {rule/Writing a New Spell into a Spellbook}). The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment.",
 			"",
 			"If the check fails, the wizard cannot understand or copy the spell. He cannot attempt to learn or copy that spell again until one week has passed. If the spell was from a scroll, a failed Spellcraft check does not cause the spell to vanish.",
 			"",
-			"In most cases, wizards charge a fee for the privilege of copying spells from their spellbooks. This fee is usually equal to half the cost to write the spell into a spellbook (see [Writing a New Spell into a Spellbook](rule/writing_a_new_spell_into_a_spellbook)). Rare and unique spells might cost significantly more.",
+			"In most cases, wizards charge a fee for the privilege of copying spells from their spellbooks. This fee is usually equal to half the cost to write the spell into a spellbook (see {rule/Writing a New Spell into a Spellbook}). Rare and unique spells might cost significantly more.",
 			"",
 			"***Independent Research:*** A wizard can also research a spell independently, duplicating an existing spell or creating an entirely new one. The cost to research a new spell, and the time required, are left up to GM discretion, but it should probably take at least 1 week and cost at least 1,000 gp per level of the spell to be researched. This should also require a number of Spellcraft and Knowledge (arcana) checks."
 		],
@@ -4743,7 +4743,7 @@
 			"",
 			"Armor restricts the complicated gestures required while casting any spell that has a somatic component. The armor and shield descriptions list the arcane spell failure chance for different armors and shields.",
 			"",
-			"If a spell doesn't have a somatic component, an arcane spellcaster can cast it with no arcane spell failure chance while wearing armor. Such spells can also be cast even if the caster's hands are bound or he is grappling (although concentration checks still apply normally). The metamagic feat [Still Spell](feat/still_spell) allows a spellcaster to prepare or cast a spell without the somatic component at one spell level higher than normal. This also provides a way to cast a spell while wearing armor without risking arcane spell failure."
+			"If a spell doesn't have a somatic component, an arcane spellcaster can cast it with no arcane spell failure chance while wearing armor. Such spells can also be cast even if the caster's hands are bound or he is grappling (although concentration checks still apply normally). The metamagic feat {feat/Still Spell} allows a spellcaster to prepare or cast a spell without the somatic component at one spell level higher than normal. This also provides a way to cast a spell while wearing armor without risking arcane spell failure."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -4822,7 +4822,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/221}",
 			"",
-			"Divine spells can be written and deciphered like arcane spells (see [Arcane Magical Writing](rule/arcane_magical_writing)). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
+			"Divine spells can be written and deciphered like arcane spells (see {rule/Arcane Magical Writing}). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -4895,7 +4895,7 @@
 			"",
 			"Psychic magic originates from the distinctive qualities of the caster's composite being, rather than through arcane formulae or rote supplication to divine entities. Therefore, psychic spells never have verbal or somatic components, and have only expensive material components. Psychic spells are purely mental actions, and they can be cast even while the caster is pinned or paralyzed. Focus components work the same way with psychic spells as they do with other spells.",
 			"",
-			"When a spell calls for an expensive material component, a psychic spellcaster can instead use any item with both significant meaning and a value greater than or equal to the spell's component cost. For example, if a spiritualist wanted to cast [raise dead](spell/raise_dead) to bring her dead husband back from the grave, she could use her 5,000 gp wedding ring as the spell's material component.",
+			"When a spell calls for an expensive material component, a psychic spellcaster can instead use any item with both significant meaning and a value greater than or equal to the spell's component cost. For example, if a spiritualist wanted to cast {spell/raise dead} to bring her dead husband back from the grave, she could use her 5,000 gp wedding ring as the spell's material component.",
 			"",
 			"Instead of verbal and somatic components, all psychic spells have components related to the caster's inner being. The two psychic components are called emotion components and thought components. If a spell's components line lists a somatic component, that spell instead requires an emotion component when cast by psychic spellcasters, and if it has a verbal component, it instead requires a thought component when cast by psychic spellcasters. Psychic spells cast by non-psychic arcane and divine casters use any listed somatic and verbal components as normal.",
 			"",
@@ -4903,7 +4903,7 @@
 			"",
 			"***Thought Components:*** Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail-down to the saliva dripping from its jaws-in order to cast [beast shape](spell/beast_shape_1) to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any concentration check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
 			"",
-			"Just as spell-like abilities never require verbal, somatic, or material components, these abilities also don't require thought or emotion components. A psychic spellcaster can replace verbal and somatic components with thought and emotion components only for the purposes of the spell components themselves, not for the purposes of any other rules elements that relate to verbal and somatic components. She can't use [Silent Spell](feat/silent_spell) to ignore the thought component of a spell, for example. The new feats [Intuitive Spell](feat/intuitive_spell) and [Logical Spell](feat/logical_spell) serve a similar function for these new components."
+			"Just as spell-like abilities never require verbal, somatic, or material components, these abilities also don't require thought or emotion components. A psychic spellcaster can replace verbal and somatic components with thought and emotion components only for the purposes of the spell components themselves, not for the purposes of any other rules elements that relate to verbal and somatic components. She can't use {feat/Silent Spell} to ignore the thought component of a spell, for example. The new feats {feat/Intuitive Spell} and {feat/Logical Spell} serve a similar function for these new components."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -4981,7 +4981,7 @@
 			"",
 			"Certain character classes list repercussions for those who don't adhere to a specific alignment, and some spells and magic items have different effects on targets depending on alignment, but beyond that it's generally not necessary to worry too much about whether someone is behaving differently from his stated alignment. In the end, the Game Master is the one who gets to decide if something's in accordance with its indicated alignment, based on the descriptions given previously and his own opinion and interpretation; the only thing the GM needs to strive for is to be consistent as to what constitutes the difference between alignments like chaotic neutral and chaotic evil. There's no hard and fast mechanic by which you can measure alignment; unlike hit points or skill ranks or Armor Class, alignment is solely a label the GM controls.",
 			"",
-			"It's best to let players play their characters as they want. If a player is roleplaying in a way that you, as the GM, think doesn't fit his alignment, let him know that he's acting out of alignment and tell him why - but do so in a friendly manner. If a character wants to change his alignment, let him - in most cases, this should amount to little more than a change of personality, or in some cases, no change at all if the alignment change was more of an adjustment to more accurately summarize how a player, in your opinion, is portraying his character. In some cases, changing alignments can impact a character's abilities; see the class write-ups for details. An [atonement](spell/atonement) spell may be necessary to repair damage done by alignment changes arising from involuntary sources or momentary lapses in personality.",
+			"It's best to let players play their characters as they want. If a player is roleplaying in a way that you, as the GM, think doesn't fit his alignment, let him know that he's acting out of alignment and tell him why - but do so in a friendly manner. If a character wants to change his alignment, let him - in most cases, this should amount to little more than a change of personality, or in some cases, no change at all if the alignment change was more of an adjustment to more accurately summarize how a player, in your opinion, is portraying his character. In some cases, changing alignments can impact a character's abilities; see the class write-ups for details. An {spell/atonement} spell may be necessary to repair damage done by alignment changes arising from involuntary sources or momentary lapses in personality.",
 			"",
 			"Players who frequently have their characters change alignment should in all likelihood be playing chaotic neutral characters.",
 			"",

@@ -1294,49 +1294,49 @@
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
-				"## [Acrobat](trait/acrobat)",
+				"## {trait/Acrobat}",
 				"",
 				"**Type:** Social",
 				"",
 				"Having trained from a young age, you're capable of amazing feats of daring. You gain a +1 bonus on Acrobatics checks, and you take only a -2 penalty instead of the normal -5 penalty when using the Climb skill to attempt an accelerated climb."
 			],
 			[
-				"## [Adopted](trait/adopted)",
+				"## {trait/Adopted}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a race trait from your adoptive parents' race."
 			],
 			[
-				"## [Affable](trait/affable)",
+				"## {trait/Affable}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you. You gain a +2 trait bonus on Diplomacy checks to gather information, and can do so in half the normal time. In addition, Diplomacy and Knowledge (local) are always class skills for you."
 			],
 			[
-				"## [Allies in the Deep](trait/allies_in_the_deep)",
+				"## {trait/Allies in the Deep}",
 				"",
 				"**Type:** Social",
 				"",
 				"You've learned to deal amicably with individuals of questionable morals when necessary. You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures."
 			],
 			[
-				"## [Ambitious](trait/ambitious)",
+				"## {trait/Ambitious}",
 				"",
 				"**Type:** Social",
 				"",
 				"You exude confidence in the presence of those more powerful than you-sometimes unreasonably so. You gain a +4 trait bonus on Diplomacy checks made to influence creatures with at least 5 Hit Dice more than you possess."
 			],
 			[
-				"## [Amiable Blunder](trait/amiable_blunder)",
+				"## {trait/Amiable Blunder}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas. Once per day when you fail a Diplomacy check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a free action. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less."
 			],
 			[
-				"## [Amiable Briber](trait/amiable_briber)",
+				"## {trait/Amiable Briber}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Absalom",
@@ -1344,70 +1344,70 @@
 				"Your attempts to bribe others usually come off as playful or as a gag. The first time someone refuses a bribe you offer, that person's attitude toward you doesn't worsen, even if the offer would normally offend the person (as though you had failed a Diplomacy check by 5 or more)."
 			],
 			[
-				"## [Ancestral Armor](trait/ancestral_armor)",
+				"## {trait/Ancestral Armor}",
 				"",
 				"**Type:** Social",
 				"",
 				"You inherited an ancient set of Tar Taargadth armor. You begin play with a set of masterwork armor of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp."
 			],
 			[
-				"## [Arodenite Historian](trait/arodenite_historian)",
+				"## {trait/Arodenite Historian}",
 				"",
 				"**Type:** Social",
 				"",
 				"You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected. If you fail a Knowledge (arcana, history, or religion) check, you can reroll the check 1 round later using your bonus for one of the other two skills."
 			],
 			[
-				"## [Artisan](trait/artisan)",
+				"## {trait/Artisan}",
 				"",
 				"**Type:** Social",
 				"",
 				"You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade. You gain a +2 trait bonus on a single Craft skill (your choice)."
 			],
 			[
-				"## [Avid Reader](trait/avid_reader)",
+				"## {trait/Avid Reader}",
 				"",
 				"**Type:** Social",
 				"",
 				"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the [Pathfinder Society](rule/aff_scholars), and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened. Suggested Characters: Osirians, Pathfinders, Taldans."
 			],
 			[
-				"## [Balanced Determination](trait/balanced_determination)",
+				"## {trait/Balanced Determination}",
 				"",
 				"**Type:** Social",
 				"",
 				"You've come to appreciate the balanced approach taken by sovereign dragons. Once per day, before attempting a saving throw against a spell ability originating from another creature, you can invoke the determination of those dragons. You take 10 on the saving throw (treat the d20 die result as if it were a 10)."
 			],
 			[
-				"## [Bastard (UC)](trait/bastard_uc)",
+				"## {trait/Bastard (UC)}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you."
 			],
 			[
-				"## [Beast Bond](trait/beast_bond)",
+				"## {trait/Beast Bond}",
 				"",
 				"**Type:** Social",
 				"",
 				"You share a close bond with animals. You gain a +1 bonus on Handle Animal checks and Ride checks. One of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [Beastkin](trait/beastkin)",
+				"## {trait/Beastkin}",
 				"",
 				"**Type:** Social",
 				"",
 				"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race. You gain a +1 trait bonus on Survival checks and can use speak with animals as a spell-like ability at will to communicate with the type of animal that raised you."
 			],
 			[
-				"## [Binder's Blood](trait/binders_blood)",
+				"## {trait/Binder's Blood}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding. You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie."
 			],
 			[
-				"## [Brastlewark Businessman (GoG)](trait/brastlewark_businessman_gog)",
+				"## {trait/Brastlewark Businessman (GoG)}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Gnome",
@@ -1415,21 +1415,21 @@
 				"Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business. You gain a +2 trait bonus on all Craft (alchemy) checks."
 			],
 			[
-				"## [Bruising Intellect](trait/bruising_intellect)",
+				"## {trait/Bruising Intellect}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your sharp intellect and rapier-like wit bruise egos. Intimidate is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier."
 			],
 			[
-				"## [Bully](trait/bully)",
+				"## {trait/Bully}",
 				"",
 				"**Type:** Social",
 				"",
 				"You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 			],
 			[
-				"## [Bureaucrat's Favored](trait/bureaucrats_favored)",
+				"## {trait/Bureaucrat's Favored}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Osirion  ",
@@ -1438,7 +1438,7 @@
 				"You have gained favor with the government of Sothis. Once per week, you can attempt a DC 20 Diplomacy or Intimidate check to gain access to an exclusive site or event, such as a government building or an aristocrat's ball."
 			],
 			[
-				"## [Calculated Bribe](trait/calculated_bribe)",
+				"## {trait/Calculated Bribe}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Code of Perseverance",
@@ -1446,70 +1446,70 @@
 				"If you follow this code, you are keenly aware of the value of actions as well as goods. Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times; 10 in order to reroll a Diplomacy check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll. In addition, you begin play with a set of extravagant noble's clothes worth 100 gp."
 			],
 			[
-				"## [Callous](trait/callous)",
+				"## {trait/Callous}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story. You gain a +4 trait bonus on Sense Motive checks that oppose the Bluff checks of creatures that attempt to deceive you by winning your sympathy."
 			],
 			[
-				"## [Canter](trait/canter)",
+				"## {trait/Canter}",
 				"",
 				"**Type:** Social",
 				"",
 				"You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest. Anyone who attempts to use Bluff to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using Sense Motive, you gain a +5 trait bonus on the attempt."
 			],
 			[
-				"## [Carnal Attraction](trait/carnal_attraction)",
+				"## {trait/Carnal Attraction}",
 				"",
 				"**Type:** Social",
 				"",
 				"You know how to ask the wrong questions the right way, granting you a +2 trait bonus on Diplomacy (gather information) and Knowledge (local) checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency."
 			],
 			[
-				"## [Charming](trait/charming)",
+				"## {trait/Charming}",
 				"",
 				"**Type:** Social",
 				"",
 				"Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use Bluff or Diplomacy on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures."
 			],
 			[
-				"## [Chelish Sympathizer](trait/chelish_sympathizer)",
+				"## {trait/Chelish Sympathizer}",
 				"",
 				"**Type:** Social",
 				"",
 				"You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange. Once per month while in an Inner Sea region settlement of at least 2,000 people, you can call upon these connections to gain an edge in a verbal duel or gain a +2 bonus on one Bluff, Diplomacy, or Intimidate check."
 			],
 			[
-				"## [Child of the Streets](trait/child_of_the_streets)",
+				"## {trait/Child of the Streets}",
 				"",
 				"**Type:** Social",
 				"",
 				"You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you."
 			],
 			[
-				"## [Chip on the Shoulder](trait/chip_on_the_shoulder)",
+				"## {trait/Chip on the Shoulder}",
 				"",
 				"**Type:** Social",
 				"",
 				"When someone pushes you, you push back. Whenever a creature fails an Intimidate check against you, you gain a +2 trait bonus on your next Intimidate check against that creature. Intimidate becomes a class skill for you."
 			],
 			[
-				"## [Civilized](trait/civilized)",
+				"## {trait/Civilized}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are well versed in the local laws, customs, and politics. You gain a +1 trait bonus on Knowledge (nobility) checks and Knowledge (local) checks. Knowledge (local) is always a class skill for you."
 			],
 			[
-				"## [Clever Wordplay](trait/clever_wordplay)",
+				"## {trait/Clever Wordplay}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your cunning and logic are more than a match for another's confidence and poise. Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier."
 			],
 			[
-				"## [Collector](trait/collector)",
+				"## {trait/Collector}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Gnome",
@@ -1517,14 +1517,14 @@
 				"You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you. Select one of the following skills: Craft (any one), Disable Device, Escape Artist, Perform (any one), or Spellcraft. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill. Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing."
 			],
 			[
-				"## [Competitive](trait/competitive)",
+				"## {trait/Competitive}",
 				"",
 				"**Type:** Social",
 				"",
 				"You grew up and were raised around fabulous sporting events, and your youth was consumed with a driving need to be better than everyone else. Any hint of a contest spurs you to your greatest heights of potential. Whenever another creature within 30 feet attempts a skill check and you attempt a check with the same skill before the start of that creature's next turn, you gain a +1 trait bonus on your check (this includes attempting an opposed skill check against the creature). Suggested Characters: Brevans, Kurgess worshipers, Sargavans."
 			],
 			[
-				"## [Contagious Mettle](trait/contagious_mettle)",
+				"## {trait/Contagious Mettle}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Code of Valor",
@@ -1532,14 +1532,14 @@
 				"If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear."
 			],
 			[
-				"## [Contemptuous](trait/contemptuous)",
+				"## {trait/Contemptuous}",
 				"",
 				"**Type:** Social",
 				"",
 				"Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (nobility) checks, and one of these skills becomes a class skill for you."
 			],
 			[
-				"## [Convincing Liar](trait/convincing_liar)",
+				"## {trait/Convincing Liar}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Member of The [Bellflower Network](rule/aff_antislavery)",
@@ -1547,63 +1547,63 @@
 				"You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you."
 			],
 			[
-				"## [Criminal](trait/criminal)",
+				"## {trait/Criminal}",
 				"",
 				"**Type:** Social",
 				"",
 				"You spent your early life robbing and stealing to get by. Select one of the following skills: Disable Device, Intimidate, or Sleight of Hand. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 			],
 			[
-				"## [Criminal Roots](trait/criminal_roots)",
+				"## {trait/Criminal Roots}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your family has long operated outside the law. You gain a +2 trait bonus on Diplomacy checks to influence criminals and on Intimidate checks to influence law-abiding citizens, but take a -2 penalty on Diplomacy checks to influence law-abiding citizens. Diplomacy or Intimidate (your choice) is a class skill for you."
 			],
 			[
-				"## [Criminally Connected](trait/criminally_connected)",
+				"## {trait/Criminally Connected}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have spent a lot of time dealing with the criminal underworld-so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation. While in settlements, you gain a +1 trait bonus on Knowledge (local) checks and on Diplomacy checks to gather information."
 			],
 			[
-				"## [Cutting Condescension](trait/cutting_condescension)",
+				"## {trait/Cutting Condescension}",
 				"",
 				"**Type:** Social",
 				"",
 				"The Sable Company has taught you to quickly get compliance from those in your way. You gain a +2 trait bonus on Intimidate checks to force a creature to act friendly towards you, and can attempt such checks in half the normal time."
 			],
 			[
-				"## [Cynical](trait/cynical)",
+				"## {trait/Cynical}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill. You gain a +1 trait bonus on saving throws against illusions and charm effects."
 			],
 			[
-				"## [Cynical Ear](trait/cynical_ear)",
+				"## {trait/Cynical Ear}",
 				"",
 				"**Type:** Social",
 				"",
 				"Neither honeyed tongues or righteous wrath move you much. Add 2 when determining your Hit Dice for Intimidate checks, and increase the DC or all Diplomacy checks against you by 2."
 			],
 			[
-				"## [Darklands Scholar](trait/darklands_scholar)",
+				"## {trait/Darklands Scholar}",
 				"",
 				"**Type:** Social",
 				"",
 				"Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you. You gain a +2 trait bonus on Knowledge checks to identify the weaknesses of Darklands creatures."
 			],
 			[
-				"## [Darklands Trader](trait/darklands_trader)",
+				"## {trait/Darklands Trader}",
 				"",
 				"**Type:** Social",
 				"",
 				"You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands. You gain a +1 trait bonus on Diplomacy checks relating to subterranean trade and on Knowledge (dungeoneering) checks relating to subterranean creatures. Select one of these skills to be a class skill for you."
 			],
 			[
-				"## [Debauchery Defier](trait/debauchery_defier)",
+				"## {trait/Debauchery Defier}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Taldor  ",
@@ -1612,92 +1612,92 @@
 				"You are particularly adept at resisting addiction. You must fail two saving throws in a row to become addicted to a drug."
 			],
 			[
-				"## [Deep Cover](trait/deep_cover)",
+				"## {trait/Deep Cover}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity. You can always take 10 on Bluff and Disguise checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you."
 			],
 			[
-				"## [Destined Diplomat](trait/destined_diplomat)",
+				"## {trait/Destined Diplomat}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your relationship with your eidolon gives you some clout with other outsiders. You gain a +2 trait bonus on Diplomacy checks toward outsiders, and Diplomacy is always a class skill for you."
 			],
 			[
-				"## [Detect Disobedience](trait/detect_disobedience)",
+				"## {trait/Detect Disobedience}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have an uncanny ability to spot a mutiny brewing. You gain a +2 trait bonus on Sense Motive checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you."
 			],
 			[
-				"## [Dismantle Order](trait/dismantle_order)",
+				"## {trait/Dismantle Order}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Code of Revolution",
 				"",
-				"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use [detect law](spell/detect_law) as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
+				"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use {spell/detect law} as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
 			],
 			[
-				"## [Doublespeak](trait/doublespeak)",
+				"## {trait/Doublespeak}",
 				"",
 				"**Type:** Social",
 				"",
 				"It isn't what you say-it's how you say it. You gain a +2 trait bonus on Bluff checks to pass along secret messages."
 			],
 			[
-				"## [Draconic Destiny](trait/draconic_destiny)",
+				"## {trait/Draconic Destiny}",
 				"",
 				"**Type:** Social",
 				"",
 				"Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill. When dying, you gain a +2 trait bonus on Constitution checks to become stable. In addition, you die from hit point loss only once your hit points equal or exceed a negative amount equal to your Constitution score + 2."
 			],
 			[
-				"## [Dragon Pact](trait/dragon_pact)",
+				"## {trait/Dragon Pact}",
 				"",
 				"**Type:** Social",
 				"",
 				"At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing. Choose one category of true dragon (chromatic, metallic, primal, etc.). You gain a +1 trait bonus on Diplomacy checks against that category of dragon and a +1 trait bonus on Intimidate checks against all creatures of the dragon type that are not of the same category of true dragon."
 			],
 			[
-				"## [Dragon-Hunted](trait/dragon-hunted)",
+				"## {trait/Dragon-Hunted}",
 				"",
 				"**Type:** Social",
 				"",
 				"You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth. You gain a +1 trait bonus on Will saves against fear effects, and against any saving throw from a spell or effect created by a dragon."
 			],
 			[
-				"## [Drake Anatomist](trait/drake_anatomist)",
+				"## {trait/Drake Anatomist}",
 				"",
 				"**Type:** Social",
 				"",
 				"You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on Knowledge (arcana) checks to identify dragons and their special powers and vulnerabilities."
 			],
 			[
-				"## [Dusk Market Bribery](trait/dusk_market_bribery)",
+				"## {trait/Dusk Market Bribery}",
 				"",
 				"**Type:** Social",
 				"",
 				"You learned how to bribe by watching Dusk Market merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%."
 			],
 			[
-				"## [Ecumenical](trait/ecumenical)",
+				"## {trait/Ecumenical}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords. You gain a +2 trait bonus on Knowledge (religion) checks involving entities other than the most influential gods. You also gain a +2 trait bonus on Diplomacy checks to influence worshipers of such entities."
 			],
 			[
-				"## [Elemental Negotiator](trait/elemental_negotiator)",
+				"## {trait/Elemental Negotiator}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters. At character creation, you learn one of the following languages as a bonus language: Aquan, Auran, Ignan, or Terran. Additionally, your options for bonus languages from having a high Intelligence score include the other three elemental languages, in addition to those language options allowed by your race and class. You gain a +2 trait bonus on Diplomacy and Bluff checks when using one of these languages to communicate with a creature originating from the language's corresponding Elemental Plane."
 			],
 			[
-				"## [Enemy of Slavers](trait/enemy_of_slavers)",
+				"## {trait/Enemy of Slavers}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Code of Freedom",
@@ -1705,14 +1705,14 @@
 				"If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift. You gain a +2 trait bonus on Diplomacy and Intimidate checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will."
 			],
 			[
-				"## [Escaped Captive](trait/escaped_captive)",
+				"## {trait/Escaped Captive}",
 				"",
 				"**Type:** Social",
 				"",
 				"Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity. You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on Escape Artist checks and a +2 trait bonus to CMD to avoid being pinned."
 			],
 			[
-				"## [Etymologist](trait/etymologist)",
+				"## {trait/Etymologist}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Gnome",
@@ -1720,14 +1720,14 @@
 				"When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language. You gain a +1 trait bonus on Linguistics checks, know one additional bonus language, and treat Linguistics as a class skill."
 			],
 			[
-				"## [Excellent Penmanship](trait/excellent_penmanship)",
+				"## {trait/Excellent Penmanship}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen. The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any Bluff, Diplomacy, or Intimidate check attempted for that communication. Linguistics is always a class skill for you."
 			],
 			[
-				"## [Explorer](trait/explorer)",
+				"## {trait/Explorer}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Gnome",
@@ -1735,84 +1735,84 @@
 				"Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be. At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all Survival checks made in your desired terrain type. At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row)."
 			],
 			[
-				"## [Expressive Pantomime](trait/expressive_pantomime)",
+				"## {trait/Expressive Pantomime}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have learned to express yourself without having to depend on words. When attempting a Bluff check to deliver a secret message, you can take a -5 penalty on the check to communicate a simple message even to creatures that do not share a language with you. You cannot communicate with mindless creatures."
 			],
 			[
-				"## [Fast Talker](trait/fast_talker)",
+				"## {trait/Fast Talker}",
 				"",
 				"**Type:** Social",
 				"",
 				"You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you."
 			],
 			[
-				"## [Feral Speech](trait/feral_speech)",
+				"## {trait/Feral Speech}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language-you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets."
 			],
 			[
-				"## [For the Money](trait/for_the_money)",
+				"## {trait/For the Money}",
 				"",
 				"**Type:** Social",
 				"",
 				"You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on Appraise checks and Appraise is always a class skill for you."
 			],
 			[
-				"## [Founders' Heritage](trait/founders_heritage)",
+				"## {trait/Founders' Heritage}",
 				"",
 				"**Type:** Social",
 				"",
 				"You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential. You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom."
 			],
 			[
-				"## [Free Spirit](trait/free_spirit)",
+				"## {trait/Free Spirit}",
 				"",
 				"**Type:** Social",
 				"",
 				"You respect the freedom of others to speak as they will. Your rough-and-tumble youth taught you that everyone deserves a chance to say her piece. After all, you can always simply choose to ignore the speaker. You gain a +1 trait bonus on saving throws against language-dependent and effects with the sonic descriptor. In addition, the DC to Intimidate you increases by 2. Suggested Characters: Andorens, Desnans, Erastil worshipers."
 			],
 			[
-				"## [Friend in Every Town](trait/friend_in_every_town)",
+				"## {trait/Friend in Every Town}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have no problem making friends and learning information from them wherever you go. You gain a +1 trait bonus on all Knowledge (local) checks and Diplomacy checks. One of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [Friends in High Places](trait/friends_in_high_places)",
+				"## {trait/Friends in High Places}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials. Suggested Characters: Absalom natives, [Aspis Consortium](rule/aff_profiteers) agents, Taldans."
 			],
 			[
-				"## [Friends in Low Places](trait/friends_in_low_places)",
+				"## {trait/Friends in Low Places}",
 				"",
 				"**Type:** Social",
 				"",
 				"Outcasts know their own, and that knowledge opens doors and loosens tongues. Gathering information in lower quarters, such as vice dens and poorer districts, takes you 1d2 hours (instead of 1d4 hours). In addition, the attitudes of any destitute or impoverished NPCs you interact with begin one step closer to helpful."
 			],
 			[
-				"## [Fury of the Red](trait/fury_of_the_red)",
+				"## {trait/Fury of the Red}",
 				"",
 				"**Type:** Social",
 				"",
 				"Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives. If you ever take a class that requires you to select a draconic heritage, you must select a red dragon as your type. After successfully completing a charge attack, you gain a +2 trait bonus on Will saves for a full round."
 			],
 			[
-				"## [Gesture Expertise](trait/gesture_expertise)",
+				"## {trait/Gesture Expertise}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are adept at nonverbal communication. You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 Linguistics check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the Bluff skill, and to understand gestures with the Linguistics skill."
 			],
 			[
-				"## [Gifted Smuggler](trait/gifted_smuggler)",
+				"## {trait/Gifted Smuggler}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Ostenso",
@@ -1820,70 +1820,70 @@
 				"You have a knack for hiding goods on your person. Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of Sleight of Hand checks."
 			],
 			[
-				"## [Gregarious](trait/gregarious)",
+				"## {trait/Gregarious}",
 				"",
 				"**Type:** Social",
 				"",
 				"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse. Suggested Characters: [Eagle Knights](rule/aff_vangard), Garundi, Pathfinders."
 			],
 			[
-				"## [Grief-Filled](trait/grief-filled)",
+				"## {trait/Grief-Filled}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are no stranger to loss and intense emotions. You gain a +2 trait bonus on all saving throws against emotion spells and effects."
 			],
 			[
-				"## [Grim Optimism](trait/grim_optimism)",
+				"## {trait/Grim Optimism}",
 				"",
 				"**Type:** Social",
 				"",
 				"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit. As a standard action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours. Suggested Characters: Galtans, Rahadoumi, Ustalavs."
 			],
 			[
-				"## [Hardly a Fool](trait/hardly_a_fool)",
+				"## {trait/Hardly a Fool}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message. You gain a +1 trait bonus on Sense Motive checks and a +1 trait bonus on saving throws against illusion effects."
 			],
 			[
-				"## [Harvester](trait/harvester)",
+				"## {trait/Harvester}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were trained to harvest all parts of an animal with care and precision. You gain a +1 trait bonus on Profession (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature."
 			],
 			[
-				"## [Heart of Two Worlds](trait/heart_of_two_worlds)",
+				"## {trait/Heart of Two Worlds}",
 				"",
 				"**Type:** Social",
 				"",
 				"Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you. You gain a +2 trait bonus on Diplomacy and Sense Motive checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father."
 			],
 			[
-				"## [Hellknight Ancestry](trait/hellknight_ancestry)",
+				"## {trait/Hellknight Ancestry}",
 				"",
 				"**Type:** Social",
 				"",
 				"At least one of your parents was a [Hellknight](rule/aff_lawknights), and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
 			],
 			[
-				"## [Imposing Scion](trait/imposing_scion)",
+				"## {trait/Imposing Scion}",
 				"",
 				"**Type:** Social",
 				"",
 				"The reputation of your bloodline grants you a degree of fearful respect. You gain a +1 trait bonus on Intimidate checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type."
 			],
 			[
-				"## [Inexorable Authority](trait/inexorable_authority)",
+				"## {trait/Inexorable Authority}",
 				"",
 				"**Type:** Social",
 				"",
 				"When you speak with the full weight of law, your conviction lends you a terrible presence. You gain a +2 trait bonus on Intimidate checks when enforcing or pronouncing a lawful judgment that you're legitimately deputed to enforce or pronounce."
 			],
 			[
-				"## [Infernal Colleague](trait/infernal_colleague)",
+				"## {trait/Infernal Colleague}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Cheliax  ",
@@ -1892,21 +1892,21 @@
 				"Your experience working with devils has given you nerves of steel. You gain a +2 trait bonus on Will saves to resist fear effects created by outsiders."
 			],
 			[
-				"## [Influence](trait/influence)",
+				"## {trait/Influence}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your position in society grants you special insight into others, and special consideration or outright awe from others. Choose one of the following skills: Diplomacy, Intimidate, or Sense Motive. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 			],
 			[
-				"## [Jistkan Scholar](trait/jistkan_scholar)",
+				"## {trait/Jistkan Scholar}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have specialized in studying Jistkan history and culture. You gain Jistka as a bonus language and a +1 trait bonus on all Knowledge checks related to the Jistka Imperium."
 			],
 			[
-				"## [Keleshite Princess](trait/keleshite_princess)",
+				"## {trait/Keleshite Princess}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Qadira  ",
@@ -1915,21 +1915,21 @@
 				"You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want. You gain a +1 trait bonus to Diplomacy and Intimidate checks, and one of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [King in Waiting](trait/king_in_waiting)",
+				"## {trait/King in Waiting}",
 				"",
 				"**Type:** Social",
 				"",
 				"You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty. You gain a +1 trait bonus on saves to resist curses and spells with the curse descriptor and a +3 trait bonus on saves to resist curses originating from a linnorm."
 			],
 			[
-				"## [Knowing the Enemy](trait/knowing_the_enemy)",
+				"## {trait/Knowing the Enemy}",
 				"",
 				"**Type:** Social",
 				"",
 				"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first favored enemy choice, and that Knowledge skill is always a class skill for you."
 			],
 			[
-				"## [Law Enforcer](trait/law_enforcer)",
+				"## {trait/Law Enforcer}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Code of Vigilance",
@@ -1937,21 +1937,21 @@
 				"If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on Sense Motive checks to gain a hunch from social situations, and begin play with a pair of masterwork manacles."
 			],
 			[
-				"## [Life of Toil](trait/life_of_toil)",
+				"## {trait/Life of Toil}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind. You gain a +1 trait bonus on Fortitude saves."
 			],
 			[
-				"## [Lost Nobility](trait/lost_nobility)",
+				"## {trait/Lost Nobility}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including [Hellknights](rule/aff_lawknights)) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
 			],
 			[
-				"## [Maestro of the Society](trait/maestro_of_the_society)",
+				"## {trait/Maestro of the Society}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
@@ -1959,21 +1959,21 @@
 				"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day."
 			],
 			[
-				"## [Malevolent Temptations](trait/malevolent_temptations)",
+				"## {trait/Malevolent Temptations}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have resisted or escaped the temptations of a disguised hag, and you learned much from your encounter. You gain a +1 trait bonus on Sense Motive checks and a +2 trait bonus on saving throws to disbelieve illusions."
 			],
 			[
-				"## [Marked by Unknown Forces](trait/marked_by_unknown_forces)",
+				"## {trait/Marked by Unknown Forces}",
 				"",
 				"**Type:** Social",
 				"",
 				"That which has marked you for power has also given you proof to show others. You may cast light three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth-a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
 			],
 			[
-				"## [Master Messenger](trait/master_messenger)",
+				"## {trait/Master Messenger}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Riddleport",
@@ -1981,56 +1981,56 @@
 				"Your secret messages are rarely misunderstood. If you fail your Bluff check to pass a simple message by 5 or more, you deliver no message instead of delivering the wrong message."
 			],
 			[
-				"## [Mediator](trait/mediator)",
+				"## {trait/Mediator}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community. You receive a +1 trait bonus on Diplomacy checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion effect that does not provide ongoing control and results in peaceful acts, such as calm emotions, sleep, or a suggestion to lay down arms."
 			],
 			[
-				"## [Memorable](trait/memorable)",
+				"## {trait/Memorable}",
 				"",
 				"**Type:** Social",
 				"",
 				"Growing up amid a large number of children, you learned quickly how to get others' attention and keep it. When you modify a character's attitude with the Diplomacy or Intimidate skill, the attitude change lasts 1-1/2 times longer than it otherwise would. Whenever you create a fear or mind-affecting effect that imposes a penalty or bonus with a duration of at least 2 rounds, it lasts 1 additional round after it would normally end. For example, if you demoralize a foe with an Intimidate check and beat the DC by 5, the victim is shaken for 3 rounds instead of the usual 2 rounds. Suggested Characters: Free Captains, gnomes, Keleshites."
 			],
 			[
-				"## [Mentored](trait/mentored)",
+				"## {trait/Mentored}",
 				"",
 				"**Type:** Social",
 				"",
 				"A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others. Choose a single Craft, Perform, or Profession skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you aid another's skill check with any skill."
 			],
 			[
-				"## [Mercenary](trait/mercenary)",
+				"## {trait/Mercenary}",
 				"",
 				"**Type:** Social",
 				"",
 				"For everything there is a price, and you are a negotiator at heart. You gain a +2 trait bonus on Diplomacy, Intimidate, and Sense Motive checks made while negotiating payment for a quest or a service that you provide."
 			],
 			[
-				"## [Merchant](trait/merchant)",
+				"## {trait/Merchant}",
 				"",
 				"**Type:** Social",
 				"",
 				"You lived your life as a merchant, buying and selling goods. You gain a +1 trait bonus on any Appraise and Sense Motive checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you."
 			],
 			[
-				"## [Mock Gladiator](trait/mock_gladiator)",
+				"## {trait/Mock Gladiator}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have learned how to work a crowd in Magnimar's mock-gladiator fights. Choose one weapon. You take no penalty on attack rolls when dealing nonlethal damage with that weapon, and once per day if you score a critical hit with the weapon, you can immediately attempt an Intimidate check to demoralize your target."
 			],
 			[
-				"## [Monster Scholar](trait/monster_scholar)",
+				"## {trait/Monster Scholar}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers-or vulnerabilities-with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
 			],
 			[
-				"## [Monster Stalker](trait/monster_stalker)",
+				"## {trait/Monster Stalker}",
 				"",
 				"**Type:** Social",
 				"",
@@ -2041,17 +2041,17 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the [Leadership](feat/leadership) feat, you gain a +1 trait bonus to your Leadership score."
+				"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the {feat/Leadership} feat, you gain a +1 trait bonus to your Leadership score."
 			],
 			[
-				"## [Nightstalls Navigator](trait/nightstalls_navigator)",
+				"## {trait/Nightstalls Navigator}",
 				"",
 				"**Type:** Social",
 				"",
 				"Long exposure to the endless variety of the Nightstalls grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you."
 			],
 			[
-				"## [Noble Savage](trait/noble_savage)",
+				"## {trait/Noble Savage}",
 				"",
 				"**Type:** Social  ",
 				"**Faction:** [Ulfen Guard](rule/f_imperial)",
@@ -2059,14 +2059,14 @@
 				"You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing. You gain a +2 trait bonus on Diplomacy and Perform checks when dealing with people of high social standing."
 			],
 			[
-				"## [Nonchalant Thuggery](trait/nonchalant_thuggery)",
+				"## {trait/Nonchalant Thuggery}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are adept at keeping witnesses from noticing that anything is wrong. You gain a +4 trait bonus on Bluff checks to keep others from noticing your aggressive actions."
 			],
 			[
-				"## [Numerian Fluid Indulger](trait/numerian_fluid_indulger)",
+				"## {trait/Numerian Fluid Indulger}",
 				"",
 				"**Type:** Social  ",
 				"**Region:** Numeria  ",
@@ -2075,133 +2075,133 @@
 				"You have tasted Numerian fluids many times. Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result."
 			],
 			[
-				"## [Obnoxious](trait/obnoxious)",
+				"## {trait/Obnoxious}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have long since forgotten to care what people think about you, though your interactions are always memorable, at the very least. Choose Perform (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill."
 			],
 			[
-				"## [Official Ties](trait/official_ties)",
+				"## {trait/Official Ties}",
 				"",
 				"**Type:** Social",
 				"",
 				"You maintain a friendship with one or more figures of authority. You have minor sway with one of these figures if your game uses individual influence. You gain a +2 trait bonus on Diplomacy checks to influence people in positions of authority aware of your contact and who have an attitude of no worse than indifferent toward the government the contact represents. You also take a -2 penalty on Diplomacy checks to influence criminals and agents of opposing governments, if those characters are aware of your association with authorities. If you lose your contact, you lose the benefits of this trait for 1 month, after which you can make a new contact."
 			],
 			[
-				"## [Ordinary](trait/ordinary)",
+				"## {trait/Ordinary}",
 				"",
 				"**Type:** Social",
 				"",
 				"The only thing extraordinary about your appearance is its ordinariness. You carry yourself in an understated way, and many people who see your face soon forget it. You gain a +4 trait bonus on Stealth checks whenever you attempt to hide in a crowd."
 			],
 			[
-				"## [Orphaned](trait/orphaned)",
+				"## {trait/Orphaned}",
 				"",
 				"**Type:** Social",
 				"",
 				"You grew up separated from your birth parents, and had to learn to watch out for yourself. You gain a +1 trait bonus on Survival checks, and Survival is always a class skill for you."
 			],
 			[
-				"## [Outsider Enemy](trait/outsider_enemy)",
+				"## {trait/Outsider Enemy}",
 				"",
 				"**Type:** Social",
 				"",
 				"One of your ancestors was a conjurer who specialized in binding outsiders of a particular type. You have inherited some of his skills, but also some of his enemies. Choose a single outsider subtype. The DC of your spells increases by 1 against outsiders of the chosen subtype. Outsiders of the chosen subtype gain a +1 morale bonus on attack and damage rolls made against you, and their starting attitude toward you is reduced by one step."
 			],
 			[
-				"## [Pack Savvy](trait/pack_savvy)",
+				"## {trait/Pack Savvy}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have learned how to gain the respect of gnolls in your region, and you know something of their social structure. You gain a +3 trait bonus on Charisma-based skill checks when dealing with gnolls."
 			],
 			[
-				"## [Passionate Inertia](trait/passionate_inertia)",
+				"## {trait/Passionate Inertia}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your passions drive your thinking so irresistibly that even magic struggles to change your mind. You gain a +2 trait bonus on Will saves to resist having your mind changed about something, but you take a -1 penalty on Will saves to resist temptation and compulsions you might reasonably be already inclined toward."
 			],
 			[
-				"## [Poverty-Stricken](trait/poverty-stricken)",
+				"## {trait/Poverty-Stricken}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you."
 			],
 			[
-				"## [Practiced Disruptor](trait/practiced_disruptor)",
+				"## {trait/Practiced Disruptor}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are experienced at facing off against spellcasters. You can attempt Knowledge (arcana) checks untrained; if you have ranks in that skill, you instead gain a +1 trait bonus on those checks. The concentration DC to cast a spell defensively in your threatened area increases by 1."
 			],
 			[
-				"## [Preternatural Awareness](trait/preternatural_awareness)",
+				"## {trait/Preternatural Awareness}",
 				"",
 				"**Type:** Social",
 				"",
 				"Multiple encounters with fell magic have left you wary. You gain a +2 trait bonus on Perception and Sense Motive checks to notice cursed objects, haunts, and magically disguised creatures."
 			],
 			[
-				"## [Questing Hellknight](trait/questing_hellknight)",
+				"## {trait/Questing Hellknight}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are a quick study when it comes to local laws. Once per day, you can attempt a Knowledge (local) check untrained to recall information about local laws, rulers, and popular locations. Additionally, you gain a +1 trait bonus on Knowledge (local) checks, and Knowledge (local) is a class skill for you."
 			],
 			[
-				"## [Reassuring Advice](trait/reassuring_advice)",
+				"## {trait/Reassuring Advice}",
 				"",
 				"**Type:** Social",
 				"",
 				"You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied. Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made."
 			],
 			[
-				"## [Red Silk Frankness](trait/red_silk_frankness)",
+				"## {trait/Red Silk Frankness}",
 				"",
 				"**Type:** Social",
 				"",
 				"You learned from the Forthright Men, the Coins' peace-keeping thieves' guild, to use candor to avoid trouble. You gain a +5 trait bonus on Diplomacy checks to convince others to overlook offensive or illegal acts. Diplomacy is always a class skill for you."
 			],
 			[
-				"## [Relic-Proof](trait/relic-proof)",
+				"## {trait/Relic-Proof}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your experiments-both your successes and failures-have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items."
 			],
 			[
-				"## [Rest for the Wicked](trait/rest_for_the_wicked)",
+				"## {trait/Rest for the Wicked}",
 				"",
 				"**Type:** Social",
 				"",
 				"Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds. You heal temporary ability damage at a rate of 3 points per day of complete bed rest. A normal night of rest (8 hours) still heals you at a rate of only 1 point of temporary ability damage per night of rest."
 			],
 			[
-				"## [Rich Parents](trait/rich_parents)",
+				"## {trait/Rich Parents}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances-your starting wealth increases to 900 gp."
 			],
 			[
-				"## [Rugged Dragon Hunter](trait/rugged_dragon_hunter)",
+				"## {trait/Rugged Dragon Hunter}",
 				"",
 				"**Type:** Social",
 				"",
 				"You gain a +2 trait bonus on Survival checks to track dragons. If you have the favored terrain class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon."
 			],
 			[
-				"## [Savage](trait/savage)",
+				"## {trait/Savage}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts. You gain a +1 trait bonus on Knowledge (nature) checks and a +1 trait bonus on Survival checks to get along in the wild. Knowledge (nature) is always a class skill for you."
 			],
 			[
-				"## [Savant](trait/savant)",
+				"## {trait/Savant}",
 				"",
 				"**Type:** Social  ",
 				"**Requirements:** [Kitharodian Academy](rule/f_bards)",
@@ -2209,252 +2209,252 @@
 				"From a very young age, the ability to master performance types has come quite naturally to you. Choose a performance type. You gain a +2 trait bonus on all Perform checks made using that performance type. Perform is always a class skill for you."
 			],
 			[
-				"## [Seafaring Reputation](trait/seafaring_reputation)",
+				"## {trait/Seafaring Reputation}",
 				"",
 				"**Type:** Social",
 				"",
 				"The Wave Riders' fame helps you convince seafarers to cooperate. You gain a +1 trait bonus on Diplomacy and Intimidate checks against sailors and residents of Absalom."
 			],
 			[
-				"## [Secret-Keeper (QaC)](trait/secret-keeper_qac)",
+				"## {trait/Secret-Keeper (QaC)}",
 				"",
 				"**Type:** Social",
 				"",
 				"Growing up in a land where paranoia fills the air and any accusation of heresy or dissent can spell doom for whole families, you learned very quickly to keep a secret. You gain a +1 trait bonus on Bluff checks and a +1 trait bonus on saving throws against divinations, domination effects, and effects that would compel you to speak the truth. Suggested Characters: Chelaxians, Galtans, Nidalese."
 			],
 			[
-				"## [Seeker](trait/seeker)",
+				"## {trait/Seeker}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are always on the lookout for reward and danger. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you."
 			],
 			[
-				"## [Self-Reliant](trait/self-reliant)",
+				"## {trait/Self-Reliant}",
 				"",
 				"**Type:** Social",
 				"",
 				"You know how to work with your hands and aren't dependent on complex tools. When attempting Craft checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty."
 			],
 			[
-				"## [Signature Moves](trait/signature_moves)",
+				"## {trait/Signature Moves}",
 				"",
 				"**Type:** Social",
 				"",
 				"You're known for some unique item that has become your trademark. Your starting equipment includes a single masterwork item worth less than 900 gp, and you gain a +1 trait bonus on Bluff and Intimidate checks while wielding this item in one or both hands."
 			],
 			[
-				"## [Simple Disciple](trait/simple_disciple)",
+				"## {trait/Simple Disciple}",
 				"",
 				"**Type:** Social",
 				"",
 				"You picked up skill in a craft or a profession during your time at a monastery. You gain a +1 trait bonus on checks with a Profession or Craft skill of your choice."
 			],
 			[
-				"## [Slave Runner](trait/slave_runner)",
+				"## {trait/Slave Runner}",
 				"",
 				"**Type:** Social",
 				"",
 				"You witnessed or were party to the rescue of a halfling from Chelish slavery by the [Bellflower Network](rule/aff_antislavery) or [Eagle Knights](rule/aff_vangard). Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
 			],
 			[
-				"## [Snowbound](trait/snowbound)",
+				"## {trait/Snowbound}",
 				"",
 				"**Type:** Social",
 				"",
 				"You came of age in a place with harsh winters amid a culture that rewarded you for testing your limits in the cold. You gain a +1 trait bonus on saving throws against cold effects and a +2 trait bonus on Fortitude saves against the effects of cold weather. Suggested Characters: Irriseni, Kellids, Ulfen."
 			],
 			[
-				"## [Student of Philosophy](trait/student_of_philosophy)",
+				"## {trait/Student of Philosophy}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were trained in a nowdefunct philosophical tradition-such as that of the nowdestroyed Galtan universities or Lirgeni astrologers-and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives."
 			],
 			[
-				"## [Style Sage](trait/style_sage)",
+				"## {trait/Style Sage}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have a passion for history and news concerning monastic disciplines. You gain a +1 trait bonus on checks with your choice of either Knowledge (local) or Knowledge (history), and the one you choose is always a class skill for you. In addition, you gain a +1 trait bonus on Diplomacy checks made to gather information about any person with levels in monk."
 			],
 			[
-				"## [Subjective Truth](trait/subjective_truth)",
+				"## {trait/Subjective Truth}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language. You gain a +2 trait bonus on Bluff checks to lie, provided the person you're lying to has never known you to lie to him. Failing this check counts as being caught in a lie by the target, negating any future use of this bonus against that person."
 			],
 			[
-				"## [Supportive](trait/supportive)",
+				"## {trait/Supportive}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were forced to get by in an isolated enclave, whether surrounded by a community that feared and suspected you or in a remote locale far from other people, and you became practiced at assisting your friends. You gain a +1 trait bonus on skill checks to use the aid another action. Suggested Characters: Halflings, Mwangi, Tians."
 			],
 			[
-				"## [Suspicious](trait/suspicious)",
+				"## {trait/Suspicious}",
 				"",
 				"**Type:** Social",
 				"",
 				"You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you."
 			],
 			[
-				"## [Talented](trait/talented)",
+				"## {trait/Talented}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are a virtuoso musician, actor, or storyteller. You gain a +1 trait bonus on checks with a single Perform skill (your choice), and all Perform skills are always class skills for you."
 			],
 			[
-				"## [Tireless Logic](trait/tireless_logic)",
+				"## {trait/Tireless Logic}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your curious mind figures out even the most complex problems. Once per day when you make an Intelligence-based skill check or ability check, you can roll twice and take the better result."
 			],
 			[
-				"## [Triaxus-Trained](trait/triaxus-trained)",
+				"## {trait/Triaxus-Trained}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have been trained in intricate dragon-handling techniques that originated on Triaxus. You gain a +1 trait bonus on Perception checks, and a +1 trait bonus on skill checks attempted as part of trying to influence a dragon."
 			],
 			[
-				"## [Tropical Upbringing](trait/tropical_upbringing)",
+				"## {trait/Tropical Upbringing}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were raised in searing-hot deserts, plains, jungles, or other areas, and developed an impressive resistance to heat. You gain a +1 trait bonus on saving throws against fire effects and a +2 trait bonus on Fortitude saves against the effects of hot weather. Suggested Characters: Garundi, Keleshites, Mwangi."
 			],
 			[
-				"## [Trustworthy](trait/trustworthy)",
+				"## {trait/Trustworthy}",
 				"",
 				"**Type:** Social",
 				"",
 				"People find it easy to put their faith in you. You gain a +1 trait bonus on Bluff checks made to fool someone. You also gain a +1 trait bonus on Diplomacy checks, and Diplomacy is always a class skill for you."
 			],
 			[
-				"## [Truth's Agent](trait/truths_agent)",
+				"## {trait/Truth's Agent}",
 				"",
 				"**Type:** Social",
 				"",
 				"You are skilled at weeding out information. You gain a +1 trait bonus on all Diplomacy checks made to gather information and all Knowledge (local) checks. Knowledge (local) is always a class skill for you."
 			],
 			[
-				"## [Unabashed Gall](trait/unabashed_gall)",
+				"## {trait/Unabashed Gall}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your total indifference to the law even as you're breaking it is such that those watching you are stunned. Whenever you commit an unexpected and outrageously unlawful act (such as knowingly destroying or stealing something) that would elicit a hostile response from another creature, you may attempt a Bluff check opposed by the opponent's Sense Motive check. If you're successful, you and any allies who were willfully expecting your unlawful deed may act in a surprise round. For each ally willfully expecting your unlawful deed, you take a cumulative -2 penalty on your Bluff check. If your Bluff check fails, there is no surprise round. Regardless of whether your Bluff check succeeds, you and any allies willfully taking advantage of your unlawful deed treat your initiative checks for the duration of combat as though you had each rolled a 1."
 			],
 			[
-				"## [Unbalanced Insight](trait/unbalanced_insight)",
+				"## {trait/Unbalanced Insight}",
 				"",
 				"**Type:** Social",
 				"",
 				"You gain Aklo as a bonus language, and gain a +2 trait bonus on all saving throws to resist any effects or spells originating from aberrations that cause confusion or fear."
 			],
 			[
-				"## [Unintentional Linguist](trait/unintentional_linguist)",
+				"## {trait/Unintentional Linguist}",
 				"",
 				"**Type:** Social",
 				"",
 				"You can speak with outsiders. You gain a +1 trait bonus on all Linguistics checks, and you begin play knowing one of the following languages (in addition to those granted by your race and Intelligence modifier): Abyssal, Aquan, Celestial, Ignan, Infernal, Protean, or Terran."
 			],
 			[
-				"## [Unnatural Revenge](trait/unnatural_revenge)",
+				"## {trait/Unnatural Revenge}",
 				"",
 				"**Type:** Social",
 				"",
 				"You gain a +2 trait bonus on all Intimidate checks against creatures of the animal, fey, or plant type, and Intimidate is always a class skill for you."
 			],
 			[
-				"## [Unpredictable](trait/unpredictable)",
+				"## {trait/Unpredictable}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your actions often seem random and chaotic to others, but there is a method to your madness. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you."
 			],
 			[
-				"## [Untapped Potential](trait/untapped_potential)",
+				"## {trait/Untapped Potential}",
 				"",
 				"**Type:** Social",
 				"",
-				"You've been part of one of Mengkare's minor experiments. Once per day, you can cast [detect psychic significance](spell/detect_psychic_significance) or [telekinetic projectile](spell/telekinetic_projectile) as a spell-like ability, with a caster level equal to your character level."
+				"You've been part of one of Mengkare's minor experiments. Once per day, you can cast {spell/detect psychic significance} or {spell/telekinetic projectile} as a spell-like ability, with a caster level equal to your character level."
 			],
 			[
-				"## [Unwelcome Business](trait/unwelcome_business)",
+				"## {trait/Unwelcome Business}",
 				"",
 				"**Type:** Social",
 				"",
 				"You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias. You gain a +1 trait bonus on Disguise or Sleight of Hand checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species."
 			],
 			[
-				"## [Veiled Disciple](trait/veiled_disciple)",
+				"## {trait/Veiled Disciple}",
 				"",
 				"**Type:** Social",
 				"",
 				"Trained in espionage, you're skilled at passing messages and staying on task. You gain a +1 trait bonus on Bluff checks made to pass secret messages and a +1 trait bonus on saving throws against charm and compulsion effects."
 			],
 			[
-				"## [Vengeful (Social)](trait/vengeful_social)",
+				"## {trait/Vengeful (Social)}",
 				"",
 				"**Type:** Social",
 				"",
 				"You were brutally betrayed, and you have dedicated yourself to pursuing revenge. Choose a humanoid subtype that is not your own from the following list: dwarf, elf, gnome, halfling, or human. You gain a +2 trait bonus on Intimidate checks against creatures with that subtype."
 			],
 			[
-				"## [Vigilant Spycatcher](trait/vigilant_spycatcher)",
+				"## {trait/Vigilant Spycatcher}",
 				"",
 				"**Type:** Social",
 				"",
 				"Paranoid parents or a military trainer taught you to keep vigilant for spies. If you roll less than 10 on Perception checks to see through disguises, determine your result as if you had rolled 10."
 			],
 			[
-				"## [Voices in your Head](trait/voices_in_your_head)",
+				"## {trait/Voices in your Head}",
 				"",
 				"**Type:** Social",
 				"",
 				"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 			],
 			[
-				"## [Wanderlust](trait/wanderlust)",
+				"## {trait/Wanderlust}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your childhood was brightened by the new places you constantly saw as you traveled with your parents, who were merchants. Still excited by travel, you gain great energy when traveling overland. Treat your base land speed as 10 feet higher when determining your overland speed. Suggested Characters: Desnans, halflings, Varisians."
 			],
 			[
-				"## [Wasteland Vargrant](trait/wasteland_vargrant)",
+				"## {trait/Wasteland Vargrant}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have spent most of your life learning how to survive in wastelands, and a lack of normal survival resources apparent in the environment is not a problem for you. When you gain this trait, pick one type of wasteland from the following list: blighted, Abyssal, desert, or waterlogged. You gain a +2 trait bonus on Survival checks in that type of wasteland terrain. (The GM determines whether terrain falls into the chosen type of wasteland.) Once you choose a type of wasteland terrain to gain this benefit in, you cannot change it later."
 			],
 			[
-				"## [Weathered Emissary](trait/weathered_emissary)",
+				"## {trait/Weathered Emissary}",
 				"",
 				"**Type:** Social",
 				"",
 				"Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants. You gain a +1 trait bonus on all Linguistics and Survival checks, and Linguistics is always a class skill for you."
 			],
 			[
-				"## [Wicked Leader](trait/wicked_leader)",
+				"## {trait/Wicked Leader}",
 				"",
 				"**Type:** Social",
 				"",
-				"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the [Leadership](feat/leadership) feat or the [Vile Leadership](feat/vile_leadership) feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
+				"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the {feat/Leadership} feat or the {feat/Vile Leadership} feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
 			],
 			[
-				"## [Wiscrani Ear](trait/wiscrani_ear)",
+				"## {trait/Wiscrani Ear}",
 				"",
 				"**Type:** Social",
 				"",
 				"You have a keen ear for the movements of thieves and monsters. You can always take 10 on Perception checks, even when stress and distractions would normally prevent you from doing so."
 			],
 			[
-				"## [Worldly](trait/worldly)",
+				"## {trait/Worldly}",
 				"",
 				"**Type:** Social",
 				"",
@@ -2476,14 +2476,14 @@
 		"searchgroup": "trait",
 		"description": [
 			[
-				"## [Anxious](trait/anxious)",
+				"## {trait/Anxious}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"After suffering terribly for not being tight-lipped enough as a child, such as when you accidentally exposed your family to enemy inquisitors, you developed a habit of being overly cautious with your words. You take a -2 penalty on Diplomacy checks and must speak slowly due to the concentration required. Unless stated otherwise, you are assumed to not be speaking at a volume above a whisper."
 			],
 			[
-				"## [Arcane Malignancies](trait/arcane_malignancies)",
+				"## {trait/Arcane Malignancies}",
 				"",
 				"**Type:** Drawback  ",
 				"**Requirements:** Changeling",
@@ -2535,448 +2535,448 @@
 				"| 99-100 | You grow vestigial gills. While they grant you no ability to breathe in water, they make it harder for you to catch your breath. When you are fatigued, it takes 12 hours of complete rest to recover. When you are exhausted, it takes 2 hours of complete rest to become fatigued. |"
 			],
 			[
-				"## [Attached](trait/attached)",
+				"## {trait/Attached}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have a strong emotional attachment to a person or object that you're terrified of losing. The GM chooses the object of your attachment. Whenever the object of your attachment is either threatened, in danger, or in someone else's possession, you take a -1 penalty on Will saves and a -2 penalty on saves against fear effects. If the person or object to which you're attached is ever lost, killed, or destroyed, exchange this drawback for the Doubt drawback."
 			],
 			[
-				"## [Avarice](trait/avarice)",
+				"## {trait/Avarice}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Deep, compulsive greed gnaws at you. Whenever monetary treasure is divided, you must end up with a greater share of that treasure than your companions or you're wracked with feelings of jealousy and ill will. When treasure is divided, if you do not end up with at least 10% more treasure than any other individual companion does, you have a hard time being helpful to your allies. You become irritable, and can't take the aid another action for the next week."
 			],
 			[
-				"## [Betrayed (Drawback)](trait/betrayed_drawback)",
+				"## {trait/Betrayed (Drawback)}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were reported to a dangerous authority such as the Gray Gardeners of Galt, the high inquisitors of Cheliax, or the Council of Mwanyisa of Mzali, and narrowly escaped death. You second-guess your instincts constantly, leaving you never sure whether or not to trust someone and endangered if you encounter that group's agents again. You can roll twice and take the lower result on Sense Motive checks to get hunches. You cannot reroll this result, even if you have another ability that would normally allow you to do so."
 			],
 			[
-				"## [Bitter](trait/bitter)",
+				"## {trait/Bitter}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have been hurt repeatedly by those you trusted, and it has become difficult for you to accept help. When you receive healing from an ally's class feature, spell, or spell-like ability, reduce the amount of that healing by 1 hit point."
 			],
 			[
-				"## [Burned](trait/burned)",
+				"## {trait/Burned}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident, and the scars pain you terribly you whenever you are too near to fire. You take a -1 penalty on saving throws against fire effects. In addition, whenever you are adjacent to open flames or are on fire, you take a -1 penalty on all attack rolls, saving throws, and skill checks until you spend an entire round away from fire. These penalties are not cumulative. (An instantaneous fire effect adjacent to you or affecting you causes this penalty to apply until 1 round after it is gone.)"
 			],
 			[
-				"## [Condescending](trait/condescending)",
+				"## {trait/Condescending}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Raised with the assurance that only those like you are truly worthy of respect, you have an offputting way of demonstrating that you look down on those not of your race and ethnicity or nationality. You take a -5 penalty on Diplomacy and Intimidate checks to improve other creatures' attitudes toward you."
 			],
 			[
-				"## [Cowardly](trait/cowardly)",
+				"## {trait/Cowardly}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You might face dangerous situations with bravado, but you are constantly afraid. Your base speed when frightened and fleeing increases by 5 feet, and the penalties you take from having the cowering, frightened, panicked, or shaken conditions increase by 1. If you would normally be immune to fear, you do not take these penalties but instead lose your immunity to fear (regardless of its source)."
 			],
 			[
-				"## [Cruelty](trait/cruelty)",
+				"## {trait/Cruelty}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were rewarded as a child for flaunting your victory over others as completely as possible, and you discovered you enjoyed the feeling of rubbing your foes' faces in the dirt. Whenever you are engaged in combat and there are dying or helpless foes within 30 feet, you take a -2 penalty on attack rolls against foes who are neither dying nor helpless."
 			],
 			[
-				"## [Dependent](trait/dependent)",
+				"## {trait/Dependent}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You are dependent upon the acceptance of others. Whenever you fail a Diplomacy check, you become shaken for 1 hour."
 			],
 			[
-				"## [Doubt](trait/doubt)",
+				"## {trait/Doubt}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You lack confidence in your abilities or confidence in the universe at large. Whenever you fail a skill or ability check, you take a -4 penalty on that type of skill or ability check for the next hour."
 			],
 			[
-				"## [Empty Mask](trait/empty_mask)",
+				"## {trait/Empty Mask}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have spent so long hiding your true identity to escape political enemies that you have lost much of your sense of self. You take a -1 penalty on Will saving throws against compulsions. This penalty increases to -2 against foes who know your true identity."
 			],
 			[
-				"## [Entomophobe](trait/entomophobe)",
+				"## {trait/Entomophobe}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"A harrowing experience with insects when you were young instilled in you a deep-seated fear of vermin of all description, especially when they swarm together. You take a -2 penalty on attacks against vermin, and you take a -2 penalty on saving throws against the nauseated condition of a swarm's distraction ability."
 			],
 			[
-				"## [Envy](trait/envy)",
+				"## {trait/Envy}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart. For each day you spend without stealing at least 10 gp worth of valuables or other wealth, attempt a DC 20 Will save. If you fail, you take a cumulative -1 penalty on Will and Reflex saving throws and concentration checks (up to a -5 penalty). If you succeed, the penalty is reset to 0."
 			],
 			[
-				"## [Family Ties (Drawback)](trait/family_ties_drawback)",
+				"## {trait/Family Ties (Drawback)}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Your family is extremely important to you, and you feel disheartened when you can't do what they ask. When a family member makes a request of you, you must fulfill that request or take a -2 penalty on all Wisdom- and Charisma-based ability checks and skill checks until you either do what was requested or succeed at a DC 20 Will saving throw, which you can attempt once per day at the start of each day. You can't take this drawback if you have no family. If you ever lose your family or lose contact with your family, exchange this drawback for the Doubt drawback."
 			],
 			[
-				"## [Fey-Taken](trait/fey-taken)",
+				"## {trait/Fey-Taken}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"As a child, you were whisked away to the First World by mischievous fey for a time. When you returned, you were ever after considered odd and distant. You long to return there, and find the mortal world dull and at times revolting, so you do not eat as you should and do not question strange visions. You take a -2 penalty on saving throws against disease, illusions, and poison of all kinds, as well as against the spells, spell-like abilities, and supernatural abilities of fey."
 			],
 			[
-				"## [Forgetful](trait/forgetful)",
+				"## {trait/Forgetful}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You are easily distracted and prone to forgetting important things. Whenever you leave a location you have been at for longer than 1 hour, you must attempt a DC 10 Wisdom check. If you fail, you leave behind one random mundane item (a purse of money counts as an item)."
 			],
 			[
-				"## [Foul Brand](trait/foul_brand)",
+				"## {trait/Foul Brand}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have the symbol of an evil deity burned into your flesh. If the symbol is on your hand, you take a -1 penalty on Disable Device, Disguise, and Sleight of Hand checks. If the symbol is on your face, you take a -2 penalty on Bluff, Diplomacy, and Disguise checks. This does not count as a holy symbol for the purposes of a divine focus for spellcasting."
 			],
 			[
-				"## [Guilty Fraud](trait/guilty_fraud)",
+				"## {trait/Guilty Fraud}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You received something through trickery that you did not deserve, and your guilt for the misdeed distracts you from dangers around you. You take a -4 penalty on Bluff checks against creatures with an attitude toward you of indifferent or better."
 			],
 			[
-				"## [Haunted](trait/haunted)",
+				"## {trait/Haunted}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Something from your past-or a dark secret you presently hold-makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy. You take a -2 penalty on saves against spells with the evil descriptor."
 			],
 			[
-				"## [Haunting Regret](trait/haunting_regret)",
+				"## {trait/Haunting Regret}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help. You take a -2 penalty on saving throws against the distraction ability of swarms and mind-affecting effects and on concentration checks."
 			],
 			[
-				"## [Headstrong](trait/headstrong)",
+				"## {trait/Headstrong}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You feel compelled to correct every action and argument that contradicts your worldview. Whenever you witness an action or hear an argument that contradicts your alignment, you must attempt to stop or correct that action or argument. If you either don't try to stop it or fail in your attempt to stop it (as adjudicated by the GM), you are shaken for 1 hour."
 			],
 			[
-				"## [Hedonistic](trait/hedonistic)",
+				"## {trait/Hedonistic}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You are a creature of pleasure and comfort. Whenever you spend a day without gaining reward or treasure (at least 10 or more gold pieces) or spending an hour on entertainment or pleasure, attempt a DC 20 Fortitude save at the end of that day. If you fail, you begin the next day fatigued. This fatigue lasts 4 hours, or until you receive a reward or sufficient entertainment or pleasure."
 			],
 			[
-				"## [Helpless](trait/helpless)",
+				"## {trait/Helpless}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You once stood helpless as great harm befell a loved one, and that paralysis sometimes returns when an ally is in a dire position. The first time per combat encounter that an ally within 30 feet falls unconscious or dies as the result of an attack, you are dazed until the end of your next turn."
 			],
 			[
-				"## [Impatient](trait/impatient)",
+				"## {trait/Impatient}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You love leaping into battle at the earliest opportunity, and it frustrates you to wait for others to act. You can't delay or ready actions, and if you are the last of your allies to act in a round of combat, you take a -1 penalty on ability checks, attack rolls, saving throws, and skill checks."
 			],
 			[
-				"## [Infamous](trait/infamous)",
+				"## {trait/Infamous}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were publicly linked, truthfully or not, to a crime of significant infamy. You draw attention wherever you go and risk imprisonment or worse in the jurisdiction where the crime was committed. You and your apparent allies take a -4 penalty on Diplomacy checks to interact with law-abiding citizens (except enemies of the authority that accused you)."
 			],
 			[
-				"## [Information Overload](trait/information_overload)",
+				"## {trait/Information Overload}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have had access to thousands of spy reports, many of which turned out to be based on faulty deductions or even intentionally false stories spread by opposed spy groups. At this point, you have been exposed to false knowledge as much as accurate information, and you can't always remember which is which. You take a -2 penalty on all Knowledge checks, and if you fail a Knowledge check by 5 or more, you can recall information that is diametrically opposed to the truth."
 			],
 			[
-				"## [Insatiable](trait/insatiable)",
+				"## {trait/Insatiable}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have become so accustomed to binging on the finer things in life that you find going without such excess particularly strenuous. Goods and services cost you 10% more (and can't be paid for by allies), and you need twice as much food and liquid as normal for the purposes of preventing starvation and thirst."
 			],
 			[
-				"## [Lonely](trait/lonely)",
+				"## {trait/Lonely}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You are far too easily convinced of the friendly intentions of others. You take a -2 penalty on Sense Motive checks and on Perception checks to see through disguises, and on saving throws against charm spells and spell-like abilities."
 			],
 			[
-				"## [Loner](trait/loner)",
+				"## {trait/Loner}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Raised by pirates, bandits, or other troublemakers unwilling to stick out their necks for you, you are accustomed to operating on your own. The presence of allies can easily become a distraction to you, and you do your best to keep them out of your space. You take a -1 penalty to AC and on attack rolls while adjacent to allies or when taking the aid another action."
 			],
 			[
-				"## [Lovesick](trait/lovesick)",
+				"## {trait/Lovesick}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Your love for another occupies your every thought, and you become despondent when you are away from that person. The person is chosen by your GM (with consideration to your roll on the Romantic Relationships table if you used the background generator). At the start of each day, if you are away from this person you take a -2 penalty on initiative checks and Perception checks. If you ever lose or fall out of love with this person, exchange this drawback for the Doubt drawback."
 			],
 			[
-				"## [Magical Klutz](trait/magical_klutz)",
+				"## {trait/Magical Klutz}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were born in a place with a plethora of strangely interacting magic, such as Geb, the Mana Wastes, or Nex, and magic is dangerously eager to surge into action around you. You roll twice and take the lower result on Use Magic Device checks to activate items blindly and on Reflex saving throws against effects produced by magic items."
 			],
 			[
-				"## [Mark of Slavery](trait/mark_of_slavery)",
+				"## {trait/Mark of Slavery}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were enslaved for part or all of your youth, and marked as such with a brand or tattoo that still reminds you of how you were punished whenever you failed to do what you should. Whenever you fail a skill check, you take a -2 penalty on any skill check or attack roll you attempt before the end of your next turn unless it is a part of retrying the failed skill check."
 			],
 			[
-				"## [Meticulous](trait/meticulous)",
+				"## {trait/Meticulous}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned. You take a -2 penalty on skill checks for skills with which you're untrained."
 			],
 			[
-				"## [Misbegotten](trait/misbegotten)",
+				"## {trait/Misbegotten}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Whether due to the influence of malign magic, disease, or the scorn of the gods, you were born with a troublesome deformity that interferes with your movement. You take a -2 penalty on all Dexterity-based skill checks."
 			],
 			[
-				"## [Naive](trait/naive)",
+				"## {trait/Naive}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Your perception that everyone is innately good does not bode well in the heat of battle, when less scrupulous foes might take advantage of your misguided optimism. You take a -2 penalty to AC against attacks with improvised weapons and a -2 penalty to CMD against dirty trick combat maneuvers."
 			],
 			[
-				"## [Nervous](trait/nervous)",
+				"## {trait/Nervous}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Living under constant threat of death or worse from your oppressive government, your nerves have frayed terribly. Whenever you take 10 on an ability check or skill check that imparts any penalty for failure (aside from wasted time), you treat your check as if you had rolled an 8 instead of a 10, even if you are able to take your time."
 			],
 			[
-				"## [Oblivious](trait/oblivious)",
+				"## {trait/Oblivious}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Whether because you are an avid daydreamer or you are accustomed to everything being handed to you and spelled out for your benefit, you pay little attention to your surroundings and other people. You take a -2 penalty on Sense Motive and sight-based Perception checks."
 			],
 			[
-				"## [Occult Bargain](trait/occult_bargain)",
+				"## {trait/Occult Bargain}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You draw magical power from a source, such as a mysterious eidolon, shame-filled phantom, or First World patron, who insists that its identity remains secret. You take a -1 penalty on concentration checks, and you must invoke the entity's name by word or text each day or be unable to regain spell slots that day. You must be able to cast 0-level and 1st-level spells as a class feature to select this drawback."
 			],
 			[
-				"## [Oppressive Expectations](trait/oppressive_expectations)",
+				"## {trait/Oppressive Expectations}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were raised with the belief that your family was special, and that those of your status always succeed at whatever they do. Due to your concern about upholding the family name and your memories of the consequences for disappointing them (such as violence or unsettling disapproval), you are easily frustrated. When you fail at a skill check, you take a -2 penalty on checks with that skill until you succeed or until you fail at a different skill check, whichever comes first."
 			],
 			[
-				"## [Overprotective](trait/overprotective)",
+				"## {trait/Overprotective}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"In your youth, you saw a younger friend or loved one suffer a grievous injury or die, and you blamed yourself for not having been there to help, even if there was nothing you could have done. If one of your allies should fall unconscious from hit point damage, you take a -2 penalty on attack rolls and skill checks as long as you are farther than 10 feet away from your fallen ally."
 			],
 			[
-				"## [Paranoid](trait/paranoid)",
+				"## {trait/Paranoid}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone. Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check."
 			],
 			[
-				"## [Power-Hungry](trait/power-hungry)",
+				"## {trait/Power-Hungry}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You're addicted to power. You take a -2 penalty on Will saving throws against charm and compulsion effects if the creature creating the effect promises wealth or power."
 			],
 			[
-				"## [Pride](trait/pride)",
+				"## {trait/Pride}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You can't abide challenges to your dignity, authority, or honor. When someone threatens, accuses, or challenges you, you take a -2 penalty on Diplomacy checks and Sense Motive checks involving that creature until the creature apologizes to you."
 			],
 			[
-				"## [Provincial](trait/provincial)",
+				"## {trait/Provincial}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have only one way of looking at things: the right way. You take a -2 penalty on Diplomacy checks and Sense Motive checks made against all creatures whose religion or alignment differs from your own."
 			],
 			[
-				"## [Righteous Indignation](trait/righteous_indignation)",
+				"## {trait/Righteous Indignation}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have difficulty controlling your temper after living in inhuman conditions in Cheliax, Geb, Irrisen, Katapesh, or Qadira. Whenever a foe provokes an attack of opportunity from you, you must take it unless you succeed at a Will save against a DC equal to 10 + your level. You take a -1 penalty on Will saving throws against spells with the emotion descriptor that do not also have the fear descriptor."
 			],
 			[
-				"## [Scarred](trait/scarred)",
+				"## {trait/Scarred}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"An injury left you horribly, visibly scarred, making it more difficult for you to hide your true face, and also making most people distrustful of you merely due to your appearance. You take a -5 penalty on Disguise checks and a -2 penalty on Bluff checks."
 			],
 			[
-				"## [Secret Shame](trait/secret_shame)",
+				"## {trait/Secret Shame}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have a terrible fear of the public at large, a group, or an important person (such as your order of knights, your liege lord, your family, or your lover) learning a shameful truth about you. You take a -1 penalty on saving throws against fear effects, and the DC of any Intimidate check to demoralize you is reduced by 1. If you would normally be immune to fear, you do not take these penalties, but instead lose your immunity to fear (regardless of its source)."
 			],
 			[
-				"## [Self-Doubting](trait/self-doubting)",
+				"## {trait/Self-Doubting}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Your ever-present fear of failure causes a downward spiral. The first time each day that you fail a Will saving throw or skill check, you take a -2 penalty on the next Will saving throw or skill check of that kind."
 			],
 			[
-				"## [Sentimental](trait/sentimental)",
+				"## {trait/Sentimental}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You are sentimental, and your thoughts often stray to the past at inappropriate times. You take a -2 penalty on Perception checks to avoid being surprised and on Reflex saving throws to avoid traps or hazards."
 			],
 			[
-				"## [Shadow-Scarred](trait/shadow-scarred)",
+				"## {trait/Shadow-Scarred}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were touched by terrible horrors that live in the darkness just outside the human sphere, such as shadow-beasts or aberrations linked to the Dark Tapestry, and feel your life-force ebb away ever so slightly whenever you return to the shadows. Whenever you are in an area of dim light or darkness, you take a -1 penalty on saving throws."
 			],
 			[
-				"## [Sheltered](trait/sheltered)",
+				"## {trait/Sheltered}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Brought up in courtly environments and knowing little of violence, you have trouble getting accustomed to it. Whenever you have less than half your maximum hit points, you are shaken."
 			],
 			[
-				"## [Sleepy](trait/sleepy)",
+				"## {trait/Sleepy}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You must sleep or rest for at least 12 hours each night to get the benefits of a full night's rest. You take a -2 penalty on saving throws against sleep effects."
 			],
 			[
-				"## [Spooked](trait/spooked)",
+				"## {trait/Spooked}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You had a traumatic experience with a spirit at a young age that colors your reactions to such creatures even to this day. Whenever you perceive a fey, outsider, or undead from within 60 feet, you become shaken for 1d4 rounds unless you succeed at a Will save with a DC equal to 15 + the creature's Charisma modifier. Immunity to fear effects does not allow you to forgo this saving throw; even if you are immune to fear, you must roll the Will saving throw for this drawback when applicable, albeit with a +4 bonus."
 			],
 			[
-				"## [Stigmatized](trait/stigmatized)",
+				"## {trait/Stigmatized}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You were kept at the periphery of society for a long period of time, so that even when you are among strangers in a new place, you feel the weight of your missing socialization. You take a -3 penalty on Diplomacy checks to gather information or improve a creature's attitude."
 			],
 			[
-				"## [Superstitious (Drawback)](trait/superstitious_drawback)",
+				"## {trait/Superstitious (Drawback)}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Raised around those who regarded most magic as innately dangerous, no matter the source, you cannot bring yourself to submit to magic willingly even for your own good. Whenever you are affected with a harmless spell, there is a 50% chance that you must roll a saving throw to prevent that effect, even if it would benefit you. This does not apply to harmless spells cast by you upon yourself."
 			],
 			[
-				"## [Tainted Spirit](trait/tainted_spirit)",
+				"## {trait/Tainted Spirit}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"When you were a child, a parent or other person with authority over you made a minor pact with a fiend on your behalf, stealing some of your vitality in exchange for a minor boon. At the end of any combat, you must attempt a Fortitude saving throw. The DC is 10 + the number of rounds you acted in combat. If you fail this save, you become fatigued for 10 minutes per round you acted during that encounter."
 			],
 			[
-				"## [Too Many Secrets](trait/too_many_secrets)",
+				"## {trait/Too Many Secrets}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You've told too many lies, and made up too many cover stories, and now even you can't keep it all straight. The lies have become reality to you, which makes it difficult to think of a new convincing lie. You hesitate at crucial moments when trying to fool those around you, and likely shouldn't be in the field at all anymore. You take a -2 penalty on Bluff checks and saving throws against illusions."
 			],
 			[
-				"## [Umbral Unmasking](trait/umbral_unmasking)",
+				"## {trait/Umbral Unmasking}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe-but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional Perception check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by misdirection, nondetection, or illusions, except those that also affect shadows (such as invisibility)."
 			],
 			[
-				"## [Unlearned](trait/unlearned)",
+				"## {trait/Unlearned}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have always had difficulty learning and retaining information, and know very little about the world beyond the obvious and what pertains to your profession. Choose one Knowledge skill. You cannot attempt untrained Knowledge checks with any other Knowledge skills, even if the check's DC is 10 or lower. If you have access to a library that covers a specific Knowledge skill, you may attempt an untrained Knowledge check with a -2 penalty."
 			],
 			[
-				"## [Vain](trait/vain)",
+				"## {trait/Vain}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You are sensitive about the way others perceive you. Whenever you fail an opposed Charisma-based check, you take a -2 penalty on all Charisma-based checks for the next 24 hours."
 			],
 			[
-				"## [Vainglory](trait/vainglory)",
+				"## {trait/Vainglory}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You compulsively seek recognition for your deeds, making it hard to act with subtlety. You take a -1 penalty on Bluff, Disguise, and Stealth checks, and the save DC of any illusion you create is 1 lower than normal."
 			],
 			[
-				"## [Warded Against Nature](trait/warded_against_nature)",
+				"## {trait/Warded Against Nature}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 Handle Animal, Ride, or wild empathy check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect."
 			],
 			[
-				"## [Xenophobic](trait/xenophobic)",
+				"## {trait/Xenophobic}",
 				"",
 				"**Type:** Drawback",
 				"",
 				"You have a hard time understanding and trusting those with unfamiliar ways and appearances. You take a -2 penalty on Diplomacy and Sense Motive checks made against creatures of a different race or from a different culture."
 			],
 			[
-				"## [Zealous (Drawback)](trait/zealous_drawback)",
+				"## {trait/Zealous (Drawback)}",
 				"",
 				"**Type:** Drawback",
 				"",
@@ -3002,14 +3002,14 @@
 				"The following Equipment Traits are available to any character who has an available trait, as per the normal trait rules."
 			],
 			[
-				"## [Augmented Disguise](trait/augmented_disguise)",
+				"## {trait/Augmented Disguise}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You are especially good at disguising yourself when you have props available. You gain a +2 trait bonus on Disguise checks when wearing a wig, false beard, or similar large prop, or if you are wearing a special costume or eye-catching bauble that reinforces your disguise."
 			],
 			[
-				"## [Dealmaker](trait/dealmaker)",
+				"## {trait/Dealmaker}",
 				"",
 				"**Type:** Equipment",
 				"",
@@ -3018,84 +3018,84 @@
 				"**Example:** If you're trying to find a +1 cloak of resistance (1,000 gp), you'd normally need to be in a small town (base value 1,000 gp) or larger to be able to find that item with little trouble. If you're currently in a hamlet, that's two community sizes away from a small town, so the Diplomacy DC is 30. If you went to a village and asked there, the DC would only be 20 because it's only one community size away from a small town."
 			],
 			[
-				"## [Extremely Fashionable](trait/extremely_fashionable)",
+				"## {trait/Extremely Fashionable}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You really know how to make a good impression when you're dressed well. Whenever you are wearing clothing and/or jewelry worth at least 150 gp (and not otherwise covered in gore, sewage, or other things that mar your overall look), you gain a +1 trait bonus on Bluff, Diplomacy, and Intimidate checks. One of these skills (your choice) is a class skill for you."
 			],
 			[
-				"## [Heirloom Weapon](trait/heirloom_weapon)",
+				"## {trait/Heirloom Weapon}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You carry a non-masterwork simple or martial weapon that has been passed down from generation to generation in your family (pay the standard gp cost for the weapon). When you select this trait, choose one of the following benefits: proficiency with that specific weapon, a +1 trait bonus on attacks of opportunity with that specific weapon, or a +2 trait bonus on one kind of combat maneuver when using that specific weapon."
 			],
 			[
-				"## [Improvisational Equipment](trait/improvisational_equipment)",
+				"## {trait/Improvisational Equipment}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You have an uncanny knack for turning equipment to new and unexpected uses. When using an item for anything other than its intended purpose-such as using a crowbar as a grappling hook or an old shirt to bandage a deadly wound-reduce the improvisation penalty by 2. This does not apply to improvised weapon penalties. Your GM may rule that some things are just not suitable for use in certain ways; for example, gluing a dead orc's face to your own face won't help you disguise yourself as an orc."
 			],
 			[
-				"## [Iron Liver](trait/iron_liver)",
+				"## {trait/Iron Liver}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"Due to a lucky constitution or frequent exposure, your body is resistant to poison, including alcohol and drugs. You gain a +2 trait bonus on Fortitude saves against poison and drugs, and a +4 trait bonus on Fortitude saves to avoid the effects of alcohol."
 			],
 			[
-				"## [Power of Suggestion](trait/power_of_suggestion)",
+				"## {trait/Power of Suggestion}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"People trust your words over their own eyes. You may make a Bluff check to make observers believe that an object in your possession is actually a different object entirely. The DC for the check is 20 for items of a similar size, shape, and color (such as a glaive and a quarterstaff). Items of a different shape, size, or color raise the DC by 5 for each dissimilar aspect, or more if the dissimilarity is extreme. This deception lasts 1 minute; if the item is still in view, the observers may recognize their error unless you make another bluff check."
 			],
 			[
-				"## [Prehensile Whip](trait/prehensile_whip)",
+				"## {trait/Prehensile Whip}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"In your hand a whip has a life of its own, wrapping around pillars and beams with ease. You can use a whip as if it were a rope with a grappling hook at the end. Attaching your whip is a standard action, but detaching it is a full-round action."
 			],
 			[
-				"## [Quick Learner](trait/quick_learner)",
+				"## {trait/Quick Learner}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You're skilled at learning the feel of a particular weapon after a few swings in combat. After your first attack with a weapon in which you are not proficient, the non-proficiency penalty decreases by 2 (to a -2 penalty). This effect lasts only while you have the weapon in hand; you must \"relearn\" the weapon each time you pick it up."
 			],
 			[
-				"## [Rough and Ready](trait/rough_and_ready)",
+				"## {trait/Rough and Ready}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be. When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the improvised weapon penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools-lutes and brooms make terribly fragile weapons."
 			],
 			[
-				"## [Stage Magic](trait/stage_magic)",
+				"## {trait/Stage Magic}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You have put in many hours practicing with flashy alchemical items that enhance your Perform skill. When you use an attention-getting alchemical item such as a flask of alchemist's fire, smokestick, thunderstone, or another appropriate alchemical item (GM's discretion) as part of a performance, you gain a +2 trait bonus on your Perform check for the duration of that performance. The item is expended without its normal effects and only serves to make your performance more impressive; for example, you could pretend to ignite yourself with alchemist's fire as part of a Perform (comedy) check or make a dramatic appearance with a smokestick as part of a Perform (act) check, but you would not actually take fire damage or gain concealment from smoke."
 			],
 			[
-				"## [Stealthy Escape](trait/stealthy_escape)",
+				"## {trait/Stealthy Escape}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You are adept at escaping from confinement in an unobtrusive manner. When trying to escape manacles, rope, or other similar restraints (but not grapples or similar attacks), you may make a Sleight of Hand check instead of your Escape Artist modifier. If you free yourself, you gain a +2 trait bonus on Bluff checks to pretend that you are still bound."
 			],
 			[
-				"## [Thrown-Together Fashion](trait/thrown-together_fashion)",
+				"## {trait/Thrown-Together Fashion}",
 				"",
 				"**Type:** Equipment",
 				"",
 				"You can modify old clothing to make it effective in new circumstances. With a basic sewing kit or disguise kit, you can make a Disguise check to change one outfit into another outfit. The DC of this check is equal to 10 + the gp difference between costs of the outfits. The alteration takes 10 minutes per 1-gp difference in the cost of the outfits. (Outfits can be found under \"clothing\" [in this table.](main/equipment_misc)"
 			],
 			[
-				"## [Well-Provisioned Adventurer](trait/well-provisioned_adventurer)",
+				"## {trait/Well-Provisioned Adventurer}",
 				"",
 				"**Type:** Equipment",
 				"",
@@ -3172,7 +3172,7 @@
 				"",
 				"**Armor:** Leather armor, light wooden shield.  ",
 				"**Weapons:** Shortspear, sling with 10 bullets.  ",
-				"**Combat Gear:** Antitoxin, bead of blessing (as a [lesser strand of prayer beads](magic-wondrous/lesser_strand_of_prayer_beads) without the bead of healing), holy water (2), [scrolls of cure light wounds](spell/cure_light_wounds) (2), [scroll of endure elements](spell/endure_elements).  ",
+				"**Combat Gear:** Antitoxin, bead of blessing (as a {magic-wondrous/lesser strand of prayer beads} without the bead of healing), holy water (2), [scrolls of cure light wounds](spell/cure_light_wounds) (2), [scroll of endure elements](spell/endure_elements).  ",
 				"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), flint and steel, healer's kit, holy symbol (silver), ioun torch, mess kit, mirror, sack, shovel, silk rope (50 ft.), smelling salts, soap, spell component pouch, trail rations (5 days), waterskin, 4 sp.  ",
 				"**Total Weight:** 67 lbs. (39-1/4 lbs. for a Small character)."
 			],
@@ -3233,7 +3233,7 @@
 				"This new trait type allows you to inject a mechanical edge into the dynamics of your family. Unlike other trait types, **you are not limited to a single family trait per character.** Many of these traits work only on a member of your family, or require another character with the same trait to be nearby for the benefits to apply. For a character to count as having the same trait, they must be your family member. At the GM's discretion, the \"family\" for some of these traits could in fact be another group with strong interpersonal ties and common interests, such as a martial arts school, army unit, mutual protection society, or criminal gang. In this case, however, they become Social traits, which limits the character to one trait."
 			],
 			[
-				"## [Betrayal of Trust](trait/betrayal_of_trust)",
+				"## {trait/Betrayal of Trust}",
 				"",
 				"**Type:** Family",
 				"",
@@ -3242,42 +3242,42 @@
 				"It is possible to regain the Tight Bonds trait, for either the same or a different relationship, but it requires substantial in-character work. The GM decides when this trait reverts back to the original one."
 			],
 			[
-				"## [Blood Resonance](trait/blood_resonance)",
+				"## {trait/Blood Resonance}",
 				"",
 				"**Type:** Family",
 				"",
 				"Select one racial, inherited template (such as half-dragon), or bloodline ability you can currently use at least three times each day. Once per day when you are within 60 feet of another character with this family trait who shares the race, template, or bloodline, you can use the selected ability without it counting against your normal daily limit."
 			],
 			[
-				"## [Family Resemblance](trait/family_resemblance)",
+				"## {trait/Family Resemblance}",
 				"",
 				"**Type:** Family",
 				"",
 				"You have some of the common, recognizable features of your family. You gain a +4 trait bonus on Diplomacy checks made to improve the attitude of a creature that has a friendly or helpful attitude toward another member of your family, and a +2 bonus on Disguise checks to look like a specific member of your family. You also take a -2 penalty on Disguise checks to look like anyone who is not a member of your family."
 			],
 			[
-				"## [Family Trade](trait/family_trade)",
+				"## {trait/Family Trade}",
 				"",
 				"**Type:** Family",
 				"",
 				"Choose one skill. All family members with this trait must choose the same skill and it is always a class skill for you. When you are within 60 feet of a family member with this trait, you gain a +2 trait bonus on checks with this skill."
 			],
 			[
-				"## [Honor-Bound](trait/honor-bound)",
+				"## {trait/Honor-Bound}",
 				"",
 				"**Type:** Family",
 				"",
 				"The family's honor is tied to a shared goal binding you all together. With the aid of the GM, choose a task that your family is bound to accomplish. Once per day, when you are within 60 feet of another character with this trait, you can gain a +1 trait bonus on a single saving throw or skill check when progress toward the goal is directly at stake (at the GM's discretion)."
 			],
 			[
-				"## [Rivalry](trait/rivalry)",
+				"## {trait/Rivalry}",
 				"",
 				"**Type:** Family",
 				"",
 				"If you see a family member with this trait within 60 feet of you fail a combat maneuver check or a skill check, you gain a +1 trait bonus on checks to perform the same combat maneuver or use the same skill for 1 round."
 			],
 			[
-				"## [Tight Bonds](trait/tight_bonds)",
+				"## {trait/Tight Bonds}",
 				"",
 				"**Type:** Family",
 				"",
@@ -3298,7 +3298,7 @@
 				"Each of the following entries details a specific breed of riding animal, indicates where to find statistics for its kind, and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a character replaces his mount, he effectively loses the old trait and gains the new mount's trait"
 			],
 			[
-				"## [Black as Night](trait/black_as_night)",
+				"## {trait/Black as Night}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a fell pony as a mount",
@@ -3306,7 +3306,7 @@
 				"While astride a fell pony, you gain a +1 trait bonus on attack rolls against enemies you are flanking."
 			],
 			[
-				"## [Burst of Speed](trait/burst_of_speed)",
+				"## {trait/Burst of Speed}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a Dort charger as a mount",
@@ -3314,7 +3314,7 @@
 				"Three times per day, while riding a Dort charger and making a charge attack, you can increase your mount's speed by 15 feet as a free action."
 			],
 			[
-				"## [Clever Mount](trait/clever_mount)",
+				"## {trait/Clever Mount}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a mount",
@@ -3322,7 +3322,7 @@
 				"This mount can learn four tricks per point of Intelligence, instead of the typical three. Commanding the mount with the Handle an Animal use of the Handle Animal skill requires a successful DC 15 skill check instead of the usual DC 10, however, as it is willful and easily bored."
 			],
 			[
-				"## [Cunning Breed](trait/cunning_breed)",
+				"## {trait/Cunning Breed}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a Taldor jennet as a mount",
@@ -3330,7 +3330,7 @@
 				"A Taldor jennet can learn a total of eight tricks when trained using the Handle Animal skill (as opposed to the standard six for having an Intelligence score of 2)."
 			],
 			[
-				"## [Fleet of Foot](trait/fleet_of_foot)",
+				"## {trait/Fleet of Foot}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a chiardmar as a mount",
@@ -3338,7 +3338,7 @@
 				"While riding a chiardmar, you treat your mount's base speed as +10 feet faster for the purpose of using the run or withdraw actions."
 			],
 			[
-				"## [Keleshite Trade Camel](trait/keleshite_trade_camel)",
+				"## {trait/Keleshite Trade Camel}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a camel as a mount",
@@ -3346,7 +3346,7 @@
 				"Once per hour, a Keleshite trade camel can regurgitate the contents of its stomach, spitting the foul material at a single target within 10 feet as a ranged touch attack. The target must succeed at a Fortitude save (DC = 10 + half the camel's Hit Dice + the camel's Constitution modifier) or be nauseated for 1 round."
 			],
 			[
-				"## [Lucky Hound](trait/lucky_hound)",
+				"## {trait/Lucky Hound}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a riding dog as a mount",
@@ -3354,7 +3354,7 @@
 				"Lucky hounds gain a +1 luck bonus on saves against spells or effects with the evil descriptor or which originate from evil outsiders or undead."
 			],
 			[
-				"## [Mindspin Mountain Goat](trait/mindspin_mountain_goat)",
+				"## {trait/Mindspin Mountain Goat}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a ram as a mount",
@@ -3362,7 +3362,7 @@
 				"Mindspin mountain goats gain a +2 trait bonus on Climb checks, and Climb is a class skill for them."
 			],
 			[
-				"## [Relentless Fortitude](trait/relentless_fortitude)",
+				"## {trait/Relentless Fortitude}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a Qadiran dromedary as a mount",
@@ -3370,7 +3370,7 @@
 				"Qadiran dromedaries heal nonlethal damage at a rate of 2 hit points per hour per Hit Die. This trait does not stack with other effects that increase a creature's rate of healing nonlethal damage."
 			],
 			[
-				"## [Stalwart Elk](trait/stalwart_elk)",
+				"## {trait/Stalwart Elk}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a Chernasardo riding elk as a mount",
@@ -3378,7 +3378,7 @@
 				"While riding a Chernasardo riding elk, you gain a +4 trait bonus on Handle Animal, Ride, and wild empathy checks to resist another creature's unnatural aura."
 			],
 			[
-				"## [Warthog](trait/warthog)",
+				"## {trait/Warthog}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a boar as a mount",
@@ -3386,7 +3386,7 @@
 				"Warthogs are quicker than they look, with a base speed of 45 feet instead of the boar's 40 feet."
 			],
 			[
-				"## [Water-Trained](trait/water-trained)",
+				"## {trait/Water-Trained}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have a Lastwall jasper as a mount",
@@ -3394,7 +3394,7 @@
 				"Lastwall jaspers gain a +2 trait bonus on Swim checks, and Swim is a class skill for them."
 			],
 			[
-				"## [Weather-Beaten](trait/weather-beaten)",
+				"## {trait/Weather-Beaten}",
 				"",
 				"**Type:** Mount  ",
 				"**Requirements:** Have an Erutaki husky as a mount",
@@ -3413,7 +3413,7 @@
 				"In Avistan and Garund, the Cosmic Caravan is the astrological tool of choice for most diviners. Though some cultures grant the Caravan religious connotations, it is an inherently secular system, available for use by characters of all cultures, alignments, and faiths. A list of the Caravan's signs appears on page 37, along with matching traits for characters born under that sign. Players who know their characters' birth dates could incorporate the appropriate traits. Each sign also features a percentage range, which allows a player who doesn't know his character's birth date to determine it with a d% roll."
 			],
 			[
-				"## [The Thrush](trait/the_thrush)",
+				"## {trait/The Thrush}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 18 Kuthona and 20 Abadius (or 1-7 on d%)",
@@ -3421,7 +3421,7 @@
 				"Like the curious songbirds that welcome weary travelers, your voice rings with sweet clarity. You gain a +1 bonus on Perform (sing) checks, and Perform (sing) becomes a class skill for you."
 			],
 			[
-				"## [The Lantern Bearer](trait/the_lantern_bearer)",
+				"## {trait/The Lantern Bearer}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 21 Abadius and 16 Calistril (or 8-14 on d%)",
@@ -3429,7 +3429,7 @@
 				"You are bathed in the light of the [Lantern Bearer](rule/aff_lights), who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
 			],
 			[
-				"## [The Newlyweds](trait/the_newlyweds)",
+				"## {trait/The Newlyweds}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 17 Calistril and 11 Pharast (or 15-21 on d%)",
@@ -3437,7 +3437,7 @@
 				"Your sign is of two lovers, intertwined as one. You gain a +2 bonus on Diplomacy checks to influence those who might be romantically attracted to you, and Diplomacy becomes a class skill for you."
 			],
 			[
-				"## [The Bridge](trait/the_bridge)",
+				"## {trait/The Bridge}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 12 Pharast and 18 Gozran (or 22-28 on d%)",
@@ -3445,7 +3445,7 @@
 				"The Bridge spans the rushing waters that separate the darkness of winter from the warmth of spring. You gain a +1 trait bonus on saving throws against spells and effects with the cold or darkness descriptors."
 			],
 			[
-				"## [The Daughter](trait/the_daughter)",
+				"## {trait/The Daughter}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 19 Gozran and 13 Desnus (or 29-35 on d%)",
@@ -3453,7 +3453,7 @@
 				"You are filled with the light-hearted joy of the Daughter, who dances her way into springtime. Every creature within 10 feet of you adds +2 moral bonuses to the DCs of checks to demoralize them."
 			],
 			[
-				"## [The Rider](trait/the_rider)",
+				"## {trait/The Rider}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 14 Desnus and 20 Sarenith (or 36-42 on d%)",
@@ -3461,7 +3461,7 @@
 				"You are born under the auspice of the mounted caravan guard, whose very presence deters danger. Once per day, when you succeed at a Ride check, you can attempt an immediate Intimidate check against the nearest foe. If you fail this check, the DC of your next Intimidate check against that opponent does not increase (as it normally would)."
 			],
 			[
-				"## [The Patriarch](trait/the_patriarch)",
+				"## {trait/The Patriarch}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 21 Sarenith and 20 Erastus (or 43-49 on d%)",
@@ -3469,7 +3469,7 @@
 				"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use know direction as a spell-like ability, treating your character level as your caster level."
 			],
 			[
-				"## [The Wagon](trait/the_wagon)",
+				"## {trait/The Wagon}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 21 Erastus and 10 Arodus (or 50-56 on d%)",
@@ -3477,7 +3477,7 @@
 				"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities. Once per day as a swift action, you can increase you move speed by 10 feet for 1 round."
 			],
 			[
-				"## [The Pack](trait/the_pack)",
+				"## {trait/The Pack}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 11 Arodus and 16 Rova (or 57-63 on d%)",
@@ -3485,7 +3485,7 @@
 				"You are blessed by the beasts that trail the caravan, which represent protection in numbers. You gain a +2 trait bonus on Handle Animal checks to teach animals tricks, and Handle Animal becomes a class skill for you."
 			],
 			[
-				"## [The Mother](trait/the_mother)",
+				"## {trait/The Mother}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 17 Rova and 30 Lamashan (or 64-70 on d%)",
@@ -3493,7 +3493,7 @@
 				"Granting warmth and comfort against the forbidding cold of the wilderness, the Mother is the heart of the Caravan. Allies within 10 feet of you gain a +1 morale bonus on saving throws to resist fear effects. This trait functions only while you are conscious."
 			],
 			[
-				"## [The Star Gazer](trait/the_star_gazer)",
+				"## {trait/The Star Gazer}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 31 Lamashan and 20 Neth (or 71-77 on d%)",
@@ -3501,7 +3501,7 @@
 				"With his head in the clouds, the Stargazer sees far-off events, but misses the pitfalls directly before him. When rolling initiative as part of a surprise round, you take a -2 penalty on initiative checks, but you gain a +2 luck bonus to AC during all surprise rounds."
 			],
 			[
-				"## [The Stranger](trait/the_stranger)",
+				"## {trait/The Stranger}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 21 Neth and 29 Neth (or 78-84 on d%)",
@@ -3509,7 +3509,7 @@
 				"Like the lone traveler that walks alongside the caravan for but a brief while, you have a way with strangers. You gain a +1 trait bonus on Diplomacy and Knowledge (local) checks to gather information. Additionally, either Diplomacy or Knowledge (local) becomes a class skill for you."
 			],
 			[
-				"## [The Follower](trait/the_follower)",
+				"## {trait/The Follower}",
 				"",
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 30 Neth and 17 Kuthona (or 85-91 on d%)",
@@ -3567,77 +3567,77 @@
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
-				"## [Acadamae Neophyte](trait/acadamae_neophyte)",
+				"## {trait/Acadamae Neophyte}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have shown a significant talent for the magical arts, gaining the attention of the famed Acadamae of Korvosa. Whenever you succeed at a Knowledge (planes) check to identify a creature and its special powers or vulnerabilities, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
 			],
 			[
-				"## [Aeromantic Affinity](trait/aeromantic_affinity)",
+				"## {trait/Aeromantic Affinity}",
 				"",
 				"**Type:** Magic",
 				"",
 				"One of your distant ancestors was either a powerful aeromancer or a creature of elemental air, granting you greater skill with air magic. You treat your caster level as 1 higher when casting spells with the air or electricity descriptor."
 			],
 			[
-				"## [Air-Touched](trait/air-touched)",
+				"## {trait/Air-Touched}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You share an affinity with elemental air. You gain DR 1/- against creatures and attacks with the air type."
 			],
 			[
-				"## [Alchemical Adept](trait/alchemical_adept)",
+				"## {trait/Alchemical Adept}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are skilled in creating alchemical items. You gain a +2 trait bonus on all Craft (alchemy) checks made to craft alchemical items. Furthermore, when you fail a Craft (alchemy) check by 5 or more but don't roll a natural 1, you don't ruin any raw materials or have to pay that cost again."
 			],
 			[
-				"## [Alchemical Intuition](trait/alchemical_intuition)",
+				"## {trait/Alchemical Intuition}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are often struck with epiphanies about alchemical processes and substances. Once per day as a free action, you may gain a trait bonus equal to your Charisma modifier (minimum 0) on a Craft (alchemy) check you make. You can apply this bonus after you roll the check, possibly turning a failure into a success."
 			],
 			[
-				"## [Arcane Researcher](trait/arcane_researcher)",
+				"## {trait/Arcane Researcher}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your curiosity and ingenuity have driven you to experiment and push new boundaries, and you have a knack for tampering with magic. You gain a +4 trait bonus on Knowledge (arcana) and Spellcraft checks to research, modify, and create new spells."
 			],
 			[
-				"## [Arcane Revitalization](trait/arcane_revitalization)",
+				"## {trait/Arcane Revitalization}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your martial prowess can feed your arcane power. Once per day, when you confirm a critical hit with a weapon attack, you regain 1 arcane pool point. You can't exceed your maximum number of arcane pool points."
 			],
 			[
-				"## [Arcane Temper](trait/arcane_temper)",
+				"## {trait/Arcane Temper}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have quick reactions and fierce concentration. You gain a +1 trait bonus on concentration and initiative checks."
 			],
 			[
-				"## [Ascendant Recollection](trait/ascendant_recollection)",
+				"## {trait/Ascendant Recollection}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your first bloodline power is particularly strong. Your sorcerer level is considered to be 1 level higher when determining the effects of your 1st-level bloodline power."
 			],
 			[
-				"## [Balancer's Banishing](trait/balancers_banishing)",
+				"## {trait/Balancer's Banishing}",
 				"",
 				"**Type:** Magic",
 				"",
 				"The interference of the Outer Planes in mortal affairs angers you to no end and invigorates the potency of your magic. As long as you remain neutral, whenever you cast a spell that would send an outsider with the chaotic, evil, good, or lawful subtype back to its home plane, the spell's saving throw DC increases by 1."
 			],
 			[
-				"## [Beast of the Society](trait/beast_of_the_society)",
+				"## {trait/Beast of the Society}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
@@ -3645,21 +3645,21 @@
 				"A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal. Whenever you use your wild shape class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level."
 			],
 			[
-				"## [Black Blood Heritage](trait/black_blood_heritage)",
+				"## {trait/Black Blood Heritage}",
 				"",
 				"**Type:** Magic",
 				"",
 				"One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance. You are immune to the negative effects of black blood. Once per day as a swift action, you can channel the essence of black blood, increasing your effective caster level by 1 for any 1st-or 2nd-level necromancy spell you cast. Your blood is pitch black as a result of this trait."
 			],
 			[
-				"## [Bladed Magic](trait/bladed_magic)",
+				"## {trait/Bladed Magic}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have an innate talent for using magical weaponry and those weapons capable of becoming magical. You gain a +1 trait bonus on Craft checks made to craft magic or masterwork weapons. In addition, when you use your arcane pool class ability to grant a weapon an enhancement bonus, that bonus lasts for 2 minutes instead of 1."
 			],
 			[
-				"## [Bountiful Herb-Lore](trait/bountiful_herb-lore)",
+				"## {trait/Bountiful Herb-Lore}",
 				"",
 				"**Type:** Magic  ",
 				"**Region:** Cassomir",
@@ -3667,7 +3667,7 @@
 				"Once per day after 10 minutes of foraging, you can sprinkle nutritious herbs into a magical consumable item (such as a potion of cure light wounds). If the item is consumed within 1 minute, it provides nourishment as if it were a normal meal to the creature that partakes of it."
 			],
 			[
-				"## [Charlatan](trait/charlatan)",
+				"## {trait/Charlatan}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Gnome",
@@ -3675,49 +3675,49 @@
 				"Your talent for illusion goes beyond a mere knack for figments and phantasms. You can actually channel spell energy into simple illusions that augment your attempts at deception. As a swift action, you may expend one prepared spell or spell slot to gain a bonus on the next Bluff check you make, provided the check takes place before the beginning of your next turn. The bonus on this check is equal to the level of the spell consumed. You may use this ability 3 times per day. Only gnomes of nonlawful alignment may take this trait."
 			],
 			[
-				"## [Child of the Moon](trait/child_of_the_moon)",
+				"## {trait/Child of the Moon}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your lunar gift becomes much more powerful when the moon is full. Choose either Climb, Stealth, or Swim. You gain a +1 trait bonus on checks made with the chosen skill. On dates during and after the first quarter of a lunar phase but before end of the last quarter (the half of the lunar cycle where the moon is fuller), this bonus increases to +2. During the full moon, this bonus increases to +4."
 			],
 			[
-				"## [Classically Schooled](trait/classically_schooled)",
+				"## {trait/Classically Schooled}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on Spellcraft checks, and Spellcraft is always a class skill for you."
 			],
 			[
-				"## [Coven Casting](trait/coven_casting)",
+				"## {trait/Coven Casting}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others. When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on concentration checks."
 			],
 			[
-				"## [Cross-Disciplined](trait/cross-disciplined)",
+				"## {trait/Cross-Disciplined}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your dabbling has granted you greater insight into the proper casting of certain spells. Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher."
 			],
 			[
-				"## [Cross-Knowledge](trait/cross-knowledge)",
+				"## {trait/Cross-Knowledge}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Once per day, you may treat an extract you drink as if your caster level were 1 level higher as long as that extract appears on the wizard spell list and the alchemist list of formulae."
 			],
 			[
-				"## [Dangerously Curious](trait/dangerously_curious)",
+				"## {trait/Dangerously Curious}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result. You gain a +1 bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you."
 			],
 			[
-				"## [Deep Guardian](trait/deep_guardian)",
+				"## {trait/Deep Guardian}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Dwarf",
@@ -3725,42 +3725,42 @@
 				"The subtle power of the deep places of the world flows within you, and grants you mastery of summoning beings of earth and stone. Any creature you conjure with a summon spell that has the earth subtype or a burrow speed gains a +1 morale bonus on attack rolls and a +1 enhancement bonus to Armor Class for the duration of the spell that summoned it."
 			],
 			[
-				"## [Demonblight Reistance](trait/demonblight_reistance)",
+				"## {trait/Demonblight Reistance}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your exposure to powerful energies instilled in you a supernatural resistance to diseases, particularly those of a demonic bent. You gain a +3 trait bonus on saving throws against diseases you are exposed to while fighting one or more creatures of the demon subtype, or while such a hostile creature is within 100 feet."
 			],
 			[
-				"## [Desperate Focus](trait/desperate_focus)",
+				"## {trait/Desperate Focus}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You've often found yourself in situations where a lack of focus can lead to worse than a lost spell. You gain a +2 trait bonus on concentration checks."
 			],
 			[
-				"## [Desperate Resolve](trait/desperate_resolve)",
+				"## {trait/Desperate Resolve}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are adept at casting spells even in the most precarious situations. You gain a +1 trait bonus on concentration checks. This trait bonus increases to +4 when you are grappled, pinned, in violent weather, or entangled."
 			],
 			[
-				"## [Desperate Speed](trait/desperate_speed)",
+				"## {trait/Desperate Speed}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your eidolon excels at a movement type you do not possess. Your eidolon receives a +5-foot enhancement bonus to one type of speed it has that you do not, such as a climb or swim speed. If your eidolon doesn't already possess such a mode of movement, you may apply this trait bonus later if it gains an evolution that grants it such a mode. Once this bonus is applied to a mode of movement, it can't be switched to another mode."
 			],
 			[
-				"## [Diabolical Dabbler](trait/diabolical_dabbler)",
+				"## {trait/Diabolical Dabbler}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Each fiendish animal you conjure with any summon spell gains +1 hit point per hit die for the duration of the spell that summoned it."
 			],
 			[
-				"## [Distance Aptitude](trait/distance_aptitude)",
+				"## {trait/Distance Aptitude}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -3769,7 +3769,7 @@
 				"Suggested Characters: Elves, Numerians, Sarkorians."
 			],
 			[
-				"## [Domineering](trait/domineering)",
+				"## {trait/Domineering}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -3778,21 +3778,21 @@
 				"Suggested Characters: Chelaxians, Irriseni, Mwangi."
 			],
 			[
-				"## [Draconic Infusion](trait/draconic_infusion)",
+				"## {trait/Draconic Infusion}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You were exposed to an artifact or other powerful magic that infused you with the power of dragons. Choose the acid, cold, electricity, or fire spell descriptor when you take this trait. Once per day for every 2 caster levels you have (minimum once per day), when you cast a spell that has your chosen elemental descriptor, you can deal an additional 1d4 points of damage of that energy type to one target of that spell."
 			],
 			[
-				"## [Earth-Touched](trait/earth-touched)",
+				"## {trait/Earth-Touched}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You share an affinity with elemental earth. You gain DR 1/- against creatures and attacks with the earth type."
 			],
 			[
-				"## [Earthbound](trait/earthbound)",
+				"## {trait/Earthbound}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Dwarf",
@@ -3800,21 +3800,21 @@
 				"Your druid spells use a handful of earth or sand as a divine focus in addition to the normal components. While you are touching the ground, you add a +2 trait bonus to saving throw DCs and on caster level checks to overcome spell resistance for all spells you cast against creatures with the air subtype."
 			],
 			[
-				"## [Eldritch Auditor](trait/eldritch_auditor)",
+				"## {trait/Eldritch Auditor}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are a magically adept merchant who has learned tricks to protect your own goods, or you serve a city as an impartial auditor who guards against arcane trickery in the bazaars. You gain a +2 trait bonus on Spellcraft checks and Will saves to identify an item's true properties, such as against spells like magic aura."
 			],
 			[
-				"## [Eldritch Delver](trait/eldritch_delver)",
+				"## {trait/Eldritch Delver}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand. You gain a +1 trait bonus on all Knowledge (dungeoneering) and Knowledge (history) checks, and you may treat your caster level as 1 level higher for all conjuration spells of the teleportation subschool."
 			],
 			[
-				"## [Eldritch Smith](trait/eldritch_smith)",
+				"## {trait/Eldritch Smith}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Dwarf",
@@ -3822,29 +3822,29 @@
 				"You are learned in the secret lore of the forge, rituals handed down for generations that some say come from Torag himself. Whenever you use the Craft skill or a crafting feat to make a stone or metal item, you reduce the cost of making the item by 5%. This includes metal-headed weapons with nonmetal parts, such as axes and spears."
 			],
 			[
-				"## [Elemental Accident](trait/elemental_accident)",
+				"## {trait/Elemental Accident}",
 				"",
 				"**Type:** Magic",
 				"",
 				"A traumatic experience in your childhood, such as surviving a violent earthquake, fleeing a shipwreck, escaping a devastating fire, or getting struck by lightning, caused you to develop a fear of the corresponding element. You can instinctively shield yourself against elemental dangers of that type. Select acid, cold, electricity, or fire at character creation (once chosen, this damage type can't be changed). Once per day when you are subjected to an attack or effect that deals energy damage of that type, you can gain resistance 10 against that damage type for 1 round as an immediate action. This resistance does not stack with any existing resistance you might have against that energy type."
 			],
 			[
-				"## [Enduring Mutagen](trait/enduring_mutagen)",
+				"## {trait/Enduring Mutagen}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Because of special training, your unique body chemistry, or the uncovering of an alchemical secret, your mutagens last longer. The bonuses and penalties granted by your mutagens last for 1 additional minute per alchemist level."
 			],
 			[
-				"## [Eye for the Wondrous](trait/eye_for_the_wondrous)",
+				"## {trait/Eye for the Wondrous}",
 				"",
 				"**Type:** Magic  ",
 				"**Region:** Katapesh",
 				"",
-				"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using [detect magic](spell/detect_magic) in 1 round."
+				"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using {spell/detect magic} in 1 round."
 			],
 			[
-				"## [Fey Protection](trait/fey_protection)",
+				"## {trait/Fey Protection}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -3853,28 +3853,28 @@
 				"Suggested Characters: Drumans, Eldest worshipers, Ulfen."
 			],
 			[
-				"## [Flame-Touched](trait/flame-touched)",
+				"## {trait/Flame-Touched}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You share an affinity with elemental fire. You gain DR 1/- against creatures and attacks with the fire type."
 			],
 			[
-				"## [Focused Burn](trait/focused_burn)",
+				"## {trait/Focused Burn}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You know the secret of making punishing fire bombs. Any bombs you have that deal fire damage deal 1 additional point of fire damage on a direct hit per 2d6 of fire damage normally dealt (minimum 1 point). This additional damage does not apply to the bomb's splash damage."
 			],
 			[
-				"## [Focused Mind](trait/focused_mind)",
+				"## {trait/Focused Mind}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks."
 			],
 			[
-				"## [Fortunate](trait/fortunate)",
+				"## {trait/Fortunate}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -3883,14 +3883,14 @@
 				"Suggested Characters: Calistrians, harrow deck readers, Vudrani."
 			],
 			[
-				"## [Gifted Adept](trait/gifted_adept)",
+				"## {trait/Gifted Adept}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait-from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
 			],
 			[
-				"## [Greater Adept of the Society](trait/greater_adept_of_the_society)",
+				"## {trait/Greater Adept of the Society}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
@@ -3898,35 +3898,35 @@
 				"Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge. You gain one additional 0-level spell slot."
 			],
 			[
-				"## [Greater Link](trait/greater_link)",
+				"## {trait/Greater Link}",
 				"",
 				"**Type:** Magic",
 				"",
 				"The link between you and your eidolon is stronger than most. Your eidolon's current and maximum hit point totals are not reduced by 50% until you are separated by 110 feet or more. Your eidolon's current and maximum hit point totals are not reduced by 75% until you are separated by 1,100 feet or more. All other aspects of your life link class feature are unaffected."
 			],
 			[
-				"## [Greater Purpose](trait/greater_purpose)",
+				"## {trait/Greater Purpose}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are convinced you're alive to achieve a great purpose. You gain a +1 trait bonus on all saving throws to resist death effects and a +1 trait bonus on Constitution checks made to stabilize while dying."
 			],
 			[
-				"## [Green-Blooded](trait/green-blooded)",
+				"## {trait/Green-Blooded}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal. Choose a single 0-level druid spell. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level."
 			],
 			[
-				"## [Guiding Spirit](trait/guiding_spirit)",
+				"## {trait/Guiding Spirit}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit-or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
 			],
 			[
-				"## [Havoc of the Society](trait/havoc_of_the_society)",
+				"## {trait/Havoc of the Society}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
@@ -3934,35 +3934,35 @@
 				"Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes. Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell."
 			],
 			[
-				"## [Hedge Magician](trait/hedge_magician)",
+				"## {trait/Hedge Magician}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques. Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%."
 			],
 			[
-				"## [Hex-Proof](trait/hex-proof)",
+				"## {trait/Hex-Proof}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You've dealt too often with cruel fey magic, and so gain a +2 bonus on Will saves against hexes and fey creatures' spells and spell-like abilities."
 			],
 			[
-				"## [Horrifying Mind](trait/horrifying_mind)",
+				"## {trait/Horrifying Mind}",
 				"",
 				"**Type:** Magic",
 				"",
 				"When a nonevil humanoid attempts to read your mind via a magical effect, the reader must attempt a Will save opposed by your Wisdom or Charisma check (your choice). If the reader fails this save, she is shaken for 1 round. If she fails by 10 or more, she is instead frightened for 1 round, then shaken for 1 round."
 			],
 			[
-				"## [House of Green Mothers Pupil](trait/house_of_green_mothers_pupil)",
+				"## {trait/House of Green Mothers Pupil}",
 				"",
 				"**Type:** Magic",
 				"",
-				"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for [Iron Will](feat/iron_will) as the prerequisite for the [Familiar Bond](feat/familiar_bond) feat."
+				"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for {feat/Iron Will} as the prerequisite for the {feat/Familiar Bond} feat."
 			],
 			[
-				"## [Inhabitant of Illusion](trait/inhabitant_of_illusion)",
+				"## {trait/Inhabitant of Illusion}",
 				"",
 				"**Type:** Magic  ",
 				"**Region:** Kyonin  ",
@@ -3971,21 +3971,21 @@
 				"Your experience with illusions allows you to discern them easily. When you first encounter an illusion, you can attempt a Will saving throw with a -2 penalty to disbelieve it, even if you don't suspect the illusion. The GM rolls this saving throw in secret."
 			],
 			[
-				"## [Insistent Benefactor](trait/insistent_benefactor)",
+				"## {trait/Insistent Benefactor}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies. Whenever you cast a harmless spell, you gain a +2 trait bonus on caster level checks to overcome spell resistance, and the saving throw DC of the spell (if any) is increased by 2."
 			],
 			[
-				"## [Internal Compass](trait/internal_compass)",
+				"## {trait/Internal Compass}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You maintain a sense of direction, even on planes where direction is relative. If you are on a plane that has no analogue to north, you automatically know the direction toward the plane's major dominating feature (for instance, Pharasma's Spire in the Boneyard, or the sun in Nirvana). If there is no such dominating feature, you instead know the direction of the closest feature significant to one of the plane's divinities or demigods."
 			],
 			[
-				"## [Inured to Death](trait/inured_to_death)",
+				"## {trait/Inured to Death}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -3994,7 +3994,7 @@
 				"Suggested Characters: Gebbites, Urgathoans, Ustalavs."
 			],
 			[
-				"## [Jinx Eater](trait/jinx_eater)",
+				"## {trait/Jinx Eater}",
 				"",
 				"**Type:** Magic  ",
 				"**Region:** The Shackles  ",
@@ -4003,7 +4003,7 @@
 				"Your presence dampens curses and other ill effects. You gain a +1 trait bonus on saves against curses, including the hex class ability of shamans and witches. Once per day, you can grant this bonus to all allies within 30 feet for 1 round as an immediate action."
 			],
 			[
-				"## [Keen Appraiser](trait/keen_appraiser)",
+				"## {trait/Keen Appraiser}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -4012,49 +4012,49 @@
 				"Suggested Characters: Drumans, dwarves, Torag worshipers."
 			],
 			[
-				"## [Kin Bond](trait/kin_bond)",
+				"## {trait/Kin Bond}",
 				"",
 				"**Type:** Magic",
 				"",
 				"The bond between you and a close sibling is nearly mystical. Choose a single sibling with whom to share this bond. Once per day when you fail a saving throw while your sibling is within 30 feet, you may reroll that saving throw using your sibling's saving throw modifier. If you and the sibling are twins or otherwise part of a multiple birth, you gain a +2 trait bonus on the rerolled saving throw. Your sibling must be willing to grant you the reroll. If you fail the saving throw, you and your sibling are dazed for 1 round."
 			],
 			[
-				"## [Knowledgeable Caster](trait/knowledgeable_caster)",
+				"## {trait/Knowledgeable Caster}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any Knowledge checks associated with your sorcerer bloodline, if any."
 			],
 			[
-				"## [Lamia's Bane](trait/lamias_bane)",
+				"## {trait/Lamia's Bane}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have been exposed to the magical energies of lamias in your past, or you have heard innumerable stories about your family's dealings with lamias, and you have built up a resistance to their charms. You gain a +1 trait bonus on saving throws against enchantment effects and a +2 trait bonus on saving throws against the spells and spell-like abilities of lamias."
 			],
 			[
-				"## [Less Effort](trait/less_effort)",
+				"## {trait/Less Effort}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Select one spell belonging to the abjuration or transmutation school on your spell list. When you cast that spell or it is cast on you, treat the caster level as 2 higher for the purpose of determining the duration."
 			],
 			[
-				"## [Linked Surge](trait/linked_surge)",
+				"## {trait/Linked Surge}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Once per day, you may make a Strength- or Constitution-based ability check or skill check using you eidolon's ability score in place of your own. Your eidolon must be summoned and with 30 feet for you to use this trait."
 			],
 			[
-				"## [Low Blow](trait/low_blow)",
+				"## {trait/Low Blow}",
 				"",
 				"**Type:** Magic",
 				"",
 				"When targeting a good-aligned creature with a spell or spell-like ability with the pain descriptor or that imposes a morale penalty, increase its effective caster level by 1. If you are of an evil alignment, increase the save DC of the effect by 1 as well."
 			],
 			[
-				"## [Lucid Dreamer](trait/lucid_dreamer)",
+				"## {trait/Lucid Dreamer}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Varisian wanderers or Wonderseekers",
@@ -4062,21 +4062,21 @@
 				"Your dreams are a special place of power that only you get to enjoy; driving away threats to your subconscious is as easy as slamming a door. You receive a +1 trait bonus on Knowledge (planes) checks and a +2 trait bonus on Will saves against effects on your dreaming mind or subconscious, such as a night hag's dream haunting ability, the nightmare spell, and illusions of the phantasm subschool."
 			],
 			[
-				"## [Lunar Birth](trait/lunar_birth)",
+				"## {trait/Lunar Birth}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Born during a lunar eclipse, you were forever marked by the moon's mysterious and ancient magic. You gain a +1 trait bonus on saving throws against the spells and spell-like abilities cast by humans."
 			],
 			[
-				"## [Magic Crafter](trait/magic_crafter)",
+				"## {trait/Magic Crafter}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your early magical training involved study of the properties and creation of magic items. You gain a +1 trait bonus on Appraise checks and a +1 bonus on any Craft checks attempted while making magic items."
 			],
 			[
-				"## [Magical Flair](trait/magical_flair)",
+				"## {trait/Magical Flair}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -4085,56 +4085,56 @@
 				"Suggested Characters: Gnomes, Razmir worshipers, witches."
 			],
 			[
-				"## [Magical Knack](trait/magical_knack)",
+				"## {trait/Magical Knack}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait-your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
 			],
 			[
-				"## [Magical Lineage](trait/magical_lineage)",
+				"## {trait/Magical Lineage}",
 				"",
 				"**Type:** Magic",
 				"",
 				"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two-and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
 			],
 			[
-				"## [Magical Talent](trait/magical_talent)",
+				"## {trait/Magical Talent}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based."
 			],
 			[
-				"## [Malleable Magic](trait/malleable_magic)",
+				"## {trait/Malleable Magic}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Once per day as a swift action, you can lose a single 1st-, 2nd- or 3rd-level magus spell to regain 1 arcane pool point. You can't exceed the maximum number of arcane pool points in your arcane pool by using this trait."
 			],
 			[
-				"## [Mathematical Prodigy](trait/mathematical_prodigy)",
+				"## {trait/Mathematical Prodigy}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Mathematics has always come easily for you, and you have always been able to \"see the math\" in the physical and magical world. You gain a +1 bonus on Knowledge (arcana) and Knowledge (engineering) checks, and one of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [Mechanical Aptitude](trait/mechanical_aptitude)",
+				"## {trait/Mechanical Aptitude}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have learned much from tinkering with ancient technology from the Jistka Imperium. Choose one of the following skills: Disable Device, Knowledge (engineering), or Use Magic Device. Once per day, you can reroll a check with that skill before the outcome of the check is revealed. You must take the second result, even if it is worse."
 			],
 			[
-				"## [Meticulous Concoction](trait/meticulous_concoction)",
+				"## {trait/Meticulous Concoction}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your meticulous carefulness makes your bombs and extracts more potent. Once per day, you can either add a +2 trait bonus to the save DC for one bomb you throw or extend the duration of one extract you imbibe by 2 rounds. Extracts with an instantaneous duration are not affected by this trait."
 			],
 			[
-				"## [Mutant Eye](trait/mutant_eye)",
+				"## {trait/Mutant Eye}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -4143,7 +4143,7 @@
 				"Suggested Characters: Lamashtans, Mana Wastes natives, Nexians."
 			],
 			[
-				"## [Naturally Gifted](trait/naturally_gifted)",
+				"## {trait/Naturally Gifted}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Gnome",
@@ -4151,14 +4151,14 @@
 				"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability-one day you might use dancing lights twice, only to use the additional casting for speak with animals the next day."
 			],
 			[
-				"## [Outcast's Intuition](trait/outcasts_intuition)",
+				"## {trait/Outcast's Intuition}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are able to sense the motives of others and use that sense to bolster your magic against dispelling. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic."
 			],
 			[
-				"## [Outer Dragon Blood](trait/outer_dragon_blood)",
+				"## {trait/Outer Dragon Blood}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -4171,105 +4171,105 @@
 				"**Vortex:** Fire energy, 30-foot cone"
 			],
 			[
-				"## [Outsider Ties](trait/outsider_ties)",
+				"## {trait/Outsider Ties}",
 				"",
 				"**Type:** Magic",
 				"",
 				"An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as angel or elemental. When you summon an outsider of that subtype via summon monster, planar ally, planar binding, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it."
 			],
 			[
-				"## [Overwhelming Beauty](trait/overwhelming_beauty)",
+				"## {trait/Overwhelming Beauty}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection. The DC of your mind-affecting effects increases by 1 against creatures that have at least one of the same subtypes as you."
 			],
 			[
-				"## [Partial Protege](trait/partial_protege)",
+				"## {trait/Partial Protege}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are adept at disguising your true talents. You gain a +1 trait bonus on Bluff checks and on Use Magic Device checks made to emulate a class feature."
 			],
 			[
-				"## [Pathfinder's Focus](trait/pathfinders_focus)",
+				"## {trait/Pathfinder's Focus}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a wayfinder. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per [the normal rules for improving magic items](rule/magic_item_creation). A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object."
 			],
 			[
-				"## [Perfectionist's Brew](trait/perfectionists_brew)",
+				"## {trait/Perfectionist's Brew}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You know that potion recipes should be followed with exact precision. You gain a +2 trait bonus on all Craft (alchemy) checks and on Spellcraft checks made to brew potions."
 			],
 			[
-				"## [Planar Escapee](trait/planar_escapee)",
+				"## {trait/Planar Escapee}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You were a prisoner or slave in a city on the Elemental Planes, such as the cruel efreet's City of Brass on the Plane of Fire or the dwarven city of Urgashaz on the Plane of Earth. When you escaped that city, you had to use your captors' weapons and magic against them in addition to your sheer wits, and you learned how to find weaknesses in their natural resistances. At character creation, select acid, cold, electricity, or fire (once chosen, this selection can't be changed). Once per day as a swift action, you can choose a single creature that is within 30 feet of you and within your line of sight; treat that creature's resistance against your chosen energy as 5 lower than its normal energy resistance for 1 round. This ability has no effect if the creature has no resistance to the chosen energy or if the creature has immunity to the chosen energy."
 			],
 			[
-				"## [Possessed](trait/possessed)",
+				"## {trait/Possessed}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You were, or are, possessed in some way by another entity that grants you occasional access to its knowledge. Once per day, you can attempt a Knowledge check of your choice even if you are not trained in that skill and it is not usually possible to use that skill untrained. If you can normally use that skill untrained, you gain a +2 trait bonus on the check."
 			],
 			[
-				"## [Pragmatic Activator](trait/pragmatic_activator)",
+				"## {trait/Pragmatic Activator}",
 				"",
 				"**Type:** Magic",
 				"",
 				"While some figure out how to use magical devices with stubborn resolve, your approach is more pragmatic. You may use your Intelligence modifier when making Use Magic Device checks instead of your Charisma modifier."
 			],
 			[
-				"## [Precise Treatment](trait/precise_treatment)",
+				"## {trait/Precise Treatment}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You treat others with a clear and calculating intellect. You gain a +1 trait bonus on all Heal checks, and you may use your Intelligence modifier when making Heal checks instead of your Wisdom modifier."
 			],
 			[
-				"## [Radiant Healing](trait/radiant_healing)",
+				"## {trait/Radiant Healing}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You've learned how to infuse your healing magic with lingering traces of light. Whenever you cast a spell from the conjuration (healing) school that has a casting time of a standard action, you can extend its casting time to a full-round action to imbue the target with light, as per light, with a duration of 1 round per caster level."
 			],
 			[
-				"## [Reluctant Apprentice](trait/reluctant_apprentice)",
+				"## {trait/Reluctant Apprentice}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your early training grants you knowledge of the arcane. You gain a +1 trait bonus on Knowledge (arcana) checks, and are considered trained in that skill even if you have no ranks in it."
 			],
 			[
-				"## [Resilient Caster](trait/resilient_caster)",
+				"## {trait/Resilient Caster}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your great force of will makes your magic harder to dispel. Your caster level is treated as 1 level higher whenever someone attempts to dispel one of your spells."
 			],
 			[
-				"## [Rivethun Adherent](trait/rivethun_adherent)",
+				"## {trait/Rivethun Adherent}",
 				"",
 				"**Type:** Magic",
 				"",
 				"[Rivethun](rule/aff_animists) is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf. While you suffer a physical ailment, such as disease, poison, or ability damage to Strength, Dexterity, or Constitution (but not including hit point damage), you gain a +2 trait bonus on Will saving throws. While you suffer a mental ailment, including insanity, any charm or compulsion effect, or ability damage to Intelligence, Wisdom, or Charisma, you gain a +2 trait bonus on Fortitude saving throws."
 			],
 			[
-				"## [Scholar of the Analects](trait/scholar_of_the_analects)",
+				"## {trait/Scholar of the Analects}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You studied various Analects of Aroden from a young age and became skilled at using magic written by others. You can cast read magic as a spell-like ability three times per day, using your character level as your caster level."
 			],
 			[
-				"## [Scorned by Magic](trait/scorned_by_magic)",
+				"## {trait/Scorned by Magic}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -4278,7 +4278,7 @@
 				"Suggested Characters: Kellids, Mana Wastes natives, Shoanti."
 			],
 			[
-				"## [Second Tongue](trait/second_tongue)",
+				"## {trait/Second Tongue}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Old Cults",
@@ -4286,70 +4286,70 @@
 				"Using an ancient and painful surgical technique, you've reshaped your tongue. These surgical mutilations permit you to speak ancient words unpronounceable to most mortals, enhancing your ability to work magic associated with the Great Old Ones. Any summoning or divination spell you cast to summon or contact a Great Old One or one of their minions is cast at +1 caster level."
 			],
 			[
-				"## [Secret Scrolls](trait/secret_scrolls)",
+				"## {trait/Secret Scrolls}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You were inducted into a secret magical tradition such as the Esoteric Order of the Palatine Eye. You can cast read magic once per day as a spell-like ability, and gain a +1 trait bonus on Use Magic Device checks to activate scrolls you cannot normally use."
 			],
 			[
-				"## [Self-Taught Scholar](trait/self-taught_scholar)",
+				"## {trait/Self-Taught Scholar}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Being self-taught has made it necessary for you to scour all documentation you can get your hands on. You gain a +1 trait bonus on Linguistics checks to decipher unfamiliar languages, and Linguistics is always a class skill for you. In addition, you gain a +1 trait bonus on Spellcraft checks made to decipher the writing on a scroll."
 			],
 			[
-				"## [Shrouded Casting](trait/shrouded_casting)",
+				"## {trait/Shrouded Casting}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have learned the secret to casting some spells without lesser material components. Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the Eschew Materials feat."
 			],
 			[
-				"## [Skeptic](trait/skeptic)",
+				"## {trait/Skeptic}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Growing up, you were always around magical effects to the extent that you realized much of it was mere smoke and mirrors. You gain a +2 trait bonus on all saving throws against illusions."
 			],
 			[
-				"## [Spark of Creation](trait/spark_of_creation)",
+				"## {trait/Spark of Creation}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You have always had a knack for making useful things, and your talent as an artisan was evident even at an early age. You gain a +1 trait bonus on Craft checks, and the cost of creating magic items is reduced by 5%."
 			],
 			[
-				"## [Spiritual Attachment](trait/spiritual_attachment)",
+				"## {trait/Spiritual Attachment}",
 				"",
 				"**Type:** Magic",
 				"",
 				"The union between spirits and spiritualists is one of the strongest (and strangest) bonds shared between the mortal realm and the spirit world. Spiritualists can use the knowledge of their linked phantoms to better negotiate with other spirits. Whether you're a spiritualist or not, you've always had a similar knack when it comes to interactions with the spirit world. You gain a +4 trait bonus on checks to notice haunts, and when interacting with someone who is possessed by an incorporeal undead creature, you gain a +2 trait bonus n Bluff, Diplomacy, Intimidate, and Sense Motive checks against that target."
 			],
 			[
-				"## [Stabbing Spells](trait/stabbing_spells)",
+				"## {trait/Stabbing Spells}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Aroden wrote much about ways to use weapons to enhance magic's effectiveness, and you have taken to heart the insights gleaned from his words. Whenever you strike a foe with a weapon, you gain a +2 trait bonus on caster level checks to overcome that foe's spell resistance until the end of your next turn."
 			],
 			[
-				"## [Storm-Touched](trait/storm-touched)",
+				"## {trait/Storm-Touched}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You share an affinity with elemental lightning. You gain DR 1/- against creatures and attacks with the electricity type."
 			],
 			[
-				"## [Strength Foretold](trait/strength_foretold)",
+				"## {trait/Strength Foretold}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You can channel extra power into one of your bloodline spells. Once per day as a free action, you gain a +1 trait bonus to the DC of the saving throw of one of your bonus bloodline spells."
 			],
 			[
-				"## [Strength of the Land](trait/strength_of_the_land)",
+				"## {trait/Strength of the Land}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Dwarf",
@@ -4357,43 +4357,43 @@
 				"You are able to tap into the living energy of the world to shatter lesser magic. You gain a +1 trait bonus on caster level checks while touching the ground or unworked stone. This includes dispel checks and checks to overcome spell resistance."
 			],
 			[
-				"## [Sun-Blessed](trait/sun-blessed)",
+				"## {trait/Sun-Blessed}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your birth came at a time when the sun was auspiciously aligned with your birth sign. As a result, you have a natural affinity for light and life. Whenever you're affected by a healing effect that would heal more hit points than your maximum hit point total, you gain the excess healing as temporary hit points. You can gain up to a number of temporary hit points per day equal to your character level in this way. These temporary hit points last for 1 minute."
 			],
 			[
-				"## [Tar-Baphon's Whisper](trait/tar-baphons_whisper)",
+				"## {trait/Tar-Baphon's Whisper}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** [Whispering Way](rule/f_gravepath)",
 				"",
-				"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast [sotto voce](spell/sotto_voce) as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
+				"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast {spell/sotto voce} as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 			],
 			[
-				"## [Tenacious Shifting](trait/tenacious_shifting)",
+				"## {trait/Tenacious Shifting}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You've discovered the secret of stable transmutations. Any transmutation spell you cast upon yourself has its duration increased by 2 rounds. Transmutation spells with an instantaneous duration are not affected by this trait."
 			],
 			[
-				"## [Theoretical Magician](trait/theoretical_magician)",
+				"## {trait/Theoretical Magician}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You've studied more magic than what you can actually perform. You gain a +2 trait bonus on Spellcraft checks, or a +3 bonus if you aren't a spellcaster."
 			],
 			[
-				"## [Transmuter of Korada](trait/transmuter_of_korada)",
+				"## {trait/Transmuter of Korada}",
 				"",
 				"**Type:** Magic",
 				"",
-				"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the [Extend Spell](feat/extend_spell) metamagic feat or similar abilities."
+				"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the {feat/Extend Spell} metamagic feat or similar abilities."
 			],
 			[
-				"## [Trickster (Gnome)](trait/trickster_gnome)",
+				"## {trait/Trickster (Gnome)}",
 				"",
 				"**Type:** Magic  ",
 				"**Requirements:** Gnome",
@@ -4401,21 +4401,21 @@
 				"You are particularly adept with your racial spell-like abilities, and as child you quickly learned how dancing lights and ghost sound could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers. You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school."
 			],
 			[
-				"## [Twinned Presence](trait/twinned_presence)",
+				"## {trait/Twinned Presence}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your eidolon-and your connection to it-makes others ill at ease. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make."
 			],
 			[
-				"## [Twisted Tattoo](trait/twisted_tattoo)",
+				"## {trait/Twisted Tattoo}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Your exposure to eldritch phenomena has caused your skin to develop a strange pattern. Once per day as you cast a spell whose casting time is 1 round or less, you can roll 1d4-2 (no minimum) and add the result to that spell's effective caster level. In an area of primal magic, the minimum result of this roll is 0, not -1."
 			],
 			[
-				"## [Two-World Magic](trait/two-world_magic)",
+				"## {trait/Two-World Magic}",
 				"",
 				"**Type:** Magic  ",
 				"**Region:** Sargava",
@@ -4423,21 +4423,21 @@
 				"You have bridged the gap between the natural magic of the Mwangi peoples and the refined magic of the Chelish colonists. Select one 0-level spell from a class spell list other than your own. This spell is a 0-level spell on your class spell list (or a 1st-level spell if your class doesn't have 0-level spells). For example, if you are a druid, you could select mage hand and thereafter prepare it as a 0-level druid spell; if you are a sorcerer, you could select know direction as a 0-level sorcerer spell known."
 			],
 			[
-				"## [Unscathed](trait/unscathed)",
+				"## {trait/Unscathed}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You are amazingly resistant to energy attacks because of either your upbringing or magical experimentation. Each type of energy resistance you have (if any) increases by 2 points."
 			],
 			[
-				"## [Unseen but Not Undone](trait/unseen_but_not_undone)",
+				"## {trait/Unseen but Not Undone}",
 				"",
 				"**Type:** Magic",
 				"",
 				"Without a single gesture, you can unleash a bloodline spell. Once per day, you can cast a bloodline spell as if you had the Still Spell feat. Using this trait does not modify the spell's level."
 			],
 			[
-				"## [Unstable Mutagen](trait/unstable_mutagen)",
+				"## {trait/Unstable Mutagen}",
 				"",
 				"**Type:** Magic",
 				"",
@@ -4453,21 +4453,21 @@
 				"| 6 | The unstable mutagen does not apply a penalty to the corresponding mental ability score. |"
 			],
 			[
-				"## [Volatile Conduit](trait/volatile_conduit)",
+				"## {trait/Volatile Conduit}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You discovered a secret that enhances the energy of some spells. Once per day as a free action, when you cast a spell that deals acid, cold, electricity, or fire damage, you can enhance that spell with volatile energy. When you do, it deals 1d4 points of extra damage of the same energy type."
 			],
 			[
-				"## [Water-Touched](trait/water-touched)",
+				"## {trait/Water-Touched}",
 				"",
 				"**Type:** Magic",
 				"",
 				"You share an affinity with elemental water. You gain DR 1/- against creatures and attacks with the water type."
 			],
 			[
-				"## [Winter Witchcraft Survivor](trait/winter_witchcraft_survivor)",
+				"## {trait/Winter Witchcraft Survivor}",
 				"",
 				"**Type:** Magic",
 				"",

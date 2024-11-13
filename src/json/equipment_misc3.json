@@ -155,7 +155,7 @@
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the [Harvest Parts](feat/harvest_parts) feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used."
+			"This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting parts (see the {feat/Harvest Parts} feat) from a poisonous creature, you can use a poison sponge to harvest and store one dose of the creature's poison instead. The DC to harvest poison is equal to 20 + the creature's CR, and the poison retains its potency for 3 days. A successful check stores a single dose of the creature's poison in the sponge, which you can then apply like any poison. Poison sponges become saturated over time, imposing a cumulative -2 penalty on checks to harvest poison each subsequent time they are used."
 		]
 	},
 	"poison_tattoo": {
@@ -364,7 +364,7 @@
 			"**Price** 125 gp; **Weight** 9 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a [bell tripwire trap](equipment-misc/bell_tripwire_trap). When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
+			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a {equipment-misc/bell tripwire trap}. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
 			"",
 			"**Portable Bolt Trap - CR 1/2**  ",
 			"**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20  ",
@@ -1011,7 +1011,7 @@
 			"**Price** 400 gp; **Weight** 12 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a [haunt detector](equipment-misc/haunt_detector), but with greater accuracy-a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
+			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a {equipment-misc/haunt detector}, but with greater accuracy-a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
 		]
 	},
 	"quieting_needles": {
@@ -1294,7 +1294,7 @@
 			"**Price** 75 gp; **Weight** 450 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These sturdy and majestic caribou roam the northern tundra in great herds, and provide fur, meat, and other useful products to both Erutaki and Varki herders and hunters. Irrisen's Jadwiga, Snowcaster elves, and eccentric Linnorm Kings use domesticated reindeer to pull sleighs. Reindeer use the same statistics as [elk](monster/elk)."
+			"These sturdy and majestic caribou roam the northern tundra in great herds, and provide fur, meat, and other useful products to both Erutaki and Varki herders and hunters. Irrisen's Jadwiga, Snowcaster elves, and eccentric Linnorm Kings use domesticated reindeer to pull sleighs. Reindeer use the same statistics as {monster/elk}."
 		]
 	},
 	"remora_pad": {
@@ -2568,7 +2568,7 @@
 			"**Price** varies; **Weight** varies  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the [Craft Shoddy Item](feat/craft_shoddy_item) feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
+			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the {feat/Craft Shoddy Item} feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
 			"",
 			"Any shoddy item has its hardness reduced by 2 and its hit points reduced by half. Any weapon or piece of armor constructed in a shoddy manner takes damage each time it is used; a weapon takes the same amount of damage it deals in an attack (minus its lower hardness rating), and a piece of armor takes damage identical to its wearer's loss in hit points from an enemy's successful attack (again, after taking the adjusted hardness into account). Items other than weapons and armor have a 10% chance to gain the broken condition with each day of use, and if they have a limited number of uses, they have half as many uses as normal. In either case, shoddy items that gain the broken condition can never have that condition removed (even by using magic or if they later recover hit points) without further successful Craft checks and gp expenditure to fix the initial flaws. Shoddy items that are destroyed cannot be recovered by any means, and are useless for anything more than salvaging some of the raw materials. A shoddy item typically costs the same as a normal item of its kind.",
 			"",
@@ -3017,7 +3017,7 @@
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised [earth breaker](equipment-weapon/earth_breaker)."
+			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised {equipment-weapon/earth breaker}."
 		]
 	},
 	"sleeve_holster": {
@@ -3091,7 +3091,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a [fog cloud](spell/fog_cloud) spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be nauseated for 1 round and sickened for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.",
+			"A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a {spell/fog cloud} spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be nauseated for 1 round and sickened for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 22"
@@ -3537,7 +3537,7 @@
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This is little more than a handle with a cup, loop, or spur to hold the butt of a dart, javelin, or shortspear. Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a move action; by taking the [Rapid Reload](feat/rapid_reload) (spear-thrower) feat, you reduce this to a free action."
+			"This is little more than a handle with a cup, loop, or spur to hold the butt of a dart, javelin, or shortspear. Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a move action; by taking the {feat/Rapid Reload} (spear-thrower) feat, you reduce this to a free action."
 		]
 	},
 	"spear_thrower": {
@@ -3926,7 +3926,7 @@
 			"**Price** 140 gp; **Weight** 12-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a book of letters, a disguise kit, a [hollow-heeled boot](equipment-misc/hollow-heeled_boot), ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
+			"This kit includes a book of letters, a disguise kit, a {equipment-misc/hollow-heeled boot}, ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
 		]
 	},
 	"spycatchers_kit": {
@@ -4623,7 +4623,7 @@
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any [infestations](rule/infestations) (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by remove disease, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
+			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any {rule/infestations} (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by remove disease, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -5078,7 +5078,7 @@
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Entertainment",
 			"",
-			"This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total. Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as [Weapon Focus](feat/weapon_focus) and [Weapon Specialization](feat/weapon_specialization), and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites."
+			"This small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a competitor to roll 1d6 points of damage against the opponent's kite. When a kite reaches 0 hit points, it is broken or its string is cut, and its player loses the match. In some matches, points are awarded for touching the kite's top to the opponent's string, with the winner being the first to reach a set point total. Those interested in kite-fighting may select the terror kite as a weapon for the purpose of feats such as {feat/Weapon Focus} and {feat/Weapon Specialization}, and apply these bonuses on kite damage rolls and on their sunder combat maneuver attempts made while using terror kites."
 		]
 	},
 	"the_prophecies_of_kalistrade": {
@@ -5593,7 +5593,7 @@
 			"**Price** 263 gp; **Weight** 90 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of [bone paste](equipment-misc/bone_paste), a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
+			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of {equipment-misc/bone paste}, a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
 		]
 	},
 	"travel_cake_mix": {
@@ -6236,7 +6236,7 @@
 			"",
 			"This vile-smelling white paste keeps vermin at bay if spread on your skin. Normal-sized (Fine) vermin avoid you. Swarms of vermin must make a successful DC 15 Fortitude saving throw in order to enter your square. Vermin repellent has no adverse effect on vermin of Small size or larger, though if an attacking vermin has a choice of targets that are respectively covered and not covered in repellent, it usually chooses the creatures without repellent. Once applied, vermin repellent remains effective for 4 hours or until you spend 1 round washing it off.",
 			"",
-			"Vermin repellent counts as a strong scent, allowing creatures with the [scent](umr/scent) ability to detect it at a greater range.",
+			"Vermin repellent counts as a strong scent, allowing creatures with the {umr/scent} ability to detect it at a greater range.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"

@@ -26,7 +26,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), bless, create water, stabilize; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Staff}, bless, create water, stabilize; **Cost** 3,600 gp"
 		]
 	},
 	"staff_of_minor_arcana": {
@@ -46,7 +46,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), magic missile, shield; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Staff}, magic missile, shield; **Cost** 4,000 gp"
 		]
 	},
 	"staff_of_tricks": {
@@ -68,7 +68,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), ghost sound, mage hand, prestidigitation, silent image; **Cost** 4,400 gp"
+			"**Requirements** {feat/Craft Staff}, ghost sound, mage hand, prestidigitation, silent image; **Cost** 4,400 gp"
 		]
 	},
 	"staff_of_the_scout": {
@@ -89,7 +89,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), know direction, pass without trace, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 4,800 gp"
+			"**Requirements** {feat/Craft Staff}, know direction, pass without trace, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 4,800 gp"
 		]
 	},
 	"monstrification_staff": {
@@ -102,14 +102,14 @@
 			"**Aura** faint transmutation (polymorph); **CL** 8th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.",
 			"",
-			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of [monstrous physique I](spell/monstrous_physique_1) over it to restore 3 charges. ",
+			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of {spell/monstrous physique I} over it to restore 3 charges. ",
 			"",
 			"- Enlarge person (1 charge)",
 			"- [Monstrous physique I](spell/monstrous_physique_1) (3 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), enlarge person, [monstrous physique I](spell/monstrous_physique_1), creator must be an alchemist; **Cost** 6,150 gp"
+			"**Requirements** {feat/Craft Staff}, enlarge person, {spell/monstrous physique I}, creator must be an alchemist; **Cost** 6,150 gp"
 		]
 	},
 	"gravediggers_spade": {
@@ -130,7 +130,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), expeditious excavation, create pit, spiked pit; **Cost** 6,100 gp"
+			"**Requirements** {feat/Craft Staff}, expeditious excavation, create pit, spiked pit; **Cost** 6,100 gp"
 		]
 	},
 	"spark_staff": {
@@ -151,7 +151,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), Intensify Spell, shocking grasp, lightning bolt; **Cost** 6,475 gp"
+			"**Requirements** {feat/Craft Staff}, Intensify Spell, shocking grasp, lightning bolt; **Cost** 6,475 gp"
 		]
 	},
 	"ember_staff": {
@@ -174,7 +174,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), fireball, produce flame, scorching ray; **Cost** 6,700 gp"
+			"**Requirements** {feat/Craft Staff}, fireball, produce flame, scorching ray; **Cost** 6,700 gp"
 		]
 	},
 	"staff_of_eidolons": {
@@ -195,7 +195,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), lesser evolution surge, lesser rejuvenate eidolon, unfetter; **Cost** 7,200 gp"
+			"**Requirements** {feat/Craft Staff}, lesser evolution surge, lesser rejuvenate eidolon, unfetter; **Cost** 7,200 gp"
 		]
 	},
 	"staff_of_understanding": {
@@ -219,7 +219,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), comprehend languages, detect thoughts, tongues; **Cost** 7,200 gp"
+			"**Requirements** {feat/Craft Staff}, comprehend languages, detect thoughts, tongues; **Cost** 7,200 gp"
 		]
 	},
 	"staff_of_accompaniment": {
@@ -240,7 +240,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), allegro, chord of shards, saving finale; **Cost** 7,400 gp"
+			"**Requirements** {feat/Craft Staff}, allegro, chord of shards, saving finale; **Cost** 7,400 gp"
 		]
 	},
 	"crook_of_cildhureen": {
@@ -263,7 +263,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), major image, shadow conjuration, shadow evocation; **Cost** 8,400 gp"
+			"**Requirements** {feat/Craft Staff}, major image, shadow conjuration, shadow evocation; **Cost** 8,400 gp"
 		]
 	},
 	"staff_of_charming": {
@@ -286,7 +286,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), charm monster, charm person; **Cost** 8,800 gp"
+			"**Requirements** {feat/Craft Staff}, charm monster, charm person; **Cost** 8,800 gp"
 		]
 	},
 	"staff_of_fire": {
@@ -310,7 +310,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), burning hands, fireball, wall of fire; **Cost** 9,475 gp"
+			"**Requirements** {feat/Craft Staff}, burning hands, fireball, wall of fire; **Cost** 9,475 gp"
 		]
 	},
 	"staff_of_belittling": {
@@ -332,7 +332,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), mass reduce person, reduce animal, reduce person, shrink item; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Staff}, mass reduce person, reduce animal, reduce person, shrink item; **Cost** 10,000 gp"
 		]
 	},
 	"staff_of_courage": {
@@ -357,7 +357,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), bless, prayer, remove fear, remove paralysis; **Cost** 10,400 gp"
+			"**Requirements** {feat/Craft Staff}, bless, prayer, remove fear, remove paralysis; **Cost** 10,400 gp"
 		]
 	},
 	"staff_of_feast_and_famine": {
@@ -380,7 +380,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), create water, cup of dust, feast of ashes, goodberry, purify food and drink; **Cost** 10,400 gp"
+			"**Requirements** {feat/Craft Staff}, create water, cup of dust, feast of ashes, goodberry, purify food and drink; **Cost** 10,400 gp"
 		]
 	},
 	"staff_of_internal_assault": {
@@ -402,7 +402,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), calcific touch, corrosive touch, touch injection; **Cost** 10,400 gp"
+			"**Requirements** {feat/Craft Staff}, calcific touch, corrosive touch, touch injection; **Cost** 10,400 gp"
 		]
 	},
 	"staff_of_rigor": {
@@ -428,7 +428,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), align weapon, bane, cause fear, command, magic weapon; **Cost** 10,400 gp"
+			"**Requirements** {feat/Craft Staff}, align weapon, bane, cause fear, command, magic weapon; **Cost** 10,400 gp"
 		]
 	},
 	"shory_acolytes_staff": {
@@ -449,7 +449,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), fly, levitate, shocking grasp; **Cost** 10,800 gp"
+			"**Requirements** {feat/Craft Staff}, fly, levitate, shocking grasp; **Cost** 10,800 gp"
 		]
 	},
 	"cephalopod_staff": {
@@ -472,7 +472,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), black tentacles, [summon monster VI](spell/summon_monster_6); **Cost** 11,400 gp"
+			"**Requirements** {feat/Craft Staff}, black tentacles, [summon monster VI](spell/summon_monster_6); **Cost** 11,400 gp"
 		]
 	},
 	"staff_of_swarming_insects": {
@@ -495,7 +495,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), insect plague, summon swarm; **Cost** 11,400 gp"
+			"**Requirements** {feat/Craft Staff}, insect plague, summon swarm; **Cost** 11,400 gp"
 		]
 	},
 	"staff_of_authority": {
@@ -516,7 +516,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), forced quiet, interrogation, oppressive boredom; **Cost** 11,800 gp"
+			"**Requirements** {feat/Craft Staff}, forced quiet, interrogation, oppressive boredom; **Cost** 11,800 gp"
 		]
 	},
 	"staff_of_radiance": {
@@ -540,7 +540,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), daylight, glitterdust, light, searing light; **Cost** 11,600 gp"
+			"**Requirements** {feat/Craft Staff}, daylight, glitterdust, light, searing light; **Cost** 11,600 gp"
 		]
 	},
 	"zenj_totem_staff": {
@@ -557,16 +557,16 @@
 			"",
 			"The staff also acts as a normal magical staff and contains the following spells: ",
 			"",
-			"- [Protection from evil](spell/protection_from_evil) (1 charge)",
+			"- {spell/Protection from evil} (1 charge)",
 			"- [Summon nature's ally II](spell/summon_natures_ally_2) (animals only, 2 charges)",
-			"- [Aura sight](spell/aura_sight) (3 charges)",
+			"- {spell/Aura sight} (3 charges)",
 			"- [Summon nature's ally IV](spell/summon_natures_ally_4) (animals only, 4 charges)",
 			"",
 			"A shaman who wields the staff can cast [summon nature's ally II](spell/summon_natures_ally_2) and [summon nature's ally IV](spell/summon_natures_ally_4) from the staff even though those spells are not on her spell list. Additionally, once per day when a druid or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), [aura sight](spell/aura_sight), [protection from evil](spell/protection_from_evil), [summon nature's ally I](spell/summon_natures_ally_1), [summon nature's ally II](spell/summon_natures_ally_2), zone of truth; **Cost** 12,400 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/aura sight}, {spell/protection from evil}, [summon nature's ally I](spell/summon_natures_ally_1), [summon nature's ally II](spell/summon_natures_ally_2), zone of truth; **Cost** 12,400 gp"
 		]
 	},
 	"staff_of_size_alteration": {
@@ -592,7 +592,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), enlarge person, mass enlarge person, mass reduce person, reduce person, shrink item; **Cost** 13,075 gp"
+			"**Requirements** {feat/Craft Staff}, enlarge person, mass enlarge person, mass reduce person, reduce person, shrink item; **Cost** 13,075 gp"
 		]
 	},
 	"staff_of_curchanus": {
@@ -607,17 +607,17 @@
 			"",
 			"This stout staff is made of wood and capped with steel. Elongated carvings of smiling beasts adorn its length. The staff of Curchanus functions as a +1/+1 quarterstaff and allows the use of the following spells. ",
 			"",
-			"- [Charm animal](spell/charm_animal) (1 charge)",
-			"- [Longstrider](spell/longstrider) (1 charge)",
-			"- [Monkey fish](spell/monkey_fish) (1 charge)",
-			"- [Speak with animals](spell/speak_with_animals) (1 charge)",
-			"- [Greater longstrider](spell/greater_longstrider) (2 charges)",
+			"- {spell/Charm animal} (1 charge)",
+			"- {spell/Longstrider} (1 charge)",
+			"- {spell/Monkey fish} (1 charge)",
+			"- {spell/Speak with animals} (1 charge)",
+			"- {spell/Greater longstrider} (2 charges)",
 			"",
-			"If the staff's wielder has the [Fleet](feat/fleet) feat, castings of [greater longstrider](spell/greater_longstrider), [longstrider](spell/longstrider), or [monkey fish](spell/monkey_fish) from the staff are automatically extended, as the [Extend Spell](feat/extend_spell) feat. If the wielder has the [Animal Affinity](feat/animal_affinity) feat, then [charm animal](spell/charm_animal) or [speak with animals](spell/speak_with_animals) spells cast from the staff are automatically extended, as the [Extend Spell](feat/extend_spell) feat. This does not increase the spells' level or casting time.",
+			"If the staff's wielder has the {feat/Fleet} feat, castings of {spell/greater longstrider}, {spell/longstrider}, or {spell/monkey fish} from the staff are automatically extended, as the {feat/Extend Spell} feat. If the wielder has the {feat/Animal Affinity} feat, then {spell/charm animal} or {spell/speak with animals} spells cast from the staff are automatically extended, as the {feat/Extend Spell} feat. This does not increase the spells' level or casting time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), [charm animal](spell/charm_animal), [greater longstrider](spell/greater_longstrider), [longstrider](spell/longstrider), [monkey fish](spell/monkey_fish), [speak with animals](spell/speak_with_animals); **Cost** 13,600 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/charm animal}, {spell/greater longstrider}, {spell/longstrider}, {spell/monkey fish}, {spell/speak with animals}; **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_journeys": {
@@ -643,7 +643,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), detect snares and pits, endure elements, freedom of movement, longstrider, pass without trace; **Cost** 13,600 gp"
+			"**Requirements** {feat/Craft Staff}, detect snares and pits, endure elements, freedom of movement, longstrider, pass without trace; **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_acid": {
@@ -664,7 +664,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), acid arrow, acid fog, corrosive touch; **Cost** 14,300 gp"
+			"**Requirements** {feat/Craft Staff}, acid arrow, acid fog, corrosive touch; **Cost** 14,300 gp"
 		]
 	},
 	"chaotic_staff": {
@@ -686,7 +686,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), align weapon, chaos hammer, [detect evil](spell/detect_evil), [magic circle against law](spell/magic_circle_against_law); **Cost** 14,800 gp"
+			"**Requirements** {feat/Craft Staff}, align weapon, chaos hammer, {spell/detect evil}, {spell/magic circle against law}; **Cost** 14,800 gp"
 		]
 	},
 	"holy_staff": {
@@ -708,7 +708,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), align weapon, [detect evil](spell/detect_evil), holy smite, [magic circle against evil](spell/magic_circle_against_evil); **Cost** 14,800 gp"
+			"**Requirements** {feat/Craft Staff}, align weapon, {spell/detect evil}, holy smite, {spell/magic circle against evil}; **Cost** 14,800 gp"
 		]
 	},
 	"lawful_staff": {
@@ -730,7 +730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), align weapon, [detect chaos](spell/detect_chaos), [magic circle against chaos](spell/magic_circle_against_chaos), order's wrath; **Cost** 14,800 gp"
+			"**Requirements** {feat/Craft Staff}, align weapon, {spell/detect chaos}, {spell/magic circle against chaos}, order's wrath; **Cost** 14,800 gp"
 		]
 	},
 	"staff_of_healing": {
@@ -755,7 +755,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cure serious wounds, lesser restoration, remove blindness/deafness, remove disease; **Cost** 14,800 gp"
+			"**Requirements** {feat/Craft Staff}, cure serious wounds, lesser restoration, remove blindness/deafness, remove disease; **Cost** 14,800 gp"
 		]
 	},
 	"unholy_staff": {
@@ -777,7 +777,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), align weapon, [detect good](spell/detect_good), [magic circle against good](spell/magic_circle_against_good), unholy blight; **Cost** 14,800 gp"
+			"**Requirements** {feat/Craft Staff}, align weapon, {spell/detect good}, {spell/magic circle against good}, unholy blight; **Cost** 14,800 gp"
 		]
 	},
 	"hungering_staff": {
@@ -792,7 +792,7 @@
 			"",
 			"A ring of curved fangs circles the tip of this 7-foot-long bone staff. When magic mouth is cast from the staff, the resulting illusory mouth is filled with countless needle-like fangs. After magic mouth is cast, one charge remains drained from the staff and can't be recharged until the user dismisses the spell or until the spell discharges.",
 			"",
-			"When casting [beast shape I](spell/beast_shape_1) from the staff, the caster can choose only creatures with bite attacks, and the user's bite attacks deal damage as if the assumed shape were two sizes larger.",
+			"When casting {spell/beast shape I} from the staff, the caster can choose only creatures with bite attacks, and the user's bite attacks deal damage as if the assumed shape were two sizes larger.",
 			"",
 			"The staff allows the use of the following spells. ",
 			"",
@@ -802,7 +802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), [beast shape I](spell/beast_shape_1), hungry pit, magic mouth; **Cost** 15,500 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/beast shape I}, hungry pit, magic mouth; **Cost** 15,500 gp"
 		]
 	},
 	"staff_of_the_master": {
@@ -825,7 +825,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), ray of enfeeblement, spectral hand, vampiric touch; **Cost** 15,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, ray of enfeeblement, spectral hand, vampiric touch; **Cost** 15,300 gp"
 		]
 	},
 	"staff_of_spiders": {
@@ -846,7 +846,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), spider climb, [summon monster III](spell/summon_monster_3), web; **Cost** 15,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, spider climb, [summon monster III](spell/summon_monster_3), web; **Cost** 15,400 gp"
 		]
 	},
 	"oaken_staff": {
@@ -869,7 +869,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), barkskin, plant growth, speak with plants, teleport, creator must be a caster of at least 12th level; **Cost** 16,050 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, barkskin, plant growth, speak with plants, teleport, creator must be a caster of at least 12th level; **Cost** 16,050 gp"
 		]
 	},
 	"staff_of_electricity": {
@@ -890,7 +890,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), chain lightning, lightning bolt, shocking grasp; **Cost** 15,950 gp"
+			"**Requirements** {feat/Craft Staff}, chain lightning, lightning bolt, shocking grasp; **Cost** 15,950 gp"
 		]
 	},
 	"heretics_bane": {
@@ -912,7 +912,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), castigate, command, denounce, zone of truth; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Staff}, castigate, command, denounce, zone of truth; **Cost** 16,000 gp"
 		]
 	},
 	"many-eyed_staff": {
@@ -935,7 +935,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), blindness/deafness, prying eyes, [summon monster II](spell/summon_monster_2); **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Staff}, blindness/deafness, prying eyes, [summon monster II](spell/summon_monster_2); **Cost** 16,000 gp"
 		]
 	},
 	"many_eyed_staff": {
@@ -962,7 +962,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), ghost sound, piercing shriek, sculpt sound, wall of sound; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Staff}, ghost sound, piercing shriek, sculpt sound, wall of sound; **Cost** 16,000 gp"
 		]
 	},
 	"staff_of_souls": {
@@ -988,7 +988,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), death ward, deathwatch, [detect undead](spell/detect_undead), gentle repose, speak with dead; **Cost** 16,400 gp"
+			"**Requirements** {feat/Craft Staff}, death ward, deathwatch, {spell/detect undead}, gentle repose, speak with dead; **Cost** 16,400 gp"
 		]
 	},
 	"staff_of_toxins": {
@@ -1011,7 +1011,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cloudkill, stinking cloud; **Cost** 17,100 gp"
+			"**Requirements** {feat/Craft Staff}, cloudkill, stinking cloud; **Cost** 17,100 gp"
 		]
 	},
 	"staff_of_shrieking": {
@@ -1035,7 +1035,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), shatter, shout, sound burst; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Staff}, shatter, shout, sound burst; **Cost** 18,000 gp"
 		]
 	},
 	"staff_of_the_avenger": {
@@ -1057,7 +1057,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), bless weapon, discern lies, holy sword, shield other; **Cost** 18,810 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, bless weapon, discern lies, holy sword, shield other; **Cost** 18,810 gp"
 		]
 	},
 	"staff_of_aspects": {
@@ -1079,7 +1079,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), aspect of the bear, aspect of the falcon, aspect of the stag, aspect of the wolf; **Cost** 19,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, aspect of the bear, aspect of the falcon, aspect of the stag, aspect of the wolf; **Cost** 19,100 gp"
 		]
 	},
 	"staff_of_the_prime_mover": {
@@ -1108,7 +1108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), force hook charge, force punch, kinetic reverberation, levitate; **Cost** 20,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, force hook charge, force punch, kinetic reverberation, levitate; **Cost** 20,300 gp"
 		]
 	},
 	"staff_of_spirit-talking": {
@@ -1131,7 +1131,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), command plants, commune with nature, speak with animals, speak with plants, stone tell; **Cost** 19,525 gp"
+			"**Requirements** {feat/Craft Staff}, command plants, commune with nature, speak with animals, speak with plants, stone tell; **Cost** 19,525 gp"
 		]
 	},
 	"staff_of_spirit_talking": {
@@ -1159,7 +1159,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), disguise self, greater invisibility, invisibility, nondetection; **Cost** 20,900 gp"
+			"**Requirements** {feat/Craft Staff}, disguise self, greater invisibility, invisibility, nondetection; **Cost** 20,900 gp"
 		]
 	},
 	"staff_of_frost": {
@@ -1183,7 +1183,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cone of cold, ice storm, wall of ice; **Cost** 20,700 gp"
+			"**Requirements** {feat/Craft Staff}, cone of cold, ice storm, wall of ice; **Cost** 20,700 gp"
 		]
 	},
 	"staff_of_bolstering": {
@@ -1208,7 +1208,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), bear's endurance, bull's strength, cat's grace, greater magic weapon; **Cost** 20,800 gp"
+			"**Requirements** {feat/Craft Staff}, bear's endurance, bull's strength, cat's grace, greater magic weapon; **Cost** 20,800 gp"
 		]
 	},
 	"spherewalkers_staff": {
@@ -1234,7 +1234,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), air walk, ant haul, dimension door, freedom of movement, plane shift, water walk, creator must worship Desna; **Cost** 21,700 gp"
+			"**Requirements** {feat/Craft Staff}, air walk, ant haul, dimension door, freedom of movement, plane shift, water walk, creator must worship Desna; **Cost** 21,700 gp"
 		]
 	},
 	"staff_of_curses": {
@@ -1258,7 +1258,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), baleful polymorph, bestow curse, blindness/deafness, ill omen; **Cost** 22,050 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, baleful polymorph, bestow curse, blindness/deafness, ill omen; **Cost** 22,050 gp"
 		]
 	},
 	"staff_of_the_dark_tapestry": {
@@ -1283,7 +1283,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), bull's strength, confusion, darkness, fear, irradiate, planetary adaptation; **Cost** 21,900 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, bull's strength, confusion, darkness, fear, irradiate, planetary adaptation; **Cost** 21,900 gp"
 		]
 	},
 	"staff_of_fortune": {
@@ -1303,7 +1303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), heroic fortune, mass heroic fortune; **Cost** 37,200 gp"
+			"**Requirements** {feat/Craft Staff}, heroic fortune, mass heroic fortune; **Cost** 37,200 gp"
 		]
 	},
 	"staff_of_dark_flame": {
@@ -1326,7 +1326,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), animate dead, false life, fireball, ray of enfeeblement, scorching ray; **Cost** 27,133 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, animate dead, false life, fireball, ray of enfeeblement, scorching ray; **Cost** 27,133 gp"
 		]
 	},
 	"staff_of_performance": {
@@ -1354,7 +1354,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), calm emotions, enthrall, glibness, hypnotic pattern, major image, pyrotechnics, sculpt sound; **Cost** 24,400 gp"
+			"**Requirements** {feat/Craft Staff}, calm emotions, enthrall, glibness, hypnotic pattern, major image, pyrotechnics, sculpt sound; **Cost** 24,400 gp"
 		]
 	},
 	"animate_staff": {
@@ -1377,7 +1377,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), animate objects, make whole, mending; **Cost** 24,900 gp"
+			"**Requirements** {feat/Craft Staff}, animate objects, make whole, mending; **Cost** 24,900 gp"
 		]
 	},
 	"staff_of_hunting": {
@@ -1400,7 +1400,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), acute senses, bard's escape, locate creature, unwilling shield; **Cost** 25,500 gp"
+			"**Requirements** {feat/Craft Staff}, acute senses, bard's escape, locate creature, unwilling shield; **Cost** 25,500 gp"
 		]
 	},
 	"staff_of_revelations": {
@@ -1425,7 +1425,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), augury, commune, divination, speak with dead; **Cost** 30,608 gp"
+			"**Requirements** {feat/Craft Staff}, augury, commune, divination, speak with dead; **Cost** 30,608 gp"
 		]
 	},
 	"staff_of_illumination": {
@@ -1450,7 +1450,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), dancing lights, daylight, flare, sunburst; **Cost** 25,750 gp"
+			"**Requirements** {feat/Craft Staff}, dancing lights, daylight, flare, sunburst; **Cost** 25,750 gp"
 		]
 	},
 	"staff_of_the_freed_man": {
@@ -1473,7 +1473,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), detect secret doors, freedom, knock, passwall; **Cost** 25,840 gp"
+			"**Requirements** {feat/Craft Staff}, detect secret doors, freedom, knock, passwall; **Cost** 25,840 gp"
 		]
 	},
 	"doomsday_staff": {
@@ -1496,7 +1496,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), bestow curse, confusion, control weather, doom, insanity, insect plague; **Cost** 26,000 gp"
+			"**Requirements** {feat/Craft Staff}, bestow curse, confusion, control weather, doom, insanity, insect plague; **Cost** 26,000 gp"
 		]
 	},
 	"staff_of_obstacles": {
@@ -1523,7 +1523,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), arcane lock, grease, wall of fire, wall of ice, wall of stone, wind wall; **Cost** 27,050 gp"
+			"**Requirements** {feat/Craft Staff}, arcane lock, grease, wall of fire, wall of ice, wall of stone, wind wall; **Cost** 27,050 gp"
 		]
 	},
 	"staff_of_heaven_and_earth": {
@@ -1550,7 +1550,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), air walk, control winds, gust of wind, spike stones, stone shape; **Cost** 27,000 gp"
+			"**Requirements** {feat/Craft Staff}, air walk, control winds, gust of wind, spike stones, stone shape; **Cost** 27,000 gp"
 		]
 	},
 	"staff_of_travel": {
@@ -1573,7 +1573,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), dimension door, expeditious retreat, fly, teleport; **Cost** 27,200 gp"
+			"**Requirements** {feat/Craft Staff}, dimension door, expeditious retreat, fly, teleport; **Cost** 27,200 gp"
 		]
 	},
 	"staff_of_hoarding": {
@@ -1599,7 +1599,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), identify, legend lore, locate object, magic aura, secret chest; **Cost** 30,016 gp"
+			"**Requirements** {feat/Craft Staff}, identify, legend lore, locate object, magic aura, secret chest; **Cost** 30,016 gp"
 		]
 	},
 	"crook_of_unseen_forces": {
@@ -1624,7 +1624,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), spiritual ally, spiritual weapon, [summon monster VI](spell/summon_monster_6), telekinesis; **Cost** 28,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, spiritual ally, spiritual weapon, [summon monster VI](spell/summon_monster_6), telekinesis; **Cost** 28,300 gp"
 		]
 	},
 	"staff_of_cackling_wrath": {
@@ -1652,7 +1652,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), baleful polymorph, bestow curse, blindness/deafness, charm person, hold person, inflict moderate wounds, vampiric touch; **Cost** 28,450 gp"
+			"**Requirements** {feat/Craft Staff}, baleful polymorph, bestow curse, blindness/deafness, charm person, hold person, inflict moderate wounds, vampiric touch; **Cost** 28,450 gp"
 		]
 	},
 	"staff_of_traps": {
@@ -1679,7 +1679,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), alarm, explosive runes, fire trap, magic mouth, phantom trap, sepia snake sigil; **Cost** 36,525 gp"
+			"**Requirements** {feat/Craft Staff}, alarm, explosive runes, fire trap, magic mouth, phantom trap, sepia snake sigil; **Cost** 36,525 gp"
 		]
 	},
 	"staff_of_many_rays": {
@@ -1705,7 +1705,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), disintegrate, enervation, ray of enfeeblement, ray of exhaustion, scorching ray; **Cost** 28,600 gp"
+			"**Requirements** {feat/Craft Staff}, disintegrate, enervation, ray of enfeeblement, ray of exhaustion, scorching ray; **Cost** 28,600 gp"
 		]
 	},
 	"staff_of_speaking": {
@@ -1728,7 +1728,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), denounce, glibness, mass suggestion, suggestion, tongues; **Cost** 28,600 gp"
+			"**Requirements** {feat/Craft Staff}, denounce, glibness, mass suggestion, suggestion, tongues; **Cost** 28,600 gp"
 		]
 	},
 	"staff_of_mithral_might": {
@@ -1754,7 +1754,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), bull's strength, enlarge person, flesh to stone, fox's cunning, telekinesis; **Cost** 29,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, bull's strength, enlarge person, flesh to stone, fox's cunning, telekinesis; **Cost** 29,300 gp"
 		]
 	},
 	"staff_of_wings": {
@@ -1776,7 +1776,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), fly, mass fly, overland flight, silent image; **Cost** 29,700 gp"
+			"**Requirements** {feat/Craft Staff}, fly, mass fly, overland flight, silent image; **Cost** 29,700 gp"
 		]
 	},
 	"staff_of_defense": {
@@ -1801,7 +1801,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), shield, shield of faith, shield of law, shield other, creator must be lawful; **Cost** 31,000 gp"
+			"**Requirements** {feat/Craft Staff}, shield, shield of faith, shield of law, shield other, creator must be lawful; **Cost** 31,000 gp"
 		]
 	},
 	"staff_of_stoneweaving": {
@@ -1826,7 +1826,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), minor creation, spike stones, statue, stone shape, stone to flesh, stoneskin; **Cost** 31,430 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, minor creation, spike stones, statue, stone shape, stone to flesh, stoneskin; **Cost** 31,430 gp"
 		]
 	},
 	"staff_of_the_planes": {
@@ -1849,7 +1849,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), planar adaptation, planar binding, plane shift; **Cost** 31,980 gp"
+			"**Requirements** {feat/Craft Staff}, planar adaptation, planar binding, plane shift; **Cost** 31,980 gp"
 		]
 	},
 	"staff_of_hungry_shadows": {
@@ -1877,7 +1877,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), darkness, enervation, planar binding, ray of enfeeblement, [summon monster V](spell/summon_monster_5), vampiric touch; **Cost** 34,650 gp"
+			"**Requirements** {feat/Craft Staff}, darkness, enervation, planar binding, ray of enfeeblement, [summon monster V](spell/summon_monster_5), vampiric touch; **Cost** 34,650 gp"
 		]
 	},
 	"quiemas_branch": {
@@ -1900,7 +1900,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), changestaff, quench, repel metal or stone, transmute metal to wood, tree stride; **Cost** 36,375 gp"
+			"**Requirements** {feat/Craft Staff}, changestaff, quench, repel metal or stone, transmute metal to wood, tree stride; **Cost** 36,375 gp"
 		]
 	},
 	"dragon_staff": {
@@ -1913,18 +1913,18 @@
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 81,000 gp; **Weight** 7 lbs.",
 			"",
-			"Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon, this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue, green, red, or white. All the spells that can be cast using the staff are tied to that choice. If the wielder uses the staff to cast [form of the dragon II](spell/form_of_the_dragon_2), she must assume the type linked to the staff. Any energy types chosen by spells from the staff must match the type as well (black and green are linked to acid, blue is linked to electricity, red is linked to fire, and white is linked to cold). The staff allows use of the following spells: ",
+			"Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon, this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue, green, red, or white. All the spells that can be cast using the staff are tied to that choice. If the wielder uses the staff to cast {spell/form of the dragon II}, she must assume the type linked to the staff. Any energy types chosen by spells from the staff must match the type as well (black and green are linked to acid, blue is linked to electricity, red is linked to fire, and white is linked to cold). The staff allows use of the following spells: ",
 			"",
 			"- Fly (1 charge)",
 			"- Protection from energy (1 charge)",
 			"- Dragon's breath (2 charges)",
 			"- [Form of the dragon II](spell/form_of_the_dragon_2) (4 charges)",
 			"",
-			"In addition to these powers, the wielder of the dragon staff also receives a +2 natural armor bonus to her AC and the ability to make a bite attack as a primary natural weapon. This bite deals 1d8 points of damage if the wielder is Medium. These bonuses are a polymorph effect and are replaced by those gained from casting [form of the dragon II](spell/form_of_the_dragon_2), or other similar spells.",
+			"In addition to these powers, the wielder of the dragon staff also receives a +2 natural armor bonus to her AC and the ability to make a bite attack as a primary natural weapon. This bite deals 1d8 points of damage if the wielder is Medium. These bonuses are a polymorph effect and are replaced by those gained from casting {spell/form of the dragon II}, or other similar spells.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), alter self, dragon's breath, fly, [form of the dragon II](spell/form_of_the_dragon_2), protection from energy; **Cost** 40,500 gp"
+			"**Requirements** {feat/Craft Staff}, alter self, dragon's breath, fly, {spell/form of the dragon II}, protection from energy; **Cost** 40,500 gp"
 		]
 	},
 	"staff_of_slumber": {
@@ -1951,7 +1951,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), deep slumber, dream, nightmare, symbol of sleep, ray of exhaustion, waves of fatigue; **Cost** 49,216 gp"
+			"**Requirements** {feat/Craft Staff}, deep slumber, dream, nightmare, symbol of sleep, ray of exhaustion, waves of fatigue; **Cost** 49,216 gp"
 		]
 	},
 	"staff_of_abjuration": {
@@ -1978,7 +1978,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), dismissal, dispel magic, lesser globe of invulnerability, repulsion, resist energy, shield; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, dismissal, dispel magic, lesser globe of invulnerability, repulsion, resist energy, shield; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_conjuration": {
@@ -2005,7 +2005,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cloudkill, minor creation, stinking cloud, [summon monster VI](spell/summon_monster_6), summon swarm, unseen servant; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, cloudkill, minor creation, stinking cloud, [summon monster VI](spell/summon_monster_6), summon swarm, unseen servant; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_divination": {
@@ -2032,7 +2032,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), detect secret doors, locate creature, locate object, prying eyes, tongues, true seeing; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, detect secret doors, locate creature, locate object, prying eyes, tongues, true seeing; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_enchantment": {
@@ -2059,7 +2059,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), crushing despair, hideous laughter, mass suggestion, mind fog, sleep, suggestion; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, crushing despair, hideous laughter, mass suggestion, mind fog, sleep, suggestion; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_evocation": {
@@ -2086,7 +2086,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), chain lightning, fireball, ice storm, magic missile, shatter, wall of force; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, chain lightning, fireball, ice storm, magic missile, shatter, wall of force; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_illusion": {
@@ -2113,7 +2113,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), disguise self, major image, mirror image, mislead, persistent image, rainbow pattern; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, disguise self, major image, mirror image, mislead, persistent image, rainbow pattern; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_necromancy": {
@@ -2140,7 +2140,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cause fear, circle of death, enervation, ghoul touch, halt undead, waves of fatigue; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, cause fear, circle of death, enervation, ghoul touch, halt undead, waves of fatigue; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_transmutation": {
@@ -2167,7 +2167,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), alter self, baleful polymorph, blink, disintegrate, expeditious retreat, polymorph; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, alter self, baleful polymorph, blink, disintegrate, expeditious retreat, polymorph; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_weather": {
@@ -2194,7 +2194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), control weather, fog cloud, gust of wind, ice storm, sleet storm, wind wall; **Cost** 42,033 gp"
+			"**Requirements** {feat/Craft Staff}, control weather, fog cloud, gust of wind, ice storm, sleet storm, wind wall; **Cost** 42,033 gp"
 		]
 	},
 	"staff_of_earth_and_stone": {
@@ -2217,7 +2217,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), move earth, passwall; **Cost** 42,900 gp"
+			"**Requirements** {feat/Craft Staff}, move earth, passwall; **Cost** 42,900 gp"
 		]
 	},
 	"staff_of_vision": {
@@ -2244,7 +2244,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), arcane eye, arcane sight, prying eyes, scrying, see invisibility, true seeing; **Cost** 45,416 gp"
+			"**Requirements** {feat/Craft Staff}, arcane eye, arcane sight, prying eyes, scrying, see invisibility, true seeing; **Cost** 45,416 gp"
 		]
 	},
 	"staff_of_waves": {
@@ -2267,7 +2267,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), hydraulic torrent, ride the waves, slipstream, vortex, wave form; **Cost** 45,300 gp"
+			"**Requirements** {feat/Craft Staff}, hydraulic torrent, ride the waves, slipstream, vortex, wave form; **Cost** 45,300 gp"
 		]
 	},
 	"staff_of_the_woodlands": {
@@ -2296,7 +2296,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), animate plants, barkskin, charm animal, pass without trace, speak with animals, [summon nature's ally VI](spell/summon_natures_ally_6), wall of thorns; **Cost** 50,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, animate plants, barkskin, charm animal, pass without trace, speak with animals, [summon nature's ally VI](spell/summon_natures_ally_6), wall of thorns; **Cost** 50,500 gp"
 		]
 	},
 	"staff_of_life": {
@@ -2319,7 +2319,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), heal, raise dead; **Cost** 79,700 gp"
+			"**Requirements** {feat/Craft Staff}, heal, raise dead; **Cost** 79,700 gp"
 		]
 	},
 	"staff_of_nethys": {
@@ -2345,7 +2345,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), Heightened Spell, arcane sight, channel the gift or imbue with spell ability, fractions of heal and harm, prying eyes, spell gauge, spell scourge; **Cost** 65,775 gp"
+			"**Requirements** {feat/Craft Staff}, Heightened Spell, arcane sight, channel the gift or imbue with spell ability, fractions of heal and harm, prying eyes, spell gauge, spell scourge; **Cost** 65,775 gp"
 		]
 	},
 	"staff_of_one_hundred_hands": {
@@ -2370,7 +2370,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), clenched fist, crushing hand, forceful hand, grasping hand, interposing hand, mage hand; **Cost** 90,100 gp"
+			"**Requirements** {feat/Craft Staff}, clenched fist, crushing hand, forceful hand, grasping hand, interposing hand, mage hand; **Cost** 90,100 gp"
 		]
 	},
 	"vril_staff": {
@@ -2399,7 +2399,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cure light wounds, cure moderate wounds, mage hand, repulsion, telekinesis; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Staff}, cure light wounds, cure moderate wounds, mage hand, repulsion, telekinesis; **Cost** 100,000 gp"
 		]
 	},
 	"staff_of_passage": {
@@ -2425,7 +2425,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), astral projection, dimension door, greater teleport, passwall, phase door; **Cost** 115,950 gp"
+			"**Requirements** {feat/Craft Staff}, astral projection, dimension door, greater teleport, passwall, phase door; **Cost** 115,950 gp"
 		]
 	},
 	"staff_of_the_hierophant": {
@@ -2457,7 +2457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), bless, cure critical wounds, cure moderate wounds, flame strike, freedom of movement, heightened hold person, prayer, righteous might, searing light, true resurrection, true seeing; **Cost** 110,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, bless, cure critical wounds, cure moderate wounds, flame strike, freedom of movement, heightened hold person, prayer, righteous might, searing light, true resurrection, true seeing; **Cost** 110,000 gp"
 		]
 	},
 	"winters_reach": {
@@ -2485,7 +2485,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Staff](feat/craft_staff), cone of cold, dispel magic, freezing sphere, frostbite, ice body, ice storm, icy prison, wall of ice; **Cost** 114,000 gp"
+			"**Requirements** {feat/Craft Staff}, cone of cold, dispel magic, freezing sphere, frostbite, ice body, ice storm, icy prison, wall of ice; **Cost** 114,000 gp"
 		]
 	},
 	"staff_of_power": {
@@ -2522,7 +2522,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), cone of cold, continual flame, heightened fireball, globe of invulnerability, hold monster, levitate, heightened lightning bolt, magic missile, heightened ray of enfeeblement, wall of force; **Cost** 117,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, cone of cold, continual flame, heightened fireball, globe of invulnerability, hold monster, levitate, heightened lightning bolt, magic missile, heightened ray of enfeeblement, wall of force; **Cost** 117,500 gp"
 		]
 	},
 	"lasirros_staff": {
@@ -2554,7 +2554,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Craft Staff](feat/craft_staff), Heighten Spell, Widen Spell, break enchantment, fireball, flame arrow, greater dispel magic, invisibility, knock, nondetection, repulsion, wall of force; **Cost** 120,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, Heighten Spell, Widen Spell, break enchantment, fireball, flame arrow, greater dispel magic, invisibility, knock, nondetection, repulsion, wall of force; **Cost** 120,000 gp"
 		]
 	},
 	"staff_of_magical_decline": {
@@ -2587,7 +2587,7 @@
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Weight** 4 lbs.",
 			"",
-			"A staff of occasional wonder can appear to be any magical staff, and in fact such items are usually the result of accidents during an attempted crafting of the staff it appears to be. It usually functions as intended, but each time someone uses the staff, they must roll d%. On a roll of 1-10, instead of the desired effect, the staff acts like a [rod of wonder](magic-rod/rod_of_wonder).",
+			"A staff of occasional wonder can appear to be any magical staff, and in fact such items are usually the result of accidents during an attempted crafting of the staff it appears to be. It usually functions as intended, but each time someone uses the staff, they must roll d%. On a roll of 1-10, instead of the desired effect, the staff acts like a {magic-rod/rod of wonder}.",
 			"",
 			"### Construction",
 			"",

@@ -41,7 +41,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), obscuring mist; **Price** 1,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, obscuring mist; **Price** 1,250 gp"
 		]
 	},
 	"kimle_coat": {
@@ -58,7 +58,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), water breathing, creator must have 5 ranks in the Swim skill; **Price** 1,230 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, water breathing, creator must have 5 ranks in the Swim skill; **Price** 1,230 gp"
 		]
 	},
 	"grim_gloom_mail": {
@@ -71,11 +71,11 @@
 			"**Aura** faint abjuration and necromancy; **CL** 3rd  ",
 			"**Slot** armor; **Price** 2,380 gp; **Weight** 40 lbs.",
 			"",
-			"This ugly +1 chainmail resists polishing and easily acquires bent links and other cosmetic damage from everyday use, though such blemishes never impair its function as armor. Once per day as a standard action, the wearer can afflict one target within 30 feet with bad luck, giving it a -2 penalty to Armor Class, on attack rolls, or on saving throws (wearer's choice) for 1 minute. In addition, once per day, the wearer can use [protection from good](spell/protection_from_good).",
+			"This ugly +1 chainmail resists polishing and easily acquires bent links and other cosmetic damage from everyday use, though such blemishes never impair its function as armor. Once per day as a standard action, the wearer can afflict one target within 30 feet with bad luck, giving it a -2 penalty to Armor Class, on attack rolls, or on saving throws (wearer's choice) for 1 minute. In addition, once per day, the wearer can use {spell/protection from good}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bestow curse, [protection from good](spell/protection_from_good), Curse subdomain or evil eye hex; **Price** 1,340 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bestow curse, {spell/protection from good}, Curse subdomain or evil eye hex; **Price** 1,340 gp"
 		]
 	},
 	"inheritors_breastplate": {
@@ -95,7 +95,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bless weapon, remove fear; **Price** 1,390 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bless weapon, remove fear; **Price** 1,390 gp"
 		]
 	},
 	"otyugh_hide": {
@@ -116,7 +116,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion, stinking cloud; **Price** 1,365 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, contagion, stinking cloud; **Price** 1,365 gp"
 		]
 	},
 	"iadaran_dress_uniform": {
@@ -133,7 +133,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), owl's wisdom, creator must be an elf; **Price** 2,265 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, owl's wisdom, creator must be an elf; **Price** 2,265 gp"
 		]
 	},
 	"milanite_armor": {
@@ -150,7 +150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds; **Price** 1,470 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cure light wounds; **Price** 1,470 gp"
 		]
 	},
 	"ghoul_hide": {
@@ -169,7 +169,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ghoul touch; **Price** 1,515 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, ghoul touch; **Price** 1,515 gp"
 		]
 	},
 	"red_stalker_armor": {
@@ -189,7 +189,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator must have 5 ranks in Bluff; **Price** 1,598 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must have 5 ranks in Bluff; **Price** 1,598 gp"
 		]
 	},
 	"rosy_hauberk": {
@@ -206,7 +206,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), aspect of the nightingale, summon instrument; **Price** 1,965 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, aspect of the nightingale, summon instrument; **Price** 1,965 gp"
 		]
 	},
 	"dragonhide_plate": {
@@ -241,7 +241,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), speak with dead; **Price** 1,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, speak with dead; **Price** 1,800 gp"
 		]
 	},
 	"pelt_of_the_demon_mother": {
@@ -258,7 +258,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, unnatural lust; **Price** 1,745 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disguise self, unnatural lust; **Price** 1,745 gp"
 		]
 	},
 	"djezet_skin": {
@@ -275,7 +275,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm person; **Price** 1,785 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, charm person; **Price** 1,785 gp"
 		]
 	},
 	"starsong_mail": {
@@ -292,7 +292,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dream feast, expeditious retreat; **Price** 1,880 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dream feast, expeditious retreat; **Price** 1,880 gp"
 		]
 	},
 	"powerhouse_pelt": {
@@ -326,7 +326,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), abundant ammunition, purify food and drink; **Price** 1,890 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, abundant ammunition, purify food and drink; **Price** 1,890 gp"
 		]
 	},
 	"calamitous_mail": {
@@ -343,7 +343,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), divine favor; **Price** 2,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, divine favor; **Price** 2,000 gp"
 		]
 	},
 	"perfection_leather": {
@@ -360,7 +360,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), guidance, stone fist, touch of fatigue; **Price** 2,010 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, guidance, stone fist, touch of fatigue; **Price** 2,010 gp"
 		]
 	},
 	"ekujae_jungle_armor": {
@@ -379,7 +379,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), endure elements, entangle, creator must be a druid; **Price** 2,275 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, endure elements, entangle, creator must be a druid; **Price** 2,275 gp"
 		]
 	},
 	"half-plate_of_the_dark_prince": {
@@ -396,7 +396,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm person, infernal healing; **Price** 2,330 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, charm person, infernal healing; **Price** 2,330 gp"
 		]
 	},
 	"half_plate_of_the_dark_prince": {
@@ -416,7 +416,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), crafter's curse, crafter's fortune, magic weapon; **Price** 2,110 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, crafter's curse, crafter's fortune, magic weapon; **Price** 2,110 gp"
 		]
 	},
 	"painspike_armor": {
@@ -433,7 +433,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, interrogation; **Price** 2,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, interrogation; **Price** 2,160 gp"
 		]
 	},
 	"forgefathers_half-plate": {
@@ -446,11 +446,11 @@
 			"**Aura** faint abjuration, divination, evocation, and transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 4,180 gp; **Weight** 50 lbs.",
 			"",
-			"This +1 half-plate is usually sized for a dwarf and decorated with one or more sacred hammer symbols of Torag. Once per day, the wearer may use mending, [protection from evil](spell/protection_from_evil), and spark. Once per day as a full-round action, the wearer can attempt a Knowledge check (with a +10 bonus) to identify a creature he is currently in combat with, even if he possesses no ranks in the appropriate Knowledge skill.",
+			"This +1 half-plate is usually sized for a dwarf and decorated with one or more sacred hammer symbols of Torag. Once per day, the wearer may use mending, {spell/protection from evil}, and spark. Once per day as a full-round action, the wearer can attempt a Knowledge check (with a +10 bonus) to identify a creature he is currently in combat with, even if he possesses no ranks in the appropriate Knowledge skill.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), know the enemy, mending, [protection from evil](spell/protection_from_evil), spark; **Price** 2,465 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, know the enemy, mending, {spell/protection from evil}, spark; **Price** 2,465 gp"
 		]
 	},
 	"forgefathers_half_plate": {
@@ -470,7 +470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, vanish; **Price** 2,370 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disguise self, vanish; **Price** 2,370 gp"
 		]
 	},
 	"armor_of_the_unquenchable_fire": {
@@ -487,7 +487,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm person, [summon monster I](spell/summon_monster_1); **Price** 2,570 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, charm person, [summon monster I](spell/summon_monster_1); **Price** 2,570 gp"
 		]
 	},
 	"lucky_drunks_mail": {
@@ -504,7 +504,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), divine favor, moment of greatness; **Price** 2,570 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, divine favor, moment of greatness; **Price** 2,570 gp"
 		]
 	},
 	"eternal_iron_breastplate": {
@@ -521,7 +521,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), compel hostility, stabilize, either cure critical wounds or lesser restoration; **Price** 2,620 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, compel hostility, stabilize, either cure critical wounds or lesser restoration; **Price** 2,620 gp"
 		]
 	},
 	"fangtide_scale_mail": {
@@ -538,7 +538,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), burst bonds, disguise self, wrath; **Price** 2,590 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, burst bonds, disguise self, wrath; **Price** 2,590 gp"
 		]
 	},
 	"thanatotic_visage": {
@@ -572,7 +572,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), buoyancy, water walk; **Price** 2,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, buoyancy, water walk; **Price** 2,500 gp"
 		]
 	},
 	"golden_judges_breastplate": {
@@ -589,7 +589,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), command, owl's wisdom, peacebond; **Price** 2,730 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, command, owl's wisdom, peacebond; **Price** 2,730 gp"
 		]
 	},
 	"elven_chain": {
@@ -625,7 +625,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength; **Price** 2,665 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength; **Price** 2,665 gp"
 		]
 	},
 	"akhentepis_armor": {
@@ -642,7 +642,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), anticipate peril, stabilize, cure critical wounds or lesser restoration; **Price** 2,695 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, anticipate peril, stabilize, cure critical wounds or lesser restoration; **Price** 2,695 gp"
 		]
 	},
 	"blackfingers_apron": {
@@ -659,7 +659,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), negate aroma, stinking cloud, web; **Price** 2,700 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, negate aroma, stinking cloud, web; **Price** 2,700 gp"
 		]
 	},
 	"gravewatcher_chainmail": {
@@ -672,11 +672,11 @@
 			"**Aura** moderate divination, evocation, and necromancy; **CL** 7th  ",
 			"**Slot** armor; **Price** 5,380 gp; **Weight** 40 lbs.",
 			"",
-			"This blue-white +1 deathless chainmail is made of an intricate pattern of light and dark links that form the shape of Pharasma's spiral on the armor's chest. The wearer can use [detect undead](spell/detect_undead), disrupt undead, and light each once per day.",
+			"This blue-white +1 deathless chainmail is made of an intricate pattern of light and dark links that form the shape of Pharasma's spiral on the armor's chest. The wearer can use {spell/detect undead}, disrupt undead, and light each once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death ward, [detect undead](spell/detect_undead), disrupt undead, light; **Price** 2,840 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, death ward, {spell/detect undead}, disrupt undead, light; **Price** 2,840 gp"
 		]
 	},
 	"deadeye_leather": {
@@ -693,7 +693,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invisibility, silence, true strike; **Price** 2,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, invisibility, silence, true strike; **Price** 2,800 gp"
 		]
 	},
 	"all-seeing_armor": {
@@ -706,11 +706,11 @@
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** armor; **Price** 5,570 gp; **Weight** 25 lbs.",
 			"",
-			"This +1 chain shirt is made of shiny, bright rings on the left side and dull, dark rings on the right. The church of Nethys uses suits of all-seeing armor to help Nethysians explore and catalog ancient libraries. At will, the wearer can use [detect magic](spell/detect_magic) and read magic. Once per day, the wearer can use comprehend languages.",
+			"This +1 chain shirt is made of shiny, bright rings on the left side and dull, dark rings on the right. The church of Nethys uses suits of all-seeing armor to help Nethysians explore and catalog ancient libraries. At will, the wearer can use {spell/detect magic} and read magic. Once per day, the wearer can use comprehend languages.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), comprehend languages, [detect magic](spell/detect_magic), read magic; **Price** 2,910 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, comprehend languages, {spell/detect magic}, read magic; **Price** 2,910 gp"
 		]
 	},
 	"all_seeing_armor": {
@@ -730,7 +730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), acid splash, dancing lights, invisibility, mage hand, silence; **Price** 2,940 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, acid splash, dancing lights, invisibility, mage hand, silence; **Price** 2,940 gp"
 		]
 	},
 	"shifting_jerkin": {
@@ -747,7 +747,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, fox's cunning; **Price** 3,065 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disguise self, fox's cunning; **Price** 3,065 gp"
 		]
 	},
 	"arachnid_harness": {
@@ -764,7 +764,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spider climb; **Price** 3,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, spider climb; **Price** 3,160 gp"
 		]
 	},
 	"raiment_of_chains": {
@@ -783,7 +783,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, chain of perdition; **Price** 3,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects, chain of perdition; **Price** 3,250 gp"
 		]
 	},
 	"locust_cuirass": {
@@ -802,7 +802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cape of wasps; **Price** 3,365 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cape of wasps; **Price** 3,365 gp"
 		]
 	},
 	"dawnflower_chain_vest": {
@@ -819,7 +819,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), light, stabilize, creator must be a caster of at least 12th level; **Price** 3,600 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, light, stabilize, creator must be a caster of at least 12th level; **Price** 3,600 gp"
 		]
 	},
 	"truefaith_vestments": {
@@ -836,7 +836,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), disguise self; **Price** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Price** 3,600 gp"
 		]
 	},
 	"featherleaf_barding": {
@@ -853,7 +853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fly, tree stride; **Price** 3,660 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fly, tree stride; **Price** 3,660 gp"
 		]
 	},
 	"trained_barding": {
@@ -870,7 +870,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), awaken; **Price** 4,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, awaken; **Price** 4,350 gp"
 		]
 	},
 	"stalking": {
@@ -887,7 +887,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), chameleon stride, perceive cues; **Price** 4,375 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, chameleon stride, perceive cues; **Price** 4,375 gp"
 		]
 	},
 	"scouting_leather": {
@@ -904,7 +904,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, expeditious retreat; **Price** 4,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disguise self, expeditious retreat; **Price** 4,450 gp"
 		]
 	},
 	"snakescale_armor": {
@@ -921,7 +921,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invisibility, silence, spider climb; **Price** 4,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, invisibility, silence, spider climb; **Price** 4,450 gp"
 		]
 	},
 	"morlock_hide": {
@@ -938,7 +938,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), alter self, invisibility; **Price** 4,535 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, alter self, invisibility; **Price** 4,535 gp"
 		]
 	},
 	"stone-eater_armor": {
@@ -957,7 +957,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stone to flesh; **Price** 5,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, stone to flesh; **Price** 5,450 gp"
 		]
 	},
 	"stone_eater_armor": {
@@ -977,7 +977,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear, rage; **Price** 4,700 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fear, rage; **Price** 4,700 gp"
 		]
 	},
 	"writhing_armor": {
@@ -994,7 +994,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate rope; **Price** 4,980 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate rope; **Price** 4,980 gp"
 		]
 	},
 	"windstrider_mail": {
@@ -1015,7 +1015,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), gaseous form, gust of wind; **Price** 4,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, gaseous form, gust of wind; **Price** 4,100 gp"
 		]
 	},
 	"adamantine_breastplate": {
@@ -1053,7 +1053,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), augury, creator must be an oracle with the desired revelation; **Price** 5,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, augury, creator must be an oracle with the desired revelation; **Price** 5,300 gp"
 		]
 	},
 	"equestrian_plate": {
@@ -1072,7 +1072,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fabricate; **Price** 6,150 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fabricate; **Price** 6,150 gp"
 		]
 	},
 	"enchanted_eelskin": {
@@ -1089,7 +1089,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), grease, invisibility, touch of the sea; **Price** 5,660 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, grease, invisibility, touch of the sea; **Price** 5,660 gp"
 		]
 	},
 	"tireless_tracking_hide": {
@@ -1106,7 +1106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bear's endurance; **Price** 5,665 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bear's endurance; **Price** 5,665 gp"
 		]
 	},
 	"gnome_scrap_armor_gnome": {
@@ -1129,7 +1129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item, creator must be a gnome; **Price** 5,675 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shrink item, creator must be a gnome; **Price** 5,675 gp"
 		]
 	},
 	"gnome_scrap_armor": {
@@ -1149,7 +1149,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), plane shift; **Price** 5,580 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, plane shift; **Price** 5,580 gp"
 		]
 	},
 	"emissarys_breastplate": {
@@ -1166,7 +1166,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), arcane mark, command, tongues, creator must have 5 ranks in Knowledge (nobility); **Price** 5,850 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, arcane mark, command, tongues, creator must have 5 ranks in Knowledge (nobility); **Price** 5,850 gp"
 		]
 	},
 	"uskroths_armor": {
@@ -1183,7 +1183,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), righteous might; **Price** 6,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, righteous might; **Price** 6,350 gp"
 		]
 	},
 	"mosswater_stained_leather": {
@@ -1202,7 +1202,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ethereal jaunt; **Price** 5,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, ethereal jaunt; **Price** 5,875 gp"
 		]
 	},
 	"bilgewater_coat": {
@@ -1219,7 +1219,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), grease, stinking cloud; **Price** 6,405 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, grease, stinking cloud; **Price** 6,405 gp"
 		]
 	},
 	"boneless_leather": {
@@ -1239,7 +1239,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), alter self, creator must have 5 ranks in Acrobatics and Escape Artist; **Price** 6,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, alter self, creator must have 5 ranks in Acrobatics and Escape Artist; **Price** 6,160 gp"
 		]
 	},
 	"lupine_rageskin": {
@@ -1256,7 +1256,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast_shape_1); **Price** 6,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/beast shape I}; **Price** 6,160 gp"
 		]
 	},
 	"elemental_bulwark": {
@@ -1273,7 +1273,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fire shield; **Price** 6,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fire shield; **Price** 6,300 gp"
 		]
 	},
 	"murderers_blackcloth": {
@@ -1293,7 +1293,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, invisibility, silence; **Price** 6,280 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, invisibility, silence; **Price** 6,280 gp"
 		]
 	},
 	"honors_panoply": {
@@ -1314,7 +1314,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), archon's aura, veil of positive energy, creator must worship Iomedae; **Price** 7,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, archon's aura, veil of positive energy, creator must worship Iomedae; **Price** 7,100 gp"
 		]
 	},
 	"folding_plate": {
@@ -1334,7 +1334,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), instant summons; **Price** 7,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, instant summons; **Price** 7,650 gp"
 		]
 	},
 	"hallowed_chain_varisian": {
@@ -1355,7 +1355,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure moderate wounds, creator must be a Varisian; **Price** 6,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cure moderate wounds, creator must be a Varisian; **Price** 6,550 gp"
 		]
 	},
 	"hallowed_chain": {
@@ -1377,7 +1377,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cause fear, spiritual ally; **Price** 6,900 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cause fear, spiritual ally; **Price** 6,900 gp"
 		]
 	},
 	"armor_of_the_sands": {
@@ -1394,7 +1394,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), stoneskin; **Price** 7,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, stoneskin; **Price** 7,160 gp"
 		]
 	},
 	"armor_of_grim_triumph_orc": {
@@ -1419,7 +1419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear, gentle repose, creator must be an orc; **Price** 7,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fear, gentle repose, creator must be an orc; **Price** 7,500 gp"
 		]
 	},
 	"armor_of_grim_triumph": {
@@ -1443,7 +1443,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength; **Price** 7,415 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength; **Price** 7,415 gp"
 		]
 	},
 	"icelink_chainmail": {
@@ -1463,7 +1463,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), frigid touch, wall of ice; **Price** 7,700 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, frigid touch, wall of ice; **Price** 7,700 gp"
 		]
 	},
 	"gale_armor": {
@@ -1480,7 +1480,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), air walk, glide; **Price** 7,680 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, air walk, glide; **Price** 7,680 gp"
 		]
 	},
 	"breastplate_of_vanishing": {
@@ -1499,7 +1499,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), rope trick; **Price** 9,700 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, rope trick; **Price** 9,700 gp"
 		]
 	},
 	"coat_of_shells_gillmen_merfolk": {
@@ -1520,7 +1520,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), create water, endure elements, freedom of movement, creator must be either a gillman or a merfolk; **Price** 7,850 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, create water, endure elements, freedom of movement, creator must be either a gillman or a merfolk; **Price** 7,850 gp"
 		]
 	},
 	"coat_of_shells": {
@@ -1540,7 +1540,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [detect evil](spell/detect_evil), resistance; **Price** 10,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/detect evil}, resistance; **Price** 10,650 gp"
 		]
 	},
 	"armor_of_insults": {
@@ -1560,7 +1560,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), confusion; **Price** 7,675 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, confusion; **Price** 7,675 gp"
 		]
 	},
 	"skin_of_klendar_the_troll_king": {
@@ -1579,7 +1579,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), aid, regenerate; **Price** 8,157 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, aid, regenerate; **Price** 8,157 gp"
 		]
 	},
 	"numerian_resistance_plate": {
@@ -1598,7 +1598,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deflection, shield; **Price** 8,700 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, deflection, shield; **Price** 8,700 gp"
 		]
 	},
 	"dwarven_plate": {
@@ -1633,7 +1633,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), limited wish or miracle, creator must have the raging song class feature; **Price** 11,850 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, limited wish or miracle, creator must have the raging song class feature; **Price** 11,850 gp"
 		]
 	},
 	"abrogalian_corset": {
@@ -1654,7 +1654,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lesser planar ally, summon swarm, caster level 9th; **Price** 8,675 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, lesser planar ally, summon swarm, caster level 9th; **Price** 8,675 gp"
 		]
 	},
 	"backbreaker_mail": {
@@ -1673,7 +1673,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast_shape_1), disguise self, [summon monster I](spell/summon_monster_1); **Price** 9,025 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/beast shape I}, disguise self, [summon monster I](spell/summon_monster_1); **Price** 9,025 gp"
 		]
 	},
 	"hide_of_the_hagfish": {
@@ -1686,11 +1686,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor; **Price** 18,165 gp; **Weight** 25 lbs.",
 			"",
-			"With the coming of the Eye of Abendego and the permanent change to the coastline's environs, its inhabitants have been forced to look to strange new places for resources. Hagfish hide may well be one of the most unusual replacement materials. This suit of +1 [slick](magic-enhancement/slick) hide armor appears to constantly drip a viscous ooze. When immersed in water, the wearer gains a swim speed of 20 feet and the ability to breathe underwater. The slime exuded by the armor is particularly unpleasant and foul-tasting-the first time a creature successfully bites a character wearing hide of the hagfish in a 24 hour period, that creature must succeed at a DC 14 Fortitude saving throw to avoid being nauseated by the slime for 1 round.",
+			"With the coming of the Eye of Abendego and the permanent change to the coastline's environs, its inhabitants have been forced to look to strange new places for resources. Hagfish hide may well be one of the most unusual replacement materials. This suit of +1 {magic-enhancement/slick} hide armor appears to constantly drip a viscous ooze. When immersed in water, the wearer gains a swim speed of 20 feet and the ability to breathe underwater. The slime exuded by the armor is particularly unpleasant and foul-tasting-the first time a creature successfully bites a character wearing hide of the hagfish in a 24 hour period, that creature must succeed at a DC 14 Fortitude saving throw to avoid being nauseated by the slime for 1 round.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease), [water breathing](spell/water_breathing); **Price** 9,165 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}, {spell/water breathing}; **Price** 9,165 gp"
 		]
 	},
 	"eagle_knight_dress_uniform": {
@@ -1710,7 +1710,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), liberating command, mage armor; **Price** 9,175 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, liberating command, mage armor; **Price** 9,175 gp"
 		]
 	},
 	"lifecollar_coat": {
@@ -1731,7 +1731,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death ward, shield of faith; **Price** 9,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, death ward, shield of faith; **Price** 9,200 gp"
 		]
 	},
 	"armor_of_the_pure_legion": {
@@ -1748,7 +1748,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), endure elements, mind blank; **Price** 9,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, endure elements, mind blank; **Price** 9,300 gp"
 		]
 	},
 	"hide_of_the_dragonrider": {
@@ -1765,7 +1765,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heroism, resist energy, shield or shield of faith, creator must have 5 ranks in the Ride skill; **Price** 9,405 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, heroism, resist energy, shield or shield of faith, creator must have 5 ranks in the Ride skill; **Price** 9,405 gp"
 		]
 	},
 	"arboreal_armor": {
@@ -1782,7 +1782,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), baleful polymorph, barkskin; **Price** 9,420 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, baleful polymorph, barkskin; **Price** 9,420 gp"
 		]
 	},
 	"banded_mail_of_luck": {
@@ -1802,7 +1802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bless; **Price** 9,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bless; **Price** 9,650 gp"
 		]
 	},
 	"catskin_leather": {
@@ -1819,7 +1819,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, feather fall, and limited wish, wish, or miracle; **Price** 9,535 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cat's grace, feather fall, and limited wish, wish, or miracle; **Price** 9,535 gp"
 		]
 	},
 	"infiltrators_mail": {
@@ -1832,11 +1832,11 @@
 			"**Aura** moderate transmutation (see text); **CL** 7th  ",
 			"**Slot** armor; **Price** 19,650 gp; **Weight** 30 lbs.",
 			"",
-			"This dull black suit of +2 scale mail does not impose an armor check penalty on the wearer's Stealth checks, though other armor check penalties apply as normal. Additionally, infiltrator's mail reacts to [detect magic](spell/detect_magic) as though it were nonmagical and, when worn, extends this effect to all other magic items worn or held by the wearer unless the viewer uses identify or a similar effect while examining the items.",
+			"This dull black suit of +2 scale mail does not impose an armor check penalty on the wearer's Stealth checks, though other armor check penalties apply as normal. Additionally, infiltrator's mail reacts to {spell/detect magic} as though it were nonmagical and, when worn, extends this effect to all other magic items worn or held by the wearer unless the viewer uses identify or a similar effect while examining the items.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, magic aura; **Price** 13,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cat's grace, magic aura; **Price** 13,650 gp"
 		]
 	},
 	"ursine_rageskin": {
@@ -1853,7 +1853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape II](spell/beast_shape_2); **Price** 10,165 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/beast shape II}; **Price** 10,165 gp"
 		]
 	},
 	"the_forbidden_name": {
@@ -1889,7 +1889,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear; **Price** 10,275 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fear; **Price** 10,275 gp"
 		]
 	},
 	"do-maru_of_broken_flesh": {
@@ -1908,7 +1908,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cleanse; **Price** 10,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cleanse; **Price** 10,450 gp"
 		]
 	},
 	"do_maru_of_broken_flesh": {
@@ -1930,7 +1930,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), holy smite, [protection from evil](spell/protection_from_evil); **Price** 10,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, holy smite, {spell/protection from evil}; **Price** 10,750 gp"
 		]
 	},
 	"war_commanders_field_plate": {
@@ -1949,7 +1949,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), heroism, [protection from evil](spell/protection_from_evil); **Price** 11,475 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, heroism, {spell/protection from evil}; **Price** 11,475 gp"
 		]
 	},
 	"armor_of_fragmenting_stone": {
@@ -1966,7 +1966,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4), creator must have visited the Elemental Plane of Earth; **Price** 11,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4), creator must have visited the Elemental Plane of Earth; **Price** 11,650 gp"
 		]
 	},
 	"gug_hide": {
@@ -1983,7 +1983,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), alter self, limited wish; **Price** 11,165 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, alter self, limited wish; **Price** 11,165 gp"
 		]
 	},
 	"stalwart_breastplate": {
@@ -2000,7 +2000,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), iron body, either limited wish or miracle; **Price** 11,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, iron body, either limited wish or miracle; **Price** 11,350 gp"
 		]
 	},
 	"celestial_armor": {
@@ -2020,7 +2020,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fly, creator must be good; **Price** 11,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fly, creator must be good; **Price** 11,350 gp"
 		]
 	},
 	"deaths_preservation_banded_mail": {
@@ -2038,7 +2038,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contingency, gentle repose, limited wish or miracle, word of recall; **Price** 11,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, contingency, gentle repose, limited wish or miracle, word of recall; **Price** 11,200 gp"
 		]
 	},
 	"armigers_armor": {
@@ -2055,7 +2055,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate object, limited wish or miracle, creator must be proficient with heavy armor; **Price** 19,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate object, limited wish or miracle, creator must be proficient with heavy armor; **Price** 19,500 gp"
 		]
 	},
 	"ghost_mirror_armor": {
@@ -2068,11 +2068,11 @@
 			"**Aura** strong abjuration and transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** 22,675 gp; **Weight** 45 lbs.",
 			"",
-			"Crafted by Uqtaal spirit-shamans, this ancient +1 ghost touch [four-mirror armor](equipment-armor/four-mirror) consists of four polished steel plates harnessed together with leather shoulder straps. Two round plates protect the wearer's front and back, while two smaller rectangular plates cover the sides of the torso. The wearer of ghost mirror armor can cast deathwatch (caster level 1st) three times per day. In addition, when the wearer is attacked by an incorporeal undead creature, the armor automatically casts [protection from evil](spell/protection_from_evil) on the wearer as an immediate action up to once per day.",
+			"Crafted by Uqtaal spirit-shamans, this ancient +1 ghost touch [four-mirror armor](equipment-armor/four-mirror) consists of four polished steel plates harnessed together with leather shoulder straps. Two round plates protect the wearer's front and back, while two smaller rectangular plates cover the sides of the torso. The wearer of ghost mirror armor can cast deathwatch (caster level 1st) three times per day. In addition, when the wearer is attacked by an incorporeal undead creature, the armor automatically casts {spell/protection from evil} on the wearer as an immediate action up to once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), deathwatch, etherealness, [protection from evil](spell/protection_from_evil); **Price** 11,435 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, deathwatch, etherealness, {spell/protection from evil}; **Price** 11,435 gp"
 		]
 	},
 	"armor_of_the_pious": {
@@ -2089,7 +2089,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), prayer, sanctify armor; **Price** 16,900 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, prayer, sanctify armor; **Price** 16,900 gp"
 		]
 	},
 	"goblin_plate_goblin": {
@@ -2108,7 +2108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy, shatter, creator must be a goblin; **Price** 12,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, resist energy, shatter, creator must be a goblin; **Price** 12,650 gp"
 		]
 	},
 	"goblin_plate": {
@@ -2131,7 +2131,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), water walk; **Price** 12,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, water walk; **Price** 12,100 gp"
 		]
 	},
 	"dragonform_armor": {
@@ -2145,11 +2145,11 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 24,120 gp; **Weight** 15 lbs.",
 			"",
-			"This +1 leather armor is the same color as the dragon type with which it is associated and has been worked to resemble dragon hide. Once per day the wearer can speak the command word and transform into the associated dragon type as the [form of the dragon I](spell/form_of_the_dragon_1) spell. This effect lasts 11 minutes.",
+			"This +1 leather armor is the same color as the dragon type with which it is associated and has been worked to resemble dragon hide. Once per day the wearer can speak the command word and transform into the associated dragon type as the {spell/form of the dragon I} spell. This effect lasts 11 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [form of the dragon I](spell/form_of_the_dragon_1); **Price** 12,060 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/form of the dragon I}; **Price** 12,060 gp"
 		]
 	},
 	"purgatorys_cowl": {
@@ -2166,7 +2166,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), death ward, undeath to death; **Price** 12,175 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, death ward, undeath to death; **Price** 12,175 gp"
 		]
 	},
 	"aldori_dueling_armor": {
@@ -2183,7 +2183,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, symbol of striking; **Price** 12,200 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cat's grace, symbol of striking; **Price** 12,200 gp"
 		]
 	},
 	"plate_armor_of_the_deep": {
@@ -2203,7 +2203,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), freedom of movement, tongues, water breathing; **Price** 13,150 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, freedom of movement, tongues, water breathing; **Price** 13,150 gp"
 		]
 	},
 	"suit_of_inverted_jade": {
@@ -2216,13 +2216,13 @@
 			"**Aura** strong necromancy; **CL** 14th  ",
 			"**Slot** armor; **Price** 25,000 gp; **Weight** 50 lbs.",
 			"",
-			"Originating in ancient Minkai, the typical jade burial suit consists of several hundred jade plaques joined with gold wire, carefully inscribed with prayers to [Tsukiyo](faith/tsukiyo), the Tian-Min god of the moon, spirits, and preservation. Jade is believed to have preservative properties, and many ancient Tian royals were buried in jade suits.",
+			"Originating in ancient Minkai, the typical jade burial suit consists of several hundred jade plaques joined with gold wire, carefully inscribed with prayers to {faith/Tsukiyo}, the Tian-Min god of the moon, spirits, and preservation. Jade is believed to have preservative properties, and many ancient Tian royals were buried in jade suits.",
 			"",
-			"By disassembling and inverting the plaques and replacing Tsukiyo's name with that of his brother [Fumeiyoshi](faith/fumeiyoshi), god of graves, one clever ru-shi learned how to give the impression of death instead of life. A character wearing a suit of inverted jade gains a +3 profane bonus on saving throws against disease, mind-affecting effects, poison, sleep, and stunning. The wearer has the aura of an undead for the purposes of divination spells and effects, and unintelligent undead perceive the wearer as a fellow undead. The wearer, however, becomes vulnerable to effects that target or deal additional damage to undead (such as [searing light](spell/searing_light)). A suit of inverted jade otherwise functions as +3 stone lamellar.",
+			"By disassembling and inverting the plaques and replacing Tsukiyo's name with that of his brother {faith/Fumeiyoshi}, god of graves, one clever ru-shi learned how to give the impression of death instead of life. A character wearing a suit of inverted jade gains a +3 profane bonus on saving throws against disease, mind-affecting effects, poison, sleep, and stunning. The wearer has the aura of an undead for the purposes of divination spells and effects, and unintelligent undead perceive the wearer as a fellow undead. The wearer, however, becomes vulnerable to effects that target or deal additional damage to undead (such as {spell/searing light}). A suit of inverted jade otherwise functions as +3 stone lamellar.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [undead anatomy II](spell/undead_anatomy_2); **Price** 12,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [undead anatomy II](spell/undead_anatomy_2); **Price** 12,500 gp"
 		]
 	},
 	"spiritwalk_armor": {
@@ -2239,7 +2239,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), vanish, ethereal jaunt; **Price** 12,660 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, vanish, ethereal jaunt; **Price** 12,660 gp"
 		]
 	},
 	"breastplate_of_command": {
@@ -2259,7 +2259,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mass charm monster; **Price** 12,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, mass charm monster; **Price** 12,875 gp"
 		]
 	},
 	"forsaken_banded_mail": {
@@ -2279,7 +2279,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creator cannot be a divine spellcaster; **Price** 12,900 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator cannot be a divine spellcaster; **Price** 12,900 gp"
 		]
 	},
 	"armor_of_the_tireless_warrior": {
@@ -2296,7 +2296,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), invigorate, rage, waves of fatigue; **Price** 13,030 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, invigorate, rage, waves of fatigue; **Price** 13,030 gp"
 		]
 	},
 	"mail_of_sly_steps_halfling": {
@@ -2315,7 +2315,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), expeditious retreat, creator must be a halfling; **Price** 13,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, expeditious retreat, creator must be a halfling; **Price** 13,400 gp"
 		]
 	},
 	"mail_of_sly_steps": {
@@ -2338,7 +2338,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), haste; **Price** 18,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, haste; **Price** 18,500 gp"
 		]
 	},
 	"panoply_of_the_fierani_knight_elf": {
@@ -2357,7 +2357,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dismissal, [magic circle against chaos](spell/magic_circle_against_chaos), creator must be an elf; **Price** 18,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dismissal, {spell/magic circle against chaos}, creator must be an elf; **Price** 18,500 gp"
 		]
 	},
 	"panoply_of_the_fierani_knight": {
@@ -2381,7 +2381,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), meld into stone, wall of stone, creator must be a dwarf; **Price** 14,325 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, meld into stone, wall of stone, creator must be a dwarf; **Price** 14,325 gp"
 		]
 	},
 	"vibrant_frog_hide": {
@@ -2402,7 +2402,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape II](spell/beast_shape_2), poison; **Price** 14,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/beast shape II}, poison; **Price** 14,000 gp"
 		]
 	},
 	"blackjacket": {
@@ -2421,7 +2421,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), charm person, heroism; **Price** 14,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, charm person, heroism; **Price** 14,450 gp"
 		]
 	},
 	"warden_of_the_woods": {
@@ -2434,7 +2434,7 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** armor; **Price** 29,350 gp; **Weight** 25 lbs.",
 			"",
-			"The warden of the woods is a suit of +3 greenwood splint mail made of strips of laminated [greenwood](equipment-material/greenwood) that flex with the wearer's movement but stiffen when struck in battle. This armor is treated in all ways like medium armor, including when determining proficiency. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +2, and an armor check penalty of -4.",
+			"The warden of the woods is a suit of +3 greenwood splint mail made of strips of laminated {equipment-material/greenwood} that flex with the wearer's movement but stiffen when struck in battle. This armor is treated in all ways like medium armor, including when determining proficiency. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +2, and an armor check penalty of -4.",
 			"",
 			"As a move action, the wearer can snap a strip of wood loose from the armor. The strip lengthens into a weapon of a type chosen by the armor's wearer. It can become a +1 greenwood club, a +1/+1 greenwood quarterstaff, or a +1 keen greenwood wooden stake. If the wearer creates a club or quarterstaff in this way, it gains the benefits of the shillelagh spell with a duration of 1 minute. Each weapon removed from the warden of the woods reduces the armor's enhancement bonus by 1. Consequently, a maximum of three such weapons can be separated from the armor at any given time. The greenwood weapons keep their enhancement bonuses only while they're in the wearer's hands, though they remain masterwork weapons for other wielders.",
 			"",
@@ -2442,7 +2442,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ironwood, shillelagh, wood shape; **Price** 14,850 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, ironwood, shillelagh, wood shape; **Price** 14,850 gp"
 		]
 	},
 	"dragon_herald_vestments": {
@@ -2460,7 +2460,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy; **Price** 15,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, resist energy; **Price** 15,000 gp"
 		]
 	},
 	"alchemists_suit": {
@@ -2477,7 +2477,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 15,250 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shrink item; **Price** 15,250 gp"
 		]
 	},
 	"skyplate_armor": {
@@ -2494,7 +2494,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy, wind walk; **Price** 15,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, resist energy, wind walk; **Price** 15,300 gp"
 		]
 	},
 	"flowing_fortress_armor": {
@@ -2517,7 +2517,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), control water, [elemental body I](spell/elemental_body_1); **Price** 15,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, control water, [elemental body I](spell/elemental_body_1); **Price** 15,350 gp"
 		]
 	},
 	"maidens_panoply": {
@@ -2534,7 +2534,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), detect thoughts, telepathy; **Price** 16,150 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, detect thoughts, telepathy; **Price** 16,150 gp"
 		]
 	},
 	"diviners_blight": {
@@ -2555,7 +2555,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), misdirection, project image; **Price** 15,660 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, misdirection, project image; **Price** 15,660 gp"
 		]
 	},
 	"man_mountain_armor": {
@@ -2572,7 +2572,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), earthquake; **Price** 17,150 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, earthquake; **Price** 17,150 gp"
 		]
 	},
 	"scarab_breastplate": {
@@ -2589,11 +2589,11 @@
 			"",
 			"In addition, once per day on command, the wearer can transform the scarab breastplate into a swarm of scarab beetles that skitter from her chest to attack creatures nearby. This swarm has statistics identical to an army ant swarm and attacks any creatures within its space. The wearer can command the swarm to move (including changing the shape of the swarm) as a move action, but the swarm must remain adjacent to her. If the swarm is reduced to 0 hit points, if the wearer is forced to move away from the swarm, or if the wearer commands it to return to her as a move action, the swarm crawls back onto the wearer's torso and returns to armor form. While the swarm is active, the wearer is not considered to be wearing the scarab breastplate (except for purposes of commanding the swarm) and gains no defensive benefits from it.",
 			"",
-			"A druid of 6th level wearing a scarab breastplate can use her wild shape ability to duplicate [vermin shape I](spell/vermin_shape_1). At 8th level, she can also use it to duplicate [vermin shape II](spell/vermin_shape_2).",
+			"A druid of 6th level wearing a scarab breastplate can use her wild shape ability to duplicate {spell/vermin shape I}. At 8th level, she can also use it to duplicate {spell/vermin shape II}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), creeping doom, spell turning, [vermin shape II](spell/vermin_shape_2); **Price** 16,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creeping doom, spell turning, {spell/vermin shape II}; **Price** 16,350 gp"
 		]
 	},
 	"advocates_armor": {
@@ -2610,7 +2610,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), geas/quest, creator must make a pact with a devil; **Price** 16,660 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, geas/quest, creator must make a pact with a devil; **Price** 16,660 gp"
 		]
 	},
 	"clockwork_armor": {
@@ -2631,7 +2631,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects; **Price** 17,350 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects; **Price** 17,350 gp"
 		]
 	},
 	"eel_skin_armor": {
@@ -2648,7 +2648,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), elemental aura, grease, resist energy; **Price** 16,985 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, elemental aura, grease, resist energy; **Price** 16,985 gp"
 		]
 	},
 	"full_plate_of_the_corpse": {
@@ -2665,7 +2665,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hide from undead; **Price** 18,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, hide from undead; **Price** 18,650 gp"
 		]
 	},
 	"snailplate": {
@@ -2682,7 +2682,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spell turning, one flail snail shell; **Price** 18,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, spell turning, one flail snail shell; **Price** 18,000 gp"
 		]
 	},
 	"phoenix_armor": {
@@ -2700,7 +2700,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fire shield, fly; **Price** 18,890 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fire shield, fly; **Price** 18,890 gp"
 		]
 	},
 	"giant-hide_armor_ogre": {
@@ -2716,13 +2716,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_ogre": {
@@ -2744,7 +2744,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [form of the dragon I](spell/form_of_the_dragon_1), freedom of movement, major curse; **Price** 22,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/form of the dragon I}, freedom of movement, major curse; **Price** 22,300 gp"
 		]
 	},
 	"hallowed_chain_greater_varisian": {
@@ -2763,7 +2763,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), mass cure moderate wounds, creator must be a Varisian; **Price** 21,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, mass cure moderate wounds, creator must be a Varisian; **Price** 21,800 gp"
 		]
 	},
 	"greater_hallowed_chain": {
@@ -2785,7 +2785,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), polymorph, resist fire; **Price** 22,215 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, polymorph, resist fire; **Price** 22,215 gp"
 		]
 	},
 	"giant-hide_armor_hill_giant": {
@@ -2801,13 +2801,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_hill_giant": {
@@ -2827,7 +2827,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Armor Proficiency (light), [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), grease, iron body; **Price** 27,600 gp"
+			"**Requirements** Armor Proficiency (light), {feat/Craft Magic Arms and Armor}, grease, iron body; **Price** 27,600 gp"
 		]
 	},
 	"demon_armor": {
@@ -2849,7 +2849,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), contagion; **Price** 26,955 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, contagion; **Price** 26,955 gp"
 		]
 	},
 	"field_medics_breastplate": {
@@ -2867,7 +2867,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cure light wounds, sanctuary; **Price** 26,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cure light wounds, sanctuary; **Price** 26,450 gp"
 		]
 	},
 	"nightskin": {
@@ -2886,7 +2886,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), major image, true seeing; **Price** 26,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, major image, true seeing; **Price** 26,550 gp"
 		]
 	},
 	"tigers_hide": {
@@ -2903,7 +2903,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape III](spell/beast_shape_3); **Price** 29,115 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/beast shape III}; **Price** 29,115 gp"
 		]
 	},
 	"giant-hide_armor_stone_fire_or_frost_giant": {
@@ -2919,13 +2919,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_stone_fire_or_frost_giant": {
@@ -2944,13 +2944,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_troll": {
@@ -2970,7 +2970,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cause fear, death knell, heroism, keen edge; **Price** 38,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cause fear, death knell, heroism, keen edge; **Price** 38,500 gp"
 		]
 	},
 	"gelugon_plate": {
@@ -2992,7 +2992,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), slow, wall of ice; **Price** 31,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, slow, wall of ice; **Price** 31,550 gp"
 		]
 	},
 	"mail_of_malevolence": {
@@ -3011,7 +3011,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), righteous might, spell resistance; **Price** 30,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, righteous might, spell resistance; **Price** 30,800 gp"
 		]
 	},
 	"coruscating_raiment": {
@@ -3028,7 +3028,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), sunburst; **Price** 32,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, sunburst; **Price** 32,400 gp"
 		]
 	},
 	"o-yoroi_of_imperial_rule": {
@@ -3045,7 +3045,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), clenched fist, disguise self; **Price** 42,550 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, clenched fist, disguise self; **Price** 42,550 gp"
 		]
 	},
 	"o_yoroi_of_imperial_rule": {
@@ -3064,13 +3064,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_cloud_giant": {
@@ -3089,13 +3089,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.",
 			"",
-			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
+			"This drooping, many-folded suit of +3 hide armor is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.",
 			"",
 			"Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](spell/giant_form_2) (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or {spell/giant form II} (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		]
 	},
 	"giant_hide_armor_storm_giant": {
@@ -3118,7 +3118,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, sunburst; **Price** 41,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, daylight, sunburst; **Price** 41,000 gp"
 		]
 	},
 	"daystar_half_plate": {
@@ -3140,7 +3140,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), ethereal jaunt, hold monster; **Price** 41,900 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, ethereal jaunt, hold monster; **Price** 41,900 gp"
 		]
 	},
 	"empyreal_armor": {
@@ -3160,7 +3160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fire shield, limited wish or miracle; **Price** 50,850 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fire shield, limited wish or miracle; **Price** 50,850 gp"
 		]
 	},
 	"gelugon_armor": {
@@ -3177,7 +3177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), resist energy, creator must be lawful evil; **Price** 59,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, resist energy, creator must be lawful evil; **Price** 59,650 gp"
 		]
 	},
 	"invincible_armor": {
@@ -3194,7 +3194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fabricate, make whole, resist energy, and limited wish or miracle; **Price** 69,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fabricate, make whole, resist energy, and limited wish or miracle; **Price** 69,650 gp"
 		]
 	},
 	"thanatotic_plate": {
@@ -3215,7 +3215,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), air walk, break enchantment, breath of life, greater planar ally, heal, spell turning, unholy aura; **Price** 71,445 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, air walk, break enchantment, breath of life, greater planar ally, heal, spell turning, unholy aura; **Price** 71,445 gp"
 		]
 	},
 	"prismatic_plate": {
@@ -3242,7 +3242,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), dimensional anchor, mind blank, neutralize poison, resist energy, stone to flesh, and prismatic sphere, prismatic spray, or prismatic wall; **Price** 81,150 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, dimensional anchor, mind blank, neutralize poison, resist energy, stone to flesh, and prismatic sphere, prismatic spray, or prismatic wall; **Price** 81,150 gp"
 		]
 	},
 	"living_steel_heavy_shield": {
@@ -3320,7 +3320,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate dead; **Price** 1,159 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate dead; **Price** 1,159 gp"
 		]
 	},
 	"breach_barrier": {
@@ -3337,7 +3337,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), hold portal; **Price** 1,270 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, hold portal; **Price** 1,270 gp"
 		]
 	},
 	"driftwood_shield": {
@@ -3354,7 +3354,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), know direction, warp wood; **Price** 1,342 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, know direction, warp wood; **Price** 1,342 gp"
 		]
 	},
 	"casters_shield": {
@@ -3376,7 +3376,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll), creator must be at least 6th level; **Price** 1,653 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Scribe Scroll}, creator must be at least 6th level; **Price** 1,653 gp"
 		]
 	},
 	"bronze_whisperers_shield": {
@@ -3393,7 +3393,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), minor creation, shocking grasp; **Price** 2,219 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, minor creation, shocking grasp; **Price** 2,219 gp"
 		]
 	},
 	"scarab_shield": {
@@ -3414,7 +3414,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), blessing of courage and life, sanctuary; **Price** 2,279 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, blessing of courage and life, sanctuary; **Price** 2,279 gp"
 		]
 	},
 	"burglars_buckler": {
@@ -3433,7 +3433,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), major creation; **Price** 2,450 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, major creation; **Price** 2,450 gp"
 		]
 	},
 	"challenging_shield": {
@@ -3450,7 +3450,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), nereid's grace; **Price** 3,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, nereid's grace; **Price** 3,670 gp"
 		]
 	},
 	"spined_shield": {
@@ -3470,7 +3470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), magic missile; **Price** 2,875 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, magic missile; **Price** 2,875 gp"
 		]
 	},
 	"okeno_madu": {
@@ -3489,7 +3489,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), castigate; **Price** 2,890 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, castigate; **Price** 2,890 gp"
 		]
 	},
 	"lockpick_shield": {
@@ -3508,7 +3508,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects; **Price** 3,659 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects; **Price** 3,659 gp"
 		]
 	},
 	"dragonslayers_shield": {
@@ -3525,7 +3525,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), remove fear, shield of faith; **Price** 3,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, remove fear, shield of faith; **Price** 3,670 gp"
 		]
 	},
 	"shield_of_sunrise": {
@@ -3544,7 +3544,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daybreak arrow, tactical acumen; **Price** 3,909 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, daybreak arrow, tactical acumen; **Price** 3,909 gp"
 		]
 	},
 	"shield_of_covered_retreat": {
@@ -3561,7 +3561,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** 4,157 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shield; **Price** 4,157 gp"
 		]
 	},
 	"clawhand_shield": {
@@ -3580,7 +3580,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally I](spell/summon_natures_ally_1); **Price** 4,158 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon nature's ally I](spell/summon_natures_ally_1); **Price** 4,158 gp"
 		]
 	},
 	"collapsible_tower": {
@@ -3597,7 +3597,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shrink item; **Price** 4,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shrink item; **Price** 4,170 gp"
 		]
 	},
 	"lions_shield": {
@@ -3617,7 +3617,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [summon nature's ally IV](spell/summon_natures_ally_4); **Price** 4,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon nature's ally IV](spell/summon_natures_ally_4); **Price** 4,670 gp"
 		]
 	},
 	"maidens_aegis": {
@@ -3634,7 +3634,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [magic vestment](spell/magic_vestment); **Price** 4,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/magic vestment}; **Price** 4,670 gp"
 		]
 	},
 	"brilliant_bulwark": {
@@ -3651,7 +3651,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), daylight, light; **Price** 4,975 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, daylight, light; **Price** 4,975 gp"
 		]
 	},
 	"casters_shield_greater": {
@@ -3668,7 +3668,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll); **Price** 5,153 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Scribe Scroll}; **Price** 5,153 gp"
 		]
 	},
 	"greater_casters_shield": {
@@ -3688,7 +3688,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, shield; **Price** 5,155 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cat's grace, shield; **Price** 5,155 gp"
 		]
 	},
 	"stalkers_fang_shoanti": {
@@ -3707,7 +3707,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bleed, keen edge, creator must be a Shoanti; **Price** 5,962 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bleed, keen edge, creator must be a Shoanti; **Price** 5,962 gp"
 		]
 	},
 	"stalkers_fang": {
@@ -3730,7 +3730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), feather fall, overland flight; **Price** 6,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, feather fall, overland flight; **Price** 6,670 gp"
 		]
 	},
 	"starsling_buckler": {
@@ -3745,11 +3745,11 @@
 			"",
 			"This +2 buckler is emblazoned with a swirl of stars and comets. Many of the Saoc Brethren commissioned these bucklers as markers of high social standing; they had them each decorated with unique depictions of constellations, comets, phases of the moon, or other distinctive astronomical sights, and used them as much as decor as for defense.",
 			"",
-			"As a swift action, the user of a starsling buckler can cause the face to illuminate and whirl to life, duplicating the effect of the [light](spell/light) spell. The stars, comets, and sun begin to glow as they lift off the shield and spin around in a brilliant display. They can be fired from the spinning celestial vortex as if via a +2 sling (the user is considered proficient with the sling for purposes of resolving such attacks from a starsling buckler). All feats and proficiencies related to slings apply to stars fired from a starsling buckler. These sling attacks cannot be made as offhand weapon attacks. The shield contains five sling stars-once all five have been fired, new sling stars are restored to the shield automatically after 1 minute.",
+			"As a swift action, the user of a starsling buckler can cause the face to illuminate and whirl to life, duplicating the effect of the {spell/light} spell. The stars, comets, and sun begin to glow as they lift off the shield and spin around in a brilliant display. They can be fired from the spinning celestial vortex as if via a +2 sling (the user is considered proficient with the sling for purposes of resolving such attacks from a starsling buckler). All feats and proficiencies related to slings apply to stars fired from a starsling buckler. These sling attacks cannot be made as offhand weapon attacks. The shield contains five sling stars-once all five have been fired, new sling stars are restored to the shield automatically after 1 minute.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [light](spell/light), [magic stone](spell/magic_stone); **Price** 7,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/light}, {spell/magic stone}; **Price** 7,000 gp"
 		]
 	},
 	"phalanx_shield": {
@@ -3766,7 +3766,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spiritual ally; **Price** 9,580 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, spiritual ally; **Price** 9,580 gp"
 		]
 	},
 	"maelstrom_shield": {
@@ -3783,7 +3783,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, control water, hydraulic push; **Price** 7,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, control water, hydraulic push; **Price** 7,170 gp"
 		]
 	},
 	"spiteful_shield": {
@@ -3800,7 +3800,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), phantasmal killer, spell turning; **Price** 7,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, phantasmal killer, spell turning; **Price** 7,170 gp"
 		]
 	},
 	"volcanic_shield": {
@@ -3817,7 +3817,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, burning hands, pyrotechnics; **Price** 7,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, burning hands, pyrotechnics; **Price** 7,170 gp"
 		]
 	},
 	"surefooted_shield": {
@@ -3836,7 +3836,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), abjuring step; **Price** 7,185 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, abjuring step; **Price** 7,185 gp"
 		]
 	},
 	"tempest_shield": {
@@ -3853,7 +3853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, gust of wind; **Price** 8,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, gust of wind; **Price** 8,170 gp"
 		]
 	},
 	"battlement_shield": {
@@ -3873,7 +3873,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wall of stone; **Price** 8,180 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, wall of stone; **Price** 8,180 gp"
 		]
 	},
 	"shieldmarshals_ward": {
@@ -3894,7 +3894,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), protection from arrows, shield, telekinesis; **Price** 8,655 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, protection from arrows, shield, telekinesis; **Price** 8,655 gp"
 		]
 	},
 	"guard_of_man": {
@@ -3913,7 +3913,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spell resistance, creator must be an atheist; **Price** 8,680 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, spell resistance, creator must be an atheist; **Price** 8,680 gp"
 		]
 	},
 	"winged_shield": {
@@ -3933,7 +3933,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fly; **Price** 8,707 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fly; **Price** 8,707 gp"
 		]
 	},
 	"shield_of_the_mazeborn": {
@@ -3950,7 +3950,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, find the path, know direction; **Price** 9,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, find the path, know direction; **Price** 9,170 gp"
 		]
 	},
 	"bloodfeast_shield": {
@@ -3972,7 +3972,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), vampiric touch; **Price** 9,545 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, vampiric touch; **Price** 9,545 gp"
 		]
 	},
 	"broadside_bulwark": {
@@ -3993,7 +3993,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fireball, resist energy; **Price** 9,582 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fireball, resist energy; **Price** 9,582 gp"
 		]
 	},
 	"avalanche_shield": {
@@ -4010,7 +4010,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, shape stone, flesh to stone; **Price** 9,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, shape stone, flesh to stone; **Price** 9,670 gp"
 		]
 	},
 	"fortress_shield": {
@@ -4030,7 +4030,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wall of iron; **Price** 9,680 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, wall of iron; **Price** 9,680 gp"
 		]
 	},
 	"mwangi_spirit_shield": {
@@ -4049,7 +4049,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, etherealness; **Price** 9,733 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, etherealness; **Price** 9,733 gp"
 		]
 	},
 	"lyrune-quah_klar": {
@@ -4068,7 +4068,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), wandering star motes, creator must be proficient with shortbow; **Price** 10,037 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, wandering star motes, creator must be proficient with shortbow; **Price** 10,037 gp"
 		]
 	},
 	"lyrune_quah_klar": {
@@ -4088,7 +4088,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), remove fear, shield of faith; **Price** 10,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, remove fear, shield of faith; **Price** 10,170 gp"
 		]
 	},
 	"shield_of_hags": {
@@ -4108,7 +4108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), fear, tongues; **Price** 10,713 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, fear, tongues; **Price** 10,713 gp"
 		]
 	},
 	"elephant_shield": {
@@ -4125,7 +4125,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [beast shape I](spell/beast_shape_1), force punch; **Price** 10,840 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/beast shape I}, force punch; **Price** 10,840 gp"
 		]
 	},
 	"bastion_of_the_inheritor": {
@@ -4142,7 +4142,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Mythic Crafter](feat/mythic_crafter), [magic circle against evil](spell/magic_circle_against_evil), remove fear, sanctify armor; **Price** 11,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/magic circle against evil}, remove fear, sanctify armor; **Price** 11,170 gp"
 		]
 	},
 	"spell_ward_tower_shield": {
@@ -4159,7 +4159,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), cat's grace, spell resistance; **Price** 12,680 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, cat's grace, spell resistance; **Price** 12,680 gp"
 		]
 	},
 	"icon_of_order": {
@@ -4172,11 +4172,11 @@
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** shield; **Price** 26,170 gp; **Weight** 15 lbs.",
 			"",
-			"An icon of order is a +2 heavy steel shield that typically displays the sword-and-sunburst holy symbol of Iomedae on a white field. The wielder of an icon of order gains a +2 sacred bonus on saves against spells and effects with the chaotic descriptor. Once per day, the wielder can cast [protection from chaos](spell/protection_from_chaos) as a swift action.",
+			"An icon of order is a +2 heavy steel shield that typically displays the sword-and-sunburst holy symbol of Iomedae on a white field. The wielder of an icon of order gains a +2 sacred bonus on saves against spells and effects with the chaotic descriptor. Once per day, the wielder can cast {spell/protection from chaos} as a swift action.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Quicken Spell](feat/quicken_spell), [protection from chaos](spell/protection_from_chaos); **Price** 13,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Quicken Spell}, {spell/protection from chaos}; **Price** 13,170 gp"
 		]
 	},
 	"lens_of_the_dark_tapestry": {
@@ -4193,7 +4193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), teleport; **Price** 15,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, teleport; **Price** 15,670 gp"
 		]
 	},
 	"quick_block_buckler": {
@@ -4210,7 +4210,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), shield; **Price** 18,155 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, shield; **Price** 18,155 gp"
 		]
 	},
 	"belligerent_shield": {
@@ -4227,7 +4227,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), bull's strength, animate objects; **Price** 18,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, bull's strength, animate objects; **Price** 18,170 gp"
 		]
 	},
 	"storvals_fang": {
@@ -4246,7 +4246,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), lightning bolt, resist energy, sound burst, creator must be of Shoanti descent; **Price** 19,312 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, lightning bolt, resist energy, sound burst, creator must be of Shoanti descent; **Price** 19,312 gp"
 		]
 	},
 	"force_tower": {
@@ -4263,7 +4263,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), etherealness, resilient sphere, shield; **Price** 23,530 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, etherealness, resilient sphere, shield; **Price** 23,530 gp"
 		]
 	},
 	"absorbing_shield": {
@@ -4283,7 +4283,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disintegrate; **Price** 25,170 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, disintegrate; **Price** 25,170 gp"
 		]
 	},
 	"elysian_shield": {
@@ -4303,7 +4303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), Turn Undead, death ward, etherealness; **Price** 26,390 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Turn Undead, death ward, etherealness; **Price** 26,390 gp"
 		]
 	},
 	"saviths_iron": {
@@ -4320,7 +4320,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), animate objects, limited wish or miracle, neutralize poison; **Price** 29,670 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, animate objects, limited wish or miracle, neutralize poison; **Price** 29,670 gp"
 		]
 	},
 	"spellbane_shield": {
@@ -4337,7 +4337,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), spell resistance; **Price** 39,680 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, spell resistance; **Price** 39,680 gp"
 		]
 	},
 	"equalizer_shield": {
@@ -4355,7 +4355,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), antimagic field; **Price** 60,930 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, antimagic field; **Price** 60,930 gp"
 		]
 	},
 	"conquerors_breastplate": {
@@ -4374,12 +4374,12 @@
 			"",
 			"5th Level: Conqueror's breastplate acts as a +2 mithral breastplate.",
 			"",
-			"10th Level: Once per day as an immediate action, the wearer can use [draconic reservoir](spell/draconic_reservoir) as a spell-like ability.",
+			"10th Level: Once per day as an immediate action, the wearer can use {spell/draconic reservoir} as a spell-like ability.",
 			"",
-			"15th Level: Conqueror's breastplate acts as a +3 [determination](magic-enhancement/determination) mithral breastplate.",
+			"15th Level: Conqueror's breastplate acts as a +3 {magic-enhancement/determination} mithral breastplate.",
 			"",
 			"**Goal:** At least 20 people whose CR is equal to or greater than the wearer's Hit Dice - 4 must swear fealty or pledge their loyalty to the wearer.  ",
-			"**Reward:** The wearer's grandiose bearing cows the weak willed. He gains the [frightful presence](umr/frightful_presence) universal monster ability with a 30-foot-radius range and a Will save DC equal to 10 + his character level + his Charisma modifier. He can suppress or resume this ability as a free action."
+			"**Reward:** The wearer's grandiose bearing cows the weak willed. He gains the {umr/frightful presence} universal monster ability with a 30-foot-radius range and a Will save DC equal to 10 + his character level + his Charisma modifier. He can suppress or resume this ability as a free action."
 		]
 	},
 	"unyielding_aegis": {
@@ -4398,11 +4398,11 @@
 			"",
 			"3rd Level: The wielder gains a +2 bonus to Reflex saves.",
 			"",
-			"7th Level: The unyielding aegis acts as a +2 [animated](magic-enhancement/animated) heavy steel shield. The wielder can still activate the shield's intercepting ability, even while it is animated.",
+			"7th Level: The unyielding aegis acts as a +2 {magic-enhancement/animated} heavy steel shield. The wielder can still activate the shield's intercepting ability, even while it is animated.",
 			"",
 			"11th Level: The unyielding aegis reduces damage from attacks by 10, as if the target had DR 10/-. In addition, the wielder's bonus to Reflex saves increases to +4.",
 			"",
-			"15th Level: The unyielding aegis acts as a +3 animated [reflecting](magic-enhancement/reflecting) heavy steel shield.",
+			"15th Level: The unyielding aegis acts as a +3 animated {magic-enhancement/reflecting} heavy steel shield.",
 			"",
 			"19th Level: The unyielding aegis reduces damage from attacks by 15, as if the target had DR 15/-.",
 			"",
@@ -4425,7 +4425,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [Scribe Scroll](feat/scribe_scroll), creator must be an arcane spellcaster of at least 14th level; **Price** 7,250 gp",
+			"{feat/Craft Magic Arms and Armor}, {feat/Scribe Scroll}, creator must be an arcane spellcaster of at least 14th level; **Price** 7,250 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4449,7 +4449,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), disguise self, obscuring mist, rainbow pattern; **Price** 10,075 gp",
+			"{feat/Craft Magic Arms and Armor}, disguise self, obscuring mist, rainbow pattern; **Price** 10,075 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4479,7 +4479,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Wondrous Item](feat/craft_wondrous_item), the item's performance and teamwork feat, bless, eagle's splendor, prayer, scare, true strike; **Price** 31,000 gp",
+			"{feat/Craft Wondrous Item}, the item's performance and teamwork feat, bless, eagle's splendor, prayer, scare, true strike; **Price** 31,000 gp",
 			"",
 			"### Statistics",
 			"",
@@ -4504,7 +4504,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), grease, invisibility, silence, creator must have the sneak attack class feature; **Price** 58,660 gp",
+			"{feat/Craft Magic Arms and Armor}, grease, invisibility, silence, creator must have the sneak attack class feature; **Price** 58,660 gp",
 			"",
 			"### Statistics",
 			"",

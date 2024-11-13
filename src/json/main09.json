@@ -3341,9 +3341,9 @@
 				"",
 				"- **X** - No additional restrictions",
 				"- **X&ast;** - See template for restrictions",
-				"- **X&ast;&ast;** - Requires [Versatile Summon Monster](feat/versatile_summon_monster) or [Versatile Summon Nature's Ally](feat/versatile_summon_natures_ally)",
-				"- **X&dagger;** - Requires [Versatile Summon Monster](feat/versatile_summon_monster)",
-				"- **X&Dagger;** - Requires [Summon Neutral Monster](feat/summon_neutral_monster)",
+				"- **X&ast;&ast;** - Requires {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}",
+				"- **X&dagger;** - Requires {feat/Versatile Summon Monster}",
+				"- **X&Dagger;** - Requires {feat/Summon Neutral Monster}",
 				"",
 				"{table0}"
 			]

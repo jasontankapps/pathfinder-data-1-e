@@ -54,7 +54,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gate; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, gate; **Cost** 25,000 gp"
 		]
 	},
 	"sanguine_talisman": {
@@ -82,7 +82,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater planar binding, lesser planar binding, or planar binding; **Cost** varies"
+			"**Requirements** {feat/Craft Wondrous Item}, greater planar binding, lesser planar binding, or planar binding; **Cost** varies"
 		]
 	}
 }

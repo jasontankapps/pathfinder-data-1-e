@@ -5,6 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import { IonRippleEffect } from '@ionic/react';
 import Link from './Link';
 import DisplayTable from './DisplayTable';
+import convertLinks from './convertLinks';
 import { DisplayItemProps, Table } from '../types';
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -106,8 +107,8 @@ const p = (props: MDpProps, tables: Table[], prefix: string) => {
 			const m = child.match(/^\{SOURCE (.+?)\}$/);
 			if(m) {
 				// Create a 'source' line
-				const sources = m[1].split(/;/).map((source, i) => makeSourceLink(source, `${prefix}/${ci}-${i}/${source}/${children}`, i));
-				return <><strong>Source</strong> {sources}</>;
+				const sources = m[1].split(/;/).map((source, i) => makeSourceLink(source, `${prefix}/${ci}-${i}/${source}/${child}`, i));
+				return <Fragment key={`Fragment/${prefix}/${ci}/${child}`}><strong>Source</strong> {sources}</Fragment>;
 			}
 			return child;
 		}
@@ -183,7 +184,7 @@ const makeComponents = (tables: Table[], id: string) => {
 
 const DisplayItem: FC<DisplayItemProps> = ({ markdown, tables = [], className, prefix }) => {
 	const id = (prefix || "p" + String(Math.floor(Math.random() * 100000))) + "-";
-	const contents = Array.isArray(markdown) ? markdown.join("\n") : markdown;
+	const contents = useMemo(() => convertLinks(Array.isArray(markdown) ? markdown : [markdown]), [markdown]);
 	const components = useMemo(() => makeComponents(tables, id), [tables]);
 	return (
 		<div className={className}>

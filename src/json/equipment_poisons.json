@@ -102,7 +102,7 @@
 			"**Type** spell; **Save** Fortitude DC varies by spell  ",
 			"**Frequency** 1/round for 6 rounds  ",
 			"**Initial Effect** death; **Secondary Effect** 1 Con damage  ",
-			"**Cure** 2 consecutive saves. See [prismatic sphere](spell/prismatic_sphere), [prismatic spray](spell/prismatic_spray), or [prismatic wall](spell/prismatic_wall) for more details."
+			"**Cure** 2 consecutive saves. See {spell/prismatic sphere}, {spell/prismatic spray}, or {spell/prismatic wall} for more details."
 		]
 	},
 	"kings_sleep": {
@@ -139,7 +139,7 @@
 			"",
 			"Creatures reduced below 3 Intelligence gain the [fiendish creature simple template](template/fiendish) and a +4 enhancement bonus to Strength and Constitution; these effects vanish if a creature's Intelligence score rises above 3.",
 			"",
-			"Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as [bloodroot](equipment-poison/bloodroot), but ingested rather than injury)."
+			"Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as {equipment-poison/bloodroot}, but ingested rather than injury)."
 		]
 	},
 	"maiden_lily_attar": {
@@ -1467,7 +1467,7 @@
 			"**Price** 600 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/round for 1d6 rounds  ",
-			"**Effect** uncontrollble laughter (as per [hideous laughter](spell/hideous_laughter))  ",
+			"**Effect** uncontrollble laughter (as per {spell/hideous laughter})  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"The short and thorny jackalroot grows in desert climates, typically under the partial shade of ridges or boulders. It is identifiable by its pale green berries, which it bears twice per year. To followers of Lamashtu, the gnarled, prickle-covered jackalroot is a blessing. The roots of this hearty desert shrub contain a potent, incapacitating ichor often used by gnolls in religious ceremonies and when capturing slaves."
@@ -2256,7 +2256,7 @@
 			"**Effect** 1d2 Int drain (a creature currently suffering the curse of bestial dreams transforms into an id mutant once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first)  ",
 			"**Cure** 3 consecutive saves",
 			"",
-			"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies-a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects-see the [curse of bestial dreams](curse/curse_of_bestial_dreams) for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
+			"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies-a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects-see the {curse/curse of bestial dreams} for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
 		]
 	},
 	"dreaming_death": {
@@ -2438,7 +2438,7 @@
 			"",
 			"Developed by the spiderlike [jorogumos](monster/jorogumo), widow's kiss is distilled from the monsters' natural venom and infused with minuscule spider eggs. Creatures injected with the toxin experience headaches and cold sweats, after which the eggs begin to hatch and infest the host's bloodstream, slowly eating the body from within. If controlled or enticed, the swarm of spiders can take direct control of its host's body, rendering hosts susceptible to effects that control or influence vermin, including a jorogumo's spider empathy ability.",
 			"",
-			"The effects of widow's kiss can be removed a combination of cure disease and neutralize poison. If a creature is slain by the poison's Constitution damage, a [spider swarm](monster/spider_swarm) erupts from the body 1d6 rounds later."
+			"The effects of widow's kiss can be removed a combination of cure disease and neutralize poison. If a creature is slain by the poison's Constitution damage, a {monster/spider swarm} erupts from the body 1d6 rounds later."
 		]
 	},
 	"kiss_of_barbatos": {
@@ -2470,7 +2470,7 @@
 			"**Effect** 1d2 Cha damage and 1d2 Con drain  ",
 			"**Cure** 3 consecutive saves",
 			"",
-			"This cunning supernatural venom was originally engineered by [Red Mantis](rule/aff_assassins) alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of [leprosy](disease/leprosy). An attempt to divine its nature via [detect poison](spell/detect_poison) fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like [diagnose disease](spell/diagnose_disease) always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. [Neutralize poison](spell/neutralize_poison) and [delay poison](spell/delay_poison) function normally on a person suffering from fool's leprosy, but spells like [remove disease](spell/remove_disease) do not, as the condition is a poison effect, not a disease effect. [Heal](spell/heal) can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
+			"This cunning supernatural venom was originally engineered by [Red Mantis](rule/aff_assassins) alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of {disease/leprosy}. An attempt to divine its nature via {spell/detect poison} fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like {spell/diagnose disease} always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. {spell/Neutralize poison} and {spell/delay poison} function normally on a person suffering from fool's leprosy, but spells like {spell/remove disease} do not, as the condition is a poison effect, not a disease effect. {spell/Heal} can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
 		]
 	}
 }

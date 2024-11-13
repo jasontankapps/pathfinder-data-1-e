@@ -6,6 +6,7 @@ import { useHistory } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
+import convertLinks from './convertLinks';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 
@@ -99,12 +100,13 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 		const isDescending = sorter(index, !descending);
 		setDescending(isDescending);
 	}, [index, sorter, descending]);
+	const markdown = useMemo(() => convertLinks([children]), [children]);
 	if(sortable) {
 		return (
 			<th className="ion-activatable sortable" onClick={onClick}>
 				<div>
 					<IonRippleEffect />
-					<Markdown components={components}>{children}</Markdown>
+					<Markdown components={components}>{markdown}</Markdown>
 					{active ? <DirectionIcon down={descending} /> : <IonIcon className="sortNil" icon={ellipse} />}
 				</div>
 			</th>
@@ -112,7 +114,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	}
 	return (
 		<th>
-			<Markdown components={components}>{children}</Markdown>
+			<Markdown components={components}>{markdown}</Markdown>
 		</th>
 	);
 };
@@ -178,7 +180,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 			}
 			break;
 		default:
-			text = typeof output === "string" ? output : String(output);
+			text = convertLinks([typeof output === "string" ? output : String(output)]);
 	}
 	return (
 		<td>

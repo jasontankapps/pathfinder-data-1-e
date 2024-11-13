@@ -297,7 +297,7 @@
 			"**Craft DC** 30; **Cost** 2,500 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a [signal booster](tech-misc/signal_booster) or blocked by a [signal jammer](tech-misc/signal_jammer).",
+			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a {tech-misc/signal booster} or blocked by a {tech-misc/signal jammer}.",
 			"",
 			"### On Signals",
 			"",
@@ -320,7 +320,7 @@
 			"**Craft DC** 26; **Cost** 1,800 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a [detonator](tech-misc/detonator) or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius spread and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
+			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a {tech-misc/detonator} or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius spread and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
 		]
 	},
 	"detonator": {
@@ -339,7 +339,7 @@
 			"**Craft DC** 23; **Cost** 250 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a [signal booster](tech-misc/signal_booster).",
+			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
 			"",
 			"### On Signals",
 			"",
@@ -363,7 +363,7 @@
 			"**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a [grenade launcher](tech-weapon/grenade_launcher). Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
+			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a {tech-weapon/grenade launcher}. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
 			"",
 			"The type of damage dealt by grenades varies widely and depends upon the nature of the specific grenade. The different types of grenades and the damage types they deal (along with any additional effects their damage deals) are listed below.",
 			"",
@@ -622,7 +622,7 @@
 			"",
 			"A clonepod looks like a human-sized capsule with a blue window at head height and a bank of touchsensitive screens and buttons at chest height. A small slot situated below the window can accept genetic material (fingernails, hair clippings, skin samples, and so forth). When genetic material is placed in the slot, the clonepod immediately atomizes the sample and processes the genetic information. At this point, activating the clonepod causes its interior to flood with blue biotic fluid, which is then supersaturated with a combination of proteins, nanites, and other materials. Over the course of the next 12 hours, the clonepod works nonstop to produce an exact replica of the creature from which the genetic material was harvested, as the creature was when the sample was taken. A clonepod can only duplicate a Medium or smaller creature-attempts to clone a larger creature result in a hideous, partially formed monstrosity that heaves and gasps a few times before dying.",
 			"",
-			"The completed clone can remain in stasis inside the pod indefinitely as long as the seals are not broken. The clone created is alive, yet has no mind until a [neurocam](tech-misc/neurocam) is used to upload a mind into the clone's brain. A clone has the same Strength, Dexterity, and Constitution scores of the original body. A clone that is awoken before any mind is uploaded into it has no Intelligence score, and its Wisdom and Charisma scores are both 1.",
+			"The completed clone can remain in stasis inside the pod indefinitely as long as the seals are not broken. The clone created is alive, yet has no mind until a {tech-misc/neurocam} is used to upload a mind into the clone's brain. A clone has the same Strength, Dexterity, and Constitution scores of the original body. A clone that is awoken before any mind is uploaded into it has no Intelligence score, and its Wisdom and Charisma scores are both 1.",
 			"",
 			"Uploading a mind from a neurocam into a clone takes 10 minutes. If the mind belonged to the same creature that was used to grow the clone, it immediately comes back to life as if under the effects of a clone spell (including 2 negative levels or 2 points of Constitution drain)-provided the user's soul has not yet passed to the Boneyard and been judged. It possesses the same Intelligence, Wisdom, and Charisma of the original mind, all of that creature's skills, and most of the memories and personality of the creature (though there may be gaps or differences). A mind uploaded into a clone after its soul has been judged results in a soulless approximation of the original. Such a creature has its Charisma permanently reduced by 2 points (which cannot be restored), and has no ability to grow more powerful or gain levels (similar to a simulacrum).",
 			"",
@@ -646,7 +646,7 @@
 			"**Cost** 15,125 gp (mark I), 30,250 gp (mark II), 45,375 gp (mark III), 60,500 gp (mark IV), 75,625 gp (mark V)  ",
 			"Craft Technological Item, nanotech lab",
 			"",
-			"A cortex gun is an incredibly powerful device filled with nanites programmed for physical and mental enhancement. The gun is shaped like a hefty syringe with a handle and a small touch screen on which parameters can be programmed and adjusted to focus the nanites on a specific ability to augment. It can be programmed to enhance a Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score. Setting a cortex gun to affect one of these six abilities requires a character with the [Technologist](feat/technologist) feat succeeding at a DC 20 Linguistics check. On a failure, the programming is scrambled and non-functional until properly set. When a cortex gun is found as treasure, roll 1d8 to determine which ability score it's programmed to, with a result of 7-8 indicating that it's currently scrambled.",
+			"A cortex gun is an incredibly powerful device filled with nanites programmed for physical and mental enhancement. The gun is shaped like a hefty syringe with a handle and a small touch screen on which parameters can be programmed and adjusted to focus the nanites on a specific ability to augment. It can be programmed to enhance a Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score. Setting a cortex gun to affect one of these six abilities requires a character with the {feat/Technologist} feat succeeding at a DC 20 Linguistics check. On a failure, the programming is scrambled and non-functional until properly set. When a cortex gun is found as treasure, roll 1d8 to determine which ability score it's programmed to, with a result of 7-8 indicating that it's currently scrambled.",
 			"",
 			"A cortex gun is used by placing the tip against the target's forehead and pulling the trigger as a full-round action that provokes attacks of opportunity. This causes an adamantine needle to bore into the skull; the target must then succeed at a DC 25 Will saving throw to resist being stunned for 2d6 rounds. On a success, he's merely staggered for 1d4 rounds. If the cortex gun's programming was scrambled, the nanites die without doing any harm or aid to the target.",
 			"",
@@ -927,7 +927,7 @@
 			"",
 			"A neurocam can store only one personality. Once used, it cannot store another even after the contents are uploaded elsewhere. A personality stored in a neurocam is effectively put into stasis-the mind does not age, nor does it gain new experiences or knowledge. It's cut off from the world, and though it experiences strange dreams, it isn't aware of the passage of time. If the neurocam is destroyed, the stored personality vanishes; however, loss of power does not harm a stored personality.",
 			"",
-			"A stored personality can be uploaded only once. It can be uploaded into a blank clone in a [clonepod](tech-misc/clonepod). Additional processes to upload a stored personality into a robot or an AI core exist but are complex and often drive the stored personality insane."
+			"A stored personality can be uploaded only once. It can be uploaded into a blank clone in a {tech-misc/clonepod}. Additional processes to upload a stored personality into a robot or an AI core exist but are complex and often drive the stored personality insane."
 		]
 	},
 	"nutrient_training_node": {
@@ -989,7 +989,7 @@
 			"**Cost** 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark V)  ",
 			"Craft Technological Item, at least 10 ranks in skill to be encoded, cybernetics lab",
 			"",
-			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active [skillslot](tech-cybertech/skillslot).",
+			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active {tech-cybertech/skillslot}.",
 			"",
 			"The magnitude of the bonus granted by a skillchip varies, ranging from a +2 enhancement bonus to a +10 enhancement bonus, as summarized on the following table.",
 			"",
@@ -1231,7 +1231,7 @@
 			"**Cost** 1,500 gp (black), 22,750 gp (blue), 500 gp (brown), 7,000 gp (gray), 11,250 gp (green), 30,000 gp (orange), 38,250 gp (prismatic), 16,500 gp (red), 3,750 gp (white)  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active [tracker chips](tech-misc/tracker_chip) within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a [signal booster](tech-misc/signal_booster) or blocked by a solid enough barrier.",
+			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active [tracker chips](tech-misc/tracker_chip) within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a {tech-misc/signal booster} or blocked by a solid enough barrier.",
 			"",
 			"| Color | Range |",
 			"| --- | --- |",
@@ -1306,7 +1306,7 @@
 			"**Craft DC** 27; **Cost** 3,000 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile-beyond this range, communication is impossible without enhancing the signal strength with a [signal booster](tech-misc/signal_booster). The price and cost listed for this item are for a single commset.",
+			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile-beyond this range, communication is impossible without enhancing the signal strength with a {tech-misc/signal booster}. The price and cost listed for this item are for a single commset.",
 			"",
 			"### On Signals",
 			"",
@@ -1523,7 +1523,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 45,000 gp  ",
-			"Craft Technological Item, [Craft Wondrous Item](feat/craft_wondrous_item), graviton lab, enervation, telekinesis",
+			"Craft Technological Item, {feat/Craft Wondrous Item}, graviton lab, enervation, telekinesis",
 			"",
 			"**Aura** moderate necromancy and transmutation  ",
 			"This black, wandlike object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of telekinesis, but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal combat maneuver (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a spectre. Otherwise, the negative levels fade after 10 hours."
@@ -1700,7 +1700,7 @@
 			"**Craft DC** 26; **Cost** 9,000 gp  ",
 			"Craft Technological Item, military lab",
 			"",
-			"A jetpack consists of a pair of cylindrical tanks worn on a shoulder harness with a pair of motion-sensitive rings worn on the thumbs that are used as wireless thrust and attitude controls. The jetpack can be activated as a swift action and grants a fly speed of 60 feet with poor maneuverability. If the wearer successfully hovers near ground level, she obscures visibility as though she had the [Hover](feat/hover) feat. The exhaust isn't hot or concentrated enough to be used as a weapon.",
+			"A jetpack consists of a pair of cylindrical tanks worn on a shoulder harness with a pair of motion-sensitive rings worn on the thumbs that are used as wireless thrust and attitude controls. The jetpack can be activated as a swift action and grants a fly speed of 60 feet with poor maneuverability. If the wearer successfully hovers near ground level, she obscures visibility as though she had the {feat/Hover} feat. The exhaust isn't hot or concentrated enough to be used as a weapon.",
 			"",
 			"A jetpack can be operated in overdrive, giving the wearer a fly speed of 90 feet with clumsy maneuverability and consuming twice as many charges per round.",
 			"",
@@ -1818,7 +1818,7 @@
 			"**Craft DC** 27; **Cost** 1,000 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"This device measures radiation levels in a 120-foot-radius circle, as the [detect radiation](spell/detect_radiation) spell. When activated, the device makes a soft clicking sound that changes in volume and frequency according to the radiation level encountered. A small screen on the top of the handheld device indicates the approximate source and strength of radiation in these areas, with red areas indicating severe radiation, yellow high radiation, green medium radiation, and blue low radiation. Areas with less radiation don't register on the device's screen."
+			"This device measures radiation levels in a 120-foot-radius circle, as the {spell/detect radiation} spell. When activated, the device makes a soft clicking sound that changes in volume and frequency according to the radiation level encountered. A small screen on the top of the handheld device indicates the approximate source and strength of radiation in these areas, with red areas indicating severe radiation, yellow high radiation, green medium radiation, and blue low radiation. Areas with less radiation don't register on the device's screen."
 		]
 	},
 	"robojack": {
@@ -1856,7 +1856,7 @@
 			"**Craft DC** 24; **Cost** 4,500 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a [commset](tech-misc/commset) normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles.",
+			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a {tech-misc/commset} normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles.",
 			"",
 			"### On Signals",
 			"",
@@ -1923,7 +1923,7 @@
 			"**Craft DC** 18; **Cost** 10 gp  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A zipstick is a small pen-like device used to administer a small jolt of electricity. This jolt is enough to cause 1 point of nonlethal damage with a successful touch attack. A zipstick is used most often to activate or deactivate items that function on ion-bonding technology, such as [ion tape](tech-misc/ion_tape)."
+			"A zipstick is a small pen-like device used to administer a small jolt of electricity. This jolt is enough to cause 1 point of nonlethal damage with a successful touch attack. A zipstick is used most often to activate or deactivate items that function on ion-bonding technology, such as {tech-misc/ion tape}."
 		]
 	}
 }

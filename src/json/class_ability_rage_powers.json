@@ -104,7 +104,7 @@
 		"description": [
 			"## Brawler",
 			"",
-			"While raging, the barbarian is treated as if she has [Improved Unarmed Strike](feat/improved_unarmed_strike). If she already has the feat, her unarmed strikes deal 1d6 points of damage (1d4 if she is Small)."
+			"While raging, the barbarian is treated as if she has {feat/Improved Unarmed Strike}. If she already has the feat, her unarmed strikes deal 1d6 points of damage (1d4 if she is Small)."
 		]
 	},
 	"greater_brawler": {
@@ -113,7 +113,7 @@
 		"description": [
 			"## Brawler, Greater",
 			"",
-			"While raging, the barbarian is treated as if she has [Two-Weapon Fighting](feat/two-weapon_fighting) when making unarmed strike attacks. A barbarian must have the brawler rage power to select this rage power."
+			"While raging, the barbarian is treated as if she has {feat/Two-Weapon Fighting} when making unarmed strike attacks. A barbarian must have the brawler rage power to select this rage power."
 		]
 	},
 	"breathtaker": {
@@ -248,7 +248,7 @@
 		"description": [
 			"## Furious Barrage (Ex)",
 			"",
-			"The barbarian is treated as having the [Rapid Shot](feat/rapid_shot) feat, but only for the purpose of attacking with thrown weapons. She need not meet the feat's prerequisites. A barbarian must be at least 4th level and must have the [furious draw](ragepower/furious_draw) rage power before selecting this power."
+			"The barbarian is treated as having the {feat/Rapid Shot} feat, but only for the purpose of attacking with thrown weapons. She need not meet the feat's prerequisites. A barbarian must be at least 4th level and must have the {ragepower/furious draw} rage power before selecting this power."
 		]
 	},
 	"gearbreaker": {
@@ -331,7 +331,7 @@
 		"description": [
 			"## Hurling, Lesser (Ex)",
 			"",
-			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a [falling object](rule/falling_objects) plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply [Power Attack](feat/power_attack) to this attack as a one- or two-handed weapon, as appropriate."
+			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a [falling object](rule/falling_objects) plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply {feat/Power Attack} to this attack as a one- or two-handed weapon, as appropriate."
 		]
 	},
 	"impelling_disarm": {
@@ -385,7 +385,7 @@
 		"description": [
 			"## Linnorm Death Curse, Cairn (Su)",
 			"",
-			"The character channels the power of a [cairn linnorm](monster/cairn_linnorm). The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of decay (Will negates). A character must be at least 8th level to select this rage power.",
+			"The character channels the power of a {monster/cairn linnorm}. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of decay (Will negates). A character must be at least 8th level to select this rage power.",
 			"",
 			"**Curse of Decay:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
 		]
@@ -396,7 +396,7 @@
 		"description": [
 			"## Linnorm Death Curse, Crag (Su)",
 			"",
-			"The character channels the power of a [crag linnorm](monster/crag_linnorm). The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of fire (Will negates). A character must be at least 4th level to select this rage power.",
+			"The character channels the power of a {monster/crag linnorm}. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of fire (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
 			"**Curse of Fire:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to fire."
 		]
@@ -407,7 +407,7 @@
 		"description": [
 			"## Linnorm Death Curse, Fjord (Su)",
 			"",
-			"The character channels the power of a [fjord linnorm](monster/fjord_linnorm). The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of drowning (Will negates). A character must be at least 4th level to select this rage power.",
+			"The character channels the power of a {monster/fjord linnorm}. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of drowning (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
 			"**Curse of Drowning:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened whenever it holds its breath."
 		]
@@ -418,7 +418,7 @@
 		"description": [
 			"## Linnorm Death Curse, Ice (Su)",
 			"",
-			"The character channels the power of an [ice linnorm](monster/ice_linnorm). The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the curse of frost. A character must be at least 4th level to select this rage power.",
+			"The character channels the power of an {monster/ice linnorm}. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the curse of frost. A character must be at least 4th level to select this rage power.",
 			"",
 			"**Curse of Frost:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to cold."
 		]
@@ -429,7 +429,7 @@
 		"description": [
 			"## Linnorm Death Curse, Taiga (Su)",
 			"",
-			"The character channels the power of a [taiga linnorm](monster/taiga_linnorm). The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of electricity (Will negates). A character must be at least 4th level to select this rage power.",
+			"The character channels the power of a {monster/taiga linnorm}. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of electricity (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
 			"**Curse of Electricity:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to electricity."
 		]
@@ -440,7 +440,7 @@
 		"description": [
 			"## Linnorm Death Curse, Tarn (Su)",
 			"",
-			"The character channels the power of a [tarn linnorm](monster/tarn_linnorm). The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of death (Will negates). A character must be at least 4th level to select this rage power.",
+			"The character channels the power of a {monster/tarn linnorm}. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of death (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
 			"**Curse of Death:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target is no longer affected by healing spells and can't heal damage naturally by resting."
 		]
@@ -451,7 +451,7 @@
 		"description": [
 			"## Linnorm Death Curse, Tor (Su)",
 			"",
-			"The character channels the power of a [tor linnorm](monster/tor_linnorm). The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of boiling blood (Will negates). A character must be at least 8th level to select this rage power.",
+			"The character channels the power of a {monster/tor linnorm}. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of boiling blood (Will negates). A character must be at least 8th level to select this rage power.",
 			"",
 			"**Curse of Boiling Blood:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect)."
 		]
@@ -719,7 +719,7 @@
 		"description": [
 			"## Kelizandri's Tide (Su)",
 			"",
-			"When the barbarian rages, enemies find it difficult to escape the vortex of her fury. As a full-round action while raging, the barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her. Once per day after attempting this maneuver, she can attack each adjacent creature as a free action as if using the [Whirlwind Attack](feat/whirlwind_attack) feat. If she has the [Whirlwind Attack](feat/whirlwind_attack) feat, she can also use it as a free action in this way one additional time per day."
+			"When the barbarian rages, enemies find it difficult to escape the vortex of her fury. As a full-round action while raging, the barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her. Once per day after attempting this maneuver, she can attack each adjacent creature as a free action as if using the {feat/Whirlwind Attack} feat. If she has the {feat/Whirlwind Attack} feat, she can also use it as a free action in this way one additional time per day."
 		]
 	},
 	"ymeris_pyre": {
@@ -737,7 +737,7 @@
 		"description": [
 			"## Air Totem (Su)",
 			"",
-			"Once per rage, the barbarian can move for 1 round as if affected by [air walk](spell/air_walk). You must have the Lesser Elemental rage power before you can select this."
+			"Once per rage, the barbarian can move for 1 round as if affected by {spell/air walk}. You must have the Lesser Elemental rage power before you can select this."
 		]
 	},
 	"greater_air_totem": {
@@ -836,7 +836,7 @@
 		"description": [
 			"## Celestial Totem (Su)",
 			"",
-			"While raging, the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were [daylight](spell/daylight) and triggers an [invisibility purge](spell/invisibility_purge) effect in the barbarian's square and each adjacent square. The [invisibility purge](spell/invisibility_purge) only affects nongood creatures. A barbarian must be at least 8th level to select this rage power."
+			"While raging, the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were {spell/daylight} and triggers an {spell/invisibility purge} effect in the barbarian's square and each adjacent square. The {spell/invisibility purge} only affects nongood creatures. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
 	"greater_celestial_totem": {
@@ -1034,7 +1034,7 @@
 		"description": [
 			"## Fire Totem, Greater (Su)",
 			"",
-			"While raging, the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or [suffer the effects of breathing heavy smoke](rule/forest_fires_cr_6). The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a free action, or it can be dispersed by wind in the same manner as a [fog cloud](spell/fog_cloud) spell."
+			"While raging, the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or [suffer the effects of breathing heavy smoke](rule/forest_fires_cr_6). The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a free action, or it can be dispersed by wind in the same manner as a {spell/fog cloud} spell."
 		]
 	},
 	"hive_totem": {
@@ -1043,7 +1043,7 @@
 		"description": [
 			"## Hive Totem (Su)",
 			"",
-			"While raging, the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like [summon swarm](spell/summon_swarm) used to summon spiders or [insect plague](spell/insect_plague)). She also gains a +1 bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks for every four barbarian levels she has (maximum +5). A barbarian must have the animal fury power and be at least 4th level before selecting this rage power."
+			"While raging, the barbarian takes half damage from attacks by swarms of vermin, including spells and effects that act like a swarm of vermin (like {spell/summon swarm} used to summon spiders or {spell/insect plague}). She also gains a +1 bonus on Strength ability checks and to CMD against bull rush, drag, and trip attacks for every four barbarian levels she has (maximum +5). A barbarian must have the animal fury power and be at least 4th level before selecting this rage power."
 		]
 	},
 	"hive_totem_resilience": {
@@ -1214,7 +1214,7 @@
 		"description": [
 			"## Tyrant Totem, Greater (Su)",
 			"",
-			"While raging, the barbarian gains [swallow whole](umr/swallow_whole) as per the universal monster rule. A barbarian must be at least 12th level to choose this rage power."
+			"While raging, the barbarian gains {umr/swallow whole} as per the universal monster rule. A barbarian must be at least 12th level to choose this rage power."
 		]
 	},
 	"lesser_tyrant_totem": {
@@ -1241,7 +1241,7 @@
 		"description": [
 			"## Water Totem, Greater (Su)",
 			"",
-			"While raging, the barbarian gains tremorsense to a range of 30 feet while underwater. She can attack and move underwater as if affected by [freedom of movement](spell/freedom_of_movement). You must have the Lesser Elemental rage power before you can select this."
+			"While raging, the barbarian gains tremorsense to a range of 30 feet while underwater. She can attack and move underwater as if affected by {spell/freedom of movement}. You must have the Lesser Elemental rage power before you can select this."
 		]
 	},
 	"world_serpent_spirit": {
@@ -1538,7 +1538,7 @@
 		"description": [
 			"## Abyssal Blood (Su)",
 			"",
-			"Once per day when the barbarian enters a rage, she can choose to grow one size category larger than her base size (as [enlarge person](spell/enlarge_person), even if the barbarian isn't humanoid)."
+			"Once per day when the barbarian enters a rage, she can choose to grow one size category larger than her base size (as {spell/enlarge person}, even if the barbarian isn't humanoid)."
 		]
 	},
 	"greater_abyssal_blood": {
@@ -1655,7 +1655,7 @@
 		"description": [
 			"## Fey Blood, Greater (Su)",
 			"",
-			"While raging, as long as the barbarian moves at least 10 feet, she gain the effects of [blur](spell/blur) for 1 round."
+			"While raging, as long as the barbarian moves at least 10 feet, she gain the effects of {spell/blur} for 1 round."
 		]
 	},
 	"lesser_fey_blood": {
@@ -1691,7 +1691,7 @@
 		"description": [
 			"## Infernal Blood, Lesser (Su)",
 			"",
-			"While raging, up to three times a day as a swift action, the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the [flaming](magic-enhancement/flaming) magic weapon special ability."
+			"While raging, up to three times a day as a swift action, the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the {magic-enhancement/flaming} magic weapon special ability."
 		]
 	},
 	"undead_blood": {
@@ -1700,7 +1700,7 @@
 		"description": [
 			"## Undead Blood (Su)",
 			"",
-			"While raging, all of the barbarian's melee attacks are treated as if they were made with a weapon with the [ghost touch](magic-enhancement/ghost_touch_weapon) weapon special ability."
+			"While raging, all of the barbarian's melee attacks are treated as if they were made with a weapon with the {magic-enhancement/ghost touch} weapon special ability."
 		]
 	},
 	"greater_undead_blood": {
@@ -1781,7 +1781,7 @@
 		"description": [
 			"## Contagious Rage (Su)",
 			"",
-			"The barbarian howls during combat, agitating nearby fauna. Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of the [rage](spell/rage) spell for as long as she maintains her rage. After the barbarian's rage ends, creatures affected by her rage are fatigued for the same number of rounds as the barbarian. A barbarian must be at least 6th level to choose this rage power."
+			"The barbarian howls during combat, agitating nearby fauna. Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of the {spell/rage} spell for as long as she maintains her rage. After the barbarian's rage ends, creatures affected by her rage are fatigued for the same number of rounds as the barbarian. A barbarian must be at least 6th level to choose this rage power."
 		]
 	},
 	"disruptive": {
@@ -1790,7 +1790,7 @@
 		"description": [
 			"## Disruptive",
 			"",
-			"When raging, the barbarian gains [Disruptive](feat/disruptive) as a bonus feat. The barbarian must have the superstition rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
+			"When raging, the barbarian gains {feat/Disruptive} as a bonus feat. The barbarian must have the superstition rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
 	"dissipating_rage": {
@@ -1889,7 +1889,7 @@
 		"description": [
 			"## Furious Draw",
 			"",
-			"The barbarian is treated as having the [Quick Draw](feat/quick_draw) feat."
+			"The barbarian is treated as having the {feat/Quick Draw} feat."
 		]
 	},
 	"inspire_ferocity": {
@@ -1925,7 +1925,7 @@
 		"description": [
 			"## Master of the Deep (Su)",
 			"",
-			"As a standard action, the barbarian commands an aquatic creature to do her bidding. The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the [command](spell/command) spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it as a standard action. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn. Once a creature has attempted a saving throw against master of the deep (successful or not), it is immune to this power for 24 hours. This ability is a mind-affecting effect, but it is not language dependent; the creature need not understand the barbarian giving the command. A barbarian must be at least 8th level before selecting this power."
+			"As a standard action, the barbarian commands an aquatic creature to do her bidding. The barbarian selects a creature with the aquatic type within 30 feet and gives a terse command from those listed in the {spell/command} spell. Alternatively, if the creature has an Intelligence of 1 or 2, the barbarian may instead command the creature to attack the closest creature to it as a standard action. The creature must succeed at a Will save (DC equal to 10 + half the barbarian's level + her Strength modifier) or obey the command to the best of its ability on its next turn. Once a creature has attempted a saving throw against master of the deep (successful or not), it is immune to this power for 24 hours. This ability is a mind-affecting effect, but it is not language dependent; the creature need not understand the barbarian giving the command. A barbarian must be at least 8th level before selecting this power."
 		]
 	},
 	"moment_of_clarity": {
@@ -2069,7 +2069,7 @@
 		"description": [
 			"## Scent (Ex)",
 			"",
-			"The barbarian gains the [scent](umr/scent) ability while raging and can use this ability to locate unseen foes."
+			"The barbarian gains the {umr/scent} ability while raging and can use this ability to locate unseen foes."
 		]
 	},
 	"spellbreaker": {
@@ -2078,7 +2078,7 @@
 		"description": [
 			"## Spellbreaker",
 			"",
-			"When raging, the barbarian gains [Spellbreaker](feat/spellbreaker) as a bonus feat. A barbarian must have the disruptive rage power and be at least 12th level to select this rage power."
+			"When raging, the barbarian gains {feat/Spellbreaker} as a bonus feat. A barbarian must have the disruptive rage power and be at least 12th level to select this rage power."
 		]
 	},
 	"spirit_steed": {

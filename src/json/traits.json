@@ -272,35 +272,35 @@
 			"",
 			"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain-these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
 			"",
-			"**[Alchemy](domain/alchemy) ([Artifice](domain/artifice)/[Magic](domain/magic)):** [Brigh](faith/brigh), [Haagenti](faith/haagenti), [Norgorber](faith/norgorber)&ast; (Artifice only), [Orgesh](faith/orgesh)&ast; (Magic only), [Qi Zhong](faith/qi_zhong))",
+			"**{domain/Alchemy} ({domain/Artifice}/{domain/Magic}):** {faith/Brigh}, {faith/Haagenti}, {faith/Norgorber}&ast; (Artifice only), {faith/Orgesh}&ast; (Magic only), {faith/Qi Zhong})",
 			"",
-			"**[Captivation](domain/captivation):** [Calistria](faith/calistria), [Kofusachi](faith/kofusachi), [Nalinivati](faith/nalinivati), [Norgorber](faith/norgorber), [Shelyn](faith/shelyn)",
+			"**{domain/Captivation}:** {faith/Calistria}, {faith/Kofusachi}, {faith/Nalinivati}, {faith/Norgorber}, {faith/Shelyn}",
 			"",
-			"**[Hubris](domain/hubris) ([Glory](domain/glory)/[Nobility](domain/nobility)):** [Dispater](faith/dispater), [General Susumu](faith/general_susumu), [Iomedae](faith/iomedae), [Jaidz](faith/jaidz), [Lissala](faith/lissala), [Olheon](faith/olheon), [Ydersius](faith/ydersius)",
+			"**{domain/Hubris} ({domain/Glory}/{domain/Nobility}):** {faith/Dispater}, {faith/General Susumu}, {faith/Iomedae}, {faith/Jaidz}, {faith/Lissala}, {faith/Olheon}, {faith/Ydersius}",
 			"",
-			"**[Insect](domain/insect):** [Achaekek](faith/achaekek)&ast;, [Aldinach](faith/aldinach), [Deskari](faith/deskari)&ast;, [Ghlaunder](faith/ghlaunder), [Kitumu](faith/kitumu), [Mazmezz](faith/mazmezz)",
+			"**{domain/Insect}:** {faith/Achaekek}&ast;, {faith/Aldinach}, {faith/Deskari}&ast;, {faith/Ghlaunder}, {faith/Kitumu}, {faith/Mazmezz}",
 			"",
-			"**[Legend](domain/legend):** [General Susumu](faith/general_susumu), [Gorum](faith/gorum), [Shizuru](faith/shizuru)",
+			"**{domain/Legend}:** {faith/General Susumu}, {faith/Gorum}, {faith/Shizuru}",
 			"",
-			"**[Lightning](domain/lightning):** [Gozreh](faith/gozreh), [Hei Feng](faith/hei_feng), [Rovagug](faith/rovagug), [Rull](faith/rull)",
+			"**{domain/Lightning}:** {faith/Gozreh}, {faith/Hei Feng}, {faith/Rovagug}, {faith/Rull}",
 			"",
-			"**[Medicine](domain/medicine):** [Dalenydra](faith/dalenydra), [Immonhiel](faith/immonhiel), [Irori](faith/irori), [Korada](faith/korada), [Qi Zhong](faith/qi_zhong), [Sarenrae](faith/sarenrae)",
+			"**{domain/Medicine}:** {faith/Dalenydra}, {faith/Immonhiel}, {faith/Irori}, {faith/Korada}, {faith/Qi Zhong}, {faith/Sarenrae}",
 			"",
-			"**[Monsoon](domain/monsoons):** [Daikitsu](faith/daikitsu), [Gozreh](faith/gozreh), [Hei Feng](faith/hei_feng), [Rull](faith/rull)",
+			"**[Monsoon](domain/monsoons):** {faith/Daikitsu}, {faith/Gozreh}, {faith/Hei Feng}, {faith/Rull}",
 			"",
-			"**[Petrification](domain/petrification):** [Ayrzul](faith/ayrzul), [Minderhal](faith/minderhal), [Soralyon](faith/soralyon), [Xoveron](faith/xoveron)",
+			"**{domain/Petrification}:** {faith/Ayrzul}, {faith/Minderhal}, {faith/Soralyon}, {faith/Xoveron}",
 			"",
-			"**[Portal](domain/portal):** [Abadar](faith/abadar), [Alseta](faith/alseta)&ast;, [Barbatos](faith/barbatos), [Yog-Sothoth](faith/yog-sothoth)",
+			"**{domain/Portal}:** {faith/Abadar}, {faith/Alseta}&ast;, {faith/Barbatos}, {faith/Yog-Sothoth}",
 			"",
-			"**[Rites](domain/rites):** [Abraxas](faith/abraxas), [Asmodeus](faith/asmodeus), [Nalinivati](faith/nalinivati), [Nethys](faith/nethys), [Nyarlathotep](faith/nyarlathotep_black_pharaoh), [Sivanah](faith/sivanah)",
+			"**{domain/Rites}:** {faith/Abraxas}, {faith/Asmodeus}, {faith/Nalinivati}, {faith/Nethys}, [Nyarlathotep](faith/nyarlathotep_black_pharaoh), {faith/Sivanah}",
 			"",
-			"**[Self-Realization](domain/self-realization) ([Liberation](domain/liberation)/[Strength](domain/strength)):** [Arshea](faith/arshea), [Falayna](faith/falayna), [Haagenti](faith/haagenti), [Irori](faith/irori), [Kurgess](faith/kurgess), [Shei](faith/shei), [Urgathoa](faith/urgathoa)",
+			"**{domain/Self-Realization} ({domain/Liberation}/{domain/Strength}):** {faith/Arshea}, {faith/Falayna}, {faith/Haagenti}, {faith/Irori}, {faith/Kurgess}, {faith/Shei}, {faith/Urgathoa}",
 			"",
-			"**[Thirst](domain/thirst):** [Aldinach](faith/aldinach), [Lalaci](faith/lalaci), [Nurgal](faith/nurgal), [Sarenrae](faith/sarenrae)",
+			"**{domain/Thirst}:** {faith/Aldinach}, {faith/Lalaci}, {faith/Nurgal}, {faith/Sarenrae}",
 			"",
-			"**[Thorns](domain/thorns):** [The Green Mother](faith/the_green_mother), [Shub-Niggurath](faith/shub-niggurath), [Zyphus](faith/zyphus)",
+			"**{domain/Thorns}:** {faith/The Green Mother}, {faith/Shub-Niggurath}, {faith/Zyphus}",
 			"",
-			"**[Truth](domain/truth):** [Groetus](faith/groetus), [Lamashtu](faith/lamashtu), [Sifkesh](faith/sifkesh), [Sivanah](faith/sivanah)"
+			"**{domain/Truth}:** {faith/Groetus}, {faith/Lamashtu}, {faith/Sifkesh}, {faith/Sivanah}"
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -839,7 +839,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Thamir Gixx",
 			"",
-			"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have [Weapon Focus](feat/weapon_focus). If you have the [Quick Draw](feat/quick_draw) feat, drawing this weapon is a free action."
+			"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have {feat/Weapon Focus}. If you have the {feat/Quick Draw} feat, drawing this weapon is a free action."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -942,7 +942,7 @@
 			"",
 			"You have always looked after yourself first, and done whatever you need to do to survive. You've killed before, and you'll kill again, but you don't lose sleep over it. If it's you or them, you invariably choose yourself. You follow no code, unless it's doing whatever brings you to the top. Of course, sometimes you have to work with others, and that's fine too, as long as the pay is right-whatever it takes to get the job done. With the current unrest in Cheliax, it's starting to look like a good deal to work with House Thrune. You know Thrune rewards those who serve it well, and there's no one else in Cheliax who can offer the power, prestige, and money that Thrune can.",
 			"",
-			"You've got a keen eye for what makes a good arrangement and when to walk away from a bad deal. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, as an immediate action once per day, you can shift your effective alignment so that you are considered neutral instead of evil for the purpose of good effects that target evil creatures (such as [holy smite](spell/holy_smite) or a [paladin's smite evil](class/paladin) ability). Your alignment does not actually change when you use this ability."
+			"You've got a keen eye for what makes a good arrangement and when to walk away from a bad deal. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, as an immediate action once per day, you can shift your effective alignment so that you are considered neutral instead of evil for the purpose of good effects that target evil creatures (such as {spell/holy smite} or a [paladin's smite evil](class/paladin) ability). Your alignment does not actually change when you use this ability."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1264,7 +1264,7 @@
 			"",
 			"It's no secret that conjuring and binding devils is a popular pursuit in Cheliax, and you have served as an apprentice to a diabolist since a young age. Eventually, however, you decided you wanted more for yourself than a life of study and service, and when you felt you had learned all that you were likely to from your master, you struck out on your own. You know you can achieve the loftiest heights of power with the support of Hell behind you, just as you are aware you can fall to the lowest depths if you're incautious and lose that support. You are determined to use your skills and abilities to bind Hell and its minions to your will, and to make a name for yourself as one of Cheliax's premier devilbinders.",
 			"",
-			"When you cast a [summon monster](spell/summon_monster_1) spell to summon a devil or fiendish creature, the duration of that spell increases by 1 round. In addition, you gain a +1 trait bonus on opposed Charisma checks against devils conjured with [planar binding](spell/planar_binding) spells, and payments to devils you conjure with [planar ally](spell/planar_ally) spells are reduced by 10%."
+			"When you cast a [summon monster](spell/summon_monster_1) spell to summon a devil or fiendish creature, the duration of that spell increases by 1 round. In addition, you gain a +1 trait bonus on opposed Charisma checks against devils conjured with {spell/planar binding} spells, and payments to devils you conjure with {spell/planar ally} spells are reduced by 10%."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1389,7 +1389,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Drow",
 			"",
-			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the [Extend Spell](feat/extend_spell) metamagic feat."
+			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the {feat/Extend Spell} metamagic feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -1631,7 +1631,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
 			"",
-			"You grew up in the church of [Asmodeus](faith/asmodeus), and have served as a faithful follower your entire life. You've studied the unholy texts, committed the rigid hierarchies of Hell to memory, and striven to eliminate emotion and mercy from your mind in emulation of the Prince of Darkness. You may have continued your career in the church, officially joining the priesthood and aspiring to advance to positions of higher authority and greater power, or you may have left the church, deciding the life of a priest was not for you. In either case, the education you received in the church has remained with you. You gain a +1 trait bonus on Diplomacy, Knowledge (planes), and Knowledge (religion) checks, and one of these skills (your choice) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages)."
+			"You grew up in the church of {faith/Asmodeus}, and have served as a faithful follower your entire life. You've studied the unholy texts, committed the rigid hierarchies of Hell to memory, and striven to eliminate emotion and mercy from your mind in emulation of the Prince of Darkness. You may have continued your career in the church, officially joining the priesthood and aspiring to advance to positions of higher authority and greater power, or you may have left the church, deciding the life of a priest was not for you. In either case, the education you received in the church has remained with you. You gain a +1 trait bonus on Diplomacy, Knowledge (planes), and Knowledge (religion) checks, and one of these skills (your choice) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages)."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1786,7 +1786,7 @@
 			"- \"Where did you grow up?\": Grants a +1 trait bonus to Reflex saving throws.",
 			"- \"What historical figure inspired you the most?\": Grants a +1 trait bonus to Will saving throws.",
 			"",
-			"Once per adventure as a standard action, you may concentrate on the bond you and Audrahni share. The strong emotions brought on by these memories bolster your desire to forge ahead and remain alive, granting you the effects of one of the following spells at a caster level equal to your character level: [calm emotions](spell/calm_emotions), [cure moderate wounds](spell/cure_moderate_wounds), or [lesser restoration](spell/lesser_restoration)."
+			"Once per adventure as a standard action, you may concentrate on the bond you and Audrahni share. The strong emotions brought on by these memories bolster your desire to forge ahead and remain alive, granting you the effects of one of the following spells at a caster level equal to your character level: {spell/calm emotions}, {spell/cure moderate wounds}, or {spell/lesser restoration}."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -2925,7 +2925,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
 			"",
-			"You were raised deep in the Fangwood Forest, but in your childhood the Darkblight overtook your community, and blighted fey attacked your friends and family. Even after escaping, you barely survived infection by the otherworldly fungal disease and still bear a terrible scar from your ordeal. You gain a +2 trait bonus on Fortitude saving throws against disease or poison (your choice), and your scar now throbs painfully in the presence of unnatural creatures, immediately alerting you to their presence. This sixth sense alerts you to the presence of aberrations, oozes, and all creatures with the [blighted fey](template/blighted_fey) and [fungal creature](template/fungal_creature) templates within 30 feet (though it doesn't indicate their exact location). You can always act during the surprise round against such creatures, and you aren't considered flat-footed against such creatures in the first round of combat."
+			"You were raised deep in the Fangwood Forest, but in your childhood the Darkblight overtook your community, and blighted fey attacked your friends and family. Even after escaping, you barely survived infection by the otherworldly fungal disease and still bear a terrible scar from your ordeal. You gain a +2 trait bonus on Fortitude saving throws against disease or poison (your choice), and your scar now throbs painfully in the presence of unnatural creatures, immediately alerting you to their presence. This sixth sense alerts you to the presence of aberrations, oozes, and all creatures with the {template/blighted fey} and {template/fungal creature} templates within 30 feet (though it doesn't indicate their exact location). You can always act during the surprise round against such creatures, and you aren't considered flat-footed against such creatures in the first round of combat."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -2954,7 +2954,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Vildeis",
 			"",
-			"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain [Blind-Fight](feat/blind-fight) as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind."
+			"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain {feat/Blind-Fight} as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -3087,7 +3087,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Vildeis",
 			"",
-			"You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see [detect evil](spell/detect_evil))."
+			"You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see {spell/detect evil})."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -3115,7 +3115,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereboar-kin",
 			"",
-			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the [Endurance](feat/endurance) prerequisite for the [Diehard](feat/diehard) feat."
+			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the {feat/Endurance} prerequisite for the {feat/Diehard} feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -3244,7 +3244,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir",
 			"",
-			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the [Endurance](feat/endurance) feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
+			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the {feat/Endurance} feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -3334,7 +3334,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose [Honor Points](rule/honor_points), you may make a new saving throw against the original DC to end the effect."
+			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose {rule/Honor Points}, you may make a new saving throw against the original DC to end the effect."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -3607,7 +3607,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
+			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the {feat/Improved Unarmed Strike} feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -4359,7 +4359,7 @@
 			"",
 			"This trait assumes you belong to a minor noble human family with a small manor or estate in some backwater of the empire. If you're not human, either you were adopted into a noble human family, or your family was recently granted a non-hereditary noble title.",
 			"",
-			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you. In addition, you gain a +1 trait bonus on Charisma-based checks against other members of the Chelish aristocracy. The [Noble Scion](feat/noble_scion) feat does not have a Charisma prerequisite for you. Lastly, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp."
+			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you. In addition, you gain a +1 trait bonus on Charisma-based checks against other members of the Chelish aristocracy. The {feat/Noble Scion} feat does not have a Charisma prerequisite for you. Lastly, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -4410,7 +4410,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
 			"",
-			"You had the fortune (or perhaps the misfortune, depending on your viewpoint) to be born into one of Kintargo's noble families. Your experience growing up among the city's well-to-do has given you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With the new situation in Kintargo brewing, there is much concern about an eventual restructuring of the city's nobility. Already, one noble estate has burned to the ground under what can best be described as suspicious circumstances, but whether the government or rebels were responsible depends on whom you ask. With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in the Greens. If you want to be a member of one of Kintargo's major noble families, you must take the [Noble Scion](feat/noble_scion) feat at 1st level.",
+			"You had the fortune (or perhaps the misfortune, depending on your viewpoint) to be born into one of Kintargo's noble families. Your experience growing up among the city's well-to-do has given you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With the new situation in Kintargo brewing, there is much concern about an eventual restructuring of the city's nobility. Already, one noble estate has burned to the ground under what can best be described as suspicious circumstances, but whether the government or rebels were responsible depends on whom you ask. With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in the Greens. If you want to be a member of one of Kintargo's major noble families, you must take the {feat/Noble Scion} feat at 1st level.",
 			"",
 			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. If you take the Noble Scion feat, your last name is probably Aulamaxa, Aulorian, Delronge, Jarvis, Jhaltero, Sarini, Tanessen, or Vashnarstill; if you're not human, you were adopted into the family. If you don't take this feat, you can make up your last name."
 		],
@@ -4425,7 +4425,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
 			"",
-			"During your childhood, you knew someone who was addicted to [mumia](drug/mumia), a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases."
+			"During your childhood, you knew someone who was addicted to {drug/mumia}, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -4458,9 +4458,9 @@
 			"",
 			"You belong to a noble family that matters in Taldor, though as the story begins you may or may not be on good terms with your relatives. Your upbringing among the city's well-to-do gives you an upper hand when it comes to knowledge of high society, and you start the game with a modest inheritance. With Princess Eutropia's efforts to provide for Taldor's common citizens and overturn years of tradition, new lines are being quietly drawn in the sand, and you have found yourself embroiled in these intrigues whether you intended to be or not.",
 			"",
-			"With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in Aroden's View or Senate's Hill. If you want to be a member of one of Oppara's major noble families, you must take the [Noble Scion](feat/noble_scion) feat at 1st level.",
+			"With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in Aroden's View or Senate's Hill. If you want to be a member of one of Oppara's major noble families, you must take the {feat/Noble Scion} feat at 1st level.",
 			"",
-			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a [noble's outfit](equipment-misc/nobles_outfit), a [signet ring](equipment-misc/signet_ring), and a single additional nonmagical item worth no more than 200 gp."
+			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a {equipment-misc/noble's outfit}, a {equipment-misc/signet ring}, and a single additional nonmagical item worth no more than 200 gp."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -4917,7 +4917,7 @@
 			"",
 			"You and another PC are close allies-friends, lovers, siblings, or even twins. Work with the other player to build a shared history-both you and the other player must choose Close Allies as a campaign trait, and both must agree to the nature of the relationship between the two characters. (At the GM's option, more than two PCs can be linked by this trait.) You and your close ally have always supported each other. You might have the tendency to complete each other's sentences, dress similarly, share the same religion or faith, or have endured a dangerous event together in the past. If you and the other player agree (and have chosen either the siblings or twins option below), you might not even particularly like your close \"ally,\" yet you still respect them and can utilize this trait's benefits all the same.",
 			"",
-			"If your relationship with your close ally ends (as a result of death, a parting of ways, or other catastrophe), you immediately lose this campaign trait and replace it with [Spirit Touched](trait/spirit_touched) as a result of your emotional distress.",
+			"If your relationship with your close ally ends (as a result of death, a parting of ways, or other catastrophe), you immediately lose this campaign trait and replace it with {trait/Spirit Touched} as a result of your emotional distress.",
 			"",
 			"When you and the other PC agree to take this shared trait, you must also agree on the nature of your characters' bond by choosing one of the following: friends, lovers, siblings, or twins. If you choose twins, both PCs must be of the same race. If you choose siblings, one or both of you are adopted if you aren't of the same race.",
 			"",
@@ -5479,7 +5479,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using [Combat Expertise](feat/combat_expertise), you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
+			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using {feat/Combat Expertise}, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -5650,7 +5650,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti Island",
 			"",
-			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the [Red Mantis](rule/aff_assassins) cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the [Two-Weapon Fighting](feat/two-weapon_fighting) feat) ."
+			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the [Red Mantis](rule/aff_assassins) cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the {feat/Two-Weapon Fighting} feat) ."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -6731,7 +6731,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the [Improved Dirty Trick](feat/improved_dirty_trick) feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
+			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the {feat/Improved Dirty Trick} feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -6822,7 +6822,7 @@
 			"**Type:** Social  ",
 			"**Requirements:** Code of Revolution",
 			"",
-			"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use [detect law](spell/detect_law) as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
+			"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use {spell/detect law} as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -7378,7 +7378,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebear-kin",
 			"",
-			"When you use your change shape ability, you can choose to gain the benefits of the [Endurance](feat/endurance) feat rather than gaining a special ability."
+			"When you use your change shape ability, you can choose to gain the benefits of the {feat/Endurance} feat rather than gaining a special ability."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -8368,7 +8368,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
 			"",
-			"You, or perhaps your family, were once worshipers of [Iomedae](faith/iomedae), but something happened that made you lose your faith. Perhaps your family was accused of being dishonorable or cowardly, or maybe one of your family members was the victim of church \"justice.\" Or perhaps you simply met someone who opened your eyes and showed you the truth-that the Inheritor's so-called honor, valor, and justice are just tin plating on a strict dogma that seeks to control people by restricting their free will. In any event, you left the church, and as a result, your family was subjected to scorn and holier-than-thou disapproval. Ever since, you've vowed to some day get revenge against the church of Iomedae-and with the current situation brewing in Cheliax, you might finally have the opportunity.",
+			"You, or perhaps your family, were once worshipers of {faith/Iomedae}, but something happened that made you lose your faith. Perhaps your family was accused of being dishonorable or cowardly, or maybe one of your family members was the victim of church \"justice.\" Or perhaps you simply met someone who opened your eyes and showed you the truth-that the Inheritor's so-called honor, valor, and justice are just tin plating on a strict dogma that seeks to control people by restricting their free will. In any event, you left the church, and as a result, your family was subjected to scorn and holier-than-thou disapproval. Ever since, you've vowed to some day get revenge against the church of Iomedae-and with the current situation brewing in Cheliax, you might finally have the opportunity.",
 			"",
 			"Choose one: against followers of Iomedae, including many (but not all) archons and angels, you gain a +1 trait bonus on attack rolls and weapon damage rolls, or you gain a +1 trait bonus on the save DCs of your spells."
 		],
@@ -8639,7 +8639,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Droskar",
 			"",
-			"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the [Extend Spell](feat/extend_spell) feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus."
+			"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the {feat/Extend Spell} feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -8692,7 +8692,7 @@
 			"**Type:** Faith  ",
 			"**Region:** Katapesh",
 			"",
-			"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using [detect magic](spell/detect_magic) in 1 round."
+			"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using {spell/detect magic} in 1 round."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},

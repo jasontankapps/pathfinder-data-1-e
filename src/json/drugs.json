@@ -46,7 +46,7 @@
 			"{SOURCE Potions and Poisons/27}  ",
 			"**Type** inhaled; **Addiction** minor, Fortitude DC 15  ",
 			"**Price** 15 gp  ",
-			"**Effect** 1d4&times;10 minutes; the user gains the benefits of a constant [detect magic](spell/detect_magic) effect, but she treats illumination in the area as dim light; areas of dim light and darkness are treated as darkness  ",
+			"**Effect** 1d4&times;10 minutes; the user gains the benefits of a constant {spell/detect magic} effect, but she treats illumination in the area as dim light; areas of dim light and darkness are treated as darkness  ",
 			"**Effect** 1 hour; the user gains the dazzled condition  ",
 			"**Damage** 1d2 Wis damage",
 			"",
@@ -125,7 +125,7 @@
 			"**Effect** after 1 day; -4 penalty on saving throws against disease effects for 7 days  ",
 			"**Damage** 1d4 Wis damage",
 			"",
-			"Cultists of [Ghlaunder](faith/ghlaunder) and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
+			"Cultists of {faith/Ghlaunder} and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
 		]
 	},
 	"slavers_drops": {
@@ -155,7 +155,7 @@
 			"**Effect** 2 hours; +2 on Knowledge (arcana, planes, or religion) and Spellcraft checks, victim is distracted for the purposes of Perception checks  ",
 			"**Damage** 1d2 Wis damage",
 			"",
-			"Refined from the thorns of [bloodbrush](monster/bloodbrush), this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug."
+			"Refined from the thorns of {monster/bloodbrush}, this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug."
 		]
 	},
 	"opium": {
@@ -209,7 +209,7 @@
 			"{SOURCE GameMastery Guide/237}  ",
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 20  ",
 			"**Price** 50 gp  ",
-			"**Effect** 1d4 rounds; [rage](spell/rage) as per the spell  ",
+			"**Effect** 1d4 rounds; {spell/rage} as per the spell  ",
 			"**Effect** 1 hour; cold resistance 5  ",
 			"**Damage** 1d2 Con damage"
 		]
@@ -299,7 +299,7 @@
 			"{SOURCE Potions and Poisons/27}  ",
 			"**Type** ingested; **Addiction** major, Fortitude DC 26  ",
 			"**Price** 100 gp  ",
-			"**Effect** a user under the effect of a [suggestion](spell/suggestion) spell can attempt another saving throw (with the effect's original DC) to shake off the spell's effect, but he loses all memories from the previous 1d4 hours, as per modify memory but without the 5-minute limit  ",
+			"**Effect** a user under the effect of a {spell/suggestion} spell can attempt another saving throw (with the effect's original DC) to shake off the spell's effect, but he loses all memories from the previous 1d4 hours, as per modify memory but without the 5-minute limit  ",
 			"**Damage** 1d4 damage to a random ability score",
 			"",
 			"A less pure version of refined cytillesh, oblivion retains the unpredictable side effects and highly addictive properties of the source material. Oblivion is common in Cassomir's slums and the Puddles district of Absalom. Type ingested; Addiction major, Fortitude DC 26"
@@ -314,7 +314,7 @@
 			"{SOURCE Rival Guide/53}  ",
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 20  ",
 			"**Price** 120 gp  ",
-			"**Effect** 2d12 minutes; unconscious, gain vivid dreams acting as the [augury](spell/augury) spell, but with only a 60% chance of receiving a meaningful reply  ",
+			"**Effect** 2d12 minutes; unconscious, gain vivid dreams acting as the {spell/augury} spell, but with only a 60% chance of receiving a meaningful reply  ",
 			"**Damage** 1d3 Wis",
 			"",
 			"This tea carries a complex aroma combining the unlikely mix of citrus and dung. Originally developed in Vudra from a mix of rare herbs and flowers, dreamtime tea is gaining popularity in many cities in the Inner Sea region, particularly among those who seek dreams as an escape from reality."
@@ -329,7 +329,7 @@
 			"{SOURCE Rival Guide/53}  ",
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 20  ",
 			"**Price** 150 gp  ",
-			"**Effect** 30 minutes; +1d4 Str and +1d3 Dex, then slowed (as per the spell [slow](spell/slow)) for 3 hours  ",
+			"**Effect** 30 minutes; +1d4 Str and +1d3 Dex, then slowed (as per the spell {spell/slow}) for 3 hours  ",
 			"**Damage** 1d4 Con",
 			"",
 			"Blood sap is distilled from the crimson sap exuded by a pale green vine native to swamplands in the Mwangi Expanse. Users of this deep red syrup justify the negative effects of the drug with their increased agility and strength. Blood sap addicts often display vividly red lips and teeth."
@@ -359,7 +359,7 @@
 			"{SOURCE Numeria, Land of Fallen Stars/25}  ",
 			"**Type** ingested or inhaled; **Addiction** severe, Fortitude DC 15  ",
 			"**Price** 300 gp  ",
-			"**Effect** 1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as [see invisibility](spell/see_invisibility)), and vulnerability to sonic damage  ",
+			"**Effect** 1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as {spell/see invisibility}), and vulnerability to sonic damage  ",
 			"**Damage** 1d2 Constitution damage and 1 Wisdom drain",
 			"",
 			"A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on adamantine and other skymetals as well as their alloys. It requires trace toxins found in the rains and water of Numeria to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price"
@@ -387,7 +387,7 @@
 			"{SOURCE Lost Kingdoms/22}  ",
 			"**Type** inhaled, ingested, or injury; **Addiction** major, Fortitude DC 18  ",
 			"**Price** 500 gp  ",
-			"**Effect** 1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, fatigue. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a [ghoul](monster/ghoul) every week she remains addicted.  ",
+			"**Effect** 1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, fatigue. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a {monster/ghoul} every week she remains addicted.  ",
 			"**Damage** 1d2 Wis damage",
 			"",
 			"Perhaps the strangest of the valuables removed from the dusty tombs of Osirion is the flesh of the dead itself. During the years of satrapy-dominated Osirion and later under the rule of Keleshite sultans, a highly prized royal physician of Osirian descent by the name of Merenfren used a previously unknown black, tarlike substance as an ingredient in numerous salves, potions, and pills she concocted to treat ailments and revitalize her wealthy clientele.",
@@ -416,7 +416,7 @@
 			"",
 			"The elite of Numeria cultivate a taste for these latter fluids, ostensibly for the insights and pleasant fugues induced by some of the chemicals. Indeed, repeated exposure to such fluids leads first to addiction, then to dependency. Yet beyond these prosaic effects, the fluids of Numeria unleash change: alterations in mind and body both terrible and wonderful.",
 			"",
-			"Numerian fluids are considered [drugs](rule/drugs). Initially, the fluids expand perception and insight, opening the mind to new sensations. This overstimulation gives way to mental fatigue, leaving the imbiber distracted and vulnerable to suggestion. A pleasant euphoria lasts as long as the drug's effects. Unlike most drugs, the effects of Numerian fluids can be negated with a successful DC 20 Fortitude saving throw. Success at this saving throw precludes the need to save against addiction, but also prevents the dose from countering the effects of addiction. A person partaking of Numerian fluids can open his mind and body to the fluid's effects, voluntarily forgoing a Fortitude save. Of course, this also entails accepting the risk of addiction and any side effects from the specific type of fluids consumed.",
+			"Numerian fluids are considered {rule/drugs}. Initially, the fluids expand perception and insight, opening the mind to new sensations. This overstimulation gives way to mental fatigue, leaving the imbiber distracted and vulnerable to suggestion. A pleasant euphoria lasts as long as the drug's effects. Unlike most drugs, the effects of Numerian fluids can be negated with a successful DC 20 Fortitude saving throw. Success at this saving throw precludes the need to save against addiction, but also prevents the dose from countering the effects of addiction. A person partaking of Numerian fluids can open his mind and body to the fluid's effects, voluntarily forgoing a Fortitude save. Of course, this also entails accepting the risk of addiction and any side effects from the specific type of fluids consumed.",
 			"",
 			"Each distinct dose of Numerian fluids requires a new roll for side effects, even if multiple doses were recovered from the same source. The inherent instability of the fluid contributes to this variability, as the fluids undergo further reactions even after collection. At the Game Master's option, fluids collected from the same source at the same time can have a higher chance of providing the same side effect. One option for handling such variation is to roll two d20s of different colors for each subsequent drink from a sample, adding one and subtracting the other from the previous result. Another option is rolling twice, and using the second result only if it matches the previous side effect. Either variant increases the potential value of a dose of Numerian fluids, and the potential for unintended consequences in the campaign.",
 			"",
@@ -430,7 +430,7 @@
 			"",
 			"| d% | Result |",
 			"| :---: | --- |",
-			"| 01 | The drinker's cellular structure breaks down, and her flesh dissolves off of her bones. The victim dies in 1 round unless a [limited wish](spell/limited_wish), [regeneration](spell/regenerate) (not just the regeneration ability), or [wish](spell/wish) spell is administered. Immunity to ability drain prevents death, but immunity to death effects or poison does not. |",
+			"| 01 | The drinker's cellular structure breaks down, and her flesh dissolves off of her bones. The victim dies in 1 round unless a {spell/limited wish}, {spell/regenerate} (not just the regeneration ability), or {spell/wish} spell is administered. Immunity to ability drain prevents death, but immunity to death effects or poison does not. |",
 			"| 02-04 | The drinker permanently loses a random sense (roll 1d4: 1-hearing, 2-sight, 3-smell, 4-taste). A regenerate spell restores lost smell or taste. Moderate addiction. |",
 			"| 05-07 | The drinker ages 2d10 years. |",
 			"| 08-10 | The drinker takes 2d6 points of damage to all ability scores (roll once for damage, apply it to each). If any score reaches 0, death results. If the imbiber survives, roll again for an additional side effect, rerolling a result of 15 or lower. |",
@@ -442,16 +442,16 @@
 			"| 41-50 | The drinker is nauseated for 2d6&times;10 minutes. |",
 			"| 51-60 | The drinker is sickened until the effects of the dose wear off. |",
 			"| 61-65 | The drinker is fascinated by visions of a far-off reality for 1d4 hours. An interruption that ends the fascination provokes incoherent anger (attack nearest creature) for 1d4 rounds. Strong addiction. |",
-			"| 66-70 | The drinker exudes an unpleasant odor, as the [stench](umr/stench) ability, for 24 hours. |",
+			"| 66-70 | The drinker exudes an unpleasant odor, as the {umr/stench} ability, for 24 hours. |",
 			"| 71-75 | The drinker gains increased empathy with mechanical minds for 24 hours, gaining a +10 bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks against androids and robots, but takes a -5 penalty on such checks against other creatures. |",
 			"| 76-80 | For 1d4 hours, the drinker is healed by a random energy type (acid, cold, electricity, fire, or sonic) instead of harmed. Being healed in this fashion staggers the drinker for 1 round. |",
 			"| 81-85 | The drinker's skin thickens into armor-like plates. This gives a +2 bonus to natural armor and a -2 penalty to Dexterity. Multiple doses do not stack. It takes 1d4 months for the excess skin to slough off. |",
 			"| 86-90 | Roll twice. If the first result is below 20, add 20 to the result. If the second result is above 80, subtract 20 from the result. If the same side effect results on both rolls, apply it only once, but the drinker becomes severely addicted to that result. |",
 			"| 91-92 | The drinker gains fast healing 5 for 24 hours, but must consume twice as much food and water as normal. |",
 			"| 93-94 | The drinker gains a +6 enhancement bonus to a random ability score for 2d4 days. |",
-			"| 95-96 | The drinker gains [telepathy](umr/telepathy) with a range of 100 feet for 2d4 days. |",
+			"| 95-96 | The drinker gains {umr/telepathy} with a range of 100 feet for 2d4 days. |",
 			"| 97 | The drinker gains the ability to see possible futures a few seconds ahead for 24 hours. Because the visions are distracting, the drinker takes a -2 penalty on ability checks, attack rolls, saving throws, and skill checks, but for one such roll, she can ignore the penalty and roll twice, keeping the better result. The drinker must decide to use this ability before rolling. |",
-			"| 98 | The drinker becomes 1d6 years younger. If this changes her age category, adjust physical attributes but not mental. Mental attributes don't increase when the original age category is reached again (see [Young Characters](rule/young_characters)). |",
+			"| 98 | The drinker becomes 1d6 years younger. If this changes her age category, adjust physical attributes but not mental. Mental attributes don't increase when the original age category is reached again (see {rule/Young Characters}). |",
 			"| 99 | The drinker foresees her death in a cryptic and disjointed vision. The next time an effect would cause her death, she can take an extra standard action just before she dies (including actions like healing spells that prevent the impending death). |",
 			"| 100 | Roll on the table below. All exceptional effects are permanent. |",
 			"",
@@ -461,13 +461,13 @@
 			"| :---: | --- |",
 			"| 1 | Immortality: The drinker no longer takes penalties for aging (bonuses still apply) and does not die from old age. |",
 			"| 2 | Mutant: The drinker gains the [mutant template](template/mutant). The mutations should reflect the drinker's inner personality, as determined by the GM. |",
-			"| 3 | Phasing: The drinker gains the ability to become [incorporeal](umr/incorporeal) for 1d4 rounds as a swift action, but takes 1 point of Con damage when he does so. Phasing can be extended as a free action by taking 1 additional point of Con damage. Coming out of phase inside a solid object is instantly fatal. Phasing cannot be used by creatures that are immune to Con damage. |",
+			"| 3 | Phasing: The drinker gains the ability to become {umr/incorporeal} for 1d4 rounds as a swift action, but takes 1 point of Con damage when he does so. Phasing can be extended as a free action by taking 1 additional point of Con damage. Coming out of phase inside a solid object is instantly fatal. Phasing cannot be used by creatures that are immune to Con damage. |",
 			"| 4 | Three-Dimensional Touch: The drinker gains blindsense with a range of 60 feet. Focusing on this sense as a move action improves it to blindsight with a range of 60 feet until the start of the drinker's next turn. |",
 			"| 5 | Wings: The drinker grows a pair of batlike wings that grant a fly speed of 30 feet and average maneuverability. |",
 			"| 6 | Ability Score Bonus: The drinker gains a +2 inherent bonus to a random ability score. |",
 			"| 7 | Fluid Generation: The drinker's body naturally creates its own approximation of Numerian fluids, which he can, as a standard action once a day, redirect into his system to gain the effects of drinking 1 dose of Numerian fluids. Treat the addiction, effects, and side effects of this dose as normal, save that it cannot provide an additional exceptional effect (reroll results of 100). |",
 			"| 8 | Grounding Skin: The drinker grows a metal mesh surrounding his skin that grants him electricity resistance 10. |",
-			"| 9 | Bioluminescence: The drinker's body glows as [gem of brightness](magic-wondrous/gem_of_brightness). The drinker can produce this effect 5 times per day. |",
+			"| 9 | Bioluminescence: The drinker's body glows as {magic-wondrous/gem of brightness}. The drinker can produce this effect 5 times per day. |",
 			"| 10 | Sleep of Experience: For 24 hours, the drinker falls into a coma and cannot be awakened. During this time, he dreams of living an entire lifetime on a different planet in an alien body. The drinker gains the number of bonus experience points needed to advance 1 level. A creature can gain this exceptional effect only once (reroll all future exceptional effect rolls of 10). |"
 		]
 	},
@@ -493,7 +493,7 @@
 			"{SOURCE Potions and Poisons/26}  ",
 			"**Type** inhaled; **Addiction** major, Fortitude DC 24  ",
 			"**Price** 600 gp  ",
-			"**Effect** 24 hours; the user gains the benefits of the [Psychic Sensitivity](feat/psychic_sensitivity) feat but takes a -4 penalty on Will saves and automatically fails Will saves against possession attempts  ",
+			"**Effect** 24 hours; the user gains the benefits of the {feat/Psychic Sensitivity} feat but takes a -4 penalty on Will saves and automatically fails Will saves against possession attempts  ",
 			"**Damage** 1d4 Con damage and 1d4 Wis damage",
 			"",
 			"Legends tell of esoterum dens in Tian Xia and Vudra where dream chasers open their minds to the spirit world, gaining deep insights and abilities beyond mortal ken. Such tales usually continue to describe the destructive rampages that follow when malevolent spirits take advantage of an opened mind and possess the unfortunate individual."

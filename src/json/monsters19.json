@@ -31,7 +31,7 @@
 			"",
 			"**Str** 13, **Dex** 13, **Con**: 14, **Int** 2, **Wis** 14, **Cha**, 7  ",
 			"**Base Atk** +2; **CMB** +2 (+4 bull rush); **CMD** 13 (15 vs. bull rush, 21 vs. trip)  ",
-			"**Feats** [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Improved Bull Rush}, {feat/Power Attack}  ",
 			"**Skills** Perception +8",
 			"",
 			"#### Ecology",
@@ -88,7 +88,7 @@
 			"",
 			"**Str** 1, **Dex** 16, **Con**: 9, **Int** 14, **Wis** 11, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +2; **CMD** 8  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Weapon Finesse}  ",
 			"**Skills** Climb +7, Knowledge (arcana) +5, Knowledge (religion) +5, Perception +5, Sense Motive +2, Stealth +19  ",
 			"**Languages** Common, Draconic; comprehend languages  ",
 			"**SQ** compression",
@@ -148,7 +148,7 @@
 			"",
 			"**Str** 3, **Dex** 16, **Con**: 15, **Int** 1, **Wis** 12, **Cha**, 2  ",
 			"**Base Atk** +3; **CMB** -; **CMD** -  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Perception +5, Stealth +18, Swim +9",
 			"",
 			"#### Ecology",
@@ -199,7 +199,7 @@
 			"",
 			"**Str** 12, **Dex** 15, **Con**: 17, **Int** 1, **Wis** 12, **Cha**, 2  ",
 			"**Base Atk** +6; **CMB** -; **CMD** -  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Stealth)](feat/skill_focus), [Step Up](feat/step_up), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}, [Skill Focus (Stealth)](feat/skill_focus), {feat/Step Up}, {feat/Toughness}  ",
 			"**Skills** Perception +6, Stealth +18, Swim +17",
 			"",
 			"#### Ecology",
@@ -254,7 +254,7 @@
 			"",
 			"**Str** 7, **Dex** 21, **Con**: 12, **Int** 16, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +2; **CMB** -1; **CMD** 15  ",
-			"**Feats** [Dodge](feat/dodge), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Dodge}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +12, Bluff +10, Escape Artist +12, Fly +18, Knowledge (nature) +10, Perception +9, Sense Motive +9, Stealth +16, Use Magic Device +10  ",
 			"**Languages** Common, Sylvan",
 			"",
@@ -314,7 +314,7 @@
 			"",
 			"**Str** 21, **Dex** 7, **Con**: 18, **Int** 6, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +7; **CMB** +14; **CMD** 22 (can't be tripped)  ",
-			"**Feats** [Diehard](feat/diehard), [Endurance](feat/endurance), [Iron Will](feat/iron_will), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Focus (vine)](feat/weapon_focus)  ",
+			"**Feats** {feat/Diehard}, {feat/Endurance}, {feat/Iron Will}, [Skill Focus (Stealth)](feat/skill_focus), [Weapon Focus (vine)](feat/weapon_focus)  ",
 			"**Skills** Perception +10, Stealth +1 (+21 in forests and jungles); **Racial Modifiers** +20 Stealth in forests and jungles  ",
 			"**Languages** Sylvan (can't speak)",
 			"",
@@ -394,7 +394,7 @@
 			"",
 			"**Str** 50, **Dex** 13, **Con**: 34, **Int** 13, **Wis** 28, **Cha**, 21  ",
 			"**Base Atk** +14; **CMB** +42; **CMD** 61 (can't be tripped)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Critical Focus](feat/critical_focus), [Dazing Assault](feat/dazing_assault), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Snatch](feat/snatch), [Staggering Critical](feat/staggering_critical), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Critical Focus}, {feat/Dazing Assault}, [Improved Critical (slam)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Snatch}, {feat/Staggering Critical}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Climb +36, Knowledge (history) +13, Knowledge (nature) +10, Perception +31, Stealth +7 (+27 in natural rocks), Survival +31, Swim +38; **Racial Modifiers** +20 Stealth in natural rocks  ",
 			"**Languages** Aquan, Terran",
 			"",
@@ -519,7 +519,7 @@
 			"",
 			"**Str** 16, **Dex** 18, **Con**: 19, **Int** 15, **Wis** 9, **Cha**, 8  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 20  ",
-			"**Feats** [Alertness](feat/alertness), [Iron Will](feat/iron_will), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot)  ",
+			"**Feats** {feat/Alertness}, {feat/Iron Will}, {feat/Point-Blank Shot}, {feat/Precise Shot}  ",
 			"**Skills** Acrobatics +8 (+4 when jumping), Craft (alchemy) +17, Heal +7, Knowledge (dungeoneering) +10, Knowledge (nature) +13, Perception +12, Sense Motive +10, Stealth +19 (+23 in caves or swamps), Survival +7 (+11 in caves or swamps), Swim +7; **Racial Modifiers** +4 Craft (alchemy), +4 Stealth in caves or swamps, +4 Survival in caves or swamps  ",
 			"**Languages** Aklo, Common, Sylvan, Undercommon  ",
 			"**SQ** fungal alchemy",
@@ -603,7 +603,7 @@
 			"",
 			"**Str** -, **Dex** 18, **Con**: -, **Int** 13, **Wis** 14, **Cha**, 20  ",
 			"**Base Atk** +7; **CMB** +11; **CMD** 26  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Skill Focus (Intimidate)](feat/skill_focus), [Weapon Focus (incorporeal touch)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Improved Initiative}, {feat/Iron Will}, [Skill Focus (Intimidate)](feat/skill_focus), [Weapon Focus (incorporeal touch)](feat/weapon_focus)  ",
 			"**Skills** Fly +25, Intimidate +24, Perception +15, Stealth +17, Survival +12  ",
 			"**Languages** Common",
 			"",
@@ -659,7 +659,7 @@
 			"",
 			"**Str** -, **Dex** 13, **Con**: -, **Int** 5, **Wis** 12, **Cha**, 12  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 14  ",
-			"**Feats** [Ability Focus (fear)](feat/ability_focus), [Alertness](feat/alertness)  ",
+			"**Feats** [Ability Focus (fear)](feat/ability_focus), {feat/Alertness}  ",
 			"**Skills** Fly +9, Perception +9, Sense Motive +3  ",
 			"**Languages** Common  ",
 			"**SQ** site bound",
@@ -724,7 +724,7 @@
 			"",
 			"**Str** 22, **Dex** 20, **Con**: 21, **Int** 10, **Wis** 15, **Cha**, 19  ",
 			"**Base Atk** +7; **CMB** +13; **CMD** 33  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Power Attack](feat/power_attack), [Stand Still](feat/stand_still), [Weapon Focus (scythe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Power Attack}, {feat/Stand Still}, [Weapon Focus (scythe)](feat/weapon_focus)  ",
 			"**Skills** Bluff +12, Diplomacy +13, Intimidate +9, Knowledge (local) +17, Perception +19, Sense Motive +15, Spellcraft +10, Stealth +20, Survival +10  ",
 			"**Languages** Common, Sylvan  ",
 			"**SQ** grace, tied to day",
@@ -811,7 +811,7 @@
 			"",
 			"**Str** 10, **Dex** 16, **Con**: 13, **Int** 11, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +2; **CMB** +3; **CMD** 13  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +8, Diplomacy +8, Fly +18, Perception +8, Sense Motive +6, Stealth +18, Use Magic Device +6  ",
 			"**Languages** Common, Sylvan; telepathy (by touch only)  ",
 			"**SQ** change shape (2 of the following forms: cat, goat, rabbit [use stats for raccoon], or raven; polymorph)",
@@ -885,7 +885,7 @@
 			"",
 			"**Str** 23, **Dex** 22, **Con**: 22, **Int** 17, **Wis** 17, **Cha**, 22  ",
 			"**Base Atk** +18; **CMB** +24 (+28 grapple); **CMD** 41  ",
-			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Skill Focus (Intimidate)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (talons)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Mobility}, {feat/Power Attack}, [Skill Focus (Intimidate)](feat/skill_focus), {feat/Toughness}, [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (talons)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +15, Bluff +24, Climb +14, Disguise +15, Intimidate +33, Knowledge (local) +21, Perception +24, Perform (act) +15, Sense Motive +12, Stealth +27  ",
 			"**Languages** Common  ",
 			"**SQ** horrid haunting, change shape (bat, dire bat, or humanoid; polymorph)",
@@ -950,7 +950,7 @@
 			"",
 			"Small poppets are more durable but more expensive than typical poppets. They can also gain augmentations, but the extra material required doubles an augmentation's cost.",
 			"",
-			"**Family:** [Poppet](family/poppet)",
+			"**Family:** {family/Poppet}",
 			"",
 			"### Construction",
 			"",
@@ -1002,7 +1002,7 @@
 			"",
 			"Poppets have no minds of their own, and so carry out orders explicitly as they are instructed, even if their situation makes the command nonsensical. Poppets can only perform simple manual labor, but they can be commanded to perform simple tasks at certain times, or when certain conditions are met.",
 			"",
-			"**Family:** [Poppet](family/poppet)",
+			"**Family:** {family/Poppet}",
 			"",
 			"### Construction",
 			"",
@@ -1045,7 +1045,7 @@
 			"",
 			"**Str** 11, **Dex** 12, **Con**: 12, **Int** 2, **Wis** 9, **Cha**, 5  ",
 			"**Base Atk** +0; **CMB** -1; **CMD** 9 (13 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Lightning Reflexes}  ",
 			"**Skills** Climb +5, Stealth +9 (+13 in grass); **Racial Modifiers** +4 Stealth in grass",
 			"",
 			"#### Ecology",
@@ -1094,7 +1094,7 @@
 			"",
 			"**Str** 17, **Dex** 12, **Con**: 16, **Int** 2, **Wis** 13, **Cha**, 5  ",
 			"**Base Atk** +2; **CMB** +5; **CMD** 16 (20 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Weapon Focus (tail slap)](feat/weapon_focus)  ",
+			"**Feats** {feat/Lightning Reflexes}, [Weapon Focus (tail slap)](feat/weapon_focus)  ",
 			"**Skills** Climb +7, Perception +6",
 			"",
 			"#### Ecology",
@@ -1145,7 +1145,7 @@
 			"",
 			"**Str** 36, **Dex** 13, **Con**: 24, **Int** 2, **Wis** 13, **Cha**, 9  ",
 			"**Base Atk** +9; **CMB** +26 (+30 grapple); **CMD** 37 (can't be tripped)  ",
-			"**Feats** [Endurance](feat/endurance), [Improved Critical (bite)](feat/improved_critical), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Endurance}, [Improved Critical (bite)](feat/improved_critical), {feat/Iron Will}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +20, Swim +26",
 			"",
 			"#### Ecology",
@@ -1158,7 +1158,7 @@
 			"",
 			"The mighty kronosaurus is a relentless hunter that, once it picks up a potential meal's scent, rarely stops seeking its prey until its appetite is sated. A kronosaurus's diet consists of everything from large fish and sharks to small whales, giant squids, and sea turtles. Remains of other giant saurians have reportedly been found in the stomachs of those rare kronosauruses that are killed by hunters or wash up dead on shore. Unlike other reptiles, a kronosaurus does not lay eggs, but instead births its young live. The young kronosauruses stay with their mother for less than a year before parting ways and hunting on their own. A fully grown kronosaurus can reach lengths of up to 50 feet and weigh as much as 40,000 pounds.",
 			"",
-			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
+			"**Family:** {family/Primeval Sea Creature}"
 		]
 	},
 	"kronosaurus": { "copyof": "primeval_sea_creature_kronosaurus" },
@@ -1193,7 +1193,7 @@
 			"",
 			"**Str** 23, **Dex** 12, **Con**: 18, **Int** 2, **Wis** 15, **Cha**, 7  ",
 			"**Base Atk** +4; **CMB** +11; **CMD** 22 (26 vs. trip)  ",
-			"**Feats** [Multiattack](feat/multiattack), [Toughness](feat/toughness), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Multiattack}, {feat/Toughness}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +11, Swim +14  ",
 			"**SQ** sprint",
 			"",
@@ -1211,7 +1211,7 @@
 			"",
 			"The nothosaur resembles a smaller version of the land-based brachiosaurus, sharing the distinctive long neck and tail and short legs of its herbivorous brethren. Nothosaurs are also similar in many ways to seals-they spend much of their time in the water, including when they hunt, but emerge to sleep and breed on land. They lay their eggs in massive sandy mounds in the summer, then abandon their nests and slip back into the sea. A nothosaur is most vulnerable out of the water, but when caught unawares, it can return to the water with alarming speed, notwithstanding its awkwardly short legs and disproportionately large neck and tail. Nothosaurs can exist in water of any temperature, but prefer the warmer equatorial waters. Herds of nothosaurs make seasonal migrations, following schools of fish over the course of many months. From head to the tip of its tail, an adult nothosaur is 12 feet long and weighs 3,000 pounds.",
 			"",
-			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
+			"**Family:** {family/Primeval Sea Creature}"
 		]
 	},
 	"nothosaur": { "copyof": "primeval_sea_creature_nothosaur" },
@@ -1247,7 +1247,7 @@
 			"",
 			"**Str** 37, **Dex** 18, **Con**: 22, **Int** 1, **Wis** 13, **Cha**, 6  ",
 			"**Base Atk** +8; **CMB** +25 (+29 grapple); **CMD** 40 (can't be tripped)  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Run](feat/run)  ",
+			"**Feats** {feat/Dodge}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lunge}, {feat/Power Attack}, {feat/Run}  ",
 			"**Skills** Perception +20, Swim +27; **Racial Modifiers** +8 Perception  ",
 			"**SQ** hold breath",
 			"",
@@ -1267,7 +1267,7 @@
 			"",
 			"The primordial zeuglodon is often mistaken for a dinosaur or other large reptile, in part because of its almost crocodilian mouth as well as its snake-like elongation. Despite these features, it is more closely related to whales and other cetaceans than either aquatic reptiles or fish. A zeuglodon moves through the water with a vertical anguiliform (eel-like) motion that seems almost to be a primitive version of the efficient flukedriven locomotion of its cetacean relatives. Zeuglodons breathe air through blowholes on the tops of their heads, though they lack the lung capacity to stay underwater for as long as their more evolved kin. The relative dimensions of their angular heads are too small to encase the enlarged brains or melons developed by other cetaceans for echolocation or communication with others of their kind, and as such zeuglodons are less social than whales and dolphins. What they lack in specialized anatomy, however, they make up for in sheer ferocity and speed. A hunting zeuglodon is a furious foe to contend with. An adult zeuglodon measures around 50 feet long and weighs upward of 50,000 pounds.",
 			"",
-			"**Family:** [Primeval Sea Creature](family/primeval_sea_creature)"
+			"**Family:** {family/Primeval Sea Creature}"
 		]
 	},
 	"zeuglodon": { "copyof": "primeval_sea_creature_zeuglodon" },
@@ -1310,7 +1310,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: 15, **Int** 15, **Wis** 14, **Cha**, 14  ",
 			"**Base Atk** +4; **CMB** +5; **CMD** 18 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +10, Disguise +9, Fly +20, Perception +9, Sleight of Hand +10, Spellcraft +6, Stealth +14, Swim +14  ",
 			"**Languages** Abyssal, Protean  ",
 			"**SQ** change shape (polymorph), text immersion",
@@ -1331,7 +1331,7 @@
 			"",
 			"Akizendris are the bane of scholars, capable of altering text, transposing sections between disparate tomes, and erasing book chapters only to vomit them up elsewhere.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"akizendri": { "copyof": "protean_akizendri" },
@@ -1376,7 +1376,7 @@
 			"",
 			"**Str** 16, **Dex** 21, **Con**: 19, **Int** 16, **Wis** 14, **Cha**, 17  ",
 			"**Base Atk** +6; **CMB** +8 (+12 grapple); **CMD** 23 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Multiattack}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +14, Bluff +12, Disguise +12 (+32 when using mimic form), Fly +24, Knowledge (planes) +12, Perception +11, Sense Motive +11, Stealth +18, Survival +11, Swim +11; **Racial Modifiers** +20 Disguise when using mimic form  ",
 			"**Languages** Abyssal, Protean  ",
 			"**SQ** change shape (polymorph), mimic form",
@@ -1399,7 +1399,7 @@
 			"",
 			"Azuretzis, which are also known as mockery wyrms, enjoy vexing spellcasting creatures.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"azuretzi": { "copyof": "protean_azuretzi" },
@@ -1446,7 +1446,7 @@
 			"",
 			"**Str** 32, **Dex** 23, **Con**: 25, **Int** 18, **Wis** 22, **Cha**, 23  ",
 			"**Base Atk** +17; **CMB** +29; **CMD** 45  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (displacement, mirror image)](feat/quicken_spell-like_ability) [Staggering Critical](feat/staggering_critical)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (displacement, mirror image)](feat/quicken_spell-like_ability) {feat/Staggering Critical}  ",
 			"**Skills** Acrobatics +26, Bluff +26, Diplomacy +26, Fly +24, Knowledge (arcana, planes) +24, Perception +26, Sense Motive +26, Spellcraft +24, Swim +36  ",
 			"**Languages** Abyssal, Protean; telepathy 100 ft.  ",
 			"**SQ** change shape (greater polymorph)",
@@ -1471,7 +1471,7 @@
 			"",
 			"The average hegessik is 14 feet long and weighs 1,400 pounds.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"hegessik": { "copyof": "protean_hegessik" },
@@ -1516,7 +1516,7 @@
 			"",
 			"**Str** 27, **Dex** 22, **Con**: 22, **Int** 13, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +13; **CMB** +23 (+27 grapple); **CMD** 40 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Mobility}, {feat/Power Attack}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +22, Fly +26, Intimidate +19, Knowledge (planes) +17, Perception +19, Survival +19, Swim +29  ",
 			"**Languages** Protean  ",
 			"**SQ** change shape (greater polymorph)",
@@ -1537,7 +1537,7 @@
 			"",
 			"Ibshaunet proteans are rarely seen engines of destruction.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"ibshaunet": { "copyof": "protean_ibshaunet" },
@@ -1587,7 +1587,7 @@
 			"",
 			"**Str** 17, **Dex** 18, **Con**: 18, **Int** 23, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +12; **CMB** +15; **CMD** 29 (can't be tripped)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Craft Wondrous Item](feat/craft_wondrous_item), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Scribe Scroll](feat/scribe_scroll), [Spell Penetration](feat/spell_penetration)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Craft Wondrous Item}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Scribe Scroll}, {feat/Spell Penetration}  ",
 			"**Skills** Acrobatics +16, Bluff +19, Diplomacy +16, Fly +19, Knowledge (any two) +18, Knowledge (arcana) +21, Knowledge (planes) +21, Perception +18, Spellcraft +21, Swim +23, Use Magic Device +19  ",
 			"**Languages** Abyssal, Aklo, Celestial, Common, Draconic, Protean; tongues  ",
 			"**SQ** change shape (greater polymorph)",
@@ -1610,7 +1610,7 @@
 			"",
 			"Illureshis embody chaos through sorcery, traveling the planes as chatty and whimsical masters of arcane magic.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"illureshi": { "copyof": "protean_illureshi" },
@@ -1655,7 +1655,7 @@
 			"",
 			"**Str** 24, **Dex** 17, **Con**: 18, **Int** 23, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +13; **CMB** +21 (+25 grapple); **CMD** 34 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Feint](feat/improved_feint), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Multiattack](feat/multiattack), [Persuasive](feat/persuasive)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Feint}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Multiattack}, {feat/Persuasive}  ",
 			"**Skills** Acrobatics +19, Bluff +21, Diplomacy +25, Disable Device +16, Fly +9, Intimidate +25, Knowledge (arcana) +22, Knowledge (planes) +22, Knowledge (any two) +19, Perception +20, Sense Motive +20, Stealth +15, Swim +15  ",
 			"**Languages** Abyssal, Protean; tongues  ",
 			"**SQ** change shape (greater polymorph)",
@@ -1676,7 +1676,7 @@
 			"",
 			"An imentesh is 15 feet long and weighs 1,200 pounds.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"imentesh": { "copyof": "protean_imentesh" },
@@ -1722,7 +1722,7 @@
 			"",
 			"**Str** 29, **Dex** 31, **Con**: 28, **Int** 24, **Wis** 27, **Cha**, 28  ",
 			"**Base Atk** +25; **CMB** +34; **CMD** 58 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Flyby Attack](feat/flyby_attack), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (confusion, disintegrate, telekinesis)](feat/quicken_spell-like_ability) [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Flyby Attack}, {feat/Greater Vital Strike}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-Like Ability (confusion, disintegrate, telekinesis)](feat/quicken_spell-like_ability) {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +38, Bluff +37, Diplomacy +37, Fly +46, Knowledge (arcana, planes) +35, Knowledge (history, religion) +32, Perception +36, Sense Motive +36, Spellcraft +35, Stealth +38, Swim +42  ",
 			"**Languages** Abyssal, Protean; telepathy 100 ft.  ",
 			"**SQ** change shape (shapechange)",
@@ -1782,7 +1782,7 @@
 			"",
 			"Voice of the Speakers (Su): The Herald of the Speakers has additional spell-like abilities (20 spell levels' worth of 1st- to 4th-level spells usable at will and 20 spell levels' worth of 5th- to 8th-level spells usable three times per day). All selected spells must come from the cleric spell list, the Chaos domain, or the Protean subdomain.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"izfiitar": { "copyof": "protean_izfiitar" },
@@ -1828,7 +1828,7 @@
 			"",
 			"**Str** 29, **Dex** 21, **Con**: 24, **Int** 20, **Wis** 25, **Cha**, 24  ",
 			"**Base Atk** +23; **CMB** +33 (+35 bull rush, +37 grapple); **CMD** 48 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Empower Spell-like Ability (chaos hammer)](feat/empower_spell-like_ability), [Great Fortitude](feat/great_fortitude), [Improved Bull Rush](feat/improved_bull_rush), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-like Ability (confusion)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, [Empower Spell-like Ability (chaos hammer)](feat/empower_spell-like_ability), {feat/Great Fortitude}, {feat/Improved Bull Rush}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-like Ability (confusion)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +31, Bluff +33, Diplomacy +33, Fly +11, Intimidate +33, Knowledge (arcana, planes) +31, Knowledge (any two) +28, Perception +33, Stealth +27, Swim +40  ",
 			"**Languages** Abyssal, Protean; telepathy 100 ft.  ",
 			"**SQ** change shape (greater polymorph)",
@@ -1851,7 +1851,7 @@
 			"",
 			"Priests and prophets, keketars are the leaders of their race, guiding proteans in their sacred mission to return all existence to primal chaos.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"keketar": { "copyof": "protean_keketar" },
@@ -1895,7 +1895,7 @@
 			"",
 			"**Str** 20, **Dex** 17, **Con**: 20, **Int** 11, **Wis** 16, **Cha**, 15  ",
 			"**Base Atk** +9; **CMB** +15; **CMD** 28  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Multiattack}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +15, Fly +9, Intimidate +14, Perception +15, Stealth +11, Survival +15, Swim +25  ",
 			"**Languages** Abyssal, Protean  ",
 			"**SQ** change shape (polymorph)",
@@ -1920,7 +1920,7 @@
 			"",
 			"A naunet is 12 feet long and weighs 900 pounds.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"naunet": { "copyof": "protean_naunet" },
@@ -1964,7 +1964,7 @@
 			"",
 			"**Str** 22, **Dex** 25, **Con**: 22, **Int** 21, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +17; **CMB** +23; **CMD** 41 (can't be tripped)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Improved Lightning Reflexes}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}  ",
 			"**Skills** Acrobatics +27, Bluff +25, Diplomacy +25, Fly +35, Intimidate +25, Knowledge (planes) +25, Perception +24, Sense Motive +24, Stealth +27, Survival +24, Swim +31  ",
 			"**Languages** Abyssal, Protean  ",
 			"**SQ** change shape (greater polymorph)",
@@ -1987,7 +1987,7 @@
 			"",
 			"An oshageros is 8 feet long and weighs 220 pounds.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"oshageros": { "copyof": "protean_oshageros" },
@@ -2031,7 +2031,7 @@
 			"",
 			"**Str** 18, **Dex** 13, **Con**: 16, **Int** 11, **Wis** 15, **Cha**, 14  ",
 			"**Base Atk** +5; **CMB** +10; **CMD** 21  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Power Attack}  ",
 			"**Skills** Bluff +10, Fly +15, Intimidate +10, Perception +10, Sense Motive +10, Stealth +5, Swim +12  ",
 			"**Languages** Abyssal, Protean  ",
 			"**SQ** change shape (humanoid or monstrous humanoid; polymorph)",
@@ -2067,7 +2067,7 @@
 			"",
 			"An ourdivar is 12 feet long and weighs 700 pounds.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"ourdivar": { "copyof": "protean_ourdivar" },
@@ -2112,7 +2112,7 @@
 			"",
 			"**Str** -, **Dex** 23, **Con**: 21, **Int** 16, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +10; **CMB** +16 (+20 grapple); **CMD** 30 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Skill Focus (Bluff)](feat/skill_focus), [Weapon Focus (tail slap)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Great Fortitude}, {feat/Improved Initiative}, [Skill Focus (Bluff)](feat/skill_focus), [Weapon Focus (tail slap)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +19, Bluff +23, Diplomacy +17, Fly +27, Knowledge (planes) +16, Perception +16, Perform (sing) +17, Sense Motive +16, Stealth +19 (+39 when motionless); **Racial Modifiers** +20 Stealth when motionless  ",
 			"**Languages** Common, Protean; comprehend languages  ",
 			"**SQ** blending scales, change shape (polymorph)",
@@ -2137,7 +2137,7 @@
 			"",
 			"Just as other proteans delight in bringing change to subvert the awful stagnancy of the physical world, pelagastrs are dedicated to inviting chaos and freedom into the dull, stale lives of its inhabitants. Unrestrained by the limits of a physical body, they spy on private spaces and secrets, and hop from host to host to savor the strangeness of the physical world using as many senses as possible.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"pelagastr": { "copyof": "protean_pelagastr" },
@@ -2178,7 +2178,7 @@
 			"",
 			"**Str** 7, **Dex** 17, **Con**: 10, **Int** 8, **Wis** 8, **Cha**, 13  ",
 			"**Base Atk** +3; **CMB** +4; **CMD** 12 (can't be tripped)  ",
-			"**Feats** [Skill Focus (Perception)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Perception)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +9 (+5 jump), Bluff +7, Escape Artist +7, Fly +19, Knowledge (arcana) +5, Perception +8, Stealth +15  ",
 			"**Languages** Common, Protean  ",
 			"**SQ** change shape (2 forms, both of which must be Tiny animals; beast shape II)",
@@ -2201,7 +2201,7 @@
 			"",
 			"A voidworm is only 2 feet long and weighs a mere 2 pounds. No two voidworms are exactly alike in their coloration or markings. Their two feathery wings generally take on brighter colors than the rest of their bodies, and in the case of voidworms conjured as familiars, these \"wings\" are the same color as their masters' eyes.",
 			"",
-			"**Family:** [Protean](family/protean)"
+			"**Family:** {family/Protean}"
 		]
 	},
 	"voidworm": { "copyof": "protean_voidworm" },
@@ -2237,7 +2237,7 @@
 			"",
 			"**Str** 26, **Dex** 24, **Con**: 25, **Int** -, **Wis** 16, **Cha**, 1  ",
 			"**Base Atk** +9; **CMB** +17; **CMD** 34  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude)[^B], [Iron Will](feat/iron_will)[^B]  ",
+			"**Feats** {feat/Great Fortitude}[^B], {feat/Iron Will}[^B]  ",
 			"**Skills** Climb +16, Swim +16  ",
 			"**SQ** compression, merge",
 			"",
@@ -2308,7 +2308,7 @@
 			"",
 			"**Str** 32, **Dex** 24, **Con**: 27, **Int** 1, **Wis** 16, **Cha**, 10  ",
 			"**Base Atk** +12; **CMB** +24 (+26 sunder); **CMD** 41 (43 vs. sunder)  ",
-			"**Feats** [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Great Fortitude](feat/great_fortitude), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Great Cleave}, {feat/Great Fortitude}, [Improved Critical (slam)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Climb +19, Perception +19, Swim +19  ",
 			"**SQ** compression, merge",
 			"",
@@ -2322,7 +2322,7 @@
 			"",
 			"**Distracting Cacophony (Su)** Although a syncytium is not intelligent enough to understand language, its half-formed mouths constantly emit a distracting cacophony of sounds and nonsense words. A syncytium can activate this ability is a free action. All other creatures in a 30-foot radius must succeed at a DC 18 Will save or be staggered for 1 round. A creature that successfully saves cannot be affected by this proto-shoggoth's distracting cacophony again for 24 hours. This is a sonic mind-affecting effect. The save DC is Charisma-based.",
 			"",
-			"**Merge (Ex)** As a full-round action, two proto-shoggoth syncytia can attempt to merge (see the Merge entry in the [proto-shoggoth](monster/proto-shoggoth)); each must succeed at a DC 30 Fortitude save in order to merge. If both succeed at this save, they combine to form a fully-grown shoggoth.",
+			"**Merge (Ex)** As a full-round action, two proto-shoggoth syncytia can attempt to merge (see the Merge entry in the {monster/proto-shoggoth}); each must succeed at a DC 30 Fortitude save in order to merge. If both succeed at this save, they combine to form a fully-grown shoggoth.",
 			"",
 			"#### Description",
 			"",
@@ -2375,7 +2375,7 @@
 			"",
 			"**Str** 7, **Dex** 15, **Con**: 13, **Int** 10, **Wis** 12, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 10 (14 vs. trip)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Diplomacy +5, Fly +15, Perception +6, Sense Motive +6, Stealth +19 (+23 in forests), Survival +6; **Racial Modifiers** +4 Stealth (improves to +8 in forests)  ",
 			"**Languages** Draconic; telepathy (60 ft.)",
 			"",
@@ -2435,7 +2435,7 @@
 			"",
 			"**Str** 5, **Dex** 14, **Con**: 11, **Int** 9, **Wis** 16, **Cha**, 12  ",
 			"**Base Atk** +3; **CMB** +3; **CMD** 10  ",
-			"**Feats** [Alertness](feat/alertness), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Alertness}, {feat/Iron Will}  ",
 			"**Skills** Fly +6, Perception +11, Sense Motive +5  ",
 			"**Languages** Common, Sphinx",
 			"",
@@ -2490,7 +2490,7 @@
 			"",
 			"**Str** 8, **Dex** 14, **Con**: 13, **Int** 7, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +3; **CMB** +3; **CMD** 12  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Weapon Finesse}  ",
 			"**Skills** Fly +16, Perception +7, Sense Motive +7, Stealth +16  ",
 			"**Languages** Draconic",
 			"",
@@ -2550,7 +2550,7 @@
 			"",
 			"**Str** 29, **Dex** 26, **Con**: 25, **Int** 10, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +15; **CMB** +24 (+28 sunder); **CMD** 43 (45 vs. sunder)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Greater Sunder](feat/greater_sunder), [Improved Critical (bite)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (blur)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Greater Sunder}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Sunder}, {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (blur)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Acrobatics +23, Perception +20, Stealth +26, Survival +20  ",
 			"**Languages** Common, Undercommon",
 			"",
@@ -2610,7 +2610,7 @@
 			"",
 			"**Str** 6, **Dex** 16, **Con**: 13, **Int** 13, **Wis** 13, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +4; **CMD** 12  ",
-			"**Feats** [Skill Focus (Diplomacy)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Diplomacy)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Diplomacy +12, Perception +7, Sense Motive +4; **Racial Modifiers** +4 Diplomacy  ",
 			"**Languages** Common  ",
 			"**SQ** hypnotic hood, painless bite",
@@ -2673,7 +2673,7 @@
 			"",
 			"**Str** -, **Dex** 19, **Con**: 14, **Int** 15, **Wis** 18, **Cha**, 17  ",
 			"**Base Atk** +11; **CMB** +14; **CMD** 28  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Mobility}, {feat/Spring Attack}  ",
 			"**Skills** Bluff +17, Diplomacy +17, Fly +14, Intimidate +17, Knowledge (arcana, planes, religion) +16, Perception +18, Sense Motive +18, Stealth +8  ",
 			"**Languages** telepathy 100 ft.",
 			"",
@@ -2729,7 +2729,7 @@
 			"",
 			"**Str** 20, **Dex** 17, **Con**: 16, **Int** 7, **Wis** 12, **Cha**, 9  ",
 			"**Base Atk** +7; **CMB** +12; **CMD** 25  ",
-			"**Feats** [Iron Will](feat/iron_will), [Skill Focus (Stealth)](feat/skill_focus), [Skill Focus (Perception)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Iron Will}, [Skill Focus (Stealth)](feat/skill_focus), [Skill Focus (Perception)](feat/skill_focus), {feat/Toughness}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Perception +12, Stealth +14  ",
 			"**Languages** Common (can't speak)",
 			"",
@@ -2796,7 +2796,7 @@
 			"",
 			"**Str** -, **Dex** 18, **Con**: -, **Int** 13, **Wis** 15, **Cha**, 23  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 26 (can't be tripped)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Improved Initiative}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Fly +19, Intimidate +17, Perception +16, Sense Motive +13, Stealth +15  ",
 			"**Languages** Common  ",
 			"**SQ** formless",
@@ -2859,7 +2859,7 @@
 			"",
 			"**Str** 10, **Dex** 13, **Con**: 15, **Int** 10, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +6; **CMB** +6; **CMD** 17  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), [Weapon Focus (dagger)](feat/weapon_focus)  ",
+			"**Feats** {feat/Great Fortitude}, {feat/Iron Will}, [Weapon Focus (dagger)](feat/weapon_focus)  ",
 			"**Skills** Knowledge (religion) +9, Perception +10, Sense Motive +10, Stealth +10, Survival +10, Use Magic Device +10  ",
 			"**Languages** Abyssal, Celestial, Infernal  ",
 			"**SQ** death's dagger, ectoplasmic focus, spirit touch",
@@ -2882,7 +2882,7 @@
 			"",
 			"An ahmuuth is a servitor of Pharasma who is responsible for helping mortals destroy undead and dispatch renegade souls evading the goddess's judgment. Unlike morrigna psychopomps, who hunt lost or corrupted souls on their own, ahmuuths work with mortal worshipers of Pharasma and try to usher creatures like ghosts to peaceable final ends-when they can. When they can't, they have no qualms about forcing wayward spirts to face their goddess's judgement. An ahmuuth looks like a humanoid wearing an owl mask, and is always accompanied by floating gravestone shards that act as a shield. Like owls, ahmuuths are silent stalkers, revealing themselves only at the moment of attack. Ahmuuths stand just over 6 feet tall and weigh approximately 150 pounds.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"ahmuuth": { "copyof": "psychopomp_ahmuuth" },
@@ -2928,7 +2928,7 @@
 			"",
 			"**Str** 8, **Dex** 30, **Con**: 23, **Int** 15, **Wis** 23, **Cha**, 26  ",
 			"**Base Atk** +13; **CMB** -; **CMD** -  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Great Fortitude](feat/great_fortitude), [Improved Great Fortitude](feat/improved_great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Great Fortitude}, {feat/Improved Great Fortitude}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}  ",
 			"**Skills** Acrobatics +26, Fly +36, Knowledge (planes, religion) +18, Perception +26, Sense Motive +26, Spellcraft +18, Stealth +38  ",
 			"**Languages** Abyssal, Aklo, Celestial, Infernal  ",
 			"**SQ** spirit touch",
@@ -2951,7 +2951,7 @@
 			"",
 			"Algeas protect (and in some cases retrieve) souls that are at risk of being claimed by other entities, particularly spellcasters who dabbled with otherworldly forces but never officially pledged their souls. Algeas are particularly focused on intervening and \"rescuing\" souls in danger of being trapped within the Material Plane by powerful entities like the Great Old Ones or false prophets who have deluded minions into worshiping them as living gods.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"algea": { "copyof": "psychopomp_algea" },
@@ -2995,7 +2995,7 @@
 			"",
 			"**Str** 10, **Dex** 17, **Con**: 17, **Int** 16, **Wis** 15, **Cha**, 19  ",
 			"**Base Atk** +11; **CMB** +11 (+13 disarm); **CMD** 24 (26 vs. disarm)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Ensemble](feat/ensemble), [Improved Disarm](feat/improved_disarm), [Iron Will](feat/iron_will), [Lingering Performance](feat/lingering_performance), [Persuasive](feat/persuasive)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Ensemble}, {feat/Improved Disarm}, {feat/Iron Will}, {feat/Lingering Performance}, {feat/Persuasive}  ",
 			"**Skills** Bluff +18, Diplomacy +22, Disguise +18, Intimidate +19, Knowledge (planes) +17, Perception +16, Perform (string instruments) +18, Profession (musician) +16, Sense Motive +16  ",
 			"**Languages** Abyssal, Celestial, Infernal; tongues  ",
 			"**SQ** antique weapon, spirit touch  ",
@@ -3027,7 +3027,7 @@
 			"",
 			"A calaca's role is not in combat, and most retreat if a fight seems inevitable, returning another day to give peaceful mediation another try. In spite of calacas' pacifistic nature, each bears on its person an antique weapon such as a pistol or an exotic sword, which is perhaps the creature's most mysterious detail. Even the calaca does not know the purpose of this weapon-whether it is a relic from the creature's past as a mortal or just part of its disguise. However, if asked, a calaca replies that its weapon is an item gifted directly by the gods, and its use will become obvious when the appropriate time has come. A calaca's second-most important belonging is its instrument (typically a guitar or fiddle), which is capable of unleashing powerful magic if destroyed as a last resort.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)",
+			"**Family:** {family/Psychopomp}",
 			"",
 			"### Habitat",
 			"",
@@ -3035,7 +3035,7 @@
 			"",
 			"Because death is common on Golarion but necromancy is not, calacas do not appear before just anyone who has lost a loved one. Their typical targets are the rich and powerful; after all, individuals with the resources to bring the living back from the dead often need more dissuasion than peasants without means, who simply resign themselves to their loss. For particularly difficult cases or in the instance of mass casualties and thus multitudes of mourners, a number of calacas may band together to combine their efforts, appearing as a troupe. Such troupes typically throw elaborate performative feasts, with each calaca taking up a different instrument or part in the act. As long as their disguise holds, calacas will perform for mortals for days if necessary. Other psychopomps like [catrinas](monster/catrina) may also join them in larger groups, as their abilities complement the calacas-by calming distraught family members and angry mobs.",
 			"",
-			"When not performing their core duty consoling the aggrieved, calacas accompany other psychopomps on missions to the Material Plane, either as heralds or to provide support. A calaca typically reports its success or failures to a [nosoi](monster/nosoi), who scribbles details of the calaca's latest encounter with a mortal. When a [morrigna](monster/morrigna) has been given a target for assassination, several calacas may be sent in advance to soften the morrigna's prey before the attack. Calacas can also be found in the backs of the ranks of [vanth](monster/vanth) forces, maintaining the pace of the psychopomps' march with their haunting battle dirges. Truly, wherever there are psychopomps, the somber songs of the calaca are never far behind."
+			"When not performing their core duty consoling the aggrieved, calacas accompany other psychopomps on missions to the Material Plane, either as heralds or to provide support. A calaca typically reports its success or failures to a {monster/nosoi}, who scribbles details of the calaca's latest encounter with a mortal. When a {monster/morrigna} has been given a target for assassination, several calacas may be sent in advance to soften the morrigna's prey before the attack. Calacas can also be found in the backs of the ranks of {monster/vanth} forces, maintaining the pace of the psychopomps' march with their haunting battle dirges. Truly, wherever there are psychopomps, the somber songs of the calaca are never far behind."
 		]
 	},
 	"calaca": { "copyof": "psychopomp_calaca" },
@@ -3075,7 +3075,7 @@
 			"",
 			"**Str** 10, **Dex** 17, **Con**: 16, **Int** 13, **Wis** 14, **Cha**, 19  ",
 			"**Base Atk** +6; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Improved Initiative}, {feat/Iron Will}  ",
 			"**Skills** Diplomacy +13, Heal +8, Knowledge (planes) +10, Knowledge (religion) +10, Perception +11, Stealth +12, Use Magic Device +10  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; tongues, telepathy 100 ft.  ",
 			"**SQ** spirit touch",
@@ -3104,7 +3104,7 @@
 			"",
 			"Catrinas always appear as festively dressed skeletons-usually in women's garb but sometimes in colorful men's formal wear, and usually decorated with or carrying flowers. They do not have true genders, but an individual catrina may have a more masculine or feminine voice and personality. They typically stand between 5 and 6 feet tall and weigh about 20 to 30 pounds.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"catrina": { "copyof": "psychopomp_catrina" },
@@ -3147,7 +3147,7 @@
 			"",
 			"**Str** 19, **Dex** 21, **Con**: 18, **Int** 18, **Wis** 21, **Cha**, 18  ",
 			"**Base Atk** +11; **CMB** +15; **CMD** 30  ",
-			"**Feats** [Ability Focus (suggestion)](feat/ability_focus), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Mobility](feat/mobility), [Toughness](feat/toughness)  ",
+			"**Feats** [Ability Focus (suggestion)](feat/ability_focus), {feat/Dodge}, {feat/Flyby Attack}, {feat/Mobility}, {feat/Toughness}  ",
 			"**Skills** Acrobatics +19, Fly +23, Knowledge (geography) +18, Knowledge (planes) +18, Knowledge (religion) +18, Perception +19, Sense Motive +19, Spellcraft +18, Survival +19  ",
 			"**Languages** Abyssal, Celestial, Infernal  ",
 			"**SQ** spirit touch",
@@ -3170,7 +3170,7 @@
 			"",
 			"Ember weavers lead ahmuuths and esoboks in hunts for spirits waylaid by undeath. They also accompany nosois and catrinas to recover confused or rebellious spirits.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"ember_weaver": { "copyof": "psychopomp_ember_weaver" },
@@ -3213,7 +3213,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: 14, **Int** 5, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 19  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Power Attack}  ",
 			"**Skills** Climb +8, Intimidate +8, Perception +2, Stealth +9, Survival +8  ",
 			"**Languages** Abyssal, Celestial, Infernal  ",
 			"**SQ** spirit touch",
@@ -3238,7 +3238,7 @@
 			"",
 			"Some psychopomps (particularly [vanths](monster/vanth)) have developed methods of training esoboks to realize greater potentials, allowing the creatures to tap into newfound reservoirs of magical ability. These trained esoboks have the advanced creature simple template and gain access to the following spell-like abilities, each usable once per day: ear-piercing scream, haunting mists, and teleport. The typical esobok stands 3 feet tall at the shoulder, is nearly as wide, and weighs upward of 300 pounds.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"esobok": { "copyof": "psychopomp_esobok" },
@@ -3284,7 +3284,7 @@
 			"",
 			"**Str** 39, **Dex** 16, **Con**: 24, **Int** 7, **Wis** 19, **Cha**, 16  ",
 			"**Base Atk** +25; **CMB** +47 (+51 bull rush, sunder); **CMD** 60 (62 vs. bull rush or sunder, 64 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Greater Bull Rush](feat/greater_bull_rush), [Greater Sunder](feat/greater_sunder), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (gore)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Spell Focus (conjuration)](feat/spell_focus), [Spell Focus (evocation)](feat/spell_focus), [Sundering Strike](feat/sundering_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Greater Bull Rush}, {feat/Greater Sunder}, {feat/Improved Bull Rush}, [Improved Critical (gore)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Iron Will}, {feat/Power Attack}, [Spell Focus (conjuration)](feat/spell_focus), [Spell Focus (evocation)](feat/spell_focus), {feat/Sundering Strike}  ",
 			"**Skills** Acrobatics +3 (+11 when jumping), Climb +22, Intimidate +31, Perception +32, Sense Motive +32, Survival +32  ",
 			"**Languages** Abyssal, Celestial, Infernal  ",
 			"**SQ** paramnesia, spirit touch",
@@ -3325,7 +3325,7 @@
 			"",
 			"A fulgati stands 80 feet tall and weighs 150-175 tons.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"fulgati": { "copyof": "psychopomp_fulgati" },
@@ -3369,7 +3369,7 @@
 			"",
 			"**Str** 16, **Dex** 21, **Con**: 18, **Int** 13, **Wis** 20, **Cha**, 19  ",
 			"**Base Atk** +12; **CMB** +15; **CMD** 30  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Stealthy](feat/stealthy), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Stealthy}, {feat/Weapon Finesse}  ",
 			"**Skills** Escape Artist +7, Fly +28, Intimidate +19, Knowledge (history) +16, Knowledge (religion) +16, Perception +24, Sense Motive +24, Stealth +24  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal  ",
 			"**SQ** grave dependent, grave meld",
@@ -3406,7 +3406,7 @@
 			"",
 			"Keres appear as pale, sickly women standing about 5 feet tall and weighing less than 100 pounds.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)",
+			"**Family:** {family/Psychopomp}",
 			"",
 			"### Ecology",
 			"",
@@ -3463,7 +3463,7 @@
 			"",
 			"**Str** 24, **Dex** 29, **Con**: 26, **Int** 17, **Wis** 20, **Cha**, 21  ",
 			"**Base Atk** +16; **CMB** +23; **CMD** 42  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Combat Casting](feat/combat_casting), [Critical Focus](feat/critical_focus), [Improved Critical (scythe)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (dispel magic)](feat/quicken_spell-like_ability), [Weapon Focus (scythe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blinding Critical}, {feat/Combat Casting}, {feat/Critical Focus}, [Improved Critical (scythe)](feat/improved_critical), {feat/Improved Initiative}, {feat/Power Attack}, [Quicken Spell-Like Ability (dispel magic)](feat/quicken_spell-like_ability), [Weapon Focus (scythe)](feat/weapon_focus)  ",
 			"**Skills** Bluff +24, Diplomacy +24, Fly +32, Intimidate +24, Knowledge (planes) +22, Knowledge (religion) +22, Perception +24, Sense Motive +24, Stealth +28  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal  ",
 			"**SQ** change shape (owl, raven, or vulture; beast shape I), spirit touch",
@@ -3482,7 +3482,7 @@
 			"",
 			"Soldiers know memitims as the angels of death who protect fallen combatants and others who die as mass casualties from soul-hungry scavengers. While most memitims preside over massacres, their full wrath manifests against any who would cut numerous lives short in an unnatural pursuit of souls.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"memitim": { "copyof": "psychopomp_memitim" },
@@ -3524,7 +3524,7 @@
 			"",
 			"**Str** 12, **Dex** 18, **Con**: 21, **Int** 14, **Wis** 17, **Cha**, 13  ",
 			"**Base Atk** +8; **CMB** +8; **CMD** 22  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Improved Channel](feat/improved_channel), [Selective Channeling](feat/selective_channeling), [Skill Focus (Heal)](feat/skill_focus)  ",
+			"**Feats** {feat/Great Fortitude}, {feat/Improved Channel}, {feat/Selective Channeling}, [Skill Focus (Heal)](feat/skill_focus)  ",
 			"**Skills** Craft (alchemy) +13, Craft (poison) +13, Fly +14, Heal +17, Knowledge (nature) +13, Knowledge (planes) +13, Perception +14 (+18 on sight-based checks), Profession (herbalist) +14, Sense Motive +14; **Racial Modifiers** +4 on sight-based Perception checks  ",
 			"**Languages** Abyssal, Celestial, Inf  ",
 			"**SQ** healer's muse, spirit touch, who lives and who dies",
@@ -3547,7 +3547,7 @@
 			"",
 			"A morbai stands just over 3 feet tall, resembling a hunched-over, old woman whose race always matches that of whoever views her. Each wears two plague masks, one on either side of her head, which conceal her faces and obscure where she actually focuses her attention. Her curved back and ragged shawl partially conceal two pairs of small, brown-feathered wings.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"morbai": { "copyof": "psychopomp_morbai" },
@@ -3597,7 +3597,7 @@
 			"",
 			"**Str** 22, **Dex** 19, **Con**: 18, **Int** 13, **Wis** 17, **Cha**, 16  ",
 			"**Base Atk** +18; **CMB** +24 (+28 grapple); **CMD** 38  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Deflect Arrows](feat/deflect_arrows)[^B], [Eschew Materials](feat/eschew_materials), [Following Step](feat/following_step)[^B], [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive), [Step Up](feat/step_up), [Step Up and Strike](feat/step_up_and_strike)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Deflect Arrows}[^B], {feat/Eschew Materials}, {feat/Following Step}[^B], {feat/Improved Initiative}, {feat/Iron Will}, {feat/Persuasive}, {feat/Step Up}, {feat/Step Up and Strike}  ",
 			"**Skills** Bluff +15, Climb +11, Diplomacy +25, Disguise +15, Intimidate +17, Knowledge (planes) +13, Perception +28, Sense Motive +25, Sleight of Hand +10, Stealth +22, Survival +15, Swim +6  ",
 			"**Languages** Abyssal, Celestial, Infernal; speak with animals (including vermin), tongues  ",
 			"**SQ** change shape (any animal or humanoid), spirit touch",
@@ -3622,7 +3622,7 @@
 			"",
 			"Many morrignas prefer to assume the appearances of those who have died. They ensure the smooth operation of death's bureaucratic machine by eliminating complications, dedicating their existence to wiping out any forces that circumvent or corrupt the natural cycle of death and judgment.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)",
+			"**Family:** {family/Psychopomp}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3668,7 +3668,7 @@
 			"",
 			"**Str** 8, **Dex** 16, **Con**: 12, **Int** 11, **Wis** 13, **Cha**, 16  ",
 			"**Base Atk** +3; **CMB** +4; **CMD** 13  ",
-			"**Feats** [Alertness](feat/alertness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Alertness}, {feat/Weapon Finesse}  ",
 			"**Skills** Fly +17, Knowledge (history) +6, Knowledge (planes) +6, Perception +9, Profession (scribe) +7, Sense Motive +3, Stealth +17  ",
 			"**Languages** Abyssal, Celestial, Infernal  ",
 			"**SQ** change shape (raven or songbird [same statistics], beast shape II), spirit touch",
@@ -3693,7 +3693,7 @@
 			"",
 			"A true neutral spellcaster can gain a nosoi as a familiar at 7th level by taking the Improved Familiar feat. A nosoi familiar grants its master a +2 bonus on skill checks made to scribe scrolls. A nosoi immediately leaves the service of any master who creates or permanently becomes an undead.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"nosoi": { "copyof": "psychopomp_nosoi" },
@@ -3738,7 +3738,7 @@
 			"",
 			"**Str** 18, **Dex** 30, **Con**: 29, **Int** 20, **Wis** 27, **Cha**, 31  ",
 			"**Base Atk** +19; **CMB** +23; **CMD** 53  ",
-			"**Feats** [Deadly Aim](feat/deadly_aim), [Greater Snap Shot](feat/greater_snap_shot), [Improved Initiative](feat/improved_initiative), [Improved Precise Shot](feat/improved_precise_shot), [Improved Snap Shot](feat/improved_snap_shot), [Point-Blank Shot](feat/point-blank_shot), [Precise Shot](feat/precise_shot), [Rapid Shot](feat/rapid_shot), [Snap Shot](feat/snap_shot), [Weapon Focus (silkbow)](feat/weapon_focus)  ",
+			"**Feats** {feat/Deadly Aim}, {feat/Greater Snap Shot}, {feat/Improved Initiative}, {feat/Improved Precise Shot}, {feat/Improved Snap Shot}, {feat/Point-Blank Shot}, {feat/Precise Shot}, {feat/Rapid Shot}, {feat/Snap Shot}, [Weapon Focus (silkbow)](feat/weapon_focus)  ",
 			"**Skills** Bluff +32, Disguise +32, Fly +36, Intimidate +29, Knowledge (arcana, planes, religion) +27, Knowledge (history) +24, Perception +30, Sense Motive +30, Spellcraft +27  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; tongues  ",
 			"**SQ** change shape (Medium humanoid; alter self), spirit touch",
@@ -3779,7 +3779,7 @@
 			"",
 			"A typical olethros stands only 5 feet tall and weighs 100 pounds. An olethros mother is much taller; it is not uncommon for such powerful psychopomps to be nearly 8 feet in height and weigh 250 pounds",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"olethros": { "copyof": "psychopomp_olethros" },
@@ -3823,7 +3823,7 @@
 			"",
 			"**Str** 24, **Dex** 19, **Con**: 22, **Int** 18, **Wis** 21, **Cha**, 17  ",
 			"**Base Atk** +10; **CMB** +17; **CMD** 32  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Iron Will](feat/iron_will), [Persuasive](feat/persuasive)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Dodge}, {feat/Iron Will}, {feat/Persuasive}  ",
 			"**Skills** Bluff +16, Diplomacy +20, Intimidate +20, Knowledge (arcana, planes) +17, Knowledge (religion) +14, Perception +22, Sense Motive +22, Spellcraft +17, Stealth +17  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal  ",
 			"**SQ** spirit touch",
@@ -3842,7 +3842,7 @@
 			"",
 			"Shokis are the collectors of lingering souls, tasked with compelling even the most deluded beings to take the first step into the afterlife. Their tactics are varied, but most start by counseling the wayward dead using theosophical arguments and blunt warnings about the ravenous things that wait to feed upon lost spirits. Each shoki bears powerful tools to aid it in such pursuits-eclectic collections of holy symbols and withered staves of cold iron capable of imprisoning a single soul at a time. Shokis use their staves against only the most stubborn or demented souls, whom they capture and personally escort to the Boneyard for judgment.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"shoki": { "copyof": "psychopomp_shoki" },
@@ -3884,7 +3884,7 @@
 			"",
 			"**Str** 18, **Dex** 16, **Con**: 17, **Int** 13, **Wis** 19, **Cha**, 17  ",
 			"**Base Atk** +9; **CMB** +13; **CMD** 26  ",
-			"**Feats** [Cleave](feat/cleave), [Great Fortitude](feat/great_fortitude), [Hover](feat/hover), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Cleave}, {feat/Great Fortitude}, {feat/Hover}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +9, Fly +11, Intimidate +11, Knowledge (history) +9, Knowledge (planes) +13, Knowledge (religion) +13, Perception +16, Sense Motive +16, Stealth +15  ",
 			"**Languages** Abyssal, Celestial, Infernal  ",
 			"**SQ** reaper's scythe, spirit touch",
@@ -3911,7 +3911,7 @@
 			"",
 			"Most outsiders scorn vanths, as the psychopomps have no concern for law, rightfulness, or personal gain-only duty. Vanths view any outsider visiting Purgatory as a potential threat, and stalk angels and demons alike.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"vanth": { "copyof": "psychopomp_vanth" },
@@ -3951,7 +3951,7 @@
 			"",
 			"**Str** 10, **Dex** 11, **Con**: 18, **Int** 15, **Wis** 19, **Cha**, 16  ",
 			"**Base Atk** +5; **CMB** +5; **CMD** 15  ",
-			"**Feats** [Alertness](feat/alertness), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Alertness}, {feat/Improved Initiative}, {feat/Iron Will}  ",
 			"**Skills** Bluff +11, Climb +8, Diplomacy +11, Knowledge (history, planes, religion) +10, Perception +14, Sense Motive +14, Stealth +8  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal  ",
 			"**SQ** spirit touch, transformation",
@@ -3976,7 +3976,7 @@
 			"",
 			"Viduuses occupy the many libraries and scriptoriums of the Boneyard, where they catalog the comings and goings of extraordinary souls: their lives, deeds, deaths, and secrets. Existence holds many mysteries, and those mortals who had brushes with the extraordinary have their tales and confessions recorded by these semi-cocooned scholars and added to the volumes of the Boneyard's expansive libraries. Although pretentious in the extreme, viduuses prove quite knowledgeable about many historical and planar secrets, and what they don't know they generally have a decent idea of how to research, potentially summoning assistants from across the planes to aid them.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"viduus": { "copyof": "psychopomp_viduus" },
@@ -4022,7 +4022,7 @@
 			"",
 			"**Str** 28, **Dex** 35, **Con**: 27, **Int** 24, **Wis** 28, **Cha**, 31  ",
 			"**Base Atk** +25; **CMB** +36 (+38 bull rush, +40 grapple); **CMD** 59 (61 vs. bull rush, 63 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Hover](feat/hover), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (lightning bolt)](feat/quicken_spell-like_ability), [Spell Penetration](feat/spell_penetration), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Hover}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Mobility}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-Like Ability (lightning bolt)](feat/quicken_spell-like_ability), {feat/Spell Penetration}, {feat/Wind Stance}  ",
 			"**Skills** Acrobatics +37 (+41 when jumping), Bluff +38, Diplomacy +35, Fly +40, Intimidate +35, Knowledge (arcana) +32, Knowledge (planes) +35, Knowledge (religion) +32, Perception +37, Sense Motive +37, Spellcraft +32, Stealth +32, Swim +42; **Racial Modifiers** +4 Acrobatics when jumping  ",
 			"**Languages** Abyssal, Aklo, Celestial, Common, Draconic, Infernal  ",
 			"**SQ** final judgment, spirit touch",
@@ -4059,7 +4059,7 @@
 			"",
 			"Just as many yamarajes become fascinated with souls possessing specific experiences or from certain backgrounds, some of the psychopomps go out of their way to judge beings from specific worlds, collecting bits of information and insight with every creature that passes them by. Thus, some become experts on one or multiple worlds, having spent eternities ferreting out the histories and secrets of worlds from firsthand accounts over millennia of inquiries. Many yamarajes welcome the opportunity to share the details of their investigations, though they sometimes see inquiries into their worlds of expertise as opportunities to conscript new allies to aid the psychopomps' cause. Standing at the pinnacle of their race, yamarajes are well informed as to the challenges and goals of many subservient psychopomps, and might only negotiate with mortals who perform a service in aid of their underlings.",
 			"",
-			"**Family:** [Psychopomp](family/psychopomp)"
+			"**Family:** {family/Psychopomp}"
 		]
 	},
 	"yamaraj": { "copyof": "psychopomp_yamaraj" },
@@ -4101,7 +4101,7 @@
 			"",
 			"**Str** 14, **Dex** 18, **Con**: 19, **Int** 15, **Wis** 14, **Cha**, 19  ",
 			"**Base Atk** +9; **CMB** +10; **CMD** 25  ",
-			"**Feats** [Dodge](feat/dodge), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (quill)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dodge}, {feat/Iron Will}, {feat/Mobility}, {feat/Weapon Finesse}, [Weapon Focus (quill)](feat/weapon_focus)  ",
 			"**Skills** Bluff +10, Heal +10, Knowledge (arcana) +11, Knowledge (religion) +11, Perception +13, Spellcraft +11, Stealth +16  ",
 			"**Languages** Common, Draconic, Infernal  ",
 			"**SQ** change shape (porcupine, beast shape II)",
@@ -4161,7 +4161,7 @@
 			"",
 			"**Str** 35, **Dex** 6, **Con**: 25, **Int** 1, **Wis** 8, **Cha**, 8  ",
 			"**Base Atk** +16; **CMB** +32 (+36 grapple); **CMD** 40 (can't be tripped)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Weapon Focus (bite, sting)](feat/weapon_focus)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Critical Focus}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Power Attack}, {feat/Staggering Critical}, [Weapon Focus (bite, sting)](feat/weapon_focus)  ",
 			"**Skills** Perception +18, Swim +20",
 			"",
 			"#### Ecology",
@@ -4285,7 +4285,7 @@
 			"",
 			"**Str** 6, **Dex** 15, **Con**: 8, **Int** 5, **Wis** 12, **Cha**, 13  ",
 			"**Base Atk** +1; **CMB** -1; **CMD** 7 (11 vs. trip)  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Weapon Finesse}  ",
 			"**Skills** Fly +16, Perception +5, Stealth +18  ",
 			"**Languages** Draconic",
 			"",
@@ -4349,7 +4349,7 @@
 			"",
 			"**Str** -, **Dex** 23, **Con**: -, **Int** 17, **Wis** 21, **Cha**, 24  ",
 			"**Base Atk** +8; **CMB** +15; **CMD** 33 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Skill Focus (Intimidate)](feat/skill_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Mobility}, [Skill Focus (Intimidate)](feat/skill_focus)  ",
 			"**Skills** Bluff +18, Fly +26, Intimidate +27, Knowledge (engineering) +14, Perception +23, Sense Motive +23, Stealth +16  ",
 			"**Languages** Common",
 			"",
@@ -4361,13 +4361,13 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Breath Weapon (Su)** A pyrogeist can spit a cone of spectral fire that damages living creatures. When a creature fails a saving throw against the pyrogeist's breath weapon, the creature's flesh ignites in ghostly flames for 2d6 rounds or until the pyrogeist is destroyed. While the creature is affected by the flames, it is illuminated as though under the effects of [faerie fire](spell/faerie_fire) and takes 1d6 points of negative energy damage at the start of each turn. Subsequent breath weapon attacks don't increase this damage but can extend the duration. An affected creature can attempt a DC 22 Fortitude save as a full-round action to quench the flames. The save DC is Charisma-based.",
+			"**Breath Weapon (Su)** A pyrogeist can spit a cone of spectral fire that damages living creatures. When a creature fails a saving throw against the pyrogeist's breath weapon, the creature's flesh ignites in ghostly flames for 2d6 rounds or until the pyrogeist is destroyed. While the creature is affected by the flames, it is illuminated as though under the effects of {spell/faerie fire} and takes 1d6 points of negative energy damage at the start of each turn. Subsequent breath weapon attacks don't increase this damage but can extend the duration. An affected creature can attempt a DC 22 Fortitude save as a full-round action to quench the flames. The save DC is Charisma-based.",
 			"",
-			"**Pyrokinetic Whirlwind (Su)** A pyrogeist can transform into a spectral [whirlwind](umr/whirlwind) (as per the universal monster rule) to entrap its victims. Creatures caught in the whirlwind take 10d6 points of negative energy damage each round. A pyrokinetic whirlwind does not create a swirling cloud of debris when it touches the ground.",
+			"**Pyrokinetic Whirlwind (Su)** A pyrogeist can transform into a spectral {umr/whirlwind} (as per the universal monster rule) to entrap its victims. Creatures caught in the whirlwind take 10d6 points of negative energy damage each round. A pyrokinetic whirlwind does not create a swirling cloud of debris when it touches the ground.",
 			"",
 			"**Rejuvenation (Su)** A pyrogeist that is destroyed restores itself after 2d4 days, forming near its mortal remains. To permanently destroy a pyrogeist, its corpse must receive proper burial rites, including a sprinkling of holy water.",
 			"",
-			"**Soul Consumption (Su)** The spirit of a creature that dies while subject to a pyrogeist's pyrokinetic whirlwind is trapped within the pyrogeist (as per [soul bind](spell/soul_bind)) until the pyrogeist is destroyed or chooses to set it free. The spirit remains trapped whether or not the pyrogeist is in whirlwind form.",
+			"**Soul Consumption (Su)** The spirit of a creature that dies while subject to a pyrogeist's pyrokinetic whirlwind is trapped within the pyrogeist (as per {spell/soul bind}) until the pyrogeist is destroyed or chooses to set it free. The spirit remains trapped whether or not the pyrogeist is in whirlwind form.",
 			"",
 			"#### Description",
 			"",
@@ -4377,9 +4377,9 @@
 			"",
 			"The form of a pyrogeist flows and roils, its large face appearing and disappearing along with the faces of the other souls the pyrogeist has consumed. The ghostly inferno changes colors based on the pyrogeist's mood. Most often an angry red and orange, as of flickering flame, the pyrogeist's hues might shift to an envious green, a calm blue, or a haughty violet at a moment's notice. Although a pyrogeist rarely chooses to communicate with the living except when mocking or haunting them, when it chooses to speak, its voice sounds like roaring and crackling flames.",
 			"",
-			"Pyrogeists are obsessed with sharing their torment with the living, but they are too clever and sadistic to simply immolate their foes. Pyrogeists prefer to first drive their victims into paranoia and insanity. When feasible, they first start with minor events that could be explained as accidents or unfortunate events, such as by using [mage hand](spell/mage_hand) to push flammable items near open flames or [ghost sound](spell/ghost_sound) to emulate the crackling of a fire in another room. When the pyrogeist's victim starts to doubt its senses, the pyrogeist inflicts increasingly horrid nightmares that always involve fire. These nightmares usually culminate in people or places the victim loves being set ablaze, often by the victim's own hand. The pyrogeist then uses its [major image](spell/major_image) spell-like ability to bring these nightmares into the waking world, causing its victim to see charred corpses or dancing flames wherever it looks. Eventually, the pyrogeist moves in for the kill, destroying its victim with whirling spectral fire that annihilates flesh and bone but leaves clothing and other items intact. A pyrogeist can make its victim's torment endless by consuming the victim's soul, creating another face that flows across the pyrogeist's churning form. Pyrogeists are reluctant to release souls it has entrapped, usually doing so only as part of a bargain that ensures its ongoing existence or promises additional souls in exchange.",
+			"Pyrogeists are obsessed with sharing their torment with the living, but they are too clever and sadistic to simply immolate their foes. Pyrogeists prefer to first drive their victims into paranoia and insanity. When feasible, they first start with minor events that could be explained as accidents or unfortunate events, such as by using {spell/mage hand} to push flammable items near open flames or {spell/ghost sound} to emulate the crackling of a fire in another room. When the pyrogeist's victim starts to doubt its senses, the pyrogeist inflicts increasingly horrid nightmares that always involve fire. These nightmares usually culminate in people or places the victim loves being set ablaze, often by the victim's own hand. The pyrogeist then uses its {spell/major image} spell-like ability to bring these nightmares into the waking world, causing its victim to see charred corpses or dancing flames wherever it looks. Eventually, the pyrogeist moves in for the kill, destroying its victim with whirling spectral fire that annihilates flesh and bone but leaves clothing and other items intact. A pyrogeist can make its victim's torment endless by consuming the victim's soul, creating another face that flows across the pyrogeist's churning form. Pyrogeists are reluctant to release souls it has entrapped, usually doing so only as part of a bargain that ensures its ongoing existence or promises additional souls in exchange.",
 			"",
-			"Pyrogeists draw pleasure from burning victims with their ghostly fire, but they are aware that this manner of death leaves distinctive clues for ghost hunters. As the pyrogeist's attacks deal negative energy damage, they cannot harm objects, clothing, or equipment. To cover its tracks, the most devious pyrogeists-especially those that have been destroyed and rejuvenated in the past-ignite normal fires to hide their tracks. Although a pyrogeist might knock over an oil lamp or shove a flaming fireplace log with its [mage hand](spell/mage_hand) spell-like ability, it prefers to have its victims set the blaze on its behalf, perhaps promising an end to their psychic torment in exchange for an act of arson. Identifying a pyrogeist's supernatural burn marks is much more difficult after a mundane fire has swept through a location.",
+			"Pyrogeists draw pleasure from burning victims with their ghostly fire, but they are aware that this manner of death leaves distinctive clues for ghost hunters. As the pyrogeist's attacks deal negative energy damage, they cannot harm objects, clothing, or equipment. To cover its tracks, the most devious pyrogeists-especially those that have been destroyed and rejuvenated in the past-ignite normal fires to hide their tracks. Although a pyrogeist might knock over an oil lamp or shove a flaming fireplace log with its {spell/mage hand} spell-like ability, it prefers to have its victims set the blaze on its behalf, perhaps promising an end to their psychic torment in exchange for an act of arson. Identifying a pyrogeist's supernatural burn marks is much more difficult after a mundane fire has swept through a location.",
 			"",
 			"Pyrogeists choose their victims based on their proclivities in life and the circumstances of their death. Some pyrogeists prefer to target victims of certain classes or occupations, or by targeting buildings of specific architectural styles or colors. Pyrogeists that formed from murderous psychopaths often continue gruesome trends in undeath, such as collecting trophies from their victims or leaving certain calling cards at crime scenes. Other pyrogeists spend their time forcing victims to recreate the circumstances of their own deaths.",
 			"",
@@ -4429,7 +4429,7 @@
 			"",
 			"**Str** 24, **Dex** 14, **Con**: 18, **Int** 2, **Wis** 15, **Cha**, 6  ",
 			"**Base Atk** +10; **CMB** +18 (+22 grapple); **CMD** 30  ",
-			"**Feats** [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Toughness](feat/toughness), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lunge}, {feat/Toughness}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +10, Stealth +6 (+14 in lava); **Racial Modifiers** +8 Stealth in lava  ",
 			"**SQ** hibernation",
 			"",
@@ -4519,7 +4519,7 @@
 			"",
 			"**Str** 20, **Dex** 14, **Con**: 19, **Int** 13, **Wis** 15, **Cha**, 14  ",
 			"**Base Atk** +8; **CMB** +13 (+17 grapple); **CMD** 25  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Lightning Reflexes](feat/lightning_reflexes), [Stand Still](feat/stand_still)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Lightning Reflexes}, {feat/Stand Still}  ",
 			"**Skills** Knowledge (nature) +9, Perception +13, Stealth +13, Survival +13, Swim +23  ",
 			"**Languages** Aklo, Aquan, Common, Giant  ",
 			"**SQ** amphibious",
@@ -4582,7 +4582,7 @@
 			"",
 			"**Str** 32, **Dex** 9, **Con**: 28, **Int** 5, **Wis** 20, **Cha**, 19  ",
 			"**Base Atk** +14; **CMB** +27; **CMD** 36 (44 vs. trip)  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Hover}, {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Climb +19, Fly +12, Perception +22, Stealth +24; **Racial Modifiers** +16 Stealth  ",
 			"**Languages** Abyssal; telepathy 100 ft.",
 			"",
@@ -4596,7 +4596,7 @@
 			"",
 			"**Horrific Appearance (Su)** Creatures that succumb to an augnagar's horrific appearance are driven momentarily insane. This results in 2 points of Charisma damage and leaves the victim confused for 1d3 rounds.",
 			"",
-			"**Rotting Curse (Su)** Bite-injury; **Save** Fort DC 26; **Frequency** 1/day; **Effect** 1d6 Con drain plus constant stench. A creature that suffers the rotting curse imparted by an augnagar's bite displays hideous, festering wounds that exude a horrific stench. This functions as the [stench](umr/stench) universal monster rule, save that it affects all creatures except those that are immune to poison. The victim of this curse receives no saving throw to avoid becoming sickened by the stench, but other creatures can attempt a DC 26 Fortitude save to negate this condition-those who fail remain sickened as long as they remain within 30 feet of the cursed victim. The horrific stench also imparts a -8 penalty on all Stealth checks made by the cursed victim. The save DC is Constitution-based.",
+			"**Rotting Curse (Su)** Bite-injury; **Save** Fort DC 26; **Frequency** 1/day; **Effect** 1d6 Con drain plus constant stench. A creature that suffers the rotting curse imparted by an augnagar's bite displays hideous, festering wounds that exude a horrific stench. This functions as the {umr/stench} universal monster rule, save that it affects all creatures except those that are immune to poison. The victim of this curse receives no saving throw to avoid becoming sickened by the stench, but other creatures can attempt a DC 26 Fortitude save to negate this condition-those who fail remain sickened as long as they remain within 30 feet of the cursed victim. The horrific stench also imparts a -8 penalty on all Stealth checks made by the cursed victim. The save DC is Constitution-based.",
 			"",
 			"#### Description",
 			"",
@@ -4604,7 +4604,7 @@
 			"",
 			"An augnagar has a wingspan of 30 feet and weighs 6,000 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"augnagar": { "copyof": "qlippoth_augnagar" },
@@ -4648,7 +4648,7 @@
 			"",
 			"**Str** 32, **Dex** 21, **Con**: 26, **Int** 7, **Wis** 22, **Cha**, 17  ",
 			"**Base Atk** +14; **CMB** +27; **CMD** 42 (can't be tripped)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Climb +28, Knowledge (planes) +15, Perception +23, Stealth +14  ",
 			"**Languages** Abyssal; telepathy 100 ft.",
 			"",
@@ -4676,7 +4676,7 @@
 			"",
 			"A behimiron's body measures 15 feet across, or 20 feet with trunk and antennae, and it weighs over 6 tons.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"behimiron": { "copyof": "qlippoth_behimiron" },
@@ -4716,7 +4716,7 @@
 			"",
 			"**Str** 38, **Dex** 21, **Con**: 22, **Int** 3, **Wis** 14, **Cha**, 19  ",
 			"**Base Atk** +21; **CMB** +39 (+41 bull rush, +43 sunder); **CMD** 54 (56 vs. bull rush and sunder)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Bleeding Critical](feat/bleeding_critical), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Sunder](feat/greater_sunder), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Sunder}, {feat/Improved Bull Rush}, [Improved Critical (slam)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Perception +26, Swim +38  ",
 			"**Languages** Abyssal; telepathy 100 ft.",
 			"",
@@ -4748,7 +4748,7 @@
 			"",
 			"A cataboligne is 30 feet tall and 40 feet long, and weighs 16 tons.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"cataboligne": { "copyof": "qlippoth_cataboligne" },
@@ -4792,7 +4792,7 @@
 			"",
 			"**Str** 26, **Dex** 18, **Con**: 24, **Int** 13, **Wis** 17, **Cha**, 19  ",
 			"**Base Atk** +12; **CMB** +21; **CMD** 35 (39 vs. trip)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Improved Critical (slam)](feat/improved_critical), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (darkness)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Blind-Fight}, [Improved Critical (slam)](feat/improved_critical), {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (darkness)](feat/quicken_spell-like_ability), {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +19 (+23 jump), Escape Artist +19, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +15  ",
 			"**Languages** Abyssal; telepathy 100 ft.",
 			"",
@@ -4816,7 +4816,7 @@
 			"",
 			"The chernobue is a living manifestation of the vile fecundity of the Abyss-a monstrous, alien pregnancy made flesh. By infecting creatures with the Abyssal taint they carry, they spread pain and misfortune wherever they flop and writhe-and with their plane shift ability, they are ready to spread their filth throughout the multiverse. A chernobue is 13 feet long and weighs 500 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"chernobue": { "copyof": "qlippoth_chernobue" },
@@ -4857,7 +4857,7 @@
 			"",
 			"**Str** 12, **Dex** 12, **Con**: 11, **Int** 11, **Wis** 8, **Cha**, 7  ",
 			"**Base Atk** +3; **CMB** +2; **CMD** 13 (21 vs. trip)  ",
-			"**Feats** [Lightning Reflexes](feat/lightning_reflexes), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Lightning Reflexes}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +7 (+11 jump), Fly +15, Knowledge (nature) +6, Knowledge (planes) +6, Perception +5, Stealth +15  ",
 			"**Languages** Abyssal; telepathy (touch)",
 			"",
@@ -4881,7 +4881,7 @@
 			"",
 			"A cythnigot is about 20 inches long and weighs 10 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"cythnigot": { "copyof": "qlippoth_cythnigot" },
@@ -4924,7 +4924,7 @@
 			"",
 			"**Str** 15, **Dex** 10, **Con**: 17, **Int** 6, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +5; **CMB** +7; **CMD** 17 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Climb +19, Perception +10, Stealth +13, Swim +19  ",
 			"**Languages** Abyssal; telepathy 100 ft.  ",
 			"**SQ** amphibious",
@@ -4951,7 +4951,7 @@
 			"",
 			"A deinochos's shell is about 3 feet across, and the entire creature weighs about 120 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"deinochos": { "copyof": "qlippoth_deinochos" },
@@ -4996,7 +4996,7 @@
 			"",
 			"**Str** 23, **Dex** 23, **Con**: 24, **Int** 13, **Wis** 18, **Cha**, 20  ",
 			"**Base Atk** +11; **CMB** +17; **CMD** 34 (42 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Critical (scimitar)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, [Improved Critical (scimitar)](feat/improved_critical), {feat/Improved Initiative}, {feat/Multiattack}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +20, Climb +28, Disguise +19 (+27 as a boulder while in statue form), Knowledge (arcana) +15, Perception +18, Stealth +20 (+28 among rocks), Swim +17; **Racial Modifiers** +8 Disguise as a boulder while in statue form, +8 Stealth among rocks  ",
 			"**Languages** Abyssal; telepathy 100 ft.",
 			"",
@@ -5040,7 +5040,7 @@
 			"",
 			"**Worm:** This arm ends in a maw capable of making a bite attack. On a hit, the bite inflicts confusion for 1d3 rounds unless the victim makes a successful Will save (DC = 10 + 1/2 the gongorinan's Hit Dice + its Charisma modifier).",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"gongorinan": { "copyof": "qlippoth_gongorinan" },
@@ -5084,7 +5084,7 @@
 			"",
 			"**Str** 30, **Dex** 19, **Con**: 18, **Int** 15, **Wis** 20, **Cha**, 19  ",
 			"**Base Atk** +12; **CMB** +23; **CMD** 37 (can't be tripped)  ",
-			"**Feats** [Ability Focus (horrific appearance)](feat/ability_focus), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Ability Focus (horrific appearance)](feat/ability_focus), {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +19, Bluff +19, Climb +19, Knowledge (dungeoneering, planes) +17, Perception +20, Sense Motive +20, Stealth +15, Swim +19  ",
 			"**Languages** Abyssal, Aklo; telepathy 100 ft.",
 			"",
@@ -5110,7 +5110,7 @@
 			"",
 			"A gorgoros measures a full 15 feet in length and weighs 6,000 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"gorgoros": { "copyof": "qlippoth_gorgoros" },
@@ -5149,7 +5149,7 @@
 			"",
 			"**Str** 17, **Dex** 10, **Con**: 16, **Int** 10, **Wis** 12, **Cha**, 16  ",
 			"**Base Atk** +4; **CMB** +7; **CMD** 17  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Two-Weapon Fighting](feat/two-weapon_fighting)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Iron Will}, {feat/Two-Weapon Fighting}  ",
 			"**Skills** Escape Artist +11, Knowledge (planes) +7, Perception +8, Stealth +7, Survival +8, Swim +18; **Racial Modifiers** +4 Escape Artist  ",
 			"**Languages** Abyssal; telepathy 100 ft.  ",
 			"**SQ** amphibious, beacon",
@@ -5178,7 +5178,7 @@
 			"",
 			"A hydraggon is 7 feet long and weighs 200 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"hydraggon": { "copyof": "qlippoth_hydraggon" },
@@ -5221,7 +5221,7 @@
 			"",
 			"**Str** 40, **Dex** 8, **Con**: 31, **Int** 29, **Wis** 30, **Cha**, 27  ",
 			"**Base Atk** +24; **CMB** +47 (+51 grapple); **CMD** 62 (can't be tripped)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Critical Focus](feat/critical_focus), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (claw)](feat/improved_critical), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (heal)](feat/quicken_spell-like_ability), [Spell Penetration](feat/spell_penetration), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Critical Focus}, {feat/Greater Vital Strike}, {feat/Improved Bull Rush}, [Improved Critical (claw)](feat/improved_critical), {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (heal)](feat/quicken_spell-like_ability), {feat/Spell Penetration}, {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Bluff +35, Escape Artist +23, Fly +26, Intimidate +35, Knowledge (arcana) +36, Knowledge (dungeoneering) +33, Knowledge (geography) +33, Knowledge (history) +33, Knowledge (planes) +36, Knowledge (religion) +33, Perception +37, Sense Motive +37, Spellcraft +36, Stealth +10, Use Magic Device +35  ",
 			"**Languages** Abyssal; telepathy 300 ft.",
 			"",
@@ -5257,7 +5257,7 @@
 			"",
 			"To call such an iathavos a \"newborn\" is somewhat misleading. Although technically a freshly created creature, newborn iathavoses do not undergo a \"childhood.\" They form fully grown, as presented here. Yet with each new incarnation of the qlippoth monstrosity, changes can occur. A new iathavos might have slightly different spell-like abilities, for example, or the nature of its horrific appearance might change from that presented here. As an iathavos continues to hunt and destroy, it grows more powerful-an advanced iathavos typically gains more racial Hit Dice as a result. An iathavos that gains power by taking class levels is not unheard of, but it is quite rare-most who do take levels in sorcerer.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"iathavos": { "copyof": "qlippoth_iathavos" },
@@ -5297,7 +5297,7 @@
 			"",
 			"**Str** 16, **Dex** 21, **Con**: 24, **Int** 9, **Wis** 19, **Cha**, 16  ",
 			"**Base Atk** +10; **CMB** +13; **CMD** 28 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Critical (bite)](feat/improved_critical), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Combat Reflexes}, [Improved Critical (bite)](feat/improved_critical), {feat/Power Attack}, {feat/Vital Strike}, {feat/Weapon Finesse}  ",
 			"**Skills** Fly +22, Intimidate +16, Knowledge (planes) +12, Perception +17, Stealth +18  ",
 			"**Languages** Abyssal; telepathy 100 ft.  ",
 			"**SQ** flight",
@@ -5322,7 +5322,7 @@
 			"",
 			"A typical nyogoth is 5 feet in diameter and weighs 260 pounds, although they are known to grow much larger.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"nyogoth": { "copyof": "qlippoth_nyogoth" },
@@ -5364,7 +5364,7 @@
 			"",
 			"**Str** 22, **Dex** 16, **Con**: 23, **Int** 12, **Wis** 19, **Cha**, 15  ",
 			"**Base Atk** +7; **CMB** +14 (+18 grapple); **CMD** 27 (31 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Skill Focus (Use Magic Device)](feat/skill_focus), [Weapon Focus (tentacles)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, [Skill Focus (Use Magic Device)](feat/skill_focus), [Weapon Focus (tentacles)](feat/weapon_focus)  ",
 			"**Skills** Escape Artist +13, Intimidate +16, Knowledge (planes) +11, Perception +18, Sense Motive +14, Stealth +9, Use Magic Device +19; **Racial Modifiers** +4 Intimidate, +4 Perception, +4 Use Magic Device  ",
 			"**Languages** Abyssal; telepathy 100 ft.",
 			"",
@@ -5388,7 +5388,7 @@
 			"",
 			"A shoggti's body is an egg-shaped mass about 8 feet long-its tentacles are about 8 feet long as well. The whole creature weighs 900 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"shoggti": { "copyof": "qlippoth_shoggti" },
@@ -5443,7 +5443,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Acid Web (Su)** This ability functions like the [web](umr/web) universal monster ability, except a creature entangled by a thognorok's web also takes 1 point of acid damage each round.",
+			"**Acid Web (Su)** This ability functions like the {umr/web} universal monster ability, except a creature entangled by a thognorok's web also takes 1 point of acid damage each round.",
 			"",
 			"**Horrific Appearance (Su)** Any creature that witnesses a thognorok's horrific appearance could find itself overwhelmed with revulsion at the qlippoth's constantly sprouting and waving insectile legs, becoming sickened for 1d6 rounds (Will DC 13 negates). The save DC is Charisma-based.",
 			"",
@@ -5457,7 +5457,7 @@
 			"",
 			"A common thognorok measures about 5 feet tall and weighs over 200 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"thognorok": { "copyof": "qlippoth_thognorok" },
@@ -5500,7 +5500,7 @@
 			"",
 			"**Str** 26, **Dex** 34, **Con**: 29, **Int** 24, **Wis** 27, **Cha**, 25  ",
 			"**Base Atk** +20; **CMB** +29; **CMD** 55 (71 vs. trip)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (sting)](feat/improved_critical), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Quicken Spell-Like Ability (dimension door)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Greater Vital Strike}, [Improved Critical (sting)](feat/improved_critical), {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, [Quicken Spell-Like Ability (dimension door)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +35 (+39 jump), Bluff +30, Climb +36, Fly +33, Intimidate +27, Knowledge (arcana) +27, Knowledge (history) +30, Knowledge (planes) +30, Perception +31, Sense Motive +31, Spellcraft +27, Stealth +31, Use Magic Device +30  ",
 			"**Languages** Abyssal; telepathy 100 ft.  ",
 			"**SQ** demon hunter",
@@ -5527,7 +5527,7 @@
 			"",
 			"Yet thulgants do not spend all of their lives hunting and destroying demons. They rule horrific hives deep in the Abyss populated by all manner of hideous minions, many of which are bound into servitude via binding spells. These qlippoth are fond of decorating their lairs with petrified or enstasised victims of great power-the more powerful the victims, the greater the prestige held by the thulgant.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"thulgant": { "copyof": "qlippoth_thulgant" },
@@ -5571,7 +5571,7 @@
 			"",
 			"**Str** 25, **Dex** 20, **Con**: 23, **Int** 18, **Wis** 21, **Cha**, 18  ",
 			"**Base Atk** +9; **CMB** +16; **CMD** 31  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Deceitful}, {feat/Improved Initiative}, {feat/Lunge}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Bluff +18, Diplomacy +13, Disguise +18, Knowledge (planes, religion) +16, Perception +17, Sense Motive +17, Spellcraft +16, Stealth +20, Use Magic Device +16  ",
 			"**Languages** Abyssal, Celestial, Common; telepathy 100 ft.  ",
 			"**SQ** change shape (consume humanity target; alter self), false prophet (Community, Healing), healer's blessing, unity (1/day)",
@@ -5596,7 +5596,7 @@
 			"",
 			"In its true shape, an utukku stands 7 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)"
+			"**Family:** {family/Qlippoth}"
 		]
 	},
 	"utukku": { "copyof": "qlippoth_utukku" },
@@ -5616,7 +5616,7 @@
 			"{SOURCE Pathfinder #134: It Came from Hollow Mountain/86}  ",
 			"**XP** 2,400  ",
 			"CE Large outsider (chaotic, qlippoth, evil, extraplanar)  ",
-			"**Init** +8; **Senses** darkvision 60 ft., [see invisibility](spell/see_invisibility); Perception +12",
+			"**Init** +8; **Senses** darkvision 60 ft., {spell/see invisibility}; Perception +12",
 			"",
 			"#### Defense",
 			"",
@@ -5640,7 +5640,7 @@
 			"",
 			"**Str** 16, **Dex** 18, **Con**: 19, **Int** 11, **Wis** 12, **Cha**, 17  ",
 			"**Base Atk** +8; **CMB** +12 (+16 grapple); **CMD** 26 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Vital Strike](feat/vital_strike), [Weapon Focus (tentacles)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Iron Will}, {feat/Vital Strike}, [Weapon Focus (tentacles)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +15, Climb +22, Perception +12, Sleight of Hand +15, Stealth +11, Survival +12  ",
 			"**Languages** Abyssal (cannot speak); telepathy 100 ft.  ",
 			"**SQ** compression, stony form, tentacular versatility",
@@ -5653,7 +5653,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Absorption (Su)** Though a vexenion has no orifice with which to swallow, it can directly absorb a pinned target as a swift action. In most ways, this ability is identical to [swallow whole](umr/swallow_whole), except no hole is left in the qlippoth's body after a creature cuts its way out. A vexenion can absorb no more than one Large or smaller creature at a time and cannot absorb creatures larger than itself. If a creature dies while absorbed by the vexenion, the qlippoth immediately expels the corpse, along with its possessions, and is healed of 3d6 points of damage.",
+			"**Absorption (Su)** Though a vexenion has no orifice with which to swallow, it can directly absorb a pinned target as a swift action. In most ways, this ability is identical to {umr/swallow whole}, except no hole is left in the qlippoth's body after a creature cuts its way out. A vexenion can absorb no more than one Large or smaller creature at a time and cannot absorb creatures larger than itself. If a creature dies while absorbed by the vexenion, the qlippoth immediately expels the corpse, along with its possessions, and is healed of 3d6 points of damage.",
 			"",
 			"**Compression (Ex)** A vexenion can move through an area as small as one-quarter its space without squeezing or one-eighth its space when squeezing. However, if it has absorbed a creature, its movement is restricted by the size of the absorbed creature.",
 			"",
@@ -5665,7 +5665,7 @@
 			"",
 			"#### Description",
 			"",
-			"The Abyssal realm of Sekatar-Seraktis is a byword for chaos, contested by 13 different potential rulers split between bickering balor lords, [vavakias](monster/vavakia), and [vrolikais](monster/vrolikai), yet all leave the portion of the plane claimed by the qlippoth lord [Yamasoth](faith/yamasoth) alone. The Kingdom of New Flesh is populated by the unholy experiments of the qlippoth lord, ravenous monstrosities who feed upon one another and any other beings so foolish or unlucky as to wind up in this accursed place. Some of the most fecund of these experiments are called vexenions, and they have proliferated across the Abyss. These abominations have the appearance of enormous bloated, pulsating tumors, mouthless, armed with muscular tentacles sprouting from their glistening form and gifted with bulging eyes capable of protruding from their bodies and just as quickly disappearing into their shuddering wet flesh.",
+			"The Abyssal realm of Sekatar-Seraktis is a byword for chaos, contested by 13 different potential rulers split between bickering balor lords, [vavakias](monster/vavakia), and [vrolikais](monster/vrolikai), yet all leave the portion of the plane claimed by the qlippoth lord {faith/Yamasoth} alone. The Kingdom of New Flesh is populated by the unholy experiments of the qlippoth lord, ravenous monstrosities who feed upon one another and any other beings so foolish or unlucky as to wind up in this accursed place. Some of the most fecund of these experiments are called vexenions, and they have proliferated across the Abyss. These abominations have the appearance of enormous bloated, pulsating tumors, mouthless, armed with muscular tentacles sprouting from their glistening form and gifted with bulging eyes capable of protruding from their bodies and just as quickly disappearing into their shuddering wet flesh.",
 			"",
 			"A vexenion feeds on flesh by physically absorbing creatures into its own amorphous form through its membranous skin. The ingested creature is slowly dissolved by the qlippoth's acid. Once the flesh is consumed, the victim's bones and other indigestible parts are expelled, and the vexenion moves on to its next meal, forever hunting, forever hungry.",
 			"",
@@ -5677,7 +5677,7 @@
 			"",
 			"Temples of Yamasoth and other places where his otherworldly and malign presence has infected the world, such as the deeper levels of Hollow Mountain, are no stranger to the predations of the vexenion. Dungeon complexes are well loved by these qlippoth, and despite their prodigious size, their malleable bodies allow them to slither and squirt and force themselves through narrow confines-provided their bodies are not currently engorged upon a still-solid and still-struggling meal.",
 			"",
-			"**Family:** [Qlippoth](family/qlippoth)",
+			"**Family:** {family/Qlippoth}",
 			"",
 			"### Ecology",
 			"",
@@ -5722,7 +5722,7 @@
 			"",
 			"**Str** 8, **Dex** 24, **Con**: 13, **Int** 15, **Wis** 15, **Cha**, 14  ",
 			"**Base Atk** +2; **CMB** +0; **CMD** 18  ",
-			"**Feats** [Dodge](feat/dodge), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Dodge}, {feat/Mobility}, {feat/Spring Attack}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +14 (+50 jump), Bluff +9, Craft (any one) +9, Escape Artist +14, Perception +9, Spellcraft +6, Stealth +18, Survival +4, Use Magic Device +7  ",
 			"**Languages** Aklo, Common, Sylvan  ",
 			"**SQ** poison use",
@@ -5782,7 +5782,7 @@
 			"",
 			"**Str** 29, **Dex** 8, **Con**: 21, **Int** 12, **Wis** 15, **Cha**, 12  ",
 			"**Base Atk** +7; **CMB** +18; **CMD** 27 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lunge](feat/lunge), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lunge}, {feat/Multiattack}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Knowledge (nature) +11, Perception +21, Stealth +4 (+8 in forests); **Racial Modifiers** +4 Stealth in forests  ",
 			"**Languages** Common, Sylvan",
 			"",
@@ -5845,7 +5845,7 @@
 			"",
 			"**Str** 21, **Dex** 24, **Con**: 24, **Int** 19, **Wis** 21, **Cha**, 22  ",
 			"**Base Atk** +7; **CMB** +12 (+16 grapple); **CMD** 30 (34 vs. grapple)  ",
-			"**Feats** [Ability Focus (ray of enfeeblement)](feat/ability_focus), [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Quicken Spell-Like Ability (invisibility, ray of enfeeblement)](feat/quicken_spell-like_ability), [Skill Focus (Stealth)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** [Ability Focus (ray of enfeeblement)](feat/ability_focus), {feat/Combat Casting}, {feat/Dodge}, [Quicken Spell-Like Ability (invisibility, ray of enfeeblement)](feat/quicken_spell-like_ability), [Skill Focus (Stealth)](feat/skill_focus), {feat/Weapon Finesse}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +24, Disguise +23, Escape Artist +24, Fly +28, Intimidate +20, Knowledge (nature) +21, Perception +22, Sense Motive +22, Stealth +38, Survival +19; **Racial Modifiers** +8 Stealth  ",
 			"**Languages** Aklo, Auran, Common  ",
 			"**SQ** blood frenzy",
@@ -5978,7 +5978,7 @@
 			"",
 			"**Str** 18, **Dex** 14, **Con**: -, **Int** 11, **Wis** 13, **Cha**, 17  ",
 			"**Base Atk** +8; **CMB** +12; **CMD** 24  ",
-			"**Feats** [Cleave](feat/cleave), [Furious Focus](feat/furious_focus), [Great Cleave](feat/great_cleave), [Improved Critical (greatsword)](feat/improved_critical), [Lunge](feat/lunge), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Furious Focus}, {feat/Great Cleave}, [Improved Critical (greatsword)](feat/improved_critical), {feat/Lunge}, {feat/Power Attack}  ",
 			"**Skills** Climb +18, Intimidate +16, Knowledge (religion) +7, Perception +15, Stealth +20; **Racial Modifiers** +8 Stealth  ",
 			"**Languages** Common  ",
 			"**Gear** greatsword, javelin",
@@ -6035,7 +6035,7 @@
 			"",
 			"**Str** 12, **Dex** 19, **Con**: 16, **Int** 5, **Wis** 11, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +6; **CMD** 20 (24 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Acrobatics +10 (+14 when jumping), Fly +19, Perception +9  ",
 			"**Languages** Auran  ",
 			"**SQ** change shape (Small animal only), electric body",
@@ -6116,7 +6116,7 @@
 			"",
 			"**Str** 10, **Dex** 15, **Con**: 10, **Int** 3, **Wis** 13, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +2 (+6 grapple); **CMD** 14 (can't be tripped)  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +8, Escape Artist +8, Perception +6, Stealth +8; **Racial Modifiers** +6 Escape Artist, +6 Stealth  ",
 			"**Languages** Sylvan (can't speak)  ",
 			"**SQ** compression, pit digger, smell gold",
@@ -6179,7 +6179,7 @@
 			"",
 			"**Str** 14, **Dex** 12, **Con**: 17, **Int** 3, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +6; **CMB** +8 (+12 grapple); **CMD** 19 (can't be tripped)  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Improved Initiative}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Fly +5, Perception +10, Stealth +10  ",
 			"**Languages** Ignan (cannot speak)",
 			"",
@@ -6234,7 +6234,7 @@
 			"",
 			"**Str** 12, **Dex** 19, **Con**: 18, **Int** 5, **Wis** 14, **Cha**, 11  ",
 			"**Base Atk** +6; **CMB** +6; **CMD** 21 (can't be tripped)  ",
-			"**Feats** [Dodge](feat/dodge), [Skill Focus (Perception)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Dodge}, [Skill Focus (Perception)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Climb +9, Diplomacy +0 (+4 when influencing rats), Knowledge (local) -2, Perception +11, Stealth +13, Swim +9; **Racial Modifiers** +4 Diplomacy when influencing rats  ",
 			"**SQ** compression, speak with rats",
 			"",
@@ -6346,7 +6346,7 @@
 			"",
 			"**Str** 2, **Dex** 15, **Con**: 13, **Int** 2, **Wis** 13, **Cha**, 2  ",
 			"**Base Atk** +2; **CMB** -; **CMD** -  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +6, Climb +10, Perception +8, Stealth +14, Swim +10; **Racial Modifiers** uses Dex to modify Climb and Swim",
 			"",
 			"#### Ecology",
@@ -6408,7 +6408,7 @@
 			"",
 			"**Str** 6, **Dex** 15, **Con**: 13, **Int** 12, **Wis** 10, **Cha**, 13  ",
 			"**Base Atk** +3; **CMB** +3; **CMD** 12 (16 vs. trip)  ",
-			"**Feats** [Dodge](feat/dodge), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Dodge}, {feat/Mobility}  ",
 			"**Skills** Climb +6, Knowledge (planes) +4, Perception +6, Stealth +16, Swim +6  ",
 			"**Languages** Aklo; speak with animals (rodents only), tongues  ",
 			"**SQ** scroll use",
@@ -6471,7 +6471,7 @@
 			"",
 			"**Str** 3, **Dex** 15, **Con**: 12, **Int** 2, **Wis** 15, **Cha**, 7  ",
 			"**Base Atk** +3; **CMB** -; **CMD** -  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Fly +11, Perception +11",
 			"",
 			"#### Ecology",
@@ -6578,7 +6578,7 @@
 			"",
 			"**Str** 24, **Dex** 15, **Con**: -, **Int** 16, **Wis** 19, **Cha**, 29  ",
 			"**Base Atk** +21; **CMB** +24; **CMD** 50 (can't be tripped)  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Casting](feat/combat_casting), [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Great Cleave](feat/great_cleave), [Greater Weapon Focus (scythe)](feat/greater_weapon_focus), [Improved Critical (scythe)](feat/improved_critical), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (destruction)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike), [Weapon Focus (scythe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Casting}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Great Cleave}, [Greater Weapon Focus (scythe)](feat/greater_weapon_focus), [Improved Critical (scythe)](feat/improved_critical), {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Power Attack}, [Quicken Spell-Like Ability (destruction)](feat/quicken_spell-like_ability), {feat/Vital Strike}, [Weapon Focus (scythe)](feat/weapon_focus)  ",
 			"**Skills** Diplomacy +37, Disguise +40, Fly +39, Knowledge (planes) +31, Perception +35, Sense Motive +35, Stealth +29  ",
 			"**Languages** Common, Celestial, Infernal; truespeech",
 			"",
@@ -6616,7 +6616,7 @@
 			"",
 			"Minor reapers can be created by casters of 20th level or higher using the spell create greater undead.",
 			"",
-			"See also: [Grim Reaper](monster/grim_reaper)"
+			"See also: {monster/Grim Reaper}"
 		]
 	},
 	"reaper_minor_reaper": {
@@ -6649,7 +6649,7 @@
 			"",
 			"**Str** 14, **Dex** 19, **Con**: -, **Int** 8, **Wis** 11, **Cha**, 17  ",
 			"**Base Atk** +11; **CMB** +15; **CMD** 27  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Toughness](feat/toughness), [Weapon Focus (scythe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Cleave}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Toughness}, [Weapon Focus (scythe)](feat/weapon_focus)  ",
 			"**Skills** Climb +10, Intimidate +16, Perception +18, Stealth +22  ",
 			"**SQ** sole target",
 			"",
@@ -6689,7 +6689,7 @@
 			"",
 			"Minor reapers can be created by casters of 20th level or higher using the spell create greater undead.",
 			"",
-			"See also: [Lesser Death](monster/lesser_death)"
+			"See also: {monster/Lesser Death}"
 		]
 	},
 	"minor_reaper": { "copyof": "reaper_minor_reaper" }

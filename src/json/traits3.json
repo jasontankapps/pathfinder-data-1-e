@@ -305,7 +305,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling",
 			"",
-			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the [Extend Spell](feat/extend_spell) metamagic feat."
+			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the {feat/Extend Spell} metamagic feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -799,7 +799,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
 			"",
-			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the [Leadership](feat/leadership) feat, you receive a +1 trait bonus to your Leadership score."
+			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the {feat/Leadership} feat, you receive a +1 trait bonus to your Leadership score."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -939,7 +939,7 @@
 			"Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways. Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.",
 			"",
 			"**Korvosa:** Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.  ",
-			"**Magnimar:** Gain one random [Varisian idol](equipment-misc/varisian_idol).  ",
+			"**Magnimar:** Gain one random {equipment-misc/Varisian idol}.  ",
 			"**Riddleport:** Gain a +1 trait bonus on Swim checks."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
@@ -1363,7 +1363,7 @@
 			"",
 			"**Type:** Regional  ",
 			"**Region:** Qadira  ",
-			"**Requirements:** [Mounted Combat](feat/mounted_combat) feat",
+			"**Requirements:** {feat/Mounted Combat} feat",
 			"",
 			"You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin. When mounted and making a charge, your mount's speed is increased by 10 feet."
 		],
@@ -2143,7 +2143,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
 			"",
-			"While the worship of [Asmodeus](faith/asmodeus) is widespread throughout Cheliax, you follow a different path: that of the philosophy of diabolism. Asmodeus and the other archdevils are worthy of respect and emulation, certainly, but rather than worship one Lord of Hell above all others, your faith is instead based on the veneration of the order and laws of Hell itself as a model for a perfect society. Free will must be suppressed to prevent rebellion, slavery is required to keep the unworthy in their place, and evil and cruelty are necessary for good and kindness to exist.",
+			"While the worship of {faith/Asmodeus} is widespread throughout Cheliax, you follow a different path: that of the philosophy of diabolism. Asmodeus and the other archdevils are worthy of respect and emulation, certainly, but rather than worship one Lord of Hell above all others, your faith is instead based on the veneration of the order and laws of Hell itself as a model for a perfect society. Free will must be suppressed to prevent rebellion, slavery is required to keep the unworthy in their place, and evil and cruelty are necessary for good and kindness to exist.",
 			"",
 			"You gain a +1 trait bonus on Knowledge (planes) checks, and Knowledge (planes) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages). In addition, your studies of Hell's underlying structure give strength to your determination. You gain a +2 trait bonus on Will saves against the mind-affecting effects of outsiders with the good subtype."
 		],
@@ -2712,7 +2712,7 @@
 			"",
 			"You awake in the asylum horribly aware of dangers lurking nearby. While your memories are hazy and indistinct, everything around you looks vibrant and clear. You have an inkling that you have always been perceptive and can tell a lot about a person even in a quick meeting. This sensitivity can overwhelm you at times, especially in your current situation.",
 			"",
-			"You gain a +1 trait bonus on Appraise, Perception, and Sense Motive checks, and one of these (your choice) is a class skill for you. In addition, once per week you can use the psychometry occult skill unlock even if you are not capable of casting psychic spells or have the [Psychic Sensitivity](feat/psychic_sensitivity) feat."
+			"You gain a +1 trait bonus on Appraise, Perception, and Sense Motive checks, and one of these (your choice) is a class skill for you. In addition, once per week you can use the psychometry occult skill unlock even if you are not capable of casting psychic spells or have the {feat/Psychic Sensitivity} feat."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -3240,7 +3240,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You have learned the secret to casting some spells without lesser material components. Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the [Eschew Materials](feat/eschew_materials) feat."
+			"You have learned the secret to casting some spells without lesser material components. Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the {feat/Eschew Materials} feat."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -4130,7 +4130,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the [Improved Dirty Trick](feat/improved_dirty_trick) feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
+			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the {feat/Improved Dirty Trick} feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -4317,7 +4317,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
 			"",
-			"They say the strange technological ruins scattered throughout Numeria came from the skies several thousand years ago. The concept of life on other planets far beyond Golarion has always fascinated you, and you've long hoped to learn more about what life on those other planets may have been like. you've heard stories about the strange alien creatures found in Numerian dungeons and hope to learn all you can about them-perhaps some of these aliens can be found in the caverns below Torch! You gain a +2 trait bonus on Knowledge checks to identify alien monsters' abilities and weaknesses. In addition, you gain a +1 trait bonus on Knowledge (geography) checks, and this skill is a class skill for you. You are treated as if you possessed the [Technologist](feat/technologist) feat for the purposes of resolving checks to identify an alien creature using a Knowledge skill and for all Knowledge (geography) checks. If you already possess the Technologist feat, then your trait bonus on Knowledge (geography) checks increases to +3."
+			"They say the strange technological ruins scattered throughout Numeria came from the skies several thousand years ago. The concept of life on other planets far beyond Golarion has always fascinated you, and you've long hoped to learn more about what life on those other planets may have been like. you've heard stories about the strange alien creatures found in Numerian dungeons and hope to learn all you can about them-perhaps some of these aliens can be found in the caverns below Torch! You gain a +2 trait bonus on Knowledge checks to identify alien monsters' abilities and weaknesses. In addition, you gain a +1 trait bonus on Knowledge (geography) checks, and this skill is a class skill for you. You are treated as if you possessed the {feat/Technologist} feat for the purposes of resolving checks to identify an alien creature using a Knowledge skill and for all Knowledge (geography) checks. If you already possess the Technologist feat, then your trait bonus on Knowledge (geography) checks increases to +3."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5392,7 +5392,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** [Whispering Way](rule/f_gravepath)",
 			"",
-			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast [sotto voce](spell/sotto_voce) as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
+			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast {spell/sotto voce} as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -5945,7 +5945,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"You know how to avoid a blow while still maintaining your offensive posture. When you use [Combat Expertise](feat/combat_expertise), reduce the number you subtract from your melee attack rolls by 1."
+			"You know how to avoid a blow while still maintaining your offensive posture. When you use {feat/Combat Expertise}, reduce the number you subtract from your melee attack rolls by 1."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -6015,7 +6015,7 @@
 			"",
 			"You have sworn your body to Queen Abrogail and House Thrune in a ritual ceremony, and are willing to lay down your life in service to Thrune. Once per week, when reduced to fewer than 0 hit points, you automatically gain fast healing 1 for 1 minute. Once this ability has been used, you instead gain a +4 trait bonus on Constitution checks to stabilize when reduced to negative hit points.",
 			"",
-			"In addition, you receive an invisible [arcane mark](spell/arcane_mark) of the encircled cross emblem of Cheliax as a symbol of your loyalty. This mark does not fade and is visible only to other creatures with this trait, or creatures with the ability to perceive the invisible (via [see invisibility](spell/see_invisibility) or [true seeing](spell/true_seeing), for example). You can make this mark visible to other creatures for 1 round as a swift action. If the mark is dispelled or removed (such as with [erase](spell/erase)), it can be replaced with another casting of [arcane mark](spell/arcane_mark), which thereafter functions as detailed in this trait."
+			"In addition, you receive an invisible {spell/arcane mark} of the encircled cross emblem of Cheliax as a symbol of your loyalty. This mark does not fade and is visible only to other creatures with this trait, or creatures with the ability to perceive the invisible (via {spell/see invisibility} or {spell/true seeing}, for example). You can make this mark visible to other creatures for 1 round as a swift action. If the mark is dispelled or removed (such as with {spell/erase}), it can be replaced with another casting of {spell/arcane mark}, which thereafter functions as detailed in this trait."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6181,7 +6181,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Droskar",
 			"",
-			"You can craft passable if inferior magical weapons, armors, and shields through diligence and toil. Choose one Craft or Profession skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor) feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities."
+			"You can craft passable if inferior magical weapons, armors, and shields through diligence and toil. Choose one Craft or Profession skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the {feat/Craft Magic Arms and Armor} feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -6400,7 +6400,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the [Extend Spell](feat/extend_spell) metamagic feat or similar abilities."
+			"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the {feat/Extend Spell} metamagic feat or similar abilities."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -7272,7 +7272,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"Without a single gesture, you can unleash a bloodline spell. Once per day, you can cast a bloodline spell as if you had the [Still Spell](feat/still_spell) feat. Using this trait does not modify the spell's level."
+			"Without a single gesture, you can unleash a bloodline spell. Once per day, you can cast a bloodline spell as if you had the {feat/Still Spell} feat. Using this trait does not modify the spell's level."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -7359,7 +7359,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You've been part of one of Mengkare's minor experiments. Once per day, you can cast [detect psychic significance](spell/detect_psychic_significance) or [telekinetic projectile](spell/telekinetic_projectile) as a spell-like ability, with a caster level equal to your character level."
+			"You've been part of one of Mengkare's minor experiments. Once per day, you can cast {spell/detect psychic significance} or {spell/telekinetic projectile} as a spell-like ability, with a caster level equal to your character level."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -7408,7 +7408,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: [Competition](domain/competition), [Duels](domain/duels), [Espionage](domain/espionage), [Fortifications](domain/fortifications), [Industry](domain/industry), [Legislation](domain/legislation), [Plague](domain/plague), or [Riot](domain/riot)."
+			"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: {domain/Competition}, {domain/Duels}, {domain/Espionage}, {domain/Fortifications}, {domain/Industry}, {domain/Legislation}, {domain/Plague}, or {domain/Riot}."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -8575,7 +8575,7 @@
 			"",
 			"**Armor:** Leather armor, light wooden shield.  ",
 			"**Weapons:** Shortspear, sling with 10 bullets.  ",
-			"**Combat Gear:** Antitoxin, bead of blessing (as a [lesser strand of prayer beads](magic-wondrous/lesser_strand_of_prayer_beads) without the bead of healing), holy water (2), [scrolls of cure light wounds](spell/cure_light_wounds) (2), [scroll of endure elements](spell/endure_elements).  ",
+			"**Combat Gear:** Antitoxin, bead of blessing (as a {magic-wondrous/lesser strand of prayer beads} without the bead of healing), holy water (2), [scrolls of cure light wounds](spell/cure_light_wounds) (2), [scroll of endure elements](spell/endure_elements).  ",
 			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), flint and steel, healer's kit, holy symbol (silver), ioun torch, mess kit, mirror, sack, shovel, silk rope (50 ft.), smelling salts, soap, spell component pouch, trail rations (5 days), waterskin, 4 sp.  ",
 			"**Total Weight:** 67 lbs. (39-1/4 lbs. for a Small character).",
 			"",
@@ -8752,7 +8752,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the [Leadership](feat/leadership) feat or the [Vile Leadership](feat/vile_leadership) feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
+			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the {feat/Leadership} feat or the {feat/Vile Leadership} feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -8778,7 +8778,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc",
 			"",
-			"Select one terrain type from the ranger's favored terrain list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the [Diehard](feat/diehard) feat."
+			"Select one terrain type from the ranger's favored terrain list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the {feat/Diehard} feat."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},

@@ -104,7 +104,7 @@
 			"**Effect** 1d3 Con and 1d3 Dex damage  ",
 			"**Cure** 2 consecutive saves",
 			"",
-			"A humanoid who dies of ghoul fever rises as a [ghoul](monster/ghoul) at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast. The save DC is Charisma-based."
+			"A humanoid who dies of ghoul fever rises as a {monster/ghoul} at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast. The save DC is Charisma-based."
 		]
 	},
 	"green_haze": {
@@ -184,7 +184,7 @@
 			"**Effect** 1d4 Wis damage and target is fatigued  ",
 			"**Cure** 2 consecutive saves or arsenic (see text)",
 			"",
-			"The best cure for this disease is dosing the patient with the poison [arsenic](equipment-poison/arsenic)-if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
+			"The best cure for this disease is dosing the patient with the poison {equipment-poison/arsenic}-if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
 		]
 	},
 	"slimy_doom": {
@@ -282,7 +282,7 @@
 			"**Cure** 2 consecutive saves",
 			"",
 			"**Ongoing Save** Fort DC equal to the save DC of the failed saving throw  ",
-			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a [Mana Wastes mutant](template/mana_wastes_mutant) or a [mutant](template/mutant), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
+			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a {template/Mana Wastes mutant} or a {template/mutant}, chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
 		]
 	},
 	"the_tainted_plague": {
@@ -492,7 +492,7 @@
 			"**Effect** 1d4 Wis (cannot reduce Wisdom below 1); on any day the victim fails her saving throw, she suffers the effects of a [type of insanity](rule/sanity_and_madness). Unlike normal insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its victims.  ",
 			"**Cure** 2 consecutive saves",
 			"",
-			"Shattermind refers to a group of related infectious mental patterns spread by skin-to-skin contact between infected victims. Most forms of shattermind affect only humanoids and monstrous humanoids. Each form of shattermind spreads a different form of insanity to its victims. [Restoration](spell/restoration) allows a new saving throw but does not cure the insanity."
+			"Shattermind refers to a group of related infectious mental patterns spread by skin-to-skin contact between infected victims. Most forms of shattermind affect only humanoids and monstrous humanoids. Each form of shattermind spreads a different form of insanity to its victims. {spell/Restoration} allows a new saving throw but does not cure the insanity."
 		]
 	},
 	"demon_fever": {
@@ -668,7 +668,7 @@
 			"## Pallid Gift",
 			"",
 			"{SOURCE Villain Codex}  ",
-			"**Type** injury; **Fortitude Save* DC 10 + 1/2 the HD of the [pallid vector](template/pallid_vector) that is infecting the victim, plus the vector's Con modifier  ",
+			"**Type** injury; **Fortitude Save* DC 10 + 1/2 the HD of the {template/pallid vector} that is infecting the victim, plus the vector's Con modifier  ",
 			"**Onset** immediate; **Frequency** 1/day  ",
 			"**Effect** 1d6 Constitution damage, 1d6 Wisdom damage, and the infected creature is fatigued; the ability damage can't be healed, and the fatigue can't be removed while the creature is infected  ",
 			"**Cure** 2 consecutive saves",

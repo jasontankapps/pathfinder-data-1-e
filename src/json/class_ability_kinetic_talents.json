@@ -653,7 +653,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** air; **Type** form infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Electric Blast](kinetic/electric_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Electric Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"You unleash a bolt of lightning above an enemy within 30 feet and send it spiraling down with tremendous force. Each bolt is a 5-foot-wide, 30-foot-long, vertical bolt, dealing your full blast damage to creatures within the line. If all squares in the bolt's area are outdoors and in a storm, the blast deals an additional 1 point of damage per die. The saving throw is Dexterity-based."
@@ -668,7 +668,7 @@
 			"",
 			"{SOURCE Occult Adventures/17}  ",
 			"**Element** aether, earth; **Type** substance infusion; **Level** 2; **Burn** 2  ",
-			"**Associated Blasts** [Earth Blast](kinetic/earth_blast), [Magma Blast](kinetic/magma_blast), [Metal Blast](kinetic/metal_blast), [Mud Blast](kinetic/mud_blast), [Telekinetic Blast](kinetic/telekinetic_blast)  ",
+			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Magma Blast}, {kinetic/Metal Blast}, {kinetic/Mud Blast}, {kinetic/Telekinetic Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You bowl your foes over with the sheer mass of your kinetic blast. Attempt a trip combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your Combat Maneuver Bonus."
@@ -684,7 +684,7 @@
 			"{SOURCE Occult Adventures/17}  ",
 			"**Element** fire; **Type** substance infusion; **Level** 6; **Burn** 4  ",
 			"**Prerequisite** flash infusion  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Plasma Blast](kinetic/plasma_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Plasma Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your kinetic blast leaves an afterglow that banishes the darkness. Treat each square of the path of your ranged attack kinetic blast, the target square of your melee attack kinetic blast, or the area of your area of effect kinetic blast as the center of a continual flame effect that lasts until the end of your next turn. This effect counts as a 6th-level spell with the light descriptor."
@@ -699,7 +699,7 @@
 			"",
 			"{SOURCE Occult Adventures/17}  ",
 			"**Element** fire; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Magma Blast](kinetic/magma_blast), [Plasma Blast](kinetic/plasma_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Magma Blast}, {kinetic/Plasma Blast}  ",
 			"**Saving Throw** Reflex negates",
 			"",
 			"Your kinetic blast ignites your foes. Whenever an infused blast hits a foe and penetrates its spell resistance, that foe catches on fire, regardless of whether it takes damage. A foe that catches fire takes 1d6 points of fire damage each round until the fire is extinguished. Against a creature on fire from this infusion, any fire kinetic blasts gain a +2 bonus on attack rolls, to DCs, and on caster level checks to overcome spell resistance."
@@ -714,7 +714,7 @@
 			"",
 			"{SOURCE Occult Adventures/18}  ",
 			"**Element** air; **Type** form infusion; **Level** 5; **Burn** 3  ",
-			"**Associated Blasts** [Electric Blast](kinetic/electric_blast)  ",
+			"**Associated Blasts** {kinetic/Electric Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your electric blast leaps from target to target. When you hit a target with your infused blast, you can attempt a ranged touch attack against an additional target that is within 30 feet of the first. Each additional attack originates from the previous target, which could alter cover and other conditions. Each additional target takes 1d6 fewer points of damage than the last (for example, 3d6 becomes 2d6), and you can't chain the blast back to a previous target. You can continue chaining your blasts until a blast misses or fails to deal damage, or until your blast is reduced to a single damage die."
@@ -729,7 +729,7 @@
 			"",
 			"{SOURCE Occult Adventures/18}  ",
 			"**Element** water; **Type** substance infusion; **Level** 5; **Burn** 3  ",
-			"**Associated Blasts** [Blizzard Blast](kinetic/blizzard_blast), [Cold Blast](kinetic/cold_blast), [Ice Blast](kinetic/ice_blast)  ",
+			"**Associated Blasts** {kinetic/Blizzard Blast}, {kinetic/Cold Blast}, {kinetic/Ice Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"Your kinetic blast chills your foes to the bone, making their movements sluggish. Whenever an infused blast deals cold damage to a foe, that foe is staggered for 1 round."
@@ -745,7 +745,7 @@
 			"{SOURCE Occult Adventures/18}  ",
 			"**Element** air, water; **Type** form infusion; **Level** 7; **Burn** 4  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Blizzard Blast](kinetic/blizzard_blast), [Sandstorm Blast](kinetic/sandstorm_blast), [Steam Blast](kinetic/steam_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Blizzard Blast}, {kinetic/Sandstorm Blast}, {kinetic/Steam Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You release your power in a diffuse cloud. You can center this 20-foot-radius spread anywhere within 120 feet of you. All creatures and objects within the cloud when you create it automatically take 1/4 the normal amount of damage from your blast with no saving throw. Any time a creature enters the cloud, it takes half the normal amount of damage from your blast, as do creatures that end their turns in the cloud. Your cloud obscures vision as obscuring mist. It lasts for a number of rounds equal to your Constitution modifier or until you use the cloud infusion again."
@@ -760,7 +760,7 @@
 			"",
 			"{SOURCE Occult Adventures/18}  ",
 			"**Element** air; **Type** form infusion; **Level** 4; **Burn** 3  ",
-			"**Associated Blasts** [Air Blast](kinetic/air_blast), [Blizzard Blast](kinetic/blizzard_blast), [Sandstorm Blast](kinetic/sandstorm_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Air Blast}, {kinetic/Blizzard Blast}, {kinetic/Sandstorm Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"You create a circular rush of wind. All creatures and objects within a 20-foot-radius burst centered on you take half your blast's normal amount of damage. The saving throw DC is Dexterity-based."
@@ -775,7 +775,7 @@
 			"",
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** void; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
 			"Your kinetic blast swirls with darkness, making it harder for your foes to see. This otherwise functions as dazzling infusion."
@@ -790,7 +790,7 @@
 			"",
 			"{SOURCE Occult Origins/6}  ",
 			"**Element** void; **Type** substance infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Gravity Blast](kinetic/gravity_blast), [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Gravity Blast}, {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your kinetic blast creates darkness. Treat each square of the path of your ranged attack kinetic blast, the target square of your melee attack kinetic blast, or the area of your area of effect kinetic blast as the center of a darkness effect that lasts until the end of your next turn. This effect counts as a 3rd-level darkness spell."
@@ -806,7 +806,7 @@
 			"{SOURCE Occult Origins/6}  ",
 			"**Element** void; **Type** substance infusion; **Level** 6; **Burn** 4  ",
 			"**Prerequisite** darkness infusion  ",
-			"**Associated Blasts** [Gravity Blast](kinetic/gravity_blast), [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Gravity Blast}, {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your blast creates supernatural darkness, as per the darkness infusion, except it acts as deeper darkness and counts as a 6th-level darkness spell."
@@ -821,7 +821,7 @@
 			"",
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** fire, wood; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Plasma Blast](kinetic/plasma_blast), [Positive Blast](kinetic/positive_blast), [Verdant Blast](kinetic/verdant_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Plasma Blast}, {kinetic/Positive Blast}, {kinetic/Verdant Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
 			"Your kinetic blast shines brightly, making it harder for your foes to see. If your blast hits a foe (and penetrates SR if applicable), that foe must succeed at a Will save or be dazzled for 1 minute, whether or not it takes damage from the blast. You can reduce the blast's damage by half to increase the DC of this save by 2."
@@ -837,7 +837,7 @@
 			"{SOURCE Occult Adventures/18}  ",
 			"**Element** earth, wood; **Type** form infusion; **Level** 6; **Burn** 4  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Earth Blast](kinetic/earth_blast), [Magma Blast](kinetic/magma_blast), [Metal Blast](kinetic/metal_blast), [Mud Blast](kinetic/mud_blast)  ",
+			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Magma Blast}, {kinetic/Metal Blast}, {kinetic/Mud Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if you are using a metal blast, this infusion affects a metal surface instead). The ground roils and buckles beneath the affected area. All creatures and objects in contact with the ground within the area when you create it automatically take 1/4 of the normal damage from your blast with no saving throw. Any time a creature enters the area, it takes half the normal damage from your blast, as do creatures that end their turns in the area. The entire area counts as difficult terrain. This infusion lasts for a number of rounds equal to your Constitution modifier or until you use it again."
@@ -852,7 +852,7 @@
 			"",
 			"{SOURCE Psychic Anthology/20}  ",
 			"**Element** fire; **Type** form infusion; **Level** 4; **Burn** 3  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"Flames explode outward from your body, dealing your blast damage to all creatures and objects within a 20-foot radius."
@@ -867,7 +867,7 @@
 			"",
 			"{SOURCE Occult Adventures/18}  ",
 			"**Element** aether; **Type** substance infusion; **Level** 6; **Burn** 4  ",
-			"**Associated Blasts** [Force Blast](kinetic/force_blast)  ",
+			"**Associated Blasts** {kinetic/Force Blast}  ",
 			"**Saving Throw** Fortitude partial; see text",
 			"",
 			"You can use force to rip your targets apart. Against creatures, your kinetic blast deals double its normal amount of damage, but targets receive a saving throw to reduce the damage to half the blast's normal amount of damage (for a total of 1/4 of the blast's increased damage). Any creature reduced to 0 or fewer hit points by the blast is disintegrated, as the spell disintegrate. You can use the infused blast to destroy force effects or objects as disintegrate, but for each force effect or 10-foot cube of nonliving matter you destroy in this way, you must accept 1 point of burn, which can't be reduced by effects such as infusion specialization or gather power."
@@ -912,7 +912,7 @@
 			"",
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** air, fire, void, water; **Type** form infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Cold Blast](kinetic/cold_blast), [Electric Blast](kinetic/electric_blast), [Fire Blast](kinetic/fire_blast), [Negative Blast](kinetic/negative_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Cold Blast}, {kinetic/Electric Blast}, {kinetic/Fire Blast}, {kinetic/Negative Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Choose a manufactured weapon in your hand (not an unarmed strike or natural attack); if the weapon is a double weapon, you must choose one of its ends to receive this benefit. You imbue the chosen weapon with your elemental energy as part of an attack action, charge action, or full-attack action to add extra damage to each of your attacks with that weapon until the beginning of your next turn. Your attacks with the chosen weapon during that action deal 1d6 additional points of damage. At 7th level and every 6 levels thereafter, this bonus damage increases by 1d6 points. Blue flame blasts deal double this additional damage. The additional damage is of the same type as the infused blast's damage. This additional damage ignores spell resistance and doesn't apply any modifiers to your kinetic blast's damage (such as your Constitution modifier)."
@@ -927,7 +927,7 @@
 			"",
 			"{SOURCE Occult Origins/6}  ",
 			"**Element** void; **Type** substance infusion; **Level** 7; **Burn** 4  ",
-			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"Your kinetic blast drains life force. Foes that take damage from your infused blast also take 1 temporary negative level. Negative levels from this infusion fade after 24 hours and never become permanent."
@@ -942,7 +942,7 @@
 			"",
 			"{SOURCE Occult Adventures/19}  ",
 			"**Element** earth, water, wood; **Type** substance infusion; **Level** 2; **Burn** 2  ",
-			"**Associated Blasts** [Blizzard Blast](kinetic/blizzard_blast), [Cold Blast](kinetic/cold_blast), [Earth Blast](kinetic/earth_blast), [Ice Blast](kinetic/ice_blast), [Magma Blast](kinetic/magma_blast), [Metal Blast](kinetic/metal_blast), [Mud Blast](kinetic/mud_blast), [Sandstorm Blast](kinetic/sandstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Blizzard Blast}, {kinetic/Cold Blast}, {kinetic/Earth Blast}, {kinetic/Ice Blast}, {kinetic/Magma Blast}, {kinetic/Metal Blast}, {kinetic/Mud Blast}, {kinetic/Sandstorm Blast}  ",
 			"**Saving Throw** Reflex negates",
 			"",
 			"Your kinetic blast surrounds your foes in elemental matter. Whenever a blast with this infusion deals damage to a foe, that foe becomes entangled for 1 minute. The foe can remove this condition as a standard action with a successful Escape Artist or Strength check (with the same DC as for saves against your kinetic blast) or by dealing an amount of damage to the entangling matter equal to double your kineticist level (the matter has hardness 0). If the foe was already entangled by this infusion and fails its save against a second instance of this infusion, the increased amount of elemental matter fuses to the ground, causing the foe to be rooted in place as though anchored to an immobile object."
@@ -958,7 +958,7 @@
 			"{SOURCE Occult Adventures/19}  ",
 			"**Element** fire; **Type** form infusion; **Level** 3; **Burn** 2  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Magma Blast](kinetic/magma_blast), [Steam Blast](kinetic/steam_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Magma Blast}, {kinetic/Steam Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"Your kinetic blast erupts from the ground in a pillar centered anywhere within 120 feet of you. The pillar affects all creatures and objects in a 10-foot-radius cylinder that extends 40 feet above the ground. An energy blast infused with eruption deals its normal damage to each target, while a physical blast deals half its normal amount of damage. The saving throw DC is Dexterity-based."
@@ -974,7 +974,7 @@
 			"{SOURCE Occult Adventures/19}  ",
 			"**Element** fire; **Type** form infusion; **Level** 7; **Burn** 4  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"You focus your energy on a point in space and create a controlled explosion. You can center the explosion anywhere within 120 feet of you, and you can choose the radius of the spread to be 5, 10, 15, or 20 feet. All creatures and objects within the explosion take your blast's damage. The saving throw DC is Dexterity-based."
@@ -1020,7 +1020,7 @@
 			"",
 			"{SOURCE Occult Adventures/19}  ",
 			"**Element** fire; **Type** form infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"Your kinetic blast extends in a fan of flames, damaging all creatures and objects in a 15-foot cone. The saving throw DC is Dexterity-based."
@@ -1035,7 +1035,7 @@
 			"",
 			"{SOURCE Occult Adventures/19}  ",
 			"**Element** fire; **Type** substance infusion; **Level** 4; **Burn** 3  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Plasma Blast](kinetic/plasma_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Plasma Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
 			"Your kinetic blast is so bright that it blinds your foes. Whenever an infused blast hits a foe and penetrates its spell resistance, that foe must succeed at a Will save or be blinded for 1 round, regardless of whether it takes damage from the blast. You can reduce the blast's damage by half to increase the DC of this save by 2."
@@ -1083,7 +1083,7 @@
 			"",
 			"{SOURCE Occult Adventures/20}  ",
 			"**Element** aether; **Type** form infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Telekinetic Blast](kinetic/telekinetic_blast)  ",
+			"**Associated Blasts** {kinetic/Telekinetic Blast}  ",
 			"**Saving Throw** Fortitude negates; see text",
 			"",
 			"Your telekinetic blast can throw a Large or smaller creature instead of an unattended object; you can increase the burn cost by 1 to affect a creature of a larger size. If the creature you attempt to throw succeeds at a Fortitude save, it negates the blast entirely. Otherwise, if your blast hits, both the thrown creature and the target take the full amount of damage from your telekinetic blast, and the thrown creature falls prone in the last unoccupied space along its path. If your blast misses, the thrown creature can choose to occupy any space within 30 feet of the target, it doesn't fall prone, and it takes half the normal amount of damage from your blast. The movement doesn't provoke attacks of opportunity."
@@ -1098,7 +1098,7 @@
 			"",
 			"{SOURCE Occult Adventures/20}  ",
 			"**Element** aether; **Type** form infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Force Blast](kinetic/force_blast)  ",
+			"**Associated Blasts** {kinetic/Force Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your force blast hooks onto its target and drags you adjacent to it. This effect functions as force hook charge, except with the range and damage of your force blast."
@@ -1117,7 +1117,7 @@
 			"{SOURCE Ultimate Wilderness/58;Psychic Anthology/20}  ",
 			"**Element** fire, wood; **Type** substance infusion (Sp); **Level** 3; **Burn** 2  ",
 			"**Prerequisite** foxfire or positive blast  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast), [Positive Blast](kinetic/positive_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Positive Blast}  ",
 			"**Saving Throw** Will partial",
 			"",
 			"Your blast leaves behind flickering flames that reveal the target's location as per faerie fire for 1 minute (or until your next turn if the target succeeds at its save). This effect occurs even if the foe doesn't take damage, as long as the attack overcomes spell resistance (if any). You can reduce the blast's damage by half to increase the DC of this saving throw by 2. A creature can remove the revealing flames early by taking a full-round action to extinguish them."
@@ -1133,7 +1133,7 @@
 			"{SOURCE Occult Adventures/20}  ",
 			"**Element** earth, water; **Type** form infusion; **Level** 7; **Burn** 4  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Earth Blast](kinetic/earth_blast), [Ice Blast](kinetic/ice_blast), [Metal Blast](kinetic/metal_blast)  ",
+			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Ice Blast}, {kinetic/Metal Blast}  ",
 			"**Saving Throw** none or Reflex half; see text",
 			"",
 			"You throw a volatile sphere of solid matter that shatters into countless shards. Attempt a ranged attack roll against a target within 120 feet. If you hit, the target takes your kinetic blast damage with no saving throw. All other creatures and objects within a 20-foot burst take half the normal amount of damage and can attempt a Reflex save to reduce that damage by half again. If the attack misses its target, the blast has no effect. The saving throw DC is Dexterity-based."
@@ -1163,7 +1163,7 @@
 			"",
 			"{SOURCE Occult Adventures/20}  ",
 			"**Element** air; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Air Blast](kinetic/air_blast), [Blizzard Blast](kinetic/blizzard_blast), [Sandstorm Blast](kinetic/sandstorm_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Air Blast}, {kinetic/Blizzard Blast}, {kinetic/Sandstorm Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"The wind from your infusion causes your blast to act as an instantaneous gust of wind. If your blast has a clear path, you can accept 2 additional points of burn or reduce the damage to 0 in order to cause the gust of wind effect to persist for 1 round along that path."
@@ -1178,7 +1178,7 @@
 			"",
 			"{SOURCE Occult Adventures/20}  ",
 			"**Element** earth, water, wood; **Type** form infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Earth Blast](kinetic/earth_blast), [Ice Blast](kinetic/ice_blast), [Metal Blast](kinetic/metal_blast)  ",
+			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Ice Blast}, {kinetic/Metal Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You extend a long, sharp spike of elemental matter along a line, impaling multiple foes. Make a single attack roll against each creature or object in a 30-foot line, starting with the closest target. If the result is a critical threat, roll to confirm against only the first target you hit. Calculate damage against each target you hit, starting from the closest. If your attack hits a target but fails to deal physical damage to that target, the spike fails to penetrate and the infused blast doesn't continue. A blast with the impale infusion can penetrate solid barriers, but it must deal enough damage to destroy the barrier in order to continue through. Infused earth and metal blasts always deal piercing damage."
@@ -1245,7 +1245,7 @@
 			"**Associated Blasts** any  ",
 			"**Saving Throw** Fortitude partial",
 			"",
-			"You infuse your elemental energy with kundalini serpent fire. Choose a chakra you can currently open; you must accept an amount of burn equal to the chakra's number (1 for root, 2 for sacral, and so on). Your unarmed strikes with the infused blast cause the target to suffer the effects of blocking the chosen chakra as per the [Block Chakras](feat/block_chakras) or [Block Upper Chakras](feat/block_upper_chakras) feat. You can use this infusion only while also using the kinetic fist form infusion."
+			"You infuse your elemental energy with kundalini serpent fire. Choose a chakra you can currently open; you must accept an amount of burn equal to the chakra's number (1 for root, 2 for sacral, and so on). Your unarmed strikes with the infused blast cause the target to suffer the effects of blocking the chosen chakra as per the {feat/Block Chakras} or {feat/Block Upper Chakras} feat. You can use this infusion only while also using the kinetic fist form infusion."
 		]
 	},
 	"maelstrom": {
@@ -1258,7 +1258,7 @@
 			"{SOURCE Psychic Anthology/20}  ",
 			"**Element** water; **Type** substance infusion; **Level** 8; **Burn** 4  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Charged Water Blast](kinetic/charged_water_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Charged Water Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** Reflex partial",
 			"",
 			"You create a 20-foot-radius whirling maelstrom in a body of water within 120 feet (the area of the maelstrom does not include any squares in the radius that aren't in the water). Any creature in the maelstrom immediately takes one-quarter your blast's normal damage regardless of whether it succeeds at its save. A creature that succeeds at its Reflex save can choose to exit the area at the closest space. A creature in the maelstrom must succeed at a DC 35 Swim check in order to swim, and any creature that enters the maelstrom or ends its turn in the maelstrom takes half your blast's normal damage. As a free action at the beginning of your turn, you can position each creature in the maelstrom anywhere you choose within the affected area. This effect lasts for a number of rounds equal to your Constitution modifier or until you use this infusion again. You can use grappling infusion with this infusion."
@@ -1273,7 +1273,7 @@
 			"",
 			"{SOURCE Occult Adventures/21}  ",
 			"**Element** air, earth; **Type** substance infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Charged Water Blast](kinetic/charged_water_blast), [Electric Blast](kinetic/electric_blast), [Metal Blast](kinetic/metal_blast), [Plasma Blast](kinetic/plasma_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Charged Water Blast}, {kinetic/Electric Blast}, {kinetic/Metal Blast}, {kinetic/Plasma Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your kinetic blast causes your foes to become mildly magnetic. Whenever an infused blast deals damage to a foe, attacks made with metal weapons (including metal kinetic blasts) against that foe receive a +4 bonus until the end of your next turn, and the foe takes a -4 penalty on Reflex saving throws to avoid metallic objects."
@@ -1289,7 +1289,7 @@
 			"{SOURCE Occult Adventures/21}  ",
 			"**Element** aether; **Type** form infusion; **Level** 8; **Burn** 4  ",
 			"**Prerequisite** extended range  ",
-			"**Associated Blasts** [Telekinetic Blast](kinetic/telekinetic_blast)  ",
+			"**Associated Blasts** {kinetic/Telekinetic Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You grab a large number of objects and throw them all at once. You can use your telekinetic blast to make attack rolls against a number of targets equal to your kineticist level within 120 feet, but no two targets can be more than 30 feet apart."
@@ -1319,7 +1319,7 @@
 			"",
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** air, fire, water; **Type** substance infusion; **Level** 2; **Burn** 2  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Cold Blast](kinetic/cold_blast), [Electric Blast](kinetic/electric_blast), [Fire Blast](kinetic/fire_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Cold Blast}, {kinetic/Electric Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"The intensity of your blasts allows you to break through your foes' resistances. Treat your foe's cold, electricity, or fire resistance as if it were 5 lower for the purpose of determining the infused blast's damage; this doesn't stack with the reduction from searing flame. You can increase the burn cost of this infusion to further reduce the foe's resistance against the infused blast by 5 per additional point of burn accepted. This has no effect on creatures with immunity."
@@ -1335,7 +1335,7 @@
 			"{SOURCE Ultimate Wilderness/24}  ",
 			"**Element** wood; **Type** substance infusion; **Level** 1; **Burn** 1  ",
 			"**Prerequisite** positive blast  ",
-			"**Associated Blasts** [Positive Blast](kinetic/positive_blast)  ",
+			"**Associated Blasts** {kinetic/Positive Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your blast damages living creatures with light. This deals normal damage to undead creatures but also deals minimum damage (1 point of damage per d6, can't be increased by the 9th-level improvement to metakinesis) to living creatures. Undead creatures that are particularly vulnerable to sunlight, such as vampires, take 1 extra point of damage per die from the infused blast."
@@ -1350,7 +1350,7 @@
 			"",
 			"{SOURCE Occult Origins/7}  ",
 			"**Element** void; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Gravity Blast](kinetic/gravity_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Gravity Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your kinetic blast pulls foes toward you. Attempt a drag combat maneuver check against each target damaged by your infused blast (the blast always drags the foe closer to you), using your Constitution modifier instead of your Strength modifier to determine your CMB. This infusion can pull a foe a maximum of 5 feet. You can increase the maximum distance pulled by 5 feet per additional point of burn accepted."
@@ -1365,7 +1365,7 @@
 			"",
 			"{SOURCE Occult Adventures/21}  ",
 			"**Element** fire; **Type** substance infusion; **Level** 7; **Burn** 4  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You open a direct conduit to the purest elemental fire and send it surging forth. Your infused blast ignores spell resistance."
@@ -1380,7 +1380,7 @@
 			"",
 			"{SOURCE Occult Adventures/21}  ",
 			"**Element** aether, air, earth, void, water, wood; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Air Blast](kinetic/air_blast), [Blizzard Blast](kinetic/blizzard_blast), [Charged Water Blast](kinetic/charged_water_blast), [Earth Blast](kinetic/earth_blast), [Gravity Blast](kinetic/gravity_blast), [Magma Blast](kinetic/magma_blast), [Metal Blast](kinetic/metal_blast), [Mud Blast](kinetic/mud_blast), [Sandstorm Blast](kinetic/sandstorm_blast), [Steam Blast](kinetic/steam_blast), [Telekinetic Blast](kinetic/telekinetic_blast), [Void Blast](kinetic/void_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Air Blast}, {kinetic/Blizzard Blast}, {kinetic/Charged Water Blast}, {kinetic/Earth Blast}, {kinetic/Gravity Blast}, {kinetic/Magma Blast}, {kinetic/Metal Blast}, {kinetic/Mud Blast}, {kinetic/Sandstorm Blast}, {kinetic/Steam Blast}, {kinetic/Telekinetic Blast}, {kinetic/Void Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"The momentum of your kinetic blast knocks foes back. Attempt a bull rush combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your bonus. This infusion can push a foe back by a maximum of 5 feet. You can increase the burn cost of this infusion to increase the maximum distance pushed by 5 feet per additional point of burn accepted. You can't use this infusion with a form infusion such as cloud that causes your kinetic blast to lack a clear direction to push."
@@ -1395,7 +1395,7 @@
 			"",
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** water; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Charged Water Blast](kinetic/charged_water_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Charged Water Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your blast puts out nonmagical fires as if they had been touched by a water elemental. If you increase the burn cost to 2 or reduce the damage to 0, it also dispels magical fires as if you were a water elemental with a number of Hit Dice equal to your kineticist level."
@@ -1410,7 +1410,7 @@
 			"",
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** earth; **Type** substance infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Metal Blast](kinetic/metal_blast)  ",
+			"**Associated Blasts** {kinetic/Metal Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You can control the properties of metal, allowing your metal blast to bypass damage reduction as if it were adamantine, cold iron, or silver (your choice). If your target has an unusual type of damage reduction that could be overcome with the correct type of metal (such as DR/gold), you can also select that metal for this purpose. The metal you create with this infusion crumbles away shortly thereafter and has no gp value."
@@ -1428,7 +1428,7 @@
 			"**Associated Blasts** any simple  ",
 			"**Saving Throw** Will negates",
 			"",
-			"When your blast kills a living creature, it helps shepherd the creature's soul to the Boneyard, warding against effects of spells that would attempt to restore the creature to life. Spellcasters attempting to bring the creature back from the dead using [raise dead](spell/raise_dead) or similar magic must succeed at a caster level check (DC = 11 + your kineticist level) or the spell fails and the material component is wasted."
+			"When your blast kills a living creature, it helps shepherd the creature's soul to the Boneyard, warding against effects of spells that would attempt to restore the creature to life. Spellcasters attempting to bring the creature back from the dead using {spell/raise dead} or similar magic must succeed at a caster level check (DC = 11 + your kineticist level) or the spell fails and the material component is wasted."
 		]
 	},
 	"singularity": {
@@ -1440,7 +1440,7 @@
 			"",
 			"{SOURCE Occult Origins/7}  ",
 			"**Element** void; **Type** form infusion; **Level** 4; **Burn** 3  ",
-			"**Associated Blasts** [Gravity Blast](kinetic/gravity_blast), [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Gravity Blast}, {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"You create a growing singularity. Choose a grid intersection within 30 feet. All creatures and objects in a 5-foot-radius burst centered on the intersection take 1/4 your blast's normal amount of damage (or half damage for a negative blast). On your next turn, the singularity deals damage in a 10-foot-radius burst, and on your turn after that, it deals damage in a 15-foot-radius burst. The DC is Dexterity-based."
@@ -1456,7 +1456,7 @@
 			"{SOURCE Psychic Anthology/21}  ",
 			"**Element** water; **Type** substance infusion; **Level** 2; **Burn** 2  ",
 			"**Prerequisite** slick  ",
-			"**Associated Blasts** [Blizzard Blast](kinetic/blizzard_blast), [Charged Water Blast](kinetic/charged_water_blast), [Cold Blast](kinetic/cold_blast), [Ice Blast](kinetic/ice_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Blizzard Blast}, {kinetic/Charged Water Blast}, {kinetic/Cold Blast}, {kinetic/Ice Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** Reflex negates",
 			"",
 			"Your blast leaves behind slippery water or ice in its area for as long as the blast is in that area and for 1 round thereafter, making the area difficult terrain and increasing the DC of Acrobatics checks attempted in the area by 5. You can use this infusion only if you also use a form infusion that has an area of effect."
@@ -1505,7 +1505,7 @@
 			"",
 			"{SOURCE Ultimate Wilderness/60;Psychic Anthology/21}  ",
 			"**Element** wood; **Type** substance infusion; **Level** 5; **Burn** 3  ",
-			"**Associated Blasts** [Autumn Blast](kinetic/autumn_blast), [Spring Blast](kinetic/spring_blast), [Summer Blast](kinetic/summer_blast), [Verdant Blast](kinetic/verdant_blast), [Winter Blast](kinetic/winter_blast), [Wood Blast](kinetic/wood_blast)  ",
+			"**Associated Blasts** {kinetic/Autumn Blast}, {kinetic/Spring Blast}, {kinetic/Summer Blast}, {kinetic/Verdant Blast}, {kinetic/Winter Blast}, {kinetic/Wood Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"Creatures that take piercing or slashing damage from your blast are infected with spores. If a target fails its Fortitude save, it takes 1d6 points of damage per round for 10 rounds as plants and fungi grow out of its body. At the end of that time, the target is exposed to the pulsing puffs disease. This infusion is a disease effect. When using a wood kinetic blast against a creature infected by this infusion, you gain a +2 bonus on attack rolls, to saving throw DCs, and on caster level checks to overcome spell resistance.",
@@ -1522,7 +1522,7 @@
 			"",
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** water; **Type** form infusion; **Level** 4; **Burn** 3  ",
-			"**Associated Blasts** [Charged Water Blast](kinetic/charged_water_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Charged Water Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"You diffuse your kinetic blast to spray out wildly. All creatures and objects in a 30-foot cone take half your normal amount of blast damage. The saving throw DC is Dexterity-based."
@@ -1541,7 +1541,7 @@
 			"**Associated Blasts** any  ",
 			"**Saving Throw** none",
 			"",
-			"When you learn this infusion, select an [unchained monk style strike](ability/style_strikes). You can use that style strike during a flurry of blows with your infused blast, though you must still follow the limitation of one style strike per flurry of blows (or two if you are a 15th-level [unchained monk](class/unchained_monk)). If you select flying kick, the distance is equal to your elemental overflow bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the kinetic fist form infusion.",
+			"When you learn this infusion, select an [unchained monk style strike](ability/style_strikes). You can use that style strike during a flurry of blows with your infused blast, though you must still follow the limitation of one style strike per flurry of blows (or two if you are a 15th-level {class/unchained monk}). If you select flying kick, the distance is equal to your elemental overflow bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the kinetic fist form infusion.",
 			"",
 			"Special: You can select this infusion multiple times. Each time, you must select a different style strike."
 		]
@@ -1555,7 +1555,7 @@
 			"",
 			"{SOURCE Psychic Anthology/21}  ",
 			"**Element** air; **Type** substance infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Electric Blast](kinetic/electric_blast), [Charged Water Blast](kinetic/charged_water_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Electric Blast}, {kinetic/Charged Water Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
 			"Your blast sends strange electric signals through the target's body, scrambling its synapses and causing it to become staggered for 1 round. The target is aware it can choose to take a move action to remove the staggered condition inflicted by this infusion. This infusion is a mind-affecting effect."
@@ -1570,7 +1570,7 @@
 			"",
 			"{SOURCE Psychic Anthology/21}  ",
 			"**Element** aether; **Type** form infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Telekinetic Blast](kinetic/telekinetic_blast)  ",
+			"**Associated Blasts** {kinetic/Telekinetic Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"This functions as telekinetic blast, except you maintain an elastic strand of aether attached to the object you throw. This allows you to pull it back to you after the attack and catch it if you have enough free hands (and assuming it is small enough for you to carry). This prevents the object from taking damage, but it also prevents you from loosening the strands of aether (see telekinetic blast). Alternatively, if the attack missed, on your next turn as a standard action, you can you can snap the elastic strand back to make another attack with the same substance infusion and metakinesis, as if using a normal telekinetic blast (at which point the object takes damage and doesn't return to you, and you can't try again)."
@@ -1585,7 +1585,7 @@
 			"",
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** air; **Type** substance infusion; **Level** 1; **Burn** 1  ",
-			"**Associated Blasts** [Electric Blast](kinetic/electric_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Electric Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"Your lightning brings with it a peal of thunder. Whenever your infused blast hits a foe and penetrates spell resistance, that foe becomes deafened, even if the blast doesn't deal damage."
@@ -1600,7 +1600,7 @@
 			"",
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** air, fire, water; **Type** form infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Air Blast](kinetic/air_blast), [Blizzard Blast](kinetic/blizzard_blast), [Blue Flame Blast](kinetic/blue_flame_blast), [Charged Water Blast](kinetic/charged_water_blast), [Fire Blast](kinetic/fire_blast), [Magma Blast](kinetic/magma_blast), [Mud Blast](kinetic/mud_blast), [Plasma Blast](kinetic/plasma_blast), [Sandstorm Blast](kinetic/sandstorm_blast), [Steam Blast](kinetic/steam_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Air Blast}, {kinetic/Blizzard Blast}, {kinetic/Blue Flame Blast}, {kinetic/Charged Water Blast}, {kinetic/Fire Blast}, {kinetic/Magma Blast}, {kinetic/Mud Blast}, {kinetic/Plasma Blast}, {kinetic/Sandstorm Blast}, {kinetic/Steam Blast}, {kinetic/Thunderstorm Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
 			"A torrent of energy buffets or burns all foes in a 30-foot line, dealing half your normal amount of blast damage (or full damage for energy blasts). The saving throw DC is Dexterity-based."
@@ -1618,7 +1618,7 @@
 			"",
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** substance infusion; **Level** 4; **Burn** 3  ",
-			"**Associated Blasts** [Autumn Blast](kinetic/autumn_blast), [Spring Blast](kinetic/spring_blast), [Summer Blast](kinetic/summer_blast), [Verdant Blast](kinetic/verdant_blast), [Winter Blast](kinetic/winter_blast), [Wood Blast](kinetic/wood_blast)  ",
+			"**Associated Blasts** {kinetic/Autumn Blast}, {kinetic/Spring Blast}, {kinetic/Summer Blast}, {kinetic/Verdant Blast}, {kinetic/Winter Blast}, {kinetic/Wood Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"The plants in your blast are mildly toxic. All creatures that take piercing or slashing damage from your blast are sickened for 1 round."
@@ -1637,7 +1637,7 @@
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** substance infusion; **Level** 7; **Burn** 4  ",
 			"**Prerequisite** toxic infusion  ",
-			"**Associated Blasts** [Autumn Blast](kinetic/autumn_blast), [Spring Blast](kinetic/spring_blast), [Summer Blast](kinetic/summer_blast), [Verdant Blast](kinetic/verdant_blast), [Winter Blast](kinetic/winter_blast), [Wood Blast](kinetic/wood_blast)  ",
+			"**Associated Blasts** {kinetic/Autumn Blast}, {kinetic/Spring Blast}, {kinetic/Summer Blast}, {kinetic/Verdant Blast}, {kinetic/Winter Blast}, {kinetic/Wood Blast}  ",
 			"**Saving Throw** Fortitude negates",
 			"",
 			"Your plant toxin is more virulent. Each time you use this infusion, choose a physical ability score. Creatures that take piercing or slashing damage from your blast are exposed to your poison.",
@@ -1654,7 +1654,7 @@
 			"",
 			"{SOURCE Psychic Anthology/21}  ",
 			"**Element** earth; **Type** form infusion; **Level** 5; **Burn** 3  ",
-			"**Associated Blasts** [Earth Blast](kinetic/earth_blast)  ",
+			"**Associated Blasts** {kinetic/Earth Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"You send a tremor through the ground or other solid surface with which you are in contact, allowing you to affect a burrowing or incorporeal creature within that same surface with a normal kinetic blast. This infusion doesn't allow you to attack creatures above the ground if you are burrowing or to ignore total cover provided by factors other than burrowing."
@@ -1670,7 +1670,7 @@
 			"{SOURCE Plane-Hopper's Handbook/8}  ",
 			"**Element** void, wood; **Type** substance infusion; **Level** 4; **Burn** 3  ",
 			"**Prerequisite** duskwalker, or [Planar Infusion (Boneyard)](feat/planar_infusion)  ",
-			"**Associated Blasts** [Positive Blast](kinetic/positive_blast), [Negative Blast](kinetic/negative_blast)  ",
+			"**Associated Blasts** {kinetic/Positive Blast}, {kinetic/Negative Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
 			"Undead that take damage from a turning blast must succeed at a Will save or flee for 1 round. An undead creature that succeeds at its saving throw against a turning blast is immune to this effect for 24 hours."
@@ -1686,10 +1686,10 @@
 			"{SOURCE Martial Arts Handbook/30}  ",
 			"**Element** fire; **Type** substance infusion; **Level** 5; **Burn** 3  ",
 			"**Prerequisite** kinetic fist, member of the Monastery of Unblinking Flame  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"The flame of your infused blast illuminates and reveals the target as it really is. If you hit the target with an unarmed strike with the infused blast, creatures can see the target as if using [true seeing](spell/true_seeing) for 1 round, although only the target is revealed in this way. You can use this infusion only while also using the kinetic fist form infusion."
+			"The flame of your infused blast illuminates and reveals the target as it really is. If you hit the target with an unarmed strike with the infused blast, creatures can see the target as if using {spell/true seeing} for 1 round, although only the target is revealed in this way. You can use this infusion only while also using the kinetic fist form infusion."
 		]
 	},
 	"unbreaking_waves_infusion": {
@@ -1702,7 +1702,7 @@
 			"{SOURCE Martial Arts Handbook/30}  ",
 			"**Element** water; **Type** substance infusion; **Level** 5; **Burn** 3  ",
 			"**Prerequisite** kinetic fist, member of the Monastery of Unbreaking Waves (Pathfinder Society Scenario #9-24: Beneath Unbroken Waves)  ",
-			"**Associated Blasts** [Ice Blast](kinetic/ice_blast), [Water Blast](kinetic/water_blast)  ",
+			"**Associated Blasts** {kinetic/Ice Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your infused blast buffets and redirects enemies with waves. Attempt a reposition or trip combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your combat maneuver bonus. You can use this infusion only while also using the kinetic fist form infusion."
@@ -1718,7 +1718,7 @@
 			"{SOURCE Martial Arts Handbook/30}  ",
 			"**Element** air; **Type** substance infusion; **Level** 5; **Burn** 3  ",
 			"**Prerequisite** kinetic fist, member of the Monastery of Unfolding Wind  ",
-			"**Associated Blasts** [Air Blast](kinetic/air_blast), [Thunderstorm Blast](kinetic/thunderstorm_blast)  ",
+			"**Associated Blasts** {kinetic/Air Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Unfolding winds carry you along. Before your first attack and again after each unarmed strike with the infused blast, you can move 5 feet without provoking attacks of opportunity. You can use this infusion only while also using the kinetic fist form infusion."
@@ -1733,7 +1733,7 @@
 			"",
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** void; **Type** substance infusion; **Level** 3; **Burn** 2  ",
-			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
 			"Your kinetic blast sends the fear of oblivion into your foes. Whenever an infused blast deals negative energy damage to a living foe, it is shaken for 1 round. This shaken condition doesn't stack with itself."
@@ -1748,7 +1748,7 @@
 			"",
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** fire; **Type** substance infusion; **Level** 5; **Burn** 3  ",
-			"**Associated Blasts** [Blue Flame Blast](kinetic/blue_flame_blast), [Fire Blast](kinetic/fire_blast)  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your kinetic blast burns so hot that it melts away your foe's magical effects. Whenever your infused blast hits a foe and penetrates its spell resistance, you can attempt a caster level check as if using a targeted dispel magic before determining whether the foe takes damage from the blast. You can choose to reduce the blast's damage by half to increase your bonus on the caster level check by 2. If you don't choose a specific spell effect to attempt to dispel, you automatically attempt to dispel effects that would protect the target from fire damage before other spells."
@@ -1764,7 +1764,7 @@
 			"{SOURCE Martial Arts Handbook/30}  ",
 			"**Element** earth; **Type** substance infusion; **Level** 5; **Burn** 3  ",
 			"**Prerequisite** kinetic fist, member of the Monastery of Untwisting Iron  ",
-			"**Associated Blasts** [Earth Blast](kinetic/earth_blast), [Metal Blast](kinetic/metal_blast)  ",
+			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Metal Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Each time you hit a foe with an unarmed strike with your infused blast, increase your DR/adamantine from flesh of stone by 1 until the start of your next turn. You can use this infusion only while also using the kinetic fist form infusion."
@@ -1780,7 +1780,7 @@
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** void; **Type** substance infusion; **Level** 5; **Burn** 3  ",
 			"**Prerequisite** void healer  ",
-			"**Associated Blasts** [Negative Blast](kinetic/negative_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** none",
 			"",
 			"Your kinetic blast can drain your foes' vitality to replenish your own. If your blast hits (or the enemy fails its saving throw against a blast without an attack roll), you can activate the void healer utility wild talent on yourself by accepting its burn cost; you don't need to take an action to do so. The void healer utility wild talent heals you when used in this way even if you are a living creature."
@@ -1798,7 +1798,7 @@
 			"**Prerequisite** venom speaker  ",
 			"**Saving Throw** see text",
 			"",
-			"You can infuse your kinetic blast with poison. To use this infusion, you must be holding a dose of poison or have at least one use of a feat or racial trait that produces poison (such as the [Spit Venom](feat/spit_venom) feat or the toxic skin [grippli](race/grippli) alternate racial trait). One dose of poison or one use of your feat or racial trait is consumed if applicable, and creatures damaged by the infused blast are affected by the poison. Use the same type, save, save DC, frequency, effect, and cure as the consumed poison."
+			"You can infuse your kinetic blast with poison. To use this infusion, you must be holding a dose of poison or have at least one use of a feat or racial trait that produces poison (such as the {feat/Spit Venom} feat or the toxic skin {race/grippli} alternate racial trait). One dose of poison or one use of your feat or racial trait is consumed if applicable, and creatures damaged by the infused blast are affected by the poison. Use the same type, save, save DC, frequency, effect, and cure as the consumed poison."
 		]
 	},
 	"venom_infusion": {
@@ -1830,7 +1830,7 @@
 			"**Associated Blasts** any simple or composite  ",
 			"**Saving Throw** Fortitude negates",
 			"",
-			"This talent functions as the [greater toxic infusion](kinetic/greater_toxic_infusion) wild talent, except it affects any creature that takes any type of damage from the blast."
+			"This talent functions as the {kinetic/greater toxic infusion} wild talent, except it affects any creature that takes any type of damage from the blast."
 		]
 	},
 	"wall": {
@@ -1857,7 +1857,7 @@
 			"",
 			"{SOURCE Psychic Anthology/21}  ",
 			"**Element** void; **Type** substance infusion; **Level** 2; **Burn** 2  ",
-			"**Associated Blasts** [Gravity Blast](kinetic/gravity_blast), [Void Blast](kinetic/void_blast)  ",
+			"**Associated Blasts** {kinetic/Gravity Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** Reflex negates",
 			"",
 			"This infusion functions as entangling infusion, except it entangles and immobilizes a foe by increasing its weight, rather than surrounding it in elemental matter."
@@ -1890,7 +1890,7 @@
 			"**Element** void; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
 			"**Prerequisite** emptiness",
 			"",
-			"You are always under the effect of [nondetection](spell/nondetection) as if you had cast it on yourself. If the effect is dispelled, you can call if forth again as a standard action. You can accept 1 point of burn to grant a creature touched the effects of nondetection."
+			"You are always under the effect of {spell/nondetection} as if you had cast it on yourself. If the effect is dispelled, you can call if forth again as a standard action. You can accept 1 point of burn to grant a creature touched the effects of nondetection."
 		]
 	},
 	"aerial_adaptation": {
@@ -1943,7 +1943,7 @@
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 5; **Burn** 0",
 			"",
-			"You use strands of aether to animate an object. You can animate a Medium or smaller object as an [animated object](monster/animated_object) with no Construction Point abilities (except for stone or metal [common], if the object is constructed of one of those materials). Each round on your turn, you must take a move action to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions. At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability. At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object. At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the metal (mithral) ability if the object is made of mithral. At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the metal (adamantine) ability if the object is made of adamantine."
+			"You use strands of aether to animate an object. You can animate a Medium or smaller object as an {monster/animated object} with no Construction Point abilities (except for stone or metal [common], if the object is constructed of one of those materials). Each round on your turn, you must take a move action to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions. At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability. At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object. At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the metal (mithral) ability if the object is made of mithral. At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the metal (adamantine) ability if the object is made of adamantine."
 		]
 	},
 	"air_cushion": {
@@ -2024,7 +2024,7 @@
 			"**Prerequisite** kinetic healer wild talent, aasimar or [Planar Infusion (Elysium, Heaven, Nirvana)](feat/planar_infusion)  ",
 			"**Saving Throw** none; **SR** none",
 			"",
-			"When you use kinetic healer, the target of the healing gains the benefits of [protection from evil](spell/protection_from_evil) for 1 round."
+			"When you use kinetic healer, the target of the healing gains the benefits of {spell/protection from evil} for 1 round."
 		]
 	},
 	"basic_aerokinesis": {
@@ -2176,7 +2176,7 @@
 			"**Element** earth; **Type** utility (Su); **Level** 3; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the [winding ability of the clockwork subtype](subtype/clockwork)), you gain the benefits of both the [Improved Initiative](feat/improved_initiative) and [Lightning Reflexes](feat/lightning_reflexes) feats."
+			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the [winding ability of the clockwork subtype](subtype/clockwork)), you gain the benefits of both the {feat/Improved Initiative} and {feat/Lightning Reflexes} feats."
 		]
 	},
 	"clockwork_puppet": {
@@ -2190,7 +2190,7 @@
 			"**Element** earth; **Type** utility (Su); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You can weave metal into clockwork parts, creating clockwork constructs to attack your foes. This functions as the [aether puppet](kinetic/aether_puppet) wild talent, except the object animated gains the clockwork subtype and cannot have the stone Construction Point ability."
+			"You can weave metal into clockwork parts, creating clockwork constructs to attack your foes. This functions as the {kinetic/aether puppet} wild talent, except the object animated gains the clockwork subtype and cannot have the stone Construction Point ability."
 		]
 	},
 	"cold_adaptation": {
@@ -2356,7 +2356,7 @@
 			"**Element** universal; **Type** utility (Sp); **Level** 8; **Burn** 1  ",
 			"**Saving Throw** Will negates; **SR** yes",
 			"",
-			"You transport a single creature you touch to the plane associated with your element. Precise accuracy regarding a particular arrival location on the intended plane is almost impossible. The creature appears 5 to 500 miles (5d%) from your intended destination. Elemental exile transports creatures instantaneously and then ends. The creature must find other means to travel back (such as casting [plane shift](spell/plane_shift) or using elemental exile again)."
+			"You transport a single creature you touch to the plane associated with your element. Precise accuracy regarding a particular arrival location on the intended plane is almost impossible. The creature appears 5 to 500 miles (5d%) from your intended destination. Elemental exile transports creatures instantaneously and then ends. The creature must find other means to travel back (such as casting {spell/plane shift} or using elemental exile again)."
 		]
 	},
 	"elemental_grip": {
@@ -2397,7 +2397,7 @@
 			"{SOURCE Horror Adventures/57}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0",
 			"",
-			"You form a friendship with a fragment of your element. The element speaks back to you empathically, like a familiar. Pick a type of creature usually allowed as a familiar when you gain this wild talent. You gain the [Alertness](feat/alertness) feat and the special abilities granted by a familiar of that type. As a standard action, you can give the voice of the element the body of such a creature, using elemental matter of the appropriate element within 30 feet. As long as you concentrate, the familiar can take actions as a normal animal of its type, and it can move any distance away from you, though if it takes any damage or you cease concentrating, it returns to your mind. You lose Alertness while the familiar is manifested in this way. The familiar gains abilities as usual for a familiar of its type, though it never gains the ability to speak with animals of its kind."
+			"You form a friendship with a fragment of your element. The element speaks back to you empathically, like a familiar. Pick a type of creature usually allowed as a familiar when you gain this wild talent. You gain the {feat/Alertness} feat and the special abilities granted by a familiar of that type. As a standard action, you can give the voice of the element the body of such a creature, using elemental matter of the appropriate element within 30 feet. As long as you concentrate, the familiar can take actions as a normal animal of its type, and it can move any distance away from you, though if it takes any damage or you cease concentrating, it returns to your mind. You lose Alertness while the familiar is manifested in this way. The familiar gains abilities as usual for a familiar of its type, though it never gains the ability to speak with animals of its kind."
 		]
 	},
 	"greater_elemental_whispers": {
@@ -2411,7 +2411,7 @@
 			"**Element** universal; **Type** utility (Su); **Level** 3; **Burn** 0  ",
 			"**Prerequisite** elemental whispers",
 			"",
-			"Your friendship with the elements has grown. You gain your choice of a wysp or Small elemental of your primary element as an improved familiar, without needing to meet any of the usual prerequisites for gaining such a familiar. Unlike with elemental whispers, this improved familiar acts in all ways like a familiar: it's always manifested, it has hit points equal to 1/2 your own, and so on. You no longer receive the familiar benefits from the original creature you selected. If your improved familiar dies, you can still contact its voice in your mind and gain the [Alertness](feat/alertness) feat, but you can't cause it to manifest. If you pay the usual costs for replacing a familiar, you manifest a new form for your elemental friend."
+			"Your friendship with the elements has grown. You gain your choice of a wysp or Small elemental of your primary element as an improved familiar, without needing to meet any of the usual prerequisites for gaining such a familiar. Unlike with elemental whispers, this improved familiar acts in all ways like a familiar: it's always manifested, it has hit points equal to 1/2 your own, and so on. You no longer receive the familiar benefits from the original creature you selected. If your improved familiar dies, you can still contact its voice in your mind and gain the {feat/Alertness} feat, but you can't cause it to manifest. If you pay the usual costs for replacing a familiar, you manifest a new form for your elemental friend."
 		]
 	},
 	"enduring_earth": {
@@ -2710,9 +2710,9 @@
 			"",
 			"{SOURCE Wilderness Origins/29}  ",
 			"**Element** fire; **Type** utility (Sp); **Level** 8; **Burn** 0  ",
-			"**Prerequisite** [fire steed](kinetic/fire_steed), [improved fire steed](kinetic/improved_fire_steed)",
+			"**Prerequisite** {kinetic/fire steed}, {kinetic/improved fire steed}",
 			"",
-			"When using [fire steed](kinetic/fire_steed), the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a run action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a Ride check."
+			"When using {kinetic/fire steed}, the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a run action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a Ride check."
 		]
 	},
 	"green_tongue": {
@@ -2761,7 +2761,7 @@
 			"{SOURCE Ultimate Wilderness/59;Occult Origins/8}  ",
 			"**Element** wood; **Type** utility (Su); **Level** 4; **Burn** 0",
 			"",
-			"You can see through plant material as if you had [greensight](umr/greensight) as per the universal monster rule with a range of 60 feet."
+			"You can see through plant material as if you had {umr/greensight} as per the universal monster rule with a range of 60 feet."
 		]
 	},
 	"healing_burst": {
@@ -2891,9 +2891,9 @@
 			"",
 			"{SOURCE Wilderness Origins/29}  ",
 			"**Element** fire; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** [fire steed](kinetic/fire_steed)",
+			"**Prerequisite** {kinetic/fire steed}",
 			"",
-			"When using [fire steed](kinetic/fire_steed), the mount's fire resistance increases to 20 and its speed increases by an additional 10 feet. The mount can move over lava without difficulty or a decrease in speed."
+			"When using {kinetic/fire steed}, the mount's fire resistance increases to 20 and its speed increases by an additional 10 feet. The mount can move over lava without difficulty or a decrease in speed."
 		]
 	},
 	"infernal_bargain": {
@@ -2908,7 +2908,7 @@
 			"**Prerequisite** tiefling or [Planar Infusion (Hell)](feat/planar_infusion)  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
-			"As a swift action before using a utility talent on a willing target, you can add the effects of [conditional favor](spell/conditional_favor), except that it applies to any beneficial utility talent instead of to spells of certain schools."
+			"As a swift action before using a utility talent on a willing target, you can add the effects of {spell/conditional favor}, except that it applies to any beneficial utility talent instead of to spells of certain schools."
 		]
 	},
 	"jagged_flesh": {
@@ -2935,7 +2935,7 @@
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0",
 			"",
-			"You create a terrifying display of elemental power. This ability functions as [Dazzling Display](feat/dazzling_display), except you can use this ability as a standard action and you add half your kineticist level as a bonus on your Intimidate check if you've used gather power during the same round; doing so expends the gathered power. This ability otherwise counts as the [Dazzling Display](feat/dazzling_display) feat; feats and other effects which affect [Dazzling Display](feat/dazzling_display) (such as [Shatter Defenses](feat/shatter_defenses)) apply to it, and it counts as [Dazzling Display](feat/dazzling_display) for the purpose of meeting combat feat prerequisites."
+			"You create a terrifying display of elemental power. This ability functions as {feat/Dazzling Display}, except you can use this ability as a standard action and you add half your kineticist level as a bonus on your Intimidate check if you've used gather power during the same round; doing so expends the gathered power. This ability otherwise counts as the {feat/Dazzling Display} feat; feats and other effects which affect {feat/Dazzling Display} (such as {feat/Shatter Defenses}) apply to it, and it counts as {feat/Dazzling Display} for the purpose of meeting combat feat prerequisites."
 		]
 	},
 	"kinetic_cover": {
@@ -2960,7 +2960,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0  ",
-			"**Prerequisite** [wayang](race/wayang), chosen racial trait",
+			"**Prerequisite** {race/wayang}, chosen racial trait",
 			"",
 			"Choose either the dissolution's child alternate racial trait or the light and dark racial trait. You can use the chosen racial trait by accepting 1 point of burn, even if you have no daily uses of that racial trait remaining."
 		]
@@ -3020,7 +3020,7 @@
 			"",
 			"You can bring an ally who died within 1 round back from the dead with your kinetic healer wild talent similarly to the breath of life spell, except the ally regains the normal number of hit points from the kinetic healer utility wild talent instead of the amount healed by breath of life. An ally revived in this way takes 1 point of burn + any points of burn from the kinetic healer utility wild talent (if you choose to have the ally take points of burn instead of taking it yourself).",
 			"",
-			"If you have the metahealer ability (such as from the [kinetic chirurgeon](archetype-kineticist/kinetic_chirurgeon) kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
+			"If you have the metahealer ability (such as from the {archetype-kineticist/kinetic chirurgeon} kineticist archetype), this feat instead allows you to bring an ally back who died within a number of rounds equal to 3 + the ally's Constitution modifier (minimum 0) - the number of points of burn the ally had taken before it died. For each round that the ally was dead, when it is brought back to life in this way, it takes 1 additional point of burn + any points of burn from the kinetic healer talent."
 		]
 	},
 	"living_capacitor": {
@@ -3091,7 +3091,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0  ",
-			"**Prerequisite** [nagaji](race/nagaji)",
+			"**Prerequisite** {race/nagaji}",
 			"",
 			"You gain the hypnotic gaze nagaji alternate racial trait. If you already have this trait, add +1 to the trait's save DC instead. You can use the hypnotic gaze racial trait by accepting 1 point of burn, even if you have no daily uses of that racial trait remaining."
 		]
@@ -3105,9 +3105,9 @@
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0  ",
-			"**Prerequisite** [kitsune](race/kitsune)",
+			"**Prerequisite** {race/kitsune}",
 			"",
-			"You can cast a spell-like ability granted to you by any [Magical Tail](feat/magical_tail) feat you have by accepting 1 point of burn, even if you have no daily uses of that spell-like ability remaining. You must be able to use wild talents of a level equal to the number of extra tails required to use a spell-like ability granted by a [Magical Tail](feat/magical_tail) feat to use this ability to cast that spell-like ability (for example, you would need to be 15th level and able to use 8th-level wild talents to use this talent to cast the [dominate person](spell/dominate_person) spell-like ability granted by [Magical Tail](feat/magical_tail)). In addition, you can learn a [Magical Tail](feat/magical_tail) feat that you qualify for in place of gaining a new infusion or utility wild talent."
+			"You can cast a spell-like ability granted to you by any {feat/Magical Tail} feat you have by accepting 1 point of burn, even if you have no daily uses of that spell-like ability remaining. You must be able to use wild talents of a level equal to the number of extra tails required to use a spell-like ability granted by a {feat/Magical Tail} feat to use this ability to cast that spell-like ability (for example, you would need to be 15th level and able to use 8th-level wild talents to use this talent to cast the {spell/dominate person} spell-like ability granted by {feat/Magical Tail}). In addition, you can learn a {feat/Magical Tail} feat that you qualify for in place of gaining a new infusion or utility wild talent."
 		]
 	},
 	"no_breath": {
@@ -3121,7 +3121,7 @@
 			"**Element** void; **Type** utility (Su); **Level** 2; **Burn** 0  ",
 			"**Prerequisite** emptiness",
 			"",
-			"You gain [no breath](umr/no_breath), as per the universal monster ability, and you can survive in the vacuum of space."
+			"You gain {umr/no breath}, as per the universal monster ability, and you can survive in the vacuum of space."
 		]
 	},
 	"past_life_evoker": {
@@ -3133,7 +3133,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 2; **Burn** 0  ",
-			"**Prerequisite** [samsaran](race/samsaran)",
+			"**Prerequisite** {race/samsaran}",
 			"",
 			"Once per day, you can accept 1 point of burn to choose one simple blast wild talent belonging to any element. You gain the chosen simple blast wild talent for 1 minute, using your kineticist level - 2 to determine the blast talent's damage. The simple blast wild talent you gain in this way does not allow you to meet any prerequisites."
 		]
@@ -3232,7 +3232,7 @@
 			"{SOURCE Wilderness Origins/29}  ",
 			"**Element** fire; **Type** utility (Sp); **Level** 4; **Burn** 1",
 			"",
-			"You use fire to burn poison from within a creature's veins. You must attempt a caster level check (1d20 + your kineticist level) against the DC of each poison affecting the target. Success means that the poison is neutralized, as [neutralize poison](spell/neutralize_poison). When you attempt to neutralize poison in this way, you can choose to deal a number of points of fire damage to the poisoned creature equal to the amount of damage you normally take from accepting burn in order to reduce the DC of one poison affecting the target by 2. This reduction remains until the end of your next turn."
+			"You use fire to burn poison from within a creature's veins. You must attempt a caster level check (1d20 + your kineticist level) against the DC of each poison affecting the target. Success means that the poison is neutralized, as {spell/neutralize poison}. When you attempt to neutralize poison in this way, you can choose to deal a number of points of fire damage to the poisoned creature equal to the amount of damage you normally take from accepting burn in order to reduce the DC of one poison affecting the target by 2. This reduction remains until the end of your next turn."
 		]
 	},
 	"reverse_shift": {
@@ -3428,7 +3428,7 @@
 			"**Element** air; **Type** utility (Su); **Level** 7; **Burn** 1  ",
 			"**Prerequisite** air cushon or air's leap, wings of air",
 			"",
-			"By accepting 1 point of burn, you can enable your allies to fly, as [mass fly](spell/mass_fly), except the duration of the effect is 10 minutes."
+			"By accepting 1 point of burn, you can enable your allies to fly, as {spell/mass fly}, except the duration of the effect is 10 minutes."
 		]
 	},
 	"slick": {
@@ -3470,7 +3470,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You shape metal into a clockwork creature, as [spark of life](kinetic/spark_of_life) except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the [greater elemental whispers](kinetic/greater_elemental_whispers) utility wild talent, you can take a [clockwork familiar](monster/clockwork_familiar) as an improved familiar with that ability instead of an earth elemental."
+			"You shape metal into a clockwork creature, as {kinetic/spark of life} except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the {kinetic/greater elemental whispers} utility wild talent, you can take a {monster/clockwork familiar} as an improved familiar with that ability instead of an earth elemental."
 		]
 	},
 	"spark_of_life": {
@@ -3511,7 +3511,7 @@
 			"**Prerequisite** tiefling or [Planar Infusion (Abaddon, Abyss, or Hell)](feat/planar_infusion)  ",
 			"**Saving Throw** Will negates; **SR** yes",
 			"",
-			"You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as [modify memory](spell/modify_memory), except that it can only eliminate memories."
+			"You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as {spell/modify memory}, except that it can only eliminate memories."
 		]
 	},
 	"spying_touchsight": {
@@ -3645,7 +3645,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0  ",
-			"**Prerequisite** [tengu](race/tengu)",
+			"**Prerequisite** {race/tengu}",
 			"",
 			"Whenever you use kinetic blade or an infusion that lists kinetic blade as a prerequisite, the weapon you create counts as having one of the following weapon special features of your choice: blocking, brace, deadly, disarm, distracting, sunder, or trip."
 		]
@@ -3830,7 +3830,7 @@
 			"**Element** air; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
 			"**Prerequisite** voice of the wind",
 			"",
-			"Your voice of the wind ability gains both power and finesse. You can use voice of the wind to create unusual sounds, as ghost sound, to throw your voice, as [ventriloquism](spell/ventriloquism), and even to alter your voice, as vocal alteration. You can send messages at a much greater distance than before and at a faster rate. When using voice of the wind's whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
+			"Your voice of the wind ability gains both power and finesse. You can use voice of the wind to create unusual sounds, as ghost sound, to throw your voice, as {spell/ventriloquism}, and even to alter your voice, as vocal alteration. You can send messages at a much greater distance than before and at a faster rate. When using voice of the wind's whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
 		]
 	},
 	"void_healer": {
@@ -3843,7 +3843,7 @@
 			"{SOURCE Occult Origins/7}  ",
 			"**Element** void; **Type** utility (Sp); **Level** 1; **Burn** 1",
 			"",
-			"This functions as [kinetic healer](kinetic/kinetic_healer), except it heals undead (and others healed by negative energy)."
+			"This functions as {kinetic/kinetic healer}, except it heals undead (and others healed by negative energy)."
 		]
 	},
 	"warp_wood": {

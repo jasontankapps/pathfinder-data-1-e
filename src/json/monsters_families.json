@@ -10,15 +10,15 @@
 		"name": "Aeon",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Agnoia](monster/agnoia)",
-			"- [Akhana](monster/akhana)",
-			"- [Bythos](monster/bythos)",
-			"- [Lipika](monster/lipika)",
-			"- [Othaos](monster/othaos)",
-			"- [Paracletus](monster/paracletus)",
-			"- [Pleroma](monster/pleroma)",
-			"- [Synesis](monster/synesis)",
-			"- [Theletos](monster/theletos)"
+			"- {monster/Agnoia}",
+			"- {monster/Akhana}",
+			"- {monster/Bythos}",
+			"- {monster/Lipika}",
+			"- {monster/Othaos}",
+			"- {monster/Paracletus}",
+			"- {monster/Pleroma}",
+			"- {monster/Synesis}",
+			"- {monster/Theletos}"
 		],
 		"description": [
 			"## Aeon",
@@ -54,20 +54,20 @@
 		"name": "Agathion",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Avoral](monster/avoral)",
-			"- [Bishop Agathion](monster/bishop_agathion)",
-			"- [Cervapral](monster/cervapral)",
-			"- [Cervinal](monster/cervinal)",
-			"- [Cetaceal](monster/cetaceal)",
-			"- [Chelonidal](monster/chelonidal)",
-			"- [Draconal](monster/draconal)",
-			"- [Leonal](monster/leonal)",
-			"- [Muldnal](monster/muldnal)",
-			"- [Mustelidal](monster/mustelidal)",
-			"- [Procyal](monster/procyal)",
-			"- [Reptial](monster/reptial)",
-			"- [Silvanshee](monster/silvanshee)",
-			"- [Vulpinal](monster/vulpinal)"
+			"- {monster/Avoral}",
+			"- {monster/Bishop Agathion}",
+			"- {monster/Cervapral}",
+			"- {monster/Cervinal}",
+			"- {monster/Cetaceal}",
+			"- {monster/Chelonidal}",
+			"- {monster/Draconal}",
+			"- {monster/Leonal}",
+			"- {monster/Muldnal}",
+			"- {monster/Mustelidal}",
+			"- {monster/Procyal}",
+			"- {monster/Reptial}",
+			"- {monster/Silvanshee}",
+			"- {monster/Vulpinal}"
 		],
 		"description": [
 			"## Agathion",
@@ -102,12 +102,12 @@
 		"name": "Alghollthu",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Aboleth](monster/aboleth)",
-			"- [Enisysian](monster/enisysian)",
-			"- [Omnipath](monster/omnipath)",
-			"- [Plizeazoth](monster/plizeazoth)",
-			"- [Thalassic Architect](monster/thalassic_architect)",
-			"- [Veiled Master](monster/veiled_master)"
+			"- {monster/Aboleth}",
+			"- {monster/Enisysian}",
+			"- {monster/Omnipath}",
+			"- {monster/Plizeazoth}",
+			"- {monster/Thalassic Architect}",
+			"- {monster/Veiled Master}"
 		],
 		"description": [
 			"## Alghollthu",
@@ -121,20 +121,20 @@
 		"name": "Angel",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Astral Deva](monster/astral_deva)",
-			"- [Balisse](monster/balisse)",
-			"- [Cassisian](monster/cassisian)",
-			"- [Choral](monster/choral)",
-			"- [Dapsara](monster/dapsara)",
-			"- [Empyrean](monster/empyrean)",
-			"- [Erelim](monster/erelim)",
-			"- [Iophanite](monster/iophanite)",
-			"- [Kuribu](monster/kuribu)",
-			"- [Monadic Deva](monster/monadic_deva)",
-			"- [Movanic Deva](monster/movanic_deva)",
-			"- [Ninkonda](monster/ninkonda)",
-			"- [Planetar](monster/planetar)",
-			"- [Solar](monster/solar)"
+			"- {monster/Astral Deva}",
+			"- {monster/Balisse}",
+			"- {monster/Cassisian}",
+			"- {monster/Choral}",
+			"- {monster/Dapsara}",
+			"- {monster/Empyrean}",
+			"- {monster/Erelim}",
+			"- {monster/Iophanite}",
+			"- {monster/Kuribu}",
+			"- {monster/Monadic Deva}",
+			"- {monster/Movanic Deva}",
+			"- {monster/Ninkonda}",
+			"- {monster/Planetar}",
+			"- {monster/Solar}"
 		],
 		"description": [
 			"## Angel",
@@ -181,14 +181,14 @@
 		"name": "Archdevil",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Baalzebul](monster/baalzebul)",
-			"- [Barbatos](monster/barbatos)",
-			"- [Belial](monster/belial)",
-			"- [Dispater](monster/dispater)",
-			"- [Geryon](monster/geryon)",
-			"- [Mammon](monster/mammon)",
-			"- [Mephistopheles](monster/mephistopheles)",
-			"- [Moloch](monster/moloch)"
+			"- {monster/Baalzebul}",
+			"- {monster/Barbatos}",
+			"- {monster/Belial}",
+			"- {monster/Dispater}",
+			"- {monster/Geryon}",
+			"- {monster/Mammon}",
+			"- {monster/Mephistopheles}",
+			"- {monster/Moloch}"
 		],
 		"description": [
 			"## Archdevil",
@@ -199,28 +199,28 @@
 			"",
 			"Below the ranks of true archdevils are Hell's infernal dukes. These infernal nobles have the potential for power equal to some of the archdevils, but without a layer of Hell under their rule, they cannot truly be counted the equal of an archdevil. An infernal duke can rise in power by gaining class levels, advancing in Hit Dice, gaining mythic ranks, undertaking a vile ritual, amassing a sufficiently large and devoted following, or, rarely, at the leave of their blasphemous lords. However, until Asmodeus sees fit to award an infernal duke its own layer of Hell (to replace a fallen archdevil or one being punished via demotion to infernal duke), such a devil is not itself an archdevil. It should be noted that as scions of law, infernal dukes and archdevils remain loyal to Asmodeus and Hell, though they might resort to trickery and subterfuge to bolster their own resources and reputations. Those who are not loyal are quickly and inevitably revealed as traitors and punished accordingly by the Prince of Darkness. There can be any number of infernal dukes in Hell, but as Asmodeus himself rules the ninth layer of Hell, only eight archdevils can exist at any one time.",
 			"",
-			"An archdevil can be contacted via [commune](spell/commune) or [contact other plane](spell/contact_other_plane), and can be conjured via a [gate](spell/gate) spell, but when so called, an archdevil is under no compulsion to come through the gate. Typically, an archdevil requires an enormous and significant offering or sacrifice before it deigns to answer a gate spell."
+			"An archdevil can be contacted via {spell/commune} or {spell/contact other plane}, and can be conjured via a {spell/gate} spell, but when so called, an archdevil is under no compulsion to come through the gate. Typically, an archdevil requires an enormous and significant offering or sacrifice before it deigns to answer a gate spell."
 		]
 	},
 	"archon": {
 		"name": "Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Bastion Archon](monster/bastion_archon)",
-			"- [Codex Archon](monster/codex_archon)",
-			"- [Exscinder](monster/exscinder)",
-			"- [Gate Archon](monster/gate_archon)",
-			"- [Hammer Archon](monster/hammer_archon)",
-			"- [Harbinger Archon](monster/harbinger_archon)",
-			"- [Hound Archon](monster/hound_archon)",
-			"- [Lantern Archon](monster/lantern_archon)",
-			"- [Legion Archon](monster/legion_archon)",
-			"- [Preceptor Archon](monster/preceptor_archon)",
-			"- [Shield Archon](monster/shield_archon)",
-			"- [Spyglass Archon](monster/spyglass_archon)",
-			"- [Stag Archon](monster/stag_archon)",
-			"- [Star Archon](monster/star_archon)",
-			"- [Trumpet Archon](monster/trumpet_archon)"
+			"- {monster/Bastion Archon}",
+			"- {monster/Codex Archon}",
+			"- {monster/Exscinder}",
+			"- {monster/Gate Archon}",
+			"- {monster/Hammer Archon}",
+			"- {monster/Harbinger Archon}",
+			"- {monster/Hound Archon}",
+			"- {monster/Lantern Archon}",
+			"- {monster/Legion Archon}",
+			"- {monster/Preceptor Archon}",
+			"- {monster/Shield Archon}",
+			"- {monster/Spyglass Archon}",
+			"- {monster/Stag Archon}",
+			"- {monster/Star Archon}",
+			"- {monster/Trumpet Archon}"
 		],
 		"description": [
 			"## Archon",
@@ -253,15 +253,15 @@
 		"name": "Asura",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Adhukait](monster/adhukait)",
-			"- [Aghasura](monster/aghasura)",
-			"- [Asurendra](monster/asurendra)",
-			"- [Hishandura](monster/hishandura)",
-			"- [Japalisura](monster/japalisura)",
-			"- [Nikaramsa](monster/nikaramsa)",
-			"- [Tripurasura](monster/tripurasura)",
-			"- [Upasunda](monster/upasunda)",
-			"- [Vayuphak](monster/vayuphak)"
+			"- {monster/Adhukait}",
+			"- {monster/Aghasura}",
+			"- {monster/Asurendra}",
+			"- {monster/Hishandura}",
+			"- {monster/Japalisura}",
+			"- {monster/Nikaramsa}",
+			"- {monster/Tripurasura}",
+			"- {monster/Upasunda}",
+			"- {monster/Vayuphak}"
 		],
 		"description": [
 			"## Asura",
@@ -288,30 +288,30 @@
 			"",
 			"Asuras can grow mighty indeed in their endless cycle of reincarnation. The most powerful among them are the asura ranas who dwell in ruined holy places, abandoned deific domains, or in the wilds of Hell. These potent fiends have unique forms, and can demand anything of lesser members of their race, as they are revered as sages and profane bodhisattvas. They usually dwell in places that allow them to deny devotees of the deities access to holy objects or sites. The following list includes several asura ranas named in myth and tales of woe.",
 			"",
-			"- [Andak](faith/andak) the Dismembered",
-			"- [Bohga](faith/bohga) the Treasurer",
-			"- [Chugarra](faith/chugarra) the Guru of Butchers",
-			"- [Chupurvagasti](faith/chupurvagasti), Lady of Poison Mist",
-			"- [Gavidya](faith/gavidya) the Numberless",
-			"- [Hydim](faith/hydim) of the Eternal Fast",
-			"- [Ioramvol](faith/ioramvol) with the Mouth Full of Boulders",
-			"- [Maeha](faith/maeha), Father of False Worlds",
-			"- [Onamahli](faith/onamahli) the Twice Pure",
-			"- [Rahu](faith/rahu) the Sun Eater",
-			"- [Rytara](faith/rytara), Serpent of the Eastern Eye",
-			"- [Taraksun](faith/taraksun), Awakener of Wrath",
-			"- [Zurapadyn](faith/zurapadyn), the Beast Who Waits in Smoke"
+			"- {faith/Andak} the Dismembered",
+			"- {faith/Bohga} the Treasurer",
+			"- {faith/Chugarra} the Guru of Butchers",
+			"- {faith/Chupurvagasti}, Lady of Poison Mist",
+			"- {faith/Gavidya} the Numberless",
+			"- {faith/Hydim} of the Eternal Fast",
+			"- {faith/Ioramvol} with the Mouth Full of Boulders",
+			"- {faith/Maeha}, Father of False Worlds",
+			"- {faith/Onamahli} the Twice Pure",
+			"- {faith/Rahu} the Sun Eater",
+			"- {faith/Rytara}, Serpent of the Eastern Eye",
+			"- {faith/Taraksun}, Awakener of Wrath",
+			"- {faith/Zurapadyn}, the Beast Who Waits in Smoke"
 		]
 	},
 	"automaton": {
 		"name": "Automaton",
 		"sources": [ "Construct Handbook" ],
 		"members": [
-			"- [Champion Automaton](monster/champion_automaton)",
-			"- [Familiar Automaton](monster/familiar_automaton)",
-			"- [Master Automaton](monster/master_automaton)",
-			"- [Sharpshooter Automaton](monster/sharpshooter_automaton)",
-			"- [Stalker Automaton](monster/stalker_automaton)"
+			"- {monster/Champion Automaton}",
+			"- {monster/Familiar Automaton}",
+			"- {monster/Master Automaton}",
+			"- {monster/Sharpshooter Automaton}",
+			"- {monster/Stalker Automaton}"
 		],
 		"description": [
 			"## Automaton",
@@ -344,19 +344,19 @@
 		"name": "Azata",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Bralani](monster/bralani)",
-			"- [Brijidine](monster/brijidine)",
-			"- [Gancanagh](monster/gancanagh)",
-			"- [Ghaele](monster/ghaele)",
-			"- [Lillend](monster/lillend)",
-			"- [Lyrakien](monster/lyrakien)",
-			"- [Nualidu](monster/nualidu)",
-			"- [Prydanu](monster/prydanu)",
-			"- [Raelis](monster/raelis)",
-			"- [Thyrlien](monster/thyrlien)",
-			"- [Uinuja](monster/uinuja)",
-			"- [Veranallia](monster/veranallia)",
-			"- [Yamah](monster/yamah)"
+			"- {monster/Bralani}",
+			"- {monster/Brijidine}",
+			"- {monster/Gancanagh}",
+			"- {monster/Ghaele}",
+			"- {monster/Lillend}",
+			"- {monster/Lyrakien}",
+			"- {monster/Nualidu}",
+			"- {monster/Prydanu}",
+			"- {monster/Raelis}",
+			"- {monster/Thyrlien}",
+			"- {monster/Uinuja}",
+			"- {monster/Veranallia}",
+			"- {monster/Yamah}"
 		],
 		"description": [
 			"## Azata",
@@ -389,9 +389,9 @@
 		"name": "Baba Yaga's Rider",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"members": [
-			"- [Black Rider](monster/black_rider)",
-			"- [Red Rider](monster/red_rider)",
-			"- [White Rider](monster/white_rider)"
+			"- {monster/Black Rider}",
+			"- {monster/Red Rider}",
+			"- {monster/White Rider}"
 		],
 		"description": [
 			"## Baba Yaga's Rider",
@@ -423,12 +423,12 @@
 		"name": "Beheaded",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Beheaded](monster/beheaded)",
-			"- [Flaming Skull](monster/flaming_skull)",
-			"- [Giant Beheaded](monster/giant_beheaded)",
-			"- [Medusa Head](monster/medusa_head)",
-			"- [Severed Head](monster/severed_head)",
-			"- [Skull Swarm](monster/skull_swarm)"
+			"- {monster/Beheaded}",
+			"- {monster/Flaming Skull}",
+			"- {monster/Giant Beheaded}",
+			"- {monster/Medusa Head}",
+			"- {monster/Severed Head}",
+			"- {monster/Skull Swarm}"
 		],
 		"description": [
 			"## Beheaded",
@@ -442,10 +442,10 @@
 		"name": "Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Ravener](monster/ravener)",
-			"- [Tempest Behemoth](monster/tempest_behemoth)",
-			"- [Thalassic Behemoth](monster/thalassic_behemoth)",
-			"- [Thunder Behemoth](monster/thunder_behemoth)"
+			"- {monster/Ravener}",
+			"- {monster/Tempest Behemoth}",
+			"- {monster/Thalassic Behemoth}",
+			"- {monster/Thunder Behemoth}"
 		],
 		"description": [
 			"## Behemoth",
@@ -475,13 +475,13 @@
 		"name": "Blight",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Cave Blight](monster/cave_blight)",
-			"- [Desert Blight](monster/desert_blight)",
-			"- [Forest Blight](monster/forest_blight)",
-			"- [Mountain Blight](monster/mountain_blight)",
-			"- [Sewer Blight](monster/sewer_blight)",
-			"- [Swamp Blight](monster/swamp_blight)",
-			"- [Tundra Blight](monster/tundra_blight)"
+			"- {monster/Cave Blight}",
+			"- {monster/Desert Blight}",
+			"- {monster/Forest Blight}",
+			"- {monster/Mountain Blight}",
+			"- {monster/Sewer Blight}",
+			"- {monster/Swamp Blight}",
+			"- {monster/Tundra Blight}"
 		],
 		"description": [
 			"## Blight",
@@ -507,9 +507,9 @@
 		"name": "Bore Worm",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"members": [
-			"- [Bore Worm Monarch](monster/bore_worm_monarch)",
-			"- [Bore Worm Swarm](monster/bore_worm_swarm)",
-			"- [Empress Bore Worm](monster/empress_bore_worm)"
+			"- {monster/Bore Worm Monarch}",
+			"- {monster/Bore Worm Swarm}",
+			"- {monster/Empress Bore Worm}"
 		],
 		"description": [
 			"## Bore Worm",
@@ -523,31 +523,31 @@
 		"name": "Clockwork",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Clockwork Angel](monster/clockwork_angel)",
-			"- [Clockwork Assassin](monster/clockwork_assassin)",
-			"- [Clockwork Dragon](monster/clockwork_dragon)",
-			"- [Clockwork Excavator](monster/clockwork_excavator)",
-			"- [Clockwork Familiar](monster/clockwork_familiar)",
-			"- [Clockwork Fiend](monster/clockwork_fiend)",
-			"- [Clockwork Goblin](monster/clockwork_goblin)",
-			"- [Clockwork Goliath](monster/clockwork_goliath)",
-			"- [Clockwork Guardian](monster/clockwork_guardian)",
-			"- [Clockwork Gunslinger](monster/clockwork_gunslinger)",
-			"- [Clockwork Hound](monster/clockwork_hound)",
-			"- [Clockwork Leviathan](monster/clockwork_leviathan)",
-			"- [Clockwork Mage](monster/clockwork_mage)",
-			"- [Clockwork Nautiloid](monster/clockwork_nautiloid)",
-			"- [Clockwork Overseer](monster/clockwork_overseer)",
-			"- [Clockwork Priest](monster/clockwork_priest)",
-			"- [Clockwork Servant](monster/clockwork_servant)",
-			"- [Clockwork Snail](monster/clockwork_snail)",
-			"- [Clockwork Soldier](monster/clockwork_soldier)",
-			"- [Clockwork Songbird](monster/clockwork_songbird)",
-			"- [Clockwork Spy](monster/clockwork_spy)",
-			"- [Clockwork Steed](monster/clockwork_steed)",
-			"- [Clockwork Vivisectionist](monster/clockwork_vivisectionist)",
-			"- [Mechanical Efreeti](monster/mechanical_efreeti)",
-			"- [Toy Golem](monster/toy_golem)"
+			"- {monster/Clockwork Angel}",
+			"- {monster/Clockwork Assassin}",
+			"- {monster/Clockwork Dragon}",
+			"- {monster/Clockwork Excavator}",
+			"- {monster/Clockwork Familiar}",
+			"- {monster/Clockwork Fiend}",
+			"- {monster/Clockwork Goblin}",
+			"- {monster/Clockwork Goliath}",
+			"- {monster/Clockwork Guardian}",
+			"- {monster/Clockwork Gunslinger}",
+			"- {monster/Clockwork Hound}",
+			"- {monster/Clockwork Leviathan}",
+			"- {monster/Clockwork Mage}",
+			"- {monster/Clockwork Nautiloid}",
+			"- {monster/Clockwork Overseer}",
+			"- {monster/Clockwork Priest}",
+			"- {monster/Clockwork Servant}",
+			"- {monster/Clockwork Snail}",
+			"- {monster/Clockwork Soldier}",
+			"- {monster/Clockwork Songbird}",
+			"- {monster/Clockwork Spy}",
+			"- {monster/Clockwork Steed}",
+			"- {monster/Clockwork Vivisectionist}",
+			"- {monster/Mechanical Efreeti}",
+			"- {monster/Toy Golem}"
 		],
 		"description": [
 			"## Clockwork",
@@ -608,33 +608,33 @@
 		"name": "Daemon",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Acrididaemon](monster/acrididaemon)",
-			"- [Astradaemon](monster/astradaemon)",
-			"- [Bibliodaemon](monster/bibliodaemon)",
-			"- [Cacodaemon](monster/cacodaemon)",
-			"- [Ceustodaemon](monster/ceustodaemon)",
-			"- [Crucidaemon](monster/crucidaemon)",
-			"- [Derghodaemon](monster/derghodaemon)",
-			"- [Erodaemon](monster/erodaemon)",
-			"- [Genthodaemon](monster/genthodaemon)",
-			"- [Hydrodaemon](monster/hydrodaemon)",
-			"- [Lacridaemon](monster/lacridaemon)",
-			"- [Lapsudaemon](monster/lapsudaemon)",
-			"- [Leukodaemon](monster/leukodaemon)",
-			"- [Meladaemon](monster/meladaemon)",
-			"- [Nixudaemon](monster/nixudaemon)",
-			"- [Obcisidaemon](monster/obcisidaemon)",
-			"- [Olethrodaemon](monster/olethrodaemon)",
-			"- [Phasmadaemon](monster/phasmadaemon)",
-			"- [Piscodaemon](monster/piscodaemon)",
-			"- [Purrodaemon](monster/purrodaemon)",
-			"- [Sangudaemon](monster/sangudaemon)",
-			"- [Sepsidaemon](monster/sepsidaemon)",
-			"- [Suspiridaemon](monster/suspiridaemon)",
-			"- [Temerdaemon](monster/temerdaemon)",
-			"- [Thanadaemon](monster/thanadaemon)",
-			"- [Venedaemon](monster/venedaemon)",
-			"- [Vulnudaemon](monster/vulnudaemon)"
+			"- {monster/Acrididaemon}",
+			"- {monster/Astradaemon}",
+			"- {monster/Bibliodaemon}",
+			"- {monster/Cacodaemon}",
+			"- {monster/Ceustodaemon}",
+			"- {monster/Crucidaemon}",
+			"- {monster/Derghodaemon}",
+			"- {monster/Erodaemon}",
+			"- {monster/Genthodaemon}",
+			"- {monster/Hydrodaemon}",
+			"- {monster/Lacridaemon}",
+			"- {monster/Lapsudaemon}",
+			"- {monster/Leukodaemon}",
+			"- {monster/Meladaemon}",
+			"- {monster/Nixudaemon}",
+			"- {monster/Obcisidaemon}",
+			"- {monster/Olethrodaemon}",
+			"- {monster/Phasmadaemon}",
+			"- {monster/Piscodaemon}",
+			"- {monster/Purrodaemon}",
+			"- {monster/Sangudaemon}",
+			"- {monster/Sepsidaemon}",
+			"- {monster/Suspiridaemon}",
+			"- {monster/Temerdaemon}",
+			"- {monster/Thanadaemon}",
+			"- {monster/Venedaemon}",
+			"- {monster/Vulnudaemon}"
 		],
 		"description": [
 			"## Daemon",
@@ -662,14 +662,14 @@
 		"name": "Dark Folk",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Caligni](monster/caligni)",
-			"- [Dark Caller](monster/dark_caller)",
-			"- [Dark Champion](monster/dark_champion)",
-			"- [Dark Creeper](monster/dark_creeper)",
-			"- [Dark Dancer](monster/dark_dancer)",
-			"- [Dark Empath](monster/dark_empath)",
-			"- [Dark Slayer](monster/dark_slayer)",
-			"- [Dark Stalker](monster/dark_stalker)"
+			"- {monster/Caligni}",
+			"- {monster/Dark Caller}",
+			"- {monster/Dark Champion}",
+			"- {monster/Dark Creeper}",
+			"- {monster/Dark Dancer}",
+			"- {monster/Dark Empath}",
+			"- {monster/Dark Slayer}",
+			"- {monster/Dark Stalker}"
 		],
 		"description": [
 			"## Dark Folk",
@@ -684,24 +684,24 @@
 		"sources": [],
 		"members": [
 			"- [Daemonic Harbinger, Braismois](monster/braismois)",
-			"- [Zelishkar of the Bitter Flame](monster/zelishkar_of_the_bitter_flame)"
+			"- {monster/Zelishkar of the Bitter Flame}"
 		],
 		"description": [
 			"## Daemonic Harbinger",
 			"",
-			"A daemonic harbinger is a powerful [daemon](family/daemon) that has not yet made the full transition from unique daemon to a horseman."
+			"A daemonic harbinger is a powerful {family/daemon} that has not yet made the full transition from unique daemon to a horseman."
 		]
 	},
 	"demodand": {
 		"name": "Demodand",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Gristly Demodand](monster/gristly_demodand)",
-			"- [Shaggy Demodand](monster/shaggy_demodand)",
-			"- [Slimy Demodand](monster/slimy_demodand)",
-			"- [Squamous Demodand](monster/squamous_demodand)",
-			"- [Stringy Demodand](monster/stringy_demodand)",
-			"- [Tarry Demodand](monster/tarry_demodand)"
+			"- {monster/Gristly Demodand}",
+			"- {monster/Shaggy Demodand}",
+			"- {monster/Slimy Demodand}",
+			"- {monster/Squamous Demodand}",
+			"- {monster/Stringy Demodand}",
+			"- {monster/Tarry Demodand}"
 		],
 		"description": [
 			"## Demodand",
@@ -729,54 +729,54 @@
 		"name": "Demon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Abrikandilu](monster/abrikandilu)",
-			"- [Andrazku](monster/andrazku)",
-			"- [Babau](monster/babau)",
-			"- [Balor](monster/balor)",
-			"- [Brimorak](monster/brimorak)",
-			"- [Cambion](monster/cambion)",
-			"- [Coloxus](monster/coloxus)",
-			"- [Derakni](monster/derakni)",
-			"- [Dretch](monster/dretch)",
-			"- [Gallu](monster/gallu)",
-			"- [Ghalzarokh](monster/ghalzarokh)",
-			"- [Gibrileth](monster/gibrileth)",
-			"- [Glabrezu](monster/glabrezu)",
-			"- [Hala](monster/hala)",
-			"- [Hezrou](monster/hezrou)",
-			"- [Incubus](monster/incubus)",
-			"- [Kalavakus](monster/kalavakus)",
-			"- [Katpaskir](monster/katpaskir)",
-			"- [Kithangian](monster/kithangian)",
-			"- [Larva](monster/larva)",
-			"- [Lilitu](monster/lilitu)",
-			"- [Marilith](monster/marilith)",
-			"- [Nabasu](monster/nabasu)",
-			"- [Nalfeshnee](monster/nalfeshnee)",
-			"- [Omox](monster/omox)",
-			"- [Oolioddroo](monster/oolioddroo)",
-			"- [Painajai](monster/painajai)",
-			"- [Quasit](monster/quasit)",
-			"- [Schir](monster/schir)",
-			"- [Seraptis](monster/seraptis)",
-			"- [Shachath](monster/shachath)",
-			"- [Shadow Demon](monster/shadow_demon)",
-			"- [Shemhazian](monster/shemhazian)",
-			"- [Succubus](monster/succubus)",
-			"- [Swaithe](monster/swaithe)",
-			"- [Thoxel Demon](monster/thoxel_demon)",
-			"- [Ulkreth](monster/ulkreth)",
-			"- [Vavakia](monster/vavakia)",
-			"- [Vermlek](monster/vermlek)",
-			"- [Vilsteth](monster/vilsteth)",
-			"- [Vrock](monster/vrock)",
-			"- [Vrolikai](monster/vrolikai)",
-			"- [Yaenit](monster/yaenit)"
+			"- {monster/Abrikandilu}",
+			"- {monster/Andrazku}",
+			"- {monster/Babau}",
+			"- {monster/Balor}",
+			"- {monster/Brimorak}",
+			"- {monster/Cambion}",
+			"- {monster/Coloxus}",
+			"- {monster/Derakni}",
+			"- {monster/Dretch}",
+			"- {monster/Gallu}",
+			"- {monster/Ghalzarokh}",
+			"- {monster/Gibrileth}",
+			"- {monster/Glabrezu}",
+			"- {monster/Hala}",
+			"- {monster/Hezrou}",
+			"- {monster/Incubus}",
+			"- {monster/Kalavakus}",
+			"- {monster/Katpaskir}",
+			"- {monster/Kithangian}",
+			"- {monster/Larva}",
+			"- {monster/Lilitu}",
+			"- {monster/Marilith}",
+			"- {monster/Nabasu}",
+			"- {monster/Nalfeshnee}",
+			"- {monster/Omox}",
+			"- {monster/Oolioddroo}",
+			"- {monster/Painajai}",
+			"- {monster/Quasit}",
+			"- {monster/Schir}",
+			"- {monster/Seraptis}",
+			"- {monster/Shachath}",
+			"- {monster/Shadow Demon}",
+			"- {monster/Shemhazian}",
+			"- {monster/Succubus}",
+			"- {monster/Swaithe}",
+			"- {monster/Thoxel Demon}",
+			"- {monster/Ulkreth}",
+			"- {monster/Vavakia}",
+			"- {monster/Vermlek}",
+			"- {monster/Vilsteth}",
+			"- {monster/Vrock}",
+			"- {monster/Vrolikai}",
+			"- {monster/Yaenit}"
 		],
 		"mythic_members": [
-			"- [Marilith](monster/marilith)",
-			"- [Nalfeshnee](monster/nalfeshnee)",
-			"- [Vrock](monster/vrock)"
+			"- {monster/Marilith}",
+			"- {monster/Nalfeshnee}",
+			"- {monster/Vrock}"
 		],
 		"description": [
 			"## Demon",
@@ -811,15 +811,15 @@
 		"name": "Demon Lord",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Baphomet](monster/baphomet)",
-			"- [Dagon](monster/dagon)",
-			"- [Deskari](monster/deskari)",
-			"- [Kostchtchie](monster/kostchtchie)",
-			"- [Nocticula](monster/nocticula)",
-			"- [Pazuzu](monster/pazuzu)",
-			"- [Shax](monster/shax)",
-			"- [Sifkesh](monster/sifkesh)",
-			"- [Xoveron](monster/xoveron)"
+			"- {monster/Baphomet}",
+			"- {monster/Dagon}",
+			"- {monster/Deskari}",
+			"- {monster/Kostchtchie}",
+			"- {monster/Nocticula}",
+			"- {monster/Pazuzu}",
+			"- {monster/Shax}",
+			"- {monster/Sifkesh}",
+			"- {monster/Xoveron}"
 		],
 		"description": [
 			"## Demon Lord",
@@ -858,44 +858,44 @@
 		"members": [
 			"- [Accomplice Devil (Hesperian)](monster/hesperian)",
 			"- [Accuser Devil (Zebub)](monster/accuser_devil)",
-			"- [Advodaza](monster/advodaza)",
+			"- {monster/Advodaza}",
 			"- [Apostate Devil (Deimavigga)](monster/deimavigga)",
 			"- [Barbed Devil (Hamatula)](monster/hamatula)",
 			"- [Bearded Devil (Barbazu)](monster/barbazu)",
 			"- [Belier Devil (Bdellavritra)](monster/bdellavritra)",
 			"- [Bone Devil (Osyluth)](monster/osyluth)",
 			"- [Cabal Devil (Uniila)](monster/uniila)",
-			"- [Chortov](monster/chortov)",
+			"- {monster/Chortov}",
 			"- [Contract Devil (Phistophilus)](monster/phistophilus)",
 			"- [Curse Devil (Phiam)](monster/phiam)",
 			"- [Drowning Devil (Sarglagon)](monster/sarglagon)",
-			"- [Erinyes](monster/erinyes)",
+			"- {monster/Erinyes}",
 			"- [Executioner Devil (Munagola)](monster/munagola)",
 			"- [Gambling Devil (Magadaz)](monster/magadaz)",
 			"- [Handmaiden Devil (Gylou)](monster/gylou)",
 			"- [Heresy Devil (Ayngavhaul)](monster/ayngavhaul)",
 			"- [Horned Devil (Cornugon)](monster/cornugon)",
-			"- [Host Devil, Greater (Magaav)](monster/host_devil_greater_magaav)",
-			"- [Host Devil, Lesser (Gaav)](monster/host_devil_lesser_gaav)",
+			"- {monster/Host Devil, Greater (Magaav)}",
+			"- {monster/Host Devil, Lesser (Gaav)}",
 			"- [Ice Devil (Gelugon)](monster/gelugon)",
 			"- [Immolation Devil (Puragaus)](monster/puragaus)",
-			"- [Imp](monster/imp)",
-			"- [Lemure](monster/lemure)",
-			"- [Mnemor](monster/mnemor)",
+			"- {monster/Imp}",
+			"- {monster/Lemure}",
+			"- {monster/Mnemor}",
 			"- [Nemesis Devil (Advodaza)](monster/advodaza)",
-			"- [Nupperibo](monster/nupperibo)",
-			"- [Pit Fiend](monster/pit_fiend)",
+			"- {monster/Nupperibo}",
+			"- {monster/Pit Fiend}",
 			"- [Possession Devil, Greater (Gidim)](monster/greater_gidim)",
 			"- [Possession Devil, Lesser (Gidim)](monster/lesser_gidim)",
 			"- [Rust Devil (Ferrugon)](monster/ferrugon)",
-			"- [Salikotal](monster/salikotal)",
+			"- {monster/Salikotal}",
 			"- [Sire Devil (Patraavex)](monster/patraavex)",
 			"- [Tinder Devil (Ukobach)](monster/ukobach)",
 			"- [Warmonger Devil (Levaloch)](monster/levaloch)"
 		],
 		"mythic_members": [
-			"- [Bone Devil](monster/bone_devil)",
-			"- [Ice Devil](monster/ice_devil)"
+			"- {monster/Bone Devil}",
+			"- {monster/Ice Devil}"
 		],
 		"description": [
 			"## Devil",
@@ -945,34 +945,34 @@
 		"name": "Dinosaur",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Allosaurus](monster/allosaurus)",
-			"- [Amargasaurus](monster/amargasaurus)",
-			"- [Ankylosaurus](monster/ankylosaurus)",
-			"- [Brachiosaurus](monster/brachiosaurus)",
-			"- [Ceratosaurus](monster/ceratosaurus)",
-			"- [Compsognathus](monster/compsognathus)",
-			"- [Deinonychus](monster/deinonychus)",
-			"- [Dimetrodon](monster/dimetrodon)",
-			"- [Dimorphodon](monster/dimorphodon)",
-			"- [Diplodocus](monster/diplodocus)",
-			"- [Elasmosaurus](monster/elasmosaurus)",
-			"- [Giganotosaurus](monster/giganotosaurus)",
-			"- [Iguanodon](monster/iguanodon)",
-			"- [Kentrosaurus](monster/kentrosaurus)",
-			"- [Pachycephalosaurus](monster/pachycephalosaurus)",
-			"- [Parasaurolophus](monster/parasaurolophus)",
-			"- [Plesiosaurus](monster/plesiosaurus)",
-			"- [Pteranodon](monster/pteranodon)",
-			"- [Quetzalcoatlus](monster/quetzalcoatlus)",
-			"- [Spinosaurus](monster/spinosaurus)",
-			"- [Stegosaurus](monster/stegosaurus)",
-			"- [Styracosaurus](monster/styracosaurus)",
-			"- [Therizinosaurus](monster/therizinosaurus)",
-			"- [Triceratops](monster/triceratops)",
-			"- [Troodon](monster/troodon)",
-			"- [Tylosaurus](monster/tylosaurus)",
-			"- [Tyrannosaurus](monster/tyrannosaurus)",
-			"- [Velociraptor](monster/velociraptor)"
+			"- {monster/Allosaurus}",
+			"- {monster/Amargasaurus}",
+			"- {monster/Ankylosaurus}",
+			"- {monster/Brachiosaurus}",
+			"- {monster/Ceratosaurus}",
+			"- {monster/Compsognathus}",
+			"- {monster/Deinonychus}",
+			"- {monster/Dimetrodon}",
+			"- {monster/Dimorphodon}",
+			"- {monster/Diplodocus}",
+			"- {monster/Elasmosaurus}",
+			"- {monster/Giganotosaurus}",
+			"- {monster/Iguanodon}",
+			"- {monster/Kentrosaurus}",
+			"- {monster/Pachycephalosaurus}",
+			"- {monster/Parasaurolophus}",
+			"- {monster/Plesiosaurus}",
+			"- {monster/Pteranodon}",
+			"- {monster/Quetzalcoatlus}",
+			"- {monster/Spinosaurus}",
+			"- {monster/Stegosaurus}",
+			"- {monster/Styracosaurus}",
+			"- {monster/Therizinosaurus}",
+			"- {monster/Triceratops}",
+			"- {monster/Troodon}",
+			"- {monster/Tylosaurus}",
+			"- {monster/Tyrannosaurus}",
+			"- {monster/Velociraptor}"
 		],
 		"description": [
 			"## Dinosaur",
@@ -986,15 +986,15 @@
 		"name": "Div",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Aghash](monster/aghash)",
-			"- [Akvan](monster/akvan)",
-			"- [Bushyasta](monster/bushyasta)",
-			"- [Doru](monster/doru)",
-			"- [Druj Nasu](monster/druj_nasu)",
-			"- [Ghawwas](monster/ghawwas)",
-			"- [Pairaka](monster/pairaka)",
-			"- [Sepid](monster/sepid)",
-			"- [Shira](monster/shira)"
+			"- {monster/Aghash}",
+			"- {monster/Akvan}",
+			"- {monster/Bushyasta}",
+			"- {monster/Doru}",
+			"- {monster/Druj Nasu}",
+			"- {monster/Ghawwas}",
+			"- {monster/Pairaka}",
+			"- {monster/Sepid}",
+			"- {monster/Shira}"
 		],
 		"description": [
 			"## Div",
@@ -1138,9 +1138,9 @@
 		"name": "Dragon (Black)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Black Dragon](monster/adult_black_dragon)",
-			"- [Ancient Black Dragon](monster/ancient_black_dragon)",
-			"- [Young Black Dragon](monster/young_black_dragon)"
+			"- {monster/Adult Black Dragon}",
+			"- {monster/Ancient Black Dragon}",
+			"- {monster/Young Black Dragon}"
 		],
 		"mythic_members": [
 			"- [Mature Adult Black Dragon](monster/mature_adult_black_dragon_mythic)"
@@ -1163,7 +1163,7 @@
 			"| Wyrm | DR 20/magic | 13th |",
 			"| Great wyrm | Charm reptiles | 15th |",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1191,9 +1191,9 @@
 		"name": "Dragon (Blue)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Blue Dragon](monster/adult_blue_dragon)",
-			"- [Ancient Blue Dragon](monster/ancient_blue_dragon)",
-			"- [Young Blue Dragon](monster/young_blue_dragon)"
+			"- {monster/Adult Blue Dragon}",
+			"- {monster/Ancient Blue Dragon}",
+			"- {monster/Young Blue Dragon}"
 		],
 		"mythic_members": [
 			"- [Mature Adult Blue Dragon](monster/mature_adult_blue_dragon_mythic)"
@@ -1216,7 +1216,7 @@
 			"| Wyrm | DR 20/magic | 15th |",
 			"| Great wyrm | Sandstorm, mirage arcana | 17th |",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1242,14 +1242,14 @@
 		"name": "Dragon (Brass)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Brass Dragon](monster/adult_brass_dragon)",
-			"- [Ancient Brass Dragon](monster/ancient_brass_dragon)",
-			"- [Young Brass Dragon](monster/young_brass_dragon)"
+			"- {monster/Adult Brass Dragon}",
+			"- {monster/Ancient Brass Dragon}",
+			"- {monster/Young Brass Dragon}"
 		],
 		"description": [
 			"## Brass Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1275,14 +1275,14 @@
 		"name": "Dragon (Bronze)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Bronze Dragon](monster/adult_bronze_dragon)",
-			"- [Ancient Bronze Dragon](monster/ancient_bronze_dragon)",
-			"- [Young Bronze Dragon](monster/young_bronze_dragon)"
+			"- {monster/Adult Bronze Dragon}",
+			"- {monster/Ancient Bronze Dragon}",
+			"- {monster/Young Bronze Dragon}"
 		],
 		"description": [
 			"## Bronze Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1310,14 +1310,14 @@
 		"name": "Dragon (Copper)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Copper Dragon](monster/adult_copper_dragon)",
-			"- [Ancient Copper Dragon](monster/ancient_copper_dragon)",
-			"- [Young Copper Dragon](monster/young_copper_dragon)"
+			"- {monster/Adult Copper Dragon}",
+			"- {monster/Ancient Copper Dragon}",
+			"- {monster/Young Copper Dragon}"
 		],
 		"description": [
 			"## Copper Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1345,21 +1345,21 @@
 		"name": "Dragon (Esoteric)",
 		"sources": [ "Bestiary 5" ],
 		"members": [
-			"- [Adult Astral Dragon](monster/adult_astral_dragon)",
-			"- [Ancient Astral Dragon](monster/ancient_astral_dragon)",
-			"- [Young Astral Dragon](monster/young_astral_dragon)",
-			"- [Adult Dream Dragon](monster/adult_dream_dragon)",
-			"- [Ancient Dream Dragon](monster/ancient_dream_dragon)",
-			"- [Young Dream Dragon](monster/young_dream_dragon)",
-			"- [Adult Etheric Dragon](monster/adult_etheric_dragon)",
-			"- [Ancient Etheric Dragon](monster/ancient_etheric_dragon)",
-			"- [Young Etheric Dragon](monster/young_etheric_dragon)",
-			"- [Adult Nightmare Dragon](monster/adult_nightmare_dragon)",
-			"- [Ancient Nightmare Dragon](monster/ancient_nightmare_dragon)",
-			"- [Young Nightmare Dragon](monster/young_nightmare_dragon)",
-			"- [Adult Occult Dragon](monster/adult_occult_dragon)",
-			"- [Ancient Occult Dragon](monster/ancient_occult_dragon)",
-			"- [Young Occult Dragon](monster/young_occult_dragon)"
+			"- {monster/Adult Astral Dragon}",
+			"- {monster/Ancient Astral Dragon}",
+			"- {monster/Young Astral Dragon}",
+			"- {monster/Adult Dream Dragon}",
+			"- {monster/Ancient Dream Dragon}",
+			"- {monster/Young Dream Dragon}",
+			"- {monster/Adult Etheric Dragon}",
+			"- {monster/Ancient Etheric Dragon}",
+			"- {monster/Young Etheric Dragon}",
+			"- {monster/Adult Nightmare Dragon}",
+			"- {monster/Ancient Nightmare Dragon}",
+			"- {monster/Young Nightmare Dragon}",
+			"- {monster/Adult Occult Dragon}",
+			"- {monster/Ancient Occult Dragon}",
+			"- {monster/Young Occult Dragon}"
 		],
 		"description": [
 			"## Dragon (Esoteric)",
@@ -1412,7 +1412,7 @@
 			"",
 			"**Dragon Senses (Ex):** Dragons have darkvision 120 feet and blindsense 60 feet. They see four times as well as a human in dim light and twice as well in normal light.",
 			"",
-			"**Frightful Presence (Ex):** A dragon's [frightful presence](umr/frightful_presence) has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as normal.",
+			"**Frightful Presence (Ex):** A dragon's {umr/frightful presence} has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as normal.",
 			"",
 			"**Psychic Magic:** Esoteric dragons gain greater psychic skill as they age. An esoteric dragon's caster level for its psychic magic spell-like abilities is equal to its total HD. It has an amount of psychic energy equal to 1/2 its HD when it first gains psychic magic + 2 PE for each age category thereafter.",
 			"",
@@ -1478,14 +1478,14 @@
 		"name": "Dragon (Gold)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Gold Dragon](monster/adult_gold_dragon)",
-			"- [Ancient Gold Dragon](monster/ancient_gold_dragon)",
-			"- [Young Gold Dragon](monster/young_gold_dragon)"
+			"- {monster/Adult Gold Dragon}",
+			"- {monster/Ancient Gold Dragon}",
+			"- {monster/Young Gold Dragon}"
 		],
 		"description": [
 			"## Gold Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1501,7 +1501,7 @@
 			"",
 			"**Luck (Sp)** Once per day an adult or older gold dragon can touch a gem, usually one embedded in the dragon's hide, and enspell it to bring good luck. As long as the dragon carries the gem, it and every good creature within a given radius of it (10 ft. per age category) receives a +1 luck bonus on all saving throws. If the dragon gives an enspelled gem to another creature, only that bearer gets the bonus. The effect lasts 1d3 hours plus 3 hours per age category of the dragon. This ability is the equivalent of a 2nd-level spell.",
 			"",
-			"**Spell-Like Abilities (Sp)** A gold dragon gains the following spell-like abilities upon reaching the listed age category. Its caster level for these effects is equal to its Hit Dice, and any save DCs are Charisma-based. A gold dragon can use these abilities at will. Very young-[detect evil](spell/detect_evil); Juvenile-[bless](spell/bless); Adult-[daylight](spell/daylight); Old-[geas/quest](spell/geas_quest); Ancient-[sunburst](spell/sunburst); Great wyrm-[foresight](spell/foresight).",
+			"**Spell-Like Abilities (Sp)** A gold dragon gains the following spell-like abilities upon reaching the listed age category. Its caster level for these effects is equal to its Hit Dice, and any save DCs are Charisma-based. A gold dragon can use these abilities at will. Very young-{spell/detect evil}; Juvenile-{spell/bless}; Adult-{spell/daylight}; Old-[geas/quest](spell/geas_quest); Ancient-{spell/sunburst}; Great wyrm-{spell/foresight}.",
 			"",
 			"**Weakening Breath (Su)** Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half)."
 		]
@@ -1513,9 +1513,9 @@
 		"name": "Dragon (Green)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Green Dragon](monster/adult_green_dragon)",
-			"- [Ancient Green Dragon](monster/ancient_green_dragon)",
-			"- [Young Green Dragon](monster/young_green_dragon)"
+			"- {monster/Adult Green Dragon}",
+			"- {monster/Ancient Green Dragon}",
+			"- {monster/Young Green Dragon}"
 		],
 		"mythic_members": [
 			"- [Very Old Green Dragon](monster/very_old_green_dragon_mythic)"
@@ -1523,7 +1523,7 @@
 		"description": [
 			"## Green Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -1556,7 +1556,7 @@
 			"",
 			"Although chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented here are the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)"
+			"**Family:** {family/True Dragon}"
 		]
 	},
 	"imperial_dragon": {
@@ -1566,14 +1566,14 @@
 		"name": "Dragon (Imperial, Forest)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Adult Forest Dragon](monster/adult_forest_dragon)",
-			"- [Ancient Forest Dragon](monster/ancient_forest_dragon)",
-			"- [Young Forest Dragon](monster/young_forest_dragon)"
+			"- {monster/Adult Forest Dragon}",
+			"- {monster/Ancient Forest Dragon}",
+			"- {monster/Young Forest Dragon}"
 		],
 		"description": [
 			"## Dragon (Imperial, Forest)",
 			"",
-			"**Family:** [Imperial Dragon](family/imperial_dragon)",
+			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1612,14 +1612,14 @@
 		"name": "Dragon (Imperial, Sea)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Adult Sea Dragon](monster/adult_sea_dragon)",
-			"- [Ancient Sea Dragon](monster/ancient_sea_dragon)",
-			"- [Young Sea Dragon](monster/young_sea_dragon)"
+			"- {monster/Adult Sea Dragon}",
+			"- {monster/Ancient Sea Dragon}",
+			"- {monster/Young Sea Dragon}"
 		],
 		"description": [
 			"## Dragon (Imperial, Sea)",
 			"",
-			"**Family:** [Imperial Dragon](family/imperial_dragon)",
+			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1656,14 +1656,14 @@
 		"name": "Dragon (Imperial, Sky)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Adult Sky Dragon](monster/adult_sky_dragon)",
-			"- [Ancient Sky Dragon](monster/ancient_sky_dragon)",
-			"- [Young Sky Dragon](monster/young_sky_dragon)"
+			"- {monster/Adult Sky Dragon}",
+			"- {monster/Ancient Sky Dragon}",
+			"- {monster/Young Sky Dragon}"
 		],
 		"description": [
 			"## Dragon (Imperial, Sky)",
 			"",
-			"**Family:** [Imperial Dragon](family/imperial_dragon)",
+			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1702,14 +1702,14 @@
 		"name": "Dragon (Imperial, Sovereign)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Adult Sovereign Dragon](monster/adult_sovereign_dragon)",
-			"- [Ancient Sovereign Dragon](monster/ancient_sovereign_dragon)",
-			"- [Young Sovereign Dragon](monster/young_sovereign_dragon)"
+			"- {monster/Adult Sovereign Dragon}",
+			"- {monster/Ancient Sovereign Dragon}",
+			"- {monster/Young Sovereign Dragon}"
 		],
 		"description": [
 			"## Dragon (Imperial, Sovereign)",
 			"",
-			"**Family:** [Imperial Dragon](family/imperial_dragon)",
+			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1746,14 +1746,14 @@
 		"name": "Dragon (Imperial, Underworld)",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Adult Underworld Dragon](monster/adult_underworld_dragon)",
-			"- [Ancient Underworld Dragon](monster/ancient_underworld_dragon)",
-			"- [Young Underworld Dragon](monster/young_underworld_dragon)"
+			"- {monster/Adult Underworld Dragon}",
+			"- {monster/Ancient Underworld Dragon}",
+			"- {monster/Young Underworld Dragon}"
 		],
 		"description": [
 			"## Dragon (Imperial, Underworld)",
 			"",
-			"**Family:** [Imperial Dragon](family/imperial_dragon)",
+			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1795,7 +1795,7 @@
 			"",
 			"Outer dragons, natives of the vast reaches of space, can be encountered on diverse worlds. They are generally neutral, but their alignments vary more than those of other dragons.",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)"
+			"**Family:** {family/True Dragon}"
 		]
 	},
 	"outer_dragon": {
@@ -1805,14 +1805,14 @@
 		"name": "Dragon (Outer, Lunar)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Adult Lunar Dragon](monster/adult_lunar_dragon)",
-			"- [Ancient Lunar Dragon](monster/ancient_lunar_dragon)",
-			"- [Young Lunar Dragon](monster/young_lunar_dragon)"
+			"- {monster/Adult Lunar Dragon}",
+			"- {monster/Ancient Lunar Dragon}",
+			"- {monster/Young Lunar Dragon}"
 		],
 		"description": [
 			"## Dragon (Outer, Lunar)",
 			"",
-			"**Family:** [Outer Dragon](family/outer_dragon)",
+			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1851,14 +1851,14 @@
 		"name": "Dragon (Outer, Solar)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Adult Solar Dragon](monster/adult_solar_dragon)",
-			"- [Ancient Solar Dragon](monster/ancient_solar_dragon)",
-			"- [Young Solar Dragon](monster/young_solar_dragon)"
+			"- {monster/Adult Solar Dragon}",
+			"- {monster/Ancient Solar Dragon}",
+			"- {monster/Young Solar Dragon}"
 		],
 		"description": [
 			"## Dragon (Outer, Solar)",
 			"",
-			"**Family:** [Outer Dragon](family/outer_dragon)",
+			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1895,14 +1895,14 @@
 		"name": "Dragon (Outer, Time)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Adult Time Dragon](monster/adult_time_dragon)",
-			"- [Ancient Time Dragon](monster/ancient_time_dragon)",
-			"- [Young Time Dragon](monster/young_time_dragon)"
+			"- {monster/Adult Time Dragon}",
+			"- {monster/Ancient Time Dragon}",
+			"- {monster/Young Time Dragon}"
 		],
 		"description": [
 			"## Dragon (Outer, Time)",
 			"",
-			"**Family:** [Outer Dragon](family/outer_dragon)",
+			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1941,14 +1941,14 @@
 		"name": "Dragon (Outer, Void)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Adult Void Dragon](monster/adult_void_dragon)",
-			"- [Ancient Void Dragon](monster/ancient_void_dragon)",
-			"- [Young Void Dragon](monster/young_void_dragon)"
+			"- {monster/Adult Void Dragon}",
+			"- {monster/Ancient Void Dragon}",
+			"- {monster/Young Void Dragon}"
 		],
 		"description": [
 			"## Dragon (Outer, Void)",
 			"",
-			"**Family:** [Outer Dragon](family/outer_dragon)",
+			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1985,14 +1985,14 @@
 		"name": "Dragon (Outer, Vortex)",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Adult Vortex Dragon](monster/adult_vortex_dragon)",
-			"- [Ancient Vortex Dragon](monster/ancient_vortex_dragon)",
-			"- [Young Vortex Dragon](monster/young_vortex_dragon)"
+			"- {monster/Adult Vortex Dragon}",
+			"- {monster/Ancient Vortex Dragon}",
+			"- {monster/Young Vortex Dragon}"
 		],
 		"description": [
 			"## Dragon (Outer, Vortex)",
 			"",
-			"**Family:** [Outer Dragon](family/outer_dragon)",
+			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2039,7 +2039,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)"
+			"**Family:** {family/True Dragon}"
 		]
 	},
 	"planar_dragon": {
@@ -2049,9 +2049,9 @@
 		"name": "Dragon (Planar, Apocalypse)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
-			"- [Adult Apocalypse Dragon](monster/adult_apocalypse_dragon)",
-			"- [Ancient Apocalypse Dragon](monster/ancient_apocalypse_dragon)",
-			"- [Young Apocalypse Dragon](monster/young_apocalypse_dragon)"
+			"- {monster/Adult Apocalypse Dragon}",
+			"- {monster/Ancient Apocalypse Dragon}",
+			"- {monster/Young Apocalypse Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Apocalypse)",
@@ -2060,7 +2060,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"apocalypse_dragon": {
@@ -2070,9 +2070,9 @@
 		"name": "Dragon (Planar, Bliss)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
-			"- [Adult Bliss Dragon](monster/adult_bliss_dragon)",
-			"- [Ancient Bliss Dragon](monster/ancient_bliss_dragon)",
-			"- [Young Bliss Dragon](monster/young_bliss_dragon)"
+			"- {monster/Adult Bliss Dragon}",
+			"- {monster/Ancient Bliss Dragon}",
+			"- {monster/Young Bliss Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Bliss)",
@@ -2081,7 +2081,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"bliss_dragon": {
@@ -2091,9 +2091,9 @@
 		"name": "Dragon (Planar, Crypt)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Adult Crypt Dragon](monster/adult_crypt_dragon)",
-			"- [Ancient Crypt Dragon](monster/ancient_crypt_dragon)",
-			"- [Young Crypt Dragon](monster/young_crypt_dragon)"
+			"- {monster/Adult Crypt Dragon}",
+			"- {monster/Ancient Crypt Dragon}",
+			"- {monster/Young Crypt Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Crypt)",
@@ -2102,7 +2102,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"crypt_dragon": {
@@ -2112,9 +2112,9 @@
 		"name": "Dragon (Planar, Edict)",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"members": [
-			"- [Adult Edict Dragon](monster/adult_edict_dragon)",
-			"- [Ancient Edict Dragon](monster/ancient_edict_dragon)",
-			"- [Young Edict Dragon](monster/young_edict_dragon)"
+			"- {monster/Adult Edict Dragon}",
+			"- {monster/Ancient Edict Dragon}",
+			"- {monster/Young Edict Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Edict)",
@@ -2212,11 +2212,11 @@
 			"",
 			"**Immunities (Ex):** Every dragon is immune to sleep and paralysis. In addition, a dragon is immune to one or two additional forms of attack no matter what its age, as given in its description.",
 			"",
-			"**Planar Infusion (Su):** a juvenile or older planar dragon can influence its surroundings as full-round action, causing an area with a radius of 30 feet &times; the dragon's age category number to be treated as an extension of its home plane. This imposes that plane's strong alignment traits and grants the plane's enhanced and impeded magic traits, affects whether a creature is treated as native or extraplanar for the purpose of spells like [dismissal](spell/dismissal) and creates minor sensory effects evoking that plane. This effect is immobile and lasts for 10 days or until the dragon dies or uses this ability again.",
+			"**Planar Infusion (Su):** a juvenile or older planar dragon can influence its surroundings as full-round action, causing an area with a radius of 30 feet &times; the dragon's age category number to be treated as an extension of its home plane. This imposes that plane's strong alignment traits and grants the plane's enhanced and impeded magic traits, affects whether a creature is treated as native or extraplanar for the purpose of spells like {spell/dismissal} and creates minor sensory effects evoking that plane. This effect is immobile and lasts for 10 days or until the dragon dies or uses this ability again.",
 			"",
 			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR.",
 			"",
-			"**Spells:** A planar dragon knows and casts spells as per an [oracle](class/oracle) of the level indicated in its specific description. Its caster level depends on its age, as given for each type."
+			"**Spells:** A planar dragon knows and casts spells as per an {class/oracle} of the level indicated in its specific description. Its caster level depends on its age, as given for each type."
 		]
 	},
 	"edict_dragon": {
@@ -2226,9 +2226,9 @@
 		"name": "Dragon (Planar, Havoc)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Adult Havoc Dragon](monster/adult_havoc_dragon)",
-			"- [Ancient Havoc Dragon](monster/ancient_havoc_dragon)",
-			"- [Young Havoc Dragon](monster/young_havoc_dragon)"
+			"- {monster/Adult Havoc Dragon}",
+			"- {monster/Ancient Havoc Dragon}",
+			"- {monster/Young Havoc Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Havoc)",
@@ -2237,7 +2237,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"havoc_dragon": {
@@ -2247,9 +2247,9 @@
 		"name": "Dragon (Planar, Infernal)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Adult Infernal Dragon](monster/adult_infernal_dragon)",
-			"- [Ancient Infernal Dragon](monster/ancient_infernal_dragon)",
-			"- [Young Infernal Dragon](monster/young_infernal_dragon)"
+			"- {monster/Adult Infernal Dragon}",
+			"- {monster/Ancient Infernal Dragon}",
+			"- {monster/Young Infernal Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Infernal)",
@@ -2258,7 +2258,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"infernal_dragon": {
@@ -2268,9 +2268,9 @@
 		"name": "Dragon (Planar, Paradise)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Adult Paradise Dragon](monster/adult_paradise_dragon)",
-			"- [Ancient Paradise Dragon](monster/ancient_paradise_dragon)",
-			"- [Young Paradise Dragon](monster/young_paradise_dragon)"
+			"- {monster/Adult Paradise Dragon}",
+			"- {monster/Ancient Paradise Dragon}",
+			"- {monster/Young Paradise Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Paradise)",
@@ -2279,7 +2279,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"paradise_dragon": {
@@ -2289,9 +2289,9 @@
 		"name": "Dragon (Planar, Rift)",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Adult Rift Dragon](monster/adult_rift_dragon)",
-			"- [Ancient Rift Dragon](monster/ancient_rift_dragon)",
-			"- [Young Rift Dragon](monster/young_rift_dragon)"
+			"- {monster/Adult Rift Dragon}",
+			"- {monster/Ancient Rift Dragon}",
+			"- {monster/Young Rift Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Rift)",
@@ -2300,7 +2300,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"rift_dragon": {
@@ -2310,9 +2310,9 @@
 		"name": "Dragon (Planar, Tumult)",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"members": [
-			"- [Adult Tumult Dragon](monster/adult_tumult_dragon)",
-			"- [Ancient Tumult Dragon](monster/ancient_tumult_dragon)",
-			"- [Young Tumult Dragon](monster/young_tumult_dragon)"
+			"- {monster/Adult Tumult Dragon}",
+			"- {monster/Ancient Tumult Dragon}",
+			"- {monster/Young Tumult Dragon}"
 		],
 		"description": [
 			"## Dragon (Planar, Tumult)",
@@ -2321,7 +2321,7 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** [Planar Dragon](family/planar_dragon)"
+			"**Family:** {family/Planar Dragon}"
 		]
 	},
 	"tumult_dragon": {
@@ -2338,7 +2338,7 @@
 			"",
 			"Though chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented on the following pages are the five primal dragons-powerful creatures that hail from the elemental planes and the Plane of Shadows.",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)"
+			"**Family:** {family/True Dragon}"
 		]
 	},
 	"primal_dragon": {
@@ -2348,14 +2348,14 @@
 		"name": "Dragon (Primal, Brine)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Adult Brine Dragon](monster/adult_brine_dragon)",
-			"- [Ancient Brine Dragon](monster/ancient_brine_dragon)",
-			"- [Young Brine Dragon](monster/young_brine_dragon)"
+			"- {monster/Adult Brine Dragon}",
+			"- {monster/Ancient Brine Dragon}",
+			"- {monster/Young Brine Dragon}"
 		],
 		"description": [
 			"## Dragon (Primal, Brine)",
 			"",
-			"**Family:** [Primal Dragon](family/primal_dragon)",
+			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2390,14 +2390,14 @@
 		"name": "Dragon (Primal, Cloud)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Adult Cloud Dragon](monster/adult_cloud_dragon)",
-			"- [Ancient Cloud Dragon](monster/ancient_cloud_dragon)",
-			"- [Young Cloud Dragon](monster/young_cloud_dragon)"
+			"- {monster/Adult Cloud Dragon}",
+			"- {monster/Ancient Cloud Dragon}",
+			"- {monster/Young Cloud Dragon}"
 		],
 		"description": [
 			"## Dragon (Primal, Cloud)",
 			"",
-			"**Family:** [Primal Dragon](family/primal_dragon)",
+			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2434,14 +2434,14 @@
 		"name": "Dragon (Primal, Crystal)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Adult Crystal Dragon](monster/adult_crystal_dragon)",
-			"- [Ancient Crystal Dragon](monster/ancient_crystal_dragon)",
-			"- [Young Crystal Dragon](monster/young_crystal_dragon)"
+			"- {monster/Adult Crystal Dragon}",
+			"- {monster/Ancient Crystal Dragon}",
+			"- {monster/Young Crystal Dragon}"
 		],
 		"description": [
 			"## Dragon (Primal, Crystal)",
 			"",
-			"**Family:** [Primal Dragon](family/primal_dragon)",
+			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2478,14 +2478,14 @@
 		"name": "Dragon (Primal, Magma)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Adult Magma Dragon](monster/adult_magma_dragon)",
-			"- [Ancient Magma Dragon](monster/ancient_magma_dragon)",
-			"- [Young Magma Dragon](monster/young_magma_dragon)"
+			"- {monster/Adult Magma Dragon}",
+			"- {monster/Ancient Magma Dragon}",
+			"- {monster/Young Magma Dragon}"
 		],
 		"description": [
 			"## Dragon (Primal, Magma)",
 			"",
-			"**Family:** [Primal Dragon](family/primal_dragon)",
+			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2504,7 +2504,7 @@
 			"",
 			"### Special Abilities",
 			"",
-			"**Magma Tomb (Su)** Once per day, a great wyrm magma dragon can spit lava onto a target within 120 feet, dealing damage normally for its breath weapon. This magma cools instantly-it does not continue doing damage at this point but does [entrap](umr/entrap) the victim (DC equals the dragon's breath weapon save DC, 3d6 minutes, hardness 8, hp 45).",
+			"**Magma Tomb (Su)** Once per day, a great wyrm magma dragon can spit lava onto a target within 120 feet, dealing damage normally for its breath weapon. This magma cools instantly-it does not continue doing damage at this point but does {umr/entrap} the victim (DC equals the dragon's breath weapon save DC, 3d6 minutes, hardness 8, hp 45).",
 			"",
 			"**Magma Breath (Su)** Three times per day, an ancient or older magma dragon can breathe a cone of lava instead of fire. The damage is unchanged, but the magma clings to those it damages, dealing half damage each round thereafter for 1d3 rounds. After this magma cools, it crumbles to dust.",
 			"",
@@ -2520,14 +2520,14 @@
 		"name": "Dragon (Primal, Umbral)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Adult Umbral Dragon](monster/adult_umbral_dragon)",
-			"- [Ancient Umbral Dragon](monster/ancient_umbral_dragon)",
-			"- [Young Umbral Dragon](monster/young_umbral_dragon)"
+			"- {monster/Adult Umbral Dragon}",
+			"- {monster/Ancient Umbral Dragon}",
+			"- {monster/Young Umbral Dragon}"
 		],
 		"description": [
 			"## Dragon (Primal, Umbral)",
 			"",
-			"**Family:** [Primal Dragon](family/primal_dragon)",
+			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2568,18 +2568,18 @@
 		"name": "Dragon (Red)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Red Dragon](monster/adult_red_dragon)",
-			"- [Ancient Red Dragon](monster/ancient_red_dragon)",
-			"- [Young Red Dragon](monster/young_red_dragon)"
+			"- {monster/Adult Red Dragon}",
+			"- {monster/Ancient Red Dragon}",
+			"- {monster/Young Red Dragon}"
 		],
 		"mythic_members": [
-			"- [Wyrm Red Dragon](monster/wyrm_red_dragon)",
-			"- [Young Red Dragon](monster/young_red_dragon_mythic)"
+			"- {monster/Wyrm Red Dragon}",
+			"- {monster/Young Red Dragon}"
 		],
 		"description": [
 			"## Red Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -2593,7 +2593,7 @@
 			"",
 			"**Smoke Vision (Ex)** A very young red dragon can see perfectly in smoky conditions (such as those created by pyrotechnics).",
 			"",
-			"**Spell-Like Abilities (Sp)** A red dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-[detect magic](spell/detect_magic); Juvenile-[pyrotechnics](spell/pyrotechnics); Adult-[suggestion](spell/suggestion); Old-[wall of fire](spell/wall_of_fire); Ancient-[find the path](spell/find_the_path); Great wyrm-[discern location](spell/discern_location)."
+			"**Spell-Like Abilities (Sp)** A red dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-{spell/detect magic}; Juvenile-{spell/pyrotechnics}; Adult-{spell/suggestion}; Old-{spell/wall of fire}; Ancient-{spell/find the path}; Great wyrm-{spell/discern location}."
 		]
 	},
 	"red_dragon": {
@@ -2603,14 +2603,14 @@
 		"name": "Dragon (Silver)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult Silver Dragon](monster/adult_silver_dragon)",
-			"- [Ancient Silver Dragon](monster/ancient_silver_dragon)",
-			"- [Young Silver Dragon](monster/young_silver_dragon)"
+			"- {monster/Adult Silver Dragon}",
+			"- {monster/Ancient Silver Dragon}",
+			"- {monster/Young Silver Dragon}"
 		],
 		"description": [
 			"## Silver Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -2628,7 +2628,7 @@
 			"",
 			"**Reflective Scales (Su)** Any spell that targets an ancient or older silver dragon but fails to penetrate the silver dragon's spell resistance might be reflected. If the caster level check to penetrate the dragon's spell resistance is failed by 5 or more, the spell is reflected. If the check fails by 4 or less, the spell is merely wasted. This otherwise functions as spell turning.",
 			"",
-			"**Spell-Like Abilities (Sp)** A silver dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Very young-[detect evil](spell/detect_evil); Juvenile-[feather fall](spell/feather_fall); Adult-[fog cloud](spell/fog_cloud); Old-[control winds](spell/control_winds); Ancient-[control weather](spell/control_weather); Great wyrm-[reverse gravity](spell/reverse_gravity).",
+			"**Spell-Like Abilities (Sp)** A silver dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Very young-{spell/detect evil}; Juvenile-{spell/feather fall}; Adult-{spell/fog cloud}; Old-{spell/control winds}; Ancient-{spell/control weather}; Great wyrm-{spell/reverse gravity}.",
 			"",
 			"**True Courage (Ex)** A great wyrm silver dragon can fight on through pain and death. When reduced to below 0 hit points, it remains conscious, automatically stabilizes, and can continue to act (although it is staggered). If it takes damage or is the target of a spell that causes its death, it remains alive for 1 round and can act normally (it is not staggered for this final round)."
 		]
@@ -2640,9 +2640,9 @@
 		"name": "Dragon (White)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adult White Dragon](monster/adult_white_dragon)",
-			"- [Ancient White Dragon](monster/ancient_white_dragon)",
-			"- [Young White Dragon](monster/young_white_dragon)"
+			"- {monster/Adult White Dragon}",
+			"- {monster/Ancient White Dragon}",
+			"- {monster/Young White Dragon}"
 		],
 		"mythic_members": [
 			"- [Juvenile White Dragon](monster/juvenile_white_dragon_mythic)"
@@ -2650,7 +2650,7 @@
 		"description": [
 			"## White Dragon",
 			"",
-			"**Family:** [True Dragon](family/true_dragon)",
+			"**Family:** {family/True Dragon}",
 			"",
 			"### Special Abilities",
 			"",
@@ -2678,19 +2678,19 @@
 		"name": "Drake",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Desert Drake](monster/desert_drake)",
-			"- [Ether Drake](monster/ether_drake)",
-			"- [Flame Drake](monster/flame_drake)",
-			"- [Forest Drake](monster/forest_drake)",
-			"- [Frost Drake](monster/frost_drake)",
-			"- [Jungle Drake](monster/jungle_drake)",
-			"- [Lava Drake](monster/lava_drake)",
-			"- [Mist Drake](monster/mist_drake)",
-			"- [Rift Drake](monster/rift_drake)",
-			"- [River Drake](monster/river_drake)",
-			"- [Sea Drake](monster/sea_drake)",
-			"- [Shadow Drake](monster/shadow_drake)",
-			"- [Spire Drake](monster/spire_drake)"
+			"- {monster/Desert Drake}",
+			"- {monster/Ether Drake}",
+			"- {monster/Flame Drake}",
+			"- {monster/Forest Drake}",
+			"- {monster/Frost Drake}",
+			"- {monster/Jungle Drake}",
+			"- {monster/Lava Drake}",
+			"- {monster/Mist Drake}",
+			"- {monster/Rift Drake}",
+			"- {monster/River Drake}",
+			"- {monster/Sea Drake}",
+			"- {monster/Shadow Drake}",
+			"- {monster/Spire Drake}"
 		],
 		"description": [
 			"## Drake",
@@ -2727,17 +2727,17 @@
 		"name": "Elemental (Aether)",
 		"sources": [ "Bestiary 5" ],
 		"members": [
-			"- [Elder Aether Elemental](monster/elder_aether_elemental)",
-			"- [Greater Aether Elemental](monster/greater_aether_elemental)",
-			"- [Huge Aether Elemental](monster/huge_aether_elemental)",
-			"- [Large Aether Elemental](monster/large_aether_elemental)",
-			"- [Medium Aether Elemental](monster/medium_aether_elemental)",
-			"- [Small Aether Elemental](monster/small_aether_elemental)"
+			"- {monster/Elder Aether Elemental}",
+			"- {monster/Greater Aether Elemental}",
+			"- {monster/Huge Aether Elemental}",
+			"- {monster/Large Aether Elemental}",
+			"- {monster/Medium Aether Elemental}",
+			"- {monster/Small Aether Elemental}"
 		],
 		"description": [
 			"## Elemental (Aether)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
 			"",
@@ -2751,13 +2751,13 @@
 			"",
 			"### Special Abilities",
 			"",
-			"**Telekinetic Invisibility (Ex)** An aether elemental's body bends light and dampens sound waves. This works as the kineticist utility wild talent telekinetic invisibility, except that it is constant and doesn't end when the elemental attacks. As this ability is inherent, it is not subject to effects such as [invisibility purge](spell/invisibility_purge).",
+			"**Telekinetic Invisibility (Ex)** An aether elemental's body bends light and dampens sound waves. This works as the kineticist utility wild talent telekinetic invisibility, except that it is constant and doesn't end when the elemental attacks. As this ability is inherent, it is not subject to effects such as {spell/invisibility purge}.",
 			"",
 			"**Telekinetic Throw (Ex)** An aether elemental can fling a creature or object (with a maximum range of 480 feet). A creature receives a Fortitude save to avoid being thrown (the save DC is Constitution-based). The telekinetic throw deals the listed damage to both the thrown creature or object and the target. The aether elemental can throw a creature or object that weighs at most 50 pounds per Hit Die the elemental possesses.",
 			"",
 			"**Telekinetic Deflection (Su)** An aether elemental gains a deflection bonus to its AC equal to its Constitution modifier.",
 			"",
-			"**Telekinetic Maneuver (Su)** An aether elemental can attempt a ranged combat maneuver check, as per [telekinesis](spell/telekinesis), with a CMB equal to its Hit Dice + its Dexterity modifier."
+			"**Telekinetic Maneuver (Su)** An aether elemental can attempt a ranged combat maneuver check, as per {spell/telekinesis}, with a CMB equal to its Hit Dice + its Dexterity modifier."
 		]
 	},
 	"aether_elemental": {
@@ -2767,20 +2767,20 @@
 		"name": "Elemental (Air)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Elder Air Elemental](monster/elder_air_elemental)",
-			"- [Greater Air Elemental](monster/greater_air_elemental)",
-			"- [Huge Air Elemental](monster/huge_air_elemental)",
-			"- [Large Air Elemental](monster/large_air_elemental)",
-			"- [Medium Air Elemental](monster/medium_air_elemental)",
-			"- [Small Air Elemental](monster/small_air_elemental)"
+			"- {monster/Elder Air Elemental}",
+			"- {monster/Greater Air Elemental}",
+			"- {monster/Huge Air Elemental}",
+			"- {monster/Large Air Elemental}",
+			"- {monster/Medium Air Elemental}",
+			"- {monster/Small Air Elemental}"
 		],
 		"mythic_members": [
-			"- [Elder Air Elemental](monster/elder_air_elemental)"
+			"- {monster/Elder Air Elemental}"
 		],
 		"description": [
 			"## Elemental (Air)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Air elementals are fast, flying creatures made of living air. Primitive and territorial, they resent being summoned or doing the bidding of mortals, and much prefer to spend their time on the Plane of Air, swooping and racing through the endless skies.",
 			"",
@@ -2811,20 +2811,20 @@
 		"name": "Elemental (Earth)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Elder Earth Elemental](monster/elder_earth_elemental)",
-			"- [Greater Earth Elemental](monster/greater_earth_elemental)",
-			"- [Huge Earth Elemental](monster/huge_earth_elemental)",
-			"- [Large Earth Elemental](monster/large_earth_elemental)",
-			"- [Medium Earth Elemental](monster/medium_earth_elemental)",
-			"- [Small Earth Elemental](monster/small_earth_elemental)"
+			"- {monster/Elder Earth Elemental}",
+			"- {monster/Greater Earth Elemental}",
+			"- {monster/Huge Earth Elemental}",
+			"- {monster/Large Earth Elemental}",
+			"- {monster/Medium Earth Elemental}",
+			"- {monster/Small Earth Elemental}"
 		],
 		"mythic_members": [
-			"- [Elder Earth Elemental](monster/elder_earth_elemental)"
+			"- {monster/Elder Earth Elemental}"
 		],
 		"description": [
 			"## Elemental (Earth)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Earth elementals are plodding, stubborn creatures made of living stone or earth. When utterly still, they resemble a heap of stone or a small hill.",
 			"",
@@ -2855,20 +2855,20 @@
 		"name": "Elemental (Fire)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Elder Fire Elemental](monster/elder_fire_elemental)",
-			"- [Greater Fire Elemental](monster/greater_fire_elemental)",
-			"- [Huge Fire Elemental](monster/huge_fire_elemental)",
-			"- [Large Fire Elemental](monster/large_fire_elemental)",
-			"- [Medium Fire Elemental](monster/medium_fire_elemental)",
-			"- [Small Fire Elemental](monster/small_fire_elemental)"
+			"- {monster/Elder Fire Elemental}",
+			"- {monster/Greater Fire Elemental}",
+			"- {monster/Huge Fire Elemental}",
+			"- {monster/Large Fire Elemental}",
+			"- {monster/Medium Fire Elemental}",
+			"- {monster/Small Fire Elemental}"
 		],
 		"mythic_members": [
-			"- [Elder Fire Elemental](monster/elder_fire_elemental)"
+			"- {monster/Elder Fire Elemental}"
 		],
 		"description": [
 			"## Elemental (Fire)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.",
 			"",
@@ -2901,17 +2901,17 @@
 		"name": "Elemental (Ice)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Elder Ice Elemental](monster/elder_ice_elemental)",
-			"- [Greater Ice Elemental](monster/greater_ice_elemental)",
-			"- [Huge Ice Elemental](monster/huge_ice_elemental)",
-			"- [Large Ice Elemental](monster/large_ice_elemental)",
-			"- [Medium Ice Elemental](monster/medium_ice_elemental)",
-			"- [Small Ice Elemental](monster/small_ice_elemental)"
+			"- {monster/Elder Ice Elemental}",
+			"- {monster/Greater Ice Elemental}",
+			"- {monster/Huge Ice Elemental}",
+			"- {monster/Large Ice Elemental}",
+			"- {monster/Medium Ice Elemental}",
+			"- {monster/Small Ice Elemental}"
 		],
 		"description": [
 			"## Elemental (Ice)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Ice elementals are creatures made of animated snow and ice. They form in especially cold parts of the Plane of Water and along its border with the Plane of Air, where giant icebergs careen off of world-high waterfalls into the open sky. Ice elementals vary in their exact appearance.",
 			"",
@@ -2935,17 +2935,17 @@
 		"name": "Elemental (Lightning)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Elder Lightning Elemental](monster/elder_lightning_elemental)",
-			"- [Greater Lightning Elemental](monster/greater_lightning_elemental)",
-			"- [Huge Lightning Elemental](monster/huge_lightning_elemental)",
-			"- [Large Lightning Elemental](monster/large_lightning_elemental)",
-			"- [Medium Lightning Elemental](monster/medium_lightning_elemental)",
-			"- [Small Lightning Elemental](monster/small_lightning_elemental)"
+			"- {monster/Elder Lightning Elemental}",
+			"- {monster/Greater Lightning Elemental}",
+			"- {monster/Huge Lightning Elemental}",
+			"- {monster/Large Lightning Elemental}",
+			"- {monster/Medium Lightning Elemental}",
+			"- {monster/Small Lightning Elemental}"
 		],
 		"description": [
 			"## Elemental (Lightning)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Though most think of the Plane of Air as a vast expanse of clear sky, that plane also holds the power of the storm, including monstrous hurricanes larger than entire worlds and thunderstorms whose peals and claps can shatter stone. Whether lightning elementals are the byproduct of common air elementals spending too much time near these electrically charged storms or are merely calved off like forgotten flurries, they are aggressive and almost suicidal in their willingness to leap into battle. They particularly enjoy attacking creatures that are made of metal and creatures that wear metal armor or wield metal weapons.",
 			"",
@@ -2967,17 +2967,17 @@
 		"name": "Elemental (Magma)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Elder Magma Elemental](monster/elder_magma_elemental)",
-			"- [Greater Magma Elemental](monster/greater_magma_elemental)",
-			"- [Huge Magma Elemental](monster/huge_magma_elemental)",
-			"- [Large Magma Elemental](monster/large_magma_elemental)",
-			"- [Medium Magma Elemental](monster/medium_magma_elemental)",
-			"- [Small Magma Elemental](monster/small_magma_elemental)"
+			"- {monster/Elder Magma Elemental}",
+			"- {monster/Greater Magma Elemental}",
+			"- {monster/Huge Magma Elemental}",
+			"- {monster/Large Magma Elemental}",
+			"- {monster/Medium Magma Elemental}",
+			"- {monster/Small Magma Elemental}"
 		],
 		"description": [
 			"## Elemental (Magma)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"In the border areas between the Plane of Earth and Plane of Fire, volcanoes and continent-sized lava flows are commonplace. Elementals in this area tend to have aspects of both planes, and the typical sort is the magma elemental, an earth elemental with a core of liquid fire. Magma elementals generally have a somewhat feral or bestial appearance.",
 			"",
@@ -2999,17 +2999,17 @@
 		"name": "Elemental (Mud)",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Elder Mud Elemental](monster/elder_mud_elemental)",
-			"- [Greater Mud Elemental](monster/greater_mud_elemental)",
-			"- [Huge Mud Elemental](monster/huge_mud_elemental)",
-			"- [Large Mud Elemental](monster/large_mud_elemental)",
-			"- [Medium Mud Elemental](monster/medium_mud_elemental)",
-			"- [Small Mud Elemental](monster/small_mud_elemental)"
+			"- {monster/Elder Mud Elemental}",
+			"- {monster/Greater Mud Elemental}",
+			"- {monster/Huge Mud Elemental}",
+			"- {monster/Large Mud Elemental}",
+			"- {monster/Medium Mud Elemental}",
+			"- {monster/Small Mud Elemental}"
 		],
 		"description": [
 			"## Elemental (Mud)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Where the Plane of Earth borders the Plane of Water, a mixing of the fundamental elements occurs-it is in this borderland that the mud elementals dwell. Scorned by earth and water elementals, mud elementals usually look like vaguely recognizable blobs of mud in the shape of a Material Plane creature, whether a humanoid, an animal, or even an immense insect. The exact density of their muddy bodies varies-some might be composed of silty water, while others are thick, like river clay. Large and powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.",
 			"",
@@ -3029,20 +3029,20 @@
 		"name": "Elemental (Water)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Elder Water Elemental](monster/elder_water_elemental)",
-			"- [Greater Water Elemental](monster/greater_water_elemental)",
-			"- [Huge Water Elemental](monster/huge_water_elemental)",
-			"- [Large Water Elemental](monster/large_water_elemental)",
-			"- [Medium Water Elemental](monster/medium_water_elemental)",
-			"- [Small Water Elemental](monster/small_water_elemental)"
+			"- {monster/Elder Water Elemental}",
+			"- {monster/Greater Water Elemental}",
+			"- {monster/Huge Water Elemental}",
+			"- {monster/Large Water Elemental}",
+			"- {monster/Medium Water Elemental}",
+			"- {monster/Small Water Elemental}"
 		],
 		"mythic_members": [
-			"- [Elder Water Elemental](monster/elder_water_elemental)"
+			"- {monster/Elder Water Elemental}"
 		],
 		"description": [
 			"## Elemental (Water)",
 			"",
-			"**Family:** [Elemental](family/elemental)",
+			"**Family:** {family/Elemental}",
 			"",
 			"Water elementals are patient, relentless creatures made of living fresh or salt water. They prefer to hide or drag their opponents into the water to gain an advantage.",
 			"",
@@ -3075,10 +3075,10 @@
 		"name": "Empyreal Lord",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Ashava](monster/ashava)",
-			"- [Cernunnos](monster/cernunnos)",
-			"- [Korada](monster/korada)",
-			"- [Ragathiel](monster/ragathiel)"
+			"- {monster/Ashava}",
+			"- {monster/Cernunnos}",
+			"- {monster/Korada}",
+			"- {monster/Ragathiel}"
 		],
 		"description": [
 			"## Empyreal Lord",
@@ -3132,84 +3132,84 @@
 		"name": "Familiar",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Archaeopteryx](monster/archaeopteryx)",
-			"- [Arctic Hare](monster/arctic_hare)",
-			"- [Arctic Tern](monster/arctic_tern)",
-			"- [Armadillo](monster/armadillo)",
-			"- [Bat](monster/bat)",
-			"- [Blue-Ringed Octopus](monster/blue-ringed_octopus)",
+			"- {monster/Archaeopteryx}",
+			"- {monster/Arctic Hare}",
+			"- {monster/Arctic Tern}",
+			"- {monster/Armadillo}",
+			"- {monster/Bat}",
+			"- {monster/Blue-Ringed Octopus}",
 			"- [Butterfly/Moth](monster/butterfly_or_moth)",
-			"- [Cat](monster/cat)",
-			"- [Chicken](monster/chicken)",
-			"- [Cockroach](monster/cockroach)",
-			"- [Creeper Ivy](monster/creeper_ivy)",
-			"- [Dodo](monster/dodo)",
-			"- [Donkey Rat](monster/donkey_rat)",
-			"- [Dwarf Caiman](monster/dwarf_caiman)",
-			"- [Dweomer Cap](monster/dweomer_cap)",
-			"- [Fire Salamander](monster/fire_salamander)",
-			"- [Flowering Lattice](monster/flowering_lattice)",
-			"- [Flying Fox](monster/flying_fox)",
-			"- [Flying Squirrel](monster/flying_squirrel)",
-			"- [Fox](monster/fox)",
-			"- [Giant Isopod](monster/giant_isopod)",
-			"- [Giant Tardigrade](monster/giant_tardigrade)",
-			"- [Goat](monster/goat)",
-			"- [Hawk](monster/hawk)",
-			"- [Hedgehog](monster/hedgehog)",
-			"- [Horned Lizard](monster/horned_lizard)",
-			"- [House Centipede](monster/house_centipede)",
-			"- [Ioun Wyrd](monster/ioun_wyrd)",
-			"- [Jerboa](monster/jerboa)",
-			"- [Kakapo](monster/kakapo)",
-			"- [King Crab](monster/king_crab)",
-			"- [Koala](monster/koala)",
-			"- [Lamprey](monster/lamprey)",
-			"- [Lemming](monster/lemming)",
-			"- [Leopard Slug](monster/leopard_slug)",
-			"- [Lizard](monster/lizard)",
-			"- [Margay Cat](monster/margay_cat)",
-			"- [Meerkat](monster/meerkat)",
-			"- [Mole (FF)](monster/mole_ff)",
-			"- [Mole (UW)](monster/mole_uw)",
-			"- [Monkey](monster/monkey)",
-			"- [Otter](monster/otter)",
-			"- [Owl](monster/owl)",
-			"- [Peacock](monster/peacock)",
-			"- [Peafowl](monster/peafowl)",
-			"- [Penguin](monster/penguin)",
-			"- [Petrifern](monster/petrifern)",
-			"- [Pig](monster/pig)",
-			"- [Platypus](monster/platypus)",
-			"- [Popoto Dolphin](monster/popoto_dolphin)",
-			"- [Ptarmigan](monster/ptarmigan)",
-			"- [Pufferfish](monster/pufferfish)",
-			"- [Puffin](monster/puffin)",
-			"- [Rabbit](monster/rabbit)",
-			"- [Raccoon](monster/raccoon)",
-			"- [Rat](monster/rat)",
-			"- [Raven](monster/raven)",
-			"- [Ravenous Tumbleweed](monster/ravenous_tumbleweed)",
-			"- [Razor Fern](monster/razor_fern)",
-			"- [Red Panda](monster/red_panda)",
-			"- [Rhamphorhynchus](monster/rhamphorhynchus)",
-			"- [Sawleg Locust](monster/sawleg_locust)",
-			"- [Scarlet Spider](monster/scarlet_spider)",
-			"- [Seal](monster/seal)",
-			"- [Shimmerwing Dragonfly](monster/shimmerwing_dragonfly)",
-			"- [Sloth](monster/sloth)",
-			"- [Spiny Starfish](monster/spiny_starfish)",
-			"- [Squirrel](monster/squirrel)",
-			"- [Suture Vine](monster/suture_vine)",
-			"- [Tarsier](monster/tarsier)",
-			"- [Thrush](monster/thrush)",
-			"- [Toad](monster/toad)",
-			"- [Trilobite](monster/trilobite)",
-			"- [Tuatara](monster/tuatara)",
-			"- [Vampire Squid](monster/vampire_squid)",
-			"- [Viper](monster/viper)",
-			"- [Wallaby](monster/wallaby)",
-			"- [Weasel](monster/weasel)"
+			"- {monster/Cat}",
+			"- {monster/Chicken}",
+			"- {monster/Cockroach}",
+			"- {monster/Creeper Ivy}",
+			"- {monster/Dodo}",
+			"- {monster/Donkey Rat}",
+			"- {monster/Dwarf Caiman}",
+			"- {monster/Dweomer Cap}",
+			"- {monster/Fire Salamander}",
+			"- {monster/Flowering Lattice}",
+			"- {monster/Flying Fox}",
+			"- {monster/Flying Squirrel}",
+			"- {monster/Fox}",
+			"- {monster/Giant Isopod}",
+			"- {monster/Giant Tardigrade}",
+			"- {monster/Goat}",
+			"- {monster/Hawk}",
+			"- {monster/Hedgehog}",
+			"- {monster/Horned Lizard}",
+			"- {monster/House Centipede}",
+			"- {monster/Ioun Wyrd}",
+			"- {monster/Jerboa}",
+			"- {monster/Kakapo}",
+			"- {monster/King Crab}",
+			"- {monster/Koala}",
+			"- {monster/Lamprey}",
+			"- {monster/Lemming}",
+			"- {monster/Leopard Slug}",
+			"- {monster/Lizard}",
+			"- {monster/Margay Cat}",
+			"- {monster/Meerkat}",
+			"- {monster/Mole (FF)}",
+			"- {monster/Mole (UW)}",
+			"- {monster/Monkey}",
+			"- {monster/Otter}",
+			"- {monster/Owl}",
+			"- {monster/Peacock}",
+			"- {monster/Peafowl}",
+			"- {monster/Penguin}",
+			"- {monster/Petrifern}",
+			"- {monster/Pig}",
+			"- {monster/Platypus}",
+			"- {monster/Popoto Dolphin}",
+			"- {monster/Ptarmigan}",
+			"- {monster/Pufferfish}",
+			"- {monster/Puffin}",
+			"- {monster/Rabbit}",
+			"- {monster/Raccoon}",
+			"- {monster/Rat}",
+			"- {monster/Raven}",
+			"- {monster/Ravenous Tumbleweed}",
+			"- {monster/Razor Fern}",
+			"- {monster/Red Panda}",
+			"- {monster/Rhamphorhynchus}",
+			"- {monster/Sawleg Locust}",
+			"- {monster/Scarlet Spider}",
+			"- {monster/Seal}",
+			"- {monster/Shimmerwing Dragonfly}",
+			"- {monster/Sloth}",
+			"- {monster/Spiny Starfish}",
+			"- {monster/Squirrel}",
+			"- {monster/Suture Vine}",
+			"- {monster/Tarsier}",
+			"- {monster/Thrush}",
+			"- {monster/Toad}",
+			"- {monster/Trilobite}",
+			"- {monster/Tuatara}",
+			"- {monster/Vampire Squid}",
+			"- {monster/Viper}",
+			"- {monster/Wallaby}",
+			"- {monster/Weasel}"
 		],
 		"description": [
 			"## Familiar",
@@ -3223,9 +3223,9 @@
 		"name": "Fiend-Bred Animal",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"members": [
-			"- [Chelish Hell-Bred Dog](monster/chelish_hell-bred_dog)",
-			"- [Quillcat](monster/quillcat)",
-			"- [Stygian Hot-Blooded Horse](monster/stygian_hot-blooded_horse)"
+			"- {monster/Chelish Hell-Bred Dog}",
+			"- {monster/Quillcat}",
+			"- {monster/Stygian Hot-Blooded Horse}"
 		],
 		"description": [
 			"## Fiend-Bred Animal",
@@ -3244,19 +3244,19 @@
 		"name": "Fleshwarp",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Drider](monster/drider)",
-			"- [Ghonhatine](monster/ghonhatine)",
-			"- [Grothlut](monster/grothlut)",
-			"- [Halsora](monster/halsora)",
-			"- [Irnakurse](monster/irnakurse)",
-			"- [Oronci](monster/oronci)"
+			"- {monster/Drider}",
+			"- {monster/Ghonhatine}",
+			"- {monster/Grothlut}",
+			"- {monster/Halsora}",
+			"- {monster/Irnakurse}",
+			"- {monster/Oronci}"
 		],
 		"description": [
 			"## Fleshwarp",
 			"",
 			"{SOURCE Bestiary 4}",
 			"",
-			"The most fearsome drow aren't satisfied with the mere defeat and death of their foes, preferring to defile their enemies in horrific ways. The most gruesome form of transformation assaults their enemies' very essence through the complicated process of [fleshwarping](rule/fleshwarping).",
+			"The most fearsome drow aren't satisfied with the mere defeat and death of their foes, preferring to defile their enemies in horrific ways. The most gruesome form of transformation assaults their enemies' very essence through the complicated process of {rule/fleshwarping}.",
 			"",
 			"Fleshwarping is the practice of altering a creature's physical form and mental state by way of a grisly mystical and alchemical process. It starts with submerging the subject in a vat filled with a magical and alchemical goo concocted of strange reagents, and infused with a multitude of living insects and other vermin. The goo dissolves and reshapes the flesh and bone of the subject while the vermin eat away at unwanted flesh, making way for the new, alchemically grown flesh to take hold. The process is torturous, and the subject is kept alive and conscious throughout it.",
 			"",
@@ -3268,18 +3268,18 @@
 			"",
 			"It's often said that the drow learned the gruesome art of fleshwarping as a reward for obscene pacts they made with some demon lord, but the identity of the demon lord who bestowed knowledge of the foul process changes with each telling of the tale.",
 			"",
-			"There are other cultures that also understand and use fleshwarping, but they tend to be either ancient or very secretive and xenophobic. [Sinspawn](monster/sinspawn), [fleshdregs](monster/fleshdreg), and the lamia-based [hungerer](monster/hungerer) are just some examples of non-drow fleshwarps."
+			"There are other cultures that also understand and use fleshwarping, but they tend to be either ancient or very secretive and xenophobic. {monster/Sinspawn}, [fleshdregs](monster/fleshdreg), and the lamia-based {monster/hungerer} are just some examples of non-drow fleshwarps."
 		]
 	},
 	"formian": {
 		"name": "Formian",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Formian Myrmarch](monster/formian_myrmarch)",
-			"- [Formian Queen](monster/formian_queen)",
-			"- [Formian Taskmaster](monster/formian_taskmaster)",
-			"- [Formian Warrior](monster/formian_warrior)",
-			"- [Formian Worker](monster/formian_worker)"
+			"- {monster/Formian Myrmarch}",
+			"- {monster/Formian Queen}",
+			"- {monster/Formian Taskmaster}",
+			"- {monster/Formian Warrior}",
+			"- {monster/Formian Worker}"
 		],
 		"description": [
 			"## Formian",
@@ -3315,11 +3315,11 @@
 		"name": "Gargoyle",
 		"sources": [ "Classic Horrors Revisited" ],
 		"members": [
-			"- [Four-Armed Gargoyle](monster/four-armed_gargoyle)",
-			"- [Gargoyle Abductor](monster/gargoyle_abductor)",
-			"- [Gargoyle Guardian](monster/gargoyle_guardian)",
-			"- [Gargoyle](monster/gargoyle)",
-			"- [Kapoacinth Hunter](monster/kapoacinth_hunter)"
+			"- {monster/Four-Armed Gargoyle}",
+			"- {monster/Gargoyle Abductor}",
+			"- {monster/Gargoyle Guardian}",
+			"- {monster/Gargoyle}",
+			"- {monster/Kapoacinth Hunter}"
 		],
 		"description": [
 			"## Gargoyle",
@@ -3333,11 +3333,11 @@
 		"name": "Genie",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Djinni](monster/djinni)",
-			"- [Efreeti](monster/efreeti)",
-			"- [Janni](monster/janni)",
-			"- [Marid](monster/marid)",
-			"- [Shaitan](monster/shaitan)"
+			"- {monster/Djinni}",
+			"- {monster/Efreeti}",
+			"- {monster/Janni}",
+			"- {monster/Marid}",
+			"- {monster/Shaitan}"
 		],
 		"description": [
 			"## Genie",
@@ -3351,9 +3351,9 @@
 		"name": "Gigas",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"members": [
-			"- [Abaddon Gigas](monster/abaddon_gigas)",
-			"- [Abyss Gigas](monster/abyss_gigas)",
-			"- [Hell Gigas](monster/hell_gigas)"
+			"- {monster/Abaddon Gigas}",
+			"- {monster/Abyss Gigas}",
+			"- {monster/Hell Gigas}"
 		],
 		"description": [
 			"## Gigas",
@@ -3367,51 +3367,51 @@
 		"name": "Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Adamantine Golem](monster/adamantine_golem)",
-			"- [Alchemical Golem](monster/alchemical_golem)",
-			"- [Behemoth Golem](monster/behemoth_golem)",
-			"- [Blood Golem](monster/blood_golem)",
-			"- [Bone Golem](monster/bone_golem)",
-			"- [Brass Golem](monster/brass_golem)",
-			"- [Cannon Golem](monster/cannon_golem)",
-			"- [Carrion Golem](monster/carrion_golem)",
-			"- [Clay Golem](monster/clay_golem)",
-			"- [Clockwork Golem](monster/clockwork_golem)",
-			"- [Coral Golem](monster/coral_golem)",
-			"- [Crystal Golem](monster/crystal_golem)",
-			"- [Dragonhide Golem](monster/dragonhide_golem)",
-			"- [Equine Bone Golem](monster/equine_bone_golem)",
+			"- {monster/Adamantine Golem}",
+			"- {monster/Alchemical Golem}",
+			"- {monster/Behemoth Golem}",
+			"- {monster/Blood Golem}",
+			"- {monster/Bone Golem}",
+			"- {monster/Brass Golem}",
+			"- {monster/Cannon Golem}",
+			"- {monster/Carrion Golem}",
+			"- {monster/Clay Golem}",
+			"- {monster/Clockwork Golem}",
+			"- {monster/Coral Golem}",
+			"- {monster/Crystal Golem}",
+			"- {monster/Dragonhide Golem}",
+			"- {monster/Equine Bone Golem}",
 			"- [Fiend-Infused Golem](template/fiend-infused)",
-			"- [Flesh Golem](monster/flesh_golem)",
-			"- [Fossil Golem](monster/fossil_golem)",
-			"- [Glass Golem](monster/glass_golem)",
-			"- [Gold Golem](monster/gold_golem)",
-			"- [Ice Golem](monster/ice_golem)",
-			"- [Inubrix Golem](monster/inubrix_golem)",
-			"- [Ioun Golem](monster/ioun_golem)",
-			"- [Iron Golem](monster/iron_golem)",
-			"- [Junk Golem](monster/junk_golem)",
-			"- [Lead Golem](monster/lead_golem)",
-			"- [Magnetitie Golem](monster/magnetitie_golem)",
-			"- [Marrowstone Golem](monster/marrowstone_golem)",
-			"- [Mask Golem](monster/mask_golem)",
-			"- [Mithral Golem](monster/mithral_golem)",
-			"- [Noqual Golem](monster/noqual_golem)",
-			"- [Obsidian Golem](monster/obsidian_golem)",
-			"- [Panthereon](monster/panthereon)",
-			"- [Quantium Golem](monster/quantium_golem)",
-			"- [Quintessence Golem](monster/quintessence_golem)",
-			"- [Robot Golem](monster/robot_golem)",
-			"- [Sand Golem](monster/sand_golem)",
-			"- [Sentient Wax Golem](monster/sentient_wax_golem)",
-			"- [Shadow Golem](monster/shadow_golem)",
-			"- [Stone Golem](monster/stone_golem)",
-			"- [Viridium Golem](monster/viridium_golem)",
-			"- [Wax Golem](monster/wax_golem)",
-			"- [Wood Golem](monster/wood_golem)"
+			"- {monster/Flesh Golem}",
+			"- {monster/Fossil Golem}",
+			"- {monster/Glass Golem}",
+			"- {monster/Gold Golem}",
+			"- {monster/Ice Golem}",
+			"- {monster/Inubrix Golem}",
+			"- {monster/Ioun Golem}",
+			"- {monster/Iron Golem}",
+			"- {monster/Junk Golem}",
+			"- {monster/Lead Golem}",
+			"- {monster/Magnetitie Golem}",
+			"- {monster/Marrowstone Golem}",
+			"- {monster/Mask Golem}",
+			"- {monster/Mithral Golem}",
+			"- {monster/Noqual Golem}",
+			"- {monster/Obsidian Golem}",
+			"- {monster/Panthereon}",
+			"- {monster/Quantium Golem}",
+			"- {monster/Quintessence Golem}",
+			"- {monster/Robot Golem}",
+			"- {monster/Sand Golem}",
+			"- {monster/Sentient Wax Golem}",
+			"- {monster/Shadow Golem}",
+			"- {monster/Stone Golem}",
+			"- {monster/Viridium Golem}",
+			"- {monster/Wax Golem}",
+			"- {monster/Wood Golem}"
 		],
 		"mythic_members": [
-			"- [Flesh Golem](monster/flesh_golem)"
+			"- {monster/Flesh Golem}"
 		],
 		"description": [
 			"## Golem",
@@ -3457,26 +3457,26 @@
 		"name": "Great Old One",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Atlach-Nacha](monster/atlach-nacha)",
-			"- [Bokrug](monster/bokrug)",
-			"- [Cthulhu](monster/cthulhu)",
-			"- [Ghatanothoa](monster/ghatanothoa)",
-			"- [Hastur](monster/hastur)",
-			"- [Ithaqua](monster/ithaqua)",
-			"- [Mhar](monster/mhar)",
-			"- [Mordiggian](monster/mordiggian)",
-			"- [Rhan-Tegoth](monster/rhan-tegoth)",
-			"- [Tawil At'umr](monster/tawil_atumr)",
-			"- [Tsathoggua](monster/tsathoggua)",
-			"- [Xhamen-Dor](monster/xhamen-dor)",
-			"- [Yig](monster/yig)"
+			"- {monster/Atlach-Nacha}",
+			"- {monster/Bokrug}",
+			"- {monster/Cthulhu}",
+			"- {monster/Ghatanothoa}",
+			"- {monster/Hastur}",
+			"- {monster/Ithaqua}",
+			"- {monster/Mhar}",
+			"- {monster/Mordiggian}",
+			"- {monster/Rhan-Tegoth}",
+			"- {monster/Tawil At'umr}",
+			"- {monster/Tsathoggua}",
+			"- {monster/Xhamen-Dor}",
+			"- {monster/Yig}"
 		],
 		"description": [
 			"## Great Old One",
 			"",
 			"{SOURCE Bestiary 4}",
 			"",
-			"The Great Old Ones are otherworldly entities of almost unimaginable power-beings completely alien to humanity, both physiologically and spiritually. They exist in the forgotten corners of distant worlds or lost dimensions, yet their power is so great they can influence certain sensitive mortal minds in their dreams and nightmares, even if such influence is as accidental as a star's gravitational pull on a tiny mote of dust adrift in space. In such ways, cults devoted to the Great Old Ones can rise on worlds throughout the Material Plane, even without prior contact between these worlds. Some of the Great Old Ones grant access to the domain of [Void](domain/void) and its associated subdomains.",
+			"The Great Old Ones are otherworldly entities of almost unimaginable power-beings completely alien to humanity, both physiologically and spiritually. They exist in the forgotten corners of distant worlds or lost dimensions, yet their power is so great they can influence certain sensitive mortal minds in their dreams and nightmares, even if such influence is as accidental as a star's gravitational pull on a tiny mote of dust adrift in space. In such ways, cults devoted to the Great Old Ones can rise on worlds throughout the Material Plane, even without prior contact between these worlds. Some of the Great Old Ones grant access to the domain of {domain/Void} and its associated subdomains.",
 			"",
 			"While not all of the Great Old Ones are evil, all are forces of chaos. Their cults are almost always evil and cause harm and madness, but the Great Old Ones are generally content to ignore lesser life such as humans, elves, and dwarves. Yet when their attention is garnered, the results can be catastrophic on an immense scale; for just as the ant who bites someone's toe invites swift destruction on a scale its feeble mind can't envision, so too does humanity invite unimaginable ruin by delving into the affairs of these powerful creatures.",
 			"",
@@ -3491,18 +3491,18 @@
 		"name": "Gremlin",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Drexin](monster/drexin)",
-			"- [Erinat](monster/erinat)",
-			"- [Fuath](monster/fuath)",
-			"- [Grimple](monster/grimple)",
-			"- [Haniver](monster/haniver)",
-			"- [Hobkins](monster/hobkins)",
-			"- [Jinkin](monster/jinkin)",
-			"- [Monaciello](monster/monaciello)",
-			"- [Nuglub](monster/nuglub)",
-			"- [Nuno](monster/nuno)",
-			"- [Pugwampi](monster/pugwampi)",
-			"- [Vexgit](monster/vexgit)"
+			"- {monster/Drexin}",
+			"- {monster/Erinat}",
+			"- {monster/Fuath}",
+			"- {monster/Grimple}",
+			"- {monster/Haniver}",
+			"- {monster/Hobkins}",
+			"- {monster/Jinkin}",
+			"- {monster/Monaciello}",
+			"- {monster/Nuglub}",
+			"- {monster/Nuno}",
+			"- {monster/Pugwampi}",
+			"- {monster/Vexgit}"
 		],
 		"description": [
 			"## Gremlin",
@@ -3526,17 +3526,17 @@
 		"name": "Hag",
 		"sources": [ "Classic Horrors Revisited" ],
 		"members": [
-			"- [Annis Hag](monster/annis_hag)",
-			"- [Ash Hag](monster/ash_hag)",
-			"- [Blood Hag](monster/blood_hag)",
-			"- [Dreamthief Hag](monster/dreamthief_hag)",
-			"- [Green Hag](monster/green_hag)",
-			"- [Moon Hag](monster/moon_hag)",
-			"- [Mute Hag](monster/mute_hag)",
-			"- [Night Hag](monster/night_hag)",
-			"- [Sea Hag](monster/sea_hag)",
-			"- [Storm Hag](monster/storm_hag)",
-			"- [Winter Hag](monster/winter_hag)"
+			"- {monster/Annis Hag}",
+			"- {monster/Ash Hag}",
+			"- {monster/Blood Hag}",
+			"- {monster/Dreamthief Hag}",
+			"- {monster/Green Hag}",
+			"- {monster/Moon Hag}",
+			"- {monster/Mute Hag}",
+			"- {monster/Night Hag}",
+			"- {monster/Sea Hag}",
+			"- {monster/Storm Hag}",
+			"- {monster/Winter Hag}"
 		],
 		"description": [
 			"## Hag",
@@ -3550,30 +3550,30 @@
 		"name": "Herald",
 		"sources": [ "Inner Sea Gods" ],
 		"members": [
-			"- [Arcanotheign](monster/arcanotheign)",
-			"- [Basileus](monster/basileus)",
-			"- [End's Voice](monster/ends_voice)",
-			"- [Gravedragger](monster/gravedragger)",
-			"- [Great Elder Iuu](monster/great_elder_iuu)",
-			"- [Hand of the Inheritor](monster/hand_of_the_inheritor)",
-			"- [Latten Mechanism](monster/latten_mechanism)",
-			"- [Lawgiver](monster/lawgiver)",
-			"- [Mother's Maw](monster/mothers_maw)",
-			"- [Night Monarch](monster/night_monarch)",
-			"- [Personification of Fury](monster/personification_of_fury)",
-			"- [Steward of the Skein](monster/steward_of_the_skein)",
-			"- [Sunlord Thalachos](monster/sunlord_thalachos)",
-			"- [Tarrasque](monster/tarrasque)",
-			"- [Thais](monster/thais)",
-			"- [The First Blade](monster/the_first_blade)",
-			"- [The Grand Defender](monster/the_grand_defender)",
-			"- [The Grim White Stag](monster/the_grim_white_stag)",
-			"- [The Menotherian](monster/the_menotherian)",
-			"- [The Old Man](monster/the_old_man)",
-			"- [The Prince in Chains](monster/the_prince_in_chains)",
-			"- [The Spirit of Adoration](monster/the_spirit_of_adoration)",
-			"- [The Stabbing Beast](monster/the_stabbing_beast)",
-			"- [Yethazmari](monster/yethazmari)"
+			"- {monster/Arcanotheign}",
+			"- {monster/Basileus}",
+			"- {monster/End's Voice}",
+			"- {monster/Gravedragger}",
+			"- {monster/Great Elder Iuu}",
+			"- {monster/Hand of the Inheritor}",
+			"- {monster/Latten Mechanism}",
+			"- {monster/Lawgiver}",
+			"- {monster/Mother's Maw}",
+			"- {monster/Night Monarch}",
+			"- {monster/Personification of Fury}",
+			"- {monster/Steward of the Skein}",
+			"- {monster/Sunlord Thalachos}",
+			"- {monster/Tarrasque}",
+			"- {monster/Thais}",
+			"- {monster/The First Blade}",
+			"- {monster/The Grand Defender}",
+			"- {monster/The Grim White Stag}",
+			"- {monster/The Menotherian}",
+			"- {monster/The Old Man}",
+			"- {monster/The Prince in Chains}",
+			"- {monster/The Spirit of Adoration}",
+			"- {monster/The Stabbing Beast}",
+			"- {monster/Yethazmari}"
 		],
 		"description": [
 			"## Herald",
@@ -3594,15 +3594,15 @@
 		"name": "Herd Animal",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Antelope](monster/antelope)",
-			"- [Aurochs](monster/aurochs)",
-			"- [Bison](monster/bison)",
-			"- [Camel](monster/camel)",
-			"- [Elk](monster/elk)",
-			"- [Giraffe](monster/giraffe)",
-			"- [Ram](monster/ram)",
-			"- [River Elk](monster/river_elk)",
-			"- [Stag](monster/stag)"
+			"- {monster/Antelope}",
+			"- {monster/Aurochs}",
+			"- {monster/Bison}",
+			"- {monster/Camel}",
+			"- {monster/Elk}",
+			"- {monster/Giraffe}",
+			"- {monster/Ram}",
+			"- {monster/River Elk}",
+			"- {monster/Stag}"
 		],
 		"description": [
 			"## Herd Animal",
@@ -3616,10 +3616,10 @@
 		"name": "Hive",
 		"sources": [ "Horror Adventures" ],
 		"members": [
-			"- [Hive Brute](monster/hive_brute)",
-			"- [Hive Larva Swarm](monster/hive_larva_swarm)",
-			"- [Hive Queen](monster/hive_queen)",
-			"- [Hive Warrior](monster/hive_warrior)"
+			"- {monster/Hive Brute}",
+			"- {monster/Hive Larva Swarm}",
+			"- {monster/Hive Queen}",
+			"- {monster/Hive Warrior}"
 		],
 		"description": [
 			"## Hive",
@@ -3656,10 +3656,10 @@
 		"name": "Horsemen of the Apocalypse",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Apollyon](monster/apollyon)",
-			"- [Charon](monster/charon)",
-			"- [Szuriel](monster/szuriel)",
-			"- [Trelmarixian](monster/trelmarixian)"
+			"- {monster/Apollyon}",
+			"- {monster/Charon}",
+			"- {monster/Szuriel}",
+			"- {monster/Trelmarixian}"
 		],
 		"description": [
 			"## Horsemen of the Apocalypse",
@@ -3672,7 +3672,7 @@
 			"",
 			"Every Horseman was once a mortal whose soul transitioned into the form of a daemon at some point after death. This legacy stands at the center of their kind, gnawing at their pride and sanity moment by moment, as they understand that they began their lives as the very things they seek to exterminate. Equally incongruous is that the Horsemen each actively foster their own mortal cults, even granting spells to clerics pledged to their name. The Horsemen see their worshipers as useful idiots condemned to oblivion upon death, despite the aid such cultists provide in carrying out the Four's genocidal will.",
 			"",
-			"Any Horseman can be contacted through [commune](spell/commune) and can be called by a [gate](spell/gate) spell, though they are under no compulsion to come through the latter. Typically the Horsemen require an enormously valuable offering or a tremendous amount of bloodshed in their name before accepting such an invitation."
+			"Any Horseman can be contacted through {spell/commune} and can be called by a {spell/gate} spell, though they are under no compulsion to come through the latter. Typically the Horsemen require an enormously valuable offering or a tremendous amount of bloodshed in their name before accepting such an invitation."
 		]
 	},
 	"house_spirit": {
@@ -3682,9 +3682,9 @@
 			"Bestiary 5"
 		],
 		"members": [
-			"- [Domovoi](monster/domovoi)",
-			"- [Dvorovoi](monster/dvorovoi)",
-			"- [Ovinnik](monster/ovinnik)"
+			"- {monster/Domovoi}",
+			"- {monster/Dvorovoi}",
+			"- {monster/Ovinnik}"
 		],
 		"description": [
 			"## House Spirit",
@@ -3704,10 +3704,10 @@
 		"name": "Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"members": [
-			"- [Bone](monster/bone)",
-			"- [Jade](monster/jade)",
-			"- [Stone](monster/stone)",
-			"- [Wood](monster/wood)"
+			"- {monster/Bone}",
+			"- {monster/Jade}",
+			"- {monster/Stone}",
+			"- {monster/Wood}"
 		],
 		"description": [
 			"## Idol",
@@ -3729,18 +3729,18 @@
 		"name": "Inevitable",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Arbiter](monster/arbiter)",
-			"- [Hykariut](monster/hykariut)",
-			"- [Impariut](monster/impariut)",
-			"- [Kastamut](monster/kastamut)",
-			"- [Kolyarut](monster/kolyarut)",
-			"- [Lhaksharut](monster/lhaksharut)",
-			"- [Marut](monster/marut)",
-			"- [Novenarut](monster/novenarut)",
-			"- [Rokyamut](monster/rokyamut)",
-			"- [Valharut](monster/valharut)",
-			"- [Yarahkut](monster/yarahkut)",
-			"- [Zelekhut](monster/zelekhut)"
+			"- {monster/Arbiter}",
+			"- {monster/Hykariut}",
+			"- {monster/Impariut}",
+			"- {monster/Kastamut}",
+			"- {monster/Kolyarut}",
+			"- {monster/Lhaksharut}",
+			"- {monster/Marut}",
+			"- {monster/Novenarut}",
+			"- {monster/Rokyamut}",
+			"- {monster/Valharut}",
+			"- {monster/Yarahkut}",
+			"- {monster/Zelekhut}"
 		],
 		"description": [
 			"## Inevitable",
@@ -3776,9 +3776,9 @@
 		"name": "Kaiju",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Agyra](monster/agyra)",
-			"- [Bezravnis](monster/bezravnis)",
-			"- [Mogaru](monster/mogaru)"
+			"- {monster/Agyra}",
+			"- {monster/Bezravnis}",
+			"- {monster/Mogaru}"
 		],
 		"description": [
 			"## Kaiju",
@@ -3813,7 +3813,7 @@
 			"- Shbloon, the Vortex Maw of the ocean deep",
 			"- [Lord Varklops](monster/varklops), the Thrice-Headed Fiend of the dormant volcano",
 			"- [Queen Vorgozen](monster/vorgozen), the Shapeless Feeder of the vast swamp",
-			"- [Yarthoon](monster/yarthoon), the Moon Grub of the darkest nights",
+			"- {monster/Yarthoon}, the Moon Grub of the darkest nights",
 			"- Yorak, the Horned Thunder of the great mountains",
 			"- Zimivra, the Endless Coils of the trackless desert"
 		]
@@ -3822,16 +3822,16 @@
 		"name": "Kami",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Dosojin](monster/dosojin)",
-			"- [Dunagh](monster/dunagh)",
-			"- [Fukujin](monster/fukujin)",
-			"- [Jinushigami](monster/jinushigami)",
-			"- [Kaminari](monster/kaminari)",
-			"- [Kodama](monster/kodama)",
-			"- [Shikigami](monster/shikigami)",
-			"- [Suijin](monster/suijin)",
-			"- [Toshigami](monster/toshigami)",
-			"- [Zuishin](monster/zuishin)"
+			"- {monster/Dosojin}",
+			"- {monster/Dunagh}",
+			"- {monster/Fukujin}",
+			"- {monster/Jinushigami}",
+			"- {monster/Kaminari}",
+			"- {monster/Kodama}",
+			"- {monster/Shikigami}",
+			"- {monster/Suijin}",
+			"- {monster/Toshigami}",
+			"- {monster/Zuishin}"
 		],
 		"description": [
 			"## Kami",
@@ -3861,22 +3861,22 @@
 		"name": "Kyton",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Apocrisiarius](monster/apocrisiarius)",
-			"- [Apostle Kyton](template/apostle_kyton)",
-			"- [Augur](monster/augur)",
-			"- [Cantor](monster/cantor)",
-			"- [Ephialtes](monster/ephialtes)",
-			"- [Eremite](monster/eremite)",
-			"- [Interlocutor](monster/interlocutor)",
-			"- [Kyton](monster/kyton)",
-			"- [Lampadarius](monster/lampadarius)",
-			"- [Libitinarii](monster/libitinarii)",
-			"- [Oitos](monster/oitos)",
-			"- [Ostiarius](monster/ostiarius)",
-			"- [Phylacator](monster/phylacator)",
-			"- [Sacristan](monster/sacristan)",
-			"- [Suffragan](monster/suffragan)",
-			"- [Termagant](monster/termagant)"
+			"- {monster/Apocrisiarius}",
+			"- {template/Apostle Kyton}",
+			"- {monster/Augur}",
+			"- {monster/Cantor}",
+			"- {monster/Ephialtes}",
+			"- {monster/Eremite}",
+			"- {monster/Interlocutor}",
+			"- {monster/Kyton}",
+			"- {monster/Lampadarius}",
+			"- {monster/Libitinarii}",
+			"- {monster/Oitos}",
+			"- {monster/Ostiarius}",
+			"- {monster/Phylacator}",
+			"- {monster/Sacristan}",
+			"- {monster/Suffragan}",
+			"- {monster/Termagant}"
 		],
 		"description": [
 			"## Kyton",
@@ -3912,7 +3912,7 @@
 		"name": "Kyton Demagogue",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
-			"- [Inkariax](monster/inkariax)"
+			"- {monster/Inkariax}"
 		],
 		"description": [
 			"## Kyton Demagogue",
@@ -3926,16 +3926,16 @@
 		"name": "Leshy",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Cactus Leshy](monster/cactus_leshy)",
-			"- [Flytrap Leshy](monster/flytrap_leshy)",
-			"- [Fungus Leshy](monster/fungus_leshy)",
-			"- [Gourd Leshy](monster/gourd_leshy)",
-			"- [Leaf Leshy](monster/leaf_leshy)",
-			"- [Lichen Leshy](monster/lichen_leshy)",
-			"- [Lotus Leshy](monster/lotus_leshy)",
-			"- [Seaweed Leshy](monster/seaweed_leshy)",
-			"- [Snapdragon Leshy](monster/snapdragon_leshy)",
-			"- [Sunflower Leshy](monster/sunflower_leshy)"
+			"- {monster/Cactus Leshy}",
+			"- {monster/Flytrap Leshy}",
+			"- {monster/Fungus Leshy}",
+			"- {monster/Gourd Leshy}",
+			"- {monster/Leaf Leshy}",
+			"- {monster/Lichen Leshy}",
+			"- {monster/Lotus Leshy}",
+			"- {monster/Seaweed Leshy}",
+			"- {monster/Snapdragon Leshy}",
+			"- {monster/Sunflower Leshy}"
 		],
 		"description": [
 			"## Leshy",
@@ -3971,15 +3971,15 @@
 		"name": "Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Cairn Linnorm](monster/cairn_linnorm)",
-			"- [Crag Linnorm](monster/crag_linnorm)",
-			"- [Fjord Linnorm](monster/fjord_linnorm)",
-			"- [Gare Linnorm](monster/gare_linnorm)",
-			"- [Ice Linnorm](monster/ice_linnorm)",
-			"- [Sea Linnorm](monster/sea_linnorm)",
-			"- [Taiga Linnorm](monster/taiga_linnorm)",
-			"- [Tarn Linnorm](monster/tarn_linnorm)",
-			"- [Tor Linnorm](monster/tor_linnorm)"
+			"- {monster/Cairn Linnorm}",
+			"- {monster/Crag Linnorm}",
+			"- {monster/Fjord Linnorm}",
+			"- {monster/Gare Linnorm}",
+			"- {monster/Ice Linnorm}",
+			"- {monster/Sea Linnorm}",
+			"- {monster/Taiga Linnorm}",
+			"- {monster/Tarn Linnorm}",
+			"- {monster/Tor Linnorm}"
 		],
 		"description": [
 			"## Linnorm",
@@ -4031,16 +4031,16 @@
 			"",
 			"{SOURCE Pathfinder RPG Bestiary}",
 			"",
-			"See the [lycanthrope](template/lycanthrope), [lycanthropic creature](template/lycanthropic_creature), and [silverblood lycanthrope](template/silverblood_lycanthrope) templates for more information."
+			"See the {template/lycanthrope}, {template/lycanthropic creature}, and {template/silverblood lycanthrope} templates for more information."
 		]
 	},
 	"lurking_ray": {
 		"name": "Lurking Ray",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Executioner's Hood](monster/executioners_hood)",
-			"- [Lurker Above](monster/lurker_above)",
-			"- [Trapper](monster/trapper)"
+			"- {monster/Executioner's Hood}",
+			"- {monster/Lurker Above}",
+			"- {monster/Trapper}"
 		],
 		"description": [
 			"## Lurking Ray",
@@ -4056,9 +4056,9 @@
 		"name": "Manasaputra",
 		"sources": [ "Bestiary 5" ],
 		"members": [
-			"- [Maharishi Manu](monster/maharishi_manu)",
-			"- [Manu](monster/manu)",
-			"- [Rishi Manu](monster/rishi_manu)",
+			"- {monster/Maharishi Manu}",
+			"- {monster/Manu}",
+			"- {monster/Rishi Manu}",
 			"- [Twilight Pitri (Barhisad)](monster/barhisad)"
 		],
 		"mythic_members": [
@@ -4090,23 +4090,23 @@
 		"name": "Megafauna",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Archelon](monster/archelon)",
-			"- [Arsinoitherium](monster/arsinoitherium)",
-			"- [Baluchitherium](monster/baluchitherium)",
-			"- [Basilosaurus](monster/basilosaurus)",
-			"- [Brontotherium](monster/brontotherium)",
-			"- [Chalicotherium](monster/chalicotherium)",
-			"- [Deinotherium](monster/deinotherium)",
-			"- [Elasmotherium](monster/elasmotherium)",
-			"- [Embolotherium](monster/embolotherium)",
-			"- [Glyptodon](monster/glyptodon)",
-			"- [Kaprosuchus](monster/kaprosuchus)",
-			"- [Megalania](monster/megalania)",
-			"- [Megaloceros](monster/megaloceros)",
-			"- [Megatherium](monster/megatherium)",
-			"- [Moa](monster/moa)",
-			"- [Titanoboa](monster/titanoboa)",
-			"- [Uintatherium](monster/uintatherium)"
+			"- {monster/Archelon}",
+			"- {monster/Arsinoitherium}",
+			"- {monster/Baluchitherium}",
+			"- {monster/Basilosaurus}",
+			"- {monster/Brontotherium}",
+			"- {monster/Chalicotherium}",
+			"- {monster/Deinotherium}",
+			"- {monster/Elasmotherium}",
+			"- {monster/Embolotherium}",
+			"- {monster/Glyptodon}",
+			"- {monster/Kaprosuchus}",
+			"- {monster/Megalania}",
+			"- {monster/Megaloceros}",
+			"- {monster/Megatherium}",
+			"- {monster/Moa}",
+			"- {monster/Titanoboa}",
+			"- {monster/Uintatherium}"
 		],
 		"description": [
 			"## Megafauna",
@@ -4120,12 +4120,12 @@
 		"name": "Mortic",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"members": [
-			"- [Angheuvore](monster/angheuvore)",
-			"- [Etioling](monster/etioling)",
-			"- [Gurgist](monster/gurgist)",
-			"- [Jitterbone](monster/jitterbone)",
-			"- [Lifeleecher](monster/lifeleecher)",
-			"- [Relictner](monster/relictner)"
+			"- {monster/Angheuvore}",
+			"- {monster/Etioling}",
+			"- {monster/Gurgist}",
+			"- {monster/Jitterbone}",
+			"- {monster/Lifeleecher}",
+			"- {monster/Relictner}"
 		],
 		"description": [
 			"## Mortic",
@@ -4139,15 +4139,15 @@
 		"name": "Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Dark Naga](monster/dark_naga)",
-			"- [Deep Naga](monster/deep_naga)",
-			"- [Dream Naga](monster/dream_naga)",
-			"- [Guardian Naga](monster/guardian_naga)",
-			"- [Lunar Naga](monster/lunar_naga)",
-			"- [Royal Naga](monster/royal_naga)",
-			"- [Slime Naga](monster/slime_naga)",
-			"- [Spirit Naga](monster/spirit_naga)",
-			"- [Water Naga](monster/water_naga)"
+			"- {monster/Dark Naga}",
+			"- {monster/Deep Naga}",
+			"- {monster/Dream Naga}",
+			"- {monster/Guardian Naga}",
+			"- {monster/Lunar Naga}",
+			"- {monster/Royal Naga}",
+			"- {monster/Slime Naga}",
+			"- {monster/Spirit Naga}",
+			"- {monster/Water Naga}"
 		],
 		"description": [
 			"## Naga",
@@ -4161,11 +4161,11 @@
 		"name": "Nightshade",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Nightcrawler](monster/nightcrawler)",
-			"- [Nightprowler](monster/nightprowler)",
-			"- [Nightwalker](monster/nightwalker)",
-			"- [Nightwave](monster/nightwave)",
-			"- [Nightwing](monster/nightwing)"
+			"- {monster/Nightcrawler}",
+			"- {monster/Nightprowler}",
+			"- {monster/Nightwalker}",
+			"- {monster/Nightwave}",
+			"- {monster/Nightwing}"
 		],
 		"description": [
 			"## Nightshade",
@@ -4195,21 +4195,21 @@
 		"name": "Oni",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Atamahuta](monster/atamahuta)",
-			"- [Earth Yai](monster/earth_yai)",
-			"- [Fire Yai](monster/fire_yai)",
-			"- [Ice Yai](monster/ice_yai)",
-			"- [Ja Noi](monster/ja_noi)",
-			"- [Kigyo](monster/kigyo)",
-			"- [Kuwa](monster/kuwa)",
-			"- [Najikai](monster/najikai)",
-			"- [Nogitsune](monster/nogitsune)",
-			"- [Ogre Mage](monster/ogre_mage)",
-			"- [Spirit Oni](monster/spirit_oni)",
-			"- [Void Yai](monster/void_yai)",
-			"- [Water Yai](monster/water_yai)",
-			"- [Wind Yai](monster/wind_yai)",
-			"- [Yamabushi Tengu](monster/yamabushi_tengu)"
+			"- {monster/Atamahuta}",
+			"- {monster/Earth Yai}",
+			"- {monster/Fire Yai}",
+			"- {monster/Ice Yai}",
+			"- {monster/Ja Noi}",
+			"- {monster/Kigyo}",
+			"- {monster/Kuwa}",
+			"- {monster/Najikai}",
+			"- {monster/Nogitsune}",
+			"- {monster/Ogre Mage}",
+			"- {monster/Spirit Oni}",
+			"- {monster/Void Yai}",
+			"- {monster/Water Yai}",
+			"- {monster/Wind Yai}",
+			"- {monster/Yamabushi Tengu}"
 		],
 		"description": [
 			"## Oni",
@@ -4232,26 +4232,26 @@
 			"",
 			"Countless oni stalk the world, slaking their greed and bloodlust to the misery of humanoids. The great leaders among the oni, beings known as daimyo, are as numerous as the nations of the world, and all oni seek to climb the rungs of power to become such powerful entities. The following list includes oni daimyo that have power in ways that make them known and feared outside their own domains. Most of these nefarious oni command armies or control points through which other oni can enter the world.",
 			"",
-			"- [Akuma](faith/akuma), the Horned King (ogre mage)",
-			"- [Chimon](faith/chimon), Hunter of Blood (ogre mage)",
-			"- [Guyuku](faith/guyuku), the Sea Devil (water oni)",
-			"- [Inma](faith/inma), Empress of the World (void oni)",
-			"- [Muronna](faith/muronna), the Dark Mother (ogre mage)",
-			"- [Nataka](faith/nataka), the Red King (fire oni)",
-			"- [Onmyuza](faith/onmyuza), Dancer in Flesh (ogre mage)",
-			"- [Ushitora](faith/ushitora), Keeper of the Oni Gate (void oni)",
-			"- [Uzumae](faith/uzumae), Daimyo of the North (kuwa oni)",
-			"- [Yabu](faith/yabu), Lord of the Kazan Caldera (fire oni)"
+			"- {faith/Akuma}, the Horned King (ogre mage)",
+			"- {faith/Chimon}, Hunter of Blood (ogre mage)",
+			"- {faith/Guyuku}, the Sea Devil (water oni)",
+			"- {faith/Inma}, Empress of the World (void oni)",
+			"- {faith/Muronna}, the Dark Mother (ogre mage)",
+			"- {faith/Nataka}, the Red King (fire oni)",
+			"- {faith/Onmyuza}, Dancer in Flesh (ogre mage)",
+			"- {faith/Ushitora}, Keeper of the Oni Gate (void oni)",
+			"- {faith/Uzumae}, Daimyo of the North (kuwa oni)",
+			"- {faith/Yabu}, Lord of the Kazan Caldera (fire oni)"
 		]
 	},
 	"ossumental": {
 		"name": "Ossumental",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"members": [
-			"- [Ossumental (Air)](monster/ossumental_air)",
-			"- [Ossumental (Earth)](monster/ossumental_earth)",
-			"- [Ossumental (Fire)](monster/ossumental_fire)",
-			"- [Ossumental (Water)](monster/ossumental_water)"
+			"- {monster/Ossumental (Air)}",
+			"- {monster/Ossumental (Earth)}",
+			"- {monster/Ossumental (Fire)}",
+			"- {monster/Ossumental (Water)}"
 		],
 		"description": [
 			"## Ossumental",
@@ -4265,10 +4265,10 @@
 		"name": "Phantom Armor",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"members": [
-			"- [Giant Phantom Armor](monster/giant_phantom_armor)",
-			"- [Guardian Phantom Armor](monster/guardian_phantom_armor)",
-			"- [Hollow Helm](monster/hollow_helm)",
-			"- [Phantom Lancer](monster/phantom_lancer)"
+			"- {monster/Giant Phantom Armor}",
+			"- {monster/Guardian Phantom Armor}",
+			"- {monster/Hollow Helm}",
+			"- {monster/Phantom Lancer}"
 		],
 		"description": [
 			"## Phantom Armor",
@@ -4304,7 +4304,7 @@
 			"",
 			"### Special Abilities",
 			"",
-			"**Blight (Su)** Plague swarms deal additional untyped damage equal to their standard swarm damage. This damage originates from divine power, similar to the spell [flame strike](spell/flame_strike). A plague swarm's damage counts as magic and epic for the purposes of bypassing damage reduction.",
+			"**Blight (Su)** Plague swarms deal additional untyped damage equal to their standard swarm damage. This damage originates from divine power, similar to the spell {spell/flame strike}. A plague swarm's damage counts as magic and epic for the purposes of bypassing damage reduction.",
 			"",
 			"**Multiply (Ex)** Plague swarms spawn at an incredible rate. Once per minute, a plague swarm can produce a new swarm of the type listed in its stat block as full-round action. When the plague swarm is not in combat, it typically uses this ability once per minute. If the plague swarm is destroyed, all of the swarms that it spawned also disperse.",
 			"",
@@ -4330,9 +4330,9 @@
 		"name": "Primeval Sea Creature",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"members": [
-			"- [Kronosaurus](monster/kronosaurus)",
-			"- [Nothosaur](monster/nothosaur)",
-			"- [Zeuglodon](monster/zeuglodon)"
+			"- {monster/Kronosaurus}",
+			"- {monster/Nothosaur}",
+			"- {monster/Zeuglodon}"
 		],
 		"description": [
 			"## Primeval Sea Creature",
@@ -4346,19 +4346,19 @@
 		"name": "Protean",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Akizendri](monster/akizendri)",
-			"- [Azuretzi](monster/azuretzi)",
-			"- [Hegessik](monster/hegessik)",
-			"- [Ibshaunet](monster/ibshaunet)",
-			"- [Illureshi](monster/illureshi)",
-			"- [Imentesh](monster/imentesh)",
-			"- [Izfiitar](monster/izfiitar)",
-			"- [Keketar](monster/keketar)",
-			"- [Naunet](monster/naunet)",
-			"- [Oshageros](monster/oshageros)",
-			"- [Ourdivar](monster/ourdivar)",
-			"- [Pelagastr](monster/pelagastr)",
-			"- [Voidworm](monster/voidworm)"
+			"- {monster/Akizendri}",
+			"- {monster/Azuretzi}",
+			"- {monster/Hegessik}",
+			"- {monster/Ibshaunet}",
+			"- {monster/Illureshi}",
+			"- {monster/Imentesh}",
+			"- {monster/Izfiitar}",
+			"- {monster/Keketar}",
+			"- {monster/Naunet}",
+			"- {monster/Oshageros}",
+			"- {monster/Ourdivar}",
+			"- {monster/Pelagastr}",
+			"- {monster/Voidworm}"
 		],
 		"description": [
 			"## Protean",
@@ -4415,23 +4415,23 @@
 		"name": "Psychopomp",
 		"sources": [ "Bestiary 4" ],
 		"members": [
-			"- [Ahmuuth](monster/ahmuuth)",
-			"- [Algea](monster/algea)",
-			"- [Calaca](monster/calaca)",
-			"- [Catrina](monster/catrina)",
-			"- [Ember Weaver](monster/ember_weaver)",
-			"- [Esobok](monster/esobok)",
-			"- [Fulgati](monster/fulgati)",
-			"- [Kere](monster/kere)",
-			"- [Memitim](monster/memitim)",
-			"- [Morbai](monster/morbai)",
-			"- [Morrigna](monster/morrigna)",
-			"- [Nosoi](monster/nosoi)",
-			"- [Olethros](monster/olethros)",
-			"- [Shoki](monster/shoki)",
-			"- [Vanth](monster/vanth)",
-			"- [Viduus](monster/viduus)",
-			"- [Yamaraj](monster/yamaraj)"
+			"- {monster/Ahmuuth}",
+			"- {monster/Algea}",
+			"- {monster/Calaca}",
+			"- {monster/Catrina}",
+			"- {monster/Ember Weaver}",
+			"- {monster/Esobok}",
+			"- {monster/Fulgati}",
+			"- {monster/Kere}",
+			"- {monster/Memitim}",
+			"- {monster/Morbai}",
+			"- {monster/Morrigna}",
+			"- {monster/Nosoi}",
+			"- {monster/Olethros}",
+			"- {monster/Shoki}",
+			"- {monster/Vanth}",
+			"- {monster/Viduus}",
+			"- {monster/Yamaraj}"
 		],
 		"description": [
 			"## Psychopomp",
@@ -4460,10 +4460,10 @@
 			"- [Ceyannan the Shepherd](faith/ceyannan)",
 			"- [Dammar the Denied](faith/dammar)",
 			"- [Imot the Symbol of Doom](faith/imot)",
-			"- [Mother Vulture](faith/mother_vulture)",
+			"- {faith/Mother Vulture}",
 			"- [Mrtyu, Death's Consort](faith/mrtyu)",
 			"- [Narakaas the Cleansing Sentence](faith/narakaas)",
-			"- [The Pale Horse](faith/the_pale_horse)",
+			"- {faith/The Pale Horse}",
 			"- [Phlegyas, Consoler of Atheists](faith/phlegyas)",
 			"- [Saloc, Minder of Immortals](faith/saloc)",
 			"- [Teshallas the Primordial Poison](faith/teshallas)",
@@ -4474,22 +4474,22 @@
 		"name": "Qlippoth",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Augnagar](monster/augnagar)",
-			"- [Behimiron](monster/behimiron)",
-			"- [Cataboligne](monster/cataboligne)",
-			"- [Chernobue](monster/chernobue)",
-			"- [Cythnigot](monster/cythnigot)",
-			"- [Deinochos](monster/deinochos)",
-			"- [Gongorinan](monster/gongorinan)",
-			"- [Gorgoros](monster/gorgoros)",
-			"- [Hydraggon](monster/hydraggon)",
-			"- [Iathavos](monster/iathavos)",
-			"- [Nyogoth](monster/nyogoth)",
-			"- [Shoggti](monster/shoggti)",
-			"- [Thognorok](monster/thognorok)",
-			"- [Thulgant](monster/thulgant)",
-			"- [Utukku](monster/utukku)",
-			"- [Vexenion](monster/vexenion)"
+			"- {monster/Augnagar}",
+			"- {monster/Behimiron}",
+			"- {monster/Cataboligne}",
+			"- {monster/Chernobue}",
+			"- {monster/Cythnigot}",
+			"- {monster/Deinochos}",
+			"- {monster/Gongorinan}",
+			"- {monster/Gorgoros}",
+			"- {monster/Hydraggon}",
+			"- {monster/Iathavos}",
+			"- {monster/Nyogoth}",
+			"- {monster/Shoggti}",
+			"- {monster/Thognorok}",
+			"- {monster/Thulgant}",
+			"- {monster/Utukku}",
+			"- {monster/Vexenion}"
 		],
 		"description": [
 			"## Qlippoth",
@@ -4519,11 +4519,11 @@
 		"name": "Qlippoth Lord",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Chavazvug](monster/chavazvug)",
-			"- [Isph-Aun-Vuln](monster/isph-aun-vuln)",
-			"- [Oaur-Ooung](monster/oaur-ooung)",
-			"- [Thuskchoon](monster/thuskchoon)",
-			"- [Yamasoth](monster/yamasoth)"
+			"- {monster/Chavazvug}",
+			"- {monster/Isph-Aun-Vuln}",
+			"- {monster/Oaur-Ooung}",
+			"- {monster/Thuskchoon}",
+			"- {monster/Yamasoth}"
 		],
 		"description": [
 			"## Qlippoth Lord",
@@ -4536,7 +4536,7 @@
 			"",
 			"The bulk of qlippoth lords range in strength from CR 21 to 25. More powerful creatures akin to the Horsemen or archdevils in stature may still exist in the deepest parts of the Abyss, but for now, these theoretical qlippoth demigods remain mysteries. Certainly, any active qlippoth lords are potent enough to threaten and endanger the bulk of mortal life when they choose to turn their attention to the Material Plane.",
 			"",
-			"Some qlippoth have chosen to abandon their roots and accept the demonic as the new order of the Abyss. Qlippoth lords who accept sin and allow themselves to be transformed often gain a significant boost in power that catapults them out of this lower tier directly into the ranks of demon lords, but only at the cost of forever losing any tenuous alliances they may have had with the first lords of the Abyss. These former qlippoth lords are seen as the worst kind of traitors by the qlippoth and their masters, but for these qlippoth, the trade-off is more than worth it, as the power they now wield as demon lords is formidable. Demon lords who began existence as qlippoth lords include primeval entities like [Dagon](faith/dagon) and [Jubilex](faith/jubilex), but are hardly limited to these alone.",
+			"Some qlippoth have chosen to abandon their roots and accept the demonic as the new order of the Abyss. Qlippoth lords who accept sin and allow themselves to be transformed often gain a significant boost in power that catapults them out of this lower tier directly into the ranks of demon lords, but only at the cost of forever losing any tenuous alliances they may have had with the first lords of the Abyss. These former qlippoth lords are seen as the worst kind of traitors by the qlippoth and their masters, but for these qlippoth, the trade-off is more than worth it, as the power they now wield as demon lords is formidable. Demon lords who began existence as qlippoth lords include primeval entities like {faith/Dagon} and {faith/Jubilex}, but are hardly limited to these alone.",
 			"",
 			"**Qlippoth Lord Traits** A qlippoth lord is a powerful and unique qlippoth that rules a significant portion of an Abyssal realm. Qlippoth lords possess the following traits.",
 			"",
@@ -4553,16 +4553,16 @@
 		"name": "Rakshasa",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Amanusya](monster/amanusya)",
-			"- [Avatarana](monster/avatarana)",
-			"- [Dandasuka](monster/dandasuka)",
-			"- [Marai](monster/marai)",
-			"- [Orsatka](monster/orsatka)",
-			"- [Rakshasa Maharaja](monster/rakshasa_maharaja)",
-			"- [Rakshasa](monster/rakshasa)",
-			"- [Raktavarna](monster/raktavarna)",
-			"- [Tataka](monster/tataka)",
-			"- [Zalyakavat](monster/zalyakavat)"
+			"- {monster/Amanusya}",
+			"- {monster/Avatarana}",
+			"- {monster/Dandasuka}",
+			"- {monster/Marai}",
+			"- {monster/Orsatka}",
+			"- {monster/Rakshasa Maharaja}",
+			"- {monster/Rakshasa}",
+			"- {monster/Raktavarna}",
+			"- {monster/Tataka}",
+			"- {monster/Zalyakavat}"
 		],
 		"description": [
 			"## Rakshasa",
@@ -4587,20 +4587,20 @@
 			"",
 			"The rakshasa immortals are rakshasas who have ascended beyond mortality-they are no longer bound to the cycle of reincarnation and rebirth most rakshasas endure, and are truly immortal. Such creatures, given the span of countless lifetimes to perfect their art and master their cruelties, approach the power of gods. The following list includes several (but by no means all) rakshasa immortals known to the world. Among them, Ravana is the greatest and most ancient.",
 			"",
-			"- [Aksha](faith/aksha) of the Second Breath",
-			"- [Bundha](faith/bundha) the Singing Butcher",
-			"- [Caera](faith/caera) the Blood Bather",
-			"- [Dradjit](faith/dradjit) the Godslayer",
-			"- [Hudima](faith/hudima) the Kinslayer",
-			"- [Jyotah](faith/jyotah), He Who Walks Among the Gods",
-			"- [Kunkarna](faith/kunkarna) the Dream Warrior",
-			"- [Mursha](faith/mursha) the Beastmaster",
-			"- [Otikaya](faith/otikaya) the Spirit Archer",
-			"- [Prihasta](faith/prihasta), General Between Heaven and Hell",
-			"- [Ravana](faith/ravana), The First and Last",
-			"- [Surpa](faith/surpa) the Avenger",
-			"- [Vibhishah](faith/vibhishah) the Seeker",
-			"- [Zabha](faith/zabha) the Desecrator"
+			"- {faith/Aksha} of the Second Breath",
+			"- {faith/Bundha} the Singing Butcher",
+			"- {faith/Caera} the Blood Bather",
+			"- {faith/Dradjit} the Godslayer",
+			"- {faith/Hudima} the Kinslayer",
+			"- {faith/Jyotah}, He Who Walks Among the Gods",
+			"- {faith/Kunkarna} the Dream Warrior",
+			"- {faith/Mursha} the Beastmaster",
+			"- {faith/Otikaya} the Spirit Archer",
+			"- {faith/Prihasta}, General Between Heaven and Hell",
+			"- {faith/Ravana}, The First and Last",
+			"- {faith/Surpa} the Avenger",
+			"- {faith/Vibhishah} the Seeker",
+			"- {faith/Zabha} the Desecrator"
 		]
 	},
 	"robot": {
@@ -4610,27 +4610,27 @@
 			"Bestiary 5"
 		],
 		"members": [
-			"- [Annihilator Robot](monster/annihilator_robot)",
-			"- [Arachnid Robot](monster/arachnid_robot)",
-			"- [Collector Robot](monster/collector_robot)",
-			"- [Director Robot](monster/director_robot)",
-			"- [Evaluator Robot](monster/evaluator_robot)",
-			"- [Gearsman Robot](monster/gearsman_robot)",
-			"- [Gladiator Robot](monster/gladiator_robot)",
-			"- [Juggernaut Robot](monster/juggernaut_robot)",
-			"- [Mannequin Robot](monster/mannequin_robot)",
-			"- [Myrmidon Robot](monster/myrmidon_robot)",
-			"- [Observer Robot Swarm](monster/observer_robot_swarm)",
-			"- [Observer Robot](monster/observer_robot)",
-			"- [Octopod Mechanic Drone](monster/octopod_mechanic_drone)",
-			"- [Reclamation Robot](monster/reclamation_robot)",
-			"- [Repair Robot](monster/repair_robot)",
-			"- [Scrapyard Robot](monster/scrapyard_robot)",
-			"- [Surgeon Robot](monster/surgeon_robot)",
-			"- [Terraformer Robot](monster/terraformer_robot)",
-			"- [Thought Harvester Robot](monster/thought_harvester_robot)",
-			"- [Torturer Robot](monster/torturer_robot)",
-			"- [Warden Robot](monster/warden_robot)"
+			"- {monster/Annihilator Robot}",
+			"- {monster/Arachnid Robot}",
+			"- {monster/Collector Robot}",
+			"- {monster/Director Robot}",
+			"- {monster/Evaluator Robot}",
+			"- {monster/Gearsman Robot}",
+			"- {monster/Gladiator Robot}",
+			"- {monster/Juggernaut Robot}",
+			"- {monster/Mannequin Robot}",
+			"- {monster/Myrmidon Robot}",
+			"- {monster/Observer Robot Swarm}",
+			"- {monster/Observer Robot}",
+			"- {monster/Octopod Mechanic Drone}",
+			"- {monster/Reclamation Robot}",
+			"- {monster/Repair Robot}",
+			"- {monster/Scrapyard Robot}",
+			"- {monster/Surgeon Robot}",
+			"- {monster/Terraformer Robot}",
+			"- {monster/Thought Harvester Robot}",
+			"- {monster/Torturer Robot}",
+			"- {monster/Warden Robot}"
 		],
 		"description": [
 			"## Robot",
@@ -4685,8 +4685,8 @@
 		"name": "Rot Grub",
 		"sources": [ "Pathfinder #25: The Bastards of Erebus" ],
 		"members": [
-			"- [Giant Rot Grub](monster/giant_rot_grub)",
-			"- [Rot Grub Swarm](monster/rot_grub_swarm)"
+			"- {monster/Giant Rot Grub}",
+			"- {monster/Rot Grub Swarm}"
 		],
 		"description": [
 			"## Rot Grub",
@@ -4712,15 +4712,15 @@
 		"name": "Sahkil",
 		"sources": [ "Bestiary 5" ],
 		"members": [
-			"- [Esipil](monster/esipil)",
-			"- [Ichkoh](monster/ichkoh)",
-			"- [Kimenhul](monster/kimenhul)",
-			"- [Nucol](monster/nucol)",
-			"- [Pakalchi](monster/pakalchi)",
-			"- [Qolok](monster/qolok)",
-			"- [Wihsaak](monster/wihsaak)",
-			"- [Ximtal](monster/ximtal)",
-			"- [Zohanil](monster/zohanil)"
+			"- {monster/Esipil}",
+			"- {monster/Ichkoh}",
+			"- {monster/Kimenhul}",
+			"- {monster/Nucol}",
+			"- {monster/Pakalchi}",
+			"- {monster/Qolok}",
+			"- {monster/Wihsaak}",
+			"- {monster/Ximtal}",
+			"- {monster/Zohanil}"
 		],
 		"description": [
 			"## Sahkil",
@@ -4746,7 +4746,7 @@
 		"name": "Siktempora",
 		"sources": [ "Pathfinder #135: Runeplague" ],
 		"members": [
-			"- [Misery Siktempora](monster/misery_siktempora)"
+			"- {monster/Misery Siktempora}"
 		],
 		"description": [
 			"## Siktempora",
@@ -4767,9 +4767,9 @@
 		"name": "Spawn of Rovagug",
 		"sources": [ "Inner Sea Bestiary" ],
 		"members": [
-			"- [Chemnosit (The Monarch Worm)](monster/chemnosit_the_monarch_worm)",
-			"- [Festering Ulunat (The Unholy First)](monster/festering_ulunat_the_unholy_first)",
-			"- [Volnagur (The End-Singer)](monster/volnagur_the_end-singer)",
+			"- {monster/Chemnosit (The Monarch Worm)}",
+			"- {monster/Festering Ulunat (The Unholy First)}",
+			"- {monster/Volnagur (The End-Singer)}",
 			"- Xotani (The Firebleeder) (published stats are for D&amp;D 3.5, not Pathfinder)"
 		],
 		"description": [
@@ -4808,12 +4808,12 @@
 		"name": "Sphinx",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Androsphinx](monster/androsphinx)",
-			"- [Criosphinx](monster/criosphinx)",
-			"- [Cynosphinx](monster/cynosphinx)",
-			"- [Elder Sphinx](monster/elder_sphinx)",
-			"- [Gynosphinx](monster/gynosphinx)",
-			"- [Hieracosphinx](monster/hieracosphinx)"
+			"- {monster/Androsphinx}",
+			"- {monster/Criosphinx}",
+			"- {monster/Cynosphinx}",
+			"- {monster/Elder Sphinx}",
+			"- {monster/Gynosphinx}",
+			"- {monster/Hieracosphinx}"
 		],
 		"description": [
 			"## Sphinx",
@@ -4845,10 +4845,10 @@
 		"name": "Thassilonian Sentinel",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"members": [
-			"- [Bronze Sentinel](monster/bronze_sentinel)",
-			"- [Iron Sentinel](monster/iron_sentinel)",
-			"- [Ivory Sentinel](monster/ivory_sentinel)",
-			"- [Marble Sentinel](monster/marble_sentinel)"
+			"- {monster/Bronze Sentinel}",
+			"- {monster/Iron Sentinel}",
+			"- {monster/Ivory Sentinel}",
+			"- {monster/Marble Sentinel}"
 		],
 		"description": [
 			"## Thassilonian Sentinel",
@@ -4864,11 +4864,11 @@
 		"name": "Thriae",
 		"sources": [ "Bestiary 3" ],
 		"members": [
-			"- [Thriae Constructor](monster/thriae_constructor)",
-			"- [Thriae Dancer](monster/thriae_dancer)",
-			"- [Thriae Queen](monster/thriae_queen)",
-			"- [Thriae Seer](monster/thriae_seer)",
-			"- [Thriae Soldier](monster/thriae_soldier)"
+			"- {monster/Thriae Constructor}",
+			"- {monster/Thriae Dancer}",
+			"- {monster/Thriae Queen}",
+			"- {monster/Thriae Seer}",
+			"- {monster/Thriae Soldier}"
 		],
 		"description": [
 			"## Thriae",
@@ -4894,13 +4894,13 @@
 		"name": "Titan",
 		"sources": [ "Bestiary 2" ],
 		"members": [
-			"- [Elysian](monster/elysian)",
-			"- [Hekatonkheires](monster/hekatonkheires)",
-			"- [Thanatotic](monster/thanatotic)"
+			"- {monster/Elysian}",
+			"- {monster/Hekatonkheires}",
+			"- {monster/Thanatotic}"
 		],
 		"mythic_members": [
-			"- [Danava](monster/danava)",
-			"- [Fomorian Titan](monster/fomorian_titan)"
+			"- {monster/Danava}",
+			"- {monster/Fomorian Titan}"
 		],
 		"description": [
 			"## Titan",
@@ -4914,25 +4914,25 @@
 		"name": "Troll",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
-			"- [Canopy Troll](monster/canopy_troll)",
-			"- [Chimney Troll](monster/chimney_troll)",
-			"- [Flood Troll](monster/flood_troll)",
-			"- [Ice Troll](monster/ice_troll)",
-			"- [Jotund Troll](monster/jotund_troll)",
-			"- [Moss Troll](monster/moss_troll)",
-			"- [Mountain Troll](monster/mountain_troll)",
-			"- [Rock Troll](monster/rock_troll)",
-			"- [Sewer Troll](monster/sewer_troll)",
-			"- [Troll Acolyte](monster/troll_acolyte)",
-			"- [Troll Berserker](monster/troll_berserker)",
-			"- [Troll Brute](monster/troll_brute)",
-			"- [Troll Elder Matron](monster/troll_elder_matron)",
-			"- [Troll Fury](monster/troll_fury)",
-			"- [Troll Monarch](monster/troll_monarch)",
-			"- [Troll Render](monster/troll_render)",
-			"- [Troll Ripper](monster/troll_ripper)",
-			"- [Troll Warden](monster/troll_warden)",
-			"- [Troll](monster/troll)"
+			"- {monster/Canopy Troll}",
+			"- {monster/Chimney Troll}",
+			"- {monster/Flood Troll}",
+			"- {monster/Ice Troll}",
+			"- {monster/Jotund Troll}",
+			"- {monster/Moss Troll}",
+			"- {monster/Mountain Troll}",
+			"- {monster/Rock Troll}",
+			"- {monster/Sewer Troll}",
+			"- {monster/Troll Acolyte}",
+			"- {monster/Troll Berserker}",
+			"- {monster/Troll Brute}",
+			"- {monster/Troll Elder Matron}",
+			"- {monster/Troll Fury}",
+			"- {monster/Troll Monarch}",
+			"- {monster/Troll Render}",
+			"- {monster/Troll Ripper}",
+			"- {monster/Troll Warden}",
+			"- {monster/Troll}"
 		],
 		"description": [
 			"## Troll",
@@ -4949,21 +4949,21 @@
 			"Pathfinder #100: A Song of Silver"
 		],
 		"members": [
-			"- [Dottari Troop](monster/dottari_troop)",
-			"- [Glorious Reclamation](monster/glorious_reclamation)",
-			"- [Hobgoblin Phalanx Troop](monster/hobgoblin_phalanx_troop)",
-			"- [Hound Archon Troop](monster/hound_archon_troop)",
-			"- [Inquisitor Troop](monster/inquisitor_troop)",
-			"- [Ironfang Magehunter Troop](monster/ironfang_magehunter_troop)",
-			"- [Ironfang Siege Alchemist Troop](monster/ironfang_siege_alchemist_troop)",
-			"- [Ironfang Yzobu Rider Troop](monster/ironfang_yzobu_rider_troop)",
-			"- [Morlock Swarmer Troop](monster/morlock_swarmer_troop)",
-			"- [Warmaze Disciples Troop](monster/warmaze_disciples_troop)",
-			"- [Barrier Breaker Troop](monster/barrier_breaker_troop)",
-			"- [Cultist Troop](monster/cultist_troop)",
-			"- [Goblin Troop](monster/goblin_troop)",
-			"- [Outlaw Troop](monster/outlaw_troop)",
-			"- [Sodden Drauger Troop](monster/sodden_drauger_troop)"
+			"- {monster/Dottari Troop}",
+			"- {monster/Glorious Reclamation}",
+			"- {monster/Hobgoblin Phalanx Troop}",
+			"- {monster/Hound Archon Troop}",
+			"- {monster/Inquisitor Troop}",
+			"- {monster/Ironfang Magehunter Troop}",
+			"- {monster/Ironfang Siege Alchemist Troop}",
+			"- {monster/Ironfang Yzobu Rider Troop}",
+			"- {monster/Morlock Swarmer Troop}",
+			"- {monster/Warmaze Disciples Troop}",
+			"- {monster/Barrier Breaker Troop}",
+			"- {monster/Cultist Troop}",
+			"- {monster/Goblin Troop}",
+			"- {monster/Outlaw Troop}",
+			"- {monster/Sodden Drauger Troop}"
 		],
 		"description": [
 			"## Troops",
@@ -5013,8 +5013,8 @@
 		"name": "Vampire Servant",
 		"sources": [ "Monster Codex" ],
 		"members": [
-			"- [Coffin Guard](monster/coffin_guard)",
-			"- [Weird Butler](monster/weird_butler)"
+			"- {monster/Coffin Guard}",
+			"- {monster/Weird Butler}"
 		],
 		"description": [
 			"## Vampire Servant",
@@ -5028,10 +5028,10 @@
 		"name": "Veela",
 		"sources": [ "Bestiary 5" ],
 		"members": [
-			"- [Air Veela](monster/air_veela)",
-			"- [Earth Veela](monster/earth_veela)",
-			"- [Fire Veela](monster/fire_veela)",
-			"- [Water Veela](monster/water_veela)"
+			"- {monster/Air Veela}",
+			"- {monster/Earth Veela}",
+			"- {monster/Fire Veela}",
+			"- {monster/Water Veela}"
 		],
 		"description": [
 			"## Veela",
@@ -5047,11 +5047,11 @@
 		"name": "Wild Hunt",
 		"sources": [ "Bestiary 6" ],
 		"members": [
-			"- [Wild Hunt Archer](monster/wild_hunt_archer)",
-			"- [Wild Hunt Horse](monster/wild_hunt_horse)",
-			"- [Wild Hunt Hound](monster/wild_hunt_hound)",
-			"- [Wild Hunt Monarch](monster/wild_hunt_monarch)",
-			"- [Wild Hunt Scout](monster/wild_hunt_scout)"
+			"- {monster/Wild Hunt Archer}",
+			"- {monster/Wild Hunt Horse}",
+			"- {monster/Wild Hunt Hound}",
+			"- {monster/Wild Hunt Monarch}",
+			"- {monster/Wild Hunt Scout}"
 		],
 		"description": [
 			"## Wild Hunt",
@@ -5081,11 +5081,11 @@
 		"name": "Wysp",
 		"sources": [ "Bestiary 5" ],
 		"members": [
-			"- [Aether Wysp](monster/aether_wysp)",
-			"- [Air Wysp](monster/air_wysp)",
-			"- [Earth Wysp](monster/earth_wysp)",
-			"- [Fire Wysp](monster/fire_wysp)",
-			"- [Water Wysp](monster/water_wysp)"
+			"- {monster/Aether Wysp}",
+			"- {monster/Air Wysp}",
+			"- {monster/Earth Wysp}",
+			"- {monster/Fire Wysp}",
+			"- {monster/Water Wysp}"
 		],
 		"description": [
 			"## Wysp",
@@ -5096,7 +5096,7 @@
 			"",
 			"Even in the harshest servitude, wysps retain their curious nature and intelligence. When free to act as they please, they are playful and carefree, with mild differences in personality between the elements. Aether wysps are shy and mysterious, air wisps are flighty and capricious, earth wysps are guarded and slow to trust, fire wysps are impetuous and full of bluster, and water wysps are gentle and nurturing.",
 			"",
-			"Wysps happily offer their services to kind allies, though generally only elementally attuned creatures, kineticists, and spellcasters who summon elementals can make much use of a wysp's assistance. A 7th-level spellcaster who has the [Improved Familiar](feat/improved_familiar) feat can gain a wysp as a familiar.",
+			"Wysps happily offer their services to kind allies, though generally only elementally attuned creatures, kineticists, and spellcasters who summon elementals can make much use of a wysp's assistance. A 7th-level spellcaster who has the {feat/Improved Familiar} feat can gain a wysp as a familiar.",
 			"",
 			"### All wysps have the following features.",
 			"",
@@ -5108,7 +5108,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Living Battery (Ex)** As an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to heal 2 hit points for each of that creature's HD. If the wysp uses this ability, its death can't be prevented, and its life can't be restored by any effect less than [true resurrection](spell/true_resurrection), [miracle](spell/miracle), or [wish](spell/wish), even if such an effect can normally revive an outsider.",
+			"**Living Battery (Ex)** As an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to heal 2 hit points for each of that creature's HD. If the wysp uses this ability, its death can't be prevented, and its life can't be restored by any effect less than {spell/true resurrection}, {spell/miracle}, or {spell/wish}, even if such an effect can normally revive an outsider.",
 			"",
 			"**Resonance (Ex)** A wysp's natural resonance strengthens the power of its element. The wysp grants a +2 competence bonus on attack rolls and damage rolls to all creatures within 30 feet with an elemental subtype that matches the wysp's, and to the DCs of all racial spell-like, supernatural, and extraordinary abilities of such creatures (as usual, this does not include creatures assuming an elemental form). [Kineticists](class/kineticist) within 30 feet who share the wysp's element gain a +1 competence bonus on attack rolls and damage rolls. The wysp's statistics already include these bonuses.",
 			"",

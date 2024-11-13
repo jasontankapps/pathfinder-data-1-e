@@ -212,7 +212,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack 2 hooves (1d4); Ability Scores Str 13, Dex 13, Con 13, Int 2, Wis 12, Cha 13; Special Attacks spit; Special Qualities low-light vision, pristine wool",
 			"",
-			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks Aura: dazzling (10 ft.); Bonus Feat(s) [Nimble Moves](feat/nimble_moves)."
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks Aura: dazzling (10 ft.); Bonus Feat(s) {feat/Nimble Moves}."
 		]
 	},
 	"badger": {
@@ -540,7 +540,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack bite (1d6); Ability Scores Str 13, Dex 12, Con 13, Int 1, Wis 12, Cha 4; Special Qualities darkvision 60 ft.",
 			"",
-			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see [Handle Animal](skill/handle_animal))."
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see {skill/Handle Animal})."
 		]
 	},
 	"centipede_giant": {
@@ -621,9 +621,9 @@
 			"",
 			"Swift and unsettling, the giant cockroach is notoriously difficult to slay. These creatures prefer dark places and seem to have no opposition to crawling through filth.",
 			"",
-			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft., fly 20 ft. (poor); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 9, Dex 10, Con 17, Int -, Wis 11, Cha 2; Special Qualities darkvision 60 ft., hold breath, light sensitivity, tremorsense 60 ft.; CMD +8 vs. trip; Bonus Feat(s) [Endurance](feat/endurance)",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft., fly 20 ft. (poor); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 9, Dex 10, Con 17, Int -, Wis 11, Cha 2; Special Qualities darkvision 60 ft., hold breath, light sensitivity, tremorsense 60 ft.; CMD +8 vs. trip; Bonus Feat(s) {feat/Endurance}",
 			"",
-			"**4th-Level Advancement:** Speed 30 ft. climb 30 ft., fly 30 ft. (poor); AC +2 natural armor; Ability Scores Str +2, Dex +2, Con +2; Bonus Feat(s) [Diehard](feat/diehard)."
+			"**4th-Level Advancement:** Speed 30 ft. climb 30 ft., fly 30 ft. (poor); AC +2 natural armor; Ability Scores Str +2, Dex +2, Con +2; Bonus Feat(s) {feat/Diehard}."
 		]
 	},
 	"giant_cockroach": { "copyof": "cockroach_giant" },
@@ -1184,7 +1184,7 @@
 			"",
 			"**Starting Statistics:** Size Small; Speed 20 ft., fly 40 ft. (perfect); AC +2 natural armor; Attack bite (1d8); Ability Scores Str 13, Dex 17, Con 12, Int -, Wis 12, Cha 9; Special Qualities darkvision 60 ft.; CMD +8 vs. trip",
 			"",
-			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +4, Dex -2, Con +4;; Bonus Feat(s) [Flyby Attack](feat/flyby_attack)."
+			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +4, Dex -2, Con +4;; Bonus Feat(s) {feat/Flyby Attack}."
 		]
 	},
 	"giant_dragonfly": { "copyof": "dragonfly_giant" },
@@ -2371,7 +2371,7 @@
 			"",
 			"Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.",
 			"",
-			"**Starting Statistics:** Size Small; Speed 20 ft., swim 30 ft., jet 200 ft.; AC +1 natural armor; Attack bite (1d3), tentacles (grab); Ability Scores Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3; Special Qualities low-light vision, [ink cloud](umr/ink_cloud) (10-ft. radius).",
+			"**Starting Statistics:** Size Small; Speed 20 ft., swim 30 ft., jet 200 ft.; AC +1 natural armor; Attack bite (1d3), tentacles (grab); Ability Scores Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3; Special Qualities low-light vision, {umr/ink cloud} (10-ft. radius).",
 			"",
 			"**4th-Level Advancement:** Attack bite (1d3 plus poison); Ability Scores Str +2, Con +2."
 		]
@@ -2539,9 +2539,9 @@
 			"",
 			"This lumbering forest creature is adorned with an array of long, sharp quills that protrude from its coarse pelt.",
 			"",
-			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack tail slap (1d4); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 5; Special Attacks quills (as [porcupine](monster/porcupine) quills); Special Qualities low-light vision, scent",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack tail slap (1d4); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 5; Special Attacks quills (as {monster/porcupine} quills); Special Qualities low-light vision, scent",
 			"",
-			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as [giant porcupine](monster/giant_porcupine) quills)."
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as {monster/giant porcupine} quills)."
 		]
 	},
 	"giant_porcupine": { "copyof": "porcupine_giant" },
@@ -2642,7 +2642,7 @@
 			"",
 			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack gore (1d3); Ability Scores Str 10, Dex 17, Con 11, Int 2, Wis 14, Cha 7; Special Qualities low-light vision, scent",
 			"",
-			"**4th-Level Advancement:** Size Medium; Attack gore (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks powerful charge (1d8); Bonus Feat(s) [Improved Bull Rush](feat/improved_bull_rush)."
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks powerful charge (1d8); Bonus Feat(s) {feat/Improved Bull Rush}."
 		]
 	},
 	"rash_creeper": {
@@ -2745,7 +2745,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 11, Dex 14, Con 13, Int 1, Wis 10, Cha 4; Special Qualities blindsight 60 ft.; CMD can't be tripped",
 			"",
-			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see [Handle Animal](skill/handle_animal))."
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see {skill/Handle Animal})."
 		]
 	},
 	"riding_rat": {
@@ -2762,7 +2762,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed 40 ft., climb 20 ft., swim 20 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 14, Dex 15, Con 17, Int 2, Wis 13, Cha 4; Special Qualities low-light vision, scent",
 			"",
-			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +2, Dex +2; Bonus Feat(s) [Endurance](feat/endurance)."
+			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +2, Dex +2; Bonus Feat(s) {feat/Endurance}."
 		]
 	},
 	"ringhorn": {
@@ -2779,7 +2779,7 @@
 			"",
 			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack 2 hooves (1d3); Ability Scores Str 11, Dex 18, Con 11, Int 2, Wis 12, Cha 13; Special Qualities low-light vision, scent",
 			"",
-			"**4th-Level Advancement:** Size Medium; Attack 2 hooves (1d4); Ability Scores Str +2, Dex -2, Con +2; Bonus Feat(s) [Nimble Moves](feat/nimble_moves)."
+			"**4th-Level Advancement:** Size Medium; Attack 2 hooves (1d4); Ability Scores Str +2, Dex -2, Con +2; Bonus Feat(s) {feat/Nimble Moves}."
 		]
 	},
 	"roc": {
@@ -3154,7 +3154,7 @@
 			"",
 			"This slender red squid darts through the water with alacrity. Two large eyes stare from above the creature's tentacles.",
 			"",
-			"**Starting Statistics:** Size Medium; Speed swim 60 ft., jet 240 ft.; AC +1 natural armor; Attack tentacles (1d4 plus grab), bite (1d3); Ability Scores Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2; Special Qualities low-light vision, [ink cloud](umr/ink_cloud) (5-ft. radius).",
+			"**Starting Statistics:** Size Medium; Speed swim 60 ft., jet 240 ft.; AC +1 natural armor; Attack tentacles (1d4 plus grab), bite (1d3); Ability Scores Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2; Special Qualities low-light vision, {umr/ink cloud} (5-ft. radius).",
 			"",
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
@@ -3173,7 +3173,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed swim 40 ft., jet 90 ft.; AC +1 natural armor; Attack bite (1d6), tentacles (1d4 plus grab); Ability Scores Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 3; Special Qualities aquatic, low-light vision",
 			"",
-			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities [ink cloud](umr/ink_cloud) (20-ft. radius)."
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities {umr/ink cloud} (20-ft. radius)."
 		]
 	},
 	"giant_squid": { "copyof": "squid_giant" },
@@ -3327,7 +3327,7 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed 10 ft.; AC +6 natural armor; Attack bite (1d4); Ability Scores Str 14, Dex 8, Con 16, Int 2, Wis 13, Cha 9; Special Qualities low-light vision",
 			"",
-			"**7th-Level Advancement:** Size Large; AC +8 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities [Great Fortitude](feat/great_fortitude) (Bonus Feat)."
+			"**7th-Level Advancement:** Size Large; AC +8 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities {feat/Great Fortitude} (Bonus Feat)."
 		]
 	},
 	"giant_tortoise": { "copyof": "tortoise_giant" },

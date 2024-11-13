@@ -2006,7 +2006,7 @@
 		"title": "Religion Traits",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"Religion traits indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed under [Restrictions on Trait Selection](rule/restrictions_on_trait_selection).",
+			"Religion traits indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed under {rule/Restrictions on Trait Selection}.",
 			"",
 			"{table0}"
 		],
@@ -2807,72 +2807,72 @@
 		"description": [
 			[ "Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing." ],
 			[
-				"## [Abject Belief](trait/abject_belief)",
+				"## {trait/Abject Belief}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You cling tenaciously to a faith that is doubted by many, perhaps based around a god who has vanished, or was never a god in the first place. You refuse to forsake your beliefs despite all evidence, perhaps due to a need to belong, respect for tradition, or a religious experience. As a result, it is nearly impossible to convince you of your deity's absence. You gain a +2 trait bonus on Will saving throws against fear effects."
 			],
 			[
-				"## [Acclimatize Alignment](trait/acclimatize_alignment)",
+				"## {trait/Acclimatize Alignment}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Like a climber ascending a mountain, you gradually grow acclimatized to an opposing planar alignment. For each consecutive day you remain on a mildly aligned plane that opposes your alignment, reduce your penalty on Charisma-based checks by 1, to a minimum of 0. This does not affect the penalty from a strongly aligned plane."
 			],
 			[
-				"## [Acolyte of Apocrypha](trait/acolyte_of_apocrypha)",
+				"## {trait/Acolyte of Apocrypha}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain-these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
 				"",
-				"**[Alchemy](domain/alchemy) ([Artifice](domain/artifice)/[Magic](domain/magic)):** [Brigh](faith/brigh), [Haagenti](faith/haagenti), [Norgorber](faith/norgorber)&ast; (Artifice only), [Orgesh](faith/orgesh)&ast; (Magic only), [Qi Zhong](faith/qi_zhong))",
+				"**{domain/Alchemy} ({domain/Artifice}/{domain/Magic}):** {faith/Brigh}, {faith/Haagenti}, {faith/Norgorber}&ast; (Artifice only), {faith/Orgesh}&ast; (Magic only), {faith/Qi Zhong})",
 				"",
-				"**[Captivation](domain/captivation):** [Calistria](faith/calistria), [Kofusachi](faith/kofusachi), [Nalinivati](faith/nalinivati), [Norgorber](faith/norgorber), [Shelyn](faith/shelyn)",
+				"**{domain/Captivation}:** {faith/Calistria}, {faith/Kofusachi}, {faith/Nalinivati}, {faith/Norgorber}, {faith/Shelyn}",
 				"",
-				"**[Hubris](domain/hubris) ([Glory](domain/glory)/[Nobility](domain/nobility)):** [Dispater](faith/dispater), [General Susumu](faith/general_susumu), [Iomedae](faith/iomedae), [Jaidz](faith/jaidz), [Lissala](faith/lissala), [Olheon](faith/olheon), [Ydersius](faith/ydersius)",
+				"**{domain/Hubris} ({domain/Glory}/{domain/Nobility}):** {faith/Dispater}, {faith/General Susumu}, {faith/Iomedae}, {faith/Jaidz}, {faith/Lissala}, {faith/Olheon}, {faith/Ydersius}",
 				"",
-				"**[Insect](domain/insect):** [Achaekek](faith/achaekek)&ast;, [Aldinach](faith/aldinach), [Deskari](faith/deskari)&ast;, [Ghlaunder](faith/ghlaunder), [Kitumu](faith/kitumu), [Mazmezz](faith/mazmezz)",
+				"**{domain/Insect}:** {faith/Achaekek}&ast;, {faith/Aldinach}, {faith/Deskari}&ast;, {faith/Ghlaunder}, {faith/Kitumu}, {faith/Mazmezz}",
 				"",
-				"**[Legend](domain/legend):** [General Susumu](faith/general_susumu), [Gorum](faith/gorum), [Shizuru](faith/shizuru)",
+				"**{domain/Legend}:** {faith/General Susumu}, {faith/Gorum}, {faith/Shizuru}",
 				"",
-				"**[Lightning](domain/lightning):** [Gozreh](faith/gozreh), [Hei Feng](faith/hei_feng), [Rovagug](faith/rovagug), [Rull](faith/rull)",
+				"**{domain/Lightning}:** {faith/Gozreh}, {faith/Hei Feng}, {faith/Rovagug}, {faith/Rull}",
 				"",
-				"**[Medicine](domain/medicine):** [Dalenydra](faith/dalenydra), [Immonhiel](faith/immonhiel), [Irori](faith/irori), [Korada](faith/korada), [Qi Zhong](faith/qi_zhong), [Sarenrae](faith/sarenrae)",
+				"**{domain/Medicine}:** {faith/Dalenydra}, {faith/Immonhiel}, {faith/Irori}, {faith/Korada}, {faith/Qi Zhong}, {faith/Sarenrae}",
 				"",
-				"**[Monsoon](domain/monsoons):** [Daikitsu](faith/daikitsu), [Gozreh](faith/gozreh), [Hei Feng](faith/hei_feng), [Rull](faith/rull)",
+				"**[Monsoon](domain/monsoons):** {faith/Daikitsu}, {faith/Gozreh}, {faith/Hei Feng}, {faith/Rull}",
 				"",
-				"**[Petrification](domain/petrification):** [Ayrzul](faith/ayrzul), [Minderhal](faith/minderhal), [Soralyon](faith/soralyon), [Xoveron](faith/xoveron)",
+				"**{domain/Petrification}:** {faith/Ayrzul}, {faith/Minderhal}, {faith/Soralyon}, {faith/Xoveron}",
 				"",
-				"**[Portal](domain/portal):** [Abadar](faith/abadar), [Alseta](faith/alseta)&ast;, [Barbatos](faith/barbatos), [Yog-Sothoth](faith/yog-sothoth)",
+				"**{domain/Portal}:** {faith/Abadar}, {faith/Alseta}&ast;, {faith/Barbatos}, {faith/Yog-Sothoth}",
 				"",
-				"**[Rites](domain/rites):** [Abraxas](faith/abraxas), [Asmodeus](faith/asmodeus), [Nalinivati](faith/nalinivati), [Nethys](faith/nethys), [Nyarlathotep](faith/nyarlathotep_black_pharaoh), [Sivanah](faith/sivanah)",
+				"**{domain/Rites}:** {faith/Abraxas}, {faith/Asmodeus}, {faith/Nalinivati}, {faith/Nethys}, [Nyarlathotep](faith/nyarlathotep_black_pharaoh), {faith/Sivanah}",
 				"",
-				"**[Self-Realization](domain/self-realization) ([Liberation](domain/liberation)/[Strength](domain/strength)):** [Arshea](faith/arshea), [Falayna](faith/falayna), [Haagenti](faith/haagenti), [Irori](faith/irori), [Kurgess](faith/kurgess), [Shei](faith/shei), [Urgathoa](faith/urgathoa)",
+				"**{domain/Self-Realization} ({domain/Liberation}/{domain/Strength}):** {faith/Arshea}, {faith/Falayna}, {faith/Haagenti}, {faith/Irori}, {faith/Kurgess}, {faith/Shei}, {faith/Urgathoa}",
 				"",
-				"**[Thirst](domain/thirst):** [Aldinach](faith/aldinach), [Lalaci](faith/lalaci), [Nurgal](faith/nurgal), [Sarenrae](faith/sarenrae)",
+				"**{domain/Thirst}:** {faith/Aldinach}, {faith/Lalaci}, {faith/Nurgal}, {faith/Sarenrae}",
 				"",
-				"**[Thorns](domain/thorns):** [The Green Mother](faith/the_green_mother), [Shub-Niggurath](faith/shub-niggurath), [Zyphus](faith/zyphus)",
+				"**{domain/Thorns}:** {faith/The Green Mother}, {faith/Shub-Niggurath}, {faith/Zyphus}",
 				"",
-				"**[Truth](domain/truth):** [Groetus](faith/groetus), [Lamashtu](faith/lamashtu), [Sifkesh](faith/sifkesh), [Sivanah](faith/sivanah)"
+				"**{domain/Truth}:** {faith/Groetus}, {faith/Lamashtu}, {faith/Sifkesh}, {faith/Sivanah}"
 			],
 			[
-				"## [Apprentice](trait/apprentice)",
+				"## {trait/Apprentice}",
 				"",
 				"**Type:** Faith",
 				"",
 				"During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the sorcerer/wizard spell list. You can cast this spell 1 time per day as a spell-like ability."
 			],
 			[
-				"## [Arcane Scholar](trait/arcane_scholar)",
+				"## {trait/Arcane Scholar}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Study of the \"Prime Archmage\" chapter has broadened your magical knowledge. Choose either Knowledge (arcana) or Spellcraft; you gain a +1 trait bonus on that skill and it is a class skill for you."
 			],
 			[
-				"## [Aspect of the Quah](trait/aspect_of_the_quah)",
+				"## {trait/Aspect of the Quah}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -2893,7 +2893,7 @@
 				"**Will-o'-Wisp (Skoan-Quah, Wolf):** The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
 			],
 			[
-				"## [Authoritarian](trait/authoritarian)",
+				"## {trait/Authoritarian}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -2902,49 +2902,49 @@
 				"Suggested Characters: Abadarans, Hellknights, Hermeans."
 			],
 			[
-				"## [Beacon of Faith](trait/beacon_of_faith)",
+				"## {trait/Beacon of Faith}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You wield the might of your faith with power and clarity. Once per day as a free action, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells."
 			],
 			[
-				"## [Birthmark](trait/birthmark)",
+				"## {trait/Birthmark}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were born with a strange birthmark that looks very similar to the holy symbol of the god you chose to worship later in life. This birthmark can serve you as a divine focus for casting spells, and as a physical manifestation of your faith, and it increases your devotion to your god. You gain a +2 trait bonus on all saving throws against charm and compulsion effects."
 			],
 			[
-				"## [Blessed](trait/blessed)",
+				"## {trait/Blessed}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Some divine agent watches over you and heeds your call. Once per day as a swift action, you gain a +1 trait bonus on all saving throws for 1 round."
 			],
 			[
-				"## [Blessed Touch](trait/blessed_touch)",
+				"## {trait/Blessed Touch}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others. You heal 1 additional point of damage when using lay on hands, channeling energy, or casting a cure spell."
 			],
 			[
-				"## [Born Free](trait/born_free)",
+				"## {trait/Born Free}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning. Once per day, after you roll a saving throw against a compulsion effect, you can choose to roll again as an immediate action before the result of the saving throw is announced. You must keep the new roll, even if it is worse."
 			],
 			[
-				"## [Bound by Honor](trait/bound_by_honor)",
+				"## {trait/Bound by Honor}",
 				"",
 				"**Type:** Faith",
 				"",
-				"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose [Honor Points](rule/honor_points), you may make a new saving throw against the original DC to end the effect."
+				"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose {rule/Honor Points}, you may make a new saving throw against the original DC to end the effect."
 			],
 			[
-				"## [Called](trait/called)",
+				"## {trait/Called}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -2953,70 +2953,70 @@
 				"Suggested Characters: Oracles, paladins, Ulfen."
 			],
 			[
-				"## [Canon of Coin](trait/canon_of_coin)",
+				"## {trait/Canon of Coin}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You find the pursuit of earning money to be a religious experience. Appraise is a class skill for you. So long as you are carrying coins worth an amount equal to at least 100 gp per character level you have, you gain a +1 trait bonus on Will saves. This bonus increases to +2 against effects that would force you to discard, drop, or give away coins, gems, or trade goods in your possession."
 			],
 			[
-				"## [Caretaker](trait/caretaker)",
+				"## {trait/Caretaker}",
 				"",
 				"**Type:** Faith",
 				"",
 				"As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded. You gain a +1 trait bonus on Heal checks, and Heal is always a class skill for you."
 			],
 			[
-				"## [Child of the Temple](trait/child_of_the_temple)",
+				"## {trait/Child of the Temple}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks, and one of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [Chosen of Iomedae](trait/chosen_of_iomedae)",
+				"## {trait/Chosen of Iomedae}",
 				"",
 				"**Type:** Faith",
 				"",
 				"At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast light once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled."
 			],
 			[
-				"## [Covert Channeler](trait/covert_channeler)",
+				"## {trait/Covert Channeler}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your mentor in the Wagons of Light taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action."
 			],
 			[
-				"## [Crisis of Faith](trait/crisis_of_faith)",
+				"## {trait/Crisis of Faith}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of) her pure faith. Whatever the case, your shaken confidence grants you a +1 trait bonus on saving throws against illusions. You may replace any other faith trait with the Crisis of Faith trait whenever you gain a level. This replacement is permanent until you receive atonement."
 			],
 			[
-				"## [Crusader](trait/crusader)",
+				"## {trait/Crusader}",
 				"",
 				"**Type:** Faith",
 				"",
 				"From studying \"Prime Commander\" and reading accounts of the battles in the Worldwound, you have trained to be a crusader against demonic forces. You gain a +1 trait bonus on attack rolls against outsiders with the chaotic subtype."
 			],
 			[
-				"## [Darkest Before Dawn](trait/darkest_before_dawn)",
+				"## {trait/Darkest Before Dawn}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your devotion sustains you when others would fall to despair. You gain a +2 trait bonus on saving throws against spells with the emotion, fear, or pain descriptor. Once per day, you can increase this bonus to +4 for a single save, but you must make this decision before you attempt the saving throw."
 			],
 			[
-				"## [Deep Faith](trait/deep_faith)",
+				"## {trait/Deep Faith}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your deity was born of the depths, and you're a child of such realms. Whenever you cast a spell granted by the earth domain (or associated subdomains) while in the Darklands, that spell functions at 1 caster level higher than your actual caster level."
 			],
 			[
-				"## [Defy Madness](trait/defy_madness)",
+				"## {trait/Defy Madness}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Old Cults",
@@ -3024,7 +3024,7 @@
 				"Your direct involvement with supernatural and alien forces has left you less vulnerable to the insanity they cause. You gain a +1 trait bonus on any saving throws against confusion, insanity, madness, and Wisdom damage and drain."
 			],
 			[
-				"## [Devoted Healer](trait/devoted_healer)",
+				"## {trait/Devoted Healer}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -3033,63 +3033,63 @@
 				"Suggested Characters: Battle clerics, Iomedaeans, Kellids."
 			],
 			[
-				"## [Devotee of the Green](trait/devotee_of_the_green)",
+				"## {trait/Devotee of the Green}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (nature) checks, and one of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [Devout Visionary](trait/devout_visionary)",
+				"## {trait/Devout Visionary}",
 				"",
 				"**Type:** Faith",
 				"",
 				"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others. You gain a +1 trait bonus on Will saving throws against spells and effects that grant the confused or dazed condition. Once per day as a full-round action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition."
 			],
 			[
-				"## [Disdainful Defender](trait/disdainful_defender)",
+				"## {trait/Disdainful Defender}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You are resistant to the magic of other faiths. You gain a +2 trait bonus on all Will saves you attempt against divine spells. This bonus does not apply against divine spells cast by a caster who worships the same deity you do."
 			],
 			[
-				"## [Divine Confidante](trait/divine_confidante)",
+				"## {trait/Divine Confidante}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were inspired with the reverence offered by worshipers to priests and other spiritual leaders, so you assisted them. You gain a +3 trait bonus on Sense Motive checks to get hunches about those who discuss matters of faith, mythology, morality, religion, or the Outer Planes with you. Sense Motive is a class skill for you."
 			],
 			[
-				"## [Divine Denier](trait/divine_denier)",
+				"## {trait/Divine Denier}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You can't bring yourself to accept the authority of the gods, even though friends might hound you relentlessly to change your ways. Perhaps you're a Rahadoumi objecting on ideological grounds, or perhaps you just want to be left alone. Your doubt causes you to shrug off divine magic more quickly than others. Once per day when you are affected by a divine spell, you may reduce that spell's duration to half (minimum 1 round) for you alone."
 			],
 			[
-				"## [Dogged](trait/dogged)",
+				"## {trait/Dogged}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Drawing inspiration from the Cult of the Failed, you refuse to let setbacks stop you, no matter how disastrous. Once per day when you roll a natural 1 on an attack roll, saving throw, skill check, or ability check, you gain a +1 trait bonus on any one roll you attempt before the end of the next round."
 			],
 			[
-				"## [Ease of Faith](trait/ease_of_faith)",
+				"## {trait/Ease of Faith}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on Diplomacy checks, and Diplomacy is always a class skill for you."
 			],
 			[
-				"## [Empyreal Pantheon](trait/empyreal_pantheon)",
+				"## {trait/Empyreal Pantheon}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life. Select either the law or chaos alignment descriptor. You may cast spells with that descriptor, even if your alignment or that of your god would normally not allow it. Doing so applies the good descriptor to the spell if it does not already apply."
 			],
 			[
-				"## [Exalted of the Society](trait/exalted_of_the_society)",
+				"## {trait/Exalted of the Society}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
@@ -3097,7 +3097,7 @@
 				"The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively. You may channel energy one additional time per day."
 			],
 			[
-				"## [Faithful Feedback](trait/faithful_feedback)",
+				"## {trait/Faithful Feedback}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Must have a religion",
@@ -3105,21 +3105,21 @@
 				"A shared religious fervor makes your healing magic more effective. Whenever you cast a spell belonging to the healing subschool on someone of your religion, increase the hit points healed by +1."
 			],
 			[
-				"## [Fate's Favored](trait/fates_favored)",
+				"## {trait/Fate's Favored}",
 				"",
 				"**Type:** Faith",
 				"",
 				"The fates watch over you. Whenever you are under the effect of a luck bonus of any kind, that bonus increases by 1."
 			],
 			[
-				"## [Fearless Defiance](trait/fearless_defiance)",
+				"## {trait/Fearless Defiance}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your favored enemies for 1 round."
 			],
 			[
-				"## [First Memories](trait/first_memories)",
+				"## {trait/First Memories}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Gnome",
@@ -3127,56 +3127,56 @@
 				"For your whole life, you've felt there was a world just beyond the fabric of the material objects around you, and sometimes you can hear the north wind calling you or smell the dread taint of polluted water before you taste it. You do not gain the normal list of spell-like abilities for the gnome magic racial trait presented in the Pathfinder RPG Core Rulebook. Instead, if you have a Wisdom of 11 of higher, you gain the following spell-like abilities: 1/day-detect poison, know direction, stabilize, and speak with animals. The caster level for these effects is equal to your character level. The DC for these spells is equal to 10 + the spell's level + your Wisdom modifier."
 			],
 			[
-				"## [Focused Disciple](trait/focused_disciple)",
+				"## {trait/Focused Disciple}",
 				"",
 				"**Type:** Faith",
 				"",
 				"When weaker wills falter, you keep a clear mind. You gain a +2 trait bonus on saving throws against charm and compulsion effects."
 			],
 			[
-				"## [Godclaw Disciple](trait/godclaw_disciple)",
+				"## {trait/Godclaw Disciple}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You worship the amalgamation of lawful deities known as the Godclaw. You gain a +2 trait bonus on Knowledge (religion) checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you."
 			],
 			[
-				"## [Heedful Readiness](trait/heedful_readiness)",
+				"## {trait/Heedful Readiness}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your years of meditation and mindfulness allow you to act correctly on a moment's notice. Once per day, you can add your Wisdom modifier to an initiative check."
 			],
 			[
-				"## [Hellknight Inquisitor](trait/hellknight_inquisitor)",
+				"## {trait/Hellknight Inquisitor}",
 				"",
 				"**Type:** Faith",
 				"",
 				"If you are an inquisitor, you can select any inquisition associated with your preferred [Hellknight](rule/aff_lawknights) order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
 			],
 			[
-				"## [Heretic's Caution](trait/heretics_caution)",
+				"## {trait/Heretic's Caution}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were raised in a faith that did not center on a traditional god or that followed a heretical interpretation of a traditional deity. You learned to deflect attention, especially from ecclesiastical figures. You gain a +1 trait bonus on Bluff checks. This bonus increases to +3 on Bluff checks opposed by religious authorities' Sense Motive checks."
 			],
 			[
-				"## [Hidden Faith](trait/hidden_faith)",
+				"## {trait/Hidden Faith}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were raised in a religion forbidden by your government, and draw strength from your hidden faith. You gain a +1 trait bonus on saving throws against the divine spells of creatures that worship a god other than your own."
 			],
 			[
-				"## [History of Heresy](trait/history_of_heresy)",
+				"## {trait/History of Heresy}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings. As long as you do not possess any levels in a class that grants divine spellcasting power, you gain a +1 trait bonus on all saving throws against divine spells."
 			],
 			[
-				"## [Honest](trait/honest)",
+				"## {trait/Honest}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -3185,28 +3185,28 @@
 				"Suggested Characters: Diabolists, paladins, Sarenrae worshipers."
 			],
 			[
-				"## [Imperfect Recall](trait/imperfect_recall)",
+				"## {trait/Imperfect Recall}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your belief in reincarnation, as taught by the Sangpotshi philosophy and in lands that were once Imperial Lung Wa, has been reinforced by personal experience. In moments of great stress, you sometimes experience flashes of deja vu in which you recall information you don't remember ever having known. Once per day while you are in danger or distracted, you gain a +3 bonus on a single Knowledge skill check."
 			],
 			[
-				"## [Indomitable Faith](trait/indomitable_faith)",
+				"## {trait/Indomitable Faith}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were born in a region where your faith was not popular, but you still have never abandoned it. Your constant struggle to maintain your own faith has bolstered your drive. You gain a +1 trait bonus on Will saves."
 			],
 			[
-				"## [Inspired](trait/inspired)",
+				"## {trait/Inspired}",
 				"",
 				"**Type:** Faith",
 				"",
 				"A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration. Once per day as a free action, roll twice and take the better result on a skill check or ability check."
 			],
 			[
-				"## [Irrepressible](trait/irrepressible)",
+				"## {trait/Irrepressible}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -3215,63 +3215,63 @@
 				"Suggested Characters: Gnomes, Keleshites, Shelyn worshipers."
 			],
 			[
-				"## [Irreverent](trait/irreverent)",
+				"## {trait/Irreverent}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You are suspicious of those who lead spiritual lives and are quick to seek out the smallest hypocrisy in even the most pious individuals. Of course, you are also keenly aware of the power the faithful can draw from their worship, and you are stubbornly resistant to it. You gain a +2 trait bonus on saving throws against divine spells that target only you."
 			],
 			[
-				"## [Kalistocratic Prophecy](trait/kalistocratic_prophecy)",
+				"## {trait/Kalistocratic Prophecy}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were raised under the [Prophecies of Kalistrade](rule/f_profits), and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate Profession check to earn money or gain capital using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity."
 			],
 			[
-				"## [Light in the Darkness](trait/light_in_the_darkness)",
+				"## {trait/Light in the Darkness}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You're destined to bring light to the darkness and expunge the faithless from the deep. Whenever you cast a spell granted by the sun domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level."
 			],
 			[
-				"## [Loyalty across Lifetimes](trait/loyalty_across_lifetimes)",
+				"## {trait/Loyalty across Lifetimes}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You and your eidolon share a link that seems to span multiple lifetimes. Your eidolon treats its Constitution score as if it were 2 points higher for the purposes of determining when its negative hit point total sends it back to its home plane. In addition, your eidolon gains a +1 trait bonus on Will saves against enchantment spells and effects."
 			],
 			[
-				"## [Martial Manuscript](trait/martial_manuscript)",
+				"## {trait/Martial Manuscript}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You either carry or have memorized a sacred text from your school, temple, or monastery, and its wisdom gives you insight that makes your attacks more devastating. You gain a +2 trait bonus on rolls to confirm critical hits when you're using an unarmed strike or monk weapon."
 			],
 			[
-				"## [Masked](trait/masked)",
+				"## {trait/Masked}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You learned from \"Prime Conspirator\" that keeping secrets often means hiding your true identity. Once per day, when attempting a Disguise check, roll twice and take the better result."
 			],
 			[
-				"## [Meditative Rest](trait/meditative_rest)",
+				"## {trait/Meditative Rest}",
 				"",
 				"**Type:** Faith",
 				"",
 				"When you rest, you ignore the first time you are interrupted during that rest for the purposes of determining how long you need to rest in full to regain the capacity to regain spells, provided the interruption lasts no more than 15 minutes. If you cast spells during this interruption, you don't count these against your daily limit of spells when you wake and prepare spells."
 			],
 			[
-				"## [Monastic](trait/monastic)",
+				"## {trait/Monastic}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment-figuratively or literally. Once per day as a swift action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute."
 			],
 			[
-				"## [Mystery Initiate](trait/mystery_initiate)",
+				"## {trait/Mystery Initiate}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -3280,21 +3280,21 @@
 				"Suggested Characters: Mystery cultists, Nethys worshipers, Norgorber worshipers."
 			],
 			[
-				"## [Natural Ritualist](trait/natural_ritualist)",
+				"## {trait/Natural Ritualist}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You venerate nature, either by paying homage to your Shoanti totem spirit or by appeasing the kami around you in accordance with Tamashigo. In return, the spirits bless your path. Once per week, you can build a small shrine of natural materials and pay your respects in a ritual that takes 15 minutes. Spellcasters can do this as part of their daily spell preparation. You gain a +2 trait bonus on Knowledge (nature) and Survival checks for 24 hours."
 			],
 			[
-				"## [Nature Worshiper](trait/nature_worshiper)",
+				"## {trait/Nature Worshiper}",
 				"",
 				"**Type:** Faith",
 				"",
 				"When you were young, you saw a dead creature's body fertilize a field. Witnessing the connection between life and death moved you to recognize your own connection with the world, and ever since you have revered nature and feared death less. You gain a +1 trait bonus on saving throws against death effects and effects that use negative energy, such as energy drain and inflict spells."
 			],
 			[
-				"## [Necrotic Aura](trait/necrotic_aura)",
+				"## {trait/Necrotic Aura}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Whispering Way",
@@ -3302,28 +3302,28 @@
 				"Your exposure to the necromantic arts has strengthened your defenses against its vile rot. You gain a +1 trait bonus on saving throws against spells from the necromancy school or any effect that deals negative energy damage."
 			],
 			[
-				"## [Oathbound](trait/oathbound)",
+				"## {trait/Oathbound}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You have made a solemn oath, and you pursue that oath with headstrong determination. Once per day, you may reroll a saving throw against a charm or compulsion effect. You must take the second result even if it is worse."
 			],
 			[
-				"## [Omen](trait/omen)",
+				"## {trait/Omen}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. Once per day, you may attempt to demoralize an opponent as a swift action."
 			],
 			[
-				"## [Pact Servant](trait/pact_servant)",
+				"## {trait/Pact Servant}",
 				"",
 				"**Type:** Faith",
 				"",
 				"The faith of Holomog focuses on finding the good in unusual places and appreciating the nuances of virtue in the world. You may treat Asmodeus as if he were a lawful neutral deity for the purposes of determining your own alignment as a cleric, inquisitor, or other divine spellcaster. You may not select the evil domain unless your own alignment also contains an evil aspect."
 			],
 			[
-				"## [Patient Calm](trait/patient_calm)",
+				"## {trait/Patient Calm}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -3332,140 +3332,140 @@
 				"Suggested Characters: Asmodeans, Drumans, Irorans."
 			],
 			[
-				"## [Perpetual Companion](trait/perpetual_companion)",
+				"## {trait/Perpetual Companion}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You are bolstered against fear when your eidolon is near. You gain a +2 trait bonus on all saving throws against fear effects whenever your eidolon is within 30 feet."
 			],
 			[
-				"## [Persuasive Insight](trait/persuasive_insight)",
+				"## {trait/Persuasive Insight}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were converted to your faith or taught to bargain with spirits for magic by a figure of inspiring insight who taught you to use keen observation in all dealings. You can use your Wisdom modifier in place of your Charisma modifier on Diplomacy checks to ask favors or gain influence. During a verbal duel, you can use your Wisdom modifier in place of your Charisma modifier when using tactics you assigned to Diplomacy or Wisdom-based skills."
 			],
 			[
-				"## [Planar Savant](trait/planar_savant)",
+				"## {trait/Planar Savant}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You have always had an innate sense of the workings of the planes and their denizens. You may use your Charisma modifier when making Knowledge (planes) checks instead of your Intelligence modifier."
 			],
 			[
-				"## [Priest-Blessed](trait/priest-blessed)",
+				"## {trait/Priest-Blessed}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were guided to maturity by a trusted priest of an ecclesiastical tradition, who inspired you and made you understand that the authority exerted by a religious hierarchy is a blessing rather than a restriction, allowing the faithful to always feel confident in their direction and the righteousness of the guided actions. Now, your faith wells up whenever you are aided by divine magic, and you find it easy to open up to the magic and succor of any faith, seeing the similarities between all such traditions. Three times per day when you are the target of a harmless divine spell, you may increase its caster level by 1 for purposes of its effect on you alone."
 			],
 			[
-				"## [Principled](trait/principled)",
+				"## {trait/Principled}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You hold yourself to a strict code of behavior that guides all of your decisions and actions. You take a -2 penalty on Bluff checks and gain a +2 trait bonus on saving throws against charm, compulsion, and emotion effects."
 			],
 			[
-				"## [Prophesied](trait/prophesied)",
+				"## {trait/Prophesied}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your coming was foretold in prophecy, and people familiar with your legend regard you with awe and fear. You gain a +1 trait bonus on Diplomacy checks and Intimidate checks when interacting with anyone familiar with you or your reputation."
 			],
 			[
-				"## [Proxy of Many](trait/proxy_of_many)",
+				"## {trait/Proxy of Many}",
 				"",
 				"**Type:** Faith",
 				"",
 				"As a pantheist, you are accustomed to calling on aid from a variety of sources, and have a pragmatic sense for how to best make use of any ally. You gain a +2 trait bonus on Diplomacy checks made to request a favor from a creature that has not performed a favor for you in the past week. This bonus increases to +4 if you have performed a favor for that creature since it last did a favor for you."
 			],
 			[
-				"## [Rebuke the Curse](trait/rebuke_the_curse)",
+				"## {trait/Rebuke the Curse}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a remove curse spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
 			],
 			[
-				"## [Redeemer](trait/redeemer)",
+				"## {trait/Redeemer}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action-and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
 			],
 			[
-				"## [Reincarnated](trait/reincarnated)",
+				"## {trait/Reincarnated}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You lived a previous life as someone - or something - else. For you, life and death are a cycle, and you have no fear of death. You gain a +2 trait bonus on saving throws against fear and death effects."
 			],
 			[
-				"## [Religious Reformer](trait/religious_reformer)",
+				"## {trait/Religious Reformer}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You have spent many years studying the tenets of your faith, and now believe that the dominant factions within the church have deviated from its true meaning and purpose. Rather than breaking with your misguided church, you've decided to stand up and fight to reform the organization you love. You have fervently studied scripture and steeled your will to combat the divergent beliefs of your peers. You gain a +2 trait bonus on Knowledge (religion) checks that pertain to your own religion or spiritual practice, and you gain a +2 trait bonus on saving throws against spells cast by others who worship your god or adhere to your philosophy."
 			],
 			[
-				"## [River Acumen](trait/river_acumen)",
+				"## {trait/River Acumen}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your connection with the river and its tributaries has blended with your reverence for the gods of the river passages so much so that you seem divinely blessed while plying river waters. You gain a +2 trait bonus on Swim checks in rivers or streams, and a +2 trait bonus on Survival checks to forage for food in or near a river or stream."
 			],
 			[
-				"## [Sacred Conduit](trait/sacred_conduit)",
+				"## {trait/Sacred Conduit}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your birth was particularly painful and difficult for your mother, who needed potent divine magic to ensure that you survived (your mother may or may not have survived). In any event, that magic infused you from an early age, and you now channel divine energy with greater ease than most. Whenever you channel energy, you gain a +1 trait bonus to the save DC of your channeled energy."
 			],
 			[
-				"## [Sacred Touch](trait/sacred_touch)",
+				"## {trait/Sacred Touch}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer. As a standard action, you may automatically stabilize a dying creature merely by touching it."
 			],
 			[
-				"## [Scholar of the Great Beyond](trait/scholar_of_the_great_beyond)",
+				"## {trait/Scholar of the Great Beyond}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your greatest interests as a child did not lie with current events or the mundane: you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on Knowledge (history) and Knowledge (planes) checks, and one of these skills (your choice) is always a class skill for you."
 			],
 			[
-				"## [Schooled Inquisitor](trait/schooled_inquisitor)",
+				"## {trait/Schooled Inquisitor}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your additional training aids in identifying the wiles of your faith's enemies. You gain a +2 trait bonus on all Knowledge (planes) and Knowledge (religion) checks made to identify the abilities and weaknesses of creatures."
 			],
 			[
-				"## [Scourge of the Darkness](trait/scourge_of_the_darkness)",
+				"## {trait/Scourge of the Darkness}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Stories of the depredations present in the Darklands drive you to explore its shadowy depths and purge the corruption from within. You gain a +1 trait bonus on saving throws against fear while in the Darklands and a +1 trait bonus on Intimidate checks against creatures native to the Darklands."
 			],
 			[
-				"## [Secret Keeper](trait/secret_keeper)",
+				"## {trait/Secret Keeper}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Avoiding inquisitors and agents of your enemies has required you to become a practiced liar. You gain a +3 trait bonus on Bluff checks when they are opposed by another's Sense Motive check."
 			],
 			[
-				"## [Self-Actualization](trait/self-actualization)",
+				"## {trait/Self-Actualization}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Inspired by stories of mortals ascending to godhood, you're certain that you can do the same, and do all you can to hone your talents and reach your utmost potential. Once per day, when you take 20 on a roll or check, you can complete the action in only five times the normal amount of time for that action, rather than 20 times the normal amount."
 			],
 			[
-				"## [Self-Sustaining](trait/self-sustaining)",
+				"## {trait/Self-Sustaining}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** See text",
@@ -3473,7 +3473,7 @@
 				"As a follower of Razmir, the [Prophecies of Kalistrade](rule/f_profits), or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: create water, mending, purify food and drink, or stabilize. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
 			],
 			[
-				"## [Soul-Searcher's Strength](trait/soul-searchers_strength)",
+				"## {trait/Soul-Searcher's Strength}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Must follow the traditions of the [Rivethun](rule/aff_animists)",
@@ -3481,7 +3481,7 @@
 				"Your introspections have taught you to understand your own flaws and proclivities and how to work with them. Choose one saving throw. You gain a +1 trait bonus on saving throws of the chosen kind."
 			],
 			[
-				"## [Spell Intuition](trait/spell_intuition)",
+				"## {trait/Spell Intuition}",
 				"",
 				"**Type:** Faith",
 				"",
@@ -3490,14 +3490,14 @@
 				"Suggested Characters: Gebbites, Nethys worshipers, Nexians."
 			],
 			[
-				"## [Spirit Sense](trait/spirit_sense)",
+				"## {trait/Spirit Sense}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You are so attuned to the spiritual world that it is hard to get the jump on you. You gain a +2 trait bonus on Perception checks to avoid being surprised and to detect invisible or incorporeal creatures."
 			],
 			[
-				"## [St. Clydwell's Ward](trait/st_clydwells_ward)",
+				"## {trait/St. Clydwell's Ward}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Mendev Crusaders",
@@ -3505,7 +3505,7 @@
 				"You have learned the secrets of an ancient prayer that wards off the attacks of demons. As a standard action, you can recite a holy chant that affects demons as if you were under the effect of a sanctuary spell (caster level equal to 1/2 your Hit Dice + your Charisma modifier)."
 			],
 			[
-				"## [Stalwart of the Society](trait/stalwart_of_the_society)",
+				"## {trait/Stalwart of the Society}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
@@ -3513,49 +3513,49 @@
 				"The courageous powers of Golarion's ancient paladin orders are open to you thanks to the Society's records of heroic deeds. As a result, your aura of courage class ability grants an additional +1 trait bonus on saving throws against fear effects."
 			],
 			[
-				"## [Strength of Submission](trait/strength_of_submission)",
+				"## {trait/Strength of Submission}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your faith in the church of Razmir and willingness to surrender yourself to him lend you strength and clarity. Whenever you are under the effects of a compulsion effect, you gain a +1 trait bonus on attack and damage rolls."
 			],
 			[
-				"## [Student of History](trait/student_of_history)",
+				"## {trait/Student of History}",
 				"",
 				"**Type:** Faith",
 				"",
 				"One can move toward enlightenment by understanding the mistakes of past generations. You gain a +1 trait bonus on Knowledge (history) checks, and Knowledge (history) is a class skill for you."
 			],
 			[
-				"## [Tireless Avenger](trait/tireless_avenger)",
+				"## {trait/Tireless Avenger}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You restlessly pursue your enemies. When you're in pursuit of one of your favored enemies, the DC for the Constitution check to avoid taking lethal damage during a forced march is 10 + 1 per extra hour, instead of 10 + 2 per extra hour."
 			],
 			[
-				"## [Totemist](trait/totemist)",
+				"## {trait/Totemist}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You grew up in a culture where the touch of totem spirits was felt in everyday life, their subtle urgings constantly guiding you and keeping you safe. As a result, you learned quickly to ask for their help when trouble arises. Once per day, you may call upon your totem's wisdom as a standard action. You gain the benefits of guidance, except that the granted competence bonus is equal to half your character level (minimum +1). This is a supernatural ability."
 			],
 			[
-				"## [Traditionalist](trait/traditionalist)",
+				"## {trait/Traditionalist}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You attempt to maintain older traditions despite changing social norms, and find great value in the trappings and codes of the aristocracy. You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you."
 			],
 			[
-				"## [Undaunted](trait/undaunted)",
+				"## {trait/Undaunted}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Following the path of freedom has resulted in you being threatened by ruffians and bullies throughout your childhood, and it now takes a lot to rattle you. You increase the DC to demoralize you with an Intimidate check by 2."
 			],
 			[
-				"## [Unnatural Presence](trait/unnatural_presence)",
+				"## {trait/Unnatural Presence}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Old Cults",
@@ -3563,49 +3563,49 @@
 				"Your prolonged association with alien forces leaks from your pores. You can use your Intimidate skill to demoralize animals and vermin; Intimidate is a class skill for you."
 			],
 			[
-				"## [Unshackled](trait/unshackled)",
+				"## {trait/Unshackled}",
 				"",
 				"**Type:** Faith",
 				"",
 				"You have escaped slavery or other imprisonment and have vowed never to be shackled again. You gain a +1 trait bonus on Escape Artist checks, and Escape Artist is a class skill for you."
 			],
 			[
-				"## [Untrained Scholar](trait/untrained_scholar)",
+				"## {trait/Untrained Scholar}",
 				"",
 				"**Type:** Faith",
 				"",
 				"While scholarship is not your primary focus, you have spent enough time in classrooms and libraries to learn a few things. Once per day, you can attempt a Knowledge (geography), Knowledge (history) or Knowledge (local) check untrained with a +2 trait bonus."
 			],
 			[
-				"## [Urban Acolyte](trait/urban_acolyte)",
+				"## {trait/Urban Acolyte}",
 				"",
 				"**Type:** Faith",
 				"",
-				"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: [Competition](domain/competition), [Duels](domain/duels), [Espionage](domain/espionage), [Fortifications](domain/fortifications), [Industry](domain/industry), [Legislation](domain/legislation), [Plague](domain/plague), or [Riot](domain/riot)."
+				"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: {domain/Competition}, {domain/Duels}, {domain/Espionage}, {domain/Fortifications}, {domain/Industry}, {domain/Legislation}, {domain/Plague}, or {domain/Riot}."
 			],
 			[
-				"## [Vile Domain](trait/vile_domain)",
+				"## {trait/Vile Domain}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your connection with a malignant force has granted you great power. Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells-you must still have access to the spells through some other means."
 			],
 			[
-				"## [Wanderer's Shroud](trait/wanderers_shroud)",
+				"## {trait/Wanderer's Shroud}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your wanderings often go unnoticed. Efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 trait bonus on all saving throws against scrying and mindreading effects that allow saving throws."
 			],
 			[
-				"## [Wendifa Apprentice](trait/wendifa_apprentice)",
+				"## {trait/Wendifa Apprentice}",
 				"",
 				"**Type:** Faith",
 				"",
 				"For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time. You can use daze as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect."
 			],
 			[
-				"## [Zealot](trait/zealot)",
+				"## {trait/Zealot}",
 				"",
 				"**Type:** Faith  ",
 				"**Requirements:** Gnome",
@@ -3613,14 +3613,14 @@
 				"You aren't just faithful to the worship of your patron deity-you are obsessively loyal to all of the faith's tenets and guidelines. Your devotion is an anchor that keeps you from drifting away into the throes of the Bleaching, and you cling to it like the life raft it is. You must match the alignment of your chosen deity exactly. You gain a +1 trait bonus on Knowledge (religion) checks, and that skill is a class skill for you. As long as you remain completely faithful to the tenets of your faith (as determined by the GM), you never suffer from the Bleaching."
 			],
 			[
-				"## [Zealot's Bearing](trait/zealots_bearing)",
+				"## {trait/Zealot's Bearing}",
 				"",
 				"**Type:** Faith",
 				"",
 				"Your fiery passion for your faith or philosophy is obvious to everyone around you. Those who share your convictions automatically find themselves wanting to defer to your zealous authority, making you a natural leader of your faith. Unfortunately, your scorn for those who haven't yet seen the wisdom of converting is equally obvious, and makes you a poor ambassador or missionary to the \"ignorant masses\" (as you not-so secretly think of them). You gain a +2 bonus on Diplomacy and Intimidate checks when dealing with adherents of your faith or philosophy, but a -1 penalty on Diplomacy and Intimidate checks when dealing with anyone else."
 			],
 			[
-				"## [Zealous Striker](trait/zealous_striker)",
+				"## {trait/Zealous Striker}",
 				"",
 				"**Type:** Faith",
 				"",

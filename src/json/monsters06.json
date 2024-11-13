@@ -41,7 +41,7 @@
 			"",
 			"**Str** 23, **Dex** 20, **Con**: -, **Int** 19, **Wis** 17, **Cha**, 18  ",
 			"**Base Atk** +16; **CMB** +22; **CMD** 38  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Dodge}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Lunge}, {feat/Mobility}, {feat/Power Attack}, {feat/Toughness}  ",
 			"**Skills** Intimidate +29, Knowledge (arcana, history, nobility) +27, Perception +32, Sense Motive +32, Spellcraft +29, Stealth +30  ",
 			"**Languages** Aklo, Common, Draconic, Giant, Sylvan",
 			"",
@@ -98,7 +98,7 @@
 			"",
 			"**Str** -, **Dex** 28, **Con**: -, **Int** 9, **Wis** 16, **Cha**, 23  ",
 			"**Base Atk** +11; **CMB** +20; **CMD** 37  ",
-			"**Feats** [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Critical (pain touch)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack)  ",
+			"**Feats** {feat/Dodge}, {feat/Great Fortitude}, [Improved Critical (pain touch)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Spring Attack}  ",
 			"**Skills** Fly +35, Perception +21, Stealth +27  ",
 			"**Languages** Common",
 			"",
@@ -237,7 +237,7 @@
 			"",
 			"**Str** 19, **Dex** 14, **Con**: -, **Int** 13, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +6; **CMB** +10; **CMD** 23  ",
-			"**Feats** [Alertness](feat/alertness), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Alertness}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Bluff +6, Intimidate +13, Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Knowledge (history) +3, Perception +15, Sense Motive +15, Stealth +9  ",
 			"**Languages** Common",
 			"",
@@ -295,7 +295,7 @@
 			"",
 			"**Str** 25, **Dex** 17, **Con**: -, **Int** -, **Wis** 12, **Cha**, 1  ",
 			"**Base Atk** +14; **CMB** +21; **CMD** 34  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Toughness}  ",
 			"**Skills** Perception +1, Stealth +0 (+8 when freezing); **Racial Modifiers** +8 Stealth when freezing  ",
 			"**SQ** freeze (statue), powerful blows (slam), spirit touch",
 			"",
@@ -363,7 +363,7 @@
 			"",
 			"**Str** 15, **Dex** 14, **Con**: 13, **Int** 6, **Wis** 13, **Cha**, 14  ",
 			"**Base Atk** +4; **CMB** +5; **CMD** 17 (29 vs. trip)  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Great Fortitude}, {feat/Lightning Reflexes}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +9, Climb +9, Perception +11, Stealth +13 (+15 in rocky areas); **Racial Modifiers** +2 Stealth in rocky areas  ",
 			"**Languages** Terran",
 			"",
@@ -420,7 +420,7 @@
 			"",
 			"**Str** 22, **Dex** 15, **Con**: 18, **Int** 6, **Wis** 15, **Cha**, 9  ",
 			"**Base Atk** +5; **CMB** +12 (+16 grapple); **CMD** 24  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Improved Initiative}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Perception +12, Stealth +11 (+21 in mud or muddy water), Swim +14; **Racial Modifiers** +10 Stealth in mud or muddy water  ",
 			"**Languages** Aklo  ",
 			"**SQ** amphibious, compression",
@@ -484,7 +484,7 @@
 			"",
 			"**Str** 30, **Dex** 19, **Con**: -, **Int** 3, **Wis** 19, **Cha**, 16  ",
 			"**Base Atk** +10; **CMB** +20; **CMD** 34  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Following Step](feat/following_step), [Great Fortitude](feat/great_fortitude), [Improved Critical (bite)](feat/improved_critical), [Power Attack](feat/power_attack), [Step Up](feat/step_up), [Step Up and Strike](feat/step_up_and_strike), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Following Step}, {feat/Great Fortitude}, [Improved Critical (bite)](feat/improved_critical), {feat/Power Attack}, {feat/Step Up}, {feat/Step Up and Strike}, {feat/Toughness}  ",
 			"**Skills** Perception +12, Stealth +16  ",
 			"**Languages** Abyssal (can't speak)",
 			"",
@@ -543,7 +543,7 @@
 			"",
 			"**Str** 20, **Dex** 16, **Con**: -, **Int** -, **Wis** 11, **Cha**, 1  ",
 			"**Base Atk** +8; **CMB** +14 (+16 disarm); **CMD** 27 (29 vs. disarm)  ",
-			"**Feats** [Improved Disarm](feat/improved_disarm), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Improved Disarm}, {feat/Power Attack}  ",
 			"**Skills** Climb +13, Stealth -1 (+7 when collapsed); **Racial Modifiers** +8 Stealth when collapsed  ",
 			"**SQ** shared enhancement",
 			"",
@@ -607,7 +607,7 @@
 			"",
 			"**Str** 21, **Dex** 8, **Con**: 15, **Int** 10, **Wis** 13, **Cha**, 8  ",
 			"**Base Atk** +7; **CMB** +13; **CMD** 22  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Alertness}, {feat/Cleave}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Power Attack}  ",
 			"**Skills** Intimidate +9, Perception +11, Profession (soothsayer) +10, Sense Motive +5, Survival +6; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Common, Cyclops, Giant  ",
 			"**SQ** flash of insight",
@@ -673,7 +673,7 @@
 			"",
 			"**Str** 19, **Dex** 8, **Con**: 17, **Int** 14, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +13; **CMB** +18; **CMD** 27  ",
-			"**Feats** [Alertness](feat/alertness), [Brew Potion](feat/brew_potion), [Combat Casting](feat/combat_casting), [Extra Revelation](feat/extra_revelation), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Scribe Scroll](feat/scribe_scroll), [Skill Focus](feat/skill_focus) (Knowledge [history]), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Alertness}, {feat/Brew Potion}, {feat/Combat Casting}, {feat/Extra Revelation}, {feat/Iron Will}, {feat/Power Attack}, {feat/Scribe Scroll}, {feat/Skill Focus} (Knowledge [history]), {feat/Toughness}  ",
 			"**Skills** Diplomacy +10, Heal +7, Knowledge (arcana) +13, Knowledge (geography) +9, Knowledge (history) +21, Knowledge (local) +11, Knowledge (nature) +10, Knowledge (nobility) +10, Knowledge (planes) +11, Knowledge (religion) +11, Linguistics +9, Perception +16, Perform (oratory) +5, Profession (soothsayer) +13, Sense Motive +19, Spellcraft +15, Survival +7; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Aklo, Celestial, Common, Cyclops, Draconic, Dwarven, Giant, Orc, Terran  ",
 			"**SQ** flash of insight, oracle's curse (hunger), revelations (assume fate [3/day], brutal trance [8 rounds], doomsaying [3/day], wisdom of the ancestors [commune, 1/day])  ",
@@ -732,7 +732,7 @@
 			"",
 			"**Str** 19, **Dex** 10, **Con**: 15, **Int** 20, **Wis** 15, **Cha**, 12  ",
 			"**Base Atk** +12; **CMB** +17; **CMD** 28  ",
-			"**Feats** [Alertness](feat/alertness), [Combat Casting](feat/combat_casting), [Extend Spell](feat/extend_spell), [Improved Initiative](feat/improved_initiative), [Improved Natural Armor](feat/improved_natural_armor), [Iron Will](feat/iron_will), [Magical Aptitude](feat/magical_aptitude), [Scribe Scroll](feat/scribe_scroll), [Skill Focus](feat/skill_focus) (Knowledge [arcana]), [Skill Focus](feat/skill_focus) (Knowledge [history]), [Spell Penetration](feat/spell_penetration), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Extend Spell}, {feat/Improved Initiative}, {feat/Improved Natural Armor}, {feat/Iron Will}, {feat/Magical Aptitude}, {feat/Scribe Scroll}, {feat/Skill Focus} (Knowledge [arcana]), {feat/Skill Focus} (Knowledge [history]), {feat/Spell Penetration}, {feat/Toughness}  ",
 			"**Skills** Appraise +17, Knowledge (arcana) +29, Knowledge (geography) +17, Knowledge (history) +29, Knowledge (local) +15, Knowledge (nature) +15, Knowledge (planes) +16, Knowledge (religion) +17, Linguistics +19, Perception +29, Sense Motive +27, Spellcraft +25, Survival +6, Use Magic Device +29; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Cyclops, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, Halfling, Ignan, Infernal, Orc, Sylvan, Terran  ",
 			"**SQ** flash of insight  ",
@@ -785,7 +785,7 @@
 			"",
 			"**Str** 25, **Dex** 12, **Con**: 15, **Int** 8, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +9; **CMB** +17 (+19 bull rush); **CMD** 28 (30 vs. bull rush)  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack), [Skill Focus (Survival)](feat/skill_focus), [Weapon Focus (greataxe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Cleave}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Power Attack}, [Skill Focus (Survival)](feat/skill_focus), [Weapon Focus (greataxe)](feat/weapon_focus)  ",
 			"**Skills** Intimidate +7, Perception +21, Sense Motive +6, Survival +21; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Common, Cyclops, Giant  ",
 			"**SQ** flash of insight, track +1, wild empathy +2  ",
@@ -844,7 +844,7 @@
 			"",
 			"**Str** 29, **Dex** 10, **Con**: 23, **Int** 8, **Wis** 16, **Cha**, 8  ",
 			"**Base Atk** +11; **CMB** +21 (+23 sunder); **CMD** 29 (31 vs. sunder)  ",
-			"**Feats** [Alertness](feat/alertness), [Extra Rage](feat/extra_rage), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Step Up](feat/step_up), [Weapon Focus (greatclub)](feat/weapon_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Extra Rage}, {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Power Attack}, {feat/Step Up}, [Weapon Focus (greatclub)](feat/weapon_focus)  ",
 			"**Skills** Climb +14, Handle Animal +6, Intimidate +6, Knowledge (nature) +4, Perception +22, Ride +5, Sense Motive +5, Survival +10, Swim +14; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Common, Cyclops, Giant  ",
 			"**SQ** battle scavenger, flash of insight  ",
@@ -898,7 +898,7 @@
 			"",
 			"**Str** 36, **Dex** 13, **Con**: 25, **Int** 7, **Wis** 14, **Cha**, 8  ",
 			"**Base Atk** +12; **CMB** +27; **CMD** 38  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Critical Focus](feat/critical_focus), [Diehard](feat/diehard), [Endurance](feat/endurance), [Improved Bull Rush](feat/improved_bull_rush), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Sickening Critical](feat/sickening_critical)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Critical Focus}, {feat/Diehard}, {feat/Endurance}, {feat/Improved Bull Rush}, {feat/Iron Will}, {feat/Power Attack}, {feat/Sickening Critical}  ",
 			"**Skills** Perception +22  ",
 			"**Languages** Common, Cyclops, Giant  ",
 			"**SQ** flash of brutality",
@@ -960,7 +960,7 @@
 			"",
 			"**Str** 31, **Dex** 17, **Con**: 18, **Int** 10, **Wis** 14, **Cha**, 13  ",
 			"**Base Atk** +10; **CMB** +21; **CMD** 34  ",
-			"**Feats** [Alertness](feat/alertness), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Alertness}, {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Intimidate +9, Perception +20, Profession (soldier) +8, Sense Motive +9, Stealth +1, Survival +10; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Common, Cyclops, Giant",
 			"",
@@ -1023,7 +1023,7 @@
 			"",
 			"**Str** 21, **Dex** 12, **Con**: 15, **Int** 12, **Wis** 17, **Cha**, 10  ",
 			"**Base Atk** +10; **CMB** +16; **CMD** 31  ",
-			"**Feats** [Alertness](feat/alertness), [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Cleave}, {feat/Combat Reflexes}, {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Power Attack}  ",
 			"**Skills** Bluff +10, Intimidate +9, Perception +20, Profession (soothsayer) +16, Sense Motive +17, Survival +8; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Common, Cyclops, Giant  ",
 			"**SQ** greater flash of insight, protective foresight",
@@ -1085,7 +1085,7 @@
 			"",
 			"**Str** 44, **Dex** 15, **Con**: 33, **Int** 6, **Wis** 16, **Cha**, 8  ",
 			"**Base Atk** +18; **CMB** +37; **CMD** 47  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Critical Focus](feat/critical_focus), [Diehard](feat/diehard), [Endurance](feat/endurance), [Improved Bull Rush](feat/improved_bull_rush), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike), [Weapon Focus (greatclub)](feat/weapon_focus)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Critical Focus}, {feat/Diehard}, {feat/Endurance}, {feat/Improved Bull Rush}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Staggering Critical}, {feat/Vital Strike}, [Weapon Focus (greatclub)](feat/weapon_focus)  ",
 			"**Skills** Climb +23, Intimidate +14, Perception +23  ",
 			"**SQ** fast movement, flash of brutality",
 			"",
@@ -1142,7 +1142,7 @@
 			"",
 			"**Str** 12, **Dex** 23, **Con**: 26, **Int** 15, **Wis** 22, **Cha**, 21  ",
 			"**Base Atk** +12; **CMB** +13; **CMD** 35  ",
-			"**Feats** [Acrobatic](feat/acrobatic), [Flyby Attack](feat/flyby_attack), [Improved Critical (starknife)](feat/improved_critical), [Iron Will](feat/iron_will), [Lucid Dreamer](feat/lucid_dreamer), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Acrobatic}, {feat/Flyby Attack}, [Improved Critical (starknife)](feat/improved_critical), {feat/Iron Will}, {feat/Lucid Dreamer}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +22, Fly +25, Knowledge (geography) +14, Knowledge (planes) +11, Knowledge (religion) +8, Perception +21, Perform (dance) +17, Sense Motive +21, Stealth +21  ",
 			"**Languages** Celestial, Common  ",
 			"**SQ** no breath",
@@ -1181,7 +1181,7 @@
 			"{SOURCE Pathfinder #133: Secrets of Roderic's Cove/82}  ",
 			"**XP** 600  ",
 			"N Tiny magical beast  ",
-			"**Init** +3; **Senses** [arcane sight](spell/arcane_sight), darkvision 60 ft., low-light vision; Perception +5",
+			"**Init** +3; **Senses** {spell/arcane sight}, darkvision 60 ft., low-light vision; Perception +5",
 			"",
 			"#### Defense",
 			"",
@@ -1203,7 +1203,7 @@
 			"",
 			"**Str** 6, **Dex** 17, **Con**: 13, **Int** 6, **Wis** 13, **Cha**, 8  ",
 			"**Base Atk** +3; **CMB** +4; **CMD** 12  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Flyby Attack}, {feat/Iron Will}  ",
 			"**Skills** Acrobatics +15, Fly +15, Perception +5, Swim +11; **Racial Modifiers** +8 Acrobatics  ",
 			"**Languages** Common (can't speak)  ",
 			"**SQ** cypher synergy, devour scroll",
@@ -1218,7 +1218,7 @@
 			"",
 			"**Arcane Attacks (Su)** A cyphergull's natural weapons have a +1 bonus to damage and are treated as magic for the purpose of overcoming damage reduction. For every 5 Hit Dice the cyphergull has, this bonus increases by 1.",
 			"",
-			"**Cypher Synergy (Ex)** If the master of a cyphergull familiar is a [cyphermage](prestigeclass/cyphermage), the cyphergull gains the following cypher lore discoveries if its master has them: analyze scroll, bypass symbol, defensive scrollcaster, and glyph finder. Defensive scrollcaster affects spells the cyphergull casts using its devour scroll ability.",
+			"**Cypher Synergy (Ex)** If the master of a cyphergull familiar is a {prestigeclass/cyphermage}, the cyphergull gains the following cypher lore discoveries if its master has them: analyze scroll, bypass symbol, defensive scrollcaster, and glyph finder. Defensive scrollcaster affects spells the cyphergull casts using its devour scroll ability.",
 			"",
 			"**Devour Scroll (Su)** When a cyphergull eats a scroll (a full-round action), the spells in the scroll are stored in the gull's body. Thereafter, it can cast the spells as though it were a wizard of a level equal to half the cyphergull's Hit Dice casting spells from a scroll. The cyphergull intuitively understands how the spells function and counts as having the requisite ability score for casting the spell. A cyphergull can store a maximum number of spell levels equal to its Hit Dice.",
 			"",
@@ -1248,7 +1248,7 @@
 			"",
 			"Cyphergulls are curious about humanoids, often observing how they speak, what they eat, and how they live. A common superstition among the peoples of the Varisian Gulf states that killing a cyphergull brings bad luck, so the birds get away with thefts or irritations that would doom other birds. Cyphergulls are intelligent enough to learn languages that humanoid creatures speak, but they lack any speech-producing organs. Their communication sounds like the harsh wailing calls of ordinary gulls, but their system of shrieks is far more complex, and they are capable of communicating even abstract ideas like \"ambush,\" \"deal,\" \"future,\" or \"payment\" with their calls. This allows them to devise elaborate defensive and offensive tactics, or to negotiate trade deals.",
 			"",
-			"A 7th-level spellcaster with the [Improved Familiar](feat/improved_familiar) feat and an alignment within one step of neutral can gain a cyphergull as a familiar."
+			"A 7th-level spellcaster with the {feat/Improved Familiar} feat and an alignment within one step of neutral can gain a cyphergull as a familiar."
 		]
 	},
 	"cytillesh_zombie": {
@@ -1285,7 +1285,7 @@
 			"",
 			"**Str** 21, **Dex** 18, **Con**: -, **Int** -, **Wis** 10, **Cha**, 10  ",
 			"**Base Atk** +1; **CMB** +6; **CMD** 20  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Toughness}  ",
 			"**Gear** leather armor",
 			"",
 			"#### Special Abilities",
@@ -1296,7 +1296,7 @@
 			"",
 			"#### Description",
 			"",
-			"This is a variation of the zombie. See the [Cytillesh Zombie](template/cytillesh_zombie) template."
+			"This is a variation of the zombie. See the {template/Cytillesh Zombie} template."
 		]
 	},
 	"cytillipede": {
@@ -1335,7 +1335,7 @@
 			"",
 			"**Str** 23, **Dex** 13, **Con**: 18, **Int** 6, **Wis** 10, **Cha**, 2  ",
 			"**Base Atk** +8; **CMB** +15; **CMD** 26 (can't be tripped)  ",
-			"**Feats** [Ability Focus (cytillesh flash)](feat/ability_focus), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** [Ability Focus (cytillesh flash)](feat/ability_focus), {feat/Improved Initiative}, {feat/Power Attack}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Climb +21, Perception +11; **Racial Modifiers** +4 Perception",
 			"",
 			"#### Ecology",
@@ -1396,7 +1396,7 @@
 			"",
 			"**Str** 13, **Dex** 15, **Con**: 12, **Int** 13, **Wis** 14, **Cha**, 16  ",
 			"**Base Atk** +4; **CMB** +5 (+9 grapple); **CMD** 17  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Climb +8, Knowledge (arcana) +8, Knowledge (planes) +8, Perception +9, Sense Motive +9, Stealth +9, Survival +7, Use Magic Device +8  ",
 			"**Languages** D'ziriak; telepathy 100 ft.  ",
 			"**SQ** glow",
@@ -1464,7 +1464,7 @@
 			"",
 			"**Str** 20, **Dex** 23, **Con**: 24, **Int** 14, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +16; **CMB** +22; **CMD** 39 (can't be tripped)  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Dodge}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Mobility}  ",
 			"**Skills** Bluff +20, Fly +15, Intimidate +21, Knowledge (planes) +21, Perception +23, Spellcraft +18, Stealth +21, Survival +20, Use Magic Device +21  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** swarmlike",
@@ -1489,7 +1489,7 @@
 			"",
 			"Acrididaemons delight in the suffering their predations bring. Though they often favor tactics that result in the devastation of whole settlements, it is not uncommon for one of these daemons to take a single creature prisoner. They enjoy slowly starving captives to death in forlorn redoubts where rescue is beyond hope.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"acrididaemon": { "copyof": "daemon_acrididaemon" },
@@ -1535,7 +1535,7 @@
 			"",
 			"**Str** 21, **Dex** 25, **Con**: 24, **Int** 14, **Wis** 15, **Cha**, 24  ",
 			"**Base Atk** +17; **CMB** +23; **CMD** 41  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Nimble Moves](feat/nimble_moves), [Power Attack](feat/power_attack), [Spring Attack](feat/spring_attack), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Iron Will}, {feat/Mobility}, {feat/Nimble Moves}, {feat/Power Attack}, {feat/Spring Attack}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +24 (+48 jump), Escape Artist +27, Fly +9, Intimidate +27, Knowledge (planes) +22, Perception +22, Sense Motive +22, Stealth +23, Survival +22  ",
 			"**Languages** Abyssal, Infernal; telepathy 100 ft.",
 			"",
@@ -1555,7 +1555,7 @@
 			"",
 			"Believed to be creations of the Four Horsemen, astradaemons live out their existence in search of souls to harvest. These deadly creatures are ravening planar predators, openly hunting throughout the void for souls on which to feed. These voracious creatures are the personifications of death resulting from negative energy or level drain. Their vile touch drains life force from their enemies, and even perishing near them sates their thirst for life and souls.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"astradaemon": { "copyof": "daemon_astradaemon" },
@@ -1575,7 +1575,7 @@
 			"{SOURCE Druma, Profit and Prophecy/57}  ",
 			"**XP** 4,800  ",
 			"NE Medium outsider (daemon, evil, extraplanar)  ",
-			"**Init** +3; **Senses** darkvision 60 ft., [detect thoughts](spell/detect_thoughts); Perception +15",
+			"**Init** +3; **Senses** darkvision 60 ft., {spell/detect thoughts}; Perception +15",
 			"",
 			"#### Defense",
 			"",
@@ -1599,7 +1599,7 @@
 			"",
 			"**Str** 16, **Dex** 17, **Con**: 16, **Int** 14, **Wis** 15, **Cha**, 15  ",
 			"**Base Atk** +10; **CMB** 13; **CMD** 27  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Critical (light mace)](feat/improved_critical), [Mobility](feat/mobility), [Vital Strike](feat/vital_strike), [Weapon Focus (light mace)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dodge}, [Improved Critical (light mace)](feat/improved_critical), {feat/Mobility}, {feat/Vital Strike}, [Weapon Focus (light mace)](feat/weapon_focus)  ",
 			"**Skills** Bluff +15, Intimidate +12, Knowledge (nobility) +15, Linguistics +15, Perception +15, Profession (barrister) +15, Sense Motive +15, Spellcraft +15  ",
 			"**Languages** Abyssal, Infernal; telepathy 100 ft.",
 			"",
@@ -1611,7 +1611,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Final Verdict (Su)** When a bibliodaemon hits a creature with its light mace, the target must succeed at a DC 17 Will save or be cursed. A creature that succeeds at its save is immune to that bibliodaemon's curse for 24 hours. If the bibliodaemon confirms a critical hit with its light mace, the save DC increases by 4, and the curse can affect even creatures that have already succeeded at a prior save against this effect. A creature that fails this save interprets any contract as favorable to itself, even in cases when the contract is one-sided and potentially lethal. In addition, an affected creature takes a -4 penalty on saves against spells and effects reliant on spoken commands or verbal contracts, such as [geas](spell/geas). A [remove curse](spell/remove_curse) or more powerful spell can remove this curse. The save DC is Charisma-based.",
+			"**Final Verdict (Su)** When a bibliodaemon hits a creature with its light mace, the target must succeed at a DC 17 Will save or be cursed. A creature that succeeds at its save is immune to that bibliodaemon's curse for 24 hours. If the bibliodaemon confirms a critical hit with its light mace, the save DC increases by 4, and the curse can affect even creatures that have already succeeded at a prior save against this effect. A creature that fails this save interprets any contract as favorable to itself, even in cases when the contract is one-sided and potentially lethal. In addition, an affected creature takes a -4 penalty on saves against spells and effects reliant on spoken commands or verbal contracts, such as {spell/geas}. A {spell/remove curse} or more powerful spell can remove this curse. The save DC is Charisma-based.",
 			"",
 			"#### Description",
 			"",
@@ -1619,7 +1619,7 @@
 			"",
 			"A bibliodaemon is 6 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"bibliodaemon": { "copyof": "daemon_bibliodaemon" },
@@ -1661,7 +1661,7 @@
 			"",
 			"**Str** 12, **Dex** 11, **Con**: 13, **Int** 8, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +3; **CMB** +1; **CMD** 12  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Lightning Reflexes}  ",
 			"**Skills** Bluff +7, Fly +18, Knowledge (planes) +5, Perception +7, Stealth +14  ",
 			"**Languages** Abyssal, Common, Infernal; telepathy 100 ft.  ",
 			"**SQ** change shape (2 of the following forms: lizard, octopus, Small scorpion, venomous snake, polymorph)",
@@ -1684,7 +1684,7 @@
 			"",
 			"The least of daemonkind, cacodaemons spawn from eddies of angry, violent, and demented souls amid the mists of Abaddon. Dim-witted but utterly evil, they endlessly seek to cause pain and indulge their hunger for mortal souls. Many more powerful fiends keep cacodaemons as pets, if only to be able to harvest the tiny creatures' soul gems. A 7th-level spellcaster can gain a cacodaemon as a familiar if she has the Improved Familiar feat.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"cacodaemon": { "copyof": "daemon_cacodaemon" },
@@ -1726,7 +1726,7 @@
 			"",
 			"**Str** 18, **Dex** 13, **Con**: 16, **Int** 11, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +8; **CMB** +13; **CMD** 24  ",
-			"**Feats** [Alertness](feat/alertness), [Blind-Fight](feat/blind-fight), [Power Attack](feat/power_attack), [Step Up](feat/step_up)  ",
+			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Power Attack}, {feat/Step Up}  ",
 			"**Skills** Bluff +13, Intimidate +11, Knowledge (planes) +9, Perception +15, Sense Motive +15, Stealth +8, Survival +9  ",
 			"**Languages** Abyssal, Infernal; telepathy 100 ft.  ",
 			"**SQ** drawn to service",
@@ -1751,7 +1751,7 @@
 			"",
 			"Greater Ceustodaemon: This daemon resembles a gigantic humanoid bear with the talons of an eagle and curling ram horns sprouting from its head. Its breath weapon is a fan of sparks that deals electricity damage.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"ceustodaemon": { "copyof": "daemon_ceustodaemon" },
@@ -1796,7 +1796,7 @@
 			"",
 			"**Str** 28, **Dex** 21, **Con**: 24, **Int** 16, **Wis** 17, **Cha**, 29  ",
 			"**Base Atk** +17; **CMB** +26; **CMD** 42  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Critical (daggers)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Spring Attack](feat/spring_attack), [Stealthy](feat/stealthy), [Step Up](feat/step_up), [Weapon Focus (daggers)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dodge}, [Improved Critical (daggers)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Spring Attack}, {feat/Stealthy}, {feat/Step Up}, [Weapon Focus (daggers)](feat/weapon_focus)  ",
 			"**Skills** Bluff +29, Craft (traps) +31, Disable Device +25, Escape Artist +7, Intimidate +29, Knowledge (arcana, engineering) +11, Perception +23, Sense Motive +16, Spellcraft +18, Stealth +29, Use Magic Device +19; **Racial Modifiers** +8 Craft (traps)  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -1818,7 +1818,7 @@
 			"",
 			"Crucidaemons are 6 feet tall and weigh 250 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"crucidaemon": { "copyof": "daemon_crucidaemon" },
@@ -1861,7 +1861,7 @@
 			"",
 			"**Str** 27, **Dex** 20, **Con**: 22, **Int** 7, **Wis** 17, **Cha**, 16  ",
 			"**Base Atk** +14; **CMB** +23; **CMD** 38 (40 vs. trip)  ",
-			"**Feats** [Cleave](feat/cleave), [Critical Focus](feat/critical_focus), [Improved Critical (claws)](feat/improved_critical), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (summon swarm)](feat/quicken_spell-like_ability), [Sickening Critical](feat/sickening_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Cleave}, {feat/Critical Focus}, [Improved Critical (claws)](feat/improved_critical), {feat/Power Attack}, [Quicken Spell-Like Ability (summon swarm)](feat/quicken_spell-like_ability), {feat/Sickening Critical}, {feat/Vital Strike}  ",
 			"**Skills** Intimidate +20, Perception +28, Sense Motive +20, Stealth +18; **Racial Modifiers** +4 Perception  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** swarmwalking",
@@ -1884,7 +1884,7 @@
 			"",
 			"Brutish and low on intellect, derghodaemons find themselves serving as front-line fighters in fiendish armies. A derghodaemon stands 9 feet tall and weighs 800 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"derghodaemon": { "copyof": "daemon_derghodaemon" },
@@ -1929,7 +1929,7 @@
 			"",
 			"**Str** 20, **Dex** 21, **Con**: 21, **Int** 19, **Wis** 16, **Cha**, 22  ",
 			"**Base Atk** +14; **CMB** +19; **CMD** 35  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Quicken Spell-Like Ability (suggestion)](feat/quicken_spell-like_ability), [Skill Focus (Bluff)](feat/skill_focus)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Reflexes}, {feat/Deceitful}, {feat/Dodge}, {feat/Improved Initiative}, [Quicken Spell-Like Ability (suggestion)](feat/quicken_spell-like_ability), [Skill Focus (Bluff)](feat/skill_focus)  ",
 			"**Skills** Bluff +33, Diplomacy +23, Disguise +24, Intimidate +23, Knowledge (local, planes) +21, Perception +20, Sense Motive +20, Sleight of Hand +22, Stealth +22  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.; tongues",
 			"",
@@ -1951,7 +1951,7 @@
 			"",
 			"Erodaemons are the personification of death by heartbreak. Occasionally, erodaemons will work together, but only if doing so results in a greater harvest of crushed mortal souls. In her true form, an erodaemon is 6 feet tall and weighs 150 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"erodaemon": { "copyof": "daemon_erodaemon" },
@@ -1997,7 +1997,7 @@
 			"",
 			"**Str** 18, **Dex** 11, **Con**: 16, **Int** 11, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +6; **CMB** +11; **CMD** 21  ",
-			"**Feats** [Power Attack](feat/power_attack), [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (claws)](feat/weapon_focus)  ",
+			"**Feats** {feat/Power Attack}, [Weapon Focus (bite)](feat/weapon_focus), [Weapon Focus (claws)](feat/weapon_focus)  ",
 			"**Skills** Fly +7, Intimidate +11, Knowledge (engineering) +9, Knowledge (planes) +9, Perception +10, Stealth +5  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2035,7 +2035,7 @@
 			"",
 			"Like other daemons, genthodaemons hate all living things-and to an extent, themselves-and look forward to the death of the last mortal, for on that day they will have no other reminders of their bleak mortal lives and can focus all their hate inward.",
 			"",
-			"**Family:** [Daemon](family/daemon)",
+			"**Family:** {family/Daemon}",
 			"",
 			"### Habitat",
 			"",
@@ -2084,7 +2084,7 @@
 			"",
 			"**Str** 18, **Dex** 15, **Con**: 18, **Int** 9, **Wis** 11, **Cha**, 14  ",
 			"**Base Atk** +10; **CMB** +15 (+9 grapple); **CMD** 27  ",
-			"**Feats** [Cleave](feat/cleave), [Point-Blank Shot](feat/point-blank_shot), [Power Attack](feat/power_attack), [Precise Shot](feat/precise_shot), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Point-Blank Shot}, {feat/Power Attack}, {feat/Precise Shot}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Fly +0, Intimidate +14, Knowledge (planes) +10, Perception +15, Sense Motive +12, Stealth +10, Swim +21  ",
 			"**Languages** Abyssal, Infernal; telepathy 100 ft.  ",
 			"**SQ** amphibious, glide",
@@ -2107,7 +2107,7 @@
 			"",
 			"Hydrodaemons possess an awkward gait, springing back on their heels and leaping about like humanoid frogs. Even so, they move in an unpredictable manner, twisting their bodies with each hopping movement. Hydrodaemons can also unfurl flaps of skin that allow them to glide through the air. Hydrodaemons stand 10 feet tall and weigh upward of 3,000 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"hydrodaemon": { "copyof": "daemon_hydrodaemon" },
@@ -2152,7 +2152,7 @@
 			"",
 			"**Str** 12, **Dex** 17, **Con**: 14, **Int** 11, **Wis** 13, **Cha**, 12  ",
 			"**Base Atk** +4; **CMB** +5; **CMD** 18  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Improved Initiative}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +10, Bluff +8, Climb +8, Perception +8, Sense Motive +8, Stealth +10  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2178,7 +2178,7 @@
 			"",
 			"A lacridaemon stands just under 6 feet tall but weighs only 90 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"lacridaemon": { "copyof": "daemon_lacridaemon" },
@@ -2222,7 +2222,7 @@
 			"",
 			"**Str** 18, **Dex** 31, **Con**: 21, **Int** 13, **Wis** 18, **Cha**, 16  ",
 			"**Base Atk** +19; **CMB** +29 (+31 bull rush or trip, +33 grapple); **CMD** 43 (45 vs. bull rush, can't be tripped)  ",
-			"**Feats** [Acrobatic](feat/acrobatic), [Agile Maneuvers](feat/agile_maneuvers), [Combat Expertise](feat/combat_expertise), [Dodge](feat/dodge), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (slam)](feat/improved_critical), [Improved Trip](feat/improved_trip), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (gust of wind)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Acrobatic}, {feat/Agile Maneuvers}, {feat/Combat Expertise}, {feat/Dodge}, {feat/Improved Bull Rush}, [Improved Critical (slam)](feat/improved_critical), {feat/Improved Trip}, {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (gust of wind)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Acrobatics +32, Bluff +21, Escape Artist +28, Fly +35, Knowledge (geography) +14, Knowledge (local) +14, Knowledge (planes) +14, Perception +26, Sense Motive +26, Stealth +23 (see below)  ",
 			"**Languages** Abyssal, Common, Draconic; telepathy 200 ft.  ",
 			"**SQ** constant motion",
@@ -2259,7 +2259,7 @@
 			"",
 			"Calling lapsudaemons is a difficult and sadistic affair. They prefer a sacrifice of wings cut from a living celestial being, bound to, and then born aloft by, a willing intelligent creature, who must fall to his or her death as part of the calling ritual.",
 			"",
-			"**Family:** [Daemon](family/daemon)",
+			"**Family:** {family/Daemon}",
 			"",
 			"### Habitat",
 			"",
@@ -2313,7 +2313,7 @@
 			"",
 			"**Str** 25, **Dex** 24, **Con**: 23, **Int** 16, **Wis** 21, **Cha**, 16  ",
 			"**Base Atk** +10; **CMB** +18; **CMD** 35  ",
-			"**Feats** [Alertness](feat/alertness), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Point-Blank Shot](feat/point-blank_shot), [Weapon Focus (longbow)](feat/weapon_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Hover}, {feat/Improved Initiative}, {feat/Point-Blank Shot}, [Weapon Focus (longbow)](feat/weapon_focus)  ",
 			"**Skills** Fly +18, Heal +18, Intimidate +16, Knowledge (planes) +16, Perception +22, Sense Motive +22, Stealth +16, Survival +15, Use Magic Device +16  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2337,7 +2337,7 @@
 			"",
 			"Leukodaemons stand upward of 14 feet tall but weigh just over 200 pounds. The skulls that serve as their heads can be replaced with any skulls, yet these creatures choose horse skulls to show their loyalty to the Horsemen. The creature's true head is merely a blistered knob between its shoulders.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"leukodaemon": { "copyof": "daemon_leukodaemon" },
@@ -2382,7 +2382,7 @@
 			"",
 			"**Str** 22, **Dex** 22, **Con**: 21, **Int** 21, **Wis** 17, **Cha**, 18  ",
 			"**Base Atk** +14; **CMB** +21; **CMD** 37  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Combat Reflexes](feat/combat_reflexes), [Great Fortitude](feat/great_fortitude), [Improved Critical (bite)](feat/improved_critical), [Iron Will](feat/iron_will), [Quicken Spell-Like Ability (magic missile)](feat/quicken_spell-like_ability), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Great Fortitude}, [Improved Critical (bite)](feat/improved_critical), {feat/Iron Will}, [Quicken Spell-Like Ability (magic missile)](feat/quicken_spell-like_ability), [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Bluff +21, Fly +17, Heal +11, Intimidate +21, Knowledge (planes) +22, Knowledge (religion) +22, Perception +20, Sense Motive +20, Spellcraft +22, Stealth +19, Survival +20, Use Magic Device +14  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2406,7 +2406,7 @@
 			"",
 			"Meladaemons stand approximately 12 feet tall and weigh 350 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"meladaemon": { "copyof": "daemon_meladaemon" },
@@ -2450,7 +2450,7 @@
 			"",
 			"**Str** 17, **Dex** 13, **Con**: 19, **Int** 14, **Wis** 14, **Cha**, 16  ",
 			"**Base Atk** +10; **CMB** +14 (+16 disarm, +16 trip, +18 grapple); **CMD** 25 (27 vs. disarm, 27 vs. trip)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Disarm](feat/improved_disarm), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Improved Trip}  ",
 			"**Skills** Acrobatics +12, Bluff +16, Diplomacy +14, Heal +13, Intimidate +16, Knowledge (planes) +11, Perception +15, Sense Motive +15, Stealth +10  ",
 			"**Languages** Abyssal, Common, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2482,7 +2482,7 @@
 			"",
 			"Nixudaemons despise laziness in both mortals and outsiders. They work their subjects past the point of exhaustion or death as suits their current needs. The nixudaemons view other creatures as weak or prone to sloth, challenging even other daemons they perceive as less than diligent.",
 			"",
-			"**Family:** [Daemon](family/daemon)",
+			"**Family:** {family/Daemon}",
 			"",
 			"### Habitat",
 			"",
@@ -2537,7 +2537,7 @@
 			"",
 			"**Str** 26, **Dex** 19, **Con**: 28, **Int** 13, **Wis** 21, **Cha**, 24  ",
 			"**Base Atk** +22; **CMB** +34 (+38 sunder); **CMD** 52 (54 vs. sunder)  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Critical Focus](feat/critical_focus), [Greater Sunder](feat/greater_sunder), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (halberd)](feat/improved_critical), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (cloudkill)](feat/quicken_spell-like_ability), [Vital Strike](feat/vital_strike), [Weapon Focus (halberd)](feat/weapon_focus)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Critical Focus}, {feat/Greater Sunder}, {feat/Greater Vital Strike}, [Improved Critical (halberd)](feat/improved_critical), {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Power Attack}, [Quicken Spell-Like Ability (cloudkill)](feat/quicken_spell-like_ability), {feat/Vital Strike}, [Weapon Focus (halberd)](feat/weapon_focus)  ",
 			"**Skills** Bluff +32, Fly +23, Intimidate +32, Knowledge (history, planes) +15, Perception +30, Sense Motive +30, Spellcraft +26  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** warfare mastery",
@@ -2576,7 +2576,7 @@
 			"",
 			"Obcisidaemons stand 25 feet tall, have wingspans of 30 feet, and weigh over 15,000 pounds, but rumors whisper of specimens that are nearly three times this size.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"obcisidaemon": { "copyof": "daemon_obcisidaemon" },
@@ -2619,7 +2619,7 @@
 			"",
 			"**Str** 35, **Dex** 26, **Con**: 37, **Int** 12, **Wis** 26, **Cha**, 25  ",
 			"**Base Atk** +20; **CMB** +36 (+40 grapple); **CMD** 54 (58 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Great Cleave](feat/great_cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (disintegrate)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Great Cleave}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Iron Will}, {feat/Power Attack}, [Quicken Spell-Like Ability (disintegrate)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Climb +35, Intimidate +30, Knowledge (planes) +24, Perception +31, Sense Motive +31, Stealth +19, Survival +31  ",
 			"**Languages** Abyssal, Infernal; telepathy 100 ft.  ",
 			"**SQ** adamantine claws",
@@ -2660,7 +2660,7 @@
 			"",
 			"Olethrodaemons serving the Horseman of Death gain the ability to inflict a negative level on a foe each time they strike with a claw attack, or else gain the ability to cause those they damage to age rapidly and grow old and frail with hideous speed.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"olethrodaemon": { "copyof": "daemon_olethrodaemon" },
@@ -2707,7 +2707,7 @@
 			"",
 			"**Str** 26, **Dex** 25, **Con**: 23, **Int** 17, **Wis** 18, **Cha**, 22  ",
 			"**Base Atk** +23; **CMB** +32 (+36 grapple); **CMD** 50 (can't be tripped)  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Greater Spell Penetration](feat/greater_spell_penetration), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (bite)](feat/improved_critical) [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Quicken Spell-Like Ability (phantasmal killer)](feat/quicken_spell-like_ability) [Spell Penetration](feat/spell_penetration), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Greater Spell Penetration}, {feat/Greater Vital Strike}, [Improved Critical (bite)](feat/improved_critical) {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, [Quicken Spell-Like Ability (phantasmal killer)](feat/quicken_spell-like_ability) {feat/Spell Penetration}, {feat/Vital Strike}  ",
 			"**Skills** Bluff +32, Fly +35, Intimidate +32, Knowledge (arcana, planes) +29, Perception +30, Sense Motive +30, Spellcraft +29, Stealth +29  ",
 			"**Languages** Abyssal, Celestial, Common, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** compression, tangible horror",
@@ -2728,7 +2728,7 @@
 			"",
 			"Among the most powerful members of daemonkind, the phasmadaemons personify death by fright, and conjure powers of illusion so terrifying that they steal the life from their victims. A phasmadaemon is 25 feet long from snout to tail, but can compress itself into surprisingly small areas thanks to its strange, elastic anatomy. It weighs half a ton.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"phasmadaemon": { "copyof": "daemon_phasmadaemon" },
@@ -2769,7 +2769,7 @@
 			"",
 			"**Str** 25, **Dex** 18, **Con**: 24, **Int** 14, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +11; **CMB** +18 (+22 grapple); **CMD** 32  ",
-			"**Feats** [Critical Focus](feat/critical_focus), [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Sickening Critical](feat/sickening_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Critical Focus}, {feat/Improved Initiative}, {feat/Multiattack}, {feat/Power Attack}, {feat/Sickening Critical}, {feat/Vital Strike}  ",
 			"**Skills** Escape Artist +18, Intimidate +17, Knowledge (planes) +16, Perception +16, Sense Motive +16, Stealth +18, Survival +16, Swim +29  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** amphibious, augmented critical",
@@ -2794,7 +2794,7 @@
 			"",
 			"Piscodaemons are 7 feet tall and weigh 400 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"piscodaemon": { "copyof": "daemon_piscodaemon" },
@@ -2837,7 +2837,7 @@
 			"",
 			"**Str** 32, **Dex** 23, **Con**: 30, **Int** 17, **Wis** 18, **Cha**, 21  ",
 			"**Base Atk** +19; **CMB** +31; **CMD** 51  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (halberd)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Sunder](feat/improved_sunder), [Improved Vital Strike](feat/improved_vital_strike), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Quick Draw](feat/quick_draw), [Vital Strike](feat/vital_strike), [Weapon Focus (halberd)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Greater Vital Strike}, [Improved Critical (halberd)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Sunder}, {feat/Improved Vital Strike}, {feat/Lunge}, {feat/Power Attack}, {feat/Quick Draw}, {feat/Vital Strike}, [Weapon Focus (halberd)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +28, Bluff +21, Diplomacy +17, Fly +16, Intimidate +27, Knowledge (planes) +25, Perception +26, Sense Motive +26, Spellcraft +23, Stealth +24, Survival +17  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2849,13 +2849,13 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Weapon Steep (Su)** A purrodaemon can sheathe a weapon in its flesh as a swift action. This does no damage to the daemon. If a weapon remains sheathed in its body for at least 24 hours, the weapon absorbs some of its essence and gains magical enhancements. A purrodaemon can have up to a dozen weapons lodged in its body at a time, but only one can possess magical enhancements at a time. The total enhancements cannot exceed a +4 effective enhancement-most purrodaemons opt to create +2 wounding weapons in this manner. A weapon's enhancements vanish as soon as the purrodaemon dies or releases the weapon. A purrodaemon gains [Weapon Focus](feat/weapon_focus) and [Improved Critical](feat/improved_critical) as bonus feats as long as it wields a weapon benefiting from its weapon steep ability.",
+			"**Weapon Steep (Su)** A purrodaemon can sheathe a weapon in its flesh as a swift action. This does no damage to the daemon. If a weapon remains sheathed in its body for at least 24 hours, the weapon absorbs some of its essence and gains magical enhancements. A purrodaemon can have up to a dozen weapons lodged in its body at a time, but only one can possess magical enhancements at a time. The total enhancements cannot exceed a +4 effective enhancement-most purrodaemons opt to create +2 wounding weapons in this manner. A weapon's enhancements vanish as soon as the purrodaemon dies or releases the weapon. A purrodaemon gains {feat/Weapon Focus} and {feat/Improved Critical} as bonus feats as long as it wields a weapon benefiting from its weapon steep ability.",
 			"",
 			"#### Description",
 			"",
 			"Deacons of War, purrodaemons ravage the planes as generals of massive battles. They employ creative tactics and never launch an assault without carefully looking over the plans or surveying the battlefield themselves. A purrodaemon is 12 feet tall and weighs 1,300 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"purrodaemon": { "copyof": "daemon_purrodaemon" },
@@ -2900,7 +2900,7 @@
 			"",
 			"**Str** 24, **Dex** 21, **Con**: 19, **Int** 10, **Wis** 16, **Cha**, 15  ",
 			"**Base Atk** +12; **CMB** +19; **CMD** 35 (47 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (death knell)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Power Attack}, [Quicken Spell-Like Ability (death knell)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Fly +24, Intimidate +17, Knowledge (arcana) +15, Perception +18, Sense Motive +18, Spellcraft +15  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** augmented critical, contagious gore",
@@ -2925,7 +2925,7 @@
 			"",
 			"Sangudaemons personify death by blood loss. Perhaps more so than any other caste of daemon, the sangudaemon enjoys the hunt for prey, whether that prey is petitioner, mortal, or anything else that bleeds. That the souls of those who perish to a sangudaemon's wrath are consigned to Abaddon makes these daemons particularly hated by those who hold the supernatural cycle of the soul's journey sacred. A sangudaemon is about 5 feet long and weighs 200 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"sangudaemon": { "copyof": "daemon_sangudaemon" },
@@ -2968,7 +2968,7 @@
 			"",
 			"**Str** 18, **Dex** 19, **Con**: 18, **Int** 13, **Wis** 14, **Cha**, 17  ",
 			"**Base Atk** +9; **CMB** +13; **CMD** 27  ",
-			"**Feats** [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** [Improved Critical (claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Climb +16, Intimidate +15, Knowledge (planes) +13, Perception +14, Stealth +16, Survival +14, Swim +24  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -2990,7 +2990,7 @@
 			"",
 			"Sepsidaemons embody the concept of death by gangrene, infection, and necrotic decay. Spawned in Abaddon from the evil souls of those who experienced horrific deaths under septic conditions, these daemons are most prominent in the areas of Apollyon's domain where the waters of the Styx intrude and leach away life and memories. A sepsidaemon continually hunts, feeds, and appropriates the essences of creatures. These fiends perpetually slough a trail of necrotic flesh and exude a fearsome aura that festers and corrupts wounds. A sepsidaemon fuses its victims' misappropriated forms to its amorphous core, where they dangle like rotting jewelry. Although sepsidaemons typically roam alone or in loose pairs, they are at their most fearsome when they form groups led by one of Apollyon's leukodaemon deacons.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"sepsidaemon": { "copyof": "daemon_sepsidaemon" },
@@ -3036,7 +3036,7 @@
 			"",
 			"**Str** 21, **Dex** 17, **Con**: 18, **Int** 14, **Wis** 15, **Cha**, 16  ",
 			"**Base Atk** +9; **CMB** +14 (+18 grapple); **CMD** 28 (30 vs. trip)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Great Fortitude](feat/great_fortitude), [Improved Critical (tongue)](feat/improved_critical), [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Great Fortitude}, [Improved Critical (tongue)](feat/improved_critical), {feat/Improved Initiative}  ",
 			"**Skills** Climb +17, Diplomacy +15, Intimidate +15, Knowledge (nature, planes) +14, Perception +14, Sense Motive +14, Stealth +15  ",
 			"**Languages** Abyssal, Draconic, Infernal (cannot speak); telepathy 100 ft.  ",
 			"**SQ** no breath",
@@ -3063,7 +3063,7 @@
 			"",
 			"A suspiridaemon is 6 feet tall and weighs 250 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"suspiridaemon": { "copyof": "daemon_suspiridaemon" },
@@ -3109,7 +3109,7 @@
 			"",
 			"**Str** 21, **Dex** 22, **Con**: 23, **Int** 13, **Wis** 24, **Cha**, 20  ",
 			"**Base Atk** +17; **CMB** +23 (+25 trip); **CMD** 39 (45 vs. trip)  ",
-			"**Feats** [Blinding Critical](feat/blinding_critical), [Combat Expertise](feat/combat_expertise), [Critical Focus](feat/critical_focus), [Improved Critical (scythe)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Trip](feat/improved_trip), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Weapon Focus (scythe)](feat/weapon_focus)  ",
+			"**Feats** {feat/Blinding Critical}, {feat/Combat Expertise}, {feat/Critical Focus}, [Improved Critical (scythe)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Trip}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Weapon Focus (scythe)](feat/weapon_focus)  ",
 			"**Skills** Bluff +25, Intimidate +25, Knowledge (planes, religion) +21, Perception +27, Sense Motive +27, Stealth +22  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.  ",
 			"**SQ** undersized weapons",
@@ -3134,7 +3134,7 @@
 			"",
 			"A gangly mass consisting of a rotund torso, four arms, and four legs, a temerdaemon is 10 feet long and weighs 1,200 pounds, not counting its often bizarre collection of odd mechanical fetishes and other tinkering equipment.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"temerdaemon": { "copyof": "daemon_temerdaemon" },
@@ -3175,7 +3175,7 @@
 			"",
 			"**Str** 21, **Dex** 16, **Con**: 23, **Int** 17, **Wis** 17, **Cha**, 18  ",
 			"**Base Atk** +15; **CMB** +20; **CMD** 34  ",
-			"**Feats** [Alertness](feat/alertness), [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Lunge](feat/lunge), [Mobility](feat/mobility), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lunge}, {feat/Mobility}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +21, Bluff +22, Diplomacy +22, Intimidate +22, Knowledge (planes) +21, Knowledge (religion) +21, Perception +25, Sense Motive +25, Stealth +14, Survival +10  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -3191,13 +3191,13 @@
 			"",
 			"**Fear Gaze (Su)** Cower in fear for 1d6 rounds, 30 feet, Will DC 21 negates. This is a mind-affecting fear effect. The save DC is Charisma-based.",
 			"",
-			"**Soul Crush (Su)** A thanadaemon can crush a soul gem (see [cacodaemon](monster/cacodaemon)) as a standard action to gain fast healing 15 for 15 rounds (this is a standard action). This action condemns the crushed soul to Abaddon-resurrecting this victim requires a DC 28 caster level check.",
+			"**Soul Crush (Su)** A thanadaemon can crush a soul gem (see {monster/cacodaemon}) as a standard action to gain fast healing 15 for 15 rounds (this is a standard action). This action condemns the crushed soul to Abaddon-resurrecting this victim requires a DC 28 caster level check.",
 			"",
 			"#### Description",
 			"",
 			"While all daemons represent death in some fashion, thanadaemons, the Deacons of Death, represent the inevitable death through old age. Thanadaemons effortlessly work eerie skiffs along every pus- and bile-choked river in Abaddon, including the legendary River Styx. For the right price (typically 50 pp or 2 gems worth at least 300 gp each), a thanadaemon will even carry passengers on its skiff, yet those who travel with these fiends should beware-they frequently renegotiate the terms once they've got their passengers in dangerous realms.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"thanadaemon": { "copyof": "daemon_thanadaemon" },
@@ -3247,7 +3247,7 @@
 			"",
 			"**Str** 13, **Dex** 15, **Con**: 16, **Int** 22, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +6; **CMB** +7; **CMD** 19  ",
-			"**Feats** [Arcane Strike](feat/arcane_strike), [Combat Casting](feat/combat_casting), [Eschew Materials](feat/eschew_materials), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Arcane Strike}, {feat/Combat Casting}, {feat/Eschew Materials}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +12, Disguise +12, Fly +11, Intimidate +9, Knowledge (arcana, planes) +15, Knowledge (religion) +12, Perception +12, Sense Motive +12, Spellcraft +15, Stealth +11, Use Magic Device +12  ",
 			"**Languages** Abyssal, Aklo, Aquan, Auran, Common, Draconic, Ignan, Infernal, Terran; telepathy 100 ft.",
 			"",
@@ -3271,7 +3271,7 @@
 			"",
 			"Venedaemons are gaunt, and despite standing close to 7 feet tall, they rarely weigh more than 150 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"venedaemon": { "copyof": "daemon_venedaemon" },
@@ -3315,7 +3315,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: 13, **Int** 12, **Wis** 13, **Cha**, 16  ",
 			"**Base Atk** +6; **CMB** +7; **CMD** 20  ",
-			"**Feats** [Ability Focus (aura of doom)](feat/ability_focus), [Combat Casting](feat/combat_casting), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Ability Focus (aura of doom)](feat/ability_focus), {feat/Combat Casting}, {feat/Weapon Finesse}  ",
 			"**Skills** Bluff +12, Diplomacy +10, Fly +11, Knowledge (arcana) +7, Knowledge (planes) +8, Perception +10, Sense Motive +10, Spellcraft +8, Stealth +16  ",
 			"**Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.",
 			"",
@@ -3339,7 +3339,7 @@
 			"",
 			"Vulnudaemons stand 3 feet tall and weigh 25 pounds.",
 			"",
-			"**Family:** [Daemon](family/daemon)"
+			"**Family:** {family/Daemon}"
 		]
 	},
 	"vulnudaemon": { "copyof": "daemon_vulnudaemon" },
@@ -3378,7 +3378,7 @@
 			"",
 			"**Str** 21, **Dex** 14, **Con**: 18, **Int** 7, **Wis** 16, **Cha**, 19  ",
 			"**Base Atk** +8; **CMB** +14; **CMD** 27 (31 vs. trip)  ",
-			"**Feats** [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Great Fortitude](feat/great_fortitude), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Weapon Focus (greatsword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Dodge}, {feat/Flyby Attack}, {feat/Great Fortitude}, {feat/Iron Will}, {feat/Power Attack}, [Weapon Focus (greatsword)](feat/weapon_focus)  ",
 			"**Skills** Fly +8, Intimidate +12, Knowledge (planes) +9, Perception +14  ",
 			"**Languages** Abyssal, Orc  ",
 			"**SQ** heart-feaster, undersized weapons",
@@ -3445,7 +3445,7 @@
 			"",
 			"**Str** 17, **Dex** 20, **Con**: 21, **Int** 23, **Wis** 22, **Cha**, 18  ",
 			"**Base Atk** +12; **CMB** +15 (+17 disarm); **CMD** 39 (41 vs. disarm)  ",
-			"**Feats** [Combat Expertise](feat/combat_expertise), [Combat Reflexes](feat/combat_reflexes), [Improved Disarm](feat/improved_disarm), [Improved Unarmed Strike](feat/improved_unarmed_strike), [Quick Draw](feat/quick_draw), [Snatch Arrows](feat/snatch_arrows), [Stunning Fist](feat/stunning_fist), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Disarm}, {feat/Improved Unarmed Strike}, {feat/Quick Draw}, {feat/Snatch Arrows}, {feat/Stunning Fist}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +20, Bluff +19, Diplomacy +19, Disguise +22, Fly +24, Intimidate +19, Knowledge (history, local, nobility, religion) +9, Perception +21, Sense Motive +21, Sleight of Hand +20, Stealth +20, Survival +18; **Racial Modifiers** +6 Disguise  ",
 			"**Languages** Common, Tengu; speak with animals (birds only)  ",
 			"**SQ** ascetic master, change self (any humanoid, alter self), daitengu's blessing",
@@ -3458,7 +3458,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Ascetic Master (Ex)** A daitengu can use unarmed strikes, flurry of blows, and [Stunning Fist](feat/stunning_fist) as a 12th-level monk. He adds his Wisdom bonus to his AC and CMD, and gains an additional +1 bonus to AC and CMD for every four Hit Dice he has. He can treat unarmed attacks as cold iron, magic, silver, or any alignment for overcoming damage reduction.",
+			"**Ascetic Master (Ex)** A daitengu can use unarmed strikes, flurry of blows, and {feat/Stunning Fist} as a 12th-level monk. He adds his Wisdom bonus to his AC and CMD, and gains an additional +1 bonus to AC and CMD for every four Hit Dice he has. He can treat unarmed attacks as cold iron, magic, silver, or any alignment for overcoming damage reduction.",
 			"",
 			"**Daitengu's Blessing (Su)** Once per week as a standard action, a daitengu can bestow its mastery of greater fighting arts upon a creature it touches. The daitengu selects any combat feat that it knows and that its target meets the prerequisites for. Upon being touched, the target gains that feat as a bonus feat for a number of days equal to the daitengu's Hit Dice. A daitengu with 15 or more Hit Dice can grant two feats with this ability, while a daitengu with 20 or more Hit Dice can grant three.",
 			"",
@@ -3500,7 +3500,7 @@
 			"",
 			"**Str** 11, **Dex** 10, **Con**: 15, **Int** 2, **Wis** 13, **Cha**, 8  ",
 			"**Base Atk** +1; **CMB** +0; **CMD** 10  ",
-			"**Feats** [Iron Will](feat/iron_will)  ",
+			"**Feats** {feat/Iron Will}  ",
 			"**Skills** Perception +6",
 			"",
 			"#### Ecology",
@@ -3558,7 +3558,7 @@
 			"",
 			"**Str** -, **Dex** 28, **Con**: -, **Int** 8, **Wis** 22, **Cha**, 30  ",
 			"**Base Atk** +10; **CMB** +20; **CMD** 41  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Skill Focus (Perception)](feat/skill_focus), [Spring Attack](feat/spring_attack)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Mobility}, [Skill Focus (Perception)](feat/skill_focus), {feat/Spring Attack}  ",
 			"**Skills** Fly +32, Perception +29, Sense Motive +23  ",
 			"**Languages** Common, Necril",
 			"",
@@ -3570,13 +3570,13 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Dance of Death (Su)** A danse macabre is constantly surrounded by a 40-foot aura known as the dance of death, an endless gala of dancing spectral figures. Any living creature that enters the area of the dance of death must attempt a DC 27 Will save. On a failed save, the victim joins the ghostly dancers, takes 1d4 points of Constitution drain, and is affected as per [irresistible dance](spell/irresistible_dance) (CL 14th). A creature can attempt a new DC 27 Will save at the end of its turn to escape from the effects of a dance of death; otherwise, these effects persist for as long as the victim remains within the aura. The Constitution drain effect only occurs, however, after the initial failed saving throw. As victims cannot willingly move from the square in which they dance, the dance's effects end when the danse macabre moves to a point where the victim is no longer within its aura, the danse macabre is destroyed, or if the victim is physically removed from the area. A victim who succeeds at a save (whether from the original exposure or at a later point to successfully escape the effect) is immune to the dance of death of the same danse macabre for 24 hours. Dance of death is a visual, sonic, mind-affecting compulsion effect, and blindness or deafness can provide protection from the effect. The save DC is Charisma-based.",
+			"**Dance of Death (Su)** A danse macabre is constantly surrounded by a 40-foot aura known as the dance of death, an endless gala of dancing spectral figures. Any living creature that enters the area of the dance of death must attempt a DC 27 Will save. On a failed save, the victim joins the ghostly dancers, takes 1d4 points of Constitution drain, and is affected as per {spell/irresistible dance} (CL 14th). A creature can attempt a new DC 27 Will save at the end of its turn to escape from the effects of a dance of death; otherwise, these effects persist for as long as the victim remains within the aura. The Constitution drain effect only occurs, however, after the initial failed saving throw. As victims cannot willingly move from the square in which they dance, the dance's effects end when the danse macabre moves to a point where the victim is no longer within its aura, the danse macabre is destroyed, or if the victim is physically removed from the area. A victim who succeeds at a save (whether from the original exposure or at a later point to successfully escape the effect) is immune to the dance of death of the same danse macabre for 24 hours. Dance of death is a visual, sonic, mind-affecting compulsion effect, and blindness or deafness can provide protection from the effect. The save DC is Charisma-based.",
 			"",
 			"**Deathless (Su)** As a manifestation of death incarnate, a danse macabre is not itself subject to permanent destruction. If reduced to 0 hit points, it vanishes, only to rejuvenate at full hit points in 1d4 days. Only by destroying the creature and then casting hallow to consecrate the site it manifested upon prevents the undead monster's reappearance.",
 			"",
 			"**Incorporeal Scythe (Su)** A danse macabre wields an incorporeal scythe in combat that leaves deep and horrific wounds on any creature it strikes. Attacks made with this scythe are touch attacks and deal slashing damage, but are not modified by any of the monster's ability scores. A creature hit by a danse macabre's incorporeal scythe attack must succeed at a DC 23 Fortitude save or take 1d6 points of Constitution drain. Each time a danse macabre drains Constitution from a target, the danse macabre regains 5 hit points, regardless of the total number of Constitution points drained by the attack. The save DC is Charisma-based.",
 			"",
-			"**Lifesense (Su)** A danse macabre notices and locates living creatures within 60 feet, just as if it had the [blindsight](umr/blindsight) ability. It also senses the strength of life forces automatically, as per [deathwatch](spell/deathwatch).",
+			"**Lifesense (Su)** A danse macabre notices and locates living creatures within 60 feet, just as if it had the {umr/blindsight} ability. It also senses the strength of life forces automatically, as per {spell/deathwatch}.",
 			"",
 			"#### Description",
 			"",
@@ -3631,7 +3631,7 @@
 			"",
 			"**Str** 6, **Dex** 18, **Con**: 21, **Int** 13, **Wis** 8, **Cha**, 21  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 14  ",
-			"**Feats** [Deceitful](feat/deceitful), [Dodge](feat/dodge), [Iron Will](feat/iron_will), [Mobility](feat/mobility)  ",
+			"**Feats** {feat/Deceitful}, {feat/Dodge}, {feat/Iron Will}, {feat/Mobility}  ",
 			"**Skills** Bluff +17, Diplomacy +15, Disguise +17, Escape Artist +14, Knowledge (nobility) +8, Perform (any one) +15, Sleight of Hand +14  ",
 			"**Languages** Common, Dwarven, Elven, Gnome, Halfling, Sylvan",
 			"",
@@ -3689,7 +3689,7 @@
 			"",
 			"**Str** 13, **Dex** 17, **Con**: 16, **Int** 10, **Wis** 8, **Cha**, 10  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 14  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Acrobatics +7, Bluff +4, Climb +5, Disguise +4, Escape Artist +7, Knowledge (dungeoneering) +4, Perception +3, Stealth +7  ",
 			"**Languages** Common, Dark Folk  ",
 			"**SQ** trapfinding +1",
@@ -3718,7 +3718,7 @@
 			"",
 			"Most caligni adventurers become rogues and slayers, adopting the training of their dark creeper and dark stalker brethren. Some become alchemists, and the most depraved commune with the owbs as conjurers and summoners.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"caligni": { "copyof": "dark_folk_caligni" },
@@ -3762,7 +3762,7 @@
 			"",
 			"**Str** 14, **Dex** 17, **Con**: 14, **Int** 13, **Wis** 13, **Cha**, 18  ",
 			"**Base Atk** +6; **CMB** +8; **CMD** 22  ",
-			"**Feats** [Augment Summoning](feat/augment_summoning), [Dodge](feat/dodge), [Spell Focus (conjuration)](feat/spell_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Augment Summoning}, {feat/Dodge}, [Spell Focus (conjuration)](feat/spell_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Climb +6, Intimidate +5, Knowledge (arcana) +9, Knowledge (planes) +9, Perception +8, Stealth +10, Use Magic Device +5; **Racial Modifiers** +4 Climb, +4 Perception, +4 Stealth  ",
 			"**Languages** Dark Folk, Undercommon  ",
 			"**SQ** poison use, shadow ritual",
@@ -3771,13 +3771,13 @@
 			"",
 			"**Environment** any underground  ",
 			"**Organization** solitary, pair, or gang (1 plus 2-5 dark stalkers), or clan (20-80 dark creepers plus 1 dark stalker and dark caller per 20 dark creepers)  ",
-			"**Treasure** standard (mwk dagger, [black smear](equipment-poison/black_smear) [2 doses], other gear)",
+			"**Treasure** standard (mwk dagger, {equipment-poison/black smear} [2 doses], other gear)",
 			"",
 			"#### Special Abilities",
 			"",
 			"**Death Throes (Su)** When a dark caller is slain, its body bursts into shreds of blisteringly cold shadows, leaving its gear in a heap on the ground. All creatures within a 10-foot burst take 1d4 points of Strength damage and are staggered for 1 round. A successful DC 16 Fortitude save halves the Strength damage and negates the staggered effect. This ability damage is temporary and an affected creature's Strength returns to normal after 3d10 minutes. The save DC is Constitution-based.",
 			"",
-			"**Shadow Ritual (Su)** Three dark callers can collaborate on a ritual that calls an [owb](monster/owb) to their service. The ritual takes 1 hour to complete. If the dark callers involved are distracted in any way, the attempt is ruined and the ritual must begin anew. Once called to their service, the owb serves them for 24 hours. Though the owb is freewilled, it follows orders to the best of its ability.",
+			"**Shadow Ritual (Su)** Three dark callers can collaborate on a ritual that calls an {monster/owb} to their service. The ritual takes 1 hour to complete. If the dark callers involved are distracted in any way, the attempt is ruined and the ritual must begin anew. Once called to their service, the owb serves them for 24 hours. Though the owb is freewilled, it follows orders to the best of its ability.",
 			"",
 			"#### Description",
 			"",
@@ -3789,7 +3789,7 @@
 			"",
 			"Dark callers are typically 6 feet tall and weigh slightly under 100 pounds. Despite their lanky frames, they're quite strong, though they avoid physical confrontation. Instead, they'll use their limited authority to command dark creepers to fight for them, or at least distract attackers while the dark callers cast spells.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_caller": { "copyof": "dark_folk_dark_caller" },
@@ -3830,7 +3830,7 @@
 			"",
 			"**Str** 17, **Dex** 12, **Con**: 18, **Int** 8, **Wis** 11, **Cha**, 9  ",
 			"**Base Atk** +7; **CMB** +10; **CMD** 21  ",
-			"**Feats** [Cleave](feat/cleave), [Disruptive](feat/disruptive), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Disruptive}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Perception +8, Stealth +2; **Racial Modifiers** +4 Perception, +4 Stealth  ",
 			"**Languages** Undercommon, Dark Folk  ",
 			"**SQ** champion armor, fighter training",
@@ -3853,7 +3853,7 @@
 			"",
 			"The rare dark folk children born without eyes are assigned to the dark champion caste and begin a life of rigor, privation, and martial training. Their armor is typically bolted to their bodies in sections and removed only rarely. Most other dark folk appreciate the discipline and might of dark champions, but they treat them with wary respect.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_champion": { "copyof": "dark_folk_dark_champion" },
@@ -3891,7 +3891,7 @@
 			"",
 			"**Str** 11, **Dex** 17, **Con**: 14, **Int** 9, **Wis** 10, **Cha**, 8  ",
 			"**Base Atk** +2; **CMB** +1; **CMD** 14  ",
-			"**Feats** [Skill Focus (Sleight of Hand)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Sleight of Hand)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Climb +8, Perception +4, Sleight of Hand +7, Stealth +12; **Racial Modifiers** +4 Climb, +4 Perception, +4 Stealth  ",
 			"**Languages** Dark Folk  ",
 			"**SQ** poison use, rag armor",
@@ -3906,7 +3906,7 @@
 			"",
 			"**Death Throes (Su)** When a dark creeper is slain, its body combusts in a flash of bright white light, leaving its gear in a heap on the ground. All creatures within a 10-foot burst must make a DC 13 Fortitude save or be blinded for 1d6 rounds. Other dark creepers within 10 feet are automatically blinded for at least 1 round, due to their light blindness. The save is Constitution-based.",
 			"",
-			"**Poison Use (Ex)** Dark creepers are skilled in the use of poison and never risk accidentally poisoning themselves. Dark creepers favor a foul-smelling black paste distilled from certain deep-underground fungi known as [black smear](equipment-poison/black_smear).",
+			"**Poison Use (Ex)** Dark creepers are skilled in the use of poison and never risk accidentally poisoning themselves. Dark creepers favor a foul-smelling black paste distilled from certain deep-underground fungi known as {equipment-poison/black smear}.",
 			"",
 			"**Rag Armor (Ex)** A dark creeper's multiple layers of filthy rags function as leather armor when worn by one of their kind.",
 			"",
@@ -3920,7 +3920,7 @@
 			"",
 			"For all the mayhem and trouble a pack of dark creepers can cause, this is nothing compared to the dangers a tribe led by the taller, even more sinister dark stalkers represents. Dark creepers treat their tall, lithe masters almost like gods, presenting them with offerings and obeying their every whim. Invariably, several dark stalkers serve as leaders to dark creeper tribes, with all of the tribe's heavy work and labor falling on the diminutive shoulders of the creepers, freeing the dark stalkers for their own decadent pleasures. Yet the dark creepers themselves see no inherent imbalance in this arrangement-to a dark creeper, a life in the servitude of a dark stalker is a life fulfilled.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_creeper": { "copyof": "dark_folk_dark_creeper" },
@@ -3959,7 +3959,7 @@
 			"",
 			"**Str** 11, **Dex** 19, **Con**: 14, **Int** 8, **Wis** 10, **Cha**, 13  ",
 			"**Base Atk** +1; **CMB** +0; **CMD** 14  ",
-			"**Feats** [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Weapon Finesse}  ",
 			"**Skills** Climb +4, Perception +4, Perform (dance) +2, Sleight of Hand +5, Stealth +12; **Racial Modifiers** +4 Climb, +4 Perception, +4 Stealth  ",
 			"**Languages** Dark Folk  ",
 			"**SQ** poison use",
@@ -3984,7 +3984,7 @@
 			"",
 			"Though fickle and erratic, dark dancers are well liked and usually welcome among clans for as long as they wish to stay. Yet they rarely stay long, instead insinuating themselves into dozens of underground communities over the course of a year. They serve as storytellers, entertainers, and messengers. One of their favorite stories to share is about the relationship between their kind and the owbs. Though dark dancers are rare and weak, they are highly appreciated by dark folk society. Dark folk consider it a bad omen when a dark dancer dies. Dark dancers stand just under 4 feet tall and weigh 60 pounds.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_dancer": { "copyof": "dark_folk_dark_dancer" },
@@ -4027,7 +4027,7 @@
 			"",
 			"**Str** 9, **Dex** 19, **Con**: 14, **Int** 10, **Wis** 14, **Cha**, 15  ",
 			"**Base Atk** +2; **CMB** +0; **CMD** 15  ",
-			"**Feats** [Empath](feat/empath), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Empath}, {feat/Weapon Finesse}  ",
 			"**Skills** Climb +7, Perception +9, Stealth +14; **Racial Modifiers** +4 Climb, +4 Perception, +4 Stealth  ",
 			"**Languages** Dark Folk, Undercommon  ",
 			"**SQ** poison use",
@@ -4036,7 +4036,7 @@
 			"",
 			"**Environment** any underground  ",
 			"**Organization** solitary, pair, gang (3-6), or clan (20-80 dark creepers plus 1 dark stalker and dark empath per 20 dark creepers)  ",
-			"**Treasure** standard (mwk dagger, [black smear](equipment-poison/black_smear) [2 doses], other treasure)",
+			"**Treasure** standard (mwk dagger, {equipment-poison/black smear} [2 doses], other treasure)",
 			"",
 			"#### Special Abilities",
 			"",
@@ -4052,7 +4052,7 @@
 			"",
 			"Most dark empaths stand just under 4 feet tall and weigh 60 pounds. Their shadowy wrappings often appear to be looser than those of other dark folk, as though their bodies were subtly expanding and contracting.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_empath": { "copyof": "dark_folk_dark_empath" },
@@ -4095,7 +4095,7 @@
 			"",
 			"**Str** 9, **Dex** 18, **Con**: 12, **Int** 10, **Wis** 11, **Cha**, 15  ",
 			"**Base Atk** +3; **CMB** +1; **CMD** 15  ",
-			"**Feats** [Skill Focus (Use Magic Device)](feat/skill_focus), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** [Skill Focus (Use Magic Device)](feat/skill_focus), {feat/Weapon Finesse}  ",
 			"**Skills** Climb +3, Perception +4, Spellcraft +7, Stealth +12, Use Magic Device +12; **Racial Modifiers** +4 Climb, +4 Stealth, +4 Perception  ",
 			"**Languages** Dark Folk  ",
 			"**SQ** magical knack",
@@ -4122,7 +4122,7 @@
 			"",
 			"Dark slayers stand just short of 4 feet tall and weigh 50 pounds. Most have a persistent tremor visible in their hands, stilled only when fondling a newfound magic item. Their skin is dead white, dry, and hot to the touch; their eyes are dark and narrow. Dark slayers wear salvaged rags like dark creepers do, but they discard the rags when they grow too tattered or foul-smelling.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_slayer": { "copyof": "dark_folk_dark_slayer" },
@@ -4160,7 +4160,7 @@
 			"",
 			"**Str** 14, **Dex** 18, **Con**: 14, **Int** 9, **Wis** 11, **Cha**, 13  ",
 			"**Base Atk** +4; **CMB** +6; **CMD** 20  ",
-			"**Feats** [Double Slice](feat/double_slice), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Double Slice}, {feat/Two-Weapon Fighting}, {feat/Weapon Finesse}  ",
 			"**Skills** Climb +10, Perception +8, Sleight of Hand +5, Stealth +8; **Racial Modifiers** +4 Climb, +4 Perception, +4 Stealth  ",
 			"**Languages** Dark Folk, Undercommon  ",
 			"**SQ** poison use",
@@ -4175,7 +4175,7 @@
 			"",
 			"**Death Throes (Su)** When a dark stalker is slain, its body combusts in a flash of white-hot flame. This acts like a fireball that deals 3d6 points of fire damage to all creatures within a 20-foot-radius burst. A DC 15 Reflex save halves this damage. A dark stalker's gear and treasure are unaffected by this explosion. This save is Constitution-based.",
 			"",
-			"**Poison Use (Ex)** Dark stalkers are skilled in the use of poison and never risk accidentally poisoning themselves. Like their diminutive kin, the dark creepers, dark stalkers use [black smear](equipment-poison/black_smear) on their weapons and generally carry six doses on them.",
+			"**Poison Use (Ex)** Dark stalkers are skilled in the use of poison and never risk accidentally poisoning themselves. Like their diminutive kin, the dark creepers, dark stalkers use {equipment-poison/black smear} on their weapons and generally carry six doses on them.",
 			"",
 			"**See in Darkness (Su)** A dark stalker can see perfectly in darkness of any kind, including that created by deeper darkness.",
 			"",
@@ -4189,7 +4189,7 @@
 			"",
 			"The origins of the dark stalkers and the dark creepers are shrouded in mystery, made more difficult to decipher by the fact that the dark stalkers do not keep records of their history. Many scholars believe that, just as the drow descended from elves, so too must the dark folk have descended from humanity, their eerie powers and spell-like abilities the result of generation upon generation of devotion to profane and sinister magic. Alas, the truth of the race's history may never be known.",
 			"",
-			"**Family:** [Dark Folk](family/dark_folk)"
+			"**Family:** {family/Dark Folk}"
 		]
 	},
 	"dark_stalker": { "copyof": "dark_folk_dark_stalker" },
@@ -4231,7 +4231,7 @@
 			"",
 			"**Str** 30, **Dex** 17, **Con**: 24, **Int** 16, **Wis** 19, **Cha**, 21  ",
 			"**Base Atk** +10; **CMB** +22 (+26 grapple); **CMD** 35 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Critical (tentacles)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (tentacles)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, [Improved Critical (tentacles)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}, [Weapon Focus (tentacles)](feat/weapon_focus)  ",
 			"**Skills** Knowledge (arcana) +17, Knowledge (nature) +17, Knowledge (religion) +17, Perception +21, Sense Motive +18, Spellcraft +20, Stealth +12 (+20 in forests); **Racial Modifiers** +8 Stealth in forests  ",
 			"**Languages** Aklo",
 			"",
@@ -4286,7 +4286,7 @@
 			"",
 			"**Str** 11, **Dex** 15, **Con**: 14, **Int** 2, **Wis** 11, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +1 (+5 grapple); **CMD** 13 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Fly +5, Perception +4, Stealth +10; **Racial Modifiers** +4 Perception, +4 Stealth",
 			"",
 			"#### Ecology",
@@ -4350,7 +4350,7 @@
 			"",
 			"**Str** 27, **Dex** 17, **Con**: -, **Int** 18, **Wis** 16, **Cha**, 21  ",
 			"**Base Atk** +8; **CMB** +17; **CMD** 30  ",
-			"**Feats** [Ability Focus (disease)](feat/ability_focus), [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** [Ability Focus (disease)](feat/ability_focus), {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +14, Bluff +16, Fly +23, Intimidate +19, Knowledge (religion) +18, Perception +17, Sense Motive +17, Spellcraft +18, Stealth +0  ",
 			"**Languages** Abyssal, Common, Infernal, Necril",
 			"",
@@ -4413,7 +4413,7 @@
 			"",
 			"**Str** 15, **Dex** 18, **Con**: 16, **Int** 14, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 20  ",
-			"**Feats** [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Mobility](feat/mobility), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Dodge}, {feat/Improved Initiative}, {feat/Mobility}, {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +12, Bluff +11, Craft (musical instruments) +6, Diplomacy +10, Knowledge (nature) +10, Knowledge (planes) +8, Perception +11, Perform (wind) +12, Sense Motive +9, Spellcraft +8, Stealth +10, Use Magic Device +13  ",
 			"**Languages** Aklo, Common, Sylvan",
 			"",
@@ -4492,7 +4492,7 @@
 			"",
 			"**Str** 21, **Dex** 13, **Con**: 16, **Int** 5, **Wis** 12, **Cha**, 10  ",
 			"**Base Atk** +6; **CMB** +12; **CMD** 23 (can't be tripped)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Power Attack}, {feat/Toughness}  ",
 			"**Skills** Climb +17, Perception +7, Stealth +2 (+10 in forests or swamps); **Racial Modifiers** +8 Stealth in forests or swamps  ",
 			"**Languages** Sylvan (can't speak)  ",
 			"**SQ** freeze",
@@ -4557,7 +4557,7 @@
 			"",
 			"**Str** -, **Dex** 30, **Con**: -, **Int** 15, **Wis** 18, **Cha**, 27  ",
 			"**Base Atk** +12; **CMB** +24; **CMD** 43 (can't be tripped)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Lightning Stance](feat/lightning_stance), [Mobility](feat/mobility), [Quicken Spell-Like Ability (fear)](feat/quicken_spell-like_ability), [Skill Focus (Intimidate)](feat/skill_focus), [Skill Focus (Perception)](feat/skill_focus), [Wind Stance](feat/wind_stance)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Improved Initiative}, {feat/Lightning Stance}, {feat/Mobility}, [Quicken Spell-Like Ability (fear)](feat/quicken_spell-like_ability), [Skill Focus (Intimidate)](feat/skill_focus), [Skill Focus (Perception)](feat/skill_focus), {feat/Wind Stance}  ",
 			"**Skills** Fly +26, Intimidate +34, Knowledge (geography, history, local, nobility) +9, Perception +30, Sense Motive +13, Survival +21  ",
 			"**Languages** Abyssal, Common, Infernal (can't speak any language)",
 			"",
@@ -4612,7 +4612,7 @@
 			"",
 			"**Str** 13, **Dex** 15, **Con**: 13, **Int** 4, **Wis** 12, **Cha**, 6  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 17 (21 vs. trip)  ",
-			"**Feats** [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Toughness}, {feat/Weapon Finesse}  ",
 			"**Skills** Perception +7, Stealth +4, Survival +4; **Racial Modifiers** +2 Perception, +2 Stealth, +2 Survival  ",
 			"**Languages** Goblin (can't speak)",
 			"",
@@ -4675,7 +4675,7 @@
 			"",
 			"**Str** 18, **Dex** 13, **Con**: 16, **Int** 3, **Wis** 11, **Cha**, 5  ",
 			"**Base Atk** +8; **CMB** +13; **CMD** 24  ",
-			"**Feats** [Cleave](feat/cleave), [Improved Overrun](feat/improved_overrun), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Cleave}, {feat/Improved Overrun}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Perception +11, Stealth -3 (+13 in deserts); **Racial Modifiers** +16 Stealth in deserts or rocky areas  ",
 			"**Languages** Terran",
 			"",
@@ -4736,7 +4736,7 @@
 			"",
 			"**Str** 26, **Dex** 16, **Con**: 21, **Int** 3, **Wis** 11, **Cha**, 6  ",
 			"**Base Atk** +15; **CMB** +27 (+29 bull rush, +31 grapple, +29 overrun); **CMD** 40 (42 vs. bull rush, 42 vs. overrun)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Overrun](feat/improved_overrun), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike), [Weapon Focus (bite)](feat/weapon_focus)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Overrun}, {feat/Power Attack}, {feat/Vital Strike}, [Weapon Focus (bite)](feat/weapon_focus)  ",
 			"**Skills** Perception +13, Stealth -1 (+15 in deserts or rocky areas); **Racial Modifiers** +16 Stealth in deserts or rocky areas  ",
 			"**Languages** Terran",
 			"",
@@ -4748,13 +4748,13 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Corrosive Blood (Ex)** See [death worm](monster/death_worm).",
+			"**Corrosive Blood (Ex)** See {monster/death worm}.",
 			"",
-			"**Electrical Jolt (Su)** See [death worm](monster/death_worm).",
+			"**Electrical Jolt (Su)** See {monster/death worm}.",
 			"",
 			"**Poison (Ex)** Bite-injury or skin-contact; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d4 Con; cure 2 consecutive saves.",
 			"",
-			"**Venomous Skin (Ex)** See [death worm](monster/death_worm).",
+			"**Venomous Skin (Ex)** See {monster/death worm}.",
 			"",
 			"#### Description",
 			"",
@@ -4799,7 +4799,7 @@
 			"",
 			"**Str** 23, **Dex** 21, **Con**: 32, **Int** 16, **Wis** 21, **Cha**, 24  ",
 			"**Base Atk** +19; **CMB** +25; **CMD** 46  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Flyby Attack](feat/flyby_attack), [Great Fortitude](feat/great_fortitude), [Improved Critical (claw)](feat/improved_critical) [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (death knell)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Great Fortitude}, [Improved Critical (claw)](feat/improved_critical) {feat/Improved Initiative}, {feat/Iron Will}, {feat/Mobility}, {feat/Power Attack}, [Quicken Spell-Like Ability (death knell)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Fly +27, Intimidate +29, Knowledge (planes, religion) +22, Perception +27, Stealth +27, Survival +27  ",
 			"**Languages** Abyssal, Common",
 			"",
@@ -4870,7 +4870,7 @@
 			"",
 			"**Acid (Ex)** A deathtrap ooze secretes acid that dissolves only flesh. Creatures made of materials other than flesh are immune to this acid.",
 			"",
-			"**Trap Form (Su)** Taking 1 minute to do so, a deathtrap ooze can assume the form of any Medium or Large mechanical trap that has no more than one moving part (excluding pits). The ooze can maintain this form indefinitely. The trap it can assume the form of must be of a CR equal to or less than that of the deathtrap ooze itself-appropriate traps include the [swinging axe trap](trap/swinging_axe_trap) (CR 1), the [wall scythe trap](trap/wall_scythe_trap) (CR 4), and the [falling block trap](trap/falling_block_trap) (CR 5). In trap form, the ooze uses its attack bonus, but otherwise functions as the emulated trap and uses that trap's statistics and damage. If a creature searching for traps exceeds the DC to find the ooze's trap form, a successful follow-up DC 19 Knowledge (dungeoneering) check allows the creature that discovered the trap to discern its true nature. If the ooze takes any damage, it reverts to its normal form as a free action. Otherwise, reverting to its normal form takes a swift action.",
+			"**Trap Form (Su)** Taking 1 minute to do so, a deathtrap ooze can assume the form of any Medium or Large mechanical trap that has no more than one moving part (excluding pits). The ooze can maintain this form indefinitely. The trap it can assume the form of must be of a CR equal to or less than that of the deathtrap ooze itself-appropriate traps include the {trap/swinging axe trap} (CR 1), the {trap/wall scythe trap} (CR 4), and the {trap/falling block trap} (CR 5). In trap form, the ooze uses its attack bonus, but otherwise functions as the emulated trap and uses that trap's statistics and damage. If a creature searching for traps exceeds the DC to find the ooze's trap form, a successful follow-up DC 19 Knowledge (dungeoneering) check allows the creature that discovered the trap to discern its true nature. If the ooze takes any damage, it reverts to its normal form as a free action. Otherwise, reverting to its normal form takes a swift action.",
 			"",
 			"#### Description",
 			"",
@@ -4920,7 +4920,7 @@
 			"",
 			"**Str** 26, **Dex** 14, **Con**: -, **Int** 7, **Wis** 13, **Cha**, 15  ",
 			"**Base Atk** +8; **CMB** +17; **CMD** 29 (41 vs. trip)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Cleave](feat/cleave), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Climb +16, Perception +15, Stealth +16; **Racial Modifiers** +4 Stealth  ",
 			"**SQ** compression",
 			"",
@@ -4981,7 +4981,7 @@
 			"",
 			"**Str** 16, **Dex** 13, **Con**: 15, **Int** 10, **Wis** 11, **Cha**, 12  ",
 			"**Base Atk** +4; **CMB** +7 (+11 grapple); **CMD** 18 (can't be tripped)  ",
-			"**Feats** [Skill Focus (Bluff)](feat/skill_focus), [Toughness](feat/toughness), [Weapon Focus (tentacles)](feat/weapon_focus)  ",
+			"**Feats** [Skill Focus (Bluff)](feat/skill_focus), {feat/Toughness}, [Weapon Focus (tentacles)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +7 (-1 jump), Bluff +7, Climb +16, Escape Artist +5, Intimidate +7, Perception +11, Spellcraft +6, Stealth +9; **Racial Modifiers** +4 Perception  ",
 			"**Languages** Aklo  ",
 			"**SQ** sound mimicry (voices), tentacles",
@@ -5042,7 +5042,7 @@
 			"",
 			"**Str** 17, **Dex** 20, **Con**: 16, **Int** 11, **Wis** 10, **Cha**, 11  ",
 			"**Base Atk** +3; **CMB** +6; **CMD** 21  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Power Attack}  ",
 			"**Skills** Perception +2, Stealth +9 (+17 underwater), Swim +16; **Racial Modifiers** +8 Stealth (while underwater)  ",
 			"**Languages** Aquan",
 			"",
@@ -5102,7 +5102,7 @@
 			"",
 			"**Str** 17, **Dex** 9, **Con**: 16, **Int** 12, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +2; **CMB** +5; **CMD** 14  ",
-			"**Feats** [Great Fortitude](feat/great_fortitude)  ",
+			"**Feats** {feat/Great Fortitude}  ",
 			"**Skills** Intimidate +5, Knowledge (religion) +6, Perception +7, Stealth +4 (+8 underwater), Survival +7, Swim +16; **Racial Modifiers** +4 Stealth underwater  ",
 			"**Languages** Aklo, Common  ",
 			"**SQ** amphibious, devoted, item use",
@@ -5172,7 +5172,7 @@
 			"",
 			"**Str** 13, **Dex** 10, **Con**: 17, **Int** 10, **Wis** 16, **Cha**, 8  ",
 			"**Base Atk** +0; **CMB** +1; **CMD** 11  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative)  ",
+			"**Feats** {feat/Improved Initiative}  ",
 			"**Skills** Knowledge (religion) +4, Perception +4, Swim +9; **Racial Modifiers** +8 Swim  ",
 			"**Languages** Aklo, Common  ",
 			"**SQ** final change, sea longing, take to the water",
@@ -5213,7 +5213,7 @@
 			"**XP** 38,400  ",
 			"CE Gargantuan monstrous humanoid (aquatic, deep one)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., low-light vision; Perception +24  ",
-			"**Aura** [cloak of chaos](spell/cloak_of_chaos) (DC 22), staggering presence (180 ft., DC 21)",
+			"**Aura** {spell/cloak of chaos} (DC 22), staggering presence (180 ft., DC 21)",
 			"",
 			"#### Defense",
 			"",
@@ -5239,7 +5239,7 @@
 			"",
 			"**Str** 36, **Dex** 12, **Con**: 28, **Int** 19, **Wis** 23, **Cha**, 19  ",
 			"**Base Atk** +15; **CMB** +32 (+34 bull rush); **CMD** 47 (49 vs. bull rush)  ",
-			"**Feats** [Awesome Blow](feat/awesome_blow), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Awesome Blow}, {feat/Improved Bull Rush}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Intimidate +22, Knowledge (arcana, religion) +19, Perception +24, Sense Motive +21, Stealth +7, Swim +39, Use Magic Device +19  ",
 			"**Languages** Aklo, Common  ",
 			"**SQ** amphibious, deep dweller, deific, immortal, item use",
@@ -5305,7 +5305,7 @@
 			"",
 			"**Str** 39, **Dex** 20, **Con**: 28, **Int** 2, **Wis** 17, **Cha**, 11  ",
 			"**Base Atk** +23; **CMB** +41 (+45 grapple); **CMD** 57 (can't be tripped)  ",
-			"**Feats** [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (tail slap)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Iron Will](feat/improved_iron_will), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Critical Focus}, {feat/Dodge}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (tail slap)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), {feat/Vital Strike}  ",
 			"**Skills** Perception +23, Stealth +8, Swim +22",
 			"",
 			"#### Ecology",
@@ -5366,7 +5366,7 @@
 			"",
 			"**Str** 29, **Dex** 16, **Con**: 23, **Int** 10, **Wis** 19, **Cha**, 20  ",
 			"**Base Atk** +15; **CMB** +28 (+32 grapple); **CMD** 47  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Critical (claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Skill Focus (Stealth)](feat/skill_focus), [Vital Strike](feat/vital_strike), [Weapon Focus (claw)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, [Improved Critical (claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, [Skill Focus (Stealth)](feat/skill_focus), {feat/Vital Strike}, [Weapon Focus (claw)](feat/weapon_focus)  ",
 			"**Skills** Intimidate +29, Perception +27, Sense Motive +24, Stealth +20, Swim +17  ",
 			"**Languages** Aboleth, Aquan  ",
 			"**SQ** amphibious, crab walk",
@@ -5427,7 +5427,7 @@
 			"",
 			"**Str** 25, **Dex** 14, **Con**: -, **Int** 10, **Wis** 16, **Cha**, 17  ",
 			"**Base Atk** +5; **CMB** +12 (+14 sunder); **CMD** 24 (26 vs. sunder)  ",
-			"**Feats** [Cleave](feat/cleave), [Improved Sunder](feat/improved_sunder), [Power Attack](feat/power_attack), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** {feat/Cleave}, {feat/Improved Sunder}, {feat/Power Attack}, {feat/Throw Anything}  ",
 			"**Skills** Climb +16, Knowledge (dungeoneering) +7, Perception +13, Profession (miner) +10  ",
 			"**Languages** Dwarven, Undercommon (can't speak)",
 			"",
@@ -5487,7 +5487,7 @@
 			"",
 			"**Str** 19, **Dex** 15, **Con**: 16, **Int** 4, **Wis** 13, **Cha**, 14  ",
 			"**Base Atk** +8; **CMB** +12; **CMD** 24 (28 vs. trip)  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Multiattack](feat/multiattack), [Run](feat/run), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Multiattack}, {feat/Run}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Perception +11, Stealth +9  ",
 			"**Languages** Sylvan (can't speak)",
 			"",
@@ -5547,7 +5547,7 @@
 			"",
 			"**Str** 28, **Dex** 19, **Con**: 22, **Int** 15, **Wis** 15, **Cha**, 10  ",
 			"**Base Atk** +9; **CMB** +20; **CMD** 34 (can't be tripped)  ",
-			"**Feats** [Alertness](feat/alertness), [Blind-Fight](feat/blind-fight), [Great Fortitude](feat/great_fortitude), [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Toughness}  ",
 			"**Skills** Intimidate +10, Knowledge (dungeoneering) +17, Knowledge (local) +10, Knowledge (nature) +10, Perception +21, Sense Motive +16, Stealth -8 (+0 in rocky areas), Survival +17; **Racial Modifiers** +8 Stealth in rocky areas  ",
 			"**Languages** Aklo, Terran, Undercommon  ",
 			"**SQ** compression, sculpt stone",
@@ -5617,7 +5617,7 @@
 			"",
 			"**Str** 31, **Dex** 22, **Con**: 23, **Int** 17, **Wis** 14, **Cha**, 18  ",
 			"**Base Atk** +23; **CMB** +33; **CMD** 49  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Improved Critical (maul)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Intimidating Prowess](feat/intimidating_prowess), [Lightning Reflexes](feat/lightning_reflexes), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (excruciating deformation)](feat/quicken_spell-like_ability), [Quicken Spell-Like Ability (pain strike)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Stunning Critical](feat/stunning_critical)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Critical Focus}, [Improved Critical (maul)](feat/improved_critical), {feat/Improved Initiative}, {feat/Intimidating Prowess}, {feat/Lightning Reflexes}, {feat/Lunge}, {feat/Power Attack}, [Quicken Spell-Like Ability (excruciating deformation)](feat/quicken_spell-like_ability), [Quicken Spell-Like Ability (pain strike)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Stunning Critical}  ",
 			"**Skills** Acrobatics +21, Bluff +22, Climb +25, Fly +29, Intimidate +40, Knowledge (arcana, planes, religion) +14, Perception +25, Sense Motive +20, Spellcraft +23, Stealth +29, Survival +25  ",
 			"**Languages** Abyssal, Celestial, Common  ",
 			"**SQ** heretical soul",
@@ -5640,7 +5640,7 @@
 			"",
 			"A typical gristly demodand is 7 feet tall and weighs up to 600 pounds.",
 			"",
-			"**Family:** [Demodand](family/demodand)"
+			"**Family:** {family/Demodand}"
 		]
 	},
 	"gristly_demodand": { "copyof": "demodand_gristly_demodand" },
@@ -5681,7 +5681,7 @@
 			"",
 			"**Str** 29, **Dex** 24, **Con**: 21, **Int** 19, **Wis** 18, **Cha**, 20  ",
 			"**Base Atk** +25; **CMB** +34; **CMD** 51  ",
-			"**Feats** [Alertness](feat/alertness), [Cleave](feat/cleave), [Combat Casting](feat/combat_casting), [Combat Reflexes](feat/combat_reflexes), [Empower Spell-Like Ability (cloudkill)](feat/empower_spell-like_ability), [Flyby Attack](feat/flyby_attack), [Great Cleave](feat/great_cleave), [Improved Initiative](feat/improved_initiative), [Intimidating Prowess](feat/intimidating_prowess), [Lightning Reflexes](feat/lightning_reflexes), [Multiattack](feat/multiattack), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (ray of enfeeblement)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Alertness}, {feat/Cleave}, {feat/Combat Casting}, {feat/Combat Reflexes}, [Empower Spell-Like Ability (cloudkill)](feat/empower_spell-like_ability), {feat/Flyby Attack}, {feat/Great Cleave}, {feat/Improved Initiative}, {feat/Intimidating Prowess}, {feat/Lightning Reflexes}, {feat/Multiattack}, {feat/Power Attack}, [Quicken Spell-Like Ability (ray of enfeeblement)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Acrobatics +35 (+39 when jumping), Bluff +28, Diplomacy +28, Fly +35, Intimidate +42, Knowledge (arcana) +23, Knowledge (planes) +15, Knowledge (religion) +15, Perception +36, Sense Motive +36, Spellcraft +29, Use Magic Device +30  ",
 			"**Languages** Abyssal, Celestial, Common  ",
 			"**SQ** heretical soul",
@@ -5698,7 +5698,7 @@
 			"",
 			"Although they still answer to their titanic masters, shaggy demodands are the masters of their kind, and serve the thanatotic titans as advisors, covert agents, or battlefield generals. In the Abyss, shaggy demodands command great armies, leading them against demonic hordes as the balance of Abyssal power ebbs and flows. Often underestimated due to their shape, these demodands are both intelligent and cunning, and approach battle with an effective mixture of strategy and ruthless detachment.",
 			"",
-			"**Family:** [Demodand](family/demodand)"
+			"**Family:** {family/Demodand}"
 		]
 	},
 	"shaggy_demodand": { "copyof": "demodand_shaggy_demodand" },
@@ -5740,7 +5740,7 @@
 			"",
 			"**Str** 28, **Dex** 18, **Con**: 23, **Int** 14, **Wis** 15, **Cha**, 17  ",
 			"**Base Atk** +21; **CMB** +30 (+34 grapple); **CMD** 44  ",
-			"**Feats** [Bleeding Critical](feat/bleeding_critical), [Blind-Fight](feat/blind-fight), [Critical Focus](feat/critical_focus), [Flyby Attack](feat/flyby_attack), [Greater Vital Strike](feat/greater_vital_strike), [Improved Critical (claw)](feat/improved_critical), [Improved Vital Strike](feat/improved_vital_strike), [Intimidating Prowess](feat/intimidating_prowess), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Blind-Fight}, {feat/Critical Focus}, {feat/Flyby Attack}, {feat/Greater Vital Strike}, [Improved Critical (claw)](feat/improved_critical), {feat/Improved Vital Strike}, {feat/Intimidating Prowess}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +8, Bluff +27, Climb +16, Fly +25, Intimidate +36, Knowledge (arcana) +13, Knowledge (planes) +13, Sense Motive +26, Spellcraft +20, Stealth +25, Survival +20  ",
 			"**Languages** Abyssal, Celestial, Common  ",
 			"**SQ** heretical soul",
@@ -5763,7 +5763,7 @@
 			"",
 			"Slimy demodands often serve as shock troops in demodand armies, but they are also frequently put in charge of gathering and keeping slaves. Slimy demodands have no magical mind control powers, but prefer to rely upon intimidation and physical threats anyway to manage their slaves and keep them in line.",
 			"",
-			"**Family:** [Demodand](family/demodand)"
+			"**Family:** {family/Demodand}"
 		]
 	},
 	"slimy_demodand": { "copyof": "demodand_slimy_demodand" },
@@ -5806,7 +5806,7 @@
 			"",
 			"**Str** 32, **Dex** 25, **Con**: 25, **Int** 6, **Wis** 24, **Cha**, 17  ",
 			"**Base Atk** +29; **CMB** +44 (+48 bull rush, overrun); **CMD** 61 (63 vs bull rush, overrun)  ",
-			"**Feats** [Alertness](feat/alertness), [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Flyby Attack](feat/flyby_attack), [Greater Bull Rush](feat/greater_bull_rush), [Greater Overrun](feat/greater_overrun), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite, claw)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Overrun](feat/improved_overrun), [Intimidating Prowess](feat/intimidating_prowess), [Power Attack](feat/power_attack), [Stunning Critical](feat/stunning_critical)  ",
+			"**Feats** {feat/Alertness}, {feat/Awesome Blow}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Flyby Attack}, {feat/Greater Bull Rush}, {feat/Greater Overrun}, {feat/Improved Bull Rush}, [Improved Critical (bite, claw)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Overrun}, {feat/Intimidating Prowess}, {feat/Power Attack}, {feat/Stunning Critical}  ",
 			"**Skills** Fly +33, Intimidate +46, Perception +43, Sense Motive +43  ",
 			"**Languages** Abyssal, Celestial, Common  ",
 			"**SQ** heretical soul",
@@ -5835,7 +5835,7 @@
 			"",
 			"Due to their low intelligence and their animalistic focus on feeding and destruction, squamous demodands have very little society to speak of, even by Abyssal creatures' standards. They are content following the orders of shaggy demodands, as long as they are provided with sufficient food and opportunities for obliteration. Occasionally, however, shaggy demodands get caught up in internal feuds or turn on each other. In these cases, squamous demodands typically follow the lead of the general that proves itself the strongest, although a squamous demodand that has followed the orders of a single commander for long spans of time may view its superior protectively, almost as an adult child would an aging parent. These are the situations that often turn most destructive for demodands, as the squamous demodand either defends its general or exacts vengeance on its behalf, causing a massive intrademodand war either way. When this happens, only the thanatotic titans can rein in their monstrous creations, and sometimes even they have trouble doing so if multiple squamous demodands are involved.",
 			"",
-			"**Family:** [Demodand](family/demodand)"
+			"**Family:** {family/Demodand}"
 		]
 	},
 	"squamous_demodand": { "copyof": "demodand_squamous_demodand" },
@@ -5880,7 +5880,7 @@
 			"",
 			"**Str** 28, **Dex** 27, **Con**: 23, **Int** 12, **Wis** 13, **Cha**, 18  ",
 			"**Base Atk** +20; **CMB** +29; **CMD** 47  ",
-			"**Feats** [Blind-Fight](feat/blind-fight), [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Flyby Attack](feat/flyby_attack), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Vital Strike](feat/improved_vital_strike), [Intimidating Prowess](feat/intimidating_prowess), [Power Attack](feat/power_attack), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Blind-Fight}, {feat/Cleave}, {feat/Combat Reflexes}, {feat/Flyby Attack}, [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), {feat/Improved Vital Strike}, {feat/Intimidating Prowess}, {feat/Power Attack}, {feat/Vital Strike}  ",
 			"**Skills** Acrobatics +26, Bluff +27, Climb +22, Fly +21, Intimidate +36, Knowledge (planes) +14, Perception +24, Sense Motive +14, Stealth +26, Survival +14  ",
 			"**Languages** Abyssal, Celestial, Common  ",
 			"**SQ** heretical soul",
@@ -5903,7 +5903,7 @@
 			"",
 			"Because these rubbery strands cover most of the creatures' bodies, they provide a measure of natural protection that allows stringy demodands to eschew armor. Stringy demodands are typically 6 feet tall and weigh 300 pounds.",
 			"",
-			"**Family:** [Demodand](family/demodand)"
+			"**Family:** {family/Demodand}"
 		]
 	},
 	"stringy_demodand": { "copyof": "demodand_stringy_demodand" },
@@ -5943,7 +5943,7 @@
 			"",
 			"**Str** 28, **Dex** 21, **Con**: 18, **Int** 12, **Wis** 13, **Cha**, 17  ",
 			"**Base Atk** +18; **CMB** +27; **CMD** 42 (46 vs. disarm)  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Greater Two-Weapon Fighting](feat/greater_two-weapon_fighting), [Improved Bull Rush](feat/improved_bull_rush), [Improved Initiative](feat/improved_initiative), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Lunge](feat/lunge), [Power Attack](feat/power_attack), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (short sword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Greater Two-Weapon Fighting}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Improved Two-Weapon Fighting}, {feat/Lunge}, {feat/Power Attack}, {feat/Two-Weapon Fighting}, [Weapon Focus (short sword)](feat/weapon_focus)  ",
 			"**Skills** Bluff +16, Climb +19, Fly +23, Intimidate +24, Knowledge (arcana) +14, Knowledge (planes) +14, Perception +22, Sense Motive +14, Stealth +17, Survival +14  ",
 			"**Languages** Abyssal, Celestial, Common  ",
 			"**SQ** heretical soul",
@@ -5964,7 +5964,7 @@
 			"",
 			"The tarry demodand is the grunt of the demodand army-bred for battle, these swift and deadly demodands make up the bulk of any demodand legion. That they themselves are more powerful than most outsiders is as much a testament to their race as anything else-a single tarry demodand is a formidable opponent, to say nothing of a group of the creatures. Although tarry demodands are quite strong, they prefer using light weapons-one in each hand. Tarry demodands only rarely use larger weaponry, and then only when directly ordered by a superior. They lack the terrific claws of the greater demodands, and a tarry demodand with no weapons tends to flee combat as soon as possible, only to return when it is properly armed.",
 			"",
-			"**Family:** [Demodand](family/demodand)"
+			"**Family:** {family/Demodand}"
 		]
 	},
 	"tarry_demodand": { "copyof": "demodand_tarry_demodand" },
@@ -6009,7 +6009,7 @@
 			"",
 			"**Str** 15, **Dex** 11, **Con**: 12, **Int** 6, **Wis** 10, **Cha**, 13  ",
 			"**Base Atk** +5; **CMB** +7 (+9 sunder); **CMD** 17 (19 vs. sunder)  ",
-			"**Feats** [Improved Sunder](feat/improved_sunder), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Throw Anything](feat/throw_anything)  ",
+			"**Feats** {feat/Improved Sunder}, {feat/Iron Will}, {feat/Power Attack}, {feat/Throw Anything}  ",
 			"**Skills** Appraise +6, Climb +10, Disable Device +8, Perception +12; **Racial Modifiers** +4 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -6035,7 +6035,7 @@
 			"",
 			"An abrikandilu stands 4 feet tall and weighs 200 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"abrikandilu": { "copyof": "demon_abrikandilu" },
@@ -6078,7 +6078,7 @@
 			"",
 			"**Str** 21, **Dex** 13, **Con**: 18, **Int** 10, **Wis** 11, **Cha**, 14  ",
 			"**Base Atk** +6; **CMB** +11; **CMD** 22  ",
-			"**Feats** [Improved Initiative](feat/improved_initiative), [Power Attack](feat/power_attack), [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus)  ",
 			"**Skills** Bluff +11, Climb +12, Intimidate +8, Perception +20, Sense Motive +9, Survival +6, Swim +10; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Giant; telepathy 100 ft.  ",
 			"**SQ** icewalking",
@@ -6113,7 +6113,7 @@
 			"",
 			"Andrazkus prefer to lair in ice caves or tunnels dug out of hard-packed snow. Some take advantage of their cold immunity and strong swimming ability to live in simple shelters on ice floes. An andrazku's hooves and huge hands allow it to cling to ice as though it were rough stone, preventing it from slipping and allowing it to use much of the vertical space in its lair to store treasure and observe intruders.",
 			"",
-			"**Family:** [Demon](family/demon)",
+			"**Family:** {family/Demon}",
 			"",
 			"### Habitat",
 			"",
@@ -6166,7 +6166,7 @@
 			"",
 			"**Str** 21, **Dex** 13, **Con**: 20, **Int** 14, **Wis** 13, **Cha**, 16  ",
 			"**Base Atk** +7; **CMB** +12; **CMD** 23  ",
-			"**Feats** [Combat Reflexes](feat/combat_reflexes), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Iron Will}, [Skill Focus (Stealth)](feat/skill_focus)  ",
 			"**Skills** Acrobatics +11, Climb +12, Disable Device +11, Escape Artist +11, Perception +19, Sense Motive +11, Sleight of Hand +11, Stealth +22; **Racial Modifiers** +8 Perception, +8 Stealth  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -6188,7 +6188,7 @@
 			"",
 			"A babau is 6 feet tall but weighs only 140 pounds. They form from mortal souls of lone killers-those who, in life, took pleasure in more personal and intimate murders. Loosed upon the Material Plane, a babau often finds itself in the same role, haunting the shadowy corners of the world as remorseless assassins.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"babau": { "copyof": "demon_babau" },
@@ -6230,7 +6230,7 @@
 			"",
 			"**Str** 35, **Dex** 25, **Con**: 36, **Int** 24, **Wis** 24, **Cha**, 27  ",
 			"**Base Atk** +20; **CMB** +33; **CMD** 54  ",
-			"**Feats** [Cleave](feat/cleave), [Combat Reflexes](feat/combat_reflexes), [Greater Two-Weapon Fighting](feat/greater_two-weapon_fighting), [Improved Initiative](feat/improved_initiative), [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (telekinesis)](feat/quicken_spell-like_ability), [Two-Weapon Fighting](feat/two-weapon_fighting), [Weapon Focus (longsword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Combat Reflexes}, {feat/Greater Two-Weapon Fighting}, {feat/Improved Initiative}, {feat/Improved Two-Weapon Fighting}, {feat/Iron Will}, {feat/Power Attack}, [Quicken Spell-Like Ability (telekinesis)](feat/quicken_spell-like_ability), {feat/Two-Weapon Fighting}, [Weapon Focus (longsword)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +27, Bluff +31, Diplomacy +31, Fly +32, Intimidate +31, Knowledge (history) +27, Knowledge (nobility) +27, Knowledge (planes) +30, Knowledge (religion) +27, Perception +38, Sense Motive +30, Stealth +26, Use Magic Device +31; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** death throes, vorpal strike, whip mastery",
@@ -6277,7 +6277,7 @@
 			"",
 			"Soul Swallow (Su) As a standard action, the balor lord can inhale the soul of a living creature within 30 feet. The target must make a Fortitude save (DC 10 + 1/2 balor lord's racial HD + the balor lord's Charisma modifier) or die. The body of a humanoid creature killed in this manner immediately transforms into a demon under the balor lord's command (a babau, succubus, or shadow demon, according to the balor lord's whim).",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"balor": { "copyof": "demon_balor" },
@@ -6322,7 +6322,7 @@
 			"",
 			"**Str** 17, **Dex** 16, **Con**: 19, **Int** 12, **Wis** 12, **Cha**, 15  ",
 			"**Base Atk** +6; **CMB** +8; **CMD** 21  ",
-			"**Feats** [Combat Casting](feat/combat_casting), [Improved Initiative](feat/improved_initiative), [Weapon Focus (longsword)](feat/weapon_focus)  ",
+			"**Feats** {feat/Combat Casting}, {feat/Improved Initiative}, [Weapon Focus (longsword)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +12, Bluff +11, Knowledge (engineering, planes) +10, Perception +18, Sense Motive +10, Stealth +16; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic, Ignan; telepathy 100 ft.  ",
 			"**SQ** flaming weapon",
@@ -6347,7 +6347,7 @@
 			"",
 			"Brimoraks are demons born from the souls of arsonists, and in their fiendish lives, they love nothing more than setting fires. A brimorak stands 3 feet tall and weighs 80 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"brimorak": { "copyof": "demon_brimorak" },
@@ -6391,7 +6391,7 @@
 			"",
 			"**Str** 15, **Dex** 13, **Con**: 14, **Int** 13, **Wis** 12, **Cha**, 14  ",
 			"**Base Atk** +3; **CMB** +5; **CMD** 16  ",
-			"**Feats** [Deceitful](feat/deceitful), [Power Attack](feat/power_attack)  ",
+			"**Feats** {feat/Deceitful}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +7, Bluff +10, Disguise +10, Intimidate +8, Perception +7, Sense Motive +7, Stealth +7  ",
 			"**Languages** Abyssal, Common; telepathy 30 ft.",
 			"",
@@ -6403,7 +6403,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Sadistic Strike (Su)** Cambions excel at causing pain and anguish. Cambions always treat any weapons with which they attack (including natural weapons and spells with attack rolls) as if they had the [Improved Critical](feat/improved_critical) feat for the weapons.",
+			"**Sadistic Strike (Su)** Cambions excel at causing pain and anguish. Cambions always treat any weapons with which they attack (including natural weapons and spells with attack rolls) as if they had the {feat/Improved Critical} feat for the weapons.",
 			"",
 			"**Sinfrenzy (Su)** Every cambion carries an excessive capacity for one of the seven classical sins, determined at the moment of the cambion's birth and depending on the nature of his humanoid parent's greatest sin. Once per day for a number of rounds equal to his Hit Dice, a cambion can embrace his sin and enter a frenzied state as a free action. While a cambion is in this frenzy, his land speed increases by 10 feet and he gains a +1 bonus on Reflex saves and attack rolls. These bonuses do not stack with those granted by haste or similar effects, but if the cambion has at least 1 level in the class listed for his specific sin, the sinfrenzy grants an additional effect.",
 			"",
@@ -6421,7 +6421,7 @@
 			"",
 			"Cambions are true outsiders. The majority of cambions have red skin, horns on their heads, and cloven hooves for feet-the fiendish aspects of cambions' appearance don't range as widely as those of tieflings. A typical cambion stands 6 feet tall and weighs 190 pounds.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"cambion": { "copyof": "demon_cambion" },
@@ -6465,7 +6465,7 @@
 			"",
 			"**Str** 19, **Dex** 28, **Con**: 20, **Int** 17, **Wis** 18, **Cha**, 23  ",
 			"**Base Atk** +16; **CMB** +25; **CMD** 39  ",
-			"**Feats** [Agile Maneuvers](feat/agile_maneuvers), [Combat Reflexes](feat/combat_reflexes), [Deceitful](feat/deceitful), [Flyby Attack](feat/flyby_attack), [Hover](feat/hover), [Improved Initiative](feat/improved_initiative), [Quicken Spell-Like Ability (invisibility)](feat/quicken_spell-like_ability), [Weapon Finesse](feat/weapon_finesse)  ",
+			"**Feats** {feat/Agile Maneuvers}, {feat/Combat Reflexes}, {feat/Deceitful}, {feat/Flyby Attack}, {feat/Hover}, {feat/Improved Initiative}, [Quicken Spell-Like Ability (invisibility)](feat/quicken_spell-like_ability), {feat/Weapon Finesse}  ",
 			"**Skills** Acrobatics +28, Appraise +14, Bluff +29, Diplomacy +14, Disguise +19, Fly +26, Knowledge (arcana, history, planes, and religion) +14, Perception +31, Sleight of Hand +17, Stealth +28; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Common, Infernal; telepathy 100 ft., tongues",
 			"",
@@ -6491,7 +6491,7 @@
 			"",
 			"Evil mortal spellcasters are fond of conjuring coloxus demons for similar roles, but the monsters also work well as assassins. Even in this role, a coloxus is dignified and polite. Only when presented with a reflection of itself does the normally civilized coloxus show its true demonic colors-any creature foolish enough to trick a coloxus into looking at a mirror finds herself the eternal foe of an insulted and scandalized demon.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"coloxus": { "copyof": "demon_coloxus" },
@@ -6535,7 +6535,7 @@
 			"",
 			"**Str** 26, **Dex** 23, **Con**: 22, **Int** 9, **Wis** 17, **Cha**, 16  ",
 			"**Base Atk** +11; **CMB** +20; **CMD** 36 (44 vs. trip)  ",
-			"**Feats** [Flyby Attack](feat/flyby_attack), [Improved Critical (sting)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (summon swarm)](feat/quicken_spell-like_ability)  ",
+			"**Feats** {feat/Flyby Attack}, [Improved Critical (sting)](feat/improved_critical), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, [Quicken Spell-Like Ability (summon swarm)](feat/quicken_spell-like_ability)  ",
 			"**Skills** Acrobatics +20, Fly +22, Perception +25, Stealth +16, Survival +17; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.",
 			"",
@@ -6559,7 +6559,7 @@
 			"",
 			"A derakni is 14 feet long and weighs 1,200 pounds. These wretched demons arise from the souls of those who, in life, purposefully engineered disasters or aided in their development-particularly souls whose disasters resulted in mass famines or droughts.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"derakni": { "copyof": "demon_derakni" },
@@ -6596,7 +6596,7 @@
 			"",
 			"**Str** 12, **Dex** 10, **Con**: 14, **Int** 5, **Wis** 11, **Cha**, 11  ",
 			"**Base Atk** +2; **CMB** +2; **CMD** 12  ",
-			"**Feats** [Toughness](feat/toughness)  ",
+			"**Feats** {feat/Toughness}  ",
 			"**Skills** Escape Artist +5, Perception +5, Stealth +9  ",
 			"**Languages** Abyssal (cannot speak); telepathy 100 ft. (limited to Abyssal-speaking targets)",
 			"",
@@ -6616,7 +6616,7 @@
 			"",
 			"A dretch stands 4 feet tall and weighs 180 pounds. Dretches typically form from the souls of slothful, evil mortals-yet it only takes a small fragment of a soul to trigger such a hideous birth. A single soul can often trigger the manifestation of a small army of dretches, and the sight of a horde of fresh-birthed dretches pulling free from the heaving protomatter of the Abyss is a nauseating and terrifying one indeed.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"dretch": { "copyof": "demon_dretch" },
@@ -6661,7 +6661,7 @@
 			"",
 			"**Str** 33, **Dex** 18, **Con**: 34, **Int** 18, **Wis** 23, **Cha**, 25  ",
 			"**Base Atk** +19; **CMB** +30 (+32 bull rush); **CMD** 48 (50 vs. bull rush)  ",
-			"**Feats** [Critical Focus](feat/critical_focus), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (falchion)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Improved Vital Strike](feat/improved_vital_strike), [Lightning Reflexes](feat/lightning_reflexes), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (hold monster)](feat/quicken_spell-like_ability), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Feats** {feat/Critical Focus}, {feat/Improved Bull Rush}, [Improved Critical (falchion)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Quicken Spell-Like Ability (hold monster)](feat/quicken_spell-like_ability), {feat/Staggering Critical}, {feat/Vital Strike}  ",
 			"**Skills** Bluff +29, Disguise +29, Fly +30, Intimidate +37, Knowledge (engineering) +26, Knowledge (history) +26, Knowledge (planes) +26, Perception +36, Ride +26, Sense Motive +28; **Racial Modifiers** +8 Intimidate, +8 Perception  ",
 			"**Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.  ",
 			"**SQ** change shape (alter self, Small or Medium humanoid)",
@@ -6692,7 +6692,7 @@
 			"",
 			"In the Worldwound, gallus serve an additional role as commanders in the numerous demonic armies. Many control multiple divisions, each led by a marilith general, and report in turn to one of the Worldwound's leaders, like Khorramzadeh, Areelu, or Aponavicius. But not all of the Worldwound's gallus command armies. Those who serve Baphomet primarily utilize their deceptive natures to infiltrate various Mendevian mercenary orders, Mammoth Lord barbarian tribes, settlements on the fringes of more civilized lands, and other factions arrayed against the Worldwound. From within those groups, they serve as advisors, urging those they've infiltrated into launching ill-timed or poorly planned attacks on their demonic foes. These gallus occasionally feed their humanoid \"allies\" legitimate intelligence about demonic fortifications or troop movements, knowing that a little truth can go a long way in encouraging mortals to act upon their more violent urges.",
 			"",
-			"**Family:** [Demon](family/demon)"
+			"**Family:** {family/Demon}"
 		]
 	},
 	"gallu": { "copyof": "demon_gallu" },

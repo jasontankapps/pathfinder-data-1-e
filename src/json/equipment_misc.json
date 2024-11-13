@@ -52,7 +52,7 @@
 			"**Price** 100 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This jar contains 6 ounces of alchemically preserved [aboleth](monster/aboleth) mucus. When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a full-round action), the target loses its ability to breathe air but gains the ability to breathe water for 1 hour. An unwilling target can attempt a DC 14 Fortitude save to negate the effect. If additional doses are applied to the same creature, the duration of the effect extends by 1 hour for each ounce used, to a maximum of 3 hours."
+			"This jar contains 6 ounces of alchemically preserved {monster/aboleth} mucus. When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a full-round action), the target loses its ability to breathe air but gains the ability to breathe water for 1 hour. An unwilling target can attempt a DC 14 Fortitude save to negate the effect. If additional doses are applied to the same creature, the duration of the effect extends by 1 hour for each ounce used, to a maximum of 3 hours."
 		]
 	},
 	"absinthe_bottle": {
@@ -1713,7 +1713,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Animal Gear",
 			"",
-			"This thin, specially treated wire can be used to attach barding to creatures whose body types cannot normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and thoroughly sewing the equipment directly to the creature's flesh. Equipping a creature with barding using barding stitches takes 10 times as long as the figures given in [Getting Into and Out of Armor](rule/getting_into_and_out_of_armor), and a successful DC 25 Heal check is required to attach or remove the stitches. The creature must be helpless or willing to be equipped with barding stitches, and must have at least a +1 natural armor bonus to AC. An armored creature with barding stitches takes a -2 penalty on Strength- and Dexterity-based skill checks (in addition to any penalties from the barding itself), Fortitude and Reflex saves, and saves against effects with the pain descriptor (these penalties stack). These penalties persist for as long as the creature is equipped with barding stitches."
+			"This thin, specially treated wire can be used to attach barding to creatures whose body types cannot normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and thoroughly sewing the equipment directly to the creature's flesh. Equipping a creature with barding using barding stitches takes 10 times as long as the figures given in {rule/Getting Into and Out of Armor}, and a successful DC 25 Heal check is required to attach or remove the stitches. The creature must be helpless or willing to be equipped with barding stitches, and must have at least a +1 natural armor bonus to AC. An armored creature with barding stitches takes a -2 penalty on Strength- and Dexterity-based skill checks (in addition to any penalties from the barding itself), Fortitude and Reflex saves, and saves against effects with the pain descriptor (these penalties stack). These penalties persist for as long as the creature is equipped with barding stitches."
 		]
 	},
 	"barrel": {
@@ -1873,7 +1873,7 @@
 			"**Price** 30 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This light brown oil works similar to [Kaava musk](equipment-misc/kaava_musk) but attracts one specific kind of creature (dogs, giant bees, and so on).",
+			"This light brown oil works similar to {equipment-misc/Kaava musk} but attracts one specific kind of creature (dogs, giant bees, and so on).",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -2394,7 +2394,7 @@
 			"**Price** 5,000 gp; **Weight** 45 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with groundup blightburn. Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with [blightburn sickness](disease/blightburn_sickness). Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with groundup blightburn. Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with {disease/blightburn sickness}. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"### Blightburn",
 			"",
@@ -3699,7 +3699,7 @@
 			"**Price** 1,000 gp; **Price of Passage** (per mile) -  ",
 			"**Category** Transport, Land",
 			"",
-			"The caravan master's wagon is similar in most respects to a high-quality heavy [smuggler's wagon](equipment-misc/smugglers_wagon), but it additionally allows for a hidden portable hole (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread. Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows what to look for, a successful DC 30 Perception check is necessary to discover the hidden second layer."
+			"The caravan master's wagon is similar in most respects to a high-quality heavy {equipment-misc/smuggler's wagon}, but it additionally allows for a hidden portable hole (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread. Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows what to look for, a successful DC 30 Perception check is necessary to discover the hidden second layer."
 		]
 	},
 	"cardice_oil": {
@@ -4639,7 +4639,7 @@
 			"",
 			"This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the fatigued condition from -2 to -1 for 1 hour.",
 			"",
-			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a [coffee pot](equipment-misc/coffee_pot)."
+			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a {equipment-misc/coffee pot}."
 		]
 	},
 	"coffee_pot": {
@@ -4767,7 +4767,7 @@
 			"**Price** 1 gp; **Weight** 1 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This scabbard is an improvised weapon designed to allow you to remove it from your belt as a swift action when drawing the weapon it contains. Taking the [Equipment Trick](feat/equipment_trick) feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter weapon groups, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon."
+			"This scabbard is an improvised weapon designed to allow you to remove it from your belt as a swift action when drawing the weapon it contains. Taking the {feat/Equipment Trick} feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter weapon groups, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon."
 		]
 	},
 	"commissioned_broadsheet_setup_and_proof_print": {
@@ -5365,7 +5365,7 @@
 			"**Price** 250 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect. For 1 hour after applying the ointment to your skin, you can attempt a Stealth check to hide from any creature attempting to perceive you using [lifesense](umr/lifesense) or spiritsense (see the [psychopomp](subtype/psychopomp) subtype), even if you are clearly in that creature's perceptual field. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
+			"This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect. For 1 hour after applying the ointment to your skin, you can attempt a Stealth check to hide from any creature attempting to perceive you using {umr/lifesense} or spiritsense (see the {subtype/psychopomp} subtype), even if you are clearly in that creature's perceptual field. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -5392,7 +5392,7 @@
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for silver balladeer bards. Silver dancer's garb can be made of [sunsilver](equipment-material/sunsilver); sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
+			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for silver balladeer bards. Silver dancer's garb can be made of {equipment-material/sunsilver}; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
 		]
 	},
 	"silver_dancers_garb": {
@@ -5621,7 +5621,7 @@
 			"**Price** 30 gp; **Weight** 20 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a 10-foot-by-10-foot piece of canvas, 3 doses of [blain bane](equipment-misc/blain_bane), a hot weather outfit, a signal whistle, a scarf, and four waterskins."
+			"This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a 10-foot-by-10-foot piece of canvas, 3 doses of {equipment-misc/blain bane}, a hot weather outfit, a signal whistle, a scarf, and four waterskins."
 		]
 	},
 	"desnas_star": {
@@ -5883,7 +5883,7 @@
 			"**Price** 40 gp; **Weight** 16 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the [Grisly Ornament](feat/grisly_ornament) feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a full-round action, while hanging an ornament from one is a move action."
+			"This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the {feat/Grisly Ornament} feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a full-round action, while hanging an ornament from one is a move action."
 		]
 	},
 	"dissipating_fan": {
@@ -5946,7 +5946,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in Heal, the [Skill Focus](feat/skill_focus) (Heal) feat, and ranks in other valuable skills such as Knowledge (nature) and Knowledge (religion). An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in Heal, the {feat/Skill Focus} (Heal) feat, and ranks in other valuable skills such as Knowledge (nature) and Knowledge (religion). An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"doctors_mask": {
@@ -6194,7 +6194,7 @@
 			"**Price** 20 gp; **Weight** 2 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of [elemental proofing](equipment-misc/elemental_proofing) to prevent it from being destroyed by the dragon's breath weapon. The muzzle has hardness 10, 40 hp, and a break DC of 30. A dragon muzzle can be fitted on a dragon using the rules to tie up a pinned creature. A standard dragon muzzle can be resized to fit dragons from size Tiny to Large. For larger versions, the weight increases by a factor of 4 and the price doubles for each size increase."
+			"This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of {equipment-misc/elemental proofing} to prevent it from being destroyed by the dragon's breath weapon. The muzzle has hardness 10, 40 hp, and a break DC of 30. A dragon muzzle can be fitted on a dragon using the rules to tie up a pinned creature. A standard dragon muzzle can be resized to fit dragons from size Tiny to Large. For larger versions, the weight increases by a factor of 4 and the price doubles for each size increase."
 		]
 	},
 	"dragons_blend": {
@@ -6705,7 +6705,7 @@
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the [Endurance](feat/endurance) feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the {feat/Endurance} feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"embalming_fluid": {
