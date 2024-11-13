@@ -2995,13 +2995,6 @@
 		"searchgroup": "trait",
 		"description": [
 			[
-				"Many adventurers come to rely on certain gear to the extent that the equipment and the adventurer each become something more when the other is present. The symbiosis between adventurers and their gear is varied and complex.",
-				"",
-				"Equipment Traits are keyed to specific types of equipment. They represent an unusual knack for a particular kind of equipment (such as splash weapons) or for a specific item (such as a family heirloom sword).",
-				"",
-				"The following Equipment Traits are available to any character who has an available trait, as per the normal trait rules."
-			],
-			[
 				"## {trait/Augmented Disguise}",
 				"",
 				"**Type:** Equipment",
@@ -3230,9 +3223,6 @@
 		"searchgroup": "trait",
 		"description": [
 			[
-				"This new trait type allows you to inject a mechanical edge into the dynamics of your family. Unlike other trait types, **you are not limited to a single family trait per character.** Many of these traits work only on a member of your family, or require another character with the same trait to be nearby for the benefits to apply. For a character to count as having the same trait, they must be your family member. At the GM's discretion, the \"family\" for some of these traits could in fact be another group with strong interpersonal ties and common interests, such as a martial arts school, army unit, mutual protection society, or criminal gang. In this case, however, they become Social traits, which limits the character to one trait."
-			],
-			[
 				"## {trait/Betrayal of Trust}",
 				"",
 				"**Type:** Family",
@@ -3294,9 +3284,6 @@
 		],
 		"searchgroup": "trait",
 		"description": [
-			[
-				"Each of the following entries details a specific breed of riding animal, indicates where to find statistics for its kind, and provides a trait that grants an additional boon to the mount or its rider. The trait granted to a mount counts against a character's total maximum number of traits. If a character replaces his mount, he effectively loses the old trait and gains the new mount's trait"
-			],
 			[
 				"## {trait/Black as Night}",
 				"",
@@ -3409,9 +3396,6 @@
 		"sources": [ "Occult Mysteries" ],
 		"searchgroup": "trait",
 		"description": [
-			[
-				"In Avistan and Garund, the Cosmic Caravan is the astrological tool of choice for most diviners. Though some cultures grant the Caravan religious connotations, it is an inherently secular system, available for use by characters of all cultures, alignments, and faiths. A list of the Caravan's signs appears on page 37, along with matching traits for characters born under that sign. Players who know their characters' birth dates could incorporate the appropriate traits. Each sign also features a percentage range, which allows a player who doesn't know his character's birth date to determine it with a d% roll."
-			],
 			[
 				"## {trait/The Thrush}",
 				"",

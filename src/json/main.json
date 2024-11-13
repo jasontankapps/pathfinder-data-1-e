@@ -1833,7 +1833,6 @@
 			"## main/traits_race View Race Traits // (420 traits)",
 			"## main/traits_regional View Regional Traits // (448 traits)",
 			"## main/traits_religion View Religion Traits // (216 traits)",
-			"## main/traits_faction View Faction Traits // (35 traits)",
 			"## main/traits_equipment View Equipment Traits // (14 traits)",
 			"## main/traits_mount View Mount Traits // (13 traits)",
 			"## main/traits_cosmic View Cosmic Traits // (13 traits)",
@@ -1848,11 +1847,6 @@
 		"tags": "Artist of Battle in All Forms Charming Smile Cunning Soul Curator of Mystic Secrets Faith Unshakable and Unassailable Traveler of a Hundred Lands",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"# Exemplar Traits",
-			[
-				"**Source** {source/Chronicle of Legends}  ",
-				"This section introduces a new variety of traits known as exemplar traits. A character can have only one exemplar trait, and selecting an exemplar trait takes the place of two regular traits. Each exemplar trait is tied to a trait category, such as combat traits or regional traits; a character with an exemplar trait is no longer restricted to a single trait of that category and can select any number of such traits when gaining further traits. In addition, a character with an exemplar trait can select the {feat/Additional Traits} feat any number of times and use the feat to gain an exemplar trait of a valid trait category for which she qualifies."
-			],
 			[
 				"## Artist of Battle in All Forms",
 				"",

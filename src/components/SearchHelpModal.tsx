@@ -70,11 +70,11 @@ const PageFooter: React.FC<PageProps> = ({open, setOpen}) => {
 								<td>Anything that does not start with "nope"</td>
 							</tr>
 							<tr>
-								<td>.end</td>
+								<td>end$</td>
 								<td>Anything ending with "end"</td>
 							</tr>
 							<tr>
-								<td>!.error</td>
+								<td>!error$</td>
 								<td>Anything that does not end with "error"</td>
 							</tr>
 						</tbody>

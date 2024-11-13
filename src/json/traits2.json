@@ -715,19 +715,6 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"force_for_good": {
-		"name": "Force for Good",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Force for Good",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Silver Crusade",
-			"",
-			"Your good-aligned spells are especially powerful, and they function at +1 caster level. This trait makes your aura more powerful (one step higher), as outlined in the {spell/detect evil} spell."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"foreign_opportunist": {
 		"name": "Foreign Opportunist",
 		"sources": [
@@ -1066,19 +1053,6 @@
 			"Your parents allowed escaping slaves to hide in your home, and the stories you've heard from them instilled into you a deep loathing of slavery. You gain a +1 trait bonus on any skill check or attack roll made during the process of escaping capture or in helping a slave escape bondage, and Escape Artist is always a class skill for you."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
-	},
-	"freedom_fighter_pfs": {
-		"name": "Freedom Fighter (PFS)",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Freedom Fighter (PFS)",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Liberty's Edge",
-			"",
-			"Your family has long waged war against tyranny, and you learned a great deal about guerilla warfare in your youth. You gain a +1 trait bonus on Stealth checks and a +1 trait bonus on attack rolls made during the surprise round."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"freedom_fighter_shokuro": {
 		"name": "Freedom Fighter (Shokuro)",
@@ -1843,19 +1817,6 @@
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
-	"gold_finger": {
-		"name": "Gold Finger",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Gold Finger",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** The Exchange",
-			"",
-			"Your family comes from a long, proud tradition of housebreaking and thievery. You are a strong part of that tradition. You gain a +1 trait bonus on Disable Device and Sleight of Hand checks, and one of these skills (your choice) becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"gold_goblin_regular": {
 		"name": "Gold Goblin Regular",
 		"sources": [ "Pirates of the Inner Sea" ],
@@ -1999,19 +1960,6 @@
 			"Having grown up navigating rockslides and picking your way through partially collapsed tunnels, you are able to determine the most stable path across difficult terrain caused by rubble or other debris. You can move normally through such obstructed spaces, and can run or charge though them with a successful Acrobatics check."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"greasy_palm": {
-		"name": "Greasy Palm",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Greasy Palm",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** The Exchange",
-			"",
-			"You know how to get people to do what you want with little effort. When bribing an NPC, you pay 10% less than a character without this trait would, garnering the same results."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"greater_adept_of_the_society": {
 		"name": "Greater Adept of the Society",
@@ -3307,19 +3255,6 @@
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
-	"impressive_presence": {
-		"name": "Impressive Presence",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Impressive Presence",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Sovereign Court",
-			"",
-			"Your grandiose posturing often makes it difficult for anyone to concentrate around you. Once per day as a full-round action, you may attempt to distract adjacent foes with a lengthy display of your martial prowess. All adjacent foes must succeed at a Will save (DC 10 + 1/2 your level + your Charisma modifier) or gain the shaken condition. This condition persists for 1 round."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"improvisational_equipment": {
 		"name": "Improvisational Equipment",
 		"sources": [ "Adventurer's Armory" ],
@@ -3407,19 +3342,6 @@
 			"As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war. Choose either Craft (armor) or Craft (weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"indomitable": {
-		"name": "Indomitable",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Indomitable",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Liberty's Edge",
-			"",
-			"Your strong, self-reliant swagger has made you more resistant to domination and control. You gain a +1 trait bonus on saving throws versus enchantment spells and effects."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"indomitable_faith": {
 		"name": "Indomitable Faith",
@@ -3525,19 +3447,6 @@
 			"Your position in society grants you special insight into others, and special consideration or outright awe from others. Choose one of the following skills: Diplomacy, Intimidate, or Sense Motive. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
-	},
-	"influential": {
-		"name": "Influential",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Influential",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Sovereign Court",
-			"",
-			"When you make a suggestion, strangers often assume that it was their idea to begin with. You gain a +3 bonus on Diplomacy checks to make requests of a creature. Once per day, you may select one single spell you are casting with the language dependent descriptor; you increase the saving throw DC of that spell by 1."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"information_overload": {
 		"name": "Information Overload",
@@ -3676,19 +3585,6 @@
 			"You have become so accustomed to binging on the finer things in life that you find going without such excess particularly strenuous. Goods and services cost you 10% more (and can't be paid for by allies), and you need twice as much food and liquid as normal for the purposes of preventing starvation and thirst."
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
-	},
-	"insider_knowledge": {
-		"name": "Insider Knowledge",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Insider Knowledge",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Grand Lodge",
-			"",
-			"Venture-Captain Valsin likes to keep abreast of situations within the [Pathfinder Society](rule/aff_scholars), and you do your best to emulate him. Choose either Diplomacy or Knowledge (local). You gain a +1 trait bonus on all checks for the chosen skill, and the chosen skill becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"insistent_benefactor": {
 		"name": "Insistent Benefactor",
@@ -4891,19 +4787,6 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"librarian": {
-		"name": "Librarian",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Librarian",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Dark Archive",
-			"",
-			"You are trained to manage and maintain books, and you find it easy to procure information from tomes. You gain a +1 bonus on Linguistics or Profession (librarian) checks, and one of these skills (your choice) becomes a class skill for you. Once per day when you would gain a bonus on a skill check from reading a book, you can increase that bonus by 1."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"lichblood": {
 		"name": "Lichblood",
 		"sources": [ "Advanced Class Origins" ],
@@ -5356,19 +5239,6 @@
 			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as {spell/shield other}) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
-	},
-	"loyalty": {
-		"name": "Loyalty",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Loyalty",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Grand Lodge",
-			"",
-			"You resist attempts to dissuade you from obeying the Decemvirate's will. You gain a +1 trait bonus on saving throws against enchantment spells and spell-like abilities."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"loyalty_across_lifetimes": {
 		"name": "Loyalty across Lifetimes",
@@ -5835,19 +5705,6 @@
 			"You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude. You gain a +2 trait bonus on Fortitude saving throws made against the effects of cold dangers and altitude sickness."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"master_of_pentacles": {
-		"name": "Master of Pentacles",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Master of Pentacles",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Dark Archive",
-			"",
-			"Your many years spent studying the art of summoning have given you a unique knowledge of this subtle and complicated discipline. Once per day, when casting a spell of the Conjuration school, treat your caster level as two higher when determining the spell's duration."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"master_of_the_sudden_strike": {
 		"name": "Master of the Sudden Strike",
@@ -7368,19 +7225,6 @@
 			"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use sanctuary as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"observant": {
-		"name": "Observant",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Observant",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Grand Lodge",
-			"",
-			"Sometimes it helps to pay attention to your surroundings and the people you meet. Choose either Perception or Sense Motive. You gain a +1 trait bonus on all checks for the chosen skill, and the chosen skill becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"observant_archer": {
 		"name": "Observant Archer",

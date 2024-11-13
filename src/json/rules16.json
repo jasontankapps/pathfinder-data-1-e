@@ -5287,7 +5287,7 @@
 			"",
 			"### Resources",
 			"",
-			"The Crimso Syndicate has money, and given that its members are spread across much of the region, it can count on ready assistance from either formal members or locally hired muscle, even in remote regions. It has access to raw and manufactured goods from distant places as well, often for much cheaper costs and in more abundant supply than the market typically supports. As agents tap into markets in corners of the globe barely known to most nations and only tentatively explored by other groups, they often have exclusive access to resources found there.",
+			"The Crimson Syndicate has money, and given that its members are spread across much of the region, it can count on ready assistance from either formal members or locally hired muscle, even in remote regions. It has access to raw and manufactured goods from distant places as well, often for much cheaper costs and in more abundant supply than the market typically supports. As agents tap into markets in corners of the globe barely known to most nations and only tentatively explored by other groups, they often have exclusive access to resources found there.",
 			"",
 			"***1 CPA:*** Arrange overland or ocean-going transport from one location to another.",
 			"",
@@ -5318,7 +5318,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_antislavery": {
 		"name": "Breakers of Chains",
@@ -5362,7 +5376,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_merceneries": {
 		"name": "Friendly Merceneries",
@@ -5421,7 +5449,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_vangard": {
 		"name": "Vanguard of Liberty",
@@ -5477,7 +5519,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_lawknights": {
 		"name": "Steel Knights",
@@ -5541,7 +5597,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_bards": {
 		"name": "Bardic College",
@@ -5595,7 +5665,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_clans": {
 		"name": "Clans of the Perfect Army",
@@ -5658,7 +5742,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_legion": {
 		"name": "The Lost Legion",
@@ -5727,7 +5825,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_old_cults": {
 		"name": "Old Cults",
@@ -5768,7 +5880,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_profits": {
 		"name": "The Profits",
@@ -5819,7 +5945,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_second_life": {
 		"name": "The Second Life",
@@ -5872,7 +6012,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_imperial": {
 		"name": "Imperial Guard",
@@ -5921,7 +6075,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"f_gravepath": {
 		"name": "The Gravepath",
@@ -5974,7 +6142,21 @@
 			"factions",
 			"faction_list"
 		],
-		"siblings": []
+		"siblings": [
+			"f_profiteers",
+			"f_antislavery",
+			"f_merceneries",
+			"f_vangard",
+			"f_lawknights",
+			"f_bards",
+			"f_clans",
+			"f_legion",
+			"f_old_cults",
+			"f_profits",
+			"f_second_life",
+			"f_imperial",
+			"f_gravepath"
+		]
 	},
 	"faction_costs": {
 		"name": "Standard Faction Costs",

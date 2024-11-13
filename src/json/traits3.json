@@ -334,19 +334,6 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"proper_training": {
-		"name": "Proper Training",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Proper Training",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Grand Lodge",
-			"",
-			"Your time at the Grand Lodge of Absalom has served you well. Choose either Knowledge (geography) or Knowledge (history). You gain a +1 trait bonus on all checks for the chosen skill, and the chosen skill becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"prophesied": {
 		"name": "Prophesied",
 		"sources": [ "Ultimate Campaign" ],
@@ -1297,19 +1284,6 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"reverent_wielder": {
-		"name": "Reverent Wielder",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Reverent Wielder",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Scarab Sages",
-			"",
-			"Some of the most powerful weapons are priceless and ancient, and you are vigilant in protecting your equipment as much as you protect yourself. You gain a +1 trait bonus to CMD against disarm, steal, and sunder combat maneuvers, and your equipment gains a +1 trait bonus on all saving throws."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"reviving_rest": {
 		"name": "Reviving Rest",
 		"sources": [ "Blood of the Moon" ],
@@ -1659,19 +1633,6 @@
 			"A dwarven warrior's simple act of courage in Angradd's name inspired you during one of your first battles. Now, you strive to be equally inspiring to others. Once per day, when you generate an effect that grants a morale bonus, increase that bonus by 1 for all creatures affected."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
-	},
-	"rousing_oratory": {
-		"name": "Rousing Oratory",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Rousing Oratory",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Liberty's Edge",
-			"",
-			"You are particularly adept at expressing your beliefs in a way that resonates with others. Perform (act, comedy, oratory, or sing) becomes a class skill for you. Once per day you can spend 1 minute addressing and inspiring your allies within 60 feet, after which you can attempt a DC 15 Perform (act, comedy, oratory, or sing) check. If you succeed, your allies gain a +1 trait bonus on saving throws against fear effects for 5 minutes. If you exceed the check DC by 10 or more, increase the bonus by 1."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"roving_range": {
 		"name": "Roving Range",
@@ -2470,19 +2431,6 @@
 			"You trained from birth to never reveal secrets and never betray anyone's trust. You gain a +2 trait bonus on saving throws against divinations or enchantments that would compel you to reveal a secret or allow anyone to read your mind."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
-	},
-	"secrets_of_the_sphinx": {
-		"name": "Secrets of the Sphinx",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Secrets of the Sphinx",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Scarab Sages",
-			"",
-			"Your ancestors paid the proper obeisance to Nethys, who granted their heirs special divinatory gifts. Once per day, you may gain a +2 trait bonus on any single Knowledge check. Additionally, choose one Knowledge skill-this skill becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"seeker": {
 		"name": "Seeker",
@@ -3572,19 +3520,6 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"smuggler": {
-		"name": "Smuggler",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Smuggler",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** The Exchange",
-			"",
-			"Whether you're carrying illegal contraband or simply regulated products, you have a knack for sneaking goods past watchful eyes. You gain a +3 bonus on Sleight of Hand checks made to hide an object, and Sleight of Hand is a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"snake_bleeder": {
 		"name": "Snake Bleeder",
 		"sources": [ "Dragon Empires Primer" ],
@@ -3794,19 +3729,6 @@
 			"You grew up in Absalom, and as a child you learned trivia about people and places from all across the world. Choose Knowledge (geography), Knowledge (local), or Sense Motive; that skill is a class skill for you. In addition, you know one additional bonus language."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"soul_drinker": {
-		"name": "Soul Drinker",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Soul Drinker",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Dark Archive",
-			"",
-			"There is a dark hunger in you that rejoices when you or an ally slays a foe. Once per day when an enemy creature is killed, you may, as an immediate action, gain a number of temporary hit points equal to the slain foe's Hit Dice. These temporary hit points last for 1 minute. This is a supernatural ability."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"soul_eater": {
 		"name": "Soul Eater",
@@ -5439,19 +5361,6 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"teaching_mistake": {
-		"name": "Teaching Mistake",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Teaching Mistake",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Grand Lodge",
-			"",
-			"You know the consequences of failure and strive never to make the same mistake twice. Once per scenario, when you roll a natural 1 on any saving throw, you gain a +1 trait bonus on your next saving throw, which must be used before the end of the scenario."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"technic_tinkerer": {
 		"name": "Technic Tinkerer",
 		"sources": [ "Inner Sea Primer" ],
@@ -6123,19 +6032,6 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"tireless": {
-		"name": "Tireless",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Tireless",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** The Exchange",
-			"",
-			"You are accustomed to working long hours and weathering difficult conditions just to get the job done. You gain a +2 trait bonus on Constitution checks made to resist nonlethal damage from swimming, forced marches, starvation, thirst, and hot and cold environments. In addition, you gain 1 hit point."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"tireless_avenger": {
 		"name": "Tireless Avenger",
 		"sources": [ "Ultimate Campaign" ],
@@ -6184,19 +6080,6 @@
 			"You can craft passable if inferior magical weapons, armors, and shields through diligence and toil. Choose one Craft or Profession skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the {feat/Craft Magic Arms and Armor} feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
-	},
-	"tomb_raider": {
-		"name": "Tomb Raider",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Tomb Raider",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Scarab Sages",
-			"",
-			"You've spent most of your life exploring the ancient tombs and catacombs of Osirion. You gain a +1 bonus on Perception and Knowledge (dungeoneering) checks, and one of these skills (your choice) becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"tongue_of_many_towns": {
 		"name": "Tongue of Many Towns",
@@ -7076,19 +6959,6 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"unflappable": {
-		"name": "Unflappable",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Unflappable",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Sovereign Court",
-			"",
-			"Whether it is a result of your dedication to your work or just pure guts, nothing seems to shake you. You gain a +1 trait bonus on saves against fear, and the DC to demoralize you with Intimidate checks increases by 3."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"unflappable_arrogance": {
 		"name": "Unflappable Arrogance",
 		"sources": [ "Blood of the Elements" ],
@@ -7214,19 +7084,6 @@
 			"You gain a +2 trait bonus on all Intimidate checks against creatures of the animal, fey, or plant type, and Intimidate is always a class skill for you."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
-	},
-	"unorthodox_strategy": {
-		"name": "Unorthodox Strategy",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Unorthodox Strategy",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Silver Crusade",
-			"",
-			"You are particularly quick on your feet, and gain a +2 trait bonus on Acrobatics checks made to move through an enemy's threatened squares."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"unpredictable": {
 		"name": "Unpredictable",
@@ -7386,19 +7243,6 @@
 			"You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias. You gain a +1 trait bonus on Disguise or Sleight of Hand checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
-	},
-	"upstanding": {
-		"name": "Upstanding",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Upstanding",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** The Exchange",
-			"",
-			"Your preferred means of doing business involves giving your clients a fair deal and winning their continued business and good will. You gain a +1 trait bonus on Diplomacy and Sense Motive checks, and one of these skills (your choice) becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"urban_acolyte": {
 		"name": "Urban Acolyte",
@@ -8688,19 +8532,6 @@
 			"Your family prepared you for a life of evading or destroying fiendish creatures. You gain a +2 trait bonus on Survival checks to track evil outsiders and a +2 trait bonus on initiative checks when you know your opponent is an evil outsider."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"whistleblower": {
-		"name": "Whistleblower",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Whistleblower",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Liberty's Edge",
-			"",
-			"You are wise to the schemes of liars, thieves, and cheats, granting you a +1 bonus on Sense Motive checks, and that skill becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"whiteout": {
 		"name": "Whiteout",

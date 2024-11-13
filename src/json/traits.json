@@ -24,19 +24,6 @@
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
-	"a_sure_thing": {
-		"name": "A Sure Thing",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## A Sure Thing",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Silver Crusade",
-			"",
-			"Once per day, you gain a +2 bonus on a single attack roll against an evil-aligned creature. If the creature is not evil-aligned, this ability is wasted with no benefit."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"aballonian_resilience": {
 		"name": "Aballonian Resilience",
 		"sources": [ "People of the Stars" ],
@@ -1041,19 +1028,6 @@
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
-	"ancient_historian": {
-		"name": "Ancient Historian",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Ancient Historian",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Scarab Sages",
-			"",
-			"You are well acquainted with the lore of fallen empires. Choose either Knowledge (history) or Linguistics. That skill becomes a class skill for you, and you begin play able to speak and read one of the following languages: Ancient Osiriani, Azlanti, Cyclops, Jistkan, Tekritanin, or Thassilonian."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"andolettas_consolation": {
 		"name": "Andoletta's Consolation",
 		"sources": [ "Divine Anthology" ],
@@ -1280,19 +1254,6 @@
 			"For whatever reason, you spent much of your formative years fighting to keep yourself alive amid the fearsome creatures that inhabit the infinite oceans of the Plane of Water, and you learned how to stay hidden even against predators with unusual senses. You gain a +2 trait bonus on Stealth checks while underwater. Once per day, you can attempt a Stealth check to hide in plain sight (as the ranger class feature of the same name) while underwater. This is only effective against creatures that rely on blindsense, blindsight, or tremorsense. Creatures with other senses perceive you normally."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"arcane_archivist": {
-		"name": "Arcane Archivist",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Arcane Archivist",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Dark Archive",
-			"",
-			"You have spent years handling magic items and know how to test their functions while avoiding catastrophic results. You gain a +1 trait bonus on Use Magic Device checks, and this skill becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"arcane_dabbler": {
 		"name": "Arcane Dabbler",
@@ -1755,19 +1716,6 @@
 			"You have a strong emotional attachment to a person or object that you're terrified of losing. The GM chooses the object of your attachment. Whenever the object of your attachment is either threatened, in danger, or in someone else's possession, you take a -1 penalty on Will saves and a -2 penalty on saves against fear effects. If the person or object to which you're attached is ever lost, killed, or destroyed, exchange this drawback for the Doubt drawback."
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
-	},
-	"attuned_to_the_ancestors": {
-		"name": "Attuned to the Ancestors",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Attuned to the Ancestors",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Scarab Sages",
-			"",
-			"You were raised to believe that undead are nothing to fear-they are simply the unliving remnants of your honored ancestors. Once per day, you can surround yourself with an aura of unlife. Unintelligent undead ignore you unless you take action against them, per hide from undead. The protection lasts 1 round for every two character levels you possess (with a minimum of 1 round). If you take any offensive action against any undead, this effect immediately ends. This is a supernatural ability."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"audrahnis_ally": {
 		"name": "Audrahni's Ally",
@@ -2345,19 +2293,6 @@
 			"The time you spent leaping between slippery logs as they whirled down the Sellen River taught you how to keep your footing. You gain a +1 trait bonus on Acrobatics checks and a +1 trait bonus to your CMB when attempting to resist trip attacks."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"beneficent_touch": {
-		"name": "Beneficent Touch",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Beneficent Touch",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Silver Crusade",
-			"",
-			"Once per day, when you cast a spell or use a class ability that heals hit point damage, reroll any 1s that appear on the dice and take the new roll (even if it is another 1)."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"bent_body": {
 		"name": "Bent Body",
@@ -3894,19 +3829,6 @@
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
-	"captains_blade": {
-		"name": "Captain's Blade",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Captain's Blade",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Liberty's Edge",
-			"",
-			"You were born on board a ship and learned to fight beside the sailing men and women of the Andoran fleet. While on board any vessel afloat on water, you gain a +1 trait bonus on Acrobatics and Climb checks. One of these skills (your choice) becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"caravan_drover": {
 		"name": "Caravan Drover",
 		"sources": [ "People of the Sands" ],
@@ -5125,19 +5047,6 @@
 	},
 	"community_minded": {
 		"copyof": "community-minded"
-	},
-	"comparative_religion": {
-		"name": "Comparative Religion",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Comparative Religion",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Silver Crusade",
-			"",
-			"Your allies within the Silver Crusade have taught you a lot about Golarion's deities and their followers. You gain a +1 trait bonus on Knowledge (religion) checks, and Knowledge (religion) becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"competitive": {
 		"name": "Competitive",
@@ -6519,19 +6428,6 @@
 			"Learning how devils think helps you resist their trickery. You gain a +1 trait bonus to your AC against attacks made by lawful outsiders."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
-	},
-	"devils_mark": {
-		"name": "Devil's Mark",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Devil's Mark",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Dark Archive",
-			"",
-			"You bear the stain of a higher fiend upon you, and any evil creature who sees it may think twice before crossing you. You gain a +2 trait bonus on all Bluff, Diplomacy, Intimidate, and Sense Motive checks when dealing with outsiders of the evil subtype."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"devilfish_diver": {
 		"name": "Devilfish Diver",
@@ -8531,19 +8427,6 @@
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
-	"expert_duelist": {
-		"name": "Expert Duelist",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Expert Duelist",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Sovereign Court",
-			"",
-			"In your youth, you spent countless hours perfecting the art of the duel, focusing your efforts on defeating a single foe. You gain a +1 trait bonus to your Armor Class so long as you are adjacent to a single foe. This trait bonus is not applied to your Armor Class for touch attacks or when you are denied your Dexterity bonus."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
-	},
 	"expert_explorer": {
 		"name": "Expert Explorer",
 		"sources": [ "Ruins of Azlant Player's Guide" ],
@@ -8982,19 +8865,6 @@
 			"You have spent many years living under the canopy of the Southern Fangwood, during which you and your comrades clashed regularly with the soldiers of imperialist Molthune. After years of guerrilla warfare, you've learned to interpret the sounds of the forest to detect signs of enemies. You gain a +1 trait bonus on initiative checks when in a forest. Once per day when in a forest, you can designate yourself or an ally to roll twice for initiative and take either result."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
-	},
-	"fashionable": {
-		"name": "Fashionable",
-		"sources": [ "PFS Guide to Organized Play 6.0" ],
-		"description": [
-			"## Fashionable",
-			"",
-			"**Type:** Faction  ",
-			"**Faction:** Sovereign Court",
-			"",
-			"You spent your formative years as a young blade in Oppara and learned the ins and outs of using fashion to improve your relations with others. So long as you are wearing clothing and jewelry worth more than 80 gp, you gain a +1 trait bonus on Bluff, Diplomacy, and Sense Motive checks. One of these skills (your choice) becomes a class skill for you."
-		],
-		"subhierarchy": [[ "Faction Traits", "main/traits_faction" ]]
 	},
 	"fast_talker": {
 		"name": "Fast Talker",
