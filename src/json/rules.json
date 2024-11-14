@@ -3138,6 +3138,7 @@
 			"weapon_types",
 			"weapon_encumbrance",
 			"weapon_qualities",
+			"weapon_special_features",
 			"masterwork_weapons"
 		],
 		"siblings": [
@@ -3180,7 +3181,10 @@
 			"weapons"
 		],
 		"siblings": [
+			"weapon_types",
+			"weapon_encumbrance",
 			"weapon_qualities",
+			"weapon_special_features",
 			"masterwork_weapons"
 		]
 	},
@@ -3215,12 +3219,16 @@
 			"weapons"
 		],
 		"siblings": [
+			"weapon_types",
+			"weapon_encumbrance",
 			"weapon_qualities",
+			"weapon_special_features",
 			"masterwork_weapons"
 		]
 	},
 	"weapon_qualities": {
 		"name": "Weapon Descriptions",
+		"tags": "scatter weapon quality",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Combat"
@@ -3274,9 +3282,30 @@
 			"",
 			"In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon.",
 			"",
-			"***Scatter:*** A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a -2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant concealment, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius.",
-			"",
-			"### Special",
+			"***Scatter:*** A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a -2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant concealment, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius."
+		],
+		"parent_topics": [
+			"basics",
+			"equipment",
+			"weapons"
+		],
+		"siblings": [
+			"weapon_types",
+			"weapon_encumbrance",
+			"weapon_qualities",
+			"weapon_special_features",
+			"masterwork_weapons"
+		]
+	},
+	"weapon_special_features": {
+		"name": "Weapon Special Features",
+		"tags": "brace weapons broken weapons deadly weapons disarm weapons distracting weapons double weapons fragile weapons grapple weapons monk weapons nonlethal weapons performance weapons reach weapons sunder weapons trip weapons",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Combat"
+		],
+		"description": [
+			"{SOURCE PRPG Core Rulebook/144;Ultimate Combat/149}",
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
@@ -3323,6 +3352,7 @@
 			"weapon_types",
 			"weapon_encumbrance",
 			"weapon_qualities",
+			"weapon_special_features",
 			"masterwork_weapons"
 		]
 	},
@@ -3351,6 +3381,7 @@
 			"weapon_types",
 			"weapon_encumbrance",
 			"weapon_qualities",
+			"weapon_special_features",
 			"masterwork_weapons"
 		]
 	},

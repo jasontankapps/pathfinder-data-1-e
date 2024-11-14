@@ -361,9 +361,9 @@
 		],
 		"siblings": [
 			"naming_npcs",
+			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs",
-			"avoiding_npc_overwork"
+			"monstrous_npcs"
 		]
 	},
 	"stereotypes": {
@@ -383,9 +383,9 @@
 		],
 		"siblings": [
 			"naming_npcs",
+			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs",
-			"avoiding_npc_overwork"
+			"monstrous_npcs"
 		]
 	},
 	"monstrous_npcs": {
@@ -407,9 +407,9 @@
 		],
 		"siblings": [
 			"naming_npcs",
+			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs",
-			"avoiding_npc_overwork"
+			"monstrous_npcs"
 		]
 	},
 	"avoiding_npc_overwork": {
@@ -437,9 +437,9 @@
 		],
 		"siblings": [
 			"naming_npcs",
+			"avoiding_npc_overwork",
 			"stereotypes",
-			"monstrous_npcs",
-			"avoiding_npc_overwork"
+			"monstrous_npcs"
 		]
 	},
 	"life_of_an_npc": {

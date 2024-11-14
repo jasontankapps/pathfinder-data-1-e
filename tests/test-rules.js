@@ -52,7 +52,7 @@ function isGood(value) {
 					return true;
 				} else if(!rules[bit].siblings || rules[bit].siblings.indexOf(prop) < 0) {
 					found = true;
-					msg.push(`${prop}.siblings => ${bit} is not reciprocal`)
+					msg.push(`${prop}.siblings => ${bit} is not reciprocal`);
 					return true;
 				}
 				return false;
@@ -89,18 +89,26 @@ function isGood(value) {
 			if(!Array.isArray(subtopics)) {
 				msg.push(`Bad ${prop}.subtopics`);
 				return true;
-			} else if (subtopics.some(bit => {
-				if(!rules[bit]) {
+			}
+			const subbies = subtopics.join(" ");
+			if (subtopics.some(bit => {
+				const rb = rules[bit];
+				if(!rb) {
 					return true;
 				}
-				const rb = rules[bit];
 				if(!rb.parent_topics || rb.parent_topics.indexOf(prop) !== (rb.parent_topics.length - 1)) {
 					found = true;
-					msg.push(`${prop}.subtopics => ${bit} is not reciprocal`)
+					msg.push(`${prop}.subtopics => ${bit} is not reciprocal`);
 					return true;
-				} else if (!rb.siblings || !Array.isArray(rb.siblings)) {
+				}
+				const siblings = rb.siblings;
+				if (!siblings || !Array.isArray(siblings)) {
 					found = true;
-					msg.push(`${bit} does not have a siblings property`)
+					msg.push(`${bit} does not have a valid siblings property despite heritage from ${prop}`);
+					return true;
+				} else if (subbies !== siblings.join(" ")) {
+					found = true;
+					msg.push(`${bit}.siblings !== ${prop}.subtopics`);
 					return true;
 				}
 				return false;
