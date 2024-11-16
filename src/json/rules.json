@@ -1620,7 +1620,7 @@
 			"",
 			"Character traits are only for player characters. If you want an NPC to have traits, that NPC must \"buy\" them with the {feat/Additional Traits} feat. Player characters are special; they're the stars of the game, after all, and it makes sense that they have an advantage over the NPCs of the world in this way.",
 			"",
-			"[The master list of traits can be found here.](main/traits)"
+			"The master list of traits can be found [here](main/traits)."
 		],
 		"parent_topics": [
 			"basics",

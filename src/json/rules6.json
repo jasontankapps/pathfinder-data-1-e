@@ -6392,7 +6392,7 @@
 			"",
 			"The distinction between a trap and an undead creature blurs when you introduce a haunt: a hazardous region created by unquiet spirits that react violently to the presence of the living. The exact conditions that cause a haunt to manifest vary from case to case, but haunts always arise from a source of terrific mental or physical anguish endured by living, tormented creatures. A single, source of suffering can create multiple haunts, or multiple sources could consolidate into a single haunt. The relative power of the source has little bearing on the strength of the resulting haunt - it's the magnitude of the suffering or despair that created the haunt that decides its power. Often, undead inhabit regions infested with haunts - it's even possible for a person who dies to rise as a {template/ghost} (or other undead) and trigger the creation of numerous haunts. A haunt infuses a specific area, and often multiple haunted areas exist within a single structure. The classic haunted house isn't a single haunt, but usually a dozen or more haunted areas spread throughout the structure.",
 			"",
-			"[Find a list of haunts here.](main/haunts)"
+			"Find a list of haunts [here](main/haunts)."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -7411,7 +7411,7 @@
 			"",
 			"Each monster description is presented in the same format, split into three specific areas: Introduction, Stat Block, and Description.",
 			"",
-			"[Monster listings can be found here.](main/monsters)"
+			"Monster listings can be found [here](main/monsters)."
 		],
 		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
@@ -8090,7 +8090,7 @@
 			"",
 			"***Inherited Templates:*** Some templates, such as the {template/half-dragon} and [half-fiend templates](template/half-fiend), are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\"",
 			"",
-			"[Find a listing of all templates here.](main/monster_templates)"
+			"Find a listing of all templates [here](main/monster_templates)."
 		],
 		"parent_topics": [
 			"gamemastery",

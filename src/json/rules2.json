@@ -3639,7 +3639,7 @@
 			"",
 			"Poisons can be made using Craft (alchemy). The DC to make a poison is equal to its Fortitude save DC. Rolling a natural 1 on a Craft skill check while making a poison exposes the crafter to the poison. Crafters with the poison use class feature do not risk poisoning themselves when using Craft to make poison.",
 			"",
-			"[Poisons are listed here.](main/equipment_poisons)"
+			"Poisons are listed [here](main/equipment_poisons)."
 		],
 		"parent_topics": [
 			"combat",
