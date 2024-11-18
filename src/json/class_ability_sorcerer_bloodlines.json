@@ -228,7 +228,7 @@
 			"## Astral",
 			"",
 			"{SOURCE Distant Realms/62}  ",
-			"Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral, or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to both time and space. Your senses extend through the {rule/Astral Plane} to the far reaches of the multiverse, allowing you to perceive and manipulate the timeless potential that binds the multiverse together. Your ancestors may have also held a connection to one of the astral isles or conduits, or like you, may have plied this cosmic ocean-and some may even survive there to this day.",
+			"Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral, or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to both time and space. Your senses extend through the {rule/Astral Plane} to the far reaches of the multiverse, allowing you to perceive and manipulate the timeless potential that binds the multiverse together. Your ancestors may have also held a connection to one of the astral isles or conduits, or like you, may have plied this cosmic ocean - and some may even survive there to this day.",
 			"",
 			"**Class Skill:** Knowledge (planes).",
 			"",
@@ -1148,7 +1148,7 @@
 			"",
 			"**Bloodline Powers:** You draw upon the power of your ancestor's self-sacrifice.",
 			"",
-			"*Sacrificial Boon (Su):* At 1st level, as an immediate action, you can sacrifice 1 hit point in exchange for a +1 sacred bonus on the next damage roll, saving throw, or skill check you make. This bonus only applies as long as you use it by or during your next turn-otherwise both your sacrificed hit point and the bonus are wasted. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"*Sacrificial Boon (Su):* At 1st level, as an immediate action, you can sacrifice 1 hit point in exchange for a +1 sacred bonus on the next damage roll, saving throw, or skill check you make. This bonus only applies as long as you use it by or during your next turn - otherwise both your sacrificed hit point and the bonus are wasted. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
 			"*Rallying Cry (Su):* At 3rd level, as a standard action once per day, you can shout a cry instilled with the noble sacrifices of your ancestor. You and any allies within 30 feet who can hear you gain a +1 morale bonus on attack and damage rolls for a number of rounds equal to half your sorcerer level (minimum 1). At 7th level and every four levels thereafter, this bonus increases by +1, to a maximum of +5 at 19th level.",
 			"",
@@ -1256,7 +1256,7 @@
 			"",
 			"*Windborne (Sp):* At 9th level, you can turn gaseous (as the spell {spell/gaseous form}) for a number of rounds per day equal to your sorcerer level. These rounds need not be consecutive. At 11th level and every two levels thereafter, your speed while gaseous increases by +10 feet, to a maximum speed of 60 feet at 19th level.",
 			"",
-			"*Oni Healing (Su):* At 15th level, if your hit points drop below 0, you automatically stabilize and begin regenerating 2 hit points per round for a number of rounds per day equal to your sorcerer level. While regenerating in this way, you are not affected by spells or effects that would cause you to continue dying, such as bleed, but if you take any acid or fire damage, you stop regenerating for the rest of the day (but remain stabilized) and you are affected by such effects as normal. You still die if your hit points reach a negative number equal to your Constitution score, regardless of whether you are regenerating. This ability only works once per day-if you drop below 0 hit points a second time, you do not benefit from this ability.",
+			"*Oni Healing (Su):* At 15th level, if your hit points drop below 0, you automatically stabilize and begin regenerating 2 hit points per round for a number of rounds per day equal to your sorcerer level. While regenerating in this way, you are not affected by spells or effects that would cause you to continue dying, such as bleed, but if you take any acid or fire damage, you stop regenerating for the rest of the day (but remain stabilized) and you are affected by such effects as normal. You still die if your hit points reach a negative number equal to your Constitution score, regardless of whether you are regenerating. This ability only works once per day - if you drop below 0 hit points a second time, you do not benefit from this ability.",
 			"",
 			"*Hedonistic Master (Su):* At 20th level, you fully embrace your oni heritage to unlock its maximum potential. You gain the ability to change your shape between your natural form and that of any one Large humanoid creature of the giant subtype at will (as the spell [giant form I](spell/giant_form_1)). You must choose which creature you wish to be able to change into when you reach 20th level; once you make this decision, you cannot change it. You can switch between your forms at will, and can assume your giant form for as long as you want. In addition, you gain SR equal to 6 + your sorcerer level, and whenever you cast a spell of the {spelldef/charm} or {spelldef/compulsion} subschool, the spell's DC increases by +2."
 		]
@@ -1440,7 +1440,7 @@
 			"",
 			"**Bloodline Arcana:** Your sorcerer spells and spell-like abilities count as [psychic](rule/psychic_magic) instead of arcane. You use thought and emotion components instead of verbal and somatic components when casting your spells.",
 			"",
-			"**Bloodline Powers:** Your psychic powers make you a master mentalist, but your soul struggles with the urge to transcend into a pure thought-form.",
+			"**Bloodline Powers:** Your psychic powers make you a master mentalist, but your soul struggles with the urge to transcend into a pure thoughtform.",
 			"",
 			"*Psychic Strike (Su):* At 1st level, you can overwhelm the minds of those nearby. You can target one creature within 30 feet that you can see; that creature must succeed at a Will saving throw (DC = 10 + 1/2 your sorcerer level + your Charisma modifier) or it takes 1d6 points of damage + 1 point for every 2 sorcerer levels you possess and becomes shaken for 1 round. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
@@ -1450,7 +1450,7 @@
 			"",
 			"*Thoughtsense (Sp):* At 15th level, you can detect the thoughts of others around you, as a constant {umr/thoughtsense} effect with a range of 30 feet instead of 60 feet.",
 			"",
-			"*True Thought-Form (Sp):* At 20th level, you can shed the restrictions of the flesh and become a thoughtform-a being that exists independently of its substance. Whenever a creature would kill you, you can attempt to use mind swap against that creature as an immediate action just before dying."
+			"*True Thought-Form (Sp):* At 20th level, you can shed the restrictions of the flesh and become a thoughtform - a being that exists independently of its substance. Whenever a creature would kill you, you can attempt to use mind swap against that creature as an immediate action just before dying."
 		]
 	},
 	"rakshasa": {

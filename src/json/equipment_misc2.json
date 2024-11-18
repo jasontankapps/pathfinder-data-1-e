@@ -50,7 +50,7 @@
 			"**Price** 75 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When this unguent-prepared with vile alchemical reagents and the gore of fiends-is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it sickens the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
+			"When this unguent - prepared with vile alchemical reagents and the gore of fiends - is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it sickens the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -245,7 +245,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This elixir turns its imbiber fiery red, making it easier to pass as an efreeti. Unscrupulous efreet can sell fireskin elixir to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
+			"This elixir turns its imbiber fiery red, making it easier to pass as an efreeti. Unscrupulous efreet can sell fireskin elixir to guests who have been barred from citizen - only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
 			"",
 			"### Fireskin",
 			"**Type** ingested; **Addiction** major, Fortitude DC 20  ",
@@ -749,7 +749,7 @@
 			"{SOURCE Ultimate Equipment/77;Advanced Player's Guide/184}  ",
 			"**Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)",
 			"",
-			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future-and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the augury spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortuneteller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
+			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the augury spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortuneteller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
 		]
 	},
 	"fortune_tellers_deck_common": {
@@ -1413,7 +1413,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness-this includes darkness created by spells like darkness, but not the supernatural darkness created by deeper darkness. If there is glowing ink on an object, you have a +2 bonus on Perception checks to locate it. Mixing glowing ink with marker dye makes the dye glow in the dark until it fades.",
+			"Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness - this includes darkness created by spells like darkness, but not the supernatural darkness created by deeper darkness. If there is glowing ink on an object, you have a +2 bonus on Perception checks to locate it. Mixing glowing ink with marker dye makes the dye glow in the dark until it fades.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 15"
@@ -1524,7 +1524,7 @@
 			"**Price** 50 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"These potent additives can only be culled from a rare maple tree known to grow exclusively in urban areas. These small, elaborately twisting trees are extremely slow to grow and mature-the leaves reach maturity only once every 3 years-and they are almost always grown and cultivated by half-elves. Additionally, half-elves are keenly aware of the effort put into the leaves' growth and normally only sell the products of their labors to others of their kind. When the golden maple's delicate, five-pointed leaves finally take on their namesake's color, they can be cut, dried, and then ground into a fine powder, a process that requires a DC 15 Knowledge (nature) or Profession (herbalist) check. When used in conjunction with the Craft (alchemy) skill to create special substances and items like alchemical grease or tanglefoot bags, golden maple leaves reduce the Craft DC by 5 and add +1 to the DC of any save required by the alchemical item. A single dose of golden maple leaf powder is sufficient to augment the crafting of three alchemical items."
+			"These potent additives can only be culled from a rare maple tree known to grow exclusively in urban areas. These small, elaborately twisting trees are extremely slow to grow and mature - the leaves reach maturity only once every 3 years - and they are almost always grown and cultivated by half-elves. Additionally, half-elves are keenly aware of the effort put into the leaves' growth and normally only sell the products of their labors to others of their kind. When the golden maple's delicate, five-pointed leaves finally take on their namesake's color, they can be cut, dried, and then ground into a fine powder, a process that requires a DC 15 Knowledge (nature) or Profession (herbalist) check. When used in conjunction with the Craft (alchemy) skill to create special substances and items like alchemical grease or tanglefoot bags, golden maple leaves reduce the Craft DC by 5 and add +1 to the DC of any save required by the alchemical item. A single dose of golden maple leaf powder is sufficient to augment the crafting of three alchemical items."
 		]
 	},
 	"gorilla": {
@@ -1805,7 +1805,7 @@
 			"**Price** 2 gp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"A day's worth of halfling trail rations is actually more than what a typical adventuring halfling eats in a day-a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the shaken condition from -2 to -1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"A day's worth of halfling trail rations is actually more than what a typical adventuring halfling eats in a day - a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty for the shaken condition from -2 to -1. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"hallowed_chalice": {
@@ -1912,7 +1912,7 @@
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"For all their cowardice and cruelty, goblins have a keen sense of what can kill them, and harpies number among goblins' most feared predators. Using this knowledge to their advantage, Varisian alchemists have devised ways to recreate or distill the musk of harpies into a potent concoction. If smeared on a surface or used as a thrown weapon, harpy musk fills a 30-foot area for 10 minutes before dispersing. Any goblin who enters the area must succeed at a DC 14 Will save or be shaken for 1 minute. Harpy musk affect only goblins-bugbears and hobgoblins are unaffected. Harpy musk can be created with a successful DC 20 Craft (alchemy) check.",
+			"For all their cowardice and cruelty, goblins have a keen sense of what can kill them, and harpies number among goblins' most feared predators. Using this knowledge to their advantage, Varisian alchemists have devised ways to recreate or distill the musk of harpies into a potent concoction. If smeared on a surface or used as a thrown weapon, harpy musk fills a 30-foot area for 10 minutes before dispersing. Any goblin who enters the area must succeed at a DC 14 Will save or be shaken for 1 minute. Harpy musk affect only goblins - bugbears and hobgoblins are unaffected. Harpy musk can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -2978,7 +2978,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Ifrit alchemists claim to make this thick red oil from their own blood-hence the morbid name-but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).",
+			"Ifrit alchemists claim to make this thick red oil from their own blood - hence the morbid name - but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -3896,7 +3896,7 @@
 			"**Price** 500 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"Leng rubies are red gemstones all identical in size and appearance, distinguishable from ordinary rubies by their complete lack of imperfections or inclusions. Mined on the desolate Plateau of Leng-an outer plane connected to the ever-shifting Dimension of Dreams-these rubies are used as currency by the sinister denizens of Leng. These denizens travel the planes, bartering Leng rubies for goods, slaves, and assistance in their inscrutable schemes. Possession of these rubies is seen as suspicious and shameful by scholars who understand their origin, as the rubies mark the owner as someone willing to deal with enigmatic foes of light and life.",
+			"Leng rubies are red gemstones all identical in size and appearance, distinguishable from ordinary rubies by their complete lack of imperfections or inclusions. Mined on the desolate Plateau of Leng - an outer plane connected to the ever-shifting Dimension of Dreams - these rubies are used as currency by the sinister denizens of Leng. These denizens travel the planes, bartering Leng rubies for goods, slaves, and assistance in their inscrutable schemes. Possession of these rubies is seen as suspicious and shameful by scholars who understand their origin, as the rubies mark the owner as someone willing to deal with enigmatic foes of light and life.",
 			"",
 			"A small number of Leng rubies (10%) can be used as the focus of a plane shift spell, though it is impossible to determine what location a particular ruby is attuned to before the spell is cast. Some Leng rubies are substantially larger than the common size, and can fetch prices of 50,000 gp or more. The denizens of Leng trade these larger rubies for armies of slaves or as part of nation-ending plots."
 		]
@@ -3952,7 +3952,7 @@
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This alchemically infused ink ensures secret messages destroy themselves after being read. If light strikes the ink after it has dried, chemicals cause it to spontaneously combust within about a minute. The combustion is small-not significant enough to ignite anything but paper. Ink used on other materials such as stone or wood simply vanishes, leaving no trace of the writing. A vial of this ink holds enough to write 10 brief messages of no more than 50 words each.",
+			"This alchemically infused ink ensures secret messages destroy themselves after being read. If light strikes the ink after it has dried, chemicals cause it to spontaneously combust within about a minute. The combustion is small - not significant enough to ignite anything but paper. Ink used on other materials such as stone or wood simply vanishes, leaving no trace of the writing. A vial of this ink holds enough to write 10 brief messages of no more than 50 words each.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -4151,7 +4151,7 @@
 			"**Price** 100 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"Though Taramai is long dead, and that first Keleshite invasion now little more than scattered stone foundations crumbling amid the grass, his legacy remains a point of great cultural pride among the Kara, with several leaders since having claimed to be his reincarnation. Taramai also pioneered the now-standard Kara practice of wearing the litchina-a metal face mask sculpted to match a given warrior's face, so that the enemy can never read any fear or pain in a Kara's expression. Each warrior must earn his or her litchina in battle, and most Kara would sooner fight naked than go without theirs.",
+			"Though Taramai is long dead, and that first Keleshite invasion now little more than scattered stone foundations crumbling amid the grass, his legacy remains a point of great cultural pride among the Kara, with several leaders since having claimed to be his reincarnation. Taramai also pioneered the now-standard Kara practice of wearing the litchina - a metal face mask sculpted to match a given warrior's face, so that the enemy can never read any fear or pain in a Kara's expression. Each warrior must earn his or her litchina in battle, and most Kara would sooner fight naked than go without theirs.",
 			"",
 			"To be worn properly, a litchina must be attached to a helm or headpiece of some sort (usually via small hooks). While worn in this manner, it grants the wearer a +1 competence bonus to Intimidate. A magically enhanced litchina can count as occupying either the head, headband, or eyes slot (determined at the time of item creation). A standard litchina costs 100 gp and weighs 2 pounds."
 		]
@@ -4917,7 +4917,7 @@
 			"",
 			"This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.",
 			"",
-			"Several common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on-those items are already the best available for general checks with the relevant skill.",
+			"Several common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on - those items are already the best available for general checks with the relevant skill.",
 			"",
 			"Some skills have no appropriate tool or masterwork tool; no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on Diplomacy checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a medusa. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on Use Magic Device checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.",
 			"",
@@ -5314,7 +5314,7 @@
 			"**Category** Herbs  ",
 			"**Gather** DC 25; **Yield** 1d4 doses (5 lbs. per dose)  ",
 			"**Terrain** any forests or mountains  ",
-			"**Preparation** A living mimameith tree has hardness 7 (rather than the typical hardness 5 for most wooden objects) and fire resistance 5. When a mimameith tree is burned but lives, its bark regrows over time with pale gray scarring-such bark bears special properties. Once harvested, this bark can be processed alchemically. Doing so requires a 5-pound dose of the bark to be soaked in water for 8 hours and then boiled off to a thin layer of tacky paste with a successful DC 20 Craft (alchemy) check.  ",
+			"**Preparation** A living mimameith tree has hardness 7 (rather than the typical hardness 5 for most wooden objects) and fire resistance 5. When a mimameith tree is burned but lives, its bark regrows over time with pale gray scarring - such bark bears special properties. Once harvested, this bark can be processed alchemically. Doing so requires a 5-pound dose of the bark to be soaked in water for 8 hours and then boiled off to a thin layer of tacky paste with a successful DC 20 Craft (alchemy) check.  ",
 			"**Use** When a dose of the pasty residue from mimameith bark is applied to a creature's skin as a standard action, the subject gains damage reduction 2/bludgeoning, fire resistance 5, and immunity to bleed effects for 1 hour.",
 			"",
 			"The bark of this wide-trunked but relatively squat tree is resistant to cutting and fire."
@@ -5454,7 +5454,7 @@
 			"",
 			"This white sea-bird feather is millennia old and coated with a thin, resinous substance that has rendered the feather as rigid as steel. When the feather is rubbed or struck, its barbs jangle against each other, emitting a curious polytonal hum like that of several tuning forks. The feather is firmly affixed to a jeweled turban pin.",
 			"",
-			"The shaft of the feather is covered with tiny Kelish script. If read-a difficult task without magnification due to the miniscule writing-the text reveals the history of the lands of Qadira before and during the establishment of the Keleshite satrapy at the end of the Age of Destiny. This acts as a library on the history of Qadira. A character with access to the feather can attempt Knowledge (history) checks about Qadira that have a DC higher than 10, even if untrained in the skill. Characters trained in Knowledge (history) can attempt a second check after studying the feather for an hour if they fail a Knowledge (history) check on such subjects."
+			"The shaft of the feather is covered with tiny Kelish script. If read - a difficult task without magnification due to the miniscule writing - the text reveals the history of the lands of Qadira before and during the establishment of the Keleshite satrapy at the end of the Age of Destiny. This acts as a library on the history of Qadira. A character with access to the feather can attempt Knowledge (history) checks about Qadira that have a DC higher than 10, even if untrained in the skill. Characters trained in Knowledge (history) can attempt a second check after studying the feather for an hour if they fail a Knowledge (history) check on such subjects."
 		]
 	},
 	"mistletoe": {
@@ -6212,7 +6212,7 @@
 			"**Price** 80 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on Knowledge checks related to the occult topic covered by that manual. Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects-such as spirits as a whole-provide an overview but don't give enough detail to grant a skill bonus."
+			"These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to collections of journals, notes, and scrolls from multiple authors. When used as a reference (an action that typically requires 1d4 minutes of searching the text), occult reference material grants a +2 circumstance bonus on Knowledge checks related to the occult topic covered by that manual. Some common topics for occult reference materials include astral projection, auras, dreams, ley lines, medium spirits, and rituals. Occult reference materials devoted to general subjects - such as spirits as a whole - provide an overview but don't give enough detail to grant a skill bonus."
 		]
 	},
 	"occultists_implement": {
@@ -6869,7 +6869,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Pathfinder Chronicles",
 			"",
-			"This volume made quite a stir upon its release because it includes a good hundred pages of collected notes by famed Pathfinder Durvin Gest-who had disappeared over a century earlier. Many of these scraps recount only partial tales of danger and battle with little context, though one surprisingly complete chapter describes Gest's journey to the Crown of the World and his discoveries there. The portion of the book not consisting of Gest's notes features a treatise on negating the effects of magical traps by contemporary Mistress of Scrolls Andirissa Belathax.",
+			"This volume made quite a stir upon its release because it includes a good hundred pages of collected notes by famed Pathfinder Durvin Gest - who had disappeared over a century earlier. Many of these scraps recount only partial tales of danger and battle with little context, though one surprisingly complete chapter describes Gest's journey to the Crown of the World and his discoveries there. The portion of the book not consisting of Gest's notes features a treatise on negating the effects of magical traps by contemporary Mistress of Scrolls Andirissa Belathax.",
 			"",
 			"### Skill Bonuses",
 			"",
@@ -6889,7 +6889,7 @@
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Pathfinder Chronicles",
 			"",
-			"Published in 4707 ar, this volume is notable for the detailed account by Koriah Azmeren of her exploration of the Darklands. Her confirmation that the legendary drow were in fact real drove the elves of Kyonin-who had maintained the secret of the drow's existence for millennia-to attempt to bribe the Decemvirate into recalling and altering the book. The Society didn't relent, however, making the existence of dark elves a widely accepted fact within only a few years' time. Other reports in this volume include a brief essay by current venturecaptain Sheila Heidmarch regarding ancient relics of the old empire of Thassilon.",
+			"Published in 4707 ar, this volume is notable for the detailed account by Koriah Azmeren of her exploration of the Darklands. Her confirmation that the legendary drow were in fact real drove the elves of Kyonin - who had maintained the secret of the drow's existence for millennia - to attempt to bribe the Decemvirate into recalling and altering the book. The Society didn't relent, however, making the existence of dark elves a widely accepted fact within only a few years' time. Other reports in this volume include a brief essay by current venturecaptain Sheila Heidmarch regarding ancient relics of the old empire of Thassilon.",
 			"",
 			"### Skill Bonuses",
 			"",
@@ -6926,7 +6926,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Similar to sunrods, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint-just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
+			"Similar to sunrods, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint - just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -6971,7 +6971,7 @@
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on Acrobatics, Climb, and Swim checks. You take half damage from caltrops. Pirates often carve hidden compartments into their peg legs-these compartments can hold small items weighing up to 1 or 2 pounds (or a few swigs of grog). If you have two peg legs, your base speed is reduced to half and you take a -10 penalty on Acrobatics, Climb, and Swim checks. You are immune to damage from caltrops.",
+			"A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on Acrobatics, Climb, and Swim checks. You take half damage from caltrops. Pirates often carve hidden compartments into their peg legs - these compartments can hold small items weighing up to 1 or 2 pounds (or a few swigs of grog). If you have two peg legs, your base speed is reduced to half and you take a -10 penalty on Acrobatics, Climb, and Swim checks. You are immune to damage from caltrops.",
 			"",
 			"Peg legs presume that the knee joint is intact. If the knee joint is not intact, use the prosthesis statistics instead."
 		]

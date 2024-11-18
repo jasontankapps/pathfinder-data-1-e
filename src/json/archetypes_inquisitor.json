@@ -475,7 +475,7 @@
 			"",
 			"This alters the inquisitor's class skills.",
 			"",
-			"**Divine Witness (Su):** Every oathkeeper inquisitor develops a unique personal symbol, which she can use to seal an agreement between two or more willing parties. The agreement, whether it's a trade contract, a truce, or a political marriage, must be as detailed as possible and then signed in the oathkeeper's presence by every creature involved. Creatures must sign of their own free will-any magical or physical coercion will cause the contract to crumble into ash when the oathkeeper attempts to place her seal upon it. So long as no mystic or physical force is influencing any participating creature, the oathkeeper can mystically seal the arrangement with her personal symbol, binding all signing parties into upholding their ends of the bargain for the length of time spelled out in the agreement.",
+			"**Divine Witness (Su):** Every oathkeeper inquisitor develops a unique personal symbol, which she can use to seal an agreement between two or more willing parties. The agreement, whether it's a trade contract, a truce, or a political marriage, must be as detailed as possible and then signed in the oathkeeper's presence by every creature involved. Creatures must sign of their own free will - any magical or physical coercion will cause the contract to crumble into ash when the oathkeeper attempts to place her seal upon it. So long as no mystic or physical force is influencing any participating creature, the oathkeeper can mystically seal the arrangement with her personal symbol, binding all signing parties into upholding their ends of the bargain for the length of time spelled out in the agreement.",
 			"",
 			"Should any oathbound creature break the exact wording of the contract, the agreement is dissolved and the offending creature is cursed, taking a penalty on all d20 rolls equal to the oathkeeper's Wisdom modifier for a number of weeks equal to the oathkeeper's inquisitor level. Furthermore, the inquisitor's symbol appears as a mystic symbol on the offending creature's throat and hands, allowing the oathkeeper to know the creature's location at all times, as per the discern location spell.",
 			"",
@@ -483,7 +483,7 @@
 			"",
 			"This replaces monster lore.",
 			"",
-			"**Oathbreaker's Scourge (Su):** At 2nd level, if an oathkeeper is given physical evidence of a broken agreement and asked to hunt down the contract's breaker by the offended party, the oathkeeper gains a +4 sacred or profane bonus on Diplomacy and Survival skill checks to gather information about and track the target. The inquisitor is also treated as being 3 levels higher for the purpose of one judgment she uses against the deal breaker, so long as she keeps possession of the evidence. If the oathkeeper uses oathbreaker's scourge when attacking someone who is actually innocent of fraud-due to forgery, hasty judgments, or other deceptions-she loses access to all of her oathkeeper archetype abilities for 1 month or until she is the target of an atonement spell. This replaces track."
+			"**Oathbreaker's Scourge (Su):** At 2nd level, if an oathkeeper is given physical evidence of a broken agreement and asked to hunt down the contract's breaker by the offended party, the oathkeeper gains a +4 sacred or profane bonus on Diplomacy and Survival skill checks to gather information about and track the target. The inquisitor is also treated as being 3 levels higher for the purpose of one judgment she uses against the deal breaker, so long as she keeps possession of the evidence. If the oathkeeper uses oathbreaker's scourge when attacking someone who is actually innocent of fraud - due to forgery, hasty judgments, or other deceptions - she loses access to all of her oathkeeper archetype abilities for 1 month or until she is the target of an atonement spell. This replaces track."
 		]
 	},
 	"preacher": {
@@ -653,7 +653,7 @@
 			"## Sanctified Slayer",
 			"",
 			"{SOURCE Advanced Class Guide/99}  ",
-			"While all inquisitors root out enemies of the faith, in many orders and churches there's a select group of these religious hunters devoted to one goal, and one goal alone-to terminate the enemies of the faith wherever they can be found. Sometimes these sanctified slayers are given special dispensation to commit ruthless murders for the faith's greater good. Other times, they're simply willing to take the initiative to revel in the zeal of such grisly work.",
+			"While all inquisitors root out enemies of the faith, in many orders and churches there's a select group of these religious hunters devoted to one goal, and one goal alone - to terminate the enemies of the faith wherever they can be found. Sometimes these sanctified slayers are given special dispensation to commit ruthless murders for the faith's greater good. Other times, they're simply willing to take the initiative to revel in the zeal of such grisly work.",
 			"",
 			"**Studied Target (Ex):** At 1st level, a sanctified slayer gains the slayer's studied target class feature. She uses her inquisitor level as her effective slayer level to determine the effects of studied target. This ability replaces judgment 1/day.",
 			"",
@@ -697,7 +697,7 @@
 			"## Sin Eater",
 			"",
 			"{SOURCE Ultimate Magic/46}  ",
-			"There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church-one must also devour those enemies' sins. More benign versions of the practice believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's soul to the enemy's god and purifying the world of its taint. Followers of malevolent churches believe that consuming the sins of good folk not only corrupts the enemy soul to keep it from the celestial planes, but also taints the souls of those who witness the sin-eating or the corpse of its victim. Consuming sins empowers the sin eater, at least for a time.",
+			"There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church - one must also devour those enemies' sins. More benign versions of the practice believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's soul to the enemy's god and purifying the world of its taint. Followers of malevolent churches believe that consuming the sins of good folk not only corrupts the enemy soul to keep it from the celestial planes, but also taints the souls of those who witness the sin-eating or the corpse of its victim. Consuming sins empowers the sin eater, at least for a time.",
 			"",
 			"**Eat Sin (Sp):** At 1st level, as a free action, when the sin eater inquisitor kills an enemy, she may eat the sins of that enemy by spending 1 minute adjacent to its corpse. This provokes attacks of opportunity. The inquisitor can rush this ritual, performing it as a full-round action that provokes attacks of opportunity, but she only gains half the normal benefit (see below).",
 			"",
@@ -930,7 +930,7 @@
 			"## Vampire Hunter",
 			"",
 			"{SOURCE Inner Sea Magic/41}  ",
-			"Undead are a scourge upon the living. The vampire hunter believes that the worst of the undead are the ones with unnatural appetites for flesh and blood-things that should persist without feeding, but consume anyway. Vampires and ghouls are especially dangerous because they turn their victims into more of their kind, and just one reckless night-feeder can turn an entire city into a den of undead.",
+			"Undead are a scourge upon the living. The vampire hunter believes that the worst of the undead are the ones with unnatural appetites for flesh and blood - things that should persist without feeding, but consume anyway. Vampires and ghouls are especially dangerous because they turn their victims into more of their kind, and just one reckless night-feeder can turn an entire city into a den of undead.",
 			"",
 			"Vampire hunters use their skills and magic to track and slay the hungry dead, walking a fine line between the purity of good magic and the tempting evil of turning dark necromancy against the unliving. Rare even in grim Ustalav, and slain on sight in Nidal and Geb, vampire hunters lead lonely existences under the constant threat of becoming that which they live to destroy. A vampire hunter has the following class features.",
 			"",
@@ -982,7 +982,7 @@
 			"## Witch Hunter",
 			"",
 			"{SOURCE Ultimate Combat/53}  ",
-			"When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and other practitioners of arcane magic-but especially witches, since their devotion to a patron is often seen as suspect by many religions.",
+			"When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and other practitioners of arcane magic - but especially witches, since their devotion to a patron is often seen as suspect by many religions.",
 			"",
 			"**Spell Sage (Ex):** At 1st level, a witch hunter adds her Wisdom modifier on Spellcraft checks in addition to her Intelligence modifier when attempting to identify a spell as it is being cast, to identify the properties of a magic item using {spell/detect magic}, or to decipher a scroll. This ability replaces monster lore.",
 			"",

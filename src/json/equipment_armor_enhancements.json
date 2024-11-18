@@ -31,7 +31,7 @@
 			"",
 			"A shield boss is a sturdy steel device that fastens to the front of a shield, providing metal support struts that radiate outward from the center of the shield, reinforcing its structure. A shield boss can be added to a buckler, light steel or wooden shield, or heavy steel or wooden shield. Tower shields are too large for a typical shield boss, though one can be crafted to fit a tower shield for an additional 300 gp. Attaching or removing a shield boss requires 10 minutes of work and a successful DC 15 Craft (armor) check; on a failure, the shield boss is not successfully attached or removed and the shield takes 1d6 points of damage that bypasses any hardness.",
 			"",
-			"A reinforcing boss provides extra protection to a shield, increasing the shield's current and maximum hit points by 10. The boss makes the shield 10 pounds heavier and more unwieldy-if the shield imposes a penalty on attack rolls, as do bucklers and tower shields, the penalty increases by 1. Common improvements to the basic reinforcing boss include the following.",
+			"A reinforcing boss provides extra protection to a shield, increasing the shield's current and maximum hit points by 10. The boss makes the shield 10 pounds heavier and more unwieldy - if the shield imposes a penalty on attack rolls, as do bucklers and tower shields, the penalty increases by 1. Common improvements to the basic reinforcing boss include the following.",
 			"",
 			"*Breakaway Boss:* The metal stud at the center of the reinforcing boss holds a compartment large enough to insert a single splash weapon, such as a vial of acid or alchemist's fire, as a full-round action. On a successful shield bash attack, the weapon vial breaks and deals damage to the target as though it were directly hit by the splash weapon. The shield takes the normal amount of splash damage for being adjacent to the target, but no other creatures adjacent to the target take splash damage from this effect. A new splash weapon must be inserted into the breakaway boss for it to be used again.",
 			"",
@@ -210,7 +210,7 @@
 			"{SOURCE Adventurer's Armory 2/7;Faction Guide/55}  ",
 			"**Cost** +1,000 gp **Weight** +20 lbs.",
 			"",
-			"Opponents who swing too hard at targets wearing this armor often regret it-striking jarring armor sends a shock up the arm. Whenever an opponent makes a melee attack against you using the {feat/Power Attack} feat and misses by 5 or fewer, he must succeed at a Fortitude saving throw (DC = 10 + the bonus that Power Attack would have applied to the attacker's weapon damage roll) or be sickened for 1 round.",
+			"Opponents who swing too hard at targets wearing this armor often regret it - striking jarring armor sends a shock up the arm. Whenever an opponent makes a melee attack against you using the {feat/Power Attack} feat and misses by 5 or fewer, he must succeed at a Fortitude saving throw (DC = 10 + the bonus that Power Attack would have applied to the attacker's weapon damage roll) or be sickened for 1 round.",
 			"",
 			"*Drawback*  ",
 			"Jarring armor reduces your speed by 5 feet."

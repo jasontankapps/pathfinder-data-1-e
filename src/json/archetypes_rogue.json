@@ -12,9 +12,9 @@
 			"",
 			"**Second Chance (Ex):** At 3rd level, an acrobat can reroll any Acrobatics, Climb, or Fly skill check she has just made. This reroll is made at a -5 penalty. She must take the second result, even if it is worse. An acrobat can use this ability only once on any given skill check. She can use this ability once per day at 3rd level, plus one additional time per day for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the acrobat archetype: expert leaper, ledge walker*, nimble climber, peerless maneuver, rogue crawl*, and stand up*.",
+			"**Rogue Talents:** The following rogue talents complement the acrobat archetype: expert leaper, ledge walker, nimble climber, peerless maneuver, rogue crawl, and stand up.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the acrobat archetype: defensive roll*, fast getaway, fast tumble, and improved evasion*."
+			"**Advanced Talents:** The following advanced rogue talents complement the acrobat archetype: defensive roll, fast getaway, fast tumble, and improved evasion."
 		]
 	},
 	"bandit": {
@@ -30,9 +30,9 @@
 			"",
 			"**Fearsome Strike (Ex):** At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the bandit archetype: assault leader, combat trick, cunning trigger, snap shot, strong impression, surprise attack, terrain master*, underhanded*, and weapon training.",
+			"**Rogue Talents:** The following rogue talents complement the bandit archetype: assault leader, combat trick, cunning trigger, snap shot, strong impression, surprise attack, terrain master, underhanded, and weapon training.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the bandit archetype: hide in plain sight*, knock-out blow, and opportunist."
+			"**Advanced Talents:** The following advanced rogue talents complement the bandit archetype: hide in plain sight, knock-out blow, and opportunist."
 		]
 	},
 	"bekyar_kidnapper": {
@@ -60,9 +60,9 @@
 			"## Bellflower Irrigator",
 			"",
 			"{SOURCE Adventurer's Guide/43}  ",
-			"Bellflower irrigators take on tasks that many other agents of the [Bellflower Network](rule/aff_antislavery) find distasteful. Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge the precise moment to strike from the shadows and annihilate slave traders and masters alike. Bellflower irrigators realize that for every slave released today, another will be shackled tomorrow-until all the masters are dead. This cynicism leads Bellflower irrigators to target anyone who owns or sells slaves on Golarion, especially cruel masters within Cheliax.",
+			"Bellflower irrigators take on tasks that many other agents of the [Bellflower Network](rule/aff_antislavery) find distasteful. Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge the precise moment to strike from the shadows and annihilate slave traders and masters alike. Bellflower irrigators realize that for every slave released today, another will be shackled tomorrow - until all the masters are dead. This cynicism leads Bellflower irrigators to target anyone who owns or sells slaves on Golarion, especially cruel masters within Cheliax.",
 			"",
-			"Though most Bellflower irrigators are halflings, this branch of the Network is more diverse than many of the others-anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good-most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.",
+			"Though most Bellflower irrigators are halflings, this branch of the Network is more diverse than many of the others - anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good - most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.",
 			"",
 			"**Bellflower Crop (Ex):** As a standard action, a Bellflower irrigator can designate a number of allies equal to 3 + his Charisma modifier as part of his Bellflower crop. Members of a Bellflower crop must remain within 30 feet of the Bellflower irrigator to gain any benefits from abilities that affect a Bellflower crop, regardless of the ability's source (whether it's a Bellflower harvester, irrigator, or tiller). If the allies leave this range, the Bellflower irrigator must designate them again to include them in his crop.",
 			"",
@@ -92,9 +92,9 @@
 			"",
 			"**Distraction (Ex):** At 8th level, whenever a burglar is detected while using Stealth, she can immediately attempt a Bluff skill check opposed by the Sense Motive skill of the creature that spotted her. If this check succeeds, the target assumes that the noise was something innocent and disregards the detection. This only functions if the creature cannot see the rogue. This ability can only be used once during a given Stealth attempt. If the same creature detects the rogue's presence again, the ability has no effect. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the burglar archetype: fast picks, fast stealth*, nimble climber, quick disable*, and trap spotter*.",
+			"**Rogue Talents:** The following rogue talents complement the burglar archetype: fast picks, fast stealth, nimble climber, quick disable, and trap spotter.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the burglar archetype: knock-out blow, skill mastery*, and thoughtful reexamining."
+			"**Advanced Talents:** The following advanced rogue talents complement the burglar archetype: knock-out blow, skill mastery, and thoughtful reexamining."
 		]
 	},
 	"carnivalist": {
@@ -152,9 +152,9 @@
 			"",
 			"**Effortless Sneak (Sp):** At 3rd level, the chameleon chooses a single terrain from the ranger's favored terrain class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the chameleon archetype: camouflage, fast stealth, quick disguise, and terrain mastery*.",
+			"**Rogue Talents:** The following rogue talents complement the chameleon archetype: camouflage, fast stealth, quick disguise, and terrain mastery.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the chameleon archetype: hide in plain sight* and master of disguise."
+			"**Advanced Talents:** The following advanced rogue talents complement the chameleon archetype: hide in plain sight and master of disguise."
 		]
 	},
 	"charlatan": {
@@ -170,9 +170,9 @@
 			"",
 			"**Grand Hoax (Ex):** At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the rumormonger advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the charlatan archetype: black market connections*, coax information, cunning lie*, honeyed words, and underhanded*.",
+			"**Rogue Talents:** The following rogue talents complement the charlatan archetype: black market connections, coax information, cunning lie, honeyed words, and underhanded.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the charlatan archetype: hard to fool*, skill mastery, and unwitting ally*."
+			"**Advanced Talents:** The following advanced rogue talents complement the charlatan archetype: hard to fool, skill mastery, and unwitting ally."
 		]
 	},
 	"consigliere": {
@@ -276,9 +276,9 @@
 			"",
 			"**Stab and Grab (Ex):** At 3rd level, as a full-round action, a cutpurse can make an attack and also make a Sleight of Hand check to steal something from the target of the attack. If the attack deals sneak attack damage, the rogue can use Sleight of Hand to take an item from the creature during combat; otherwise this ability can only be used in a surprise round before the target has acted. If the attack is successful, the target takes a -5 penalty on the Perception check to notice the theft. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the cutpurse archetype: combat swipe, fast fingers, fast getaway, hard to fool, minor magic*, slow reactions*, and surprise attack*.",
+			"**Rogue Talents:** The following rogue talents complement the cutpurse archetype: combat swipe, fast fingers, fast getaway, hard to fool, minor magic, slow reactions, and surprise attack.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the cutpurse archetype: crippling strike*, fast tumble, and skill mastery*."
+			"**Advanced Talents:** The following advanced rogue talents complement the cutpurse archetype: crippling strike, fast tumble, and skill mastery."
 		]
 	},
 	"dark_lurker": {
@@ -362,7 +362,7 @@
 			"## Discretion Specialist",
 			"",
 			"{SOURCE Antihero's Handbook/25}  ",
-			"Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient witnesses, and other loose ends. Many organizations employ them to cover up activities that might be unpopular-should they become known to the general populace.",
+			"Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient witnesses, and other loose ends. Many organizations employ them to cover up activities that might be unpopular - should they become known to the general populace.",
 			"",
 			"This archetype is appropriate for rogues and unchained rogues.",
 			"",
@@ -376,7 +376,7 @@
 			"",
 			"This replaces trap sense (for a core rogue) or danger sense (for an unchained rogue).",
 			"",
-			"**Evidence Disposal (Sp):** A discretion specialist can cover up a corpse's cause of a death-or dispose of it entirely. At 4th level, the discretion specialist gains the ability to cast {spell/dress corpse} as a spell-like ability, using her rogue level as her caster level. She can use this ability once per day, plus one additional time per day for every 5 rogue levels she has (to a maximum of five times at 20th level).",
+			"**Evidence Disposal (Sp):** A discretion specialist can cover up a corpse's cause of a death - or dispose of it entirely. At 4th level, the discretion specialist gains the ability to cast {spell/dress corpse} as a spell-like ability, using her rogue level as her caster level. She can use this ability once per day, plus one additional time per day for every 5 rogue levels she has (to a maximum of five times at 20th level).",
 			"",
 			"At 12th level, she can spend two uses of this ability to disintegrate a corpse entirely as a full-round action, leaving behind only a trace of fine dust (a disintegrated creature's equipment is unaffected). The target cannot be an undead creature. A corpse disintegrated this way cannot be brought back to life except by resurrection or more powerful magic, including miracle or wish.",
 			"",
@@ -408,7 +408,7 @@
 			"",
 			"This alters the rogue's class skills.",
 			"",
-			"**Dreamshard Focus (Su):** At 1st level, a dreamthief selects an emotional focus from among those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her good saving throws-she retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice.",
+			"**Dreamshard Focus (Su):** At 1st level, a dreamthief selects an emotional focus from among those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her good saving throws - she retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice.",
 			"",
 			"A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional focus abilities whose effect references both a phantom and a spiritualist, such as dutiful strike, and she treats her rogue level as both her spiritualist level and her phantom Hit Dice when determining abilities and save DCs.",
 			"",
@@ -442,9 +442,9 @@
 			"",
 			"**Driver's Fortitude (Ex):** At 3rd level, the driver learns to keep driving and maintain control of her vehicle, even when mortally wounded. If the driver drops below 0 hit points but is not dead, she can attempt a DC 15 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no other actions. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the driver archetype: firearm training* and getaway artist*.",
+			"**Rogue Talents:** The following rogue talents complement the driver archetype: firearm training and getaway artist.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the driver archetype: feat and getaway master*."
+			"**Advanced Talents:** The following advanced rogue talents complement the driver archetype: feat and getaway master."
 		]
 	},
 	"earthshadow": {
@@ -670,7 +670,7 @@
 			"## Guerrilla",
 			"",
 			"{SOURCE Inner Sea Intrigue/41}  ",
-			"Guerrillas fight against oppressive leadership and governments-often under cover of night-including Chelish colonization in Sargava and the power structures in Cheliax proper, Nidal, and Razmiran. Any rogue (including the unchained rogue) can select the guerrilla archetype.",
+			"Guerrillas fight against oppressive leadership and governments - often under cover of night - including Chelish colonization in Sargava and the power structures in Cheliax proper, Nidal, and Razmiran. Any rogue (including the unchained rogue) can select the guerrilla archetype.",
 			"",
 			"**Skilled Liar (Ex):** Whenever a guerrilla uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). A guerrilla can still use Disable Device to disarm magic traps.",
 			"",
@@ -750,7 +750,7 @@
 			"",
 			"This alters sneak attack.",
 			"",
-			"**Stolen Shots (Ex):** At 3rd level, a gun smuggler can access small quantities of cutting-edge firearm technology through clandestine dealers. She gains the benefits of the black market connections rogue talent, though only for the purpose of securing firearms and related equipment. At the beginning of each day, the gun smuggler gains a number of bullets (with accompanying black powder) or paper cartridges-referred to as shots-in any combination equal to her rogue level, representing ammunition smuggled to her by contacts. Her contacts provide only enough shots to replenish this small supply, so she can't accumulate ammunition indefinitely, and these shots have a market price of 0 gp.",
+			"**Stolen Shots (Ex):** At 3rd level, a gun smuggler can access small quantities of cutting-edge firearm technology through clandestine dealers. She gains the benefits of the black market connections rogue talent, though only for the purpose of securing firearms and related equipment. At the beginning of each day, the gun smuggler gains a number of bullets (with accompanying black powder) or paper cartridges - referred to as shots - in any combination equal to her rogue level, representing ammunition smuggled to her by contacts. Her contacts provide only enough shots to replenish this small supply, so she can't accumulate ammunition indefinitely, and these shots have a market price of 0 gp.",
 			"",
 			"At 6th level, the gun smuggler can elect to gain one or more pieces of magic ammunition, though each one replaces a number of her daily shots equal to the ammunition's enhancement bonus (maximum enhancement bonus of +2 for any one piece of ammunition). She can choose to add any of the following weapon special abilities to the shot, though the shot must have at least a +1 enhancement bonus, and these special abilities use an amount of bonus equal to the ability's normal price: distance, flaming, flaming burst, merciful, seeking, or thundering. At 9th level and every 3 rogue levels thereafter, the maximum enhancement bonus of a gun smuggler's shots increases by 1 (to a maximum of +6 at 18th level).",
 			"",
@@ -798,9 +798,9 @@
 			"",
 			"**Follow Up (Ex):** An investigator can roll twice on any Diplomacy check made to gather information, and receives the information for both results. This takes the same amount of time as one check. If the lesser of the two checks reveals false information, the rogue is aware of it. False information is not revealed in this way if the people she questioned do not know it to be false. This ability replaces trapfinding.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the investigator archetype: coax information, fast picks, follow clues, hard to fool, and minor magic*.",
+			"**Rogue Talents:** The following rogue talents complement the investigator archetype: coax information, fast picks, follow clues, hard to fool, and minor magic.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the investigator archetype: hunter's surprise, slippery mind*, and thought reexamining."
+			"**Advanced Talents:** The following advanced rogue talents complement the investigator archetype: hunter's surprise, slippery mind, and thought reexamining."
 		]
 	},
 	"kintargo_rebel": {
@@ -854,9 +854,9 @@
 			"",
 			"**Blade Sense (Ex):** At 3rd level, a knife master is so skilled in combat involving light blades that she gains a +1 dodge bonus to AC against attacks made against her with light blades. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the knife master archetype: befuddling strike, combat trick, offensive defense, surprise attack, underhanded*, and weapon training.",
+			"**Rogue Talents:** The following rogue talents complement the knife master archetype: befuddling strike, combat trick, offensive defense, surprise attack, underhanded, and weapon training.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the knife master archetype: another day, confounding blades*, deadly sneak, entanglement of blades, and unwitting ally*."
+			"**Advanced Talents:** The following advanced rogue talents complement the knife master archetype: another day, confounding blades, deadly sneak, entanglement of blades, and unwitting ally."
 		]
 	},
 	"makeshift_scrapper": {
@@ -1030,9 +1030,9 @@
 			"",
 			"**Unflinching (Ex):** Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the pirate archetype: black market connections*, combat trick, finesse rogue, firearm training*, hold breath*, rope master*, and strong stroke*.",
+			"**Rogue Talents:** The following rogue talents complement the pirate archetype: black market connections, combat trick, finesse rogue, firearm training, hold breath, rope master, and strong stroke.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the pirate archetype: getaway master*, hard to fool*, and unwitting ally*."
+			"**Advanced Talents:** The following advanced rogue talents complement the pirate archetype: getaway master, hard to fool, and unwitting ally."
 		]
 	},
 	"planar_sneak": {
@@ -1070,9 +1070,9 @@
 			"",
 			"**Master Poisoner (Ex):** At 3rd level, a poisoner can use Craft (alchemy) to change the type of a poison. This requires 1 hour of work with an alchemist's lab and a Craft (alchemy) skill check with a DC equal to the poison's DC. If successful, the poison's type changes to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined. The poisoner also receives a bonus on Craft (alchemy) skill checks when working with poison equal to 1/2 her rogue level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the poisoner archetype: distracting attack, lasting poison, surprise attack*, swift poison, and weapon training*.",
+			"**Rogue Talents:** The following rogue talents complement the poisoner archetype: distracting attack, lasting poison, surprise attack, swift poison, and weapon training.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the poisoner archetype: deadly cocktail, hunter's surprise, and opportunist*."
+			"**Advanced Talents:** The following advanced rogue talents complement the poisoner archetype: deadly cocktail, hunter's surprise, and opportunist."
 		]
 	},
 	"rake": {
@@ -1088,9 +1088,9 @@
 			"",
 			"**Rake's Smile (Ex):** At 3rd level, a rake gains a +1 morale bonus on Bluff and Diplomacy checks. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the rake archetype: befuddling strike, charmer, honeyed words, and surprise attack*.",
+			"**Rogue Talents:** The following rogue talents complement the rake archetype: befuddling strike, charmer, honeyed words, and surprise attack.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the rake archetype: another day, redirect attack, and skill mastery*."
+			"**Advanced Talents:** The following advanced rogue talents complement the rake archetype: another day, redirect attack, and skill mastery."
 		]
 	},
 	"relic_raider": {
@@ -1110,9 +1110,9 @@
 			"",
 			"**Advanced Talents:** A relic raider can select the following advanced talents. Talents marked with an asterisk add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before making the attack roll.",
 			"",
-			"Cursed Strike* (Su): Once per day, when the relic raider would normally deal sneak attack damage, she can instead forgo all bonus damage to attempt to curse her target (as per the spell bestow curse). The save is DC equal to 10 + 1/2 the relic raider's rogue level + her Intelligence modifier. A relic raider must have the major magic rogue talent before choosing cursed strike. The relic raider can use this ability an additional time per day at 15th level and 20th level.",
-			"",
-			"Etheric Strike* (Su): With a successful sneak attack against haunts or undead, the relic raider can deal her sneak attack damage as positive energy damage rather than physical damage. The additional damage affects undead that are normally immune to sneak attacks because of their lack of a discernible anatomy (such as ghosts). A relic raider can make an etheric strike a number of times per day equal to 3 + her Charisma modifier."
+			">*Cursed Strike (Su):* Once per day, when the relic raider would normally deal sneak attack damage, she can instead forgo all bonus damage to attempt to curse her target (as per the spell bestow curse). The save is DC equal to 10 + 1/2 the relic raider's rogue level + her Intelligence modifier. A relic raider must have the major magic rogue talent before choosing cursed strike. The relic raider can use this ability an additional time per day at 15th level and 20th level.",
+			">",
+			">*Etheric Strike (Su):* With a successful sneak attack against haunts or undead, the relic raider can deal her sneak attack damage as positive energy damage rather than physical damage. The additional damage affects undead that are normally immune to sneak attacks because of their lack of a discernible anatomy (such as ghosts). A relic raider can make an etheric strike a number of times per day equal to 3 + her Charisma modifier."
 		]
 	},
 	"river_rat": {
@@ -1159,7 +1159,7 @@
 			"",
 			"**Tumbling Descent (Ex):** At 2nd level, a roof runner can use her acrobatics skill to attempt a rapid descent from a rooftop or another surface, ricocheting against another surface and then diving through an opening (such as a balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet apart to bounce against, she can ricochet her body back from one to the next, descending great distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended beyond the initial 10 feet dropped. If she fails, she falls the full distance. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the roof runner archetype: expert leaper, ledge walker, nimble climber, stand up, and terrain mastery*.",
+			"**Rogue Talents:** The following rogue talents complement the roof runner archetype: expert leaper, ledge walker, nimble climber, stand up, and terrain mastery.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talent complements the roof runner archetype: fast tumble."
 		]
@@ -1201,7 +1201,7 @@
 			"",
 			"**Divine Epiphany (Su):** At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an augury spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the sanctified rogue archetype: esoteric scholar*, major magic, and minor magic.",
+			"**Rogue Talents:** The following rogue talents complement the sanctified rogue archetype: esoteric scholar, major magic, and minor magic.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the sanctified rogue archetype: feat and skill mastery."
 		]
@@ -1235,9 +1235,9 @@
 			"",
 			"**Skirmisher (Ex):** At 8th level, whenever a scout moves more than 10 feet in a round and makes an attack action, the attack deals sneak attack damage as if the target was flat-footed. If the scout makes more than one attack this turn, this ability only applies to the first attack. Foes with uncanny dodge are immune to this ability. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the scout archetype: assault leader, camouflage, cunning trigger, survivalist, and trap spotter*.",
+			"**Rogue Talents:** The following rogue talents complement the scout archetype: assault leader, camouflage, cunning trigger, survivalist, and trap spotter.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the scout archetype: hunter's surprise, skill mastery*, and stealthy sniper."
+			"**Advanced Talents:** The following advanced rogue talents complement the scout archetype: hunter's surprise, skill mastery, and stealthy sniper."
 		]
 	},
 	"scroll_scoundrel": {
@@ -1269,7 +1269,7 @@
 			"{SOURCE The Harrow Handbook/13}  ",
 			"If life is a game, the Sczarni play to win. When skill and luck aren't enough, cheating is often the best option.",
 			"",
-			"**Let Fate Decide (Ex):** At 1st level, the Sczarni swindler can declare two different actions that rely on different types of rolls or checks, such as attacking a creature (an attack roll) or sneaking past the same creature (a Stealth check). As a standard action, the swindler then uses a random method to choose one of the declared activities, such as flipping a coin, rolling a die, or drawing a harrow card. The specific method doesn't matter as long as there is an equal chance of either activity being chosen. If the swindler then performs the chosen activity within the next round, she gains a luck bonus on the roll type required for that activity-attack rolls with a specific weapon, a specific skill check, a specific ability check, or a specific saving throw-equal to half her rogue level (minimum +1) for 1 minute. If the swindler performs any other action (whether declared or not) in the round after using this ability, she becomes shaken for 1 minute instead. The swindler can use this ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces trapfinding.",
+			"**Let Fate Decide (Ex):** At 1st level, the Sczarni swindler can declare two different actions that rely on different types of rolls or checks, such as attacking a creature (an attack roll) or sneaking past the same creature (a Stealth check). As a standard action, the swindler then uses a random method to choose one of the declared activities, such as flipping a coin, rolling a die, or drawing a harrow card. The specific method doesn't matter as long as there is an equal chance of either activity being chosen. If the swindler then performs the chosen activity within the next round, she gains a luck bonus on the roll type required for that activity - attack rolls with a specific weapon, a specific skill check, a specific ability check, or a specific saving throw - equal to half her rogue level (minimum +1) for 1 minute. If the swindler performs any other action (whether declared or not) in the round after using this ability, she becomes shaken for 1 minute instead. The swindler can use this ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces trapfinding.",
 			"",
 			"**Quicker Than the Eye (Ex):** At 2nd level, when the Sczarni swindler uses Sleight of Hand, creatures take a penalty on their Perception checks equal to half the swindler's class level to notice the attempt. The swindler also reduces the normal -20 penalty by an amount equal to her class level when attempting a Sleight of Hand check as a move action instead of as a standard action. Lastly, the swindler can draw hidden weapons or objects from her person as a move action instead of the usual standard action. This ability replaces evasion.",
 			"",
@@ -1521,9 +1521,9 @@
 			"",
 			"**Deadly Range (Ex):** At 3rd level, a sniper increases the range at which she can apply her sneak attack damage by 10 feet. This range increases by 10 feet for every 3 levels after 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the sniper archetype: camouflage, snap shot, sniper's eye, and weapon training*.",
+			"**Rogue Talents:** The following rogue talents complement the sniper archetype: camouflage, snap shot, sniper's eye, and weapon training.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the sniper archetype: defensive roll*, master of disguise, and stealthy sniper."
+			"**Advanced Talents:** The following advanced rogue talents complement the sniper archetype: defensive roll, master of disguise, and stealthy sniper."
 		]
 	},
 	"snoop": {
@@ -1567,9 +1567,9 @@
 			"",
 			"**Poison Use (Ex):** A 3rd level, a spy is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the spy archetype: canny observer, guileful polyglot, honeyed words, major magic*, minor magic*, and quick disguise.",
+			"**Rogue Talents:** The following rogue talents complement the spy archetype: canny observer, guileful polyglot, honeyed words, major magic, minor magic, and quick disguise.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the spy archetype: crippling strike*, master of disguise, and stealthy sniper."
+			"**Advanced Talents:** The following advanced rogue talents complement the spy archetype: crippling strike, master of disguise, and stealthy sniper."
 		]
 	},
 	"survivalist": {
@@ -1579,13 +1579,13 @@
 			"## Survivalist",
 			"",
 			"{SOURCE Ultimate Combat/74}  ",
-			"The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. Whether in blazing deserts or frigid arctic wastes-or simply the cold, hard reality of the streets-the survivalist uses her training to both ensure her own success and provide for the safety of her allies.",
+			"The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. Whether in blazing deserts or frigid arctic wastes - or simply the cold, hard reality of the streets - the survivalist uses her training to both ensure her own success and provide for the safety of her allies.",
 			"",
 			"**Hardy (Ex):** At 1st level, a survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation. This ability replaces trapfinding.",
 			"",
 			"**Endure Elements (Sp):** At 3rd level, a survivalist rogue can use endure elements once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the survivalist archetype: hold breath*, iron guts*, resiliency, strong stroke*, survivalist, terrain mastery*, and wall scramble*.",
+			"**Rogue Talents:** The following rogue talents complement the survivalist archetype: hold breath, iron guts, resiliency, strong stroke, survivalist, terrain mastery, and wall scramble.",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the survivalist archetype: another day, defensive roll, feat, and skill mastery."
 		]
@@ -1629,9 +1629,9 @@
 			"",
 			"**Daring (Ex):** At 3rd level, a swashbuckler gains a +1 morale bonus on Acrobatics checks and saving throws against fear. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the swashbuckler archetype: offensive defense, positioning attack, powerful sneak, and weapon training*.",
+			"**Rogue Talents:** The following rogue talents complement the swashbuckler archetype: offensive defense, positioning attack, powerful sneak, and weapon training.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the swashbuckler archetype: crippling strike*, entanglement of blades, and redirect attack."
+			"**Advanced Talents:** The following advanced rogue talents complement the swashbuckler archetype: crippling strike, entanglement of blades, and redirect attack."
 		]
 	},
 	"swordmaster": {
@@ -1713,11 +1713,11 @@
 			"",
 			"**Frightening (Ex):** Whenever a thug successfully uses Intimidate to demoralize a creature, the duration of the shaken condition is increased by 1 round. In addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the target frightened for 1 round. This ability replaces trapfinding.",
 			"",
-			"**Brutal Beating (Ex):** At 3rd level, whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak attack damage to make the target sickened for a number of rounds equal to 1/2 her rogue level. This ability does not stack with itself-only the most recent duration applies. This ability replaces trap sense.",
+			"**Brutal Beating (Ex):** At 3rd level, whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak attack damage to make the target sickened for a number of rounds equal to 1/2 her rogue level. This ability does not stack with itself - only the most recent duration applies. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the thug archetype: offensive defense, powerful sneak, strong impression, and weapon training*.",
+			"**Rogue Talents:** The following rogue talents complement the thug archetype: offensive defense, powerful sneak, strong impression, and weapon training.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the thug archetype: crippling strike*, deadly sneak, and knock-out blow."
+			"**Advanced Talents:** The following advanced rogue talents complement the thug archetype: crippling strike, deadly sneak, and knock-out blow."
 		]
 	},
 	"tidal_trickster": {
@@ -1751,7 +1751,7 @@
 			"{SOURCE Adventurer's Guide/75}  ",
 			"Twilight Talons might pursue many tasks, from relatively passive information gathering to staging massive coups meant to depose tyrants. A toxic talon, however, is trained and deployed for one very specific purpose: to defeat foes with unusual and potent poisons. After adopting a profession to serve as a cover for his activities, a toxic talon spends resources and time combining easy-to-obtain materials into dangerous toxins to aid in the defense of Andoran. A toxic talon can use rare, complex, slow-release poisons to make a death look like it happened naturally, but sometimes the toxic talon will use specific poisons to cast suspicion on other organizations, stirring internal conflict that other Twilight Talons can use to their advantage.",
 			"",
-			"The use of poisons in the defense of a good nation is controversial, and other branches of the [Eagle Knights](rule/aff_vangard) generally disavow the existence of toxic talons among their organization. Many influential leaders among the Eagle Knights, particularly in the Steel Falcons, have pushed to have the practices of the toxic talons banned from use, but these efforts have only pushed the toxic talons into further obscurity. Their role is particularly protected by the Twilight Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by publicly accepting blame for a mission that has had unfortunate public repercussions. In such a case, the toxic talon is not abandoned by his kin-instead, he is placed on a fair and public trial whose purpose is as much to appease the masses as it is to determine whether any moral lines were crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor or prison (in which case he often continues to run missions inside of prisons or other fortifications for the Eagle Knights as best suits his talents) or to exile (in which case his role in serving Andoran shifts to one of clandestine missions in other nations). A toxic talon who martyrs his freedom in this way and is then captured again understands that it's unlikely he'll be afforded the same level of support from the Eagle Knights, and that the organization may well disavow any official knowledge of his actions. To a toxic talon, this is all merely a deeper, more significant level of service to the well-being of the nation of Andoran. By serving as a sort of sineater for the rest of the Twilight Talons (and at times, for the other branches of the Eagle Knights), such selfless characters can ensure that the organization survives scandal and public outcry to carry on their good work. In such cases, while public recognition for their deeds may never manifest, their brothers and sisters never forget the toxic talon's sacrifice.",
+			"The use of poisons in the defense of a good nation is controversial, and other branches of the [Eagle Knights](rule/aff_vangard) generally disavow the existence of toxic talons among their organization. Many influential leaders among the Eagle Knights, particularly in the Steel Falcons, have pushed to have the practices of the toxic talons banned from use, but these efforts have only pushed the toxic talons into further obscurity. Their role is particularly protected by the Twilight Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by publicly accepting blame for a mission that has had unfortunate public repercussions. In such a case, the toxic talon is not abandoned by his kin - instead, he is placed on a fair and public trial whose purpose is as much to appease the masses as it is to determine whether any moral lines were crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor or prison (in which case he often continues to run missions inside of prisons or other fortifications for the Eagle Knights as best suits his talents) or to exile (in which case his role in serving Andoran shifts to one of clandestine missions in other nations). A toxic talon who martyrs his freedom in this way and is then captured again understands that it's unlikely he'll be afforded the same level of support from the Eagle Knights, and that the organization may well disavow any official knowledge of his actions. To a toxic talon, this is all merely a deeper, more significant level of service to the well-being of the nation of Andoran. By serving as a sort of sineater for the rest of the Twilight Talons (and at times, for the other branches of the Eagle Knights), such selfless characters can ensure that the organization survives scandal and public outcry to carry on their good work. In such cases, while public recognition for their deeds may never manifest, their brothers and sisters never forget the toxic talon's sacrifice.",
 			"",
 			"**Forceful Breath (Ex):** A toxic talon is proficient with blowguns instead of hand crossbows. He can use a blowgun without penalty while prone.",
 			"",
@@ -1781,15 +1781,15 @@
 			"## Trapsmith",
 			"",
 			"{SOURCE Advanced Player's Guide/135}  ",
-			"Some rogues are not content with just disabling traps-they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may have started out putting together traps in order to better understand how to disable them, but for most, it's long since gone beyond that-they now relish the challenge of creating the perfect combat machine.",
+			"Some rogues are not content with just disabling traps - they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may have started out putting together traps in order to better understand how to disable them, but for most, it's long since gone beyond that - they now relish the challenge of creating the perfect combat machine.",
 			"",
 			"**Careful Disarm (Ex):** At 4th level, whenever a trapsmith attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.",
 			"",
 			"**Trap Master (Ex):** At 8th level, whenever a trapsmith disarms a trap using Disable Device, she can bypass it even if her check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures to pass it without danger, she can modify which creatures it allows to pass, adding her allies and restricting enemies if she desires. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the trapsmith archetype: befuddling strike, cunning trigger, quick disable*, and quick trapsmith.",
+			"**Rogue Talents:** The following rogue talents complement the trapsmith archetype: befuddling strike, cunning trigger, quick disable, and quick trapsmith.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the trapsmith archetype: another day, frugal trapsmith, and skill mastery*."
+			"**Advanced Talents:** The following advanced rogue talents complement the trapsmith archetype: another day, frugal trapsmith, and skill mastery."
 		]
 	},
 	"underground_chemist": {

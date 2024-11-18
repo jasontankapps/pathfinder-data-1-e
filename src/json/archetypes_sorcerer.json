@@ -158,7 +158,7 @@
 			"## Razmiran Priest",
 			"",
 			"{SOURCE Inner Sea Magic/38}  ",
-			"The so-called \"priests\" of Razmir are magical charlatans-missionary servants of the Living God who spread his fervent devotion wherever they travel. Altered by Razmir's magic, he can perform feats impossible for other sorcerers. A Razmiran priest has the following class features.",
+			"The so-called \"priests\" of Razmir are magical charlatans - missionary servants of the Living God who spread his fervent devotion wherever they travel. Altered by Razmir's magic, he can perform feats impossible for other sorcerers. A Razmiran priest has the following class features.",
 			"",
 			"**False Piety (Ex):** At 1st level, a Razmiran priest gains Knowledge (religion) and Perform as class skills, but loses Appraise and Fly as class skills. He adds half his sorcerer level to Use Magic Device checks to activate spell trigger and spell completion items that use divine spells. He gains {feat/False Focus} as a bonus feat. In addition to replacing Appraise and Fly as class skills, this ability replaces the priest's Eschew Materials bonus feat.",
 			"",
@@ -228,7 +228,7 @@
 			"{SOURCE Inner Sea Magic/40}  ",
 			"The tattooed sorcerer has embraced the ancient traditions of Varisian spellcasting, and uses colorful and intricate tattoos to enhance her magical powers. A tattooed sorcerer has the following class features.",
 			"",
-			"**Familiar Tattoo (Su):** A tattooed sorcerer gains a familiar as an arcane bond, as a wizard equal to her sorcerer level. Her sorcerer levels stack with any wizard or witch levels she possesses when determining the powers of her familiar-this ability does not allow her to have both a familiar and a bonded item.",
+			"**Familiar Tattoo (Su):** A tattooed sorcerer gains a familiar as an arcane bond, as a wizard equal to her sorcerer level. Her sorcerer levels stack with any wizard or witch levels she possesses when determining the powers of her familiar - this ability does not allow her to have both a familiar and a bonded item.",
 			"",
 			"Unlike most familiars, her familiar can transform itself into a tattoo that she carries in her flesh. Transforming into a tattoo or back to normal familiar form is a move action for her familiar. In tattoo form, the familiar looks like a stylized version of itself, but does not count as a creature separate from the tattooed sorcerer. In tattoo form it continues to grant its special familiar ability, but otherwise has no abilities and can take no actions except to transform from tattoo into creature. A familiar tattoo cannot be erased or dispelled. This ability replaces her 1st-level bloodline power.",
 			"",
@@ -236,7 +236,7 @@
 			"",
 			"**Bloodline Tattoos (Ex):** Whenever a tattooed sorcerer gains a bloodline spell, a new tattoo manifests on her body to represent this spell. Her bloodline spells are always enhanced by her Varisian Tattoo feat, even if they don't match the school to which her Varisian Tattoo belongs.",
 			"",
-			"**Create Spell Tattoo (Su):** At 7th level, a tattooed sorcerer can create a {magic-tattoo/spell tattoo} once per day with a single touch as a standard action. The recipient of the spell tattoo must be willing to receive the spell tattoo. If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time-if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with Inscribe Magic Tattoo do not count against this limit. She can use this ability twice per day at 11th level, and three times per day at 15th level. This ability replaces the bloodline feat gained at 7th level.",
+			"**Create Spell Tattoo (Su):** At 7th level, a tattooed sorcerer can create a {magic-tattoo/spell tattoo} once per day with a single touch as a standard action. The recipient of the spell tattoo must be willing to receive the spell tattoo. If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a time - if she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with Inscribe Magic Tattoo do not count against this limit. She can use this ability twice per day at 11th level, and three times per day at 15th level. This ability replaces the bloodline feat gained at 7th level.",
 			"",
 			"**Enhanced Varisian Tattoo (Su):** At 9th level, the tattooed sorcerer can pick any one spell she knows for which she has a Varisian Tattoo feat. This spell must be one that lacks focus components and costly material components. She can now use that spell as a spell-like ability once per day. This spell-like ability is not enhanced by her Varisian Tattoo, but it functions at +2 caster levels above her sorcerer caster level. Whenever she gains a bloodline power at a later date, she may change this spell-like ability to another qualifying spell. This ability replaces the 9th-level bloodline power."
 		]

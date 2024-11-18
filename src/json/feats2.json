@@ -141,7 +141,7 @@
 			"{SOURCE Wilderness Origins/10}",
 			"",
 			"You can infuse your spells with the ability to cripple your targets with old age or regress them to the folly of youth.  ",
-			"**Benefit:** When a living creature takes damage from the affected spell, that creature also takes 2 points of damage to Strength, Dexterity, and Constitution or 2 points of damage to Intelligence, Wisdom, and Charisma (your choice). If the spell does not normally allow a save, the target can attempt a Fortitude save to negate the effect. Ageless or immortal creatures are immune to this effect. This is a magical aging effect, but it does not alter the creature's true age-it merely simulates the effects of old age on the flesh or the reversion to a more infantile mental age. A cherry blossom spell uses up a slot 3 levels higher than the spell's actual level. Spells that don't deal damage don't benefit from this feat."
+			"**Benefit:** When a living creature takes damage from the affected spell, that creature also takes 2 points of damage to Strength, Dexterity, and Constitution or 2 points of damage to Intelligence, Wisdom, and Charisma (your choice). If the spell does not normally allow a save, the target can attempt a Fortitude save to negate the effect. Ageless or immortal creatures are immune to this effect. This is a magical aging effect, but it does not alter the creature's true age - it merely simulates the effects of old age on the flesh or the reversion to a more infantile mental age. A cherry blossom spell uses up a slot 3 levels higher than the spell's actual level. Spells that don't deal damage don't benefit from this feat."
 		]
 	},
 	"child_of_two_fates": {
@@ -845,7 +845,7 @@
 			"{SOURCE Qadira, Jewel of the East/16}",
 			"",
 			"A colleague controls a significant business or trading area, or otherwise wields significant influence within a house's network.  ",
-			"**Prerequisites:** The character must be of character level 4th and must have been a client for at least 1 year, during which the character must have changed the attitudes of any contacts from the house to helpful and maintained them at that level. The character must also present the merchant house with a unique gift of great value. This need not be monetary in nature-it may be, for example, reclaiming an ancestral sword thought lost or introducing a member of the house to someone who becomes her spouse.  ",
+			"**Prerequisites:** The character must be of character level 4th and must have been a client for at least 1 year, during which the character must have changed the attitudes of any contacts from the house to helpful and maintained them at that level. The character must also present the merchant house with a unique gift of great value. This need not be monetary in nature - it may be, for example, reclaiming an ancestral sword thought lost or introducing a member of the house to someone who becomes her spouse.  ",
 			"**Benefit:** Once per month, a colleague can choose one of the following: 1,000 gp, the services of four house guards (see {feat/Client}) for 24 hours, the services of a house emissary (see Client), or the services of a house lawyer (who pays bail and advises the colleague if she is arrested or charged with a crime). Upon the character's elevation to the status of colleague, the house commissions a custom crafted magical item worth up to 4,500 gp as a gift."
 		]
 	},
@@ -1649,7 +1649,7 @@
 			"",
 			"{SOURCE Monster Codex/224}",
 			"",
-			"You and an ally each sink a claw into your foe-then all you have to do is pull.  ",
+			"You and an ally each sink a claw into your foe - then all you have to do is pull.  ",
 			"**Prerequisites:** Rend, troll.  ",
 			"**Benefit:** Whenever you and an ally who has this feat are both threatening the same creature, you must hit the target with at least one of your claw attacks to use your rend ability.  ",
 			"**Normal:** You must hit with two of your claw attacks to use your rend ability."
@@ -2213,9 +2213,9 @@
 			"",
 			"You can use alchemy to create dangerous ooze creatures.  ",
 			"**Prerequisites:** {feat/Brew Potion}, {feat/Craft Wondrous Item}, Craft (alchemy) 3 ranks, caster level 5th.  ",
-			"**Benefit:** You can create living oozes as though they were magical items. Creating an ooze creature takes 1 day for each 500 gp in its construction cost. To create an ooze, you must have access to an [oozing vat](oozing_vat_gargantuan), you must use up raw materials worth the construction cost of the ooze, and you must succeed at a Craft (alchemy) check (DC 10 + 2 &times; the ooze's CR). A failed check ruins the materials used, while a check that fails by 5 or more also results in an ooze that attacks its creator for 1d4 rounds before dissipating into useless waste material. A newly created ooze has average hit points for its Hit Dice. Oozes created with this feat are mindless and uncontrolled, and even normally intelligent oozes like slithering trackers that are created this way have no Intelligence score-nor any loyalty to their creator.",
+			"**Benefit:** You can create living oozes as though they were magical items. Creating an ooze creature takes 1 day for each 500 gp in its construction cost. To create an ooze, you must have access to an [oozing vat](oozing_vat_gargantuan), you must use up raw materials worth the construction cost of the ooze, and you must succeed at a Craft (alchemy) check (DC 10 + 2 &times; the ooze's CR). A failed check ruins the materials used, while a check that fails by 5 or more also results in an ooze that attacks its creator for 1d4 rounds before dissipating into useless waste material. A newly created ooze has average hit points for its Hit Dice. Oozes created with this feat are mindless and uncontrolled, and even normally intelligent oozes like slithering trackers that are created this way have no Intelligence score - nor any loyalty to their creator.",
 			"",
-			"While ooze creatures cannot normally be purchased in traditional marketplaces, GMs who wish to include such an option in their games-perhaps with oozes sold as black market commodities' need only double the construction cost of a specific ooze creature in order to figure out a fair market price.",
+			"While ooze creatures cannot normally be purchased in traditional marketplaces, GMs who wish to include such an option in their games - perhaps with oozes sold as black market commodities' need only double the construction cost of a specific ooze creature in order to figure out a fair market price.",
 			"",
 			"The following table lists some of the most commonly crafted oozes and their creation requirements. At the GM's discretion, other types of ooze creatures can be created with this feat.",
 			"",
@@ -2294,7 +2294,7 @@
 			"",
 			"You can craft magical piercings infused with the power of shadow.  ",
 			"**Prerequisites:** Craft (jewelry) 5 ranks, caster level 5th.  ",
-			"**Benefit:** You can create special wondrous items-typically barbs, hooks, rings, and spikes-that adorn piercings in the wearer's flesh and grant magical abilities. Both you and the recipient of the piercing (if not yourself) must be present for the entire piercing process.",
+			"**Benefit:** You can create special wondrous items - typically barbs, hooks, rings, and spikes - that adorn piercings in the wearer's flesh and grant magical abilities. Both you and the recipient of the piercing (if not yourself) must be present for the entire piercing process.",
 			"",
 			"Shadow piercings must be placed in a part of the body normally associated with a magic item slot, but they do not take up a slot on the body, nor interfere with other magic items that use those slots. A single slot can only hold one shadow piercing (nonmagical piercings do not count against this limit). Shadow piercings can be applied to the following slots: belt, body, chest, eyes, feet, hands, head, neck, shoulder, and wrist.",
 			"",
@@ -2697,7 +2697,7 @@
 			"**Completion Benefit:** If your alignment changes from good to evil or evil to good, you know how to entice others down your path. While you retain this alignment, you gain a +2 bonus on Charisma- and Wisdom-based skill checks made to interact with a sentient creature of your previous (and now opposite) moral alignment. This bonus increases to +4 if success would cause the target to act against its moral alignment (at the GM's discretion). If it does so, you retain this bonus when interacting with that target until its moral alignment is the same as yours.",
 			"",
 			"If you return to your original moral alignment, you have gained deeper insight into your convictions. While you retain this moral alignment, you become aware of any action or item that could adversely affect your alignment or your standing with your deity (if you have one), including magical effects. You acquire this information prior to performing such an action or becoming associated with such an item if you take a moment to contemplate the act.  ",
-			"**Special:** If you've already completed this feat by changing to the opposite moral alignment and have since returned to being morally neutral, you may take this feat a second time. You gain no additional basic benefits, but if you complete this feat's goal a second time by crossing back to your original alignment, you gain additional completion benefits-you gain the second completion benefit, and can apply the first benefit against good and evil creatures."
+			"**Special:** If you've already completed this feat by changing to the opposite moral alignment and have since returned to being morally neutral, you may take this feat a second time. You gain no additional basic benefits, but if you complete this feat's goal a second time by crossing back to your original alignment, you gain additional completion benefits - you gain the second completion benefit, and can apply the first benefit against good and evil creatures."
 		]
 	},
 	"critical_conduit": {
@@ -3108,7 +3108,7 @@
 			"",
 			"{SOURCE Wilderness Origins/21}",
 			"",
-			"Heroes tend to pick up the oddest friends-birds of the sky and beasts of the wood. Your companions are strange even by these standards.  ",
+			"Heroes tend to pick up the oddest friends - birds of the sky and beasts of the wood. Your companions are strange even by these standards.  ",
 			"**Prerequisites:** Animal companion class feature.  ",
 			"**Benefit:** You can select a plant companion or vermin companion as your animal companion."
 		]
@@ -3510,7 +3510,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/116}",
 			">",
-			">You can spend 10 stamina points to deliver a coup de grace against two helpless, cowering, or stunned targets within your reach as a full-round action. This provokes attacks of opportunity twice-one for each coup de grace.",
+			">You can spend 10 stamina points to deliver a coup de grace against two helpless, cowering, or stunned targets within your reach as a full-round action. This provokes attacks of opportunity twice - one for each coup de grace.",
 			"",
 			"### Mythic Dastardly Finish",
 			"",
@@ -3670,7 +3670,7 @@
 			"{SOURCE Horror Adventures/84}",
 			"",
 			"Your adulation of death not only shields you from your fears, it allows you to feed on them.  ",
-			"**Prerequisites:** Wis 19, Deadhand Style-, {feat/Improved Unarmed Strike}, Knowledge (religion) 6 ranks, ki pool class feature, nongood alignment.  ",
+			"**Prerequisites:** Wis 19, {feat/Deadhand Style}, {feat/Improved Unarmed Strike}, Knowledge (religion) 6 ranks, ki pool class feature, nongood alignment.  ",
 			"**Benefit:** While using Deadhand Style, as long as you have at least 1 point in your ki pool, your bonus on saving throws against fear effects increases to +4, and the DC of Intimidate checks attempted against you increases by 8.",
 			"",
 			"Additionally, if an enemy targets you with a fear effect, you can spend 1 point from your ki pool as an immediate action to gain a number of temporary hit points equal to twice your Hit Dice."
@@ -3764,7 +3764,7 @@
 			"",
 			"{SOURCE Ultimate Combat/94}",
 			"",
-			"Your attacks don't just fell your opponents-they kill them outright.  ",
+			"Your attacks don't just fell your opponents - they kill them outright.  ",
 			"**Prerequisites:** Base attack bonus +11.  ",
 			"**Benefit:** When you hit with a melee attack and reduce your opponent to -1 or fewer hit points, you can force that opponent to succeed at a Fortitude save (DC 15 + the damage your attack dealt) or die.",
 			"",
@@ -4477,7 +4477,7 @@
 			"**Prerequisites:** Base attack bonus +3, kinetic blast class feature.  ",
 			"**Benefit:** When you use a kinetic blast, you can specify a number of rounds between 1 and 5. When that number of rounds has passed, the kinetic blast takes effect at the beginning of your turn. In the interim, you can take a standard action that provokes attacks of opportunity to cause the blast to take effect earlier than you initially selected. If you delay another blast while you already have a delayed blast pending, the previous delayed blast dissipates harmlessly.",
 			"",
-			"You must make any decisions you would make about the delayed blast-including designating target positions, choosing infusions, and determining or shaping the area-when you first use the blast. The blast originates from your position at the time you used the blast, not your current position when the blast takes effect, and it targets the position or area you had specified (which may or may not include any targets). A delayed blast radiates an aura of magic appropriate for its spell level even while it is delayed, and during that time, it can be dispelled by dispel magic."
+			"You must make any decisions you would make about the delayed blast - including designating target positions, choosing infusions, and determining or shaping the area - when you first use the blast. The blast originates from your position at the time you used the blast, not your current position when the blast takes effect, and it targets the position or area you had specified (which may or may not include any targets). A delayed blast radiates an aura of magic appropriate for its spell level even while it is delayed, and during that time, it can be dispelled by dispel magic."
 		]
 	},
 	"delayed_potion": {
@@ -4530,7 +4530,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/16}",
 			"",
-			"Someone killed you: a monster, a murderer, a soldier, an executioner, it doesn't matter-someone made a conscious decision to end your life.  ",
+			"Someone killed you: a monster, a murderer, a soldier, an executioner, it doesn't matter - someone made a conscious decision to end your life.  ",
 			"**Prerequisites:** Duskwalker.  ",
 			"**Benefit:** Once per day, if you are reduced below 0 hit points as a result of an attack or ability used by another character, as an immediate action you can take a single standard action. You must use this action to attack or harm the creature that damaged you. At 11th level, you can use this feat a second time per day."
 		]
@@ -4747,7 +4747,7 @@
 			"{SOURCE Ultimate Campaign/68}",
 			"",
 			"The lives you could not save stay with you to your final breath.  ",
-			"**Prerequisites:** You must have witnessed the death of a close companion in battle-a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage-or have the Death in the Family or The War background.  ",
+			"**Prerequisites:** You must have witnessed the death of a close companion in battle - a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage - or have the Death in the Family or The War background.  ",
 			"**Benefit:** You gain a +2 bonus on Heal checks. If you have 10 or more ranks in Heal, this bonus increases to +4. You can apply first aid as a move action and don't take a penalty when treating deadly wounds without a healing kit.  ",
 			"**Goal:** Bring an ally back from the dead, including by using breath of life or reincarnate.  ",
 			"**Completion Benefit:** You and each ally within 10 feet of you gain a +2 bonus on saves against death effects. In addition, once per day you can spontaneously convert any 5th-level or higher conjuration (healing) spell into breath of life."
@@ -5109,7 +5109,7 @@
 			"**Prerequisites:** Tumor familiar alchemist discovery.  ",
 			"**Benefit:** If your tumor familiar is attached, and you would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the familiar throws itself in the way of the attack as an immediate action. If it makes a Reflex saving throw (DC = damage dealt), it takes all the damage from the attack; if it fails, it takes half damage and you take half damage.",
 			"",
-			"The familiar must be aware of the attack and able to react to it in order to use this ability, and it can only do this once per day-if it is denied its Dexterity bonus to AC, it can't use this ability. Since this effect would not normally allow the familiar to make a Reflex save for half damage, its improved evasion ability does not apply on this saving throw."
+			"The familiar must be aware of the attack and able to react to it in order to use this ability, and it can only do this once per day - if it is denied its Dexterity bonus to AC, it can't use this ability. Since this effect would not normally allow the familiar to make a Reflex save for half damage, its improved evasion ability does not apply on this saving throw."
 		]
 	},
 	"diehard": {
@@ -6290,7 +6290,7 @@
 			"{SOURCE Divine Anthology/29}",
 			"",
 			"One of the grisliest divine fighting manuals is Fecundity of Corpses, a harrowing tome that depicts the fighting styles favored by the followers of Lamashtu, the Mother of Monsters. In addition to detailing many of the more gruesome rites favored by the Demon Queen, Fecundity of Corpses includes hundreds of techniques recorded in blood by cultists of Lamashtu from across the Inner Sea region. Though no standardized edition of this manual exists because of the cult's discordant hierarchy, each tome manages to perfectly capture similar techniques for sowing fear and blood in Lamashtu's name.  ",
-			"**Initial Benefit:** As a standard action, you can make a single attack with a falchion or a kukri in order to deal bleed damage to the target. When you make this attack, you do not apply your ability modifier (normally Strength, but potentially other modifiers) to the hit point damage dealt by your attack-instead, add an amount of bleed damage equal to this modifier. The bleeding can be stopped by a successful DC 15 Heal check or any amount of magical healing. Bleed damage from this benefit doesn't stack with itself.  ",
+			"**Initial Benefit:** As a standard action, you can make a single attack with a falchion or a kukri in order to deal bleed damage to the target. When you make this attack, you do not apply your ability modifier (normally Strength, but potentially other modifiers) to the hit point damage dealt by your attack - instead, add an amount of bleed damage equal to this modifier. The bleeding can be stopped by a successful DC 15 Heal check or any amount of magical healing. Bleed damage from this benefit doesn't stack with itself.  ",
 			"**Advanced Prerequisites:** Str 13, Dazing Assault, Divine Fighting Technique, {feat/Power Attack}.  ",
 			"**Advanced Benefit:** Whenever you hit a bleeding creature with a melee attack using a falchion or a kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attack bonus) or become staggered for 1 round. Multiple attacks do not cause this condition to stack, and a creature that successfully saves against this staggering effect is immune to this effect for 1 round.",
 			"",
@@ -6298,7 +6298,7 @@
 			"",
 			"{SOURCE Divine Anthology/30}",
 			"",
-			"Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast Rovagug, are scrawled in blood upon flensed skins by orc priests-and indeed the vile techniques described within originated from the Hold of Belkzen not long after the orcs first seized that land as their own. Reviled across the Inner Sea, Ravage and Ruin sees additional use among savage Ulfen clans who have fallen to the Rough Beast's urges to become corrupt, lunatic cannibals who relish despoiling beauty in Rovagug's name.  ",
+			"Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast Rovagug, are scrawled in blood upon flensed skins by orc priests - and indeed the vile techniques described within originated from the Hold of Belkzen not long after the orcs first seized that land as their own. Reviled across the Inner Sea, Ravage and Ruin sees additional use among savage Ulfen clans who have fallen to the Rough Beast's urges to become corrupt, lunatic cannibals who relish despoiling beauty in Rovagug's name.  ",
 			"**Initial Benefit:** Whenever you succeed at a dirty trick combat maneuver check against an opponent, you deal an amount of nonlethal damage equal to 1d6 + your Charisma modifier. In addition, whenever your dirty trick combat maneuver check beats an opponent's CMD by 5 or more, you can forgo increasing the duration of your condition by 1 or more rounds to instead impose a -2 penalty on all of that opponent's Charisma-based checks. This penalty doesn't stack with itself, and it lasts for a number of minutes equal to your Charisma modifier (minimum of 1 minute) or until the target receives any form of magical healing.  ",
 			"**Advanced Prerequisites:** {feat/Power Attack}, Divine Fighting Technique, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic evil barbarian of at least 10th level who worships Rovagug can replace a rage power with the following advanced benefit without meeting its prerequisites.  ",
@@ -6320,7 +6320,7 @@
 			"Copies of Lessons of the Father, the divine fighting manual of Torag, are somewhat rare outside of the Five Kings Mountains, as tradition mandates that all copies of Lessons of the Father must be scribed by hand in Dwarven on iron sheets and bound between slabs of stone hand-carved by a cleric of Torag. As a result, these tomes are somewhat cumbersome to transport (even the smallest copy of the book weighs 50 pounds, and most exceed 100 pounds in weight). Those who have mastered the Lessons of the Father are highly respected within the faith.  ",
 			"**Initial Benefit:** Whenever you wield a warhammer, add your Wisdom bonus to the total number of attacks of opportunity that you can make per round. These additional attacks of opportunity don't stack with those granted by {feat/Combat Reflexes}, but this benefit counts as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class requirements. In addition, you can make attacks of opportunity while you're flat-footed.  ",
 			"**Advanced Prerequisites:** Divine Fighting Technique, {feat/Vital Strike}, {feat/Weapon Focus} (warhammer), base attack bonus +10.  ",
-			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the {feat/Improved Vital Strike} or {feat/Greater Vital Strike} feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a disarm or trip combat maneuver check against the target as a free action-this combat maneuver does not provoke an attack of opportunity.",
+			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the {feat/Improved Vital Strike} or {feat/Greater Vital Strike} feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a disarm or trip combat maneuver check against the target as a free action - this combat maneuver does not provoke an attack of opportunity.",
 			"",
 			"### Urgathoa's Hunger",
 			"",
@@ -6511,7 +6511,7 @@
 			"",
 			"{SOURCE We Be Goblins Free!/15;We Be Goblins!/12;We Be Goblins Too!/13}",
 			"",
-			"Unlike many goblins, you're not particularly afraid of dogs. You know what dogs smell like, and that smell makes you mad-very mad.  ",
+			"Unlike many goblins, you're not particularly afraid of dogs. You know what dogs smell like, and that smell makes you mad - very mad.  ",
 			"**Prerequisites:** [Skill Focus (Perception)](feat/skill_focus), goblin.  ",
 			"**Benefit:** You gain the scent ability, but only against canines (including dogs, goblin dogs, wolves, worgs, yeth hounds, and any similar creatures, subject to GM approval). Against these creatures, you gain a +1 morale bonus on attack rolls and a +2 morale bonus on weapon damage rolls."
 		]
@@ -6735,38 +6735,38 @@
 			"",
 			"While not all who carry the blood of chromatic dragons are evil, the potency of their blood and the malevolence inherent in it can have strong subconscious effects, tempting them to embrace their sinister urges. Humanoids with blood empowered by chromatic dragons tend toward muscular builds and can imbue their fists with the dragons' energy.",
 			"",
-			"Draconic Heritage: Choose acid, cold, electricity or fire when you take this feat; the choice cannot be changed once made. As a swift action, you can shroud your arms in your chosen element for 1 round. Unarmed strikes with your arms or hands (or attacks with weapons held in those hands) deal an additional 1d6 points of energy damage of the appropriate type. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
+			"**Draconic Heritage:** Choose acid, cold, electricity or fire when you take this feat; the choice cannot be changed once made. As a swift action, you can shroud your arms in your chosen element for 1 round. Unarmed strikes with your arms or hands (or attacks with weapons held in those hands) deal an additional 1d6 points of energy damage of the appropriate type. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
 			"",
 			"#### Esoteric",
 			"",
 			"Those with the power of esoteric dragons take aloofness to an extreme and are prone to long nights of sleep and vivid, enrapturing dreams. They are often deeply empathetic and emotional individuals, feeling the needs and wants of others intimately and, in some cases, more intensely than they can handle.",
 			"",
-			"Draconic Heritage: As a standard action, you can project a psychic barrage at a creature within 15 feet to which you have line of sight. A creature targeted by your psychic barrage must succeed at a Will save or be dazed for 1 round. You can attempt a psychic barrage once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.  ",
+			"**Draconic Heritage:** As a standard action, you can project a psychic barrage at a creature within 15 feet to which you have line of sight. A creature targeted by your psychic barrage must succeed at a Will save or be dazed for 1 round. You can attempt a psychic barrage once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.  ",
 			"**Special:** If you have 1 or more levels in a class that casts psychic spells, you can attempt a psychic barrage a number of times per day equal to 1/2 your level in that class (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
 			"",
 			"#### Imperial",
 			"",
 			"Imperial dragons see themselves as masters of their respective domains, and those with heritages influenced by their legacies often have this same aggressively territorial nature. Individuals with this heritage tend to be charismatic, commanding, and proud people who have an unusual intensity.",
 			"",
-			"Draconic Heritage: As a swift action, you emit an aura of command with a 10-foot radius for 1 round. Allies within your aura gain a +2 bonus on Will saves against fear. Enemies in your aura take a -2 penalty on Will saves against fear. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
+			"**Draconic Heritage:** As a swift action, you emit an aura of command with a 10-foot radius for 1 round. Allies within your aura gain a +2 bonus on Will saves against fear. Enemies in your aura take a -2 penalty on Will saves against fear. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
 			"",
 			"#### Metallic",
 			"",
 			"Metallic dragons leave an impression of kindness and hope in those infused with a portion of their power. Those who bear the blood of metallic dragons sometimes have iridescent hair of pale metallic hues and irises colored like polished metal.",
 			"",
-			"Draconic Heritage: Choose acid, cold, electricity, or fire when you take this feat; the choice cannot be changed once made. As a swift action, you gain energy resistance 5 against your chosen element. This energy resistance lasts until the beginning of your next turn. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
+			"**Draconic Heritage:** Choose acid, cold, electricity, or fire when you take this feat; the choice cannot be changed once made. As a swift action, you gain energy resistance 5 against your chosen element. This energy resistance lasts until the beginning of your next turn. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
 			"",
 			"#### Outer",
 			"",
 			"The utterly alien nature of outer dragons often conflicts with the more grounded and material upbringing of those who carry these dragons' influence within their bloodlines. Feelings of otherness or exclusion are common among humanoids with this bloodline, and many become exiles or wanderers.",
 			"",
-			"Draconic Heritage: As a swift action, you can generate an alien aura around yourself with a 5-foot radius that lasts for 1 round. Any enemy who enters your aura must succeed at a Will save or become sickened for 1 round. A creature who successfully saves against your alien aura is immune to its effects for 24 hours. You can generate an alien aura once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.",
+			"**Draconic Heritage:** As a swift action, you can generate an alien aura around yourself with a 5-foot radius that lasts for 1 round. Any enemy who enters your aura must succeed at a Will save or become sickened for 1 round. A creature who successfully saves against your alien aura is immune to its effects for 24 hours. You can generate an alien aura once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.",
 			"",
 			"#### Primal",
 			"",
 			"The scions with the power of the elementally attuned primal dragons are not often subtle in appearance. They tend towards hardy builds and skin tones that take on shimmering, iridescent hues in direct light. Additionally, they often experience tempestuous emotions that are difficult to control.",
 			"",
-			"Draconic Heritage: Choose acid, cold, electricity, or fire when you take this feat; once made, this choice cannot be changed. As a standard action, you can create a 10-foot-radius aura of elemental energy that lasts for 1 round. The area of this aura is considered difficult terrain, and creatures that end their turns in your aura take 1d6 points of energy damage of the appropriate type. A successful Fortitude save halves this damage but does not negate the difficult terrain effect. You can create an aura of elemental energy once per day for every 4 characters levels you have (minimum 1).  ",
+			"**Draconic Heritage:** Choose acid, cold, electricity, or fire when you take this feat; once made, this choice cannot be changed. As a standard action, you can create a 10-foot-radius aura of elemental energy that lasts for 1 round. The area of this aura is considered difficult terrain, and creatures that end their turns in your aura take 1d6 points of energy damage of the appropriate type. A successful Fortitude save halves this damage but does not negate the difficult terrain effect. You can create an aura of elemental energy once per day for every 4 characters levels you have (minimum 1).  ",
 			"**Special:** If you are a druid, hunter, or kineticist, you can create an elemental aura a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
 			"",
 			"### Lesser Dragons",
@@ -6777,13 +6777,13 @@
 			"",
 			"Creatures with drake ancestry are often swift-footed and have quick reflexes, mirroring the speed and grace of drakes. They tend to be wiry and athletic with long limbs and wild, untamed demeanors that thrive best beyond the boundaries of civilization. Befitting the variety of different drake breeds in the world, those with drake bloodlines often have hair or eye colors reminiscent of the scales of the drake breed to which they're related. Some might exhibit additional minor features suggestive of a specific draconic heritage, but such features provide no statistical benefit.",
 			"",
-			"Draconic Heritage: As a swift action, you gain a +10 enhancement bonus to your base speed for 1 round. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
+			"**Draconic Heritage:** As a swift action, you gain a +10 enhancement bonus to your base speed for 1 round. You can use this ability a number of times per day equal to 3 + your Charisma bonus.",
 			"",
 			"#### Linnorm",
 			"",
-			"The cursed blood of linnorms is a unique case-it is sometimes passed down by those who bear a child while under the effects of a linnorm's death curse. Such an unlikely offspring usually bears a visible mark or scar that ties her life to the legacy of that linnorm.",
+			"The cursed blood of linnorms is a unique case - it is sometimes passed down by those who bear a child while under the effects of a linnorm's death curse. Such an unlikely offspring usually bears a visible mark or scar that ties her life to the legacy of that linnorm.",
 			"",
-			"Draconic Heritage: As an immediate action when you are damaged by a melee attack, you can afflict your attacker with a curse. The target of your curse must succeed at a Will save or take a -2 penalty on all ability checks, attack rolls, and skill checks for 1 round. You can use this curse once per day for every 4 characters levels you have (minimum 1).  ",
+			"**Draconic Heritage:** As an immediate action when you are damaged by a melee attack, you can afflict your attacker with a curse. The target of your curse must succeed at a Will save or take a -2 penalty on all ability checks, attack rolls, and skill checks for 1 round. You can use this curse once per day for every 4 characters levels you have (minimum 1).  ",
 			"**Special:** If you are a shaman or a witch, you can use this curse a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes."
 		]
 	},

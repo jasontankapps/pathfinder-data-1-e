@@ -123,7 +123,7 @@
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set. If applied to an item with the broken condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip-though the item does not regain hit points and is still broken. The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on."
+			"This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set. If applied to an item with the broken condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip - though the item does not regain hit points and is still broken. The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on."
 		]
 	},
 	"adventurers_sash": {
@@ -1022,7 +1022,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"A popular export from the Forest of Oils-a field of massive oil bubbles on the Elemental Plane of Water-aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent. As a standard action, aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all. A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become nauseated for 1d4 rounds. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent. As a standard action, aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all. A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become nauseated for 1d4 rounds. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 30"
@@ -1462,7 +1462,7 @@
 			"**Price** 45 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This stuffed badger-a well-loved and legally protected animal in Absalom-is realistic enough to fool most other animals into thinking it is real. As a move action, a wielder can use a free hand to present the plush; any Small or smaller animal with an Intelligence score of 1 or 2 that can see it takes a -2 penalty on initiative checks."
+			"This stuffed badger - a well-loved and legally protected animal in Absalom - is realistic enough to fool most other animals into thinking it is real. As a move action, a wielder can use a free hand to present the plush; any Small or smaller animal with an Intelligence score of 1 or 2 that can see it takes a -2 penalty on initiative checks."
 		]
 	},
 	"badger": {
@@ -1888,7 +1888,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Animal Gear",
 			"",
-			"This small wooden whistle emits a high-pitched sound like that of a signal whistle, except the signal is audible only to a specific type of creature-other types of creatures hear only a quiet hissing sound.",
+			"This small wooden whistle emits a high-pitched sound like that of a signal whistle, except the signal is audible only to a specific type of creature - other types of creatures hear only a quiet hissing sound.",
 			"",
 			"Beast whistles come in six different varieties: avian, canine, feline, rodent, reptile, and ungulate (other varieties may be available at the GM's discretion). Animals and magical beasts that match a beast whistle's type can hear the whistle as a human hears a signal whistle. Creatures that fit into multiple categories (such as griffons) can usually hear the call of multiple types of whistles, though magical beasts who don't fit into any of the above categories cannot hear a beast whistle. Beast whistles don't function underwater, except if surrounded by an air bubble or similar effect, though creatures underwater may hear a beast whistle sounded from above the surface if they are close enough."
 		]
@@ -2259,7 +2259,7 @@
 			"{SOURCE Ultimate Combat/141;Inner Sea World Guide/292}  ",
 			"**Price** 10 gp Black powder (dose), 1,000 gp Black powder (keg); **Weight** - Black powder (dose), 5 lbs. Black powder (keg)",
 			"",
-			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode-a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion."
+			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion."
 		]
 	},
 	"black_powder_keg": {
@@ -2680,7 +2680,7 @@
 			"**Price** 250 gp; **Weight** 1/2 lb.  ",
 			"**Category** Clothing",
 			"",
-			"These sandals have blackwood soles and leather straps that wrap around the wearer's feet. The sandals are waterproof and are thus popular among individuals who tread the harsh locales of the swamps and wastelands beyond Cassomir proper-especially those who are in such environments for long periods of time without access to the comforts of a skilled cobbler. The sandals' design also allows the wearer to move through shallow bogs normally and to treat deep bogs as if they were shallow bogs. The sandals do not affect the penalty on Acrobatics checks while in bogs, and creatures wearing the sandals cannot gain cover from deep bogs."
+			"These sandals have blackwood soles and leather straps that wrap around the wearer's feet. The sandals are waterproof and are thus popular among individuals who tread the harsh locales of the swamps and wastelands beyond Cassomir proper - especially those who are in such environments for long periods of time without access to the comforts of a skilled cobbler. The sandals' design also allows the wearer to move through shallow bogs normally and to treat deep bogs as if they were shallow bogs. The sandals do not affect the penalty on Acrobatics checks while in bogs, and creatures wearing the sandals cannot gain cover from deep bogs."
 		]
 	},
 	"boline": {
@@ -3305,7 +3305,7 @@
 			"{SOURCE Ultimate Equipment/81;Adventurer's Armory/19;Advanced Player's Guide/185}  ",
 			"**Price** 10 gp (Diminutive or Fine), 60 gp (Huge), 30 gp (Large), 15 gp (Small or Medium), 2 gp (Tiny); **Weight** 2 lbs. (Diminutive or Fine), 960 lbs. (Huge), 240 lbs. (Large), 60 lbs. (Small or Medium), 5 lbs. (Tiny)",
 			"",
-			"This secure, portable enclosure is used to hold creatures-generally animals, but a large enough cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and available materials. One cage holds one animal of that size, or five animals of a smaller size. The weight of the creature adds to the weight of the cage. Cages come in the following sizes: Diminutive or Fine, Tiny, Small, Medium, Large, and Huge. Cages for aquatic creatures cost twice as much, and weigh four times the normal weight when filled with water."
+			"This secure, portable enclosure is used to hold creatures - generally animals, but a large enough cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and available materials. One cage holds one animal of that size, or five animals of a smaller size. The weight of the creature adds to the weight of the cage. Cages come in the following sizes: Diminutive or Fine, Tiny, Small, Medium, Large, and Huge. Cages for aquatic creatures cost twice as much, and weigh four times the normal weight when filled with water."
 		]
 	},
 	"cage_tiny": {
@@ -3672,7 +3672,7 @@
 			"**Price** 2 gp; **Weight** 4 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves many of the same purposes a cloak does for a humanoid creature, occupies the shoulder slot, and can be enchanted in the same manner. Caparisons are sometimes made of precious materials or crafted with delicate artistry-this does not increase their practicality, but can significantly increase their price as art objects."
+			"A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves many of the same purposes a cloak does for a humanoid creature, occupies the shoulder slot, and can be enchanted in the same manner. Caparisons are sometimes made of precious materials or crafted with delicate artistry - this does not increase their practicality, but can significantly increase their price as art objects."
 		]
 	},
 	"caphorite_dust": {
@@ -3906,7 +3906,7 @@
 			"{SOURCE Ultimate Equipment/56}  ",
 			"**Price** 1 gp, 2,501 gp (mithral); **Weight** 5 lbs., 2-1/2 lbs. (mithral)",
 			"",
-			"This larger version of an iron pot holds approximately 1 gallon-enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities. A mithral cauldron is lighter, and food rarely sticks to it."
+			"This larger version of an iron pot holds approximately 1 gallon - enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities. A mithral cauldron is lighter, and food rarely sticks to it."
 		]
 	},
 	"cauldron": {
@@ -4153,20 +4153,7 @@
 	},
 	"chariot_heavy_travel_per_mile": {
 		"name": "Chariot (heavy) (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Chariot",
-			"{SOURCE Ultimate Equipment/87}  ",
-			"**Price** 200 gp (heavy), 50 gp (light), 100 gp (medium); **Weight** 2 cp (heavy), 2 cp (light), 2 cp (medium)",
-			"",
-			"This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.",
-			"",
-			"**Light Chariots:** These chariots are often used for racing or as the platform for a single archer charging across the battlefield at high speed.",
-			"",
-			"**Medium Chariots:** These chariots are used in battle to break apart infantry formations or as fast-moving fighting platforms.",
-			"",
-			"**Heavy Chariots:** This type of chariot is typically used as a fighting platform or for transporting material quickly onto the battlefield."
-		]
+		"copyof": "chariot_heavy"
 	},
 	"chariot_heavy": {
 		"name": "Chariot (heavy)",
@@ -4174,7 +4161,8 @@
 		"description": [
 			"## Chariot",
 			"{SOURCE Ultimate Equipment/87}  ",
-			"**Price** 200 gp (heavy), 50 gp (light), 100 gp (medium); **Weight** 2 cp (heavy), 2 cp (light), 2 cp (medium)",
+			"**Price** 200 gp (heavy), 50 gp (light), 100 gp (medium); **Price of Passage** 2 cp (heavy), 2 cp (light), 2 cp (medium)  ",
+			"**Category** Transport, Land",
 			"",
 			"This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.",
 			"",
@@ -4610,7 +4598,7 @@
 			"**Price** Special; **Weight** Special  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Goblins are masters at crafting things from bits of rubbish. The category of \"cobbled item\" is a general catchall to describe any piece of equipment that has been repaired or modified by goblins. Such items are of an inferior quality-whenever they're used as part of a skill check or attack roll, they have a 10% chance of being broken. Cobbled items can never be masterwork items. A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either."
+			"Goblins are masters at crafting things from bits of rubbish. The category of \"cobbled item\" is a general catchall to describe any piece of equipment that has been repaired or modified by goblins. Such items are of an inferior quality - whenever they're used as part of a skill check or attack roll, they have a 10% chance of being broken. Cobbled items can never be masterwork items. A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either."
 		]
 	},
 	"code_rod": {
@@ -4888,7 +4876,7 @@
 			"**Price** 12 gp; **Weight** 1/10 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A concealment coin appears in all respects like a typical coin of the realm and is often crafted from an ordinary coin-though for soft metals like gold, the coin is typically made with an iron or steel interior and then plated with the more valuable metal. Twisting the coin along its edge unscrews the two halves, revealing a thin, hollow space inside. Such coins are often used to hide small messages written on very fine paper for covert delivery. Noticing a concealment coin's true nature requires a successful DC 25 Perception check."
+			"A concealment coin appears in all respects like a typical coin of the realm and is often crafted from an ordinary coin - though for soft metals like gold, the coin is typically made with an iron or steel interior and then plated with the more valuable metal. Twisting the coin along its edge unscrews the two halves, revealing a thin, hollow space inside. Such coins are often used to hide small messages written on very fine paper for covert delivery. Noticing a concealment coin's true nature requires a successful DC 25 Perception check."
 		]
 	},
 	"constrictor_snake": {
@@ -5083,7 +5071,7 @@
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains items to assist a courtesan in soothing the body and mind. For the body, the kit contains a razor, scented oils and salves, fragrances, a warming pot, and a variety of appealing outfits. Books of poetry, literature, and plays-often focusing on salacious topics and full of double entendres-entertain the mind."
+			"This kit contains items to assist a courtesan in soothing the body and mind. For the body, the kit contains a razor, scented oils and salves, fragrances, a warming pot, and a variety of appealing outfits. Books of poetry, literature, and plays - often focusing on salacious topics and full of double entendres - entertain the mind."
 		]
 	},
 	"courtesans_outfit": {
@@ -5155,7 +5143,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
-			"These silver rings are always sold in uniquely crafted pairs-usually one made in a Varisian style and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan dissidents and Varisian locals at the city's outset, they are now commonly sought by young lovers, very close friends, and other intimate pairs. When two emotionally intimate creatures each wear one of the rings in a set, both wearers gain a +1 bonus on saving throws against fear effects. This bonus ends if the creatures' emotional bond is severed (at the GM's discretion), one of the creatures removes a ring and returns it to the other creature, or a bonded creature is no longer wearing the ring (or is no longer alive or on the same plane)."
+			"These silver rings are always sold in uniquely crafted pairs - usually one made in a Varisian style and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan dissidents and Varisian locals at the city's outset, they are now commonly sought by young lovers, very close friends, and other intimate pairs. When two emotionally intimate creatures each wear one of the rings in a set, both wearers gain a +1 bonus on saving throws against fear effects. This bonus ends if the creatures' emotional bond is severed (at the GM's discretion), one of the creatures removes a ring and returns it to the other creature, or a bonded creature is no longer wearing the ring (or is no longer alive or on the same plane)."
 		]
 	},
 	"crab": {
@@ -5254,7 +5242,7 @@
 			"{SOURCE Demon Hunter's Handbook/18}  ",
 			"**Price** PFS Legal 50 gp (masterwork), PFS Legal 1 gp (standard); **Weight** - (masterwork), - (standard)",
 			"",
-			"This palm-sized cross has arms of equal length and an emblem etched at the center. When purchased, the bearer's personal emblem or motto is etched on one side, and name, rank, and nation on the other. Common crusader's crosses are typically made of wood, while masterwork crosses-usually reserved for nobles, officers, or gifts to the families of fallen heroes-might be made of silver."
+			"This palm-sized cross has arms of equal length and an emblem etched at the center. When purchased, the bearer's personal emblem or motto is etched on one side, and name, rank, and nation on the other. Common crusader's crosses are typically made of wood, while masterwork crosses - usually reserved for nobles, officers, or gifts to the families of fallen heroes - might be made of silver."
 		]
 	},
 	"crusaders_cross_masterwork": {
@@ -5532,7 +5520,7 @@
 			"",
 			"Decoy triggers are misleading mechanisms intended to divert a victim's attention from a real trap by presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to disarm or evade it, triggers the real trap.",
 			"",
-			"A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes-the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC. Instead of a Disable Device DC, decoy triggers have a Sense Motive DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.",
+			"A decoy trigger grants a bonus to the Perception DC of any trap it accessorizes - the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn't increase the trap's Craft DC. Instead of a Disable Device DC, decoy triggers have a Sense Motive DC. If a creature succeeds at the decoy's Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.",
 			"",
 			">**Decoy Pressure Switch**  ",
 			">**Type** mechanical; **Perception** DC 12; **Sense Motive** DC 24  ",
@@ -5871,7 +5859,7 @@
 			"**Price** 1-100 gp; **Weight** 1-20 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This book appears to be the holy text of a particular religion, but it is actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the faithful to keep copies of their holy texts hidden in plain sight-especially when those tomes are outlawed or stigmatized. A creature reading a disguised holy text can notice the irregularities of the text with a successful DC 18 Linguistics check; if the result of this check is 25 or higher, the creature cracks the text's cipher and understands its true meaning. A follower of a disguised holy text's true faith gains a +5 bonus on her Linguistics check to decipher the tome. The typical disguised holy text is of average quality, costs 25 gp, and weighs 2 pounds; cheaper or more extravagant versions are available with varying costs and weights."
+			"This book appears to be the holy text of a particular religion, but it is actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the faithful to keep copies of their holy texts hidden in plain sight - especially when those tomes are outlawed or stigmatized. A creature reading a disguised holy text can notice the irregularities of the text with a successful DC 18 Linguistics check; if the result of this check is 25 or higher, the creature cracks the text's cipher and understands its true meaning. A follower of a disguised holy text's true faith gains a +5 bonus on her Linguistics check to decipher the tome. The typical disguised holy text is of average quality, costs 25 gp, and weighs 2 pounds; cheaper or more extravagant versions are available with varying costs and weights."
 		]
 	},
 	"display_stand": {
@@ -5895,7 +5883,7 @@
 			"**Price** 150 gp; **Weight** 6 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other harmful gases. While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from heat exposure and to avoid the effects of [smoke inhalation](rule/forest_fires_cr_6). You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a full-round action-although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion). When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment."
+			"This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other harmful gases. While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from heat exposure and to avoid the effects of [smoke inhalation](rule/forest_fires_cr_6). You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a full-round action - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion). When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment."
 		]
 	},
 	"distilled_terrap_sap": {
@@ -7003,7 +6991,7 @@
 			"**Category** Herbs  ",
 			"**Gather** DC 20; **Yield** 1 dose  ",
 			"**Terrain** anywhere near ley lines  ",
-			"**Preparation** A fairy cap must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 Craft (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown-there's a 50% chance of either development.  ",
+			"**Preparation** A fairy cap must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 Craft (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.  ",
 			"**Use** When eaten without proper preparation, a fairy cap is mildly poisonous (save Fort DC 13, onset 1 minute, frequency 1/minute for 6 minutes, effect nauseated for 1 minute, cure 1 save), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared fairy cap's spots determines its effect when consumed. A cap with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per enlarge person or reduce person, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a fairy cap is quite chewy, and eating it is a full-round action.",
 			"",
 			"This toadstool's pale-gray cap is stippled with yellow spots. Its presence often indicates ley lines or fey bowers nearby."
@@ -7204,7 +7192,7 @@
 			"**Price** 3 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike in case tooth-sharpening is interrupted by combat-a fangfile can function as a punching dagger when used in combat."
+			"This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike in case tooth-sharpening is interrupted by combat - a fangfile can function as a punching dagger when used in combat."
 		]
 	},
 	"fashionable_accessories": {

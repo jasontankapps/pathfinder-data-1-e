@@ -8,7 +8,7 @@
 			"**Price** 350 gp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane-though these guides sometimes contain a measure of fanciful or dubious advice. While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on Survival checks, Knowledge (planes) checks, and Linguistics checks made to communicate with outsiders or decipher outsider texts."
+			"This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane - though these guides sometimes contain a measure of fanciful or dubious advice. While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on Survival checks, Knowledge (planes) checks, and Linguistics checks made to communicate with outsiders or decipher outsider texts."
 		]
 	},
 	"pnakotic_record": {
@@ -334,9 +334,9 @@
 			"",
 			"Among the items found within the altar are the tools and materials necessary to perform not just ceremonies, but also jobs and professions the related deity deems sacred, as well as holy texts written to inspire greatness in the deity's followers. The user can expend some of the materials within the altar to gain a +2 circumstance bonus on the next Craft check of the specified type.",
 			"",
-			"In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies. The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus-the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.",
+			"In addition, after spending 1 hour praying and reading the holy scriptures within the altar, the user gains a +2 circumstance bonus on a single skill check. Which deity this altar is dedicated to determines the skill to which this bonus applies. The user must attempt this skill check within an hour of praying and reading the altar's scriptures or lose the bonus - the mantras and inspiration provided by the texts having drifted from her mind. This hour of prayer and scripture reading can be integrated with the time a cleric uses to prepare her spells. Regardless, using the masterwork portable altar in this manner expends the altar's materials in the same way that using the normal altar to bolster a Craft check does.",
 			"",
-			"A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials-preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar."
+			"A masterwork portable altar can be used multiple times, but after 20 uses, it must be restocked with 50 gp worth of sanctified materials - preferably purchased from a temple of the associated deity. The altar grants no bonuses on skill checks if used while its materials are depleted, though it can still be employed as a normal portable altar."
 		]
 	},
 	"portable_altar": {
@@ -460,7 +460,7 @@
 			"**Price** 10 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This 100-page book contains face drawings of male and female dwarves, elves, gnomes, half-elves, half-orcs, halflings, and humans. By selecting an appropriate drawing and adding hair, a beard, or other small features such as moles or scars, even a poor artist can quickly create a reasonable likeness of a specific person-for example, an inquisitor making wanted posters of a half-elven witch."
+			"This 100-page book contains face drawings of male and female dwarves, elves, gnomes, half-elves, half-orcs, halflings, and humans. By selecting an appropriate drawing and adding hair, a beard, or other small features such as moles or scars, even a poor artist can quickly create a reasonable likeness of a specific person - for example, an inquisitor making wanted posters of a half-elven witch."
 		]
 	},
 	"pot_common": {
@@ -526,7 +526,7 @@
 			"{SOURCE Castles of the Inner Sea/39}  ",
 			"**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)",
 			"",
-			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius burst (DC 15 for half). A powder ball explodes in this way three times-the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
+			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius burst (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
 		]
 	},
 	"powder_ball_fuel": {
@@ -822,7 +822,7 @@
 			"**Price** 2,000 gp; **Weight** 100 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as masterwork instruments for Perform (keyboard instruments) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard instruments) check, a user can manipulate the pump organ's controls to create a 1-minue long performance that does not require an operator-the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
+			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as masterwork instruments for Perform (keyboard instruments) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard instruments) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
 		]
 	},
 	"pump_water_canister": {
@@ -1011,7 +1011,7 @@
 			"**Price** 400 gp; **Weight** 12 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a {equipment-misc/haunt detector}, but with greater accuracy-a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
+			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a {equipment-misc/haunt detector}, but with greater accuracy - a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
 		]
 	},
 	"quieting_needles": {
@@ -1023,7 +1023,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check-the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
+			"A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check - the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
 			"",
 			"A body pierced with quieting needles can be brought back to life as normal via raise dead, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via resurrection or true resurrection if the body itself was intact and the needles were thus hidden. (Casting resurrection or true resurrection with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
 			"",
@@ -1031,7 +1031,7 @@
 			"",
 			"Removing quieting needles from a dead body takes 1d6+6 rounds (and a DC 20 Heal check if the process is to leave the body in a condition where raise dead is still viable). Removing quieting needles from a freshly restored living body causes 2d6 points of damage per round the procedure continues, with a successful DC 25 Heal check reducing damage caused that round to 2.",
 			"",
-			"The use of quieting needles is relatively uncommon, meant as much to punish enemies for attempting to raise dead allies and force them to waste the resources on such expensive magic as well as to cause the restored creature agonizing pain-using quieting needles is an evil act that is as illegal as murder in most civilized regions.",
+			"The use of quieting needles is relatively uncommon, meant as much to punish enemies for attempting to raise dead allies and force them to waste the resources on such expensive magic as well as to cause the restored creature agonizing pain - using quieting needles is an evil act that is as illegal as murder in most civilized regions.",
 			"",
 			"A set of quieting needles costs 25 gp."
 		]
@@ -1267,7 +1267,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This viscous, translucent green fluid is typically stored in a large syringe. When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes. When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on. The corpse can't attack, doesn't defend itself, and-as an object-has AC 10 and 12 hit points. Crafting a syringe of reanimating fluid requires a successful DC 25 Craft (alchemy) check.",
+			"This viscous, translucent green fluid is typically stored in a large syringe. When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes. When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on. The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points. Crafting a syringe of reanimating fluid requires a successful DC 25 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -1654,7 +1654,7 @@
 			"**Price** 200 gp; **Weight** 15 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance. A royal outfit is rarely designed for regular wear or inclement weather-or even for donning unaided-as it's presumed that anyone who might be wearing it has plenty of servants to take care of his or her every need. This outfit includes only the clothing, not a royal scepter, crown, ring, or other regal accoutrements.",
+			"Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance. A royal outfit is rarely designed for regular wear or inclement weather - or even for donning unaided - as it's presumed that anyone who might be wearing it has plenty of servants to take care of his or her every need. This outfit includes only the clothing, not a royal scepter, crown, ring, or other regal accoutrements.",
 			"",
 			"**Tear-away clothing**  ",
 			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
@@ -1829,10 +1829,6 @@
 	},
 	"sailing_ship_travel_per_mile": {
 		"name": "Sailing ship (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "sailing_ship"
 	},
 	"salt_tablets_10": {
@@ -2423,7 +2419,7 @@
 			"**Price** 90 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"The ground carcasses of goldbelly stinkbugs-insects native to the Mindspin Mountains-give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of Wisdom damage, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
+			"The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of Wisdom damage, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
 			"",
 			"**Recipe** (30 quicksilver + 25 saltpeter)/earth; Craft 20  ",
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
@@ -2544,7 +2540,6 @@
 	},
 	"ships_boat_travel_per_mile": {
 		"name": "Ship's boat (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ships_boat"
 	},
 	"ships_passage": {
@@ -3190,7 +3185,7 @@
 			"**Price** varies; **Price of Passage** (per mile) varies  ",
 			"**Category** Transport, Land",
 			"",
-			"A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors-the size or type of the original wagon, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the numbers in parentheses indicate the DC for a Perception check to successfully locate the hidden compartments during a search of the wagon).",
+			"A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original wagon, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the numbers in parentheses indicate the DC for a Perception check to successfully locate the hidden compartments during a search of the wagon).",
 			"",
 			"| Concealment Quality |",
 			"| --- |",
@@ -3898,7 +3893,7 @@
 			"**Price** 30 gp; **Weight** 2 lbs. (or 10 lbs.)  ",
 			"**Category** Clothing",
 			"",
-			"Outwardly, this suit of clothing appears to be an ordinary traveler's outfit, albeit cut from thicker-thannormal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.",
+			"Outwardly, this suit of clothing appears to be an ordinary traveler's outfit, albeit cut from thicker-than-normal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.",
 			"",
 			"It takes 10 minutes to fully saturate the suit, which increases its weight from 2 pounds to 10 pounds.",
 			"",
@@ -4351,7 +4346,7 @@
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"Usually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures-rats and pigeons are the most common."
+			"Usually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures - rats and pigeons are the most common."
 		]
 	},
 	"stretch_cords": {
@@ -4809,7 +4804,7 @@
 			"**Price** 1 cp-20 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"The price of a tattoo depends on the quality, size, and number of colors used. A coin-sized tattoo in blue ink that will blur over a decade costs 1 cp, a hand-sized one in black ink that won't fade costs 1 sp, and a tattoo covering an entire back takes several sessions and costs 10 gp. Each additional color costs as much as a single tattoo of its size. While these prices represent the baseline, tattoos-like any other artwork-can be worth far more depending on the prestige of the artist."
+			"The price of a tattoo depends on the quality, size, and number of colors used. A coin-sized tattoo in blue ink that will blur over a decade costs 1 cp, a hand-sized one in black ink that won't fade costs 1 sp, and a tattoo covering an entire back takes several sessions and costs 10 gp. Each additional color costs as much as a single tattoo of its size. While these prices represent the baseline, tattoos - like any other artwork - can be worth far more depending on the prestige of the artist."
 		]
 	},
 	"taxidermy_tools": {
@@ -4922,7 +4917,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment-as much as 10 gp per dose from wealthy addicts.",
+			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment - as much as 10 gp per dose from wealthy addicts.",
 			"",
 			"**Type** ingested; **Addiction** major, Fortitude DC 18  ",
 			"**Effects** 1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks  ",
@@ -5777,7 +5772,7 @@
 			"**Price** 15 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This 5-foot-long pole is fitted with a metal spike at its base. A trekking pole is meant to assist with overland movement, particularly long hikes and travel through difficult terrain. If you use a trekking pole as part of overland movement, you increase your distance traveled by 10% (so a creature with a 30-foot base speed travels 3-1/3 miles in 1 hour of walking, instead of just 3 miles). While traveling in areas of impaired movement-such as a trackless desert or a swamp trail-the increase to distance traveled while using a trekking pole increases to 25%."
+			"This 5-foot-long pole is fitted with a metal spike at its base. A trekking pole is meant to assist with overland movement, particularly long hikes and travel through difficult terrain. If you use a trekking pole as part of overland movement, you increase your distance traveled by 10% (so a creature with a 30-foot base speed travels 3-1/3 miles in 1 hour of walking, instead of just 3 miles). While traveling in areas of impaired movement - such as a trackless desert or a swamp trail - the increase to distance traveled while using a trekking pole increases to 25%."
 		]
 	},
 	"trephine": {
@@ -6076,7 +6071,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"This title includes valets, butlers, lady's maids, ladies-inwaiting, secretaries, stewards, concierges, majordomos, manservants, bodyservants, and other skilled, trusted servants and employees who work closely with an employer or run a household or business, sometimes without direct supervision. The listed price is per day."
+			"This title includes valets, butlers, lady's maids, ladies-in-waiting, secretaries, stewards, concierges, majordomos, manservants, bodyservants, and other skilled, trusted servants and employees who work closely with an employer or run a household or business, sometimes without direct supervision. The listed price is per day."
 		]
 	},
 	"vampire_slayers_kit": {
@@ -6396,11 +6391,15 @@
 	},
 	"wagon_heavy": {
 		"name": "Wagon (heavy)",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Wagon",
 			"{SOURCE Ultimate Equipment/87}  ",
-			"**Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Weight** 3 cp (heavy), 2 cp (light), 2 cp (medium)",
+			"**Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Price of Passage** 3 cp (heavy), 2 cp (light), 2 cp (medium)",
+			"**Category** Transport, Land",
 			"",
 			"This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.",
 			"",
@@ -6413,20 +6412,14 @@
 	},
 	"wagon_heavy_travel_per_mile": {
 		"name": "Wagon (heavy) (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "wagon_heavy"
 	},
 	"wagon_light": {
 		"name": "Wagon (light)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "wagon_heavy"
 	},
 	"wagon_medium": {
 		"name": "Wagon (medium)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "wagon_heavy"
 	},
 	"wall_hook": {
@@ -6527,10 +6520,6 @@
 	},
 	"warship_travel_per_mile": {
 		"name": "Warship (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "warship"
 	},
 	"wasp_metheglin": {

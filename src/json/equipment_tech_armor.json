@@ -28,11 +28,11 @@
 			"**Craft DC** 27; **Cost** 4,500 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"Known also as an \"H-belt,\" a heavy weapon harness is an elaborate network of plastic and metal struts and straps. The harness can be worn in conjunction with any other suit of armor-the armor bonus granted by the heavy weapon harness does not stack with that granted by other suits of armor, but the armor check penalties and spell failure percentages do.",
+			"Known also as an \"H-belt,\" a heavy weapon harness is an elaborate network of plastic and metal struts and straps. The harness can be worn in conjunction with any other suit of armor - the armor bonus granted by the heavy weapon harness does not stack with that granted by other suits of armor, but the armor check penalties and spell failure percentages do.",
 			"",
 			"A heavy weapon harness provides its wearer with additional stability and support, allowing the user to wield heavy weapons as if they were regular firearms, using the Exotic Weapon (firearms) feat for proficiency rather than Exotic Weapon (heavy weaponry). A character with Exotic Weapon (heavy weaponry) who wears an H-belt finds the use of heavy weapons even easier, and gains a +1 circumstance bonus on all attack rolls made with harnessed heavy weapons.",
 			"",
-			"Unlike most technological armors, a heavy weapon harness does not use power-its components are purely mechanical."
+			"Unlike most technological armors, a heavy weapon harness does not use power - its components are purely mechanical."
 		]
 	},
 	"scatterlight_suit_brown": {
@@ -55,7 +55,7 @@
 			"**Craft DC** 24; **Cost** 50 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A scatterlight suit is a tight, form-fitting suit of highly reflective polymers and synthetic metal fibers. It's designed to reflect beam weapon attacks, and provides only minimal protection against physical damage. Activating a scatterlight suit is a standard action; once activated, the suit diffuses and blurs light reflected from its surface, making the wearer appear hazy and indistinct. While active, a scatterlight suit increases the wearer's touch AC by a variable amount-this bonus is an armor bonus, but does not increase the wearer's normal or flat-footed AC beyond the scatterlight suit's baseline armor bonus of +1. This bonus to touch AC only applies to attacks made by beam weapons and rays-it does not provide additional protection to other touch attacks."
+			"A scatterlight suit is a tight, form-fitting suit of highly reflective polymers and synthetic metal fibers. It's designed to reflect beam weapon attacks, and provides only minimal protection against physical damage. Activating a scatterlight suit is a standard action; once activated, the suit diffuses and blurs light reflected from its surface, making the wearer appear hazy and indistinct. While active, a scatterlight suit increases the wearer's touch AC by a variable amount - this bonus is an armor bonus, but does not increase the wearer's normal or flat-footed AC beyond the scatterlight suit's baseline armor bonus of +1. This bonus to touch AC only applies to attacks made by beam weapons and rays - it does not provide additional protection to other touch attacks."
 		]
 	},
 	"chameleon_suit": {
@@ -146,7 +146,7 @@
 			"**Craft DC** 26; **Cost** 13,000 gp  ",
 			"Craft Technological Arms and Armor, production lab",
 			"",
-			"A deep diving suit is a body-tight mesh of reinforced rubber and polymer fitted with scrubbers that can draw and purify oxygen from its surrounding environment, extracting oxygen from water as easily as from air. The suit's helmet is close-fitting but offers excellent visibility, while the suit's fabric itself can flex while still remaining supportive against pressure-depths are treated as being 1,000 feet shallower than their actual depth for the purposes of determining pressure damage from deep water. The wearer is also immune to inhaled toxins and can breathe underwater with ease-the suit does not allow breathing in a vacuum.",
+			"A deep diving suit is a body-tight mesh of reinforced rubber and polymer fitted with scrubbers that can draw and purify oxygen from its surrounding environment, extracting oxygen from water as easily as from air. The suit's helmet is close-fitting but offers excellent visibility, while the suit's fabric itself can flex while still remaining supportive against pressure - depths are treated as being 1,000 feet shallower than their actual depth for the purposes of determining pressure damage from deep water. The wearer is also immune to inhaled toxins and can breathe underwater with ease - the suit does not allow breathing in a vacuum.",
 			"",
 			"A diving suit's hands and feet can activate webbing, long fins, and flippers, which the wearer can extend (and deactivate) as a move action. While in this mode, the wearer of the suit gains a swim speed of 20 feet and a +8 bonus on Swim checks, but the armor check penalty of the suit doubles to -4 and its land speed reduces to 20 feet (or 15 feet for slower characters, as appropriate). Swim checks are never penalized by a diving suit's armor check penalty."
 		]
@@ -371,7 +371,7 @@
 			"**Craft DC** 33; **Cost** 20,000 gp  ",
 			"Craft Technological Arms and Armor, graviton lab",
 			"",
-			"A gravity suit consists of several black, flexible straps attached to a framework of delicate servos, thin plates, and small strips of black polymer plastic-this give it an appearance of being ineffective armor. The armor bonus provided by an unpowered gravity suit is +0, but when activated, the suit generates a field of gravitons around the wearer that grants a +5 armor bonus (this bonus is a force effect). This bonus is doubled when it applies to the wearer's CMD score against bull rush, overrun, and trip attempts, and slows any fall as if the wearer were under the effect of a feather fall spell.",
+			"A gravity suit consists of several black, flexible straps attached to a framework of delicate servos, thin plates, and small strips of black polymer plastic - this give it an appearance of being ineffective armor. The armor bonus provided by an unpowered gravity suit is +0, but when activated, the suit generates a field of gravitons around the wearer that grants a +5 armor bonus (this bonus is a force effect). This bonus is doubled when it applies to the wearer's CMD score against bull rush, overrun, and trip attempts, and slows any fall as if the wearer were under the effect of a feather fall spell.",
 			"",
 			"At the cost of 1 additional charge per minute, the wearer of a gravity suit can fly at a speed of 60 ft. (average). Activating this ability is a standard action."
 		]
@@ -421,7 +421,7 @@
 			"**Craft DC** 28; **Cost** 30,500 gp  ",
 			"Craft Technological Arms and Armor, production lab",
 			"",
-			"Short for \"hazardous environment,\" an HEV suit provides protection from radiation, disease, poisonous gas, cold, heat, and similar environmental dangers. The suit needs a power supply to work-while deactivated, none of the following abilities function at all.",
+			"Short for \"hazardous environment,\" an HEV suit provides protection from radiation, disease, poisonous gas, cold, heat, and similar environmental dangers. The suit needs a power supply to work - while deactivated, none of the following abilities function at all.",
 			"",
 			"While powered, the suit provides immunity to inhaled poisons and diseases, and provides resistance 10 against all forms of energy except for sonic damage. An HEV suit completely protects against low radiation, and reduces the effects of medium radiation to low radiation, but it offers no protection against high or severe radiation. The suit's self-repairing polymer resin fabric automatically seals secondary punctures or tears created by physical attacks to the wearer and damage dealt specifically against the suit. It repairs damage at the rate of 2d6 points of damage per charge consumed. While repairing damage in this manner, the suit's other protective functions listed above are any taken offline. An HEV suit has hardness 2 and 30 hit points."
 		]
