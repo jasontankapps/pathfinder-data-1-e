@@ -1096,7 +1096,7 @@
 			"",
 			"The concept of ownership is rather flexible among you and your friends.  ",
 			"**Prerequisites:** {feat/Well-Prepared}, Sleight of Hand 1 rank, halfling.  ",
-			"**Benefit:** Whenever you're within 30 feet of a halfling ally who also has this feat, as a move action you can draw an item in that ally's possession as if it were on your person. This is not a magical effect-you just conveniently happen to remember that you had borrowed that item earlier. The item must be something that easily fits in a pocket or sleeve, such as a dagger, potion, wand, or scroll. When you or an ally draw an item (whether or not you do so using Shared Ownership) or otherwise definitively establish who is holding the item, you can't use Shared Ownership to draw the item in this manner until you have had at least 1 hour to mingle with your companions."
+			"**Benefit:** Whenever you're within 30 feet of a halfling ally who also has this feat, as a move action you can draw an item in that ally's possession as if it were on your person. This is not a magical effect - you just conveniently happen to remember that you had borrowed that item earlier. The item must be something that easily fits in a pocket or sleeve, such as a dagger, potion, wand, or scroll. When you or an ally draw an item (whether or not you do so using Shared Ownership) or otherwise definitively establish who is holding the item, you can't use Shared Ownership to draw the item in this manner until you have had at least 1 hour to mingle with your companions."
 		]
 	},
 	"shared_quarry": {
@@ -1907,7 +1907,7 @@
 			"",
 			"{SOURCE Inner Sea Races/209}",
 			"",
-			"Common folk have many superstitious rumors about your kind-tall tales born out of ignorance and fear alike. Whether or not what they say about your race is true is irrelevant, as you use their beliefs to take advantage of them whenever you can.  ",
+			"Common folk have many superstitious rumors about your kind - tall tales born out of ignorance and fear alike. Whether or not what they say about your race is true is irrelevant, as you use their beliefs to take advantage of them whenever you can.  ",
 			"**Prerequisites:** Bluff 1 rank; Disguise 1 rank; kitsune, nagaji, samsaran, tengu, or wayang.  ",
 			"**Benefit:** You gain a +2 insight bonus on Will saves against mind-affecting spells and effects and a +3 insight bonus on Bluff checks. Both benefits apply only against humanoid creatures of races other than your own."
 		]
@@ -2015,7 +2015,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
 			">",
-			">When this feat lets you move, you can spend 2 stamina points to move 10 feet instead of 5. You must still remain in your opponent's threatened area. You still lose your 5-foot step or 5 feet of movement-the movement lost doesn't increase to 10 feet."
+			">When this feat lets you move, you can spend 2 stamina points to move 10 feet instead of 5. You must still remain in your opponent's threatened area. You still lose your 5-foot step or 5 feet of movement - the movement lost doesn't increase to 10 feet."
 		]
 	},
 	"siege_commander": {
@@ -2379,7 +2379,7 @@
 			"",
 			"{SOURCE Adventurer's Guide/86}",
 			"",
-			"The [Gray Maidens](rule/aff_scarred_ladies) are more than just soldiers-they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
+			"The [Gray Maidens](rule/aff_scarred_ladies) are more than just soldiers - they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
 			"**Prerequisites:** Cha 13, {feat/Shield Focus}, base attack bonus +2.  ",
 			"**Benefit:** While using this style and wielding a longsword and a light or heavy shield, you gain a +1 bonus on Reflex and Will saving throws. In addition, when you enter the Sisterhood Style stance, you can choose a teamwork feat you have. As a swift action, you can grant that feat to an ally within 10 feet until the beginning of your next turn."
 		]
@@ -4024,9 +4024,9 @@
 			"**Prerequisites:** Ability to cast summon monster or summon nature's ally spells, drow.  ",
 			"**Benefit:** When casting either a summon monster spell or a summon nature's ally spell, your options increase. Depending on the level of the spell, you can summon the spiders listed below.",
 			"",
-			"Summon Monster: 1st level-giant crab spider&ast;; 4th level-giant black widow&ast;; 5th level-ogre spider&ast;; 7th level-giant tarantula&ast;",
-			"",
-			"Summon Nature's Ally: 1st level-giant crab spider; 4th level-giant black widow; 5th level-ogre spider; 7th level-giant tarantula",
+			">*Summon Monster:* 1st level-giant crab spider&ast;; 4th level-giant black widow&ast;; 5th level-ogre spider&ast;; 7th level-giant tarantula&ast;",
+			">",
+			">*Summon Nature's Ally:* 1st level-giant crab spider; 4th level-giant black widow; 5th level-ogre spider; 7th level-giant tarantula",
 			"",
 			"Creatures marked with an asterisk (&ast;) are summoned with the celestial template if you are good, and the fiendish template if you are evil. If you are neutral, you may choose which template to apply to the creature.",
 			"",
@@ -4100,7 +4100,7 @@
 			"",
 			"{SOURCE Adventurer's Guide/169}",
 			"",
-			"You are more aware of the supernatural forces that influence the world-and, consequently, are more easily noticed by them.  ",
+			"You are more aware of the supernatural forces that influence the world - and, consequently, are more easily noticed by them.  ",
 			"**Prerequisites:** Wis 15, {feat/Iron Will}.  ",
 			"**Benefit:** Select one specific category of spirit: fey, outsiders, or undead (including haunts). You gain a +1 bonus on Perception and Sense Motive checks against those creatures. If you have 10 or more ranks in one of these skills, the bonus increases to +2 for that skill.",
 			"",
@@ -4678,7 +4678,7 @@
 			"",
 			"A squire can only take levels in a class that grants proficiency with all martial weapons as a class feature, such as paladin, gunslinger, cavalier, or fighter. She cannot multiclass, though she may take any archetype she qualifies for, including those from the following \"Squire Archetypes\" section.",
 			"",
-			"If a squire gains enough XP to bring her to two levels lower than your level, the squire does not gain the new level until you gain your next level-until then her new XP total is 1 less than the amount needed to attain the next level and she gains no additional XP until you advance.",
+			"If a squire gains enough XP to bring her to two levels lower than your level, the squire does not gain the new level until you gain your next level - until then her new XP total is 1 less than the amount needed to attain the next level and she gains no additional XP until you advance.",
 			"",
 			"If you release your squire from service, you may gain a new one by scouting for potential candidates in a city or large town where members of your knightly order can typically be found, which requires at least 24 hours of uninterrupted scouting. This act can also replace a squire who has perished.  ",
 			"**Graduation:** When you reach 7th level, this feat automatically upgrades to the Leadership feat (meaning that you effectively lose this feat and replace it with Leadership). You gain all the normal benefits of the Leadership feat, except that your squire must remain at least three levels lower than you and must continue to take levels in her first class. In order for your squire to be able to be two levels lower than you, your squire must be at least 4th level, and you must witness her as she single-handedly defeats a creature with Hit Dice equal to or greater than her own. Upon the creature's defeat, your squire graduates to full knighthood and acts as a normal cohort; she may begin taking levels in other classes if she so chooses, and she may increase in level to up to two levels lower than yourself."
@@ -4710,7 +4710,7 @@
 			"",
 			"You can clear the way to continue using your bow.  ",
 			"**Prerequisites:** {feat/Rapid Shot}, elf.  ",
-			"**Benefit:** When adjacent to an opponent and making a full-attack action with a longbow or shortbow (including composite bows), you may choose to make a melee attack against that opponent with a drawn arrow rather than firing it. If the attack hits-whether or not it does damage-your target is pushed back 5 feet away from you. You can then fire arrows from your bow normally, at the original target, or at another target within range. This melee attack replaces the extra attack from Rapid Shot, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a -2 penalty. If your initial attack leaves you with no enemies threatening you, you can make the subsequent ranged attack or attacks without provoking attacks of opportunity.",
+			"**Benefit:** When adjacent to an opponent and making a full-attack action with a longbow or shortbow (including composite bows), you may choose to make a melee attack against that opponent with a drawn arrow rather than firing it. If the attack hits - whether or not it does damage - your target is pushed back 5 feet away from you. You can then fire arrows from your bow normally, at the original target, or at another target within range. This melee attack replaces the extra attack from Rapid Shot, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a -2 penalty. If your initial attack leaves you with no enemies threatening you, you can make the subsequent ranged attack or attacks without provoking attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -6266,7 +6266,7 @@
 			"",
 			"**Apparent School:** A stylized spell can appear to be of a different school or subschool when studied with detect magic.",
 			"",
-			"**Apparent Source of Magic:** A stylized spell can appear to be a different type of magic-arcane, divine, or psychic. The effect is convincing only if the spellcaster provides any necessary components (such as a divine focus when imitating divine spells), and the caster must have a number of ranks in the skill associated with that type of magic equal to the spell's level. Knowledge (arcana) and Perform are associated with arcane magic, Knowledge (nature and religion) are associated with divine magic, and Bluff and Knowledge (arcana) are associated with psychic magic. A spellcaster can disguise his spell as psychic magic only if he can hide or remove the spell's verbal and somatic components (if any), such as with Conceal Spell, Secret Signs, Silent Spell, or Still Spell.",
+			"**Apparent Source of Magic:** A stylized spell can appear to be a different type of magic - arcane, divine, or psychic. The effect is convincing only if the spellcaster provides any necessary components (such as a divine focus when imitating divine spells), and the caster must have a number of ranks in the skill associated with that type of magic equal to the spell's level. Knowledge (arcana) and Perform are associated with arcane magic, Knowledge (nature and religion) are associated with divine magic, and Bluff and Knowledge (arcana) are associated with psychic magic. A spellcaster can disguise his spell as psychic magic only if he can hide or remove the spell's verbal and somatic components (if any), such as with Conceal Spell, Secret Signs, Silent Spell, or Still Spell.",
 			"",
 			"**Direction of Spell's Effect:** A stylized spell effect that visibly originates from the caster (such as a ray, magic missile, or fireball bead) can instead appear to originate from another point within 30 feet of the caster. There must be clear lines of effect between each of the caster, the new origin point, and the destination. If the spell effect instead fills an area that originates from the caster (such as a line or cone), the effect can instead appear to originate from any point in that area. The new point of origin is entirely cosmetic, and it does not allow the spellcaster to ignore cover or other barriers. In addition, the deception can't make it appear that another creature cast the spell.",
 			"",

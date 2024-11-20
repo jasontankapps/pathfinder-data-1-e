@@ -867,7 +867,7 @@
 					[ [ "spell/glimpse_of_truth", "Glimpse of Truth" ], 5, "divination", null, null, "Gain true seeing for 1 round." ],
 					[ [ "spell/guardian_monument_greater", "Guardian Monument, Greater" ], 5, "abjuration", null, null, "As lesser guardian monument, except with DR 4/magic." ],
 					[ [ "spell/half-blood_extraction", "Half-Blood Extraction" ], 5, "transmutation", null, null, "Transform a half-orc into a full-blooded orc." ],
-					[ [ "spell/hasten_judgement", "Hasten Judgement" ], 5, "necromancy", null, "curse", "Quicken a soul's journey to judgement-hampering ressurection or weakening undead foes" ],
+					[ [ "spell/hasten_judgement", "Hasten Judgement" ], 5, "necromancy", null, "curse", "Quicken a soul's journey to judgement - hampering ressurection or weakening undead foes" ],
 					[ [ "spell/hex_glyph_greater", "Hex Glyph, Greater" ], 5, "abjuration", null, null, "Inscription casts your hex or major hex on those who pass it." ],
 					[ [ "spell/hold_monster", "Hold Monster" ], 5, "enchantment", "compulsion", "mind-affecting", "As hold person, but any creature." ],
 					[ [ "spell/hostile_juxtaposition", "Hostile Juxtaposition" ], 5, "conjuration", "teleportation", null, "You create a dimensional link with a targeted creature, and switch spots with it." ],

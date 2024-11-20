@@ -552,7 +552,7 @@
 			"{SOURCE Pathfinder #30: The Twice-Damned Prince/69}",
 			"",
 			"Spells cast using this feat pay the wages of Mammon and forgo their more mundane costs.  ",
-			"**Benefit:** You may satisfy the material requirement of any spell you cast with valuable coins, gems, or jewelry rather than the normal component. For spells with material components with no listed value, valuables worth 5 times the spell's level in gp may be expended instead of the usual components (5 gp for a 1st-level spell, 20 gp for a 4th-level spell, etc). In the case of spells with components that have a listed cost, you may expend valuables worth a number of gp equal to one and a half times this cost (thus, a spell like {spell/commune} with material components costing 500 gp could be cast using valuables worth 750 gp). Only coins, gems, jewelry, and other similar objects of obvious worth can be used to replace other material components using this feat. The value of these objects need not match the required cost exactly, but they cannot be less than the required costs. Should valuables of greater value than required be expended (likely when employing objects like gems or jewelry), the extraneous gp value is lost, consumed with the rest of the object. The only exception comes in the case of spells with material components that have a listed worth. When casting such spells you may expend double the components' gp worth in valuables to cast the spell as if your caster level were 1 level higher. This e!ect only applies to spells with components with a specific gp value. Any expenditure beyond double the gp value grants no additional benefit."
+			"**Benefit:** You may satisfy the material requirement of any spell you cast with valuable coins, gems, or jewelry rather than the normal component. For spells with material components with no listed value, valuables worth 5 times the spell's level in gp may be expended instead of the usual components (5 gp for a 1st-level spell, 20 gp for a 4th-level spell, etc). In the case of spells with components that have a listed cost, you may expend valuables worth a number of gp equal to one and a half times this cost (thus, a spell like {spell/commune} with material components costing 500 gp could be cast using valuables worth 750 gp). Only coins, gems, jewelry, and other similar objects of obvious worth can be used to replace other material components using this feat. The value of these objects need not match the required cost exactly, but they cannot be less than the required costs. Should valuables of greater value than required be expended (likely when employing objects like gems or jewelry), the extraneous gp value is lost, consumed with the rest of the object. The only exception comes in the case of spells with material components that have a listed worth. When casting such spells you may expend double the components' gp worth in valuables to cast the spell as if your caster level were 1 level higher. This effect only applies to spells with components with a specific gp value. Any expenditure beyond double the gp value grants no additional benefit."
 		]
 	},
 	"invoke_primal_instinct": {
@@ -939,7 +939,7 @@
 			"",
 			"Your strikes render your enemy distracted and unable to focus on productive action.  ",
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
-			"**Benefit:** Joyless Toil forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + half your character level + your Wisdom modifier) in addition to taking damage normally. You must declare that you are using this feat before you make your attack roll-thus, a failed attack roll wastes the attempt. An opponent who fails this saving throw is nauseated for 1 round or until the opponent is attacked. You can attempt to use Joyless Toil once per day for every 4 character levels you have, but you can use it no more than once per round. Constructs, incorporeal creatures, mindless creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability."
+			"**Benefit:** Joyless Toil forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + half your character level + your Wisdom modifier) in addition to taking damage normally. You must declare that you are using this feat before you make your attack roll - thus, a failed attack roll wastes the attempt. An opponent who fails this saving throw is nauseated for 1 round or until the opponent is attacked. You can attempt to use Joyless Toil once per day for every 4 character levels you have, but you can use it no more than once per round. Constructs, incorporeal creatures, mindless creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability."
 		]
 	},
 	"judgment_surge": {
@@ -1248,7 +1248,7 @@
 			"",
 			"Your intimate knowledge of anatomy, deep hatred of your own kind, and delight in spilling your people's blood make you a lethal combatant against your own race.  ",
 			"**Prerequisites:** Knowledge 3 ranks (see special), evil alignment.  ",
-			"**Benefit:** Your attacks deal an additional 1d6 points of precision damage against creatures that have the same creature type (and subtype, if applicable) as you. This bonus damage stacks with other sources of precision damage, such as sneak attack. If you have more than one subtype, you must choose one of them-this feat applies only to targets of that subtype. Once made, this choice can't be changed.  ",
+			"**Benefit:** Your attacks deal an additional 1d6 points of precision damage against creatures that have the same creature type (and subtype, if applicable) as you. This bonus damage stacks with other sources of precision damage, such as sneak attack. If you have more than one subtype, you must choose one of them - this feat applies only to targets of that subtype. Once made, this choice can't be changed.  ",
 			"**Special:** The Knowledge skill used to qualify for this feat must be appropriate for identifying creatures of your type."
 		]
 	},
@@ -1362,7 +1362,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/22}",
 			"",
-			"You've so impressed the Traitor that he's given you a title in his court-in-exile-possibly to keep an eye on you.  ",
+			"You've so impressed the Traitor that he's given you a title in his court-in-exile - possibly to keep an eye on you.  ",
 			"**Prerequisites:** Fey creature type or {feat/Fey Obedience} (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat.",
 			"",
 			"Once per day you can cast {spell/glibness} as a spell-like ability with a caster level equal to your Hit Dice."
@@ -1636,7 +1636,7 @@
 			"",
 			"{SOURCE Wilderness Origins/14}",
 			"",
-			"Your magical nature infuses your vines, further obscuring grappled foes' vision-even for opponents with enhanced senses.  ",
+			"Your magical nature infuses your vines, further obscuring grappled foes' vision - even for opponents with enhanced senses.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +6 or monk level 6th, {feat/Greater Grapple}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Kudzu Grappler}, {feat/Kudzu Invasion}.  ",
 			"**Benefit:** Opponents blinded by your {feat/Kudzu Grappler} feat increase their miss chance against creatures they attack by 20%. If the opponent has means of ignoring blindness, such as blindsight, they instead treat other creatures as if these creatures had normal concealment (20% miss chance).  ",
 			"**Normal:** All opponents are considered to have total concealment (50% miss chance) against blinded creatures."
@@ -1969,7 +1969,7 @@
 			"",
 			"A cohort does not count as a party member when determining the party's XP. Instead, divide the cohort's level by your level. Multiply this result by the total XP awarded to you, then add that number of experience points to the cohort's total.",
 			"",
-			"If a cohort gains enough XP to bring it to a level one lower than your level, the cohort does not gain the new level-its new XP total is 1 less than the amount needed to attain the next level.",
+			"If a cohort gains enough XP to bring it to a level one lower than your level, the cohort does not gain the new level - its new XP total is 1 less than the amount needed to attain the next level.",
 			"",
 			"*Number of Followers by Level:* You can lead up to the indicated number of characters of each level. Followers are similar to cohorts, except they're generally low-level NPCs. Because they're usually 5 or more levels behind you, they're rarely effective in combat.",
 			"",
@@ -3630,7 +3630,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/22}",
 			"",
-			"You've made your case to become one of Ragadahn's nobles in the traditional way-by carving your sigil and the Water Lord's ouroboros in the flesh of a living dragon or of another massive monstrosity-and earned some of his might as a reward.  ",
+			"You've made your case to become one of Ragadahn's nobles in the traditional way-by carving your sigil and the Water Lord's ouroboros in the flesh of a living dragon or of another massive monstrosity - and earned some of his might as a reward.  ",
 			"**Prerequisites:** Fey creature type or {feat/Fey Obedience} (Ragadahn), you must have carved your name and Ragadahn's holy symbol on the hide of a living dragon or outsider with either the aquatic or water subtype and a CR at least 2 higher than your level when you took the feat.  ",
 			"**Benefit:** You claim ownership of that which you strike. If you have dealt hit point damage to a creature this round, that creature takes a -2 penalty on combat maneuver checks and to its CMD until the beginning of your next round."
 		]
@@ -6108,7 +6108,7 @@
 			"",
 			"You have a special talent for ruling a nation, and take to the task with ease.  ",
 			"**Prerequisites:** Hold a leadership role related to running a kingdom.  ",
-			"**Benefit:** Choose an ability score. Any time your leadership role calls for that ability score to affect one of your kingdom's attributes, your modifier to that ability score is treated as being +2 higher. For example, if you choose Charisma and occupy the General or High Priest leadership role, your Charisma modifier to affect your kingdom's stability would be +2 higher than normal. However, if you occupied the Spymaster leadership role-which employs the Intelligence and Wisdom ability scores-this feat would grant no benefit. Additionally, the entire kingdom gains +2 Stability for as long as you occupy a leadership role.  ",
+			"**Benefit:** Choose an ability score. Any time your leadership role calls for that ability score to affect one of your kingdom's attributes, your modifier to that ability score is treated as being +2 higher. For example, if you choose Charisma and occupy the General or High Priest leadership role, your Charisma modifier to affect your kingdom's stability would be +2 higher than normal. However, if you occupied the Spymaster leadership role - which employs the Intelligence and Wisdom ability scores - this feat would grant no benefit. Additionally, the entire kingdom gains +2 Stability for as long as you occupy a leadership role.  ",
 			"**Special:** You may gain this feat multiple times, but each time you must choose a different ability score. The bonus to Stability gained from this feat stacks."
 		]
 	},
@@ -6767,7 +6767,7 @@
 			"",
 			"{SOURCE Pathfinder #139: The Dead Road/71}",
 			"",
-			"Even the lowliest psychopomp can sniff out the undead. A whippoorwill in a papier-mache' mask taught you how to do it.  ",
+			"Even the lowliest psychopomp can sniff out the undead. A whippoorwill in a papier-m&acirc;ch&eacute; mask taught you how to do it.  ",
 			"**Prerequisites:** {race/Duskwalker}.  ",
 			"**Benefit:** You can cast {spell/detect undead} as a spell-like ability at will. Your caster level for the purpose of this effect is equal to your character level."
 		]
@@ -6833,7 +6833,7 @@
 			"{SOURCE Quests and Campaigns/16}",
 			"",
 			"The object of your quest drives you ever forward.  ",
-			"**Prerequisites:** You must have some highly personal stake in attaining the object of your quest as determined collectively by you and the GM-such as needing an ancestral weapon to exact your revenge against a known betrayer, seeking to destroy the artifact that caused your family's downfall generations ago, or attempting to behead a monster that ravaged your homeland during your youth.  ",
+			"**Prerequisites:** You must have some highly personal stake in attaining the object of your quest as determined collectively by you and the GM - such as needing an ancestral weapon to exact your revenge against a known betrayer, seeking to destroy the artifact that caused your family's downfall generations ago, or attempting to behead a monster that ravaged your homeland during your youth.  ",
 			"**Benefit:** When you gain this feat, select one of the quest objects on this page or the facing page, or devise a quest object with your GM based on the quest objects presented in this section. You gain a +2 bonus on any Knowledge checks to gain information on the object of your quest. If you have 10 or more ranks in the Knowledge skill in question, the bonus increases to +4. In addition, once per day when you threaten a critical hit against a foe who specifically aims to stop you from completing your quest, you gain a +10 bonus on your confirmation roll against that opponent. You must announce the use of this ability after threatening the critical hit and before rolling your confirmation roll. This bonus does not stack with bonuses on confirmation rolls from other feats, such as Critical Focus.  ",
 			"**Goal:** Attain the object of your quest, as determined by you and the GM upon taking this feat. This likely means decidedly obtaining the item for yourself, though in some cases (such as when the quest object is more abstract or intangible) this might mean slaying a certain foe, achieving a certain honor, or completing some other set of predetermined objectives.  ",
 			"**Completion Benefit:** You gain renown throughout a region, perhaps even an entire continent. You are sung of in bardic tales and can be the subject of spells such as legend lore, regardless of your actual level. Commoners in nearby lands know of your deeds, and your reputation precedes you in numerous lands. In addition, you gain a specific benefit keyed to the object of your quest. See the quest objects in this section for examples of completion benefits when devising your own quest objects for use with this feat.  ",
@@ -6958,7 +6958,7 @@
 			"",
 			"You have been dead for so long you have become quite difficult to kill.  ",
 			"**Prerequisites:** {feat/Sleeper}, {feat/Warren Digger}, creature has been a ghoul for at least 500 years.  ",
-			"**Benefit:** When you are reduced to 0 hit points, you are not destroyed-you cannot be killed unless your body is completely destroyed with fire or doused in holy water, or you take damage from a cure spell or channeled positive energy after you've been reduced to 0 hit points. Anytime you are reduced to 0 hit points, you remain unconscious until you are healed or until the following midnight, at which time you regain 1 hit point per Hit Die and awaken."
+			"**Benefit:** When you are reduced to 0 hit points, you are not destroyed - you cannot be killed unless your body is completely destroyed with fire or doused in holy water, or you take damage from a cure spell or channeled positive energy after you've been reduced to 0 hit points. Anytime you are reduced to 0 hit points, you remain unconscious until you are healed or until the following midnight, at which time you regain 1 hit point per Hit Die and awaken."
 		]
 	},
 	"old_cults_awakener": {

@@ -138,7 +138,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language-you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets."
+			"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -673,7 +673,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
 			"",
-			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend-or friends-have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the {rule/Aid Another} action to help an ally, or whenever an ally [aids you](rule/aid_another_2) in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
+			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend - or friends - have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the {rule/Aid Another} action to help an ally, or whenever an ally [aids you](rule/aid_another_2) in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -1521,7 +1521,7 @@
 			"**Type:** Regional  ",
 			"**Region:** desert",
 			"",
-			"In your youth, you were chased by giants for trespassing-or for sport-and you have learned to evade the reach of your opponents. You gain a +3 bonus on Acrobatics checks to avoid provoking an attack of opportunity when moving out of a threatened space.",
+			"In your youth, you were chased by giants for trespassing - or for sport - and you have learned to evade the reach of your opponents. You gain a +3 bonus on Acrobatics checks to avoid provoking an attack of opportunity when moving out of a threatened space.",
 			"",
 			"Likely Regions: Katapesh, Osirion, Qadira, Rahadoum, Thuvia.",
 			"",
@@ -1626,7 +1626,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait-from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
+			"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -2200,7 +2200,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit-or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
+			"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit - or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -2357,7 +2357,7 @@
 			"",
 			"**Type:** Drawback",
 			"",
-			"Something from your past-or a dark secret you presently hold-makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy. You take a -2 penalty on saves against spells with the evil descriptor."
+			"Something from your past - or a dark secret you presently hold - makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy. You take a -2 penalty on saves against spells with the evil descriptor."
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
 	},
@@ -2745,7 +2745,7 @@
 			"**Type:** Combat  ",
 			"**Region:** Sargava",
 			"",
-			"You are used to fighting in [hilly environments](rule/hills_terrain). You may run or charge downhill on a steep slope (moving up to your base speed) without making an Acrobatics check to avoid stumbling-but if you travel farther than this distance, the normal rules for steep slopes apply."
+			"You are used to fighting in [hilly environments](rule/hills_terrain). You may run or charge downhill on a steep slope (moving up to your base speed) without making an Acrobatics check to avoid stumbling - but if you travel farther than this distance, the normal rules for steep slopes apply."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
@@ -3263,7 +3263,7 @@
 			"",
 			"**Type:** Equipment",
 			"",
-			"You have an uncanny knack for turning equipment to new and unexpected uses. When using an item for anything other than its intended purpose-such as using a crowbar as a grappling hook or an old shirt to bandage a deadly wound-reduce the improvisation penalty by 2. This does not apply to improvised weapon penalties. Your GM may rule that some things are just not suitable for use in certain ways; for example, gluing a dead orc's face to your own face won't help you disguise yourself as an orc."
+			"You have an uncanny knack for turning equipment to new and unexpected uses. When using an item for anything other than its intended purpose - such as using a crowbar as a grappling hook or an old shirt to bandage a deadly wound - reduce the improvisation penalty by 2. This does not apply to improvised weapon penalties. Your GM may rule that some things are just not suitable for use in certain ways; for example, gluing a dead orc's face to your own face won't help you disguise yourself as an orc."
 		],
 		"subhierarchy": [[ "Equipment Traits", "main/traits_equipment" ]]
 	},
@@ -4716,7 +4716,7 @@
 			"**Region:** Molthune or Osirion  ",
 			"**Requirements:** Halfling",
 			"",
-			"You followed-or some might say exploited-the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude. You gain a +1 bonus on all Knowledge checks to find a legitimate way to avoid, negate, or escape an existing obligation."
+			"You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude. You gain a +1 bonus on all Knowledge checks to find a legitimate way to avoid, negate, or escape an existing obligation."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5438,7 +5438,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait-your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
+			"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait - your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -5454,7 +5454,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two-and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
+			"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two - and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -5614,7 +5614,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"That which has marked you for power has also given you proof to show others. You may cast light three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth-a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
+			"That which has marked you for power has also given you proof to show others. You may cast light three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -6282,7 +6282,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers-or vulnerabilities-with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
+			"Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers - or vulnerabilities - with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -6718,7 +6718,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** Gnome",
 			"",
-			"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability-one day you might use dancing lights twice, only to use the additional casting for speak with animals the next day."
+			"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use {spell/dancing lights} twice, only to use the additional casting for {spell/speak with animals} the next day."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -8129,7 +8129,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold-but you gain whatever you can take. You gain a +1 trait bonus on combat maneuver checks to perform disarm and steal combat maneuvers.",
+			"Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold - but you gain whatever you can take. You gain a +1 trait bonus on combat maneuver checks to perform disarm and steal combat maneuvers.",
 			"",
 			"Suggested Characters: Halflings, River Kingdoms natives, Shackles natives."
 		],

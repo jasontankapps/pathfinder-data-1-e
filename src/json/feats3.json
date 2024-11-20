@@ -1650,7 +1650,7 @@
 			"",
 			"The deep emotional resonance you share with your phantom enables you to master the emotions of others.  ",
 			"**Prerequisites:** Shared consciousness class feature.  ",
-			"**Benefit:** You gain familiarity with a number of additional spells based on the emotional focus of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows: Anger: 1st-burst of adrenaline-, 2nd-rage, 3rd-howling agony, 4th-telekinetic charge, 5th-vengeful outrage, 6th-transformation.",
+			"**Benefit:** You gain familiarity with a number of additional spells based on the emotional focus of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows: Anger: 1st-burst of adrenaline, 2nd-rage, 3rd-howling agony, 4th-telekinetic charge, 5th-vengeful outrage, 6th-transformation.",
 			"",
 			"Despair: 1st-touch of gracelessness, 2nd-death knell, 3rd-ray of exhaustion, 4th-crushing despair, 5th-suffocation, 6th-eyebite.",
 			"",
@@ -2328,7 +2328,7 @@
 			"",
 			"*Knotted Weapon* (Weapon Proficiency [spiked chain]): You can use a knotted length of rope as a spiked chain that inflicts bludgeoning damage instead of piercing damage.",
 			"",
-			"*Lash* (Weapon Proficiency [whip]): You can use a length of rope as a whip at no penalty. The piece of rope that is used as a whip must be 10 feet long-length in excess of this must remain coiled or otherwise unused at your feet or side.",
+			"*Lash* (Weapon Proficiency [whip]): You can use a length of rope as a whip at no penalty. The piece of rope that is used as a whip must be 10 feet long - length in excess of this must remain coiled or otherwise unused at your feet or side.",
 			"",
 			"*Lifeline* (Climb 5 ranks): When you or a nearby creature is falling (from a failed Climb check or otherwise), you can throw a held rope as an immediate action, maintaining a grip on one end. If you are falling, this is treated as an attempt to catch yourself while falling made with a +10 bonus, but there must be some sort of solid anchor available for your rope to loop around. When attempting this check on another creature, treat it as if you yourself were falling. If the weight of the creature exceeds twice your heavy load limit (your own equipment does not count against this maximum), you are pulled after it.",
 			"",
@@ -2645,7 +2645,7 @@
 			"",
 			"Your hatred for the ancient enemies of your race runs deep, allowing you to inflict cruel wounds upon them.  ",
 			"**Prerequisites:** Knowledge 3 ranks (see special), hatred racial trait.  ",
-			"**Benefit:** Your attacks deal an additional 1d6 points of precision damage against targets of your hatred racial trait. This bonus damage stacks with other sources of precision damage, such as sneak attack. If your hatred racial trait applies to two creature types or subtypes, you must choose one of them-this feat applies to targets of that type (and subtype, if applicable). Once made, this choice cannot be changed.  ",
+			"**Benefit:** Your attacks deal an additional 1d6 points of precision damage against targets of your hatred racial trait. This bonus damage stacks with other sources of precision damage, such as sneak attack. If your hatred racial trait applies to two creature types or subtypes, you must choose one of them - this feat applies to targets of that type (and subtype, if applicable). Once made, this choice cannot be changed.  ",
 			"**Special:** The Knowledge skill used to qualify for this feat must be appropriate for identifying creatures of the chosen type."
 		]
 	},
@@ -3334,7 +3334,7 @@
 			"| 3 | For years the mysterious Doorway to the Red Star has befuddled scholars and inspired fringe faiths among the denizens of the Mwangi. You've decided to set out and discover why . |",
 			"| 4 | The government of a nearby nation is interested in reopening steady trade across the Crown of the World by a route north of Icerift Castle in Mendev, and they've assigned you to clear the path . |",
 			"| 5 | You hire on with a band of skilled pirates in the Shackles in hopes of being able to navigate the perilous Eye of Abendego . |",
-			"| 6 | Earthnavel in the Realm of the Mammoth Lords is said to lead into a time-lost underworld known as Deep Tolguth-a rumor whose veracity you're willing to test . |",
+			"| 6 | Earthnavel in the Realm of the Mammoth Lords is said to lead into a time-lost underworld known as Deep Tolguth - a rumor whose veracity you're willing to test . |",
 			"| 7 | Forgotten Iobarian ruins in the plague-emptied forests of Casmaron await a hearty explorer to plumb their darkest depths . |",
 			"| 8 | You know that many would pay grand sums for the exotic reagents of the Valashmai Jungle in Tian Xia if it were ever opened up to trade with the Inner Sea region . |"
 		]
@@ -5486,7 +5486,7 @@
 			"**Benefit:** Once per day when raging, if you are hit by an attack that would deal enough hit points of damage to kill you (negative hit points equal to your Constitution score), as an immediate action you may expend 1 or more rounds of rage to negate some of this damage and keep yourself alive. Each round of rage you spend reduces the attack's damage by 1 point, but cannot reduce the damage taken below 1 hit point.",
 			"",
 			"For example, if you are raging, have a raging Constitution score of 18, are currently at 2 hit points, and take 20 hit points of damage from a hit (which is enough to bring you to -18 hit points, thereby killing you), you may spend 1 round of rage to reduce the damage by 1 hit point (leaving you perilously close to death at -17 hit points); if you spend 17 rounds of rage, you reduce the damage to 1 (the minimum), leaving you with 1 hit point.  ",
-			"**Note:** If this damage still makes you fall unconscious, your rage ends just like it normally would, lowering your Constitution to its normal value and reducing your hit point total as normal. Therefore, it is possible to use this feat to prevent yourself from instantly dying, yet you still die because your negative hit points exceed your normal Constitution score-take your normal Constitution into account when deciding how many rounds of rage to spend with this feat.",
+			"**Note:** If this damage still makes you fall unconscious, your rage ends just like it normally would, lowering your Constitution to its normal value and reducing your hit point total as normal. Therefore, it is possible to use this feat to prevent yourself from instantly dying, yet you still die because your negative hit points exceed your normal Constitution score - take your normal Constitution into account when deciding how many rounds of rage to spend with this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
@@ -5618,7 +5618,7 @@
 			"",
 			"{SOURCE Ultimate Wilderness/111}",
 			"",
-			"You have trained your mind to resist fey magic-both that cast by fey creatures and that cast by other denizens of the First World.  ",
+			"You have trained your mind to resist fey magic - both that cast by fey creatures and that cast by other denizens of the First World.  ",
 			"**Prerequisites:** Knowledge (nature) or Knowledge (planes) 3 ranks.  ",
 			"**Benefit:** You gain a +2 morale bonus on saving throws against enchantment and illusion spells and spell-like abilities cast by creatures of the fey type."
 		]
@@ -6862,7 +6862,7 @@
 			"{SOURCE Rival Guide/35}",
 			"",
 			"You are trained to strike at a large foe's feet to impede its movement and cause great pain.  ",
-			"**Benefit:** If you damage a foe that is of a larger size category than you with a weapon that does piercing or slashing damage, you can attempt to damage the creature's feet in a way that impedes its movement. Attacking a foe in this way is a standard action-you cannot use Footslasher as part of a full-attack action. When you use Footslasher, you take a -2 penalty on your attack roll, but if you hit and deal at least 1 point of damage to the target, it is affected as if by caltrops-its speed is reduced by half. This penalty lasts for 24 hours, or until the creature is successfully treated with a DC 15 Heal check or receives at least 1 point of magical healing. Footslasher does not stack with itself-once a foe has been wounded by this attack, its speed cannot be further reduced by additional attacks (or by damage from caltrops)."
+			"**Benefit:** If you damage a foe that is of a larger size category than you with a weapon that does piercing or slashing damage, you can attempt to damage the creature's feet in a way that impedes its movement. Attacking a foe in this way is a standard action - you cannot use Footslasher as part of a full-attack action. When you use Footslasher, you take a -2 penalty on your attack roll, but if you hit and deal at least 1 point of damage to the target, it is affected as if by caltrops - its speed is reduced by half. This penalty lasts for 24 hours, or until the creature is successfully treated with a DC 15 Heal check or receives at least 1 point of magical healing. Footslasher does not stack with itself - once a foe has been wounded by this attack, its speed cannot be further reduced by additional attacks (or by damage from caltrops)."
 		]
 	},
 	"force_dash": {

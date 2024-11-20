@@ -36,7 +36,7 @@
 					[ [ "monster/daemon_sangudaemon", "Daemon, Sangudaemon" ], 9, "outsider", [ 4, "medium" ], [ 5, "NE" ], "This human-sized, serpent-headed spider seems to be made of clotted blood, its dragonfly-like wings dripping crimson streamers." ],
 					[ [ "monster/daemon_sepsidaemon", "Daemon, Sepsidaemon" ], 7, "outsider", [ 4, "medium" ], [ 5, "NE" ], "A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now and then, a grasping claw extends forth." ],
 					[ [ "monster/daemon_suspiridaemon", "Daemon, Suspiridaemon" ], 7, "outsider", [ 4, "medium" ], [ 5, "NE" ], "This tall, three-legged, vulture-headed fiend has a grotesquely long, suckered tongue and gangly arms that end in claws." ],
-					[ [ "monster/daemon_temerdaemon", "Daemon, Temerdaemon" ], 14, "outsider", [ 5, "large" ], [ 5, "NE" ], "This humanoid creature's limbs-four arms and four legs-bend in awkward configurations. It wields a scythe in its largest arms." ],
+					[ [ "monster/daemon_temerdaemon", "Daemon, Temerdaemon" ], 14, "outsider", [ 5, "large" ], [ 5, "NE" ], "This humanoid creature's limbs - four arms and four legs - bend in awkward configurations. It wields a scythe in its largest arms." ],
 					[ [ "monster/daemon_thanadaemon", "Daemon, Thanadaemon" ], 13, "outsider", [ 4, "medium" ], [ 5, "NE" ], "Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A seething glow burns in its eye sockets." ],
 					[ [ "monster/daemon_venedaemon", "Daemon, Venedaemon" ], 5, "outsider", [ 4, "medium" ], [ 5, "NE" ], "Tentacles protrude from the robes of this floating hooded figure in place of arms and legs. Its face is a disturbing, toothless maw." ],
 					[ [ "monster/daemon_vulnudaemon", "Daemon, Vulnudaemon" ], 4, "outsider", [ 3, "small" ], [ 5, "NE" ], "A bloody, tooth-filled mouth that looks almost like a horrific gash gasps in the neck of this pale, childlike horror." ],
@@ -113,7 +113,7 @@
 					[ [ "monster/demon_schir", "Demon, Schir" ], 4, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This goat-headed humanoid is covered in a mangy gray hide that only partly covers its gaunt but muscled frame." ],
 					[ [ "monster/demon_seraptis", "Demon, Seraptis" ], 15, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This woman's flesh is pale and clammy, as if her body had been drained of blood from the fanged slashes on her four arms." ],
 					[ [ "monster/demon_shachath", "Demon, Shachath" ], 11, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This winged abomination is a horrid mix of demonic and angelic features, as if two bodies were carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a beautiful visage with an expression of horror bulges from the back of its skull." ],
-					[ [ "monster/demon_shadow_demon", "Demon, Shadow" ], 7, "outsider", [ 4, "medium" ], [ 8, "CE" ], "Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them-the rest is lost in darkness." ],
+					[ [ "monster/demon_shadow_demon", "Demon, Shadow" ], 7, "outsider", [ 4, "medium" ], [ 8, "CE" ], "Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them - the rest is lost in darkness." ],
 					[ [ "monster/demon_shemhazian", "Demon, Shemhazian" ], 16, "outsider", [ 7, "gargantuan" ], [ 8, "CE" ], "This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a reptilian humanoid." ],
 					[ [ "monster/demon_succubus", "Demon, Succubus" ], 7, "outsider", [ 4, "medium" ], [ 8, "CE" ], "Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of this alluring woman." ],
 					[ [ "monster/demon_swaithe", "Demon, Swaithe" ], 4, "outsider", [ 3, "small" ], [ 8, "CE" ], "This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, stained teeth." ],
@@ -201,7 +201,7 @@
 					[ [ "monster/dinosaur_spinosaurus", "Dinosaur, Spinosaurus" ], 11, "animal", [ 7, "gargantuan" ], [ 4, "N" ], "This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back." ],
 					[ [ "monster/dinosaur_stegosaurus", "Dinosaur, Stegosaurus" ], 7, "animal", [ 6, "huge" ], [ 4, "N" ], "This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes." ],
 					[ [ "monster/dinosaur_styracosaurus", "Dinosaur, Styracosaurus" ], 5, "animal", [ 5, "large" ], [ 4, "N" ], "This bulky, four-legged dinosaur has a long nasal horn and a crest studded with additional horns sweeping back from its skull." ],
-					[ [ "monster/dinosaur_therizinosaurus", "Dinosaur, Therizinosaurus" ], 10, "animal", [ 7, "gargantuan" ], [ 4, "N" ], "This feathered bipedal saurian looks somewhat comical-save for its outlandish sword-sized claws." ],
+					[ [ "monster/dinosaur_therizinosaurus", "Dinosaur, Therizinosaurus" ], 10, "animal", [ 7, "gargantuan" ], [ 4, "N" ], "This feathered bipedal saurian looks somewhat comical - save for its outlandish sword-sized claws." ],
 					[ [ "monster/dinosaur_triceratops", "Dinosaur, Triceratops" ], 8, "animal", [ 6, "huge" ], [ 4, "N" ], "This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull." ],
 					[ [ "monster/dinosaur_troodon", "Dinosaur, Troodon" ], 1, "animal", [ 4, "medium" ], [ 4, "N" ], "This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss nothing." ],
 					[ [ "monster/dinosaur_tylosaurus", "Dinosaur, Tylosaurus" ], 8, "animal", [ 7, "gargantuan" ], [ 4, "N" ], "Surging out of the water, this massive lizard is shaped like a giant fish with a powerful, toothed maw." ],
@@ -540,7 +540,7 @@
 					[ [ "monster/flea_mammoth_flea", "Flea, Mammoth" ], 2, "vermin", [ 5, "large" ], [ 4, "N" ], "This mammoth flea is size of a horse. Its legs dangle awkwardly from its great, swollen body armored entirely in disfigured plates." ],
 					[ [ "monster/fleshdreg_swarm", "Fleshdreg Swarm" ], 2, "aberration", [ 2, "tiny" ], [ 5, "NE" ], "Hundreds of wads of squirming flesh with flailing appendages move together in a cluster of teeth and claws." ],
 					[ [ "monster/fleshdreg", "Fleshdreg" ], 1, "aberration", [ 3, "small" ], [ 5, "NE" ], "Composed of half-formed body parts, this creature stands on two bizarre legs. Its mouth is full of jagged teeth and a slavering tongue." ],
-					[ [ "monster/fleshwarp_drider", "Fleshwarp, Drider" ], 7, "aberration", [ 5, "large" ], [ 8, "CE" ], "The dry rasping of spidery legs brings this hideous monstrosity into view-a nightmarish, centaurian fusion of drow and spider." ],
+					[ [ "monster/fleshwarp_drider", "Fleshwarp, Drider" ], 7, "aberration", [ 5, "large" ], [ 8, "CE" ], "The dry rasping of spidery legs brings this hideous monstrosity into view - a nightmarish, centaurian fusion of drow and spider." ],
 					[ [ "monster/fleshwarp_ghonhatine", "Fleshwarp, Ghonhatine" ], 10, "aberration", [ 5, "large" ], [ 8, "CE" ], "Even hunched and creeping upon all fours, this reptilian behemoth towers over its prey, its protruding teeth snapping wildly." ],
 					[ [ "monster/fleshwarp_grothlut", "Fleshwarp, Grothlut" ], 3, "aberration", [ 4, "medium" ], [ 8, "CE" ], "Pale and glistening with moisture, this sluglike creature stares vacantly as a droning moan escapes its slobbering lips." ],
 					[ [ "monster/fleshwarp_halsora", "Fleshwarp, Halsora" ], 7, "aberration", [ 3, "small" ], [ 8, "CE" ], "This small, plantlike creature is a bulging mass of viselike muscle with sunken eyes that constantly drip viscous, black tears." ],
@@ -1326,7 +1326,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You exude confidence in the presence of those more powerful than you-sometimes unreasonably so. You gain a +4 trait bonus on Diplomacy checks made to influence creatures with at least 5 Hit Dice more than you possess."
+				"You exude confidence in the presence of those more powerful than you - sometimes unreasonably so. You gain a +4 trait bonus on Diplomacy checks made to influence creatures with at least 5 Hit Dice more than you possess."
 			],
 			[
 				"## {trait/Amiable Blunder}",
@@ -1565,7 +1565,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You have spent a lot of time dealing with the criminal underworld-so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation. While in settlements, you gain a +1 trait bonus on Knowledge (local) checks and on Diplomacy checks to gather information."
+				"You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation. While in settlements, you gain a +1 trait bonus on Knowledge (local) checks and on Diplomacy checks to gather information."
 			],
 			[
 				"## {trait/Cutting Condescension}",
@@ -1645,7 +1645,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"It isn't what you say-it's how you say it. You gain a +2 trait bonus on Bluff checks to pass along secret messages."
+				"It isn't what you say - it's how you say it. You gain a +2 trait bonus on Bluff checks to pass along secret messages."
 			],
 			[
 				"## {trait/Draconic Destiny}",
@@ -1753,7 +1753,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language-you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets."
+				"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets."
 			],
 			[
 				"## {trait/For the Money}",
@@ -1970,7 +1970,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"That which has marked you for power has also given you proof to show others. You may cast light three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth-a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
+				"That which has marked you for power has also given you proof to show others. You may cast light three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
 			],
 			[
 				"## {trait/Master Messenger}",
@@ -2027,7 +2027,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers-or vulnerabilities-with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
+				"Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers - or vulnerabilities - with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
 			],
 			[
 				"## {trait/Monster Stalker}",
@@ -2170,7 +2170,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"Your experiments-both your successes and failures-have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items."
+				"Your experiments - both your successes and failures - have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items."
 			],
 			[
 				"## {trait/Rest for the Wicked}",
@@ -2184,7 +2184,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances-your starting wealth increases to 900 gp."
+				"You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances - your starting wealth increases to 900 gp."
 			],
 			[
 				"## {trait/Rugged Dragon Hunter}",
@@ -2269,7 +2269,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You were trained in a nowdefunct philosophical tradition-such as that of the nowdestroyed Galtan universities or Lirgeni astrologers-and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives."
+				"You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives."
 			],
 			[
 				"## {trait/Style Sage}",
@@ -2416,7 +2416,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
+				"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 			],
 			[
 				"## {trait/Wanderlust}",
@@ -2458,7 +2458,7 @@
 				"",
 				"**Type:** Social",
 				"",
-				"You have acquired an unusual breadth of life experience-more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
+				"You have acquired an unusual breadth of life experience - more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
 			]
 		],
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
@@ -2665,7 +2665,7 @@
 				"",
 				"**Type:** Drawback",
 				"",
-				"Something from your past-or a dark secret you presently hold-makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy. You take a -2 penalty on saves against spells with the evil descriptor."
+				"Something from your past - or a dark secret you presently hold - makes it difficult for you to ever be at peace, and your chronic worry that you might fall to evil influence has become a self-fulfilling prophecy. You take a -2 penalty on saves against spells with the evil descriptor."
 			],
 			[
 				"## {trait/Haunting Regret}",
@@ -2938,7 +2938,7 @@
 				"",
 				"**Type:** Drawback",
 				"",
-				"You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe-but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional Perception check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by misdirection, nondetection, or illusions, except those that also affect shadows (such as invisibility)."
+				"You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe - but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional Perception check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by misdirection, nondetection, or illusions, except those that also affect shadows (such as invisibility)."
 			],
 			[
 				"## {trait/Unlearned}",
@@ -3029,7 +3029,7 @@
 				"",
 				"**Type:** Equipment",
 				"",
-				"You have an uncanny knack for turning equipment to new and unexpected uses. When using an item for anything other than its intended purpose-such as using a crowbar as a grappling hook or an old shirt to bandage a deadly wound-reduce the improvisation penalty by 2. This does not apply to improvised weapon penalties. Your GM may rule that some things are just not suitable for use in certain ways; for example, gluing a dead orc's face to your own face won't help you disguise yourself as an orc."
+				"You have an uncanny knack for turning equipment to new and unexpected uses. When using an item for anything other than its intended purpose - such as using a crowbar as a grappling hook or an old shirt to bandage a deadly wound - reduce the improvisation penalty by 2. This does not apply to improvised weapon penalties. Your GM may rule that some things are just not suitable for use in certain ways; for example, gluing a dead orc's face to your own face won't help you disguise yourself as an orc."
 			],
 			[
 				"## {trait/Iron Liver}",
@@ -3064,7 +3064,7 @@
 				"",
 				"**Type:** Equipment",
 				"",
-				"Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be. When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the improvised weapon penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools-lutes and brooms make terribly fragile weapons."
+				"Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be. When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the improvised weapon penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools - lutes and brooms make terribly fragile weapons."
 			],
 			[
 				"## {trait/Stage Magic}",
@@ -3498,7 +3498,7 @@
 				"**Type:** Cosmic  ",
 				"**Requirements:** Born between 30 Neth and 17 Kuthona (or 85-91 on d%)",
 				"",
-				"You are born under the sign of the dark figure that trails the Caravan-the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects."
+				"You are born under the sign of the dark figure that trails the Caravan - the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects."
 			],
 			[
 				"## Cusp",
@@ -3633,7 +3633,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance. You are immune to the negative effects of black blood. Once per day as a swift action, you can channel the essence of black blood, increasing your effective caster level by 1 for any 1st-or 2nd-level necromancy spell you cast. Your blood is pitch black as a result of this trait."
+				"One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance. You are immune to the negative effects of black blood. Once per day as a swift action, you can channel the essence of black blood, increasing your effective caster level by 1 for any 1st- or 2nd-level necromancy spell you cast. Your blood is pitch black as a result of this trait."
 			],
 			[
 				"## {trait/Bladed Magic}",
@@ -3871,7 +3871,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait-from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
+				"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
 			],
 			[
 				"## {trait/Greater Adept of the Society}",
@@ -3907,7 +3907,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit-or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
+				"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit - or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
 			],
 			[
 				"## {trait/Havoc of the Society}",
@@ -4073,14 +4073,14 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait-your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
+				"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait - your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
 			],
 			[
 				"## {trait/Magical Lineage}",
 				"",
 				"**Type:** Magic",
 				"",
-				"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two-and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
+				"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two - and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
 			],
 			[
 				"## {trait/Magical Talent}",
@@ -4132,7 +4132,7 @@
 				"**Type:** Magic  ",
 				"**Requirements:** Gnome",
 				"",
-				"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability-one day you might use dancing lights twice, only to use the additional casting for speak with animals the next day."
+				"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use {spell/dancing lights} twice, only to use the additional casting for {spell/speak with animals} the next day."
 			],
 			[
 				"## {trait/Outcast's Intuition}",
@@ -4257,7 +4257,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"As a youth, you assisted a wise woman or witch doctor who removed magical maladies from the needy and was present for the breaking of many spells-or perhaps you passed through a dead magic zone. Whatever the cause, magic seems a little more reluctant to affect you than others. Reduce the caster level of spells and spell-like abilities cast upon you by 1 for the purpose of attempting dispel checks and overcoming your spell resistance (if any).",
+				"As a youth, you assisted a wise woman or witch doctor who removed magical maladies from the needy and was present for the breaking of many spells - or perhaps you passed through a dead magic zone. Whatever the cause, magic seems a little more reluctant to affect you than others. Reduce the caster level of spells and spell-like abilities cast upon you by 1 for the purpose of attempting dispel checks and overcoming your spell resistance (if any).",
 				"",
 				"Suggested Characters: Kellids, Mana Wastes natives, Shoanti."
 			],
@@ -4389,7 +4389,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"Your eidolon-and your connection to it-makes others ill at ease. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make."
+				"Your eidolon - and your connection to it - makes others ill at ease. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make."
 			],
 			[
 				"## {trait/Twisted Tattoo}",
@@ -4425,7 +4425,7 @@
 				"",
 				"**Type:** Magic",
 				"",
-				"You discovered or were given a secret to make your mutagens more unstable-but also more potent. Once per day, you can create an unstable mutagen. It is like a normal mutagen in most ways, but also gains a single benefit or hindrance due to its instability. Roll 1d6 to determine the result of the instability.",
+				"You discovered or were given a secret to make your mutagens more unstable - but also more potent. Once per day, you can create an unstable mutagen. It is like a normal mutagen in most ways, but also gains a single benefit or hindrance due to its instability. Roll 1d6 to determine the result of the instability.",
 				"",
 				"| 1d6 | Instability |",
 				"| --- | --- |",
@@ -4592,9 +4592,9 @@
 					[ [ "monster/minotaur_tangle_tender", "Minotaur, Tangle Tender" ], 10, "monstrous humanoid", [ 5, "large" ], [ 5, "NE" ], "The cold eyes of this minotaur are without fear or emotion. An arsenal of devices rattle from its belt, not the least of which is its mechanical monstrosity of a crossbow." ],
 					[ [ "monster/minotaur", "Minotaur" ], 4, "monstrous humanoid", [ 5, "large" ], [ 8, "CE" ], "With the body of a powerfully built man and the head of a snarling bull, this creature stomps its hooves as if preparing to charge." ],
 					[ [ "monster/mire_nettle", "Mire Nettle" ], 2, "plant", [ 3, "small" ], [ 4, "N" ], "The sawtooth edges of this plant's glistening, triangular leaves weave around stalks adorned with needlelike spines." ],
-					[ [ "monster/mirror_man", "Mirror Man" ], 5, "construct", [ 4, "medium" ], [ 5, "NE" ], "Tall and lean, this hooded figure resembles a human until the terrible face beneath the cowl is revealed-nothing but a featureless mirror, reflecting a hard, cold world." ],
+					[ [ "monster/mirror_man", "Mirror Man" ], 5, "construct", [ 4, "medium" ], [ 5, "NE" ], "Tall and lean, this hooded figure resembles a human until the terrible face beneath the cowl is revealed - nothing but a featureless mirror, reflecting a hard, cold world." ],
 					[ [ "monster/mirror_serpent", "Mirror Serpent" ], 5, "magical beast", [ 5, "large" ], [ 4, "N" ], "The body of this enormous serpent is covered in mirrorlike scales, and a pair of luminous blue eyes gazes from a horned head that ends in an elongated, toothy snout." ],
-					[ [ "monster/mite", "Mite" ], [ -4, "1/4" ], "fey", [ 3, "small" ], [ 2, "LE" ], "This squat humanoid seems to be nearly all head-an unfortunate circumstance, considering how ugly its puffy blue face is." ],
+					[ [ "monster/mite", "Mite" ], [ -4, "1/4" ], "fey", [ 3, "small" ], [ 2, "LE" ], "This squat humanoid seems to be nearly all head - an unfortunate circumstance, considering how ugly its puffy blue face is." ],
 					[ [ "monster/mngwa", "Mngwa" ], 7, "magical beast", [ 5, "large" ], [ 8, "CE" ], "This jungle cat has a dark coat of striped fur, glossy black teeth and claws, and a black mane." ],
 					[ [ "monster/mobogo", "Mobogo" ], 10, "magical beast", [ 6, "huge" ], [ 8, "CE" ], "This grotesque creature looks like a gigantic toad with leathery wings, fangs, horns, and three bulbous eyes." ],
 					[ [ "monster/mockingfey", "Mockingfey" ], 1, "fey", [ 2, "tiny" ], [ 7, "CN" ], "This tiny avian has the head of a humanoid and the body of a brilliantly colored parrot." ],
@@ -4762,7 +4762,7 @@
 					[ [ "monster/paguroida", "Paguroida" ], 9, "monstrous humanoid", [ 5, "large" ], [ 1, "LN" ], "This crab-like creature has the torso and head of a human, one arm ending in a massive claw, and another arm wielding a scimitar. It scuttles on six legs that emerge from beneath a massive shell with glinting metal and gems embedded into its surface." ],
 					[ [ "monster/pale_stranger", "Pale Stranger" ], 10, "undead", [ 4, "medium" ], [ 5, "NE" ], "This nearly skeletal figure wields a pistol in each hand. Its garb is dusty and weathered, and smells of old decay." ],
 					[ [ "monster/pallid_angel", "Pallid Angel" ], 12, "outsider", [ 4, "medium" ], [ 5, "NE" ], "This macabre beauty holds her ebon-feathered wings spread behind her. Her skin and clothing are soaked and splattered with blood, wine, and other fluids." ],
-					[ [ "monster/panda", "Panda" ], 2, "animal", [ 4, "medium" ], [ 4, "N" ], "This black-and-white-furred bear is about as long in the body as an average human-but much rounder." ],
+					[ [ "monster/panda", "Panda" ], 2, "animal", [ 4, "medium" ], [ 4, "N" ], "This black-and-white-furred bear is about as long in the body as an average human - but much rounder." ],
 					[ [ "monster/panotti", "Panotti" ], 2, "humanoid", [ 4, "medium" ], [ 3, "NG" ], "This bald humanoid looks strikingly human except for the long folds of skin that droop from his head and neck to just above his ankles." ],
 					[ [ "monster/papinijuwari", "Papinijuwari" ], 13, "humanoid", [ 6, "huge" ], [ 5, "NE" ], "This imposing one-eyed giant wears fragments of crude armor and a breechcloth adorned with skulls. Its breath reeks of pestilence." ],
 					[ [ "monster/pard", "Pard" ], 3, "magical beast", [ 4, "medium" ], [ 7, "CN" ], "This brightly-colored feline blur resembles a cheetah with longer fur and lynx-like ears, and seems to scorch the air as it moves." ],
@@ -4837,7 +4837,7 @@
 					[ [ "monster/psychepore", "Psychepore" ], 7, "plant", [ 4, "medium" ], [ 4, "N" ], "A mass of shell-like fungus grows so thick it obscures the mass of plant matter beneath." ],
 					[ [ "monster/psychic_stalker", "Psychic Stalker" ], 7, "undead", [ 4, "medium" ], [ 5, "NE" ], "This horrific, ghostly skull's brain pulses within its cranium, the whorls and folds plainly visible through bone." ],
 					[ [ "monster/psychopomp_ahmuuth", "Psychopomp, Ahmuuth" ], 4, "outsider", [ 4, "medium" ], [ 4, "N" ], "This somberly dressed humanoid wears an ominous mask. Gravestones float near it like heavy shields." ],
-					[ [ "monster/psychopomp_algea", "Psychopomp, Algea" ], 11, "outsider", [ 1, "diminutive" ], [ 4, "N" ], "This shrill swarm of whip-poor-wills flies in a spiral, their airborne antics infused with streamers of pale blue mist." ],
+					[ [ "monster/psychopomp_algea", "Psychopomp, Algea" ], 11, "outsider", [ 1, "diminutive" ], [ 4, "N" ], "This shrill swarm of whippoorwills flies in a spiral, their airborne antics infused with streamers of pale blue mist." ],
 					[ [ "monster/psychopomp_calaca", "Psychopomp, Calaca" ], 8, "outsider", [ 4, "medium" ], [ 4, "N" ], "This figure wears a fine suit, vest, gloves, and ascot and has a guitar at the ready. The creature's face is hidden by an intricately decorated skull mask." ],
 					[ [ "monster/psychopomp_catrina", "Psychopomp, Catrina" ], 5, "outsider", [ 4, "medium" ], [ 4, "N" ], "With lengthy curling hair, a dancer's dress, and a bouquet of flowers, this woman remains beautiful, despite having no flesh." ],
 					[ [ "monster/psychopomp_ember_weaver", "Psychopomp, Ember Weaver" ], 8, "outsider", [ 4, "medium" ], [ 4, "N" ], "This slim, glowing figure is draped with voluminous gossamer shawls and veils that obscure its shape." ],
@@ -4867,13 +4867,13 @@
 					[ [ "monster/qlippoth_behimiron", "Qlippoth, Behimiron" ], 13, "outsider", [ 6, "huge" ], [ 8, "CE" ], "This monstrous fiend resembles a titan beetle with a sagging, elephantine hide stretched over its spiny carapace." ],
 					[ [ "monster/qlippoth_cataboligne", "Qlippoth, Cataboligne" ], 16, "outsider", [ 7, "gargantuan" ], [ 8, "CE" ], "Spiked clubs extend from each end of this six-legged fiend. A spiky growth sticks up from its back, and a mouth yawns in its belly." ],
 					[ [ "monster/qlippoth_chernobue", "Qlippoth, Chernobue" ], 12, "outsider", [ 5, "large" ], [ 8, "CE" ], "This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly." ],
-					[ [ "monster/qlippoth_cythnigot", "Qlippoth, Cythnigot" ], 2, "outsider", [ 2, "tiny" ], [ 8, "CE" ], "This six-legged horror has a spider's face and a fibrous stalk growing out of its back-a stalk ending in a snapping mouth." ],
+					[ [ "monster/qlippoth_cythnigot", "Qlippoth, Cythnigot" ], 2, "outsider", [ 2, "tiny" ], [ 8, "CE" ], "This six-legged horror has a spider's face and a fibrous stalk growing out of its back - a stalk ending in a snapping mouth." ],
 					[ [ "monster/qlippoth_deinochos", "Qlippoth, Deinochos" ], 5, "outsider", [ 3, "small" ], [ 8, "CE" ], "A fleshy pseudopod tipped with a jawless mouth and ringed by dozens of eyes emerges from a spiny shell along with several hooked legs." ],
 					[ [ "monster/qlippoth_gongorinan", "Qlippoth, Gongorinan" ], 11, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This human-sized, crab-like creature scuttles on six stumpy legs, and each of its four arms sports a different method of inflicting pain." ],
 					[ [ "monster/qlippoth_gorgoros", "Qlippoth, Gorgoros" ], 9, "outsider", [ 5, "large" ], [ 8, "CE" ], "Numerous writhing, coiling tails support this serpent-headed beast. Its three eyes glow a sickly yellow." ],
 					[ [ "monster/qlippoth_hydraggon", "Qlippoth, Hydraggon" ], 3, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This eellike monstrosity has a gaping, fanged mouth from which lolls a long, red tongue split into three tendrils, two of which wield weapons." ],
 					[ [ "monster/qlippoth_iathavos", "Qlippoth, Iathavos" ], 20, "outsider", [ 8, "colossal" ], [ 8, "CE" ], "This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides, and two huge claws dangle below." ],
-					[ [ "monster/qlippoth_nyogoth", "Qlippoth, Nyogoth" ], 10, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This appears to be a mass of floating intestines tangled around a fanged mouth-the tips of its coils also end in toothy maws." ],
+					[ [ "monster/qlippoth_nyogoth", "Qlippoth, Nyogoth" ], 10, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This appears to be a mass of floating intestines tangled around a fanged mouth - the tips of its coils also end in toothy maws." ],
 					[ [ "monster/qlippoth_shoggti", "Qlippoth, Shoggti" ], 7, "outsider", [ 5, "large" ], [ 8, "CE" ], "This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head between two staring eyes." ],
 					[ [ "monster/qlippoth_thognorok", "Qlippoth, Thognorok" ], 4, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This obscene mass looks like a melted blob crossed with a spider, ceaselessly lashing out with its hairy, wriggling legs." ],
 					[ [ "monster/qlippoth_thulgant", "Qlippoth, Thulgant" ], 18, "outsider", [ 5, "large" ], [ 8, "CE" ], "This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers." ],
@@ -4955,7 +4955,7 @@
 					[ [ "monster/robot_octopod_mechanic_drone", "Robot, Octopod Mechanic Drone" ], 13, "construct", [ 4, "medium" ], [ 4, "N" ], "This octopus-like robot has eight tentacles that it uses to repair multiple machines at a time." ],
 					[ [ "monster/robot_reclamation_robot", "Robot, Reclamation" ], 12, "construct", [ 5, "large" ], [ 4, "N" ], "This complex-looking automaton's multiple arms end in gripping talons. It moves about on a set of four legs and has a strange bell-shaped head." ],
 					[ [ "monster/robot_repair_robot", "Robot, Repair" ], 2, "construct", [ 4, "medium" ], [ 4, "N" ], "This quadruped robot has glowing eyes and dexterous hands capable of examining and fixing machinery." ],
-					[ [ "monster/robot_scrapyard_robot", "Robot, Scrapyard" ], 3, "construct", [ 4, "medium" ], [ 4, "N" ], "Frayed wires and broken-off protrusions sprout from mechanical construct-, and one of its salvaged arms ends in a spinning blade." ],
+					[ [ "monster/robot_scrapyard_robot", "Robot, Scrapyard" ], 3, "construct", [ 4, "medium" ], [ 4, "N" ], "Frayed wires and broken-off protrusions sprout from mechanical construct, and one of its salvaged arms ends in a spinning blade." ],
 					[ [ "monster/robot_surgeon_robot", "Robot, Surgeon" ], 14, "construct", [ 4, "medium" ], [ 4, "N" ], "This robot has the general appearance of a skeletal preying mantis fashioned entirely from gleaming metal. An array of limbs fitted with laser scalpels, syringes, and other surgical devices spring from its body." ],
 					[ [ "monster/robot_terraformer_robot", "Robot, Terraformer" ], 7, "construct", [ 5, "large" ], [ 4, "N" ], "This large robot's arms end in an assortment of drills, torches, hammers, and vices." ],
 					[ [ "monster/robot_thought_harvester_robot", "Robot, Thought Harvester" ], 10, "construct", [ 4, "medium" ], [ 4, "N" ], "Rows of crystal spheres line the back of this four-legged robot. A single glowing eye sits in the middle of its head." ],
@@ -5026,7 +5026,7 @@
 					[ [ "monster/scarab_swarm", "Scarab Swarm" ], 3, "vermin", [ 0, "fine" ], [ 4, "N" ], "This mass of iridescent blue-black insects emits a foul stench and carries with it a cloud of filthy dust." ],
 					[ [ "monster/scarecrow", "Scarecrow" ], 4, "construct", [ 4, "medium" ], [ 4, "N" ], "It suddenly becomes clear that this is no ordinary pumpkin-headed scarecrow when its eyes glow and it comes to jerky life." ],
 					[ [ "monster/scarlet_walker", "Scarlet Walker" ], 12, "outsider", [ 6, "huge" ], [ 2, "LE" ], "This crimson horror walks upon six long, thin legs. Its face is neither that of a skull nor spider, but some horrid mix of the two." ],
-					[ [ "monster/sceaduinar", "Sceaduinar" ], 7, "outsider", [ 4, "medium" ], [ 5, "NE" ], "This gargoyle-like creature has long spiky legs and a bat-like head-its body seems to be made of living, dark purple crystal." ],
+					[ [ "monster/sceaduinar", "Sceaduinar" ], 7, "outsider", [ 4, "medium" ], [ 5, "NE" ], "This gargoyle-like creature has long spiky legs and a bat-like head - its body seems to be made of living, dark purple crystal." ],
 					[ [ "monster/sceazir", "Sceazir" ], 9, "outsider", [ 5, "large" ], [ 5, "NE" ], "This winged, six-legged creature seems to be constructed of dark crystal. Its mouth is disproportionately large for its wolfish head, gaping open to display rows of jagged teeth, and its spiky, manyjointed legs bend in unsettling ways." ],
 					[ [ "monster/scitalis", "Scitalis" ], 12, "dragon", [ 5, "large" ], [ 4, "N" ], "This ophidian dragon's scales and frills form a brightly colored pattern, backlit like stained glass by the creature's inner glow." ]
 				],

@@ -3807,11 +3807,11 @@
 			[ "[Jump to the table](#spellbookstable)" ],
 			[
 				"**Source:** {source/Ultimate Magic}  ",
-				"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
+				"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon - or sometimes a hindrance - to spellcasters who use the book to prepare their spells.",
 				"",
 				"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
 				"",
-				"Descriptions, protections, preparation rituals, and spell content can be mixed and matched as desired from different books. Higher-level books can easily serve for lower-level casters-just drop the spell levels that aren't applicable and remove lower-level spells as desired. Similarly, if you desire longer books, combine two together or add spells or formulae of your choice to the desired levels. These books also work as spellbooks and formula books for new characters. Just copy the list, hand it to the player, and go.",
+				"Descriptions, protections, preparation rituals, and spell content can be mixed and matched as desired from different books. Higher-level books can easily serve for lower-level casters: just drop the spell levels that aren't applicable and remove lower-level spells as desired. Similarly, if you desire longer books, combine two together or add spells or formulae of your choice to the desired levels. These books also work as spellbooks and formula books for new characters. Just copy the list, hand it to the player, and go.",
 				"",
 				"A standard spellbook includes all cantrips except those in the wizard's oppositional schools. Books containing cantrips from additional sources are noted in the content description.",
 				"",
@@ -3967,7 +3967,7 @@
 					[ [ "tech-weapon/laser_pistol", "laser pistol" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 10000, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2, "&times;2" ], "50 ft.", "10", "1 charge", 2, "fire", "Semi-automatic, touch" ],
 					[ [ "tech-weapon/mind_burner", "mind burner" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 8000, [ 100, "special" ], [ 200, "special" ], [ 2, "&times;2" ], "20 ft.", "10", "1 charge", 2, "special", "Touch" ],
 					[ [ "tech-weapon/mindrender", "mindrender" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 56000, [ 100, "special" ], [ 200, "special" ], [ 2, "&times;2" ], "40 ft.", "1 nanite canister", "2 charges", 2, "special", "Slow-firing, touch" ],
-					[ [ "tech-weapon/sonic_pistol", "sonic pistol" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 13000, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2, "&times;2" ], "50 ft.", "10", "1 charge", 2, "sonic", "Semi-automic, touch" ],
+					[ [ "tech-weapon/sonic_pistol", "sonic pistol" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 13000, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2, "&times;2" ], "50 ft.", "10", "1 charge", 2, "sonic", "Semi-automatic, touch" ],
 					[ [ "tech-weapon/stun_gun", "stun gun" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 3000, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2, "&times;2" ], "20 ft.", "10", "1 charge", 3, null, "Nonlethal, semi-automatic, touch" ],
 					[ [ "tech-weapon/zero_pistol", "zero pistol" ], [ 3, "one-handed ranged" ], [ 3, "exotic (firearms)" ], 10000, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2, "&times;2" ], "50 ft.", "10", "1 charge", 2, "cold", "Semi-automatic, touch" ],
 					[ [ "tech-weapon/arc_rifle", "arc rifle" ], [ 4, "two-handed ranged" ], [ 3, "exotic (firearms)" ], 20000, [ 5.5, "1d10" ], [ 7, "2d6" ], [ 2, "&times;2" ], "150 ft.", "20", "1 charge", 6, "electricity", "Automatic, touch" ],
@@ -4127,7 +4127,7 @@
 				"Most of the technological treasures that await discovery in Numeria fall into this catchall category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows."
 			],
 			[
-				"**Price:** This value is the cost in gold pieces for the PCs to purchase the item-if it's available for sale. As with magic items, a technological item can be sold by PCs for half of this amount.",
+				"**Price:** This value is the cost in gold pieces for the PCs to purchase the item - if it's available for sale. As with magic items, a technological item can be sold by PCs for half of this amount.",
 				"",
 				"**Slot:** This is the part of the body the item must be worn on, if any. If the item's slot matches one of the existing magic item slots, wearing the item prevents the user from wearing or gaining the benefit from a magic item in the same slot.",
 				"",

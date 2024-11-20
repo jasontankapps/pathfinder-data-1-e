@@ -757,7 +757,7 @@
 			"",
 			"You collect all sorts of things, and frequently lose and refind things you acquired.  ",
 			"**Prerequisites:** Ratfolk.  ",
-			"**Benefit:** Once per day, when confronted with a situation that calls for a particular mundane item, you happen to have such an item on your person. The item must cost no more than 25 gp plus 5 gp per level, and you must pay its cost when you \"find\" it (in other words, the money you thought you had on your person was actually the item). The item must be something you can easily carry-for example, if you are on foot and have only a backpack, you could not have a large iron cauldron. You can't find magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and acquire new items."
+			"**Benefit:** Once per day, when confronted with a situation that calls for a particular mundane item, you happen to have such an item on your person. The item must cost no more than 25 gp plus 5 gp per level, and you must pay its cost when you \"find\" it (in other words, the money you thought you had on your person was actually the item). The item must be something you can easily carry - for example, if you are on foot and have only a backpack, you could not have a large iron cauldron. You can't find magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and acquire new items."
 		]
 	},
 	"pack_tactics": {
@@ -1158,7 +1158,7 @@
 			"{SOURCE Distant Realms/33}",
 			"",
 			"Your bond with your allies allows you to share positive energy between yourselves.  ",
-			"**Benefit:** Whenever a healing spell or an effect would restore you to above your maximum hit points, you can redirect excess hit points to an adjacent ally who has this feat. This ability functions only for effects that require an action to activate-fast healing, regeneration, and other passive effects that restore hit points are not shared."
+			"**Benefit:** Whenever a healing spell or an effect would restore you to above your maximum hit points, you can redirect excess hit points to an adjacent ally who has this feat. This ability functions only for effects that require an action to activate; fast healing, regeneration, and other passive effects that restore hit points are not shared."
 		]
 	},
 	"passing_trick": {
@@ -1438,7 +1438,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/128}",
 			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you treat all weapons-not just the ones you are proficient with-as if they had the performance weapon quality."
+			">As long as you have at least 1 stamina point in your stamina pool, you treat all weapons - not just the ones you are proficient with - as if they had the performance weapon quality."
 		]
 	},
 	"performing_combatant": {
@@ -1720,7 +1720,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/9}",
 			"",
-			"Music plays a key role in goblin culture-at the very least, goblins are fond of cacophonous chants describing the last enemy they slew or what they're roasting for dinner. You have gathered, however, that non-goblins don't appreciate your songs very much.  ",
+			"Music plays a key role in goblin culture - at the very least, goblins are fond of cacophonous chants describing the last enemy they slew or what they're roasting for dinner. You have gathered, however, that non-goblins don't appreciate your songs very much.  ",
 			"**Prerequisites:** {race/Goblin}.  ",
 			"**Benefit:** As a full-round action, you can sing a song so terrible and ear-splitting that each enemy within 15 feet of you that hears it must succeed at a Will save or be dazed for 1 round. The DC of this saving throw is equal to 10 + half your level + your Charisma modifier. Whether or not the initial save is successful, a creature cannot be affected by this ability again for 24 hours. This is a mind-affecting effect."
 		]
@@ -2267,7 +2267,7 @@
 			"",
 			"**Improved:** You have the ability to use shadow conjuration once per day as a spell-like ability.",
 			"",
-			"**Greater:** The essence of shadow so infuses your being that you sometimes exist only partially when subjected to damage. As an immediate action when you would take damage from an attack, spell, or other effect, you can reflexively dissolve the portion of your body that would be injured into quasi-real shadowstuff to gain a 50% chance to ignore all the damage from the effect. You can successfully ignore damage in this way up to three times per day-if you activate this ability and it fails to prevent damage, it does not count against your limited daily uses of the ability.",
+			"**Greater:** The essence of shadow so infuses your being that you sometimes exist only partially when subjected to damage. As an immediate action when you would take damage from an attack, spell, or other effect, you can reflexively dissolve the portion of your body that would be injured into quasi-real shadowstuff to gain a 50% chance to ignore all the damage from the effect. You can successfully ignore damage in this way up to three times per day - if you activate this ability and it fails to prevent damage, it does not count against your limited daily uses of the ability.",
 			"",
 			"#### Xibalba",
 			"",
@@ -2333,7 +2333,7 @@
 			"",
 			"You can notice soulgates compatible with your alignment.",
 			"",
-			"**Check:** You are familiar with soulgates and might notice those with an alignment matching your own. To notice a soulgate that you're not already familiar with, you must succeed at a DC 20 Perception check-this DC could be higher if the portal is obscured or damaged, or at the GM's discretion. If the soulgate shares your exact alignment, you gain a +5 bonus on your check to notice the portal, feeling an instinctual draw toward it. If your alignment and the portal's share none of the same components, you take a -5 penalty on your check to notice the portal. If your alignment is neutral with no other alignment components, you take no penalties on checks to find soulgates.",
+			"**Check:** You are familiar with soulgates and might notice those with an alignment matching your own. To notice a soulgate that you're not already familiar with, you must succeed at a DC 20 Perception check - this DC could be higher if the portal is obscured or damaged, or at the GM's discretion. If the soulgate shares your exact alignment, you gain a +5 bonus on your check to notice the portal, feeling an instinctual draw toward it. If your alignment and the portal's share none of the same components, you take a -5 penalty on your check to notice the portal. If your alignment is neutral with no other alignment components, you take no penalties on checks to find soulgates.",
 			"",
 			"For example, a lawful good character would gain a +5 bonus on her Perception checks to find lawful good soulgates, but would take a -5 penalty on checks to find chaotic evil, chaotic neutral, and neutral evil soulgates, as she has no chaotic, neutral, or evil components to her alignment. A neutral character, however, gains a +5 bonus on checks to find neutral gates, but gains no bonus on checks to find chaotic neutral, lawful neutral, neutral good, and neutral evil soulgates. Additionally, she takes no penalty on checks to notice chaotic good, chaotic evil, lawful good, or lawful evil soulgates.",
 			"",
@@ -2718,7 +2718,7 @@
 			"",
 			"A fiend that successfully possesses a target enters its space and merges with it. While possessing a creature or object, a fiend's body and abilities are unavailable. Once a fiend merges with its target it cannot be harmed until it leaves or is forcibly removed. While possessing a target, a fiend shares the senses of its host and can communicate with it telepathically. A fiend also gains a number of possession points per day equal to its total Hit Dice. These points can be spent to utilize special bodily possession actions detailed on the following pages. A fiend may expend these points as it pleases, with each possession action taking a full-round action.",
 			"",
-			"Each day, the victim of a possession is allowed a new Will save at the original DC to force the possessing fiend to leave its body-objects and areas do not receive daily saves. Should a victim make this save or be killed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. A fiend may not possess a new target for 24 hours after being ejected from a victim. {spell/Dispel evil} (or {spell/dispel chaos} or {spell/dispel law}, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from a target if it fails to save against the spell."
+			"Each day, the victim of a possession is allowed a new Will save at the original DC to force the possessing fiend to leave its body - objects and areas do not receive daily saves. Should a victim make this save or be killed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. A fiend may not possess a new target for 24 hours after being ejected from a victim. {spell/Dispel evil} (or {spell/dispel chaos} or {spell/dispel law}, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from a target if it fails to save against the spell."
 		]
 	},
 	"possess_location": {
@@ -3258,7 +3258,7 @@
 			"| 5 | Inspired by the Hellknights of the Order of the Godclaw, you preach the words of your lawful patron among the rebellious rabble of Cheliax, whom you will turn into models of discipline whether they like it or not. |",
 			"| 6 | Disgusted by the disrespect of the Molthuni toward the once-sacred valley called Deadeye's Haunt, you intend to show them the error of their ways with the power of Erastil. |",
 			"| 7 | You spread the faith of Milani, the Everbloom, by expelling unjust tyrants and aiding the downtrodden. |",
-			"| 8 | Your patron-a demon lord, archdevil, or other generally unwanted influence (determine randomly)-inspires you to disguise your faith and reveal it only slowly to potential converts in order to lure them into the fold. |"
+			"| 8 | Your patron - a demon lord, archdevil, or other generally unwanted influence (determine randomly) - inspires you to disguise your faith and reveal it only slowly to potential converts in order to lure them into the fold. |"
 		]
 	},
 	"prophetic_visionary": {
@@ -3475,7 +3475,7 @@
 			"",
 			"You can use all of your occult skill unlocks more often and you are more talented at using them.  ",
 			"**Prerequisites:** Psychic Sensitivity or ability to cast psychic spells.  ",
-			"**Benefit:** You gain a +2 bonus on checks to use occult skill unlocks. If you have more than 10 ranks in the base skill, this bonus increases to +4. This bonus doesn't apply on other checks using the base skills-only on checks for occult skill unlocks."
+			"**Benefit:** You gain a +2 bonus on checks to use occult skill unlocks. If you have more than 10 ranks in the base skill, this bonus increases to +4. This bonus doesn't apply on other checks using the base skills - only on checks for occult skill unlocks."
 		]
 	},
 	"psychovore_master": {
@@ -4081,7 +4081,7 @@
 			"**Prerequisites:** Spell-like ability at CL 10th or higher.  ",
 			"**Benefit:** Choose one of the creature's spell-like abilities, subject to the restrictions described in this feat. The creature can use the chosen spell-like ability as a quickened spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).",
 			"",
-			"Using a quickened spell-like ability is a swift action that does not provoke an attack of opportunity. The creature can perform another action-including the use of another spell-like ability (but not another swift action)-in the same round that it uses a quickened spell-like ability. The creature may use only one quickened spell-like ability per round.",
+			"Using a quickened spell-like ability is a swift action that does not provoke an attack of opportunity. The creature can perform another action - including the use of another spell-like ability (but not another swift action)-in the same round that it uses a quickened spell-like ability. The creature may use only one quickened spell-like ability per round.",
 			"",
 			"The creature can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 its caster level (round down) - 4. For a summary, see the table below.",
 			"",
@@ -6098,7 +6098,7 @@
 			"You live a hard life in a cold climate, and after enduring the hardships of many brutal winters, you've gained some benefit from the frozen environs.  ",
 			"**Prerequisites:** Con 13, Survival 1 rank.  ",
 			"**Benefit:** You treat extreme cold conditions as severe cold, and severe cold as cold weather conditions. You are not impacted at all by normal cold weather conditions. In addition, you do not become fatigued by frostbite or hypothermia.  ",
-			"**Special:** This feat is unaffiliated-a character need not be affiliated with the [Mammoth Lords](rule/aff_beast_riders) to select this feat."
+			"**Special:** This feat is unaffiliated - a character need not be affiliated with the [Mammoth Lords](rule/aff_beast_riders) to select this feat."
 		]
 	},
 	"run": {
@@ -6939,7 +6939,7 @@
 			"",
 			"You can quickly size up spellcasters to gain an advantage when counterspelling their spells.  ",
 			"**Prerequisites:** Spellcraft 1 rank.  ",
-			"**Benefit:** When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is-specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.",
+			"**Benefit:** When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is - specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.",
 			"",
 			"Once you have identified the target's class, you can add your Wisdom or Charisma modifier (whichever is higher) to Spellcraft checks to identify all spells the target casts from that class's spell list. Additionally, after you have determined the target's spellcasting class, you can attempt an Intimidate check as a free action to demoralize the target, gaining a bonus equal to your Wisdom or Charisma modifier (whichever is highest)."
 		]

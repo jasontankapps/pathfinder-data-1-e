@@ -274,7 +274,7 @@
 			"",
 			"### Description",
 			"",
-			"Overwhelming, unresolved guilt-or horrific death by thousands of tiny teeth-can lead to the manifestation of ghostly vermin swarms. The haunted area often displays signs of ancient rodent infestation."
+			"Overwhelming, unresolved guilt - or horrific death by thousands of tiny teeth - can lead to the manifestation of ghostly vermin swarms. The haunted area often displays signs of ancient rodent infestation."
 		]
 	},
 	"arcane_storm": {
@@ -562,7 +562,7 @@
 			"**Caster Level** 9th  ",
 			"**Notice** Perception DC 30 (to hear a faint humming)  ",
 			"**hp** 40; **Weakness** harmed by Disable Device DC 24 (immune to positive energy); **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** On the first round, a network of lasers detects all corporeal Diminutive or larger creatures in the area, excluding invisible creatures. Heavy blast doors drop to bar creatures from exiting the room (break DC 35). On the second round, one laser activates for each creature detected and fires concentrated beams at its targets (+12 touch, 5d6 points of fire damage). The lasers fire each round for 5 rounds unless disabled or destroyed. Destroying the lasers without disabling the surge is difficult-each laser has 10 hardness and 20 hp. The blast doors reopen if the surge is disabled or if all of the laser guns are destroyed.  ",
+			"**Effect** On the first round, a network of lasers detects all corporeal Diminutive or larger creatures in the area, excluding invisible creatures. Heavy blast doors drop to bar creatures from exiting the room (break DC 35). On the second round, one laser activates for each creature detected and fires concentrated beams at its targets (+12 touch, 5d6 points of fire damage). The lasers fire each round for 5 rounds unless disabled or destroyed. Destroying the lasers without disabling the surge is difficult - each laser has 10 hardness and 20 hp. The blast doors reopen if the surge is disabled or if all of the laser guns are destroyed.  ",
 			"**Destruction** Disabling the surge is sufficient to stop the network from reactivating.",
 			"",
 			"### Description",
@@ -714,7 +714,7 @@
 			"",
 			"### Description",
 			"",
-			"The Book of the Damned was never meant for mortal eyes. Even so, over ages of wandering, the elusive tome has granted countless reckless scholars a glimpse of reality's deepest evils. Those who aren't driven to ruin by the book's secrets typically face the knives of covetous thieves, which ensures that the blasphemous volume never lingers in one place for long. At any given time, ambitious fiends, evil cultists, and unscrupulous spellcasters are the most likely guardians of the Book of the Damned-the book's disparate pieces are not always found in the hands of mighty beings.",
+			"The Book of the Damned was never meant for mortal eyes. Even so, over ages of wandering, the elusive tome has granted countless reckless scholars a glimpse of reality's deepest evils. Those who aren't driven to ruin by the book's secrets typically face the knives of covetous thieves, which ensures that the blasphemous volume never lingers in one place for long. At any given time, ambitious fiends, evil cultists, and unscrupulous spellcasters are the most likely guardians of the Book of the Damned - the book's disparate pieces are not always found in the hands of mighty beings.",
 			"",
 			"The Book of the Damned rarely spends more than a decade in any one creature's possession. This is in part because of its power, which makes it difficult to hide, and its propensity for drawing the scrutiny of extraplanar evils. Yet most who have held and lost the book refuse to let go of it. Over the ages, the blood of a thousand cultists has spilled upon the tome, giving rise to a vicious haunt that jealously tries to tear the Book of the Damned from any single owner's grip."
 		]
@@ -864,7 +864,7 @@
 			"**Caster Level** 13th  ",
 			"**Notice** Perception DC 20 (to hear the sound of bones snapping)  ",
 			"**hp** 58; **Trigger** proximity; **Reset** 1 hour  ",
-			"**Effect** Several copies of the same colossal dragon's tail snake through the haunt's area. Each round, the tails attempt to grab and constrict each creature in the area (+18 to hit, 2d6+6 points of damage plus grab, CMB +35, constrict 2d6+18 points of damage). Each round a creature takes damage from the tail's constrict ability, one of its limbs (randomly determined) snaps into pieces, and it must succeed at a DC 22 Fortitude save or be nauseated for 1d4 rounds. Cure spells are not sufficient to repair the severely broken bones this haunt produces-only {spell/heal} or stronger magic can mend them. Snapped limbs cannot be used for any purpose; having a snapped leg reduces a creature's movement speed by half when using its legs, and having more than half a creature's legs snapped prevents it from using any form of movement that uses its legs.  ",
+			"**Effect** Several copies of the same colossal dragon's tail snake through the haunt's area. Each round, the tails attempt to grab and constrict each creature in the area (+18 to hit, 2d6+6 points of damage plus grab, CMB +35, constrict 2d6+18 points of damage). Each round a creature takes damage from the tail's constrict ability, one of its limbs (randomly determined) snaps into pieces, and it must succeed at a DC 22 Fortitude save or be nauseated for 1d4 rounds. Cure spells are not sufficient to repair the severely broken bones this haunt produces - only {spell/heal} or stronger magic can mend them. Snapped limbs cannot be used for any purpose; having a snapped leg reduces a creature's movement speed by half when using its legs, and having more than half a creature's legs snapped prevents it from using any form of movement that uses its legs.  ",
 			"**Destruction** The crushing terror haunt is destroyed if the bodies of the linnorm's victims are retrieved from the cave where it stores them, reassembled, and buried.",
 			"",
 			"### Description",
@@ -964,7 +964,7 @@
 			"**Caster Level** 20th  ",
 			"**Notice** Perception DC 20 (for affected creatures to notice a fundamental feeling that something is wrong within them)  ",
 			"**hp** 256; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** A black vortex appears in the center of the haunt's radius, and tugs inexorably on the souls of all creatures within its reach. Each round, before it targets their souls, the vortex first targets the magic protecting them, affecting each creature with a {spell/greater dispel magic} effect that targets {spell/death ward} or any other spells that would prevent level drain first. After the dispelling effect, the creature must succeed at a DC 23 Will save to partially resist the vortex's pull. On a success, the creature takes 1d4 negative levels. On a failure, that creature's soul is wrenched out of its body and destroyed. Only {spell/miracle} or {spell/wish} can reconstitute a soul that the vortex devours. The vortex gains 5 temporary hit points for each level it drains-treat devouring a soul as draining as many negative levels as it would normally take to kill the creature. These temporary hit points stack and last for 1 hour. The soul vortex haunt is immune to the spells {spell/heal} and {spell/mass heal}. Creatures normally immune to fear lose that immunity within this haunt's radius.  ",
+			"**Effect** A black vortex appears in the center of the haunt's radius, and tugs inexorably on the souls of all creatures within its reach. Each round, before it targets their souls, the vortex first targets the magic protecting them, affecting each creature with a {spell/greater dispel magic} effect that targets {spell/death ward} or any other spells that would prevent level drain first. After the dispelling effect, the creature must succeed at a DC 23 Will save to partially resist the vortex's pull. On a success, the creature takes 1d4 negative levels. On a failure, that creature's soul is wrenched out of its body and destroyed. Only {spell/miracle} or {spell/wish} can reconstitute a soul that the vortex devours. The vortex gains 5 temporary hit points for each level it drains - treat devouring a soul as draining as many negative levels as it would normally take to kill the creature. These temporary hit points stack and last for 1 hour. The soul vortex haunt is immune to the spells {spell/heal} and {spell/mass heal}. Creatures normally immune to fear lose that immunity within this haunt's radius.  ",
 			"**Destruction** The soul vortex haunt can only be destroyed if the phylactery of a lich of CR 20 or higher that is currently destroyed and awaiting rejuvenation is cast into it. This act destroys both the vortex and the phylactery.",
 			"",
 			"### Description",

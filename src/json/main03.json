@@ -2735,7 +2735,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain-these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
+				"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain - these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
 				"",
 				"**{domain/Alchemy} ({domain/Artifice}/{domain/Magic}):** {faith/Brigh}, {faith/Haagenti}, {faith/Norgorber}&ast; (Artifice only), {faith/Orgesh}&ast; (Magic only), {faith/Qi Zhong})",
 				"",
@@ -2954,7 +2954,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others. You gain a +1 trait bonus on Will saving throws against spells and effects that grant the confused or dazed condition. Once per day as a full-round action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition."
+				"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader - perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others. You gain a +1 trait bonus on Will saving throws against spells and effects that grant the confused or dazed condition. Once per day as a full-round action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition."
 			],
 			[
 				"## {trait/Disdainful Defender}",
@@ -3178,7 +3178,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment-figuratively or literally. Once per day as a swift action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute."
+				"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment - figuratively or literally. Once per day as a swift action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute."
 			],
 			[
 				"## {trait/Mystery Initiate}",
@@ -3302,7 +3302,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action-and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
+				"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action - and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
 			],
 			[
 				"## {trait/Reincarnated}",
@@ -3498,7 +3498,7 @@
 				"",
 				"**Type:** Faith",
 				"",
-				"Your connection with a malignant force has granted you great power. Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells-you must still have access to the spells through some other means."
+				"Your connection with a malignant force has granted you great power. Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells - you must still have access to the spells through some other means."
 			],
 			[
 				"## {trait/Wanderer's Shroud}",
@@ -3520,7 +3520,7 @@
 				"**Type:** Faith  ",
 				"**Requirements:** Gnome",
 				"",
-				"You aren't just faithful to the worship of your patron deity-you are obsessively loyal to all of the faith's tenets and guidelines. Your devotion is an anchor that keeps you from drifting away into the throes of the Bleaching, and you cling to it like the life raft it is. You must match the alignment of your chosen deity exactly. You gain a +1 trait bonus on Knowledge (religion) checks, and that skill is a class skill for you. As long as you remain completely faithful to the tenets of your faith (as determined by the GM), you never suffer from the Bleaching."
+				"You aren't just faithful to the worship of your patron deity - you are obsessively loyal to all of the faith's tenets and guidelines. Your devotion is an anchor that keeps you from drifting away into the throes of the Bleaching, and you cling to it like the life raft it is. You must match the alignment of your chosen deity exactly. You gain a +1 trait bonus on Knowledge (religion) checks, and that skill is a class skill for you. As long as you remain completely faithful to the tenets of your faith (as determined by the GM), you never suffer from the Bleaching."
 			],
 			[
 				"## {trait/Zealot's Bearing}",
@@ -3683,7 +3683,7 @@
 				"| [Mystic Theurge](/prestigeclass/mystic_theurge) | Equally devoted to divine and arcane magic, the mystic theurge combines both magical traditions into one incredibly diverse class. |",
 				"| [Nature Warden](/prestigeclass/nature_warden) | A master of the wilderness bonded spiritually to a fearsome animal companion. |",
 				"| [Noble Scion](/prestigeclass/noble_scion) | Resource-laden member of foreign royalty. |",
-				"| [Pain Taster](/prestigeclass/pain_taster) | For pain tasters, agony is more than a pleasure-it's a path to power. |",
+				"| [Pain Taster](/prestigeclass/pain_taster) | For pain tasters, agony is more than a pleasure - it's a path to power. |",
 				"| [Pathfinder Chronicler](/prestigeclass/pathfinder_chronicler) | An explorer at heart, the Pathfinder chronicler travels to distant, exotic lands to expand her knowledge of the world. |",
 				"| [Pathfinder Delver](/prestigeclass/pathfinder_delver) | Grand adventure seeker of the Pathfinder Society. |",
 				"| [Pathfinder Field Agent](/prestigeclass/pathfinder_field_agent) | Equipped with a variety of skills and trained to keep a cool head even in the most dire circumstances, a practiced Pathfinder field agent is a boon to any adventuring party. |",
@@ -3766,7 +3766,7 @@
 					[ [ "monster/sea_urchin_giant_glass_urchin", "Sea Urchin, Giant, Glass Urchin" ], 9, "vermin", [ 6, "huge" ], [ 4, "N" ], null ],
 					[ [ "monster/sea_urchin_giant_great_diadem_urchin", "Sea Urchin, Giant, Great Diadem Urchin" ], 5, "vermin", [ 4, "medium" ], [ 4, "N" ], "Thick spines like the flanges of a royal crown bristle all across the surface of this strangely large golden sea urchin." ],
 					[ [ "monster/sea_urchin_giant_hunter_urchin", "Sea Urchin, Giant, Hunter Urchin" ], 1, "vermin", [ 4, "medium" ], [ 4, "N" ], "This strange-looking creature has a spherical body covered with hundreds or thousands of two-foot-long bright purple spines that darken to ominous black tips." ],
-					[ [ "monster/sea_urchin_giant_ravenous_urchin_swarm", "Sea Urchin, Giant, Ravenous Urchin Swarm" ], 2, "vermin", [ 2, "tiny" ], [ 5, "NE" ], "A wave of swift-moving spines rushes forward-a roiling tide of dangerously fast sea urchins." ],
+					[ [ "monster/sea_urchin_giant_ravenous_urchin_swarm", "Sea Urchin, Giant, Ravenous Urchin Swarm" ], 2, "vermin", [ 2, "tiny" ], [ 5, "NE" ], "A wave of swift-moving spines rushes forward - a roiling tide of dangerously fast sea urchins." ],
 					[ [ "monster/sea_urchin_giant_spear_urchin", "Sea Urchin, Giant, Spear Urchin" ], 4, "vermin", [ 5, "large" ], [ 4, "N" ], null ],
 					[ [ "monster/sea_worm_king_ragworm", "Sea Worm, King Ragworm" ], 13, "vermin", [ 7, "gargantuan" ], [ 4, "N" ], "This enormous segmented worm shimmers with iridescent colors, and large bristles run along its sides." ],
 					[ [ "monster/seahorse_giant_seahorse", "Seahorse, Giant" ], 3, "animal", [ 5, "large" ], [ 4, "N" ], "This sea creature resembles a cross between fish and horse; it has small fins on its flanks and a gracefully curled tail." ],
@@ -4200,7 +4200,7 @@
 					[ [ "monster/warped_one", "Warped One" ], 8, "outsider", [ 4, "medium" ], [ 8, "CE" ], "This insane, twisted, humanoid-shaped tangle of limbs and gnashing teeth thrashes and howls, all too eager to wreak havoc." ],
 					[ [ "monster/warpglass_ooze", "Warpglass Ooze" ], 2, "ooze", [ 4, "medium" ], [ 4, "N" ], "This watery puddle reflects a distorted image of its surroundings, as though it were a window to another reality." ],
 					[ [ "monster/warsworn", "Warsworn" ], 16, "undead", [ 7, "gargantuan" ], [ 5, "NE" ], "An enormous, animate mass of armed and armored corpses undulates forth, like a siege tower of steel-girded flesh." ],
-					[ [ "monster/wasp_giant_wasp", "Wasp, Giant" ], 3, "vermin", [ 5, "large" ], [ 4, "N" ], "This horse-sized wasp is covered in yellow and black vertical stripes-its stinger is the size of a sword and drips with venom." ],
+					[ [ "monster/wasp_giant_wasp", "Wasp, Giant" ], 3, "vermin", [ 5, "large" ], [ 4, "N" ], "This horse-sized wasp is covered in yellow and black vertical stripes - its stinger is the size of a sword and drips with venom." ],
 					[ [ "monster/wasp_ground_wasp_swarm", "Wasp, Ground Swarm" ], 2, "vermin", [ 0, "fine" ], [ 4, "N" ], "Thousands of yellow and black wasps form a thick cloud that swirls with savage bites and venomous stings." ],
 					[ [ "monster/wasp_wasp_swarm", "Wasp, Wasp Swarm" ], 3, "vermin", [ 1, "diminutive" ], [ 4, "N" ], "A low, ominous buzz announces the arrival of a mass of many thousands of angry, stinging wasps." ],
 					[ [ "monster/watcher", "Watcher" ], 22, "outsider", [ 7, "gargantuan" ], [ 1, "LN" ], "This enormous black insectile creature moves with an almost nauseating grace as it watches with its single red eye." ],
@@ -4239,7 +4239,7 @@
 					[ [ "monster/witchfire", "Witchfire" ], 9, "undead", [ 4, "medium" ], [ 8, "CE" ], "Bathed in sickly green flames, this insubstantial specter of a beautiful young woman floats just off the ground." ],
 					[ [ "monster/witchwyrd", "Witchwyrd" ], 6, "monstrous humanoid", [ 4, "medium" ], [ 1, "LN" ], "This gray-skinned humanoid wears fine red robes. The being has four arms, each ending in a three-fingered hand." ],
 					[ [ "monster/wizards_shackle", "Wizard's Shackle" ], [ -2, "1/2" ], "aberration", [ 2, "tiny" ], [ 4, "N" ], "This eel-like creature has a thick, greasy body and a large, circular mouth full of tiny teeth." ],
-					[ [ "monster/wolf-in-sheeps-clothing", "Wolf-in-Sheep's-Clothing" ], 8, "aberration", [ 4, "medium" ], [ 4, "N" ], "A small forest animal sits motionless atop a worn stump-and then the stump's face peels open into a maw of sharp teeth." ],
+					[ [ "monster/wolf-in-sheeps-clothing", "Wolf-in-Sheep's-Clothing" ], 8, "aberration", [ 4, "medium" ], [ 4, "N" ], "A small forest animal sits motionless atop a worn stump - and then the stump's face peels open into a maw of sharp teeth." ],
 					[ [ "monster/wolf_dire_wolf", "Wolf, Dire" ], 3, "animal", [ 5, "large" ], [ 4, "N" ], "This immense black wolf is the size of a horse, its fangs as large and sharp as knives." ],
 					[ [ "monster/wolf_timber_wolf", "Wolf, Timber" ], 2, "animal", [ 4, "medium" ], [ 4, "N" ], "A chilling chorus of howls echoes through the air as a massive, white-furred wolf emerges." ],
 					[ [ "monster/wolf", "Wolf" ], 1, "animal", [ 4, "medium" ], [ 4, "N" ], "This powerful canine watches its prey with piercing yellow eyes, darting its tongue across sharp white teeth." ],

@@ -175,7 +175,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"You trained with the Blackjackets of Druma to make optimal use of magic weapons. Whenever you roll a natural 20 (the die shows a -20-) on a combat maneuver check with a magic weapon, you gain a +5 trait bonus on the check."
+				"You trained with the Blackjackets of Druma to make optimal use of magic weapons. Whenever you roll a natural 20 on a combat maneuver check with a magic weapon, you gain a +5 trait bonus on the check."
 			],
 			[
 				"## {trait/Blade of the Society}",
@@ -246,7 +246,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"You have a strong sense of self-preservation, believing it is more important to safely extract yourself from a fight that has turned hopeless than to stubbornly stand your ground and risk death-for when you're dead, you can't protect the innocent. When using the withdraw action, both the first and second squares of your movement are not considered threatened by any opponents you can see, rather than just the first square."
+				"You have a strong sense of self-preservation, believing it is more important to safely extract yourself from a fight that has turned hopeless than to stubbornly stand your ground and risk death - for when you're dead, you can't protect the innocent. When using the withdraw action, both the first and second squares of your movement are not considered threatened by any opponents you can see, rather than just the first square."
 			],
 			[
 				"## {trait/Clockwork Engineer}",
@@ -502,7 +502,7 @@
 				"**Type:** Combat  ",
 				"**Region:** Sargava",
 				"",
-				"You are used to fighting in [hilly environments](rule/hills_terrain). You may run or charge downhill on a steep slope (moving up to your base speed) without making an Acrobatics check to avoid stumbling-but if you travel farther than this distance, the normal rules for steep slopes apply."
+				"You are used to fighting in [hilly environments](rule/hills_terrain). You may run or charge downhill on a steep slope (moving up to your base speed) without making an Acrobatics check to avoid stumbling - but if you travel farther than this distance, the normal rules for steep slopes apply."
 			],
 			[
 				"## {trait/Holdout}",
@@ -585,7 +585,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"Broken firearms are not problems-they are challenges. Your first attempt to remove the broken condition from your starting firearm and to upgrade it to a masterwork weapon costs 150 gp instead of 300 gp. In addition, when wielding a firearm that has the broken condition or is treated as if it had the broken condition, you take a -1 penalty on attack rolls made with it instead of the normal -2."
+				"Broken firearms are not problems - they are challenges. Your first attempt to remove the broken condition from your starting firearm and to upgrade it to a masterwork weapon costs 150 gp instead of 300 gp. In addition, when wielding a firearm that has the broken condition or is treated as if it had the broken condition, you take a -1 penalty on attack rolls made with it instead of the normal -2."
 			],
 			[
 				"## {trait/Killer}",
@@ -725,7 +725,7 @@
 				"",
 				"**Type:** Combat",
 				"",
-				"Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold-but you gain whatever you can take. You gain a +1 trait bonus on combat maneuver checks to perform disarm and steal combat maneuvers.",
+				"Growing up in a place where authorities, if there were any, rarely enforced property laws, you learned quickly that you have only what you can hold - but you gain whatever you can take. You gain a +1 trait bonus on combat maneuver checks to perform disarm and steal combat maneuvers.",
 				"",
 				"Suggested Characters: Halflings, River Kingdoms natives, Shackles natives."
 			],
@@ -1405,7 +1405,7 @@
 					[ [ "feat/dazing_assault", "Dazing Assault" ], "Str 13, {feat/Power Attack}, base attack bonus +11.", "Trade melee attack bonus to daze opponents" ],
 					[ [ "feat/dazing_fist", "Dazing Fist" ], "Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +4.", "Daze with unarmed strikes" ],
 					[ [ "feat/dazzling_display", "Dazzling Display" ], "{feat/Weapon Focus}, proficiency with the selected weapon.", "Intimidate all foes within 30 feet" ],
-					[ [ "feat/deadhand_initiate", "Deadhand Initiate" ], "Wis 19, Deadhand Style-, {feat/Improved Unarmed Strike}, Knowledge (religion) 6 ranks, ki pool class feature, nongood alignment.", "You feast upon your own fears" ],
+					[ [ "feat/deadhand_initiate", "Deadhand Initiate" ], "Wis 19, Deadhand Style, {feat/Improved Unarmed Strike}, Knowledge (religion) 6 ranks, ki pool class feature, nongood alignment.", "You feast upon your own fears" ],
 					[ [ "feat/deadhand_master", "Deadhand Master" ], "Wis 23, {feat/Deadhand Initiate}, {feat/Deadhand Style}, {feat/Improved Unarmed Strike}, Knowledge (religion) 14 ranks, ki pool class feature, nongood alignment.", "Your unarmed strikes inflict negative levels" ],
 					[ [ "feat/deadhand_style", "Deadhand Style" ], "Wis 15, {feat/Improved Unarmed Strike}, Knowledge (religion) 4 ranks, ki pool class feature, nongood alignment.", "You are hard to scare and your unarmed strikes can make foes shaken" ],
 					[ [ "feat/deadly_aim", "Deadly Aim" ], "Dex 13, base attack bonus +1.", "Trade ranged attack bonus for damage" ],
@@ -2475,7 +2475,7 @@
 					[ [ "monster/aeon_akhana", "Aeon, Akhana" ], 12, "outsider", "aeon, extraplanar", [ 4, "medium" ], [ 4, "N" ], "Four gray arms project from a swirling mass resembling a giant eye, from which a tail-like appendage dangles." ],
 					[ [ "monster/aeon_bythos", "Aeon, Bythos" ], 16, "outsider", "aeon, extraplanar", [ 5, "large" ], [ 4, "N" ], "A shimmering, colorless mass congeals to form a four-armed humanoid shape with an eye-like pattern in its torso." ],
 					[ [ "monster/aeon_lipika", "Aeon, Lipika" ], 18, "outsider", "aeon, extraplanar", [ 5, "large" ], [ 4, "N" ], "Shrouded in a dark cloak, this featureless humanoid has four forearms that each split off at the elbow, and an eye on each of its eight palms." ],
-					[ [ "monster/aeon_othaos", "Aeon, Othaos" ], 5, "outsider", "aeon, extraplanar", [ 4, "medium" ], [ 4, "N" ], "Four limbs-two black and two white-reach out from a swirling vortex of pulsing light and deep darkness." ],
+					[ [ "monster/aeon_othaos", "Aeon, Othaos" ], 5, "outsider", "aeon, extraplanar", [ 4, "medium" ], [ 4, "N" ], "Four limbs - two black and two white - reach out from a swirling vortex of pulsing light and deep darkness." ],
 					[ [ "monster/aeon_paracletus", "Aeon, Paracletus" ], 2, "outsider", "aeon, extraplanar", [ 3, "small" ], [ 4, "N" ], "A small cluster of shimmering lights floats in the air, orbited by multiple vibrant crystals and gemstones." ],
 					[ [ "monster/aeon_pleroma", "Aeon, Pleroma" ], 20, "outsider", "aeon, extraplanar", [ 5, "large" ], [ 4, "N" ], "Within the shadows of this vaguely humanoid figure stir swirling colors and spheres, as if it encompassed all the night sky." ],
 					[ [ "monster/aeon_synesis", "Aeon, Synesis" ], 4, "outsider", "aeon, extraplanar", [ 4, "medium" ], [ 4, "N" ], "A pair of three-fingered arms sprouts from either end of this hourglass-shaped creature composed of cosmic starstuff." ],
@@ -2559,7 +2559,7 @@
 					[ [ "monster/azata_prydanu", "Azata, Prydanu" ], 16, "outsider", "azata, chaotic, extraplanar, good", [ 5, "large" ], [ 6, "CG" ], "Translucent wings protrude from this statuesque figure's back. Patches of pale scales glisten on its skin." ],
 					[ [ "monster/azata_raelis", "Azata, Raelis" ], 10, "outsider", "azata, chaotic, extraplanar, good", [ 5, "large" ], [ 6, "CG" ], "This bronze-skinned humanoid is muscular yet lithe, garbed in colorful clothing emblazoned with glowing runes." ],
 					[ [ "monster/azata_thyrlien", "Azata, Thyrlien" ], 4, "outsider", "azata, chaotic, extraplanar, good, shapechanger", [ 3, "small" ], [ 6, "CG" ], "This fey-looking humanoid is colored in shades of gray. Its wings are decorated with colored motes resembling a starry night sky." ],
-					[ [ "monster/azata_uinuja", "Azata, Uinuja" ], 15, "outsider", "azata, chaotic, extraplanar, good", [ 5, "large" ], [ 6, "CG" ], "This dark-skinned woman has diaphanous wings, four large eyes-one pair under the other-and a tangle of night-blue hair." ],
+					[ [ "monster/azata_uinuja", "Azata, Uinuja" ], 15, "outsider", "azata, chaotic, extraplanar, good", [ 5, "large" ], [ 6, "CG" ], "This dark-skinned woman has diaphanous wings, four large eyes - one pair under the other - and a tangle of night-blue hair." ],
 					[ [ "monster/azata_veranallia", "Azata, Veranallia" ], 20, "outsider", "azata, chaotic, extraplanar, good", [ 5, "large" ], [ 6, "CG" ], "This beautiful, rosy-haired woman has a lower body composed of a column of autumnal leaves and gently swaying vines." ],
 					[ [ "monster/azata_yamah", "Azata, Yamah" ], 5, "outsider", "azata, chaotic, extraplanar, good", [ 4, "medium" ], [ 6, "CG" ], "This blue-skinned woman has blue-and-white butterfly wings. Her black hair sparkles like a starlit sky." ],
 					[ [ "monster/azer", "Azer" ], 2, "outsider", "extraplanar, fire", [ 4, "medium" ], [ 1, "LN" ], "Heat ripples the air near this squat, brass-skinned humanoid. Its head and shoulders blaze with a mane of fire." ],
@@ -2618,7 +2618,7 @@
 					[ [ "monster/daemon_sangudaemon", "Daemon, Sangudaemon" ], 9, "outsider", "daemon, evil, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "This human-sized, serpent-headed spider seems to be made of clotted blood, its dragonfly-like wings dripping crimson streamers." ],
 					[ [ "monster/daemon_sepsidaemon", "Daemon, Sepsidaemon" ], 7, "outsider", "daemon, evil, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now and then, a grasping claw extends forth." ],
 					[ [ "monster/daemon_suspiridaemon", "Daemon, Suspiridaemon" ], 7, "outsider", "daemon, evil, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "This tall, three-legged, vulture-headed fiend has a grotesquely long, suckered tongue and gangly arms that end in claws." ],
-					[ [ "monster/daemon_temerdaemon", "Daemon, Temerdaemon" ], 14, "outsider", "daemon, evil, extraplanar", [ 5, "large" ], [ 5, "NE" ], "This humanoid creature's limbs-four arms and four legs-bend in awkward configurations. It wields a scythe in its largest arms." ],
+					[ [ "monster/daemon_temerdaemon", "Daemon, Temerdaemon" ], 14, "outsider", "daemon, evil, extraplanar", [ 5, "large" ], [ 5, "NE" ], "This humanoid creature's limbs - four arms and four legs - bend in awkward configurations. It wields a scythe in its largest arms." ],
 					[ [ "monster/daemon_thanadaemon", "Daemon, Thanadaemon" ], 13, "outsider", "daemon, evil, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A seething glow burns in its eye sockets." ],
 					[ [ "monster/daemon_venedaemon", "Daemon, Venedaemon" ], 5, "outsider", "daemon, evil, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "Tentacles protrude from the robes of this floating hooded figure in place of arms and legs. Its face is a disturbing, toothless maw." ],
 					[ [ "monster/daemon_vulnudaemon", "Daemon, Vulnudaemon" ], 4, "outsider", "daemon, evil, extraplanar", [ 3, "small" ], [ 5, "NE" ], "A bloody, tooth-filled mouth that looks almost like a horrific gash gasps in the neck of this pale, childlike horror." ],
@@ -2661,7 +2661,7 @@
 					[ [ "monster/demon_schir", "Demon, Schir" ], 4, "outsider", "chaotic, demon, evil, extraplanar", [ 4, "medium" ], [ 8, "CE" ], "This goat-headed humanoid is covered in a mangy gray hide that only partly covers its gaunt but muscled frame." ],
 					[ [ "monster/demon_seraptis", "Demon, Seraptis" ], 15, "outsider", "chaotic, demon, evil, extraplanar", [ 4, "medium" ], [ 8, "CE" ], "This woman's flesh is pale and clammy, as if her body had been drained of blood from the fanged slashes on her four arms." ],
 					[ [ "monster/demon_shachath", "Demon, Shachath" ], 11, "outsider", "chaotic, demon, evil, extraplanar", [ 4, "medium" ], [ 8, "CE" ], "This winged abomination is a horrid mix of demonic and angelic features, as if two bodies were carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a beautiful visage with an expression of horror bulges from the back of its skull." ],
-					[ [ "monster/demon_shadow_demon", "Demon, Shadow Demon" ], 7, "outsider", "chaotic, demon, evil, extraplanar, incorporeal", [ 4, "medium" ], [ 8, "CE" ], "Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them-the rest is lost in darkness." ],
+					[ [ "monster/demon_shadow_demon", "Demon, Shadow Demon" ], 7, "outsider", "chaotic, demon, evil, extraplanar, incorporeal", [ 4, "medium" ], [ 8, "CE" ], "Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them - the rest is lost in darkness." ],
 					[ [ "monster/demon_shemhazian", "Demon, Shemhazian" ], 16, "outsider", "chaotic, demon, evil, extraplanar", [ 7, "gargantuan" ], [ 8, "CE" ], "This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a reptilian humanoid." ],
 					[ [ "monster/demon_succubus", "Demon, Succubus" ], 7, "outsider", "chaotic, demon, evil, extraplanar", [ 4, "medium" ], [ 8, "CE" ], "Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of this alluring woman." ],
 					[ [ "monster/demon_swaithe", "Demon, Swaithe" ], 4, "outsider", "chaotic, demon, evil, extraplanar", [ 3, "small" ], [ 8, "CE" ], "This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, stained teeth." ],
@@ -2854,7 +2854,7 @@
 					[ [ "monster/kyton_suffragan", "Kyton, Suffragan" ], 5, "outsider", "evil, extraplanar, kyton, lawful", [ 4, "medium" ], [ 2, "LE" ], "Bladed whips and spiked chains sprout from the stumps of this humanoid torso's amputated limbs. Elongated saw blades loll out of its distended mouth." ],
 					[ [ "monster/kyton_termagant", "Kyton, Termagant" ], 17, "outsider", "evil, extraplanar, kyton, lawful", [ 5, "large" ], [ 2, "LE" ], "This hovering iron maiden heaves forth a monstrously pregnant mass of tortured limbs and raw tentacles." ],
 					[ [ "monster/lamhigyn", "Lamhigyn" ], 3, "outsider", "chaotic, evil, extraplanar", [ 3, "small" ], [ 8, "CE" ], "This small, three-eyed creature has ragged, red-streaked wings and a menacingly barbed tail." ],
-					[ [ "monster/lar", "Lar" ], 5, "outsider", "good, incorporeal, lawful, native", [ 4, "medium" ], [ 0, "LG" ], "A stirring in the air and rustle through the room reveals a presence-a subtle aura both cautious and curious." ],
+					[ [ "monster/lar", "Lar" ], 5, "outsider", "good, incorporeal, lawful, native", [ 4, "medium" ], [ 0, "LG" ], "A stirring in the air and rustle through the room reveals a presence - a subtle aura both cautious and curious." ],
 					[ [ "monster/lava_lurker", "Lava Lurker" ], 9, "outsider", "elemental, extraplanar, fire", [ 4, "medium" ], [ 4, "N" ], "Spatters of magma sear everything that comes near this vaguely humanoid mass of endlessly melting and reforming rock." ],
 					[ [ "monster/living_doldrums", "Living Doldrums" ], 12, "outsider", "air, elemental, extraplanar", [ 7, "gargantuan" ], [ 5, "NE" ], "The air here is eerily still, and the normal sound of the wind is replaced by a barely audible hum." ],
 					[ [ "monster/living_sandstorm_living_sandstorm_humanoid", "Living Sandstorm, Living Sandstorm (Humanoid)" ], 11, "outsider", "earth, elemental", [ 4, "medium" ], [ 4, "N" ], "This hulking humanoid figure of packed red sand is no taller than an average human, but it is brawny and exceptionally broad." ],
@@ -2922,7 +2922,7 @@
 					[ [ "monster/protean_voidworm", "Protean, Voidworm" ], 2, "outsider", "chaotic, extraplanar, protean, shapechanger", [ 2, "tiny" ], [ 7, "CN" ], "This tiny, iridescent serpent slithers through empty space, the air around it distorting as if from heat." ],
 					[ [ "monster/psychemental", "Psychemental" ], 8, "outsider", "extraplanar, incorporeal", [ 3, "small" ], [ 4, "N" ], "This incorporeal field shimmers with a constant flux of colors and shapes that coalesce into distorted, ephemeral images and reflections." ],
 					[ [ "monster/psychopomp_ahmuuth", "Psychopomp, Ahmuuth" ], 4, "outsider", "extraplanar, psychopomp", [ 4, "medium" ], [ 4, "N" ], "This somberly dressed humanoid wears an ominous mask. Gravestones float near it like heavy shields." ],
-					[ [ "monster/psychopomp_algea", "Psychopomp, Algea" ], 11, "outsider", "extraplanar, psychopomp, swarm", [ 1, "diminutive" ], [ 4, "N" ], "This shrill swarm of whip-poor-wills flies in a spiral, their airborne antics infused with streamers of pale blue mist." ],
+					[ [ "monster/psychopomp_algea", "Psychopomp, Algea" ], 11, "outsider", "extraplanar, psychopomp, swarm", [ 1, "diminutive" ], [ 4, "N" ], "This shrill swarm of whippoorwills flies in a spiral, their airborne antics infused with streamers of pale blue mist." ],
 					[ [ "monster/psychopomp_calaca", "Psychopomp, Calaca" ], 8, "outsider", "extraplanar, psychopomp", [ 4, "medium" ], [ 4, "N" ], "This figure wears a fine suit, vest, gloves, and ascot and has a guitar at the ready. The creature's face is hidden by an intricately decorated skull mask." ],
 					[ [ "monster/psychopomp_catrina", "Psychopomp, Catrina" ], 5, "outsider", "extraplanar, psychopomp", [ 4, "medium" ], [ 4, "N" ], "With lengthy curling hair, a dancer's dress, and a bouquet of flowers, this woman remains beautiful, despite having no flesh." ],
 					[ [ "monster/psychopomp_ember_weaver", "Psychopomp, Ember Weaver" ], 8, "outsider", "psychopomp, extraplanar", [ 4, "medium" ], [ 4, "N" ], "This slim, glowing figure is draped with voluminous gossamer shawls and veils that obscure its shape." ],
@@ -2942,13 +2942,13 @@
 					[ [ "monster/qlippoth_behimiron", "Qlippoth, Behimiron" ], 13, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 6, "huge" ], [ 8, "CE" ], "This monstrous fiend resembles a titan beetle with a sagging, elephantine hide stretched over its spiny carapace." ],
 					[ [ "monster/qlippoth_cataboligne", "Qlippoth, Cataboligne" ], 16, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 7, "gargantuan" ], [ 8, "CE" ], "Spiked clubs extend from each end of this six-legged fiend. A spiky growth sticks up from its back, and a mouth yawns in its belly." ],
 					[ [ "monster/qlippoth_chernobue", "Qlippoth, Chernobue" ], 12, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 5, "large" ], [ 8, "CE" ], "This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly." ],
-					[ [ "monster/qlippoth_cythnigot", "Qlippoth, Cythnigot" ], 2, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 2, "tiny" ], [ 8, "CE" ], "This six-legged horror has a spider's face and a fibrous stalk growing out of its back-a stalk ending in a snapping mouth." ],
+					[ [ "monster/qlippoth_cythnigot", "Qlippoth, Cythnigot" ], 2, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 2, "tiny" ], [ 8, "CE" ], "This six-legged horror has a spider's face and a fibrous stalk growing out of its back - a stalk ending in a snapping mouth." ],
 					[ [ "monster/qlippoth_deinochos", "Qlippoth, Deinochos" ], 5, "outsider", "aquatic, chaotic, evil, extraplanar, qlippoth", [ 3, "small" ], [ 8, "CE" ], "A fleshy pseudopod tipped with a jawless mouth and ringed by dozens of eyes emerges from a spiny shell along with several hooked legs." ],
 					[ [ "monster/qlippoth_gongorinan", "Qlippoth, Gongorinan" ], 11, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 4, "medium" ], [ 8, "CE" ], "This human-sized, crab-like creature scuttles on six stumpy legs, and each of its four arms sports a different method of inflicting pain." ],
 					[ [ "monster/qlippoth_gorgoros", "Qlippoth, Gorgoros" ], 9, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 5, "large" ], [ 8, "CE" ], "Numerous writhing, coiling tails support this serpent-headed beast. Its three eyes glow a sickly yellow." ],
 					[ [ "monster/qlippoth_hydraggon", "Qlippoth, Hydraggon" ], 3, "outsider", "aquatic, chaotic, evil, extraplanar, qlippoth", [ 4, "medium" ], [ 8, "CE" ], "This eellike monstrosity has a gaping, fanged mouth from which lolls a long, red tongue split into three tendrils, two of which wield weapons." ],
 					[ [ "monster/qlippoth_iathavos", "Qlippoth, Iathavos" ], 20, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 8, "colossal" ], [ 8, "CE" ], "This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides, and two huge claws dangle below." ],
-					[ [ "monster/qlippoth_nyogoth", "Qlippoth, Nyogoth" ], 10, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 4, "medium" ], [ 8, "CE" ], "This appears to be a mass of floating intestines tangled around a fanged mouth-the tips of its coils also end in toothy maws." ],
+					[ [ "monster/qlippoth_nyogoth", "Qlippoth, Nyogoth" ], 10, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 4, "medium" ], [ 8, "CE" ], "This appears to be a mass of floating intestines tangled around a fanged mouth - the tips of its coils also end in toothy maws." ],
 					[ [ "monster/qlippoth_shoggti", "Qlippoth, Shoggti" ], 7, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 5, "large" ], [ 8, "CE" ], "This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head between two staring eyes." ],
 					[ [ "monster/qlippoth_thognorok", "Qlippoth, Thognorok" ], 4, "outsider", "aquatic, chaotic, evil, extraplanar, qlippoth", [ 4, "medium" ], [ 8, "CE" ], "This obscene mass looks like a melted blob crossed with a spider, ceaselessly lashing out with its hairy, wriggling legs." ],
 					[ [ "monster/qlippoth_thulgant", "Qlippoth, Thulgant" ], 18, "outsider", "chaotic, evil, extraplanar, qlippoth", [ 5, "large" ], [ 8, "CE" ], "This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers." ],
@@ -2979,7 +2979,7 @@
 					[ [ "monster/sandman", "Sandman" ], 3, "outsider", "earth, elemental, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "A whirling cloud of fine desert sand piles up upon itself, forming into the shape of a humanoid figure." ],
 					[ [ "monster/sarcovalt", "Sarcovalt" ], 4, "outsider", "evil, extraplanar", [ 2, "tiny" ], [ 5, "NE" ], "This horse-sized housefly has a vulture's neck growing out of its body, capped with a fleshless vulture skull." ],
 					[ [ "monster/scarlet_walker", "Scarlet Walker" ], 12, "outsider", "evil, extraplanar, lawful", [ 6, "huge" ], [ 2, "LE" ], "This crimson horror walks upon six long, thin legs. Its face is neither that of a skull nor spider, but some horrid mix of the two." ],
-					[ [ "monster/sceaduinar", "Sceaduinar" ], 7, "outsider", "extraplanar", [ 4, "medium" ], [ 5, "NE" ], "This gargoyle-like creature has long spiky legs and a bat-like head-its body seems to be made of living, dark purple crystal." ],
+					[ [ "monster/sceaduinar", "Sceaduinar" ], 7, "outsider", "extraplanar", [ 4, "medium" ], [ 5, "NE" ], "This gargoyle-like creature has long spiky legs and a bat-like head - its body seems to be made of living, dark purple crystal." ],
 					[ [ "monster/sceazir", "Sceazir" ], 9, "outsider", "extraplanar", [ 5, "large" ], [ 5, "NE" ], "This winged, six-legged creature seems to be constructed of dark crystal. Its mouth is disproportionately large for its wolfish head, gaping open to display rows of jagged teeth, and its spiky, manyjointed legs bend in unsettling ways." ],
 					[ [ "monster/scrivenite", "Scrivenite" ], 4, "outsider", "extraplanar, lawful", [ 4, "medium" ], [ 4, "N" ], "This humanoid-shaped figure of folded paper and silken ribbons hovers gently in the air. It wears the open cover of some great tome like a metal- and leather-bound mask." ],
 					[ [ "monster/shabti", "Shabti" ], [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 1, "LN" ], "Light shimmers across this humanoid figure's bare golden skin, illuminating regal features." ],

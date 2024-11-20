@@ -74,7 +74,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
 			"",
-			"You pray to whatever local deity will answer your prayers-and if they won't, to hell with them. You gain a +1 trait bonus on Knowledge (religion) checks and can make Knowledge (religion) checks as if trained. Once per day, you can cast resistance on yourself as a spell-like ability cast at your highest caster level (CL 1st if you have no caster level)."
+			"You pray to whatever local deity will answer your prayers - and if they won't, to hell with them. You gain a +1 trait bonus on Knowledge (religion) checks and can make Knowledge (religion) checks as if trained. Once per day, you can cast {spell/resistance} on yourself as a spell-like ability cast at your highest caster level (CL 1st if you have no caster level)."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -475,7 +475,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
 			"",
-			"You awake in the asylum with sore muscles and bloody knuckles, as if you were recently in a fight. You even have a vague feeling that you won. You can't explain it, but you know that you've always been easy to set off, and your first instinct when pressed into a corner is to lash out. Stuck in the asylum sets you on edge, and you not only want to figure out what happened to you, you want to free yourself and find whoever did this to you-and make them pay.",
+			"You awake in the asylum with sore muscles and bloody knuckles, as if you were recently in a fight. You even have a vague feeling that you won. You can't explain it, but you know that you've always been easy to set off, and your first instinct when pressed into a corner is to lash out. Stuck in the asylum sets you on edge, and you not only want to figure out what happened to you, you want to free yourself and find whoever did this to you - and make them pay.",
 			"",
 			"You gain a +1 trait bonus on attack rolls when threatened by two or more enemies. In addition, once per day you can gain one of the following effects as an immediate action: You can increase the reach of your melee attacks by 5 feet for 1 round, or you can treat your weapon as one size category larger than it actually is for purposes of determining damage for 1 round."
 		],
@@ -897,7 +897,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action-and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
+			"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action - and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -1021,7 +1021,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Your experiments-both your successes and failures-have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items."
+			"Your experiments - both your successes and failures - have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -1369,7 +1369,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
 			"",
-			"You bear a strange birthmark on your body-something you've learned is the Sign of the Seeker's Spiral, a rune associated with the secret society known as the Riftwardens. You have researched this rune, and have learned that the mark sometimes appears on the children of Riftwardens who have been exposed to particularly strange planar energies. Unfortunately, you never knew your parents, for you were raised by a foster family in Kenabres. Your foster family has confirmed that both of your parents were Riftwardens, and has further confirmed that your parents went missing on a secret mission into the Worldwound less than a month after you were born. You're not sure what happened to them, but you're certain you're dead-and your gut tells you that the one who murdered them yet lives! In any event, you've long felt magic in your blood, and casting spells comes easily to you. You gain a +2 trait bonus on all concentration checks.",
+			"You bear a strange birthmark on your body-something you've learned is the Sign of the Seeker's Spiral, a rune associated with the secret society known as the Riftwardens. You have researched this rune, and have learned that the mark sometimes appears on the children of Riftwardens who have been exposed to particularly strange planar energies. Unfortunately, you never knew your parents, for you were raised by a foster family in Kenabres. Your foster family has confirmed that both of your parents were Riftwardens, and has further confirmed that your parents went missing on a secret mission into the Worldwound less than a month after you were born. You're not sure what happened to them, but you're certain they're dead - and your gut tells you that the one who murdered them yet lives! In any event, you've long felt magic in your blood, and casting spells comes easily to you. You gain a +2 trait bonus on all concentration checks.",
 			"",
 			"**Associated Mythic Path:** Archmage.",
 			"",
@@ -1617,7 +1617,7 @@
 			"",
 			"**Type:** Equipment",
 			"",
-			"Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be. When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the improvised weapon penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools-lutes and brooms make terribly fragile weapons."
+			"Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be. When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the improvised weapon penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools - lutes and brooms make terribly fragile weapons."
 		],
 		"subhierarchy": [[ "Equipment Traits", "main/traits_equipment" ]]
 	},
@@ -2131,7 +2131,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"As a youth, you assisted a wise woman or witch doctor who removed magical maladies from the needy and was present for the breaking of many spells-or perhaps you passed through a dead magic zone. Whatever the cause, magic seems a little more reluctant to affect you than others. Reduce the caster level of spells and spell-like abilities cast upon you by 1 for the purpose of attempting dispel checks and overcoming your spell resistance (if any).",
+			"As a youth, you assisted a wise woman or witch doctor who removed magical maladies from the needy and was present for the breaking of many spells - or perhaps you passed through a dead magic zone. Whatever the cause, magic seems a little more reluctant to affect you than others. Reduce the caster level of spells and spell-like abilities cast upon you by 1 for the purpose of attempting dispel checks and overcoming your spell resistance (if any).",
 			"",
 			"Suggested Characters: Kellids, Mana Wastes natives, Shoanti."
 		],
@@ -2401,7 +2401,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray",
 			"",
-			"You have studied the ancient lore of Vudra at a monastery in Jalmeray, and have learned a mystical secret that empowers your spellcasting. Pick one spell when you choose this trait-from this point on, whenever you cast that spell, you do so at +1 caster level."
+			"You have studied the ancient lore of Vudra at a monastery in Jalmeray, and have learned a mystical secret that empowers your spellcasting. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, you do so at +1 caster level."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -4788,7 +4788,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You were trained in a nowdefunct philosophical tradition-such as that of the nowdestroyed Galtan universities or Lirgeni astrologers-and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives."
+			"You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -5198,7 +5198,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Bachuan",
 			"",
-			"You were a miner of the nowscarce ores of the Szaezan Crags, and have become adept at identifying minerals and gems. You gain a +1 trait bonus on Appraise checks, and Appraise becomes a class skill for you."
+			"You were a miner of the now-scarce ores of the Szaezan Crags, and have become adept at identifying minerals and gems. You gain a +1 trait bonus on Appraise checks, and Appraise becomes a class skill for you."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5528,7 +5528,7 @@
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 30 Neth and 17 Kuthona",
 			"",
-			"You are born under the sign of the dark figure that trails the Caravan-the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects."
+			"You are born under the sign of the dark figure that trails the Caravan - the specter of death itself. You receive a +2 bonus on saving throws against death effects. All allies within 10 feet of you take a -1 penalty on saving throws against death effects."
 		],
 		"subhierarchy": [[ "Cosmic Traits", "main/traits_cosmic" ]]
 	},
@@ -5697,7 +5697,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
 			"",
-			"You know a little bit about most everything and everyone in Roslar's Coffer. It may be your profession, as you could be an archivist, crier, or librarian-or you simply make a hobby of gossip. Either way, you have a gift for recall and reading others. You gain a +1 trait bonus on Knowledge (history) and Knowledge (local) checks, and these both become class skills for you. Once each day you can reroll a single Bluff or Sense Motive check against a creature you have known for at least 24 hours, using the better result."
+			"You know a little bit about most everything and everyone in Roslar's Coffer. It may be your profession, as you could be an archivist, crier, or librarian - or you simply make a hobby of gossip. Either way, you have a gift for recall and reading others. You gain a +1 trait bonus on Knowledge (history) and Knowledge (local) checks, and these both become class skills for you. Once each day you can reroll a single Bluff or Sense Motive check against a creature you have known for at least 24 hours, using the better result."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6544,7 +6544,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
 			"",
-			"You were born and raised in the town of Trunau, one of the few human settlements in the orc-dominated Hold of Belkzen. Orc attacks are an ever-present threat, and like all Trunauans, you have made the Standing Vow: to hold Trunau against all attackers, orc or otherwise, to stand your ground, and to live free or die trying. Upon coming of age, you were given a hopeknife-a small, sheathed dagger, usually worn on a chain under your clothes-and taught how to use it to take your own life to avoid capture by orcs, or to grant the mercy of a quick death to the wounded. As a native, you have served in Trunau's militia, and fought alongside Patrol Captains Kurst and Rodrik Grath. You begin play with a hopeknife (a masterwork dagger), and your tenacity in the face of adversity grants you a +1 trait bonus on Will saves."
+			"You were born and raised in the town of Trunau, one of the few human settlements in the orc-dominated Hold of Belkzen. Orc attacks are an ever-present threat, and like all Trunauans, you have made the Standing Vow: to hold Trunau against all attackers, orc or otherwise, to stand your ground, and to live free or die trying. Upon coming of age, you were given a hopeknife - a small, sheathed dagger, usually worn on a chain under your clothes - and taught how to use it to take your own life to avoid capture by orcs, or to grant the mercy of a quick death to the wounded. As a native, you have served in Trunau's militia, and fought alongside Patrol Captains Kurst and Rodrik Grath. You begin play with a hopeknife (a masterwork dagger), and your tenacity in the face of adversity grants you a +1 trait bonus on Will saves."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6636,7 +6636,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"Your eidolon-and your connection to it-makes others ill at ease. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make."
+			"Your eidolon - and your connection to it - makes others ill at ease. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -6717,7 +6717,7 @@
 			"",
 			"**Type:** Drawback",
 			"",
-			"You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe-but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional Perception check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by misdirection, nondetection, or illusions, except those that also affect shadows (such as invisibility)."
+			"You cast no shadow whatsoever, or the shadow you do have is monstrous. Under normal lighted conditions, this is not hard to observe - but uncommon to notice. Creatures that succeed at a DC 15 Wisdom check notice it plainly (an additional Perception check may be required based on environmental conditions). This telltale sign of wickedness cannot be concealed by misdirection, nondetection, or illusions, except those that also affect shadows (such as invisibility)."
 		],
 		"subhierarchy": [[ "Drawback Traits", "main/traits_drawback" ]]
 	},
@@ -7169,7 +7169,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You discovered or were given a secret to make your mutagens more unstable-but also more potent. Once per day, you can create an unstable mutagen. It is like a normal mutagen in most ways, but also gains a single benefit or hindrance due to its instability. Roll 1d6 to determine the result of the instability.",
+			"You discovered or were given a secret to make your mutagens more unstable - but also more potent. Once per day, you can create an unstable mutagen. It is like a normal mutagen in most ways, but also gains a single benefit or hindrance due to its instability. Roll 1d6 to determine the result of the instability.",
 			"",
 			"| 1d6 | Instability |",
 			"| --- | --- |",
@@ -7748,7 +7748,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions-the action of its initial roll or that of the reroll-the creature takes. Confused creatures do not need to understand you for this trait to take effect."
+			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
@@ -8872,7 +8872,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
 			"",
-			"You've seen the horrors of war, and had hoped you'd seen the end of it. You've retreated from the fighting-likely from the front line with Molthune, but maybe from the crusade of Lastwall or the political infighting of Ustalav-and now just want to protect and provide for those you care about. You gain one of the following as a permanent class skill: Appraise, Heal, Knowledge (history), Sense Motive, or Survival. When you perform an aid another action to improve a creature's Armor Class, you increase its AC by +4 rather than +2."
+			"You've seen the horrors of war, and had hoped you'd seen the end of it. You've retreated from the fighting - likely from the front line with Molthune, but maybe from the crusade of Lastwall or the political infighting of Ustalav - and now just want to protect and provide for those you care about. You gain one of the following as a permanent class skill: Appraise, Heal, Knowledge (history), Sense Motive, or Survival. When you perform an aid another action to improve a creature's Armor Class, you increase its AC by +4 rather than +2."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8887,7 +8887,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"You have acquired an unusual breadth of life experience-more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
+			"You have acquired an unusual breadth of life experience - more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},
