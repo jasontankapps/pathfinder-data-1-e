@@ -271,7 +271,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/82}",
 			"",
-			"Once a GM knows what role his NPC needs to fulfill, the character's details can begin taking shape. While not every NPC needs to be a unique masterpiece of imagination, every character the PCs interact with-those important enough to have a speaking role-should have at least three core elements: appearance, motivation, and personality. These aspects answer three questions fundamental to every NPC, from shopkeeps to kings: how do they look, what do they do, and how do they do it? How much effort the GM puts into detailing and refining the answers to these questions relates proportionately to the NPC's importance to a story and his time spent interacting with the PCs. As such, an NPC who appears but once probably only deserves a few notes or a moment's improvisation to convey the most basic traits, while a major character benefits from greater details, which might be revealed or evolve as the PCs interact with him. Thus, GM should consider the following character aspects as they design their NPCs.",
+			"Once a GM knows what role his NPC needs to fulfill, the character's details can begin taking shape. While not every NPC needs to be a unique masterpiece of imagination, every character the PCs interact with - those important enough to have a speaking role - should have at least three core elements: appearance, motivation, and personality. These aspects answer three questions fundamental to every NPC, from shopkeeps to kings: how do they look, what do they do, and how do they do it? How much effort the GM puts into detailing and refining the answers to these questions relates proportionately to the NPC's importance to a story and his time spent interacting with the PCs. As such, an NPC who appears but once probably only deserves a few notes or a moment's improvisation to convey the most basic traits, while a major character benefits from greater details, which might be revealed or evolve as the PCs interact with him. Thus, GM should consider the following character aspects as they design their NPCs.",
 			"",
 			"***Appearance:*** Every NPC worth describing has an appearance, something that sets the character apart and distinguishes her from the faceless masses as a unique individual. This might be nothing more than reference to the color of an NPC's hair and noting her age, or it might be a detailed account of her beauty or ugliness. A detailed description can do much to determine whether an NPC is memorable but might also suggest deeper elements. Some of an NPC's physical traits dictate rules aspects (race, blindness, a limp, and so on), others can be merely cosmetic, and still others might reveal clues in a well-planned plot. For GMs wishing to delve past the superficial, some traits might even prove portentous. In folktales and myths, a typical example is the \"mark of the hero,\" which allows others to know her true identity. Such traits can lead to identification (like Odysseus's leg scar) or provoke some kind of reaction in a monster. In the past, it was a common belief in some cultures that evil people are somehow marked, but also that a hero is born with a distinctive sign on the body or receives it during her initiation or adventures. Fantasy literature features innumerable examples of such traits used as plot devices, and whether meaningful or random, a unique description of an NPC is among the primary elements that help a character standout in the players' minds.",
 			"",
@@ -395,7 +395,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/85}",
 			"",
-			"The concept of NPC includes any and all creatures not controlled by a player, although NPCs are commonly associated with a measure of deliberateness and design work, while monsters are more likely drawn whole cloth from the pages of bestiaries or similar ready-made resource. Any creature has the potential to be an NPC, though. Anything the PCs decide to talk with instead of slay might have a reaction: something to say, views shaped by its culture, and an attitude toward the PCs dependant on its alignment and the PCs' actions. Many monsters are simply NPCs whose purpose is to be an opponent for the PCs, but spells like charm monster can change all that very quickly, and so can other actions on the part of the PCs, such as not simply killing everything they encounter. Turning monsters into NPCs creates some great roleplaying opportunities. For example, all [orcs](monster/orc) and [kobolds](monster/kobold) are not alike - at least in their own opinion - and they have goals of their own beside standing in a dungeon location waiting for PCs to come and kill them.",
+			"The concept of NPC includes any and all creatures not controlled by a player, although NPCs are commonly associated with a measure of deliberateness and design work, while monsters are more likely drawn whole cloth from the pages of bestiaries or similar ready-made resource. Any creature has the potential to be an NPC, though. Anything the PCs decide to talk with instead of slay might have a reaction: something to say, views shaped by its culture, and an attitude toward the PCs dependant on its alignment and the PCs' actions. Many monsters are simply NPCs whose purpose is to be an opponent for the PCs, but spells like charm monster can change all that very quickly, and so can other actions on the part of the PCs, such as not simply killing everything they encounter. Turning monsters into NPCs creates some great roleplaying opportunities. For example, all {monster/orc/s} and {monster/kobold/s} are not alike - at least in their own opinion - and they have goals of their own beside standing in a dungeon location waiting for PCs to come and kill them.",
 			"",
 			"GMs should remain aware of a creature's setting and believability when considering monstrous NPCs. Although a conversation with a hobgoblin might prove novel in the right circumstance, the surest way to make the local green grocer interesting is not to make him a {monster/bugbear}, while having the true villain of a campaign be an [awakened](spell/awaken) pigeon can shatter the believably of even the most outlandish fantasy campaign. An unusual race should never be considered a replacement for the work of creating an interesting personality and motivation for a character, and monstrous NPCs should be thought through just as thoroughly as normal NPCs."
 		],
@@ -660,7 +660,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
 			"",
-			"While users of divine magic are often regarded simply as healers, their wisdom and vaunted positions mean [adepts](npcclass/adept) can have much more to offer.",
+			"While users of divine magic are often regarded simply as healers, their wisdom and vaunted positions mean {npcclass/adept/s} can have much more to offer.",
 			"",
 			"***Favor:*** Free healing on a single occasion.",
 			"",
@@ -730,7 +730,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
 			"",
-			"Although not usual famous or wealthy, [commoners](npcclass/commoner) have a wide variety of skills and can usually come up with creative ways to repay favors.",
+			"Although not usual famous or wealthy, {npcclass/commoner/s} have a wide variety of skills and can usually come up with creative ways to repay favors.",
 			"",
 			"***Favor:*** Provides room and prepares an elaborate feast in a PC's honor.",
 			"",
@@ -765,7 +765,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
 			"",
-			"Skilled craftsmen, professionals, and learned members of society, the [experts](npcclass/expert), regularly have a wide range of specific talents and obscure information that can prove useful to PCs.",
+			"Skilled craftsmen, professionals, and learned members of society, the {npcclass/expert/s}, regularly have a wide range of specific talents and obscure information that can prove useful to PCs.",
 			"",
 			"***Favor:*** Provides material for a PC, cutting the price to create a non-magical item in half.",
 			"",
@@ -800,7 +800,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
 			"",
-			"Professional [warriors](npcclass/warrior) typically have a wide range of experience and useful contacts among other career combatants, those they serve, and those they oppose.",
+			"Professional {npcclass/warrior/s} typically have a wide range of experience and useful contacts among other career combatants, those they serve, and those they oppose.",
 			"",
 			"***Favor:*** Gifts a PC one non-magical weapon, piece of armor, or adventuring gear.",
 			"",
@@ -927,7 +927,7 @@
 			"",
 			"***Personality:*** \"Might makes right\" is the evil overlord's motto. The peasants suffer because they are weak, and the overlord's minions live well because they are strong enough to take from the weak. The evil overlord is the strongest of all, and rules by right of that strength.",
 			"",
-			"***Followers:*** The evil overlord's followers are ruled by strength or fear. Those who rebel or fail are made into gruesome examples. Higher-level followers are kept suspicious and resentful of each other so they do not think of joining forces against their mistress. Instead, each one vies for favor while scheming to bring down the others. Most of an evil overlord's followers are fighters or [warriors](npcclass/warrior). She probably also has one or two special retainers: a torturer or executioner who carries out the overlord's brutal justice, a wizard or cleric who uses magic and spies to ensure the rank and file are kept obedient, a pet monster, or perhaps a champion - strong but very loyal (and perhaps also very stupid). High-level fighters make good champions, but so do combat-oriented monstrous races like [ogres](monster/ogre) and [trolls](monster/troll).",
+			"***Followers:*** The evil overlord's followers are ruled by strength or fear. Those who rebel or fail are made into gruesome examples. Higher-level followers are kept suspicious and resentful of each other so they do not think of joining forces against their mistress. Instead, each one vies for favor while scheming to bring down the others. Most of an evil overlord's followers are fighters or {npcclass/warrior/s}. She probably also has one or two special retainers: a torturer or executioner who carries out the overlord's brutal justice, a wizard or cleric who uses magic and spies to ensure the rank and file are kept obedient, a pet monster, or perhaps a champion - strong but very loyal (and perhaps also very stupid). High-level fighters make good champions, but so do combat-oriented monstrous races like {monster/ogre/s} and {monster/troll/s}.",
 			"",
 			"***Plans:*** A typical evil overlord values wealth and power more than anything else, and most of her plans revolve around trying to acquire more of both. Short-term objectives might include finding or taking powerful magical weapons and other items, killing neighboring rulers and taking their lands, robbing temples and other sources of wealth, and executing anyone who objects. Longer-term objectives typically involve conquest: from the local area to the entire world. Any ruler or other character who is more powerful than the overlord is seen as a threat and must be killed or brought under control until he can be dealt with once and for all."
 		],
@@ -4898,7 +4898,7 @@
 			"",
 			"### How are lives affected by magic?",
 			"",
-			"Most fantasy game worlds have magic of the arcane kind as a staple. Players who are looking to play wizards or sorcerers need to know what it means to be a wizard or sorcerer, even if they don't initially have to know the source or origin of magic itself. This is also true of the other heroes, who should have a fairly good understanding of what society thinks of people casting [fireballs](spell/fireball) and summoning demons. You're also going to have to tell the players whether they should expect to have access to healing magic, or if the world is more gritty and dangerous.",
+			"Most fantasy game worlds have magic of the arcane kind as a staple. Players who are looking to play wizards or sorcerers need to know what it means to be a wizard or sorcerer, even if they don't initially have to know the source or origin of magic itself. This is also true of the other heroes, who should have a fairly good understanding of what society thinks of people casting {spell/fireball/s} and summoning demons. You're also going to have to tell the players whether they should expect to have access to healing magic, or if the world is more gritty and dangerous.",
 			"",
 			"### How are lives affected by religion?",
 			"",
@@ -6768,7 +6768,7 @@
 			"",
 			"***Vessels:*** Whether powered by magic or science, spaceships add a whole new flavor to a game. Do your starships operate via massive thrusters or diaphanous sails that catch the sun's light? Do they fold space and time, or are they giant space-faring creatures that passengers stow away inside like Jonah and the whale? And does it take days, years, or generations for the vessel to reach another world?",
 			"",
-			"***Spells:*** Teleportation spells are important to consider when establishing extraplanetary locations. Can a wizard simply cast {spell/greater teleport} or {spell/wish}, or is more required to reach the stars? Be warned that easy access to the galaxy brings a host of concerns-such as why, if interplanetary travel is easy, aliens aren't thronging your base world."
+			"***Spells:*** Teleportation spells are important to consider when establishing extraplanetary locations. Can a wizard simply cast {spell/greater teleport} or {spell/wish}, or is more required to reach the stars? Be warned that easy access to the galaxy brings a host of concerns - such as why, if interplanetary travel is easy, aliens aren't thronging your base world."
 		],
 		"parent_topics": [
 			"gamemastery",

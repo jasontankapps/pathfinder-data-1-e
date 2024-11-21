@@ -337,7 +337,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster takes 1 permanent negative level.  ",
-			"**Failure** All casters take 2d4 points of Constitution drain as their flesh is siphoned into the pool; this flesh is transformed into a number of uncontrolled and violent [fleshdregs](monster/fleshdreg) equal to the number of casters.",
+			"**Failure** All casters take 2d4 points of Constitution drain as their flesh is siphoned into the pool; this flesh is transformed into a number of uncontrolled and violent {monster/fleshdreg/s} equal to the number of casters.",
 			"",
 			"### Effect",
 			"",
@@ -395,7 +395,7 @@
 			"",
 			"This powerful ritual attempts to shunt the target's soul to a plane determined during the preparation for the ritual. A key component of the ritual is a forked rod, just like that used for a {spell/plane shift} spell. Any other device suitable for use as a focus component for {spell/plane shift} is also suitable for use with this ritual. The casters form a circle around the target, each touching the shoulder of the caster to his left to form a ring representing the multiverse as a whole. The primary caster stands inside this ring with the target, holding the diamond in one hand and the forked rod in the other. As the casters chant, the primary caster walks around the target in a circle. At the conclusion of the ritual, the primary caster touches the forked rod to the black diamond, which shatters. If the ritual is performed successfully, the target's soul is immediately sent to the designated plane and manifests there as a {template/petitioner} or another appropriate outsider, just as if the designated plane were the soul's appropriate reward and regardless of the soul's actual alignment or outlook. If the target is a helpless creature, it is slain by this effect (no save). If the target is a soul trapped inside an object, the object is emptied when the soul departs to its designated destination.",
 			"",
-			"As this ritual bypasses the soul's judgment and natural passage to the afterlife, it is considered anathema to the [psychopomps](family/psychopomp). Agents of the psychopomp ushers actively attempt to suppress knowledge of this ritual wherever they find it, but the psychopomps' enemies-such as [daemons](family/daemon) and [sahkils](family/sahkil)-work hard to disseminate knowledge of the ritual to inquisitive mortals."
+			"As this ritual bypasses the soul's judgment and natural passage to the afterlife, it is considered anathema to the {family/psychopomp/s}. Agents of the psychopomp ushers actively attempt to suppress knowledge of this ritual wherever they find it, but the psychopomps' enemies-such as {family/daemon/s} and {family/sahkil/s}-work hard to disseminate knowledge of the ritual to inquisitive mortals."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1195,7 +1195,7 @@
 			"",
 			"### Effect",
 			"",
-			"The ritual allows the primary caster to tap into the multiversal connection shared by all [aeons](family/aeon). The primary caster weaves complicated occult patterns around herself with the silver wire; if secondary casters are involved in the ritual, they stand around the primary caster and the primary caster wraps the silver wire around their outstretched limbs to form these patterns. If successfully performed, the primary caster can utilize the envisaging ability as though she were an aeon to communicate with other creatures, can attempt Knowledge checks untrained, and gains an enhancement bonus on Knowledge checks equal to half her character level or twice the number of secondary casters, whichever is greater. Although the primary caster can communicate with aeons themselves across vast gulfs of distance and even planar boundaries, they are unlikely to respond except to profess amusement or mild annoyance."
+			"The ritual allows the primary caster to tap into the multiversal connection shared by all {family/aeon/s}. The primary caster weaves complicated occult patterns around herself with the silver wire; if secondary casters are involved in the ritual, they stand around the primary caster and the primary caster wraps the silver wire around their outstretched limbs to form these patterns. If successfully performed, the primary caster can utilize the envisaging ability as though she were an aeon to communicate with other creatures, can attempt Knowledge checks untrained, and gains an enhancement bonus on Knowledge checks equal to half her character level or twice the number of secondary casters, whichever is greater. Although the primary caster can communicate with aeons themselves across vast gulfs of distance and even planar boundaries, they are unlikely to respond except to profess amusement or mild annoyance."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1273,7 +1273,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The caster and secondary casters become exhausted.  ",
-			"**Failure** All casters are affected by the [ouroboros's](monster/ouroboros) ruinous blood special attack. The dead body can't be the target of the ouroboros blood ritual in the future.",
+			"**Failure** All casters are affected by the {monster/ouroboros/'s} ruinous blood special attack. The dead body can't be the target of the ouroboros blood ritual in the future.",
 			"",
 			"### Effect",
 			"",
@@ -1679,7 +1679,7 @@
 			"",
 			"Sever Kami Ward: Successfully completing the ritual forces the ward's {family/kami} to attempt a Will save (use the kami's Will save in the case of targeting its ward). On a failed save, the kami loses its connection with its ward. This functions as if the kami's ward were destroyed: the kami cannot merge with its ward, it loses its fast healing, and it is permanently sickened. Many kami suffering from this cruel fate transform into malicious oni.",
 			"",
-			"Untether Companion: Successfully completing the ritual forces the creature whose animal or spiritual companion, such as an eidolon or phantom, was targeted to attempt a Will save. Failing this save causes the creature to lose its bond with the targeted animal companion or spirit. An animal companion severed in this manner retains its abilities and statistics, but it gains an intense loathing for its former master. In the case of eidolons or phantoms, the severed companion gains the {monster/unfettered eidolon} template or becomes an {monster/unfettered phantom} with the appropriate Hit Dice. For creatures with animal companions, this functions as if the creature's companion had been slain, allowing the target to gain a new companion. For creatures with bonded spirits (such as [spiritualists](class/spiritualist)), the means of gaining a new companion are left to the GM's discretion."
+			"Untether Companion: Successfully completing the ritual forces the creature whose animal or spiritual companion, such as an eidolon or phantom, was targeted to attempt a Will save. Failing this save causes the creature to lose its bond with the targeted animal companion or spirit. An animal companion severed in this manner retains its abilities and statistics, but it gains an intense loathing for its former master. In the case of eidolons or phantoms, the severed companion gains the {monster/unfettered eidolon} template or becomes an {monster/unfettered phantom} with the appropriate Hit Dice. For creatures with animal companions, this functions as if the creature's companion had been slain, allowing the target to gain a new companion. For creatures with bonded spirits (such as {class/spiritualist/s}), the means of gaining a new companion are left to the GM's discretion."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},

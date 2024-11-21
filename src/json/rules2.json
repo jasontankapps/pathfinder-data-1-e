@@ -3584,7 +3584,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/245}",
 			"",
-			"Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a {spell/remove disease} spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. Infestations can afflict [androids](race/android) despite their artificial nature and immunity to disease, but they can't afflict nonliving creatures such as undead.",
+			"Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a {spell/remove disease} spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. Infestations can afflict {race/android/s} despite their artificial nature and immunity to disease, but they can't afflict nonliving creatures such as undead.",
 			"",
 			"{table0}"
 		],
@@ -6487,7 +6487,7 @@
 			"",
 			"***11th Level:*** Wasps build a small hive somewhere in the rags' interior. When the wearer uses {spell/vomit swarm}, she can choose between spiders and wasps.",
 			"",
-			"***13th Level:*** The rags' diseases become more communicable. Any living creature striking the wearer with a bite attack contracts {disease/filth fever}. A successful DC 14 Fortitude negates the disease. Oozes and vermin are immune to this effect, as are creatures such as [otyughs](monster/otyugh) and rats that are at home in exceptional filth.",
+			"***13th Level:*** The rags' diseases become more communicable. Any living creature striking the wearer with a bite attack contracts {disease/filth fever}. A successful DC 14 Fortitude negates the disease. Oozes and vermin are immune to this effect, as are creatures such as {monster/otyugh/s} and rats that are at home in exceptional filth.",
 			"",
 			"***16th Level:*** Army ants build a colony within the rags, and the rags' filth becomes utterly vile. The wearer can also choose army ants when using {spell/vomit swarm}. Any biting creature that fails its saving throw against the rags' filth fever becomes nauseated for 1d4 rounds, and even on a successful save, the creature is still sickened for 1 round.",
 			"",

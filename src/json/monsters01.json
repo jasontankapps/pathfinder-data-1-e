@@ -2217,7 +2217,7 @@
 			"",
 			"On Nirvana, most chelonidals serve more potent agathions without complaint. The empyreal lords Dalenydra and Ylimancha, in particular, often associate with chelonidals. Every so often a chelonidal feels the urge to wander; while it never leaves a post without securing a replacement, once one is found, the agathion wanders for a time before settling down again. Some find their way to the Material Plane during this period. Without a specific task, a chelonidal on the Material Plane often finds a secluded but vulnerable location, such as a remote fishing village or shrine, and defends it until protectors can be found or trained.",
 			"",
-			"While chelonidals defend those who cannot defend themselves, they are at their strongest when they stand alongside those with the strength and will to fight. A single chelonidal can bolster a mortal legion, keeping the troops fighting until reinforcements arrive. In greater numbers, chelonidals form a phalanx, trusting in allies to clean up any foe that makes it past their guard. On those rare occasions when the agathions must march to war, chelonidals form the core of their armies. Led by {monster/cervinal} knights and supported by soaring [avorals](monster/avoral), a chelonidal legion is a force potent enough to make any fiendish combatants think twice."
+			"While chelonidals defend those who cannot defend themselves, they are at their strongest when they stand alongside those with the strength and will to fight. A single chelonidal can bolster a mortal legion, keeping the troops fighting until reinforcements arrive. In greater numbers, chelonidals form a phalanx, trusting in allies to clean up any foe that makes it past their guard. On those rare occasions when the agathions must march to war, chelonidals form the core of their armies. Led by {monster/cervinal} knights and supported by soaring {monster/avoral/s}, a chelonidal legion is a force potent enough to make any fiendish combatants think twice."
 		]
 	},
 	"chelonidal": { "copyof": "agathion_chelonidal" },
@@ -3720,7 +3720,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Alghollthu's Bane (Su)** As a standard action, an enisysian can make a touch attack against another alghollthu: creatures including [aboleths](monster/aboleth), [omnipaths](monster/omnipath), and [veiled masters](monster/veiled_master), among others. On a hit, the target's immunity to mind-affecting effects is completely suppressed as long as it remains within 50 feet of the enisysian (no save).",
+			"**Alghollthu's Bane (Su)** As a standard action, an enisysian can make a touch attack against another alghollthu: creatures including {monster/aboleth/s}, {monster/omnipath/s}, and [veiled masters](monster/veiled_master), among others. On a hit, the target's immunity to mind-affecting effects is completely suppressed as long as it remains within 50 feet of the enisysian (no save).",
 			"",
 			"**Mental Disarmament (Su)** An enisysian emits a constant telepathic barrage that lowers the mental defenses of nearby creatures. Anyone within 100 feet of an enisysian must succeed at a DC 17 Will saving throw or take a -4 penalty on Will saving throws while in range. A creature that succeeds at this saving throw is immune to the enisysian's mental disarmament for 24 hours. The enisysian and any creature bonded with it via its symbiotic bond are immune to this ability. An enisysian can suppress or reactivate this ability as a swift action. Mental disarmament is a mind-affecting effect. The save DC is Wisdom-based.",
 			"",
@@ -3983,7 +3983,7 @@
 			"#### Ecology",
 			"",
 			"**Environment** any water  ",
-			"**Organization** solitary, pair, or crew (1 thalassic architect plus 2-30 [aboleths](monster/aboleth), {monster/skum}, and other dominated creatures)  ",
+			"**Organization** solitary, pair, or crew (1 thalassic architect plus 2-30 {monster/aboleth/s}, {monster/skum}, and other dominated creatures)  ",
 			"**Treasure** double",
 			"",
 			"#### Special Abilities",
@@ -4175,7 +4175,7 @@
 			"",
 			"Those who fall prey to madness and take their own lives sometimes find themselves lost on the path to the afterlife, trapped in a state between life and death. These unfortunates, known as allips, suffer from the violent and incurable insanity they faced in life and take out their terror, confusion, and rage upon the living. They reach out to those they encounter - possibly in wrath, but also perhaps oblivious to their own insane nature - spreading the psychoses that led to their own untimely deaths.",
 			"",
-			"In combat, allips relentlessly attack the nearest living creature, relying on their babble to let them close in before attacking with their touch of insanity. Many seem to be driven to states of ferocity upon witnessing the terror living creatures exhibit when facing their spectral forms, or when faced with the intangibility of their incorporeal states. While allips have no way to kill creatures, those knocked unconscious by an allip's Wisdom-draining touch often emerge from the state suffering from [insanity](rule/sanity_and_madness)-a fate that many would say qualifies as worse than death.",
+			"In combat, allips relentlessly attack the nearest living creature, relying on their babble to let them close in before attacking with their touch of insanity. Many seem to be driven to states of ferocity upon witnessing the terror living creatures exhibit when facing their spectral forms, or when faced with the intangibility of their incorporeal states. While allips have no way to kill creatures, those knocked unconscious by an allip's Wisdom-draining touch often emerge from the state suffering from [insanity](rule/sanity_and_madness) - a fate that many would say qualifies as worse than death.",
 			"",
 			"Allips often seek to harm those who played a part in causing their mad, unholy condition. When faced with such foes, an allip ignores all other targets that confront it in favor of its hated enemies, attacking them until its tormentors have been forced into a vacant stupor. Alas, such vengeance does not put the allip to rest, but simply serves to further fuel its madness as it finds itself trapped in a world now no longer even holding the satisfaction of vengeance.",
 			"",

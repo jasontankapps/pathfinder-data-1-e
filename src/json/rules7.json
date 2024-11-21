@@ -661,7 +661,7 @@
 			"",
 			"***Dual-Minded (1 RP):*** **Prerequisite:** Humanoid with two subtypes or race with half-construct or half-undead subtype; **Benefit:** Members of this race gain a +2 bonus on all Will saving throws.",
 			"",
-			"***Duergar Immunities (4 RP):*** **Prerequisites:** Dwarf subtype, at least a +2 racial bonus to Constitution; **Benefit:** Members of this race are immune to paralysis, [phantasms](spelldef/phantasm), and poison. They also gain a +2 racial bonus on saving throws against spells and spell-like abilities.",
+			"***Duergar Immunities (4 RP):*** **Prerequisites:** Dwarf subtype, at least a +2 racial bonus to Constitution; **Benefit:** Members of this race are immune to paralysis, {spelldef/phantasm/s}, and poison. They also gain a +2 racial bonus on saving throws against spells and spell-like abilities.",
 			"",
 			"***Elven Immunities (2 RP):*** **Prerequisite:** Elf subtype; **Benefit:** Members of this race are immune to magic sleep effects and gain a +2 racial bonus on saving throws made against enchantment spells and effects.",
 			"",

@@ -1311,7 +1311,7 @@
 			"",
 			"Drocha swarms typically stay in the area in which they died, repeatedly going over the same territory in an ostensible attempt to understand why the villages and cities in which they lived are no longer there. In contrast, some drocha swarms float all about the Worldwound attacking demons and humanoids alike. When drocha swarms attack demons, their screams and wails change tone and pitch, as if the spirits understand demons were responsible for their demise.",
 			"",
-			"Because of their roaming nature, these swarms infrequently encounter each other. As unintelligent undead, drocha swarms have no society. Even when swarms come across each other, they seem unaware of each other's existence-which is perhaps unsurprising since drocha swarms focus on living things.",
+			"Because of their roaming nature, these swarms infrequently encounter each other. As unintelligent undead, drocha swarms have no society. Even when swarms come across each other, they seem unaware of each other's existence - which is perhaps unsurprising since drocha swarms focus on living things.",
 			"",
 			"On rare occasions, drocha swarms have been reported to collide with each other. When this event occurs, a strange thing happens. The two (or more) swarms appear to merge together, the translucent cloud of screaming faces darkening and billowing out in an even more chaotic roil. The screaming faces that float within the deadly mass pass through one another in a twisted dance and the volume of their wails increases to a painfully uncomfortable level. The merged swarm pulses and continues to grow larger than the volume of the two individual drocha swarms. This horrid mass coalesces and ceases flying, coming to rest on the ground, and remaining stationary for hours at a time. During this period, living creatures can actually approach the merged swarm without the drocha swarms pursuing them, though some have reported that pseudopod-like appendages stretch out from the mass and probe the air in the direction of the living. After several hours, the wails and shrieks build to a crescendo loud enough to make one's ears bleed and the area of the swarm's fear aura doubles. Once this happens, the merged cloud of drocha swarms rapidly pulses, then dramatically contracts to the size of a single drocha swarm. It's unknown whether the two merge and take up the same space or one swarm takes over the other. Some believe the two swarms engage in a brutal battle with one another until a single swarm is destroyed. It's believed this is the only way the component spirits can be freed from their tortured existence, but what truly happens in these rare circumstances is unknown.",
 			"",
@@ -1649,7 +1649,7 @@
 			"",
 			"#### Tactics",
 			"",
-			"**During Combat** A drow master scout focuses on disabling enemies-especially healers-with ranged attacks using sneak attacks, poison, and energy arrows.",
+			"**During Combat** A drow master scout focuses on disabling enemies - especially healers - with ranged attacks using sneak attacks, poison, and energy arrows.",
 			"",
 			"#### Statistics",
 			"",
@@ -2110,7 +2110,7 @@
 			"",
 			"#### Description",
 			"",
-			"Cousins to dwarves, duergar are foul-tempered creatures that loathe intruders to their underground realms-but not nearly as much as they do their kinfolk closer to the surface.",
+			"Cousins to dwarves, duergar are foul-tempered creatures that loathe intruders to their underground realms - but not nearly as much as they do their kinfolk closer to the surface.",
 			"",
 			"Duergar dwell in communities deep underground, and appear as darker, more twisted versions of their kinder kin. Their skin is a dull gray, as though rubbed with dust or ash, but this is a natural coloration that better allows them to blend with their underground surroundings. They are a race of slavers, but while non-dwarven prisoners are usually put to backbreaking work, dwarven prisoners are generally slain on the spot.",
 			"",
@@ -2223,7 +2223,7 @@
 			"",
 			"A duergar bombardier spends her days fiddling with reagents and bizarre ingredients that she either finds deep underground or purchases from scouts who have brought them back from the surface or distant caverns. Essential ingredients, especially plants, can be hard to find, and a bombardier must work for money or favors if she's to continue practicing her craft.",
 			"",
-			"Though the military and slavers are loath to employ these unpredictable duergar, bombardiers can be very effective when subtlety is not required. Though most bombardiers wouldn't hurt their own kind-the bonds of kin and law are too strong-they often inadvertently kill potential slaves instead of capturing them."
+			"Though the military and slavers are loath to employ these unpredictable duergar, bombardiers can be very effective when subtlety is not required. Though most bombardiers wouldn't hurt their own kind - the bonds of kin and law are too strong - they often inadvertently kill potential slaves instead of capturing them."
 		]
 	},
 	"duergar_bombardier": { "copyof": "duergar_duergar_bombardier" },
@@ -2715,7 +2715,7 @@
 			"",
 			"### Duergar Tyrant Characters",
 			"",
-			"Duergar tyrants are defined by their class levels-they do not have racial Hit Dice. A duergar tyrant's Challenge Rating is equal to her class level. Duergar tyrants have all of the racial traits of duergar characters except spell-like abilities, in addition to the following.",
+			"Duergar tyrants are defined by their class levels - they do not have racial Hit Dice. A duergar tyrant's Challenge Rating is equal to her class level. Duergar tyrants have all of the racial traits of duergar characters except spell-like abilities, in addition to the following.",
 			"",
 			"+2 Strength, +4 Constitution, +2 Wisdom, -2 Charisma: Duergar tyrants are strong, hardy, and willful. These ability score modifiers replace the standard duergar ability score modifiers.",
 			"",
@@ -2956,7 +2956,7 @@
 			"",
 			"#### Description",
 			"",
-			"Duskwalkers are tall, bipedal, gray-skinned beings with a connection to Pharasma's Boneyard. They manifest directly on the Material Plane, incarnating from souls that have earned the honor of a second life. The souls that become duskwalkers have often distinguished themselves in the eyes of psychopomps as guardians of the cycle of birth and death. Other than their gray skin, their physical features bear some resemblance to those they held in their previous lives. As such, a typical duskwalker looks mostly human, other than her unusual coloration. However, duskwalkers whose ancestors belonged to other races can manifest with characteristic features such as pointed ears, hairy feet, or even feathers, horns, scales, or tails-though they rarely manifest smaller or larger than Medium.",
+			"Duskwalkers are tall, bipedal, gray-skinned beings with a connection to Pharasma's Boneyard. They manifest directly on the Material Plane, incarnating from souls that have earned the honor of a second life. The souls that become duskwalkers have often distinguished themselves in the eyes of psychopomps as guardians of the cycle of birth and death. Other than their gray skin, their physical features bear some resemblance to those they held in their previous lives. As such, a typical duskwalker looks mostly human, other than her unusual coloration. However, duskwalkers whose ancestors belonged to other races can manifest with characteristic features such as pointed ears, hairy feet, or even feathers, horns, scales, or tails - though they rarely manifest smaller or larger than Medium.",
 			"",
 			"The first duskwalkers appeared as the result of a bargain between two powerful psychopomps: an olethros mother and a yamaraj. The olethros mother made the case to allow certain souls whose actions helped preserve and protect the cycle of souls, but whose lives had been cut short of what fate had decreed for them to reincarnate once before passing to their final judgment. After a long debate, the yamaraj agreed but imposed a strict limit on the number of duskwalkers that can exist at one time. Whenever this limit has been reached, dead duskwalkers cannot be restored to life. Most duskwalkers accept this limitation and appreciate that the end of their lives opens the door for new lives to begin. Some request that those mourning their deaths also celebrate the birth of a new duskwalker in the near future. The length of time it takes for a new duskwalker to be born when one dies varies, but is rarely more than a year.",
 			"",
@@ -3016,7 +3016,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Sinkhole (Ex)** A dust digger can burrow into sand, loose soil, or dirt to lie in ambush just under the surface. When it feels (via tremorsense) prey walk into a square it threatens, it can deflate its body as an immediate action, causing the sand and other loose soil above to shift and slide. All creatures who were standing in the dust digger's reach must make a DC 15 Reflex save or become entangled as long as they remain in the dust digger's reach. All creatures who were standing at least partially in the dust digger's actual space must make a DC 15 Reflex save or become entangled and fall prone-if such a creature makes this save, it immediately moves to the closest adjacent unoccupied square. If this results in more than a 5-foot move, the creature moves that distance and then falls prone. The save DC is Strength-based.",
+			"**Sinkhole (Ex)** A dust digger can burrow into sand, loose soil, or dirt to lie in ambush just under the surface. When it feels (via tremorsense) prey walk into a square it threatens, it can deflate its body as an immediate action, causing the sand and other loose soil above to shift and slide. All creatures who were standing in the dust digger's reach must make a DC 15 Reflex save or become entangled as long as they remain in the dust digger's reach. All creatures who were standing at least partially in the dust digger's actual space must make a DC 15 Reflex save or become entangled and fall prone - if such a creature makes this save, it immediately moves to the closest adjacent unoccupied square. If this results in more than a 5-foot move, the creature moves that distance and then falls prone. The save DC is Strength-based.",
 			"",
 			"#### Description",
 			"",
@@ -3024,7 +3024,7 @@
 			"",
 			"As ambush predators, dust diggers spend the majority of their lives buried beneath the sand, waiting patiently for prey to stumble over their ambush site.",
 			"",
-			"Dust diggers are asexual. They reproduce by budding, splitting off young three to four times over the course of their 10-year lives-smaller versions of themselves that must immediately move away from the parent to avoid being snatched up and eaten. Dust digger young are just over 4 feet across, and can move relatively quickly through sand (their burrow speed is 40 feet). Usually, a young dust digger travels at least a mile from its parent before it settles down to create its first ambush-the amount of life in the region it has chosen as its new lair often determines whether the new dust digger thrives or starves to death, for once it digs its first ambush, it rarely moves more than a few hundred feet away over the course of its life."
+			"Dust diggers are asexual. They reproduce by budding, splitting off young three to four times over the course of their 10-year lives-smaller versions of themselves that must immediately move away from the parent to avoid being snatched up and eaten. Dust digger young are just over 4 feet across, and can move relatively quickly through sand (their burrow speed is 40 feet). Usually, a young dust digger travels at least a mile from its parent before it settles down to create its first ambush - the amount of life in the region it has chosen as its new lair often determines whether the new dust digger thrives or starves to death, for once it digs its first ambush, it rarely moves more than a few hundred feet away over the course of its life."
 		]
 	},
 	"dweomercat": {
@@ -3215,7 +3215,7 @@
 			"",
 			"#### Description",
 			"",
-			"Dwiergeths hunt Abyssal rift valleys, digesting prey in a gnawing process of transdimensional rumination. Surefooted dwiergeths leap and sprint along vertical surfaces with disturbing ease, and often cling to cliff sides for hours or even days, waiting for prey to approach from either above or below. They have a supernatural mastery over the wind as well, and make use of their spell-like abilities to cause climbers to fall from cliffs or flying creatures to be dashed against rocky walls-it's easier to eat bleeding, broken meat, after all.",
+			"Dwiergeths hunt Abyssal rift valleys, digesting prey in a gnawing process of transdimensional rumination. Surefooted dwiergeths leap and sprint along vertical surfaces with disturbing ease, and often cling to cliff sides for hours or even days, waiting for prey to approach from either above or below. They have a supernatural mastery over the wind as well, and make use of their spell-like abilities to cause climbers to fall from cliffs or flying creatures to be dashed against rocky walls - it's easier to eat bleeding, broken meat, after all.",
 			"",
 			"A dwiergeth's anatomy is often difficult for humanoids to comprehend. Trembling bristles protruding from the creature's flesh act as eyes, allowing it to see in all directions at once. Although dissection of a slain dwiergeth reveals a single coiling digestive tract winding from one of its mouths through its bulbous body to the other mouth, the entrails of a living dwiergeth actually extend into other strange dimensions generated by the monster's Abyssal heritage."
 		]
@@ -3375,7 +3375,7 @@
 			"",
 			"A typical giant eagle stands about 15 feet tall, has a wingspan of up to 30 feet, and resembles its smaller cousins in nearly every way except size. It weighs 500 pounds.",
 			"",
-			"Giant eagles are far more than animals-they possess a supernatural intellect and view themselves as guardians and protectors of their mountain territories. They form lasting friendships with those who respect them and their mountaintop domains."
+			"Giant eagles are far more than animals - they possess a supernatural intellect and view themselves as guardians and protectors of their mountain territories. They form lasting friendships with those who respect them and their mountaintop domains."
 		]
 	},
 	"giant_eagle": { "copyof": "eagle_giant_eagle" },
@@ -3702,7 +3702,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Gnaw (Ex)** If a giant moray begins a round with a grabbed foe, it inflicts automatic bite damage (2d6+9 points of damage). A giant moray eel possesses a second set of jaws in its throat that aid in swallowing-it can make a second bite attack (+11 attack, 1d6+3) against a foe it has already grabbed.",
+			"**Gnaw (Ex)** If a giant moray begins a round with a grabbed foe, it inflicts automatic bite damage (2d6+9 points of damage). A giant moray eel possesses a second set of jaws in its throat that aid in swallowing - it can make a second bite attack (+11 attack, 1d6+3) against a foe it has already grabbed.",
 			"",
 			"#### Description",
 			"",
@@ -3839,13 +3839,13 @@
 			"",
 			"When an especially powerful psychic leads a community of like-minded individuals, that group can pool its collective will together to create an egregore. The egregore is a powerful defender and a focal point for the psychic talents of every member of the group, granting them access to additional magical powers and a communal link.",
 			"",
-			"Though egregores' appearances vary, they typically have a core that resembles a mass of brains, discernible by practitioners of phrenology as bearing characteristics of the brains of those who make up its cult mind. This core projects an image that reflects the ideals for which the egregore was formed-an unblinking eye to represent vigilance, a heraldic shield for protection, or some other stylized emblem to reflect the goals of the group. From this bizarre hovering mass emerges a number of pulsating arcs of light that move in a strange unison, forming an almost mesmerizing pattern with their cadence.",
+			"Though egregores' appearances vary, they typically have a core that resembles a mass of brains, discernible by practitioners of phrenology as bearing characteristics of the brains of those who make up its cult mind. This core projects an image that reflects the ideals for which the egregore was formed - an unblinking eye to represent vigilance, a heraldic shield for protection, or some other stylized emblem to reflect the goals of the group. From this bizarre hovering mass emerges a number of pulsating arcs of light that move in a strange unison, forming an almost mesmerizing pattern with their cadence.",
 			"",
 			"The synchronized synaptic pulses that emit from the egregore's cranial core manifest as elegant arcs of light leaping from one brain-shape to another in a rhythmic dance. The egregore can divert an arc outward, transforming it into a semi-solid band of light it can use to strike its foes. These bands normally pass through objects, but by concentrating more fully, the egregore can transform an arc into an even more solid form capable of manipulating objects.",
 			"",
 			"Typically, the sort of cult that creates an egregore is formed of a small association of individuals under the guidance of a strong-willed psychic leader, who directs the weaker-minded followers in a ritual that combines their latent psychic energy into the creation of a powerful entity to support the goals of the organization.",
 			"",
-			"The egregore itself is a totally separate creature, akin to the eidolons of summoners, though it seems to be a genuine living being of the Material Plane and not a true outsider. Creating an egregore requires a cult of 13-one leader and a dozen followers. Larger cults are capable of creating more powerful egregores, with stories circulating of doomsday cults with hundreds of members working together to create an abomination, but subsequently losing control and facing annihilation from their own creation. The egregore exists only as long as the cult that created it, fading back into the psychic ether from which it spawned once the cult is no more.",
+			"The egregore itself is a totally separate creature, akin to the eidolons of summoners, though it seems to be a genuine living being of the Material Plane and not a true outsider. Creating an egregore requires a cult of 13 - one leader and a dozen followers. Larger cults are capable of creating more powerful egregores, with stories circulating of doomsday cults with hundreds of members working together to create an abomination, but subsequently losing control and facing annihilation from their own creation. The egregore exists only as long as the cult that created it, fading back into the psychic ether from which it spawned once the cult is no more.",
 			"",
 			"An egregore is 12 feet across, though the bands of light that extend out from it cause it to fluctuate between an effective size of 13 feet to 15 feet. It weighs only 300 pounds despite its vast size. The brains that make up the egregore's body aren't constructed like human brains, and are far less dense; they seem to take the form of brains only because of the conceptual link they represent. Likewise, the egregore's staring eye and bands of light are more metaphorical than physical.",
 			"",
@@ -4159,7 +4159,7 @@
 			"",
 			"**Hibernation (Ex)** An elder thing can enter a state of hibernation at will; doing so takes 1 minute. While in this state, it can take no actions and is effectively helpless, as if it were in a deep sleep. An elder thing can remain in hibernation for as long as it wishes' while in this state, it does not need to eat or drink, nor does it age. Time effectively stands still for a hibernating elder thing. If it is jostled or damaged while hibernating, an elder thing can attempt a DC 20 Will save. If it succeeds, it awakens in 2d4 rounds. Otherwise, it takes 1d4 days to awaken from hibernation. An elder thing can set the length of its hibernation when it first enters this state, so that it can awaken after a set amount of time has passed. When awakening at a set time in this manner, an elder thing needs only 1d3 rounds to rouse itself, with no Will saving throw necessary.",
 			"",
-			"**Limited Starflight (Ex)** An elder thing can survive in the void of outer space, and its wings allow it to use its fly speed in that environment despite the lack of air. Unlike creatures with full starflight, an elder thing's ability to fly in outer space does not allow it to reach unusually high speeds-an elder thing that wishes to travel from one planet to another typically calculates the distance and then hibernates for the majority of the journey, relying on its momentum and inertia to carry it to its destination while it slumbers along the way.",
+			"**Limited Starflight (Ex)** An elder thing can survive in the void of outer space, and its wings allow it to use its fly speed in that environment despite the lack of air. Unlike creatures with full starflight, an elder thing's ability to fly in outer space does not allow it to reach unusually high speeds - an elder thing that wishes to travel from one planet to another typically calculates the distance and then hibernates for the majority of the journey, relying on its momentum and inertia to carry it to its destination while it slumbers along the way.",
 			"",
 			"#### Description",
 			"",
@@ -4229,7 +4229,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Breath Weapon (Su)** Each of an elder wyrm's heads can expel a breath weapon, each of which can be used once every 1d4 rounds. The first breath weapon is a 500-foot line of lighting that deals 20d10 points of electricity damage (Reflex DC 36 half). The second is a 250-foot cone of caustic gas that deals 20d10 points of acid damage (Fortitude DC 36 half). If an elder wyrm uses both breath weapons simultaneously-such as by readying an action with its impossible coordination ability-the electrical charge causes the gas to explode; rather than dealing acid or electricity damage, the explosion instead deals 40d10 points of fire damage to all creatures in a 250-foot cone (Reflex DC 36 half) and causes damaged creatures to catch fire, taking 6d10 points of fire damage each round for 1d4 rounds, unless they succeed at a second DC 36 Reflex save. The save DCs are Constitution-based.",
+			"**Breath Weapon (Su)** Each of an elder wyrm's heads can expel a breath weapon, each of which can be used once every 1d4 rounds. The first breath weapon is a 500-foot line of lighting that deals 20d10 points of electricity damage (Reflex DC 36 half). The second is a 250-foot cone of caustic gas that deals 20d10 points of acid damage (Fortitude DC 36 half). If an elder wyrm uses both breath weapons simultaneously - such as by readying an action with its impossible coordination ability - the electrical charge causes the gas to explode; rather than dealing acid or electricity damage, the explosion instead deals 40d10 points of fire damage to all creatures in a 250-foot cone (Reflex DC 36 half) and causes damaged creatures to catch fire, taking 6d10 points of fire damage each round for 1d4 rounds, unless they succeed at a second DC 36 Reflex save. The save DCs are Constitution-based.",
 			"",
 			"**Godslayer (Ex)** An elder wyrm's natural attacks overcome damage reduction and regeneration as per epic and magic weapons. As a swift action, the elder wyrm can grant its natural weapons one alignment property and one material property for this purpose. These secondary properties last for 1 hour or until the elder wyrm uses this ability again to select new properties.",
 			"",
@@ -7154,7 +7154,7 @@
 			"",
 			"Like other constructs, an emerald automaton is a mindless, unliving machine that exists only to follow the orders of its creator. It is a capable soldier and can wield almost any weapon its creator chooses to provide it, fighting until it or its target is destroyed.",
 			"",
-			"In combat, emerald automatons often wield polearms and make use of their reach. When multiple automatons are fighting together, it's common for one to sunder a target's shield or weapon and the rest to gang up against the target. Getting inside the reach of an emerald automaton is no guarantee of safety-the constructs are quite strong, and can strike with a powerful slam attack at need. When badly damaged, an emerald automaton begins to emit crackling green sparks of electricity that can severely shock nearby creatures.",
+			"In combat, emerald automatons often wield polearms and make use of their reach. When multiple automatons are fighting together, it's common for one to sunder a target's shield or weapon and the rest to gang up against the target. Getting inside the reach of an emerald automaton is no guarantee of safety - the constructs are quite strong, and can strike with a powerful slam attack at need. When badly damaged, an emerald automaton begins to emit crackling green sparks of electricity that can severely shock nearby creatures.",
 			"",
 			"### Construction",
 			"",
@@ -7473,7 +7473,7 @@
 			"",
 			"#### Description",
 			"",
-			"Enchanter herons are large birds with bioluminescent throat sacs-the result of prolonged exposure to magical fallout. Each stands about 8 feet tall and weighs 500 pounds."
+			"Enchanter herons are large birds with bioluminescent throat sacs - the result of prolonged exposure to magical fallout. Each stands about 8 feet tall and weighs 500 pounds."
 		]
 	},
 	"ephemeral_echo": {
@@ -7525,7 +7525,7 @@
 			"",
 			"**Corporeal Form (Su)** Whenever an ephemeral echo deals Charisma damage to a creature, it absorbs a portion of its victim's anguish and becomes more real. It loses the incorporeal subtype and gains a Strength score equal to its Charisma score. Its deflection bonus to AC becomes a natural armor bonus, and its incorporeal touch attack is replaced with two slam attacks. The ephemeral echo loses its fly speed and gains a land speed of 30 feet. These changes last for 1d4 rounds or until the ephemeral echo takes any Charisma damage, whichever comes first. The third time in a day an ephemeral echo deals Charisma damage, its corporeal form lasts for 24 hours or until it takes Charisma damage, whichever comes first.",
 			"",
-			"**Rejuvenation (Su)** Each ephemeral echo is tied to a unique fetter-some event, location, or object that reminds it of the sadness of its former life. Resolving this fetter (by consecrating the location or destroying the item, for example) destroys the ephemeral echo permanently. If the echo is physically injured or killed but its fetter remains unresolved, the echo rejuvenates fully in 1d10 days.",
+			"**Rejuvenation (Su)** Each ephemeral echo is tied to a unique fetter - some event, location, or object that reminds it of the sadness of its former life. Resolving this fetter (by consecrating the location or destroying the item, for example) destroys the ephemeral echo permanently. If the echo is physically injured or killed but its fetter remains unresolved, the echo rejuvenates fully in 1d10 days.",
 			"",
 			"**Stolen Power (Su)** Whenever an ephemeral echo deals Charisma damage or drain, it gains a +2 profane bonus on attack rolls, damage rolls, saving throws, skill checks, and ability checks until the end of its next turn. The echo also gains 5 temporary hit points that last for 1 hour.",
 			"",
@@ -7653,7 +7653,7 @@
 			"",
 			"#### Description",
 			"",
-			"No one knows exactly what causes a remacera to pupate-whether it's witnessing some mind-shattering evil, undergoing a specific number of resurrections, or random hormonal and instinctual triggers. Regardless, on rare occasions, a remacera may begin producing dark silk, sealing itself inside a black cocoon. A week later, it emerges in the form of a winged and skull-headed escorite.",
+			"No one knows exactly what causes a remacera to pupate - whether it's witnessing some mind-shattering evil, undergoing a specific number of resurrections, or random hormonal and instinctual triggers. Regardless, on rare occasions, a remacera may begin producing dark silk, sealing itself inside a black cocoon. A week later, it emerges in the form of a winged and skull-headed escorite.",
 			"",
 			"Where remaceras embody rebirth, escorites represent the inevitability of entropy. Even the boundless multiverse is slowly winding down, losing steam as the millennia roll by, and escorites seek to help this along, teaching the careless immortals of the First World to fear cessation. Even standing in an escorite's presence claws at the mind, and to be the subject of one's full focus is to risk disintegration. Escorites themselves are not immune to this constant decay; in fact, they embrace their decomposition, using the clouds of magical scales that slough off their wings to reveal invisible opponents.",
 			"",
@@ -8140,7 +8140,7 @@
 			"",
 			"#### Description",
 			"",
-			"Euryales are powerful medusa matriarchs and among the most favored agents of Lamashtu, the Mother of Monsters. Long ago, Lamashtu tricked these medusa forebears with a gift that tainted and empowered them into becoming beings of madness and evil, twisting them into forms even more monstrous than their medusa sisters. Euryales delight in destroying their foes in ways they find particularly cruel, such as transforming one of a pair of lovers into a statue and then commanding the statue to destroy the still-living lover. Because of the oracular powers of these creatures, there are tales of desperate folk who seek out euryales for answers, but these tales invariably end poorly-those few petitioners who receive the answers they seek find they would have been better off never knowing. In most cases, an encounter with a euryale is destined for disaster. However, they are endlessly fascinated by poisons, so a creature that can satisfy a euryale's curiosity by teaching it new poison lore (a daunting task in its own right) can likely avoid destruction in a chance meeting. Euryales find themselves distant from medusa society, unless they hold together a cult of fawning medusas by force. While they occasionally form triumvirates among themselves, they are more likely to find companionship among like-minded zealots of other races, particularly lamia matriarchs or mariliths.",
+			"Euryales are powerful medusa matriarchs and among the most favored agents of Lamashtu, the Mother of Monsters. Long ago, Lamashtu tricked these medusa forebears with a gift that tainted and empowered them into becoming beings of madness and evil, twisting them into forms even more monstrous than their medusa sisters. Euryales delight in destroying their foes in ways they find particularly cruel, such as transforming one of a pair of lovers into a statue and then commanding the statue to destroy the still-living lover. Because of the oracular powers of these creatures, there are tales of desperate folk who seek out euryales for answers, but these tales invariably end poorly - those few petitioners who receive the answers they seek find they would have been better off never knowing. In most cases, an encounter with a euryale is destined for disaster. However, they are endlessly fascinated by poisons, so a creature that can satisfy a euryale's curiosity by teaching it new poison lore (a daunting task in its own right) can likely avoid destruction in a chance meeting. Euryales find themselves distant from medusa society, unless they hold together a cult of fawning medusas by force. While they occasionally form triumvirates among themselves, they are more likely to find companionship among like-minded zealots of other races, particularly lamia matriarchs or mariliths.",
 			"",
 			"Most euryales willingly embrace the taint of madness and lovingly serve the Mother of Monsters, but there are some who seek to eschew it, whether simply to be free of Lamashtu's influence and live an evil life more like that of a normal medusa, or to follow a path of redemption. These rare heretical euryales have alignments other than chaotic evil as well as additional powers gained through their struggle to control their own destinies. Typically they advance by Hit Dice, although it's also fairly common for them to take up to 2 oracle levels to improve their oracle spellcasting and to represent the curse the Mother of Monsters inflicted upon them for daring to cross her.",
 			"",
@@ -8194,7 +8194,7 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common - an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -8249,7 +8249,7 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common - an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -8304,7 +8304,7 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common - an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -8362,7 +8362,7 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common - an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -8417,7 +8417,7 @@
 			"",
 			"#### Description",
 			"",
-			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common-an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
+			"Known to some as sea scorpions, eurypterids are aquatic crustaceans that blur the line between their terrestrial cousins and lobsters. Primeval and voracious, these vermin range in size from relatively harmless ochre eurypterids the size of a dog up to the truly immense spitting eurypterids. There are even rumors of yet larger beasts, called whale-eating eurypterids by sailors. Regardless of their size, all share one thing in common - an aggressive attitude. Eurypterids lash out at anything that might be food, and once they've tasted prey, are single-minded in their pursuit. Although quite at home in the open sea, most eurypterids are capable of scuttling around on land and can exist out of water indefinitely. Unlike rats, eurypterids don't spread disease or cause much damage to most cargos-traits that have led some captains to experiment with seeding colonies of ochre eurypterids in their holds to keep rodent populations under control. Alas, one can often tell the ships that use this tactic by the unusually high number of crewmen with missing fingers.",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -8554,7 +8554,7 @@
 			"",
 			"### Ecology",
 			"",
-			"An ez-azael is a rare creature occasionally created from a specific type of demon through a redemptive ritual conducted by powerful celestial beings. Though of extraplanar origin, its new existence is bound to the pardon of mortal sins, which creates a strong affinity to the mortal world. An ez-azael is always found on the Material Plane and has the native subtype. As a being formed of mortal atonement, an ez-azael's reason for existence is to continue this role and use its special status to further free goodly mortals from their bondage to iniquity-especially the bonds imposed on them through the manipulation or temptations of evil outsiders. An ez-azael lives to die in this endeavor and has no qualms about doing so.",
+			"An ez-azael is a rare creature occasionally created from a specific type of demon through a redemptive ritual conducted by powerful celestial beings. Though of extraplanar origin, its new existence is bound to the pardon of mortal sins, which creates a strong affinity to the mortal world. An ez-azael is always found on the Material Plane and has the native subtype. As a being formed of mortal atonement, an ez-azael's reason for existence is to continue this role and use its special status to further free goodly mortals from their bondage to iniquity - especially the bonds imposed on them through the manipulation or temptations of evil outsiders. An ez-azael lives to die in this endeavor and has no qualms about doing so.",
 			"",
 			"### Habitat",
 			"",

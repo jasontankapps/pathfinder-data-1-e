@@ -1482,7 +1482,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** yes, see text",
 			"",
-			"This spell makes a single bag, chest, sack, or other container look and feel empty. The container must be no larger than 1 cubic foot per caster level or the spell fails. Anyone peering into or reaching into the container must succeed at a Will save or perceive the container as being completely empty. All items within the container when the spell was cast are still present, but they can't be noticed unless removed from the bag-such as by someone who can perceive them, or who upends the container.",
+			"This spell makes a single bag, chest, sack, or other container look and feel empty. The container must be no larger than 1 cubic foot per caster level or the spell fails. Anyone peering into or reaching into the container must succeed at a Will save or perceive the container as being completely empty. All items within the container when the spell was cast are still present, but they can't be noticed unless removed from the bag - such as by someone who can perceive them, or who upends the container.",
 			"",
 			"Casting vacuous vessel on another container or placing a new item in the existing container immediately dismisses the currently active spell."
 		]
@@ -1841,7 +1841,7 @@
 			"**Duration** permanent or until triggered  ",
 			"**Saving Throw** yes; **Spell Resistance** yes",
 			"",
-			"You guard your words and person with poisonous power. You can impart a short amount of information-up to 25 words-as you cast this spell, entwining your words with the poison provided as a material component. If your target reveals the information you impart (verbally, in writing, with gestures, or by having its mind read with spells like detect thoughts), the target is immediately exposed to the poison (and is allowed any saving throw the poison allows).",
+			"You guard your words and person with poisonous power. You can impart a short amount of information - up to 25 words - as you cast this spell, entwining your words with the poison provided as a material component. If your target reveals the information you impart (verbally, in writing, with gestures, or by having its mind read with spells like detect thoughts), the target is immediately exposed to the poison (and is allowed any saving throw the poison allows).",
 			"",
 			"Your target instinctively knows that revealing this information will endanger it, but doesn't automatically understand why or how. Neutralize poison removes the effect of this spell; the spellcaster must succeed at a caster level check against the spell's save DC rather than the poison's."
 		]
@@ -3968,7 +3968,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude partial; **Spell Resistance** no",
 			"",
-			"This spell generates what appears to be clear, pure water, but it is in fact a foul secretion known as the waters of Lamashtu. The liquid functions in all the same ways as unholy water (see {spell/curse water}). In addition, any creature that is anointed with or drinks this fluid must attempt a Fortitude save (drinking the waters of Lamashtu is particularly effective-a creature that drinks the liquid takes a -4 penalty on its save to resist its effects). Success causes the creature to become violently ill, vomit up the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and wreaks havoc on the victim's mind (dealing 1d6 points of Intelligence damage) and twists and deforms its body (dealing 1d6 points of Dexterity damage). The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the waters of Lamashtu-enough for one dose or, if bottled, one use as a thrown weapon.",
+			"This spell generates what appears to be clear, pure water, but it is in fact a foul secretion known as the waters of Lamashtu. The liquid functions in all the same ways as unholy water (see {spell/curse water}). In addition, any creature that is anointed with or drinks this fluid must attempt a Fortitude save (drinking the waters of Lamashtu is particularly effective - a creature that drinks the liquid takes a -4 penalty on its save to resist its effects). Success causes the creature to become violently ill, vomit up the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and wreaks havoc on the victim's mind (dealing 1d6 points of Intelligence damage) and twists and deforms its body (dealing 1d6 points of Dexterity damage). The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the waters of Lamashtu-enough for one dose or, if bottled, one use as a thrown weapon.",
 			"",
 			"The fluid can be created and stored indefinitely, though it cannot be created inside a creature. Extensive exposure to the waters of Lamashtu (such as drinking nothing else for months at a time) can have other long-term effects on the target, including the development of monstrous deformities or even total transformation into a beast, depending on the GM's discretion (these mutations are rarely, if ever, beneficial to the victim).",
 			"",

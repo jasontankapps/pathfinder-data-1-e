@@ -469,7 +469,7 @@ const testLinks = () => {
 					}
 				}
 				temp = line;
-				while(m = temp.match(/\{([-a-z]+)\/([^}]+)\}(.*$)/)) {
+				while(m = temp.match(/\{([-a-z]+)\/([^}]+?)(?:\/[^}]+)?\}(.*$)/)) {
 					// Testing {link/Plain Text}
 					if (m) {
 						const [x, protocol, title, remainder] = m;

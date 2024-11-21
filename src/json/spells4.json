@@ -1171,7 +1171,7 @@
 			"",
 			"A humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target's speed.",
 			"",
-			"If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it-the spell cannot be used to crush a creature by increasing its size.",
+			"If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it - the spell cannot be used to crush a creature by increasing its size.",
 			"",
 			"All equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see [Table: Tiny and Large Weapon Damage](rule/weapon_qualities)). Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.",
 			"",
@@ -4162,7 +4162,7 @@
 			"**Duration** 1 round + 1 round/2 levels  ",
 			"**Saving Throw** Reflex half; **Spell Resistance** yes",
 			"",
-			"This spell causes you to begin sneezing gouts of fire that can not only set creatures ablaze but also drop them flat on their backs. Once you cast this spell, you must sneeze each round as a standard action-you can take no other standard action as long as this spell is in effect, nor can you take full-round actions. Each time you sneeze, you produce a 10-foot-long cone of fire and wind. All creatures caught in this cone take 2d6 points of fire damage-a successful Reflex save halves this damage. Any creature that fails to resist this spell with a Reflex save must immediately make a DC 12 Fortitude save or be knocked prone by the blast of wind associated with the sneeze."
+			"This spell causes you to begin sneezing gouts of fire that can not only set creatures ablaze but also drop them flat on their backs. Once you cast this spell, you must sneeze each round as a standard action-you can take no other standard action as long as this spell is in effect, nor can you take full-round actions. Each time you sneeze, you produce a 10-foot-long cone of fire and wind. All creatures caught in this cone take 2d6 points of fire damage - a successful Reflex save halves this damage. Any creature that fails to resist this spell with a Reflex save must immediately make a DC 12 Fortitude save or be knocked prone by the blast of wind associated with the sneeze."
 		]
 	},
 	"fire_storm": {

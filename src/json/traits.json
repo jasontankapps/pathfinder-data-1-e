@@ -6370,7 +6370,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the [ranger's](class/ranger) list of favored terrains. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
+			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the {class/ranger/'s} list of favored terrains. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
