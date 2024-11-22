@@ -291,7 +291,7 @@
 			"## Feral Savagery (Su) [Mythic]",
 			"",
 			"{SOURCE Mythic Adventures/227}  ",
-			"Under the circumstances listed in the monster's stat block-such as when it makes a full attack or a rend attack-it can immediately attempt an additional attack against an opponent. This attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. This additional attack doesn't stack with similar means of gaining additional attacks, such as the haste spell or a speed weapon. This ability doesn't grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.",
+			"Under the circumstances listed in the monster's stat block - such as when it makes a full attack or a rend attack - it can immediately attempt an additional attack against an opponent. This attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. This additional attack doesn't stack with similar means of gaining additional attacks, such as the haste spell or a speed weapon. This ability doesn't grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round.",
 			"",
 			"**Format:** feral savagery (full attack)  ",
 			"**Location:** special attacks."
@@ -1099,7 +1099,7 @@
 			"## Rake (Ex)",
 			"",
 			"{SOURCE Bestiary 5/298}  ",
-			"A creature with this special attack gains extra natural attacks under certain conditions, typically when it grapples its foe. In addition to the options available to all grapplers, a monster with the rake ability gains two free claw attacks that it can use only against a grappled foe. The bonus and damage caused by these attacks are included in the creature's description. A monster with the rake ability must begin its turn already grappling to use its rake-it can't begin a grapple and rake in the same turn.",
+			"A creature with this special attack gains extra natural attacks under certain conditions, typically when it grapples its foe. In addition to the options available to all grapplers, a monster with the rake ability gains two free claw attacks that it can use only against a grappled foe. The bonus and damage caused by these attacks are included in the creature's description. A monster with the rake ability must begin its turn already grappling to use its rake - it can't begin a grapple and rake in the same turn.",
 			"",
 			"**Format:** rake (2 claws +8, 1d4+2)  ",
 			"**Location:** Special Attacks."
@@ -1286,7 +1286,7 @@
 			"## Natural Invisibility (Ex or Su)",
 			"",
 			"{SOURCE Bestiary 4/297}  ",
-			"This ability is constant-the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the {spell/invisibility purge} spell.",
+			"This ability is constant - the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the {spell/invisibility purge} spell.",
 			"",
 			"**Format:** natural invisibility  ",
 			"**Location:** Defensive Abilities."
@@ -1512,7 +1512,7 @@
 			"{SOURCE Mythic Adventures/228}  ",
 			"The monster can call upon its mythic power to overcome difficult challenges. It can expend one use of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the d20 roll. Using this ability is an immediate action taken after the original roll is made and the results are revealed. The bonus die gained by using this ability increases to 1d8 at 4th rank, 1d10 at 7th rank, and 1d12 at 10th rank. The monster can use this ability even if it's mindless or of animal-level intelligence. (See the {rule/Mythic Rules} for more information.)",
 			"",
-			"Surge doesn't have a separate entry in the monster stat block-the surge die is listed in the mythic power ability."
+			"Surge doesn't have a separate entry in the monster stat block - the surge die is listed in the mythic power ability."
 		]
 	},
 	"change_shape": {

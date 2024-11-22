@@ -2470,7 +2470,7 @@
 			"",
 			"Buildings themselves are products of their environments and are built from materials readily available in the area. The terrain and climate of the land surrounding a city determines what that city is made of. A city in a temperate coastal area might have mostly wooden buildings with some stone structures. A desert town would have adobe or stone buildings, or even structures dug into the earth itself to create dark, cool places for people to live. Cities built in swamps or wetlands might have massive levees and dams to keep the water at bay.",
 			"",
-			"If you're having trouble visualizing the size and population of a village, town, or city, compare it to real-life locations and gauge accordingly. For example, at its height at the end of the 2nd Century, Rome boasted over a million people (although census records were sketchy-some report nearly 10 times that number!). During the 14th Century, Rome's population had declined drastically to around 50,000 people. Although these numbers might not seem particularly impressive compared to modern cities, Rome was considered massive and teeming with people.",
+			"If you're having trouble visualizing the size and population of a village, town, or city, compare it to real-life locations and gauge accordingly. For example, at its height at the end of the 2nd Century, Rome boasted over a million people (although census records were sketchy - some report nearly 10 times that number!). During the 14th Century, Rome's population had declined drastically to around 50,000 people. Although these numbers might not seem particularly impressive compared to modern cities, Rome was considered massive and teeming with people.",
 			"",
 			"A heavily populated city does not necessarily translate to urban sprawl. For example, when London reached the 80,000 mark in the 14th Century, the populace was still squeezed within the confines of the ancient walls built by the Romans several centuries earlier, resulting in atrocious living conditions.",
 			"",
@@ -2526,7 +2526,7 @@
 			"",
 			"Keep in mind that the PCs can encounter danger and excitement even as they travel through a town or city. Besides the occasional assault by thieves, gangs, or other ruffians, the PCs may have to deal with animals run amok, riots, duels (mundane or magical) in the streets, fires, agitators, and any number of other interesting events. If a pickpocket manages to snag an item from one of the PCs, a rooftop chase might ensue as the PCs pursue the thief. A procession of nobles may stop and question the presence of the adventurers in their fair city. A random corpse in the gutters bearing the signs of a ritual murder may open up an investigation or mystery.",
 			"",
-			"The city's streets themselves bear consideration as well, for it is here that many of your urban-themed encounters will begin or end. A typical city street should be wide enough to allow two horse-drawn carriages to pass each other, with a little bit of additional room for foot traffic-as a result, well-traveled city streets should never be less than 30 feet wide, with major thoroughfares being 60 feet wide or wider. Back streets might be only 15 or even 10 feet wide-anything narrower than 10 feet will be difficult to navigate on horseback or via carriage. These narrow lanes are usually your city's alleyways, only 5 to 10 feet across and often taking complex, winding routes between buildings.",
+			"The city's streets themselves bear consideration as well, for it is here that many of your urban-themed encounters will begin or end. A typical city street should be wide enough to allow two horse-drawn carriages to pass each other, with a little bit of additional room for foot traffic - as a result, well-traveled city streets should never be less than 30 feet wide, with major thoroughfares being 60 feet wide or wider. Back streets might be only 15 or even 10 feet wide-anything narrower than 10 feet will be difficult to navigate on horseback or via carriage. These narrow lanes are usually your city's alleyways, only 5 to 10 feet across and often taking complex, winding routes between buildings.",
 			"",
 			"Additional rules for city streets, for moving through crowds or across rooftops, and for cities in general can be found [here](rule/urban_adventures)."
 		],
@@ -4582,7 +4582,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/222}",
 			"",
-			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined-if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
+			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined - if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
 			"",
 			"[Forest terrain is described here,](rule/forest_terrain) but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
 		],
@@ -5719,7 +5719,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/235}",
 			"",
-			"Whether from an ancient curse or fell necromancy, one of the most terrifying of all supernatural disasters is the undead uprising-the dead emerging from their graves to claim the living. This disaster can strike any area where the dead have been laid to rest, not just towns and cities. More than one blood-soaked battlefield has given rise to a legion of desiccated undead warriors.",
+			"Whether from an ancient curse or fell necromancy, one of the most terrifying of all supernatural disasters is the undead uprising - the dead emerging from their graves to claim the living. This disaster can strike any area where the dead have been laid to rest, not just towns and cities. More than one blood-soaked battlefield has given rise to a legion of desiccated undead warriors.",
 			"",
 			"Undead uprisings occur in waves, with the timing varying according to the underlying forces at play. The events may happen over the course of only a few days, devastating a city, or be spread out over weeks as the terrified populace cowers behind locked doors and struggles to survive. During the day, life often returns to some semblance of normalcy, as the light of day briefly suppresses the power of the undead."
 		],
@@ -6575,7 +6575,7 @@
 			"",
 			"***Caster Level:*** This is the haunt's effective caster level for the purposes of dispelling any ongoing effects with dispel magic, and for determining the results of spell effects it creates.",
 			"",
-			"***Notice:*** This indicates the skill check and DC required to notice the haunt in the surprise round before it manifests. The sensory input for what a successful check notices-such as a faint ghostly wailing, a smell of burning flesh, or fresh blood oozing from the walls-is listed in parentheses after the DC.",
+			"***Notice:*** This indicates the skill check and DC required to notice the haunt in the surprise round before it manifests. The sensory input for what a successful check notices - such as a faint ghostly wailing, a smell of burning flesh, or fresh blood oozing from the walls - is listed in parentheses after the DC.",
 			"",
 			"***hp:*** This lists the haunt's effective hit points for the purposes of resolving positive energy damage. A haunt's hit points are equal to twice its CR, except in the case of a persistent haunt, in which case its hit points are equal to its CR &times; 4.5 (round fractions down).",
 			"",
@@ -7478,7 +7478,7 @@
 			"",
 			"***Ranged:*** As Melee above, but for ranged attacks.",
 			"",
-			"***Space/Reach:*** The creature's space and reach-if the creature's space and reach are standard (one 5-foot square and a reach of 5 feet), this line is omitted.",
+			"***Space/Reach:*** The creature's space and reach - if the creature's space and reach are standard (one 5-foot square and a reach of 5 feet), this line is omitted.",
 			"",
 			"***Special Attacks:*** The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the [universal monster rules section](main/umr).",
 			"",
@@ -8086,7 +8086,7 @@
 			"",
 			"A template is a set of rules that you apply to a monster to transform it into a different monster. All templates give precise directions on how to change a monster's statistics to transform it into the new monster.",
 			"",
-			"***Acquired Templates:*** Some templates, like the {template/lich}, are the results of a creature's choice and desire to transform. Others, like the {template/ghost} template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation-these types are called \"acquired templates,\" and can be added to a creature at any time during its existance.",
+			"***Acquired Templates:*** Some templates, like the {template/lich}, are the results of a creature's choice and desire to transform. Others, like the {template/ghost} template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation - these types are called \"acquired templates,\" and can be added to a creature at any time during its existance.",
 			"",
 			"***Inherited Templates:*** Some templates, such as the {template/half-dragon} and [half-fiend templates](template/half-fiend), are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\"",
 			"",
