@@ -1002,7 +1002,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none and Fortitude negates (see text); **Spell Resistance** no",
 			"",
-			"The target exudes stinking vapors that fill its space. The vapors do not obscure sight, but it nauseates creatures as stinking cloud. The target is immune to these vapors. These vapors persist as the creature moves, filling every square it passes through until it has filled a number of squares equal to 4 &times; your caster level-if you move through more squares than that, the squares over that amount at not filled with the vapors. Each creature that enters or ends its turn in the area filled with these vapors must succeed at a Fortitude save or become nauseated as long as it remains in the square and for 1d4+1 rounds after it leaves."
+			"The target exudes stinking vapors that fill its space. The vapors do not obscure sight, but it nauseates creatures as stinking cloud. The target is immune to these vapors. These vapors persist as the creature moves, filling every square it passes through until it has filled a number of squares equal to 4 &times; your caster level - if you move through more squares than that, the squares over that amount at not filled with the vapors. Each creature that enters or ends its turn in the area filled with these vapors must succeed at a Fortitude save or become nauseated as long as it remains in the square and for 1d4+1 rounds after it leaves."
 		]
 	},
 	"necromantic_burden": {
@@ -2240,7 +2240,7 @@
 			"",
 			"Because the Dead Roads occupy another plane, it is impossible to spy on the Material Plane while using this spell without additional spells or supernatural abilities.",
 			"",
-			"Open the Dead Roads can be used to travel to or from the Shadow Plane, the Ethereal Plane, the Astral Plane, or the Boneyard; any of these destinations requires 10 hours of travel. Thanks to their unique nature, the Dead Roads can be used to travel from any plane to the Material Plane-a trip likewise requiring 10 hours-unless that plane normally bars all extraplanar travel.",
+			"Open the Dead Roads can be used to travel to or from the Shadow Plane, the Ethereal Plane, the Astral Plane, or the Boneyard; any of these destinations requires 10 hours of travel. Thanks to their unique nature, the Dead Roads can be used to travel from any plane to the Material Plane - a trip likewise requiring 10 hours - unless that plane normally bars all extraplanar travel.",
 			"",
 			"Creatures you bring with you to the Dead Roads are not obligated to follow you. If they wander off, there is an 80% chance they arrive at a random point on the Material Plane within 2d6x10 miles of your starting point, otherwise they arrive in the Boneyard."
 		]
@@ -3815,7 +3815,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You erode the target's confidence and instill a sense of despair. This fear of failure manifests as a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. Additionally, the target can't gain morale bonuses of any kind while the spell remains in effect. No amount of achievement counters the spell's effects-the target simply explains away positive events with a self-critical perspective.",
+			"You erode the target's confidence and instill a sense of despair. This fear of failure manifests as a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. Additionally, the target can't gain morale bonuses of any kind while the spell remains in effect. No amount of achievement counters the spell's effects - the target simply explains away positive events with a self-critical perspective.",
 			"",
 			"Certain events can solidify the character's belief that it is doomed. Whenever the target rolls a natural 1 on an attack roll or saving throw, fails an ability or skill check by more than 5, or takes additional damage as a result of a foe's confirmed critical hit, the penalty to roll imposed by pessimism becomes -3 for 1 round. This increased penalty doesn't stack, even if multiple catastrophes occur on the same round."
 		]
@@ -6488,7 +6488,7 @@
 			"**Duration** 10 min./level (D)  ",
 			"**Saving Throw** see text; **Spell Resistance** see text",
 			"",
-			"Prismatic wall creates a vertical, opaque wall-a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm. Any other creature with less than 8 HD that is within 20 feet of the wall is blinded by the colors for 2d4 rounds if it looks at the wall.",
+			"Prismatic wall creates a vertical, opaque wall - a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm. Any other creature with less than 8 HD that is within 20 feet of the wall is blinded by the colors for 2d4 rounds if it looks at the wall.",
 			"",
 			"The wall's maximum proportions are 4 feet wide per caster level and 2 feet high per caster level. A prismatic wall spell cast to materialize in a space occupied by a creature is disrupted, and the spell is wasted.",
 			"",
@@ -7675,7 +7675,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"Hated by adventurers throughout the Inner Sea region, the gremlins known as pugwampis infect those around them with a malignant form of unluck-an effect that this spell emulates. If the target fails its Will save, it becomes infused with the so-called \"grace of the pugwampi.\" A creature affected by this spell must roll two d20s whenever a situation calls for a d20 roll (such as an attack roll, a skill check, or a saving throw) and must use the lower of the two results generated. As with the aura shed by actual pugwampies, this spell has no effect on animals, gremlins, or gnolls. The effects of this spell are negated as long as a target gains any sort of luck bonus to a d20 roll (such as those granted by a luckstone or divine favor), but the spell's duration is not impacted by these effects. If the luck bonus goes away before the pugwampi's grace effect ends, the unluck returns and remains until the spell's normal duration runs out."
+			"Hated by adventurers throughout the Inner Sea region, the gremlins known as pugwampis infect those around them with a malignant form of unluck - an effect that this spell emulates. If the target fails its Will save, it becomes infused with the so-called \"grace of the pugwampi.\" A creature affected by this spell must roll two d20s whenever a situation calls for a d20 roll (such as an attack roll, a skill check, or a saving throw) and must use the lower of the two results generated. As with the aura shed by actual pugwampies, this spell has no effect on animals, gremlins, or gnolls. The effects of this spell are negated as long as a target gains any sort of luck bonus to a d20 roll (such as those granted by a luckstone or divine favor), but the spell's duration is not impacted by these effects. If the luck bonus goes away before the pugwampi's grace effect ends, the unluck returns and remains until the spell's normal duration runs out."
 		]
 	},
 	"punishing_armor": {

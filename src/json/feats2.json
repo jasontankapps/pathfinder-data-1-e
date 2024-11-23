@@ -1046,7 +1046,7 @@
 			"",
 			"You stop at nothing to drive your attack home.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You gain a stamina pool. After you make an attack roll with a manufactured weapon, unarmed strike, or natural weapon attack with which you are proficient, but before the results are revealed, you can spend up to 5 stamina points. If you do, you gain a competence bonus on the attack roll equal to the number of stamina points you spent. If you miss with the attack, the stamina points you spent are still lost.  ",
+			"**Benefit:** You gain a [stamina pool](rule/combat_stamina). After you make an attack roll with a manufactured weapon, unarmed strike, or natural weapon attack with which you are proficient, but before the results are revealed, you can spend up to 5 stamina points. If you do, you gain a competence bonus on the attack roll equal to the number of stamina points you spent. If you miss with the attack, the stamina points you spent are still lost.  ",
 			"**Special:** Since you have a stamina pool, you can spend your stamina points to use any combat tricks associated with combat feats you possess."
 		]
 	},
@@ -6688,15 +6688,16 @@
 			"**Prerequisites:** {feat/Draconic Aspect}, kobold.  ",
 			"**Benefit:** You gain a +2 bonus against sleep and paralysis effects. You gain a breath weapon that is determined by your scale coloration by either the Draconic Aspect feat or the dragon-scaled racial trait. Using a breath weapon is a standard action that does not provoke attacks of opportunity. You can use your breath weapon once per day. Creatures within the area of your breath weapon who succeed at a Reflex saving throw (DC 10 + your character level + your Constitution modifier) take only half damage.",
 			"",
-			"Black (Su): You breathe a 30-foot line of acid that deals 2d6 points of acid damage.",
+			">*Black (Su):* You breathe a 30-foot line of acid that deals 2d6 points of acid damage.",
+			">",
+			">*Blue (Su):* You breathe a 30-foot line of electricity that deals 2d6 points of electricity damage.",
+			">",
+			">*Green (Su):* You breathe a 15-foot cone of acid that deals 2d6 points of acid damage.",
+			">",
+			">*Red (Su):* You breathe a 15-foot cone of fire that deals 2d6 points of fire damage.",
+			">",
+			">*White (Su):* You breathe a 15-foot cone of cold that deals 2d6 points of cold damage.",
 			"",
-			"Blue (Su): You breathe a 30-foot line of electricity that deals 2d6 points of electricity damage.",
-			"",
-			"Green (Su): You breathe a 15-foot cone of acid that deals 2d6 points of acid damage.",
-			"",
-			"Red (Su): You breathe a 15-foot cone of fire that deals 2d6 points of fire damage.",
-			"",
-			"White (Su): You breathe a 15-foot cone of cold that deals 2d6 points of cold damage.  ",
 			"**Special:** Kobold sorcerers with either the Draconic or Kobold bloodline can use their Charisma modifier instead of their Constitution to determine the DC of this breath weapon."
 		]
 	},

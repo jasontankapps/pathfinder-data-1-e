@@ -199,9 +199,9 @@
 			"**Campaign:** Return of the Runelords  ",
 			"**Requirements:** Human",
 			"",
-			"Adventuring has been in your blood for as long as you can remember, and this urge to go out and explore the world left you recently in over your head when you (foolishly or bravely, depending on how you look at it) decided to explore an old Thassilonian ruin near your home town. The adventure ended in tragedy when you set off a devastating trap while investigating a statue of a beautiful woman-someone you believed to be one of the ancient runelords of Thassilon. The trap slaughtered your entire party-including you.",
+			"Adventuring has been in your blood for as long as you can remember, and this urge to go out and explore the world left you recently in over your head when you (foolishly or bravely, depending on how you look at it) decided to explore an old Thassilonian ruin near your home town. The adventure ended in tragedy when you set off a devastating trap while investigating a statue of a beautiful woman - someone you believed to be one of the ancient runelords of Thassilon. The trap slaughtered your entire party - including you.",
 			"",
-			"You woke from death some time later, your memories intact but your body transformed. No longer did you resemble your previous self-you instead looked like the woman depicted in the statue. Now, you've joined up with a new group of adventurers; despite your tragic first attempt at dungeon delving, your thirst for adventure has returned stronger than ever. You're sure that this time you'll be able to keep your fellow explorers alive, and the strange dreams you've been having ever since you came back to life in your new body-a body that your research has revealed was originally intended to be a clone of none other than Sorshen, the Runelord of Lust-have only further solidified in your mind the fact that you and your companions are destined for greatness.",
+			"You woke from death some time later, your memories intact but your body transformed. No longer did you resemble your previous self-you instead looked like the woman depicted in the statue. Now, you've joined up with a new group of adventurers; despite your tragic first attempt at dungeon delving, your thirst for adventure has returned stronger than ever. You're sure that this time you'll be able to keep your fellow explorers alive, and the strange dreams you've been having ever since you came back to life in your new body - a body that your research has revealed was originally intended to be a clone of none other than Sorshen, the Runelord of Lust - have only further solidified in your mind the fact that you and your companions are destined for greatness.",
 			"",
 			"Your character must be human if you take this trait (though you may retain your previous gender identity). Your ethnicity is Azlanti, but you are not pure-blooded-you have the standard human ability score adjustments. Your resemblance to Sorshen may have unexpected side effects as the campaign progresses, for good or for ill. In any event, you gain a +1 trait bonus on Bluff and Diplomacy checks, and these skills are always class skills for you.",
 			"",
@@ -257,7 +257,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain-these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
+			"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain - these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
 			"",
 			"**{domain/Alchemy} ({domain/Artifice}/{domain/Magic}):** {faith/Brigh}, {faith/Haagenti}, {faith/Norgorber}&ast; (Artifice only), {faith/Orgesh}&ast; (Magic only), {faith/Qi Zhong})",
 			"",
@@ -544,7 +544,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
 			"",
-			"Although the Black Sovereign rules Numeria in name, it's the spellcasters of the Technic League who hold the real power. While their influence is certainly strongest in the capital of Starfall, their touch can be felt even here in Torch-the League takes a significant cut of the town's income as tithes every month. For some reason, you have a grudge against the Technic League. Perhaps your parents lost their jobs as the result of an act they took that displeased the League-you might even suspect the League was responsible for their deaths. Alternatively, you could just rankle at the League's open acceptance of slavery, their reputation for sadism and cruelty, or their penchant for hoarding and controlling technological wonders. Talk to your GM to refine the reasons why you hate the Technic League, but you're convinced that they are somehow responsible for putting out the town's torch and that evidence of their tampering can be found in the caverns below-if you can find evidence of the Technic League working against Torch's better interests, that could well be a step toward the town's independence from the League. Choose either weapons or spells. If you choose weapons, you gain a +2 trait bonus on all damage rolls made against targets you know are associated with the Technic League. If you choose spells, increase the save DC of your spells by 1 when you target such a foe."
+			"Although the Black Sovereign rules Numeria in name, it's the spellcasters of the Technic League who hold the real power. While their influence is certainly strongest in the capital of Starfall, their touch can be felt even here in Torch - the League takes a significant cut of the town's income as tithes every month. For some reason, you have a grudge against the Technic League. Perhaps your parents lost their jobs as the result of an act they took that displeased the League-you might even suspect the League was responsible for their deaths. Alternatively, you could just rankle at the League's open acceptance of slavery, their reputation for sadism and cruelty, or their penchant for hoarding and controlling technological wonders. Talk to your GM to refine the reasons why you hate the Technic League, but you're convinced that they are somehow responsible for putting out the town's torch and that evidence of their tampering can be found in the caverns below - if you can find evidence of the Technic League working against Torch's better interests, that could well be a step toward the town's independence from the League. Choose either weapons or spells. If you choose weapons, you gain a +2 trait bonus on all damage rolls made against targets you know are associated with the Technic League. If you choose spells, increase the save DC of your spells by 1 when you target such a foe."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -573,7 +573,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Plane of Earth",
 			"",
-			"You have learned many adventuring skills-as well as hatred for efreet-during your years of military service to Sultana Ashadieeyah bint Khalid, ruler of the Opaline Vault on the Plane of Earth. You gain a +2 trait bonus on Disable Device checks to disarm any traps that you know deal fire damage, and you gain a +2 trait bonus on attack rolls to confirm critical hits against creatures with the fire subtype."
+			"You have learned many adventuring skills - as well as hatred for efreet - during your years of military service to Sultana Ashadieeyah bint Khalid, ruler of the Opaline Vault on the Plane of Earth. You gain a +2 trait bonus on Disable Device checks to disarm any traps that you know deal fire damage, and you gain a +2 trait bonus on attack rolls to confirm critical hits against creatures with the fire subtype."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -735,7 +735,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Silver Mount",
 			"",
-			"You are in some way tied to the mysterious alien monument known as Silver Mount in Numeria, but you have forgotten an important piece of your past. Perhaps you were a metallurgist's experiment gone awry, a rediscovered automaton that escaped the mountain's confines, or the result of some equally enigmatic phenomenon. Regardless, your unusual origins mark you as somehow different from others, and you know the gaps in your memory hold the key to your past. You start play with a unique compass that doesn't point north and is riddled with indecipherable alien markings-the only object you have that you know to be tied to your home. In addition, your inscrutable mannerisms give you a +2 trait bonus on opposed Bluff checks.",
+			"You are in some way tied to the mysterious alien monument known as Silver Mount in Numeria, but you have forgotten an important piece of your past. Perhaps you were a metallurgist's experiment gone awry, a rediscovered automaton that escaped the mountain's confines, or the result of some equally enigmatic phenomenon. Regardless, your unusual origins mark you as somehow different from others, and you know the gaps in your memory hold the key to your past. You start play with a unique compass that doesn't point north and is riddled with indecipherable alien markings - the only object you have that you know to be tied to your home. In addition, your inscrutable mannerisms give you a +2 trait bonus on opposed Bluff checks.",
 			"",
 			"**Suggestion:** Consider being a member of the [android race](race/android).*"
 		],
@@ -1673,7 +1673,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
 			"",
-			"You have adopted the ways of the colonials. As a result, you feel that other, \"inferior\" races-such as your Mwangi brethren-should obey you as they do the colonials. You gain a +2 trait bonus on Intimidate checks to influence Mwangi natives, but you suffer a -2 on Diplomacy checks to influence them."
+			"You have adopted the ways of the colonials. As a result, you feel that other, \"inferior\" races - such as your Mwangi brethren - should obey you as they do the colonials. You gain a +2 trait bonus on Intimidate checks to influence Mwangi natives, but you suffer a -2 on Diplomacy checks to influence them."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -2334,7 +2334,7 @@
 			"",
 			"You were born aboard a ship at sea or down by the docks in a port city on an auspicious day. Old salts and sea dogs nod knowingly and say that Besmara the Pirate Queen, goddess of piracy, sea monsters, and strife, has marked you for a greater destiny. You don't know anything about that, but you've always felt more at home on the sea than on land, and your keen eyes can easily pick out a sail on the distant horizon. You gain a +1 trait bonus on Perception and Profession (sailor) checks. In addition, once per week you can reroll a Profession (sailor) check and take the higher result (you must announce that you are using this ability before the results of the check are known).",
 			"",
-			"You came to a tavern in Port Peril called the Formidably Maid in search of your fate. You're not sure how many drinks you had, but they quickly went to your head and you passed out on the table before you found your destiny-unless it lay in the bottom of a bottle. Then again, maybe you found your destiny after all..."
+			"You came to a tavern in Port Peril called the Formidably Maid in search of your fate. You're not sure how many drinks you had, but they quickly went to your head and you passed out on the table before you found your destiny - unless it lay in the bottom of a bottle. Then again, maybe you found your destiny after all..."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -3257,7 +3257,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Goblin",
 			"",
-			"Your bones, flesh, and skin are a bit more elastic than those of most goblins-when you fall, you tend to bounce a little better as a result. Whenever you take falling damage, the first 1d6 points of lethal damage suffered in the fall are automatically converted to nonlethal damage. You also gain a +2 trait bonus on all Reflex saves made to avoid unexpected falls."
+			"Your bones, flesh, and skin are a bit more elastic than those of most goblins - when you fall, you tend to bounce a little better as a result. Whenever you take falling damage, the first 1d6 points of lethal damage suffered in the fall are automatically converted to nonlethal damage. You also gain a +2 trait bonus on all Reflex saves made to avoid unexpected falls."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -4134,11 +4134,11 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
 			"",
-			"You always tended to get in over your head as a child, but your biggest youthful misadventure was the time you \"accidentally\" found yourself behind enemy lines in the Worldwound. You probably never would have made it back home to Kenabres if not for the help of a mysterious woman who helped you trick your way through a group of cultists. The woman never told you her name, but you remember her beauty and a deep sense of sadness she seemed to carry with her. Her skill with the bow was impressive as well, but the thing you remember most about her was the symbol of Desna she wore-she often held onto it without seeming to realize it, as if the connection to the goddess was something she clung to in a sense of need, as someone might clutch at a rope while dangling over a vast pit. She left your side a few moments before you were picked up by a patrol of crusaders, who finished the job of escorting you back to safety, and you've never seen her again. Ever since, you've just been lucky when it comes to trickery. Once per day, if you fail an Acrobatics, Bluff, Disguise, Sleight of Hand, or Stealth check, you may immediately reroll that check as a free action. You must take the second result, even if it is worse.",
+			"You always tended to get in over your head as a child, but your biggest youthful misadventure was the time you \"accidentally\" found yourself behind enemy lines in the Worldwound. You probably never would have made it back home to Kenabres if not for the help of a mysterious woman who helped you trick your way through a group of cultists. The woman never told you her name, but you remember her beauty and a deep sense of sadness she seemed to carry with her. Her skill with the bow was impressive as well, but the thing you remember most about her was the symbol of Desna she wore - she often held onto it without seeming to realize it, as if the connection to the goddess was something she clung to in a sense of need, as someone might clutch at a rope while dangling over a vast pit. She left your side a few moments before you were picked up by a patrol of crusaders, who finished the job of escorting you back to safety, and you've never seen her again. Ever since, you've just been lucky when it comes to trickery. Once per day, if you fail an Acrobatics, Bluff, Disguise, Sleight of Hand, or Stealth check, you may immediately reroll that check as a free action. You must take the second result, even if it is worse.",
 			"",
 			"**Associated Mythic Path:** Trickster.",
 			"",
-			"**Multiple Characters:** You and other characters were all saved by the same mysterious woman in your childhood. This could have been the same event, or she could have saved you on separate occasions-the discovery that someone else was saved by the mysterious stranger has resulted in a long friendship (or perhaps friendly rivalry) with the others she rescued."
+			"**Multiple Characters:** You and other characters were all saved by the same mysterious woman in your childhood. This could have been the same event, or she could have saved you on separate occasions - the discovery that someone else was saved by the mysterious stranger has resulted in a long friendship (or perhaps friendly rivalry) with the others she rescued."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -4319,7 +4319,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
 			"",
-			"Your family has long been in show business. Perhaps it was your parents, or an older sibling, or an uncle or aunt-whatever the case, one of your close relatives is, or was, a well-known and well-loved actor or actress. That this relation died in some compromising and embarrassing way has done little to alter your family's name and fame-if anything, the unfortunate death has increased it. When folk learn your last name, they are quick to assume you live a wild life like your ill-fated relative, and whether you bask in this notoriety or do your best to hide your heritage, the years of association with the acting scene have had their effect. You've certainly inherited your relative's talents, and are a larger-than-life figure, a melodramatic attention-hound, or a sly manipulator of emotions. You gain a +1 trait bonus on Perform (act) skill checks, and the skill is always considered a class skill for you. Furthermore, You've inherited some of your relative's funds, and begin play with a nest egg of 300 gp that you can spend however you wish."
+			"Your family has long been in show business. Perhaps it was your parents, or an older sibling, or an uncle or aunt-whatever the case, one of your close relatives is, or was, a well-known and well-loved actor or actress. That this relation died in some compromising and embarrassing way has done little to alter your family's name and fame - if anything, the unfortunate death has increased it. When folk learn your last name, they are quick to assume you live a wild life like your ill-fated relative, and whether you bask in this notoriety or do your best to hide your heritage, the years of association with the acting scene have had their effect. You've certainly inherited your relative's talents, and are a larger-than-life figure, a melodramatic attention-hound, or a sly manipulator of emotions. You gain a +1 trait bonus on Perform (act) skill checks, and the skill is always considered a class skill for you. Furthermore, You've inherited some of your relative's funds, and begin play with a nest egg of 300 gp that you can spend however you wish."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -4837,7 +4837,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
 			"",
-			"You and another PC are close allies-friends, lovers, siblings, or even twins. Work with the other player to build a shared history-both you and the other player must choose Close Allies as a campaign trait, and both must agree to the nature of the relationship between the two characters. (At the GM's option, more than two PCs can be linked by this trait.) You and your close ally have always supported each other. You might have the tendency to complete each other's sentences, dress similarly, share the same religion or faith, or have endured a dangerous event together in the past. If you and the other player agree (and have chosen either the siblings or twins option below), you might not even particularly like your close \"ally,\" yet you still respect them and can utilize this trait's benefits all the same.",
+			"You and another PC are close allies - friends, lovers, siblings, or even twins. Work with the other player to build a shared history - both you and the other player must choose Close Allies as a campaign trait, and both must agree to the nature of the relationship between the two characters. (At the GM's option, more than two PCs can be linked by this trait.) You and your close ally have always supported each other. You might have the tendency to complete each other's sentences, dress similarly, share the same religion or faith, or have endured a dangerous event together in the past. If you and the other player agree (and have chosen either the siblings or twins option below), you might not even particularly like your close \"ally,\" yet you still respect them and can utilize this trait's benefits all the same.",
 			"",
 			"If your relationship with your close ally ends (as a result of death, a parting of ways, or other catastrophe), you immediately lose this campaign trait and replace it with {trait/Spirit Touched} as a result of your emotional distress.",
 			"",
@@ -6510,7 +6510,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
 			"",
-			"Osirion has a history stretching back over 8,000 years, and the deities worshiped today in modern Osirion are not the same ones revered in Ancient Osirion's heyday-deities with names like Anubis, Osiris, Ra, and Set, among others. Your family never lost the faith of your ancestors, however, and your devotion to one of the deities of Ancient Osirion has helped keep the memory of Osirion's past alive-a past that still lingers on in the untouched necropolis of Wati. You gain a +1 trait bonus on Knowledge (history) and Knowledge (religion) checks, and one of those skills is always a class skill for you. In addition, your faith in the old gods of Osirion grants you a +1 trait bonus on saving throws against divine magic. For more information on the deities of Ancient Osirion, see *Pathfinder Adventure Path #80: Empty Graves.*"
+			"Osirion has a history stretching back over 8,000 years, and the deities worshiped today in modern Osirion are not the same ones revered in Ancient Osirion's heyday-deities with names like Anubis, Osiris, Ra, and Set, among others. Your family never lost the faith of your ancestors, however, and your devotion to one of the deities of Ancient Osirion has helped keep the memory of Osirion's past alive - a past that still lingers on in the untouched necropolis of Wati. You gain a +1 trait bonus on Knowledge (history) and Knowledge (religion) checks, and one of those skills is always a class skill for you. In addition, your faith in the old gods of Osirion grants you a +1 trait bonus on saving throws against divine magic. For more information on the deities of Ancient Osirion, see *Pathfinder Adventure Path #80: Empty Graves.*"
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -6852,7 +6852,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
 			"",
-			"No crime is too despicable for Gaedren Lamm and his thugs-a gang of lowlife murderers, kidnappers, and drug dealers that operate in Korvosa's Midland district. You've lost someone to Lamm and now you're out for revenge. While Lamm remains alive and free, you are not slain until your hit point total reaches a negative number equal to your Constitution score + 3. Once Lamm is imprisoned or killed, you lose the former benefit but gain 3 permanent hit points."
+			"No crime is too despicable for Gaedren Lamm and his thugs - a gang of lowlife murderers, kidnappers, and drug dealers that operate in Korvosa's Midland district. You've lost someone to Lamm and now you're out for revenge. While Lamm remains alive and free, you are not slain until your hit point total reaches a negative number equal to your Constitution score + 3. Once Lamm is imprisoned or killed, you lose the former benefit but gain 3 permanent hit points."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8497,7 +8497,7 @@
 			"",
 			"**Associated Mythic Path:** Guardian.",
 			"",
-			"**Multiple Characters:** You and any others with this trait are related, if only distantly. You could be siblings or cousins-a condition that perhaps lends some credence to the theory that all of you share more than just a common bloodline."
+			"**Multiple Characters:** You and any others with this trait are related, if only distantly. You could be siblings or cousins - a condition that perhaps lends some credence to the theory that all of you share more than just a common bloodline."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -8824,7 +8824,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
 			"",
-			"While not ethnically a Varisian, you have been raised among Varisians and they consider you one of their own. Furthermore, you managed to get in good with a group of Sczarni and consider them your new family. After being run out of the last place your Sczarni family camped, you tracked down a friend of the family in Sandpoint-a ruthless thug named Jubrayl Vhiski at the Fatman's Feedbag. During your time with the Sczarni, you learned a few tricks of the trade. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (local) is always a class skill for you. In addition, you begin play able to speak and read Varisian."
+			"While not ethnically a Varisian, you have been raised among Varisians and they consider you one of their own. Furthermore, you managed to get in good with a group of Sczarni and consider them your new family. After being run out of the last place your Sczarni family camped, you tracked down a friend of the family in Sandpoint - a ruthless thug named Jubrayl Vhiski at the Fatman's Feedbag. During your time with the Sczarni, you learned a few tricks of the trade. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (local) is always a class skill for you. In addition, you begin play able to speak and read Varisian."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

@@ -406,7 +406,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"Ithuna Vardsdottir claims to have unearthed this ancient prayer in a ruined temple of Desna, though Pathfinders have reported the use of similar magic in Irrisen among the White Witches. While the name of this spell is sharesister, it works equally well on male or female creatures-both targets of the spell must simply be of the same gender.",
+			"Ithuna Vardsdottir claims to have unearthed this ancient prayer in a ruined temple of Desna, though Pathfinders have reported the use of similar magic in Irrisen among the White Witches. While the name of this spell is sharesister, it works equally well on male or female creatures - both targets of the spell must simply be of the same gender.",
 			"",
 			"When you deliver the spell, you receive a negative level for the duration of the spell, and the other target receives a +1 insight bonus to her caster level and a +1 insight bonus to the save DCs of all of her spells. At 11th level, you can opt to take four negative levels to grant a +2 insight bonus to the other target's caster level and spell save DCs if you wish, while at 17th level you can take 6 negative levels to increase the insight bonus to +3. Any effect that removes or prevents the negative level immediately ends the sharesister spell. Negative levels received from the spell vanish as soon as this spell effect ends. Negative levels from multiple castings of this spell stack."
 		]
@@ -516,7 +516,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell creates a special mystical connection between you and your companion creature-animal companion, bonded mount, eidolon, or familiar-which allows you to transfer its wounds to you. The creature gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. As an immediate action when your companion takes damage, you can take that damage yourself to prevent your companion from being harmed (similar to {spell/shield other}, except the damage is not split between you and the target). Forms of harm that do not involve the loss of hit points, such as charm effects, temporary ability damage, level drain, and death effects, are not affected. If the creature suffers a reduction of hit points from a lowered Constitution score, you cannot take that damage on behalf of your companion creature because it is not hit point damage. When the spell ends, damage directed to you by the spell is not reassigned to the subject.",
+			"This spell creates a special mystical connection between you and your companion creature - animal companion, bonded mount, eidolon, or familiar - which allows you to transfer its wounds to you. The creature gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. As an immediate action when your companion takes damage, you can take that damage yourself to prevent your companion from being harmed (similar to {spell/shield other}, except the damage is not split between you and the target). Forms of harm that do not involve the loss of hit points, such as charm effects, temporary ability damage, level drain, and death effects, are not affected. If the creature suffers a reduction of hit points from a lowered Constitution score, you cannot take that damage on behalf of your companion creature because it is not hit point damage. When the spell ends, damage directed to you by the spell is not reassigned to the subject.",
 			"",
 			"If you and your companion move out of range of each other, the spell ends."
 		]
@@ -1029,7 +1029,7 @@
 			"",
 			"When you cast this spell, you make a ranged touch attack against a single opponent within 30 feet. If you hit, a thin silver strand extends from your body to its, forming a connection that allows you to anticipate its actions. For the duration of the spell, you receive a +5 insight bonus on all Perception and Sense Motive checks opposed by the target. You gain a +5 insight bonus on all Spellcraft checks made to identify your opponent's spell as part of a counterspelling attempt. Finally, you gain a +2 dodge bonus to your AC against attacks made against you by the target.",
 			"",
-			"Lastly, if either you or the target moves more than 30 feet away from the other, the cord crackles with a surge of light and sends a blast of force along its length to the other end. This blast deals 1d6 points of damage per two caster levels (maximum 10d6) and stuns the one who moved out of range for 1 round-a successful Fortitude save halves the damage and negates the stun effect. This blast ends the spell and severs the connection between you and your target.",
+			"Lastly, if either you or the target moves more than 30 feet away from the other, the cord crackles with a surge of light and sends a blast of force along its length to the other end. This blast deals 1d6 points of damage per two caster levels (maximum 10d6) and stuns the one who moved out of range for 1 round - a successful Fortitude save halves the damage and negates the stun effect. This blast ends the spell and severs the connection between you and your target.",
 			"",
 			"Although the shining cord makes a visible connection between you and your target, creatures can move through it without ill effect. The cord even passes through solid objects as necessary to maintain the connection between you and the target."
 		]
@@ -2182,7 +2182,7 @@
 			"**Duration** 10 minutes/level (D)  ",
 			"**Saving Throw** Reflex negates (harmless); **Spell Resistance** no",
 			"",
-			"You create a low-cresting wave of water that carries the target along the surface of water or the ground. When moving across level ground, the target's speed increases by 10 feet. If going downhill, speed increases by 20 feet instead, but slipstream provides no movement bonus when going uphill. While swimming, the slipstream increases the target's swim speed by 20 feet-if the target does not have a swim speed, this spell grants a swim speed of 20 ft."
+			"You create a low-cresting wave of water that carries the target along the surface of water or the ground. When moving across level ground, the target's speed increases by 10 feet. If going downhill, speed increases by 20 feet instead, but slipstream provides no movement bonus when going uphill. While swimming, the slipstream increases the target's swim speed by 20 feet - if the target does not have a swim speed, this spell grants a swim speed of 20 ft."
 		]
 	},
 	"slough": {
@@ -3004,7 +3004,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar's soul is placed in your body. This functions as if you possessed your familiar using magic jar; your familiar simultaneously possesses your body in the same manner. You can't freely transfer your soul between your body and your familiar's-if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies."
+			"You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar's soul is placed in your body. This functions as if you possessed your familiar using magic jar; your familiar simultaneously possesses your body in the same manner. You can't freely transfer your soul between your body and your familiar's - if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies."
 		]
 	},
 	"sound_burst": {
@@ -3525,7 +3525,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You immediately discover some of the spells that the target knows or has prepared. The number of spells revealed to you is equal to your caster level. The target's lowest-level spells are revealed first-ignoring 0-level spells-in a random order. Once all of the target's 1st-level spells are revealed, the spell begins revealing 2nd-level spells, then 3rd-level spells. This spell does not reveal spells of 4th level or higher, nor does it reveal spell-like abilities or other special abilities. If cast on a creature that is not a spellcaster, that has only 0-level spells or spells of 4th level or higher prepared, that has expended all of its spells, or that has not prepared any spells that day, the spell has no effect."
+			"You immediately discover some of the spells that the target knows or has prepared. The number of spells revealed to you is equal to your caster level. The target's lowest-level spells are revealed first - ignoring 0-level spells - in a random order. Once all of the target's 1st-level spells are revealed, the spell begins revealing 2nd-level spells, then 3rd-level spells. This spell does not reveal spells of 4th level or higher, nor does it reveal spell-like abilities or other special abilities. If cast on a creature that is not a spellcaster, that has only 0-level spells or spells of 4th level or higher prepared, that has expended all of its spells, or that has not prepared any spells that day, the spell has no effect."
 		]
 	},
 	"spell_immunity": {
@@ -3841,7 +3841,7 @@
 			"",
 			"If the target has more than one spellcasting class, choose one at random to be affected. This spell has no effect on spell-like abilities.",
 			"",
-			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a concentration check while trying to cast it-the spell or spell slot is wasted and has no effect, but is recovered normally the next time the character prepares spells or regains spell slots.",
+			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a concentration check while trying to cast it - the spell or spell slot is wasted and has no effect, but is recovered normally the next time the character prepares spells or regains spell slots.",
 			"",
 			"### Spellcrash",
 			"",
@@ -3929,7 +3929,7 @@
 			"**Area** two 10-ft. cubes per level (S)  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a primal magic event-a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
+			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a primal magic event - a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
 			"",
 			"You gain a +4 insight bonus on concentration checks made to avoid triggering primal magic events while within a spellscar you have created, and if you do trigger a primal magic event, you may roll d% twice and pick which of the two results you wish to have occur."
 		]
@@ -3989,7 +3989,7 @@
 			"",
 			"If the target has more than one spellcasting class, choose one at random to be affected. This spell has no effect on spell-like abilities.",
 			"",
-			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a concentration check while trying to cast-the spell or spell slot is wasted and has no effect, but it is recovered normally the next time the character prepares spells or regains spell slots."
+			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a concentration check while trying to cast - the spell or spell slot is wasted and has no effect, but it is recovered normally the next time the character prepares spells or regains spell slots."
 		]
 	},
 	"sphere_of_warding": {
@@ -6100,7 +6100,7 @@
 			"**Duration** 3 rounds  ",
 			"**Saving Throw** Fortitude partial; **Spell Resistance** yes",
 			"",
-			"This spell extracts the air from the target's lungs, causing swift suffocation. The target can attempt to resist this spell's effects with a Fortitude save-if he succeeds, he is merely staggered for 1 round as he gasps for breath. If the target fails, he immediately begins to suffocate. On the target's next turn, he falls unconscious and is reduced to 0 hit points. One round later, the target drops to -1 hit points and is dying. One round after that, the target dies. Each round, the target can delay that round's effects from occurring by making a successful Fortitude save, but the spell effect continues for 3 rounds, and each time a target fails his Fortitude save, he moves one step further along the track to suffocation. This spell only affects living creatures that must breathe. It is impossible to defeat the effects of this spell by simply holding one's breath-if the victim fails the initial saving throw, the air in his lungs is extracted.",
+			"This spell extracts the air from the target's lungs, causing swift suffocation. The target can attempt to resist this spell's effects with a Fortitude save - if he succeeds, he is merely staggered for 1 round as he gasps for breath. If the target fails, he immediately begins to suffocate. On the target's next turn, he falls unconscious and is reduced to 0 hit points. One round later, the target drops to -1 hit points and is dying. One round after that, the target dies. Each round, the target can delay that round's effects from occurring by making a successful Fortitude save, but the spell effect continues for 3 rounds, and each time a target fails his Fortitude save, he moves one step further along the track to suffocation. This spell only affects living creatures that must breathe. It is impossible to defeat the effects of this spell by simply holding one's breath - if the victim fails the initial saving throw, the air in his lungs is extracted.",
 			"",
 			"### Suffocation, Mass",
 			"",
@@ -6313,7 +6313,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell summons a single {monster/accuser devil} from Hell to do the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to diabolists as zebubs, are hideous flying creatures with the torso of a plump human infant and the body and wings of an enormous fly. They make excellent spies, for they have the ability to grant visions of what they have witnessed to others-the Queen's Hands sometimes use summoned zebubs to observe suspects from afar."
+			"This spell summons a single {monster/accuser devil} from Hell to do the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to diabolists as zebubs, are hideous flying creatures with the torso of a plump human infant and the body and wings of an enormous fly. They make excellent spies, for they have the ability to grant visions of what they have witnessed to others - the Queen's Hands sometimes use summoned zebubs to observe suspects from afar."
 		]
 	},
 	"summon_ancestral_guardian": {

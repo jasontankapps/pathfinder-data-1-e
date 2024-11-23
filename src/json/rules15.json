@@ -60,7 +60,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/196}",
 			"",
-			"The arrays presented in this section allow you to quickly derive the statistics for three broad types of monsters. Each one allows for a fair amount of customization-especially through monster options-but the monster's statistics stay close to the baselines set by PC progressions and [Table 1-1 in the Bestiary](rule/step_2_target_statistics). The options roughly correspond to the combat, skill, and spell roles used for monster advancement in the normal monster creation system. Therefore, if you were to recreate a monster with the combat role (such as an ogre or vrock), you would start with the combatant array. You can choose whichever array you prefer, unless the monster is meant to mimic an NPC created with a character class from [Step 2](rule/step_2_creature_type_or_class_graft) or a template from [Step 4](rule/step_4_template_graft). The three arrays are as follows.",
+			"The arrays presented in this section allow you to quickly derive the statistics for three broad types of monsters. Each one allows for a fair amount of customization - especially through monster options - but the monster's statistics stay close to the baselines set by PC progressions and [Table 1-1 in the Bestiary](rule/step_2_target_statistics). The options roughly correspond to the combat, skill, and spell roles used for monster advancement in the normal monster creation system. Therefore, if you were to recreate a monster with the combat role (such as an ogre or vrock), you would start with the combatant array. You can choose whichever array you prefer, unless the monster is meant to mimic an NPC created with a character class from [Step 2](rule/step_2_creature_type_or_class_graft) or a template from [Step 4](rule/step_4_template_graft). The three arrays are as follows.",
 			"",
 			"***Combatant:*** Any monster that focuses primarily on its physical power uses the combatant array. High attack bonuses, hit points, and defenses are the defining traits of this array. A combatant's skills are weak, and the majority of its options are in the combat category. Most creatures of low or no Intelligence should be combatants, as should intelligent monsters with combat training.",
 			"",
@@ -126,7 +126,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/196}",
 			"",
-			"In the simple monster creation system, you don't use the normal calculations to generate your monster's final statistics. Instead, you take the numbers directly from the array, then make a few adjustments based on grafts and monster options later along in the process. In other words, if the array says the monster's Fortitude saving throw bonus is +11, that number is its total bonus-it's assumed to already include all bonuses from Hit Dice, classes, Constitution modifier, and magic items, regardless of later adjustments.",
+			"In the simple monster creation system, you don't use the normal calculations to generate your monster's final statistics. Instead, you take the numbers directly from the array, then make a few adjustments based on grafts and monster options later along in the process. In other words, if the array says the monster's Fortitude saving throw bonus is +11, that number is its total bonus - it's assumed to already include all bonuses from Hit Dice, classes, Constitution modifier, and magic items, regardless of later adjustments.",
 			"",
 			"Each array consists of two tables: the first contains most of the monster's statistics and choices, and the second contains the array's options for attacks and damage values. To start creating your monster's statistics, find the table with the appropriate array and go to the row for your monster's desired CR. Record the statistics from that row according to the following guidelines.",
 			"",
@@ -138,9 +138,9 @@
 			"",
 			"***Options:*** Most of a monster's abilities beyond its base statistics come from monster options. There are four categories of options: combat, magic, social, and universal. Each entry lists how many options of a given category that monster can take, with \"any\" meaning that there's no category restriction for those options. Make a note of how many options of each type the monster gets. You define the options in [Step 7](rule/step_7_monster_options).",
 			"",
-			"***Attacks and Damage:*** The second table shows four options for a monster's attacks. Two columns show weapon-based attacks, one with a high bonus and one with a low bonus. Use the higher attack and damage values for the monster's main attack. If the monster has additional attacks that are less powerful, use the lower attack and damage values for those attacks-a creature that's primarily a ranged attacker would use high values for its longbow attacks and low values for its longsword attacks. You can mix and match these values. For example, since ranged attacks typically deal less damage, you might have a longbow attack use the high attack value but the low damage value.",
+			"***Attacks and Damage:*** The second table shows four options for a monster's attacks. Two columns show weapon-based attacks, one with a high bonus and one with a low bonus. Use the higher attack and damage values for the monster's main attack. If the monster has additional attacks that are less powerful, use the lower attack and damage values for those attacks - a creature that's primarily a ranged attacker would use high values for its longbow attacks and low values for its longsword attacks. You can mix and match these values. For example, since ranged attacks typically deal less damage, you might have a longbow attack use the high attack value but the low damage value.",
 			"",
-			"The remaining two columns are for natural attacks-either two attacks (two slam or claw attacks, for example) or one powerful primary attack and two weaker secondary attacks (such as a bite and two claws). At some levels, a monster might have a negative number for an attack bonus; this means that number of attacks is probably too strong for a monster of that CR. These entries are included for completeness.",
+			"The remaining two columns are for natural attacks - either two attacks (two slam or claw attacks, for example) or one powerful primary attack and two weaker secondary attacks (such as a bite and two claws). At some levels, a monster might have a negative number for an attack bonus; this means that number of attacks is probably too strong for a monster of that CR. These entries are included for completeness.",
 			"",
 			"The number in parentheses indicates the amount of damage each attack deals. For example, an entry that reads \"+10/+5 (10)\" means that when the monster makes a full attack, it makes one attack at +10 and one at +5, and that each attack deals an average of 10 points of damage. An entry reading \"1 at +10 (10), 2 at +5 (5)\" indicates that the monster would make one attack at +10 that deals 10 points of damage and two at +5 that deal 5 points of damage each.",
 			"",
@@ -1854,7 +1854,7 @@
 			"",
 			"### Skeleton (CR 8-)",
 			"",
-			"The animated bones of the dead attack as a skeleton-a mindless soldier in an army of the dead.",
+			"The animated bones of the dead attack as a skeleton - a mindless soldier in an army of the dead.",
 			"",
 			"***Required Creature Type:*** Undead.",
 			"",
@@ -1984,7 +1984,7 @@
 			"",
 			"The spells you choose for the monster during this step represent its total spellcasting arsenal for an encounter. If you want to treat some of the spells as being cast from scrolls, wands, or staves, implement them as such during play. Regardless of the source, additional spells still count against the total number the monster can cast.",
 			"",
-			"You'll also notice that some types of spells don't appear on these lists-especially spells that solely increase statistics, such as {spell/bull's strength}, {spell/false life}, and {spell/mage armor}. That's because such spells are often cast before combat, and the simple monster creation system assumes the effects of those spells are already in the monster's base numbers.",
+			"You'll also notice that some types of spells don't appear on these lists - especially spells that solely increase statistics, such as {spell/bull's strength}, {spell/false life}, and {spell/mage armor}. That's because such spells are often cast before combat, and the simple monster creation system assumes the effects of those spells are already in the monster's base numbers.",
 			"",
 			"***Spell DCs:*** To determine the DC of a spell cast by a monster, add the spell's level to the number listed in the spell DC column of the monster's array. Use the spell's cleric or sorcerer/wizard level if multiple classes can cast it. If neither of those classes has the spell, use the highest spell level listed in the spell's description."
 		],
@@ -2020,7 +2020,7 @@
 			"",
 			"The easiest way to choose spells for a monster is to select a spell list from among those on the following pages that best matches its theme, using the options in this section. A fey with powerful spell-like abilities might choose the enchantment, fey, nature, or trickery spell list. A wizard dedicated to flame might choose the fire spell list, a dedicated transmuter would likely pick the transmutation list, and a generalist might take the arcane or magic list.",
 			"",
-			"When you choose a spell list, the monster gains the following sets of spells according to its CR band-the spellcasting range its CR falls into.",
+			"When you choose a spell list, the monster gains the following sets of spells according to its CR band - the spellcasting range its CR falls into.",
 			"",
 			"- The primary spells of its CR band, usable once per day. These are the monster's highest-level spells.",
 			"- Both the primary and secondary spells of the CR band one step lower than its own CR band, usable three times per day. These account for the monster's less potent spells.",
@@ -4333,7 +4333,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
 			"",
-			"The following sections re-create monsters found in the Bestiary. Many of them are variants on the initial creatures, meant to mimic creatures with class levels or alternate ability sets. Each entry includes a breakdown of the significant choices made for the monster, discounting simple procedures such as selecting the attacks and damage for a monster that don't deviate from its array numbers. After each breakdown, the monster's statistics appear in a new format unique to this section, as described below. The monsters are presented in order from simplest to most complex. Some of the monsters that appear early on-particularly combatants-have a high CR but simple abilities, so they're still easy to create.",
+			"The following sections re-create monsters found in the Bestiary. Many of them are variants on the initial creatures, meant to mimic creatures with class levels or alternate ability sets. Each entry includes a breakdown of the significant choices made for the monster, discounting simple procedures such as selecting the attacks and damage for a monster that don't deviate from its array numbers. After each breakdown, the monster's statistics appear in a new format unique to this section, as described below. The monsters are presented in order from simplest to most complex. Some of the monsters that appear early on - particularly combatants - have a high CR but simple abilities, so they're still easy to create.",
 			"",
 			"### Unchained Monster Statistics",
 			"",
@@ -5631,7 +5631,7 @@
 		"description": [
 			"{SOURCE Ultimate Combat/198}",
 			"",
-			"The piecemeal armor system splits up armor into three general types of armor pieces. An armor piece is a small group of armor parts, rather than simply being any discrete part of the armor. A single armor piece comprises the armor parts one needs to protect its corresponding area-either the arms, the legs, or the torso (including the head); a single arm or leg armor piece provides armor for both arms or both legs, respectively. A plate arm armor piece typically consists of pairs of pauldrons, gardbraces, rerebraces, vambraces, and gauntlets along with bits of chainmail and padded armor, while a chain lamellar arm armor piece consists of two chain sleeves, gauntlets, and perhaps pairs of pauldrons and couters. Both protect the arms, though they have a different number of specific parts and types of overall components.",
+			"The piecemeal armor system splits up armor into three general types of armor pieces. An armor piece is a small group of armor parts, rather than simply being any discrete part of the armor. A single armor piece comprises the armor parts one needs to protect its corresponding area - either the arms, the legs, or the torso (including the head); a single arm or leg armor piece provides armor for both arms or both legs, respectively. A plate arm armor piece typically consists of pairs of pauldrons, gardbraces, rerebraces, vambraces, and gauntlets along with bits of chainmail and padded armor, while a chain lamellar arm armor piece consists of two chain sleeves, gauntlets, and perhaps pairs of pauldrons and couters. Both protect the arms, though they have a different number of specific parts and types of overall components.",
 			"",
 			"The protective qualities of each individual piece of armor are listed in Table 5-7: Arm Armor Pieces, Table 5-8: Leg Armor Pieces, and Table 5-9: Torso Armor Pieces. If a character has only one armor piece, that piece is considered the totality of her armor, and she uses the statistics of that piece as her armor. If a character is wearing more than one armor piece, she add the armor costs, armor bonuses, and weights of the armor pieces, and takes the worst maximum Dexterity bonus, arcane spell failure chance, and speed limitations from among the various armor pieces to determine the full statistics and qualities of the armor she is wearing. As long as she is wearing a single armor piece, she is considered to be wearing armor for any effects that rely on wearing armor (such as the fighter class's armor training and armor mastery).",
 			"",
@@ -6222,7 +6222,7 @@
 		"description": [
 			"{SOURCE Ultimate Combat/206}",
 			"",
-			"Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat-in other words, that the decreasing hit points are a marker for his overall endurance and condition. It's not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword's slash made the enemy a little less lucky.",
+			"Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat - in other words, that the decreasing hit points are a marker for his overall endurance and condition. It's not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword's slash made the enemy a little less lucky.",
 			"",
 			"This variant system for tracking wounds and vigor should help to remedy that. As with the other systems in this section, this system is entirely optional."
 		],
@@ -6512,8 +6512,7 @@
 			"",
 			"An undead that is suffering from withdrawal grows increasingly drawn and gaunt (or diaphanous and tattered, for incorporeal undead). Any attempts by the creature to conceal its undead nature with the Disguise skill are penalized as noted on the table.",
 			"",
-			"An undead that suffers withdrawal is acutely aware of its unfulfilled addiction; if presented with the chance to feed, it might be compelled to do so, regardless of the consequences. Anytime it comes within 10 feet of a helpless creature that can sate its desire, it must make another hunger save at the current DC. Failure means it falls upon the helpless creature-whether friend or foe-",
-			"and attempts to consume or drain it. Until the undead has fed, it can take no action other than to feed from this helpless creature or to enable itself to feed (such as a moroi grappling a creature so it can use its blood drain). During this feeding frenzy, the undead creature takes a -2 penalty to its AC."
+			"An undead that suffers withdrawal is acutely aware of its unfulfilled addiction; if presented with the chance to feed, it might be compelled to do so, regardless of the consequences. Anytime it comes within 10 feet of a helpless creature that can sate its desire, it must make another hunger save at the current DC. Failure means it falls upon the helpless creature - whether friend or foe - and attempts to consume or drain it. Until the undead has fed, it can take no action other than to feed from this helpless creature or to enable itself to feed (such as a moroi grappling a creature so it can use its blood drain). During this feeding frenzy, the undead creature takes a -2 penalty to its AC."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -7633,7 +7632,7 @@
 			"",
 			"This esoteric library is an [immersive mindscape](rule/immersive_mindscapes) where an {monster/ancient astral dragon} stores her knowledge and memories in an elaborate cloud palace. The mindscape is overt and has a self-contained shape. Its feedback is harmless, and it has normal gravity, normal time, and magic works normally within it.",
 			"",
-			"The dragon's memory palace is extremely complex, and filled with nearly all of her experiences from her millennia of existence, categorized in a very occult fashion. What is even more challenging is that outsiders can access the mindscape only while the dragon sleeps. While the dragon tends to slumber for long periods (typically between 7-13 days), when it awakens any intruders are expelled from the mindscape-unless they discover the secret that lets them stay within the mindscape while the dragon is awake.",
+			"The dragon's memory palace is extremely complex, and filled with nearly all of her experiences from her millennia of existence, categorized in a very occult fashion. What is even more challenging is that outsiders can access the mindscape only while the dragon sleeps. While the dragon tends to slumber for long periods (typically between 7-13 days), when it awakens any intruders are expelled from the mindscape - unless they discover the secret that lets them stay within the mindscape while the dragon is awake.",
 			"",
 			"#### Astral Dragon's Memory Palace CR 18",
 			"",
@@ -7727,7 +7726,7 @@
 			"",
 			"**Lookout:** A thief acts as a lookout, monitoring one direction for oncoming guards or witnesses. The thief's total Perception skill bonus is +6.",
 			"",
-			"**Pickpocket:** A thief attempts to take a specific item from a specific person. The thief's total Sleight of Hand skill bonus is +8. If the thief believes the situation is too dangerous, she informs the PCs and refuses to attempt the task-in this case, the favor is not expended.",
+			"**Pickpocket:** A thief attempts to take a specific item from a specific person. The thief's total Sleight of Hand skill bonus is +8. If the thief believes the situation is too dangerous, she informs the PCs and refuses to attempt the task - in this case, the favor is not expended.",
 			"",
 			"---",
 			"",

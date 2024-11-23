@@ -216,7 +216,7 @@
 			"",
 			"- Blindsense 60 feet.",
 			"- Immunity to ability damage, aging, bleed, disease, energy drain, fire, mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, poison, and polymorph. Some behemoths possess additional immunities.",
-			"- Regeneration (Ex) No form of attack can suppress a behemoth's regeneration - it regenerates even if disintegrated or slain by a death effect. If a behemoth fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported away as a means to save a region, but the only way to truly kill a behemoth is to use miracle or wish to negate its regeneration (see below).",
+			"- **Regeneration (Ex):** No form of attack can suppress a behemoth's regeneration - it regenerates even if disintegrated or slain by a death effect. If a behemoth fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported away as a means to save a region, but the only way to truly kill a behemoth is to use miracle or wish to negate its regeneration (see below).",
 			"- DR 15/epic.",
 			"- SR equal to 11 + the behemoth's CR.",
 			"- Behemoths understand Aklo, but cannot speak.",
@@ -458,8 +458,8 @@
 			"",
 			"- Immunity to fire and poison.",
 			"- Resistance to acid 10 and electricity 10.",
-			"- See in Darkness (Su) Some divs can see perfectly in darkness of any kind, even that created by a deeper darkness spell.",
-			"- Summon (Sp) Some divs share the ability to summon others of their kind. Each entry describes the success chance and type of divs summoned.",
+			"- **See in Darkness (Su):** Some divs can see perfectly in darkness of any kind, even that created by a deeper darkness spell.",
+			"- **Summon (Sp):** Some divs share the ability to summon others of their kind. Each entry describes the success chance and type of divs summoned.",
 			"- Telepathy.",
 			"- Except where otherwise noted, divs speak Abyssal, Celestial, and Infernal."
 		]
@@ -745,7 +745,7 @@
 			"Inevitables are construct-like outsiders built by the axiomites to enforce law. They have the following traits.",
 			"",
 			"- Low-light vision.",
-			"- Constructed (Ex) Although inevitables are living outsiders, their bodies are constructed of physical components and in many ways they function as constructs. For the purposes of effects targeting creatures by type (such as a ranger's favored enemy and bane weapons), inevitables count as both outsiders and constructs. They are immune to death effects, disease, mind-affecting effects, necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless). Inevitables are not subject to nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. They are not at risk of death from massive damage. They have bonus hit points as constructs of their size.",
+			"- **Constructed (Ex):** Although inevitables are living outsiders, their bodies are constructed of physical components and in many ways they function as constructs. For the purposes of effects targeting creatures by type (such as a ranger's favored enemy and bane weapons), inevitables count as both outsiders and constructs. They are immune to death effects, disease, mind-affecting effects, necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless). Inevitables are not subject to nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. They are not at risk of death from massive damage. They have bonus hit points as constructs of their size.",
 			"- **Saves:** An inevitable's good saving throws are Fortitude and Will.",
 			"- **Skills:** In addition to the class skills all outsiders have, inevitables have Acrobatics, Diplomacy, Intimidate, and Survival as class skills.",
 			"- **Regeneration (Ex):** Inevitables have regeneration/ chaotic. The regeneration amount varies by the type of inevitable.",
@@ -1219,9 +1219,9 @@
 			"",
 			"All Spawn of Rovagug are Colossal magical beasts that possess the following traits.",
 			"",
-			"- Hibernation (Ex) Spawn of Rovagug can sleep for years, decades, or even centuries and do not need to eat or breathe during these periods of dormancy. If a spawn of Rovagug is forced into an environment where it cannot breathe and would suffocate, it goes into hibernation until conditions are right for it to reawaken. While in hibernation, a spawn of Rovagug's damage reduction improves to 50/epic and it gains immunity to any spell or spell-like ability that allows spell resistance as well as all divination effects.",
-			"- Regeneration (Ex) All spawn of Rovagug possess regeneration, and no form of attack can suppress this regeneration; they regenerate even if disintegrated or slain by a death effect. If a spawn of Rovagug fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported as a means to save a region, but a method to kill Spawn of Rovagug has yet to be discovered.",
-			"- Unstoppable Force (Ex) A spawn of Rovagug can always charge, even if its movement is impeded or its path is blocked by another creature. It receives a +20 racial bonus on combat maneuver checks to overrun and Strength checks to break or destroy objects, and can make one such check as a free action as part of a charge. In addition, the natural weapons of a spawn of Rovagug ignore all forms of damage reduction and hardness."
+			"- **Hibernation (Ex):** Spawn of Rovagug can sleep for years, decades, or even centuries and do not need to eat or breathe during these periods of dormancy. If a spawn of Rovagug is forced into an environment where it cannot breathe and would suffocate, it goes into hibernation until conditions are right for it to reawaken. While in hibernation, a spawn of Rovagug's damage reduction improves to 50/epic and it gains immunity to any spell or spell-like ability that allows spell resistance as well as all divination effects.",
+			"- **Regeneration (Ex):** All spawn of Rovagug possess regeneration, and no form of attack can suppress this regeneration; they regenerate even if disintegrated or slain by a death effect. If a spawn of Rovagug fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported as a means to save a region, but a method to kill Spawn of Rovagug has yet to be discovered.",
+			"- **Unstoppable Force (Ex):** A spawn of Rovagug can always charge, even if its movement is impeded or its path is blocked by another creature. It receives a +20 racial bonus on combat maneuver checks to overrun and Strength checks to break or destroy objects, and can make one such check as a free action as part of a charge. In addition, the natural weapons of a spawn of Rovagug ignore all forms of damage reduction and hardness."
 		]
 	},
 	"swarm": {

@@ -607,7 +607,7 @@
 			"",
 			"This spell was created by the paladins of the Mendevian Crusades, and co-opted by inquisitors and rangers dedicated to tracking and fighting demons, devils, and other evil extraplanar creatures.",
 			"",
-			"When you cast this spell on a melee weapon you imbue it with a powerful holy energy, granting the weapon the bane weapon quality against evil outsiders. Furthermore, whenever you score a successful critical hit against an outsider with the evil subtype, you not only deal normal critical damage with the weapon but also nauseate the outsider for 1d3 rounds-the outsider can reduce this nauseated condition to sickened for 1 round with a successful Fortitude save.",
+			"When you cast this spell on a melee weapon you imbue it with a powerful holy energy, granting the weapon the bane weapon quality against evil outsiders. Furthermore, whenever you score a successful critical hit against an outsider with the evil subtype, you not only deal normal critical damage with the weapon but also nauseate the outsider for 1d3 rounds - the outsider can reduce this nauseated condition to sickened for 1 round with a successful Fortitude save.",
 			"",
 			"### Mythic Crusader's Edge",
 			"",
@@ -2725,7 +2725,7 @@
 			"",
 			"The target's soul is strongly anchored to its body, preventing death from hit point damage. No matter how low the target's hit points get, it remains alive (though not necessarily conscious).",
 			"",
-			"This spell doesn't prevent death from sources other than hit point damage-such as Constitution damage or drain, death effects, or energy drain. Spells that cure hit points affect the creature normally.",
+			"This spell doesn't prevent death from sources other than hit point damage - such as Constitution damage or drain, death effects, or energy drain. Spells that cure hit points affect the creature normally.",
 			"",
 			"### Mythic Deathless",
 			"",
@@ -3528,7 +3528,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"Choose a creature within range as the object of hunger. All other creatures within 15 feet of the target that can see or smell the target's delectable flesh must succeed at a Will save or spiral into a depraved state from which they gain a single purpose-to consume as much of the target's delicious flesh as possible. The creature chosen as the target of this spell is not affected by this depravity.",
+			"Choose a creature within range as the object of hunger. All other creatures within 15 feet of the target that can see or smell the target's delectable flesh must succeed at a Will save or spiral into a depraved state from which they gain a single purpose - to consume as much of the target's delicious flesh as possible. The creature chosen as the target of this spell is not affected by this depravity.",
 			"",
 			"A depraved creature gains a bite attack, two claw attacks, and the scent ability if it didn't already have them. It drops any items it was carrying and attacks the target of the spell with these natural weapons, acting as if it were confused and the target had attacked it first. This effect lasts for the spell's duration or until the depraved creature can no longer see or smell the object of its hunger for a full minute. Additionally, a depraved creature can attempt a new saving throw to end this effect at the end of any turn in which the affected creature makes an attack against the object of its hunger. If a creature that eats for nourishment succeeds at a save to end the depraved effect early, it takes a -2 penalty on ability checks, attack rolls, concentration checks, saving throws, and skill checks whenever it is within 15 feet of the target."
 		]
@@ -4349,7 +4349,7 @@
 			"**Duration** 10 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You detect radiation in the surrounding area. You see radioactive auras as a glowing green shimmer in the air that emanates from radioactive objects; the brighter and more intense the green, the more powerful the radioactivity. This glow does not provide illumination or allow you to see in darkness, apart from being able to see the glow itself. The spell can penetrate barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead blocks it-although radiation can seep into such barriers, causing them to become radioactive (and thus visible to the spell) in time."
+			"You detect radiation in the surrounding area. You see radioactive auras as a glowing green shimmer in the air that emanates from radioactive objects; the brighter and more intense the green, the more powerful the radioactivity. This glow does not provide illumination or allow you to see in darkness, apart from being able to see the glow itself. The spell can penetrate barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead blocks it - although radiation can seep into such barriers, causing them to become radioactive (and thus visible to the spell) in time."
 		]
 	},
 	"detect_relations": {
@@ -4941,7 +4941,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none and Will negates (object); **Spell Resistance** no and yes (object)",
 			"",
-			"You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired-whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.",
+			"You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired - whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.",
 			"",
 			"If you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.",
 			"",
@@ -5533,7 +5533,7 @@
 			"**Target** you  ",
 			"**Duration** 10 min./level (D)",
 			"",
-			"You make yourself-including clothing, armor, weapons, and equipment-look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.",
+			"You make yourself - including clothing, armor, weapons, and equipment - look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.",
 			"",
 			"The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. If you use this spell to create a disguise, you get a +10 bonus on the Disguise check. A creature that interacts with the glamer gets a Will save to recognize it as an illusion.",
 			"",
@@ -6376,7 +6376,7 @@
 			"",
 			"You accept otherworldly energies into your body and transform. Your size increases by one category, your height doubles, and your weight increases by a factor of eight. Your features shift into those of a cold and alien being of logic, a creature of primal chaos, an angelic presence, or a fiendish monster, as chosen by you. You gain a +6 size bonus to Strength and Constitution, a +3 natural armor bonus, darkvision 60 ft., and SR of 12 + your caster level. These modifiers replace the normal modifiers for increasing your size. The size modifier for AC, attacks, CMB, and CMD changes as appropriate for your new size category. This spell doesn't change your base speed. Determine space and reach as appropriate for your new size.",
 			"",
-			"If insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process. If you fail, you are constrained without harm by the materials enclosing you-the spell cannot crush you by increasing your size.",
+			"If insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process. If you fail, you are constrained without harm by the materials enclosing you - the spell cannot crush you by increasing your size.",
 			"",
 			"All equipment you wear or carry is similarly enlarged by this spell. Melee weapons deal more damage. Other magical properties are not affected by this spell. Any enlarged item that leaves your possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical effects that increase size do not stack.",
 			"",

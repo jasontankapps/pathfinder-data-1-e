@@ -3,7 +3,11 @@
 		"title": "Feats - Meditation",
 		"sources": [ "Faiths and Philosophies" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0}"
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -37,7 +41,11 @@
 		"title": "Feats - Weapon Mastery",
 		"sources": [],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_mastery).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -74,7 +82,11 @@
 		"title": "Feats - Armor Mastery",
 		"sources": [],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_mastery).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -105,7 +117,11 @@
 		"title": "Feats - Shield Mastery",
 		"sources": [],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_mastery).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -139,7 +155,11 @@
 		"title": "Feats - Item Mastery",
 		"sources": [],
 		"searchgroup": "feat",
-		"description": [],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_mastery).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -178,7 +198,11 @@
 		"title": "Feats - Monster",
 		"sources": [ "Horror Adventures" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_other).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -225,7 +249,11 @@
 		"title": "Feats - Teamwork",
 		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_multiperson).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -434,7 +462,11 @@
 		"title": "Feats - Betrayal",
 		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_multiperson).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -460,7 +492,11 @@
 		"title": "Feats - Teamwork, etc",
 		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_multiperson).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -479,10 +515,14 @@
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_trick": {
-		"title": "Feats - Stare/Trick",
+		"title": "Feats - Mesmerist Tricks",
 		"searchgroup": "feat",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -505,10 +545,14 @@
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_stare": {
-		"title": "Feats - Stare/Trick",
+		"title": "Feats - Mesmerist Stares",
 		"searchgroup": "feat",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -561,7 +605,11 @@
 		"title": "Feats - Story",
 		"sources": [ "Ultimate Campaign" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_roleplaying).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -591,7 +639,7 @@
 					[ [ "feat/damned", "Damned" ], "You must have had friendly contact with an evil-aligned outsider that would qualify as a challenging foe, have a fiend-related sorcerous bloodline such as abyssal or infernal, have direct fiendish ancestry (such as being a tiefling or half-fiend), or have the Fiend Raised or The Fiend background.", "Bonus to checks relating to evil-aligned outsiders" ],
 					[ [ "feat/dead_inside", "Dead Inside" ], "You must have failed your saving throws against at least five different emotion-manipulating spells or your saving throw against a supernatural creature's fear effect (such as a dragon's frightful presence), or you have the Sunless or Sole Survivor background.", "Handle emotion and fear spells/effects better" ],
 					[ [ "feat/deny_the_reaper", "Deny the Reaper" ], "You must have witnessed the death of a close companion in battle - a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage - or have the Death in the Family or The War background.", "+2 bonus on Heal, apply first aid as move action" ],
-					[ [ "feat/dragon-touched", "Dragon-Touched" ], "You must have been knocked unconscious in an encounter with a challenging draconic foe or have a regional background tied to a specific dragon (such as those presented in this section or a similar trait).", "+2 Reflex, +1 attack, +1 AC versus a specific kind of dragon" ],
+					[ [ "feat/dragon-touched", "Dragon-Touched" ], "You must have been knocked unconscious in an encounter with a challenging draconic foe or have a regional background tied to a specific dragon.", "+2 Reflex, +1 attack, +1 AC versus a specific kind of dragon" ],
 					[ [ "feat/dynasty_founder", "Dynasty Founder" ], "You must have lived in the chosen city for at least 1 year or be the heir of a former city leader.", "Exert your control over a city's policies and politics" ],
 					[ [ "feat/eldritch_researcher", "Eldritch Researcher" ], "You must have created a new spell, or have The Way Things Work background.", "Gain bonuses with spells that you've created" ],
 					[ [ "feat/embrace_of_the_dark_fey", "Embrace of the Dark Fey" ], "You must have an evil fey such as a quickling or redcap somewhere in your family line, or you must have the Shameful Heritage background.", "See text" ],
@@ -657,7 +705,11 @@
 		"title": "Feats - Style",
 		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -766,7 +818,11 @@
 	"feats_item_creation": {
 		"title": "Feats - Item Creation",
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_basic).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -811,7 +867,11 @@
 	"feats_metamagic": {
 		"title": "Feats - Metamagic",
 		"searchgroup": "rule",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_basic).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -915,7 +975,11 @@
 		"title": "Feats - Grit",
 		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -956,7 +1020,11 @@
 		"title": "Feats - Panache",
 		"sources": [ "Advanced Class Guide" ],
 		"searchgroup": "feat",
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],

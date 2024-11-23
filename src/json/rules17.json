@@ -260,7 +260,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/459}",
 			"",
-			"A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them-even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.",
+			"A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them - even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.",
 			"",
 			"Magic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the [broken condition](rule/broken_and_fragile), and might not function properly."
 		],
@@ -291,7 +291,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/459}",
 			"",
-			"Repairing a magic item requires material components equal to half the cost to create the item, and requires half the time. The make whole spell can also repair a damaged (or even a destroyed) magic item-if the caster is high enough level."
+			"Repairing a magic item requires material components equal to half the cost to create the item, and requires half the time. The make whole spell can also repair a damaged (or even a destroyed) magic item - if the caster is high enough level."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -815,7 +815,7 @@
 			"",
 			"A potion is a magic liquid that produces its effect when imbibed. Potions vary incredibly in appearance. Magic oils are similar to potions, except that oils are applied externally rather than imbibed. A potion or oil can be used only once. It can duplicate the effect of a spell of up to 3rd level that has a casting time of less than 1 minute and targets one or more creatures or objects. The price of a potion is equal to the level of the spell &times; the creator's caster level &times; 50 gp. If the potion has a material component cost, it is added to the base price and cost to create. Table 15-12 gives sample prices for potions created at the lowest possible caster level for each spellcasting class. Note that some spells appear at different levels for different casters. The level of such spells depends on the caster brewing the potion.",
 			"",
-			"Potions are like spells cast upon the imbiber. The character taking the potion doesn't get to make any decisions about the effect-the caster who brewed the potion has already done so. The drinker of a potion is both the effective target and the caster of the effect (though the potion indicates the caster level, the drinker still controls the effect).",
+			"Potions are like spells cast upon the imbiber. The character taking the potion doesn't get to make any decisions about the effect - the caster who brewed the potion has already done so. The drinker of a potion is both the effective target and the caster of the effect (though the potion indicates the caster level, the drinker still controls the effect).",
 			"",
 			"The person applying an oil is the effective caster, but the object is the target.",
 			"",
@@ -888,7 +888,7 @@
 			"",
 			"A character can only effectively wear two magic rings. A third magic ring doesn't work if the wearer is already wearing two magic rings.",
 			"",
-			"***Physical Description:*** Rings have no appreciable weight. Although exceptions exist that are crafted from glass or bone, the vast majority of rings are forged from metal-usually precious metals such as gold, silver, and platinum. A ring has AC 13, 2 hit points, hardness 10, and a break DC of 25.",
+			"***Physical Description:*** Rings have no appreciable weight. Although exceptions exist that are crafted from glass or bone, the vast majority of rings are forged from metal - usually precious metals such as gold, silver, and platinum. A ring has AC 13, 2 hit points, hardness 10, and a break DC of 25.",
 			"",
 			"***Activation:*** A ring's ability is usually activated by a spoken command word (a standard action that does not provoke attacks of opportunity) or its effects work continually. Some rings have unusual activations, as mentioned in the ring's specific description.",
 			"",
@@ -2364,7 +2364,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/543}",
 			"",
-			"[Artifacts](main/magic_artifacts) are extremely powerful. Rather than merely another form of magical equipment, they are the sorts of legendary relics that whole campaigns can be based on. Each could be the center of a whole set of adventures-a quest to recover it, a fight against an opponent wielding it, a mission to cause its destruction, and so on.",
+			"[Artifacts](main/magic_artifacts) are extremely powerful. Rather than merely another form of magical equipment, they are the sorts of legendary relics that whole campaigns can be based on. Each could be the center of a whole set of adventures - a quest to recover it, a fight against an opponent wielding it, a mission to cause its destruction, and so on.",
 			"",
 			"Unlike normal magic items, artifacts are not easily destroyed. Instead of construction information, each artifact includes one possible means by which it might be destroyed.",
 			"",
@@ -3050,7 +3050,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/170}",
 			"",
-			"Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons-they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.",
+			"Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons - they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.",
 			"",
 			"***Hampered Movement:*** Difficult terrain, obstacles, and poor visibility can hamper movement (see Table 7-7 for details). When movement is hampered, each square moved into usually counts as two squares, effectively reducing the distance that a character can cover in a move. If more than one hampering condition applies, multiply all additional costs that apply. This is a specific exception to the normal rule for doubling.",
 			"",
@@ -3660,7 +3660,7 @@
 			"",
 			"***Attacks:*** Some spell descriptions refer to attacking. All offensive combat actions, even those that don't damage opponents, are considered attacks. Attempts to channel energy count as attacks if it would harm any creatures in the area. All spells that opponents resist with saving throws, that deal damage, or that otherwise harm or hamper subjects are attacks. Spells that summon monsters or other allies are not attacks because the spells themselves don't harm anyone.",
 			"",
-			"***Bonus Types:*** Usually, a bonus has a type that indicates how the spell grants the bonus. The important aspect of bonus types is that two bonuses of the same type don't generally stack. With the exception of dodge bonuses, most circumstance bonuses, and racial bonuses, only the better bonus of a given type works (see [Combining Magical Effects](rule/combining_magic_effects)). The same principle applies to penalties-a character taking two or more penalties of the same type applies only the worst one, although most penalties have no type and thus always stack. Bonuses without a type always stack, unless they are from the same source.",
+			"***Bonus Types:*** Usually, a bonus has a type that indicates how the spell grants the bonus. The important aspect of bonus types is that two bonuses of the same type don't generally stack. With the exception of dodge bonuses, most circumstance bonuses, and racial bonuses, only the better bonus of a given type works (see [Combining Magical Effects](rule/combining_magic_effects)). The same principle applies to penalties - a character taking two or more penalties of the same type applies only the worst one, although most penalties have no type and thus always stack. Bonuses without a type always stack, unless they are from the same source.",
 			"",
 			"***Bringing Back the Dead:*** Several spells have the power to restore slain characters to life.",
 			"",
@@ -3846,7 +3846,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/209}",
 			"",
-			"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane (calling); create objects or effects on the spot (creation); heal (healing); bring manifestations of objects, creatures, or forms of energy to you (summoning); or transport creatures or objects over great distances (teleportation). Creatures you conjure usually-but not always-obey your commands.",
+			"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane (calling); create objects or effects on the spot (creation); heal (healing); bring manifestations of objects, creatures, or forms of energy to you (summoning); or transport creatures or objects over great distances (teleportation). Creatures you conjure usually - but not always - obey your commands.",
 			"",
 			"A creature or object brought into being or transported to your location by a conjuration spell cannot appear inside another creature or object, nor can it appear floating in an empty space. It must arrive in an open location on a surface capable of supporting it.",
 			"",
@@ -4867,7 +4867,7 @@
 			"",
 			"Wizards study ancient tomes to unlock arcane secrets of the universe, and clerics pray to distant deities to grant them divine power. Yet there is a third, more esoteric kind of magic, connected to every creature's composite being, from the conscious mind to the deepest desire, from the life force to the spirit, from the very soul to the cosmic self. This third type of magic is psychic magic.",
 			"",
-			"A psychic spell largely functions like any other spell. It's another type of magic, similar to arcane or divine magic-in fact, those who use psychic magic are easily mistaken for practitioners of arcane and divine traditions. [Metamagic feats](main/feats_metamagic) and any other rules that alter or trigger from spells can usually be used with psychic spells (though see the Components section below for a few exceptions). Psychic spellcasters aren't affected by effects that target only arcane or divine spellcasters, nor can they use arcane or divine scrolls or other items or feats that state they can be utilized by only arcane or divine spellcasters."
+			"A psychic spell largely functions like any other spell. It's another type of magic, similar to arcane or divine magic - in fact, those who use psychic magic are easily mistaken for practitioners of arcane and divine traditions. [Metamagic feats](main/feats_metamagic) and any other rules that alter or trigger from spells can usually be used with psychic spells (though see the Components section below for a few exceptions). Psychic spellcasters aren't affected by effects that target only arcane or divine spellcasters, nor can they use arcane or divine scrolls or other items or feats that state they can be utilized by only arcane or divine spellcasters."
 		],
 		"parent_topics": [
 			"playing_the_game",
@@ -4901,7 +4901,7 @@
 			"",
 			"***Emotion Components:*** Emotion components represent a particular emotional state required to cast the spell. A psychic spellcaster marshals her desire in order to focus and release the spell's energy. It is impossible to cast a spell with an emotion component while the spellcaster is under the influence of a non-harmless effect with the emotion or fear descriptors. Even if the effect's emotion matches the necessary emotion to cast the psychic spell, the spellcaster is not in control of her own desires and animal impulses, which is a necessary part of providing an emotion component.",
 			"",
-			"***Thought Components:*** Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail-down to the saliva dripping from its jaws-in order to cast [beast shape](spell/beast_shape_1) to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any concentration check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
+			"***Thought Components:*** Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail - down to the saliva dripping from its jaws - in order to cast [beast shape](spell/beast_shape_1) to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any concentration check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
 			"",
 			"Just as spell-like abilities never require verbal, somatic, or material components, these abilities also don't require thought or emotion components. A psychic spellcaster can replace verbal and somatic components with thought and emotion components only for the purposes of the spell components themselves, not for the purposes of any other rules elements that relate to verbal and somatic components. She can't use {feat/Silent Spell} to ignore the thought component of a spell, for example. The new feats {feat/Intuitive Spell} and {feat/Logical Spell} serve a similar function for these new components."
 		],

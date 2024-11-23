@@ -193,7 +193,11 @@
 	"feats_general": {
 		"title": "Feats - General",
 		"sources": [ "PRPG Core Rulebook" ],
-		"description": [ "{table0}" ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_basic).",
+			"",
+			"{table0} "
+		],
 		"singleTable": true,
 		"searchgroup": "feat",
 		"tables": [
@@ -2445,7 +2449,11 @@
 	"feats_critical": {
 		"title": "Feats - Critical",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_basic).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2492,7 +2500,11 @@
 	"feats_familiar": {
 		"title": "Feats - Familiar",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2519,7 +2531,11 @@
 	"feats_blood_hex": {
 		"title": "Feats - Blood Hex",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_class).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2674,7 +2690,11 @@
 	"feats_achievement": {
 		"title": "Feats - Achievement",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_roleplaying).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2697,7 +2717,11 @@
 	"feats_faction": {
 		"title": "Feats - Faction",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_roleplaying).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2733,7 +2757,11 @@
 	"feats_gathlain": {
 		"title": "Feats - Gathlain Court Titles",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_roleplaying).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2756,7 +2784,11 @@
 	"feats_alignment": {
 		"title": "Feats - Alignment",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_roleplaying).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2784,7 +2816,11 @@
 	"feats_damnation": {
 		"title": "Feats",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_roleplaying).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2807,7 +2843,11 @@
 	"feats_combination": {
 		"title": "Feats - Combination",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_other).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2833,7 +2873,11 @@
 	"feats_conduit": {
 		"title": "Feats - Conduit",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_other).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2875,7 +2919,11 @@
 	"feats_performance": {
 		"title": "Feats - Performance",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_other).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -2909,7 +2957,11 @@
 	"feats_origin": {
 		"title": "Feats - Origin",
 		"searchgroup": "rule",
-		"description": [ "{table0} " ],
+		"description": [
+			"Information about these feats can be found [here](rule/feats_other).",
+			"",
+			"{table0} "
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],

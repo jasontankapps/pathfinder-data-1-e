@@ -7,9 +7,9 @@
 			"",
 			"In 2008, Paizo released the Pathfinder Roleplaying Game. It was a massive project, and we gave it everything we had, combining the best legacies of the past with fresh new ideas to create the game you know today.",
 			"",
-			"But a game designer never stops tinkering. In the years since, we've released tons of new rules, from classes and subsystems to feats and spells. Yet there were always those ideas too big to be touched-the shiny, terrifying ones that could fundamentally alter the way the game works. Unwilling to rock the boat, we incorporated them into our home games or set them aside.",
+			"But a game designer never stops tinkering. In the years since, we've released tons of new rules, from classes and subsystems to feats and spells. Yet there were always those ideas too big to be touched - the shiny, terrifying ones that could fundamentally alter the way the game works. Unwilling to rock the boat, we incorporated them into our home games or set them aside.",
 			"",
-			"Until now. Within these pages, you'll find lovingly crafted refinements that fine-tune the Pathfinder RPG rules system, and mad experiments that transform it completely. With *Pathfinder Unchained*, you become the designer-which parts of these rules you incorporate into your game, and which parts you leave on the shelf, are entirely your call.",
+			"Until now. Within these pages, you'll find lovingly crafted refinements that fine-tune the Pathfinder RPG rules system, and mad experiments that transform it completely. With *Pathfinder Unchained*, you become the designer - which parts of these rules you incorporate into your game, and which parts you leave on the shelf, are entirely your call.",
 			"",
 			"We're opening up our workshop and offering you our best tools. What you build with them is up to you."
 		],
@@ -60,7 +60,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/95}",
 			"",
-			"Many campaigns treat alignment mechanically-as a class prerequisite, a rough concept of moral standing (often open to much bickering and debate), and a benchmark for letting you know what weapons and spells to avoid. Others treat it with more reverence, with each player delving deeply into her character's alignment and the PCs becoming exemplars of their respective moral philosophies.",
+			"Many campaigns treat alignment mechanically - as a class prerequisite, a rough concept of moral standing (often open to much bickering and debate), and a benchmark for letting you know what weapons and spells to avoid. Others treat it with more reverence, with each player delving deeply into her character's alignment and the PCs becoming exemplars of their respective moral philosophies.",
 			"",
 			"The following variant system treats alignment as a storytelling mechanic, giving you guidance on creating challenges, tracking shifts, and presenting rewards to those who champion their alignments appropriately.",
 			"",
@@ -267,7 +267,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/72}",
 			"",
-			"While the Pathfinder Roleplaying Game takes place in a world of grand and heroic adventure, not every corner of the campaign setting is full of monsters and villains. Like the real world, it is home to common artisans, merchants, and tradespeople-those who spend their lives making and selling goods or performing specialized tasks that require particular knowledge. Many heroes have a humble start as apprentices or artisans before hearing the call to adventure. Some even keep up with their former crafts and talents and find ways to utilize their skills and knowledge while adventuring."
+			"While the Pathfinder Roleplaying Game takes place in a world of grand and heroic adventure, not every corner of the campaign setting is full of monsters and villains. Like the real world, it is home to common artisans, merchants, and tradespeople - those who spend their lives making and selling goods or performing specialized tasks that require particular knowledge. Many heroes have a humble start as apprentices or artisans before hearing the call to adventure. Some even keep up with their former crafts and talents and find ways to utilize their skills and knowledge while adventuring."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -816,7 +816,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/75}",
 			"",
-			"Crafting items requires a certain ratio of raw materials to start. Typically, these raw materials are some sort of trade good that is required to make the item. Making a suit of chainmail, for instance, requires 37 gp and 5 sp worth of steel (assuming you are using the alternate Craft skill presented above). But not all raw materials are the same-some raw materials are better suited for crafting. These are special raw materials.",
+			"Crafting items requires a certain ratio of raw materials to start. Typically, these raw materials are some sort of trade good that is required to make the item. Making a suit of chainmail, for instance, requires 37 gp and 5 sp worth of steel (assuming you are using the alternate Craft skill presented above). But not all raw materials are the same - some raw materials are better suited for crafting. These are special raw materials.",
 			"",
 			"Unlike normal raw materials, special raw materials have both a cost and a crafting cost. The cost of the special raw material is the amount for which it can be purchased and sold. Special raw materials are trade goods, and like all trade goods, they can be bought and sold for the same price. The crafting cost is the amount of gold they are considered to be worth for the purposes of crafting. For example, flawless steel's cost is 8 gp per pound, but its crafting cost per pound is 4 gp. It can be bought and sold for 8 gp per pound, but when used as the raw material for crafting items, it is considered to be worth only 4 gp per pound.",
 			"",
@@ -1707,7 +1707,7 @@
 			"",
 			"Typically, monsters don't gain access to the background skills system from their racial Hit Dice. The Game Master might decide that certain types of monsters might have extensive lives as workers and crafters (such as storm giants, for example) and therefore gain background skills, but this is optional.",
 			"",
-			"NPCs gain background skills in the same fashion PCs do, but only for PC classes they possess. This also applies to monsters with levels in PC classes. NPCs don't have to spend their background skill ranks, and these skills rarely affect combat. Characters with only NPC classes-especially aristocrats, commoners, and experts-often spend their adventuring skill ranks on background skills."
+			"NPCs gain background skills in the same fashion PCs do, but only for PC classes they possess. This also applies to monsters with levels in PC classes. NPCs don't have to spend their background skill ranks, and these skills rarely affect combat. Characters with only NPC classes - especially aristocrats, commoners, and experts - often spend their adventuring skill ranks on background skills."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -1767,7 +1767,7 @@
 			"",
 			"| Artistry DC | Workmanship |",
 			"| --- | --- |",
-			"| 10 | Pedestrian work. No one buys your original work, but you get a few odd jobs using your skills-often just repairing or copying someone else's work. You earn 1d10 cp per day. |",
+			"| 10 | Pedestrian work. No one buys your original work, but you get a few odd jobs using your skills - often just repairing or copying someone else's work. You earn 1d10 cp per day. |",
 			"| 15 | Pleasing work. In a prosperous city, you find a few who wish to purchase your work, and earn 1d10 sp per day. |",
 			"| 20 | Impressive work. In a prosperous city, you earn 3d10 sp per day, and may receive an artistic commission from a wealthy or public figure. As a result, you gain a local reputation. |",
 			"| 25 | Memorable work. In a prosperous city, you earn 1d6 gp per day, and you are likely to attract the attention of wealthy patrons and to develop a national reputation. |",
@@ -3306,7 +3306,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
 			"",
-			"You can try to fool someone by attempting an Influence check. The DC of this check is the result of your opponent's Perception check to sense motive. Apply the appropriate modifiers from the table below. These modifiers stack with each other, but apply only one modifier related to the believability of the lie-the more outlandish the lie, the harder it is to make others believe it. The GM might rule that attempts to tell extremely improbable lies automatically fail.",
+			"You can try to fool someone by attempting an Influence check. The DC of this check is the result of your opponent's Perception check to sense motive. Apply the appropriate modifiers from the table below. These modifiers stack with each other, but apply only one modifier related to the believability of the lie - the more outlandish the lie, the harder it is to make others believe it. The GM might rule that attempts to tell extremely improbable lies automatically fail.",
 			"",
 			"| Lie Circumstances | Influence Check Modifier |",
 			"| --- | --- |",
@@ -5159,7 +5159,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/138}",
 			"",
-			"The basic Pathfinder rules for diseases and poisons don't necessarily mimic the progression of these afflictions in a believable way; a character with a few {spell/lesser restoration} spells can simply ignore most diseases, and diseases and poisons that don't affect your Constitution score can never kill you. What's more, because these afflictions tend to affect ability scores, their effects can be unrealistically powerful-a poison that damages Intelligence can take down any creature of animal intelligence, regardless of CR. The following optional system presents progression tracks for diseases and poisons that cause the victim's situation to become increasingly worse."
+			"The basic Pathfinder rules for diseases and poisons don't necessarily mimic the progression of these afflictions in a believable way; a character with a few {spell/lesser restoration} spells can simply ignore most diseases, and diseases and poisons that don't affect your Constitution score can never kill you. What's more, because these afflictions tend to affect ability scores, their effects can be unrealistically powerful - a poison that damages Intelligence can take down any creature of animal intelligence, regardless of CR. The following optional system presents progression tracks for diseases and poisons that cause the victim's situation to become increasingly worse."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -5207,7 +5207,7 @@
 			"",
 			"When a victim fails his initial save and is afflicted with a disease or poison, he immediately gains the effects of the first step down that affliction's progression track. For diseases, this is latent/carrier; for poisons, it's usually weakened. This replaces the affliction's normal effects (such as ability damage and ability drain), though many afflictions still produce additional symptoms. At the GM's discretion, truly deadly diseases and poisons might cause the victim to start further along the progression track than normal. All effects from disease and poison tracks are cumulative.",
 			"",
-			"Most afflictions also have an end state-a point at which the disease or poison has progressed as far as it can. Once an affliction has reached its end state, the victim keeps all current effects (but doesn't suffer further effects) and can no longer attempt saving throws to recover from the affliction. By default, each disease and poison track has an end state of dead, but some afflictions have less severe end states, and others might progress only to a certain intermediate state at worst, allowing victims to continue attempting saves.",
+			"Most afflictions also have an end state - a point at which the disease or poison has progressed as far as it can. Once an affliction has reached its end state, the victim keeps all current effects (but doesn't suffer further effects) and can no longer attempt saving throws to recover from the affliction. By default, each disease and poison track has an end state of dead, but some afflictions have less severe end states, and others might progress only to a certain intermediate state at worst, allowing victims to continue attempting saves.",
 			"",
 			"In general, whenever a victim fails a saving throw against her affliction, she moves one step further down the progression track, gaining the effects of the next state and keeping all previous effects, until she reaches the end state. If she's afflicted with a disease, she moves one step back toward healthy whenever she fulfills the conditions in the disease's Cure entry (usually by succeeding at one or more saves). Once she reaches healthy, she is cured. Poisons work differently-fulfilling the cure condition removes a poison from the victim's system, but she remains at the same step on the track and recovers gradually. (Treat a poison that has exhausted its duration in the same way.) For every day of bed rest (or 2 nights of normal rest), a victim recovers one step; this recovery is doubled as normal by Heal checks, and tenacious poisons might require a longer recovery period.",
 			"",
@@ -8199,7 +8199,7 @@
 			"",
 			"As with greater component effects, expending multiple types of esoteric components can apply other limited magic effects, but requires a Spellcraft check. This option is deliberately more expensive to discourage casters from using it too routinely.",
 			"",
-			"A spellcaster can choose to apply either greater component effects or limited magic effects-but not both-on the same casting of a spell."
+			"A spellcaster can choose to apply either greater component effects or limited magic effects - but not both - on the same casting of a spell."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -8279,7 +8279,7 @@
 			"",
 			"Made of incredibly tiny polyhedrons, prismatic sand reflects a rainbow of colors. Most commonly found by sifting sand from warm beaches, this substance appears to be normal glass cut into very specific multifaceted shapes. Due to the substance's apparent mundanity, spellcasters frequently try to manufacture it, but so far no attempt has been successful. When gathered in enough quantity, typically 2 ounces or so, prismatic sand takes on a rainbow sheen across its surface.",
 			"",
-			"To make prismatic sand more effective, it must be carefully separated from the normal sand it's typically mixed with-it functions much better when pure. Prismatic sand also works better when treated with cleansing chemicals, polished, and shined with a variety of specialized cloths and materials. Individual grains come in all variety of prismatic shapes, and the more sides a grain has, the better its mirrored surface captures light. The most intricate grains bend, manipulate, and split light into a dazzling spectrum.",
+			"To make prismatic sand more effective, it must be carefully separated from the normal sand it's typically mixed with - it functions much better when pure. Prismatic sand also works better when treated with cleansing chemicals, polished, and shined with a variety of specialized cloths and materials. Individual grains come in all variety of prismatic shapes, and the more sides a grain has, the better its mirrored surface captures light. The most intricate grains bend, manipulate, and split light into a dazzling spectrum.",
 			"",
 			"***Greater Component Effect:*** You can either treat your caster level as though it were 4 higher for determining the range of the spell, or increase or decrease the spell's area of effect by 5 feet if it's a burst, emanation, line, or spread with a radius or length of at least 20 feet.",
 			"",
@@ -8390,7 +8390,7 @@
 			"",
 			"Base attack bonuses and base save bonuses in the Core Rulebook progress at a fractional rate, but those fractions are eliminated because of rounding; it doesn't make sense to distinguish a base attack bonus of +6-1/2 from a base attack bonus of +6 when a character with either bonus would hit AC 17 on a roll of 11 and miss on a 10. For ease of reference, the values in the class tables are rounded this way since it never makes a difference for single-class characters. However, for multiclass characters, this rounding often results in a base attack bonus that's too low, as well as base save bonuses that are imbalanced. The following variant results in more accurate base bonuses for multiclass characters, based on the formulas behind the class progression tables rather than on the tables themselves.",
 			"",
-			"For example, a character who's a 1st-level wizard and a 1st-level rogue has a base attack bonus (BAB) of +0 from each class, resulting in a total BAB of +0-worse than a 2nd-level wizard or 2nd-level rogue. But that's only because each fraction was rounded down to 0 before adding them together; the character theoretically has a BAB of +3/4 from her rogue level and +1/2 from her wizard level. If the rounding was done after adding the fractional values together rather than before, the character would have a BAB of +1 (rounded down from +1-1/4)-the same as a 2nd-level wizard or rogue.",
+			"For example, a character who's a 1st-level wizard and a 1st-level rogue has a base attack bonus (BAB) of +0 from each class, resulting in a total BAB of +0-worse than a 2nd-level wizard or 2nd-level rogue. But that's only because each fraction was rounded down to 0 before adding them together; the character theoretically has a BAB of +3/4 from her rogue level and +1/2 from her wizard level. If the rounding was done after adding the fractional values together rather than before, the character would have a BAB of +1 (rounded down from +1-1/4) - the same as a 2nd-level wizard or rogue.",
 			"",
 			"### Table 1-7: Fractional Bonuses by Class Level",
 			"",
@@ -8659,7 +8659,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/70}",
 			"",
-			"If a character has a specialty in a skill and that skill is also in a skill group she's trained in, her bonus on checks using the skill is equal to her relevant ability modifier + her character level. If only one applies-she only has a specialty in the skill or she is trained in that skill's group but doesn't have a specialty in the skill-her bonus is equal to her relevant ability modifier + 1/2 her character level (minimum 1).",
+			"If a character has a specialty in a skill and that skill is also in a skill group she's trained in, her bonus on checks using the skill is equal to her relevant ability modifier + her character level. If only one applies - she only has a specialty in the skill or she is trained in that skill's group but doesn't have a specialty in the skill - her bonus is equal to her relevant ability modifier + 1/2 her character level (minimum 1).",
 			"",
 			"If a skill is on her class skill list, she gains the +3 bonus if she's trained in its skill group or has a specialty in it; she doesn't have to both be trained and have a specialty. Class skill bonuses look only at specific skills, not groups. If Diplomacy is on a character's class skill list but Bluff isn't, having training in the Social skill group doesn't allow that character to gain the class skill bonus on Bluff checks. Any circumstance that modifies skill checks, such as the {feat/Skill Focus} feat or certain spells, still grants the same bonus or penalty as it would if the campaign weren't using grouped skills."
 		],
@@ -8773,7 +8773,7 @@
 			"",
 			"In this system, the bonus a magic item grants corresponds to the item's starting market price as it appears in the item's original statistics. This price is shown on each table in this section in the \"Starting Price\" column. The second column shows the value of the bonus at a particular price range, and the header indicates to which statistics the bonus applies. In addition, any item that gains an innate item bonus also increases its market price by the amount shown on each table's \"Price Increase\" column.",
 			"",
-			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength-which only grants an enhancement bonus-wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](rule/wondrous_items_pu)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
+			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength - which only grants an enhancement bonus - wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](rule/wondrous_items_pu)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
 			"",
 			"The price increase means that a significant range of prices doesn't come into play in a campaign that uses this system. For example, if a neck slot item would normally have a base market price of 2,000 gp, it would now grant an additional +1 enhancement bonus to natural armor, and its price would increase by 2,000 gp. That means a neck slot item can't have a final price between 2,000 gp and 3,999 gp. If you need treasure at a value in that range, look at items that don't grant innate bonuses.",
 			"",
@@ -8934,7 +8934,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
 			"",
-			"Alignment is a cornerstone of the Pathfinder Roleplaying Game. In its most useful form, alignment is a shorthand to help players learn more about their characters' personalities. But sometimes you may want to play in a world where there is no absolute good and evil. Perhaps the only lord willing to send troops to aid the PCs' fight against an undead horde is an oppressive dictator who will use the situation to further his own power and oppress his subjects-but without his help, everyone will die. Or the PCs must face an infernal foe, but the only available way to take him down is to imbue themselves with demonic power.",
+			"Alignment is a cornerstone of the Pathfinder Roleplaying Game. In its most useful form, alignment is a shorthand to help players learn more about their characters' personalities. But sometimes you may want to play in a world where there is no absolute good and evil. Perhaps the only lord willing to send troops to aid the PCs' fight against an undead horde is an oppressive dictator who will use the situation to further his own power and oppress his subjects - but without his help, everyone will die. Or the PCs must face an infernal foe, but the only available way to take him down is to imbue themselves with demonic power.",
 			"",
 			"In the following rules variant, the PCs can test their convictions against impossible situations and make decisions without players feeling constrained by the mechanical consequences their characters will suffer if their alignments change. Alignment is replaced by a new character aspect called loyalties, and class alignment restrictions are redefined in those terms. Several options for handling alignment-dependent spells and effects are presented here."
 		],
@@ -9002,7 +9002,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
 			"",
-			"Certain classes depend on alignment features. Below is a list of changes you'll need to make to the classes from the Pathfinder RPG Core Rulebook if you decide not to use alignment-you can use these as a guideline to change other classes as well. These assume that you've replaced the default alignment system with the aligned loyalties option outlined below under Creatures, Spells, and Effects-if you have gone further and removed even these basic alignment elements (as in the subjective morality option), then ignore all references to loyalty restrictions in the classes below.",
+			"Certain classes depend on alignment features. Below is a list of changes you'll need to make to the classes from the Pathfinder RPG Core Rulebook if you decide not to use alignment-you can use these as a guideline to change other classes as well. These assume that you've replaced the default alignment system with the aligned loyalties option outlined below under Creatures, Spells, and Effects - if you have gone further and removed even these basic alignment elements (as in the subjective morality option), then ignore all references to loyalty restrictions in the classes below.",
 			"",
 			"***Barbarian:*** Remove the alignment restriction. A barbarian may not have a loyalty to law, order, or any similar concepts.",
 			"",
@@ -9014,7 +9014,7 @@
 			"",
 			"***Paladin:*** Remove the class's alignment restriction. The paladin's code of conduct becomes \"A paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help in a way that betrays any of the paladin's loyalties), and punish those who harm or threaten innocents.\" Remove the Associates section under the code of conduct. A paladin must have a loyalty to the concept of good, and most paladins also have loyalty to a deity. For changes to the paladin's {spell/detect evil} ability, see the Creatures, Spells, and Effects section, below. Creatures whose loyalties are in opposition to the paladin's gain no benefit from the paladin's aura of justice ability.",
 			"",
-			"The paladin's smite evil ability works against any foe whose loyalties are directly contrary to the paladin's highest loyalty. She can also recover one use of smite if she accidentally smites an invalid target. She can do this a number of times per day equal to her maximum uses per day of smite. This means the paladin isn't punished for having to guess, but she also can't use her smite class feature on every opponent as a de facto loyalty detector. If the paladin's highest loyalty is to good, she can smite foes with a loyalty to evil, but if her highest loyalty is to her king, her smite might instead apply to foes with loyalties to the jealous baron's rebellion. The GM has the final say on how the ability works, since only the GM knows the NPCs' true loyalties-a mercenary who works for a cause might not have a loyalty to that cause, for example. The GM can decide to simply have smite work only on foes with a loyalty to evil, or to require the paladin's highest loyalty be to the concept of good."
+			"The paladin's smite evil ability works against any foe whose loyalties are directly contrary to the paladin's highest loyalty. She can also recover one use of smite if she accidentally smites an invalid target. She can do this a number of times per day equal to her maximum uses per day of smite. This means the paladin isn't punished for having to guess, but she also can't use her smite class feature on every opponent as a de facto loyalty detector. If the paladin's highest loyalty is to good, she can smite foes with a loyalty to evil, but if her highest loyalty is to her king, her smite might instead apply to foes with loyalties to the jealous baron's rebellion. The GM has the final say on how the ability works, since only the GM knows the NPCs' true loyalties - a mercenary who works for a cause might not have a loyalty to that cause, for example. The GM can decide to simply have smite work only on foes with a loyalty to evil, or to require the paladin's highest loyalty be to the concept of good."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -9044,7 +9044,7 @@
 			"",
 			"***Radiant and Shadow:*** You can instead have alignment-based effects apply to everyone, or nearly everyone. Remove the alignments and replace \"good\" and \"evil\" with stand-ins that lack moral implications, such as \"radiant\" and \"shadow.\" These are then treated as simply two more forms of energy that exist in the world, and any creature can wield a weapon that deals radiant or shadow damage. You'll need to make appropriate changes, such as changing DR 5/good to DR 5/ radiant, making {magic-enhancement/unholy} weapons shadow weapons, and so on. Creatures that were once strongly defined by their alignment become more unpredictable. Maybe some angels are just as corrupt as devils, despite their celestial forms, and the PCs must team up with a noble demon and wield shadow weapons to defeat their foe. You can choose to grant certain creatures immunity; for instance, perhaps angels don't take radiant damage from radiant weapons or radiant smite, the stand-ins for holy weapons and {spell/holy smite}.",
 			"",
-			"***Subjective Morality:*** You can make your world extremely complex by replacing all alignment-based effects with subjective morality based on loyalties. In this kind of game, everyone is the hero of his own story, and the only alignment-based items and spells that exist are the ones named after the good alignment (such as holy weapons and {spell/holy word}) plus {spell/detect evil}. However, these effects apply not to good in the usual sense, but instead depend on the loyalties of their users. When someone uses {spell/detect evil}, it detects others who have loyalties that oppose the caster's. When a character wields a holy weapon, it deals extra damage to those with conflicting loyalties, and so on. It's up to the GM to decide when loyalties conflict. For instance, if a magus decides that his primary loyalty is to himself, he could not reasonably claim that everything that ever attacks him has a conflicting loyalty, but an enemy who constantly abused him in the past would have a conflicting loyalty. Against this enemy, the magus's holy attacks would strike true. This world might even do away with the idea of loyalties to the concept of good and allow paladins and antipaladins alike to use the paladin class and smite each other. Since even outsiders no longer have an alignment subtype, you'll need to add other subtypes to the list of choices for abilities such as {magic-enhancement/bane} or a ranger's favored enemy class feature. This covers subtypes such as demon or devil, but some outsiders have no non-alignment subtype. If you want such creatures to be subject to these abilities, you could lump them together under a new subtype (such as \"independent\"), or add subtypes on a case-by-case basis-the astral leviathan might have the \"astral\" subtype, for example."
+			"***Subjective Morality:*** You can make your world extremely complex by replacing all alignment-based effects with subjective morality based on loyalties. In this kind of game, everyone is the hero of his own story, and the only alignment-based items and spells that exist are the ones named after the good alignment (such as holy weapons and {spell/holy word}) plus {spell/detect evil}. However, these effects apply not to good in the usual sense, but instead depend on the loyalties of their users. When someone uses {spell/detect evil}, it detects others who have loyalties that oppose the caster's. When a character wields a holy weapon, it deals extra damage to those with conflicting loyalties, and so on. It's up to the GM to decide when loyalties conflict. For instance, if a magus decides that his primary loyalty is to himself, he could not reasonably claim that everything that ever attacks him has a conflicting loyalty, but an enemy who constantly abused him in the past would have a conflicting loyalty. Against this enemy, the magus's holy attacks would strike true. This world might even do away with the idea of loyalties to the concept of good and allow paladins and antipaladins alike to use the paladin class and smite each other. Since even outsiders no longer have an alignment subtype, you'll need to add other subtypes to the list of choices for abilities such as {magic-enhancement/bane} or a ranger's favored enemy class feature. This covers subtypes such as demon or devil, but some outsiders have no non-alignment subtype. If you want such creatures to be subject to these abilities, you could lump them together under a new subtype (such as \"independent\"), or add subtypes on a case-by-case basis - the astral leviathan might have the \"astral\" subtype, for example."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -9656,7 +9656,7 @@
 		"description": [
 			"{SOURCE Mythic Adventures/176}",
 			"",
-			"Depending on your campaign, a mythic monster might be unique-the only one of a kind in the entire world or on all the planes-rare, or even relatively common. The following are some examples of how frequently mythic monsters could appear in a particular campaign.",
+			"Depending on your campaign, a mythic monster might be unique - the only one of a kind in the entire world or on all the planes - rare, or even relatively common. The following are some examples of how frequently mythic monsters could appear in a particular campaign.",
 			"",
 			"- Some say there is only one mythic red dragon - the oldest living ancestor of all red dragons - and it sleeps for centuries at a time.",
 			"- A deadly pack of mythic trolls might rule over a hidden realm under the earth. Non-mythic trolls are the least of their kind, cast out because of their inborn weakness.",
@@ -9718,7 +9718,7 @@
 			"",
 			"***Feats:*** The creature's feats are listed here. Most mythic feats improve non-mythic feats, and have the non-mythic feat as a prerequisite. In these cases, the non-mythic feat isn't listed along with the mythic feat.",
 			"",
-			"***Special Attacks:*** All of the monsters presented have the {rule/mythic subtype}, which grants them the [mythic power universal monster ability](umr/mythic_power), allows them to expend uses of mythic power to add surge dice to d20 rolls, and may add other abilities as well. When running a monster with mythic power, always remember that it can use the surge ability-especially because some mythic creatures don't use mythic power for anything else, so that ability is necessary for the monster to keep up with and challenge mythic PCs. (Plus, part of the fun of using mythic rules is getting to use mythic surges, and the GM should get to do that, too.)",
+			"***Special Attacks:*** All of the monsters presented have the {rule/mythic subtype}, which grants them the [mythic power universal monster ability](umr/mythic_power), allows them to expend uses of mythic power to add surge dice to d20 rolls, and may add other abilities as well. When running a monster with mythic power, always remember that it can use the surge ability - especially because some mythic creatures don't use mythic power for anything else, so that ability is necessary for the monster to keep up with and challenge mythic PCs. (Plus, part of the fun of using mythic rules is getting to use mythic surges, and the GM should get to do that, too.)",
 			"",
 			"***Environment:*** The mythic monsters presented here list the same environment as the non-mythic version of the creature-by default, mythic trolls prefer cold mountains like common trolls do, and mythic owlbears prefer temperate forests like common owlbears do. Of course, you can change the environment of a mythic monster to anything appropriate for your campaign, especially if the mythic monster is unique. For example, if you want the one mythic hydra in your world to live in the desert instead of in marshes like non-mythic hydras, that change serves to make the mythic hydra even more unusual and iconic.",
 			"",
@@ -9726,7 +9726,7 @@
 			"",
 			"***Treasure:*** Most of the mythic monsters presented here use the same treasure notation as their non-mythic counterparts. For example, trolls have standard treasure, so mythic trolls also have standard treasure. However, a mythic monster's CR will be higher than its non-mythic equivalent, so when awarding treasure you should account for the CR increase and adjust the monster's treasure accordingly. A mythic troll encountered with non-mythic trolls should have slightly better treasure because of its higher CR (just as a fiendish troll encountered with a gang of normal trolls should have better treasure). If a monster normally has NPC-type treasure (like an ogre does), the mythic version of that monster usually has better treasure than its non-mythic counterparts, since its CR is higher.",
 			"",
-			"Mythic monsters-especially intelligent ones-may be more likely to use magical treasures found in their lairs, perhaps out of some instinctive cunning about the item or because the item was given to the monster by the entity that granted the monster its mythic power. For example, a mythic hydra with an amulet of mighty fists +1 in its treasure hoard could be a sacred guardian created by the god of snakes, and the amulet could have been granted to the hydra by the god, giving the creature the full benefit of the item.",
+			"Mythic monsters - especially intelligent ones - may be more likely to use magical treasures found in their lairs, perhaps out of some instinctive cunning about the item or because the item was given to the monster by the entity that granted the monster its mythic power. For example, a mythic hydra with an amulet of mighty fists +1 in its treasure hoard could be a sacred guardian created by the god of snakes, and the amulet could have been granted to the hydra by the god, giving the creature the full benefit of the item.",
 			"",
 			"***Special Abilities:*** These monsters include descriptions of the non-mythic monster's special abilities, so you don't need to reference the non-mythic monster in another book to use the mythic monster. In some cases, these descriptions are simplified or shortened to make room for the mythic monster's new abilities. If you have questions about how a monster's special ability works, refer to the full text of the non-mythic monster's original description in the Bestiary.",
 			"",
@@ -9778,7 +9778,7 @@
 		"description": [
 			"{SOURCE Mythic Adventures/224}",
 			"",
-			"The following simple templates can be used to turn any monster into a mythic creature. A creature given one of these templates counts as a mythic creature for the purposes of spells, abilities, and magic items even though it doesn't have the {rule/mythic subtype}. Note that because it doesn't have the mythic subtype, it doesn't gain the many benefits of having the mythic subtype-the creature only gains the benefits described in the simple template.",
+			"The following simple templates can be used to turn any monster into a mythic creature. A creature given one of these templates counts as a mythic creature for the purposes of spells, abilities, and magic items even though it doesn't have the {rule/mythic subtype}. Note that because it doesn't have the mythic subtype, it doesn't gain the many benefits of having the mythic subtype - the creature only gains the benefits described in the simple template.",
 			"",
 			"### Mythic Bonus Hit Points",
 			"",

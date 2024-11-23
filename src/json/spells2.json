@@ -520,7 +520,7 @@
 			"**Duration** 3 rounds  ",
 			"**Saving Throw** Fortitude negates (see text); **Spell Resistance** yes",
 			"",
-			"The temperature of the target creature's blood (or other similar body fluid) begins to rise over the next 3 rounds during the caster's turn. Each round starting with the first, the target creature attempts a new saving throw at the start of the caster's turn to resist that round's effect. A successful save does not end the spell effect, but does prevent that round's effect. On the round that this spell is cast, the target becomes fatigued. On the next round, as the blood temperature begins to rise, the target's capillaries burst, dealing 1d6 points of Constitution damage to the target. On the third and final round, the target's blood begins to boil; the spell deals 1d6 points of damage per caster level (to a maximum of 15d6), and-if the target is still alive-the target becomes exhausted rather than fatigued."
+			"The temperature of the target creature's blood (or other similar body fluid) begins to rise over the next 3 rounds during the caster's turn. Each round starting with the first, the target creature attempts a new saving throw at the start of the caster's turn to resist that round's effect. A successful save does not end the spell effect, but does prevent that round's effect. On the round that this spell is cast, the target becomes fatigued. On the next round, as the blood temperature begins to rise, the target's capillaries burst, dealing 1d6 points of Constitution damage to the target. On the third and final round, the target's blood begins to boil; the spell deals 1d6 points of damage per caster level (to a maximum of 15d6), and - if the target is still alive - the target becomes exhausted rather than fatigued."
 		]
 	},
 	"blood_crow_strike": {
@@ -826,7 +826,7 @@
 			"**Duration** 1 day/level (D)  ",
 			"**Saving Throw** Will negates (see text); **Spell Resistance** no",
 			"",
-			"One of the targets of this spell must be a hostage-a bound, pinned, or helpless creature within your reach (though the spell doesn't end if the hostage later moves beyond your reach). The second target must be a member of the first target's family. If neither creature successfully saves against the spell, the second target also takes any damage conferred to the hostage, provided both are still alive, to a maximum of 10 points of damage per caster level per day (damage beyond that necessary to kill the first target does not transfer). This transferred damage is typeless and ignores the second creature's damage reduction and resistances. If either target succeeds at the saving throw, you can never attempt to exploit the connection between these particular two creatures again. The connection between your targets weakens when the two are less familiar with one another. Each target gains a +2 bonus on its save if the two are distant relations or related by marriage. Each target takes a -2 penalty on its save if the two targets are parent and child or siblings."
+			"One of the targets of this spell must be a hostage - a bound, pinned, or helpless creature within your reach (though the spell doesn't end if the hostage later moves beyond your reach). The second target must be a member of the first target's family. If neither creature successfully saves against the spell, the second target also takes any damage conferred to the hostage, provided both are still alive, to a maximum of 10 points of damage per caster level per day (damage beyond that necessary to kill the first target does not transfer). This transferred damage is typeless and ignores the second creature's damage reduction and resistances. If either target succeeds at the saving throw, you can never attempt to exploit the connection between these particular two creatures again. The connection between your targets weakens when the two are less familiar with one another. Each target gains a +2 bonus on its save if the two are distant relations or related by marriage. Each target takes a -2 penalty on its save if the two targets are parent and child or siblings."
 		]
 	},
 	"blood_transcription": {
@@ -2214,7 +2214,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Reflex half; **Spell Resistance** yes",
 			"",
-			"This spell fills the area with violet flames that scour an area clean of life-especially of the corrupted life of the Abyss. Creatures (and foliage) in the area take 1d8 points of fire damage per 2 caster levels you possess (maximum 7d8) unless they are outsiders with the chaotic and evil subtypes or are otherwise tainted by demons, in which case they instead take 1d6 points of fire damage per caster level (maximum 15d6). This fire damage ignores the fire resistance granted by the demon subtype, but it does not penetrate any other form of fire resistance or immunity."
+			"This spell fills the area with violet flames that scour an area clean of life - especially of the corrupted life of the Abyss. Creatures (and foliage) in the area take 1d8 points of fire damage per 2 caster levels you possess (maximum 7d8) unless they are outsiders with the chaotic and evil subtypes or are otherwise tainted by demons, in which case they instead take 1d6 points of fire damage per caster level (maximum 15d6). This fire damage ignores the fire resistance granted by the demon subtype, but it does not penetrate any other form of fire resistance or immunity."
 		]
 	},
 	"burning_arc_keleshite": {
@@ -2864,7 +2864,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You summon a {monster/wasp swarm} that builds a 10-foot-by-10-foot nest in the place you designate-typically under the eaves of a house, amid the rafters of a tavern, or in another obscured place. The wasp swarm takes the spell's casting time to build its nest; if the swarm is disrupted in any way (such as by being attacked) before you finish casting this spell, the wasps disappear and the spell fizzles.",
+			"You summon a {monster/wasp swarm} that builds a 10-foot-by-10-foot nest in the place you designate - typically under the eaves of a house, amid the rafters of a tavern, or in another obscured place. The wasp swarm takes the spell's casting time to build its nest; if the swarm is disrupted in any way (such as by being attacked) before you finish casting this spell, the wasps disappear and the spell fizzles.",
 			"",
 			"Once the wasp swarm has built its nest, this spell also wards the area. As per alarm, when intruders that do not speak the password pass within 20 feet, the swarm is alerted and immediately leaves its nest and attacks the nearest intruder. The swarm pursues that intruder as best it can. Once the swarm attacks an intruder, you have no control over its target or direction of travel. When the spell ends, if the wasps have not left their nest, they and their nest disappear."
 		]
@@ -2964,7 +2964,7 @@
 			"",
 			"You need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed first. Each round after the first you may use a standard action (concentrating on the spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10 bolts).",
 			"",
-			"If you are outdoors and in a stormy area-a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)-each bolt deals 3d10 points of electricity damage instead of 3d6.",
+			"If you are outdoors and in a stormy area - a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)-each bolt deals 3d10 points of electricity damage instead of 3d6.",
 			"",
 			"This spell functions indoors or underground but not underwater.",
 			"",
@@ -4503,7 +4503,7 @@
 			"",
 			"*3rd Priority:* Cast beneficial spells and/or use beneficial magic items (including potions, wands, and so on) on creatures within 30 feet, starting with the closest creatures.",
 			"",
-			"*4th Priority:* The subject gives away his non-worn possessions-the contents of a backpack or similar item count as one item each, as does the container itself-to creatures within 30 feet. If no creature accepts the items, the subject drops the items on the ground.",
+			"*4th Priority:* The subject gives away his non-worn possessions - the contents of a backpack or similar item count as one item each, as does the container itself - to creatures within 30 feet. If no creature accepts the items, the subject drops the items on the ground.",
 			"",
 			"*5th Priority:* The subject gives away his remaining possessions (including his armor, boots, cloak, and so on) to creatures within 30 feet. If no creature accepts the items, the subject drops them on the ground.",
 			"",
@@ -5010,7 +5010,7 @@
 			"**Duration** 1 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"Clairaudience/clairvoyance creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known-a place familiar to you, or an obvious one. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other scrying spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10-foot radius around the center of the spell's effect. Clairaudience/clairvoyance functions only on the plane of existence you are currently occupying."
+			"Clairaudience/clairvoyance creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known - a place familiar to you, or an obvious one. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other scrying spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10-foot radius around the center of the spell's effect. Clairaudience/clairvoyance functions only on the plane of existence you are currently occupying."
 		]
 	},
 	"clairvoyance_clairaudience": { "copyof": "clairaudience_clairvoyance" },
@@ -5896,7 +5896,7 @@
 			"",
 			"You become one with nature, attaining knowledge of the surrounding territory. You instantly gain knowledge of as many as three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, or even the general state of the natural setting.",
 			"",
-			"In outdoor settings, the spell operates in a radius of 1 mile per caster level. In natural underground settings-caves, caverns, and the like-the spell is less powerful, and its radius is limited to 100 feet per caster level. The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.",
+			"In outdoor settings, the spell operates in a radius of 1 mile per caster level. In natural underground settings - caves, caverns, and the like - the spell is less powerful, and its radius is limited to 100 feet per caster level. The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.",
 			"",
 			"### Signs of the Land",
 			"",
@@ -6789,7 +6789,7 @@
 			"**Target** you  ",
 			"**Duration** concentration",
 			"",
-			"When you cast this spell, you fall into a trance and become helpless as long as you continue concentrating. Choose any one Knowledge skill other than arcana or planes. Your mind is placed in telepathic contact with a nalfeshnee demon skilled at that particular Knowledge skill, in addition to arcana and planes. Each round that you continue to concentrate, you may ask the nalfeshnee one question and it will answer as best it can. If you ask a question about arcana or planes, the nalfeshnee has a +23 bonus to the skill check. If you ask about the Knowledge skill you selected, the nalfeshnee has a +20 bonus. It cannot answer questions pertaining to other Knowledge skills-to do so, you must cast the spell again.",
+			"When you cast this spell, you fall into a trance and become helpless as long as you continue concentrating. Choose any one Knowledge skill other than arcana or planes. Your mind is placed in telepathic contact with a nalfeshnee demon skilled at that particular Knowledge skill, in addition to arcana and planes. Each round that you continue to concentrate, you may ask the nalfeshnee one question and it will answer as best it can. If you ask a question about arcana or planes, the nalfeshnee has a +23 bonus to the skill check. If you ask about the Knowledge skill you selected, the nalfeshnee has a +20 bonus. It cannot answer questions pertaining to other Knowledge skills - to do so, you must cast the spell again.",
 			"",
 			"Contact with Abyssal minds is dangerous, and each time the nalfeshnee answers a question, you suffer 1d4 points of ability drain to Intelligence, Wisdom, or Charisma (determined randomly) unless you make a DC 22 Will save. Each additional question you ask with this spell over the course of a single 24-hour period imparts a cumulative -1 penalty on this saving throw. Chaotic evil spellcasters always gain a +4 bonus on this saving throw."
 		]
@@ -6927,7 +6927,7 @@
 			"",
 			"You blast several enemies with beams of fire. You may fire three rays, plus one additional ray for every four levels beyond 11th (to a maximum of five rays at 19th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.",
 			"",
-			"Every round on your turn, a new ray of fire launches from each creature who took damage from the spell in the previous round-these new rays attack as if you fired them, but their point of origin is the previous creature damaged. You can choose the new targets as a free action, all of whom must be within close range (25 ft. + 5 ft./2 levels) of their new starting point. This contagion of flame continues for a total of three rounds-a creature can be struck more than once by this spell over the course of these three rounds, although never by a ray of fire that launches from itself."
+			"Every round on your turn, a new ray of fire launches from each creature who took damage from the spell in the previous round - these new rays attack as if you fired them, but their point of origin is the previous creature damaged. You can choose the new targets as a free action, all of whom must be within close range (25 ft. + 5 ft./2 levels) of their new starting point. This contagion of flame continues for a total of three rounds - a creature can be struck more than once by this spell over the course of these three rounds, although never by a ray of fire that launches from itself."
 		]
 	},
 	"contagious_zeal": {
@@ -7071,7 +7071,7 @@
 			"",
 			"The condition needed to trigger the readied action must be clear, although it can be general. If a complicated or convoluted condition is prescribed, the whole combination might fail when triggered. For example, suppose the trigger and the action are stated as \"If the target is attacked while he is not holding a weapon, he draws a weapon.\" If the target has no weapon to draw when the trigger occurs, the action fails. If the trigger and the action are \"If an ally within 20 feet falls unconscious, the target moves to a space adjacent to that ally\" but the target is chained to a wall when the trigger occurs and can't reach the unconscious ally, the action fails.",
 			"",
-			"The readied action must be a standard, move, or swift action-it cannot be used to cast a spell or use a supernatural ability. This action counts as a readied action and doesn't count toward the number of actions the creature can take in a round. When the condition occurs, the target can decide not to use the readied action. Once the condition is triggered, the spell is discharged-whether or not the target uses the readied action or the action is successful.",
+			"The readied action must be a standard, move, or swift action - it cannot be used to cast a spell or use a supernatural ability. This action counts as a readied action and doesn't count toward the number of actions the creature can take in a round. When the condition occurs, the target can decide not to use the readied action. Once the condition is triggered, the spell is discharged - whether or not the target uses the readied action or the action is successful.",
 			"",
 			"This spell counts as a contingency spell for the purpose of having multiple contingent effects on a creature at the same time."
 		]
