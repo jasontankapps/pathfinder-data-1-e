@@ -355,7 +355,7 @@ all.forEach(([link, object]) => {
 const testLinks = () => {
 	const msg = [ "\n...beginning link validation tests\n" ];
 	let found = false;
-	[all[0]].forEach(([link, object, special]) => {
+	all.forEach(([link, object, special]) => {
 		// validate links
 		// `invalid links in ${link} files:`
 		const invalid = [];
@@ -388,8 +388,8 @@ const testLinks = () => {
 							const m = line.match(/^#{2,6} ([^ ]+)/);
 							if(m) {
 								const link = m[1];
-								if(link.indexOf("/") === -1) {
-									msg.push(`\tPOSSIBLE bad link: "${link}`);
+								if((link.indexOf("/") === -1) && link !== "about") {
+									msg.push(`\tPOSSIBLE bad main-page link: "${link}"`);
 								} else {
 									hold.push(`[main-page link](${link})`);
 								}
@@ -489,9 +489,8 @@ const testLinks = () => {
 		});
 		(invalid.length > 0) && msg.push(`\tInvalid links in ${link} files:`, ...invalid.map(x => `\t\t${x}`));
 		msg.length > 1 && (found = true);
-		msg.push("", "-- Done.\n\n");
 	});
-	return [found, "valid links", msg];
+	return [found, "valid links", [...msg, "", "-- Done.\n\n"]];
 }
 
 export default testLinks;

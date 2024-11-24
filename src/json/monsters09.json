@@ -2719,13 +2719,13 @@
 			"",
 			"+2 Strength, +4 Constitution, +2 Wisdom, -2 Charisma: Duergar tyrants are strong, hardy, and willful. These ability score modifiers replace the standard duergar ability score modifiers.",
 			"",
-			"Telekinetic Adept: A duergar tyrant has access to the basic telekinesis, kinetic form, telekinetic finesse, telekinetic haul, and telekinetic invisibility kineticist wild talents with an effective kineticist level equal to her total character level.",
+			"**Telekinetic Adept:** A duergar tyrant has access to the basic telekinesis, kinetic form, telekinetic finesse, telekinetic haul, and telekinetic invisibility kineticist wild talents with an effective kineticist level equal to her total character level.",
 			"",
-			"Psychic Magic: Duergar tyrants can cast ironskin (2 PE) and mind thrust I (1 PE) as per the {umr/psychic magic} universal monster rule. The caster level is equal to the duergar tyrant's total character level. Duergar tyrants have a reservoir of 5 PE per day.",
+			"**Psychic Magic:** Duergar tyrants can cast ironskin (2 PE) and mind thrust I (1 PE) as per the {umr/psychic magic} universal monster rule. The caster level is equal to the duergar tyrant's total character level. Duergar tyrants have a reservoir of 5 PE per day.",
 			"",
-			"Psychic Resilience (Ex): Duergar tyrants' racial bonus against spells and spell-like abilities increases from +2 to +4 on saving throws against psychic spells and spell-like abilities.",
+			"**Psychic Resilience (Ex):** Duergar tyrants' racial bonus against spells and spell-like abilities increases from +2 to +4 on saving throws against psychic spells and spell-like abilities.",
 			"",
-			"Spell Resistance: A duergar tyrant has spell resistance equal to 11 + her character level."
+			"**Spell Resistance:** A duergar tyrant has spell resistance equal to 11 + her character level."
 		]
 	},
 	"duergar_tyrant": { "copyof": "duergar_duergar_tyrant" },

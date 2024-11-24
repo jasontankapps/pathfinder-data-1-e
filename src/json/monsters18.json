@@ -64,11 +64,11 @@
 			"",
 			"A bog nixie is a neutral evil nixie with the advanced creature template who has the following additional powers. A bog nixie's CR is +2 higher than a normal nixie's.",
 			"",
-			"Captivating Song (Su): This works like the harpy ability of the same name. The save DC is Charisma-based.",
-			"",
-			"Change Shape (Su): This works as polymorph, and allows the bog nixie to assume the form of any Small or Medium aquatic animal or humanoid.",
-			"",
-			"Minor Wish (Sp): Once per day, a bog nixie can create a magical effect in exchange for a gift or service from a humanoid. The power of this \"wish\" is no greater than what can be done with a 3rd-level spell."
+			">*Captivating Song (Su):* This works like the harpy ability of the same name. The save DC is Charisma-based.",
+			">",
+			">*Change Shape (Su):* This works as polymorph, and allows the bog nixie to assume the form of any Small or Medium aquatic animal or humanoid.",
+			">",
+			">*Minor Wish (Sp):* Once per day, a bog nixie can create a magical effect in exchange for a gift or service from a humanoid. The power of this \"wish\" is no greater than what can be done with a 3rd-level spell."
 		]
 	},
 	"nochlean": {
@@ -6031,7 +6031,7 @@
 			"- Transmute mud to rock immediately heals any and all damage taken by a petrified maiden.",
 			"- A stone to flesh spell does not actually change the petrified maiden's structure, but negates its damage reduction and spell resistance for 1 round.",
 			"",
-			"Reconstitution (Su) As long as Geb's original curse that first afflicted the petrified maidens remains unbroken, any petrified maiden (animate or not) that is damaged or destroyed slowly returns to its undamaged form, even if parts of it were utterly destroyed or carried away. For a relatively undamaged petrified maiden, this slow process can be completed in a week or so. For a petrified maiden reduced to rubble, it might take years. If a petrified maiden is destroyed while under the effects of a stone to flesh spell, it cannot reconstitute and is permanently destroyed.",
+			"**Reconstitution (Su):** As long as Geb's original curse that first afflicted the petrified maidens remains unbroken, any petrified maiden (animate or not) that is damaged or destroyed slowly returns to its undamaged form, even if parts of it were utterly destroyed or carried away. For a relatively undamaged petrified maiden, this slow process can be completed in a week or so. For a petrified maiden reduced to rubble, it might take years. If a petrified maiden is destroyed while under the effects of a stone to flesh spell, it cannot reconstitute and is permanently destroyed.",
 			"",
 			"**Weapon Expertise (Ex)** A petrified maiden is proficient with any one martial weapon. It gains a +1 bonus on attack and damage rolls with this weapon.",
 			"",

@@ -42,9 +42,9 @@
 		"description": [
 			"{SOURCE Ultimate Combat/135}",
 			"",
-			"Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols alongside their swords, and it's hard to imagine a pirate ship without cannons blazing. These authors likely included guns because they are exciting, but also because the guns they chose were primitive ones-relatively unpredictable weapons, prone to misfire and malfunction. This made firearms excellent storytelling devices. Such weapons could cause hero or villain to falter or triumph, changing the action within the tale in a flash or a fizzle. Still, a firearm remains an ominous and terrible weapon in the hands of a skilled gunman.",
+			"Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols alongside their swords, and it's hard to imagine a pirate ship without cannons blazing. These authors likely included guns because they are exciting, but also because the guns they chose were primitive ones - relatively unpredictable weapons, prone to misfire and malfunction. This made firearms excellent storytelling devices. Such weapons could cause hero or villain to falter or triumph, changing the action within the tale in a flash or a fizzle. Still, a firearm remains an ominous and terrible weapon in the hands of a skilled gunman.",
 			"",
-			"This section presents an anachronistic collection of hand-held black powder weapons. Most of them are singleshot muzzle-loaders with highly inefficient triggering mechanisms-traditional sword and sorcery firearms. More advanced firearms are also presented for those brave enough to mix their fantasy with a technology much closer to that of the Old West than the slow and unstable weapons that gave musketeers their name. If you are interested in letting such weapons in your game, do so with the following warning: Advanced guns can substantially change the assumptions of your game world, in the same way that they changed the face of warfare in the real world. If you like your fantasy to be of the more traditional variety, stand clear. Or, better yet, run for cover."
+			"This section presents an anachronistic collection of hand-held black powder weapons. Most of them are singleshot muzzle-loaders with highly inefficient triggering mechanisms - traditional sword and sorcery firearms. More advanced firearms are also presented for those brave enough to mix their fantasy with a technology much closer to that of the Old West than the slow and unstable weapons that gave musketeers their name. If you are interested in letting such weapons in your game, do so with the following warning: Advanced guns can substantially change the assumptions of your game world, in the same way that they changed the face of warfare in the real world. If you like your fantasy to be of the more traditional variety, stand clear. Or, better yet, run for cover."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -72,7 +72,7 @@
 			"",
 			"***No Guns:*** If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.",
 			"",
-			"***Very Rare Guns:*** Early firearms are rare; advanced firearms, the gunslinger class, the {feat/Amateur Gunslinger} feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items-things of wonder and mystery-rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the {feat/Gunsmithing} feat.",
+			"***Very Rare Guns:*** Early firearms are rare; advanced firearms, the gunslinger class, the {feat/Amateur Gunslinger} feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items - things of wonder and mystery - rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the {feat/Gunsmithing} feat.",
 			"",
 			"***Emerging Guns:*** Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two - the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the {feat/Gunsmithing} feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items - the stuff of high-level treasure troves.",
 			"",
@@ -113,7 +113,7 @@
 			"",
 			"***Advanced Firearms:*** Advanced firearms resolve their attacks against touch AC when the target is within the first five range increments, but this type of attack is not considered a touch attack for the purposes of feats such as {feat/Deadly Aim}. At higher range increments, the attack resolves normally, including taking the normal cumulative -2 penalty for each full-range increment. Advanced firearms have a maximum range of 10 range increments.",
 			"",
-			"***Loading a Firearm:*** You need at least one hand free to load one-handed and two-handed firearms. In the case of two-handed firearms, you hold the weapon in one hand and load it with the other-you only need to hold it in two hands to aim and shoot the firearm. Loading siege firearms requires both hands, and one hand usually manipulates a large ramrod (which can be wielded as a club in combat).",
+			"***Loading a Firearm:*** You need at least one hand free to load one-handed and two-handed firearms. In the case of two-handed firearms, you hold the weapon in one hand and load it with the other - you only need to hold it in two hands to aim and shoot the firearm. Loading siege firearms requires both hands, and one hand usually manipulates a large ramrod (which can be wielded as a club in combat).",
 			"",
 			"The {feat/Rapid Reload} feat reduces the time required to load one-handed and two-handed firearms, but this feat does not reduce the time it takes to load siege firearms.",
 			"",
@@ -968,7 +968,7 @@
 			"",
 			"***Magical and Masterwork Siege Engines:*** Siege engines can be masterwork, increasing their Craft DC by 5 and costing an additional 300 gp. A masterwork siege engine can be enchanted at twice the cost for a normal magical weapon. The enhancement bonus of a siege engine applies on attack rolls and targeting checks (in the case of indirect ranged siege engines), and in the case of magical siege engines, the enhancement bonus also applies on damage rolls.",
 			"",
-			"***Defense and Hit Points:*** All siege engines are objects. A siege engine has a Dexterity of 0 (-5 penalty) and a further penalty based on its size. Each type of siege engine has its own hardness and hit points. Siege engines can be armored-treat the siege engine as a creature of its size to determine the cost of the armor. Masterwork siege engine armor can be enchanted for twice the normal cost to enchant armor. Armored siege engines have an armor bonus equal to that normally granted by the specific armor (shields have no effect on a siege engine), a hardness and hit points equal to that of the armor, and bonus hit points equal to the armor bonus &times; 5.",
+			"***Defense and Hit Points:*** All siege engines are objects. A siege engine has a Dexterity of 0 (-5 penalty) and a further penalty based on its size. Each type of siege engine has its own hardness and hit points. Siege engines can be armored - treat the siege engine as a creature of its size to determine the cost of the armor. Masterwork siege engine armor can be enchanted for twice the normal cost to enchant armor. Armored siege engines have an armor bonus equal to that normally granted by the specific armor (shields have no effect on a siege engine), a hardness and hit points equal to that of the armor, and bonus hit points equal to the armor bonus &times; 5.",
 			"",
 			"***Moving Siege Engines:*** Siege engines have a speed. The speed of a siege engine is the distance it can be moved if its full crew makes a move action to move it. Some siege engines have a speed of 0. If this is the case, the engine must be dissembled before movement is possible, or else mounted on a vehicle. Siege engines that are atop or mounted on vehicles move with those vehicles.",
 			"",
@@ -1227,7 +1227,7 @@
 			"",
 			"Anyone can be a spellcaster. If you can crack open a book and knuckle down in your studies, you can probably become a passable wizard. If you can devote yourself in body and soul to a god - and why wouldn't you, when there's such a variety to choose from? - you may find yourself endowed with magical powers simply for having faith in your god's (and your own) righteousness. Oracles are chosen without their consent, far-roving rangers pick up magical tricks and traps, druids channel the will of nature, sorcerers get their abilities as dubious presents from philandering ancestors, and bards find magical inspiration in performance and art. Magic is everywhere in the Pathfinder Roleplaying Game, and many of the movers and shakers in towns and cities of any significant size have a spell or two up their sleeves.",
 			"",
-			"But those are just ordinary people who have access to magic. Basic hedge wizards may make a fine living crafting glowing swords, and a priest with the ability to heal broken bones is a must for any church that wants to win itself a congregation, but such everyday spellcasters are hardly the stuff of legend. Instead, those magic users who get remembered as heroes and legends-rather than simply magical craftsmen and merchants-take these same techniques and build upon them, seeking out ever-more-elusive knowledge and crafting new spells of magnificent power. It is with these esoteric practices that the greatest make names for themselves; these potent arts set the masters apart from mundane practitioners."
+			"But those are just ordinary people who have access to magic. Basic hedge wizards may make a fine living crafting glowing swords, and a priest with the ability to heal broken bones is a must for any church that wants to win itself a congregation, but such everyday spellcasters are hardly the stuff of legend. Instead, those magic users who get remembered as heroes and legends - rather than simply magical craftsmen and merchants - take these same techniques and build upon them, seeking out ever-more-elusive knowledge and crafting new spells of magnificent power. It is with these esoteric practices that the greatest make names for themselves; these potent arts set the masters apart from mundane practitioners."
 		],
 		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
@@ -2310,7 +2310,7 @@
 		"description": [
 			"{SOURCE Ultimate Magic/107}",
 			"",
-			"Devils regard both holy items and silver as deadly substances, and instinctively shy away from contact with such items. Even those for whom silver presents no danger avoid its touch whenever possible. Binders who want to deal with infernal outsiders as putative allies keep these substances at least 60 feet from the summoning circle; however, if they wish to threaten their infernal subjects, they keep them close at hand. The powdered silver used to create the [magic circle](spell/magic_circle_against_evil) is a warning and a trap, but it is not an overt threat-summoned devils recognize it as part of the procedure to call them to the Material Plane. Note that even silver candlesticks or bells can be used as weapons of opportunity, but the best defense, should the wizard choose to display force, is a weapon bonded with alchemical silver.",
+			"Devils regard both holy items and silver as deadly substances, and instinctively shy away from contact with such items. Even those for whom silver presents no danger avoid its touch whenever possible. Binders who want to deal with infernal outsiders as putative allies keep these substances at least 60 feet from the summoning circle; however, if they wish to threaten their infernal subjects, they keep them close at hand. The powdered silver used to create the [magic circle](spell/magic_circle_against_evil) is a warning and a trap, but it is not an overt threat - summoned devils recognize it as part of the procedure to call them to the Material Plane. Note that even silver candlesticks or bells can be used as weapons of opportunity, but the best defense, should the wizard choose to display force, is a weapon bonded with alchemical silver.",
 			"",
 			"An even better defense against devils, however, is a holy weapon. As with demons, a holy weapon is strong enough to drive through any devil's natural defenses, and the presence of such an item in the summoning chamber is an affront to more powerful or subtle devils.",
 			"",
@@ -2338,7 +2338,7 @@
 			"",
 			"***Immolation Devil (SR 30):*** These devils often ask for lands on the Material Plane as gifts. If such lands are granted, they use these places to launch attacks on neighbors, further expanding the territory of Hell.",
 			"",
-			"***Imp:*** Imps prefer small and bloody sacrifices that show the binder's desire to do evil-for instance, a heart torn from a living dove grants a +2 Charisma modifier on the summoning check.",
+			"***Imp:*** Imps prefer small and bloody sacrifices that show the binder's desire to do evil - for instance, a heart torn from a living dove grants a +2 Charisma modifier on the summoning check.",
 			"",
 			"***Lemure:*** Lemures prefer reminders of their former lives, and so the best offering is food or pornography.",
 			"",
@@ -2495,7 +2495,7 @@
 			"",
 			"***Keketar (SR 28):*** The most zealous of all the proteans, keketars see it as their sacred duty to return all existence to its true chaotic state. These creatures are extremely arrogant, and often seek to manipulate those foolish enough to bind them toward their own entropic purposes.",
 			"",
-			"***Naunet (SR 18):*** These bestial proteans are hard to control. Those who bind these dangerous bundles of rage and destruction are lucky if they can wield the naunets' destructive power for their own purposes-at least for a short while.",
+			"***Naunet (SR 18):*** These bestial proteans are hard to control. Those who bind these dangerous bundles of rage and destruction are lucky if they can wield the naunets' destructive power for their own purposes - at least for a short while.",
 			"",
 			"***Voidworm:*** To most other proteans, these tiny creatures aren't true proteans at all, just pale reflections of protean powers manifesting in the twisting currents of Limbo. Mortal spellcasters sometimes call these creatures to serve as familiars."
 		],
@@ -2858,11 +2858,11 @@
 			"",
 			"Unlike when pricing magic items, there are no formulae for how to correctly \"price\" a spell. The entire process is a matter of comparing the new spell you're creating to other spells and evaluating whether your spell is weaker, stronger, or about the same as that spell or group of spells. Designing a spell requires a firm understanding of all the game's rules, not just those related to spells. Furthermore, it requires an understanding of some unwritten game assumptions, most of which are discussed throughout this section.",
 			"",
-			"**Example:** If you look at the spell list in the Core Rulebook, you'll notice that there isn't a 1st-level wizard spell that deals sonic damage. You may decide to design a spell to fill that niche, modeling it after {spell/burning hands}, except dealing sonic damage instead of fire-perhaps you'd call it sonic screech. However, there's a reason there aren't as many sonic spells in the game: \"sonic\" as an energy type is a late addition to the rules, and very few monsters have any resistance to sonic damage because most monsters existed before \"sonic\" was defined as an energy type. Because there are fewer creatures with sonic resistance than creatures with fire resistance, sonic screech will almost always be a better spell than {spell/burning hands}. That means if you introduce sonic screech into your game, you'll see savvy players selecting it instead of burning hands. If a new spell displaces an existing spell from the roster of most spellcasters, it probably means it's better than the other available choices - and if it's so good that it's obviously the best spell choice, it's probably overpowered. Understanding the entire system of rules can help you avoid mistakes like this.",
+			"**Example:** If you look at the spell list in the Core Rulebook, you'll notice that there isn't a 1st-level wizard spell that deals sonic damage. You may decide to design a spell to fill that niche, modeling it after {spell/burning hands}, except dealing sonic damage instead of fire - perhaps you'd call it sonic screech. However, there's a reason there aren't as many sonic spells in the game: \"sonic\" as an energy type is a late addition to the rules, and very few monsters have any resistance to sonic damage because most monsters existed before \"sonic\" was defined as an energy type. Because there are fewer creatures with sonic resistance than creatures with fire resistance, sonic screech will almost always be a better spell than {spell/burning hands}. That means if you introduce sonic screech into your game, you'll see savvy players selecting it instead of burning hands. If a new spell displaces an existing spell from the roster of most spellcasters, it probably means it's better than the other available choices - and if it's so good that it's obviously the best spell choice, it's probably overpowered. Understanding the entire system of rules can help you avoid mistakes like this.",
 			"",
 			"### Core is King",
 			"",
-			"When designing a new spell, you should always compare it to the spells in the Core Rulebook to get a sense of whether the spell is strong or weak for its level. You can compare it to spells in other books as well, but you should use the Core Rulebook as a baseline. This is because if a spell in another sourcebook pushes the boundaries of what's acceptable or balanced, even just by a little bit, it's easy to push the boundaries a little more with your new spell, which means that over time, new spells end up more and more powerful compared to those in the Core Rulebook. The Core Rulebook spells are the most playtested, optimal versions of spells in the game-new spells shouldn't be significantly better than them (see also the {rule/Benchmarks} section).",
+			"When designing a new spell, you should always compare it to the spells in the Core Rulebook to get a sense of whether the spell is strong or weak for its level. You can compare it to spells in other books as well, but you should use the Core Rulebook as a baseline. This is because if a spell in another sourcebook pushes the boundaries of what's acceptable or balanced, even just by a little bit, it's easy to push the boundaries a little more with your new spell, which means that over time, new spells end up more and more powerful compared to those in the Core Rulebook. The Core Rulebook spells are the most playtested, optimal versions of spells in the game - new spells shouldn't be significantly better than them (see also the {rule/Benchmarks} section).",
 			"",
 			"Remember that it's acceptable to make a spell that isn't as powerful as an existing spell. Just because it's not the best spell of its level doesn't mean it won't get used by adventurers. In fact, that's why easily crafted scrolls are a significant part of the game - to allow parties access to spells they wouldn't normally prepare or learn, but may find useful in some circumstances."
 		],
@@ -2900,7 +2900,7 @@
 			"",
 			"### Intended Level",
 			"",
-			"Before you start, you typically need an idea of the general power level of the new spell-probably because you have a specific PC or NPC in mind who'd like to use it, and making the level too low to be significant or too high for that character to cast defeats the purpose of designing the spell. Once you know the general level of the spell - a two-level range is close enough at this point-you can progress to the next issue.",
+			"Before you start, you typically need an idea of the general power level of the new spell - probably because you have a specific PC or NPC in mind who'd like to use it, and making the level too low to be significant or too high for that character to cast defeats the purpose of designing the spell. Once you know the general level of the spell - a two-level range is close enough at this point - you can progress to the next issue.",
 			"",
 			"### Function",
 			"",
@@ -3049,7 +3049,7 @@
 			"",
 			"Spell range plays a significant part in the power of a spell. Requiring the caster to touch a target with a hostile spell means the caster is in or very close to melee combat, and is risking retaliation from enemies and attacks of opportunity from threatening opponents. Similarly, while close-range spells give the caster a little more breathing room, a hostile target is generally within the range of a single move or a charge, allowing an opponent to close and attack the caster - even at caster level 14, a close-range spell only reaches 60 feet.",
 			"",
-			"In indoor situations, most medium-range combat spells may as well have an infinite range, because at the level the caster gains access to the spell, the caster can reach 150 feet or more, and few encounters deal with ranges that far - the caster can hit anything he can see. Even outdoors, a spell with a 150-foot range can hit anything in sight on a typical game mat like a Paizo GameMastery Flip-Mat (24 inches by 30 inches is 120 feet by 150 feet). Long range is likewise all-encompassing, with a 400-foot minimum range translating to almost 7 feet on a game mat-longer than many tables used for gaming. Long range only comes into play in abstract situations like launching a {spell/fireball} at enemies across a large prairie, using {spell/dimension door} to return to an earlier (and safer) part of the dungeon, and so on.",
+			"In indoor situations, most medium-range combat spells may as well have an infinite range, because at the level the caster gains access to the spell, the caster can reach 150 feet or more, and few encounters deal with ranges that far - the caster can hit anything he can see. Even outdoors, a spell with a 150-foot range can hit anything in sight on a typical game mat like a Paizo GameMastery Flip-Mat (24 inches by 30 inches is 120 feet by 150 feet). Long range is likewise all-encompassing, with a 400-foot minimum range translating to almost 7 feet on a game mat - longer than many tables used for gaming. Long range only comes into play in abstract situations like launching a {spell/fireball} at enemies across a large prairie, using {spell/dimension door} to return to an earlier (and safer) part of the dungeon, and so on.",
 			"",
 			"Obviously, touch-range spells are the weakest type of spell, close-range spells are better but not extremely so, and medium- and long-range spells may as well be identical for most purposes. Given that the {feat/Enlarge Spell} feat doubles a spell's range at a cost of +1 spell level, and the {feat/Reach Spell} feat increases the range by one category (from touch to close, close to medium, medium to long), at a cost of +1 spell level, it's reasonable to balance a spell by assuming a +1 increase in level corresponds to increasing the range category by one. For example, a spell that works like {spell/cure light wounds} (normally 1st level) at close range instead of touch is appropriate for a 2nd-level spell.",
 			"",
@@ -3123,7 +3123,7 @@
 		"description": [
 			"{SOURCE Ultimate Magic/132}",
 			"",
-			"Whether or not spell resistance applies to a spell depends mostly on whether or not it is an instantaneous or ongoing magical effect. Spell resistance applies to instantaneous magical effects (such as {spell/fireball}) and ongoing magical effects (such as {spell/wall of fire}), but not to nonmagical effects or spells that create nonmagical effects, whether instantaneous or ongoing. For example, {spell/wall of stone} conjures an instantaneous wall of stone that cannot be dispelled; spell resistance doesn't help you walk through the spell's wall any more than it would if you tried to walk through a mortared stone wall in a castle-neither wall is magical, and both walls remain there even if you use {spell/dispel magic} or {spell/antimagic field} on them.",
+			"Whether or not spell resistance applies to a spell depends mostly on whether or not it is an instantaneous or ongoing magical effect. Spell resistance applies to instantaneous magical effects (such as {spell/fireball}) and ongoing magical effects (such as {spell/wall of fire}), but not to nonmagical effects or spells that create nonmagical effects, whether instantaneous or ongoing. For example, {spell/wall of stone} conjures an instantaneous wall of stone that cannot be dispelled; spell resistance doesn't help you walk through the spell's wall any more than it would if you tried to walk through a mortared stone wall in a castle - neither wall is magical, and both walls remain there even if you use {spell/dispel magic} or {spell/antimagic field} on them.",
 			"",
 			"The general rule is that most spells allow spell resistance. Only when you're deliberately designing a spell that creates a nonmagical object or nonmagical effect is spell resistance likely to be irrelevant. You can use {spell/move earth} (instantaneous duration) to create a hill, and spell resistance won't help you get over or through the hill because the spell moves the earth and thereafter stops being magical; likewise, you can use {spell/move earth} to create a pit, and spell resistance won't help you ignore the pit because it's a nonmagical pit, just as if you had created it with a shovel. {spell/Magic stone} adds magical power to stones, but spell resistance doesn't help protect against being hit by the stones any more than spell resistance helps protect against a +1 arrow because the magic is focused on the stones, not on the creature with spell resistance.",
 			"",
@@ -3195,7 +3195,7 @@
 			"",
 			"The advantage of spells that don't require material components is they don't require a spell component pouch (and in the rare circumstance in which if you're grappled, you needn't already have your material components in hand to cast the spell). Most material components are part of a spell for flavor rather than to satisfy rules. The guano and sulfur material components of {spell/fireball} are there because early gunpowder (black powder) was made from guano and sulfur. The fur and glass rod material components of {spell/lightning bolt} come from the ability to create a buildup of static electricity by rubbing fur against a glass rod. The game could present those spells without material components at all, and it would have a negligible effect on how the game plays (as proven by the \"it has whatever I need\" spell component pouch, and the sorcerer class getting Eschew Materials as a bonus feat) - they're just in the spell for fun. Balance your spell assuming it has no material components or free material components, and then add them in if the flavor seems appropriate.",
 			"",
-			"Costly material components should be used to prevent overzealous players from casting the spell as often as they want, because the spell either makes adventuring too easy if everyone in the party has it (such as {spell/stoneskin}), allows the PCs to bypass key adventuring experiences like exploring and investigating (such as {spell/augury}, {spell/divination}, and {spell/commune}), or allows the PCs to trivialize certain threats (such as {spell/raise dead} and {spell/restoration}). Balance a spell without costly material components if possible, usually by raising the spell level if it is too good for the intended level. Sometimes the power level of a spell is on target (like {spell/augury}, as it makes sense to have a low-level divination spell for clerics), but the spell is valuable enough that players will overuse it if it's free, so you have to apply a gp cost to moderate how often the PCs use it. Long-lasting defensive spells such as {spell/glyph of warding} also fit into this category; if they were free, every spellcaster would cover her lair in them, casting one per day for the weeks or months of planning the NPC has before the PCs arrive. By giving {spell/glyph of warding} a gp cost, it allows for more traditional adventuring-otherwise every square the PCs walk on is a potential trap, slowing play to a crawl as the PCs are forced to slowly and carefully search every square to notice the glyphs (given that a typical 5th-level rogue has +14 to Perception against a DC 28 glyph, meaning she fails most searches unless she takes 20).",
+			"Costly material components should be used to prevent overzealous players from casting the spell as often as they want, because the spell either makes adventuring too easy if everyone in the party has it (such as {spell/stoneskin}), allows the PCs to bypass key adventuring experiences like exploring and investigating (such as {spell/augury}, {spell/divination}, and {spell/commune}), or allows the PCs to trivialize certain threats (such as {spell/raise dead} and {spell/restoration}). Balance a spell without costly material components if possible, usually by raising the spell level if it is too good for the intended level. Sometimes the power level of a spell is on target (like {spell/augury}, as it makes sense to have a low-level divination spell for clerics), but the spell is valuable enough that players will overuse it if it's free, so you have to apply a gp cost to moderate how often the PCs use it. Long-lasting defensive spells such as {spell/glyph of warding} also fit into this category; if they were free, every spellcaster would cover her lair in them, casting one per day for the weeks or months of planning the NPC has before the PCs arrive. By giving {spell/glyph of warding} a gp cost, it allows for more traditional adventuring - otherwise every square the PCs walk on is a potential trap, slowing play to a crawl as the PCs are forced to slowly and carefully search every square to notice the glyphs (given that a typical 5th-level rogue has +14 to Perception against a DC 28 glyph, meaning she fails most searches unless she takes 20).",
 			"",
 			"Focus components are governed by the same rules as material components - in most cases they're just there for flavor, and are only relevant if costly. A costly focus is like a costly material component, except it's a one-time expenditure rather than a repeat expenditure, a barrier to entry that you can ignore once they've crossed the threshold. A costly focus is a good way to delay when PCs gain access to the spell, but once they have the materials, it's essentially just like any other spell without a costly focus. As with material components, balance the spell for its level, and if it seems like the spell is too good and delaying access to it would help moderate it, consider adding a costly focus component."
 		],
@@ -3359,7 +3359,7 @@
 			"",
 			"Avoid using language that implies something that the game mechanics of the spell don't back up. For example, a spell's description shouldn't say \"using the foul powers of necromancy\" if the spell doesn't actually have some sort of evil effect or the evil descriptor. This sort of mistake is most common with necromancy spells, which include not only many obviously evil spells, but also a fair share of helpful ones as well (such as {spell/astral projection}, {spell/gentle repose}, and {spell/undeath to death}). People who read your spell description may not know your intent, and using flavorful language can trick readers into thinking a spell should have additional effects not explicitly spelled out in the description.",
 			"",
-			"Remember that while you may be designing a spell with a particular character or class in mind, most spells are going to have a broader availability. You have to think of the spell in the hands of the biggest power gamer, and in use by a character who is very different than the one for whom it is designed. Even a simple sorcerer/wizard spell has to deal with two different types of casters: a wizard, who can learn many spells but can only cast a few per day, and a sorcerer, who knows few spells but can cast many per day. A spell that is good for a wizard may be too good when used by a sorcerer because the sorcerer can use it more times per day. Likewise, think of what happens if the PCs can access the spell in potion or scroll form-you may intend for the spell to be rare and for the PCs to not have it most of the time, but a wizard can create scrolls of rarely used spells and save them for just the right opportunity.",
+			"Remember that while you may be designing a spell with a particular character or class in mind, most spells are going to have a broader availability. You have to think of the spell in the hands of the biggest power gamer, and in use by a character who is very different than the one for whom it is designed. Even a simple sorcerer/wizard spell has to deal with two different types of casters: a wizard, who can learn many spells but can only cast a few per day, and a sorcerer, who knows few spells but can cast many per day. A spell that is good for a wizard may be too good when used by a sorcerer because the sorcerer can use it more times per day. Likewise, think of what happens if the PCs can access the spell in potion or scroll form - you may intend for the spell to be rare and for the PCs to not have it most of the time, but a wizard can create scrolls of rarely used spells and save them for just the right opportunity.",
 			"",
 			"When you finish writing a spell description, have others look it over. They'll notice things you missed, come up with questions your spell needs to address, and find ways your spell can be abused. Use that feedback to revise the spell."
 		],
@@ -3427,7 +3427,7 @@
 			"",
 			"However, attack bonuses, saving throw bonuses, Armor Class, hardness, CMB, CMD, initiative, speed, skill modifiers, and most other game statistics are not depletable statistics because no matter how low these statistics get, the affected creature or object is still able to take actions. For example, a spell that gives a target a -10 attack penalty has little effect on a sorcerer casting fireball, as would a spell that gave her a -10 penalty on her Will saving throws; despite her poor attack rolls and miserable Will saves, she is still quite capable of blasting her opponents to bits, whether these penalties are -10 or -100. Similarly, a fighter with a -10 penalty on Fortitude saving throws can still swing a sword, as can one with a -10 penalty to Armor Class; the fighter is still viable despite these penalties.",
 			"",
-			"\"Depletable statistic\" isn't an official game term, but it is a helpful concept when comparing power levels of spells-attacking depletable statistics is a war of attrition that can eventually wear down the target, whereas adding penalties to non-depletable statistics may have no effect at all, as the target may have other attacks that allow them to ignore those penalties."
+			"\"Depletable statistic\" isn't an official game term, but it is a helpful concept when comparing power levels of spells - attacking depletable statistics is a war of attrition that can eventually wear down the target, whereas adding penalties to non-depletable statistics may have no effect at all, as the target may have other attacks that allow them to ignore those penalties."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -3485,100 +3485,23 @@
 		"description": [
 			"{SOURCE Ultimate Magic/138}",
 			"",
-			"Some spells in the Core Rulebook are clearly the best of their spell level. Other spells are perfect examples of what a spell of that level or purpose should be able to do. These are \"benchmark\" spells, and when designing a new spell you should always compare your spell to the benchmark spells. If your spell is better than the benchmark spell, you should reduce its power or increase its spell level. The following is a list of benchmark spells by sorcerer/wizard spell level, with explanations of why they are benchmarks. If you create a spell and it's better than a comparable benchmark spell, your spell is too powerful."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells"
-		],
-		"subtopics": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		],
-		"siblings": [
-			"spell_terminology",
-			"bonus_type",
-			"description_um",
-			"hierarchy_of_attack_effects",
-			"depletable_statistics",
-			"multipurpose_spells",
-			"benchmarks"
-		]
-	},
-	"1st_level": {
-		"name": "1st Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/138}",
+			"Some spells in the Core Rulebook are clearly the best of their spell level. Other spells are perfect examples of what a spell of that level or purpose should be able to do. These are \"benchmark\" spells, and when designing a new spell you should always compare your spell to the benchmark spells. If your spell is better than the benchmark spell, you should reduce its power or increase its spell level. The following is a list of benchmark spells by sorcerer/wizard spell level, with explanations of why they are benchmarks. If you create a spell and it's better than a comparable benchmark spell, your spell is too powerful.",
+			"",
+			"### 1st Level",
 			"",
 			"{spell/Burning Hands}: This is the benchmark for 1st-level area attack spells. It is even better than sleep because it can affect up to six squares (sleep only affects 4 Hit Dice, which means up to 4 creatures) and affects mindless creatures and undead.",
 			"",
-			"{spell/Magic Missile}: Perhaps the best 1st-level spell in the game, {spell/magic missile} may not do a lot of damage, but it requires no attack roll, has a medium range, needs no saving throw, and harms incorporeal creatures. Even if {spell/magic missile} were 2nd-level, smart casters would still learn it."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"2nd_level": {
-		"name": "2nd Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/138}",
+			"{spell/Magic Missile}: Perhaps the best 1st-level spell in the game, {spell/magic missile} may not do a lot of damage, but it requires no attack roll, has a medium range, needs no saving throw, and harms incorporeal creatures. Even if {spell/magic missile} were 2nd-level, smart casters would still learn it.",
+			"",
+			"### 2nd Level",
 			"",
 			"{spell/Invisibility}: This is one of the best spells in the game, and is only improved on by {spell/greater invisibility} getting rid of the breaks-on-attack aspect. This spell is great for scouting, great in combat to set up attacks, and great for healers (as healing doesn't end the spell).",
 			"",
 			"{spell/Resist Energy}: This defensive spell works exactly like monster energy resistances, so it's a perfect example of the power level of this sort of spell. It also scales at higher caster levels, keeping it a viable spell even later in the game.",
 			"",
-			"{spell/Web}: This is a powerful, nonlethal spell that remains viable even at higher levels (even a lich who makes his save against a web has to deal with the difficult terrain and risks becoming stuck if he moves). It even provides cover, and can be set on fire to damage targets in the area."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"3rd_level": {
-		"name": "3rd Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"{spell/Web}: This is a powerful, nonlethal spell that remains viable even at higher levels (even a lich who makes his save against a web has to deal with the difficult terrain and risks becoming stuck if he moves). It even provides cover, and can be set on fire to damage targets in the area.",
+			"",
+			"### 3rd Level",
 			"",
 			"{spell/Dispel Magic}: This spell sets the standard for negating other magic without a specific counter.",
 			"",
@@ -3592,63 +3515,17 @@
 			"",
 			"{spell/Stinking Cloud}: Capable of neutralizing many foes at a good range, stinking cloud is the best multiple-target nonlethal spell of its level.",
 			"",
-			"{spell/Suggestion}: This is the lowest-level spell in which the caster is able to compel the target to act, yet the spell's control is still limited to \"reasonable actions.\""
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"4th_level": {
-		"name": "4th Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"{spell/Suggestion}: This is the lowest-level spell in which the caster is able to compel the target to act, yet the spell's control is still limited to \"reasonable actions.\"",
+			"",
+			"### 4th Level",
 			"",
 			"{spell/Dimension Door}: This is the lowest-level spell that lets you teleport; it has a limited range and disorients you until your next turn.",
 			"",
 			"{spell/Enervation}: This is the lowest-level spell that gives the target negative levels.",
 			"",
-			"{spell/Phantasmal Killer}: This is the lowest-level spell that can directly kill a creature, but allows two saves to resist it."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"5th_level": {
-		"name": "5th Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"{spell/Phantasmal Killer}: This is the lowest-level spell that can directly kill a creature, but allows two saves to resist it.",
+			"",
+			"### 5th Level",
 			"",
 			"{spell/Cloudkill}: This spell is key because it automatically kills weak creatures, deals poison damage each round to stronger creatures in the area, persists for several rounds, and moves.",
 			"",
@@ -3656,119 +3533,27 @@
 			"",
 			"{spell/Dominate Person}: This is the lowest-level spell that allows you to utterly control a hostile intelligent creature (with the exception of self-destructive orders).",
 			"",
-			"{spell/Wall of Stone}: This is the lowest-level spell that creates a large-scale, permanent (instantaneous) object out of nothing (compare as well to {spell/fabricate}, which permanently reshapes raw materials into finished goods)."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"6th_level": {
-		"name": "6th Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"{spell/Wall of Stone}: This is the lowest-level spell that creates a large-scale, permanent (instantaneous) object out of nothing (compare as well to {spell/fabricate}, which permanently reshapes raw materials into finished goods).",
+			"",
+			"### 6th Level",
 			"",
 			"{spell/Contingency}: This spell lets the caster set up conditions to trigger another spell effect, whether something direct such as a protective spell or something paranoid like an escape-teleport. In many ways it models what an immediate-action {feat/Quicken Spell} feat would be like. Because it lasts 1 day per level, the caster can prepare the contingency on one day and adventure the next day with a full allotment of spells.",
 			"",
-			"{spell/Guards and Wards}: Although not often used by PCs because they usually don't have permanent residences, this spell is important because it establishes that a large-area defensive spell can use multiple effects to protect a home and befuddle invaders."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"7th_level": {
-		"name": "7th Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"{spell/Guards and Wards}: Although not often used by PCs because they usually don't have permanent residences, this spell is important because it establishes that a large-area defensive spell can use multiple effects to protect a home and befuddle invaders.",
 			"",
-			"{spell/Limited Wish}: This powerful spell lets the caster pick effects from countless available lower-levels spells at the time of casting, even those from different class lists."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"8th_level": {
-		"name": "8th Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"### 7th Level",
+			"",
+			"{spell/Limited Wish}: This powerful spell lets the caster pick effects from countless available lower-levels spells at the time of casting, even those from different class lists.",
+			"",
+			"### 8th Level",
 			"",
 			"{spell/Clone}: This spell is the key to arcane immortality - it acts like {spell/contingency} plus {spell/raise dead} but costs fewer gp, and it can save characters even if all of them die unexpectedly.",
 			"",
 			"{spell/Irresistible Dance}: While this spell can't kill its target outright, it does prevent the target from taking actions and give the target huge penalties, and (in a way) it does so without allowing a saving throw (while the spell does technically allow a save, even a successful save applies these effects for 1 round).",
 			"",
-			"{spell/Mind Blank}: This spell is an example of a very narrowly focused defensive spell that is able to block even higher-level spells from affecting the target."
-		],
-		"parent_topics": [
-			"gamemastery",
-			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
-		],
-		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
-		]
-	},
-	"9th_level": {
-		"name": "9th Level",
-		"subtitle": "Benchmarks for Designing Spells",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/139}",
+			"{spell/Mind Blank}: This spell is an example of a very narrowly focused defensive spell that is able to block even higher-level spells from affecting the target.",
+			"",
+			"### 9th Level",
 			"",
 			"{spell/Gate}: This powerful spell combines all of the planar ally/planar binding effects and can be used to transport many creatures between planes.",
 			"",
@@ -3779,19 +3564,16 @@
 		"parent_topics": [
 			"gamemastery",
 			"mastering_magic",
-			"designing_spells",
-			"benchmarks"
+			"designing_spells"
 		],
 		"siblings": [
-			"1st_level",
-			"2nd_level",
-			"3rd_level",
-			"4th_level",
-			"5th_level",
-			"6th_level",
-			"7th_level",
-			"8th_level",
-			"9th_level"
+			"spell_terminology",
+			"bonus_type",
+			"description_um",
+			"hierarchy_of_attack_effects",
+			"depletable_statistics",
+			"multipurpose_spells",
+			"benchmarks"
 		]
 	},
 	"primal_magic": {
@@ -3801,7 +3583,7 @@
 			"{SOURCE Inner Sea Magic/12}  ",
 			"In its raw form, magic is not an ordered force - it is the all-encompassing chaos of possibility. The same energies that can be shaped to create explosive fireballs, raise the dead, divine the future, heal the sick, and summon demons can do that and more without the direction of skilled spellcasters. Normally, this unfocused magical potential does not exist in reality; it lies beyond reality, where it waits to be tapped. Where exactly magic comes from remains a lively debate today, but when magic is unleashed without any attempt to focus it - when it leaks into the world in its raw form - the result is known as primal magic.",
 			"",
-			"In some realms, particularly in planes like the Maelstrom or the Abyss in the Great Beyond, magic is left to indulge in its raw chaos as it wishes-here, primal magic is often called \"wild magic.\" On the Material Plane, the world feels the touch of primal magic when the laws of reality themselves have been damaged. Here, magic flows in unpredictable tides and currents. At one moment, a region might function normally while at another, magic won't function at all. Usually, though, primal magic holds sway.",
+			"In some realms, particularly in planes like the Maelstrom or the Abyss in the Great Beyond, magic is left to indulge in its raw chaos as it wishes - here, primal magic is often called \"wild magic.\" On the Material Plane, the world feels the touch of primal magic when the laws of reality themselves have been damaged. Here, magic flows in unpredictable tides and currents. At one moment, a region might function normally while at another, magic won't function at all. Usually, though, primal magic holds sway.",
 			"",
 			"Manifestations of primal magic tend to build up potential before they explode into existence. Just as a thunderstorm doesn't constantly lance the ground below with a constant beam of lightning, these bolts manifest periodically and almost randomly. And just as lightning can be called with lightning rods, primal magic can be purposefully or accidentally drawn out by utilizing magic in areas where such energies are building.",
 			"",
@@ -3817,7 +3599,7 @@
 			"",
 			"### Unleashing Primal Magic",
 			"",
-			"Areas affected by primal magic are like scars upon the rugged flesh of the world, invisibly and intangibly overlaid on the fabric of reality. Generally, areas of primal magic form in places afflicted by forces beyond mortal control-areas scoured by godly wrath, breaches between the planes, sites where powerful artifacts were destroyed. In most of these instances, the primal magic subsides as reality repairs itself, though it might take a matter of weeks, years, or even centuries. In the cases of extreme abuse, an area's magical cohesiveness might never recover, resulting in areas of permanent primal magic. In general, the location of existing areas of primal magic and the creation of new areas is left up to the GM, but should always be the result of magic of extraordinary force or of an arcane catastrophe of epic proportions. Such should be encountered only rarely, allowing such sites to retain their sense of danger and calamitous history.",
+			"Areas affected by primal magic are like scars upon the rugged flesh of the world, invisibly and intangibly overlaid on the fabric of reality. Generally, areas of primal magic form in places afflicted by forces beyond mortal control - areas scoured by godly wrath, breaches between the planes, sites where powerful artifacts were destroyed. In most of these instances, the primal magic subsides as reality repairs itself, though it might take a matter of weeks, years, or even centuries. In the cases of extreme abuse, an area's magical cohesiveness might never recover, resulting in areas of permanent primal magic. In general, the location of existing areas of primal magic and the creation of new areas is left up to the GM, but should always be the result of magic of extraordinary force or of an arcane catastrophe of epic proportions. Such should be encountered only rarely, allowing such sites to retain their sense of danger and calamitous history.",
 			"",
 			"### Sample Primal Magic Events",
 			"",
@@ -4144,7 +3926,7 @@
 		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
-			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action-generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the {spell/suffocation} spell, can expel all of a creature's held breath.",
+			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action - generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the {spell/suffocation} spell, can expel all of a creature's held breath.",
 			"",
 			"Once a creature has used up these rounds of safety, it lives on a knife's edge between life and death. Each round, the creature must succeed at a Constitution check, with a DC starting at 10 and increasing by 1 each round after the first. Once it fails this check, the creature begins to drown, falling unconscious (and dropping to 0 hit points if it currently had more), dropping to -1 hit points on the next round, and dying on the round after that. At any point, if the creature becomes able to breathe (perhaps because someone dragged it out of the water or cast a spell to assist it), it ceases drowning but doesn't regain any lost hit points. Note that if a creature holds its breath in a situation where it could normally breathe, it won't fall unconscious if it fails its Constitution check.",
 			"",
@@ -4395,13 +4177,13 @@
 			">",
 			">A creature can pull a number of vehicle squares equal to the number of squares in the creature's space to a top speed equal to twice the creature's speed. It can accelerate its space in vehicle squares up to its speed. For instance, a single horse takes up 4 squares, and can pull a 4-square cart 100 feet each round with an acceleration of 50 feet.",
 			">",
-			">***Pushed:*** Pushed vehicles are the exact opposite of pulled vehicles-vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be Diplomacy, Intimidate, or Handle Animal, depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.",
+			">***Pushed:*** Pushed vehicles are the exact opposite of pulled vehicles - vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be Diplomacy, Intimidate, or Handle Animal, depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.",
 			">",
 			">For intelligent creatures, use Diplomacy if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the Diplomacy driving check by 5 if the creatures providing the propulsion are friendly. Intimidate is used for intelligent creatures with an attitude of unfriendly or hostile. Handle Animal is used if the creatures providing the propulsion are not intelligent.",
 			">",
 			">A creature that is pushing a vehicle with the proper mechanical help can push between 5 times to 20 times its space in vehicle squares.",
 			"",
-			"The maximum speed and acceleration of a muscle-propelled vehicle depends on the mechanism used to assist the pushing-see the sample vehicle statistics for examples.",
+			"The maximum speed and acceleration of a muscle-propelled vehicle depends on the mechanism used to assist the pushing - see the sample vehicle statistics for examples.",
 			"",
 			"***Mixed Methods of Propulsion:*** Large and complicated vehicles, such as large sailing ships, often use multiple forms of propulsion. Sometimes multiple methods add flexibility, but often they work in concert to create faster movement. A vehicle with multiple methods of propulsion often requires a large crew to get it going and keep it moving. If a vehicle has two methods of propulsion, it uses its fastest speed and acceleration and then adds half the speed and acceleration of the secondfastest propulsion. Nothing is added for a third form of propulsion, except for the flexibility of having a back-up form of propulsion."
 		],

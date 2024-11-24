@@ -545,7 +545,7 @@
 			"",
 			"With the normal monster creation system, foundational statistics such as base attack bonus, saving throw bonuses, and hit points are calculated from a monster's creature type and class levels. In this system, a monster's array sets its main statistics based on the broad role and CR it fits into. Creature types and classes then adjust those statistics to better resemble a particular monster concept.",
 			"",
-			"Creature types and character classes are represented by \"grafts\"-groups of adjustments applied to an array's statistics. A monster made with this system is primarily defined either by its creature type or a character class. For example, a ghoul that is a powerful cleric would most likely use the cleric class graft rather than being defined primarily as undead. A fire giant with 3 levels in bard, on the other hand, should use the humanoid creature type graft and later choose some monster options that grant bardlike abilities.",
+			"Creature types and character classes are represented by \"grafts\" - groups of adjustments applied to an array's statistics. A monster made with this system is primarily defined either by its creature type or a character class. For example, a ghoul that is a powerful cleric would most likely use the cleric class graft rather than being defined primarily as undead. A fire giant with 3 levels in bard, on the other hand, should use the humanoid creature type graft and later choose some monster options that grant bardlike abilities.",
 			"",
 			"If the focus is on a creature type, choose the appropriate creature type graft and apply the adjustments in that graft as described in the next section. If the focus is on a class, still choose a creature type graft but only apply its \"automatic traits\" entry, then apply the class graft. Even if a dragon has 20 levels in rogue (thus using the rogue class graft), for example, it still gets a dragon's normal vision types and immunities."
 		],
@@ -3314,7 +3314,7 @@
 			"",
 			"***CR 19:*** The monster instead gains hp equal to quadruple its CR, deals 6 extra points of damage on Strength-based attacks, and gains a +4 bonus on Will saves.",
 			"",
-			"***Rend:*** If the monster hits the same target with two or more attacks in 1 round, it rends-dealing its high weapon damage. It can do this once per round.",
+			"***Rend:*** If the monster hits the same target with two or more attacks in 1 round, it rends - dealing its high weapon damage. It can do this once per round.",
 			"",
 			"***Slaying Attack:*** Once per day as a standard action, the monster can make a single attack that can kill a creature outright. On a hit, the attack deals normal damage and the target must succeed at a save or die. The type of save is either Fortitude or Will, chosen when the monster gains this option. This option typically appears only on monsters of CR 19 or higher.",
 			"",
@@ -3990,7 +3990,7 @@
 			"",
 			"Your monster's array - and potentially its grafts, spell list boons, and options - will tell you how many good and master skills to assign that monster. You should assign whatever feels right during this step. You might decide that an especially scholarly spellcaster monster should have more master skills than normal, or that you want to follow the construct array's guidelines and forgo giving your construct any good or master skills at all. In any case, the total number of skills you choose should be within one or two of the suggested numbers.",
 			"",
-			"Mark down all the skills the monster has and indicate their bonuses. Use the bonus as written-don't add the monster's ability modifier on top of it. For instance, a CR 9 combatant has a +7 for its highest ability modifier and a +17 for its master skill bonus. If you assigned the monster's highest ability modifier to Strength and picked Climb as a master skill, the monster would still get only a +17 bonus on Climb checks, not a +24."
+			"Mark down all the skills the monster has and indicate their bonuses. Use the bonus as written - don't add the monster's ability modifier on top of it. For instance, a CR 9 combatant has a +7 for its highest ability modifier and a +17 for its master skill bonus. If you assigned the monster's highest ability modifier to Strength and picked Climb as a master skill, the monster would still get only a +17 bonus on Climb checks, not a +24."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -4981,7 +4981,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"Pipes (Su) A satyr can play haunting melodies on his panpipes to affect all creatures within a 60-foot radius with a spell (Will +DC 15 negates). Each time it uses this ability, the satyr chooses charm person, fear, sleep, or suggestion. A creature that succeeds at its save can't be affected by the same set of pipes for 24 hours."
+			"**Pipes (Su):** A satyr can play haunting melodies on his panpipes to affect all creatures within a 60-foot radius with a spell (Will +DC 15 negates). Each time it uses this ability, the satyr chooses charm person, fear, sleep, or suggestion. A creature that succeeds at its save can't be affected by the same set of pipes for 24 hours."
 		],
 		"parent_topics": [
 			"optional_rules_systems",
@@ -5310,8 +5310,9 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"Dream Haunting (Su) The night hag can haunt a creature's dreams from her home on the Ethereal Plane. A creature she haunts takes 1 point of Constitution damage when it awakes.  ",
-			"Soul Broker (Su) As a standard action, the night hag can release one of her captured souls to fight at her side; see the night hag's lost soul statistics, below.",
+			"**Dream Haunting (Su):** The night hag can haunt a creature's dreams from her home on the Ethereal Plane. A creature she haunts takes 1 point of Constitution damage when it awakes.",
+			"",
+			"**Soul Broker (Su):** As a standard action, the night hag can release one of her captured souls to fight at her side; see the night hag's lost soul statistics, below.",
 			"",
 			"### Night Hag's Lost Soul",
 			"",
@@ -5384,7 +5385,7 @@
 			"",
 			"***Skills:*** In order to keep her command post, a marilith general needs guile and social skills. Therefore, she has more master skills than normal, but trades away one good skill in the bargain.",
 			"",
-			"***Damage:*** The marilith's multi-armed attacks make her damage complex to calculate. Doubling the damage for two natural attacks (50) gives her 100 points of damage. This is then increased by 50%-since her iterative attacks and tail are less likely to hit-for a total of 150. Dividing 150 by 10 attacks gets 15, which is 2d6+9 on Table 5-9. The tail slap is weaker, so it uses the low attack and damage values for secondary attacks in the three natural attacks column in the array. This reduces the marilith's overall damage, but not enough to necessitate increasing the rest of her damage.",
+			"***Damage:*** The marilith's multi-armed attacks make her damage complex to calculate. Doubling the damage for two natural attacks (50) gives her 100 points of damage. This is then increased by 50% - since her iterative attacks and tail are less likely to hit - for a total of 150. Dividing 150 by 10 attacks gets 15, which is 2d6+9 on Table 5-9. The tail slap is weaker, so it uses the low attack and damage values for secondary attacks in the three natural attacks column in the array. This reduces the marilith's overall damage, but not enough to necessitate increasing the rest of her damage.",
 			"",
 			"### Marilith General",
 			"",
@@ -6452,7 +6453,7 @@
 			"{SOURCE Blood of the Night/22}  ",
 			"\"Hunger\" is perhaps a misleading term to describe a vampire's lust for flesh, consciousness, or youth. As unliving things, they technically require no sustenance, and yet ravenousness is often considered a key characteristic of those who walk without life. In truth, this desire is driven not by need, but by psychological greed. Feasting grants the undead no physical nourishment, but does fill them with a pleasure and power they can't attain by any other means. For undead, the act of feeding can be likened to that of an addict satiating her inner demon.",
 			"",
-			"The basest monsters pursue their addiction to the exclusion of anything else, but vampires and other greater undead are closer to functioning addicts-simultaneously managing their hunger and their more high-minded schemes. If denied living nectar for too long, however, even the sharpest creatures hurl themselves at whichever warm, soft parts of the living they most covet.",
+			"The basest monsters pursue their addiction to the exclusion of anything else, but vampires and other greater undead are closer to functioning addicts - simultaneously managing their hunger and their more high-minded schemes. If denied living nectar for too long, however, even the sharpest creatures hurl themselves at whichever warm, soft parts of the living they most covet.",
 			"",
 			"This section presents optional rules for the hunger of undead creatures. Consult your GM if you want to use these rules in your game, since the added element of feeding can have a drastic effect on vampire-focused campaigns, especially for players running vampire PCs."
 		],
@@ -6488,7 +6489,7 @@
 			"",
 			"Other vampires are so frustrated by their immortal addiction that they dedicate their lives to the search for a cure for their affliction - or at least a substitute for feeding. This is more common for mortals unwillingly turned into vampires and those who truly understanding the ongoing implications of their transformation. Those nosferatu who have sufficient intellect are among the most likely to seek such a cure, and many feed with guilt.",
 			"",
-			"There are those who find the feeding process detestable, but whose fear of withdrawal convinces them to act on their hunger. To mortals, this revulsion-filled consumption is indistinguishable from savage bloodlust. Instead of pity and understanding, these vampires are greeted like any other of their kind-with stakes and torches and holy rage."
+			"There are those who find the feeding process detestable, but whose fear of withdrawal convinces them to act on their hunger. To mortals, this revulsion-filled consumption is indistinguishable from savage bloodlust. Instead of pity and understanding, these vampires are greeted like any other of their kind - with stakes and torches and holy rage."
 		],
 		"parent_topics": [
 			"optional_rules_systems",

@@ -1630,7 +1630,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		dataIndex.push({
 			t: checkForType[type],
 			p: checkForPrefix[link],
-			l: copyof || prop,
+			l: prop,
 			s: searchgroup
 		});
 	});

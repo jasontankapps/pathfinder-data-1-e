@@ -9,15 +9,15 @@ interface JsonDataProps {
 	subhierarchy?: [string, string][]
 }
 
-interface CopyOf<T> extends Partial<JsonDataProps> {
+interface MaybeCopyOf<T> extends Partial<JsonDataProps> {
 	copyof?: T
 }
 
 function getItem<T extends { not_found: JsonDataProps}> (id: keyof T | undefined, json: T): JsonDataProps {
-	let data = (json[id || "not_found"] || json.not_found) as CopyOf<keyof T>;
+	let data = (json[id || "not_found"] || json.not_found) as MaybeCopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...((json[copyof || "not_found"] || json.not_found) as CopyOf<keyof T>), ...etc};
+		data = {...((json[copyof || "not_found"] || json.not_found) as MaybeCopyOf<keyof T>), ...etc};
 	}
 	return data as JsonDataProps;
 };
@@ -25,10 +25,10 @@ function getItem<T extends { not_found: JsonDataProps}> (id: keyof T | undefined
 export default getItem;
 
 export function getGuaranteedItem<T> (id: keyof T, json: T): JsonDataProps {
-	let data = json[id] as CopyOf<keyof T>;
+	let data = json[id] as MaybeCopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...(json[copyof] as CopyOf<keyof T>), ...etc};
+		data = {...(json[copyof] as MaybeCopyOf<keyof T>), ...etc};
 	}
 	return data as JsonDataProps;
 };
