@@ -27,13 +27,13 @@
 			"",
 			"Removing and fitting barding takes five times as long as the figures given in {rule/Getting Into and Out of Armor}. A barded animal cannot be used to carry any load other than a rider, and normal saddlebags.",
 			"",
-			"| Type | Base Speed |",
-			"| --- | --- |",
-			"| Barding | (40 ft.) | (50 ft.) | (60 ft.) |",
+			"| Type | 40 ft. | 50 ft. | 60 ft. |",
+			"| --- | --- | --- | --- |",
+			"| Barding | 40 ft. | 50 ft. | 60 ft. |",
 			"| Medium armor | 30 ft. | 35 ft. | 40 ft. |",
 			"| Heavy armor | 30 ft.[^H] | 35 ft.[^H] | 40 ft.[^H] |",
 			"",
-			"[^H]: A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple.*"
+			"[^H]: A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple."
 		]
 	},
 	"armored_kilt": {
