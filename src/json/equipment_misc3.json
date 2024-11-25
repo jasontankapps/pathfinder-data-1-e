@@ -2220,7 +2220,7 @@
 			"**Price** 290 gp; **Weight** 12 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical spirit planchette set (treat as a board game worth 25 gp), 10 candles, 10 candlesticks, one entertainer's outfit, one harrow deck, one magnet, 10 sticks of incense, one scroll of augury, and two scrolls of prestidigitation."
+			"This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical spirit planchette set, 10 candles, 10 candlesticks, one entertainer's outfit, one harrow deck, one magnet, 10 sticks of incense, one scroll of augury, and two scrolls of prestidigitation."
 		]
 	},
 	"second-story_harness": {
@@ -3813,6 +3813,18 @@
 			"**Category** Adventuring Gear",
 			"",
 			"These offerings take many forms, such as food, incense, pinwheels, rare teas, perfectly smooth white pebbles, or stone tablets, but they are always kept in pouches tied with ribbon. Travelers in the Dragon Empires leave these offerings at the small shrines or holy sites that can be found scattered along roads. For 1 hour after a traveler leaves a spirit offering, any kami the traveler encounters has its initial attitude improved by one step. This attitude adjustment reverts to normal after 10 minutes unless the creature's attitude is adjusted further during that time, such as via the Diplomacy skill, in which case the kami's attitude does not revert after the offering's effect expires. Once a spirit offering has been used to improved a kami's attitude, it cannot be reused."
+		]
+	},
+	"spirit_planchette_set": {
+		"name": "Spirit Planchette Set",
+		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
+		"description": [
+			"## Spirit Planchette Set",
+			"{SOURCE Pathfinder #43: Haunting of Harrowstone/19}  ",
+			"**Price** 25 gp; **Weight** 5 lbs.  ",
+			"**Category** Adventuring Gear",
+			"",
+			"A spirit planchette is typically found in a wooden case along with a thin wooden board printed with numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in curiosity shops; while these items can be used as alternative components for {spell/augury} spells, only [magical spirit planchettes](magic-wondrous/spirit_planchette_brass) allow users to communicate with the other side."
 		]
 	},
 	"spirit_trumpet": {
