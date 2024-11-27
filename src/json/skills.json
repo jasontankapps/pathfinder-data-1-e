@@ -196,9 +196,6 @@
 			"**Try Again**: Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0."
 		]
 	},
-	"artistry": {
-		"copyof": "artistry_any"
-	},
 	"bluff": {
 		"name": "Bluff",
 		"sources": [
@@ -483,9 +480,6 @@
 			"**15 Ranks**: When you determine your progress, the result of your check is how much work you complete each day in silver pieces.  ",
 			"**20 Ranks**: You can craft magic armor, magic weapons, magic rings, and wondrous items that fall under your category of Craft using the normal Craft rules."
 		]
-	},
-	"craft": {
-		"copyof": "craft_any"
 	},
 	"diplomacy": {
 		"name": "Diplomacy",
@@ -1363,9 +1357,6 @@
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"arcana": {
-		"copyof": "knowledge_arcana"
-	},
 	"knowledge_dungeoneering": {
 		"name": "Knowledge (dungeoneering)",
 		"sources": [
@@ -1425,9 +1416,6 @@
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
-	},
-	"dungeoneering": {
-		"copyof": "knowledge_dungeoneering"
 	},
 	"knowledge_engineering": {
 		"name": "Knowledge (engineering)",
@@ -1495,9 +1483,6 @@
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"engineering": {
-		"copyof": "knowledge_engineering"
-	},
 	"knowledge_geography": {
 		"name": "Knowledge (geography)",
 		"sources": [
@@ -1564,9 +1549,6 @@
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"geography": {
-		"copyof": "knowledge_geography"
-	},
 	"knowledge_history": {
 		"name": "Knowledge (history)",
 		"sources": [
@@ -1624,9 +1606,6 @@
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
-	},
-	"history": {
-		"copyof": "knowledge_history"
 	},
 	"knowledge_local": {
 		"name": "Knowledge (local)",
@@ -1705,9 +1684,6 @@
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"local": {
-		"copyof": "knowledge_local"
-	},
 	"knowledge_nature": {
 		"name": "Knowledge (nature)",
 		"sources": [
@@ -1784,9 +1760,6 @@
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"nature": {
-		"copyof": "knowledge_nature"
-	},
 	"knowledge_nobility": {
 		"name": "Knowledge (nobility)",
 		"sources": [
@@ -1859,9 +1832,6 @@
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"nobility": {
-		"copyof": "knowledge_nobility"
-	},
 	"knowledge_planes": {
 		"name": "Knowledge (planes)",
 		"sources": [
@@ -1920,9 +1890,6 @@
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
-	},
-	"planes": {
-		"copyof": "knowledge_planes"
 	},
 	"knowledge_religion": {
 		"name": "Knowledge (religion)",
@@ -1998,9 +1965,6 @@
 			"**15 Ranks**: When you fail a Knowledge check, you can reroll the check at a -10 penalty. The competence bonus above also applies to saving throws against exceptional, spell-like, or supernatural abilities used by creatures you identify.  ",
 			"**20 Ranks**: Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
-	},
-	"religion": {
-		"copyof": "knowledge_religion"
 	},
 	"linguistics": {
 		"name": "Linguistics",
@@ -2157,9 +2121,6 @@
 			"",
 			"**Bards**: Lore is treated as a Knowledge skill for the purposes of bardic knowledge and lore master, as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill."
 		]
-	},
-	"lore": {
-		"copyof": "lore_any"
 	},
 	"perception": {
 		"name": "Perception",
@@ -2341,9 +2302,6 @@
 			"**20 Ranks**: Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a skill check with that skill, you can also attempt a Perform check and use the better result to determine the success of that skill check."
 		]
 	},
-	"perform": {
-		"copyof": "perform_any"
-	},
 	"profession_any": {
 		"name": "Profession (any)",
 		"sources": [
@@ -2404,9 +2362,6 @@
 			"**15 Ranks**: You can attempt checks to earn income once per day instead of once per week.  ",
 			"**20 Ranks**: When attempting Profession checks, you can choose to roll once instead of twice. If you do and the result of the roll is less than 10, replace it with 10. When answering questions about your Profession, you can always take 20."
 		]
-	},
-	"profession": {
-		"copyof": "profession_any"
 	},
 	"ride": {
 		"name": "Ride",
@@ -2875,7 +2830,7 @@
 			"",
 			"**Alchemical Supplies and Material Components**: Many alchemical supplies and material components can be found in the wilderness. You can forage enough supplies to approximate the contents of an alchemy crafting kit or a spell component pouch with a successful Survival check and 2d4 hours of effort, but the GM can rule that certain components simply aren't available in an area (for example, bat guano cannot be foraged in terrain where no bats live). If a component is unavailable in the area but its cost remains negligible, you can create a rudimentary substitute component from your foraged supplies with a successful Craft (alchemy) or Spellcraft check and 1 hour of effort (DC = 15 + double the level of the extract or spell). An extract or spell cast with such an improvised substitute has a 20% chance of failure (in addition to any other chance of failure). Focus components or costly material components cannot be foraged.",
 			"",
-			"**Herbs**: Foraging for specific herbs requires a {skill/Knowledge (nature)} or [Profession (herbalist)](skill/profession) check and follows special rules.",
+			"**Herbs**: Foraging for specific herbs requires a {skill/Knowledge (nature)} or [Profession (herbalist)](skill/profession_any) check and follows special rules.",
 			"",
 			"**Repair Materials and Improvised Tools**: A period of 1d6 hours and a successful Survival check are enough to forage rudimentary supplies to perform field repairs for damaged equipment when the proper tools and supplies are not available. On a successful check, a character gathers the equivalent of 2d6 gp in raw materials. She must still spend the time and attempt Craft or Spellcraft skill checks as normal to use these materials to repair an object, but she takes a -5 penalty on the check due to the foraged nature of the materials used. Repair materials gathered in this way cannot be sold.",
 			"",

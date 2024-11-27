@@ -129,7 +129,7 @@
 				"The section on {rule/skill descriptions} goes into more detail about what each skill entry looks like."
 			],
 			[
-				"- **TO:** This skill is *\"trained only\"*; you must have at least 1 rank in this skill in order to use it.",
+				"- **TO:** This skill is *\"trained only\"*; you must have at least 1 rank in this skill in order to use it for a task whose DC is over 10.",
 				"- **ACP:** Your armor may impose an *armor check penalty* while using this skill.",
 				"- **BS:** This is considered a *background skill* in the [alternate skill rules](rule/background_skills) in *Pathfinder Unchained*.",
 				"- **UN:** This is an [optional skill](rule/new_skills) introduced in *Pathfinder Unchained*.",
